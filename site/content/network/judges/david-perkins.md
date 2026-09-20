@@ -1,11 +1,11 @@
 +++
 title = "Judge David Perkins"
-description = "Wayne County Probate Court judge. Family donated to Banks-aligned campaigns. Banks ran a guardianship services company — guardianship cases route through Probate Court."
+description = "David Perkins — Wayne County Probate Court judge in Detroit. Public record profile of guardianship jurisdiction, campaign finance ties, and court connections for voters and journalists."
 weight = 4
 date = 2026-09-20
 
 [extra]
-keywords = "David Perkins judge, David Perkins Wayne County Probate, Perkins Banks connection"
+keywords = "David Perkins, David Perkins judge, David Perkins Wayne County, David Perkins Detroit"
 +++
 
 ## Position

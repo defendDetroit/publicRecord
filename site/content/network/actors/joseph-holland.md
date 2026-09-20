@@ -5,7 +5,7 @@ weight = 2
 date = 2026-09-20
 
 [extra]
-keywords = "Joseph Holland Detroit, Joseph Holland drug offender, Joseph Holland charter school, Purpose Foundation treasurer, MDOC 443789"
+keywords = "Joseph Holland Detroit, Joseph Holland MDOC, Joseph Holland Purpose Foundation, Joseph Holland convicted, Joseph Holland charter school treasurer, Joseph Holland Brian Banks"
 +++
 
 ## Identity

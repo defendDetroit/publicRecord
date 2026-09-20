@@ -1,11 +1,11 @@
 +++
 title = "Judge Aliyah Sabree"
-description = "Wayne County 3rd Circuit Court judge. MSU Law classmate of Banks (2010). Sister of Wayne County Treasurer Eric Sabree. Would know whether Banks' J.D. claims are false."
+description = "Aliyah Sabree — Wayne County judge, MSU Law classmate connection to Brian Banks. Public record profile for voters and journalists covering 3rd Circuit Court and network ties."
 weight = 3
 date = 2026-09-20
 
 [extra]
-keywords = "Aliyah Sabree judge, Aliyah Sabree Wayne County, Aliyah Sabree MSU Law, Sabree Banks connection"
+keywords = "Aliyah Sabree, Aliyah Sabree judge, Aliyah Sabree Wayne County, Aliyah Sabree MSU Law, Aliyah Sabree Detroit, Wayne County Probate Court"
 +++
 
 ## Position

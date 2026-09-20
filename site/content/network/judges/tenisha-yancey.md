@@ -1,11 +1,11 @@
 +++
 title = "Judge Tenisha Yancey"
-description = "Wayne County 3rd Circuit Court judge whose campaign paid $2,283 to Banks Strategy & Consultants LLC — a firm controlled solely by a convicted felon with 9 convictions."
+description = "Judge Tenisha Yancey — 36th District Court, MacDowell Preparatory Academy board chair. Campaign finance records show a $2,283 payment to Banks Strategy LLC in 2024."
 weight = 2
 date = 2026-09-20
 
 [extra]
-keywords = "Tenisha Yancey judge, Tenisha Yancey campaign, Tenisha Yancey Banks Strategy, Tenisha Yancey Wayne County"
+keywords = "Tenisha Yancey, Tenisha Yancey judge, Tenisha Yancey 36th District Court, Tenisha Yancey MacDowell, Tenisha Yancey board chair, Tenisha Yancey Brian Banks, Tenisha Yancey campaign finance, Banks Strategy LLC, MacDowell Preparatory Academy board, Detroit judge charter school"
 +++
 
 ## Position
@@ -23,9 +23,10 @@ keywords = "Tenisha Yancey judge, Tenisha Yancey campaign, Tenisha Yancey Banks 
 
 ## Key Facts
 
+- **Board Chair of MacDowell Preparatory Academy** — listed on school website and [independently confirmed by Clutch Justice](https://clutchjustice.com/2026/09/13/macdowell-preparatory-academy-academic-financial-record/) (*September 2026*)
 - A sitting Wayne County judge's campaign **directly paid** Banks' personal consulting LLC
 - Banks Strategy & Consultants LLC is controlled solely by a convicted felon (9 convictions, 6 felony) who claims a J.D. not confirmed by bar records
-- The payment creates a financial relationship between a judge and a known fraudster
+- The payment creates a documented financial relationship between a sitting judge and the network
 - Wayne County is the jurisdiction where Banks' school entities operate and generate cases
 
 ## Verify
@@ -36,3 +37,7 @@ keywords = "Tenisha Yancey judge, Tenisha Yancey campaign, Tenisha Yancey Banks 
 ---
 
 *All sources are public campaign finance records.*
+
+## Independent Reporting
+
+- [Clutch Justice: MacDowell Preparatory Academy Spends $15,217 a Student. Three Percent Can Do Grade-Level Math.](https://clutchjustice.com/2026/09/13/macdowell-preparatory-academy-academic-financial-record/) — Documents Yancey listed as Board Chair of MacDowell alongside Nicole Wells Stallworth; three sitting judges across both schools' governance

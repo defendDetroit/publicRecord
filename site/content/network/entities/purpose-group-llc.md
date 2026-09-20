@@ -5,7 +5,7 @@ weight = 3
 date = 2026-09-20
 
 [extra]
-keywords = "Purpose Group LLC, charter management organization, CMO fraud, Banks management company"
+keywords = "Purpose Group LLC, Purpose Group Michigan, Purpose Group Brian Banks, charter school management company Detroit"
 +++
 
 ## Entity Overview

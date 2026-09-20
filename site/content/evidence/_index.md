@@ -45,7 +45,7 @@ Four Wayne County judges have documented connections to the Banks network:
 
 | Document | Description |
 |----------|-------------|
-| MacDowell budget | $4.9M revenue, 72.67% to Purpose Group, $348K unaccounted |
+| MacDowell budget | $4.9M revenue, 72.67% to Purpose Group, 3% math proficiency ([independently confirmed](https://clutchjustice.com/2026/09/13/macdowell-preparatory-academy-academic-financial-record/)) |
 | Purpose Group LLC | LARA 803295082, organized by Perlmuter with liability shields |
 | Purpose Foundation | LARA 803294855, two felons in all four officer positions |
 | PAC filings | $14,500+ in fines, felon as treasurer |
@@ -58,6 +58,21 @@ Four Wayne County judges have documented connections to the Banks network:
 | Journalist Briefing Packet (7 story angles) | Sep 22, 2026 | **Prepared — distribution scheduled** |
 | Master Complaint Chain | Sep 16, 2026 | Filed |
 | DOE OIG Supplement (credential forgery) | Sep 17, 2026 | Filed |
+
+## Independent Reporting
+
+The following independent journalists and organizations have published on the same entities:
+
+| Source | Article | Date | Key Findings |
+|--------|---------|------|--------------|
+| **Clutch Justice** | [MacDowell Preparatory Academy Spends $15,217 a Student. Three Percent Can Do Grade-Level Math.](https://clutchjustice.com/2026/09/13/macdowell-preparatory-academy-academic-financial-record/) | Sep 13, 2026 | 3% math proficiency, statewide rank 1,443/1,488, three sitting judges in governance, $15K/student spending |
+| **Detroit Free Press** | [Back to Fool edition, starring Brian Banks](https://eu.freep.com/story/news/columnists/ml-elrick/2023/08/27/detroit-school-former-felon-as-principal/70669868007/) | Aug 27, 2023 | M.L. Elrick investigation: 8+ felony convictions, campaign finance violations, administrative law judge approved certificate |
+| **WXYZ Detroit** | [Wayne County judge's decision to dismiss infant murder case questioned](https://www.wxyz.com/news/local-news/investigations/wayne-county-judges-decision-to-dismiss-infant-murder-case-questioned) | 2024 | Prosecutor Kym Worthy alleged Judge Miller "displayed a bias throughout the trial" |
+| **SchoolDigger** | [MacDowell Preparatory Academy](https://www.schooldigger.com/go/MI/schools/0103304769/school.aspx) | Current | Bottom 3% statewide, 90.9% economically disadvantaged students |
+| **U.S. News** | [MacDowell Preparatory Academy](https://www.usnews.com/education/k12/michigan/macdowell-preparatory-academy-203303) | Current | 3% math, 12% reading proficiency |
+| **Ballotpedia** | [Cylenthia LaToye Miller](https://ballotpedia.org/Cylenthia_LaToye_Miller) | Current | On the ballot November 3, 2026 — Wayne County 3rd Circuit Court |
+
+*These are independent sources not affiliated with this investigation. Their findings corroborate the public-record evidence documented here.*
 
 ---
 

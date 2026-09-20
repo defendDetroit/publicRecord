@@ -1,11 +1,11 @@
 +++
 title = "MacDowell Preparatory Academy — Financial Extraction"
-description = "$4.9M in public funding. 72.67% extracted by Purpose Group LLC. $348,489 unaccounted management fee. $0 reported staff salaries. 3% math proficiency."
+description = "MacDowell Preparatory Academy Detroit — $4.9M revenue, 3% math proficiency, managed by Purpose Group LLC"
 weight = 2
 date = 2026-09-20
 
 [extra]
-keywords = "MacDowell Preparatory Academy, MacDowell Prep Detroit, charter school financial fraud, Purpose Group LLC"
+keywords = "MacDowell Preparatory Academy, MacDowell Prep Detroit, MacDowell charter school, MacDowell Preparatory Academy Brian Banks, MacDowell Preparatory Academy test scores, MacDowell Preparatory Academy board, Purpose Group Michigan LLC, DPSCD charter school Detroit, MacDowell Preparatory Academy math proficiency"
 +++
 
 ## School Overview
@@ -58,6 +58,12 @@ State Bar of Michigan search for "Brian Banks": **zero results**.
 - CMU charter authorization: [cmich.edu](https://www.cmich.edu)
 - Financial data: [mischooldata.org](https://www.mischooldata.org)
 - State Bar: [zeekbeek.com/SBM](https://zeekbeek.com/SBM) — search "Brian Banks" (zero results)
+
+## Independent Reporting
+
+- [Clutch Justice: MacDowell Preparatory Academy Spends $15,217 a Student. Three Percent Can Do Grade-Level Math.](https://clutchjustice.com/2026/09/13/macdowell-preparatory-academy-academic-financial-record/) — Comprehensive academic and financial analysis
+- [SchoolDigger: MacDowell Preparatory Academy](https://www.schooldigger.com/go/MI/schools/0103304769/school.aspx) — Ranked 1,443rd of 1,488 Michigan elementary schools (bottom 3%)
+- [U.S. News: MacDowell Preparatory Academy](https://www.usnews.com/education/k12/michigan/macdowell-preparatory-academy-203303) — 3% math proficiency, 12% reading proficiency
 
 ---
 

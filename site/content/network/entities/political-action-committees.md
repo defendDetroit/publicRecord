@@ -5,7 +5,7 @@ weight = 6
 date = 2026-09-20
 
 [extra]
-keywords = "Bank on Banks PAC, OFA Michigan, Banks political committee, campaign finance violations"
+keywords = "Brian Banks PAC, Bank on Banks PAC, Joseph Holland PAC treasurer, Michigan campaign finance fines"
 +++
 
 ## Overview

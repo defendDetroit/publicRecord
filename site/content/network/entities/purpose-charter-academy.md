@@ -5,7 +5,7 @@ weight = 1
 date = 2026-09-20
 
 [extra]
-keywords = "Purpose Charter Academy, Purpose Charter Academy Detroit, PCA Detroit, Brian Banks charter school"
+keywords = "Purpose Charter Academy, Purpose Charter Academy Detroit, PCA Detroit, Purpose Charter Academy Brian Banks, Purpose Charter Academy DPSCD, Purpose Charter Academy Law Public Service, charter school Detroit convicted felon"
 +++
 
 ## School Overview
@@ -65,6 +65,10 @@ Revenue passes through Purpose Group LLC rather than remaining under direct scho
 - School data: [mischooldata.org](https://www.mischooldata.org)
 - School website: [purposecharteracademy.com](https://www.purposecharteracademy.com)
 - State Bar: [zeekbeek.com/SBM](https://zeekbeek.com/SBM) — search "Brian Banks" (zero results)
+
+## Independent Reporting
+
+- [Detroit Free Press: Back to Fool — Brian Banks hired as principal](https://eu.freep.com/story/news/columnists/ml-elrick/2023/08/27/detroit-school-former-felon-as-principal/70669868007/) — How a convicted felon became a school administrator
 
 ---
 

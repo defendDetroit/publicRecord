@@ -5,7 +5,7 @@ weight = 1
 date = 2026-09-20
 
 [extra]
-keywords = "Sherry Gay-Dagnogo DPSCD, Gay-Dagnogo charter school, DPSCD charter authorization"
+keywords = "Sherry Gay-Dagnogo, Sherry Gay-Dagnogo DPSCD, Sherry Gay-Dagnogo Detroit, DPSCD charter authorization, Michigan House District 1"
 +++
 
 ## Position
