@@ -21,22 +21,21 @@
   --radius: 6px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #181a20;
-    --bg-alt: #1e2028;
-    --text: #e4e4e7;
-    --text-muted: #9ca3af;
-    --accent: #e4e4e7;
-    --accent-light: #93c5fd;
-    --border: #374151;
-    --link: #60a5fa;
-    --link-hover: #93c5fd;
-    --stat-bg: #1e293b;
-    --stat-text: #e4e4e7;
-    --highlight-bg: #422006;
-    --highlight-border: #a16207;
-  }
+/* Dark theme — applied via data-theme attribute (default) */
+:root[data-theme="dark"] {
+  --bg: #181a20;
+  --bg-alt: #1e2028;
+  --text: #e4e4e7;
+  --text-muted: #9ca3af;
+  --accent: #e4e4e7;
+  --accent-light: #93c5fd;
+  --border: #374151;
+  --link: #60a5fa;
+  --link-hover: #93c5fd;
+  --stat-bg: #1e293b;
+  --stat-text: #e4e4e7;
+  --highlight-bg: #422006;
+  --highlight-border: #a16207;
 }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -91,6 +90,22 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
   transition: background 0.15s, color 0.15s;
 }
 .nav-links a:hover { color: var(--text); background: var(--bg-alt); text-decoration: none; }
+/* Theme toggle */
+.theme-toggle {
+  background: none; border: 1px solid var(--border); cursor: pointer;
+  color: var(--text-muted); padding: 0.3rem; border-radius: 4px;
+  display: flex; align-items: center; justify-content: center;
+  transition: color 0.15s, border-color 0.15s;
+  margin-left: auto;
+}
+.theme-toggle:hover { color: var(--text); border-color: var(--text-muted); }
+:root[data-theme="dark"] .icon-moon { display: none; }
+:root[data-theme="dark"] .icon-sun { display: block; }
+:root:not([data-theme="dark"]) .icon-sun,
+:root[data-theme="light"] .icon-sun { display: none; }
+:root:not([data-theme="dark"]) .icon-moon,
+:root[data-theme="light"] .icon-moon { display: block; }
+
 .nav-toggle { display: none; background: none; border: none; cursor: pointer; padding: 0.5rem; }
 .nav-toggle span {
   display: block; width: 1.25rem; height: 2px;
@@ -98,7 +113,8 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
 }
 
 @media (max-width: 768px) {
-  .nav-toggle { display: block; margin-left: auto; }
+  .theme-toggle { margin-left: auto; }
+  .nav-toggle { display: block; margin-left: 0.5rem; }
   .nav-links {
     display: none; position: absolute; top: var(--nav-height);
     left: 0; right: 0; background: var(--bg);

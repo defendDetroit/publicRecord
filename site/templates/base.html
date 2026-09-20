@@ -18,6 +18,14 @@
   <meta name="twitter:description" content="{% block tw_desc %}{{ config.description }}{% endblock tw_desc %}">
   <meta name="keywords" content="{% block keywords %}Purpose Charter Academy, MacDowell Preparatory Academy, Brian Banks Detroit, Detroit charter school fraud, racketeering, public education, Black Mafia Family, BMF Detroit schools, charter school accountability{% endblock keywords %}">
   <link rel="describedby" href="{{ get_url(path='llms.txt') }}" type="text/plain" title="AI agent context">
+  <script>
+    // Theme toggle: default dark, respect saved preference, no flash
+    (function(){
+      var t = localStorage.getItem('theme');
+      if (t === 'light') document.documentElement.setAttribute('data-theme','light');
+      else document.documentElement.setAttribute('data-theme','dark');
+    })();
+  </script>
   <link rel="stylesheet" href="{{ get_url(path='css/main.css') }}">
   <link rel="alternate" type="application/atom+xml" title="{{ config.title }}" href="{{ get_url(path='atom.xml') }}">
   <script type="application/ld+json">
@@ -86,6 +94,10 @@
   <nav class="site-nav" aria-label="Main navigation">
     <div class="nav-inner">
       <a href="{{ config.base_url }}" class="nav-brand">Public Record</a>
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark/light mode" title="Toggle theme">
+        <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+        <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
       <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
@@ -124,14 +136,27 @@
 
   <script>
     (function() {
+      // Nav toggle
       var toggle = document.querySelector('.nav-toggle');
       var links = document.querySelector('.nav-links');
-      if (!toggle || !links) return;
-      toggle.addEventListener('click', function() {
-        var expanded = this.getAttribute('aria-expanded') === 'true';
-        this.setAttribute('aria-expanded', !expanded);
-        links.classList.toggle('open');
-      });
+      if (toggle && links) {
+        toggle.addEventListener('click', function() {
+          var expanded = this.getAttribute('aria-expanded') === 'true';
+          this.setAttribute('aria-expanded', !expanded);
+          links.classList.toggle('open');
+        });
+      }
+      // Theme toggle
+      var btn = document.getElementById('theme-toggle');
+      if (btn) {
+        btn.addEventListener('click', function() {
+          var html = document.documentElement;
+          var current = html.getAttribute('data-theme');
+          var next = current === 'dark' ? 'light' : 'dark';
+          html.setAttribute('data-theme', next);
+          localStorage.setItem('theme', next);
+        });
+      }
     })();
   </script>
 </body>
