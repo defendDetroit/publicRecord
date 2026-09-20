@@ -10,8 +10,10 @@
 ## ⚡ CRITICAL: Running for Judge in Banks' Home Jurisdiction
 | Race | Detail | Source |
 |------|--------|--------|
-| **32A District Court** | Candidate for judge | MI SOS election records |
+| **32A District Court** | Candidate for judge (2026) | MI SOS, LinkedIn |
+| Prior attempt | Lost 2014 primary for same seat — **12.9%** of vote (6th of 6 candidates) | Ballotpedia |
 | Jurisdiction | **Harper Woods** — where Banks actually lives (1968 Severn Rd, GPW MI 48236) | Candidate filing |
+| LinkedIn | "Candidate for the 32A District Court, Harper Woods" | linkedin.com/in/lamar-moreland-66656a15 |
 
 ## Why This Is a Severe Conflict
 1. Moreland is an **Assistant Attorney General** — the office that previously charged Banks with felonies (2016)
