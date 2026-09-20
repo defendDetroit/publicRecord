@@ -4,6 +4,16 @@ description = "Complete chronology of the Banks Enterprise — from 1998 crimina
 sort_by = "date"
 +++
 
+<div id="interactive-timeline"></div>
+<script src="/js/timeline-graph.js" defer></script>
+<noscript>
+
+*Interactive timeline requires JavaScript. Static version below.*
+
+</noscript>
+
+---
+
 ## Pre-2017: Criminal History
 
 | Date | Event | Source |
