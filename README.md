@@ -9,6 +9,14 @@ Everything here is public record. Clone freely. Verify everything.
 git clone https://git.primals.eco/publicRecord/detroit.git
 ```
 
+## Links
+
+| Resource | URL |
+|----------|-----|
+| **Live site** | [detroit.primals.eco](https://detroit.primals.eco) |
+| **Sovereign primary (Forgejo)** | [git.primals.eco/publicRecord/detroit](https://git.primals.eco/publicRecord/detroit) |
+| **sporePrint (ecoPrimals ecosystem)** | [sporeprint.primals.eco](https://sporeprint.primals.eco) |
+
 ---
 
 ## What This Is
@@ -85,8 +93,10 @@ git diff HEAD~1            # what changed in the last commit
 
 | Tier | Location | Purpose |
 |------|----------|---------|
-| **Primary** | `git.primals.eco/publicRecord/detroit` | Self-hosted Forgejo — sovereign, no takedown vector |
-| **Mirror** | `github.com/defendDetroit/publicRecord` | Public visibility, issue tracking, collaboration |
+| **Live site** | [detroit.primals.eco](https://detroit.primals.eco) | Browse evidence online |
+| **Primary** | [git.primals.eco/publicRecord/detroit](https://git.primals.eco/publicRecord/detroit) | Self-hosted Forgejo — sovereign, no takedown vector |
+| **Mirror** | [github.com/defendDetroit/publicRecord](https://github.com/defendDetroit/publicRecord) | Public visibility, issue tracking, collaboration |
+| **Ecosystem** | [sporeprint.primals.eco](https://sporeprint.primals.eco) | sporePrint ecoPrimals ecosystem |
 | **Local** | Developer machines | Full evidence archive with heavy media |
 
 ## For Journalists and Attorneys
