@@ -1,6 +1,6 @@
 +++
 title = "An Open Letter to Curtis Jackson (50 Cent)"
-description = "A U.S. Army veteran writes to Curtis Jackson about BMF's family running Detroit charter schools with 3% math proficiency."
+description = "An open letter to Curtis Jackson about BMF's family running Detroit charter schools with 3% math proficiency."
 date = 2026-10-01
 draft = true
 

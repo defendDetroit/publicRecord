@@ -1,6 +1,6 @@
 +++
 title = "About This Investigation"
-description = "Two veterans, public records, and 30 days of research."
+description = "One person, public records, and 30 days of research."
 +++
 
 ## The Methodology
@@ -13,31 +13,13 @@ using the sources linked in the [Verify](/validate/) section.
 Just LARA filings, OTIS records, Wayne County Register of Deeds, federal
 court dockets, campaign finance records, and LinkedIn screenshots.
 
-The investigation began when a veteran father discovered his children had been enrolled in a charter school run by a convicted felon — without his knowledge or consent. His friend, a fellow veteran and researcher, began examining the public record to help document what they found.
-
-## Kevin Mok
-
-U.S. Army veteran. Michigan State University graduate.
-Former Sandia National Laboratories researcher. Software engineer.
-
-Kevin began examining the public record while helping his longtime friend
-DaSean Mitchell document the institutions and individuals involved in the
-schools where DaSean's children were enrolled. What started as helping a
-friend navigate a custody dispute became a 30-day investigation that
-uncovered a network of convicted felons, shell entities, and judicial
-conflicts — all funded by public education dollars.
-
-## DaSean Mitchell
-
-Veteran. Father. The reason this investigation exists.
-
-DaSean's children were enrolled in a charter school run by a man with
-9 criminal convictions (6 felony, 3 misdemeanor). When DaSean attempted to
-unenroll them, the retaliation from the school's connected families led to
-custody battles, mail fraud, forged documents, and physical assault —
-and uncovered a network that extends far beyond one school.
-
-*DaSean's full story will be published with his consent.*
+The investigation began when a veteran father discovered his children had been
+enrolled in a charter school run by a convicted felon — without his knowledge
+or consent. A friend and fellow veteran began examining the public record to
+help document what they found. What started as helping a friend navigate a
+custody dispute became a 30-day investigation that uncovered a network of
+convicted felons, shell entities, and judicial conflicts — all funded by
+public education dollars.
 
 ## How This Site Works
 
@@ -69,6 +51,9 @@ In law, truth is an absolute defense. You cannot be liable for defamation if
 what you published is true. This site applies the same standard the
 ecosystem applies to science: **every claim resolves to a primary source**.
 Not because we say so — because you can check.
+
+The site's credibility comes from the reproducible evidence — not from who
+compiled it. **One person, public records, 30 days.**
 
 We don't cite authority. We cite LARA filing numbers, OTIS records, Wayne County
 Register of Deeds documents, and federal court dockets. The investigation is
