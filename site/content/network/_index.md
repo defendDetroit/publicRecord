@@ -8,6 +8,10 @@ This is not one bad actor. It is a **network** — convicted felons, judges, att
 
 Federal agencies received the complete map on September 22, 2026.
 
+<div id="network-graph" style="width:100%;min-height:400px;margin:2rem 0;border:1px solid var(--border,#dee2e6);border-radius:6px;overflow:hidden;"></div>
+<script src="/js/network-graph.js" defer></script>
+<noscript>
+
 ## Enterprise Structure
 
 ```
@@ -19,6 +23,8 @@ BRIAN RODERICK BANKS (9 convictions, 3 bankruptcies, fake J.D.)
 ├── JUDICIAL ─── 4 Wayne County judges with network ties
 └── ASSOCIATE ── Joseph Holland Jr (felon, co-resident, all financial roles)
 ```
+
+</noscript>
 
 ## Tiers
 
