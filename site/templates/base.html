@@ -31,6 +31,11 @@
         "author": {
           "@type": "Person",
           "name": "{{ config.extra.author }}"
+        },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "{{ config.base_url }}/search?q={search_term_string}",
+          "query-input": "required name=search_term_string"
         }
       },
       {
@@ -39,7 +44,38 @@
         "description": "Public evidence documenting racketeering in Detroit charter schools — convicted felons, corrupt judges, drug traffickers, and millions in misused public education funding.",
         "author": { "@type": "Person", "name": "{{ config.extra.author }}" },
         "datePublished": "2026-09-22",
-        "publisher": { "@type": "Person", "name": "{{ config.extra.author }}" }
+        "publisher": { "@type": "Person", "name": "{{ config.extra.author }}" },
+        "about": [
+          {
+            "@type": "EducationalOrganization",
+            "name": "Purpose Charter Academy",
+            "alternateName": ["PCA", "Purpose Charter Academy Detroit"],
+            "address": { "@type": "PostalAddress", "addressLocality": "Detroit", "addressRegion": "MI" }
+          },
+          {
+            "@type": "EducationalOrganization",
+            "name": "MacDowell Preparatory Academy",
+            "address": { "@type": "PostalAddress", "addressLocality": "Detroit", "addressRegion": "MI" }
+          }
+        ],
+        "keywords": "charter school fraud, racketeering, Detroit education, BMF, public accountability"
+      },
+      {
+        "@type": "Organization",
+        "name": "ecoPrimals",
+        "url": "https://sporeprint.primals.eco",
+        "sameAs": [
+          "https://github.com/ecoPrimals",
+          "https://git.primals.eco/ecoPrimals"
+        ],
+        "description": "Self-hosted scientific computing in pure Rust"
+      },
+      {
+        "@type": "SoftwareSourceCode",
+        "name": "publicRecord/detroit",
+        "codeRepository": "{{ config.extra.repo_url }}",
+        "programmingLanguage": "Markdown",
+        "description": "Git-signed, timestamped public evidence repository for Detroit charter school racketeering investigation"
       }
     ]
   }

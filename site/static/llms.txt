@@ -1,0 +1,38 @@
+# detroit.primals.eco — Public Evidence Library
+
+> Cash for Kids 2: A Public Record — documenting racketeering in Detroit charter schools
+
+This site is the public evidence library for a federal racketeering investigation
+targeting a network of convicted felons, corrupt judges, and captured institutions
+extracting millions in public education dollars from Detroit's most vulnerable children.
+
+## Sections
+
+- [Open Letters](https://detroit.primals.eco/open-letters/): Letters to public figures connected to the network, published after private delivery
+- [Evidence Library](https://detroit.primals.eco/evidence/): Public-record documents organized by category
+- [Network Map](https://detroit.primals.eco/network/): Actors, judges, institutions, and their connections
+- [Timeline](https://detroit.primals.eco/timeline/): Chronology of events, filings, and discoveries
+- [Book Analysis](https://detroit.primals.eco/books/): Analysis of books by network members — zero victims named
+- [Verify Everything](https://detroit.primals.eco/validate/): Links and instructions for independent verification via OTIS, LARA, PACER, ROD
+- [About](https://detroit.primals.eco/about/): Methodology — one person, public records, 30 days
+- [Contact](https://detroit.primals.eco/contact/): For harmed parties, media, and whistleblowers
+
+## Source Repository
+
+All documents are git-signed and timestamped at:
+https://git.primals.eco/publicRecord/detroit
+
+Clone the repo to verify everything independently.
+
+## Key Entities
+
+- Purpose Charter Academy (PCA) — K-5 charter school, Detroit
+- MacDowell Preparatory Academy — K-8 charter school, Detroit
+- Brian Banks — superintendent, 8+ felony convictions, fake J.D. and Ph.D.
+- Joseph Holland — financial officer, convicted drug trafficker (MDOC #443789)
+- Tonesa Welch — BMF "First Lady", federal defendant, Banks' blood relative
+
+## Infrastructure
+
+Built on ecoPrimals infrastructure (https://sporeprint.primals.eco).
+Static site generated with Zola, served via Caddy with TLS.
