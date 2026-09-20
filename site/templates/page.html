@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block title %}{{ page.title }} — {{ config.title }}{% endblock title %}
+{% block description %}{{ page.description | default(value=config.description) }}{% endblock description %}
+{% block og_title %}{{ page.title }}{% endblock og_title %}
+{% block og_desc %}{{ page.description | default(value=config.description) }}{% endblock og_desc %}
+{% block og_type %}article{% endblock og_type %}
+
+{% block content %}
+<article class="page-content">
+  <header>
+    <h1>{{ page.title }}</h1>
+    {% if page.date %}
+    <time datetime="{{ page.date | date(format='%Y-%m-%d') }}">{{ page.date | date(format="%B %d, %Y") }}</time>
+    {% endif %}
+    {% if page.extra.recipient %}
+    <div class="letter-meta">
+      <p><strong>To:</strong> {{ page.extra.recipient }}</p>
+      {% if page.extra.sent_via %}<p><strong>Sent via:</strong> {{ page.extra.sent_via }}</p>{% endif %}
+      {% if page.extra.sent_date %}<p><strong>Sent:</strong> {{ page.extra.sent_date }}</p>{% endif %}
+      {% if page.extra.response_status %}
+      <p class="response-status"><strong>Response:</strong> {{ page.extra.response_status }}</p>
+      {% endif %}
+    </div>
+    {% endif %}
+  </header>
+
+  <div class="content-body">
+    {{ page.content | safe }}
+  </div>
+
+  <footer class="page-footer">
+    <p class="provenance">
+      This document is part of the
+      <a href="{{ config.extra.repo_url }}">public record repository</a>.
+      Every commit is timestamped and hashed. Clone the repo to verify.
+    </p>
+  </footer>
+</article>
+{% endblock content %}

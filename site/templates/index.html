@@ -1,0 +1,81 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="hero">
+  <h1>Cash for Kids 2: A Public Record</h1>
+  <p class="hero-sub">Documenting racketeering in Detroit charter schools.</p>
+
+  <div class="stats-bar">
+    <div class="stat">
+      <span class="stat-number">$4.9M</span>
+      <span class="stat-label">Annual public funding</span>
+    </div>
+    <div class="stat">
+      <span class="stat-number">3%</span>
+      <span class="stat-label">Math proficiency</span>
+    </div>
+    <div class="stat">
+      <span class="stat-number">8+</span>
+      <span class="stat-label">Felony convictions</span>
+    </div>
+    <div class="stat">
+      <span class="stat-number">8</span>
+      <span class="stat-label">Federal agencies notified</span>
+    </div>
+  </div>
+</section>
+
+<section class="summary">
+  <h2>What This Is</h2>
+  <p>
+    A convicted felon with 8+ felony convictions runs two Detroit charter schools
+    receiving millions in public education funding. His financial officer is a
+    convicted drug trafficker. Sitting judges serve on his school boards with
+    undisclosed conflicts of interest. His blood relative is a federal defendant
+    in the BMF (Black Mafia Family) case.
+  </p>
+  <p>
+    This site is the <strong>public evidence library</strong>. Every claim is
+    cited to public records. Every document is timestamped in a
+    <a href="{{ config.extra.repo_url }}">git repository</a> that anyone can clone
+    and verify. Nothing here is anonymous. Nothing is hidden.
+  </p>
+</section>
+
+<section class="cta-row">
+  <a href="{{ get_url(path='@/open-letters/_index.md') }}" class="cta">Read the Letters</a>
+  <a href="{{ get_url(path='@/evidence/_index.md') }}" class="cta">See the Evidence</a>
+  <a href="{{ get_url(path='@/validate/_index.md') }}" class="cta cta-outline">Verify Everything</a>
+</section>
+
+<section class="network-preview">
+  <h2>The Network</h2>
+  <p>
+    This is not one bad actor. It is a network — felons, judges, attorneys, and
+    institutions connected through boards, campaigns, property, and family.
+    Federal agencies received the complete map on September 22, 2026.
+  </p>
+  <p><a href="{{ get_url(path='@/network/_index.md') }}">See the full network map →</a></p>
+</section>
+
+<section class="for-parents">
+  <h2>For Parents</h2>
+  <p>
+    If your child attends <strong>Purpose Charter Academy</strong> or
+    <strong>MacDowell Preparatory Academy</strong> in Detroit, you have the
+    right to know who is running these schools and who handles the money.
+    This site provides that information from public records.
+  </p>
+</section>
+
+<section class="for-media">
+  <h2>For Journalists</h2>
+  <p>
+    Everything on this site is sourced from public records. The
+    <a href="{{ config.extra.repo_url }}">git repository</a> contains the
+    original documents. Clone the repo and you have the complete evidence
+    package with full provenance chain. No FOIA required — it's already public.
+  </p>
+  <p>Contact: <a href="{{ get_url(path='@/contact/_index.md') }}">secure contact options</a></p>
+</section>
+{% endblock content %}

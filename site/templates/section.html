@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block title %}{{ section.title }} — {{ config.title }}{% endblock title %}
+{% block description %}{{ section.description | default(value=config.description) }}{% endblock description %}
+{% block og_title %}{{ section.title }} — {{ config.title }}{% endblock og_title %}
+{% block og_desc %}{{ section.description | default(value=config.description) }}{% endblock og_desc %}
+
+{% block content %}
+<article class="section-page">
+  <h1>{{ section.title }}</h1>
+
+  {% if section.content %}
+  <div class="section-content">
+    {{ section.content | safe }}
+  </div>
+  {% endif %}
+
+  {% if section.pages %}
+  <ul class="page-list">
+    {% for page in section.pages %}
+    <li>
+      <a href="{{ page.permalink }}">
+        <strong>{{ page.title }}</strong>
+        {% if page.description %}<span class="page-desc">{{ page.description }}</span>{% endif %}
+        {% if page.date %}<time>{{ page.date | date(format="%B %d, %Y") }}</time>{% endif %}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+
+  {% if section.subsections %}
+  <ul class="subsection-list">
+    {% for sub in section.subsections %}
+    {% set subsec = get_section(path=sub) %}
+    <li><a href="{{ subsec.permalink }}">{{ subsec.title }}</a></li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+</article>
+{% endblock content %}

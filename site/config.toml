@@ -1,0 +1,26 @@
+base_url = "https://detroit.primals.eco"
+title = "Cash for Kids 2: A Public Record"
+description = "Public evidence library documenting racketeering in Detroit charter schools. Convicted felons running schools. Judges on school boards. Drug traffickers handling finances. $4.9M in public funding. 3% math proficiency. Every fact cited. Every document timestamped. Verify everything."
+compile_sass = false
+build_search_index = true
+generate_feeds = true
+feed_filenames = ["atom.xml"]
+minify_html = true
+
+[markdown]
+smart_punctuation = true
+
+[markdown.highlighting]
+enabled = true
+light_theme = "github-light"
+dark_theme = "github-dark"
+
+[search]
+include_title = true
+include_description = true
+include_content = true
+
+[extra]
+author = "Kevin Mok"
+repo_url = "https://git.primals.eco/publicRecord/detroit"
+contact_email = "eco.primal@pm.me"

@@ -1,0 +1,103 @@
+{# SPDX-License-Identifier: CC-BY-SA-4.0 #}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}{{ config.title }}{% endblock title %}</title>
+  <meta name="description" content="{% block description %}{{ config.description }}{% endblock description %}">
+  <link rel="canonical" href="{{ current_url | default(value=config.base_url) | safe }}">
+  <meta property="og:title" content="{% block og_title %}{{ config.title }}{% endblock og_title %}">
+  <meta property="og:description" content="{% block og_desc %}{{ config.description }}{% endblock og_desc %}">
+  <meta property="og:type" content="{% block og_type %}website{% endblock og_type %}">
+  <meta property="og:url" content="{{ current_url | default(value=config.base_url) }}">
+  <meta property="og:site_name" content="Cash for Kids 2 — A Public Record">
+  <meta property="og:image" content="{% block og_image %}{{ get_url(path='img/og-default.png') }}{% endblock og_image %}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{% block tw_title %}{{ config.title }}{% endblock tw_title %}">
+  <meta name="twitter:description" content="{% block tw_desc %}{{ config.description }}{% endblock tw_desc %}">
+  <meta name="keywords" content="{% block keywords %}Purpose Charter Academy, MacDowell Preparatory Academy, Brian Banks Detroit, Detroit charter school fraud, racketeering, public education, Black Mafia Family, BMF Detroit schools, charter school accountability{% endblock keywords %}">
+  <link rel="stylesheet" href="{{ get_url(path='css/main.css') }}">
+  <link rel="alternate" type="application/atom+xml" title="{{ config.title }}" href="{{ get_url(path='atom.xml') }}">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "name": "{{ config.title }}",
+        "url": "{{ config.base_url }}",
+        "description": "{{ config.description }}",
+        "author": {
+          "@type": "Person",
+          "name": "{{ config.extra.author }}"
+        }
+      },
+      {
+        "@type": "ReportageNewsArticle",
+        "headline": "Cash for Kids 2: Operation Detroit Plantation",
+        "description": "Public evidence documenting racketeering in Detroit charter schools — convicted felons, corrupt judges, drug traffickers, and millions in misused public education funding.",
+        "author": { "@type": "Person", "name": "{{ config.extra.author }}" },
+        "datePublished": "2026-09-22",
+        "publisher": { "@type": "Person", "name": "{{ config.extra.author }}" }
+      }
+    ]
+  }
+  </script>
+  <link rel="icon" type="image/svg+xml" href="{{ get_url(path='favicon.svg') }}">
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to content</a>
+
+  <nav class="site-nav" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="{{ config.base_url }}" class="nav-brand">Public Record</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="{{ get_url(path='@/open-letters/_index.md') }}">Open Letters</a></li>
+        <li><a href="{{ get_url(path='@/evidence/_index.md') }}">Evidence</a></li>
+        <li><a href="{{ get_url(path='@/network/_index.md') }}">Network Map</a></li>
+        <li><a href="{{ get_url(path='@/timeline/_index.md') }}">Timeline</a></li>
+        <li><a href="{{ get_url(path='@/books/_index.md') }}">Book Analysis</a></li>
+        <li><a href="{{ get_url(path='@/validate/_index.md') }}">Verify</a></li>
+        <li><a href="{{ get_url(path='@/about/_index.md') }}">About</a></li>
+        <li><a href="{{ config.extra.repo_url }}" rel="noopener">Git Repo</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main id="main" class="site-main">
+    {% block content %}{% endblock content %}
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p><strong>Every fact is cited. Every document is timestamped. Every letter is open.</strong></p>
+      <p>
+        Source: <a href="{{ config.extra.repo_url }}">git.primals.eco/publicRecord/detroit</a> —
+        clone the repo, verify everything.
+      </p>
+      {% block commit_info %}{% endblock commit_info %}
+      <p class="footer-license">
+        Original analysis: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a>.
+        Court filings and public records: public domain where applicable.
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    (function() {
+      var toggle = document.querySelector('.nav-toggle');
+      var links = document.querySelector('.nav-links');
+      if (!toggle || !links) return;
+      toggle.addEventListener('click', function() {
+        var expanded = this.getAttribute('aria-expanded') === 'true';
+        this.setAttribute('aria-expanded', !expanded);
+        links.classList.toggle('open');
+      });
+    })();
+  </script>
+</body>
+</html>
