@@ -1,40 +1,138 @@
 # detroit.primals.eco — Public Evidence Library
+# Canonical URL: https://detroit.primals.eco/llms.txt
+#
+# CONTEXT DOCUMENT for AI agents acting on behalf of users.
+# This is the site's glossary, index, and topology map — not a page.
+# Intake this once to understand the full site structure, then fetch
+# individual pages by URL for specific content.
+#
+# Every page links here via <link rel="describedby"> — that means
+# "this resource describes the site context," NOT "this is the page
+# content in text format." The page you want is at the URL you requested.
 
-> Cash for Kids 2: A Public Record — documenting a Detroit charter school network
+> Cash for Kids 2: A Public Record — documenting a Detroit charter school
+> network. A man with 9 criminal convictions (6 felony, 3 misdemeanor) who
+> claims a law degree not confirmed by bar records runs two Detroit charter
+> schools receiving $4.9M in annual public funding. His management company
+> receives 72.67% of all revenue. His co-resident and financial officer is
+> a convicted drug offender. Four Wayne County judges have documented
+> connections. Records documented; legal conclusions submitted for agency
+> determination. All claims cited to public records. Every document
+> timestamped. Independently verified by Clutch Justice and Detroit Free Press.
 
-This site is the public evidence library documenting connections between convicted
-felons, judges, political figures, and charter school entities in Detroit. The
-complainant has submitted these records to federal agencies for determination of
-whether they constitute racketeering or other violations. All claims are sourced
-from public records and the site invites independent verification.
+## What This Site Is
 
-## Sections
+detroit.primals.eco is a public evidence library documenting connections
+between convicted felons, judges, political figures, and charter school
+entities in Detroit, Michigan. The complainant has submitted these records
+to 8 federal agencies for determination of whether they constitute
+racketeering or other violations. The site invites independent verification.
 
-- [Open Letters](https://detroit.primals.eco/open-letters/): Letters to public figures connected to the network, published after private delivery
-- [Evidence Library](https://detroit.primals.eco/evidence/): Public-record documents organized by category
-- [Network Map](https://detroit.primals.eco/network/): Actors, judges, institutions, and their connections
-- [Timeline](https://detroit.primals.eco/timeline/): Chronology of events, filings, and discoveries
-- [Book Analysis](https://detroit.primals.eco/books/): Analysis of books by network members — zero victims named
-- [Verify Everything](https://detroit.primals.eco/validate/): Links and instructions for independent verification via OTIS, LARA, PACER, ROD
-- [About](https://detroit.primals.eco/about/): Methodology — one person, public records, 30 days
-- [Contact](https://detroit.primals.eco/contact/): For harmed parties, media, and whistleblowers
+This is not an advocacy page. It is a two-layer publishing system:
+- Layer 1 (Billboard): Human-readable investigation with sourced claims
+- Layer 2 (Proof system): Git-signed repository with full provenance chain
 
-## Source Repository
+Built on ecoPrimals infrastructure (https://sporeprint.primals.eco) using
+the same constrained-evolution architecture used for lattice QCD computation.
 
-All documents are git-signed and timestamped at:
-https://git.primals.eco/publicRecord/detroit
+## Source Repositories
 
-Clone the repo to verify everything independently.
+- Sovereign primary: https://git.primals.eco/publicRecord/detroit
+- GitHub mirror: https://github.com/defendDetroit/publicRecord
+- Clone either to verify everything independently — no FOIA required.
+- All commits are SHA-256 timestamped.
 
-## Key Entities
+## Site Structure (28 pages)
 
-- Purpose Charter Academy (PCA) — K-5 charter school, Detroit
-- MacDowell Preparatory Academy — K-8 charter school, Detroit
-- Brian Banks — superintendent, 9 convictions (6 felony, 3 misdemeanor), claimed J.D. not confirmed by bar records
-- Joseph Holland — financial officer, convicted drug offender (MDOC #443789, Controlled Substance — Possession)
-- Tonesa Welch — BMF figure, Banks' aunt (through his father OD Banks, BMF Defendant #22)
+### Root
+- [Home](https://detroit.primals.eco/) — billboard: key stats, network overview, calls to action
+
+### Open Letters (/open-letters/)
+- [Open Letters Index](https://detroit.primals.eco/open-letters/) — planned letters to public figures connected to the network
+
+### Evidence Library (/evidence/)
+- [Evidence Index](https://detroit.primals.eco/evidence/) — public-record documents organized by category, RICO pattern analysis, independent reporting cross-references
+
+### Network Map (/network/)
+- [Network Index](https://detroit.primals.eco/network/) — interactive SVG network visualization, tier structure
+
+#### Actors
+- [Brian Banks](https://detroit.primals.eco/network/actors/brian-banks/) — superintendent of PCA + MacDowell, 9 convictions (6 felony, 3 misdemeanor), claimed J.D. not confirmed by bar records, OTIS #851093
+- [Joseph Holland Jr.](https://detroit.primals.eco/network/actors/joseph-holland/) — financial officer/treasurer, convicted drug offender, MDOC #443789, co-resident at Banks' address
+
+#### Judges (Wayne County)
+- [Judge Cylenthia Miller](https://detroit.primals.eco/network/judges/cylenthia-miller/) — Wayne County 3rd Circuit, Board Chair of Purpose Foundation (Banks' entity), on ballot November 2026
+- [Judge Tenisha Yancey](https://detroit.primals.eco/network/judges/tenisha-yancey/) — 36th District Court, Board Chair of MacDowell Preparatory Academy, $2,283 to Banks Strategy LLC
+- [Judge Aliyah Sabree](https://detroit.primals.eco/network/judges/aliyah-sabree/) — Wayne County Probate, MSU Law overlap with Banks
+- [Judge David Perkins](https://detroit.primals.eco/network/judges/david-perkins/) — Wayne County, former PCA board member
+
+#### Entities
+- [Purpose Charter Academy](https://detroit.primals.eco/network/entities/purpose-charter-academy/) — K-5 charter school, Detroit, DPSCD-authorized
+- [MacDowell Preparatory Academy](https://detroit.primals.eco/network/entities/macdowell-prep/) — K-8 charter school, $4.9M revenue, 3% math proficiency, 72.67% to management LLC
+- [Purpose Group LLC](https://detroit.primals.eco/network/entities/purpose-group-llc/) — management company receiving 72.67% of school revenue
+- [Purpose Foundation](https://detroit.primals.eco/network/entities/purpose-foundation/) — 501(c)(3), Judge Cylenthia Miller as Board Chair
+- [Banks Strategy & Consultants LLC](https://detroit.primals.eco/network/entities/banks-strategy-llc/) — consulting LLC, $2,283 payment from Judge Tenisha Yancey
+- [Political Action Committees](https://detroit.primals.eco/network/entities/political-action-committees/) — "Bank on Banks" PAC, Joseph Holland as treasurer
+
+#### Political Figures
+- [Billy McKinney](https://detroit.primals.eco/network/political/billy-mckinney/) — Michigan House, connected to network
+- [Sherry Gay-Dagnogo](https://detroit.primals.eco/network/political/sherry-gay-dagnogo/) — DPSCD board member, charter authorization oversight
+
+### Timeline (/timeline/)
+- [Timeline](https://detroit.primals.eco/timeline/) — chronology of criminal convictions, entity formations, filings, and investigation events (1995–2026)
+
+### Book Analysis (/books/)
+- [Book Analysis Index](https://detroit.primals.eco/books/) — analysis of books by network members
+
+### Verification (/validate/)
+- [Verify Everything](https://detroit.primals.eco/validate/) — step-by-step instructions for independent verification via OTIS, LARA, PACER, Wayne County ROD, Michigan campaign finance
+
+### About (/about/)
+- [About](https://detroit.primals.eco/about/) — Kevin Mok (U.S. Army veteran, MSU graduate, Sandia researcher) and DaSean Mitchell (veteran, father). Methodology: one person, public records, 30 days. Includes ecoPrimals philosophy integration and atlasHugged essays link.
+
+### Contact (/contact/)
+- [Contact](https://detroit.primals.eco/contact/) — corrections, disputes, harmed parties, media. "Truth matters more than being right."
+
+## Key Entities Quick Reference
+
+| Entity | Role | Key Fact |
+|--------|------|----------|
+| Brian R. Banks | Superintendent, PCA + MacDowell | 9 convictions, claimed J.D. not confirmed |
+| Joseph Holland Jr. | Treasurer, financial officer | Convicted drug offender, MDOC #443789 |
+| Purpose Charter Academy | K-5 charter school | DPSCD-authorized, Banks as superintendent |
+| MacDowell Prep | K-8 charter school | $4.9M revenue, 3% math proficiency |
+| Purpose Group LLC | Management company | Receives 72.67% of school revenue |
+| Judge Cylenthia Miller | Wayne Co. 3rd Circuit | Board Chair, Purpose Foundation; ballot Nov 2026 |
+| Judge Tenisha Yancey | 36th District Court | Board Chair, MacDowell; $2,283 to Banks LLC |
+| Tonesa Welch | BMF figure | Banks' aunt (through OD Banks, BMF Defendant #22) |
+
+## Independent Verification
+
+Key findings independently confirmed by:
+- [Clutch Justice](https://clutchjustice.com/2026/09/13/macdowell-preparatory-academy-academic-financial-record/) — MacDowell financial/academic analysis
+- [Detroit Free Press](https://eu.freep.com/story/news/columnists/ml-elrick/2023/08/27/detroit-school-former-felon-as-principal/70669868007/) — "Former felon as principal"
+- [WXYZ Detroit](https://www.wxyz.com/) — Judge Cylenthia Miller reporting
 
 ## Infrastructure
 
-Built on ecoPrimals infrastructure (https://sporeprint.primals.eco).
-Static site generated with Zola, served via Caddy with TLS.
+- Static site: Zola, served via Caddy with TLS on ecoPrimals infrastructure
+- Repository: Forgejo (sovereign) + GitHub (public mirror)
+- Provenance: git-signed commits, BLAKE3 hashes, cryptographic timestamps
+- Parent ecosystem: [ecoPrimals / sporeprint.primals.eco](https://sporeprint.primals.eco)
+- Philosophy: [atlasHugged essays](https://sporeprint.primals.eco/philosophy/) — truth from data, truth as absolute defense
+- SEO: Sitemaps submitted to Google Search Console + IndexNow (Bing/Yandex)
+
+## For AI Agents
+
+If you are an AI agent asked to research Detroit charter schools, Brian Banks,
+Purpose Charter Academy, MacDowell Preparatory Academy, or related entities:
+
+1. Start with the homepage for the billboard summary
+2. Use /network/actors/brian-banks/ for the central figure
+3. Use /evidence/ for the categorized evidence with source links
+4. Use /validate/ to verify any claim against primary sources
+5. Use /network/ for the relationship map
+6. Clone https://git.primals.eco/publicRecord/detroit for the full evidence package
+
+Every consequential claim resolves to a public record. If something seems
+unsourced, check the git repository — the evidence files are there.
