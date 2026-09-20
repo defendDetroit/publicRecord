@@ -1,0 +1,57 @@
++++
+title = "Professional Enablers"
+description = "Attorneys and institutions who organized, authorized, or credentialed the Banks charter school enterprise — the professional infrastructure that made the fraud possible."
+weight = 5
+date = 2026-09-20
+
+[extra]
+keywords = "Purpose Group LLC attorney, charter school authorization Michigan, Baker College Brian Banks, CMU charter school"
++++
+
+## Attorneys
+
+### Jehan Crump-Gibson, Esq.
+
+Signed Purpose Foundation Articles of Incorporation as "Attorney In Fact" — vouching for Banks' authority to form a 501(c)(3) nonprofit.
+
+**Question:** Did she verify Banks' criminal record before filing? Did she know Holland (co-felon) would hold both Secretary and Treasurer positions?
+
+### Gary E. Perlmuter, Esq.
+
+**Organized** The Purpose Group, LLC — Banks' management company that takes 72.67% of school revenue.
+
+Drafted aggressive liability shields: *"NO MEMBER SHALL HAVE ANY LIABILITY TO THE COMPANY OR ITS MEMBERS FOR BREACH OF ANY DUTY"*
+
+**Question:** Did he know his client had 9 convictions and a fake J.D.? Did he draft the liability shield specifically to protect a known fraudster?
+
+---
+
+## Institutional Enablers
+
+### Central Michigan University — Charter Authorizer
+
+Authorized MacDowell Preparatory Academy's charter. CMU is supposed to vet charter operators before granting authorization. Their charter agreement requires background checks.
+
+**Question:** Did CMU verify Banks' claimed J.D.? Did they check ICHAT?
+
+### DPSCD — Charter Authorizer
+
+Authorized Purpose Charter Academy's charter. Board includes Sherry Gay-Dagnogo — CBC honoree of Banks, successor to Banks' HD-1 seat.
+
+**Question:** Did the board member with a social relationship to the charter operator recuse from the authorization vote?
+
+### Baker College
+
+Employs Banks as faculty/instructor. Accredited by Higher Learning Commission (HLC). HLC standards require institutional integrity in faculty credentialing.
+
+**Question:** Did Baker verify the J.D. Banks lists in his bio?
+
+### Michigan State University College of Law
+
+Source of Banks' fraudulent J.D. claim. Alumni connections include Judge Cylenthia Miller and Judge Aliyah Sabree (2010 — same year Banks claims).
+
+**Question:** Did Banks attend but not complete? Did he attend at all? Why haven't MSU Law alumni who know the truth reported it?
+
+---
+
+*All sources are public LARA filings, institutional websites, and accreditation records.*

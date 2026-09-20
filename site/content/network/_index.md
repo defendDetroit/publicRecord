@@ -1,35 +1,33 @@
 +++
 title = "The Network"
-description = "Interactive map of the Detroit charter school racketeering network — convicted felons, judges, attorneys, and institutions connected through boards, campaigns, property, and family ties."
+description = "The Banks Enterprise — a racketeering network spanning charter schools, courts, political offices, and nonprofit shells in Detroit. Every connection documented from public records."
+sort_by = "weight"
 +++
 
-This is not one bad actor. It is a network.
+This is not one bad actor. It is a **network** — convicted felons, judges, attorneys, and institutions connected through boards, campaigns, property, and family ties.
 
-## Key Actors
+Federal agencies received the complete map on September 22, 2026.
 
-| Actor | Role | Status |
-|-------|------|--------|
-| **Brian Banks** | Superintendent, PCA & MacDowell | 8+ felony convictions, fake J.D./Ph.D. |
-| **Joseph Holland** | Financial officer | Convicted drug trafficker, MDOC #443789 |
-| **Tonesa Welch** | Banks' blood relative | BMF "First Lady", federal defendant #22 |
-| **Todd Perkins** | Attorney | Shared attorney for Banks + Judge Miller; brother of Judge Perkins |
+## Enterprise Structure
 
-## Judicial Connections
+```
+BRIAN RODERICK BANKS (9 convictions, 3 bankruptcies, fake J.D.)
+│
+├── REVENUE ─── PCA + MacDowell ($4.9M+ state aid/yr)
+├── EXTRACTION ─ Purpose Group LLC (takes 72.67% of revenue)
+├── POLITICAL ── PACs + CBC Week events
+├── JUDICIAL ─── 4 Wayne County judges with network ties
+└── ASSOCIATE ── Joseph Holland Jr (felon, co-resident, all financial roles)
+```
 
-| Judge | Court | Board Role | Conflict |
-|-------|-------|------------|----------|
-| **Cylenthia Miller** | 3rd Circuit | PCA Board Chair | ON NOVEMBER 3 BALLOT |
-| **Tenisha Yancey** | 36th District | MacDowell Board Chair | Campaign paid $15K to "Banks Strategy" |
-| **Sean Perkins** | 36th District | — | Brother of Banks' attorney |
-| **Adam Sabree** | 36th District | — | Son of most-sued county official |
-| **Aliyah Sabree** | 3rd Circuit, Family | — | Daughter of Eric Sabree. ON NOVEMBER 3 BALLOT |
+## Tiers
 
-## Institutional Layer
+- **[Enterprise Principals](/network/actors/)** — Banks and Holland
+- **[Judicial Cover](/network/judges/)** — Miller, Yancey, Sabree, Perkins
+- **[Political Enablers](/network/political/)** — Gay-Dagnogo, McKinney
+- **[Entities](/network/entities/)** — 9+ LLCs, nonprofits, PACs, and schools
+- **[Professional Enablers](/network/professional-enablers/)** — Attorneys who organized the shell structure
 
-- **Purpose Charter Academy (PCA)** — K-5, Detroit
-- **MacDowell Preparatory Academy** — K-8, Detroit
-- **Purpose Group** — Banks' management company
-- **Inner Link Inc.** — connected entity
-- **Right Turn Project** — "charity" registered at drug trafficker's address
+---
 
-*Full interactive network visualization coming in Phase 3.*
+*Every connection in this network is documented from public records. See [Verify Everything](/validate/) for source links.*
