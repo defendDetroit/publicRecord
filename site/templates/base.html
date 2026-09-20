@@ -26,7 +26,7 @@
       {
         "@type": "WebSite",
         "name": "{{ config.title }}",
-        "url": "{{ config.base_url }}",
+        "url": "{{ config.base_url | safe }}",
         "description": "{{ config.description }}",
         "author": {
           "@type": "Person",
@@ -70,7 +70,7 @@
       {
         "@type": "SoftwareSourceCode",
         "name": "publicRecord/detroit",
-        "codeRepository": "{{ config.extra.repo_url }}",
+        "codeRepository": "{{ config.extra.repo_url | safe }}",
         "programmingLanguage": "Markdown",
         "description": "Git-signed, timestamped public evidence repository for Detroit charter school racketeering investigation"
       }
