@@ -149,12 +149,12 @@ This is not an isolated incident. Since the interception:
 
 | Date | Event | Evidence |
 |------|-------|----------|
-| Aug 18, 2026 | Kevin Mok sends 6 certified letters from Lansing to Smith family | USPS receipts |
+| Aug 18, 2026 | Complainant sends 6 certified letters from Lansing to Smith family | USPS receipts |
 | Aug 21, 2026 | 4 letters intercepted at Harper Woods PO; green cards forged | USPS tracking + green card scans |
 | Aug 25, 2026 | Leon hands phone to family: "You guys are not that smart" | Text screenshot |
 | Aug 26, 2026 | OIG Complaint #174517 filed | OIG confirmation |
 | Sep 2, 2026 | Physical assault at 3409 Cornerstone Blvd, Detroit | DPD Report #26-0909-0176, Ring video |
-| Sep 16, 2026 | Kevin sends Leon photos of OIG complaint + signature findings | iMessage screenshot |
+| Sep 16, 2026 | Complainant sends Leon photos of OIG complaint + signature findings | iMessage screenshot |
 | Sep 17, 2026 | Leon responds: "Good luck" | iMessage screenshot |
 
 The assault on September 2 — which occurred 12 days after the mail
@@ -169,7 +169,7 @@ that the intercepted letters contained.
 
 | Exhibit | Description |
 |---------|-------------|
-| **A** | Text message exchange: Kevin Mok ↔ Leon Smith (Sep 16-17, 2026) — 3 screenshots |
+| **A** | Text message exchange: Complainant ↔ Leon Smith (Sep 16-17, 2026) — 3 screenshots |
 | **B-1** | Green card signatures — all 5 cards side by side (same hand visible) |
 | **B-2** | Leon & Marquita authentic signatures (Lake Trust mortgage, notarized Jun 24, 2025) next to green cards addressed to Marquita and Leon — Marquita's writing does NOT match; Leon's IS consistent |
 | **B-3** | Simone authentic signatures (Wayne ROD mortgages 2005-2021) next to green card addressed to Simone — no resemblance |
@@ -195,7 +195,7 @@ that the intercepted letters contained.
 
 Respectfully submitted,
 
-Kevin Mok
+Complainant
 [Address]
 [Phone]
 [Email]

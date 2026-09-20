@@ -82,7 +82,7 @@
 Instead of 6-8 tailored packets, we send ONE comprehensive master document
 to EVERY federal agency simultaneously. Federal agencies operate in information
 silos — FBI sees crime, DEA sees drugs, IRS sees money, DOE sees schools.
-Kevin Mok is not bound by those silos. The master packet gives every agency
+Complainant is not bound by those silos. The master packet gives every agency
 the complete network map so they can coordinate or act independently.
 
 **File:** `FEDERAL_MASTER_PACKET_SEP18.md`
@@ -198,5 +198,5 @@ All 32 filings chain to the same evidence base:
 
 ---
 
-*Kevin Mok — September 16, 2026*
+*Complainant — September 16, 2026*
 *"He published the conspiracy roster. We just verified it."*
