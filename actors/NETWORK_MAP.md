@@ -1,46 +1,103 @@
 # Banks Network — Actor Map
 
+**Last updated:** September 20, 2026
+**Total documented actors:** 17+ individuals, 7 judges, across 4 courts
+
+---
+
 ## Tier 1: Enterprise Principals
 | Actor | Role | Profile |
 |-------|------|---------|
 | **Brian Roderick Banks** | Enterprise leader. 9 convictions, fake J.D., controls all entities | [banks-brian/PROFILE.md](banks-brian/PROFILE.md) |
-| **Joseph Holland Jr.** | Financial gatekeeper. Felon, PAC treasurer, foundation secretary/treasurer, trust successor | [holland-joseph/PROFILE.md](holland-joseph/PROFILE.md) |
+| **Joseph Holland Jr.** | Financial gatekeeper. Felon, PAC treasurer, foundation officer, trust successor, co-resident | [holland-joseph/PROFILE.md](holland-joseph/PROFILE.md) |
 
-## Tier 2: Judicial Cover
-| Actor | Court | Connection | Profile |
-|-------|-------|------------|---------|
-| **Cylenthia Miller** | Wayne 3rd Circuit | Board Chair of Banks' Anchor Rock Foundation | [judges/MILLER_CYLENTHIA.md](judges/MILLER_CYLENTHIA.md) |
-| **Tenisha Yancey** | Wayne 3rd Circuit | Campaign paid $2,283 to Banks Strategy LLC (2024) | [judges/YANCEY_TENISHA.md](judges/YANCEY_TENISHA.md) |
-| **Aliyah Sabree** | Wayne 3rd Circuit | MSU Law classmate (2010); sister of Wayne County Treasurer | [judges/SABREE_ALIYAH.md](judges/SABREE_ALIYAH.md) |
-| **David Perkins** | Wayne Probate | Family donated to network campaigns; Probate overlaps guardianship entity | [judges/PERKINS_DAVID.md](judges/PERKINS_DAVID.md) |
+## Tier 2: Judicial Network (7 Judges)
 
-## Tier 3: Political Enablers
+### Wayne County 3rd Circuit Court
+| Judge | Connection | Election | Profile |
+|-------|------------|----------|---------|
+| **Cylenthia Miller** | PCA Board Chair. Mentor. Baker College colleague. 3 active scandals. | **Nov 3, 2026** (general) | [judges/MILLER_CYLENTHIA.md](judges/MILLER_CYLENTHIA.md) |
+| **Aliyah Sabree** | MSU Law classmate (2010). Father = Treasurer. Brother = 36th Dist judge. | **Nov 3, 2026** (special) | [judges/SABREE_ALIYAH.md](judges/SABREE_ALIYAH.md) |
+| **Kelly A. Ramsey** | Criminal Division. Daughter pushed Banks → Promise Schools. 2 family members on MacDowell payroll. | Jan 1, 2029 | [judges/RAMSEY_KELLY.md](judges/RAMSEY_KELLY.md) |
+
+### 36th District Court (3 network judges — CONCENTRATED CAPTURE)
+| Judge | Connection | Term Ends | Profile |
+|-------|------------|-----------|---------|
+| **Tenisha Yancey** | MacDowell Board Chair. Sister = PCA School Leader. Campaign paid Banks' LLC. | Jan 1, 2029 | [judges/YANCEY_TENISHA.md](judges/YANCEY_TENISHA.md) |
+| **Adam Sabree** | Eric Sabree's son. Ex-Metro Property Group counsel (RICO-accused). | Jan 1, 2029 | [judges/SABREE_ADAM.md](judges/SABREE_ADAM.md) |
+| **Sean Perkins** | Brother of Todd Perkins (Banks' attorney). Worked at Todd's firm. | Jan 1, 2029 | [judges/PERKINS_SEAN.md](judges/PERKINS_SEAN.md) |
+
+### Wayne County Probate Court
+| Judge | Connection | Profile |
+|-------|------------|---------|
+| **David A. Perkins** | Chief Judge Pro Tem. Previously 36th District (2014–2018). Banks ran Serenity Guardianship through Probate. Family relationship to Todd/Sean Perkins UNCONFIRMED. | [judges/PERKINS_DAVID.md](judges/PERKINS_DAVID.md) |
+
+### Retired Judges (still active in network)
+| Judge | Connection | Profile |
+|-------|------------|---------|
+| **Vonda Evans** | Wayne 3rd CC (1997–2019). 21-year mentor. Retired while JTC moved to suspend. | [judges/EVANS_VONDA.md](judges/EVANS_VONDA.md) |
+| **Denise Langford Morris** | Oakland CC (1992–2022). Book foreword author. Possible "Revelation Day" judge. Now JAMS arbitrator. | [judges/LANGFORD_MORRIS_DENISE.md](judges/LANGFORD_MORRIS_DENISE.md) |
+
+## Tier 3: Political / Institutional Power
 | Actor | Position | Connection | Profile |
 |-------|----------|------------|---------|
-| **Sherry Gay-Dagnogo** | DPSCD Board / former MI Rep HD-1 | Succeeded Banks in HD-1; authorizes his charters; CBC honoree | [political/GAY_DAGNOGO_SHERRY.md](political/GAY_DAGNOGO_SHERRY.md) |
-| **Billy McKinney** | Political operative | Campaign paid Darryl Banks Jr. | [political/MCKINNEY_BILLY.md](political/MCKINNEY_BILLY.md) |
+| **Sherry Gay-Dagnogo** | Detroit Ombudsman (10yr term to 2035) | Authorized PCA while on DPSCD Board. Paid Holland $2K. AG-referred PAC. | [political/GAY_DAGNOGO_SHERRY.md](political/GAY_DAGNOGO_SHERRY.md) |
+| **Donavan "Billy" McKinney** | Detroit City Council, Dist 6 | Campaign paid $2,200 to Darryl Banks Jr. | [political/MCKINNEY_BILLY.md](political/MCKINNEY_BILLY.md) |
+| **Eric R. Sabree** | Wayne County Treasurer + Land Bank Chair | Father of judges Aliyah + Adam. 40+ federal cases. FBI inquiry (2019). Endorsed Miller. | [judges/SABREE_ALIYAH.md](judges/SABREE_ALIYAH.md) (covered in Sabree Dynasty) |
 
-## Tier 4: Professional Enablers
-| Actor | Role | Connection |
-|-------|------|------------|
-| **Gary E. Perlmuter, Esq.** | Attorney | Organized Purpose Group LLC; drafted aggressive liability shields |
-| **Jehan Crump-Gibson, Esq.** | Attorney | Signed Purpose Foundation articles as "Attorney In Fact" for Banks |
+## Tier 4: Enablers / Operatives
+| Actor | Role | Connection | Profile |
+|-------|------|------------|---------|
+| **Todd Perkins** | Banks' attorney | 4 bankruptcies, $100K+ IRS liens. Brother of Judge Sean Perkins. Miller's defense attorney. Harper Woods mayoral candidate. | [enablers/PERKINS_TODD.md](enablers/PERKINS_TODD.md) |
+| **Lamar Moreland** | AAG + PCA Board Member | Running for **32A District Court** (Banks' home jurisdiction). AG employee on felon's school board. | [enablers/MORELAND_LAMAR.md](enablers/MORELAND_LAMAR.md) |
+| **Devin Hutchings** | PCA Board Treasurer | SuperPAC sent $20K to Banks/Holland entity. **Presumed good faith.** | [enablers/HUTCHINGS_DEVIN.md](enablers/HUTCHINGS_DEVIN.md) |
+| **Gary E. Perlmuter, Esq.** | Attorney (Farmington Hills) | Organized Purpose Group LLC. Drafted aggressive liability shields. | — |
+| **Jehan Crump-Gibson, Esq.** | Attorney | Signed Purpose Foundation articles as "Attorney In Fact" for Banks. | — |
 
 ## Tier 5: Family / BMF Connection
 | Actor | Connection |
 |-------|------------|
 | **OD Banks** | Brian Banks' biological father; BMF Defendant #22 (Case 2:05-cr-80955) |
-| **Tonesa Welch** | Brian Banks' aunt (through OD Banks); BMF figure; wrote autobiography |
-| **Darryl Banks Jr.** | Relative; received McKinney campaign payment |
+| **Tonesa Welch** | Brian Banks' aunt (through OD Banks); BMF figure; author; movie subject |
+| **Darryl Banks Jr.** | Relative; received McKinney campaign payment ($2,200) |
+| **Dr. Chalena Yancey Beasley** | Judge Yancey's sister; PCA School Leader |
+| **Alexis Ramsey** | Judge Ramsey's family; pushed Banks → Promise Schools; Todd Perkins podcast guest |
+| **Carl Ramsey** | 7th grade teacher at MacDowell (Banks' payroll) |
+| **Tarajah Ramsey** | External Relations Officer at MacDowell (Banks' payroll) |
 
 ## Tier 6: Institutional
 | Institution | Role | Connection |
 |-------------|------|------------|
 | **DPSCD** | Charter authorizer | Authorized PCA despite Banks' public criminal record |
 | **Central Michigan University** | Charter authorizer | Authorized MacDowell; presumably verified credentials |
-| **Wayne County Treasurer (Eric Sabree)** | Tax foreclosures | Brother of Judge Aliyah Sabree; office generates distressed housing |
-| **Baker College** | Employer | Banks teaches; faculty credential standards in question |
-| **MSU College of Law** | Credential source | Banks claims J.D.; at least 3 captured judges are alumni |
+| **Wayne County Treasurer** | Tax foreclosures | Sabree family controls; generates distressed housing pipeline |
+| **Baker College** | Employer | Banks + Miller taught Criminal Justice; credential verification failure |
+| **MSU College of Law** | Credential source | Banks claims J.D.; Miller + Aliyah Sabree are alumni |
+| **Walden University** | Published fraud | Dissertation #12627 lists fake J.D. on cover page |
+| **Pahara Institute** | Fellowship fraud | Selected Banks for 2025 fellowship using fake bio |
+
+## The Judicial Map Summary
+```
+Wayne County 3rd Circuit Court:
+  ├── Cylenthia Miller     (PCA Board Chair)      — ON NOV 3 BALLOT
+  ├── Aliyah Sabree        (Family Div)            — ON NOV 3 BALLOT
+  └── Kelly A. Ramsey      (Criminal Div)           — term to 2029
+
+36th District Court (CONCENTRATED CAPTURE — 3 of 7):
+  ├── Tenisha Yancey       (MacDowell Board Chair)  — term to 2029
+  ├── Adam Sabree          (ex-Metro Property)       — term to 2029
+  └── Sean Perkins         (Todd's brother)          — term to 2029
+
+Wayne County Probate Court:
+  └── David A. Perkins     (Chief JPT)               — 36th Dist → Probate pipeline
+
+Retired but active:
+  ├── Vonda Evans          (now Southfield atty)
+  └── Denise Langford Morris (now JAMS arbitrator)
+
+PROSPECTIVE (if elected):
+  └── Lamar Moreland       → 32A District Court (Banks' HOME jurisdiction)
+```
 
 ---
-*All sources cited in individual profile files.*
+*All sources cited in individual profile files. Total: 9 current/former judges + 1 judicial candidate.*

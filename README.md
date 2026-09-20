@@ -24,50 +24,88 @@ git clone https://git.primals.eco/publicRecord/detroit.git
 A single civilian — pro se, pro bono — identified and documented a RICO-pattern enterprise that spans:
 
 - **Charter schools** receiving $4.9M+ in annual public funds, run by convicted felons
-- **Captured courts** where network-connected judges preside over network-connected cases
+- **Captured courts** where 7 network-connected judges preside across 4 courts
 - **Political offices** held by individuals with fabricated credentials (claimed J.D. — never bar-admitted)
 - **Nonprofit shells** controlled by two convicted felons holding all officer positions
 - **Financial extraction** funneling 72.67% of school revenue through a private management company
+- **A county treasurer** under FBI scrutiny whose children sit on the bench
 
 This repository is the public-facing evidence archive. Every document carries a git commit hash (SHA-256) and timestamp. The full history is immutable.
 
 ## Structure
 
 ```
-actors/               Profiles of individuals in the network
-  banks-brian/          Brian Banks — 9 convictions, fake J.D., enterprise leader
-  holland-joseph/       Joseph Holland Jr — co-felon, financial gatekeeper
-  judges/               Captured judges: Miller, Yancey, Sabree, Perkins
-  political/            Political enablers: Gay-Dagnogo, McKinney
-entities/             Entity profiles with LARA data and financials
-  purpose-foundation/   Private foundation — 2 felons, all 4 officer slots
-  purpose-group-llc/    CMO shell — takes 72.67% of school funds
-  banks-strategy-llc/   "Consulting" firm — receives judge campaign payments
-  purpose-charter-academy/
-  macdowell-prep/
-  pacs/                 Political action committees
-pattern/              RICO pattern analysis — enterprise structure mapped
-filings/              Court filings, complaints, motions, federal packets
-correspondence/       Letters, emails, service proof
-evidence/             Documentary evidence, financial records
-damages/              Damages analysis and judgment frameworks
-foia/                 FOIA requests and responses
-timeline/             Chronological event summaries
+actors/                     Profiles of individuals in the network
+  ├── banks-brian/            Brian Banks — 9 convictions, fake J.D., enterprise leader
+  │   ├── PROFILE.md            Identity, credentials, entities, political history
+  │   ├── CRIMINAL_HISTORY.md   9 convictions across 5 courts (1998–2017)
+  │   └── BMF_LINEAGE.md        OD Banks (BMF #22), Tonesa Welch connection
+  ├── holland-joseph/         Joseph Holland Jr — co-felon, financial gatekeeper
+  │   └── PROFILE.md            5 bankruptcies, "WITHOUT IMPROVEMENT" discharge
+  ├── judges/                 9 judges documented (7 current + 2 retired)
+  │   ├── MILLER_CYLENTHIA.md   3rd Circuit — PCA Board Chair, 3 scandals, NOV 3 BALLOT
+  │   ├── YANCEY_TENISHA.md     36th District — MacDowell Chair, sister = PCA leader
+  │   ├── SABREE_ALIYAH.md      3rd Circuit Family — MSU classmate, Sabree dynasty
+  │   ├── SABREE_ADAM.md         36th District — ex-Metro Property Group (RICO)
+  │   ├── PERKINS_SEAN.md        36th District — brother of Banks' attorney
+  │   ├── PERKINS_DAVID.md       Probate — 36th Dist → Probate pipeline
+  │   ├── RAMSEY_KELLY.md        3rd Circuit Criminal — 3 family members on Banks' payroll
+  │   ├── EVANS_VONDA.md         Retired 3rd Circuit — 21yr mentor, JTC suspension
+  │   └── LANGFORD_MORRIS_DENISE.md  Retired Oakland CC — book foreword, possible sentencing judge
+  ├── political/              Political enablers
+  │   ├── GAY_DAGNOGO_SHERRY.md  Detroit Ombudsman (10yr), paid Holland $2K, AG-referred
+  │   └── MCKINNEY_BILLY.md      City Council Dist 6, paid Darryl Banks Jr $2.2K
+  ├── enablers/               Operatives and board members
+  │   ├── PERKINS_TODD.md        Banks' attorney — 4 BKs, $100K IRS liens, brother = judge
+  │   ├── MORELAND_LAMAR.md      AAG + PCA Board + running for 32A (Banks' home court)
+  │   └── HUTCHINGS_DEVIN.md     PCA Treasurer — $20K SuperPAC, presumed good faith
+  ├── NETWORK_MAP.md           Full actor map with tiers and cross-references
+  └── PROFESSIONAL_ENABLERS.md  Attorneys, institutions, credential fraud chain
+
+entities/                   Entity profiles with LARA data and financials
+  ├── banks-strategy-llc/     "Consulting" firm — receives judge campaign payments
+  ├── macdowell-prep/         MacDowell Prep — 3% math proficiency, 362 children
+  ├── pacs/                   Political action committees — $14.5K unpaid fines
+  ├── purpose-charter-academy/ PCA — new school opened Jul 2025
+  ├── purpose-foundation/     Private foundation — 2 felons, all officer slots
+  ├── purpose-group-llc/      CMO shell — takes 72.67% of school funds
+  └── ENTITY_MAP.md           Full entity map with LARA IDs and relationships
+
+pattern/                    RICO pattern analysis
+  ├── RICO_PATTERN.md          Enterprise structure and predicate acts
+  ├── INSTITUTIONAL_CAPTURE.md  Schools → courts → treasury → ombudsman
+  ├── ALLIED_CASES.md          Related federal cases (Bowles, Metro Property, etc.)
+  └── CBC_EVENTS.md            Congressional Black Caucus networking events
+
+filings/                    Court filings, complaints, motions, federal packets
+  ├── 2026-09-22_federal_master_packet.pdf   Unified 8-agency packet
+  ├── 2026-09-22_journalist_briefing_packet.pdf
+  ├── 2026-09-16_complaint_chain_master.md
+  ├── 2026-09-17_motion_alternative_service.md
+  └── 2026-09-17_oig_supplement_forgery.md
+
+damages/                    Damages analysis
+correspondence/             Letters, emails, service proof
+evidence/                   Documentary evidence, financial records
+wronged/                    Institutions/individuals believed harmed by association
+timeline/                   Chronological event summaries
+foia/                       FOIA requests and responses
 ```
 
 ## Key Documents
 
 | Document | Description | Date |
 |----------|-------------|------|
-| `filings/2026-09-22_federal_master_packet.pdf` | **Unified Federal Intelligence Packet** — 79 pages, 8 agencies | Sep 2026 |
+| `filings/2026-09-22_federal_master_packet.pdf` | **Unified Federal Intelligence Packet** — 8 agencies | Sep 2026 |
 | `filings/2026-09-22_journalist_briefing_packet.pdf` | Journalist briefing — 7 investigative story angles | Sep 2026 |
 | `filings/2026-09-16_complaint_chain_master.md` | Master complaint chain — all filed complaints | Sep 2026 |
 | `damages/DAMAGES_ANALYSIS.md` | Per-defendant damages analysis with compounding | Sep 2026 |
-| `evidence/2026-09-17_oig_supplement_proof_package.pdf` | OIG supplement — mail fraud evidence | Sep 2026 |
+| `actors/NETWORK_MAP.md` | Full actor map — 17+ individuals, 7 judges, 4 courts | Sep 2026 |
+| `wronged/WRONGED_PARTIES.md` | Institutions/individuals harmed by association | Sep 2026 |
 
 ## Source Verification
 
-All claims in the federal packet can be verified through public sources:
+All claims can be verified through public sources:
 
 | Source | How to Access |
 |--------|--------------|

@@ -1,41 +1,36 @@
 # Banks Strategy & Consultants, LLC — Entity Profile
 
-## LARA Record
-| Field | Value |
-|-------|-------|
-| Entity Name | BANKS STRATEGY & CONSULTANTS, LLC |
-| LARA ID | 802070120 |
-| Type | Domestic Limited Liability Company |
-| Status | Active |
-| Filed | February 25, 2017 |
-| Address | 1968 Severn, Grosse Pointe Woods, MI 48236 |
-| Agent | Brian R Banks |
-| Management | Member-managed |
+## Registration
+| Field | Value | Source |
+|-------|-------|--------|
+| Type | Domestic Limited Liability Company | LARA |
+| LARA ID | 802070120 | LARA |
+| Agent | Brian Banks | LARA |
+| Status | Active | LARA |
 
-## Filing History Pattern
-| Filing | Date | Note |
-|--------|------|------|
-| 2025 Annual Statement | Jul 21, 2025 | Self-signed |
-| Certificate of Restoration of Good Standing | **Apr 10, 2024** | Lost good standing |
-| 2024 Annual Statement | **Apr 10, 2024** | Same day as restoration |
-| 2022 Annual Statement | **Apr 10, 2024** | 2 years late — batch filed |
-| 2023 Annual Statement | **Apr 10, 2024** | 1 year late — batch filed |
-| 2021 Annual Statement | Feb 15, 2021 | |
-| 2020 Annual Statement | **Feb 15, 2021** | Late — batch filed with 2021 |
-| 2019 Annual Statement | Dec 4, 2019 | |
-| 2018 Annual Statement | Aug 21, 2018 | |
-| Articles of Organization | Feb 25, 2017 | |
+## Why This Entity Matters
+This is Banks' personal "consulting" firm — the one that receives payments from **sitting judges' campaigns**.
 
-**Pattern:** Chronic administrative neglect. Lost good standing. Batch-filed 3 overdue annual statements on a single day (Apr 10, 2024).
+## Known Payments to Banks Strategy
+| From | Amount | Date | Source |
+|------|----- --|------|--------|
+| **Judge Tenisha Yancey** campaign | **$383.82** | 2024 | TransparencyUSA |
 
-## Known Payments to This Entity
-| Payer | Amount | Year | Source |
-|-------|--------|------|--------|
-| Judge Tenisha Yancey campaign | $2,283 | 2024 | TransparencyUSA |
+**The $383.82 was Yancey's SOLE campaign expenditure.** Her only contribution was $383.82 from herself. Her entire campaign financial activity was: receive $383.82 from herself → pay $383.82 to Banks' LLC.
+
+## The Conflict
+- A sitting Wayne County judge's campaign directly paid the personal LLC of a 9-time convicted felon with a fake J.D.
+- Banks Strategy & Consultants is controlled solely by Banks
+- The payment creates a documented financial relationship between a judge and a known fraudster
+- Wayne County is the jurisdiction where Banks' school entities operate and generate cases
+- Yancey also chairs the board of Banks' school (MacDowell)
+
+## What "Consulting" Does Banks Provide?
+Banks is not a licensed attorney, not a licensed consultant, and not credentialed in any professional field that would justify a judge paying his LLC. The nature of the "consulting services" provided has not been established.
 
 ## Verify
-- LARA: Search ID 802070120 at [cofs.lara.state.mi.us](https://cofs.lara.state.mi.us)
-- Campaign payments: [transparencyusa.org](https://transparencyusa.org) — search "Banks Strategy"
+- LARA: cofs.lara.state.mi.us — 802070120
+- TransparencyUSA: search "Banks Strategy" + "Yancey"
 
 ---
-*All sources are Michigan LARA filings and public campaign finance records.*
+*All sources are public LARA filings and campaign finance records.*

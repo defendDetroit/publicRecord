@@ -1,27 +1,40 @@
-# Judge David Perkins — Public Record Profile
+# Judge David A. Perkins — Public Record Profile
 
 ## Position
-| Field | Value |
-|-------|-------|
-| Court | Wayne County Probate Court |
-| Status | Elected |
+| Field | Value | Source |
+|-------|-------|--------|
+| Court | Wayne County Probate Court — **Chief Judge Pro Tem** | Wayne County courts |
+| Previous | 36th District Court (2014–2018) — same court where Yancey, Adam Sabree, and Sean Perkins now sit | Court records |
+
+## Relationship to Other Perkins Network Members
+| Person | Relationship | Confirmed? |
+|--------|-------------|------------|
+| **Todd Perkins** | Shares surname. **NOT confirmed as brother.** | ❌ Unconfirmed |
+| **Sean Perkins** | Shares surname. Wikipedia confirms Sean and Todd are brothers. David's relationship to them is NOT confirmed. | ❌ Unconfirmed |
+
+**⚠️ Note:** An earlier version of this profile described David Perkins as Todd/Sean's brother. OSINT research (Sep 20 batch) clarified that David Perkins was **NOT confirmed** as a relative. He previously sat on the 36th District Court (same court Sean later joined) and moved to Probate, but the family connection is assumed, not proven.
 
 ## Connection to Banks Network
 | Connection | Detail | Source |
 |------------|--------|--------|
-| Family donations | Perkins family members donated to Banks-aligned political campaigns | MI Campaign Finance (CFRS) |
-| Probate jurisdiction | Wayne County Probate handles guardianship cases — Banks ran "Serenity Guardianship Services, Inc." | LARA |
+| 36th District → Probate pipeline | Previously sat on the 36th District Court, moved to Probate. Created a judicial pipeline between the two courts. | Court records |
+| Probate jurisdiction | Wayne County Probate handles guardianship cases — Banks ran "Serenity Guardianship Services, Inc." (LARA 802290962, dissolved) | LARA |
+| Serenity Guardianship | A guardianship services company run by a non-attorney felon = textbook UPL. Cases routed through Wayne County Probate Court. | LARA |
 
 ## Key Facts
-- Wayne County Probate Judge whose family has financial ties to the Banks political network
-- Banks operated **Serenity Guardianship Services, Inc.** (LARA ID 802290962, now dissolved)
-  - A guardianship services company run by a non-attorney felon = textbook UPL
-  - Guardianship cases route through Wayne County Probate Court
-- This creates a **fourth captured court** in the Wayne County system with ties to the Banks enterprise
+- Moved from 36th District Court to Probate Court — created a pipeline between both courts
+- Banks operated Serenity Guardianship Services through this same Probate jurisdiction
+- If related to Todd/Sean Perkins, this adds a FOURTH captured court in the Wayne County system
+- Even without confirmed family ties, the 36th District → Probate pipeline is notable
+
+## OSINT Gap
+- [ ] Confirm or deny family relationship between David Perkins and Todd/Sean Perkins
+- [ ] David Perkins' campaign finance: any Banks-network donors?
 
 ## Verify
-- MI Campaign Finance: [cfrs.michigan.gov](https://cfrs.michigan.gov) — search "Perkins"
-- LARA: Search "Serenity Guardianship" at [cofs.lara.state.mi.us](https://cofs.lara.state.mi.us)
+- Wayne County Probate: courts.waynecounty.com
+- LARA: Serenity Guardianship Services — cofs.lara.state.mi.us (802290962)
+- 36th District Court historical records
 
 ---
-*All sources are public campaign finance and LARA records.*
+*All sources are public records. Family relationship is UNCONFIRMED — noted for correction if proven.*
