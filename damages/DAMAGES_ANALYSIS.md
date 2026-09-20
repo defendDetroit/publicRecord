@@ -120,10 +120,10 @@ deception support a high multiplier.
 ### D. LITIGATION CLOCK — COMPOUNDING DAMAGES (IF THEY FIGHT)
 
 The above economic damages reflect the disruption to date assuming **default**.
-If defendants file answers and litigate, Kevin's time cost **compounds against
+If defendants file answers and litigate, Complainant's time cost **compounds against
 every defendant, jointly and severally.**
 
-Kevin is a senior Rust distributed systems engineer (3.6M lines, 116K tests,
+Complainant is a senior Rust distributed systems engineer (3.6M lines, 116K tests,
 47 repos, 12 gate hardware cluster). Every hour spent on litigation is an
 hour not building ecoPrimals. **All defendants caused this diversion.**
 
@@ -147,7 +147,7 @@ hour not building ecoPrimals. **All defendants caused this diversion.**
 | Sep 2027 (trial prep) | 2,400 hrs | $480,000 |
 | **Trial** (if it goes 12 months) | **2,880+ hrs** | **$576,000+** |
 
-**This is PER CASE. Kevin is running 3 cases + PPOs simultaneously.**
+**This is PER CASE. Complainant is running 3 cases + PPOs simultaneously.**
 At peak litigation, the clock runs against ALL defendants:
 - Banks (4349) — you caused this
 - Smiths (4301) — you caused this
@@ -156,7 +156,7 @@ At peak litigation, the clock runs against ALL defendants:
 **Joint and several liability** means EACH defendant is responsible for the
 full amount. They can fight over contribution among themselves.
 
-**The defense paradox:** Every dollar they spend fighting increases Kevin's
+**The defense paradox:** Every dollar they spend fighting increases Complainant's
 economic damages claim against them. The longer they litigate, the more they owe.
 Filing an answer doesn't reduce exposure — it **increases** it.
 
@@ -202,7 +202,7 @@ Filing an answer doesn't reduce exposure — it **increases** it.
 
 ## VI. FEDERAL CIVIL RIGHTS — § 1983 / § 1985 (Potential)
 
-If ANY Banks-network judge touches Kevin's cases without recusal:
+If ANY Banks-network judge touches Complainant's cases without recusal:
 
 | Claim | Basis | Low | Mid | High |
 |-------|-------|-----|-----|------|
@@ -301,7 +301,7 @@ Both Ingham cases (4301, 4349) have **no answer filed** with default clocks tick
 | **If contested (6 months in)** | $4,500,000 | $1,500,000-2,500,000 | $750,000 |
 | **At trial (12-24 months)** | $6,000,000+ | $2,000,000-3,500,000 | $1,000,000 |
 
-The floor INCREASES because Kevin's economic damages are real and compounding.
+The floor INCREASES because Complainant's economic damages are real and compounding.
 They're not going to negotiate these away — the git history proves the disruption.
 
 **Settlement leverage**:
@@ -310,7 +310,7 @@ They're not going to negotiate these away — the git history proves the disrupt
 - Journalists receiving briefing packet
 - Nov 3 election creates urgency for Miller + Aliyah Sabree
 - Every day they don't answer, the position weakens
-- **Kevin's litigation clock runs at $200/hr against ALL defendants, jointly and severally**
+- **Complainant's litigation clock runs at $200/hr against ALL defendants, jointly and severally**
 - **The defense paradox: fighting costs them more than settling**
 
 **Non-monetary demands** (may be more valuable than cash):
@@ -345,4 +345,4 @@ To support the economic damages, compile:
 
 *This analysis is a computational framework, not legal advice.*
 *All amounts require attorney review and Michigan-specific case law validation.*
-*Prepared by analytical tools at Kevin Mok's direction.*
+*Prepared by analytical tools at ecoPrimal's direction.*
