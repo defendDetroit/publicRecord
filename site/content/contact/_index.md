@@ -13,6 +13,16 @@ Truth is more important than being "right." The purpose of this site is to
 document what the public record shows — not to harm anyone unfairly. If I've
 gotten something wrong, I want to know.
 
+This project is built by [ecoPrimals](https://sporeprint.primals.eco) — a
+scientific computing ecosystem. As scientists and engineers, we believe truth
+comes from data and reality, not from narrative or authority. In law, truth is
+an [absolute defense](https://sporeprint.primals.eco/atlasHugged/). We treat
+it the same way in publication: every claim is traceable to a public record,
+every correction is preserved, and the record speaks for itself.
+
+This site is the bureaucratic-interface arm of the primals — where the
+organism meets institutions. Truth is the bulwark.
+
 **Email:** [eco.primal@pm.me](mailto:eco.primal@pm.me)
 
 Please include:
