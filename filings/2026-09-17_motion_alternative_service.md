@@ -13,12 +13,12 @@
 
 | Case No. | Caption | Judge | Type |
 |----------|---------|-------|------|
-| 26-000004301-DM | Mok v. Smith et al. | Hon. Stokes | Civil conspiracy |
-| 26-000004349-CZ | Mok v. Banks et al. | Hon. Stokes | UPL/fraud |
-| 26-000000-4432-PP | Mitchell v. S. Smith | Hon. Koenig | PPO |
-| 26-000000-4433-PH | Mitchell v. M. Smith | Hon. Koenig | PPO |
-| 26-000000-4434-PH | Mitchell v. S.R. Smith | Hon. Koenig | PPO |
-| 26-000000-4436-PH | Mitchell v. L. Smith | Hon. Koenig | PPO |
+| 26-000004301-DM | [Complainant] v. Smith et al. | Hon. Stokes | Civil conspiracy |
+| 26-000004349-CZ | [Complainant] v. Banks et al. | Hon. Stokes | UPL/fraud |
+| 26-000000-4432-PP | [Petitioner] v. S. Smith | Hon. Koenig | PPO |
+| 26-000000-4433-PH | [Petitioner] v. M. Smith | Hon. Koenig | PPO |
+| 26-000000-4434-PH | [Petitioner] v. S.R. Smith | Hon. Koenig | PPO |
+| 26-000000-4436-PH | [Petitioner] v. L. Smith | Hon. Koenig | PPO |
 
 ---
 
@@ -264,7 +264,7 @@ Date: September __, 2026
 |-----|-------------|-------|
 | A | USPS tracking records — 4 intercepted letters (Aug 21, 2026) | USPS.com |
 | B | Signature comparison exhibit (green cards vs. authentic) | Wayne ROD + PACER + OIG |
-| C | Text message exchange: Mok ↔ Leon Smith (Sep 16-17, 2026) | iPhone screenshots |
+| C | Text message exchange: [Complainant] ↔ Leon Smith (Sep 16-17, 2026) | iPhone screenshots |
 | D | Macomb County ROD: Merrimac Cir warranty deed (Marquita) | Macomb ROD Doc# 20199147518 |
 | E | Macomb County ROD: Normandy Ave mortgage (Simone) | Macomb ROD Doc# 202300053348 |
 | F | Macomb County ROD: N River Rd QCD (Shayla) | Macomb ROD Doc# 2025000048921 |
