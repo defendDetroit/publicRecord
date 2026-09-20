@@ -107,7 +107,17 @@ git diff HEAD~1            # what changed in the last commit
 - If this Forgejo instance goes down, anyone with a clone has the full record
 - **All sources are public** — everything can be independently verified using the table above
 
-## For Other Harmed Parties
+## Wronged Parties
+
+**→ [wronged/WRONGED_PARTIES.md](wronged/WRONGED_PARTIES.md)**
+
+Brian Banks built his enterprise by embedding himself inside legitimate institutions. Some individuals and organizations documented in this repository may have been **unknowingly used** as cover.
+
+**Our operating principle: assume good faith until proven otherwise.**
+
+We maintain a public register of institutions and individuals we believe were harmed by association. If evidence later shows active participation, the page is updated — and the git history preserves both the original assumption and the reason for reclassification.
+
+If you are listed and believe you were wronged, reach out: **publicrecord@primals.eco**
 
 If you have been affected by any individual or entity documented in this repository:
 - Clone the repo for your own records
