@@ -117,13 +117,74 @@ deception support a high multiplier.
 | **Reputational delay** | arXiv submission blocked; conference timeline missed | $10,000-50,000 |
 | **TOTAL PI DAMAGES** | | **$85,000-$400,000** |
 
+### D. LITIGATION CLOCK — COMPOUNDING DAMAGES (IF THEY FIGHT)
+
+The above economic damages reflect the disruption to date assuming **default**.
+If defendants file answers and litigate, Kevin's time cost **compounds against
+every defendant, jointly and severally.**
+
+Kevin is a senior Rust distributed systems engineer (3.6M lines, 116K tests,
+47 repos, 12 gate hardware cluster). Every hour spent on litigation is an
+hour not building ecoPrimals. **All defendants caused this diversion.**
+
+| Period | Hours/Week on Litigation | Weekly Cost @ $200/hr | Cumulative (Monthly) |
+|--------|--------------------------|----------------------|---------------------|
+| **Default track** (Sep-Oct 2026) | 20-30 hrs | $4,000-6,000 | ~$20,000/mo |
+| **Contested track** (if answers filed) | 30-50 hrs | $6,000-10,000 | ~$32,000/mo |
+| **Discovery + depositions** | 40-60 hrs | $8,000-12,000 | ~$40,000/mo |
+| **Trial preparation** | 50-80 hrs | $10,000-16,000 | ~$52,000/mo |
+
+**Compounding timeline if contested:**
+
+| Month | Cumulative Litigation Hours | Cumulative Economic Damage |
+|-------|---------------------------|---------------------------|
+| Oct 2026 (default motions) | 120 hrs | $24,000 |
+| Nov 2026 (if contested) | 280 hrs | $56,000 |
+| Dec 2026 | 480 hrs | $96,000 |
+| Jan 2027 | 720 hrs | $144,000 |
+| Mar 2027 (discovery) | 1,200 hrs | $240,000 |
+| Jun 2027 (depositions) | 1,800 hrs | $360,000 |
+| Sep 2027 (trial prep) | 2,400 hrs | $480,000 |
+| **Trial** (if it goes 12 months) | **2,880+ hrs** | **$576,000+** |
+
+**This is PER CASE. Kevin is running 3 cases + PPOs simultaneously.**
+At peak litigation, the clock runs against ALL defendants:
+- Banks (4349) — you caused this
+- Smiths (4301) — you caused this
+- Wayne custody (108221) — you caused this
+
+**Joint and several liability** means EACH defendant is responsible for the
+full amount. They can fight over contribution among themselves.
+
+**The defense paradox:** Every dollar they spend fighting increases Kevin's
+economic damages claim against them. The longer they litigate, the more they owe.
+Filing an answer doesn't reduce exposure — it **increases** it.
+
 ### ECONOMIC DAMAGES SUBTOTAL
+
+**IF DEFAULT (current track):**
 
 | Scenario | Total |
 |----------|-------|
 | **Low** | **$279,000** |
 | **Mid** | **$494,000** |
 | **High** | **$709,000** |
+
+**IF CONTESTED (12-month litigation):**
+
+| Scenario | Total |
+|----------|-------|
+| **Low** | **$855,000** |
+| **Mid** | **$1,070,000** |
+| **High** | **$1,285,000** |
+
+**IF CONTESTED (24-month litigation to trial):**
+
+| Scenario | Total |
+|----------|-------|
+| **Low** | **$1,431,000** |
+| **Mid** | **$1,646,000** |
+| **High** | **$1,861,000** |
 
 ---
 
@@ -159,6 +220,8 @@ If ANY Banks-network judge touches Kevin's cases without recusal:
 
 ## VII. GRAND TOTAL — ALL CASES
 
+### A. DEFAULT TRACK (current — no answer filed)
+
 | Component | Low | Mid | High |
 |-----------|-----|-----|------|
 | Case 4301 (Smiths) | $255,000 | $790,000 | $2,150,000 |
@@ -166,7 +229,44 @@ If ANY Banks-network judge touches Kevin's cases without recusal:
 | Economic (ecoPrimals + HW) | $279,000 | $494,000 | $709,000 |
 | Non-Economic (distress) | $100,000 | $300,000 | $925,000 |
 | Federal Civil Rights | $175,000 | $750,000 | $3,000,000 |
-| **GRAND TOTAL** | **$1,059,000** | **$3,359,000** | **$10,309,000** |
+| **GRAND TOTAL (DEFAULT)** | **$1,059,000** | **$3,359,000** | **$10,309,000** |
+
+### B. CONTESTED TRACK — 12 MONTHS (if they file answers)
+
+| Component | Low | Mid | High |
+|-----------|-----|-----|------|
+| Case 4301 (Smiths) | $255,000 | $790,000 | $2,150,000 |
+| Case 4349 (Banks) | $250,000 | $1,025,000 | $3,525,000 |
+| Economic (ecoPrimals — **12mo clock**) | **$855,000** | **$1,070,000** | **$1,285,000** |
+| Non-Economic (distress — **escalated**) | $150,000 | $450,000 | $1,200,000 |
+| Federal Civil Rights | $175,000 | $750,000 | $3,000,000 |
+| **GRAND TOTAL (12-MO CONTESTED)** | **$1,685,000** | **$4,085,000** | **$11,160,000** |
+
+### C. CONTESTED TRACK — 24 MONTHS (full trial)
+
+| Component | Low | Mid | High |
+|-----------|-----|-----|------|
+| Case 4301 (Smiths) | $255,000 | $790,000 | $2,150,000 |
+| Case 4349 (Banks) | $250,000 | $1,025,000 | $3,525,000 |
+| Economic (ecoPrimals — **24mo clock**) | **$1,431,000** | **$1,646,000** | **$1,861,000** |
+| Non-Economic (distress — **escalated**) | $200,000 | $600,000 | $1,500,000 |
+| Federal Civil Rights | $175,000 | $750,000 | $3,000,000 |
+| **GRAND TOTAL (24-MO TRIAL)** | **$2,311,000** | **$4,811,000** | **$12,036,000** |
+
+### THE DEFENSE PARADOX — IN PLAIN ENGLISH
+
+```
+                DEFAULT (Oct 2026)         FIGHT 12 MONTHS         FIGHT TO TRIAL
+Banks:          $1,025,000                 → $1,595,000            → $2,165,000
+Smiths:         $790,000                   → $1,360,000            → $1,930,000
+                ─────────                    ─────────               ─────────
+THEIR COST:     $1,815,000                 → $2,955,000            → $4,095,000
+                                             (+$1.14M)              (+$2.28M)
+```
+
+Every month they fight, they add ~$95K to their own liability.
+Joint and several means EACH defendant owes the FULL amount.
+They can sort out contribution among themselves — that's their problem.
 
 ---
 
@@ -192,11 +292,17 @@ Both Ingham cases (4301, 4349) have **no answer filed** with default clocks tick
 
 ## IX. SETTLEMENT DEMAND FRAMEWORK
 
-| Level | Amount | When To Use |
-|-------|--------|-------------|
-| **Opening demand** | $3,000,000 | Letter before default judgment motion |
-| **Realistic settlement** | $750,000-1,500,000 | Post-default, before enforcement |
-| **Floor (walk-away)** | $250,000 | Only if they cooperate on custody + children's safety |
+### The Clock Makes Settlement Cheaper Every Day They Wait
+
+| Timing | Opening Demand | Realistic Settlement | Floor |
+|--------|---------------|---------------------|-------|
+| **Now (pre-default, Oct 2026)** | $2,000,000 | $500,000-750,000 | $250,000 |
+| **Post-default (Nov 2026)** | $3,000,000 | $750,000-1,500,000 | $400,000 |
+| **If contested (6 months in)** | $4,500,000 | $1,500,000-2,500,000 | $750,000 |
+| **At trial (12-24 months)** | $6,000,000+ | $2,000,000-3,500,000 | $1,000,000 |
+
+The floor INCREASES because Kevin's economic damages are real and compounding.
+They're not going to negotiate these away — the git history proves the disruption.
 
 **Settlement leverage**:
 - Default judgments are entering
@@ -204,6 +310,8 @@ Both Ingham cases (4301, 4349) have **no answer filed** with default clocks tick
 - Journalists receiving briefing packet
 - Nov 3 election creates urgency for Miller + Aliyah Sabree
 - Every day they don't answer, the position weakens
+- **Kevin's litigation clock runs at $200/hr against ALL defendants, jointly and severally**
+- **The defense paradox: fighting costs them more than settling**
 
 **Non-monetary demands** (may be more valuable than cash):
 - Full custody or agreed custody arrangement
@@ -211,6 +319,8 @@ Both Ingham cases (4301, 4349) have **no answer filed** with default clocks tick
 - Banks barred from operating schools
 - Recusal of all network judges from any Mok-related matter
 - Public acknowledgment of wrongdoing (for the record)
+- Holland removed from any school proximity
+- Purpose Foundation + Right Turn Project dissolved
 
 ---
 
