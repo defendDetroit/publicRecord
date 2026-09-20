@@ -13,6 +13,22 @@ Truth is more important than being "right." The purpose of this site is to
 document what the public record shows — not to harm anyone unfairly. If I've
 gotten something wrong, I want to know.
 
+This project is built on [ecoPrimals](https://sporeprint.primals.eco)
+infrastructure — the same system used for sovereign scientific computing.
+The foundational principle of that ecosystem is that
+[reality owns itself](https://sporeprint.primals.eco/philosophy/sovereign-science/):
+truth comes from data and observation, not from authority or assertion.
+In science, reproducibility is the standard. In law, truth is an absolute defense.
+This site applies both principles to the public record.
+
+The [atlasHugged essays](https://sporeprint.primals.eco/philosophy/) explain
+why we build this way — twelve essays on sovereign knowledge, open commons,
+and the architecture of accountability. Start with
+[The City of Omelas](https://sporeprint.primals.eco/philosophy/the-city-of-omelas/)
+if you want to understand the motivation, or
+[Discovery Is Local](https://sporeprint.primals.eco/philosophy/discovery-is-local/)
+if you want to understand why we insist on primary sources over secondhand claims.
+
 This project is built by [ecoPrimals](https://sporeprint.primals.eco) — a
 scientific computing ecosystem. As scientists and engineers, we believe truth
 comes from data and reality, not from narrative or authority. In law, truth is
