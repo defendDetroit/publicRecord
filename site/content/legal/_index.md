@@ -6,8 +6,6 @@ template = "section.html"
 keywords = "First Amendment, anti-SLAPP, UPEPA Michigan, defamation defense, truth absolute defense, fair report privilege, public records, free speech"
 +++
 
-# Legal Protections
-
 **This site publishes truthful information derived from public records about
 matters of public concern. It is protected by multiple overlapping legal
 frameworks at both the federal and state level.**
