@@ -1,7 +1,30 @@
 +++
 title = "Contact"
-description = "Secure contact options for harmed parties, media, and whistleblowers."
+description = "Corrections, contact, and secure communication for anyone named on this site, harmed parties, media, and whistleblowers."
 +++
+
+## Corrections & Disputes
+
+**If you believe you have been wrongly identified, or that the public record
+has been misrepresented on this site, please contact me to discuss it. I will
+amend the record as soon as possible.**
+
+Truth is more important than being "right." The purpose of this site is to
+document what the public record shows — not to harm anyone unfairly. If I've
+gotten something wrong, I want to know.
+
+**Email:** [eco.primal@pm.me](mailto:eco.primal@pm.me)
+
+Please include:
+- The specific page and claim you believe is inaccurate
+- The correct information with supporting documentation
+- How you'd like to be identified (or if you prefer anonymity)
+
+All corrections will be published transparently with the original wording,
+the revised wording, the date of correction, and the reason — because the
+correction history is part of the public record too.
+
+---
 
 ## For Harmed Parties
 
