@@ -17,7 +17,7 @@ keywords = "Purpose Foundation, Purpose Foundation Detroit, Banks Holland nonpro
 | LARA ID | 803294855 |
 | EIN | 33-3537910 |
 | Filed | December 9, 2024 |
-| Address | 1968 Severn Rd, Grosse Pointe Woods, MI 48236 |
+| Registered Address | Grosse Pointe Woods, MI (same as Purpose Group and Banks) |
 | Filed By | Crump-Gibson (Attorney In Fact) |
 
 Purpose Foundation is a private foundation registered at the same Grosse Pointe Woods address as Banks' other entities.

@@ -16,7 +16,7 @@ keywords = "Purpose Group LLC, charter management organization, CMO fraud, Banks
 | Type | Charter Management Organization (CMO) |
 | LARA ID | 803295082 |
 | Filed | November 14, 2024 |
-| Address | 1968 Severn Rd, Grosse Pointe Woods, MI 48236 |
+| Registered Address | Grosse Pointe Woods, MI (registered agent address) |
 | Sole Member | Brian Roderick Banks |
 | Organizing Attorney | Gary E. Perlmuter, Esq. |
 

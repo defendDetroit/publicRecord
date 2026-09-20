@@ -24,7 +24,7 @@ keywords = "Tenisha Yancey judge, Tenisha Yancey campaign, Tenisha Yancey Banks 
 ## Key Facts
 
 - A sitting Wayne County judge's campaign **directly paid** Banks' personal consulting LLC
-- Banks Strategy & Consultants LLC is controlled solely by a convicted felon (9 convictions, 6 felony) with a fake J.D.
+- Banks Strategy & Consultants LLC is controlled solely by a convicted felon (9 convictions, 6 felony) who claims a J.D. not confirmed by bar records
 - The payment creates a financial relationship between a judge and a known fraudster
 - Wayne County is the jurisdiction where Banks' school entities operate and generate cases
 

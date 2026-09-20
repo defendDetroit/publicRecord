@@ -17,7 +17,7 @@ keywords = "Joseph Holland Detroit, Joseph Holland drug offender, Joseph Holland
 | MDOC | #443789 | MDOC OTIS |
 | SID | 2321035P | MI ICHAT |
 | Discharge | May 8, 2024 — **"WITHOUT IMPROVEMENT"** | MDOC OTIS |
-| Address | 1968 Severn Rd, GPW MI 48236 (Banks' home — co-resident) | LARA |
+| Residence | Grosse Pointe Woods, MI (same address as Banks — co-resident) | LARA |
 
 ## Criminal Record
 
@@ -39,7 +39,7 @@ Discharged from MDOC supervision **"WITHOUT IMPROVEMENT"** — the system determ
 ## Key Facts
 
 - A convicted drug offender holds **both financial oversight positions** at Banks' nonprofit
-- Lists Banks' personal home as his own address on all filings
+- Lists the same Grosse Pointe Woods residential address as Banks on all filings
 - As PAC Treasurer, oversaw $22,225 in contributions and **$14,500+ in fines** for failure to file
 - Zero financial oversight independence — the same two felons hold every position
 

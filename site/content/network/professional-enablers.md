@@ -22,7 +22,7 @@ Signed Purpose Foundation Articles of Incorporation as "Attorney In Fact" — vo
 
 Drafted aggressive liability shields: *"NO MEMBER SHALL HAVE ANY LIABILITY TO THE COMPANY OR ITS MEMBERS FOR BREACH OF ANY DUTY"*
 
-**Question:** Did he know his client had 9 convictions and a fake J.D.? Did he draft the liability shield specifically to protect a known fraudster?
+**Question for investigation:** Did he know his client had 9 convictions and claimed a J.D. not confirmed by bar records? Did he draft the liability shield with knowledge of his client's history?
 
 ---
 

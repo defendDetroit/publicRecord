@@ -1,6 +1,6 @@
 +++
 title = "About This Investigation"
-description = "Who is behind this public record? A father, a veteran, and 30 days of public records research."
+description = "Two veterans, public records, and 30 days of research."
 +++
 
 ## The Methodology
@@ -13,26 +13,31 @@ using the sources linked in the [Verify](/validate/) section.
 Just LARA filings, OTIS records, Wayne County Register of Deeds, federal
 court dockets, campaign finance records, and LinkedIn screenshots.
 
-The investigation began when a father discovered his children had been
-enrolled in a charter school run by a convicted felon — without his knowledge
-or consent.
+The investigation began when a veteran father discovered his children had been enrolled in a charter school run by a convicted felon — without his knowledge or consent. His friend, a fellow veteran and researcher, began examining the public record to help document what they found.
 
 ## Kevin Mok
 
-Father of two. U.S. Army veteran. Michigan State University graduate.
+U.S. Army veteran. Michigan State University graduate.
 Former Sandia National Laboratories researcher. Software engineer.
 
-Kevin discovered the network when he tried to unenroll his children from
-Purpose Charter Academy after learning it was run by a man with 9 criminal
-convictions (6 felony, 3 misdemeanor). The retaliation from the school's connected families led to
-custody battles, mail fraud, forged documents, and physical assault —
-and uncovered a network that extends far beyond one school.
+Kevin began examining the public record while helping his longtime friend
+DaSean Mitchell document the institutions and individuals involved in the
+schools where DaSean's children were enrolled. What started as helping a
+friend navigate a custody dispute became a 30-day investigation that
+uncovered a network of convicted felons, shell entities, and judicial
+conflicts — all funded by public education dollars.
 
 ## DaSean Mitchell
 
-Veteran. Father. The human cost of this investigation.
+Veteran. Father. The reason this investigation exists.
 
-*DaSean's story will be published after the federal packet is deployed.*
+DaSean's children were enrolled in a charter school run by a man with
+9 criminal convictions (6 felony, 3 misdemeanor). When DaSean attempted to
+unenroll them, the retaliation from the school's connected families led to
+custody battles, mail fraud, forged documents, and physical assault —
+and uncovered a network that extends far beyond one school.
+
+*DaSean's full story will be published with his consent.*
 
 ## How This Site Works
 

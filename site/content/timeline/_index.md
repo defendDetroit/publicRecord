@@ -69,8 +69,8 @@ sort_by = "date"
 | Sep 17 | Motion for Alternative Service filed (Banks PPO) | Court records |
 | Sep 18–19 | Banks hosts CBC Reception at Kitchen + Kocktails, DC | Eventbrite |
 | Sep 20 | ICHAT pulled — 9 convictions confirmed | MI ICHAT |
-| **Sep 22** | **Federal Master Packet submitted to 8 agencies** | Filed |
-| **Sep 22** | **Journalist briefing packet distributed** | Filed |
+| **Sep 22** | **Federal Master Packet — scheduled delivery to 8 agencies** | Prepared |
+| **Sep 22** | **Journalist briefing packet — scheduled distribution** | Prepared |
 
 ## Upcoming
 

@@ -32,24 +32,21 @@
           "@type": "Person",
           "name": "{{ config.extra.author }}"
         },
-        "potentialAction": {
-          "@type": "SearchAction",
-          "target": "{{ config.base_url }}/search?q={search_term_string}",
-          "query-input": "required name=search_term_string"
-        }
+        "description": "{{ config.description }}"
       },
       {
-        "@type": "ReportageNewsArticle",
-        "headline": "Cash for Kids 2: Operation Detroit Plantation",
-        "description": "Public evidence documenting racketeering in Detroit charter schools — convicted felons, corrupt judges, and millions in misused public education funding.",
+        "@type": "Report",
+        "headline": "{{ config.title }}",
+        "description": "{{ config.description }}",
         "author": { "@type": "Person", "name": "{{ config.extra.author }}" },
-        "datePublished": "2026-09-22",
+        "datePublished": "2026-09-20",
+        "dateModified": "{{ now() | date(format='%Y-%m-%d') }}",
         "publisher": { "@type": "Person", "name": "{{ config.extra.author }}" },
         "about": [
           {
             "@type": "EducationalOrganization",
             "name": "Purpose Charter Academy",
-            "alternateName": ["PCA", "Purpose Charter Academy Detroit"],
+            "alternateName": ["PCA"],
             "address": { "@type": "PostalAddress", "addressLocality": "Detroit", "addressRegion": "MI" }
           },
           {
@@ -58,7 +55,7 @@
             "address": { "@type": "PostalAddress", "addressLocality": "Detroit", "addressRegion": "MI" }
           }
         ],
-        "keywords": "charter school fraud, racketeering, Detroit education, BMF, public accountability"
+        "keywords": "charter school accountability, Detroit education, public records"
       },
       {
         "@type": "Organization",

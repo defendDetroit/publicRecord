@@ -1,6 +1,6 @@
 +++
 title = "Purpose Charter Academy — K-8 Charter School"
-description = "K-8 charter school in Detroit authorized by DPSCD. Run by Brian Banks (9 convictions, fake J.D.). Managed by Purpose Group LLC. DOE certificate issued 3 days after school year started."
+description = "K-8 charter school in Detroit authorized by DPSCD. Run by Brian Banks (9 convictions, claimed J.D. not confirmed by bar records). Managed by Purpose Group LLC. DOE certificate issued 3 days after school year started."
 weight = 1
 date = 2026-09-20
 

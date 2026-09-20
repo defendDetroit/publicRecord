@@ -5,7 +5,7 @@ weight = 1
 date = 2026-09-20
 
 [extra]
-keywords = "Brian Banks Detroit, Brian Banks charter school, Brian Banks criminal record, Purpose Charter Academy superintendent, Brian Banks fake JD, Brian Banks MSU Law"
+keywords = "Brian Banks Detroit, Brian Banks charter school, Brian Banks criminal record, Purpose Charter Academy superintendent, Brian Banks MSU Law, Brian Banks credentials"
 +++
 
 ## Identity
@@ -13,9 +13,9 @@ keywords = "Brian Banks Detroit, Brian Banks charter school, Brian Banks crimina
 | Field | Value | Source |
 |-------|-------|--------|
 | Full Name | Brian Roderick Banks | PACER, MDOC, MI DOE |
-| DOB | November 15, 1976 | MI DOE |
+| Birth Year | 1976 | MI DOE |
 | SID | 2029469K | MI ICHAT |
-| Address | 1968 Severn Road, Grosse Pointe Woods MI 48236 | Wayne ROD, LARA |
+| Residence | Grosse Pointe Woods, MI | Wayne ROD, LARA |
 
 ## Criminal History — 9 Convictions (6 Felony, 3 Misdemeanor)
 
@@ -63,7 +63,7 @@ The enterprise never dissolved — it professionalized. BMF moved drugs for cash
 
 ## Entity Control
 
-Banks controls **9+ entities**, all registered to his personal residence at 1968 Severn Road, Grosse Pointe Woods:
+Banks controls **9+ entities**, all registered to the same residential address in Grosse Pointe Woods:
 
 - Purpose Charter Academy (superintendent)
 - MacDowell Preparatory Academy (superintendent)

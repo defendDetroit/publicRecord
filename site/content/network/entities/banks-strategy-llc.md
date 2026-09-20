@@ -48,7 +48,7 @@ Judge Yancey campaign
 Banks Strategy & Consultants LLC
         │
         ▼
-Brian Roderick Banks (9 convictions, fake J.D.)
+Brian Roderick Banks (9 convictions, claimed J.D. not confirmed by bar records)
         │
         ├── Purpose Charter Academy
         ├── MacDowell Preparatory Academy

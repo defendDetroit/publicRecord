@@ -1,12 +1,12 @@
 +++
 title = "The Network"
-description = "The Banks Enterprise — a racketeering network spanning charter schools, courts, political offices, and nonprofit shells in Detroit. Every connection documented from public records."
+description = "The Banks Network — documented connections spanning charter schools, courts, political offices, and nonprofit entities in Detroit. Every connection sourced from public records."
 sort_by = "weight"
 +++
 
 This is not one bad actor. It is a **network** — convicted felons, judges, attorneys, and institutions connected through boards, campaigns, property, and family ties.
 
-Federal agencies received the complete map on September 22, 2026.
+Federal agencies are scheduled to receive the complete map on September 22, 2026.
 
 <div id="network-graph" style="width:100%;min-height:400px;margin:2rem 0;border:1px solid var(--border,#dee2e6);border-radius:6px;overflow:hidden;"></div>
 <script src="/js/network-graph.js" defer></script>
@@ -15,7 +15,7 @@ Federal agencies received the complete map on September 22, 2026.
 ## Enterprise Structure
 
 ```
-BRIAN RODERICK BANKS (9 convictions, 3 bankruptcies, fake J.D.)
+BRIAN RODERICK BANKS (9 convictions, 3 bankruptcies, claimed J.D. not confirmed)
 │
 ├── REVENUE ─── PCA + MacDowell ($4.9M+ state aid/yr)
 ├── EXTRACTION ─ Purpose Group LLC (takes 72.67% of revenue)
