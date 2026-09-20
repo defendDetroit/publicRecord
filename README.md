@@ -26,12 +26,25 @@ This repository is the public-facing evidence archive. Every document carries a 
 ## Structure
 
 ```
-filings/          Court filings, complaints, motions, federal packets
-correspondence/   Letters, emails, service proof
-evidence/         Documentary evidence, financial records
-damages/          Damages analysis and judgment frameworks
-foia/             FOIA requests and responses
-timeline/         Chronological event summaries
+actors/               Profiles of individuals in the network
+  banks-brian/          Brian Banks — 9 convictions, fake J.D., enterprise leader
+  holland-joseph/       Joseph Holland Jr — co-felon, financial gatekeeper
+  judges/               Captured judges: Miller, Yancey, Sabree, Perkins
+  political/            Political enablers: Gay-Dagnogo, McKinney
+entities/             Entity profiles with LARA data and financials
+  purpose-foundation/   Private foundation — 2 felons, all 4 officer slots
+  purpose-group-llc/    CMO shell — takes 72.67% of school funds
+  banks-strategy-llc/   "Consulting" firm — receives judge campaign payments
+  purpose-charter-academy/
+  macdowell-prep/
+  pacs/                 Political action committees
+pattern/              RICO pattern analysis — enterprise structure mapped
+filings/              Court filings, complaints, motions, federal packets
+correspondence/       Letters, emails, service proof
+evidence/             Documentary evidence, financial records
+damages/              Damages analysis and judgment frameworks
+foia/                 FOIA requests and responses
+timeline/             Chronological event summaries
 ```
 
 ## Key Documents
@@ -73,7 +86,7 @@ git diff HEAD~1            # what changed in the last commit
 | Tier | Location | Purpose |
 |------|----------|---------|
 | **Primary** | `git.primals.eco/publicRecord/detroit` | Self-hosted Forgejo — sovereign, no takedown vector |
-| **Mirror** | GitHub (TBD) | Public visibility, issue tracking, collaboration |
+| **Mirror** | `github.com/defendDetroit/publicRecord` | Public visibility, issue tracking, collaboration |
 | **Local** | Developer machines | Full evidence archive with heavy media |
 
 ## For Journalists and Attorneys
