@@ -1,6 +1,6 @@
 +++
 title = "PACs — Dark Money and Felon Treasurers"
-description = "Three political committees controlled by convicted felons. $14,500+ in campaign finance fines. Dark money mailers via OFA Michigan. Holland (drug trafficker) as PAC treasurer."
+description = "Three political committees controlled by convicted felons. $14,500+ in campaign finance fines. Dark money mailers via OFA Michigan. Holland (convicted drug offender) as PAC treasurer."
 weight = 6
 date = 2026-09-20
 
@@ -20,7 +20,7 @@ Three political committees connected to the Banks network — two traditional PA
 | Total raised | $22,225 |
 | Campaign finance fines | **$14,500+** |
 
-Holland — a convicted drug trafficker — serves as treasurer for this PAC while also holding Secretary and Treasurer positions at Purpose Foundation.
+Holland — a convicted drug offender (Controlled Substance — Possession) — serves as treasurer for this PAC while also holding Secretary and Treasurer positions at Purpose Foundation.
 
 ## Bank on Wayne County
 

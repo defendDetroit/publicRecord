@@ -1,6 +1,6 @@
 base_url = "https://detroit.primals.eco"
 title = "Cash for Kids 2: A Public Record"
-description = "Public evidence library documenting racketeering in Detroit charter schools. Convicted felons running schools. Judges on school boards. Drug traffickers handling finances. $4.9M in public funding. 3% math proficiency. Every fact cited. Every document timestamped. Verify everything."
+description = "Public evidence library documenting racketeering in Detroit charter schools. Convicted felons running schools. Judges on school boards. $4.9M in public funding. 3% math proficiency. Every fact cited. Every document timestamped. Verify everything."
 compile_sass = false
 build_search_index = true
 generate_feeds = true
@@ -24,3 +24,108 @@ include_content = true
 author = "Kevin Mok"
 repo_url = "https://git.primals.eco/publicRecord/detroit"
 contact_email = "eco.primal@pm.me"
+
+# ── Actor Registry (single source of truth for names and facts) ──────────
+
+[extra.actors.banks]
+display = "Brian Roderick Banks"
+short = "Banks"
+role = "Enterprise leader"
+convictions = "9 convictions (6 felony, 3 misdemeanor)"
+conviction_count = 9
+sid = "2029469K"
+address = "1968 Severn Road, Grosse Pointe Woods MI 48236"
+credential_claim = "J.D., Michigan State University College of Law"
+credential_status = "Never admitted to any bar — State Bar of Michigan: zero results"
+page = "/network/actors/brian-banks/"
+
+[extra.actors.holland]
+display = "Joseph Holland Jr."
+short = "Holland"
+birth_name = "Williams, Joseph Antione"
+role = "Financial gatekeeper"
+criminal_record = "Controlled Substance — Possession (2009, Oakland County)"
+mdoc = "443789"
+sid = "2321035P"
+discharge = "May 8, 2024 — WITHOUT IMPROVEMENT"
+address = "1968 Severn Rd, GPW MI 48236 (Banks' home — co-resident)"
+page = "/network/actors/joseph-holland/"
+
+[extra.actors.miller]
+display = "Judge Cylenthia Miller"
+short = "Miller"
+court = "Wayne County 3rd Circuit Court"
+connection = "Board Chair of Anchor Rock Foundation (Banks entity)"
+election = "November 3, 2026"
+page = "/network/judges/cylenthia-miller/"
+
+[extra.actors.yancey]
+display = "Judge Tenisha Yancey"
+short = "Yancey"
+court = "Wayne County 3rd Circuit Court"
+connection = "Campaign paid $2,283 to Banks Strategy & Consultants LLC (2024)"
+page = "/network/judges/tenisha-yancey/"
+
+[extra.actors.sabree]
+display = "Judge Aliyah Sabree"
+short = "Sabree"
+court = "Wayne County 3rd Circuit Court"
+connection = "MSU Law classmate (2010) — same year as Banks' claimed J.D."
+page = "/network/judges/aliyah-sabree/"
+
+[extra.actors.perkins_david]
+display = "Judge David Perkins"
+short = "D. Perkins"
+court = "Wayne County Probate Court"
+connection = "Family donated to Banks-aligned campaigns; Probate overlaps guardianship entity"
+page = "/network/judges/david-perkins/"
+
+# ── Entity Registry ──────────────────────────────────────────────────────
+
+[extra.entities.pca]
+display = "Purpose Charter Academy"
+short = "PCA"
+type = "K-8 Charter School"
+authorizer = "DPSCD"
+page = "/network/entities/purpose-charter-academy/"
+
+[extra.entities.macdowell]
+display = "MacDowell Preparatory Academy"
+short = "MacDowell"
+type = "K-8 Charter School"
+authorizer = "Central Michigan University"
+revenue = "$4.9M/yr"
+extraction_pct = "72.67%"
+extraction_amount = "$4,285,201"
+unaccounted = "$348,489"
+page = "/network/entities/macdowell-prep/"
+
+[extra.entities.purpose_group]
+display = "The Purpose Group, LLC"
+short = "Purpose Group"
+lara_id = "803295082"
+type = "Charter Management Organization (CMO)"
+page = "/network/entities/purpose-group-llc/"
+
+[extra.entities.purpose_foundation]
+display = "Purpose Foundation"
+lara_id = "803294855"
+ein = "33-3537910"
+type = "Private 501(c)(3)"
+page = "/network/entities/purpose-foundation/"
+
+[extra.entities.banks_strategy]
+display = "Banks Strategy & Consultants LLC"
+short = "Banks Strategy"
+lara_id = "802070120"
+type = "Consulting LLC"
+page = "/network/entities/banks-strategy-llc/"
+
+# ── BMF Connection ───────────────────────────────────────────────────────
+
+[extra.bmf]
+father = "OD Banks"
+father_case = "2:05-cr-80955 (E.D. Michigan)"
+father_defendant_number = 22
+aunt = "Tonesa Welch"
+aunt_role = "BMF figure, author"

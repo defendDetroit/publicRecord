@@ -23,8 +23,8 @@ Father of two. U.S. Army veteran. Michigan State University graduate.
 Former Sandia National Laboratories researcher. Software engineer.
 
 Kevin discovered the network when he tried to unenroll his children from
-Purpose Charter Academy after learning it was run by a man with 8+ felony
-convictions. The retaliation from the school's connected families led to
+Purpose Charter Academy after learning it was run by a man with 9 criminal
+convictions (6 felony, 3 misdemeanor). The retaliation from the school's connected families led to
 custody battles, mail fraud, forged documents, and physical assault —
 and uncovered a network that extends far beyond one school.
 

@@ -12,7 +12,7 @@ pages of self-promotion, zero acknowledgment of victims, zero accountability.
   - Now a reality TV personality, school board connected
 
 - **Brian Banks** — autobiography
-  - 8+ felony convictions reframed as "redemption"
+  - 9 convictions (6 felony) reframed as "redemption"
   - Fake credentials presented as achievement
   - No mention of the children whose education he oversees at 3% proficiency
 

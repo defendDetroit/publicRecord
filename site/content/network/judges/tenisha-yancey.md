@@ -1,6 +1,6 @@
 +++
 title = "Judge Tenisha Yancey"
-description = "Wayne County 3rd Circuit Court judge whose campaign paid $2,283 to Banks Strategy & Consultants LLC — a firm controlled solely by a 9-time convicted felon."
+description = "Wayne County 3rd Circuit Court judge whose campaign paid $2,283 to Banks Strategy & Consultants LLC — a firm controlled solely by a convicted felon with 9 convictions."
 weight = 2
 date = 2026-09-20
 
@@ -24,7 +24,7 @@ keywords = "Tenisha Yancey judge, Tenisha Yancey campaign, Tenisha Yancey Banks 
 ## Key Facts
 
 - A sitting Wayne County judge's campaign **directly paid** Banks' personal consulting LLC
-- Banks Strategy & Consultants LLC is controlled solely by a 9-time convicted felon with a fake J.D.
+- Banks Strategy & Consultants LLC is controlled solely by a convicted felon (9 convictions, 6 felony) with a fake J.D.
 - The payment creates a financial relationship between a judge and a known fraudster
 - Wayne County is the jurisdiction where Banks' school entities operate and generate cases
 

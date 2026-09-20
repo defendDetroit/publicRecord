@@ -1,0 +1,5 @@
+{# Render a canonical fact from any registry section.
+   Usage: {{ fact(section="actors", key="banks", field="convictions") }}
+          {{ fact(section="entities", key="macdowell", field="extraction_pct") }}
+          {{ fact(section="bmf", field="father") }} #}
+{% if section == "bmf" %}{{ config.extra.bmf[field] }}{% elif section == "actors" %}{{ config.extra.actors[key][field] }}{% elif section == "entities" %}{{ config.extra.entities[key][field] }}{% else %}<em>unknown section</em>{% endif %}

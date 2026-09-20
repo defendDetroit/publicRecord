@@ -39,7 +39,7 @@ available databases. Here's how.
 
 - URL: [pacer.uscourts.gov](https://pacer.uscourts.gov)
 - BMF case: USA v. Flenory et al (2:05-cr-80955, Eastern District of Michigan)
-- Defendant #22: Tonesa Welch (Banks' blood relative)
+- Defendant #22: OD Banks (Brian Banks' biological father); Tonesa Welch (Brian Banks' aunt)
 - Search bankruptcy cases for Holland and Banks
 
 ## Campaign Finance — Wayne County

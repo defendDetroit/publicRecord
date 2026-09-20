@@ -1,6 +1,6 @@
 +++
 title = "Brian Roderick Banks — Enterprise Leader"
-description = "9 felony convictions. Fake J.D. Fake Ph.D. Runs two Detroit charter schools receiving $4.9M+ in public funding. Controls 9+ entities registered to his Grosse Pointe Woods home."
+description = "9 convictions (6 felony, 3 misdemeanor). Fake J.D. Fake Ph.D. Runs two Detroit charter schools receiving $4.9M+ in public funding. Controls 9+ entities registered to his Grosse Pointe Woods home."
 weight = 1
 date = 2026-09-20
 
@@ -17,9 +17,9 @@ keywords = "Brian Banks Detroit, Brian Banks charter school, Brian Banks crimina
 | SID | 2029469K | MI ICHAT |
 | Address | 1968 Severn Road, Grosse Pointe Woods MI 48236 | Wayne ROD, LARA |
 
-## Criminal History — 9 Convictions
+## Criminal History — 9 Convictions (6 Felony, 3 Misdemeanor)
 
-**6 felony, 3 misdemeanor — across 5 agencies and 5 courts (1998–2017)**
+**Across 5 agencies and 5 courts (1998–2017)**
 
 | # | Date | Court | Charge | Grade | Disposition |
 |---|------|-------|--------|-------|-------------|

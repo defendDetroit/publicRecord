@@ -1,11 +1,11 @@
 +++
 title = "Joseph Holland Jr. — Financial Gatekeeper"
-description = "Convicted drug trafficker (MDOC #443789). Discharged 'WITHOUT IMPROVEMENT.' Serves as Treasurer of Banks' PAC, Secretary + Treasurer of his foundation, and 1st Successor Trustee of his living trust."
+description = "Convicted drug offender (MDOC #443789, Controlled Substance — Possession). Discharged 'WITHOUT IMPROVEMENT.' Serves as Treasurer of Banks' PAC, Secretary + Treasurer of his foundation, and 1st Successor Trustee of his living trust."
 weight = 2
 date = 2026-09-20
 
 [extra]
-keywords = "Joseph Holland Detroit, Joseph Holland drug trafficker, Joseph Holland charter school, Purpose Foundation treasurer, MDOC 443789"
+keywords = "Joseph Holland Detroit, Joseph Holland drug offender, Joseph Holland charter school, Purpose Foundation treasurer, MDOC 443789"
 +++
 
 ## Identity

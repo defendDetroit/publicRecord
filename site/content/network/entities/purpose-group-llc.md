@@ -1,6 +1,6 @@
 +++
 title = "The Purpose Group, LLC — The Extraction Engine"
-description = "Banks' management company takes 72.67% of all school revenue. Sole member: a 9-time convicted felon. Organized by attorney Gary E. Perlmuter with aggressive liability shields."
+description = "Banks' management company takes 72.67% of all school revenue. Sole member: a convicted felon with 9 convictions (6 felony). Organized by attorney Gary E. Perlmuter with aggressive liability shields."
 weight = 3
 date = 2026-09-20
 
