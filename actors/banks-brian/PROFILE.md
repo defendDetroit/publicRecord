@@ -88,7 +88,7 @@ Banks claims **"J.D."** (Juris Doctor) from Michigan State University College of
 - Party admission under MRE 801(d)(2)(A) / FRE 801(d)(2)(A)
 
 ## Family Connection
-- Nephew of Tonesa Welch through blood father OD Banks (BMF Defendant #22, Case 2:05-cr-80955)
+- Half-nephew of Tonesa Welch (BMF defendant, Case 2:05-cr-80955) through shared father/grandfather OD Banks (BMF associate — NOT a named defendant in the 43-defendant case per PACER search Sep 20, 2026)
 
 ---
 *All sources are public records. Verify at the links above.*

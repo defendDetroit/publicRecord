@@ -57,7 +57,7 @@
 ## Tier 5: Family / BMF Connection
 | Actor | Connection |
 |-------|------------|
-| **OD Banks** | Brian Banks' biological father; BMF Defendant #22 (Case 2:05-cr-80955) |
+| **OD Banks** | Brian Banks' biological father/grandfather; BMF associate (NOT a named defendant — 43-defendant list searched Sep 20). Tonesa Welch IS a defendant. |
 | **Tonesa Welch** | Brian Banks' aunt (through OD Banks); BMF figure; author; movie subject |
 | **Darryl Banks Jr.** | Relative; received McKinney campaign payment ($2,200) |
 | **Dr. Chalena Yancey Beasley** | Judge Yancey's sister; PCA School Leader |
