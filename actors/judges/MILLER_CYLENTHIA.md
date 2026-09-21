@@ -58,8 +58,9 @@
 - Fannie Lou Hamer PAC
 - Detroit Democratic Club
 - SEIU
-- Official Eastside Slate
+- **Official Eastside Slate** ← Carol Banks (Vice Chair), FBI-probed, runs endorsement-for-payment operation
 - MI Democratic Future PAC
+- **Wayne County Treasurer Eric R. Sabree** ← father of judges Adam + Aliyah Sabree
 - MI Regional Council of Carpenters
 - Laborers Local 911
 - MAPO

@@ -37,16 +37,26 @@
 | Opportunities For All Michigan | **Officer** | IRS filing |
 | Right Turn Project | Connected — org operated from 21456 Newcastle (Holland property) | LARA, IRS |
 
-## Bankruptcies (5)
-| # | Case | Filed | Court | Source |
-|---|------|-------|-------|--------|
-| 1 | 09-46072 | 2009 | MIEB | PACER |
-| 2 | 14-46410 | 2014 | MIEB | PACER |
-| 3 | 14-51632 | 2014 | MIEB | PACER |
-| 4 | 16-53855 | 2016 | MIEB | PACER |
-| 5 | [5th TBD] | — | — | PACER search |
+## Bankruptcies (5 — Confirmed via PACER Cover Sheet, Sep 20 2026)
+| # | Case | Chapter | Filed | Disposition | Key Detail |
+|---|------|---------|-------|-------------|------------|
+| 1 | 05-81655-swr | 7 | 10/13/2005 | **Discharged** | Baseline — pre-Newcastle QCD |
+| 2 | 08-65982-swr | 13 | 10/24/2008 | **Dismissed** | 1st post-Newcastle QCD (Jun 2007) |
+| 3 | 09-46072-swr | 13 | 03/03/2009 | **Dismissed — LACK OF GOOD FAITH** | Judge Rhodes. Schedules disclose Banks as co-owner. $15,450 severance post-filing. |
+| 4 | 14-46410-mar | 7 | 04/13/2014 | **Dismissed — NEVER FILED DOCS** | Automatic stay abuse. No schedules, no SOFA, nothing. |
+| 5 | 14-51632-mar | 7 | 07/15/2014 | **Discharged** | Filed 3 months after BK4. Address: 20307 Lochmoor. |
 
-**⚠️ PENDING:** Schedules A/B for cases 09-46072, 14-46410, and 14-51632 needed to evaluate potential bankruptcy fraud (concealment of assets).
+**Five bankruptcies in 9 years. Two discharged, three dismissed. BK4 was pure automatic stay abuse.**
+
+### ✅ CONFIRMED FROM BK1 SCHEDULES (09-46072, pulled Sep 20 2026):
+- **Schedule H (Codebtors)**: Banks listed at 21553 Newcastle Rd — *"Individual is not on the mortgage however; shares interest in the property and disclosed on the deed"*
+- **Schedule A**: Newcastle valued at $65,000 with $137,400 in liens — **underwater by $72,400**
+- **Schedule I**: Holland was **unemployed** at filing. Income: Unemployment ($1,284/mo) + Banks ($1,900/mo)
+- **SOFA**: Banks paid Holland **$10,000 in 2008** as "Co-owner/Roommate"
+- **Form 22C**: Banks paid $833.33/mo Sep–Dec 2008, then **$0 in Jan–Feb 2009** (stopped before filing)
+- **Schedule I vs Form 22C discrepancy**: Schedule I claims $1,900/mo from Banks; Form 22C shows $555.55/mo average
+- **Ch.13 Plan**: $1,819.61/month for 55 months. Proposed to **surrender 2006 Audi A6**. 0% to unsecured creditors.
+- **Dismissal reason**: Trustee caught $15,450.24 severance received post-filing → objected → Rhodes dismissed for "lack of good faith"
 
 ## Campaign Finance Irregularities
 | Issue | Detail | Source |

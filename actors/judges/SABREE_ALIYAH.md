@@ -5,8 +5,11 @@
 |-------|-------|--------|
 | Court | Wayne County 3rd Circuit Court (Family Division) | Wayne County courts |
 | Division | Family Division — hears custody cases involving Detroit children | Court records |
-| **Next Election** | **November 3, 2026** (special election, incumbent) | Ballotpedia |
-| Education | J.D., Michigan State University College of Law, 2010 | MSU Law records |
+| Appointed | **May 15, 2025 by Gov. Whitmer** — replaced Judge Charles Hegarty | Ballotpedia |
+| Prior Court | 36th District Court (elected Nov 2022, assumed Jan 2023) | Ballotpedia |
+| **Next Election** | **November 3, 2026** (special election, incumbent vs **Shakira Lynn Hawkins**) | Ballotpedia |
+| Education | J.D., Michigan State University College of Law, **2010** — same class year Banks claims | MSU Law records |
+| Prior Roles | Assistant Prosecuting Attorney (Wayne County), Associate General Counsel (DWSD), Liaison to City Council (Mayor's Office) | Ballotpedia |
 
 ## The Sabree Dynasty — Three Family Members in Institutional Power
 | Person | Role | Connection |

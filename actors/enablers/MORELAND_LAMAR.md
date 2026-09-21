@@ -23,10 +23,15 @@
 
 **An AAG on a convicted felon's school board is running to become the judge in that felon's neighborhood.** This is the capture pattern documented throughout this network — but prospective rather than retrospective.
 
-## Named by Dagnogo
-- Sherry Gay-Dagnogo personally named Moreland as part of the PCA development team to Chalkbeat
-- Other named members: Judge Miller + 6 unnamed individuals
-- Source: Chalkbeat (Sep 2025)
+## Named by Dagnogo — TRIPLE CONFIRMED
+- Sherry Gay-Dagnogo personally named Moreland as part of the PCA development team
+- **Direct quote (Chalkbeat, Bridge Detroit, Metro Parent — ALL Sep 8, 2025):**
+  *"The nine-member development team behind Purpose Charter Academy includes
+  Michigan Third Circuit Court Judge Cylenthia LaToye Miller, attorney
+  Lamar Moreland, as well as educators, mental health practitioners,
+  and civic leaders, said Board member Sherry Gay-Dagnogo."*
+- PCA is managed by **The Purpose Group** (Banks' private LLC)
+- Authorized by DPSCD (Dagnogo was DPSCD Board member before Ombudsman)
 
 ## Key Facts
 - Currently an AAG while serving on the board of a school run by a 9-time convicted felon

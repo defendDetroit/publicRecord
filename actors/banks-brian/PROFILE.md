@@ -54,12 +54,14 @@ Banks claims **"J.D."** (Juris Doctor) from Michigan State University College of
 | Ph.D. Public Policy | Walden University | 2022 (Dissertation #12627 — lists fake J.D. on cover page) |
 | School Admin Certificate | MI DOE AD0000048782 | Sep 2, 2022 (3 days after school started) |
 
-## Bankruptcies (3)
-| Case | Filed | Court | Name Used |
-|------|-------|-------|-----------|
-| 97-45020 | Mar 27, 1997 | MIEB | Brian R. Banks |
-| 98-49073 | May 14, 1998 | MIEB | Brian Roderick Banks |
-| 06-55281 | Oct 23, 2006 | MIEB | Brian Roderick Banks |
+## Bankruptcies (3 — All MIEB, All Dismissed)
+| Case | Filed | Chapter | Name Used | Disposition | Detail |
+|------|-------|---------|-----------|-------------|--------|
+| 97-45020-swr | 03/27/1997 | 13 | Brian R. Banks | **Dismissed** | Address: **13303 Corbett, Detroit MI 48213**. SSN last-4: 5523. **PRO SE** (no attorney). Judge: **Steven W. Rhodes** (same as Holland BK1). Trustee: David Wm Ruskin. Creditor: Huntington Acceptance Corp. ARCHIVED at FRC. |
+| 98-49073 | 05/14/1998 | — | Brian Roderick Banks | — | Filed 14 months after BK1 |
+| 06-55281 | 10/23/2006 | — | Brian Roderick Banks | — | Filed during criminal career (between Eaton County conviction and AG charges) |
+
+**⚠️ Banks and Holland both had BK cases before Judge Steven W. Rhodes — and both were dismissed.**
 
 ## LARA Entities (9 results — Individual Name search)
 | Entity | LARA ID | Status | Banks' Role |
