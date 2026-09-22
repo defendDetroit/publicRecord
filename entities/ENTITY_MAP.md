@@ -57,7 +57,9 @@ STATE OF MICHIGAN (per-pupil funding)
 │ Banks Strategy & Consult │
 │ Receives payments from   │
 │ sitting judges' campaigns│
-│ (Yancey: $2,283 in 2024)│
+│ (Yancey: $383.82, 2024) │
+│ (McKinney→D.Banks Jr:   │
+│  $2,283, separate)       │
 └──────────────────────────┘
 ```
 

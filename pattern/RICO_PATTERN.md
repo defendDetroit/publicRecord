@@ -26,7 +26,7 @@ BRIAN RODERICK BANKS (9 convictions, 3 bankruptcies, fake J.D.)
 ├── JUDICIAL COVER
 │   ├── Judge Cylenthia Miller ────────── Board Chair of Banks' prior school entity
 │   ├── Judge Aliyah Sabree ───────────── MSU Law classmate (2010), never reported fraud
-│   ├── Judge Tenisha Yancey ──────────── Paid $2,283 to Banks Strategy (2024)
+│   ├── Judge Tenisha Yancey ──────────── Paid $383.82 to Banks Strategy (her SOLE expenditure, 2024)
 │   └── David Perkins ────────────────── Wayne Probate Judge, family donated to network
 │
 └── KEY ASSOCIATE
