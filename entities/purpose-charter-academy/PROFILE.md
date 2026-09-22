@@ -40,6 +40,15 @@ Per Chalkbeat (Sep 2025):
 - Confirmed via Walden University dissertation dedication
 - A judge's sister runs the school while another judge chairs its board
 
+## Basketball Feeder Pipeline
+- PCA is **K-8** (Kindergarten through 8th grade) — unusually wide range
+- PCA advertised **basketball tryouts for grades 5-8** (per Kevin Mok, on-site observation)
+- MacDowell check register shows payments to **Greater Metropolitan Youth Sports** for "BB Team" ($300, check #1056) and **Fireproof Authentics** for "T-Shirts Staff Basketball" ($582, check #10270)
+- Banks' personal attorney Todd Perkins (P55623) is an **NBPA certified basketball agent** since July 2017 via **Kilimanjaro Sports Management** (615 Griswold, same building as his law firm)
+- Perkins' website: represents "young athletes from their high school years up to and through their professional careers"
+- **The pipeline:** K-8 basketball programs (ages 10-14) → high school athletes → Perkins' sports agency clients
+- Perkins' NBPA certification (2017) **predates** PCA (2025) — the recruitment infrastructure was waiting
+
 ## Key Facts
 - New school opened July 2025, serving at-risk Detroit youth
 - Same operator, same credential fraud, same network as MacDowell
@@ -47,6 +56,7 @@ Per Chalkbeat (Sep 2025):
 - Vice Chair is an AAG from the office that CHARGED Banks with felonies
 - DPSCD authorized this school despite calling Banks "untenable" in 2019
 - The school name includes "Law" — led by someone denied bar admission
+- **The K-8 grade range is not just educational — it's a basketball feeder system for the attorney's sports agency**
 
 ## Verify
 - PCA website: purposecharteracademy.com

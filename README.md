@@ -96,11 +96,11 @@ foia/                       FOIA requests and responses
 
 | Document | Description | Date |
 |----------|-------------|------|
-| `filings/2026-09-22_federal_master_packet.pdf` | **Unified Federal Intelligence Packet** — 8 agencies | Sep 2026 |
+| `filings/2026-09-22_federal_master_packet.pdf` | **Unified Federal Intelligence Packet** — 9 agencies | Sep 2026 |
 | `filings/2026-09-22_journalist_briefing_packet.pdf` | Journalist briefing — 7 investigative story angles | Sep 2026 |
 | `filings/2026-09-16_complaint_chain_master.md` | Master complaint chain — all filed complaints | Sep 2026 |
 | `damages/DAMAGES_ANALYSIS.md` | Per-defendant damages analysis with compounding | Sep 2026 |
-| `actors/NETWORK_MAP.md` | Full actor map — 17+ individuals, 7 judges, 4 courts | Sep 2026 |
+| `actors/NETWORK_MAP.md` | Full actor map — 17+ individuals, 9 judges, 4 courts | Sep 2026 |
 | `wronged/WRONGED_PARTIES.md` | Institutions/individuals harmed by association | Sep 2026 |
 
 ## Source Verification
