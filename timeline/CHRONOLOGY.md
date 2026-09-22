@@ -71,8 +71,7 @@
 | Date | Event | Source | Confidence |
 |------|-------|--------|------------|
 | _[TBD]_ | _Smith family BK filings begin — coordinated pattern_ | _PACER — fill on next pass_ | — |
-| Jul 15 | Complainant first encounters Banks at PCA — **Banks denies access, claims to be attorney, calls police** | Police report (GPW DPS #26-0909-0176) | high |
-| Jul 15 | Banks files retaliatory police report against complainant (who was not present) | GPW police report | high |
+| _[Jul–Aug]_ | _Complainant first becomes aware of Banks through custody dispute — DaSean's children enrolled at PCA without father's consent_ | _Court records_ | high |
 | _[Jul–Aug]_ | _State Bar search confirms: Banks has NO law license_ | _State Bar of Michigan_ | high |
 | _[Aug 1–15]_ | _LEIN/OTIS/ICHAT: Banks has 9 felony convictions_ | _Public records_ | high |
 | _[Aug 15–20]_ | _SOS filings reveal: Banks controls Purpose Foundation, Purpose Group, Banks Strategy LLC_ | _LARA_ | high |
@@ -81,7 +80,8 @@
 
 | Date | Event | Source | Confidence |
 |------|-------|--------|------------|
-| Aug 29 | Complainant attends PCA Back to School Bash — **Banks denies access again, claims to be attorney** | Police report | high |
+| Aug 29 | Complainant goes to PCA **alone** on DaSean's behalf (DaSean at work). Banks personally denies access, claims to be "a lawyer." First direct interaction. DaSean subsequently visits PCA separately with a **police escort he requested** — Banks speaks to officers privately, police escort DaSean off property without notice about his children. | Witness testimony, police records | high |
+| Sep 9 | Banks files **retaliatory** police report (GPW DPS #26-0909-0176) naming complainant for alleged stalking/harassment — despite complainant not being present during DaSean's escorted visit. Report likely references complainant's public LinkedIn activity. Banks co-opted DaSean's lawful police escort to manufacture complaint. | GPW police report | high |
 | Aug 31 | DPSCD Charter Compliance complaint filed re: Banks/PCA | Email | high |
 | Aug 31 | State Bar of Michigan UPL complaint filed | SBM | high |
 | Aug 31 | JTC Request for Investigation filed re: Judge Cylenthia Miller | JTC | high |
@@ -110,8 +110,8 @@
 |------|-------|--------|------------|
 | Sep 17 | Motion for Alternative Service filed — Ingham County | Court records | high |
 | Sep 17 | OIG Supplement filed re: forgery evidence | OIG | high |
-| Sep 18 | **7-channel service blast on Banks** (email, fax, LinkedIn, text, certified mail, process server, MacDowell) | Service affidavit | high |
-| Sep 18 | Banks PPO: all 7 channels produce evidence of evasion — coordinated, not accidental | Service log | high |
+| Sep 18 | **6-channel service blast on Banks** (certified restricted delivery mail, first-class mail ×2 locations, fax ×2 numbers, email) | Service affidavit | high |
+| Sep 18 | Banks PPO: all 6 channels produce evidence of evasion — coordinated, not accidental | Service log | high |
 | Sep 18–19 | Banks hosts CBC Reception at Kitchen + Kocktails, DC — **while evading service** | Eventbrite | high |
 | Sep 19 | BK attorney notifications sent (Sandweiss for Marquita 26-47542; Moran for Simone 26-49404) | Email | high |
 | Sep 19 | Demand letters prepared for all defendants | Case files | high |
@@ -136,20 +136,24 @@
 
 ## Forward Calendar (as of Sep 22, 2026)
 
-| Date | Event | Court | Significance |
-|------|-------|-------|-------------|
-| **Sep 25 (Fri)** | File: alt service motions + affidavits + cross-refs + Kevin declaration | Ingham | Batch filing to Ingham clerk |
-| **Sep 25 (Fri)** | File: response to retaliatory PPO | Wayne | Defensive |
-| **Sep 29 (Tue)** | **PPO HEARING — 5 cases, 1:30 PM** | Ingham (Koenig) | DaSean's PPOs. Kevin as witness + expert. |
-| Sep 30 (Wed) | Emergency motion response due | Wayne (Triplett) | Custody track |
-| **Oct 6 (Tue)** | Request clerk entry of default — 2026-4349-CZ (Banks) | Ingham (Stokes) | No answer filed |
-| **Oct 7 (Wed)** | Request clerk entry of default — 2026-4301-CZ | Ingham (Stokes) | No answer filed |
-| **Oct 9 (Fri)** | CMC + Motion Hearing, Noon | Wayne (Triplett) | Venue transfer motion |
+| Date | Event | Court / Track | Significance |
+|------|-------|---------------|-------------|
+| **Sep 23 (Wed)** | **FILE: alt service motions + affidavits + cross-refs + declaration + nonappearance + 226-file exhibit packet** | Ingham | Foundation — paper record feeds all downstream events |
+| **Sep 24 (Thu)** | SEND: 8 election notification packets (Hawkins, JCEC, Wolverine Bar, LWV, Bridge Detroit, WDET, DPSCD Board, McKinney) | Public Record | Nov 3 election pressure on Miller/Aliyah Sabree |
+| Sep 26–28 | MAIL: Demand letters + Notice and Demand to all parties | Ingham | Default posture — no settlement on 4349 |
+| **Sep 29 (Mon) 1:30 PM** | **PPO HEARING — 5 cases (Koenig)** | Ingham | Phase 1 — court findings of violence pattern. Results become public record + feed into FOC. |
+| Sep 30 (Tue) | Emergency motion response due (may be moot after Sep 15 denial) | Wayne (Triplett) | Custody track |
+| After hearing | SEND: Credibility notices (MSU Law, Walden, Morse, Pahara, NCC) — LAST ROUND | Public Record | Institutions self-audit |
+| **Oct 6 (Mon)** | **DEFAULT — Banks (2026-4349-CZ)** | Ingham (Stokes) | Banks cannot contest UPL/fraud. Citable at FOC. |
+| **Oct 7 (Tue)** | **DEFAULT — Smiths + Banks (2026-4301-CZ)** | Ingham (Stokes) | All 5 defendants defaulted. |
+| **Oct 7 (Tue) 11:15 AM** | **FOC HEARING — Referee Biggar (Pre-Judgment Custody ×2)** | Wayne | CENTER OF GRAVITY. DaSean presents PPO results + Ring tape + ICHAT + defaults. Biggar recommends to Triplett. |
+| **Oct 9 (Thu) 12:00 PM Zoom** | **CMC + MOTION HEARING — Judge Triplett** | Wayne | Triplett receives Biggar's recommendation. Rules on GAL, venue transfer, custody. |
 | ~Oct 10 | Mail Banks for Oct 20 PPO via alt service order | Ingham | Service via court order |
-| **Oct 20 (Tue)** | Kevin PPO v. Banks — Round 2 hearing | Ingham (Koenig) | 26-0000004437-PH |
+| **Oct 12 (Mon)** | **RFA DEFAULTS — 160 admissions deemed (4 Smiths × 40 each)** | Ingham | MCR 2.312(B)(1) — automatic. Established facts. |
+| **Oct 20 (Tue)** | **Kevin PPO v. Banks — Round 2 hearing** | Ingham (Koenig) | 26-0000004437-PH. Pattern fully established. |
 | _Oct (post-9)_ | _Michigan Court of Claims filing (state entities)_ | _Planned_ | _DPSCD, DOE, LARA_ |
 | _Oct (post-9)_ | _Federal § 1983 + RICO overlay (individual defendants)_ | _Planned_ | _Constitutional claims_ |
-| **Nov 3, 2026** | **Judge Cylenthia Miller — election day** | Public | Accountability |
+| **Nov 3 (Tue)** | **ELECTION DAY — Miller + Aliyah Sabree on ballot** | Public | Accountability — sole challenger is Shakira Hawkins |
 
 ---
 
