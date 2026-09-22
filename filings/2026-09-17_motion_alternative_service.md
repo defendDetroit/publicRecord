@@ -13,8 +13,8 @@
 
 | Case No. | Caption | Judge | Type |
 |----------|---------|-------|------|
-| 26-000004301-DM | [Complainant] v. Smith et al. | Hon. Stokes | Civil conspiracy |
-| 26-000004349-CZ | [Complainant] v. Banks et al. | Hon. Stokes | UPL/fraud |
+| 2026-4301-CZ | [Complainant] v. Smith et al. | Hon. Stokes | Civil conspiracy |
+| 2026-4349-CZ | [Complainant] v. Banks et al. | Hon. Stokes | UPL/fraud |
 | 26-000000-4432-PP | [Petitioner] v. S. Smith | Hon. Koenig | PPO |
 | 26-000000-4433-PH | [Petitioner] v. M. Smith | Hon. Koenig | PPO |
 | 26-000000-4434-PH | [Petitioner] v. S.R. Smith | Hon. Koenig | PPO |
@@ -281,7 +281,7 @@ Date: September __, 2026
 
 **ORDER AUTHORIZING ALTERNATIVE SERVICE**
 
-Case Nos.: 26-000004301-DM; 26-000004349-CZ;
+Case Nos.: 2026-4301-CZ; 2026-4349-CZ;
 26-000000-4432-PP; 26-000000-4433-PH;
 26-000000-4434-PH; 26-000000-4436-PH
 

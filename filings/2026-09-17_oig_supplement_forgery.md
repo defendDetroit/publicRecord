@@ -96,8 +96,8 @@ bankruptcy petitions:
 - The four intercepted letters were certified mail sent from Lansing, MI
   to the Smith family at 17370 Dresden St, Detroit, MI 48205
 - The letters contained legal documents related to civil lawsuits
-  ([Complainant] v. Smith, Ingham County Case No. 26-000004301-DM, and
-  [Complainant] v. Banks, Ingham County Case No. 26-000004349-CZ)
+  ([Complainant] v. Smith, Ingham County Case No. 2026-4301-CZ, and
+  [Complainant] v. Banks, Ingham County Case No. 2026-4349-CZ)
 - Leon had both the opportunity (USPS employee with facility access)
   and motive (named defendant in the civil suit) to intercept and
   forge the receipts
