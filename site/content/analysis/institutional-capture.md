@@ -16,6 +16,72 @@ connections = ["charter authorization", "board membership", "campaign finance", 
 
 The Banks enterprise does not just commit fraud. It **captures institutions** — installing loyalists, creating financial dependencies, and ensuring that the systems meant to protect the public instead protect the enterprise.
 
+{% mermaid(title="Cross-Protection Web — How Captured Institutions Shield the Enterprise") %}
+graph TB
+    BANKS["<b>Brian Banks</b><br/>9 convictions · fake J.D."]
+
+    subgraph SCHOOLS["🏫 SCHOOLS — Revenue Source"]
+        PCA["Purpose Charter Academy"]
+        MAC["MacDowell Prep"]
+    end
+
+    subgraph COURTS["⚖️ COURTS — Protection"]
+        C3["Wayne 3rd Circuit"]
+        C36["36th District"]
+        PROB["Probate Court"]
+    end
+
+    subgraph POLITICS["🏛️ POLITICS — Authorization"]
+        DPSCD["DPSCD Board"]
+        TREASURER["County Treasurer"]
+    end
+
+    BANKS -->|"superintendent"| PCA
+    BANKS -->|"superintendent"| MAC
+    PCA -->|"cases filed in"| C3
+    PCA -->|"cases filed in"| C36
+    MAC -->|"cases filed in"| C3
+    MAC -->|"cases filed in"| C36
+
+    MILLER["Miller<br/>Board Chair"] -.->|"sits on"| C3
+    MILLER -.->|"chairs board"| PCA
+    YANCEY["Yancey<br/>Board Chair"] -.->|"sits on"| C36
+    YANCEY -.->|"chairs board"| MAC
+    YANCEY -.->|"paid $383.82"| BANKS
+
+    AL_SAB["Aliyah Sabree<br/>MSU Law 2010"] -.->|"sits on"| C3
+    AL_SAB -.->|"classmate"| BANKS
+    A_SAB["Adam Sabree<br/>Metro Property"] -.->|"sits on"| C36
+    S_PERK["Sean Perkins<br/>brother=Todd"] -.->|"sits on"| C36
+    D_PERK["David Perkins<br/>Probate Chief"] -.->|"sits on"| PROB
+
+    E_SAB["Eric Sabree<br/>Treasurer"] -->|"father of"| AL_SAB
+    E_SAB -->|"father of"| A_SAB
+    E_SAB -->|"chairs"| TREASURER
+    TREASURER -.->|"tax foreclosure pipeline"| MAC
+
+    GAY["Gay-Dagnogo"] -->|"authorized charters"| DPSCD
+    DPSCD -->|"authorized"| PCA
+    DPSCD -->|"authorized"| MAC
+
+    BANKS -.->|"CBC events"| GAY
+    BANKS -.->|"campaign vendor"| MILLER
+
+    classDef person fill:#991b1b,stroke:#ef4444,color:#fecaca
+    classDef judge fill:#312e81,stroke:#818cf8,color:#c7d2fe
+    classDef school fill:#1e3a5f,stroke:#60a5fa,color:#bfdbfe
+    classDef court fill:#44403c,stroke:#a8a29e,color:#e7e5e4
+    classDef political fill:#14532d,stroke:#4ade80,color:#bbf7d0
+
+    class BANKS person
+    class MILLER,YANCEY,AL_SAB,A_SAB,S_PERK,D_PERK judge
+    class PCA,MAC school
+    class C3,C36,PROB court
+    class GAY,E_SAB political
+{% end %}
+
+**The protection is structural, not coincidental.** Every arrow is a documented public record connection. No single regulator sees the full web because each institution (schools, courts, campaign finance, LARA) operates in its own silo.
+
 ## The Capture Pattern — Three Domains
 
 | Domain | Function | Capture Effect |

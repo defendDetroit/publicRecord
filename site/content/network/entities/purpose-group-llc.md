@@ -27,11 +27,11 @@ connections = ["business entity", "charter authorization", "RICO predicate"]
 
 The Purpose Group, LLC is Banks' management company — the extraction engine that receives the majority of revenue from his charter schools.
 
-## Liability Shield
+## Liability Shield {{ confidence(level="documented") }}
 
 Perlmuter organized the entity with aggressive liability protections. **Article V** of the operating agreement shields members and managers from personal liability for company debts and obligations.
 
-## Financial Flow — MacDowell Preparatory Academy
+## Financial Flow — MacDowell Preparatory Academy {{ confidence(level="verified") }}
 
 | Line Item | Amount |
 |-----------|--------|

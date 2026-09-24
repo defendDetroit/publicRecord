@@ -27,7 +27,7 @@ connections = ["business entity", "board membership", "criminal record"]
 
 Purpose Foundation is a private foundation registered at the same Grosse Pointe Woods address as Banks' other entities.
 
-## Officer Structure — Zero Independent Governance
+## Officer Structure — Zero Independent Governance {{ confidence(level="verified") }}
 
 Two convicted felons hold **all four officer positions**:
 
@@ -40,7 +40,27 @@ Two convicted felons hold **all four officer positions**:
 
 No independent board members. No outside oversight. The entire governance structure is occupied by two felons.
 
-## Private Foundation Restrictions
+{% mermaid(title="Foundation Governance — Two Felons, All Positions") %}
+graph TB
+    FOUND["<b>Purpose Foundation</b><br/>501(c)(3) · EIN 33-3537910"]
+    BANKS["<b>Brian Banks</b><br/>9 convictions (6 felony)"]
+    HOLLAND["<b>Joseph Holland Jr</b><br/>Drug conviction · MDOC #443789"]
+
+    BANKS -->|"President"| FOUND
+    BANKS -->|"Director"| FOUND
+    HOLLAND -->|"Secretary"| FOUND
+    HOLLAND -->|"Treasurer"| FOUND
+
+    IRS["IRC §4941<br/>Self-Dealing<br/>Prohibition"]
+    FOUND -.->|"both officers are<br/>disqualified persons"| IRS
+
+    style FOUND fill:#14532d,stroke:#4ade80,color:#bbf7d0
+    style BANKS fill:#991b1b,stroke:#ef4444,color:#fecaca
+    style HOLLAND fill:#991b1b,stroke:#ef4444,color:#fecaca
+    style IRS fill:#713f12,stroke:#f59e0b,color:#fef3c7
+{% end %}
+
+## Private Foundation Restrictions {{ confidence(level="documented") }}
 
 Private foundation status triggers IRC §4940–4948 self-dealing prohibitions:
 

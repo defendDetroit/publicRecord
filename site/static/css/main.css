@@ -414,6 +414,26 @@ cite.source a:hover { border-bottom-style: solid; }
 .source-query { color: var(--text-muted); font-family: var(--font-mono, monospace); font-size: 0.85em; }
 .source-label { color: var(--text); }
 
+/* Network subgraphs */
+.network-graph {
+  margin: 1.5rem 0; padding: 1rem; border-radius: 8px;
+  background: var(--bg-card, #1e293b); border: 1px solid var(--border, #334155);
+  overflow-x: auto;
+}
+.network-graph .mermaid {
+  display: flex; justify-content: center;
+  background: transparent; border: none; padding: 0; margin: 0;
+  font-family: inherit; white-space: pre;
+}
+.network-graph pre.mermaid {
+  overflow-x: visible;
+}
+.network-graph figcaption {
+  text-align: center; font-size: 0.85rem; color: var(--text-muted);
+  margin-top: 0.75rem; font-style: italic;
+}
+.network-graph .mermaid svg { max-width: 100%; height: auto; }
+
 /* Breadcrumbs */
 .breadcrumbs {
   font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.5rem;

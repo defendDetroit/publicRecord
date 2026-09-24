@@ -141,6 +141,28 @@
     </div>
   </footer>
 
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: 'dark',
+      themeVariables: {
+        primaryColor: '#1e3a5f',
+        primaryTextColor: '#e2e8f0',
+        primaryBorderColor: '#60a5fa',
+        lineColor: '#94a3b8',
+        secondaryColor: '#312e81',
+        tertiaryColor: '#1e1b4b',
+        edgeLabelBackground: '#0f172a',
+        clusterBkg: '#1e293b',
+        clusterBorder: '#475569',
+        titleColor: '#f1f5f9',
+        nodeTextColor: '#e2e8f0'
+      },
+      flowchart: { curve: 'basis', padding: 12 },
+      securityLevel: 'loose'
+    });
+  </script>
   <script>
     (function() {
       // Nav toggle

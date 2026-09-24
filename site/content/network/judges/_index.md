@@ -8,7 +8,61 @@ sort_by = "weight"
 keywords = "Wayne County judges Brian Banks, Detroit charter school judges, Cylenthia Miller, Tenisha Yancey, Aliyah Sabree, David Perkins, Kelly Ramsey, Adam Sabree, Sean Perkins, Vonda Evans, Denise Langford Morris, judicial connections charter school, Wayne County 3rd Circuit Court, 36th District Court"
 +++
 
-Seven Wayne County judges — plus two retired judges with mentor and endorsement ties — have demonstrable connections to the [Banks network](/network/actors/brian-banks/). Together they create a **captured court system** where network-connected judges preside over network-connected cases.
+Nine judges across four courts have demonstrable connections to the [Banks network](/network/actors/brian-banks/). Together they create a **captured court system** where network-connected judges preside over network-connected cases.
+
+{% mermaid(title="Judicial Capture Map — 9 Judges Across 4 Courts") %}
+graph LR
+    BANKS["<b>Brian Banks</b><br/>9 convictions · fake J.D."]
+
+    subgraph CIRCUIT["Wayne 3rd Circuit"]
+        MILLER["<b>Miller</b> ⚡<br/>Board Chair<br/>Baker colleague<br/>3 scandals"]
+        AL_SAB["<b>Al. Sabree</b> ⚡<br/>MSU Law 2010<br/>BLSA board"]
+        RAMSEY["<b>Ramsey</b><br/>Criminal Div<br/>family on payroll"]
+    end
+
+    subgraph DISTRICT["36th District"]
+        YANCEY["<b>Yancey</b><br/>Board Chair<br/>paid $383.82"]
+        A_SAB["<b>A. Sabree</b><br/>Metro Property<br/>RICO counsel"]
+        S_PERK["<b>S. Perkins</b><br/>brother = Todd"]
+    end
+
+    subgraph PROBATE["Wayne Probate"]
+        D_PERK["<b>D. Perkins</b><br/>Chief Pro Tem<br/>Serenity juris."]
+    end
+
+    subgraph RETIRED["Retired"]
+        EVANS["<b>Evans</b><br/>21yr mentor<br/>JTC suspended"]
+        MORRIS["<b>Morris</b><br/>Book foreword<br/>fake J.D. used"]
+    end
+
+    BANKS -.->|"board chair"| MILLER
+    BANKS -.->|"board chair"| YANCEY
+    BANKS -.->|"MSU Law classmate"| AL_SAB
+    BANKS -.->|"$383.82 payment"| YANCEY
+    BANKS -.->|"attorney's brother"| S_PERK
+    BANKS -.->|"family payroll"| RAMSEY
+    BANKS -.->|"mentee"| EVANS
+    BANKS -.->|"book subject"| MORRIS
+
+    E_SAB["<b>Eric Sabree</b><br/>County Treasurer"] -->|"father"| AL_SAB
+    E_SAB -->|"father"| A_SAB
+    E_SAB -.->|"endorser"| MILLER
+
+    TODD["<b>Todd Perkins</b><br/>Banks' attorney"] -->|"brother"| S_PERK
+    TODD -.->|"counsel"| MILLER
+
+    classDef enterprise fill:#991b1b,stroke:#ef4444,color:#fecaca
+    classDef judge fill:#312e81,stroke:#818cf8,color:#c7d2fe
+    classDef retired fill:#44403c,stroke:#a8a29e,color:#e7e5e4
+    classDef connector fill:#14532d,stroke:#4ade80,color:#bbf7d0
+
+    class BANKS enterprise
+    class MILLER,AL_SAB,RAMSEY,YANCEY,A_SAB,S_PERK,D_PERK judge
+    class EVANS,MORRIS retired
+    class E_SAB,TODD connector
+{% end %}
+
+⚡ = On the ballot **November 3, 2026**
 
 ## Active Wayne County Judges
 

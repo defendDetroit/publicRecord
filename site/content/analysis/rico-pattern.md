@@ -95,6 +95,49 @@ See: [Political Action Committees](/network/entities/political-action-committees
 
 See: [Institutional Capture](/analysis/institutional-capture/).
 
+{% mermaid(title="RICO Predicate Acts — How Each Crime Feeds the Enterprise") %}
+graph TB
+    ENT["<b>Banks Enterprise</b><br/>14+ years · $4.9M+/yr"]
+
+    subgraph FRAUD["📄 Fraud Predicates"]
+        MAIL["<b>Mail Fraud</b><br/>§1341<br/>Fake J.D. on school<br/>websites + conference bios"]
+        WIRE["<b>Wire Fraud</b><br/>§1343<br/>False credentials on<br/>DOE + grant applications"]
+    end
+
+    subgraph MONEY["💰 Financial Predicates"]
+        LAUNDER["<b>Money Laundering</b><br/>§1956<br/>$4.28M through LLC shell<br/>$348K unaccounted gap"]
+        BANK_FR["<b>Financial Fraud</b><br/>§1344<br/>3 bankruptcies<br/>PAC irregularities"]
+    end
+
+    subgraph CORRUPT["⚖️ Corruption Predicates"]
+        BRIBE["<b>Bribery</b><br/>§201<br/>Judge campaign payments<br/>to Banks Strategy LLC"]
+        OBSTRUCT["<b>Obstruction</b><br/>§1503<br/>Network judges refuse<br/>to recuse"]
+    end
+
+    MAIL -->|"fake credentials<br/>= school authorization"| ENT
+    WIRE -->|"federal reporting<br/>= continued funding"| ENT
+    LAUNDER -->|"LLC extraction<br/>= private enrichment"| ENT
+    BANK_FR -->|"financial opacity<br/>= no audit trail"| ENT
+    BRIBE -->|"judge payments<br/>= judicial protection"| ENT
+    OBSTRUCT -->|"no recusal<br/>= captured courts"| ENT
+
+    ENT -->|"revenue"| LAUNDER
+    ENT -->|"authority"| MAIL
+    ENT -->|"payments"| BRIBE
+
+    classDef enterprise fill:#991b1b,stroke:#ef4444,color:#fecaca
+    classDef fraud fill:#713f12,stroke:#f59e0b,color:#fef3c7
+    classDef money fill:#14532d,stroke:#4ade80,color:#bbf7d0
+    classDef corrupt fill:#312e81,stroke:#818cf8,color:#c7d2fe
+
+    class ENT enterprise
+    class MAIL,WIRE fraud
+    class LAUNDER,BANK_FR money
+    class BRIBE,OBSTRUCT corrupt
+{% end %}
+
+Each predicate act reinforces the others. Credential fraud enables school authorization → authorization enables revenue → revenue enables campaign payments → payments enable judicial protection → judicial protection prevents accountability → the cycle continues.
+
 ## Predicate Acts (18 U.S.C. § 1961)
 
 | # | Act | Statute | Evidence |

@@ -25,7 +25,7 @@ connections = ["charter authorization", "credential fraud", "business entity"]
 
 MacDowell Preparatory Academy receives public per-pupil funding while Purpose Group LLC — controlled by Banks — extracts the majority of school spending.
 
-## Financial Extraction
+## Financial Extraction {{ confidence(level="verified") }}
 
 | Metric | Value |
 |--------|-------|
@@ -49,7 +49,25 @@ Unaccounted gap:             $348,489
 School-reported salaries:            $0
 ```
 
-## Credential Fraud
+{% mermaid(title="MacDowell Revenue Flow — Where the Money Goes") %}
+graph LR
+    STATE(("Michigan<br/>Per-Pupil<br/>Funding")) -->|"$4.9M/yr"| MAC["MacDowell Prep"]
+    MAC -->|"72.67%<br/>$4,285,201"| LLC["Purpose Group LLC<br/>(Banks = sole member)"]
+    LLC -->|"$3,936,712"| STAFF["Staff Payroll"]
+    LLC -->|"$150,000"| BANKS["Banks Salary"]
+    LLC -->|"$348,489"| GAP["❓ Unaccounted"]
+    MAC -->|"$0 reported"| DIRECT["Direct Staff<br/>Salaries"]
+
+    style STATE fill:#0f766e,stroke:#2dd4bf,color:#ccfbf1
+    style MAC fill:#1e3a5f,stroke:#60a5fa,color:#bfdbfe
+    style LLC fill:#713f12,stroke:#f59e0b,color:#fef3c7
+    style BANKS fill:#991b1b,stroke:#ef4444,color:#fecaca
+    style GAP fill:#92400e,stroke:#f59e0b,color:#fef3c7
+    style STAFF fill:#14532d,stroke:#4ade80,color:#bbf7d0
+    style DIRECT fill:#44403c,stroke:#6b7280,color:#9ca3af
+{% end %}
+
+## Credential Fraud {{ confidence(level="verified") }}
 
 | Claim | Location |
 |-------|----------|
