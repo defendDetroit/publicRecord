@@ -78,6 +78,26 @@ The 36th District Court — where **three Banks-network judges** sit ({{ actor(k
 
 Sources: {{ source(key="doj", path="/usao-edmi/pr/sitting-judge-and-three-others-charged-scheme-steal-hundreds-thousands-dollars", label="USAO-EDMI press release") }}, {{ source(key="freep", path="/story/news/local/michigan/wayne/2026/01/30/wayne-county-judge-andrea-bradley-baskin-embezzlement/88432584007/", label="Jan 30, 2026") }}
 
+## Bowles v. Sabree — 2:23-cv-10973 (E.D. Michigan)
+
+| Field | Value |
+|-------|-------|
+| Case | **2:23-cv-10973** |
+| Court | U.S. District Court, Eastern District of Michigan |
+| Filed | 2023 |
+| Plaintiff | Bowles et al. (class action) |
+| Defendants | Eric Sabree (Wayne County Treasurer), Wayne County |
+| Claims | § 1983 — unconstitutional tax foreclosure practices |
+| Status | Active — discovery ongoing |
+
+### Connection to Banks Network
+
+Eric Sabree is the father of two judges in the network: {{ actor(key="sabree") }} (3rd Circuit Family Division) and {{ actor(key="adam_sabree") }} (36th District). His office controls Wayne County's tax foreclosure pipeline — the same land where Judge {{ actor(key="yancey") }} worked (Wayne County Land Bank, 2007–2013) and where distressed properties become acquisition opportunities.
+
+The class action alleges systemic constitutional violations in how the Treasurer's office handles tax foreclosures — the same office whose leader is a documented campaign endorser of {{ actor(key="miller") }} (per keepjudgemiller.com).
+
+See: [Eric Sabree profile](/network/political/eric-sabree/), [Institutional Capture — Housing](/analysis/institutional-capture/).
+
 ## Future Allied Cases (Expected)
 
 As the public record grows, other harmed parties may emerge:
