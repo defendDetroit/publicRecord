@@ -11,6 +11,43 @@
 {% block og_image %}{% if page.extra.og_image %}{{ page.extra.og_image }}{% else %}{{ get_url(path='img/og-default.png') }}{% endif %}{% endblock og_image %}
 
 {% block content %}
+{% if page.ancestors | length > 0 %}
+<script type="application/ld+json">
+{% set section_path = page.components | join(sep="/") %}
+{% if section_path is containing("actors") or section_path is containing("judges") or section_path is containing("political") or section_path is containing("professional") %}
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "{{ page.title | split(pat=' — ') | first }}",
+  "description": "{{ page.description | default(value='') }}",
+  "url": "{{ page.permalink }}",
+  "knowsAbout": ["Detroit charter schools", "Purpose Charter Academy", "MacDowell Preparatory Academy"]
+  {% if page.extra.keywords %},
+  "alternateName": "{{ page.extra.keywords | split(pat=',') | first | trim }}"
+  {% endif %}
+}
+{% elif section_path is containing("entities") %}
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "{{ page.title | split(pat=' — ') | first }}",
+  "description": "{{ page.description | default(value='') }}",
+  "url": "{{ page.permalink }}"
+}
+{% elif section_path is containing("analysis") %}
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ page.title }}",
+  "description": "{{ page.description | default(value='') }}",
+  "url": "{{ page.permalink }}",
+  "author": { "@type": "Person", "name": "{{ config.extra.author }}" },
+  "datePublished": "{{ page.date | date(format='%Y-%m-%d') }}",
+  "dateModified": "{{ now() | date(format='%Y-%m-%d') }}"
+}
+{% endif %}
+</script>
+{% endif %}
 <article class="page-content">
   <header>
     <h1>{{ page.title }}</h1>
