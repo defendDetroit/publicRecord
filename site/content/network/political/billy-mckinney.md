@@ -9,8 +9,9 @@ keywords = "Billy McKinney Detroit, Darryl Banks Jr campaign payment, McKinney B
 
 [taxonomies]
 actors = ["Billy McKinney", "Brian Banks", "Joseph Holland", "Judge Tenisha Yancey", "Sherry Gay-Dagnogo"]
-entities = ["Banks Strategy LLC", "Inner Link Graphics"]
-connections = ["campaign finance"]
+entities = ["Banks Strategy LLC", "Inner Link Graphics", "Purpose Charter Academy", "MacDowell Preparatory Academy"]
+courts = ["Wayne County 3rd Circuit Court", "36th District Court"]
+connections = ["campaign finance", "business entity"]
 +++
 
 ## Position
@@ -24,7 +25,7 @@ connections = ["campaign finance"]
 
 McKinney occupies a seat on Detroit City Council, giving him vote on city contracts and budgets, oversight of city departments, and influence over District 6 — which includes Banks' operational territory.
 
-## Connection to Banks Network — Darryl Banks Jr.
+## Connection to Banks Network — Darryl Banks {{ confidence(level="documented") }} Jr.
 
 | Transaction | Amount | Cycle | Source |
 |-------------|--------|-------|--------|
@@ -46,7 +47,7 @@ A sitting Detroit City Council member's campaign paid a Banks family member **$4
 
 See: [Brian Roderick Banks](/network/actors/brian-banks/) — enterprise leader.
 
-## Dark Money / Endorsement Network
+## Dark Money {{ confidence(level="documented") }} / Endorsement Network
 
 | Actor | Role | Detail |
 |-------|------|--------|

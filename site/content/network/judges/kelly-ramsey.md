@@ -25,7 +25,7 @@ connections = ["employment", "mentorship", "family", "board membership"]
 
 ## Connection to Banks Network
 
-### The Ramsey Cluster
+### The Ramsey Cluster {{ confidence(level="documented") }}
 
 | Person | Role | Connection to Banks |
 |--------|------|---------------------|
@@ -46,7 +46,7 @@ Alexis Ramsey was **President of the Highland Park School Board** when she:
 
 Alexis Ramsey also appeared on Todd Perkins' podcast "Perkins for the People" (Mar 2026). Perkins was City Attorney for Highland Park where Alexis was school board president.
 
-**Family relationship note:** Whether Alexis Ramsey is Judge Kelly Ramsey's daughter is reported in source material but **not independently confirmed** in public records reviewed here.
+{{ confidence(level="unconfirmed", note="Alexis–Kelly family relationship reported in source material but not independently confirmed in public records") }}
 
 ## Key Facts
 

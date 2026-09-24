@@ -26,7 +26,7 @@ connections = ["business entity", "credential fraud", "RICO predicate"]
 
 Serenity Guardianship Services was a guardianship company operated by {{ actor(key="banks") }} — a **non-attorney** with **9 felony convictions** and no bar admission.
 
-## Unauthorized Practice of Law (UPL)
+## Unauthorized Practice of Law {{ confidence(level="documented") }} (UPL)
 
 | Factor | Detail |
 |--------|--------|
@@ -37,7 +37,7 @@ Serenity Guardianship Services was a guardianship company operated by {{ actor(k
 
 Guardianship involves court-supervised management of incapacitated persons' affairs. Operating a guardianship services company without legal licensure violates Michigan's UPL statutes and professional conduct rules.
 
-## Connection to Wayne County Probate Court
+## Connection to Wayne County Probate Court {{ confidence(level="documented") }}
 
 | Connection | Detail |
 |------------|--------|

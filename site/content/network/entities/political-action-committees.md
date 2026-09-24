@@ -8,7 +8,9 @@ date = 2026-09-20
 keywords = "Brian Banks PAC, Bank on Banks PAC, Joseph Holland PAC treasurer, Michigan campaign finance fines, Bank on Banks PAC dark money, OFA Michigan Brian Banks, Detroit charter school PAC fines, Joseph Holland PAC treasurer felon"
 
 [taxonomies]
-actors = ["Brian Banks", "Joseph Holland"]
+actors = ["Brian Banks", "Joseph Holland", "Judge Tenisha Yancey", "Billy McKinney"]
+entities = ["Banks Strategy LLC", "Inner Link Graphics", "Purpose Charter Academy", "MacDowell Preparatory Academy"]
+courts = ["Wayne County 3rd Circuit Court", "36th District Court"]
 connections = ["campaign finance", "criminal record", "business entity"]
 +++
 

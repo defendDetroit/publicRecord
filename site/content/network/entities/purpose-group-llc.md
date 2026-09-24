@@ -8,9 +8,10 @@ date = 2026-09-20
 keywords = "Purpose Group LLC, Purpose Group Michigan, Purpose Group Brian Banks, charter school management company Detroit, Purpose Group LLC Detroit schools, Purpose Group 72 percent revenue, Purpose Group LLC Brian Banks sole member"
 
 [taxonomies]
-actors = ["Brian Banks"]
-entities = ["The Purpose Group LLC", "MacDowell Preparatory Academy", "Purpose Charter Academy"]
-connections = ["business entity", "charter authorization", "RICO predicate"]
+actors = ["Brian Banks", "Joseph Holland"]
+entities = ["The Purpose Group LLC", "MacDowell Preparatory Academy", "Purpose Charter Academy", "Purpose Foundation"]
+courts = ["Wayne County 3rd Circuit Court", "36th District Court"]
+connections = ["business entity", "charter authorization", "RICO predicate", "credential fraud"]
 +++
 
 ## Entity Overview

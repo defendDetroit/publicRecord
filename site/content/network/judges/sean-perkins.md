@@ -33,7 +33,7 @@ connections = ["family", "legal representation", "employment", "campaign finance
 
 Sean literally worked at Todd Perkins' firm before becoming a judge.
 
-## Connection to Banks Network
+## Connection to Banks Network {{ confidence(level="verified") }}
 
 ### Brother: {{ actor(key="todd_perkins") }} ({{ actor(key="banks") }}' Attorney)
 

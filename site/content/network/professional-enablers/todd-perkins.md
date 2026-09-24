@@ -26,7 +26,7 @@ connections = ["legal representation", "family", "employment"]
 | Political | Ran for **Mayor of Detroit** (2025 nonpartisan primary — finished 4th) |
 | Family | Brother of {{ actor(key="sean_perkins") }} (36th District Court) |
 
-## Connection to Banks Network
+## Connection to Banks Network {{ confidence(level="verified") }}
 
 | Role | Detail |
 |------|--------|
@@ -38,7 +38,7 @@ connections = ["legal representation", "family", "employment"]
 | **Bench pipeline** | Firm website: *"Perkins Law Group has served as a catalyst for sitting judges"* — brother Sean is one of them |
 | **36th District overlap** | Sean Perkins sits on same court as {{ actor(key="yancey") }} and {{ actor(key="adam_sabree") }} |
 
-## Perkins Law Group
+## Perkins Law Group {{ confidence(level="documented") }}
 
 | Field | Value |
 |-------|-------|

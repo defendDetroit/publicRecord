@@ -9,6 +9,7 @@ keywords = "Denise Langford Morris judge, Denise Langford Morris retired, Denise
 
 [taxonomies]
 actors = ["Judge Denise Langford Morris", "Brian Banks", "Judge Vonda Evans"]
+entities = ["Purpose Charter Academy", "MacDowell Preparatory Academy"]
 courts = ["Oakland County Circuit Court", "Eastern District of Michigan"]
 connections = ["mentorship", "credential fraud"]
 +++
@@ -25,14 +26,14 @@ connections = ["mentorship", "credential fraud"]
 | Firsts | First African American on Oakland County bench (appointed 1992 by Gov. Engler). First female dean of court. First African American Chief Judge Pro Tempore. |
 | Awards | **NBA 2025 Fred D. Gray Hall of Fame** inductee (Jul 31, 2025, Hyatt Regency Chicago) |
 
-## Connection to Banks Network
+## Connection to Banks Network {{ confidence(level="documented") }}
 
 | Connection | Detail |
 |------------|--------|
 | Book foreword | Wrote foreword to [Brian Banks](/network/actors/brian-banks/)' book, identifying him as **"Brian Banks, J.D."** |
 | Mentor endorsement | Public endorsement of Banks despite his unverified legal credentials |
 
-## "Revelation Day" Theory — Analysis, Not Confirmed Fact
+## "Revelation Day" Theory {{ confidence(level="unconfirmed", note="strong circumstantial fit but not confirmed against court records") }}
 
 Banks' book describes a **"Revelation Day"** — a female Oakland County Circuit Court judge at his **1999 felony sentencing** for credit card fraud who "saw greatness in him."
 

@@ -8,9 +8,10 @@ date = 2026-09-20
 keywords = "Sherry Gay-Dagnogo, Sherry Gay-Dagnogo DPSCD, Sherry Gay-Dagnogo Detroit, DPSCD charter authorization, Michigan House District 1, Sherry Gay-Dagnogo Brian Banks, DPSCD Purpose Charter Academy authorization, Sherry Gay-Dagnogo CBC honoree, HD-1 Detroit charter school, Sherry Gay-Dagnogo ombudsman Detroit, Sherry Gay-Dagnogo resigned DPSCD, Sherry Gay-Dagnogo Michigan House District 8"
 
 [taxonomies]
-actors = ["Sherry Gay-Dagnogo", "Brian Banks"]
-entities = ["Purpose Charter Academy", "MacDowell Preparatory Academy"]
-connections = ["charter authorization", "campaign finance"]
+actors = ["Sherry Gay-Dagnogo", "Brian Banks", "Joseph Holland"]
+entities = ["Purpose Charter Academy", "MacDowell Preparatory Academy", "The Purpose Group LLC"]
+courts = ["Wayne County 3rd Circuit Court"]
+connections = ["charter authorization", "campaign finance", "board membership"]
 +++
 
 ## Position
@@ -21,7 +22,7 @@ connections = ["charter authorization", "campaign finance"]
 | MI State Representative (HD-8) | 2015–2020 |
 | DPSCD School Board Member | 2021–**October 2025** (resigned) |
 
-## Connection to Banks Network
+## Connection to Banks Network {{ confidence(level="verified") }}
 
 | Connection | Detail | Source |
 |------------|--------|--------|

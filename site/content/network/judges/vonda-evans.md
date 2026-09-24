@@ -9,6 +9,7 @@ keywords = "Vonda Evans judge, Vonda Evans retired, Vonda Evans Wayne County, Vo
 
 [taxonomies]
 actors = ["Judge Vonda Evans", "Brian Banks", "Todd Perkins", "Judge Cylenthia Miller", "Judge Kelly Ramsey", "Judge Denise Langford Morris"]
+entities = ["Purpose Charter Academy", "MacDowell Preparatory Academy", "Anchor Rock Foundation"]
 courts = ["Wayne County 3rd Circuit Court"]
 connections = ["mentorship", "campaign finance", "legal representation"]
 +++
@@ -23,7 +24,7 @@ connections = ["mentorship", "campaign finance", "legal representation"]
 | Bar Status | Active, In Good Standing (licensed since 1990) |
 | Education | J.D., Thomas M. Cooley Law School (1990) |
 
-## Connection to Banks Network
+## Connection to Banks Network {{ confidence(level="documented") }}
 
 | Connection | Detail |
 |------------|--------|
@@ -61,7 +62,7 @@ connections = ["mentorship", "campaign finance", "legal representation"]
 - WXYZ coverage of retirement/JTC proceedings — {{ source(key="wxyz") }}
 - Banks' book acknowledgments (Ch.9, Ch.12)
 
-## JTC Suspension and Retirement (2019)
+## JTC Suspension and Retirement (2019) {{ confidence(level="reported") }}
 
 Evans retired in **February 2019** as the Judicial Tenure Commission was **poised to suspend** her. Reporting cited **attendance fraud** and **false reports**. She was represented during the FBI **Operation Northern Hook** corruption probe by [Todd Perkins](/network/professional-enablers/todd-perkins/) — Evans was not a target of the probe.
 

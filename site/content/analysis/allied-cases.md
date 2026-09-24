@@ -16,7 +16,7 @@ connections = ["board membership", "legal representation", "employment", "RICO p
 
 Independent litigants are identifying the same judicial misconduct patterns documented in the Banks enterprise investigation. Allied cases create **triangulation** — no single complaint can be dismissed as one "disgruntled litigant."
 
-## Bryant v. Miller et al. — 2:26-cv-10917 (E.D. Michigan)
+## Bryant v. Miller {{ confidence(level="documented") }} et al. — 2:26-cv-10917 (E.D. Michigan)
 
 | Field | Value |
 |-------|-------|
@@ -62,7 +62,7 @@ See also: [RICO Pattern](/analysis/rico-pattern/) — judicial cover layer.
 
 Miller sits at the intersection of courts, schools, and the Banks network. Bryant's independent identification of Miller validates the pattern analysis across multiple unrelated sources.
 
-## 36th District Court — Bradley-Baskin Indictment (Context)
+## 36th District Court — Bradley-Baskin {{ confidence(level="reported") }} Indictment (Context)
 
 The 36th District Court — where **three Banks-network judges** sit ({{ actor(key="yancey") }}, {{ actor(key="adam_sabree") }}, {{ actor(key="sean_perkins") }}) — is also where **Judge Andrea Bradley-Baskin** was federally indicted in **January 2026** for allegedly embezzling hundreds of thousands of dollars from incapacitated wards.
 
@@ -78,7 +78,7 @@ The 36th District Court — where **three Banks-network judges** sit ({{ actor(k
 
 Sources: {{ source(key="doj", path="/usao-edmi/pr/sitting-judge-and-three-others-charged-scheme-steal-hundreds-thousands-dollars", label="USAO-EDMI press release") }}, {{ source(key="freep", path="/story/news/local/michigan/wayne/2026/01/30/wayne-county-judge-andrea-bradley-baskin-embezzlement/88432584007/", label="Jan 30, 2026") }}
 
-## Bowles v. Sabree — 2:23-cv-10973 (E.D. Michigan)
+## Bowles v. Sabree {{ confidence(level="documented") }} — 2:23-cv-10973 (E.D. Michigan)
 
 | Field | Value |
 |-------|-------|

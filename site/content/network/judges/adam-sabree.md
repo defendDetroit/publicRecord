@@ -9,6 +9,7 @@ keywords = "Adam Sabree judge, Adam Sabree 36th District Court, Adam Sabree Metr
 
 [taxonomies]
 actors = ["Judge Adam Sabree", "Judge Aliyah Sabree", "Eric Sabree", "Judge Tenisha Yancey", "Judge Sean Perkins", "Brian Banks"]
+entities = ["MacDowell Preparatory Academy", "Purpose Charter Academy", "Banks Strategy LLC"]
 courts = ["36th District Court", "Eastern District of Michigan"]
 connections = ["family", "employment", "RICO predicate"]
 +++

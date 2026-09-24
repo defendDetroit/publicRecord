@@ -10,6 +10,7 @@ keywords = "City Hill Church Brian Banks, City Hill Church Detroit, City Hill Ch
 [taxonomies]
 actors = ["Brian Banks", "Joseph Holland"]
 entities = ["City Hill Church", "The Purpose Group LLC", "Purpose Foundation", "Banks Strategy LLC", "Anchor Rock Foundation", "Sun Community Development Corp", "Serenity Guardianship Services"]
+courts = ["Wayne County 3rd Circuit Court"]
 connections = ["business entity", "board membership"]
 +++
 

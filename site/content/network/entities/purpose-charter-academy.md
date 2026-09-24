@@ -8,9 +8,10 @@ date = 2026-09-20
 keywords = "Purpose Charter Academy, Purpose Charter Academy Detroit, PCA Detroit, Purpose Charter Academy Brian Banks, Purpose Charter Academy DPSCD, Purpose Charter Academy Law Public Service, charter school Detroit convicted felon, Purpose Charter Academy fraud, Purpose Charter Academy superintendent criminal record, DPSCD Brian Banks authorization"
 
 [taxonomies]
-actors = ["Brian Banks"]
-entities = ["Purpose Charter Academy", "The Purpose Group LLC"]
-connections = ["charter authorization", "credential fraud", "business entity"]
+actors = ["Brian Banks", "Judge Cylenthia Miller", "Joseph Holland", "Sherry Gay-Dagnogo"]
+entities = ["Purpose Charter Academy", "The Purpose Group LLC", "Anchor Rock Foundation"]
+courts = ["Wayne County 3rd Circuit Court", "36th District Court"]
+connections = ["charter authorization", "credential fraud", "business entity", "board membership"]
 +++
 
 ## School Overview
@@ -35,7 +36,7 @@ Purpose Charter Academy (PCA) is a K-8 charter school serving Detroit students. 
 
 The Michigan Department of Education issued PCA's operating certificate on September 2, 2022 — three days after the school year had already begun.
 
-## Credential Fraud
+## Credential Fraud {{ confidence(level="verified") }}
 
 Banks serves as superintendent while claiming credentials he cannot verify.
 

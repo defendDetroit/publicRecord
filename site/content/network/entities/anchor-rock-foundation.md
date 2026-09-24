@@ -27,7 +27,7 @@ connections = ["board membership", "business entity"]
 
 Anchor Rock Foundation is a dissolved nonprofit entity in {{ actor(key="banks") }}' enterprise web. Michigan LARA records show Banks as an officer.
 
-## Connection to Banks Network
+## Connection to Banks Network {{ confidence(level="documented") }}
 
 | Connection | Detail |
 |------------|--------|
@@ -36,7 +36,7 @@ Anchor Rock Foundation is a dissolved nonprofit entity in {{ actor(key="banks") 
 | Related entity | [Anchor Rock Services, Inc.](/network/entities/) (LARA 800770907) — active, Banks as agent |
 | School pipeline | Banks' charter schools ({{ entity(key="pca") }}, {{ entity(key="macdowell") }}) generate cases in Wayne County courts |
 
-## Judge Miller's Role — Board Chair
+## Judge Miller's Role — Board Chair {{ confidence(level="verified") }}
 
 | Field | Value |
 |-------|-------|

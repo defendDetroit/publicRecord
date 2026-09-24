@@ -151,7 +151,7 @@ See: [Political Enablers](/network/political/), [CBC Week Events](/analysis/cbc-
 
 **Effect:** The enterprise benefits from the housing distress its broader network helps perpetuate.
 
-## The Silo Problem
+## The Silo Problem {{ confidence(level="documented") }}
 
 Each institution sees only its piece:
 

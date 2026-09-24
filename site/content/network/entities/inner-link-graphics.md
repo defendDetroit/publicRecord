@@ -26,7 +26,7 @@ connections = ["campaign finance"]
 
 Inner Link Graphics appears repeatedly in campaign finance records connected to the Banks network — a printing and graphics vendor paid by judges and political figures linked to the enterprise.
 
-## Campaign Finance — Yancey Payments
+## Campaign Finance — Yancey Payments {{ confidence(level="verified") }}
 
 | From | To | Amount | Source |
 |------|----|--------|--------|
@@ -35,7 +35,7 @@ Inner Link Graphics appears repeatedly in campaign finance records connected to 
 
 Judge Yancey's campaign paid Inner Link Graphics **$8,025** across multiple disbursements. The same campaign paid Banks' personal consulting LLC — Yancey's **sole expenditure** in 2024 was to Banks Strategy.
 
-## Network-Wide Vendor Pattern
+## Network-Wide Vendor Pattern {{ confidence(level="documented") }}
 
 | From | To | Amount | Source |
 |------|----|--------|--------|

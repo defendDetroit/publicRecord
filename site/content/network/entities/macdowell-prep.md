@@ -8,9 +8,10 @@ date = 2026-09-20
 keywords = "MacDowell Preparatory Academy, MacDowell Prep Detroit, MacDowell charter school, MacDowell Preparatory Academy Brian Banks, MacDowell Preparatory Academy test scores, MacDowell Preparatory Academy board, Purpose Group Michigan LLC, DPSCD charter school Detroit, MacDowell Preparatory Academy math proficiency, MacDowell Preparatory Academy superintendent felony, MacDowell Detroit 3 percent math, MacDowell Purpose Group extraction"
 
 [taxonomies]
-actors = ["Brian Banks"]
-entities = ["MacDowell Preparatory Academy", "The Purpose Group LLC"]
-connections = ["charter authorization", "credential fraud", "business entity"]
+actors = ["Brian Banks", "Judge Tenisha Yancey", "Joseph Holland"]
+entities = ["MacDowell Preparatory Academy", "The Purpose Group LLC", "Purpose Foundation"]
+courts = ["36th District Court", "Wayne County 3rd Circuit Court"]
+connections = ["charter authorization", "credential fraud", "business entity", "board membership"]
 +++
 
 ## School Overview

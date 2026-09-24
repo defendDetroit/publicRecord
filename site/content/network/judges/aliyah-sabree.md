@@ -9,6 +9,7 @@ keywords = "Aliyah Sabree, Aliyah Sabree judge, Aliyah Sabree Wayne County 3rd C
 
 [taxonomies]
 actors = ["Judge Aliyah Sabree", "Brian Banks", "Judge Adam Sabree", "Judge Cylenthia Miller", "Eric Sabree"]
+entities = ["Purpose Charter Academy", "MacDowell Preparatory Academy"]
 courts = ["Wayne County 3rd Circuit Court", "36th District Court", "Eastern District of Michigan"]
 connections = ["mentorship", "family", "credential fraud", "employment"]
 +++
@@ -24,7 +25,7 @@ connections = ["mentorship", "family", "credential fraud", "employment"]
 | Next Election | **November 3, 2026** (special election, incumbent vs Shakira Lynn Hawkins) |
 | Education | J.D., Michigan State University College of Law, **2010** |
 
-## The Sabree Dynasty
+## The Sabree Dynasty {{ confidence(level="verified") }}
 
 | Person | Role |
 |--------|------|
@@ -32,7 +33,7 @@ connections = ["mentorship", "family", "credential fraud", "employment"]
 | [Adam Sabree](/network/judges/adam-sabree/) | 36th District Court Judge — **brother** |
 | Aliyah Sabree | 3rd Circuit Court Judge (Family Division) |
 
-## Connection to Banks Network
+## Connection to Banks Network {{ confidence(level="documented") }}
 
 | Connection | Detail |
 |------------|--------|

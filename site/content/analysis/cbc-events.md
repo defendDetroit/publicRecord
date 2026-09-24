@@ -8,8 +8,9 @@ date = 2026-09-20
 keywords = "Brian Banks CBC, Brian Banks Congressional Black Caucus, CBC Week Detroit, Brian Banks Washington DC party, Sherry Gay-Dagnogo CBC honoree, Brian Banks Eventbrite, Brian Banks political events, convicted felon CBC Week"
 
 [taxonomies]
-actors = ["Brian Banks", "Sherry Gay-Dagnogo"]
+actors = ["Brian Banks", "Sherry Gay-Dagnogo", "Judge Cylenthia Miller", "Joseph Holland"]
 entities = ["Purpose Charter Academy", "Purpose Foundation", "City Hill Church"]
+courts = ["Wayne County 3rd Circuit Court"]
 connections = ["charter authorization", "campaign finance", "business entity"]
 +++
 
@@ -19,7 +20,7 @@ Organizer: Brian Banks — Eventbrite profile **#47714438313**
 
 See also: [Political Enablers](/network/political/), [Institutional Capture](/analysis/institutional-capture/).
 
-## Annual Event Table
+## Annual Event Table {{ confidence(level="documented") }}
 
 | Year | Event | Venue | Honoree / Features | Eventbrite |
 |------|-------|-------|-------------------|------------|
@@ -51,7 +52,7 @@ Banks honors the politician who authorizes his charters at a Congressional Black
 
 See: [City Hill Church](/network/entities/city-hill-church/) — Banks religious entity.
 
-## Cost Estimates
+## Cost Estimates {{ confidence(level="alleged", note="estimated from Eventbrite tiers") }}
 
 | Item | Per Event | 4-Year Total |
 |------|-----------|-------------|
