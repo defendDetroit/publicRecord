@@ -19,7 +19,7 @@ keywords = "Brian Banks criminal history timeline, Purpose Charter Academy timel
 
 ## Pre-2017: Criminal History
 
-{{ actor(key="banks") }} accumulated **{{ actor(key="banks", field="convictions") }}** across 5 agencies and 5 courts. His father {{ fact(section="bmf", field="father") }} was indicted in the BMF federal case ({{ fact(section="bmf", field="father_case") }}).
+{{ actor(key="banks") }} accumulated **{{ actor(key="banks", field="convictions") }}** across 5 agencies and 5 courts. His father {{ fact(registry="bmf", field="father") }} was indicted in the BMF federal case ({{ fact(registry="bmf", field="father_case") }}).
 
 | Date | Event | Source |
 |------|-------|--------|

@@ -68,7 +68,7 @@ See also: [RICO Pattern](/analysis/rico-pattern/) — predicate acts including w
 - {{ source(key="lara_cofs", query="Entity 802290962") }}
 - Judge Perkins: {{ actor(key="perkins_david") }}
 - State Bar: {{ source(key="state_bar") }} — confirm Banks has no bar admission
-- Banks profile: {{ actor(key="banks") }} — ICHAT SID **{{ fact(section="actors", key="banks", field="sid") }}**
+- Banks profile: {{ actor(key="banks") }} — ICHAT SID **{{ fact(registry="actors", key="banks", field="sid") }}**
 
 ---
 

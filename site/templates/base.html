@@ -169,10 +169,16 @@
       flowchart: { curve: 'basis', padding: 12 },
       securityLevel: 'loose'
     });
-    if (document.readyState === 'loading') {
-      document.addEventListener('DOMContentLoaded', () => mermaid.run());
+    async function renderMermaid() {
+      const els = document.querySelectorAll('pre.mermaid');
+      if (els.length === 0) return;
+      try { await mermaid.run({ nodes: els }); }
+      catch (e) { console.warn('Mermaid render error:', e); }
+    }
+    if (document.readyState === 'complete') {
+      renderMermaid();
     } else {
-      await mermaid.run();
+      window.addEventListener('load', renderMermaid);
     }
   </script>
   <script src="{{ get_url(path='elasticlunr.min.js') }}"></script>

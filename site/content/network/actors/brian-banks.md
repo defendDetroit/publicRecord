@@ -80,7 +80,7 @@ A sitting judge publicly endorsing a man with 9 criminal convictions using crede
 
 ## BMF Lineage {{ confidence(level="documented") }}
 
-Banks is the **nephew of Tonesa Welch** through his biological father **{{ fact(section="bmf", field="father") }}** — BMF Defendant #22 in *USA v. Flenory et al* ({{ fact(section="bmf", field="father_case") }}).
+Banks is the **nephew of Tonesa Welch** through his biological father **{{ fact(registry="bmf", field="father") }}** — BMF Defendant #22 in *USA v. Flenory et al* ({{ fact(registry="bmf", field="father_case") }}).
 
 The enterprise never dissolved — it professionalized. BMF moved drugs for cash. The Banks network moves public education dollars through shell entities for the same purpose.
 
@@ -101,7 +101,7 @@ Banks controls **9+ entities**, all registered to the same residential address i
 
 ## Verify
 
-- {{ source(key="ichat", query="SID 2029469K") }} (SID: {{ fact(section="actors", key="banks", field="sid") }})
+- {{ source(key="ichat", query="SID 2029469K") }} (SID: {{ fact(registry="actors", key="banks", field="sid") }})
 - State Bar: {{ source(key="state_bar") }} — search "Brian Banks" (zero results)
 - {{ source(key="lara_cofs", query="Entity 803294855, 803295082, 802070120") }}
 - PACER: BMF Case 2:05-cr-80955

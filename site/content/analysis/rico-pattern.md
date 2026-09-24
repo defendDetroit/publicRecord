@@ -18,40 +18,59 @@ The Banks enterprise operates as a documented racketeering pattern across charte
 
 ## Enterprise Structure {{ confidence(level="documented") }}
 
-```
-BRIAN RODERICK BANKS (9 convictions, 3 bankruptcies, fake J.D.)
-│
-├── REVENUE STREAMS
-│   ├── Purpose Charter Academy (K-8, DPSCD authorized) ─── state aid
-│   ├── MacDowell Preparatory Academy ─────────────────── {{ entity(key="macdowell", field="revenue") }} state aid
-│   ├── Banks Strategy & Consultants LLC ──────────────── Campaign payments from judges
-│   └── Eventbrite events (CBC Week, Galas) ───────────── $50K–$150K est. (4 years)
-│
-├── EXTRACTION MECHANISM
-│   ├── The Purpose Group LLC (CMO) ───── Takes {{ entity(key="macdowell", field="extraction_pct") }} of school revenue
-│   │   └── {{ entity(key="macdowell", field="unaccounted") }} unaccounted "management fee" gap
-│   ├── Purpose Foundation (501c3) ────── "Private foundation" — 2 felons, all positions
-│   └── Personal salary ──────────────── $150K base + control of all entities
-│
-├── POLITICAL COVER
-│   ├── Bank on Banks for Michigan PAC ── Holland (felon) as Treasurer
-│   ├── Bank on Wayne County PAC ──────── Banks as Treasurer
-│   ├── Opportunities For All Michigan ── Dark money mailers
-│   └── CBC Week events ───────────────── 4 years hosting Congressional members
-│
-├── JUDICIAL COVER
-│   ├── {{ actor(key="miller") }} ────────── Board Chair of Banks' prior school entity
-│   ├── {{ actor(key="sabree") }} ───────────── MSU Law classmate (2010), never reported fraud
-│   ├── {{ actor(key="yancey") }} ──────────── Paid $383.82 to Banks Strategy (SOLE expenditure, 2024)
-│   └── {{ actor(key="perkins_david") }} ────────────────── Wayne Probate Judge, family donated to network
-│
-└── KEY ASSOCIATE
-    └── {{ actor(key="holland") }} (felon, MDOC #443789)
-        ├── Purpose Foundation: Secretary + Treasurer
-        ├── Bank on Banks PAC: Treasurer
-        ├── Banks Living Trust: 1st Successor Trustee
-        └── OFA Michigan: Officer
-```
+{% mermaid(title="RICO Enterprise Structure — Brian Roderick Banks") %}
+graph TB
+    BANKS["<b>BRIAN RODERICK BANKS</b><br/>9 convictions · 3 bankruptcies · fake J.D."]
+
+    subgraph REV["💰 REVENUE STREAMS"]
+        PCA["Purpose Charter Academy<br/>K-8, DPSCD authorized"]
+        MAC["MacDowell Prep<br/>$4.9M state aid"]
+        BSC["Banks Strategy LLC<br/>Judge campaign payments"]
+        EVT["CBC Week events<br/>$50K–$150K est."]
+    end
+
+    subgraph EXT["🔄 EXTRACTION MECHANISM"]
+        TPG["Purpose Group LLC (CMO)<br/>Takes 72.67% of revenue"]
+        PF["Purpose Foundation (501c3)<br/>2 felons, all positions"]
+        SAL["Personal salary<br/>$150K+ base"]
+    end
+
+    subgraph POL["🏛️ POLITICAL COVER"]
+        PAC1["Bank on Banks PAC<br/>Holland = Treasurer"]
+        PAC2["Bank on Wayne Co. PAC<br/>Banks = Treasurer"]
+        OFA["OFA Michigan<br/>Dark money mailers"]
+        CBC["CBC Week hosting<br/>4 years"]
+    end
+
+    subgraph JUD["⚖️ JUDICIAL COVER"]
+        MILLER["Judge Miller<br/>Board Chair"]
+        SABREE["Judge Aliyah Sabree<br/>MSU Law classmate"]
+        YANCEY["Judge Yancey<br/>Paid $383.82"]
+        D_PERK["Judge David Perkins<br/>Family donations"]
+    end
+
+    HOLLAND["<b>Joseph Holland Jr.</b><br/>Felon · MDOC #443789<br/>Foundation Sec+Treas · PAC Treas<br/>Living Trust · OFA Officer"]
+
+    BANKS --> PCA & MAC & BSC & EVT
+    PCA & MAC --> TPG
+    TPG --> SAL
+    BANKS --> PF
+    BANKS --> PAC1 & PAC2 & OFA & CBC
+    MILLER & SABREE & YANCEY & D_PERK -.->|"protect"| BANKS
+    BANKS --- HOLLAND
+
+    classDef person fill:#991b1b,stroke:#ef4444,color:#fecaca
+    classDef revenue fill:#1e3a5f,stroke:#60a5fa,color:#bfdbfe
+    classDef extract fill:#854d0e,stroke:#facc15,color:#fef9c3
+    classDef political fill:#14532d,stroke:#4ade80,color:#bbf7d0
+    classDef judge fill:#312e81,stroke:#818cf8,color:#c7d2fe
+
+    class BANKS,HOLLAND person
+    class PCA,MAC,BSC,EVT revenue
+    class TPG,PF,SAL extract
+    class PAC1,PAC2,OFA,CBC political
+    class MILLER,SABREE,YANCEY,D_PERK judge
+{% end %}
 
 See: [Enterprise Principals](/network/actors/), [Entity Profiles](/network/entities/), [Judicial Cover](/network/judges/).
 
@@ -155,7 +174,7 @@ The enterprise has operated continuously for **14+ years** (2010–present):
 
 | Phase | Period | Activity |
 |-------|--------|----------|
-| **Street** | Pre-2005 | BMF drug distribution network (father {{ fact(section="bmf", field="father") }} = Defendant #22) |
+| **Street** | Pre-2005 | BMF drug distribution network (father {{ fact(registry="bmf", field="father") }} = Defendant #22) |
 | **Political** | 2014–2016 | MI State House using fake credentials |
 | **Educational** | 2017–present | Charter school superintendent using fake credentials |
 | **Financial** | 2017–present | CMO extraction of public school funds |
@@ -175,7 +194,7 @@ See: [Timeline](/timeline/) for chronological documentation.
 
 | Claim | Verify At |
 |-------|----------|
-| Criminal record | MI ICHAT — SID **{{ fact(section="actors", key="banks", field="sid") }}** |
+| Criminal record | MI ICHAT — SID **{{ fact(registry="actors", key="banks", field="sid") }}** |
 | No bar admission | State Bar of MI — {{ source(key="state_bar") }} |
 | Entity records | LARA — IDs **803294855**, **803295082**, **802070120** |
 | School finances | [macdowellprep.com](https://macdowellprep.com) (budget transparency) |
