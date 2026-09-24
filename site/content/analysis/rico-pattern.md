@@ -119,13 +119,13 @@ See: [Timeline](/timeline/) for chronological documentation.
 | Claim | Verify At |
 |-------|----------|
 | Criminal record | MI ICHAT — SID **2029469K** |
-| No bar admission | State Bar of MI — [zeekbeek.com/SBM](https://www.zeekbeek.com/SBM) |
+| No bar admission | State Bar of MI — {{ source(key="state_bar") }} |
 | Entity records | LARA — IDs **803294855**, **803295082**, **802070120** |
 | School finances | [macdowellprep.com](https://macdowellprep.com) (budget transparency) |
 | Campaign payments | [transparencyusa.org](https://transparencyusa.org) |
 | Bankruptcies | PACER — Cases 97-45020, 98-49073, 06-55281 |
 | BMF connection | PACER — Case 2:05-cr-80955 |
-| Judicial connections | MI campaign finance — [cfrs.michigan.gov](https://cfrs.michigan.gov) |
+| Judicial connections | MI campaign finance — {{ source(key="cfrs") }} |
 
 ---
 

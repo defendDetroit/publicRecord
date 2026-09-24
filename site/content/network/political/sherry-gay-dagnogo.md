@@ -47,9 +47,9 @@ She resigned from the DPSCD board because the city charter prohibits holding ano
 
 ## Independent Reporting
 
-- [Bridge Detroit (Sep 30, 2025)](https://www.bridgedetroit.com/detroit-ombudsman-sherry-gay-dagnogo/) — selected as ombudsman; resignation from DPSCD
-- [Chalkbeat (Sep 30, 2025)](https://www.chalkbeat.org/detroit/2025/09/30/sherry-gay-dagnogo-selected-detroit-ombudsman/) — board resignation for city job
-- [Chalkbeat (Oct 14, 2025)](https://www.chalkbeat.org/detroit/2025/10/14/bessie-harris-is-the-newest-member-of-the-detroit-school-districts-board/) — Bessie Harris fills vacant seat
+- {{ source(key="bridge_detroit", path="/detroit-ombudsman-sherry-gay-dagnogo/", label="Sep 30, 2025") }} — selected as ombudsman; resignation from DPSCD
+- {{ source(key="chalkbeat", path="/2025/09/30/sherry-gay-dagnogo-selected-detroit-ombudsman/", label="Sep 30, 2025") }} — board resignation for city job
+- {{ source(key="chalkbeat", path="/2025/10/14/bessie-harris-is-the-newest-member-of-the-detroit-school-districts-board/", label="Oct 14, 2025") }} — Bessie Harris fills vacant seat
 
 ---
 

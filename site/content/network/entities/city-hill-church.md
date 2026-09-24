@@ -66,7 +66,7 @@ See also: [RICO Pattern](/analysis/rico-pattern/) — enterprise structure and e
 
 ## Verify
 
-- LARA: [cofs.lara.state.mi.us](https://cofs.lara.state.mi.us) — entity IDs **802365641**, **802210862**
+- {{ source(key="lara_cofs", query="Entity 802365641, 802210862") }}
 - LARA name search: "Brian Banks" returns 9 results
 - Entity map: [Entity Profiles](/network/entities/)
 - CBC events: [CBC Week Events](/analysis/cbc-events/) — Eventbrite organizer #47714438313

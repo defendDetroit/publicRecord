@@ -38,8 +38,8 @@ Public record of JTC complaint and network connections are available to voters a
 ## Verify
 
 - JTC: [jtc.courts.mi.gov](https://jtc.courts.mi.gov)
-- LARA: Anchor Rock Foundation at [cofs.lara.state.mi.us](https://cofs.lara.state.mi.us)
-- Wayne County 3rd Circuit: [clerk.waynecounty.com](https://clerk.waynecounty.com)
+- LARA: Anchor Rock Foundation at {{ source(key="lara_cofs") }}
+- Wayne County 3rd Circuit: {{ source(key="wayne_clerk") }}
 
 ---
 
@@ -47,8 +47,8 @@ Public record of JTC complaint and network connections are available to voters a
 
 ## Independent Reporting
 
-- [WXYZ Detroit: Wayne County judge's decision to dismiss infant murder case questioned](https://www.wxyz.com/news/local-news/investigations/wayne-county-judges-decision-to-dismiss-infant-murder-case-questioned) — Prosecutor Kym Worthy's office alleged Miller "displayed a bias throughout the trial"
-- [Ballotpedia: Cylenthia LaToye Miller](https://ballotpedia.org/Cylenthia_LaToye_Miller) — On the ballot November 3, 2026 (general election, nonpartisan)
+- {{ source(key="wxyz", path="/news/local-news/investigations/wayne-county-judges-decision-to-dismiss-infant-murder-case-questioned", label="Wayne County judge's decision to dismiss infant murder case questioned") }} — Prosecutor Kym Worthy's office alleged Miller "displayed a bias throughout the trial"
+- {{ source(key="ballotpedia", path="/Cylenthia_LaToye_Miller", label="Cylenthia LaToye Miller") }} — On the ballot November 3, 2026 (general election, nonpartisan)
 - [keepjudgemiller.com](https://keepjudgemiller.com) — Miller campaign site listing endorsers including Eric Sabree
 
 ## Three Active Scandals

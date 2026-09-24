@@ -7,6 +7,34 @@ generate_feeds = true
 feed_filenames = ["atom.xml"]
 minify_html = true
 
+# ── Link Checker ─────────────────────────────────────────────────────────
+# Bot-blocked domains are "modified bases" — valid for humans, invisible to
+# automated checkers.  skip_prefixes tells zola check to trust them.
+# external_level = "warn" downgrades unknown future blockers from build-fail
+# to warning so the site always builds.
+[link_checker]
+external_level = "warn"
+skip_prefixes = [
+    # Michigan government databases (block all automated requests)
+    "https://cofs.lara.state.mi.us",          # LARA Corporate Entity Search
+    "https://apps.michigan.gov/ichat",         # Criminal History (ICHAT)
+    "https://cfrs.michigan.gov",               # Campaign Finance Reporting
+    "https://mdocweb.state.mi.us",             # MDOC Offender Tracking (OTIS)
+    # Wayne County government (connection-refused to bots)
+    "https://courts.waynecounty.com",          # 3rd Circuit Court
+    "https://clerk.waynecounty.com",           # County Clerk / Register of Deeds
+    "https://wayne.county-taxes.com",          # Treasurer / Tax Records
+    # Paywalled news (402 Payment Required)
+    "https://eu.freep.com",                    # Detroit Free Press
+    "https://www.freep.com",                   # Detroit Free Press (US)
+    "https://www.detroitnews.com",             # Detroit News
+    # Bot-blocked reference sites (403 Forbidden)
+    "https://zeekbeek.com",                    # State Bar of Michigan directory
+    "https://www.schooldigger.com",            # School ratings
+    "https://www.usnews.com",                  # US News school profiles
+    "https://www.jams.com",                    # JAMS mediator profiles
+]
+
 [markdown]
 smart_punctuation = true
 
@@ -120,6 +148,153 @@ short = "Banks Strategy"
 lara_id = "802070120"
 type = "Consulting LLC"
 page = "/network/entities/banks-strategy-llc/"
+
+# ── Source Registry ───────────────────────────────────────────────────────
+# Central truth for every external database / news source we cite.
+# Each source gets: display name, base URL, type (gov/news/legal/reference),
+# access notes (for bot-blocked or paywalled sites), and optional search path.
+# Pages reference these via {{ source(key="lara_cofs", query="802394934") }}
+
+[extra.sources.lara_cofs]
+display = "Michigan LARA — Corporate Entity Search"
+short = "LARA COFS"
+url = "https://cofs.lara.state.mi.us"
+search_path = "/SearchApi/Search/Search"
+type = "gov"
+access = "Government database. Visit the URL and search by entity name or ID number."
+
+[extra.sources.ichat]
+display = "Michigan ICHAT — Criminal History"
+short = "ICHAT"
+url = "https://apps.michigan.gov/ichat"
+type = "gov"
+access = "Government database. Requires $10 fee per search. Search by name and date of birth."
+
+[extra.sources.cfrs]
+display = "Michigan CFRS — Campaign Finance"
+short = "CFRS"
+url = "https://cfrs.michigan.gov"
+type = "gov"
+access = "Government database. Search by candidate or committee name. Free access."
+
+[extra.sources.mdoc_otis]
+display = "Michigan MDOC — Offender Tracking (OTIS)"
+short = "MDOC OTIS"
+url = "https://mdocweb.state.mi.us/otis2/otis2profile.aspx"
+type = "gov"
+access = "Government database. Search by MDOC number or name."
+
+[extra.sources.wayne_circuit]
+display = "Wayne County 3rd Circuit Court"
+short = "3rd Circuit"
+url = "https://courts.waynecounty.com"
+type = "gov"
+access = "Court website. Case search available. Some records require in-person access at Frank Murphy Hall."
+
+[extra.sources.wayne_clerk]
+display = "Wayne County Clerk / Register of Deeds"
+short = "Wayne Clerk/ROD"
+url = "https://clerk.waynecounty.com"
+type = "gov"
+access = "Government website. Property and deed records searchable online."
+
+[extra.sources.wayne_treasurer]
+display = "Wayne County Treasurer — Tax Records"
+short = "Wayne Treasurer"
+url = "https://wayne.county-taxes.com/public"
+type = "gov"
+access = "Government database. Search by address or parcel ID for tax payment status."
+
+[extra.sources.thirty_sixth_district]
+display = "36th District Court — Detroit"
+short = "36th District"
+url = "https://www.36thdistrictcourtmi.gov"
+type = "gov"
+access = "Court website. Case lookup and judge profiles available."
+
+[extra.sources.pacer]
+display = "PACER — Federal Court Records"
+short = "PACER"
+url = "https://www.pacer.gov"
+type = "legal"
+access = "Federal court electronic records system. Requires free account. $0.10/page for documents."
+
+[extra.sources.freep]
+display = "Detroit Free Press"
+short = "Free Press"
+url = "https://www.freep.com"
+type = "news"
+access = "Paywalled. Some articles available via archive.org or Google cache."
+
+[extra.sources.detroit_news]
+display = "The Detroit News"
+short = "Detroit News"
+url = "https://www.detroitnews.com"
+type = "news"
+access = "Paywalled. Some articles available via archive.org or Google cache."
+
+[extra.sources.wxyz]
+display = "WXYZ-TV Detroit (Channel 7)"
+short = "WXYZ"
+url = "https://www.wxyz.com"
+type = "news"
+access = "Free access. Local investigative journalism."
+
+[extra.sources.chalkbeat]
+display = "Chalkbeat Detroit"
+short = "Chalkbeat"
+url = "https://detroit.chalkbeat.org"
+type = "news"
+access = "Free access. Education-focused journalism."
+
+[extra.sources.bridge_detroit]
+display = "Bridge Detroit"
+short = "Bridge Detroit"
+url = "https://www.bridgedetroit.com"
+type = "news"
+access = "Free access. Nonprofit local journalism."
+
+[extra.sources.ballotpedia]
+display = "Ballotpedia"
+short = "Ballotpedia"
+url = "https://ballotpedia.org"
+type = "reference"
+access = "Free access. Nonpartisan political encyclopedia."
+
+[extra.sources.state_bar]
+display = "State Bar of Michigan — Member Directory"
+short = "State Bar (ZeekBeek)"
+url = "https://zeekbeek.com/SBM"
+type = "legal"
+access = "Attorney lookup. Blocks automated access — visit in browser and search by name."
+
+[extra.sources.school_digger]
+display = "SchoolDigger — School Ratings"
+short = "SchoolDigger"
+url = "https://www.schooldigger.com"
+type = "reference"
+access = "School performance data. Blocks automated access."
+
+[extra.sources.us_news]
+display = "US News — K-12 School Rankings"
+short = "US News"
+url = "https://www.usnews.com/education/k12"
+type = "reference"
+access = "School rankings and profiles. Blocks automated access."
+
+[extra.sources.jams]
+display = "JAMS — Alternative Dispute Resolution"
+short = "JAMS"
+url = "https://www.jams.com"
+type = "legal"
+access = "Mediator/arbitrator profiles. Blocks automated access."
+
+[extra.sources.doj]
+display = "U.S. Department of Justice — Press Releases"
+short = "DOJ"
+url = "https://www.justice.gov"
+type = "gov"
+access = "Free access. Federal prosecution announcements and case documents."
 
 # ── BMF Connection ───────────────────────────────────────────────────────
 

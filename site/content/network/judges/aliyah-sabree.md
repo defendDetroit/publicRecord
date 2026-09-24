@@ -68,10 +68,10 @@ Sources: Detroit News (Feb 12, Mar 15, Jul 10, 2019); Metro Times (Jul 10, 2019)
 ## Verify
 
 - MSU Law graduates: MSU College of Law alumni records
-- Wayne County 3rd Circuit: [clerk.waynecounty.com](https://clerk.waynecounty.com)
+- Wayne County 3rd Circuit: {{ source(key="wayne_clerk") }}
 - Eric Sabree: [Wayne County Treasurer](https://www.waynecounty.com/elected/treasurer/)
 - Bowles v. Sabree: PACER, E.D. Mich
-- Detroit News FBI reporting: [detroitnews.com](https://www.detroitnews.com) (Feb–Jul 2019)
+- Detroit News FBI reporting: {{ source(key="detroit_news") }} (Feb–Jul 2019)
 - Ballotpedia: Aliyah Sabree — November 3, 2026 election
 
 ## Daisy Elliott Lineage
@@ -82,7 +82,7 @@ Aliyah Sabree is the **great-granddaughter of civil rights activist Daisy Elliot
 
 - [Gov. Whitmer press release (May 15, 2025)](https://www.michigan.gov/whitmer/news/press-releases/2025/05/15/whitmer-makes-appointments-to-the-bench) — Third Circuit appointment; prior roles at DWSD and Mayor's Office
 - [Michigan Lawyers Weekly (Oct 11, 2017)](https://milawyersweekly.com/news/2017/10/11/new-detroit-district-court-judge-is-appointed/) — 36th District appointment; great-granddaughter of Daisy Elliott
-- [Ballotpedia: Aliyah Sabree](https://ballotpedia.org/Aliyah_Sabree) — election and career timeline
+- {{ source(key="ballotpedia", path="/Aliyah_Sabree", label="Aliyah Sabree") }} — election and career timeline
 
 ---
 

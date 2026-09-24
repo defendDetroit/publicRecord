@@ -65,7 +65,7 @@ Sean Perkins sits on the **same court** as:
 
 ## Verify
 
-- 36th District Court: [36thdistrictcourtmi.gov](https://www.36thdistrictcourtmi.gov)
+- 36th District Court: {{ source(key="thirty_sixth_district") }}
 - Wikipedia (brother Todd's page confirms relationship): [Todd Perkins](https://en.wikipedia.org/wiki/Todd_Perkins_(lawyer))
 - Gov. Whitmer press release (May 5, 2021): [gov.michigan.gov](https://www.michigan.gov/gov)
 - Ballotpedia: Sean Perkins
@@ -73,8 +73,8 @@ Sean Perkins sits on the **same court** as:
 ## Independent Reporting
 
 - [Gov. Whitmer press release (May 5, 2021)](https://www.michigan.gov/gov) — appointment to 36th District Court; prior role at **Perkins Law Group, PLLC**
-- [Ballotpedia: Sean Perkins](https://ballotpedia.org/Sean_Perkins) — November 2022 election (55,443 votes)
-- [Detroit News: Whitmer appointment coverage (2021)](https://www.detroitnews.com)
+- {{ source(key="ballotpedia", path="/Sean_Perkins", label="Sean Perkins") }} — November 2022 election (55,443 votes)
+- {{ source(key="detroit_news", label="Whitmer appointment coverage (2021)") }}
 - [Todd Perkins profile](/network/professional-enablers/todd-perkins/) — brother; Banks' attorney; Perkins Law Group
 
 ---

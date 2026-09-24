@@ -13,7 +13,7 @@ available databases. Here's how.
 
 **Michigan Offender Tracking Information System (OTIS)**
 
-- URL: [Michigan OTIS](https://mdocweb.state.mi.us/otis2/otis2profile.aspx?mdocNumber=443789)
+- URL: {{ source(key="mdoc_otis", query="MDOC #443789") }}
 - Search by name or MDOC number
 - Key records: Brian Banks, Joseph Holland (MDOC #443789)
 - Shows convictions, sentences, discharge status
@@ -22,7 +22,7 @@ available databases. Here's how.
 
 **Michigan Department of Licensing and Regulatory Affairs**
 
-- URL: [cofs.lara.state.mi.us/SearchApi/Search/Search](https://cofs.lara.state.mi.us/SearchApi/Search/Search)
+- URL: {{ source(key="lara_cofs") }}
 - Search: "Purpose", "MacDowell", "Inner Link", "Right Turn"
 - Shows registered agents, addresses, filing dates
 - Compare registered agent names against OTIS records
@@ -31,7 +31,7 @@ available databases. Here's how.
 
 **Wayne County ROD**
 
-- URL: [wayne.county-taxes.com/public](https://wayne.county-taxes.com/public)
+- URL: {{ source(key="wayne_treasurer") }}
 - Search by address: 21456 Newcastle Rd, Harper Woods, MI
 - Shows: JTROS deed (Banks + Holland as Joint Tenants With Right of Survivorship)
 - Cross-reference with bankruptcy filings

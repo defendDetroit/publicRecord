@@ -64,11 +64,11 @@ Revenue passes through Purpose Group LLC rather than remaining under direct scho
 - DPSCD authorization: [detroitk12.org](https://www.detroitk12.org)
 - School data: [mischooldata.org](https://www.mischooldata.org)
 - School website: [purposecharteracademy.com](https://www.purposecharteracademy.com)
-- State Bar: [zeekbeek.com/SBM](https://zeekbeek.com/SBM) — search "Brian Banks" (zero results)
+- State Bar: {{ source(key="state_bar") }} — search "Brian Banks" (zero results)
 
 ## Independent Reporting
 
-- [Detroit Free Press: Back to Fool — Brian Banks hired as principal](https://eu.freep.com/story/news/columnists/ml-elrick/2023/08/27/detroit-school-former-felon-as-principal/70669868007/) — How a convicted felon became a school administrator
+- {{ source(key="freep", path="/story/news/columnists/ml-elrick/2023/08/27/detroit-school-former-felon-as-principal/70669868007/", label="Back to Fool — Brian Banks hired as principal") }} — How a convicted felon became a school administrator
 
 ---
 

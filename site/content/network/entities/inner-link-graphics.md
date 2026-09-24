@@ -60,7 +60,7 @@ See also: [Institutional Capture](/analysis/institutional-capture/) — courts a
 ## Verify
 
 - TransparencyUSA: [transparencyusa.org](https://transparencyusa.org) — search "Yancey" + "Inner Link"
-- MI Campaign Finance: [cfrs.michigan.gov](https://cfrs.michigan.gov)
+- MI Campaign Finance: {{ source(key="cfrs") }}
 - PAC profile: [Political Action Committees](/network/entities/political-action-committees/)
 - Judge Yancey: [Tenisha Yancey](/network/judges/tenisha-yancey/)
 

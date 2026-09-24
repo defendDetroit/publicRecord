@@ -51,7 +51,7 @@ Banks and Holland, as officers and disqualified persons, face strict limits on t
 
 ## Verify
 
-- LARA: [cofs.lara.state.mi.us](https://cofs.lara.state.mi.us) — entity ID **803294855**
+- {{ source(key="lara_cofs", query="Entity 803294855") }}
 - IRS EIN lookup: [apps.irs.gov/app/eos](https://apps.irs.gov/app/eos) — EIN **33-3537910**
 
 ---

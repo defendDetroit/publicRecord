@@ -40,8 +40,8 @@ keywords = "David Perkins, David Perkins judge, David Perkins Wayne County, Davi
 
 ## Verify
 
-- MI Campaign Finance: [cfrs.michigan.gov](https://cfrs.michigan.gov) — search "Perkins"
-- LARA: Search "Serenity Guardianship" at [cofs.lara.state.mi.us](https://cofs.lara.state.mi.us)
+- MI Campaign Finance: {{ source(key="cfrs") }} — search "Perkins"
+- LARA: Search "Serenity Guardianship" at {{ source(key="lara_cofs") }}
 
 ---
 

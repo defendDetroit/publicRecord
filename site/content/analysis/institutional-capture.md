@@ -102,8 +102,8 @@ One civilian, pro se, pro bono, compiled what no single agency had assembled.
 
 ## Verify
 
-- LARA entity records: [cofs.lara.state.mi.us](https://cofs.lara.state.mi.us)
-- Campaign finance: [transparencyusa.org](https://transparencyusa.org), [cfrs.michigan.gov](https://cfrs.michigan.gov)
+- LARA entity records: {{ source(key="lara_cofs") }}
+- Campaign finance: [transparencyusa.org](https://transparencyusa.org), {{ source(key="cfrs") }}
 - School authorization: DPSCD board records
 - Judicial connections: [Judicial Cover](/network/judges/)
 - Allied corroboration: [Allied Cases](/analysis/allied-cases/) — PACER **2:26-cv-10917**

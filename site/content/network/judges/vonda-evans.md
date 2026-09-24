@@ -53,7 +53,7 @@ keywords = "Vonda Evans judge, Vonda Evans retired, Vonda Evans Wayne County, Vo
 
 - Vonda's Law: [vondaslaw.com](https://vondaslaw.com)
 - MI State Bar: [michbar.org](https://www.michbar.org)
-- WXYZ coverage of retirement/JTC proceedings — [wxyz.com](https://www.wxyz.com)
+- WXYZ coverage of retirement/JTC proceedings — {{ source(key="wxyz") }}
 - Banks' book acknowledgments (Ch.9, Ch.12)
 
 ## JTC Suspension and Retirement (2019)
@@ -62,9 +62,9 @@ Evans retired in **February 2019** as the Judicial Tenure Commission was **poise
 
 ## Independent Reporting
 
-- [WXYZ: Judge Vonda Evans retirement investigation](https://www.wxyz.com/news/local-news/investigations) — attendance fraud, JTC suspension proceedings
+- {{ source(key="wxyz", path="/news/local-news/investigations", label="Judge Vonda Evans retirement investigation") }} — attendance fraud, JTC suspension proceedings
 - [AP News: Wayne County judge retirement coverage](https://apnews.com)
-- [Detroit Free Press: Evans retirement reporting](https://www.freep.com)
+- {{ source(key="freep", label="Evans retirement reporting") }}
 - [Fox 2 Detroit: Evans JTC coverage](https://www.fox2detroit.com)
 
 ---

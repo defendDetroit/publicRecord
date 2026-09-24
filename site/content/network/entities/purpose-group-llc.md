@@ -58,7 +58,7 @@ Schools report **$0 in staff salaries** because employees are technically on Pur
 
 ## Verify
 
-- LARA: [cofs.lara.state.mi.us](https://cofs.lara.state.mi.us) — entity ID **803295082**
+- {{ source(key="lara_cofs", query="Entity 803295082") }}
 - School financial disclosures: [mischooldata.org](https://www.mischooldata.org)
 
 ---

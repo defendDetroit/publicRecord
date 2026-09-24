@@ -59,9 +59,9 @@ See also: [RICO Pattern](/analysis/rico-pattern/) — predicate acts including w
 
 ## Verify
 
-- LARA: [cofs.lara.state.mi.us](https://cofs.lara.state.mi.us) — entity ID **802290962**
+- {{ source(key="lara_cofs", query="Entity 802290962") }}
 - Judge Perkins: [David Perkins](/network/judges/david-perkins/)
-- State Bar: [zeekbeek.com/SBM](https://www.zeekbeek.com/SBM) — confirm Banks has no bar admission
+- State Bar: {{ source(key="state_bar") }} — confirm Banks has no bar admission
 - Banks profile: [Brian Roderick Banks](/network/actors/brian-banks/) — ICHAT SID **2029469K**
 
 ---

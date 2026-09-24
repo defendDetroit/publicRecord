@@ -362,6 +362,19 @@ section h2 {
   .tl-event-actors { grid-column: 2; }
 }
 
+/* Source citations */
+cite.source {
+  font-style: normal; display: inline; font-size: 0.88em;
+}
+cite.source a {
+  text-decoration: none; border-bottom: 1px dotted var(--text-muted);
+  color: var(--link);
+}
+cite.source a:hover { border-bottom-style: solid; }
+.source-badge { margin-right: 0.2em; }
+.source-query { color: var(--text-muted); font-family: var(--font-mono, monospace); font-size: 0.85em; }
+.source-label { color: var(--text); }
+
 /* Print */
 @media print {
   .site-nav, .nav-toggle, .cta-row { display: none; }

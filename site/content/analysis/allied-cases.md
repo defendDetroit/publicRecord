@@ -70,7 +70,7 @@ The 36th District Court — where **three Banks-network judges** sit ([Tenisha Y
 
 **This is not a Banks-network connection.** Bradley-Baskin is a separate judge on the same court. The indictment establishes the broader institutional environment — a court where fiduciary abuse of vulnerable wards is alleged at the judicial level.
 
-Sources: [DOJ USAO-EDMI press release](https://www.justice.gov/usao-edmi/pr/sitting-judge-and-three-others-charged-scheme-steal-hundreds-thousands-dollars), [Detroit Free Press (Jan 30, 2026)](https://www.freep.com/story/news/local/michigan/wayne/2026/01/30/wayne-county-judge-andrea-bradley-baskin-embezzlement/88432584007/)
+Sources: {{ source(key="doj", path="/usao-edmi/pr/sitting-judge-and-three-others-charged-scheme-steal-hundreds-thousands-dollars", label="USAO-EDMI press release") }}, {{ source(key="freep", path="/story/news/local/michigan/wayne/2026/01/30/wayne-county-judge-andrea-bradley-baskin-embezzlement/88432584007/", label="Jan 30, 2026") }}
 
 ## Future Allied Cases (Expected)
 
@@ -86,7 +86,7 @@ As the public record grows, other harmed parties may emerge:
 - PACER: Case **2:26-cv-10917** at [pacer.uscourts.gov](https://pacer.uscourts.gov)
 - Judge Miller: [Cylenthia Miller](/network/judges/cylenthia-miller/)
 - JTC: [jtc.courts.mi.gov](https://jtc.courts.mi.gov)
-- Anchor Rock: LARA entity **802394934** at [cofs.lara.state.mi.us](https://cofs.lara.state.mi.us)
+- Anchor Rock: {{ source(key="lara_cofs", query="Entity 802394934") }}
 - Timeline: [Sep 14, 2026 discovery](/timeline/) — Bryant case identified
 
 ---

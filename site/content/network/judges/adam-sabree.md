@@ -80,17 +80,17 @@ Detroit News (Mar 15, 2019): "The FBI is looking into land deals by the family o
 
 ## Verify
 
-- 36th District Court: [36thdistrictcourtmi.gov](https://www.36thdistrictcourtmi.gov)
-- LARA: Woodward Law Group — [cofs.lara.state.mi.us](https://cofs.lara.state.mi.us) (ID 801902111)
+- 36th District Court: {{ source(key="thirty_sixth_district") }}
+- LARA: Woodward Law Group — {{ source(key="lara_cofs", query="Entity 801902111") }}
 - PACER: Llewellyn-Jones v. Metro Property Group, **2:13-cv-11977**
-- Detroit News (Feb–Jul 2019): Eric Sabree FBI/land deal reporting — [detroitnews.com](https://www.detroitnews.com)
+- Detroit News (Feb–Jul 2019): Eric Sabree FBI/land deal reporting — {{ source(key="detroit_news") }}
 - votesabree.com (archived campaign materials)
 - Ballotpedia: Adam Sabree
 
 ## Independent Reporting
 
-- [36th District Court: Judge Adam Sabree](https://www.36thdistrictcourtmi.gov)
-- [Ballotpedia: Adam Sabree](https://ballotpedia.org/Adam_Sabree) — elected November 2022 alongside [Tenisha Yancey](/network/judges/tenisha-yancey/) and [Sean Perkins](/network/judges/sean-perkins/)
+- {{ source(key="thirty_sixth_district", label="Judge Adam Sabree") }}
+- {{ source(key="ballotpedia", path="/Adam_Sabree", label="Adam Sabree") }} — elected November 2022 alongside [Tenisha Yancey](/network/judges/tenisha-yancey/) and [Sean Perkins](/network/judges/sean-perkins/)
 
 ---
 

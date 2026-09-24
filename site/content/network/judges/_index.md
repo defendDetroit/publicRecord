@@ -60,9 +60,9 @@ Two network-connected judges face voters on the same ballot:
 
 ## Verify
 
-- Wayne County 3rd Circuit: [clerk.waynecounty.com](https://clerk.waynecounty.com)
-- 36th District Court: [36thdistrictcourtmi.gov](https://www.36thdistrictcourtmi.gov)
-- Wayne County Probate: [courts.waynecounty.com](https://courts.waynecounty.com)
+- Wayne County 3rd Circuit: {{ source(key="wayne_clerk") }}
+- 36th District Court: {{ source(key="thirty_sixth_district") }}
+- Wayne County Probate: {{ source(key="wayne_circuit") }}
 - Campaign finance: [transparencyusa.org](https://transparencyusa.org)
 - JTC: [jtc.courts.mi.gov](https://jtc.courts.mi.gov)
 

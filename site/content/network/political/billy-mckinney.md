@@ -79,7 +79,7 @@ See also: [Institutional Capture](/analysis/institutional-capture/) — politica
 ## Verify
 
 - TransparencyUSA: [transparencyusa.org](https://transparencyusa.org) — search "McKinney" + "Darryl Banks"
-- MI Campaign Finance: [cfrs.michigan.gov](https://cfrs.michigan.gov)
+- MI Campaign Finance: {{ source(key="cfrs") }}
 - FEC: [fec.gov](https://fec.gov) — search "Donavan McKinney"
 - Detroit City Council: [detroitmi.gov](https://detroitmi.gov)
 - Deadline Detroit: Carol Banks / Eastside Slate reporting (Oct 2021)

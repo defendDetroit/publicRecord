@@ -51,7 +51,7 @@ See also: [Institutional Capture](/analysis/institutional-capture/) — courts a
 
 ## Verify
 
-- LARA: [cofs.lara.state.mi.us](https://cofs.lara.state.mi.us) — entity ID **802394934**
+- {{ source(key="lara_cofs", query="Entity 802394934") }}
 - Judge Miller profile: [Cylenthia Miller](/network/judges/cylenthia-miller/)
 - Allied case: [Bryant v. Miller](/analysis/allied-cases/) — PACER case **2:26-cv-10917**
 - JTC: [jtc.courts.mi.gov](https://jtc.courts.mi.gov)

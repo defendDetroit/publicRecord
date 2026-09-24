@@ -52,7 +52,7 @@ Banks' book describes a **"Revelation Day"** — a female Oakland County Circuit
 
 ## Verify
 
-- JAMS: [jams.com](https://www.jams.com) — search "Langford Morris"
+- JAMS: {{ source(key="jams") }} — search "Langford Morris"
 - MI State Bar: [michbar.org](https://www.michbar.org) — Bar # P34884
 - ICLE: [icle.org](https://www.icle.org)
 - ClickOnDetroit (Mar 2023): retirement/firsts coverage
@@ -61,7 +61,7 @@ Banks' book describes a **"Revelation Day"** — a female Oakland County Circuit
 
 ## Independent Reporting
 
-- [JAMS profile: Denise Langford Morris](https://www.jams.com) — mediator/arbitrator, Detroit
+- {{ source(key="jams", label="Denise Langford Morris profile") }} — mediator/arbitrator, Detroit
 - [NBA Fred D. Gray Hall of Fame (Jul 31, 2025)](https://www.nba.com) — 2025 inductee
 - [ClickOnDetroit (Mar 2023)](https://www.clickondetroit.com) — retirement and judicial firsts coverage
 

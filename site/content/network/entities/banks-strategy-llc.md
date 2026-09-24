@@ -57,7 +57,7 @@ Brian Roderick Banks (9 convictions, claimed J.D. not confirmed by bar records)
 
 ## Verify
 
-- LARA: [cofs.lara.state.mi.us](https://cofs.lara.state.mi.us) — entity ID **802070120**
+- {{ source(key="lara_cofs", query="Entity 802070120") }}
 - Campaign finance: [transparencyusa.org](https://transparencyusa.org) — search "Yancey" + "Banks Strategy"
 
 ---

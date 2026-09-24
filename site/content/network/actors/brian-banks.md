@@ -78,14 +78,14 @@ Banks controls **9+ entities**, all registered to the same residential address i
 
 ## Verify
 
-- ICHAT: [apps.michigan.gov/ichat](https://apps.michigan.gov/ichat) — SID 2029469K
-- State Bar: [zeekbeek.com/SBM](https://zeekbeek.com/SBM) — search "Brian Banks" (zero results)
-- LARA: [cofs.lara.state.mi.us](https://cofs.lara.state.mi.us) — entity IDs: 803294855, 803295082, 802070120
+- {{ source(key="ichat", query="SID 2029469K") }}
+- State Bar: {{ source(key="state_bar") }} — search "Brian Banks" (zero results)
+- {{ source(key="lara_cofs", query="Entity 803294855, 803295082, 802070120") }}
 - PACER: BMF Case 2:05-cr-80955
 
 ## Independent Reporting
 
-- [Detroit Free Press: Back to Fool edition, starring Brian Banks](https://eu.freep.com/story/news/columnists/ml-elrick/2023/08/27/detroit-school-former-felon-as-principal/70669868007/) — M.L. Elrick's 2023 investigation into Banks' criminal history and school leadership
+- {{ source(key="freep", path="/story/news/columnists/ml-elrick/2023/08/27/detroit-school-former-felon-as-principal/70669868007/", label="Back to Fool edition, starring Brian Banks") }} — M.L. Elrick's 2023 investigation into Banks' criminal history and school leadership
 - [Clutch Justice: MacDowell Preparatory Academy — $15,217/student, 3% math proficiency](https://clutchjustice.com/2026/09/13/macdowell-preparatory-academy-academic-financial-record/) — Academic and financial analysis of Banks' school operations
 - [Purpose Charter Academy: Our Founder](https://www.purposecharteracademy.com/ourfounder) — Banks' own website claims "J.D., Michigan State University College of Law"
 - [MacDowell Prep: Meet our Superintendent](https://macdowellprep.com/meet-our-superintendent/) — Official school bio

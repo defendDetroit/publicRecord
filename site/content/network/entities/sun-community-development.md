@@ -56,7 +56,7 @@ See also: [Institutional Capture](/analysis/institutional-capture/) — how silo
 
 ## Verify
 
-- LARA: [cofs.lara.state.mi.us](https://cofs.lara.state.mi.us) — entity ID **803232314**
+- {{ source(key="lara_cofs", query="Entity 803232314") }}
 - LARA name search: "Brian Banks" — 9 entity results
 - Entity map: [Entity Profiles](/network/entities/)
 - Banks profile: [Brian Roderick Banks](/network/actors/brian-banks/) — ICHAT SID **2029469K**

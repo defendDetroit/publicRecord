@@ -57,13 +57,13 @@ State Bar of Michigan search for "Brian Banks": **zero results**.
 - School website: [macdowellprep.com](https://www.macdowellprep.com)
 - CMU charter authorization: [cmich.edu](https://www.cmich.edu)
 - Financial data: [mischooldata.org](https://www.mischooldata.org)
-- State Bar: [zeekbeek.com/SBM](https://zeekbeek.com/SBM) — search "Brian Banks" (zero results)
+- State Bar: {{ source(key="state_bar") }} — search "Brian Banks" (zero results)
 
 ## Independent Reporting
 
 - [Clutch Justice: MacDowell Preparatory Academy Spends $15,217 a Student. Three Percent Can Do Grade-Level Math.](https://clutchjustice.com/2026/09/13/macdowell-preparatory-academy-academic-financial-record/) — Comprehensive academic and financial analysis
-- [SchoolDigger: MacDowell Preparatory Academy](https://www.schooldigger.com/go/MI/schools/0103304769/school.aspx) — Ranked 1,443rd of 1,488 Michigan elementary schools (bottom 3%)
-- [U.S. News: MacDowell Preparatory Academy](https://www.usnews.com/education/k12/michigan/macdowell-preparatory-academy-203303) — 3% math proficiency, 12% reading proficiency
+- {{ source(key="school_digger", path="/go/MI/schools/0103304769/school.aspx", label="MacDowell Preparatory Academy") }} — Ranked 1,443rd of 1,488 Michigan elementary schools (bottom 3%)
+- {{ source(key="us_news", path="/michigan/macdowell-preparatory-academy-203303", label="MacDowell Preparatory Academy") }} — 3% math proficiency, 12% reading proficiency
 
 ---
 

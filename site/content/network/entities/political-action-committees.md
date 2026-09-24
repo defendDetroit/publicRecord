@@ -60,7 +60,7 @@ OFA Michigan (501c4) ──────── Holland (officer) ─── dark m
 
 ## Verify
 
-- Michigan campaign finance: [cfrs.michigan.gov](https://cfrs.michigan.gov)
+- Michigan campaign finance: {{ source(key="cfrs") }}
 - IRS EIN lookup: [apps.irs.gov/app/eos](https://apps.irs.gov/app/eos) — EIN **87-2342269**
 
 ---

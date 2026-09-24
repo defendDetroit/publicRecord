@@ -69,11 +69,11 @@ The following independent journalists and organizations have published on the sa
 | Source | Article | Date | Key Findings |
 |--------|---------|------|--------------|
 | **Clutch Justice** | [MacDowell Preparatory Academy Spends $15,217 a Student. Three Percent Can Do Grade-Level Math.](https://clutchjustice.com/2026/09/13/macdowell-preparatory-academy-academic-financial-record/) | Sep 13, 2026 | 3% math proficiency, statewide rank 1,443/1,488, three sitting judges in governance, $15K/student spending |
-| **Detroit Free Press** | [Back to Fool edition, starring Brian Banks](https://eu.freep.com/story/news/columnists/ml-elrick/2023/08/27/detroit-school-former-felon-as-principal/70669868007/) | Aug 27, 2023 | M.L. Elrick investigation: 8+ felony convictions, campaign finance violations, administrative law judge approved certificate |
-| **WXYZ Detroit** | [Wayne County judge's decision to dismiss infant murder case questioned](https://www.wxyz.com/news/local-news/investigations/wayne-county-judges-decision-to-dismiss-infant-murder-case-questioned) | 2024 | Prosecutor Kym Worthy alleged Judge Miller "displayed a bias throughout the trial" |
-| **SchoolDigger** | [MacDowell Preparatory Academy](https://www.schooldigger.com/go/MI/schools/0103304769/school.aspx) | Current | Bottom 3% statewide, 90.9% economically disadvantaged students |
-| **U.S. News** | [MacDowell Preparatory Academy](https://www.usnews.com/education/k12/michigan/macdowell-preparatory-academy-203303) | Current | 3% math, 12% reading proficiency |
-| **Ballotpedia** | [Cylenthia LaToye Miller](https://ballotpedia.org/Cylenthia_LaToye_Miller) | Current | On the ballot November 3, 2026 — Wayne County 3rd Circuit Court |
+| **Detroit Free Press** | {{ source(key="freep", path="/story/news/columnists/ml-elrick/2023/08/27/detroit-school-former-felon-as-principal/70669868007/", label="Back to Fool edition, starring Brian Banks") }} | Aug 27, 2023 | M.L. Elrick investigation: 8+ felony convictions, campaign finance violations, administrative law judge approved certificate |
+| **WXYZ Detroit** | {{ source(key="wxyz", path="/news/local-news/investigations/wayne-county-judges-decision-to-dismiss-infant-murder-case-questioned", label="Wayne County judge's decision to dismiss infant murder case questioned") }} | 2024 | Prosecutor Kym Worthy alleged Judge Miller "displayed a bias throughout the trial" |
+| **SchoolDigger** | {{ source(key="school_digger", path="/go/MI/schools/0103304769/school.aspx", label="MacDowell Preparatory Academy") }} | Current | Bottom 3% statewide, 90.9% economically disadvantaged students |
+| **U.S. News** | {{ source(key="us_news", path="/michigan/macdowell-preparatory-academy-203303", label="MacDowell Preparatory Academy") }} | Current | 3% math, 12% reading proficiency |
+| **Ballotpedia** | {{ source(key="ballotpedia", path="/Cylenthia_LaToye_Miller", label="Cylenthia LaToye Miller") }} | Current | On the ballot November 3, 2026 — Wayne County 3rd Circuit Court |
 
 *These are independent sources not affiliated with this investigation. Their findings corroborate the public-record evidence documented here.*
 
