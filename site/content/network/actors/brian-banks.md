@@ -108,10 +108,18 @@ Banks controls **9+ entities**, all registered to the same residential address i
 
 ## Independent Reporting
 
-- {{ source(key="freep", path="/story/news/columnists/ml-elrick/2023/08/27/detroit-school-former-felon-as-principal/70669868007/", label="Back to Fool edition, starring Brian Banks") }} — M.L. Elrick's 2023 investigation into Banks' criminal history and school leadership
-- [Clutch Justice: MacDowell Preparatory Academy — $15,217/student, 3% math proficiency](https://clutchjustice.com/2026/09/13/macdowell-preparatory-academy-academic-financial-record/) — Academic and financial analysis of Banks' school operations
-- [Purpose Charter Academy: Our Founder](https://www.purposecharteracademy.com/ourfounder) — Banks' own website claims "J.D., Michigan State University College of Law"
-- [MacDowell Prep: Meet our Superintendent](https://macdowellprep.com/meet-our-superintendent/) — Official school bio
+### Primary Analytical Reference — Clutch Justice / Rita Williams
+- {{ source(key="clutch_justice", path="/2026/09/13/macdowell-preparatory-academy-academic-financial-record/", label="MacDowell: $15,217/student, 3% math proficiency") }} — Comprehensive academic + financial analysis: extraction model, board composition, DPSCD authorization (Sep 2026)
+- {{ source(key="clutch_justice", path="/2026/07/14/judge-cylenthia-miller-owi-judicial-favoritism/", label="The Proper Move Was Not to Get Involved") }} — Connects Miller's boundary violations to the Banks network pattern (Jul 2026)
+- {{ source(key="clutch_justice", path="/2026/09/23/foia-michigan-school-board-records-guide/", label="FOIA and Your Michigan School Board") }} — Legal guide for parents to request charter school records (Sep 2026)
+
+### Secondary News Sources
+- {{ source(key="freep", path="/story/news/columnists/ml-elrick/2023/08/27/detroit-school-former-felon-as-principal/70669868007/", label="Back to Fool edition, starring Brian Banks") }} — M.L. Elrick investigation into Banks' criminal history and school leadership (Aug 2023)
+
+### Banks' Own Claims (self-incriminating source data)
+- [Purpose Charter Academy: Our Founder](https://www.purposecharteracademy.com/ourfounder) — Claims "J.D., Michigan State University College of Law"
+- [MacDowell Prep: Meet our Superintendent](https://macdowellprep.com/meet-our-superintendent/) — Claims "Juris Doctorate with a Concentration in Criminal Law"
+- [PCA Board of Directors](https://www.purposecharteracademy.com/boardofdirectors) — Lists Judge Miller (Chair), AG Moreland (Vice Chair), Council Member Johnson (Secretary)
 
 ---
 

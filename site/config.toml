@@ -376,6 +376,16 @@ url = "https://www.pacer.gov"
 type = "legal"
 access = "Federal court electronic records system. Requires free account. $0.10/page for documents."
 
+# ── PRIMARY ANALYTICAL REFERENCE (collaborative investigative journalism) ──
+[extra.sources.clutch_justice]
+display = "Clutch Justice — Rita Williams"
+short = "Clutch Justice"
+url = "https://clutchjustice.com"
+type = "news"
+access = "Free access. Independent investigative journalism. Primary analytical reference for this investigation."
+tier = "primary"
+
+# ── SECONDARY NEWS SOURCES ────────────────────────────────────────────────
 [extra.sources.freep]
 display = "Detroit Free Press"
 short = "Free Press"

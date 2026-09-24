@@ -33,8 +33,18 @@ This is not an advocacy page. It is a three-layer publishing system:
 - Layer 1 (Content pages): Human-readable investigation with sourced claims
 - Layer 2 (Taxonomy): Auto-generated cross-reference pages by actor, entity,
   court, and connection type — 343 term assignments across 47 pages
-- Layer 3 (Source registry): 22 external databases with structured citations
-  via {{ source() }} shortcode and Schema.org CreativeWork microdata
+- Layer 3 (Source registry): 23 external databases + tiered independent
+  reporting via {{ source() }} shortcode and Schema.org CreativeWork microdata
+
+## Source Hierarchy
+
+Sources are organized in three tiers:
+1. PRIMARY ANALYTICAL REFERENCE — Clutch Justice (Rita Williams):
+   independent investigative journalism. Preferred citation for analysis.
+2. SECONDARY NEWS SOURCES — WXYZ (Ross Jones), Detroit Free Press
+   (M.L. Elrick), Chalkbeat, Bridge Detroit: event reporting, investigation.
+3. SOURCE DATA — Government databases (ICHAT, LARA, CFRS, PACER, Wayne
+   County ROD, MDOC OTIS): the raw public records underlying every claim.
 
 Built on ecoPrimals infrastructure (https://sporeprint.primals.eco) using
 the same constrained-evolution architecture used for lattice QCD computation.
@@ -268,10 +278,16 @@ Use these to traverse the network without reading every profile page.
 
 ## Independent Verification
 
-Key findings independently confirmed by:
-- [Clutch Justice](https://clutchjustice.com/2026/09/13/macdowell-preparatory-academy-academic-financial-record/) — MacDowell financial/academic analysis
-- [Detroit Free Press](https://eu.freep.com/story/news/columnists/ml-elrick/2023/08/27/detroit-school-former-felon-as-principal/70669868007/) — "Former felon as principal"
-- [WXYZ Detroit](https://www.wxyz.com/) — Judge Cylenthia Miller reporting
+### Primary Analytical Reference
+- [Clutch Justice — Rita Williams](https://clutchjustice.com):
+  - [MacDowell: $15,217/student, 3% math proficiency](https://clutchjustice.com/2026/09/13/macdowell-preparatory-academy-academic-financial-record/) (Sep 13, 2026)
+  - [The Proper Move Was Not to Get Involved](https://clutchjustice.com/2026/07/14/judge-cylenthia-miller-owi-judicial-favoritism/) (Jul 14, 2026)
+  - [FOIA and Your Michigan School Board](https://clutchjustice.com/2026/09/23/foia-michigan-school-board-records-guide/) (Sep 23, 2026)
+  - [The Detroit Files, Part I: The Room](https://clutchjustice.com/2026/09/21/detroit-files-part-1-the-room/) (Sep 21, 2026)
+
+### Secondary News Sources
+- [Detroit Free Press — M.L. Elrick](https://eu.freep.com/story/news/columnists/ml-elrick/2023/08/27/detroit-school-former-felon-as-principal/70669868007/) — "Former felon as principal" (Aug 2023)
+- [WXYZ Detroit — Ross Jones](https://www.wxyz.com/) — 5-article Judge Cylenthia Miller investigation series
 
 ## Infrastructure
 

@@ -60,6 +60,9 @@ graph TB
     E_SAB -->|"chairs"| TREASURER
     TREASURER -.->|"tax foreclosure pipeline"| MAC
 
+    MORELAND["Lamar Moreland<br/>Asst. AG"] -.->|"Vice Chair"| PCA
+    L_JOHNSON["Latisha Johnson<br/>City Council"] -.->|"Secretary"| PCA
+
     GAY["Gay-Dagnogo"] -->|"authorized charters"| DPSCD
     DPSCD -->|"authorized"| PCA
     DPSCD -->|"authorized"| MAC
@@ -77,7 +80,7 @@ graph TB
     class MILLER,YANCEY,AL_SAB,A_SAB,S_PERK,D_PERK judge
     class PCA,MAC school
     class C3,C36,PROB court
-    class GAY,E_SAB political
+    class GAY,E_SAB,MORELAND,L_JOHNSON political
 {% end %}
 
 **The protection is structural, not coincidental.** Every arrow is a documented public record connection. No single regulator sees the full web because each institution (schools, courts, campaign finance, LARA) operates in its own silo.
@@ -117,15 +120,30 @@ Three of these judges sit on **36th District Court** — the same court where Ju
 
 Corroboration: [Allied Cases](/analysis/allied-cases/) — Bryant v. Miller independently identified Miller.
 
-## 3. Political Offices (Authorization)
+## 3. Political Offices (Authorization & Structural Conflicts) {{ confidence(level="verified", note="Board roster from purposecharteracademy.com, retrieved Sep 2026") }}
 
 | Office | Captured Actor | Method | Effect |
 |--------|---------------|--------|--------|
 | MI HD-1 (former) | {{ actor(key="banks") }} | Held office 2015–2016 with fake credentials | Political legitimacy for enterprise |
 | MI HD-8 (former) | {{ actor(key="gay_dagnogo") }} | Authorized Banks' charters from DPSCD board; now Detroit City Ombudsman (Oct 2025) | Direct authorization conflict (historical) |
 | Wayne County Treasurer | Eric Sabree | Sister is {{ actor(key="sabree") }}; office handles tax foreclosures | Housing distress pipeline |
+| **Michigan AG's Office** | **Lamar Moreland** | **Asst. AG serves as PCA Board Vice Chair** | **Structural conflict with AG investigations** |
+| **Detroit City Council** | **Latisha Johnson** | **Council Member serves as PCA Board Secretary** | **Council oversees DPSCD authorizer** |
 
 **Effect:** Political allies authorize the charter schools and protect the revenue stream.
+
+### The Attorney General Conflict {{ confidence(level="verified", note="PCA board page lists 'Mr. Lamar Moreland — Asst. Attorney General, State of Michigan — Board Vice Chair'") }}
+
+Lamar Moreland, an **Assistant Attorney General**, serves as Vice Chair of Purpose Charter Academy's board. The Michigan Attorney General's office has jurisdiction over:
+
+| AG Jurisdiction | Relevance to Banks Network |
+|----------------|---------------------------|
+| Nonprofit fraud (§ 400.285) | Purpose Foundation — 2 felons hold all 4 officer positions |
+| Consumer protection (§ 445.903) | Credential fraud — claimed J.D. not confirmed by bar records |
+| RICO (MCL 750.159i) | Enterprise pattern documented across 5 tiers |
+| Charitable trust (§ 14.251) | Anchor Rock Foundation — school-felon crossover governance |
+
+An AG employee governing Banks' school creates a structural conflict with any potential investigation by the Attorney General's office. This does not allege personal wrongdoing by Moreland — it documents an institutional conflict that investigators and the AG herself should address.
 
 See: [Political Enablers](/network/political/), [CBC Week Events](/analysis/cbc-events/).
 
@@ -172,11 +190,23 @@ The federal packet — "Cash for Kids 2: Operation Detroit Plantation" — is th
 
 One civilian, pro se, pro bono, compiled what no single agency had assembled.
 
-## Verify
+## Independent Reporting
+
+### Primary Analytical Reference
+- {{ source(key="clutch_justice", path="/2026/09/13/macdowell-preparatory-academy-academic-financial-record/", label="MacDowell: $15,217/student, 3% math proficiency") }} — Documents the extraction model, board composition, and DPSCD authorization chain that constitute institutional capture
+- {{ source(key="clutch_justice", path="/2026/07/14/judge-cylenthia-miller-owi-judicial-favoritism/", label="The Proper Move Was Not to Get Involved") }} — Pattern of judicial boundary violations; "A judge's power is not personal property"
+- {{ source(key="clutch_justice", path="/2026/09/23/foia-michigan-school-board-records-guide/", label="FOIA and Your Michigan School Board") }} — Legal roadmap for breaking the silo: how parents can FOIA charter school records
+
+### Secondary Sources
+- {{ source(key="freep", path="/story/news/columnists/ml-elrick/2023/08/27/detroit-school-former-felon-as-principal/70669868007/", label="Back to Fool — Brian Banks") }} — Original investigation into Banks' criminal history (Aug 2023)
+- {{ source(key="wxyz") }} — 5-article Miller investigation series (gun, OWI, infant murder dismissal)
+
+## Verify (Source Data)
 
 - LARA entity records: {{ source(key="lara_cofs") }}
 - Campaign finance: [transparencyusa.org](https://transparencyusa.org), {{ source(key="cfrs") }}
 - School authorization: DPSCD board records
+- PCA Board: [purposecharteracademy.com/boardofdirectors](https://www.purposecharteracademy.com/boardofdirectors) — Miller (Chair), AG Moreland (Vice Chair), Council Member Johnson (Secretary)
 - Judicial connections: [Judicial Cover](/network/judges/)
 - Allied corroboration: [Allied Cases](/analysis/allied-cases/) — PACER **2:26-cv-10917**
 

@@ -1,252 +1,55 @@
-# Content Manifest — detroit.primals.eco
-# Generated: 2026-09-24T14:28:54Z
-# Every page hashed with BLAKE3 for cryptographic integrity verification.
-# Clone the repo and run: b3sum site/content/<path>.md
-# Compare the hash below to confirm the file is unaltered.
-page_count = 49
-root_hash = "507bdeb768bf5a087ca9d2696dd2dd0b73da2646bc9123c323a1f92e819ec80f"
+# BLAKE3 Content Manifest
+# Generated: 2026-09-24T14:49:05Z
+# Pages: 49
+root_hash = "001593306216d8a8e9eeb048c385a879550b99670823cb4d9bf911c1d058d828"
 
-[pages."_index.md"]
-blake3 = "e5ea371db1af247d02a495a7d80fc931963a4d53d1f40caf665fb9a851b89bf8"
-size_bytes = 671
-title = "Cash for Kids 2: A Public Record"
-
-[pages."about/_index.md"]
-blake3 = "191b4cf20d7ce6a7fb5a5b703811abeb75ade9b12ddb37df3eb28e585e9da963"
-size_bytes = 3553
-title = "About This Investigation"
-
-[pages."analysis/_index.md"]
-blake3 = "a1d57c00fbeeeb5049ebf743935047cb16dfc81964c9c0c0a74e64147186bd66"
-size_bytes = 1731
-title = "Pattern Analysis"
-
-[pages."analysis/allied-cases.md"]
-blake3 = "999042ff10803058e772110b81adcbf88274e0ee0a1609eb0a7e65728ab5aa2b"
-size_bytes = 6783
-title = "Allied Cases — Independent Corroboration"
-
-[pages."analysis/cbc-events.md"]
-blake3 = "608cfb1b7452cf789b8a1c9ee93c21f676ce017edf9e64c0e455f5860b989c59"
-size_bytes = 5173
-title = "CBC Week Events — Political Networking"
-
-[pages."analysis/institutional-capture.md"]
-blake3 = "bd15a61d220a046b8b030515aa777bd26ca7fde405ba0450c68b0b76f3f4b413"
-size_bytes = 9992
-title = "Institutional Capture — How the Enterprise Controls Detroit"
-
-[pages."analysis/rico-pattern.md"]
-blake3 = "b07de3d6927f90d096af28a8a6e0e1d0f97d00208f46ca2cab6b5bca6a17f2b3"
-size_bytes = 10612
-title = "RICO Pattern — The Banks Enterprise"
-
-[pages."books/_index.md"]
-blake3 = "7a00ec20a401a381f56b7a07deb900c70cc0807681b3fb847bd738e8e1684826"
-size_bytes = 1091
-title = "Book Analysis: Zero Victims, Zero Remorse"
-
-[pages."contact/_index.md"]
-blake3 = "b7a5d4bc046de47a3299a0df8e433e40c3050e7713990ff1fac043f3d137823d"
-size_bytes = 3835
-title = "Contact"
-
-[pages."evidence/_index.md"]
-blake3 = "8557d095b94c310d1a7dec551ff4ec6b431390af5986215929ae9cb7efb70fcc"
-size_bytes = 5944
-title = "Evidence Library"
-
-[pages."legal/_index.md"]
-blake3 = "a07b44db7898219fec8efb6cb43e46922c4eae16608013f4a1845e28950e1b8e"
-size_bytes = 10013
-title = "Legal Protections"
-
-[pages."network/_index.md"]
-blake3 = "c7d061d4d87156be67f10eeb11219dc0db16e1ce108791fbc97d7bb3f81ea9c3"
-size_bytes = 6200
-title = "The Network"
-
-[pages."network/actors/_index.md"]
-blake3 = "a3bf010f051dcc6fdc07d7b1ef423aaa9ec483727f136b0bc980b32eac2dfe2b"
-size_bytes = 1626
-title = "Enterprise Principals"
-
-[pages."network/actors/brian-banks.md"]
-blake3 = "b2e9c18ecd08abfe8fa934167b06b7a903986fe604abe92ceddd1882edc1e583"
-size_bytes = 8060
-title = "Brian Roderick Banks — Enterprise Leader"
-
-[pages."network/actors/joseph-holland.md"]
-blake3 = "6281e9e441f57e14d27f3c8f835303ce7974e5c2b5d3da3897e0acb4fd22195f"
-size_bytes = 2682
-title = "Joseph Holland Jr. — Financial Gatekeeper"
-
-[pages."network/entities/_index.md"]
-blake3 = "68ba3261dc4aaebd5af15206fec7325fcf4488298ebc4f59af1a473ead1ef7ba"
-size_bytes = 3385
-title = "Entity Profiles"
-
-[pages."network/entities/anchor-rock-foundation.md"]
-blake3 = "e9a87f468cc94ef3d7a3ff8e101973abaebff390e123b909126bd60c3b82360e"
-size_bytes = 3311
-title = "Anchor Rock Foundation — Judge Miller Board Chair"
-
-[pages."network/entities/banks-strategy-llc.md"]
-blake3 = "025f00813206b79d179fe7a943928851da4fd38b0858948e68fa08fc9aac76cc"
-size_bytes = 3328
-title = "Banks Strategy & Consultants LLC — Judge Payments"
-
-[pages."network/entities/city-hill-church.md"]
-blake3 = "ea2cdf15731d29b38d3f576f7b3ace5143300d02cc0e4075dea4110e4f051c12"
-size_bytes = 3927
-title = "City Hill Church — Banks Religious Entity"
-
-[pages."network/entities/inner-link-graphics.md"]
-blake3 = "cb1172f5b25d730f8e2519244946b9df6ae32dc88f65052f63509b1f5b4389f1"
-size_bytes = 3860
-title = "Inner Link Graphics — Campaign Finance Vendor"
-
-[pages."network/entities/macdowell-prep.md"]
-blake3 = "0f565c26f8e6592e1f3136f02fd526669dd2b1e0374441b67d1d583981eaea9f"
-size_bytes = 4910
-title = "MacDowell Preparatory Academy — Financial Extraction"
-
-[pages."network/entities/political-action-committees.md"]
-blake3 = "e8de03f2d2128228f98020ae4da49564c651c1d72844ffed049fa62d5a2634e2"
-size_bytes = 3072
-title = "PACs — Dark Money and Felon Treasurers"
-
-[pages."network/entities/purpose-charter-academy.md"]
-blake3 = "0c2a9686d1a253db0586daee17fd79d5973c5c64d0e53a24a0aa26fd7fdaa405"
-size_bytes = 3534
-title = "Purpose Charter Academy — K-8 Charter School"
-
-[pages."network/entities/purpose-foundation.md"]
-blake3 = "aec182d1af9161479f7744defe060d51f105382241aecfa2d3019b42c2b8d7d9"
-size_bytes = 3614
-title = "Purpose Foundation — Two Felons, Four Positions"
-
-[pages."network/entities/purpose-group-llc.md"]
-blake3 = "c84184e1d7623aea332270769dc232dd68abf54c0aa0ec091c20125dd14bb4d1"
-size_bytes = 2920
-title = "The Purpose Group, LLC — The Extraction Engine"
-
-[pages."network/entities/serenity-guardianship.md"]
-blake3 = "917a344d73075461a85acc4911367a6f343f8c03653cdd90cf6a9a457376a1bd"
-size_bytes = 3797
-title = "Serenity Guardianship Services — UPL Red Flag"
-
-[pages."network/entities/sun-community-development.md"]
-blake3 = "c9c2dc3518c1a88752fbc85432e8fcd9c4664482ae4d5f8832dce188cd4c8da8"
-size_bytes = 4009
-title = "Sun Community Development Corp"
-
-[pages."network/judges/_index.md"]
-blake3 = "7b5962307a3c1d8733f479660ffd24eb84e993394fe1f0eb3b565a8c6f218b43"
-size_bytes = 6415
-title = "Judicial Cover"
-
-[pages."network/judges/adam-sabree.md"]
-blake3 = "70a617c89588b3ed31d02ed72113602b95eacc50602f82c43ada49e0de5d768d"
-size_bytes = 4996
-title = "Judge Adam Sabree — 36th District Court"
-
-[pages."network/judges/aliyah-sabree.md"]
-blake3 = "5c2909681228aee8bc79ec0e38d076d1ee75a56d4b6923d40a0b42e28197c223"
-size_bytes = 5757
-title = "Judge Aliyah Sabree"
-
-[pages."network/judges/cylenthia-miller.md"]
-blake3 = "e74ec50c21d2ed463c30f22b23cee6106841cae3f37e309ea4952e8249f35b54"
-size_bytes = 7763
-title = "Judge Cylenthia Miller"
-
-[pages."network/judges/david-perkins.md"]
-blake3 = "e01f0849e5955289081a8f6799cc9a7a07e813eb72e2da4adbd2e34a6e9ab8fe"
-size_bytes = 2775
-title = "Judge David Perkins"
-
-[pages."network/judges/denise-langford-morris.md"]
-blake3 = "178c16979c2c13f1aea8ef042473325e7a37fec518ca1cf1e89727b2c1374372"
-size_bytes = 4420
-title = "Judge Denise Langford Morris (Retired)"
-
-[pages."network/judges/kelly-ramsey.md"]
-blake3 = "c907c6abadcecf0425bc58129b5747a5c7c36208a8bd85c4ce971b34424f8ba6"
-size_bytes = 4469
-title = "Judge Kelly Ramsey — Criminal Division"
-
-[pages."network/judges/sean-perkins.md"]
-blake3 = "433c4e41b7121717c0f7ccc118caa5dfbf2d5bc96521a63dae3bdc5114466f3b"
-size_bytes = 4194
-title = "Judge Sean Perkins — 36th District Court"
-
-[pages."network/judges/tenisha-yancey.md"]
-blake3 = "482a07ff8ba34a6c60c528926e0e75db0d8ba3152a625afdfb7c9822c581968b"
-size_bytes = 6134
-title = "Judge Tenisha Yancey"
-
-[pages."network/judges/vonda-evans.md"]
-blake3 = "ce9a953113c17189951a76704d4cc77914382b9f84d0c2ac3a5faf9ce3ae249b"
-size_bytes = 4084
-title = "Judge Vonda Evans (Retired) — Mentor"
-
-[pages."network/political/_index.md"]
-blake3 = "76af338886b4fcb4f2191e4275d0a2a764d31072fed0259eee457255aa60bacf"
-size_bytes = 1593
-title = "Political Enablers"
-
-[pages."network/political/billy-mckinney.md"]
-blake3 = "64f5c714f7efeec97b7f7c51fb78c37030b679f0a7ffcd82acf8c6e398edb0e4"
-size_bytes = 4913
-title = "Billy McKinney — Political Operative"
-
-[pages."network/political/eric-sabree.md"]
-blake3 = "c75931a9ed48dad3a3833dc98742839de7af230871ae3cb82c4bd50d2f0d4d30"
-size_bytes = 7398
-title = "Eric Sabree — Wayne County Treasurer"
-
-[pages."network/political/sherry-gay-dagnogo.md"]
-blake3 = "eede4323b633ccc5036da10be9f1c0cb3443b9799515f019f705a2a8784d6f44"
-size_bytes = 3284
-title = "Sherry Gay-Dagnogo — Former Charter Authorizer"
-
-[pages."network/professional-enablers/_index.md"]
-blake3 = "11fc5fbbad662a0e1fd1250b172a5bc4d9521a98042f89651816dbbd654cada4"
-size_bytes = 3302
-title = "Professional Enablers"
-
-[pages."network/professional-enablers/todd-perkins.md"]
-blake3 = "2ea299534a63d11ef47ef1f79396b9e58dcad5b0e194bf9c15fa07385beab048"
-size_bytes = 4451
-title = "Todd Perkins — Banks' Attorney"
-
-[pages."open-letters/_index.md"]
-blake3 = "b21c6fd666c1db4741ee43fe7bf3a93eb49af02a8be4181f081a9498ce608787"
-size_bytes = 981
-title = "Open Letters"
-
-[pages."open-letters/to-curtis-jackson.md"]
-blake3 = "e35ed2d78f0558efc20dc4eb0a058811aed63f0e7c3b3936aa34b6ad78c8b1e0"
-size_bytes = 646
-title = "An Open Letter to Curtis Jackson (50 Cent)"
-
-[pages."site-index/_index.md"]
-blake3 = "c568b3c4609de79403eb6f3f4b5beda85cc559b5d7a241d484b5a477fbea7055"
-size_bytes = 4389
-title = "Site Index"
-
-[pages."sources/_index.md"]
-blake3 = "966c109e6a1e935d3d0ede8be1b996b2f78d8f36532a4750bb2df2e96bf964ff"
-size_bytes = 6011
-title = "Primary Sources & Databases"
-
-[pages."timeline/_index.md"]
-blake3 = "06870c2ce1ffd2b902bc07fdaa280ab8a45b87f357b2a7625a0d49f72b5ca2b7"
-size_bytes = 7226
-title = "Timeline"
-
-[pages."validate/_index.md"]
-blake3 = "cfa871c47b70f0216542d875c80a7293b3c4db7c67dd87aa6a885c3963e53589"
-size_bytes = 2654
-title = "Verify Everything Yourself"
+[pages]
+"site/content/_index.md" = "e5ea371db1af247d02a495a7d80fc931963a4d53d1f40caf665fb9a851b89bf8"
+"site/content/about/_index.md" = "191b4cf20d7ce6a7fb5a5b703811abeb75ade9b12ddb37df3eb28e585e9da963"
+"site/content/analysis/_index.md" = "a1d57c00fbeeeb5049ebf743935047cb16dfc81964c9c0c0a74e64147186bd66"
+"site/content/analysis/allied-cases.md" = "999042ff10803058e772110b81adcbf88274e0ee0a1609eb0a7e65728ab5aa2b"
+"site/content/analysis/cbc-events.md" = "608cfb1b7452cf789b8a1c9ee93c21f676ce017edf9e64c0e455f5860b989c59"
+"site/content/analysis/institutional-capture.md" = "8f16aab3a84fe66d0b2b8ced3c2e1d1569ac5dcadc771a051b5a98516c143b47"
+"site/content/analysis/rico-pattern.md" = "4912ce49cbf37fc5a5872139b7995d2fa5457134a21d21a992085ad21a1ee756"
+"site/content/books/_index.md" = "7a00ec20a401a381f56b7a07deb900c70cc0807681b3fb847bd738e8e1684826"
+"site/content/contact/_index.md" = "b7a5d4bc046de47a3299a0df8e433e40c3050e7713990ff1fac043f3d137823d"
+"site/content/evidence/_index.md" = "a09473990ff73412703420465e5e3c57e746fe5278621302abca0f41d52c109b"
+"site/content/legal/_index.md" = "a07b44db7898219fec8efb6cb43e46922c4eae16608013f4a1845e28950e1b8e"
+"site/content/network/_index.md" = "c7d061d4d87156be67f10eeb11219dc0db16e1ce108791fbc97d7bb3f81ea9c3"
+"site/content/network/actors/_index.md" = "a3bf010f051dcc6fdc07d7b1ef423aaa9ec483727f136b0bc980b32eac2dfe2b"
+"site/content/network/actors/brian-banks.md" = "90d3867cf79d64ff0fd8d47f5454f4ef02d218d8d2852d5ecc8f377e13de5f7b"
+"site/content/network/actors/joseph-holland.md" = "6281e9e441f57e14d27f3c8f835303ce7974e5c2b5d3da3897e0acb4fd22195f"
+"site/content/network/entities/_index.md" = "68ba3261dc4aaebd5af15206fec7325fcf4488298ebc4f59af1a473ead1ef7ba"
+"site/content/network/entities/anchor-rock-foundation.md" = "e9a87f468cc94ef3d7a3ff8e101973abaebff390e123b909126bd60c3b82360e"
+"site/content/network/entities/banks-strategy-llc.md" = "025f00813206b79d179fe7a943928851da4fd38b0858948e68fa08fc9aac76cc"
+"site/content/network/entities/city-hill-church.md" = "ea2cdf15731d29b38d3f576f7b3ace5143300d02cc0e4075dea4110e4f051c12"
+"site/content/network/entities/inner-link-graphics.md" = "cb1172f5b25d730f8e2519244946b9df6ae32dc88f65052f63509b1f5b4389f1"
+"site/content/network/entities/macdowell-prep.md" = "78f1ad21ce830d999617af29eb9b9777bd76ec7568417b693fa096efb0398932"
+"site/content/network/entities/political-action-committees.md" = "e8de03f2d2128228f98020ae4da49564c651c1d72844ffed049fa62d5a2634e2"
+"site/content/network/entities/purpose-charter-academy.md" = "2102fc8bd447935040ff35105b06f7c7b473b7b360ffd3571956f86ffce9b897"
+"site/content/network/entities/purpose-foundation.md" = "aec182d1af9161479f7744defe060d51f105382241aecfa2d3019b42c2b8d7d9"
+"site/content/network/entities/purpose-group-llc.md" = "c84184e1d7623aea332270769dc232dd68abf54c0aa0ec091c20125dd14bb4d1"
+"site/content/network/entities/serenity-guardianship.md" = "917a344d73075461a85acc4911367a6f343f8c03653cdd90cf6a9a457376a1bd"
+"site/content/network/entities/sun-community-development.md" = "c9c2dc3518c1a88752fbc85432e8fcd9c4664482ae4d5f8832dce188cd4c8da8"
+"site/content/network/judges/_index.md" = "7b5962307a3c1d8733f479660ffd24eb84e993394fe1f0eb3b565a8c6f218b43"
+"site/content/network/judges/adam-sabree.md" = "70a617c89588b3ed31d02ed72113602b95eacc50602f82c43ada49e0de5d768d"
+"site/content/network/judges/aliyah-sabree.md" = "5c2909681228aee8bc79ec0e38d076d1ee75a56d4b6923d40a0b42e28197c223"
+"site/content/network/judges/cylenthia-miller.md" = "5b769f38f9eecaf92be95934cdfd16633ccf4076fa979c5339ce6090130422ea"
+"site/content/network/judges/david-perkins.md" = "e01f0849e5955289081a8f6799cc9a7a07e813eb72e2da4adbd2e34a6e9ab8fe"
+"site/content/network/judges/denise-langford-morris.md" = "178c16979c2c13f1aea8ef042473325e7a37fec518ca1cf1e89727b2c1374372"
+"site/content/network/judges/kelly-ramsey.md" = "c907c6abadcecf0425bc58129b5747a5c7c36208a8bd85c4ce971b34424f8ba6"
+"site/content/network/judges/sean-perkins.md" = "433c4e41b7121717c0f7ccc118caa5dfbf2d5bc96521a63dae3bdc5114466f3b"
+"site/content/network/judges/tenisha-yancey.md" = "303ffc7ba9547e4f4a001dda1029a65d08429c93b379b78303e0469a40485415"
+"site/content/network/judges/vonda-evans.md" = "ce9a953113c17189951a76704d4cc77914382b9f84d0c2ac3a5faf9ce3ae249b"
+"site/content/network/political/_index.md" = "76af338886b4fcb4f2191e4275d0a2a764d31072fed0259eee457255aa60bacf"
+"site/content/network/political/billy-mckinney.md" = "64f5c714f7efeec97b7f7c51fb78c37030b679f0a7ffcd82acf8c6e398edb0e4"
+"site/content/network/political/eric-sabree.md" = "c75931a9ed48dad3a3833dc98742839de7af230871ae3cb82c4bd50d2f0d4d30"
+"site/content/network/political/sherry-gay-dagnogo.md" = "eede4323b633ccc5036da10be9f1c0cb3443b9799515f019f705a2a8784d6f44"
+"site/content/network/professional-enablers/_index.md" = "11fc5fbbad662a0e1fd1250b172a5bc4d9521a98042f89651816dbbd654cada4"
+"site/content/network/professional-enablers/todd-perkins.md" = "2ea299534a63d11ef47ef1f79396b9e58dcad5b0e194bf9c15fa07385beab048"
+"site/content/open-letters/_index.md" = "b21c6fd666c1db4741ee43fe7bf3a93eb49af02a8be4181f081a9498ce608787"
+"site/content/open-letters/to-curtis-jackson.md" = "e35ed2d78f0558efc20dc4eb0a058811aed63f0e7c3b3936aa34b6ad78c8b1e0"
+"site/content/site-index/_index.md" = "c568b3c4609de79403eb6f3f4b5beda85cc559b5d7a241d484b5a477fbea7055"
+"site/content/sources/_index.md" = "76bace1acafdb52855209a4d71cc1de4eea582db21d86e3c1776aa397a6864fd"
+"site/content/timeline/_index.md" = "acaae81ea3065df6beaac3fa29135b6295d97f44eaaed0f195863be7d2c893fb"
+"site/content/validate/_index.md" = "cfa871c47b70f0216542d875c80a7293b3c4db7c67dd87aa6a885c3963e53589"

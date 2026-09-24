@@ -48,7 +48,7 @@ Four Wayne County judges have documented connections to the Banks network:
 
 | Document | Description |
 |----------|-------------|
-| MacDowell budget | $4.9M revenue, 72.67% to Purpose Group, 3% math proficiency ([independently confirmed](https://clutchjustice.com/2026/09/13/macdowell-preparatory-academy-academic-financial-record/)) |
+| MacDowell budget | $4.9M revenue, 72.67% to Purpose Group, 3% math proficiency ({{ source(key="clutch_justice", path="/2026/09/13/macdowell-preparatory-academy-academic-financial-record/", label="independently confirmed") }}) |
 | Purpose Group LLC | LARA 803295082, organized by Perlmuter with liability shields |
 | Purpose Foundation | LARA 803294855, two felons in all four officer positions |
 | PAC filings | $14,500+ in fines, felon as treasurer |
@@ -66,9 +66,19 @@ Four Wayne County judges have documented connections to the Banks network:
 
 The following independent journalists and organizations have published on the same entities:
 
+### Primary Analytical Reference — Clutch Justice / Rita Williams
+
+| Article | Date | Key Findings |
+|---------|------|--------------|
+| {{ source(key="clutch_justice", path="/2026/09/13/macdowell-preparatory-academy-academic-financial-record/", label="MacDowell: $15,217/student, 3% math proficiency") }} | Sep 13, 2026 | 3% math proficiency, statewide rank 1,443/1,488, three sitting judges in governance, $15K/student spending |
+| {{ source(key="clutch_justice", path="/2026/07/14/judge-cylenthia-miller-owi-judicial-favoritism/", label="The Proper Move Was Not to Get Involved") }} | Jul 14, 2026 | Miller OWI appearance, boundary violation pattern, judicial ethics analysis |
+| {{ source(key="clutch_justice", path="/2026/09/23/foia-michigan-school-board-records-guide/", label="FOIA and Your Michigan School Board") }} | Sep 23, 2026 | Legal roadmap: how parents can FOIA charter school records under MCL 15.231 |
+| {{ source(key="clutch_justice", path="/2026/09/21/detroit-files-part-1-the-room/", label="The Detroit Files, Part I: The Room") }} | Sep 21, 2026 | Detroit evidentiary failures — broader systemic context |
+
+### Secondary News Sources
+
 | Source | Article | Date | Key Findings |
 |--------|---------|------|--------------|
-| **Clutch Justice** | [MacDowell Preparatory Academy Spends $15,217 a Student. Three Percent Can Do Grade-Level Math.](https://clutchjustice.com/2026/09/13/macdowell-preparatory-academy-academic-financial-record/) | Sep 13, 2026 | 3% math proficiency, statewide rank 1,443/1,488, three sitting judges in governance, $15K/student spending |
 | **Detroit Free Press** | {{ source(key="freep", path="/story/news/columnists/ml-elrick/2023/08/27/detroit-school-former-felon-as-principal/70669868007/", label="Back to Fool edition, starring Brian Banks") }} | Aug 27, 2023 | M.L. Elrick investigation: 8+ felony convictions, campaign finance violations, administrative law judge approved certificate |
 | **WXYZ Detroit** | {{ source(key="wxyz", path="/news/local-news/investigations/wayne-county-judges-decision-to-dismiss-infant-murder-case-questioned", label="Wayne County judge's decision to dismiss infant murder case questioned") }} | 2024 | Prosecutor Kym Worthy alleged Judge Miller "displayed a bias throughout the trial" |
 | **SchoolDigger** | {{ source(key="school_digger", path="/go/MI/schools/0103304769/school.aspx", label="MacDowell Preparatory Academy") }} | Current | Bottom 3% statewide, 90.9% economically disadvantaged students |

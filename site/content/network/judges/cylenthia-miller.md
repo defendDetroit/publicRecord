@@ -53,18 +53,20 @@ Public record of JTC complaint and network connections are available to voters a
 
 ## Independent Reporting
 
-**WXYZ Detroit / Ross Jones** (5 articles):
+### Primary Analytical Reference — Clutch Justice / Rita Williams
+- {{ source(key="clutch_justice", path="/2026/07/14/judge-cylenthia-miller-owi-judicial-favoritism/", label="The Proper Move Was Not to Get Involved") }} — Connects OWI appearance to gun case, identifies pattern of boundary violations; "A judge's power is not personal property"
+- {{ source(key="clutch_justice", path="/2026/09/13/macdowell-preparatory-academy-academic-financial-record/", label="MacDowell: $15,217/student, 3% math proficiency") }} — Documents Miller listed as Board Chair; three sitting judges across both schools' governance
+
+### Secondary News Sources — WXYZ Detroit / Ross Jones (5 articles)
 - {{ source(key="wxyz", path="/news/local-news/investigations/wayne-county-judge-rebuked-for-trying-to-represent-loved-one-in-owi-case", label="Wayne County judge rebuked for trying to represent loved one in OWI case") }} — Judge Greenwalt: "wholly improper," referred to State Bar
 - {{ source(key="wxyz", path="/news/local-news/investigations/judge-who-brought-loaded-gun-to-dtw-pleads-no-contest-gets-probation", label="Judge who brought loaded gun to DTW pleads no contest, gets probation") }} — .380 S&W, "attorney Todd Perkins says Miller has a valid CPL"
 - {{ source(key="wxyz", path="/news/local-news/investigations/wayne-co-judge-who-brought-unregistered-loaded-gun-to-dtw-faces-new-charge", label="Wayne Co. judge who brought unregistered, loaded gun to DTW faces new charge") }} — Second warrant request, Prosecutor Worthy recused
 - {{ source(key="wxyz", path="/news/local-news/investigations/wayne-county-judges-decision-to-dismiss-infant-murder-case-questioned", label="Wayne County judge's decision to dismiss infant murder case questioned") }} — Prosecutor Worthy: "bias throughout the trial," "never seen a judge behave like this"
 
-**Clutch Justice / Rita Williams**:
-- [The Proper Move Was Not to Get Involved: Why a Judge's OWI Courtroom Appearance Matters](https://clutchjustice.com/2026/07/14/judge-cylenthia-miller-owi-judicial-favoritism/) — Connects OWI appearance to gun case, identifies pattern of boundary violations
-
-**Reference**:
+### Reference
 - {{ source(key="ballotpedia", path="/Cylenthia_LaToye_Miller", label="Cylenthia LaToye Miller") }} — On the ballot November 3, 2026 (general election, nonpartisan)
 - [keepjudgemiller.com](https://keepjudgemiller.com) — Miller campaign site listing endorsers including Eric Sabree
+- [purposecharteracademy.com/boardofdirectors](https://www.purposecharteracademy.com/boardofdirectors) — Miller listed as Board Chair alongside AG employee and City Council member
 
 ## Three Active Scandals {{ confidence(level="reported") }}
 

@@ -87,11 +87,14 @@ Yancey worked inside the foreclosure infrastructure that feeds distressed proper
 
 ## Independent Reporting
 
+### Primary Analytical Reference
+- {{ source(key="clutch_justice", path="/2026/09/13/macdowell-preparatory-academy-academic-financial-record/", label="MacDowell: $15,217/student, 3% math proficiency") }} — Documents Yancey as Board Chair of MacDowell alongside Nicole Wells Stallworth; three sitting judges across both schools' governance (Sep 2026)
+
+### Secondary Sources & Reference
 - {{ source(key="ballotpedia", path="/Tenisha_Yancey", label="Tenisha Yancey") }} — HD-1 special election (Nov 2017) after Banks resignation; Land Bank and legislative biography
 - [BallotReady: Tenisha Renee Yancey](https://www.ballotready.org/people/tenisha-renee-yancey) — Wayne County Land Bank project manager (2007–2013)
 - {{ source(key="thirty_sixth_district", label="Judge Tenisha Yancey") }}
-- [Clutch Justice: MacDowell Preparatory Academy Spends $15,217 a Student. Three Percent Can Do Grade-Level Math.](https://clutchjustice.com/2026/09/13/macdowell-preparatory-academy-academic-financial-record/) — Documents Yancey listed as Board Chair of MacDowell alongside Nicole Wells Stallworth; three sitting judges across both schools' governance
 
 ---
 
-*All sources are public campaign finance records.*
+*All sources are public records.*

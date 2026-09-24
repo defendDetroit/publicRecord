@@ -163,7 +163,15 @@ The enterprise has operated continuously for **14+ years** (2010–present):
 
 See: [Timeline](/timeline/) for chronological documentation.
 
-## Verify
+## Independent Reporting
+
+### Primary Analytical Reference
+- {{ source(key="clutch_justice", path="/2026/09/13/macdowell-preparatory-academy-academic-financial-record/", label="MacDowell: $15,217/student, 3% math proficiency") }} — Documents financial extraction pattern: 73% to Purpose Group LLC, 3% math proficiency, gift-card-labeled payments
+
+### Secondary Sources
+- {{ source(key="freep", path="/story/news/columnists/ml-elrick/2023/08/27/detroit-school-former-felon-as-principal/70669868007/", label="Back to Fool — Brian Banks") }} — Original investigation into Banks' criminal history
+
+## Verify (Source Data)
 
 | Claim | Verify At |
 |-------|----------|
@@ -175,6 +183,7 @@ See: [Timeline](/timeline/) for chronological documentation.
 | Bankruptcies | PACER — Cases 97-45020, 98-49073, 06-55281 |
 | BMF connection | PACER — Case 2:05-cr-80955 |
 | Judicial connections | MI campaign finance — {{ source(key="cfrs") }} |
+| PCA Board | [purposecharteracademy.com/boardofdirectors](https://www.purposecharteracademy.com/boardofdirectors) |
 
 ---
 

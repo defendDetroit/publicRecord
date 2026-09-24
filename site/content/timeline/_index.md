@@ -107,13 +107,15 @@ The investigation goes public. {{ actor(key="holland") }}'s MDOC record shows di
 | Aug 29 | Complainant attends PCA — Banks denies access, claims to be attorney | Police report |
 | Aug 31 | DPSCD, State Bar UPL, and JTC complaints filed | Filed records |
 | Sep 1 | Civil action filed — Ingham County (2026-4349-CZ) | Court records |
-| Sep 13 | Clutch Justice publishes MacDowell investigation — $15,217/student, 3% math | [Clutch Justice](https://clutchjustice.com/2026/09/13/macdowell-preparatory-academy-academic-financial-record/) |
+| Sep 13 | Clutch Justice publishes MacDowell investigation — $15,217/student, 3% math | {{ source(key="clutch_justice", path="/2026/09/13/macdowell-preparatory-academy-academic-financial-record/", label="Clutch Justice") }} |
 | Sep 17 | Motion for Alternative Service filed (Banks PPO) | Court records |
 | Sep 18–19 | Banks hosts CBC Reception at Kitchen + Kocktails, DC | Eventbrite |
 | Sep 20 | ICHAT pulled — 9 convictions confirmed | MI ICHAT |
+| Sep 21 | Clutch Justice publishes "The Detroit Files, Part I: The Room" | {{ source(key="clutch_justice", path="/2026/09/21/detroit-files-part-1-the-room/", label="Clutch Justice") }} |
 | **Sep 22** | **Federal Master Packet — scheduled delivery to 8 agencies** | Prepared |
 | **Sep 22** | **Journalist briefing packet — scheduled distribution** | Prepared |
-| Sep 24 | detroit.primals.eco expanded to 93 pages with full taxonomy cross-references | [This site](https://detroit.primals.eco) |
+| Sep 23 | Clutch Justice publishes FOIA guide for Michigan school board records | {{ source(key="clutch_justice", path="/2026/09/23/foia-michigan-school-board-records-guide/", label="Clutch Justice") }} |
+| Sep 24 | detroit.primals.eco expanded to 95+ pages with Clutch Justice integration | [This site](https://detroit.primals.eco) |
 
 Source: {{ source(key="mdoc_otis", query="MDOC #443789") }}, {{ source(key="ichat", query="SID 2029469K") }}
 

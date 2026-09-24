@@ -85,9 +85,14 @@ State Bar of Michigan search for "Brian Banks": **zero results**.
 
 ## Independent Reporting
 
-- [Clutch Justice: MacDowell Preparatory Academy Spends $15,217 a Student. Three Percent Can Do Grade-Level Math.](https://clutchjustice.com/2026/09/13/macdowell-preparatory-academy-academic-financial-record/) — Comprehensive academic and financial analysis
+### Primary Analytical Reference
+- {{ source(key="clutch_justice", path="/2026/09/13/macdowell-preparatory-academy-academic-financial-record/", label="MacDowell: $15,217/student, 3% math proficiency") }} — Comprehensive academic and financial analysis documenting extraction model, board composition, Yancey as Board Chair, gift-card-labeled payments, and DPSCD authorization of second school (Sep 2026)
+- {{ source(key="clutch_justice", path="/2026/09/23/foia-michigan-school-board-records-guide/", label="FOIA and Your Michigan School Board") }} — Legal roadmap for parents requesting MacDowell financial records under MCL 15.231 (Sep 2026)
+
+### Secondary Sources
 - {{ source(key="school_digger", path="/go/MI/schools/0103304769/school.aspx", label="MacDowell Preparatory Academy") }} — Ranked 1,443rd of 1,488 Michigan elementary schools (bottom 3%)
 - {{ source(key="us_news", path="/michigan/macdowell-preparatory-academy-203303", label="MacDowell Preparatory Academy") }} — 3% math proficiency, 12% reading proficiency
+- {{ source(key="freep", path="/story/news/columnists/ml-elrick/2023/08/27/detroit-school-former-felon-as-principal/70669868007/", label="Back to Fool — Brian Banks") }} — M.L. Elrick investigation (Aug 2023)
 
 ---
 
