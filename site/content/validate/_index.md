@@ -13,7 +13,7 @@ available databases. Here's how.
 
 **Michigan Offender Tracking Information System (OTIS)**
 
-- URL: [mdocweb.state.mi.us/otis2](https://mdocweb.state.mi.us/otis2/otis2profile.aspx)
+- URL: [Michigan OTIS](https://mdocweb.state.mi.us/otis2/otis2profile.aspx?mdocNumber=443789)
 - Search by name or MDOC number
 - Key records: Brian Banks, Joseph Holland (MDOC #443789)
 - Shows convictions, sentences, discharge status

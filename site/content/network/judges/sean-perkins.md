@@ -66,7 +66,7 @@ Sean Perkins sits on the **same court** as:
 ## Verify
 
 - 36th District Court: [36thdistrictcourtmi.gov](https://www.36thdistrictcourtmi.gov)
-- Wikipedia: [Sean Perkins (judge)](https://en.wikipedia.org/wiki/Sean_Perkins_(judge))
+- Wikipedia (brother Todd's page confirms relationship): [Todd Perkins](https://en.wikipedia.org/wiki/Todd_Perkins_(lawyer))
 - Gov. Whitmer press release (May 5, 2021): [gov.michigan.gov](https://www.michigan.gov/gov)
 - Ballotpedia: Sean Perkins
 

@@ -45,7 +45,7 @@ Discharged from MDOC supervision **"WITHOUT IMPROVEMENT"** — the system determ
 
 ## Verify
 
-- MDOC OTIS: [mdocweb.state.mi.us/OTIS2](https://mdocweb.state.mi.us/OTIS2) — #443789
+- MDOC OTIS: [Michigan OTIS](https://mdocweb.state.mi.us/otis2/otis2profile.aspx?mdocNumber=443789) — #443789
 - ICHAT: [apps.michigan.gov/ichat](https://apps.michigan.gov/ichat) — SID 2321035P
 - LARA: Purpose Foundation 803294855
 

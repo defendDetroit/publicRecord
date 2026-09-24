@@ -65,7 +65,7 @@ Todd Perkins ran for Mayor of Detroit in the 2025 nonpartisan primary, finishing
 
 - MI State Bar: [michbar.org](https://www.michbar.org) — Bar # P55623
 - Wikipedia: [Todd Perkins (lawyer)](https://en.wikipedia.org/wiki/Todd_Perkins_(lawyer))
-- Wikipedia: [Sean Perkins (judge)](https://en.wikipedia.org/wiki/Sean_Perkins_(judge)) — confirms brother relationship
+- Wikipedia (Todd's page lists Sean as relative): [Todd Perkins](https://en.wikipedia.org/wiki/Todd_Perkins_(lawyer))
 - Campaign site: [perkinsforthepeople.com](https://perkinsforthepeople.com)
 - Bridge Detroit: [2025 Detroit mayoral primary coverage](https://www.bridgedetroit.com)
 - Firm website: Perkins Law Group practice areas and "catalyst for sitting judges" statement
