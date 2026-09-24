@@ -49,6 +49,11 @@ Complete index of every page on this site. Use this page to find any person, ent
 ### Network — Professional Enablers
 - [Todd Perkins](/network/professional-enablers/todd-perkins/) — Banks' attorney
 
+### Network — Graph Data
+- [Network Matrices](/network/matrices/) — Adjacency matrices: boards, courts, money flows, family, conflicts
+- [graph.json](/graph.json) — Machine-readable graph: 37 nodes, 57 typed edges (JSON)
+- [graph.csv](/graph.csv) — Edge list for analysts (CSV)
+
 ### Analysis
 - [RICO Pattern](/analysis/rico-pattern/) — 6 predicate acts, 14+ years
 - [Institutional Capture](/analysis/institutional-capture/) — schools, courts, politics

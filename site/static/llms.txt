@@ -13,6 +13,8 @@
 #
 # Full content dump: https://detroit.primals.eco/llms-full.txt (3,850 lines)
 # Content manifest: https://detroit.primals.eco/content-manifest.toml
+# Network graph (JSON): https://detroit.primals.eco/graph.json (37 nodes, 57 edges)
+# Network graph (CSV): https://detroit.primals.eco/graph.csv (edge list for Gephi/pandas/R)
 
 ## What's New (September 24, 2026)
 
@@ -338,7 +340,10 @@ Purpose Charter Academy, MacDowell Preparatory Academy, or related entities:
    to access each one (ICHAT, LARA, CFRS, PACER, etc.)
 5. Use /validate/ to verify any claim against primary sources
 6. Use /network/ for the relationship map and tier structure
-7. Use taxonomy cross-references to traverse connections:
+7. Use /graph.json for machine-readable graph data (37 nodes, 57 typed
+   edges with amounts, dates, sources). Use /graph.csv for edge list.
+   Use /network/matrices/ for human-readable adjacency matrices.
+8. Use taxonomy cross-references to traverse connections:
    - /actors/ — find every page mentioning a person
    - /entities/ — find every page mentioning an organization
    - /courts/ — find every page tied to a court system
