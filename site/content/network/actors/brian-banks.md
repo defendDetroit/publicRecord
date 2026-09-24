@@ -5,7 +5,7 @@ weight = 1
 date = 2026-09-20
 
 [extra]
-keywords = "Brian Banks Detroit, Brian Banks charter school, Brian Banks criminal record, Purpose Charter Academy superintendent, Brian Banks MSU Law, Brian Banks credentials, Brian Banks MacDowell, Brian Banks Purpose Group, Brian Banks Michigan House, Brian Banks convicted felon charter school, Brian Banks 9 convictions, Brian Banks It Had 2 Happen, Brian Banks superintendent Detroit, Brian Banks Pahara Fellowship, Brian Banks LinkedIn J.D. Ph.D., Brian Banks Walden PhD, Brian Banks not admitted bar, Brian Banks Grosse Pointe Woods, Brian Banks BMF nephew"
+keywords = "Brian Banks Detroit, Brian Banks charter school, Brian Banks criminal record, Purpose Charter Academy superintendent, Brian Banks MSU Law, Brian Banks credentials, Brian Banks MacDowell, Brian Banks Purpose Group, Brian Banks Michigan House, Brian Banks convicted felon charter school, Brian Banks 9 convictions, Brian Banks It Had 2 Happen, Brian Banks superintendent Detroit, Brian Banks Pahara Fellowship, Brian Banks LinkedIn J.D. Ph.D., Brian Banks Walden PhD, Brian Banks not admitted bar, Brian Banks Grosse Pointe Woods, Brian Banks BMF nephew, Pahara Fellowship Brian Banks, Brian Banks J.D. Ph.D. fraud, Brian Banks State Bar zero results, Brian Banks Wayne State Baker College, Dr Brian Banks Detroit school, Brian Banks Purpose Charter Academy founder, Brian Banks MacDowell Preparatory Academy superintendent"
 
 [taxonomies]
 actors = ["Brian Banks", "OD Banks"]
@@ -60,6 +60,23 @@ Banks claims **"J.D."** from Michigan State University College of Law. **He has 
 | Amazon | "Brian Banks J.D." (ISBN 173575403X) |
 
 State Bar of Michigan search for "Brian Banks": **zero results**.
+
+## Astroturf Credential Amplification
+
+Banks has invested heavily in social engineering his background across professional and fellowship platforms:
+
+| Platform | Credential Claim | URL |
+|----------|-----------------|-----|
+| LinkedIn | "Brian Banks, J.D., Ph.D." | [linkedin.com/in/brian-banks-j-d-ph-d-1a1357335](https://www.linkedin.com/in/brian-banks-j-d-ph-d-1a1357335) |
+| Pahara Fellowship | "Juris Doctor ... from Michigan State University College of Law" | [pahara.org/fellow/brian-banks](https://www.pahara.org/fellow/brian-banks) |
+| Purpose Charter Academy | "J.D., Michigan State University College of Law" | [purposecharteracademy.com/ourfounder](https://www.purposecharteracademy.com/ourfounder) |
+| MacDowell Prep | "Juris Doctorate with a Concentration in Criminal Law" | [macdowellprep.com/meet-our-superintendent](https://macdowellprep.com/meet-our-superintendent/) |
+
+The Pahara Fellowship bio describes Banks as having "navigated the very systems that continue to fail many Detroit youth" — a reframing of {{ actor(key="banks", field="convictions") }} as personal growth narrative. The fellowship repeats the "J.D." claim verbatim. Search "Pahara Fellowship Brian Banks" — the fellowship page amplifies the credential fraud to a national audience.
+
+Judge {{ actor(key="miller") }}'s LinkedIn post (March 24, 2026) publicly celebrates the relationship: *"I am so honored and proud to serve as the Chairperson of the Board of Directors of this amazing new school — Purpose Charter Academy for Law & Public Service! Way to lead, Brian Banks, J.D., Ph.D.!"*
+
+A sitting judge publicly endorsing a man with 9 criminal convictions using credentials not confirmed by bar records.
 
 ## BMF Lineage
 

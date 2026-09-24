@@ -5,7 +5,7 @@ weight = 1
 date = 2026-09-20
 
 [extra]
-keywords = "Cylenthia Miller, Cylenthia Miller judge, Cylenthia Miller Wayne County, Cylenthia Miller election 2026, Cylenthia Miller 3rd Circuit, Cylenthia Miller Anchor Rock Foundation, Cylenthia Miller Purpose Charter Academy, Cylenthia Miller Detroit, judge Cylenthia Miller reelection, Wayne County 3rd Circuit Court 2026, Cylenthia Miller Purpose Charter Academy, Cylenthia Miller Anchor Rock Foundation, Cylenthia Miller election November 2026, Cylenthia Miller JTC complaint, Cylenthia Miller scandal, Cylenthia Miller gun airport, Cylenthia Miller infant murder case dismissed, Cylenthia Miller Baker College Brian Banks, Cylenthia Miller Todd Perkins, keepjudgemiller.com"
+keywords = "Cylenthia Miller, Cylenthia Miller judge, Cylenthia Miller Wayne County, Cylenthia Miller election 2026, Cylenthia Miller 3rd Circuit, Cylenthia Miller Anchor Rock Foundation, Cylenthia Miller Purpose Charter Academy, Cylenthia Miller Detroit, judge Cylenthia Miller reelection, Wayne County 3rd Circuit Court 2026, Cylenthia Miller election November 2026, Cylenthia Miller JTC complaint, Cylenthia Miller scandal, Cylenthia Miller gun airport DTW, Cylenthia Miller infant murder case dismissed, Cylenthia Miller Baker College Brian Banks, Cylenthia Miller Todd Perkins attorney, keepjudgemiller.com, Cylenthia Miller OWI East Lansing, Cylenthia Miller Judge Greenwalt wholly improper, Cylenthia Miller State Bar referral, Cylenthia Miller Kym Worthy bias, Cylenthia LaToye Miller Wayne County, Cylenthia Miller WXYZ investigation Ross Jones"
 
 [taxonomies]
 actors = ["Judge Cylenthia Miller", "Brian Banks", "Todd Perkins", "Judge Sean Perkins", "Judge Adam Sabree", "Judge Aliyah Sabree", "Eric Sabree"]
@@ -53,7 +53,16 @@ Public record of JTC complaint and network connections are available to voters a
 
 ## Independent Reporting
 
-- {{ source(key="wxyz", path="/news/local-news/investigations/wayne-county-judges-decision-to-dismiss-infant-murder-case-questioned", label="Wayne County judge's decision to dismiss infant murder case questioned") }} — Prosecutor Kym Worthy's office alleged Miller "displayed a bias throughout the trial"
+**WXYZ Detroit / Ross Jones** (5 articles):
+- {{ source(key="wxyz", path="/news/local-news/investigations/wayne-county-judge-rebuked-for-trying-to-represent-loved-one-in-owi-case", label="Wayne County judge rebuked for trying to represent loved one in OWI case") }} — Judge Greenwalt: "wholly improper," referred to State Bar
+- {{ source(key="wxyz", path="/news/local-news/investigations/judge-who-brought-loaded-gun-to-dtw-pleads-no-contest-gets-probation", label="Judge who brought loaded gun to DTW pleads no contest, gets probation") }} — .380 S&W, "attorney Todd Perkins says Miller has a valid CPL"
+- {{ source(key="wxyz", path="/news/local-news/investigations/wayne-co-judge-who-brought-unregistered-loaded-gun-to-dtw-faces-new-charge", label="Wayne Co. judge who brought unregistered, loaded gun to DTW faces new charge") }} — Second warrant request, Prosecutor Worthy recused
+- {{ source(key="wxyz", path="/news/local-news/investigations/wayne-county-judges-decision-to-dismiss-infant-murder-case-questioned", label="Wayne County judge's decision to dismiss infant murder case questioned") }} — Prosecutor Worthy: "bias throughout the trial," "never seen a judge behave like this"
+
+**Clutch Justice / Rita Williams**:
+- [The Proper Move Was Not to Get Involved: Why a Judge's OWI Courtroom Appearance Matters](https://clutchjustice.com/2026/07/14/judge-cylenthia-miller-owi-judicial-favoritism/) — Connects OWI appearance to gun case, identifies pattern of boundary violations
+
+**Reference**:
 - {{ source(key="ballotpedia", path="/Cylenthia_LaToye_Miller", label="Cylenthia LaToye Miller") }} — On the ballot November 3, 2026 (general election, nonpartisan)
 - [keepjudgemiller.com](https://keepjudgemiller.com) — Miller campaign site listing endorsers including Eric Sabree
 
