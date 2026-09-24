@@ -14,7 +14,17 @@ courts = ["Wayne County 3rd Circuit Court", "36th District Court", "Wayne County
 connections = ["RICO predicate", "credential fraud", "campaign finance", "business entity", "board membership", "criminal record", "charter authorization", "family"]
 +++
 
-The Banks enterprise operates as a documented racketeering pattern across charter schools, shell entities, captured courts, and political infrastructure. This analysis maps the structure under 18 U.S.C. § 1961.
+This page presents the complainant's analysis of documented relationships and financial flows, organized under the framework of 18 U.S.C. § 1961 (RICO). **The records are public. The relationships are documented. The pattern analysis is the complainant's inference, submitted to federal agencies for determination.** Whether these facts constitute racketeering is a legal conclusion that only a court or prosecutorial authority can make.
+
+{{ status(level="filed", note="Federal master packet submitted to 8 agencies Sep 22, 2026") }}
+
+### Epistemic Key
+| Marker | Meaning |
+|--------|---------|
+| {{ status(level="record") }} | Verifiable public record |
+| {{ status(level="corroborated") }} | Confirmed by 2+ independent sources |
+| {{ status(level="inference") }} | Analytical conclusion drawn from records — not adjudicated |
+| {{ status(level="allegation") }} | Formally alleged in complaint — awaiting determination |
 
 ## Enterprise Structure {{ confidence(level="documented") }}
 
@@ -35,14 +45,14 @@ graph TB
         SAL["Personal salary<br/>$150K+ base"]
     end
 
-    subgraph POL["🏛️ POLITICAL COVER"]
+    subgraph POL["🏛️ POLITICAL CONNECTIONS"]
         PAC1["Bank on Banks PAC<br/>Holland = Treasurer"]
         PAC2["Bank on Wayne Co. PAC<br/>Banks = Treasurer"]
         OFA["OFA Michigan<br/>Dark money mailers"]
         CBC["CBC Week hosting<br/>4 years"]
     end
 
-    subgraph JUD["⚖️ JUDICIAL COVER"]
+    subgraph JUD["⚖️ JUDICIAL CONNECTIONS"]
         MILLER["Judge Miller<br/>Board Chair"]
         SABREE["Judge Aliyah Sabree<br/>MSU Law classmate"]
         YANCEY["Judge Yancey<br/>Paid $383.82"]
@@ -56,7 +66,7 @@ graph TB
     TPG --> SAL
     BANKS --> PF
     BANKS --> PAC1 & PAC2 & OFA & CBC
-    MILLER & SABREE & YANCEY & D_PERK -.->|"protect"| BANKS
+    MILLER & SABREE & YANCEY & D_PERK -.->|"documented connection"| BANKS
     BANKS --- HOLLAND
 
     classDef person fill:#991b1b,stroke:#ef4444,color:#fecaca
@@ -92,7 +102,7 @@ See: [Enterprise Principals](/network/actors/), [Entity Profiles](/network/entit
 | Private foundation | {{ entity(key="purpose_foundation") }} | 2 felons hold all 4 officer positions |
 | Personal extraction | {{ actor(key="banks") }} | $150K base salary + control of all entities |
 
-## Political Cover
+## Political Connections {{ status(level="record") }}
 
 | Entity | Role | Detail |
 |--------|------|--------|
@@ -103,14 +113,16 @@ See: [Enterprise Principals](/network/actors/), [Entity Profiles](/network/entit
 
 See: [Political Action Committees](/network/entities/political-action-committees/), [Political Enablers](/network/political/).
 
-## Judicial Cover
+## Judicial Connections {{ status(level="record") }}
 
-| Judge | Court | Connection |
-|-------|-------|------------|
-| {{ actor(key="miller") }} | Wayne 3rd Circuit | Board Chair of {{ entity(key="anchor_rock") }} |
-| {{ actor(key="sabree") }} | Wayne 3rd Circuit | MSU Law classmate (~2010); brother is County Treasurer |
-| {{ actor(key="yancey") }} | 36th District | Paid **$383.82** to Banks Strategy — her **sole expenditure** (2024) |
-| {{ actor(key="perkins_david") }} | Wayne Probate | Family donations to network campaigns; {{ entity(key="serenity") }} jurisdiction |
+Nine judges have documented connections to the enterprise. Whether these connections required recusal or constitute a pattern is submitted for agency determination.
+
+| Judge | Court | Documented Connection | Status |
+|-------|-------|----------------------|--------|
+| {{ actor(key="miller") }} | Wayne 3rd Circuit | PCA Board Chair {{ status(level="record") }} | Active — ballot Nov 2026 |
+| {{ actor(key="sabree") }} | Wayne 3rd Circuit | MSU Law classmate (~2010); father = Treasurer {{ status(level="record") }} | Active |
+| {{ actor(key="yancey") }} | 36th District | Paid **$383.82** to Banks Strategy — sole expenditure {{ status(level="record") }} | Active |
+| {{ actor(key="perkins_david") }} | Wayne Probate | Family donations to network campaigns {{ status(level="record") }} | Active |
 
 See: [Institutional Capture](/analysis/institutional-capture/).
 
@@ -128,17 +140,17 @@ graph TB
         BANK_FR["<b>Financial Fraud</b><br/>§1344<br/>3 bankruptcies<br/>PAC irregularities"]
     end
 
-    subgraph CORRUPT["⚖️ Corruption Predicates"]
-        BRIBE["<b>Bribery</b><br/>§201<br/>Judge campaign payments<br/>to Banks Strategy LLC"]
-        OBSTRUCT["<b>Obstruction</b><br/>§1503<br/>Network judges refuse<br/>to recuse"]
+    subgraph CORRUPT["⚖️ Potential Corruption Predicates"]
+        BRIBE["<b>§201 Question</b><br/>Campaign payments from<br/>judges to enterprise LLC"]
+        OBSTRUCT["<b>§1503 Question</b><br/>Connected judges<br/>presiding without recusal"]
     end
 
-    MAIL -->|"fake credentials<br/>= school authorization"| ENT
-    WIRE -->|"federal reporting<br/>= continued funding"| ENT
-    LAUNDER -->|"LLC extraction<br/>= private enrichment"| ENT
-    BANK_FR -->|"financial opacity<br/>= no audit trail"| ENT
-    BRIBE -->|"judge payments<br/>= judicial protection"| ENT
-    OBSTRUCT -->|"no recusal<br/>= captured courts"| ENT
+    MAIL -->|"credential claims<br/>on school filings"| ENT
+    WIRE -->|"federal reporting<br/>with disputed credentials"| ENT
+    LAUNDER -->|"LLC extraction<br/>72.67% of revenue"| ENT
+    BANK_FR -->|"financial opacity<br/>$348K unaccounted"| ENT
+    BRIBE -->|"campaign payments<br/>$383.82 documented"| ENT
+    OBSTRUCT -->|"connections documented<br/>recusal not filed"| ENT
 
     ENT -->|"revenue"| LAUNDER
     ENT -->|"authority"| MAIL
@@ -157,16 +169,18 @@ graph TB
 
 Each predicate act reinforces the others. Credential fraud enables school authorization → authorization enables revenue → revenue enables campaign payments → payments enable judicial protection → judicial protection prevents accountability → the cycle continues.
 
-## Predicate Acts (18 U.S.C. § 1961)
+## Potential Predicate Acts (18 U.S.C. § 1961) {{ status(level="allegation", note="Submitted for federal determination Sep 22, 2026") }}
 
-| # | Act | Statute | Evidence |
-|---|-----|---------|----------|
-| 1 | **Mail Fraud** | 18 U.S.C. § 1341 | Credential fraud on school websites, conference bios, and published materials — distributed via mail/wire to obtain public school funds |
-| 2 | **Wire Fraud** | 18 U.S.C. § 1343 | False J.D. credential on federally-funded school applications, DOE reporting, and grant applications |
-| 3 | **Money Laundering** | 18 U.S.C. § 1956 | $4.28M/yr funneled through [Purpose Group LLC](/network/entities/purpose-group-llc/) shell structure; $348K unaccounted management fees |
-| 4 | **Financial Institution Fraud** | 18 U.S.C. § 1344 | Three personal bankruptcies; PAC financial irregularities |
-| 5 | **Bribery** | 18 U.S.C. § 201 | Campaign payments from sitting judges to Banks' consulting firm |
-| 6 | **Obstruction** | 18 U.S.C. § 1503 | Network judges presiding over network-connected cases without recusal |
+The following are submitted as potential predicates for agency evaluation. Whether each constitutes a federal offense is a determination for prosecutors and courts, not this publication.
+
+| # | Potential Act | Statute | Documented Evidence | Epistemic Status |
+|---|-------------|---------|---------------------|-----------------|
+| 1 | **Mail Fraud** | § 1341 | False J.D. credential on school websites, bios, published materials {{ status(level="corroborated") }} | Credential claim: {{ status(level="record") }}. Whether it constitutes fraud: {{ status(level="allegation") }} |
+| 2 | **Wire Fraud** | § 1343 | False credential on DOE applications, grant filings {{ status(level="inference") }} | Application filings: {{ status(level="record") }}. Intent: {{ status(level="allegation") }} |
+| 3 | **Money Laundering** | § 1956 | $4.28M/yr through Purpose Group LLC; $348K unaccounted {{ status(level="record") }} | Financial flow: {{ status(level="corroborated") }}. Laundering characterization: {{ status(level="allegation") }} |
+| 4 | **Financial Fraud** | § 1344 | Three bankruptcies; PAC irregularities {{ status(level="record") }} | Records: {{ status(level="record") }}. Pattern: {{ status(level="inference") }} |
+| 5 | **Bribery concern** | § 201 | Judge campaign → Banks Strategy LLC ($383.82) {{ status(level="record") }} | Payment: {{ status(level="record") }}. Bribery characterization: {{ status(level="allegation") }} |
+| 6 | **Recusal question** | § 1503 | Connected judges presiding over enterprise-related cases {{ status(level="inference") }} | Connections: {{ status(level="record") }}. Obstruction characterization: {{ status(level="allegation") }} |
 
 ## The Continuity Test
 

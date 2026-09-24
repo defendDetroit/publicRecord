@@ -100,4 +100,4 @@ Rita Williams operates as an independent investigative journalist covering Michi
 
 For paywalled news articles, try searching on [archive.org](https://web.archive.org) or [Google cache](https://webcache.googleusercontent.com).
 
-If you find any error, contact us at [{{ config.extra.contact_email }}](mailto:{{ config.extra.contact_email }}).
+If you find any error, [contact us](/contact/) — truth matters more than being right.

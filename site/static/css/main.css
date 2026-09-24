@@ -546,6 +546,20 @@ cite.source a:hover { border-bottom-style: solid; }
   .page-sidebar { display: none; }
 }
 
+/* Epistemic status markers — claim-level, not document-level */
+.epistemic-status {
+  display: inline-block; font-size: 0.78rem; font-weight: 600;
+  padding: 0.15em 0.55em; border-radius: 4px; white-space: nowrap;
+  cursor: help; letter-spacing: 0.02em;
+}
+.es-record { background: #16531640; color: #22c55e; border: 1px solid #22c55e50; }
+.es-corroborated { background: #1d4ed840; color: #60a5fa; border: 1px solid #60a5fa50; }
+.es-inference { background: #a855f730; color: #c084fc; border: 1px solid #c084fc40; }
+.es-allegation { background: #eab30830; color: #fbbf24; border: 1px solid #fbbf2440; }
+.es-filed { background: #f9731630; color: #fb923c; border: 1px solid #fb923c40; }
+.es-adjudicated { background: #ef444430; color: #f87171; border: 1px solid #f8717140; }
+.es-corrected { background: #6b728030; color: #9ca3af; border: 1px solid #9ca3af40; }
+
 /* Table of Contents */
 .page-toc {
   background: var(--bg-alt); border: 1px solid var(--border);

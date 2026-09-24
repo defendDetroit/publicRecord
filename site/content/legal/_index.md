@@ -113,9 +113,7 @@ This site reports on:
 - School budget documents filed with the state
 - Published judicial decisions and proceedings
 
-Every report on this site is a fair and true account of information contained
-in these public records. The fair report privilege is a complete defense to
-libel claims based on such reports.
+This site's editorial standard requires that all reports on public records be fair and true accounts of the information contained in those records. Where the site presents analysis, inference, or pattern conclusions drawn from records, those are labeled separately from the underlying facts — because the fair report privilege applies to reports of records, not to independent conclusions about what those records mean. *See Bedford v. Witte*, 318 Mich. App. 60 (2016) (distinguishing between reporting allegations and adding independent declarations of illegality).
 
 ---
 
@@ -146,10 +144,7 @@ MCL § 691.1861 mandates that:
 > petition the government for a redress of grievances, and the right of
 > association."
 
-This site documents public education governance, public officials, and the use
-of public funds. It is a textbook case for UPEPA protection. Any lawsuit
-seeking to silence this publication would be subject to expedited dismissal and
-fee-shifting under Michigan's anti-SLAPP law.
+This site documents public education governance, public officials, and the use of public funds — all matters of public concern as defined by the statute. Whether UPEPA protection applies to any particular claim would be determined by a court in the context of specific litigation. The statute provides a procedural framework for evaluating such claims, not a blanket immunity.
 
 ---
 
@@ -181,8 +176,7 @@ beyond the legal minimum:
 1. **Every factual claim is cited to a primary source.** We don't rely on
    anonymous tips, secondhand accounts, or unverifiable assertions.
 
-2. **We distinguish facts from inferences.** Where we draw conclusions from
-   public records, we label them as such and show our reasoning.
+2. **We enforce epistemic discipline.** Every claim on this site carries an explicit status: **record** (verifiable public fact), **corroborated** (independently confirmed), **inference** (analytical conclusion drawn from records), **allegation** (formally submitted for determination), **filed** (pending before agency or court), or **adjudicated** (determined by authority). Where the site draws analytical conclusions from records, those conclusions are labeled as inferences, not findings. See the [RICO Pattern](/analysis/rico-pattern/) page for a demonstration of this grammar in practice.
 
 3. **We correct errors promptly.** If any information on this site is
    inaccurate, [tell us](/contact/). Corrections are published transparently
@@ -220,4 +214,4 @@ protect this publication. If you believe any information on this site is
 inaccurate, please [contact us](/contact/) so we can verify and correct the
 record.*
 
-*Last updated: September 20, 2026*
+*Last updated: September 24, 2026*
