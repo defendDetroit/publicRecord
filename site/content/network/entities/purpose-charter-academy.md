@@ -5,7 +5,7 @@ weight = 1
 date = 2026-09-20
 
 [extra]
-keywords = "Purpose Charter Academy, Purpose Charter Academy Detroit, PCA Detroit, Purpose Charter Academy Brian Banks, Purpose Charter Academy DPSCD, Purpose Charter Academy Law Public Service, charter school Detroit convicted felon"
+keywords = "Purpose Charter Academy, Purpose Charter Academy Detroit, PCA Detroit, Purpose Charter Academy Brian Banks, Purpose Charter Academy DPSCD, Purpose Charter Academy Law Public Service, charter school Detroit convicted felon, Purpose Charter Academy fraud, Purpose Charter Academy superintendent criminal record, DPSCD Brian Banks authorization"
 +++
 
 ## School Overview

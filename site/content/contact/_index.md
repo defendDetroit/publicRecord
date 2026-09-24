@@ -1,6 +1,9 @@
 +++
 title = "Contact"
 description = "Corrections, contact, and secure communication for anyone named on this site, harmed parties, media, and whistleblowers."
+
+[extra]
+keywords = "Brian Banks correction, Purpose Charter Academy whistleblower, Detroit charter school tip, detroit primals eco contact, MacDowell Preparatory Academy correction"
 +++
 
 ## Corrections & Disputes

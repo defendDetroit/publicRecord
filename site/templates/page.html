@@ -5,6 +5,10 @@
 {% block og_title %}{{ page.title }}{% endblock og_title %}
 {% block og_desc %}{{ page.description | default(value=config.description) }}{% endblock og_desc %}
 {% block og_type %}article{% endblock og_type %}
+{% block tw_title %}{{ page.title }} — {{ config.title }}{% endblock tw_title %}
+{% block tw_desc %}{{ page.description | default(value=config.description) }}{% endblock tw_desc %}
+{% if page.extra.keywords %}{% block keywords %}{{ page.extra.keywords }}{% endblock keywords %}{% endif %}
+{% if page.extra.og_image %}{% block og_image %}{{ page.extra.og_image }}{% endblock og_image %}{% endif %}
 
 {% block content %}
 <article class="page-content">

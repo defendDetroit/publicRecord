@@ -5,7 +5,7 @@ weight = 4
 date = 2026-09-20
 
 [extra]
-keywords = "Purpose Foundation, Purpose Foundation Detroit, Banks Holland nonprofit, private foundation fraud"
+keywords = "Purpose Foundation, Purpose Foundation Detroit, Banks Holland nonprofit, private foundation fraud, Purpose Foundation Brian Banks Holland, Purpose Foundation two felons all positions, Purpose Foundation 501c3 no governance"
 +++
 
 ## Entity Overview

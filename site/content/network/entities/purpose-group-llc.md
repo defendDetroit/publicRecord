@@ -5,7 +5,7 @@ weight = 3
 date = 2026-09-20
 
 [extra]
-keywords = "Purpose Group LLC, Purpose Group Michigan, Purpose Group Brian Banks, charter school management company Detroit"
+keywords = "Purpose Group LLC, Purpose Group Michigan, Purpose Group Brian Banks, charter school management company Detroit, Purpose Group LLC Detroit schools, Purpose Group 72 percent revenue, Purpose Group LLC Brian Banks sole member"
 +++
 
 ## Entity Overview

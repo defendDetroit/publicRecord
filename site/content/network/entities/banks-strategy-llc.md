@@ -5,7 +5,7 @@ weight = 5
 date = 2026-09-20
 
 [extra]
-keywords = "Banks Strategy Consultants, Banks Strategy LLC, judge campaign payments, Yancey Banks Strategy"
+keywords = "Banks Strategy Consultants, Banks Strategy LLC, judge campaign payments, Yancey Banks Strategy, Banks Strategy LLC judge payments, Banks Strategy campaign finance, Banks Strategy Cylenthia Miller Tenisha Yancey"
 +++
 
 ## Entity Overview

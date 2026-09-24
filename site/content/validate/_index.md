@@ -1,6 +1,9 @@
 +++
 title = "Verify Everything Yourself"
-description = "Don't trust us — check yourself. Links and instructions for independently verifying every claim in the public record."
+description = "Verify every claim yourself: ICHAT criminal records (SID 2029469K), State Bar of Michigan, LARA business filings, Wayne County ROD, campaign finance — step-by-step links."
+
+[extra]
+keywords = "verify Brian Banks criminal record, ICHAT Brian Banks, State Bar Michigan Brian Banks, LARA Purpose Group LLC, Wayne County ROD Brian Banks, PACER Detroit federal court"
 +++
 
 Every factual claim on this site can be independently verified using publicly

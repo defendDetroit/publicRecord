@@ -1,11 +1,11 @@
 +++
 title = "Billy McKinney — Political Operative"
-description = "Campaign paid Darryl Banks Jr., linking the McKinney political operation financially to the extended Banks family network."
+description = "Billy McKinney — Detroit political operative. Campaign paid Darryl Banks Jr., linking McKinney operation to the extended Banks family network."
 weight = 2
 date = 2026-09-20
 
 [extra]
-keywords = "Billy McKinney, Billy McKinney Detroit, Billy McKinney Michigan House"
+keywords = "Billy McKinney Detroit, Darryl Banks Jr campaign payment, McKinney Banks family, Billy McKinney political operative Detroit"
 +++
 
 ## Connection to Banks Network

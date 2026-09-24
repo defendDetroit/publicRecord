@@ -1,9 +1,11 @@
-# Cash for Kids 2: Operation Detroit Plantation
-## Public Record — Detroit Charter School Racketeering & Institutional Capture
+# Cash for Kids 2: A Public Record
+## Brian Banks Detroit Charter School Investigation — Public Evidence Library
 
-**This repository contains litigation documents, evidence, correspondence, and FOIA responses documenting a multi-decade racketeering enterprise operating through Detroit's charter school system, courts, and political offices.**
+**Brian Roderick Banks** — 9 criminal convictions (6 felony, 3 misdemeanor), claimed J.D. never confirmed by the State Bar of Michigan (zero results), superintendent of **MacDowell Preparatory Academy** and founder of **Purpose Charter Academy** — two Detroit charter schools receiving **$4.9M+ in annual public funding**, with **72.67%** flowing to his private management company, **The Purpose Group LLC**.
 
-Everything here is public record. Clone freely. Verify everything.
+This repository documents the network through public records: criminal histories (ICHAT SID 2029469K), LARA business filings, Wayne County property records, campaign finance disclosures, and federal court filings. Every fact is cited. Every document is timestamped. Verify everything.
+
+> 🌐 **[detroit.primals.eco](https://detroit.primals.eco)** — Browse the evidence online
 
 ```bash
 git clone https://git.primals.eco/publicRecord/detroit.git
@@ -16,6 +18,10 @@ git clone https://git.primals.eco/publicRecord/detroit.git
 | **Live site** | [detroit.primals.eco](https://detroit.primals.eco) |
 | **Sovereign primary (Forgejo)** | [git.primals.eco/publicRecord/detroit](https://git.primals.eco/publicRecord/detroit) |
 | **sporePrint (ecoPrimals ecosystem)** | [sporeprint.primals.eco](https://sporeprint.primals.eco) |
+| **ecoPrimals** | [github.com/ecoPrimals](https://github.com/ecoPrimals) |
+
+### Key Names & Entities
+Brian Banks • Joseph Holland Jr • Purpose Charter Academy • MacDowell Preparatory Academy • The Purpose Group LLC • Purpose Foundation • Banks Strategy & Consultants LLC • Bank on Banks PAC • Judge Cylenthia Miller • Judge Tenisha Yancey • Judge Aliyah Sabree • Judge David Perkins • Sherry Gay-Dagnogo • DPSCD • Wayne County 3rd Circuit Court
 
 ---
 

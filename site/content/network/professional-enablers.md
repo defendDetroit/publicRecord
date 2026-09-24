@@ -5,7 +5,7 @@ weight = 5
 date = 2026-09-20
 
 [extra]
-keywords = "Purpose Group LLC attorney, charter school authorization Michigan, Baker College Brian Banks, CMU charter school"
+keywords = "Purpose Group LLC attorney, charter school authorization Michigan, Baker College Brian Banks, CMU charter school, Gary Perlmuter Purpose Group LLC, Jehan Crump-Gibson Purpose Foundation, Baker College Brian Banks faculty, CMU MacDowell charter authorization, MSU Law Brian Banks JD unverified"
 +++
 
 ## Attorneys

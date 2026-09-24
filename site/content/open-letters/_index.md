@@ -5,6 +5,7 @@ sort_by = "date"
 
 [extra]
 og_image = "/og/open-letters.png"
+keywords = "50 Cent BMF Detroit schools, Curtis Jackson charter school letter, Brian Banks BMF family open letter, Detroit charter school open letters, Vivica Fox Tonesa Welch"
 +++
 
 Each letter follows a strict transparency protocol:

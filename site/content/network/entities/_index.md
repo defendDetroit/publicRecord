@@ -3,6 +3,9 @@ title = "Entity Profiles"
 description = "9+ entities controlled by Brian Banks — charter schools, management companies, nonprofits, PACs, and churches. All registered to his Grosse Pointe Woods home while his schools serve Detroit's poorest children."
 weight = 4
 sort_by = "weight"
+
+[extra]
+keywords = "Brian Banks entities, Detroit charter school shell companies, Purpose Group LLC, Purpose Foundation, Banks Strategy LLC, purpose charter academy entity map, Brian Banks 9 entities Grosse Pointe Woods"
 +++
 
 Banks controls a web of entities, all registered to **1968 Severn Road, Grosse Pointe Woods, MI 48236** — his personal residence in an affluent suburb, while his schools serve Detroit's poorest children.

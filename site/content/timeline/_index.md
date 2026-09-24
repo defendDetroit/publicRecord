@@ -2,6 +2,9 @@
 title = "Timeline"
 description = "Complete chronology of the Banks Enterprise — from 1998 criminal convictions through 2026 federal notification. Every date sourced from public records."
 sort_by = "date"
+
+[extra]
+keywords = "Brian Banks criminal history timeline, Purpose Charter Academy timeline, Brian Banks charter school 2017, Cylenthia Miller election 2026, Brian Banks 1998 convictions, Brian Banks resignation Michigan House"
 +++
 
 <div id="interactive-timeline"></div>

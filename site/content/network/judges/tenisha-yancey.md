@@ -1,11 +1,11 @@
 +++
 title = "Judge Tenisha Yancey"
-description = "Judge Tenisha Yancey — 36th District Court, MacDowell Preparatory Academy board chair. Campaign finance records show a $2,283 payment to Banks Strategy LLC in 2024."
+description = "Judge Tenisha Yancey — Wayne County 3rd Circuit Court. MacDowell Preparatory Academy board chair. Campaign paid $2,283 to Banks Strategy LLC (2024). Clutch Justice confirmed."
 weight = 2
 date = 2026-09-20
 
 [extra]
-keywords = "Tenisha Yancey, Tenisha Yancey judge, Tenisha Yancey 36th District Court, Tenisha Yancey MacDowell, Tenisha Yancey board chair, Tenisha Yancey Brian Banks, Tenisha Yancey campaign finance, Banks Strategy LLC, MacDowell Preparatory Academy board, Detroit judge charter school"
+keywords = "Tenisha Yancey, Tenisha Yancey judge, Tenisha Yancey Wayne County 3rd Circuit Court, Tenisha Yancey MacDowell, Tenisha Yancey board chair, Tenisha Yancey Brian Banks, Tenisha Yancey campaign finance, Banks Strategy LLC, MacDowell Preparatory Academy board, Detroit judge charter school"
 +++
 
 ## Position

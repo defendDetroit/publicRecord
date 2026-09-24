@@ -4,6 +4,9 @@
 {% block description %}{{ section.description | default(value=config.description) }}{% endblock description %}
 {% block og_title %}{{ section.title }} — {{ config.title }}{% endblock og_title %}
 {% block og_desc %}{{ section.description | default(value=config.description) }}{% endblock og_desc %}
+{% block tw_title %}{{ section.title }} — {{ config.title }}{% endblock tw_title %}
+{% block tw_desc %}{{ section.description | default(value=config.description) }}{% endblock tw_desc %}
+{% if section.extra.keywords %}{% block keywords %}{{ section.extra.keywords }}{% endblock keywords %}{% endif %}
 
 {% block content %}
 <article class="section-page">

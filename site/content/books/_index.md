@@ -1,6 +1,9 @@
 +++
 title = "Book Analysis: Zero Victims, Zero Remorse"
-description = "Analysis of books by members of the Detroit charter school racketeering network. Two books. Hundreds of pages. Zero victims named. Zero accountability."
+description = "Brian Banks autobiography and Tonesa Welch BMF book analysis — zero victims named, zero accountability. Credential fraud vs LinkedIn J.D. Ph.D. claims."
+
+[extra]
+keywords = "Brian Banks book, Brian Banks It Had 2 Happen, Tonesa Welch Black Mafia Family, Brian Banks autobiography, Brian Banks Pahara Fellowship, zero victims named, BMF book analysis"
 +++
 
 Two members of this network have published books. Between them: hundreds of

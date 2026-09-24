@@ -5,7 +5,7 @@ weight = 2
 date = 2026-09-20
 
 [extra]
-keywords = "Joseph Holland Detroit, Joseph Holland MDOC, Joseph Holland Purpose Foundation, Joseph Holland convicted, Joseph Holland charter school treasurer, Joseph Holland Brian Banks"
+keywords = "Joseph Holland Detroit, Joseph Holland MDOC, Joseph Holland Purpose Foundation, Joseph Holland convicted, Joseph Holland charter school treasurer, Joseph Holland Brian Banks, Joseph Holland Brian Banks co-resident, Joseph Holland 1968 Severn Road, Bank on Banks PAC treasurer felon"
 +++
 
 ## Identity

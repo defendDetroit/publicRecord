@@ -2,6 +2,9 @@
 title = "Evidence Library"
 description = "Public-record evidence documenting the Detroit charter school network. Financial analysis, credential questions, criminal records, documented connections, and agency submissions."
 sort_by = "weight"
+
+[extra]
+keywords = "Detroit charter school investigation evidence, Brian Banks criminal record ICHAT, MacDowell Preparatory Academy financial records, Purpose Charter Academy RICO, federal master packet Detroit schools, Brian Banks ICHAT SID 2029469K"
 +++
 
 Every document in this library comes from public records. You can [verify everything yourself](/validate/).

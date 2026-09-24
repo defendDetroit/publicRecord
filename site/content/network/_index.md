@@ -2,6 +2,9 @@
 title = "The Network"
 description = "The Banks Network — documented connections spanning charter schools, courts, political offices, and nonprofit entities in Detroit. Every connection sourced from public records."
 sort_by = "weight"
+
+[extra]
+keywords = "Brian Banks network map, Detroit charter school racketeering network, Wayne County judges Brian Banks, Purpose Charter Academy connections, MacDowell Preparatory Academy board, Banks enterprise diagram"
 +++
 
 This is not one bad actor. It is a **network** — convicted felons, judges, attorneys, and institutions connected through boards, campaigns, property, and family ties.

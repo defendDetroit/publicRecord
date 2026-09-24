@@ -1,11 +1,11 @@
 +++
 title = "Brian Roderick Banks — Enterprise Leader"
-description = "9 convictions (6 felony, 3 misdemeanor). Fake J.D. Fake Ph.D. Runs two Detroit charter schools receiving $4.9M+ in public funding. Controls 9+ entities registered to his Grosse Pointe Woods home."
+description = "Brian Roderick Banks — 9 criminal convictions (6 felony). State Bar of Michigan: zero results for claimed J.D. Runs Purpose Charter Academy and MacDowell Preparatory Academy ($4.9M+ public funding). ICHAT SID 2029469K."
 weight = 1
 date = 2026-09-20
 
 [extra]
-keywords = "Brian Banks Detroit, Brian Banks charter school, Brian Banks criminal record, Purpose Charter Academy superintendent, Brian Banks MSU Law, Brian Banks credentials, Brian Banks MacDowell, Brian Banks Purpose Group, Brian Banks Michigan House, Brian Banks convicted felon charter school, Brian Banks 9 convictions, Brian Banks It Had 2 Happen, Brian Banks superintendent Detroit"
+keywords = "Brian Banks Detroit, Brian Banks charter school, Brian Banks criminal record, Purpose Charter Academy superintendent, Brian Banks MSU Law, Brian Banks credentials, Brian Banks MacDowell, Brian Banks Purpose Group, Brian Banks Michigan House, Brian Banks convicted felon charter school, Brian Banks 9 convictions, Brian Banks It Had 2 Happen, Brian Banks superintendent Detroit, Brian Banks Pahara Fellowship, Brian Banks LinkedIn J.D. Ph.D., Brian Banks Walden PhD, Brian Banks not admitted bar, Brian Banks Grosse Pointe Woods, Brian Banks BMF nephew"
 +++
 
 ## Identity

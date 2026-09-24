@@ -1,11 +1,11 @@
 +++
 title = "Judge Cylenthia Miller"
-description = "Cylenthia Miller Wayne County judge election November 2026 — 3rd Circuit Court judge, Anchor Rock Foundation board chair, and Purpose Charter Academy connection. Public record profile for voters and journalists."
+description = "Judge Cylenthia Miller — Wayne County 3rd Circuit, running for re-election Nov 3, 2026. Anchor Rock Foundation board chair. Purpose Charter Academy development team member."
 weight = 1
 date = 2026-09-20
 
 [extra]
-keywords = "Cylenthia Miller, Cylenthia Miller judge, Cylenthia Miller Wayne County, Cylenthia Miller election 2026, Cylenthia Miller 3rd Circuit, Cylenthia Miller Anchor Rock Foundation, Cylenthia Miller Purpose Charter Academy, Cylenthia Miller Detroit, judge Cylenthia Miller reelection, Wayne County 3rd Circuit Court 2026"
+keywords = "Cylenthia Miller, Cylenthia Miller judge, Cylenthia Miller Wayne County, Cylenthia Miller election 2026, Cylenthia Miller 3rd Circuit, Cylenthia Miller Anchor Rock Foundation, Cylenthia Miller Purpose Charter Academy, Cylenthia Miller Detroit, judge Cylenthia Miller reelection, Wayne County 3rd Circuit Court 2026, Cylenthia Miller Purpose Charter Academy, Cylenthia Miller Anchor Rock Foundation, Cylenthia Miller election November 2026, Cylenthia Miller JTC complaint"
 +++
 
 ## Position
