@@ -12,7 +12,7 @@ Political figures who enabled the Banks charter school enterprise through author
 
 The political capture runs from Detroit city boards to Washington DC:
 
-- **[Sherry Gay-Dagnogo](/network/political/sherry-gay-dagnogo/)** — DPSCD Board member who authorized Banks' charter schools
+- **[Sherry Gay-Dagnogo](/network/political/sherry-gay-dagnogo/)** — Former DPSCD board member who authorized Banks' charter schools; now Detroit City Ombudsman (Oct 2025)
 - **[Billy McKinney](/network/political/billy-mckinney/)** — Campaign payments linking McKinney operation to Banks family
 - **[CBC Events](/analysis/cbc-events/)** — 4 years of Congressional Black Caucus Week parties in DC
 

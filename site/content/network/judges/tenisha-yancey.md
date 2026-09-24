@@ -5,7 +5,7 @@ weight = 2
 date = 2026-09-20
 
 [extra]
-keywords = "Tenisha Yancey, Tenisha Yancey judge, Tenisha Yancey Wayne County 3rd Circuit Court, Tenisha Yancey MacDowell, Tenisha Yancey board chair, Tenisha Yancey Brian Banks, Tenisha Yancey campaign finance, Banks Strategy LLC, MacDowell Preparatory Academy board, Detroit judge charter school"
+keywords = "Tenisha Yancey, Tenisha Yancey judge, Tenisha Yancey Wayne County 3rd Circuit Court, Tenisha Yancey MacDowell, Tenisha Yancey board chair, Tenisha Yancey Brian Banks, Tenisha Yancey campaign finance, Banks Strategy LLC, MacDowell Preparatory Academy board, Detroit judge charter school, Tenisha Yancey Wayne County Land Bank, Tenisha Yancey Harper Woods, Tenisha Yancey state representative HD-1, Tenisha Yancey Brian Banks successor"
 +++
 
 ## Position
@@ -66,10 +66,26 @@ Yancey sits on the **same court** as:
 - Campaign finance: [transparencyusa.org](https://transparencyusa.org) — search "Yancey" + "Banks Strategy"
 - Wayne County ROD: [waynecountylandrecords.com](https://www.waynecountylandrecords.com)
 
----
+## Wayne County Land Bank Background (2007–2013)
 
-*All sources are public campaign finance records.*
+Before her judicial career, Yancey was a **project manager at the Wayne County Land Bank** from approximately **2007 to 2013**, overseeing foreclosure-related programs including TURBO, Project Saved, and the Foreclosure Rehabilitation Initiative.
+
+| Connection | Detail |
+|------------|--------|
+| Same entity | The Wayne County Land Bank is chaired by Wayne County Treasurer **Eric R. Sabree** — father of [Adam Sabree](/network/judges/adam-sabree/) and [Aliyah Sabree](/network/judges/aliyah-sabree/) |
+| Foreclosure pipeline | The Land Bank processes the same foreclosures that Sabree's family has been investigated for exploiting at tax auctions |
+| HD-1 successor | Yancey succeeded [Brian Banks](/network/actors/brian-banks/) in **Michigan House District 1** after his February 2017 resignation, winning the November 2017 special election |
+| Harper Woods | Yancey resides in Harper Woods — same jurisdiction as multiple Banks-network property transactions |
+
+Yancey worked inside the foreclosure infrastructure that feeds distressed properties into the network's acquisition pipeline, then succeeded Banks in his legislative seat, then won a 36th District Court judgeship where she sits alongside two other network-connected judges.
 
 ## Independent Reporting
 
+- [Ballotpedia: Tenisha Yancey](https://ballotpedia.org/Tenisha_Yancey) — HD-1 special election (Nov 2017) after Banks resignation; Land Bank and legislative biography
+- [BallotReady: Tenisha Renee Yancey](https://www.ballotready.org/people/tenisha-renee-yancey) — Wayne County Land Bank project manager (2007–2013)
+- [36th District Court: Judge Tenisha Yancey](https://www.36thdistrictcourtmi.gov)
 - [Clutch Justice: MacDowell Preparatory Academy Spends $15,217 a Student. Three Percent Can Do Grade-Level Math.](https://clutchjustice.com/2026/09/13/macdowell-preparatory-academy-academic-financial-record/) — Documents Yancey listed as Board Chair of MacDowell alongside Nicole Wells Stallworth; three sitting judges across both schools' governance
+
+---
+
+*All sources are public campaign finance records.*

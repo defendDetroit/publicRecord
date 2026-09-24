@@ -26,7 +26,7 @@ See also: [RICO Pattern](/analysis/rico-pattern/) — full enterprise structure.
 |-------------|---------------|--------|
 | [Purpose Charter Academy](/network/entities/purpose-charter-academy/) | Banks is superintendent with fake credentials; [Purpose Group LLC](/network/entities/purpose-group-llc/) takes ~73% | Public dollars routed to CMO shell |
 | [MacDowell Preparatory Academy](/network/entities/macdowell-prep/) | Same structure; CMU as authorizer | $4.9M/yr state aid extracted |
-| DPSCD (authorizer) | Board member [Gay-Dagnogo](/network/political/sherry-gay-dagnogo/) is Banks' political ally and [CBC honoree](/analysis/cbc-events/) | Charter authorization by captured board |
+| DPSCD (authorizer) | Former board member [Gay-Dagnogo](/network/political/sherry-gay-dagnogo/) — Banks' political ally and [CBC honoree](/analysis/cbc-events/) — authorized charters before resigning for ombudsman role (Oct 2025) | Charter authorization by captured board |
 
 **Effect:** Students are the product, not the beneficiaries. Money flows from state per-pupil funding through shell entities to enterprise principals.
 
@@ -41,6 +41,8 @@ See also: [RICO Pattern](/analysis/rico-pattern/) — full enterprise structure.
 
 **Effect:** 4 judges in the same county system with demonstrable ties to the enterprise. Any case involving Banks, his schools, or his network risks landing before a captured judge.
 
+Three of these judges sit on **36th District Court** — the same court where Judge Andrea Bradley-Baskin was indicted in January 2026 for allegedly embezzling from incapacitated wards (no Banks connection; see [Allied Cases](/analysis/allied-cases/)).
+
 Corroboration: [Allied Cases](/analysis/allied-cases/) — Bryant v. Miller independently identified Miller.
 
 ## 3. Political Offices (Authorization)
@@ -48,7 +50,7 @@ Corroboration: [Allied Cases](/analysis/allied-cases/) — Bryant v. Miller inde
 | Office | Captured Actor | Method | Effect |
 |--------|---------------|--------|--------|
 | MI HD-1 (former) | [Brian Banks](/network/actors/brian-banks/) | Held office 2015–2016 with fake credentials | Political legitimacy for enterprise |
-| MI HD-1 (successor) | [Sherry Gay-Dagnogo](/network/political/sherry-gay-dagnogo/) | Now authorizes Banks' charters from DPSCD board | Direct authorization conflict |
+| MI HD-8 (former) | [Sherry Gay-Dagnogo](/network/political/sherry-gay-dagnogo/) | Authorized Banks' charters from DPSCD board; now Detroit City Ombudsman (Oct 2025) | Direct authorization conflict (historical) |
 | Wayne County Treasurer | Eric Sabree | Sister is [Judge Aliyah Sabree](/network/judges/aliyah-sabree/); office handles tax foreclosures | Housing distress pipeline |
 
 **Effect:** Political allies authorize the charter schools and protect the revenue stream.

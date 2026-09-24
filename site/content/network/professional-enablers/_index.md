@@ -2,13 +2,19 @@
 title = "Professional Enablers"
 description = "Attorneys and institutions who organized, authorized, or credentialed the Banks charter school enterprise — the professional infrastructure that made the fraud possible."
 weight = 5
-date = 2026-09-20
+sort_by = "weight"
 
 [extra]
-keywords = "Purpose Group LLC attorney, charter school authorization Michigan, Baker College Brian Banks, CMU charter school, Gary Perlmuter Purpose Group LLC, Jehan Crump-Gibson Purpose Foundation, Baker College Brian Banks faculty, CMU MacDowell charter authorization, MSU Law Brian Banks JD unverified"
+keywords = "Purpose Group LLC attorney, charter school authorization Michigan, Baker College Brian Banks, CMU charter school, Gary Perlmuter Purpose Group LLC, Jehan Crump-Gibson Purpose Foundation, Baker College Brian Banks faculty, CMU MacDowell charter authorization, MSU Law Brian Banks JD unverified, Todd Perkins attorney Detroit, Perkins Law Group Brian Banks"
 +++
 
 ## Attorneys
+
+### [Todd Perkins, Esq.](/network/professional-enablers/todd-perkins/)
+
+[Brian Banks](/network/actors/brian-banks/)' personal attorney. Represented [Judge Cylenthia Miller](/network/judges/cylenthia-miller/) in the DTW airport gun case. Brother of [Judge Sean Perkins](/network/judges/sean-perkins/) on 36th District Court. Ran for Detroit Mayor 2025 (4th place). City Attorney of Inkster.
+
+→ Full profile: [Todd Perkins](/network/professional-enablers/todd-perkins/)
 
 ### Jehan Crump-Gibson, Esq.
 
@@ -36,7 +42,7 @@ Authorized MacDowell Preparatory Academy's charter. CMU is supposed to vet chart
 
 ### DPSCD — Charter Authorizer
 
-Authorized Purpose Charter Academy's charter. Board includes Sherry Gay-Dagnogo — CBC honoree of Banks, successor to Banks' HD-1 seat.
+Authorized Purpose Charter Academy's charter. Former board member [Sherry Gay-Dagnogo](/network/political/sherry-gay-dagnogo/) — CBC honoree of Banks — authorized charters before resigning to become Detroit City Ombudsman (Oct 2025).
 
 **Question:** Did the board member with a social relationship to the charter operator recuse from the authorization vote?
 

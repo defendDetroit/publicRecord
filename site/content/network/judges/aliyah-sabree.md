@@ -5,7 +5,7 @@ weight = 3
 date = 2026-09-20
 
 [extra]
-keywords = "Aliyah Sabree, Aliyah Sabree judge, Aliyah Sabree Wayne County 3rd Circuit, Aliyah Sabree MSU Law, Aliyah Sabree Detroit, Eric Sabree sister, Aliyah Sabree Brian Banks"
+keywords = "Aliyah Sabree, Aliyah Sabree judge, Aliyah Sabree Wayne County 3rd Circuit, Aliyah Sabree MSU Law, Aliyah Sabree Detroit, Eric Sabree sister, Aliyah Sabree Brian Banks, Aliyah Sabree Daisy Elliott, Aliyah Sabree great-granddaughter civil rights, Aliyah Sabree Youngstown State, Aliyah Sabree DWSD counsel"
 +++
 
 ## Position
@@ -73,6 +73,16 @@ Sources: Detroit News (Feb 12, Mar 15, Jul 10, 2019); Metro Times (Jul 10, 2019)
 - Bowles v. Sabree: PACER, E.D. Mich
 - Detroit News FBI reporting: [detroitnews.com](https://www.detroitnews.com) (Feb–Jul 2019)
 - Ballotpedia: Aliyah Sabree — November 3, 2026 election
+
+## Daisy Elliott Lineage
+
+Aliyah Sabree is the **great-granddaughter of civil rights activist Daisy Elliott**, who co-authored Michigan's **Elliott-Larsen Civil Rights Act**. This lineage is widely cited in her appointment press coverage.
+
+## Independent Reporting
+
+- [Gov. Whitmer press release (May 15, 2025)](https://www.michigan.gov/whitmer/news/press-releases/2025/05/15/whitmer-makes-appointments-to-the-bench) — Third Circuit appointment; prior roles at DWSD and Mayor's Office
+- [Michigan Lawyers Weekly (Oct 11, 2017)](https://milawyersweekly.com/news/2017/10/11/new-detroit-district-court-judge-is-appointed/) — 36th District appointment; great-granddaughter of Daisy Elliott
+- [Ballotpedia: Aliyah Sabree](https://ballotpedia.org/Aliyah_Sabree) — election and career timeline
 
 ---
 

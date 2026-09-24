@@ -5,7 +5,7 @@ weight = 6
 date = 2026-09-20
 
 [extra]
-keywords = "Adam Sabree judge, Adam Sabree 36th District Court, Adam Sabree Metro Property Group, Adam Sabree Eric Sabree son, Adam Sabree Wayne County, Adam Sabree Detroit, Adam Sabree RICO, Sabree family Detroit judges, Adam Sabree Woodward Law Group"
+keywords = "Adam Sabree judge, Adam Sabree 36th District Court, Adam Sabree Metro Property Group, Adam Sabree Eric Sabree son, Adam Sabree Wayne County, Adam Sabree Detroit, Adam Sabree RICO, Sabree family Detroit judges, Adam Sabree Woodward Law Group, Adam Sabree Caldwell University, Adam Sabree MSU Law 2011, Adam Sabree adjunct professor Wayne County Community College, Adam Sabree Tenisha Yancey same election"
 +++
 
 ## Position
@@ -86,6 +86,11 @@ Detroit News (Mar 15, 2019): "The FBI is looking into land deals by the family o
 - Detroit News (Feb–Jul 2019): Eric Sabree FBI/land deal reporting — [detroitnews.com](https://www.detroitnews.com)
 - votesabree.com (archived campaign materials)
 - Ballotpedia: Adam Sabree
+
+## Independent Reporting
+
+- [36th District Court: Judge Adam Sabree](https://www.36thdistrictcourtmi.gov)
+- [Ballotpedia: Adam Sabree](https://ballotpedia.org/Adam_Sabree) — elected November 2022 alongside [Tenisha Yancey](/network/judges/tenisha-yancey/) and [Sean Perkins](/network/judges/sean-perkins/)
 
 ---
 

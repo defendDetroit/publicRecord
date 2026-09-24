@@ -5,7 +5,7 @@ weight = 7
 date = 2026-09-20
 
 [extra]
-keywords = "Sean Perkins judge, Sean Perkins 36th District Court, Sean Perkins Todd Perkins brother, Sean Perkins Brian Banks attorney, Sean Perkins Detroit, Sean Perkins Wayne County, Perkins brothers Detroit judges"
+keywords = "Sean Perkins judge, Sean Perkins 36th District Court, Sean Perkins Todd Perkins brother, Sean Perkins Brian Banks attorney, Sean Perkins Detroit, Sean Perkins Wayne County, Perkins brothers Detroit judges, Sean Perkins Perkins Law Group, Sean Perkins Wayne State University, Sean Perkins Thomas M Cooley Law School, Sean Perkins UAW Local 387"
 +++
 
 ## Position
@@ -29,7 +29,7 @@ Sean literally worked at Todd Perkins' firm before becoming a judge.
 
 ## Connection to Banks Network
 
-### Brother: Todd Perkins ([Brian Banks](/network/actors/brian-banks/)' Attorney)
+### Brother: [Todd Perkins](/network/professional-enablers/todd-perkins/) ([Brian Banks](/network/actors/brian-banks/)' Attorney)
 
 - Wikipedia confirms: "His brother, Todd Perkins, is a Detroit attorney who heads Perkins Law Group."
 - Todd represents Banks in legal matters — including as [Judge Cylenthia Miller](/network/judges/cylenthia-miller/)'s attorney in the **DTW airport gun case** (Jun 2024)
@@ -69,6 +69,13 @@ Sean Perkins sits on the **same court** as:
 - Wikipedia: [Sean Perkins (judge)](https://en.wikipedia.org/wiki/Sean_Perkins_(judge))
 - Gov. Whitmer press release (May 5, 2021): [gov.michigan.gov](https://www.michigan.gov/gov)
 - Ballotpedia: Sean Perkins
+
+## Independent Reporting
+
+- [Gov. Whitmer press release (May 5, 2021)](https://www.michigan.gov/gov) — appointment to 36th District Court; prior role at **Perkins Law Group, PLLC**
+- [Ballotpedia: Sean Perkins](https://ballotpedia.org/Sean_Perkins) — November 2022 election (55,443 votes)
+- [Detroit News: Whitmer appointment coverage (2021)](https://www.detroitnews.com)
+- [Todd Perkins profile](/network/professional-enablers/todd-perkins/) — brother; Banks' attorney; Perkins Law Group
 
 ---
 

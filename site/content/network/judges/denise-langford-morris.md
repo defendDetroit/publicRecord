@@ -5,7 +5,7 @@ weight = 9
 date = 2026-09-20
 
 [extra]
-keywords = "Denise Langford Morris judge, Denise Langford Morris retired, Denise Langford Morris Oakland County, Denise Langford Morris Brian Banks book, Denise Langford Morris foreword, Denise Langford Morris JAMS, Langford Morris Oakland County Circuit"
+keywords = "Denise Langford Morris judge, Denise Langford Morris retired, Denise Langford Morris Oakland County, Denise Langford Morris Brian Banks book, Denise Langford Morris foreword, Denise Langford Morris JAMS, Langford Morris Oakland County Circuit, Denise Langford Morris NBA Hall of Fame 2025, Denise Langford Morris assistant US attorney, Denise Langford Morris first African American Oakland County, Denise Langford Morris Cornell University"
 +++
 
 ## Position
@@ -58,6 +58,12 @@ Banks' book describes a **"Revelation Day"** — a female Oakland County Circuit
 - ClickOnDetroit (Mar 2023): retirement/firsts coverage
 - JAMS press release: NBA 2025 Hall of Fame induction
 - Banks' book foreword: ISBN **978-1-7357540-3-1**
+
+## Independent Reporting
+
+- [JAMS profile: Denise Langford Morris](https://www.jams.com) — mediator/arbitrator, Detroit
+- [NBA Fred D. Gray Hall of Fame (Jul 31, 2025)](https://www.nba.com) — 2025 inductee
+- [ClickOnDetroit (Mar 2023)](https://www.clickondetroit.com) — retirement and judicial firsts coverage
 
 ---
 

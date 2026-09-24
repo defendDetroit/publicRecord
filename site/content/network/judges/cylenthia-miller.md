@@ -5,7 +5,7 @@ weight = 1
 date = 2026-09-20
 
 [extra]
-keywords = "Cylenthia Miller, Cylenthia Miller judge, Cylenthia Miller Wayne County, Cylenthia Miller election 2026, Cylenthia Miller 3rd Circuit, Cylenthia Miller Anchor Rock Foundation, Cylenthia Miller Purpose Charter Academy, Cylenthia Miller Detroit, judge Cylenthia Miller reelection, Wayne County 3rd Circuit Court 2026, Cylenthia Miller Purpose Charter Academy, Cylenthia Miller Anchor Rock Foundation, Cylenthia Miller election November 2026, Cylenthia Miller JTC complaint"
+keywords = "Cylenthia Miller, Cylenthia Miller judge, Cylenthia Miller Wayne County, Cylenthia Miller election 2026, Cylenthia Miller 3rd Circuit, Cylenthia Miller Anchor Rock Foundation, Cylenthia Miller Purpose Charter Academy, Cylenthia Miller Detroit, judge Cylenthia Miller reelection, Wayne County 3rd Circuit Court 2026, Cylenthia Miller Purpose Charter Academy, Cylenthia Miller Anchor Rock Foundation, Cylenthia Miller election November 2026, Cylenthia Miller JTC complaint, Cylenthia Miller scandal, Cylenthia Miller gun airport, Cylenthia Miller infant murder case dismissed, Cylenthia Miller Baker College Brian Banks, Cylenthia Miller Todd Perkins, keepjudgemiller.com"
 +++
 
 ## Position
@@ -49,6 +49,7 @@ Public record of JTC complaint and network connections are available to voters a
 
 - [WXYZ Detroit: Wayne County judge's decision to dismiss infant murder case questioned](https://www.wxyz.com/news/local-news/investigations/wayne-county-judges-decision-to-dismiss-infant-murder-case-questioned) — Prosecutor Kym Worthy's office alleged Miller "displayed a bias throughout the trial"
 - [Ballotpedia: Cylenthia LaToye Miller](https://ballotpedia.org/Cylenthia_LaToye_Miller) — On the ballot November 3, 2026 (general election, nonpartisan)
+- [keepjudgemiller.com](https://keepjudgemiller.com) — Miller campaign site listing endorsers including Eric Sabree
 
 ## Three Active Scandals
 
@@ -57,7 +58,7 @@ Public record of JTC complaint and network connections are available to voters a
 - Loaded .380 S&W found in purse by TSA. Unregistered.
 - Told police she got it "from her brother" in Ohio — Todd Perkins later admitted the man was NOT a relative
 - Pled no contest. $1,400 fines, 90 days probation
-- **Attorney: Todd Perkins** ([Brian Banks](/network/actors/brian-banks/)' attorney) — see [Sean Perkins](/network/judges/sean-perkins/)
+- **Attorney: [Todd Perkins](/network/professional-enablers/todd-perkins/)** ([Brian Banks](/network/actors/brian-banks/)' attorney) — see [Sean Perkins](/network/judges/sean-perkins/)
 - Prosecutor Worthy recused
 - **JTC Outcome:** "Dismissed with an admonition" — take precautions before travel and "ensure the veracity of future statements to police"
 - Rita Williams (Clutch Justice) identified Miller from anonymized JTC report

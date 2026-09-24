@@ -56,6 +56,22 @@ See also: [RICO Pattern](/analysis/rico-pattern/) — judicial cover layer.
 
 Miller sits at the intersection of courts, schools, and the Banks network. Bryant's independent identification of Miller validates the pattern analysis across multiple unrelated sources.
 
+## 36th District Court — Bradley-Baskin Indictment (Context)
+
+The 36th District Court — where **three Banks-network judges** sit ([Tenisha Yancey](/network/judges/tenisha-yancey/), [Adam Sabree](/network/judges/adam-sabree/), [Sean Perkins](/network/judges/sean-perkins/)) — is also where **Judge Andrea Bradley-Baskin** was federally indicted in **January 2026** for allegedly embezzling hundreds of thousands of dollars from incapacitated wards.
+
+| Field | Detail |
+|-------|--------|
+| Indictment date | January 30, 2026 |
+| Court | 36th District Court (Detroit) |
+| Charges | Conspiracy to commit wire fraud, money laundering, false statement to federal agent |
+| Allegations | Used $70,000 in ward funds for bar ownership stake; ward-estate money for Ford Expedition lease |
+| Status | Removed from docket; pleaded not guilty |
+
+**This is not a Banks-network connection.** Bradley-Baskin is a separate judge on the same court. The indictment establishes the broader institutional environment — a court where fiduciary abuse of vulnerable wards is alleged at the judicial level.
+
+Sources: [DOJ USAO-EDMI press release](https://www.justice.gov/usao-edmi/pr/sitting-judge-and-three-others-charged-scheme-steal-hundreds-thousands-dollars), [Detroit Free Press (Jan 30, 2026)](https://www.freep.com/story/news/local/michigan/wayne/2026/01/30/wayne-county-judge-andrea-bradley-baskin-embezzlement/88432584007/)
+
 ## Future Allied Cases (Expected)
 
 As the public record grows, other harmed parties may emerge:
