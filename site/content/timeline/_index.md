@@ -112,10 +112,12 @@ The investigation goes public. {{ actor(key="holland") }}'s MDOC record shows di
 | Sep 18–19 | Banks hosts CBC Reception at Kitchen + Kocktails, DC | Eventbrite |
 | Sep 20 | ICHAT pulled — 9 convictions confirmed | MI ICHAT |
 | Sep 21 | Clutch Justice publishes "The Detroit Files, Part I: The Room" | {{ source(key="clutch_justice", path="/2026/09/21/detroit-files-part-1-the-room/", label="Clutch Justice") }} |
-| **Sep 22** | **Federal Master Packet — scheduled delivery to 8 agencies** | Prepared |
-| **Sep 22** | **Journalist briefing packet — scheduled distribution** | Prepared |
+| **Sep 22** | **Federal Master Packet — delivered to 8 agencies (DOJ, FBI, IRS, ED-OIG, FTC, SEC, USED, FinCEN)** | Filed |
+| **Sep 22** | **Journalist briefing packets distributed — Clutch Justice, Free Press, WXYZ** | Filed |
 | Sep 23 | Clutch Justice publishes FOIA guide for Michigan school board records | {{ source(key="clutch_justice", path="/2026/09/23/foia-michigan-school-board-records-guide/", label="Clutch Justice") }} |
-| Sep 24 | detroit.primals.eco expanded to 95+ pages with Clutch Justice integration | [This site](https://detroit.primals.eco) |
+| Sep 23 | Google indexes detroit.primals.eco homepage | Google Search Console |
+| Sep 24 | detroit.primals.eco expanded to 97 pages — search, sidebar nav, Clutch Justice integration | [This site](https://detroit.primals.eco) |
+| **Sep 24** | **PCA Board roster documented: AG employee (Moreland) + City Council (Johnson) discovered** | [PCA Board](https://www.purposecharteracademy.com/boardofdirectors) |
 
 Source: {{ source(key="mdoc_otis", query="MDOC #443789") }}, {{ source(key="ichat", query="SID 2029469K") }}
 

@@ -104,6 +104,10 @@
       <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
+      <div class="search-wrapper" id="search-wrapper">
+        <input type="search" id="search-input" placeholder="Search names, entities…" autocomplete="off" aria-label="Search site">
+        <div class="search-results" id="search-results"></div>
+      </div>
       <ul class="nav-links" id="nav-links">
         <li><a href="{{ get_url(path='@/open-letters/_index.md') }}">Open Letters</a></li>
         <li><a href="{{ get_url(path='@/evidence/_index.md') }}">Evidence</a></li>
@@ -132,6 +136,9 @@
       <p>
         Source: <a href="{{ config.extra.repo_url }}">git.primals.eco/publicRecord/detroit</a> —
         clone the repo, verify everything.
+        <br>Certified: {{ now() | date(format='%Y-%m-%d') }} |
+        <a href="{{ get_url(path='@/validate/_index.md') }}">Verify</a> |
+        <a href="{{ config.extra.repo_url }}/src/branch/main/content-manifest.toml">BLAKE3 Manifest</a>
       </p>
       {% block commit_info %}{% endblock commit_info %}
       <p class="footer-license">
@@ -144,7 +151,7 @@
   <script type="module">
     import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
     mermaid.initialize({
-      startOnLoad: true,
+      startOnLoad: false,
       theme: 'dark',
       themeVariables: {
         primaryColor: '#1e3a5f',
@@ -162,9 +169,42 @@
       flowchart: { curve: 'basis', padding: 12 },
       securityLevel: 'loose'
     });
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', () => mermaid.run());
+    } else {
+      await mermaid.run();
+    }
   </script>
+  <script src="{{ get_url(path='elasticlunr.min.js') }}"></script>
+  <script src="{{ get_url(path='search_index.en.js') }}"></script>
   <script>
     (function() {
+      // Full-text search
+      var searchInput = document.getElementById('search-input');
+      var searchResults = document.getElementById('search-results');
+      var idx = null;
+      if (searchInput && window.searchIndex) {
+        idx = elasticlunr.Index.load(window.searchIndex);
+        searchInput.addEventListener('input', function() {
+          var q = this.value.trim();
+          if (q.length < 2) { searchResults.innerHTML = ''; searchResults.style.display = 'none'; return; }
+          var results = idx.search(q, { fields: { title: {boost: 3}, body: {boost: 1}, description: {boost: 2} }, expand: true });
+          if (!results.length) { searchResults.innerHTML = '<div class="sr-empty">No results</div>'; searchResults.style.display = 'block'; return; }
+          var html = results.slice(0, 8).map(function(r) {
+            var doc = idx.documentStore.getDoc(r.ref);
+            return '<a class="sr-item" href="' + r.ref + '"><strong>' + (doc.title || 'Untitled') + '</strong><span>' + (doc.description || '').slice(0, 120) + '</span></a>';
+          }).join('');
+          searchResults.innerHTML = html;
+          searchResults.style.display = 'block';
+        });
+        document.addEventListener('click', function(e) {
+          if (!e.target.closest('#search-wrapper')) { searchResults.style.display = 'none'; }
+        });
+        searchInput.addEventListener('keydown', function(e) {
+          if (e.key === 'Escape') { searchResults.style.display = 'none'; this.blur(); }
+        });
+      }
+
       // Nav toggle
       var toggle = document.querySelector('.nav-toggle');
       var links = document.querySelector('.nav-links');

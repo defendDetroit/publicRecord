@@ -48,6 +48,33 @@
 {% endif %}
 </script>
 {% endif %}
+<div class="page-with-sidebar">
+{% if page.ancestors | length > 1 %}
+<aside class="page-sidebar" aria-label="Section navigation">
+  {% set parent = get_section(path=page.ancestors | last) %}
+  <nav class="sidebar-nav">
+    <strong class="sidebar-title"><a href="{{ parent.permalink }}">{{ parent.title }}</a></strong>
+    <ul>
+      {% for sibling in parent.pages %}
+      <li{% if sibling.permalink == page.permalink %} class="sidebar-current"{% endif %}>
+        <a href="{{ sibling.permalink }}">{{ sibling.title | split(pat=" — ") | first }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+    {% if parent.subsections | length > 0 %}
+    {% for sub_path in parent.subsections %}
+      {% set sub = get_section(path=sub_path) %}
+      <strong class="sidebar-subtitle"><a href="{{ sub.permalink }}">{{ sub.title }}</a></strong>
+      <ul>
+        {% for sub_page in sub.pages %}
+        <li><a href="{{ sub_page.permalink }}">{{ sub_page.title | split(pat=" — ") | first }}</a></li>
+        {% endfor %}
+      </ul>
+    {% endfor %}
+    {% endif %}
+  </nav>
+</aside>
+{% endif %}
 <article class="page-content">
   <header>
     <nav class="breadcrumbs" aria-label="Breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
@@ -101,4 +128,5 @@
     </p>
   </footer>
 </article>
+</div>
 {% endblock content %}

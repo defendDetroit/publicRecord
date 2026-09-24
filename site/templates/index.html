@@ -4,9 +4,13 @@
 <section class="hero">
   <h1>Cash for Kids 2: A Public Record</h1>
   <p class="hero-sub">Documenting a Detroit charter school network. <em>Records documented; legal conclusions submitted for agency determination.</em></p>
-  <p class="hero-asof" style="font-size:0.85rem;color:var(--muted,#6c757d);margin-top:-0.5rem;">As of September 20, 2026 · <a href="{{ config.extra.repo_url }}" style="color:inherit;">Source repository</a></p>
+  <p class="hero-asof" style="font-size:0.85rem;color:var(--muted,#6c757d);margin-top:-0.5rem;">As of September 24, 2026 — 7 cases filed · 8 agencies notified · <a href="{{ config.extra.repo_url }}" style="color:inherit;">Source repository</a></p>
 
   <div class="stats-bar">
+    <div class="stat">
+      <span class="stat-number">{{ config.extra.actors.banks.conviction_count }}</span>
+      <span class="stat-label">Criminal convictions</span>
+    </div>
     <div class="stat">
       <span class="stat-number">{{ config.extra.entities.macdowell.revenue }}</span>
       <span class="stat-label">Annual public funding</span>
@@ -16,12 +20,16 @@
       <span class="stat-label">To management LLC</span>
     </div>
     <div class="stat">
-      <span class="stat-number">{{ config.extra.actors.banks.conviction_count }}</span>
-      <span class="stat-label">Criminal convictions</span>
+      <span class="stat-number">3%</span>
+      <span class="stat-label">Math proficiency</span>
     </div>
     <div class="stat">
       <span class="stat-number">9</span>
       <span class="stat-label">Judges across 4 courts</span>
+    </div>
+    <div class="stat">
+      <span class="stat-number">$12.95M</span>
+      <span class="stat-label">Extracted (est. 2019–2026)</span>
     </div>
   </div>
 </section>
@@ -46,10 +54,40 @@
   </p>
 </section>
 
-<section class="cta-row">
-  <a href="{{ get_url(path='@/open-letters/_index.md') }}" class="cta">Read the Letters</a>
-  <a href="{{ get_url(path='@/evidence/_index.md') }}" class="cta">See the Evidence</a>
-  <a href="{{ get_url(path='@/validate/_index.md') }}" class="cta cta-outline">Verify Everything</a>
+<section class="audience-cards">
+  <h2>Find Your Path</h2>
+  <div class="card-grid">
+    <a href="{{ get_url(path='@/validate/_index.md') }}" class="audience-card">
+      <span class="card-icon">🔍</span>
+      <strong>Verify Everything</strong>
+      <span>Step-by-step instructions to verify every claim against public databases</span>
+    </a>
+    <a href="{{ get_url(path='@/evidence/_index.md') }}" class="audience-card">
+      <span class="card-icon">📁</span>
+      <strong>See the Evidence</strong>
+      <span>Categorized evidence with BLAKE3 integrity hashes and source citations</span>
+    </a>
+    <a href="#for-parents" class="audience-card">
+      <span class="card-icon">👨‍👩‍👧</span>
+      <strong>For Parents</strong>
+      <span>Your child's school. Your right to know. Records you can request.</span>
+    </a>
+    <a href="#for-media" class="audience-card">
+      <span class="card-icon">📰</span>
+      <strong>For Journalists</strong>
+      <span>Sourced, clonable evidence package. No FOIA required.</span>
+    </a>
+    <a href="{{ get_url(path='@/open-letters/_index.md') }}" class="audience-card">
+      <span class="card-icon">✉️</span>
+      <strong>Read the Letters</strong>
+      <span>Demand letters to responsible agencies and institutions</span>
+    </a>
+    <a href="{{ get_url(path='@/network/_index.md') }}" class="audience-card">
+      <span class="card-icon">🕸️</span>
+      <strong>Network Map</strong>
+      <span>Interactive visualization of actors, entities, and connections</span>
+    </a>
+  </div>
 </section>
 
 <section class="network-preview">
@@ -82,7 +120,7 @@
   <p><a href="{{ get_url(path='@/network/entities/_index.md') }}">See the entity map →</a></p>
 </section>
 
-<section class="for-parents">
+<section class="for-parents" id="for-parents">
   <h2>For Parents</h2>
   <p>
     If your child attends <strong>Purpose Charter Academy</strong> or
@@ -93,16 +131,17 @@
   </p>
 </section>
 
-<section class="for-media">
+<section class="for-media" id="for-media">
   <h2>For Journalists</h2>
   <p>
     Everything on this site is sourced from public records. Key findings have been
     <strong>independently confirmed</strong> by
-    <a href="https://clutchjustice.com/2026/09/13/macdowell-preparatory-academy-academic-financial-record/">Clutch Justice</a>,
+    <a href="https://clutchjustice.com/2026/09/13/macdowell-preparatory-academy-academic-financial-record/">Clutch Justice</a> (primary analytical reference),
     the <a href="https://eu.freep.com/story/news/columnists/ml-elrick/2023/08/27/detroit-school-former-felon-as-principal/70669868007/">Detroit Free Press</a>,
+    <a href="https://www.wxyz.com/news/local-news/investigations/">WXYZ Detroit</a>,
     and other outlets. The <a href="{{ config.extra.repo_url }}">git repository</a> contains
     the complete evidence package with full provenance chain.
-    Clone it — no FOIA required.
+    Clone it — no FOIA required. Use <a href="{{ get_url(path='llms.txt') }}"><code>llms.txt</code></a> for AI-assisted research.
   </p>
   <p>Contact: <a href="{{ get_url(path='@/contact/_index.md') }}">secure contact options</a></p>
 </section>
