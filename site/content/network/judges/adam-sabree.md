@@ -22,7 +22,7 @@ connections = ["family", "employment", "RICO predicate"]
 | Elected | November 2022 |
 | Term Ends | **January 1, 2029** |
 
-## Prior Career — Metro Property Group (RICO-Accused)
+## Prior Career — Metro Property Group (RICO-Accused) {{ confidence(level="documented") }}
 
 | Field | Detail |
 |-------|--------|

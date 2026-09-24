@@ -26,7 +26,7 @@ connections = ["family", "campaign finance", "business entity"]
 
 Sabree's elected office controls the county tax foreclosure pipeline: delinquent-property auctions, surplus funds, and coordination with the Wayne County Land Bank.
 
-## Family Connections — Judicial Dynasty
+## Family Connections — Judicial Dynasty {{ confidence(level="verified") }}
 
 | Person | Role | Connection |
 |--------|------|------------|
@@ -36,7 +36,7 @@ Sabree's elected office controls the county tax foreclosure pipeline: delinquent
 
 Two of Sabree's children now sit on the bench — one in Family Division custody cases, one on the 36th District Court alongside {{ actor(key="yancey") }} and {{ actor(key="sean_perkins") }}. See [Institutional Capture](/analysis/institutional-capture/) for how the Sabree family supplies judicial cover while the treasurer's office controls the foreclosure mechanism.
 
-## FBI Investigation (2019)
+## FBI Investigation (2019) {{ confidence(level="reported") }}
 
 Detroit News (Mar 15, 2019): "The FBI is looking into land deals by the family of Wayne County Treasurer Eric Sabree." FBI Special Agent Mara Schneider "neither confirmed nor denied the existence of an investigation."
 

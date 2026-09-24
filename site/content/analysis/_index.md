@@ -5,16 +5,20 @@ sort_by = "weight"
 weight = 3
 
 [extra]
-keywords = "Detroit charter school RICO, Banks enterprise pattern, institutional capture Detroit, Detroit corruption analysis, charter school racketeering pattern, Wayne County judicial capture"
+keywords = "Detroit charter school RICO, Banks enterprise pattern, institutional capture Detroit, Detroit corruption analysis, charter school racketeering pattern, Wayne County judicial capture, 18 USC 1961 charter school, allied cases Wayne County, Bowles v Sabree class action"
 +++
 
 Analysis of the documented patterns connecting convicted felons, captured courts, political offices, and public education dollars in Detroit. Every pattern is sourced from public records.
 
-- **[RICO Pattern](/analysis/rico-pattern/)** — Enterprise structure, predicate acts, 14+ years continuity
-- **[Institutional Capture](/analysis/institutional-capture/)** — Schools, courts, and political authorization
-- **[Allied Cases](/analysis/allied-cases/)** — Independent litigants corroborating the pattern
-- **[CBC Week Events](/analysis/cbc-events/)** — 4 years of Congressional Black Caucus networking
+| Analysis | Key Finding |
+|----------|-------------|
+| **[RICO Pattern](/analysis/rico-pattern/)** | 6 predicate acts, 14+ years of continuity, $4.9M annual extraction |
+| **[Institutional Capture](/analysis/institutional-capture/)** | 9 judges across 4 courts, dual-felon governance, charter authorization feedback loop |
+| **[Allied Cases](/analysis/allied-cases/)** | 3 independent litigants corroborate the pattern: Bryant v. Miller, Bradley-Baskin, Bowles v. Sabree |
+| **[CBC Week Events](/analysis/cbc-events/)** | 4 consecutive years of Congressional Black Caucus networking in Washington DC |
+
+The analysis proceeds from evidence to pattern — never the reverse. Where conclusions are drawn, they are clearly marked as analysis submitted for agency determination, not legal findings. See [Legal Protections](/legal/) for the framework and [Verify Everything](/validate/) to check any claim.
 
 ---
 
-*All sources are public records. See [Verify Everything](/validate/) for source links.*
+*All sources are public records. See [Sources](/sources/) for the complete database catalog.*

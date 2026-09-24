@@ -22,14 +22,14 @@ connections = ["family", "campaign finance", "business entity"]
 | Status | Elected |
 | Previous | **36th District Court (2014–2018)** — same court where [Yancey](/network/judges/tenisha-yancey/), [Adam Sabree](/network/judges/adam-sabree/), and [Sean Perkins](/network/judges/sean-perkins/) now sit |
 
-## Relationship to Other Perkins Network Members
+## Relationship to Other Perkins Network Members {{ confidence(level="unconfirmed", note="surname match only — family tie not independently verified") }}
 
 | Person | Relationship | Confirmed? |
 |--------|-------------|------------|
 | **Todd Perkins** | Shares surname | **UNCONFIRMED** |
 | **Sean Perkins** | Wikipedia confirms Sean and Todd are brothers. David's relationship to them is **NOT confirmed.** | **UNCONFIRMED** |
 
-## Connection to Banks Network
+## Connection to Banks Network {{ confidence(level="documented") }}
 
 | Connection | Detail | Source |
 |------------|--------|--------|

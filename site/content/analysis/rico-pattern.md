@@ -16,7 +16,7 @@ connections = ["RICO predicate", "credential fraud", "campaign finance", "busine
 
 The Banks enterprise operates as a documented racketeering pattern across charter schools, shell entities, captured courts, and political infrastructure. This analysis maps the structure under 18 U.S.C. § 1961.
 
-## Enterprise Structure
+## Enterprise Structure {{ confidence(level="documented") }}
 
 ```
 BRIAN RODERICK BANKS (9 convictions, 3 bankruptcies, fake J.D.)

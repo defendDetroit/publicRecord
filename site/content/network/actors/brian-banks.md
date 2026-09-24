@@ -23,7 +23,7 @@ connections = ["criminal record", "credential fraud", "business entity", "family
 | SID | 2029469K | MI ICHAT |
 | Residence | Grosse Pointe Woods, MI | Wayne ROD, LARA |
 
-## Criminal History — 9 Convictions (6 Felony, 3 Misdemeanor)
+## Criminal History — 9 Convictions (6 Felony, 3 Misdemeanor) {{ confidence(level="verified") }}
 
 **Across 5 agencies and 5 courts (1998–2017)**
 
@@ -47,7 +47,7 @@ connections = ["criminal record", "credential fraud", "business entity", "family
 | Maximum statutory exposure | ≥50 years |
 | Actual confirmed incarceration | **≤8 months + 1 day** |
 
-## Credential Fraud
+## Credential Fraud {{ confidence(level="verified") }}
 
 Banks claims **"J.D."** from Michigan State University College of Law. **He has never been admitted to any bar.**
 
@@ -61,7 +61,7 @@ Banks claims **"J.D."** from Michigan State University College of Law. **He has 
 
 State Bar of Michigan search for "Brian Banks": **zero results**.
 
-## Astroturf Credential Amplification
+## Astroturf Credential Amplification {{ confidence(level="verified") }}
 
 Banks has invested heavily in social engineering his background across professional and fellowship platforms:
 
@@ -78,7 +78,7 @@ Judge {{ actor(key="miller") }}'s LinkedIn post (March 24, 2026) publicly celebr
 
 A sitting judge publicly endorsing a man with 9 criminal convictions using credentials not confirmed by bar records.
 
-## BMF Lineage
+## BMF Lineage {{ confidence(level="documented") }}
 
 Banks is the **nephew of Tonesa Welch** through his biological father **{{ fact(section="bmf", field="father") }}** — BMF Defendant #22 in *USA v. Flenory et al* ({{ fact(section="bmf", field="father_case") }}).
 

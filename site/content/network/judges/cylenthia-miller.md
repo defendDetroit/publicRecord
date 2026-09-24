@@ -22,7 +22,7 @@ connections = ["board membership", "legal representation", "mentorship", "campai
 | Status | Elected — **up for election November 3, 2026** |
 | Education | J.D., Michigan State University College of Law |
 
-## Connection to Banks Network
+## Connection to Banks Network {{ confidence(level="verified") }}
 
 | Role | Entity | Source |
 |------|--------|--------|
@@ -66,7 +66,7 @@ Public record of JTC complaint and network connections are available to voters a
 - {{ source(key="ballotpedia", path="/Cylenthia_LaToye_Miller", label="Cylenthia LaToye Miller") }} — On the ballot November 3, 2026 (general election, nonpartisan)
 - [keepjudgemiller.com](https://keepjudgemiller.com) — Miller campaign site listing endorsers including Eric Sabree
 
-## Three Active Scandals
+## Three Active Scandals {{ confidence(level="reported") }}
 
 ### 1. Gun at DTW Airport (Jun 2024)
 
@@ -99,7 +99,7 @@ LinkedIn post (Mar 24, 2026):
 
 > "I am so honored and proud to serve as the Chairperson of the Board of Directors of this amazing new school - Purpose Charter Academy for Law & Public Service! Way to lead, Brian Banks, J.D., Ph.D.!"
 
-## Baker College Teaching Nexus
+## Baker College Teaching Nexus {{ confidence(level="documented") }}
 
 | Person | Role at Baker College |
 |--------|----------------------|

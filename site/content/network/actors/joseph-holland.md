@@ -24,7 +24,7 @@ connections = ["employment", "board membership", "campaign finance", "business e
 | Discharge | May 8, 2024 — **"WITHOUT IMPROVEMENT"** | MDOC OTIS |
 | Residence | Grosse Pointe Woods, MI (same address as Banks — co-resident) | LARA |
 
-## Criminal Record
+## Criminal Record {{ confidence(level="verified") }}
 
 | Charge | Date | Agency | Disposition |
 |--------|------|--------|-------------|
@@ -32,7 +32,7 @@ connections = ["employment", "board membership", "campaign finance", "business e
 
 Discharged from MDOC supervision **"WITHOUT IMPROVEMENT"** — the system determined he did not benefit from supervision.
 
-## Roles in Banks Network
+## Roles in Banks Network {{ confidence(level="documented") }}
 
 | Entity | Role | Source |
 |--------|------|--------|

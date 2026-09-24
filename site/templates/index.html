@@ -20,8 +20,8 @@
       <span class="stat-label">Criminal convictions</span>
     </div>
     <div class="stat">
-      <span class="stat-number">8</span>
-      <span class="stat-label">Federal agencies targeted</span>
+      <span class="stat-number">9</span>
+      <span class="stat-label">Judges across 4 courts</span>
     </div>
   </div>
 </section>
@@ -33,10 +33,10 @@
     <strong>not confirmed by bar records</strong>
     runs two Detroit charter schools receiving millions in public education funding.
     His management company receives <strong>{{ config.extra.entities.macdowell.extraction_pct }} of all revenue</strong> through a
-    single-member LLC. His co-resident and financial officer is a <strong>convicted drug offender</strong>
-    discharged from prison {{ config.extra.actors.holland.discharge | lower }}. Four Wayne County judges have
-    documented connections to his network. His biological father is a federal defendant
-    in the BMF (Black Mafia Family) case.
+    single-member LLC.     His co-resident and financial officer is a <strong>convicted drug offender</strong>
+    discharged from prison {{ config.extra.actors.holland.discharge | lower }}. Nine judges across four
+    Wayne County courts have documented connections to his network. His biological
+    father is a federal defendant in the BMF (Black Mafia Family) case.
   </p>
   <p>
     This site is the <strong>public evidence library</strong>. Every claim is
@@ -62,10 +62,10 @@
   </p>
   <div class="network-tiers">
     <p><strong>Tier 1:</strong> Enterprise principals — Banks (9 convictions) + Holland (convicted drug offender)</p>
-    <p><strong>Tier 2:</strong> Judicial cover — 4 Wayne County judges with network ties</p>
-    <p><strong>Tier 3:</strong> Political enablers — charter authorizers with conflicts</p>
+    <p><strong>Tier 2:</strong> Judicial cover — 9 judges across 4 courts (3rd Circuit, 36th District, Probate, Oakland 6th)</p>
+    <p><strong>Tier 3:</strong> Political enablers — charter authorizers with conflicts of interest</p>
     <p><strong>Tier 4:</strong> Professional enablers — attorneys who organized the shell structure</p>
-    <p><strong>Tier 5:</strong> BMF family connection — federal drug conspiracy defendant</p>
+    <p><strong>Tier 5:</strong> BMF lineage — biological father is a federal drug conspiracy defendant</p>
   </div>
   <p><a href="{{ get_url(path='@/network/_index.md') }}">See the full network map →</a></p>
 </section>
@@ -116,6 +116,25 @@
     the <strong>fair report privilege</strong> (MCL § 600.2911), and the
     <strong>absolute defense of truth</strong>.
     <a href="{{ get_url(path='@/legal/_index.md') }}">Read our full legal defense statement →</a>
+  </p>
+</section>
+
+<section class="evidence-integrity">
+  <h2>Evidence Integrity</h2>
+  <p>
+    Every page in this site is <strong>BLAKE3 hashed</strong> and recorded in
+    <a href="{{ config.extra.repo_url }}/src/branch/main/content-manifest.toml"><code>content-manifest.toml</code></a>.
+    Clone the repository and run <code>b3sum</code> to verify any page has not been altered.
+    A <code>root_hash</code> covers the entire content tree — one hash to verify 30 evidence pages.
+  </p>
+  <p>
+    The research is formally citable via
+    <a href="{{ config.extra.repo_url }}/src/branch/main/CITATION.cff">CITATION.cff</a>
+    (CFF v1.2.0) — recognized by GitHub, Zenodo, and legal citation managers.
+    Three independent surfaces carry this evidence:
+    <strong>detroit.primals.eco</strong> (live site),
+    <a href="https://git.primals.eco/publicRecord/detroit">git.primals.eco</a> (sovereign repository),
+    and <a href="https://github.com/defendDetroit/publicRecord">GitHub</a> (public mirror).
   </p>
 </section>
 

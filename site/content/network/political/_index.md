@@ -5,15 +5,17 @@ weight = 3
 sort_by = "weight"
 
 [extra]
-keywords = "Detroit political enablers Brian Banks, Sherry Gay-Dagnogo DPSCD, Billy McKinney Detroit, charter school political authorization, Detroit charter school board members"
+keywords = "Detroit political enablers Brian Banks, Sherry Gay-Dagnogo DPSCD, Billy McKinney Detroit, Eric Sabree Wayne County Treasurer, charter school political authorization, Detroit charter school board members, Wayne County Land Bank, DPSCD charter authorization Brian Banks, Congressional Black Caucus Detroit charter school"
 +++
 
 Political figures who enabled the Banks charter school enterprise through authorization, campaign payments, institutional cover, and Congressional Black Caucus event participation.
 
 The political capture runs from Detroit city boards to Washington DC:
 
-- **[Sherry Gay-Dagnogo](/network/political/sherry-gay-dagnogo/)** — Former DPSCD board member who authorized Banks' charter schools; now Detroit City Ombudsman (Oct 2025)
-- **[Billy McKinney](/network/political/billy-mckinney/)** — Campaign payments linking McKinney operation to Banks family
-- **[CBC Events](/analysis/cbc-events/)** — 4 years of Congressional Black Caucus Week parties in DC
+| Actor | Role | Connection to Banks |
+|-------|------|---------------------|
+| **Sherry Gay-Dagnogo** | Detroit Ombudsman (Oct 2025 – 2035) | Former DPSCD board member who authorized Banks' charter schools; CBC honoree |
+| **Eric Sabree** | Wayne County Treasurer | Father of 2 network judges; FBI-probed 2019; Land Bank chair; campaign endorser of Judge Miller |
+| **Billy McKinney** | Political operative | Campaign payments linking McKinney operation to Banks family via shared vendors |
 
-See also: **[Institutional Capture](/analysis/institutional-capture/)** — how the enterprise controls political authorization.
+The authorization pipeline: DPSCD authorizes the charter → state funding flows → the LLC extracts 72.67% → campaign payments flow back to judges and political figures who oversee the system. See [Institutional Capture](/analysis/institutional-capture/) for the full feedback loop.

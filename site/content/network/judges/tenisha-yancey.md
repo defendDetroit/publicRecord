@@ -21,7 +21,7 @@ connections = ["board membership", "campaign finance", "family", "employment", "
 | Court | **36th District Court** (Detroit) |
 | Status | Elected — term ends **January 1, 2029** |
 
-## Connection to Banks Network
+## Connection to Banks Network {{ confidence(level="verified") }}
 
 | Transaction | Amount | Date | Source |
 |-------------|--------|------|--------|
@@ -38,14 +38,14 @@ connections = ["board membership", "campaign finance", "family", "employment", "
 - The payment creates a documented financial relationship between a sitting judge and the network
 - Wayne County is the jurisdiction where Banks' school entities operate and generate cases
 
-## Family Connection — Dr. Chalena Yancey Beasley
+## Family Connection — Dr. Chalena Yancey Beasley {{ confidence(level="documented") }}
 
 - **Dr. Chalena Yancey Beasley** (née Yancey) = **PCA School Leader** at Purpose Charter Academy
 - Confirmed via Walden University dissertation dedication
 - Used surname "Yancey" before marriage
 - A judge's **sister** runs Banks' new school while the judge chairs his other school and pays his LLC
 
-## Wayne County Register of Deeds Analysis
+## Wayne County Register of Deeds Analysis {{ confidence(level="documented") }}
 
 | Finding | Detail |
 |---------|--------|
