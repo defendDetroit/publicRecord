@@ -300,8 +300,24 @@ Purpose Charter Academy, MacDowell Preparatory Academy, or related entities:
    - /courts/ — find every page tied to a court system
    - /connections/ — find pages by relationship type (board membership,
      campaign finance, family, criminal record, etc.)
-8. Clone https://git.primals.eco/publicRecord/detroit for the full evidence
+8. Use /site-index/ for the complete listing of every page on the site
+9. Clone https://git.primals.eco/publicRecord/detroit for the full evidence
    package
+
+## Evidence Integrity
+
+Every page in the content directory is hashed with BLAKE3 and recorded in
+`content-manifest.toml` at the repository root. To verify any page:
+
+```
+b3sum site/content/network/actors/brian-banks.md
+```
+
+Compare the hash to `content-manifest.toml`. The manifest also contains a
+`root_hash` — a BLAKE3 hash of all individual page hashes — so the entire
+site can be verified in one operation.
+
+The site is formally citable via CITATION.cff (CFF v1.2.0) at the repo root.
 
 Every consequential claim resolves to a public record via the source registry.
 If something seems unsourced, check /sources/ for the database, then /validate/

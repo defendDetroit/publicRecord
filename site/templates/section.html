@@ -10,7 +10,31 @@
 
 {% block content %}
 <article class="section-page">
-  <h1>{{ section.title }}</h1>
+  <header class="section-header">
+    <nav class="breadcrumbs" aria-label="Breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+      <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a itemprop="item" href="{{ config.base_url | safe }}"><span itemprop="name">Home</span></a>
+        <meta itemprop="position" content="1" />
+      </span>
+      {% if section.ancestors | length > 1 %}
+        {% set pos = 2 %}
+        {% for ancestor in section.ancestors %}
+          {% if not loop.first %}
+          {% set anc = get_section(path=ancestor) %}
+          <span aria-hidden="true">/</span>
+          <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a itemprop="item" href="{{ anc.permalink }}"><span itemprop="name">{{ anc.title }}</span></a>
+            <meta itemprop="position" content="{{ pos }}" />
+          </span>
+          {% set_global pos = pos + 1 %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+      <span aria-hidden="true">/</span>
+      <span aria-current="page">{{ section.title }}</span>
+    </nav>
+    <h1>{{ section.title }}</h1>
+  </header>
 
   {% if section.content %}
   <div class="section-content">

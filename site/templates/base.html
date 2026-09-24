@@ -80,7 +80,11 @@
         "name": "publicRecord/detroit",
         "codeRepository": "{{ config.extra.repo_url | safe }}",
         "programmingLanguage": "Markdown",
-        "description": "Git-signed, timestamped public evidence repository for Detroit charter school racketeering investigation"
+        "description": "Git-signed, timestamped public evidence repository for Detroit charter school racketeering investigation",
+        "sameAs": [
+          "https://git.primals.eco/publicRecord/detroit",
+          "https://github.com/defendDetroit/publicRecord"
+        ]
       }
     ]
   }
@@ -109,6 +113,7 @@
         <li><a href="{{ get_url(path='@/books/_index.md') }}">Book Analysis</a></li>
         <li><a href="{{ get_url(path='@/validate/_index.md') }}">Verify</a></li>
         <li><a href="{{ get_url(path='@/sources/_index.md') }}">Sources</a></li>
+        <li><a href="{{ get_url(path='@/site-index/_index.md') }}">Site Index</a></li>
         <li><a href="{{ get_url(path='@/about/_index.md') }}">About</a></li>
         <li><a href="{{ get_url(path='@/legal/_index.md') }}">Legal</a></li>
         <li><a href="{{ config.extra.repo_url }}" rel="noopener">Git Repo</a></li>
