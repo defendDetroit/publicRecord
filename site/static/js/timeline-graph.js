@@ -45,7 +45,7 @@
     { date: 'Apr 2024', event: 'Banks Strategy LLC restored — 3 overdue annual reports', era: '2024: Entity Expansion', actors: ['banks', 'banks_strategy'], source: 'LARA' },
     { date: 'Nov 2024', event: 'The Purpose Group, LLC filed', era: '2024: Entity Expansion', actors: ['banks', 'purpose_group'], source: 'LARA' },
     { date: 'Dec 2024', event: 'Purpose Foundation filed — Banks + Holland hold all positions', era: '2024: Entity Expansion', actors: ['banks', 'holland', 'purpose_foundation'], source: 'LARA' },
-    { date: '2024', event: 'Judge Yancey campaign pays $2,283 to Banks Strategy', era: '2024: Entity Expansion', actors: ['yancey', 'banks_strategy'], source: 'TransparencyUSA' },
+    { date: '2024', event: 'Judge Yancey campaign pays $383.82 to Banks Strategy (sole expenditure)', era: '2024: Entity Expansion', actors: ['yancey', 'banks_strategy'], source: 'CFRS' },
     { date: 'Jul 2025', event: 'PCA authorized by DPSCD Board', era: '2025: Charter Authorization', actors: ['pca', 'gay_dagnogo'], source: 'DPSCD' },
     { date: 'May 2026', event: 'Holland discharged from MDOC — "WITHOUT IMPROVEMENT"', era: '2026: Exposure', actors: ['holland'], source: 'MDOC OTIS' },
     { date: 'Aug 2026', event: 'Complainant attends PCA — Banks denies access', era: '2026: Exposure', actors: ['banks', 'pca'], source: 'Police report' },

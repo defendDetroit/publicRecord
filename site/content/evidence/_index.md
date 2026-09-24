@@ -31,7 +31,7 @@ BRIAN RODERICK BANKS (9 convictions, claimed J.D. not confirmed by bar records)
 |---------------|---------|------------------|
 | Mail/Wire Fraud | § 1341/1343 | Banks' dissertation lists "J.D., MSU Law, 2010" — no bar admission found in public records; credential appears on school websites |
 | Financial Irregularity | § 1956 | $4.28M/yr flows through Purpose Group LLC management contract; $348K not separately itemized in available budget documents |
-| Campaign Payments | § 201 | Sitting judge's campaign paid $2,283 to Banks Strategy LLC — whether this constitutes a legal violation is for agencies to determine |
+| Campaign Payments | § 201 | Sitting judge's campaign paid $383.82 to Banks Strategy LLC (sole contribution and sole expenditure) — whether this constitutes a legal violation is for agencies to determine |
 | Recusal Questions | § 1503 | Judges with documented network connections presided over network-connected cases — whether recusal was required is a judicial conduct question |
 
 ### Documented Judicial Connections
@@ -40,7 +40,7 @@ BRIAN RODERICK BANKS (9 convictions, claimed J.D. not confirmed by bar records)
 
 Four Wayne County judges have documented connections to the Banks network:
 - **Board membership**: Judge Miller serves as Board Chair of Anchor Rock Foundation (*public record*)
-- **Campaign payment**: Judge Yancey's campaign paid $2,283 to Banks Strategy LLC (*campaign finance filing*)
+- **Campaign payment**: Judge Yancey's campaign paid $383.82 to Banks Strategy LLC — sole contribution and sole expenditure (*campaign finance filing*)
 - **Same institution/cohort**: Judge Sabree attended MSU Law in the same period Banks claims to have attended (*shared enrollment year does not establish personal knowledge*)
 - **Family donations**: Perkins family members donated to Banks-aligned campaigns (*donations do not establish judicial participation*)
 

@@ -26,8 +26,8 @@ connections = ["board membership", "legal representation", "mentorship", "campai
 
 | Role | Entity | Source |
 |------|--------|--------|
-| **Board Chair** | Anchor Rock Foundation (Banks entity) | Public disclosure |
-| **Board member** | MacDowell Preparatory Academy | School records |
+| **Board Chair** | Purpose Charter Academy (PCA) | [purposecharteracademy.com/boardofdirectors](https://www.purposecharteracademy.com/boardofdirectors) (Sep 2026) |
+| Board Chair (historical) | Anchor Rock Foundation (Banks entity, dissolved) | LARA public disclosure |
 | JD classmate | Same MSU Law cohort as Banks' claimed JD year (~2010) | Graduation records |
 
 ## Key Facts

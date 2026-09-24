@@ -22,7 +22,7 @@
       { id: 'miller', label: 'Judge C. Miller', tier: 2, type: 'judge',
         detail: 'Board Chair, Anchor Rock Foundation', url: '/network/judges/cylenthia-miller/' },
       { id: 'yancey', label: 'Judge T. Yancey', tier: 2, type: 'judge',
-        detail: 'Campaign paid $2,283 to Banks Strategy', url: '/network/judges/tenisha-yancey/' },
+        detail: 'Campaign paid $383.82 to Banks Strategy (sole expenditure)', url: '/network/judges/tenisha-yancey/' },
       { id: 'sabree', label: 'Judge A. Sabree', tier: 2, type: 'judge',
         detail: 'MSU Law classmate (2010)', url: '/network/judges/aliyah-sabree/' },
       { id: 'perkins_d', label: 'Judge D. Perkins', tier: 2, type: 'judge',
@@ -73,7 +73,7 @@
 
       // Judicial connections
       { source: 'miller', target: 'banks', type: 'judicial', label: 'Board Chair' },
-      { source: 'yancey', target: 'banks_strategy', type: 'judicial', label: '$2,283 payment' },
+      { source: 'yancey', target: 'banks_strategy', type: 'judicial', label: '$383.82 payment' },
       { source: 'sabree', target: 'banks', type: 'judicial', label: 'MSU Law 2010' },
       { source: 'perkins_d', target: 'banks', type: 'judicial', label: 'family donations' },
 
