@@ -6,6 +6,12 @@ date = 2026-09-20
 
 [extra]
 keywords = "Serenity Guardianship Services, Serenity Guardianship Brian Banks, Serenity Guardianship UPL, unauthorized practice of law Detroit, Brian Banks guardianship, Wayne County Probate guardianship"
+
+[taxonomies]
+actors = ["Brian Banks", "Judge David Perkins", "Judge Tenisha Yancey", "Judge Adam Sabree", "Judge Sean Perkins", "Joseph Holland"]
+entities = ["Serenity Guardianship Services", "Purpose Charter Academy", "MacDowell Preparatory Academy", "The Purpose Group LLC"]
+courts = ["Wayne County Probate Court", "36th District Court"]
+connections = ["business entity", "credential fraud", "RICO predicate"]
 +++
 
 ## Entity Overview
@@ -18,7 +24,7 @@ keywords = "Serenity Guardianship Services, Serenity Guardianship Brian Banks, S
 | Status | **DISSOLVED** |
 | Banks' Role | Agent |
 
-Serenity Guardianship Services was a guardianship company operated by [Brian Roderick Banks](/network/actors/brian-banks/) — a **non-attorney** with **9 felony convictions** and no bar admission.
+Serenity Guardianship Services was a guardianship company operated by {{ actor(key="banks") }} — a **non-attorney** with **9 felony convictions** and no bar admission.
 
 ## Unauthorized Practice of Law (UPL)
 
@@ -36,20 +42,20 @@ Guardianship involves court-supervised management of incapacitated persons' affa
 | Connection | Detail |
 |------------|--------|
 | Jurisdiction | Wayne County Probate Court handles guardianship cases |
-| Judge | [David Perkins](/network/judges/david-perkins/) — Chief Judge Pro Tem, Wayne Probate |
-| Pipeline | Perkins previously served **36th District Court (2014–2018)** — same court as [Tenisha Yancey](/network/judges/tenisha-yancey/), [Adam Sabree](/network/judges/adam-sabree/), and [Sean Perkins](/network/judges/sean-perkins/) |
+| Judge | {{ actor(key="perkins_david") }} — Chief Judge Pro Tem, Wayne Probate |
+| Pipeline | Perkins previously served **36th District Court (2014–2018)** — same court as {{ actor(key="yancey") }}, {{ actor(key="adam_sabree") }}, and {{ actor(key="sean_perkins") }} |
 | Effect | Guardianship cases from Banks' dissolved entity route through Probate Court where network-connected judges sit |
 
-Banks operated Serenity Guardianship through the same Probate jurisdiction where [David Perkins](/network/judges/david-perkins/) presides.
+Banks operated Serenity Guardianship through the same Probate jurisdiction where {{ actor(key="perkins_david") }} presides.
 
 ## Connection to Banks Network
 
 | Entity | Relationship |
 |--------|-------------|
-| [Purpose Charter Academy](/network/entities/purpose-charter-academy/) | Same enterprise principal |
-| [MacDowell Preparatory Academy](/network/entities/macdowell-prep/) | Same enterprise principal |
-| [The Purpose Group, LLC](/network/entities/purpose-group-llc/) | Same extraction structure |
-| [Joseph Holland Jr](/network/actors/joseph-holland/) | Co-principal across all financial entities |
+| {{ entity(key="pca") }} | Same enterprise principal |
+| {{ entity(key="macdowell") }} | Same enterprise principal |
+| {{ entity(key="purpose_group") }} | Same extraction structure |
+| {{ actor(key="holland") }} | Co-principal across all financial entities |
 
 ## Significance
 
@@ -60,9 +66,9 @@ See also: [RICO Pattern](/analysis/rico-pattern/) — predicate acts including w
 ## Verify
 
 - {{ source(key="lara_cofs", query="Entity 802290962") }}
-- Judge Perkins: [David Perkins](/network/judges/david-perkins/)
+- Judge Perkins: {{ actor(key="perkins_david") }}
 - State Bar: {{ source(key="state_bar") }} — confirm Banks has no bar admission
-- Banks profile: [Brian Roderick Banks](/network/actors/brian-banks/) — ICHAT SID **2029469K**
+- Banks profile: {{ actor(key="banks") }} — ICHAT SID **{{ fact(section="actors", key="banks", field="sid") }}**
 
 ---
 

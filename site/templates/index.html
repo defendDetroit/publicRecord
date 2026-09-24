@@ -8,15 +8,15 @@
 
   <div class="stats-bar">
     <div class="stat">
-      <span class="stat-number">$4.9M</span>
+      <span class="stat-number">{{ config.extra.entities.macdowell.revenue }}</span>
       <span class="stat-label">Annual public funding</span>
     </div>
     <div class="stat">
-      <span class="stat-number">72.67%</span>
+      <span class="stat-number">{{ config.extra.entities.macdowell.extraction_pct }}</span>
       <span class="stat-label">To management LLC</span>
     </div>
     <div class="stat">
-      <span class="stat-number">9</span>
+      <span class="stat-number">{{ config.extra.actors.banks.conviction_count }}</span>
       <span class="stat-label">Criminal convictions</span>
     </div>
     <div class="stat">
@@ -29,12 +29,12 @@
 <section class="summary">
   <h2>What This Is</h2>
   <p>
-    A man with <strong>9 criminal convictions</strong> (6 felony, 3 misdemeanor) who claims a law degree
+    A man with <strong>{{ config.extra.actors.banks.convictions }}</strong> who claims a law degree
     <strong>not confirmed by bar records</strong>
     runs two Detroit charter schools receiving millions in public education funding.
-    His management company receives <strong>72.67% of all revenue</strong> through a
+    His management company receives <strong>{{ config.extra.entities.macdowell.extraction_pct }} of all revenue</strong> through a
     single-member LLC. His co-resident and financial officer is a <strong>convicted drug offender</strong>
-    discharged from prison "without improvement." Four Wayne County judges have
+    discharged from prison {{ config.extra.actors.holland.discharge | lower }}. Four Wayne County judges have
     documented connections to his network. His biological father is a federal defendant
     in the BMF (Black Mafia Family) case.
   </p>
@@ -73,10 +73,10 @@
 <section class="extraction">
   <h2>The Extraction</h2>
   <p>
-    $4.9M in annual public education funding flows through a single-member LLC
+    {{ config.extra.entities.macdowell.revenue }} in annual public education funding flows through a single-member LLC
     whose sole member is a convicted felon. The school reports <strong>$0 in staff salaries</strong> —
     because all employees are technically hired by the LLC. Of the money that
-    flows through, <strong>$348,489 is not separately itemized</strong> in available budget
+    flows through, <strong>{{ config.extra.entities.macdowell.unaccounted }} is not separately itemized</strong> in available budget
     documents — the management fee portion that has not been independently audited.
   </p>
   <p><a href="{{ get_url(path='@/network/entities/_index.md') }}">See the entity map →</a></p>

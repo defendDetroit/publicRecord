@@ -6,6 +6,12 @@ date = 2026-09-20
 
 [extra]
 keywords = "Tenisha Yancey, Tenisha Yancey judge, Tenisha Yancey Wayne County 3rd Circuit Court, Tenisha Yancey MacDowell, Tenisha Yancey board chair, Tenisha Yancey Brian Banks, Tenisha Yancey campaign finance, Banks Strategy LLC, MacDowell Preparatory Academy board, Detroit judge charter school, Tenisha Yancey Wayne County Land Bank, Tenisha Yancey Harper Woods, Tenisha Yancey state representative HD-1, Tenisha Yancey Brian Banks successor"
+
+[taxonomies]
+actors = ["Judge Tenisha Yancey", "Brian Banks", "Judge Adam Sabree", "Judge Sean Perkins", "Eric Sabree"]
+entities = ["MacDowell Preparatory Academy", "Purpose Charter Academy", "Banks Strategy LLC", "Inner Link Graphics"]
+courts = ["36th District Court"]
+connections = ["board membership", "campaign finance", "family", "employment", "charter authorization"]
 +++
 
 ## Position
@@ -22,7 +28,7 @@ keywords = "Tenisha Yancey, Tenisha Yancey judge, Tenisha Yancey Wayne County 3r
 | Campaign payment to "Banks Strategy and Consultants" | **$383.82** | 2024 | TransparencyUSA |
 | Campaign payment to Inner Link Graphics | **$8,025** total | Multiple | TransparencyUSA |
 
-**The $383.82 was both Yancey's SOLE contribution (from herself) and SOLE expenditure (to Banks' LLC).** Her only financial activity in that cycle was paying [Banks Strategy & Consultants](/network/entities/banks-strategy-llc/).
+**The $383.82 was both Yancey's SOLE contribution (from herself) and SOLE expenditure (to Banks' LLC).** Her only financial activity in that cycle was paying {{ entity(key="banks_strategy") }}.
 
 ## Key Facts
 
@@ -56,8 +62,8 @@ Yancey sits on the **same court** as:
 
 | Judge | Connection |
 |-------|------------|
-| [Adam Sabree](/network/judges/adam-sabree/) | Eric Sabree's son; ex-Metro Property Group counsel |
-| [Sean Perkins](/network/judges/sean-perkins/) | Todd Perkins' brother — Todd is [Brian Banks](/network/actors/brian-banks/)' attorney |
+| {{ actor(key="adam_sabree") }} | Eric Sabree's son; ex-Metro Property Group counsel |
+| {{ actor(key="sean_perkins") }} | Todd Perkins' brother — Todd is {{ actor(key="banks") }}' attorney |
 
 **Three network judges on one court.** All three won seats in the **same November 2022 election**. All three terms end **January 1, 2029**.
 
@@ -72,9 +78,9 @@ Before her judicial career, Yancey was a **project manager at the Wayne County L
 
 | Connection | Detail |
 |------------|--------|
-| Same entity | The Wayne County Land Bank is chaired by Wayne County Treasurer **Eric R. Sabree** — father of [Adam Sabree](/network/judges/adam-sabree/) and [Aliyah Sabree](/network/judges/aliyah-sabree/) |
+| Same entity | The Wayne County Land Bank is chaired by Wayne County Treasurer **Eric R. Sabree** — father of {{ actor(key="adam_sabree") }} and {{ actor(key="sabree") }} |
 | Foreclosure pipeline | The Land Bank processes the same foreclosures that Sabree's family has been investigated for exploiting at tax auctions |
-| HD-1 successor | Yancey succeeded [Brian Banks](/network/actors/brian-banks/) in **Michigan House District 1** after his February 2017 resignation, winning the November 2017 special election |
+| HD-1 successor | Yancey succeeded {{ actor(key="banks") }} in **Michigan House District 1** after his February 2017 resignation, winning the November 2017 special election |
 | Harper Woods | Yancey resides in Harper Woods — same jurisdiction as multiple Banks-network property transactions |
 
 Yancey worked inside the foreclosure infrastructure that feeds distressed properties into the network's acquisition pipeline, then succeeded Banks in his legislative seat, then won a 36th District Court judgeship where she sits alongside two other network-connected judges.

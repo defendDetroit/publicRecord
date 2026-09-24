@@ -6,6 +6,11 @@ date = 2026-09-20
 
 [extra]
 keywords = "Aliyah Sabree, Aliyah Sabree judge, Aliyah Sabree Wayne County 3rd Circuit, Aliyah Sabree MSU Law, Aliyah Sabree Detroit, Eric Sabree sister, Aliyah Sabree Brian Banks, Aliyah Sabree Daisy Elliott, Aliyah Sabree great-granddaughter civil rights, Aliyah Sabree Youngstown State, Aliyah Sabree DWSD counsel"
+
+[taxonomies]
+actors = ["Judge Aliyah Sabree", "Brian Banks", "Judge Adam Sabree", "Judge Cylenthia Miller", "Eric Sabree"]
+courts = ["Wayne County 3rd Circuit Court", "36th District Court", "Eastern District of Michigan"]
+connections = ["mentorship", "family", "credential fraud", "employment"]
 +++
 
 ## Position

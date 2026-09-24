@@ -6,6 +6,12 @@ date = 2026-09-20
 
 [extra]
 keywords = "Kelly Ramsey judge, Kelly Ramsey Wayne County, Kelly Ramsey 3rd Circuit, Kelly Ramsey MacDowell, Kelly Ramsey Brian Banks, Kelly Ramsey criminal division Detroit, Kelly Ramsey daughter Promise Schools"
+
+[taxonomies]
+actors = ["Judge Kelly Ramsey", "Brian Banks", "Todd Perkins", "Judge Cylenthia Miller", "Judge Tenisha Yancey", "Judge Sean Perkins"]
+entities = ["MacDowell Preparatory Academy"]
+courts = ["Wayne County 3rd Circuit Court"]
+connections = ["employment", "mentorship", "family", "board membership"]
 +++
 
 ## Position

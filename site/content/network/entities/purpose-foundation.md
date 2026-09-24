@@ -6,6 +6,11 @@ date = 2026-09-20
 
 [extra]
 keywords = "Purpose Foundation, Purpose Foundation Detroit, Banks Holland nonprofit, private foundation fraud, Purpose Foundation Brian Banks Holland, Purpose Foundation two felons all positions, Purpose Foundation 501c3 no governance"
+
+[taxonomies]
+actors = ["Brian Banks", "Joseph Holland"]
+entities = ["Purpose Foundation"]
+connections = ["business entity", "board membership", "criminal record"]
 +++
 
 ## Entity Overview

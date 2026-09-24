@@ -6,6 +6,12 @@ date = 2026-09-20
 
 [extra]
 keywords = "Bryant v Miller, Bryant v Miller Wayne County, Cylenthia Miller lawsuit, Wayne County judicial misconduct cases, 2:26-cv-10917, Detroit judge misconduct, independent corroboration Banks network"
+
+[taxonomies]
+actors = ["Judge Cylenthia Miller", "Brian Banks", "Todd Perkins", "Judge Tenisha Yancey", "Judge Adam Sabree", "Judge Sean Perkins"]
+entities = ["Anchor Rock Foundation", "Purpose Charter Academy"]
+courts = ["Eastern District of Michigan", "36th District Court", "Wayne County 3rd Circuit Court"]
+connections = ["board membership", "legal representation", "employment", "RICO predicate"]
 +++
 
 Independent litigants are identifying the same judicial misconduct patterns documented in the Banks enterprise investigation. Allied cases create **triangulation** — no single complaint can be dismissed as one "disgruntled litigant."
@@ -18,14 +24,14 @@ Independent litigants are identifying the same judicial misconduct patterns docu
 | Court | U.S. District Court, Eastern District of Michigan |
 | Filed | 2026 |
 | Plaintiff | Bryant (pro se) |
-| Defendants | Judge [Cylenthia Miller](/network/judges/cylenthia-miller/), Wayne County, others |
+| Defendants | {{ actor(key="miller") }}, Wayne County, others |
 | Claims | § 1983 — due process, judicial misconduct |
 | Status | Active; plaintiff recently obtained counsel (Budzel Long firm) |
 
 ## Why This Matters
 
-- Bryant independently identified **Judge Cylenthia Miller** as a problem
-- Same judge who served as Board Chair of Banks' [Anchor Rock Foundation](/network/entities/anchor-rock-foundation/)
+- Bryant independently identified **{{ actor(key="miller") }}** as a problem
+- Same judge who served as Board Chair of Banks' {{ entity(key="anchor_rock") }}
 - Same judge under [JTC complaint](/network/judges/cylenthia-miller/)
 - Same judge up for election **November 3, 2026**
 - A second, independent litigant corroborates the pattern of judicial misconduct
@@ -37,7 +43,7 @@ Bryant's case establishes that Miller's misconduct is not isolated to one litiga
 | Source | Connection |
 |--------|------------|
 | Complainant's separate Ingham County civil case | Independent legal challenge to enterprise |
-| Federal packet documenting Miller's board service for Banks | [Anchor Rock Foundation](/network/entities/anchor-rock-foundation/) connection |
+| Federal packet documenting Miller's board service for Banks | {{ entity(key="anchor_rock") }} connection |
 | JTC complaints | Ethical violations — airport gun, infant murder dismissal, practicing law while judge |
 | [Institutional Capture](/analysis/institutional-capture/) analysis | Miller as captured court actor |
 
@@ -49,16 +55,16 @@ See also: [RICO Pattern](/analysis/rico-pattern/) — judicial cover layer.
 
 | Miller Connection | Enterprise Link |
 |-------------------|-----------------|
-| Anchor Rock Foundation Board Chair | [Brian Banks](/network/actors/brian-banks/) entity |
+| Anchor Rock Foundation Board Chair | {{ actor(key="banks") }} entity |
 | PCA Board Chair | Banks' newest charter school |
 | Baker College colleague | Taught Criminal Justice alongside Banks (fake J.D.) |
-| Attorney: Todd Perkins | Banks' attorney — see [Sean Perkins](/network/judges/sean-perkins/) |
+| Attorney: {{ actor(key="todd_perkins") }} | Banks' attorney — see {{ actor(key="sean_perkins") }} |
 
 Miller sits at the intersection of courts, schools, and the Banks network. Bryant's independent identification of Miller validates the pattern analysis across multiple unrelated sources.
 
 ## 36th District Court — Bradley-Baskin Indictment (Context)
 
-The 36th District Court — where **three Banks-network judges** sit ([Tenisha Yancey](/network/judges/tenisha-yancey/), [Adam Sabree](/network/judges/adam-sabree/), [Sean Perkins](/network/judges/sean-perkins/)) — is also where **Judge Andrea Bradley-Baskin** was federally indicted in **January 2026** for allegedly embezzling hundreds of thousands of dollars from incapacitated wards.
+The 36th District Court — where **three Banks-network judges** sit ({{ actor(key="yancey") }}, {{ actor(key="adam_sabree") }}, {{ actor(key="sean_perkins") }}) — is also where **Judge Andrea Bradley-Baskin** was federally indicted in **January 2026** for allegedly embezzling hundreds of thousands of dollars from incapacitated wards.
 
 | Field | Detail |
 |-------|--------|
@@ -84,7 +90,7 @@ As the public record grows, other harmed parties may emerge:
 ## Verify
 
 - PACER: Case **2:26-cv-10917** at [pacer.uscourts.gov](https://pacer.uscourts.gov)
-- Judge Miller: [Cylenthia Miller](/network/judges/cylenthia-miller/)
+- Judge Miller: {{ actor(key="miller") }}
 - JTC: [jtc.courts.mi.gov](https://jtc.courts.mi.gov)
 - Anchor Rock: {{ source(key="lara_cofs", query="Entity 802394934") }}
 - Timeline: [Sep 14, 2026 discovery](/timeline/) — Bryant case identified

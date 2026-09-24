@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %}{{ term.name }} — Connection — {{ config.title }}{% endblock title %}
+{% block description %}All pages referencing {{ term.name }} in the Detroit charter school investigation.{% endblock description %}
+{% block keywords %}{{ term.name }}, Detroit charter school, Purpose Charter Academy, MacDowell Preparatory Academy, network connections{% endblock keywords %}
+
+{% block content %}
+<article class="taxonomy-page">
+  <h1>{{ term.name }}</h1>
+  <p class="taxonomy-desc">All pages referencing <strong>{{ term.name }}</strong> in the public record.</p>
+
+  <ul class="page-list">
+    {% for page in term.pages %}
+    <li>
+      <a href="{{ page.permalink }}">
+        <strong>{{ page.title }}</strong>
+        {% if page.description %}<span class="page-desc">{{ page.description }}</span>{% endif %}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+
+  <p><a href="{{ get_url(path='@/network/_index.md') }}">← Back to Network Map</a></p>
+</article>
+{% endblock content %}

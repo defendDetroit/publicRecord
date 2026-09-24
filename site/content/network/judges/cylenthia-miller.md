@@ -6,6 +6,12 @@ date = 2026-09-20
 
 [extra]
 keywords = "Cylenthia Miller, Cylenthia Miller judge, Cylenthia Miller Wayne County, Cylenthia Miller election 2026, Cylenthia Miller 3rd Circuit, Cylenthia Miller Anchor Rock Foundation, Cylenthia Miller Purpose Charter Academy, Cylenthia Miller Detroit, judge Cylenthia Miller reelection, Wayne County 3rd Circuit Court 2026, Cylenthia Miller Purpose Charter Academy, Cylenthia Miller Anchor Rock Foundation, Cylenthia Miller election November 2026, Cylenthia Miller JTC complaint, Cylenthia Miller scandal, Cylenthia Miller gun airport, Cylenthia Miller infant murder case dismissed, Cylenthia Miller Baker College Brian Banks, Cylenthia Miller Todd Perkins, keepjudgemiller.com"
+
+[taxonomies]
+actors = ["Judge Cylenthia Miller", "Brian Banks", "Todd Perkins", "Judge Sean Perkins", "Judge Adam Sabree", "Judge Aliyah Sabree", "Eric Sabree"]
+entities = ["Anchor Rock Foundation", "Purpose Charter Academy", "MacDowell Preparatory Academy"]
+courts = ["Wayne County 3rd Circuit Court", "36th District Court"]
+connections = ["board membership", "legal representation", "mentorship", "campaign finance", "employment"]
 +++
 
 ## Position
@@ -58,7 +64,7 @@ Public record of JTC complaint and network connections are available to voters a
 - Loaded .380 S&W found in purse by TSA. Unregistered.
 - Told police she got it "from her brother" in Ohio — Todd Perkins later admitted the man was NOT a relative
 - Pled no contest. $1,400 fines, 90 days probation
-- **Attorney: [Todd Perkins](/network/professional-enablers/todd-perkins/)** ([Brian Banks](/network/actors/brian-banks/)' attorney) — see [Sean Perkins](/network/judges/sean-perkins/)
+- **Attorney: {{ actor(key="todd_perkins") }}** ({{ actor(key="banks") }}' attorney) — see {{ actor(key="sean_perkins") }}
 - Prosecutor Worthy recused
 - **JTC Outcome:** "Dismissed with an admonition" — take precautions before travel and "ensure the veracity of future statements to police"
 - Rita Williams (Clutch Justice) identified Miller from anonymized JTC report
@@ -97,7 +103,7 @@ They were colleagues in the **same department at the same institution**. A sitti
 
 Per keepjudgemiller.com:
 
-- Wayne County Treasurer **Eric R. Sabree** — father of [Adam Sabree](/network/judges/adam-sabree/) and [Aliyah Sabree](/network/judges/aliyah-sabree/)
+- Wayne County Treasurer **Eric R. Sabree** — father of {{ actor(key="adam_sabree") }} and {{ actor(key="sabree") }}
 - UAW Region 1/1A
 - 14th + 13th Congressional Dist Dem Party
 - AFL-CIO
@@ -119,4 +125,4 @@ Per keepjudgemiller.com:
 - Next election: **November 3, 2026** — general election (primary canceled)
 - Public record of 3 active scandals = campaign vulnerabilities
 - Any voter or opposing candidate can raise the Banks connection in public forum
-- 16 incumbent seats on the ballot; **Aliyah Sabree** also on ballot (special election)
+- 16 incumbent seats on the ballot; **{{ actor(key="sabree") }}** also on ballot (special election)

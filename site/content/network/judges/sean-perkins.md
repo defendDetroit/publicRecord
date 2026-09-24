@@ -6,6 +6,12 @@ date = 2026-09-20
 
 [extra]
 keywords = "Sean Perkins judge, Sean Perkins 36th District Court, Sean Perkins Todd Perkins brother, Sean Perkins Brian Banks attorney, Sean Perkins Detroit, Sean Perkins Wayne County, Perkins brothers Detroit judges, Sean Perkins Perkins Law Group, Sean Perkins Wayne State University, Sean Perkins Thomas M Cooley Law School, Sean Perkins UAW Local 387"
+
+[taxonomies]
+actors = ["Judge Sean Perkins", "Todd Perkins", "Brian Banks", "Judge Cylenthia Miller", "Judge Tenisha Yancey", "Judge Adam Sabree", "Judge David Perkins"]
+entities = ["Perkins Law Group", "Banks Strategy LLC"]
+courts = ["36th District Court"]
+connections = ["family", "legal representation", "employment", "campaign finance"]
 +++
 
 ## Position
@@ -29,10 +35,10 @@ Sean literally worked at Todd Perkins' firm before becoming a judge.
 
 ## Connection to Banks Network
 
-### Brother: [Todd Perkins](/network/professional-enablers/todd-perkins/) ([Brian Banks](/network/actors/brian-banks/)' Attorney)
+### Brother: {{ actor(key="todd_perkins") }} ({{ actor(key="banks") }}' Attorney)
 
 - Wikipedia confirms: "His brother, Todd Perkins, is a Detroit attorney who heads Perkins Law Group."
-- Todd represents Banks in legal matters — including as [Judge Cylenthia Miller](/network/judges/cylenthia-miller/)'s attorney in the **DTW airport gun case** (Jun 2024)
+- Todd represents Banks in legal matters — including as {{ actor(key="miller") }}'s attorney in the **DTW airport gun case** (Jun 2024)
 - Todd has **4 bankruptcies** and **$100K+ in IRS tax liens**
 - Todd ran for Mayor of Harper Woods (Banks' home city)
 - Todd's practice areas include "Bribery" (per firm website)
@@ -50,12 +56,12 @@ Sean Perkins sits on the **same court** as:
 
 | Judge | Connection |
 |-------|------------|
-| [Tenisha Yancey](/network/judges/tenisha-yancey/) | MacDowell Board Chair; campaign paid Banks Strategy LLC |
-| [Adam Sabree](/network/judges/adam-sabree/) | Eric Sabree's son; ex-Metro Property Group counsel |
+| {{ actor(key="yancey") }} | MacDowell Board Chair; campaign paid Banks Strategy LLC |
+| {{ actor(key="adam_sabree") }} | Eric Sabree's son; ex-Metro Property Group counsel |
 
 **Three network judges on one court.** All three elected in the **same November 2022 cycle**. All terms end **January 1, 2029**.
 
-**Note:** [David Perkins](/network/judges/david-perkins/) (relationship to Todd/Sean **UNCONFIRMED**) previously sat on this same court (2014–2018) before moving to Probate Court as Chief Judge Pro Tem.
+**Note:** {{ actor(key="perkins_david") }} (relationship to Todd/Sean **UNCONFIRMED**) previously sat on this same court (2014–2018) before moving to Probate Court as Chief Judge Pro Tem.
 
 ## Memberships
 

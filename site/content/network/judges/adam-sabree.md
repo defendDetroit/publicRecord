@@ -6,6 +6,11 @@ date = 2026-09-20
 
 [extra]
 keywords = "Adam Sabree judge, Adam Sabree 36th District Court, Adam Sabree Metro Property Group, Adam Sabree Eric Sabree son, Adam Sabree Wayne County, Adam Sabree Detroit, Adam Sabree RICO, Sabree family Detroit judges, Adam Sabree Woodward Law Group, Adam Sabree Caldwell University, Adam Sabree MSU Law 2011, Adam Sabree adjunct professor Wayne County Community College, Adam Sabree Tenisha Yancey same election"
+
+[taxonomies]
+actors = ["Judge Adam Sabree", "Judge Aliyah Sabree", "Eric Sabree", "Judge Tenisha Yancey", "Judge Sean Perkins", "Brian Banks"]
+courts = ["36th District Court", "Eastern District of Michigan"]
+connections = ["family", "employment", "RICO predicate"]
 +++
 
 ## Position

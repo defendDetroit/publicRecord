@@ -6,6 +6,12 @@ date = 2026-09-20
 
 [extra]
 keywords = "Banks Strategy Consultants, Banks Strategy LLC, judge campaign payments, Yancey Banks Strategy, Banks Strategy LLC judge payments, Banks Strategy campaign finance, Banks Strategy Cylenthia Miller Tenisha Yancey"
+
+[taxonomies]
+actors = ["Brian Banks", "Judge Tenisha Yancey"]
+entities = ["Banks Strategy LLC", "Purpose Charter Academy", "MacDowell Preparatory Academy", "The Purpose Group LLC"]
+courts = ["36th District Court"]
+connections = ["campaign finance", "business entity"]
 +++
 
 ## Entity Overview
@@ -34,7 +40,7 @@ Rather than maintaining compliance, Banks allowed the entity to fall out of good
 
 | Judge | Amount | Year | Source |
 |-------|--------|------|--------|
-| Tenisha Yancey | **$2,283** | 2024 | TransparencyUSA |
+| {{ actor(key="yancey") }} | **$2,283** | 2024 | TransparencyUSA |
 
 A sitting Wayne County 3rd Circuit Court judge's campaign paid Banks' consulting LLC while Banks operates charter schools and related entities in the same jurisdiction.
 

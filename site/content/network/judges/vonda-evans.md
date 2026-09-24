@@ -6,6 +6,11 @@ date = 2026-09-20
 
 [extra]
 keywords = "Vonda Evans judge, Vonda Evans retired, Vonda Evans Wayne County, Vonda Evans JTC, Vonda Evans Brian Banks mentor, Vonda Evans 3rd Circuit, Vonda Evans Detroit, Vonda Evans suspended, Vonda Evans attendance fraud, Vonda Evans JTC suspension retirement, Vonda Evans WXYZ investigation, Vonda Evans Operation Northern Hook, Vonda Evans Hall Makled law firm"
+
+[taxonomies]
+actors = ["Judge Vonda Evans", "Brian Banks", "Todd Perkins", "Judge Cylenthia Miller", "Judge Kelly Ramsey", "Judge Denise Langford Morris"]
+courts = ["Wayne County 3rd Circuit Court"]
+connections = ["mentorship", "campaign finance", "legal representation"]
 +++
 
 ## Position

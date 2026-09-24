@@ -6,6 +6,11 @@ date = 2026-09-20
 
 [extra]
 keywords = "City Hill Church Brian Banks, City Hill Church Detroit, City Hill Church LARA, Great Lakes Vision Evangelism, Brian Banks church entities, 1968 Severn Road entities"
+
+[taxonomies]
+actors = ["Brian Banks", "Joseph Holland"]
+entities = ["City Hill Church", "The Purpose Group LLC", "Purpose Foundation", "Banks Strategy LLC", "Anchor Rock Foundation", "Sun Community Development Corp", "Serenity Guardianship Services"]
+connections = ["business entity", "board membership"]
 +++
 
 ## Entity Overview
@@ -19,7 +24,7 @@ keywords = "City Hill Church Brian Banks, City Hill Church Detroit, City Hill Ch
 | Registered Address | **1968 Severn Road, Grosse Pointe Woods, MI 48236** |
 | Banks' Role | Officer |
 
-City Hill Church is one of **9+ entities** [Brian Roderick Banks](/network/actors/brian-banks/) controls, all registered to his personal residence in Grosse Pointe Woods — an affluent suburb — while his charter schools serve Detroit's poorest children.
+City Hill Church is one of **9+ entities** {{ actor(key="banks") }} controls, all registered to his personal residence in Grosse Pointe Woods — an affluent suburb — while his charter schools serve Detroit's poorest children.
 
 ## Related Entity — Great Lakes Vision for Evangelism
 
@@ -37,24 +42,24 @@ Both religious entities share the same registered address as Banks' residence an
 
 | Entity | LARA ID | Status | Banks' Role |
 |--------|---------|--------|-------------|
-| [The Purpose Group, LLC](/network/entities/purpose-group-llc/) | 803295082 | Active | Sole Member |
-| [Purpose Foundation](/network/entities/purpose-foundation/) | 803294855 | Active | President + Director |
-| [Banks Strategy & Consultants LLC](/network/entities/banks-strategy-llc/) | 802070120 | Active | Agent |
+| {{ entity(key="purpose_group") }} | 803295082 | Active | Sole Member |
+| {{ entity(key="purpose_foundation") }} | 803294855 | Active | President + Director |
+| {{ entity(key="banks_strategy") }} | 802070120 | Active | Agent |
 | Anchor Rock Services, Inc. | 800770907 | Active | Agent |
 | [Sun Community Development Corp](/network/entities/sun-community-development/) | 803232314 | Active | Officer |
 | **City Hill Church** | 802365641 | Active | Officer |
 | **Great Lakes Vision for Evangelism** | 802210862 | Active | Officer |
-| [Anchor Rock Foundation](/network/entities/anchor-rock-foundation/) | 802394934 | Dissolved | Officer |
-| [Serenity Guardianship Services](/network/entities/serenity-guardianship/) | 802290962 | Dissolved | Agent |
+| {{ entity(key="anchor_rock") }} | 802394934 | Dissolved | Officer |
+| {{ entity(key="serenity") }} | 802290962 | Dissolved | Agent |
 
-**9 entities** at one residential address. [Joseph Holland Jr](/network/actors/joseph-holland/) also lists this address.
+**9 entities** at one residential address. {{ actor(key="holland") }} also lists this address.
 
 ## Connection to Banks Network
 
 | Connection | Detail |
 |------------|--------|
-| Enterprise leader | [Brian Banks](/network/actors/brian-banks/) — 9 convictions, fake J.D., charter superintendent |
-| Financial control | [Joseph Holland Jr](/network/actors/joseph-holland/) — Secretary + Treasurer of [Purpose Foundation](/network/entities/purpose-foundation/) |
+| Enterprise leader | {{ actor(key="banks") }} — {{ actor(key="banks", field="convictions") }}, fake J.D., charter superintendent |
+| Financial control | {{ actor(key="holland") }} — Secretary + Treasurer of {{ entity(key="purpose_foundation") }} |
 | Event overlap | Banks organizes "Monday Night Praise" church events through the same Eventbrite account as [CBC Week parties](/analysis/cbc-events/) |
 | Address pattern | GPW median home ~$270K; Detroit (where schools operate) ~$50K |
 

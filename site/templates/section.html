@@ -19,17 +19,19 @@
   {% endif %}
 
   {% if section.pages %}
-  <ul class="page-list">
+  <div class="page-cards">
     {% for page in section.pages %}
-    <li>
-      <a href="{{ page.permalink }}">
-        <strong>{{ page.title }}</strong>
-        {% if page.description %}<span class="page-desc">{{ page.description }}</span>{% endif %}
-        {% if page.date %}<time>{{ page.date | date(format="%B %d, %Y") }}</time>{% endif %}
-      </a>
-    </li>
+    <a href="{{ page.permalink }}" class="page-card">
+      <strong class="page-card-title">{{ page.title }}</strong>
+      {% if page.description %}<span class="page-card-desc">{{ page.description }}</span>{% endif %}
+      {% if page.taxonomies.connections %}
+      <span class="page-card-tags">
+        {% for conn in page.taxonomies.connections %}<span class="tag tag-{{ conn | slugify }}">{{ conn }}</span>{% endfor %}
+      </span>
+      {% endif %}
+    </a>
     {% endfor %}
-  </ul>
+  </div>
   {% endif %}
 
   {% if section.subsections %}

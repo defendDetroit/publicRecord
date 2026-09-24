@@ -35,6 +35,24 @@ skip_prefixes = [
     "https://www.jams.com",                    # JAMS mediator profiles
 ]
 
+# ── Taxonomies — Zola's relational layer ─────────────────────────────────
+# Every page can be tagged with actors, entities, courts, and connection
+# types. Zola auto-generates a page per term listing all content that
+# references it — the "relational database" layer.
+[[taxonomies]]
+name = "actors"
+feed = true
+
+[[taxonomies]]
+name = "entities"
+feed = true
+
+[[taxonomies]]
+name = "courts"
+
+[[taxonomies]]
+name = "connections"
+
 [markdown]
 smart_punctuation = true
 
@@ -59,6 +77,7 @@ contact_email = "eco.primal@pm.me"
 display = "Brian Roderick Banks"
 short = "Banks"
 role = "Enterprise leader"
+tier = 1
 convictions = "9 convictions (6 felony, 3 misdemeanor)"
 conviction_count = 9
 sid = "2029469K"
@@ -72,6 +91,7 @@ display = "Joseph Holland Jr."
 short = "Holland"
 birth_name = "Williams, Joseph Antione"
 role = "Financial gatekeeper"
+tier = 1
 criminal_record = "Controlled Substance — Possession (2009, Oakland County)"
 mdoc = "443789"
 sid = "2321035P"
@@ -82,6 +102,8 @@ page = "/network/actors/joseph-holland/"
 [extra.actors.miller]
 display = "Judge Cylenthia Miller"
 short = "Miller"
+role = "Judicial cover"
+tier = 2
 court = "Wayne County 3rd Circuit Court"
 connection = "Board Chair of Anchor Rock Foundation (Banks entity)"
 election = "November 3, 2026"
@@ -90,13 +112,17 @@ page = "/network/judges/cylenthia-miller/"
 [extra.actors.yancey]
 display = "Judge Tenisha Yancey"
 short = "Yancey"
-court = "Wayne County 3rd Circuit Court"
-connection = "Campaign paid $2,283 to Banks Strategy & Consultants LLC (2024)"
+role = "Judicial cover"
+tier = 2
+court = "36th District Court"
+connection = "Campaign paid $383.82 to Banks Strategy & Consultants LLC (2024)"
 page = "/network/judges/tenisha-yancey/"
 
 [extra.actors.sabree]
 display = "Judge Aliyah Sabree"
-short = "Sabree"
+short = "A. Sabree"
+role = "Judicial cover"
+tier = 2
 court = "Wayne County 3rd Circuit Court"
 connection = "MSU Law classmate (2010) — same year as Banks' claimed J.D."
 page = "/network/judges/aliyah-sabree/"
@@ -104,9 +130,84 @@ page = "/network/judges/aliyah-sabree/"
 [extra.actors.perkins_david]
 display = "Judge David Perkins"
 short = "D. Perkins"
+role = "Judicial cover"
+tier = 2
 court = "Wayne County Probate Court"
 connection = "Family donated to Banks-aligned campaigns; Probate overlaps guardianship entity"
 page = "/network/judges/david-perkins/"
+
+[extra.actors.adam_sabree]
+display = "Judge Adam Sabree"
+short = "A. Sabree"
+role = "Judicial cover"
+tier = 2
+court = "36th District Court"
+connection = "Son of Eric Sabree (FBI-probed Wayne County Treasurer). Former in-house counsel for RICO-accused Metro Property Group."
+page = "/network/judges/adam-sabree/"
+
+[extra.actors.sean_perkins]
+display = "Judge Sean Perkins"
+short = "S. Perkins"
+role = "Judicial cover"
+tier = 2
+court = "36th District Court"
+connection = "Brother of Todd Perkins (Banks' attorney). Worked at Todd's Perkins Law Group before bench."
+page = "/network/judges/sean-perkins/"
+
+[extra.actors.kelly_ramsey]
+display = "Judge Kelly Ramsey"
+short = "Ramsey"
+role = "Judicial cover"
+tier = 2
+court = "Wayne County 3rd Circuit Court — Criminal Division"
+connection = "Daughter pushed Banks to Promise Schools. Two family members on MacDowell payroll."
+page = "/network/judges/kelly-ramsey/"
+
+[extra.actors.vonda_evans]
+display = "Judge Vonda Evans (Retired)"
+short = "Evans"
+role = "Judicial cover — mentor"
+tier = 2
+court = "Wayne County 3rd Circuit Court (retired)"
+connection = "21-year Banks mentor. Endorsed him despite criminal record. Retired to avoid JTC suspension."
+page = "/network/judges/vonda-evans/"
+
+[extra.actors.langford_morris]
+display = "Judge Denise Langford Morris (Retired)"
+short = "Langford Morris"
+role = "Judicial cover — credential legitimizer"
+tier = 2
+court = "Oakland County Circuit Court (retired, now JAMS)"
+connection = "Wrote foreword for Banks' book using his fake J.D. credential."
+page = "/network/judges/denise-langford-morris/"
+
+[extra.actors.todd_perkins]
+display = "Todd Perkins"
+short = "T. Perkins"
+role = "Professional enabler — attorney"
+tier = 4
+bar_number = "P55623"
+firm = "Perkins Law Group, PLLC"
+connection = "Banks' personal attorney. Represented Judge Miller in gun case. Brother is Judge Sean Perkins."
+page = "/network/professional-enablers/todd-perkins/"
+
+[extra.actors.gay_dagnogo]
+display = "Sherry Gay-Dagnogo"
+short = "Gay-Dagnogo"
+role = "Political enabler — charter authorizer"
+tier = 3
+current_role = "Detroit City Ombudsman (Oct 2025–2035)"
+former_role = "DPSCD Board, Michigan State Rep HD-8"
+connection = "DPSCD board member who authorized Banks' charter schools."
+page = "/network/political/sherry-gay-dagnogo/"
+
+[extra.actors.mckinney]
+display = "Billy McKinney"
+short = "McKinney"
+role = "Political enabler — campaign operative"
+tier = 3
+connection = "Campaign paid Darryl Banks Jr. $4,483 — linking McKinney to extended Banks family."
+page = "/network/political/billy-mckinney/"
 
 # ── Entity Registry ──────────────────────────────────────────────────────
 
@@ -148,6 +249,53 @@ short = "Banks Strategy"
 lara_id = "802070120"
 type = "Consulting LLC"
 page = "/network/entities/banks-strategy-llc/"
+
+[extra.entities.anchor_rock]
+display = "Anchor Rock Foundation"
+short = "Anchor Rock"
+lara_id = "802394934"
+type = "Dissolved 501(c)(3)"
+connection = "Judge Miller was Board Chair"
+page = "/network/entities/anchor-rock-foundation/"
+
+[extra.entities.serenity]
+display = "Serenity Guardianship Services, Inc."
+short = "Serenity Guardianship"
+lara_id = "802290962"
+type = "Dissolved — UPL red flag"
+connection = "Non-attorney Banks running guardianship services"
+page = "/network/entities/serenity-guardianship/"
+
+[extra.entities.city_hill]
+display = "City Hill Church"
+short = "City Hill"
+lara_id = "802365641"
+type = "Religious entity"
+connection = "Banks-controlled, same address as all entities"
+page = "/network/entities/city-hill-church/"
+
+[extra.entities.sun_community]
+display = "Sun Community Development Corp"
+short = "Sun Community"
+lara_id = "803232314"
+type = "Community development nonprofit"
+connection = "Banks-controlled, same address"
+page = "/network/entities/sun-community-development/"
+
+[extra.entities.inner_link]
+display = "Inner Link Graphics"
+short = "Inner Link"
+type = "Campaign vendor"
+connection = "$8,025 from Yancey campaign"
+page = "/network/entities/inner-link-graphics/"
+
+[extra.entities.pacs]
+display = "Political Action Committees"
+short = "PACs"
+type = "Campaign finance vehicles"
+fines = "$14,500+"
+connection = "Holland (convicted drug offender) as PAC treasurer"
+page = "/network/entities/political-action-committees/"
 
 # ── Source Registry ───────────────────────────────────────────────────────
 # Central truth for every external database / news source we cite.

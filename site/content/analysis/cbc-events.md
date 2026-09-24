@@ -6,9 +6,14 @@ date = 2026-09-20
 
 [extra]
 keywords = "Brian Banks CBC, Brian Banks Congressional Black Caucus, CBC Week Detroit, Brian Banks Washington DC party, Sherry Gay-Dagnogo CBC honoree, Brian Banks Eventbrite, Brian Banks political events, convicted felon CBC Week"
+
+[taxonomies]
+actors = ["Brian Banks", "Sherry Gay-Dagnogo"]
+entities = ["Purpose Charter Academy", "Purpose Foundation", "City Hill Church"]
+connections = ["charter authorization", "campaign finance", "business entity"]
 +++
 
-[Brian Roderick Banks](/network/actors/brian-banks/) has hosted annual parties during Congressional Black Caucus (CBC) Week in Washington, D.C. for at least **4 consecutive years** (2023–2026). A 9-time convicted felon with a fake J.D. networks with federal legislators while running schools funded by federal Title I money.
+{{ actor(key="banks") }} has hosted annual parties during Congressional Black Caucus (CBC) Week in Washington, D.C. for at least **4 consecutive years** (2023–2026). A 9-time convicted felon with a fake J.D. networks with federal legislators while running schools funded by federal Title I money.
 
 Organizer: Brian Banks — Eventbrite profile **#47714438313**
 
@@ -19,7 +24,7 @@ See also: [Political Enablers](/network/political/), [Institutional Capture](/an
 | Year | Event | Venue | Honoree / Features | Eventbrite |
 |------|-------|-------|-------------------|------------|
 | **2026** | Michigan CBC Reception & Party | Kitchen & Kocktails, Washington DC | Free food, open bar with ticket purchase | [eventbrite.com/e/1998927506983](https://www.eventbrite.com/e/1998927506983) |
-| **2025** | Michigan CBC Party | Hyatt, Washington DC | **SOLD OUT** — honoree: **[Sherry Gay-Dagnogo](/network/political/sherry-gay-dagnogo/)** (DPSCD Board, former HD-1 Rep) | [eventbrite.com/e/999744000217](https://www.eventbrite.com/e/999744000217) |
+| **2025** | Michigan CBC Party | Hyatt, Washington DC | **SOLD OUT** — honoree: **{{ actor(key="gay_dagnogo") }}** (DPSCD Board, former HD-1 Rep) | [eventbrite.com/e/999744000217](https://www.eventbrite.com/e/999744000217) |
 | **2024** | Michigan's CBC After Glow Party w/ Chubb Rock | Washington DC | Celebrity entertainment (Chubb Rock) | [eventbrite.com/e/712493987697](https://www.eventbrite.com/e/712493987697) |
 | **2023** | Michigan CBC After Glow Party w/ Chubb Rock | Washington DC | Celebrity entertainment (Chubb Rock) | Eventbrite (archived) |
 
@@ -32,7 +37,7 @@ All URLs archived on Wayback Machine.
 | Event | "Michigan CBC Party" |
 | Venue | Hyatt, Washington DC |
 | Status | **SOLD OUT** — Limited Tickets at the Door |
-| Honoree | **[Sherry Gay-Dagnogo](/network/political/sherry-gay-dagnogo/)** — DPSCD Board member, former HD-1 Representative |
+| Honoree | **{{ actor(key="gay_dagnogo") }}** — DPSCD Board member, former HD-1 Representative |
 | Significance | Gay-Dagnogo **authorizes** Banks' charter schools from the DPSCD board |
 
 Banks honors the politician who authorizes his charters at a Congressional Black Caucus party in Washington DC.

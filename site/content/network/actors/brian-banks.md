@@ -6,6 +6,12 @@ date = 2026-09-20
 
 [extra]
 keywords = "Brian Banks Detroit, Brian Banks charter school, Brian Banks criminal record, Purpose Charter Academy superintendent, Brian Banks MSU Law, Brian Banks credentials, Brian Banks MacDowell, Brian Banks Purpose Group, Brian Banks Michigan House, Brian Banks convicted felon charter school, Brian Banks 9 convictions, Brian Banks It Had 2 Happen, Brian Banks superintendent Detroit, Brian Banks Pahara Fellowship, Brian Banks LinkedIn J.D. Ph.D., Brian Banks Walden PhD, Brian Banks not admitted bar, Brian Banks Grosse Pointe Woods, Brian Banks BMF nephew"
+
+[taxonomies]
+actors = ["Brian Banks", "OD Banks"]
+entities = ["Purpose Charter Academy", "MacDowell Preparatory Academy", "The Purpose Group LLC", "Purpose Foundation", "Banks Strategy LLC", "Anchor Rock Foundation", "Serenity Guardianship Services", "City Hill Church", "Sun Community Development Corp"]
+courts = ["Wayne County 3rd Circuit Court", "Oakland County Circuit Court", "Eastern District of Michigan"]
+connections = ["criminal record", "credential fraud", "business entity", "family", "charter authorization", "RICO predicate"]
 +++
 
 ## Identity
@@ -57,7 +63,7 @@ State Bar of Michigan search for "Brian Banks": **zero results**.
 
 ## BMF Lineage
 
-Banks is the **nephew of Tonesa Welch** through his biological father **OD Banks** — BMF Defendant #22 in *USA v. Flenory et al* (2:05-cr-80955, E.D. Michigan).
+Banks is the **nephew of Tonesa Welch** through his biological father **{{ fact(section="bmf", field="father") }}** — BMF Defendant #22 in *USA v. Flenory et al* ({{ fact(section="bmf", field="father_case") }}).
 
 The enterprise never dissolved — it professionalized. BMF moved drugs for cash. The Banks network moves public education dollars through shell entities for the same purpose.
 
@@ -65,11 +71,11 @@ The enterprise never dissolved — it professionalized. BMF moved drugs for cash
 
 Banks controls **9+ entities**, all registered to the same residential address in Grosse Pointe Woods:
 
-- Purpose Charter Academy (superintendent)
-- MacDowell Preparatory Academy (superintendent)
-- The Purpose Group, LLC — takes 72.67% of school revenue
-- Purpose Foundation — Banks: President + Director; Holland: Secretary + Treasurer
-- Banks Strategy & Consultants LLC — receives judge campaign payments
+- {{ entity(key="pca") }} (superintendent)
+- {{ entity(key="macdowell") }} (superintendent)
+- {{ entity(key="purpose_group") }} — takes {{ entity(key="macdowell", field="extraction_pct") }} of school revenue
+- {{ entity(key="purpose_foundation") }} — Banks: President + Director; Holland: Secretary + Treasurer
+- {{ entity(key="banks_strategy") }} — receives judge campaign payments
 - Anchor Rock Services, Inc.
 - Sun Community Development Corp
 - City Hill Church
@@ -78,7 +84,7 @@ Banks controls **9+ entities**, all registered to the same residential address i
 
 ## Verify
 
-- {{ source(key="ichat", query="SID 2029469K") }}
+- {{ source(key="ichat", query="SID 2029469K") }} (SID: {{ fact(section="actors", key="banks", field="sid") }})
 - State Bar: {{ source(key="state_bar") }} — search "Brian Banks" (zero results)
 - {{ source(key="lara_cofs", query="Entity 803294855, 803295082, 802070120") }}
 - PACER: BMF Case 2:05-cr-80955

@@ -6,6 +6,11 @@ date = 2026-09-20
 
 [extra]
 keywords = "Joseph Holland Detroit, Joseph Holland MDOC, Joseph Holland Purpose Foundation, Joseph Holland convicted, Joseph Holland charter school treasurer, Joseph Holland Brian Banks, Joseph Holland Brian Banks co-resident, Joseph Holland 1968 Severn Road, Bank on Banks PAC treasurer felon"
+
+[taxonomies]
+actors = ["Joseph Holland", "Brian Banks"]
+entities = ["Purpose Foundation"]
+connections = ["employment", "board membership", "campaign finance", "business entity", "criminal record", "family"]
 +++
 
 ## Identity
@@ -38,8 +43,8 @@ Discharged from MDOC supervision **"WITHOUT IMPROVEMENT"** — the system determ
 
 ## Key Facts
 
-- A convicted drug offender holds **both financial oversight positions** at Banks' nonprofit
-- Lists the same Grosse Pointe Woods residential address as Banks on all filings
+- A convicted drug offender holds **both financial oversight positions** at {{ actor(key="banks") }}' nonprofit
+- Lists the same Grosse Pointe Woods residential address as {{ actor(key="banks") }} on all filings
 - As PAC Treasurer, oversaw $22,225 in contributions and **$14,500+ in fines** for failure to file
 - Zero financial oversight independence — the same two felons hold every position
 

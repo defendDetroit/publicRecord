@@ -6,6 +6,12 @@ date = 2026-09-20
 
 [extra]
 keywords = "institutional capture Detroit, captured courts Wayne County, Detroit charter school corruption, DPSCD authorization fraud, Wayne County judges Brian Banks, Detroit institutional corruption, charter school captured institutions"
+
+[taxonomies]
+actors = ["Brian Banks", "Joseph Holland", "Judge Cylenthia Miller", "Judge Tenisha Yancey", "Judge Aliyah Sabree", "Judge David Perkins", "Sherry Gay-Dagnogo", "Eric Sabree"]
+entities = ["Purpose Charter Academy", "MacDowell Preparatory Academy", "The Purpose Group LLC", "Purpose Foundation", "Banks Strategy LLC", "Anchor Rock Foundation", "Serenity Guardianship Services", "Inner Link Graphics"]
+courts = ["Wayne County 3rd Circuit Court", "36th District Court", "Wayne County Probate Court"]
+connections = ["charter authorization", "board membership", "campaign finance", "business entity", "family", "employment", "credential fraud"]
 +++
 
 The Banks enterprise does not just commit fraud. It **captures institutions** — installing loyalists, creating financial dependencies, and ensuring that the systems meant to protect the public instead protect the enterprise.
@@ -24,9 +30,9 @@ See also: [RICO Pattern](/analysis/rico-pattern/) — full enterprise structure.
 
 | Institution | Capture Method | Effect |
 |-------------|---------------|--------|
-| [Purpose Charter Academy](/network/entities/purpose-charter-academy/) | Banks is superintendent with fake credentials; [Purpose Group LLC](/network/entities/purpose-group-llc/) takes ~73% | Public dollars routed to CMO shell |
-| [MacDowell Preparatory Academy](/network/entities/macdowell-prep/) | Same structure; CMU as authorizer | $4.9M/yr state aid extracted |
-| DPSCD (authorizer) | Former board member [Gay-Dagnogo](/network/political/sherry-gay-dagnogo/) — Banks' political ally and [CBC honoree](/analysis/cbc-events/) — authorized charters before resigning for ombudsman role (Oct 2025) | Charter authorization by captured board |
+| {{ entity(key="pca") }} | Banks is superintendent with fake credentials; {{ entity(key="purpose_group") }} takes ~73% | Public dollars routed to CMO shell |
+| {{ entity(key="macdowell") }} | Same structure; CMU as authorizer | {{ entity(key="macdowell", field="revenue") }} state aid extracted |
+| DPSCD (authorizer) | Former board member {{ actor(key="gay_dagnogo") }} — Banks' political ally and [CBC honoree](/analysis/cbc-events/) — authorized charters before resigning for ombudsman role (Oct 2025) | Charter authorization by captured board |
 
 **Effect:** Students are the product, not the beneficiaries. Money flows from state per-pupil funding through shell entities to enterprise principals.
 
@@ -34,10 +40,10 @@ See also: [RICO Pattern](/analysis/rico-pattern/) — full enterprise structure.
 
 | Court | Captured Actor | Method | Effect |
 |-------|---------------|--------|--------|
-| Wayne 3rd Circuit | [Judge Cylenthia Miller](/network/judges/cylenthia-miller/) | Board Chair of [Anchor Rock Foundation](/network/entities/anchor-rock-foundation/) | Judge chairs felon's nonprofit while on bench |
-| Wayne 3rd Circuit | [Judge Tenisha Yancey](/network/judges/tenisha-yancey/) | Campaign paid [Banks Strategy LLC](/network/entities/banks-strategy-llc/) | Financial tie to enterprise principal |
-| Wayne 3rd Circuit | [Judge Aliyah Sabree](/network/judges/aliyah-sabree/) | MSU Law classmate; brother is County Treasurer | Professional and family network overlap |
-| Wayne Probate | [Judge David Perkins](/network/judges/david-perkins/) | Family donations to network campaigns | [Serenity Guardianship](/network/entities/serenity-guardianship/) jurisdiction |
+| Wayne 3rd Circuit | {{ actor(key="miller") }} | Board Chair of {{ entity(key="anchor_rock") }} | Judge chairs felon's nonprofit while on bench |
+| Wayne 3rd Circuit | {{ actor(key="yancey") }} | Campaign paid {{ entity(key="banks_strategy") }} | Financial tie to enterprise principal |
+| Wayne 3rd Circuit | {{ actor(key="sabree") }} | MSU Law classmate; brother is County Treasurer | Professional and family network overlap |
+| Wayne Probate | {{ actor(key="perkins_david") }} | Family donations to network campaigns | {{ entity(key="serenity") }} jurisdiction |
 
 **Effect:** 4 judges in the same county system with demonstrable ties to the enterprise. Any case involving Banks, his schools, or his network risks landing before a captured judge.
 
@@ -49,9 +55,9 @@ Corroboration: [Allied Cases](/analysis/allied-cases/) — Bryant v. Miller inde
 
 | Office | Captured Actor | Method | Effect |
 |--------|---------------|--------|--------|
-| MI HD-1 (former) | [Brian Banks](/network/actors/brian-banks/) | Held office 2015–2016 with fake credentials | Political legitimacy for enterprise |
-| MI HD-8 (former) | [Sherry Gay-Dagnogo](/network/political/sherry-gay-dagnogo/) | Authorized Banks' charters from DPSCD board; now Detroit City Ombudsman (Oct 2025) | Direct authorization conflict (historical) |
-| Wayne County Treasurer | Eric Sabree | Sister is [Judge Aliyah Sabree](/network/judges/aliyah-sabree/); office handles tax foreclosures | Housing distress pipeline |
+| MI HD-1 (former) | {{ actor(key="banks") }} | Held office 2015–2016 with fake credentials | Political legitimacy for enterprise |
+| MI HD-8 (former) | {{ actor(key="gay_dagnogo") }} | Authorized Banks' charters from DPSCD board; now Detroit City Ombudsman (Oct 2025) | Direct authorization conflict (historical) |
+| Wayne County Treasurer | Eric Sabree | Sister is {{ actor(key="sabree") }}; office handles tax foreclosures | Housing distress pipeline |
 
 **Effect:** Political allies authorize the charter schools and protect the revenue stream.
 
@@ -61,10 +67,10 @@ See: [Political Enablers](/network/political/), [CBC Week Events](/analysis/cbc-
 
 | Entity | Capture Method | Effect |
 |--------|---------------|--------|
-| [Purpose Group LLC](/network/entities/purpose-group-llc/) | Shell CMO — all school staff "employed" by the LLC, not the school | 72.67% revenue extraction |
-| [Purpose Foundation](/network/entities/purpose-foundation/) | Private foundation — 2 felons hold all 4 officer positions | Self-dealing risk under IRC §4940–4948 |
-| [Banks Strategy LLC](/network/entities/banks-strategy-llc/) | Consulting entity — receives payments from judges | Judicial financial dependency |
-| [Bank on Banks PAC](/network/entities/political-action-committees/) | Felon as treasurer; $14.5K+ in unpaid fines | Political infrastructure |
+| {{ entity(key="purpose_group") }} | Shell CMO — all school staff "employed" by the LLC, not the school | {{ entity(key="macdowell", field="extraction_pct") }} revenue extraction |
+| {{ entity(key="purpose_foundation") }} | Private foundation — 2 felons hold all 4 officer positions | Self-dealing risk under IRC §4940–4948 |
+| {{ entity(key="banks_strategy") }} | Consulting entity — receives payments from judges | Judicial financial dependency |
+| {{ entity(key="pacs") }} | Felon as treasurer; $14.5K+ in unpaid fines | Political infrastructure |
 | OFA Michigan | Dark money 501(c)(4) at Holland's PO Box | Unreported political spending |
 
 **Effect:** Money flows from public schools through multiple shell entities, obscuring extraction.

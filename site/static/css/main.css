@@ -362,6 +362,45 @@ section h2 {
   .tl-event-actors { grid-column: 2; }
 }
 
+/* Page cards (section listings) */
+.page-cards {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1rem; margin: 1.5rem 0;
+}
+.page-card {
+  display: flex; flex-direction: column; gap: 0.4rem;
+  padding: 1rem 1.2rem; border: 1px solid var(--border, #333);
+  border-radius: 8px; text-decoration: none; color: var(--text);
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.page-card:hover {
+  border-color: var(--link); box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  text-decoration: none;
+}
+.page-card-title { font-size: 1.05rem; color: var(--link); }
+.page-card-desc { font-size: 0.85rem; color: var(--text-muted); line-height: 1.4; }
+.page-card-tags { display: flex; flex-wrap: wrap; gap: 0.3rem; margin-top: 0.2rem; }
+.tag {
+  display: inline-block; padding: 0.1rem 0.5rem; border-radius: 12px;
+  font-size: 0.7rem; background: var(--bg-muted, #1a1a2e); color: var(--text-muted);
+  border: 1px solid var(--border, #333);
+}
+
+/* Taxonomy grids */
+.taxonomy-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 0.75rem; margin: 1.5rem 0;
+}
+.taxonomy-card {
+  display: flex; flex-direction: column; gap: 0.2rem;
+  padding: 0.75rem 1rem; border: 1px solid var(--border, #333);
+  border-radius: 8px; text-decoration: none; color: var(--text);
+  transition: border-color 0.2s;
+}
+.taxonomy-card:hover { border-color: var(--link); text-decoration: none; }
+.taxonomy-card strong { color: var(--link); }
+.taxonomy-count { font-size: 0.8rem; color: var(--text-muted); }
+
 /* Source citations */
 cite.source {
   font-style: normal; display: inline; font-size: 0.88em;

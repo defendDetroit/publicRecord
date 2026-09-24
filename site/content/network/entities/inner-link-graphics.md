@@ -6,6 +6,12 @@ date = 2026-09-20
 
 [extra]
 keywords = "Inner Link Graphics, Inner Link Graphics Tenisha Yancey, Inner Link Graphics Detroit, Inner Link Graphics campaign finance, Banks network vendors"
+
+[taxonomies]
+actors = ["Judge Tenisha Yancey", "Judge Adam Sabree", "Judge Sean Perkins"]
+entities = ["Inner Link Graphics", "Banks Strategy LLC", "MacDowell Preparatory Academy", "Purpose Charter Academy"]
+courts = ["36th District Court"]
+connections = ["campaign finance"]
 +++
 
 ## Vendor Overview

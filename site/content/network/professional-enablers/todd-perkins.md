@@ -6,6 +6,12 @@ date = 2026-09-24
 
 [extra]
 keywords = "Todd Perkins attorney Detroit, Todd Perkins Brian Banks, Todd Perkins Judge Miller, Todd Perkins Perkins Law Group, Todd Perkins Sean Perkins brother, Todd Perkins mayor Detroit 2025, Todd Perkins Carol Banks, Todd Perkins Operation Northern Hook, Todd Perkins Inkster city attorney"
+
+[taxonomies]
+actors = ["Todd Perkins", "Brian Banks", "Judge Cylenthia Miller", "Judge Vonda Evans", "Judge Sean Perkins", "Judge Tenisha Yancey", "Judge Adam Sabree"]
+entities = ["Perkins Law Group"]
+courts = ["36th District Court"]
+connections = ["legal representation", "family", "employment"]
 +++
 
 ## Position
@@ -18,19 +24,19 @@ keywords = "Todd Perkins attorney Detroit, Todd Perkins Brian Banks, Todd Perkin
 | Education | B.A. History, Dartmouth College; J.D., University of Detroit Mercy School of Law (1996) |
 | Municipal roles | **City Attorney**, Inkster (since Jun 2024); former City Attorney, Highland Park |
 | Political | Ran for **Mayor of Detroit** (2025 nonpartisan primary — finished 4th) |
-| Family | Brother of [Judge Sean Perkins](/network/judges/sean-perkins/) (36th District Court) |
+| Family | Brother of {{ actor(key="sean_perkins") }} (36th District Court) |
 
 ## Connection to Banks Network
 
 | Role | Detail |
 |------|--------|
-| **Banks' attorney** | Represents [Brian Banks](/network/actors/brian-banks/) in legal matters |
-| **Miller's attorney** | Represented [Judge Cylenthia Miller](/network/judges/cylenthia-miller/) in DTW airport gun case (Jun 2024) — same attorney as Banks |
-| **Evans' attorney** | Represented [Judge Vonda Evans](/network/judges/vonda-evans/) during FBI **Operation Northern Hook** corruption probe — Evans was not a target |
+| **Banks' attorney** | Represents {{ actor(key="banks") }} in legal matters |
+| **Miller's attorney** | Represented {{ actor(key="miller") }} in DTW airport gun case (Jun 2024) — same attorney as Banks |
+| **Evans' attorney** | Represented {{ actor(key="vonda_evans") }} during FBI **Operation Northern Hook** corruption probe — Evans was not a target |
 | **Carol Banks** | Represented Carol Banks (FBI-probed vice chair, Eastside Slate) in Operation Northern Hook |
 | **Judge Kenneth King** | Represented Judge Kenneth King of 36th District Court |
 | **Bench pipeline** | Firm website: *"Perkins Law Group has served as a catalyst for sitting judges"* — brother Sean is one of them |
-| **36th District overlap** | Sean Perkins sits on same court as [Tenisha Yancey](/network/judges/tenisha-yancey/) and [Adam Sabree](/network/judges/adam-sabree/) |
+| **36th District overlap** | Sean Perkins sits on same court as {{ actor(key="yancey") }} and {{ actor(key="adam_sabree") }} |
 
 ## Perkins Law Group
 
@@ -38,7 +44,7 @@ keywords = "Todd Perkins attorney Detroit, Todd Perkins Brian Banks, Todd Perkin
 |-------|-------|
 | Firm | Perkins Law Group, PLLC |
 | Address | 615 Griswold St, Detroit MI 48226 |
-| Prior employee | [Sean Perkins](/network/judges/sean-perkins/) — practiced felony/misdemeanor criminal, personal injury, no-fault civil, and **bankruptcy** at Todd's firm before taking the bench |
+| Prior employee | {{ actor(key="sean_perkins") }} — practiced felony/misdemeanor criminal, personal injury, no-fault civil, and **bankruptcy** at Todd's firm before taking the bench |
 
 Sean literally worked at Todd Perkins' firm before becoming a judge. Todd files lawsuits for Banks; Sean sits on the bench in the same jurisdiction.
 

@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %}Courts — {{ config.title }}{% endblock title %}
+{% block description %}Index of all network courts referenced across the Detroit charter school investigation. Cross-reference any name to see every page that mentions them.{% endblock description %}
+{% block keywords %}Detroit charter school network, Brian Banks network, Wayne County judges, network courts, charter school accountability, Purpose Charter Academy connections{% endblock keywords %}
+
+{% block content %}
+<article class="taxonomy-page">
+  <h1>Courts</h1>
+  <p>Cross-reference index. Click any name to see every page that mentions them.</p>
+
+  <div class="taxonomy-grid">
+    {% for term in terms %}
+    <a href="{{ term.permalink }}" class="taxonomy-card">
+      <strong>{{ term.name }}</strong>
+      <span class="taxonomy-count">{{ term.pages | length }} page{{ term.pages | length | pluralize }}</span>
+    </a>
+    {% endfor %}
+  </div>
+</article>
+{% endblock content %}

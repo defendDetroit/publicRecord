@@ -6,6 +6,11 @@ date = 2026-09-20
 
 [extra]
 keywords = "MacDowell Preparatory Academy, MacDowell Prep Detroit, MacDowell charter school, MacDowell Preparatory Academy Brian Banks, MacDowell Preparatory Academy test scores, MacDowell Preparatory Academy board, Purpose Group Michigan LLC, DPSCD charter school Detroit, MacDowell Preparatory Academy math proficiency, MacDowell Preparatory Academy superintendent felony, MacDowell Detroit 3 percent math, MacDowell Purpose Group extraction"
+
+[taxonomies]
+actors = ["Brian Banks"]
+entities = ["MacDowell Preparatory Academy", "The Purpose Group LLC"]
+connections = ["charter authorization", "credential fraud", "business entity"]
 +++
 
 ## School Overview
@@ -24,17 +29,17 @@ MacDowell Preparatory Academy receives public per-pupil funding while Purpose Gr
 
 | Metric | Value |
 |--------|-------|
-| Annual revenue | **$4.9M** |
-| Purpose Group LLC payments | **$4,285,201 (72.67%)** |
+| Annual revenue | **{{ entity(key="macdowell", field="revenue") }}** |
+| Purpose Group LLC payments | **{{ entity(key="macdowell", field="extraction_amount") }} ({{ entity(key="macdowell", field="extraction_pct") }})** |
 | Reported staff salaries | **$0** |
-| Unaccounted management fee gap | **$348,489** |
+| Unaccounted management fee gap | **{{ entity(key="macdowell", field="unaccounted") }}** |
 | Math proficiency | **3%** |
 
 ### How the Numbers Work
 
-Purpose Group receives $4,285,201 of MacDowell's spending — 72.67% of total revenue. The school reports **$0 in staff salaries** because staff are technically employed by Purpose Group, not the school itself.
+Purpose Group receives {{ entity(key="macdowell", field="extraction_amount") }} of MacDowell's spending — {{ entity(key="macdowell", field="extraction_pct") }} of total revenue. The school reports **$0 in staff salaries** because staff are technically employed by Purpose Group, not the school itself.
 
-Purpose Group reported paying staff **$3,936,712**, leaving a **$348,489 gap** between what MacDowell paid Purpose Group and what Purpose Group reported spending on personnel.
+Purpose Group reported paying staff **$3,936,712**, leaving a **{{ entity(key="macdowell", field="unaccounted") }} gap** between what MacDowell paid Purpose Group and what Purpose Group reported spending on personnel.
 
 ```
 MacDowell revenue:           $4,900,000

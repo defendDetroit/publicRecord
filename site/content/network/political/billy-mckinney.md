@@ -6,6 +6,11 @@ date = 2026-09-20
 
 [extra]
 keywords = "Billy McKinney Detroit, Darryl Banks Jr campaign payment, McKinney Banks family, Billy McKinney political operative Detroit, Donavan McKinney City Council, McKinney campaign finance TransparencyUSA"
+
+[taxonomies]
+actors = ["Billy McKinney", "Brian Banks", "Joseph Holland", "Judge Tenisha Yancey", "Sherry Gay-Dagnogo"]
+entities = ["Banks Strategy LLC", "Inner Link Graphics"]
+connections = ["campaign finance"]
 +++
 
 ## Position

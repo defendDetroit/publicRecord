@@ -6,6 +6,11 @@ date = 2026-09-20
 
 [extra]
 keywords = "Purpose Charter Academy, Purpose Charter Academy Detroit, PCA Detroit, Purpose Charter Academy Brian Banks, Purpose Charter Academy DPSCD, Purpose Charter Academy Law Public Service, charter school Detroit convicted felon, Purpose Charter Academy fraud, Purpose Charter Academy superintendent criminal record, DPSCD Brian Banks authorization"
+
+[taxonomies]
+actors = ["Brian Banks"]
+entities = ["Purpose Charter Academy", "The Purpose Group LLC"]
+connections = ["charter authorization", "credential fraud", "business entity"]
 +++
 
 ## School Overview
@@ -57,7 +62,7 @@ The Purpose Group, LLC (management company)
 Brian Roderick Banks (sole member)
 ```
 
-Revenue passes through Purpose Group LLC rather than remaining under direct school control. The same management company structure appears at MacDowell Preparatory Academy, where 72.67% of spending flows to Purpose Group.
+Revenue passes through Purpose Group LLC rather than remaining under direct school control. The same management company structure appears at {{ entity(key="macdowell") }}, where {{ entity(key="macdowell", field="extraction_pct") }} of spending flows to Purpose Group.
 
 ## Verify
 
