@@ -1,6 +1,6 @@
 +++
 title = "Judge Tenisha Yancey"
-description = "Judge Tenisha Yancey — Wayne County 3rd Circuit Court. MacDowell Preparatory Academy board chair. Campaign paid $2,283 to Banks Strategy LLC (2024). Clutch Justice confirmed."
+description = "Judge Tenisha Yancey — 36th District Court. MacDowell board chair. $383.82 was her sole contribution and sole expenditure — all to Banks Strategy LLC."
 weight = 2
 date = 2026-09-20
 
@@ -12,14 +12,17 @@ keywords = "Tenisha Yancey, Tenisha Yancey judge, Tenisha Yancey Wayne County 3r
 
 | Field | Value |
 |-------|-------|
-| Court | Wayne County 3rd Circuit Court |
-| Status | Elected |
+| Court | **36th District Court** (Detroit) |
+| Status | Elected — term ends **January 1, 2029** |
 
 ## Connection to Banks Network
 
 | Transaction | Amount | Date | Source |
 |-------------|--------|------|--------|
-| Campaign payment to "Banks Strategy and Consultants" | **$2,283** | 2024 | TransparencyUSA |
+| Campaign payment to "Banks Strategy and Consultants" | **$383.82** | 2024 | TransparencyUSA |
+| Campaign payment to Inner Link Graphics | **$8,025** total | Multiple | TransparencyUSA |
+
+**The $383.82 was both Yancey's SOLE contribution (from herself) and SOLE expenditure (to Banks' LLC).** Her only financial activity in that cycle was paying [Banks Strategy & Consultants](/network/entities/banks-strategy-llc/).
 
 ## Key Facts
 
@@ -28,6 +31,35 @@ keywords = "Tenisha Yancey, Tenisha Yancey judge, Tenisha Yancey Wayne County 3r
 - Banks Strategy & Consultants LLC is controlled solely by a convicted felon (9 convictions, 6 felony) who claims a J.D. not confirmed by bar records
 - The payment creates a documented financial relationship between a sitting judge and the network
 - Wayne County is the jurisdiction where Banks' school entities operate and generate cases
+
+## Family Connection — Dr. Chalena Yancey Beasley
+
+- **Dr. Chalena Yancey Beasley** (née Yancey) = **PCA School Leader** at Purpose Charter Academy
+- Confirmed via Walden University dissertation dedication
+- Used surname "Yancey" before marriage
+- A judge's **sister** runs Banks' new school while the judge chairs his other school and pays his LLC
+
+## Wayne County Register of Deeds Analysis
+
+| Finding | Detail |
+|---------|--------|
+| Total ROD records | 21 analyzed |
+| Alcoy property | Suspicious sequence: tax forfeiture → HELOC → QCD → quick $200K sale |
+| Harper Woods residence | **0.3 miles** from Banks' Newcastle Rd property |
+| Co-party | Jaylen Gregory Yancey on multiple instruments |
+| River Place condo | Acquired $268K condo at 300 River Place while retaining other property |
+| Direct Banks instruments | None found in ROD search |
+
+## 36th District Court Concentration
+
+Yancey sits on the **same court** as:
+
+| Judge | Connection |
+|-------|------------|
+| [Adam Sabree](/network/judges/adam-sabree/) | Eric Sabree's son; ex-Metro Property Group counsel |
+| [Sean Perkins](/network/judges/sean-perkins/) | Todd Perkins' brother — Todd is [Brian Banks](/network/actors/brian-banks/)' attorney |
+
+**Three network judges on one court.** All three won seats in the **same November 2022 election**. All three terms end **January 1, 2029**.
 
 ## Verify
 

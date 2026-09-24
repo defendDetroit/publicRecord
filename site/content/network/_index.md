@@ -36,6 +36,7 @@ BRIAN RODERICK BANKS (9 convictions, 3 bankruptcies, claimed J.D. not confirmed)
 - **[Political Enablers](/network/political/)** — Gay-Dagnogo, McKinney
 - **[Entities](/network/entities/)** — 9+ LLCs, nonprofits, PACs, and schools
 - **[Professional Enablers](/network/professional-enablers/)** — Attorneys who organized the shell structure
+- **[Pattern Analysis](/analysis/)** — RICO pattern, institutional capture, allied cases, CBC events
 
 ---
 

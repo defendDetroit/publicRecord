@@ -49,3 +49,73 @@ Public record of JTC complaint and network connections are available to voters a
 
 - [WXYZ Detroit: Wayne County judge's decision to dismiss infant murder case questioned](https://www.wxyz.com/news/local-news/investigations/wayne-county-judges-decision-to-dismiss-infant-murder-case-questioned) — Prosecutor Kym Worthy's office alleged Miller "displayed a bias throughout the trial"
 - [Ballotpedia: Cylenthia LaToye Miller](https://ballotpedia.org/Cylenthia_LaToye_Miller) — On the ballot November 3, 2026 (general election, nonpartisan)
+
+## Three Active Scandals
+
+### 1. Gun at DTW Airport (Jun 2024)
+
+- Loaded .380 S&W found in purse by TSA. Unregistered.
+- Told police she got it "from her brother" in Ohio — Todd Perkins later admitted the man was NOT a relative
+- Pled no contest. $1,400 fines, 90 days probation
+- **Attorney: Todd Perkins** ([Brian Banks](/network/actors/brian-banks/)' attorney) — see [Sean Perkins](/network/judges/sean-perkins/)
+- Prosecutor Worthy recused
+- **JTC Outcome:** "Dismissed with an admonition" — take precautions before travel and "ensure the veracity of future statements to police"
+- Rita Williams (Clutch Justice) identified Miller from anonymized JTC report
+- Source: WXYZ/Ross Jones
+
+### 2. Dismissed Infant Murder Case (Dec 2025)
+
+- Dismissed charges against Charles Evans (killed 9-month-old Kinsley)
+- Prosecutor Worthy: "outrageous," "bias throughout the trial," said Miller should have recused over attorney conflict
+- Appeal pending
+- Source: WXYZ/Ross Jones
+
+### 3. Practiced Law While Serving as Judge (Jun 2026)
+
+- Appeared in 54-B District Court (East Lansing) for a ward
+- Judge Greenwalt: "wholly improper"
+- Referred to State Bar
+- Source: WXYZ/Ross Jones, Clutch Justice/Rita Williams
+
+## PCA Board Chair
+
+LinkedIn post (Mar 24, 2026):
+
+> "I am so honored and proud to serve as the Chairperson of the Board of Directors of this amazing new school - Purpose Charter Academy for Law & Public Service! Way to lead, Brian Banks, J.D., Ph.D.!"
+
+## Baker College Teaching Nexus
+
+| Person | Role at Baker College |
+|--------|----------------------|
+| Miller | Adjunct Criminal Justice, Aug 2012 – Jun 2020 (7 yr 10 mo). Not in 2025–26 faculty directory. |
+| Banks | Also taught Criminal Justice at Baker College as a convicted felon with a fake J.D. never admitted to any bar |
+
+They were colleagues in the **same department at the same institution**. A sitting judge and MSU Law cum laude graduate watched her mentee teach criminal justice under fraudulent credentials and said nothing.
+
+## Campaign Endorsers
+
+Per keepjudgemiller.com:
+
+- Wayne County Treasurer **Eric R. Sabree** — father of [Adam Sabree](/network/judges/adam-sabree/) and [Aliyah Sabree](/network/judges/aliyah-sabree/)
+- UAW Region 1/1A
+- 14th + 13th Congressional Dist Dem Party
+- AFL-CIO
+- Wayne County Democratic Party Black Caucus
+- The Black Slate
+- Wayne County Executive Warren Evans
+- Fannie Lou Hamer PAC
+- Detroit Democratic Club
+- SEIU
+- **Official Eastside Slate** — Carol Banks (Vice Chair), FBI-probed, runs endorsement-for-payment operation
+- MI Democratic Future PAC
+- MI Regional Council of Carpenters
+- Laborers Local 911
+- MAPO
+- MI Teamsters Joint Council #43
+
+## Election Vulnerability
+
+- Next election: **November 3, 2026** — general election (primary canceled)
+- Public record of 3 active scandals = campaign vulnerabilities
+- Any voter or opposing candidate can raise the Banks connection in public forum
+- 16 incumbent seats on the ballot; **Aliyah Sabree** also on ballot (special election)

@@ -12,8 +12,16 @@ keywords = "David Perkins, David Perkins judge, David Perkins Wayne County, Davi
 
 | Field | Value |
 |-------|-------|
-| Court | Wayne County Probate Court |
+| Court | Wayne County Probate Court — **Chief Judge Pro Tem** |
 | Status | Elected |
+| Previous | **36th District Court (2014–2018)** — same court where [Yancey](/network/judges/tenisha-yancey/), [Adam Sabree](/network/judges/adam-sabree/), and [Sean Perkins](/network/judges/sean-perkins/) now sit |
+
+## Relationship to Other Perkins Network Members
+
+| Person | Relationship | Confirmed? |
+|--------|-------------|------------|
+| **Todd Perkins** | Shares surname | **UNCONFIRMED** |
+| **Sean Perkins** | Wikipedia confirms Sean and Todd are brothers. David's relationship to them is **NOT confirmed.** | **UNCONFIRMED** |
 
 ## Connection to Banks Network
 
@@ -26,7 +34,9 @@ keywords = "David Perkins, David Perkins judge, David Perkins Wayne County, Davi
 
 - Banks operated **Serenity Guardianship Services, Inc.** (LARA ID 802290962, now dissolved) — a guardianship company run by a non-attorney felon (textbook UPL)
 - Guardianship cases route through Wayne County Probate Court
-- This creates a **fourth captured court** in Wayne County with ties to the Banks enterprise
+- Moved from 36th District Court to Probate Court — created a judicial pipeline between both courts
+- If related to Todd/Sean Perkins, this adds a fourth captured court in the Wayne County system — **family relationship is UNCONFIRMED**
+- Even without confirmed family ties, the 36th District → Probate pipeline is notable
 
 ## Verify
 
@@ -35,4 +45,4 @@ keywords = "David Perkins, David Perkins judge, David Perkins Wayne County, Davi
 
 ---
 
-*All sources are public campaign finance and LARA records.*
+*All sources are public records and published news reports.*
