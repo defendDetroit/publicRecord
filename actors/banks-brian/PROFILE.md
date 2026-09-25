@@ -54,6 +54,42 @@ Banks claims **"J.D."** (Juris Doctor) from Michigan State University College of
 | Ph.D. Public Policy | Walden University | 2022 (Dissertation #12627 — lists fake J.D. on cover page) |
 | School Admin Certificate | MI DOE AD0000048782 | Sep 2, 2022 (3 days after school started) |
 
+## MDE FOIA — Credential Investigation (LAYER 2: CONFIRMED Sep 25, 2026)
+
+| Field | Value | Source |
+|-------|-------|--------|
+| PIC (Personnel ID Code) | **287338** | MDE REP + MOECS |
+| DOB | **11/15/1976** | MDE MOECS |
+| SSN (partial) | **380-66-5523** | MDE REP |
+| Permit Application # | **590606** | MDE MOECS |
+| Permit Type | School Administrator Permit | MDE MOECS |
+| Application Date | **02/09/2022** | MDE MOECS |
+| Permit Status | **HOLD** | MDE MOECS |
+| Issued Permits | **NONE** | MDE MOECS ("No permits on record") |
+| Credential column (REP) | **BLANK** | MDE REP |
+
+### Investigation Timeline
+| Date | Event | Source |
+|------|-------|--------|
+| Feb 9, 2022 | Banks submits School Administrator Permit application #590606 | MOECS screenshot |
+| Feb 28, 2022 | MDE sends formal Investigation Letter to Board President Nicole Wells-Stallworth | Investigation Letter PDF |
+| Feb 28, 2022 | Letter states Banks "not appropriately credentialed" — violates MCL 388.1763 | Investigation Letter PDF |
+| Feb 28, 2022 | Penalty threatened: 50% salary deduction → 100% if unresolved in 10 days | Investigation Letter PDF |
+| Mar 4, 2022 | Qualtrics survey sent to Wells-Stallworth (NOT to Banks) | Investigation Letter PDF |
+| ~2022 | Investigation "cleared" — .msg files in FOIA response (need Outlook to read) | MDE "Cleared" folder |
+| Jul 1, 2022 | School becomes "self-managed" — Banks now sole management authority | Audit Note 6 (FY2024+2025) |
+| Sep 1, 2022 | Banks applies for Certificate #AD0000048782 | FOIA request |
+| Sep 2, 2022 | Certificate issued **ONE DAY** after application — 7 months after investigation | FOIA request |
+
+**⚠️ Critical question: Did the school tell MDE Banks was "not placed" as administrator to avoid penalties, then make him school leader 4 months later?**
+
+### MDE Personnel
+| Name | Role | Contact |
+|------|------|---------|
+| Katie Schmiedeknecht | MDE Analyst, Data & Accountability, OEE | SchmiedeknechtK@michigan.gov, 517-335-1151 |
+| David Head | FOIA Coordinator, MDE | HeadD1@michigan.gov |
+| Jennifer Cook | MDE (CC'd on response) | CookJ9@michigan.gov |
+
 ## Bankruptcies (3 — All MIEB, All Dismissed)
 | Case | Filed | Chapter | Name Used | Disposition | Detail |
 |------|-------|---------|-----------|-------------|--------|

@@ -38,11 +38,21 @@
       { id: 'welch', label: 'Tonesa Welch', tier: 5, type: 'bmf',
         detail: 'BMF figure, Banks\' aunt', url: null },
 
+      // FOIA-revealed actors (Layer 2)
+      { id: 'wells_stallworth', label: 'N. Wells-Stallworth', tier: 3, type: 'political',
+        detail: 'Board President since 2014. Received MDE investigation letter Feb 2022. [FOIA]', url: null },
+      { id: 'schmiedeknecht', label: 'K. Schmiedeknecht', tier: 4, type: 'institutional',
+        detail: 'MDE Analyst — sent investigation letter, then cleared. [FOIA]', url: null },
+      { id: 'mde', label: 'MI Dept of Education', tier: 4, type: 'institutional',
+        detail: 'Investigated Banks Feb 2022 for no credential. Cleared. [FOIA]', url: null },
+      { id: 'alan_young', label: 'Alan C. Young CPA', tier: 4, type: 'institutional',
+        detail: 'Auditor FY2017-2025, 9 consecutive years. No material findings. [FOIA]', url: null },
+
       // Entities
       { id: 'pca', label: 'Purpose Charter Academy', tier: 0, type: 'school',
         detail: 'K-8, DPSCD authorized', url: '/network/entities/purpose-charter-academy/' },
       { id: 'macdowell', label: 'MacDowell Prep', tier: 0, type: 'school',
-        detail: '$4.9M revenue, 72.67% extracted', url: '/network/entities/macdowell-prep/' },
+        detail: '$4.9M revenue, entity #82747. [FOIA: 9yr audits]', url: '/network/entities/macdowell-prep/' },
       { id: 'purpose_group', label: 'Purpose Group LLC', tier: 0, type: 'entity',
         detail: 'CMO — takes 72.67% of revenue', url: '/network/entities/purpose-group-llc/' },
       { id: 'purpose_foundation', label: 'Purpose Foundation', tier: 0, type: 'entity',
@@ -84,6 +94,15 @@
       // BMF lineage
       { source: 'od_banks', target: 'banks', type: 'family', label: 'father' },
       { source: 'welch', target: 'od_banks', type: 'family', label: 'BMF network' },
+
+      // FOIA-revealed connections (Layer 2)
+      { source: 'wells_stallworth', target: 'macdowell', type: 'controls', label: 'Board President ≥2014' },
+      { source: 'wells_stallworth', target: 'banks', type: 'associate', label: 'received investigation, protected' },
+      { source: 'mde', target: 'banks', type: 'institutional', label: 'HOLD on permit #590606' },
+      { source: 'mde', target: 'macdowell', type: 'institutional', label: 'investigated Feb 2022, cleared' },
+      { source: 'schmiedeknecht', target: 'mde', type: 'institutional', label: 'analyst, OEE' },
+      { source: 'alan_young', target: 'macdowell', type: 'financial', label: 'auditor 9yr (FY17-25)' },
+      { source: 'macdowell', target: 'banks', type: 'money', label: 'School Admin $667K' },
     ]
   };
 
@@ -96,6 +115,7 @@
     bmf: '#e74c3c',
     school: '#27ae60',
     entity: '#f39c12',
+    institutional: '#7f8c8d',
   };
 
   const LINK_COLORS = {
@@ -106,6 +126,7 @@
     judicial: '#8e44ad',
     political: '#2980b9',
     family: '#c0392b',
+    institutional: '#7f8c8d',
   };
 
   // ── Render ────────────────────────────────────────────────────────────
@@ -235,6 +256,7 @@
       { color: COLORS.school, label: 'Schools' },
       { color: COLORS.entity, label: 'Shell entities' },
       { color: COLORS.bmf, label: 'BMF connection' },
+      { color: COLORS.institutional, label: 'Institutional (FOIA)' },
     ];
     legend.forEach(function(item) {
       var c = document.createElementNS('http://www.w3.org/2000/svg', 'circle');

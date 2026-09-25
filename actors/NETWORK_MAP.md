@@ -1,7 +1,8 @@
 # Banks Network — Actor Map
 
-**Last updated:** September 20, 2026
-**Total documented actors:** 17+ individuals, 7 judges, across 4 courts
+**Last updated:** September 25, 2026
+**Total documented actors:** 21+ individuals, 7 judges, across 4 courts
+**Data layers:** OSINT (Layer 1) + MDE FOIA (Layer 2, received Sep 25)
 
 ---
 
@@ -66,15 +67,25 @@
 | **Tarajah Ramsey** | External Relations Officer at MacDowell (Banks' payroll) |
 
 ## Tier 6: Institutional
-| Institution | Role | Connection |
-|-------------|------|------------|
-| **DPSCD** | Charter authorizer | Authorized PCA despite Banks' public criminal record |
-| **Central Michigan University** | Charter authorizer | Authorized MacDowell; presumably verified credentials |
-| **Wayne County Treasurer** | Tax foreclosures | Sabree family controls; generates distressed housing pipeline |
-| **Baker College** | Employer | Banks + Miller taught Criminal Justice; credential verification failure |
-| **MSU College of Law** | Credential source | Banks claims J.D.; Miller + Aliyah Sabree are alumni |
-| **Walden University** | Published fraud | Dissertation #12627 lists fake J.D. on cover page |
-| **Pahara Institute** | Fellowship fraud | Selected Banks for 2025 fellowship using fake bio |
+| Institution | Role | Connection | Data Layer |
+|-------------|------|------------|-----------|
+| **Michigan Dept of Education** | Credentialing + oversight | Investigated Banks Feb 2022 for no credential. Put permit on HOLD. Then cleared investigation. | **FOIA** |
+| **DPSCD** | Charter authorizer | Authorized PCA despite Banks' public criminal record. 3% admin fee (~$113K/yr). Charter expires Jun 30, 2027. | OSINT + FOIA |
+| **Alan C. Young & Associates, P.C.** | Auditor | MacDowell auditor for 9 consecutive years (FY2017–FY2025). Clean opinions every year despite $1.1M O&M overrun in FY2023. | **FOIA** |
+| **Central Michigan University** | Charter authorizer | Authorized MacDowell; presumably verified credentials | OSINT |
+| **Wayne County Treasurer** | Tax foreclosures | Sabree family controls; generates distressed housing pipeline | OSINT |
+| **Baker College** | Employer | Banks + Miller taught Criminal Justice; credential verification failure | OSINT |
+| **MSU College of Law** | Credential source | Banks claims J.D.; Miller + Aliyah Sabree are alumni | OSINT |
+| **Walden University** | Published fraud | Dissertation #12627 lists fake J.D. on cover page | OSINT |
+| **Pahara Institute** | Fellowship fraud | Selected Banks for 2025 fellowship using fake bio | OSINT |
+
+## Tier 7: FOIA-Revealed Actors (Layer 2 — Confirmed Sep 25, 2026)
+| Actor | Role | Connection | Source |
+|-------|------|------------|--------|
+| **Nicole Wells-Stallworth** | MacDowell Board President (since ≥2014) | Received MDE investigation letter Feb 2022. Personal email: ms_nicwells@yahoo.com. Phone: (313) 494-8141 | MDE EEM + Investigation Letter |
+| **Katie Schmiedeknecht** | MDE Analyst, Data & Accountability Unit, OEE | Sent investigation letter, Qualtrics survey. Then sent "no investigation" clearance email. SchmiedeknechtK@michigan.gov | MDE Investigation files |
+| **David Head** | MDE FOIA Coordinator | Processed and released FOIA documents Sep 25. HeadD1@michigan.gov | MDE FOIA Response |
+| **Jennifer Cook** | MDE (role TBD) | CC'd on FOIA response. CookJ9@michigan.gov | MDE FOIA Response |
 
 ## The Judicial Map Summary
 ```
