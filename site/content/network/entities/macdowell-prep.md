@@ -3,6 +3,7 @@ title = "MacDowell Preparatory Academy — Financial Extraction"
 description = "MacDowell Preparatory Academy Detroit — convicted felon superintendent Brian Banks, $4.9M revenue, 3% math proficiency, 72.67% to Purpose Group LLC."
 weight = 2
 date = 2026-09-20
+updated = 2026-09-24
 
 [extra]
 keywords = "MacDowell Preparatory Academy, MacDowell Prep Detroit, MacDowell charter school, MacDowell Preparatory Academy Brian Banks, MacDowell Preparatory Academy test scores, MacDowell Preparatory Academy board, Purpose Group Michigan LLC, DPSCD charter school Detroit, MacDowell Preparatory Academy math proficiency, MacDowell Preparatory Academy superintendent felony, MacDowell Detroit 3 percent math, MacDowell Purpose Group extraction"

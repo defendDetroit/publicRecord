@@ -1,6 +1,6 @@
 +++
 title = "About This Investigation"
-description = "Independent public-records investigation: Brian Banks, Purpose Charter Academy, MacDowell Preparatory Academy, Wayne County judges. One person, 30 days, every claim cited."
+description = "Independent public-records investigation: Brian Banks, Purpose Charter Academy, MacDowell Preparatory Academy, Wayne County judges."
 
 [extra]
 keywords = "Detroit charter school investigation, Brian Banks public records, ecoPrimals public record, Purpose Charter Academy investigation methodology, MacDowell investigation"

@@ -1,8 +1,9 @@
 +++
 title = "Purpose Foundation — Two Felons, Four Positions"
-description = "501(c)(3) private foundation where two convicted felons hold all four officer positions. Banks: President + Director. Holland: Secretary + Treasurer. Zero independent governance."
+description = "501(c)(3) private foundation where two convicted felons hold all four officer positions. Banks: President + Director. Holland: Secretary + Treasurer."
 weight = 4
 date = 2026-09-20
+updated = 2026-09-24
 
 [extra]
 keywords = "Purpose Foundation, Purpose Foundation Detroit, Banks Holland nonprofit, private foundation fraud, Purpose Foundation Brian Banks Holland, Purpose Foundation two felons all positions, Purpose Foundation 501c3 no governance"

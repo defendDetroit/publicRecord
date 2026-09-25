@@ -3,6 +3,7 @@ title = "Judge Kelly Ramsey — Criminal Division"
 description = "Judge Kelly Ramsey — Wayne County 3rd Circuit Criminal Division. Daughter pushed Banks to Promise Schools. Two family members on MacDowell payroll."
 weight = 5
 date = 2026-09-20
+updated = 2026-09-24
 
 [extra]
 keywords = "Kelly Ramsey judge, Kelly Ramsey Wayne County, Kelly Ramsey 3rd Circuit, Kelly Ramsey MacDowell, Kelly Ramsey Brian Banks, Kelly Ramsey criminal division Detroit, Kelly Ramsey daughter Promise Schools"

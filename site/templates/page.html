@@ -1,11 +1,11 @@
 {% extends "base.html" %}
 
-{% block title %}{{ page.title }} — {{ config.title }}{% endblock title %}
+{% block title %}{{ page.title }} | CFK2{% endblock title %}
 {% block description %}{{ page.description | default(value=config.description) }}{% endblock description %}
 {% block og_title %}{{ page.title }}{% endblock og_title %}
 {% block og_desc %}{{ page.description | default(value=config.description) }}{% endblock og_desc %}
 {% block og_type %}article{% endblock og_type %}
-{% block tw_title %}{{ page.title }} — {{ config.title }}{% endblock tw_title %}
+{% block tw_title %}{{ page.title }} | CFK2{% endblock tw_title %}
 {% block tw_desc %}{{ page.description | default(value=config.description) }}{% endblock tw_desc %}
 {% block keywords %}{% if page.extra.keywords %}{{ page.extra.keywords }}{% else %}Purpose Charter Academy, MacDowell Preparatory Academy, Brian Banks Detroit, Detroit charter school fraud, racketeering, public education, Black Mafia Family, BMF Detroit schools, charter school accountability{% endif %}{% endblock keywords %}
 {% block og_image %}{% if page.extra.og_image %}{{ page.extra.og_image }}{% else %}{{ get_url(path='img/og-default.png') }}{% endif %}{% endblock og_image %}

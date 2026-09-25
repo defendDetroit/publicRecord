@@ -3,6 +3,7 @@ title = "Allied Cases — Independent Corroboration"
 description = "Allied cases: Bryant v. Miller (2:26-cv-10917) — independent litigant corroborates Judge Cylenthia Miller misconduct pattern. Triangulation evidence."
 weight = 3
 date = 2026-09-20
+updated = 2026-09-24
 
 [extra]
 keywords = "Bryant v Miller, Bryant v Miller Wayne County, Cylenthia Miller lawsuit, Wayne County judicial misconduct cases, 2:26-cv-10917, Detroit judge misconduct, independent corroboration Banks network"

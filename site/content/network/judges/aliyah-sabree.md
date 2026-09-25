@@ -3,6 +3,7 @@ title = "Judge Aliyah Sabree"
 description = "Judge Aliyah Sabree — Wayne County 3rd Circuit Family Division. Appointed May 2025. MSU Law 2010 BLSA classmate of Banks, who was denied bar admission."
 weight = 3
 date = 2026-09-20
+updated = 2026-09-24
 
 [extra]
 keywords = "Aliyah Sabree, Aliyah Sabree judge, Aliyah Sabree Wayne County 3rd Circuit, Aliyah Sabree MSU Law, Aliyah Sabree Detroit, Eric Sabree sister, Aliyah Sabree Brian Banks, Aliyah Sabree Daisy Elliott, Aliyah Sabree great-granddaughter civil rights, Aliyah Sabree Youngstown State, Aliyah Sabree DWSD counsel"

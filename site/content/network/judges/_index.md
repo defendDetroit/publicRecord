@@ -1,6 +1,6 @@
 +++
 title = "Judicial Cover"
-description = "Seven Wayne County judges with documented connections to the Banks charter school enterprise — board memberships, campaign payments, law school ties, family donations, and mentor relationships."
+description = "Seven Wayne County judges with documented connections to the Banks charter school enterprise — board memberships, campaign payments, law school ties,."
 weight = 2
 sort_by = "weight"
 

@@ -3,6 +3,7 @@ title = "Sun Community Development Corp"
 description = "Sun Community Development Corp — Brian Banks entity at 1968 Severn Road. Community development nonprofit controlled by a 9-time convicted felon."
 weight = 11
 date = 2026-09-20
+updated = 2026-09-24
 
 [extra]
 keywords = "Sun Community Development Corp, Sun Community Development Brian Banks, Sun Community Development Detroit, Brian Banks community development, 1968 Severn Road entities"

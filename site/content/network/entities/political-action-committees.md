@@ -1,8 +1,9 @@
 +++
 title = "PACs — Dark Money and Felon Treasurers"
-description = "Three political committees controlled by convicted felons. $14,500+ in campaign finance fines. Dark money mailers via OFA Michigan. Holland (convicted drug offender) as PAC treasurer."
+description = "Three political committees controlled by convicted felons. $14,500+ in campaign finance fines. Dark money mailers via OFA Michigan."
 weight = 6
 date = 2026-09-20
+updated = 2026-09-24
 
 [extra]
 keywords = "Brian Banks PAC, Bank on Banks PAC, Joseph Holland PAC treasurer, Michigan campaign finance fines, Bank on Banks PAC dark money, OFA Michigan Brian Banks, Detroit charter school PAC fines, Joseph Holland PAC treasurer felon"

@@ -1,8 +1,9 @@
 +++
 title = "Eric Sabree — Wayne County Treasurer"
-description = "Eric Sabree — elected Wayne County Treasurer. Father of two network judges (Aliyah Sabree, Adam Sabree). FBI-probed 2019. Bowles v. Sabree class action active."
+description = "Eric Sabree — elected Wayne County Treasurer. Father of two network judges (Aliyah Sabree, Adam Sabree). FBI-probed 2019. Bowles v."
 weight = 3
 date = 2026-09-24
+updated = 2026-09-24
 
 [extra]
 keywords = "Eric Sabree Wayne County Treasurer, Eric Sabree FBI investigation, Eric Sabree tax auction violations, Bowles v Sabree class action, Eric Sabree Detroit, Eric Sabree judges father, Sabree family Detroit, Eric Sabree Metro Property Group, Eric Sabree Wayne County ethics"

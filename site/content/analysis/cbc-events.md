@@ -3,6 +3,7 @@ title = "CBC Week Events — Political Networking"
 description = "CBC Week events: Brian Banks hosted 4 years of Congressional Black Caucus parties in Washington DC. 2025 honoree: Sherry Gay-Dagnogo (DPSCD Board)."
 weight = 4
 date = 2026-09-20
+updated = 2026-09-24
 
 [extra]
 keywords = "Brian Banks CBC, Brian Banks Congressional Black Caucus, CBC Week Detroit, Brian Banks Washington DC party, Sherry Gay-Dagnogo CBC honoree, Brian Banks Eventbrite, Brian Banks political events, convicted felon CBC Week"

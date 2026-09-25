@@ -1,6 +1,6 @@
 +++
 title = "Evidence Library"
-description = "Public-record evidence documenting the Detroit charter school network. Financial analysis, credential questions, criminal records, documented connections, and agency submissions."
+description = "Public-record evidence documenting the Detroit charter school network. Financial analysis, credential questions, criminal records, documented connections,."
 sort_by = "weight"
 
 [extra]

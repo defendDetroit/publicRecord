@@ -1,8 +1,9 @@
 +++
 title = "Judge Adam Sabree — 36th District Court"
-description = "Judge Adam Sabree — 36th District Court. Son of Wayne County Treasurer Eric Sabree (FBI-probed). Former in-house counsel for RICO-accused Metro Property Group."
+description = "Judge Adam Sabree — 36th District Court. Son of Wayne County Treasurer Eric Sabree (FBI-probed)."
 weight = 6
 date = 2026-09-20
+updated = 2026-09-24
 
 [extra]
 keywords = "Adam Sabree judge, Adam Sabree 36th District Court, Adam Sabree Metro Property Group, Adam Sabree Eric Sabree son, Adam Sabree Wayne County, Adam Sabree Detroit, Adam Sabree RICO, Sabree family Detroit judges, Adam Sabree Woodward Law Group, Adam Sabree Caldwell University, Adam Sabree MSU Law 2011, Adam Sabree adjunct professor Wayne County Community College, Adam Sabree Tenisha Yancey same election"

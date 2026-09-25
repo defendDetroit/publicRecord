@@ -1,6 +1,6 @@
 +++
 title = "Professional Enablers"
-description = "Attorneys and institutions who organized, authorized, or credentialed the Banks charter school enterprise — the professional infrastructure that made the fraud possible."
+description = "Attorneys and institutions who organized, authorized, or credentialed the Banks charter school enterprise — the professional infrastructure that made the."
 weight = 5
 sort_by = "weight"
 

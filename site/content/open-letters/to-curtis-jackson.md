@@ -2,6 +2,7 @@
 title = "An Open Letter to Curtis Jackson (50 Cent)"
 description = "An open letter to Curtis Jackson about BMF's family running Detroit charter schools with 3% math proficiency."
 date = 2026-10-01
+updated = 2026-09-24
 draft = true
 
 [extra]

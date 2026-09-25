@@ -1,8 +1,9 @@
 +++
 title = "Todd Perkins — Banks' Attorney"
-description = "Todd Perkins — Detroit attorney, Banks' personal lawyer. Represented Judge Miller in gun case. Brother is Judge Sean Perkins on 36th District. Ran for Detroit Mayor 2025."
+description = "Todd Perkins — Detroit attorney, Banks' personal lawyer. Represented Judge Miller in gun case. Brother is Judge Sean Perkins on 36th District."
 weight = 1
 date = 2026-09-24
+updated = 2026-09-24
 
 [extra]
 keywords = "Todd Perkins attorney Detroit, Todd Perkins Brian Banks, Todd Perkins Judge Miller, Todd Perkins Perkins Law Group, Todd Perkins Sean Perkins brother, Todd Perkins mayor Detroit 2025, Todd Perkins Carol Banks, Todd Perkins Operation Northern Hook, Todd Perkins Inkster city attorney"

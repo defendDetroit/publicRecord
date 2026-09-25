@@ -1,8 +1,9 @@
 +++
 title = "Banks Strategy & Consultants LLC — Judge Payments"
-description = "Banks' consulting firm receives campaign payments from sitting judges. Chronic administrative neglect — lost good standing, batch-filed 3 overdue annual statements on one day."
+description = "Banks' consulting firm receives campaign payments from sitting judges. Chronic administrative neglect — lost good standing, batch-filed 3 overdue annual."
 weight = 5
 date = 2026-09-20
+updated = 2026-09-24
 
 [extra]
 keywords = "Banks Strategy Consultants, Banks Strategy LLC, judge campaign payments, Yancey Banks Strategy, Banks Strategy LLC judge payments, Banks Strategy campaign finance, Banks Strategy Cylenthia Miller Tenisha Yancey"

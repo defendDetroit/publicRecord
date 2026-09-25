@@ -1,6 +1,6 @@
 +++
 title = "Open Letters"
-description = "Open letters to public figures connected to the Detroit charter school network. Each letter is sent privately first. After 72 hours, it is published here in full."
+description = "Open letters to public figures connected to the Detroit charter school network. Each letter is sent privately first."
 sort_by = "date"
 
 [extra]

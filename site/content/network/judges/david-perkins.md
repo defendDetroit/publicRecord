@@ -1,8 +1,9 @@
 +++
 title = "Judge David Perkins"
-description = "Judge David Perkins — Wayne County Probate Court. Serenity Guardianship connection to Banks. Family donations to Banks-aligned campaigns. Guardianship jurisdiction."
+description = "Judge David Perkins — Wayne County Probate Court. Serenity Guardianship connection to Banks. Family donations to Banks-aligned campaigns."
 weight = 4
 date = 2026-09-20
+updated = 2026-09-24
 
 [extra]
 keywords = "David Perkins, David Perkins judge, David Perkins Wayne County, David Perkins Detroit, David Perkins Brian Banks, David Perkins Serenity Guardianship, David Perkins Wayne County Probate, David Perkins family donations Banks"

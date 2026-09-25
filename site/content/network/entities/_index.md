@@ -1,6 +1,6 @@
 +++
 title = "Entity Profiles"
-description = "9+ entities controlled by Brian Banks — charter schools, management companies, nonprofits, PACs, and churches. All registered to his Grosse Pointe Woods home while his schools serve Detroit's poorest children."
+description = "9+ entities controlled by Brian Banks — charter schools, management companies, nonprofits, PACs, and churches."
 weight = 4
 sort_by = "weight"
 

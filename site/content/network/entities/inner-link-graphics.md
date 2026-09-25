@@ -3,6 +3,7 @@ title = "Inner Link Graphics — Campaign Finance Vendor"
 description = "Inner Link Graphics — received $8,025 from Judge Tenisha Yancey's campaign. Banks network vendor appearing in campaign finance records."
 weight = 9
 date = 2026-09-20
+updated = 2026-09-24
 
 [extra]
 keywords = "Inner Link Graphics, Inner Link Graphics Tenisha Yancey, Inner Link Graphics Detroit, Inner Link Graphics campaign finance, Banks network vendors"

@@ -1,8 +1,9 @@
 +++
 title = "The Purpose Group, LLC — The Extraction Engine"
-description = "Banks' management company takes 72.67% of all school revenue. Sole member: a convicted felon with 9 convictions (6 felony). Organized by attorney Gary E. Perlmuter with aggressive liability shields."
+description = "Banks' management company takes 72.67% of all school revenue. Sole member: a convicted felon with 9 convictions (6 felony). Organized by attorney Gary E."
 weight = 3
 date = 2026-09-20
+updated = 2026-09-24
 
 [extra]
 keywords = "Purpose Group LLC, Purpose Group Michigan, Purpose Group Brian Banks, charter school management company Detroit, Purpose Group LLC Detroit schools, Purpose Group 72 percent revenue, Purpose Group LLC Brian Banks sole member"

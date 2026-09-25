@@ -3,6 +3,7 @@ title = "Sherry Gay-Dagnogo — Former Charter Authorizer"
 description = "Detroit City Ombudsman since Oct 2025. Former DPSCD board member who authorized Banks' charter schools. Ex-MI State Rep (HD-8)."
 weight = 1
 date = 2026-09-20
+updated = 2026-09-24
 
 [extra]
 keywords = "Sherry Gay-Dagnogo, Sherry Gay-Dagnogo DPSCD, Sherry Gay-Dagnogo Detroit, DPSCD charter authorization, Michigan House District 1, Sherry Gay-Dagnogo Brian Banks, DPSCD Purpose Charter Academy authorization, Sherry Gay-Dagnogo CBC honoree, HD-1 Detroit charter school, Sherry Gay-Dagnogo ombudsman Detroit, Sherry Gay-Dagnogo resigned DPSCD, Sherry Gay-Dagnogo Michigan House District 8"

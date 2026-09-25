@@ -3,6 +3,7 @@ title = "RICO Pattern — The Banks Enterprise"
 description = "RICO pattern analysis: 6 predicate acts, 14+ years of continuity, $4.9M annual extraction through shell entities. The Banks enterprise mapped."
 weight = 1
 date = 2026-09-20
+updated = 2026-09-24
 
 [extra]
 keywords = "Detroit RICO pattern, Brian Banks RICO, charter school racketeering, 18 USC 1961, mail fraud charter school, wire fraud Detroit, money laundering Purpose Group LLC, Detroit charter school enterprise, Banks enterprise predicate acts"

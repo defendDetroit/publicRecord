@@ -1,8 +1,9 @@
 +++
 title = "Purpose Charter Academy — K-8 Charter School"
-description = "K-8 charter school in Detroit authorized by DPSCD. Run by Brian Banks (9 convictions, claimed J.D. not confirmed by bar records). Managed by Purpose Group LLC. DOE certificate issued 3 days after school year started."
+description = "K-8 charter school in Detroit authorized by DPSCD. Run by Brian Banks (9 convictions, claimed J.D. not confirmed by bar records)."
 weight = 1
 date = 2026-09-20
+updated = 2026-09-24
 
 [extra]
 keywords = "Purpose Charter Academy, Purpose Charter Academy Detroit, PCA Detroit, Purpose Charter Academy Brian Banks, Purpose Charter Academy DPSCD, Purpose Charter Academy Law Public Service, charter school Detroit convicted felon, Purpose Charter Academy fraud, Purpose Charter Academy superintendent criminal record, DPSCD Brian Banks authorization"

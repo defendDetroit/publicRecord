@@ -1,6 +1,6 @@
 +++
 title = "Primary Sources & Databases"
-description = "Complete reference of public databases, court systems, and news sources used to document the Purpose Charter Academy and MacDowell Preparatory Academy network in Detroit. Every claim cites a verifiable public record."
+description = "Complete reference of public databases, court systems, and news sources used to document the Purpose Charter Academy and MacDowell Preparatory Academy."
 weight = 80
 template = "section.html"
 

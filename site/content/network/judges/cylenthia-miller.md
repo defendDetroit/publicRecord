@@ -1,8 +1,9 @@
 +++
 title = "Judge Cylenthia Miller"
-description = "Judge Cylenthia Miller — Wayne County 3rd Circuit, running for re-election Nov 3, 2026. Anchor Rock Foundation board chair. Purpose Charter Academy development team member."
+description = "Judge Cylenthia Miller — Wayne County 3rd Circuit, running for re-election Nov 3, 2026. Anchor Rock Foundation board chair."
 weight = 1
 date = 2026-09-20
+updated = 2026-09-24
 
 [extra]
 keywords = "Cylenthia Miller, Cylenthia Miller judge, Cylenthia Miller Wayne County, Cylenthia Miller election 2026, Cylenthia Miller 3rd Circuit, Cylenthia Miller Anchor Rock Foundation, Cylenthia Miller Purpose Charter Academy, Cylenthia Miller Detroit, judge Cylenthia Miller reelection, Wayne County 3rd Circuit Court 2026, Cylenthia Miller election November 2026, Cylenthia Miller JTC complaint, Cylenthia Miller scandal, Cylenthia Miller gun airport DTW, Cylenthia Miller infant murder case dismissed, Cylenthia Miller Baker College Brian Banks, Cylenthia Miller Todd Perkins attorney, keepjudgemiller.com, Cylenthia Miller OWI East Lansing, Cylenthia Miller Judge Greenwalt wholly improper, Cylenthia Miller State Bar referral, Cylenthia Miller Kym Worthy bias, Cylenthia LaToye Miller Wayne County, Cylenthia Miller WXYZ investigation Ross Jones"

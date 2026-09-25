@@ -1,6 +1,6 @@
 +++
 title = "The Network"
-description = "The Banks Network — documented connections spanning charter schools, courts, political offices, and nonprofit entities in Detroit. Every connection sourced from public records."
+description = "The Banks Network — documented connections spanning charter schools, courts, political offices, and nonprofit entities in Detroit."
 sort_by = "weight"
 
 [extra]

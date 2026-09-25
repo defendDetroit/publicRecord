@@ -1,8 +1,9 @@
 +++
-title = "Institutional Capture — How the Enterprise Controls Detroit"
-description = "Institutional capture: how the Banks enterprise controls Detroit schools, courts, and political offices — installing loyalists and creating financial dependencies."
+title = "Institutional Capture — Detroit Charter Network"
+description = "Institutional capture: how the Banks enterprise controls Detroit schools, courts, and political offices — installing loyalists and creating financial."
 weight = 2
 date = 2026-09-20
+updated = 2026-09-24
 
 [extra]
 keywords = "institutional capture Detroit, captured courts Wayne County, Detroit charter school corruption, DPSCD authorization fraud, Wayne County judges Brian Banks, Detroit institutional corruption, charter school captured institutions"
