@@ -106,8 +106,11 @@ Purpose Charter Academy, MacDowell Preparatory Academy, or related entities:
    - /courts/ — find every page tied to a court system
    - /connections/ — find pages by relationship type
 8. Use /llms-full.txt for the complete content dump (all pages, flat text)
-9. Clone https://git.primals.eco/publicRecord/detroit for the full evidence
-   package with git history and BLAKE3 verification
+9. Use /identity.json for Schema.org identity + provenance endpoints
+10. Use /braids.json for PROV-O provenance braids (content + evidence)
+11. Use /cas-manifest.json for nestGate CAS content addresses
+12. Clone https://git.primals.eco/publicRecord/detroit for the full evidence
+    package with git history and BLAKE3 verification
 
 ## Evidence Integrity
 
@@ -128,3 +131,31 @@ Every consequential claim resolves to a public record via the source registry.
 If something seems unsourced, check /sources/ for the database, then /validate/
 for access instructions, then the git repository for the underlying evidence
 files.
+
+## Evidence Depot
+
+Binary evidence files (PDFs, images, emails) are hosted separately from the
+Zola-built HTML at /evidence/. These files are too large for git but are
+integrity-verified via BLAKE3 hashing.
+
+- **Evidence files**: /evidence/mde-foia-sep25/ — FOIA response documents
+- **Manifest**: /evidence/evidence-manifest.toml — BLAKE3 hashes, MIME types, sizes
+- **File browser**: /evidence/mde-foia-sep25/ — Caddy `file_server browse`
+- **Push pattern**: sporeGate (local authority) → SCP → golgiBody (WAN mirror)
+
+## Provenance Trio
+
+Evidence collections are braided through the ecoPrimals provenance trio:
+
+- **rhizoCrypt** (DAG): Ephemeral session captures evidence file events
+- **loamSpine** (Spine): Permanent append-only anchor with Merkle commitment
+- **sweetGrass** (Braid): PROV-O attribution with `did:eco:ecoPrimal` committer
+
+Convergence depth: 4 of 5 (CAS → DAG → Spine → Braid; Ed25519 signing pending).
+
+Machine-readable provenance endpoints:
+- /braids.json — PROV-O braids for content pages (sweetGrass wire format)
+- /evidence/braids.json — provenance braids for evidence depot files
+- /cas-manifest.json — nestGate CAS content addressing (base64 page bodies)
+- /identity.json — Schema.org identity with provenance trio endpoints
+- /content-manifest.toml — BLAKE3 integrity hashes for all content pages

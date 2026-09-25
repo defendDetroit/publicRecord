@@ -53,6 +53,53 @@ Four Wayne County judges have documented connections to the Banks network:
 | Purpose Foundation | LARA 803294855, two felons in all four officer positions |
 | PAC filings | $14,500+ in fines, felon as treasurer |
 
+## MDE FOIA Response — September 25, 2026
+
+On September 21, Kevin Mok filed a FOIA request with the Michigan Department of Education. MDE responded in **4 days** (Sep 25). The response confirms what OSINT uncovered: MDE investigated Banks for having **no teaching credential** in February 2022, then gave the school a procedural loophole instead of enforcing compliance.
+
+### Smoking-Gun Documents (Tier 1)
+
+| Document | What It Proves |
+|----------|---------------|
+| [Investigation Letter for Banks (PDF)](/evidence/mde-foia-sep25/investigation/investigation-letter.pdf) | MDE formally investigated Banks' credentials — sent to Board President Wells-Stallworth |
+| [MOECS Admin Permit — HOLD (PNG)](/evidence/mde-foia-sep25/investigation/moecs-hold.png) | Application #590606, submitted 02/09/2022, Status: **HOLD** — Banks has no issued permits |
+| [REP — Credential BLANK (PNG)](/evidence/mde-foia-sep25/investigation/rep-blank.png) | PIC 287338, Credential column **empty** — Banks has never held a Michigan teaching credential |
+| [EEM Entity Contact (PNG)](/evidence/mde-foia-sep25/investigation/eem-entity.png) | Entity #82747 — Nicole Wells-Stallworth listed as Board President since 06/16/2014 |
+| [MDE FOIA Response Letter (PDF)](/evidence/mde-foia-sep25/response-letter.pdf) | Official MDE response — confirms records exist and are public |
+
+### Financial Audits (Tier 2)
+
+Nine consecutive fiscal year audits for Entity #82747 (MacDowell Preparatory Academy), audited by Alan C. Young & Associates:
+
+| Fiscal Year | Key Finding | Document |
+|-------------|-------------|----------|
+| FY2025 | $968K operating loss, $667K school admin, $719K balloon payment | [fy2025.pdf](/evidence/mde-foia-sep25/audits/fy2025.pdf) |
+| FY2024 | Federal awards supplement, budget violations | [fy2024.pdf](/evidence/mde-foia-sep25/audits/fy2024.pdf) |
+| FY2023 | O&M $1.7M on $587K budget — building purchase year | [fy2023.pdf](/evidence/mde-foia-sep25/audits/fy2023.pdf) |
+| FY2022 | Last year before "self-managed" transition | [fy2022.pdf](/evidence/mde-foia-sep25/audits/fy2022.pdf) |
+| FY2021 | Pre-Banks management baseline | [fy2021.pdf](/evidence/mde-foia-sep25/audits/fy2021.pdf) |
+| FY2020 | Pre-Banks management baseline | [fy2020.pdf](/evidence/mde-foia-sep25/audits/fy2020.pdf) |
+| FY2019 | Pre-Banks management baseline | [fy2019.pdf](/evidence/mde-foia-sep25/audits/fy2019.pdf) |
+| FY2018 | Pre-Banks management baseline | [fy2018.pdf](/evidence/mde-foia-sep25/audits/fy2018.pdf) |
+| FY2017 | Pre-Banks management baseline | [fy2017.pdf](/evidence/mde-foia-sep25/audits/fy2017.pdf) |
+
+### Supporting Documents (Tier 3)
+
+| Document | Description |
+|----------|-------------|
+| [Purpose Group Management Agreement (PDF)](/evidence/mde-foia-sep25/management-agreement.pdf) | Original 17-page scanned contract — 72.67% revenue extraction |
+| [Educator Report Form (PDF)](/evidence/mde-foia-sep25/investigation/educator-report-form.pdf) | Blank MDE compliance form for educator investigations |
+| [Investigation Letter (.docx)](/evidence/mde-foia-sep25/investigation/investigation-letter.docx) | Word version of investigation letter |
+
+### New Actors Revealed by FOIA
+
+The FOIA response reveals several individuals not previously documented:
+
+- **[Nicole Wells-Stallworth](/network/institutional/wells-stallworth-nicole/)** — MacDowell Board President since 2014, received investigation letter
+- **[Gregory M. Meihn](/network/professional-enablers/meihn-gregory/)** — Attorney retained within 14 minutes of investigation notification
+- **[Katie Schmiedeknecht](/network/institutional/schmiedeknecht-katie/)** — MDE Analyst who provided the compliance loophole
+- **[Alan C. Young & Associates](/network/institutional/alan-young-associates/)** — Auditor for 9 consecutive years
+
 ## Documents
 
 | Document | Date | Status |
@@ -61,6 +108,7 @@ Four Wayne County judges have documented connections to the Banks network:
 | Journalist Briefing Packet (7 story angles) | Sep 22, 2026 | **Prepared — distribution scheduled** |
 | Master Complaint Chain | Sep 16, 2026 | Filed |
 | DOE OIG Supplement (credential forgery) | Sep 17, 2026 | Filed |
+| MDE FOIA Response | Sep 25, 2026 | **Received — [21 files hosted](/evidence/mde-foia-sep25/)** |
 
 ## Independent Reporting
 
