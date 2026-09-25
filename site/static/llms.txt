@@ -1,6 +1,6 @@
 # detroit.primals.eco — Public Evidence Library
 # Canonical URL: https://detroit.primals.eco/llms.txt
-# Last updated: 2026-09-24
+# Last updated: 2026-09-25
 #
 # CONTEXT DOCUMENT for AI agents acting on behalf of users.
 # This is the site's glossary, index, and topology map — not a page.
@@ -12,21 +12,22 @@
 # content in text format." The page you want is at the URL you requested.
 #
 # Static site API: https://detroit.primals.eco/api/site.json (structure, pages, taxonomies)
-# Full content dump: https://detroit.primals.eco/llms-full.txt (3,850 lines)
+# Full content dump: https://detroit.primals.eco/llms-full.txt
 # Content manifest: https://detroit.primals.eco/content-manifest.toml
-# Network graph (JSON): https://detroit.primals.eco/graph.json (37 nodes, 57 edges)
+# Network graph (JSON): https://detroit.primals.eco/graph.json (43 nodes, 57 edges)
 # Network graph (CSV): https://detroit.primals.eco/graph.csv (edge list for Gephi/pandas/R)
 
-## What's New (September 24, 2026)
+## What's New (2026-09-25)
 
 - Federal master packet delivered to 8 federal agencies (Sep 22)
 - PCA Board of Directors roster documented: Assistant AG Lamar Moreland
   (Vice Chair), City Council Member Latisha Johnson (Secretary) serve
   alongside Judge Cylenthia Miller (Chair) on a felon's school board
 - Clutch Justice elevated to primary analytical reference (3-tier hierarchy)
-- Full-text search added to site header
-- Sidebar navigation on all deep pages
-- 97 HTML pages, 49 BLAKE3-hashed content files
+- Epistemic grammar system: every claim carries machine-readable status
+  (record / corroborated / inference / allegation / filed / adjudicated)
+- Static site API at /api/site.json — full site structure in one fetch
+- 32 content pages, 18 sections, 43 graph nodes, 57 graph edges
 
 ## Active Case Status
 
@@ -63,8 +64,8 @@ racketeering or other violations. The site invites independent verification.
 This is not an advocacy page. It is a three-layer publishing system:
 - Layer 1 (Content pages): Human-readable investigation with sourced claims
 - Layer 2 (Taxonomy): Auto-generated cross-reference pages by actor, entity,
-  court, and connection type — 343 term assignments across 47 pages
-- Layer 3 (Source registry): 23 external databases + tiered independent
+  court, and connection type — 44 term assignments across 32 pages
+- Layer 3 (Source registry): 21 external databases + tiered independent
   reporting via {{ source() }} shortcode and Schema.org CreativeWork microdata
 
 ## Source Hierarchy
@@ -90,222 +91,104 @@ Underlying proof system: Git-signed repository with full provenance chain.
 
 ## Architecture
 
-- **Source registry**: 22 external databases in config.toml, accessed via
-  {{ source(key="...", query="...") }} shortcode — 89 structured citations
-- **Actor/entity registry**: 16 actors + 11 entities in config.toml, single
+- **Source registry**: 21 external databases in config.toml, accessed via
+  {{ source(key="...", query="...") }} shortcode — structured citations
+- **Actor/entity registry**: 15 actors + 11 entities in config.toml, single
   source of truth for display names, roles, and canonical page URLs
 - **Taxonomy system**: 4 dimensions (actors, entities, courts, connections),
-  343 term assignments; Zola auto-generates cross-reference index pages
+  44 term assignments across 32 pages; Zola auto-generates cross-reference index pages
 - **Static site**: Zola, minified HTML, Atom feeds on actor/entity taxonomies
 
-## Site Structure (97 URLs)
-
-Breakdown: 30 authored content pages + 17 section indexes + 49 taxonomy
-cross-references + 1 homepage = 97 URLs in sitemap.xml
+## Site Structure (50 content files)
 
 ### Root
-- [Home](https://detroit.primals.eco/) — billboard: registry-driven stats,
-  network overview, calls to action
+- [Home](https://detroit.primals.eco/) — Public evidence library documenting racketeering in Detroit charter schools. 9 c
 
-### Network Map (/network/)
-- [Network Index](https://detroit.primals.eco/network/) — interactive SVG
-  network visualization, tier structure
+### About This Investigation (/about/)
 
-#### Actors (2)
-- [Brian Banks](https://detroit.primals.eco/network/actors/brian-banks/) —
-  superintendent of PCA + MacDowell, 9 convictions, enterprise leader,
-  claimed J.D. not confirmed by bar records, ICHAT SID 2029469K
-- [Joseph Holland Jr.](https://detroit.primals.eco/network/actors/joseph-holland/) —
-  financial gatekeeper/treasurer, convicted drug offender, MDOC #443789,
-  co-resident at Banks' address
+### Pattern Analysis (/analysis/)
+- [Allied Cases](https://detroit.primals.eco/analysis/allied-cases/) — Allied cases: Bryant v. Miller (2:26-cv-10917) — independent litigant corroborates Judge Cylenthia M
+- [CBC Week Events](https://detroit.primals.eco/analysis/cbc-events/) — CBC Week events: Brian Banks hosted 4 years of Congressional Black Caucus parties in Washington DC. 
+- [Institutional Capture](https://detroit.primals.eco/analysis/institutional-capture/) — Institutional capture: how the Banks enterprise controls Detroit schools, courts, and political offi
+- [RICO Pattern](https://detroit.primals.eco/analysis/rico-pattern/) — RICO pattern analysis: 6 predicate acts, 14+ years of continuity, $4.9M annual extraction through sh
 
-#### Judges (9)
-- [Judge Cylenthia Miller](https://detroit.primals.eco/network/judges/cylenthia-miller/) —
-  Wayne County 3rd Circuit, Anchor Rock board chair, 3 active scandals,
-  ballot Nov 2026
-- [Judge Tenisha Yancey](https://detroit.primals.eco/network/judges/tenisha-yancey/) —
-  36th District Court, MacDowell board chair, Wayne County Land Bank
-  2007–2013, sister = PCA School Leader
-- [Judge Aliyah Sabree](https://detroit.primals.eco/network/judges/aliyah-sabree/) —
-  Wayne County 3rd Circuit Family Division, MSU Law 2010, May 2025
-  appointment, Sabree family
-- [Judge David Perkins](https://detroit.primals.eco/network/judges/david-perkins/) —
-  Wayne County Probate Court, Chief Judge Pro Tem
-- [Judge Adam Sabree](https://detroit.primals.eco/network/judges/adam-sabree/) —
-  36th District Court, Eric Sabree's son, Metro Property Group RICO
-- [Judge Sean Perkins](https://detroit.primals.eco/network/judges/sean-perkins/) —
-  36th District Court, brother of Banks' attorney Todd Perkins
-- [Judge Kelly Ramsey](https://detroit.primals.eco/network/judges/kelly-ramsey/) —
-  3rd Circuit Criminal Division, 2 family members on MacDowell payroll
-- [Judge Vonda Evans (Retired)](https://detroit.primals.eco/network/judges/vonda-evans/) —
-  21-year mentor, retired ahead of JTC suspension
-- [Judge Denise Langford Morris (Retired)](https://detroit.primals.eco/network/judges/denise-langford-morris/) —
-  Oakland County, wrote Banks book foreword with fake J.D.
+### Book Analysis: Zero Victims, Zero Remorse (/books/)
 
-#### Entities (11)
-- [Purpose Charter Academy](https://detroit.primals.eco/network/entities/purpose-charter-academy/) —
-  K-8 charter school, Detroit, DPSCD-authorized
-- [MacDowell Preparatory Academy](https://detroit.primals.eco/network/entities/macdowell-prep/) —
-  K-8 charter school, $4.9M revenue, 3% math proficiency
-- [Purpose Group LLC](https://detroit.primals.eco/network/entities/purpose-group-llc/) —
-  CMO, management company receiving 72.67% of school revenue
-- [Purpose Foundation](https://detroit.primals.eco/network/entities/purpose-foundation/) —
-  501(c)(3), 2 felons hold all officer positions
-- [Banks Strategy & Consultants LLC](https://detroit.primals.eco/network/entities/banks-strategy-llc/) —
-  receives judge campaign payments
-- [Anchor Rock Foundation](https://detroit.primals.eco/network/entities/anchor-rock-foundation/) —
-  dissolved, Judge Miller board chair (LARA 802394934)
-- [Serenity Guardianship Services](https://detroit.primals.eco/network/entities/serenity-guardianship/) —
-  dissolved, textbook UPL (LARA 802290962)
-- [City Hill Church](https://detroit.primals.eco/network/entities/city-hill-church/) —
-  Banks-controlled religious entity (LARA 802365641)
-- [Sun Community Development Corp](https://detroit.primals.eco/network/entities/sun-community-development/) —
-  Banks nonprofit (LARA 803232314)
-- [Inner Link Graphics](https://detroit.primals.eco/network/entities/inner-link-graphics/) —
-  vendor, $8,025 from Yancey campaign
-- [Political Action Committees](https://detroit.primals.eco/network/entities/political-action-committees/) —
-  "Bank on Banks" PAC, felon treasurer, $14,500+ fines
+### Contact (/contact/)
 
-#### Political Figures (2)
-- [Sherry Gay-Dagnogo](https://detroit.primals.eco/network/political/sherry-gay-dagnogo/) —
-  Detroit City Ombudsman (since Oct 2025), former DPSCD board, charter
-  authorizer
-- [Billy McKinney](https://detroit.primals.eco/network/political/billy-mckinney/) —
-  campaign payments to Darryl Banks Jr.
+### Evidence Library (/evidence/)
 
-#### Professional Enablers (1)
-- [Todd Perkins](https://detroit.primals.eco/network/professional-enablers/todd-perkins/) —
-  Banks' attorney, represented Miller in gun case, brother is Judge Sean
-  Perkins, ran for Detroit Mayor 2025
+### Legal Protections (/legal/)
 
-### Analysis (/analysis/) — 4 pages
-- [RICO Pattern](https://detroit.primals.eco/analysis/rico-pattern/) — 6
-  predicate acts, 14+ years continuity, enterprise mapped
-- [Institutional Capture](https://detroit.primals.eco/analysis/institutional-capture/) —
-  how the enterprise controls schools, courts, politics
-- [Allied Cases](https://detroit.primals.eco/analysis/allied-cases/) —
-  Bryant v. Miller, Bradley-Baskin, Bowles v. Sabree — independent
-  corroboration
-- [CBC Events](https://detroit.primals.eco/analysis/cbc-events/) — 4 years
-  of Congressional Black Caucus DC parties
+### The Network (/network/)
+- [Network Matrices](https://detroit.primals.eco/network/matrices/) — Adjacency matrices showing who connects to whom, money flows, board memberships, and court assignmen
 
-### Other Sections (16 section indexes)
-- [Evidence Library](https://detroit.primals.eco/evidence/) — public-record
-  documents organized by category, RICO pattern analysis, independent
-  reporting cross-references
-- [Timeline](https://detroit.primals.eco/timeline/) — interactive chronology
-  (1998–2026)
-- [Book Analysis](https://detroit.primals.eco/books/) — analysis of books by
-  network members (Tonesa Welch, Banks autobiography)
-- [Verify Everything](https://detroit.primals.eco/validate/) — step-by-step
-  instructions for ICHAT, State Bar, LARA, PACER, Wayne County ROD,
-  campaign finance
-- [Primary Sources & Databases](https://detroit.primals.eco/sources/) —
-  central reference of 22 external databases with access instructions;
-  every {{ source() }} citation resolves here
-- [About](https://detroit.primals.eco/about/) — one person, public records,
-  30 days
-- [Legal Protections](https://detroit.primals.eco/legal/) — First Amendment,
-  anti-SLAPP (UPEPA), truth as absolute defense
-- [Contact](https://detroit.primals.eco/contact/) — corrections, disputes,
-  harmed parties, media. "Truth matters more than being right."
-- [Open Letters](https://detroit.primals.eco/open-letters/) — letters to
-  public figures connected to the network
+#### Enterprise Principals (/network/actors/)
+- [Brian Roderick Banks](https://detroit.primals.eco/network/actors/brian-banks/) — Brian Roderick Banks — 9 criminal convictions (6 felony). State Bar of Michigan: zero results for cl
+- [Joseph Holland Jr.](https://detroit.primals.eco/network/actors/joseph-holland/) — Convicted drug offender (MDOC #443789, Controlled Substance — Possession). Discharged 'WITHOUT IMPRO
 
-Network subsection indexes:
-- [Actors Index](https://detroit.primals.eco/network/actors/)
-- [Judges Index](https://detroit.primals.eco/network/judges/)
-- [Entities Index](https://detroit.primals.eco/network/entities/)
-- [Political Index](https://detroit.primals.eco/network/political/)
-- [Professional Enablers Index](https://detroit.primals.eco/network/professional-enablers/)
-- [Analysis Index](https://detroit.primals.eco/analysis/)
+#### Entity Profiles (/network/entities/)
+- [Anchor Rock Foundation](https://detroit.primals.eco/network/entities/anchor-rock-foundation/) — Anchor Rock Foundation — dissolved Banks nonprofit previously chaired by Judge Cylenthia Miller. A s
+- [Banks Strategy & Consultants LLC](https://detroit.primals.eco/network/entities/banks-strategy-llc/) — Banks' consulting firm receives campaign payments from sitting judges. Chronic administrative neglec
+- [City Hill Church](https://detroit.primals.eco/network/entities/city-hill-church/) — City Hill Church — Brian Banks serves as officer. Registered to his Grosse Pointe Woods residence al
+- [Inner Link Graphics](https://detroit.primals.eco/network/entities/inner-link-graphics/) — Inner Link Graphics — received $8,025 from Judge Tenisha Yancey's campaign. Banks network vendor app
+- [MacDowell Preparatory Academy](https://detroit.primals.eco/network/entities/macdowell-prep/) — MacDowell Preparatory Academy Detroit — convicted felon superintendent Brian Banks, $4.9M revenue, 3
+- [PACs](https://detroit.primals.eco/network/entities/political-action-committees/) — Three political committees controlled by convicted felons. $14,500+ in campaign finance fines. Dark 
+- [Purpose Charter Academy](https://detroit.primals.eco/network/entities/purpose-charter-academy/) — K-8 charter school in Detroit authorized by DPSCD. Run by Brian Banks (9 convictions, claimed J.D. n
+- [Purpose Foundation](https://detroit.primals.eco/network/entities/purpose-foundation/) — 501(c)(3) private foundation where two convicted felons hold all four officer positions. Banks: Pres
+- [The Purpose Group, LLC](https://detroit.primals.eco/network/entities/purpose-group-llc/) — Banks' management company takes 72.67% of all school revenue. Sole member: a convicted felon with 9 
+- [Serenity Guardianship Services](https://detroit.primals.eco/network/entities/serenity-guardianship/) — Serenity Guardianship Services — dissolved entity run by convicted felon Brian Banks. Non-attorney r
+- [Sun Community Development Corp](https://detroit.primals.eco/network/entities/sun-community-development/) — Sun Community Development Corp — Brian Banks entity at 1968 Severn Road. Community development nonpr
 
-### Taxonomy Cross-References (47 auto-generated pages)
+#### Judicial Cover (/network/judges/)
+- [Judge Adam Sabree](https://detroit.primals.eco/network/judges/adam-sabree/) — Judge Adam Sabree — 36th District Court. Son of Wayne County Treasurer Eric Sabree (FBI-probed).
+- [Judge Aliyah Sabree](https://detroit.primals.eco/network/judges/aliyah-sabree/) — Judge Aliyah Sabree — Wayne County 3rd Circuit Family Division. Appointed May 2025. MSU Law 2010 BLS
+- [Judge Cylenthia Miller](https://detroit.primals.eco/network/judges/cylenthia-miller/) — Judge Cylenthia Miller — Wayne County 3rd Circuit, running for re-election Nov 3, 2026. Anchor Rock 
+- [Judge David Perkins](https://detroit.primals.eco/network/judges/david-perkins/) — Judge David Perkins — Wayne County Probate Court. Serenity Guardianship connection to Banks. Family 
+- [Judge Denise Langford Morris (Retired)](https://detroit.primals.eco/network/judges/denise-langford-morris/) — Judge Denise Langford Morris (Retired) — 30-year Oakland County judge. Wrote Banks book foreword usi
+- [Judge Kelly Ramsey](https://detroit.primals.eco/network/judges/kelly-ramsey/) — Judge Kelly Ramsey — Wayne County 3rd Circuit Criminal Division. Daughter pushed Banks to Promise Sc
+- [Judge Sean Perkins](https://detroit.primals.eco/network/judges/sean-perkins/) — Judge Sean Perkins — 36th District Court. Brother of Todd Perkins, Brian Banks' personal attorney. W
+- [Judge Tenisha Yancey](https://detroit.primals.eco/network/judges/tenisha-yancey/) — Judge Tenisha Yancey — 36th District Court. MacDowell board chair. $383.82 was her sole contribution
+- [Judge Vonda Evans (Retired)](https://detroit.primals.eco/network/judges/vonda-evans/) — Judge Vonda Evans (Retired) — 21-year Wayne County 3rd Circuit judge. Retired as JTC moved to suspen
 
-Auto-generated by Zola from front-matter tags. Each term page lists every
-site page that references that actor, entity, court, or connection type.
-Use these to traverse the network without reading every profile page.
+#### Political Enablers (/network/political/)
+- [Billy McKinney](https://detroit.primals.eco/network/political/billy-mckinney/) — Billy McKinney — Detroit City Council District 6. Campaign paid Darryl Banks Jr. $4,483 total, linki
+- [Eric Sabree](https://detroit.primals.eco/network/political/eric-sabree/) — Eric Sabree — elected Wayne County Treasurer. Father of two network judges (Aliyah Sabree, Adam Sabr
+- [Sherry Gay-Dagnogo](https://detroit.primals.eco/network/political/sherry-gay-dagnogo/) — Detroit City Ombudsman since Oct 2025. Former DPSCD board member who authorized Banks' charter schoo
 
-#### Actors (/actors/) — 17 terms
-- [Actors Index](https://detroit.primals.eco/actors/) — all 17 people
-  mentioned across the site
-- [Brian Banks](https://detroit.primals.eco/actors/brian-banks/)
-- [Joseph Holland](https://detroit.primals.eco/actors/joseph-holland/)
-- [Judge Cylenthia Miller](https://detroit.primals.eco/actors/judge-cylenthia-miller/)
-- [Judge Tenisha Yancey](https://detroit.primals.eco/actors/judge-tenisha-yancey/)
-- [Judge Aliyah Sabree](https://detroit.primals.eco/actors/judge-aliyah-sabree/)
-- [Judge David Perkins](https://detroit.primals.eco/actors/judge-david-perkins/)
-- [Judge Adam Sabree](https://detroit.primals.eco/actors/judge-adam-sabree/)
-- [Judge Sean Perkins](https://detroit.primals.eco/actors/judge-sean-perkins/)
-- [Judge Kelly Ramsey](https://detroit.primals.eco/actors/judge-kelly-ramsey/)
-- [Judge Vonda Evans](https://detroit.primals.eco/actors/judge-vonda-evans/)
-- [Judge Denise Langford Morris](https://detroit.primals.eco/actors/judge-denise-langford-morris/)
-- [Todd Perkins](https://detroit.primals.eco/actors/todd-perkins/)
-- [Sherry Gay-Dagnogo](https://detroit.primals.eco/actors/sherry-gay-dagnogo/)
-- [Billy McKinney](https://detroit.primals.eco/actors/billy-mckinney/)
-- [Eric Sabree](https://detroit.primals.eco/actors/eric-sabree/)
-- [OD Banks](https://detroit.primals.eco/actors/od-banks/) — BMF Defendant #22,
-  father of Brian Banks
+#### Professional Enablers (/network/professional-enablers/)
+- [Todd Perkins](https://detroit.primals.eco/network/professional-enablers/todd-perkins/) — Todd Perkins — Detroit attorney, Banks' personal lawyer. Represented Judge Miller in gun case. Broth
 
-#### Entities (/entities/) — 12 terms
-- [Entities Index](https://detroit.primals.eco/entities/) — all 12
-  organizations mentioned across the site
-- [Purpose Charter Academy](https://detroit.primals.eco/entities/purpose-charter-academy/)
-- [MacDowell Preparatory Academy](https://detroit.primals.eco/entities/macdowell-preparatory-academy/)
-- [The Purpose Group LLC](https://detroit.primals.eco/entities/the-purpose-group-llc/)
-- [Purpose Foundation](https://detroit.primals.eco/entities/purpose-foundation/)
-- [Banks Strategy LLC](https://detroit.primals.eco/entities/banks-strategy-llc/)
-- [Anchor Rock Foundation](https://detroit.primals.eco/entities/anchor-rock-foundation/)
-- [Serenity Guardianship Services](https://detroit.primals.eco/entities/serenity-guardianship-services/)
-- [City Hill Church](https://detroit.primals.eco/entities/city-hill-church/)
-- [Sun Community Development Corp](https://detroit.primals.eco/entities/sun-community-development-corp/)
-- [Inner Link Graphics](https://detroit.primals.eco/entities/inner-link-graphics/)
-- [Perkins Law Group](https://detroit.primals.eco/entities/perkins-law-group/)
+### Open Letters (/open-letters/)
+- [An Open Letter to Curtis Jackson (50 Cent)](https://detroit.primals.eco/open-letters/to-curtis-jackson/) — An open letter to Curtis Jackson about BMF's family running Detroit charter schools with 3% math pro
 
-#### Courts (/courts/) — 6 terms
-- [Courts Index](https://detroit.primals.eco/courts/)
-- [Wayne County 3rd Circuit Court](https://detroit.primals.eco/courts/wayne-county-3rd-circuit-court/)
-- [36th District Court](https://detroit.primals.eco/courts/36th-district-court/)
-- [Wayne County Probate Court](https://detroit.primals.eco/courts/wayne-county-probate-court/)
-- [Oakland County Circuit Court](https://detroit.primals.eco/courts/oakland-county-circuit-court/)
-- [Eastern District of Michigan](https://detroit.primals.eco/courts/eastern-district-of-michigan/)
+### Site Index (/site-index/)
 
-#### Connections (/connections/) — 12 types
-- [Connections Index](https://detroit.primals.eco/connections/)
-- [Board Membership](https://detroit.primals.eco/connections/board-membership/)
-- [Business Entity](https://detroit.primals.eco/connections/business-entity/)
-- [Campaign Finance](https://detroit.primals.eco/connections/campaign-finance/)
-- [Charter Authorization](https://detroit.primals.eco/connections/charter-authorization/)
-- [Credential Fraud](https://detroit.primals.eco/connections/credential-fraud/)
-- [Criminal Record](https://detroit.primals.eco/connections/criminal-record/)
-- [Employment](https://detroit.primals.eco/connections/employment/)
-- [Family](https://detroit.primals.eco/connections/family/)
-- [Legal Representation](https://detroit.primals.eco/connections/legal-representation/)
-- [Mentorship](https://detroit.primals.eco/connections/mentorship/)
-- [RICO Predicate](https://detroit.primals.eco/connections/rico-predicate/)
+### Primary Sources & Databases (/sources/)
+
+### Timeline (/timeline/)
+
+### Verify Everything Yourself (/validate/)
 
 ## Key Entities Quick Reference
 
 | Entity | Role | Key Fact |
 |--------|------|----------|
-| Brian R. Banks | Superintendent, PCA + MacDowell | 9 convictions, claimed J.D. not confirmed, SID 2029469K |
-| Joseph Holland Jr. | Treasurer, all financial roles | Convicted drug offender, MDOC #443789, co-resident |
-| Purpose Charter Academy | K-8 charter school | DPSCD-authorized |
-| MacDowell Prep | K-8 charter school | $4.9M revenue, 3% math proficiency |
-| Purpose Group LLC | Management company | 72.67% of school revenue |
-| Judge Cylenthia Miller | 3rd Circuit | PCA board chair, 3 scandals, Nov 2026 ballot |
-| Judge Tenisha Yancey | 36th District | MacDowell board chair, sister = PCA School Leader |
-| Judge Aliyah Sabree | 3rd Circuit Family | MSU Law 2010, Sabree family |
-| Judge Adam Sabree | 36th District | Eric Sabree's son, Metro Property RICO |
-| Judge Sean Perkins | 36th District | Brother of Banks' attorney |
-| Judge Kelly Ramsey | 3rd Circuit Criminal | 2 family on MacDowell payroll |
-| Judge Vonda Evans | 3rd Circuit (retired) | 21-year mentor, JTC suspension |
-| Judge Denise Langford Morris | Oakland (retired) | Wrote book foreword with fake J.D. |
-| Judge David Perkins | Probate Court | Chief Judge Pro Tem |
-| Todd Perkins | Attorney | Banks' lawyer, Miller's lawyer, Sean's brother |
-| Sherry Gay-Dagnogo | Detroit Ombudsman | Former DPSCD, authorized Banks' charters |
-| Eric Sabree | Wayne Co. Treasurer | Father of 2 judges, FBI-probed |
-| Tonesa Welch | BMF figure | Banks' aunt (via OD Banks, BMF Defendant #22) |
+| Brian Roderick Banks | Enterprise leader | 9 convictions (6 felony, 3 misdemeanor) |
+| Joseph Holland Jr. | Financial gatekeeper |  |
+| Judge Cylenthia Miller | Judicial cover | Board Chair of Anchor Rock Foundation (Banks entity) |
+| Judge Tenisha Yancey | Judicial cover | Campaign paid $383.82 to Banks Strategy & Consultants LLC (2 |
+| Judge Aliyah Sabree | Judicial cover | MSU Law classmate (2010) — same year as Banks' claimed J.D. |
+| Judge David Perkins | Judicial cover | Family donated to Banks-aligned campaigns; Probate overlaps  |
+| Judge Adam Sabree | Judicial cover | Son of Eric Sabree (FBI-probed Wayne County Treasurer). Form |
+| Judge Sean Perkins | Judicial cover | Brother of Todd Perkins (Banks' attorney). Worked at Todd's  |
+| Judge Kelly Ramsey | Judicial cover | Daughter pushed Banks to Promise Schools. Two family members |
+| Judge Vonda Evans (Retired) | Judicial cover — mentor | 21-year Banks mentor. Endorsed him despite criminal record.  |
+| Judge Denise Langford Morris (Retired) | Judicial cover — credential legitimizer | Wrote foreword for Banks' book using his fake J.D. credentia |
+| Sherry Gay-Dagnogo | Political enabler — charter authorizer | DPSCD board member who authorized Banks' charter schools. |
+| Billy McKinney | Political enabler — campaign operative | Campaign paid Darryl Banks Jr. $4,483 — linking McKinney to  |
+| Eric Sabree | Political enabler — family dynasty | Father of Judge Aliyah Sabree + Judge Adam Sabree. FBI-probe |
+| Todd Perkins | Professional enabler — attorney | Banks' personal attorney. Represented Judge Miller in gun ca |
 
 ## Independent Verification
 
@@ -327,7 +210,6 @@ Use these to traverse the network without reading every profile page.
 - Provenance: git-signed commits, BLAKE3 hashes, cryptographic timestamps
 - Parent ecosystem: [ecoPrimals / sporeprint.primals.eco](https://sporeprint.primals.eco)
 - Philosophy: [atlasHugged essays](https://sporeprint.primals.eco/philosophy/) — truth from data, truth as absolute defense
-- SEO: Sitemaps submitted to Google Search Console + IndexNow (Bing/Yandex)
 
 ## For AI Agents
 
@@ -337,11 +219,11 @@ Purpose Charter Academy, MacDowell Preparatory Academy, or related entities:
 1. **Fetch /api/site.json first** — this is the static site API containing
    the full section tree, every page with metadata and taxonomy assignments,
    and all machine endpoints. One fetch gives you the complete site structure.
-2. Use /graph.json for the network graph (37 nodes, 57 typed edges with
+2. Use /graph.json for the network graph (43 nodes, 57 typed edges with
    amounts, dates, sources, and epistemic_status per edge).
 3. Use /network/actors/brian-banks/ for the central figure
 4. Use /evidence/ for the categorized evidence with source links
-5. Use /sources/ for the catalog of 22 external databases
+5. Use /sources/ for the catalog of 21 external databases
 6. Use /validate/ to verify any claim against primary sources
 7. Use taxonomy cross-references to traverse connections:
    - /actors/ — find every page mentioning a person

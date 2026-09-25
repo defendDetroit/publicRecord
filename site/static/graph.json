@@ -1,296 +1,299 @@
 {
-  "$schema": "https://detroit.primals.eco/graph.json",
-  "name": "Cash for Kids 2 \u2014 Network Graph",
-  "description": "Machine-readable graph of actors, entities, courts, and typed edges. Every edge is sourced from public records.",
-  "generated": "2026-09-24",
-  "url": "https://detroit.primals.eco/graph.json",
-  "source_repo": "https://git.primals.eco/publicRecord/detroit",
-  "license": "CC-BY-SA-4.0",
+  "_generated": "2026-09-25T11:26:21Z",
+  "_source": "Built by scripts/build.py from config.toml + data/edges.toml",
   "nodes": [
     {
       "id": "banks",
-      "type": "actor",
       "label": "Brian Roderick Banks",
+      "type": "actor",
       "tier": 1,
       "role": "Enterprise leader",
-      "convictions": 9,
       "page": "/network/actors/brian-banks/"
     },
     {
       "id": "holland",
-      "type": "actor",
       "label": "Joseph Holland Jr.",
+      "type": "actor",
       "tier": 1,
       "role": "Financial gatekeeper",
-      "convictions": 1,
       "page": "/network/actors/joseph-holland/"
     },
     {
       "id": "miller",
-      "type": "actor",
       "label": "Judge Cylenthia Miller",
+      "type": "actor",
       "tier": 2,
       "role": "Judicial cover",
-      "court": "Wayne County 3rd Circuit",
       "page": "/network/judges/cylenthia-miller/"
     },
     {
       "id": "yancey",
-      "type": "actor",
       "label": "Judge Tenisha Yancey",
+      "type": "actor",
       "tier": 2,
       "role": "Judicial cover",
-      "court": "36th District Court",
       "page": "/network/judges/tenisha-yancey/"
     },
     {
-      "id": "sabree_a",
-      "type": "actor",
+      "id": "sabree",
       "label": "Judge Aliyah Sabree",
+      "type": "actor",
       "tier": 2,
       "role": "Judicial cover",
-      "court": "Wayne County 3rd Circuit",
       "page": "/network/judges/aliyah-sabree/"
     },
     {
-      "id": "perkins_d",
-      "type": "actor",
+      "id": "perkins_david",
       "label": "Judge David Perkins",
+      "type": "actor",
       "tier": 2,
       "role": "Judicial cover",
-      "court": "Wayne County Probate Court",
       "page": "/network/judges/david-perkins/"
     },
     {
-      "id": "sabree_adam",
-      "type": "actor",
+      "id": "adam_sabree",
       "label": "Judge Adam Sabree",
+      "type": "actor",
       "tier": 2,
       "role": "Judicial cover",
-      "court": "36th District Court",
       "page": "/network/judges/adam-sabree/"
     },
     {
-      "id": "perkins_sean",
-      "type": "actor",
+      "id": "sean_perkins",
       "label": "Judge Sean Perkins",
+      "type": "actor",
       "tier": 2,
       "role": "Judicial cover",
-      "court": "36th District Court",
       "page": "/network/judges/sean-perkins/"
     },
     {
-      "id": "ramsey",
-      "type": "actor",
+      "id": "kelly_ramsey",
       "label": "Judge Kelly Ramsey",
+      "type": "actor",
       "tier": 2,
       "role": "Judicial cover",
-      "court": "Wayne County 3rd Circuit \u2014 Criminal",
       "page": "/network/judges/kelly-ramsey/"
     },
     {
-      "id": "evans",
-      "type": "actor",
+      "id": "vonda_evans",
       "label": "Judge Vonda Evans (Retired)",
+      "type": "actor",
       "tier": 2,
-      "role": "Mentor",
-      "court": "Wayne County 3rd Circuit (retired)",
+      "role": "Judicial cover \u2014 mentor",
       "page": "/network/judges/vonda-evans/"
     },
     {
       "id": "langford_morris",
-      "type": "actor",
       "label": "Judge Denise Langford Morris (Retired)",
+      "type": "actor",
       "tier": 2,
-      "role": "Credential legitimizer",
-      "court": "Oakland County Circuit (retired)",
+      "role": "Judicial cover \u2014 credential legitimizer",
       "page": "/network/judges/denise-langford-morris/"
     },
     {
       "id": "todd_perkins",
-      "type": "actor",
       "label": "Todd Perkins",
+      "type": "actor",
       "tier": 4,
-      "role": "Attorney / enabler",
-      "bar": "P55623",
+      "role": "Professional enabler \u2014 attorney",
       "page": "/network/professional-enablers/todd-perkins/"
     },
     {
       "id": "gay_dagnogo",
-      "type": "actor",
       "label": "Sherry Gay-Dagnogo",
+      "type": "actor",
       "tier": 3,
-      "role": "Charter authorizer",
+      "role": "Political enabler \u2014 charter authorizer",
       "page": "/network/political/sherry-gay-dagnogo/"
     },
     {
       "id": "mckinney",
-      "type": "actor",
       "label": "Billy McKinney",
+      "type": "actor",
       "tier": 3,
-      "role": "Campaign operative",
+      "role": "Political enabler \u2014 campaign operative",
       "page": "/network/political/billy-mckinney/"
     },
     {
       "id": "eric_sabree",
-      "type": "actor",
       "label": "Eric Sabree",
+      "type": "actor",
       "tier": 3,
-      "role": "Wayne County Treasurer",
+      "role": "Political enabler \u2014 family dynasty",
       "page": "/network/political/eric-sabree/"
     },
     {
-      "id": "od_banks",
-      "type": "actor",
-      "label": "OD Banks",
-      "tier": 5,
-      "role": "BMF Defendant #22",
-      "case": "2:05-cr-80955"
-    },
-    {
-      "id": "moreland",
-      "type": "actor",
-      "label": "Lamar Moreland",
-      "tier": 3,
-      "role": "Asst. Attorney General, MI",
-      "note": "PCA Board Vice Chair"
-    },
-    {
-      "id": "latisha_johnson",
-      "type": "actor",
-      "label": "Latisha Johnson",
-      "tier": 3,
-      "role": "Detroit City Council Member",
-      "note": "PCA Board Secretary"
-    },
-    {
       "id": "pca",
-      "type": "entity",
       "label": "Purpose Charter Academy",
+      "type": "entity",
       "entity_type": "K-8 Charter School",
-      "authorizer": "DPSCD",
+      "lara_id": "",
       "page": "/network/entities/purpose-charter-academy/"
     },
     {
       "id": "macdowell",
-      "type": "entity",
       "label": "MacDowell Preparatory Academy",
+      "type": "entity",
       "entity_type": "K-8 Charter School",
-      "authorizer": "CMU",
-      "revenue": 4900000,
+      "lara_id": "",
       "page": "/network/entities/macdowell-prep/"
     },
     {
       "id": "purpose_group",
-      "type": "entity",
       "label": "The Purpose Group, LLC",
-      "entity_type": "CMO",
+      "type": "entity",
+      "entity_type": "Charter Management Organization (CMO)",
       "lara_id": "803295082",
       "page": "/network/entities/purpose-group-llc/"
     },
     {
       "id": "purpose_foundation",
-      "type": "entity",
       "label": "Purpose Foundation",
-      "entity_type": "501(c)(3)",
+      "type": "entity",
+      "entity_type": "Private 501(c)(3)",
       "lara_id": "803294855",
       "page": "/network/entities/purpose-foundation/"
     },
     {
       "id": "banks_strategy",
-      "type": "entity",
       "label": "Banks Strategy & Consultants LLC",
+      "type": "entity",
       "entity_type": "Consulting LLC",
       "lara_id": "802070120",
       "page": "/network/entities/banks-strategy-llc/"
     },
     {
       "id": "anchor_rock",
-      "type": "entity",
       "label": "Anchor Rock Foundation",
+      "type": "entity",
       "entity_type": "Dissolved 501(c)(3)",
       "lara_id": "802394934",
       "page": "/network/entities/anchor-rock-foundation/"
     },
     {
       "id": "serenity",
+      "label": "Serenity Guardianship Services, Inc.",
       "type": "entity",
-      "label": "Serenity Guardianship Services",
-      "entity_type": "Dissolved \u2014 UPL",
+      "entity_type": "Dissolved \u2014 UPL red flag",
       "lara_id": "802290962",
       "page": "/network/entities/serenity-guardianship/"
     },
     {
-      "id": "inner_link",
-      "type": "entity",
-      "label": "Inner Link Graphics",
-      "entity_type": "Campaign vendor",
-      "page": "/network/entities/inner-link-graphics/"
-    },
-    {
-      "id": "pacs",
-      "type": "entity",
-      "label": "Political Action Committees",
-      "entity_type": "Campaign finance",
-      "fines": 14500,
-      "page": "/network/entities/political-action-committees/"
-    },
-    {
-      "id": "ofa",
-      "type": "entity",
-      "label": "OFA Michigan",
-      "entity_type": "501(c)(4) dark money"
-    },
-    {
       "id": "city_hill",
-      "type": "entity",
       "label": "City Hill Church",
+      "type": "entity",
       "entity_type": "Religious entity",
       "lara_id": "802365641",
       "page": "/network/entities/city-hill-church/"
     },
     {
       "id": "sun_community",
-      "type": "entity",
       "label": "Sun Community Development Corp",
-      "entity_type": "Nonprofit",
+      "type": "entity",
+      "entity_type": "Community development nonprofit",
       "lara_id": "803232314",
       "page": "/network/entities/sun-community-development/"
     },
     {
-      "id": "court_3rd",
-      "type": "court",
-      "label": "Wayne County 3rd Circuit Court"
+      "id": "inner_link",
+      "label": "Inner Link Graphics",
+      "type": "entity",
+      "entity_type": "Campaign vendor",
+      "lara_id": "",
+      "page": "/network/entities/inner-link-graphics/"
     },
     {
-      "id": "court_36th",
-      "type": "court",
-      "label": "36th District Court"
-    },
-    {
-      "id": "court_probate",
-      "type": "court",
-      "label": "Wayne County Probate Court"
-    },
-    {
-      "id": "court_oakland",
-      "type": "court",
-      "label": "Oakland County Circuit Court"
-    },
-    {
-      "id": "dpscd",
-      "type": "institution",
-      "label": "DPSCD (Detroit Public Schools Community District)"
+      "id": "pacs",
+      "label": "Political Action Committees",
+      "type": "entity",
+      "entity_type": "Campaign finance vehicles",
+      "lara_id": "",
+      "page": "/network/entities/political-action-committees/"
     },
     {
       "id": "ag_office",
-      "type": "institution",
-      "label": "Michigan Attorney General's Office"
+      "label": "Ag Office",
+      "type": "institution"
     },
     {
       "id": "city_council",
-      "type": "institution",
-      "label": "Detroit City Council"
+      "label": "City Council",
+      "type": "institution"
+    },
+    {
+      "id": "court_36th",
+      "label": "Court 36Th",
+      "type": "institution"
+    },
+    {
+      "id": "court_3rd",
+      "label": "Court 3Rd",
+      "type": "institution"
+    },
+    {
+      "id": "court_oakland",
+      "label": "Court Oakland",
+      "type": "institution"
+    },
+    {
+      "id": "court_probate",
+      "label": "Court Probate",
+      "type": "institution"
+    },
+    {
+      "id": "dpscd",
+      "label": "Dpscd",
+      "type": "institution"
+    },
+    {
+      "id": "evans",
+      "label": "Evans",
+      "type": "institution"
+    },
+    {
+      "id": "latisha_johnson",
+      "label": "Latisha Johnson",
+      "type": "institution"
+    },
+    {
+      "id": "moreland",
+      "label": "Moreland",
+      "type": "institution"
+    },
+    {
+      "id": "od_banks",
+      "label": "Od Banks",
+      "type": "institution"
+    },
+    {
+      "id": "ofa",
+      "label": "Ofa",
+      "type": "institution"
+    },
+    {
+      "id": "perkins_d",
+      "label": "Perkins D",
+      "type": "institution"
+    },
+    {
+      "id": "perkins_sean",
+      "label": "Perkins Sean",
+      "type": "institution"
+    },
+    {
+      "id": "ramsey",
+      "label": "Ramsey",
+      "type": "institution"
+    },
+    {
+      "id": "sabree_a",
+      "label": "Sabree A",
+      "type": "institution"
+    },
+    {
+      "id": "sabree_adam",
+      "label": "Sabree Adam",
+      "type": "institution"
     }
   ],
   "edges": [
@@ -298,685 +301,508 @@
       "source": "banks",
       "target": "pca",
       "type": "employment",
+      "epistemic_status": "record",
       "role": "Superintendent",
       "weight": 10,
-      "source_doc": "purposecharteracademy.com",
-      "epistemic_status": "record"
+      "source_doc": "purposecharteracademy.com"
     },
     {
       "source": "banks",
       "target": "macdowell",
       "type": "employment",
+      "epistemic_status": "record",
       "role": "Superintendent",
       "weight": 10,
-      "source_doc": "macdowellprep.com",
-      "epistemic_status": "record"
+      "source_doc": "macdowellprep.com"
     },
     {
       "source": "banks",
       "target": "purpose_group",
       "type": "ownership",
+      "epistemic_status": "record",
       "role": "Sole member",
       "weight": 10,
-      "source_doc": "LARA 803295082",
-      "epistemic_status": "record"
+      "source_doc": "LARA 803295082"
     },
     {
       "source": "banks",
       "target": "purpose_foundation",
       "type": "governance",
+      "epistemic_status": "record",
       "role": "President + Agent",
       "weight": 8,
-      "source_doc": "LARA 803294855",
-      "epistemic_status": "record"
+      "source_doc": "LARA 803294855"
     },
     {
       "source": "banks",
       "target": "banks_strategy",
       "type": "ownership",
+      "epistemic_status": "record",
       "role": "Owner",
       "weight": 8,
-      "source_doc": "LARA 802070120",
-      "epistemic_status": "record"
+      "source_doc": "LARA 802070120"
     },
     {
       "source": "banks",
       "target": "serenity",
       "type": "ownership",
+      "epistemic_status": "record",
       "role": "Principal (dissolved)",
       "weight": 5,
-      "source_doc": "LARA 802290962",
-      "epistemic_status": "record"
+      "source_doc": "LARA 802290962"
     },
     {
       "source": "banks",
       "target": "city_hill",
       "type": "governance",
+      "epistemic_status": "record",
       "role": "Pastor / controller",
       "weight": 5,
-      "source_doc": "LARA 802365641",
-      "epistemic_status": "record"
+      "source_doc": "LARA 802365641"
     },
     {
       "source": "banks",
       "target": "sun_community",
       "type": "governance",
+      "epistemic_status": "record",
       "role": "Officer",
       "weight": 5,
-      "source_doc": "LARA 803232314",
-      "epistemic_status": "record"
+      "source_doc": "LARA 803232314"
     },
     {
       "source": "banks",
       "target": "pacs",
       "type": "governance",
+      "epistemic_status": "record",
       "role": "Treasurer (Bank on Wayne Co.)",
       "weight": 6,
-      "source_doc": "CFRS",
-      "epistemic_status": "record"
+      "source_doc": "CFRS"
     },
     {
       "source": "banks",
       "target": "ofa",
       "type": "governance",
+      "epistemic_status": "record",
       "role": "Officer (Holland's PO Box)",
       "weight": 4,
-      "source_doc": "LARA",
-      "epistemic_status": "record"
+      "source_doc": "LARA"
     },
     {
       "source": "holland",
       "target": "banks",
       "type": "co-resident",
+      "epistemic_status": "record",
       "note": "Same address: 1968 Severn Rd, GPW",
       "weight": 9,
-      "source_doc": "Wayne County ROD",
-      "epistemic_status": "record"
+      "source_doc": "Wayne County ROD"
     },
     {
       "source": "holland",
       "target": "purpose_foundation",
       "type": "governance",
+      "epistemic_status": "record",
       "role": "Secretary + Treasurer",
       "weight": 8,
-      "source_doc": "LARA 803294855",
-      "epistemic_status": "record"
+      "source_doc": "LARA 803294855"
     },
     {
       "source": "holland",
       "target": "pacs",
       "type": "governance",
+      "epistemic_status": "record",
       "role": "Treasurer (Bank on Banks PAC)",
       "weight": 7,
-      "source_doc": "CFRS",
-      "epistemic_status": "record"
+      "source_doc": "CFRS"
     },
     {
       "source": "holland",
       "target": "ofa",
       "type": "governance",
+      "epistemic_status": "record",
       "role": "Officer",
       "weight": 4,
-      "source_doc": "LARA",
-      "epistemic_status": "record"
+      "source_doc": "LARA"
     },
     {
       "source": "miller",
       "target": "pca",
       "type": "board_membership",
+      "epistemic_status": "record",
       "role": "Board Chair",
       "weight": 9,
-      "source_doc": "purposecharteracademy.com/boardofdirectors (Sep 2026)",
-      "epistemic_status": "record"
+      "source_doc": "purposecharteracademy.com/boardofdirectors (Sep 2026)"
     },
     {
       "source": "miller",
       "target": "anchor_rock",
       "type": "board_membership",
+      "epistemic_status": "record",
       "role": "Board Chair (historical)",
       "weight": 7,
-      "source_doc": "LARA 802394934",
-      "epistemic_status": "record"
+      "source_doc": "LARA 802394934"
     },
     {
       "source": "miller",
       "target": "court_3rd",
       "type": "bench",
+      "epistemic_status": "record",
       "role": "Judge",
-      "weight": 10,
-      "epistemic_status": "record"
+      "weight": 10
     },
     {
       "source": "miller",
       "target": "banks",
       "type": "campaign_vendor",
+      "epistemic_status": "record",
       "note": "Banks Strategy as campaign vendor",
       "weight": 5,
-      "source_doc": "CFRS",
-      "epistemic_status": "record"
+      "source_doc": "CFRS"
     },
     {
       "source": "moreland",
       "target": "pca",
       "type": "board_membership",
+      "epistemic_status": "record",
       "role": "Board Vice Chair",
       "weight": 8,
-      "source_doc": "purposecharteracademy.com/boardofdirectors",
-      "epistemic_status": "record"
+      "source_doc": "purposecharteracademy.com/boardofdirectors"
     },
     {
       "source": "moreland",
       "target": "ag_office",
       "type": "employment",
+      "epistemic_status": "record",
       "role": "Assistant Attorney General",
-      "weight": 9,
-      "epistemic_status": "record"
+      "weight": 9
     },
     {
       "source": "latisha_johnson",
       "target": "pca",
       "type": "board_membership",
+      "epistemic_status": "record",
       "role": "Board Secretary",
       "weight": 7,
-      "source_doc": "purposecharteracademy.com/boardofdirectors",
-      "epistemic_status": "record"
+      "source_doc": "purposecharteracademy.com/boardofdirectors"
     },
     {
       "source": "latisha_johnson",
       "target": "city_council",
       "type": "elected_office",
+      "epistemic_status": "record",
       "role": "Council Member",
-      "weight": 8,
-      "epistemic_status": "record"
+      "weight": 8
     },
     {
       "source": "yancey",
       "target": "macdowell",
       "type": "board_membership",
+      "epistemic_status": "record",
       "role": "Board Chair",
       "weight": 9,
-      "source_doc": "Clutch Justice Sep 13, 2026",
-      "epistemic_status": "record"
+      "source_doc": "Clutch Justice Sep 13, 2026"
     },
     {
       "source": "yancey",
       "target": "banks_strategy",
       "type": "payment",
-      "amount": 383.82,
-      "currency": "USD",
-      "year": 2024,
+      "epistemic_status": "record",
+      "amount": "383.82",
       "note": "Sole contribution and sole expenditure",
       "weight": 8,
-      "source_doc": "CFRS",
-      "epistemic_status": "record"
+      "source_doc": "CFRS"
     },
     {
       "source": "yancey",
       "target": "inner_link",
       "type": "payment",
-      "amount": 8025,
-      "currency": "USD",
+      "epistemic_status": "record",
+      "amount": "8025",
       "note": "Campaign vendor payments",
       "weight": 6,
-      "source_doc": "TransparencyUSA",
-      "epistemic_status": "record"
+      "source_doc": "TransparencyUSA"
     },
     {
       "source": "yancey",
       "target": "court_36th",
       "type": "bench",
+      "epistemic_status": "record",
       "role": "Judge",
-      "weight": 10,
-      "epistemic_status": "record"
+      "weight": 10
     },
     {
       "source": "sabree_a",
       "target": "court_3rd",
       "type": "bench",
+      "epistemic_status": "record",
       "role": "Judge (Family Division)",
-      "appointed": "May 2025",
-      "weight": 10,
-      "epistemic_status": "record"
+      "weight": 10
     },
     {
       "source": "sabree_a",
       "target": "banks",
       "type": "classmate",
+      "epistemic_status": "record",
       "note": "MSU Law 2010 \u2014 same year as Banks' claimed J.D.",
       "weight": 5,
-      "source_doc": "Graduation records",
-      "epistemic_status": "record"
+      "source_doc": "Graduation records"
     },
     {
       "source": "eric_sabree",
       "target": "sabree_a",
       "type": "family",
+      "epistemic_status": "record",
       "role": "Father",
-      "weight": 10,
-      "epistemic_status": "record"
+      "weight": 10
     },
     {
       "source": "eric_sabree",
       "target": "sabree_adam",
       "type": "family",
+      "epistemic_status": "record",
       "role": "Father",
-      "weight": 10,
-      "epistemic_status": "record"
+      "weight": 10
     },
     {
       "source": "eric_sabree",
       "target": "miller",
       "type": "political",
+      "epistemic_status": "inference",
       "note": "Listed as endorser on keepjudgemiller.com",
       "weight": 4,
-      "source_doc": "keepjudgemiller.com",
-      "epistemic_status": "inference"
+      "source_doc": "keepjudgemiller.com"
     },
     {
       "source": "sabree_adam",
       "target": "court_36th",
       "type": "bench",
+      "epistemic_status": "record",
       "role": "Judge",
-      "weight": 10,
-      "epistemic_status": "record"
+      "weight": 10
     },
     {
       "source": "perkins_d",
       "target": "court_probate",
       "type": "bench",
+      "epistemic_status": "record",
       "role": "Chief Judge Pro Tem",
-      "weight": 10,
-      "epistemic_status": "record"
+      "weight": 10
     },
     {
       "source": "perkins_d",
       "target": "banks",
       "type": "family_donation",
+      "epistemic_status": "record",
       "note": "Family donated to Banks-aligned campaigns",
       "weight": 4,
-      "source_doc": "CFRS",
-      "epistemic_status": "record"
+      "source_doc": "CFRS"
     },
     {
       "source": "perkins_sean",
       "target": "court_36th",
       "type": "bench",
+      "epistemic_status": "record",
       "role": "Judge",
-      "weight": 10,
-      "epistemic_status": "record"
+      "weight": 10
     },
     {
       "source": "perkins_sean",
       "target": "todd_perkins",
       "type": "family",
+      "epistemic_status": "record",
       "role": "Brother",
-      "weight": 10,
-      "epistemic_status": "record"
+      "weight": 10
     },
     {
       "source": "ramsey",
       "target": "court_3rd",
       "type": "bench",
+      "epistemic_status": "record",
       "role": "Judge (Criminal Division)",
-      "weight": 10,
-      "epistemic_status": "record"
+      "weight": 10
     },
     {
       "source": "ramsey",
       "target": "macdowell",
       "type": "employment_family",
+      "epistemic_status": "record",
       "note": "2 family members on MacDowell payroll",
       "weight": 6,
-      "source_doc": "School records",
-      "confidence": "documented",
-      "epistemic_status": "record"
+      "source_doc": "School records"
     },
     {
       "source": "evans",
       "target": "court_3rd",
       "type": "bench",
+      "epistemic_status": "record",
       "role": "Judge (retired)",
-      "weight": 7,
-      "epistemic_status": "record"
+      "weight": 7
     },
     {
       "source": "evans",
       "target": "banks",
       "type": "mentorship",
+      "epistemic_status": "corroborated",
       "note": "21-year mentor. Endorsed Banks despite criminal record.",
       "weight": 8,
-      "source_doc": "Book analysis",
-      "epistemic_status": "corroborated"
+      "source_doc": "Book analysis"
     },
     {
       "source": "langford_morris",
       "target": "court_oakland",
       "type": "bench",
+      "epistemic_status": "record",
       "role": "Judge (retired, now JAMS)",
-      "weight": 7,
-      "epistemic_status": "record"
+      "weight": 7
     },
     {
       "source": "langford_morris",
       "target": "banks",
       "type": "credential_legitimization",
+      "epistemic_status": "corroborated",
       "note": "Wrote book foreword using Banks' fake J.D.",
       "weight": 7,
-      "source_doc": "Book analysis",
-      "epistemic_status": "corroborated"
+      "source_doc": "Book analysis"
     },
     {
       "source": "todd_perkins",
       "target": "banks",
       "type": "legal_representation",
+      "epistemic_status": "record",
       "role": "Personal attorney",
       "weight": 9,
-      "source_doc": "Court filings",
-      "epistemic_status": "record"
+      "source_doc": "Court filings"
     },
     {
       "source": "todd_perkins",
       "target": "miller",
       "type": "legal_representation",
+      "epistemic_status": "record",
       "note": "Represented Miller in DTW gun case",
       "weight": 7,
-      "source_doc": "WXYZ",
-      "epistemic_status": "record"
+      "source_doc": "WXYZ"
     },
     {
       "source": "gay_dagnogo",
       "target": "dpscd",
       "type": "board_membership",
+      "epistemic_status": "record",
       "role": "Former board member",
-      "weight": 8,
-      "epistemic_status": "record"
+      "weight": 8
     },
     {
       "source": "gay_dagnogo",
       "target": "pca",
       "type": "authorization",
+      "epistemic_status": "record",
       "note": "Voted to authorize Banks' charters",
       "weight": 8,
-      "source_doc": "DPSCD board minutes",
-      "epistemic_status": "record"
+      "source_doc": "DPSCD board minutes"
     },
     {
       "source": "gay_dagnogo",
       "target": "macdowell",
       "type": "authorization",
+      "epistemic_status": "record",
       "note": "Authorized charter",
-      "weight": 8,
-      "epistemic_status": "record"
+      "weight": 8
     },
     {
       "source": "gay_dagnogo",
       "target": "banks",
       "type": "political",
+      "epistemic_status": "inference",
       "note": "CBC Week honoree; campaign ally",
       "weight": 6,
-      "source_doc": "Eventbrite",
-      "epistemic_status": "inference"
+      "source_doc": "Eventbrite"
     },
     {
       "source": "mckinney",
       "target": "banks",
       "type": "payment",
-      "amount": 4483,
-      "currency": "USD",
-      "recipient": "Darryl Banks Jr.",
+      "epistemic_status": "record",
+      "amount": "4483",
       "note": "Campaign \u2192 extended Banks family",
       "weight": 5,
-      "source_doc": "TransparencyUSA",
-      "epistemic_status": "record"
+      "source_doc": "TransparencyUSA"
     },
     {
       "source": "od_banks",
       "target": "banks",
       "type": "family",
+      "epistemic_status": "record",
       "role": "Father",
       "weight": 10,
-      "source_doc": "PACER 2:05-cr-80955",
-      "epistemic_status": "record"
+      "source_doc": "PACER 2:05-cr-80955"
     },
     {
       "source": "pca",
       "target": "purpose_group",
       "type": "money_flow",
+      "epistemic_status": "corroborated",
       "note": "Management contract \u2014 per-pupil funding flows to CMO",
-      "weight": 9,
-      "epistemic_status": "corroborated"
+      "weight": 9
     },
     {
       "source": "macdowell",
       "target": "purpose_group",
       "type": "money_flow",
-      "amount": 4285201,
-      "currency": "USD",
+      "epistemic_status": "corroborated",
+      "amount": "4285201",
       "note": "72.67% of $4.9M revenue to CMO",
       "weight": 10,
-      "source_doc": "Audited financials",
-      "epistemic_status": "corroborated"
+      "source_doc": "Audited financials"
     },
     {
       "source": "purpose_group",
       "target": "banks",
       "type": "money_flow",
+      "epistemic_status": "corroborated",
       "note": "Sole member extracts as salary + management fee",
-      "weight": 10,
-      "epistemic_status": "corroborated"
+      "weight": 10
     },
     {
       "source": "pca",
       "target": "court_3rd",
       "type": "jurisdiction",
+      "epistemic_status": "inference",
       "note": "Cases from PCA families filed in 3rd Circuit",
-      "weight": 5,
-      "epistemic_status": "inference"
+      "weight": 5
     },
     {
       "source": "pca",
       "target": "court_36th",
       "type": "jurisdiction",
+      "epistemic_status": "inference",
       "note": "Cases from PCA families filed in 36th District",
-      "weight": 5,
-      "epistemic_status": "inference"
+      "weight": 5
     },
     {
       "source": "macdowell",
       "target": "court_3rd",
       "type": "jurisdiction",
+      "epistemic_status": "inference",
       "note": "Cases from MacDowell families filed in 3rd Circuit",
-      "weight": 5,
-      "epistemic_status": "inference"
+      "weight": 5
     },
     {
       "source": "macdowell",
       "target": "court_36th",
       "type": "jurisdiction",
+      "epistemic_status": "inference",
       "note": "Cases from MacDowell families filed in 36th District",
-      "weight": 5,
-      "epistemic_status": "inference"
+      "weight": 5
     }
   ],
-  "money_flows": [
-    {
-      "from": "State of Michigan",
-      "through": "Purpose Charter Academy",
-      "to": "The Purpose Group, LLC",
-      "to_final": "Brian Banks",
-      "amount_annual": null,
-      "note": "PCA per-pupil funding \u2192 CMO \u2192 sole member"
-    },
-    {
-      "from": "State of Michigan",
-      "through": "MacDowell Preparatory Academy",
-      "to": "The Purpose Group, LLC",
-      "to_final": "Brian Banks",
-      "amount_annual": 4285201,
-      "extraction_pct": 72.67,
-      "note": "72.67% of $4.9M annual revenue"
-    },
-    {
-      "from": "Judge Yancey campaign",
-      "through": "Banks Strategy LLC",
-      "to": "Brian Banks",
-      "amount": 383.82,
-      "year": 2024,
-      "note": "Sole contribution AND sole expenditure"
-    },
-    {
-      "from": "Judge Yancey campaign",
-      "through": "Inner Link Graphics",
-      "to": "Inner Link",
-      "amount": 8025,
-      "note": "Campaign vendor payments"
-    },
-    {
-      "from": "Billy McKinney campaign",
-      "through": null,
-      "to": "Darryl Banks Jr.",
-      "amount": 4483,
-      "note": "Campaign disbursement to Banks family member"
-    },
-    {
-      "from": "Judge Miller campaign",
-      "through": "Banks Strategy LLC",
-      "to": "Brian Banks",
-      "amount": null,
-      "note": "Campaign vendor relationship"
-    },
-    {
-      "from": "Various donors",
-      "through": "Bank on Banks PAC",
-      "to": "Banks network",
-      "note": "Holland (convicted felon) as Treasurer. $14,500+ in unpaid fines."
-    }
-  ],
-  "board_matrix": {
-    "description": "Who sits on which boards. Rows = people, columns = entities.",
-    "entities": [
-      "Purpose Charter Academy",
-      "MacDowell Preparatory Academy",
-      "Purpose Foundation",
-      "Anchor Rock Foundation",
-      "Bank on Banks PAC",
-      "OFA Michigan"
-    ],
-    "members": {
-      "Brian Banks": {
-        "Purpose Charter Academy": "Superintendent",
-        "MacDowell Preparatory Academy": "Superintendent",
-        "Purpose Foundation": "President + Agent",
-        "Anchor Rock Foundation": null,
-        "Bank on Banks PAC": null,
-        "OFA Michigan": null
-      },
-      "Joseph Holland Jr.": {
-        "Purpose Charter Academy": null,
-        "MacDowell Preparatory Academy": null,
-        "Purpose Foundation": "Secretary + Treasurer",
-        "Anchor Rock Foundation": null,
-        "Bank on Banks PAC": "Treasurer",
-        "OFA Michigan": "Officer"
-      },
-      "Judge Cylenthia Miller": {
-        "Purpose Charter Academy": "Board Chair",
-        "MacDowell Preparatory Academy": null,
-        "Purpose Foundation": null,
-        "Anchor Rock Foundation": "Board Chair (historical)",
-        "Bank on Banks PAC": null,
-        "OFA Michigan": null
-      },
-      "Judge Tenisha Yancey": {
-        "Purpose Charter Academy": null,
-        "MacDowell Preparatory Academy": "Board Chair",
-        "Purpose Foundation": null,
-        "Anchor Rock Foundation": null,
-        "Bank on Banks PAC": null,
-        "OFA Michigan": null
-      },
-      "Lamar Moreland (Asst. AG)": {
-        "Purpose Charter Academy": "Board Vice Chair",
-        "MacDowell Preparatory Academy": null,
-        "Purpose Foundation": null,
-        "Anchor Rock Foundation": null,
-        "Bank on Banks PAC": null,
-        "OFA Michigan": null
-      },
-      "Latisha Johnson (City Council)": {
-        "Purpose Charter Academy": "Board Secretary",
-        "MacDowell Preparatory Academy": null,
-        "Purpose Foundation": null,
-        "Anchor Rock Foundation": null,
-        "Bank on Banks PAC": null,
-        "OFA Michigan": null
-      }
-    }
-  },
-  "court_matrix": {
-    "description": "Which judges sit on which courts and their connections to the enterprise.",
-    "courts": [
-      "Wayne County 3rd Circuit",
-      "36th District Court",
-      "Wayne County Probate Court",
-      "Oakland County Circuit"
-    ],
-    "judges": {
-      "Judge Cylenthia Miller": {
-        "court": "Wayne County 3rd Circuit",
-        "connection": "PCA Board Chair",
-        "election": "Nov 3, 2026"
-      },
-      "Judge Aliyah Sabree": {
-        "court": "Wayne County 3rd Circuit",
-        "connection": "MSU Law classmate; father = Treasurer",
-        "appointed": "May 2025"
-      },
-      "Judge Kelly Ramsey": {
-        "court": "Wayne County 3rd Circuit",
-        "connection": "2 family on MacDowell payroll",
-        "confidence": "documented"
-      },
-      "Judge Vonda Evans": {
-        "court": "Wayne County 3rd Circuit",
-        "connection": "21-year mentor (retired)",
-        "status": "retired"
-      },
-      "Judge Tenisha Yancey": {
-        "court": "36th District Court",
-        "connection": "MacDowell Board Chair; paid $383.82",
-        "payment": 383.82
-      },
-      "Judge Adam Sabree": {
-        "court": "36th District Court",
-        "connection": "Eric Sabree's son; Metro Property RICO"
-      },
-      "Judge Sean Perkins": {
-        "court": "36th District Court",
-        "connection": "Brother = Banks' attorney Todd Perkins"
-      },
-      "Judge David Perkins": {
-        "court": "Wayne County Probate Court",
-        "connection": "Family donations to network campaigns"
-      },
-      "Judge Denise Langford Morris": {
-        "court": "Oakland County Circuit",
-        "connection": "Wrote book foreword with fake J.D.",
-        "status": "retired"
-      }
-    }
-  },
   "epistemic_grammar": {
     "description": "Every edge carries an epistemic status classifying the nature of the claim.",
     "statuses": {
-      "record": "Verifiable public record. Exists in a government database or official document.",
+      "record": "Verifiable public record.",
       "corroborated": "Independently confirmed by 2+ sources.",
-      "inference": "Analytical conclusion drawn from records. Not adjudicated.",
-      "allegation": "Formally alleged in complaint or filing. Awaiting determination.",
-      "filed": "Submitted to agency/court. Determination pending.",
-      "adjudicated": "Determined by court or agency. Final unless appealed.",
-      "corrected": "Previously published claim corrected. See note."
-    },
-    "principle": "DOCUMENTED RECORD -> OBSERVED RELATIONSHIP -> INVESTIGATIVE INFERENCE -> LEGAL QUESTION -> AGENCY/COURT DETERMINATION"
+      "inference": "Analytical conclusion drawn from records.",
+      "allegation": "Formally alleged in complaint.",
+      "filed": "Submitted to agency/court.",
+      "adjudicated": "Determined by court or agency.",
+      "corrected": "Previously published claim corrected."
+    }
   }
 }
