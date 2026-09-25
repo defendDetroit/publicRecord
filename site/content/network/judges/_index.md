@@ -5,7 +5,7 @@ weight = 2
 sort_by = "weight"
 
 [extra]
-keywords = "Wayne County judges Brian Banks, Detroit charter school judges, Cylenthia Miller, Tenisha Yancey, Aliyah Sabree, David Perkins, Kelly Ramsey, Adam Sabree, Sean Perkins, Vonda Evans, Denise Langford Morris, judicial connections charter school, Wayne County 3rd Circuit Court, 36th District Court"
+keywords = "Wayne County judges Brian Banks, Detroit charter school judges, Cylenthia Miller, Tenisha Yancey, Aliyah Sabree, David Perkins, Kelly Ramsey, Adam Sabree, Sean Perkins, Vonda Evans, Denise Langford Morris, judicial connections charter school, Wayne County 3rd Circuit Court, 36th District Court, Keep Judge Miller 2026, Sabree family dynasty Wayne County, Wayne County judges convicted felon charter school, Detroit judicial capture nine judges four courts, Wayne County 3rd Circuit 2026 election judges charter school, 36th District Court Detroit judges Brian Banks connections, Wayne County Probate Court guardianship Serenity, Michigan judges charter school board membership campaign payments"
 +++
 
 Nine judges across four courts have demonstrable connections to the [Banks network](/network/actors/brian-banks/). Together they create a **captured court system** where network-connected judges preside over network-connected cases.

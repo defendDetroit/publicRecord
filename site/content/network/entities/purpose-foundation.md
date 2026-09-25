@@ -6,7 +6,7 @@ date = 2026-09-20
 updated = 2026-09-24
 
 [extra]
-keywords = "Purpose Foundation, Purpose Foundation Detroit, Banks Holland nonprofit, private foundation fraud, Purpose Foundation Brian Banks Holland, Purpose Foundation two felons all positions, Purpose Foundation 501c3 no governance"
+keywords = "Purpose Foundation, Purpose Foundation Detroit, Banks Holland nonprofit, private foundation fraud, Purpose Foundation Brian Banks Holland, Purpose Foundation two felons all positions, Purpose Foundation 501c3 no governance, Purpose Foundation LARA 803294855 EIN 33-3537910, Purpose Foundation filed December 2024, Purpose Foundation Grosse Pointe Woods, Purpose Foundation Jehan Crump-Gibson Attorney In Fact, Purpose Foundation Banks President Director Holland Secretary Treasurer, Purpose Foundation private 501c3 two convicted felons four positions, Purpose Foundation no independent oversight"
 
 [taxonomies]
 actors = ["Brian Banks", "Joseph Holland"]

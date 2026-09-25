@@ -6,7 +6,7 @@ date = 2026-09-20
 updated = 2026-09-24
 
 [extra]
-keywords = "Adam Sabree judge, Adam Sabree 36th District Court, Adam Sabree Metro Property Group, Adam Sabree Eric Sabree son, Adam Sabree Wayne County, Adam Sabree Detroit, Adam Sabree RICO, Sabree family Detroit judges, Adam Sabree Woodward Law Group, Adam Sabree Caldwell University, Adam Sabree MSU Law 2011, Adam Sabree adjunct professor Wayne County Community College, Adam Sabree Tenisha Yancey same election"
+keywords = "Adam Sabree judge, Adam Sabree 36th District Court, Adam Sabree Metro Property Group, Adam Sabree Eric Sabree son, Adam Sabree Wayne County, Adam Sabree Detroit, Adam Sabree RICO, Sabree family Detroit judges, Adam Sabree Woodward Law Group, Adam Sabree Caldwell University, Adam Sabree MSU Law 2011, Adam Sabree adjunct professor Wayne County Community College, Adam Sabree Tenisha Yancey same election, Adam Ibn-Ramadan Sabree 36th District Court, Adam Sabree elected November 2022 term 2029, Adam Sabree former in-house counsel Metro Property Group RICO, Adam Sabree Eric Sabree Wayne County Treasurer FBI-probed father, Adam Sabree Aliyah Sabree sibling judges Wayne County, Sabree dynasty two judges one treasurer Wayne County, Adam Sabree Sean Perkins same court 36th District"
 
 [taxonomies]
 actors = ["Judge Adam Sabree", "Judge Aliyah Sabree", "Eric Sabree", "Judge Tenisha Yancey", "Judge Sean Perkins", "Brian Banks"]

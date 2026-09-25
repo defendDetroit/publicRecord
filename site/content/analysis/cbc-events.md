@@ -6,7 +6,7 @@ date = 2026-09-20
 updated = 2026-09-24
 
 [extra]
-keywords = "Brian Banks CBC, Brian Banks Congressional Black Caucus, CBC Week Detroit, Brian Banks Washington DC party, Sherry Gay-Dagnogo CBC honoree, Brian Banks Eventbrite, Brian Banks political events, convicted felon CBC Week"
+keywords = "Brian Banks CBC, Brian Banks Congressional Black Caucus, CBC Week Detroit, Brian Banks Washington DC party, Sherry Gay-Dagnogo CBC honoree, Brian Banks Eventbrite, Brian Banks political events, convicted felon CBC Week, Brian Banks CBC Reception Party Kitchen Kocktails Washington DC, Brian Banks Eventbrite 47714438313, Brian Banks CBC 2023 2024 2025 2026 four years, Sherry Gay-Dagnogo CBC honoree 2025 Hyatt, Brian Banks Chubb Rock 2024 CBC After Glow Party, Brian Banks Michigan CBC Reception convicted felon, Brian Banks education leader Congressional Black Caucus networking, Brian Banks Title I federal funding CBC networking"
 
 [taxonomies]
 actors = ["Brian Banks", "Sherry Gay-Dagnogo", "Judge Cylenthia Miller", "Joseph Holland"]

@@ -6,7 +6,7 @@ date = 2026-09-20
 updated = 2026-09-24
 
 [extra]
-keywords = "Kelly Ramsey judge, Kelly Ramsey Wayne County, Kelly Ramsey 3rd Circuit, Kelly Ramsey MacDowell, Kelly Ramsey Brian Banks, Kelly Ramsey criminal division Detroit, Kelly Ramsey daughter Promise Schools"
+keywords = "Kelly Ramsey judge, Kelly Ramsey Wayne County, Kelly Ramsey 3rd Circuit, Kelly Ramsey MacDowell, Kelly Ramsey Brian Banks, Kelly Ramsey criminal division Detroit, Kelly Ramsey daughter Promise Schools, Kelly Ramsey elected November 2016 re-elected 2022, Kelly Ramsey term ends January 2029, Kelly Ramsey two family members MacDowell payroll, Kelly Ramsey Wayne County Family Division referee, Kelly Ramsey Criminal Division Wayne County 3rd Circuit, Kelly Ramsey APA Wayne County"
 
 [taxonomies]
 actors = ["Judge Kelly Ramsey", "Brian Banks", "Todd Perkins", "Judge Cylenthia Miller", "Judge Tenisha Yancey", "Judge Sean Perkins"]

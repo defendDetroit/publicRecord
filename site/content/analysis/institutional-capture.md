@@ -6,7 +6,7 @@ date = 2026-09-20
 updated = 2026-09-24
 
 [extra]
-keywords = "institutional capture Detroit, captured courts Wayne County, Detroit charter school corruption, DPSCD authorization fraud, Wayne County judges Brian Banks, Detroit institutional corruption, charter school captured institutions"
+keywords = "institutional capture Detroit, captured courts Wayne County, Detroit charter school corruption, DPSCD authorization fraud, Wayne County judges Brian Banks, Detroit institutional corruption, charter school captured institutions, Detroit judicial capture nine judges four courts, Keep Judge Miller 2026 captured court, DPSCD authorized Brian Banks convicted felon, Sherry Gay-Dagnogo charter authorization feedback loop, Wayne County 3rd Circuit 36th District Probate captured, institutional capture charter school racketeering Detroit, Brian Banks education leader institutional capture, charter authorization pipeline DPSCD state funding extraction"
 
 [taxonomies]
 actors = ["Brian Banks", "Joseph Holland", "Judge Cylenthia Miller", "Judge Tenisha Yancey", "Judge Aliyah Sabree", "Judge David Perkins", "Sherry Gay-Dagnogo", "Eric Sabree"]

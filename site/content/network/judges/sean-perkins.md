@@ -6,7 +6,7 @@ date = 2026-09-20
 updated = 2026-09-24
 
 [extra]
-keywords = "Sean Perkins judge, Sean Perkins 36th District Court, Sean Perkins Todd Perkins brother, Sean Perkins Brian Banks attorney, Sean Perkins Detroit, Sean Perkins Wayne County, Perkins brothers Detroit judges, Sean Perkins Perkins Law Group, Sean Perkins Wayne State University, Sean Perkins Thomas M Cooley Law School, Sean Perkins UAW Local 387"
+keywords = "Sean Perkins judge, Sean Perkins 36th District Court, Sean Perkins Todd Perkins brother, Sean Perkins Brian Banks attorney, Sean Perkins Detroit, Sean Perkins Wayne County, Perkins brothers Detroit judges, Sean Perkins Perkins Law Group, Sean Perkins Wayne State University, Sean Perkins Thomas M Cooley Law School, Sean Perkins UAW Local 387, Sean Perkins appointed Governor Whitmer 2021, Sean Perkins elected November 2022 term 2029, Sean Perkins brother Todd Perkins attorney Banks personal lawyer, Sean Perkins worked Perkins Law Group before bench, Sean Perkins Room 535 36th District Court, Sean Perkins replaced Judge B Pennie Millender"
 
 [taxonomies]
 actors = ["Judge Sean Perkins", "Todd Perkins", "Brian Banks", "Judge Cylenthia Miller", "Judge Tenisha Yancey", "Judge Adam Sabree", "Judge David Perkins"]

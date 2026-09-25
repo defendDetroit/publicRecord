@@ -6,7 +6,7 @@ date = 2026-09-20
 updated = 2026-09-24
 
 [extra]
-keywords = "Serenity Guardianship Services, Serenity Guardianship Brian Banks, Serenity Guardianship UPL, unauthorized practice of law Detroit, Brian Banks guardianship, Wayne County Probate guardianship"
+keywords = "Serenity Guardianship Services, Serenity Guardianship Brian Banks, Serenity Guardianship UPL, unauthorized practice of law Detroit, Brian Banks guardianship, Wayne County Probate guardianship, Serenity Guardianship Services LARA 802290962 dissolved, Serenity Guardianship non-attorney Brian Banks guardianship services, Serenity Guardianship textbook unauthorized practice of law, Brian Banks 9 convictions running guardianship services, Wayne County Probate David Perkins Serenity jurisdiction"
 
 [taxonomies]
 actors = ["Brian Banks", "Judge David Perkins", "Judge Tenisha Yancey", "Judge Adam Sabree", "Judge Sean Perkins", "Joseph Holland"]

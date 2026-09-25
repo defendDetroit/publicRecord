@@ -6,7 +6,7 @@ date = 2026-09-24
 updated = 2026-09-24
 
 [extra]
-keywords = "Eric Sabree Wayne County Treasurer, Eric Sabree FBI investigation, Eric Sabree tax auction violations, Bowles v Sabree class action, Eric Sabree Detroit, Eric Sabree judges father, Sabree family Detroit, Eric Sabree Metro Property Group, Eric Sabree Wayne County ethics"
+keywords = "Eric Sabree Wayne County Treasurer, Eric Sabree FBI investigation, Eric Sabree tax auction violations, Bowles v Sabree class action, Eric Sabree Detroit, Eric Sabree judges father, Sabree family Detroit, Eric Sabree Metro Property Group, Eric Sabree Wayne County ethics, Eric R Sabree Wayne County Treasurer elected April 2016, Eric Sabree Wayne County Land Bank Chairman, Eric Sabree father Aliyah Sabree judge Adam Sabree judge, Eric Sabree two children judges Wayne County, Sabree family dynasty Wayne County treasurer judges, Eric Sabree endorsed Judge Cylenthia Miller keepjudgemiller.com, Eric Sabree FBI probed 2019 tax foreclosure, Eric Sabree surplus retention authority, Eric Sabree Wayne County Democratic Party"
 
 [taxonomies]
 actors = ["Eric Sabree", "Judge Aliyah Sabree", "Judge Adam Sabree", "Judge Tenisha Yancey", "Brian Banks"]

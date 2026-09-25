@@ -6,7 +6,7 @@ date = 2026-09-20
 updated = 2026-09-24
 
 [extra]
-keywords = "Brian Banks PAC, Bank on Banks PAC, Joseph Holland PAC treasurer, Michigan campaign finance fines, Bank on Banks PAC dark money, OFA Michigan Brian Banks, Detroit charter school PAC fines, Joseph Holland PAC treasurer felon"
+keywords = "Brian Banks PAC, Bank on Banks PAC, Joseph Holland PAC treasurer, Michigan campaign finance fines, Bank on Banks PAC dark money, OFA Michigan Brian Banks, Detroit charter school PAC fines, Joseph Holland PAC treasurer felon, Bank on Banks for Michigan PAC treasurer convicted drug offender, Joseph Holland PAC treasurer Controlled Substance Possession, Bank on Banks $22225 total raised $14500 fines, OFA Michigan 501c4 dark money Brian Banks, Brian Banks PAC campaign finance violations, Bank on Banks PAC felon treasurer financial oversight"
 
 [taxonomies]
 actors = ["Brian Banks", "Joseph Holland", "Judge Tenisha Yancey", "Billy McKinney"]

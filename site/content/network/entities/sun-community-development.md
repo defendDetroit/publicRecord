@@ -6,7 +6,7 @@ date = 2026-09-20
 updated = 2026-09-24
 
 [extra]
-keywords = "Sun Community Development Corp, Sun Community Development Brian Banks, Sun Community Development Detroit, Brian Banks community development, 1968 Severn Road entities"
+keywords = "Sun Community Development Corp, Sun Community Development Brian Banks, Sun Community Development Detroit, Brian Banks community development, 1968 Severn Road entities, Sun Community Development Corp LARA 803232314, Sun Community Development 1968 Severn Road Grosse Pointe Woods, Sun Community Development convicted felon community nonprofit"
 
 [taxonomies]
 actors = ["Brian Banks", "Joseph Holland", "Sherry Gay-Dagnogo"]

@@ -6,7 +6,7 @@ date = 2026-09-20
 updated = 2026-09-24
 
 [extra]
-keywords = "Billy McKinney Detroit, Darryl Banks Jr campaign payment, McKinney Banks family, Billy McKinney political operative Detroit, Donavan McKinney City Council, McKinney campaign finance TransparencyUSA"
+keywords = "Billy McKinney Detroit, Darryl Banks Jr campaign payment, McKinney Banks family, Billy McKinney political operative Detroit, Donavan McKinney City Council, McKinney campaign finance TransparencyUSA, Donavan Billy McKinney Detroit City Council District 6, Billy McKinney $4483 Darryl Banks Jr payment, McKinney campaign Banks family linked vendors, Billy McKinney elected November 2021 special election, Billy McKinney Nicole Small Banks associate"
 
 [taxonomies]
 actors = ["Billy McKinney", "Brian Banks", "Joseph Holland", "Judge Tenisha Yancey", "Sherry Gay-Dagnogo"]

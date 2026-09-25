@@ -5,7 +5,7 @@ sort_by = "weight"
 weight = 3
 
 [extra]
-keywords = "Detroit charter school RICO, Banks enterprise pattern, institutional capture Detroit, Detroit corruption analysis, charter school racketeering pattern, Wayne County judicial capture, 18 USC 1961 charter school, allied cases Wayne County, Bowles v Sabree class action"
+keywords = "Detroit charter school RICO, Banks enterprise pattern, institutional capture Detroit, Detroit corruption analysis, charter school racketeering pattern, Wayne County judicial capture, 18 USC 1961 charter school, allied cases Wayne County, Bowles v Sabree class action, Brian Banks RICO predicate acts 14 years, Purpose Group LLC extraction engine analysis, institutional capture nine judges four courts Detroit, Detroit charter school corruption convicted felon superintendent, Wayne County judicial misconduct pattern, charter school financial extraction analysis, Brian Banks enterprise structure documented"
 +++
 
 Analysis of the documented patterns connecting convicted felons, captured courts, political offices, and public education dollars in Detroit. Every pattern is sourced from public records.

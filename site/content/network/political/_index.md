@@ -5,7 +5,7 @@ weight = 3
 sort_by = "weight"
 
 [extra]
-keywords = "Detroit political enablers Brian Banks, Sherry Gay-Dagnogo DPSCD, Billy McKinney Detroit, Eric Sabree Wayne County Treasurer, charter school political authorization, Detroit charter school board members, Wayne County Land Bank, DPSCD charter authorization Brian Banks, Congressional Black Caucus Detroit charter school"
+keywords = "Detroit political enablers Brian Banks, Sherry Gay-Dagnogo DPSCD, Billy McKinney Detroit, Eric Sabree Wayne County Treasurer, charter school political authorization, Detroit charter school board members, Wayne County Land Bank, DPSCD charter authorization Brian Banks, Congressional Black Caucus Detroit charter school, Sherry Gay-Dagnogo ombudsman Detroit 10 year term, Eric Sabree FBI probed endorsed Judge Miller, Wayne County Democratic Party Black Caucus charter school, DPSCD board authorized convicted felon superintendent, Gay-Dagnogo development team Purpose Charter Academy, political authorization feedback loop Detroit charter"
 +++
 
 Political figures who enabled the Banks charter school enterprise through authorization, campaign payments, institutional cover, and Congressional Black Caucus event participation.

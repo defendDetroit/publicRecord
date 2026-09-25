@@ -6,7 +6,7 @@ date = 2026-09-20
 updated = 2026-09-24
 
 [extra]
-keywords = "Inner Link Graphics, Inner Link Graphics Tenisha Yancey, Inner Link Graphics Detroit, Inner Link Graphics campaign finance, Banks network vendors"
+keywords = "Inner Link Graphics, Inner Link Graphics Tenisha Yancey, Inner Link Graphics Detroit, Inner Link Graphics campaign finance, Banks network vendors, Inner Link Graphics Larry Thomas Jr Southfield, Inner Link Graphics $8025 Yancey campaign, The Inner Link LLC 17515 W Nine Mile Rd Southfield, Inner Link Graphics printing promotions judges campaign"
 
 [taxonomies]
 actors = ["Judge Tenisha Yancey", "Judge Adam Sabree", "Judge Sean Perkins"]

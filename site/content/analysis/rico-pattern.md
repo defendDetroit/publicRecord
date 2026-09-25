@@ -6,7 +6,7 @@ date = 2026-09-20
 updated = 2026-09-24
 
 [extra]
-keywords = "Detroit RICO pattern, Brian Banks RICO, charter school racketeering, 18 USC 1961, mail fraud charter school, wire fraud Detroit, money laundering Purpose Group LLC, Detroit charter school enterprise, Banks enterprise predicate acts"
+keywords = "Detroit RICO pattern, Brian Banks RICO, charter school racketeering, 18 USC 1961, mail fraud charter school, wire fraud Detroit, money laundering Purpose Group LLC, Detroit charter school enterprise, Banks enterprise predicate acts, Brian Banks RICO 6 predicate acts 14 years, Purpose Group LLC money laundering extraction, Brian Banks Dr J.D. Ph.D. RICO enterprise leader, charter school racketeering convicted felon superintendent, 18 USC 1961 Purpose Charter Academy MacDowell, Brian Banks Pahara Fellow RICO predicate, Detroit charter school $4.9M annual extraction, RICO pattern education leader convicted felon, federal master packet 8 agencies September 2026"
 
 [taxonomies]
 actors = ["Brian Banks", "Joseph Holland", "OD Banks", "Judge Cylenthia Miller", "Judge Aliyah Sabree", "Judge Tenisha Yancey", "Judge David Perkins"]

@@ -5,7 +5,7 @@ weight = 4
 sort_by = "weight"
 
 [extra]
-keywords = "Brian Banks entities, Detroit charter school shell companies, Purpose Group LLC, Purpose Foundation, Banks Strategy LLC, purpose charter academy entity map, Brian Banks 9 entities Grosse Pointe Woods"
+keywords = "Brian Banks entities, Detroit charter school shell companies, Purpose Group LLC, Purpose Foundation, Banks Strategy LLC, purpose charter academy entity map, Brian Banks 9 entities Grosse Pointe Woods, Brian Banks 1968 Severn Road entities all same address, Purpose Charter Academy Purpose Group LLC Purpose Foundation, Banks Strategy Consultants judge payments, Anchor Rock Foundation Cylenthia Miller dissolved, Serenity Guardianship UPL unauthorized practice law, City Hill Church Sun Community Development Banks, charter school management company convicted felon sole member, Brian Banks shell entity network Grosse Pointe Woods affluent suburb"
 +++
 
 Banks controls a web of entities, all registered to **1968 Severn Road, Grosse Pointe Woods, MI 48236** — his personal residence in an affluent suburb, while his schools serve Detroit's poorest children.

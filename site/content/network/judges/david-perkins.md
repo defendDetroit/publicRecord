@@ -6,7 +6,7 @@ date = 2026-09-20
 updated = 2026-09-24
 
 [extra]
-keywords = "David Perkins, David Perkins judge, David Perkins Wayne County, David Perkins Detroit, David Perkins Brian Banks, David Perkins Serenity Guardianship, David Perkins Wayne County Probate, David Perkins family donations Banks"
+keywords = "David Perkins, David Perkins judge, David Perkins Wayne County, David Perkins Detroit, David Perkins Brian Banks, David Perkins Serenity Guardianship, David Perkins Wayne County Probate, David Perkins family donations Banks, David Perkins Chief Judge Pro Tem Probate Court, David Perkins 36th District Court 2014 2018, David Perkins guardianship jurisdiction Banks UPL, David Perkins Todd Perkins Sean Perkins surname, David Perkins Probate Court Serenity Guardianship Services"
 
 [taxonomies]
 actors = ["Judge David Perkins", "Brian Banks", "Todd Perkins", "Judge Sean Perkins", "Judge Tenisha Yancey", "Judge Adam Sabree"]

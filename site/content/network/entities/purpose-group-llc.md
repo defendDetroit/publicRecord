@@ -6,7 +6,7 @@ date = 2026-09-20
 updated = 2026-09-24
 
 [extra]
-keywords = "Purpose Group LLC, Purpose Group Michigan, Purpose Group Brian Banks, charter school management company Detroit, Purpose Group LLC Detroit schools, Purpose Group 72 percent revenue, Purpose Group LLC Brian Banks sole member"
+keywords = "Purpose Group LLC, Purpose Group Michigan, Purpose Group Brian Banks, charter school management company Detroit, Purpose Group LLC Detroit schools, Purpose Group 72 percent revenue, Purpose Group LLC Brian Banks sole member, The Purpose Group LLC charter management organization CMO, Purpose Group LLC LARA 803295082, Purpose Group LLC filed November 2024, Purpose Group LLC Gary Perlmuter organizing attorney, Purpose Group LLC Grosse Pointe Woods, Purpose Group LLC $4285201 extraction MacDowell, Purpose Group LLC 72.67 percent all school revenue, Purpose Group LLC sole member convicted felon 9 convictions, Purpose Group LLC management MacDowell Purpose Charter Academy, Purpose Group LLC no independent governance"
 
 [taxonomies]
 actors = ["Brian Banks", "Joseph Holland"]

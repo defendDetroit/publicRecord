@@ -1,12 +1,12 @@
 +++
 title = "MacDowell Preparatory Academy — Financial Extraction"
-description = "MacDowell Preparatory Academy Detroit — convicted felon superintendent Brian Banks, $4.9M revenue, 3% math proficiency, 72.67% to Purpose Group LLC."
+description = "MacDowell Preparatory Academy Detroit — K-8 charter school, 4201 West Outer Drive. Dr. Brian Banks superintendent (9 convictions, 6 felony). 3% math proficiency, bottom 50% Michigan. Purpose Group LLC extracts 72.67% of $4.9M revenue."
 weight = 2
 date = 2026-09-20
 updated = 2026-09-24
 
 [extra]
-keywords = "MacDowell Preparatory Academy, MacDowell Prep Detroit, MacDowell charter school, MacDowell Preparatory Academy Brian Banks, MacDowell Preparatory Academy test scores, MacDowell Preparatory Academy board, Purpose Group Michigan LLC, DPSCD charter school Detroit, MacDowell Preparatory Academy math proficiency, MacDowell Preparatory Academy superintendent felony, MacDowell Detroit 3 percent math, MacDowell Purpose Group extraction"
+keywords = "MacDowell Preparatory Academy, MacDowell Prep Detroit, MacDowell charter school, MacDowell Preparatory Academy Brian Banks, MacDowell Preparatory Academy test scores, MacDowell Preparatory Academy board, Purpose Group Michigan LLC, DPSCD charter school Detroit, MacDowell Preparatory Academy math proficiency, MacDowell Preparatory Academy superintendent felony, MacDowell Detroit 3 percent math, MacDowell Purpose Group extraction, MacDowell Preparatory Academy enrollment, MacDowell Preparatory Academy reviews, MacDowell Preparatory Academy 4201 West Outer Drive Detroit, MacDowell Preparatory Academy college readiness, MacDowell Preparatory Academy college preparatory school, MPA Detroit K-8 charter school, MacDowell Preparatory Academy GreatSchools rating 4 out of 10, MacDowell Preparatory Academy Niche rating, MacDowell Preparatory Academy bottom 50 percent Michigan, MacDowell Preparatory Academy SchoolDigger ranked 2941 of 3025, MacDowell Preparatory Academy 3 percent math 12 percent reading, MacDowell Preparatory Academy 72 percent revenue Purpose Group, MacDowell Preparatory Academy 368 students PK-8, MacDowell Preparatory Academy Dr Banks superintendent convicted felon, MacDowell Preparatory Academy Mustang, MacDowell Preparatory Academy SKILL and WILL, MacDowell Preparatory Academy established 1924, MacDowell Preparatory Academy 313-494-8141, MacDowell Preparatory Academy CMU Central Michigan University authorized, MacDowell Preparatory Academy $4.9M state aid public funding, macdowellprep.com superintendent criminal record"
 
 [taxonomies]
 actors = ["Brian Banks", "Judge Tenisha Yancey", "Joseph Holland"]

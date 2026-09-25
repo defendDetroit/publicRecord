@@ -5,7 +5,7 @@ weight = 5
 sort_by = "weight"
 
 [extra]
-keywords = "Purpose Group LLC attorney, charter school authorization Michigan, Baker College Brian Banks, CMU charter school, Gary Perlmuter Purpose Group LLC, Jehan Crump-Gibson Purpose Foundation, Baker College Brian Banks faculty, CMU MacDowell charter authorization, MSU Law Brian Banks JD unverified, Todd Perkins attorney Detroit, Perkins Law Group Brian Banks"
+keywords = "Purpose Group LLC attorney, charter school authorization Michigan, Baker College Brian Banks, CMU charter school, Gary Perlmuter Purpose Group LLC, Jehan Crump-Gibson Purpose Foundation, Baker College Brian Banks faculty, CMU MacDowell charter authorization, MSU Law Brian Banks JD unverified, Todd Perkins attorney Detroit, Perkins Law Group Brian Banks, Todd Perkins neighborhood mayor Dartmouth attorney, Todd Perkins perkinsforthepeople.com Brian Banks personal lawyer, Gary Perlmuter liability shields convicted felon sole member, Jehan Crump-Gibson Attorney In Fact Purpose Foundation two felons, Baker College adjunct faculty Brian Banks unverified JD, CMU Central Michigan University authorized MacDowell convicted felon superintendent, professional infrastructure charter school racketeering"
 +++
 
 ## Attorneys

@@ -5,7 +5,7 @@ weight = 1
 sort_by = "weight"
 
 [extra]
-keywords = "Brian Banks convicted felon, Joseph Holland drug conviction, Detroit charter school enterprise principals, Purpose Charter Academy superintendent criminal record, Brian Banks 9 convictions 6 felony, Joseph Holland MDOC 443789, Banks Holland co-resident Grosse Pointe Woods"
+keywords = "Brian Banks convicted felon, Joseph Holland drug conviction, Detroit charter school enterprise principals, Purpose Charter Academy superintendent criminal record, Brian Banks 9 convictions 6 felony, Joseph Holland MDOC 443789, Banks Holland co-resident Grosse Pointe Woods, Dr Brian Banks J.D. Ph.D. criminal record, Brian Banks Pahara Fellow convicted, Brian Banks education leader felon, Brian Banks superintendent MacDowell criminal history, Joseph Holland Purpose Foundation Secretary Treasurer convicted, Brian Banks Joseph Holland 1968 Severn Road, Brian Banks Chief Academic Officer convicted felon"
 +++
 
 The two convicted felons who control every position of power across the enterprise.

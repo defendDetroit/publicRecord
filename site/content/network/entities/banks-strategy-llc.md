@@ -6,7 +6,7 @@ date = 2026-09-20
 updated = 2026-09-24
 
 [extra]
-keywords = "Banks Strategy Consultants, Banks Strategy LLC, judge campaign payments, Yancey Banks Strategy, Banks Strategy LLC judge payments, Banks Strategy campaign finance, Banks Strategy Cylenthia Miller Tenisha Yancey"
+keywords = "Banks Strategy Consultants, Banks Strategy LLC, judge campaign payments, Yancey Banks Strategy, Banks Strategy LLC judge payments, Banks Strategy campaign finance, Banks Strategy Cylenthia Miller Tenisha Yancey, Banks Strategy and Consultants LLC LARA 802070120, Banks Strategy LLC Brian Banks sole member, Banks Strategy LLC judge campaign payments sitting judges, Banks Strategy LLC $383.82 Tenisha Yancey, Banks Strategy LLC chronic administrative neglect, Banks Strategy LLC lost good standing batch filed, Banks Strategy consultant convicted felon 9 convictions"
 
 [taxonomies]
 actors = ["Brian Banks", "Judge Tenisha Yancey"]

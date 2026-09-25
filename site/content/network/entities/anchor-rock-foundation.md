@@ -6,7 +6,7 @@ date = 2026-09-20
 updated = 2026-09-24
 
 [extra]
-keywords = "Anchor Rock Foundation, Anchor Rock Foundation Brian Banks, Anchor Rock Foundation Cylenthia Miller, Anchor Rock Foundation LARA, Anchor Rock Foundation dissolved, Detroit charter school nonprofit"
+keywords = "Anchor Rock Foundation, Anchor Rock Foundation Brian Banks, Anchor Rock Foundation Cylenthia Miller, Anchor Rock Foundation LARA, Anchor Rock Foundation dissolved, Detroit charter school nonprofit, Anchor Rock Foundation LARA 802394934 dissolved, Anchor Rock Foundation Judge Cylenthia Miller Board Chair, Anchor Rock Foundation sitting judge convicted felon entity, Keep Judge Miller Anchor Rock Foundation board chair"
 
 [taxonomies]
 actors = ["Judge Cylenthia Miller", "Brian Banks", "Joseph Holland"]

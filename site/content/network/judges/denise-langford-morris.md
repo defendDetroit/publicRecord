@@ -6,7 +6,7 @@ date = 2026-09-20
 updated = 2026-09-24
 
 [extra]
-keywords = "Denise Langford Morris judge, Denise Langford Morris retired, Denise Langford Morris Oakland County, Denise Langford Morris Brian Banks book, Denise Langford Morris foreword, Denise Langford Morris JAMS, Langford Morris Oakland County Circuit, Denise Langford Morris NBA Hall of Fame 2025, Denise Langford Morris assistant US attorney, Denise Langford Morris first African American Oakland County, Denise Langford Morris Cornell University"
+keywords = "Denise Langford Morris judge, Denise Langford Morris retired, Denise Langford Morris Oakland County, Denise Langford Morris Brian Banks book, Denise Langford Morris foreword, Denise Langford Morris JAMS, Langford Morris Oakland County Circuit, Denise Langford Morris NBA Hall of Fame 2025, Denise Langford Morris assistant US attorney, Denise Langford Morris first African American Oakland County, Denise Langford Morris Cornell University, Denise Langford Morris wrote foreword It Had 2 Happen, Denise Langford Morris legitimized Brian Banks fake J.D., Denise Langford Morris JAMS mediator Detroit, Denise Langford Morris 30 years Oakland County bench, Denise Langford Morris P34884 State Bar Michigan, Denise Langford Morris credential legitimizer Banks"
 
 [taxonomies]
 actors = ["Judge Denise Langford Morris", "Brian Banks", "Judge Vonda Evans"]
