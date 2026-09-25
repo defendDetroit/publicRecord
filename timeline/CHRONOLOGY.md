@@ -110,8 +110,8 @@
 |------|-------|--------|------------|
 | Sep 17 | Motion for Alternative Service filed — Ingham County | Court records | high |
 | Sep 17 | OIG Supplement filed re: forgery evidence | OIG | high |
-| Sep 18 | **6-channel service blast on Banks** (certified restricted delivery mail, first-class mail ×2 locations, fax ×2 numbers, email) | Service affidavit | high |
-| Sep 18 | Banks PPO: all 6 channels produce evidence of evasion — coordinated, not accidental | Service log | high |
+| Sep 18 | **Multi-channel service blast on Banks** — certified restricted delivery mail, first-class mail ×2 locations, fax (PCA), email | Service affidavit | high |
+| Sep 18 | Banks PPO: all channels produce evidence of evasion — coordinated, not accidental | Service log | high |
 | Sep 18–19 | Banks hosts CBC Reception at Kitchen + Kocktails, DC — **while evading service** | Eventbrite | high |
 | Sep 19 | BK attorney notifications sent (Sandweiss for Marquita 26-47542; Moran for Simone 26-49404) | Email | high |
 | Sep 19 | Demand letters prepared for all defendants | Case files | high |
