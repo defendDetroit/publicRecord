@@ -1,7 +1,7 @@
 # Banks Network — Actor Map
 
 **Last updated:** September 25, 2026
-**Total documented actors:** 21+ individuals, 7 judges, across 4 courts
+**Total documented actors:** 25+ individuals, 7 judges, across 4 courts
 **Data layers:** OSINT (Layer 1) + MDE FOIA (Layer 2, received Sep 25)
 
 ---
@@ -82,8 +82,12 @@
 ## Tier 7: FOIA-Revealed Actors (Layer 2 — Confirmed Sep 25, 2026)
 | Actor | Role | Connection | Source |
 |-------|------|------------|--------|
-| **Nicole Wells-Stallworth** | MacDowell Board President (since ≥2014) | Received MDE investigation letter Feb 2022. Personal email: ms_nicwells@yahoo.com. Phone: (313) 494-8141 | MDE EEM + Investigation Letter |
-| **Katie Schmiedeknecht** | MDE Analyst, Data & Accountability Unit, OEE | Sent investigation letter, Qualtrics survey. Then sent "no investigation" clearance email. SchmiedeknechtK@michigan.gov | MDE Investigation files |
+| **Nicole Wells-Stallworth** | MacDowell Board President (since ≥2014) | Received MDE investigation letter Feb 2022. Looped in attorney within 14 min. nicolewellsstallworth@gmail.com, nwellsstallworth@macdowellprep.com | MDE EEM + .msg emails |
+| **Katie Schmiedeknecht** | MDE Analyst, Data & Accountability Unit, OEE | Sent investigation letter 8:26 AM, then killed investigation at 10:50 AM same morning: "no need for investigation" if Banks not in credentialed role. SchmiedeknechtK@michigan.gov | .msg emails |
+| **Leah Breen** | MDE official | Feb 22, 2022: explicitly told school to pause Banks' employment — "he does not hold a valid credential, the Academy is out of compliance with law." BreenL1@michigan.gov | .msg email |
+| **Gregory M. Meihn** | Partner, **Foley & Mansfield PLLP** (national law firm) | Retained by Wells-Stallworth at 8:40 AM — responded by 9:13 AM: "I have not fix for this." 130 E Nine Mile, Ferndale MI 48220, (248) 721-8183 | .msg email |
+| **Reginald B. Scott II** | Unknown prior role at MacDowell | CC'd Feb 22 email. Being REMOVED from MOECS access. eotogroup@gmail.com. Was he the prior authorized rep? | .msg email |
+| **Alexandria Daniels** | MacDowell staff | CC'd Feb 22 email. adaniels@macdowellprep.com | .msg email |
 | **David Head** | MDE FOIA Coordinator | Processed and released FOIA documents Sep 25. HeadD1@michigan.gov | MDE FOIA Response |
 | **Jennifer Cook** | MDE (role TBD) | CC'd on FOIA response. CookJ9@michigan.gov | MDE FOIA Response |
 

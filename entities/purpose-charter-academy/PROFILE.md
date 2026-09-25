@@ -49,6 +49,32 @@ Per Chalkbeat (Sep 2025):
 - **The pipeline:** K-8 basketball programs (ages 10-14) → high school athletes → Perkins' sports agency clients
 - Perkins' NBPA certification (2017) **predates** PCA (2025) — the recruitment infrastructure was waiting
 
+## Management Agreement (FOIA — OCR'd from 17-page scanned PDF, Aug 13, 2025)
+
+| Field | Value | Source |
+|-------|-------|--------|
+| Parties | **The Purpose Group, LLC** ↔ **Purpose Charter Academy** | Agreement p.1 |
+| Date | August 13, 2025 | Agreement p.1 |
+| Term | **Jul 1, 2026 – Jun 30, 2029** (3 years) | Section 2.1 |
+| Management Fee | **10% of Gross SSA** (+ 10% of grant funds if allowed) | Section 5.1(a) |
+| Cost Reimbursement | **ALL costs** — salaries, materials, supplies, food, transport, special ed | Section 5.3 |
+| Purpose Group Address | **1968 Severn Road, Grosse Pointe Woods, MI 48236** (= Banks' HOME) | Section 15.5 |
+| PCA Address | 10101 E. Canfield, Detroit, MI 48214 | Section 15.5 |
+| Section 5.2 Claim | "No Related Parties or Common Control" | **FACIALLY VIOLATED** — Banks is sole member of PG AND superintendent of PCA |
+| Section 8.7 | CAO shall be a Board Member — not Banks | Agreement p.9 |
+| Subcontracting limit | Cannot subcontract ≥20% of fee without Board approval | Section 3.4 |
+| Dispute resolution | Arbitration-only (AAA, Detroit) | Section 15.17 |
+| Personnel | All teachers/staff are Purpose Group employees, not Academy employees | Article IX |
+| Criminal checks | Management Company responsible for background checks on its employees | Section 9.3 |
+
+**⚠️ Section 5.2 "No Related Parties" is violated on its face:**
+Banks is simultaneously the sole member of Purpose Group LLC AND the superintendent of PCA.
+The agreement explicitly states "none of the voting power of the governing body of the Academy will be vested in Management Company." Banks controls both sides.
+
+**⚠️ The 10% fee is a floor, not a ceiling:**
+Section 5.3 allows Purpose Group to be reimbursed for ALL operating costs — salaries, materials, everything.
+So Purpose Group gets 10% fee PLUS 100% of all costs. This is how the total extraction reaches 72.67%+ of revenue.
+
 ## Key Facts
 - New school opened July 2025, serving at-risk Detroit youth
 - Same operator, same credential fraud, same network as MacDowell
@@ -57,6 +83,7 @@ Per Chalkbeat (Sep 2025):
 - DPSCD authorized this school despite calling Banks "untenable" in 2019
 - The school name includes "Law" — led by someone denied bar admission
 - **The K-8 grade range is not just educational — it's a basketball feeder system for the attorney's sports agency**
+- **Management agreement runs through Banks' home address and violates its own "no related parties" clause**
 
 ## Verify
 - PCA website: purposecharteracademy.com
