@@ -3,7 +3,7 @@ title = "Purpose Foundation — Two Felons, Four Positions"
 description = "501(c)(3) private foundation where two convicted felons hold all four officer positions. Banks: President + Director. Holland: Secretary + Treasurer."
 weight = 4
 date = 2026-09-20
-updated = 2026-09-24
+updated = 2026-09-25
 
 [extra]
 keywords = "Purpose Foundation, Purpose Foundation Detroit, Banks Holland nonprofit, private foundation fraud, Purpose Foundation Brian Banks Holland, Purpose Foundation two felons all positions, Purpose Foundation 501c3 no governance, Purpose Foundation LARA 803294855 EIN 33-3537910, Purpose Foundation filed December 2024, Purpose Foundation Grosse Pointe Woods, Purpose Foundation Jehan Crump-Gibson Attorney In Fact, Purpose Foundation Banks President Director Holland Secretary Treasurer, Purpose Foundation private 501c3 two convicted felons four positions, Purpose Foundation no independent oversight"

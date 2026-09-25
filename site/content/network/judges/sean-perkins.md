@@ -3,7 +3,7 @@ title = "Judge Sean Perkins — 36th District Court"
 description = "Judge Sean Perkins — 36th District Court. Brother of Todd Perkins, Brian Banks' personal attorney. Worked at Todd's firm before taking the bench."
 weight = 7
 date = 2026-09-20
-updated = 2026-09-24
+updated = 2026-09-25
 
 [extra]
 keywords = "Sean Perkins judge, Sean Perkins 36th District Court, Sean Perkins Todd Perkins brother, Sean Perkins Brian Banks attorney, Sean Perkins Detroit, Sean Perkins Wayne County, Perkins brothers Detroit judges, Sean Perkins Perkins Law Group, Sean Perkins Wayne State University, Sean Perkins Thomas M Cooley Law School, Sean Perkins UAW Local 387, Sean Perkins appointed Governor Whitmer 2021, Sean Perkins elected November 2022 term 2029, Sean Perkins brother Todd Perkins attorney Banks personal lawyer, Sean Perkins worked Perkins Law Group before bench, Sean Perkins Room 535 36th District Court, Sean Perkins replaced Judge B Pennie Millender"

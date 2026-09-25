@@ -3,7 +3,7 @@ title = "Judge Tenisha Yancey"
 description = "Judge Tenisha Yancey — 36th District Court. MacDowell board chair. $383.82 was her sole contribution and sole expenditure — all to Banks Strategy LLC."
 weight = 2
 date = 2026-09-20
-updated = 2026-09-24
+updated = 2026-09-25
 
 [extra]
 keywords = "Tenisha Yancey, Tenisha Yancey judge, Tenisha Yancey Wayne County 3rd Circuit Court, Tenisha Yancey MacDowell, Tenisha Yancey board chair, Tenisha Yancey Brian Banks, Tenisha Yancey campaign finance, Banks Strategy LLC, MacDowell Preparatory Academy board, Detroit judge charter school, Tenisha Yancey Wayne County Land Bank, Tenisha Yancey Harper Woods, Tenisha Yancey state representative HD-1, Tenisha Yancey Brian Banks successor, Tenisha R Yancey 36th District Court Detroit, Tenisha Yancey Eastern Michigan University, Tenisha Yancey University of Detroit Mercy School of Law, Tenisha Yancey $383.82 Banks Strategy Consultants, Tenisha Yancey campaign payment convicted felon, Tenisha Yancey MacDowell board chair convicted felon school, Tenisha Yancey 36th District Court Brian Banks payment, Tenisha Yancey Adam Sabree same election 2022, Committee to Elect Tenisha Yancey campaign finance, Tenisha Yancey Inner Link Graphics $8025, Tenisha Yancey former state representative charter school board"

@@ -3,7 +3,7 @@ title = "Purpose Charter Academy — K-8 Charter School"
 description = "Purpose Charter Academy School for Law & Public Service — K-8 charter, 10101 E. Canfield, Detroit. DPSCD-authorized. Founder Dr. Brian Banks (9 convictions, 6 felony). Development team includes Judge Cylenthia Miller."
 weight = 1
 date = 2026-09-20
-updated = 2026-09-24
+updated = 2026-09-25
 
 [extra]
 keywords = "Purpose Charter Academy, Purpose Charter Academy Detroit, PCA Detroit, Purpose Charter Academy Brian Banks, Purpose Charter Academy DPSCD, Purpose Charter Academy Law Public Service, charter school Detroit convicted felon, Purpose Charter Academy fraud, Purpose Charter Academy superintendent criminal record, DPSCD Brian Banks authorization, Purpose Charter Academy School for Law and Public Service enrollment, Purpose Charter Academy 10101 E Canfield Street Detroit 48214, Purpose Charter Academy enrollment 2026 2027, Purpose Charter Academy reviews parent, Purpose Charter Academy ambassadors, Purpose Charter Academy Kindergarten 8th grade Detroit east side, Purpose Charter Academy open enrollment January 2026, Purpose Charter Academy 313-767-3100, Purpose Charter Academy mission statement social justice civic engagement, Purpose Charter Academy double dose literacy, Purpose Charter Academy DPSCD authorized convicted felon superintendent, Purpose Charter Academy board Cylenthia Miller judge, Purpose Charter Academy development team convicted felon, Purpose Charter Academy Jehan Crump-Gibson Lamar Moreland, Purpose Charter Academy The Purpose Group management, Purpose Charter Academy PurposeCharterAcademy DetroitEducation, Purpose Charter Academy superintendent Dr Brian Banks criminal record"

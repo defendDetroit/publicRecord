@@ -3,7 +3,7 @@ title = "Network Matrices — Machine-Readable Graph Data"
 description = "Adjacency matrices showing who connects to whom, money flows, board memberships, and court assignments."
 weight = 99
 date = 2026-09-24
-updated = 2026-09-24
+updated = 2026-09-25
 
 [extra]
 keywords = "Detroit charter school network graph, Brian Banks network analysis, adjacency matrix corruption, money flow Detroit schools, judicial capture matrix, graph data Detroit investigation"

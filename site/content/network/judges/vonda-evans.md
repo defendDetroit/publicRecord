@@ -3,7 +3,7 @@ title = "Judge Vonda Evans (Retired) — Mentor"
 description = "Judge Vonda Evans (Retired) — 21-year Wayne County 3rd Circuit judge. Retired as JTC moved to suspend."
 weight = 8
 date = 2026-09-20
-updated = 2026-09-24
+updated = 2026-09-25
 
 [extra]
 keywords = "Vonda Evans judge, Vonda Evans retired, Vonda Evans Wayne County, Vonda Evans JTC, Vonda Evans Brian Banks mentor, Vonda Evans 3rd Circuit, Vonda Evans Detroit, Vonda Evans suspended, Vonda Evans attendance fraud, Vonda Evans JTC suspension retirement, Vonda Evans WXYZ investigation, Vonda Evans Operation Northern Hook, Vonda Evans Hall Makled law firm, Vonda Evans 21 year mentor Brian Banks convicted felon, Vonda Evans endorsed Banks despite criminal record, Vonda Evans retired avoid JTC suspension, Vonda Evans Vonda Law PLLC Southfield, Vonda Evans Thomas M Cooley Law School 1990, Vonda Evans Wayne County 3rd Circuit 1997 2019"

@@ -3,7 +3,7 @@ title = "Serenity Guardianship Services — UPL Red Flag"
 description = "Serenity Guardianship Services — dissolved entity run by convicted felon Brian Banks. Non-attorney running guardianship services = textbook UPL."
 weight = 8
 date = 2026-09-20
-updated = 2026-09-24
+updated = 2026-09-25
 
 [extra]
 keywords = "Serenity Guardianship Services, Serenity Guardianship Brian Banks, Serenity Guardianship UPL, unauthorized practice of law Detroit, Brian Banks guardianship, Wayne County Probate guardianship, Serenity Guardianship Services LARA 802290962 dissolved, Serenity Guardianship non-attorney Brian Banks guardianship services, Serenity Guardianship textbook unauthorized practice of law, Brian Banks 9 convictions running guardianship services, Wayne County Probate David Perkins Serenity jurisdiction"
