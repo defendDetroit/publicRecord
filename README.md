@@ -109,6 +109,11 @@ pattern/                    RICO pattern analysis
   ├── ALLIED_CASES.md          Related federal cases (Bowles, Metro Property, etc.)
   └── CBC_EVENTS.md            Congressional Black Caucus networking events
 
+specs/                      Technical specifications
+  ├── SITE_ARCHITECTURE.md    Site technology stack, URL routing, registries, endpoints
+  ├── BUILD_PIPELINE.md       detroit-build 7-step pipeline, modules, verification
+  └── EVIDENCE_PROVENANCE.md  Evidence depot pattern, provenance trio, convergence depth
+
 filings/                    Court filings, complaints, motions, federal packets
   ├── 2026-09-22_federal_master_packet.pdf   Unified 8-agency packet
   ├── 2026-09-22_journalist_briefing_packet.pdf
@@ -123,6 +128,28 @@ wronged/                    Institutions/individuals believed harmed by associat
 timeline/                   Chronological event summaries
 foia/                       FOIA requests and responses
 ```
+
+## Technical Specifications
+
+The `specs/` directory contains architecture and build documentation:
+
+| Spec | Purpose |
+|------|---------|
+| [SITE_ARCHITECTURE.md](specs/SITE_ARCHITECTURE.md) | Technology stack, URL routing, registries, epistemic grammar, machine-readable endpoints |
+| [BUILD_PIPELINE.md](specs/BUILD_PIPELINE.md) | `detroit-build` 7-step pipeline, modules, webhook integration, verification |
+| [EVIDENCE_PROVENANCE.md](specs/EVIDENCE_PROVENANCE.md) | Evidence depot pattern, SCP push protocol, provenance trio braid pipeline, convergence depth |
+
+### Machine-Readable Endpoints
+
+| Endpoint | Format | Purpose |
+|----------|--------|---------|
+| `/api/site.json` | JSON | Complete site structure, pages, taxonomies |
+| `/graph.json` | JSON | Network graph (43 nodes, 57 edges) |
+| `/llms.txt` | Markdown | AI agent context document |
+| `/content-manifest.toml` | TOML | BLAKE3 hashes of all content pages |
+| `/identity.json` | JSON | Schema.org structured data |
+| `/braids.json` | JSON | PROV-O braids for graph edges |
+| `/sitemap.xml` | XML | URL list for search engines |
 
 ## Key Documents
 
