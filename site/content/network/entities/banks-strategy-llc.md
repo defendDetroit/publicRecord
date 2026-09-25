@@ -1,6 +1,6 @@
 +++
 title = "Banks Strategy & Consultants LLC — Judge Payments"
-description = "Banks' consulting firm receives campaign payments from sitting judges. Chronic administrative neglect — lost good standing, batch-filed 3 overdue annual."
+description = "Banks Strategy LLC receives campaign payments from sitting judges. Lost good standing with LARA. Batch-filed 3 overdue annual reports in one day."
 weight = 5
 date = 2026-09-20
 updated = 2026-09-25

@@ -5,6 +5,8 @@ edition = "2024"
 rust-version = "1.85"
 description = "Unified build tool for detroit.primals.eco — all layers derive from the same source of truth"
 license = "AGPL-3.0-or-later"
+homepage = "https://detroit.primals.eco"
+repository = "https://git.primals.eco/publicRecord/detroit"
 
 [dependencies]
 blake3 = { version = "1.5", default-features = false, features = ["std"] }

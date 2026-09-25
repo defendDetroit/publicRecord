@@ -13,11 +13,16 @@
   <meta property="og:url" content="{{ current_url | default(value=config.base_url) }}">
   <meta property="og:site_name" content="Cash for Kids 2 — A Public Record">
   <meta property="og:image" content="{% block og_image %}{{ get_url(path='img/og-default.png') }}{% endblock og_image %}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Cash for Kids 2: A Public Record — Detroit charter school investigation">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{% block tw_title %}{{ config.title }}{% endblock tw_title %}">
   <meta name="twitter:description" content="{% block tw_desc %}{{ config.description }}{% endblock tw_desc %}">
+  <meta name="twitter:image" content="{% block tw_image %}{{ get_url(path='img/og-default.png') }}{% endblock tw_image %}">
   <meta name="keywords" content="{% block keywords %}Purpose Charter Academy, MacDowell Preparatory Academy, Brian Banks Detroit, Detroit charter school fraud, racketeering, public education, Black Mafia Family, BMF Detroit schools, charter school accountability{% endblock keywords %}">
   <link rel="describedby" href="{{ get_url(path='llms.txt') }}" type="text/plain" title="AI agent context">
+  <link rel="describedby" href="{{ get_url(path='identity.json') }}" type="application/json" title="Schema.org structured data">
   <script>
     // Theme toggle: default dark, respect saved preference, no flash
     (function(){

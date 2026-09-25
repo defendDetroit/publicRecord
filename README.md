@@ -1,4 +1,9 @@
 # Cash for Kids 2: A Public Record
+
+[![Live Site](https://img.shields.io/badge/Live_Site-detroit.primals.eco-blue?style=for-the-badge)](https://detroit.primals.eco)
+[![Forgejo](https://img.shields.io/badge/Forgejo-git.primals.eco-orange?style=for-the-badge)](https://git.primals.eco/publicRecord/detroit)
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC_BY--SA_4.0-lightgrey?style=for-the-badge)](https://creativecommons.org/licenses/by-sa/4.0/)
+
 ## Brian Banks Detroit Charter School Investigation — Public Evidence Library
 
 **Brian Roderick Banks** — 9 criminal convictions (6 felony, 3 misdemeanor), claimed J.D. never confirmed by the State Bar of Michigan (zero results), superintendent of **MacDowell Preparatory Academy** and founder of **Purpose Charter Academy** — two Detroit charter schools receiving **$4.9M+ in annual public funding**, with **72.67%** flowing to his private management company, **The Purpose Group LLC**.
@@ -143,13 +148,13 @@ The `specs/` directory contains architecture and build documentation:
 
 | Endpoint | Format | Purpose |
 |----------|--------|---------|
-| `/api/site.json` | JSON | Complete site structure, pages, taxonomies |
-| `/graph.json` | JSON | Network graph (43 nodes, 57 edges) |
-| `/llms.txt` | Markdown | AI agent context document |
-| `/content-manifest.toml` | TOML | BLAKE3 hashes of all content pages |
-| `/identity.json` | JSON | Schema.org structured data |
-| `/braids.json` | JSON | PROV-O braids for graph edges |
-| `/sitemap.xml` | XML | URL list for search engines |
+| [`/api/site.json`](https://detroit.primals.eco/api/site.json) | JSON | Complete site structure, pages, taxonomies |
+| [`/graph.json`](https://detroit.primals.eco/graph.json) | JSON | Network graph (43 nodes, 57 edges) |
+| [`/llms.txt`](https://detroit.primals.eco/llms.txt) | Markdown | AI agent context document |
+| [`/content-manifest.toml`](https://detroit.primals.eco/content-manifest.toml) | TOML | BLAKE3 hashes of all content pages |
+| [`/identity.json`](https://detroit.primals.eco/identity.json) | JSON | Schema.org structured data |
+| [`/braids.json`](https://detroit.primals.eco/braids.json) | JSON | PROV-O braids for graph edges |
+| [`/sitemap.xml`](https://detroit.primals.eco/sitemap.xml) | XML | URL list for search engines |
 
 ## Key Documents
 

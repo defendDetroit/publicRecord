@@ -3,7 +3,7 @@ title = "About This Investigation"
 description = "Independent public-records investigation: Brian Banks, Purpose Charter Academy, MacDowell Preparatory Academy, Wayne County judges."
 
 [extra]
-keywords = "Detroit charter school investigation, Brian Banks public records, ecoPrimals public record, Purpose Charter Academy investigation methodology, MacDowell investigation, Brian Banks J.D. Ph.D. State Bar zero results, Brian Banks Walden PhD public policy, Brian Banks MSU Law Juris Doctor unverified, Brian Banks Wayne State University criminal justice, Brian Banks superintendent credentials investigation, Purpose Charter Academy School for Law and Public Service review, MacDowell Preparatory Academy review parent, Brian Banks education leader public records, Detroit charter school superintendent criminal record background check, Purpose Charter Academy enrollment parent reviews, MacDowell Prep college readiness test scores, Brian Banks book It Had 2 Happen convicted felon author"
+keywords = "Cash for Kids 2 about, Detroit charter school investigation, public records investigation, Brian Banks investigation, ecoPrimals infrastructure, sovereign evidence, BLAKE3 evidence integrity, detroit.primals.eco"
 +++
 
 ## The Methodology

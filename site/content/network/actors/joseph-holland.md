@@ -1,6 +1,6 @@
 +++
 title = "Joseph Holland Jr. — Financial Gatekeeper"
-description = "Convicted drug offender (MDOC #443789, Controlled Substance — Possession). Discharged 'WITHOUT IMPROVEMENT."
+description = "Joseph Holland Jr. Convicted drug offender (MDOC #443789). Discharged WITHOUT IMPROVEMENT. Co-resident and financial officer for Banks charter schools."
 weight = 2
 date = 2026-09-20
 updated = 2026-09-25
