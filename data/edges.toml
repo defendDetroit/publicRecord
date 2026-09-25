@@ -1,7 +1,7 @@
 # Graph edges — source of truth for /graph.json and /graph.csv
 # Nodes derive from config.toml actor + entity registries.
 # Edges defined here. One [[edge]] per relationship.
-# Run scripts/build.py to regenerate all derived files.
+# Run `detroit-build` (crates/detroit-build/) to regenerate all derived files.
 
 [[edge]]
 source = "banks"

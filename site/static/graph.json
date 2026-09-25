@@ -1,7 +1,15 @@
 {
-  "_generated": "2026-09-25T11:26:21Z",
-  "_source": "Built by scripts/build.py from config.toml + data/edges.toml",
+  "_generated": "2026-09-25T12:06:30Z",
+  "_source": "Built by detroit-build from config.toml + data/edges.toml",
   "nodes": [
+    {
+      "id": "adam_sabree",
+      "label": "Judge Adam Sabree",
+      "type": "actor",
+      "tier": 2,
+      "role": "Judicial cover",
+      "page": "/network/judges/adam-sabree/"
+    },
     {
       "id": "banks",
       "label": "Brian Roderick Banks",
@@ -9,6 +17,22 @@
       "tier": 1,
       "role": "Enterprise leader",
       "page": "/network/actors/brian-banks/"
+    },
+    {
+      "id": "eric_sabree",
+      "label": "Eric Sabree",
+      "type": "actor",
+      "tier": 3,
+      "role": "Political enabler — family dynasty",
+      "page": "/network/political/eric-sabree/"
+    },
+    {
+      "id": "gay_dagnogo",
+      "label": "Sherry Gay-Dagnogo",
+      "type": "actor",
+      "tier": 3,
+      "role": "Political enabler — charter authorizer",
+      "page": "/network/political/sherry-gay-dagnogo/"
     },
     {
       "id": "holland",
@@ -19,28 +43,36 @@
       "page": "/network/actors/joseph-holland/"
     },
     {
+      "id": "kelly_ramsey",
+      "label": "Judge Kelly Ramsey",
+      "type": "actor",
+      "tier": 2,
+      "role": "Judicial cover",
+      "page": "/network/judges/kelly-ramsey/"
+    },
+    {
+      "id": "langford_morris",
+      "label": "Judge Denise Langford Morris (Retired)",
+      "type": "actor",
+      "tier": 2,
+      "role": "Judicial cover — credential legitimizer",
+      "page": "/network/judges/denise-langford-morris/"
+    },
+    {
+      "id": "mckinney",
+      "label": "Billy McKinney",
+      "type": "actor",
+      "tier": 3,
+      "role": "Political enabler — campaign operative",
+      "page": "/network/political/billy-mckinney/"
+    },
+    {
       "id": "miller",
       "label": "Judge Cylenthia Miller",
       "type": "actor",
       "tier": 2,
       "role": "Judicial cover",
       "page": "/network/judges/cylenthia-miller/"
-    },
-    {
-      "id": "yancey",
-      "label": "Judge Tenisha Yancey",
-      "type": "actor",
-      "tier": 2,
-      "role": "Judicial cover",
-      "page": "/network/judges/tenisha-yancey/"
-    },
-    {
-      "id": "sabree",
-      "label": "Judge Aliyah Sabree",
-      "type": "actor",
-      "tier": 2,
-      "role": "Judicial cover",
-      "page": "/network/judges/aliyah-sabree/"
     },
     {
       "id": "perkins_david",
@@ -51,12 +83,12 @@
       "page": "/network/judges/david-perkins/"
     },
     {
-      "id": "adam_sabree",
-      "label": "Judge Adam Sabree",
+      "id": "sabree",
+      "label": "Judge Aliyah Sabree",
       "type": "actor",
       "tier": 2,
       "role": "Judicial cover",
-      "page": "/network/judges/adam-sabree/"
+      "page": "/network/judges/aliyah-sabree/"
     },
     {
       "id": "sean_perkins",
@@ -67,232 +99,196 @@
       "page": "/network/judges/sean-perkins/"
     },
     {
-      "id": "kelly_ramsey",
-      "label": "Judge Kelly Ramsey",
+      "id": "todd_perkins",
+      "label": "Todd Perkins",
       "type": "actor",
-      "tier": 2,
-      "role": "Judicial cover",
-      "page": "/network/judges/kelly-ramsey/"
+      "tier": 4,
+      "role": "Professional enabler — attorney",
+      "page": "/network/professional-enablers/todd-perkins/"
     },
     {
       "id": "vonda_evans",
       "label": "Judge Vonda Evans (Retired)",
       "type": "actor",
       "tier": 2,
-      "role": "Judicial cover \u2014 mentor",
+      "role": "Judicial cover — mentor",
       "page": "/network/judges/vonda-evans/"
     },
     {
-      "id": "langford_morris",
-      "label": "Judge Denise Langford Morris (Retired)",
+      "id": "yancey",
+      "label": "Judge Tenisha Yancey",
       "type": "actor",
       "tier": 2,
-      "role": "Judicial cover \u2014 credential legitimizer",
-      "page": "/network/judges/denise-langford-morris/"
-    },
-    {
-      "id": "todd_perkins",
-      "label": "Todd Perkins",
-      "type": "actor",
-      "tier": 4,
-      "role": "Professional enabler \u2014 attorney",
-      "page": "/network/professional-enablers/todd-perkins/"
-    },
-    {
-      "id": "gay_dagnogo",
-      "label": "Sherry Gay-Dagnogo",
-      "type": "actor",
-      "tier": 3,
-      "role": "Political enabler \u2014 charter authorizer",
-      "page": "/network/political/sherry-gay-dagnogo/"
-    },
-    {
-      "id": "mckinney",
-      "label": "Billy McKinney",
-      "type": "actor",
-      "tier": 3,
-      "role": "Political enabler \u2014 campaign operative",
-      "page": "/network/political/billy-mckinney/"
-    },
-    {
-      "id": "eric_sabree",
-      "label": "Eric Sabree",
-      "type": "actor",
-      "tier": 3,
-      "role": "Political enabler \u2014 family dynasty",
-      "page": "/network/political/eric-sabree/"
-    },
-    {
-      "id": "pca",
-      "label": "Purpose Charter Academy",
-      "type": "entity",
-      "entity_type": "K-8 Charter School",
-      "lara_id": "",
-      "page": "/network/entities/purpose-charter-academy/"
-    },
-    {
-      "id": "macdowell",
-      "label": "MacDowell Preparatory Academy",
-      "type": "entity",
-      "entity_type": "K-8 Charter School",
-      "lara_id": "",
-      "page": "/network/entities/macdowell-prep/"
-    },
-    {
-      "id": "purpose_group",
-      "label": "The Purpose Group, LLC",
-      "type": "entity",
-      "entity_type": "Charter Management Organization (CMO)",
-      "lara_id": "803295082",
-      "page": "/network/entities/purpose-group-llc/"
-    },
-    {
-      "id": "purpose_foundation",
-      "label": "Purpose Foundation",
-      "type": "entity",
-      "entity_type": "Private 501(c)(3)",
-      "lara_id": "803294855",
-      "page": "/network/entities/purpose-foundation/"
-    },
-    {
-      "id": "banks_strategy",
-      "label": "Banks Strategy & Consultants LLC",
-      "type": "entity",
-      "entity_type": "Consulting LLC",
-      "lara_id": "802070120",
-      "page": "/network/entities/banks-strategy-llc/"
+      "role": "Judicial cover",
+      "page": "/network/judges/tenisha-yancey/"
     },
     {
       "id": "anchor_rock",
       "label": "Anchor Rock Foundation",
       "type": "entity",
+      "page": "/network/entities/anchor-rock-foundation/",
       "entity_type": "Dissolved 501(c)(3)",
-      "lara_id": "802394934",
-      "page": "/network/entities/anchor-rock-foundation/"
+      "lara_id": "802394934"
     },
     {
-      "id": "serenity",
-      "label": "Serenity Guardianship Services, Inc.",
+      "id": "banks_strategy",
+      "label": "Banks Strategy & Consultants LLC",
       "type": "entity",
-      "entity_type": "Dissolved \u2014 UPL red flag",
-      "lara_id": "802290962",
-      "page": "/network/entities/serenity-guardianship/"
+      "page": "/network/entities/banks-strategy-llc/",
+      "entity_type": "Consulting LLC",
+      "lara_id": "802070120"
     },
     {
       "id": "city_hill",
       "label": "City Hill Church",
       "type": "entity",
+      "page": "/network/entities/city-hill-church/",
       "entity_type": "Religious entity",
-      "lara_id": "802365641",
-      "page": "/network/entities/city-hill-church/"
-    },
-    {
-      "id": "sun_community",
-      "label": "Sun Community Development Corp",
-      "type": "entity",
-      "entity_type": "Community development nonprofit",
-      "lara_id": "803232314",
-      "page": "/network/entities/sun-community-development/"
+      "lara_id": "802365641"
     },
     {
       "id": "inner_link",
       "label": "Inner Link Graphics",
       "type": "entity",
-      "entity_type": "Campaign vendor",
-      "lara_id": "",
-      "page": "/network/entities/inner-link-graphics/"
+      "page": "/network/entities/inner-link-graphics/",
+      "entity_type": "Campaign vendor"
+    },
+    {
+      "id": "macdowell",
+      "label": "MacDowell Preparatory Academy",
+      "type": "entity",
+      "page": "/network/entities/macdowell-prep/",
+      "entity_type": "K-8 Charter School"
     },
     {
       "id": "pacs",
       "label": "Political Action Committees",
       "type": "entity",
-      "entity_type": "Campaign finance vehicles",
-      "lara_id": "",
-      "page": "/network/entities/political-action-committees/"
+      "page": "/network/entities/political-action-committees/",
+      "entity_type": "Campaign finance vehicles"
+    },
+    {
+      "id": "pca",
+      "label": "Purpose Charter Academy",
+      "type": "entity",
+      "page": "/network/entities/purpose-charter-academy/",
+      "entity_type": "K-8 Charter School"
+    },
+    {
+      "id": "purpose_foundation",
+      "label": "Purpose Foundation",
+      "type": "entity",
+      "page": "/network/entities/purpose-foundation/",
+      "entity_type": "Private 501(c)(3)",
+      "lara_id": "803294855"
+    },
+    {
+      "id": "purpose_group",
+      "label": "The Purpose Group, LLC",
+      "type": "entity",
+      "page": "/network/entities/purpose-group-llc/",
+      "entity_type": "Charter Management Organization (CMO)",
+      "lara_id": "803295082"
+    },
+    {
+      "id": "serenity",
+      "label": "Serenity Guardianship Services, Inc.",
+      "type": "entity",
+      "page": "/network/entities/serenity-guardianship/",
+      "entity_type": "Dissolved — UPL red flag",
+      "lara_id": "802290962"
+    },
+    {
+      "id": "sun_community",
+      "label": "Sun Community Development Corp",
+      "type": "entity",
+      "page": "/network/entities/sun-community-development/",
+      "entity_type": "Community development nonprofit",
+      "lara_id": "803232314"
     },
     {
       "id": "ag_office",
-      "label": "Ag Office",
+      "label": "ag office",
       "type": "institution"
     },
     {
       "id": "city_council",
-      "label": "City Council",
+      "label": "city council",
       "type": "institution"
     },
     {
       "id": "court_36th",
-      "label": "Court 36Th",
+      "label": "court 36th",
       "type": "institution"
     },
     {
       "id": "court_3rd",
-      "label": "Court 3Rd",
+      "label": "court 3rd",
       "type": "institution"
     },
     {
       "id": "court_oakland",
-      "label": "Court Oakland",
+      "label": "court oakland",
       "type": "institution"
     },
     {
       "id": "court_probate",
-      "label": "Court Probate",
+      "label": "court probate",
       "type": "institution"
     },
     {
       "id": "dpscd",
-      "label": "Dpscd",
+      "label": "dpscd",
       "type": "institution"
     },
     {
       "id": "evans",
-      "label": "Evans",
+      "label": "evans",
       "type": "institution"
     },
     {
       "id": "latisha_johnson",
-      "label": "Latisha Johnson",
+      "label": "latisha johnson",
       "type": "institution"
     },
     {
       "id": "moreland",
-      "label": "Moreland",
+      "label": "moreland",
       "type": "institution"
     },
     {
       "id": "od_banks",
-      "label": "Od Banks",
+      "label": "od banks",
       "type": "institution"
     },
     {
       "id": "ofa",
-      "label": "Ofa",
+      "label": "ofa",
       "type": "institution"
     },
     {
       "id": "perkins_d",
-      "label": "Perkins D",
+      "label": "perkins d",
       "type": "institution"
     },
     {
       "id": "perkins_sean",
-      "label": "Perkins Sean",
+      "label": "perkins sean",
       "type": "institution"
     },
     {
       "id": "ramsey",
-      "label": "Ramsey",
+      "label": "ramsey",
       "type": "institution"
     },
     {
       "id": "sabree_a",
-      "label": "Sabree A",
+      "label": "sabree a",
       "type": "institution"
     },
     {
       "id": "sabree_adam",
-      "label": "Sabree Adam",
+      "label": "sabree adam",
       "type": "institution"
     }
   ],
@@ -542,7 +538,7 @@
       "target": "banks",
       "type": "classmate",
       "epistemic_status": "record",
-      "note": "MSU Law 2010 \u2014 same year as Banks' claimed J.D.",
+      "note": "MSU Law 2010 — same year as Banks' claimed J.D.",
       "weight": 5,
       "source_doc": "Graduation records"
     },
@@ -721,7 +717,7 @@
       "type": "payment",
       "epistemic_status": "record",
       "amount": "4483",
-      "note": "Campaign \u2192 extended Banks family",
+      "note": "Campaign → extended Banks family",
       "weight": 5,
       "source_doc": "TransparencyUSA"
     },
@@ -739,7 +735,7 @@
       "target": "purpose_group",
       "type": "money_flow",
       "epistemic_status": "corroborated",
-      "note": "Management contract \u2014 per-pupil funding flows to CMO",
+      "note": "Management contract — per-pupil funding flows to CMO",
       "weight": 9
     },
     {
@@ -796,13 +792,13 @@
   "epistemic_grammar": {
     "description": "Every edge carries an epistemic status classifying the nature of the claim.",
     "statuses": {
-      "record": "Verifiable public record.",
-      "corroborated": "Independently confirmed by 2+ sources.",
-      "inference": "Analytical conclusion drawn from records.",
-      "allegation": "Formally alleged in complaint.",
-      "filed": "Submitted to agency/court.",
       "adjudicated": "Determined by court or agency.",
-      "corrected": "Previously published claim corrected."
+      "allegation": "Formally alleged in complaint.",
+      "corrected": "Previously published claim corrected.",
+      "corroborated": "Independently confirmed by 2+ sources.",
+      "filed": "Submitted to agency/court.",
+      "inference": "Analytical conclusion drawn from records.",
+      "record": "Verifiable public record."
     }
   }
 }
