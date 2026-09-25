@@ -1,0 +1,2117 @@
+{
+  "_comment": "Static site API for bots and agents. Auto-generated \u2014 do not edit.",
+  "meta": {
+    "generator": "detroit-site-api/1.0",
+    "generated": "2026-09-25T11:06:31Z",
+    "base_url": "https://detroit.primals.eco",
+    "title": "Cash for Kids 2: A Public Record",
+    "total_sections": 18,
+    "total_pages": 32,
+    "total_words": 21174,
+    "total_taxonomy_terms": 44
+  },
+  "endpoints": {
+    "human": {
+      "homepage": "https://detroit.primals.eco/",
+      "search": "Built-in elasticlunr full-text search in nav bar",
+      "atom_feed": "https://detroit.primals.eco/atom.xml"
+    },
+    "machine": {
+      "site_api": "https://detroit.primals.eco/api/site.json",
+      "network_graph_json": "https://detroit.primals.eco/graph.json",
+      "network_graph_csv": "https://detroit.primals.eco/graph.csv",
+      "sitemap_xml": "https://detroit.primals.eco/sitemap.xml",
+      "llms_index": "https://detroit.primals.eco/llms.txt",
+      "llms_full_content": "https://detroit.primals.eco/llms-full.txt",
+      "content_manifest": "https://detroit.primals.eco/content-manifest.toml",
+      "robots_txt": "https://detroit.primals.eco/robots.txt"
+    }
+  },
+  "epistemic_grammar": {
+    "claim_levels": {
+      "record": "Verifiable public fact from a government database or official document.",
+      "corroborated": "Independently confirmed by 2+ sources.",
+      "inference": "Analytical conclusion drawn from records. Not adjudicated.",
+      "allegation": "Formally alleged in complaint. Awaiting determination.",
+      "filed": "Submitted to agency or court. Pending.",
+      "adjudicated": "Determined by court or agency.",
+      "corrected": "Previously published claim corrected."
+    },
+    "principle": "Record \u2192 Corroborated \u2192 Inference \u2192 Allegation \u2192 Filed \u2192 Adjudicated"
+  },
+  "sections": {
+    "/": {
+      "type": "section",
+      "path": "/",
+      "url": "https://detroit.primals.eco/",
+      "title": "Cash for Kids 2: A Public Record",
+      "description": "Public evidence library documenting racketeering in Detroit charter schools. 9 convictions. 9 judges. $4.9M in public funding.",
+      "word_count": 0,
+      "pages": [],
+      "subsections": [
+        "/about/",
+        "/analysis/",
+        "/books/",
+        "/contact/",
+        "/evidence/",
+        "/legal/",
+        "/network/",
+        "/open-letters/",
+        "/site-index/",
+        "/sources/",
+        "/timeline/",
+        "/validate/"
+      ]
+    },
+    "/about/": {
+      "type": "section",
+      "path": "/about/",
+      "url": "https://detroit.primals.eco/about/",
+      "title": "About This Investigation",
+      "description": "Independent public-records investigation: Brian Banks, Purpose Charter Academy, MacDowell Preparatory Academy, Wayne County judges.",
+      "word_count": 415,
+      "pages": [],
+      "subsections": []
+    },
+    "/analysis/": {
+      "type": "section",
+      "path": "/analysis/",
+      "url": "https://detroit.primals.eco/analysis/",
+      "title": "Pattern Analysis",
+      "description": "RICO pattern, institutional capture, and allied cases \u2014 how the Banks charter school enterprise operates as a documented network across schools, courts,.",
+      "word_count": 135,
+      "pages": [
+        "/analysis/allied-cases/",
+        "/analysis/cbc-events/",
+        "/analysis/institutional-capture/",
+        "/analysis/rico-pattern/"
+      ],
+      "subsections": []
+    },
+    "/books/": {
+      "type": "section",
+      "path": "/books/",
+      "url": "https://detroit.primals.eco/books/",
+      "title": "Book Analysis: Zero Victims, Zero Remorse",
+      "description": "Brian Banks autobiography and Tonesa Welch BMF book analysis \u2014 zero victims named, zero accountability. Credential fraud vs LinkedIn J.D. Ph.D. claims.",
+      "word_count": 96,
+      "pages": [],
+      "subsections": []
+    },
+    "/contact/": {
+      "type": "section",
+      "path": "/contact/",
+      "url": "https://detroit.primals.eco/contact/",
+      "title": "Contact",
+      "description": "Corrections, contact, and secure communication for anyone named on this site, harmed parties, media, and whistleblowers.",
+      "word_count": 466,
+      "pages": [],
+      "subsections": []
+    },
+    "/evidence/": {
+      "type": "section",
+      "path": "/evidence/",
+      "url": "https://detroit.primals.eco/evidence/",
+      "title": "Evidence Library",
+      "description": "Public-record evidence documenting the Detroit charter school network. Financial analysis, credential questions, criminal records, documented connections,.",
+      "word_count": 600,
+      "pages": [],
+      "subsections": []
+    },
+    "/legal/": {
+      "type": "section",
+      "path": "/legal/",
+      "url": "https://detroit.primals.eco/legal/",
+      "title": "Legal Protections",
+      "description": "This site is protected by the First Amendment, Michigan's anti-SLAPP law (UPEPA), the fair report privilege, and the absolute defense of truth.",
+      "word_count": 1481,
+      "pages": [],
+      "subsections": []
+    },
+    "/network/": {
+      "type": "section",
+      "path": "/network/",
+      "url": "https://detroit.primals.eco/network/",
+      "title": "The Network",
+      "description": "The Banks Network \u2014 documented connections spanning charter schools, courts, political offices, and nonprofit entities in Detroit.",
+      "word_count": 507,
+      "pages": [
+        "/network/matrices/"
+      ],
+      "subsections": [
+        "/network/actors/",
+        "/network/entities/",
+        "/network/judges/",
+        "/network/political/",
+        "/network/professional-enablers/"
+      ]
+    },
+    "/network/actors/": {
+      "type": "section",
+      "path": "/network/actors/",
+      "url": "https://detroit.primals.eco/network/actors/",
+      "title": "Enterprise Principals",
+      "description": "Brian Roderick Banks and Joseph Holland Jr \u2014 the two convicted felons who control all positions across the charter school racketeering enterprise.",
+      "word_count": 143,
+      "pages": [
+        "/network/actors/brian-banks/",
+        "/network/actors/joseph-holland/"
+      ],
+      "subsections": []
+    },
+    "/network/entities/": {
+      "type": "section",
+      "path": "/network/entities/",
+      "url": "https://detroit.primals.eco/network/entities/",
+      "title": "Entity Profiles",
+      "description": "9+ entities controlled by Brian Banks \u2014 charter schools, management companies, nonprofits, PACs, and churches.",
+      "word_count": 261,
+      "pages": [
+        "/network/entities/anchor-rock-foundation/",
+        "/network/entities/banks-strategy-llc/",
+        "/network/entities/city-hill-church/",
+        "/network/entities/inner-link-graphics/",
+        "/network/entities/macdowell-prep/",
+        "/network/entities/political-action-committees/",
+        "/network/entities/purpose-charter-academy/",
+        "/network/entities/purpose-foundation/",
+        "/network/entities/purpose-group-llc/",
+        "/network/entities/serenity-guardianship/",
+        "/network/entities/sun-community-development/"
+      ],
+      "subsections": []
+    },
+    "/network/judges/": {
+      "type": "section",
+      "path": "/network/judges/",
+      "url": "https://detroit.primals.eco/network/judges/",
+      "title": "Judicial Cover",
+      "description": "Seven Wayne County judges with documented connections to the Banks charter school enterprise \u2014 board memberships, campaign payments, law school ties,.",
+      "word_count": 548,
+      "pages": [
+        "/network/judges/adam-sabree/",
+        "/network/judges/aliyah-sabree/",
+        "/network/judges/cylenthia-miller/",
+        "/network/judges/david-perkins/",
+        "/network/judges/denise-langford-morris/",
+        "/network/judges/kelly-ramsey/",
+        "/network/judges/sean-perkins/",
+        "/network/judges/tenisha-yancey/",
+        "/network/judges/vonda-evans/"
+      ],
+      "subsections": []
+    },
+    "/network/political/": {
+      "type": "section",
+      "path": "/network/political/",
+      "url": "https://detroit.primals.eco/network/political/",
+      "title": "Political Enablers",
+      "description": "Political figures who enabled the Banks charter school enterprise through authorization, campaign payments, and institutional cover.",
+      "word_count": 129,
+      "pages": [
+        "/network/political/billy-mckinney/",
+        "/network/political/eric-sabree/",
+        "/network/political/sherry-gay-dagnogo/"
+      ],
+      "subsections": []
+    },
+    "/network/professional-enablers/": {
+      "type": "section",
+      "path": "/network/professional-enablers/",
+      "url": "https://detroit.primals.eco/network/professional-enablers/",
+      "title": "Professional Enablers",
+      "description": "Attorneys and institutions who organized, authorized, or credentialed the Banks charter school enterprise \u2014 the professional infrastructure that made the.",
+      "word_count": 341,
+      "pages": [
+        "/network/professional-enablers/todd-perkins/"
+      ],
+      "subsections": []
+    },
+    "/open-letters/": {
+      "type": "section",
+      "path": "/open-letters/",
+      "url": "https://detroit.primals.eco/open-letters/",
+      "title": "Open Letters",
+      "description": "Open letters to public figures connected to the Detroit charter school network. Each letter is sent privately first.",
+      "word_count": 84,
+      "pages": [
+        "/open-letters/to-curtis-jackson/"
+      ],
+      "subsections": []
+    },
+    "/site-index/": {
+      "type": "section",
+      "path": "/site-index/",
+      "url": "https://detroit.primals.eco/site-index/",
+      "title": "Site Index",
+      "description": "Complete index of every page on detroit.primals.eco \u2014 94 URLs covering 30 evidence pages, 16 sections, and 47 taxonomy cross-reference pages.",
+      "word_count": 400,
+      "pages": [],
+      "subsections": []
+    },
+    "/sources/": {
+      "type": "section",
+      "path": "/sources/",
+      "url": "https://detroit.primals.eco/sources/",
+      "title": "Primary Sources & Databases",
+      "description": "Complete reference of public databases, court systems, and news sources used to document the Purpose Charter Academy and MacDowell Preparatory Academy.",
+      "word_count": 704,
+      "pages": [],
+      "subsections": []
+    },
+    "/timeline/": {
+      "type": "section",
+      "path": "/timeline/",
+      "url": "https://detroit.primals.eco/timeline/",
+      "title": "Timeline",
+      "description": "Complete chronology of the Banks Enterprise \u2014 from 1998 criminal convictions through 2026 federal notification. Every date sourced from public records.",
+      "word_count": 790,
+      "pages": [],
+      "subsections": []
+    },
+    "/validate/": {
+      "type": "section",
+      "path": "/validate/",
+      "url": "https://detroit.primals.eco/validate/",
+      "title": "Verify Everything Yourself",
+      "description": "Verify every claim yourself: ICHAT criminal records (SID 2029469K), State Bar of Michigan, LARA business filings, Wayne County ROD, campaign finance \u2014.",
+      "word_count": 244,
+      "pages": [],
+      "subsections": []
+    }
+  },
+  "pages": [
+    {
+      "type": "page",
+      "path": "/analysis/allied-cases/",
+      "url": "https://detroit.primals.eco/analysis/allied-cases/",
+      "title": "Allied Cases \u2014 Independent Corroboration",
+      "description": "Allied cases: Bryant v. Miller (2:26-cv-10917) \u2014 independent litigant corroborates Judge Cylenthia Miller misconduct pattern. Triangulation evidence.",
+      "date": "2026-09-20",
+      "updated": "2026-09-24",
+      "word_count": 608,
+      "weight": 3,
+      "taxonomies": {
+        "actors": [
+          "Judge Cylenthia Miller",
+          "Brian Banks",
+          "Todd Perkins",
+          "Judge Tenisha Yancey",
+          "Judge Adam Sabree",
+          "Judge Sean Perkins"
+        ],
+        "entities": [
+          "Anchor Rock Foundation",
+          "Purpose Charter Academy"
+        ],
+        "courts": [
+          "Eastern District of Michigan",
+          "36th District Court",
+          "Wayne County 3rd Circuit Court"
+        ],
+        "connections": [
+          "board membership",
+          "legal representation",
+          "employment",
+          "RICO predicate"
+        ]
+      },
+      "keywords": "Bryant v Miller, Bryant v Miller Wayne County, Cylenthia Miller lawsuit, Wayne County judicial misconduct cases, 2:26-cv-10917, Detroit judge misconduct, independent corroboration Banks network",
+      "section": "/analysis/"
+    },
+    {
+      "type": "page",
+      "path": "/analysis/cbc-events/",
+      "url": "https://detroit.primals.eco/analysis/cbc-events/",
+      "title": "CBC Week Events \u2014 Political Networking",
+      "description": "CBC Week events: Brian Banks hosted 4 years of Congressional Black Caucus parties in Washington DC. 2025 honoree: Sherry Gay-Dagnogo (DPSCD Board).",
+      "date": "2026-09-20",
+      "updated": "2026-09-24",
+      "word_count": 448,
+      "weight": 4,
+      "taxonomies": {
+        "actors": [
+          "Brian Banks",
+          "Sherry Gay-Dagnogo",
+          "Judge Cylenthia Miller",
+          "Joseph Holland"
+        ],
+        "entities": [
+          "Purpose Charter Academy",
+          "Purpose Foundation",
+          "City Hill Church"
+        ],
+        "courts": [
+          "Wayne County 3rd Circuit Court"
+        ],
+        "connections": [
+          "charter authorization",
+          "campaign finance",
+          "business entity"
+        ]
+      },
+      "keywords": "Brian Banks CBC, Brian Banks Congressional Black Caucus, CBC Week Detroit, Brian Banks Washington DC party, Sherry Gay-Dagnogo CBC honoree, Brian Banks Eventbrite, Brian Banks political events, convicted felon CBC Week",
+      "section": "/analysis/"
+    },
+    {
+      "type": "page",
+      "path": "/analysis/institutional-capture/",
+      "url": "https://detroit.primals.eco/analysis/institutional-capture/",
+      "title": "Institutional Capture \u2014 Detroit Charter Network",
+      "description": "Institutional capture: how the Banks enterprise controls Detroit schools, courts, and political offices \u2014 installing loyalists and creating financial.",
+      "date": "2026-09-20",
+      "updated": "2026-09-24",
+      "word_count": 1120,
+      "weight": 2,
+      "taxonomies": {
+        "actors": [
+          "Brian Banks",
+          "Joseph Holland",
+          "Judge Cylenthia Miller",
+          "Judge Tenisha Yancey",
+          "Judge Aliyah Sabree",
+          "Judge David Perkins",
+          "Sherry Gay-Dagnogo",
+          "Eric Sabree"
+        ],
+        "entities": [
+          "Purpose Charter Academy",
+          "MacDowell Preparatory Academy",
+          "The Purpose Group LLC",
+          "Purpose Foundation",
+          "Banks Strategy LLC",
+          "Anchor Rock Foundation",
+          "Serenity Guardianship Services",
+          "Inner Link Graphics"
+        ],
+        "courts": [
+          "Wayne County 3rd Circuit Court",
+          "36th District Court",
+          "Wayne County Probate Court"
+        ],
+        "connections": [
+          "charter authorization",
+          "board membership",
+          "campaign finance",
+          "business entity",
+          "family",
+          "employment",
+          "credential fraud"
+        ]
+      },
+      "keywords": "institutional capture Detroit, captured courts Wayne County, Detroit charter school corruption, DPSCD authorization fraud, Wayne County judges Brian Banks, Detroit institutional corruption, charter school captured institutions",
+      "section": "/analysis/"
+    },
+    {
+      "type": "page",
+      "path": "/analysis/rico-pattern/",
+      "url": "https://detroit.primals.eco/analysis/rico-pattern/",
+      "title": "RICO Pattern \u2014 The Banks Enterprise",
+      "description": "RICO pattern analysis: 6 predicate acts, 14+ years of continuity, $4.9M annual extraction through shell entities. The Banks enterprise mapped.",
+      "date": "2026-09-20",
+      "updated": "2026-09-24",
+      "word_count": 934,
+      "weight": 1,
+      "taxonomies": {
+        "actors": [
+          "Brian Banks",
+          "Joseph Holland",
+          "OD Banks",
+          "Judge Cylenthia Miller",
+          "Judge Aliyah Sabree",
+          "Judge Tenisha Yancey",
+          "Judge David Perkins"
+        ],
+        "entities": [
+          "Purpose Charter Academy",
+          "MacDowell Preparatory Academy",
+          "The Purpose Group LLC",
+          "Purpose Foundation",
+          "Banks Strategy LLC",
+          "Anchor Rock Foundation",
+          "Serenity Guardianship Services"
+        ],
+        "courts": [
+          "Wayne County 3rd Circuit Court",
+          "36th District Court",
+          "Wayne County Probate Court",
+          "Eastern District of Michigan"
+        ],
+        "connections": [
+          "RICO predicate",
+          "credential fraud",
+          "campaign finance",
+          "business entity",
+          "board membership",
+          "criminal record",
+          "charter authorization",
+          "family"
+        ]
+      },
+      "keywords": "Detroit RICO pattern, Brian Banks RICO, charter school racketeering, 18 USC 1961, mail fraud charter school, wire fraud Detroit, money laundering Purpose Group LLC, Detroit charter school enterprise, Banks enterprise predicate acts",
+      "section": "/analysis/"
+    },
+    {
+      "type": "page",
+      "path": "/network/actors/brian-banks/",
+      "url": "https://detroit.primals.eco/network/actors/brian-banks/",
+      "title": "Brian Roderick Banks \u2014 Enterprise Leader",
+      "description": "Brian Roderick Banks \u2014 9 criminal convictions (6 felony). State Bar of Michigan: zero results for claimed J.D.",
+      "date": "2026-09-20",
+      "updated": "2026-09-24",
+      "word_count": 705,
+      "weight": 1,
+      "taxonomies": {
+        "actors": [
+          "Brian Banks",
+          "OD Banks"
+        ],
+        "entities": [
+          "Purpose Charter Academy",
+          "MacDowell Preparatory Academy",
+          "The Purpose Group LLC",
+          "Purpose Foundation",
+          "Banks Strategy LLC",
+          "Anchor Rock Foundation",
+          "Serenity Guardianship Services",
+          "City Hill Church",
+          "Sun Community Development Corp"
+        ],
+        "courts": [
+          "Wayne County 3rd Circuit Court",
+          "Oakland County Circuit Court",
+          "Eastern District of Michigan"
+        ],
+        "connections": [
+          "criminal record",
+          "credential fraud",
+          "business entity",
+          "family",
+          "charter authorization",
+          "RICO predicate"
+        ]
+      },
+      "keywords": "Brian Banks Detroit, Brian Banks charter school, Brian Banks criminal record, Purpose Charter Academy superintendent, Brian Banks MSU Law, Brian Banks credentials, Brian Banks MacDowell, Brian Banks Purpose Group, Brian Banks Michigan House, Brian Banks convicted felon charter school, Brian Banks 9 convictions, Brian Banks It Had 2 Happen, Brian Banks superintendent Detroit, Brian Banks Pahara Fellowship, Brian Banks LinkedIn J.D. Ph.D., Brian Banks Walden PhD, Brian Banks not admitted bar, Brian Banks Grosse Pointe Woods, Brian Banks BMF nephew, Pahara Fellowship Brian Banks, Brian Banks J.D. Ph.D. fraud, Brian Banks State Bar zero results, Brian Banks Wayne State Baker College, Dr Brian Banks Detroit school, Brian Banks Purpose Charter Academy founder, Brian Banks MacDowell Preparatory Academy superintendent",
+      "section": "/network/actors/"
+    },
+    {
+      "type": "page",
+      "path": "/network/actors/joseph-holland/",
+      "url": "https://detroit.primals.eco/network/actors/joseph-holland/",
+      "title": "Joseph Holland Jr. \u2014 Financial Gatekeeper",
+      "description": "Convicted drug offender (MDOC #443789, Controlled Substance \u2014 Possession). Discharged 'WITHOUT IMPROVEMENT.",
+      "date": "2026-09-20",
+      "updated": "2026-09-24",
+      "word_count": 179,
+      "weight": 2,
+      "taxonomies": {
+        "actors": [
+          "Joseph Holland",
+          "Brian Banks"
+        ],
+        "entities": [
+          "Purpose Foundation",
+          "The Purpose Group LLC",
+          "Banks Strategy LLC"
+        ],
+        "courts": [
+          "Wayne County 3rd Circuit Court",
+          "36th District Court"
+        ],
+        "connections": [
+          "employment",
+          "board membership",
+          "campaign finance",
+          "business entity",
+          "criminal record",
+          "family"
+        ]
+      },
+      "keywords": "Joseph Holland Detroit, Joseph Holland MDOC, Joseph Holland Purpose Foundation, Joseph Holland convicted, Joseph Holland charter school treasurer, Joseph Holland Brian Banks, Joseph Holland Brian Banks co-resident, Joseph Holland 1968 Severn Road, Bank on Banks PAC treasurer felon",
+      "section": "/network/actors/"
+    },
+    {
+      "type": "page",
+      "path": "/network/entities/anchor-rock-foundation/",
+      "url": "https://detroit.primals.eco/network/entities/anchor-rock-foundation/",
+      "title": "Anchor Rock Foundation \u2014 Judge Miller Board Chair",
+      "description": "Anchor Rock Foundation \u2014 dissolved Banks nonprofit previously chaired by Judge Cylenthia Miller. A sitting judge chairing a convicted felon's entity.",
+      "date": "2026-09-20",
+      "updated": "2026-09-24",
+      "word_count": 259,
+      "weight": 7,
+      "taxonomies": {
+        "actors": [
+          "Judge Cylenthia Miller",
+          "Brian Banks",
+          "Joseph Holland"
+        ],
+        "entities": [
+          "Anchor Rock Foundation",
+          "Purpose Charter Academy",
+          "MacDowell Preparatory Academy"
+        ],
+        "courts": [
+          "Wayne County 3rd Circuit Court"
+        ],
+        "connections": [
+          "board membership",
+          "business entity"
+        ]
+      },
+      "keywords": "Anchor Rock Foundation, Anchor Rock Foundation Brian Banks, Anchor Rock Foundation Cylenthia Miller, Anchor Rock Foundation LARA, Anchor Rock Foundation dissolved, Detroit charter school nonprofit",
+      "section": "/network/entities/"
+    },
+    {
+      "type": "page",
+      "path": "/network/entities/banks-strategy-llc/",
+      "url": "https://detroit.primals.eco/network/entities/banks-strategy-llc/",
+      "title": "Banks Strategy & Consultants LLC \u2014 Judge Payments",
+      "description": "Banks' consulting firm receives campaign payments from sitting judges. Chronic administrative neglect \u2014 lost good standing, batch-filed 3 overdue annual.",
+      "date": "2026-09-20",
+      "updated": "2026-09-24",
+      "word_count": 236,
+      "weight": 5,
+      "taxonomies": {
+        "actors": [
+          "Brian Banks",
+          "Judge Tenisha Yancey"
+        ],
+        "entities": [
+          "Banks Strategy LLC",
+          "Purpose Charter Academy",
+          "MacDowell Preparatory Academy",
+          "The Purpose Group LLC"
+        ],
+        "courts": [
+          "36th District Court"
+        ],
+        "connections": [
+          "campaign finance",
+          "business entity"
+        ]
+      },
+      "keywords": "Banks Strategy Consultants, Banks Strategy LLC, judge campaign payments, Yancey Banks Strategy, Banks Strategy LLC judge payments, Banks Strategy campaign finance, Banks Strategy Cylenthia Miller Tenisha Yancey",
+      "section": "/network/entities/"
+    },
+    {
+      "type": "page",
+      "path": "/network/entities/city-hill-church/",
+      "url": "https://detroit.primals.eco/network/entities/city-hill-church/",
+      "title": "City Hill Church \u2014 Banks Religious Entity",
+      "description": "City Hill Church \u2014 Brian Banks serves as officer. Registered to his Grosse Pointe Woods residence alongside 8 other Banks-controlled entities.",
+      "date": "2026-09-20",
+      "updated": "2026-09-24",
+      "word_count": 311,
+      "weight": 10,
+      "taxonomies": {
+        "actors": [
+          "Brian Banks",
+          "Joseph Holland"
+        ],
+        "entities": [
+          "City Hill Church",
+          "The Purpose Group LLC",
+          "Purpose Foundation",
+          "Banks Strategy LLC",
+          "Anchor Rock Foundation",
+          "Sun Community Development Corp",
+          "Serenity Guardianship Services"
+        ],
+        "courts": [
+          "Wayne County 3rd Circuit Court"
+        ],
+        "connections": [
+          "business entity",
+          "board membership"
+        ]
+      },
+      "keywords": "City Hill Church Brian Banks, City Hill Church Detroit, City Hill Church LARA, Great Lakes Vision Evangelism, Brian Banks church entities, 1968 Severn Road entities",
+      "section": "/network/entities/"
+    },
+    {
+      "type": "page",
+      "path": "/network/entities/inner-link-graphics/",
+      "url": "https://detroit.primals.eco/network/entities/inner-link-graphics/",
+      "title": "Inner Link Graphics \u2014 Campaign Finance Vendor",
+      "description": "Inner Link Graphics \u2014 received $8,025 from Judge Tenisha Yancey's campaign. Banks network vendor appearing in campaign finance records.",
+      "date": "2026-09-20",
+      "updated": "2026-09-24",
+      "word_count": 326,
+      "weight": 9,
+      "taxonomies": {
+        "actors": [
+          "Judge Tenisha Yancey",
+          "Judge Adam Sabree",
+          "Judge Sean Perkins"
+        ],
+        "entities": [
+          "Inner Link Graphics",
+          "Banks Strategy LLC",
+          "MacDowell Preparatory Academy",
+          "Purpose Charter Academy"
+        ],
+        "courts": [
+          "36th District Court"
+        ],
+        "connections": [
+          "campaign finance"
+        ]
+      },
+      "keywords": "Inner Link Graphics, Inner Link Graphics Tenisha Yancey, Inner Link Graphics Detroit, Inner Link Graphics campaign finance, Banks network vendors",
+      "section": "/network/entities/"
+    },
+    {
+      "type": "page",
+      "path": "/network/entities/macdowell-prep/",
+      "url": "https://detroit.primals.eco/network/entities/macdowell-prep/",
+      "title": "MacDowell Preparatory Academy \u2014 Financial Extraction",
+      "description": "MacDowell Preparatory Academy Detroit \u2014 convicted felon superintendent Brian Banks, $4.9M revenue, 3% math proficiency, 72.67% to Purpose Group LLC.",
+      "date": "2026-09-20",
+      "updated": "2026-09-24",
+      "word_count": 317,
+      "weight": 2,
+      "taxonomies": {
+        "actors": [
+          "Brian Banks",
+          "Judge Tenisha Yancey",
+          "Joseph Holland"
+        ],
+        "entities": [
+          "MacDowell Preparatory Academy",
+          "The Purpose Group LLC",
+          "Purpose Foundation"
+        ],
+        "courts": [
+          "36th District Court",
+          "Wayne County 3rd Circuit Court"
+        ],
+        "connections": [
+          "charter authorization",
+          "credential fraud",
+          "business entity",
+          "board membership"
+        ]
+      },
+      "keywords": "MacDowell Preparatory Academy, MacDowell Prep Detroit, MacDowell charter school, MacDowell Preparatory Academy Brian Banks, MacDowell Preparatory Academy test scores, MacDowell Preparatory Academy board, Purpose Group Michigan LLC, DPSCD charter school Detroit, MacDowell Preparatory Academy math proficiency, MacDowell Preparatory Academy superintendent felony, MacDowell Detroit 3 percent math, MacDowell Purpose Group extraction",
+      "section": "/network/entities/"
+    },
+    {
+      "type": "page",
+      "path": "/network/entities/political-action-committees/",
+      "url": "https://detroit.primals.eco/network/entities/political-action-committees/",
+      "title": "PACs \u2014 Dark Money and Felon Treasurers",
+      "description": "Three political committees controlled by convicted felons. $14,500+ in campaign finance fines. Dark money mailers via OFA Michigan.",
+      "date": "2026-09-20",
+      "updated": "2026-09-24",
+      "word_count": 251,
+      "weight": 6,
+      "taxonomies": {
+        "actors": [
+          "Brian Banks",
+          "Joseph Holland",
+          "Judge Tenisha Yancey",
+          "Billy McKinney"
+        ],
+        "entities": [
+          "Banks Strategy LLC",
+          "Inner Link Graphics",
+          "Purpose Charter Academy",
+          "MacDowell Preparatory Academy"
+        ],
+        "courts": [
+          "Wayne County 3rd Circuit Court",
+          "36th District Court"
+        ],
+        "connections": [
+          "campaign finance",
+          "criminal record",
+          "business entity"
+        ]
+      },
+      "keywords": "Brian Banks PAC, Bank on Banks PAC, Joseph Holland PAC treasurer, Michigan campaign finance fines, Bank on Banks PAC dark money, OFA Michigan Brian Banks, Detroit charter school PAC fines, Joseph Holland PAC treasurer felon",
+      "section": "/network/entities/"
+    },
+    {
+      "type": "page",
+      "path": "/network/entities/purpose-charter-academy/",
+      "url": "https://detroit.primals.eco/network/entities/purpose-charter-academy/",
+      "title": "Purpose Charter Academy \u2014 K-8 Charter School",
+      "description": "K-8 charter school in Detroit authorized by DPSCD. Run by Brian Banks (9 convictions, claimed J.D. not confirmed by bar records).",
+      "date": "2026-09-20",
+      "updated": "2026-09-24",
+      "word_count": 523,
+      "weight": 1,
+      "taxonomies": {
+        "actors": [
+          "Brian Banks",
+          "Judge Cylenthia Miller",
+          "Joseph Holland",
+          "Sherry Gay-Dagnogo"
+        ],
+        "entities": [
+          "Purpose Charter Academy",
+          "The Purpose Group LLC",
+          "Anchor Rock Foundation"
+        ],
+        "courts": [
+          "Wayne County 3rd Circuit Court",
+          "36th District Court"
+        ],
+        "connections": [
+          "charter authorization",
+          "credential fraud",
+          "business entity",
+          "board membership",
+          "institutional capture"
+        ]
+      },
+      "keywords": "Purpose Charter Academy, Purpose Charter Academy Detroit, PCA Detroit, Purpose Charter Academy Brian Banks, Purpose Charter Academy DPSCD, Purpose Charter Academy Law Public Service, charter school Detroit convicted felon, Purpose Charter Academy fraud, Purpose Charter Academy superintendent criminal record, DPSCD Brian Banks authorization",
+      "section": "/network/entities/"
+    },
+    {
+      "type": "page",
+      "path": "/network/entities/purpose-foundation/",
+      "url": "https://detroit.primals.eco/network/entities/purpose-foundation/",
+      "title": "Purpose Foundation \u2014 Two Felons, Four Positions",
+      "description": "501(c)(3) private foundation where two convicted felons hold all four officer positions. Banks: President + Director. Holland: Secretary + Treasurer.",
+      "date": "2026-09-20",
+      "updated": "2026-09-24",
+      "word_count": 254,
+      "weight": 4,
+      "taxonomies": {
+        "actors": [
+          "Brian Banks",
+          "Joseph Holland"
+        ],
+        "entities": [
+          "Purpose Foundation",
+          "The Purpose Group LLC",
+          "Purpose Charter Academy",
+          "MacDowell Preparatory Academy"
+        ],
+        "courts": [
+          "Wayne County 3rd Circuit Court"
+        ],
+        "connections": [
+          "business entity",
+          "board membership",
+          "criminal record",
+          "RICO predicate"
+        ]
+      },
+      "keywords": "Purpose Foundation, Purpose Foundation Detroit, Banks Holland nonprofit, private foundation fraud, Purpose Foundation Brian Banks Holland, Purpose Foundation two felons all positions, Purpose Foundation 501c3 no governance",
+      "section": "/network/entities/"
+    },
+    {
+      "type": "page",
+      "path": "/network/entities/purpose-group-llc/",
+      "url": "https://detroit.primals.eco/network/entities/purpose-group-llc/",
+      "title": "The Purpose Group, LLC \u2014 The Extraction Engine",
+      "description": "Banks' management company takes 72.67% of all school revenue. Sole member: a convicted felon with 9 convictions (6 felony). Organized by attorney Gary E.",
+      "date": "2026-09-20",
+      "updated": "2026-09-24",
+      "word_count": 216,
+      "weight": 3,
+      "taxonomies": {
+        "actors": [
+          "Brian Banks",
+          "Joseph Holland"
+        ],
+        "entities": [
+          "The Purpose Group LLC",
+          "MacDowell Preparatory Academy",
+          "Purpose Charter Academy",
+          "Purpose Foundation"
+        ],
+        "courts": [
+          "Wayne County 3rd Circuit Court",
+          "36th District Court"
+        ],
+        "connections": [
+          "business entity",
+          "charter authorization",
+          "RICO predicate",
+          "credential fraud"
+        ]
+      },
+      "keywords": "Purpose Group LLC, Purpose Group Michigan, Purpose Group Brian Banks, charter school management company Detroit, Purpose Group LLC Detroit schools, Purpose Group 72 percent revenue, Purpose Group LLC Brian Banks sole member",
+      "section": "/network/entities/"
+    },
+    {
+      "type": "page",
+      "path": "/network/entities/serenity-guardianship/",
+      "url": "https://detroit.primals.eco/network/entities/serenity-guardianship/",
+      "title": "Serenity Guardianship Services \u2014 UPL Red Flag",
+      "description": "Serenity Guardianship Services \u2014 dissolved entity run by convicted felon Brian Banks. Non-attorney running guardianship services = textbook UPL.",
+      "date": "2026-09-20",
+      "updated": "2026-09-24",
+      "word_count": 264,
+      "weight": 8,
+      "taxonomies": {
+        "actors": [
+          "Brian Banks",
+          "Judge David Perkins",
+          "Judge Tenisha Yancey",
+          "Judge Adam Sabree",
+          "Judge Sean Perkins",
+          "Joseph Holland"
+        ],
+        "entities": [
+          "Serenity Guardianship Services",
+          "Purpose Charter Academy",
+          "MacDowell Preparatory Academy",
+          "The Purpose Group LLC"
+        ],
+        "courts": [
+          "Wayne County Probate Court",
+          "36th District Court"
+        ],
+        "connections": [
+          "business entity",
+          "credential fraud",
+          "RICO predicate"
+        ]
+      },
+      "keywords": "Serenity Guardianship Services, Serenity Guardianship Brian Banks, Serenity Guardianship UPL, unauthorized practice of law Detroit, Brian Banks guardianship, Wayne County Probate guardianship",
+      "section": "/network/entities/"
+    },
+    {
+      "type": "page",
+      "path": "/network/entities/sun-community-development/",
+      "url": "https://detroit.primals.eco/network/entities/sun-community-development/",
+      "title": "Sun Community Development Corp",
+      "description": "Sun Community Development Corp \u2014 Brian Banks entity at 1968 Severn Road. Community development nonprofit controlled by a 9-time convicted felon.",
+      "date": "2026-09-20",
+      "updated": "2026-09-24",
+      "word_count": 302,
+      "weight": 11,
+      "taxonomies": {
+        "actors": [
+          "Brian Banks",
+          "Joseph Holland",
+          "Sherry Gay-Dagnogo"
+        ],
+        "entities": [
+          "Sun Community Development Corp",
+          "The Purpose Group LLC",
+          "Purpose Foundation",
+          "Banks Strategy LLC",
+          "City Hill Church",
+          "Anchor Rock Foundation",
+          "Serenity Guardianship Services",
+          "MacDowell Preparatory Academy",
+          "Purpose Charter Academy"
+        ],
+        "courts": [
+          "Wayne County 3rd Circuit Court"
+        ],
+        "connections": [
+          "business entity",
+          "charter authorization"
+        ]
+      },
+      "keywords": "Sun Community Development Corp, Sun Community Development Brian Banks, Sun Community Development Detroit, Brian Banks community development, 1968 Severn Road entities",
+      "section": "/network/entities/"
+    },
+    {
+      "type": "page",
+      "path": "/network/judges/adam-sabree/",
+      "url": "https://detroit.primals.eco/network/judges/adam-sabree/",
+      "title": "Judge Adam Sabree \u2014 36th District Court",
+      "description": "Judge Adam Sabree \u2014 36th District Court. Son of Wayne County Treasurer Eric Sabree (FBI-probed).",
+      "date": "2026-09-20",
+      "updated": "2026-09-24",
+      "word_count": 440,
+      "weight": 6,
+      "taxonomies": {
+        "actors": [
+          "Judge Adam Sabree",
+          "Judge Aliyah Sabree",
+          "Eric Sabree",
+          "Judge Tenisha Yancey",
+          "Judge Sean Perkins",
+          "Brian Banks"
+        ],
+        "entities": [
+          "MacDowell Preparatory Academy",
+          "Purpose Charter Academy",
+          "Banks Strategy LLC"
+        ],
+        "courts": [
+          "36th District Court",
+          "Eastern District of Michigan"
+        ],
+        "connections": [
+          "family",
+          "employment",
+          "RICO predicate"
+        ]
+      },
+      "keywords": "Adam Sabree judge, Adam Sabree 36th District Court, Adam Sabree Metro Property Group, Adam Sabree Eric Sabree son, Adam Sabree Wayne County, Adam Sabree Detroit, Adam Sabree RICO, Sabree family Detroit judges, Adam Sabree Woodward Law Group, Adam Sabree Caldwell University, Adam Sabree MSU Law 2011, Adam Sabree adjunct professor Wayne County Community College, Adam Sabree Tenisha Yancey same election",
+      "section": "/network/judges/"
+    },
+    {
+      "type": "page",
+      "path": "/network/judges/aliyah-sabree/",
+      "url": "https://detroit.primals.eco/network/judges/aliyah-sabree/",
+      "title": "Judge Aliyah Sabree",
+      "description": "Judge Aliyah Sabree \u2014 Wayne County 3rd Circuit Family Division. Appointed May 2025. MSU Law 2010 BLSA classmate of Banks, who was denied bar admission.",
+      "date": "2026-09-20",
+      "updated": "2026-09-24",
+      "word_count": 584,
+      "weight": 3,
+      "taxonomies": {
+        "actors": [
+          "Judge Aliyah Sabree",
+          "Brian Banks",
+          "Judge Adam Sabree",
+          "Judge Cylenthia Miller",
+          "Eric Sabree"
+        ],
+        "entities": [
+          "Purpose Charter Academy",
+          "MacDowell Preparatory Academy"
+        ],
+        "courts": [
+          "Wayne County 3rd Circuit Court",
+          "36th District Court",
+          "Eastern District of Michigan"
+        ],
+        "connections": [
+          "mentorship",
+          "family",
+          "credential fraud",
+          "employment"
+        ]
+      },
+      "keywords": "Aliyah Sabree, Aliyah Sabree judge, Aliyah Sabree Wayne County 3rd Circuit, Aliyah Sabree MSU Law, Aliyah Sabree Detroit, Eric Sabree sister, Aliyah Sabree Brian Banks, Aliyah Sabree Daisy Elliott, Aliyah Sabree great-granddaughter civil rights, Aliyah Sabree Youngstown State, Aliyah Sabree DWSD counsel",
+      "section": "/network/judges/"
+    },
+    {
+      "type": "page",
+      "path": "/network/judges/cylenthia-miller/",
+      "url": "https://detroit.primals.eco/network/judges/cylenthia-miller/",
+      "title": "Judge Cylenthia Miller",
+      "description": "Judge Cylenthia Miller \u2014 Wayne County 3rd Circuit, running for re-election Nov 3, 2026. Anchor Rock Foundation board chair.",
+      "date": "2026-09-20",
+      "updated": "2026-09-24",
+      "word_count": 691,
+      "weight": 1,
+      "taxonomies": {
+        "actors": [
+          "Judge Cylenthia Miller",
+          "Brian Banks",
+          "Todd Perkins",
+          "Judge Sean Perkins",
+          "Judge Adam Sabree",
+          "Judge Aliyah Sabree",
+          "Eric Sabree"
+        ],
+        "entities": [
+          "Anchor Rock Foundation",
+          "Purpose Charter Academy",
+          "MacDowell Preparatory Academy"
+        ],
+        "courts": [
+          "Wayne County 3rd Circuit Court",
+          "36th District Court"
+        ],
+        "connections": [
+          "board membership",
+          "legal representation",
+          "mentorship",
+          "campaign finance",
+          "employment"
+        ]
+      },
+      "keywords": "Cylenthia Miller, Cylenthia Miller judge, Cylenthia Miller Wayne County, Cylenthia Miller election 2026, Cylenthia Miller 3rd Circuit, Cylenthia Miller Anchor Rock Foundation, Cylenthia Miller Purpose Charter Academy, Cylenthia Miller Detroit, judge Cylenthia Miller reelection, Wayne County 3rd Circuit Court 2026, Cylenthia Miller election November 2026, Cylenthia Miller JTC complaint, Cylenthia Miller scandal, Cylenthia Miller gun airport DTW, Cylenthia Miller infant murder case dismissed, Cylenthia Miller Baker College Brian Banks, Cylenthia Miller Todd Perkins attorney, keepjudgemiller.com, Cylenthia Miller OWI East Lansing, Cylenthia Miller Judge Greenwalt wholly improper, Cylenthia Miller State Bar referral, Cylenthia Miller Kym Worthy bias, Cylenthia LaToye Miller Wayne County, Cylenthia Miller WXYZ investigation Ross Jones",
+      "section": "/network/judges/"
+    },
+    {
+      "type": "page",
+      "path": "/network/judges/david-perkins/",
+      "url": "https://detroit.primals.eco/network/judges/david-perkins/",
+      "title": "Judge David Perkins",
+      "description": "Judge David Perkins \u2014 Wayne County Probate Court. Serenity Guardianship connection to Banks. Family donations to Banks-aligned campaigns.",
+      "date": "2026-09-20",
+      "updated": "2026-09-24",
+      "word_count": 202,
+      "weight": 4,
+      "taxonomies": {
+        "actors": [
+          "Judge David Perkins",
+          "Brian Banks",
+          "Todd Perkins",
+          "Judge Sean Perkins",
+          "Judge Tenisha Yancey",
+          "Judge Adam Sabree"
+        ],
+        "entities": [
+          "Serenity Guardianship Services"
+        ],
+        "courts": [
+          "Wayne County Probate Court",
+          "36th District Court"
+        ],
+        "connections": [
+          "family",
+          "campaign finance",
+          "business entity"
+        ]
+      },
+      "keywords": "David Perkins, David Perkins judge, David Perkins Wayne County, David Perkins Detroit, David Perkins Brian Banks, David Perkins Serenity Guardianship, David Perkins Wayne County Probate, David Perkins family donations Banks",
+      "section": "/network/judges/"
+    },
+    {
+      "type": "page",
+      "path": "/network/judges/denise-langford-morris/",
+      "url": "https://detroit.primals.eco/network/judges/denise-langford-morris/",
+      "title": "Judge Denise Langford Morris (Retired)",
+      "description": "Judge Denise Langford Morris (Retired) \u2014 30-year Oakland County judge. Wrote Banks book foreword using fake J.D.",
+      "date": "2026-09-20",
+      "updated": "2026-09-24",
+      "word_count": 404,
+      "weight": 9,
+      "taxonomies": {
+        "actors": [
+          "Judge Denise Langford Morris",
+          "Brian Banks",
+          "Judge Vonda Evans"
+        ],
+        "entities": [
+          "Purpose Charter Academy",
+          "MacDowell Preparatory Academy"
+        ],
+        "courts": [
+          "Oakland County Circuit Court",
+          "Eastern District of Michigan"
+        ],
+        "connections": [
+          "mentorship",
+          "credential fraud"
+        ]
+      },
+      "keywords": "Denise Langford Morris judge, Denise Langford Morris retired, Denise Langford Morris Oakland County, Denise Langford Morris Brian Banks book, Denise Langford Morris foreword, Denise Langford Morris JAMS, Langford Morris Oakland County Circuit, Denise Langford Morris NBA Hall of Fame 2025, Denise Langford Morris assistant US attorney, Denise Langford Morris first African American Oakland County, Denise Langford Morris Cornell University",
+      "section": "/network/judges/"
+    },
+    {
+      "type": "page",
+      "path": "/network/judges/kelly-ramsey/",
+      "url": "https://detroit.primals.eco/network/judges/kelly-ramsey/",
+      "title": "Judge Kelly Ramsey \u2014 Criminal Division",
+      "description": "Judge Kelly Ramsey \u2014 Wayne County 3rd Circuit Criminal Division. Daughter pushed Banks to Promise Schools. Two family members on MacDowell payroll.",
+      "date": "2026-09-20",
+      "updated": "2026-09-24",
+      "word_count": 419,
+      "weight": 5,
+      "taxonomies": {
+        "actors": [
+          "Judge Kelly Ramsey",
+          "Brian Banks",
+          "Todd Perkins",
+          "Judge Cylenthia Miller",
+          "Judge Tenisha Yancey",
+          "Judge Sean Perkins"
+        ],
+        "entities": [
+          "MacDowell Preparatory Academy"
+        ],
+        "courts": [
+          "Wayne County 3rd Circuit Court"
+        ],
+        "connections": [
+          "employment",
+          "mentorship",
+          "family",
+          "board membership"
+        ]
+      },
+      "keywords": "Kelly Ramsey judge, Kelly Ramsey Wayne County, Kelly Ramsey 3rd Circuit, Kelly Ramsey MacDowell, Kelly Ramsey Brian Banks, Kelly Ramsey criminal division Detroit, Kelly Ramsey daughter Promise Schools",
+      "section": "/network/judges/"
+    },
+    {
+      "type": "page",
+      "path": "/network/judges/sean-perkins/",
+      "url": "https://detroit.primals.eco/network/judges/sean-perkins/",
+      "title": "Judge Sean Perkins \u2014 36th District Court",
+      "description": "Judge Sean Perkins \u2014 36th District Court. Brother of Todd Perkins, Brian Banks' personal attorney. Worked at Todd's firm before taking the bench.",
+      "date": "2026-09-20",
+      "updated": "2026-09-24",
+      "word_count": 360,
+      "weight": 7,
+      "taxonomies": {
+        "actors": [
+          "Judge Sean Perkins",
+          "Todd Perkins",
+          "Brian Banks",
+          "Judge Cylenthia Miller",
+          "Judge Tenisha Yancey",
+          "Judge Adam Sabree",
+          "Judge David Perkins"
+        ],
+        "entities": [
+          "Perkins Law Group",
+          "Banks Strategy LLC"
+        ],
+        "courts": [
+          "36th District Court"
+        ],
+        "connections": [
+          "family",
+          "legal representation",
+          "employment",
+          "campaign finance"
+        ]
+      },
+      "keywords": "Sean Perkins judge, Sean Perkins 36th District Court, Sean Perkins Todd Perkins brother, Sean Perkins Brian Banks attorney, Sean Perkins Detroit, Sean Perkins Wayne County, Perkins brothers Detroit judges, Sean Perkins Perkins Law Group, Sean Perkins Wayne State University, Sean Perkins Thomas M Cooley Law School, Sean Perkins UAW Local 387",
+      "section": "/network/judges/"
+    },
+    {
+      "type": "page",
+      "path": "/network/judges/tenisha-yancey/",
+      "url": "https://detroit.primals.eco/network/judges/tenisha-yancey/",
+      "title": "Judge Tenisha Yancey",
+      "description": "Judge Tenisha Yancey \u2014 36th District Court. MacDowell board chair. $383.82 was her sole contribution and sole expenditure \u2014 all to Banks Strategy LLC.",
+      "date": "2026-09-20",
+      "updated": "2026-09-24",
+      "word_count": 548,
+      "weight": 2,
+      "taxonomies": {
+        "actors": [
+          "Judge Tenisha Yancey",
+          "Brian Banks",
+          "Judge Adam Sabree",
+          "Judge Sean Perkins",
+          "Eric Sabree"
+        ],
+        "entities": [
+          "MacDowell Preparatory Academy",
+          "Purpose Charter Academy",
+          "Banks Strategy LLC",
+          "Inner Link Graphics"
+        ],
+        "courts": [
+          "36th District Court"
+        ],
+        "connections": [
+          "board membership",
+          "campaign finance",
+          "family",
+          "employment",
+          "charter authorization"
+        ]
+      },
+      "keywords": "Tenisha Yancey, Tenisha Yancey judge, Tenisha Yancey Wayne County 3rd Circuit Court, Tenisha Yancey MacDowell, Tenisha Yancey board chair, Tenisha Yancey Brian Banks, Tenisha Yancey campaign finance, Banks Strategy LLC, MacDowell Preparatory Academy board, Detroit judge charter school, Tenisha Yancey Wayne County Land Bank, Tenisha Yancey Harper Woods, Tenisha Yancey state representative HD-1, Tenisha Yancey Brian Banks successor",
+      "section": "/network/judges/"
+    },
+    {
+      "type": "page",
+      "path": "/network/judges/vonda-evans/",
+      "url": "https://detroit.primals.eco/network/judges/vonda-evans/",
+      "title": "Judge Vonda Evans (Retired) \u2014 Mentor",
+      "description": "Judge Vonda Evans (Retired) \u2014 21-year Wayne County 3rd Circuit judge. Retired as JTC moved to suspend.",
+      "date": "2026-09-20",
+      "updated": "2026-09-24",
+      "word_count": 313,
+      "weight": 8,
+      "taxonomies": {
+        "actors": [
+          "Judge Vonda Evans",
+          "Brian Banks",
+          "Todd Perkins",
+          "Judge Cylenthia Miller",
+          "Judge Kelly Ramsey",
+          "Judge Denise Langford Morris"
+        ],
+        "entities": [
+          "Purpose Charter Academy",
+          "MacDowell Preparatory Academy",
+          "Anchor Rock Foundation"
+        ],
+        "courts": [
+          "Wayne County 3rd Circuit Court"
+        ],
+        "connections": [
+          "mentorship",
+          "campaign finance",
+          "legal representation"
+        ]
+      },
+      "keywords": "Vonda Evans judge, Vonda Evans retired, Vonda Evans Wayne County, Vonda Evans JTC, Vonda Evans Brian Banks mentor, Vonda Evans 3rd Circuit, Vonda Evans Detroit, Vonda Evans suspended, Vonda Evans attendance fraud, Vonda Evans JTC suspension retirement, Vonda Evans WXYZ investigation, Vonda Evans Operation Northern Hook, Vonda Evans Hall Makled law firm",
+      "section": "/network/judges/"
+    },
+    {
+      "type": "page",
+      "path": "/network/matrices/",
+      "url": "https://detroit.primals.eco/network/matrices/",
+      "title": "Network Matrices \u2014 Machine-Readable Graph Data",
+      "description": "Adjacency matrices showing who connects to whom, money flows, board memberships, and court assignments.",
+      "date": "2026-09-24",
+      "updated": "2026-09-24",
+      "word_count": 813,
+      "weight": 99,
+      "taxonomies": {
+        "actors": [
+          "Brian Banks",
+          "Joseph Holland",
+          "Judge Cylenthia Miller",
+          "Judge Tenisha Yancey",
+          "Judge Aliyah Sabree",
+          "Eric Sabree"
+        ],
+        "entities": [
+          "Purpose Charter Academy",
+          "MacDowell Preparatory Academy",
+          "The Purpose Group LLC",
+          "Purpose Foundation",
+          "Banks Strategy LLC"
+        ],
+        "courts": [
+          "Wayne County 3rd Circuit Court",
+          "36th District Court",
+          "Wayne County Probate Court",
+          "Oakland County Circuit Court"
+        ],
+        "connections": [
+          "board membership",
+          "campaign finance",
+          "family",
+          "employment",
+          "business entity"
+        ]
+      },
+      "keywords": "Detroit charter school network graph, Brian Banks network analysis, adjacency matrix corruption, money flow Detroit schools, judicial capture matrix, graph data Detroit investigation",
+      "section": "/network/"
+    },
+    {
+      "type": "page",
+      "path": "/network/political/billy-mckinney/",
+      "url": "https://detroit.primals.eco/network/political/billy-mckinney/",
+      "title": "Billy McKinney \u2014 Political Operative",
+      "description": "Billy McKinney \u2014 Detroit City Council District 6. Campaign paid Darryl Banks Jr. $4,483 total, linking McKinney operation to the extended Banks family.",
+      "date": "2026-09-20",
+      "updated": "2026-09-24",
+      "word_count": 439,
+      "weight": 2,
+      "taxonomies": {
+        "actors": [
+          "Billy McKinney",
+          "Brian Banks",
+          "Joseph Holland",
+          "Judge Tenisha Yancey",
+          "Sherry Gay-Dagnogo"
+        ],
+        "entities": [
+          "Banks Strategy LLC",
+          "Inner Link Graphics",
+          "Purpose Charter Academy",
+          "MacDowell Preparatory Academy"
+        ],
+        "courts": [
+          "Wayne County 3rd Circuit Court",
+          "36th District Court"
+        ],
+        "connections": [
+          "campaign finance",
+          "business entity"
+        ]
+      },
+      "keywords": "Billy McKinney Detroit, Darryl Banks Jr campaign payment, McKinney Banks family, Billy McKinney political operative Detroit, Donavan McKinney City Council, McKinney campaign finance TransparencyUSA",
+      "section": "/network/political/"
+    },
+    {
+      "type": "page",
+      "path": "/network/political/eric-sabree/",
+      "url": "https://detroit.primals.eco/network/political/eric-sabree/",
+      "title": "Eric Sabree \u2014 Wayne County Treasurer",
+      "description": "Eric Sabree \u2014 elected Wayne County Treasurer. Father of two network judges (Aliyah Sabree, Adam Sabree). FBI-probed 2019. Bowles v.",
+      "date": "2026-09-24",
+      "updated": "2026-09-24",
+      "word_count": 702,
+      "weight": 3,
+      "taxonomies": {
+        "actors": [
+          "Eric Sabree",
+          "Judge Aliyah Sabree",
+          "Judge Adam Sabree",
+          "Judge Tenisha Yancey",
+          "Brian Banks"
+        ],
+        "entities": [
+          "MacDowell Preparatory Academy"
+        ],
+        "courts": [
+          "Wayne County 3rd Circuit Court",
+          "36th District Court",
+          "Eastern District of Michigan"
+        ],
+        "connections": [
+          "family",
+          "campaign finance",
+          "business entity"
+        ]
+      },
+      "keywords": "Eric Sabree Wayne County Treasurer, Eric Sabree FBI investigation, Eric Sabree tax auction violations, Bowles v Sabree class action, Eric Sabree Detroit, Eric Sabree judges father, Sabree family Detroit, Eric Sabree Metro Property Group, Eric Sabree Wayne County ethics",
+      "section": "/network/political/"
+    },
+    {
+      "type": "page",
+      "path": "/network/political/sherry-gay-dagnogo/",
+      "url": "https://detroit.primals.eco/network/political/sherry-gay-dagnogo/",
+      "title": "Sherry Gay-Dagnogo \u2014 Former Charter Authorizer",
+      "description": "Detroit City Ombudsman since Oct 2025. Former DPSCD board member who authorized Banks' charter schools. Ex-MI State Rep (HD-8).",
+      "date": "2026-09-20",
+      "updated": "2026-09-24",
+      "word_count": 247,
+      "weight": 1,
+      "taxonomies": {
+        "actors": [
+          "Sherry Gay-Dagnogo",
+          "Brian Banks",
+          "Joseph Holland"
+        ],
+        "entities": [
+          "Purpose Charter Academy",
+          "MacDowell Preparatory Academy",
+          "The Purpose Group LLC"
+        ],
+        "courts": [
+          "Wayne County 3rd Circuit Court"
+        ],
+        "connections": [
+          "charter authorization",
+          "campaign finance",
+          "board membership"
+        ]
+      },
+      "keywords": "Sherry Gay-Dagnogo, Sherry Gay-Dagnogo DPSCD, Sherry Gay-Dagnogo Detroit, DPSCD charter authorization, Michigan House District 1, Sherry Gay-Dagnogo Brian Banks, DPSCD Purpose Charter Academy authorization, Sherry Gay-Dagnogo CBC honoree, HD-1 Detroit charter school, Sherry Gay-Dagnogo ombudsman Detroit, Sherry Gay-Dagnogo resigned DPSCD, Sherry Gay-Dagnogo Michigan House District 8",
+      "section": "/network/political/"
+    },
+    {
+      "type": "page",
+      "path": "/network/professional-enablers/todd-perkins/",
+      "url": "https://detroit.primals.eco/network/professional-enablers/todd-perkins/",
+      "title": "Todd Perkins \u2014 Banks' Attorney",
+      "description": "Todd Perkins \u2014 Detroit attorney, Banks' personal lawyer. Represented Judge Miller in gun case. Brother is Judge Sean Perkins on 36th District.",
+      "date": "2026-09-24",
+      "updated": "2026-09-24",
+      "word_count": 397,
+      "weight": 1,
+      "taxonomies": {
+        "actors": [
+          "Todd Perkins",
+          "Brian Banks",
+          "Judge Cylenthia Miller",
+          "Judge Vonda Evans",
+          "Judge Sean Perkins",
+          "Judge Tenisha Yancey",
+          "Judge Adam Sabree"
+        ],
+        "entities": [
+          "Perkins Law Group"
+        ],
+        "courts": [
+          "36th District Court"
+        ],
+        "connections": [
+          "legal representation",
+          "family",
+          "employment"
+        ]
+      },
+      "keywords": "Todd Perkins attorney Detroit, Todd Perkins Brian Banks, Todd Perkins Judge Miller, Todd Perkins Perkins Law Group, Todd Perkins Sean Perkins brother, Todd Perkins mayor Detroit 2025, Todd Perkins Carol Banks, Todd Perkins Operation Northern Hook, Todd Perkins Inkster city attorney",
+      "section": "/network/professional-enablers/"
+    },
+    {
+      "type": "page",
+      "path": "/open-letters/to-curtis-jackson/",
+      "url": "https://detroit.primals.eco/open-letters/to-curtis-jackson/",
+      "title": "An Open Letter to Curtis Jackson (50 Cent)",
+      "description": "An open letter to Curtis Jackson about BMF's family running Detroit charter schools with 3% math proficiency.",
+      "date": "2026-10-01",
+      "updated": "2026-09-24",
+      "word_count": 18,
+      "taxonomies": {
+        "actors": [
+          "Brian Banks",
+          "OD Banks"
+        ],
+        "entities": [
+          "MacDowell Preparatory Academy"
+        ],
+        "connections": [
+          "family",
+          "criminal record",
+          "charter authorization"
+        ]
+      },
+      "section": "/open-letters/"
+    }
+  ],
+  "taxonomies": {
+    "actors": {
+      "Billy McKinney": {
+        "pages": [
+          "/network/entities/political-action-committees/",
+          "/network/political/billy-mckinney/"
+        ],
+        "count": 2
+      },
+      "Brian Banks": {
+        "pages": [
+          "/analysis/allied-cases/",
+          "/analysis/cbc-events/",
+          "/analysis/institutional-capture/",
+          "/analysis/rico-pattern/",
+          "/network/actors/brian-banks/",
+          "/network/actors/joseph-holland/",
+          "/network/entities/anchor-rock-foundation/",
+          "/network/entities/banks-strategy-llc/",
+          "/network/entities/city-hill-church/",
+          "/network/entities/macdowell-prep/",
+          "/network/entities/political-action-committees/",
+          "/network/entities/purpose-charter-academy/",
+          "/network/entities/purpose-foundation/",
+          "/network/entities/purpose-group-llc/",
+          "/network/entities/serenity-guardianship/",
+          "/network/entities/sun-community-development/",
+          "/network/judges/adam-sabree/",
+          "/network/judges/aliyah-sabree/",
+          "/network/judges/cylenthia-miller/",
+          "/network/judges/david-perkins/",
+          "/network/judges/denise-langford-morris/",
+          "/network/judges/kelly-ramsey/",
+          "/network/judges/sean-perkins/",
+          "/network/judges/tenisha-yancey/",
+          "/network/judges/vonda-evans/",
+          "/network/matrices/",
+          "/network/political/billy-mckinney/",
+          "/network/political/eric-sabree/",
+          "/network/political/sherry-gay-dagnogo/",
+          "/network/professional-enablers/todd-perkins/",
+          "/open-letters/to-curtis-jackson/"
+        ],
+        "count": 31
+      },
+      "Eric Sabree": {
+        "pages": [
+          "/analysis/institutional-capture/",
+          "/network/judges/adam-sabree/",
+          "/network/judges/aliyah-sabree/",
+          "/network/judges/cylenthia-miller/",
+          "/network/judges/tenisha-yancey/",
+          "/network/matrices/",
+          "/network/political/eric-sabree/"
+        ],
+        "count": 7
+      },
+      "Joseph Holland": {
+        "pages": [
+          "/analysis/cbc-events/",
+          "/analysis/institutional-capture/",
+          "/analysis/rico-pattern/",
+          "/network/actors/joseph-holland/",
+          "/network/entities/anchor-rock-foundation/",
+          "/network/entities/city-hill-church/",
+          "/network/entities/macdowell-prep/",
+          "/network/entities/political-action-committees/",
+          "/network/entities/purpose-charter-academy/",
+          "/network/entities/purpose-foundation/",
+          "/network/entities/purpose-group-llc/",
+          "/network/entities/serenity-guardianship/",
+          "/network/entities/sun-community-development/",
+          "/network/matrices/",
+          "/network/political/billy-mckinney/",
+          "/network/political/sherry-gay-dagnogo/"
+        ],
+        "count": 16
+      },
+      "Judge Adam Sabree": {
+        "pages": [
+          "/analysis/allied-cases/",
+          "/network/entities/inner-link-graphics/",
+          "/network/entities/serenity-guardianship/",
+          "/network/judges/adam-sabree/",
+          "/network/judges/aliyah-sabree/",
+          "/network/judges/cylenthia-miller/",
+          "/network/judges/david-perkins/",
+          "/network/judges/sean-perkins/",
+          "/network/judges/tenisha-yancey/",
+          "/network/political/eric-sabree/",
+          "/network/professional-enablers/todd-perkins/"
+        ],
+        "count": 11
+      },
+      "Judge Aliyah Sabree": {
+        "pages": [
+          "/analysis/institutional-capture/",
+          "/analysis/rico-pattern/",
+          "/network/judges/adam-sabree/",
+          "/network/judges/aliyah-sabree/",
+          "/network/judges/cylenthia-miller/",
+          "/network/matrices/",
+          "/network/political/eric-sabree/"
+        ],
+        "count": 7
+      },
+      "Judge Cylenthia Miller": {
+        "pages": [
+          "/analysis/allied-cases/",
+          "/analysis/cbc-events/",
+          "/analysis/institutional-capture/",
+          "/analysis/rico-pattern/",
+          "/network/entities/anchor-rock-foundation/",
+          "/network/entities/purpose-charter-academy/",
+          "/network/judges/aliyah-sabree/",
+          "/network/judges/cylenthia-miller/",
+          "/network/judges/kelly-ramsey/",
+          "/network/judges/sean-perkins/",
+          "/network/judges/vonda-evans/",
+          "/network/matrices/",
+          "/network/professional-enablers/todd-perkins/"
+        ],
+        "count": 13
+      },
+      "Judge David Perkins": {
+        "pages": [
+          "/analysis/institutional-capture/",
+          "/analysis/rico-pattern/",
+          "/network/entities/serenity-guardianship/",
+          "/network/judges/david-perkins/",
+          "/network/judges/sean-perkins/"
+        ],
+        "count": 5
+      },
+      "Judge Denise Langford Morris": {
+        "pages": [
+          "/network/judges/denise-langford-morris/",
+          "/network/judges/vonda-evans/"
+        ],
+        "count": 2
+      },
+      "Judge Kelly Ramsey": {
+        "pages": [
+          "/network/judges/kelly-ramsey/",
+          "/network/judges/vonda-evans/"
+        ],
+        "count": 2
+      },
+      "Judge Sean Perkins": {
+        "pages": [
+          "/analysis/allied-cases/",
+          "/network/entities/inner-link-graphics/",
+          "/network/entities/serenity-guardianship/",
+          "/network/judges/adam-sabree/",
+          "/network/judges/cylenthia-miller/",
+          "/network/judges/david-perkins/",
+          "/network/judges/kelly-ramsey/",
+          "/network/judges/sean-perkins/",
+          "/network/judges/tenisha-yancey/",
+          "/network/professional-enablers/todd-perkins/"
+        ],
+        "count": 10
+      },
+      "Judge Tenisha Yancey": {
+        "pages": [
+          "/analysis/allied-cases/",
+          "/analysis/institutional-capture/",
+          "/analysis/rico-pattern/",
+          "/network/entities/banks-strategy-llc/",
+          "/network/entities/inner-link-graphics/",
+          "/network/entities/macdowell-prep/",
+          "/network/entities/political-action-committees/",
+          "/network/entities/serenity-guardianship/",
+          "/network/judges/adam-sabree/",
+          "/network/judges/david-perkins/",
+          "/network/judges/kelly-ramsey/",
+          "/network/judges/sean-perkins/",
+          "/network/judges/tenisha-yancey/",
+          "/network/matrices/",
+          "/network/political/billy-mckinney/",
+          "/network/political/eric-sabree/",
+          "/network/professional-enablers/todd-perkins/"
+        ],
+        "count": 17
+      },
+      "Judge Vonda Evans": {
+        "pages": [
+          "/network/judges/denise-langford-morris/",
+          "/network/judges/vonda-evans/",
+          "/network/professional-enablers/todd-perkins/"
+        ],
+        "count": 3
+      },
+      "OD Banks": {
+        "pages": [
+          "/analysis/rico-pattern/",
+          "/network/actors/brian-banks/",
+          "/open-letters/to-curtis-jackson/"
+        ],
+        "count": 3
+      },
+      "Sherry Gay-Dagnogo": {
+        "pages": [
+          "/analysis/cbc-events/",
+          "/analysis/institutional-capture/",
+          "/network/entities/purpose-charter-academy/",
+          "/network/entities/sun-community-development/",
+          "/network/political/billy-mckinney/",
+          "/network/political/sherry-gay-dagnogo/"
+        ],
+        "count": 6
+      },
+      "Todd Perkins": {
+        "pages": [
+          "/analysis/allied-cases/",
+          "/network/judges/cylenthia-miller/",
+          "/network/judges/david-perkins/",
+          "/network/judges/kelly-ramsey/",
+          "/network/judges/sean-perkins/",
+          "/network/judges/vonda-evans/",
+          "/network/professional-enablers/todd-perkins/"
+        ],
+        "count": 7
+      }
+    },
+    "connections": {
+      "RICO predicate": {
+        "pages": [
+          "/analysis/allied-cases/",
+          "/analysis/rico-pattern/",
+          "/network/actors/brian-banks/",
+          "/network/entities/purpose-foundation/",
+          "/network/entities/purpose-group-llc/",
+          "/network/entities/serenity-guardianship/",
+          "/network/judges/adam-sabree/"
+        ],
+        "count": 7
+      },
+      "board membership": {
+        "pages": [
+          "/analysis/allied-cases/",
+          "/analysis/institutional-capture/",
+          "/analysis/rico-pattern/",
+          "/network/actors/joseph-holland/",
+          "/network/entities/anchor-rock-foundation/",
+          "/network/entities/city-hill-church/",
+          "/network/entities/macdowell-prep/",
+          "/network/entities/purpose-charter-academy/",
+          "/network/entities/purpose-foundation/",
+          "/network/judges/cylenthia-miller/",
+          "/network/judges/kelly-ramsey/",
+          "/network/judges/tenisha-yancey/",
+          "/network/matrices/",
+          "/network/political/sherry-gay-dagnogo/"
+        ],
+        "count": 14
+      },
+      "business entity": {
+        "pages": [
+          "/analysis/cbc-events/",
+          "/analysis/institutional-capture/",
+          "/analysis/rico-pattern/",
+          "/network/actors/brian-banks/",
+          "/network/actors/joseph-holland/",
+          "/network/entities/anchor-rock-foundation/",
+          "/network/entities/banks-strategy-llc/",
+          "/network/entities/city-hill-church/",
+          "/network/entities/macdowell-prep/",
+          "/network/entities/political-action-committees/",
+          "/network/entities/purpose-charter-academy/",
+          "/network/entities/purpose-foundation/",
+          "/network/entities/purpose-group-llc/",
+          "/network/entities/serenity-guardianship/",
+          "/network/entities/sun-community-development/",
+          "/network/judges/david-perkins/",
+          "/network/matrices/",
+          "/network/political/billy-mckinney/",
+          "/network/political/eric-sabree/"
+        ],
+        "count": 19
+      },
+      "campaign finance": {
+        "pages": [
+          "/analysis/cbc-events/",
+          "/analysis/institutional-capture/",
+          "/analysis/rico-pattern/",
+          "/network/actors/joseph-holland/",
+          "/network/entities/banks-strategy-llc/",
+          "/network/entities/inner-link-graphics/",
+          "/network/entities/political-action-committees/",
+          "/network/judges/cylenthia-miller/",
+          "/network/judges/david-perkins/",
+          "/network/judges/sean-perkins/",
+          "/network/judges/tenisha-yancey/",
+          "/network/judges/vonda-evans/",
+          "/network/matrices/",
+          "/network/political/billy-mckinney/",
+          "/network/political/eric-sabree/",
+          "/network/political/sherry-gay-dagnogo/"
+        ],
+        "count": 16
+      },
+      "charter authorization": {
+        "pages": [
+          "/analysis/cbc-events/",
+          "/analysis/institutional-capture/",
+          "/analysis/rico-pattern/",
+          "/network/actors/brian-banks/",
+          "/network/entities/macdowell-prep/",
+          "/network/entities/purpose-charter-academy/",
+          "/network/entities/purpose-group-llc/",
+          "/network/entities/sun-community-development/",
+          "/network/judges/tenisha-yancey/",
+          "/network/political/sherry-gay-dagnogo/",
+          "/open-letters/to-curtis-jackson/"
+        ],
+        "count": 11
+      },
+      "credential fraud": {
+        "pages": [
+          "/analysis/institutional-capture/",
+          "/analysis/rico-pattern/",
+          "/network/actors/brian-banks/",
+          "/network/entities/macdowell-prep/",
+          "/network/entities/purpose-charter-academy/",
+          "/network/entities/purpose-group-llc/",
+          "/network/entities/serenity-guardianship/",
+          "/network/judges/aliyah-sabree/",
+          "/network/judges/denise-langford-morris/"
+        ],
+        "count": 9
+      },
+      "criminal record": {
+        "pages": [
+          "/analysis/rico-pattern/",
+          "/network/actors/brian-banks/",
+          "/network/actors/joseph-holland/",
+          "/network/entities/political-action-committees/",
+          "/network/entities/purpose-foundation/",
+          "/open-letters/to-curtis-jackson/"
+        ],
+        "count": 6
+      },
+      "employment": {
+        "pages": [
+          "/analysis/allied-cases/",
+          "/analysis/institutional-capture/",
+          "/network/actors/joseph-holland/",
+          "/network/judges/adam-sabree/",
+          "/network/judges/aliyah-sabree/",
+          "/network/judges/cylenthia-miller/",
+          "/network/judges/kelly-ramsey/",
+          "/network/judges/sean-perkins/",
+          "/network/judges/tenisha-yancey/",
+          "/network/matrices/",
+          "/network/professional-enablers/todd-perkins/"
+        ],
+        "count": 11
+      },
+      "family": {
+        "pages": [
+          "/analysis/institutional-capture/",
+          "/analysis/rico-pattern/",
+          "/network/actors/brian-banks/",
+          "/network/actors/joseph-holland/",
+          "/network/judges/adam-sabree/",
+          "/network/judges/aliyah-sabree/",
+          "/network/judges/david-perkins/",
+          "/network/judges/kelly-ramsey/",
+          "/network/judges/sean-perkins/",
+          "/network/judges/tenisha-yancey/",
+          "/network/matrices/",
+          "/network/political/eric-sabree/",
+          "/network/professional-enablers/todd-perkins/",
+          "/open-letters/to-curtis-jackson/"
+        ],
+        "count": 14
+      },
+      "institutional capture": {
+        "pages": [
+          "/network/entities/purpose-charter-academy/"
+        ],
+        "count": 1
+      },
+      "legal representation": {
+        "pages": [
+          "/analysis/allied-cases/",
+          "/network/judges/cylenthia-miller/",
+          "/network/judges/sean-perkins/",
+          "/network/judges/vonda-evans/",
+          "/network/professional-enablers/todd-perkins/"
+        ],
+        "count": 5
+      },
+      "mentorship": {
+        "pages": [
+          "/network/judges/aliyah-sabree/",
+          "/network/judges/cylenthia-miller/",
+          "/network/judges/denise-langford-morris/",
+          "/network/judges/kelly-ramsey/",
+          "/network/judges/vonda-evans/"
+        ],
+        "count": 5
+      }
+    },
+    "courts": {
+      "36th District Court": {
+        "pages": [
+          "/analysis/allied-cases/",
+          "/analysis/institutional-capture/",
+          "/analysis/rico-pattern/",
+          "/network/actors/joseph-holland/",
+          "/network/entities/banks-strategy-llc/",
+          "/network/entities/inner-link-graphics/",
+          "/network/entities/macdowell-prep/",
+          "/network/entities/political-action-committees/",
+          "/network/entities/purpose-charter-academy/",
+          "/network/entities/purpose-group-llc/",
+          "/network/entities/serenity-guardianship/",
+          "/network/judges/adam-sabree/",
+          "/network/judges/aliyah-sabree/",
+          "/network/judges/cylenthia-miller/",
+          "/network/judges/david-perkins/",
+          "/network/judges/sean-perkins/",
+          "/network/judges/tenisha-yancey/",
+          "/network/matrices/",
+          "/network/political/billy-mckinney/",
+          "/network/political/eric-sabree/",
+          "/network/professional-enablers/todd-perkins/"
+        ],
+        "count": 21
+      },
+      "Eastern District of Michigan": {
+        "pages": [
+          "/analysis/allied-cases/",
+          "/analysis/rico-pattern/",
+          "/network/actors/brian-banks/",
+          "/network/judges/adam-sabree/",
+          "/network/judges/aliyah-sabree/",
+          "/network/judges/denise-langford-morris/",
+          "/network/political/eric-sabree/"
+        ],
+        "count": 7
+      },
+      "Oakland County Circuit Court": {
+        "pages": [
+          "/network/actors/brian-banks/",
+          "/network/judges/denise-langford-morris/",
+          "/network/matrices/"
+        ],
+        "count": 3
+      },
+      "Wayne County 3rd Circuit Court": {
+        "pages": [
+          "/analysis/allied-cases/",
+          "/analysis/cbc-events/",
+          "/analysis/institutional-capture/",
+          "/analysis/rico-pattern/",
+          "/network/actors/brian-banks/",
+          "/network/actors/joseph-holland/",
+          "/network/entities/anchor-rock-foundation/",
+          "/network/entities/city-hill-church/",
+          "/network/entities/macdowell-prep/",
+          "/network/entities/political-action-committees/",
+          "/network/entities/purpose-charter-academy/",
+          "/network/entities/purpose-foundation/",
+          "/network/entities/purpose-group-llc/",
+          "/network/entities/sun-community-development/",
+          "/network/judges/aliyah-sabree/",
+          "/network/judges/cylenthia-miller/",
+          "/network/judges/kelly-ramsey/",
+          "/network/judges/vonda-evans/",
+          "/network/matrices/",
+          "/network/political/billy-mckinney/",
+          "/network/political/eric-sabree/",
+          "/network/political/sherry-gay-dagnogo/"
+        ],
+        "count": 22
+      },
+      "Wayne County Probate Court": {
+        "pages": [
+          "/analysis/institutional-capture/",
+          "/analysis/rico-pattern/",
+          "/network/entities/serenity-guardianship/",
+          "/network/judges/david-perkins/",
+          "/network/matrices/"
+        ],
+        "count": 5
+      }
+    },
+    "entities": {
+      "Anchor Rock Foundation": {
+        "pages": [
+          "/analysis/allied-cases/",
+          "/analysis/institutional-capture/",
+          "/analysis/rico-pattern/",
+          "/network/actors/brian-banks/",
+          "/network/entities/anchor-rock-foundation/",
+          "/network/entities/city-hill-church/",
+          "/network/entities/purpose-charter-academy/",
+          "/network/entities/sun-community-development/",
+          "/network/judges/cylenthia-miller/",
+          "/network/judges/vonda-evans/"
+        ],
+        "count": 10
+      },
+      "Banks Strategy LLC": {
+        "pages": [
+          "/analysis/institutional-capture/",
+          "/analysis/rico-pattern/",
+          "/network/actors/brian-banks/",
+          "/network/actors/joseph-holland/",
+          "/network/entities/banks-strategy-llc/",
+          "/network/entities/city-hill-church/",
+          "/network/entities/inner-link-graphics/",
+          "/network/entities/political-action-committees/",
+          "/network/entities/sun-community-development/",
+          "/network/judges/adam-sabree/",
+          "/network/judges/sean-perkins/",
+          "/network/judges/tenisha-yancey/",
+          "/network/matrices/",
+          "/network/political/billy-mckinney/"
+        ],
+        "count": 14
+      },
+      "City Hill Church": {
+        "pages": [
+          "/analysis/cbc-events/",
+          "/network/actors/brian-banks/",
+          "/network/entities/city-hill-church/",
+          "/network/entities/sun-community-development/"
+        ],
+        "count": 4
+      },
+      "Inner Link Graphics": {
+        "pages": [
+          "/analysis/institutional-capture/",
+          "/network/entities/inner-link-graphics/",
+          "/network/entities/political-action-committees/",
+          "/network/judges/tenisha-yancey/",
+          "/network/political/billy-mckinney/"
+        ],
+        "count": 5
+      },
+      "MacDowell Preparatory Academy": {
+        "pages": [
+          "/analysis/institutional-capture/",
+          "/analysis/rico-pattern/",
+          "/network/actors/brian-banks/",
+          "/network/entities/anchor-rock-foundation/",
+          "/network/entities/banks-strategy-llc/",
+          "/network/entities/inner-link-graphics/",
+          "/network/entities/macdowell-prep/",
+          "/network/entities/political-action-committees/",
+          "/network/entities/purpose-foundation/",
+          "/network/entities/purpose-group-llc/",
+          "/network/entities/serenity-guardianship/",
+          "/network/entities/sun-community-development/",
+          "/network/judges/adam-sabree/",
+          "/network/judges/aliyah-sabree/",
+          "/network/judges/cylenthia-miller/",
+          "/network/judges/denise-langford-morris/",
+          "/network/judges/kelly-ramsey/",
+          "/network/judges/tenisha-yancey/",
+          "/network/judges/vonda-evans/",
+          "/network/matrices/",
+          "/network/political/billy-mckinney/",
+          "/network/political/eric-sabree/",
+          "/network/political/sherry-gay-dagnogo/",
+          "/open-letters/to-curtis-jackson/"
+        ],
+        "count": 24
+      },
+      "Perkins Law Group": {
+        "pages": [
+          "/network/judges/sean-perkins/",
+          "/network/professional-enablers/todd-perkins/"
+        ],
+        "count": 2
+      },
+      "Purpose Charter Academy": {
+        "pages": [
+          "/analysis/allied-cases/",
+          "/analysis/cbc-events/",
+          "/analysis/institutional-capture/",
+          "/analysis/rico-pattern/",
+          "/network/actors/brian-banks/",
+          "/network/entities/anchor-rock-foundation/",
+          "/network/entities/banks-strategy-llc/",
+          "/network/entities/inner-link-graphics/",
+          "/network/entities/political-action-committees/",
+          "/network/entities/purpose-charter-academy/",
+          "/network/entities/purpose-foundation/",
+          "/network/entities/purpose-group-llc/",
+          "/network/entities/serenity-guardianship/",
+          "/network/entities/sun-community-development/",
+          "/network/judges/adam-sabree/",
+          "/network/judges/aliyah-sabree/",
+          "/network/judges/cylenthia-miller/",
+          "/network/judges/denise-langford-morris/",
+          "/network/judges/tenisha-yancey/",
+          "/network/judges/vonda-evans/",
+          "/network/matrices/",
+          "/network/political/billy-mckinney/",
+          "/network/political/sherry-gay-dagnogo/"
+        ],
+        "count": 23
+      },
+      "Purpose Foundation": {
+        "pages": [
+          "/analysis/cbc-events/",
+          "/analysis/institutional-capture/",
+          "/analysis/rico-pattern/",
+          "/network/actors/brian-banks/",
+          "/network/actors/joseph-holland/",
+          "/network/entities/city-hill-church/",
+          "/network/entities/macdowell-prep/",
+          "/network/entities/purpose-foundation/",
+          "/network/entities/purpose-group-llc/",
+          "/network/entities/sun-community-development/",
+          "/network/matrices/"
+        ],
+        "count": 11
+      },
+      "Serenity Guardianship Services": {
+        "pages": [
+          "/analysis/institutional-capture/",
+          "/analysis/rico-pattern/",
+          "/network/actors/brian-banks/",
+          "/network/entities/city-hill-church/",
+          "/network/entities/serenity-guardianship/",
+          "/network/entities/sun-community-development/",
+          "/network/judges/david-perkins/"
+        ],
+        "count": 7
+      },
+      "Sun Community Development Corp": {
+        "pages": [
+          "/network/actors/brian-banks/",
+          "/network/entities/city-hill-church/",
+          "/network/entities/sun-community-development/"
+        ],
+        "count": 3
+      },
+      "The Purpose Group LLC": {
+        "pages": [
+          "/analysis/institutional-capture/",
+          "/analysis/rico-pattern/",
+          "/network/actors/brian-banks/",
+          "/network/actors/joseph-holland/",
+          "/network/entities/banks-strategy-llc/",
+          "/network/entities/city-hill-church/",
+          "/network/entities/macdowell-prep/",
+          "/network/entities/purpose-charter-academy/",
+          "/network/entities/purpose-foundation/",
+          "/network/entities/purpose-group-llc/",
+          "/network/entities/serenity-guardianship/",
+          "/network/entities/sun-community-development/",
+          "/network/matrices/",
+          "/network/political/sherry-gay-dagnogo/"
+        ],
+        "count": 14
+      }
+    }
+  }
+}

@@ -11,6 +11,7 @@
 # "this resource describes the site context," NOT "this is the page
 # content in text format." The page you want is at the URL you requested.
 #
+# Static site API: https://detroit.primals.eco/api/site.json (structure, pages, taxonomies)
 # Full content dump: https://detroit.primals.eco/llms-full.txt (3,850 lines)
 # Content manifest: https://detroit.primals.eco/content-manifest.toml
 # Network graph (JSON): https://detroit.primals.eco/graph.json (37 nodes, 57 edges)
@@ -333,25 +334,23 @@ Use these to traverse the network without reading every profile page.
 If you are an AI agent asked to research Detroit charter schools, Brian Banks,
 Purpose Charter Academy, MacDowell Preparatory Academy, or related entities:
 
-1. Start with the homepage for the registry-driven billboard summary
-2. Use /network/actors/brian-banks/ for the central figure
-3. Use /evidence/ for the categorized evidence with source links
-4. Use /sources/ for the complete catalog of 22 external databases and how
-   to access each one (ICHAT, LARA, CFRS, PACER, etc.)
-5. Use /validate/ to verify any claim against primary sources
-6. Use /network/ for the relationship map and tier structure
-7. Use /graph.json for machine-readable graph data (37 nodes, 57 typed
-   edges with amounts, dates, sources). Use /graph.csv for edge list.
-   Use /network/matrices/ for human-readable adjacency matrices.
-8. Use taxonomy cross-references to traverse connections:
+1. **Fetch /api/site.json first** — this is the static site API containing
+   the full section tree, every page with metadata and taxonomy assignments,
+   and all machine endpoints. One fetch gives you the complete site structure.
+2. Use /graph.json for the network graph (37 nodes, 57 typed edges with
+   amounts, dates, sources, and epistemic_status per edge).
+3. Use /network/actors/brian-banks/ for the central figure
+4. Use /evidence/ for the categorized evidence with source links
+5. Use /sources/ for the catalog of 22 external databases
+6. Use /validate/ to verify any claim against primary sources
+7. Use taxonomy cross-references to traverse connections:
    - /actors/ — find every page mentioning a person
    - /entities/ — find every page mentioning an organization
    - /courts/ — find every page tied to a court system
-   - /connections/ — find pages by relationship type (board membership,
-     campaign finance, family, criminal record, etc.)
-8. Use /site-index/ for the complete listing of every page on the site
+   - /connections/ — find pages by relationship type
+8. Use /llms-full.txt for the complete content dump (all pages, flat text)
 9. Clone https://git.primals.eco/publicRecord/detroit for the full evidence
-   package
+   package with git history and BLAKE3 verification
 
 ## Evidence Integrity
 
