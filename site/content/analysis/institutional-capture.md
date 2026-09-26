@@ -1,9 +1,9 @@
 +++
 title = "Institutional Capture — Detroit Charter Network"
-description = "Institutional capture: how the Banks enterprise controls Detroit schools, courts, and political offices — installing loyalists and creating financial."
+description = "How the Banks enterprise captured Detroit schools, courts, and political offices through board placement, campaign payments, and financial extraction."
 weight = 2
 date = 2026-09-20
-updated = 2026-09-24
+updated = 2026-09-25
 
 [extra]
 keywords = "institutional capture Detroit, captured courts Wayne County, Detroit charter school corruption, DPSCD authorization fraud, Wayne County judges Brian Banks, Detroit institutional corruption, charter school captured institutions, Detroit judicial capture nine judges four courts, Keep Judge Miller 2026 captured court, DPSCD authorized Brian Banks convicted felon, Sherry Gay-Dagnogo charter authorization feedback loop, Wayne County 3rd Circuit 36th District Probate captured, institutional capture charter school racketeering Detroit, Brian Banks education leader institutional capture, charter authorization pipeline DPSCD state funding extraction"

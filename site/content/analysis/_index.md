@@ -1,6 +1,6 @@
 +++
 title = "Pattern Analysis"
-description = "RICO pattern, institutional capture, and allied cases — how the Banks charter school enterprise operates as a documented network across schools, courts,."
+description = "RICO pattern analysis, institutional capture, and allied cases documenting how the Banks charter school enterprise spans schools, courts, and politics."
 sort_by = "weight"
 weight = 3
 

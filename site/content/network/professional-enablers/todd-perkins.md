@@ -3,10 +3,10 @@ title = "Todd Perkins — Banks' Attorney"
 description = "Todd Perkins — Perkins Law Group, Detroit. 'Neighborhood Mayor' candidate 2025 (4th place). Banks' personal attorney. Represented Judge Miller in DTW gun case. Brother is Judge Sean Perkins, 36th District Court."
 weight = 1
 date = 2026-09-24
-updated = 2026-09-24
+updated = 2026-09-25
 
 [extra]
-keywords = "Todd Perkins attorney Detroit, Todd Perkins Brian Banks, Todd Perkins Judge Miller, Todd Perkins Perkins Law Group, Todd Perkins Sean Perkins brother, Todd Perkins mayor Detroit 2025, Todd Perkins Carol Banks, Todd Perkins Operation Northern Hook, Todd Perkins Inkster city attorney, Todd Perkins neighborhood mayor Detroit, Todd Perkins perkinsforthepeople.com, Todd Perkins Dartmouth College University of Detroit Mercy School of Law, Todd Perkins for mayor 2025 primary 4th place, Todd Perkins attorney Brian Banks personal lawyer convicted felon, Todd Perkins represented Judge Miller DTW gun case, Todd Perkins P55623 State Bar Michigan, Todd Perkins Floyd Mayweather attorney George Cushingberry, Todd Perkins city attorney Highland Park, Todd Perkins Perkins Law Group 615 Griswold Detroit, Todd Perkins brother Judge Sean Perkins 36th District Court, Todd Perkins criminal defense personal injury, Todd Perkins three decades law career Detroit"
+keywords = "Todd Perkins attorney, Perkins Banks attorney, Detroit charter school attorney, Perkins bankruptcy, IRS liens attorney, Judge Sean Perkins brother, Banks legal representation, Purpose Group LLC attorney, Wayne County attorney"
 
 [taxonomies]
 actors = ["Todd Perkins", "Brian Banks", "Judge Cylenthia Miller", "Judge Vonda Evans", "Judge Sean Perkins", "Judge Tenisha Yancey", "Judge Adam Sabree"]

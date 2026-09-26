@@ -3,10 +3,10 @@ title = "Sherry Gay-Dagnogo — Former Charter Authorizer"
 description = "Detroit City Ombudsman since Oct 2025. Former DPSCD board member who authorized Banks' charter schools. Ex-MI State Rep (HD-8)."
 weight = 1
 date = 2026-09-20
-updated = 2026-09-24
+updated = 2026-09-25
 
 [extra]
-keywords = "Sherry Gay-Dagnogo, Sherry Gay-Dagnogo DPSCD, Sherry Gay-Dagnogo Detroit, DPSCD charter authorization, Michigan House District 1, Sherry Gay-Dagnogo Brian Banks, DPSCD Purpose Charter Academy authorization, Sherry Gay-Dagnogo CBC honoree, HD-1 Detroit charter school, Sherry Gay-Dagnogo ombudsman Detroit, Sherry Gay-Dagnogo resigned DPSCD, Sherry Gay-Dagnogo Michigan House District 8, Sherry Gay-Dagnogo Detroit ombudsman October 2025 2035, Sherry Gay-Dagnogo Wayne State University M.Ed., Sherry Gay-Dagnogo DPSCD board authorized Brian Banks charter, Sherry Gay-Dagnogo city council appointed 10 year term, Sherry Gay-Dagnogo ombudsman education charter school authorization, Sherry Gay-Dagnogo development team Purpose Charter Academy, Sherry Gay-Dagnogo state representative authorized convicted felon school, Sherry Gay-Dagnogo resigned DPSCD ombudsman charter conflict, Sherry Gay-Dagnogo $199500 salary ombudsman, Sherry Gay-Dagnogo Congressional Black Caucus honoree Banks party"
+keywords = "Sherry Gay-Dagnogo, Detroit Ombudsman, Gay-Dagnogo Holland payment, Michigan State Representative, Detroit political accountability, campaign finance Detroit, Gay-Dagnogo charter school, AG referral Detroit, Gay-Dagnogo Ombudsman office"
 
 [taxonomies]
 actors = ["Sherry Gay-Dagnogo", "Brian Banks", "Joseph Holland"]

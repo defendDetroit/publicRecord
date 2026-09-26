@@ -3,7 +3,7 @@ title = "Billy McKinney — Political Operative"
 description = "Billy McKinney — Detroit City Council District 6. Campaign paid Darryl Banks Jr. $4,483 total, linking McKinney operation to the extended Banks family."
 weight = 2
 date = 2026-09-20
-updated = 2026-09-24
+updated = 2026-09-25
 
 [extra]
 keywords = "Billy McKinney Detroit, Darryl Banks Jr campaign payment, McKinney Banks family, Billy McKinney political operative Detroit, Donavan McKinney City Council, McKinney campaign finance TransparencyUSA, Donavan Billy McKinney Detroit City Council District 6, Billy McKinney $4483 Darryl Banks Jr payment, McKinney campaign Banks family linked vendors, Billy McKinney elected November 2021 special election, Billy McKinney Nicole Small Banks associate"

@@ -35,7 +35,7 @@ if you want to understand why we insist on primary sources over secondhand claim
 This project is built by [ecoPrimals](https://sporeprint.primals.eco) — a
 scientific computing ecosystem. As scientists and engineers, we believe truth
 comes from data and reality, not from narrative or authority. In law, truth is
-an [absolute defense](https://sporeprint.primals.eco/atlasHugged/). We treat
+an [absolute defense](/legal/). We treat
 it the same way in publication: every claim is traceable to a public record,
 every correction is preserved, and the record speaks for itself.
 

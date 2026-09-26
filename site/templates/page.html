@@ -20,7 +20,7 @@
   "@type": "Person",
   "name": "{{ page.title | split(pat=' — ') | first }}",
   "description": "{{ page.description | default(value='') }}",
-  "url": "{{ page.permalink }}",
+  "url": "{{ page.permalink | safe }}",
   "knowsAbout": ["Detroit charter schools", "Purpose Charter Academy", "MacDowell Preparatory Academy"]
   {% if page.extra.keywords %},
   "alternateName": "{{ page.extra.keywords | split(pat=',') | first | trim }}"
@@ -32,7 +32,7 @@
   "@type": "Organization",
   "name": "{{ page.title | split(pat=' — ') | first }}",
   "description": "{{ page.description | default(value='') }}",
-  "url": "{{ page.permalink }}"
+  "url": "{{ page.permalink | safe }}"
 }
 {% elif section_path is containing("analysis") %}
 {
@@ -40,7 +40,7 @@
   "@type": "Article",
   "headline": "{{ page.title }}",
   "description": "{{ page.description | default(value='') }}",
-  "url": "{{ page.permalink }}",
+  "url": "{{ page.permalink | safe }}",
   "author": { "@type": "Person", "name": "{{ config.extra.author }}" },
   "datePublished": "{{ page.date | date(format='%Y-%m-%d') }}",
   "dateModified": "{{ now() | date(format='%Y-%m-%d') }}"

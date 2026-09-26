@@ -1,5 +1,13 @@
 {% extends "base.html" %}
 
+{% block title %}{{ section.title }}{% endblock title %}
+{% block description %}{{ section.description }}{% endblock description %}
+{% block og_title %}{{ section.title }}{% endblock og_title %}
+{% block og_desc %}{{ section.description }}{% endblock og_desc %}
+{% block tw_title %}{{ section.title }}{% endblock tw_title %}
+{% block tw_desc %}{{ section.description }}{% endblock tw_desc %}
+{% if section.extra.keywords %}{% block keywords %}{{ section.extra.keywords }}{% endblock keywords %}{% endif %}
+
 {% block content %}
 <section class="hero">
   <h1>Cash for Kids 2: A Public Record</h1>

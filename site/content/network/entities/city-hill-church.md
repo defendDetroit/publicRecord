@@ -3,7 +3,7 @@ title = "City Hill Church — Banks Religious Entity"
 description = "City Hill Church — Brian Banks serves as officer. Registered to his Grosse Pointe Woods residence alongside 8 other Banks-controlled entities."
 weight = 10
 date = 2026-09-20
-updated = 2026-09-24
+updated = 2026-09-25
 
 [extra]
 keywords = "City Hill Church Brian Banks, City Hill Church Detroit, City Hill Church LARA, Great Lakes Vision Evangelism, Brian Banks church entities, 1968 Severn Road entities, City Hill Church LARA 802365641, City Hill Church 1968 Severn Road Grosse Pointe Woods, City Hill Church one of 9 entities same address convicted felon"

@@ -1,9 +1,9 @@
 +++
 title = "Joseph Holland Jr. — Financial Gatekeeper"
-description = "Convicted drug offender (MDOC #443789, Controlled Substance — Possession). Discharged 'WITHOUT IMPROVEMENT."
+description = "Joseph Holland Jr. Convicted drug offender (MDOC #443789). Discharged WITHOUT IMPROVEMENT. Co-resident and financial officer for Banks charter schools."
 weight = 2
 date = 2026-09-20
-updated = 2026-09-24
+updated = 2026-09-25
 
 [extra]
 keywords = "Joseph Holland Detroit, Joseph Holland MDOC, Joseph Holland Purpose Foundation, Joseph Holland convicted, Joseph Holland charter school treasurer, Joseph Holland Brian Banks, Joseph Holland Brian Banks co-resident, Joseph Holland 1968 Severn Road, Bank on Banks PAC treasurer felon, Joseph Holland Jr Williams Joseph Antione, Joseph Holland MDOC 443789 Oakland County, Joseph Holland Controlled Substance Possession, Joseph Holland discharged WITHOUT IMPROVEMENT, Joseph Holland Purpose Foundation Secretary Treasurer convicted, Joseph Holland Banks Living Trust Successor Trustee, Joseph Holland PAC treasurer drug offender, Joseph Holland all officer positions two felons, Joseph Holland financial gatekeeper charter school"

@@ -3,7 +3,7 @@ title = "Judge Denise Langford Morris (Retired)"
 description = "Judge Denise Langford Morris (Retired) — 30-year Oakland County judge. Wrote Banks book foreword using fake J.D."
 weight = 9
 date = 2026-09-20
-updated = 2026-09-24
+updated = 2026-09-25
 
 [extra]
 keywords = "Denise Langford Morris judge, Denise Langford Morris retired, Denise Langford Morris Oakland County, Denise Langford Morris Brian Banks book, Denise Langford Morris foreword, Denise Langford Morris JAMS, Langford Morris Oakland County Circuit, Denise Langford Morris NBA Hall of Fame 2025, Denise Langford Morris assistant US attorney, Denise Langford Morris first African American Oakland County, Denise Langford Morris Cornell University, Denise Langford Morris wrote foreword It Had 2 Happen, Denise Langford Morris legitimized Brian Banks fake J.D., Denise Langford Morris JAMS mediator Detroit, Denise Langford Morris 30 years Oakland County bench, Denise Langford Morris P34884 State Bar Michigan, Denise Langford Morris credential legitimizer Banks"

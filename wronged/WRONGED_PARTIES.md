@@ -78,3 +78,5 @@ If you are a journalist, attorney, or federal investigator reviewing this page, 
 ```bash
 git clone https://git.primals.eco/publicRecord/detroit.git
 ```
+
+Browse the full evidence online at [detroit.primals.eco](https://detroit.primals.eco).
