@@ -77,7 +77,7 @@ A 25-year veteran does not end up misplaced by accident. She ends up misplaced w
 
 If Banks or Wells-Stallworth retaliate against Ms. Webb for the existence of this record, that retaliation is itself a new case. She is a veteran educator with 31 years of documented service. Any adverse action taken against her after the publication of this credential audit will be documented, timestamped, and added to the evidentiary record.
 
-**If you are Ms. Webb:** We see you. We know your record. We know this isn't what 25 years of teaching was supposed to look like. You are not in trouble. You are not alone. When you're ready — on your terms, through a channel you trust — we're here.
+**If you are Ms. Webb:** We see you. We know your record. We know you're holding the fort. We also know you're in a hard spot — placed outside your endorsement, working under someone who would absolutely put you in front of a compliance investigation to shield himself. That's not going to happen. Help is on the way.
 
 publicrecord@primals.eco
 
