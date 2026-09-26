@@ -47,12 +47,51 @@ These individuals appear to have legitimate professional careers independent of 
 
 ## Tier 4: Educators Inside the Building
 
-These individuals work inside Banks' schools. They may be witnesses, victims, or both. They did not create this situation. They show up every day for the children.
+These are the people who show up every day for the children. They did not build this system. They work inside it. Some are veterans. Some are new. All of them deserve better than what Brian Banks and Nicole Wells-Stallworth have built around them.
 
-| Person | Role | What the Record Shows | Our Posture |
-|---|---|---|---|
-| **Rachel A. Webb** (PIC 110442) | Kindergarten Teacher, MacDowell | 25-year veteran educator. Professional Teaching Certificate since 1995. Endorsed for **English 6-12 and Journalism 6-12** — secondary subjects. She is assigned to teach **Kindergarten** — a grade level she has never been endorsed to teach. She has renewed her credential five times across three decades. She is a real teacher who has been placed in the wrong room by an operator who staffs by availability, not qualification. | **She is not the problem. She is evidence that the problem exists.** A veteran teacher does not end up misplaced in kindergarten at a bottom-3% school by choice. If you are Ms. Webb: we see you. We know your record. We know this isn't what 25 years of teaching was supposed to look like. You are not in trouble. You are not alone. Contact us when you're ready — on your terms, through a channel you trust. publicrecord@primals.eco |
-| **Other MacDowell educators** | Teachers and paraprofessionals | Multiple staff members appear to hold substitute permits, permits from other schools, or no discoverable credential. Some may be aware of the credential situation. Some may not. All of them show up for the children. | **Presumed good faith.** If you work at MacDowell or PCA and want to talk — anonymously or on the record — we will protect your identity. publicrecord@primals.eco |
+**We will not name junior staff.** Teachers and paraprofessionals early in their careers cannot absorb the retaliation that comes with being identified in an investigation of their employer. They did not choose this situation. Many may not fully understand what is happening above them. We protect them by keeping their names out of this page and focusing our scrutiny where the power — and the responsibility — actually sits.
+
+We name one educator because she can speak for herself.
+
+---
+
+### Rachel A. Webb — 25-Year Veteran Educator
+
+| Field | Value | Source |
+|---|---|---|
+| PIC | 110442 | MOECS public search |
+| Credential | Professional Teaching Certificate (current) | MOECS — CC-1917M0501220 |
+| Endorsement | **English (BA) 6-12, Journalism (BC) 6-12** | MOECS |
+| First Issued | **February 22, 1995** | MOECS |
+| Current Renewal | May 30, 2025 — expires 6/30/2030 | MOECS |
+| Renewal History | **5 consecutive renewals** (2000, 2005, 2010, 2015, 2020, 2025) | MOECS |
+| Current Assignment | **Kindergarten Teacher, MacDowell Preparatory Academy** | macdowellprep.com/about |
+
+**She is certified to teach English and Journalism to grades 6 through 12. She has been placed in a Kindergarten classroom.**
+
+Rachel Webb has been a credentialed Michigan educator for 31 years. She has renewed her certificate five times. She is endorsed for secondary English and Journalism — subjects that require analytical reading, essay composition, and media literacy instruction for teenagers. She is currently standing in front of five-year-olds at a school where 3% of students are proficient in math.
+
+A 25-year veteran does not end up misplaced by accident. She ends up misplaced when the operator hires by availability rather than qualification — when the priority is filling a seat, not matching a teacher to the children who need her.
+
+**Rachel Webb is not a compliance violation. She is a wronged party.** She has been placed in a position where her decades of expertise cannot reach the students who would benefit from it, at a school that has failed to provide qualified instruction for years, under a superintendent with 9 criminal convictions who claims credentials he does not hold.
+
+If Banks or Wells-Stallworth retaliate against Ms. Webb for the existence of this record, that retaliation is itself a new case. She is a veteran educator with 31 years of documented service. Any adverse action taken against her after the publication of this credential audit will be documented, timestamped, and added to the evidentiary record.
+
+**If you are Ms. Webb:** We see you. We know your record. We know this isn't what 25 years of teaching was supposed to look like. You are not in trouble. You are not alone. When you're ready — on your terms, through a channel you trust — we're here.
+
+publicrecord@primals.eco
+
+---
+
+### To All Other MacDowell and PCA Educators
+
+We conducted a credential audit of MacDowell's staff using MOECS public records on September 26, 2026. The results show multiple credential concerns across the roster — substitute permits from other schools, expired certificates, endorsement mismatches, and staff with no discoverable credential.
+
+**We are not publishing your names here.** You are not the target. You are not the problem. You took a job. You show up for the kids.
+
+If you work at MacDowell or Purpose Charter Academy and want to talk — anonymously or on the record — we will protect your identity. Your experience inside that building is evidence. Your safety comes first.
+
+publicrecord@primals.eco
 
 ## Tier 5: Other Potentially Wronged Parties
 
