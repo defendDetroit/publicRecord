@@ -1,6 +1,6 @@
 # Wronged Parties — Institutions and Individuals Believed Harmed by Association
 
-**Last updated:** September 20, 2026
+**Last updated:** September 26, 2026
 
 ---
 
@@ -45,7 +45,16 @@ These individuals appear to have legitimate professional careers independent of 
 | **Devin Hutchings, MBA, CBIS** | 20+ year career in brain injury rehabilitation (Eisenhower Center, Ann Arbor — CARF-accredited, employee-owned). President, CPAN (auto insurance consumer advocacy). MBA (Central Michigan), DEI cert (Cornell). | PCA Board Treasurer. Banks' book calls him "first client" — relationship began as a consulting engagement. His SuperPAC (MI Deserves Better) sent $20K to Right Turn Project (Banks/Holland entity) — likely a normal political donation to a legislator's associated 501(c)(3). His presence on the PCA board gives credibility to a board otherwise composed of a judge with 3 scandals, an AAG running for judge in Banks' home district, a council member elected with dark money, and a murder acquittal. | **Presumed good faith.** His organizations appear legitimate. His involvement pattern is consistent with social engineering rather than active conspiracy. If you are Mr. Hutchings and wish to respond, contact us. |
 | **Dr. Caryn Reed-Hendon, Ph.D.** | Manager, Health Advancement & Professional Excellence, Henry Ford Medical Group. Previously: Founding Director of DEI, Lawrence Technological University and Oakland University WB School of Medicine. Ph.D. Educational Leadership. Crain's Notable Leaders in DEI 2023. | MacDowell Board Vice Chair. Her Henry Ford Health affiliation lends institutional credibility to a school board governing a school at 3% math proficiency. | **Presumed good faith.** Pending review. |
 
-## Tier 4: Other Potentially Wronged Parties
+## Tier 4: Educators Inside the Building
+
+These individuals work inside Banks' schools. They may be witnesses, victims, or both. They did not create this situation. They show up every day for the children.
+
+| Person | Role | What the Record Shows | Our Posture |
+|---|---|---|---|
+| **Rachel A. Webb** (PIC 110442) | Kindergarten Teacher, MacDowell | 25-year veteran educator. Professional Teaching Certificate since 1995. Endorsed for **English 6-12 and Journalism 6-12** — secondary subjects. She is assigned to teach **Kindergarten** — a grade level she has never been endorsed to teach. She has renewed her credential five times across three decades. She is a real teacher who has been placed in the wrong room by an operator who staffs by availability, not qualification. | **She is not the problem. She is evidence that the problem exists.** A veteran teacher does not end up misplaced in kindergarten at a bottom-3% school by choice. If you are Ms. Webb: we see you. We know your record. We know this isn't what 25 years of teaching was supposed to look like. You are not in trouble. You are not alone. Contact us when you're ready — on your terms, through a channel you trust. publicrecord@primals.eco |
+| **Other MacDowell educators** | Teachers and paraprofessionals | Multiple staff members appear to hold substitute permits, permits from other schools, or no discoverable credential. Some may be aware of the credential situation. Some may not. All of them show up for the children. | **Presumed good faith.** If you work at MacDowell or PCA and want to talk — anonymously or on the record — we will protect your identity. publicrecord@primals.eco |
+
+## Tier 5: Other Potentially Wronged Parties
 
 | Party | Nature of Harm |
 |---|---|
