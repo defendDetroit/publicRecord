@@ -307,6 +307,24 @@ fines = "$14,500+"
 connection = "Holland (convicted drug offender) as PAC treasurer"
 page = "/network/entities/political-action-committees/"
 
+[extra.entities.escuela_avancemos]
+display = "Escuela Avancemos"
+short = "Escuela Avancemos"
+type = "Charter school"
+connection = "Source of Daily Substitute Permit held by MacDowell 3rd-grade teacher"
+
+[extra.entities.chandler_park]
+display = "Chandler Park Academy"
+short = "Chandler Park"
+type = "Charter school"
+connection = "Source of Daily Substitute Permit held by MacDowell 5th-grade teacher"
+
+[extra.entities.dpscd]
+display = "Detroit Public Schools Community District"
+short = "DPSCD"
+type = "Authorizer"
+connection = "Authorized PCA despite operator's bottom-3% record at MacDowell"
+
 # ── Source Registry ───────────────────────────────────────────────────────
 # Central truth for every external database / news source we cite.
 # Each source gets: display name, base URL, type (gov/news/legal/reference),
