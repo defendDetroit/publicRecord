@@ -1,13 +1,28 @@
-{
-  "braid_hash": "bc9f84c7170e535fe84bec12418261f088cf16184f9e59272399e3f1f39c034c",
-  "braided_at": "2026-09-25T19:17:18Z",
-  "bytes": 46924695,
-  "collection": "mde-foia-sep25",
-  "committer": "did:eco:ecoPrimal",
-  "convergence_depth": 4,
-  "files": 21,
-  "merkle_root": "bc9f84c7170e535fe84bec12418261f088cf16184f9e59272399e3f1f39c034c",
-  "session_id": "01a0da00-28ee-77d2-9f2d-0cebcb443593",
-  "signature": null,
-  "spine_id": "01a0d9fa-4116-76a0-bf2e-31786f5c17a1"
-}
+[
+  {
+    "braid_hash": "bc9f84c7170e535fe84bec12418261f088cf16184f9e59272399e3f1f39c034c",
+    "braided_at": "2026-09-25T19:17:18Z",
+    "bytes": 46924695,
+    "collection": "mde-foia-sep25",
+    "committer": "did:eco:ecoPrimal",
+    "convergence_depth": 4,
+    "files": 21,
+    "merkle_root": "bc9f84c7170e535fe84bec12418261f088cf16184f9e59272399e3f1f39c034c",
+    "session_id": "01a0da00-28ee-77d2-9f2d-0cebcb443593",
+    "signature": null,
+    "spine_id": "01a0d9fa-4116-76a0-bf2e-31786f5c17a1"
+  },
+  {
+    "braid_hash": [
+      "ea72d99659b77ac58cee8a63563ec1393bae213c7a4dda2b9003376fd56a788d",
+      "df89f12f6b9c00c420d7f58eebd489d6297ab949d335343b2db4d036e8265692"
+    ],
+    "braided_at": "2026-09-26T11:25:21Z",
+    "bytes": 15144,
+    "collection": "credential-audit-sep26",
+    "committer": "did:eco:ecoPrimal",
+    "files": 2,
+    "source": "MOECS public search + MDE FOIA financial data",
+    "merkle_root": "05b62434499a8c9a6e5d752050fb1d057aed1c04ac1d38b763382fa11aa61f90"
+  }
+]
