@@ -497,3 +497,53 @@ type = "jurisdiction"
 epistemic_status = "inference"
 note = "Cases from MacDowell families filed in 36th District"
 weight = 5
+
+# ── Credential Audit Edges (Wave 157 — Sep 26, 2026) ─────────────────────
+
+[[edge]]
+source = "purpose_group"
+target = "macdowell"
+type = "financial"
+epistemic_status = "record"
+note = "10% SSA + ALL operating costs = 72.67% of revenue"
+amount = "72.67%"
+weight = 10
+source_doc = "Purpose Group Management Agreement (FOIA)"
+
+[[edge]]
+source = "dpscd"
+target = "pca"
+type = "authorization"
+epistemic_status = "record"
+note = "Authorized PCA despite operator's bottom-3% record at MacDowell"
+weight = 8
+source_doc = "DPSCD charter authorization records"
+
+[[edge]]
+source = "escuela_avancemos"
+target = "macdowell"
+type = "permit"
+epistemic_status = "record"
+role = "Source of Daily Substitute Permit for 3rd-grade teacher"
+note = "Alana Hubbell — Daily Sub Permit issued through Escuela Avancemos"
+weight = 4
+source_doc = "MOECS public search Sep 26, 2026"
+
+[[edge]]
+source = "chandler_park"
+target = "macdowell"
+type = "permit"
+epistemic_status = "record"
+role = "Source of Daily Substitute Permit for 5th-grade teacher"
+note = "Ashlie Spencer — Daily Sub Permit issued through Chandler Park Academy"
+weight = 4
+source_doc = "MOECS public search Sep 26, 2026"
+
+[[edge]]
+source = "purpose_group"
+target = "pca"
+type = "property"
+epistemic_status = "record"
+note = "Building purchase option from DPSCD at 10101 E. Canfield"
+weight = 7
+source_doc = "Purpose Group Management Agreement (FOIA)"
