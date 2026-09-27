@@ -1,8 +1,9 @@
 # Banks Network — Actor Map
 
-**Last updated:** September 25, 2026
-**Total documented actors:** 25+ individuals, 7 judges, across 4 courts
-**Data layers:** OSINT (Layer 1) + MDE FOIA (Layer 2, received Sep 25)
+**Last updated:** September 27, 2026
+**Total documented actors:** 35+ individuals, 7 judges, across 4 courts, 4 dynasties
+**Data layers:** OSINT (Layer 1) + MDE FOIA (Layer 2) + BCF 990s (Layer 3) + API scrapes (Layer 3)
+**Philosophical framework:** [The Machine — How Every Level Was Captured](/analysis/the-machine/) (ecoPrimals atlasHugged field application)
 
 ---
 
