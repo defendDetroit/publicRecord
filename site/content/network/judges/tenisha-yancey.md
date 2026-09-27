@@ -1,18 +1,18 @@
 +++
-title = "Judge Tenisha Yancey"
-description = "Judge Tenisha Yancey — 36th District Court. MacDowell board chair. $383.82 was her sole contribution and sole expenditure — all to Banks Strategy LLC."
+title = "Judge Tenisha Yancey — The Bridge"
+description = "Judge Tenisha Yancey, 36th District Court. MacDowell Board Chair. Her sole campaign activity: paying Banks' LLC $383.82. Sister Dr. Chalena Yancey Beasley runs PCA. Son Jaylen paid $2,935 from campaign. Niece of UAW VP Jimmy Settles. Worked at Wayne County Land Bank under Eric Sabree. Succeeded Banks in HD-1. Grew up on his street."
 weight = 2
 date = 2026-09-20
-updated = 2026-09-25
+updated = 2026-09-27
 
 [extra]
-keywords = "Judge Tenisha Yancey, 36th District Court, MacDowell board chair, Yancey Detroit judge, charter school board member, Tiffany Yancey PCA, Wayne County judge charter school, Yancey Pahara Fellowship, Detroit judicial connections"
+keywords = "Judge Tenisha Yancey 36th District Court, Yancey MacDowell board chair, Yancey Banks Strategy LLC, Chalena Yancey Beasley PCA School Leader, Yancey sister PCA, Jaylen Yancey campaign payment, Jimmy Settles UAW Yancey uncle, Tenisha Yancey Wayne County Land Bank, Yancey Harper Woods Banks, 36th District Court captured judges, Yancey Adam Sabree Sean Perkins same court"
 
 [taxonomies]
-actors = ["Judge Tenisha Yancey", "Brian Banks", "Judge Adam Sabree", "Judge Sean Perkins", "Eric Sabree"]
-entities = ["MacDowell Preparatory Academy", "Purpose Charter Academy", "Banks Strategy LLC", "Inner Link Graphics"]
+actors = ["Judge Tenisha Yancey", "Brian Banks", "Judge Adam Sabree", "Judge Sean Perkins", "Eric Sabree", "Dr. Chalena Yancey Beasley", "Jimmy Settles"]
+entities = ["MacDowell Preparatory Academy", "Purpose Charter Academy", "Banks Strategy LLC", "Inner Link Graphics", "Wayne County Land Bank"]
 courts = ["36th District Court"]
-connections = ["board membership", "campaign finance", "family", "employment", "charter authorization"]
+connections = ["board membership", "campaign finance", "family", "employment", "predecessor-successor", "charter authorization"]
 +++
 
 ## Position
@@ -20,82 +20,112 @@ connections = ["board membership", "campaign finance", "family", "employment", "
 | Field | Value |
 |-------|-------|
 | Court | **36th District Court** (Detroit) |
-| Status | Elected — term ends **January 1, 2029** |
+| Status | Elected Nov 2022 — term ends **January 1, 2029** |
+| Born | August 29, 1976, Detroit |
+| Education | B.AS., Eastern Michigan University; **J.D., University of Detroit Mercy School of Law (2013)** |
 
-## Connection to Banks Network {{ confidence(level="verified") }}
+## The Yancey Family — Her Own Subgraph {{ confidence(level="verified") }}
 
-| Transaction | Amount | Date | Source |
-|-------------|--------|------|--------|
-| Campaign payment to "Banks Strategy and Consultants" | **$383.82** | 2024 | TransparencyUSA |
-| Campaign payment to Inner Link Graphics | **$8,025** total | Multiple | TransparencyUSA |
+```
+JIMMY SETTLES (UAW Vice President — labor power)
+    └── uncle of
+TENISHA YANCEY (36th District Judge)
+    ├── MacDowell Board Chair
+    ├── Campaign paid Banks Strategy LLC $383.82 (SOLE activity)
+    ├── Campaign paid Inner Link Graphics $8,025
+    ├── Campaign paid son Jaylen $2,935
+    ├── Succeeded Banks in HD-1 (Nov 2017)
+    ├── Grew up on Banks' street
+    ├── Worked at Wayne County Land Bank (Sabree's domain)
+    │
+    ├── SON: Jaylen Yancey
+    │   └── $2,935 from mother's campaign committee
+    │
+    └── SISTER: Dr. Chalena Yancey Beasley
+        └── PCA School Leader — runs Banks' school daily
+```
 
-**The $383.82 was both Yancey's SOLE contribution (from herself) and SOLE expenditure (to Banks' LLC).** Her only financial activity in that cycle was paying {{ entity(key="banks_strategy") }}.
+| Family Member | Role | Connection |
+|---------------|------|------------|
+| **Dr. Chalena Yancey Beasley** | Sister — PCA School Leader | Runs Purpose Charter Academy day-to-day. Confirmed via Walden dissertation dedication. Properly credentialed (Professional Teaching + School Admin). |
+| **Jaylen Yancey** | Son | **$2,935** paid from Yancey's campaign committee. Co-party on multiple Wayne County ROD instruments. |
+| **Jimmy Settles** | Uncle — Former UAW Vice President | Major Detroit labor power broker. UAW's influence extends across Wayne County politics, judicial endorsements, and school board elections. |
 
-## Key Facts
+## How She Got Here — The Pipeline {{ confidence(level="verified") }}
 
-- **Board Chair of MacDowell Preparatory Academy** — listed on school website and [independently confirmed by Clutch Justice](https://clutchjustice.com/2026/09/13/macdowell-preparatory-academy-academic-financial-record/) (*September 2026*)
-- A sitting Wayne County judge's campaign **directly paid** Banks' personal consulting LLC
-- Banks Strategy & Consultants LLC is controlled solely by a convicted felon (9 convictions, 6 felony) who claims a J.D. not confirmed by bar records
-- The payment creates a documented financial relationship between a sitting judge and the network
-- Wayne County is the jurisdiction where Banks' school entities operate and generate cases
+| Year | Step | Significance |
+|------|------|-------------|
+| 2007–2013 | **Wayne County Land Bank** — Project Manager | Worked inside **Eric Sabree's** domain. Managed TURBO, Project Saved, Foreclosure Rehabilitation Initiative |
+| ~2013 | Wayne County Executive's Office | Government relations under Warren Evans |
+| ~2014 | Wayne County Prosecutor's Office | Assistant Prosecuting Attorney, Juvenile Division |
+| 2016 | **Harper Woods Board of Education** | Appointed, then elected. Same Harper Woods where Banks lives (0.3 miles away) |
+| **Feb 2017** | **Banks resigns HD-1** | Resigned after AG felony charges + plea deal |
+| **Nov 2017** | **Yancey wins HD-1 special election** | Succeeds Banks — recruited as successor per Banks' own book |
+| 2017–2022 | State Representative, HD-1 | Overlapped with Gay-Dagnogo (HD-8) in same Legislature |
+| **Nov 2022** | **Elected 36th District Court Judge** | Same election as Adam Sabree. Same court as Sean Perkins. |
+| 2023+ | **MacDowell Board Chair** | Chairs the school Banks runs at 3% math proficiency |
 
-## Family Connection — Dr. Chalena Yancey Beasley {{ confidence(level="documented") }}
+She worked in Sabree's land bank. She grew up on Banks' street. Banks recruited her as his successor. She took his legislative seat. She chairs his school board. Her sister runs his other school. Her campaign's only financial activity was paying his personal LLC.
 
-- **Dr. Chalena Yancey Beasley** (née Yancey) = **PCA School Leader** at Purpose Charter Academy
-- Confirmed via Walden University dissertation dedication
-- Used surname "Yancey" before marriage
-- A judge's **sister** runs Banks' new school while the judge chairs his other school and pays his LLC
+**This is not a coincidence. It is a career path designed by the network.**
 
-## Wayne County Register of Deeds Analysis {{ confidence(level="documented") }}
+## Campaign Finance {{ confidence(level="verified") }}
+
+| Transaction | Amount | Recipient | Source |
+|-------------|--------|-----------|--------|
+| Campaign payment | **$383.82** | Banks Strategy and Consultants LLC | TransparencyUSA |
+| Campaign payment | **$8,025** total | Inner Link Graphics (Banks network vendor) | TransparencyUSA |
+| Campaign payment | **$2,935** | **Jaylen Yancy** (her son) | [TransparencyUSA](https://www.transparencyusa.org/mi/payee/875197) |
+
+The $383.82 to Banks Strategy was both Yancey's **SOLE contribution** (from herself) and **SOLE expenditure** (to Banks' LLC). Her only financial activity in that cycle was paying a convicted felon's consulting company.
+
+## Wayne County Property — ROD Analysis {{ confidence(level="documented") }}
 
 | Finding | Detail |
 |---------|--------|
-| Total ROD records | 21 analyzed |
-| Alcoy property | Suspicious sequence: tax forfeiture → HELOC → QCD → quick $200K sale |
-| Harper Woods residence | **0.3 miles** from Banks' Newcastle Rd property |
-| Co-party | Jaylen Gregory Yancey on multiple instruments |
-| River Place condo | Acquired $268K condo at 300 River Place while retaining other property |
-| Direct Banks instruments | None found in ROD search |
+| Primary asset | 21406 Broadstone St, Harper Woods — **0.3 miles** from Banks' Newcastle Rd |
+| Acquisition | $52,000 from **Fannie Mae** (2010) — foreclosure purchase |
+| Tax forfeiture | 2023 taxes — forfeited **April 2025** (Treasurer vs Tenisha R & Jaylen G Yancey) |
+| HELOC | $73,500 from Alliant Credit Union (**March 2025**) — taken AFTER forfeiture notice |
+| QCD | Tenisha + Jaylen → Tenisha only ($1) — removed son from deed before sale |
+| Sale | $200,000 to Kendricks (**July 2025**) |
+| Second property | 337 E Crescent Ln condo (Harbortown) — $241,200 PSCU mortgage (Oct 2024) |
+| **PSCU overlap** | Same credit union where Banks holds $549K+ in mortgages |
 
-## 36th District Court Concentration
+## 36th District Court — Three Network Judges, One Court {{ confidence(level="verified") }}
 
-Yancey sits on the **same court** as:
+| Judge | Connection | Elected |
+|-------|------------|---------|
+| **Tenisha Yancey** | MacDowell Board Chair + paid Banks' LLC + sister runs PCA | Nov 2022 |
+| **Adam Sabree** | Eric Sabree's son + ex-Metro Property Group counsel | Nov 2022 |
+| **Sean Perkins** | Brother of Todd Perkins (Banks' attorney) | Nov 2022 |
 
-| Judge | Connection |
-|-------|------------|
-| {{ actor(key="adam_sabree") }} | Eric Sabree's son; ex-Metro Property Group counsel |
-| {{ actor(key="sean_perkins") }} | Todd Perkins' brother — Todd is {{ actor(key="banks") }}' attorney |
+All three won in the **same election**. All three terms end **January 1, 2029**. Three of seven judges on the 36th District Court are connected to one enterprise.
 
-**Three network judges on one court.** All three won seats in the **same November 2022 election**. All three terms end **January 1, 2029**.
+## What She Bridges
+
+Yancey is the **human bridge** connecting:
+
+| From | To | Through |
+|------|----|---------|
+| **Banks enterprise** | Wayne County courts | MacDowell Board Chair + 36th District Judge |
+| **Sabree dynasty** | Banks' schools | Worked at Sabree's Land Bank → chairs Banks' school |
+| **HD-1 political seat** | Judicial bench | Banks → Yancey → 36th District |
+| **Labor power** (UAW/Settles) | School governance | Uncle's endorsement machine feeds judicial campaigns |
+| **PCA daily operations** | Judicial protection | Sister runs PCA → Yancey sits on the bench |
+| **Harper Woods** | Grosse Pointe Woods | 0.3 miles between network actors' homes |
+
+She is not a dynasty matriarch. She is the **connective tissue** — the person who physically sat in each institution, in sequence, creating the handoff chain from Banks' resignation to judicial capture.
 
 ## Verify
 
-- Campaign finance: [transparencyusa.org](https://transparencyusa.org) — search "Yancey" + "Banks Strategy"
+- 36th District Court: [36thdistrictcourtmi.gov](https://www.36thdistrictcourtmi.gov/about-us/judges/tenisha-yancey)
+- Ballotpedia: [Tenisha Yancey](https://ballotpedia.org/Tenisha_Yancey)
+- Wikipedia: [Tenisha Yancey](https://en.wikipedia.org/wiki/Tenisha_Yancey) — confirms Jimmy Settles relationship
+- Campaign finance: [TransparencyUSA](https://transparencyusa.org) — "Banks Strategy", "Jaylen Yancy"
 - Wayne County ROD: [waynecountylandrecords.com](https://www.waynecountylandrecords.com)
-
-## Wayne County Land Bank Background (2007–2013)
-
-Before her judicial career, Yancey was a **project manager at the Wayne County Land Bank** from approximately **2007 to 2013**, overseeing foreclosure-related programs including TURBO, Project Saved, and the Foreclosure Rehabilitation Initiative.
-
-| Connection | Detail |
-|------------|--------|
-| Same entity | The Wayne County Land Bank is chaired by Wayne County Treasurer **Eric R. Sabree** — father of {{ actor(key="adam_sabree") }} and {{ actor(key="sabree") }} |
-| Foreclosure pipeline | The Land Bank processes the same foreclosures that Sabree's family has been investigated for exploiting at tax auctions |
-| HD-1 successor | Yancey succeeded {{ actor(key="banks") }} in **Michigan House District 1** after his February 2017 resignation, winning the November 2017 special election |
-| Harper Woods | Yancey resides in Harper Woods — same jurisdiction as multiple Banks-network property transactions |
-
-Yancey worked inside the foreclosure infrastructure that feeds distressed properties into the network's acquisition pipeline, then succeeded Banks in his legislative seat, then won a 36th District Court judgeship where she sits alongside two other network-connected judges.
-
-## Independent Reporting
-
-### Primary Analytical Reference
-- {{ source(key="clutch_justice", path="/2026/09/13/macdowell-preparatory-academy-academic-financial-record/", label="MacDowell: $15,217/student, 3% math proficiency") }} — Documents Yancey as Board Chair of MacDowell alongside Nicole Wells Stallworth; three sitting judges across both schools' governance (Sep 2026)
-
-### Secondary Sources & Reference
-- {{ source(key="ballotpedia", path="/Tenisha_Yancey", label="Tenisha Yancey") }} — HD-1 special election (Nov 2017) after Banks resignation; Land Bank and legislative biography
-- [BallotReady: Tenisha Renee Yancey](https://www.ballotready.org/people/tenisha-renee-yancey) — Wayne County Land Bank project manager (2007–2013)
-- {{ source(key="thirty_sixth_district", label="Judge Tenisha Yancey") }}
+- Detroit Recovery Project: [theorg.com](https://theorg.com/org/detroit-recovery-project/org-chart/tenisha-yancey) — biography
 
 ---
 
-*All sources are public records.*
+*All sources are public records, campaign finance filings, property records, and published biographies.*

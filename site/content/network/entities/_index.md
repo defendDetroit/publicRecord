@@ -74,3 +74,12 @@ graph TB
 {% end %}
 
 **Every entity registers to the same Grosse Pointe Woods address.** The same two felons hold every position — no independent governance, no independent financial oversight.
+
+## The Incubator
+
+Beyond the Banks-controlled entities, the network connects to external institutions that provided the social infrastructure:
+
+| Entity | Role in Network |
+|--------|----------------|
+| **[Black Caucus Foundation of Michigan](/network/entities/black-caucus-foundation/)** | **"Reunion of Felons"** — where Banks met the Stallworths. Board: 4 convicted felons. Mission: "decrease drug use among youth." Managed by Keith Stallworth (federal money laundering conviction). |
+| **[Foley & Mansfield PLLP](/network/professional-enablers/meihn-gregory/)** | National law firm retained by Wells-Stallworth within 14 minutes to kill MDE investigation |

@@ -21,6 +21,7 @@ Analysis of the documented patterns connecting convicted felons, captured courts
 | **[Words vs. Numbers](/analysis/words-vs-numbers/)** | What they claim vs. what public records show — 3% math, 9 convictions |
 | **[The Land Deal](/analysis/land-deal/)** | PCA building purchase option — public property conversion mechanism |
 | **[Detroit Literacy Crisis](/analysis/detroit-literacy/)** | Systemic view — authorization incentives, extraction vehicles, enforcement theater |
+| **[Shepherds and Wolves](/analysis/shepherds-and-wolves/)** | The Presiding Bishop of COGIC endorsed Banks. A self-consecrated bishop authorized his charter. The congregations were never told. |
 
 The analysis proceeds from evidence to pattern — never the reverse. Where conclusions are drawn, they are clearly marked as analysis submitted for agency determination, not legal findings. See [Legal Protections](/legal/) for the framework and [Verify Everything](/validate/) to check any claim.
 

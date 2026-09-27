@@ -42,7 +42,14 @@ graph TB
         D_PERKINS["<b>Judge D. Perkins</b><br/>Probate"]
     end
 
-    subgraph POLITICAL["🏛️ Tier 3 — Political Cover"]
+    subgraph STALLWORTH["🏛️ Tier 3A — Stallworth Dynasty"]
+        NWS["Nicole Wells-Stallworth<br/>MacDowell Board President<br/>Killed MDE investigation"]
+        KEITH_S["Keith Stallworth<br/>⚠️ Federal money laundering<br/>BCF Managing Director"]
+        MISHA["Misha Stallworth West<br/>DPSCD Board Member"]
+        BCF["Black Caucus Foundation<br/>Reunion of Felons"]
+    end
+
+    subgraph POLITICAL["🏛️ Tier 3B — Political Cover"]
         GAY["Sherry Gay-Dagnogo<br/>Authorized charters · Ombudsman"]
         E_SABREE["Eric Sabree<br/>County Treasurer · FBI-probed"]
         MCKINNEY["Billy McKinney<br/>Campaign payments"]
@@ -72,9 +79,17 @@ graph TB
     E_SABREE -.->|"father"| A_SABREE
     E_SABREE -.->|"father"| AL_SABREE
     E_SABREE -.->|"endorser"| MILLER
+    NWS -->|"Board President<br/>hired Banks"| MAC
+    NWS -.->|"killed investigation"| BANKS
+    KEITH_S -->|"Managing Director"| BCF
+    BANKS -.->|"board member"| BCF
+    MISHA -->|"authorizes charter"| MAC
+    NWS -.->|"$1,250+ donated"| BANKS
+
     GAY -.->|"authorized charters"| PCA
     GAY -.->|"CBC honoree"| BANKS
 
+    classDef stallworth fill:#713f12,stroke:#f59e0b,color:#fef3c7
     classDef tier1 fill:#991b1b,stroke:#ef4444,color:#fecaca
     classDef revenue fill:#1e3a5f,stroke:#60a5fa,color:#bfdbfe
     classDef extraction fill:#713f12,stroke:#f59e0b,color:#fef3c7
@@ -88,6 +103,7 @@ graph TB
     class STATE state
     class LLC,FOUNDATION,BSC extraction
     class MILLER,YANCEY,A_SABREE,AL_SABREE,S_PERKINS,RAMSEY,EVANS_J,MORRIS,D_PERKINS judicial
+    class NWS,KEITH_S,MISHA,BCF stallworth
     class GAY,E_SABREE,MCKINNEY political
     class TODD professional
 {% end %}
@@ -116,12 +132,92 @@ graph LR
 
 The loop closes: public dollars → school → LLC → Banks → campaign payments → judges + politicians → charter authorization → more public dollars. No external oversight breaks the circle because each regulator sees only one segment.
 
+## Four Dynasties — One Machine
+
+This is not one corrupt individual. It is **four interlocking political dynasties** that converge on one charter school enterprise:
+
+| Dynasty | Federal Record | Role in Machine |
+|---------|----------------|----------------|
+| **[Banks/Flenory (BMF)](/books/black-mafia-family/)** | OD Banks: BMF Defendant #22 | Blood lineage. Extraction playbook. |
+| **[Stallworth](/network/political/stallworth-keith/)** | Keith: $20K gang money laundering | BCF incubation → MacDowell board → DPSCD authorization |
+| **[Sabree](/network/political/eric-sabree/)** | FBI-probed, Bowles class action | Judicial capture — 2 children on the bench |
+| **[Kilpatrick](/network/political/kilpatrick-dynasty/)** | Kwame: 24 RICO felonies, pardoned | PR (Dumas), dark money (Daniels), charter auth (Gay-Dagnogo) |
+
+**[→ Full Four Dynasties Analysis](/network/dynasties/)**
+
+## The Stallworth Dynasty — How a Family Inherited the Trade
+
+{% mermaid(title="Stallworth Dynasty — From Drug Money to Charter Schools") %}
+graph TB
+    subgraph DYNASTY["🏛️ The Stallworth Dynasty"]
+        ALMA["<b>Alma Stallworth</b><br/>State Rep (21 years)<br/>Founded BCF"]
+        KEITH["<b>Keith 'K.B.' Stallworth</b><br/>State Rep → Wayne Co. Comm.<br/>⚠️ 2003 FEDERAL GUILTY PLEA<br/>Laundered $20K for a gang<br/>through Detroit strip club"]
+        TOMMY["<b>Thomas Stallworth III</b><br/>State Rep (2011-2015)<br/>Chair, MI Black Caucus"]
+        NICOLE["<b>Nicole Wells-Stallworth</b><br/>MacDowell Board President<br/>CEO, The Children's Center"]
+        MISHA["<b>Misha Stallworth West</b><br/>DPSCD Board Member"]
+    end
+
+    subgraph BCF["🔴 Black Caucus Foundation — Reunion of Felons"]
+        BCF_ORG["<b>BCF Michigan</b><br/>Mission: 'decrease drug use among youth'<br/>Managed by a federal money launderer"]
+        BANKS_BCF["Brian Banks<br/>Board Member<br/>9 convictions"]
+        SMITH["Virgil Smith<br/>Board Member<br/>Felony assault"]
+        JOHNSON["Bert Johnson<br/>Board Member<br/>Federal bribery"]
+    end
+
+    subgraph SCHOOLS["🏫 The Payoff"]
+        MAC["MacDowell Prep<br/>3% math · $4.9M state aid"]
+        DPSCD["DPSCD<br/>Charter Authorizer"]
+    end
+
+    ALMA -->|"founded"| BCF_ORG
+    ALMA -->|"son"| KEITH
+    ALMA -->|"son"| TOMMY
+    KEITH -->|"Managing Director"| BCF_ORG
+    TOMMY -->|"Director"| BCF_ORG
+    TOMMY -->|"married"| NICOLE
+    TOMMY -->|"father"| MISHA
+
+    BANKS_BCF -->|"board member"| BCF_ORG
+    SMITH -->|"board member"| BCF_ORG
+    JOHNSON -->|"board member"| BCF_ORG
+
+    NICOLE -->|"Board President<br/>hired Banks"| MAC
+    MISHA -->|"Board Member<br/>authorizes charter"| DPSCD
+    DPSCD -->|"authorizes"| MAC
+    BANKS_BCF -->|"superintendent"| MAC
+
+    classDef dynasty fill:#713f12,stroke:#f59e0b,color:#fef3c7
+    classDef felon fill:#991b1b,stroke:#ef4444,color:#fecaca
+    classDef bcf fill:#7f1d1d,stroke:#dc2626,color:#fecaca
+    classDef school fill:#1e3a5f,stroke:#60a5fa,color:#bfdbfe
+    classDef auth fill:#14532d,stroke:#4ade80,color:#bbf7d0
+
+    class ALMA,TOMMY,NICOLE,MISHA dynasty
+    class KEITH,BANKS_BCF,SMITH,JOHNSON felon
+    class BCF_ORG bcf
+    class MAC school
+    class DPSCD auth
+{% end %}
+
+## Hiding Behind Racial Solidarity
+
+The BCF's institutional armor was racial solidarity. The Black Caucus brand carried the weight of decades of legitimate civil rights work — work Alma Stallworth contributed to over 21 years.
+
+But when the foundation board becomes a **reunion of felons** — Brian Banks (9 convictions), Keith Stallworth (federal money laundering), Virgil Smith (felony assault), Bert Johnson (federal bribery) — the armor becomes a weapon against the very community it claims to serve.
+
+This is the same pattern at every tier: Judge [Miller](/network/judges/cylenthia-miller/) and [Aliyah Sabree](/network/judges/aliyah-sabree/) at MSU Law — real solidarity weaponized to shield a convicted felon running schools at 3% math proficiency. The children in those classrooms are overwhelmingly Black. 97% of them cannot do grade-level math. The solidarity that protects this outcome is not solidarity with them. It is solidarity among the adults who benefit from their silence.
+
+Keith Stallworth's $20,000 was not an abstraction. The DOJ confirmed it came from "illegal activities" — laundered through a strip club that exploited women in the same community MacDowell now pretends to serve. The exploitation didn't end. It professionalized.
+
+The son is not responsible for the sins of the father. But when the son inherits the trade — when the family infrastructure built on drug money becomes the pipeline that installs convicted felons in charge of children — the inheritance is the indictment.
+
 ## Tiers
 
 - **[Enterprise Principals](/network/actors/)** — Banks and Holland
 - **[Judicial Cover](/network/judges/)** — 9 judges across 4 courts
-- **[Political Enablers](/network/political/)** — Gay-Dagnogo, Eric Sabree, McKinney
-- **[Entities](/network/entities/)** — 9+ LLCs, nonprofits, PACs, and schools
+- **[Political Dynasties](/network/political/)** — Stallworth dynasty, Gay-Dagnogo, Sabree dynasty, McKinney
+- **[Entities](/network/entities/)** — 9+ LLCs, nonprofits, PACs, schools, and the BCF
+- **[Institutional Actors](/network/institutional/)** — MDE officials, board presidents, and the cover-up chain
 - **[Professional Enablers](/network/professional-enablers/)** — Attorneys who organized the shell structure
 - **[Pattern Analysis](/analysis/)** — RICO pattern, institutional capture, allied cases, CBC events
 
