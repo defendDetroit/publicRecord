@@ -55,8 +55,15 @@ graph TB
         MCKINNEY["Billy McKinney<br/>Campaign payments"]
     end
 
-    subgraph PROFESSIONAL["📋 Tier 4 — Professional"]
+    subgraph PROFESSIONAL["📋 Tier 4 — Professional Enablers"]
         TODD["Todd Perkins<br/>Banks' attorney"]
+        MEIHN["Gregory Meihn<br/>Board attorney · weekly meetings<br/>'rare find' · missed §5.2"]
+    end
+
+    subgraph TCR["🩺 Tier 5 — TCR 22-12 Vouchers"]
+        VITTI["Nicolai Vitti<br/>DPSCD Supt · mentor<br/>authorized PCA charter"]
+        SHULMAN["Terrence Shulman<br/>Social worker · not MD<br/>'not dishonest as character'"]
+        LENO["Michele Leno<br/>Psychologist · 13 sessions<br/>'person of integrity'"]
     end
 
     STATE -->|"per-pupil funding"| PCA
@@ -76,6 +83,14 @@ graph TB
     AL_SABREE -.->|"MSU Law 2010"| BANKS
     TODD -->|"attorney"| BANKS
     TODD -.->|"brother"| S_PERKINS
+    MEIHN -->|"board attorney<br/>weekly meetings"| BANKS
+    MEIHN -.->|"retained 14 min"| NWS
+    MEIHN -.->|"missed §5.2"| LLC
+    VITTI -->|"mentor"| BANKS
+    VITTI -->|"authorized charter"| PCA
+    VITTI -.->|"3% math on watch"| MAC
+    SHULMAN -.->|"6+12 sessions<br/>'not dishonest'"| BANKS
+    LENO -.->|"13 sessions<br/>'integrity'"| BANKS
     E_SABREE -.->|"father"| A_SABREE
     E_SABREE -.->|"father"| AL_SABREE
     E_SABREE -.->|"endorser"| MILLER
@@ -105,7 +120,8 @@ graph TB
     class MILLER,YANCEY,A_SABREE,AL_SABREE,S_PERKINS,RAMSEY,EVANS_J,MORRIS,D_PERKINS judicial
     class NWS,KEITH_S,MISHA,BCF stallworth
     class GAY,E_SABREE,MCKINNEY political
-    class TODD professional
+    class TODD,MEIHN professional
+    class VITTI,SHULMAN,LENO professional
 {% end %}
 
 ## Self-Dealing Feedback Loop

@@ -3,7 +3,7 @@ title = "Brian Roderick Banks — Enterprise Leader"
 description = "Dr. Brian Banks, J.D., Ph.D. — 9 criminal convictions (6 felony). Pahara Fellow. State Bar of Michigan: zero results for claimed J.D. Superintendent of MacDowell Prep (3% math) and Purpose Charter Academy founder. It Had 2 Happen author."
 weight = 1
 date = 2026-09-20
-updated = 2026-09-25
+updated = 2026-09-30
 
 [extra]
 keywords = "Brian Banks Detroit, Brian Banks criminal record, Brian Banks charter school, Purpose Charter Academy superintendent, Brian Banks 9 convictions, Brian Banks ICHAT SID, MacDowell Preparatory Academy, Brian Banks J.D. fraud, Brian Banks BMF, Brian Banks Pahara Fellow, Detroit charter school fraud"
@@ -48,9 +48,22 @@ connections = ["criminal record", "credential fraud", "business entity", "family
 | Maximum statutory exposure | ≥50 years |
 | Actual confirmed incarceration | **≤8 months + 1 day** |
 
-## Credential Fraud {{ confidence(level="verified") }}
+## Credential Chain {{ confidence(level="verified") }}
 
-Banks claims **"J.D."** from Michigan State University College of Law. **He has never been admitted to any bar.**
+Banks holds a **real J.D.** from Michigan State University College of Law. **He has never been admitted to any bar.** His felony convictions prevented bar admission.
+
+| Credential | Status | Detail |
+|------------|--------|--------|
+| MSU J.D. | Real degree, unusable | Felonies prevented bar admission |
+| Michigan Bar | **NEVER ADMITTED** | State Bar search: zero results |
+| Bar prep course | **Fraudulent loans** | Took student loans for bar prep he was ineligible to use |
+| Walden Ph.D. | Questionable | Dissertation lacks basic IRB disclosures |
+| MDE Admin Cert | HOLD/Investigation | Feb 2022 investigation, closed in ~2 hours |
+| "Attorney" claim | **UPL violation** | Told Detroit Police he is "an attorney" (DPD Report #26-0909-0176) |
+
+Banks **knows the difference** between holding a J.D. and being bar-admitted. He went to law school. When he told Detroit police he is "an attorney," he was not making an innocent mistake — he was making a legal determination that affected a citizen's rights. That is MCL 450.681.
+
+### Where He Claims It
 
 | Location | Claim |
 |----------|-------|
@@ -59,6 +72,9 @@ Banks claims **"J.D."** from Michigan State University College of Law. **He has 
 | LinkedIn | "Brian Banks, J.D., Ph.D." |
 | Walden Dissertation #12627 | "JD, Michigan State University College of Law, 2010" |
 | Amazon | "Brian Banks J.D." (ISBN 173575403X) |
+| DPD Report #26-0909-0176 | Told police: "I am an attorney" |
+| Email Sep 29, 2026 | "Dr. Dr. Brian Banks - double doctor" |
+| Email Sep 29, 2026 | "my having a law degree" (admitted without denial) |
 
 State Bar of Michigan search for "Brian Banks": **zero results**.
 
@@ -78,6 +94,27 @@ The Pahara Fellowship bio describes Banks as having "navigated the very systems 
 Judge {{ actor(key="miller") }}'s LinkedIn post (March 24, 2026) publicly celebrates the relationship: *"I am so honored and proud to serve as the Chairperson of the Board of Directors of this amazing new school — Purpose Charter Academy for Law & Public Service! Way to lead, Brian Banks, J.D., Ph.D.!"*
 
 A sitting judge publicly endorsing a man with 9 criminal convictions using credentials not confirmed by bar records.
+
+## September 29, 2026 — Admissions by Email {{ confidence(level="verified") }}
+
+On the evening of September 29, 2026 — hours after a PPO hearing — Banks sent a series of emails that constitute party admissions under MRE 801(d)(2)(A):
+
+| Email | Admission |
+|-------|-----------|
+| Cease-and-desist email | Signs "Dr. Brian Banks" — claims authority he does not have |
+| "Double doctor" email | "Dr. Dr. Brian Banks - double doctor" — affirms credential claims |
+| "Law degree" email | "my having a law degree" — acknowledges J.D. without denying attorney claim |
+| "Recordings" email | "all five hearings were recorded" — confirms discoverable recordings exist |
+| Defamation email | "we are both frauds!!! Dr. Charles Mok" — defames board-certified surgeon |
+| "Us all" email | "details that we don't know anything about" — confirms group coordination |
+
+### Defamation of Dr. Charles Mok {{ confidence(level="verified") }}
+
+In the same email chain, Banks wrote: **"we are both frauds!!! Dr. Charles Mok."**
+
+Dr. Charles D. Mok, D.O. is a board-certified surgeon with 35+ years of practice, three board certifications, and a faculty appointment at Michigan State University. Calling a licensed medical professional a "fraud" in writing is **defamation per se** under Michigan law — no special damages required.
+
+Banks was invited to retract by COB Friday, October 3, 2026. If Banks sues for defamation over the credential comparison, discovery would require him to prove bar admission — which does not exist.
 
 ## BMF Lineage {{ confidence(level="documented") }}
 

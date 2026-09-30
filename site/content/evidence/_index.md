@@ -100,6 +100,28 @@ The FOIA response reveals several individuals not previously documented:
 - **[Katie Schmiedeknecht](/network/institutional/schmiedeknecht-katie/)** — MDE Analyst who provided the compliance loophole
 - **[Alan C. Young & Associates](/network/institutional/alan-young-associates/)** — Auditor for 9 consecutive years
 
+## September 30, 2026 — Proof Packet (Banks-Holland Partnership)
+
+The following public records document the 20-year Banks-Holland economic unit. Each file is downloadable and independently verifiable.
+
+| # | Document | Source | Download |
+|---|----------|--------|----------|
+| 1 | MDOC OTIS — Holland #443789 | Michigan MDOC | [PNG](/evidence/proof-packet/01_MDOC_HOLLAND_443789.png) |
+| 2 | LARA Purpose Foundation — Articles of Incorporation | LARA 803294855 | [PDF](/evidence/proof-packet/02_LARA_PURPOSE_FOUNDATION_ARTICLES.pdf) |
+| 2b | LARA Purpose Foundation — Entity Detail | LARA | [PNG](/evidence/proof-packet/02b_LARA_PURPOSE_FOUNDATION_ENTITY.png) |
+| 2c | LARA Purpose Foundation — 2026 Annual Report | LARA 803294855 | [PDF](/evidence/proof-packet/02c_LARA_PURPOSE_FOUNDATION_ANNUAL_2026.pdf) |
+| 3 | LARA Purpose Group LLC — Articles | LARA 803295082 | [PDF](/evidence/proof-packet/03_LARA_PURPOSE_GROUP_ARTICLES.pdf) |
+| 4 | Wayne ROD — 1968 Severn Property Record | Wayne County ROD | [PDF](/evidence/proof-packet/04_WAYNE_ROD_1968_SEVERN_PROPERTY.pdf) |
+| 5a | Wayne ROD — Newcastle QCD #2007402847 ($1, JTWRS) | Wayne County ROD | [PDF](/evidence/proof-packet/05a_WAYNE_ROD_NEWCASTLE_QCD_2007402847.pdf) |
+| 5b | Wayne ROD — Severn Trust Transfer QCD 2024 | Wayne County ROD | [PDF](/evidence/proof-packet/05b_WAYNE_ROD_SEVERN_TRUST_QCD_2024.pdf) |
+| 5c | Wayne ROD — Trust Certificate (Holland Successor) | Wayne County ROD | [PDF](/evidence/proof-packet/05c_WAYNE_ROD_TRUST_CERTIFICATE_HOLLAND.pdf) |
+| 5d | Wayne ROD — Tax Lien at Newcastle (Banks at Holland address) | Wayne County ROD | [PDF](/evidence/proof-packet/05d_WAYNE_ROD_TAX_LIEN_NEWCASTLE_BANKS.pdf) |
+| 6a-d | MI SOS — PAC #517977 (Committee, Late Fees, Members, Filings) | MI Secretary of State | [Committee](/evidence/proof-packet/06a_SOS_PAC_COMMITTEE.png) · [Fees](/evidence/proof-packet/06b_SOS_PAC_LATE_FEES.png) · [Members](/evidence/proof-packet/06c_SOS_PAC_MEMBERS.png) · [Filings](/evidence/proof-packet/06d_SOS_PAC_FILINGS.png) |
+| 10 | ICHAT — Holland Criminal Record | Michigan ICHAT | [PDF](/evidence/proof-packet/10_ICHAT_HOLLAND_FULL.pdf) · [Search](/evidence/proof-packet/10b_ICHAT_HOLLAND_SEARCH.png) · [Record](/evidence/proof-packet/10c_ICHAT_HOLLAND_RECORD.png) |
+| 11 | Regan v. Banks — SOS CFR Complaint (31 pages) | MI Secretary of State | [PDF](/evidence/proof-packet/11_REGAN_V_BANKS_SOS_COMPLAINT.pdf) |
+
+**Analysis:** [The Banks-Holland Economic Unit — 20 Years of Shared Assets, Concealed Property, and Institutional Control](/analysis/banks-holland-partnership/)
+
 ## Documents
 
 | Document | Date | Status |
@@ -109,6 +131,7 @@ The FOIA response reveals several individuals not previously documented:
 | Master Complaint Chain | Sep 16, 2026 | Filed |
 | DOE OIG Supplement (credential forgery) | Sep 17, 2026 | Filed |
 | MDE FOIA Response | Sep 25, 2026 | **Received — [21 files hosted](/evidence/mde-foia-sep25/)** |
+| Proof Packet — Banks-Holland Partnership | Sep 30, 2026 | **18 files hosted** |
 
 ## Independent Reporting
 
