@@ -1,5 +1,7 @@
 +++
 title = "Contact"
+date = 2026-09-20
+updated = 2026-09-28
 description = "Corrections, contact, and secure communication for anyone named on this site, harmed parties, media, and whistleblowers."
 
 [extra]

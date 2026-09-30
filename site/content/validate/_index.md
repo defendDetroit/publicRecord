@@ -1,5 +1,7 @@
 +++
 title = "Verify Everything Yourself"
+date = 2026-09-20
+updated = 2026-09-28
 description = "Step-by-step instructions to verify every claim using ICHAT criminal records, State Bar of Michigan, LARA filings, Wayne County ROD, and PACER."
 
 [extra]

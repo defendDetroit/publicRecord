@@ -1,5 +1,7 @@
 +++
 title = "Legal Protections"
+date = 2026-09-20
+updated = 2026-09-28
 description = "This site is protected by the First Amendment, Michigan's anti-SLAPP law (UPEPA), the fair report privilege, and the absolute defense of truth."
 template = "section.html"
 [extra]

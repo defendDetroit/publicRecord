@@ -1,5 +1,7 @@
 +++
 title = "Evidence Library"
+date = 2026-09-20
+updated = 2026-09-28
 description = "Public-record evidence documenting the Detroit charter school network. Financial records, criminal histories, FOIA responses, and court filings."
 sort_by = "weight"
 

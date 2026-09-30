@@ -1,5 +1,7 @@
 +++
 title = "Open Letters"
+date = 2026-09-20
+updated = 2026-09-28
 description = "Open letters to public figures connected to the Detroit charter school network. Each letter is sent privately first."
 sort_by = "date"
 

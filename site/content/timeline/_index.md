@@ -1,5 +1,7 @@
 +++
 title = "Timeline"
+date = 2026-09-20
+updated = 2026-09-28
 description = "Complete chronology of the Banks Enterprise — from 1998 criminal convictions through 2026 federal notification. Every date sourced from public records."
 sort_by = "date"
 

@@ -1,5 +1,7 @@
 +++
 title = "Book Analysis — Zero Victims, Zero Remorse"
+date = 2026-09-20
+updated = 2026-09-28
 description = "Two members of the Banks enterprise published books. Between them: hundreds of pages of self-promotion, zero victims named, zero accountability."
 sort_by = "weight"
 weight = 7
