@@ -2,8 +2,41 @@
 
 **Purpose**: Track detroit.primals.eco visibility against target entity astroturfing.
 **Baseline date**: 2026-09-28 (Wave 159)
+**Updated**: 2026-09-28 (critical process correction)
 **Methodology**: Search engine results position (SERP) mapping for key terms.
 **Re-run**: After each wave or weekly, compare positions to this baseline.
+
+---
+
+## ⚠️ Critical Process Correction (Sep 28, 2026)
+
+### Google Indexing API Misuse — STOPPED
+
+Research validated that the Google Indexing API is **strictly restricted to `JobPosting` and
+`BroadcastEvent` schema only**. We submitted 540+ URLs of general content across 3 days — this:
+- **Violates Google's TOS** (explicitly documented restriction)
+- **Default 200/day quota is "for testing only"** — doesn't trigger actual crawls for non-approved content
+- **May harm indexing performance** for the domain (property quarantine risk)
+- **All API calls returned HTTP 200** but this is just a receipt, not a crawl commitment
+
+### What Actually Works (2026 research-validated)
+
+1. **External backlinks from indexed sites** → "single biggest unlock" for new domains ✅ (5 GitHub repos)
+2. **GSC URL Inspection → Request Indexing** → legitimate, triggers actual crawl (2,000/day)
+3. **Sitemap with `<lastmod>` dates** → tells Google which pages to prioritize ✅ (54 pages now have lastmod)
+4. **Internal linking from indexed pages** → homepage crawl path ✅ (fixed: 1 → 17 deep links)
+5. **IndexNow (Bing/Yandex)** → legitimate for any content ✅ (working)
+6. **Content quality and uniqueness** → Google judges new domain trust from crawled pages
+
+### Realistic Timeline (2026 data, new domains)
+
+- Homepage: 1-3 days ✅ (indexed day 3)
+- Inner pages: **2-6 weeks** (we're day 7 — patience required)
+- 14% indexed within first week (study of 16M pages)
+- 50% indexed: 3-8 weeks
+- Full site: 2-6 months
+
+**"Discovered - currently not indexed" is NORMAL for a 7-day-old property.**
 
 ---
 
