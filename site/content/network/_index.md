@@ -1,7 +1,5 @@
 +++
 title = "The Network"
-date = 2026-09-20
-updated = 2026-09-28
 description = "The Banks Network — documented connections spanning charter schools, courts, political offices, and nonprofit entities in Detroit."
 sort_by = "weight"
 

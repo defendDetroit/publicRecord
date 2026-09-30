@@ -1,7 +1,5 @@
 +++
 title = "Primary Sources & Databases"
-date = 2026-09-20
-updated = 2026-09-28
 description = "Complete reference of public databases, court systems, and news sources used to document the Purpose Charter Academy and MacDowell Preparatory Academy."
 weight = 80
 template = "section.html"

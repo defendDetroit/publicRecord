@@ -1,7 +1,5 @@
 +++
 title = "Enterprise Principals"
-date = 2026-09-20
-updated = 2026-09-28
 description = "Brian Roderick Banks and Joseph Holland Jr — the two convicted felons who control all positions across the charter school racketeering enterprise."
 weight = 1
 sort_by = "weight"

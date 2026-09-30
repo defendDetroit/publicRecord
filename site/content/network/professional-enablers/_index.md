@@ -1,7 +1,5 @@
 +++
 title = "Professional Enablers"
-date = 2026-09-20
-updated = 2026-09-28
 description = "Attorneys and institutions who organized, authorized, or credentialed the Banks charter school enterprise. The professional infrastructure behind it."
 weight = 5
 sort_by = "weight"

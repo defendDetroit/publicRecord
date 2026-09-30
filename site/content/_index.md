@@ -1,7 +1,5 @@
 +++
 title = "Cash for Kids 2: A Public Record"
-date = 2026-09-20
-updated = 2026-09-28
 description = "Public evidence library documenting racketeering in Detroit charter schools. 9 convictions. 9 judges. $4.9M in public funding."
 
 [extra]

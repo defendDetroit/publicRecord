@@ -1,7 +1,5 @@
 +++
 title = "Site Index"
-date = 2026-09-20
-updated = 2026-09-28
 description = "Complete index of every page on detroit.primals.eco — 94 URLs covering 30 evidence pages, 16 sections, and 47 taxonomy cross-reference pages."
 template = "section.html"
 sort_by = "title"

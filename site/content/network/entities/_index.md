@@ -1,7 +1,5 @@
 +++
 title = "Entity Profiles"
-date = 2026-09-20
-updated = 2026-09-28
 description = "9+ entities controlled by Brian Banks — charter schools, management companies, nonprofits, PACs, and churches."
 weight = 4
 sort_by = "weight"

@@ -1,7 +1,5 @@
 +++
 title = "Pattern Analysis"
-date = 2026-09-20
-updated = 2026-09-28
 description = "RICO pattern, institutional capture, credential audit, funding flow, and systemic analysis of the Banks charter school enterprise across schools, courts, and politics."
 sort_by = "weight"
 weight = 3

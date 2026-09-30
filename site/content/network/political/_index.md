@@ -1,7 +1,5 @@
 +++
 title = "Political Dynasties & Enablers"
-date = 2026-09-20
-updated = 2026-09-28
 description = "Political dynasties and enablers who built, protected, and authorized the Banks charter school enterprise. The Stallworth dynasty: from federal drug money laundering to charter school board president in one generation."
 weight = 3
 sort_by = "weight"

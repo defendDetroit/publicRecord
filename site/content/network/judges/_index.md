@@ -1,7 +1,5 @@
 +++
 title = "Judicial Cover"
-date = 2026-09-20
-updated = 2026-09-28
 description = "Nine Wayne County judges with documented connections to the Banks charter school enterprise through board memberships, campaign payments, and family ties."
 weight = 2
 sort_by = "weight"

@@ -1,7 +1,5 @@
 +++
 title = "About This Investigation"
-date = 2026-09-20
-updated = 2026-09-28
 description = "Independent public-records investigation: Brian Banks, Purpose Charter Academy, MacDowell Preparatory Academy, Wayne County judges."
 
 [extra]

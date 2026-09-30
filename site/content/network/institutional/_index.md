@@ -1,7 +1,5 @@
 +++
 title = "Institutional Actors"
-date = 2026-09-20
-updated = 2026-09-28
 description = "State officials, board members, and institutional actors documented in the Banks network investigation."
 sort_by = "weight"
 
