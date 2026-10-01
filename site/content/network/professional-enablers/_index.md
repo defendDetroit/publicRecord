@@ -18,7 +18,7 @@ keywords = "Detroit charter school enablers, professional enablers, attorneys ch
 
 ### Jehan Crump-Gibson, Esq.
 
-Signed Purpose Foundation Articles of Incorporation as "Attorney In Fact" — vouching for Banks' authority to form a 501(c)(3) nonprofit.
+Signed Purpose Foundation Articles of Incorporation as "Attorney In Fact" — vouching for Banks' authority to form a 501(c)(3) nonprofit. As of Sep 30, 2026: **retained as Banks' defense attorney** (Great Lakes Legal Group, Southfield). Filed C(7)/C(8) motions to dismiss — mooted within 5 hours by tightened complaint.
 
 **Question:** Did she verify Banks' criminal record before filing? Did she know Holland (co-felon) would hold both Secretary and Treasurer positions?
 
@@ -32,6 +32,22 @@ Drafted aggressive liability shields: *"NO MEMBER SHALL HAVE ANY LIABILITY TO TH
 
 ---
 
+## Expert Witnesses / Character References
+
+### [Terrence D. Shulman](/network/professional-enablers/shulman-terrence/)
+
+**Self-described recovering theft addict.** JD, LMSW, ACSW, CAADC, CPC. Runs the Shulman Center for Compulsive Theft, Spending & Hoarding, Southfield MI. State Bar referred Banks to him. Testified Banks is "not dishonest as a matter of character." His entire practice is built on the premise that theft is addiction, not character — **his business model testified for his business model.**
+
+→ Full profile: [Terrence Shulman](/network/professional-enablers/shulman-terrence/)
+
+### [Dr. Michele Leno](/network/professional-enablers/leno-michele/)
+
+TV psychologist ("Mind Matters with Dr. Michele" — TV20 Detroit). Diagnosed Banks with PTSD after 13 sessions. Her specialty is athletes and social media — **not PTSD, not forensic psychology.** Ph.D. from Saybrook University (low-residency, like Banks' claimed Walden degree). Performs **court-ordered evaluations in Wayne County** — embedded in the same court system as the judges on Banks' network.
+
+→ Full profile: [Dr. Michele Leno](/network/professional-enablers/leno-michele/)
+
+---
+
 ## Institutional Enablers
 
 ### Central Michigan University — Charter Authorizer
@@ -42,9 +58,13 @@ Authorized MacDowell Preparatory Academy's charter. CMU is supposed to vet chart
 
 ### DPSCD — Charter Authorizer
 
-Authorized Purpose Charter Academy's charter. Former board member [Sherry Gay-Dagnogo](/network/political/sherry-gay-dagnogo/) — CBC honoree of Banks — authorized charters before resigning to become Detroit City Ombudsman (Oct 2025).
+Authorized Purpose Charter Academy's charter in **July 2025** under Superintendent [Nikolai Vitti](/network/institutional/vitti-nicolai/). PCA was authorized to serve **homeless children, chronically absent children, and children in the juvenile justice system** — the most vulnerable population in Detroit. DPSCD receives a **~3% authorization fee (~$81,000/yr)**.
 
-**Question:** Did the board member with a social relationship to the charter operator recuse from the authorization vote?
+Former board member [Sherry Gay-Dagnogo](/network/political/sherry-gay-dagnogo/) — CBC honoree of Banks — authorized charters before resigning to become Detroit City Ombudsman (Oct 2025).
+
+→ Full profile: [Nikolai Vitti](/network/institutional/vitti-nicolai/)
+
+**Questions:** Did the board member with a social relationship to the charter operator recuse from the authorization vote? Was [Misha Stallworth West](/network/political/misha-stallworth-west/) on the board during the PCA authorization? If so, the pipeline is complete: Wells-Stallworth hires Banks at MacDowell → stepdaughter Misha authorizes PCA.
 
 ### Baker College
 
