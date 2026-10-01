@@ -128,9 +128,27 @@ When you see:
 
 The question is whether the federal agencies will be Detroit's Nelson Rockefeller.
 
-### The Broader Context
+### A Note on Rockefeller — And Honesty About Power
 
-The complainant's broader work on infrastructure, institutional capture, and what Moses called "tollbooth economies" is documented at [sporeprint.primals.eco](https://sporeprint.primals.eco) — including [an open invitation to 99% Invisible and Radiolab](https://sporeprint.primals.eco/outreach/99pi-radiolab-invitation/) and an analysis of [the tollbooth economy](https://sporeprint.primals.eco/outreach/04b-the-tollbooth-economy/) as a systemic pattern. Detroit is the field validation of that theoretical work: a real tollbooth economy running on children's education funding, identified because the builder recognized the blueprint from a podcast about a man who built bridges.
+Nelson Rockefeller stripped Moses of his power. This is sometimes told as a triumph of accountability. It wasn't. Rockefeller was not altruistic. He was a billionaire governor who removed Moses because Moses was in his way — not because Moses was harming communities. Rockefeller went on to preside over the Attica prison massacre, the draconian Rockefeller drug laws, and an era of mass incarceration that itself constituted a new tollbooth economy. The man who ended one machine built another.
+
+This matters because the pattern repeats: the person who removes the corrupt operator often becomes the next corrupt operator. The reformer captures the same infrastructure and runs it for different beneficiaries. The machine changes hands. The machine doesn't change.
+
+The complainant makes no claim to altruism either. As a scientist, falsity is costly and must be refused. The claim here is narrower: **this specific enterprise is documented, this specific extraction is measurable, and these specific children are being harmed.** The response is not to seize the machine. It is to document it so thoroughly that the machine becomes visible — and then to build something that doesn't require a machine at all.
+
+That is the distinction between exposing Omelas and building a new city.
+
+### The Broader Context — From Exposure to Construction
+
+The complainant's broader work on infrastructure, institutional capture, and what Moses called "tollbooth economies" is documented at [sporeprint.primals.eco](https://sporeprint.primals.eco):
+
+- **[The City of Omelas](https://sporeprint.primals.eco/philosophy/the-city-of-omelas/)** — the philosophical framework: Le Guin's question applied to infrastructure. Every functioning city has a child suffering in a basement. The question is whether you stay, leave, or build a city that doesn't require the child.
+- **[The Bread Thief and the Billionaire](https://sporeprint.primals.eco/outreach/04a-the-bread-thief-and-the-billionaire/)** — who gets punished for stealing, who gets fellowships.
+- **[The Tollbooth Economy](https://sporeprint.primals.eco/outreach/04b-the-tollbooth-economy/)** — the systemic pattern: positioning yourself as the sole gateway between a population and a resource, then charging rent.
+- **[The Kingdom Builders](https://sporeprint.primals.eco/outreach/04c-the-kingdom-builders/)** — the temptation to build institutions that serve the builder.
+- **[An Invitation to 99% Invisible and Radiolab](https://sporeprint.primals.eco/outreach/99pi-radiolab-invitation/)** — how infrastructure storytelling informed this investigation.
+
+Detroit is the field validation of that theoretical work: a real tollbooth economy running on children's education funding, identified because the builder recognized the blueprint from a podcast about a man who built bridges. The response is not to become the next Rockefeller. It is to [walk away from Omelas](https://sporeprint.primals.eco/philosophy/the-city-of-omelas/) and build infrastructure that doesn't require a child in a basement.
 
 ---
 
