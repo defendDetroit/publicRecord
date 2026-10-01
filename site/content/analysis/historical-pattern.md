@@ -104,7 +104,7 @@ For Banks, it will be the federal agencies currently reviewing 7 filed cases.
 
 ## The Pattern Recognition
 
-This analysis exists because the complainant recognized the playbook. Not from political science — from reading Robert Caro's *The Power Broker* (1974, 1,246 pages). The book is the most detailed account ever written of how an unelected person accumulates and maintains power over public resources through legal structures.
+This analysis exists because the complainant recognized the playbook. Not from political science — from listening to [*The 99% Invisible Breakdown of The Power Broker*](https://99percentinvisible.org/pb/) while driving cross-country. Roman Mars and Elliott Kalan spent all of 2024 breaking down Robert Caro's 1,246-page biography — the most detailed account ever written of how an unelected person accumulates and maintains power over public resources through legal structures.
 
 When you see:
 - A sole-member LLC receiving 72.67% of public money
@@ -118,15 +118,22 @@ When you see:
 
 The question is whether the federal agencies will be Detroit's Nelson Rockefeller.
 
+### The Broader Context
+
+The complainant's broader work on infrastructure, institutional capture, and what Moses called "tollbooth economies" is documented at [sporeprint.primals.eco](https://sporeprint.primals.eco) — including [an open invitation to 99% Invisible and Radiolab](https://sporeprint.primals.eco/outreach/99pi-radiolab-invitation/) and an analysis of [the tollbooth economy](https://sporeprint.primals.eco/outreach/04b-the-tollbooth-economy/) as a systemic pattern. Detroit is the field validation of that theoretical work: a real tollbooth economy running on children's education funding, identified because the builder recognized the blueprint from a podcast about a man who built bridges.
+
 ---
 
 ## References
 
 1. Robert A. Caro, *The Power Broker: Robert Moses and the Fall of New York* (New York: Alfred A. Knopf, 1974).
-2. FBI, ["Public Corruption: Inside the Kwame Kilpatrick Case"](https://www.fbi.gov/news/stories/public-corruption-inside-the-kwame-kilpatrick-case1) — 38 federal counts including racketeering.
-3. Historical Society of the New York Courts, ["William M. 'Boss' Tweed"](https://history.nycourts.gov/figure/boss-tweed/).
-4. Broxmeyer, "Bringing The 'Ring' Back In: The Politics of Booty Capitalism," *Journal of the Gilded Age and Progressive Era* (2017).
-5. *The New Yorker*, ["The Power Broker — III: How Robert Moses Got Things Done"](https://www.newyorker.com/magazine/1974/08/12/the-power-broker-iii-how-things-get-done) (August 12, 1974).
+2. Roman Mars & Elliott Kalan, [*The 99% Invisible Breakdown of The Power Broker*](https://99percentinvisible.org/pb/) (2024) — year-long podcast series dissecting Caro's work, with guests including Rep. Alexandria Ocasio-Cortez, Sec. Pete Buttigieg, and Robert Caro himself.
+3. FBI, ["Public Corruption: Inside the Kwame Kilpatrick Case"](https://www.fbi.gov/news/stories/public-corruption-inside-the-kwame-kilpatrick-case1) — 38 federal counts including racketeering.
+4. Historical Society of the New York Courts, ["William M. 'Boss' Tweed"](https://history.nycourts.gov/figure/boss-tweed/).
+5. Broxmeyer, "Bringing The 'Ring' Back In: The Politics of Booty Capitalism," *Journal of the Gilded Age and Progressive Era* (2017).
+6. *The New Yorker*, ["The Power Broker — III: How Robert Moses Got Things Done"](https://www.newyorker.com/magazine/1974/08/12/the-power-broker-iii-how-things-get-done) (August 12, 1974).
+7. ecoPrimals, ["The Tollbooth Economy"](https://sporeprint.primals.eco/outreach/04b-the-tollbooth-economy/) — theoretical framework applied here.
+8. ecoPrimals, ["An Invitation to 99% Invisible and Radiolab"](https://sporeprint.primals.eco/outreach/99pi-radiolab-invitation/) — how infrastructure storytelling informed this investigation.
 
 ---
 
