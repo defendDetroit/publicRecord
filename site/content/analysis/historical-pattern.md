@@ -143,9 +143,9 @@ That is the distinction between exposing Omelas and building a new city.
 The complainant's broader work on infrastructure, institutional capture, and what Moses called "tollbooth economies" is documented at [sporeprint.primals.eco](https://sporeprint.primals.eco):
 
 - **[The City of Omelas](https://sporeprint.primals.eco/philosophy/the-city-of-omelas/)** — the philosophical framework: Le Guin's question applied to infrastructure. Every functioning city has a child suffering in a basement. The question is whether you stay, leave, or build a city that doesn't require the child.
-- **[The Bread Thief and the Billionaire](https://sporeprint.primals.eco/outreach/04a-the-bread-thief-and-the-billionaire/)** — who gets punished for stealing, who gets fellowships.
-- **[The Tollbooth Economy](https://sporeprint.primals.eco/outreach/04b-the-tollbooth-economy/)** — the systemic pattern: positioning yourself as the sole gateway between a population and a resource, then charging rent.
-- **[The Kingdom Builders](https://sporeprint.primals.eco/outreach/04c-the-kingdom-builders/)** — the temptation to build institutions that serve the builder.
+- **[The Loaves and the Fishes](https://sporeprint.primals.eco/philosophy/the-loaves-and-the-fishes/)** — who gets punished for stealing, who gets fellowships. The bread thief problem: the preconditions that determine who builds and who suffers.
+- **[I Own Nothing](https://sporeprint.primals.eco/philosophy/i-own-nothing/)** — the systemic pattern: positioning yourself as the sole gateway between a population and a resource, then charging rent. The tollbooth economy.
+- **[The Temptation of Kingdoms](https://sporeprint.primals.eco/philosophy/the-temptation-of-kingdoms/)** — the temptation to build institutions that serve the builder. Rent-seeking and open commons.
 - **[An Invitation to 99% Invisible and Radiolab](https://sporeprint.primals.eco/outreach/99pi-radiolab-invitation/)** — how infrastructure storytelling informed this investigation.
 
 Detroit is the field validation of that theoretical work: a real tollbooth economy running on children's education funding, identified because the builder recognized the blueprint from a podcast about a man who built bridges. The response is not to become the next Rockefeller. It is to [walk away from Omelas](https://sporeprint.primals.eco/philosophy/the-city-of-omelas/) and build infrastructure that doesn't require a child in a basement.
@@ -160,7 +160,7 @@ Detroit is the field validation of that theoretical work: a real tollbooth econo
 4. Historical Society of the New York Courts, ["William M. 'Boss' Tweed"](https://history.nycourts.gov/figure/boss-tweed/).
 5. Broxmeyer, "Bringing The 'Ring' Back In: The Politics of Booty Capitalism," *Journal of the Gilded Age and Progressive Era* (2017).
 6. *The New Yorker*, ["The Power Broker — III: How Robert Moses Got Things Done"](https://www.newyorker.com/magazine/1974/08/12/the-power-broker-iii-how-things-get-done) (August 12, 1974).
-7. ecoPrimals, ["The Tollbooth Economy"](https://sporeprint.primals.eco/outreach/04b-the-tollbooth-economy/) — theoretical framework applied here.
+7. ecoPrimals, ["I Own Nothing — Provenance, AGPL, and Commons Economics"](https://sporeprint.primals.eco/philosophy/i-own-nothing/) — theoretical framework applied here.
 8. ecoPrimals, ["An Invitation to 99% Invisible and Radiolab"](https://sporeprint.primals.eco/outreach/99pi-radiolab-invitation/) — how infrastructure storytelling informed this investigation.
 
 ---
