@@ -30,9 +30,9 @@ courts = ["Teacher Certification Review"]
 
 | Connection | Detail | Source |
 |------------|--------|--------|
-| **State Bar referral** | Banks was referred to Shulman specifically because Banks had theft issues | TCR 22-12 record |
+| **State Bar referral** | [Banks](/network/actors/brian-banks/) was referred to Shulman specifically because Banks had theft issues | TCR 22-12 record |
 | **TCR testimony** | Testified that Banks is "not dishonest as a matter of character" | TCR 22-12 hearing transcript |
-| **Therapeutic assessment** | Provided professional opinion supporting Banks' fitness for educator certification | TCR 22-12 record |
+| **Therapeutic assessment** | Provided professional opinion supporting [Banks'](/network/actors/brian-banks/) fitness for educator certification | TCR 22-12 record |
 
 ## The Conflict of Interest
 
@@ -42,20 +42,20 @@ Shulman's own LinkedIn profile contains this endorsement:
 
 **His professional model IS his testimony.** His entire practice — the Shulman Center for Compulsive Theft, Spending & Hoarding — is built on the premise that theft offenders aren't "really" dishonest. Theft is addiction, not character. That's his therapeutic framework, his business model, and his revenue stream.
 
-When Shulman testifies that Banks is "not dishonest as a matter of character," he isn't making an objective clinical assessment. He's applying his standard framework — the same framework he applies to **every** theft client. It's his business model testifying for his business model.
+When Shulman testifies that [Banks](/network/actors/brian-banks/) is "not dishonest as a matter of character," he isn't making an objective clinical assessment. He's applying his standard framework — the same framework he applies to **every** theft client. It's his business model testifying for his business model.
 
 ## What the Record Shows
 
-In TCR 22-12, the department **objected** to Banks' certification. The Attorney General's office **argued against** it. Administrative Law Judge Rice **overruled them** — based in part on Shulman's testimony.
+In TCR 22-12, the department **objected** to Banks' certification. The Attorney General's office **argued against** it. Administrative Law Judge Rice **overruled them** — based in part on Shulman's testimony and [Dr. Michele Leno's](/network/professional-enablers/leno-michele/) PTSD assessment.
 
 **2026 reality check:**
-- Banks runs two charter schools extracting 72.67% of revenue through a sole-member LLC
-- His co-resident and financial officer is a convicted drug offender
+- [Banks](/network/actors/brian-banks/) runs two charter schools extracting [72.67% of revenue](/analysis/funding-flow/) through a sole-member LLC
+- His co-resident and financial officer is a [convicted drug offender](/network/actors/joseph-holland/)
 - $348,489 in management fees are not separately itemized
-- Math proficiency at MacDowell: **3%**
-- Banks claims a J.D. not confirmed by bar records
+- Math proficiency at [MacDowell](/analysis/words-vs-numbers/): **3%**
+- Banks claims a [J.D. not confirmed by bar records](/analysis/credential-audit/)
 
-Every enabler's testimony is now contradicted by 2026 conduct.
+Every enabler's testimony is now contradicted by 2026 conduct. See: [TCR 22-12 analysis](/analysis/allied-cases/).
 
 ## OSINT Targets
 

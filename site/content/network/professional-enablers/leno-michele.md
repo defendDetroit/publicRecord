@@ -30,8 +30,8 @@ courts = ["Teacher Certification Review", "Wayne County courts"]
 
 | Connection | Detail | Source |
 |------------|--------|--------|
-| **PTSD diagnosis** | Diagnosed Banks with PTSD after 13 sessions over ~2 months | TCR 22-12 record |
-| **TCR testimony** | Provided psychological evaluation supporting Banks' fitness for educator certification | TCR 22-12 hearing |
+| **PTSD diagnosis** | Diagnosed [Banks](/network/actors/brian-banks/) with PTSD after 13 sessions over ~2 months | TCR 22-12 record |
+| **TCR testimony** | Provided psychological evaluation supporting [Banks'](/network/actors/brian-banks/) fitness for educator certification | TCR 22-12 hearing |
 | **Court evaluator** | Performs court-ordered psychological evaluations in Wayne County | Professional profile |
 
 ## Credential Concerns
@@ -44,7 +44,7 @@ courts = ["Teacher Certification Review", "Wayne County courts"]
 - Social media effects on mental health
 - Media appearances and TV commentary
 
-PTSD assessment, forensic psychology, and criminal behavior recidivism are **not** her documented areas of expertise. She diagnosed Banks with PTSD after 13 sessions — but PTSD assessment requires specialized forensic training, not a media psychology practice.
+PTSD assessment, forensic psychology, and criminal behavior recidivism are **not** her documented areas of expertise. She diagnosed [Banks](/network/actors/brian-banks/) with PTSD after 13 sessions — but PTSD assessment requires specialized forensic training, not a media psychology practice. Compare with [Terrence Shulman's](/network/professional-enablers/shulman-terrence/) testimony — together, a theft-addiction therapist and a media psychologist provided the expert cover for a man with [9 convictions](/analysis/credential-audit/).
 
 ## The Wayne County Court Pipeline
 
@@ -54,12 +54,14 @@ Leno performs **court-ordered psychological evaluations** in Wayne County. This 
 
 If any of the 9 judges on the Banks subgraph refer cases to Leno, that's a referral pipeline — the same court system that protects Banks is feeding evaluations to the psychologist who vouched for him.
 
-The judges on the Banks network include:
+The [judges on the Banks network](/network/judges/) include:
 - [Judge Tenisha Yancey](/network/judges/tenisha-yancey/) — MacDowell Board Chair
-- [Judge Cylenthia Miller](/network/judges/cylenthia-miller/) — PCA Foundation Board
+- [Judge Cylenthia Miller](/network/judges/cylenthia-miller/) — PCA Foundation Board, on ballot Nov 3, 2026
 - [Judge Sean Perkins](/network/judges/sean-perkins/) — 36th District Court
 - [Judge Kenneth King](/network/judges/kenneth-king/) — 36th District Court
 - And 5 others across 4 courts
+
+See the full [RICO pattern analysis](/analysis/rico-pattern/) and [institutional capture analysis](/analysis/institutional-capture/) for how the court system interfaces with the enterprise.
 
 ## OSINT Targets
 

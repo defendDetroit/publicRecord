@@ -40,7 +40,7 @@ PCA was authorized to serve:
 
 Projected enrollment: 225 students, growing to 400.
 
-These are the children with the fewest alternatives. Homeless kids who need stability. Kids in juvenile detention who need a path out. Chronically absent kids whose lives are already chaos. They got a school run by a man with 9 criminal convictions (6 felony, 3 misdemeanor) who lives with a convicted drug offender — while 72.67% of their education funding flows through a sole-member LLC.
+These are the children with the fewest alternatives. Homeless kids who need stability. Kids in juvenile detention who need a path out. Chronically absent kids whose lives are already chaos. They got a school run by [a man with 9 criminal convictions](/network/actors/brian-banks/) (6 felony, 3 misdemeanor) who lives with a [convicted drug offender](/network/actors/joseph-holland/) — while [72.67% of their education funding](/analysis/funding-flow/) flows through a sole-member LLC.
 
 **DPSCD gets paid ~$81,000/year to authorize this arrangement.**
 
