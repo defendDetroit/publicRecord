@@ -181,7 +181,7 @@ All claims can be verified through public sources:
 | **MI ICHAT** | [apps.michigan.gov/ichat](https://apps.michigan.gov/ichat) — SID 2029469K (Banks), 2321035P (Holland) |
 | **IRS TEOS** | [apps.irs.gov/app/eos](https://apps.irs.gov/app/eos) — EIN: 33-3537910, 87-2342269, 47-2441160 |
 | **TransparencyUSA** | [transparencyusa.org](https://transparencyusa.org) — Candidate: Brian Banks |
-| **State Bar of Michigan** | [zeekbeek.com/SBM](https://zeekbeek.com/SBM) — Search: Brian Banks (zero results) |
+| **State Bar of Michigan** | [michbar.org/memberdirectory](https://www.michbar.org/memberdirectory/) — Search: Brian Banks (zero results) |
 | **MDOC OTIS** | [mdocweb.state.mi.us/OTIS2](https://mdocweb.state.mi.us/OTIS2) — #443789 (Holland) |
 
 ## Integrity

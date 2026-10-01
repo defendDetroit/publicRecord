@@ -105,7 +105,7 @@ Revenue passes through Purpose Group LLC rather than remaining under direct scho
 
 ### Secondary News Sources
 - {{ source(key="freep", path="/story/news/columnists/ml-elrick/2023/08/27/detroit-school-former-felon-as-principal/70669868007/", label="Back to Fool — Brian Banks hired as principal") }} — M.L. Elrick investigation into Banks' criminal history and DOE certificate (Aug 2023)
-- {{ source(key="chalkbeat", path="/2025/09/08/purpose-charter-academy-detroit-authorization/", label="DPSCD authorizes Purpose Charter Academy") }} — PCA authorization for disconnected youth (Sep 2025)
+- DPSCD board minutes (Jul 2025) — PCA authorization for disconnected youth
 
 ### Source Data
 - DPSCD authorization records (board minutes, Jul 2025)

@@ -152,7 +152,7 @@ The following independent journalists and organizations have published on the sa
 |--------|---------|------|--------------|
 | **Detroit Free Press** | {{ source(key="freep", path="/story/news/columnists/ml-elrick/2023/08/27/detroit-school-former-felon-as-principal/70669868007/", label="Back to Fool edition, starring Brian Banks") }} | Aug 27, 2023 | M.L. Elrick investigation: 8+ felony convictions, campaign finance violations, administrative law judge approved certificate |
 | **WXYZ Detroit** | {{ source(key="wxyz", path="/news/local-news/investigations/wayne-county-judges-decision-to-dismiss-infant-murder-case-questioned", label="Wayne County judge's decision to dismiss infant murder case questioned") }} | 2024 | Prosecutor Kym Worthy alleged Judge Miller "displayed a bias throughout the trial" |
-| **SchoolDigger** | {{ source(key="school_digger", path="/go/MI/schools/0103304769/school.aspx", label="MacDowell Preparatory Academy") }} | Current | Bottom 3% statewide, 90.9% economically disadvantaged students |
+| **MI School Data** | {{ source(key="school_digger", path="/DistrictSchoolProfiles/SchoolSummary/1044.html", label="MacDowell Preparatory Academy") }} | Current | Bottom 3% statewide, 90.9% economically disadvantaged students |
 | **U.S. News** | {{ source(key="us_news", path="/michigan/macdowell-preparatory-academy-203303", label="MacDowell Preparatory Academy") }} | Current | 3% math, 12% reading proficiency |
 | **Ballotpedia** | {{ source(key="ballotpedia", path="/Cylenthia_LaToye_Miller", label="Cylenthia LaToye Miller") }} | Current | On the ballot November 3, 2026 — Wayne County 3rd Circuit Court |
 

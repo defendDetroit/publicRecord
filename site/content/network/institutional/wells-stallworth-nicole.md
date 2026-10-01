@@ -51,7 +51,7 @@ The family's relationship with Banks was forged at the [Black Caucus Foundation 
 
 > *"The $1,250 that Wells Stallworth and her husband, Tommy, donated"* made *"them among Banks' most generous supporters."*
 
-— [Detroit Free Press, Aug 27, 2023](https://www.freep.com/story/news/columnists/ml-elrick/2023/08/27/detroit-school-former-felon-as-principal/70669868007/)
+— [Detroit Free Press, Aug 27, 2023](https://web.archive.org/web/20241212174019/https://eu.freep.com/story/news/columnists/ml-elrick/2023/08/27/detroit-school-former-felon-as-principal/70669868007/)
 
 ## The Cover-Up — 2 Hours, 24 Minutes {{ confidence(level="verified") }}
 
@@ -163,8 +163,8 @@ She is a C-level nonprofit executive, an experienced political operative, a Plan
 
 - Michigan CEPI EEM: [michigan.gov/cepi](https://www.michigan.gov/cepi) — Entity #82747
 - MacDowell Board: [macdowellprep.com/board-of-directors](https://macdowellprep.com/board-of-directors/)
-- Free Press (Aug 2023): ["Back to Fool"](https://www.freep.com/story/news/columnists/ml-elrick/2023/08/27/detroit-school-former-felon-as-principal/70669868007/)
-- Free Press (Apr 2018): ["Charity failing to turn squatters into homeowners"](https://www.freep.com/story/news/local/2018/04/27/evictions-flipping-reform-squatters-detroit/404703002/)
+- Free Press (Aug 2023): ["Back to Fool"](https://web.archive.org/web/20241212174019/https://eu.freep.com/story/news/columnists/ml-elrick/2023/08/27/detroit-school-former-felon-as-principal/70669868007/)
+- Free Press (Apr 2018): ["Charity failing to turn squatters into homeowners"](https://web.archive.org/web/20250722065440/https://www.freep.com/story/news/local/2018/04/27/evictions-flipping-reform-squatters-detroit/404703002/)
 - LinkedIn: [Nicole Wells-Stallworth](https://www.linkedin.com/in/nicolewellsstallworth)
 - The Children's Center: [detroitpbs.org announcement](https://www.detroitpbs.org/news-media/american-black-journal/new-ceo-nicole-wells-stallworth-leads-the-childrens-center-into-new-era-with-focus-on-childrens-mental-health/)
 - DOJ (Keith Stallworth): [justice.gov/archive/tax/usaopress/2003/kstallworth.html](https://www.justice.gov/archive/tax/usaopress/2003/kstallworth.html)

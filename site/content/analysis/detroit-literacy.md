@@ -130,7 +130,7 @@ Every specific claim on this site can be independently checked against public re
 | Resource | What to check |
 |----------|---------------|
 | [MiSchoolData.org](https://www.mischooldata.org/) | Compare charter school performance across Detroit — proficiency rates, enrollment, demographics |
-| [MDE Financial Reports](https://www.michigan.gov/mde/services/financial-management/state-aid/public-school-academy-reports) | Spending patterns by school — instruction vs. administration, management company payments |
+| [MI School Data](https://www.mischooldata.org) | Spending patterns by school — instruction vs. administration, management company payments |
 | [MOECS Public Search](https://mdoe.state.mi.us/MOECS/PublicCredentialSearch.aspx) | Teacher credential verification — compare MOECS results to school staff rosters |
 | [This site's evidence library](/evidence/) | Documented case files — FOIA responses, financial records, management agreements |
 | [Verification page](/validate/) | Step-by-step instructions for reproducing every major claim |

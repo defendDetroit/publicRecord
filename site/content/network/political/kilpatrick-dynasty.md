@@ -58,7 +58,7 @@ Karen Dumas went from managing Kwame Kilpatrick's public image to promoting Bria
 | Field | Value | Source |
 |-------|-------|--------|
 | Former office | **Michigan State Rep, District 5** (1999–2004) | Ballotpedia |
-| Kwame appointment | **Detroit Water & Sewerage Dept Board** | [Detroit Free Press, Sep 18, 2014](https://www.freep.com/story/news/local/michigan/detroit/2014/09/18/kenneth-daniels-sentenced/15855253/) |
+| Kwame appointment | **Detroit Water & Sewerage Dept Board** | [Detroit Free Press, Sep 18, 2014](https://web.archive.org/web/20250816222715/https://eu.freep.com/story/news/local/michigan/detroit/2014/09/18/kenneth-daniels-sentenced/15855253/) |
 | Detroit Board of Ed | **Elected member** (3 years) | Free Press |
 | **Federal conviction** | Structuring $19K in financial transactions for drug kingpin **Carlos Powell** to buy a $40,000 Mercedes Benz | Free Press, HuffPost, DEA |
 | **Sentence** | **1 year federal prison** (Sep 2014) | Free Press |
@@ -147,8 +147,8 @@ The machine survived Kwame's conviction. It survived the BMF prosecution. It sur
 - 2023 CBC Flyer: Eventbrite + flyer screenshot in evidence files
 - Kwame Kilpatrick: PACER, E.D. Michigan (24 convictions)
 - Karen Dumas: WDET interview (Jan 2021), Pride Source, ClickOnDetroit trial Day 65
-- Kenneth Daniels: [Free Press (Sep 18, 2014)](https://www.freep.com/story/news/local/michigan/detroit/2014/09/18/kenneth-daniels-sentenced/15855253/), [HuffPost](https://www.huffpost.com/entry/kenneth-daniels-detroit-drug-ring-bust_n_1247688), [DEA (May 12, 2014)](https://dea.gov/press-releases/2014/05/12)
-- Carlos Powell: [Free Press (Oct 17, 2014)](https://www.freep.com/story/news/local/2014/10/17/drug-kingpins-get-life/17435879/) — LIFE sentence
+- Kenneth Daniels: [Free Press (Sep 18, 2014)](https://web.archive.org/web/20250816222715/https://eu.freep.com/story/news/local/michigan/detroit/2014/09/18/kenneth-daniels-sentenced/15855253/), [HuffPost](https://www.huffpost.com/entry/kenneth-daniels-detroit-drug-ring-bust_n_1247688), [DEA (May 12, 2014)](https://dea.gov/press-releases/2014/05/12)
+- Carlos Powell: [DEA press release (May 12, 2014)](https://dea.gov/press-releases/2014/05/12) — LIFE sentence for both Powell brothers
 - Charles Pugh: Wayne County criminal records
 - Gay-Dagnogo: Detroit News, FOX 2, MI Chronicle (2016-2020)
 

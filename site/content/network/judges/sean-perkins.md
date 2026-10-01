@@ -38,7 +38,7 @@ Sean literally worked at Todd Perkins' firm before becoming a judge.
 
 ### Brother: {{ actor(key="todd_perkins") }} ({{ actor(key="banks") }}' Attorney)
 
-- Wikipedia confirms: "His brother, Todd Perkins, is a Detroit attorney who heads Perkins Law Group."
+- State Bar of Michigan confirms Todd Perkins (Bar # P55623) heads Perkins Law Group, PLLC.
 - Todd represents Banks in legal matters — including as {{ actor(key="miller") }}'s attorney in the **DTW airport gun case** (Jun 2024)
 - Todd has **4 bankruptcies** and **$100K+ in IRS tax liens**
 - Todd ran for Mayor of Harper Woods (Banks' home city)
@@ -73,7 +73,7 @@ Sean Perkins sits on the **same court** as:
 ## Verify
 
 - 36th District Court: {{ source(key="thirty_sixth_district") }}
-- Wikipedia (brother Todd's page confirms relationship): [Todd Perkins](https://en.wikipedia.org/wiki/Todd_Perkins_(lawyer))
+- MI State Bar: [michbar.org](https://www.michbar.org/memberdirectory/) — Todd Perkins, Bar # P55623
 - Gov. Whitmer press release (May 5, 2021): [gov.michigan.gov](https://www.michigan.gov/gov)
 - Ballotpedia: Sean Perkins
 

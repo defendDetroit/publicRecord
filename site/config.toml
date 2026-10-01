@@ -30,8 +30,8 @@ skip_prefixes = [
     "https://www.freep.com",                   # Detroit Free Press (US)
     "https://www.detroitnews.com",             # Detroit News
     # Bot-blocked reference sites (403 Forbidden)
-    "https://zeekbeek.com",                    # State Bar of Michigan directory
-    "https://www.schooldigger.com",            # School ratings
+    "https://www.michbar.org",                  # State Bar of Michigan directory (official)
+    # (SchoolDigger replaced with mischooldata.org — official MI source)
     "https://www.usnews.com",                  # US News school profiles
     "https://www.jams.com",                    # JAMS mediator profiles
 ]
@@ -358,7 +358,7 @@ access = "Government database. Search by candidate or committee name. Free acces
 [extra.sources.mdoc_otis]
 display = "Michigan MDOC — Offender Tracking (OTIS)"
 short = "MDOC OTIS"
-url = "https://mdocweb.state.mi.us/otis2/otis2profile.aspx"
+url = "https://mdocweb.state.mi.us/otis2/Search"
 type = "gov"
 access = "Government database. Search by MDOC number or name."
 
@@ -451,17 +451,17 @@ access = "Free access. Nonpartisan political encyclopedia."
 
 [extra.sources.state_bar]
 display = "State Bar of Michigan — Member Directory"
-short = "State Bar (ZeekBeek)"
-url = "https://zeekbeek.com/SBM"
+short = "State Bar of MI"
+url = "https://www.michbar.org/memberdirectory/"
 type = "legal"
-access = "Attorney lookup. Blocks automated access — visit in browser and search by name."
+access = "Official attorney lookup. Search by name or bar number. Free access."
 
 [extra.sources.school_digger]
-display = "SchoolDigger — School Ratings"
-short = "SchoolDigger"
-url = "https://www.schooldigger.com"
-type = "reference"
-access = "School performance data. Blocks automated access."
+display = "Michigan School Data — School Ratings"
+short = "MI School Data"
+url = "https://www.mischooldata.org"
+type = "gov"
+access = "Official Michigan school performance data. Free access. Search by school or district."
 
 [extra.sources.us_news]
 display = "US News — K-12 School Rankings"

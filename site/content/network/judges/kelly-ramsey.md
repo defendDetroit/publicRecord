@@ -72,7 +72,8 @@ Alexis Ramsey also appeared on Todd Perkins' podcast "Perkins for the People" (M
 - Mackinac Center (2019): Banks hiring coverage
 - MacDowell website: [macdowellprep.com/about](https://macdowellprep.com/about) (Carl Ramsey), [macdowellprep.com/clients](https://macdowellprep.com/clients) (Tarajah Ramsey)
 - Legal News: Judge Ramsey profile
-- Ballotpedia: {{ source(key="ballotpedia", path="/Kelly_A._Ramsey", label="Kelly A. Ramsey") }}
+- Michigan Courts: [courts.michigan.gov](https://www.courts.michigan.gov) — Wayne County 3rd Circuit judge listings
+- Michigan Lawyers Weekly: [Judge appointment coverage](https://milawyersweekly.com)
 
 ---
 

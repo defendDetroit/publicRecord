@@ -67,7 +67,7 @@ Every claim above can be independently verified:
 | Claim | Verify At |
 |-------|----------|
 | Criminal record | MI ICHAT — SID 2029469K |
-| No bar admission | State Bar of MI — zeekbeek.com/SBM |
+| No bar admission | State Bar of MI — michbar.org/memberdirectory |
 | Entity records | LARA — IDs 803294855, 803295082, 802070120 |
 | School finances | macdowellprep.com (budget transparency) |
 | Campaign payments | transparencyusa.org |

@@ -56,7 +56,7 @@ Tommy Stallworth's wife runs the school. Tommy Stallworth's daughter sits on the
 
 | Layer | Connection | Source |
 |-------|------------|--------|
-| **Campaign finance** | Tommy and Nicole donated **$1,250+** to Brian Banks' campaigns | [Free Press, Aug 2023](https://www.freep.com/story/news/columnists/ml-elrick/2023/08/27/detroit-school-former-felon-as-principal/70669868007/) |
+| **Campaign finance** | Tommy and Nicole donated **$1,250+** to Brian Banks' campaigns | [Free Press, Aug 2023](https://web.archive.org/web/20241212174019/https://eu.freep.com/story/news/columnists/ml-elrick/2023/08/27/detroit-school-former-felon-as-principal/70669868007/) |
 | **BCF board** | Served as Director of BCF alongside Brian Banks (board member) and Keith Stallworth (Managing Director) | Free Press, Apr 2018 |
 | **DPS Board** | Served on Detroit Public Schools Board — precursor to DPSCD, MacDowell's authorizer | [Ballotpedia](https://ballotpedia.org/Thomas_Stallworth,_III) |
 | **Legislative Black Caucus** | Chaired the caucus during Banks' term in MI House (2015-2016) | Public record |

@@ -96,7 +96,7 @@ The exploitation didn't end. It professionalized.
 ## Verify
 
 - DOJ press release: [justice.gov/archive/tax/usaopress/2003/kstallworth.html](https://www.justice.gov/archive/tax/usaopress/2003/kstallworth.html)
-- Detroit Free Press (Apr 27, 2018): ["Charity failing to turn Detroit squatters into homeowners"](https://www.freep.com/story/news/local/2018/04/27/evictions-flipping-reform-squatters-detroit/404703002/)
+- Detroit Free Press (Apr 27, 2018): ["Charity failing to turn Detroit squatters into homeowners"](https://web.archive.org/web/20250722065440/https://www.freep.com/story/news/local/2018/04/27/evictions-flipping-reform-squatters-detroit/404703002/)
 - PACER: Eastern District of Michigan — USA v. Keith Stallworth
 - BCF board composition: Free Press reporting
 

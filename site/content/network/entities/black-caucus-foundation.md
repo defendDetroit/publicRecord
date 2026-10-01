@@ -82,7 +82,7 @@ The children in MacDowell's classrooms are overwhelmingly Black. The 3% math pro
 ## Verify
 
 - IRS Form 990 (2015): Black Caucus Foundation of Michigan
-- Detroit Free Press (Apr 27, 2018): ["Charity failing to turn Detroit squatters into homeowners"](https://www.freep.com/story/news/local/2018/04/27/evictions-flipping-reform-squatters-detroit/404703002/) — BCF board composition, Keith Stallworth federal plea, BCF salaries
+- Detroit Free Press (Apr 27, 2018): ["Charity failing to turn Detroit squatters into homeowners"](https://web.archive.org/web/20250722065440/https://www.freep.com/story/news/local/2018/04/27/evictions-flipping-reform-squatters-detroit/404703002/) — BCF board composition, Keith Stallworth federal plea, BCF salaries
 - DOJ Press Release (Mar 6, 2003): [Keith Stallworth guilty plea](https://www.justice.gov/archive/tax/usaopress/2003/kstallworth.html)
 - MacDowell Board: [macdowellprep.com/board-of-directors](https://macdowellprep.com/board-of-directors/)
 
