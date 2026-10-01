@@ -251,3 +251,121 @@ The `membrane site.publish` pipeline already tracks:
 
 **Next daily**: Indexing API quota resets → membrane auto-submits 50 URLs per push.
 **Next wave**: Re-run SERP checks, update positions in this document.
+
+---
+
+## Wave 159b — Link Audit + MHC Indexing Strategy (Oct 1, 2026)
+
+### Link Audit Results
+
+14 files fixed across detroit site, 4 files updated on sporePrint:
+
+| Issue | Fix | Files |
+|-------|-----|-------|
+| ZeekBeek (403, unreliable) | → michbar.org/memberdirectory/ (official State Bar) | config + README + RICO_PATTERN + all content refs |
+| MDOC OTIS URL (404) | otis2profile.aspx → otis2/Search | config |
+| Todd Perkins Wikipedia (404) | Removed — page never existed. michbar.org kept | 2 files |
+| Kelly Ramsey Ballotpedia (404) | → courts.michigan.gov + MI Lawyers Weekly | 1 file |
+| Chalkbeat PCA article (404) | → DPSCD board minutes reference | 1 file |
+| SchoolDigger (403, bot-blocked) | → mischooldata.org (official MI source) | config + evidence |
+| MDE PSA reports (404) | → mischooldata.org | 1 file |
+| Free Press paywalled (402) | 4 direct links → archive.org mirrors | 5 files |
+| Detroit News (no Wayback) | → DEA press release | 1 file |
+
+### Cross-Site Graph Strengthened
+
+| Direction | Before | After |
+|-----------|--------|-------|
+| detroit → sporePrint | 3 pages, 10 unique targets | unchanged (already strong) |
+| sporePrint → detroit | 5 pages, **2 unique targets** | 8+ pages, **12+ unique targets** |
+
+New deep links added to: public_record.md (8 links), guerilla_gorilla.md (6 links),
+the_city_of_omelas.md (4 links), 99pi_radiolab_invitation.md (2 links).
+
+### golgiBody Fixes
+
+- **detroit access_log was missing** — added `import access_log` to Caddyfile vhost
+- **sporePrint build failure** — `public/` owned by root, git user couldn't delete.
+  Created `/etc/sudoers.d/membrane-publish` with narrow chown rules for both sites.
+  The handoff doc said "hardened" but the sudoers rule was never created.
+
+### MHC Indexing Strategy — Network Percolation
+
+Analyzed internal link graph to find optimal "Request Indexing" submission order.
+The site has **scale-free hub structure**: 5 pages cover 96% of the graph (204/212).
+
+| Hub Page | Outbound Links | Cumulative Discovery |
+|----------|---------------|---------------------|
+| /network/actors/brian-banks/ | 69 | 70/212 (33%) |
+| /network/dynasties/ | 64 | 80/212 (38%) |
+| /actors/ (taxonomy) | 59 | 126/212 (59%) |
+| /connections/ (taxonomy) | 46 | 173/212 (82%) |
+| /entities/ (taxonomy) | 28 | 204/212 (96%) |
+
+### GSC Request Indexing Results (Oct 1, 2026)
+
+**Quota**: ~11 submissions/day, **shared across domain property** (primals.eco).
+Not per-subdomain — detroit and sporePrint share the same quota.
+
+11 pages submitted. 10 moved from "Unknown/Discovered" → **"Crawled"** within minutes:
+
+| Page | Before | After |
+|------|--------|-------|
+| /analysis/funding-flow/ | Unknown | **Crawled** |
+| /analysis/historical-pattern/ | Unknown | **Crawled** |
+| /timeline/ | Unknown | **Crawled** |
+| /sources/ | Unknown | **Crawled** |
+| /network/judges/cylenthia-miller/ | Unknown | **Crawled** |
+| /network/entities/purpose-charter-academy/ | Unknown | **Crawled** |
+| /network/actors/brian-banks/ | Discovered | **Crawled** |
+| /network/dynasties/ | Discovered | **Crawled** |
+| /analysis/rico-pattern/ | Discovered | **Crawled** |
+| /analysis/credential-audit/ | Discovered | **Crawled** |
+| /analysis/detroit-literacy/ | Discovered | Still Unknown (quota hit) |
+
+"Crawled - currently not indexed" → typically moves to INDEXED within 24-48 hours.
+
+### Remaining Queue (next quota refresh)
+
+Priority for next day's submissions:
+
+**Detroit** (remaining from today):
+1. /analysis/detroit-literacy/ (quota victim)
+2. /about/
+3. /evidence/
+4. /validate/
+5. /network/entities/macdowell-prep/
+6. /network/actors/joseph-holland/
+7. /books/it-had-2-happen/
+
+**sporePrint** (cross-link targets):
+8. /outreach/public-record/
+9. /outreach/guerilla-gorilla/
+10. /philosophy/the-city-of-omelas/
+11. /outreach/99pi-radiolab-invitation/
+
+### SEO Signal Route Status (Oct 1)
+
+| Signal | Detroit | sporePrint |
+|--------|---------|------------|
+| GSC Request Indexing | 11 submitted, 10 crawled | 0 (shared quota exhausted) |
+| IndexNow (Bing) | 212 URLs accepted (HTTP 200) | 403 (HTTP 403 — site verification pending) |
+| GSC sitemap resubmit | ✅ on every push | ✅ on every push |
+| WebSub hub | ✅ in base.html | — |
+| Atom feed | ✅ 701KB | ✅ 7.2MB |
+| robots.txt AI crawlers | ✅ 16 named bots | — |
+
+### Bot Activity (Oct 1, since logging fixed)
+
+| Bot | sporePrint | detroit | git.primals.eco |
+|-----|-----------|---------|-----------------|
+| bingbot | 39 | logging just enabled | — |
+| Applebot | — | — | 6 |
+| ClaudeBot | — | — | 2 |
+| AhrefsBot | 2 | — | — |
+
+### Theoretical Framework
+
+The indexing strategy maps to **network percolation on scale-free graphs** — the same
+mathematical structure appears in adaptive immunity, population genetics, epidemiology,
+and graph crawling. Documented in whitePaper/subGen/NETWORK_PERCOLATION_RECOGNITION.md.
