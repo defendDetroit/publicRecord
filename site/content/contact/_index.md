@@ -3,7 +3,7 @@ title = "Contact"
 description = "Corrections, contact, and secure communication for anyone named on this site, harmed parties, media, and whistleblowers."
 
 [extra]
-keywords = "Brian Banks correction, Purpose Charter Academy whistleblower, Detroit charter school tip, detroit primals eco contact, MacDowell Preparatory Academy correction"
+keywords = "Brian Banks correction, Purpose Charter Academy whistleblower, Detroit charter school tip, detroit primals eco contact, MacDowell Preparatory Academy correction, Detroit charter school attorney, pro se RICO Michigan, civil rights attorney Detroit, charter school fraud representation, Purpose Charter Academy lawsuit"
 +++
 
 ## Corrections & Disputes
@@ -66,6 +66,55 @@ to hear from you. Your experience matters and may help protect other families.
 The complete evidence package is available in the
 [git repository](https://git.primals.eco/publicRecord/detroit). Clone it.
 Everything is sourced from public records. No FOIA required.
+
+## For Attorneys
+
+I am not seeking representation. I am a pro se plaintiff and I have built
+this case from the public record.
+
+But if you are an attorney looking at this site and you see a case you want
+to carry — contact me.
+
+**What exists:**
+
+- Two civil actions filed in Ingham County (2026-4301-CZ, 2026-4349-CZ) with
+  service completed and defaults approaching
+- A related custody matter in Wayne County where a father is fighting for his
+  two daughters
+- Federal referral packets sent to eight agencies with supplements
+- Formal complaints pending with the Michigan Department of Education
+- A typed entity-relationship database: 73 entities, 122 graph edges, every
+  connection sourced to public records
+- This site — 213+ pages of documented public record analysis with corrections
+  policy and epistemic grammar
+- A [git repository](https://git.primals.eco/publicRecord/detroit) you can
+  clone and verify independently
+- A damages framework with novel claims including forced deanonymization of a
+  scientific computing identity
+- An investigative methodology grounded in computational biology, graph theory,
+  and Anderson localization — documented at
+  [gorilla.primals.eco](https://gorilla.primals.eco)
+
+**What I would do if an attorney took the courtroom:**
+
+- **Fact witness** — I have firsthand knowledge of every event since
+  August 29, 2026
+- **Expert witness** — My background is computational biology (BS Microbiology,
+  MS Data Science, Michigan State University). I built the network analysis.
+  I can testify to the methodology.
+- **Analyst** — The investigation infrastructure is operational and I will
+  continue to maintain it regardless of representation status
+
+I am not interested in settlement. I want jury trial, accountability, and
+resignations. If that aligns with how you practice, we should talk.
+
+I am not interested in a lawyer who wants to make this smaller. This is as
+big as the public record says it is.
+
+**Email:** [eco.primal@pm.me](mailto:eco.primal@pm.me)
+**Phone:** (586) 453-7233
+
+---
 
 ## Secure Contact
 
