@@ -112,7 +112,6 @@ I am not interested in a lawyer who wants to make this smaller. This is as
 big as the public record says it is.
 
 **Email:** [eco.primal@pm.me](mailto:eco.primal@pm.me)
-**Phone:** (586) 453-7233
 
 ---
 
