@@ -65,7 +65,7 @@ What makes this case distinctive — **analytical inference** — is the combina
 
 - **Wayne County Register of Deeds** — search 10101 E. Canfield for property records
 - **DPSCD Charter Authorization records** — public meeting minutes and authorization documents
-- **[Michigan LARA Business Entity Search](https://cofs.lara.state.mi.us/SearchApi/Search/Search)** — search "Purpose Group" for LLC registration
+- **[Michigan LARA MiBusiness Registry](https://mibusinessregistry.lara.state.mi.us/search/business)** — search "Purpose Group" for LLC registration
 
 ---
 

@@ -73,7 +73,7 @@ At every checkpoint where someone could have said *no*, a Stallworth said *yes*.
 
 - Michigan Legislature: Thomas Stallworth III, Districts 7 and 8
 - Ballotpedia: [Thomas Stallworth, III](https://ballotpedia.org/Thomas_Stallworth,_III)
-- Campaign finance: [Michigan CFRS](https://miboecfr.nictusa.com/)
+- Campaign finance: [Michigan Campaign Finance Search](https://cfrsearch.nictusa.com/)
 - BCF board: Free Press reporting (Apr 2018)
 - DPSCD Board roster: [detroitk12.org](https://www.detroitk12.org)
 

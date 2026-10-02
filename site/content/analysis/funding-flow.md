@@ -88,7 +88,7 @@ DPSCD (Detroit Public Schools Community District) receives a 3% authorization fe
 ## Verify It Yourself
 
 - [MiSchoolData.org](https://www.mischooldata.org/) — search MacDowell Preparatory Academy for financial data
-- [Michigan LARA Business Entity Search](https://cofs.lara.state.mi.us/SearchApi/Search/Search) — search "Purpose Group" for LLC registration
+- [Michigan LARA MiBusiness Registry](https://mibusinessregistry.lara.state.mi.us/search/business) — search "Purpose Group" for LLC registration
 - MDE Financial Reports — annual spending by category for any Michigan school
 
 Every financial figure in this analysis is drawn from public records filed with the Michigan Department of Education and LARA. Clone the repository and verify independently.

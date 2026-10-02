@@ -175,7 +175,7 @@ All claims can be verified through public sources:
 
 | Source | How to Access |
 |--------|--------------|
-| **LARA** (MI entity records) | [cofs.lara.state.mi.us](https://cofs.lara.state.mi.us) — Search entity IDs: 803294855, 803295082, 802070120 |
+| **LARA** (MI entity records) | [mibusinessregistry.lara.state.mi.us](https://mibusinessregistry.lara.state.mi.us/search/business) — Search entity IDs: 803294855, 803295082, 802070120 |
 | **Wayne County ROD** | [waynecountylandrecords.com](https://waynecountylandrecords.com) — Doc# 2025200597, 2025201292 |
 | **PACER** (federal court) | [pacer.uscourts.gov](https://pacer.uscourts.gov) — Cases: 09-46072, 14-46410, 26-47542 |
 | **MI ICHAT** | [apps.michigan.gov/ichat](https://apps.michigan.gov/ichat) — SID 2029469K (Banks), 2321035P (Holland) |

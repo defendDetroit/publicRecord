@@ -74,7 +74,7 @@ GPW median home value: ~$270K. Detroit (where the schools operate): ~$50K.
 The enterprise extracts money from Detroit's poorest neighborhoods and routes it through entities registered in one of Metro Detroit's wealthiest suburbs.
 
 ## Verify All
-- LARA: [cofs.lara.state.mi.us](https://cofs.lara.state.mi.us) — search by entity IDs above
+- LARA: [mibusinessregistry.lara.state.mi.us](https://mibusinessregistry.lara.state.mi.us/search/business) — search by entity IDs above (COFS retired June 2025)
 - Individual name search: "Brian Banks" returns 9 results
 
 ---

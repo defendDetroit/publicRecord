@@ -17,7 +17,7 @@ minify_html = true
 external_level = "warn"
 skip_prefixes = [
     # Michigan government databases (block all automated requests)
-    "https://cofs.lara.state.mi.us",          # LARA Corporate Entity Search
+    "https://mibusinessregistry.lara.state.mi.us",  # LARA MiBusiness Registry (replaced COFS June 2025)
     "https://apps.michigan.gov/ichat",         # Criminal History (ICHAT)
     "https://cfrs.michigan.gov",               # Campaign Finance Reporting
     "https://mdocweb.state.mi.us",             # MDOC Offender Tracking (OTIS)
@@ -334,12 +334,12 @@ connection = "Authorized PCA despite operator's bottom-3% record at MacDowell"
 # Pages reference these via {{ source(key="lara_cofs", query="802394934") }}
 
 [extra.sources.lara_cofs]
-display = "Michigan LARA — Corporate Entity Search"
-short = "LARA COFS"
-url = "https://cofs.lara.state.mi.us"
-search_path = "/SearchApi/Search/Search"
+display = "Michigan LARA — MiBusiness Registry Portal"
+short = "LARA MiBusiness"
+url = "https://mibusinessregistry.lara.state.mi.us"
+search_path = "/search/business"
 type = "gov"
-access = "Government database. Visit the URL and search by entity name or ID number."
+access = "Government database. Visit the URL and search by entity name or ID number. COFS retired June 23, 2025."
 
 [extra.sources.ichat]
 display = "Michigan ICHAT — Criminal History"
@@ -349,11 +349,11 @@ type = "gov"
 access = "Government database. Requires $10 fee per search. Search by name and date of birth."
 
 [extra.sources.cfrs]
-display = "Michigan CFRS — Campaign Finance"
-short = "CFRS"
-url = "https://cfrs.michigan.gov"
+display = "Michigan Campaign Finance — MiTN Searchable Database"
+short = "MI Campaign Finance"
+url = "https://cfrsearch.nictusa.com"
 type = "gov"
-access = "Government database. Search by candidate or committee name. Free access."
+access = "Government database. Search by candidate or committee name. Free access. Legacy MERTS data migrated to MiTN."
 
 [extra.sources.mdoc_otis]
 display = "Michigan MDOC — Offender Tracking (OTIS)"

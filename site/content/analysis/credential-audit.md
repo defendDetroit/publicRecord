@@ -94,7 +94,7 @@ Schmiedeknecht presents at state conferences on the **same credential compliance
 
 Anyone can reproduce this audit in minutes:
 
-1. Go to MOECS public search: [https://mdoe.state.mi.us/MOECS/PublicCredentialSearch.aspx](https://mdoe.state.mi.us/MOECS/PublicCredentialSearch.aspx)
+1. Go to MOECS public search: [mdoe.state.mi.us/MOECS/PublicCredentialSearch.aspx](https://mdoe.state.mi.us/MOECS/PublicCredentialSearch.aspx)
 2. Enter the teacher's last name
 3. Check: Is the certificate **valid**? Is it **endorsed for the grades and subjects** being taught?
 4. Compare results to the school's actual staff roster at [macdowellprep.com/about/](https://www.macdowellprep.com/about/)
