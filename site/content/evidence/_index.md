@@ -18,8 +18,8 @@ Every document in this library comes from public records. You can [verify everyt
 | [FOIA Requests and Responses](/evidence/foia-requests/) | All FOIA submissions, responses, and what government records reveal |
 | [Agency Referrals](/evidence/agency-referrals/) | Federal and state referrals — 8 agencies, 243 pages, JTC investigations opened |
 | [Court Filings](/evidence/court-filings/) | Civil complaints, case numbers, party lists, counts |
-| [MDE FOIA Response (Sep 25)](#mde-foia-response--september-25-2026) | 20 files including investigation letter and 9 years of financial audits |
-| [Proof Packet — Banks-Holland Partnership](#september-30-2026--proof-packet-banks-holland-partnership) | 18 public records documenting the 20-year economic unit |
+| MDE FOIA Response (Sep 25) | 20 files including investigation letter and 9 years of financial audits — see below |
+| Proof Packet — Banks-Holland Partnership | 18 public records documenting the 20-year economic unit — see below |
 
 ## RICO Pattern
 
