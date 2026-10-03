@@ -9,6 +9,18 @@ keywords = "Detroit charter school investigation evidence, Brian Banks criminal 
 
 Every document in this library comes from public records. You can [verify everything yourself](/validate/).
 
+## Evidence Sections
+
+| Section | Contents |
+|---------|----------|
+| [Correspondence Timeline](/evidence/correspondence/) | Every email between Kevin Mok and all counsel, agencies, and parties — timestamped |
+| [TCR 22-12 — The Administrator Certificate](/evidence/tcr-22-12/) | The hearing that gave a convicted felon a school administrator certificate |
+| [FOIA Requests and Responses](/evidence/foia-requests/) | All FOIA submissions, responses, and what government records reveal |
+| [Agency Referrals](/evidence/agency-referrals/) | Federal and state referrals — 8 agencies, 243 pages, JTC investigations opened |
+| [Court Filings](/evidence/court-filings/) | Civil complaints, case numbers, party lists, counts |
+| [MDE FOIA Response (Sep 25)](#mde-foia-response--september-25-2026) | 20 files including investigation letter and 9 years of financial audits |
+| [Proof Packet — Banks-Holland Partnership](#september-30-2026--proof-packet-banks-holland-partnership) | 18 public records documenting the 20-year economic unit |
+
 ## RICO Pattern
 
 The complainant alleges that the Banks network operates a pattern that warrants agency review under racketeering statutes:
