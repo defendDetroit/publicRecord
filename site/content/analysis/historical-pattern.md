@@ -3,7 +3,7 @@ title = "Two Eras of Machine Politics — From Tammany Hall to The Power Broker"
 description = "Detroit's charter school network maps to two historical models of American corruption. The Sabree-Kilpatrick era is Boss Tweed's Tammany Hall: patronage, court control, open graft. The Banks era is Robert Moses: never elected, controls through private authorities, makes himself indispensable by controlling the flow of public money to vulnerable populations."
 weight = 12
 date = 2026-10-01
-updated = 2026-10-01
+updated = 2026-10-03
 
 [extra]
 keywords = "Robert Moses Power Broker Detroit charter school, Boss Tweed Tammany Hall Kilpatrick Detroit, Eric Sabree Tammany Hall, Brian Banks Robert Moses comparison, Detroit political machine historical parallel, Kwame Kilpatrick corruption patronage, charter school extraction political machine, booty capitalism Detroit, Robert Caro Power Broker playbook, public authority private enrichment"
@@ -127,6 +127,18 @@ When you see:
 ...you're reading Chapter 1 of *The Power Broker*. The venue changed from highways to charter schools. The city changed from New York to Detroit. The mechanism changed from bond authorities to management agreements. But the structure is identical.
 
 The question is whether the federal agencies will be Detroit's Nelson Rockefeller.
+
+### Postscript — October 3, 2026: The Parallel Became Literal
+
+This analysis was published on October 1, 2026. It compared Banks to Robert Moses — the man who built a 44-year empire through **parks**.
+
+Two days later, on October 3, the complainant discovered that Banks sits on the **Belle Isle Park Advisory Committee** — a Michigan Department of Natural Resources advisory body. Mayor-appointed. Listed on michigan.gov alongside the Deputy Mayor of Detroit and two DNR state employees. His biography on the state website lists his "Juris Doctorate" without mentioning he was never admitted to the bar. His committee email address is `brianbanksjd@gmail.com` — a credential he cannot use, embedded in his identity at the state level.
+
+Robert Moses used parks as the foundation of his power — the Triborough Bridge Authority began as a parks commission. Banks sits on a parks committee appointed by the same mayor whose Deputy Mayor now has his 9-conviction felony record in her inbox.
+
+The comparison in this analysis was intended as structural analogy. Within 48 hours, it became a statement of fact: **the man compared to the Parks Commissioner is on a parks committee.**
+
+Source: [michigan.gov/dnr/about/boards/belle-isle/committee-members](https://www.michigan.gov/dnr/about/boards/belle-isle/committee-members) (contact page revised 2/12/2026). Notification sent to all committee members, DNR state employees, defense counsel, and press on October 3, 2026.
 
 ### A Note on Rockefeller — And Honesty About Power
 
