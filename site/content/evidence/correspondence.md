@@ -98,7 +98,7 @@ Three numbered questions:
 
 **From:** Kevin Mok
 **To:** (Reply-all to Email 1)
-**Attachment:** [9LINE_FEDERAL_REFERRAL_SEP25.pdf](/evidence/federal-referrals/9LINE_FEDERAL_REFERRAL_SEP25.pdf)
+**Attachment:** [9LINE_FEDERAL_REFERRAL_SEP25.pdf](/docs/federal-referrals/9LINE_FEDERAL_REFERRAL_SEP25.pdf)
 
 Four sentences establishing that the federal referral packets were submitted to **eight federal agencies** between September 21-25, 2026 — before Banks's retaliatory police report (September 28) and before Banks's PPO hearing appearance (September 29).
 

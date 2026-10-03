@@ -11,7 +11,7 @@ keywords = "FBI referral Brian Banks, USPS OIG Banks, IRS criminal investigation
 
 Between September 21 and October 1, 2026, Kevin Mok submitted referral packets to **eight federal agencies**, the **Michigan Department of Education**, and the **Judicial Tenure Commission**. Every referral is documented below with dates, case numbers where assigned, and current status.
 
-All federal referrals pre-date Banks's retaliatory police report (September 28) and PPO hearing appearance (September 29). The timeline is documented in the [9-LINE Federal Referral cover sheet](/evidence/federal-referrals/9LINE_FEDERAL_REFERRAL_SEP25.pdf).
+All federal referrals pre-date Banks's retaliatory police report (September 28) and PPO hearing appearance (September 29). The timeline is documented in the [9-LINE Federal Referral cover sheet](/docs/federal-referrals/9LINE_FEDERAL_REFERRAL_SEP25.pdf).
 
 ---
 
@@ -25,7 +25,7 @@ The federal referral packet was delivered using a GTA 08-01-004 MEDEVAC format â
 - **Security** at pickup site (threat assessment)
 - **Method of marking** (how to verify the evidence)
 
-The 9-LINE is available here: [9LINE_FEDERAL_REFERRAL_SEP25.pdf](/evidence/federal-referrals/9LINE_FEDERAL_REFERRAL_SEP25.pdf)
+The 9-LINE is available here: [9LINE_FEDERAL_REFERRAL_SEP25.pdf](/docs/federal-referrals/9LINE_FEDERAL_REFERRAL_SEP25.pdf)
 
 > *"The bleeding started 14 years ago. This is the 9-LINE. Get the bird in the air."*
 

@@ -33,7 +33,7 @@ If the [Banks enterprise](/analysis/rico-pattern/) feels familiar, it's because 
 | Patronage jobs: thousands depended on Tammany for their livelihoods | Kilpatrick "installed friends and family in key government positions" (FBI) |
 | Court control: money distributed to judges for favorable rulings | [9 judges across 4 courts](/network/judges/) with documented connections to the enterprise |
 | Contract manipulation: padded costs, kickbacks, bid-rigging | "Pay to play" system, extortion of vendors, rigged bids (FBI, 38 federal counts) |
-| Controlled elections: voter fraud, ballot stuffing, counting manipulation | PAC machinery, campaign contribution networks, [late-filing penalties](/evidence/proof-packet/06b_SOS_PAC_LATE_FEES.png) |
+| Controlled elections: voter fraud, ballot stuffing, counting manipulation | PAC machinery, campaign contribution networks, [late-filing penalties](/docs/proof-packet/06b_SOS_PAC_LATE_FEES.png) |
 | Real estate acquisition: Tweed became 3rd largest landowner in NYC | [Property transfers between Banks and Holland](/analysis/banks-holland-partnership/), trust certificates, quitclaim deeds |
 | Nonprofit capture: Tammany banks funded by city deposits | Nonprofit 501(c)(3)s used as shells for private enrichment |
 | "The Tweed Ring was an engineering marvel — money laundering, profit sharing, and organization" | "Criminal activity was a way of life for him" (FBI Special Agent Beeckman on Kilpatrick) |
@@ -68,7 +68,7 @@ Banks has been building his enterprise for **14+ years** (and counting). He does
 | Used **parks** (universally loved) to build political capital and deflect criticism | Uses **children's education** (universally valued) — specifically targeting [homeless and juvenile-justice children](/network/institutional/vitti-nicolai/) who have no alternative |
 | Authority issued **bonds** — making its powers irrevocable by contract | LLC has a **management agreement** with §5.2 containing false representations — making the extraction contractually embedded |
 | "Records were closed to the public" — Authority operated with no transparency | LLC financial records are private — school reports **$0 in staff salaries** because all employees are technically hired by the LLC |
-| Controlled through **contracts, legal fees, insurance commissions** — rewarding allies with money | Controls through **board seats for judges**, CBC events for politicians, campaign donations, [PAC committee](/evidence/proof-packet/06a_SOS_PAC_COMMITTEE.png) |
+| Controlled through **contracts, legal fees, insurance commissions** — rewarding allies with money | Controls through **board seats for judges**, CBC events for politicians, campaign donations, [PAC committee](/docs/proof-packet/06a_SOS_PAC_COMMITTEE.png) |
 | **Dossiers on opponents** — could "disgorge the dark secret of anyone who opposed him" | **Legal threats** — hired defense attorney within hours, told complainant to contact attorney only, went dark |
 | "Above politics, above deals — the newspapers and the public believed" | **Pahara Fellow**, CBC honoree, "Dr. Banks, J.D., Ph.D." — credentials not confirmed by bar records or accreditation |
 | Pressured **banks, unions, press, and the Church** into supporting his projects | Network includes **judges, politicians, attorneys, and church** (CBC events, foundation connections, [church layer](/analysis/shepherds-and-wolves/)) |
