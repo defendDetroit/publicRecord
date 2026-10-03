@@ -2,6 +2,7 @@
 title = "Correspondence Timeline"
 description = "Complete chronological record of communications between Kevin Mok and all counsel, agencies, and parties. Every email timestamped. Every letter documented."
 weight = 10
+date = 2026-10-03
 
 [extra]
 keywords = "Kevin Mok GLLG correspondence, Crump-Gibson emails, Banks cease and desist, pro se correspondence timeline, Great Lakes Legal Group Detroit, GLLG silence October 2026"
