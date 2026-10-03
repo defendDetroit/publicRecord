@@ -2,6 +2,8 @@
 title = "Evidence Library"
 description = "Public-record evidence documenting the Detroit charter school network. Financial records, criminal histories, FOIA responses, and court filings."
 sort_by = "weight"
+template = "section.html"
+render = true
 
 [extra]
 keywords = "Detroit charter school investigation evidence, Brian Banks criminal record ICHAT, MacDowell Preparatory Academy financial records, Purpose Charter Academy RICO, federal master packet Detroit schools, Brian Banks ICHAT SID 2029469K"
