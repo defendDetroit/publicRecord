@@ -1,6 +1,6 @@
 +++
 title = "Contact"
-description = "Corrections, contact, and secure communication for anyone named on this site, harmed parties, media, and whistleblowers."
+description = "Corrections, contact, and secure communication for anyone named on this site — harmed parties, media, attorneys, and whistleblowers."
 
 [extra]
 keywords = "Brian Banks correction, Purpose Charter Academy whistleblower, Detroit charter school tip, detroit primals eco contact, MacDowell Preparatory Academy correction, Detroit charter school attorney, pro se RICO Michigan, civil rights attorney Detroit, charter school fraud representation, Purpose Charter Academy lawsuit"
@@ -16,31 +16,20 @@ Truth is more important than being "right." The purpose of this site is to
 document what the public record shows — not to harm anyone unfairly. If I've
 gotten something wrong, I want to know.
 
-This project is built on [ecoPrimals](https://sporeprint.primals.eco)
-infrastructure — the same system used for sovereign scientific computing.
-The foundational principle of that ecosystem is that
-[reality owns itself](https://sporeprint.primals.eco/philosophy/sovereign-science/):
-truth comes from data and observation, not from authority or assertion.
-In science, reproducibility is the standard. In law, truth is an absolute defense.
-This site applies both principles to the public record.
+This project is built on [ecoPrimals](https://sporeprint.primals.eco) —
+a sovereign scientific computing ecosystem where
+[reality owns itself](https://sporeprint.primals.eco/philosophy/sovereign-science/).
+In science, reproducibility is the standard. In law, truth is an
+[absolute defense](/legal/). This site applies both principles to the
+public record: every claim is traceable to a source document, every
+correction is preserved, and the record speaks for itself.
 
 The [atlasHugged essays](https://sporeprint.primals.eco/philosophy/) explain
-why we build this way — twelve essays on sovereign knowledge, open commons,
-and the architecture of accountability. Start with
+why I build this way — start with
 [The City of Omelas](https://sporeprint.primals.eco/philosophy/the-city-of-omelas/)
-if you want to understand the motivation, or
+for the motivation, or
 [Discovery Is Local](https://sporeprint.primals.eco/philosophy/discovery-is-local/)
-if you want to understand why we insist on primary sources over secondhand claims.
-
-This project is built by [ecoPrimals](https://sporeprint.primals.eco) — a
-scientific computing ecosystem. As scientists and engineers, we believe truth
-comes from data and reality, not from narrative or authority. In law, truth is
-an [absolute defense](/legal/). We treat
-it the same way in publication: every claim is traceable to a public record,
-every correction is preserved, and the record speaks for itself.
-
-This site is the bureaucratic-interface arm of the primals — where the
-organism meets institutions. Truth is the bulwark.
+for why I insist on primary sources over secondhand claims.
 
 **Email:** [eco.primal@pm.me](mailto:eco.primal@pm.me)
 
@@ -58,8 +47,11 @@ correction history is part of the public record too.
 ## For Harmed Parties
 
 If you or your family have been affected by Purpose Charter Academy, MacDowell
-Preparatory Academy, or any person or institution named on this site, we want
+Preparatory Academy, or any person or institution named on this site, I want
 to hear from you. Your experience matters and may help protect other families.
+
+You are not alone. Contact me at
+[eco.primal@pm.me](mailto:eco.primal@pm.me) — anonymity respected.
 
 ## For Journalists
 
@@ -85,7 +77,7 @@ to carry — contact me.
 - Formal complaints pending with the Michigan Department of Education
 - A typed entity-relationship database: 73 entities, 122 graph edges, every
   connection sourced to public records
-- This site — 213+ pages of documented public record analysis with corrections
+- This site — 200+ pages of documented public record analysis with corrections
   policy and epistemic grammar
 - A [git repository](https://git.primals.eco/publicRecord/detroit) you can
   clone and verify independently
@@ -126,8 +118,8 @@ via the email above.
 ## Legal Notice
 
 This site publishes factual claims supported by public records. If you believe
-any information on this site is inaccurate, contact us with specific corrections
-and supporting documentation. We will investigate and correct any verified
+any information is inaccurate, contact me with specific corrections
+and supporting documentation. I will investigate and correct any verified
 errors promptly.
 
 Nothing on this site constitutes legal advice.
