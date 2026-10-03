@@ -1,17 +1,11 @@
 +++
 title = "Correspondence Timeline"
 description = "Complete chronological record of communications between Kevin Mok and all counsel, agencies, and parties. Every email timestamped. Every letter documented."
-date = 2026-10-03
-updated = 2026-10-03
 weight = 10
 
 [extra]
 keywords = "Kevin Mok GLLG correspondence, Crump-Gibson emails, Banks cease and desist, pro se correspondence timeline, Great Lakes Legal Group Detroit, GLLG silence October 2026"
 
-[taxonomies]
-actors = ["Brian Banks", "Jehan Crump-Gibson", "Kevin Mok"]
-entities = ["Great Lakes Legal Group PLLC", "Foley & Mansfield PLLP"]
-connections = ["correspondence", "cease and desist", "counsel communication"]
 +++
 
 Every communication below is preserved with full headers, timestamps, and delivery confirmations. Nothing has been altered.

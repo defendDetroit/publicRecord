@@ -1,18 +1,11 @@
 +++
 title = "TCR 22-12 — The Administrator Certificate"
 description = "The Teacher Certification Review decision that gave a nine-time convicted felon a Michigan school administrator certificate. Seven conditions. Who testified. What they said. What happened next."
-date = 2026-10-03
-updated = 2026-10-03
 weight = 15
 
 [extra]
 keywords = "TCR 22-12 Brian Banks, Michigan administrator certificate felon, State Superintendent Michael Rice Brian Banks, MacDowell Preparatory Academy administrator, Banks administrator certificate conditions, Shulman Leno testimony TCR 22-12"
 
-[taxonomies]
-actors = ["Brian Banks", "Terrence Shulman", "Michele Leno", "Gregory M. Meihn", "Nicolai Vitti", "Nicole Wells-Stallworth"]
-entities = ["Michigan Department of Education", "MacDowell Preparatory Academy", "MOAHR"]
-connections = ["TCR 22-12", "administrator certificate", "compliance verification"]
-courts = ["Teacher Certification Review"]
 +++
 
 On August 4, 2023, State Superintendent Michael F. Rice issued Brian Roderick Banks a Michigan School Administrator Certificate — despite Banks having **eight felony fraud convictions** at the time (a ninth had been reduced to a misdemeanor in 2017).

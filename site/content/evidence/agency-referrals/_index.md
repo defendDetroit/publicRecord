@@ -1,17 +1,11 @@
 +++
 title = "Agency Referrals"
 description = "Complete record of criminal and administrative referrals submitted to federal and state agencies. Eight federal agencies. State agencies. Judicial Tenure Commission. Every referral timestamped."
-date = 2026-10-03
-updated = 2026-10-03
 weight = 30
 
 [extra]
 keywords = "FBI referral Brian Banks, USPS OIG Banks, IRS criminal investigation charter school, DOE OIG Purpose Charter Academy, JTC investigation Wayne County judges, MDE complaint Brian Banks administrator, federal RICO referral Detroit schools"
 
-[taxonomies]
-actors = ["Brian Banks", "Joseph Holland Jr.", "Kevin Mok"]
-entities = ["FBI", "USPS OIG", "IRS CI", "DOE OIG", "FEC", "JTC", "MDE", "USAO"]
-connections = ["federal referral", "criminal complaint", "agency notification"]
 +++
 
 Between September 21 and October 1, 2026, Kevin Mok submitted referral packets to **eight federal agencies**, the **Michigan Department of Education**, and the **Judicial Tenure Commission**. Every referral is documented below with dates, case numbers where assigned, and current status.

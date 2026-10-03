@@ -1,18 +1,11 @@
 +++
 title = "Court Filings"
 description = "All civil complaints, motions, and filings in Ingham County Circuit Court and Wayne County Circuit Court. Public records, published for transparency."
-date = 2026-10-03
-updated = 2026-10-03
 weight = 40
 
 [extra]
 keywords = "Mok v Smith Ingham County, Mok v Banks Ingham County, 2026-4301-CZ complaint, 2026-4349-CZ complaint, DaSean Mitchell custody Wayne County, Purpose Charter Academy lawsuit, pro se RICO Michigan"
 
-[taxonomies]
-actors = ["Kevin Mok", "Brian Banks", "Joseph Holland Jr.", "Tracey Ellis"]
-entities = ["Purpose Group LLC", "Purpose Charter Academy", "Purpose Foundation"]
-courts = ["Ingham County 30th Circuit Court", "Wayne County 3rd Circuit Court"]
-connections = ["civil complaint", "pro se litigation", "RICO"]
 +++
 
 Kevin Mok is the plaintiff in two civil cases filed in Ingham County Circuit Court. DaSean Mitchell is a party in a custody case in Wayne County Circuit Court. All filings referenced here are public records.

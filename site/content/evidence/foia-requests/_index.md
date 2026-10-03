@@ -1,17 +1,11 @@
 +++
 title = "FOIA Requests and Responses"
 description = "Complete record of all Freedom of Information Act requests submitted in this investigation. Requests, responses, timelines, and what the government records reveal."
-date = 2026-10-03
-updated = 2026-10-03
 weight = 20
 
 [extra]
 keywords = "MDE FOIA Brian Banks, Michigan Department of Education FOIA, TCR 22-12 FOIA, MOAHR FOIA request, Purpose Charter Academy public records, MacDowell Preparatory Academy audit FOIA"
 
-[taxonomies]
-actors = ["Brian Banks", "David Head", "Nicole Wells-Stallworth"]
-entities = ["Michigan Department of Education", "MOAHR", "MacDowell Preparatory Academy", "Purpose Charter Academy"]
-connections = ["FOIA", "public records", "government disclosure"]
 +++
 
 Every document referenced below was obtained through lawful FOIA requests to Michigan state agencies. The requests themselves and the responses are public records.
