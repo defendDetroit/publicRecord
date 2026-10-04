@@ -122,31 +122,92 @@
       detail: 'Former State Rep. Nicole\'s husband. Defended Banks at felony rally.', url: null,
       nexus: ['legislative'] },
     { id: 'moreland', label: 'L. Moreland', tier: 2, type: 'judge',
-      detail: 'AAG → PCA Board Vice Chair. Argued AGAINST Banks cert, then joined his board.', url: null,
+      detail: 'AAG → PCA Board Director + Banks litigation attorney. MRPC 1.7 conflict.', url: null,
       nexus: ['education', 'legislative'] },
     { id: 'johnson_l', label: 'L. Johnson', tier: 3, type: 'political',
-      detail: 'City Council. PCA Board Secretary. Campaign funded by Inner Link ($850).', url: null,
+      detail: 'City Council D2. PCA Board Secretary. Campaign funded by SDJ/Detroit Leaders.', url: null,
       nexus: ['political', 'education'] },
+
+    // ── LARA-confirmed actors (Corporate Network Analysis) ──
+    { id: 'carol_banks', label: 'Carol Banks', tier: 3, type: 'actor',
+      detail: 'Brian\'s sister. Controls Original Eastside Slate. Former CoS to Benson. FBI target.', url: null,
+      nexus: ['political'] },
+    { id: 'leach', label: 'W. Spencer Leach', tier: 3, type: 'actor',
+      detail: '13 political entities. Batch-filed 3 on same day (consecutive LARA IDs). Machine builder.', url: null,
+      nexus: ['political'] },
+    { id: 'ross', label: 'Carlton Ross', tier: 2, type: 'actor',
+      detail: 'Right Turn Project Treasurer + connected to Ross Catering ($35K+ from PACs). Self-dealing loop.', url: null,
+      nexus: ['political'] },
+    { id: 'gordon', label: 'Jason Gordon', tier: 2, type: 'actor',
+      detail: 'Attorney. Custom Promotions + Deen Legal. FBI/IRS/DoL investigated (UAW bribery). 20+ entities.', url: null,
+      nexus: ['political'] },
+    { id: 'larry_thomas', label: 'Larry Thomas Jr', tier: 2, type: 'actor',
+      detail: 'Inner Link Graphics owner. Also runs obituaries4less.com. $98K from 5 committees.', url: null,
+      nexus: ['political'] },
+    { id: 'daniels', label: 'Kenneth Daniels', tier: 3, type: 'actor',
+      detail: 'SDJ/Detroit Leaders President. Agent on 15+ entities (real estate, construction).', url: null,
+      nexus: ['political'] },
+    { id: 'crump_gibson', label: 'Crump-Gibson', tier: 2, type: 'judge',
+      detail: 'Great Lakes Legal Group. MI Attorney Discipline Board panelist. MSU. Possible Crump family.', url: null,
+      nexus: ['education'] },
+    { id: 'v_hall', label: 'V. Hall', tier: 2, type: 'judge',
+      detail: 'Crump Hall of Justice Law Firm. Filed PPO against journalist. Maiden name = Crump.', url: null,
+      nexus: ['education'] },
+    { id: 'hutchings', label: 'D. Hutchings', tier: 3, type: 'actor',
+      detail: 'PCA Board Treasurer. DB Strategies + DB Athletics (Ypsilanti). Not from Detroit.', url: null,
+      nexus: ['education'] },
+    { id: 'clora', label: 'M. Clora', tier: 3, type: 'actor',
+      detail: 'PCA Board Director. Former American Motor Coach Inc (dissolved).', url: null,
+      nexus: ['education'] },
 
     // ── Entities ──
     { id: 'pca', label: 'Purpose Charter Academy', tier: 0, type: 'school',
-      detail: 'K-8, DPSCD authorized', url: '/network/entities/purpose-charter-academy/',
+      detail: 'K-8, DPSCD authorized. LARA 900072324.', url: '/network/entities/purpose-charter-academy/',
       nexus: ['education'] },
     { id: 'macdowell', label: 'MacDowell Prep', tier: 0, type: 'school',
       detail: '$4.9M revenue, 3% math. [FOIA: 9yr audits]', url: '/network/entities/macdowell-prep/',
       nexus: ['education'] },
     { id: 'purpose_group', label: 'Purpose Group LLC', tier: 0, type: 'entity',
-      detail: 'CMO — takes 72.67% of revenue', url: '/network/entities/purpose-group-llc/',
+      detail: 'CMO — takes 72.67% of revenue. LARA 803295082.', url: '/network/entities/purpose-group-llc/',
       nexus: ['education'] },
     { id: 'purpose_foundation', label: 'Purpose Foundation', tier: 0, type: 'entity',
-      detail: '501(c)(3), 2 felons in all positions', url: '/network/entities/purpose-foundation/',
+      detail: '501(c)(3), 2 felons in all positions. LARA 803294855.', url: '/network/entities/purpose-foundation/',
       nexus: ['education'] },
     { id: 'banks_strategy', label: 'Banks Strategy LLC', tier: 0, type: 'entity',
-      detail: 'Receives judge campaign payments', url: '/network/entities/banks-strategy-llc/',
+      detail: 'Receives judge campaign payments. LARA 802070120.', url: '/network/entities/banks-strategy-llc/',
       nexus: ['education', 'political'] },
     { id: 'pacs', label: 'PACs', tier: 0, type: 'entity',
       detail: '$14.5K+ fines, felon treasurer', url: '/network/entities/political-action-committees/',
       nexus: ['political'] },
+
+    // ── LARA-revealed entities ──
+    { id: 'sdj', label: 'Save Detroit Jobs', tier: 0, type: 'entity',
+      detail: '3 names: SDJ (2016) + Impact Detroit (2018) + Detroit Leaders (2021). LARA 802002459.', url: null,
+      nexus: ['political'] },
+    { id: 'dykema', label: 'Dykema Gossett', tier: 4, type: 'institutional',
+      detail: 'MI\'s largest law firm. Formed SDJ. compliance@dykema.com. 201 Townsend, Lansing.', url: null,
+      nexus: ['political'] },
+    { id: 'right_turn', label: 'Right Turn Project', tier: 0, type: 'entity',
+      detail: 'Nonprofit. Dissolved 12/2021 (annual report failure). Holland = Pres. LARA 800936257.', url: null,
+      nexus: ['political'] },
+    { id: 'ross_catering', label: 'Ross Catering', tier: 0, type: 'entity',
+      detail: '$35K+ from Banks campaigns. Ross = Right Turn treasurer + catering vendor. Self-dealing.', url: null,
+      nexus: ['political'] },
+    { id: 'serenity', label: 'Serenity Guardianship', tier: 0, type: 'entity',
+      detail: 'For-profit guardianship. Banks sole officer. Never barred. UPL concern. LARA 802290962.', url: null,
+      nexus: ['education'] },
+    { id: 'custom_promo', label: 'Custom Promotions', tier: 0, type: 'entity',
+      detail: 'Dissolve-and-reform (Inc → LLC, 3 months). Gordon = attorney under FBI investigation.', url: null,
+      nexus: ['political'] },
+    { id: 'eastside_slate', label: 'Original Eastside Slate', tier: 0, type: 'entity',
+      detail: '4th incarnation. Carol Banks = agent. Endorsement machine. LARA 802434498.', url: null,
+      nexus: ['political'] },
+    { id: 'great_lakes_legal', label: 'Great Lakes Legal', tier: 0, type: 'entity',
+      detail: 'Crump-Gibson\'s firm. LARA 802112914. Discipline Board panelist = Banks attorney.', url: null,
+      nexus: ['education'] },
+    { id: 'anchor_rock', label: 'Anchor Rock Services', tier: 0, type: 'entity',
+      detail: 'Construction + upfitting (Holland, MI). 3 assumed names. LARA 800770907.', url: null,
+      nexus: [] },
   ];
 
 
@@ -228,9 +289,53 @@
     // ── Nexus 4: Legislative Pipeline ──
     { source: 'stallworth_t', target: 'wells_stallworth', type: 'family', label: 'married', flow: 'influence', amount: null },
     { source: 'stallworth_t', target: 'banks', type: 'political', label: 'defended at rally, $1,250', flow: 'influence', amount: null },
-    { source: 'moreland', target: 'pca', type: 'controls', label: 'Board Vice Chair', flow: 'position', amount: null },
-    { source: 'moreland', target: 'banks', type: 'judicial', label: 'AAG argued against cert → joined board', flow: 'influence', amount: null },
+    { source: 'moreland', target: 'pca', type: 'controls', label: 'Board Director + litigation attorney', flow: 'position', amount: null },
+    { source: 'moreland', target: 'banks', type: 'judicial', label: 'AAG argued against cert → became his attorney + board member', flow: 'influence', amount: null },
     { source: 'miller', target: 'pca', type: 'controls', label: 'Board Chair', flow: 'position', amount: null },
+
+    // ── LARA-revealed: PCA Board (full composition) ──
+    { source: 'hutchings', target: 'pca', type: 'controls', label: 'Board Treasurer (Ypsilanti)', flow: 'position', amount: null },
+    { source: 'clora', target: 'pca', type: 'controls', label: 'Board Director', flow: 'position', amount: null },
+
+    // ── LARA-revealed: Dark money vehicle (SDJ / Detroit Leaders) ──
+    { source: 'dykema', target: 'sdj', type: 'controls', label: 'formed entity (compliance@dykema.com)', flow: 'power', amount: null },
+    { source: 'daniels', target: 'sdj', type: 'controls', label: 'President + Director', flow: 'position', amount: null },
+    { source: 'sdj', target: 'johnson_l', type: 'money', label: 'funded 2021 campaign vs. Elrick', flow: 'money', amount: null },
+    { source: 'johnson_l', target: 'pca', type: 'controls', label: 'PCA Board Secretary (payoff)', flow: 'position', amount: null },
+
+    // ── LARA-revealed: Right Turn Project (dissolved charity loop) ──
+    { source: 'holland', target: 'right_turn', type: 'controls', label: 'President + Director', flow: 'position', amount: null },
+    { source: 'ross', target: 'right_turn', type: 'controls', label: 'Treasurer + Director', flow: 'position', amount: null },
+    { source: 'banks', target: 'right_turn', type: 'controls', label: 'controlled via email (BBesq06@aol.com)', flow: 'power', amount: null },
+    { source: 'pacs', target: 'right_turn', type: 'money', label: 'PAC transfers', flow: 'money', amount: null },
+    { source: 'ross', target: 'ross_catering', type: 'associate', label: 'treasurer + vendor (self-dealing)', flow: 'money', amount: null },
+    { source: 'pacs', target: 'ross_catering', type: 'money', label: '$35K+ campaign payments', flow: 'money', amount: 35000 },
+
+    // ── LARA-revealed: Inner Link + Larry Thomas ──
+    { source: 'larry_thomas', target: 'inner_link', type: 'controls', label: 'owner + agent', flow: 'power', amount: null },
+
+    // ── LARA-revealed: Custom Promotions (dissolve-and-reform) ──
+    { source: 'gordon', target: 'custom_promo', type: 'controls', label: 'dissolve-and-reform (Inc→LLC, 3 mo)', flow: 'power', amount: null },
+    { source: 'custom_promo', target: 'johnson_l', type: 'money', label: 'campaign payments', flow: 'money', amount: null },
+    { source: 'gordon', target: 'banks', type: 'associate', label: 'UAW bribery network ($3M+)', flow: 'influence', amount: null },
+
+    // ── LARA-revealed: Eastside Slate endorsement machine ──
+    { source: 'carol_banks', target: 'eastside_slate', type: 'controls', label: 'agent — 4th incarnation', flow: 'power', amount: null },
+    { source: 'carol_banks', target: 'banks', type: 'family', label: 'sister', flow: 'influence', amount: null },
+    { source: 'leach', target: 'eastside_slate', type: 'associate', label: '2nd incarnation agent. 13 political entities.', flow: 'influence', amount: null },
+    { source: 'eastside_slate', target: 'banks', type: 'political', label: 'endorsement pipeline', flow: 'influence', amount: null },
+
+    // ── LARA-revealed: Legal representation family ──
+    { source: 'crump_gibson', target: 'great_lakes_legal', type: 'controls', label: 'agent + member', flow: 'power', amount: null },
+    { source: 'crump_gibson', target: 'banks', type: 'judicial', label: 'represents Banks (Discipline Board panelist)', flow: 'influence', amount: null },
+    { source: 'v_hall', target: 'banks', type: 'judicial', label: 'filed PPO against journalist', flow: 'influence', amount: null },
+    { source: 'v_hall', target: 'crump_gibson', type: 'associate', label: 'shared surname Crump — MSU — family?', flow: 'influence', amount: null },
+
+    // ── LARA-revealed: Serenity Guardianship (UPL) ──
+    { source: 'banks', target: 'serenity', type: 'controls', label: 'sole officer (all 4 roles). Never barred.', flow: 'power', amount: null },
+
+    // ── LARA-revealed: Anchor Rock (construction, Holland MI) ──
+    { source: 'banks', target: 'anchor_rock', type: 'controls', label: 'agent. 3 assumed names.', flow: 'power', amount: null },
   ];
 
 
@@ -242,29 +347,29 @@
     {
       id: 'banks_empire',
       controller: 'banks',
-      label: 'Banks controls all',
-      members: ['banks', 'pca', 'macdowell', 'purpose_group', 'purpose_foundation', 'banks_strategy', 'holland'],
+      label: 'Banks controls all (12 LARA entities)',
+      members: ['banks', 'pca', 'macdowell', 'purpose_group', 'purpose_foundation', 'banks_strategy', 'holland', 'serenity', 'anchor_rock'],
       color: 'rgba(192,57,43,0.12)',
       stroke: 'rgba(192,57,43,0.5)',
-      note: '1 person, 6 entities, 1 co-resident felon'
+      note: '1 person, 12 LARA entities, 1 co-resident felon. Grosse Pointe Woods, Holland, Zeeland, Clarkston, Waterford.'
     },
     {
       id: 'banks_pacs',
       controller: 'holland',
       label: 'Holland manages finances',
-      members: ['holland', 'pacs', 'purpose_foundation'],
+      members: ['holland', 'pacs', 'purpose_foundation', 'right_turn'],
       color: 'rgba(243,156,18,0.10)',
       stroke: 'rgba(243,156,18,0.4)',
-      note: 'PAC treasurer + Foundation secretary = same felon'
+      note: 'PAC treasurer + Foundation secretary + Right Turn president = same convicted drug dealer'
     },
     {
       id: 'pca_board',
       controller: 'banks',
-      label: 'PCA Board (Banks-selected)',
-      members: ['pca', 'miller', 'moreland', 'johnson_l'],
+      label: 'PCA Board (LARA-confirmed)',
+      members: ['pca', 'miller', 'moreland', 'johnson_l', 'hutchings', 'clora'],
       color: 'rgba(39,174,96,0.10)',
       stroke: 'rgba(39,174,96,0.4)',
-      note: 'Judge + AAG + Council = "oversight" selected by subject'
+      note: 'Banks = agent (not officer). Moreland = litigation attorney + director (MRPC 1.7). Johnson = SDJ-funded.'
     },
     {
       id: 'macdowell_board',
@@ -274,6 +379,33 @@
       color: 'rgba(142,68,173,0.10)',
       stroke: 'rgba(142,68,173,0.4)',
       note: 'Board President + Judge = hand-picked by superintendent'
+    },
+    {
+      id: 'dark_money_vehicle',
+      controller: 'dykema',
+      label: 'Dark Money Vehicle (3 names, 1 entity)',
+      members: ['sdj', 'dykema', 'daniels', 'johnson_l'],
+      color: 'rgba(231,76,60,0.10)',
+      stroke: 'rgba(231,76,60,0.4)',
+      note: 'Dykema Gossett formed SDJ. 3 assumed names. Daniels = president. Funded Johnson vs. Elrick.'
+    },
+    {
+      id: 'endorsement_machine',
+      controller: 'carol_banks',
+      label: 'Endorsement Machine (4 incarnations)',
+      members: ['eastside_slate', 'carol_banks', 'leach'],
+      color: 'rgba(41,128,185,0.10)',
+      stroke: 'rgba(41,128,185,0.4)',
+      note: 'Eastside Slate filed 4 times. Leach batch-filed 3 entities same day. Carol Banks = current agent.'
+    },
+    {
+      id: 'self_dealing_loop',
+      controller: 'ross',
+      label: 'Right Turn Self-Dealing',
+      members: ['right_turn', 'ross', 'ross_catering'],
+      color: 'rgba(211,84,0,0.10)',
+      stroke: 'rgba(211,84,0,0.4)',
+      note: 'Ross = charity treasurer + connected to vendor paid $35K by PACs. BBesq06@aol.com = Banks\'s email.'
     }
   ];
 
@@ -318,6 +450,24 @@
       label: 'Regulator capture (state)',
       path: ['mde', 'macdowell', 'banks', 'wells_stallworth', 'mde'],
       note: 'MDE investigated Banks → cleared → Wells-Stallworth (who protects Banks) received the investigation letter'
+    },
+    {
+      id: 'sdj_suppression_cycle',
+      label: 'Dark money suppression loop',
+      path: ['dykema', 'sdj', 'johnson_l', 'pca', 'banks'],
+      note: 'Dykema formed SDJ → SDJ funded Johnson vs Elrick (journalist) → Johnson won → joined PCA board → Banks benefits'
+    },
+    {
+      id: 'right_turn_cycle',
+      label: 'Right Turn self-dealing',
+      path: ['pacs', 'right_turn', 'ross', 'ross_catering', 'pacs'],
+      note: 'PAC transfers to Right Turn (Ross = treasurer) → Ross connected to Ross Catering → Catering paid $35K+ by PACs'
+    },
+    {
+      id: 'moreland_dual_role',
+      label: 'Attorney-director conflict',
+      path: ['moreland', 'pca', 'banks', 'moreland'],
+      note: 'Moreland is Banks\'s litigation attorney AND PCA board director simultaneously. MRPC 1.7 conflict.'
     }
   ];
 
@@ -343,11 +493,23 @@
     dpsa:             { px: 0.38, py: 0.24 },
 
     // Extraction — right of schools, heading out of Detroit
-    purpose_group:    { px: 0.58, py: 0.32 },
-    purpose_foundation: { px: 0.58, py: 0.50 },
-    banks_strategy:   { px: 0.58, py: 0.65 },
-    pacs:             { px: 0.58, py: 0.78 },
+    purpose_group:    { px: 0.55, py: 0.32 },
+    purpose_foundation: { px: 0.55, py: 0.50 },
+    banks_strategy:   { px: 0.55, py: 0.65 },
+    pacs:             { px: 0.55, py: 0.78 },
+
+    // LARA entities — Detroit side
     inner_link:       { px: 0.20, py: 0.82 },
+    sdj:              { px: 0.20, py: 0.65 },
+    right_turn:       { px: 0.20, py: 0.50 },
+    ross_catering:    { px: 0.20, py: 0.38 },
+    custom_promo:     { px: 0.20, py: 0.25 },
+    eastside_slate:   { px: 0.20, py: 0.12 },
+
+    // LARA entities — extraction side
+    serenity:         { px: 0.68, py: 0.45 },
+    anchor_rock:      { px: 0.68, py: 0.60 },
+    great_lakes_legal: { px: 0.68, py: 0.75 },
   };
 
   var GEO_AGGREGATES = [
@@ -410,6 +572,30 @@
       px: 0.08, py: 0.05,
       detail: 'MDE investigated Feb 2022 → cleared. AG deferred.',
       aggregates: ['mde'] },
+
+    // ── Dykema Gossett (Lansing — dark money formation) ──
+    { id: 'dykema_lansing', label: 'Dykema Gossett (Lansing)', type: 'dark_money',
+      px: 0.08, py: 0.45,
+      detail: 'MI\'s largest law firm. 201 Townsend St Ste 900. Formed Save Detroit Jobs.',
+      aggregates: ['dykema'] },
+
+    // ── Southfield (North Park address hub) ──
+    { id: 'southfield', label: 'Southfield', type: 'property',
+      px: 0.68, py: 0.88,
+      detail: '16500 North Park Dr — connects Banks (2001) to Ross + Tarver (2013). Inner Link at 9 Mile.',
+      aggregates: [] },
+
+    // ── Warren (Custom Promotions / Deen Legal) ──
+    { id: 'warren', label: 'Warren', type: 'vendor',
+      px: 0.38, py: 0.12,
+      detail: '14326 E. 9 Mile Rd — Custom Promotions + Deen Legal. Gordon = FBI investigated.',
+      aggregates: ['gordon'] },
+
+    // ── Holland MI (Anchor Rock) ──
+    { id: 'holland_mi', label: 'Holland, MI', type: 'property',
+      px: 0.88, py: 0.88,
+      detail: 'Anchor Rock Services + ARS Holdings + GL Upfitting. Banks = agent.',
+      aggregates: [] },
   ];
 
 
@@ -504,6 +690,42 @@
     // ══ PATH K: Endorsement influence ══
     { from: 'wayne_county', to: 'gpw', flow_type: 'kickback',
       label: 'Evans + Sabree endorsed Banks', amount: 0 },
+
+    // ══ PATH L: Dark money vehicle — Dykema → SDJ → Johnson → PCA ══
+    { from: 'dykema_lansing', to: 'sdj', flow_type: 'dark_money',
+      label: 'Dykema formed SDJ (compliance@dykema.com)', amount: 0 },
+    { from: 'sdj', to: 'city_hall', flow_type: 'dark_money',
+      label: 'Detroit Leaders funded Johnson vs Elrick', amount: 0 },
+
+    // ══ PATH M: Right Turn self-dealing loop ══
+    { from: 'pacs', to: 'right_turn', flow_type: 'campaign',
+      label: 'PAC transfers → charity', amount: 0 },
+    { from: 'right_turn', to: 'ross_catering', flow_type: 'extraction',
+      label: 'Ross = treasurer + vendor (self-dealing)', amount: 35000 },
+
+    // ══ PATH N: Custom Promotions (dissolve-reform) ══
+    { from: 'warren', to: 'city_hall', flow_type: 'campaign',
+      label: 'Custom Promotions → Johnson campaign', amount: 0 },
+
+    // ══ PATH O: Inner Link ownership ══
+    { from: 'pacs', to: 'inner_link', flow_type: 'campaign',
+      label: '$98K printing (Thomas = obituaries4less.com)', amount: 98291 },
+
+    // ══ PATH P: Serenity Guardianship (UPL) ══
+    { from: 'serenity', to: 'gpw', flow_type: 'extraction',
+      label: 'For-profit guardianship → Banks (never barred)', amount: 0 },
+
+    // ══ PATH Q: Anchor Rock construction (Holland MI) ══
+    { from: 'anchor_rock', to: 'holland_mi', flow_type: 'property',
+      label: '3 assumed names (upfitting, fire supply, construction)', amount: 0 },
+
+    // ══ PATH R: Endorsement machine ══
+    { from: 'eastside_slate', to: 'city_hall', flow_type: 'campaign',
+      label: '4 incarnations. Carol Banks = current agent.', amount: 0 },
+
+    // ══ PATH S: Southfield address connection ══
+    { from: 'southfield', to: 'gpw', flow_type: 'property',
+      label: '16500 N Park — Banks (2001) → Ross + Tarver (2013)', amount: 0 },
   ];
 
 
@@ -574,6 +796,9 @@
     donation:      { color: '#2980b9', width: 2, dash: '5,3' },    // blue dashed — donations
     oversight:     { color: '#7f8c8d', width: 1.5, dash: '3,6' },  // grey dotted — failed oversight
     events:        { color: '#e67e22', width: 2, dash: '4,4' },    // amber dashed — event revenue
+    formation:     { color: '#e74c3c', width: 3, dash: '2,2' },    // red dotted — entity formation
+    self_dealing:  { color: '#d35400', width: 3, dash: '3,2' },    // burnt orange — self-dealing loop
+    endorsement:   { color: '#2980b9', width: 2, dash: '4,3' },    // blue dashed — endorsement pipeline
     // Legacy compat
     money_in:      { color: '#27ae60', width: 4, dash: '' },
     money_out:     { color: '#e74c3c', width: 4, dash: '' },
@@ -740,7 +965,7 @@
     },
 
     // Version (increment on schema changes)
-    version: 1,
+    version: 2,
   };
 
   window.DETROIT_NETWORK = network;
