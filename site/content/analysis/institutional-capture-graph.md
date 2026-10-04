@@ -14,6 +14,15 @@ entities = ["MacDowell Preparatory Academy", "Purpose Charter Academy", "Purpose
 connections = ["institutional capture", "credential washing", "police weaponization", "political nexus", "education fraud", "FBI wiretap"]
 +++
 
+<div id="network-graph" style="margin: 2rem 0;"></div>
+<script src="/js/network-graph.js"></script>
+
+<p style="text-align:center;font-size:0.85rem;opacity:0.6;margin-top:-0.5rem;">
+Hover any node to trace its connections. Click to navigate. Toggle nexus types to overlay layers.
+</p>
+
+---
+
 ## The Network Is Not a Hierarchy — It Is a Response System
 
 Traditional corruption investigations map organizations top-down: find the boss, trace the orders, follow the money. This network does not work that way. It is **threat-responsive** — each nexus activates when another is under pressure, routing around the attack.

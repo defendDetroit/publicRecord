@@ -12,6 +12,7 @@ Analysis of the documented patterns connecting convicted felons, captured courts
 
 | Analysis | Key Finding |
 |----------|-------------|
+| **[🔗 Institutional Capture Graph](/analysis/institutional-capture-graph/)** | **50+ nodes, 50+ edges — interactive network visualization. Four nexus types. One network.** |
 | **[RICO Pattern](/analysis/rico-pattern/)** | 6 predicate acts, 14+ years of continuity, $4.9M annual extraction |
 | **[Institutional Capture](/analysis/institutional-capture/)** | 9 judges across 4 courts, dual-felon governance, charter authorization feedback loop |
 | **[Allied Cases](/analysis/allied-cases/)** | 3 independent litigants corroborate the pattern: Bryant v. Miller, Bradley-Baskin, Bowles v. Sabree |
