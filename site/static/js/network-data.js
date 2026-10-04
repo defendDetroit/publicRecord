@@ -332,83 +332,178 @@
   // Some geo entries are aggregates (city_hall, wayne_county) that
   // don't map 1:1 to network nodes — they carry a `geoOnly` flag.
 
+  // ── Geo layout ──
+  // LEFT: Funding sources | CENTER: Detroit schools | RIGHT-TOP: Extraction
+  // RIGHT: Political/judicial | FAR-RIGHT: Grosse Pointe Woods (actual destination)
+
   var GEO_POSITIONS = {
-    // Schools — center of map (the community)
-    macdowell:      { px: 0.45, py: 0.42 },
-    pca:            { px: 0.52, py: 0.55 },
-    dpsa:           { px: 0.38, py: 0.32 },
+    // Schools — center column (Detroit community)
+    macdowell:        { px: 0.38, py: 0.38 },
+    pca:              { px: 0.38, py: 0.55 },
+    dpsa:             { px: 0.38, py: 0.24 },
 
-    // Extraction layer — top (outside community)
-    purpose_group:  { px: 0.42, py: 0.14 },
-    banks:          { px: 0.22, py: 0.10 },
-    banks_strategy: { px: 0.65, py: 0.12 },
-
-    // Political — lower right
-    sheffield:      { px: 0.72, py: 0.62 },
-    evans:          { px: 0.82, py: 0.50 },
-    miller:         { px: 0.75, py: 0.38 },
-    yancey:         { px: 0.85, py: 0.72 },
-
-    // State — far left
-    mde:            { px: 0.08, py: 0.30 },
-
-    // Vendor — lower left
-    inner_link:     { px: 0.15, py: 0.65 },
+    // Extraction — right of schools, heading out of Detroit
+    purpose_group:    { px: 0.58, py: 0.32 },
+    purpose_foundation: { px: 0.58, py: 0.50 },
+    banks_strategy:   { px: 0.58, py: 0.65 },
+    pacs:             { px: 0.58, py: 0.78 },
+    inner_link:       { px: 0.20, py: 0.82 },
   };
 
-  // Geo-only aggregate locations (not network nodes, but conceptual positions)
   var GEO_AGGREGATES = [
-    { id: 'city_hall', label: 'Detroit City Hall', type: 'political',
-      px: 0.72, py: 0.62,
+    // ── Funding sources (left column) ──
+    { id: 'mi_state_aid', label: 'MI State Aid', type: 'source',
+      px: 0.08, py: 0.30,
+      detail: 'Per-pupil funding from Michigan taxpayers',
+      aggregates: [] },
+    { id: 'dpscd', label: 'DPSCD', type: 'source',
+      px: 0.08, py: 0.55,
+      detail: 'Authorizer — receives 3% fee (~$147K/yr)',
+      aggregates: [] },
+    { id: 'private_donors', label: 'Private Donors', type: 'source',
+      px: 0.08, py: 0.70,
+      detail: 'Tax-deductible contributions to Purpose Foundation',
+      aggregates: [] },
+    { id: 'pscu', label: 'PSCU Credit Union', type: 'source',
+      px: 0.08, py: 0.82,
+      detail: 'Shared lender — $549K+ enterprise mortgages',
+      aggregates: [] },
+    { id: 'cbc_events', label: 'CBC Events', type: 'source',
+      px: 0.08, py: 0.15,
+      detail: 'Congressional Black Caucus Week — $50K-$150K est.',
+      aggregates: [] },
+
+    // ── Destination: Grosse Pointe Woods (far right — OUTSIDE Detroit) ──
+    { id: 'gpw', label: 'Grosse Pointe Woods', type: 'destination',
+      px: 0.88, py: 0.30,
+      detail: '1968 Severn Rd — Purpose Group LLC registered address. Banks/Holland residence.',
+      aggregates: ['banks'] },
+
+    // ── Political/Judicial (lower right) ──
+    { id: 'city_hall', label: 'City Hall', type: 'political',
+      px: 0.78, py: 0.60,
       detail: 'Mayor Sheffield · Ombudsman Gay-Dagnogo',
       aggregates: ['sheffield', 'gay_dagnogo'] },
     { id: 'wayne_county', label: 'Wayne County', type: 'political',
-      px: 0.82, py: 0.50,
-      detail: 'Exec Evans · Treasurer Sabree',
+      px: 0.78, py: 0.75,
+      detail: 'Exec Evans · Treasurer Sabree (foreclosure pipeline)',
       aggregates: ['evans', 'sabree_e'] },
-    { id: '3rd_circuit', label: '3rd Circuit Court', type: 'court',
-      px: 0.75, py: 0.38,
-      detail: 'Judges Miller, A. Sabree, Ramsey',
+    { id: '3rd_circuit', label: '3rd Circuit', type: 'court',
+      px: 0.78, py: 0.42,
+      detail: 'Judge Miller (PCA Board Chair), Judge A. Sabree',
       aggregates: ['miller', 'sabree'] },
-    { id: '36th_district', label: '36th District Court', type: 'court',
-      px: 0.85, py: 0.72,
-      detail: 'Judges Yancey, S. Perkins',
+    { id: '36th_district', label: '36th District', type: 'court',
+      px: 0.88, py: 0.55,
+      detail: 'Judge Yancey (MacDowell Board Chair)',
       aggregates: ['yancey', 'perkins_d'] },
-    { id: 'lansing', label: 'Lansing (State Capitol)', type: 'state',
-      px: 0.08, py: 0.30,
-      detail: 'MDE · AG · State Legislature',
+    { id: 'ofa_michigan', label: 'OFA Michigan', type: 'dark_money',
+      px: 0.88, py: 0.78,
+      detail: 'Dark money org — Holland = officer. Undisclosed donors → mailers.',
+      aggregates: [] },
+    { id: 'canfield_bldg', label: '10101 E. Canfield', type: 'property',
+      px: 0.38, py: 0.68,
+      detail: 'DPSCD building. Purchase option embedded in Purpose Group contract.',
+      aggregates: [] },
+
+    // ── State oversight (top left) ──
+    { id: 'lansing', label: 'Lansing', type: 'state',
+      px: 0.08, py: 0.05,
+      detail: 'MDE investigated Feb 2022 → cleared. AG deferred.',
       aggregates: ['mde'] },
   ];
 
 
   // ═══════════════════════════════════════════════════════════════════
-  // GEO FLOWS — money/influence paths for the geographic map
+  // GEO FLOWS — every documented money/power route individually traced
   // ═══════════════════════════════════════════════════════════════════
   //
-  // These use geo-level IDs (which may be aggregates or network nodes).
-  // flow_type maps to visual style: money_in, money_out, campaign, influence, kickback
+  // flow_type:
+  //   state_aid    — Michigan per-pupil funding
+  //   extraction   — money leaving schools to LLC
+  //   personal     — LLC to Banks personally
+  //   campaign     — political/judge payments
+  //   authorization — charter/regulatory approval
+  //   kickback     — board seats, cover flowing back
+  //   dark_money   — undisclosed donors
+  //   property     — land deals, mortgages
+  //   donation     — tax-deductible to foundation
+  //   oversight    — investigation/regulatory
+  //   events       — CBC/political event revenue
 
   var GEO_FLOWS = [
-    // Public money IN to schools
-    { from: 'lansing', to: 'macdowell', flow_type: 'money_in', label: '$4.9M state aid', amount: 4900000 },
-    { from: 'lansing', to: 'pca', flow_type: 'money_in', label: 'State aid (new)', amount: 2000000 },
+    // ══ PATH A: Core extraction — state aid → schools → LLC → suburb ══
+    { from: 'mi_state_aid', to: 'macdowell', flow_type: 'state_aid',
+      label: '$4.9M/yr per-pupil', amount: 4900000 },
+    { from: 'mi_state_aid', to: 'pca', flow_type: 'state_aid',
+      label: 'Per-pupil (new)', amount: 2000000 },
+    { from: 'macdowell', to: 'purpose_group', flow_type: 'extraction',
+      label: '72.67% → LLC ($4.28M)', amount: 4280000 },
+    { from: 'pca', to: 'purpose_group', flow_type: 'extraction',
+      label: '10% mgmt + all costs', amount: 1500000 },
+    { from: 'purpose_group', to: 'gpw', flow_type: 'personal',
+      label: '$150K+ salary → suburb', amount: 667000 },
 
-    // Extraction OUT of schools
-    { from: 'macdowell', to: 'purpose_group', flow_type: 'money_out', label: '72.67% ($4.28M)', amount: 4280000 },
-    { from: 'pca', to: 'purpose_group', flow_type: 'money_out', label: 'Management fee', amount: 1500000 },
-    { from: 'purpose_group', to: 'banks', flow_type: 'money_out', label: 'Salary + expenses', amount: 667000 },
+    // ══ PATH B: Unaccounted gap ══
+    { from: 'purpose_group', to: 'gpw', flow_type: 'extraction',
+      label: '$348K unaccounted gap', amount: 348000 },
 
-    // Campaign money flowing outward
-    { from: 'banks', to: 'banks_strategy', flow_type: 'campaign', label: 'Consulting payments', amount: 35000 },
-    { from: 'banks_strategy', to: '36th_district', flow_type: 'campaign', label: '$383 Yancey', amount: 383 },
-    { from: 'banks', to: 'inner_link', flow_type: 'campaign', label: '$98K printing', amount: 98291 },
-    { from: 'banks', to: 'city_hall', flow_type: 'influence', label: 'Endorsements + events', amount: 0 },
-    { from: 'banks', to: 'wayne_county', flow_type: 'influence', label: 'Endorsements', amount: 0 },
+    // ══ PATH C: Authorization fee — schools pay DPSCD to exist ══
+    { from: 'macdowell', to: 'dpscd', flow_type: 'authorization',
+      label: '3% auth fee (~$147K)', amount: 147000 },
+    { from: 'dpscd', to: 'pca', flow_type: 'authorization',
+      label: 'Authorizes charter', amount: 0 },
 
-    // Kickback: positions and cover flowing back
-    { from: '3rd_circuit', to: 'pca', flow_type: 'kickback', label: 'Board seats (Miller)', amount: 0 },
-    { from: '36th_district', to: 'macdowell', flow_type: 'kickback', label: 'Board seats (Yancey)', amount: 0 },
-    { from: 'city_hall', to: 'pca', flow_type: 'kickback', label: 'Charter authorization', amount: 0 },
+    // ══ PATH D: Campaign money distribution ══
+    { from: 'purpose_group', to: 'banks_strategy', flow_type: 'campaign',
+      label: 'Consulting payments', amount: 35000 },
+    { from: 'banks_strategy', to: '36th_district', flow_type: 'campaign',
+      label: '$383.82 → Yancey (sole expenditure)', amount: 383 },
+    { from: 'purpose_group', to: 'pacs', flow_type: 'campaign',
+      label: 'PAC funding (Holland = treas.)', amount: 14500 },
+    { from: 'pacs', to: 'inner_link', flow_type: 'campaign',
+      label: '$98K printing (5 committees)', amount: 98291 },
+    { from: 'pacs', to: 'city_hall', flow_type: 'campaign',
+      label: 'Campaign contributions', amount: 0 },
+
+    // ══ PATH E: Dark money ══
+    { from: 'pacs', to: 'ofa_michigan', flow_type: 'dark_money',
+      label: 'Holland = officer, undisclosed $', amount: 0 },
+    { from: 'ofa_michigan', to: 'city_hall', flow_type: 'dark_money',
+      label: 'Mailers (undisclosed)', amount: 0 },
+
+    // ══ PATH F: Judicial kickback — board seats flow back ══
+    { from: '3rd_circuit', to: 'pca', flow_type: 'kickback',
+      label: 'Miller → Board Chair', amount: 0 },
+    { from: '36th_district', to: 'macdowell', flow_type: 'kickback',
+      label: 'Yancey → Board Chair', amount: 0 },
+    { from: 'city_hall', to: 'pca', flow_type: 'kickback',
+      label: 'Gay-Dagnogo → authorization', amount: 0 },
+
+    // ══ PATH G: Foundation side channel ══
+    { from: 'private_donors', to: 'purpose_foundation', flow_type: 'donation',
+      label: 'Tax-deductible (2 felons = officers)', amount: 0 },
+    { from: 'purpose_foundation', to: 'gpw', flow_type: 'extraction',
+      label: 'Controlled by Banks', amount: 0 },
+
+    // ══ PATH H: Property pipeline ══
+    { from: 'pscu', to: 'gpw', flow_type: 'property',
+      label: '$549K+ mortgages', amount: 549000 },
+    { from: 'wayne_county', to: 'canfield_bldg', flow_type: 'property',
+      label: 'Foreclosure pipeline (Sabree)', amount: 0 },
+    { from: 'canfield_bldg', to: 'purpose_group', flow_type: 'property',
+      label: 'Purchase option in contract', amount: 0 },
+
+    // ══ PATH I: Events revenue ══
+    { from: 'cbc_events', to: 'purpose_group', flow_type: 'events',
+      label: '$50K-$150K est. (4 years)', amount: 100000 },
+
+    // ══ PATH J: Failed oversight ══
+    { from: 'lansing', to: 'macdowell', flow_type: 'oversight',
+      label: 'MDE investigated → cleared (2h 24m)', amount: 0 },
+
+    // ══ PATH K: Endorsement influence ══
+    { from: 'wayne_county', to: 'gpw', flow_type: 'kickback',
+      label: 'Evans + Sabree endorsed Banks', amount: 0 },
   ];
 
 
@@ -468,11 +563,21 @@
   };
 
   var GEO_FLOW_STYLES = {
-    money_in:  { color: '#27ae60', width: 4, dash: '' },
-    money_out: { color: '#e74c3c', width: 4, dash: '' },
-    campaign:  { color: '#f39c12', width: 2.5, dash: '6,3' },
-    influence: { color: '#3498db', width: 2, dash: '4,4' },
-    kickback:  { color: '#8e44ad', width: 2, dash: '3,3' },
+    state_aid:     { color: '#27ae60', width: 4, dash: '' },       // green solid — public money in
+    extraction:    { color: '#e74c3c', width: 4, dash: '' },       // red solid — money leaving
+    personal:      { color: '#c0392b', width: 3, dash: '' },       // dark red — personal enrichment
+    campaign:      { color: '#f39c12', width: 2.5, dash: '6,3' },  // orange dashed — campaign $
+    authorization: { color: '#1abc9c', width: 2, dash: '4,2' },    // teal dashed — regulatory
+    kickback:      { color: '#8e44ad', width: 2.5, dash: '3,3' },  // purple dashed — positions back
+    dark_money:    { color: '#e74c3c', width: 2, dash: '2,4' },    // red dotted — undisclosed
+    property:      { color: '#d35400', width: 2.5, dash: '8,3' },  // burnt orange — land/mortgage
+    donation:      { color: '#2980b9', width: 2, dash: '5,3' },    // blue dashed — donations
+    oversight:     { color: '#7f8c8d', width: 1.5, dash: '3,6' },  // grey dotted — failed oversight
+    events:        { color: '#e67e22', width: 2, dash: '4,4' },    // amber dashed — event revenue
+    // Legacy compat
+    money_in:      { color: '#27ae60', width: 4, dash: '' },
+    money_out:     { color: '#e74c3c', width: 4, dash: '' },
+    influence:     { color: '#3498db', width: 2, dash: '4,4' },
   };
 
 
