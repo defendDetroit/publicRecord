@@ -6,7 +6,7 @@ date = 2026-10-04
 updated = 2026-10-04
 
 [extra]
-keywords = "Detroit institutional capture, four nexus corruption, Brian Banks charter school network, Todd Bettison DPSA board police chief, Operation Northern Hook FBI, Lamar Moreland Purpose Charter Academy, credential washing Detroit, FBI wiretap Brian Banks Gasper Fiore, Mary Sheffield Todd Bettison OIG probe, Purpose Charter Academy board of directors"
+keywords = "Detroit institutional capture, four nexus corruption, Brian Banks charter school network, Todd Bettison DPSA board police chief, Operation Northern Hook FBI, Lamar Moreland Purpose Charter Academy, credential washing Detroit, FBI wiretap Brian Banks Gasper Fiore, Mary Sheffield Todd Bettison OIG probe, Purpose Charter Academy board of directors, LARA entity analysis, Save Detroit Jobs Detroit Leaders Impact Detroit, Dykema Gossett dark money, Purpose Foundation Joseph Holland, Inner Link Larry Thomas obituaries4less, corporate network Michigan"
 
 [taxonomies]
 actors = ["Brian Banks", "Todd Bettison", "Mary Sheffield", "Lamar Moreland", "Nicole Wells Stallworth", "Thomas Stallworth III", "Tenisha Yancey", "Todd Perkins", "Sherry Gay-Dagnogo", "Cylenthia LaToye Miller", "Latisha Johnson", "Gloria McCastle", "Joseph Holland", "Gasper Fiore", "Andre Spivey", "Bert Johnson", "Gabe Leland", "Eric Sabree", "Warren Evans"]
@@ -66,6 +66,22 @@ Every bar complaint filed in this investigation corresponds to a board member of
 
 The school boards **are** the credential-washing mechanism. Legal professionals lend their licenses to make a convicted felon look legitimate. The felon's website lists him as **"Dr. Brian Banks, J.D., Ph.D."** — the J.D. was never admitted to the bar.
 
+**October 4 Update — LARA Confirmation:** The PCA board composition above has now been independently verified through [Michigan LARA corporate filings](/analysis/corporate-network-lara/) (Entity ID 900072324). Moreland's simultaneous role as Banks's litigation attorney **and** PCA board director is confirmed in the state business entity record. Johnson's role as PCA Secretary is confirmed. Banks controls the entity as registered agent while his name does not appear as a named officer — a deliberate structural choice.
+
+### The Purpose Empire — Three Entities (LARA-Confirmed)
+
+Banks operates **three** "Purpose"-branded entities (see [Corporate Network Analysis](/analysis/corporate-network-lara/) for full details):
+
+| Entity | LARA ID | Filed | Function |
+|--------|---------|-------|----------|
+| Purpose Charter Academy | 900072324 | 07/2025 | The school itself |
+| The Purpose Group LLC | 803295082 | 11/2024 | Management company |
+| Purpose Foundation | 803294855 | 12/2024 | Nonprofit — Holland = Treasurer |
+
+All three list Banks as registered agent. Purpose Foundation is registered at Banks's home. Joseph Holland — the convicted cocaine dealer who serves as PAC treasurer — is the Treasurer **and** Secretary of Purpose Foundation, listed at Banks's home address.
+
+Banks has **twelve total entities** spanning Detroit, Grosse Pointe Woods, Holland, Zeeland, Clarkston, and Waterford. Details: [Corporate Network — LARA Entity Analysis](/analysis/corporate-network-lara/).
+
 ---
 
 ## Nexus 2: Political Capture — The Protection Layer
@@ -86,9 +102,15 @@ Banks does not hold elected office. He does not need to. He is endorsed by every
 
 Gay-Dagnogo's move from DPSCD board to City Ombudsman **is** the quid pro quo — she authorized Banks's schools, then got a city appointment. She **announced** Purpose Charter Academy's development team in Chalkbeat (Sep 2025).
 
+### The Three-Named Dark Money Vehicle (LARA-Confirmed)
+
+**Save Detroit Jobs** (LARA 802002459) is a single nonprofit operating under **three names**: Save Detroit Jobs (2016), Impact Detroit (2018), and **Detroit Leaders** (2021). All confirmed as assumed names on the same entity.
+
+The entity was formed by **Dykema Gossett PLLC** — Michigan's largest law firm. The mailing address is Dykema's Lansing office. The entity email is `compliance@dykema.com`. All three officers list the **same Detroit address**. Full details: [Corporate Network — LARA Entity Analysis](/analysis/corporate-network-lara/).
+
 ### The Money Pipeline
 
-**Inner Link Graphics** — one print shop — received **$98,291** from Banks-connected committees:
+**Inner Link Graphics** (LARA 801470477) — one print shop, owned by **Larry Thomas Jr** (email: larrythomasjr@the-inner-link.com), also operating as **obituaries4less.com** — received **$98,291** from Banks-connected committees:
 
 | Committee | Amount |
 |-----------|--------|
@@ -207,6 +229,8 @@ The PAC shares a mailing address with Banks's home **and** shares a PO box with 
 
 A convicted cocaine dealer manages campaign finances for a 9-time convicted felon who runs schools for 362 predominantly Black children.
 
+**October 4 Update — LARA Confirmation:** Holland is now confirmed as Treasurer + Secretary of **Purpose Foundation** (LARA 803294855, filed December 2024) — listed at Banks's home address. He previously served as President of the **Right Turn Project** (LARA 800936257, dissolved December 2021 for failure to file annual reports). That charity's Treasurer was **Carlton Ross** — connected to Ross Catering, which billed Banks's campaigns $35,000+. The charity's email was `BBesq06@aol.com` — Banks's personal email, not Holland's.
+
 ---
 
 ## Master Federal Case Registry
@@ -238,4 +262,4 @@ This page will continue expanding as the investigation develops. Each node added
 
 *Every name on this page appears in public records. Every fact is sourced to court documents, campaign finance filings, FOIA responses, news reporting, or government databases. Named here? Something wrong? [Contact me](/contact/) — truth matters more than being right.*
 
-*Sources: M.L. Elrick / Detroit Free Press, Rita Williams / [Clutch Justice](https://clutchjustice.com), BridgeDetroit, Chalkbeat Detroit, TransparencyUSA, CourtListener, MDOC OTIS, Michigan SOS Campaign Finance, NCES, SchoolDigger.*
+*Sources: M.L. Elrick / Detroit Free Press, Rita Williams / [Clutch Justice](https://clutchjustice.com), BridgeDetroit, Chalkbeat Detroit, TransparencyUSA, CourtListener, MDOC OTIS, Michigan SOS Campaign Finance, NCES, SchoolDigger, [Michigan LARA Business Entity Search](https://mibusinessregistry.lara.state.mi.us/search/business).*
