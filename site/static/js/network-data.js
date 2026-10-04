@@ -567,17 +567,11 @@
       detail: 'DPSCD building. Purchase option embedded in Purpose Group contract.',
       aggregates: [] },
 
-    // ── State oversight (top left) ──
-    { id: 'lansing', label: 'Lansing', type: 'state',
-      px: 0.08, py: 0.05,
-      detail: 'MDE investigated Feb 2022 → cleared. AG deferred.',
-      aggregates: ['mde'] },
-
-    // ── Dykema Gossett (Lansing — dark money formation) ──
-    { id: 'dykema_lansing', label: 'Dykema Gossett (Lansing)', type: 'dark_money',
-      px: 0.08, py: 0.45,
-      detail: 'MI\'s largest law firm. 201 Townsend St Ste 900. Formed Save Detroit Jobs.',
-      aggregates: ['dykema'] },
+    // ── Lansing Capitol Complex — money source + dark money origin ──
+    { id: 'lansing', label: 'Lansing (Capitol)', type: 'state',
+      px: 0.08, py: 0.08,
+      detail: 'State aid authorized here. MDE investigated → cleared (2h 24m). AG deferred. Dykema Gossett (201 Townsend, 1 block from Capitol) formed dark money vehicle from the seat of power.',
+      aggregates: ['mde', 'dykema'] },
 
     // ── Southfield (North Park address hub) ──
     { id: 'southfield', label: 'Southfield', type: 'property',
@@ -691,9 +685,9 @@
     { from: 'wayne_county', to: 'gpw', flow_type: 'kickback',
       label: 'Evans + Sabree endorsed Banks', amount: 0 },
 
-    // ══ PATH L: Dark money vehicle — Dykema → SDJ → Johnson → PCA ══
-    { from: 'dykema_lansing', to: 'sdj', flow_type: 'dark_money',
-      label: 'Dykema formed SDJ (compliance@dykema.com)', amount: 0 },
+    // ══ PATH L: Dark money vehicle — Dykema (Lansing) → SDJ → Johnson → PCA ══
+    { from: 'lansing', to: 'sdj', flow_type: 'dark_money',
+      label: 'Dykema formed SDJ (1 block from Capitol)', amount: 0 },
     { from: 'sdj', to: 'city_hall', flow_type: 'dark_money',
       label: 'Detroit Leaders funded Johnson vs Elrick', amount: 0 },
 

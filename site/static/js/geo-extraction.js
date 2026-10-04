@@ -86,12 +86,12 @@
 
     var title = document.createElement('h3');
     title.style.cssText = 'text-align:center;margin:0 0 2px;font-size:16px;';
-    title.textContent = 'Where Every Dollar Goes — Documented Routes';
+    title.textContent = 'The Extraction Map — Where Every Dollar Goes';
     container.appendChild(title);
 
     var subtitle = document.createElement('p');
     subtitle.style.cssText = 'text-align:center;margin:0 0 10px;font-size:11px;opacity:0.5;';
-    subtitle.textContent = 'Each line traces a specific documented flow. Green = public money in. Red = money extracted. Orange = campaign payments. Purple = positions/cover flowing back.';
+    subtitle.textContent = 'State money authorized in Lansing enters Detroit schools serving predominantly Black children. 72.67% is extracted to a Grosse Pointe Woods LLC. Dark money formed 1 block from the Capitol protects the pipeline.';
     container.appendChild(subtitle);
 
     var svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
@@ -129,10 +129,30 @@
 
     // ── Zone backgrounds ──
 
-    // Detroit Community zone
+    // Political infrastructure zone (left — PACs, dark money, endorsements)
+    var pz = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+    pz.setAttribute('x', width * 0.12); pz.setAttribute('y', height * 0.08);
+    pz.setAttribute('width', width * 0.16); pz.setAttribute('height', height * 0.82);
+    pz.setAttribute('rx', '10');
+    pz.setAttribute('fill', 'rgba(243,156,18,0.03)');
+    pz.setAttribute('stroke', 'rgba(243,156,18,0.10)');
+    pz.setAttribute('stroke-width', '1');
+    pz.setAttribute('stroke-dasharray', '4,4');
+    svg.appendChild(pz);
+
+    var pzLabel = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+    pzLabel.setAttribute('x', width * 0.20); pzLabel.setAttribute('y', height * 0.95);
+    pzLabel.setAttribute('text-anchor', 'middle');
+    pzLabel.setAttribute('fill', 'rgba(243,156,18,0.15)');
+    pzLabel.setAttribute('font-size', '8'); pzLabel.setAttribute('font-weight', '700');
+    pzLabel.setAttribute('letter-spacing', '2');
+    pzLabel.textContent = 'PROTECTION';
+    svg.appendChild(pzLabel);
+
+    // Detroit Community zone (center — schools, the children)
     var cz = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
-    cz.setAttribute('x', width * 0.27); cz.setAttribute('y', height * 0.12);
-    cz.setAttribute('width', width * 0.20); cz.setAttribute('height', height * 0.70);
+    cz.setAttribute('x', width * 0.30); cz.setAttribute('y', height * 0.12);
+    cz.setAttribute('width', width * 0.16); cz.setAttribute('height', height * 0.65);
     cz.setAttribute('rx', '10');
     cz.setAttribute('fill', 'rgba(39,174,96,0.05)');
     cz.setAttribute('stroke', 'rgba(39,174,96,0.15)');
@@ -141,7 +161,7 @@
     svg.appendChild(cz);
 
     var czLabel = document.createElementNS('http://www.w3.org/2000/svg', 'text');
-    czLabel.setAttribute('x', width * 0.37); czLabel.setAttribute('y', height * 0.88);
+    czLabel.setAttribute('x', width * 0.38); czLabel.setAttribute('y', height * 0.83);
     czLabel.setAttribute('text-anchor', 'middle');
     czLabel.setAttribute('fill', 'rgba(39,174,96,0.20)');
     czLabel.setAttribute('font-size', '13'); czLabel.setAttribute('font-weight', '700');
@@ -149,10 +169,19 @@
     czLabel.textContent = 'DETROIT';
     svg.appendChild(czLabel);
 
-    // Extraction zone
+    var czSub = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+    czSub.setAttribute('x', width * 0.38); czSub.setAttribute('y', height * 0.86);
+    czSub.setAttribute('text-anchor', 'middle');
+    czSub.setAttribute('fill', 'rgba(39,174,96,0.12)');
+    czSub.setAttribute('font-size', '7'); czSub.setAttribute('font-weight', '400');
+    czSub.setAttribute('letter-spacing', '1');
+    czSub.textContent = '362 children · 93% Black';
+    svg.appendChild(czSub);
+
+    // Extraction zone (right of schools)
     var ez = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
-    ez.setAttribute('x', width * 0.50); ez.setAttribute('y', height * 0.20);
-    ez.setAttribute('width', width * 0.18); ez.setAttribute('height', height * 0.66);
+    ez.setAttribute('x', width * 0.48); ez.setAttribute('y', height * 0.20);
+    ez.setAttribute('width', width * 0.28); ez.setAttribute('height', height * 0.70);
     ez.setAttribute('rx', '10');
     ez.setAttribute('fill', 'rgba(231,76,60,0.04)');
     ez.setAttribute('stroke', 'rgba(231,76,60,0.12)');
@@ -161,7 +190,7 @@
     svg.appendChild(ez);
 
     var ezLabel = document.createElementNS('http://www.w3.org/2000/svg', 'text');
-    ezLabel.setAttribute('x', width * 0.59); ezLabel.setAttribute('y', height * 0.17);
+    ezLabel.setAttribute('x', width * 0.62); ezLabel.setAttribute('y', height * 0.17);
     ezLabel.setAttribute('text-anchor', 'middle');
     ezLabel.setAttribute('fill', 'rgba(231,76,60,0.20)');
     ezLabel.setAttribute('font-size', '10'); ezLabel.setAttribute('font-weight', '700');
@@ -169,22 +198,30 @@
     ezLabel.textContent = 'EXTRACTION';
     svg.appendChild(ezLabel);
 
-    // Grosse Pointe Woods — destination
+    // Grosse Pointe Woods — destination (where the money arrives)
     if (locMap.gpw) {
-      var gpwX = locMap.gpw.x - 40, gpwY = locMap.gpw.y - 30;
+      var gpwX = locMap.gpw.x - 45, gpwY = locMap.gpw.y - 35;
       var gpw = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
       gpw.setAttribute('x', gpwX); gpw.setAttribute('y', gpwY);
-      gpw.setAttribute('width', width * 0.14); gpw.setAttribute('height', height * 0.14);
+      gpw.setAttribute('width', width * 0.15); gpw.setAttribute('height', height * 0.16);
       gpw.setAttribute('rx', '10');
       gpw.setAttribute('fill', 'rgba(192,57,43,0.08)');
-      gpw.setAttribute('stroke', 'rgba(192,57,43,0.25)');
-      gpw.setAttribute('stroke-width', '2');
+      gpw.setAttribute('stroke', 'rgba(192,57,43,0.30)');
+      gpw.setAttribute('stroke-width', '2.5');
       svg.appendChild(gpw);
+
+      var gpwSub = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+      gpwSub.setAttribute('x', gpwX + width * 0.075); gpwSub.setAttribute('y', gpwY + height * 0.16 + 12);
+      gpwSub.setAttribute('text-anchor', 'middle');
+      gpwSub.setAttribute('fill', 'rgba(192,57,43,0.20)');
+      gpwSub.setAttribute('font-size', '7');
+      gpwSub.textContent = '1968 Severn Rd — Banks/Holland residence';
+      svg.appendChild(gpwSub);
     }
 
-    // Funding sources label (left)
+    // Funding sources label (far left)
     var srcLabel = document.createElementNS('http://www.w3.org/2000/svg', 'text');
-    srcLabel.setAttribute('x', width * 0.08); srcLabel.setAttribute('y', height * 0.98);
+    srcLabel.setAttribute('x', width * 0.06); srcLabel.setAttribute('y', height * 0.98);
     srcLabel.setAttribute('text-anchor', 'middle');
     srcLabel.setAttribute('fill', 'rgba(26,188,156,0.20)');
     srcLabel.setAttribute('font-size', '10'); srcLabel.setAttribute('font-weight', '700');
