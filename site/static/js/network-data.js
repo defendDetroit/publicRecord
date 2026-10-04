@@ -529,6 +529,71 @@
 
 
   // ═══════════════════════════════════════════════════════════════════
+  // ADDRESS CLUSTERS — entities sharing the same physical address
+  // ═══════════════════════════════════════════════════════════════════
+  //
+  // "12 separate entities" collapse to 3 addresses. When organizations
+  // that claim independence share a mailbox, the independence is fiction.
+
+  var ADDRESS_CLUSTERS = [
+    {
+      id: 'severn_rd',
+      address: '1968 Severn Rd, Grosse Pointe Woods MI 48236',
+      label: '1968 Severn Rd (Banks residence)',
+      members: ['banks', 'holland', 'purpose_group', 'purpose_foundation', 'banks_strategy', 'right_turn'],
+      color: 'rgba(192,57,43,0.12)',
+      stroke: 'rgba(192,57,43,0.6)',
+      note: 'Banks/Holland residence. Purpose Group LLC, Purpose Foundation, Banks Strategy LLC, Right Turn Project all registered here. 6 entities, 1 house.'
+    },
+    {
+      id: 'canfield',
+      address: '10101 E. Canfield, Detroit MI 48214',
+      label: '10101 E. Canfield (school/LLC)',
+      members: ['pca', 'purpose_group', 'macdowell'],
+      color: 'rgba(39,174,96,0.12)',
+      stroke: 'rgba(39,174,96,0.6)',
+      note: 'DPSCD building. PCA operates here. Purpose Group LLC also registered here. School and extraction LLC share the same address.'
+    },
+    {
+      id: 'north_park',
+      address: '16500 North Park Dr, Southfield MI 48075',
+      label: '16500 North Park (Southfield hub)',
+      members: ['ross', 'right_turn', 'inner_link'],
+      color: 'rgba(211,84,0,0.12)',
+      stroke: 'rgba(211,84,0,0.6)',
+      note: 'Ross + Tarver (Right Turn). Banks used this address in 2001 (B. Roderick\'s Salon). Inner Link at 9 Mile in same area. A decade of address continuity.'
+    },
+    {
+      id: 'warren_9mile',
+      address: '14326 E. 9 Mile Rd, Warren MI 48089',
+      label: '14326 E. 9 Mile (Warren)',
+      members: ['custom_promo', 'gordon'],
+      color: 'rgba(243,156,18,0.12)',
+      stroke: 'rgba(243,156,18,0.6)',
+      note: 'Custom Promotions LLC + Deen Legal PLLC share exact same address. Gordon = FBI/IRS/DoL investigated (UAW bribery). Same mailbox, different entities.'
+    },
+    {
+      id: 'holland_address',
+      address: 'Holland / Zeeland, MI',
+      label: 'Holland, MI (west Michigan)',
+      members: ['anchor_rock', 'holland'],
+      color: 'rgba(127,140,141,0.12)',
+      stroke: 'rgba(127,140,141,0.5)',
+      note: 'Anchor Rock Services + ARS Holdings + GL Upfitting. Banks = registered agent. 150 miles from Detroit.'
+    },
+    {
+      id: 'lansing_capitol',
+      address: '201 Townsend St, Lansing MI 48933',
+      label: 'Lansing Capitol (Dykema)',
+      members: ['dykema', 'sdj'],
+      color: 'rgba(149,165,166,0.12)',
+      stroke: 'rgba(149,165,166,0.5)',
+      note: 'Save Detroit Jobs formed by Dykema Gossett at 201 Townsend — 1 block from the Capitol. Dark money formed at the seat of power.'
+    },
+  ];
+
+
+  // ═══════════════════════════════════════════════════════════════════
   // OVERSIGHT CYCLES — directed loops where "oversight" is circular
   // ═══════════════════════════════════════════════════════════════════
 
@@ -1052,6 +1117,7 @@
     nodes: NODES,
     edges: EDGES,
     ownershipGroups: OWNERSHIP_GROUPS,
+    addressClusters: ADDRESS_CLUSTERS,
     oversightCycles: OVERSIGHT_CYCLES,
 
     // Geographic data

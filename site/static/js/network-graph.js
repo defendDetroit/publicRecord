@@ -15,11 +15,13 @@
   var FLOW_COLORS = DN.flowColors || {};
   var FLOW_ICONS = DN.flowIcons || {};
   var OWNERSHIP_GROUPS = DN.ownershipGroups || [];
+  var ADDRESS_CLUSTERS = DN.addressClusters || [];
   var OVERSIGHT_CYCLES = DN.oversightCycles || [];
 
   // ── Nexus filter state ─────────────────────────────────────────────
   var activeNexus = { education: true, political: true, enforcement: true, weaponization: true, legislative: true };
   var showOwnership = false;
+  var showAddress = false;
   var showCycles = false;
   var activeFlows = null;
   var activeDynasty = null;
@@ -100,6 +102,19 @@
         renderGraph(container, data);
       });
       controls.appendChild(ownBtn);
+
+      // Address overlap toggle
+      var addrBtn = document.createElement('button');
+      addrBtn.textContent = '📍 Address';
+      addrBtn.dataset.layer = 'address';
+      addrBtn.style.cssText = 'padding:4px 12px;border:2px solid #d35400;border-radius:14px;font-size:11px;font-weight:600;cursor:pointer;transition:all 0.2s;background:transparent;color:#d35400;';
+      addrBtn.addEventListener('click', function() {
+        showAddress = !showAddress;
+        addrBtn.style.background = showAddress ? '#d35400' : 'transparent';
+        addrBtn.style.color = showAddress ? '#fff' : '#d35400';
+        renderGraph(container, data);
+      });
+      controls.appendChild(addrBtn);
 
       // Cycle detection toggle
       var cycBtn = document.createElement('button');
@@ -332,6 +347,62 @@
         hullLabel.setAttribute('font-style', 'italic');
         hullLabel.textContent = group.label;
         svg.appendChild(hullLabel);
+      });
+    }
+
+    // ── Draw address overlap hulls ──────────────────────────────────
+    if (showAddress) {
+      ADDRESS_CLUSTERS.forEach(function(cluster) {
+        var pts = [];
+        cluster.members.forEach(function(mid) {
+          if (nodeMap[mid]) {
+            var n = nodeMap[mid];
+            var pad = 30;
+            pts.push([n.x - pad, n.y - pad]);
+            pts.push([n.x + pad, n.y - pad]);
+            pts.push([n.x - pad, n.y + pad]);
+            pts.push([n.x + pad, n.y + pad]);
+          }
+        });
+        if (pts.length < 6) return;
+        var hull = convexHull(pts);
+        var pathD = 'M ' + hull.map(function(p) { return p[0] + ',' + p[1]; }).join(' L ') + ' Z';
+        var hullPath = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+        hullPath.setAttribute('d', pathD);
+        hullPath.setAttribute('fill', cluster.color);
+        hullPath.setAttribute('stroke', cluster.stroke);
+        hullPath.setAttribute('stroke-width', '2');
+        hullPath.setAttribute('stroke-dasharray', '3,3');
+
+        var title = document.createElementNS('http://www.w3.org/2000/svg', 'title');
+        title.textContent = cluster.address + '\n' + cluster.note;
+        hullPath.appendChild(title);
+        svg.appendChild(hullPath);
+
+        var cx = 0, cy = 0;
+        hull.forEach(function(p) { cx += p[0]; cy += p[1]; });
+        cx /= hull.length; cy /= hull.length;
+        var topY = Math.min.apply(null, hull.map(function(p) { return p[1]; }));
+
+        var addrBg = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+        var addrLen = cluster.label.length * 4.5;
+        addrBg.setAttribute('x', cx - addrLen / 2 - 4);
+        addrBg.setAttribute('y', topY - 18);
+        addrBg.setAttribute('width', addrLen + 8);
+        addrBg.setAttribute('height', 14);
+        addrBg.setAttribute('rx', '3');
+        addrBg.setAttribute('fill', 'rgba(0,0,0,0.7)');
+        svg.appendChild(addrBg);
+
+        var addrLabel = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+        addrLabel.setAttribute('x', cx);
+        addrLabel.setAttribute('y', topY - 8);
+        addrLabel.setAttribute('text-anchor', 'middle');
+        addrLabel.setAttribute('fill', cluster.stroke);
+        addrLabel.setAttribute('font-size', '9');
+        addrLabel.setAttribute('font-weight', '600');
+        addrLabel.textContent = '📍 ' + cluster.label;
+        svg.appendChild(addrLabel);
       });
     }
 
@@ -657,6 +728,14 @@
         }
       });
 
+      // Find address clusters containing this node
+      var addressInfo = '';
+      ADDRESS_CLUSTERS.forEach(function(a) {
+        if (a.members.indexOf(n.id) !== -1) {
+          addressInfo += '<br><span style="color:#d35400;font-size:10px;">📍 ' + a.address + ' (' + a.members.length + ' entities)</span>';
+        }
+      });
+
       // Find cycles containing this node
       var cycleInfo = '';
       OVERSIGHT_CYCLES.forEach(function(c) {
@@ -690,7 +769,7 @@
       infoPanel.innerHTML = '<strong style="font-size:14px;">' + n.label + '</strong><br>' +
         '<span style="opacity:0.7">' + n.detail + '</span><br>' +
         '<span style="opacity:0.5;font-size:10px;">' + connCount + ' connections · Nexus: ' + nexusStr + '</span>' +
-        flowInfo + ownershipInfo + cycleInfo +
+        flowInfo + ownershipInfo + addressInfo + cycleInfo +
         (n.url ? '<br><span style="opacity:0.4;font-size:10px;">Click to view page →</span>' : '');
       infoPanel.style.opacity = '1';
     }
@@ -748,8 +827,26 @@
     }
 
     // Layer legend additions
-    if (showOwnership || showCycles) {
+    if (showOwnership || showAddress || showCycles) {
       legendY += 8;
+      if (showAddress) {
+        var ac = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+        ac.setAttribute('x', 14); ac.setAttribute('y', legendY - 5);
+        ac.setAttribute('width', 12); ac.setAttribute('height', 10);
+        ac.setAttribute('rx', 2);
+        ac.setAttribute('fill', 'rgba(211,84,0,0.15)');
+        ac.setAttribute('stroke', 'rgba(211,84,0,0.6)');
+        ac.setAttribute('stroke-width', '1.5');
+        ac.setAttribute('stroke-dasharray', '3,3');
+        svg.appendChild(ac);
+        var at = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+        at.setAttribute('x', 32); at.setAttribute('y', legendY + 4);
+        at.setAttribute('fill', 'currentColor'); at.setAttribute('font-size', '10');
+        at.setAttribute('font-weight', '500');
+        at.textContent = 'Shared address (' + ADDRESS_CLUSTERS.length + ' clusters)';
+        svg.appendChild(at);
+        legendY += 20;
+      }
       if (showOwnership) {
         var oc = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
         oc.setAttribute('x', 14); oc.setAttribute('y', legendY - 5);
@@ -794,6 +891,7 @@
     countText.setAttribute('opacity', '0.4');
     var layerInfo = [];
     if (showOwnership) layerInfo.push(OWNERSHIP_GROUPS.length + ' ownership groups');
+    if (showAddress) layerInfo.push(ADDRESS_CLUSTERS.length + ' address clusters');
     if (showCycles) layerInfo.push(OVERSIGHT_CYCLES.length + ' cycles');
     if (activeFlows) {
       var flowCounts = {};
