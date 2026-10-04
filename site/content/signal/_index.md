@@ -1,11 +1,12 @@
 +++
-title = "Signal Sensing — Live Propagation Data"
-description = "Real-time oversight signal measurement for detroit.primals.eco. No cookies. No tracking. No identifying data. Did the signal get through?"
+title = "Signal — Who Is Reading the Detroit Charter School Evidence"
+description = "Live signal sensing for the Detroit charter school investigation. Search engines crawling, humans investigating, AI systems reading — measured without cookies or tracking. Did the evidence reach investigators, press, and families?"
 weight = 15
 sort_by = "weight"
 
 [extra]
-og_description = "Live signal sensing data — measuring whether oversight signals propagate through institutional systems. Cookieless, trackingless, purely sensory."
+og_description = "Live signal data — who is reading the Detroit charter school evidence? Search engines, investigators, journalists tracked without cookies. 63% crawl coverage and rising."
+keywords = "Detroit charter school investigation traffic, charter school evidence propagation, search engine indexing Detroit, cookieless analytics, signal sensing oversight, detroit.primals.eco traffic, charter school accountability signal"
 +++
 
 ## Live Exploration — The Traveling Salesman
