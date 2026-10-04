@@ -26,6 +26,7 @@ Analysis of the documented patterns connecting convicted felons, captured courts
 | **[The Machine](/analysis/the-machine/)** | How every level was captured — schools, courts, churches, treasury, legislature, banks, regulators, complaints — and the philosophical framework for understanding why. From the ecoPrimals atlasHugged thesis. |
 | **[Corporate Network — LARA](/analysis/corporate-network-lara/)** | 12 Banks entities. PCA board = his own attorney. Save Detroit Jobs = 3 names, formed by Dykema. $98K print vendor also runs obituaries4less.com. All from public LARA filings. |
 | **[Institutional Capture Graph](/analysis/institutional-capture-graph/)** | Four nexus types, one network — the master map of education fraud, political capture, police weaponization, and the legislative pipeline. |
+| **[Detroit Education Landscape](/analysis/education-landscape/)** | 62+ charters, 10 authorizers, $288M+/yr. Who runs what. Both sectors failing. Banks = every vulnerability at once. |
 
 The analysis proceeds from evidence to pattern — never the reverse. Where conclusions are drawn, they are clearly marked as analysis submitted for agency determination, not legal findings. See [Legal Protections](/legal/) for the framework and [Verify Everything](/validate/) to check any claim.
 

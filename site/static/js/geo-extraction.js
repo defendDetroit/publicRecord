@@ -24,6 +24,7 @@
     entity: '#f39c12',
     actor: '#c0392b',
     judge: '#8e44ad',
+    institutional: '#1abc9c',
   };
 
   function buildLocations() {
@@ -219,6 +220,34 @@
       svg.appendChild(gpwSub);
     }
 
+    // Authorization zone (far right — distant authorizers)
+    var az = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+    az.setAttribute('x', width * 0.86); az.setAttribute('y', height * 0.03);
+    az.setAttribute('width', width * 0.13); az.setAttribute('height', height * 0.72);
+    az.setAttribute('rx', '10');
+    az.setAttribute('fill', 'rgba(26,188,156,0.03)');
+    az.setAttribute('stroke', 'rgba(26,188,156,0.12)');
+    az.setAttribute('stroke-width', '1');
+    az.setAttribute('stroke-dasharray', '4,4');
+    svg.appendChild(az);
+
+    var azLabel = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+    azLabel.setAttribute('x', width * 0.925); azLabel.setAttribute('y', height * 0.78);
+    azLabel.setAttribute('text-anchor', 'middle');
+    azLabel.setAttribute('fill', 'rgba(26,188,156,0.18)');
+    azLabel.setAttribute('font-size', '7'); azLabel.setAttribute('font-weight', '700');
+    azLabel.setAttribute('letter-spacing', '1');
+    azLabel.textContent = 'AUTHORIZERS';
+    svg.appendChild(azLabel);
+
+    var azSub = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+    azSub.setAttribute('x', width * 0.925); azSub.setAttribute('y', height * 0.81);
+    azSub.setAttribute('text-anchor', 'middle');
+    azSub.setAttribute('fill', 'rgba(26,188,156,0.11)');
+    azSub.setAttribute('font-size', '6');
+    azSub.textContent = '50-250 mi from Detroit';
+    svg.appendChild(azSub);
+
     // Funding sources label (far left)
     var srcLabel = document.createElementNS('http://www.w3.org/2000/svg', 'text');
     srcLabel.setAttribute('x', width * 0.06); srcLabel.setAttribute('y', height * 0.98);
@@ -404,6 +433,7 @@
       { symbol: '●', color: '#2980b9', label: 'Political' },
       { symbol: '●', color: '#8e44ad', label: 'Court' },
       { symbol: '▲', color: '#d35400', label: 'Property' },
+      { symbol: '●', color: '#1abc9c', label: 'Authorizer' },
     ];
     nodeTypes.forEach(function(item) {
       var t = document.createElementNS('http://www.w3.org/2000/svg', 'text');

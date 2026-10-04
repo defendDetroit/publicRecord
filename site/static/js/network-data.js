@@ -208,6 +208,23 @@
     { id: 'anchor_rock', label: 'Anchor Rock Services', tier: 0, type: 'entity',
       detail: 'Construction + upfitting (Holland, MI). 3 assumed names. LARA 800770907.', url: null,
       nexus: [] },
+
+    // ── Charter Authorizers (Education Landscape) ──
+    { id: 'gvsu', label: 'GVSU', tier: 4, type: 'institutional',
+      detail: 'Grand Valley State. Largest Detroit charter authorizer. ~25-35 schools. 78 statewide. Grand Rapids.', url: null,
+      nexus: ['education'] },
+    { id: 'cmu', label: 'CMU', tier: 4, type: 'institutional',
+      detail: 'Central Michigan University. Authorized MacDowell. ~9 Detroit schools. Mt. Pleasant (150 mi).', url: null,
+      nexus: ['education'] },
+    { id: 'emu', label: 'EMU', tier: 4, type: 'institutional',
+      detail: 'Eastern Michigan University. Authorized DPSA (Bettison on board). Ypsilanti.', url: null,
+      nexus: ['education', 'police'] },
+    { id: 'dpscd_auth', label: 'DPSCD (Authorizer)', tier: 4, type: 'institutional',
+      detail: 'Detroit Public Schools Community District. Authorized PCA (2025). 7 charter schools. Collects 3% fee.', url: null,
+      nexus: ['education'] },
+    { id: 'nha', label: 'Natl Heritage Acad.', tier: 0, type: 'entity',
+      detail: 'For-profit CMO. 16 Detroit schools. 103 schools in 9 states. Grand Rapids HQ. $1B+ revenue.', url: null,
+      nexus: ['education'] },
   ];
 
 
@@ -336,6 +353,15 @@
 
     // ── LARA-revealed: Anchor Rock (construction, Holland MI) ──
     { source: 'banks', target: 'anchor_rock', type: 'controls', label: 'agent. 3 assumed names.', flow: 'power', amount: null },
+
+    // ── Charter Authorizers (Education Landscape) ──
+    { source: 'cmu', target: 'macdowell', type: 'institutional', label: 'authorized (150 mi away)', flow: 'power', amount: null },
+    { source: 'dpscd_auth', target: 'pca', type: 'institutional', label: 'authorized Jul 2025 (3% fee)', flow: 'power', amount: null },
+    { source: 'emu', target: 'dpsa', type: 'institutional', label: 'authorized (DPSA)', flow: 'power', amount: null },
+    { source: 'gvsu', target: 'nha', type: 'institutional', label: 'authorizes 16+ Detroit NHA schools', flow: 'power', amount: null },
+    { source: 'macdowell', target: 'cmu', type: 'money', label: '3% auth fee (~$147K/yr)', flow: 'money', amount: 147000 },
+    { source: 'pca', target: 'dpscd_auth', type: 'money', label: '3% auth fee (~$81K/yr)', flow: 'money', amount: 81000 },
+    { source: 'gay_dagnogo', target: 'dpscd_auth', type: 'political', label: 'DPSCD board → authorized PCA', flow: 'influence', amount: null },
   ];
 
 
@@ -510,6 +536,12 @@
     serenity:         { px: 0.68, py: 0.45 },
     anchor_rock:      { px: 0.68, py: 0.60 },
     great_lakes_legal: { px: 0.68, py: 0.75 },
+
+    // Charter authorizers — outside Detroit (right column, spaced to avoid GPW zone)
+    gvsu:             { px: 0.93, py: 0.08 },
+    cmu:              { px: 0.93, py: 0.20 },
+    emu:              { px: 0.93, py: 0.52 },
+    nha:              { px: 0.93, py: 0.66 },
   };
 
   var GEO_AGGREGATES = [
@@ -720,6 +752,24 @@
     // ══ PATH S: Southfield address connection ══
     { from: 'southfield', to: 'gpw', flow_type: 'property',
       label: '16500 N Park — Banks (2001) → Ross + Tarver (2013)', amount: 0 },
+
+    // ══ PATH T: Charter authorization flows (Education Landscape) ══
+    { from: 'mi_state_aid', to: 'gvsu', flow_type: 'state_aid',
+      label: 'State authorizer funding (3% of per-pupil × ~8,000 students)', amount: 2300000 },
+    { from: 'mi_state_aid', to: 'cmu', flow_type: 'state_aid',
+      label: 'State authorizer funding (3% of per-pupil × ~2,500 students)', amount: 720000 },
+    { from: 'cmu', to: 'macdowell', flow_type: 'authorization',
+      label: 'Authorized MacDowell (150 mi away)', amount: 0 },
+    { from: 'gvsu', to: 'nha', flow_type: 'authorization',
+      label: 'Authorizes 16+ Detroit NHA schools (2.5 hrs away)', amount: 0 },
+    { from: 'emu', to: 'dpsa', flow_type: 'authorization',
+      label: 'Authorized DPSA (Bettison on board)', amount: 0 },
+    { from: 'dpscd', to: 'pca', flow_type: 'authorization',
+      label: 'DPSCD authorized PCA Jul 2025 (conflict of interest)', amount: 0 },
+    { from: 'macdowell', to: 'cmu', flow_type: 'kickback',
+      label: '3% auth fee flows back to authorizer (~$147K/yr)', amount: 147000 },
+    { from: 'pca', to: 'dpscd', flow_type: 'kickback',
+      label: '3% auth fee flows back to DPSCD (~$81K/yr)', amount: 81000 },
   ];
 
 
@@ -959,7 +1009,7 @@
     },
 
     // Version (increment on schema changes)
-    version: 2,
+    version: 3,
   };
 
   window.DETROIT_NETWORK = network;
