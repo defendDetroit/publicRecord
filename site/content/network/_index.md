@@ -9,7 +9,18 @@ keywords = "Brian Banks network map, Detroit charter school racketeering network
 
 This is not one bad actor. It is a **network** — convicted felons, judges, attorneys, and institutions connected through boards, campaigns, property, and family ties.
 
-Federal agencies are scheduled to receive the complete map on September 22, 2026.
+<div id="network-graph" style="margin: 1.5rem 0;"></div>
+<script src="/js/network-graph.js"></script>
+
+<p style="text-align:center;font-size:0.85rem;opacity:0.6;margin-top:-0.5rem;">
+Hover any node to trace connections. Click to navigate to that person's page. Toggle nexus types, ownership hulls, cycles, and flow types.<br>
+<a href="/analysis/institutional-capture-graph/">Full analysis with four-nexus breakdown →</a>
+</p>
+
+<div id="geo-extraction-map" style="margin: 2rem 0;"></div>
+<script src="/js/geo-extraction.js"></script>
+
+---
 
 {% mermaid(title="Network Overview — Self-Dealing & Cross-Protection") %}
 graph TB
