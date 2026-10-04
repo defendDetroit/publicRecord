@@ -200,6 +200,92 @@
     ]
   };
 
+  // ── Ownership groups ─────────────────────────────────────────────────
+  // When "Ownership" layer is active, a hull is drawn around entities
+  // controlled by the same person — revealing that 6 "entities" = 1 person.
+
+  const OWNERSHIP_GROUPS = [
+    {
+      id: 'banks_empire',
+      controller: 'banks',
+      label: 'Banks controls all',
+      members: ['banks', 'pca', 'macdowell', 'purpose_group', 'purpose_foundation', 'banks_strategy', 'holland'],
+      color: 'rgba(192,57,43,0.12)',
+      stroke: 'rgba(192,57,43,0.5)',
+      note: '1 person, 6 entities, 1 co-resident felon'
+    },
+    {
+      id: 'banks_pacs',
+      controller: 'holland',
+      label: 'Holland manages finances',
+      members: ['holland', 'pacs', 'purpose_foundation'],
+      color: 'rgba(243,156,18,0.10)',
+      stroke: 'rgba(243,156,18,0.4)',
+      note: 'PAC treasurer + Foundation secretary = same felon'
+    },
+    {
+      id: 'pca_board',
+      controller: 'banks',
+      label: 'PCA Board (Banks-selected)',
+      members: ['pca', 'miller', 'moreland', 'johnson_l'],
+      color: 'rgba(39,174,96,0.10)',
+      stroke: 'rgba(39,174,96,0.4)',
+      note: 'Judge + AAG + Council = "oversight" selected by subject'
+    },
+    {
+      id: 'macdowell_board',
+      controller: 'banks',
+      label: 'MacDowell Board (Banks-selected)',
+      members: ['macdowell', 'wells_stallworth', 'yancey'],
+      color: 'rgba(142,68,173,0.10)',
+      stroke: 'rgba(142,68,173,0.4)',
+      note: 'Board President + Judge = hand-picked by superintendent'
+    }
+  ];
+
+  // ── Cyclic oversight paths ──────────────────────────────────────────
+  // Directed cycles where "oversight" is self-referential.
+  // Each cycle is a sequence of node IDs forming a closed loop.
+
+  const OVERSIGHT_CYCLES = [
+    {
+      id: 'gay_dagnogo_cycle',
+      label: 'Authorization feedback loop',
+      path: ['gay_dagnogo', 'pca', 'banks', 'gay_dagnogo'],
+      note: 'Gay-Dagnogo authorized PCA → Banks benefits → Banks political support → Gay-Dagnogo gets city appointment'
+    },
+    {
+      id: 'yancey_cycle',
+      label: 'Judicial campaign cycle',
+      path: ['yancey', 'banks_strategy', 'banks', 'yancey'],
+      note: 'Yancey paid Banks Strategy $383 → Banks ran her campaign → Yancey became judge → sits on Banks school board'
+    },
+    {
+      id: 'moreland_cycle',
+      label: 'Regulator capture cycle',
+      path: ['moreland', 'pca', 'banks', 'moreland'],
+      note: 'AAG Moreland argued AGAINST Banks cert → now Board Vice Chair of Banks\'s school'
+    },
+    {
+      id: 'wells_stallworth_cycle',
+      label: 'Board oversight cycle',
+      path: ['wells_stallworth', 'macdowell', 'banks', 'stallworth_t', 'wells_stallworth'],
+      note: 'Nicole "oversees" MacDowell → Banks runs it → Thomas defended Banks at rally → Thomas married to Nicole'
+    },
+    {
+      id: 'bettison_cycle',
+      label: 'Police-education bridge',
+      path: ['bettison', 'dpsa', 'sheffield', 'bettison'],
+      note: 'Chief Bettison on DPSA board → Sheffield appointed Bettison → Bettison protects Sheffield (OIG probe)'
+    },
+    {
+      id: 'mde_cycle',
+      label: 'Regulator capture (state)',
+      path: ['mde', 'macdowell', 'banks', 'wells_stallworth', 'mde'],
+      note: 'MDE investigated Banks → cleared → Wells-Stallworth (who protects Banks) received the investigation letter'
+    }
+  ];
+
   // ── Color scheme ──────────────────────────────────────────────────────
 
   const COLORS = {
@@ -227,6 +313,8 @@
 
   // ── Nexus filter state ─────────────────────────────────────────────
   var activeNexus = { education: true, political: true, police: true, legislative: true };
+  var showOwnership = false;
+  var showCycles = false;
 
   var NEXUS_COLORS = {
     education: '#27ae60',
@@ -276,6 +364,39 @@
         renderGraph(container, data);
       });
       controls.appendChild(allBtn);
+
+      // Layer separator
+      var sep = document.createElement('span');
+      sep.textContent = '│';
+      sep.style.cssText = 'opacity:0.3;margin:0 4px;';
+      controls.appendChild(sep);
+
+      // Ownership hull toggle
+      var ownBtn = document.createElement('button');
+      ownBtn.textContent = '⬡ Ownership';
+      ownBtn.dataset.layer = 'ownership';
+      ownBtn.style.cssText = 'padding:4px 12px;border:2px solid #e74c3c;border-radius:14px;font-size:11px;font-weight:600;cursor:pointer;transition:all 0.2s;background:transparent;color:#e74c3c;';
+      ownBtn.addEventListener('click', function() {
+        showOwnership = !showOwnership;
+        ownBtn.style.background = showOwnership ? '#e74c3c' : 'transparent';
+        ownBtn.style.color = showOwnership ? '#fff' : '#e74c3c';
+        renderGraph(container, data);
+      });
+      controls.appendChild(ownBtn);
+
+      // Cycle detection toggle
+      var cycBtn = document.createElement('button');
+      cycBtn.textContent = '⟳ Cycles';
+      cycBtn.dataset.layer = 'cycles';
+      cycBtn.style.cssText = 'padding:4px 12px;border:2px solid #e67e22;border-radius:14px;font-size:11px;font-weight:600;cursor:pointer;transition:all 0.2s;background:transparent;color:#e67e22;';
+      cycBtn.addEventListener('click', function() {
+        showCycles = !showCycles;
+        cycBtn.style.background = showCycles ? '#e67e22' : 'transparent';
+        cycBtn.style.color = showCycles ? '#fff' : '#e67e22';
+        renderGraph(container, data);
+      });
+      controls.appendChild(cycBtn);
+
       container.insertBefore(controls, container.firstChild);
     }
 
@@ -363,6 +484,160 @@
       if (adjacency[l.source]) adjacency[l.source].add(l.target);
       if (adjacency[l.target]) adjacency[l.target].add(l.source);
     });
+
+    // ── Convex hull helper ────────────────────────────────────────────
+    function convexHull(points) {
+      if (points.length < 3) return points;
+      points.sort(function(a, b) { return a[0] - b[0] || a[1] - b[1]; });
+      var lower = [];
+      for (var i = 0; i < points.length; i++) {
+        while (lower.length >= 2 && cross(lower[lower.length - 2], lower[lower.length - 1], points[i]) <= 0)
+          lower.pop();
+        lower.push(points[i]);
+      }
+      var upper = [];
+      for (var i = points.length - 1; i >= 0; i--) {
+        while (upper.length >= 2 && cross(upper[upper.length - 2], upper[upper.length - 1], points[i]) <= 0)
+          upper.pop();
+        upper.push(points[i]);
+      }
+      upper.pop(); lower.pop();
+      return lower.concat(upper);
+    }
+    function cross(O, A, B) {
+      return (A[0] - O[0]) * (B[1] - O[1]) - (A[1] - O[1]) * (B[0] - O[0]);
+    }
+
+    // ── Draw ownership hulls (behind everything) ──────────────────────
+    if (showOwnership) {
+      OWNERSHIP_GROUPS.forEach(function(group) {
+        var pts = [];
+        group.members.forEach(function(mid) {
+          if (nodeMap[mid]) {
+            var n = nodeMap[mid];
+            var pad = 35;
+            pts.push([n.x - pad, n.y - pad]);
+            pts.push([n.x + pad, n.y - pad]);
+            pts.push([n.x - pad, n.y + pad]);
+            pts.push([n.x + pad, n.y + pad]);
+          }
+        });
+        if (pts.length < 6) return;
+        var hull = convexHull(pts);
+        var pathD = 'M ' + hull.map(function(p) { return p[0] + ',' + p[1]; }).join(' L ') + ' Z';
+        var hullPath = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+        hullPath.setAttribute('d', pathD);
+        hullPath.setAttribute('fill', group.color);
+        hullPath.setAttribute('stroke', group.stroke);
+        hullPath.setAttribute('stroke-width', '2');
+        hullPath.setAttribute('stroke-dasharray', '6,4');
+
+        var title = document.createElementNS('http://www.w3.org/2000/svg', 'title');
+        title.textContent = group.label + '\n' + group.note;
+        hullPath.appendChild(title);
+        svg.appendChild(hullPath);
+
+        // Hull label
+        var cx = 0, cy = 0;
+        hull.forEach(function(p) { cx += p[0]; cy += p[1]; });
+        cx /= hull.length; cy /= hull.length;
+        var hullLabel = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+        hullLabel.setAttribute('x', cx);
+        hullLabel.setAttribute('y', cy - (Math.max.apply(null, hull.map(function(p) { return p[1]; })) - cy) - 8);
+        hullLabel.setAttribute('text-anchor', 'middle');
+        hullLabel.setAttribute('fill', group.stroke);
+        hullLabel.setAttribute('font-size', '10');
+        hullLabel.setAttribute('font-weight', '600');
+        hullLabel.setAttribute('font-style', 'italic');
+        hullLabel.textContent = group.label;
+        svg.appendChild(hullLabel);
+      });
+    }
+
+    // ── Draw cyclic oversight paths (behind nodes, above hulls) ───────
+    if (showCycles) {
+      OVERSIGHT_CYCLES.forEach(function(cycle) {
+        var pts = [];
+        var allVisible = true;
+        cycle.path.forEach(function(nid) {
+          if (!nodeMap[nid]) { allVisible = false; return; }
+          pts.push(nodeMap[nid]);
+        });
+        if (!allVisible || pts.length < 3) return;
+
+        // Draw animated cycle path
+        var pathParts = [];
+        for (var i = 0; i < pts.length; i++) {
+          var from = pts[i];
+          var to = pts[(i + 1) % pts.length];
+          if (i === 0) pathParts.push('M ' + from.x + ',' + from.y);
+          pathParts.push('L ' + to.x + ',' + to.y);
+        }
+        var cyclePath = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+        cyclePath.setAttribute('d', pathParts.join(' '));
+        cyclePath.setAttribute('fill', 'none');
+        cyclePath.setAttribute('stroke', '#e67e22');
+        cyclePath.setAttribute('stroke-width', '3');
+        cyclePath.setAttribute('stroke-opacity', '0.7');
+        cyclePath.setAttribute('stroke-dasharray', '8,4');
+        cyclePath.setAttribute('marker-mid', 'url(#cycle-arrow)');
+
+        // Animate the dash
+        var animate = document.createElementNS('http://www.w3.org/2000/svg', 'animate');
+        animate.setAttribute('attributeName', 'stroke-dashoffset');
+        animate.setAttribute('from', '24');
+        animate.setAttribute('to', '0');
+        animate.setAttribute('dur', '1.5s');
+        animate.setAttribute('repeatCount', 'indefinite');
+        cyclePath.appendChild(animate);
+
+        var title = document.createElementNS('http://www.w3.org/2000/svg', 'title');
+        title.textContent = cycle.label + '\n' + cycle.note;
+        cyclePath.appendChild(title);
+        svg.appendChild(cyclePath);
+
+        // Cycle label at centroid
+        var cx = 0, cy = 0;
+        pts.forEach(function(p) { cx += p.x; cy += p.y; });
+        cx /= pts.length; cy /= pts.length;
+        var bg = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+        var labelText = cycle.label;
+        bg.setAttribute('x', cx - labelText.length * 3);
+        bg.setAttribute('y', cy - 8);
+        bg.setAttribute('width', labelText.length * 6);
+        bg.setAttribute('height', 14);
+        bg.setAttribute('rx', 3);
+        bg.setAttribute('fill', 'rgba(230,126,34,0.15)');
+        bg.setAttribute('stroke', 'rgba(230,126,34,0.4)');
+        bg.setAttribute('stroke-width', '1');
+        svg.appendChild(bg);
+
+        var cycleLabel = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+        cycleLabel.setAttribute('x', cx);
+        cycleLabel.setAttribute('y', cy + 3);
+        cycleLabel.setAttribute('text-anchor', 'middle');
+        cycleLabel.setAttribute('fill', '#e67e22');
+        cycleLabel.setAttribute('font-size', '9');
+        cycleLabel.setAttribute('font-weight', '600');
+        cycleLabel.textContent = cycle.label;
+        svg.appendChild(cycleLabel);
+      });
+
+      // Add arrow marker definition for cycles
+      var defs = document.createElementNS('http://www.w3.org/2000/svg', 'defs');
+      var marker = document.createElementNS('http://www.w3.org/2000/svg', 'marker');
+      marker.setAttribute('id', 'cycle-arrow');
+      marker.setAttribute('viewBox', '0 0 10 10');
+      marker.setAttribute('refX', '5'); marker.setAttribute('refY', '5');
+      marker.setAttribute('markerWidth', '6'); marker.setAttribute('markerHeight', '6');
+      marker.setAttribute('orient', 'auto');
+      var arrowPath = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+      arrowPath.setAttribute('d', 'M 0 0 L 10 5 L 0 10 z');
+      arrowPath.setAttribute('fill', '#e67e22');
+      marker.appendChild(arrowPath);
+      defs.appendChild(marker);
+      svg.insertBefore(defs, svg.firstChild);
+    }
 
     // ── Draw links ────────────────────────────────────────────────────
     var linkElements = [];
@@ -486,9 +761,27 @@
       var nexusStr = (n.nexus && n.nexus.length) ? n.nexus.map(function(x) {
         return '<span style="color:' + NEXUS_COLORS[x] + '">' + x + '</span>';
       }).join(' · ') : 'none';
+
+      // Find ownership groups containing this node
+      var ownershipInfo = '';
+      OWNERSHIP_GROUPS.forEach(function(g) {
+        if (g.members.indexOf(n.id) !== -1) {
+          ownershipInfo += '<br><span style="color:#e74c3c;font-size:10px;">⬡ ' + g.note + '</span>';
+        }
+      });
+
+      // Find cycles containing this node
+      var cycleInfo = '';
+      OVERSIGHT_CYCLES.forEach(function(c) {
+        if (c.path.indexOf(n.id) !== -1) {
+          cycleInfo += '<br><span style="color:#e67e22;font-size:10px;">⟳ ' + c.label + '</span>';
+        }
+      });
+
       infoPanel.innerHTML = '<strong style="font-size:14px;">' + n.label + '</strong><br>' +
         '<span style="opacity:0.7">' + n.detail + '</span><br>' +
         '<span style="opacity:0.5;font-size:10px;">' + connCount + ' connections · Nexus: ' + nexusStr + '</span>' +
+        ownershipInfo + cycleInfo +
         (n.url ? '<br><span style="opacity:0.4;font-size:10px;">Click to view page →</span>' : '');
       infoPanel.style.opacity = '1';
     }
@@ -522,13 +815,56 @@
       legendY += 20;
     });
 
+    // Layer legend additions
+    if (showOwnership || showCycles) {
+      legendY += 8;
+      if (showOwnership) {
+        var oc = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+        oc.setAttribute('x', 14); oc.setAttribute('y', legendY - 5);
+        oc.setAttribute('width', 12); oc.setAttribute('height', 10);
+        oc.setAttribute('rx', 2);
+        oc.setAttribute('fill', 'rgba(192,57,43,0.15)');
+        oc.setAttribute('stroke', 'rgba(192,57,43,0.5)');
+        oc.setAttribute('stroke-width', '1.5');
+        oc.setAttribute('stroke-dasharray', '3,2');
+        svg.appendChild(oc);
+        var ot = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+        ot.setAttribute('x', 32); ot.setAttribute('y', legendY + 4);
+        ot.setAttribute('fill', 'currentColor'); ot.setAttribute('font-size', '10');
+        ot.setAttribute('font-weight', '500');
+        ot.textContent = 'Ownership hull';
+        svg.appendChild(ot);
+        legendY += 20;
+      }
+      if (showCycles) {
+        var cl = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+        cl.setAttribute('x1', 14); cl.setAttribute('y1', legendY);
+        cl.setAttribute('x2', 26); cl.setAttribute('y2', legendY);
+        cl.setAttribute('stroke', '#e67e22');
+        cl.setAttribute('stroke-width', '2');
+        cl.setAttribute('stroke-dasharray', '4,2');
+        svg.appendChild(cl);
+        var ct = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+        ct.setAttribute('x', 32); ct.setAttribute('y', legendY + 4);
+        ct.setAttribute('fill', 'currentColor'); ct.setAttribute('font-size', '10');
+        ct.setAttribute('font-weight', '500');
+        ct.textContent = 'Cyclic "oversight"';
+        svg.appendChild(ct);
+        legendY += 20;
+      }
+    }
+
     // Node count summary
     var countText = document.createElementNS('http://www.w3.org/2000/svg', 'text');
     countText.setAttribute('x', width - 10); countText.setAttribute('y', height - 10);
     countText.setAttribute('text-anchor', 'end');
     countText.setAttribute('fill', 'currentColor'); countText.setAttribute('font-size', '10');
     countText.setAttribute('opacity', '0.4');
-    countText.textContent = filteredNodes.length + ' nodes · ' + filteredLinks.length + ' edges';
+    var layerInfo = [];
+    if (showOwnership) layerInfo.push(OWNERSHIP_GROUPS.length + ' ownership groups');
+    if (showCycles) layerInfo.push(OVERSIGHT_CYCLES.length + ' cycles');
+    countText.textContent = filteredNodes.length + ' nodes · ' + filteredLinks.length + ' edges' +
+      (layerInfo.length ? ' · ' + layerInfo.join(' · ') : '');
     svg.appendChild(countText);
   }
 
