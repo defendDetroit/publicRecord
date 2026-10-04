@@ -9,6 +9,7 @@ keywords = "Brian Banks network map, Detroit charter school racketeering network
 
 This is not one bad actor. It is a **network** — convicted felons, judges, attorneys, and institutions connected through boards, campaigns, property, and family ties.
 
+<script src="/js/network-data.js"></script>
 <div id="network-graph" style="margin: 1.5rem 0;"></div>
 <script src="/js/network-graph.js"></script>
 

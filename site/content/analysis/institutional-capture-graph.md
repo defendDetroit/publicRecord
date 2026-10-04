@@ -14,6 +14,7 @@ entities = ["MacDowell Preparatory Academy", "Purpose Charter Academy", "Purpose
 connections = ["institutional capture", "credential washing", "police weaponization", "political nexus", "education fraud", "FBI wiretap"]
 +++
 
+<script src="/js/network-data.js"></script>
 <div id="network-graph" style="margin: 2rem 0;"></div>
 <script src="/js/network-graph.js"></script>
 

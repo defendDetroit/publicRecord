@@ -1,103 +1,69 @@
 // Geographic extraction map for detroit.primals.eco
 // Shows where public money enters (schools in Detroit) and where it exits
 // (LLCs, campaign payments, political allies outside the community).
+//
+// Data source: window.DETROIT_NETWORK (loaded from network-data.js)
 // Pure SVG, zero dependencies, zero tracking.
 
 (function() {
   'use strict';
 
-  // Layout uses a conceptual geographic arrangement:
-  // Schools central, extraction NW, courts/politics SE, state far NW
-  // Coordinates are SVG-space (percentage of viewBox), not real lat/lon
+  // ── Resolve data from shared data layer ─────────────────────────────
+  var DN = window.DETROIT_NETWORK || {};
+  var TYPE_COLORS = DN.geoTypeColors || {};
+  var FLOW_STYLES = DN.geoFlowStyles || {};
 
-  var LOCATIONS = [
-    // Schools — where public money ENTERS (center of map, the community)
-    { id: 'macdowell', label: 'MacDowell Prep', type: 'school',
-      px: 0.45, py: 0.42, detail: '$4.9M/yr state aid · 3% math',
-      flow_in: '$4.9M', flow_out: '72.67% → Purpose Group' },
-    { id: 'pca', label: 'Purpose Charter', type: 'school',
-      px: 0.52, py: 0.55, detail: 'K-8 · Opening 2026-27',
-      flow_in: 'TBD state aid', flow_out: '→ Purpose Group' },
-    { id: 'dpsa', label: 'Detroit Public Safety Academy', type: 'school',
-      px: 0.38, py: 0.32, detail: 'Police chief on the board',
-      flow_in: 'State aid', flow_out: '→ EMU authorizer' },
+  function buildLocations() {
+    var nodes = DN.nodes || [];
+    var geoPos = DN.geoPositions || {};
+    var geoAgg = DN.geoAggregates || [];
+    var locations = [];
 
-    // Extraction layer — where money EXITS (upper area, OUTSIDE community)
-    { id: 'purpose_llc', label: 'Purpose Group LLC', type: 'extraction',
-      px: 0.42, py: 0.14, detail: 'Sole member: Banks · Takes 72.67%',
-      flow_in: '$4.28M from MacDowell', flow_out: 'Salary to Banks' },
-    { id: 'banks_home', label: 'Banks/Holland Residence', type: 'extraction',
-      px: 0.22, py: 0.10, detail: 'PAC HQ + Foundation + LLC — same address',
-      flow_in: 'Salary + consulting', flow_out: 'Campaign payments' },
-    { id: 'banks_strategy', label: 'Banks Strategy LLC', type: 'extraction',
-      px: 0.65, py: 0.12, detail: 'Campaign consulting firm',
-      flow_in: 'Judge campaign $', flow_out: '$15K+ to candidates' },
+    // Build locations from network nodes that have geo positions
+    var nodeMap = {};
+    nodes.forEach(function(n) { nodeMap[n.id] = n; });
 
-    // Political destinations — where influence flows (lower right)
-    { id: 'city_hall', label: 'Detroit City Hall', type: 'political',
-      px: 0.72, py: 0.62, detail: 'Mayor Sheffield · Ombudsman Gay-Dagnogo',
-      flow_in: 'Endorsements + $$', flow_out: 'Charter authorization' },
-    { id: 'wayne_county', label: 'Wayne County', type: 'political',
-      px: 0.82, py: 0.50, detail: 'Exec Evans · Treasurer Sabree',
-      flow_in: 'Campaign $$', flow_out: 'Endorsements + cover' },
-    { id: 'third_circuit', label: '3rd Circuit Court', type: 'court',
-      px: 0.75, py: 0.38, detail: 'Judges Miller, A. Sabree, Ramsey',
-      flow_in: 'Board seats for Banks', flow_out: 'Judicial cover' },
-    { id: '36th_district', label: '36th District Court', type: 'court',
-      px: 0.85, py: 0.72, detail: 'Judges Yancey, S. Perkins',
-      flow_in: '$383 from Banks Strategy', flow_out: 'Board positions' },
+    Object.keys(geoPos).forEach(function(nid) {
+      var node = nodeMap[nid];
+      if (!node) return;
+      var pos = geoPos[nid];
+      var geoType = node.type;
+      if (node.type === 'entity' && (nid === 'purpose_group' || nid === 'banks_strategy')) geoType = 'extraction';
+      if (node.type === 'actor' && nid === 'banks') geoType = 'extraction';
+      var summary = DN.flowSummary ? DN.flowSummary(nid) : { totalDollarsIn: 0, totalDollarsOut: 0 };
+      locations.push({
+        id: nid,
+        label: node.label,
+        type: geoType,
+        px: pos.px,
+        py: pos.py,
+        detail: node.detail,
+        flow_in: summary.totalDollarsIn ? '$' + (summary.totalDollarsIn / 1000).toFixed(0) + 'K' : 'documented',
+        flow_out: summary.totalDollarsOut ? '$' + (summary.totalDollarsOut / 1000).toFixed(0) + 'K' : 'documented',
+      });
+    });
 
-    // State level — Lansing (far left, outside Detroit)
-    { id: 'lansing', label: 'Lansing (State Capitol)', type: 'state',
-      px: 0.08, py: 0.30, detail: 'MDE · AG · State Legislature',
-      flow_in: 'Investigation referrals', flow_out: 'Cleared Banks (2022)' },
+    // Add geo-only aggregates
+    geoAgg.forEach(function(agg) {
+      if (geoPos[agg.aggregates[0]]) return; // skip if primary node already placed
+      locations.push({
+        id: agg.id,
+        label: agg.label,
+        type: agg.type,
+        px: agg.px,
+        py: agg.py,
+        detail: agg.detail,
+        flow_in: '',
+        flow_out: '',
+      });
+    });
 
-    // Inner Link — print shop (lower left)
-    { id: 'inner_link', label: 'Inner Link Graphics', type: 'vendor',
-      px: 0.15, py: 0.65, detail: '$98,291 from Banks committees',
-      flow_in: '$98K campaign printing', flow_out: 'Print services' },
-  ];
+    return locations;
+  }
 
-  // Money flow paths — showing extraction direction
-  var FLOWS = [
-    // Public money IN to schools
-    { from: 'lansing', to: 'macdowell', type: 'money_in', label: '$4.9M state aid', amount: 4900000 },
-    { from: 'lansing', to: 'pca', type: 'money_in', label: 'State aid (new)', amount: 2000000 },
-
-    // Extraction OUT of schools
-    { from: 'macdowell', to: 'purpose_llc', type: 'money_out', label: '72.67% ($4.28M)', amount: 4280000 },
-    { from: 'pca', to: 'purpose_llc', type: 'money_out', label: 'Management fee', amount: 1500000 },
-    { from: 'purpose_llc', to: 'banks_home', type: 'money_out', label: 'Salary + expenses', amount: 667000 },
-
-    // Campaign money flowing outward
-    { from: 'banks_home', to: 'banks_strategy', type: 'campaign', label: 'Consulting payments', amount: 35000 },
-    { from: 'banks_strategy', to: '36th_district', type: 'campaign', label: '$383 Yancey', amount: 383 },
-    { from: 'banks_home', to: 'inner_link', type: 'campaign', label: '$98K printing', amount: 98291 },
-    { from: 'banks_home', to: 'city_hall', type: 'influence', label: 'Endorsements + events', amount: 0 },
-    { from: 'banks_home', to: 'wayne_county', type: 'influence', label: 'Endorsements', amount: 0 },
-
-    // Kickback: positions and cover flowing back
-    { from: 'third_circuit', to: 'pca', type: 'kickback', label: 'Board seats (Miller)', amount: 0 },
-    { from: '36th_district', to: 'macdowell', type: 'kickback', label: 'Board seats (Yancey)', amount: 0 },
-    { from: 'city_hall', to: 'pca', type: 'kickback', label: 'Charter authorization', amount: 0 },
-  ];
-
-  var TYPE_COLORS = {
-    school: '#27ae60',
-    extraction: '#e74c3c',
-    political: '#2980b9',
-    court: '#8e44ad',
-    state: '#7f8c8d',
-    vendor: '#f39c12',
-  };
-
-  var FLOW_STYLES = {
-    money_in: { color: '#27ae60', width: 4, dash: '' },      // green — public money arriving
-    money_out: { color: '#e74c3c', width: 4, dash: '' },     // red — money extracted
-    campaign: { color: '#f39c12', width: 2.5, dash: '6,3' }, // orange dashed — campaign payments
-    influence: { color: '#3498db', width: 2, dash: '4,4' },  // blue dashed — influence
-    kickback: { color: '#8e44ad', width: 2, dash: '3,3' },   // purple dashed — positions/cover back
-  };
+  function getFlows() {
+    return DN.geoFlows || [];
+  }
 
   function toSVG(px, py, width, height) {
     return {
@@ -107,6 +73,8 @@
   }
 
   function renderGeoMap(container) {
+    var LOCATIONS = buildLocations();
+    var FLOWS = getFlows();
     var width = container.clientWidth || 800;
     var height = Math.max(500, width * 0.55);
 
@@ -239,7 +207,7 @@
       var to = locMap[flow.to];
       if (!from || !to) return;
 
-      var style = FLOW_STYLES[flow.type] || FLOW_STYLES.money_out;
+      var style = FLOW_STYLES[flow.flow_type] || FLOW_STYLES[flow.type] || FLOW_STYLES.money_out;
       var line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
       line.setAttribute('x1', from.x); line.setAttribute('y1', from.y);
       line.setAttribute('x2', to.x); line.setAttribute('y2', to.y);
@@ -247,7 +215,7 @@
       line.setAttribute('stroke-width', style.width);
       line.setAttribute('stroke-opacity', '0.5');
       if (style.dash) line.setAttribute('stroke-dasharray', style.dash);
-      line.setAttribute('marker-end', 'url(#geo-arrow-' + flow.type + ')');
+      line.setAttribute('marker-end', 'url(#geo-arrow-' + (flow.flow_type || flow.type) + ')');
 
       var title = document.createElementNS('http://www.w3.org/2000/svg', 'title');
       title.textContent = flow.label + ' (' + from.label + ' → ' + to.label + ')';
