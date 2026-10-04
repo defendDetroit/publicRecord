@@ -18,14 +18,30 @@
   var OVERSIGHT_CYCLES = DN.oversightCycles || [];
 
   // ── Nexus filter state ─────────────────────────────────────────────
-  var activeNexus = { education: true, political: true, police: true, legislative: true };
+  var activeNexus = { education: true, political: true, enforcement: true, weaponization: true, legislative: true };
   var showOwnership = false;
   var showCycles = false;
   var activeFlows = null;
+  var activeDynasty = null;
+
+  var DYNASTY_COLORS = {
+    kilpatrick: '#a855f7',
+    stallworth: '#f59e0b',
+    sabree: '#60a5fa',
+    banks_flenory: '#ef4444',
+    mayoral: '#94a3b8',
+  };
+  var DYNASTY_LABELS = {
+    kilpatrick: 'Kilpatrick',
+    stallworth: 'Stallworth',
+    sabree: 'Sabree',
+    banks_flenory: 'Banks/BMF',
+    mayoral: 'Mayors',
+  };
 
   function renderGraph(container, data) {
     var width = container.clientWidth || 800;
-    var height = Math.max(600, width * 0.65);
+    var height = Math.max(700, width * 0.75);
 
     // ── Build nexus filter controls ──────────────────────────────────
     var controls = container.querySelector('.graph-controls');
@@ -37,9 +53,10 @@
       label.textContent = 'Nexus overlay:';
       label.style.cssText = 'font-size:12px;font-weight:600;opacity:0.7;margin-right:4px;';
       controls.appendChild(label);
-      ['education', 'political', 'police', 'legislative'].forEach(function(nx) {
+      var nexusLabels = { education: 'Education', political: 'Political', enforcement: 'Enforcement', weaponization: 'Weaponization', legislative: 'Legislative' };
+      ['education', 'political', 'enforcement', 'weaponization', 'legislative'].forEach(function(nx) {
         var btn = document.createElement('button');
-        btn.textContent = nx.charAt(0).toUpperCase() + nx.slice(1);
+        btn.textContent = nexusLabels[nx];
         btn.dataset.nexus = nx;
         btn.style.cssText = 'padding:4px 12px;border:2px solid ' + NEXUS_COLORS[nx] +
           ';border-radius:14px;font-size:11px;font-weight:600;cursor:pointer;transition:all 0.2s;' +
@@ -96,6 +113,36 @@
         renderGraph(container, data);
       });
       controls.appendChild(cycBtn);
+
+      // Dynasty separator
+      var sepD = document.createElement('span');
+      sepD.textContent = '│';
+      sepD.style.cssText = 'opacity:0.3;margin:0 4px;';
+      controls.appendChild(sepD);
+
+      var dynLabel = document.createElement('span');
+      dynLabel.textContent = 'Dynasty:';
+      dynLabel.style.cssText = 'font-size:12px;font-weight:600;opacity:0.7;';
+      controls.appendChild(dynLabel);
+
+      Object.keys(DYNASTY_COLORS).forEach(function(dy) {
+        var btn = document.createElement('button');
+        btn.textContent = DYNASTY_LABELS[dy];
+        btn.dataset.dynasty = dy;
+        btn.style.cssText = 'padding:4px 10px;border:2px solid ' + DYNASTY_COLORS[dy] +
+          ';border-radius:14px;font-size:10px;font-weight:600;cursor:pointer;transition:all 0.2s;' +
+          'background:transparent;color:' + DYNASTY_COLORS[dy] + ';';
+        btn.addEventListener('click', function() {
+          activeDynasty = activeDynasty === dy ? null : dy;
+          controls.querySelectorAll('button[data-dynasty]').forEach(function(b) {
+            var d2 = b.dataset.dynasty;
+            b.style.background = activeDynasty === d2 ? DYNASTY_COLORS[d2] : 'transparent';
+            b.style.color = activeDynasty === d2 ? '#fff' : DYNASTY_COLORS[d2];
+          });
+          renderGraph(container, data);
+        });
+        controls.appendChild(btn);
+      });
 
       // Flow type separator
       var sep2 = document.createElement('span');
@@ -180,7 +227,7 @@
           var dx = nodes[j].x - nodes[i].x;
           var dy = nodes[j].y - nodes[i].y;
           var dist = Math.sqrt(dx * dx + dy * dy) || 1;
-          var force = 12000 / (dist * dist);
+          var force = 18000 / (dist * dist);
           var fx = (dx / dist) * force;
           var fy = (dy / dist) * force;
           nodes[i].vx -= fx; nodes[i].vy -= fy;
@@ -194,7 +241,7 @@
         var dx = t.x - s.x;
         var dy = t.y - s.y;
         var dist = Math.sqrt(dx * dx + dy * dy) || 1;
-        var force = (dist - 140) * 0.015;
+        var force = (dist - 180) * 0.015;
         var fx = (dx / dist) * force;
         var fy = (dy / dist) * force;
         s.vx += fx; s.vy += fy;
@@ -206,8 +253,8 @@
         n.x += n.vx * 0.3;
         n.y += n.vy * 0.3;
         n.vx *= 0.78; n.vy *= 0.78;
-        n.x = Math.max(70, Math.min(width - 70, n.x));
-        n.y = Math.max(40, Math.min(height - 40, n.y));
+        n.x = Math.max(90, Math.min(width - 90, n.x));
+        n.y = Math.max(50, Math.min(height - 50, n.y));
       });
     }
 
@@ -444,6 +491,14 @@
       linkElements.push(line);
     });
 
+    // ── Compute degree for each node ────────────────────────────────
+    var nodeDegree = {};
+    nodes.forEach(function(n) { nodeDegree[n.id] = 0; });
+    filteredLinks.forEach(function(l) {
+      if (nodeDegree[l.source] !== undefined) nodeDegree[l.source]++;
+      if (nodeDegree[l.target] !== undefined) nodeDegree[l.target]++;
+    });
+
     // ── Draw nodes ────────────────────────────────────────────────────
     var nodeElements = {};
     nodes.forEach(function(n) {
@@ -458,29 +513,42 @@
         });
       }
 
-      var r = n.tier <= 1 ? 24 : (n.type === 'school' || n.type === 'entity' ? 18 : 15);
+      var deg = nodeDegree[n.id] || 0;
+      var r = Math.max(10, Math.min(32, 10 + Math.sqrt(deg) * 4));
       var circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
       circle.setAttribute('r', r);
       circle.setAttribute('fill', COLORS[n.type] || '#95a5a6');
       circle.setAttribute('stroke', '#fff');
-      circle.setAttribute('stroke-width', '2.5');
+      circle.setAttribute('stroke-width', r > 20 ? '2.5' : '1.5');
       circle.style.transition = 'r 0.2s, stroke-width 0.2s';
       g.appendChild(circle);
 
+      if (deg >= 3) {
+        var badge = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+        badge.setAttribute('text-anchor', 'middle');
+        badge.setAttribute('dy', '4');
+        badge.setAttribute('fill', '#fff');
+        badge.setAttribute('font-size', r > 20 ? '11' : '9');
+        badge.setAttribute('font-weight', '700');
+        badge.setAttribute('pointer-events', 'none');
+        badge.textContent = deg;
+        g.appendChild(badge);
+      }
+
+      var labelAbove = deg >= 5;
       var text = document.createElementNS('http://www.w3.org/2000/svg', 'text');
-      text.setAttribute('dy', r + 14);
+      text.setAttribute('dy', labelAbove ? -(r + 6) : (r + 14));
       text.setAttribute('text-anchor', 'middle');
       text.setAttribute('fill', 'currentColor');
-      text.setAttribute('font-size', n.tier <= 1 ? '12' : '10');
-      text.setAttribute('font-weight', n.tier <= 1 ? '700' : '500');
+      text.setAttribute('font-size', deg >= 8 ? '12' : (deg >= 3 ? '10' : '9'));
+      text.setAttribute('font-weight', deg >= 8 ? '700' : '500');
       text.textContent = n.label;
       g.appendChild(text);
 
       var title = document.createElementNS('http://www.w3.org/2000/svg', 'title');
-      title.textContent = n.label + '\n' + n.detail;
+      title.textContent = n.label + ' (' + deg + ' connections)\n' + n.detail;
       g.appendChild(title);
 
-      // Hover info panel
       g.addEventListener('mouseenter', function() {
         highlightNode(n.id);
         showInfo(n);
@@ -491,8 +559,37 @@
       });
 
       svg.appendChild(g);
-      nodeElements[n.id] = { group: g, circle: circle };
+      nodeElements[n.id] = { group: g, circle: circle, radius: r };
     });
+
+    // ── Dynasty highlighting ────────────────────────────────────────
+    if (activeDynasty) {
+      Object.keys(nodeElements).forEach(function(nid) {
+        var n = nodeMap[nid];
+        var el = nodeElements[nid];
+        if (!n) return;
+        if (n.dynasty === activeDynasty) {
+          el.group.style.opacity = '1';
+          el.circle.setAttribute('stroke', DYNASTY_COLORS[activeDynasty]);
+          el.circle.setAttribute('stroke-width', '3');
+        } else {
+          el.group.style.opacity = '0.2';
+        }
+      });
+      linkElements.forEach(function(line) {
+        var sNode = nodeMap[line.dataset.source];
+        var tNode = nodeMap[line.dataset.target];
+        var sMatch = sNode && sNode.dynasty === activeDynasty;
+        var tMatch = tNode && tNode.dynasty === activeDynasty;
+        if (sMatch || tMatch) {
+          line.setAttribute('stroke-opacity', '0.7');
+          line.setAttribute('stroke', DYNASTY_COLORS[activeDynasty]);
+          line.setAttribute('stroke-width', '2.5');
+        } else {
+          line.setAttribute('stroke-opacity', '0.06');
+        }
+      });
+    }
 
     // ── Hover highlighting ────────────────────────────────────────────
     function highlightNode(id) {
@@ -502,6 +599,7 @@
         if (nid === id) {
           el.group.style.opacity = '1';
           el.circle.setAttribute('stroke-width', '4');
+          el.circle.setAttribute('r', el.radius + 4);
         } else if (neighbors.has(nid)) {
           el.group.style.opacity = '1';
           el.circle.setAttribute('stroke-width', '3');
@@ -521,8 +619,10 @@
 
     function clearHighlight() {
       Object.keys(nodeElements).forEach(function(nid) {
-        nodeElements[nid].group.style.opacity = '1';
-        nodeElements[nid].circle.setAttribute('stroke-width', '2.5');
+        var el = nodeElements[nid];
+        el.group.style.opacity = '1';
+        el.circle.setAttribute('stroke-width', el.radius > 20 ? '2.5' : '1.5');
+        el.circle.setAttribute('r', el.radius);
       });
       linkElements.forEach(function(line) {
         line.setAttribute('stroke-opacity', '0.5');

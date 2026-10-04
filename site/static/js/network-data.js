@@ -29,16 +29,20 @@
   //   detail:  short evidence summary
   //   url:     link to detailed page (null if none)
   //   nexus:   array of nexus types this node participates in
-  //            (education, political, police, legislative)
+  //            (education, political, enforcement, weaponization, legislative)
+  //   dynasty: string — dynasty grouping (kilpatrick, stallworth, sabree, banks_flenory, mayoral) or null
+  //   era:     string — active period (e.g. '2002-2008') or null (for future timeline slider)
 
   var NODES = [
     // ── Tier 1: Enterprise Principals ──
     { id: 'banks', label: 'Brian R. Banks', tier: 1, type: 'actor',
       detail: '9 convictions (6 felony, 3 misd.)', url: '/network/actors/brian-banks/',
-      nexus: ['education', 'political', 'police', 'legislative'] },
+      nexus: ['education', 'political', 'enforcement', 'weaponization', 'legislative'],
+      dynasty: 'banks_flenory', era: '2003-present' },
     { id: 'holland', label: 'Joseph Holland Jr.', tier: 1, type: 'actor',
       detail: 'Drug offender, MDOC #443789', url: '/network/actors/joseph-holland/',
-      nexus: ['education', 'political'] },
+      nexus: ['education', 'political'],
+      dynasty: 'banks_flenory', era: '2014-present' },
 
     // ── Tier 2: Judicial Cover ──
     { id: 'miller', label: 'Judge C. Miller', tier: 2, type: 'judge',
@@ -49,28 +53,34 @@
       nexus: ['education', 'political'] },
     { id: 'sabree', label: 'Judge A. Sabree', tier: 2, type: 'judge',
       detail: 'MSU Law classmate (2010)', url: '/network/judges/aliyah-sabree/',
-      nexus: ['education'] },
+      nexus: ['education'],
+      dynasty: 'sabree', era: '2020-present' },
     { id: 'perkins_d', label: 'Judge D. Perkins', tier: 2, type: 'judge',
       detail: 'Family donations, Probate overlap', url: '/network/judges/david-perkins/',
-      nexus: ['education'] },
+      nexus: ['education'],
+      dynasty: 'sabree', era: '2020-present' },
 
     // ── Tier 3: Political ──
     { id: 'gay_dagnogo', label: 'S. Gay-Dagnogo', tier: 3, type: 'political',
       detail: 'DPSCD Board, succeeded Banks in HD-1', url: '/network/political/sherry-gay-dagnogo/',
-      nexus: ['political', 'education'] },
+      nexus: ['political', 'education'],
+      dynasty: 'kilpatrick', era: '2015-present' },
 
     // ── Tier 5: BMF ──
     { id: 'od_banks', label: 'OD Banks', tier: 5, type: 'bmf',
       detail: 'BMF Defendant #22, Banks\' father', url: null,
-      nexus: [] },
+      nexus: [],
+      dynasty: 'banks_flenory', era: '2005-2012' },
     { id: 'welch', label: 'Tonesa Welch', tier: 5, type: 'bmf',
       detail: 'BMF figure, Banks\' aunt', url: null,
-      nexus: [] },
+      nexus: [],
+      dynasty: 'banks_flenory', era: '2005-present' },
 
     // ── FOIA-revealed actors (Layer 2) ──
     { id: 'wells_stallworth', label: 'N. Wells-Stallworth', tier: 3, type: 'political',
       detail: 'Board President since 2014. Received MDE investigation letter Feb 2022. [FOIA]', url: null,
-      nexus: ['education', 'legislative'] },
+      nexus: ['education', 'legislative'],
+      dynasty: 'stallworth', era: '2014-present' },
     { id: 'schmiedeknecht', label: 'K. Schmiedeknecht', tier: 4, type: 'institutional',
       detail: 'MDE Analyst — sent investigation letter, then cleared. [FOIA]', url: '/actors/katie-schmiedeknecht/',
       nexus: ['education'] },
@@ -84,13 +94,15 @@
     // ── Nexus 2: Political Capture ──
     { id: 'sheffield', label: 'Mayor Sheffield', tier: 2, type: 'political',
       detail: 'City Council President → Mayor. OIG probe re: Bettison call.', url: null,
-      nexus: ['political', 'police'] },
+      nexus: ['political', 'weaponization'],
+      dynasty: 'mayoral', era: '2024-present' },
     { id: 'evans', label: 'W. Evans', tier: 3, type: 'political',
       detail: 'Wayne County Executive. Endorsed Banks.', url: null,
       nexus: ['political'] },
     { id: 'sabree_e', label: 'E. Sabree', tier: 3, type: 'political',
       detail: 'Wayne County Treasurer. Endorsed Banks.', url: '/network/political/eric-sabree/',
-      nexus: ['political'] },
+      nexus: ['political'],
+      dynasty: 'sabree', era: '2015-present' },
     { id: 'inner_link', label: 'Inner Link Graphics', tier: 0, type: 'entity',
       detail: '$98,291 from Banks-connected committees', url: null,
       nexus: ['political'] },
@@ -101,26 +113,27 @@
     // ── Nexus 3: Police Weaponization ──
     { id: 'bettison', label: 'Chief Bettison', tier: 2, type: 'actor',
       detail: 'DPD Chief + DPSA Board Secretary. OIG investigation Sep 2026.', url: null,
-      nexus: ['police', 'education'] },
+      nexus: ['weaponization', 'education'] },
     { id: 'dpsa', label: 'Detroit Public Safety Academy', tier: 0, type: 'school',
       detail: 'Charter school — police chief on the board.', url: null,
-      nexus: ['police', 'education'] },
+      nexus: ['weaponization', 'education'] },
 
     // ── Nexus 3b: Operation Northern Hook ──
     { id: 'fiore', label: 'G. Fiore', tier: 2, type: 'actor',
       detail: 'Convicted bribery. FBI wiretap: "bid-rigging with Banks"', url: null,
-      nexus: ['police', 'political'] },
+      nexus: ['enforcement', 'political'] },
     { id: 'spivey', label: 'A. Spivey', tier: 3, type: 'political',
       detail: 'Convicted (24 mo). Op Northern Hook. Warned targets.', url: null,
-      nexus: ['police', 'political'] },
+      nexus: ['enforcement', 'political'] },
     { id: 'perkins_t', label: 'T. Perkins', tier: 3, type: 'actor',
       detail: 'Banks attorney. Repped 2 Op Northern Hook targets. Ran for mayor.', url: null,
-      nexus: ['police', 'political'] },
+      nexus: ['enforcement', 'political'] },
 
     // ── Nexus 4: Legislative Pipeline ──
     { id: 'stallworth_t', label: 'T. Stallworth III', tier: 3, type: 'political',
       detail: 'Former State Rep. Nicole\'s husband. Defended Banks at felony rally.', url: null,
-      nexus: ['legislative'] },
+      nexus: ['legislative'],
+      dynasty: 'stallworth', era: '2011-2016' },
     { id: 'moreland', label: 'L. Moreland', tier: 2, type: 'judge',
       detail: 'AAG → PCA Board Director + Banks litigation attorney. MRPC 1.7 conflict.', url: null,
       nexus: ['education', 'legislative'] },
@@ -145,8 +158,9 @@
       detail: 'Inner Link Graphics owner. Also runs obituaries4less.com. $98K from 5 committees.', url: null,
       nexus: ['political'] },
     { id: 'daniels', label: 'Kenneth Daniels', tier: 3, type: 'actor',
-      detail: 'SDJ/Detroit Leaders President. Agent on 15+ entities (real estate, construction).', url: null,
-      nexus: ['political'] },
+      detail: 'SDJ/Detroit Leaders President. Kwame appointee. Fed conviction: structured $19K for drug kingpin.', url: null,
+      nexus: ['political', 'enforcement'],
+      dynasty: 'kilpatrick', era: '1999-present' },
     { id: 'crump_gibson', label: 'Crump-Gibson', tier: 2, type: 'judge',
       detail: 'Great Lakes Legal Group. MI Attorney Discipline Board panelist. MSU. Possible Crump family.', url: null,
       nexus: ['education'] },
@@ -218,13 +232,53 @@
       nexus: ['education'] },
     { id: 'emu', label: 'EMU', tier: 4, type: 'institutional',
       detail: 'Eastern Michigan University. Authorized DPSA (Bettison on board). Ypsilanti.', url: null,
-      nexus: ['education', 'police'] },
+      nexus: ['education', 'weaponization'] },
     { id: 'dpscd_auth', label: 'DPSCD (Authorizer)', tier: 4, type: 'institutional',
       detail: 'Detroit Public Schools Community District. Authorized PCA (2025). 7 charter schools. Collects 3% fee.', url: null,
       nexus: ['education'] },
     { id: 'nha', label: 'Natl Heritage Acad.', tier: 0, type: 'entity',
       detail: 'For-profit CMO. 16 Detroit schools. 103 schools in 9 states. Grand Rapids HQ. $1B+ revenue.', url: null,
       nexus: ['education'] },
+
+    // ── Mayoral Lineage (political succession) ──
+    { id: 'coleman_young', label: 'Coleman Young', tier: 5, type: 'political',
+      detail: 'Mayor 1974-1993. First Black mayor. Built the original political machine.', url: null,
+      nexus: ['political'],
+      dynasty: 'mayoral', era: '1974-1993' },
+    { id: 'archer', label: 'Dennis Archer', tier: 5, type: 'political',
+      detail: 'Mayor 1994-2001. MI Supreme Court → mayor. Transition era.', url: null,
+      nexus: ['political'],
+      dynasty: 'mayoral', era: '1994-2001' },
+    { id: 'kwame', label: 'Kwame Kilpatrick', tier: 2, type: 'actor',
+      detail: '24 federal RICO felonies. Mayor 2002-2008. 28yr sentence, commuted by Trump Jan 2021.', url: '/network/political/kilpatrick-dynasty/',
+      nexus: ['political', 'enforcement'],
+      dynasty: 'kilpatrick', era: '2002-2008' },
+    { id: 'bing', label: 'Dave Bing', tier: 5, type: 'political',
+      detail: 'Mayor 2009-2013. Emergency manager era. Dumas was his comms chief.', url: null,
+      nexus: ['political'],
+      dynasty: 'mayoral', era: '2009-2013' },
+    { id: 'duggan', label: 'Mike Duggan', tier: 4, type: 'political',
+      detail: 'Mayor 2014-2025. First white mayor since 1974.', url: null,
+      nexus: ['political'],
+      dynasty: 'mayoral', era: '2014-2025' },
+
+    // ── Kilpatrick Orbit ──
+    { id: 'carolyn_kilpatrick', label: 'C.C. Kilpatrick', tier: 3, type: 'political',
+      detail: 'Former Congresswoman (1997-2011). Kwame\'s mother. Banks\' 2023 CBC honorary host. Died Oct 2025.', url: null,
+      nexus: ['political'],
+      dynasty: 'kilpatrick', era: '1997-2025' },
+    { id: 'dumas', label: 'Karen Dumas', tier: 3, type: 'actor',
+      detail: 'Kwame\'s comms chief → Bing\'s comms chief → Banks PR supporter. Images & Ideas Inc.', url: null,
+      nexus: ['political'],
+      dynasty: 'kilpatrick', era: '2002-present' },
+    { id: 'pugh', label: 'Charles Pugh', tier: 3, type: 'actor',
+      detail: 'City Council President 2009-2013. Convicted CSC with minor. Referred Cotton to Banks.', url: null,
+      nexus: ['political', 'enforcement'],
+      dynasty: 'kilpatrick', era: '2009-2013' },
+    { id: 'vaughn', label: 'Bp. C. Vaughn', tier: 3, type: 'political',
+      detail: 'DPSCD Board President. Authorized PCA + MacDowell charters. Disqualified 2026 ($950 Wayne Co).', url: null,
+      nexus: ['education', 'political'],
+      dynasty: null, era: '2016-2026' },
   ];
 
 
@@ -362,6 +416,26 @@
     { source: 'macdowell', target: 'cmu', type: 'money', label: '3% auth fee (~$147K/yr)', flow: 'money', amount: 147000 },
     { source: 'pca', target: 'dpscd_auth', type: 'money', label: '3% auth fee (~$81K/yr)', flow: 'money', amount: 81000 },
     { source: 'gay_dagnogo', target: 'dpscd_auth', type: 'political', label: 'DPSCD board → authorized PCA', flow: 'influence', amount: null },
+
+    // ── Mayoral succession chain ──
+    { source: 'coleman_young', target: 'archer', type: 'political', label: 'succeeded 1994', flow: 'power', amount: null },
+    { source: 'archer', target: 'kwame', type: 'political', label: 'succeeded 2002', flow: 'power', amount: null },
+    { source: 'kwame', target: 'bing', type: 'political', label: 'succeeded after conviction 2008', flow: 'power', amount: null },
+    { source: 'bing', target: 'duggan', type: 'political', label: 'succeeded 2014', flow: 'power', amount: null },
+    { source: 'duggan', target: 'sheffield', type: 'political', label: 'succeeded 2024', flow: 'power', amount: null },
+
+    // ── Kilpatrick orbit ──
+    { source: 'kwame', target: 'carolyn_kilpatrick', type: 'family', label: 'mother', flow: 'influence', amount: null },
+    { source: 'carolyn_kilpatrick', target: 'banks', type: 'political', label: 'CBC honorary host 2023', flow: 'influence', amount: null },
+    { source: 'kwame', target: 'dumas', type: 'controls', label: 'comms chief', flow: 'power', amount: null },
+    { source: 'dumas', target: 'banks', type: 'associate', label: 'PR support, thanked in book', flow: 'influence', amount: null },
+    { source: 'bing', target: 'dumas', type: 'controls', label: 'comms chief (continued)', flow: 'power', amount: null },
+    { source: 'kwame', target: 'daniels', type: 'political', label: 'appointed to Water Board', flow: 'power', amount: null },
+    { source: 'gay_dagnogo', target: 'kwame', type: 'political', label: 'sought Kilpatrick clemency 2020', flow: 'influence', amount: null },
+    { source: 'pugh', target: 'banks', type: 'associate', label: 'referred Cotton → sexual harassment', flow: 'influence', amount: null },
+    { source: 'vaughn', target: 'pca', type: 'institutional', label: 'DPSCD Board Pres — authorized charter', flow: 'power', amount: null },
+    { source: 'vaughn', target: 'macdowell', type: 'institutional', label: 'DPSCD Board Pres — authorized charter', flow: 'power', amount: null },
+    { source: 'sheffield', target: 'bettison', type: 'political', label: 'appointed chief', flow: 'power', amount: null },
   ];
 
 
@@ -432,6 +506,24 @@
       color: 'rgba(211,84,0,0.10)',
       stroke: 'rgba(211,84,0,0.4)',
       note: 'Ross = charity treasurer + connected to vendor paid $35K by PACs. BBesq06@aol.com = Banks\'s email.'
+    },
+    {
+      id: 'kilpatrick_orbit',
+      controller: 'kwame',
+      label: 'Kilpatrick Dynasty',
+      members: ['kwame', 'carolyn_kilpatrick', 'dumas', 'daniels', 'gay_dagnogo', 'pugh'],
+      color: 'rgba(88,28,135,0.10)',
+      stroke: 'rgba(168,85,247,0.4)',
+      note: 'Kwame → Carolyn (CBC host) → Dumas (PR) → Daniels (dark money) → Gay-Dagnogo (charter auth) → Pugh (Cotton referral)'
+    },
+    {
+      id: 'mayoral_lineage',
+      controller: null,
+      label: 'Mayoral Lineage (50 years)',
+      members: ['coleman_young', 'archer', 'kwame', 'bing', 'duggan', 'sheffield'],
+      color: 'rgba(127,140,141,0.08)',
+      stroke: 'rgba(127,140,141,0.4)',
+      note: 'Young → Archer → Kilpatrick → Bing → Duggan → Sheffield. The machine survived every transition.'
     }
   ];
 
@@ -801,7 +893,8 @@
   var NEXUS_COLORS = {
     education: '#27ae60',
     political: '#2980b9',
-    police: '#c0392b',
+    enforcement: '#e74c3c',
+    weaponization: '#c0392b',
     legislative: '#f39c12',
   };
 
@@ -1004,12 +1097,12 @@
         cycleCount: OVERSIGHT_CYCLES.length,
         flowCounts: flowCounts,
         totalDocumentedDollars: totalDocumented,
-        nexusTypes: ['education', 'political', 'police', 'legislative'],
+        nexusTypes: ['education', 'political', 'enforcement', 'weaponization', 'legislative'],
       };
     },
 
     // Version (increment on schema changes)
-    version: 3,
+    version: 4,
   };
 
   window.DETROIT_NETWORK = network;
