@@ -19,11 +19,29 @@
     var geoAgg = DN.geoAggregates || [];
     var locations = [];
 
-    // Build locations from network nodes that have geo positions
     var nodeMap = {};
     nodes.forEach(function(n) { nodeMap[n.id] = n; });
 
+    // Aggregates take priority — they represent geographic places
+    // Track which network nodes are consumed by aggregates
+    var aggregatedNodes = {};
+    geoAgg.forEach(function(agg) {
+      (agg.aggregates || []).forEach(function(nid) { aggregatedNodes[nid] = agg.id; });
+      locations.push({
+        id: agg.id,
+        label: agg.label,
+        type: agg.type,
+        px: agg.px,
+        py: agg.py,
+        detail: agg.detail,
+        flow_in: '',
+        flow_out: '',
+      });
+    });
+
+    // Add individual network nodes that have geo positions and aren't in an aggregate
     Object.keys(geoPos).forEach(function(nid) {
+      if (aggregatedNodes[nid]) return;
       var node = nodeMap[nid];
       if (!node) return;
       var pos = geoPos[nid];
@@ -40,21 +58,6 @@
         detail: node.detail,
         flow_in: summary.totalDollarsIn ? '$' + (summary.totalDollarsIn / 1000).toFixed(0) + 'K' : 'documented',
         flow_out: summary.totalDollarsOut ? '$' + (summary.totalDollarsOut / 1000).toFixed(0) + 'K' : 'documented',
-      });
-    });
-
-    // Add geo-only aggregates
-    geoAgg.forEach(function(agg) {
-      if (geoPos[agg.aggregates[0]]) return; // skip if primary node already placed
-      locations.push({
-        id: agg.id,
-        label: agg.label,
-        type: agg.type,
-        px: agg.px,
-        py: agg.py,
-        detail: agg.detail,
-        flow_in: '',
-        flow_out: '',
       });
     });
 
