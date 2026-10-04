@@ -8,6 +8,23 @@ sort_by = "weight"
 og_description = "Live signal sensing data — measuring whether oversight signals propagate through institutional systems. Cookieless, trackingless, purely sensory."
 +++
 
+## Live Exploration — The Traveling Salesman
+
+Every visit to this site rings a doorbell — the HTTP `Referer` header tells us
+which page a visitor came from, without knowing *who* they are. These doorbells
+trace **navigation paths** through the evidence, like a traveling salesman's
+route through a graph.
+
+Red nodes are **landing pages** — where visitors arrive from outside.
+Green nodes are **internal pages** — navigated to from within the site.
+Arrows show the direction of travel. Larger nodes = more visits.
+
+<script src="/js/signal-data.js"></script>
+<div id="signal-exploration" style="margin: 1rem 0;"></div>
+<script src="/js/signal-exploration.js"></script>
+
+---
+
 ## What This Page Measures
 
 This site publishes a public evidence database documenting a charter school
