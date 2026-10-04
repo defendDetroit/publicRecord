@@ -129,74 +129,80 @@
         nexus: ['political'] },
     ],
     links: [
+      // flow: what is exchanged along this edge
+      //   'money'     — dollars (campaign, contracts, fees, payments)
+      //   'power'     — authority (appointments, authorizations, police power)
+      //   'influence' — endorsements, political support, legal cover, protection
+      //   'position'  — board seats, institutional roles granted
+
       // Banks controls everything
-      { source: 'banks', target: 'pca', type: 'controls', label: 'superintendent' },
-      { source: 'banks', target: 'macdowell', type: 'controls', label: 'superintendent' },
-      { source: 'banks', target: 'purpose_group', type: 'controls', label: 'sole member' },
-      { source: 'banks', target: 'purpose_foundation', type: 'controls', label: 'president + director' },
-      { source: 'banks', target: 'banks_strategy', type: 'controls', label: 'agent' },
+      { source: 'banks', target: 'pca', type: 'controls', label: 'superintendent', flow: 'power' },
+      { source: 'banks', target: 'macdowell', type: 'controls', label: 'superintendent', flow: 'power' },
+      { source: 'banks', target: 'purpose_group', type: 'controls', label: 'sole member', flow: 'power' },
+      { source: 'banks', target: 'purpose_foundation', type: 'controls', label: 'president + director', flow: 'power' },
+      { source: 'banks', target: 'banks_strategy', type: 'controls', label: 'agent', flow: 'power' },
 
       // Holland financial roles
-      { source: 'holland', target: 'purpose_foundation', type: 'financial', label: 'secretary + treasurer' },
-      { source: 'holland', target: 'pacs', type: 'financial', label: 'PAC treasurer' },
+      { source: 'holland', target: 'purpose_foundation', type: 'financial', label: 'secretary + treasurer', flow: 'position' },
+      { source: 'holland', target: 'pacs', type: 'financial', label: 'PAC treasurer', flow: 'position' },
 
       // Co-residence
-      { source: 'banks', target: 'holland', type: 'associate', label: 'co-resident, all entities' },
+      { source: 'banks', target: 'holland', type: 'associate', label: 'co-resident, all entities', flow: 'influence' },
 
       // Money flow
-      { source: 'pca', target: 'purpose_group', type: 'money', label: 'management fee' },
-      { source: 'macdowell', target: 'purpose_group', type: 'money', label: '72.67% ($4.28M)' },
+      { source: 'pca', target: 'purpose_group', type: 'money', label: 'management fee', flow: 'money' },
+      { source: 'macdowell', target: 'purpose_group', type: 'money', label: '72.67% ($4.28M)', flow: 'money' },
 
       // Judicial connections
-      { source: 'miller', target: 'banks', type: 'judicial', label: 'Board Chair' },
-      { source: 'yancey', target: 'banks_strategy', type: 'judicial', label: '$383.82 payment' },
-      { source: 'sabree', target: 'banks', type: 'judicial', label: 'MSU Law 2010' },
-      { source: 'perkins_d', target: 'banks', type: 'judicial', label: 'family donations' },
+      { source: 'miller', target: 'banks', type: 'judicial', label: 'Board Chair → legal cover', flow: 'influence' },
+      { source: 'yancey', target: 'banks_strategy', type: 'judicial', label: '$383.82 payment', flow: 'money' },
+      { source: 'sabree', target: 'banks', type: 'judicial', label: 'MSU Law 2010', flow: 'influence' },
+      { source: 'perkins_d', target: 'banks', type: 'judicial', label: 'family donations', flow: 'money' },
 
       // Political
-      { source: 'gay_dagnogo', target: 'pca', type: 'political', label: 'DPSCD authorizer' },
-      { source: 'gay_dagnogo', target: 'banks', type: 'political', label: 'CBC honoree, HD-1 successor' },
+      { source: 'gay_dagnogo', target: 'pca', type: 'political', label: 'DPSCD authorizer', flow: 'power' },
+      { source: 'gay_dagnogo', target: 'banks', type: 'political', label: 'CBC honoree, HD-1 successor', flow: 'influence' },
 
       // BMF lineage
-      { source: 'od_banks', target: 'banks', type: 'family', label: 'father' },
-      { source: 'welch', target: 'od_banks', type: 'family', label: 'BMF network' },
+      { source: 'od_banks', target: 'banks', type: 'family', label: 'father', flow: 'influence' },
+      { source: 'welch', target: 'od_banks', type: 'family', label: 'BMF network', flow: 'influence' },
 
       // FOIA-revealed connections (Layer 2)
-      { source: 'wells_stallworth', target: 'macdowell', type: 'controls', label: 'Board President ≥2014' },
-      { source: 'wells_stallworth', target: 'banks', type: 'associate', label: 'received investigation, protected' },
-      { source: 'mde', target: 'banks', type: 'institutional', label: 'HOLD on permit #590606' },
-      { source: 'mde', target: 'macdowell', type: 'institutional', label: 'investigated Feb 2022, cleared' },
-      { source: 'schmiedeknecht', target: 'mde', type: 'institutional', label: 'analyst, OEE' },
-      { source: 'alan_young', target: 'macdowell', type: 'financial', label: 'auditor 9yr (FY17-25)' },
-      { source: 'macdowell', target: 'banks', type: 'money', label: 'School Admin $667K' },
+      { source: 'wells_stallworth', target: 'macdowell', type: 'controls', label: 'Board President ≥2014', flow: 'position' },
+      { source: 'wells_stallworth', target: 'banks', type: 'associate', label: 'received investigation, protected', flow: 'influence' },
+      { source: 'mde', target: 'banks', type: 'institutional', label: 'HOLD on permit #590606', flow: 'power' },
+      { source: 'mde', target: 'macdowell', type: 'institutional', label: 'investigated Feb 2022, cleared', flow: 'power' },
+      { source: 'schmiedeknecht', target: 'mde', type: 'institutional', label: 'analyst, OEE', flow: 'position' },
+      { source: 'alan_young', target: 'macdowell', type: 'financial', label: 'auditor 9yr (FY17-25)', flow: 'influence' },
+      { source: 'macdowell', target: 'banks', type: 'money', label: 'School Admin $667K', flow: 'money' },
 
       // Nexus 2: Political Capture
-      { source: 'sheffield', target: 'bettison', type: 'political', label: 'appointed chief' },
-      { source: 'sheffield', target: 'banks', type: 'political', label: 'endorsed' },
-      { source: 'evans', target: 'banks', type: 'political', label: 'endorsed' },
-      { source: 'sabree_e', target: 'banks', type: 'political', label: 'endorsed' },
-      { source: 'inner_link', target: 'banks', type: 'money', label: '$39K Banks for Senate' },
-      { source: 'inner_link', target: 'yancey', type: 'money', label: '$8K Yancey campaign' },
-      { source: 'mccastle', target: 'banks', type: 'money', label: '$9,450 Banks for Senate' },
-      { source: 'mccastle', target: 'gay_dagnogo', type: 'money', label: '$1K Strong Women PAC' },
-      { source: 'johnson_l', target: 'pca', type: 'controls', label: 'Board Secretary' },
-      { source: 'inner_link', target: 'johnson_l', type: 'money', label: '$850 campaign' },
+      { source: 'sheffield', target: 'bettison', type: 'political', label: 'appointed chief', flow: 'power' },
+      { source: 'sheffield', target: 'banks', type: 'political', label: 'endorsed', flow: 'influence' },
+      { source: 'evans', target: 'banks', type: 'political', label: 'endorsed', flow: 'influence' },
+      { source: 'sabree_e', target: 'banks', type: 'political', label: 'endorsed', flow: 'influence' },
+      { source: 'inner_link', target: 'banks', type: 'money', label: '$39K Banks for Senate', flow: 'money' },
+      { source: 'inner_link', target: 'yancey', type: 'money', label: '$8K Yancey campaign', flow: 'money' },
+      { source: 'mccastle', target: 'banks', type: 'money', label: '$9,450 Banks for Senate', flow: 'money' },
+      { source: 'mccastle', target: 'gay_dagnogo', type: 'money', label: '$1K Strong Women PAC', flow: 'money' },
+      { source: 'johnson_l', target: 'pca', type: 'controls', label: 'Board Secretary', flow: 'position' },
+      { source: 'inner_link', target: 'johnson_l', type: 'money', label: '$850 campaign', flow: 'money' },
 
       // Nexus 3: Police Weaponization
-      { source: 'bettison', target: 'dpsa', type: 'controls', label: 'Board Secretary' },
-      { source: 'bettison', target: 'sheffield', type: 'political', label: 'OIG probe — phone call' },
-      { source: 'fiore', target: 'banks', type: 'associate', label: 'FBI wiretap: "bid-rigging"' },
-      { source: 'spivey', target: 'fiore', type: 'associate', label: 'Op Northern Hook' },
-      { source: 'perkins_t', target: 'banks', type: 'associate', label: 'defense attorney' },
-      { source: 'perkins_t', target: 'fiore', type: 'associate', label: 'donated $500' },
-      { source: 'gay_dagnogo', target: 'perkins_t', type: 'money', label: '$750 mayor campaign' },
+      { source: 'bettison', target: 'dpsa', type: 'controls', label: 'Board Secretary', flow: 'position' },
+      { source: 'bettison', target: 'sheffield', type: 'political', label: 'OIG probe — phone call', flow: 'power' },
+      { source: 'fiore', target: 'banks', type: 'associate', label: 'FBI wiretap: "bid-rigging"', flow: 'money' },
+      { source: 'spivey', target: 'fiore', type: 'associate', label: 'Op Northern Hook', flow: 'influence' },
+      { source: 'perkins_t', target: 'banks', type: 'associate', label: 'defense attorney', flow: 'influence' },
+      { source: 'perkins_t', target: 'fiore', type: 'associate', label: 'donated $500', flow: 'money' },
+      { source: 'gay_dagnogo', target: 'perkins_t', type: 'money', label: '$750 mayor campaign', flow: 'money' },
 
       // Nexus 4: Legislative Pipeline
-      { source: 'stallworth_t', target: 'wells_stallworth', type: 'family', label: 'married' },
-      { source: 'stallworth_t', target: 'banks', type: 'political', label: 'defended at rally, $1,250' },
-      { source: 'moreland', target: 'pca', type: 'controls', label: 'Board Vice Chair' },
-      { source: 'moreland', target: 'banks', type: 'judicial', label: 'AAG argued against cert → joined board' },
-      { source: 'miller', target: 'pca', type: 'controls', label: 'Board Chair' },
+      { source: 'stallworth_t', target: 'wells_stallworth', type: 'family', label: 'married', flow: 'influence' },
+      { source: 'stallworth_t', target: 'banks', type: 'political', label: 'defended at rally, $1,250', flow: 'influence' },
+      { source: 'moreland', target: 'pca', type: 'controls', label: 'Board Vice Chair', flow: 'position' },
+      { source: 'moreland', target: 'banks', type: 'judicial', label: 'AAG argued against cert → joined board', flow: 'influence' },
+      { source: 'miller', target: 'pca', type: 'controls', label: 'Board Chair', flow: 'position' },
     ]
   };
 
@@ -315,12 +321,27 @@
   var activeNexus = { education: true, political: true, police: true, legislative: true };
   var showOwnership = false;
   var showCycles = false;
+  var activeFlows = null; // null = show all, otherwise { money: true, power: false, ... }
 
   var NEXUS_COLORS = {
     education: '#27ae60',
     political: '#2980b9',
     police: '#c0392b',
     legislative: '#f39c12',
+  };
+
+  var FLOW_COLORS = {
+    money: '#2ecc71',
+    power: '#e74c3c',
+    influence: '#3498db',
+    position: '#9b59b6',
+  };
+
+  var FLOW_ICONS = {
+    money: '💰',
+    power: '⚡',
+    influence: '🤝',
+    position: '🪑',
   };
 
   function renderGraph(container, data) {
@@ -396,6 +417,40 @@
         renderGraph(container, data);
       });
       controls.appendChild(cycBtn);
+
+      // Flow type separator
+      var sep2 = document.createElement('span');
+      sep2.textContent = '│';
+      sep2.style.cssText = 'opacity:0.3;margin:0 4px;';
+      controls.appendChild(sep2);
+
+      // Flow type label
+      var flowLabel = document.createElement('span');
+      flowLabel.textContent = 'Flows:';
+      flowLabel.style.cssText = 'font-size:12px;font-weight:600;opacity:0.7;';
+      controls.appendChild(flowLabel);
+
+      // Flow type filter buttons
+      ['money', 'power', 'influence', 'position'].forEach(function(ft) {
+        var btn = document.createElement('button');
+        btn.textContent = FLOW_ICONS[ft] + ' ' + ft.charAt(0).toUpperCase() + ft.slice(1);
+        btn.dataset.flow = ft;
+        btn.style.cssText = 'padding:4px 10px;border:2px solid ' + FLOW_COLORS[ft] +
+          ';border-radius:14px;font-size:10px;font-weight:600;cursor:pointer;transition:all 0.2s;' +
+          'background:transparent;color:' + FLOW_COLORS[ft] + ';';
+        btn.addEventListener('click', function() {
+          if (!activeFlows) {
+            activeFlows = { money: false, power: false, influence: false, position: false };
+          }
+          activeFlows[ft] = !activeFlows[ft];
+          var anyFlowActive = Object.values(activeFlows).some(function(v) { return v; });
+          if (!anyFlowActive) activeFlows = null;
+          btn.style.background = (activeFlows && activeFlows[ft]) ? FLOW_COLORS[ft] : 'transparent';
+          btn.style.color = (activeFlows && activeFlows[ft]) ? '#fff' : FLOW_COLORS[ft];
+          renderGraph(container, data);
+        });
+        controls.appendChild(btn);
+      });
 
       container.insertBefore(controls, container.firstChild);
     }
@@ -639,20 +694,73 @@
       svg.insertBefore(defs, svg.firstChild);
     }
 
+    // ── Arrow marker definitions for flow directions ────────────────
+    var defs = svg.querySelector('defs') || document.createElementNS('http://www.w3.org/2000/svg', 'defs');
+    if (!defs.parentNode) svg.insertBefore(defs, svg.firstChild);
+
+    // Create arrow markers for each flow color
+    Object.keys(FLOW_COLORS).forEach(function(ft) {
+      var marker = document.createElementNS('http://www.w3.org/2000/svg', 'marker');
+      marker.setAttribute('id', 'arrow-' + ft);
+      marker.setAttribute('viewBox', '0 0 10 10');
+      marker.setAttribute('refX', '28'); marker.setAttribute('refY', '5');
+      marker.setAttribute('markerWidth', '5'); marker.setAttribute('markerHeight', '5');
+      marker.setAttribute('orient', 'auto');
+      var arrowP = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+      arrowP.setAttribute('d', 'M 0 0 L 10 5 L 0 10 z');
+      arrowP.setAttribute('fill', FLOW_COLORS[ft]);
+      arrowP.setAttribute('opacity', '0.8');
+      marker.appendChild(arrowP);
+      defs.appendChild(marker);
+    });
+    // Default arrow
+    var defMarker = document.createElementNS('http://www.w3.org/2000/svg', 'marker');
+    defMarker.setAttribute('id', 'arrow-default');
+    defMarker.setAttribute('viewBox', '0 0 10 10');
+    defMarker.setAttribute('refX', '28'); defMarker.setAttribute('refY', '5');
+    defMarker.setAttribute('markerWidth', '4'); defMarker.setAttribute('markerHeight', '4');
+    defMarker.setAttribute('orient', 'auto');
+    var defArrowP = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+    defArrowP.setAttribute('d', 'M 0 0 L 10 5 L 0 10 z');
+    defArrowP.setAttribute('fill', '#95a5a6');
+    defArrowP.setAttribute('opacity', '0.5');
+    defMarker.appendChild(defArrowP);
+    defs.appendChild(defMarker);
+
     // ── Draw links ────────────────────────────────────────────────────
     var linkElements = [];
     filteredLinks.forEach(function(link) {
       var s = nodeMap[link.source];
       var t = nodeMap[link.target];
       if (!s || !t) return;
+
+      var flowActive = activeFlows && link.flow;
+      var isFlowMatch = !activeFlows || (activeFlows && activeFlows[link.flow]);
+      var useFlowColor = activeFlows && link.flow;
+
       var line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
       line.setAttribute('x1', s.x); line.setAttribute('y1', s.y);
       line.setAttribute('x2', t.x); line.setAttribute('y2', t.y);
-      line.setAttribute('stroke', LINK_COLORS[link.type] || '#95a5a6');
-      line.setAttribute('stroke-width', link.type === 'money' ? '3' : '1.5');
-      line.setAttribute('stroke-opacity', '0.5');
+
+      if (useFlowColor && isFlowMatch) {
+        line.setAttribute('stroke', FLOW_COLORS[link.flow]);
+        line.setAttribute('stroke-width', '3');
+        line.setAttribute('stroke-opacity', '0.8');
+        line.setAttribute('marker-end', 'url(#arrow-' + link.flow + ')');
+      } else if (activeFlows && !isFlowMatch) {
+        line.setAttribute('stroke', '#555');
+        line.setAttribute('stroke-width', '1');
+        line.setAttribute('stroke-opacity', '0.1');
+      } else {
+        line.setAttribute('stroke', LINK_COLORS[link.type] || '#95a5a6');
+        line.setAttribute('stroke-width', link.type === 'money' ? '3' : '1.5');
+        line.setAttribute('stroke-opacity', '0.5');
+        if (activeFlows) line.setAttribute('marker-end', 'url(#arrow-default)');
+      }
+
       line.dataset.source = link.source;
       line.dataset.target = link.target;
+      line.dataset.flow = link.flow || '';
       svg.appendChild(line);
       linkElements.push(line);
     });
@@ -778,10 +886,32 @@
         }
       });
 
+      // Flow summary — what flows IN and OUT of this node
+      var flowIn = { money: 0, power: 0, influence: 0, position: 0 };
+      var flowOut = { money: 0, power: 0, influence: 0, position: 0 };
+      filteredLinks.forEach(function(l) {
+        if (l.flow) {
+          if (l.target === n.id && flowIn[l.flow] !== undefined) flowIn[l.flow]++;
+          if (l.source === n.id && flowOut[l.flow] !== undefined) flowOut[l.flow]++;
+        }
+      });
+      var flowParts = [];
+      Object.keys(FLOW_COLORS).forEach(function(ft) {
+        if (flowIn[ft] || flowOut[ft]) {
+          var parts = [];
+          if (flowIn[ft]) parts.push(flowIn[ft] + ' in');
+          if (flowOut[ft]) parts.push(flowOut[ft] + ' out');
+          flowParts.push('<span style="color:' + FLOW_COLORS[ft] + '">' +
+            FLOW_ICONS[ft] + ' ' + ft + ': ' + parts.join(', ') + '</span>');
+        }
+      });
+      var flowInfo = flowParts.length ?
+        '<br><span style="font-size:10px;">' + flowParts.join(' · ') + '</span>' : '';
+
       infoPanel.innerHTML = '<strong style="font-size:14px;">' + n.label + '</strong><br>' +
         '<span style="opacity:0.7">' + n.detail + '</span><br>' +
         '<span style="opacity:0.5;font-size:10px;">' + connCount + ' connections · Nexus: ' + nexusStr + '</span>' +
-        ownershipInfo + cycleInfo +
+        flowInfo + ownershipInfo + cycleInfo +
         (n.url ? '<br><span style="opacity:0.4;font-size:10px;">Click to view page →</span>' : '');
       infoPanel.style.opacity = '1';
     }
@@ -814,6 +944,29 @@
       svg.appendChild(t);
       legendY += 20;
     });
+
+    // Flow legend when active
+    if (activeFlows) {
+      legendY += 8;
+      Object.keys(FLOW_COLORS).forEach(function(ft) {
+        if (activeFlows[ft]) {
+          var fl = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+          fl.setAttribute('x1', 14); fl.setAttribute('y1', legendY);
+          fl.setAttribute('x2', 26); fl.setAttribute('y2', legendY);
+          fl.setAttribute('stroke', FLOW_COLORS[ft]);
+          fl.setAttribute('stroke-width', '3');
+          fl.setAttribute('marker-end', 'url(#arrow-' + ft + ')');
+          svg.appendChild(fl);
+          var ftText = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+          ftText.setAttribute('x', 32); ftText.setAttribute('y', legendY + 4);
+          ftText.setAttribute('fill', FLOW_COLORS[ft]); ftText.setAttribute('font-size', '10');
+          ftText.setAttribute('font-weight', '600');
+          ftText.textContent = FLOW_ICONS[ft] + ' ' + ft.charAt(0).toUpperCase() + ft.slice(1);
+          svg.appendChild(ftText);
+          legendY += 20;
+        }
+      });
+    }
 
     // Layer legend additions
     if (showOwnership || showCycles) {
@@ -863,6 +1016,14 @@
     var layerInfo = [];
     if (showOwnership) layerInfo.push(OWNERSHIP_GROUPS.length + ' ownership groups');
     if (showCycles) layerInfo.push(OVERSIGHT_CYCLES.length + ' cycles');
+    if (activeFlows) {
+      var flowCounts = {};
+      filteredLinks.forEach(function(l) {
+        if (l.flow && activeFlows[l.flow]) flowCounts[l.flow] = (flowCounts[l.flow] || 0) + 1;
+      });
+      var fc = Object.keys(flowCounts).map(function(f) { return flowCounts[f] + ' ' + f; });
+      if (fc.length) layerInfo.push(fc.join(', '));
+    }
     countText.textContent = filteredNodes.length + ' nodes · ' + filteredLinks.length + ' edges' +
       (layerInfo.length ? ' · ' + layerInfo.join(' · ') : '');
     svg.appendChild(countText);
