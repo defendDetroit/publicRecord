@@ -146,6 +146,20 @@ The following public records document the 20-year Banks-Holland economic unit. E
 | DOE OIG Supplement (credential forgery) | Sep 17, 2026 | Filed |
 | MDE FOIA Response | Sep 25, 2026 | **Received — [21 files hosted](/evidence/mde-foia-sep25/)** |
 | Proof Packet — Banks-Holland Partnership | Sep 30, 2026 | **18 files hosted** |
+| AGC Complaints (Meihn, Hall, Moreland supplement) | Oct 4, 2026 | **Drafted — mailing Monday** |
+| AGC Notification (Crump-Gibson conflict) | Oct 4, 2026 | **Drafted — mailing Monday** |
+| [Institutional Capture Graph](/analysis/institutional-capture-graph/) | Oct 4, 2026 | **LIVE — expanding** |
+
+## Connected Federal Cases (E.D. Michigan)
+
+| Case | Subject | Key Connection |
+|------|---------|---------------|
+| *United States v. Fiore*, 16-cr-20732 | Gasper Fiore — bribery | **Banks on FBI wiretap** — "bid-rigging" in sworn affidavit |
+| *United States v. Spivey*, 2:21-cr-20490 | Andre Spivey — bribery | **Operation Northern Hook** — ONGOING FBI probe of Detroit gov + DPD |
+| *United States v. Sollars*, 19-cr-20836 | Rick Sollars — Taylor mayor | Fiore wiretap led here — 71 months for $84K bribes |
+| *Area Towing v. Sollars*, 2:19-cv-10989 | Civil case (active) | **Has FBI wiretap files** with Banks conversations (produced Sep 2025) |
+| *United States v. Johnson*, E.D. Mich. | Sen. Bert Johnson | Ghost employee — cooperator from EAA school bribery case |
+| Detroit Pension Fraud (multi-defendant) | 38+ convictions | Kilpatrick era — Stanton wore wire on Tinsley-Talabi |
 
 ## Independent Reporting
 
