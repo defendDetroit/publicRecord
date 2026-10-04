@@ -51,11 +51,21 @@ derived from biological [quorum sensing](https://sporeprint.primals.eco/methodol
 
 We measure one thing: **did the signal propagate?** Not who received it.
 
-Visitors are classified by User-Agent string into six categories: Human,
-SearchBot, AIBot, SocialBot, ScraperBot, GenericBot. A "Human" classification
-means the visitor passed three behavioral checks (non-probe path, known-browser
-UA, human-speed velocity). The methodology, including all 30 probe prefixes
-and threshold values, is
+Every request is classified by User-Agent and path into one of six categories:
+
+| Category | Action | Example |
+|----------|--------|---------|
+| **Human** | Count as signal | Modern browser UA + content path |
+| **Crawler** | Guide | Googlebot, Bingbot, YandexBot |
+| **AI Crawler** | Guide | ClaudeBot, GPTBot, OAI-SearchBot |
+| **SEO Bot** | Catalog | SemrushBot, AhrefsBot |
+| **Link Preview** | Catalog as sharing signal | iOS preview, Facebook, Skype |
+| **Scanner** | Neutralize | Empty UA, probe paths (.env, .php, wp-admin), spoofed OS |
+
+A "Human" classification means the visitor passed three filters: (1) content
+path, not a vulnerability probe, (2) modern browser User-Agent, not spoofed,
+(3) no scanner tool signatures. The methodology, including all probe path
+patterns, spoofed-OS signatures, and classification rules, is
 [published and auditable](https://sporeprint.primals.eco/methodology/signal-sensing-receptor/).
 
 ---
