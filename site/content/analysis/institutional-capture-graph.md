@@ -101,7 +101,7 @@ Two of Banks's 2016 Senate campaign endorsers were later convicted of **federal 
 | Endorser | Office | Conviction | Sentence |
 |----------|--------|-----------|----------|
 | **Bert Johnson** | MI State Senator | Ghost employee scheme (cooperator from EAA school bribery case) | 90 days |
-| **Andre Spivey** | Detroit City Councilman | Bribery conspiracy — $35,900 ([Operation Northern Hook](#nexus-3-police-weaponization)) | 24 months |
+| **Andre Spivey** | Detroit City Councilman | Bribery conspiracy — $35,900 ([Operation Northern Hook](#nexus-3-police-weaponization-the-enforcement-arm)) | 24 months |
 
 Spivey **introduced the FBI informant to other unnamed council members**, then **warned targets** and **leaked the source's identity** when the FBI approached him about cooperating.
 
