@@ -76,6 +76,27 @@ struct CommunityOverride {
     members: Vec<String>,
 }
 
+// ── Bench / lattice data (Anderson localization) ────────────────────────
+
+#[derive(Debug, Deserialize)]
+struct BenchFile {
+    bench: Vec<Bench>,
+}
+
+#[derive(Debug, Deserialize)]
+struct Bench {
+    id: String,
+    court: String,
+    division: String,
+    label: String,
+    total_judges: u32,
+    captured_judges: Vec<String>,
+    case_types: Vec<String>,
+    note: String,
+    #[serde(default)]
+    retired: bool,
+}
+
 #[derive(Debug, Deserialize)]
 struct GeoFile {
     positions: BTreeMap<String, GeoPos>,
@@ -634,6 +655,87 @@ fn write_js_communities(out: &mut String, communities: &[Community]) {
     out.push_str("  ];\n");
 }
 
+fn write_js_benches(out: &mut String, benches: &[Bench]) {
+    out.push_str("\n  var BENCHES = [\n");
+    for b in benches {
+        let captured: Vec<String> = b.captured_judges.iter()
+            .map(|j| format!("'{}'", js_string(j)))
+            .collect();
+        let case_types: Vec<String> = b.case_types.iter()
+            .map(|t| format!("'{}'", js_string(t)))
+            .collect();
+        let capture_ratio = if b.total_judges > 0 {
+            b.captured_judges.len() as f64 / b.total_judges as f64
+        } else {
+            0.0
+        };
+        out.push_str(&format!(
+            "    {{ id: '{}', court: '{}', division: '{}', label: '{}',\n",
+            js_string(&b.id), js_string(&b.court),
+            js_string(&b.division), js_string(&b.label)
+        ));
+        out.push_str(&format!(
+            "      totalJudges: {}, capturedJudges: [{}],\n",
+            b.total_judges, captured.join(", ")
+        ));
+        out.push_str(&format!(
+            "      caseTypes: [{}],\n",
+            case_types.join(", ")
+        ));
+        out.push_str(&format!(
+            "      captureRatio: {:.4}, retired: {},\n      note: '{}' }},\n",
+            capture_ratio, b.retired, js_string(&b.note)
+        ));
+    }
+    out.push_str("  ];\n");
+
+    // Compute lattice paths: for each case type, which benches handle it?
+    let mut case_type_set: BTreeSet<&str> = BTreeSet::new();
+    for b in benches {
+        for ct in &b.case_types {
+            case_type_set.insert(ct.as_str());
+        }
+    }
+    out.push_str("\n  var LATTICE_PATHS = {\n");
+    for ct in &case_type_set {
+        let bench_ids: Vec<String> = benches.iter()
+            .filter(|b| !b.retired && b.case_types.iter().any(|t| t == ct))
+            .map(|b| format!("'{}'", js_string(&b.id)))
+            .collect();
+        // Probability of hitting a captured judge for this case type
+        let active_benches: Vec<&Bench> = benches.iter()
+            .filter(|b| !b.retired && b.case_types.iter().any(|t| t == ct))
+            .collect();
+        let total_judges: u32 = active_benches.iter().map(|b| b.total_judges).sum();
+        let captured_count: usize = active_benches.iter()
+            .map(|b| b.captured_judges.len())
+            .sum();
+        let capture_prob = if total_judges > 0 {
+            captured_count as f64 / total_judges as f64
+        } else {
+            0.0
+        };
+        // Localization length: -1 / ln(1 - capture_prob)
+        let loc_length = if capture_prob > 0.0 && capture_prob < 1.0 {
+            -1.0 / (1.0 - capture_prob).ln()
+        } else if capture_prob >= 1.0 {
+            0.0
+        } else {
+            f64::INFINITY
+        };
+        let loc_str = if loc_length.is_infinite() {
+            "Infinity".to_string()
+        } else {
+            format!("{:.2}", loc_length)
+        };
+        out.push_str(&format!(
+            "    '{}': {{ benches: [{}], captureProb: {:.4}, localizationLength: {} }},\n",
+            js_string(ct), bench_ids.join(", "), capture_prob, loc_str
+        ));
+    }
+    out.push_str("  };\n");
+}
+
 fn write_js_geo(out: &mut String, geo: &GeoFile) {
     // Positions
     out.push_str("\n  var GEO_POSITIONS = {\n");
@@ -866,6 +968,8 @@ fn write_js_export(out: &mut String, version: u32) {
     flowIcons: FLOW_ICONS,
     geoTypeColors: GEO_TYPE_COLORS,
     geoFlowStyles: GEO_FLOW_STYLES,
+    benches: BENCHES,
+    latticePaths: LATTICE_PATHS,
     graphData: function() {{
       return {{ nodes: NODES, links: EDGES }};
     }},
@@ -956,6 +1060,17 @@ pub fn generate(
         }
     };
 
+    let benches: Vec<Bench> = {
+        let path = data_dir.join("benches.toml");
+        if path.exists() {
+            let text = std::fs::read_to_string(&path)?;
+            let parsed: BenchFile = toml::from_str(&text)?;
+            parsed.bench
+        } else {
+            Vec::new()
+        }
+    };
+
     let community_overrides: Vec<CommunityOverride> = {
         let path = data_dir.join("communities.toml");
         if path.exists() {
@@ -993,10 +1108,11 @@ pub fn generate(
     write_js_ownership_groups(&mut out, &ownership_groups);
     write_js_address_clusters(&mut out, &address_clusters);
     write_js_oversight_cycles(&mut out, &oversight_cycles);
+    write_js_benches(&mut out, &benches);
     write_js_geo(&mut out, &geo);
     write_js_display_constants(&mut out);
     write_js_matrix_functions(&mut out);
-    write_js_export(&mut out, 6);
+    write_js_export(&mut out, 7);
 
     out.push_str("})();\n");
 

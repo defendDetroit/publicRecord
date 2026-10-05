@@ -1,0 +1,82 @@
+# Judicial bench structure — Wayne County + surrounding courts.
+# Each bench represents a court division where cases are assigned.
+# capture_ratio is computed at build time: captured_judges / total_judges.
+#
+# Sources:
+#   Wayne County 3rd Circuit: courts.waynecounty.com (52 judges total across divisions)
+#   36th District Court: 36thdistrictcourt.org (23 judges)
+#   Wayne County Probate: courts.waynecounty.com/probate (4 judges)
+#   Oakland County Circuit: oakgov.com/courts (19 judges)
+
+[[bench]]
+id = "3rd_circuit_civil"
+court = "court_3rd"
+division = "Civil"
+label = "3rd Circuit — Civil"
+total_judges = 32
+captured_judges = ["miller"]
+case_types = ["civil", "contract", "tort"]
+note = "Miller = PCA Board Chair + Anchor Rock Foundation board. Baker College colleague of Banks."
+
+[[bench]]
+id = "3rd_circuit_criminal"
+court = "court_3rd"
+division = "Criminal"
+label = "3rd Circuit — Criminal"
+total_judges = 12
+captured_judges = ["ramsey"]
+case_types = ["criminal", "felony"]
+note = "Ramsey = Criminal Division. Daughter pushed Banks to Promise Schools. 2 family members on MacDowell payroll."
+
+[[bench]]
+id = "3rd_circuit_family"
+court = "court_3rd"
+division = "Family"
+label = "3rd Circuit — Family"
+total_judges = 8
+captured_judges = ["sabree_a"]
+case_types = ["family", "custody", "juvenile", "guardianship"]
+note = "Aliyah Sabree = Family Division. Father = County Treasurer Eric Sabree (FBI-probed). MSU Law 2010 classmate of Banks."
+
+[[bench]]
+id = "36th_district"
+court = "court_36th"
+division = "General"
+label = "36th District"
+total_judges = 23
+captured_judges = ["yancey", "sabree_adam", "perkins_sean"]
+case_types = ["misdemeanor", "traffic", "small_claims", "preliminary_exam"]
+note = "3 captured judges. All elected Nov 2022, terms end Jan 1 2029. Yancey = MacDowell Board Chair ($383.82). Adam Sabree = Eric's son, RICO counsel. Sean Perkins = Todd's brother."
+
+[[bench]]
+id = "wayne_probate"
+court = "court_probate"
+division = "Probate"
+label = "Wayne Probate"
+total_judges = 4
+captured_judges = ["perkins_d"]
+case_types = ["probate", "guardianship", "conservatorship", "estate"]
+note = "D. Perkins = Chief Judge Pro Tem (assigns cases). Serenity Guardianship jurisdiction. Banks never barred from guardianship despite 9 convictions."
+
+[[bench]]
+id = "oakland_circuit"
+court = "court_oakland"
+division = "Circuit"
+label = "Oakland Circuit"
+total_judges = 19
+captured_judges = ["langford_morris"]
+case_types = ["civil", "criminal", "family"]
+note = "Langford Morris retired 2022. Wrote foreword for Banks' book using his fake J.D. credential. Now at JAMS (private arbitration)."
+retired = true
+
+# Retired / historical bench (Vonda Evans)
+[[bench]]
+id = "3rd_circuit_retired"
+court = "court_3rd"
+division = "Retired"
+label = "3rd Circuit — Retired"
+total_judges = 0
+captured_judges = ["evans"]
+case_types = []
+note = "Vonda Evans. 21-year Banks mentor. Retired 2019 to avoid JTC suspension. Still endorsing 2022-2026."
+retired = true
