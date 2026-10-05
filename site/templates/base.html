@@ -108,6 +108,56 @@
   <nav class="site-nav" aria-label="Main navigation">
     <div class="nav-inner">
       <a href="{{ config.base_url }}" class="nav-brand">Public Record</a>
+      <div class="search-wrapper" id="search-wrapper">
+        <input type="search" id="search-input" placeholder="Search names, entities…" autocomplete="off" aria-label="Search site">
+        <div class="search-results" id="search-results"></div>
+      </div>
+      <div class="nav-links" id="nav-links">
+        <div class="nav-group" data-group="system">
+          <button class="nav-group-btn" aria-expanded="false" aria-haspopup="true">The System <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M1 1l4 4 4-4"/></svg></button>
+          <div class="nav-dropdown" role="menu">
+            <a href="{{ get_url(path='@/network/_index.md') }}" role="menuitem">
+              <strong>Network Graph</strong>
+              <span>87 nodes — interactive force layout</span>
+            </a>
+            <a href="{{ get_url(path='@/analysis/anderson-localization.md') }}" role="menuitem">
+              <strong>Court Lattice</strong>
+              <span>Anderson localization — bench capture</span>
+            </a>
+            <a href="{{ get_url(path='@/timeline/_index.md') }}" role="menuitem">
+              <strong>Timeline</strong>
+              <span>1998–2026 chronology</span>
+            </a>
+            <a href="{{ get_url(path='@/analysis/_index.md') }}" role="menuitem">
+              <strong>All Analysis</strong>
+              <span>RICO, capture, funding, allied cases</span>
+            </a>
+          </div>
+        </div>
+        <div class="nav-group" data-group="path">
+          <button class="nav-group-btn" aria-expanded="false" aria-haspopup="true">Your Path <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M1 1l4 4 4-4"/></svg></button>
+          <div class="nav-dropdown" role="menu">
+            <a href="{{ get_url(path='@/path/parents.md') }}" role="menuitem">
+              <strong>For Parents</strong>
+              <span>Your child's school — what to know</span>
+            </a>
+            <a href="{{ get_url(path='@/path/journalists.md') }}" role="menuitem">
+              <strong>For Journalists</strong>
+              <span>Evidence package — cite everything</span>
+            </a>
+            <a href="{{ get_url(path='@/path/voters.md') }}" role="menuitem">
+              <strong>For Voters</strong>
+              <span>Nov 2026 ballot — judge connections</span>
+            </a>
+            <a href="{{ get_url(path='@/path/attorneys.md') }}" role="menuitem">
+              <strong>For Attorneys</strong>
+              <span>RICO pattern — 6 predicate acts</span>
+            </a>
+          </div>
+        </div>
+        <a href="{{ get_url(path='@/validate/_index.md') }}" class="nav-standalone">Verify</a>
+        <a href="{{ get_url(path='@/contact/_index.md') }}" class="nav-standalone">Contact</a>
+      </div>
       <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark/light mode" title="Toggle theme">
         <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
         <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
@@ -115,28 +165,28 @@
       <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
-      <div class="search-wrapper" id="search-wrapper">
-        <input type="search" id="search-input" placeholder="Search names, entities…" autocomplete="off" aria-label="Search site">
-        <div class="search-results" id="search-results"></div>
-      </div>
-      <ul class="nav-links" id="nav-links">
-        <li><a href="{{ get_url(path='@/open-letters/_index.md') }}">Open Letters</a></li>
-        <li><a href="{{ get_url(path='@/evidence/_index.md') }}">Evidence</a></li>
-        <li><a href="{{ get_url(path='@/network/_index.md') }}">Network Map</a></li>
-        <li><a href="{{ get_url(path='@/analysis/_index.md') }}">Analysis</a></li>
-        <li><a href="{{ get_url(path='@/timeline/_index.md') }}">Timeline</a></li>
-        <li><a href="{{ get_url(path='@/books/_index.md') }}">Book Analysis</a></li>
-        <li><a href="{{ get_url(path='@/validate/_index.md') }}">Verify</a></li>
-        <li><a href="{{ get_url(path='@/coverage/_index.md') }}">Coverage</a></li>
-        <li><a href="{{ get_url(path='@/sources/_index.md') }}">Sources</a></li>
-        <li><a href="{{ get_url(path='@/signal/_index.md') }}">Signal</a></li>
-        <li><a href="{{ get_url(path='@/site-index/_index.md') }}">Site Index</a></li>
-        <li><a href="{{ get_url(path='@/about/_index.md') }}">About</a></li>
-        <li><a href="{{ get_url(path='@/legal/_index.md') }}">Legal</a></li>
-        <li><a href="{{ config.extra.repo_url }}" rel="noopener">Git Repo</a></li>
-      </ul>
     </div>
   </nav>
+
+  {# Mobile bottom tab bar — fixed, always visible on small screens #}
+  <div class="bottom-tabs" aria-label="Quick navigation">
+    <a href="{{ get_url(path='@/network/_index.md') }}" class="bottom-tab">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="6" cy="6" r="2"/><circle cx="18" cy="6" r="2"/><circle cx="12" cy="18" r="2"/><path d="M8 6h8M7 7.5l4.5 9M17 7.5l-4.5 9"/></svg>
+      <span>Network</span>
+    </a>
+    <a href="{{ get_url(path='@/analysis/anderson-localization.md') }}" class="bottom-tab">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+      <span>Lattice</span>
+    </a>
+    <a href="{{ get_url(path='@/timeline/_index.md') }}" class="bottom-tab">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M5 5h4M4 9h5M6 13h3M5 17h4M15 5h4M16 9h3M14 13h5M15 17h4"/></svg>
+      <span>Timeline</span>
+    </a>
+    <a href="{{ get_url(path='@/validate/_index.md') }}" class="bottom-tab">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="10"/></svg>
+      <span>Verify</span>
+    </a>
+  </div>
 
   <main id="main" class="site-main">
     {% block content %}{% endblock content %}
@@ -144,29 +194,59 @@
 
   <footer class="site-footer">
     <div class="footer-inner">
-      <p><strong>Every fact is cited. Every document is timestamped. Every correction is published.</strong></p>
-      <p style="font-size:0.9rem;">Named on this site? Something wrong? <a href="{{ get_url(path='@/contact/_index.md') }}">Contact me</a> — truth matters more than being right.</p>
-      <p>
-        Source: <a href="{{ config.extra.repo_url }}">git.primals.eco/publicRecord/detroit</a> —
-        clone the repo, verify everything.
-        <br>Certified: {{ now() | date(format='%Y-%m-%d') }} |
-        <a href="{{ get_url(path='@/validate/_index.md') }}">Verify</a> |
-        <a href="{{ config.extra.repo_url }}/src/branch/main/content-manifest.toml">BLAKE3 Manifest</a>
-      </p>
-      {% block commit_info %}{% endblock commit_info %}
-      <p class="footer-license">
-        Original analysis: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a>.
-        Court filings and public records: public domain where applicable.
-      </p>
-      <p class="footer-signal" style="font-size:0.8rem; margin-top:1.5rem; padding-top:1rem; border-top:1px solid rgba(255,255,255,0.1); color:rgba(255,255,255,0.5);">
-        <strong style="color:rgba(255,255,255,0.7);">Signal transparency:</strong>
-        This site uses receptor-based signal sensing to measure page reach and propagation timing.
-        No cookies. No tracking pixels. No identifying data collected.
-        Visitor classification (human vs. bot) uses user-agent fingerprinting only.
-        Aggregated signal data is published as part of
-        <a href="https://sporeprint.primals.eco/methodology/" style="color:rgba(255,255,255,0.6);">quorum sensing research</a>
-        at sporeprint.primals.eco.
-      </p>
+      <p class="footer-tagline"><strong>Every fact is cited. Every document is timestamped. Every correction is published.</strong></p>
+
+      <div class="footer-columns">
+        <div class="footer-col">
+          <strong class="footer-col-title">Evidence</strong>
+          <ul>
+            <li><a href="{{ get_url(path='@/open-letters/_index.md') }}">Open Letters</a></li>
+            <li><a href="{{ get_url(path='@/evidence/_index.md') }}">Evidence Library</a></li>
+            <li><a href="{{ get_url(path='@/coverage/_index.md') }}">Coverage</a></li>
+            <li><a href="{{ get_url(path='@/timeline/_index.md') }}">Timeline</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <strong class="footer-col-title">Reference</strong>
+          <ul>
+            <li><a href="{{ get_url(path='@/sources/_index.md') }}">Sources & Databases</a></li>
+            <li><a href="{{ get_url(path='@/books/_index.md') }}">Book Analysis</a></li>
+            <li><a href="{{ get_url(path='@/signal/_index.md') }}">Signal</a></li>
+            <li><a href="{{ get_url(path='@/site-index/_index.md') }}">Site Index</a></li>
+            <li><a href="{{ get_url(path='llms.txt') }}">llms.txt</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <strong class="footer-col-title">About</strong>
+          <ul>
+            <li><a href="{{ get_url(path='@/about/_index.md') }}">About This Site</a></li>
+            <li><a href="{{ get_url(path='@/legal/_index.md') }}">Legal Protections</a></li>
+            <li><a href="{{ get_url(path='@/contact/_index.md') }}">Contact</a></li>
+            <li><a href="{{ config.extra.repo_url }}" rel="noopener">Git Repository</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>
+          Source: <a href="{{ config.extra.repo_url }}">git.primals.eco/publicRecord/detroit</a> —
+          clone the repo, verify everything.
+          <br>Certified: {{ now() | date(format='%Y-%m-%d') }} |
+          <a href="{{ get_url(path='@/validate/_index.md') }}">Verify</a> |
+          <a href="{{ config.extra.repo_url }}/src/branch/main/content-manifest.toml">BLAKE3 Manifest</a>
+        </p>
+        {% block commit_info %}{% endblock commit_info %}
+        <p class="footer-license">
+          Original analysis: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a>.
+          Court filings and public records: public domain where applicable.
+        </p>
+        <p>Named on this site? Something wrong? <a href="{{ get_url(path='@/contact/_index.md') }}">Contact me</a> — truth matters more than being right.</p>
+        <p class="footer-signal">
+          <strong>Signal transparency:</strong>
+          Receptor-based signal sensing. No cookies. No tracking pixels. No identifying data.
+          <a href="https://sporeprint.primals.eco/methodology/">Methodology</a>.
+        </p>
+      </div>
     </div>
   </footer>
 
@@ -233,16 +313,88 @@
         });
       }
 
-      // Nav toggle
+      // Nav toggle (hamburger)
       var toggle = document.querySelector('.nav-toggle');
       var links = document.querySelector('.nav-links');
       if (toggle && links) {
         toggle.addEventListener('click', function() {
           var expanded = this.getAttribute('aria-expanded') === 'true';
-          this.setAttribute('aria-expanded', !expanded);
+          this.setAttribute('aria-expanded', String(!expanded));
           links.classList.toggle('open');
         });
       }
+
+      // Dropdown groups — desktop hover + click, mobile accordion
+      var groups = document.querySelectorAll('.nav-group');
+      var hoverTimer = null;
+      groups.forEach(function(group) {
+        var btn = group.querySelector('.nav-group-btn');
+        var dropdown = group.querySelector('.nav-dropdown');
+        if (!btn || !dropdown) return;
+
+        // Click toggle (works on both desktop and mobile)
+        btn.addEventListener('click', function(e) {
+          e.stopPropagation();
+          var isOpen = group.classList.contains('open');
+          // Close all other groups
+          groups.forEach(function(g) { g.classList.remove('open'); g.querySelector('.nav-group-btn').setAttribute('aria-expanded', 'false'); });
+          if (!isOpen) {
+            group.classList.add('open');
+            btn.setAttribute('aria-expanded', 'true');
+          }
+        });
+
+        // Desktop hover with delay
+        group.addEventListener('mouseenter', function() {
+          if (window.innerWidth < 768) return;
+          clearTimeout(hoverTimer);
+          groups.forEach(function(g) { g.classList.remove('open'); g.querySelector('.nav-group-btn').setAttribute('aria-expanded', 'false'); });
+          group.classList.add('open');
+          btn.setAttribute('aria-expanded', 'true');
+        });
+        group.addEventListener('mouseleave', function() {
+          if (window.innerWidth < 768) return;
+          hoverTimer = setTimeout(function() {
+            group.classList.remove('open');
+            btn.setAttribute('aria-expanded', 'false');
+          }, 150);
+        });
+
+        // Keyboard: Escape closes
+        dropdown.addEventListener('keydown', function(e) {
+          if (e.key === 'Escape') {
+            group.classList.remove('open');
+            btn.setAttribute('aria-expanded', 'false');
+            btn.focus();
+          }
+        });
+      });
+
+      // Close dropdowns on outside click
+      document.addEventListener('click', function(e) {
+        if (!e.target.closest('.nav-group')) {
+          groups.forEach(function(g) { g.classList.remove('open'); g.querySelector('.nav-group-btn').setAttribute('aria-expanded', 'false'); });
+        }
+      });
+
+      // Active group detection — highlight current section
+      var path = window.location.pathname;
+      var systemPaths = ['/network/', '/analysis/', '/timeline/'];
+      var pathPaths = ['/path/'];
+      groups.forEach(function(g) {
+        var gName = g.getAttribute('data-group');
+        var match = false;
+        if (gName === 'system') match = systemPaths.some(function(p) { return path.indexOf(p) === 0; });
+        if (gName === 'path') match = pathPaths.some(function(p) { return path.indexOf(p) === 0; });
+        if (match) g.classList.add('nav-group-active');
+      });
+
+      // Bottom tabs — highlight active
+      var tabs = document.querySelectorAll('.bottom-tab');
+      tabs.forEach(function(tab) {
+        if (path.indexOf(tab.getAttribute('href')) === 0) tab.classList.add('active');
+      });
+
       // Theme toggle
       var btn = document.getElementById('theme-toggle');
       if (btn) {
