@@ -1,0 +1,31 @@
+{# Convergence footer — shows how this page's analysis connects to other system views.
+   Usage: {% convergence(
+     topology="9 judges appear as nodes connected to court entities",
+     lattice="Capture ratios computed from these same bench compositions",
+     money="Campaign payments from Banks Strategy LLC to judges"
+   ) %}
+   Only include the views that are relevant to this page.
+#}
+<aside class="convergence-box" aria-label="Cross-references">
+  <strong class="convergence-title">Same system, other lenses:</strong>
+  <ul class="convergence-list">
+    {% if topology %}
+    <li><a href="/network/">🕸️ Topology</a> — {{ topology }}</li>
+    {% endif %}
+    {% if lattice %}
+    <li><a href="/analysis/anderson-localization/">⚛️ Lattice</a> — {{ lattice }}</li>
+    {% endif %}
+    {% if chronology %}
+    <li><a href="/timeline/">📅 Chronology</a> — {{ chronology }}</li>
+    {% endif %}
+    {% if money %}
+    <li><a href="/analysis/funding-flow/">💰 Money</a> — {{ money }}</li>
+    {% endif %}
+    {% if legal %}
+    <li><a href="/analysis/rico-pattern/">⚖️ Legal</a> — {{ legal }}</li>
+    {% endif %}
+    {% if capture %}
+    <li><a href="/analysis/institutional-capture-graph/">🏛️ Capture</a> — {{ capture }}</li>
+    {% endif %}
+  </ul>
+</aside>

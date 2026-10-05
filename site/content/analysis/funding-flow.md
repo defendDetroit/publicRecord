@@ -14,6 +14,8 @@ entities = ["MacDowell Preparatory Academy", "The Purpose Group LLC", "Purpose C
 connections = ["business entity", "financial audit", "charter authorization"]
 +++
 
+{{ lens(active="money") }}
+
 Michigan school funding follows a per-pupil model. State aid flows to the school based on enrollment. How schools allocate that funding determines what students actually receive. This analysis compares MacDowell Preparatory Academy's spending patterns to state benchmarks and peer schools.
 
 ## Spending Comparison
@@ -92,3 +94,14 @@ DPSCD (Detroit Public Schools Community District) receives a 3% authorization fe
 - MDE Financial Reports — annual spending by category for any Michigan school
 
 Every financial figure in this analysis is drawn from public records filed with the Michigan Department of Education and LARA. Clone the repository and verify independently.
+
+<aside class="convergence-box" aria-label="Cross-references">
+<strong class="convergence-title">Same system, other lenses:</strong>
+<ul class="convergence-list">
+<li><a href="/network/">🕸️ Topology</a> — Purpose Group LLC is the highest-degree entity node, connects to both schools, Banks, Holland, and all extraction edges</li>
+<li><a href="/analysis/anderson-localization/">⚛️ Lattice</a> — The extraction percentage determines school quality, which determines capture effectiveness</li>
+<li><a href="/timeline/">📅 Chronology</a> — LLC formed before first charter, the extraction structure preceded the schools</li>
+<li><a href="/analysis/rico-pattern/">⚖️ Legal</a> — Money laundering (18 USC 1956), predicate act 2 in the RICO pattern</li>
+<li><a href="/analysis/institutional-capture-graph/">🏛️ Capture</a> — Financial extraction is the revenue engine (Nexus 1) that funds all other nexus types</li>
+</ul>
+</aside>

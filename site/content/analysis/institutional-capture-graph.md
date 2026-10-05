@@ -14,6 +14,8 @@ entities = ["MacDowell Preparatory Academy", "Purpose Charter Academy", "Purpose
 connections = ["institutional capture", "credential washing", "police weaponization", "political nexus", "education fraud", "FBI wiretap"]
 +++
 
+{{ lens(active="capture") }}
+
 <script src="/js/network-data.js"></script>
 <div id="network-graph" style="margin: 2rem 0;"></div>
 <script src="/js/network-graph.js"></script>
@@ -263,3 +265,14 @@ This page will continue expanding as the investigation develops. Each node added
 *Every name on this page appears in public records. Every fact is sourced to court documents, campaign finance filings, FOIA responses, news reporting, or government databases. Named here? Something wrong? [Contact me](/contact/) — truth matters more than being right.*
 
 *Sources: M.L. Elrick / Detroit Free Press, Rita Williams / [Clutch Justice](https://clutchjustice.com), BridgeDetroit, Chalkbeat Detroit, TransparencyUSA, CourtListener, MDOC OTIS, Michigan SOS Campaign Finance, NCES, SchoolDigger, [Michigan LARA Business Entity Search](https://mibusinessregistry.lara.state.mi.us/search/business).*
+
+<aside class="convergence-box" aria-label="Cross-references">
+<strong class="convergence-title">Same system, other lenses:</strong>
+<ul class="convergence-list">
+<li><a href="/network/">🕸️ Topology</a> — Same 87 nodes viewed without nexus overlay, raw connection topology</li>
+<li><a href="/analysis/anderson-localization/">⚛️ Lattice</a> — The judicial nexus nodes create the disorder that localizes cases in the lattice</li>
+<li><a href="/timeline/">📅 Chronology</a> — Each nexus type assembled in a different era, education first, judicial last</li>
+<li><a href="/analysis/funding-flow/">💰 Money</a> — Nexus 1 (education) generates revenue; Nexuses 2-4 protect the extraction</li>
+<li><a href="/analysis/rico-pattern/">⚖️ Legal</a> — Each nexus type maps to a class of RICO predicate acts</li>
+</ul>
+</aside>

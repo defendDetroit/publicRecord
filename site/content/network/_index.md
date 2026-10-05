@@ -7,6 +7,8 @@ sort_by = "weight"
 keywords = "Brian Banks network map, Detroit charter school racketeering network, Wayne County judges Brian Banks, Purpose Charter Academy connections, MacDowell Preparatory Academy board, Banks enterprise diagram"
 +++
 
+{{ lens(active="topology") }}
+
 This is not one bad actor. It is a **network** — convicted felons, judges, attorneys, and institutions connected through boards, campaigns, property, and family ties.
 
 <script src="/js/network-data.js"></script>
@@ -248,6 +250,17 @@ The son is not responsible for the sins of the father. But when the son inherits
 - **[Institutional Actors](/network/institutional/)** — MDE officials, board presidents, and the cover-up chain
 - **[Professional Enablers](/network/professional-enablers/)** — Attorneys who organized the shell structure
 - **[Pattern Analysis](/analysis/)** — RICO pattern, institutional capture, allied cases, CBC events
+
+<aside class="convergence-box" aria-label="Cross-references">
+<strong class="convergence-title">Same system, other lenses:</strong>
+<ul class="convergence-list">
+<li><a href="/analysis/anderson-localization/">⚛️ Lattice</a> — Courts appear as lattice sites, judges as disorder potential trapping cases</li>
+<li><a href="/timeline/">📅 Chronology</a> — Every edge has a date, the network assembles over 14 years in the timeline</li>
+<li><a href="/analysis/funding-flow/">💰 Money</a> — Financial edges show $4.9M/yr flowing through the LLC extraction layer</li>
+<li><a href="/analysis/rico-pattern/">⚖️ Legal</a> — The topology IS the enterprise structure, nodes and edges map to RICO elements</li>
+<li><a href="/analysis/institutional-capture-graph/">🏛️ Capture</a> — Community detection reveals the 4 nexus types as natural graph clusters</li>
+</ul>
+</aside>
 
 ---
 

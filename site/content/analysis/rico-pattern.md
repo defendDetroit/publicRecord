@@ -15,6 +15,8 @@ courts = ["Wayne County 3rd Circuit Court", "36th District Court", "Wayne County
 connections = ["RICO predicate", "credential fraud", "campaign finance", "business entity", "board membership", "criminal record", "charter authorization", "family"]
 +++
 
+{{ lens(active="legal") }}
+
 This page presents the complainant's analysis of documented relationships and financial flows, organized under the framework of 18 U.S.C. § 1961 (RICO). **The records are public. The relationships are documented. The pattern analysis is the complainant's inference, submitted to federal agencies for determination.** Whether these facts constitute racketeering is a legal conclusion that only a court or prosecutorial authority can make.
 
 {{ status(level="filed", note="Federal master packet submitted to 8 agencies Sep 22, 2026") }}
@@ -218,6 +220,17 @@ See: [Timeline](/timeline/) for chronological documentation.
 | BMF connection | PACER — Case 2:05-cr-80955 |
 | Judicial connections | MI campaign finance — {{ source(key="cfrs") }} |
 | PCA Board | [purposecharteracademy.com/boardofdirectors](https://www.purposecharteracademy.com/boardofdirectors) |
+
+<aside class="convergence-box" aria-label="Cross-references">
+<strong class="convergence-title">Same system, other lenses:</strong>
+<ul class="convergence-list">
+<li><a href="/network/">🕸️ Topology</a> — Enterprise principals, judges, and entities form the core cluster in the 87-node network graph</li>
+<li><a href="/analysis/anderson-localization/">⚛️ Lattice</a> — Judicial capture creates disorder that localizes cases, the mechanism protecting the enterprise</li>
+<li><a href="/timeline/">📅 Chronology</a> — 14 years of predicate acts visible as a continuous timeline from 2010 to 2026</li>
+<li><a href="/analysis/funding-flow/">💰 Money</a> — $4.9M/yr extraction flow, the financial substrate of every predicate act</li>
+<li><a href="/analysis/institutional-capture-graph/">🏛️ Capture</a> — Each nexus type corresponds to a class of predicate acts</li>
+</ul>
+</aside>
 
 ---
 

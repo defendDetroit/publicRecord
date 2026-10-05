@@ -7,6 +7,8 @@ sort_by = "date"
 keywords = "Brian Banks criminal history timeline, Purpose Charter Academy timeline, Brian Banks charter school 2017, Cylenthia Miller election 2026, Brian Banks 1998 convictions, Brian Banks resignation Michigan House, Detroit charter school corruption timeline, Wayne County judges Banks network"
 +++
 
+{{ lens(active="chronology") }}
+
 <div id="interactive-timeline"></div>
 <script src="/js/timeline-graph.js" defer></script>
 <noscript>

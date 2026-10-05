@@ -382,6 +382,54 @@ section h2 {
   .footer-col { text-align: center; }
 }
 
+/* Lens bar — system view switcher */
+.lens-bar {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 0.35rem;
+  padding: 0.5rem 0.75rem; margin: 0 0 1.5rem 0;
+  background: var(--bg-alt); border: 1px solid var(--border);
+  border-radius: var(--radius); font-size: 0.82rem;
+}
+.lens-label {
+  font-weight: 600; color: var(--text-muted); font-size: 0.75rem;
+  text-transform: uppercase; letter-spacing: 0.04em; margin-right: 0.25rem;
+}
+.lens-item {
+  display: inline-flex; align-items: center; gap: 0.25rem;
+  padding: 0.25rem 0.55rem; border-radius: 14px;
+  color: var(--text-muted); text-decoration: none;
+  border: 1px solid transparent;
+  transition: all 0.15s; font-weight: 500; white-space: nowrap;
+}
+.lens-item:hover { color: var(--text); background: var(--bg); border-color: var(--border); text-decoration: none; }
+.lens-active {
+  color: var(--link) !important; background: var(--bg);
+  border-color: var(--link) !important; font-weight: 600;
+}
+.lens-icon { font-size: 0.9em; }
+@media (max-width: 600px) {
+  .lens-bar { gap: 0.25rem; padding: 0.4rem 0.5rem; }
+  .lens-item { padding: 0.2rem 0.4rem; font-size: 0.78rem; }
+}
+
+/* Convergence cross-reference box */
+.convergence-box {
+  margin: 2rem 0; padding: 1rem 1.25rem;
+  background: var(--bg-alt); border: 1px solid var(--border);
+  border-radius: var(--radius); border-left: 3px solid var(--link);
+}
+.convergence-title {
+  display: block; font-size: 0.82rem; text-transform: uppercase;
+  letter-spacing: 0.04em; color: var(--text); margin-bottom: 0.5rem;
+}
+.convergence-list { list-style: none; margin: 0; padding: 0; }
+.convergence-list li {
+  padding: 0.3rem 0; font-size: 0.88rem; color: var(--text-muted);
+  border-bottom: 1px solid var(--border);
+}
+.convergence-list li:last-child { border-bottom: none; }
+.convergence-list a { font-weight: 600; text-decoration: none; }
+.convergence-list a:hover { text-decoration: underline; }
+
 /* Provenance footer on pages */
 .page-footer {
   margin-top: 3rem;

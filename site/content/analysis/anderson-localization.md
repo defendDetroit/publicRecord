@@ -14,6 +14,8 @@ entities = ["Wayne County 3rd Circuit Court", "36th District Court", "Wayne Coun
 connections = ["judicial capture", "bench composition", "case assignment", "Anderson localization"]
 +++
 
+{{ lens(active="lattice") }}
+
 ## The Physics
 
 In 1958, physicist Philip W. Anderson showed that **disorder in a crystal lattice prevents electrons from propagating**. Instead of flowing through the material, electrons become trapped — *localized* — near the defect sites. The stronger the disorder, the shorter the distance an electron can travel before it stops.
@@ -144,6 +146,17 @@ Anderson localization disappears when **disorder is removed**. The judicial equi
 Options 1 and 2 require the captured judges to acknowledge their connections. The [documented evidence](/network/judges/) shows they have not done so.
 
 Option 3 is the Anderson localization equivalent of **increasing dimensionality** — adding new propagation channels that bypass the disordered sites entirely.
+
+<aside class="convergence-box" aria-label="Cross-references">
+<strong class="convergence-title">Same system, other lenses:</strong>
+<ul class="convergence-list">
+<li><a href="/network/">🕸️ Topology</a> — 9 judges appear as nodes connected to court_3rd, court_36th, court_probate, court_oakland via bench edges</li>
+<li><a href="/timeline/">📅 Chronology</a> — All 36th District judges elected Nov 2022, coordinated bench capture visible in the timeline</li>
+<li><a href="/analysis/funding-flow/">💰 Money</a> — Campaign payments from Banks Strategy LLC flow through the same judges who sit on these benches</li>
+<li><a href="/analysis/rico-pattern/">⚖️ Legal</a> — Judicial connections form predicate acts 3 in the RICO pattern</li>
+<li><a href="/analysis/institutional-capture-graph/">🏛️ Capture</a> — Judges are nexus nodes in the 4-type institutional capture graph</li>
+</ul>
+</aside>
 
 ---
 
