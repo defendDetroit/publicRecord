@@ -58,6 +58,24 @@ struct OversightCycle {
     note: String,
 }
 
+// ── Community overlay (optional label overrides for auto-detected communities) ──
+
+#[derive(Debug, Deserialize)]
+struct CommunitiesFile {
+    #[serde(default)]
+    community: Vec<CommunityOverride>,
+}
+
+#[derive(Debug, Deserialize)]
+struct CommunityOverride {
+    id: String,
+    label: String,
+    #[serde(default)]
+    color: Option<String>,
+    #[serde(default)]
+    members: Vec<String>,
+}
+
 #[derive(Debug, Deserialize)]
 struct GeoFile {
     positions: BTreeMap<String, GeoPos>,
@@ -139,6 +157,7 @@ struct VizNode {
     nexus: Vec<String>,
     dynasty: Option<String>,
     era: Option<String>,
+    community: usize,
 }
 
 fn resolve_nodes(config: &Config, edges: &[GraphEdge]) -> Vec<VizNode> {
@@ -173,6 +192,7 @@ fn resolve_nodes(config: &Config, edges: &[GraphEdge]) -> Vec<VizNode> {
             nexus: actor.nexus.clone(),
             dynasty: actor.dynasty.clone(),
             era: actor.era.clone(),
+            community: 0,
         });
         seen_ids.insert(id);
     }
@@ -205,6 +225,7 @@ fn resolve_nodes(config: &Config, edges: &[GraphEdge]) -> Vec<VizNode> {
             nexus: entity.nexus.clone(),
             dynasty: entity.dynasty.clone(),
             era: entity.era.clone(),
+            community: 0,
         });
         seen_ids.insert(id);
     }
@@ -223,6 +244,7 @@ fn resolve_nodes(config: &Config, edges: &[GraphEdge]) -> Vec<VizNode> {
                     nexus: Vec::new(),
                     dynasty: None,
                     era: None,
+                    community: 0,
                 });
                 seen_ids.insert(endpoint.clone());
             }
@@ -279,6 +301,234 @@ fn resolve_edges(edges: &[GraphEdge], node_ids: &BTreeSet<String>) -> Vec<VizEdg
     viz_edges
 }
 
+// ── Louvain community detection ─────────────────────────────────────────
+
+struct Community {
+    id: usize,
+    label: String,
+    members: Vec<String>,
+    color: String,
+}
+
+/// Louvain modularity optimization — assigns each node a community index.
+/// Returns community assignments (indexed by node position in `nodes` slice)
+/// and the list of detected communities.
+fn compute_communities(
+    nodes: &mut [VizNode],
+    edges: &[VizEdge],
+    overrides: &[CommunityOverride],
+) -> Vec<Community> {
+    let n = nodes.len();
+    if n == 0 {
+        return Vec::new();
+    }
+
+    // Build index: node_id → position (owned keys to avoid borrow conflicts)
+    let id_to_idx: BTreeMap<String, usize> = nodes.iter().enumerate()
+        .map(|(i, nd)| (nd.id.clone(), i))
+        .collect();
+
+    // Adjacency as edge weights (undirected, multi-edges sum)
+    let mut adj: Vec<Vec<(usize, f64)>> = vec![Vec::new(); n];
+    let mut total_weight = 0.0_f64;
+    for e in edges {
+        if let (Some(&si), Some(&ti)) = (id_to_idx.get(&e.source), id_to_idx.get(&e.target)) {
+            if si != ti {
+                adj[si].push((ti, 1.0));
+                adj[ti].push((si, 1.0));
+                total_weight += 1.0;
+            }
+        }
+    }
+    let m = total_weight;
+    if m == 0.0 {
+        for (i, nd) in nodes.iter_mut().enumerate() {
+            nd.community = i;
+        }
+        return nodes.iter().map(|nd| Community {
+            id: nd.community,
+            label: nd.label.clone(),
+            members: vec![nd.id.clone()],
+            color: String::new(),
+        }).collect();
+    }
+
+    // Degree of each node
+    let k: Vec<f64> = adj.iter()
+        .map(|neighbors| neighbors.iter().map(|(_, w)| w).sum())
+        .collect();
+
+    // Initialize: each node in its own community
+    let mut comm: Vec<usize> = (0..n).collect();
+    let mut sigma_tot: Vec<f64> = k.clone();
+
+    // Iterate until no improvement
+    let mut improved = true;
+    let mut pass = 0;
+    while improved && pass < 20 {
+        improved = false;
+        pass += 1;
+        for i in 0..n {
+            let ci = comm[i];
+            let mut comm_edges: BTreeMap<usize, f64> = BTreeMap::new();
+            for &(j, w) in &adj[i] {
+                *comm_edges.entry(comm[j]).or_insert(0.0) += w;
+            }
+            let ki = k[i];
+            let ki_in_current = comm_edges.get(&ci).copied().unwrap_or(0.0);
+            let remove_cost = ki_in_current / m - (sigma_tot[ci] * ki) / (2.0 * m * m);
+
+            let mut best_gain = 0.0;
+            let mut best_comm = ci;
+            for (&cj, &ki_in_cj) in &comm_edges {
+                if cj == ci { continue; }
+                let gain = ki_in_cj / m - (sigma_tot[cj] * ki) / (2.0 * m * m) - remove_cost;
+                if gain > best_gain {
+                    best_gain = gain;
+                    best_comm = cj;
+                }
+            }
+
+            if best_comm != ci {
+                sigma_tot[ci] -= ki;
+                sigma_tot[best_comm] += ki;
+                comm[i] = best_comm;
+                improved = true;
+            }
+        }
+    }
+
+    // Renumber communities to be contiguous 0..N
+    let mut label_map: BTreeMap<usize, usize> = BTreeMap::new();
+    let mut next_label = 0usize;
+    for &c in &comm {
+        if !label_map.contains_key(&c) {
+            label_map.insert(c, next_label);
+            next_label += 1;
+        }
+    }
+    for c in &mut comm {
+        *c = label_map[c];
+    }
+
+    // Merge small communities (< 3 members) into most-connected neighbor
+    let min_size = 3;
+    loop {
+        let num_c = *comm.iter().max().unwrap_or(&0) + 1;
+        let mut sizes: Vec<usize> = vec![0; num_c];
+        for &c in &comm {
+            sizes[c] += 1;
+        }
+
+        // Find a small community to merge
+        let small = (0..num_c).find(|&c| sizes[c] > 0 && sizes[c] < min_size);
+        let Some(sc) = small else { break };
+
+        // Find the large community most connected to this small one
+        let mut cross_edges: BTreeMap<usize, usize> = BTreeMap::new();
+        for i in 0..n {
+            if comm[i] != sc { continue; }
+            for &(j, _) in &adj[i] {
+                let cj = comm[j];
+                if cj != sc && sizes[cj] >= min_size {
+                    *cross_edges.entry(cj).or_insert(0) += 1;
+                }
+            }
+        }
+        let target = cross_edges.into_iter()
+            .max_by_key(|&(_, count)| count)
+            .map(|(c, _)| c);
+
+        if let Some(tc) = target {
+            for c in &mut comm {
+                if *c == sc { *c = tc; }
+            }
+        } else {
+            // No large neighbor — merge into the largest community overall
+            let largest = (0..num_c).max_by_key(|&c| sizes[c]).unwrap_or(0);
+            if largest != sc {
+                for c in &mut comm {
+                    if *c == sc { *c = largest; }
+                }
+            } else {
+                break;
+            }
+        }
+    }
+
+    // Re-renumber after merging
+    label_map.clear();
+    next_label = 0;
+    for &c in &comm {
+        if !label_map.contains_key(&c) {
+            label_map.insert(c, next_label);
+            next_label += 1;
+        }
+    }
+    for c in &mut comm {
+        *c = label_map[c];
+    }
+
+    // Assign community to nodes
+    for (i, nd) in nodes.iter_mut().enumerate() {
+        nd.community = comm[i];
+    }
+
+    // Build community list with auto-labels from highest-degree member
+    let num_communities = next_label;
+    let mut community_members: Vec<Vec<String>> = vec![Vec::new(); num_communities];
+    for nd in nodes.iter() {
+        community_members[nd.community].push(nd.id.clone());
+    }
+
+    let palette = [
+        "#e74c3c", "#2980b9", "#27ae60", "#f39c12", "#8e44ad",
+        "#1abc9c", "#d35400", "#c0392b", "#2c3e50", "#16a085",
+        "#e67e22", "#9b59b6", "#3498db", "#e91e63",
+    ];
+    let mut communities: Vec<Community> = Vec::new();
+    for ci in 0..num_communities {
+        let members = &community_members[ci];
+        let best_member = members.iter()
+            .max_by(|a, b| {
+                let da = id_to_idx.get(a.as_str()).map(|&i| k[i]).unwrap_or(0.0);
+                let db = id_to_idx.get(b.as_str()).map(|&i| k[i]).unwrap_or(0.0);
+                da.partial_cmp(&db).unwrap_or(std::cmp::Ordering::Equal)
+            })
+            .unwrap();
+        let best_idx = id_to_idx[best_member.as_str()];
+        let auto_label = format!("{} cluster", nodes[best_idx].label);
+
+        communities.push(Community {
+            id: ci,
+            label: auto_label,
+            members: members.clone(),
+            color: palette[ci % palette.len()].to_string(),
+        });
+    }
+
+    // Apply overrides from communities.toml
+    for ov in overrides {
+        if let Some(c) = communities.iter_mut().find(|c| c.id.to_string() == ov.id) {
+            c.label.clone_from(&ov.label);
+            if let Some(ref color) = ov.color {
+                c.color.clone_from(color);
+            }
+        } else if !ov.members.is_empty() {
+            if let Some(c) = communities.iter_mut().find(|c| {
+                ov.members.iter().all(|m| c.members.contains(m))
+            }) {
+                c.label.clone_from(&ov.label);
+                if let Some(ref color) = ov.color {
+                    c.color.clone_from(color);
+                }
+            }
+        }
+    }
+
+    communities
+}
+
 // ── JavaScript output ───────────────────────────────────────────────────
 
 fn js_string(s: &str) -> String {
@@ -300,9 +550,10 @@ fn write_js_nodes(out: &mut String, nodes: &[VizNode]) {
         let nexus_str: Vec<String> = n.nexus.iter().map(|s| format!("'{}'", js_string(s))).collect();
         out.push_str(&format!("      nexus: [{}],\n", nexus_str.join(", ")));
         out.push_str(&format!(
-            "      dynasty: {}, era: {} }},\n",
+            "      dynasty: {}, era: {}, community: {} }},\n",
             n.dynasty.as_ref().map_or("null".to_string(), |d| format!("'{}'", js_string(d))),
-            n.era.as_ref().map_or("null".to_string(), |e| format!("'{}'", js_string(e)))
+            n.era.as_ref().map_or("null".to_string(), |e| format!("'{}'", js_string(e))),
+            n.community
         ));
     }
     out.push_str("  ];\n");
@@ -366,6 +617,18 @@ fn write_js_oversight_cycles(out: &mut String, cycles: &[OversightCycle]) {
         out.push_str(&format!(
             "    {{ id: '{}', label: '{}',\n      path: [{}],\n      note: '{}' }},\n",
             js_string(&c.id), js_string(&c.label), path.join(", "), js_string(&c.note)
+        ));
+    }
+    out.push_str("  ];\n");
+}
+
+fn write_js_communities(out: &mut String, communities: &[Community]) {
+    out.push_str("\n  var COMMUNITIES = [\n");
+    for c in communities {
+        let members: Vec<String> = c.members.iter().map(|m| format!("'{}'", js_string(m))).collect();
+        out.push_str(&format!(
+            "    {{ id: {}, label: '{}',\n      members: [{}],\n      color: '{}' }},\n",
+            c.id, js_string(&c.label), members.join(", "), js_string(&c.color)
         ));
     }
     out.push_str("  ];\n");
@@ -589,6 +852,7 @@ fn write_js_export(out: &mut String, version: u32) {
   var network = {{
     nodes: NODES,
     edges: EDGES,
+    communities: COMMUNITIES,
     ownershipGroups: OWNERSHIP_GROUPS,
     addressClusters: ADDRESS_CLUSTERS,
     oversightCycles: OVERSIGHT_CYCLES,
@@ -692,10 +956,24 @@ pub fn generate(
         }
     };
 
+    let community_overrides: Vec<CommunityOverride> = {
+        let path = data_dir.join("communities.toml");
+        if path.exists() {
+            let text = std::fs::read_to_string(&path)?;
+            let parsed: CommunitiesFile = toml::from_str(&text)?;
+            parsed.community
+        } else {
+            Vec::new()
+        }
+    };
+
     // Resolve nodes and edges
-    let nodes = resolve_nodes(config, edges);
+    let mut nodes = resolve_nodes(config, edges);
     let node_ids: BTreeSet<String> = nodes.iter().map(|n| n.id.clone()).collect();
     let viz_edges = resolve_edges(edges, &node_ids);
+
+    // Run Louvain community detection
+    let communities = compute_communities(&mut nodes, &viz_edges, &community_overrides);
 
     // Generate JavaScript
     let mut out = String::with_capacity(64 * 1024);
@@ -711,13 +989,14 @@ pub fn generate(
 
     write_js_nodes(&mut out, &nodes);
     write_js_edges(&mut out, &viz_edges);
+    write_js_communities(&mut out, &communities);
     write_js_ownership_groups(&mut out, &ownership_groups);
     write_js_address_clusters(&mut out, &address_clusters);
     write_js_oversight_cycles(&mut out, &oversight_cycles);
     write_js_geo(&mut out, &geo);
     write_js_display_constants(&mut out);
     write_js_matrix_functions(&mut out);
-    write_js_export(&mut out, 5);
+    write_js_export(&mut out, 6);
 
     out.push_str("})();\n");
 

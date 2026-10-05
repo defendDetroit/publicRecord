@@ -17,6 +17,7 @@
   var OWNERSHIP_GROUPS = DN.ownershipGroups || [];
   var ADDRESS_CLUSTERS = DN.addressClusters || [];
   var OVERSIGHT_CYCLES = DN.oversightCycles || [];
+  var COMMUNITIES = DN.communities || [];
 
   // ── Nexus filter state ─────────────────────────────────────────────
   var activeNexus = { education: true, political: true, enforcement: true, weaponization: true, legislative: true };
@@ -25,6 +26,10 @@
   var showCycles = false;
   var activeFlows = null;
   var activeDynasty = null;
+
+  // ── Collapse state ─────────────────────────────────────────────────
+  var collapseStrategy = null; // null | 'community' | 'ownership' | 'address' | 'dynasty'
+  var expandedGroups = {};     // group id → true for expanded groups
 
   var DYNASTY_COLORS = {
     kilpatrick: '#a855f7',
@@ -193,6 +198,57 @@
         controls.appendChild(btn);
       });
 
+      // Collapse separator
+      var sep3 = document.createElement('span');
+      sep3.textContent = '│';
+      sep3.style.cssText = 'opacity:0.3;margin:0 4px;';
+      controls.appendChild(sep3);
+
+      // Collapse dropdown
+      var collapseWrap = document.createElement('span');
+      collapseWrap.style.cssText = 'position:relative;display:inline-block;';
+      var collapseBtn = document.createElement('button');
+      collapseBtn.textContent = '◈ Collapse';
+      collapseBtn.style.cssText = 'padding:4px 12px;border:2px solid #1abc9c;border-radius:14px;font-size:11px;font-weight:600;cursor:pointer;transition:all 0.2s;background:transparent;color:#1abc9c;';
+      collapseWrap.appendChild(collapseBtn);
+
+      var collapseMenu = document.createElement('div');
+      collapseMenu.style.cssText = 'display:none;position:absolute;top:100%;left:0;background:rgba(0,0,0,0.92);border:1px solid #1abc9c;border-radius:8px;padding:4px 0;z-index:20;min-width:140px;margin-top:4px;';
+      var strategies = [
+        { id: null, label: 'Off (all nodes)' },
+        { id: 'community', label: '◈ Community' },
+        { id: 'ownership', label: '⬡ Ownership' },
+        { id: 'address', label: '📍 Address' },
+        { id: 'dynasty', label: '👑 Dynasty' }
+      ];
+      strategies.forEach(function(s) {
+        var item = document.createElement('div');
+        item.textContent = s.label;
+        item.style.cssText = 'padding:6px 14px;cursor:pointer;font-size:11px;color:#fff;transition:background 0.15s;white-space:nowrap;';
+        item.addEventListener('mouseenter', function() { item.style.background = 'rgba(26,188,156,0.3)'; });
+        item.addEventListener('mouseleave', function() { item.style.background = 'transparent'; });
+        item.addEventListener('click', function(e) {
+          e.stopPropagation();
+          collapseStrategy = s.id;
+          expandedGroups = {};
+          collapseMenu.style.display = 'none';
+          collapseBtn.style.background = s.id ? '#1abc9c' : 'transparent';
+          collapseBtn.style.color = s.id ? '#fff' : '#1abc9c';
+          collapseBtn.textContent = s.id ? '◈ ' + s.label.replace(/^[^\s]+\s/, '') : '◈ Collapse';
+          renderGraph(container, data);
+        });
+        collapseMenu.appendChild(item);
+      });
+      collapseWrap.appendChild(collapseMenu);
+
+      collapseBtn.addEventListener('click', function(e) {
+        e.stopPropagation();
+        collapseMenu.style.display = collapseMenu.style.display === 'none' ? 'block' : 'none';
+      });
+      document.addEventListener('click', function() { collapseMenu.style.display = 'none'; });
+
+      controls.appendChild(collapseWrap);
+
       container.insertBefore(controls, container.firstChild);
     }
 
@@ -208,6 +264,120 @@
     var filteredLinks = data.links.filter(function(l) {
       return visibleIds[l.source] && visibleIds[l.target];
     });
+
+    // ── Collapse aggregation ─────────────────────────────────────────
+    if (collapseStrategy) {
+      var groups = [];
+      if (collapseStrategy === 'community') {
+        groups = COMMUNITIES.map(function(c) {
+          return { id: 'comm_' + c.id, label: c.label, members: c.members, color: c.color };
+        });
+      } else if (collapseStrategy === 'ownership') {
+        groups = OWNERSHIP_GROUPS.map(function(g) {
+          return { id: 'own_' + g.id, label: g.label, members: g.members, color: g.stroke.replace(/rgba?\([^)]+\)/, '#e74c3c') };
+        });
+      } else if (collapseStrategy === 'address') {
+        groups = ADDRESS_CLUSTERS.map(function(a) {
+          return { id: 'addr_' + a.id, label: a.label, members: a.members, color: a.stroke.replace(/rgba?\([^)]+\)/, '#d35400') };
+        });
+      } else if (collapseStrategy === 'dynasty') {
+        var dynGroups = {};
+        filteredNodes.forEach(function(n) {
+          var dy = n.dynasty || '_ungrouped';
+          if (!dynGroups[dy]) dynGroups[dy] = [];
+          dynGroups[dy].push(n.id);
+        });
+        Object.keys(dynGroups).forEach(function(dy) {
+          if (dy === '_ungrouped' || dynGroups[dy].length < 2) return;
+          groups.push({
+            id: 'dyn_' + dy,
+            label: (DYNASTY_LABELS[dy] || dy) + ' dynasty',
+            members: dynGroups[dy],
+            color: DYNASTY_COLORS[dy] || '#7f8c8d'
+          });
+        });
+      }
+
+      // Build: which nodes are assigned to a collapsed group?
+      var nodeToGroup = {};
+      var groupedNodeIds = {};
+      groups.forEach(function(g) {
+        if (expandedGroups[g.id]) return;
+        g.members.forEach(function(mid) {
+          if (visibleIds[mid]) {
+            nodeToGroup[mid] = g.id;
+            groupedNodeIds[mid] = true;
+          }
+        });
+      });
+
+      // Build super-nodes for collapsed groups
+      var superNodes = [];
+      var superNodeMap = {};
+      groups.forEach(function(g) {
+        if (expandedGroups[g.id]) return;
+        var memberNodes = g.members.filter(function(m) { return visibleIds[m]; });
+        if (memberNodes.length === 0) return;
+        var edgeCount = 0;
+        filteredLinks.forEach(function(l) {
+          if (nodeToGroup[l.source] === g.id || nodeToGroup[l.target] === g.id) edgeCount++;
+        });
+        superNodes.push({
+          id: g.id,
+          label: g.label,
+          tier: 3,
+          type: 'super',
+          detail: memberNodes.length + ' nodes, ' + edgeCount + ' connections',
+          url: null,
+          nexus: [],
+          dynasty: null,
+          era: null,
+          community: -1,
+          _isSuper: true,
+          _members: memberNodes,
+          _color: g.color,
+          _memberCount: memberNodes.length
+        });
+        superNodeMap[g.id] = true;
+      });
+
+      // Replace grouped nodes with super-nodes; keep ungrouped nodes
+      var ungroupedNodes = filteredNodes.filter(function(n) { return !groupedNodeIds[n.id]; });
+      filteredNodes = ungroupedNodes.concat(superNodes);
+
+      // Rebuild visibleIds
+      visibleIds = {};
+      filteredNodes.forEach(function(n) { visibleIds[n.id] = true; });
+
+      // Remap edges: grouped node → its super-node
+      filteredLinks = filteredLinks.map(function(l) {
+        var src = nodeToGroup[l.source] || l.source;
+        var tgt = nodeToGroup[l.target] || l.target;
+        return { source: src, target: tgt, type: l.type, flow: l.flow, label: l.label, amount: l.amount };
+      }).filter(function(l) {
+        return l.source !== l.target && visibleIds[l.source] && visibleIds[l.target];
+      });
+
+      // Deduplicate edges between same pair of super-nodes
+      var edgeKey = {};
+      var deduped = [];
+      filteredLinks.forEach(function(l) {
+        var k = l.source < l.target ? l.source + '|' + l.target : l.target + '|' + l.source;
+        if (!edgeKey[k]) {
+          edgeKey[k] = { source: l.source, target: l.target, type: l.type, flow: l.flow, label: '', amount: null, _count: 1 };
+          deduped.push(edgeKey[k]);
+        } else {
+          edgeKey[k]._count++;
+          if (l.amount && (!edgeKey[k].amount || l.amount > edgeKey[k].amount)) {
+            edgeKey[k].amount = l.amount;
+          }
+        }
+      });
+      deduped.forEach(function(l) {
+        if (l._count > 1) l.label = l._count + ' connections';
+      });
+      filteredLinks = deduped;
+    }
 
     // ── SVG setup ─────────────────────────────────────────────────────
     var existingSvg = container.querySelector('svg');
@@ -236,13 +406,17 @@
     var nodeMap = {};
     nodes.forEach(function(n) { nodeMap[n.id] = n; });
 
+    var hasSuper = nodes.some(function(n) { return n._isSuper; });
+    var repulsion = hasSuper ? 28000 : 18000;
+    var idealDist = hasSuper ? 240 : 180;
+
     for (var iter = 0; iter < 100; iter++) {
       for (var i = 0; i < nodes.length; i++) {
         for (var j = i + 1; j < nodes.length; j++) {
           var dx = nodes[j].x - nodes[i].x;
           var dy = nodes[j].y - nodes[i].y;
           var dist = Math.sqrt(dx * dx + dy * dy) || 1;
-          var force = 18000 / (dist * dist);
+          var force = repulsion / (dist * dist);
           var fx = (dx / dist) * force;
           var fy = (dy / dist) * force;
           nodes[i].vx -= fx; nodes[i].vy -= fy;
@@ -256,7 +430,7 @@
         var dx = t.x - s.x;
         var dy = t.y - s.y;
         var dist = Math.sqrt(dx * dx + dy * dy) || 1;
-        var force = (dist - 180) * 0.015;
+        var force = (dist - idealDist) * 0.015;
         var fx = (dx / dist) * force;
         var fy = (dy / dist) * force;
         s.vx += fx; s.vy += fy;
@@ -555,11 +729,38 @@
         if (activeFlows) line.setAttribute('marker-end', 'url(#arrow-default)');
       }
 
+      // For aggregated edges (collapsed), make them thicker
+      if (link._count && link._count > 1) {
+        var currentWidth = parseFloat(line.getAttribute('stroke-width')) || 1.5;
+        line.setAttribute('stroke-width', Math.min(6, currentWidth + Math.log2(link._count)));
+      }
+
       line.dataset.source = link.source;
       line.dataset.target = link.target;
       line.dataset.flow = link.flow || '';
+      line.dataset.count = link._count || 1;
       svg.appendChild(line);
       linkElements.push(line);
+
+      // Edge count badge for aggregated edges
+      if (link._count && link._count > 2) {
+        var mx = (s.x + t.x) / 2;
+        var my = (s.y + t.y) / 2;
+        var eBg = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+        eBg.setAttribute('cx', mx); eBg.setAttribute('cy', my);
+        eBg.setAttribute('r', 8);
+        eBg.setAttribute('fill', 'rgba(0,0,0,0.7)');
+        svg.appendChild(eBg);
+        var eLabel = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+        eLabel.setAttribute('x', mx); eLabel.setAttribute('y', my + 3);
+        eLabel.setAttribute('text-anchor', 'middle');
+        eLabel.setAttribute('fill', '#fff');
+        eLabel.setAttribute('font-size', '8');
+        eLabel.setAttribute('font-weight', '700');
+        eLabel.setAttribute('pointer-events', 'none');
+        eLabel.textContent = link._count;
+        svg.appendChild(eLabel);
+      }
     });
 
     // ── Compute degree for each node ────────────────────────────────
@@ -576,61 +777,132 @@
       var g = document.createElementNS('http://www.w3.org/2000/svg', 'g');
       g.setAttribute('transform', 'translate(' + n.x + ',' + n.y + ')');
       g.style.transition = 'opacity 0.2s';
-      if (n.url) {
+
+      var deg = nodeDegree[n.id] || 0;
+      var isSuper = n._isSuper;
+
+      if (isSuper) {
+        // Super-node: larger, hexagonal feel, click to expand
+        var memberCount = n._memberCount || 1;
+        var r = Math.max(24, Math.min(50, 18 + Math.sqrt(memberCount) * 8));
+        var circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+        circle.setAttribute('r', r);
+        circle.setAttribute('fill', n._color || '#1abc9c');
+        circle.setAttribute('stroke', '#fff');
+        circle.setAttribute('stroke-width', '3');
+        circle.setAttribute('stroke-dasharray', '6,3');
+        circle.style.transition = 'r 0.2s';
+        circle.style.cursor = 'pointer';
+        g.appendChild(circle);
+
+        // Member count badge
+        var badge = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+        badge.setAttribute('text-anchor', 'middle');
+        badge.setAttribute('dy', '5');
+        badge.setAttribute('fill', '#fff');
+        badge.setAttribute('font-size', r > 30 ? '14' : '11');
+        badge.setAttribute('font-weight', '700');
+        badge.setAttribute('pointer-events', 'none');
+        badge.textContent = memberCount;
+        g.appendChild(badge);
+
+        // Label
+        var text = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+        text.setAttribute('dy', -(r + 8));
+        text.setAttribute('text-anchor', 'middle');
+        text.setAttribute('fill', 'currentColor');
+        text.setAttribute('font-size', '11');
+        text.setAttribute('font-weight', '700');
+        text.textContent = n.label;
+        g.appendChild(text);
+
+        var title = document.createElementNS('http://www.w3.org/2000/svg', 'title');
+        title.textContent = n.label + ' (' + memberCount + ' nodes)\nClick to expand';
+        g.appendChild(title);
+
         g.style.cursor = 'pointer';
         g.addEventListener('click', function(e) {
           e.stopPropagation();
-          window.location.href = n.url;
+          expandedGroups[n.id] = true;
+          renderGraph(container, data);
         });
+
+        g.addEventListener('mouseenter', function() {
+          highlightNode(n.id);
+          showSuperInfo(n);
+        });
+        g.addEventListener('mouseleave', function() {
+          clearHighlight();
+          hideInfo();
+        });
+
+        nodeElements[n.id] = { group: g, circle: circle, radius: r };
+      } else {
+        // Regular node
+        if (n.url) {
+          g.style.cursor = 'pointer';
+          g.addEventListener('click', function(e) {
+            e.stopPropagation();
+            window.location.href = n.url;
+          });
+        }
+
+        var r = Math.max(10, Math.min(32, 10 + Math.sqrt(deg) * 4));
+        var circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+        circle.setAttribute('r', r);
+        circle.setAttribute('fill', COLORS[n.type] || '#95a5a6');
+        circle.setAttribute('stroke', '#fff');
+        circle.setAttribute('stroke-width', r > 20 ? '2.5' : '1.5');
+        circle.style.transition = 'r 0.2s, stroke-width 0.2s';
+        g.appendChild(circle);
+
+        if (deg >= 3) {
+          var badge = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+          badge.setAttribute('text-anchor', 'middle');
+          badge.setAttribute('dy', '4');
+          badge.setAttribute('fill', '#fff');
+          badge.setAttribute('font-size', r > 20 ? '11' : '9');
+          badge.setAttribute('font-weight', '700');
+          badge.setAttribute('pointer-events', 'none');
+          badge.textContent = deg;
+          g.appendChild(badge);
+        }
+
+        var labelAbove = deg >= 5;
+        var text = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+        text.setAttribute('dy', labelAbove ? -(r + 6) : (r + 14));
+        text.setAttribute('text-anchor', 'middle');
+        text.setAttribute('fill', 'currentColor');
+        text.setAttribute('font-size', deg >= 8 ? '12' : (deg >= 3 ? '10' : '9'));
+        text.setAttribute('font-weight', deg >= 8 ? '700' : '500');
+        text.textContent = n.label;
+        g.appendChild(text);
+
+        // If this node belongs to an expanded group, add a collapse hint
+        if (collapseStrategy) {
+          var nodeGroupId = null;
+          Object.keys(expandedGroups).forEach(function(gid) {
+            if (expandedGroups[gid] && n._expandedFrom === gid) nodeGroupId = gid;
+          });
+        }
+
+        var title = document.createElementNS('http://www.w3.org/2000/svg', 'title');
+        title.textContent = n.label + ' (' + deg + ' connections)\n' + n.detail;
+        g.appendChild(title);
+
+        g.addEventListener('mouseenter', function() {
+          highlightNode(n.id);
+          showInfo(n);
+        });
+        g.addEventListener('mouseleave', function() {
+          clearHighlight();
+          hideInfo();
+        });
+
+        nodeElements[n.id] = { group: g, circle: circle, radius: r };
       }
-
-      var deg = nodeDegree[n.id] || 0;
-      var r = Math.max(10, Math.min(32, 10 + Math.sqrt(deg) * 4));
-      var circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
-      circle.setAttribute('r', r);
-      circle.setAttribute('fill', COLORS[n.type] || '#95a5a6');
-      circle.setAttribute('stroke', '#fff');
-      circle.setAttribute('stroke-width', r > 20 ? '2.5' : '1.5');
-      circle.style.transition = 'r 0.2s, stroke-width 0.2s';
-      g.appendChild(circle);
-
-      if (deg >= 3) {
-        var badge = document.createElementNS('http://www.w3.org/2000/svg', 'text');
-        badge.setAttribute('text-anchor', 'middle');
-        badge.setAttribute('dy', '4');
-        badge.setAttribute('fill', '#fff');
-        badge.setAttribute('font-size', r > 20 ? '11' : '9');
-        badge.setAttribute('font-weight', '700');
-        badge.setAttribute('pointer-events', 'none');
-        badge.textContent = deg;
-        g.appendChild(badge);
-      }
-
-      var labelAbove = deg >= 5;
-      var text = document.createElementNS('http://www.w3.org/2000/svg', 'text');
-      text.setAttribute('dy', labelAbove ? -(r + 6) : (r + 14));
-      text.setAttribute('text-anchor', 'middle');
-      text.setAttribute('fill', 'currentColor');
-      text.setAttribute('font-size', deg >= 8 ? '12' : (deg >= 3 ? '10' : '9'));
-      text.setAttribute('font-weight', deg >= 8 ? '700' : '500');
-      text.textContent = n.label;
-      g.appendChild(text);
-
-      var title = document.createElementNS('http://www.w3.org/2000/svg', 'title');
-      title.textContent = n.label + ' (' + deg + ' connections)\n' + n.detail;
-      g.appendChild(title);
-
-      g.addEventListener('mouseenter', function() {
-        highlightNode(n.id);
-        showInfo(n);
-      });
-      g.addEventListener('mouseleave', function() {
-        clearHighlight();
-        hideInfo();
-      });
 
       svg.appendChild(g);
-      nodeElements[n.id] = { group: g, circle: circle, radius: r };
     });
 
     // ── Dynasty highlighting ────────────────────────────────────────
@@ -774,6 +1046,22 @@
       infoPanel.style.opacity = '1';
     }
 
+    function showSuperInfo(n) {
+      if (!n._isSuper) return showInfo(n);
+      var members = n._members || [];
+      var memberLabels = members.slice(0, 8).map(function(mid) {
+        var found = data.nodes.find(function(nd) { return nd.id === mid; });
+        return found ? found.label : mid;
+      });
+      if (members.length > 8) memberLabels.push('... +' + (members.length - 8) + ' more');
+
+      infoPanel.innerHTML = '<strong style="font-size:14px;color:' + (n._color || '#1abc9c') + ';">' + n.label + '</strong><br>' +
+        '<span style="opacity:0.7">' + members.length + ' nodes collapsed</span><br>' +
+        '<span style="font-size:10px;opacity:0.6;">' + memberLabels.join(', ') + '</span><br>' +
+        '<span style="opacity:0.4;font-size:10px;">Click to expand ↗</span>';
+      infoPanel.style.opacity = '1';
+    }
+
     function hideInfo() {
       infoPanel.style.opacity = '0';
     }
@@ -900,6 +1188,11 @@
       });
       var fc = Object.keys(flowCounts).map(function(f) { return flowCounts[f] + ' ' + f; });
       if (fc.length) layerInfo.push(fc.join(', '));
+    }
+    if (collapseStrategy) {
+      var superCount = filteredNodes.filter(function(n) { return n._isSuper; }).length;
+      var totalOriginal = data.nodes.length;
+      layerInfo.push('collapsed: ' + superCount + ' groups from ' + totalOriginal + ' nodes');
     }
     countText.textContent = filteredNodes.length + ' nodes · ' + filteredLinks.length + ' edges' +
       (layerInfo.length ? ' · ' + layerInfo.join(' · ') : '');
