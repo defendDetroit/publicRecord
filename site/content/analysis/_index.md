@@ -12,7 +12,7 @@ Analysis of the documented patterns connecting convicted felons, captured courts
 
 | Analysis | Key Finding |
 |----------|-------------|
-| **[🔗 Institutional Capture Graph](/analysis/institutional-capture-graph/)** | **50+ nodes, 50+ edges — interactive network visualization. Four nexus types. One network.** |
+| **[🔗 Institutional Capture Graph](/analysis/institutional-capture-graph/)** | **65 nodes, 96 edges — interactive force graph. Five nexus types, dynasty filters, address overlap, ownership hulls. One network.** |
 | **[RICO Pattern](/analysis/rico-pattern/)** | 6 predicate acts, 14+ years of continuity, $4.9M annual extraction |
 | **[Institutional Capture](/analysis/institutional-capture/)** | 9 judges across 4 courts, dual-felon governance, charter authorization feedback loop |
 | **[Allied Cases](/analysis/allied-cases/)** | 3 independent litigants corroborate the pattern: Bryant v. Miller, Bradley-Baskin, Bowles v. Sabree |
@@ -23,9 +23,7 @@ Analysis of the documented patterns connecting convicted felons, captured courts
 | **[The Land Deal](/analysis/land-deal/)** | PCA building purchase option — public property conversion mechanism |
 | **[Detroit Literacy Crisis](/analysis/detroit-literacy/)** | Systemic view — authorization incentives, extraction vehicles, enforcement theater |
 | **[Shepherds and Wolves](/analysis/shepherds-and-wolves/)** | The Presiding Bishop of COGIC endorsed Banks. A self-consecrated bishop authorized his charter. The congregations were never told. |
-| **[The Machine](/analysis/the-machine/)** | How every level was captured — schools, courts, churches, treasury, legislature, banks, regulators, complaints — and the philosophical framework for understanding why. From the ecoPrimals atlasHugged thesis. |
 | **[Corporate Network — LARA](/analysis/corporate-network-lara/)** | 12 Banks entities. PCA board = his own attorney. Save Detroit Jobs = 3 names, formed by Dykema. $98K print vendor also runs obituaries4less.com. All from public LARA filings. |
-| **[Institutional Capture Graph](/analysis/institutional-capture-graph/)** | Four nexus types, one network — the master map of education fraud, political capture, police weaponization, and the legislative pipeline. |
 | **[Detroit Education Landscape](/analysis/education-landscape/)** | 62+ charters, 10 authorizers, $288M+/yr. Who runs what. Both sectors failing. Banks = every vulnerability at once. |
 
 The analysis proceeds from evidence to pattern — never the reverse. Where conclusions are drawn, they are clearly marked as analysis submitted for agency determination, not legal findings. See [Legal Protections](/legal/) for the framework and [Verify Everything](/validate/) to check any claim.
