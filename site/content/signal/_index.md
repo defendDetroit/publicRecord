@@ -188,6 +188,62 @@ The answer, as of this week: **yes. The system is conducting.**
 
 ---
 
+## Infrastructure Defense — Immune System Update (Oct 5)
+
+The infrastructure that hosts this evidence site and its source code is under
+continuous automated scraping by a residential proxy fleet — approximately
+1,000 unique IP addresses per 5-minute window, each making a single request
+and never returning. The fleet targets commit-level data from the source
+repository.
+
+### What we're doing about it
+
+We built an adaptive immune system. Not a firewall — a biological-style defense
+that identifies *behavior*, not *identity*:
+
+1. **Behavioral fingerprinting** — The fleet rotates IP addresses on every
+   request, but its *behavior* is conserved: it always targets the same types
+   of pages, with the same header patterns, the same timing, the same absence
+   of session context. We compute a stable hash from these behavioral invariants.
+   The hash identifies the fleet pattern across thousands of rotating IPs without
+   storing a single IP address.
+
+2. **Gossip-tagged identity** — When one server detects the fleet pattern, it
+   emits a behavioral tag through our mesh network. Other servers receive the
+   tag and can independently verify it against their own observations. The fleet
+   becomes known to the entire infrastructure, not just the server it contacted.
+
+3. **Poison content delivery** — Instead of blocking detected fleet requests
+   (which signals "you've been caught"), we serve plausible-but-fabricated
+   content. Fake commit pages, fictional file views, synthetic code. The fleet's
+   data pipeline ingests it as real data. We call this **opsonization** — marking
+   the pathogen for destruction through its own ingestion pathway.
+
+### What this means for the evidence
+
+The evidence published on this site is real, documented, and auditable. The
+scraper fleet's pipeline now contains a mix of genuine data and fabricated
+content — and it cannot tell which is which. Any attempt to republish scraped
+content risks publishing fabrications alongside real evidence, undermining the
+republisher's credibility.
+
+**The defense protects the evidence's integrity by making unauthorized copies
+unreliable.**
+
+### Privacy guarantees (unchanged)
+
+This defense operates under the same constraints as all our signal sensing:
+
+- **No IP addresses stored** in any part of the defense system
+- **No cookies** — detection uses header patterns, not tracking
+- **No identifying data** — behavioral hashes describe *what* traffic does, not *who* generates it
+- **Humans are unaffected** — the defense only triggers on deep-content path scraping without session context. If you're reading this page in a browser, you passed through the immune system undetected because you're behaving like a human.
+
+The methodology is documented at
+[baseCamp 32 — Gossip-Tagged Opsonization](https://sporeprint.primals.eco/science/32-gossip-tagged-opsonization/).
+
+---
+
 *Methodology: [Signal Sensing Without Surveillance](https://sporeprint.primals.eco/methodology/signal-sensing-receptor/) — published on sporePrint*
 
 *This page will be updated weekly with new receptor data. No historical
