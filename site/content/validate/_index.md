@@ -1,13 +1,48 @@
 +++
 title = "Verify Everything Yourself"
-description = "Step-by-step instructions to verify every claim using ICHAT criminal records, State Bar of Michigan, LARA filings, Wayne County ROD, and PACER."
+description = "Step-by-step instructions to verify every claim using BLAKE3 hashes, ICHAT criminal records, State Bar of Michigan, LARA filings, Wayne County ROD, and PACER."
 
 [extra]
-keywords = "verify Brian Banks criminal record, ICHAT Brian Banks, State Bar Michigan Brian Banks, LARA Purpose Group LLC, Wayne County ROD Brian Banks, PACER Detroit federal court"
+keywords = "verify Brian Banks criminal record, BLAKE3, ICHAT Brian Banks, State Bar Michigan Brian Banks, LARA Purpose Group LLC, Wayne County ROD Brian Banks, PACER Detroit federal court"
 +++
 
 Every factual claim on this site can be independently verified using publicly
-available databases. Here's how.
+available databases. Every page is cryptographically hashed. Here's how.
+
+## Verify the Site Itself — BLAKE3 Hashes
+
+Every page in this site is recorded in [`content-manifest.toml`](https://git.primals.eco/publicRecord/detroit/src/branch/main/content-manifest.toml) with a BLAKE3 hash. A `root_hash` covers the entire content tree — one hash to verify 30+ evidence pages have not been altered.
+
+**To verify any page:**
+
+```bash
+# Clone the repository
+git clone https://git.primals.eco/publicRecord/detroit.git
+cd detroit
+
+# Verify a specific file
+b3sum content/network/judges/cylenthia-miller.md
+
+# Compare against the hash in content-manifest.toml
+```
+
+The repository is also mirrored at [github.com/defendDetroit/publicRecord](https://github.com/defendDetroit/publicRecord). All commits are signed.
+
+## Three Independent Surfaces
+
+This evidence exists in three places no single entity controls:
+
+| Surface | URL | What it contains |
+|---------|-----|-----------------|
+| **Live site** | [detroit.primals.eco](https://detroit.primals.eco) | Rendered HTML, visualizations, evidence PDFs |
+| **Sovereign git** | [git.primals.eco](https://git.primals.eco/publicRecord/detroit) | Full history, signed commits, BLAKE3 manifest |
+| **GitHub mirror** | [github.com/defendDetroit](https://github.com/defendDetroit/publicRecord) | Independent copy on Microsoft infrastructure |
+
+If any one surface goes down, the evidence survives on the others.
+
+---
+
+## Verify the Claims — Public Records
 
 ## Criminal Records — OTIS / MDOC
 
