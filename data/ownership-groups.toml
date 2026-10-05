@@ -1,0 +1,82 @@
+# Ownership groups — convex hulls around entities controlled by the same person.
+# Used by network-graph.js to render colored hull overlays.
+
+[[group]]
+id = "banks_empire"
+controller = "banks"
+label = "Banks controls all (12 LARA entities)"
+members = ["banks", "pca", "macdowell", "purpose_group", "purpose_foundation", "banks_strategy", "holland", "serenity", "anchor_rock"]
+color = "rgba(192,57,43,0.12)"
+stroke = "rgba(192,57,43,0.5)"
+note = "1 person, 12 LARA entities, 1 co-resident felon. Grosse Pointe Woods, Holland, Zeeland, Clarkston, Waterford."
+
+[[group]]
+id = "banks_pacs"
+controller = "holland"
+label = "Holland manages finances"
+members = ["holland", "pacs", "purpose_foundation", "right_turn"]
+color = "rgba(243,156,18,0.10)"
+stroke = "rgba(243,156,18,0.4)"
+note = "PAC treasurer + Foundation secretary + Right Turn president = same convicted drug dealer"
+
+[[group]]
+id = "pca_board"
+controller = "banks"
+label = "PCA Board (LARA-confirmed)"
+members = ["pca", "miller", "moreland", "johnson_l", "hutchings", "clora"]
+color = "rgba(39,174,96,0.10)"
+stroke = "rgba(39,174,96,0.4)"
+note = "Banks = agent (not officer). Moreland = litigation attorney + director (MRPC 1.7). Johnson = SDJ-funded."
+
+[[group]]
+id = "macdowell_board"
+controller = "banks"
+label = "MacDowell Board (Banks-selected)"
+members = ["macdowell", "wells_stallworth", "yancey"]
+color = "rgba(142,68,173,0.10)"
+stroke = "rgba(142,68,173,0.4)"
+note = "Board President + Judge = hand-picked by superintendent"
+
+[[group]]
+id = "dark_money_vehicle"
+controller = "dykema"
+label = "Dark Money Vehicle (3 names, 1 entity)"
+members = ["sdj", "dykema", "daniels", "johnson_l"]
+color = "rgba(231,76,60,0.10)"
+stroke = "rgba(231,76,60,0.4)"
+note = "Dykema Gossett formed SDJ. 3 assumed names. Daniels = president. Funded Johnson vs. Elrick."
+
+[[group]]
+id = "endorsement_machine"
+controller = "carol_banks"
+label = "Endorsement Machine (4 incarnations)"
+members = ["eastside_slate", "carol_banks", "leach"]
+color = "rgba(41,128,185,0.10)"
+stroke = "rgba(41,128,185,0.4)"
+note = "Eastside Slate filed 4 times. Leach batch-filed 3 entities same day. Carol Banks = current agent."
+
+[[group]]
+id = "self_dealing_loop"
+controller = "ross"
+label = "Right Turn Self-Dealing"
+members = ["right_turn", "ross", "ross_catering"]
+color = "rgba(211,84,0,0.10)"
+stroke = "rgba(211,84,0,0.4)"
+note = "Ross = charity treasurer + connected to vendor paid $35K by PACs. BBesq06@aol.com = Banks's email."
+
+[[group]]
+id = "kilpatrick_orbit"
+controller = "kwame"
+label = "Kilpatrick Dynasty"
+members = ["kwame", "carolyn_kilpatrick", "dumas", "daniels", "gay_dagnogo", "pugh"]
+color = "rgba(88,28,135,0.10)"
+stroke = "rgba(168,85,247,0.4)"
+note = "Kwame → Carolyn (CBC host) → Dumas (PR) → Daniels (dark money) → Gay-Dagnogo (charter auth) → Pugh (Cotton referral)"
+
+[[group]]
+id = "mayoral_lineage"
+label = "Mayoral Lineage (50 years)"
+members = ["coleman_young", "archer", "kwame", "bing", "duggan", "sheffield"]
+color = "rgba(127,140,141,0.08)"
+stroke = "rgba(127,140,141,0.4)"
+note = "Young → Archer → Kilpatrick → Bing → Duggan → Sheffield. The machine survived every transition."

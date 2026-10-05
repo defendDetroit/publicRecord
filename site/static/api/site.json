@@ -2,13 +2,13 @@
   "_comment": "Static site API for bots and agents. Auto-generated — do not edit.",
   "meta": {
     "generator": "detroit-build/0.1.0",
-    "generated": "2026-09-25T14:16:44Z",
+    "generated": "2026-10-05T01:41:23Z",
     "base_url": "https://detroit.primals.eco",
     "title": "Cash for Kids 2: A Public Record",
-    "total_sections": 18,
-    "total_pages": 32,
-    "total_words": 18516,
-    "total_taxonomy_terms": 44
+    "total_sections": 21,
+    "total_pages": 80,
+    "total_words": 63064,
+    "total_taxonomy_terms": 188
   },
   "endpoints": {
     "human": {
@@ -51,10 +51,12 @@
         "/analysis/",
         "/books/",
         "/contact/",
+        "/coverage/",
         "/evidence/",
         "/legal/",
         "/network/",
         "/open-letters/",
+        "/signal/",
         "/site-index/",
         "/sources/",
         "/timeline/",
@@ -73,37 +75,76 @@
       "path": "/analysis/",
       "url": "https://detroit.primals.eco/analysis/",
       "title": "Pattern Analysis",
-      "description": "RICO pattern, institutional capture, and allied cases — how the Banks charter school enterprise operates as a documented network across schools, courts,.",
+      "description": "RICO pattern, institutional capture, credential audit, funding flow, and systemic analysis of the Banks charter school enterprise across schools, courts, and politics.",
       "pages": [
         "/analysis/allied-cases/",
+        "/analysis/banks-holland-partnership/",
         "/analysis/cbc-events/",
+        "/analysis/corporate-network-lara/",
+        "/analysis/credential-audit/",
+        "/analysis/detroit-literacy/",
+        "/analysis/education-landscape/",
+        "/analysis/funding-flow/",
+        "/analysis/historical-pattern/",
+        "/analysis/institutional-capture-graph/",
         "/analysis/institutional-capture/",
-        "/analysis/rico-pattern/"
+        "/analysis/land-deal/",
+        "/analysis/rico-pattern/",
+        "/analysis/shepherds-and-wolves/",
+        "/analysis/the-machine/",
+        "/analysis/words-vs-numbers/"
       ],
       "subsections": []
     },
     "/books/": {
       "path": "/books/",
       "url": "https://detroit.primals.eco/books/",
-      "title": "Book Analysis: Zero Victims, Zero Remorse",
-      "description": "Brian Banks autobiography and Tonesa Welch BMF book analysis — zero victims named, zero accountability. Credential fraud vs LinkedIn J.D. Ph.D. claims.",
-      "pages": [],
+      "title": "Book Analysis — Zero Victims, Zero Remorse",
+      "description": "Two members of the Banks enterprise published books. Between them: hundreds of pages of self-promotion, zero victims named, zero accountability.",
+      "pages": [
+        "/books/black-mafia-family/",
+        "/books/it-had-2-happen/"
+      ],
       "subsections": []
     },
     "/contact/": {
       "path": "/contact/",
       "url": "https://detroit.primals.eco/contact/",
       "title": "Contact",
-      "description": "Corrections, contact, and secure communication for anyone named on this site, harmed parties, media, and whistleblowers.",
+      "description": "Corrections, contact, and secure communication for anyone named on this site — harmed parties, media, attorneys, and whistleblowers.",
       "pages": [],
+      "subsections": []
+    },
+    "/coverage/": {
+      "path": "/coverage/",
+      "url": "https://detroit.primals.eco/coverage/",
+      "title": "External Coverage",
+      "description": "Independent journalism and investigative reporting on the same people and institutions documented in this evidence library. Cross-referenced to our public records analysis.",
+      "pages": [
+        "/coverage/chalkbeat-purpose-authorization/",
+        "/coverage/clutch-detroit-files/",
+        "/coverage/clutch-foia-guide/",
+        "/coverage/clutch-hubbard-probate/",
+        "/coverage/clutch-justice/",
+        "/coverage/clutch-macdowell-spending/",
+        "/coverage/clutch-miller-owi/",
+        "/coverage/clutch-trial-by-mechanism/",
+        "/coverage/elrick-back-to-fool/"
+      ],
       "subsections": []
     },
     "/evidence/": {
       "path": "/evidence/",
       "url": "https://detroit.primals.eco/evidence/",
       "title": "Evidence Library",
-      "description": "Public-record evidence documenting the Detroit charter school network. Financial analysis, credential questions, criminal records, documented connections,.",
-      "pages": [],
+      "description": "Public-record evidence documenting the Detroit charter school network. Financial records, criminal histories, FOIA responses, and court filings.",
+      "pages": [
+        "/evidence/agency-referrals/",
+        "/evidence/correspondence/",
+        "/evidence/court-filings/",
+        "/evidence/foia-requests/",
+        "/evidence/tcr-22-12/"
+      ],
       "subsections": []
     },
     "/legal/": {
@@ -120,11 +161,13 @@
       "title": "The Network",
       "description": "The Banks Network — documented connections spanning charter schools, courts, political offices, and nonprofit entities in Detroit.",
       "pages": [
+        "/network/dynasties/",
         "/network/matrices/"
       ],
       "subsections": [
         "/network/actors/",
         "/network/entities/",
+        "/network/institutional/",
         "/network/judges/",
         "/network/political/",
         "/network/professional-enablers/"
@@ -149,6 +192,7 @@
       "pages": [
         "/network/entities/anchor-rock-foundation/",
         "/network/entities/banks-strategy-llc/",
+        "/network/entities/black-caucus-foundation/",
         "/network/entities/city-hill-church/",
         "/network/entities/inner-link-graphics/",
         "/network/entities/macdowell-prep/",
@@ -161,11 +205,28 @@
       ],
       "subsections": []
     },
+    "/network/institutional/": {
+      "path": "/network/institutional/",
+      "url": "https://detroit.primals.eco/network/institutional/",
+      "title": "Institutional Actors",
+      "description": "State officials, board members, and institutional actors documented in the Banks network investigation.",
+      "pages": [
+        "/network/institutional/alan-young-associates/",
+        "/network/institutional/breen-leah/",
+        "/network/institutional/daniels-alexandria/",
+        "/network/institutional/schmiedeknecht-katie/",
+        "/network/institutional/scott-reginald/",
+        "/network/institutional/tcr-22-12-enablers/",
+        "/network/institutional/vitti-nicolai/",
+        "/network/institutional/wells-stallworth-nicole/"
+      ],
+      "subsections": []
+    },
     "/network/judges/": {
       "path": "/network/judges/",
       "url": "https://detroit.primals.eco/network/judges/",
       "title": "Judicial Cover",
-      "description": "Seven Wayne County judges with documented connections to the Banks charter school enterprise — board memberships, campaign payments, law school ties,.",
+      "description": "Nine Wayne County judges with documented connections to the Banks charter school enterprise through board memberships, campaign payments, and family ties.",
       "pages": [
         "/network/judges/adam-sabree/",
         "/network/judges/aliyah-sabree/",
@@ -182,12 +243,18 @@
     "/network/political/": {
       "path": "/network/political/",
       "url": "https://detroit.primals.eco/network/political/",
-      "title": "Political Enablers",
-      "description": "Political figures who enabled the Banks charter school enterprise through authorization, campaign payments, and institutional cover.",
+      "title": "Political Dynasties & Enablers",
+      "description": "Political dynasties and enablers who built, protected, and authorized the Banks charter school enterprise. The Stallworth dynasty: from federal drug money laundering to charter school board president in one generation.",
       "pages": [
         "/network/political/billy-mckinney/",
         "/network/political/eric-sabree/",
-        "/network/political/sherry-gay-dagnogo/"
+        "/network/political/kilpatrick-dynasty/",
+        "/network/political/sherry-gay-dagnogo/",
+        "/network/political/stallworth-alma/",
+        "/network/political/stallworth-keith/",
+        "/network/political/stallworth-thomas/",
+        "/network/political/stallworth-west-misha/",
+        "/network/political/vaughn-corletta/"
       ],
       "subsections": []
     },
@@ -195,8 +262,11 @@
       "path": "/network/professional-enablers/",
       "url": "https://detroit.primals.eco/network/professional-enablers/",
       "title": "Professional Enablers",
-      "description": "Attorneys and institutions who organized, authorized, or credentialed the Banks charter school enterprise — the professional infrastructure that made the.",
+      "description": "Attorneys and institutions who organized, authorized, or credentialed the Banks charter school enterprise. The professional infrastructure behind it.",
       "pages": [
+        "/network/professional-enablers/leno-michele/",
+        "/network/professional-enablers/meihn-gregory/",
+        "/network/professional-enablers/shulman-terrence/",
         "/network/professional-enablers/todd-perkins/"
       ],
       "subsections": []
@@ -207,8 +277,17 @@
       "title": "Open Letters",
       "description": "Open letters to public figures connected to the Detroit charter school network. Each letter is sent privately first.",
       "pages": [
-        "/open-letters/to-curtis-jackson/"
+        "/open-letters/to-curtis-jackson/",
+        "/open-letters/to-gregory-meihn/"
       ],
+      "subsections": []
+    },
+    "/signal/": {
+      "path": "/signal/",
+      "url": "https://detroit.primals.eco/signal/",
+      "title": "Signal — Who Is Reading the Detroit Charter School Evidence",
+      "description": "Live signal sensing for the Detroit charter school investigation. Search engines crawling, humans investigating, AI systems reading — measured without cookies or tracking. Did the evidence reach investigators, press, and families?",
+      "pages": [],
       "subsections": []
     },
     "/site-index/": {
@@ -239,7 +318,7 @@
       "path": "/validate/",
       "url": "https://detroit.primals.eco/validate/",
       "title": "Verify Everything Yourself",
-      "description": "Verify every claim yourself: ICHAT criminal records (SID 2029469K), State Bar of Michigan, LARA business filings, Wayne County ROD, campaign finance —.",
+      "description": "Step-by-step instructions to verify every claim using ICHAT criminal records, State Bar of Michigan, LARA filings, Wayne County ROD, and PACER.",
       "pages": [],
       "subsections": []
     }
@@ -279,6 +358,36 @@
       }
     },
     {
+      "path": "/analysis/banks-holland-partnership/",
+      "url": "https://detroit.primals.eco/analysis/banks-holland-partnership/",
+      "title": "The Banks-Holland Economic Unit — 20 Years of Shared Assets, Concealed Property, and Institutional Control",
+      "description": "Brian Banks and Joseph Holland Jr. have operated as a domestic and economic unit since at least 2005. Joint property, shared addresses, foundation co-officers, trust succession, and a documented pattern of concealing assets from courts.",
+      "word_count": 920,
+      "section": "/analysis/",
+      "taxonomies": {
+        "actors": [
+          "Brian Banks",
+          "Joseph Holland"
+        ],
+        "connections": [
+          "business entity",
+          "criminal record",
+          "campaign finance",
+          "RICO predicate"
+        ],
+        "courts": [
+          "Eastern District of Michigan",
+          "Wayne County 3rd Circuit Court"
+        ],
+        "entities": [
+          "Purpose Foundation",
+          "The Purpose Group LLC",
+          "Banks Strategy LLC",
+          "Brian Banks Living Trust"
+        ]
+      }
+    },
+    {
       "path": "/analysis/cbc-events/",
       "url": "https://detroit.primals.eco/analysis/cbc-events/",
       "title": "CBC Week Events — Political Networking",
@@ -308,10 +417,245 @@
       }
     },
     {
+      "path": "/analysis/corporate-network-lara/",
+      "url": "https://detroit.primals.eco/analysis/corporate-network-lara/",
+      "title": "The Corporate Network — LARA Entity Analysis",
+      "description": "Every business entity connected to Brian Banks and the institutional capture network, sourced entirely from Michigan LARA public records. Twelve Banks entities. A charter school board stacked with the attorney suing on his behalf. A dark money vehicle with three names set up by Michigan's largest law firm. A print shop that also runs obituaries4less.com.",
+      "word_count": 2754,
+      "section": "/analysis/",
+      "taxonomies": {
+        "actors": [
+          "Brian Banks",
+          "Joseph Holland",
+          "Carlton Ross",
+          "Terrence Tarver",
+          "Lamar Moreland",
+          "Latisha Johnson",
+          "Cylenthia Miller",
+          "Devin Hutchings",
+          "Major Clora",
+          "Jason Gordon",
+          "Larry Thomas Jr",
+          "Carol Banks",
+          "Kenneth Daniels",
+          "W Spencer Leach",
+          "Verkeydia Hall",
+          "Gwendolyn Lewis",
+          "Beverly Nakenge",
+          "Brian Meiste"
+        ],
+        "connections": [
+          "LARA entity",
+          "registered agent",
+          "corporate network",
+          "self-dealing",
+          "dissolve and reform",
+          "dark money",
+          "annual report violation"
+        ],
+        "entities": [
+          "Purpose Charter Academy",
+          "Purpose Group LLC",
+          "Purpose Foundation",
+          "Banks Strategy and Consultants",
+          "Right Turn Project",
+          "Save Detroit Jobs",
+          "Detroit Leaders",
+          "Impact Detroit",
+          "Inner Link Graphics",
+          "Custom Promotions",
+          "Deen Legal Services",
+          "Original Eastside Slate",
+          "Anchor Rock Services",
+          "Serenity Guardianship Services",
+          "WhitlowBanks LLC",
+          "Great Lakes Legal Group",
+          "Crump Hall of Justice Law Firm",
+          "Dykema Gossett"
+        ]
+      }
+    },
+    {
+      "path": "/analysis/credential-audit/",
+      "url": "https://detroit.primals.eco/analysis/credential-audit/",
+      "title": "The Credential Gap — MacDowell Staff Qualification Audit",
+      "description": "MOECS public search reveals 2 of 14 instructional staff properly credentialed at MacDowell Preparatory Academy. $603K in admin salaries, one convicted felon.",
+      "word_count": 1059,
+      "section": "/analysis/",
+      "taxonomies": {
+        "actors": [
+          "Brian Banks",
+          "Joseph Holland",
+          "Katie Schmiedeknecht"
+        ],
+        "connections": [
+          "credential fraud",
+          "employment",
+          "institutional oversight",
+          "MDE investigation"
+        ],
+        "entities": [
+          "MacDowell Preparatory Academy",
+          "The Purpose Group LLC",
+          "Michigan Department of Education"
+        ]
+      }
+    },
+    {
+      "path": "/analysis/detroit-literacy/",
+      "url": "https://detroit.primals.eco/analysis/detroit-literacy/",
+      "title": "Detroit Literacy Crisis — The Systemic View",
+      "description": "MacDowell isn't an anomaly. Charter authorization as revenue, management companies as extraction vehicles, and credential enforcement as theater — the systemic pattern.",
+      "word_count": 1341,
+      "section": "/analysis/",
+      "taxonomies": {
+        "actors": [
+          "Brian Banks",
+          "Katie Schmiedeknecht"
+        ],
+        "connections": [
+          "charter authorization",
+          "institutional oversight",
+          "institutional capture",
+          "credential fraud"
+        ],
+        "entities": [
+          "MacDowell Preparatory Academy",
+          "Purpose Charter Academy",
+          "The Purpose Group LLC",
+          "Michigan Department of Education"
+        ]
+      }
+    },
+    {
+      "path": "/analysis/education-landscape/",
+      "url": "https://detroit.primals.eco/analysis/education-landscape/",
+      "title": "Detroit Education Landscape — Who Runs the Schools",
+      "description": "62+ charter schools. 10 authorizers. $288M+/year in state funding. 61% managed by for-profit companies. Both sectors failing children at catastrophic rates. Where Banks fits in the broader system — and why this keeps happening.",
+      "word_count": 2256,
+      "section": "/analysis/",
+      "taxonomies": {
+        "actors": [
+          "Brian Banks"
+        ],
+        "connections": [
+          "charter authorization",
+          "education landscape",
+          "systemic analysis"
+        ],
+        "entities": [
+          "Purpose Charter Academy",
+          "MacDowell Preparatory Academy"
+        ]
+      }
+    },
+    {
+      "path": "/analysis/funding-flow/",
+      "url": "https://detroit.primals.eco/analysis/funding-flow/",
+      "title": "Where the Money Goes — MacDowell Funding Flow Analysis",
+      "description": "MacDowell spends 32% on instruction vs. the 55-65% state target. Purpose Group LLC takes 10% management fee plus all operating costs — 72.67% of revenue.",
+      "word_count": 596,
+      "section": "/analysis/",
+      "taxonomies": {
+        "actors": [
+          "Brian Banks",
+          "Joseph Holland"
+        ],
+        "connections": [
+          "business entity",
+          "financial audit",
+          "charter authorization"
+        ],
+        "entities": [
+          "MacDowell Preparatory Academy",
+          "The Purpose Group LLC",
+          "Purpose Charter Academy",
+          "Michigan Department of Education"
+        ]
+      }
+    },
+    {
+      "path": "/analysis/historical-pattern/",
+      "url": "https://detroit.primals.eco/analysis/historical-pattern/",
+      "title": "Two Eras of Machine Politics — From Tammany Hall to The Power Broker",
+      "description": "Detroit's charter school network maps to two historical models of American corruption. The Sabree-Kilpatrick era is Boss Tweed's Tammany Hall: patronage, court control, open graft. The Banks era is Robert Moses: never elected, controls through private authorities, makes himself indispensable by controlling the flow of public money to vulnerable populations.",
+      "word_count": 2589,
+      "section": "/analysis/",
+      "taxonomies": {
+        "actors": [
+          "Brian Banks",
+          "Eric Sabree",
+          "Kwame Kilpatrick"
+        ],
+        "connections": [
+          "political machine",
+          "institutional capture",
+          "historical pattern"
+        ],
+        "entities": [
+          "Purpose Group LLC",
+          "MacDowell Preparatory Academy",
+          "Purpose Charter Academy"
+        ]
+      }
+    },
+    {
+      "path": "/analysis/institutional-capture-graph/",
+      "url": "https://detroit.primals.eco/analysis/institutional-capture-graph/",
+      "title": "The Institutional Capture Graph — Four Nexus Types, One Network",
+      "description": "Detroit's institutional capture network operates through four interconnected nexus types: education fraud, political capture, police weaponization, and legislative pipeline. Each nexus activates when another is under pressure. The police chief sits on a charter school board. The assistant attorney general who argued against Banks's certificate now chairs Banks's second school. Every bar complaint target corresponds to a school board member.",
+      "word_count": 2577,
+      "section": "/analysis/",
+      "taxonomies": {
+        "actors": [
+          "Brian Banks",
+          "Todd Bettison",
+          "Mary Sheffield",
+          "Lamar Moreland",
+          "Nicole Wells Stallworth",
+          "Thomas Stallworth III",
+          "Tenisha Yancey",
+          "Todd Perkins",
+          "Sherry Gay-Dagnogo",
+          "Cylenthia LaToye Miller",
+          "Latisha Johnson",
+          "Gloria McCastle",
+          "Joseph Holland",
+          "Gasper Fiore",
+          "Andre Spivey",
+          "Bert Johnson",
+          "Gabe Leland",
+          "Eric Sabree",
+          "Warren Evans"
+        ],
+        "connections": [
+          "institutional capture",
+          "credential washing",
+          "police weaponization",
+          "political nexus",
+          "education fraud",
+          "FBI wiretap"
+        ],
+        "entities": [
+          "MacDowell Preparatory Academy",
+          "Purpose Charter Academy",
+          "Purpose Group LLC",
+          "Detroit Public Safety Academy",
+          "DPSA",
+          "Inner Link Graphics",
+          "Bank on Banks PAC",
+          "Right Turn Project",
+          "Banks Strategy and Consultants",
+          "Michigan Deserves Better SuperPAC",
+          "Operation Northern Hook"
+        ]
+      }
+    },
+    {
       "path": "/analysis/institutional-capture/",
       "url": "https://detroit.primals.eco/analysis/institutional-capture/",
       "title": "Institutional Capture — Detroit Charter Network",
-      "description": "Institutional capture: how the Banks enterprise controls Detroit schools, courts, and political offices — installing loyalists and creating financial.",
+      "description": "How the Banks enterprise captured Detroit schools, courts, and political offices through board placement, campaign payments, and financial extraction.",
       "word_count": 1478,
       "section": "/analysis/",
       "taxonomies": {
@@ -348,6 +692,32 @@
           "Anchor Rock Foundation",
           "Serenity Guardianship Services",
           "Inner Link Graphics"
+        ]
+      }
+    },
+    {
+      "path": "/analysis/land-deal/",
+      "url": "https://detroit.primals.eco/analysis/land-deal/",
+      "title": "The Land Deal — PCA's Building Purchase Option",
+      "description": "The Purpose Group management agreement includes an option to purchase the PCA school building from DPSCD. Public property conversion through a charter school.",
+      "word_count": 638,
+      "section": "/analysis/",
+      "taxonomies": {
+        "actors": [
+          "Brian Banks",
+          "Judge Cylenthia Miller",
+          "Sherry Gay-Dagnogo",
+          "Nicole Wells-Stallworth"
+        ],
+        "connections": [
+          "charter authorization",
+          "business entity",
+          "board membership"
+        ],
+        "entities": [
+          "Purpose Charter Academy",
+          "The Purpose Group LLC",
+          "Michigan Department of Education"
         ]
       }
     },
@@ -396,11 +766,248 @@
       }
     },
     {
+      "path": "/analysis/shepherds-and-wolves/",
+      "url": "https://detroit.primals.eco/analysis/shepherds-and-wolves/",
+      "title": "Shepherds and Wolves — The Church Layer",
+      "description": "Self-ordained bishops and Pentecostal leaders endorsed, platformed, and authorized a 9-time convicted felon to run schools for Detroit's most vulnerable children. The congregations were never told. The lambs were handed to the wolves by their own shepherds.",
+      "word_count": 1237,
+      "section": "/analysis/",
+      "taxonomies": {
+        "actors": [
+          "Brian Banks",
+          "Corletta Vaughn",
+          "J. Drew Sheard",
+          "Sherry Gay-Dagnogo"
+        ],
+        "connections": [
+          "endorsement",
+          "charter authorization",
+          "religious institution",
+          "political campaign"
+        ],
+        "entities": [
+          "Purpose Charter Academy",
+          "MacDowell Preparatory Academy",
+          "Greater Emmanuel Institutional COGIC",
+          "Holy Ghost Cathedral Church",
+          "City Hill Church",
+          "Great Lakes Vision for Evangelism",
+          "Go Tell It Evangelistic Ministry"
+        ]
+      }
+    },
+    {
+      "path": "/analysis/the-machine/",
+      "url": "https://detroit.primals.eco/analysis/the-machine/",
+      "title": "The Machine — How Every Level Was Captured",
+      "description": "A structural analysis of how entities, county lines, plea bargains, church networks, financial institutions, and regulatory silos are weaponized to create a captive population from which to harvest. From the ecoPrimals philosophical framework — this is detroit.primals.eco's application of the Return to Omelas.",
+      "word_count": 3568,
+      "section": "/analysis/",
+      "taxonomies": {
+        "actors": [
+          "Brian Banks"
+        ],
+        "connections": [
+          "systemic analysis",
+          "institutional capture",
+          "philosophy"
+        ],
+        "entities": [
+          "Purpose Charter Academy",
+          "MacDowell Preparatory Academy"
+        ]
+      }
+    },
+    {
+      "path": "/analysis/words-vs-numbers/",
+      "url": "https://detroit.primals.eco/analysis/words-vs-numbers/",
+      "title": "Words vs. Numbers — Praise vs. Performance",
+      "description": "What Detroit charter school leaders say vs. what public records show. 3% math proficiency. 14% properly credentialed staff. 9 criminal convictions.",
+      "word_count": 399,
+      "section": "/analysis/",
+      "taxonomies": {
+        "actors": [
+          "Brian Banks",
+          "Joseph Holland",
+          "Judge Cylenthia Miller",
+          "Nicole Wells-Stallworth",
+          "Sherry Gay-Dagnogo"
+        ],
+        "connections": [
+          "credential fraud",
+          "board membership",
+          "charter authorization"
+        ],
+        "entities": [
+          "MacDowell Preparatory Academy",
+          "Purpose Charter Academy",
+          "The Purpose Group LLC"
+        ]
+      }
+    },
+    {
+      "path": "/books/black-mafia-family/",
+      "url": "https://detroit.primals.eco/books/black-mafia-family/",
+      "title": "The Black Mafia Family — Tonesa Welch's BMF Narrative",
+      "description": "Tonesa Welch's BMF book treats a drug enterprise as a brand. Zero victims named in hundreds of pages. She is Brian Banks' aunt and BMF defendant.",
+      "word_count": 658,
+      "section": "/books/",
+      "taxonomies": {
+        "actors": [
+          "Brian Banks",
+          "OD Banks"
+        ],
+        "connections": [
+          "family",
+          "criminal record"
+        ],
+        "entities": [
+          "Purpose Charter Academy",
+          "MacDowell Preparatory Academy"
+        ]
+      }
+    },
+    {
+      "path": "/books/it-had-2-happen/",
+      "url": "https://detroit.primals.eco/books/it-had-2-happen/",
+      "title": "It Had 2 Happen — Brian Banks' Autobiography",
+      "description": "Brian Banks' autobiography reframes 9 criminal convictions as a redemption arc. Zero victims named. Zero accountability. The J.D. claim appears on the cover.",
+      "word_count": 679,
+      "section": "/books/",
+      "taxonomies": {
+        "actors": [
+          "Brian Banks",
+          "OD Banks"
+        ],
+        "connections": [
+          "credential fraud",
+          "criminal record"
+        ],
+        "entities": [
+          "Purpose Charter Academy",
+          "MacDowell Preparatory Academy",
+          "The Purpose Group LLC"
+        ]
+      }
+    },
+    {
+      "path": "/coverage/chalkbeat-purpose-authorization/",
+      "url": "https://detroit.primals.eco/coverage/chalkbeat-purpose-authorization/",
+      "title": "DPSCD Authorizes Purpose Charter Academy — Chalkbeat (Sep 2025)",
+      "description": "Chalkbeat Detroit's reporting on DPSCD approving Purpose Charter Academy for Brian Banks' operator group. Cross-referenced to our evidence library.",
+      "word_count": 300,
+      "section": "/coverage/"
+    },
+    {
+      "path": "/coverage/clutch-detroit-files/",
+      "url": "https://detroit.primals.eco/coverage/clutch-detroit-files/",
+      "title": "The Detroit Files, Part I: The Room — Clutch Justice (Sep 2026)",
+      "description": "Clutch Justice's investigation into Detroit evidentiary failures and institutional record-making. Cross-referenced to our evidence library.",
+      "word_count": 154,
+      "section": "/coverage/"
+    },
+    {
+      "path": "/coverage/clutch-foia-guide/",
+      "url": "https://detroit.primals.eco/coverage/clutch-foia-guide/",
+      "title": "FOIA and Your Michigan School Board — Clutch Justice (Sep 2026)",
+      "description": "Clutch Justice legal roadmap for parents to FOIA charter school records under Michigan law. Cross-referenced to our evidence library.",
+      "word_count": 142,
+      "section": "/coverage/"
+    },
+    {
+      "path": "/coverage/clutch-hubbard-probate/",
+      "url": "https://detroit.primals.eco/coverage/clutch-hubbard-probate/",
+      "title": "Wayne County Probate: Susan Hubbard Petition Fight — Clutch Justice (Sep 2026)",
+      "description": "Clutch Justice coverage of the Wayne County Probate Court election process. Context for the judicial connections documented in this evidence library.",
+      "word_count": 145,
+      "section": "/coverage/"
+    },
+    {
+      "path": "/coverage/clutch-justice/",
+      "url": "https://detroit.primals.eco/coverage/clutch-justice/",
+      "title": "Clutch Justice — Rita Williams",
+      "description": "Clutch Justice is an independent investigative project covering Michigan courts, crime, and judicial accountability. Their reporting overlaps with and strengthens this evidence library.",
+      "word_count": 695,
+      "section": "/coverage/"
+    },
+    {
+      "path": "/coverage/clutch-macdowell-spending/",
+      "url": "https://detroit.primals.eco/coverage/clutch-macdowell-spending/",
+      "title": "MacDowell: $15,217/Student, 3% Math — Clutch Justice (Sep 2026)",
+      "description": "Clutch Justice investigation into MacDowell Preparatory Academy's spending, outcomes, and DPSCD authorization of a second charter. Cross-referenced to our public records database.",
+      "word_count": 331,
+      "section": "/coverage/"
+    },
+    {
+      "path": "/coverage/clutch-miller-owi/",
+      "url": "https://detroit.primals.eco/coverage/clutch-miller-owi/",
+      "title": "Judge Miller OWI: \"The Proper Move\" — Clutch Justice (Jul 2026)",
+      "description": "Clutch Justice investigation into Judge Cylenthia Miller's OWI courtroom appearance and judicial boundary violations. Cross-referenced to our evidence library.",
+      "word_count": 225,
+      "section": "/coverage/"
+    },
+    {
+      "path": "/coverage/clutch-trial-by-mechanism/",
+      "url": "https://detroit.primals.eco/coverage/clutch-trial-by-mechanism/",
+      "title": "Trial by Mechanism — Clutch Justice (Sep–Oct 2026)",
+      "description": "Rita Williams' multi-part investigation into Michigan's prosecutorial mechanisms and the one-person grand jury collapse. Context for why accountability gaps exist.",
+      "word_count": 193,
+      "section": "/coverage/"
+    },
+    {
+      "path": "/coverage/elrick-back-to-fool/",
+      "url": "https://detroit.primals.eco/coverage/elrick-back-to-fool/",
+      "title": "\"Back to Fool\" — M.L. Elrick, Detroit Free Press (Aug 2023)",
+      "description": "M.L. Elrick's investigation into MacDowell Preparatory Academy hiring Brian Banks — an 8-time felon — as principal. Cross-referenced to our public records database.",
+      "word_count": 330,
+      "section": "/coverage/"
+    },
+    {
+      "path": "/evidence/agency-referrals/",
+      "url": "https://detroit.primals.eco/evidence/agency-referrals/",
+      "title": "Agency Referrals",
+      "description": "Complete record of criminal and administrative referrals submitted to federal and state agencies. Eight federal agencies. State agencies. Judicial Tenure Commission. Every referral timestamped.",
+      "word_count": 951,
+      "section": "/evidence/"
+    },
+    {
+      "path": "/evidence/correspondence/",
+      "url": "https://detroit.primals.eco/evidence/correspondence/",
+      "title": "Correspondence Timeline",
+      "description": "Complete chronological record of communications between Kevin Mok and all counsel, agencies, and parties. Every email timestamped. Every letter documented.",
+      "word_count": 1163,
+      "section": "/evidence/"
+    },
+    {
+      "path": "/evidence/court-filings/",
+      "url": "https://detroit.primals.eco/evidence/court-filings/",
+      "title": "Court Filings",
+      "description": "All civil complaints, motions, and filings in Ingham County Circuit Court and Wayne County Circuit Court. Public records, published for transparency.",
+      "word_count": 834,
+      "section": "/evidence/"
+    },
+    {
+      "path": "/evidence/foia-requests/",
+      "url": "https://detroit.primals.eco/evidence/foia-requests/",
+      "title": "FOIA Requests and Responses",
+      "description": "Complete record of all Freedom of Information Act requests submitted in this investigation. Requests, responses, timelines, and what the government records reveal.",
+      "word_count": 1094,
+      "section": "/evidence/"
+    },
+    {
+      "path": "/evidence/tcr-22-12/",
+      "url": "https://detroit.primals.eco/evidence/tcr-22-12/",
+      "title": "TCR 22-12 — The Administrator Certificate",
+      "description": "The Teacher Certification Review decision that gave a nine-time convicted felon a Michigan school administrator certificate. Seven conditions. Who testified. What they said. What happened next.",
+      "word_count": 1231,
+      "section": "/evidence/"
+    },
+    {
       "path": "/network/actors/brian-banks/",
       "url": "https://detroit.primals.eco/network/actors/brian-banks/",
       "title": "Brian Roderick Banks — Enterprise Leader",
       "description": "Dr. Brian Banks, J.D., Ph.D. — 9 criminal convictions (6 felony). Pahara Fellow. State Bar of Michigan: zero results for claimed J.D. Superintendent of MacDowell Prep (3% math) and Purpose Charter Academy founder. It Had 2 Happen author.",
-      "word_count": 990,
+      "word_count": 1436,
       "section": "/network/actors/",
       "taxonomies": {
         "actors": [
@@ -437,8 +1044,8 @@
       "path": "/network/actors/joseph-holland/",
       "url": "https://detroit.primals.eco/network/actors/joseph-holland/",
       "title": "Joseph Holland Jr. — Financial Gatekeeper",
-      "description": "Convicted drug offender (MDOC #443789, Controlled Substance — Possession). Discharged 'WITHOUT IMPROVEMENT.",
-      "word_count": 274,
+      "description": "Joseph Holland Jr. Convicted drug offender (MDOC #443789). Discharged WITHOUT IMPROVEMENT. Co-resident and financial officer for Banks charter schools.",
+      "word_count": 836,
       "section": "/network/actors/",
       "taxonomies": {
         "actors": [
@@ -461,6 +1068,49 @@
           "Purpose Foundation",
           "The Purpose Group LLC",
           "Banks Strategy LLC"
+        ]
+      }
+    },
+    {
+      "path": "/network/dynasties/",
+      "url": "https://detroit.primals.eco/network/dynasties/",
+      "title": "Four Dynasties — The Machine Behind the School",
+      "description": "Four interlocking Detroit political dynasties converge on Brian Banks' charter school enterprise: Stallworth (BCF/drug money laundering), Sabree (judicial capture/tax foreclosures), Kilpatrick (RICO/dark money/PR), and Banks/Flenory (BMF/drug trafficking). Each dynasty contributed a different structural component to the machine.",
+      "word_count": 1637,
+      "section": "/network/",
+      "taxonomies": {
+        "actors": [
+          "Brian Banks",
+          "Keith Stallworth",
+          "Thomas Stallworth III",
+          "Nicole Wells-Stallworth",
+          "Alma Stallworth",
+          "Misha Stallworth West",
+          "Eric Sabree",
+          "Judge Aliyah Sabree",
+          "Judge Adam Sabree",
+          "Kwame Kilpatrick",
+          "Carolyn Cheeks Kilpatrick",
+          "Karen Dumas",
+          "Kenneth Daniels",
+          "OD Banks",
+          "Tonesa Welch",
+          "Sherry Gay-Dagnogo"
+        ],
+        "connections": [
+          "political dynasty",
+          "family",
+          "federal conviction",
+          "money laundering",
+          "drug trafficking",
+          "charter authorization",
+          "judicial capture"
+        ],
+        "entities": [
+          "Black Caucus Foundation of Michigan",
+          "Purpose Charter Academy",
+          "MacDowell Preparatory Academy",
+          "Detroit Leaders"
         ]
       }
     },
@@ -495,7 +1145,7 @@
       "path": "/network/entities/banks-strategy-llc/",
       "url": "https://detroit.primals.eco/network/entities/banks-strategy-llc/",
       "title": "Banks Strategy & Consultants LLC — Judge Payments",
-      "description": "Banks' consulting firm receives campaign payments from sitting judges. Chronic administrative neglect — lost good standing, batch-filed 3 overdue annual.",
+      "description": "Banks Strategy LLC receives campaign payments from sitting judges. Lost good standing with LARA. Batch-filed 3 overdue annual reports in one day.",
       "word_count": 310,
       "section": "/network/entities/",
       "taxonomies": {
@@ -515,6 +1165,35 @@
           "Purpose Charter Academy",
           "MacDowell Preparatory Academy",
           "The Purpose Group LLC"
+        ]
+      }
+    },
+    {
+      "path": "/network/entities/black-caucus-foundation/",
+      "url": "https://detroit.primals.eco/network/entities/black-caucus-foundation/",
+      "title": "Black Caucus Foundation of Michigan — Reunion of Felons",
+      "description": "The Black Caucus Foundation of Michigan, founded by Alma Stallworth: stated mission 'to decrease usage of drugs and alcohol among youth.' Board roster included Brian Banks (9 felony convictions), Keith Stallworth (federal money laundering), Virgil Smith (felony assault), and Bert Johnson (bribery). All convicted felons.",
+      "word_count": 773,
+      "section": "/network/entities/",
+      "taxonomies": {
+        "actors": [
+          "Brian Banks",
+          "Keith Stallworth",
+          "Thomas Stallworth III",
+          "Alma Stallworth",
+          "Nicole Wells-Stallworth",
+          "Virgil Smith",
+          "Bert Johnson"
+        ],
+        "connections": [
+          "board membership",
+          "federal conviction",
+          "nonprofit governance",
+          "incubation"
+        ],
+        "entities": [
+          "Black Caucus Foundation of Michigan",
+          "MacDowell Preparatory Academy"
         ]
       }
     },
@@ -641,7 +1320,7 @@
       "url": "https://detroit.primals.eco/network/entities/purpose-charter-academy/",
       "title": "Purpose Charter Academy — K-8 Charter School",
       "description": "Purpose Charter Academy School for Law & Public Service — K-8 charter, 10101 E. Canfield, Detroit. DPSCD-authorized. Founder Dr. Brian Banks (9 convictions, 6 felony). Development team includes Judge Cylenthia Miller.",
-      "word_count": 697,
+      "word_count": 691,
       "section": "/network/entities/",
       "taxonomies": {
         "actors": [
@@ -790,6 +1469,192 @@
           "Serenity Guardianship Services",
           "MacDowell Preparatory Academy",
           "Purpose Charter Academy"
+        ]
+      }
+    },
+    {
+      "path": "/network/institutional/alan-young-associates/",
+      "url": "https://detroit.primals.eco/network/institutional/alan-young-associates/",
+      "title": "Alan C. Young & Associates — Auditor",
+      "description": "Alan C. Young & Associates, independent auditor for MacDowell Preparatory Academy for 9 consecutive fiscal years (FY2017–FY2025). Entity #82747.",
+      "word_count": 251,
+      "section": "/network/institutional/",
+      "taxonomies": {
+        "actors": [
+          "Alan C. Young"
+        ],
+        "connections": [
+          "financial audit",
+          "institutional oversight"
+        ],
+        "entities": [
+          "MacDowell Preparatory Academy",
+          "Alan C. Young & Associates"
+        ]
+      }
+    },
+    {
+      "path": "/network/institutional/breen-leah/",
+      "url": "https://detroit.primals.eco/network/institutional/breen-leah/",
+      "title": "Leah Breen — MDE Official",
+      "description": "Leah Breen, Michigan Department of Education official. First to flag non-compliance in the Banks credential investigation.",
+      "word_count": 118,
+      "section": "/network/institutional/",
+      "taxonomies": {
+        "actors": [
+          "Leah Breen",
+          "Brian Banks"
+        ],
+        "connections": [
+          "MDE investigation"
+        ],
+        "entities": [
+          "Michigan Department of Education"
+        ]
+      }
+    },
+    {
+      "path": "/network/institutional/daniels-alexandria/",
+      "url": "https://detroit.primals.eco/network/institutional/daniels-alexandria/",
+      "title": "Alexandria Daniels — MacDowell Staff",
+      "description": "Alexandria Daniels, MacDowell Preparatory Academy staff member. CC'd on internal emails during the MDE credential investigation.",
+      "word_count": 113,
+      "section": "/network/institutional/",
+      "taxonomies": {
+        "actors": [
+          "Alexandria Daniels"
+        ],
+        "connections": [
+          "MacDowell staff"
+        ],
+        "entities": [
+          "MacDowell Preparatory Academy"
+        ]
+      }
+    },
+    {
+      "path": "/network/institutional/schmiedeknecht-katie/",
+      "url": "https://detroit.primals.eco/network/institutional/schmiedeknecht-katie/",
+      "title": "Katie Schmiedeknecht — MDE Analyst",
+      "description": "Katie Schmiedeknecht, MDE Office of Educator Excellence Analyst. Provided the compliance loophole that allowed MacDowell Preparatory Academy to avoid penalties for Banks' lack of credentials.",
+      "word_count": 170,
+      "section": "/network/institutional/",
+      "taxonomies": {
+        "actors": [
+          "Katie Schmiedeknecht",
+          "Brian Banks"
+        ],
+        "connections": [
+          "MDE investigation",
+          "credential compliance"
+        ],
+        "entities": [
+          "MacDowell Preparatory Academy",
+          "Michigan Department of Education"
+        ]
+      }
+    },
+    {
+      "path": "/network/institutional/scott-reginald/",
+      "url": "https://detroit.primals.eco/network/institutional/scott-reginald/",
+      "title": "Reginald B. Scott II — MDE Official",
+      "description": "Reginald B. Scott II, former Michigan Department of Education official. Referenced in FOIA documents related to MOECS records.",
+      "word_count": 118,
+      "section": "/network/institutional/",
+      "taxonomies": {
+        "actors": [
+          "Reginald B. Scott II"
+        ],
+        "connections": [
+          "MDE investigation"
+        ],
+        "entities": [
+          "Michigan Department of Education"
+        ]
+      }
+    },
+    {
+      "path": "/network/institutional/tcr-22-12-enablers/",
+      "url": "https://detroit.primals.eco/network/institutional/tcr-22-12-enablers/",
+      "title": "TCR 22-12 — The People Who Vouched",
+      "description": "Analysis of the TCR 22-12 hearing testimony vs. Banks's subsequent conduct. Five professionals vouched for Banks under oath. Their assessments did not hold. The 'diagnoses' were not clinical — they were verbal agreements between non-medical professionals.",
+      "word_count": 1077,
+      "section": "/network/institutional/",
+      "taxonomies": {
+        "actors": [
+          "Brian Banks",
+          "Nicole Wells-Stallworth",
+          "Gregory M. Meihn",
+          "Nicolai Vitti",
+          "Terrence Shulman",
+          "Michele Leno"
+        ],
+        "connections": [
+          "TCR 22-12 testimony",
+          "credential cover-up",
+          "compliance failure"
+        ],
+        "entities": [
+          "MacDowell Preparatory Academy",
+          "Michigan Department of Education"
+        ]
+      }
+    },
+    {
+      "path": "/network/institutional/vitti-nicolai/",
+      "url": "https://detroit.primals.eco/network/institutional/vitti-nicolai/",
+      "title": "Nicolai Vitti — DPSCD Superintendent Who Authorized PCA",
+      "description": "Dr. Nikolai Vitti, DPSCD Superintendent. Mentored Banks. Testified in support at TCR 22-12 hearing. Under his leadership, DPSCD authorized Purpose Charter Academy — a charter school run by a man with 8 felony convictions and MacDowell's bottom 3% math proficiency — to serve homeless children, juvenile justice children, and chronically absent children. DPSCD receives a 3% authorization fee (~$81,000/yr).",
+      "word_count": 573,
+      "section": "/network/institutional/",
+      "taxonomies": {
+        "actors": [
+          "Nikolai Vitti",
+          "Brian Banks",
+          "Misha Stallworth West"
+        ],
+        "connections": [
+          "charter authorization",
+          "mentorship",
+          "TCR 22-12 testimony",
+          "institutional oversight"
+        ],
+        "entities": [
+          "Detroit Public Schools Community District",
+          "MacDowell Preparatory Academy",
+          "Purpose Charter Academy"
+        ]
+      }
+    },
+    {
+      "path": "/network/institutional/wells-stallworth-nicole/",
+      "url": "https://detroit.primals.eco/network/institutional/wells-stallworth-nicole/",
+      "title": "Nicole Wells-Stallworth — MacDowell Board President",
+      "description": "Nicole Wells-Stallworth, Board President of MacDowell Preparatory Academy since 2012. CEO of The Children's Center. Married to Thomas Stallworth III (state rep). Brother-in-law Keith Stallworth (federal money laundering). Stepdaughter Misha Stallworth West sits on DPSCD board that authorizes MacDowell's charter. Hired Banks. Donated $1,250+ to his campaigns. Killed MDE investigation in 2 hours 24 minutes.",
+      "word_count": 1189,
+      "section": "/network/institutional/",
+      "taxonomies": {
+        "actors": [
+          "Nicole Wells-Stallworth",
+          "Brian Banks",
+          "Thomas Stallworth III",
+          "Keith Stallworth",
+          "Alma Stallworth",
+          "Misha Stallworth West",
+          "Gregory M. Meihn"
+        ],
+        "connections": [
+          "board membership",
+          "MDE investigation",
+          "campaign finance",
+          "family",
+          "credential cover-up"
+        ],
+        "entities": [
+          "MacDowell Preparatory Academy",
+          "Black Caucus Foundation of Michigan",
+          "Foley & Mansfield PLLP",
+          "The Children's Center"
         ]
       }
     },
@@ -954,7 +1819,7 @@
       "url": "https://detroit.primals.eco/network/judges/kelly-ramsey/",
       "title": "Judge Kelly Ramsey — Criminal Division",
       "description": "Judge Kelly Ramsey — Wayne County 3rd Circuit Criminal Division. Daughter pushed Banks to Promise Schools. Two family members on MacDowell payroll.",
-      "word_count": 515,
+      "word_count": 524,
       "section": "/network/judges/",
       "taxonomies": {
         "actors": [
@@ -984,7 +1849,7 @@
       "url": "https://detroit.primals.eco/network/judges/sean-perkins/",
       "title": "Judge Sean Perkins — 36th District Court",
       "description": "Judge Sean Perkins — 36th District Court. Brother of Todd Perkins, Brian Banks' personal attorney. Worked at Todd's firm before taking the bench.",
-      "word_count": 464,
+      "word_count": 466,
       "section": "/network/judges/",
       "taxonomies": {
         "actors": [
@@ -1014,9 +1879,9 @@
     {
       "path": "/network/judges/tenisha-yancey/",
       "url": "https://detroit.primals.eco/network/judges/tenisha-yancey/",
-      "title": "Judge Tenisha Yancey",
-      "description": "Judge Tenisha Yancey — 36th District Court. MacDowell board chair. $383.82 was her sole contribution and sole expenditure — all to Banks Strategy LLC.",
-      "word_count": 698,
+      "title": "Judge Tenisha Yancey — The Bridge",
+      "description": "Judge Tenisha Yancey, 36th District Court. MacDowell Board Chair. Her sole campaign activity: paying Banks' LLC $383.82. Sister Dr. Chalena Yancey Beasley runs PCA. Son Jaylen paid $2,935 from campaign. Niece of UAW VP Jimmy Settles. Worked at Wayne County Land Bank under Eric Sabree. Succeeded Banks in HD-1. Grew up on his street.",
+      "word_count": 1018,
       "section": "/network/judges/",
       "taxonomies": {
         "actors": [
@@ -1024,13 +1889,16 @@
           "Brian Banks",
           "Judge Adam Sabree",
           "Judge Sean Perkins",
-          "Eric Sabree"
+          "Eric Sabree",
+          "Dr. Chalena Yancey Beasley",
+          "Jimmy Settles"
         ],
         "connections": [
           "board membership",
           "campaign finance",
           "family",
           "employment",
+          "predecessor-successor",
           "charter authorization"
         ],
         "courts": [
@@ -1040,7 +1908,8 @@
           "MacDowell Preparatory Academy",
           "Purpose Charter Academy",
           "Banks Strategy LLC",
-          "Inner Link Graphics"
+          "Inner Link Graphics",
+          "Wayne County Land Bank"
         ]
       }
     },
@@ -1148,7 +2017,7 @@
       "path": "/network/political/eric-sabree/",
       "url": "https://detroit.primals.eco/network/political/eric-sabree/",
       "title": "Eric Sabree — Wayne County Treasurer",
-      "description": "Eric Sabree — elected Wayne County Treasurer. Father of two network judges (Aliyah Sabree, Adam Sabree). FBI-probed 2019. Bowles v.",
+      "description": "Eric Sabree, Wayne County Treasurer. Father of two network-connected judges. FBI-probed 2019 over property tax foreclosures. Bowles v. Sabree (6th Cir.).",
       "word_count": 919,
       "section": "/network/political/",
       "taxonomies": {
@@ -1175,22 +2044,61 @@
       }
     },
     {
+      "path": "/network/political/kilpatrick-dynasty/",
+      "url": "https://detroit.primals.eco/network/political/kilpatrick-dynasty/",
+      "title": "The Kilpatrick Dynasty — Next Generation Playbook",
+      "description": "Banks explicitly aligned himself with the Kilpatrick political dynasty. Carolyn Cheeks Kilpatrick (Kwame's mother, former Congresswoman) was an honorary host at Banks' 2023 CBC party. Karen Dumas (Kwame's comms chief) promotes Banks' schools. Kenneth Daniels (Kwame appointee, convicted drug money structurer) runs dark money backing Banks' board members. The pattern: convicted officials protecting convicted officials.",
+      "word_count": 1360,
+      "section": "/network/political/",
+      "taxonomies": {
+        "actors": [
+          "Carolyn Cheeks Kilpatrick",
+          "Kwame Kilpatrick",
+          "Karen Dumas",
+          "Kenneth Daniels",
+          "Charles Pugh",
+          "Brian Banks",
+          "Sherry Gay-Dagnogo",
+          "Latisha Johnson"
+        ],
+        "connections": [
+          "political dynasty",
+          "federal conviction",
+          "dark money",
+          "CBC events",
+          "campaign"
+        ],
+        "courts": [
+          "Eastern District of Michigan"
+        ],
+        "entities": [
+          "Detroit Leaders",
+          "Purpose Charter Academy",
+          "MacDowell Preparatory Academy",
+          "Images & Ideas Inc"
+        ]
+      }
+    },
+    {
       "path": "/network/political/sherry-gay-dagnogo/",
       "url": "https://detroit.primals.eco/network/political/sherry-gay-dagnogo/",
-      "title": "Sherry Gay-Dagnogo — Former Charter Authorizer",
-      "description": "Detroit City Ombudsman since Oct 2025. Former DPSCD board member who authorized Banks' charter schools. Ex-MI State Rep (HD-8).",
-      "word_count": 317,
+      "title": "Sherry Gay-Dagnogo — The Golden Parachute",
+      "description": "Detroit Ombudsman (10-year term to 2035). Former DPSCD board member who authorized PCA. Former MI State Rep who publicly rallied for Banks at AG charges. Paid convicted drug trafficker Holland $2,000 from her PAC. Sought Kwame Kilpatrick clemency. AG-referred for campaign finance violations. Thanked by name in Banks' book.",
+      "word_count": 1060,
       "section": "/network/political/",
       "taxonomies": {
         "actors": [
           "Sherry Gay-Dagnogo",
           "Brian Banks",
-          "Joseph Holland"
+          "Joseph Holland",
+          "Kwame Kilpatrick",
+          "Corletta Vaughn"
         ],
         "connections": [
           "charter authorization",
           "campaign finance",
-          "board membership"
+          "public defense",
+          "institutional capture"
         ],
         "courts": [
           "Wayne County 3rd Circuit Court"
@@ -1198,7 +2106,225 @@
         "entities": [
           "Purpose Charter Academy",
           "MacDowell Preparatory Academy",
-          "The Purpose Group LLC"
+          "The Purpose Group LLC",
+          "Strong Women Lead PAC",
+          "Detroit Leaders"
+        ]
+      }
+    },
+    {
+      "path": "/network/political/stallworth-alma/",
+      "url": "https://detroit.primals.eco/network/political/stallworth-alma/",
+      "title": "Alma Stallworth — Dynasty Matriarch",
+      "description": "Former Michigan State Rep Alma Stallworth (21 years). Founded the Black Caucus Foundation of Michigan. Mother of Keith Stallworth (federal money laundering) and Thomas Stallworth III (state rep). Grandmother of Misha Stallworth West (DPSCD Board).",
+      "word_count": 351,
+      "section": "/network/political/",
+      "taxonomies": {
+        "actors": [
+          "Alma Stallworth",
+          "Keith Stallworth",
+          "Thomas Stallworth III",
+          "Nicole Wells-Stallworth",
+          "Misha Stallworth West",
+          "Brian Banks"
+        ],
+        "connections": [
+          "family",
+          "political dynasty",
+          "nonprofit governance"
+        ],
+        "entities": [
+          "Black Caucus Foundation of Michigan"
+        ]
+      }
+    },
+    {
+      "path": "/network/political/stallworth-keith/",
+      "url": "https://detroit.primals.eco/network/political/stallworth-keith/",
+      "title": "Keith 'K.B.' Stallworth — Federal Money Laundering",
+      "description": "Former Michigan State Rep and Wayne County Commissioner Keith Stallworth pleaded guilty in 2003 to federal money laundering through a Detroit strip club. Charged alongside 13 co-conspirators. Brother of Thomas Stallworth III. Managing Director of the Black Caucus Foundation.",
+      "word_count": 833,
+      "section": "/network/political/",
+      "taxonomies": {
+        "actors": [
+          "Keith Stallworth",
+          "Thomas Stallworth III",
+          "Alma Stallworth",
+          "Nicole Wells-Stallworth",
+          "Brian Banks"
+        ],
+        "connections": [
+          "family",
+          "federal conviction",
+          "money laundering",
+          "board membership"
+        ],
+        "courts": [
+          "Eastern District of Michigan"
+        ],
+        "entities": [
+          "Black Caucus Foundation of Michigan"
+        ]
+      }
+    },
+    {
+      "path": "/network/political/stallworth-thomas/",
+      "url": "https://detroit.primals.eco/network/political/stallworth-thomas/",
+      "title": "Thomas Stallworth III — Political Dynasty",
+      "description": "Former Michigan State Rep Thomas Stallworth III. Chair of Legislative Black Caucus. DPS Board Member. Director of BCF (brother Keith's money laundering org). Husband of Nicole Wells-Stallworth (MacDowell Board President). Father of Misha Stallworth West (DPSCD Board).",
+      "word_count": 497,
+      "section": "/network/political/",
+      "taxonomies": {
+        "actors": [
+          "Thomas Stallworth III",
+          "Nicole Wells-Stallworth",
+          "Keith Stallworth",
+          "Alma Stallworth",
+          "Misha Stallworth West",
+          "Brian Banks"
+        ],
+        "connections": [
+          "family",
+          "political dynasty",
+          "board membership",
+          "campaign finance"
+        ],
+        "entities": [
+          "Black Caucus Foundation of Michigan",
+          "MacDowell Preparatory Academy"
+        ]
+      }
+    },
+    {
+      "path": "/network/political/stallworth-west-misha/",
+      "url": "https://detroit.primals.eco/network/political/stallworth-west-misha/",
+      "title": "Misha Stallworth West — DPSCD Board (Authorization Conflict)",
+      "description": "Misha Stallworth West, Detroit Public Schools Community District Board Member. Daughter of Thomas Stallworth III. Stepdaughter of Nicole Wells-Stallworth (MacDowell Board President). DPSCD authorizes MacDowell's charter.",
+      "word_count": 320,
+      "section": "/network/political/",
+      "taxonomies": {
+        "actors": [
+          "Misha Stallworth West",
+          "Thomas Stallworth III",
+          "Nicole Wells-Stallworth",
+          "Brian Banks"
+        ],
+        "connections": [
+          "family",
+          "charter authorization",
+          "conflict of interest"
+        ],
+        "entities": [
+          "MacDowell Preparatory Academy",
+          "Black Caucus Foundation of Michigan"
+        ]
+      }
+    },
+    {
+      "path": "/network/political/vaughn-corletta/",
+      "url": "https://detroit.primals.eco/network/political/vaughn-corletta/",
+      "title": "Bishop Corletta Vaughn — DPSCD Board President",
+      "description": "Bishop Corletta Vaughn, Ph.D. DPSCD Board Vice President (previously President). Board member since 2016. Was on the board when PCA was authorized. Disqualified from 2026 reelection for $950 owed to Wayne County. Senior Pastor of Holy Ghost Cathedral Church.",
+      "word_count": 423,
+      "section": "/network/political/",
+      "taxonomies": {
+        "actors": [
+          "Corletta Vaughn",
+          "Sherry Gay-Dagnogo",
+          "Brian Banks",
+          "Misha Stallworth West"
+        ],
+        "connections": [
+          "charter authorization",
+          "board membership",
+          "institutional capture"
+        ],
+        "entities": [
+          "Purpose Charter Academy",
+          "MacDowell Preparatory Academy"
+        ]
+      }
+    },
+    {
+      "path": "/network/professional-enablers/leno-michele/",
+      "url": "https://detroit.primals.eco/network/professional-enablers/leno-michele/",
+      "title": "Dr. Michele Leno — Court-Ordered Evaluator",
+      "description": "Dr. Michele Leno, Ph.D., LP. TV psychologist who diagnosed Brian Banks with PTSD after 13 sessions. Her specialty is athletes and social media — not PTSD, not forensic psychology, not criminal recidivism. She does court-ordered evaluations in Wayne County.",
+      "word_count": 531,
+      "section": "/network/professional-enablers/",
+      "taxonomies": {
+        "actors": [
+          "Dr. Michele Leno",
+          "Brian Banks"
+        ],
+        "connections": [
+          "psychological evaluation",
+          "TCR testimony",
+          "PTSD diagnosis"
+        ],
+        "courts": [
+          "Teacher Certification Review",
+          "Wayne County courts"
+        ],
+        "entities": [
+          "DML Psychological Services PLLC",
+          "Saybrook University"
+        ]
+      }
+    },
+    {
+      "path": "/network/professional-enablers/meihn-gregory/",
+      "url": "https://detroit.primals.eco/network/professional-enablers/meihn-gregory/",
+      "title": "Gregory M. Meihn — Hall of Fame Attorney, Weekly Meetings, Missed Everything",
+      "description": "Gregory M. Meihn, Partner at Foley & Mansfield PLLP. Michigan Lawyers Weekly Hall of Fame 2022. 66+ trials. Retained by MacDowell within 14 minutes of MDE investigation. Weekly compliance meetings with Banks. Testified Banks is a 'rare find' at TCR 22-12 hearing. Meets weekly but somehow missed Banks' false §5.2 representation in the Management Agreement.",
+      "word_count": 1086,
+      "section": "/network/professional-enablers/",
+      "taxonomies": {
+        "actors": [
+          "Gregory M. Meihn",
+          "Brian Banks",
+          "Nicole Wells-Stallworth"
+        ],
+        "connections": [
+          "legal representation",
+          "MDE investigation",
+          "TCR 22-12 testimony",
+          "weekly meetings",
+          "compliance oversight",
+          "management agreement oversight"
+        ],
+        "courts": [
+          "Teacher Certification Review"
+        ],
+        "entities": [
+          "MacDowell Preparatory Academy",
+          "Foley & Mansfield PLLP",
+          "Purpose Group LLC"
+        ]
+      }
+    },
+    {
+      "path": "/network/professional-enablers/shulman-terrence/",
+      "url": "https://detroit.primals.eco/network/professional-enablers/shulman-terrence/",
+      "title": "Terrence D. Shulman — State Bar Referral Therapist",
+      "description": "Terrence Daryl Shulman, JD, LMSW, ACSW, CAADC, CPC. Self-described recovering theft addict who testified that Brian Banks is 'not dishonest as a matter of character.' His therapeutic model — that theft is addiction, not character — IS his testimony.",
+      "word_count": 480,
+      "section": "/network/professional-enablers/",
+      "taxonomies": {
+        "actors": [
+          "Terrence D. Shulman",
+          "Brian Banks"
+        ],
+        "connections": [
+          "State Bar referral",
+          "TCR testimony",
+          "therapeutic assessment"
+        ],
+        "courts": [
+          "Teacher Certification Review"
+        ],
+        "entities": [
+          "Shulman Center for Compulsive Theft Spending & Hoarding"
         ]
       }
     },
@@ -1207,7 +2333,7 @@
       "url": "https://detroit.primals.eco/network/professional-enablers/todd-perkins/",
       "title": "Todd Perkins — Banks' Attorney",
       "description": "Todd Perkins — Perkins Law Group, Detroit. 'Neighborhood Mayor' candidate 2025 (4th place). Banks' personal attorney. Represented Judge Miller in DTW gun case. Brother is Judge Sean Perkins, 36th District Court.",
-      "word_count": 527,
+      "word_count": 512,
       "section": "/network/professional-enablers/",
       "taxonomies": {
         "actors": [
@@ -1253,10 +2379,88 @@
           "MacDowell Preparatory Academy"
         ]
       }
+    },
+    {
+      "path": "/open-letters/to-gregory-meihn/",
+      "url": "https://detroit.primals.eco/open-letters/to-gregory-meihn/",
+      "title": "An Open Letter to Gregory M. Meihn — TCR 22-12 Compliance",
+      "description": "A notice to MacDowell Preparatory Academy's board attorney regarding Brian Banks's conduct since the TCR 22-12 hearing, the qualifications of the witnesses who testified, and the Board's compliance obligations.",
+      "word_count": 1528,
+      "section": "/open-letters/",
+      "taxonomies": {
+        "actors": [
+          "Gregory M. Meihn",
+          "Brian Banks",
+          "Joseph Holland Jr.",
+          "Tracey Ellis",
+          "Nicole Wells-Stallworth",
+          "Terrence Shulman",
+          "Michele Leno"
+        ],
+        "connections": [
+          "legal representation",
+          "TCR 22-12 testimony",
+          "compliance oversight",
+          "board notification"
+        ],
+        "courts": [
+          "Teacher Certification Review",
+          "Ingham County Circuit Court"
+        ],
+        "entities": [
+          "MacDowell Preparatory Academy",
+          "Foley & Mansfield PLLP",
+          "Purpose Group LLC",
+          "Purpose Charter Academy",
+          "Purpose Foundation"
+        ]
+      }
     }
   ],
   "taxonomies": {
     "actors": {
+      "Alan C. Young": {
+        "pages": [
+          "/network/institutional/alan-young-associates/"
+        ],
+        "count": 1
+      },
+      "Alexandria Daniels": {
+        "pages": [
+          "/network/institutional/daniels-alexandria/"
+        ],
+        "count": 1
+      },
+      "Alma Stallworth": {
+        "pages": [
+          "/network/dynasties/",
+          "/network/entities/black-caucus-foundation/",
+          "/network/institutional/wells-stallworth-nicole/",
+          "/network/political/stallworth-alma/",
+          "/network/political/stallworth-keith/",
+          "/network/political/stallworth-thomas/"
+        ],
+        "count": 6
+      },
+      "Andre Spivey": {
+        "pages": [
+          "/analysis/institutional-capture-graph/"
+        ],
+        "count": 1
+      },
+      "Bert Johnson": {
+        "pages": [
+          "/analysis/institutional-capture-graph/",
+          "/network/entities/black-caucus-foundation/"
+        ],
+        "count": 2
+      },
+      "Beverly Nakenge": {
+        "pages": [
+          "/analysis/corporate-network-lara/"
+        ],
+        "count": 1
+      },
       "Billy McKinney": {
         "pages": [
           "/network/entities/political-action-committees/",
@@ -1267,13 +2471,29 @@
       "Brian Banks": {
         "pages": [
           "/analysis/allied-cases/",
+          "/analysis/banks-holland-partnership/",
           "/analysis/cbc-events/",
+          "/analysis/corporate-network-lara/",
+          "/analysis/credential-audit/",
+          "/analysis/detroit-literacy/",
+          "/analysis/education-landscape/",
+          "/analysis/funding-flow/",
+          "/analysis/historical-pattern/",
+          "/analysis/institutional-capture-graph/",
           "/analysis/institutional-capture/",
+          "/analysis/land-deal/",
           "/analysis/rico-pattern/",
+          "/analysis/shepherds-and-wolves/",
+          "/analysis/the-machine/",
+          "/analysis/words-vs-numbers/",
+          "/books/black-mafia-family/",
+          "/books/it-had-2-happen/",
           "/network/actors/brian-banks/",
           "/network/actors/joseph-holland/",
+          "/network/dynasties/",
           "/network/entities/anchor-rock-foundation/",
           "/network/entities/banks-strategy-llc/",
+          "/network/entities/black-caucus-foundation/",
           "/network/entities/city-hill-church/",
           "/network/entities/macdowell-prep/",
           "/network/entities/political-action-committees/",
@@ -1282,6 +2502,11 @@
           "/network/entities/purpose-group-llc/",
           "/network/entities/serenity-guardianship/",
           "/network/entities/sun-community-development/",
+          "/network/institutional/breen-leah/",
+          "/network/institutional/schmiedeknecht-katie/",
+          "/network/institutional/tcr-22-12-enablers/",
+          "/network/institutional/vitti-nicolai/",
+          "/network/institutional/wells-stallworth-nicole/",
           "/network/judges/adam-sabree/",
           "/network/judges/aliyah-sabree/",
           "/network/judges/cylenthia-miller/",
@@ -1294,15 +2519,97 @@
           "/network/matrices/",
           "/network/political/billy-mckinney/",
           "/network/political/eric-sabree/",
+          "/network/political/kilpatrick-dynasty/",
           "/network/political/sherry-gay-dagnogo/",
+          "/network/political/stallworth-alma/",
+          "/network/political/stallworth-keith/",
+          "/network/political/stallworth-thomas/",
+          "/network/political/stallworth-west-misha/",
+          "/network/political/vaughn-corletta/",
+          "/network/professional-enablers/leno-michele/",
+          "/network/professional-enablers/meihn-gregory/",
+          "/network/professional-enablers/shulman-terrence/",
           "/network/professional-enablers/todd-perkins/",
-          "/open-letters/to-curtis-jackson/"
+          "/open-letters/to-curtis-jackson/",
+          "/open-letters/to-gregory-meihn/"
         ],
-        "count": 31
+        "count": 62
+      },
+      "Brian Meiste": {
+        "pages": [
+          "/analysis/corporate-network-lara/"
+        ],
+        "count": 1
+      },
+      "Carlton Ross": {
+        "pages": [
+          "/analysis/corporate-network-lara/"
+        ],
+        "count": 1
+      },
+      "Carol Banks": {
+        "pages": [
+          "/analysis/corporate-network-lara/"
+        ],
+        "count": 1
+      },
+      "Carolyn Cheeks Kilpatrick": {
+        "pages": [
+          "/network/dynasties/",
+          "/network/political/kilpatrick-dynasty/"
+        ],
+        "count": 2
+      },
+      "Charles Pugh": {
+        "pages": [
+          "/network/political/kilpatrick-dynasty/"
+        ],
+        "count": 1
+      },
+      "Corletta Vaughn": {
+        "pages": [
+          "/analysis/shepherds-and-wolves/",
+          "/network/political/sherry-gay-dagnogo/",
+          "/network/political/vaughn-corletta/"
+        ],
+        "count": 3
+      },
+      "Cylenthia LaToye Miller": {
+        "pages": [
+          "/analysis/institutional-capture-graph/"
+        ],
+        "count": 1
+      },
+      "Cylenthia Miller": {
+        "pages": [
+          "/analysis/corporate-network-lara/"
+        ],
+        "count": 1
+      },
+      "Devin Hutchings": {
+        "pages": [
+          "/analysis/corporate-network-lara/"
+        ],
+        "count": 1
+      },
+      "Dr. Chalena Yancey Beasley": {
+        "pages": [
+          "/network/judges/tenisha-yancey/"
+        ],
+        "count": 1
+      },
+      "Dr. Michele Leno": {
+        "pages": [
+          "/network/professional-enablers/leno-michele/"
+        ],
+        "count": 1
       },
       "Eric Sabree": {
         "pages": [
+          "/analysis/historical-pattern/",
+          "/analysis/institutional-capture-graph/",
           "/analysis/institutional-capture/",
+          "/network/dynasties/",
           "/network/judges/adam-sabree/",
           "/network/judges/aliyah-sabree/",
           "/network/judges/cylenthia-miller/",
@@ -1310,13 +2617,70 @@
           "/network/matrices/",
           "/network/political/eric-sabree/"
         ],
-        "count": 7
+        "count": 10
+      },
+      "Gabe Leland": {
+        "pages": [
+          "/analysis/institutional-capture-graph/"
+        ],
+        "count": 1
+      },
+      "Gasper Fiore": {
+        "pages": [
+          "/analysis/institutional-capture-graph/"
+        ],
+        "count": 1
+      },
+      "Gloria McCastle": {
+        "pages": [
+          "/analysis/institutional-capture-graph/"
+        ],
+        "count": 1
+      },
+      "Gregory M. Meihn": {
+        "pages": [
+          "/network/institutional/tcr-22-12-enablers/",
+          "/network/institutional/wells-stallworth-nicole/",
+          "/network/professional-enablers/meihn-gregory/",
+          "/open-letters/to-gregory-meihn/"
+        ],
+        "count": 4
+      },
+      "Gwendolyn Lewis": {
+        "pages": [
+          "/analysis/corporate-network-lara/"
+        ],
+        "count": 1
+      },
+      "J. Drew Sheard": {
+        "pages": [
+          "/analysis/shepherds-and-wolves/"
+        ],
+        "count": 1
+      },
+      "Jason Gordon": {
+        "pages": [
+          "/analysis/corporate-network-lara/"
+        ],
+        "count": 1
+      },
+      "Jimmy Settles": {
+        "pages": [
+          "/network/judges/tenisha-yancey/"
+        ],
+        "count": 1
       },
       "Joseph Holland": {
         "pages": [
+          "/analysis/banks-holland-partnership/",
           "/analysis/cbc-events/",
+          "/analysis/corporate-network-lara/",
+          "/analysis/credential-audit/",
+          "/analysis/funding-flow/",
+          "/analysis/institutional-capture-graph/",
           "/analysis/institutional-capture/",
           "/analysis/rico-pattern/",
+          "/analysis/words-vs-numbers/",
           "/network/actors/joseph-holland/",
           "/network/entities/anchor-rock-foundation/",
           "/network/entities/city-hill-church/",
@@ -1331,11 +2695,18 @@
           "/network/political/billy-mckinney/",
           "/network/political/sherry-gay-dagnogo/"
         ],
-        "count": 16
+        "count": 22
+      },
+      "Joseph Holland Jr.": {
+        "pages": [
+          "/open-letters/to-gregory-meihn/"
+        ],
+        "count": 1
       },
       "Judge Adam Sabree": {
         "pages": [
           "/analysis/allied-cases/",
+          "/network/dynasties/",
           "/network/entities/inner-link-graphics/",
           "/network/entities/serenity-guardianship/",
           "/network/judges/adam-sabree/",
@@ -1347,26 +2718,29 @@
           "/network/political/eric-sabree/",
           "/network/professional-enablers/todd-perkins/"
         ],
-        "count": 11
+        "count": 12
       },
       "Judge Aliyah Sabree": {
         "pages": [
           "/analysis/institutional-capture/",
           "/analysis/rico-pattern/",
+          "/network/dynasties/",
           "/network/judges/adam-sabree/",
           "/network/judges/aliyah-sabree/",
           "/network/judges/cylenthia-miller/",
           "/network/matrices/",
           "/network/political/eric-sabree/"
         ],
-        "count": 7
+        "count": 8
       },
       "Judge Cylenthia Miller": {
         "pages": [
           "/analysis/allied-cases/",
           "/analysis/cbc-events/",
           "/analysis/institutional-capture/",
+          "/analysis/land-deal/",
           "/analysis/rico-pattern/",
+          "/analysis/words-vs-numbers/",
           "/network/entities/anchor-rock-foundation/",
           "/network/entities/purpose-charter-academy/",
           "/network/judges/aliyah-sabree/",
@@ -1377,7 +2751,7 @@
           "/network/matrices/",
           "/network/professional-enablers/todd-perkins/"
         ],
-        "count": 13
+        "count": 15
       },
       "Judge David Perkins": {
         "pages": [
@@ -1448,28 +2822,225 @@
         ],
         "count": 3
       },
+      "Karen Dumas": {
+        "pages": [
+          "/network/dynasties/",
+          "/network/political/kilpatrick-dynasty/"
+        ],
+        "count": 2
+      },
+      "Katie Schmiedeknecht": {
+        "pages": [
+          "/analysis/credential-audit/",
+          "/analysis/detroit-literacy/",
+          "/network/institutional/schmiedeknecht-katie/"
+        ],
+        "count": 3
+      },
+      "Keith Stallworth": {
+        "pages": [
+          "/network/dynasties/",
+          "/network/entities/black-caucus-foundation/",
+          "/network/institutional/wells-stallworth-nicole/",
+          "/network/political/stallworth-alma/",
+          "/network/political/stallworth-keith/",
+          "/network/political/stallworth-thomas/"
+        ],
+        "count": 6
+      },
+      "Kenneth Daniels": {
+        "pages": [
+          "/analysis/corporate-network-lara/",
+          "/network/dynasties/",
+          "/network/political/kilpatrick-dynasty/"
+        ],
+        "count": 3
+      },
+      "Kwame Kilpatrick": {
+        "pages": [
+          "/analysis/historical-pattern/",
+          "/network/dynasties/",
+          "/network/political/kilpatrick-dynasty/",
+          "/network/political/sherry-gay-dagnogo/"
+        ],
+        "count": 4
+      },
+      "Lamar Moreland": {
+        "pages": [
+          "/analysis/corporate-network-lara/",
+          "/analysis/institutional-capture-graph/"
+        ],
+        "count": 2
+      },
+      "Larry Thomas Jr": {
+        "pages": [
+          "/analysis/corporate-network-lara/"
+        ],
+        "count": 1
+      },
+      "Latisha Johnson": {
+        "pages": [
+          "/analysis/corporate-network-lara/",
+          "/analysis/institutional-capture-graph/",
+          "/network/political/kilpatrick-dynasty/"
+        ],
+        "count": 3
+      },
+      "Leah Breen": {
+        "pages": [
+          "/network/institutional/breen-leah/"
+        ],
+        "count": 1
+      },
+      "Major Clora": {
+        "pages": [
+          "/analysis/corporate-network-lara/"
+        ],
+        "count": 1
+      },
+      "Mary Sheffield": {
+        "pages": [
+          "/analysis/institutional-capture-graph/"
+        ],
+        "count": 1
+      },
+      "Michele Leno": {
+        "pages": [
+          "/network/institutional/tcr-22-12-enablers/",
+          "/open-letters/to-gregory-meihn/"
+        ],
+        "count": 2
+      },
+      "Misha Stallworth West": {
+        "pages": [
+          "/network/dynasties/",
+          "/network/institutional/vitti-nicolai/",
+          "/network/institutional/wells-stallworth-nicole/",
+          "/network/political/stallworth-alma/",
+          "/network/political/stallworth-thomas/",
+          "/network/political/stallworth-west-misha/",
+          "/network/political/vaughn-corletta/"
+        ],
+        "count": 7
+      },
+      "Nicolai Vitti": {
+        "pages": [
+          "/network/institutional/tcr-22-12-enablers/"
+        ],
+        "count": 1
+      },
+      "Nicole Wells Stallworth": {
+        "pages": [
+          "/analysis/institutional-capture-graph/"
+        ],
+        "count": 1
+      },
+      "Nicole Wells-Stallworth": {
+        "pages": [
+          "/analysis/land-deal/",
+          "/analysis/words-vs-numbers/",
+          "/network/dynasties/",
+          "/network/entities/black-caucus-foundation/",
+          "/network/institutional/tcr-22-12-enablers/",
+          "/network/institutional/wells-stallworth-nicole/",
+          "/network/political/stallworth-alma/",
+          "/network/political/stallworth-keith/",
+          "/network/political/stallworth-thomas/",
+          "/network/political/stallworth-west-misha/",
+          "/network/professional-enablers/meihn-gregory/",
+          "/open-letters/to-gregory-meihn/"
+        ],
+        "count": 12
+      },
+      "Nikolai Vitti": {
+        "pages": [
+          "/network/institutional/vitti-nicolai/"
+        ],
+        "count": 1
+      },
       "OD Banks": {
         "pages": [
           "/analysis/rico-pattern/",
+          "/books/black-mafia-family/",
+          "/books/it-had-2-happen/",
           "/network/actors/brian-banks/",
+          "/network/dynasties/",
           "/open-letters/to-curtis-jackson/"
         ],
-        "count": 3
+        "count": 6
+      },
+      "Reginald B. Scott II": {
+        "pages": [
+          "/network/institutional/scott-reginald/"
+        ],
+        "count": 1
       },
       "Sherry Gay-Dagnogo": {
         "pages": [
           "/analysis/cbc-events/",
+          "/analysis/institutional-capture-graph/",
           "/analysis/institutional-capture/",
+          "/analysis/land-deal/",
+          "/analysis/shepherds-and-wolves/",
+          "/analysis/words-vs-numbers/",
+          "/network/dynasties/",
           "/network/entities/purpose-charter-academy/",
           "/network/entities/sun-community-development/",
           "/network/political/billy-mckinney/",
-          "/network/political/sherry-gay-dagnogo/"
+          "/network/political/kilpatrick-dynasty/",
+          "/network/political/sherry-gay-dagnogo/",
+          "/network/political/vaughn-corletta/"
         ],
-        "count": 6
+        "count": 13
+      },
+      "Tenisha Yancey": {
+        "pages": [
+          "/analysis/institutional-capture-graph/"
+        ],
+        "count": 1
+      },
+      "Terrence D. Shulman": {
+        "pages": [
+          "/network/professional-enablers/shulman-terrence/"
+        ],
+        "count": 1
+      },
+      "Terrence Shulman": {
+        "pages": [
+          "/network/institutional/tcr-22-12-enablers/",
+          "/open-letters/to-gregory-meihn/"
+        ],
+        "count": 2
+      },
+      "Terrence Tarver": {
+        "pages": [
+          "/analysis/corporate-network-lara/"
+        ],
+        "count": 1
+      },
+      "Thomas Stallworth III": {
+        "pages": [
+          "/analysis/institutional-capture-graph/",
+          "/network/dynasties/",
+          "/network/entities/black-caucus-foundation/",
+          "/network/institutional/wells-stallworth-nicole/",
+          "/network/political/stallworth-alma/",
+          "/network/political/stallworth-keith/",
+          "/network/political/stallworth-thomas/",
+          "/network/political/stallworth-west-misha/"
+        ],
+        "count": 8
+      },
+      "Todd Bettison": {
+        "pages": [
+          "/analysis/institutional-capture-graph/"
+        ],
+        "count": 1
       },
       "Todd Perkins": {
         "pages": [
           "/analysis/allied-cases/",
+          "/analysis/institutional-capture-graph/",
           "/network/judges/cylenthia-miller/",
           "/network/judges/david-perkins/",
           "/network/judges/kelly-ramsey/",
@@ -1477,13 +3048,91 @@
           "/network/judges/vonda-evans/",
           "/network/professional-enablers/todd-perkins/"
         ],
-        "count": 7
+        "count": 8
+      },
+      "Tonesa Welch": {
+        "pages": [
+          "/network/dynasties/"
+        ],
+        "count": 1
+      },
+      "Tracey Ellis": {
+        "pages": [
+          "/open-letters/to-gregory-meihn/"
+        ],
+        "count": 1
+      },
+      "Verkeydia Hall": {
+        "pages": [
+          "/analysis/corporate-network-lara/"
+        ],
+        "count": 1
+      },
+      "Virgil Smith": {
+        "pages": [
+          "/network/entities/black-caucus-foundation/"
+        ],
+        "count": 1
+      },
+      "W Spencer Leach": {
+        "pages": [
+          "/analysis/corporate-network-lara/"
+        ],
+        "count": 1
+      },
+      "Warren Evans": {
+        "pages": [
+          "/analysis/institutional-capture-graph/"
+        ],
+        "count": 1
       }
     },
     "connections": {
+      "CBC events": {
+        "pages": [
+          "/network/political/kilpatrick-dynasty/"
+        ],
+        "count": 1
+      },
+      "FBI wiretap": {
+        "pages": [
+          "/analysis/institutional-capture-graph/"
+        ],
+        "count": 1
+      },
+      "LARA entity": {
+        "pages": [
+          "/analysis/corporate-network-lara/"
+        ],
+        "count": 1
+      },
+      "MDE investigation": {
+        "pages": [
+          "/analysis/credential-audit/",
+          "/network/institutional/breen-leah/",
+          "/network/institutional/schmiedeknecht-katie/",
+          "/network/institutional/scott-reginald/",
+          "/network/institutional/wells-stallworth-nicole/",
+          "/network/professional-enablers/meihn-gregory/"
+        ],
+        "count": 6
+      },
+      "MacDowell staff": {
+        "pages": [
+          "/network/institutional/daniels-alexandria/"
+        ],
+        "count": 1
+      },
+      "PTSD diagnosis": {
+        "pages": [
+          "/network/professional-enablers/leno-michele/"
+        ],
+        "count": 1
+      },
       "RICO predicate": {
         "pages": [
           "/analysis/allied-cases/",
+          "/analysis/banks-holland-partnership/",
           "/analysis/rico-pattern/",
           "/network/actors/brian-banks/",
           "/network/entities/purpose-foundation/",
@@ -1491,31 +3140,74 @@
           "/network/entities/serenity-guardianship/",
           "/network/judges/adam-sabree/"
         ],
-        "count": 7
+        "count": 8
+      },
+      "State Bar referral": {
+        "pages": [
+          "/network/professional-enablers/shulman-terrence/"
+        ],
+        "count": 1
+      },
+      "TCR 22-12 testimony": {
+        "pages": [
+          "/network/institutional/tcr-22-12-enablers/",
+          "/network/institutional/vitti-nicolai/",
+          "/network/professional-enablers/meihn-gregory/",
+          "/open-letters/to-gregory-meihn/"
+        ],
+        "count": 4
+      },
+      "TCR testimony": {
+        "pages": [
+          "/network/professional-enablers/leno-michele/",
+          "/network/professional-enablers/shulman-terrence/"
+        ],
+        "count": 2
+      },
+      "annual report violation": {
+        "pages": [
+          "/analysis/corporate-network-lara/"
+        ],
+        "count": 1
       },
       "board membership": {
         "pages": [
           "/analysis/allied-cases/",
           "/analysis/institutional-capture/",
+          "/analysis/land-deal/",
           "/analysis/rico-pattern/",
+          "/analysis/words-vs-numbers/",
           "/network/actors/joseph-holland/",
           "/network/entities/anchor-rock-foundation/",
+          "/network/entities/black-caucus-foundation/",
           "/network/entities/city-hill-church/",
           "/network/entities/macdowell-prep/",
           "/network/entities/purpose-charter-academy/",
           "/network/entities/purpose-foundation/",
+          "/network/institutional/wells-stallworth-nicole/",
           "/network/judges/cylenthia-miller/",
           "/network/judges/kelly-ramsey/",
           "/network/judges/tenisha-yancey/",
           "/network/matrices/",
-          "/network/political/sherry-gay-dagnogo/"
+          "/network/political/stallworth-keith/",
+          "/network/political/stallworth-thomas/",
+          "/network/political/vaughn-corletta/"
         ],
-        "count": 14
+        "count": 20
+      },
+      "board notification": {
+        "pages": [
+          "/open-letters/to-gregory-meihn/"
+        ],
+        "count": 1
       },
       "business entity": {
         "pages": [
+          "/analysis/banks-holland-partnership/",
           "/analysis/cbc-events/",
+          "/analysis/funding-flow/",
           "/analysis/institutional-capture/",
+          "/analysis/land-deal/",
           "/analysis/rico-pattern/",
           "/network/actors/brian-banks/",
           "/network/actors/joseph-holland/",
@@ -1534,10 +3226,17 @@
           "/network/political/billy-mckinney/",
           "/network/political/eric-sabree/"
         ],
-        "count": 19
+        "count": 22
+      },
+      "campaign": {
+        "pages": [
+          "/network/political/kilpatrick-dynasty/"
+        ],
+        "count": 1
       },
       "campaign finance": {
         "pages": [
+          "/analysis/banks-holland-partnership/",
           "/analysis/cbc-events/",
           "/analysis/institutional-capture/",
           "/analysis/rico-pattern/",
@@ -1545,6 +3244,7 @@
           "/network/entities/banks-strategy-llc/",
           "/network/entities/inner-link-graphics/",
           "/network/entities/political-action-committees/",
+          "/network/institutional/wells-stallworth-nicole/",
           "/network/judges/cylenthia-miller/",
           "/network/judges/david-perkins/",
           "/network/judges/sean-perkins/",
@@ -1553,30 +3253,83 @@
           "/network/matrices/",
           "/network/political/billy-mckinney/",
           "/network/political/eric-sabree/",
-          "/network/political/sherry-gay-dagnogo/"
+          "/network/political/sherry-gay-dagnogo/",
+          "/network/political/stallworth-thomas/"
         ],
-        "count": 16
+        "count": 19
       },
       "charter authorization": {
         "pages": [
           "/analysis/cbc-events/",
+          "/analysis/detroit-literacy/",
+          "/analysis/education-landscape/",
+          "/analysis/funding-flow/",
           "/analysis/institutional-capture/",
+          "/analysis/land-deal/",
           "/analysis/rico-pattern/",
+          "/analysis/shepherds-and-wolves/",
+          "/analysis/words-vs-numbers/",
           "/network/actors/brian-banks/",
+          "/network/dynasties/",
           "/network/entities/macdowell-prep/",
           "/network/entities/purpose-charter-academy/",
           "/network/entities/purpose-group-llc/",
           "/network/entities/sun-community-development/",
+          "/network/institutional/vitti-nicolai/",
           "/network/judges/tenisha-yancey/",
           "/network/political/sherry-gay-dagnogo/",
+          "/network/political/stallworth-west-misha/",
+          "/network/political/vaughn-corletta/",
           "/open-letters/to-curtis-jackson/"
         ],
-        "count": 11
+        "count": 21
+      },
+      "compliance failure": {
+        "pages": [
+          "/network/institutional/tcr-22-12-enablers/"
+        ],
+        "count": 1
+      },
+      "compliance oversight": {
+        "pages": [
+          "/network/professional-enablers/meihn-gregory/",
+          "/open-letters/to-gregory-meihn/"
+        ],
+        "count": 2
+      },
+      "conflict of interest": {
+        "pages": [
+          "/network/political/stallworth-west-misha/"
+        ],
+        "count": 1
+      },
+      "corporate network": {
+        "pages": [
+          "/analysis/corporate-network-lara/"
+        ],
+        "count": 1
+      },
+      "credential compliance": {
+        "pages": [
+          "/network/institutional/schmiedeknecht-katie/"
+        ],
+        "count": 1
+      },
+      "credential cover-up": {
+        "pages": [
+          "/network/institutional/tcr-22-12-enablers/",
+          "/network/institutional/wells-stallworth-nicole/"
+        ],
+        "count": 2
       },
       "credential fraud": {
         "pages": [
+          "/analysis/credential-audit/",
+          "/analysis/detroit-literacy/",
           "/analysis/institutional-capture/",
           "/analysis/rico-pattern/",
+          "/analysis/words-vs-numbers/",
+          "/books/it-had-2-happen/",
           "/network/actors/brian-banks/",
           "/network/entities/macdowell-prep/",
           "/network/entities/purpose-charter-academy/",
@@ -1585,22 +3338,63 @@
           "/network/judges/aliyah-sabree/",
           "/network/judges/denise-langford-morris/"
         ],
-        "count": 9
+        "count": 13
+      },
+      "credential washing": {
+        "pages": [
+          "/analysis/institutional-capture-graph/"
+        ],
+        "count": 1
       },
       "criminal record": {
         "pages": [
+          "/analysis/banks-holland-partnership/",
           "/analysis/rico-pattern/",
+          "/books/black-mafia-family/",
+          "/books/it-had-2-happen/",
           "/network/actors/brian-banks/",
           "/network/actors/joseph-holland/",
           "/network/entities/political-action-committees/",
           "/network/entities/purpose-foundation/",
           "/open-letters/to-curtis-jackson/"
         ],
-        "count": 6
+        "count": 9
+      },
+      "dark money": {
+        "pages": [
+          "/analysis/corporate-network-lara/",
+          "/network/political/kilpatrick-dynasty/"
+        ],
+        "count": 2
+      },
+      "dissolve and reform": {
+        "pages": [
+          "/analysis/corporate-network-lara/"
+        ],
+        "count": 1
+      },
+      "drug trafficking": {
+        "pages": [
+          "/network/dynasties/"
+        ],
+        "count": 1
+      },
+      "education fraud": {
+        "pages": [
+          "/analysis/institutional-capture-graph/"
+        ],
+        "count": 1
+      },
+      "education landscape": {
+        "pages": [
+          "/analysis/education-landscape/"
+        ],
+        "count": 1
       },
       "employment": {
         "pages": [
           "/analysis/allied-cases/",
+          "/analysis/credential-audit/",
           "/analysis/institutional-capture/",
           "/network/actors/joseph-holland/",
           "/network/judges/adam-sabree/",
@@ -1612,14 +3406,23 @@
           "/network/matrices/",
           "/network/professional-enablers/todd-perkins/"
         ],
-        "count": 11
+        "count": 12
+      },
+      "endorsement": {
+        "pages": [
+          "/analysis/shepherds-and-wolves/"
+        ],
+        "count": 1
       },
       "family": {
         "pages": [
           "/analysis/institutional-capture/",
           "/analysis/rico-pattern/",
+          "/books/black-mafia-family/",
           "/network/actors/brian-banks/",
           "/network/actors/joseph-holland/",
+          "/network/dynasties/",
+          "/network/institutional/wells-stallworth-nicole/",
           "/network/judges/adam-sabree/",
           "/network/judges/aliyah-sabree/",
           "/network/judges/david-perkins/",
@@ -1628,14 +3431,67 @@
           "/network/judges/tenisha-yancey/",
           "/network/matrices/",
           "/network/political/eric-sabree/",
+          "/network/political/stallworth-alma/",
+          "/network/political/stallworth-keith/",
+          "/network/political/stallworth-thomas/",
+          "/network/political/stallworth-west-misha/",
           "/network/professional-enablers/todd-perkins/",
           "/open-letters/to-curtis-jackson/"
         ],
-        "count": 14
+        "count": 21
+      },
+      "federal conviction": {
+        "pages": [
+          "/network/dynasties/",
+          "/network/entities/black-caucus-foundation/",
+          "/network/political/kilpatrick-dynasty/",
+          "/network/political/stallworth-keith/"
+        ],
+        "count": 4
+      },
+      "financial audit": {
+        "pages": [
+          "/analysis/funding-flow/",
+          "/network/institutional/alan-young-associates/"
+        ],
+        "count": 2
+      },
+      "historical pattern": {
+        "pages": [
+          "/analysis/historical-pattern/"
+        ],
+        "count": 1
+      },
+      "incubation": {
+        "pages": [
+          "/network/entities/black-caucus-foundation/"
+        ],
+        "count": 1
       },
       "institutional capture": {
         "pages": [
-          "/network/entities/purpose-charter-academy/"
+          "/analysis/detroit-literacy/",
+          "/analysis/historical-pattern/",
+          "/analysis/institutional-capture-graph/",
+          "/analysis/the-machine/",
+          "/network/entities/purpose-charter-academy/",
+          "/network/political/sherry-gay-dagnogo/",
+          "/network/political/vaughn-corletta/"
+        ],
+        "count": 7
+      },
+      "institutional oversight": {
+        "pages": [
+          "/analysis/credential-audit/",
+          "/analysis/detroit-literacy/",
+          "/network/institutional/alan-young-associates/",
+          "/network/institutional/vitti-nicolai/"
+        ],
+        "count": 4
+      },
+      "judicial capture": {
+        "pages": [
+          "/network/dynasties/"
         ],
         "count": 1
       },
@@ -1645,19 +3501,136 @@
           "/network/judges/cylenthia-miller/",
           "/network/judges/sean-perkins/",
           "/network/judges/vonda-evans/",
-          "/network/professional-enablers/todd-perkins/"
+          "/network/professional-enablers/meihn-gregory/",
+          "/network/professional-enablers/todd-perkins/",
+          "/open-letters/to-gregory-meihn/"
         ],
-        "count": 5
+        "count": 7
+      },
+      "management agreement oversight": {
+        "pages": [
+          "/network/professional-enablers/meihn-gregory/"
+        ],
+        "count": 1
       },
       "mentorship": {
         "pages": [
+          "/network/institutional/vitti-nicolai/",
           "/network/judges/aliyah-sabree/",
           "/network/judges/cylenthia-miller/",
           "/network/judges/denise-langford-morris/",
           "/network/judges/kelly-ramsey/",
           "/network/judges/vonda-evans/"
         ],
-        "count": 5
+        "count": 6
+      },
+      "money laundering": {
+        "pages": [
+          "/network/dynasties/",
+          "/network/political/stallworth-keith/"
+        ],
+        "count": 2
+      },
+      "nonprofit governance": {
+        "pages": [
+          "/network/entities/black-caucus-foundation/",
+          "/network/political/stallworth-alma/"
+        ],
+        "count": 2
+      },
+      "philosophy": {
+        "pages": [
+          "/analysis/the-machine/"
+        ],
+        "count": 1
+      },
+      "police weaponization": {
+        "pages": [
+          "/analysis/institutional-capture-graph/"
+        ],
+        "count": 1
+      },
+      "political campaign": {
+        "pages": [
+          "/analysis/shepherds-and-wolves/"
+        ],
+        "count": 1
+      },
+      "political dynasty": {
+        "pages": [
+          "/network/dynasties/",
+          "/network/political/kilpatrick-dynasty/",
+          "/network/political/stallworth-alma/",
+          "/network/political/stallworth-thomas/"
+        ],
+        "count": 4
+      },
+      "political machine": {
+        "pages": [
+          "/analysis/historical-pattern/"
+        ],
+        "count": 1
+      },
+      "political nexus": {
+        "pages": [
+          "/analysis/institutional-capture-graph/"
+        ],
+        "count": 1
+      },
+      "predecessor-successor": {
+        "pages": [
+          "/network/judges/tenisha-yancey/"
+        ],
+        "count": 1
+      },
+      "psychological evaluation": {
+        "pages": [
+          "/network/professional-enablers/leno-michele/"
+        ],
+        "count": 1
+      },
+      "public defense": {
+        "pages": [
+          "/network/political/sherry-gay-dagnogo/"
+        ],
+        "count": 1
+      },
+      "registered agent": {
+        "pages": [
+          "/analysis/corporate-network-lara/"
+        ],
+        "count": 1
+      },
+      "religious institution": {
+        "pages": [
+          "/analysis/shepherds-and-wolves/"
+        ],
+        "count": 1
+      },
+      "self-dealing": {
+        "pages": [
+          "/analysis/corporate-network-lara/"
+        ],
+        "count": 1
+      },
+      "systemic analysis": {
+        "pages": [
+          "/analysis/education-landscape/",
+          "/analysis/the-machine/"
+        ],
+        "count": 2
+      },
+      "therapeutic assessment": {
+        "pages": [
+          "/network/professional-enablers/shulman-terrence/"
+        ],
+        "count": 1
+      },
+      "weekly meetings": {
+        "pages": [
+          "/network/professional-enablers/meihn-gregory/"
+        ],
+        "count": 1
       }
     },
     "courts": {
@@ -1690,14 +3663,23 @@
       "Eastern District of Michigan": {
         "pages": [
           "/analysis/allied-cases/",
+          "/analysis/banks-holland-partnership/",
           "/analysis/rico-pattern/",
           "/network/actors/brian-banks/",
           "/network/judges/adam-sabree/",
           "/network/judges/aliyah-sabree/",
           "/network/judges/denise-langford-morris/",
-          "/network/political/eric-sabree/"
+          "/network/political/eric-sabree/",
+          "/network/political/kilpatrick-dynasty/",
+          "/network/political/stallworth-keith/"
         ],
-        "count": 7
+        "count": 10
+      },
+      "Ingham County Circuit Court": {
+        "pages": [
+          "/open-letters/to-gregory-meihn/"
+        ],
+        "count": 1
       },
       "Oakland County Circuit Court": {
         "pages": [
@@ -1707,9 +3689,19 @@
         ],
         "count": 3
       },
+      "Teacher Certification Review": {
+        "pages": [
+          "/network/professional-enablers/leno-michele/",
+          "/network/professional-enablers/meihn-gregory/",
+          "/network/professional-enablers/shulman-terrence/",
+          "/open-letters/to-gregory-meihn/"
+        ],
+        "count": 4
+      },
       "Wayne County 3rd Circuit Court": {
         "pages": [
           "/analysis/allied-cases/",
+          "/analysis/banks-holland-partnership/",
           "/analysis/cbc-events/",
           "/analysis/institutional-capture/",
           "/analysis/rico-pattern/",
@@ -1732,7 +3724,7 @@
           "/network/political/eric-sabree/",
           "/network/political/sherry-gay-dagnogo/"
         ],
-        "count": 22
+        "count": 23
       },
       "Wayne County Probate Court": {
         "pages": [
@@ -1743,9 +3735,21 @@
           "/network/matrices/"
         ],
         "count": 5
+      },
+      "Wayne County courts": {
+        "pages": [
+          "/network/professional-enablers/leno-michele/"
+        ],
+        "count": 1
       }
     },
     "entities": {
+      "Alan C. Young & Associates": {
+        "pages": [
+          "/network/institutional/alan-young-associates/"
+        ],
+        "count": 1
+      },
       "Anchor Rock Foundation": {
         "pages": [
           "/analysis/allied-cases/",
@@ -1761,8 +3765,21 @@
         ],
         "count": 10
       },
+      "Anchor Rock Services": {
+        "pages": [
+          "/analysis/corporate-network-lara/"
+        ],
+        "count": 1
+      },
+      "Bank on Banks PAC": {
+        "pages": [
+          "/analysis/institutional-capture-graph/"
+        ],
+        "count": 1
+      },
       "Banks Strategy LLC": {
         "pages": [
+          "/analysis/banks-holland-partnership/",
           "/analysis/institutional-capture/",
           "/analysis/rico-pattern/",
           "/network/actors/brian-banks/",
@@ -1778,34 +3795,182 @@
           "/network/matrices/",
           "/network/political/billy-mckinney/"
         ],
-        "count": 14
+        "count": 15
+      },
+      "Banks Strategy and Consultants": {
+        "pages": [
+          "/analysis/corporate-network-lara/",
+          "/analysis/institutional-capture-graph/"
+        ],
+        "count": 2
+      },
+      "Black Caucus Foundation of Michigan": {
+        "pages": [
+          "/network/dynasties/",
+          "/network/entities/black-caucus-foundation/",
+          "/network/institutional/wells-stallworth-nicole/",
+          "/network/political/stallworth-alma/",
+          "/network/political/stallworth-keith/",
+          "/network/political/stallworth-thomas/",
+          "/network/political/stallworth-west-misha/"
+        ],
+        "count": 7
+      },
+      "Brian Banks Living Trust": {
+        "pages": [
+          "/analysis/banks-holland-partnership/"
+        ],
+        "count": 1
       },
       "City Hill Church": {
         "pages": [
           "/analysis/cbc-events/",
+          "/analysis/shepherds-and-wolves/",
           "/network/actors/brian-banks/",
           "/network/entities/city-hill-church/",
           "/network/entities/sun-community-development/"
         ],
+        "count": 5
+      },
+      "Crump Hall of Justice Law Firm": {
+        "pages": [
+          "/analysis/corporate-network-lara/"
+        ],
+        "count": 1
+      },
+      "Custom Promotions": {
+        "pages": [
+          "/analysis/corporate-network-lara/"
+        ],
+        "count": 1
+      },
+      "DML Psychological Services PLLC": {
+        "pages": [
+          "/network/professional-enablers/leno-michele/"
+        ],
+        "count": 1
+      },
+      "DPSA": {
+        "pages": [
+          "/analysis/institutional-capture-graph/"
+        ],
+        "count": 1
+      },
+      "Deen Legal Services": {
+        "pages": [
+          "/analysis/corporate-network-lara/"
+        ],
+        "count": 1
+      },
+      "Detroit Leaders": {
+        "pages": [
+          "/analysis/corporate-network-lara/",
+          "/network/dynasties/",
+          "/network/political/kilpatrick-dynasty/",
+          "/network/political/sherry-gay-dagnogo/"
+        ],
         "count": 4
+      },
+      "Detroit Public Safety Academy": {
+        "pages": [
+          "/analysis/institutional-capture-graph/"
+        ],
+        "count": 1
+      },
+      "Detroit Public Schools Community District": {
+        "pages": [
+          "/network/institutional/vitti-nicolai/"
+        ],
+        "count": 1
+      },
+      "Dykema Gossett": {
+        "pages": [
+          "/analysis/corporate-network-lara/"
+        ],
+        "count": 1
+      },
+      "Foley & Mansfield PLLP": {
+        "pages": [
+          "/network/institutional/wells-stallworth-nicole/",
+          "/network/professional-enablers/meihn-gregory/",
+          "/open-letters/to-gregory-meihn/"
+        ],
+        "count": 3
+      },
+      "Go Tell It Evangelistic Ministry": {
+        "pages": [
+          "/analysis/shepherds-and-wolves/"
+        ],
+        "count": 1
+      },
+      "Great Lakes Legal Group": {
+        "pages": [
+          "/analysis/corporate-network-lara/"
+        ],
+        "count": 1
+      },
+      "Great Lakes Vision for Evangelism": {
+        "pages": [
+          "/analysis/shepherds-and-wolves/"
+        ],
+        "count": 1
+      },
+      "Greater Emmanuel Institutional COGIC": {
+        "pages": [
+          "/analysis/shepherds-and-wolves/"
+        ],
+        "count": 1
+      },
+      "Holy Ghost Cathedral Church": {
+        "pages": [
+          "/analysis/shepherds-and-wolves/"
+        ],
+        "count": 1
+      },
+      "Images & Ideas Inc": {
+        "pages": [
+          "/network/political/kilpatrick-dynasty/"
+        ],
+        "count": 1
+      },
+      "Impact Detroit": {
+        "pages": [
+          "/analysis/corporate-network-lara/"
+        ],
+        "count": 1
       },
       "Inner Link Graphics": {
         "pages": [
+          "/analysis/corporate-network-lara/",
+          "/analysis/institutional-capture-graph/",
           "/analysis/institutional-capture/",
           "/network/entities/inner-link-graphics/",
           "/network/entities/political-action-committees/",
           "/network/judges/tenisha-yancey/",
           "/network/political/billy-mckinney/"
         ],
-        "count": 5
+        "count": 7
       },
       "MacDowell Preparatory Academy": {
         "pages": [
+          "/analysis/credential-audit/",
+          "/analysis/detroit-literacy/",
+          "/analysis/education-landscape/",
+          "/analysis/funding-flow/",
+          "/analysis/historical-pattern/",
+          "/analysis/institutional-capture-graph/",
           "/analysis/institutional-capture/",
           "/analysis/rico-pattern/",
+          "/analysis/shepherds-and-wolves/",
+          "/analysis/the-machine/",
+          "/analysis/words-vs-numbers/",
+          "/books/black-mafia-family/",
+          "/books/it-had-2-happen/",
           "/network/actors/brian-banks/",
+          "/network/dynasties/",
           "/network/entities/anchor-rock-foundation/",
           "/network/entities/banks-strategy-llc/",
+          "/network/entities/black-caucus-foundation/",
           "/network/entities/inner-link-graphics/",
           "/network/entities/macdowell-prep/",
           "/network/entities/political-action-committees/",
@@ -1813,6 +3978,12 @@
           "/network/entities/purpose-group-llc/",
           "/network/entities/serenity-guardianship/",
           "/network/entities/sun-community-development/",
+          "/network/institutional/alan-young-associates/",
+          "/network/institutional/daniels-alexandria/",
+          "/network/institutional/schmiedeknecht-katie/",
+          "/network/institutional/tcr-22-12-enablers/",
+          "/network/institutional/vitti-nicolai/",
+          "/network/institutional/wells-stallworth-nicole/",
           "/network/judges/adam-sabree/",
           "/network/judges/aliyah-sabree/",
           "/network/judges/cylenthia-miller/",
@@ -1823,10 +3994,47 @@
           "/network/matrices/",
           "/network/political/billy-mckinney/",
           "/network/political/eric-sabree/",
+          "/network/political/kilpatrick-dynasty/",
           "/network/political/sherry-gay-dagnogo/",
-          "/open-letters/to-curtis-jackson/"
+          "/network/political/stallworth-thomas/",
+          "/network/political/stallworth-west-misha/",
+          "/network/political/vaughn-corletta/",
+          "/network/professional-enablers/meihn-gregory/",
+          "/open-letters/to-curtis-jackson/",
+          "/open-letters/to-gregory-meihn/"
         ],
-        "count": 24
+        "count": 49
+      },
+      "Michigan Department of Education": {
+        "pages": [
+          "/analysis/credential-audit/",
+          "/analysis/detroit-literacy/",
+          "/analysis/funding-flow/",
+          "/analysis/land-deal/",
+          "/network/institutional/breen-leah/",
+          "/network/institutional/schmiedeknecht-katie/",
+          "/network/institutional/scott-reginald/",
+          "/network/institutional/tcr-22-12-enablers/"
+        ],
+        "count": 8
+      },
+      "Michigan Deserves Better SuperPAC": {
+        "pages": [
+          "/analysis/institutional-capture-graph/"
+        ],
+        "count": 1
+      },
+      "Operation Northern Hook": {
+        "pages": [
+          "/analysis/institutional-capture-graph/"
+        ],
+        "count": 1
+      },
+      "Original Eastside Slate": {
+        "pages": [
+          "/analysis/corporate-network-lara/"
+        ],
+        "count": 1
       },
       "Perkins Law Group": {
         "pages": [
@@ -1839,9 +4047,22 @@
         "pages": [
           "/analysis/allied-cases/",
           "/analysis/cbc-events/",
+          "/analysis/corporate-network-lara/",
+          "/analysis/detroit-literacy/",
+          "/analysis/education-landscape/",
+          "/analysis/funding-flow/",
+          "/analysis/historical-pattern/",
+          "/analysis/institutional-capture-graph/",
           "/analysis/institutional-capture/",
+          "/analysis/land-deal/",
           "/analysis/rico-pattern/",
+          "/analysis/shepherds-and-wolves/",
+          "/analysis/the-machine/",
+          "/analysis/words-vs-numbers/",
+          "/books/black-mafia-family/",
+          "/books/it-had-2-happen/",
           "/network/actors/brian-banks/",
+          "/network/dynasties/",
           "/network/entities/anchor-rock-foundation/",
           "/network/entities/banks-strategy-llc/",
           "/network/entities/inner-link-graphics/",
@@ -1851,6 +4072,7 @@
           "/network/entities/purpose-group-llc/",
           "/network/entities/serenity-guardianship/",
           "/network/entities/sun-community-development/",
+          "/network/institutional/vitti-nicolai/",
           "/network/judges/adam-sabree/",
           "/network/judges/aliyah-sabree/",
           "/network/judges/cylenthia-miller/",
@@ -1859,13 +4081,18 @@
           "/network/judges/vonda-evans/",
           "/network/matrices/",
           "/network/political/billy-mckinney/",
-          "/network/political/sherry-gay-dagnogo/"
+          "/network/political/kilpatrick-dynasty/",
+          "/network/political/sherry-gay-dagnogo/",
+          "/network/political/vaughn-corletta/",
+          "/open-letters/to-gregory-meihn/"
         ],
-        "count": 23
+        "count": 40
       },
       "Purpose Foundation": {
         "pages": [
+          "/analysis/banks-holland-partnership/",
           "/analysis/cbc-events/",
+          "/analysis/corporate-network-lara/",
           "/analysis/institutional-capture/",
           "/analysis/rico-pattern/",
           "/network/actors/brian-banks/",
@@ -1875,12 +4102,43 @@
           "/network/entities/purpose-foundation/",
           "/network/entities/purpose-group-llc/",
           "/network/entities/sun-community-development/",
-          "/network/matrices/"
+          "/network/matrices/",
+          "/open-letters/to-gregory-meihn/"
         ],
-        "count": 11
+        "count": 14
+      },
+      "Purpose Group LLC": {
+        "pages": [
+          "/analysis/corporate-network-lara/",
+          "/analysis/historical-pattern/",
+          "/analysis/institutional-capture-graph/",
+          "/network/professional-enablers/meihn-gregory/",
+          "/open-letters/to-gregory-meihn/"
+        ],
+        "count": 5
+      },
+      "Right Turn Project": {
+        "pages": [
+          "/analysis/corporate-network-lara/",
+          "/analysis/institutional-capture-graph/"
+        ],
+        "count": 2
+      },
+      "Save Detroit Jobs": {
+        "pages": [
+          "/analysis/corporate-network-lara/"
+        ],
+        "count": 1
+      },
+      "Saybrook University": {
+        "pages": [
+          "/network/professional-enablers/leno-michele/"
+        ],
+        "count": 1
       },
       "Serenity Guardianship Services": {
         "pages": [
+          "/analysis/corporate-network-lara/",
           "/analysis/institutional-capture/",
           "/analysis/rico-pattern/",
           "/network/actors/brian-banks/",
@@ -1889,7 +4147,19 @@
           "/network/entities/sun-community-development/",
           "/network/judges/david-perkins/"
         ],
-        "count": 7
+        "count": 8
+      },
+      "Shulman Center for Compulsive Theft Spending & Hoarding": {
+        "pages": [
+          "/network/professional-enablers/shulman-terrence/"
+        ],
+        "count": 1
+      },
+      "Strong Women Lead PAC": {
+        "pages": [
+          "/network/political/sherry-gay-dagnogo/"
+        ],
+        "count": 1
       },
       "Sun Community Development Corp": {
         "pages": [
@@ -1899,10 +4169,23 @@
         ],
         "count": 3
       },
+      "The Children's Center": {
+        "pages": [
+          "/network/institutional/wells-stallworth-nicole/"
+        ],
+        "count": 1
+      },
       "The Purpose Group LLC": {
         "pages": [
+          "/analysis/banks-holland-partnership/",
+          "/analysis/credential-audit/",
+          "/analysis/detroit-literacy/",
+          "/analysis/funding-flow/",
           "/analysis/institutional-capture/",
+          "/analysis/land-deal/",
           "/analysis/rico-pattern/",
+          "/analysis/words-vs-numbers/",
+          "/books/it-had-2-happen/",
           "/network/actors/brian-banks/",
           "/network/actors/joseph-holland/",
           "/network/entities/banks-strategy-llc/",
@@ -1916,7 +4199,19 @@
           "/network/matrices/",
           "/network/political/sherry-gay-dagnogo/"
         ],
-        "count": 14
+        "count": 21
+      },
+      "Wayne County Land Bank": {
+        "pages": [
+          "/network/judges/tenisha-yancey/"
+        ],
+        "count": 1
+      },
+      "WhitlowBanks LLC": {
+        "pages": [
+          "/analysis/corporate-network-lara/"
+        ],
+        "count": 1
       }
     }
   }

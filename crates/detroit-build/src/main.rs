@@ -9,6 +9,7 @@ mod content;
 mod graph;
 mod llms;
 mod manifest;
+mod network_data;
 mod provenance;
 mod registry;
 mod site_api;
@@ -49,6 +50,17 @@ fn run() -> Result<(), Box<dyn std::error::Error>> {
                 let (nodes, valid_edges) = graph::build_nodes(&reg, &edges);
                 if !cli.check {
                     graph::write_graph(&static_dir, &nodes, &valid_edges)?;
+                }
+            }
+            Command::NetworkData => {
+                if !cli.check {
+                    let (node_count, edge_count) = network_data::generate(
+                        &reg, &edges, &data_dir, &static_dir,
+                    )?;
+                    println!(
+                        "  \u{2705} {} nodes, {} edges \u{2192} js/network-data.js",
+                        node_count, edge_count
+                    );
                 }
             }
             Command::Manifest => {
@@ -192,6 +204,16 @@ fn run() -> Result<(), Box<dyn std::error::Error>> {
         nodes.len(), valid_edges.len()
     );
 
+    // [2b/7] Network data (visualization JS)
+    println!("\n[2b/7] network-data.js \u{2192} js/network-data.js");
+    if !cli.check {
+        let (nd_nodes, nd_edges) = network_data::generate(&reg, &edges, &data_dir, &static_dir)?;
+        println!(
+            "  \u{2705} {} nodes, {} edges \u{2192} js/network-data.js",
+            nd_nodes, nd_edges
+        );
+    }
+
     // [3/7] Site API
     println!("\n[3/7] Site API \u{2192} api/site.json");
     if !cli.check {
@@ -247,6 +269,7 @@ fn run() -> Result<(), Box<dyn std::error::Error>> {
         for f in &[
             "site/static/graph.json",
             "site/static/graph.csv",
+            "site/static/js/network-data.js",
             "site/static/api/site.json",
             "site/static/llms.txt",
             "site/static/llms-full.txt",

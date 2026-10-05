@@ -27,6 +27,25 @@ pub struct Actor {
     pub tier: u8,
     #[serde(default)]
     pub page: String,
+    // ── Visualization fields (network-data.js) ──
+    /// Override config key as the graph/viz node ID (for legacy ID mismatches).
+    #[serde(default)]
+    pub graph_id: Option<String>,
+    /// Node type for visualization (actor, judge, political, bmf, institutional).
+    #[serde(default)]
+    pub viz_type: Option<String>,
+    /// Nexus categories this actor participates in.
+    #[serde(default)]
+    pub nexus: Vec<String>,
+    /// Dynasty grouping (kilpatrick, stallworth, sabree, banks_flenory, mayoral).
+    #[serde(default)]
+    pub dynasty: Option<String>,
+    /// Active era for timeline slider (e.g. "2002-2008").
+    #[serde(default)]
+    pub era: Option<String>,
+    /// Short evidence summary for viz hover.
+    #[serde(default)]
+    pub detail: Option<String>,
     #[serde(default)]
     pub convictions: Option<String>,
     #[serde(default)]
@@ -78,6 +97,19 @@ pub struct Entity {
     pub entity_type: String,
     #[serde(default)]
     pub page: String,
+    // ── Visualization fields (network-data.js) ──
+    #[serde(default)]
+    pub graph_id: Option<String>,
+    #[serde(default)]
+    pub viz_type: Option<String>,
+    #[serde(default)]
+    pub nexus: Vec<String>,
+    #[serde(default)]
+    pub dynasty: Option<String>,
+    #[serde(default)]
+    pub era: Option<String>,
+    #[serde(default)]
+    pub detail: Option<String>,
     #[serde(default)]
     pub connection: Option<String>,
     #[serde(default)]

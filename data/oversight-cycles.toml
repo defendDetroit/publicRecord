@@ -1,0 +1,57 @@
+# Oversight cycles — directed loops where "oversight" is circular.
+# Each cycle describes a situation where the entity that should
+# provide oversight is captured by the entity it oversees.
+
+[[cycle]]
+id = "gay_dagnogo_cycle"
+label = "Authorization feedback loop"
+path = ["gay_dagnogo", "pca", "banks", "gay_dagnogo"]
+note = "Gay-Dagnogo authorized PCA → Banks benefits → Banks political support → Gay-Dagnogo gets city appointment"
+
+[[cycle]]
+id = "yancey_cycle"
+label = "Judicial campaign cycle"
+path = ["yancey", "banks_strategy", "banks", "yancey"]
+note = "Yancey paid Banks Strategy $383 → Banks ran her campaign → Yancey became judge → sits on Banks school board"
+
+[[cycle]]
+id = "moreland_cycle"
+label = "Regulator capture cycle"
+path = ["moreland", "pca", "banks", "moreland"]
+note = "AAG Moreland argued AGAINST Banks cert → now Board Vice Chair of Banks's school"
+
+[[cycle]]
+id = "wells_stallworth_cycle"
+label = "Board oversight cycle"
+path = ["wells_stallworth", "macdowell", "banks", "stallworth_t", "wells_stallworth"]
+note = "Nicole 'oversees' MacDowell → Banks runs it → Thomas defended Banks at rally → Thomas married to Nicole"
+
+[[cycle]]
+id = "bettison_cycle"
+label = "Police-education bridge"
+path = ["bettison", "dpsa", "sheffield", "bettison"]
+note = "Chief Bettison on DPSA board → Sheffield appointed Bettison → Bettison protects Sheffield (OIG probe)"
+
+[[cycle]]
+id = "mde_cycle"
+label = "Regulator capture (state)"
+path = ["mde", "macdowell", "banks", "wells_stallworth", "mde"]
+note = "MDE investigated Banks → cleared → Wells-Stallworth (who protects Banks) received the investigation letter"
+
+[[cycle]]
+id = "sdj_suppression_cycle"
+label = "Dark money suppression loop"
+path = ["dykema", "sdj", "johnson_l", "pca", "banks"]
+note = "Dykema formed SDJ → SDJ funded Johnson vs Elrick (journalist) → Johnson won → joined PCA board → Banks benefits"
+
+[[cycle]]
+id = "right_turn_cycle"
+label = "Right Turn self-dealing"
+path = ["pacs", "right_turn", "ross", "ross_catering", "pacs"]
+note = "PAC transfers to Right Turn (Ross = treasurer) → Ross connected to Ross Catering → Catering paid $35K+ by PACs"
+
+[[cycle]]
+id = "moreland_dual_role"
+label = "Attorney-director conflict"
+path = ["moreland", "pca", "banks", "moreland"]
+note = "Moreland is Banks's litigation attorney AND PCA board director simultaneously. MRPC 1.7 conflict."

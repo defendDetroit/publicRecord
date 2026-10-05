@@ -24,6 +24,8 @@ pub struct Cli {
 pub enum Command {
     /// Build graph.json + graph.csv from registries + edges.toml
     Graph,
+    /// Generate network-data.js from TOML registries + overlay data
+    NetworkData,
     /// Generate BLAKE3 content manifest
     Manifest,
     /// Generate api/site.json

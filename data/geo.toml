@@ -1,0 +1,480 @@
+# Geographic data — positions, aggregates, and flows for the extraction map.
+# px/py are proportional (0-1) coordinates in the SVG viewBox.
+
+# ── Node positions (network nodes that appear on the extraction map) ──
+
+[positions]
+# Schools — center column (Detroit community)
+macdowell        = { px = 0.38, py = 0.38 }
+pca              = { px = 0.38, py = 0.55 }
+dpsa             = { px = 0.38, py = 0.24 }
+# Extraction — right of schools
+purpose_group    = { px = 0.55, py = 0.32 }
+purpose_foundation = { px = 0.55, py = 0.50 }
+banks_strategy   = { px = 0.55, py = 0.65 }
+pacs             = { px = 0.55, py = 0.78 }
+# LARA entities — Detroit side
+inner_link       = { px = 0.20, py = 0.82 }
+sdj              = { px = 0.20, py = 0.65 }
+right_turn       = { px = 0.20, py = 0.50 }
+ross_catering    = { px = 0.20, py = 0.38 }
+custom_promo     = { px = 0.20, py = 0.25 }
+eastside_slate   = { px = 0.20, py = 0.12 }
+# LARA entities — extraction side
+serenity         = { px = 0.68, py = 0.45 }
+anchor_rock      = { px = 0.68, py = 0.60 }
+great_lakes_legal = { px = 0.68, py = 0.75 }
+# Charter authorizers — outside Detroit
+gvsu             = { px = 0.93, py = 0.08 }
+cmu              = { px = 0.93, py = 0.20 }
+emu              = { px = 0.93, py = 0.52 }
+nha              = { px = 0.93, py = 0.66 }
+
+# ── Aggregate nodes (map-only, not in network graph) ──
+
+[[aggregate]]
+id = "mi_state_aid"
+label = "MI State Aid"
+type = "source"
+px = 0.08
+py = 0.30
+detail = "Per-pupil funding from Michigan taxpayers"
+
+[[aggregate]]
+id = "dpscd"
+label = "DPSCD"
+type = "source"
+px = 0.08
+py = 0.55
+detail = "Authorizer — receives 3% fee (~$147K/yr)"
+
+[[aggregate]]
+id = "private_donors"
+label = "Private Donors"
+type = "source"
+px = 0.08
+py = 0.70
+detail = "Tax-deductible contributions to Purpose Foundation"
+
+[[aggregate]]
+id = "pscu"
+label = "PSCU Credit Union"
+type = "source"
+px = 0.08
+py = 0.82
+detail = "Shared lender — $549K+ enterprise mortgages"
+
+[[aggregate]]
+id = "cbc_events"
+label = "CBC Events"
+type = "source"
+px = 0.08
+py = 0.15
+detail = "Congressional Black Caucus Week — $50K-$150K est."
+
+[[aggregate]]
+id = "gpw"
+label = "Grosse Pointe Woods"
+type = "destination"
+px = 0.88
+py = 0.30
+detail = "1968 Severn Rd — Purpose Group LLC registered address. Banks/Holland residence."
+aggregates = ["banks"]
+
+[[aggregate]]
+id = "city_hall"
+label = "City Hall"
+type = "political"
+px = 0.78
+py = 0.60
+detail = "Mayor Sheffield · Ombudsman Gay-Dagnogo"
+aggregates = ["sheffield", "gay_dagnogo"]
+
+[[aggregate]]
+id = "wayne_county"
+label = "Wayne County"
+type = "political"
+px = 0.78
+py = 0.75
+detail = "Exec Evans · Treasurer Sabree (foreclosure pipeline)"
+aggregates = ["evans", "sabree_e"]
+
+[[aggregate]]
+id = "3rd_circuit"
+label = "3rd Circuit"
+type = "court"
+px = 0.78
+py = 0.42
+detail = "Judge Miller (PCA Board Chair), Judge A. Sabree"
+aggregates = ["miller", "sabree"]
+
+[[aggregate]]
+id = "36th_district"
+label = "36th District"
+type = "court"
+px = 0.88
+py = 0.55
+detail = "Judge Yancey (MacDowell Board Chair)"
+aggregates = ["yancey", "perkins_d"]
+
+[[aggregate]]
+id = "ofa_michigan"
+label = "OFA Michigan"
+type = "dark_money"
+px = 0.88
+py = 0.78
+detail = "Dark money org — Holland = officer. Undisclosed donors → mailers."
+
+[[aggregate]]
+id = "canfield_bldg"
+label = "10101 E. Canfield"
+type = "property"
+px = 0.38
+py = 0.68
+detail = "DPSCD building. Purchase option embedded in Purpose Group contract."
+
+[[aggregate]]
+id = "lansing"
+label = "Lansing (Capitol)"
+type = "state"
+px = 0.08
+py = 0.08
+detail = "State aid authorized here. MDE investigated → cleared (2h 24m). AG deferred. Dykema Gossett formed dark money vehicle."
+aggregates = ["mde", "dykema"]
+
+[[aggregate]]
+id = "southfield"
+label = "Southfield"
+type = "property"
+px = 0.68
+py = 0.88
+detail = "16500 North Park Dr — connects Banks (2001) to Ross + Tarver (2013). Inner Link at 9 Mile."
+
+[[aggregate]]
+id = "warren"
+label = "Warren"
+type = "vendor"
+px = 0.38
+py = 0.12
+detail = "14326 E. 9 Mile Rd — Custom Promotions + Deen Legal. Gordon = FBI investigated."
+aggregates = ["gordon"]
+
+[[aggregate]]
+id = "holland_mi"
+label = "Holland, MI"
+type = "property"
+px = 0.88
+py = 0.88
+detail = "Anchor Rock Services + ARS Holdings + GL Upfitting. Banks = agent."
+
+# ── Geo flows — every documented money/power route ──
+# flow_type: state_aid, extraction, personal, campaign, authorization,
+#            kickback, dark_money, property, donation, oversight, events
+
+[[flow]]
+from = "mi_state_aid"
+to = "macdowell"
+flow_type = "state_aid"
+label = "$4.9M/yr per-pupil"
+amount = 4900000.0
+
+[[flow]]
+from = "mi_state_aid"
+to = "pca"
+flow_type = "state_aid"
+label = "Per-pupil (new)"
+amount = 2000000.0
+
+[[flow]]
+from = "macdowell"
+to = "purpose_group"
+flow_type = "extraction"
+label = "72.67% → LLC ($4.28M)"
+amount = 4280000.0
+
+[[flow]]
+from = "pca"
+to = "purpose_group"
+flow_type = "extraction"
+label = "10% mgmt + all costs"
+amount = 1500000.0
+
+[[flow]]
+from = "purpose_group"
+to = "gpw"
+flow_type = "personal"
+label = "$150K+ salary → suburb"
+amount = 667000.0
+
+[[flow]]
+from = "purpose_group"
+to = "gpw"
+flow_type = "extraction"
+label = "$348K unaccounted gap"
+amount = 348000.0
+
+[[flow]]
+from = "macdowell"
+to = "dpscd"
+flow_type = "authorization"
+label = "3% auth fee (~$147K)"
+amount = 147000.0
+
+[[flow]]
+from = "dpscd"
+to = "pca"
+flow_type = "authorization"
+label = "Authorizes charter"
+amount = 0.0
+
+[[flow]]
+from = "purpose_group"
+to = "banks_strategy"
+flow_type = "campaign"
+label = "Consulting payments"
+amount = 35000.0
+
+[[flow]]
+from = "banks_strategy"
+to = "36th_district"
+flow_type = "campaign"
+label = "$383.82 → Yancey (sole expenditure)"
+amount = 383.0
+
+[[flow]]
+from = "purpose_group"
+to = "pacs"
+flow_type = "campaign"
+label = "PAC funding (Holland = treas.)"
+amount = 14500.0
+
+[[flow]]
+from = "pacs"
+to = "inner_link"
+flow_type = "campaign"
+label = "$98K printing (5 committees)"
+amount = 98291.0
+
+[[flow]]
+from = "pacs"
+to = "city_hall"
+flow_type = "campaign"
+label = "Campaign contributions"
+amount = 0.0
+
+[[flow]]
+from = "pacs"
+to = "ofa_michigan"
+flow_type = "dark_money"
+label = "Holland = officer, undisclosed $"
+amount = 0.0
+
+[[flow]]
+from = "ofa_michigan"
+to = "city_hall"
+flow_type = "dark_money"
+label = "Mailers (undisclosed)"
+amount = 0.0
+
+[[flow]]
+from = "3rd_circuit"
+to = "pca"
+flow_type = "kickback"
+label = "Miller → Board Chair"
+amount = 0.0
+
+[[flow]]
+from = "36th_district"
+to = "macdowell"
+flow_type = "kickback"
+label = "Yancey → Board Chair"
+amount = 0.0
+
+[[flow]]
+from = "city_hall"
+to = "pca"
+flow_type = "kickback"
+label = "Gay-Dagnogo → authorization"
+amount = 0.0
+
+[[flow]]
+from = "private_donors"
+to = "purpose_foundation"
+flow_type = "donation"
+label = "Tax-deductible (2 felons = officers)"
+amount = 0.0
+
+[[flow]]
+from = "purpose_foundation"
+to = "gpw"
+flow_type = "extraction"
+label = "Controlled by Banks"
+amount = 0.0
+
+[[flow]]
+from = "pscu"
+to = "gpw"
+flow_type = "property"
+label = "$549K+ mortgages"
+amount = 549000.0
+
+[[flow]]
+from = "wayne_county"
+to = "canfield_bldg"
+flow_type = "property"
+label = "Foreclosure pipeline (Sabree)"
+amount = 0.0
+
+[[flow]]
+from = "canfield_bldg"
+to = "purpose_group"
+flow_type = "property"
+label = "Purchase option in contract"
+amount = 0.0
+
+[[flow]]
+from = "cbc_events"
+to = "purpose_group"
+flow_type = "events"
+label = "$50K-$150K est. (4 years)"
+amount = 100000.0
+
+[[flow]]
+from = "lansing"
+to = "macdowell"
+flow_type = "oversight"
+label = "MDE investigated → cleared (2h 24m)"
+amount = 0.0
+
+[[flow]]
+from = "wayne_county"
+to = "gpw"
+flow_type = "kickback"
+label = "Evans + Sabree endorsed Banks"
+amount = 0.0
+
+[[flow]]
+from = "lansing"
+to = "sdj"
+flow_type = "dark_money"
+label = "Dykema formed SDJ (1 block from Capitol)"
+amount = 0.0
+
+[[flow]]
+from = "sdj"
+to = "city_hall"
+flow_type = "dark_money"
+label = "Detroit Leaders funded Johnson vs Elrick"
+amount = 0.0
+
+[[flow]]
+from = "pacs"
+to = "right_turn"
+flow_type = "campaign"
+label = "PAC transfers → charity"
+amount = 0.0
+
+[[flow]]
+from = "right_turn"
+to = "ross_catering"
+flow_type = "extraction"
+label = "Ross = treasurer + vendor (self-dealing)"
+amount = 35000.0
+
+[[flow]]
+from = "warren"
+to = "city_hall"
+flow_type = "campaign"
+label = "Custom Promotions → Johnson campaign"
+amount = 0.0
+
+[[flow]]
+from = "pacs"
+to = "inner_link"
+flow_type = "campaign"
+label = "$98K printing (Thomas = obituaries4less.com)"
+amount = 98291.0
+
+[[flow]]
+from = "serenity"
+to = "gpw"
+flow_type = "extraction"
+label = "For-profit guardianship → Banks (never barred)"
+amount = 0.0
+
+[[flow]]
+from = "anchor_rock"
+to = "holland_mi"
+flow_type = "property"
+label = "3 assumed names (upfitting, fire supply, construction)"
+amount = 0.0
+
+[[flow]]
+from = "eastside_slate"
+to = "city_hall"
+flow_type = "campaign"
+label = "4 incarnations. Carol Banks = current agent."
+amount = 0.0
+
+[[flow]]
+from = "southfield"
+to = "gpw"
+flow_type = "property"
+label = "16500 N Park — Banks (2001) → Ross + Tarver (2013)"
+amount = 0.0
+
+[[flow]]
+from = "mi_state_aid"
+to = "gvsu"
+flow_type = "state_aid"
+label = "State authorizer funding (3% of per-pupil × ~8,000 students)"
+amount = 2300000.0
+
+[[flow]]
+from = "mi_state_aid"
+to = "cmu"
+flow_type = "state_aid"
+label = "State authorizer funding (3% of per-pupil × ~2,500 students)"
+amount = 720000.0
+
+[[flow]]
+from = "cmu"
+to = "macdowell"
+flow_type = "authorization"
+label = "Authorized MacDowell (150 mi away)"
+amount = 0.0
+
+[[flow]]
+from = "gvsu"
+to = "nha"
+flow_type = "authorization"
+label = "Authorizes 16+ Detroit NHA schools (2.5 hrs away)"
+amount = 0.0
+
+[[flow]]
+from = "emu"
+to = "dpsa"
+flow_type = "authorization"
+label = "Authorized DPSA (Bettison on board)"
+amount = 0.0
+
+[[flow]]
+from = "dpscd"
+to = "pca"
+flow_type = "authorization"
+label = "DPSCD authorized PCA Jul 2025 (conflict of interest)"
+amount = 0.0
+
+[[flow]]
+from = "macdowell"
+to = "cmu"
+flow_type = "kickback"
+label = "3% auth fee flows back to authorizer (~$147K/yr)"
+amount = 147000.0
+
+[[flow]]
+from = "pca"
+to = "dpscd"
+flow_type = "kickback"
+label = "3% auth fee flows back to DPSCD (~$81K/yr)"
+amount = 81000.0

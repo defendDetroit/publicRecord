@@ -86,6 +86,10 @@ address = "1968 Severn Road, Grosse Pointe Woods MI 48236"
 credential_claim = "J.D., Michigan State University College of Law (real degree)"
 credential_status = "Never admitted to any bar — felonies prevented bar admission. Took fraudulent loans for bar prep. State Bar of Michigan: zero results."
 page = "/network/actors/brian-banks/"
+nexus = ["education", "political", "enforcement", "weaponization", "legislative"]
+dynasty = "banks_flenory"
+era = "2003-present"
+detail = "9 convictions (6 felony, 3 misd.)"
 
 [extra.actors.holland]
 display = "Joseph Holland Jr."
@@ -101,6 +105,10 @@ address = "1968 Severn Rd, GPW MI 48236 (Banks' home — co-resident)"
 bankruptcies = "5 filings (2005-2014), concealed JTWRS property in BK3"
 trust_role = "1st Successor Trustee, Brian Banks Living Trust (Wayne ROD #2025307266)"
 page = "/network/actors/joseph-holland/"
+nexus = ["education", "political"]
+dynasty = "banks_flenory"
+era = "2014-present"
+detail = "Drug offender, MDOC #443789"
 
 [extra.actors.miller]
 display = "Judge Cylenthia Miller"
@@ -111,6 +119,9 @@ court = "Wayne County 3rd Circuit Court"
 connection = "Board Chair of Anchor Rock Foundation (Banks entity)"
 election = "November 3, 2026"
 page = "/network/judges/cylenthia-miller/"
+viz_type = "judge"
+nexus = ["education"]
+detail = "Board Chair, Anchor Rock Foundation"
 
 [extra.actors.yancey]
 display = "Judge Tenisha Yancey"
@@ -120,6 +131,9 @@ tier = 2
 court = "36th District Court"
 connection = "Campaign paid $383.82 to Banks Strategy & Consultants LLC (2024)"
 page = "/network/judges/tenisha-yancey/"
+viz_type = "judge"
+nexus = ["education", "political"]
+detail = "Campaign paid $383.82 to Banks Strategy (sole expenditure)"
 
 [extra.actors.sabree]
 display = "Judge Aliyah Sabree"
@@ -129,6 +143,11 @@ tier = 2
 court = "Wayne County 3rd Circuit Court"
 connection = "MSU Law classmate (2010) — same year as Banks' claimed J.D."
 page = "/network/judges/aliyah-sabree/"
+viz_type = "judge"
+nexus = ["education"]
+dynasty = "sabree"
+era = "2020-present"
+detail = "MSU Law classmate (2010)"
 
 [extra.actors.perkins_david]
 display = "Judge David Perkins"
@@ -138,6 +157,12 @@ tier = 2
 court = "Wayne County Probate Court"
 connection = "Family donated to Banks-aligned campaigns; Probate overlaps guardianship entity"
 page = "/network/judges/david-perkins/"
+graph_id = "perkins_d"
+viz_type = "judge"
+nexus = ["education"]
+dynasty = "sabree"
+era = "2020-present"
+detail = "Family donations, Probate overlap"
 
 [extra.actors.adam_sabree]
 display = "Judge Adam Sabree"
@@ -147,6 +172,11 @@ tier = 2
 court = "36th District Court"
 connection = "Son of Eric Sabree (FBI-probed Wayne County Treasurer). Former in-house counsel for RICO-accused Metro Property Group."
 page = "/network/judges/adam-sabree/"
+graph_id = "sabree_adam"
+viz_type = "judge"
+nexus = ["education"]
+dynasty = "sabree"
+detail = "Son of Eric Sabree. Former RICO-accused counsel."
 
 [extra.actors.sean_perkins]
 display = "Judge Sean Perkins"
@@ -156,6 +186,10 @@ tier = 2
 court = "36th District Court"
 connection = "Brother of Todd Perkins (Banks' attorney). Worked at Todd's Perkins Law Group before bench."
 page = "/network/judges/sean-perkins/"
+graph_id = "perkins_sean"
+viz_type = "judge"
+nexus = ["education"]
+detail = "Brother of Todd Perkins (Banks attorney)"
 
 [extra.actors.kelly_ramsey]
 display = "Judge Kelly Ramsey"
@@ -165,6 +199,10 @@ tier = 2
 court = "Wayne County 3rd Circuit Court — Criminal Division"
 connection = "Daughter pushed Banks to Promise Schools. Two family members on MacDowell payroll."
 page = "/network/judges/kelly-ramsey/"
+graph_id = "ramsey"
+viz_type = "judge"
+nexus = ["education"]
+detail = "2 family members on MacDowell payroll"
 
 [extra.actors.vonda_evans]
 display = "Judge Vonda Evans (Retired)"
@@ -174,6 +212,10 @@ tier = 2
 court = "Wayne County 3rd Circuit Court (retired)"
 connection = "21-year Banks mentor. Endorsed him despite criminal record. Retired to avoid JTC suspension."
 page = "/network/judges/vonda-evans/"
+graph_id = "vonda_evans"
+viz_type = "judge"
+nexus = ["education"]
+detail = "21-year Banks mentor. Retired to avoid JTC suspension."
 
 [extra.actors.langford_morris]
 display = "Judge Denise Langford Morris (Retired)"
@@ -183,6 +225,9 @@ tier = 2
 court = "Oakland County Circuit Court (retired, now JAMS)"
 connection = "Wrote foreword for Banks' book using his fake J.D. credential."
 page = "/network/judges/denise-langford-morris/"
+viz_type = "judge"
+nexus = ["education"]
+detail = "Wrote book foreword using Banks fake J.D."
 
 [extra.actors.todd_perkins]
 display = "Todd Perkins"
@@ -193,6 +238,9 @@ bar_number = "P55623"
 firm = "Perkins Law Group, PLLC"
 connection = "Banks' personal attorney. Represented Judge Miller in gun case. Brother is Judge Sean Perkins."
 page = "/network/professional-enablers/todd-perkins/"
+graph_id = "perkins_t"
+nexus = ["enforcement", "political"]
+detail = "Banks attorney. Repped 2 Op Northern Hook targets. Ran for mayor."
 
 [extra.actors.gay_dagnogo]
 display = "Sherry Gay-Dagnogo"
@@ -203,6 +251,11 @@ current_role = "Detroit City Ombudsman (Oct 2025–2035)"
 former_role = "DPSCD Board, Michigan State Rep HD-8"
 connection = "DPSCD board member who authorized Banks' charter schools."
 page = "/network/political/sherry-gay-dagnogo/"
+viz_type = "political"
+nexus = ["political", "education"]
+dynasty = "kilpatrick"
+era = "2015-present"
+detail = "DPSCD Board, succeeded Banks in HD-1"
 
 [extra.actors.mckinney]
 display = "Billy McKinney"
@@ -211,6 +264,9 @@ role = "Political enabler — campaign operative"
 tier = 3
 connection = "Campaign paid Darryl Banks Jr. $4,483 — linking McKinney to extended Banks family."
 page = "/network/political/billy-mckinney/"
+viz_type = "political"
+nexus = ["political"]
+detail = "$4,483 campaign → extended Banks family"
 
 [extra.actors.eric_sabree]
 display = "Eric Sabree"
@@ -220,6 +276,343 @@ tier = 3
 office = "Wayne County Treasurer"
 connection = "Father of Judge Aliyah Sabree + Judge Adam Sabree. FBI-probed 2019. Bowles v. Sabree class action."
 page = "/network/political/eric-sabree/"
+graph_id = "sabree_e"
+viz_type = "political"
+nexus = ["political"]
+dynasty = "sabree"
+era = "2015-present"
+detail = "Wayne County Treasurer. Endorsed Banks."
+
+# ── BMF / Family ──
+
+[extra.actors.od_banks]
+display = "OD Banks"
+short = "OD Banks"
+role = "BMF Defendant #22"
+tier = 5
+viz_type = "bmf"
+nexus = []
+dynasty = "banks_flenory"
+era = "2005-2012"
+detail = "BMF Defendant #22, Banks' father"
+
+[extra.actors.welch]
+display = "Tonesa Welch"
+short = "Welch"
+role = "BMF figure"
+tier = 5
+viz_type = "bmf"
+nexus = []
+dynasty = "banks_flenory"
+era = "2005-present"
+detail = "BMF figure, Banks' aunt"
+
+# ── FOIA-revealed actors ──
+
+[extra.actors.wells_stallworth]
+display = "Nicole Wells-Stallworth"
+short = "Wells-Stallworth"
+role = "Board President"
+tier = 3
+viz_type = "political"
+nexus = ["education", "legislative"]
+dynasty = "stallworth"
+era = "2014-present"
+detail = "Board President since 2014. Received MDE investigation letter Feb 2022. [FOIA]"
+
+[extra.actors.schmiedeknecht]
+display = "Katie Schmiedeknecht"
+short = "Schmiedeknecht"
+role = "MDE Analyst"
+tier = 4
+viz_type = "institutional"
+nexus = ["education"]
+detail = "MDE Analyst — sent investigation letter, then cleared. [FOIA]"
+page = "/actors/katie-schmiedeknecht/"
+
+[extra.actors.alan_young]
+display = "Alan C. Young CPA"
+short = "Alan Young"
+role = "Auditor"
+tier = 4
+viz_type = "institutional"
+nexus = ["education"]
+detail = "Auditor FY2017-2025, 9 consecutive years. No material findings. [FOIA]"
+
+# ── Political Nexus ──
+
+[extra.actors.sheffield]
+display = "Mayor Mary Sheffield"
+short = "Sheffield"
+role = "Mayor"
+tier = 2
+viz_type = "political"
+nexus = ["political", "weaponization"]
+dynasty = "mayoral"
+era = "2024-present"
+detail = "City Council President → Mayor. OIG probe re: Bettison call."
+
+[extra.actors.evans]
+display = "Warren Evans"
+short = "W. Evans"
+role = "Wayne County Executive"
+tier = 3
+viz_type = "political"
+nexus = ["political"]
+detail = "Wayne County Executive. Endorsed Banks."
+
+[extra.actors.mccastle]
+display = "Gerald McCastle"
+short = "McCastle"
+role = "Campaign operative"
+tier = 4
+viz_type = "political"
+nexus = ["political"]
+detail = "$20,410 across 5 committees. Bridges Banks to Gay-Dagnogo."
+
+# ── Police / Enforcement Nexus ──
+
+[extra.actors.bettison]
+display = "Chief James Bettison"
+short = "Bettison"
+role = "DPD Chief + DPSA Board"
+tier = 2
+nexus = ["weaponization", "education"]
+detail = "DPD Chief + DPSA Board Secretary. OIG investigation Sep 2026."
+
+[extra.actors.fiore]
+display = "Gerald Fiore"
+short = "Fiore"
+role = "Convicted bribery"
+tier = 2
+nexus = ["enforcement", "political"]
+detail = "Convicted bribery. FBI wiretap: 'bid-rigging with Banks'"
+
+[extra.actors.spivey]
+display = "Andre Spivey"
+short = "Spivey"
+role = "Convicted council member"
+tier = 3
+viz_type = "political"
+nexus = ["enforcement", "political"]
+detail = "Convicted (24 mo). Op Northern Hook. Warned targets."
+
+# ── Legislative Pipeline ──
+
+[extra.actors.stallworth_t]
+display = "Thomas Stallworth III"
+short = "T. Stallworth"
+role = "Former State Rep"
+tier = 3
+viz_type = "political"
+nexus = ["legislative"]
+dynasty = "stallworth"
+era = "2011-2016"
+detail = "Former State Rep. Nicole's husband. Defended Banks at felony rally."
+
+[extra.actors.moreland]
+display = "Lisa Moreland"
+short = "Moreland"
+role = "AAG → PCA Board Director"
+tier = 2
+viz_type = "judge"
+nexus = ["education", "legislative"]
+detail = "AAG → PCA Board Director + Banks litigation attorney. MRPC 1.7 conflict."
+
+[extra.actors.johnson_l]
+display = "Latisha Johnson"
+short = "L. Johnson"
+role = "City Council D2 + PCA Board"
+tier = 3
+viz_type = "political"
+nexus = ["political", "education"]
+detail = "City Council D2. PCA Board Secretary. Campaign funded by SDJ/Detroit Leaders."
+
+# ── LARA Corporate Network Analysis actors ──
+
+[extra.actors.carol_banks]
+display = "Carol Banks"
+short = "C. Banks"
+role = "Political operative"
+tier = 3
+nexus = ["political"]
+detail = "Brian's sister. Controls Original Eastside Slate. Former CoS to Benson. FBI target."
+
+[extra.actors.leach]
+display = "W. Spencer Leach"
+short = "Leach"
+role = "Machine builder"
+tier = 3
+nexus = ["political"]
+detail = "13 political entities. Batch-filed 3 on same day (consecutive LARA IDs). Machine builder."
+
+[extra.actors.ross]
+display = "Carlton Ross"
+short = "Ross"
+role = "Right Turn Treasurer"
+tier = 2
+nexus = ["political"]
+detail = "Right Turn Project Treasurer + connected to Ross Catering ($35K+ from PACs). Self-dealing loop."
+
+[extra.actors.gordon]
+display = "Jason Gordon"
+short = "Gordon"
+role = "Attorney"
+tier = 2
+nexus = ["political"]
+detail = "Attorney. Custom Promotions + Deen Legal. FBI/IRS/DoL investigated (UAW bribery). 20+ entities."
+
+[extra.actors.larry_thomas]
+display = "Larry Thomas Jr"
+short = "L. Thomas"
+role = "Inner Link Graphics owner"
+tier = 2
+nexus = ["political"]
+detail = "Inner Link Graphics owner. Also runs obituaries4less.com. $98K from 5 committees."
+
+[extra.actors.daniels]
+display = "Kenneth Daniels"
+short = "Daniels"
+role = "SDJ President"
+tier = 3
+nexus = ["political", "enforcement"]
+dynasty = "kilpatrick"
+era = "1999-present"
+detail = "SDJ/Detroit Leaders President. Kwame appointee. Fed conviction: structured $19K for drug kingpin."
+
+[extra.actors.crump_gibson]
+display = "Crump-Gibson"
+short = "Crump-Gibson"
+role = "Attorney"
+tier = 2
+viz_type = "judge"
+nexus = ["education"]
+detail = "Great Lakes Legal Group. MI Attorney Discipline Board panelist. MSU. Possible Crump family."
+
+[extra.actors.v_hall]
+display = "V. Hall"
+short = "V. Hall"
+role = "Attorney"
+tier = 2
+viz_type = "judge"
+nexus = ["education"]
+detail = "Crump Hall of Justice Law Firm. Filed PPO against journalist. Maiden name = Crump."
+
+[extra.actors.hutchings]
+display = "D. Hutchings"
+short = "Hutchings"
+role = "PCA Board Treasurer"
+tier = 3
+nexus = ["education"]
+detail = "PCA Board Treasurer. DB Strategies + DB Athletics (Ypsilanti). Not from Detroit."
+
+[extra.actors.clora]
+display = "M. Clora"
+short = "Clora"
+role = "PCA Board Director"
+tier = 3
+nexus = ["education"]
+detail = "PCA Board Director. Former American Motor Coach Inc (dissolved)."
+
+# ── Mayoral Lineage (political succession) ──
+
+[extra.actors.coleman_young]
+display = "Coleman Young"
+short = "C. Young"
+role = "Mayor 1974-1993"
+tier = 5
+viz_type = "political"
+nexus = ["political"]
+dynasty = "mayoral"
+era = "1974-1993"
+detail = "Mayor 1974-1993. First Black mayor. Built the original political machine."
+
+[extra.actors.archer]
+display = "Dennis Archer"
+short = "Archer"
+role = "Mayor 1994-2001"
+tier = 5
+viz_type = "political"
+nexus = ["political"]
+dynasty = "mayoral"
+era = "1994-2001"
+detail = "Mayor 1994-2001. MI Supreme Court → mayor. Transition era."
+
+[extra.actors.kwame]
+display = "Kwame Kilpatrick"
+short = "Kilpatrick"
+role = "Mayor 2002-2008"
+tier = 2
+nexus = ["political", "enforcement"]
+dynasty = "kilpatrick"
+era = "2002-2008"
+detail = "24 federal RICO felonies. Mayor 2002-2008. 28yr sentence, commuted by Trump Jan 2021."
+page = "/network/political/kilpatrick-dynasty/"
+
+[extra.actors.bing]
+display = "Dave Bing"
+short = "Bing"
+role = "Mayor 2009-2013"
+tier = 5
+viz_type = "political"
+nexus = ["political"]
+dynasty = "mayoral"
+era = "2009-2013"
+detail = "Mayor 2009-2013. Emergency manager era. Dumas was his comms chief."
+
+[extra.actors.duggan]
+display = "Mike Duggan"
+short = "Duggan"
+role = "Mayor 2014-2025"
+tier = 4
+viz_type = "political"
+nexus = ["political"]
+dynasty = "mayoral"
+era = "2014-2025"
+detail = "Mayor 2014-2025. First white mayor since 1974."
+
+# ── Kilpatrick Orbit ──
+
+[extra.actors.carolyn_kilpatrick]
+display = "Carolyn Cheeks Kilpatrick"
+short = "C.C. Kilpatrick"
+role = "Former Congresswoman"
+tier = 3
+viz_type = "political"
+nexus = ["political"]
+dynasty = "kilpatrick"
+era = "1997-2025"
+detail = "Former Congresswoman (1997-2011). Kwame's mother. Banks' 2023 CBC honorary host. Died Oct 2025."
+
+[extra.actors.dumas]
+display = "Karen Dumas"
+short = "Dumas"
+role = "Communications chief"
+tier = 3
+nexus = ["political"]
+dynasty = "kilpatrick"
+era = "2002-present"
+detail = "Kwame's comms chief → Bing's comms chief → Banks PR supporter. Images & Ideas Inc."
+
+[extra.actors.pugh]
+display = "Charles Pugh"
+short = "Pugh"
+role = "Former City Council President"
+tier = 3
+nexus = ["political", "enforcement"]
+dynasty = "kilpatrick"
+era = "2009-2013"
+detail = "City Council President 2009-2013. Convicted CSC with minor. Referred Cotton to Banks."
+
+[extra.actors.vaughn]
+display = "Bishop Corletta Vaughn"
+short = "Bp. Vaughn"
+role = "DPSCD Board President"
+tier = 3
+viz_type = "political"
+nexus = ["education", "political"]
+era = "2016-2026"
+detail = "DPSCD Board President. Authorized PCA + MacDowell charters. Disqualified 2026 ($950 Wayne Co)."
 
 # ── Entity Registry ──────────────────────────────────────────────────────
 
@@ -229,6 +622,9 @@ short = "PCA"
 type = "K-8 Charter School"
 authorizer = "DPSCD"
 page = "/network/entities/purpose-charter-academy/"
+viz_type = "school"
+nexus = ["education"]
+detail = "K-8, DPSCD authorized. LARA 900072324."
 
 [extra.entities.macdowell]
 display = "MacDowell Preparatory Academy"
@@ -240,6 +636,9 @@ extraction_pct = "72.67%"
 extraction_amount = "$4,285,201"
 unaccounted = "$348,489"
 page = "/network/entities/macdowell-prep/"
+viz_type = "school"
+nexus = ["education"]
+detail = "$4.9M revenue, 3% math. [FOIA: 9yr audits]"
 
 [extra.entities.purpose_group]
 display = "The Purpose Group, LLC"
@@ -247,6 +646,8 @@ short = "Purpose Group"
 lara_id = "803295082"
 type = "Charter Management Organization (CMO)"
 page = "/network/entities/purpose-group-llc/"
+nexus = ["education"]
+detail = "CMO — takes 72.67% of revenue. LARA 803295082."
 
 [extra.entities.purpose_foundation]
 display = "Purpose Foundation"
@@ -254,6 +655,8 @@ lara_id = "803294855"
 ein = "33-3537910"
 type = "Private 501(c)(3)"
 page = "/network/entities/purpose-foundation/"
+nexus = ["education"]
+detail = "501(c)(3), 2 felons in all positions. LARA 803294855."
 
 [extra.entities.banks_strategy]
 display = "Banks Strategy & Consultants LLC"
@@ -261,6 +664,8 @@ short = "Banks Strategy"
 lara_id = "802070120"
 type = "Consulting LLC"
 page = "/network/entities/banks-strategy-llc/"
+nexus = ["education", "political"]
+detail = "Receives judge campaign payments. LARA 802070120."
 
 [extra.entities.anchor_rock]
 display = "Anchor Rock Foundation"
@@ -269,6 +674,7 @@ lara_id = "802394934"
 type = "Dissolved 501(c)(3)"
 connection = "Judge Miller was Board Chair"
 page = "/network/entities/anchor-rock-foundation/"
+detail = "Construction + upfitting (Holland, MI). 3 assumed names. LARA 800770907."
 
 [extra.entities.serenity]
 display = "Serenity Guardianship Services, Inc."
@@ -277,6 +683,8 @@ lara_id = "802290962"
 type = "Dissolved — UPL red flag"
 connection = "Non-attorney Banks running guardianship services"
 page = "/network/entities/serenity-guardianship/"
+nexus = ["education"]
+detail = "For-profit guardianship. Banks sole officer. Never barred. UPL concern. LARA 802290962."
 
 [extra.entities.city_hill]
 display = "City Hill Church"
@@ -300,6 +708,8 @@ short = "Inner Link"
 type = "Campaign vendor"
 connection = "$8,025 from Yancey campaign"
 page = "/network/entities/inner-link-graphics/"
+nexus = ["political"]
+detail = "$98,291 from Banks-connected committees"
 
 [extra.entities.pacs]
 display = "Political Action Committees"
@@ -308,6 +718,8 @@ type = "Campaign finance vehicles"
 fines = "$14,500+"
 connection = "Holland (convicted drug offender) as PAC treasurer"
 page = "/network/entities/political-action-committees/"
+nexus = ["political"]
+detail = "$14.5K+ fines, felon treasurer"
 
 [extra.entities.escuela_avancemos]
 display = "Escuela Avancemos"
@@ -326,6 +738,122 @@ display = "Detroit Public Schools Community District"
 short = "DPSCD"
 type = "Authorizer"
 connection = "Authorized PCA despite operator's bottom-3% record at MacDowell"
+
+# ── LARA-revealed entities ──
+
+[extra.entities.dpsa]
+display = "Detroit Public Safety Academy"
+short = "DPSA"
+type = "Charter school"
+viz_type = "school"
+nexus = ["weaponization", "education"]
+detail = "Charter school — police chief on the board."
+
+[extra.entities.sdj]
+display = "Save Detroit Jobs"
+short = "SDJ"
+lara_id = "802002459"
+type = "Dark money vehicle"
+nexus = ["political"]
+detail = "3 names: SDJ (2016) + Impact Detroit (2018) + Detroit Leaders (2021). LARA 802002459."
+
+[extra.entities.dykema]
+display = "Dykema Gossett"
+short = "Dykema"
+type = "Law firm"
+viz_type = "institutional"
+nexus = ["political"]
+detail = "MI's largest law firm. Formed SDJ. compliance@dykema.com. 201 Townsend, Lansing."
+
+[extra.entities.right_turn]
+display = "Right Turn Project"
+short = "Right Turn"
+lara_id = "800936257"
+type = "Dissolved nonprofit"
+nexus = ["political"]
+detail = "Nonprofit. Dissolved 12/2021 (annual report failure). Holland = Pres. LARA 800936257."
+
+[extra.entities.ross_catering]
+display = "Ross Catering"
+short = "Ross Catering"
+type = "Campaign vendor"
+nexus = ["political"]
+detail = "$35K+ from Banks campaigns. Ross = Right Turn treasurer + catering vendor. Self-dealing."
+
+[extra.entities.custom_promo]
+display = "Custom Promotions"
+short = "Custom Promo"
+type = "Campaign vendor (dissolve-reform)"
+nexus = ["political"]
+detail = "Dissolve-and-reform (Inc → LLC, 3 months). Gordon = attorney under FBI investigation."
+
+[extra.entities.eastside_slate]
+display = "Original Eastside Slate"
+short = "Eastside Slate"
+lara_id = "802434498"
+type = "Endorsement PAC"
+nexus = ["political"]
+detail = "4th incarnation. Carol Banks = agent. Endorsement machine. LARA 802434498."
+
+[extra.entities.great_lakes_legal]
+display = "Great Lakes Legal Group"
+short = "Great Lakes Legal"
+lara_id = "802112914"
+type = "Law firm"
+nexus = ["education"]
+detail = "Crump-Gibson's firm. LARA 802112914. Discipline Board panelist = Banks attorney."
+
+# ── Charter Authorizers (Education Landscape) ──
+
+[extra.entities.gvsu]
+display = "Grand Valley State University"
+short = "GVSU"
+type = "Charter authorizer"
+viz_type = "institutional"
+nexus = ["education"]
+detail = "Largest Detroit charter authorizer. ~25-35 schools. 78 statewide. Grand Rapids."
+
+[extra.entities.cmu]
+display = "Central Michigan University"
+short = "CMU"
+type = "Charter authorizer"
+viz_type = "institutional"
+nexus = ["education"]
+detail = "Authorized MacDowell. ~9 Detroit schools. Mt. Pleasant (150 mi)."
+
+[extra.entities.emu]
+display = "Eastern Michigan University"
+short = "EMU"
+type = "Charter authorizer"
+viz_type = "institutional"
+nexus = ["education", "weaponization"]
+detail = "Authorized DPSA (Bettison on board). Ypsilanti."
+
+[extra.entities.dpscd_auth]
+display = "DPSCD (Authorizer)"
+short = "DPSCD Auth"
+type = "Charter authorizer"
+viz_type = "institutional"
+nexus = ["education"]
+detail = "Detroit Public Schools Community District. Authorized PCA (2025). 7 charter schools. Collects 3% fee."
+
+[extra.entities.nha]
+display = "National Heritage Academies"
+short = "NHA"
+lara_id = "800516703"
+type = "For-profit CMO"
+nexus = ["education"]
+detail = "For-profit CMO. 16 Detroit schools. 103 schools in 9 states. Grand Rapids HQ. $1B+ revenue."
+
+# ── Institutional nodes (referenced in edges) ──
+
+[extra.entities.mde]
+display = "Michigan Department of Education"
+short = "MDE"
+type = "State agency"
+viz_type = "institutional"
+nexus = ["education"]
+detail = "Investigated Banks Feb 2022 for no credential. Cleared. [FOIA]"
 
 # ── Source Registry ───────────────────────────────────────────────────────
 # Central truth for every external database / news source we cite.

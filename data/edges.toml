@@ -547,3 +547,920 @@ epistemic_status = "record"
 note = "Building purchase option from DPSCD at 10101 E. Canfield"
 weight = 7
 source_doc = "Purpose Group Management Agreement (FOIA)"
+
+# ── Co-residence ─────────────────────────────────────────────────────────
+
+[[edge]]
+source = "banks"
+target = "holland"
+type = "co-resident"
+epistemic_status = "record"
+note = "Same address: 1968 Severn Rd, GPW — co-resident, all entities"
+weight = 9
+viz_type = "associate"
+flow = "influence"
+label = "co-resident, all entities"
+
+# ── BMF / Family Lineage ─────────────────────────────────────────────────
+
+[[edge]]
+source = "welch"
+target = "od_banks"
+type = "family"
+epistemic_status = "record"
+note = "BMF network"
+weight = 7
+viz_type = "family"
+flow = "influence"
+label = "BMF network"
+
+# ── FOIA-revealed connections ────────────────────────────────────────────
+
+[[edge]]
+source = "wells_stallworth"
+target = "macdowell"
+type = "board_membership"
+epistemic_status = "record"
+role = "Board President"
+weight = 9
+viz_type = "controls"
+flow = "position"
+label = "Board President ≥2014"
+
+[[edge]]
+source = "wells_stallworth"
+target = "banks"
+type = "political"
+epistemic_status = "corroborated"
+note = "Received investigation letter, protected Banks"
+weight = 6
+viz_type = "associate"
+flow = "influence"
+label = "received investigation, protected"
+
+[[edge]]
+source = "mde"
+target = "banks"
+type = "investigation"
+epistemic_status = "record"
+note = "HOLD on permit #590606"
+weight = 7
+viz_type = "institutional"
+flow = "power"
+label = "HOLD on permit #590606"
+
+[[edge]]
+source = "mde"
+target = "macdowell"
+type = "investigation"
+epistemic_status = "record"
+note = "Investigated Feb 2022, cleared"
+weight = 7
+viz_type = "institutional"
+flow = "power"
+label = "investigated Feb 2022, cleared"
+
+[[edge]]
+source = "schmiedeknecht"
+target = "mde"
+type = "employment"
+epistemic_status = "record"
+role = "OEE Analyst"
+weight = 5
+viz_type = "institutional"
+flow = "position"
+label = "analyst, OEE"
+
+[[edge]]
+source = "alan_young"
+target = "macdowell"
+type = "financial"
+epistemic_status = "record"
+note = "Auditor 9yr (FY17-25)"
+weight = 7
+viz_type = "financial"
+flow = "influence"
+label = "auditor 9yr (FY17-25)"
+
+[[edge]]
+source = "macdowell"
+target = "banks"
+type = "money_flow"
+epistemic_status = "record"
+note = "School Admin salary"
+amount = "667000"
+weight = 9
+viz_type = "money"
+flow = "money"
+label = "School Admin $667K"
+viz_amount = 667000.0
+
+# ── Political Capture ────────────────────────────────────────────────────
+
+[[edge]]
+source = "sheffield"
+target = "bettison"
+type = "appointment"
+epistemic_status = "record"
+note = "Appointed chief"
+weight = 9
+viz_type = "political"
+flow = "power"
+label = "appointed chief"
+
+[[edge]]
+source = "sheffield"
+target = "banks"
+type = "political"
+epistemic_status = "corroborated"
+note = "Endorsed"
+weight = 5
+viz_type = "political"
+flow = "influence"
+label = "endorsed"
+
+[[edge]]
+source = "evans"
+target = "banks"
+type = "political"
+epistemic_status = "corroborated"
+note = "Endorsed"
+weight = 5
+viz_type = "political"
+flow = "influence"
+label = "endorsed"
+
+[[edge]]
+source = "sabree_e"
+target = "banks"
+type = "political"
+epistemic_status = "corroborated"
+note = "Endorsed"
+weight = 5
+viz_type = "political"
+flow = "influence"
+label = "endorsed"
+
+[[edge]]
+source = "inner_link"
+target = "banks"
+type = "payment"
+epistemic_status = "record"
+amount = "39000"
+note = "Banks for Senate"
+weight = 7
+viz_type = "money"
+flow = "money"
+label = "$39K Banks for Senate"
+viz_amount = 39000.0
+
+[[edge]]
+source = "inner_link"
+target = "yancey"
+type = "payment"
+epistemic_status = "record"
+amount = "8000"
+note = "Yancey campaign"
+weight = 6
+viz_type = "money"
+flow = "money"
+label = "$8K Yancey campaign"
+viz_amount = 8000.0
+
+[[edge]]
+source = "mccastle"
+target = "banks"
+type = "payment"
+epistemic_status = "record"
+amount = "9450"
+note = "Banks for Senate"
+weight = 6
+viz_type = "money"
+flow = "money"
+label = "$9,450 Banks for Senate"
+viz_amount = 9450.0
+
+[[edge]]
+source = "mccastle"
+target = "gay_dagnogo"
+type = "payment"
+epistemic_status = "record"
+amount = "1000"
+note = "Strong Women PAC"
+weight = 4
+viz_type = "money"
+flow = "money"
+label = "$1K Strong Women PAC"
+viz_amount = 1000.0
+
+[[edge]]
+source = "johnson_l"
+target = "pca"
+type = "board_membership"
+epistemic_status = "record"
+role = "Board Secretary"
+weight = 7
+viz_type = "controls"
+flow = "position"
+label = "Board Secretary"
+
+[[edge]]
+source = "inner_link"
+target = "johnson_l"
+type = "payment"
+epistemic_status = "record"
+amount = "850"
+note = "Campaign payment"
+weight = 4
+viz_type = "money"
+flow = "money"
+label = "$850 campaign"
+viz_amount = 850.0
+
+# ── Police Weaponization ─────────────────────────────────────────────────
+
+[[edge]]
+source = "bettison"
+target = "dpsa"
+type = "board_membership"
+epistemic_status = "record"
+role = "Board Secretary"
+weight = 8
+viz_type = "controls"
+flow = "position"
+label = "Board Secretary"
+
+[[edge]]
+source = "bettison"
+target = "sheffield"
+type = "political"
+epistemic_status = "record"
+note = "OIG probe — phone call"
+weight = 7
+viz_type = "political"
+flow = "power"
+label = "OIG probe — phone call"
+
+[[edge]]
+source = "fiore"
+target = "banks"
+type = "corruption"
+epistemic_status = "record"
+note = "FBI wiretap: bid-rigging"
+weight = 8
+viz_type = "associate"
+flow = "money"
+label = "FBI wiretap: 'bid-rigging'"
+
+[[edge]]
+source = "spivey"
+target = "fiore"
+type = "corruption"
+epistemic_status = "record"
+note = "Op Northern Hook"
+weight = 7
+viz_type = "associate"
+flow = "influence"
+label = "Op Northern Hook"
+
+[[edge]]
+source = "perkins_t"
+target = "banks"
+type = "legal_representation"
+epistemic_status = "record"
+role = "Defense attorney"
+weight = 8
+viz_type = "associate"
+flow = "influence"
+label = "defense attorney"
+
+[[edge]]
+source = "perkins_t"
+target = "fiore"
+type = "payment"
+epistemic_status = "record"
+amount = "500"
+note = "Donated to Fiore"
+weight = 4
+viz_type = "money"
+flow = "money"
+label = "donated $500"
+viz_amount = 500.0
+
+[[edge]]
+source = "gay_dagnogo"
+target = "perkins_t"
+type = "payment"
+epistemic_status = "record"
+amount = "750"
+note = "Mayor campaign contribution"
+weight = 4
+viz_type = "money"
+flow = "money"
+label = "$750 mayor campaign"
+viz_amount = 750.0
+
+# ── Legislative Pipeline ─────────────────────────────────────────────────
+
+[[edge]]
+source = "stallworth_t"
+target = "wells_stallworth"
+type = "family"
+epistemic_status = "record"
+role = "Married"
+weight = 10
+viz_type = "family"
+flow = "influence"
+label = "married"
+
+[[edge]]
+source = "stallworth_t"
+target = "banks"
+type = "political"
+epistemic_status = "record"
+note = "Defended at rally, $1,250"
+weight = 6
+viz_type = "political"
+flow = "influence"
+label = "defended at rally, $1,250"
+
+[[edge]]
+source = "moreland"
+target = "pca"
+type = "board_membership"
+epistemic_status = "record"
+role = "Board Director + litigation attorney"
+weight = 8
+viz_type = "controls"
+flow = "position"
+label = "Board Director + litigation attorney"
+
+[[edge]]
+source = "moreland"
+target = "banks"
+type = "legal_representation"
+epistemic_status = "corroborated"
+note = "AAG argued against cert → became his attorney + board member"
+weight = 8
+viz_type = "judicial"
+flow = "influence"
+label = "AAG argued against cert → became his attorney + board member"
+
+[[edge]]
+source = "miller"
+target = "pca"
+type = "board_membership"
+epistemic_status = "record"
+role = "Board Chair"
+weight = 9
+viz_type = "controls"
+flow = "position"
+label = "Board Chair"
+
+# ── PCA Board (LARA-confirmed composition) ───────────────────────────────
+
+[[edge]]
+source = "hutchings"
+target = "pca"
+type = "board_membership"
+epistemic_status = "record"
+role = "Board Treasurer"
+weight = 7
+viz_type = "controls"
+flow = "position"
+label = "Board Treasurer (Ypsilanti)"
+
+[[edge]]
+source = "clora"
+target = "pca"
+type = "board_membership"
+epistemic_status = "record"
+role = "Board Director"
+weight = 6
+viz_type = "controls"
+flow = "position"
+label = "Board Director"
+
+# ── Dark money vehicle (SDJ / Detroit Leaders) ───────────────────────────
+
+[[edge]]
+source = "dykema"
+target = "sdj"
+type = "formation"
+epistemic_status = "record"
+note = "Formed entity (compliance@dykema.com)"
+weight = 8
+viz_type = "controls"
+flow = "power"
+label = "formed entity (compliance@dykema.com)"
+
+[[edge]]
+source = "daniels"
+target = "sdj"
+type = "governance"
+epistemic_status = "record"
+role = "President + Director"
+weight = 8
+viz_type = "controls"
+flow = "position"
+label = "President + Director"
+
+[[edge]]
+source = "sdj"
+target = "johnson_l"
+type = "money_flow"
+epistemic_status = "record"
+note = "Funded 2021 campaign vs. Elrick"
+weight = 8
+viz_type = "money"
+flow = "money"
+label = "funded 2021 campaign vs. Elrick"
+
+# ── Right Turn Project (dissolved charity loop) ──────────────────────────
+
+[[edge]]
+source = "holland"
+target = "right_turn"
+type = "governance"
+epistemic_status = "record"
+role = "President + Director"
+weight = 7
+viz_type = "controls"
+flow = "position"
+label = "President + Director"
+
+[[edge]]
+source = "ross"
+target = "right_turn"
+type = "governance"
+epistemic_status = "record"
+role = "Treasurer + Director"
+weight = 7
+viz_type = "controls"
+flow = "position"
+label = "Treasurer + Director"
+
+[[edge]]
+source = "banks"
+target = "right_turn"
+type = "governance"
+epistemic_status = "record"
+note = "Controlled via email (BBesq06@aol.com)"
+weight = 7
+viz_type = "controls"
+flow = "power"
+label = "controlled via email (BBesq06@aol.com)"
+
+[[edge]]
+source = "pacs"
+target = "right_turn"
+type = "money_flow"
+epistemic_status = "record"
+note = "PAC transfers"
+weight = 6
+viz_type = "money"
+flow = "money"
+label = "PAC transfers"
+
+[[edge]]
+source = "ross"
+target = "ross_catering"
+type = "ownership"
+epistemic_status = "record"
+note = "Treasurer + vendor (self-dealing)"
+weight = 7
+viz_type = "associate"
+flow = "money"
+label = "treasurer + vendor (self-dealing)"
+
+[[edge]]
+source = "pacs"
+target = "ross_catering"
+type = "payment"
+epistemic_status = "record"
+amount = "35000"
+note = "Campaign payments"
+weight = 7
+viz_type = "money"
+flow = "money"
+label = "$35K+ campaign payments"
+viz_amount = 35000.0
+
+# ── Inner Link + Larry Thomas ────────────────────────────────────────────
+
+[[edge]]
+source = "larry_thomas"
+target = "inner_link"
+type = "ownership"
+epistemic_status = "record"
+role = "Owner + agent"
+weight = 8
+viz_type = "controls"
+flow = "power"
+label = "owner + agent"
+
+# ── Custom Promotions (dissolve-and-reform) ──────────────────────────────
+
+[[edge]]
+source = "gordon"
+target = "custom_promo"
+type = "ownership"
+epistemic_status = "record"
+note = "Dissolve-and-reform (Inc→LLC, 3 mo)"
+weight = 7
+viz_type = "controls"
+flow = "power"
+label = "dissolve-and-reform (Inc→LLC, 3 mo)"
+
+[[edge]]
+source = "custom_promo"
+target = "johnson_l"
+type = "payment"
+epistemic_status = "record"
+note = "Campaign payments"
+weight = 5
+viz_type = "money"
+flow = "money"
+label = "campaign payments"
+
+[[edge]]
+source = "gordon"
+target = "banks"
+type = "corruption"
+epistemic_status = "corroborated"
+note = "UAW bribery network ($3M+)"
+weight = 6
+viz_type = "associate"
+flow = "influence"
+label = "UAW bribery network ($3M+)"
+
+# ── Eastside Slate endorsement machine ───────────────────────────────────
+
+[[edge]]
+source = "carol_banks"
+target = "eastside_slate"
+type = "governance"
+epistemic_status = "record"
+role = "Agent — 4th incarnation"
+weight = 7
+viz_type = "controls"
+flow = "power"
+label = "agent — 4th incarnation"
+
+[[edge]]
+source = "carol_banks"
+target = "banks"
+type = "family"
+epistemic_status = "record"
+role = "Sister"
+weight = 10
+viz_type = "family"
+flow = "influence"
+label = "sister"
+
+[[edge]]
+source = "leach"
+target = "eastside_slate"
+type = "governance"
+epistemic_status = "record"
+note = "2nd incarnation agent. 13 political entities."
+weight = 6
+viz_type = "associate"
+flow = "influence"
+label = "2nd incarnation agent. 13 political entities."
+
+[[edge]]
+source = "eastside_slate"
+target = "banks"
+type = "political"
+epistemic_status = "corroborated"
+note = "Endorsement pipeline"
+weight = 6
+viz_type = "political"
+flow = "influence"
+label = "endorsement pipeline"
+
+# ── Legal representation family ──────────────────────────────────────────
+
+[[edge]]
+source = "crump_gibson"
+target = "great_lakes_legal"
+type = "ownership"
+epistemic_status = "record"
+role = "Agent + member"
+weight = 7
+viz_type = "controls"
+flow = "power"
+label = "agent + member"
+
+[[edge]]
+source = "crump_gibson"
+target = "banks"
+type = "legal_representation"
+epistemic_status = "record"
+note = "Represents Banks (Discipline Board panelist)"
+weight = 7
+viz_type = "judicial"
+flow = "influence"
+label = "represents Banks (Discipline Board panelist)"
+
+[[edge]]
+source = "v_hall"
+target = "banks"
+type = "legal_representation"
+epistemic_status = "record"
+note = "Filed PPO against journalist"
+weight = 6
+viz_type = "judicial"
+flow = "influence"
+label = "filed PPO against journalist"
+
+[[edge]]
+source = "v_hall"
+target = "crump_gibson"
+type = "family"
+epistemic_status = "inference"
+note = "Shared surname Crump — MSU — family?"
+weight = 4
+viz_type = "associate"
+flow = "influence"
+label = "shared surname Crump — MSU — family?"
+
+# ── Serenity Guardianship (UPL) ──────────────────────────────────────────
+
+[[edge]]
+source = "banks"
+target = "serenity"
+type = "ownership"
+epistemic_status = "record"
+note = "Sole officer (all 4 roles). Never barred."
+weight = 7
+viz_type = "controls"
+flow = "power"
+label = "sole officer (all 4 roles). Never barred."
+
+# ── Anchor Rock (construction, Holland MI) ───────────────────────────────
+
+[[edge]]
+source = "banks"
+target = "anchor_rock"
+type = "governance"
+epistemic_status = "record"
+role = "Registered agent"
+note = "3 assumed names"
+weight = 5
+viz_type = "controls"
+flow = "power"
+label = "agent. 3 assumed names."
+
+# ── Charter Authorizer edges (Education Landscape) ───────────────────────
+
+[[edge]]
+source = "cmu"
+target = "macdowell"
+type = "authorization"
+epistemic_status = "record"
+note = "Authorized (150 mi away)"
+weight = 8
+viz_type = "institutional"
+flow = "power"
+label = "authorized (150 mi away)"
+
+[[edge]]
+source = "dpscd_auth"
+target = "pca"
+type = "authorization"
+epistemic_status = "record"
+note = "Authorized Jul 2025 (3% fee)"
+weight = 8
+viz_type = "institutional"
+flow = "power"
+label = "authorized Jul 2025 (3% fee)"
+
+[[edge]]
+source = "emu"
+target = "dpsa"
+type = "authorization"
+epistemic_status = "record"
+note = "Authorized DPSA"
+weight = 7
+viz_type = "institutional"
+flow = "power"
+label = "authorized (DPSA)"
+
+[[edge]]
+source = "gvsu"
+target = "nha"
+type = "authorization"
+epistemic_status = "record"
+note = "Authorizes 16+ Detroit NHA schools"
+weight = 8
+viz_type = "institutional"
+flow = "power"
+label = "authorizes 16+ Detroit NHA schools"
+
+[[edge]]
+source = "macdowell"
+target = "cmu"
+type = "money_flow"
+epistemic_status = "record"
+amount = "147000"
+note = "3% auth fee"
+weight = 7
+viz_type = "money"
+flow = "money"
+label = "3% auth fee (~$147K/yr)"
+viz_amount = 147000.0
+
+[[edge]]
+source = "pca"
+target = "dpscd_auth"
+type = "money_flow"
+epistemic_status = "record"
+amount = "81000"
+note = "3% auth fee"
+weight = 7
+viz_type = "money"
+flow = "money"
+label = "3% auth fee (~$81K/yr)"
+viz_amount = 81000.0
+
+[[edge]]
+source = "gay_dagnogo"
+target = "dpscd_auth"
+type = "political"
+epistemic_status = "record"
+note = "DPSCD board → authorized PCA"
+weight = 7
+viz_type = "political"
+flow = "influence"
+label = "DPSCD board → authorized PCA"
+
+# ── Mayoral succession chain ─────────────────────────────────────────────
+
+[[edge]]
+source = "coleman_young"
+target = "archer"
+type = "political"
+epistemic_status = "record"
+note = "Succeeded 1994"
+weight = 8
+viz_type = "political"
+flow = "power"
+label = "succeeded 1994"
+
+[[edge]]
+source = "archer"
+target = "kwame"
+type = "political"
+epistemic_status = "record"
+note = "Succeeded 2002"
+weight = 8
+viz_type = "political"
+flow = "power"
+label = "succeeded 2002"
+
+[[edge]]
+source = "kwame"
+target = "bing"
+type = "political"
+epistemic_status = "record"
+note = "Succeeded after conviction 2008"
+weight = 8
+viz_type = "political"
+flow = "power"
+label = "succeeded after conviction 2008"
+
+[[edge]]
+source = "bing"
+target = "duggan"
+type = "political"
+epistemic_status = "record"
+note = "Succeeded 2014"
+weight = 8
+viz_type = "political"
+flow = "power"
+label = "succeeded 2014"
+
+[[edge]]
+source = "duggan"
+target = "sheffield"
+type = "political"
+epistemic_status = "record"
+note = "Succeeded 2024"
+weight = 8
+viz_type = "political"
+flow = "power"
+label = "succeeded 2024"
+
+# ── Kilpatrick orbit ─────────────────────────────────────────────────────
+
+[[edge]]
+source = "kwame"
+target = "carolyn_kilpatrick"
+type = "family"
+epistemic_status = "record"
+role = "Mother"
+weight = 10
+viz_type = "family"
+flow = "influence"
+label = "mother"
+
+[[edge]]
+source = "carolyn_kilpatrick"
+target = "banks"
+type = "political"
+epistemic_status = "record"
+note = "CBC honorary host 2023"
+weight = 6
+viz_type = "political"
+flow = "influence"
+label = "CBC honorary host 2023"
+
+[[edge]]
+source = "kwame"
+target = "dumas"
+type = "employment"
+epistemic_status = "record"
+role = "Communications chief"
+weight = 8
+viz_type = "controls"
+flow = "power"
+label = "comms chief"
+
+[[edge]]
+source = "dumas"
+target = "banks"
+type = "political"
+epistemic_status = "corroborated"
+note = "PR support, thanked in book"
+weight = 5
+viz_type = "associate"
+flow = "influence"
+label = "PR support, thanked in book"
+
+[[edge]]
+source = "bing"
+target = "dumas"
+type = "employment"
+epistemic_status = "record"
+role = "Communications chief (continued)"
+weight = 7
+viz_type = "controls"
+flow = "power"
+label = "comms chief (continued)"
+
+[[edge]]
+source = "kwame"
+target = "daniels"
+type = "appointment"
+epistemic_status = "record"
+note = "Appointed to Water Board"
+weight = 7
+viz_type = "political"
+flow = "power"
+label = "appointed to Water Board"
+
+[[edge]]
+source = "gay_dagnogo"
+target = "kwame"
+type = "political"
+epistemic_status = "record"
+note = "Sought Kilpatrick clemency 2020"
+weight = 5
+viz_type = "political"
+flow = "influence"
+label = "sought Kilpatrick clemency 2020"
+
+[[edge]]
+source = "pugh"
+target = "banks"
+type = "referral"
+epistemic_status = "corroborated"
+note = "Referred Cotton → sexual harassment"
+weight = 6
+viz_type = "associate"
+flow = "influence"
+label = "referred Cotton → sexual harassment"
+
+[[edge]]
+source = "vaughn"
+target = "pca"
+type = "authorization"
+epistemic_status = "record"
+note = "DPSCD Board Pres — authorized charter"
+weight = 8
+viz_type = "institutional"
+flow = "power"
+label = "DPSCD Board Pres — authorized charter"
+
+[[edge]]
+source = "vaughn"
+target = "macdowell"
+type = "authorization"
+epistemic_status = "record"
+note = "DPSCD Board Pres — authorized charter"
+weight = 8
+viz_type = "institutional"
+flow = "power"
+label = "DPSCD Board Pres — authorized charter"

@@ -36,6 +36,19 @@ pub struct GraphEdge {
     pub weight: Option<i64>,
     #[serde(skip_serializing_if = "Option::is_none")]
     pub source_doc: Option<String>,
+    // ── Visualization fields (network-data.js) ──
+    /// Visualization edge type (controls, financial, associate, money, judicial, political, family, institutional).
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub viz_type: Option<String>,
+    /// Flow category (money, power, influence, position).
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub flow: Option<String>,
+    /// Display label for viz hover.
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub label: Option<String>,
+    /// Dollar amount for viz (numeric, not string).
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub viz_amount: Option<f64>,
 }
 
 // ── Node types ──────────────────────────────────────────────────────────
