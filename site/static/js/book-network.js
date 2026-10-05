@@ -263,6 +263,118 @@
   // ── VALIDATION OVERLAY ──────────────────────────────────────────
   // Map book nodes to existing main network nodes for overlay matching
 
+  // ── COLLAPSED LEGAL REALITIES ─────────────────────────────────────
+  // Each person exists across multiple formal systems. The book admissions
+  // confirm the social reality that connects these separate legal identities.
+  //
+  // Pattern: book_name → { main_graph_id, lara_entities[], campaign_finance[], board_seats[], bar_status }
+  // This IS the collapse. Every overlay = one more proof the network is real.
+
+  var COLLAPSED = {
+    'whitlow': {
+      bookName: 'Carles Whitlow', bookRole: 'Nine Thirty Marketing, book cover team',
+      mainId: null,
+      lara: ['WhitlowBanks LLC (802085022, filed 04/20/2017, Pontiac)', 'Whitlow Forerunner Restaurant Inc (800215280, Muskegon)'],
+      campaign: ['$8,500 payee — Banks for Senate (5th largest individual payee)'],
+      note: 'Entity name literally = "Whitlow" + "Banks." Filed during Banks career era.'
+    },
+    'terrence_tarver': {
+      bookName: 'Terrence Tarver', bookRole: '"Brothers ever since" — D.C. friend',
+      mainId: null,
+      lara: ['Right Turn Project — Director (16500 North Park Dr, Southfield)'],
+      campaign: [],
+      board: ['Right Turn Project — alongside Holland and Carlton Ross'],
+      note: 'Banks\'s "brother" is a DIRECTOR of the charity that cycled PAC money through Ross Catering. Same charity never registered with MI AG.'
+    },
+    'kristine_longstreet': {
+      bookName: 'Kristine Longstreet, Esq.', bookRole: 'Thanked as friend in acknowledgments',
+      mainId: 'longstreet-kristine',
+      lara: [],
+      board: ['MacDowell Preparatory Academy — Board Director'],
+      bar: 'Licensed attorney',
+      note: '"Friend" → Board Director of the school Banks runs. Social relationship predates governance role.'
+    },
+    'rebecca_fadel': {
+      bookName: 'Rebecca Fadel, J.D.', bookRole: 'Legislative staff — J.D. under non-licensed supervisor',
+      mainId: null,
+      campaign: ['On Yancey campaign payroll'],
+      note: 'Banks\'s former staff member now on the payroll of the judge who took his House seat and lives one street over.'
+    },
+    'karen_dumas': {
+      bookName: 'Karen Dumas', bookRole: 'Thanked as friend',
+      mainId: 'dumas',
+      lara: ['Images & Ideas Inc'],
+      campaign: [],
+      note: 'Kwame\'s comms chief → Bing\'s comms chief → Banks PR. Book confirms 3-administration bridge.'
+    },
+    'brandi_neal': {
+      bookName: 'Brandi Neal', bookRole: 'Thanked as friend',
+      mainId: null,
+      campaign: ['$2,000 contributor to Banks for Senate'],
+      note: 'Book friendship admission + campaign finance = validated social-financial connection.'
+    },
+    'jewel_ware': {
+      bookName: 'Commissioner Jewel Ware', bookRole: 'Thanked as friend',
+      mainId: null,
+      campaign: [],
+      note: 'Commissioner. Margaret Ware also a "Team Bank on Banks" volunteer — family operation.'
+    },
+    'sheard': {
+      bookName: 'Bishop J. Drew Sheard / Karen Clark-Sheard', bookRole: 'Pastor + First Lady',
+      mainId: null,
+      lara: ['Greater Emmanuel Institutional COGIC (multiple entity IDs)'],
+      note: 'Spiritual institutional cover. COGIC = major denomational presence. Karen Clark-Sheard = The Clark Sisters.'
+    },
+    'blanche_mcallister': {
+      bookName: 'Blanche McAllister-Dykes', bookRole: 'Gospel artist Banks manages',
+      mainId: null,
+      note: 'Banks served as her music MANAGER while a State Rep. Traveled the world. Performed at legislative events.'
+    },
+    'iris_taylor': {
+      bookName: 'Dr. Iris A. Taylor', bookRole: 'Thanked as friend',
+      mainId: null,
+      note: 'Appears in 9 case documents — already identified in Banks OSINT brief.'
+    },
+    'stallworth_thomas': {
+      bookName: 'Thomas Stallworth IV (Tommy)', bookRole: '"My mentor" — took Banks to Gov. Snyder meeting',
+      mainId: 'stallworth_t',
+      lara: ['Stallworth Consulting Group LLC (801840092, filed 10/06/2015)'],
+      campaign: ['$1,250 to Banks campaigns'],
+      board: [],
+      family: 'Married to Nicole Wells Stallworth (MacDowell Board Chair). Father of Misha (DPSCD Board). Brother Keith (federal financial crime plea).',
+      note: 'Book says "my mentor Tommy." Found network shows: wife = MacDowell Board Chair, daughter = DPSCD Board, brother = federal plea. The entire dynasty enables Banks.'
+    },
+    'true_vine': {
+      bookName: 'True Vine Publishing Co.', bookRole: 'Publisher — P.O. Box 22448, Nashville TN 37202',
+      mainId: null,
+      lara: [],
+      note: 'Published "Brian Banks, J.D." — the commercial instrument of credential fraud. www.TrueVinePublishing.org. LARA lookup pending.'
+    },
+    'ben_gonek': {
+      bookName: 'Ben Gonek', bookRole: 'Attorney when FBI arrived',
+      mainId: null,
+      bar: 'Licensed attorney (needs bar search)',
+      note: 'Banks and Holland went to his office TOGETHER when FBI showed up. He recognized the FBI agent from prior cases.'
+    },
+    'condino': {
+      bookName: 'Mr. Condino', bookRole: 'Defense attorney — Oakland County felonies',
+      mainId: null,
+      bar: 'Licensed attorney (needs bar search)',
+      note: 'Represented Banks before Langford Morris. Banks could not afford him for tether removal so went pro se.'
+    },
+    'mary_ferguson': {
+      bookName: 'Mary Ferguson', bookRole: 'Director of Diversity Services, MSU College of Law',
+      mainId: null,
+      note: 'Shepherded Banks + Roeiah into LEO Program. Introduced them to Dean Alsup. The institutional enabler who opened the door to the J.D.'
+    },
+    'roeiah': {
+      bookName: 'Roeiah', bookRole: '33 mentions — bridge between Banks and judiciary',
+      mainId: null,
+      bar: 'Possible J.D. from MSU Law (LEO Program classmate)',
+      note: 'The MOST mentioned non-family name after Langford Morris. Bridge to judiciary. Law school classmate. Bar search needed — if she passed the bar while Banks didn\'t, that\'s another data point.'
+    },
+  };
+
   var BOOK_TO_MAIN = {
     'banks': 'banks',
     'holland': 'holland',
@@ -276,6 +388,7 @@
     'johnson_l': 'johnson_l',
     'hutchings': 'hutchings',
     'bk_karen_dumas': 'dumas',
+    'bk_kristine_longstreet': 'longstreet-kristine',
   };
 
   // Nodes in book but NOT in main network = new targets
@@ -339,6 +452,7 @@
   window.DETROIT_BOOK_NETWORK = {
     nodes: BOOK_NODES,
     edges: BOOK_EDGES,
+    collapsed: COLLAPSED,
     bookToMain: BOOK_TO_MAIN,
     newTargets: NEW_TARGETS,
     validated: VALIDATED,
