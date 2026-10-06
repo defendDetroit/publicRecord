@@ -25,6 +25,7 @@ Analysis of the documented patterns connecting convicted felons, captured courts
 | **[The Land Deal](/analysis/land-deal/)** | PCA building purchase option — public property conversion mechanism |
 | **[Detroit Literacy Crisis](/analysis/detroit-literacy/)** | Systemic view — authorization incentives, extraction vehicles, enforcement theater |
 | **[Shepherds and Wolves](/analysis/shepherds-and-wolves/)** | The Presiding Bishop of COGIC endorsed Banks. A self-consecrated bishop authorized his charter. The congregations were never told. |
+| **[💰 Dark Money Pipeline](/analysis/dark-money-pipeline/)** | **One Dykema entity funded the council member on Banks's board AND the Mayor. Save Detroit Jobs → Detroit Next PAC → Sheffield → Bettison appointment. Full payee list. Venus Coleman = convicted drug launderer.** |
 | **[Corporate Network — LARA](/analysis/corporate-network-lara/)** | 12 Banks entities. PCA board = his own attorney. Save Detroit Jobs = 3 names, formed by Dykema. $98K print vendor also runs obituaries4less.com. All from public LARA filings. |
 | **[Detroit Education Landscape](/analysis/education-landscape/)** | 62+ charters, 10 authorizers, $288M+/yr. Who runs what. Both sectors failing. Banks = every vulnerability at once. |
 
