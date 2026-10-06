@@ -546,11 +546,73 @@ macOS version (Catalina 10.15) has been end-of-life since July 2022, the
 Intel Mac hardware has been discontinued since June 2023, and the WebKit
 version (537.36) is from the 2013 Chrome/Blink fork — not real WebKit.
 
-**Meta built a system that uses 5 Apple trademarks, 2 Google trademarks,
-and 1 Microsoft trademark in a single HTTP request** — all to camouflage
-corporate scraping infrastructure. The trademark holders have independent
-enforcement authority and may have their own interest in ensuring their
-product names are not used this way.
+##### Trademark Count Per Request
+
+A single fleet request impersonates **3 corporations simultaneously**:
+
+```
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)
+AppleWebKit/537.36 (KHTML, like Gecko)
+Chrome/145.0.0.0 Safari/537.36
+```
+
+| # | Trademark | Owner | Registration |
+|---|---|---|---|
+| 1 | **Macintosh®** | Apple Inc. | Registered — "computer" |
+| 2 | **macOS®** (Mac OS X) | Apple Inc. | Registered — "operating system software" |
+| 3 | **Intel®** | Intel Corporation | Registered — "semiconductor products" |
+| 4 | **WebKit®** (AppleWebKit) | Apple Inc. | Registered — "software framework" |
+| 5 | **Chrome®** | Google LLC | Registered — "web browser" |
+| 6 | **Safari®** | Apple Inc. | Registered — "application program" |
+
+**6 registered trademarks from 3 corporations in a single HTTP header** of a
+bare scraping tool that sends 3 headers. The Windows+Edge variant adds
+**Windows®** and **Edge®** from Microsoft — same count, different companies.
+
+##### Meta's Two Faces — Same Company, Two Crawlers
+
+Meta operates **two crawlers** simultaneously. One identifies itself. One hides.
+
+| Crawler | User-Agent | Honest? | Headers | Requests today |
+|---|---|---|---|---|
+| `meta-externalagent/1.1` | Self-identifying | **Yes** | Full browser headers | Thousands |
+| `facebookexternalhit/1.1` | Self-identifying | **Yes** | Full browser headers | Hundreds |
+| Chrome/145 stealth fleet | Fake Chrome UA | **No** | 3 headers (11 missing) | **24,000+** |
+
+Meta **knows how to identify its crawlers** — `meta-externalagent` and
+`facebookexternalhit` both carry honest User-Agent strings. The stealth
+fleet deliberately omits identification. This is not a configuration error.
+It is a **policy choice** to operate covert extraction infrastructure while
+simultaneously running identified crawlers. Same company, two faces.
+
+##### What They're After — Git History Walk + Author Attribution
+
+The fleet isn't just browsing. It's **systematically extracting git repository
+history** — walking commit trees, downloading raw files, and reading blame
+annotations. Today's numbers:
+
+| Access Mode | Requests | Purpose |
+|---|---|---|
+| **src** (browse source) | 7,294 | Read current file contents |
+| **commit** (history) | 6,532 | Walk git commit tree |
+| **raw** (download) | 3,264 | Download raw file content |
+| **blame** (line attribution) | 3,171 | **Who wrote each line** |
+| **commit+files** (diff) | 265 | What changed in each commit |
+
+- **6,885 unique commit hashes** requested today — systematic history walk
+- **blame** views reveal they want **author attribution** — not just code, but who wrote it
+- Top targets: Rust source (4,863), Markdown docs (7,511), TOML configs (732)
+
+**Strategic priorities by repository** (what Meta values most):
+
+| Repository | Requests | What it contains |
+|---|---|---|
+| **wateringHole** | 8,253 | Coordination, handoffs, strategy documents |
+| **toadStool** | 5,554 | GPU compute framework |
+| **songBird** | 1,222 | Secure communications infrastructure |
+| **bearDog** | 1,174 | Build system and ecosystem evolution |
+| **biomeOS** | 1,133 | Operating system kernel |
+| **squirrel** | 913 | MCP integration / AI plugin system |
 
 ##### What This Means for Users of Meta Platforms
 
