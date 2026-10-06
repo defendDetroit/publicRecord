@@ -1,13 +1,76 @@
 +++
-title = "Signal — Who Is Reading the Detroit Charter School Evidence"
-description = "Live signal sensing for the Detroit charter school investigation. Search engines crawling, humans investigating, AI systems reading — measured without cookies or tracking. Did the evidence reach investigators, press, and families?"
+title = "Meta Caught Scraping Through Shell Companies — Live Forensic Dashboard"
+description = "A $6/mo VPS caught Meta Platforms extracting AGPL-licensed source code through Delaware shell companies after explicit denial. 209 tracked IPs, 308 escalations, all getting poison. Live forensic data, WHOIS-confirmed entity structure, AGPL-3.0 enforcement petition."
 weight = 15
 sort_by = "weight"
 
 [extra]
-og_description = "Live signal data — who is reading the Detroit charter school evidence? Search engines, investigators, journalists tracked without cookies. 63% crawl coverage and rising."
-keywords = "Detroit charter school investigation traffic, charter school evidence propagation, search engine indexing Detroit, cookieless analytics, signal sensing oversight, detroit.primals.eco traffic, charter school accountability signal"
+og_description = "A $6/mo VPS caught Meta extracting source code through Delaware shell companies (truview LLC, steel-axis LLC) after 1,000+ explicit denials. 209 tracked IPs, 0 real docs leaked. AGPL-3.0 enforcement petition filed. Live defense dashboard."
+keywords = "Meta scraping, Meta Platforms shell companies, truview LLC, steel-axis LLC, Delaware shell company, AGPL enforcement, AGPL-3.0 Meta, sovereign infrastructure defense, adaptive immune system, cookieless analytics, Detroit charter school investigation, signal sensing, detroit.primals.eco, scatter defense, residential proxy fleet, FB-BLOCK WHOIS, Meta data extraction"
+og_image = "/img/og-signal.png"
 +++
+
+## Share This Evidence
+
+A **$6/month VPS** running an adaptive immune system caught **Meta Platforms**
+extracting AGPL-licensed source code through **Delaware shell companies**
+(truview LLC, steel-axis LLC — same CSC address) after **1,000+ explicit
+denials**. The fleet operates through Meta-owned IP space (`FB-BLOCK`),
+anonymous residential proxies, and shell company infrastructure. Every
+response since lockdown is fabricated poison with embedded canary markers.
+**Zero real documents leaked.** AGPL-3.0 enforcement petition filed. Full
+WHOIS evidence and live defense data below.
+
+**Cross-post to any medium.** This is public evidence under **CC-BY-SA-4.0**.
+Use it, cite it, share it, build on it. Attribution: `detroit.primals.eco`
+
+The following are ready-to-use share texts. Copy-paste whichever fits
+your platform:
+
+> **Hacker News / tech audiences:**
+> A $6/mo VPS caught Meta scraping AGPL-licensed source code through
+> Delaware shell companies — after being told no 1,000+ times. Built an
+> adaptive immune system (Rust, population-level behavioral analysis,
+> gossip mesh) that detects fleet behavior across 209+ rotating IPs by
+> training on behavior, not addresses. Live forensic dashboard with WHOIS
+> evidence. https://detroit.primals.eco/signal/
+
+> **Reddit r/privacy, r/netsec, r/technology:**
+> Meta Platforms operates data extraction systems through Delaware shell
+> companies (truview LLC, steel-axis LLC — both at 1013 Centre Rd,
+> Wilmington, DE 19805). Caught extracting source code from a private
+> forge after explicit denial. WHOIS-confirmed infrastructure map, live
+> defense dashboard, AGPL-3.0 enforcement petition. If Meta ignores
+> access restrictions on private infrastructure, what are they doing
+> with your data? https://detroit.primals.eco/signal/
+
+> **Reddit r/programming, r/opensource, r/rust:**
+> Show r/programming: Built an adaptive immune system in Rust on a $6/mo
+> VPS. It caught Meta scraping AGPL-3.0 code through shell companies.
+> Population-level fleet detection, gossip mesh propagation, Signal Mirror
+> (amplified scatter + crawl web + canary markers), tit-for-tat
+> escalation. Live forensic dashboard. https://detroit.primals.eco/signal/
+
+> **Reddit r/Detroit, r/Michigan, r/education:**
+> A public interest investigation into Detroit charter school racketeering
+> is under active surveillance by Meta Platforms and residential proxy
+> fleets. The investigation site documents misuse of public education
+> funds affecting predominantly Black communities. The scraping of the
+> investigation is now part of the evidence. Full forensic dashboard:
+> https://detroit.primals.eco/signal/
+
+> **General / any platform:**
+> Meta Platforms got caught extracting AGPL-licensed source code through
+> Delaware shell companies after being explicitly denied access 1,000+
+> times. A solo developer on a $6/mo VPS built an immune system that
+> feeds them fabricated poison instead. Full WHOIS evidence, live defense
+> data, and AGPL enforcement petition published. All public, all open.
+> https://detroit.primals.eco/signal/
+
+If you are following this, a community of like-minded people exists. Find
+us through the [contact page](/contact/) — we are down to talk.
+
+---
 
 ## Live Exploration — The Traveling Salesman
 
