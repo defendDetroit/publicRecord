@@ -102,7 +102,7 @@ the evidence improves with each observation window.
 | Oct 2 | Contact page updated | 213 | 212 URLs | ✅ HTTP 200 |
 | Oct 3 | Coverage section launched | 233 | 232 URLs | ✅ HTTP 200 |
 | Oct 4 | Behavioral classification deployed | 233 | 232 URLs | ✅ HTTP 200 |
-| Oct 6 | Afferent sensor deployed, immune defense documented | 233 | — | ✅ Live |
+| Oct 6 | Five-layer immune defense deployed, threat feed published | 233 | — | ✅ Live |
 
 ### Reception (LuxR — inbound)
 
@@ -285,47 +285,96 @@ propagating through channels we didn't anticipate when we built the site.**
 
 ---
 
-## Infrastructure Defense — Immune System Update (Oct 6)
+## Infrastructure Defense — Five-Layer Immune System (Oct 6)
 
-The infrastructure that hosts this evidence site and its source code is under
-continuous automated scraping by residential proxy fleets — as of October 6,
-**10 simultaneous fleets** operating approximately **1,200 unique IP addresses
-each** per 30-minute window. Total tracked IPs: **1,945** in the current session.
-Each IP makes a single request and never returns. The fleets target commit-level
-data from the source code repository.
+This is a public evidence site documenting a **racketeering network** involving
+charter school public funds in Detroit — a matter touching federal wire fraud
+statutes, potential civil rights violations affecting predominantly Black
+communities, and multiple ongoing legal proceedings. Every automated system
+that accesses this site becomes part of the evidentiary record.
 
-### What we're doing about it
+**If your organization operates bots, crawlers, or AI systems that access this
+site, your access logs, behavioral patterns, and data harvesting activity are
+documented in a cryptographically verifiable chain with daily Merkle root
+integrity seals.** This documentation is available to law enforcement and
+legal counsel upon request through appropriate channels.
 
-We built an adaptive immune system. Not a firewall — a biological-style defense
-that identifies *behavior*, not *identity*:
+### The Defense Stack
 
-1. **Behavioral fingerprinting** — The fleets rotate IP addresses on every
-   request, but their *behavior* is conserved: they always target the same types
-   of pages, with the same header patterns, the same timing, the same absence
-   of session context. We compute stable hashes from these behavioral invariants.
-   Two hashes (`49e77ea75aa7666e` and `087ef04a48f7b1ca`) currently track the
-   fleet patterns across thousands of rotating IPs without storing a single
-   IP address.
+The infrastructure is under continuous automated scraping by residential proxy
+fleets — as of October 6, **10 simultaneous fleets** operating approximately
+**1,200 unique IP addresses each** per 30-minute window. Total tracked IPs:
+**1,945** in the current session. The fleets demonstrated **behavioral mutation**
+— 7 new scanning patterns in 24 minutes — then reverted to original behavior
+when all 7 were detected.
 
-2. **Gossip-tagged identity** — When the immune system detects a fleet pattern,
-   it emits a behavioral tag through our mesh network. The tag (called an
-   **opsonize tag**) propagates to all gates. 50–139 antibodies match per
-   30-second window. The fleet is known to the entire infrastructure.
+We built a five-layer adaptive immune system:
 
-3. **Poison content delivery** — Instead of blocking detected fleet requests,
-   we serve plausible-but-fabricated content at a **42% effective scatter ratio**.
-   Fake commit pages, fictional file views, synthetic code. ~20% of fleet
-   requests receive 200 responses with fabricated data; ~78% receive
-   deterministic false-404 decoys. The fleet's data pipeline ingests the
-   fabricated content as real data.
+**Layer 1 — Behavioral Detection.** The fleets rotate IP addresses on every
+request, but their *behavior* is conserved: same page targets, same header
+patterns, same timing, same absence of session context. We compute stable
+behavioral hashes from these invariants. Two hashes (`49e77ea75aa7666e` and
+`087ef04a48f7b1ca`) currently track the fleet patterns across thousands of
+rotating IPs without storing a single IP address. 50–139 antibodies match
+per 30-second observation window.
 
-4. **Afferent sensing (NEW — Oct 6)** — The system now has a **sensory channel**
-   (BloomSensor) that detects positive signal simultaneously with immune defense.
-   The bloom sensor classifies every request by content domain, reader type,
-   referrer source, and language — without storing any identifying data. It
-   can feel both the humans reading evidence and the fleets hitting the forge.
+**Layer 2 — Graduated Response.** Detected scanners do not receive error pages.
+They receive deliberately degraded service calibrated to their persistence:
+plausible-but-fabricated content (**42% scatter ratio**), connection tarpitting
+(30–60 seconds of slow-drip responses that tie up scanner threads), and
+maximally-wrong data that poisons downstream processing pipelines. The
+defense protects evidence integrity by making unauthorized copies unreliable.
 
-### What this means for the evidence
+**Layer 3 — Credential Bait.** Scanners probing for configuration files
+(`/.env`, `/wp-config.php`, `/.git/config`, `/.aws/credentials`) receive
+fake-but-plausible credentials — AWS access keys, GitHub tokens, database
+connection strings. **These are canary credentials.** When scanners harvest
+and *use* them, the destination system's own security catches the intrusion
+attempt. AWS GuardDuty fires. GitHub token scanning alerts. We touch nothing —
+the scanner creates their own consequences by acting on harvested data from
+an investigation site.
+
+**Layer 4 — Threat Intelligence.** Behavioral fingerprints from the defense
+pipeline are published as a daily threat intelligence feed. The feed contains
+**no IP addresses and no identifying information** — only behavioral
+signatures that other defenders can match against their own logs. The feed
+is integrity-sealed with the daily Merkle root from our signal spine.
+
+**Layer 5 — Escalation Pathway.** Persistent adversarial scanning of a site
+documenting evidence of racketeering, public fund misuse, and potential
+civil rights violations is reported through appropriate channels: hosting
+provider abuse contacts, federal cyber crime intake (IC3), and state
+attorney general cyber units. Abuse reports are generated automatically
+and reviewed by humans before delivery.
+
+### Notice to Automated Systems
+
+This site documents evidence relevant to:
+
+- **Federal wire fraud** (18 U.S.C. § 1343) — charter school funds moved
+  through interstate banking
+- **RICO** (18 U.S.C. § 1962) — pattern of racketeering activity across
+  multiple entities and actors
+- **Civil rights** (42 U.S.C. § 1983) — public education funding serving
+  predominantly Black communities in Detroit diverted through credential
+  laundering and board capture
+- **Michigan charter school accountability** — public records, FOIA
+  responses, state contract documentation
+
+Automated systems that access this site — whether operated by social media
+companies, AI training pipelines, competitive intelligence services, or
+the subjects of the investigation themselves — are documented in the same
+evidentiary chain as the evidence they are accessing. Your bot's behavioral
+signature, access patterns, and the specific evidence pages it touches
+become part of the investigation record.
+
+If you operate legitimate infrastructure (search engines, accessibility
+tools, archival services), your access is welcome and documented as
+normal crawl activity. If you operate systems that systematically harvest
+evidence from an active investigation site, you should understand what
+your systems are touching.
+
+### What This Means for the Evidence
 
 The evidence published on this site is real, documented, and auditable. The
 scraper fleets' pipelines now contain a mix of genuine data and fabricated
@@ -341,7 +390,7 @@ automated scraping against specific evidence pages may indicate which
 evidence is most threatening to the subjects it documents. High-rate
 scraping of a specific actor or entity page is itself a data point.
 
-### Privacy guarantees (unchanged)
+### Privacy Guarantees (Unchanged)
 
 This defense operates under the same constraints as all our signal sensing:
 
@@ -350,6 +399,7 @@ This defense operates under the same constraints as all our signal sensing:
 - **No identifying data** — behavioral hashes describe *what* traffic does, not *who* generates it
 - **Humans are unaffected** — the defense only triggers on deep-content path scraping without session context. If you're reading this page in a browser, you passed through the immune system undetected because you're behaving like a human.
 - **The bloom sensor stores only population aggregates** — domain counts, reader type distributions, language lists. No individual request data is retained.
+- **The threat intelligence feed contains no PII** — only statistical behavioral signatures
 
 The methodology is documented at
 [Adaptive Immune Defense](https://sporeprint.primals.eco/architecture/adaptive-immune-defense/) and
