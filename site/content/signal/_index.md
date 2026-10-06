@@ -847,6 +847,83 @@ automated scraping against specific evidence pages may indicate which
 evidence is most threatening to the subjects it documents. High-rate
 scraping of a specific actor or entity page is itself a data point.
 
+### The Visitor Ecology — Who Is Reading This (Oct 6, 2:50 PM ET)
+
+The defense system classifies every visitor into an ecological taxonomy.
+No IP addresses stored. Classification uses behavioral patterns only.
+
+**Commensal visitors** (provide indexing value, respect boundaries):
+
+| Entity | Requests | Behavior |
+|--------|---------|----------|
+| Google | 3 | Checked robots.txt ✅, indexed probate coverage |
+| Bing | 20 | Checked robots.txt ✅, indexed science (sporePrint) |
+| OpenAI (SearchBot) | 3 | Checked robots.txt ✅ on all 3 sites, nothing else |
+| Anthropic (ClaudeBot) | 2 | Checked robots.txt ✅ and sitemap |
+| Apple | 2 | Checked robots.txt ✅, read summary card |
+| Ahrefs / Semrush | 10 | Checked robots.txt ✅, standard SEO indexing |
+
+These entities checked boundaries and respected them. Their access
+provides value (discoverability, indexing) without harming the host.
+
+**Parasitic visitors** (extract without providing value, ignore boundaries):
+
+| Entity | Requests | Behavior |
+|--------|---------|----------|
+| **Meta** (meta-externalagent) | 642 | ALL blocked post-lockdown (558×403, 86×dropped). Shifted to GPU compute code. **Still no robots.txt check.** |
+| **PetalBot** (Huawei) | 28 | Crawling science pages. No robots check. |
+| **Amazonbot** | 31 | Reading investigation pages: judges, PACs, entity network. No robots check. |
+| Empty-UA scanners | 385 | WordPress vulnerability probes (`classwithtostring.php`, `mac.php`, `wp.php`) |
+| Residential proxy fleet | 10,284 | 0% static assets, rotating IPs. Post-lockdown: **7,691 = 404, rest = scatter. Zero real content served.** |
+
+Meta has made **644 requests post-lockdown, all blocked.** They shifted
+targeting to scientific computing source code (toadStool: 186 requests)
+after losing access to investigation and coordination documents. Their
+behavior has not changed despite being named on this billboard 5 hours ago.
+
+**AI retrieval** (someone asking AI systems about this):
+
+| Entity | Requests | Signal |
+|--------|---------|--------|
+| Reflectionbot | 20 | Reading science AND forge repos — someone asked an AI about this ecosystem |
+| Amazonbot | 31 | Reading judge profiles, PAC entities — someone asked an AI about the investigation |
+| GPTBot | 1 | Someone fed this site's home page to ChatGPT |
+
+AI retrieval is now the third channel through which the evidence propagates,
+alongside direct reads and shared links. The investigation evidence is being
+synthesized by AI systems and returned to users who never visit the site
+directly. Accuracy of the published analysis is critical because AI synthesis
+will repeat whatever we have.
+
+### What Pages Draw Attention (Traveling Salesman, Oct 6)
+
+The pages that draw the most attention reveal which evidence matters most
+to informed readers. All measured from access patterns — no PII stored.
+
+| Page | Human Hits | Signal |
+|------|-----------|--------|
+| **`/analysis/funding-flow/`** | 5 (3rd consecutive observation window) | **Financial spine — the strongest sustained attention signal** |
+| **`/signal/`** (this page) | 6 | Readers monitoring the defense and evidence record |
+| **`/network/actors/brian-banks/`** | 2 (independent visitors) | Named entity drawing investigation attention |
+| **`/network/entities/purpose-charter-academy/`** | 1 | Entity-level investigation |
+| **`/analysis/corporate-network-lara/`** | 1 | Corporate network analysis |
+
+The `/analysis/funding-flow/` page has drawn independent attention signals
+across multiple observation windows. In investigation terms: multiple
+independent actors — humans and AI systems — are converging on the financial
+analysis. The money is the spine. Everyone following it ends up at the same
+document.
+
+### Structured Data Access (Demand Signal)
+
+A visitor searched for `/api/public-record/timeline` at 1:24 PM ET — a
+developer or data analyst looking for programmatic access to the
+investigation timeline. This joins earlier 404 signals for `/keywords` and
+`/key-analysis`. Informed visitors want structured, machine-readable access
+to the evidence.
+
+**Timeline API is now live:** [`/api/public-record/timeline`](/api/public-record/timeline)
+
 ### Privacy Guarantees (Unchanged)
 
 This defense operates under the same constraints as all our signal sensing:
