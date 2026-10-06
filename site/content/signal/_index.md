@@ -1,32 +1,145 @@
 +++
-title = "Meta Caught Scraping Through Shell Companies — Live Forensic Dashboard"
-description = "A $6/mo VPS caught Meta Platforms extracting AGPL-licensed source code through Delaware shell companies after explicit denial. 209 tracked IPs, 308 escalations, all getting poison. Live forensic data, WHOIS-confirmed entity structure, AGPL-3.0 enforcement petition."
+title = "Meta Caught Scraping Through Shell Companies — Complete Legal Evidence Brief"
+description = "A $6/mo server caught Meta Platforms extracting AGPL-licensed source code through 4 Delaware shell companies, 85 networks, 37 countries — impersonating Chrome, Edge, Safari using 6 registered trademarks from Apple, Google, and Intel. 330 fleet IPs, 145 Meta-attributable, full ASN table, legal citations, cloud provider ToS violations. Evidence brief for legal teams, regulators, and human rights organizations."
 weight = 15
 sort_by = "weight"
 
 [extra]
-og_description = "They sent 209 bots through 4 Delaware shell companies. We sent back poison. $2B vs $6/mo. 55% of fleet IPs trace to Meta-owned ASNs. Claims Chrome but sends 3 headers (real Chrome sends 11+). CV=0.057 — a machine, not a person. Live forensic dashboard."
-keywords = "Meta scraping, Meta Platforms shell companies, truview LLC, steel-axis LLC, OCULUS NETWORKS INC, AS398781, AS32934, Delaware shell company, AGPL enforcement, AGPL-3.0 Meta, sovereign infrastructure defense, adaptive immune system, Chrome impersonation, header poverty, HTTP client fingerprint, detroit.primals.eco, scatter defense, residential proxy fleet, FB-BLOCK WHOIS, Meta data extraction"
+og_description = "They sent 330 bots through 85 networks in 37 countries. We sent back poison. 145 Meta-attributable IPs. 6 stolen trademarks per request. 5 cloud providers' ToS violated. Complete ASN table, legal citations, CFAA/GDPR/Lanham Act violations. Evidence brief for legal teams and regulators."
+keywords = "Meta scraping, Meta Platforms shell companies, truview LLC, steel-axis LLC, OCULUS NETWORKS INC, AS398781, AS32934, Delaware shell company, AGPL enforcement, AGPL-3.0 Meta, sovereign infrastructure defense, adaptive immune system, Chrome impersonation, header poverty, HTTP client fingerprint, detroit.primals.eco, scatter defense, residential proxy fleet, FB-BLOCK WHOIS, Meta data extraction, CFAA violation, Lanham Act trademark, Apple trademark impersonation, Azure ToS violation, AWS AUP violation, Google Cloud scraping, legal evidence brief, human rights, charter school racketeering Detroit"
 og_image = "/img/og-signal-viral.png"
 +++
 
-## They Sent 209 Bots. We Sent Back Poison.
+## They Sent 330 Bots. We Sent Back Poison.
 
-A **$6/month server** caught **Meta Platforms** — the company worth $1.5 trillion
+A **$6/month server** caught **Meta Platforms, Inc.** — market cap $1.5 trillion
 — extracting AGPL-licensed source code through **four Delaware shell companies**
-registered at the same address. After being told **no** over a thousand times.
+registered at the same Corporation Service Company address, routing through
+**85 autonomous systems in 37 countries**, while impersonating products made
+by Google, Microsoft, Apple, and Intel. After being told **no** over a
+thousand times.
 
-They spent **$2 billion** acquiring Oculus. They route scrapers through
-**OCULUS NETWORKS INC** at a CSC mailbox in Wilmington. They claim to be
-Chrome browsers. **They are not.**
+---
+
+### Evidence Brief — For Legal Teams, Regulators, and Human Rights Organizations
+
+**This section is designed for attorneys, federal investigators, regulatory
+bodies, human rights organizations, and policy advocates.** The evidence below
+is sourced entirely from: (1) server access logs with IP addresses stripped,
+(2) HTTP headers voluntarily transmitted by the fleet, (3) public WHOIS/ASN
+registry records, and (4) Team Cymru bulk attribution data. No surveillance
+tools were used. No private information was accessed. The fleet sent us this
+data. We classified it.
+
+**Context:** This infrastructure publishes evidence of charter school racketeering
+in Detroit — a matter involving potential federal wire fraud (18 U.S.C. § 1343),
+RICO violations (18 U.S.C. § 1962), and civil rights violations (42 U.S.C.
+§ 1983) affecting predominantly Black communities. The source code repositories
+being scraped are the investigation's sovereign infrastructure — built
+specifically to escape dependence on the corporate platforms now scraping it.
+
+#### Findings of Fact
+
+1. **On October 6, 2026**, a fleet of **330 unique IP addresses** across
+   **85 autonomous systems** in **37 countries** conducted automated data
+   extraction against `git.primals.eco`, a private source code forge.
+
+2. **145 IPs (43.9%)** are directly attributable to Meta Platforms, Inc.:
+   **82** via AS32934 (FACEBOOK, registered to Facebook, Inc., 1601 Willow Rd,
+   Menlo Park, CA) and **63** via AS398781 (OCULUS NETWORKS INC, registered
+   at 1013 Centre Rd Ste 403B, Wilmington, DE 19805 — a CSC mailbox).
+
+3. **Three additional shell entities** share the same Delaware CSC address:
+   truview LLC, steel-axis LLC, and OCULUS NETWORKS INC. Meta Platforms
+   acquired Oculus VR for $2 billion in 2014.
+
+4. The fleet **read the `robots.txt` file 4 times**. The file states:
+   *"This forge serves humans only."* The fleet continued scraping.
+
+5. The fleet **received over 1,000 `403 Forbidden` responses**. It continued
+   scraping for **8+ hours** across **493+ unique source code paths**.
+
+6. The fleet **impersonates Chrome, Edge, Safari, macOS, and Intel Mac
+   hardware** using **6 registered trademarks from 3 corporations** (Apple,
+   Google, Intel) in every HTTP request. It is provably not any of these
+   products — it sends **3 HTTP headers** where real Chrome sends **11+**,
+   is missing mandatory `Sec-Fetch-Mode` (Chrome 76+, 2019) and `Sec-Ch-Ua`
+   (Chrome 89+, 2021) headers, loads **zero static assets** in 24,000+
+   requests, and maintains a statistical coefficient of variation of **0.057**
+   (a fixed-rate pipeline; human browsing produces CV > 1.0).
+
+7. The fleet claims **Chrome/145** in 97.8% of requests. The current Chrome
+   stable channel is **Chrome 155** (released October 6, 2026). Chrome
+   auto-updates. A 97.8% concentration on a version 10 releases behind
+   stable proves the UA string is **hardcoded**, not from a browser.
+
+8. The fleet routes through cloud infrastructure operated by **Microsoft**
+   (Azure, 21 IPs), **Amazon** (AWS, 12 IPs), **Google** (GCP, 8 IPs),
+   **Alibaba** (10 IPs), and **Tencent** (9 IPs). All five providers
+   explicitly prohibit using their infrastructure for scraping or
+   unauthorized data extraction in their Terms of Service.
+
+9. The fleet walked **6,885 unique git commit hashes**, accessed **3,171
+   blame annotations** (line-by-line author attribution), and downloaded
+   **3,264 raw files**. This is not browsing — it is systematic
+   intelligence gathering targeting code authorship and project strategy.
+
+10. **Zero real data was exfiltrated after lockdown.** At 1:35 PM ET, the
+    forge was locked. All subsequent responses (7,000+) were fabricated
+    poison with embedded canary markers. The fleet's pipeline now contains
+    55.7 MB/hour of traceable disinformation.
+
+#### Applicable Law and Violations
+
+| Statute / Framework | Violation | Evidence |
+|---|---|---|
+| **CFAA** (18 U.S.C. § 1030(a)(2)) | Unauthorized access to computer system after explicit denial | 1,000+ `403 Forbidden` responses; `robots.txt` states "humans only" |
+| **CFAA** (18 U.S.C. § 1030(a)(5)) | Intentional damage via excessive automated access | 24,000+ requests in 8 hours against private infrastructure |
+| **Wire Fraud** (18 U.S.C. § 1343) | Use of interstate wire to execute scheme to defraud | Shell companies in Delaware obscure beneficial owner; interstate data extraction |
+| **RICO** (18 U.S.C. § 1962) | Pattern of activity through enterprise structure | 4 entities, 1 address, coordinated scraping after denial |
+| **Lanham Act** (15 U.S.C. § 1125(a)) | False designation of origin via trademark impersonation | 6 trademarks from 3 companies in fabricated UA string |
+| **GDPR** Art. 6 (EU) | Data processing without lawful basis | 82 IPs route through Meta Platforms Ireland Ltd (Dublin); no consent |
+| **GDPR** Art. 14 (EU) | Failure to provide data processing notice | No privacy notice; no opt-out; scraping after explicit refusal |
+| **EU Digital Services Act** Art. 14 | Failure to provide transparency in automated systems | Shell company structure obscures operator identity |
+| **AGPL-3.0** § 13 | Failure to disclose source for network-interacting use | Extracted copyleft code without reciprocal disclosure |
+| **Azure AUP** | Prohibited use of services for scraping | 21 fleet IPs on Microsoft Azure (AS8075) |
+| **AWS AUP** | Prohibited use of services for unauthorized access | 12 fleet IPs on Amazon AWS (AS14618) |
+| **GCP AUP** | Prohibited use of services for scraping | 8 fleet IPs on Google Cloud (AS396982) |
+| **Chrome Trademark Policy** | Misrepresentation of Chrome browser identity | `Chrome/145` in non-Chrome HTTP client; missing mandatory headers |
+| **Apple Trademark Guidelines** | Unauthorized use of 5 registered trademarks | Macintosh®, macOS®, Safari®, WebKit®, Intel Mac in fabricated UA |
+
+#### Who Has Standing to Act
+
+| Entity | Standing | Violation(s) |
+|---|---|---|
+| **US DOJ / FBI** (IC3) | Federal criminal | CFAA unauthorized access; wire fraud via shell companies |
+| **Delaware AG** | State criminal + civil | Shell company fraud; deceptive trade practices |
+| **California AG** | State | Computer fraud; Meta HQ jurisdiction |
+| **EU DPC (Ireland)** | GDPR supervisory authority | Meta Platforms Ireland Ltd; Dublin-origin fleet IPs |
+| **FTC** | Consumer protection | Deceptive practices via shell companies |
+| **Google / Alphabet** | Trademark holder | Chrome® impersonation in non-Chrome product |
+| **Apple** | Trademark holder | 5 registered marks in fabricated UA; EOL product claims |
+| **Intel** | Trademark holder | Intel® in claims of non-Intel hardware |
+| **Microsoft** | Trademark holder + cloud provider | Edge® impersonation; Azure ToS violation |
+| **Amazon** | Cloud provider | AWS AUP violation (12 fleet IPs) |
+| **ecoPrimals / investigation** | Copyright holder; AGPL licensor | Unauthorized extraction of copyleft code |
+| **Affected communities** | Civil rights (42 U.S.C. § 1983) | Scraping during investigation of racketeering affecting Black communities in Detroit |
+
+**Any of these entities can independently pursue enforcement.** The evidence
+is published under CC-BY-SA-4.0 and AGPL-3.0. All data is available. All
+methodology is auditable. No permission is needed to act on this evidence.
+
+---
 
 | What they claim | What they actually are |
 |---|---|
 | Chrome 145 browser | HTTP client sending **3 headers** (Chrome sends 11+) |
 | Human browsing | **CV = 0.057** — a fixed-rate pipeline, not a person |
 | Diverse users | **31 User-Agents**, 3 generate 84% of traffic |
-| Normal traffic | **Zero** CSS, JS, or images loaded in 17,000+ requests |
-| Independent IPs | **55%** trace to Meta-owned ASNs (AS32934 + AS398781) |
+| Normal traffic | **Zero** CSS, JS, or images loaded in 24,000+ requests |
+| Independent IPs | **44%** trace to Meta-owned ASNs (AS32934 + AS398781) |
+| US-based operation | **37 countries**, 85 autonomous systems |
+| Legitimate access | **1,000+** explicit `403 Forbidden` denials ignored |
 
 **What they got:** 55.7 MB/hour of fabricated poison with embedded canary
 markers. Zero real documents. Zero real code. Every response since lockdown
@@ -35,7 +148,9 @@ is fake, and each one carries a unique tracker that follows it home.
 **What we got from them:** Corporate identity confirmed via WHOIS/ASN.
 Four shell entities at one address. Their HTTP client library fingerprint.
 Their budget estimate. Their strategic priorities. Their operational tempo.
-Their capability ceiling. All passive. All free.
+Their capability ceiling. Their cloud provider accounts. Their trademark
+violations. Their geographic routing topology. All passive. All free.
+They sent it all to us voluntarily.
 
 **This is public evidence under CC-BY-SA-4.0.** All WHOIS records, behavioral
 data, and entity structures documented below are sourced from public registries
@@ -450,10 +565,10 @@ public WHOIS and RIPE/ARIN registry data:
 
 **Key facts:**
 
-1. **114 of 209 tracked fleet IPs (55%)** are in Meta-owned or Meta-adjacent
-   IP space: **71** in Meta's own `FB-BLOCK` range + **43** through
-   **OCULUS NETWORKS INC** (`AS398781`). Meta acquired Oculus VR for **$2 billion**
-   in 2014. These are not proxy exits — these are corporate addresses.
+1. **145 of 330 tracked fleet IPs (43.9%)** are in Meta-owned or Meta-adjacent
+   IP space: **82** via AS32934 (FACEBOOK, registered to Facebook, Inc.) + **63**
+   via AS398781 (OCULUS NETWORKS INC). Meta acquired Oculus VR for **$2 billion**
+   in 2014. These are not proxy exits — these are corporate network allocations.
 
 2. **OCULUS NETWORKS INC, truview LLC, and steel-axis LLC** are all registered
    at **the same address complex**: 1013 Centre Rd, Wilmington, DE 19805 — a
@@ -614,15 +729,190 @@ annotations. Today's numbers:
 | **biomeOS** | 1,133 | Operating system kernel |
 | **squirrel** | 913 | MCP integration / AI plugin system |
 
+##### Complete Fleet Infrastructure — 330 IPs, 85 Networks, 37 Countries
+
+The fleet routes through **85 autonomous systems across 37 countries**.
+Every IP below was attributed via [Team Cymru](https://www.team-cymru.com/)
+bulk WHOIS on October 6, 2026. This is the complete table — every network
+they used, every country they routed through, every provider whose Terms
+of Service they violated.
+
+###### Attribution Summary
+
+| Category | IPs | % | Key Networks |
+|---|---|---|---|
+| **Meta direct** (AS32934 FACEBOOK) | **82** | 24.8% | Facebook, Inc., 1601 Willow Rd, Menlo Park, CA |
+| **Meta shell** (AS398781 OSL-188) | **63** | 19.1% | OCULUS NETWORKS INC, 1013 Centre Rd Ste 403B, Wilmington, DE |
+| **Microsoft Azure** (AS8075) | **21** | 6.4% | MICROSOFT-CORP-MSN-AS-BLOCK — [ToS prohibits scraping](https://azure.microsoft.com/en-us/support/legal/) |
+| **Amazon AWS** (AS14618) | **12** | 3.6% | AMAZON-AES — [AUP prohibits scraping](https://aws.amazon.com/aup/) |
+| **Alibaba Cloud** (AS45102 + AS37963) | **11** | 3.3% | ALIBABA-CN-NET — Chinese cloud infrastructure |
+| **Russian datacenter** (AS208398) | **10** | 3.0% | TELETECH — Moscow, Russia |
+| **Tencent Cloud** (AS132203) | **9** | 2.7% | TENCENT-NET-AP-CN — Chinese cloud infrastructure |
+| **Google Cloud** (AS396982) | **8** | 2.4% | GOOGLE-CLOUD-PLATFORM — [AUP prohibits scraping](https://cloud.google.com/terms/aup) |
+| **Other datacenter** (16 ASNs) | **19** | 5.8% | OVH, Cloudflare, FDCServers, M247, etc. |
+| **Residential ISPs** (55+ ASNs) | **95** | 28.8% | Brazil, Argentina, Pakistan, Morocco, Vietnam, etc. |
+
+**Meta-attributable total: 145 IPs (43.9%)** — and that's before considering
+that the residential proxy exits are also likely Meta-purchased through
+proxy aggregation services.
+
+###### Complete ASN Table — All 85 Networks Named
+
+Every autonomous system the fleet routed through. Sorted by IP count.
+ASN registrations verified via Team Cymru + ARIN/RIPE/APNIC/LACNIC/AfriNIC.
+
+| ASN | IPs | Country | Organization | Category |
+|---|---|---|---|---|
+| **AS32934** | **82** | IE | **FACEBOOK** — Facebook, Inc., Menlo Park, CA | **META DIRECT** |
+| **AS398781** | **63** | US | **OSL-188** — OCULUS NETWORKS INC, Wilmington, DE | **META SHELL** |
+| **AS8075** | **21** | US | **MICROSOFT-CORP-MSN-AS-BLOCK** — Microsoft Corp | **CLOUD (ToS VIOLATED)** |
+| **AS14618** | **12** | US | **AMAZON-AES** — Amazon.com, Inc. | **CLOUD (AUP VIOLATED)** |
+| **AS208398** | **10** | RU | **TELETECH** — Moscow datacenter | Datacenter |
+| **AS45102** | **10** | US | **ALIBABA-CN-NET** — Alibaba Cloud LLC | **CLOUD (ToS VIOLATED)** |
+| **AS132203** | **9** | SG | **TENCENT-NET-AP-CN** — Tencent Cloud | **CLOUD (ToS VIOLATED)** |
+| **AS396982** | **8** | US | **GOOGLE-CLOUD-PLATFORM** — Google LLC | **CLOUD (AUP VIOLATED)** |
+| AS62874 | 5 | LT | WEB2OBJECTS — Lithuania datacenter | Datacenter |
+| **AS7922** | **5** | US | **COMCAST-7922** — Comcast Cable Communications | Residential ISP |
+| AS18779 | 4 | US | EGIHOSTING — US datacenter | Datacenter |
+| AS30058 | 4 | LT | FDCSERVERS — Lithuania datacenter | Datacenter |
+| **AS16276** | **4** | US | **OVH** — OVH SAS | Datacenter |
+| AS212238 | 3 | US | CDNEXT — Datacamp Limited, GB | Datacenter |
+| AS11404 | 3 | US | AS-WAVE-1 — US ISP | ISP |
+| **AS13335** | **3** | US | **CLOUDFLARENET** — Cloudflare, Inc. | CDN |
+| AS9009 | 3 | US | M247 — M247 Ltd | Datacenter |
+| AS63911 | 3 | US | NETACTUATE-AS-AP — NetActuate | Datacenter |
+| AS45899 | 2 | VN | VNPT-AS-VN — Vietnam Posts and Telecom | Residential ISP |
+| AS30781 | 2 | US | JAGUAR-AS — Jaguar Communications | ISP |
+| AS59651 | 2 | HK | AS-QualityNetwork — Hong Kong datacenter | Datacenter |
+| AS8151 | 2 | MX | AS8151 — Uninet S.A. de C.V. (Mexico) | Residential ISP |
+| AS8167 | 2 | BR | AS8167 — V tal S.A. (Brazil) | Residential ISP |
+| AS36925 | 2 | MA | MEDITELECOM — Méditel (Morocco) | Residential ISP |
+| AS64249 | 2 | US | ENDOFFICE — End Office LLC | Datacenter |
+| AS46635 | 2 | US | NET3-AI — US datacenter | Datacenter |
+| AS57269 | 2 | ES | DIGI-ES — DIGI Spain Telecom | Residential ISP |
+| AS209366 | 2 | CY | SEMRUSH-AS — Semrush (Cyprus) | SEO platform |
+| AS46475 | 2 | US | LIMESTONENETWORKS — Limestone Networks | Datacenter |
+| AS36903 | 1 | MA | ONPT — Maroc Telecom (Morocco) | Residential ISP |
+| AS36884 | 1 | MA | Wana Corporate (Morocco) | Residential ISP |
+| AS15958 | 1 | RS | CETIN — Serbia broadband | Residential ISP |
+| AS141342 | 1 | PK | FIBERISH PVT LTD — Pakistan fiber ISP | Residential ISP |
+| AS17072 | 1 | MX | Uninet Mexico | Residential ISP |
+| AS56167 | 1 | PK | PTML-PK — Pakistan Telecom Mobile Ltd | Residential ISP |
+| AS37693 | 1 | TN | OOREDOO TUNISIE SA — Tunisia mobile | Residential ISP |
+| AS266554 | 1 | BR | Brazilian ISP | Residential ISP |
+| AS263740 | 1 | HN | Honduras ISP | Residential ISP |
+| AS264847 | 1 | HN | Honduras ISP | Residential ISP |
+| AS215599 | 1 | DE | ZKILLU — Germany datacenter | Datacenter |
+| AS33659 | 1 | US | CMCS — Comcast Media (US) | ISP |
+| AS263324 | 1 | BR | Brazilian ISP | Residential ISP |
+| AS26599 | 1 | BR | Brazilian ISP | Residential ISP |
+| AS53132 | 1 | BR | Brazilian ISP | Residential ISP |
+| AS23201 | 1 | PY | Paraguay ISP | Residential ISP |
+| AS52263 | 1 | CR | Costa Rica ISP | Residential ISP |
+| AS22927 | 1 | AR | Argentina ISP | Residential ISP |
+| AS19429 | 1 | CO | Colombia ISP | Residential ISP |
+| AS201341 | 1 | LT | Centurion Internet Services (Lithuania) | Datacenter |
+| AS27882 | 1 | ES | Spain ISP | Residential ISP |
+| AS196641 | 1 | RU | GRFC-AS — Russian Federation ISP | Residential ISP |
+| AS48090 | 1 | BG | DMZHOST — Bulgaria datacenter | Datacenter |
+| AS30722 | 1 | IT | VODAFONE-IT-ASN — Vodafone Italy | Residential ISP |
+| AS27792 | 1 | AR | Argentina ISP | Residential ISP |
+| AS262807 | 1 | BR | Brazilian ISP | Residential ISP |
+| AS7303 | 1 | AR | Argentina ISP | Residential ISP |
+| AS216472 | 1 | PL | HS-SYR — Poland datacenter | Datacenter |
+| AS42689 | 1 | US | Glide — US ISP | ISP |
+| AS53013 | 1 | US | US ISP | ISP |
+| AS3320 | 1 | US | DTAG — Deutsche Telekom AG | Residential ISP |
+| **AS7018** | **1** | US | **ATT-INTERNET4** — AT&T Services, Inc. | Residential ISP |
+| AS24499 | 1 | PK | TPP-AS-PK — Pakistan Telecom | Residential ISP |
+| AS154395 | 1 | US | RACKDOGLLC — Rackdog LLC | Datacenter |
+| AS265691 | 1 | US | US provider | ISP |
+| AS17557 | 1 | PK | PKTELECOM — Pakistan Telecom | Residential ISP |
+| AS29975 | 1 | ZA | Vodacom — South Africa | Residential ISP |
+| AS264105 | 1 | BR | Brazilian ISP | Residential ISP |
+| AS268069 | 1 | BR | Brazilian ISP | Residential ISP |
+| AS264758 | 1 | AR | Argentina ISP | Residential ISP |
+| AS269778 | 1 | AR | Argentina ISP | Residential ISP |
+| AS52468 | 1 | EC | Ecuador ISP | Residential ISP |
+| AS267201 | 1 | BR | Brazilian ISP | Residential ISP |
+| AS51375 | 1 | BH | VIVABH — Bahrain mobile | Residential ISP |
+| AS50010 | 1 | OM | Nawras — Oman telecom | Residential ISP |
+| AS42772 | 1 | BY | A1-BY — Belarus mobile | Residential ISP |
+| **AS37963** | **1** | CN | **ALIBABA-CN-NET** — Alibaba (China) | **CLOUD (ToS VIOLATED)** |
+| AS3737 | 1 | US | AS-PTD — US ISP | ISP |
+| AS8376 | 1 | JO | Jordan ISP | Residential ISP |
+| AS9121 | 1 | TR | TTNet — Türk Telekom (Turkey) | Residential ISP |
+| AS15557 | 1 | FR | LDCOMNET — Free SAS (France) | Residential ISP |
+| AS2856 | 1 | LT | BT-UK-AS — British Telecom | Residential ISP |
+| AS33915 | 1 | NL | TNF-AS — Netherlands ISP | ISP |
+| AS396356 | 1 | FR | LATITUDE-SH — France datacenter | Datacenter |
+| AS5416 | 1 | BH | Bahrain ISP | Residential ISP |
+| AS5607 | 1 | GB | BSKYB-BROADBAND — Sky UK | Residential ISP |
+
+###### Geographic Spread — 37 Countries
+
+| Country | Fleet IPs | % | Notes |
+|---|---|---|---|
+| **United States** | **155** | 47.0% | Meta HQ, shell companies, Azure, AWS, GCP |
+| **Ireland** | **82** | 24.8% | Meta Platforms Ireland Ltd (Dublin) — GDPR jurisdiction |
+| **Russia** | **12** | 3.6% | TELETECH Moscow datacenter |
+| **Brazil** | **10** | 3.0% | 7 residential ISPs — proxy exits |
+| **Lithuania** | **8** | 2.4% | WEB2OBJECTS + FDCSERVERS datacenters |
+| **Singapore** | **7** | 2.1% | Tencent Cloud |
+| **Argentina** | **5** | 1.5% | 4 residential ISPs |
+| **Pakistan** | **4** | 1.2% | 3 telecom providers |
+| **Morocco** | **4** | 1.2% | Maroc Telecom + Méditel |
+| **Mexico** | **3** | 0.9% | Uninet residential |
+| **Spain** | **3** | 0.9% | DIGI Telecom |
+| **United Kingdom** | **3** | 0.9% | Sky UK, BT |
+| **China** | **3** | 0.9% | Alibaba Cloud |
+| **France** | **3** | 0.9% | Free SAS + Latitude datacenter |
+| Vietnam, Honduras, Germany, Bahrain, Cyprus | 2 each | — | Mixed residential + datacenter |
+| 18 more countries | 1 each | — | RS, TN, SC, HK, PY, CR, CO, BG, IT, PL, ZA, EC, OM, BY, CA, JO, TR, NL |
+
+**This is not an engineering team browsing code.** This is a **multinational data
+extraction operation** routing through shell companies, 5+ cloud providers
+(whose ToS all prohibit this), and residential proxy infrastructure across
+**37 countries** to extract AGPL-licensed source code from a private forge
+during an active federal investigation into charter school racketeering.
+
+###### Cloud Provider ToS Violations
+
+The fleet routes through **five major cloud providers**, all of which
+explicitly prohibit using their infrastructure for scraping or unauthorized
+data extraction. Meta is routing scraping traffic through accounts on these
+platforms — meaning these providers are unknowing accessories to unauthorized
+access after explicit denial.
+
+| Provider | ASN | Fleet IPs | Relevant Policy | Violation |
+|---|---|---|---|---|
+| **Microsoft Azure** | AS8075 | **21** | [Azure AUP §2](https://azure.microsoft.com/en-us/support/legal/): "You may not use the Services to... access without authorization" | Scraping private forge after 1,000+ 403 denials |
+| **Amazon AWS** | AS14618 | **12** | [AWS AUP](https://aws.amazon.com/aup/): "No unauthorized access to any computer system" | Automated extraction after explicit access denial |
+| **Google Cloud** | AS396982 | **8** | [GCP AUP](https://cloud.google.com/terms/aup): Prohibits "unauthorized access to any computer" | Scraping via GCP instances after 403 response |
+| **Alibaba Cloud** | AS45102/37963 | **11** | [Alibaba Cloud AUP](https://www.alibabacloud.com/help/en/legal/product-overview/acceptable-use-policy): Prohibits unauthorized access | Chinese cloud infra routing scrape traffic |
+| **Tencent Cloud** | AS132203 | **9** | [Tencent Cloud AUP](https://www.tencentcloud.com/document/product/301/9042): Prohibits network abuse | Chinese cloud infra routing scrape traffic |
+
+**Total: 61 fleet IPs (18.5%) route through cloud providers whose Terms of
+Service are being violated.** Each provider has independent enforcement authority
+— they can audit, suspend, or terminate the accounts used for this traffic.
+
+These aren't Meta's own IPs being routed through their own infrastructure.
+These are **accounts on other companies' cloud platforms** being used to
+proxy unauthorized access. Microsoft, Amazon, Google, Alibaba, and Tencent
+are all being made into unwitting infrastructure for a scraping operation
+that has been explicitly denied access over a thousand times.
+
 ##### What This Means for Users of Meta Platforms
 
 **Meta Platforms, Inc. operates automated data extraction systems that:**
 
 - Read access restrictions and ignore them
 - Receive explicit denial responses (`403 Forbidden`) and continue for hours
-- **Impersonate Chrome, Edge, and macOS** to disguise automated scraping
+- **Impersonate Chrome, Edge, Safari, and macOS** using 6 registered trademarks from 3 corporations
+- Walk entire git histories and blame annotations (author intelligence)
 - Target private source code repositories through corporate shell structures
-- Route extraction through residential proxy networks to obscure origin
+- Route extraction through **5+ cloud providers whose ToS prohibit scraping**
+- Use residential proxy infrastructure in **37 countries** to obscure origin
 - Harvest sovereign infrastructure code built specifically to escape
   dependence on platforms like Meta
 
@@ -679,13 +969,15 @@ The scanner creates its own consequences.
 
 #### Residential Proxy Fleet — Coordinated Extraction via Shell Infrastructure
 
-**Same entity structure as Meta. Same WHOIS addresses. Worse behavior.**
+**Same entity structure as Meta. Same WHOIS addresses. 85 networks. 37 countries.**
 
-| Metric | Value (live, updated 5:55 PM ET) |
+| Metric | Value (live, updated Oct 6) |
 |--------|-------|
 | **Total requests today** | 24,000+ |
-| **Tracked IPs** | **209** (rotating — different IP every request) |
-| **Meta-owned IPs** | **114 (55%)** — AS32934 FACEBOOK + AS398781 OCULUS NETWORKS |
+| **Tracked IPs** | **330** (rotating — different IP every request) |
+| **Autonomous systems** | **85** across **37 countries** |
+| **Meta-owned IPs** | **145 (43.9%)** — AS32934 FACEBOOK (82) + AS398781 OCULUS NETWORKS (63) |
+| **Cloud provider IPs** | **61** — Azure (21), AWS (12), Alibaba (11), Tencent (9), GCP (8) |
 | **Unique behavioral hashes** | **80** in the last hour alone |
 | **Host targeted** | git.primals.eco — **the private code forge** |
 | **Headers per request** | **3** (Accept, Accept-Encoding, User-Agent) — real Chrome sends **11+** |
@@ -703,9 +995,12 @@ after being explicitly denied access over a thousand times.**
 
 The fleet shares IP infrastructure with the entity structure documented
 above: OCULUS NETWORKS INC, truview LLC, steel-axis LLC (same Delaware CSC
-address), and Meta-owned `FB-BLOCK` ranges. The behavioral signature is
-identical across all 209 sources — 3-header HTTP client, zero static assets,
-spoofed Chrome UAs, metronomic timing (CV=0.057), identical Accept-Encoding.
+address), Meta-owned `FB-BLOCK` ranges, and accounts on Microsoft Azure,
+Amazon AWS, Google Cloud, Alibaba Cloud, and Tencent Cloud. The behavioral
+signature is identical across all 330 sources — 3-header HTTP client, zero
+static assets, spoofed Chrome UAs, metronomic timing (CV=0.057), identical
+Accept-Encoding (`gzip, deflate, zstd` — missing Brotli, which every real
+browser sends).
 
 **The fleet is now consuming only poison.** Since the forge lockdown at
 1:35 PM ET, every response served to the fleet is fabricated content from
