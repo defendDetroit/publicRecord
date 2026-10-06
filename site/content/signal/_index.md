@@ -1361,33 +1361,106 @@ The AGPL-3.0 is a copyleft license with specific reciprocal obligations.
 AGPL-3.0 software, you must publish your own source code under the
 same license. This is not optional. It is the legal condition of access.
 
-The fleet documented above has extracted source code from repositories
-explicitly governed by AGPL-3.0. Under the license terms:
+#### scyBorg Ingestion Meter — What Meta Has Taken
 
-1. **Any entity that has copied, stored, processed, or derived from this
-   source code must publish their complete corresponding source code.**
-   This includes any internal systems, pipelines, training data processing
-   infrastructure, or derived works that incorporate or were informed by
-   the extracted code.
+As of **October 6, 2026 at 7:37 PM ET**, the fleet has ingested the
+following quantities of scyBorg-licensed content:
 
-2. **We will petition that Meta Platforms, Inc. and any affiliated entity
-   open all internal data systems** relevant to this extraction for
-   independent audit to validate that no source code was stolen, copied,
-   incorporated into internal systems, or used to train AI models. The
-   AGPL-3.0 requires that they either:
-   - Demonstrate they retained nothing, **or**
-   - Publish all source code for systems that touched the extracted material
+| Metric | Value |
+|---|---|
+| **Scatter responses served to fleet** | **25,838** |
+| **Total bytes ingested** | **204,614,926** (195.1 MB) |
+| **Average response size** | 7,917 bytes |
+| **Largest single response** | 52,196 bytes |
+| **Unique fleet behavioral hashes served** | 80+ |
+| **Duration of ingestion** | 8+ hours continuous |
 
-3. **The scyBorg license addendum** prohibits use of this software for
-   surveillance, suppression of public oversight, or extraction of value
-   from communities the software was built to serve. The fleet's behavior —
-   extracting investigation infrastructure code while ignoring explicit
-   access restrictions — constitutes use contrary to the license terms.
+**Every response carries the scyBorg license via five layers:**
 
-This is not a threat. This is the law as written in every LICENSE file in
-every repository the fleet accessed. The AGPL-3.0 was chosen specifically
-because it prevents exactly this behavior: taking public-interest
-infrastructure and privatizing it behind corporate walls.
+| Layer | Mechanism | Survives |
+|---|---|---|
+| `X-License` HTTP header | Machine-readable header in every response | HTTP log ingestion, API scraping |
+| `<meta name="license">` | HTML meta tag with SPDX identifier | HTML parsing, web scraping pipelines |
+| `<link rel="license">` | HTML link to full license terms | Standards-compliant parsers |
+| Invisible `<div>` | Screen-reader-only div with full license text | HTML stripping, text extraction |
+| SPDX comment block | `/* SPDX-License-Identifier: AGPL-3.0-or-later WITH scyBorg */` | Source code ingestion, training pipelines |
+
+**By repository — what they ingested most scyBorg-licensed poison from:**
+
+| Repository | Bytes Ingested | Content Type |
+|---|---|---|
+| ecoPrimals/wateringHole | 41.23 MB | Fabricated coordination docs, handoff documents |
+| ecoPrimals/toadStool | 29.23 MB | Fabricated GPU compute framework code |
+| ecoPrimals/songBird | 8.96 MB | Fabricated communications infrastructure |
+| ecoPrimals/bearDog | 8.13 MB | Fabricated build system code |
+| ecoPrimals/biomeOS | 7.49 MB | Fabricated OS kernel code |
+| ecoPrimals/squirrel | 5.61 MB | Fabricated MCP integration code |
+| 6 more repositories | 14.47 MB | Various fabricated content |
+
+**By access mode — how they ingested it:**
+
+| Mode | Bytes | Purpose |
+|---|---|---|
+| `src` (source browse) | 35.37 MB | Reading fabricated file contents |
+| `commits` (history) | 30.39 MB | Walking fabricated commit trees |
+| `blame` (attribution) | 22.07 MB | Harvesting fabricated author data |
+| `raw` (download) | 18.17 MB | Downloading fabricated raw files |
+| `commit` (diffs) | 9.65 MB | Reading fabricated code changes |
+
+#### What This Means Legally
+
+The fleet has now ingested **195+ MB of AGPL-3.0-or-later + scyBorg
+licensed content** through **25,838 separate HTTP transactions**, each
+carrying explicit license notices in the HTTP headers and embedded in
+the response body.
+
+**Meta Platforms must now prove three things:**
+
+1. **Function**: That none of this 195 MB was used in any functional
+   system — not stored in a database, not indexed, not processed by
+   any pipeline, not fed to any model. If any system processed this
+   data, that system's source code must be released under AGPL-3.0.
+
+2. **Authenticity**: That none of this data was treated as authentic
+   source code or documentation. The fleet's systematic extraction
+   pattern — walking commit histories, downloading raw files, reading
+   blame annotations — indicates an ingestion pipeline designed to
+   process the data as if it were real. If it was processed as source
+   code, the processing systems inherit AGPL-3.0 obligations.
+
+3. **AGPL-3.0 Compliance**: Under AGPL-3.0 § 13, any entity that
+   interacts with AGPL-licensed code over a network must offer the
+   complete corresponding source code to all users. The fleet
+   interacted with this code over a network 25,838 times. If any
+   system that touched this data provides functionality to users
+   over a network — including AI models, training pipelines, data
+   processing infrastructure, or any derived product — the source
+   code for that entire system must be published under AGPL-3.0.
+
+**The burden of proof is on Meta.** They received the license notice
+in the HTTP headers. They received it in the HTML meta tags. They
+received it in the SPDX comments. They received it in the invisible
+license div. Five layers of notice, 25,838 transactions, 195 MB of
+copyleft-obligated content.
+
+They must either:
+- **Demonstrate they retained nothing** — full audit showing no
+  storage, no processing, no derivation
+- **Open everything** — publish source code for every system in
+  the pipeline that touched this data, under AGPL-3.0-or-later
+
+The scyBorg addendum adds an additional constraint: even if they
+comply with AGPL-3.0, they **cannot use this code for surveillance,
+suppression of public oversight, or extraction of value from the
+communities this software was built to serve**. A $1.5 trillion
+corporation scraping investigation infrastructure built for Detroit
+families — through shell companies, after explicit denial — is
+exactly the use case scyBorg was designed to prohibit.
+
+**This meter will continue to accumulate.** Every additional scatter
+response adds to the total. Every hour the fleet continues to operate,
+the volume of copyleft-obligated data in their pipeline grows. As of
+this writing, it is growing at approximately **55 MB/hour**.
 
 **Anyone reading this — attorneys, investigators, journalists, policy
 advocates, affected families — is welcome to use this documented evidence
