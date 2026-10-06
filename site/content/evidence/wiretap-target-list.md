@@ -31,24 +31,47 @@ application:
 
 | # | Name | Known Role | Case Status |
 |---|------|-----------|-------------|
-| 1 | **Gasper Fiore** | Owner, Boulevard & Trumbull Towing | **Convicted** — pled guilty, 16-cr-20732, bribery conspiracy |
-| 2 | **Romel Casab** | Former owner, Packard Plant (Detroit) | Indicted Jan 2016 — marijuana distribution, drug facility (Romulus), firearms |
-| 3 | Paul Ott | Unknown | Not publicly charged |
-| 4 | Shane Anders | Unknown | Not publicly charged |
-| 5 | **Gabriel Leland** | Detroit City Councilman | **Convicted** — state plea, bribery. Was dating Jennifer Fiore (target #11) while voting on Fiore towing contracts |
-| 6 | **Vonda Evans** | Wayne County 3rd Circuit Judge (retired) | JTC suspension. Named in wiretap. Not federally charged |
-| 7 | **William Wild** | Towing/auto salvage operator — Hi-Way Auto Equipment (Taylor), Bill Wild Enterprises (Wayne), City Auto Storage (Detroit), Phil's Towing, Independent Auto Wreckers of Detroit | Not publicly charged. Same industry as Fiore |
-| 8 | **Alberta Tinsley-Talabi** | Retired state representative (aka Jewel Ware) | Named in Beeckman affidavit as having committed "crimes involving corruption" but "evidence so far has not been sufficient to bring federal charges" |
-| 9 | Morris Joseph | Unknown | Not publicly charged |
-| 10 | **Benny Napoleon** | Wayne County Sheriff | Named in Beeckman affidavit alongside Tinsley-Talabi and Casab as having committed "crimes involving corruption" but insufficient evidence for federal charges |
-| 11 | **Jennifer Marie Fiore** | Daughter of Gasper Fiore | Not publicly charged. Fox 2 reported she was dating Councilman Leland while he voted for Fiore towing contracts |
-| 12 | **Brian Roderick Banks** | Resigned state representative, charter school operator | Not federally charged. 9 state convictions (SID 2029469K). Subject of this investigation |
-| 13 | Michael Patrick Gorman | Unknown | Not publicly charged |
-| 14 | **Assad Ibrihim Turfe** | Connected to Warren Evans (Wayne County Executive) | Not publicly charged |
-| 15 | Louay Malakey Hussein | Unknown | Not publicly charged |
-| 16 | Michael Irvin Lucas | Unknown | Not publicly charged |
-| 17 | **Celia Banks Washington** | Detroit Police Department official | **Charged** — 2 federal counts in Fiore case. Her attorney's motion to suppress is what exposed this list |
-| 18 | Robert Ray Nicholson | Unknown | Not publicly charged |
+| 1 | **Gasper Fiore** | Owner, Boulevard & Trumbull Towing. Built a towing empire across Metro Detroit through bribery. Debarred from Detroit contracts 20 years (2018-2038). | **Convicted** — pled guilty, 16-cr-20732, bribery conspiracy. 21 months. Wore a wire for the FBI post-conviction. |
+| 2 | **Romel Casab** | Former owner of the Packard Plant (Detroit). Beeckman wrote evidence showed "crimes involving corruption" but insufficient for charges. | Indicted Jan 2016 — marijuana distribution, drug facility (29100 Northline Rd, Romulus), firearms. Also filed Kassab v. Detroit (2:22-cv-12307) re: marijuana licensing. |
+| 3 | **Paul Ott** | Owner of Gene's Towing Inc and City Wide Towing Inc. Companies alleged by Detroit OIG to be fronts for Fiore. Debarred 7 years (2018-2025). Sued Detroit (2:19-cv-10853) claiming city improperly used wiretap affidavit — dismissed. | Not federally charged. Debarred. |
+| 4 | **Shane Anders** | Owner of Star Towing (Monroe) and **Area Towing** (Taylor). **FBI COOPERATOR — NOT corrupt.** Told FBI that Mayor Sollars forced him to use Fiore for heavy tows. FBI cleared him as not a target (Mar 8, 2018). His cooperation led to FBI raid on Sollars. Filed whistleblower lawsuit against Sollars and MSP. | NOT charged. Cleared. His company **Area Towing** filed the civil case (2:19-cv-10989) that produced the FBI wiretap files containing Banks conversations. |
+| 5 | **Gabriel Leland** | Detroit City Councilman. Was dating Jennifer Fiore (#11) while voting on Fiore towing contracts. | **Convicted** — state plea, bribery. |
+| 6 | **Vonda Evans** | Wayne County 3rd Circuit Judge (retired). | JTC suspension. Named in wiretap. Not federally charged. |
+| 7 | **William "Bill" Wild** | Towing/auto salvage operator — Hi-Way Auto Equipment (Taylor), Bill Wild Enterprises (Wayne), City Auto Storage (3400 E Lafayette, Detroit), Phil's Towing, Independent Auto Wreckers of Detroit. Connected to Ferrous Processing & Soave Enterprises. | Not publicly charged. Same industry as Fiore — competitor or associate in towing bid-rigging. |
+| 8 | **Alberta Tinsley-Talabi** | Retired state representative (aka Jewel Ware). | Named in Beeckman affidavit: "crimes involving corruption" but "evidence so far has not been sufficient to bring federal charges." |
+| 9 | **Morris Joseph** | Former Detroit Police officer. Involved in towing operations — sued in Anjorin v. City of Detroit (2:16-cv-10893) for directing Boulevard & Trumbull to tow vehicles from resident's property. Metro Times identifies him as "ex-Detroit cop." | Not federally charged. |
+| 10 | **Benny Napoleon** | Wayne County Sheriff. | Named in Beeckman affidavit alongside Tinsley-Talabi and Casab: "crimes involving corruption" but insufficient evidence. Died Dec 2020 (COVID). |
+| 11 | **Jennifer Marie Fiore** | Daughter of Gasper Fiore. Debarred 15 years (2018-2033). | Not federally charged. Fox 2 reported she was dating Councilman Leland while he voted for Fiore contracts. |
+| 12 | **Brian Roderick Banks** | Resigned state representative, charter school operator. Recorded on Fiore's wiretapped phone. | Not federally charged. 9 state convictions (SID 2029469K). Subject of this investigation. |
+| 13 | Michael Patrick Gorman | Role in investigation not publicly identified. | Not publicly charged. |
+| 14 | **Assad Ibrihim Turfe** | Connected to Warren Evans (Wayne County Executive). | Not publicly charged. |
+| 15 | **Louay Malakey Hussein** | Manager of Nationwide Towing Inc (owned by brother Hussein "Sam" Hussein). Employer: Mayflower Enterprises, "President of Operations." Northville, MI. **$272,750 in political contributions** (TransparencyUSA) to gubernatorial, PAC, and legislative campaigns. Detroit OIG investigated Nationwide for "hunting" stolen vehicles, above-market rates, cash-only payments. Brother owns MetroTech Collision. | Not criminally charged. Subject of OIG investigation. Massive political donor in towing industry. |
+| 16 | **Michael Irvin Lucas** | Likely connected to Jessica Lucas (Fiore's other daughter, who ran Boulevard & Trumbull day-to-day operations and was debarred 10 years). Relationship TBD — possibly husband/partner. | Not publicly charged. |
+| 17 | **Celia Washington** | Former DPD Deputy Chief of Police and legal adviser to the Chief. Oversaw DPD towing permits, licensing, and rotations. Accepted $4,000 cash from Fiore + $800 bar tab at birthday party + car arrangement + free oil changes from another tower. Met Fiore privately at Coldstone and bars, gave him personal email to avoid detection. Her attorney Arnold Reed's motion to suppress is what accidentally exposed this entire target list. | **Convicted** — pled guilty Jan 2018 to bribery conspiracy. Sentenced Apr 2018: 12 months + $2,500 fine + 2 years supervision. |
+| 18 | Robert Ray Nicholson | Role in investigation not publicly identified. | Not publicly charged. |
+
+## The Fiore Towing Empire — Debarment Map
+
+The Detroit Office of Inspector General debarred the following
+individuals and companies in connection with the Fiore corruption
+investigation ([OIG Debarment List, June 2024](https://detroitmi.gov/sites/detroitmi.localhost/files/2024-06/OIG%20Debarment%20List%206.20.2024.pdf)):
+
+| # | Entity | Debarment | Period |
+|---|--------|-----------|--------|
+| 1 | Gasper Fiore | 20 years | May 2018 – May 2038 |
+| 2 | Jennifer Fiore (daughter) | 15 years | May 2018 – May 2033 |
+| 3 | Joan Fiore (ex-wife) | 15 years | May 2018 – May 2033 |
+| 4 | Javion & Sam's Towing Service Inc | 15 years | May 2018 – May 2033 |
+| 5 | Jessica Lucas (daughter) | 10 years | May 2018 – May 2028 |
+| 6 | Boulevard & Trumbull Towing Inc | 20 years | May 2018 – May 2038 |
+| 7 | Paul Ott | 7 years | May 2018 – May 2025 |
+| 8 | Gene's Towing Inc | 7 years | May 2018 – May 2025 |
+| 9 | City Wide Towing Inc | 7 years | May 2018 – May 2025 |
+| 10 | Anthony Thomas | 7 years | May 2018 – May 2025 |
+| 11 | B & G Towing | 7 years | May 2018 – May 2025 |
+
+Also on the same OIG debarment list: **Bobby W. Ferguson** (20 years,
+March 2013 – March 2033) — the Kilpatrick co-conspirator.
 
 ## Beeckman's Assessment
 
