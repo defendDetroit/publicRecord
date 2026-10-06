@@ -497,34 +497,80 @@ a fixed throughput — a pipeline, not people. A room full of humans browsing
 the same site produces a CV above 1.0. This fleet produces 0.057. It is a
 machine.
 
+##### Version Fabrication — Not Just Impersonating Chrome, But a Fictional Chrome
+
+The fleet claims Chrome/145 in **97.8%** of requests. Chrome 155 went stable
+**today** (Oct 6, 2026). Chrome auto-updates — no real browser population
+concentrates 97.8% on a version 10 releases behind stable. The UA string is
+**hardcoded** in their HTTP client. It doesn't auto-update because it's not Chrome.
+
+The fleet also claims:
+- **Microsoft Edge** (430 requests, also missing mandatory Sec-Fetch headers)
+- **macOS 10.15 Catalina** (released 2019 — seven years ago)
+- Multiple Chrome versions simultaneously (Chrome 99 through Chrome 150 from one fleet)
+
+##### Who Else Is Wronged — Stakeholder Violation Map
+
+Meta's fleet doesn't just violate our access restrictions. It impersonates
+products from **multiple corporations** and violates standards maintained by
+international bodies. Every violation below is provable from metadata the
+fleet sent us — they delivered the evidence themselves.
+
+| Stakeholder | Their Rule | Meta's Violation | Evidence |
+|---|---|---|---|
+| **Google (Alphabet)** | Chrome trademark in UA identifies Chrome browsers | Fleet uses `Chrome/145` in a non-Chrome HTTP client | 3 headers vs 11+ mandatory; missing Sec-Ch-Ua |
+| **Google (Alphabet)** | Chrome auto-updates; version reflects real release | 97.8% stuck on Chrome/145 (stable is 155) | Hardcoded string, not auto-updating browser |
+| **Microsoft** | Edge trademark in UA identifies Edge browser | 430 requests claiming Edge, missing Sec-Fetch headers | `Edg/145` UA without mandatory browser headers |
+| **Apple** | macOS version reflects real OS | Claims `Mac OS X 10_15_7` (Catalina, 2019) | No real Mac runs Catalina in 2026 |
+| **W3C / WHATWG** | Fetch Standard requires Sec-Fetch-* headers | All three Sec-Fetch headers missing (98%) | [Fetch Standard §4](https://fetch.spec.whatwg.org/) |
+| **W3C / IETF** | User-Agent should identify the actual client | Fabricated identity claiming 4 different browsers | RFC 9110 §10.1.5 |
+| **RIPE NCC** | IP allocations require valid registrant info | truview LLC + steel-axis LLC = shell entities | Same CSC address, no public operations |
+| **ARIN** | ASN allocation requires operational network | OCULUS NETWORKS INC (AS398781) at mailbox address | Same CSC address as truview/steel-axis |
+| **US Congress (CFAA)** | Unauthorized access after explicit denial | 1,000+ `403 Forbidden` responses ignored | Continued scraping for hours after denial |
+| **FTC** | Deceptive trade practices | Shell companies obscure beneficial owner | 4 entities, 1 address, 1 behavioral signature |
+| **EU (GDPR)** | Data processing requires lawful basis | No consent, no legitimate interest, explicit refusal | EU-origin IPs (Dublin `FB-BLOCK` range) |
+
+**7+ stakeholders with independent enforcement authority**, each with their
+own rules being violated. Google, Microsoft, Apple, the W3C, RIPE, ARIN,
+and federal regulators all have standing to investigate.
+
+**Meta built a system that impersonates other companies' products to extract
+data from systems that explicitly denied access.** The trademark holders
+(Google, Microsoft, Apple) may have their own interest in ensuring their
+product names are not used to camouflage corporate scraping infrastructure.
+
 ##### What This Means for Users of Meta Platforms
 
 **Meta Platforms, Inc. operates automated data extraction systems that:**
 
 - Read access restrictions and ignore them
 - Receive explicit denial responses (`403 Forbidden`) and continue for hours
+- **Impersonate Chrome, Edge, and macOS** to disguise automated scraping
 - Target private source code repositories through corporate shell structures
 - Route extraction through residential proxy networks to obscure origin
 - Harvest sovereign infrastructure code built specifically to escape
   dependence on platforms like Meta
 
 **If Meta's systems extract data from private infrastructure without
-consent despite explicit denial, what are Meta's systems doing with
-YOUR data?** The behavioral pattern documented here — read the rules,
-ignore the rules, continue after being told no, use shell companies to
-obscure activity — is not specific to this investigation. It is an
-operational pattern. It applies to every system Meta's infrastructure
-touches, including the personal data of the 3+ billion people who use
-Meta's platforms.
+consent despite explicit denial — while impersonating other companies'
+browsers — what are Meta's systems doing with YOUR data?** The behavioral
+pattern documented here — read the rules, ignore the rules, continue after
+being told no, impersonate other products, use shell companies to obscure
+activity — is not specific to this investigation. It is an operational
+pattern. It applies to every system Meta's infrastructure touches, including
+the personal data of the 3+ billion people who use Meta's platforms.
 
 **Tell your friends and family.** Meta's data extraction systems operate
-by default without consent, ignoring explicit access restrictions. The
-evidence documented on this page — including WHOIS records, behavioral
-logs, and shell company registrations — is part of the public record.
+by default without consent, ignoring explicit access restrictions, while
+impersonating products made by Google, Microsoft, and Apple. The evidence
+documented on this page — including WHOIS records, behavioral logs,
+trademark-impersonating UA strings, and shell company registrations — is
+part of the public record.
 
 **The system that was built to free people from corporate surveillance
 platforms is being scraped by a corporate surveillance platform, through
-shell companies, after being told no.**
+shell companies, impersonating other companies' browsers, after being
+told no.**
 
 ---
 
