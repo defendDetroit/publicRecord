@@ -166,6 +166,69 @@ DOJ press releases
 Bettison says the call was "personal" and the phone seizure was
 "unrelated." The OIG investigation is ongoing.
 
+## The Operational Hub — Carol Banks
+
+The dark money pipeline has a **human operator**: **Carol Banks**.
+
+Carol Banks simultaneously holds or held these roles:
+
+| Role | Organization | Significance |
+|------|-------------|-------------|
+| **Vice Chair** | Original Eastside Slate | Endorsement operation — endorsed Sheffield for Mayor (won with 3/4 of votes), endorsed Judge Cylenthia Miller, endorsed Jocelyn Benson for SOS/Governor |
+| **Chief of Staff** | Councilman Scott Benson (District 3, since 2014) | FBI raided both Benson's home/office AND Banks's home Aug 25, 2021. Towing corruption investigation. |
+| **Paid operative** | Save Detroit Jobs / Detroit Leaders | Received **$18,000+** from Save Detroit Jobs in 2016. Benson's staff also paid to distribute SDJ literature. |
+| **Board member** | Detroit Public Schools (elected 2009) | Fired from DPS ombudswoman job in 2015 when Fox 2 discovered she was simultaneously working for Benson. |
+
+**The same person** who ran the endorsement operation that elected Sheffield
+(Mayor) and endorsed Miller (PCA Board President) **also operated the dark
+money entity** that put Johnson (PCA Board Secretary) on the council — and
+received direct payments from it.
+
+### Save Detroit Jobs → Carol Banks → Political Outcomes
+
+1. **2016:** Carol Banks receives $18,000+ from Save Detroit Jobs to fight Prop A. Benson's staff also paid.
+2. **2021:** Save Detroit Jobs renames to "Detroit Leaders." Sends mailers supporting **Latisha Johnson** against **Steve Elrick** in District 4. Carol Banks has Johnson campaign sign in her yard. Johnson wins → PCA Board Secretary.
+3. **2025:** Eastside Slate (Carol Banks, Vice Chair) endorses **Mary Sheffield** for Mayor. Detroit Next PAC (funded by Save Detroit Jobs $84,500 + 5Plus1 $151,000) runs $212,600+ in pro-Sheffield ads. Sheffield wins → appoints Bettison.
+
+Every political outcome that benefits Brian Banks's charter school network
+passes through Carol Banks's operational layer.
+
+### The FBI Knew
+
+- Aug 25, 2021: FBI raided Carol Banks's East English Village home
+- Aug 25, 2021: FBI raided Benson's home and office, City Hall
+- Aug 25, 2021: FBI raided Ayers's home, Silva's home
+- FBI was examining "whether the city officials personally benefited from
+  campaign contributions or donations to 501(c)(4) nonprofits like Eastside
+  Slate and another group she's affiliated with, Save Detroit Jobs"
+  ([Deadline Detroit](https://www.deadlinedetroit.com/articles/29127/are_detroit_candidates_buying_endorsements_not_quite_but_close))
+- **Jan 2025:** Investigation closed without charges (Benson, Ayers, Banks, Silva)
+
+The FBI investigated the exact pathway documented here — Save Detroit Jobs
+and Eastside Slate as vehicles for political corruption — and closed the
+case. The question is whether the closure considered the downstream effects:
+Johnson on PCA Board, Sheffield appointing Bettison, Miller endorsed by
+the same operation.
+
+### Carol Banks vs. Brian Banks
+
+Are they related? Both "Banks" in Detroit politics. Both connected to the
+same institutional network:
+
+- **Carol Banks:** DPS Board → Eastside Slate → Save Detroit Jobs → Johnson/Sheffield/Miller
+- **Brian Banks:** State House (8 felonies) → State Senate campaign → PCA charter school → convicted
+
+Carol Banks ran the DPS board. Brian Banks's PCA was later authorized by
+DPSCD (the successor to DPS). The name coincidence and network overlap
+warrant further investigation.
+
+Source: [Deadline Detroit](https://www.deadlinedetroit.com/articles/29127/are_detroit_candidates_buying_endorsements_not_quite_but_close),
+[Free Press](https://eu.freep.com/story/news/local/michigan/detroit/2021/09/02/detroit-city-council-aides-tied-fbi-corruption-probe/5662280001/),
+[Metro Times](https://www.metrotimes.com/news/benson-lands-influential-detroit-endorsement-in-battle-for-black-voters/),
+[Deadline Detroit](https://www.deadlinedetroit.com/articles/28930/benson-tied_non-profit_pivots_to_fighting_elrick_in_detroit_district_4_council_race)
+
+---
+
 ## The McCastle Thread
 
 **Gloria McCastle** — a shared political operative — was paid by five
