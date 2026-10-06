@@ -71,73 +71,140 @@ patterns, spoofed-OS signatures, and classification rules, is
 
 ---
 
-## Signal Status — Week of Oct 3, 2026
+## Signal Status — Oct 6, 2026 (Refined)
+
+### Classification Refinement
+
+Since the initial signal report (Oct 2–4), we have refined our visitor
+classification from 6 categories to 9, correcting systematic counting errors:
+
+| Change | Effect on Counts |
+|--------|-----------------|
+| **Android 7.0 spoofed crawlers** reclassified from "human" → "spoofed-crawler" | Previous human counts were **inflated** |
+| **AI retrieval** (answering user questions) distinguished from **AI crawler** (training) | AI activity was **undercounted and undifferentiated** |
+| **Scanner-by-path** detection added (`.env`, `.php`, `wp-admin` probes) | Scanner counts were **undercounted** |
+| **Social preview bots** separated (Facebook, Meta, link previews) | Were mixed into "crawler" category |
+
+The current 9 categories: **human**, **ai-retrieval**, **ai-crawler**,
+**search-crawler**, **seo-bot**, **social-preview**, **spoofed-crawler**,
+**scanner**, **other-bot**.
+
+These refinements will continue as more data accumulates. Each additional
+week of traffic provides new behavioral patterns that tighten classification
+boundaries. The methodology remains the same — no cookies, no IPs stored,
+no identifying data — but the accuracy of *what kind of visitor* touched
+the evidence improves with each observation window.
 
 ### Emission (LuxI — outbound)
 
 | Date | Event | Pages | IndexNow | Status |
 |------|-------|-------|----------|--------|
 | Oct 2 | Contact page updated | 213 | 212 URLs | ✅ HTTP 200 |
-| Oct 3 | Coverage section launched (10 cross-index pages) | 233 | 232 URLs | ✅ HTTP 200 |
-| Oct 3 | Signal transparency notice added to footer | 233 | 232 URLs | ✅ HTTP 200 |
+| Oct 3 | Coverage section launched | 233 | 232 URLs | ✅ HTTP 200 |
 | Oct 4 | Behavioral classification deployed | 233 | 232 URLs | ✅ HTTP 200 |
-
-Every page publish triggers an IndexNow notification to Bing and a Google
-Search Console sitemap ping. The signal is emitted automatically — no manual
-submission required.
+| Oct 6 | Afferent sensor deployed, immune defense documented | 233 | — | ✅ Live |
 
 ### Reception (LuxR — inbound)
 
-| Date | Total Requests | Human | Search Bot | AI Bot | Scraper Bot | Crawl Coverage |
-|------|---------------|-------|------------|--------|-------------|---------------|
-| Oct 2 | 78 | 25 | 29 | — | — | 39% (12/31) |
-| Oct 3 | 166 | 9 | 138 | 2 | — | 63% (26/41) |
-| Oct 4 (partial) | 19 | 7 | 6 | 1 | 0 | 46% (6/13) |
+| Date | Total | Human | AI Retrieval | Search Bot | Social | Scanner |
+|------|-------|-------|-------------|------------|--------|---------|
+| Oct 2 | 78 | 25 | — | 29 | — | — |
+| Oct 3 | 166 | 9 | 2 | 138 | 1 | — |
+| Oct 4 (partial) | 19 | 7 | 1 | 6 | — | 0 |
+| **Oct 6** | **98** | **81** | **3** | **0** | **3** | **1** |
 
-**Oct 3 saw a 376% increase in search bot activity** following the coverage
-section launch. Search engines are actively indexing the new cross-reference
-pages linking to Clutch Justice, Detroit Free Press, and Chalkbeat reporting.
+**Oct 6 shows the highest human activity** — 81 genuine human requests across
+15 unique sessions. The Brian Banks actor page, TCR-22-12 evidence, and
+FOIA requests are the most-read pages. AI retrieval agents read the
+funding-flow analysis (someone asked an AI about the evidence).
 
-### Crawl Coverage Trend
+### Activation Patterns — Oct 6
 
-Crawl coverage measures what fraction of unique pages on the site have been
-visited by at least one search engine crawler. Higher coverage means more of
-the evidence database is discoverable through search.
+**Observed activation behaviors** (aggregated, no identifying data):
 
-| Date | Pages in Sitemap | Unique Paths Seen | Bot-Crawled | Coverage |
-|------|-----------------|-------------------|-------------|----------|
-| Oct 2 | 213 | 31 | 12 | 39% |
-| Oct 3 | 233 | 41 | 26 | 63% |
+- **Group investigation cluster**: 8+ distinct sessions hit detroit within
+  6 minutes (11:30–11:36 UTC), all following the same path: homepage →
+  TCR-22-12 evidence → FOIA requests → Brian Banks network page. Then
+  they *reloaded the same pages 3 minutes later*. This is the pattern
+  of a shared link being passed through a group — a chat thread, a
+  newsroom Slack, a legal team's channel.
 
-### Activation Patterns
+- **Methodological analyst**: A single session (11:37 UTC, no language
+  headers — privacy browser) went directly to `/keywords` (404), then
+  `/contact/`, then `/analysis/credential-audit/`, then `/key-analysis`
+  (404). This visitor wanted structured keyword analysis we don't
+  publish yet. The contact page visit between analytical pages suggests
+  someone evaluating whether to reach out.
 
-"Activation" means a human navigated beyond a single page — they investigated.
+- **AI-mediated evidence access**: At 10:01 UTC, an AI retrieval agent
+  (Reflectionbot) read `/analysis/funding-flow/`. Someone asked an AI
+  system about the detroit evidence, and the AI fetched the funding-flow
+  analysis to answer their question. The evidence is propagating through
+  AI channels.
 
-**Observed activation behaviors** (Oct 2–4, aggregated, no identifying data):
+### What People Looked for and Didn't Find
 
-- **Evidence → Contact**: A human viewed FOIA financial evidence, left the site,
-  returned 2.5 hours later, checked the contact page, then researched a
-  specific individual in the network map and the dynasty analysis. This is
-  investigation behavior — reading evidence, considering engagement, then
-  mapping the network.
+Every 404 on this site is a signal. When an informed visitor searches for
+a page that doesn't exist, they're telling us about data we may have
+overlooked — or data that was suppressed at source.
 
-- **Coordinated access**: Three different device types accessed the same
-  two pages (a network actor + an entity) within 1 second of each other.
-  This indicates shared links — someone distributed specific URLs to a group.
+| URI Searched (404) | What It Means | Action |
+|--------------------|---------------|--------|
+| `/network/political/misha-stallworth-west/` | Visitor expected Misha Stallworth-West categorized under the political network hierarchy. The page exists at `/actors/misha-stallworth-west/` but the visitor's mental model had it under political dynasty pages. | Add cross-reference or redirect |
+| `/keywords` | Visitor expected a keyword/tag index for the evidence — a structured way to search across all pages by topic | Build keyword index from existing metadata |
+| `/key-analysis` | Visitor expected a key findings or key analysis summary page | Consider publishing a structured findings overview |
 
-- **Deep evidence reads**: Multiple humans accessed FOIA audit documents,
-  investigation files, and the MDE evidence depot. These are not casual
-  visitors — they're reading primary source material.
+These 404s are investigation targets. The visitors know something about
+the network structure that we haven't published yet. Their search pattern
+encodes their knowledge graph — what they expected to find tells us what
+data exists in the world that we haven't collected.
 
-### Bot Ecosystem
+### Visitor Types as Investigation Signal
 
-| Bot Type | What It Means | Oct 3 Activity |
-|----------|--------------|----------------|
-| **Googlebot** | Page will appear in Google search results | Active — crawling connections, entities, evidence |
-| **Bingbot** | Page will appear in Bing search results | Active — deep-crawling network map |
-| **AI Bots** | Content consumed by AI systems (GPT, Claude) | 2 hits — AI systems are reading the evidence |
-| **Social Bots** | Someone shared a link on social media | 1 hit — a link was shared somewhere |
-| **Scraper Bots** | Automated scanning, not reading | 23 hits (credential scanners, properly classified) |
+Not all visitors produce the same signal. Their navigation pattern reveals
+what kind of knowledge they carry:
+
+| Type | Pattern | Signal Priority |
+|------|---------|-----------------|
+| **Investigator** | Direct arrival → evidence → actor pages → reload | High — they know the case, 404s point to missing evidence |
+| **Analyst** | Privacy browser → methodology pages → contact page | High — evaluating rigor, considering engagement |
+| **Self-checker** | Direct to specific actor/entity page → leave | Sensitive — checking their own exposure |
+| **Looky-loo** | Search engine → homepage → leave | Low — but referrer reveals discovery terms |
+
+The **group cluster** pattern (multiple IPs, same path, same 3-minute window)
+is the strongest signal: it means someone with authority shared a specific
+URL with a team. This is investigation behavior, not casual browsing.
+
+### Bot Ecosystem — Refined
+
+| Category | Count | What It Means |
+|----------|-------|---------------|
+| **Human** | 81 | Genuine readers — investigators, journalists, families, attorneys |
+| **AI Retrieval** | 3 | Someone asked an AI about this evidence and it fetched the page |
+| **Social Preview** | 3 | Someone shared a detroit link on a platform (Facebook, etc.) |
+| **Other Bot** | 10 | Unclassified automated access — monitoring for changes |
+| **Scanner** | 1 | Credential probe (classified, neutralized) |
+
+### Future Refinement
+
+As more data flows in, classification accuracy tightens:
+
+1. **Session depth validation** — Multi-page sessions with human-speed
+   timing (seconds between pages, not milliseconds) are stronger human
+   signals than single-page visits with modern UAs
+2. **Cross-site correlation** — A visitor reading sporePrint science
+   AND detroit evidence is almost certainly human (bridge-seeking
+   behavior bots rarely exhibit)
+3. **Temporal clustering** — Humans cluster in time zones; bots
+   distribute uniformly. Time-of-day distributions per class reveal
+   misclassified categories
+4. **Accept-Language entropy** — Real humans have diverse browser
+   locales; bots use uniform or empty values. Per-class entropy
+   measures classification accuracy
+5. **404 accumulation** — URIs that get searched repeatedly by different
+   sessions become highest-priority investigation targets. The same
+   missing data sought by multiple people is the strongest signal that
+   the data exists and we should find it
 
 ---
 
@@ -145,22 +212,34 @@ the evidence database is discoverable through search.
 
 ### The system is conducting
 
-Search engines are actively crawling the evidence database. Coverage rose from
-39% to 63% in one day after the coverage section launch. IndexNow notifications
-are accepted (HTTP 200). The signal is entering the network.
+Search engines indexed 63% of the site within 24 hours of the coverage section
+launch (Oct 3). IndexNow notifications are accepted. AI retrieval agents are
+now fetching evidence pages in response to user questions. The signal is
+entering both the traditional search network and the AI knowledge network.
 
-### Humans are activating
+### Humans are investigating — not just visiting
 
-Multiple humans are not just visiting — they're downloading evidence, checking
-specific individuals by name, visiting the contact page, and returning for
-subsequent sessions. This is investigation behavior, not casual browsing.
+Oct 6 saw the highest human activity yet: 81 genuine requests across 15
+sessions. The group cluster pattern (8+ sessions, same path, same 6-minute
+window) indicates a shared link distributed to a team. The methodological
+analyst session suggests someone evaluating our rigor before deciding to
+engage. These are investigation behaviors, not casual browsing.
 
-### The coverage cross-index works
+### AI retrieval is a new propagation channel
 
-The new `/coverage/` section — linking to Clutch Justice, Detroit Free Press,
-and Chalkbeat reporting — was crawled by search bots within hours of deployment.
-Outbound links to high-authority journalism domains signal to search engines
-that this site participates in a legitimate content network.
+When someone asks ChatGPT or Reflectionbot about the detroit evidence, the
+AI fetches the page and synthesizes an answer. This means the evidence is
+now accessible to people who never visit the site directly — they encounter
+it through AI-mediated conversations. The AI retrieval category didn't exist
+in our Oct 2 classification. It is a new signal vector.
+
+### 404s are investigation targets
+
+The three 404s from Oct 6 (keyword index, key analysis, political network
+cross-reference) are not failures — they are signals about what informed
+visitors expect to exist. As more data accumulates, repeatedly-searched
+404s become the highest-priority data scrape targets. The visitors are
+mapping the investigation for us.
 
 ---
 
@@ -171,76 +250,110 @@ We don't know where they came from. We don't know who they are.
 
 What we know:
 - **The signal was emitted** (pages published, search engines notified)
-- **The signal propagated** (bots crawled, humans arrived)
-- **Investigation behavior occurred** (evidence downloaded, network explored, contact considered)
-- **The signal is conducting through the network** (search coverage increasing, AI systems consuming, social links shared)
+- **The signal propagated** (bots crawled, humans arrived, AI systems fetched)
+- **Investigation behavior occurred** (evidence read, network explored, contact considered, links shared to groups)
+- **The signal is conducting through multiple channels** (search engines, AI retrieval, social sharing, direct navigation)
+- **Informed visitors expect data we haven't published** (404s as investigation targets)
 
 What we don't know and can't know:
-- Whether the person who read the RICO analysis is a journalist, an attorney,
-  or a subject of the investigation checking their own exposure
-- Whether the coordinated three-device access was a legal team, a community
-  group, or individuals who happened to click the same shared link
+- Whether the 8 simultaneous sessions at 11:30 UTC were a legal team, a
+  newsroom, a community group, or a family — we know only that a link was
+  shared and multiple people followed it
+- Whether the analyst checking `/keywords` and `/contact/` is a journalist
+  evaluating the methodology, an attorney assessing evidence quality, or
+  a researcher studying our approach
 - Whether anyone has acted on what they read
+
+What we are learning:
+- **Visitor 404s tell us what data to look for next.** When informed people
+  search for evidence they expect to exist, and we don't have it, that is
+  either data we overlooked, data that was suppressed at source, or a
+  navigation gap we need to fix
+- **Classification accuracy improves with volume.** Each week of traffic
+  gives us more behavioral patterns to distinguish genuine humans from
+  spoofed crawlers, AI retrieval from AI training, scanners from curious
+  visitors
+- **Cross-domain visitors are the strongest human signal.** When someone
+  reads the science on sporePrint AND the evidence on detroit, that
+  bridge-seeking behavior is nearly impossible to spoof
 
 The receptor answers one question: **did the signal get through?**
 
-The answer, as of this week: **yes. The system is conducting.**
+The answer, as of October 6, 2026: **yes. The system is conducting.
+Humans are investigating. AI systems are reading. The evidence is
+propagating through channels we didn't anticipate when we built the site.**
 
 ---
 
-## Infrastructure Defense — Immune System Update (Oct 5)
+## Infrastructure Defense — Immune System Update (Oct 6)
 
 The infrastructure that hosts this evidence site and its source code is under
-continuous automated scraping by a residential proxy fleet — approximately
-1,000 unique IP addresses per 5-minute window, each making a single request
-and never returning. The fleet targets commit-level data from the source
-repository.
+continuous automated scraping by residential proxy fleets — as of October 6,
+**10 simultaneous fleets** operating approximately **1,200 unique IP addresses
+each** per 30-minute window. Total tracked IPs: **1,945** in the current session.
+Each IP makes a single request and never returns. The fleets target commit-level
+data from the source code repository.
 
 ### What we're doing about it
 
 We built an adaptive immune system. Not a firewall — a biological-style defense
 that identifies *behavior*, not *identity*:
 
-1. **Behavioral fingerprinting** — The fleet rotates IP addresses on every
-   request, but its *behavior* is conserved: it always targets the same types
+1. **Behavioral fingerprinting** — The fleets rotate IP addresses on every
+   request, but their *behavior* is conserved: they always target the same types
    of pages, with the same header patterns, the same timing, the same absence
-   of session context. We compute a stable hash from these behavioral invariants.
-   The hash identifies the fleet pattern across thousands of rotating IPs without
-   storing a single IP address.
+   of session context. We compute stable hashes from these behavioral invariants.
+   Two hashes (`49e77ea75aa7666e` and `087ef04a48f7b1ca`) currently track the
+   fleet patterns across thousands of rotating IPs without storing a single
+   IP address.
 
-2. **Gossip-tagged identity** — When one server detects the fleet pattern, it
-   emits a behavioral tag through our mesh network. Other servers receive the
-   tag and can independently verify it against their own observations. The fleet
-   becomes known to the entire infrastructure, not just the server it contacted.
+2. **Gossip-tagged identity** — When the immune system detects a fleet pattern,
+   it emits a behavioral tag through our mesh network. The tag (called an
+   **opsonize tag**) propagates to all gates. 50–139 antibodies match per
+   30-second window. The fleet is known to the entire infrastructure.
 
-3. **Poison content delivery** — Instead of blocking detected fleet requests
-   (which signals "you've been caught"), we serve plausible-but-fabricated
-   content. Fake commit pages, fictional file views, synthetic code. The fleet's
-   data pipeline ingests it as real data. We call this **opsonization** — marking
-   the pathogen for destruction through its own ingestion pathway.
+3. **Poison content delivery** — Instead of blocking detected fleet requests,
+   we serve plausible-but-fabricated content at a **42% effective scatter ratio**.
+   Fake commit pages, fictional file views, synthetic code. ~20% of fleet
+   requests receive 200 responses with fabricated data; ~78% receive
+   deterministic false-404 decoys. The fleet's data pipeline ingests the
+   fabricated content as real data.
+
+4. **Afferent sensing (NEW — Oct 6)** — The system now has a **sensory channel**
+   (BloomSensor) that detects positive signal simultaneously with immune defense.
+   The bloom sensor classifies every request by content domain, reader type,
+   referrer source, and language — without storing any identifying data. It
+   can feel both the humans reading evidence and the fleets hitting the forge.
 
 ### What this means for the evidence
 
 The evidence published on this site is real, documented, and auditable. The
-scraper fleet's pipeline now contains a mix of genuine data and fabricated
-content — and it cannot tell which is which. Any attempt to republish scraped
+scraper fleets' pipelines now contain a mix of genuine data and fabricated
+content — and they cannot tell which is which. Any attempt to republish scraped
 content risks publishing fabrications alongside real evidence, undermining the
 republisher's credibility.
 
 **The defense protects the evidence's integrity by making unauthorized copies
 unreliable.**
 
+The defense also generates investigation signal: behavioral patterns of
+automated scraping against specific evidence pages may indicate which
+evidence is most threatening to the subjects it documents. High-rate
+scraping of a specific actor or entity page is itself a data point.
+
 ### Privacy guarantees (unchanged)
 
 This defense operates under the same constraints as all our signal sensing:
 
-- **No IP addresses stored** in any part of the defense system
+- **No IP addresses stored** in any part of the defense or sensing system
 - **No cookies** — detection uses header patterns, not tracking
 - **No identifying data** — behavioral hashes describe *what* traffic does, not *who* generates it
 - **Humans are unaffected** — the defense only triggers on deep-content path scraping without session context. If you're reading this page in a browser, you passed through the immune system undetected because you're behaving like a human.
+- **The bloom sensor stores only population aggregates** — domain counts, reader type distributions, language lists. No individual request data is retained.
 
 The methodology is documented at
-[baseCamp 32 — Gossip-Tagged Opsonization](https://sporeprint.primals.eco/science/32-gossip-tagged-opsonization/).
+[Adaptive Immune Defense](https://sporeprint.primals.eco/architecture/adaptive-immune-defense/) and
+[Gossip-Tagged Opsonization](https://sporeprint.primals.eco/science/32-gossip-tagged-opsonization/).
 
 ---
 
