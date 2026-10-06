@@ -478,27 +478,120 @@ documented here as part of the record.
 
 ---
 
-### What the World Deserves to Know
+### Live Monitor — Continuing After Notice
 
-When a single person builds sovereign infrastructure to publish evidence
-of public fund misuse in a majority-Black city — and the first thing that
-happens is Meta's crawlers show up to scrape the source code for AI
-training, ignoring every access restriction, every 403 block, every
-robots.txt notice — **that tells you everything about the relationship
-between corporate AI and the communities it extracts from.**
+This billboard was published at **12:05 PM ET on October 6, 2026**. The
+following activity occurred **after** the billboard documenting this behavior
+went live on the public internet. Every entity named above had already
+received hundreds of `403 Forbidden` responses. The evidence of their
+behavior was now published. They continued.
 
-Meta did not read the investigation evidence. Meta did not index the
-charter school fraud documentation. Meta's systems went straight for the
-**source code** — the intellectual property, the architecture, the
-sovereign infrastructure itself. Not the message. The medium.
+**Meta/Facebook — activity after billboard publication:**
 
-This is extraction behavior. The same pattern the investigation
-documents in Detroit's charter school system — public resources built
-for communities, captured by private interests — is playing out in
-real time on the infrastructure built to expose it.
+| Time (ET) | Status | Path Targeted |
+|-----------|--------|---------------|
+| 12:05:27 PM | 403 | `/ecoPrimals/toadStool/raw/commit/.../crates/auto_conf` |
+| 12:06:34 PM | 403 | `/ecoPrimals/wateringHole/blame/commit/.../handoffs/BI...` |
+| 12:07:40 PM | 403 | `/ecoPrimals/wateringHole/raw/commit/.../handoffs/BARR...` |
+| 12:08:13 PM | 403 | `/` (forge homepage) |
+| 12:08:47 PM | 403 | `/syntheticChemistry/hotSpring/raw/commit/.../barracud...` |
+| 12:09:13 PM | 403 | `/` (forge homepage, via `facebookexternalhit`) |
 
-**The evidence is the evidence. The scraping of the evidence is also
-evidence. It's all part of the same record.**
+**Six requests in four minutes.** Still targeting source code. Still blocked.
+Still continuing. At no point in the 2 hours and 40 minutes of continuous
+scraping — through 446 explicit `403 Forbidden` responses, 4 reads of a
+robots.txt that says "humans only," and the publication of this exact
+document — did Meta's systems stop.
+
+*This section will be updated as activity continues. The signal spine
+records every observation with cryptographic integrity seals.*
+
+---
+
+### Who Got the Picture — Compliance Under the Same Rules
+
+Not every entity behaved like Meta. The contrast matters, because it proves
+the rules are clear and followable. Some systems read the boundaries and
+respected them. Others read the boundaries and ignored them.
+
+#### ✅ Entities That Respected Boundaries
+
+**Google** (Googlebot) — 3 requests, all to **detroit.primals.eco** (the
+public evidence library). Read `robots.txt` first. Indexed the
+Clutch-Hubbard probate coverage. Did not touch the code forge. Did not
+probe for configuration files. Behaved exactly as a search engine should
+when encountering an investigation site.
+
+**OpenAI** (GPTBot) — 3 requests across three domains. Read `robots.txt`
+on each domain **before** requesting any content. Respected the permissions
+stated in each file. Did not scrape source code. Did not probe for
+vulnerabilities. Checked the rules, followed the rules.
+
+**Microsoft/Bing** (Bingbot) — 10 requests, all to **sporeprint.primals.eco**
+(open science, AGPL-licensed, robots.txt says "Welcome. Index everything.").
+Indexed thesis chapters, methodology pages, the contact page. Did not touch
+the code forge. Did not touch the investigation site. Stayed within the
+domain where they were explicitly welcomed.
+
+**Ahrefs** (AhrefsBot) — 5 requests. Read `robots.txt` and `sitemap.xml`
+first. Indexed two lab notebook pages on sporePrint. Standard SEO tool
+behavior. Rules read, rules followed.
+
+**Semrush** (SemrushBot) — 1 request to `nestgate.io/robots.txt`. Checked
+permissions. Did not proceed. Model behavior.
+
+#### ⚠️ Entities Operating in Documented Zones
+
+**Amazon** (Amazonbot) — 10 requests. 8 to **detroit.primals.eco**, reading
+investigation evidence: **Judge Adam Sabree**, **Judge Tenisha Yancey**,
+**political action committees**, **corporate network analysis (LARA)**,
+the **Clutch-Miller OWI coverage**, the **Anderson localization analysis**,
+and this **signal page** itself. Detroit's robots.txt explicitly allows
+all crawlers ("the evidence is public"), so this access is permitted. But
+Amazon's AI training pipeline is now reading evidence about named public
+officials in active investigations, and that is documented here for the
+record. What Amazon's systems *learn* from this evidence and how it shapes
+their outputs is a question Amazon will need to answer.
+
+**Huawei** (PetalBot) — 17 requests to sporePrint. Reading the science —
+thesis chapters, lab notebooks, methodology. Allowed, documented. The
+AGPL-3.0 license travels with the knowledge.
+
+#### ❌ Entities That Ignored Every Warning
+
+**Meta/Facebook** (`meta-externalagent`, `facebookexternalhit`) — see above.
+533 requests. 446 blocked. 4 robots.txt reads. 2 hours 40 minutes. 493
+unique source code paths. Still going after this billboard was published.
+
+**Anonymous scanner fleet** — 390 vulnerability probes. No User-Agent.
+No identification. No respect for any boundary. Served canary credentials
+as consequence.
+
+**Residential proxy fleet** — 3,075+ IPs. 10+ mutation attempts.
+Zero identification. Zero compliance. Detected and tracked regardless.
+
+---
+
+### The Pattern
+
+The entities that respected boundaries have something in common: they
+operate in the open. They identify themselves. They check permissions.
+When a system says "no," they stop.
+
+The entities that ignored boundaries also have something in common: they
+treat other people's systems as raw material. Meta reads "humans only,"
+receives 403, and keeps scraping for hours. The anonymous fleets don't
+even bother identifying themselves.
+
+**This is the same pattern the investigation documents.** Public resources
+built to serve communities — captured by interests that believe access is
+their default right and boundaries are suggestions. Charter school funds
+built for Detroit children, captured by operators who treat oversight as
+an obstacle. Source code built for sovereign computation, scraped by
+platforms that treat digital sovereignty as a threat.
+
+The evidence is the evidence. The scraping of the evidence is also
+evidence. It's all part of the same record.
 
 ---
 

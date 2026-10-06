@@ -116,3 +116,9 @@ This is [Anderson Localization](/analysis/anderson-localization/) measured in in
 ---
 
 *All submissions are documented. All responses are recorded as metadata. All claims are verifiable against [public records](/sources/). See [Legal Protections](/legal/) for the First Amendment and fair comment framework.*
+
+*Related: The pattern of institutions that ignore boundaries extends beyond
+Michigan oversight bodies. See [Signal — Public Record of Automated Access](/signal/#public-record-who-is-accessing-this-investigation)
+for evidence of the same dynamic in corporate AI systems that access this
+investigation site: some check the rules and comply; others read the rules
+and scrape anyway.*
