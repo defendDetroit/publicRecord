@@ -521,7 +521,11 @@ fleet sent us — they delivered the evidence themselves.
 | **Google (Alphabet)** | Chrome trademark in UA identifies Chrome browsers | Fleet uses `Chrome/145` in a non-Chrome HTTP client | 3 headers vs 11+ mandatory; missing Sec-Ch-Ua |
 | **Google (Alphabet)** | Chrome auto-updates; version reflects real release | 97.8% stuck on Chrome/145 (stable is 155) | Hardcoded string, not auto-updating browser |
 | **Microsoft** | Edge trademark in UA identifies Edge browser | 430 requests claiming Edge, missing Sec-Fetch headers | `Edg/145` UA without mandatory browser headers |
-| **Apple** | macOS version reflects real OS | Claims `Mac OS X 10_15_7` (Catalina, 2019) | No real Mac runs Catalina in 2026 |
+| **Apple** | Macintosh® is a registered trademark for "computer" | Fleet uses `Macintosh` in UA of a non-Mac HTTP client | 2,783 requests claiming Intel Mac |
+| **Apple** | macOS® is a registered trademark for "operating system software" | Claims `Mac OS X 10_15_7` (Catalina, EOL July 2022) | 4 years past end-of-life; current is macOS 15 Sequoia |
+| **Apple** | Safari® is a registered trademark for "application program" | `Safari/537.36` in UA of a non-Safari client | 537.36 is Chrome's frozen fork number, not real Safari |
+| **Apple** | WebKit® is a registered trademark for "software framework" | `AppleWebKit/537.36` in a non-WebKit client | Real WebKit is 605.1.15+; 537.36 is from 2013 Blink fork |
+| **Apple** | Intel Mac hardware discontinued June 2023 | Claims `Intel Mac OS X` in 2026 | 3+ years after last Intel Mac sold |
 | **W3C / WHATWG** | Fetch Standard requires Sec-Fetch-* headers | All three Sec-Fetch headers missing (98%) | [Fetch Standard §4](https://fetch.spec.whatwg.org/) |
 | **W3C / IETF** | User-Agent should identify the actual client | Fabricated identity claiming 4 different browsers | RFC 9110 §10.1.5 |
 | **RIPE NCC** | IP allocations require valid registrant info | truview LLC + steel-axis LLC = shell entities | Same CSC address, no public operations |
@@ -534,10 +538,19 @@ fleet sent us — they delivered the evidence themselves.
 own rules being violated. Google, Microsoft, Apple, the W3C, RIPE, ARIN,
 and federal regulators all have standing to investigate.
 
-**Meta built a system that impersonates other companies' products to extract
-data from systems that explicitly denied access.** The trademark holders
-(Google, Microsoft, Apple) may have their own interest in ensuring their
-product names are not used to camouflage corporate scraping infrastructure.
+**Apple alone has 5 registered trademarks** appearing in a single fabricated
+User-Agent string: Macintosh®, macOS® (as "Mac OS X"), Safari®,
+WebKit® (as "AppleWebKit"), and the Intel Mac hardware designation.
+Every one of these marks is used in a non-Apple product. The claimed
+macOS version (Catalina 10.15) has been end-of-life since July 2022, the
+Intel Mac hardware has been discontinued since June 2023, and the WebKit
+version (537.36) is from the 2013 Chrome/Blink fork — not real WebKit.
+
+**Meta built a system that uses 5 Apple trademarks, 2 Google trademarks,
+and 1 Microsoft trademark in a single HTTP request** — all to camouflage
+corporate scraping infrastructure. The trademark holders have independent
+enforcement authority and may have their own interest in ensuring their
+product names are not used this way.
 
 ##### What This Means for Users of Meta Platforms
 
