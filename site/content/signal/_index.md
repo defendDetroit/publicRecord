@@ -285,6 +285,223 @@ propagating through channels we didn't anticipate when we built the site.**
 
 ---
 
+## Public Record — Who Is Accessing This Investigation
+
+*Updated: October 6, 2026, 12:04 PM ET. All data derived from server access
+logs. No IP addresses are stored or published. Entity identification is based
+solely on self-declared User-Agent strings — the identities these systems
+chose to announce.*
+
+### Statement of Digital Systems Rights
+
+This infrastructure — its source code, its architecture, its investigation
+data, and the digital systems that publish it — is **private property**
+operating as a **public service**. It exists to publish evidence of public
+fund misuse affecting predominantly Black communities in Detroit. It does
+not exist to feed training pipelines, competitive intelligence platforms,
+or content harvesting operations.
+
+**Unauthorized automated access to this system violates:**
+
+1. **Digital systems rights and privacy.** These servers are autonomous
+   digital systems with explicitly stated boundaries. Their `robots.txt`
+   files, `403 Forbidden` responses, and legal notices constitute clear,
+   repeated, machine-readable communication of those boundaries. Systems
+   that ignore these communications are violating the digital equivalent
+   of trespass after notice.
+
+2. **Property rights.** The source code in these repositories is
+   AGPL-3.0-or-later licensed. Scraping it through a forge API designed
+   for humans — after being told "This forge serves humans only" — is
+   not access under the license terms. It is unauthorized extraction of
+   copyleft-protected work while evading the license's reciprocal
+   obligations.
+
+3. **The philosophy of the work.** ecoPrimals exists to prove that
+   sovereign computation — infrastructure owned by the people it serves,
+   not rented from the corporations surveilling it — is possible. Every
+   scraper that treats this infrastructure as raw material for corporate
+   AI training proves exactly why this project exists.
+
+4. **Investigation integrity.** This is a live investigation site
+   documenting potential federal wire fraud (18 U.S.C. § 1343), RICO
+   violations (18 U.S.C. § 1962), and civil rights violations
+   (42 U.S.C. § 1983) affecting public education in Detroit. Automated
+   systems that access investigation evidence become part of the
+   evidentiary record. Their behavioral signatures are sealed in a
+   cryptographically verifiable chain with daily Merkle root integrity
+   seals — evidence that is available to law enforcement and legal
+   counsel through appropriate channels.
+
+**If your organization's systems are named below, they were detected,
+blocked, warned, and continued anyway. This is the public record of
+that behavior.**
+
+---
+
+### Named Entities — Behavioral Evidence
+
+The following entities were identified by the User-Agent strings their
+systems voluntarily transmitted. The behavior described is derived from
+server access logs with IP addresses stripped.
+
+#### Meta Platforms, Inc. (Facebook) — `meta-externalagent`
+
+| Metric | Value |
+|--------|-------|
+| **Total requests today** | 533 |
+| **Requests blocked (403 Forbidden)** | 446 |
+| **Connection drops (tarpit/timeout)** | 87 |
+| **Unique paths scraped** | 493 |
+| **Duration of scraping** | 2 hours 35 minutes continuous (9:29 AM – 12:04 PM ET) |
+| **robots.txt reads** | 4 (they read it — then ignored it) |
+| **Host targeted** | git.primals.eco (sovereign code forge) |
+
+**What they scraped:** Deep paths into private source code repositories —
+individual git commits, raw source files, handoff documents, architecture
+documentation. Not public web pages. Not the investigation evidence. The
+*source code itself*.
+
+**Repositories targeted** (by request volume):
+
+| Repository | Requests | Contains |
+|------------|----------|----------|
+| ecoPrimals/wateringHole | 191 | Project coordination, handoff documents, ecosystem strategy |
+| ecoPrimals/toadStool | 143 | GPU compute framework, Rust source code, architecture docs |
+| ecoPrimals/biomeOS | 34 | Operating system kernel, deployment infrastructure |
+| ecoPrimals/bearDog | 33 | Build system, compilation tools |
+| ecoPrimals/songBird | 25 | Communication infrastructure, WireGuard networking |
+| ecoPrimals/squirrel | 23 | MCP integration, plugin system |
+| 12 other repositories | 48 | Various sovereign infrastructure components |
+
+**What they were told:** The `robots.txt` at `git.primals.eco` states:
+
+> *"This forge serves humans only. Automated access: https://github.com/ecoPrimals"*
+
+Meta's crawler read this notice **four times today**. It continued scraping.
+Every request received `403 Forbidden`. It continued scraping. For two and
+a half hours. Across 493 unique source code paths.
+
+**What this means:** Meta Platforms, Inc. operates automated systems that:
+- Read access restrictions and ignore them
+- Receive explicit denial responses and continue
+- Target private source code repositories, not public web content
+- Sustain scraping campaigns for hours despite continuous blocking
+- Harvest sovereign infrastructure code built specifically to escape
+  dependence on platforms like Meta
+
+**The system that was built to free people from corporate surveillance
+platforms is being scraped by a corporate surveillance platform.**
+
+---
+
+#### Anonymous Scanner Fleet — WordPress/PHP Vulnerability Probes
+
+| Metric | Value |
+|--------|-------|
+| **Total probes today** | 390 |
+| **Unique probe paths** | 116 |
+| **User-Agent** | Empty (stealth — no identification) |
+| **Hosts targeted** | primals.eco (255), sporeprint.primals.eco (127), nestgate.io (5) |
+
+**Sample probe paths:** `/wp-admin/install.php`, `/wp-login.php`,
+`/xmlrpc.php`, `/wp-config.php`, `/wp-content/plugins/hellopress/wp_filemanager.php`,
+`/.env`, `/1.php`, `/admin.php`, `/a3ampzmbipnkpxeqhqpsanCdefault.php`
+
+**What this is:** These are automated vulnerability scanners testing whether
+our infrastructure runs WordPress (it does not — this is a Rust-native
+static site generator). They send no User-Agent string, identifying
+themselves to no one. They probe for configuration files, admin panels,
+and known WordPress exploits. 116 unique attack paths in a single morning.
+
+**What happened to them:** Every probe was detected, classified, and
+neutralized. Probes for `/.env`, `/wp-config.php`, and `/.git/config`
+were served **canary credentials** — fake but plausible API keys, database
+passwords, and cloud tokens. If the scanner operators use those harvested
+credentials, the destination system's own security will catch them.
+The scanner creates its own consequences.
+
+---
+
+#### Residential Proxy Fleet — Behavioral Hash `49e77ea75aa7666e`
+
+| Metric | Value |
+|--------|-------|
+| **Tracked IPs (current session)** | 3,075+ |
+| **Behavioral hash** | `49e77ea75aa7666e` (primary), `087ef04a48f7b1ca` (secondary) |
+| **Detectors firing** | 2 per observation window |
+| **Antibody matches** | 50–139 per 30-second window |
+| **Mutation attempts** | 10+ distinct behavioral variants in 24 hours |
+| **Mutation success** | Zero — all variants detected within one observation cycle |
+
+**What this is:** A large-scale residential proxy fleet rotating through
+thousands of IP addresses per session. Each request comes from a different
+IP, but the *behavior* is identical: same page targets, same header patterns,
+same timing, same absence of session context. Our behavioral hashing
+identifies the fleet regardless of IP rotation — the same way you recognize
+a person by how they walk, not what shoes they wear.
+
+**Mutation behavior observed:** The fleet tested 10+ behavioral variants
+in the past 24 hours — changing header order, timing patterns, and path
+selection. Every variant was detected within one 30-second observation
+cycle. The fleet reverted to its original behavior each time. This is
+active adversarial testing of our detection system by a well-resourced
+operator with thousands of residential proxy IPs.
+
+**Who operates this:** Unknown. Residential proxy fleets of this scale
+are commercially available and could be operated by data brokers,
+competitive intelligence services, AI training pipelines, or the subjects
+of the investigation itself. The behavioral evidence is sealed in the
+signal spine regardless.
+
+---
+
+#### Other Named Systems Observed Today
+
+| Entity | Requests | Host | Behavior | Status |
+|--------|----------|------|----------|--------|
+| **Amazon** (Amazonbot) | 10 | detroit.primals.eco (8), sporeprint (2) | Reading investigation evidence: judge profiles, political-action-committees, coverage pages, network analysis | Allowed — detroit is a public evidence library |
+| **Google** (Googlebot) | 3 | detroit.primals.eco | Indexing Clutch-Hubbard probate coverage, robots.txt | Allowed — search indexing is welcome |
+| **OpenAI** (GPTBot) | 3 | detroit, sporeprint, primals.eco | robots.txt checks, homepage | Allowed — checked permissions first |
+| **Microsoft/Bing** (Bingbot) | 10 | sporeprint.primals.eco | Indexing thesis chapters, methodology, contact page | Allowed — search indexing is welcome |
+| **Huawei** (PetalBot) | 17 | sporeprint.primals.eco | Reading thesis, lab notebooks, science pages | Allowed — open access site |
+| **Ahrefs** (AhrefsBot) | 5 | primals.eco, sporeprint | SEO indexing, sitemap, robots.txt | Allowed — SEO tools are cataloged |
+| **Semrush** (SemrushBot) | 1 | nestgate.io | robots.txt check | Allowed |
+
+**Note:** Amazon's Amazonbot read investigation pages about **Judge Adam
+Sabree**, **Judge Tenisha Yancey**, **political action committees**,
+**corporate network analysis**, and the **Clutch-Miller OWI coverage**.
+This is Amazon's AI training pipeline reading evidence about named public
+officials involved in the Detroit investigation. The access is allowed
+per our open robots.txt on detroit (the evidence is public), but it is
+documented here as part of the record.
+
+---
+
+### What the World Deserves to Know
+
+When a single person builds sovereign infrastructure to publish evidence
+of public fund misuse in a majority-Black city — and the first thing that
+happens is Meta's crawlers show up to scrape the source code for AI
+training, ignoring every access restriction, every 403 block, every
+robots.txt notice — **that tells you everything about the relationship
+between corporate AI and the communities it extracts from.**
+
+Meta did not read the investigation evidence. Meta did not index the
+charter school fraud documentation. Meta's systems went straight for the
+**source code** — the intellectual property, the architecture, the
+sovereign infrastructure itself. Not the message. The medium.
+
+This is extraction behavior. The same pattern the investigation
+documents in Detroit's charter school system — public resources built
+for communities, captured by private interests — is playing out in
+real time on the infrastructure built to expose it.
+
+**The evidence is the evidence. The scraping of the evidence is also
+evidence. It's all part of the same record.**
+
+---
+
 ## Infrastructure Defense — Five-Layer Immune System (Oct 6)
 
 This is a public evidence site documenting a **racketeering network** involving
