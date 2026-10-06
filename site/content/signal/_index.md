@@ -423,36 +423,76 @@ The scanner creates its own consequences.
 
 ---
 
-#### Residential Proxy Fleet — Behavioral Hash `49e77ea75aa7666e`
+#### Residential Proxy Fleet — Surveillance Operation on Private Infrastructure
+
+**Same actor class as Meta. Same violation. Worse behavior.**
 
 | Metric | Value |
 |--------|-------|
-| **Tracked IPs (current session)** | 3,075+ |
+| **Total requests today** | 10,250+ |
+| **Tracked IPs** | 3,075+ (rotating — different IP every request) |
 | **Behavioral hash** | `49e77ea75aa7666e` (primary), `087ef04a48f7b1ca` (secondary) |
-| **Detectors firing** | 2 per observation window |
-| **Antibody matches** | 50–139 per 30-second window |
-| **Mutation attempts** | 10+ distinct behavioral variants in 24 hours |
-| **Mutation success** | Zero — all variants detected within one observation cycle |
+| **Host targeted** | git.primals.eco — **the private code forge** |
+| **Static assets loaded** | **Zero.** Not one CSS file, image, or script in 10,250 requests |
+| **Self-identified** | **No.** Spoofed browser User-Agents (50/50 Mac/Windows split) |
+| **Defense docs accessed** | 225 (security architecture, threat detection, membrane model) |
+| **Investigation docs accessed** | 2,305 (FOIA handoffs, evidence provenance, planning docs) |
+| **Mutation attempts** | 10+ behavioral variants, all detected within 30 seconds |
+| **Volume vs Meta** | **18.3× Meta's request count** |
 
-**What this is:** A large-scale residential proxy fleet rotating through
-thousands of IP addresses per session. Each request comes from a different
-IP, but the *behavior* is identical: same page targets, same header patterns,
-same timing, same absence of session context. Our behavioral hashing
-identifies the fleet regardless of IP rotation — the same way you recognize
-a person by how they walk, not what shoes they wear.
+**This is not scraping. This is surveillance.**
 
-**Mutation behavior observed:** The fleet tested 10+ behavioral variants
-in the past 24 hours — changing header order, timing patterns, and path
-selection. Every variant was detected within one 30-second observation
-cycle. The fleet reverted to its original behavior each time. This is
-active adversarial testing of our detection system by a well-resourced
-operator with thousands of residential proxy IPs.
+The fleet is on `git.primals.eco` — the same private code forge where
+Meta received 491 blocks. The same robots.txt that says "humans only."
+The same 403 Forbidden responses. But unlike Meta, this fleet:
 
-**Who operates this:** Unknown. Residential proxy fleets of this scale
-are commercially available and could be operated by data brokers,
-competitive intelligence services, AI training pipelines, or the subjects
-of the investigation itself. The behavioral evidence is sealed in the
-signal spine regardless.
+- **Does not identify itself.** No User-Agent declaring what company
+  operates it. Instead, spoofed browser strings — "Macintosh; Intel Mac
+  OS X 10_15_7" alternating with "Windows NT 10.0" in a mathematically
+  random 50/50 split that no human population produces.
+- **Loads zero static assets.** A real browser loading a forge page
+  requests CSS, JavaScript, images, fonts — 5 to 20 static files per
+  page. This fleet has loaded **zero** in 10,250 requests. Every
+  single request is a content page. This is a machine reading documents,
+  not a person browsing a website.
+- **Targets defense and investigation documents specifically.** Not
+  random crawling — targeted reading of:
+  - `DEFENSE_IN_DEPTH.md` — how the security architecture works
+  - `THREAT_DETECTION_ARCHITECTURE.md` — how threats are identified
+  - `MEMBRANE_SECURITY_MODEL.md` — how the membrane differentiates readers
+  - `FOIA_HANDOFF_SEP25.md` — what FOIA requests were filed
+  - `EVIDENCE_PROVENANCE.md` — how evidence is collected and preserved
+  - 1,876 handoff documents — project coordination and strategic planning
+
+**These are the investigation's private planning documents on a private
+forge that explicitly denies automated access.** This fleet is reading
+them at 18× Meta's rate while pretending to be human browsers.
+
+**What this means:** Someone with access to thousands of residential
+proxy IPs is conducting counter-intelligence reconnaissance against an
+active investigation. They want to know: What FOIAs have been filed?
+How is evidence collected? How does the defense work? What's planned
+next? They are surveilling the investigation itself.
+
+**If you are a public entity** — a government agency, a law enforcement
+body, a regulatory commission — you should be aware that the same
+investigation you may be reviewing is under active surveillance by an
+unidentified fleet operating through residential proxy networks. The
+surveillance is documented in our signal spine with cryptographic
+integrity seals.
+
+**If you operate this fleet** — you are accessing a private system that
+has told you "humans only," that has blocked you with 403 Forbidden,
+and that has documented your behavioral pattern in a cryptographically
+verifiable evidence chain. The public sites exist:
+[detroit.primals.eco](https://detroit.primals.eco) (the investigation evidence),
+[sporeprint.primals.eco](https://sporeprint.primals.eco) (the science),
+and the [GitHub mirror](https://github.com/defendDetroit/publicRecord)
+(the investigation source code). Those are where you belong. They are
+fully open. You chose to go to the private forge instead.
+
+**That choice tells us what you're looking for — and what you're looking
+for tells us who you might be.**
 
 ---
 
@@ -567,8 +607,12 @@ unique source code paths. Still going after this billboard was published.
 No identification. No respect for any boundary. Served canary credentials
 as consequence.
 
-**Residential proxy fleet** — 3,075+ IPs. 10+ mutation attempts.
-Zero identification. Zero compliance. Detected and tracked regardless.
+**Residential proxy fleet** — **10,250+ requests** (18× Meta's volume).
+3,075+ IPs. Spoofed browser UAs. Zero static assets. Zero identification.
+225 defense doc accesses. 2,305 investigation doc accesses. This is not
+scraping — this is surveillance of a private investigation from behind
+a wall of residential proxies. Same actor class as Meta, but anonymous
+and specifically targeting security architecture and FOIA planning docs.
 
 ---
 
@@ -580,18 +624,37 @@ When a system says "no," they stop.
 
 The entities that ignored boundaries also have something in common: they
 treat other people's systems as raw material. Meta reads "humans only,"
-receives 403, and keeps scraping for hours. The anonymous fleets don't
-even bother identifying themselves.
+receives 403, and keeps scraping for hours. The residential proxy fleet
+doesn't even identify itself — and it's worse than Meta, because it's
+specifically reading the investigation's defense architecture and FOIA
+planning documents. **That is not content harvesting. That is surveillance.**
+
+Both are on the **private** forge. Both were told no. Both continued.
+The public sites — `detroit.primals.eco`, `sporeprint.primals.eco`, the
+GitHub mirror — are fully open. Every crawl policy says "Welcome. Index
+everything." The investigation evidence is public by design. The science
+is public by design. If Meta wants to train on CC-BY-SA evidence about
+charter school fraud, detroit welcomes them. If the fleet wants to read
+published security architecture, sporePrint welcomes them.
+
+But they didn't go there. Meta went to the private forge to scrape source
+code. The fleet went to the private forge to read defense docs and
+investigation planning. **They chose the private side because the private
+side has what they actually want: the infrastructure and the strategy,
+not the evidence and the science.**
 
 **This is the same pattern the investigation documents.** Public resources
 built to serve communities — captured by interests that believe access is
 their default right and boundaries are suggestions. Charter school funds
 built for Detroit children, captured by operators who treat oversight as
 an obstacle. Source code built for sovereign computation, scraped by
-platforms that treat digital sovereignty as a threat.
+platforms that treat digital sovereignty as a threat. Defense architecture
+built to protect an investigation, surveilled by operators who want to
+know how to get past it.
 
 The evidence is the evidence. The scraping of the evidence is also
-evidence. It's all part of the same record.
+evidence. The surveillance of the defense is also evidence. It's all
+part of the same record.
 
 ---
 
