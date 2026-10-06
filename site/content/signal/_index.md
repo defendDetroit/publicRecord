@@ -706,6 +706,40 @@ cannot pass the challenge. They get nothing.
 
 The science behind this inversion: [Forge Lockdown on sporePrint](https://sporeprint.primals.eco/architecture/forge-lockdown/).
 
+### Forensic Audit — What They Actually Got (Oct 6, 2:00 PM ET)
+
+After the lockdown, we audited every request that reached the most sensitive
+repository — the investigation workspace containing FOIA planning, evidence
+provenance chains, and public official network analysis.
+
+**845 requests hit the repository. Here is what the fleet received:**
+
+| Response Type | Count | Content |
+|--------------|-------|---------|
+| Scatter poison (200 OK) | 842 | Fabricated HTML — ~1,590 bytes each, deterministic per path, semantically wrong |
+| Empty UI shells (200 OK) | 3 | Forgejo listing pages — repository navigation chrome, zero file content |
+| **Documents leaked** | **0** | — |
+| **PII exposed** | **0** | — |
+
+**99.6% of responses were poison.** The scatter server has no access to real
+data — it generates fictional content from a pseudorandom number generator
+seeded by the request path. It *cannot* leak real data because it has never
+seen real data. The 3 remaining responses were empty navigation pages showing
+only what the explore page already shows: repository names.
+
+**How we knew**: Every Caddy access log line records which handler served the
+response — `localhost:9753` (scatter) vs `localhost:3000` (real Forgejo). This
+isn't post-hoc analysis. The defense architecture classifies every response
+at service time. The forensic trail is exhaust from defense operations, not
+a separate monitoring system.
+
+The fleet operator now has 845 pages of fabricated HTML that looks like real
+Forgejo content. If they parse it, they'll find plausible but wrong information.
+If they train on it, they'll learn fictional relationships. If they use it for
+intelligence about this investigation, they'll be operating on poisoned data.
+
+The full analysis: [Forensic Observability on sporePrint](https://sporeprint.primals.eco/architecture/forensic-observability/).
+
 ---
 
 ## Infrastructure Defense — Five-Layer Immune System (Oct 6)
