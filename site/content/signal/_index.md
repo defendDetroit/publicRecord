@@ -658,6 +658,56 @@ part of the same record.
 
 ---
 
+## Forge Lockdown — Ion Channel Inversion (Oct 6, 1:35 PM ET)
+
+At 1:35 PM ET, the code forge was locked down. The access model was
+**inverted**: instead of enumerating what to block (an infinite set), we
+enumerate what to allow (a small finite set).
+
+### Before (8 AM – 1:35 PM)
+
+The forge allowed unauthenticated access to repo listings, branches, pulls,
+API endpoints, and any path not matching a specific "deep content" regex.
+The residential proxy fleet exploited paths the regex didn't cover.
+**2,073 real pages served** — 832 whitePaper documents, 1,086 wateringHole
+documents, 12 raw file downloads. The immune system never touched these
+requests.
+
+### After (1:35 PM)
+
+| Surface | Public access | Treatment |
+|---------|--------------|-----------|
+| Landing page, explore | ✅ Visible | Real Forgejo (existence proof) |
+| Org pages, repo names | ✅ Visible | Real Forgejo (names only) |
+| README on repo root | ✅ Visible | Real Forgejo (shop window) |
+| Source trees | 🔒 Locked | → scatter (fabricated content) |
+| Commits, diffs, blame | 🔒 Locked | → scatter |
+| Issues, wiki, releases | 🔒 Locked | → scatter |
+| Branches, pulls, actions | 🔒 Locked | → scatter |
+| REST API (`/api/*`) | 🔒 Locked | → 403 JSON |
+| Raw file access | 🔒 Locked | → scatter |
+| **Everything else** | 🔒 Locked | → scatter (default) |
+
+**Who still gets through**: WireGuard mesh gates (network trust), logged-in
+humans (session cookie), authenticated git CLI. Access to agents, scrapers,
+and AI systems granted explicitly by the owner — not by default.
+
+The forge now has a **9-layer ion channel**: webhook → git protocol → inner
+membrane → authenticated humans → auth pages → fleet immune system → bot
+detection → JS challenge → honeytokens → existence-only storefront → API
+block → **default scatter**.
+
+A JavaScript challenge (Layer 7.25) blocks the residential proxy fleet's
+fatal tell: zero static assets in 10,268 requests. Real browsers execute
+JavaScript automatically. The fleet never loads a single script. They
+cannot pass the challenge. They get nothing.
+
+**Real pages leaked before lockdown: 2,073. After: 0.**
+
+The science behind this inversion: [Forge Lockdown on sporePrint](https://sporeprint.primals.eco/architecture/forge-lockdown/).
+
+---
+
 ## Infrastructure Defense — Five-Layer Immune System (Oct 6)
 
 This is a public evidence site documenting a **racketeering network** involving
