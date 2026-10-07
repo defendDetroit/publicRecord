@@ -5,3 +5,4 @@ description = "Public evidence library documenting racketeering in Detroit chart
 [extra]
 keywords = "Detroit charter school investigation, Brian Banks 9 convictions, Purpose Charter Academy, MacDowell Preparatory Academy, Detroit charter school fraud, Wayne County judicial capture, Cash for Kids 2, Detroit RICO, Purpose Group LLC extraction, charter school accountability, Brian Banks convicted felon superintendent"
 +++
+# Thymus cleanup: 2026-10-07T11:34:00-04:00
