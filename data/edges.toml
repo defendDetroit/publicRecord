@@ -1464,3 +1464,88 @@ weight = 8
 viz_type = "institutional"
 flow = "power"
 label = "DPSCD Board Pres — authorized charter"
+
+# ── Cross-Protection / Tuebor (Wave 165g — Oct 6, 2026) ─────────────────
+# Rita Williams / Clutch Justice is the Primary Analytical Reference.
+# Her independent investigation validates and extends the detroit graph.
+# These edges document the structural connections, not personal relationships.
+
+[[edge]]
+source = "clutch_justice"
+target = "macdowell"
+type = "investigation"
+epistemic_status = "record"
+note = "Published exposé: '$15,217/student, 3% math proficiency'"
+weight = 8
+viz_type = "institutional"
+flow = "information"
+label = "Clutch Justice exposé (Sep 13, 2026)"
+source_doc = "clutchjustice.com/2026/09/13/macdowell-preparatory-academy"
+
+[[edge]]
+source = "clutch_justice"
+target = "miller"
+type = "investigation"
+epistemic_status = "record"
+note = "Prior JTC coverage — judicial oversight reporting"
+weight = 6
+viz_type = "institutional"
+flow = "information"
+label = "JTC oversight reporting"
+source_doc = "Clutch Justice judicial archive"
+
+[[edge]]
+source = "clutch_justice"
+target = "detroit_graph"
+type = "cross_protection"
+epistemic_status = "record"
+note = "Primary analytical reference — independent validation of network patterns"
+weight = 9
+viz_type = "associate"
+flow = "information"
+label = "primary analytical reference (Tuebor)"
+
+[[edge]]
+source = "barry_county"
+target = "jtc"
+type = "investigation"
+epistemic_status = "record"
+note = "Judge Schipper under JTC review — docket backdating"
+weight = 7
+viz_type = "institutional"
+flow = "power"
+label = "Schipper under JTC review"
+source_doc = "Clutch Justice Barry County series (Dec 2025–present)"
+
+[[edge]]
+source = "barry_county"
+target = "micourt"
+type = "infrastructure"
+epistemic_status = "record"
+note = "Same MiCOURT system — if backdating works in Barry County, it works in Wayne"
+weight = 6
+viz_type = "institutional"
+flow = "power"
+label = "shared MiCOURT infrastructure"
+
+[[edge]]
+source = "jtc"
+target = "miller"
+type = "oversight"
+epistemic_status = "record"
+note = "JTC complaints filed against Miller — same commission reviewing Schipper"
+weight = 7
+viz_type = "institutional"
+flow = "power"
+label = "JTC complaints (same commission as Schipper)"
+
+[[edge]]
+source = "jtc"
+target = "yancey"
+type = "oversight"
+epistemic_status = "record"
+note = "JTC complaints filed against Yancey"
+weight = 7
+viz_type = "institutional"
+flow = "power"
+label = "JTC complaints filed"

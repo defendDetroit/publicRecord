@@ -855,6 +855,41 @@ viz_type = "institutional"
 nexus = ["education"]
 detail = "Investigated Banks Feb 2022 for no credential. Cleared. [FOIA]"
 
+# ── Cross-Protection / Tuebor entities (Wave 165g) ───────────────────────
+# These are institutional nodes connecting the Barry County attack to the graph.
+
+[extra.entities.clutch_justice]
+display = "Clutch Justice"
+short = "Clutch Justice"
+type = "Independent investigative journalism platform"
+viz_type = "institutional"
+nexus = ["cross_protection"]
+detail = "Primary Analytical Reference. Independent investigation validated network patterns."
+
+[extra.entities.barry_county]
+display = "Barry County Circuit Court"
+short = "Barry County"
+type = "Circuit Court"
+viz_type = "institutional"
+nexus = ["cross_protection"]
+detail = "Judge Schipper. Docket backdating, manufactured PPO violations, evidence fabrication."
+
+[extra.entities.jtc]
+display = "Michigan Judicial Tenure Commission"
+short = "JTC"
+type = "State oversight body"
+viz_type = "institutional"
+nexus = ["cross_protection", "oversight"]
+detail = "Complaints filed re: Miller, Yancey. Now reviewing Schipper. Same commission — systemic pattern."
+
+[extra.entities.detroit_graph]
+display = "detroit.primals.eco institutional capture graph"
+short = "detroit graph"
+type = "Evidence graph"
+viz_type = "institutional"
+nexus = ["cross_protection"]
+detail = "This graph itself. Cross-protection anchor node."
+
 # ── Source Registry ───────────────────────────────────────────────────────
 # Central truth for every external database / news source we cite.
 # Each source gets: display name, base URL, type (gov/news/legal/reference),
