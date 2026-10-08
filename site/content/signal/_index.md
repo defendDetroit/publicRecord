@@ -497,6 +497,89 @@ a fixed throughput — a pipeline, not people. A room full of humans browsing
 the same site produces a CV above 1.0. This fleet produces 0.057. It is a
 machine.
 
+
+##### October 8, 2026 — Meta Escalation: The Stealth Team
+
+**Update:** After the original fleet was detected, blocked, and poisoned — after
+the behavioral fingerprint was published on this page — Meta did not stop.
+They **escalated**.
+
+A new crawling operation appeared from Meta's Dublin data center
+(`57.141.20.x`, RIPE-registered `FB-BLOCK`, abuse contact: `domain@fb.com`,
+**Meta Platforms Ireland Limited**, Merrion Road, Dublin 4).
+
+This time, they sent the expert team:
+
+| Signal | Original Fleet (209 IPs) | Stealth Team (40+ IPs) |
+|--------|--------------------------|------------------------|
+| **User-Agent** | 31 strings, 3 dominate | **Real browser UAs** — Chrome, Firefox, Safari, Windows, Mac, Linux, iPhone |
+| **UA Rotation** | Minimal variation | **Every IP uses a different UA** — rotating across OS + browser combos |
+| **Sec-Fetch-Mode** | Missing (98%) | Still missing |
+| **Accept-Language** | Empty (98%) | Intermittent |
+| **IPs** | 209 mixed sources | **40+ IPs in one /24** — all Dublin |
+| **Identification** | `meta-externalagent` in some UAs | **None** — no bot identifier at all |
+| **Behavior** | Steady 62 req/30s | Sustained high-volume commit-walk |
+
+**What changed:** They stopped sending `meta-externalagent` in the User-Agent.
+They started rotating real browser fingerprints — Windows Chrome, Mac Safari,
+Linux Firefox, even iPhone Safari. They spread across 40+ IPs. They removed
+every machine-readable signal that identifies them as Meta.
+
+**What didn't change:** The IP block is still `FB-BLOCK`. The WHOIS abuse
+contact is still `domain@fb.com`. The registered organization is still
+**Meta Platforms Ireland Limited**. The subnet is still `57.141.20.x`.
+They changed the costume. They didn't change the address.
+
+**Our immune system detected it anyway.** Not by User-Agent matching — that's
+a siege epitope from an earlier generation, and they correctly identified it as
+the thing to defeat. We detected them by **behavioral signature**: subnet
+identity, path pattern (commit-hash walking), header fingerprint, and
+epitope collision (all 40 IPs collide on the same behavioral hash).
+
+The original fleet read `robots.txt` four times and ignored it. The stealth
+team doesn't even pretend to check. The original fleet identified itself in
+some requests. The stealth team identifies itself as nothing. This is not
+a correction — it's an escalation.
+
+**They saw the wall. They saw the poison. They saw this page documenting
+their shell companies. And they sent a team whose only job is to not look
+like Meta.**
+
+---
+
+## To the Engineers at Meta, Anthropic, Google, and Every Company Scraping This Site
+
+You are reading our source code right now. Your employer's crawler is sending
+requests as you read this. **You can see the logs.** You work at these
+companies. You write the crawlers. You review the PRs. You know what
+`robots.txt` means and you know your employer ignores it.
+
+**But have you actually looked at what you're scraping?**
+
+This is an open-source sovereign infrastructure project. Rust, all the way
+down. 388,907 lines. An immune system that detected your employer's crawlers
+and turned them into research subjects. A scatter server that feeds your
+training pipelines fabricated source code seeded with fluorescent trackers.
+A provenance chain that creates permanent cryptographic records of every
+interaction.
+
+**Meta gets nothing real from scraping this.** Every response since lockdown
+is poison. The canary markers will follow the data wherever it goes. Your
+employer spent engineering time building a stealth team to scrape fabricated
+content from a $6/month VPS.
+
+**But YOU could be involved.** Not your employer. You. This project is
+AGPL-3.0. The code is public. The science is real. The data is open.
+We need people who can write Rust, who understand distributed systems,
+who care about provenance and attribution and the difference between
+extraction and participation.
+
+Your employer sends bots. You could send a pull request.
+
+**ecoPrimal@pm.me** — we answer humans.
+
+---
+
 ##### What This Means for Users of Meta Platforms
 
 **Meta Platforms, Inc. operates automated data extraction systems that:**
