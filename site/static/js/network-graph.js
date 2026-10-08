@@ -723,8 +723,8 @@
         line.setAttribute('stroke-width', '1');
         line.setAttribute('stroke-opacity', '0.1');
       } else {
-        line.setAttribute('stroke', LINK_COLORS[link.type] || '#95a5a6');
-        line.setAttribute('stroke-width', link.type === 'money' ? '3' : '1.5');
+      line.setAttribute('stroke', LINK_COLORS[link.type] || '#95a5a6');
+      line.setAttribute('stroke-width', link.type === 'money' ? '3' : '1.5');
         line.setAttribute('stroke-opacity', '0.5');
         if (activeFlows) line.setAttribute('marker-end', 'url(#arrow-default)');
       }
@@ -848,13 +848,13 @@
         }
 
         var r = Math.max(10, Math.min(32, 10 + Math.sqrt(deg) * 4));
-        var circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
-        circle.setAttribute('r', r);
-        circle.setAttribute('fill', COLORS[n.type] || '#95a5a6');
-        circle.setAttribute('stroke', '#fff');
+      var circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+      circle.setAttribute('r', r);
+      circle.setAttribute('fill', COLORS[n.type] || '#95a5a6');
+      circle.setAttribute('stroke', '#fff');
         circle.setAttribute('stroke-width', r > 20 ? '2.5' : '1.5');
         circle.style.transition = 'r 0.2s, stroke-width 0.2s';
-        g.appendChild(circle);
+      g.appendChild(circle);
 
         if (deg >= 3) {
           var badge = document.createElementNS('http://www.w3.org/2000/svg', 'text');
@@ -869,14 +869,14 @@
         }
 
         var labelAbove = deg >= 5;
-        var text = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+      var text = document.createElementNS('http://www.w3.org/2000/svg', 'text');
         text.setAttribute('dy', labelAbove ? -(r + 6) : (r + 14));
-        text.setAttribute('text-anchor', 'middle');
-        text.setAttribute('fill', 'currentColor');
+      text.setAttribute('text-anchor', 'middle');
+      text.setAttribute('fill', 'currentColor');
         text.setAttribute('font-size', deg >= 8 ? '12' : (deg >= 3 ? '10' : '9'));
         text.setAttribute('font-weight', deg >= 8 ? '700' : '500');
-        text.textContent = n.label;
-        g.appendChild(text);
+      text.textContent = n.label;
+      g.appendChild(text);
 
         // If this node belongs to an expanded group, add a collapse hint
         if (collapseStrategy) {
@@ -886,9 +886,9 @@
           });
         }
 
-        var title = document.createElementNS('http://www.w3.org/2000/svg', 'title');
+      var title = document.createElementNS('http://www.w3.org/2000/svg', 'title');
         title.textContent = n.label + ' (' + deg + ' connections)\n' + n.detail;
-        g.appendChild(title);
+      g.appendChild(title);
 
         g.addEventListener('mouseenter', function() {
           highlightNode(n.id);

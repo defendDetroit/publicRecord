@@ -265,3 +265,9 @@ The son is not responsible for the sins of the father. But when the son inherits
 ---
 
 *Every connection in this network is documented from public records. See [Verify Everything](/validate/) for source links.*
+
+---
+
+<div id="pt-panels"></div>
+<script src="/js/pt-bridge-core.js"></script>
+<script src="/js/detroit-pt.js"></script>
