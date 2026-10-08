@@ -74,6 +74,25 @@ Attribution: ecoPrimals (C) 2024-2026 — ORCID 0009-0004-2141-0321
   <link rel="stylesheet" href="{{ get_url(path='css/main.css') }}">
   <link rel="alternate" type="application/atom+xml" title="{{ config.title }}" href="{{ get_url(path='atom.xml') }}">
   <link rel="hub" href="https://pubsubhubbub.appspot.com/">
+  {# Dublin Core metadata — structured bibliographic data for academic crawlers #}
+  <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
+  <link rel="schema.DCTERMS" href="http://purl.org/dc/terms/">
+  <meta name="DC.title" content="{% block dc_title %}{{ config.title }}{% endblock dc_title %}">
+  <meta name="DC.creator" content="{{ config.extra.author }}">
+  <meta name="DC.subject" content="Detroit charter schools, Purpose Charter Academy, racketeering, public records">
+  <meta name="DC.description" content="{% block dc_desc %}{{ config.description }}{% endblock dc_desc %}">
+  <meta name="DC.publisher" content="ecoPrimals">
+  <meta name="DC.date" content="{{ now() | date(format='%Y-%m-%d') }}">
+  <meta name="DC.type" content="Dataset">
+  <meta name="DC.format" content="text/html">
+  <meta name="DC.identifier" content="{{ current_url | default(value=config.base_url) }}">
+  <meta name="DC.source" content="Michigan LARA, Wayne County Courts, PACER, MDOC OTIS, MI Campaign Finance">
+  <meta name="DC.language" content="en">
+  <meta name="DC.rights" content="AGPL-3.0-or-later; ORC; CC-BY-SA-4.0">
+  <meta name="DCTERMS.spatial" content="Detroit, Michigan, United States">
+  <meta name="DCTERMS.temporal" content="1998/2026">
+  {# oEmbed discovery — rich previews in Slack, Discord, Notion #}
+  <link rel="alternate" type="application/json+oembed" href="{{ get_url(path='api/oembed.json') }}" title="{{ config.title }}">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -134,6 +153,22 @@ Attribution: ecoPrimals (C) 2024-2026 — ORCID 0009-0004-2141-0321
         "sameAs": [
           "https://git.primals.eco/publicRecord/detroit",
           "https://github.com/defendDetroit/publicRecord"
+        ]
+      },
+      {
+        "@type": "Dataset",
+        "name": "Detroit Charter School Investigation — Network Graph",
+        "description": "91-node, 140-edge relationship graph mapping convicted felons, charter schools, judges, and political operatives in Detroit's charter school system",
+        "url": "https://detroit.primals.eco/graph.json",
+        "keywords": ["Detroit", "charter schools", "racketeering", "network analysis", "public records"],
+        "spatialCoverage": "Detroit, Michigan",
+        "temporalCoverage": "1998/2026",
+        "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "creator": { "@type": "Person", "name": "ecoPrimal" },
+        "distribution": [
+          { "@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://detroit.primals.eco/graph.json" },
+          { "@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "https://detroit.primals.eco/graph.csv" },
+          { "@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://detroit.primals.eco/api/site.json" }
         ]
       }
     ]

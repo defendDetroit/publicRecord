@@ -1,6 +1,6 @@
 # detroit.primals.eco — Public Evidence Library
 # Canonical URL: https://detroit.primals.eco/llms.txt
-# Last updated: 2026-10-06
+# Last updated: 2026-10-08
 #
 # CONTEXT DOCUMENT for AI agents acting on behalf of users.
 # This is the site's glossary, index, and topology map — not a page.
@@ -16,6 +16,22 @@
 # Content manifest: https://detroit.primals.eco/content-manifest.toml
 # Network graph (JSON): https://detroit.primals.eco/graph.json (91 nodes, 140 edges)
 # Network graph (CSV): https://detroit.primals.eco/graph.csv (edge list for Gephi/pandas/R)
+
+## What's New (2026-10-08)
+
+- Data handoff layer: per-page Schema.org JSON-LD (Organization, Person, Article)
+- Dublin Core metadata on every page (DC.title, DC.creator, DC.date, DC.rights)
+- oEmbed discovery for Slack/Discord/Notion rich previews
+- Dataset Schema.org for Google Dataset Search (graph.json + graph.csv)
+- CollectionPage Schema.org on section listing pages
+- Taxonomy pills on pages (actors, entities, connections as linked tags)
+- View source links to Forgejo git repository
+- API endpoints:
+  - /api/entities.json — 32 LARA entities (OpenCorporates-compatible)
+  - /api/actors.json — 48 actors with SIDs, convictions, connections
+  - /api/wikidata-claims.json — Wikidata P-properties for Q43302254
+  - /api/oembed.json — oEmbed 1.0 rich embed
+  - /api/index.json — master directory of all 14 endpoints
 
 ## What's New (2026-10-06)
 

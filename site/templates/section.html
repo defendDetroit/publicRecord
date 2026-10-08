@@ -38,6 +38,18 @@
     <h1>{{ section.title }}</h1>
   </header>
 
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "{{ section.title }}",
+    "description": "{{ section.description | default(value=config.description) }}",
+    "url": "{{ section.permalink | safe }}",
+    "numberOfItems": {{ section.pages | length }},
+    "isPartOf": { "@type": "WebSite", "name": "{{ config.title }}", "url": "{{ config.base_url | safe }}" }
+  }
+  </script>
+
   {% if section.content %}
   <div class="section-content">
     {{ section.content | safe }}
