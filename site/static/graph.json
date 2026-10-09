@@ -2262,6 +2262,159 @@
       "viz_type": "family",
       "flow": "influence",
       "label": "Stallworth dynasty"
+    },
+    {
+      "id": "jennifer_crump",
+      "label": "Jennifer Crump",
+      "type": "actor",
+      "tier": 4,
+      "role": "MacDowell Office Manager"
+    },
+    {
+      "id": "jason_perry_pca",
+      "label": "Jason Perry",
+      "type": "actor",
+      "tier": 4,
+      "role": "PCA Staff (ghost node)"
+    },
+    {
+      "id": "beasley",
+      "label": "Dr. Chalena Beasley",
+      "type": "actor",
+      "tier": 3,
+      "role": "PCA School Leader"
+    },
+    {
+      "id": "cameron_coleman",
+      "label": "Cameron Coleman",
+      "type": "actor",
+      "tier": 4,
+      "role": "MacDowell Dean of Scholars"
+    },
+    {
+      "id": "chalcee_norwood",
+      "label": "Chalcee Norwood",
+      "type": "actor",
+      "tier": 4,
+      "role": "MacDowell Dean of Ops + Teacher"
+    },
+    {
+      "source": "jennifer_crump",
+      "target": "macdowell",
+      "type": "employment",
+      "epistemic_status": "record",
+      "role": "Office Manager",
+      "weight": 7,
+      "viz_type": "controls",
+      "flow": "position",
+      "label": "Office Manager",
+      "source_doc": "macdowellprep.com/about/"
+    },
+    {
+      "source": "jennifer_crump",
+      "target": "dpscd",
+      "type": "employment",
+      "epistemic_status": "record",
+      "role": "Instructional Specialist (33yr)",
+      "weight": 8,
+      "viz_type": "institutional",
+      "flow": "position",
+      "label": "Instructional Specialist 33yr — authorization membrane breach",
+      "source_doc": "LinkedIn"
+    },
+    {
+      "source": "jennifer_crump",
+      "target": "crump_gibson",
+      "type": "family",
+      "epistemic_status": "inference",
+      "note": "Shared surname Crump — dynasty signal unconfirmed",
+      "weight": 3,
+      "viz_type": "family",
+      "flow": "influence",
+      "label": "Crump surname — unconfirmed family tie"
+    },
+    {
+      "source": "jennifer_crump",
+      "target": "v_hall",
+      "type": "family",
+      "epistemic_status": "inference",
+      "note": "Shared surname Crump — dynasty signal unconfirmed",
+      "weight": 3,
+      "viz_type": "family",
+      "flow": "influence",
+      "label": "Crump surname — unconfirmed family tie"
+    },
+    {
+      "source": "jason_perry_pca",
+      "target": "pca",
+      "type": "employment",
+      "epistemic_status": "field_report",
+      "role": "Unverified role — ghost node",
+      "weight": 5,
+      "viz_type": "associate",
+      "flow": "position",
+      "label": "ghost node — convergence = 0",
+      "source_doc": "Parent field report Oct 9, 2026"
+    },
+    {
+      "source": "beasley",
+      "target": "pca",
+      "type": "employment",
+      "epistemic_status": "record",
+      "role": "Founding School Leader",
+      "weight": 9,
+      "viz_type": "controls",
+      "flow": "position",
+      "label": "Founding School Leader — legitimacy transfer",
+      "source_doc": "purposecharteracademy.com"
+    },
+    {
+      "source": "beasley",
+      "target": "dpscd",
+      "type": "employment",
+      "epistemic_status": "record",
+      "role": "Principal, Bunche Prep (29yr, retired 2025)",
+      "weight": 8,
+      "viz_type": "institutional",
+      "flow": "position",
+      "label": "29yr DPSCD veteran — recruited to Banks enterprise",
+      "source_doc": "LinkedIn"
+    },
+    {
+      "source": "cameron_coleman",
+      "target": "macdowell",
+      "type": "employment",
+      "epistemic_status": "record",
+      "role": "Dean of Scholars + Culture",
+      "weight": 7,
+      "viz_type": "controls",
+      "flow": "position",
+      "label": "Dean of Scholars — cert expired 6/30/2026",
+      "source_doc": "macdowellprep.com/about/"
+    },
+    {
+      "source": "cameron_coleman",
+      "target": "dpscd",
+      "type": "employment",
+      "epistemic_status": "record",
+      "role": "Dean of Culture (since Nov 2021)",
+      "weight": 8,
+      "viz_type": "institutional",
+      "flow": "position",
+      "label": "DPSCD employee — authorization membrane breach",
+      "source_doc": "LinkedIn"
+    },
+    {
+      "source": "chalcee_norwood",
+      "target": "macdowell",
+      "type": "employment",
+      "epistemic_status": "record",
+      "role": "Dean of Operations + 8th Grade Teacher",
+      "weight": 7,
+      "viz_type": "controls",
+      "flow": "position",
+      "label": "Dean + Teacher — zero MOECS credentials, tourism degree",
+      "source_doc": "macdowellprep.com/about/"
     }
   ],
   "epistemic_grammar": {

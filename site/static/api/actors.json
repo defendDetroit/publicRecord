@@ -1,7 +1,7 @@
 {
   "schema": "ecoPrimals/detroit-actors/v1",
   "description": "Key actors in the Detroit charter school investigation \u2014 convicted felons, judges, political operatives.",
-  "count": 52,
+  "count": 57,
   "actors": [
     {
       "id": "banks",
@@ -664,6 +664,86 @@
         "political"
       ],
       "detail": "DPSCD Board President. Authorized PCA + MacDowell charters. Disqualified 2026 ($950 Wayne Co)."
+    },
+    {
+      "id": "jennifer_crump",
+      "name": "Jennifer Crump",
+      "short_name": "J. Crump",
+      "role": "MacDowell Office Manager",
+      "tier": 4,
+      "nexus": [
+        "education"
+      ],
+      "detail": "Office Manager, MacDowell. DPSCD Instructional Specialist since 1992 (33yr). Crump surname — dynasty signal unconfirmed.",
+      "decomposition": {
+        "point": "MacDowell staff + DPSCD 33yr employee",
+        "wave": "Authorization breach: authorizer staff at authorized school. Dynasty?: Crump surname.",
+        "reaction": "Controls daily operations. Sits on both sides of the authorization membrane."
+      }
+    },
+    {
+      "id": "jason_perry_pca",
+      "name": "Jason Perry",
+      "short_name": "J. Perry",
+      "role": "PCA Staff (unverified role)",
+      "tier": 4,
+      "nexus": [
+        "education"
+      ],
+      "detail": "Reported by parent at PCA. Blocking parental access. Zero OSINT return. Ghost node — convergence = 0.",
+      "decomposition": {
+        "point": "UNDEFINED — not in any database",
+        "wave": "UNDETECTABLE — no cross-reference possible",
+        "reaction": "OBSERVED — physically blocking parent with custody order"
+      }
+    },
+    {
+      "id": "beasley",
+      "name": "Dr. Chalena Beasley",
+      "short_name": "Beasley",
+      "role": "PCA School Leader",
+      "tier": 3,
+      "nexus": [
+        "education"
+      ],
+      "detail": "Founding School Leader, PCA. PhD Wayne State. 29yr DPSCD veteran. Principal at Bunche Prep (DPSCD). National Board Certified. Most credentialed person in enterprise.",
+      "decomposition": {
+        "point": "PhD + NBCT + 29yr DPSCD career",
+        "wave": "Legitimacy transfer: DPSCD career provides credibility cover for credentialless enterprise",
+        "reaction": "Recruited from retirement. Her credentials mask the credential void beneath."
+      }
+    },
+    {
+      "id": "cameron_coleman",
+      "name": "Cameron Coleman",
+      "short_name": "Coleman",
+      "role": "Dean of Scholars + Culture, MacDowell",
+      "tier": 4,
+      "nexus": [
+        "education"
+      ],
+      "detail": "LinkedIn lists employer as DPSCD (Dean of Culture since Nov 2021). Also Dean at MacDowell. Teaching cert expired 6/30/2026. No admin cert.",
+      "decomposition": {
+        "point": "DPSCD employee + MacDowell Dean",
+        "wave": "Institutional capture: authorizer staff at authorized school",
+        "reaction": "Dual employment across authorization membrane. Expired credential."
+      }
+    },
+    {
+      "id": "chalcee_norwood",
+      "name": "Chalcee Norwood",
+      "short_name": "Norwood",
+      "role": "Dean of Operations + 8th Grade Teacher, MacDowell",
+      "tier": 4,
+      "nexus": [
+        "education"
+      ],
+      "detail": "BS Tourism/Event Planning, Bowling Green. NOT in MOECS (91 Norwood results, zero match). LinkedIn says Cornerstone Education Group. Event planning LLC on side.",
+      "decomposition": {
+        "point": "Zero discoverable credentials. Tourism degree.",
+        "wave": "Credential void: teaching + managing school without state credentials",
+        "reaction": "90.9% disadvantaged students under uncredentialed leadership"
+      }
     }
   ]
 }

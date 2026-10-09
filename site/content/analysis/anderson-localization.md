@@ -155,6 +155,7 @@ Option 3 is the Anderson localization equivalent of **increasing dimensionality*
 <li><a href="/analysis/funding-flow/">💰 Money</a> — Campaign payments from Banks Strategy LLC flow through the same judges who sit on these benches</li>
 <li><a href="/analysis/rico-pattern/">⚖️ Legal</a> — Judicial connections form predicate acts 3 in the RICO pattern</li>
 <li><a href="/analysis/institutional-capture-graph/">🏛️ Capture</a> — Judges are nexus nodes in the 4-type institutional capture graph</li>
+<li><a href="/analysis/anderson-permeability/">🧫 Anderson Permeability</a> — Companion analysis: 6 institutional membranes measured. Localization traps the output (cases). Permeability removes the input filters (hiring, authorization, oversight).</li>
 </ul>
 </aside>
 
