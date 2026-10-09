@@ -1,7 +1,7 @@
 {
   "schema": "ecoPrimals/detroit-actors/v1",
   "description": "Key actors in the Detroit charter school investigation \u2014 convicted felons, judges, political operatives.",
-  "count": 48,
+  "count": 52,
   "actors": [
     {
       "id": "banks",
@@ -444,25 +444,101 @@
     },
     {
       "id": "crump_gibson",
-      "name": "Crump-Gibson",
+      "name": "Jehan Crump-Gibson",
       "short_name": "Crump-Gibson",
-      "role": "Attorney",
+      "role": "Attorney — Banks defense + ADB Panelist",
       "tier": 2,
       "nexus": [
-        "education"
+        "education",
+        "political"
       ],
-      "detail": "Great Lakes Legal Group. MI Attorney Discipline Board panelist. MSU. Possible Crump family."
+      "detail": "GLLG Managing Partner. ADB Hearing Panelist (May 2017). CitizenDetroit Chair. Worked for Sheila Cockrel (2007-09). Gary Peters Judicial Advisory. Scope-limited within 24 hours. Believed aligned until evidence indicates otherwise.",
+      "decomposition": {
+        "point": "GLLG Managing Partner + ADB Hearing Panelist + CitizenDetroit Chair",
+        "wave": "Government employment → nonprofit governance → legal representation",
+        "reaction": "Scope limitation within 24 hours — ethical line drawn"
+      }
     },
     {
       "id": "v_hall",
-      "name": "V. Hall",
+      "name": "Verkeydia Hall",
       "short_name": "V. Hall",
-      "role": "Attorney",
+      "role": "Attorney — MacDowell Board + CHOJLF",
       "tier": 2,
       "nexus": [
         "education"
       ],
-      "detail": "Crump Hall of Justice Law Firm. Filed PPO against journalist. Maiden name = Crump."
+      "detail": "Crump Hall of Justice Law Firm. MacDowell Board Director. Filed PPO against journalist. Maiden name = Crump (crumpver@msu.edu). MSU.",
+      "decomposition": {
+        "point": "CHOJLF + MacDowell Board Director",
+        "wave": "Family placement: Crump surname on firm + school board",
+        "reaction": "PPO filed against journalist investigating Banks"
+      }
+    },
+    {
+      "id": "misha_stallworth",
+      "name": "Misha Stallworth West",
+      "short_name": "M. Stallworth",
+      "role": "DPSCD Board + CitizenDetroit Director",
+      "tier": 2,
+      "nexus": [
+        "education",
+        "political"
+      ],
+      "detail": "DPSCD Board member — authorized MacDowell charter. CitizenDetroit Action Group Director. Stallworth dynasty: Keith (fed conviction) → Thomas III (State Rep) → Nicole (MacDowell Board President) → Misha (DPSCD Board, charter authorizer).",
+      "decomposition": {
+        "point": "DPSCD Board + CitizenDetroit Director",
+        "wave": "Dynasty authorization: family installs, she authorizes",
+        "reaction": "Charter granted to operator with 9 convictions"
+      }
+    },
+    {
+      "id": "henri_harmon",
+      "name": "Henri O. Harmon",
+      "short_name": "Harmon",
+      "role": "GLLG Partner — MSU Law BLSA President",
+      "tier": 3,
+      "nexus": [
+        "education"
+      ],
+      "detail": "GLLG Partner. MSU Law 2006 cum laude. BLSA President + Wolverine Student Bar President (2005-06). Banks claims MSU Law JD ~2010 cohort — same institutional memory.",
+      "decomposition": {
+        "point": "GLLG Partner + MSU Law BLSA '06",
+        "wave": "Institutional memory: BLSA network at Banks' claimed law school",
+        "reaction": "Retained as partner at firm defending Banks"
+      }
+    },
+    {
+      "id": "sheila_cockrel",
+      "name": "Sheila Cockrel",
+      "short_name": "Cockrel",
+      "role": "CitizenDetroit CEO — former Council",
+      "tier": 3,
+      "nexus": [
+        "political"
+      ],
+      "detail": "CitizenDetroit Action Group CEO. Former Detroit City Council member. Employed Crump-Gibson as Legislative Assistant (2007-09). Entity connects attorney to charter authorizer.",
+      "decomposition": {
+        "point": "CitizenDetroit CEO + former City Council",
+        "wave": "Employment pipeline: hired Jehan → leads board with both Jehan and Misha",
+        "reaction": "Entity connects attorney to authorizer"
+      }
+    },
+    {
+      "id": "archer_jr",
+      "name": "Dennis Archer Jr.",
+      "short_name": "Archer Jr.",
+      "role": "CitizenDetroit Director — dynasty",
+      "tier": 4,
+      "nexus": [
+        "political"
+      ],
+      "detail": "CitizenDetroit Action Group Director. Son of former Mayor Dennis Archer. Dynastic political infrastructure.",
+      "decomposition": {
+        "point": "CitizenDetroit Director",
+        "wave": "Mayoral dynasty: father was Mayor 1994-2001",
+        "reaction": "Board membership connects mayoral dynasty to charter network"
+      }
     },
     {
       "id": "hutchings",

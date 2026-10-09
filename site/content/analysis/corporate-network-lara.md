@@ -337,4 +337,11 @@ This is not a dossier. It is an index of public records with analysis of what th
 
 ---
 
-*All data sourced from Michigan Department of Licensing and Regulatory Affairs (LARA) public business entity filings. Entity IDs provided for independent verification. Analysis reflects patterns observable in public records as of October 4, 2026.*
+## Related
+
+- **[Data Braid — GLLG Entity Graph](/evidence/data-braid-gllg/)** — Six independent database searches converge on one social graph. The braid method.
+- **[Institutional Capture Graph](/analysis/institutional-capture-graph/)** — Full network visualization with 98 nodes and 160 edges.
+
+---
+
+*All data sourced from Michigan Department of Licensing and Regulatory Affairs (LARA) public business entity filings, ProPublica Nonprofit Explorer (IRS 990 filings), school board websites, and State Bar / LinkedIn records. Entity IDs and EINs provided for independent verification. Analysis reflects patterns observable in public records as of October 9, 2026.*

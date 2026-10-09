@@ -1,6 +1,6 @@
 {
-  "_generated": "2026-10-05T10:41:45Z",
-  "_source": "Built by detroit-build from config.toml + data/edges.toml",
+  "_generated": "2026-10-09T17:30:00Z",
+  "_source": "Built by detroit-build from config.toml + data/edges.toml + GLLG OSINT Oct 9",
   "nodes": [
     {
       "id": "adam_sabree",
@@ -76,10 +76,38 @@
     },
     {
       "id": "crump_gibson",
-      "label": "Crump-Gibson",
+      "label": "Jehan Crump-Gibson",
       "type": "actor",
       "tier": 2,
-      "role": "Attorney"
+      "role": "Attorney — Banks defense + ADB Panelist"
+    },
+    {
+      "id": "misha_stallworth",
+      "label": "Misha Stallworth West",
+      "type": "actor",
+      "tier": 2,
+      "role": "DPSCD Board + CitizenDetroit Director"
+    },
+    {
+      "id": "henri_harmon",
+      "label": "Henri O. Harmon",
+      "type": "actor",
+      "tier": 3,
+      "role": "GLLG Partner — MSU Law BLSA President"
+    },
+    {
+      "id": "sheila_cockrel",
+      "label": "Sheila Cockrel",
+      "type": "actor",
+      "tier": 3,
+      "role": "CitizenDetroit CEO — former Council"
+    },
+    {
+      "id": "archer_jr",
+      "label": "Dennis Archer Jr.",
+      "type": "actor",
+      "tier": 4,
+      "role": "CitizenDetroit Director — dynasty"
     },
     {
       "id": "daniels",
@@ -442,10 +470,23 @@
     },
     {
       "id": "great_lakes_legal",
-      "label": "Great Lakes Legal Group",
+      "label": "Great Lakes Legal Group PLLC",
       "type": "entity",
       "entity_type": "Law firm",
       "lara_id": "802112914"
+    },
+    {
+      "id": "citizendetroit",
+      "label": "CitizenDetroit Action Group",
+      "type": "entity",
+      "entity_type": "501(c)(3) nonprofit",
+      "ein": "82-2361291"
+    },
+    {
+      "id": "chojlf",
+      "label": "Crump Hall of Justice Law Firm",
+      "type": "entity",
+      "entity_type": "Law firm"
     },
     {
       "id": "gvsu",
@@ -2046,6 +2087,181 @@
       "viz_type": "institutional",
       "flow": "power",
       "label": "DPSCD Board Pres — authorized charter"
+    },
+    {
+      "source": "crump_gibson",
+      "target": "citizendetroit",
+      "type": "board_membership",
+      "epistemic_status": "record",
+      "role": "Vice Chair / Chair",
+      "weight": 8,
+      "viz_type": "controls",
+      "flow": "position",
+      "label": "Vice Chair / Chair",
+      "source_doc": "ProPublica 990, EIN 82-2361291"
+    },
+    {
+      "source": "misha_stallworth",
+      "target": "citizendetroit",
+      "type": "board_membership",
+      "epistemic_status": "record",
+      "role": "Director",
+      "weight": 8,
+      "viz_type": "controls",
+      "flow": "position",
+      "label": "Director",
+      "source_doc": "ProPublica 990, EIN 82-2361291"
+    },
+    {
+      "source": "sheila_cockrel",
+      "target": "citizendetroit",
+      "type": "governance",
+      "epistemic_status": "record",
+      "role": "CEO",
+      "weight": 9,
+      "viz_type": "controls",
+      "flow": "power",
+      "label": "CEO",
+      "source_doc": "ProPublica 990, EIN 82-2361291"
+    },
+    {
+      "source": "archer_jr",
+      "target": "citizendetroit",
+      "type": "board_membership",
+      "epistemic_status": "record",
+      "role": "Director",
+      "weight": 6,
+      "viz_type": "controls",
+      "flow": "position",
+      "label": "Director (mayor dynasty)",
+      "source_doc": "ProPublica 990, EIN 82-2361291"
+    },
+    {
+      "source": "archer_jr",
+      "target": "archer",
+      "type": "family",
+      "epistemic_status": "record",
+      "role": "Son",
+      "weight": 10,
+      "viz_type": "family",
+      "flow": "influence",
+      "label": "son of Mayor Archer"
+    },
+    {
+      "source": "sheila_cockrel",
+      "target": "crump_gibson",
+      "type": "employment",
+      "epistemic_status": "record",
+      "note": "Employed Crump-Gibson as Legislative Asst / Policy Analyst (2007-09)",
+      "weight": 7,
+      "viz_type": "associate",
+      "flow": "influence",
+      "label": "employed as Legislative Asst (2007-09)",
+      "source_doc": "LinkedIn"
+    },
+    {
+      "source": "misha_stallworth",
+      "target": "dpscd",
+      "type": "board_membership",
+      "epistemic_status": "record",
+      "role": "Board member — authorized charters",
+      "weight": 8,
+      "viz_type": "controls",
+      "flow": "power",
+      "label": "board member — authorized MacDowell charter"
+    },
+    {
+      "source": "misha_stallworth",
+      "target": "wells_stallworth",
+      "type": "family",
+      "epistemic_status": "inference",
+      "note": "Stallworth dynasty — family connection",
+      "weight": 7,
+      "viz_type": "family",
+      "flow": "influence",
+      "label": "Stallworth dynasty"
+    },
+    {
+      "source": "henri_harmon",
+      "target": "great_lakes_legal",
+      "type": "ownership",
+      "epistemic_status": "record",
+      "role": "Partner",
+      "weight": 7,
+      "viz_type": "controls",
+      "flow": "position",
+      "label": "Partner",
+      "source_doc": "gllegalgroup.com"
+    },
+    {
+      "source": "v_hall",
+      "target": "chojlf",
+      "type": "ownership",
+      "epistemic_status": "record",
+      "role": "Principal",
+      "weight": 7,
+      "viz_type": "controls",
+      "flow": "power",
+      "label": "principal (Crump maiden name)",
+      "source_doc": "LARA"
+    },
+    {
+      "source": "v_hall",
+      "target": "macdowell",
+      "type": "board_membership",
+      "epistemic_status": "record",
+      "role": "Board Director",
+      "weight": 7,
+      "viz_type": "controls",
+      "flow": "position",
+      "label": "Board Director",
+      "source_doc": "macdowellprep.com/board-of-directors/"
+    },
+    {
+      "source": "misha_stallworth",
+      "target": "macdowell",
+      "type": "authorization",
+      "epistemic_status": "record",
+      "note": "DPSCD Board — authorized charter while family member presides over MacDowell board",
+      "weight": 8,
+      "viz_type": "institutional",
+      "flow": "power",
+      "label": "authorized charter (family member on board)"
+    },
+    {
+      "source": "crump_gibson",
+      "target": "misha_stallworth",
+      "type": "board_co_membership",
+      "epistemic_status": "record",
+      "note": "Both on CitizenDetroit board — defense attorney + charter authorizer",
+      "weight": 9,
+      "viz_type": "associate",
+      "flow": "influence",
+      "label": "CitizenDetroit board overlap — defense attorney + charter authorizer",
+      "source_doc": "ProPublica 990, EIN 82-2361291"
+    },
+    {
+      "source": "henri_harmon",
+      "target": "banks",
+      "type": "institutional_memory",
+      "epistemic_status": "inference",
+      "note": "BLSA President at MSU Law (2006) — Banks claims MSU Law JD (~2010). Same school, overlapping institutional network.",
+      "weight": 5,
+      "viz_type": "associate",
+      "flow": "influence",
+      "label": "MSU Law BLSA network — same school Banks claims",
+      "source_doc": "gllegalgroup.com, lawyer.com"
+    },
+    {
+      "source": "stallworth_t",
+      "target": "misha_stallworth",
+      "type": "family",
+      "epistemic_status": "inference",
+      "note": "Stallworth dynasty connection",
+      "weight": 7,
+      "viz_type": "family",
+      "flow": "influence",
+      "label": "Stallworth dynasty"
     }
   ],
   "epistemic_grammar": {

@@ -2,7 +2,7 @@
   "schema": "ecoPrimals/detroit-entities/v1",
   "description": "LARA-registered entities in the Banks network. OpenCorporates-compatible structure.",
   "source": "Michigan LARA MiBusiness Registry Portal",
-  "count": 32,
+  "count": 34,
   "entities": [
     {
       "id": "pca",
@@ -214,11 +214,43 @@
     },
     {
       "id": "great_lakes_legal",
-      "name": "Great Lakes Legal Group",
-      "short_name": "Great Lakes Legal",
+      "name": "Great Lakes Legal Group PLLC",
+      "short_name": "GLLG",
       "type": "Law firm",
       "lara_id": "802112914",
-      "detail": "Crump-Gibson's firm. LARA 802112914. Discipline Board panelist = Banks attorney.",
+      "detail": "Crump-Gibson (agent), Alcendor, Harmon. LARA 802112914. ADB panelist = Banks attorney. One Towne Square, Suite 1835, Southfield MI.",
+      "nexus": [
+        "education"
+      ],
+      "decomposition": {
+        "point": "LARA 802112914, filed 08/29/2017",
+        "wave": "Legal representation pipeline: ADB panelist → defense counsel → Crump family name on school board",
+        "reaction": "Scope limitation within 24 hours of engagement"
+      }
+    },
+    {
+      "id": "citizendetroit",
+      "name": "CitizenDetroit Action Group",
+      "short_name": "CitizenDetroit",
+      "type": "501(c)(3) nonprofit",
+      "ein": "82-2361291",
+      "detail": "EIN 82-2361291. 'Empowers Detroiters to be critically engaged in civic life.' Board connects defense attorney (Crump-Gibson) to charter authorizer (Misha Stallworth) under CEO who employed the attorney in government (Cockrel). Also: Archer Jr. (mayor dynasty).",
+      "nexus": [
+        "political",
+        "education"
+      ],
+      "decomposition": {
+        "point": "EIN 82-2361291, ProPublica 990",
+        "wave": "Board convergence: attorney + authorizer + former employer + mayoral dynasty",
+        "reaction": "Professional network overlap between Banks' defense and Banks' charter authorization"
+      }
+    },
+    {
+      "id": "chojlf",
+      "name": "Crump Hall of Justice Law Firm",
+      "short_name": "CHOJLF",
+      "type": "Law firm",
+      "detail": "Verkeydia Hall's firm. Crump maiden name on the door. Filed PPO against journalist. Also represents Banks.",
       "nexus": [
         "education"
       ]
