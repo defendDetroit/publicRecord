@@ -167,20 +167,28 @@ Key content:
 
 Prior to October 2, response times were approximately 20 minutes. After receiving documented evidence of Banks's criminal history, federal referrals, board overlap, and Plaintiff's scientific methodology, response times became infinite.
 
-The silence speaks.
-
 ---
 
-## What the Correspondence Proves
+## What the Correspondence Shows
 
 1. **GLLG has documented notice** of every factual allegation in the civil complaints, established by email with timestamps
-2. **GLLG chose to limit scope** within 24 hours (the October 1 disclaimer)
+2. **GLLG chose to limit scope** within 24 hours (the October 1 disclaimer) — an attorney drawing an ethical line in writing
 3. **GLLG received and did not respond to** evidence of federal referrals, board overlap, and the RICO pattern
-4. **The shift from rapid response to silence** correlates precisely with the volume and nature of evidence Kevin provided
-5. **Every document Kevin referenced** is independently verifiable using free or low-cost public databases (ICHAT $10, State Bar free, PACER $0.10/page, LARA free)
+4. **The shift from rapid response to silence** correlates precisely with the volume and nature of evidence provided
+5. **Every document referenced** is independently verifiable using free or low-cost public databases (ICHAT $10, State Bar free, PACER $0.10/page, LARA free)
 
-Whether GLLG verified the allegations or not, the correspondence chain establishes that they had the information, the means to verify it, and the professional obligation to investigate.
+## The Ethical Pressure Point
+
+An attorney retained by a client who may not have provided full disclosure faces a collision between three duties: duty to the client, duty to the court, and duty to their own ethical standing. GLLG's managing partner serves as a **Hearing Panelist on the Michigan Attorney Discipline Board** — the very body that processes attorney misconduct complaints. The professional stakes of this collision are not abstract.
+
+The scope limitation — declining law enforcement and PPO matters within 24 hours — is not silence. It is a written record of an attorney seeing what is in front of them and choosing where to stand.
+
+What happened to any attorney placed in this position — retained without full disclosure of the client's background — is not acceptable. The responsibility for that disclosure failure lies with the client, not the attorney.
+
+**Each person at GLLG can choose which side of the demarcation they are on.** As of this writing, the evidence suggests that choice is being made carefully.
+
+**GLLG and Jehan Crump-Gibson are believed aligned until evidence indicates otherwise.**
 
 ---
 
-*All emails preserved with full headers. Any response from GLLG or any counsel will be published here in full.*
+*All emails preserved with full headers. Any response from GLLG or any counsel will be published here with the same principle applied: facts recorded, context provided, presumption of good faith until evidence requires otherwise.*

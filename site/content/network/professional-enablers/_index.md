@@ -18,9 +18,13 @@ keywords = "Detroit charter school enablers, professional enablers, attorneys ch
 
 ### Jehan Crump-Gibson, Esq.
 
-Signed Purpose Foundation Articles of Incorporation as "Attorney In Fact" — vouching for Banks' authority to form a 501(c)(3) nonprofit. As of Sep 30, 2026: **retained as Banks' defense attorney** (Great Lakes Legal Group, Southfield). Filed C(7)/C(8) motions to dismiss — mooted within 5 hours by tightened complaint.
+Managing partner, Great Lakes Legal Group PLLC (Southfield). Michigan Attorney Discipline Board Hearing Panelist. Past President, Wolverine Bar Association (2016-17). Signed Purpose Foundation Articles of Incorporation as "Attorney In Fact." As of Sep 30, 2026: retained as Banks' defense attorney. Filed C(7)/C(8) motions to dismiss — mooted within 5 hours by tightened complaint.
 
-**Question:** Did she verify Banks' criminal record before filing? Did she know Holland (co-felon) would hold both Secretary and Treasurer positions?
+**Within 24 hours of entering the case**, Crump-Gibson voluntarily limited scope in writing: *"I am NOT retained in connection with any law enforcement matters or police reports/PPO proceedings."* That disclaimer is a written record of an attorney drawing an ethical line. She saw something and chose not to stand in front of it.
+
+**The ethical pressure point:** An attorney retained by a client who may not have provided full disclosure faces a collision between duty to client, duty to the court, and personal ethical survival. This is not a comfortable position. What happened to any attorney placed in this situation — retained without informed consent about the client's full background — is not acceptable. Each person at GLLG can choose which side of the demarcation they are on. As of this writing, the scope limitation suggests the choice is being made carefully.
+
+**Believed aligned until evidence indicates otherwise.**
 
 ### Gary E. Perlmuter, Esq.
 
