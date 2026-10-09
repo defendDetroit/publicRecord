@@ -29,11 +29,62 @@ Replace *lattice sites* with **court divisions**. Replace *electrons* with **cas
 ## The Lattice
 
 <script src="/js/network-data.js"></script>
-<div id="lattice-graph" style="margin: 2rem 0;"></div>
-<script src="/js/lattice-graph.js"></script>
+<script src="/js/pt-bridge-core.js"></script>
+
+<div id="pt-panels" style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:2rem 0;"></div>
+<div id="pt-status" style="text-align:center;font-size:0.8rem;margin:0.5rem 0;"></div>
+
+<div id="pt-lattice" style="margin: 1rem 0;"></div>
+<div id="pt-localization" style="margin: 1rem 0;"></div>
+<div id="pt-court-capture" style="margin: 1rem 0;"></div>
+<div id="pt-bench-capture" style="margin: 1rem 0;"></div>
+
+<script>
+(function() {
+  var pt = PetalBridge({ wsUrl: 'wss://hud.primals.eco/ws', domain: 'detroit', statusEl: 'pt-status', maxHeight: 300 });
+  pt.connect();
+  function render() {
+    if (!pt.isConnected() || !window.DETROIT_NETWORK) return;
+    var net = window.DETROIT_NETWORK;
+    var data = net.graphData();
+    var benches = data.benches || [];
+    var latticePaths = data.latticePaths || {};
+    if (benches.length === 0) return;
+    var activeBenches = benches.filter(function(b) { return !b.retired; });
+    var courtIds = [];
+    activeBenches.forEach(function(b) { if (courtIds.indexOf(b.court) < 0) courtIds.push(b.court); });
+    var caseTypes = Object.keys(latticePaths).sort(function(a, b) {
+      var la = latticePaths[a].localizationLength, lb = latticePaths[b].localizationLength;
+      return (la === Infinity ? 99 : la) - (lb === Infinity ? 99 : lb);
+    });
+    var courtLabels = courtIds.map(function(c) { return c.replace('court_', '').replace(/_/g, ' '); });
+    var vals = [];
+    courtIds.forEach(function(court) {
+      caseTypes.forEach(function(ct) {
+        var bench = activeBenches.find(function(b) { return b.court === court; });
+        var cRatio = bench ? (bench.captured / bench.total * 100) : 0;
+        var path = latticePaths[ct];
+        vals.push(path && path.courts && path.courts.indexOf(court) >= 0 ? Math.round(cRatio) : 0);
+      });
+    });
+    pt.renderBinding({ channel_type: 'heatmap', id: 'lattice', label: 'Anderson Lattice — Courts × Case Types (Capture %)', x_labels: caseTypes, y_labels: courtLabels, values: vals, unit: '% captured' }, 'pt-lattice');
+    var llLabels = [], llVals = [];
+    caseTypes.forEach(function(ct) { llLabels.push(ct); var ll = latticePaths[ct].localizationLength; llVals.push(ll === Infinity ? 10 : Math.round(ll * 10) / 10); });
+    pt.renderBinding({ channel_type: 'bar', id: 'localization-length', label: 'Localization Length ξ — How Far Cases Travel Before Capture', categories: llLabels, values: llVals, unit: 'hops' }, 'pt-localization');
+    var totalJ = 0, capturedJ = 0;
+    benches.forEach(function(b) { totalJ += b.total || 0; capturedJ += b.captured || 0; });
+    pt.renderBinding({ channel_type: 'gauge', id: 'bench-capture', label: 'Total Bench Capture — Anderson Disorder', value: Math.round(capturedJ / totalJ * 1000) / 10, min: 0, max: 100, unit: '%', normal_range: [0, 15], warning_range: [15, 35] }, 'pt-bench-capture');
+    var courtGauges = [];
+    activeBenches.forEach(function(b) { courtGauges.push({ key: b.court.replace('court_', '').replace(/_/g, ' '), value: Math.round(b.captured / b.total * 100), min: 0, max: 100, normal_range: [0, 20], warning_range: [50, 100] }); });
+    pt.renderBinding({ channel_type: 'faceted_gauge', id: 'court-capture', label: 'Per-Court Capture Ratio', group_by: 'court', gauges: courtGauges, unit: '% captured', columns: 3 }, 'pt-court-capture');
+  }
+  setTimeout(render, 2000);
+  setInterval(function() { if (pt.isConnected()) render(); }, 60000);
+})();
+</script>
 
 <p style="text-align:center;font-size:0.85rem;opacity:0.6;margin-top:-0.5rem;">
-Hover any cell to see bench details. Rows = court divisions. Columns = case types, sorted by localization length (shortest = most captured).
+Rendered by petalTongue — heatmap, bar chart, and faceted gauges via the grammar-of-graphics scene compiler.
 </p>
 
 ---

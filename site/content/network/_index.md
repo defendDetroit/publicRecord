@@ -20,8 +20,8 @@ Hover any node to trace connections. Click to navigate to that person's page. To
 <a href="/analysis/institutional-capture-graph/">Full analysis with four-nexus breakdown →</a>
 </p>
 
-<div id="geo-extraction-map" style="margin: 2rem 0;"></div>
-<script src="/js/geo-extraction.js"></script>
+<!-- geo-extraction.js removed Wave 171 — redundant with petalTongue geo flow heatmap in detroit-pt.js panels below -->
+<div id="pt-geo-flow" style="margin: 2rem 0;"></div>
 
 ---
 
