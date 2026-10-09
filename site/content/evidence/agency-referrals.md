@@ -125,4 +125,12 @@ The evidence is the same evidence on this website. If an agency wants to verify 
 
 ---
 
+## Related
+
+- **[The Enforcement Ecosystem](https://tuebor.primals.eco/analysis/enforcement-ecosystem/)** — Who has the mandate, the evidence, and the authority — and what did they do with it? Ten oversight bodies mapped.
+- **[Data Braid — GLLG Entity Graph](/evidence/data-braid-gllg/)** — Six independent searches converge: defense attorney + charter authorizer on same nonprofit board
+- **[Institutional Immunity Pattern](https://tuebor.primals.eco/analysis/institutional-immunity/)** — The mathematics of 88.8% dismissal
+
+---
+
 *All referral submissions preserved in the [evidence repository](https://git.primals.eco/publicRecord/detroit).*
