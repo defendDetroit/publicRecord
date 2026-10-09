@@ -242,6 +242,44 @@ Her MSU email is `crumpver@msu.edu`. Crump-Gibson attended MSU for undergrad.
 
 Both **Crump**-Gibson and **Crump** Hall share the surname **Crump**. Both attended **Michigan State University**. Both represent Brian Banks. If they are related, Banks's legal representation has been a family operation.
 
+Hall is also listed as **Board Director of MacDowell Preparatory Academy** on the school's official website (macdowellprep.com/board-of-directors/). Banks' attorney's probable relative sits on the board of Banks' school.
+
+### CitizenDetroit Action Group — The Board Overlap
+
+**EIN 82-2361291** (ProPublica Nonprofit Explorer). CEO: Sheila Cockrel (former Detroit City Council member).
+
+Crump-Gibson served as Vice Chair, then Chair, of the CitizenDetroit Action Group board. The same board includes **Hon. Misha Stallworth** as a Director.
+
+| Board Member | CitizenDetroit Role | Connection to Banks Network |
+|-------------|--------------------|-----------------------------|
+| **Jehan Crump-Gibson** | Vice Chair / Chair | Banks' defense attorney (GLLG) |
+| **Hon. Misha Stallworth** | Director | **DPSCD Board Member — authorized MacDowell's charter** |
+| Dennis Archer Jr | Director | Son of former Mayor Dennis Archer |
+| Sheila Cockrel | CEO | Former City Council member — Crump-Gibson worked in her office (2007-2009) |
+
+*Source: ProPublica Nonprofit Explorer, IRS Form 990 filings for EIN 82-2361291*
+
+**The Stallworth dynasty** (all public record, documented on this site):
+
+```
+Keith "K.B." Stallworth
+  Federal money laundering conviction (2003)
+  → Brother: Thomas Stallworth III (former State Rep)
+      → Married: Nicole Wells-Stallworth
+          MacDowell Board President — hired Banks
+      → Daughter: Misha Stallworth West
+          DPSCD Board — authorized Banks' charter
+          CitizenDetroit Director — same board as Banks' attorney
+```
+
+These problems originate in dynasties, move through entities, and land on humans. The board overlap does not imply that Crump-Gibson knew about the Stallworth family's role in installing Banks. It means the **social graph through which Banks finds legal representation is the same social graph through which charter school authorization flows.**
+
+Correlation does not imply causation. But causation can be masked — and hidden — by correlation.
+
+Within 24 hours of entering Banks' case, Crump-Gibson voluntarily limited her scope in writing, declining law enforcement and PPO matters. That is a written record of an attorney drawing an ethical line. The [correspondence timeline](/evidence/correspondence/) documents the full sequence.
+
+**Each person at GLLG can choose which side of the demarcation they are on. As of this writing, the scope limitation suggests the choice is being made carefully.**
+
 ### WhitlowBanks LLC (LARA 802085022)
 
 Filed 04/20/2017 during Banks's political career. Agent: Tameka Ramsey (Pontiac, MI). The entity name literally combines **"Whitlow"** and **"Banks."** TransparencyUSA records show "Carles Whitlow" received **$8,500** as a payee from Banks's Senate campaign — the 5th largest individual payee.
