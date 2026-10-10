@@ -43,7 +43,7 @@ A scheduler decides which processes run. Renae Moore is Dykema's Senior Complian
 | Save Detroit Jobs / Detroit Leaders | Asst Secretary | Defeated community benefits ordinance; defeated journalist; elected council member |
 | Our Neighborhoods First | Compliance Officer | Promoted Duggan's Prop N; ran attack ads against Duggan's opponent |
 | Detroit Jobs First | Compliance Officer | Defeated community benefits ordinance (Prop A) |
-| RFFW LLC | Treasurer | Passed $1M from one donor to abortion rights ballot campaign |
+| RFFW LLC | Treasurer | Passed {{ fact(registry="entities", key="rffw", field="complaint_amount") }} from one donor to abortion rights ballot campaign |
 | Turn Around Wayne County PAC | Record Keeper | Funneled corporate money to other dark money vehicles |
 | Duggan Campaign | Compliance Officer | Managed compliance for the mayor's campaign |
 
@@ -62,7 +62,7 @@ An OS spawns processes — they look independent but share the same kernel and s
 | Save Detroit Jobs → Detroit Leaders | 2016 | Active (renamed twice) | Defeated community benefits; defeated investigative journalist; elected Latisha Johnson |
 | Our Neighborhoods First | Jul 2020 | Active | Promoted Duggan's $250M bond; attacked Duggan's opponent |
 | Detroit Jobs First | 2016 | Active | Defeated community benefits (Prop A) |
-| RFFW LLC | Jul 2022 | Dissolved | Passed $1M hidden donation; forced to disclose after complaint |
+| RFFW LLC | Jul 2022 | Dissolved | Passed {{ fact(registry="entities", key="rffw", field="complaint_amount") }} hidden donation; forced to disclose after complaint |
 
 **The process lifecycle:**
 1. **spawn** — Wilk files paperwork, Moore assigned compliance
@@ -113,7 +113,7 @@ Individual privacy is a right. Entity privacy, when the entity spends $100,000+ 
 
 ## Both Parties Served
 
-Dykema Gossett State PAC total expenditures (2017-present): **$725,017**
+Dykema Gossett State PAC total expenditures (2017-present): **{{ fact(registry="entities", key="dykema_state_pac", field="total_since_2017") }}**
 
 | Recipient | Amount | Party |
 |-----------|--------|-------|
@@ -121,8 +121,8 @@ Dykema Gossett State PAC total expenditures (2017-present): **$725,017**
 | Senate Republican Campaign Committee | $58,750 | R |
 | Michigan House Democratic Fund | $45,000 | D |
 | Michigan Senate Democratic Fund | $44,000 | D |
-| Duggan Campaign | $13,500 | D |
-| Tom Barrett for Congress (Federal PAC) | $4,000 | R |
+| Duggan Campaign | {{ fact(registry="entities", key="dykema_state_pac", field="duggan_amount") }} | D |
+| Tom Barrett for Congress (Federal PAC) | {{ fact(registry="actors", key="barrett", field="dykema_pac_amount") }} | R |
 
 The kernel is apolitical. The kernel serves whoever has root access.
 
@@ -134,11 +134,11 @@ The kernel is apolitical. The kernel serves whoever has root access.
 
 ### Schools
 
-[Purpose Charter Academy](/network/entities/purpose-charter-academy/) students score [3% proficient in math](https://clutchjustice.com/2026/09/13/macdowell-preparatory-academy-academic-financial-record/). The school's management company takes 72.67% of revenue. The dark money vehicle that defended this arrangement — by defeating the journalist investigating it — was incorporated by Dykema, staffed by Dykema, and uses Dykema's phone number.
+[Purpose Charter Academy](/network/entities/purpose-charter-academy/) students score [{{ fact(registry="entities", key="macdowell", field="math_proficiency") }} proficient in math](https://clutchjustice.com/2026/09/13/macdowell-preparatory-academy-academic-financial-record/). The school's management company takes {{ fact(registry="entities", key="macdowell", field="extraction_pct") }} of revenue. The dark money vehicle that defended this arrangement — by defeating the journalist investigating it — was incorporated by Dykema, staffed by Dykema, and uses Dykema's phone number.
 
 ### Democracy
 
-SDJ spent $84,017 to defeat ML Elrick — a Fox 2 investigative reporter who had exposed double-dipping taxpayer salaries by Councilman Benson's staff. In his place: Latisha Johnson, who now sits on the Purpose Charter Academy board.
+SDJ spent {{ fact(registry="entities", key="sdj", field="expenditure") }} to defeat ML Elrick — a Fox 2 investigative reporter who had exposed double-dipping taxpayer salaries by Councilman Benson's staff. In his place: Latisha Johnson, who now sits on the Purpose Charter Academy board.
 
 ### Community Self-Determination
 
@@ -154,7 +154,7 @@ Two Dykema dark money vehicles combined to defeat Proposal A — a grassroots co
 | Moore = Dykema employee | [dykema.com staff listing](https://www.dykema.com/people/) |
 | Domains By Proxy usage | WHOIS lookup on ourneighborhoodsfirst.com |
 | Dykema PAC → both parties | [TransparencyUSA](https://www.transparencyusa.org/mi/committee/dykema-gossett-state-pac-505912-ind?cycle=2017-to-now) |
-| PCA → 3% math | [Clutch Justice](https://clutchjustice.com/2026/09/13/macdowell-preparatory-academy-academic-financial-record/) |
+| PCA → {{ fact(registry="entities", key="macdowell", field="math_proficiency") }} math | [Clutch Justice](https://clutchjustice.com/2026/09/13/macdowell-preparatory-academy-academic-financial-record/) |
 | LARA entities | [MI Business Registry](https://mibusinessregistry.lara.state.mi.us) |
 | RFFW complaint | [michigan.gov/sos](https://www.michigan.gov/sos/-/media/Project/Websites/sos/CFR-Complaints/2023/Meyers-v-RFFW-2.pdf) |
 

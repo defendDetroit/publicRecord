@@ -65,7 +65,7 @@ The pipeline: **BCF board fellowship → family connection → school board appo
 
 A foundation created "to decrease usage of drugs and alcohol among youth" — managed by a man who pleaded guilty to laundering money from illegal activities (DOJ confirmed the money was "obtained through illegal activities" and he helped "a gang" launder it through his strip club).
 
-The same foundation incubated the relationship that put a 9-time convicted felon in charge of educating children in Detroit — where 3% of his students can do math at grade level.
+The same foundation incubated the relationship that put a 9-time convicted felon in charge of educating children in Detroit — where {{ fact(registry="entities", key="macdowell", field="math_proficiency") }} of his students can do math at grade level.
 
 The exploitation of Detroit's most vulnerable communities didn't end with the crack trade. It put on a suit and moved into the school system.
 
@@ -75,9 +75,9 @@ The BCF's institutional armor was racial solidarity. The Black Caucus brand carr
 
 But solidarity has limits. When the foundation board becomes a reunion of felons, when the managing director is a federal money launderer, when the mission statement says "decrease drugs" while the leadership *laundered drug money* — the armor becomes a weapon against the very community it claims to serve.
 
-This is the same pattern documented across the network: Judge [Cylenthia Miller](/network/judges/cylenthia-miller/) and [Aliyah Sabree](/network/judges/aliyah-sabree/) studied together at MSU Law, both from Detroit, both rising Black women in the judiciary. Their solidarity is real. But when it shields a convicted felon running a school at 3% math proficiency from accountability, it stops serving Black children and starts serving Black elites.
+This is the same pattern documented across the network: Judge [Cylenthia Miller](/network/judges/cylenthia-miller/) and [Aliyah Sabree](/network/judges/aliyah-sabree/) studied together at MSU Law, both from Detroit, both rising Black women in the judiciary. Their solidarity is real. But when it shields a convicted felon running a school at {{ fact(registry="entities", key="macdowell", field="math_proficiency") }} math proficiency from accountability, it stops serving Black children and starts serving Black elites.
 
-The children in MacDowell's classrooms are overwhelmingly Black. The 3% math proficiency rate means 97% of them cannot do grade-level math. The racial solidarity that protects this outcome is not solidarity with them. It is solidarity among the adults who benefit from their silence.
+The children in MacDowell's classrooms are overwhelmingly Black. The {{ fact(registry="entities", key="macdowell", field="math_proficiency") }} math proficiency rate means 97% of them cannot do grade-level math. The racial solidarity that protects this outcome is not solidarity with them. It is solidarity among the adults who benefit from their silence.
 
 ## Verify
 

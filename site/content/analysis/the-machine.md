@@ -31,7 +31,7 @@ In the ecoPrimals project — the philosophical and technical framework from whi
 > *"Our ethos is not one of abandonment, but of liberation. We do not walk away. We return to Omelas with tools."*
 > — [The New City](https://sporeprint.primals.eco/philosophy/the-new-city/)
 
-The children in Detroit's charter schools are not a metaphor. They are the child in the basement — kept in a system that produces **3% math proficiency** while extracting **$4.9 million per year** through shell entities. The city's institutions — its schools, courts, churches, treasury, legislature, and banks — are the walls of the basement. This analysis maps those walls.
+The children in Detroit's charter schools are not a metaphor. They are the child in the basement — kept in a system that produces **{{ fact(registry="entities", key="macdowell", field="math_proficiency") }} math proficiency** while extracting **{{ fact(registry="entities", key="macdowell", field="revenue") }}** through shell entities. The city's institutions — its schools, courts, churches, treasury, legislature, and banks — are the walls of the basement. This analysis maps those walls.
 
 This is not the first time the ecoPrimals framework has named this pattern. In [The City of Omelas](https://sporeprint.primals.eco/philosophy/the-city-of-omelas/) — the first chapter of *atlasHugged* — the argument was made in general terms:
 
@@ -57,7 +57,7 @@ The resource changes. The pattern does not. The river keeper becomes the priestl
 
 **In Detroit, the resource is children.**
 
-Per-pupil funding flows from the state to schools based on headcount. The children are the river. Brian Banks built the tollbooth. Purpose Group LLC is the mediation — extracting 72.67% of what flows through. The dependency is maintained because the parents are trapped (Section III below), and the alternatives have been captured (Section I.A below).
+Per-pupil funding flows from the state to schools based on headcount. The children are the river. Brian Banks built the tollbooth. Purpose Group LLC is the mediation — extracting {{ fact(registry="entities", key="macdowell", field="extraction_pct") }} of what flows through. The dependency is maintained because the parents are trapped (Section III below), and the alternatives have been captured (Section I.A below).
 
 Banks did not create the children. He did not create the funding. He did not create the educational need. He positioned himself between the children and the money allocated for their education, and he charges for passage.
 
@@ -69,7 +69,7 @@ The machine works because it controls **every level simultaneously**. No single 
 
 | Level | Captured By | River Keeper Pattern | What It Controls |
 |-------|------------|---------------------|-----------------|
-| **Schools** | Banks (superintendent), Purpose Group LLC | Tollbooth between children and education funding | Per-pupil dollars → 72.67% extraction |
+| **Schools** | Banks (superintendent), Purpose Group LLC | Tollbooth between children and education funding | Per-pupil dollars → {{ fact(registry="entities", key="macdowell", field="extraction_pct") }} extraction |
 | **Courts** | 9 judges across 4 courts | Priestly class mediating access to justice | Cases involving the enterprise land before network judges |
 | **Churches** | Bishop Sheard (COGIC), Bishop Vaughn (DPSCD) | Credential of divine authority lent to temporal actors | Congregations unknowingly legitimize convicted felons |
 | **Treasury** | Eric Sabree (Wayne County Treasurer) | Feudal lord controlling access to land | Tax foreclosures feed the network's property acquisition |
@@ -152,7 +152,7 @@ This backlog is not incidental. It creates a **captive population** — people w
 
 Banks, the non-lawyer who claims a J.D., sits at the intersection of every system these families depend on. He controls schools (where the children go), has connections to courts (where the parents' cases are pending), holds political relationships (where favors are traded), and operates through churches (where trust is manufactured).
 
-A parent who challenges their child's 3% math proficiency education risks drawing attention from a network that controls the courts their unresolved case sits in.
+A parent who challenges their child's {{ fact(registry="entities", key="macdowell", field="math_proficiency") }} math proficiency education risks drawing attention from a network that controls the courts their unresolved case sits in.
 
 This is the harvest. The backlog is the pen. The children are the crop. The per-pupil funding is the yield.
 
@@ -168,11 +168,11 @@ In [The Many Rooms](https://sporeprint.primals.eco/philosophy/the-many-rooms/), 
 
 Map this to Detroit.
 
-**The Michigan Department of Education** is the priest. Its mandate is to protect students. When confronted with evidence that a convicted felon with a cash-handling prohibition was serving as superintendent of a school that spent 32% on instruction, MDE killed the investigation in **2 hours and 24 minutes**. The institution's own logic — its bureaucratic process, its inter-agency jurisdictional boundaries, its risk of political blowback — created a structural incentive to look away. Nicole Wells-Stallworth's call came at 10:02 AM. By 12:26 PM, the file was closed.
+**The Michigan Department of Education** is the priest. Its mandate is to protect students. When confronted with evidence that a convicted felon with a cash-handling prohibition was serving as superintendent of a school that spent {{ fact(registry="entities", key="macdowell", field="instruction_pct") }} on instruction, MDE killed the investigation in **2 hours and 24 minutes**. The institution's own logic — its bureaucratic process, its inter-agency jurisdictional boundaries, its risk of political blowback — created a structural incentive to look away. Nicole Wells-Stallworth's call came at 10:02 AM. By 12:26 PM, the file was closed.
 
 **The DPSCD Board** is the Levite. Its mandate is charter oversight. When the charter authorization for MacDowell came before the board, the board member who authorized it (Corletta Vaughn) was herself later disqualified from office for $950 in Wayne County fees. The woman who gave Banks permission to run a school couldn't maintain her own seat on the board that granted it.
 
-**The COGIC Presiding Bishop** is the senior cleric. When Bishop J. Drew Sheard endorsed Brian Banks for State Representative, he lent the full weight of the Church of God in Christ — the largest Pentecostal denomination in the United States — to a man with 9 criminal convictions. Banks is a congregant of Sheard's Greater Emmanuel Institutional COGIC. The endorsement was not ignorance. It was institutional choice. The institution's own logic — the political relationships, the community standing, the mutual benefit — made the endorsement rational.
+**The COGIC Presiding Bishop** is the senior cleric. When Bishop J. Drew Sheard endorsed Brian Banks for State Representative, he lent the full weight of the Church of God in Christ — the largest Pentecostal denomination in the United States — to a man with {{ fact(registry="actors", key="banks", field="conviction_count") }} criminal convictions. Banks is a congregant of Sheard's Greater Emmanuel Institutional COGIC. The endorsement was not ignorance. It was institutional choice. The institution's own logic — the political relationships, the community standing, the mutual benefit — made the endorsement rational.
 
 > *"The religious establishment — the credentialed, the institutional, the ones with the mandate and the resources and the rules — walked past. The outsider, the one with no obligation, no credential, no institutional backing, no recognized authority, stopped."*
 > — atlasHugged, Chapter 9
@@ -220,7 +220,7 @@ While every level of the system was being captured, the community it was suppose
 | **1990s** | Population collapse, factory closures | Political dynasties consolidate. Alma Stallworth founds BCF. |
 | **2000s** | Kilpatrick corruption, housing crisis, bankruptcy | Tax foreclosures feed Sabree's pipeline. Land Bank properties acquired. |
 | **2010s** | Schools close, emergency management | Banks enters Legislature. Charter schools open. Per-pupil funding becomes the new extraction mechanism. |
-| **2020s** | COVID, learning loss, continued poverty | 3% math proficiency. 72.67% extraction. Children can't read. The machine counts their heads. |
+| **2020s** | COVID, learning loss, continued poverty | {{ fact(registry="entities", key="macdowell", field="math_proficiency") }} math proficiency. {{ fact(registry="entities", key="macdowell", field="extraction_pct") }} extraction. Children can't read. The machine counts their heads. |
 
 **The same families destroyed by crack, foreclosed by the treasurer, bankrupted by the housing crisis, and failed by the public schools — those families' children now sit in Banks' classrooms. The machine has been harvesting from the same community for 40 years. Only the product changed: drugs → housing → education dollars.**
 
@@ -268,7 +268,7 @@ Key sources:
 
 | Chapter | Application to Detroit |
 |---------|----------------------|
-| **[The City of Omelas](https://sporeprint.primals.eco/philosophy/the-city-of-omelas/)** | The child in the basement is not a metaphor — it is 3% math proficiency |
+| **[The City of Omelas](https://sporeprint.primals.eco/philosophy/the-city-of-omelas/)** | The child in the basement is not a metaphor — it is {{ fact(registry="entities", key="macdowell", field="math_proficiency") }} math proficiency |
 | **[The Loaves and the Fishes](https://sporeprint.primals.eco/philosophy/the-loaves-and-the-fishes/)** | The bread thief and preconditions — plea bargains destroy the preconditions of thriving |
 | **[The Temptation of Kingdoms](https://sporeprint.primals.eco/philosophy/the-temptation-of-kingdoms/)** | The river keeper pattern — Banks as tollbooth, entities as regulatory firewalls |
 | **[The Many Rooms](https://sporeprint.primals.eco/philosophy/the-many-rooms/)** | The Samaritan parable — institutions that walked past their mandate |

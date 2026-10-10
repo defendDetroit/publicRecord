@@ -614,6 +614,52 @@ nexus = ["education", "political"]
 era = "2016-2026"
 detail = "DPSCD Board President. Authorized PCA + MacDowell charters. Disqualified 2026 ($950 Wayne Co)."
 
+# ── Cross-site actors (Lansing/tuebor shared registry) ────────────────────
+
+[extra.actors.barrett]
+display = "Tom Barrett"
+short = "Barrett"
+role = "U.S. House MI-7 (R)"
+tier = 3
+dykema_pac_amount = "$4,000"
+dykema_pac_source = "FEC C00342113"
+afp_action_amount = "$477,780"
+nrcc_spend = "$6,300,000"
+griffin_amount = "$7,000"
+roe_consulting = "$782,000"
+
+[extra.actors.moore]
+display = "Renae Moore"
+short = "Moore"
+role = "Senior Compliance Specialist, Dykema Gossett PLLC"
+tier = 3
+account_count = "80+"
+account_source = "Chatfield preliminary examination testimony, Feb 26, 2025"
+entity_roles = "6+"
+
+[extra.actors.wilk]
+display = "W. Alan Wilk"
+short = "Wilk"
+role = "Member, Team Leader Political Compliance, Dykema Gossett PLLC"
+tier = 3
+vehicle_count = "7+"
+vehicle_source = "LARA incorporation filings"
+
+[extra.actors.chatfield]
+display = "Lee Chatfield"
+short = "Chatfield"
+role = "Former House Speaker, 13 felony charges"
+tier = 3
+felony_count = "13"
+felony_source = "Ingham County criminal charges"
+
+[extra.actors.rogers]
+display = "Mike Rogers"
+short = "Rogers"
+role = "U.S. Senate candidate"
+tier = 3
+outside_money_short = "$88.8M"
+
 # ── Entity Registry ──────────────────────────────────────────────────────
 
 [extra.entities.pca]
@@ -635,6 +681,10 @@ revenue = "$4.9M/yr"
 extraction_pct = "72.67%"
 extraction_amount = "$4,285,201"
 unaccounted = "$348,489"
+math_proficiency = "3%"
+math_source = "MDE School Report Card"
+instruction_pct = "32.1%"
+instruction_source = "MDE financial reporting"
 page = "/network/entities/macdowell-prep/"
 viz_type = "school"
 nexus = ["education"]
@@ -754,6 +804,8 @@ display = "Save Detroit Jobs"
 short = "SDJ"
 lara_id = "802002459"
 type = "Dark money vehicle"
+expenditure = "$84,000"
+expenditure_source = "TransparencyUSA, 2021 Detroit City Council District 2"
 nexus = ["political"]
 detail = "3 names: SDJ (2016) + Impact Detroit (2018) + Detroit Leaders (2021). LARA 802002459."
 
@@ -761,6 +813,8 @@ detail = "3 names: SDJ (2016) + Impact Detroit (2018) + Detroit Leaders (2021). 
 display = "Dykema Gossett"
 short = "Dykema"
 type = "Law firm"
+phone = "517-374-9100"
+address = "201 Townsend Street, Lansing, MI 48933"
 viz_type = "institutional"
 nexus = ["political"]
 detail = "MI's largest law firm. Formed SDJ. compliance@dykema.com. 201 Townsend, Lansing."
@@ -854,6 +908,32 @@ type = "State agency"
 viz_type = "institutional"
 nexus = ["education"]
 detail = "Investigated Banks Feb 2022 for no credential. Cleared. [FOIA]"
+
+# ── Cross-site entity registries (Lansing/tuebor shared) ─────────────────
+
+[extra.entities.dykema_federal_pac]
+display = "Dykema Gossett Federal PAC"
+fec_id = "C00342113"
+total_disbursed = "$131,000"
+candidate_count = "47"
+total_source = "FEC committee disbursements"
+
+[extra.entities.dykema_state_pac]
+display = "Dykema Gossett State PAC"
+total_since_2017 = "$725,000+"
+duggan_amount = "$13,500"
+total_source = "TransparencyUSA"
+
+[extra.entities.rffw]
+display = "RFFW LLC"
+complaint_amount = "$1,000,000"
+complaint_source = "Campaign finance complaint"
+
+[extra.entities.agc]
+display = "Attorney Grievance Commission"
+dismissal_rate = "88.8%"
+dismissal_headline = "94%"
+dismissal_source = "AGC Annual Report, Michigan Supreme Court"
 
 # ── Cross-Protection / Tuebor entities (Wave 165g) ───────────────────────
 # These are institutional nodes connecting the Barry County attack to the graph.

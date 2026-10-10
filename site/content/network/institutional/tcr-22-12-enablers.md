@@ -89,9 +89,9 @@ to give institutional weight to what is fundamentally an opinion.
 |-------------|----------------------|---------------------------|
 | **Shulman** | "Took ownership for all actions, paid off debts" | Told police "I am a lawyer." $14,500+ unpaid PAC fines. |
 | **Leno** | "Person of integrity. Criminal behavior will not recur." | False statement in government document. Retaliatory police report. |
-| **Wells-Stallworth** | "Position did not involve handling finances" | Sole member of LLC receiving 72.67% of school revenue |
+| **Wells-Stallworth** | "Position did not involve handling finances" | Sole member of LLC receiving {{ fact(registry="entities", key="macdowell", field="extraction_pct") }} of school revenue |
 | **Meihn** | "Integrity, honesty, transparency, compliance" | False "No Related Parties" clause in Management Agreement |
-| **Vitti** | "Reflective, child-centric leader" | 3% math proficiency. $4.28M extracted. |
+| **Vitti** | "Reflective, child-centric leader" | {{ fact(registry="entities", key="macdowell", field="math_proficiency") }} math proficiency. $4.28M extracted. |
 | **Shulman** | "I do not believe Mr. Banks suffers from any disorders" | Diagnosed PTSD by Leno — contradictory findings |
 | **Leno** | "No longer in need of formal therapy" | Banks's conduct in 2026 suggests otherwise |
 | **Wells-Stallworth** | "Has gotten his life back on track" | Co-residing with convicted drug offender managing entity finances |
@@ -133,7 +133,7 @@ Condition #4: Banks "shall not be the sole individual
 responsible for approval of any expenditure."
 
 Banks is sole member of Purpose Group LLC. Purpose Group
-receives $4,285,201 (72.67%) of school revenue. All teachers
+receives {{ fact(registry="entities", key="macdowell", field="extraction_amount") }} ({{ fact(registry="entities", key="macdowell", field="extraction_pct") }}) of school revenue. All teachers
 and staff are employed by Purpose Group, not the school.
 
 The entity structure routes school money through a private LLC

@@ -44,7 +44,7 @@ SAVE DETROIT JOBS
     │     Johnson won → PCA Board Secretary
     │     PCA Board = Banks's charter school
     │
-    └──── $84,500 → DETROIT NEXT PAC (2025)
+    └──── {{ fact(registry="entities", key="sdj", field="expenditure") }} → DETROIT NEXT PAC (2025)
                        │
                        ├── also received:
                        │   $151,000 ← 5Plus1 (Horace Sheffield III)
@@ -99,7 +99,7 @@ The same Dykema-formed entity funded both sides of the network:
 | Year | Action | Result |
 |------|--------|--------|
 | 2021 | Funded Johnson campaign (as "Detroit Leaders") vs journalist Steve Elrick | Johnson won District 2. Now PCA Board Secretary alongside Judge Miller and AAG Moreland. |
-| 2025 | Gave $84,500 to Detroit Next PAC | Detroit Next spent $212,600+ on pro-Sheffield ads. Sheffield won. |
+| 2025 | Gave {{ fact(registry="entities", key="sdj", field="expenditure") }} to Detroit Next PAC | Detroit Next spent $212,600+ on pro-Sheffield ads. Sheffield won. |
 
 The entity that put a council member on Banks's school board also
 funded the Mayor who appointed the Police Chief.
@@ -188,7 +188,7 @@ received direct payments from it.
 
 1. **2016:** Carol Banks receives $18,000+ from Save Detroit Jobs to fight Prop A. Benson's staff also paid.
 2. **2021:** Save Detroit Jobs renames to "Detroit Leaders." Sends mailers supporting **Latisha Johnson** against **Steve Elrick** in District 4. Carol Banks has Johnson campaign sign in her yard. Johnson wins → PCA Board Secretary.
-3. **2025:** Eastside Slate (Carol Banks, Vice Chair) endorses **Mary Sheffield** for Mayor. Detroit Next PAC (funded by Save Detroit Jobs $84,500 + 5Plus1 $151,000) runs $212,600+ in pro-Sheffield ads. Sheffield wins → appoints Bettison.
+3. **2025:** Eastside Slate (Carol Banks, Vice Chair) endorses **Mary Sheffield** for Mayor. Detroit Next PAC (funded by Save Detroit Jobs {{ fact(registry="entities", key="sdj", field="expenditure") }} + 5Plus1 $151,000) runs $212,600+ in pro-Sheffield ads. Sheffield wins → appoints Bettison.
 
 Every political outcome that benefits Brian Banks's charter school network
 passes through Carol Banks's operational layer.
@@ -216,7 +216,7 @@ Are they related? Both "Banks" in Detroit politics. Both connected to the
 same institutional network:
 
 - **Carol Banks:** DPS Board → Eastside Slate → Save Detroit Jobs → Johnson/Sheffield/Miller
-- **Brian Banks:** State House (8 felonies) → State Senate campaign → PCA charter school → convicted
+- **Brian Banks:** State House ({{ fact(registry="actors", key="banks", field="conviction_count") }} convictions) → State Senate campaign → PCA charter school → convicted
 
 Carol Banks ran the DPS board. Brian Banks's PCA was later authorized by
 DPSCD (the successor to DPS). The name coincidence and network overlap

@@ -78,7 +78,7 @@ Wells-Stallworth retained a **national law firm** (Foley & Mansfield PLLP — of
 | Jul 1, 2022 | MacDowell goes "self-managed" — **Banks IS the management** |
 | Sep 1, 2022 | Banks applies for teaching certificate |
 | Sep 2, 2022 | Certificate issued **one day later** |
-| 2023 | MacDowell reports **3% math proficiency** |
+| 2023 | MacDowell reports **{{ fact(registry="entities", key="macdowell", field="math_proficiency") }} math proficiency** |
 | 2024 | MacDowell reports continued poor performance |
 | 2025-2026 | Banks still superintendent |
 
@@ -151,7 +151,7 @@ Nicole Wells-Stallworth is the **connective tissue** of this network. She bridge
 - The **charter authorization pipeline** through her stepdaughter on DPSCD
 - The **national law firm** response (Foley & Mansfield) to a state-level compliance inquiry
 
-She is a C-level nonprofit executive, an experienced political operative, a Planned Parenthood leader, and a governor's ally. She used all of that institutional knowledge — not to protect students getting 3% math proficiency — but to protect Brian Banks from accountability.
+She is a C-level nonprofit executive, an experienced political operative, a Planned Parenthood leader, and a governor's ally. She used all of that institutional knowledge — not to protect students getting {{ fact(registry="entities", key="macdowell", field="math_proficiency") }} math proficiency — but to protect Brian Banks from accountability.
 
 ## FOIA Evidence
 

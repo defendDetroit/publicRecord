@@ -24,7 +24,7 @@ connections = ["criminal record", "credential fraud", "business entity", "family
 | SID | 2029469K | MI ICHAT |
 | Residence | Grosse Pointe Woods, MI | Wayne ROD, LARA |
 
-## Criminal History — 9 Convictions (6 Felony, 3 Misdemeanor) {{ confidence(level="verified") }}
+## Criminal History — {{ fact(registry="actors", key="banks", field="conviction_count") }} Convictions (6 Felony, 3 Misdemeanor) {{ confidence(level="verified") }}
 
 **Across 5 agencies and 5 courts (1998–2017)**
 
@@ -93,7 +93,7 @@ The Pahara Fellowship bio describes Banks as having "navigated the very systems 
 
 Judge {{ actor(key="miller") }}'s LinkedIn post (March 24, 2026) publicly celebrates the relationship: *"I am so honored and proud to serve as the Chairperson of the Board of Directors of this amazing new school — Purpose Charter Academy for Law & Public Service! Way to lead, Brian Banks, J.D., Ph.D.!"*
 
-A sitting judge publicly endorsing a man with 9 criminal convictions using credentials not confirmed by bar records.
+A sitting judge publicly endorsing a man with {{ fact(registry="actors", key="banks", field="conviction_count") }} criminal convictions using credentials not confirmed by bar records.
 
 ## September 29, 2026 — Admissions by Email {{ confidence(level="verified") }}
 
@@ -147,7 +147,7 @@ Banks controls **9+ entities**, all registered to the same residential address i
 ## Independent Reporting
 
 ### Primary Analytical Reference — Clutch Justice / Rita Williams
-- {{ source(key="clutch_justice", path="/2026/09/13/macdowell-preparatory-academy-academic-financial-record/", label="MacDowell: $15,217/student, 3% math proficiency") }} — Comprehensive academic + financial analysis: extraction model, board composition, DPSCD authorization (Sep 2026)
+- {{ source(key="clutch_justice", path="/2026/09/13/macdowell-preparatory-academy-academic-financial-record/", label="MacDowell: $15,217/student, {{ fact(registry="entities", key="macdowell", field="math_proficiency") }} math proficiency") }} — Comprehensive academic + financial analysis: extraction model, board composition, DPSCD authorization (Sep 2026)
 - {{ source(key="clutch_justice", path="/2026/07/14/judge-cylenthia-miller-owi-judicial-favoritism/", label="The Proper Move Was Not to Get Involved") }} — Connects Miller's boundary violations to the Banks network pattern (Jul 2026)
 - {{ source(key="clutch_justice", path="/2026/09/23/foia-michigan-school-board-records-guide/", label="FOIA and Your Michigan School Board") }} — Legal guide for parents to request charter school records (Sep 2026)
 

@@ -17,7 +17,7 @@ connections = ["charter school law", "dark money", "compliance", "revolving door
 On February 26, 2025, a compliance specialist named **Renae Moore**
 took the witness stand in Ingham County District Court. She was the
 first witness called in the preliminary examination of former Michigan
-House Speaker **Lee Chatfield**, who faces 13 felony charges including
+House Speaker **Lee Chatfield**, who faces {{ fact(registry="actors", key="chatfield", field="felony_count") }} felony charges including
 embezzlement and conspiracy.
 
 Moore works for **Dykema Gossett PLLC**, the law firm headquartered
@@ -29,9 +29,9 @@ person in this state.
 
 ---
 
-## 1. Eighty Accounts. One Desk.
+## 1. {{ fact(registry="actors", key="moore", field="account_count") }} Accounts. One Desk.
 
-Moore testified that at Dykema, she helps manage **more than 80
+Moore testified that at Dykema, she helps manage **more than {{ fact(registry="actors", key="moore", field="account_count") }}
 accounts** — political nonprofit funds tied to Michigan lawmakers
 and officials.
 
@@ -89,8 +89,8 @@ everything:
 > Capitol, handles the paperwork and tax filings of many of the
 > politician-connected nonprofits."
 
-Eighty-plus accounts. Both parties. One building. One switchboard:
-**517-374-9100.**
+{{ fact(registry="actors", key="moore", field="account_count") }} accounts. Both parties. One building. One switchboard:
+**{{ fact(registry="entities", key="dykema", field="phone") }}.**
 
 ---
 
@@ -111,7 +111,7 @@ partners formed charter entities by the hundreds through the
 Michigan Department of Licensing and Regulatory Affairs.
 
 And their political compliance team — the same team where Moore
-manages 80+ accounts — runs the PAC compliance for the dark money
+manages {{ fact(registry="actors", key="moore", field="account_count") }} accounts — runs the PAC compliance for the dark money
 vehicles that influence who sits on those charter school boards.
 
 ---
@@ -123,7 +123,7 @@ He has been with the firm since passing the Michigan Bar in 1995.
 His phone number is **517-374-9122**. Moore's is **517-374-9121**.
 One digit apart. Same desk cluster.
 
-Wilk has incorporated at least **seven dark money vehicles**
+Wilk has incorporated at least **{{ fact(registry="actors", key="wilk", field="vehicle_count") }} dark money vehicles**
 through LARA:
 
 | # | Entity | Purpose | Year |
@@ -131,14 +131,14 @@ through LARA:
 | 1 | Save Detroit Jobs / Detroit Leaders | Detroit City Council races | 2016 |
 | 2 | Our Neighborhoods First | Anti-community benefits agreement | 2016 |
 | 3 | Detroit Jobs First | Detroit ballot measures | 2016 |
-| 4 | RFFW LLC | Abortion ballot committee ($1M) | 2022 |
+| 4 | RFFW LLC | Abortion ballot committee ({{ fact(registry="entities", key="rffw", field="complaint_amount") }}) | 2022 |
 | 5 | Turn Around Wayne County PAC | Wayne County races | ongoing |
 | 6 | Put Progress First | Pro-Duggan governor campaign | 2023 |
 | 7 | Michigan First Principles | Anti-John James attack ads | 2025 |
 
-Save Detroit Jobs spent **$84,000** defeating a sitting council
+Save Detroit Jobs spent **{{ fact(registry="entities", key="sdj", field="expenditure") }}** defeating a sitting council
 member and electing his replacement — who then joined the board
-of a charter school run by a superintendent with nine criminal
+of a charter school run by a superintendent with {{ fact(registry="actors", key="banks", field="conviction_count") }} criminal
 convictions.
 
 Put Progress First spent **$545,000** supporting Mike Duggan's
@@ -147,7 +147,7 @@ spent money attacking John James, Duggan's Republican rival in
 the governor's race. Both formed by Wilk. Same attorney. Same
 desk. Opposite missions.
 
-The Dykema Federal PAC (FEC ID: C00342113) gave **$4,000 to
+The Dykema Federal PAC (FEC ID: C00342113) gave **{{ fact(registry="actors", key="barrett", field="dykema_pac_amount") }} to
 Barrett** and **$4,000 to John James** in the same cycle that
 Wilk's vehicle was attacking James.
 
@@ -227,7 +227,7 @@ finger. You stop it with a boat.
 
 Moore's testimony is the leak.
 
-One compliance specialist. Eighty accounts. No duty to report.
+One compliance specialist. {{ fact(registry="actors", key="moore", field="account_count") }} accounts. No duty to report.
 Both parties. The defendant's fund and the prosecutor's fund.
 Strip club tabs submitted as business expenses. Policy manuals
 written by the firm and ignored by the clients. And when asked
