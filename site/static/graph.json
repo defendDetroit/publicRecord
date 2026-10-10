@@ -1,6 +1,6 @@
 {
   "_generated": "2026-10-10T16:39:00Z",
-  "_source": "Pass 10 braid: DJF merged, 6 judges wired, 5 staff wired, deduped",
+  "_source": "Pass 10c: Wilk-Moore colleague edge added (7 shared entities, formation/governance split)",
   "nodes": [
     {
       "id": "adam_sabree",
@@ -2954,6 +2954,12 @@
       "target": "banks",
       "type": "association",
       "detail": "21-year mentor, endorsed despite 9 convictions"
+    },
+    {
+      "source": "wilk",
+      "target": "moore",
+      "type": "colleague",
+      "role": "Dykema co-workers, formation/governance split across 7 shared dark money vehicles"
     }
   ],
   "epistemic_grammar": {
