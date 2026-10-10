@@ -450,6 +450,91 @@
       "entity_type": "Law firm"
     },
     {
+      "id": "dykema_federal_pac",
+      "label": "Dykema Gossett Federal PAC",
+      "type": "entity",
+      "entity_type": "Federal PAC",
+      "fec_id": "C00342113"
+    },
+    {
+      "id": "dykema_state_pac",
+      "label": "Dykema Gossett State PAC",
+      "type": "entity",
+      "entity_type": "State PAC"
+    },
+    {
+      "id": "wilk",
+      "label": "W. Alan Wilk",
+      "type": "actor",
+      "tier": 2,
+      "role": "Dark money architect"
+    },
+    {
+      "id": "renae_moore",
+      "label": "Renae Moore",
+      "type": "actor",
+      "tier": 3,
+      "role": "Compliance officer (Dykema)"
+    },
+    {
+      "id": "michigan_first_principles",
+      "label": "Michigan First Principles",
+      "type": "entity",
+      "entity_type": "Dark money vehicle"
+    },
+    {
+      "id": "put_progress_first",
+      "label": "Put Progress First",
+      "type": "entity",
+      "entity_type": "Dark money vehicle"
+    },
+    {
+      "id": "onf",
+      "label": "Our Neighborhoods First",
+      "type": "entity",
+      "entity_type": "Dark money vehicle"
+    },
+    {
+      "id": "djf",
+      "label": "Detroit Jobs First",
+      "type": "entity",
+      "entity_type": "Dark money vehicle"
+    },
+    {
+      "id": "rffw",
+      "label": "RFFW LLC",
+      "type": "entity",
+      "entity_type": "Dark money vehicle"
+    },
+    {
+      "id": "afp_action",
+      "label": "AFP Action (Koch)",
+      "type": "entity",
+      "entity_type": "Super PAC",
+      "fec_id": "C00687103"
+    },
+    {
+      "id": "jason_roe",
+      "label": "Jason Cabel Roe",
+      "type": "actor",
+      "tier": 3,
+      "role": "Barrett senior advisor"
+    },
+    {
+      "id": "barrett",
+      "label": "Rep. Tom Barrett",
+      "type": "actor",
+      "tier": 3,
+      "role": "US House MI-7"
+    },
+    {
+      "id": "john_james",
+      "label": "Rep. John James",
+      "type": "actor",
+      "tier": 4,
+      "role": "MI-10 / Gov candidate"
+    },
+    {
       "id": "eastside_slate",
       "label": "Original Eastside Slate",
       "type": "entity",
@@ -2415,6 +2500,176 @@
       "flow": "position",
       "label": "Dean + Teacher — zero MOECS credentials, tourism degree",
       "source_doc": "macdowellprep.com/about/"
+    },
+    {
+      "source": "wilk",
+      "target": "dykema",
+      "type": "employment",
+      "epistemic_status": "record",
+      "role": "Team Leader, Political Compliance",
+      "weight": 9,
+      "label": "Dykema Member — dark money architect"
+    },
+    {
+      "source": "renae_moore",
+      "target": "dykema",
+      "type": "employment",
+      "epistemic_status": "record",
+      "role": "Senior Compliance Specialist",
+      "weight": 8,
+      "label": "Dykema staff on SDJ board"
+    },
+    {
+      "source": "wilk",
+      "target": "sdj",
+      "type": "formation",
+      "epistemic_status": "record",
+      "weight": 9,
+      "label": "Incorporator — Save Detroit Jobs"
+    },
+    {
+      "source": "wilk",
+      "target": "onf",
+      "type": "formation",
+      "epistemic_status": "record",
+      "weight": 9,
+      "label": "Incorporator — Our Neighborhoods First"
+    },
+    {
+      "source": "wilk",
+      "target": "djf",
+      "type": "formation",
+      "epistemic_status": "record",
+      "weight": 9,
+      "label": "Incorporator — Detroit Jobs First"
+    },
+    {
+      "source": "wilk",
+      "target": "rffw",
+      "type": "formation",
+      "epistemic_status": "record",
+      "weight": 8,
+      "label": "Incorporator — RFFW LLC ($1M ballot committee)"
+    },
+    {
+      "source": "wilk",
+      "target": "put_progress_first",
+      "type": "formation",
+      "epistemic_status": "record",
+      "weight": 9,
+      "label": "Incorporator — Put Progress First (Duggan dark money)",
+      "source_doc": "Bridge Detroit, Detroit News"
+    },
+    {
+      "source": "wilk",
+      "target": "michigan_first_principles",
+      "type": "formation",
+      "epistemic_status": "record",
+      "weight": 9,
+      "label": "Incorporator — Michigan First Principles (anti-James)",
+      "source_doc": "Detroit News Jan 20 2026"
+    },
+    {
+      "source": "renae_moore",
+      "target": "sdj",
+      "type": "governance",
+      "epistemic_status": "record",
+      "weight": 8,
+      "label": "Asst Secretary — Dykema employee on dark money board"
+    },
+    {
+      "source": "renae_moore",
+      "target": "onf",
+      "type": "governance",
+      "epistemic_status": "record",
+      "weight": 7,
+      "label": "Compliance officer"
+    },
+    {
+      "source": "renae_moore",
+      "target": "djf",
+      "type": "governance",
+      "epistemic_status": "record",
+      "weight": 7,
+      "label": "Compliance officer"
+    },
+    {
+      "source": "renae_moore",
+      "target": "rffw",
+      "type": "governance",
+      "epistemic_status": "record",
+      "weight": 8,
+      "label": "Treasurer — $1M money laundering complaint"
+    },
+    {
+      "source": "dykema_federal_pac",
+      "target": "barrett",
+      "type": "financial",
+      "epistemic_status": "record",
+      "weight": 6,
+      "label": "$4,000 contribution (FEC, 2026 cycle)",
+      "source_doc": "FEC C00342113"
+    },
+    {
+      "source": "dykema_federal_pac",
+      "target": "john_james",
+      "type": "financial",
+      "epistemic_status": "record",
+      "weight": 6,
+      "label": "$4,000 contribution (FEC, 2026 cycle)",
+      "source_doc": "FEC C00342113"
+    },
+    {
+      "source": "dykema",
+      "target": "dykema_federal_pac",
+      "type": "formation",
+      "epistemic_status": "record",
+      "weight": 7,
+      "label": "Firm's federal PAC — $131K to 47 candidates both parties"
+    },
+    {
+      "source": "dykema",
+      "target": "dykema_state_pac",
+      "type": "formation",
+      "epistemic_status": "record",
+      "weight": 7,
+      "label": "Firm's state PAC — $725K+ to both parties"
+    },
+    {
+      "source": "afp_action",
+      "target": "barrett",
+      "type": "financial",
+      "epistemic_status": "record",
+      "weight": 9,
+      "label": "$477,780 independent expenditures (44.8% of outside spending)",
+      "source_doc": "FEC C00687103, MyRepTracker"
+    },
+    {
+      "source": "jason_roe",
+      "target": "barrett",
+      "type": "employment",
+      "epistemic_status": "record",
+      "weight": 8,
+      "label": "Senior advisor — $114K+ consulting (Roe Strategic LLC)",
+      "source_doc": "FEC MUR 8072"
+    },
+    {
+      "source": "michigan_first_principles",
+      "target": "john_james",
+      "type": "opposition",
+      "epistemic_status": "record",
+      "weight": 8,
+      "label": "TV/radio/digital attack ads — 'totally disloyal'",
+      "source_doc": "Detroit News Jan 2026, FCC filings"
+    },
+    {
+      "source": "sdj",
+      "target": "latisha_johnson",
+      "type": "financial",
+      "epistemic_status": "record",
+      "weight": 9,
+      "label": "$84K spent defeating Elrick → electing Johnson to Council",
+      "source_doc": "Deadline Detroit"
     }
   ],
   "epistemic_grammar": {
