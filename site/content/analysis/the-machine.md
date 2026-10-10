@@ -133,7 +133,7 @@ The **14th Amendment** guarantees equal protection under law. When the same judi
 The **4th Amendment** guarantees freedom from unreasonable search and seizure. When defendants cannot afford to challenge the constitutionality of their arrests because the plea system incentivizes waiving that right, the 4th Amendment becomes a dead letter for the poor while remaining fully operative for the wealthy.
 
 > *"Rights must hold at the edge of the system — where the accused, the hated, the forgotten stand. Otherwise they are not rights; they are rented privileges."*
-> — [The Primal Ethos](https://sporeprint.primals.eco/philosophy/primal-ethos/)
+> — [The Orthogonal Synthesis](https://sporeprint.primals.eco/philosophy/the-orthogonal-synthesis/)
 
 ---
 
