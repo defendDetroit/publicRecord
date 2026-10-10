@@ -1239,3 +1239,137 @@ The methodology is documented at
 
 *This page will be updated weekly with new receptor data. No historical
 visitor data is retained — each report reflects the measurement window only.*
+
+---
+
+## petalTongue Deep Analysis — Server-Side Rendering
+
+<div id="pt-signal-panels"></div>
+<script src="/js/pt-bridge-core.js"></script>
+<script>
+(function() {
+  'use strict';
+  var pt = PetalBridge({
+    wsUrl: 'wss://hud.primals.eco/ws',
+    domain: 'detroit',
+    statusEl: 'pt-signal-status',
+    maxHeight: 260,
+    reconnectMs: 8000,
+    rpcTimeoutMs: 10000,
+    onConnect: function() { renderSignalPanels(); }
+  });
+
+  function renderSignalPanels() {
+    if (!pt.isConnected()) return;
+    var SE = window.SIGNAL_EXPLORATION;
+    if (!SE) return;
+    var s = SE.summary || {};
+    var pages = SE.pages || [];
+    var hops = SE.hops || [];
+    var eco = SE.ecosystem || {};
+
+    // Traffic composition donut (replaces hand-rolled SVG donut)
+    var slices = [
+      { cat: 'Humans', val: s.humanHits || s.totalHits || 0 },
+      { cat: 'Crawlers', val: s.crawlerHits || 0 },
+      { cat: 'SEO Bots', val: s.seoHits || 0 },
+      { cat: 'Link Previews', val: s.previewHits || 0 },
+      { cat: 'Scanners', val: s.scannerHits || 0 },
+    ].filter(function(sl) { return sl.val > 0; });
+    if (slices.length > 0) {
+      pt.renderBinding({
+        channel_type: 'donut', id: 'traffic-comp',
+        label: 'Traffic Composition — ' + (s.totalRequests || 0) + ' Total Requests',
+        categories: slices.map(function(sl) { return sl.cat; }),
+        values: slices.map(function(sl) { return sl.val; }),
+        unit: 'requests'
+      }, 'pt-traffic-donut');
+    }
+
+    // Page popularity bar
+    if (pages.length > 0) {
+      pt.renderBinding({
+        channel_type: 'bar', id: 'page-hits',
+        label: 'Most Explored Pages — ' + pages.length + ' Unique Pages',
+        categories: pages.slice(0, 15).map(function(p) { return p.label; }),
+        values: pages.slice(0, 15).map(function(p) { return p.hits; }),
+        unit: 'visits'
+      }, 'pt-page-hits');
+    }
+
+    // Navigation hop graph (replaces hand-rolled force sim)
+    if (hops.length > 0) {
+      var hopNodes = {};
+      hops.forEach(function(h) {
+        hopNodes[h.from] = hopNodes[h.from] || { id: h.from, label: h.from.split('/').pop() || 'Home' };
+        hopNodes[h.to] = hopNodes[h.to] || { id: h.to, label: h.to.split('/').pop() || 'Home' };
+      });
+      pages.forEach(function(p) {
+        if (hopNodes[p.path]) hopNodes[p.path].label = p.label;
+      });
+      var fgNodes = Object.values(hopNodes).map(function(n) {
+        var pg = pages.find(function(p) { return p.path === n.id; });
+        return {
+          id: n.id, label: n.label,
+          kind: pg && pg.entries > (pg.hits || 1) * 0.5 ? 'entry' : 'internal',
+          tier: null,
+          metadata: { hits: pg ? pg.hits : 0, entries: pg ? pg.entries : 0 }
+        };
+      });
+      var fgEdges = hops.map(function(h) {
+        return {
+          source: h.from, target: h.to,
+          relation: 'hop',
+          weight: h.count || 1,
+          flow: 'navigation'
+        };
+      });
+      pt.renderBinding({
+        channel_type: 'force_graph', id: 'hop-graph',
+        label: 'Navigation Hop Graph — ' + fgNodes.length + ' Pages, ' + fgEdges.length + ' Hops',
+        nodes: fgNodes, edges: fgEdges,
+        width: 900, height: 600
+      }, 'pt-hop-graph');
+    }
+
+    // Bot ecosystem donut
+    if (eco.crawlers || eco.aiCrawlers || eco.scanners) {
+      var botSlices = [];
+      (eco.crawlers || []).forEach(function(c) { botSlices.push({ cat: c.name, val: c.hits }); });
+      (eco.aiCrawlers || []).forEach(function(c) { botSlices.push({ cat: c.name + ' (AI)', val: c.hits }); });
+      (eco.seoBots || []).forEach(function(c) { botSlices.push({ cat: c.name, val: c.hits }); });
+      (eco.scanners || []).forEach(function(c) { botSlices.push({ cat: c.name + ' ⚠', val: c.hits }); });
+      botSlices.sort(function(a, b) { return b.val - a.val; });
+      if (botSlices.length > 0) {
+        pt.renderBinding({
+          channel_type: 'donut', id: 'bot-ecosystem',
+          label: 'Bot Ecosystem — Guided · Cataloged · Neutralized',
+          categories: botSlices.slice(0, 12).map(function(sl) { return sl.cat; }),
+          values: botSlices.slice(0, 12).map(function(sl) { return sl.val; }),
+          unit: 'requests'
+        }, 'pt-bot-ecosystem');
+      }
+    }
+  }
+
+  function card(title, sub, id) {
+    return '<div class="pt-card"><div class="pt-card-title">' + title + '</div>'
+      + '<div class="pt-card-sub">' + sub + '</div>'
+      + '<div id="' + id + '" class="pt-viz"></div></div>';
+  }
+
+  var el = document.getElementById('pt-signal-panels');
+  if (el) {
+    el.innerHTML = ''
+      + '<div class="pt-header"><div class="pt-title">🔬 petalTongue Signal Analysis</div>'
+      + '<span id="pt-signal-status"></span></div>'
+      + '<div class="pt-subtitle">Server-side rendering — same data as above, compiled to SVG by the Rust scene engine.</div>'
+      + card('Traffic Composition', 'Visitor classification — donut.', 'pt-traffic-donut')
+      + card('Page Popularity', 'Most explored pages.', 'pt-page-hits')
+      + card('Navigation Hops', 'Force-directed hop graph — Rust Fruchterman-Reingold layout.', 'pt-hop-graph')
+      + card('Bot Ecosystem', 'Automated visitor breakdown.', 'pt-bot-ecosystem');
+  }
+
+  pt.connect();
+})();
+</script>
