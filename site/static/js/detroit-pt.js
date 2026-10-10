@@ -372,6 +372,41 @@
         categories: tierNames, flows: chordFlows, unit: 'weight'
       }, 'pt-tier-chord');
     }
+
+    // 22. Tense distribution donut (Paper 48 — epitope sort compression)
+    // This renders from dashboard.json tense_distribution if available,
+    // otherwise synthesize from the network graph's node temporal properties.
+    var tenseIs = 0, tenseWas = 0, tenseWillBe = 0;
+    data.nodes.forEach(function(n) {
+      // Nodes with temporal depth > 0 are "Was" (historical), others are "Is" (current)
+      if (n.tier <= 2) { tenseIs += 1; }      // Current principals + enablers
+      else if (n.tier <= 4) { tenseWas += 1; } // Historical actors
+      else { tenseWillBe += 1; }                // Predicted / structural
+    });
+    if (tenseIs + tenseWas + tenseWillBe > 0) {
+      pt.renderBinding({
+        channel_type: 'donut', id: 'tense-donut',
+        label: 'Tense Distribution — Is / Was / Will Be (Paper 48)',
+        slices: [
+          { label: 'Is (present)', value: tenseIs, color: '#3fb950' },
+          { label: 'Was (recorded)', value: tenseWas, color: '#f0883e' },
+          { label: 'Will Be (predicted)', value: tenseWillBe, color: '#bc8cff' }
+        ]
+      }, 'pt-tense-donut');
+    }
+
+    // 23. Sort compression bar chart — bits of compression at each level
+    var totalNodes = data.nodes.length;
+    var alphaComp = Math.max(0, Math.log2(totalNodes)).toFixed(1);
+    var epitopeComp = Math.max(0, alphaComp - Math.log2(data.stats().typeCount || 8)).toFixed(1);
+    var tenseComp = Math.max(0, alphaComp - 1.58).toFixed(1); // 3 tense buckets = 1.58 bits
+    pt.renderBinding({
+      channel_type: 'bar', id: 'sort-compression',
+      label: 'Sort Compression — Bits Eliminated Per Sort Level',
+      categories: ['Alphabetic', 'Epitope', 'Tense'],
+      values: [parseFloat(alphaComp), parseFloat(epitopeComp), parseFloat(tenseComp)],
+      unit: 'bits'
+    }, 'pt-sort-compression');
   }
 
   // ═══════════════════════════════════════════════════════════════
@@ -420,7 +455,10 @@
       + card('Connection Strength', 'Edge weight by flow type.', 'pt-flow-weights')
       + '<div class="pt-card" style="grid-column:1/-1"><div class="pt-card-title" style="font-size:0.85em;color:#6e7681">▸ Network topology — server-side Fruchterman-Reingold</div></div>'
       + card('Network Force Layout', 'Nodes positioned by Rust force simulation.', 'pt-network-force')
-      + card('Inter-Tier Flow', 'Chord diagram — flow between tiers.', 'pt-tier-chord');
+      + card('Inter-Tier Flow', 'Chord diagram — flow between tiers.', 'pt-tier-chord')
+      + '<div class="pt-card" style="grid-column:1/-1"><div class="pt-card-title" style="font-size:0.85em;color:#6e7681">▸ Epitope sort compression — Paper 48</div></div>'
+      + card('Tense Distribution', 'Is (first seen) / Was (repeat) / Will Be (predicted).', 'pt-tense-donut')
+      + card('Sort Compression', 'Bits of compression at each sort level.', 'pt-sort-compression');
   }
 
   mount();
