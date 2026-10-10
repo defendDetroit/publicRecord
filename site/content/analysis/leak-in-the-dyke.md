@@ -244,4 +244,6 @@ published news reports, FOIA records, FEC filings, LARA entity
 records, or the firm's own public website. No anonymous sources.
 No allegations. Public record.*
 
+**Cross-reference:** [lansing.primals.eco](https://lansing.primals.eco) — the capital infrastructure kernel. [The Capital Kernel](https://lansing.primals.eco/analysis/capital-kernel/) — Dykema Gossett as operating system. [Sitting in a Tree](https://barry.primals.eco/analysis/sitting-in-a-tree/) — the full Dykema tree connecting Barrett, Rogers, Banks.
+
 *Contact: eco.primal@pm.me*
