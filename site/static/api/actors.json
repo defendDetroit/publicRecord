@@ -1,7 +1,7 @@
 {
   "schema": "ecoPrimals/detroit-actors/v1",
   "description": "Key actors in the Detroit charter school investigation \u2014 convicted felons, judges, political operatives.",
-  "count": 62,
+  "count": 66,
   "actors": [
     {
       "id": "banks",
@@ -817,6 +817,53 @@
         "political"
       ],
       "detail": "MI-10 (R). Running for governor 2026. DeVos family $80K direct + $6M super PAC. Dykema Federal PAC $4K. ATTACKED by Michigan First Principles (Wilk vehicle) Jan 2026."
+    },
+    {
+      "id": "tremblay",
+      "name": "Judge Patricia Tremblay",
+      "short_name": "Tremblay",
+      "role": "30th Circuit Court, Ingham County",
+      "tier": 4,
+      "nexus": [
+        "judicial",
+        "political"
+      ],
+      "detail": "Recused from Banks PPO in Ingham County. 18yr overlap in Lansing campaign finance world. Former House Legal Counsel. Ingham County Bar. Betweenness centrality 0.3286 — #3 in entire graph with only 3 connections. THE structural bridge between Banks enterprise and Dykema formation machine."
+    },
+    {
+      "id": "chatfield",
+      "name": "Lee Chatfield",
+      "short_name": "Chatfield",
+      "role": "Former House Speaker (13 felony charges)",
+      "tier": 3,
+      "nexus": [
+        "political",
+        "legislative"
+      ],
+      "detail": "Former MI House Speaker. Peninsula Fund owner — raised $1.8M from anonymous donors, $132K personal credit card charges. 13 felony charges. Wilk/Dykema incorporated Peninsula Fund. Moore testified at prelim (Feb 2025). Connection proves Dykema dark money machine extends beyond Detroit."
+    },
+    {
+      "id": "olivia_flower",
+      "name": "Olivia RC A Flower",
+      "short_name": "Flower",
+      "role": "Dykema tax preparer (Ann Arbor)",
+      "tier": 4,
+      "nexus": [
+        "political"
+      ],
+      "detail": "Dykema Ann Arbor office. Prepared 990-EZ for Save Detroit Jobs (TY2023). Cross-office convergence: Flower (Ann Arbor) + Moore (Lansing) + Wilk (Lansing) all converge on SDJ. Three Dykema employees across two offices on one dark money vehicle."
+    },
+    {
+      "id": "aaron_keel",
+      "name": "Aaron Keel",
+      "short_name": "Keel",
+      "role": "Government policy advisor (Dykema)",
+      "tier": 4,
+      "nexus": [
+        "political",
+        "legislative"
+      ],
+      "detail": "MASB → House Democratic Caucus (Deputy CoS) → MI Treasury → Dykema (2023). Revolving door epitope. Overlapped with Tremblay in House Dem Caucus. Government policy practice at Dykema = the other side of the Wilk coin."
     }
   ]
 }

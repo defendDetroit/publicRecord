@@ -1,6 +1,6 @@
 {
-  "_generated": "2026-10-10T16:39:00Z",
-  "_source": "Pass 10c: Wilk-Moore colleague edge added (7 shared entities, formation/governance split)",
+  "_generated": "2026-10-10T21:07:00Z",
+  "_source": "Pass 11: Data braid dedup — 8 institution-node duplicates merged, broken wilk->moore edge fixed",
   "nodes": [
     {
       "id": "adam_sabree",
@@ -79,7 +79,7 @@
       "label": "Jehan Crump-Gibson",
       "type": "actor",
       "tier": 2,
-      "role": "Attorney \u00e2\u20ac\u201d Banks defense + ADB Panelist"
+      "role": "Attorney â€” Banks defense + ADB Panelist"
     },
     {
       "id": "misha_stallworth",
@@ -93,21 +93,21 @@
       "label": "Henri O. Harmon",
       "type": "actor",
       "tier": 3,
-      "role": "GLLG Partner \u00e2\u20ac\u201d MSU Law BLSA President"
+      "role": "GLLG Partner â€” MSU Law BLSA President"
     },
     {
       "id": "sheila_cockrel",
       "label": "Sheila Cockrel",
       "type": "actor",
       "tier": 3,
-      "role": "CitizenDetroit CEO \u00e2\u20ac\u201d former Council"
+      "role": "CitizenDetroit CEO â€” former Council"
     },
     {
       "id": "archer_jr",
       "label": "Dennis Archer Jr.",
       "type": "actor",
       "tier": 4,
-      "role": "CitizenDetroit Director \u00e2\u20ac\u201d dynasty"
+      "role": "CitizenDetroit Director â€” dynasty"
     },
     {
       "id": "daniels",
@@ -135,7 +135,7 @@
       "label": "Eric Sabree",
       "type": "actor",
       "tier": 3,
-      "role": "Political enabler \u00e2\u20ac\u201d family dynasty",
+      "role": "Political enabler â€” family dynasty",
       "page": "/network/political/eric-sabree/"
     },
     {
@@ -157,7 +157,7 @@
       "label": "Sherry Gay-Dagnogo",
       "type": "actor",
       "tier": 3,
-      "role": "Political enabler \u00e2\u20ac\u201d charter authorizer",
+      "role": "Political enabler â€” charter authorizer",
       "page": "/network/political/sherry-gay-dagnogo/"
     },
     {
@@ -210,7 +210,7 @@
       "label": "Judge Denise Langford Morris (Retired)",
       "type": "actor",
       "tier": 2,
-      "role": "Judicial cover \u00e2\u20ac\u201d credential legitimizer",
+      "role": "Judicial cover â€” credential legitimizer",
       "page": "/network/judges/denise-langford-morris/"
     },
     {
@@ -239,7 +239,7 @@
       "label": "Billy McKinney",
       "type": "actor",
       "tier": 3,
-      "role": "Political enabler \u00e2\u20ac\u201d campaign operative",
+      "role": "Political enabler â€” campaign operative",
       "page": "/network/political/billy-mckinney/"
     },
     {
@@ -255,7 +255,7 @@
       "label": "Lisa Moreland",
       "type": "actor",
       "tier": 2,
-      "role": "AAG \u00e2\u2020\u2019 PCA Board Director"
+      "role": "AAG â†’ PCA Board Director"
     },
     {
       "id": "od_banks",
@@ -336,7 +336,7 @@
       "label": "Todd Perkins",
       "type": "actor",
       "tier": 4,
-      "role": "Professional enabler \u00e2\u20ac\u201d attorney",
+      "role": "Professional enabler â€” attorney",
       "page": "/network/professional-enablers/todd-perkins/"
     },
     {
@@ -358,7 +358,7 @@
       "label": "Judge Vonda Evans (Retired)",
       "type": "actor",
       "tier": 2,
-      "role": "Judicial cover \u00e2\u20ac\u201d mentor",
+      "role": "Judicial cover â€” mentor",
       "page": "/network/judges/vonda-evans/"
     },
     {
@@ -554,7 +554,7 @@
       "label": "Aaron Keel",
       "type": "actor",
       "tier": 4,
-      "role": "MASB \u00e2\u2020\u2019 House Dem \u00e2\u2020\u2019 Treasury \u00e2\u2020\u2019 Dykema"
+      "role": "MASB â†’ House Dem â†’ Treasury â†’ Dykema"
     },
     {
       "id": "eastside_slate",
@@ -683,7 +683,7 @@
       "label": "Serenity Guardianship Services, Inc.",
       "type": "entity",
       "page": "/network/entities/serenity-guardianship/",
-      "entity_type": "Dissolved \u00e2\u20ac\u201d UPL red flag",
+      "entity_type": "Dissolved â€” UPL red flag",
       "lara_id": "802290962"
     },
     {
@@ -725,48 +725,8 @@
       "type": "institution"
     },
     {
-      "id": "latisha_johnson",
-      "label": "latisha johnson",
-      "type": "institution"
-    },
-    {
       "id": "ofa",
       "label": "ofa",
-      "type": "institution"
-    },
-    {
-      "id": "perkins_d",
-      "label": "perkins d",
-      "type": "institution"
-    },
-    {
-      "id": "perkins_sean",
-      "label": "perkins sean",
-      "type": "institution"
-    },
-    {
-      "id": "perkins_t",
-      "label": "perkins t",
-      "type": "institution"
-    },
-    {
-      "id": "ramsey",
-      "label": "ramsey",
-      "type": "institution"
-    },
-    {
-      "id": "sabree_a",
-      "label": "sabree a",
-      "type": "institution"
-    },
-    {
-      "id": "sabree_adam",
-      "label": "sabree adam",
-      "type": "institution"
-    },
-    {
-      "id": "sabree_e",
-      "label": "sabree e",
       "type": "institution"
     },
     {
@@ -1065,16 +1025,7 @@
       "weight": 9
     },
     {
-      "source": "latisha_johnson",
-      "target": "pca",
-      "type": "board_membership",
-      "epistemic_status": "record",
-      "role": "Board Secretary",
-      "weight": 7,
-      "source_doc": "purposecharteracademy.com/boardofdirectors"
-    },
-    {
-      "source": "latisha_johnson",
+      "source": "johnson_l",
       "target": "city_council",
       "type": "elected_office",
       "epistemic_status": "record",
@@ -1119,33 +1070,8 @@
       "weight": 10
     },
     {
-      "source": "sabree_a",
-      "target": "court_3rd",
-      "type": "bench",
-      "epistemic_status": "record",
-      "role": "Judge (Family Division)",
-      "weight": 10
-    },
-    {
-      "source": "sabree_a",
-      "target": "banks",
-      "type": "classmate",
-      "epistemic_status": "record",
-      "note": "MSU Law 2010 \u00e2\u20ac\u201d same year as Banks' claimed J.D.",
-      "weight": 5,
-      "source_doc": "Graduation records"
-    },
-    {
       "source": "eric_sabree",
-      "target": "sabree_a",
-      "type": "family",
-      "epistemic_status": "record",
-      "role": "Father",
-      "weight": 10
-    },
-    {
-      "source": "eric_sabree",
-      "target": "sabree_adam",
+      "target": "sabree",
       "type": "family",
       "epistemic_status": "record",
       "role": "Father",
@@ -1159,64 +1085,6 @@
       "note": "Listed as endorser on keepjudgemiller.com",
       "weight": 4,
       "source_doc": "keepjudgemiller.com"
-    },
-    {
-      "source": "sabree_adam",
-      "target": "court_36th",
-      "type": "bench",
-      "epistemic_status": "record",
-      "role": "Judge",
-      "weight": 10
-    },
-    {
-      "source": "perkins_d",
-      "target": "court_probate",
-      "type": "bench",
-      "epistemic_status": "record",
-      "role": "Chief Judge Pro Tem",
-      "weight": 10
-    },
-    {
-      "source": "perkins_d",
-      "target": "banks",
-      "type": "family_donation",
-      "epistemic_status": "record",
-      "note": "Family donated to Banks-aligned campaigns",
-      "weight": 4,
-      "source_doc": "CFRS"
-    },
-    {
-      "source": "perkins_sean",
-      "target": "court_36th",
-      "type": "bench",
-      "epistemic_status": "record",
-      "role": "Judge",
-      "weight": 10
-    },
-    {
-      "source": "perkins_sean",
-      "target": "todd_perkins",
-      "type": "family",
-      "epistemic_status": "record",
-      "role": "Brother",
-      "weight": 10
-    },
-    {
-      "source": "ramsey",
-      "target": "court_3rd",
-      "type": "bench",
-      "epistemic_status": "record",
-      "role": "Judge (Criminal Division)",
-      "weight": 10
-    },
-    {
-      "source": "ramsey",
-      "target": "macdowell",
-      "type": "employment_family",
-      "epistemic_status": "record",
-      "note": "2 family members on MacDowell payroll",
-      "weight": 6,
-      "source_doc": "School records"
     },
     {
       "source": "evans",
@@ -1310,7 +1178,7 @@
       "type": "payment",
       "epistemic_status": "record",
       "amount": "4483",
-      "note": "Campaign \u00e2\u2020\u2019 extended Banks family",
+      "note": "Campaign â†’ extended Banks family",
       "weight": 5,
       "source_doc": "TransparencyUSA"
     },
@@ -1328,7 +1196,7 @@
       "target": "purpose_group",
       "type": "money_flow",
       "epistemic_status": "corroborated",
-      "note": "Management contract \u00e2\u20ac\u201d per-pupil funding flows to CMO",
+      "note": "Management contract â€” per-pupil funding flows to CMO",
       "weight": 9
     },
     {
@@ -1406,7 +1274,7 @@
       "type": "permit",
       "epistemic_status": "record",
       "role": "Source of Daily Substitute Permit for 3rd-grade teacher",
-      "note": "Alana Hubbell \u00e2\u20ac\u201d Daily Sub Permit issued through Escuela Avancemos",
+      "note": "Alana Hubbell â€” Daily Sub Permit issued through Escuela Avancemos",
       "weight": 4,
       "source_doc": "MOECS public search Sep 26, 2026"
     },
@@ -1416,7 +1284,7 @@
       "type": "permit",
       "epistemic_status": "record",
       "role": "Source of Daily Substitute Permit for 5th-grade teacher",
-      "note": "Ashlie Spencer \u00e2\u20ac\u201d Daily Sub Permit issued through Chandler Park Academy",
+      "note": "Ashlie Spencer â€” Daily Sub Permit issued through Chandler Park Academy",
       "weight": 4,
       "source_doc": "MOECS public search Sep 26, 2026"
     },
@@ -1434,7 +1302,7 @@
       "target": "holland",
       "type": "co-resident",
       "epistemic_status": "record",
-      "note": "Same address: 1968 Severn Rd, GPW \u00e2\u20ac\u201d co-resident, all entities",
+      "note": "Same address: 1968 Severn Rd, GPW â€” co-resident, all entities",
       "weight": 9,
       "viz_type": "associate",
       "flow": "influence",
@@ -1460,7 +1328,7 @@
       "weight": 9,
       "viz_type": "controls",
       "flow": "position",
-      "label": "Board President \u00e2\u2030\u00a52014"
+      "label": "Board President â‰¥2014"
     },
     {
       "source": "wells_stallworth",
@@ -1564,7 +1432,7 @@
       "label": "endorsed"
     },
     {
-      "source": "sabree_e",
+      "source": "eric_sabree",
       "target": "banks",
       "type": "political",
       "epistemic_status": "corroborated",
@@ -1666,11 +1534,11 @@
       "target": "sheffield",
       "type": "political",
       "epistemic_status": "record",
-      "note": "OIG probe \u00e2\u20ac\u201d phone call",
+      "note": "OIG probe â€” phone call",
       "weight": 7,
       "viz_type": "political",
       "flow": "power",
-      "label": "OIG probe \u00e2\u20ac\u201d phone call"
+      "label": "OIG probe â€” phone call"
     },
     {
       "source": "fiore",
@@ -1695,18 +1563,7 @@
       "label": "Op Northern Hook"
     },
     {
-      "source": "perkins_t",
-      "target": "banks",
-      "type": "legal_representation",
-      "epistemic_status": "record",
-      "role": "Defense attorney",
-      "weight": 8,
-      "viz_type": "associate",
-      "flow": "influence",
-      "label": "defense attorney"
-    },
-    {
-      "source": "perkins_t",
+      "source": "todd_perkins",
       "target": "fiore",
       "type": "payment",
       "epistemic_status": "record",
@@ -1720,7 +1577,7 @@
     },
     {
       "source": "gay_dagnogo",
-      "target": "perkins_t",
+      "target": "todd_perkins",
       "type": "payment",
       "epistemic_status": "record",
       "amount": "750",
@@ -1758,11 +1615,11 @@
       "target": "banks",
       "type": "legal_representation",
       "epistemic_status": "corroborated",
-      "note": "AAG argued against cert \u00e2\u2020\u2019 became his attorney + board member",
+      "note": "AAG argued against cert â†’ became his attorney + board member",
       "weight": 8,
       "viz_type": "judicial",
       "flow": "influence",
-      "label": "AAG argued against cert \u00e2\u2020\u2019 became his attorney + board member"
+      "label": "AAG argued against cert â†’ became his attorney + board member"
     },
     {
       "source": "hutchings",
@@ -1903,11 +1760,11 @@
       "target": "custom_promo",
       "type": "ownership",
       "epistemic_status": "record",
-      "note": "Dissolve-and-reform (Inc\u00e2\u2020\u2019LLC, 3 mo)",
+      "note": "Dissolve-and-reform (Incâ†’LLC, 3 mo)",
       "weight": 7,
       "viz_type": "controls",
       "flow": "power",
-      "label": "dissolve-and-reform (Inc\u00e2\u2020\u2019LLC, 3 mo)"
+      "label": "dissolve-and-reform (Incâ†’LLC, 3 mo)"
     },
     {
       "source": "custom_promo",
@@ -1936,11 +1793,11 @@
       "target": "eastside_slate",
       "type": "governance",
       "epistemic_status": "record",
-      "role": "Agent \u00e2\u20ac\u201d 4th incarnation",
+      "role": "Agent â€” 4th incarnation",
       "weight": 7,
       "viz_type": "controls",
       "flow": "power",
-      "label": "agent \u00e2\u20ac\u201d 4th incarnation"
+      "label": "agent â€” 4th incarnation"
     },
     {
       "source": "carol_banks",
@@ -2013,11 +1870,11 @@
       "target": "crump_gibson",
       "type": "family",
       "epistemic_status": "inference",
-      "note": "Shared surname Crump \u00e2\u20ac\u201d MSU \u00e2\u20ac\u201d family?",
+      "note": "Shared surname Crump â€” MSU â€” family?",
       "weight": 4,
       "viz_type": "associate",
       "flow": "influence",
-      "label": "shared surname Crump \u00e2\u20ac\u201d MSU \u00e2\u20ac\u201d family?"
+      "label": "shared surname Crump â€” MSU â€” family?"
     },
     {
       "source": "banks",
@@ -2106,11 +1963,11 @@
       "target": "dpscd_auth",
       "type": "political",
       "epistemic_status": "record",
-      "note": "DPSCD board \u00e2\u2020\u2019 authorized PCA",
+      "note": "DPSCD board â†’ authorized PCA",
       "weight": 7,
       "viz_type": "political",
       "flow": "influence",
-      "label": "DPSCD board \u00e2\u2020\u2019 authorized PCA"
+      "label": "DPSCD board â†’ authorized PCA"
     },
     {
       "source": "coleman_young",
@@ -2249,33 +2106,33 @@
       "target": "banks",
       "type": "referral",
       "epistemic_status": "corroborated",
-      "note": "Referred Cotton \u00e2\u2020\u2019 sexual harassment",
+      "note": "Referred Cotton â†’ sexual harassment",
       "weight": 6,
       "viz_type": "associate",
       "flow": "influence",
-      "label": "referred Cotton \u00e2\u2020\u2019 sexual harassment"
+      "label": "referred Cotton â†’ sexual harassment"
     },
     {
       "source": "vaughn",
       "target": "pca",
       "type": "authorization",
       "epistemic_status": "record",
-      "note": "DPSCD Board Pres \u00e2\u20ac\u201d authorized charter",
+      "note": "DPSCD Board Pres â€” authorized charter",
       "weight": 8,
       "viz_type": "institutional",
       "flow": "power",
-      "label": "DPSCD Board Pres \u00e2\u20ac\u201d authorized charter"
+      "label": "DPSCD Board Pres â€” authorized charter"
     },
     {
       "source": "vaughn",
       "target": "macdowell",
       "type": "authorization",
       "epistemic_status": "record",
-      "note": "DPSCD Board Pres \u00e2\u20ac\u201d authorized charter",
+      "note": "DPSCD Board Pres â€” authorized charter",
       "weight": 8,
       "viz_type": "institutional",
       "flow": "power",
-      "label": "DPSCD Board Pres \u00e2\u20ac\u201d authorized charter"
+      "label": "DPSCD Board Pres â€” authorized charter"
     },
     {
       "source": "crump_gibson",
@@ -2353,18 +2210,18 @@
       "target": "dpscd",
       "type": "board_membership",
       "epistemic_status": "record",
-      "role": "Board member \u00e2\u20ac\u201d authorized charters",
+      "role": "Board member â€” authorized charters",
       "weight": 8,
       "viz_type": "controls",
       "flow": "power",
-      "label": "board member \u00e2\u20ac\u201d authorized MacDowell charter"
+      "label": "board member â€” authorized MacDowell charter"
     },
     {
       "source": "misha_stallworth",
       "target": "wells_stallworth",
       "type": "family",
       "epistemic_status": "inference",
-      "note": "Stallworth dynasty \u00e2\u20ac\u201d family connection",
+      "note": "Stallworth dynasty â€” family connection",
       "weight": 7,
       "viz_type": "family",
       "flow": "influence",
@@ -2411,7 +2268,7 @@
       "target": "macdowell",
       "type": "authorization",
       "epistemic_status": "record",
-      "note": "DPSCD Board \u00e2\u20ac\u201d authorized charter while family member presides over MacDowell board",
+      "note": "DPSCD Board â€” authorized charter while family member presides over MacDowell board",
       "weight": 8,
       "viz_type": "institutional",
       "flow": "power",
@@ -2422,11 +2279,11 @@
       "target": "misha_stallworth",
       "type": "board_co_membership",
       "epistemic_status": "record",
-      "note": "Both on CitizenDetroit board \u00e2\u20ac\u201d defense attorney + charter authorizer",
+      "note": "Both on CitizenDetroit board â€” defense attorney + charter authorizer",
       "weight": 9,
       "viz_type": "associate",
       "flow": "influence",
-      "label": "CitizenDetroit board overlap \u00e2\u20ac\u201d defense attorney + charter authorizer",
+      "label": "CitizenDetroit board overlap â€” defense attorney + charter authorizer",
       "source_doc": "ProPublica 990, EIN 82-2361291"
     },
     {
@@ -2434,11 +2291,11 @@
       "target": "banks",
       "type": "institutional_memory",
       "epistemic_status": "inference",
-      "note": "BLSA President at MSU Law (2006) \u00e2\u20ac\u201d Banks claims MSU Law JD (~2010). Same school, overlapping institutional network.",
+      "note": "BLSA President at MSU Law (2006) â€” Banks claims MSU Law JD (~2010). Same school, overlapping institutional network.",
       "weight": 5,
       "viz_type": "associate",
       "flow": "influence",
-      "label": "MSU Law BLSA network \u00e2\u20ac\u201d same school Banks claims",
+      "label": "MSU Law BLSA network â€” same school Banks claims",
       "source_doc": "gllegalgroup.com, lawyer.com"
     },
     {
@@ -2473,7 +2330,7 @@
       "weight": 8,
       "viz_type": "institutional",
       "flow": "position",
-      "label": "Instructional Specialist 33yr \u00e2\u20ac\u201d authorization membrane breach",
+      "label": "Instructional Specialist 33yr â€” authorization membrane breach",
       "source_doc": "LinkedIn"
     },
     {
@@ -2481,33 +2338,33 @@
       "target": "crump_gibson",
       "type": "family",
       "epistemic_status": "inference",
-      "note": "Shared surname Crump \u00e2\u20ac\u201d dynasty signal unconfirmed",
+      "note": "Shared surname Crump â€” dynasty signal unconfirmed",
       "weight": 3,
       "viz_type": "family",
       "flow": "influence",
-      "label": "Crump surname \u00e2\u20ac\u201d unconfirmed family tie"
+      "label": "Crump surname â€” unconfirmed family tie"
     },
     {
       "source": "jennifer_crump",
       "target": "v_hall",
       "type": "family",
       "epistemic_status": "inference",
-      "note": "Shared surname Crump \u00e2\u20ac\u201d dynasty signal unconfirmed",
+      "note": "Shared surname Crump â€” dynasty signal unconfirmed",
       "weight": 3,
       "viz_type": "family",
       "flow": "influence",
-      "label": "Crump surname \u00e2\u20ac\u201d unconfirmed family tie"
+      "label": "Crump surname â€” unconfirmed family tie"
     },
     {
       "source": "jason_perry_pca",
       "target": "pca",
       "type": "employment",
       "epistemic_status": "field_report",
-      "role": "Unverified role \u00e2\u20ac\u201d ghost node",
+      "role": "Unverified role â€” ghost node",
       "weight": 5,
       "viz_type": "associate",
       "flow": "position",
-      "label": "ghost node \u00e2\u20ac\u201d convergence = 0",
+      "label": "ghost node â€” convergence = 0",
       "source_doc": "Parent field report Oct 9, 2026"
     },
     {
@@ -2519,7 +2376,7 @@
       "weight": 9,
       "viz_type": "controls",
       "flow": "position",
-      "label": "Founding School Leader \u00e2\u20ac\u201d legitimacy transfer",
+      "label": "Founding School Leader â€” legitimacy transfer",
       "source_doc": "purposecharteracademy.com"
     },
     {
@@ -2531,7 +2388,7 @@
       "weight": 8,
       "viz_type": "institutional",
       "flow": "position",
-      "label": "29yr DPSCD veteran \u00e2\u20ac\u201d recruited to Banks enterprise",
+      "label": "29yr DPSCD veteran â€” recruited to Banks enterprise",
       "source_doc": "LinkedIn"
     },
     {
@@ -2543,7 +2400,7 @@
       "weight": 7,
       "viz_type": "controls",
       "flow": "position",
-      "label": "Dean of Scholars \u00e2\u20ac\u201d cert expired 6/30/2026",
+      "label": "Dean of Scholars â€” cert expired 6/30/2026",
       "source_doc": "macdowellprep.com/about/"
     },
     {
@@ -2555,7 +2412,7 @@
       "weight": 8,
       "viz_type": "institutional",
       "flow": "position",
-      "label": "DPSCD employee \u00e2\u20ac\u201d authorization membrane breach",
+      "label": "DPSCD employee â€” authorization membrane breach",
       "source_doc": "LinkedIn"
     },
     {
@@ -2567,7 +2424,7 @@
       "weight": 7,
       "viz_type": "controls",
       "flow": "position",
-      "label": "Dean + Teacher \u00e2\u20ac\u201d zero MOECS credentials, tourism degree",
+      "label": "Dean + Teacher â€” zero MOECS credentials, tourism degree",
       "source_doc": "macdowellprep.com/about/"
     },
     {
@@ -2577,7 +2434,7 @@
       "epistemic_status": "record",
       "role": "Team Leader, Political Compliance",
       "weight": 9,
-      "label": "Dykema Member \u00e2\u20ac\u201d dark money architect"
+      "label": "Dykema Member â€” dark money architect"
     },
     {
       "source": "renae_moore",
@@ -2594,7 +2451,7 @@
       "type": "formation",
       "epistemic_status": "record",
       "weight": 9,
-      "label": "Incorporator \u00e2\u20ac\u201d Save Detroit Jobs"
+      "label": "Incorporator â€” Save Detroit Jobs"
     },
     {
       "source": "wilk",
@@ -2602,7 +2459,7 @@
       "type": "formation",
       "epistemic_status": "record",
       "weight": 9,
-      "label": "Incorporator \u00e2\u20ac\u201d Our Neighborhoods First"
+      "label": "Incorporator â€” Our Neighborhoods First"
     },
     {
       "source": "wilk",
@@ -2610,7 +2467,7 @@
       "type": "formation",
       "epistemic_status": "record",
       "weight": 9,
-      "label": "Incorporator \u00e2\u20ac\u201d Detroit Jobs First"
+      "label": "Incorporator â€” Detroit Jobs First"
     },
     {
       "source": "wilk",
@@ -2618,7 +2475,7 @@
       "type": "formation",
       "epistemic_status": "record",
       "weight": 8,
-      "label": "Incorporator \u00e2\u20ac\u201d RFFW LLC ($1M ballot committee)"
+      "label": "Incorporator â€” RFFW LLC ($1M ballot committee)"
     },
     {
       "source": "wilk",
@@ -2626,7 +2483,7 @@
       "type": "formation",
       "epistemic_status": "record",
       "weight": 9,
-      "label": "Incorporator \u00e2\u20ac\u201d Put Progress First (Duggan dark money)",
+      "label": "Incorporator â€” Put Progress First (Duggan dark money)",
       "source_doc": "Bridge Detroit, Detroit News"
     },
     {
@@ -2635,7 +2492,7 @@
       "type": "formation",
       "epistemic_status": "record",
       "weight": 9,
-      "label": "Incorporator \u00e2\u20ac\u201d Michigan First Principles (anti-James)",
+      "label": "Incorporator â€” Michigan First Principles (anti-James)",
       "source_doc": "Detroit News Jan 20 2026"
     },
     {
@@ -2644,7 +2501,7 @@
       "type": "governance",
       "epistemic_status": "record",
       "weight": 8,
-      "label": "Asst Secretary \u00e2\u20ac\u201d Dykema employee on dark money board"
+      "label": "Asst Secretary â€” Dykema employee on dark money board"
     },
     {
       "source": "renae_moore",
@@ -2668,7 +2525,7 @@
       "type": "governance",
       "epistemic_status": "record",
       "weight": 8,
-      "label": "Treasurer \u00e2\u20ac\u201d $1M money laundering complaint"
+      "label": "Treasurer â€” $1M money laundering complaint"
     },
     {
       "source": "dykema_federal_pac",
@@ -2694,7 +2551,7 @@
       "type": "formation",
       "epistemic_status": "record",
       "weight": 7,
-      "label": "Firm's federal PAC \u00e2\u20ac\u201d $131K to 47 candidates both parties"
+      "label": "Firm's federal PAC â€” $131K to 47 candidates both parties"
     },
     {
       "source": "dykema",
@@ -2702,7 +2559,7 @@
       "type": "formation",
       "epistemic_status": "record",
       "weight": 7,
-      "label": "Firm's state PAC \u00e2\u20ac\u201d $725K+ to both parties"
+      "label": "Firm's state PAC â€” $725K+ to both parties"
     },
     {
       "source": "afp_action",
@@ -2719,7 +2576,7 @@
       "type": "employment",
       "epistemic_status": "record",
       "weight": 8,
-      "label": "Senior advisor \u00e2\u20ac\u201d $114K+ consulting (Roe Strategic LLC)",
+      "label": "Senior advisor â€” $114K+ consulting (Roe Strategic LLC)",
       "source_doc": "FEC MUR 8072"
     },
     {
@@ -2728,7 +2585,7 @@
       "type": "opposition",
       "epistemic_status": "record",
       "weight": 8,
-      "label": "TV/radio/digital attack ads \u00e2\u20ac\u201d 'totally disloyal'",
+      "label": "TV/radio/digital attack ads â€” 'totally disloyal'",
       "source_doc": "Detroit News Jan 2026, FCC filings"
     },
     {
@@ -2737,7 +2594,7 @@
       "type": "financial",
       "epistemic_status": "record",
       "weight": 9,
-      "label": "$84K spent defeating Elrick \u00e2\u2020\u2019 electing Johnson to Council",
+      "label": "$84K spent defeating Elrick â†’ electing Johnson to Council",
       "source_doc": "Deadline Detroit"
     },
     {
@@ -2747,7 +2604,7 @@
       "epistemic_status": "record",
       "note": "Recused from Banks PPO in Ingham County",
       "weight": 7,
-      "label": "RECUSED \u00e2\u20ac\u201d knows Dykema/Lansing political compliance world"
+      "label": "RECUSED â€” knows Dykema/Lansing political compliance world"
     },
     {
       "source": "tremblay",
@@ -2763,7 +2620,7 @@
       "target": "peninsula_fund",
       "type": "governance",
       "epistemic_status": "record",
-      "note": "Asst Secretary/Treasurer \u00e2\u20ac\u201d testified Feb 2025 in Chatfield prelim",
+      "note": "Asst Secretary/Treasurer â€” testified Feb 2025 in Chatfield prelim",
       "weight": 9,
       "label": "Same role as SDJ + 80 other accounts",
       "source_doc": "AG Affidavit + Bridge Michigan + Detroit News Feb 26 2025"
@@ -2773,7 +2630,7 @@
       "target": "peninsula_fund",
       "type": "formation",
       "epistemic_status": "record",
-      "note": "Dykema incorporated Peninsula Fund \u00e2\u20ac\u201d AG affidavit",
+      "note": "Dykema incorporated Peninsula Fund â€” AG affidavit",
       "weight": 8,
       "label": "Dykema incorporated",
       "source_doc": "AG Affidavit for Complaint, April 2024"
@@ -2794,7 +2651,7 @@
       "epistemic_status": "record",
       "note": "Gov policy advisor since 2023. Former MASB, House Dem Caucus, Treasury.",
       "weight": 7,
-      "label": "MASB\u00e2\u2020\u2019House\u00e2\u2020\u2019Treasury\u00e2\u2020\u2019Dykema (revolving door)"
+      "label": "MASBâ†’Houseâ†’Treasuryâ†’Dykema (revolving door)"
     },
     {
       "source": "aaron_keel",
@@ -2957,7 +2814,7 @@
     },
     {
       "source": "wilk",
-      "target": "moore",
+      "target": "renae_moore",
       "type": "colleague",
       "role": "Dykema co-workers, formation/governance split across 7 shared dark money vehicles"
     }

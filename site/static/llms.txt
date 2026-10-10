@@ -14,7 +14,7 @@
 # Static site API: https://detroit.primals.eco/api/site.json (structure, pages, taxonomies)
 # Full content dump: https://detroit.primals.eco/llms-full.txt
 # Content manifest: https://detroit.primals.eco/content-manifest.toml
-# Network graph (JSON): https://detroit.primals.eco/graph.json (129 nodes, 215 edges)
+# Network graph (JSON): https://detroit.primals.eco/graph.json (121 nodes, 203 edges)
 # Network graph (CSV): https://detroit.primals.eco/graph.csv (edge list for Gephi/pandas/R)
 
 ## What's New (2026-10-10)
@@ -36,10 +36,11 @@
   to Wilk." Three employees, two offices, one dark money vehicle.
   11 vehicles (was 7). Formation velocity accelerating.
   /analysis/the-flower-to-wilk/
-- GRAPH UPDATE: 129 nodes, 215 edges (was 91/140). Wilk-Moore colleague
-  edge added. 6 orphaned judges wired. DJF duplicate merged.
+- GRAPH CLEANUP (Pass 11): 121 nodes, 203 edges (was 129/215). Eight
+  duplicate institution-type nodes merged into actor nodes. Broken
+  wilk→moore edge fixed. Zero broken references. actors.json: 66 actors.
 - API ENDPOINTS: /api/invert.json (structural template),
-  /api/damages.json (damages framework), /api/actors.json,
+  /api/damages.json (damages framework), /api/actors.json (66 actors),
   /api/entities.json — all machine-readable JSON
 
 ## What's New (2026-10-08)
