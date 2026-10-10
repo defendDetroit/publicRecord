@@ -29,11 +29,11 @@ In Ursula K. Le Guin's *The Ones Who Walk Away from Omelas*, a perfect city's pr
 In the ecoPrimals project — the philosophical and technical framework from which this website was built — we asked the next question: **what if you went back?**
 
 > *"Our ethos is not one of abandonment, but of liberation. We do not walk away. We return to Omelas with tools."*
-> — [The Return to Omelas](https://sporeprint.primals.eco/philosophy/return-to-omelas/)
+> — [The New City](https://sporeprint.primals.eco/philosophy/the-new-city/)
 
 The children in Detroit's charter schools are not a metaphor. They are the child in the basement — kept in a system that produces **3% math proficiency** while extracting **$4.9 million per year** through shell entities. The city's institutions — its schools, courts, churches, treasury, legislature, and banks — are the walls of the basement. This analysis maps those walls.
 
-This is not the first time the ecoPrimals framework has named this pattern. In [The City of Omelas](https://sporeprint.primals.eco/atlasHugged/01/) — the first chapter of *atlasHugged* — the argument was made in general terms:
+This is not the first time the ecoPrimals framework has named this pattern. In [The City of Omelas](https://sporeprint.primals.eco/philosophy/the-city-of-omelas/) — the first chapter of *atlasHugged* — the argument was made in general terms:
 
 > *"The basement is bigger than one child. It is the sweatshop in Shenzhen. It is the pollution in the river. It is milk poured into gutters during the Great Depression while a hundred miles away, families went hungry. The suffering that sustains Omelas is human suffering — all of it, every structural position where someone bears a cost that someone else's prosperity hides."*
 
@@ -43,7 +43,7 @@ Detroit is the specific case. The child has a name. The basement has an address.
 
 ## I. The River Keeper Pattern
 
-In [The Temptation of Kingdoms](https://sporeprint.primals.eco/atlasHugged/06/), the ecoPrimals framework identifies a pattern that recurs at every scale in every civilization:
+In [The Temptation of Kingdoms](https://sporeprint.primals.eco/philosophy/the-temptation-of-kingdoms/), the ecoPrimals framework identifies a pattern that recurs at every scale in every civilization:
 
 > *"Someone finds a river. The river feeds a valley. The settlement grows. And then someone builds a tollbooth on the river. The river keeper does not create the water. He controls the access to it."*
 
@@ -88,7 +88,7 @@ The solution is not to remove one wall. The solution was articulated in atlasHug
 
 ### The Bread Thief and the Preconditions
 
-In [The Loaves and the Fishes](https://sporeprint.primals.eco/atlasHugged/05/), the ecoPrimals framework examines the classical libertarian question — *is it wrong for a man to steal bread to feed his family?* — and finds it hyperlocal:
+In [The Loaves and the Fishes](https://sporeprint.primals.eco/philosophy/the-loaves-and-the-fishes/), the ecoPrimals framework examines the classical libertarian question — *is it wrong for a man to steal bread to feed his family?* — and finds it hyperlocal:
 
 > *"The bread thief stands in front of you. His act is visible, immediate, and classifiable. He violated a boundary. The philosophy handles it cleanly: wrong. But the question that classical libertarianism does not ask — the question it is structurally unable to ask from inside its local frame — is: what are the preconditions? Why is this man stealing bread?"*
 
@@ -162,7 +162,7 @@ In atlasHugged's language: *"The factory's profit margin is subsidized by the he
 
 ## IV. The Priest and the Levite
 
-In [The Many Rooms](https://sporeprint.primals.eco/atlasHugged/09/), the ecoPrimals framework reexamines the parable of the Good Samaritan — not as a children's sermon about kindness, but as a structural critique of institutions that betray their mandate:
+In [The Many Rooms](https://sporeprint.primals.eco/philosophy/the-many-rooms/), the ecoPrimals framework reexamines the parable of the Good Samaritan — not as a children's sermon about kindness, but as a structural critique of institutions that betray their mandate:
 
 > *"A priest who touched a corpse became ritually unclean under Levitical law. Unclean meant unable to perform Temple duties. The institution's purity requirements created a structural incentive to look away. The law that was supposed to bring people closer to God produced a reason to walk past a dying man."*
 
@@ -237,7 +237,7 @@ This website is not a complaint. It is not a protest. It is not a petition to th
 It is a tool.
 
 > *"The most dangerous cage is not the one with iron bars, but the one with golden ones. It is the cage that is comfortable, convenient, and built by a benevolent keeper who promises to take care of you."*
-> — [Autonomy and the Elegant Cage](https://sporeprint.primals.eco/philosophy/autonomy/)
+> — [I Own Nothing](https://sporeprint.primals.eco/philosophy/i-own-nothing/)
 
 The institutions that were supposed to protect these children built elegant cages — charter authorization processes, oversight committees, regulatory frameworks — that give the appearance of accountability while producing none. The cage is comfortable for the institutions. The child is still in the basement.
 
@@ -262,23 +262,23 @@ The tools exist. The child is still in the basement.
 
 ## Source Framework
 
-This analysis draws from the [ecoPrimals](https://primals.eco) philosophical framework — specifically *atlasHugged*, a 12-chapter philosophical thesis for artists, philosophers, and the rest of humanity. detroit.primals.eco is its first field application: the validation of the framework against a live adversarial system, in the same way that [baseCamp Paper 28](https://sporeprint.primals.eco/baseCamp/28/) validates guerillaGorilla against a live legal system.
+This analysis draws from the [ecoPrimals](https://primals.eco) philosophical framework — specifically *atlasHugged*, a philosophical thesis for artists, philosophers, and the rest of humanity. detroit.primals.eco is its first field application: the validation of the framework against a live adversarial system, in the same way that [Paper 28](https://sporeprint.primals.eco/science/28-primal-composition-methodology/) validates guerillaGorilla against a live legal system.
 
 Key sources:
 
 | Chapter | Application to Detroit |
 |---------|----------------------|
-| **[01: The City of Omelas](https://sporeprint.primals.eco/atlasHugged/01/)** | The child in the basement is not a metaphor — it is 3% math proficiency |
-| **[05: The Loaves and the Fishes](https://sporeprint.primals.eco/atlasHugged/05/)** | The bread thief and preconditions — plea bargains destroy the preconditions of thriving |
-| **[06: The Temptation of Kingdoms](https://sporeprint.primals.eco/atlasHugged/06/)** | The river keeper pattern — Banks as tollbooth, entities as regulatory firewalls |
-| **[09: The Many Rooms](https://sporeprint.primals.eco/atlasHugged/09/)** | The Samaritan parable — institutions that walked past their mandate |
-| **[The Return to Omelas](https://sporeprint.primals.eco/philosophy/return-to-omelas/)** | We don't walk away. We return with tools. |
-| **[The Primal Ethos](https://sporeprint.primals.eco/philosophy/primal-ethos/)** | Rights hold at the edge, or they are rented privileges |
-| **[The Inviolable Individual](https://sporeprint.primals.eco/philosophy/inviolable-individual/)** | Turing, Swartz, Tesla — the system devouring its own |
-| **[Autonomy and the Elegant Cage](https://sporeprint.primals.eco/philosophy/autonomy/)** | Build exits, not walls — oversight theater as elegant cage |
-| **[guerillaGorilla](https://sporeprint.primals.eco/philosophy/guerilla-gorilla/)** | Cross-protection, pursuit predation, proactive defense |
+| **[The City of Omelas](https://sporeprint.primals.eco/philosophy/the-city-of-omelas/)** | The child in the basement is not a metaphor — it is 3% math proficiency |
+| **[The Loaves and the Fishes](https://sporeprint.primals.eco/philosophy/the-loaves-and-the-fishes/)** | The bread thief and preconditions — plea bargains destroy the preconditions of thriving |
+| **[The Temptation of Kingdoms](https://sporeprint.primals.eco/philosophy/the-temptation-of-kingdoms/)** | The river keeper pattern — Banks as tollbooth, entities as regulatory firewalls |
+| **[The Many Rooms](https://sporeprint.primals.eco/philosophy/the-many-rooms/)** | The Samaritan parable — institutions that walked past their mandate |
+| **[The New City](https://sporeprint.primals.eco/philosophy/the-new-city/)** | We don't walk away. We return with tools. |
+| **[The Orthogonal Synthesis](https://sporeprint.primals.eco/philosophy/the-orthogonal-synthesis/)** | Rights hold at the edge, or they are rented privileges |
+| **[Sovereign Science](https://sporeprint.primals.eco/philosophy/sovereign-science/)** | Proof of work over citation-sitting — individual over institution |
+| **[I Own Nothing](https://sporeprint.primals.eco/philosophy/i-own-nothing/)** | Build exits, not walls — oversight theater as elegant cage |
+| **[guerillaGorilla](https://sporeprint.primals.eco/outreach/guerilla-gorilla/)** | Cross-protection, pursuit predation, proactive defense |
 
-The full ecoPrimals philosophy lives at [sporeprint.primals.eco](https://sporeprint.primals.eco). The scientific thesis proving the underlying computational framework lives in the [baseCamp papers](https://sporeprint.primals.eco/baseCamp/). detroit.primals.eco is a sub-project of the ecoPrimals systems — the first time the philosophy was applied to a real case, with real children, in a real city, against a real machine.
+The full ecoPrimals philosophy lives at [sporeprint.primals.eco](https://sporeprint.primals.eco). The scientific thesis proving the underlying computational framework lives in the [science papers](https://sporeprint.primals.eco/science/). detroit.primals.eco is a sub-project of the ecoPrimals systems — the first time the philosophy was applied to a real case, with real children, in a real city, against a real machine.
 
 ---
 
