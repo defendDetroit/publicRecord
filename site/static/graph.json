@@ -1,6 +1,6 @@
 {
-  "_generated": "2026-10-10T16:30:00Z",
-  "_source": "OSINT Pass 10 reverse sweep - Wilk 11 vehicles, Consumers Energy circuit, inner/outer membrane",
+  "_generated": "2026-10-10T16:39:00Z",
+  "_source": "Pass 10 braid: DJF merged, 6 judges wired, 5 staff wired, deduped",
   "nodes": [
     {
       "id": "adam_sabree",
@@ -491,12 +491,6 @@
     {
       "id": "onf",
       "label": "Our Neighborhoods First",
-      "type": "entity",
-      "entity_type": "Dark money vehicle"
-    },
-    {
-      "id": "djf",
-      "label": "Detroit Jobs First",
       "type": "entity",
       "entity_type": "Dark money vehicle"
     },
@@ -1761,17 +1755,6 @@
     },
     {
       "source": "moreland",
-      "target": "pca",
-      "type": "board_membership",
-      "epistemic_status": "record",
-      "role": "Board Director + litigation attorney",
-      "weight": 8,
-      "viz_type": "controls",
-      "flow": "position",
-      "label": "Board Director + litigation attorney"
-    },
-    {
-      "source": "moreland",
       "target": "banks",
       "type": "legal_representation",
       "epistemic_status": "corroborated",
@@ -1780,17 +1763,6 @@
       "viz_type": "judicial",
       "flow": "influence",
       "label": "AAG argued against cert \u00e2\u2020\u2019 became his attorney + board member"
-    },
-    {
-      "source": "miller",
-      "target": "pca",
-      "type": "board_membership",
-      "epistemic_status": "record",
-      "role": "Board Chair",
-      "weight": 9,
-      "viz_type": "controls",
-      "flow": "position",
-      "label": "Board Chair"
     },
     {
       "source": "hutchings",
@@ -2046,17 +2018,6 @@
       "viz_type": "associate",
       "flow": "influence",
       "label": "shared surname Crump \u00e2\u20ac\u201d MSU \u00e2\u20ac\u201d family?"
-    },
-    {
-      "source": "banks",
-      "target": "serenity",
-      "type": "ownership",
-      "epistemic_status": "record",
-      "note": "Sole officer (all 4 roles). Never barred.",
-      "weight": 7,
-      "viz_type": "controls",
-      "flow": "power",
-      "label": "sole officer (all 4 roles). Never barred."
     },
     {
       "source": "banks",
@@ -2645,7 +2606,7 @@
     },
     {
       "source": "wilk",
-      "target": "djf",
+      "target": "detroit_jobs_first",
       "type": "formation",
       "epistemic_status": "record",
       "weight": 9,
@@ -2695,7 +2656,7 @@
     },
     {
       "source": "renae_moore",
-      "target": "djf",
+      "target": "detroit_jobs_first",
       "type": "governance",
       "epistemic_status": "record",
       "weight": 7,
@@ -2852,12 +2813,6 @@
     },
     {
       "source": "wilk",
-      "target": "detroit_jobs_first",
-      "type": "formation",
-      "detail": "Incorporator, Sep 8 2016 - same day as SDJ"
-    },
-    {
-      "source": "wilk",
       "target": "michiganders_progressive",
       "type": "formation",
       "detail": "Incorporator AND registered agent, Sep 2024 - INNER membrane"
@@ -2927,6 +2882,78 @@
       "target": "consumers_energy",
       "type": "legal_representation",
       "detail": "Represented before MPSC - rate cases"
+    },
+    {
+      "source": "adam_sabree",
+      "target": "court_36th",
+      "type": "judicial",
+      "detail": "36th District Court judge"
+    },
+    {
+      "source": "eric_sabree",
+      "target": "adam_sabree",
+      "type": "family",
+      "detail": "Father-son"
+    },
+    {
+      "source": "kelly_ramsey",
+      "target": "court_3rd",
+      "type": "judicial",
+      "detail": "3rd Circuit - Criminal Division"
+    },
+    {
+      "source": "kelly_ramsey",
+      "target": "macdowell",
+      "type": "association",
+      "detail": "2 family members on MacDowell payroll"
+    },
+    {
+      "source": "perkins_david",
+      "target": "court_probate",
+      "type": "judicial",
+      "detail": "Wayne County Probate Court"
+    },
+    {
+      "source": "perkins_david",
+      "target": "banks",
+      "type": "association",
+      "detail": "Family donated to Banks-aligned campaigns"
+    },
+    {
+      "source": "sabree",
+      "target": "court_3rd",
+      "type": "judicial",
+      "detail": "3rd Circuit Court"
+    },
+    {
+      "source": "sabree",
+      "target": "banks",
+      "type": "association",
+      "detail": "MSU Law classmate 2010 - same claimed cohort"
+    },
+    {
+      "source": "sean_perkins",
+      "target": "court_36th",
+      "type": "judicial",
+      "detail": "36th District Court"
+    },
+    {
+      "source": "sean_perkins",
+      "target": "todd_perkins",
+      "type": "family",
+      "detail": "Brother - worked at Perkins Law Group before bench"
+    },
+    {
+      "source": "vonda_evans",
+      "target": "court_3rd",
+      "type": "judicial",
+      "detail": "3rd Circuit Court (retired)"
+    },
+    {
+      "source": "vonda_evans",
+      "target": "banks",
+      "type": "association",
+      "detail": "21-year mentor, endorsed despite 9 convictions"
     }
   ],
   "epistemic_grammar": {
