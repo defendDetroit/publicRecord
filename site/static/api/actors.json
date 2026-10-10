@@ -1,7 +1,7 @@
 {
   "schema": "ecoPrimals/detroit-actors/v1",
   "description": "Key actors in the Detroit charter school investigation \u2014 convicted felons, judges, political operatives.",
-  "count": 57,
+  "count": 62,
   "actors": [
     {
       "id": "banks",
@@ -744,6 +744,79 @@
         "wave": "Credential void: teaching + managing school without state credentials",
         "reaction": "90.9% disadvantaged students under uncredentialed leadership"
       }
+    },
+    {
+      "id": "wilk",
+      "name": "W. Alan Wilk",
+      "short_name": "Wilk",
+      "role": "Dark money architect (Dykema)",
+      "tier": 2,
+      "nexus": [
+        "political",
+        "legislative"
+      ],
+      "detail": "Dykema Member, Team Leader Political Compliance. Incorporator of 7 dark money vehicles: SDJ, ONF, DJF, RFFW, TAWC PAC, Put Progress First, Michigan First Principles. RNLA member. Duggan campaign lawyer. Chatfield/Snyder dark money ops. Phone: 517-374-9122. Email: wawilk@dykema.com.",
+      "decomposition": {
+        "point": "One attorney. Seven dark money vehicles. Both parties.",
+        "wave": "Bipartisan dark money infrastructure — the operating system",
+        "reaction": "SDJ spent $84K electing Johnson to PCA board. The architect built the pathway."
+      }
+    },
+    {
+      "id": "renae_moore",
+      "name": "Renae Moore",
+      "short_name": "Moore",
+      "role": "Compliance officer (Dykema)",
+      "tier": 3,
+      "nexus": [
+        "political"
+      ],
+      "detail": "Dykema Senior Compliance Specialist. SDJ Asst Secretary. ONF compliance. DJF compliance. RFFW LLC Treasurer. Turn Around Wayne County PAC record keeper. Duggan campaign compliance. One person. Six dark money operations. Phone: 517-374-9121. Email: rmoore@dykema.com.",
+      "decomposition": {
+        "point": "Dykema employee simultaneously staffing 6 dark money entities",
+        "wave": "The firm and the dark money vehicle share a person",
+        "reaction": "If you call SDJ, you reach Dykema. The entity IS the firm."
+      }
+    },
+    {
+      "id": "jason_roe",
+      "name": "Jason Cabel Roe",
+      "short_name": "Roe",
+      "role": "Barrett senior advisor (Roe Strategic LLC)",
+      "tier": 3,
+      "nexus": [
+        "political",
+        "legislative"
+      ],
+      "detail": "Father Jerry Roe = MI GOP Exec Director 1969-79. Jason = MI GOP Exec Director. Deputy Campaign Mgr for Romney 2007. Rubio national media 2016. Barrett lead strategist 2024. Advance teams: Gingrich, Bush, Cheney, Perry. $114K+ from Barrett federal committee. FEC MUR 8072 (dismissed).",
+      "decomposition": {
+        "point": "Political dynasty: father+son MI GOP executive directors",
+        "wave": "Same family operating party infrastructure across 50 years",
+        "reaction": "Barrett's 'convicted felon' rhetoric against Black water protector while framing GOP as Black community allies"
+      }
+    },
+    {
+      "id": "barrett",
+      "name": "Rep. Tom Barrett",
+      "short_name": "Barrett",
+      "role": "US House MI-7",
+      "tier": 3,
+      "nexus": [
+        "political",
+        "legislative"
+      ],
+      "detail": "MI-7 (R). AFP Action largest outside spender ($477K, 44.8%). Dykema Federal PAC $4K. Roe Strategic $114K consulting. FEC MUR 8072 (state/federal fund crossover, dismissed). DeSea smear target."
+    },
+    {
+      "id": "john_james",
+      "name": "Rep. John James",
+      "short_name": "James",
+      "role": "MI-10 / Gov candidate",
+      "tier": 4,
+      "nexus": [
+        "political"
+      ],
+      "detail": "MI-10 (R). Running for governor 2026. DeVos family $80K direct + $6M super PAC. Dykema Federal PAC $4K. ATTACKED by Michigan First Principles (Wilk vehicle) Jan 2026."
     }
   ]
 }

@@ -450,6 +450,119 @@
       "entity_type": "Law firm"
     },
     {
+      "id": "dykema_federal_pac",
+      "label": "Dykema Gossett Federal PAC",
+      "type": "entity",
+      "entity_type": "Federal PAC",
+      "fec_id": "C00342113"
+    },
+    {
+      "id": "dykema_state_pac",
+      "label": "Dykema Gossett State PAC",
+      "type": "entity",
+      "entity_type": "State PAC"
+    },
+    {
+      "id": "wilk",
+      "label": "W. Alan Wilk",
+      "type": "actor",
+      "tier": 2,
+      "role": "Dark money architect"
+    },
+    {
+      "id": "renae_moore",
+      "label": "Renae Moore",
+      "type": "actor",
+      "tier": 3,
+      "role": "Compliance officer (Dykema)"
+    },
+    {
+      "id": "michigan_first_principles",
+      "label": "Michigan First Principles",
+      "type": "entity",
+      "entity_type": "Dark money vehicle"
+    },
+    {
+      "id": "put_progress_first",
+      "label": "Put Progress First",
+      "type": "entity",
+      "entity_type": "Dark money vehicle"
+    },
+    {
+      "id": "onf",
+      "label": "Our Neighborhoods First",
+      "type": "entity",
+      "entity_type": "Dark money vehicle"
+    },
+    {
+      "id": "djf",
+      "label": "Detroit Jobs First",
+      "type": "entity",
+      "entity_type": "Dark money vehicle"
+    },
+    {
+      "id": "rffw",
+      "label": "RFFW LLC",
+      "type": "entity",
+      "entity_type": "Dark money vehicle"
+    },
+    {
+      "id": "afp_action",
+      "label": "AFP Action (Koch)",
+      "type": "entity",
+      "entity_type": "Super PAC",
+      "fec_id": "C00687103"
+    },
+    {
+      "id": "jason_roe",
+      "label": "Jason Cabel Roe",
+      "type": "actor",
+      "tier": 3,
+      "role": "Barrett senior advisor"
+    },
+    {
+      "id": "barrett",
+      "label": "Rep. Tom Barrett",
+      "type": "actor",
+      "tier": 3,
+      "role": "US House MI-7"
+    },
+    {
+      "id": "john_james",
+      "label": "Rep. John James",
+      "type": "actor",
+      "tier": 4,
+      "role": "MI-10 / Gov candidate"
+    },
+    {
+      "id": "tremblay",
+      "label": "Judge Patricia Tremblay",
+      "type": "actor",
+      "tier": 4,
+      "role": "30th Circuit Court, Ingham County",
+      "court": "30th Circuit Court"
+    },
+    {
+      "id": "chatfield",
+      "label": "Lee Chatfield",
+      "type": "actor",
+      "tier": 3,
+      "role": "Former House Speaker (13 felony charges)"
+    },
+    {
+      "id": "peninsula_fund",
+      "label": "Peninsula Fund",
+      "type": "entity",
+      "entity_type": "Dark money vehicle"
+    },
+    {
+      "id": "aaron_keel",
+      "label": "Aaron Keel",
+      "type": "actor",
+      "tier": 4,
+      "role": "MASB → House Dem → Treasury → Dykema"
+    },
+    {
       "id": "eastside_slate",
       "label": "Original Eastside Slate",
       "type": "entity",
@@ -2415,6 +2528,241 @@
       "flow": "position",
       "label": "Dean + Teacher — zero MOECS credentials, tourism degree",
       "source_doc": "macdowellprep.com/about/"
+    },
+    {
+      "source": "wilk",
+      "target": "dykema",
+      "type": "employment",
+      "epistemic_status": "record",
+      "role": "Team Leader, Political Compliance",
+      "weight": 9,
+      "label": "Dykema Member — dark money architect"
+    },
+    {
+      "source": "renae_moore",
+      "target": "dykema",
+      "type": "employment",
+      "epistemic_status": "record",
+      "role": "Senior Compliance Specialist",
+      "weight": 8,
+      "label": "Dykema staff on SDJ board"
+    },
+    {
+      "source": "wilk",
+      "target": "sdj",
+      "type": "formation",
+      "epistemic_status": "record",
+      "weight": 9,
+      "label": "Incorporator — Save Detroit Jobs"
+    },
+    {
+      "source": "wilk",
+      "target": "onf",
+      "type": "formation",
+      "epistemic_status": "record",
+      "weight": 9,
+      "label": "Incorporator — Our Neighborhoods First"
+    },
+    {
+      "source": "wilk",
+      "target": "djf",
+      "type": "formation",
+      "epistemic_status": "record",
+      "weight": 9,
+      "label": "Incorporator — Detroit Jobs First"
+    },
+    {
+      "source": "wilk",
+      "target": "rffw",
+      "type": "formation",
+      "epistemic_status": "record",
+      "weight": 8,
+      "label": "Incorporator — RFFW LLC ($1M ballot committee)"
+    },
+    {
+      "source": "wilk",
+      "target": "put_progress_first",
+      "type": "formation",
+      "epistemic_status": "record",
+      "weight": 9,
+      "label": "Incorporator — Put Progress First (Duggan dark money)",
+      "source_doc": "Bridge Detroit, Detroit News"
+    },
+    {
+      "source": "wilk",
+      "target": "michigan_first_principles",
+      "type": "formation",
+      "epistemic_status": "record",
+      "weight": 9,
+      "label": "Incorporator — Michigan First Principles (anti-James)",
+      "source_doc": "Detroit News Jan 20 2026"
+    },
+    {
+      "source": "renae_moore",
+      "target": "sdj",
+      "type": "governance",
+      "epistemic_status": "record",
+      "weight": 8,
+      "label": "Asst Secretary — Dykema employee on dark money board"
+    },
+    {
+      "source": "renae_moore",
+      "target": "onf",
+      "type": "governance",
+      "epistemic_status": "record",
+      "weight": 7,
+      "label": "Compliance officer"
+    },
+    {
+      "source": "renae_moore",
+      "target": "djf",
+      "type": "governance",
+      "epistemic_status": "record",
+      "weight": 7,
+      "label": "Compliance officer"
+    },
+    {
+      "source": "renae_moore",
+      "target": "rffw",
+      "type": "governance",
+      "epistemic_status": "record",
+      "weight": 8,
+      "label": "Treasurer — $1M money laundering complaint"
+    },
+    {
+      "source": "dykema_federal_pac",
+      "target": "barrett",
+      "type": "financial",
+      "epistemic_status": "record",
+      "weight": 6,
+      "label": "$4,000 contribution (FEC, 2026 cycle)",
+      "source_doc": "FEC C00342113"
+    },
+    {
+      "source": "dykema_federal_pac",
+      "target": "john_james",
+      "type": "financial",
+      "epistemic_status": "record",
+      "weight": 6,
+      "label": "$4,000 contribution (FEC, 2026 cycle)",
+      "source_doc": "FEC C00342113"
+    },
+    {
+      "source": "dykema",
+      "target": "dykema_federal_pac",
+      "type": "formation",
+      "epistemic_status": "record",
+      "weight": 7,
+      "label": "Firm's federal PAC — $131K to 47 candidates both parties"
+    },
+    {
+      "source": "dykema",
+      "target": "dykema_state_pac",
+      "type": "formation",
+      "epistemic_status": "record",
+      "weight": 7,
+      "label": "Firm's state PAC — $725K+ to both parties"
+    },
+    {
+      "source": "afp_action",
+      "target": "barrett",
+      "type": "financial",
+      "epistemic_status": "record",
+      "weight": 9,
+      "label": "$477,780 independent expenditures (44.8% of outside spending)",
+      "source_doc": "FEC C00687103, MyRepTracker"
+    },
+    {
+      "source": "jason_roe",
+      "target": "barrett",
+      "type": "employment",
+      "epistemic_status": "record",
+      "weight": 8,
+      "label": "Senior advisor — $114K+ consulting (Roe Strategic LLC)",
+      "source_doc": "FEC MUR 8072"
+    },
+    {
+      "source": "michigan_first_principles",
+      "target": "john_james",
+      "type": "opposition",
+      "epistemic_status": "record",
+      "weight": 8,
+      "label": "TV/radio/digital attack ads — 'totally disloyal'",
+      "source_doc": "Detroit News Jan 2026, FCC filings"
+    },
+    {
+      "source": "sdj",
+      "target": "johnson_l",
+      "type": "financial",
+      "epistemic_status": "record",
+      "weight": 9,
+      "label": "$84K spent defeating Elrick → electing Johnson to Council",
+      "source_doc": "Deadline Detroit"
+    },
+    {
+      "source": "tremblay",
+      "target": "banks",
+      "type": "recusal",
+      "epistemic_status": "record",
+      "note": "Recused from Banks PPO in Ingham County",
+      "weight": 7,
+      "label": "RECUSED — knows Dykema/Lansing political compliance world"
+    },
+    {
+      "source": "tremblay",
+      "target": "dykema",
+      "type": "professional_proximity",
+      "epistemic_status": "inference",
+      "note": "18yr overlap in Lansing campaign finance world. Ingham County Bar. House counsel while Dykema lobbied legislature.",
+      "weight": 6,
+      "label": "Ingham County Bar + legislative/lobbying proximity"
+    },
+    {
+      "source": "renae_moore",
+      "target": "peninsula_fund",
+      "type": "governance",
+      "epistemic_status": "record",
+      "note": "Asst Secretary/Treasurer — testified Feb 2025 in Chatfield prelim",
+      "weight": 9,
+      "label": "Same role as SDJ + 80 other accounts",
+      "source_doc": "AG Affidavit + Bridge Michigan + Detroit News Feb 26 2025"
+    },
+    {
+      "source": "wilk",
+      "target": "peninsula_fund",
+      "type": "formation",
+      "epistemic_status": "record",
+      "note": "Dykema incorporated Peninsula Fund — AG affidavit",
+      "weight": 8,
+      "label": "Dykema incorporated",
+      "source_doc": "AG Affidavit for Complaint, April 2024"
+    },
+    {
+      "source": "chatfield",
+      "target": "peninsula_fund",
+      "type": "ownership",
+      "epistemic_status": "record",
+      "note": "$1.8M from anonymous donors, $132K personal credit card charges, 13 felonies",
+      "weight": 10,
+      "label": "Raised $1.8M, charged 13 felonies"
+    },
+    {
+      "source": "aaron_keel",
+      "target": "dykema",
+      "type": "employment",
+      "epistemic_status": "record",
+      "note": "Gov policy advisor since 2023. Former MASB, House Dem Caucus, Treasury.",
+      "weight": 7,
+      "label": "MASB→House→Treasury→Dykema (revolving door)"
+    },
+    {
+      "source": "aaron_keel",
+      "target": "tremblay",
+      "type": "professional_proximity",
+      "epistemic_status": "inference",
+      "note": "Both in House Democratic Caucus. Keel was Deputy CoS, Tremblay was Legal Counsel.",
+      "weight": 5,
+      "label": "House Dem Caucus colleagues"
     }
   ],
   "epistemic_grammar": {
