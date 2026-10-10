@@ -217,10 +217,11 @@ function buildEntityDetail(bridge, entities) {
   var groups = [];
   entities.forEach(function(e) {
     if (e.total_requests > 5) {
+      var sfPct = e.header_fingerprint ? Math.round(e.header_fingerprint.sec_fetch_pct) : 0;
       groups.push({
         key: e.label.replace(/ \(.*\)/, ''),
-        categories: ['Chrome Lag', 'Blame%', 'RPS×10'],
-        values: [e.chrome_lag || 0, e.blame_pct || 0, Math.round((e.avg_rps || 0) * 10)]
+        categories: ['Chrome Lag', 'Blame%', 'RPS×10', 'Sec-Fetch%'],
+        values: [e.chrome_lag || 0, e.blame_pct || 0, Math.round((e.avg_rps || 0) * 10), sfPct]
       });
     }
   });
@@ -270,6 +271,50 @@ function buildAcceptLanguageDonut(bridge, clusters) {
     categories: ['Present (human-like)', 'Absent (machine)'],
     values: [present, absent], unit: 'IPs'
   }, 'pt-organism-lang');
+}
+
+// eslint-disable-next-line no-unused-vars
+function buildSummaryKpis(bridge, dash) {
+  if (!dash || !dash.rps) return;
+  var mc = (dash.timing && dash.timing.machine_confidence) || 'LOW';
+  var mcVal = mc === 'HIGH' ? 0.95 : mc === 'MEDIUM' ? 0.6 : 0.2;
+  var organisms = (dash.epitope_summary && dash.epitope_summary.unique_hashes) || 0;
+  bridge.renderBinding({
+    channel_type: 'faceted_gauge', id: 'summary-kpis',
+    label: 'Live Signal',
+    group_by: 'metric',
+    gauges: [
+      { key: 'RPS', value: dash.rps, min: 0, max: 50, unit: 'req/s',
+        warning_range: [10, 50] },
+      { key: 'Fleet IPs', value: dash.fleet_ips || 0, min: 0, max: 500,
+        warning_range: [100, 500] },
+      { key: 'Human IPs', value: dash.human_ips || 0, min: 0, max: 100,
+        normal_range: [1, 100] },
+      { key: 'Fleet %', value: dash.fleet_pct || 0, min: 0, max: 100, unit: '%',
+        warning_range: [50, 100] },
+      { key: 'Machine Confidence', value: mcVal, min: 0, max: 1.0,
+        warning_range: [0.5, 1.0] },
+      { key: 'Organisms', value: organisms, min: 0, max: 20 }
+    ],
+    columns: 3
+  }, 'pt-summary-kpis');
+}
+
+// eslint-disable-next-line no-unused-vars
+function buildEpitopeSummary(bridge, summary) {
+  if (!summary || !summary.unique_hashes) return;
+  bridge.renderBinding({
+    channel_type: 'bar', id: 'epitope-summary',
+    label: 'Epitope Summary — Organism Counts',
+    categories: ['Organisms', 'Largest Cluster', 'IPs Hashed', 'Multi-IP'],
+    values: [
+      summary.unique_hashes || 0,
+      summary.largest_cluster || 0,
+      summary.total_hashed || 0,
+      summary.clusters_gt1 || 0
+    ],
+    unit: 'count'
+  }, 'pt-epitope-summary');
 }
 
 // ═══════════════════════════════════════════════════════════════
