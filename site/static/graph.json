@@ -543,6 +543,26 @@
       "court": "30th Circuit Court"
     },
     {
+      "id": "chatfield",
+      "label": "Lee Chatfield",
+      "type": "actor",
+      "tier": 3,
+      "role": "Former House Speaker (13 felony charges)"
+    },
+    {
+      "id": "peninsula_fund",
+      "label": "Peninsula Fund",
+      "type": "entity",
+      "entity_type": "Dark money vehicle"
+    },
+    {
+      "id": "aaron_keel",
+      "label": "Aaron Keel",
+      "type": "actor",
+      "tier": 4,
+      "role": "MASB → House Dem → Treasury → Dykema"
+    },
+    {
       "id": "eastside_slate",
       "label": "Original Eastside Slate",
       "type": "entity",
@@ -2696,6 +2716,53 @@
       "note": "18yr overlap in Lansing campaign finance world. Ingham County Bar. House counsel while Dykema lobbied legislature.",
       "weight": 6,
       "label": "Ingham County Bar + legislative/lobbying proximity"
+    },
+    {
+      "source": "renae_moore",
+      "target": "peninsula_fund",
+      "type": "governance",
+      "epistemic_status": "record",
+      "note": "Asst Secretary/Treasurer — testified Feb 2025 in Chatfield prelim",
+      "weight": 9,
+      "label": "Same role as SDJ + 80 other accounts",
+      "source_doc": "AG Affidavit + Bridge Michigan + Detroit News Feb 26 2025"
+    },
+    {
+      "source": "wilk",
+      "target": "peninsula_fund",
+      "type": "formation",
+      "epistemic_status": "record",
+      "note": "Dykema incorporated Peninsula Fund — AG affidavit",
+      "weight": 8,
+      "label": "Dykema incorporated",
+      "source_doc": "AG Affidavit for Complaint, April 2024"
+    },
+    {
+      "source": "chatfield",
+      "target": "peninsula_fund",
+      "type": "ownership",
+      "epistemic_status": "record",
+      "note": "$1.8M from anonymous donors, $132K personal credit card charges, 13 felonies",
+      "weight": 10,
+      "label": "Raised $1.8M, charged 13 felonies"
+    },
+    {
+      "source": "aaron_keel",
+      "target": "dykema",
+      "type": "employment",
+      "epistemic_status": "record",
+      "note": "Gov policy advisor since 2023. Former MASB, House Dem Caucus, Treasury.",
+      "weight": 7,
+      "label": "MASB→House→Treasury→Dykema (revolving door)"
+    },
+    {
+      "source": "aaron_keel",
+      "target": "tremblay",
+      "type": "professional_proximity",
+      "epistemic_status": "inference",
+      "note": "Both in House Democratic Caucus. Keel was Deputy CoS, Tremblay was Legal Counsel.",
+      "weight": 5,
+      "label": "House Dem Caucus colleagues"
     }
   ],
   "epistemic_grammar": {
