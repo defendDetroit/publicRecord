@@ -322,6 +322,56 @@
         categories: fwK, values: fwK.map(function(k) { return flowWeights[k]; }), unit: 'weight'
       }, 'pt-flow-weights');
     }
+
+    // 20. Force-directed network graph — Rust Fruchterman-Reingold layout
+    var fgNodes = data.nodes.slice(0, 120).map(function(n) {
+      return {
+        id: n.id, label: n.label || n.id,
+        kind: n.type || 'entity',
+        tier: n.tier || null,
+        metadata: { community: n.community, dynasty: n.dynasty || null }
+      };
+    });
+    var nodeSet = {};
+    fgNodes.forEach(function(n) { nodeSet[n.id] = true; });
+    var fgEdges = data.edges.filter(function(e) {
+      return nodeSet[e.source] && nodeSet[e.target];
+    }).map(function(e) {
+      return {
+        source: e.source, target: e.target,
+        relation: e.type || 'link',
+        weight: e.weight || 1.0,
+        flow: e.flow || ''
+      };
+    });
+    if (fgNodes.length > 2 && fgEdges.length > 1) {
+      pt.renderBinding({
+        channel_type: 'force_graph', id: 'network-force',
+        label: 'Network Force Layout — ' + fgNodes.length + ' Nodes, ' + fgEdges.length + ' Edges',
+        nodes: fgNodes, edges: fgEdges,
+        width: 960, height: 700
+      }, 'pt-network-force');
+    }
+
+    // 21. Chord diagram — flow matrix between tiers
+    var tierNames = ['Tier 1', 'Tier 2', 'Tier 3', 'Tier 4', 'Tier 5'];
+    var nTiers = tierNames.length;
+    var chordFlows = new Array(nTiers * nTiers).fill(0);
+    data.edges.forEach(function(e) {
+      var sNode = data.nodes.find(function(n) { return n.id === e.source; });
+      var tNode = data.nodes.find(function(n) { return n.id === e.target; });
+      if (sNode && tNode && sNode.tier >= 1 && sNode.tier <= 5 && tNode.tier >= 1 && tNode.tier <= 5) {
+        chordFlows[(sNode.tier - 1) * nTiers + (tNode.tier - 1)] += (e.weight || 1);
+      }
+    });
+    var chordTotal = chordFlows.reduce(function(a, b) { return a + b; }, 0);
+    if (chordTotal > 0) {
+      pt.renderBinding({
+        channel_type: 'chord', id: 'tier-chord',
+        label: 'Inter-Tier Flow — Who Connects to Whom (' + Math.round(chordTotal) + ' total weight)',
+        categories: tierNames, flows: chordFlows, unit: 'weight'
+      }, 'pt-tier-chord');
+    }
   }
 
   // ═══════════════════════════════════════════════════════════════
@@ -367,7 +417,10 @@
       + card('Timeline Eras', 'Event density per era.', 'pt-timeline-eras')
       + card('Evidence Sources', 'Where evidence comes from.', 'pt-evidence-sources')
       + card('Cross-Sector Nodes', 'Multi-nexus actors.', 'pt-multi-nexus')
-      + card('Connection Strength', 'Edge weight by flow type.', 'pt-flow-weights');
+      + card('Connection Strength', 'Edge weight by flow type.', 'pt-flow-weights')
+      + '<div class="pt-card" style="grid-column:1/-1"><div class="pt-card-title" style="font-size:0.85em;color:#6e7681">▸ Network topology — server-side Fruchterman-Reingold</div></div>'
+      + card('Network Force Layout', 'Nodes positioned by Rust force simulation.', 'pt-network-force')
+      + card('Inter-Tier Flow', 'Chord diagram — flow between tiers.', 'pt-tier-chord');
   }
 
   mount();
