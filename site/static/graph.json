@@ -535,6 +535,14 @@
       "role": "MI-10 / Gov candidate"
     },
     {
+      "id": "tremblay",
+      "label": "Judge Patricia Tremblay",
+      "type": "actor",
+      "tier": 4,
+      "role": "30th Circuit Court, Ingham County",
+      "court": "30th Circuit Court"
+    },
+    {
       "id": "eastside_slate",
       "label": "Original Eastside Slate",
       "type": "entity",
@@ -2670,6 +2678,24 @@
       "weight": 9,
       "label": "$84K spent defeating Elrick → electing Johnson to Council",
       "source_doc": "Deadline Detroit"
+    },
+    {
+      "source": "tremblay",
+      "target": "banks",
+      "type": "recusal",
+      "epistemic_status": "record",
+      "note": "Recused from Banks PPO in Ingham County",
+      "weight": 7,
+      "label": "RECUSED — knows Dykema/Lansing political compliance world"
+    },
+    {
+      "source": "tremblay",
+      "target": "dykema",
+      "type": "professional_proximity",
+      "epistemic_status": "inference",
+      "note": "18yr overlap in Lansing campaign finance world. Ingham County Bar. House counsel while Dykema lobbied legislature.",
+      "weight": 6,
+      "label": "Ingham County Bar + legislative/lobbying proximity"
     }
   ],
   "epistemic_grammar": {
