@@ -31,6 +31,10 @@
   var collapseStrategy = null; // null | 'community' | 'ownership' | 'address' | 'dynasty'
   var expandedGroups = {};     // group id → true for expanded groups
 
+  // ── Focal lens state (baseCamp 53 / 68) ─────────────────────────
+  // Layout uses C(n) ∝ π^(n/2) — focal distance = 1/π^(tier/2)
+  var focalLens = false;
+
   var DYNASTY_COLORS = {
     kilpatrick: '#a855f7',
     stallworth: '#f59e0b',
@@ -249,6 +253,28 @@
 
       controls.appendChild(collapseWrap);
 
+      // Focal lens separator + button (baseCamp 53/68)
+      var sep4 = document.createElement('span');
+      sep4.textContent = '│';
+      sep4.style.cssText = 'opacity:0.3;margin:0 4px;';
+      controls.appendChild(sep4);
+
+      var focalBtn = document.createElement('button');
+      focalBtn.textContent = 'π Focal Lens';
+      focalBtn.dataset.focal = 'true';
+      focalBtn.style.cssText = 'padding:4px 12px;border:2px solid #c084fc;border-radius:14px;font-size:11px;font-weight:600;cursor:pointer;transition:all 0.2s;background:transparent;color:#c084fc;';
+      focalBtn.addEventListener('click', function() {
+        focalLens = !focalLens;
+        focalBtn.style.background = focalLens ? '#c084fc' : 'transparent';
+        focalBtn.style.color = focalLens ? '#fff' : '#c084fc';
+        renderGraph(container, data);
+      });
+      if (focalLens) {
+        focalBtn.style.background = '#c084fc';
+        focalBtn.style.color = '#fff';
+      }
+      controls.appendChild(focalBtn);
+
       container.insertBefore(controls, container.firstChild);
     }
 
@@ -392,91 +418,89 @@
     svg.style.cssText = 'background:rgba(0,0,0,0.02);border-radius:8px;';
     container.appendChild(svg);
 
-    // ── Force-directed layout (no D3 dependency) ──────────────────────
-    var nodes = filteredNodes.map(function(n, i) {
-      var angle = (2 * Math.PI * i) / filteredNodes.length;
-      var radius = Math.min(width, height) * 0.35;
-      return Object.assign({}, n, {
-        x: width / 2 + radius * Math.cos(angle) * (0.5 + n.tier * 0.12),
-        y: height / 2 + radius * Math.sin(angle) * (0.5 + n.tier * 0.12),
-        vx: 0, vy: 0
+    // ── Layout (via network-graph-layout.js) ────────────────────────
+    var L = window.NetworkGraphLayout;
+    var nodes;
+    var slingshotGeo = null;
+
+    if (focalLens) {
+      var result = L.slingshot(filteredNodes, filteredLinks, width, height);
+      nodes = result.nodes;
+      slingshotGeo = result;
+
+      // ── Draw slingshot geometry (behind everything) ────────────────
+      var rings = L.slingshotRings(result.maxTier, result.maxRadius);
+      rings.forEach(function(ring) {
+        var c = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+        c.setAttribute('cx', result.originX);
+        c.setAttribute('cy', result.originY);
+        c.setAttribute('r', ring.radius);
+        c.setAttribute('fill', 'none');
+        c.setAttribute('stroke', 'rgba(192,132,252,' + ring.opacity + ')');
+        c.setAttribute('stroke-width', '1');
+        c.setAttribute('stroke-dasharray', '4,8');
+        svg.appendChild(c);
+
+        var rLabel = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+        rLabel.setAttribute('x', result.originX + ring.radius + 4);
+        rLabel.setAttribute('y', result.originY - 6);
+        rLabel.setAttribute('fill', 'rgba(192,132,252,' + ring.labelOpacity + ')');
+        rLabel.setAttribute('font-size', '8');
+        rLabel.setAttribute('font-style', 'italic');
+        rLabel.textContent = ring.label;
+        svg.appendChild(rLabel);
       });
-    });
+
+      // Origin marker
+      var originDot = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+      originDot.setAttribute('cx', result.originX);
+      originDot.setAttribute('cy', result.originY);
+      originDot.setAttribute('r', '4');
+      originDot.setAttribute('fill', '#c084fc');
+      originDot.setAttribute('stroke', 'rgba(192,132,252,0.5)');
+      originDot.setAttribute('stroke-width', '8');
+      originDot.setAttribute('stroke-opacity', '0.15');
+      svg.appendChild(originDot);
+
+      var oLabel = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+      oLabel.setAttribute('x', result.originX);
+      oLabel.setAttribute('y', result.originY - 16);
+      oLabel.setAttribute('text-anchor', 'middle');
+      oLabel.setAttribute('fill', '#c084fc');
+      oLabel.setAttribute('font-size', '10');
+      oLabel.setAttribute('font-weight', '600');
+      oLabel.textContent = 'origin';
+      svg.appendChild(oLabel);
+
+      var edgeLabel = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+      edgeLabel.setAttribute('x', width - 14);
+      edgeLabel.setAttribute('y', height - 14);
+      edgeLabel.setAttribute('text-anchor', 'end');
+      edgeLabel.setAttribute('fill', 'rgba(192,132,252,0.3)');
+      edgeLabel.setAttribute('font-size', '9');
+      edgeLabel.setAttribute('font-style', 'italic');
+      edgeLabel.textContent = 'edges → work unfinished';
+      svg.appendChild(edgeLabel);
+
+      var eqLabel = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+      eqLabel.setAttribute('x', result.originX);
+      eqLabel.setAttribute('y', result.originY + 22);
+      eqLabel.setAttribute('text-anchor', 'middle');
+      eqLabel.setAttribute('fill', 'rgba(192,132,252,0.25)');
+      eqLabel.setAttribute('font-size', '8');
+      eqLabel.textContent = 'r = R × (1 − 1/π^(n/2))';
+      svg.appendChild(eqLabel);
+    } else {
+      nodes = L.forceDirected(filteredNodes, filteredLinks, width, height);
+    }
 
     var nodeMap = {};
     nodes.forEach(function(n) { nodeMap[n.id] = n; });
 
-    var hasSuper = nodes.some(function(n) { return n._isSuper; });
-    var repulsion = hasSuper ? 28000 : 18000;
-    var idealDist = hasSuper ? 240 : 180;
-
-    for (var iter = 0; iter < 100; iter++) {
-      for (var i = 0; i < nodes.length; i++) {
-        for (var j = i + 1; j < nodes.length; j++) {
-          var dx = nodes[j].x - nodes[i].x;
-          var dy = nodes[j].y - nodes[i].y;
-          var dist = Math.sqrt(dx * dx + dy * dy) || 1;
-          var force = repulsion / (dist * dist);
-          var fx = (dx / dist) * force;
-          var fy = (dy / dist) * force;
-          nodes[i].vx -= fx; nodes[i].vy -= fy;
-          nodes[j].vx += fx; nodes[j].vy += fy;
-        }
-      }
-      filteredLinks.forEach(function(link) {
-        var s = nodeMap[link.source];
-        var t = nodeMap[link.target];
-        if (!s || !t) return;
-        var dx = t.x - s.x;
-        var dy = t.y - s.y;
-        var dist = Math.sqrt(dx * dx + dy * dy) || 1;
-        var force = (dist - idealDist) * 0.015;
-        var fx = (dx / dist) * force;
-        var fy = (dy / dist) * force;
-        s.vx += fx; s.vy += fy;
-        t.vx -= fx; t.vy -= fy;
-      });
-      nodes.forEach(function(n) {
-        n.vx += (width / 2 - n.x) * 0.004;
-        n.vy += (height / 2 - n.y) * 0.004;
-        n.x += n.vx * 0.3;
-        n.y += n.vy * 0.3;
-        n.vx *= 0.78; n.vy *= 0.78;
-        n.x = Math.max(90, Math.min(width - 90, n.x));
-        n.y = Math.max(50, Math.min(height - 50, n.y));
-      });
-    }
-
     // ── Build adjacency for hover highlighting ────────────────────────
-    var adjacency = {};
-    nodes.forEach(function(n) { adjacency[n.id] = new Set(); });
-    filteredLinks.forEach(function(l) {
-      if (adjacency[l.source]) adjacency[l.source].add(l.target);
-      if (adjacency[l.target]) adjacency[l.target].add(l.source);
-    });
+    var adjacency = L.buildAdjacency(nodes, filteredLinks);
 
-    // ── Convex hull helper ────────────────────────────────────────────
-    function convexHull(points) {
-      if (points.length < 3) return points;
-      points.sort(function(a, b) { return a[0] - b[0] || a[1] - b[1]; });
-      var lower = [];
-      for (var i = 0; i < points.length; i++) {
-        while (lower.length >= 2 && cross(lower[lower.length - 2], lower[lower.length - 1], points[i]) <= 0)
-          lower.pop();
-        lower.push(points[i]);
-      }
-      var upper = [];
-      for (var i = points.length - 1; i >= 0; i--) {
-        while (upper.length >= 2 && cross(upper[upper.length - 2], upper[upper.length - 1], points[i]) <= 0)
-          upper.pop();
-        upper.push(points[i]);
-      }
-      upper.pop(); lower.pop();
-      return lower.concat(upper);
-    }
-    function cross(O, A, B) {
-      return (A[0] - O[0]) * (B[1] - O[1]) - (A[1] - O[1]) * (B[0] - O[0]);
-    }
+    var convexHull = L.convexHull;
 
     // ── Draw ownership hulls (behind everything) ──────────────────────
     if (showOwnership) {
@@ -764,12 +788,7 @@
     });
 
     // ── Compute degree for each node ────────────────────────────────
-    var nodeDegree = {};
-    nodes.forEach(function(n) { nodeDegree[n.id] = 0; });
-    filteredLinks.forEach(function(l) {
-      if (nodeDegree[l.source] !== undefined) nodeDegree[l.source]++;
-      if (nodeDegree[l.target] !== undefined) nodeDegree[l.target]++;
-    });
+    var nodeDegree = L.computeDegrees(nodes, filteredLinks);
 
     // ── Draw nodes ────────────────────────────────────────────────────
     var nodeElements = {};
