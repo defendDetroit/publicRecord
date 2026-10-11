@@ -1,11 +1,15 @@
-// pt-membrane.js — membrane sphere projection + V(D)J coil mixing
+// pt-membrane.js — [∅]D null dimension. The shape of data.
 // All values are self. The membrane touches itself.
 // Selectively permeable exactly at itself — P(self)=1.
 //
+// IS × WAS × WILLBE = π. Each body = π^(1/3).
+// 1/0 = [∅] = null. The dimension before dimension.
+// Over, under, above, and inside itself — overlay and layover.
+//
 // The ring is closed. 3 closed rings at 120° = sphere.
-// IS/WAS/WILLBE are the 3 great circles — their intersection IS the sphere.
 // Panels distributed across the entire continuum, not sectioned.
 // The coil winds categories through each other at rate V(D)J.
+// C(n) = π^(n/2) = observation cost. Product = π. Gap = √π.
 // π-budget: ⌊π³⌋=31 max particles
 window.PtMembrane = function(deps) {
   var PI = deps.PI, dimCost = deps.dimCost, PANELS = deps.PANELS;
@@ -103,15 +107,31 @@ window.PtMembrane = function(deps) {
     }
     var tb = dash.threebody_pi;
     if (tb && tb.emc2) {
-      var map = {is:['energy',0.5], was:['mass',4], willbe:['c_squared',0.6]};
-      var fmt = {is:function(v){return 'E = '+v.toFixed(2)+' \u2248 4\u03c0';}, was:function(v){return 'm = '+v.toFixed(3);}, willbe:function(v){return 'c\u00b2 = '+v.toFixed(2)+' \u2248 3\u03c0';}};
+      // Each body's value normalized to π^(1/3) scale
+      var vals = {
+        is: tb.emc2.energy || 0,
+        was: tb.emc2.mass || 0,
+        willbe: tb.emc2.c_squared || 0
+      };
+      // Show each body's contribution
       ['is','was','willbe'].forEach(function(b) {
-        var val = tb.emc2[map[b][0]];
+        var v = vals[b];
         var vE = document.getElementById('mg-body-val-'+b);
-        if (vE) vE.textContent = fmt[b](val);
+        if (vE) vE.textContent = '\u03c0^(1/3) \u00d7 ' + (v / Math.pow(PI, 1/3)).toFixed(2);
         var rE = document.getElementById('mg-body-ring-'+b);
-        if (rE) rE.setAttribute('r', (12+val*map[b][1]).toFixed(1));
+        if (rE) {
+          var scale = b === 'was' ? 4 : (b === 'willbe' ? 0.6 : 0.5);
+          rE.setAttribute('r', (12 + v * scale).toFixed(1));
+        }
       });
+      // Show the product converging to π
+      var product = document.getElementById('mg-product');
+      if (product && vals.is > 0 && vals.was > 0 && vals.willbe > 0) {
+        // Normalize: E·m·c² relative to π
+        var norm = (vals.is * vals.was * vals.willbe);
+        var ratio = norm > 0 ? (PI / norm) : 0;
+        product.textContent = 'IS\u00d7WAS\u00d7WILLBE \u2192 \u03c0 (' + ratio.toFixed(3) + ')';
+      }
     }
     prevDash = JSON.parse(JSON.stringify(dash));
   }
@@ -169,7 +189,7 @@ window.PtMembrane = function(deps) {
     el('feMergeNode', {'in':'SourceGraphic'}, fpm);
 
     el('rect', {width:W, height:H, fill:'url(#mg-bg)', rx:8}, svg);
-    txt(svg, W/2, 22, 'Membrane \u2014 closed sphere, V(D)J coil mixing', '#c9d1d9', 11);
+    txt(svg, W/2, 22, '[\u2205]D \u2014 IS\u00d7WAS\u00d7WILLBE = \u03c0', '#c9d1d9', 11);
 
     // ═══ SPHERE: 3 great circles at 120° ═══
     // Each great circle IS a body: IS, WAS, WILLBE
@@ -291,10 +311,17 @@ window.PtMembrane = function(deps) {
     // ═══ THREE BODIES: IS/WAS/WILLBE ═══
     var wbG = el('g', {id:'mg-willbe'}, svg);
     var BR = R * (PI/8);
+    // IS × WAS × WILLBE = π
+    // Each body = π^(1/3) ≈ 1.46 — the null-dimensional cost.
+    // V·J = π^(2/3) without diversity. V·D·J = π with.
+    // The gap between π (product) and π^(3/2) (observation cost) = √π = C(1).
+    // That gap is the cost of collapsing 3 tenses into 1 measurement.
+    // 1/0 = [∅] — null. The dimension before dimension.
+    var cbrt = Math.pow(PI, 1/3); // π^(1/3) ≈ 1.46
     var bodies = [
-      {id:'is', label:'IS', sub:'V \u00b7 e^(i\u03c0/2)', angle:-PI/2, color:'#e85d3a'},
-      {id:'was', label:'WAS', sub:'J \u00b7 e^0 = real', angle:-PI/2+TAU/3, color:'#4a8fb8'},
-      {id:'willbe', label:'WILLBE', sub:'(D) \u00b7 e^(i\u03c0) = \u22121', angle:-PI/2+2*TAU/3, color:'#5ab87a'}
+      {id:'is', label:'IS', sub:'\u03c0^(1/3) \u2248 '+cbrt.toFixed(2), angle:-PI/2, color:'#e85d3a'},
+      {id:'was', label:'WAS', sub:'\u03c0^(1/3) \u2248 '+cbrt.toFixed(2), angle:-PI/2+TAU/3, color:'#4a8fb8'},
+      {id:'willbe', label:'WILLBE', sub:'\u03c0^(1/3) \u2248 '+cbrt.toFixed(2), angle:-PI/2+2*TAU/3, color:'#5ab87a'}
     ];
     var bPos = {};
     bodies.forEach(function(b) { bPos[b.id] = {x:cx+BR*Math.cos(b.angle), y:cy+BR*Math.sin(b.angle)}; });
@@ -305,9 +332,10 @@ window.PtMembrane = function(deps) {
       fill:'none', stroke:'#c9d1d9', 'stroke-width':0.5,
       'stroke-opacity':0.12, 'stroke-dasharray':'4,6', id:'mg-body-tri'}, wbG);
 
-    [{from:'is',to:'was',label:'V \u2192 J',color:'#e85d3a'},
-     {from:'was',to:'willbe',label:'J \u2192 (D)',color:'#6e7681'},
-     {from:'willbe',to:'is',label:'(D) \u2192 V',color:'#5ab87a'}].forEach(function(e) {
+    // Edge products: each pair = π^(2/3), triple = π
+    [{from:'is',to:'was',label:'\u03c0^(2/3)',color:'#e85d3a'},
+     {from:'was',to:'willbe',label:'\u03c0^(2/3)',color:'#6e7681'},
+     {from:'willbe',to:'is',label:'\u03c0^(2/3)',color:'#5ab87a'}].forEach(function(e) {
       txt(wbG, ((bPos[e.from].x+bPos[e.to].x)/2).toFixed(1),
         ((bPos[e.from].y+bPos[e.to].y)/2).toFixed(1),
         e.label, e.color, 5.5, {opacity:0.4, 'dominant-baseline':'central'});
@@ -328,6 +356,13 @@ window.PtMembrane = function(deps) {
         {opacity:0.45, id:'mg-body-val-'+b.id});
     });
 
+    // Product display: IS × WAS × WILLBE = π at triangle center
+    var triCx = (bPos.is.x + bPos.was.x + bPos.willbe.x) / 3;
+    var triCy = (bPos.is.y + bPos.was.y + bPos.willbe.y) / 3;
+    txt(wbG, triCx.toFixed(1), (triCy+6).toFixed(1),
+      'IS\u00d7WAS\u00d7WILLBE = \u03c0', '#c9d1d9', 5.5,
+      {opacity:0.5, id:'mg-product'});
+
     // ═══ TRIANGULATION: panel → nearest body ═══
     var triG = el('g', {id:'mg-triangulation', opacity:0}, svg);
     PANELS.forEach(function(p) {
@@ -347,26 +382,33 @@ window.PtMembrane = function(deps) {
     // ═══ IS layer: live particles ═══
     pGroup = el('g', {id:'mg-is'}, svg);
 
-    // Center
-    txt(svg, cx, cy-30, 'V(D)J', '#8b949e', 9.5, {'font-weight':'bold'});
-    txt(svg, cx, cy-16, '= \u03c0^(3/2)\u00b7e^(i\u03c6)', '#6e7681', 7);
-    txt(svg, cx, cy-2, 'all values = self', '#58a6ff', 6.5, {'font-weight':'bold'});
-    txt(svg, cx, cy+12, 'coil = sphere', '#484f58', 5.5);
-    txt(svg, cx, cy+24, aliveSet.size+'/'+PANELS.length+' alive', '#6e7681', 7, {id:'mg-alive-count'});
-    el('circle', {cx:cx, cy:cy-2, r:22, fill:'none', stroke:'#58a6ff',
-      'stroke-width':0.4, 'stroke-opacity':0.12, 'stroke-dasharray':'2,4'}, svg);
+    // Center: the null dimension. 1/0 = [∅]. The shape of data.
+    // IS × WAS × WILLBE = π (product). C(3) = π^(3/2) (observation cost).
+    // The gap = √π = collapsing 3 tenses into 1 measurement.
+    txt(svg, cx, cy-38, '[\u2205]D', '#c9d1d9', 11, {'font-weight':'bold'});
+    txt(svg, cx, cy-24, '1/0 = null', '#6e7681', 6);
+    txt(svg, cx, cy-12, 'IS\u00d7WAS\u00d7WILLBE', '#8b949e', 7);
+    txt(svg, cx, cy+2, '= \u03c0', '#58a6ff', 9, {'font-weight':'bold'});
+    txt(svg, cx, cy+16, 'over under inside itself', '#484f58', 5.5);
+    txt(svg, cx, cy+30, aliveSet.size+'/'+PANELS.length+' alive', '#6e7681', 7, {id:'mg-alive-count'});
+    // The null circle: not 0 radius, not infinite. Null.
+    el('circle', {cx:cx, cy:cy, r:28, fill:'none', stroke:'#58a6ff',
+      'stroke-width':0.3, 'stroke-opacity':0.1, 'stroke-dasharray':'1,3'}, svg);
+    el('circle', {cx:cx, cy:cy, r:14, fill:'none', stroke:'#c9d1d9',
+      'stroke-width':0.3, 'stroke-opacity':0.06, 'stroke-dasharray':'1,3'}, svg);
 
     // Legend
     var lgG = el('g', {id:'mg-legend'}, svg);
-    txt(lgG, 14, H-72, 'ring closed \u2014 panels distributed across continuum', '#c9d1d9', 7, {'text-anchor':'start', 'font-weight':'bold'});
-    txt(lgG, 14, H-61, '3 great circles (IS/WAS/WILLBE) = sphere', '#8b949e', 6.5, {'text-anchor':'start'});
-    txt(lgG, 14, H-50, 'V(D)J coil: \u03c0\u00b2\u22489.87\u21929 turns \u2014 mixing rate', '#6e7681', 6.5, {'text-anchor':'start'});
-    [['1D: \u221a\u03c0 \u2248 1.77 \u2192 f = 0.56','#9b59b6'],
+    txt(lgG, 14, H-84, '[\u2205]D \u2014 null dimension. 1/0 = over\u00b7under\u00b7inside itself', '#c9d1d9', 7, {'text-anchor':'start', 'font-weight':'bold'});
+    txt(lgG, 14, H-73, 'IS\u00d7WAS\u00d7WILLBE = \u03c0 \u2014 each body = \u03c0^(1/3) \u2248 1.46', '#8b949e', 6.5, {'text-anchor':'start'});
+    txt(lgG, 14, H-62, 'C(n) = \u03c0^(n/2) observes. Gap: \u03c0^(3/2)/\u03c0 = \u221a\u03c0 = cost of collapse', '#6e7681', 6.5, {'text-anchor':'start'});
+    [['[\u2205]D: \u03c0^(1/3) \u2248 1.46 \u2192 null','#c9d1d9'],
+     ['1D: \u221a\u03c0 \u2248 1.77 \u2192 f = 0.56','#9b59b6'],
      ['2D: \u03c0 \u2248 3.14 \u2192 f = 0.32','#4a8fb8'],
      ['3D: \u03c0^1.5 \u2248 5.57 \u2192 f = 0.18','#5ab87a'],
      ['4D: \u03c0\u00b2 \u2248 9.87 \u2192 f = 0.10','#e85d3a']].forEach(function(leg, i) {
-      var ly = H-38+i*11;
-      el('circle', {cx:18, cy:ly-3, r:3, fill:leg[1], opacity:0.7}, lgG);
+      var ly = H-49+i*10;
+      el('circle', {cx:18, cy:ly-3, r: i===0 ? 3.5 : 3, fill:leg[1], opacity: i===0 ? 0.9 : 0.7}, lgG);
       txt(lgG, 26, ly, leg[0], '#6e7681', 6.5, {'text-anchor':'start'});
     });
     [[W-160,'signal transit',2,'#58a6ff',0.8],[W-98,'alive',3,'#5ab87a',1],[W-62,'dormant',2,'#6e7681',0.25]].forEach(function(l) {
