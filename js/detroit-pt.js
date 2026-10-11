@@ -1,17 +1,13 @@
-// detroit-pt.js — petalTongue bridge for detroit.primals.eco
+// detroit-pt.js — nanowire renderer for detroit.primals.eco
 // Reads window.DETROIT_NETWORK (loaded by network-data.js) and renders
-// through the grammar-of-graphics scene compiler at hud.primals.eco/ws
-// Depends on: pt-bridge-core.js (PetalBridge)
+// through the nanowire — client-side, no WebSocket
+// Depends on: nanowire.js (NanowireRenderer)
 (function() {
   'use strict';
 
-  var pt = PetalBridge({
-    wsUrl: 'wss://hud.primals.eco/ws',
-    domain: 'detroit',
+  var pt = NanowireRenderer({
     statusEl: 'pt-status',
     maxHeight: 260,
-    reconnectMs: 8000,
-    rpcTimeoutMs: 10000,
     onConnect: function() { tryRender(); }
   });
 
@@ -23,6 +19,7 @@
     if (!pt.isConnected() || !window.DETROIT_NETWORK) return;
     var net = window.DETROIT_NETWORK;
     var data = net.graphData();
+    data.edges = data.edges || data.links || [];
     var stats = net.stats();
 
     // 1. Node type donut
@@ -398,7 +395,7 @@
     // 23. Sort compression bar chart — bits of compression at each level
     var totalNodes = data.nodes.length;
     var alphaComp = Math.max(0, Math.log2(totalNodes)).toFixed(1);
-    var epitopeComp = Math.max(0, alphaComp - Math.log2(data.stats().typeCount || 8)).toFixed(1);
+    var epitopeComp = Math.max(0, alphaComp - Math.log2(stats.typeCount || 8)).toFixed(1);
     var tenseComp = Math.max(0, alphaComp - 1.58).toFixed(1); // 3 tense buckets = 1.58 bits
     pt.renderBinding({
       channel_type: 'bar', id: 'sort-compression',
@@ -427,10 +424,10 @@
       : 'loading...';
     el.innerHTML = ''
       + '<div class="pt-header">'
-      + '  <div class="pt-title">🔬 petalTongue Deep Analysis</div>'
+      + '  <div class="pt-title">🔬 nanowire 2014 Direct Rendering</div>'
       + '  <div><span id="pt-status"></span></div>'
       + '</div>'
-      + '<div class="pt-subtitle">Server-side rendering through the grammar-of-graphics scene compiler. '
+      + '<div class="pt-subtitle">Client-side rendering via nanowire 2014 no WebSocket, no bridge. '
       + 'All data from the DETROIT_NETWORK graph — ' + statsInfo + '</div>'
       + card('Node Types', 'Actor types — donut.', 'pt-node-types')
       + card('Flow Types', 'Money, power, influence, position — donut.', 'pt-flow-types')
