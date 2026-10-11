@@ -20,6 +20,7 @@ window.PtMembrane = function(deps) {
   var pGroup, built = false, lastFrame = 0;
   var MAX_P = Math.floor(PI*PI*PI);
   var rates = {fire:0,membrane:0,immune:0,sound:0}, rps = 0, prevDash = null;
+  var livePerturb = -1; // -1 = no live data, use sine wave
   var catAccum = {fire:0,membrane:0,immune:0,sound:0};
   var CATS = ['fire','membrane','immune','sound'];
 
@@ -113,7 +114,6 @@ window.PtMembrane = function(deps) {
         was: tb.emc2.mass || 0,
         willbe: tb.emc2.c_squared || 0
       };
-      // Show each body's contribution
       ['is','was','willbe'].forEach(function(b) {
         var v = vals[b];
         var vE = document.getElementById('mg-body-val-'+b);
@@ -124,13 +124,49 @@ window.PtMembrane = function(deps) {
           rE.setAttribute('r', (12 + v * scale).toFixed(1));
         }
       });
-      // Show the product converging to π
       var product = document.getElementById('mg-product');
       if (product && vals.is > 0 && vals.was > 0 && vals.willbe > 0) {
-        // Normalize: E·m·c² relative to π
         var norm = (vals.is * vals.was * vals.willbe);
         var ratio = norm > 0 ? (PI / norm) : 0;
         product.textContent = 'IS\u00d7WAS\u00d7WILLBE \u2192 \u03c0 (' + ratio.toFixed(3) + ')';
+      }
+    }
+    // ── [∅]D null dimension from Rust epitope sort ──
+    var nd = dash.null_dimension;
+    if (nd) {
+      // Live perturbation from the Rust sort — overrides the sine animation
+      if (typeof nd.perturbation === 'number') {
+        livePerturb = nd.perturbation;
+      }
+      // VDJ map: update body labels with live classification
+      var vdjNames = ['burst_ratio','reading_deficit','ua_pool_poverty',
+                      'sec_fetch_monotone','session_absent','referer_self_loop'];
+      var vdjMap = nd.vdj_map || [];
+      if (vdjMap.length === 6) {
+        var bodyVdj = {is:[], was:[], willbe:[]};
+        for (var vi = 0; vi < 6; vi++) {
+          var role = vdjMap[vi];
+          if (role === 'V') bodyVdj.is.push(vdjNames[vi]);
+          else if (role === 'J') bodyVdj.was.push(vdjNames[vi]);
+          else bodyVdj.willbe.push(vdjNames[vi]);
+        }
+        var subIds = {is:'mg-sub-is', was:'mg-sub-was', willbe:'mg-sub-willbe'};
+        ['is','was','willbe'].forEach(function(b) {
+          var subEl = document.getElementById(subIds[b]);
+          if (subEl && bodyVdj[b].length > 0) {
+            subEl.textContent = bodyVdj[b].join(', ');
+          }
+        });
+      }
+      // Show live product error
+      if (typeof nd.product === 'number') {
+        var prodEl = document.getElementById('mg-product');
+        if (prodEl) {
+          var err = nd.product_error || 0;
+          prodEl.textContent = 'IS\u00d7WAS\u00d7WILLBE = '
+            + nd.product.toFixed(4)
+            + ' (\u03c0\u00b1' + (err*100).toFixed(1) + '%)';
+        }
       }
     }
     prevDash = JSON.parse(JSON.stringify(dash));
@@ -479,13 +515,16 @@ window.PtMembrane = function(deps) {
     if (coilEl) coilEl.setAttribute('transform', 'rotate('+coilRot.toFixed(1)+' '+cx+' '+cy+')');
 
     // ═══ PERTURBATION BREATHING ═══
-    // Slow sine wave: 0→1→0. Period ~12 seconds (π²/π ≈ π seconds per half).
+    // When Rust sends null_dimension.perturbation, we use that (live data).
+    // Otherwise: sine wave 0→1→0 with period ~12 seconds.
     // At 0: all bodies at center ([∅]D singularity).
     // At 1: full triangle spread (observed 3D).
     // The breathing IS the range of perspective.
     var TAU = 2 * PI;
-    var breathRate = TAU / 12; // full cycle in 12 seconds
-    var perturb = (Math.sin(now * 0.001 * breathRate - PI/2) + 1) / 2; // 0→1→0
+    var breathRate = TAU / 12;
+    var sinePerturb = (Math.sin(now * 0.001 * breathRate - PI/2) + 1) / 2;
+    // Live perturbation from Rust sort, or sine wave fallback
+    var perturb = livePerturb >= 0 ? livePerturb : sinePerturb;
     var BR = R * (PI/8) * perturb; // spread radius
 
     var bodyAngles = [-PI/2, -PI/2+TAU/3, -PI/2+2*TAU/3];
