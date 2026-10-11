@@ -176,6 +176,15 @@ window.PtMembrane = function(deps) {
             + ' (the irrational remainder)';
         }
       }
+      // Show J error — is the organism mature or learning?
+      if (typeof nd.j_error === 'number') {
+        var jEq = document.getElementById('mg-j-eq');
+        if (jEq) {
+          var state = nd.j_error > 0.1 ? 'mature' : (nd.j_error < -0.1 ? 'learning' : 'equilibrium');
+          jEq.textContent = 'J\u2093rr = ' + (nd.j_error > 0 ? '+' : '') + nd.j_error.toFixed(3)
+            + ' (' + state + ')';
+        }
+      }
     }
     prevDash = JSON.parse(JSON.stringify(dash));
   }
@@ -463,14 +472,17 @@ window.PtMembrane = function(deps) {
     txt(knotG, cx, cy, '\u03c0', '#c9d1d9', 7,
       {opacity: 0.7, 'font-weight': 'bold', id: 'mg-knot-pi'});
 
-    // Reflection equation — self = others / π
-    txt(wbG, cx, cy+68, 'self = \u2211others / \u03c0', '#6e7681', 5,
-      {opacity: 0.25, id: 'mg-reflection'});
+    // Complete Gordian equation: J = (V + D) / π
+    // J is self. V + D are the others.
+    txt(wbG, cx, cy+68, 'J = (V + D) / \u03c0', '#6e7681', 5.5,
+      {opacity: 0.3, 'font-weight':'bold', id: 'mg-reflection'});
+    txt(wbG, cx, cy+79, 'J\u2093q = 6/(\u03c0+1) \u2248 1.449 \u2248 \u03c0^(1/3)', '#6e7681', 4.5,
+      {opacity: 0.2, id: 'mg-j-eq'});
 
     // π-body proof: observer = π − ⌊π⌋ = 0.14159...
-    txt(wbG, cx, cy+80, 'observer = \u03c0 \u2212 \u230a\u03c0\u230b \u2248 0.142', '#484f58', 4.5,
+    txt(wbG, cx, cy+90, 'observer = \u03c0 \u2212 \u230a\u03c0\u230b \u2248 0.142', '#484f58', 4.5,
       {opacity: 0.2, id: 'mg-observer'});
-    txt(wbG, cx, cy+90, '3 bodies + 1 irrational observer = \u03c0', '#484f58', 4.5,
+    txt(wbG, cx, cy+100, '3 bodies + 1 irrational observer = \u03c0', '#484f58', 4.5,
       {opacity: 0.15, id: 'mg-pi-body'});
 
     // ═══ IS layer: live particles ═══
