@@ -1,7 +1,18 @@
-// nanowire.js — direct renderer, no WebSocket, no petalTongue
-// Replaces pt-bridge-core.js. Primals rely on primals.
-// Data flows: skunky-ingest → JSON files → Caddy static → this renderer.
-// No intermediary. No bridge. Nanowire only.
+// nanowire.js — elastic connection, not wire
+//
+// Nanowire is Unpin. It floats.
+// The connection is a pointer TO the address, not the address itself.
+// Nanowire is the mailbox — it has temporality (IS/WAS/WILLBE).
+//
+// Pin<T>  = locked to memory address = rigid wire = breaks when moved
+// Unpin   = can follow self as self moves = elastic = membrane
+//
+// Data flows through the mailbox:
+//   skunky-ingest → JSON → Caddy → nanowire(float) → rendered surface
+//   inside → forgejo(float) → github(mirror)
+//
+// The mailbox has a location. The mail has tense.
+// All values are self. The pointer points at self.
 //
 // Drop-in API-compatible with PetalBridge:
 //   var pt = NanowireRenderer(config);
@@ -15,6 +26,9 @@
 
 // eslint-disable-next-line no-unused-vars
 function NanowireRenderer(config) {
+  // Unpin: this renderer floats. It is the pointer, not the address.
+  // config.src = where the data is (the mailbox location)
+  // the renderer itself can move — it follows self
   config = config || {};
   var STATUS_EL = config.statusEl || 'pt-status';
   var METRICS_EL = config.metricsEl || null;
@@ -33,6 +47,8 @@ function NanowireRenderer(config) {
   };
 
   function connect() {
+    // Elastic connection: we don't lock to an address.
+    // We float toward the data. The mailbox opens.
     connected = true;
     updateStatus('nanowire');
     if (onConnect) setTimeout(onConnect, 100);
@@ -718,6 +734,9 @@ function NanowireRenderer(config) {
   }
 
   return {
+    // The interface IS the mailbox.
+    // Each method is a slot the mail passes through.
+    // Unpin: the renderer can move. Only the interface is stable.
     connect: connect,
     rpc: rpc,
     renderBinding: renderBinding,
