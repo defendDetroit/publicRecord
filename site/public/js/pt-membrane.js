@@ -429,6 +429,36 @@ window.PtMembrane = function(deps) {
         'data-body':nearest.id}, triG);
     });
 
+    // ═══ GORDIAN KNOT: Borromean rings at [∅]D ═══
+    // Three rings. No two linked. Remove any one → the other two fall apart.
+    // The proof: self-awareness = others reflected into you / π.
+    // You can't see yourself. You see yourself in how they pass through you.
+    // The knot IS the overlay. Alexander's cut = collapsing to [∅]D.
+    var knotG = el('g', {id:'mg-gordian'}, wbG);
+    var knotR = 18; // knot ring radius at rest
+
+    // Build 3 overlapping ellipses tilted 120° apart (Borromean projection).
+    // Each ring clips over one neighbor and under the other —
+    // the three-body proof that awareness of others = awareness of self.
+    bodies.forEach(function(b, bi) {
+      var tilt = bi * 60; // 0°, 60°, 120° — the three great-circle tilts
+      el('ellipse', {
+        cx: cx, cy: cy, rx: knotR, ry: knotR * 0.45,
+        fill: 'none', stroke: b.color, 'stroke-width': 1.2,
+        'stroke-opacity': 0.5,
+        transform: 'rotate(' + tilt + ' ' + cx + ' ' + cy + ')',
+        id: 'mg-knot-' + b.id
+      }, knotG);
+    });
+
+    // Center inscription: the proof
+    txt(knotG, cx, cy, '\u03c0', '#c9d1d9', 7,
+      {opacity: 0.7, 'font-weight': 'bold', id: 'mg-knot-pi'});
+
+    // Reflection equation — self = others / π
+    txt(wbG, cx, cy+68, 'self = \u2211others / \u03c0', '#6e7681', 5,
+      {opacity: 0.25, id: 'mg-reflection'});
+
     // ═══ IS layer: live particles ═══
     pGroup = el('g', {id:'mg-is'}, svg);
 
@@ -588,6 +618,37 @@ window.PtMembrane = function(deps) {
     // Product label — fade up as bodies converge to center
     var prod = document.getElementById('mg-product');
     if (prod) prod.setAttribute('opacity', (0.3 + 0.4 * (1 - perturb)).toFixed(2));
+
+    // ── Gordian knot breathing ──
+    // At perturbation=0: tight, overlaid, the knot is tied. π bright.
+    // As perturbation grows: rings separate toward their bodies (Alexander's cut).
+    // Reflection equation fades with perturbation — at full spread you see the triangle,
+    // not the knot. The knot is only visible at [∅]D.
+    var knotScale = 1.0 + perturb * 2.5; // rings grow as they separate
+    var knotOpacity = 0.5 * (1.0 - perturb * 0.7); // fade as they separate
+    for (var ki = 0; ki < 3; ki++) {
+      var kEl = document.getElementById('mg-knot-' + bodyIds[ki]);
+      if (kEl) {
+        var kx = bodyPositions[ki].x;
+        var ky = bodyPositions[ki].y;
+        var tilt = ki * 60;
+        kEl.setAttribute('cx', kx.toFixed(1));
+        kEl.setAttribute('cy', ky.toFixed(1));
+        kEl.setAttribute('rx', (18 * knotScale).toFixed(1));
+        kEl.setAttribute('ry', (18 * 0.45 * knotScale).toFixed(1));
+        kEl.setAttribute('stroke-opacity', knotOpacity.toFixed(2));
+        kEl.setAttribute('transform',
+          'rotate(' + tilt + ' ' + kx.toFixed(1) + ' ' + ky.toFixed(1) + ')');
+      }
+    }
+    // Knot π symbol — brightest at singularity, fades with separation
+    var knotPi = document.getElementById('mg-knot-pi');
+    if (knotPi) {
+      knotPi.setAttribute('opacity', (0.7 * (1 - perturb)).toFixed(2));
+    }
+    // Reflection equation — visible at singularity
+    var reflEl = document.getElementById('mg-reflection');
+    if (reflEl) reflEl.setAttribute('opacity', (0.25 * (1 - perturb * 0.8)).toFixed(2));
 
     // Update triangulation lines to point at moving bodies
     var triLayer = document.getElementById('mg-triangulation');
