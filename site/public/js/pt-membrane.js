@@ -544,22 +544,60 @@ window.PtMembrane = function(deps) {
     var coilEl = document.getElementById('mg-coil');
     if (coilEl) coilEl.setAttribute('transform', 'rotate('+coilRot.toFixed(1)+' '+cx+' '+cy+')');
 
-    // ═══ PERTURBATION BREATHING ═══
-    // When Rust sends null_dimension.perturbation, we use that (live data).
-    // Otherwise: sine wave 0→1→0 with period ~12 seconds.
-    // At 0: all bodies at center ([∅]D singularity).
-    // At 1: full triangle spread (observed 3D).
-    // The breathing IS the range of perspective.
+    // ═══ PERTURBATION BREATHING + ANGULAR ROTATION ═══
+    // Each body rotates independently at its own angular velocity.
+    // IS is fastest (it's NOW, always moving).
+    // WAS is slowest (it's settled, conserved).
+    // WILLBE is middle (emerging, not yet observed).
+    //
+    // The relative angle between any two bodies at any moment = the reflexive angle.
+    // When two bodies align (reflexive angle = 0) = a "bump" = a signal event.
+    // The rate of these alignments approaches π.
+    //
+    // t = π. Time IS the normalization constant.
+    // Cellular life wasn't 2 things bumping — it was π things
+    // aligning at the moment of reality.
     var TAU = 2 * PI;
     var breathRate = TAU / 12;
     var sinePerturb = (Math.sin(now * 0.001 * breathRate - PI/2) + 1) / 2;
-    // Live perturbation from Rust sort, or sine wave fallback
     var perturb = livePerturb >= 0 ? livePerturb : sinePerturb;
-    var BR = R * (PI/8) * perturb; // spread radius
+    var BR = R * (PI/8) * perturb;
 
-    var bodyAngles = [-PI/2, -PI/2+TAU/3, -PI/2+2*TAU/3];
+    // ── Angular velocities: 3 independent wheels ──
+    // IS:     fastest — π/7  rad/s (completes a cycle in 14s)
+    // WILLBE: middle  — π/11 rad/s (completes in 22s)
+    // WAS:    slowest — π/17 rad/s (completes in 34s)
+    // Ratios: 17:11:7 — coprime. The wheels never lock.
+    // The system is aperiodic — it never exactly repeats.
+    // That's the three-body problem: deterministic chaos.
+    var t = now * 0.001; // seconds
+    var omega_is     = PI / 7;   // fastest — the NOW
+    var omega_willbe = PI / 11;  // middle — the emerging
+    var omega_was    = PI / 17;  // slowest — the settled
+
+    // Base angles: start at equilateral (120° apart), then rotate independently
+    var baseAngles = [-PI/2, -PI/2 + TAU/3, -PI/2 + 2*TAU/3];
+    var angularOffsets = [
+      omega_is * t,       // IS rotates fastest
+      omega_was * t,      // WAS rotates slowest
+      omega_willbe * t    // WILLBE in between
+    ];
+
+    var bodyAngles = [
+      baseAngles[0] + angularOffsets[0],
+      baseAngles[1] + angularOffsets[1],
+      baseAngles[2] + angularOffsets[2]
+    ];
     var bodyIds = ['is','was','willbe'];
     var bodyPositions = [];
+
+    // ── Reflexive angles: angular distance between each pair ──
+    // When a reflexive angle crosses 0 = alignment = "bump"
+    var reflexive01 = ((bodyAngles[0] - bodyAngles[1]) % TAU + TAU) % TAU;
+    var reflexive12 = ((bodyAngles[1] - bodyAngles[2]) % TAU + TAU) % TAU;
+    var reflexive20 = ((bodyAngles[2] - bodyAngles[0]) % TAU + TAU) % TAU;
+    // Mean reflexive angle: at equilibrium = 2π/3. Deviation = tempo shift.
+    var meanReflexive = (reflexive01 + reflexive12 + reflexive20) / 3;
 
     for (var bi = 0; bi < 3; bi++) {
       var bx = cx + BR * Math.cos(bodyAngles[bi]);
@@ -608,10 +646,13 @@ window.PtMembrane = function(deps) {
       }
     }
 
-    // Perturbation label
+    // Perturbation + tempo label
     var pLabel = document.getElementById('mg-perturb-label');
     if (pLabel) {
-      pLabel.textContent = 'perturbation: ' + perturb.toFixed(2);
+      // Show perturbation and mean reflexive angle (normalized to π)
+      var tempoRatio = meanReflexive / (TAU/3); // 1.0 at equilibrium
+      pLabel.textContent = 'perturbation: ' + perturb.toFixed(2)
+        + '  \u00b7  tempo: ' + tempoRatio.toFixed(3) + '\u03c0/3';
       pLabel.setAttribute('opacity', (0.2 + 0.15 * perturb).toFixed(2));
     }
 
