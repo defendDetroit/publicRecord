@@ -1,0 +1,2332 @@
+[
+  {
+    "data_hash": "blake3:edge:banks->pca:employment",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "detroit-build graph edge to PROV-O braid",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:detroit:banks",
+        "hash": "db7a4dc18443b6d58af7c87926d9d17b96b1da99e8193adbc0f469281efb013e"
+      },
+      {
+        "id": "urn:content:detroit:pca",
+        "hash": "1cfedb4f1ea4154b00551d12d1c4c34149e32ba711a5e6c344b93c38ce97d741"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "banks → pca (employment)",
+      "tags": [
+        "employment",
+        "record",
+        "detroit"
+      ],
+      "custom": {
+        "role": "Superintendent",
+        "edge_type": "employment",
+        "epistemic_status": "record",
+        "source_doc": "purposecharteracademy.com"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1790337966613687735,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: banks -> pca"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:banks->macdowell:employment",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "detroit-build graph edge to PROV-O braid",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:detroit:banks",
+        "hash": "db7a4dc18443b6d58af7c87926d9d17b96b1da99e8193adbc0f469281efb013e"
+      },
+      {
+        "id": "urn:content:detroit:macdowell",
+        "hash": "7cb10b62bcb97c843b7b2f8a579a513c2bbfcaa6564f195bae12c1d43437001b"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "banks → macdowell (employment)",
+      "tags": [
+        "employment",
+        "record",
+        "detroit"
+      ],
+      "custom": {
+        "role": "Superintendent",
+        "epistemic_status": "record",
+        "edge_type": "employment",
+        "source_doc": "macdowellprep.com"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1790337966613694017,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: banks -> macdowell"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:banks->purpose_group:ownership",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "detroit-build graph edge to PROV-O braid",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:detroit:banks",
+        "hash": "db7a4dc18443b6d58af7c87926d9d17b96b1da99e8193adbc0f469281efb013e"
+      },
+      {
+        "id": "urn:content:detroit:purpose_group",
+        "hash": "0664a01bc16116896b464298991f53496ab5b3cbcb1d9e678d4cdda1cd8c4b04"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "banks → purpose_group (ownership)",
+      "tags": [
+        "ownership",
+        "record",
+        "detroit"
+      ],
+      "custom": {
+        "edge_type": "ownership",
+        "role": "Sole member",
+        "epistemic_status": "record",
+        "source_doc": "LARA 803295082"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1790337966613698315,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: banks -> purpose_group"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:banks->purpose_foundation:governance",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "detroit-build graph edge to PROV-O braid",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:detroit:banks",
+        "hash": "db7a4dc18443b6d58af7c87926d9d17b96b1da99e8193adbc0f469281efb013e"
+      },
+      {
+        "id": "urn:content:detroit:purpose_foundation",
+        "hash": "5e53448229bcf415e78b21266d3b093973b46e3dc5ac7f37ced91b747d6b7cf8"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "banks → purpose_foundation (governance)",
+      "tags": [
+        "governance",
+        "record",
+        "detroit"
+      ],
+      "custom": {
+        "epistemic_status": "record",
+        "source_doc": "LARA 803294855",
+        "edge_type": "governance",
+        "role": "President + Agent"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1790337966613703024,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: banks -> purpose_foundation"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:banks->banks_strategy:ownership",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "detroit-build graph edge to PROV-O braid",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:detroit:banks",
+        "hash": "db7a4dc18443b6d58af7c87926d9d17b96b1da99e8193adbc0f469281efb013e"
+      },
+      {
+        "id": "urn:content:detroit:banks_strategy",
+        "hash": "80b2104a30e80ed4d39d0ef26701119cd09b02827cb96ffd9acb1c3776651145"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "banks → banks_strategy (ownership)",
+      "tags": [
+        "ownership",
+        "record",
+        "detroit"
+      ],
+      "custom": {
+        "role": "Owner",
+        "source_doc": "LARA 802070120",
+        "edge_type": "ownership",
+        "epistemic_status": "record"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1790337966613710238,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: banks -> banks_strategy"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:banks->serenity:ownership",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "detroit-build graph edge to PROV-O braid",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:detroit:banks",
+        "hash": "db7a4dc18443b6d58af7c87926d9d17b96b1da99e8193adbc0f469281efb013e"
+      },
+      {
+        "id": "urn:content:detroit:serenity",
+        "hash": "f9c5834933f593191a805eb00a5d849c4417412a5fb68f914b1efe3984c6e902"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "banks → serenity (ownership)",
+      "tags": [
+        "ownership",
+        "record",
+        "detroit"
+      ],
+      "custom": {
+        "edge_type": "ownership",
+        "role": "Principal (dissolved)",
+        "epistemic_status": "record",
+        "source_doc": "LARA 802290962"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1790337966613716609,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: banks -> serenity"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:banks->city_hill:governance",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "detroit-build graph edge to PROV-O braid",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:detroit:banks",
+        "hash": "db7a4dc18443b6d58af7c87926d9d17b96b1da99e8193adbc0f469281efb013e"
+      },
+      {
+        "id": "urn:content:detroit:city_hill",
+        "hash": "5a7b270d34574193db46e4ff52486538b67d5f5c831693c403c3745a4799e730"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "banks → city_hill (governance)",
+      "tags": [
+        "governance",
+        "record",
+        "detroit"
+      ],
+      "custom": {
+        "role": "Pastor / controller",
+        "source_doc": "LARA 802365641",
+        "edge_type": "governance",
+        "epistemic_status": "record"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1790337966613722751,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: banks -> city_hill"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:banks->sun_community:governance",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "detroit-build graph edge to PROV-O braid",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:detroit:banks",
+        "hash": "db7a4dc18443b6d58af7c87926d9d17b96b1da99e8193adbc0f469281efb013e"
+      },
+      {
+        "id": "urn:content:detroit:sun_community",
+        "hash": "53403a819928ecc5abc5a0f3ab88134a8ca5c976eb769b753b6c4eda91177452"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "banks → sun_community (governance)",
+      "tags": [
+        "governance",
+        "record",
+        "detroit"
+      ],
+      "custom": {
+        "role": "Officer",
+        "source_doc": "LARA 803232314",
+        "edge_type": "governance",
+        "epistemic_status": "record"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1790337966613729464,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: banks -> sun_community"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:banks->pacs:governance",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "detroit-build graph edge to PROV-O braid",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:detroit:banks",
+        "hash": "db7a4dc18443b6d58af7c87926d9d17b96b1da99e8193adbc0f469281efb013e"
+      },
+      {
+        "id": "urn:content:detroit:pacs",
+        "hash": "f7a112681dc16803396421cdac9bc78d30f8650093414a5bb107b60a82bccd72"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "banks → pacs (governance)",
+      "tags": [
+        "governance",
+        "record",
+        "detroit"
+      ],
+      "custom": {
+        "edge_type": "governance",
+        "epistemic_status": "record",
+        "role": "Treasurer (Bank on Wayne Co.)",
+        "source_doc": "CFRS"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1790337966613735896,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: banks -> pacs"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:banks->ofa:governance",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "detroit-build graph edge to PROV-O braid",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:detroit:banks",
+        "hash": "db7a4dc18443b6d58af7c87926d9d17b96b1da99e8193adbc0f469281efb013e"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "banks → ofa (governance)",
+      "tags": [
+        "governance",
+        "record",
+        "detroit"
+      ],
+      "custom": {
+        "epistemic_status": "record",
+        "edge_type": "governance",
+        "role": "Officer (Holland's PO Box)",
+        "source_doc": "LARA"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1790337966613741927,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: banks -> ofa"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:holland->banks:co-resident",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "detroit-build graph edge to PROV-O braid",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:detroit:holland",
+        "hash": "e2a243f6b2479dd4c425f9524086bfae39f19f675d32c60e194114e4497a6973"
+      },
+      {
+        "id": "urn:content:detroit:banks",
+        "hash": "db7a4dc18443b6d58af7c87926d9d17b96b1da99e8193adbc0f469281efb013e"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "holland → banks (co-resident)",
+      "description": "Same address: 1968 Severn Rd, GPW",
+      "tags": [
+        "co-resident",
+        "record",
+        "detroit"
+      ],
+      "custom": {
+        "edge_type": "co-resident",
+        "source_doc": "Wayne County ROD",
+        "epistemic_status": "record"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1790337966613747287,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: holland -> banks"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:holland->purpose_foundation:governance",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "detroit-build graph edge to PROV-O braid",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:detroit:holland",
+        "hash": "e2a243f6b2479dd4c425f9524086bfae39f19f675d32c60e194114e4497a6973"
+      },
+      {
+        "id": "urn:content:detroit:purpose_foundation",
+        "hash": "5e53448229bcf415e78b21266d3b093973b46e3dc5ac7f37ced91b747d6b7cf8"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "holland → purpose_foundation (governance)",
+      "tags": [
+        "governance",
+        "record",
+        "detroit"
+      ],
+      "custom": {
+        "edge_type": "governance",
+        "role": "Secretary + Treasurer",
+        "source_doc": "LARA 803294855",
+        "epistemic_status": "record"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1790337966613754210,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: holland -> purpose_foundation"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:holland->pacs:governance",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "detroit-build graph edge to PROV-O braid",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:detroit:holland",
+        "hash": "e2a243f6b2479dd4c425f9524086bfae39f19f675d32c60e194114e4497a6973"
+      },
+      {
+        "id": "urn:content:detroit:pacs",
+        "hash": "f7a112681dc16803396421cdac9bc78d30f8650093414a5bb107b60a82bccd72"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "holland → pacs (governance)",
+      "tags": [
+        "governance",
+        "record",
+        "detroit"
+      ],
+      "custom": {
+        "role": "Treasurer (Bank on Banks PAC)",
+        "edge_type": "governance",
+        "epistemic_status": "record",
+        "source_doc": "CFRS"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1790337966613761183,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: holland -> pacs"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:holland->ofa:governance",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "detroit-build graph edge to PROV-O braid",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:detroit:holland",
+        "hash": "e2a243f6b2479dd4c425f9524086bfae39f19f675d32c60e194114e4497a6973"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "holland → ofa (governance)",
+      "tags": [
+        "governance",
+        "record",
+        "detroit"
+      ],
+      "custom": {
+        "epistemic_status": "record",
+        "role": "Officer",
+        "edge_type": "governance",
+        "source_doc": "LARA"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1790337966613771733,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: holland -> ofa"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:miller->pca:board_membership",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "detroit-build graph edge to PROV-O braid",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:detroit:miller",
+        "hash": "057aa44ebcdb75fd8d713d5ba2b40b637c6aec8db4381883a0d79d60dc353b75"
+      },
+      {
+        "id": "urn:content:detroit:pca",
+        "hash": "1cfedb4f1ea4154b00551d12d1c4c34149e32ba711a5e6c344b93c38ce97d741"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "miller → pca (board_membership)",
+      "tags": [
+        "board_membership",
+        "record",
+        "detroit"
+      ],
+      "custom": {
+        "edge_type": "board_membership",
+        "role": "Board Chair",
+        "source_doc": "purposecharteracademy.com/boardofdirectors (Sep 2026)",
+        "epistemic_status": "record"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1790337966613779507,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: miller -> pca"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:miller->anchor_rock:board_membership",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "detroit-build graph edge to PROV-O braid",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:detroit:miller",
+        "hash": "057aa44ebcdb75fd8d713d5ba2b40b637c6aec8db4381883a0d79d60dc353b75"
+      },
+      {
+        "id": "urn:content:detroit:anchor_rock",
+        "hash": "7649fb455ab3f75318a2b120cef812ff7568c2e08e1633f7ef5789b178ab65be"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "miller → anchor_rock (board_membership)",
+      "tags": [
+        "board_membership",
+        "record",
+        "detroit"
+      ],
+      "custom": {
+        "source_doc": "LARA 802394934",
+        "edge_type": "board_membership",
+        "epistemic_status": "record",
+        "role": "Board Chair (historical)"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1790337966613786530,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: miller -> anchor_rock"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:miller->court_3rd:bench",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "detroit-build graph edge to PROV-O braid",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:detroit:miller",
+        "hash": "057aa44ebcdb75fd8d713d5ba2b40b637c6aec8db4381883a0d79d60dc353b75"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "miller → court_3rd (bench)",
+      "tags": [
+        "bench",
+        "record",
+        "detroit"
+      ],
+      "custom": {
+        "role": "Judge",
+        "edge_type": "bench",
+        "epistemic_status": "record"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1790337966613789356,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: miller -> court_3rd"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:miller->banks:campaign_vendor",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "detroit-build graph edge to PROV-O braid",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:detroit:miller",
+        "hash": "057aa44ebcdb75fd8d713d5ba2b40b637c6aec8db4381883a0d79d60dc353b75"
+      },
+      {
+        "id": "urn:content:detroit:banks",
+        "hash": "db7a4dc18443b6d58af7c87926d9d17b96b1da99e8193adbc0f469281efb013e"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "miller → banks (campaign_vendor)",
+      "description": "Banks Strategy as campaign vendor",
+      "tags": [
+        "campaign_vendor",
+        "record",
+        "detroit"
+      ],
+      "custom": {
+        "source_doc": "CFRS",
+        "epistemic_status": "record",
+        "edge_type": "campaign_vendor"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1790337966613792381,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: miller -> banks"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:moreland->pca:board_membership",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "detroit-build graph edge to PROV-O braid",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:detroit:pca",
+        "hash": "1cfedb4f1ea4154b00551d12d1c4c34149e32ba711a5e6c344b93c38ce97d741"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "moreland → pca (board_membership)",
+      "tags": [
+        "board_membership",
+        "record",
+        "detroit"
+      ],
+      "custom": {
+        "role": "Board Vice Chair",
+        "epistemic_status": "record",
+        "edge_type": "board_membership",
+        "source_doc": "purposecharteracademy.com/boardofdirectors"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1790337966613800026,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: moreland -> pca"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:moreland->ag_office:employment",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "detroit-build graph edge to PROV-O braid",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "moreland → ag_office (employment)",
+      "tags": [
+        "employment",
+        "record",
+        "detroit"
+      ],
+      "custom": {
+        "epistemic_status": "record",
+        "edge_type": "employment",
+        "role": "Assistant Attorney General"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1790337966613802751,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: moreland -> ag_office"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:latisha_johnson->pca:board_membership",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "detroit-build graph edge to PROV-O braid",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:detroit:pca",
+        "hash": "1cfedb4f1ea4154b00551d12d1c4c34149e32ba711a5e6c344b93c38ce97d741"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "latisha_johnson → pca (board_membership)",
+      "tags": [
+        "board_membership",
+        "record",
+        "detroit"
+      ],
+      "custom": {
+        "source_doc": "purposecharteracademy.com/boardofdirectors",
+        "epistemic_status": "record",
+        "edge_type": "board_membership",
+        "role": "Board Secretary"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1790337966613807921,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: latisha_johnson -> pca"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:latisha_johnson->city_council:elected_office",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "detroit-build graph edge to PROV-O braid",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "latisha_johnson → city_council (elected_office)",
+      "tags": [
+        "elected_office",
+        "record",
+        "detroit"
+      ],
+      "custom": {
+        "role": "Council Member",
+        "edge_type": "elected_office",
+        "epistemic_status": "record"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1790337966613810235,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: latisha_johnson -> city_council"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:yancey->macdowell:board_membership",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "detroit-build graph edge to PROV-O braid",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:detroit:yancey",
+        "hash": "cf63c0c7b24b6ec1084c46d020143766afec97921894057f1e64eebe7ce38fa6"
+      },
+      {
+        "id": "urn:content:detroit:macdowell",
+        "hash": "7cb10b62bcb97c843b7b2f8a579a513c2bbfcaa6564f195bae12c1d43437001b"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "yancey → macdowell (board_membership)",
+      "tags": [
+        "board_membership",
+        "record",
+        "detroit"
+      ],
+      "custom": {
+        "role": "Board Chair",
+        "edge_type": "board_membership",
+        "epistemic_status": "record",
+        "source_doc": "Clutch Justice Sep 13, 2026"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1790337966613814313,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: yancey -> macdowell"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:yancey->banks_strategy:payment",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "detroit-build graph edge to PROV-O braid",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:detroit:yancey",
+        "hash": "cf63c0c7b24b6ec1084c46d020143766afec97921894057f1e64eebe7ce38fa6"
+      },
+      {
+        "id": "urn:content:detroit:banks_strategy",
+        "hash": "80b2104a30e80ed4d39d0ef26701119cd09b02827cb96ffd9acb1c3776651145"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "yancey → banks_strategy (payment)",
+      "description": "Sole contribution and sole expenditure",
+      "tags": [
+        "payment",
+        "record",
+        "detroit"
+      ],
+      "custom": {
+        "amount_usd": "383.82",
+        "epistemic_status": "record",
+        "source_doc": "CFRS",
+        "edge_type": "payment"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1790337966613819803,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: yancey -> banks_strategy"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:yancey->inner_link:payment",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "detroit-build graph edge to PROV-O braid",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:detroit:yancey",
+        "hash": "cf63c0c7b24b6ec1084c46d020143766afec97921894057f1e64eebe7ce38fa6"
+      },
+      {
+        "id": "urn:content:detroit:inner_link",
+        "hash": "32b58e10477ba1f443b4ce72ebf26ce6b0043e6d1d85a880c8ae260af9310528"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "yancey → inner_link (payment)",
+      "description": "Campaign vendor payments",
+      "tags": [
+        "payment",
+        "record",
+        "detroit"
+      ],
+      "custom": {
+        "source_doc": "TransparencyUSA",
+        "edge_type": "payment",
+        "epistemic_status": "record",
+        "amount_usd": "8025"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1790337966613823890,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: yancey -> inner_link"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:yancey->court_36th:bench",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "detroit-build graph edge to PROV-O braid",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:detroit:yancey",
+        "hash": "cf63c0c7b24b6ec1084c46d020143766afec97921894057f1e64eebe7ce38fa6"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "yancey → court_36th (bench)",
+      "tags": [
+        "bench",
+        "record",
+        "detroit"
+      ],
+      "custom": {
+        "edge_type": "bench",
+        "epistemic_status": "record",
+        "role": "Judge"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1790337966613828169,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: yancey -> court_36th"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:sabree_a->court_3rd:bench",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "detroit-build graph edge to PROV-O braid",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "sabree_a → court_3rd (bench)",
+      "tags": [
+        "bench",
+        "record",
+        "detroit"
+      ],
+      "custom": {
+        "epistemic_status": "record",
+        "edge_type": "bench",
+        "role": "Judge (Family Division)"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1790337966613835773,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: sabree_a -> court_3rd"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:sabree_a->banks:classmate",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "detroit-build graph edge to PROV-O braid",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:detroit:banks",
+        "hash": "db7a4dc18443b6d58af7c87926d9d17b96b1da99e8193adbc0f469281efb013e"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "sabree_a → banks (classmate)",
+      "description": "MSU Law 2010 — same year as Banks' claimed J.D.",
+      "tags": [
+        "classmate",
+        "record",
+        "detroit"
+      ],
+      "custom": {
+        "source_doc": "Graduation records",
+        "epistemic_status": "record",
+        "edge_type": "classmate"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1790337966613838618,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: sabree_a -> banks"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:eric_sabree->sabree_a:family",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "detroit-build graph edge to PROV-O braid",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:detroit:eric_sabree",
+        "hash": "bb394ac6804e5b6523ffdea6f64074c8085bbbfe5cf6aeaf7e24bfce4c665018"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "eric_sabree → sabree_a (family)",
+      "tags": [
+        "family",
+        "record",
+        "detroit"
+      ],
+      "custom": {
+        "epistemic_status": "record",
+        "edge_type": "family",
+        "role": "Father"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1790337966613841313,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: eric_sabree -> sabree_a"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:eric_sabree->sabree_adam:family",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "detroit-build graph edge to PROV-O braid",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:detroit:eric_sabree",
+        "hash": "bb394ac6804e5b6523ffdea6f64074c8085bbbfe5cf6aeaf7e24bfce4c665018"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "eric_sabree → sabree_adam (family)",
+      "tags": [
+        "family",
+        "record",
+        "detroit"
+      ],
+      "custom": {
+        "epistemic_status": "record",
+        "edge_type": "family",
+        "role": "Father"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1790337966613843818,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: eric_sabree -> sabree_adam"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:eric_sabree->miller:political",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "detroit-build graph edge to PROV-O braid",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:detroit:eric_sabree",
+        "hash": "bb394ac6804e5b6523ffdea6f64074c8085bbbfe5cf6aeaf7e24bfce4c665018"
+      },
+      {
+        "id": "urn:content:detroit:miller",
+        "hash": "057aa44ebcdb75fd8d713d5ba2b40b637c6aec8db4381883a0d79d60dc353b75"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "eric_sabree → miller (political)",
+      "description": "Listed as endorser on keepjudgemiller.com",
+      "tags": [
+        "political",
+        "inference",
+        "detroit"
+      ],
+      "custom": {
+        "edge_type": "political",
+        "epistemic_status": "inference",
+        "source_doc": "keepjudgemiller.com"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "marker",
+      "evidence": "",
+      "witnessed_at": 1790337966613846843,
+      "encoding": "none",
+      "tier": "open",
+      "context": "detroit-build edge: eric_sabree -> miller"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:sabree_adam->court_36th:bench",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "detroit-build graph edge to PROV-O braid",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "sabree_adam → court_36th (bench)",
+      "tags": [
+        "bench",
+        "record",
+        "detroit"
+      ],
+      "custom": {
+        "role": "Judge",
+        "edge_type": "bench",
+        "epistemic_status": "record"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1790337966613849549,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: sabree_adam -> court_36th"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:perkins_d->court_probate:bench",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "detroit-build graph edge to PROV-O braid",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "perkins_d → court_probate (bench)",
+      "tags": [
+        "bench",
+        "record",
+        "detroit"
+      ],
+      "custom": {
+        "epistemic_status": "record",
+        "role": "Chief Judge Pro Tem",
+        "edge_type": "bench"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1790337966613852033,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: perkins_d -> court_probate"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:perkins_d->banks:family_donation",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "detroit-build graph edge to PROV-O braid",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:detroit:banks",
+        "hash": "db7a4dc18443b6d58af7c87926d9d17b96b1da99e8193adbc0f469281efb013e"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "perkins_d → banks (family_donation)",
+      "description": "Family donated to Banks-aligned campaigns",
+      "tags": [
+        "family_donation",
+        "record",
+        "detroit"
+      ],
+      "custom": {
+        "epistemic_status": "record",
+        "source_doc": "CFRS",
+        "edge_type": "family_donation"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1790337966613854598,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: perkins_d -> banks"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:perkins_sean->court_36th:bench",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "detroit-build graph edge to PROV-O braid",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "perkins_sean → court_36th (bench)",
+      "tags": [
+        "bench",
+        "record",
+        "detroit"
+      ],
+      "custom": {
+        "role": "Judge",
+        "edge_type": "bench",
+        "epistemic_status": "record"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1790337966613860168,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: perkins_sean -> court_36th"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:perkins_sean->todd_perkins:family",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "detroit-build graph edge to PROV-O braid",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:detroit:todd_perkins",
+        "hash": "aa0654f34579baab4feab14b6403fbe28d485ef13fbd5f107f0377f26bdb50a0"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "perkins_sean → todd_perkins (family)",
+      "tags": [
+        "family",
+        "record",
+        "detroit"
+      ],
+      "custom": {
+        "epistemic_status": "record",
+        "role": "Brother",
+        "edge_type": "family"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1790337966613862904,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: perkins_sean -> todd_perkins"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:ramsey->court_3rd:bench",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "detroit-build graph edge to PROV-O braid",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "ramsey → court_3rd (bench)",
+      "tags": [
+        "bench",
+        "record",
+        "detroit"
+      ],
+      "custom": {
+        "epistemic_status": "record",
+        "role": "Judge (Criminal Division)",
+        "edge_type": "bench"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1790337966613865098,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: ramsey -> court_3rd"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:ramsey->macdowell:employment_family",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "detroit-build graph edge to PROV-O braid",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:detroit:macdowell",
+        "hash": "7cb10b62bcb97c843b7b2f8a579a513c2bbfcaa6564f195bae12c1d43437001b"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "ramsey → macdowell (employment_family)",
+      "description": "2 family members on MacDowell payroll",
+      "tags": [
+        "employment_family",
+        "record",
+        "detroit"
+      ],
+      "custom": {
+        "edge_type": "employment_family",
+        "epistemic_status": "record",
+        "source_doc": "School records"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1790337966613869266,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: ramsey -> macdowell"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:evans->court_3rd:bench",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "detroit-build graph edge to PROV-O braid",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "evans → court_3rd (bench)",
+      "tags": [
+        "bench",
+        "record",
+        "detroit"
+      ],
+      "custom": {
+        "epistemic_status": "record",
+        "edge_type": "bench",
+        "role": "Judge (retired)"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1790337966613871540,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: evans -> court_3rd"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:evans->banks:mentorship",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "detroit-build graph edge to PROV-O braid",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:detroit:banks",
+        "hash": "db7a4dc18443b6d58af7c87926d9d17b96b1da99e8193adbc0f469281efb013e"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "evans → banks (mentorship)",
+      "description": "21-year mentor. Endorsed Banks despite criminal record.",
+      "tags": [
+        "mentorship",
+        "corroborated",
+        "detroit"
+      ],
+      "custom": {
+        "edge_type": "mentorship",
+        "epistemic_status": "corroborated",
+        "source_doc": "Book analysis"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1790337966613874044,
+      "encoding": "none",
+      "tier": "gateway",
+      "context": "detroit-build edge: evans -> banks"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:langford_morris->court_oakland:bench",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "detroit-build graph edge to PROV-O braid",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:detroit:langford_morris",
+        "hash": "6c35038bbb90b6d129e4c52746b95f33adfa673fad1c41d5dc912f21aad72524"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "langford_morris → court_oakland (bench)",
+      "tags": [
+        "bench",
+        "record",
+        "detroit"
+      ],
+      "custom": {
+        "role": "Judge (retired, now JAMS)",
+        "edge_type": "bench",
+        "epistemic_status": "record"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1790337966613878603,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: langford_morris -> court_oakland"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:langford_morris->banks:credential_legitimization",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "detroit-build graph edge to PROV-O braid",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:detroit:langford_morris",
+        "hash": "6c35038bbb90b6d129e4c52746b95f33adfa673fad1c41d5dc912f21aad72524"
+      },
+      {
+        "id": "urn:content:detroit:banks",
+        "hash": "db7a4dc18443b6d58af7c87926d9d17b96b1da99e8193adbc0f469281efb013e"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "langford_morris → banks (credential_legitimization)",
+      "description": "Wrote book foreword using Banks' fake J.D.",
+      "tags": [
+        "credential_legitimization",
+        "corroborated",
+        "detroit"
+      ],
+      "custom": {
+        "source_doc": "Book analysis",
+        "edge_type": "credential_legitimization",
+        "epistemic_status": "corroborated"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1790337966613881398,
+      "encoding": "none",
+      "tier": "gateway",
+      "context": "detroit-build edge: langford_morris -> banks"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:todd_perkins->banks:legal_representation",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "detroit-build graph edge to PROV-O braid",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:detroit:todd_perkins",
+        "hash": "aa0654f34579baab4feab14b6403fbe28d485ef13fbd5f107f0377f26bdb50a0"
+      },
+      {
+        "id": "urn:content:detroit:banks",
+        "hash": "db7a4dc18443b6d58af7c87926d9d17b96b1da99e8193adbc0f469281efb013e"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "todd_perkins → banks (legal_representation)",
+      "tags": [
+        "legal_representation",
+        "record",
+        "detroit"
+      ],
+      "custom": {
+        "epistemic_status": "record",
+        "source_doc": "Court filings",
+        "edge_type": "legal_representation",
+        "role": "Personal attorney"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1790337966613888471,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: todd_perkins -> banks"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:todd_perkins->miller:legal_representation",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "detroit-build graph edge to PROV-O braid",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:detroit:todd_perkins",
+        "hash": "aa0654f34579baab4feab14b6403fbe28d485ef13fbd5f107f0377f26bdb50a0"
+      },
+      {
+        "id": "urn:content:detroit:miller",
+        "hash": "057aa44ebcdb75fd8d713d5ba2b40b637c6aec8db4381883a0d79d60dc353b75"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "todd_perkins → miller (legal_representation)",
+      "description": "Represented Miller in DTW gun case",
+      "tags": [
+        "legal_representation",
+        "record",
+        "detroit"
+      ],
+      "custom": {
+        "source_doc": "WXYZ",
+        "edge_type": "legal_representation",
+        "epistemic_status": "record"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1790337966613891437,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: todd_perkins -> miller"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:gay_dagnogo->dpscd:board_membership",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "detroit-build graph edge to PROV-O braid",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:detroit:gay_dagnogo",
+        "hash": "8b98c5a3b13a1a5f896452788dbc086a37fa0559ad8c69bd20f1384fd0a40268"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "gay_dagnogo → dpscd (board_membership)",
+      "tags": [
+        "board_membership",
+        "record",
+        "detroit"
+      ],
+      "custom": {
+        "edge_type": "board_membership",
+        "role": "Former board member",
+        "epistemic_status": "record"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1790337966613894062,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: gay_dagnogo -> dpscd"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:gay_dagnogo->pca:authorization",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "detroit-build graph edge to PROV-O braid",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:detroit:gay_dagnogo",
+        "hash": "8b98c5a3b13a1a5f896452788dbc086a37fa0559ad8c69bd20f1384fd0a40268"
+      },
+      {
+        "id": "urn:content:detroit:pca",
+        "hash": "1cfedb4f1ea4154b00551d12d1c4c34149e32ba711a5e6c344b93c38ce97d741"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "gay_dagnogo → pca (authorization)",
+      "description": "Voted to authorize Banks' charters",
+      "tags": [
+        "authorization",
+        "record",
+        "detroit"
+      ],
+      "custom": {
+        "epistemic_status": "record",
+        "edge_type": "authorization",
+        "source_doc": "DPSCD board minutes"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1790337966613898430,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: gay_dagnogo -> pca"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:gay_dagnogo->macdowell:authorization",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "detroit-build graph edge to PROV-O braid",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:detroit:gay_dagnogo",
+        "hash": "8b98c5a3b13a1a5f896452788dbc086a37fa0559ad8c69bd20f1384fd0a40268"
+      },
+      {
+        "id": "urn:content:detroit:macdowell",
+        "hash": "7cb10b62bcb97c843b7b2f8a579a513c2bbfcaa6564f195bae12c1d43437001b"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "gay_dagnogo → macdowell (authorization)",
+      "description": "Authorized charter",
+      "tags": [
+        "authorization",
+        "record",
+        "detroit"
+      ],
+      "custom": {
+        "edge_type": "authorization",
+        "epistemic_status": "record"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1790337966613900995,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: gay_dagnogo -> macdowell"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:gay_dagnogo->banks:political",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "detroit-build graph edge to PROV-O braid",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:detroit:gay_dagnogo",
+        "hash": "8b98c5a3b13a1a5f896452788dbc086a37fa0559ad8c69bd20f1384fd0a40268"
+      },
+      {
+        "id": "urn:content:detroit:banks",
+        "hash": "db7a4dc18443b6d58af7c87926d9d17b96b1da99e8193adbc0f469281efb013e"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "gay_dagnogo → banks (political)",
+      "description": "CBC Week honoree; campaign ally",
+      "tags": [
+        "political",
+        "inference",
+        "detroit"
+      ],
+      "custom": {
+        "edge_type": "political",
+        "source_doc": "Eventbrite",
+        "epistemic_status": "inference"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "marker",
+      "evidence": "",
+      "witnessed_at": 1790337966613905393,
+      "encoding": "none",
+      "tier": "open",
+      "context": "detroit-build edge: gay_dagnogo -> banks"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:mckinney->banks:payment",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "detroit-build graph edge to PROV-O braid",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:detroit:mckinney",
+        "hash": "12a27d8b3bb60922d1d401efc41f7ce2ec06d6da2a2c66315a4a43187e0cb379"
+      },
+      {
+        "id": "urn:content:detroit:banks",
+        "hash": "db7a4dc18443b6d58af7c87926d9d17b96b1da99e8193adbc0f469281efb013e"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "mckinney → banks (payment)",
+      "description": "Campaign → extended Banks family",
+      "tags": [
+        "payment",
+        "record",
+        "detroit"
+      ],
+      "custom": {
+        "epistemic_status": "record",
+        "edge_type": "payment",
+        "amount_usd": "4483",
+        "source_doc": "TransparencyUSA"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1790337966613909371,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: mckinney -> banks"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:od_banks->banks:family",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "detroit-build graph edge to PROV-O braid",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:detroit:banks",
+        "hash": "db7a4dc18443b6d58af7c87926d9d17b96b1da99e8193adbc0f469281efb013e"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "od_banks → banks (family)",
+      "tags": [
+        "family",
+        "record",
+        "detroit"
+      ],
+      "custom": {
+        "role": "Father",
+        "epistemic_status": "record",
+        "edge_type": "family",
+        "source_doc": "PACER 2:05-cr-80955"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1790337966613914350,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: od_banks -> banks"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:pca->purpose_group:money_flow",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "detroit-build graph edge to PROV-O braid",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:detroit:pca",
+        "hash": "1cfedb4f1ea4154b00551d12d1c4c34149e32ba711a5e6c344b93c38ce97d741"
+      },
+      {
+        "id": "urn:content:detroit:purpose_group",
+        "hash": "0664a01bc16116896b464298991f53496ab5b3cbcb1d9e678d4cdda1cd8c4b04"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "pca → purpose_group (money_flow)",
+      "description": "Management contract — per-pupil funding flows to CMO",
+      "tags": [
+        "money_flow",
+        "corroborated",
+        "detroit"
+      ],
+      "custom": {
+        "epistemic_status": "corroborated",
+        "edge_type": "money_flow"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1790337966613916895,
+      "encoding": "none",
+      "tier": "gateway",
+      "context": "detroit-build edge: pca -> purpose_group"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:macdowell->purpose_group:money_flow",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "detroit-build graph edge to PROV-O braid",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:detroit:macdowell",
+        "hash": "7cb10b62bcb97c843b7b2f8a579a513c2bbfcaa6564f195bae12c1d43437001b"
+      },
+      {
+        "id": "urn:content:detroit:purpose_group",
+        "hash": "0664a01bc16116896b464298991f53496ab5b3cbcb1d9e678d4cdda1cd8c4b04"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "macdowell → purpose_group (money_flow)",
+      "description": "72.67% of $4.9M revenue to CMO",
+      "tags": [
+        "money_flow",
+        "corroborated",
+        "detroit"
+      ],
+      "custom": {
+        "epistemic_status": "corroborated",
+        "source_doc": "Audited financials",
+        "edge_type": "money_flow",
+        "amount_usd": "4285201"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1790337966613920732,
+      "encoding": "none",
+      "tier": "gateway",
+      "context": "detroit-build edge: macdowell -> purpose_group"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:purpose_group->banks:money_flow",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "detroit-build graph edge to PROV-O braid",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:detroit:purpose_group",
+        "hash": "0664a01bc16116896b464298991f53496ab5b3cbcb1d9e678d4cdda1cd8c4b04"
+      },
+      {
+        "id": "urn:content:detroit:banks",
+        "hash": "db7a4dc18443b6d58af7c87926d9d17b96b1da99e8193adbc0f469281efb013e"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "purpose_group → banks (money_flow)",
+      "description": "Sole member extracts as salary + management fee",
+      "tags": [
+        "money_flow",
+        "corroborated",
+        "detroit"
+      ],
+      "custom": {
+        "epistemic_status": "corroborated",
+        "edge_type": "money_flow"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1790337966613923056,
+      "encoding": "none",
+      "tier": "gateway",
+      "context": "detroit-build edge: purpose_group -> banks"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:pca->court_3rd:jurisdiction",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "detroit-build graph edge to PROV-O braid",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:detroit:pca",
+        "hash": "1cfedb4f1ea4154b00551d12d1c4c34149e32ba711a5e6c344b93c38ce97d741"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "pca → court_3rd (jurisdiction)",
+      "description": "Cases from PCA families filed in 3rd Circuit",
+      "tags": [
+        "jurisdiction",
+        "inference",
+        "detroit"
+      ],
+      "custom": {
+        "edge_type": "jurisdiction",
+        "epistemic_status": "inference"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "marker",
+      "evidence": "",
+      "witnessed_at": 1790337966613925290,
+      "encoding": "none",
+      "tier": "open",
+      "context": "detroit-build edge: pca -> court_3rd"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:pca->court_36th:jurisdiction",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "detroit-build graph edge to PROV-O braid",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:detroit:pca",
+        "hash": "1cfedb4f1ea4154b00551d12d1c4c34149e32ba711a5e6c344b93c38ce97d741"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "pca → court_36th (jurisdiction)",
+      "description": "Cases from PCA families filed in 36th District",
+      "tags": [
+        "jurisdiction",
+        "inference",
+        "detroit"
+      ],
+      "custom": {
+        "epistemic_status": "inference",
+        "edge_type": "jurisdiction"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "marker",
+      "evidence": "",
+      "witnessed_at": 1790337966613928867,
+      "encoding": "none",
+      "tier": "open",
+      "context": "detroit-build edge: pca -> court_36th"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:macdowell->court_3rd:jurisdiction",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "detroit-build graph edge to PROV-O braid",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:detroit:macdowell",
+        "hash": "7cb10b62bcb97c843b7b2f8a579a513c2bbfcaa6564f195bae12c1d43437001b"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "macdowell → court_3rd (jurisdiction)",
+      "description": "Cases from MacDowell families filed in 3rd Circuit",
+      "tags": [
+        "jurisdiction",
+        "inference",
+        "detroit"
+      ],
+      "custom": {
+        "epistemic_status": "inference",
+        "edge_type": "jurisdiction"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "marker",
+      "evidence": "",
+      "witnessed_at": 1790337966613931141,
+      "encoding": "none",
+      "tier": "open",
+      "context": "detroit-build edge: macdowell -> court_3rd"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:macdowell->court_36th:jurisdiction",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "detroit-build graph edge to PROV-O braid",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:detroit:macdowell",
+        "hash": "7cb10b62bcb97c843b7b2f8a579a513c2bbfcaa6564f195bae12c1d43437001b"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "macdowell → court_36th (jurisdiction)",
+      "description": "Cases from MacDowell families filed in 36th District",
+      "tags": [
+        "jurisdiction",
+        "inference",
+        "detroit"
+      ],
+      "custom": {
+        "edge_type": "jurisdiction",
+        "epistemic_status": "inference"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "marker",
+      "evidence": "",
+      "witnessed_at": 1790337966613933306,
+      "encoding": "none",
+      "tier": "open",
+      "context": "detroit-build edge: macdowell -> court_36th"
+    }
+  }
+]
