@@ -12,6 +12,8 @@ Analysis of the documented patterns connecting convicted felons, captured courts
 
 | Analysis | Key Finding |
 |----------|-------------|
+| **[🔬 The Artisan Method](/analysis/the-artisan-method/)** | **10 structural invariants tested across 4 independent sectors. 9.875/10 match. The artisan is not a person — it's a METHOD. 121 nodes, 203 edges, zero-knowledge verifiable. Preprint forthcoming.** |
+| **[🌐 The Knowledge Commons](/analysis/knowledge-commons/)** | **NEW — Life is zero-knowledge. 30 tools nobody owns, 67,800 years of shared infrastructure. NOW (what you can see), WAS (the string of gifts from Metanduno to here), MAY BE (what happens when anyone applies the method anywhere). The proof stands on gifts.** |
 | **[🔗 Institutional Capture Graph](/analysis/institutional-capture-graph/)** | **87 nodes, 140 edges — interactive force graph. Five nexus types, dynasty filters, address overlap, ownership hulls, community collapse. One network.** |
 | **[⚛ Anderson Localization](/analysis/anderson-localization/)** | **9 captured judges across 4 courts. Cases localize like electrons in a disordered lattice. Guardianship ξ=5.5, Probate ξ=3.5 — no escape path.** |
 | **[🧫 Anderson Permeability](/analysis/anderson-permeability/)** | **When institutions lose their membranes. 6 membranes measured: credential, authorization, governance, dynasty, enforcement, transparency. Enterprise Π = 0.9 — total permeability. Companion to Localization.** |

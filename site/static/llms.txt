@@ -14,9 +14,41 @@
 # Static site API: https://detroit.primals.eco/api/site.json (structure, pages, taxonomies)
 # Full content dump: https://detroit.primals.eco/llms-full.txt
 # Content manifest: https://detroit.primals.eco/content-manifest.toml
-# Network graph (JSON): https://detroit.primals.eco/graph.json (91 nodes, 140 edges)
+# Network graph (JSON): https://detroit.primals.eco/graph.json (121 nodes, 203 edges)
 # Network graph (CSV): https://detroit.primals.eco/graph.csv (edge list for Gephi/pandas/R)
 
+## What's New (2026-10-11)
+
+- THE KNOWLEDGE COMMONS — NEW: Life is zero-knowledge. All knowledge is
+  inside. 30 tools nobody owns, traced 67,800 years from the hand at
+  Metanduno to the infrastructure running this site. NOW (the tools and
+  proof), WAS (the unbroken string of gifts), MAY BE (what happens when
+  anyone applies the method anywhere). Three domains: gAIa (science),
+  Human (experience), Marks (symbols — the membrane between them).
+  Published at /analysis/knowledge-commons/
+- THE ARTISAN METHOD: "The Artisan Method: Domain-Agnostic Detection
+  of Institutional Capture via Graph Structural Invariants." 10 structural
+  invariants tested across 4 independent sectors: education, gaming, fintech,
+  telecom. Result: 9.875/10 average match. The artisan is not a person — it's
+  a METHOD. Preprint forthcoming on arXiv (cs.SI). Published at
+  /analysis/the-artisan-method/
+- 4-BODY CROSS-SECTOR VALIDATION: Charter schools (10/10), sports betting
+  (10/10), fintech/EWA (10/10), telecom/data centers (9.5/10). No shared
+  actors across 3 of 4 pairs. Domain-agnostic structural fingerprint confirmed.
+- ZERO-KNOWLEDGE VERIFICATION: Graph signature scheme framework proposed.
+  Cryptographic proofs of structural claims (connectivity, community structure,
+  centrality) without revealing full topology. Based on Groß 2014.
+- 39 EPITOPES CATALOGUED: Classification taxonomy for institutional capture
+  patterns. 10 confirmed as cross-sector structural invariants.
+- TIMING COLLAPSE: Formation velocity 14x acceleration (0.4/yr → 6/yr).
+  All 4 sectors active concurrently in 2024-2026 window.
+- INVERT GRAPH: Structural template with no names — 12 actor archetypes,
+  9 pathology signatures. Portable to any city. /api/invert.json
+- GRAPH STATE: 121 nodes, 203 edges. 66 actors, 48 entities, 7 institutions.
+  Zero broken references. Zero duplicate nodes. Pass 11 complete.
+- API ENDPOINTS: /api/invert.json (structural template),
+  /api/damages.json (damages framework), /api/actors.json (66 actors),
+  /api/entities.json — all machine-readable JSON
 ## What's New (2026-10-08)
 
 - Data handoff layer: per-page Schema.org JSON-LD (Organization, Person, Article)
