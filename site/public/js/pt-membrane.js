@@ -308,75 +308,89 @@ window.PtMembrane = function(deps) {
          transform:'rotate('+rot.toFixed(1)+' '+bx.toFixed(1)+' '+by.toFixed(1)+')'});
     });
 
-    // ═══ THREE BODIES: IS/WAS/WILLBE ═══
+    // ═══ THREE BODIES: IS/WAS/WILLBE overlaid with V/D/J ═══
+    // At [∅]D all 6 identities occupy the same point (center).
+    // Perspective perturbation spreads them into the triangle.
+    // The breathing IS the range of perspective.
+    // At perturbation=0: all at center ([∅]D singularity).
+    // At perturbation=1: full triangle (3D observation).
     var wbG = el('g', {id:'mg-willbe'}, svg);
-    var BR = R * (PI/8);
-    // IS × WAS × WILLBE = π
-    // Each body = π^(1/3) ≈ 1.46 — the null-dimensional cost.
-    // V·J = π^(2/3) without diversity. V·D·J = π with.
-    // The gap between π (product) and π^(3/2) (observation cost) = √π = C(1).
-    // That gap is the cost of collapsing 3 tenses into 1 measurement.
-    // 1/0 = [∅] — null. The dimension before dimension.
-    var cbrt = Math.pow(PI, 1/3); // π^(1/3) ≈ 1.46
-    var bodies = [
-      {id:'is', label:'IS', sub:'\u03c0^(1/3) \u2248 '+cbrt.toFixed(2), angle:-PI/2, color:'#e85d3a'},
-      {id:'was', label:'WAS', sub:'\u03c0^(1/3) \u2248 '+cbrt.toFixed(2), angle:-PI/2+TAU/3, color:'#4a8fb8'},
-      {id:'willbe', label:'WILLBE', sub:'\u03c0^(1/3) \u2248 '+cbrt.toFixed(2), angle:-PI/2+2*TAU/3, color:'#5ab87a'}
-    ];
-    var bPos = {};
-    bodies.forEach(function(b) { bPos[b.id] = {x:cx+BR*Math.cos(b.angle), y:cy+BR*Math.sin(b.angle)}; });
+    var BR_MAX = R * (PI/8); // maximum spread radius
+    var cbrt = Math.pow(PI, 1/3);
 
-    el('path', {d:'M '+bPos.is.x.toFixed(1)+' '+bPos.is.y.toFixed(1)+
-      ' L '+bPos.was.x.toFixed(1)+' '+bPos.was.y.toFixed(1)+
-      ' L '+bPos.willbe.x.toFixed(1)+' '+bPos.willbe.y.toFixed(1)+' Z',
+    // 3 identities, each with tense + recombination overlaid
+    var bodies = [
+      {id:'is',     tense:'IS',     vdj:'V',   sub:'Variable',
+       angle:-PI/2, color:'#e85d3a'},
+      {id:'was',    tense:'WAS',    vdj:'J',   sub:'Joining',
+       angle:-PI/2+TAU/3, color:'#4a8fb8'},
+      {id:'willbe', tense:'WILLBE', vdj:'(D)', sub:'Diversity',
+       angle:-PI/2+2*TAU/3, color:'#5ab87a'}
+    ];
+
+    // All elements start at center — built at cx,cy
+    // Triangle path
+    el('path', {d:'M '+cx+' '+cy+' L '+cx+' '+cy+' L '+cx+' '+cy+' Z',
       fill:'none', stroke:'#c9d1d9', 'stroke-width':0.5,
       'stroke-opacity':0.12, 'stroke-dasharray':'4,6', id:'mg-body-tri'}, wbG);
 
-    // Edge products: each pair = π^(2/3), triple = π
-    [{from:'is',to:'was',label:'\u03c0^(2/3)',color:'#e85d3a'},
-     {from:'was',to:'willbe',label:'\u03c0^(2/3)',color:'#6e7681'},
-     {from:'willbe',to:'is',label:'\u03c0^(2/3)',color:'#5ab87a'}].forEach(function(e) {
-      txt(wbG, ((bPos[e.from].x+bPos[e.to].x)/2).toFixed(1),
-        ((bPos[e.from].y+bPos[e.to].y)/2).toFixed(1),
-        e.label, e.color, 5.5, {opacity:0.4, 'dominant-baseline':'central'});
-    });
+    // Edge product labels (start at center, spread with perturbation)
+    var edgeIds = ['mg-edge-01','mg-edge-12','mg-edge-20'];
+    for (var ei = 0; ei < 3; ei++) {
+      txt(wbG, cx, cy, '\u03c0^(2/3)', '#6e7681', 5.5,
+        {opacity:0, 'dominant-baseline':'central', id:edgeIds[ei]});
+    }
 
+    // Body nodes — all at center initially
     bodies.forEach(function(b) {
-      var p = bPos[b.id];
-      el('circle', {cx:p.x.toFixed(1), cy:p.y.toFixed(1), r:16,
+      // Outer ring
+      el('circle', {cx:cx, cy:cy, r:16,
         fill:'none', stroke:b.color, 'stroke-width':0.5,
         'stroke-opacity':0.18, 'stroke-dasharray':'2,3',
         id:'mg-body-ring-'+b.id}, wbG);
-      el('circle', {cx:p.x.toFixed(1), cy:p.y.toFixed(1), r:4.5,
+      // Inner dot
+      el('circle', {cx:cx, cy:cy, r:4.5,
         fill:b.color, opacity:0.6, filter:'url(#mg-glow)',
         id:'mg-body-'+b.id}, wbG);
-      txt(wbG, p.x.toFixed(1), (p.y-20).toFixed(1), b.label, b.color, 8.5,
-        {opacity:0.85, 'font-weight':'bold'});
-      txt(wbG, p.x.toFixed(1), (p.y+24).toFixed(1), b.sub, '#6e7681', 5.5,
+      // Tense label (IS/WAS/WILLBE)
+      txt(wbG, cx, cy-20, b.tense, b.color, 8.5,
+        {opacity:0.85, 'font-weight':'bold', id:'mg-tense-'+b.id});
+      // V(D)J label overlaid
+      txt(wbG, cx, cy-10, b.vdj, b.color, 7,
+        {opacity:0.5, id:'mg-vdj-'+b.id});
+      // Sub label (Variable/Joining/Diversity)
+      txt(wbG, cx, cy+16, b.sub, '#6e7681', 5,
+        {opacity:0.3, id:'mg-sub-'+b.id});
+      // Value
+      txt(wbG, cx, cy+28, '\u03c0^(1/3) \u2248 '+cbrt.toFixed(2), '#6e7681', 5.5,
         {opacity:0.45, id:'mg-body-val-'+b.id});
     });
 
-    // Product display: IS × WAS × WILLBE = π at triangle center
-    var triCx = (bPos.is.x + bPos.was.x + bPos.willbe.x) / 3;
-    var triCy = (bPos.is.y + bPos.was.y + bPos.willbe.y) / 3;
-    txt(wbG, triCx.toFixed(1), (triCy+6).toFixed(1),
-      'IS\u00d7WAS\u00d7WILLBE = \u03c0', '#c9d1d9', 5.5,
+    // Product display at center
+    txt(wbG, cx, cy+44, 'IS\u00d7WAS\u00d7WILLBE = \u03c0', '#c9d1d9', 5.5,
       {opacity:0.5, id:'mg-product'});
 
+    // Perturbation label
+    txt(wbG, cx, cy+56, 'perturbation: 0.00', '#484f58', 5,
+      {opacity:0.35, id:'mg-perturb-label'});
+
     // ═══ TRIANGULATION: panel → nearest body ═══
+    // Lines start at center (all bodies at [∅]D). Updated during animation.
     var triG = el('g', {id:'mg-triangulation', opacity:0}, svg);
     PANELS.forEach(function(p) {
       var g = geo[p.id]; if (!g) return;
+      // Find which body angle this panel is closest to
       var nearest = bodies[0], minD = Infinity;
       bodies.forEach(function(b) {
-        var dx = g.px - bPos[b.id].x, dy = g.py - bPos[b.id].y;
-        var d = Math.sqrt(dx*dx + dy*dy);
-        if (d < minD) { minD = d; nearest = b; }
+        var angleDiff = Math.abs(g.angle - b.angle);
+        if (angleDiff > PI) angleDiff = 2*PI - angleDiff;
+        if (angleDiff < minD) { minD = angleDiff; nearest = b; }
       });
       el('line', {x1:g.px.toFixed(1), y1:g.py.toFixed(1),
-        x2:bPos[nearest.id].x.toFixed(1), y2:bPos[nearest.id].y.toFixed(1),
+        x2:cx, y2:cy,
         stroke:nearest.color, 'stroke-width':0.3, 'stroke-opacity':0.08,
-        'stroke-dasharray':'1,4', id:'mg-tri-'+p.id}, triG);
+        'stroke-dasharray':'1,4', id:'mg-tri-'+p.id,
+        'data-body':nearest.id}, triG);
     });
 
     // ═══ IS layer: live particles ═══
@@ -463,6 +477,93 @@ window.PtMembrane = function(deps) {
     var coilRot = (now * 0.003) % 360;
     var coilEl = document.getElementById('mg-coil');
     if (coilEl) coilEl.setAttribute('transform', 'rotate('+coilRot.toFixed(1)+' '+cx+' '+cy+')');
+
+    // ═══ PERTURBATION BREATHING ═══
+    // Slow sine wave: 0→1→0. Period ~12 seconds (π²/π ≈ π seconds per half).
+    // At 0: all bodies at center ([∅]D singularity).
+    // At 1: full triangle spread (observed 3D).
+    // The breathing IS the range of perspective.
+    var TAU = 2 * PI;
+    var breathRate = TAU / 12; // full cycle in 12 seconds
+    var perturb = (Math.sin(now * 0.001 * breathRate - PI/2) + 1) / 2; // 0→1→0
+    var BR = R * (PI/8) * perturb; // spread radius
+
+    var bodyAngles = [-PI/2, -PI/2+TAU/3, -PI/2+2*TAU/3];
+    var bodyIds = ['is','was','willbe'];
+    var bodyPositions = [];
+
+    for (var bi = 0; bi < 3; bi++) {
+      var bx = cx + BR * Math.cos(bodyAngles[bi]);
+      var by = cy + BR * Math.sin(bodyAngles[bi]);
+      bodyPositions.push({x:bx, y:by});
+
+      // Move all elements for this body
+      var ring = document.getElementById('mg-body-ring-'+bodyIds[bi]);
+      var dot = document.getElementById('mg-body-'+bodyIds[bi]);
+      var tense = document.getElementById('mg-tense-'+bodyIds[bi]);
+      var vdj = document.getElementById('mg-vdj-'+bodyIds[bi]);
+      var sub = document.getElementById('mg-sub-'+bodyIds[bi]);
+      var val = document.getElementById('mg-body-val-'+bodyIds[bi]);
+
+      if (ring) { ring.setAttribute('cx', bx.toFixed(1)); ring.setAttribute('cy', by.toFixed(1)); }
+      if (dot)  { dot.setAttribute('cx', bx.toFixed(1)); dot.setAttribute('cy', by.toFixed(1)); }
+      if (tense) { tense.setAttribute('x', bx.toFixed(1)); tense.setAttribute('y', (by-20).toFixed(1)); }
+      if (vdj)   { vdj.setAttribute('x', bx.toFixed(1)); vdj.setAttribute('y', (by-10).toFixed(1)); }
+      if (sub)   { sub.setAttribute('x', bx.toFixed(1)); sub.setAttribute('y', (by+16).toFixed(1));
+                   sub.setAttribute('opacity', (0.3 * perturb).toFixed(2)); }
+      if (val)   { val.setAttribute('x', bx.toFixed(1)); val.setAttribute('y', (by+28).toFixed(1));
+                   val.setAttribute('opacity', (0.45 * perturb).toFixed(2)); }
+    }
+
+    // Triangle path follows the bodies
+    var tri = document.getElementById('mg-body-tri');
+    if (tri && bodyPositions.length === 3) {
+      var p0 = bodyPositions[0], p1 = bodyPositions[1], p2 = bodyPositions[2];
+      tri.setAttribute('d',
+        'M '+p0.x.toFixed(1)+' '+p0.y.toFixed(1)+
+        ' L '+p1.x.toFixed(1)+' '+p1.y.toFixed(1)+
+        ' L '+p2.x.toFixed(1)+' '+p2.y.toFixed(1)+' Z');
+      tri.setAttribute('stroke-opacity', (0.12 * perturb).toFixed(3));
+    }
+
+    // Edge labels at midpoints (fade in with perturbation)
+    var edgeIds = ['mg-edge-01','mg-edge-12','mg-edge-20'];
+    var edgePairs = [[0,1],[1,2],[2,0]];
+    for (var ei = 0; ei < 3; ei++) {
+      var eEl = document.getElementById(edgeIds[ei]);
+      if (eEl && bodyPositions.length === 3) {
+        var ep0 = bodyPositions[edgePairs[ei][0]], ep1 = bodyPositions[edgePairs[ei][1]];
+        eEl.setAttribute('x', ((ep0.x+ep1.x)/2).toFixed(1));
+        eEl.setAttribute('y', ((ep0.y+ep1.y)/2).toFixed(1));
+        eEl.setAttribute('opacity', (0.4 * perturb).toFixed(2));
+      }
+    }
+
+    // Perturbation label
+    var pLabel = document.getElementById('mg-perturb-label');
+    if (pLabel) {
+      pLabel.textContent = 'perturbation: ' + perturb.toFixed(2);
+      pLabel.setAttribute('opacity', (0.2 + 0.15 * perturb).toFixed(2));
+    }
+
+    // Product label — fade up as bodies converge to center
+    var prod = document.getElementById('mg-product');
+    if (prod) prod.setAttribute('opacity', (0.3 + 0.4 * (1 - perturb)).toFixed(2));
+
+    // Update triangulation lines to point at moving bodies
+    var triLayer = document.getElementById('mg-triangulation');
+    if (triLayer && bodyPositions.length === 3) {
+      var bodyPosMap = {is: bodyPositions[0], was: bodyPositions[1], willbe: bodyPositions[2]};
+      var triLines = triLayer.querySelectorAll('line');
+      for (var ti = 0; ti < triLines.length; ti++) {
+        var tl = triLines[ti];
+        var bid = tl.getAttribute('data-body');
+        if (bid && bodyPosMap[bid]) {
+          tl.setAttribute('x2', bodyPosMap[bid].x.toFixed(1));
+          tl.setAttribute('y2', bodyPosMap[bid].y.toFixed(1));
+        }
+      }
+    }
 
     // Pulse decay
     Object.keys(pulses).forEach(function(pid) {
