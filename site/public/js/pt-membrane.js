@@ -168,6 +168,14 @@ window.PtMembrane = function(deps) {
             + ' (\u03c0\u00b1' + (err*100).toFixed(1) + '%)';
         }
       }
+      // Show live observer fraction
+      if (typeof nd.observer_fraction === 'number') {
+        var obsEl = document.getElementById('mg-observer');
+        if (obsEl) {
+          obsEl.textContent = 'observer = ' + nd.observer_fraction.toFixed(6)
+            + ' (the irrational remainder)';
+        }
+      }
     }
     prevDash = JSON.parse(JSON.stringify(dash));
   }
@@ -459,6 +467,12 @@ window.PtMembrane = function(deps) {
     txt(wbG, cx, cy+68, 'self = \u2211others / \u03c0', '#6e7681', 5,
       {opacity: 0.25, id: 'mg-reflection'});
 
+    // π-body proof: observer = π − ⌊π⌋ = 0.14159...
+    txt(wbG, cx, cy+80, 'observer = \u03c0 \u2212 \u230a\u03c0\u230b \u2248 0.142', '#484f58', 4.5,
+      {opacity: 0.2, id: 'mg-observer'});
+    txt(wbG, cx, cy+90, '3 bodies + 1 irrational observer = \u03c0', '#484f58', 4.5,
+      {opacity: 0.15, id: 'mg-pi-body'});
+
     // ═══ IS layer: live particles ═══
     pGroup = el('g', {id:'mg-is'}, svg);
 
@@ -687,9 +701,13 @@ window.PtMembrane = function(deps) {
     if (knotPi) {
       knotPi.setAttribute('opacity', (0.7 * (1 - perturb)).toFixed(2));
     }
-    // Reflection equation — visible at singularity
+    // Reflection equation + observer — visible at singularity
     var reflEl = document.getElementById('mg-reflection');
     if (reflEl) reflEl.setAttribute('opacity', (0.25 * (1 - perturb * 0.8)).toFixed(2));
+    var obsEl = document.getElementById('mg-observer');
+    if (obsEl) obsEl.setAttribute('opacity', (0.2 * (1 - perturb * 0.8)).toFixed(2));
+    var pibEl = document.getElementById('mg-pi-body');
+    if (pibEl) pibEl.setAttribute('opacity', (0.15 * (1 - perturb * 0.8)).toFixed(2));
 
     // Update triangulation lines to point at moving bodies
     var triLayer = document.getElementById('mg-triangulation');
