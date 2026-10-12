@@ -11,7 +11,7 @@
       "page": "/network/actors/brian-banks/",
       "class": "entity",
       "membrane_response": "-1",
-      "classification": "non-self",
+      "classification": "negative",
       "confidence": 0.99,
       "opacity": 0.99,
       "sort_pass": 2,
@@ -27,7 +27,7 @@
       "page": "/network/actors/joseph-holland/",
       "class": "entity",
       "membrane_response": "-1",
-      "classification": "partial",
+      "classification": "negative",
       "confidence": 0.45,
       "opacity": 0.45,
       "sort_pass": 3,
@@ -39,7 +39,7 @@
       "label": "Chief Justice Megan K. Cavanagh",
       "type": "actor",
       "tier": 1,
-      "classification": "partial",
+      "classification": "negative",
       "role": "MI Supreme Court Chief Justice (since 2019, CJ since Apr 2025). UMich Engineering + Wayne State Law. LIAISON TO AGC AND JTC. Former AGC member. Former SBM Appellate Practice Section Chair. She is the Supreme Court's direct connection to BOTH oversight bodies that refuse to act.",
       "class": "entity",
       "membrane_response": "-1",
@@ -86,7 +86,7 @@
       "type": "entity",
       "entity_type": "Oversight body",
       "note": "Judicial Tenure Commission. 3034 W Grand Blvd Suite 8-350, Detroit MI 48202. (313) 875-5110. Budget: $2,944,500 (FY2026). 15 staff (13 attorneys, 2 admin). 9 commissioners (5 judges, 2 attorneys, 2 lay). Oct 12, 2026 11:07 AM: 'The Commission will no longer respond to your email messages.' 5 open RFIs. Constitutional mandate Art VI §30. They chose silence.",
-      "classification": "partial",
+      "classification": "negative",
       "tier": 1,
       "class": "entity",
       "membrane_response": "-pi",
@@ -105,7 +105,7 @@
       "tier": 1,
       "class": "entity",
       "membrane_response": "-1",
-      "classification": "non-self",
+      "classification": "negative",
       "confidence": 0.9,
       "opacity": 0.9,
       "sort_pass": 1,
@@ -136,7 +136,7 @@
       "tier": 1,
       "class": "entity",
       "membrane_response": "-pi",
-      "classification": "non-self",
+      "classification": "negative",
       "confidence": 0.9,
       "opacity": 0.9,
       "sort_pass": 1,
@@ -205,7 +205,7 @@
       "type": "actor",
       "tier": 2,
       "role": "Attorney representing Brian Banks (9 felony convictions) in custody case 26-108221-DC. ADB Hearing Panelist — sits on the body that disciplines attorneys while representing a 9-time felon at K-12 schools. GLLG principal. Confirmed in writing NOT retained for law enforcement matters. On Burris reply-all thread Oct 12. Previously assumed aligned — assumption revoked.",
-      "classification": "partial",
+      "classification": "negative",
       "class": "entity",
       "membrane_response": "-pi",
       "confidence": 0.55,
@@ -310,7 +310,7 @@
       "page": "/network/judges/cylenthia-miller/",
       "class": "entity",
       "membrane_response": "-1",
-      "classification": "partial",
+      "classification": "negative",
       "confidence": 0.55,
       "opacity": 0.55,
       "sort_pass": 2,
@@ -339,7 +339,7 @@
       "role": "AAG â†’ PCA Board Director",
       "class": "entity",
       "membrane_response": "-1",
-      "classification": "partial",
+      "classification": "negative",
       "confidence": 0.55,
       "opacity": 0.55,
       "sort_pass": 2,
@@ -358,7 +358,8 @@
       "opacity": 0.45,
       "sort_pass": 3,
       "sort_method": "cascade_nonself",
-      "sort_note": "Governance/board connection to non-self (cascade)."
+      "sort_note": "Governance/board connection to non-self (cascade).",
+      "membrane_response": "form"
     },
     {
       "id": "perkins_david",
@@ -558,7 +559,8 @@
       "opacity": 0.55,
       "sort_pass": 2,
       "sort_method": "null_formation",
-      "sort_note": "Formed by or connected to null routing entity."
+      "sort_note": "Formed by or connected to null routing entity.",
+      "membrane_response": "-1"
     },
     {
       "id": "yancey",
@@ -569,7 +571,7 @@
       "page": "/network/judges/tenisha-yancey/",
       "class": "entity",
       "membrane_response": "-1",
-      "classification": "partial",
+      "classification": "negative",
       "confidence": 0.55,
       "opacity": 0.55,
       "sort_pass": 2,
@@ -599,7 +601,7 @@
       "tier": 2,
       "class": "entity",
       "membrane_response": "-1",
-      "classification": "partial",
+      "classification": "negative",
       "confidence": 0.9,
       "opacity": 0.9,
       "sort_pass": 1,
@@ -737,7 +739,7 @@
       "tier": 2,
       "class": "entity",
       "membrane_response": "-1",
-      "classification": "partial",
+      "classification": "negative",
       "confidence": 0.55,
       "opacity": 0.55,
       "sort_pass": 2,
@@ -751,7 +753,7 @@
       "tier": 2,
       "class": "entity",
       "membrane_response": "-1",
-      "classification": "partial",
+      "classification": "negative",
       "confidence": 0.55,
       "opacity": 0.55,
       "sort_pass": 2,
@@ -902,10 +904,10 @@
       "id": "beasley",
       "label": "Dr. Chalena Yancey Beasley",
       "type": "actor",
-      "tier": 3,
+      "tier": 2,
       "role": "Founding School Leader, PCA. PhD Wayne State ELPS 2023. 29yr DPSCD veteran. Principal Bunche Prep. NBCT. BS WMU, MA Marygrove, PhD Wayne State. Sister of Judge Tenisha Yancey. Husband Ahmed Beasley. Most credentialed person in Banks enterprise.",
       "class": "actor",
-      "classification": "partial",
+      "classification": "negative",
       "membrane_response": "-1",
       "confidence": 0.55,
       "opacity": 0.55,
@@ -1189,7 +1191,7 @@
       "role": "Director, EMU Charter Schools Office. Terminated DPSA charter Jun 30, 2026. MCCSA Treasurer.",
       "class": "entity",
       "membrane_response": "+0.8",
-      "classification": "self",
+      "classification": "non-self",
       "confidence": 0.75,
       "opacity": 0.75,
       "sort_pass": 2,
@@ -1420,7 +1422,8 @@
       "opacity": 0.45,
       "sort_pass": 3,
       "sort_method": "cascade_null",
-      "sort_note": "Formation/governance connection to null (cascade)."
+      "sort_note": "Formation/governance connection to null (cascade).",
+      "membrane_response": "-1"
     },
     {
       "label": "Roland S. Martin",
@@ -1612,7 +1615,7 @@
       "role": "DPSCD Superintendent. PCA authorized under his watch (Jul 2025).",
       "class": "entity",
       "membrane_response": "-1",
-      "classification": "partial",
+      "classification": "negative",
       "confidence": 0.45,
       "opacity": 0.45,
       "sort_pass": 3,
@@ -1653,7 +1656,7 @@
       "id": "afc",
       "type": "entity",
       "role": "School choice advocacy",
-      "tier": 3,
+      "tier": 2,
       "class": "entity",
       "membrane_response": "0",
       "classification": "other",
@@ -1669,7 +1672,7 @@
       "type": "entity",
       "tier": 3,
       "role": "MI AG Charitable Trust Section. Registers/oversees 13,000+ charitable orgs. RESPONDED 12:19 PM Oct 12 — complaint received, pending review, 30-45 days. ct_email@michigan.gov. Phone 517-335-7571.",
-      "classification": "self",
+      "classification": "partial",
       "class": "entity",
       "membrane_response": "form",
       "confidence": 0.75,
@@ -1684,7 +1687,7 @@
       "type": "entity",
       "entity_type": "Legislation",
       "note": "Public Act 362, signed Jan 14 1994 (passed Dec 3 1993). Part 6A Revised School Code. Authorized universities, community colleges, ISDs, and local districts to charter PSAs. Constitutional challenge 1994, Supreme Court upheld 1997. THE law that enables everything: CMU authorization, MacDowell, PCA, all of it.",
-      "tier": 3,
+      "tier": 2,
       "class": "entity",
       "classification": "partial",
       "confidence": 0.45,
@@ -1698,10 +1701,10 @@
       "label": "Dykema Gossett",
       "type": "entity",
       "entity_type": "Law firm",
-      "tier": 3,
+      "tier": 2,
       "class": "entity",
       "membrane_response": "-1",
-      "classification": "null",
+      "classification": "negative",
       "confidence": 0.9,
       "opacity": 0.9,
       "sort_pass": 1,
@@ -1713,7 +1716,7 @@
       "type": "entity",
       "tier": 3,
       "role": "MDE Office of Educator Excellence — Professional Practice unit. Criminal convictions + K-12 employment. Fingerprinting. Revocations. RESPONDED 12:19 PM Oct 12. MDE-Professional-Practice@Michigan.gov. Director: Kelli Brozanski (brozanskik@michigan.gov).",
-      "classification": "self",
+      "classification": "partial",
       "class": "entity",
       "membrane_response": "form",
       "confidence": 0.75,
@@ -1746,7 +1749,7 @@
       "tier": 3,
       "class": "entity",
       "membrane_response": "-1",
-      "classification": "partial",
+      "classification": "negative",
       "confidence": 0.45,
       "opacity": 0.45,
       "sort_pass": 3,
@@ -1804,7 +1807,7 @@
       "tier": 3,
       "class": "entity",
       "membrane_response": "form",
-      "classification": "self",
+      "classification": "partial",
       "confidence": 0.6,
       "opacity": 0.6,
       "sort_pass": 2,
@@ -1837,7 +1840,8 @@
       "opacity": 0.3,
       "sort_pass": 3,
       "sort_method": "unresolved",
-      "sort_note": "Edge pattern unresolved."
+      "sort_note": "Edge pattern unresolved.",
+      "membrane_response": "-1"
     },
     {
       "id": "agc_blessing",
@@ -2531,7 +2535,7 @@
       "type": "actor",
       "tier": 4,
       "role": "WXYZ (Ch 7) investigative journalist. Covered Banks/charter school story. ross.jones@wxyz.com.",
-      "classification": "self",
+      "classification": "non-self",
       "class": "actor",
       "membrane_response": "+0.5",
       "confidence": 0.75,
@@ -2591,7 +2595,7 @@
       "role": "SBE member (R-Goodrich). Confirmed positive actor. Responded 13 min. EMU grad. Nurse. Disability advocate.",
       "class": "entity",
       "membrane_response": "+1",
-      "classification": "self",
+      "classification": "non-self",
       "confidence": 0.75,
       "opacity": 0.75,
       "sort_pass": 2,
@@ -2616,12 +2620,12 @@
       "id": "todd_perkins",
       "label": "Todd Perkins",
       "type": "actor",
-      "tier": 4,
+      "tier": 3,
       "role": "Professional enabler â€” attorney",
       "page": "/network/professional-enablers/todd-perkins/",
       "class": "entity",
       "membrane_response": "-1",
-      "classification": "null",
+      "classification": "negative",
       "confidence": 0.65,
       "opacity": 0.65,
       "sort_pass": 2,
@@ -2915,7 +2919,7 @@
       "label": "Central Michigan University",
       "type": "entity",
       "entity_type": "Charter authorizer",
-      "tier": 4,
+      "tier": 3,
       "class": "entity",
       "classification": "self",
       "confidence": 0.9,
@@ -2971,7 +2975,7 @@
       "label": "Eastern Michigan University",
       "type": "entity",
       "entity_type": "Charter authorizer",
-      "tier": 4,
+      "tier": 3,
       "class": "entity",
       "classification": "other",
       "confidence": 0.3,
@@ -3129,7 +3133,7 @@
       "type": "entity",
       "entity_type": "Campaign",
       "note": "10-city tour. Co-produced by Nu Vision Media + The 74. National partners: AFC, EdChoice, ExcelinEd, NACPS, UNCF, Walton. Walton gave $350K (2020).",
-      "tier": 4,
+      "tier": 3,
       "class": "entity",
       "classification": "null",
       "confidence": 0.45,
@@ -3203,7 +3207,7 @@
       "type": "entity",
       "entity_type": "Law school",
       "note": "Detroit. Dawn Ison (JTC Commissioner, JD). Detroit legal pipeline.",
-      "tier": 4,
+      "tier": 3,
       "class": "entity",
       "classification": "other",
       "confidence": 0.3,
@@ -3519,7 +3523,7 @@
       "page": "/network/entities/anchor-rock-foundation/",
       "entity_type": "Dissolved 501(c)(3)",
       "lara_id": "802394934",
-      "tier": 5,
+      "tier": 4,
       "class": "entity",
       "classification": "null",
       "confidence": 0.7,
@@ -3664,7 +3668,7 @@
       "type": "entity",
       "entity_type": "501(c)(3) nonprofit",
       "ein": "82-2361291",
-      "tier": 5,
+      "tier": 4,
       "class": "entity",
       "classification": "null",
       "confidence": 0.45,
@@ -3987,7 +3991,7 @@
       "label": "Grand Valley State University",
       "type": "entity",
       "entity_type": "Charter authorizer",
-      "tier": 5,
+      "tier": 4,
       "class": "entity",
       "classification": "other",
       "confidence": 0.3,
@@ -4017,7 +4021,7 @@
       "type": "entity",
       "page": "/network/entities/inner-link-graphics/",
       "entity_type": "Campaign vendor",
-      "tier": 5,
+      "tier": 4,
       "class": "entity",
       "classification": "null",
       "confidence": 0.6,
@@ -4076,14 +4080,15 @@
       "id": "mapsa",
       "type": "entity",
       "role": "Michigan Association of Public School Academies",
-      "tier": 5,
+      "tier": 4,
       "class": "entity",
       "classification": "self",
       "confidence": 0.4,
       "opacity": 0.4,
       "sort_pass": 3,
       "sort_method": "cascade_self",
-      "sort_note": "Low-edge entity adjacent to self."
+      "sort_note": "Low-edge entity adjacent to self.",
+      "membrane_response": "-1"
     },
     {
       "id": "marygrove",
@@ -4105,14 +4110,15 @@
       "type": "entity",
       "entity_type": "Oversight body",
       "note": "Authorizer accountability standards. Criminal background check requirement. Chair: Leah Breen (GVSU). Treasurer: Jolia Hill (EMU).",
-      "tier": 5,
+      "tier": 2,
       "class": "entity",
       "classification": "self",
       "confidence": 0.4,
       "opacity": 0.4,
       "sort_pass": 3,
       "sort_method": "cascade_self",
-      "sort_note": "Low-edge entity adjacent to self."
+      "sort_note": "Low-edge entity adjacent to self.",
+      "membrane_response": "0"
     },
     {
       "id": "mde_oee",
@@ -4120,7 +4126,7 @@
       "type": "entity",
       "entity_type": "Oversight body",
       "note": "Criminal convictions + K-12 employment. MOECS permits. Fingerprinting. Revocations. Dir: Kelli Brozanski.",
-      "tier": 5,
+      "tier": 4,
       "class": "entity",
       "classification": "self",
       "confidence": 0.75,
@@ -4180,14 +4186,15 @@
       "type": "entity",
       "entity_type": "For-profit CMO",
       "lara_id": "800516703",
-      "tier": 5,
+      "tier": 4,
       "class": "entity",
       "classification": "self",
       "confidence": 0.7,
       "opacity": 0.7,
       "sort_pass": 2,
       "sort_method": "jurisdiction",
-      "sort_note": "Jurisdictional entity."
+      "sort_note": "Jurisdictional entity.",
+      "membrane_response": "-1"
     },
     {
       "id": "notre_dame",
@@ -4255,7 +4262,7 @@
       "type": "entity",
       "page": "/network/entities/political-action-committees/",
       "entity_type": "Campaign finance vehicles",
-      "tier": 5,
+      "tier": 4,
       "class": "entity",
       "classification": "null",
       "confidence": 0.7,
@@ -4686,7 +4693,7 @@
       "id": "brozanski",
       "label": "Kelli Brozanski",
       "type": "actor",
-      "tier": 6,
+      "tier": 5,
       "role": "Director, MDE Office of Educator Excellence. brozanskik@michigan.gov. 517-648-4015.",
       "class": "entity",
       "classification": "self",
@@ -4700,7 +4707,7 @@
       "id": "fowler",
       "label": "Darrin Fowler",
       "type": "actor",
-      "tier": 6,
+      "tier": 5,
       "role": "Acting Division Chief, AG Corporate Oversight. Bar P53464. Former Eaton County detective.",
       "class": "entity",
       "classification": "self",
@@ -4714,7 +4721,7 @@
       "id": "senier",
       "label": "Amy Senier",
       "type": "actor",
-      "tier": 6,
+      "tier": 5,
       "role": "Education Advocacy Attorney, ACLU Michigan. Georgetown/Foley Hoag. S.S. v. Michigan.",
       "class": "entity",
       "classification": "self",
@@ -4741,7 +4748,8 @@
       "tier": 2,
       "role": "Former Dykema partner (1982-2007, retired). Co-authored MI charter school law (PA 362). CO-FOUNDED Mackinac Center for Public Policy (1987) with Engler. Engler transition director (1990). McPherson Commission member (2001). Defended charter law at MI Supreme Court. Head of Govt Policy & Practice Group. Managing Member Lansing. Legal counsel to TEACH Michigan. MSU Law board of trustees. Former Livingston County Asst Prosecutor. Former MI Governor's staff (Milliken). The intellectual architect of MI charter schools.",
       "class": "entity",
-      "classification": "negative"
+      "classification": "negative",
+      "membrane_response": "-1"
     },
     {
       "id": "ncsi",
@@ -4751,7 +4759,8 @@
       "tier": 3,
       "role": "Founded 1995 by Gov Engler + CMU as MI Resource Center for Charter Schools. $1M federal funding 2001 to expand nationally. Mt. Pleasant, MI. 52 employees, $11.3M revenue. CEO James Goenner (Hall of Fame 2010). Board: John Engler, Leonard Wolfe, Jim Barrett (Chair), Sheree Speakman, Gerald Pall. Provides resources, training, tools for charter governance and accountability.",
       "class": "entity",
-      "classification": "null"
+      "classification": "null",
+      "membrane_response": "-1"
     },
     {
       "id": "sherrie_farrell",
@@ -4760,7 +4769,8 @@
       "tier": 4,
       "role": "Dykema Detroit Office Managing Member & Chief Diversity Officer (Jan 2023). Former City of Detroit Communications Director (3 mayoral administrations). Former Supervising Publicist, City of Detroit. Joined Dykema 1996 as summer associate. President Wolverine Bar Assn (2008-09), Women's Lawyers Assn of MI (2000-01). SBM Diversity & Inclusion Advisory Committee. Wayne State Board of Visitors. PR/crisis communications background. Detroit Regional Chamber Leadership Detroit XVIII.",
       "class": "entity",
-      "classification": "null"
+      "classification": "null",
+      "membrane_response": "-1"
     },
     {
       "id": "james_goenner",
@@ -4951,7 +4961,8 @@
       "tier": 3,
       "role": "MAPSA Chairman. Principal, Activate Detroit. Former MI State Senator (4th district, 2003-2011, D-Detroit). Former MI State Rep (10th district, 1997-2002). House Dem Leader. Senate Dem Floor Leader. Founded Turnaround Detroit Super PAC — credited with electing Duggan as mayor. Co-Chairman Obama 2008 MI campaign. Board: DIA, Gerald R. Ford Foundation, ACLU of Michigan, Equality Michigan. Detroit Country Day School → University of Pennsylvania.",
       "class": "entity",
-      "classification": "null"
+      "classification": "null",
+      "membrane_response": "-1"
     },
     {
       "id": "corey_northrop",
@@ -4960,7 +4971,8 @@
       "tier": 3,
       "role": "Executive Director, Governor John Engler Center for Charter Schools at CMU. Since March 2019. Former MCCSA Board Chair. MAPSA Board member. FORMER CPA AT PLANTE MORAN — same firm where Beasley's husband Ahmed is SVP K-12. CMU BS + MS in Business Administration. Michigan Chamber Foundation Leadership Program 2010. NACSA Leaders Program 2016-17.",
       "class": "entity",
-      "classification": "null"
+      "classification": "null",
+      "membrane_response": "0"
     },
     {
       "id": "jc_huizenga",
@@ -5004,7 +5016,7 @@
       "label": "Choice Schools Associates",
       "type": "entity",
       "entity_type": "Education Service Provider (ESP)",
-      "tier": 5,
+      "tier": 4,
       "role": "Charter school ESP operator. 16 schools, 4 models. Wyoming, MI. President: Sarah Wildey (MAPSA board). CEO: Tony Schmid. Schools: Benton Harbor, Dove Academy Detroit, Creative Montessori, others.",
       "class": "entity",
       "classification": "null"
@@ -12977,6 +12989,735 @@
       "weight": 7,
       "note": "AFC advocates for charter 'families.' PCA families' children at ≤1% math. AFC contacted. No response. Advocacy stops at the lobby.",
       "source_doc": "AFC website, direct contact"
+    },
+    {
+      "source": "afc_growth",
+      "target": "pca",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via afc. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "afp_action",
+      "target": "dykema_federal_pac",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via barrett. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "agc_blessing",
+      "target": "banks",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via agc. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "agc_burgess",
+      "target": "banks",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via agc. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "agc_downey",
+      "target": "banks",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via agc. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "agc_fernandez",
+      "target": "banks",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via agc. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "agc_fleming",
+      "target": "banks",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via agc. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "agc_miciuda",
+      "target": "banks",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via agc. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "agc_morgan",
+      "target": "banks",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via agc. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "b_rodericks",
+      "target": "pca",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via banks. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "barton_malow",
+      "target": "plante_moran",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via ahmed_beasley. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "black_star_network",
+      "target": "walton_family_foundation",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via roland_martin. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "cass_tech",
+      "target": "pca",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via beasley. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "chandler_park",
+      "target": "pca",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via macdowell. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "chojlf",
+      "target": "macdowell",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via v_hall. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "city_hill",
+      "target": "pca",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via banks. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "court_oakland",
+      "target": "banks",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via langford_morris. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "court_probate",
+      "target": "perkins_sean",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via perkins_d. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "cuny_law",
+      "target": "agc",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via agc_swedlow. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "dan_quisenberry",
+      "target": "corey_northrop",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via mapsa. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "depaul_law",
+      "target": "agc",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via uhuru. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "dykema_state_pac",
+      "target": "charter_law_1993",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via dykema. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "ellen_cogen_lipton",
+      "target": "banks",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via sbe. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "escuela_avancemos",
+      "target": "pca",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via macdowell. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "excellent_schools_detroit",
+      "target": "pca",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via walton_family_foundation. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "free_flow",
+      "target": "pca",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via banks. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "gl_vision",
+      "target": "pca",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via banks. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "global_ed_excellence",
+      "target": "walton_family_foundation",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via mapsa. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "gw_law",
+      "target": "agc",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via bullington. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "james_goenner",
+      "target": "engler",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via ncsi. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "jason_roe",
+      "target": "dykema_federal_pac",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via barrett. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "jtc_dajani",
+      "target": "banks",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via jtc. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "jtc_flowers",
+      "target": "banks",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via jtc. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "jtc_haffey",
+      "target": "banks",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via jtc. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "jtc_hoard",
+      "target": "banks",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via jtc. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "jtc_jurva_brinn",
+      "target": "banks",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via jtc. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "jtc_kalec",
+      "target": "banks",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via jtc. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "jtc_kettler",
+      "target": "banks",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via jtc. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "jtc_m_johnson",
+      "target": "banks",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via jtc. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "jtc_poirier",
+      "target": "banks",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via jtc. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "jtc_rynier",
+      "target": "banks",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via jtc. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "jtc_uppal",
+      "target": "banks",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via jtc. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "judith_pritchett",
+      "target": "banks",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via sbe. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "kelly_emu",
+      "target": "beasley",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via emu. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "lawrence_tech",
+      "target": "plante_moran",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via ahmed_beasley. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "liz_evans",
+      "target": "banks",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via sbe. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "mackinnon",
+      "target": "engler",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via cmu. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "mantella",
+      "target": "jolia_hill",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via gvsu. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "marshall_bullock",
+      "target": "banks",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via sbe. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "mckinney",
+      "target": "beasley",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via banks. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "mi_court_appeals",
+      "target": "jtc",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via jtc_cameron. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "naacp_lansing",
+      "target": "naacp_detroit",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via roland_martin. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "napcs",
+      "target": "pca",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via afc. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "nasbe",
+      "target": "sbe",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via mitchell_robinson. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "northrop",
+      "target": "engler",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via cmu. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "notre_dame",
+      "target": "jtc",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via thomas_ryan. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "nuvision_foundation",
+      "target": "walton_family_foundation",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via roland_martin. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "pamela_pugh",
+      "target": "banks",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via sbe. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "perkins_david",
+      "target": "banks",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via court_3rd. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "ravitch",
+      "target": "banks",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via npe. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "river_rouge_sd",
+      "target": "pca",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via beasley. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "ross_jones",
+      "target": "beasley",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via banks. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "sam_gov",
+      "target": "banks",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via anchor_rock. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "santambrogio",
+      "target": "banks",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via msu_law. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "sbm_dwalton",
+      "target": "banks",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via sbm. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "senier",
+      "target": "state_mi",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via aclu_mi. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "sherrie_farrell",
+      "target": "wilk",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via dykema. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "sherwood_foundation",
+      "target": "pca",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via npe. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "spelman",
+      "target": "jtc",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via jtc_ison. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "state_ar",
+      "target": "state_mi",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via walton_family_foundation. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "state_ca",
+      "target": "state_mi",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via pahara_institute. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "state_md",
+      "target": "state_mi",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via afc. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "state_ny",
+      "target": "state_mi",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via the_74. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "tiffany_tilley",
+      "target": "banks",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via sbe. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "tom_mcmillin",
+      "target": "banks",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via sbe. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "upl_brauckmuller",
+      "target": "banks",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via upl_dept. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "upl_colombo",
+      "target": "banks",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via upl_dept. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "upl_moilanen",
+      "target": "banks",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via upl_dept. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "upl_palacios",
+      "target": "banks",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via upl_dept. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "upl_riordan",
+      "target": "banks",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via upl_dept. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
+    },
+    {
+      "source": "welch",
+      "target": "banks",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "Leaf wiring via od_banks. Best candidate by type+degree.",
+      "source_doc": "wire_leaves_fix.py"
     }
   ],
   "epistemic_grammar": {
