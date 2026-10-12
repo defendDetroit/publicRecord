@@ -1194,6 +1194,90 @@ window._membraneAnimate = function(mc, now) {
       piLbl.setAttribute('opacity', (0.03 + 0.06 * perturb).toFixed(3));
     }
 
+    // ═══ NULL SPACE DATA: floating values from dashboard ═══
+    // Data exists at ∅ — both observer and Gaia see it hyperlocal.
+    // Values orbit the null point, reflecting to both sides.
+    // When perturbation is high, data scatters (diffraction).
+    // When stability grows, data condenses (focus).
+    var nullDataG = document.getElementById('mg-null-data');
+    if (nullDataG && prevDash) {
+      // Fade in null-data layer based on data availability
+      var ndOpacity = 0.05 + 0.15 * stability;
+      nullDataG.setAttribute('opacity', ndOpacity.toFixed(3));
+
+      // Extract dashboard values
+      var nd = prevDash.null_dimension || {};
+      var an = prevDash.anderson_selectivity || {};
+      var bc = prevDash.bingo_cube_summary || {};
+      var mg = prevDash.membrane_geometry || {};
+      var td = prevDash.tense_distribution || {};
+
+      // Values to display — each maps to a null field
+      var ndVals = {
+        'nd-observer':  nd.observer_fraction !== undefined ? nd.observer_fraction.toFixed(5) : '\u03c0\u22123',
+        'nd-self':      nd.self_awareness !== undefined ? nd.self_awareness.toFixed(2) : '',
+        'nd-vdj':       nd.vdj_map ? nd.vdj_map.join('') : '',
+        'nd-perturb':   nd.perturbation !== undefined ? '\u03b4 ' + nd.perturbation.toFixed(3) : '',
+        'nd-tempo':     nd.tempo !== undefined ? 't=' + nd.tempo.toFixed(2) : '',
+        'nd-anderson':  an.pielou_j !== undefined ? 'J=' + an.pielou_j.toFixed(2) : '',
+        'nd-bingo':     bc.generation !== undefined ? 'g' + bc.generation : '',
+        'nd-membrane':  mg.dimension !== undefined ? mg.dimension + 'D' : '',
+        'nd-rps':       liveStats.rps > 0 ? '\u03c9=' + liveStats.rps.toFixed(0) : '',
+        'nd-willbe':    td.will_be !== undefined ? '\u2192' + td.will_be : '',
+        'nd-jerror':    nd.j_error !== undefined ? 'J\u0394' + nd.j_error.toFixed(1) : ''
+      };
+
+      // Null point: midpoint of focal-to-reflection bounce
+      var nullCX = (focalX + reflX) / 2;
+      var nullCY = (focalY + reflY) / 2;
+
+      // Each field orbits the null point — rotation rate depends on perturbation
+      // High perturbation = fast scatter (can't focus). Low = slow orbit (hyperlocal).
+      var nullOrbitRate = 0.03 + 0.15 * perturb;
+      var nullFields = mc.nullFields || [];
+      for (var nfi = 0; nfi < nullFields.length; nfi++) {
+        var nf = nullFields[nfi];
+        var nfEl = document.getElementById('mg-' + nf.id);
+        if (!nfEl) continue;
+
+        // Orbit: field's base angle rotates around ∅
+        var nfAngle = nf.angle + t * nullOrbitRate * (nfi % 2 === 0 ? 1 : -1);
+        // Radius breathes with perturbation — scatter outward when perturbed
+        var nfR = nf.r * (1 + 0.3 * perturb * Math.sin(t * PI * 0.7 + nfi));
+        // Position relative to the moving null point
+        var nfX = nullCX + nfR * Math.cos(nfAngle);
+        var nfY = nullCY + nfR * Math.sin(nfAngle);
+
+        nfEl.setAttribute('x', nfX.toFixed(1));
+        nfEl.setAttribute('y', nfY.toFixed(1));
+        // Update text content with live data
+        if (ndVals[nf.id]) {
+          nfEl.textContent = ndVals[nf.id];
+        }
+        // Opacity: center fields brighter, outer dimmer, all pulse with stability
+        var nfBase = nf.r < 5 ? 0.6 : nf.r < 15 ? 0.35 : 0.2;
+        var nfPulse = 0.1 * Math.sin(t * PI * 1.3 + nfi * 0.7);
+        nfEl.setAttribute('opacity', Math.max(0, nfBase * stability + nfPulse).toFixed(3));
+
+        // Ghost reflection — mirrored at π across ∅
+        var ghostEl = document.getElementById('mg-' + nf.id + '-ghost');
+        if (ghostEl && nf.r > 0) {
+          var ghostAngle = nfAngle + PI;
+          var ghostX = nullCX + nfR * Math.cos(ghostAngle);
+          var ghostY = nullCY + nfR * Math.sin(ghostAngle);
+          ghostEl.setAttribute('x', ghostX.toFixed(1));
+          ghostEl.setAttribute('y', ghostY.toFixed(1));
+          ghostEl.textContent = ndVals[nf.id] || nf.label;
+          // Ghosts are dimmer — the other side's view through the membrane
+          ghostEl.setAttribute('opacity', Math.max(0, nfBase * 0.3 * stability + nfPulse * 0.5).toFixed(3));
+          // Remove the scale transform — just position
+          ghostEl.removeAttribute('transform');
+        }
+      }
+    } else if (nullDataG) {
+      nullDataG.setAttribute('opacity', '0');
+    }
+
     // ── Epitope orbit ring twist: dashes rotate, rings come alive ──
     // The 3 orbit rings now twist visually — their dash patterns rotate.
     // Ring 1: forward at ω_is. Ring 2: REVERSE at ω_was. Ring 3: forward at ω_willbe.

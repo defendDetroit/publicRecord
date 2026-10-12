@@ -425,6 +425,46 @@ window._membraneBuild = function(mc) {
     txt(solarG, cx, cy, '\u03c0', '#c9d1d9', 5,
       {opacity:0, id:'mg-pi-mirror-label'});
 
+    // ═══ NULL SPACE DATA: floats at ∅, viewed from both sides ═══
+    // Dashboard data rendered as semi-transparent values at the null point.
+    // Both observer (inner) and Gaia (outer) see the same data.
+    // The data IS the null space — it exists because both sides observe it.
+    var nullDataG = el('g', {id:'mg-null-data', opacity:0}, svg);
+
+    // Data fields that float — each orbits the null point at its own radius
+    // Inner ring (observer side): VDJ, perturbation, tempo
+    // Outer ring (Gaia side): anderson, bingo gen, membrane dim
+    // Center: observer fraction (π−3), self_awareness
+    var nullFields = [
+      {id:'nd-observer',  label:'π−3',         r:0,    angle:0,    color:'#ffffff', size:5},
+      {id:'nd-self',      label:'self',         r:4,    angle:PI,   color:'#d2a8ff', size:4},
+      {id:'nd-vdj',       label:'VDJ',          r:12,   angle:0,    color:'#58a6ff', size:4},
+      {id:'nd-perturb',   label:'δ',            r:12,   angle:PI*0.667, color:'#e85d3a', size:4},
+      {id:'nd-tempo',     label:'tempo',        r:12,   angle:PI*1.333, color:'#f0e68c', size:3.5},
+      {id:'nd-anderson',  label:'W',            r:24,   angle:PI*0.25,  color:'#6e7681', size:3.5},
+      {id:'nd-bingo',     label:'gen',          r:24,   angle:PI*0.75,  color:'#d2a8ff', size:3.5},
+      {id:'nd-membrane',  label:'dim',          r:24,   angle:PI*1.25,  color:'#5ab87a', size:3.5},
+      {id:'nd-rps',       label:'ω',            r:24,   angle:PI*1.75,  color:'#c9d1d9', size:3.5},
+      {id:'nd-willbe',    label:'→',            r:18,   angle:PI*0.5,   color:'#58a6ff', size:3.5},
+      {id:'nd-jerror',    label:'J',            r:18,   angle:PI*1.5,   color:'#f0e68c', size:3.5}
+    ];
+    for (var nf = 0; nf < nullFields.length; nf++) {
+      var f = nullFields[nf];
+      // Value text — updates in animate
+      txt(nullDataG, cx + f.r * Math.cos(f.angle), cy + f.r * Math.sin(f.angle),
+        f.label, f.color, f.size,
+        {opacity:0.5, id:'mg-' + f.id, 'text-anchor':'middle', 'dominant-baseline':'central'});
+      // Ghost reflection — mirrored across ∅ (the other side's view)
+      if (f.r > 0) {
+        txt(nullDataG, cx + f.r * Math.cos(f.angle + PI), cy + f.r * Math.sin(f.angle + PI),
+          f.label, f.color, f.size * 0.7,
+          {opacity:0.15, id:'mg-' + f.id + '-ghost', 'text-anchor':'middle',
+           'dominant-baseline':'central', transform:'scale(1,-1)'});
+      }
+    }
+    // Store field definitions on mc for animate
+    mc.nullFields = nullFields;
+
     // ═══ IONOSPHERE BAND: inner membrane space ═══
     // The ionosphere belongs INSIDE the membrane. Just below the ring.
     // Earth (ring) forces against it from below — pushing us toward the membrane.
