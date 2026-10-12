@@ -1174,6 +1174,62 @@
       "type": "actor",
       "tier": 4,
       "role": "DPSCD Superintendent. PCA authorized under his watch (Jul 2025)."
+    },
+    {
+      "id": "glenn_page",
+      "label": "Glenn J. Page",
+      "type": "actor",
+      "tier": 4,
+      "role": "JTC Interim ED (Feb 2026). Returned from retirement. Former Wayne County asst prosecutor. Bar 1980."
+    },
+    {
+      "id": "thomas_ryan",
+      "label": "Thomas J. Ryan, Esq.",
+      "type": "actor",
+      "tier": 5,
+      "role": "JTC Commission Chair (2026). Attorney."
+    },
+    {
+      "id": "goetz",
+      "label": "Michael V. Goetz",
+      "type": "actor",
+      "tier": 4,
+      "role": "AGC Grievance Administrator (Sep 2019). Former Senior AAG, Criminal Div Drug Interdiction. MSU 1983, DCL 1988."
+    },
+    {
+      "id": "bullington",
+      "label": "Cynthia C. Bullington",
+      "type": "actor",
+      "tier": 3,
+      "role": "AGC Asst Deputy Admin. At AGC since 1982 (44 yrs). MSU, GWU JD. Adjunct prof MSU Law — teaches Professional Responsibility. Character & Fitness Committee."
+    },
+    {
+      "id": "uhuru",
+      "label": "Kimberly L. Uhuru",
+      "type": "actor",
+      "tier": 4,
+      "role": "AGC Deputy Administrator. MSU magna cum laude, DePaul JD. High-profile misconduct prosecutions."
+    },
+    {
+      "id": "upl_dept",
+      "label": "State Bar UPL Department",
+      "type": "entity",
+      "entity_type": "Oversight body",
+      "note": "Unauthorized Practice of Law Dept. Closed File 26-UP-51 Sep 30. 'Did not meet the standards set by the UPL Committee.' Standards not published. upl@michbar.org. (517) 346-6305."
+    },
+    {
+      "id": "adb",
+      "label": "Attorney Discipline Board",
+      "type": "entity",
+      "entity_type": "Oversight body",
+      "note": "Adjudicates attorney discipline. 9 members. Chair: Peter A. Smit. Hearing panelists include Jehan Crump-Gibson."
+    },
+    {
+      "id": "mi_supreme_court",
+      "label": "Michigan Supreme Court",
+      "type": "entity",
+      "entity_type": "Oversight body",
+      "note": "Appoints AGC Grievance Administrator, ADB members, JTC Commissioners. Declined to define UPL in 2014. The enforcement architecture is their creation."
     }
   ],
   "edges": [
@@ -3904,6 +3960,159 @@
       "note": "Education Advocacy Attorney. Litigates S.S. v. Michigan.",
       "weight": 5,
       "source_doc": "aclumich.org/our-staff"
+    },
+    {
+      "source": "glenn_page",
+      "target": "jtc",
+      "type": "governance",
+      "epistemic_status": "record",
+      "note": "Interim ED since Feb 1, 2026. Retired Jul 2022, came back. No permanent ED. Former Wayne Co asst prosecutor.",
+      "weight": 7,
+      "source_doc": "jtc.courts.mi.gov; clutchjustice.com Feb 2, 2026"
+    },
+    {
+      "source": "thomas_ryan",
+      "target": "jtc",
+      "type": "governance",
+      "epistemic_status": "record",
+      "note": "Commission Chair 2026. Attorney. Rita flagged Oakland County ties.",
+      "weight": 5,
+      "source_doc": "jtc.courts.mi.gov/the_commission"
+    },
+    {
+      "source": "jtc",
+      "target": "banks",
+      "type": "inaction",
+      "epistemic_status": "record",
+      "note": "5 RFIs filed Sep 24, acknowledged, assigned to staff. Oct 12 boilerplate: 'cannot act on email.' 97.1% dismissal rate (2025). Miller on ballot Nov 3.",
+      "weight": 9,
+      "source_doc": "JTC responses Sep 21, Sep 24, Oct 12, 2026; JTC 2025 Annual Report"
+    },
+    {
+      "source": "goetz",
+      "target": "agc",
+      "type": "governance",
+      "epistemic_status": "record",
+      "note": "Grievance Admin since Sep 23, 2019. Former Senior AAG Criminal Div — same office as Moreland.",
+      "weight": 7,
+      "source_doc": "agcmi.org; MI Supreme Court appointment Sep 2019"
+    },
+    {
+      "source": "uhuru",
+      "target": "agc",
+      "type": "governance",
+      "epistemic_status": "record",
+      "note": "Deputy Admin. Handles high-profile prosecutions.",
+      "weight": 5,
+      "source_doc": "agcmi.org/about-us/our-team"
+    },
+    {
+      "source": "bullington",
+      "target": "agc",
+      "type": "governance",
+      "epistemic_status": "record",
+      "note": "Asst Deputy Admin. At AGC 44 years (since 1982). Teaches Prof Responsibility at MSU Law. Char & Fitness Committee. She returned the Banks UPL filing Oct 1.",
+      "weight": 8,
+      "source_doc": "agcmi.org; AGC letter Oct 1, 2026"
+    },
+    {
+      "source": "agc",
+      "target": "banks",
+      "type": "inaction",
+      "epistemic_status": "record",
+      "note": "Returned Banks filing Oct 1: 'not a listed attorney.' That IS the violation under MCL 600.916. Silent on Moreland, Meihn, Hall who ARE licensed.",
+      "weight": 9,
+      "source_doc": "AGC return letter Oct 1, 2026; clutchjustice.com Mind the Gap Oct 7, 2026"
+    },
+    {
+      "source": "bullington",
+      "target": "banks",
+      "type": "inaction",
+      "epistemic_status": "record",
+      "note": "Bullington (44yr AGC veteran) authored the Oct 1 return letter that created the referral loop. She teaches Professional Responsibility. She knows MCL 600.916.",
+      "weight": 8,
+      "source_doc": "AGC letter Oct 1, 2026; agcmi.org staff bio"
+    },
+    {
+      "source": "goetz",
+      "target": "moreland",
+      "type": "professional_connection",
+      "epistemic_status": "inferred",
+      "note": "Both worked at MI AG office. Goetz: Senior AAG Criminal Div Drug Interdiction. Moreland: current AAG. Same employer, overlapping tenures possible.",
+      "weight": 6,
+      "source_doc": "agcmi.org bio; MI AG office records"
+    },
+    {
+      "source": "upl_dept",
+      "target": "banks",
+      "type": "inaction",
+      "epistemic_status": "record",
+      "note": "Closed File 26-UP-51 Sep 30. 'Did not meet the standards.' Standards not published. MCL 600.916(1)(c): 'shall not in any manner represent himself as an attorney.' Banks told DPD he is an attorney.",
+      "weight": 9,
+      "source_doc": "State Bar closure letter Sep 30, 2026; DPD Report #26-0909-0176"
+    },
+    {
+      "source": "upl_dept",
+      "target": "agc",
+      "type": "referral_loop",
+      "epistemic_status": "record",
+      "note": "State Bar closed file Sep 30. AGC returned filing Oct 1 saying 'not a listed attorney' + enclosed State Bar complaint form. Two letters, one day apart, each pointing at the other. Mind the Gap.",
+      "weight": 9,
+      "source_doc": "clutchjustice.com Mind the Gap Oct 7, 2026"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "agc",
+      "type": "appointment",
+      "epistemic_status": "record",
+      "note": "Supreme Court appoints Grievance Admin (Goetz) and ADB members per MCR 9.109.",
+      "weight": 6,
+      "source_doc": "MCR 9.109"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "jtc",
+      "type": "appointment",
+      "epistemic_status": "record",
+      "note": "Supreme Court appoints JTC Commissioners per MI Constitution Art VI §30.",
+      "weight": 6,
+      "source_doc": "MI Constitution Art VI §30"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "upl_dept",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "UPL activity subject to ongoing oversight of MI Supreme Court. Rule 16. Declined to define UPL in 2014.",
+      "weight": 6,
+      "source_doc": "State Bar Rule 16; UPL Committee jurisdiction statement"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "adb",
+      "type": "appointment",
+      "epistemic_status": "record",
+      "note": "Supreme Court appoints ADB members. ADB hearing panelists include Jehan Crump-Gibson (Banks' defense attorney).",
+      "weight": 7,
+      "source_doc": "adbmich.org; MCR 9.110"
+    },
+    {
+      "source": "crump_gibson",
+      "target": "adb",
+      "type": "board_membership",
+      "epistemic_status": "record",
+      "note": "ADB Hearing Panelist (appointed May 2017). Simultaneously represents Banks. Sits on panels that adjudicate attorney misconduct while defending a subject of interconnected complaints.",
+      "weight": 9,
+      "source_doc": "adbmich.org; GLLG representation records"
+    },
+    {
+      "source": "jtc",
+      "target": "mi_supreme_court",
+      "type": "reports_to",
+      "epistemic_status": "record",
+      "note": "JTC recommends discipline to Supreme Court. $2.9M budget (FY2026). Auditor General letter Jun 2026.",
+      "weight": 5,
+      "source_doc": "MI AG Auditor letter Jun 2026; MI Constitution Art VI §30"
     }
   ],
   "epistemic_grammar": {
