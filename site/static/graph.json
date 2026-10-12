@@ -1989,6 +1989,62 @@
       "type": "entity",
       "entity_type": "Government office",
       "note": "Dawn Ison (JTC, 19yr AUSA Public Corruption Unit). Patrick Corbett (JTC, 20yr AUSA). Two JTC members, same federal office."
+    },
+    {
+      "id": "engler",
+      "label": "Gov. John Engler",
+      "type": "actor",
+      "tier": 3,
+      "role": "Michigan Governor 1991-2003. Signed charter school law (PA 362) Jan 14, 1994. Republican. Proposed charter schools Oct 5, 1993 in joint session speech. His law created the framework that CMU, PCA, and MacDowell operate under."
+    },
+    {
+      "id": "glep",
+      "label": "Great Lakes Education Project (GLEP)",
+      "type": "entity",
+      "entity_type": "Political advocacy (PAC)",
+      "note": "Michigan school choice PAC created by Betsy DeVos after 2000 voucher ballot failure. DeVos chaired board 2001-2008. Family continues to fund. Focused on charter expansion in Michigan."
+    },
+    {
+      "id": "cockrel_jr",
+      "label": "Kenneth Cockrel Jr.",
+      "type": "actor",
+      "tier": 4,
+      "role": "Detroit Mayor (acting) Sep 2008-May 2009 after Kwame resigned. City Council President. Father Kenneth Cockrel Sr. was radical labor attorney."
+    },
+    {
+      "id": "charter_law_1993",
+      "label": "PA 362 — Michigan Charter School Law (1993)",
+      "type": "entity",
+      "entity_type": "Legislation",
+      "note": "Public Act 362, signed Jan 14 1994 (passed Dec 3 1993). Part 6A Revised School Code. Authorized universities, community colleges, ISDs, and local districts to charter PSAs. Constitutional challenge 1994, Supreme Court upheld 1997. THE law that enables everything: CMU authorization, MacDowell, PCA, all of it."
+    },
+    {
+      "id": "alliance_school_choice",
+      "label": "Alliance for School Choice",
+      "type": "entity",
+      "entity_type": "Advocacy (501c3)",
+      "note": "AFC's 501c3 sister org. Predecessor: American Education Reform Foundation (1998, Milwaukee). Renamed Advocates for School Choice (2004, Phoenix). Became AFC sister 2009."
+    },
+    {
+      "id": "charter_school_growth_fund",
+      "label": "Charter School Growth Fund",
+      "type": "entity",
+      "entity_type": "Education fund",
+      "note": "Created 2005 by John Walton + Don Fisher (Gap co-founder). 500+ schools, 250K+ students, 23 states. Scales best charter models."
+    },
+    {
+      "id": "nacsa",
+      "label": "National Assoc of Charter School Authorizers (NACSA)",
+      "type": "entity",
+      "entity_type": "Professional association",
+      "note": "Founded 2000. CMU played leadership role in establishment. Sets authorizing standards that CMU claims to follow."
+    },
+    {
+      "id": "john_walton",
+      "label": "John T. Walton",
+      "type": "actor",
+      "tier": 4,
+      "role": "Walton family member. Pioneer of charter school philanthropy. Launched WFF charter grants 1997. Co-created Charter School Growth Fund 2005. Died June 2005 plane crash. His vision shapes the entire pipeline."
     }
   ],
   "edges": [
@@ -6723,6 +6779,267 @@
       "weight": 9,
       "note": "3 shared neighbors. Supreme Court appoints JTC, AGC, UPL — all three have Banks failure edges.",
       "source_doc": "Graph prediction: 3 shared neighbors + appointment chain"
+    },
+    {
+      "source": "engler",
+      "target": "charter_law_1993",
+      "type": "governance",
+      "epistemic_status": "record",
+      "weight": 9,
+      "note": "Proposed Oct 5 1993, signed Jan 14 1994. Created MI charter school framework.",
+      "source_doc": "Historical records, Wikipedia, official bios"
+    },
+    {
+      "source": "charter_law_1993",
+      "target": "cmu",
+      "type": "authorization",
+      "epistemic_status": "record",
+      "weight": 9,
+      "note": "PA 362 authorized CMU to charter schools. CMU became first university authorizer in US, Aug 1994.",
+      "source_doc": "Historical records, Wikipedia, official bios"
+    },
+    {
+      "source": "charter_law_1993",
+      "target": "pca",
+      "type": "authorization",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "PCA operates under PA 362 framework. Every charter school in MI traces to this law.",
+      "source_doc": "Historical records, Wikipedia, official bios"
+    },
+    {
+      "source": "charter_law_1993",
+      "target": "macdowell",
+      "type": "authorization",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "MacDowell operates under PA 362 framework through CMU authorization.",
+      "source_doc": "Historical records, Wikipedia, official bios"
+    },
+    {
+      "source": "charter_law_1993",
+      "target": "mi_supreme_court",
+      "type": "governance",
+      "epistemic_status": "record",
+      "weight": 9,
+      "note": "MI Supreme Court upheld PA 362 constitutionality July 1997. The same court that now appoints JTC/AGC/ADB.",
+      "source_doc": "Historical records, Wikipedia, official bios"
+    },
+    {
+      "source": "betsy_devos",
+      "target": "charter_law_1993",
+      "type": "political",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "DeVos family helped pass MI charter law 1993. She said so in 2013 Philanthropy Roundtable interview.",
+      "source_doc": "Historical records, Wikipedia, official bios"
+    },
+    {
+      "source": "betsy_devos",
+      "target": "glep",
+      "type": "governance",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "Created GLEP after 2000 voucher ballot failure. Chaired board 2001-2008.",
+      "source_doc": "Historical records, Wikipedia, official bios"
+    },
+    {
+      "source": "glep",
+      "target": "afc",
+      "type": "formation",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "GLEP was Michigan precursor. AFC became national version 2009.",
+      "source_doc": "Historical records, Wikipedia, official bios"
+    },
+    {
+      "source": "afc",
+      "target": "alliance_school_choice",
+      "type": "governance",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "AFC (501c4) + Alliance for School Choice (501c3). Sister orgs. Same DeVos pipeline.",
+      "source_doc": "Historical records, Wikipedia, official bios"
+    },
+    {
+      "source": "john_walton",
+      "target": "walton_family_foundation",
+      "type": "governance",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "Pioneered WFF charter grants starting 1997. First grants to 4 schools. Vision drives the pipeline.",
+      "source_doc": "Historical records, Wikipedia, official bios"
+    },
+    {
+      "source": "john_walton",
+      "target": "charter_school_growth_fund",
+      "type": "governance",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "Co-created with Don Fisher (Gap) in 2005. Died plane crash June 2005.",
+      "source_doc": "Historical records, Wikipedia, official bios"
+    },
+    {
+      "source": "walton_family_foundation",
+      "target": "charter_school_growth_fund",
+      "type": "funding",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "WFF supports CSGF. 500+ schools, 250K+ students.",
+      "source_doc": "Historical records, Wikipedia, official bios"
+    },
+    {
+      "source": "walton_family_foundation",
+      "target": "alliance_school_choice",
+      "type": "funding",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "$2.3M to Alliance for School Choice in 2010 alone. Major pipeline funder.",
+      "source_doc": "Historical records, Wikipedia, official bios"
+    },
+    {
+      "source": "walton_family_foundation",
+      "target": "nacsa",
+      "type": "funding",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "WFF helped establish NACSA. CMU also played founding role.",
+      "source_doc": "Historical records, Wikipedia, official bios"
+    },
+    {
+      "source": "cmu",
+      "target": "nacsa",
+      "type": "governance",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "CMU played leadership role establishing NACSA in 2000.",
+      "source_doc": "Historical records, Wikipedia, official bios"
+    },
+    {
+      "source": "kwame",
+      "target": "cockrel_jr",
+      "type": "political",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "Kwame resigned Sep 2008. Cockrel Jr became acting mayor. Then Bing won election.",
+      "source_doc": "Historical records, Wikipedia, official bios"
+    },
+    {
+      "source": "cockrel_jr",
+      "target": "sheila_cockrel",
+      "type": "family",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "Kenneth Cockrel Jr. Father was Kenneth Cockrel Sr. Sheila Cockrel is related/family.",
+      "source_doc": "Historical records, Wikipedia, official bios"
+    },
+    {
+      "source": "archer",
+      "target": "detroit_college_law",
+      "type": "education",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "JD from Detroit College of Law. Same school as Goetz (AGC Grievance Admin). School merged into MSU Law.",
+      "source_doc": "Historical records, Wikipedia, official bios"
+    },
+    {
+      "source": "archer",
+      "target": "wmu",
+      "type": "education",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "BS from Western Michigan University 1965. Same school as Robinson (AGC), Willis (AGC), Carolyn Kilpatrick.",
+      "source_doc": "Historical records, Wikipedia, official bios"
+    },
+    {
+      "source": "archer",
+      "target": "mi_supreme_court",
+      "type": "governance",
+      "epistemic_status": "record",
+      "weight": 9,
+      "note": "Associate Justice 1986-1990. Appointed by Gov Blanchard. The same court that now appoints JTC/AGC/ADB.",
+      "source_doc": "Historical records, Wikipedia, official bios"
+    },
+    {
+      "source": "archer",
+      "target": "dykema",
+      "type": "employment",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "Not Dykema — Dickinson Wright. But part of Detroit BigLaw ecosystem.",
+      "source_doc": "Historical records, Wikipedia, official bios"
+    },
+    {
+      "source": "kwame",
+      "target": "msu_law",
+      "type": "education",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "JD 1998 from MSU College of Law. Same school where Bullington (AGC) teaches, Miller (judge) graduated, Banks claims credential.",
+      "source_doc": "Historical records, Wikipedia, official bios"
+    },
+    {
+      "source": "carolyn_kilpatrick",
+      "target": "wmu",
+      "type": "education",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "BA Education 1972. Same school as Archer (BS 1965), Robinson (AGC), Willis (AGC).",
+      "source_doc": "Historical records, Wikipedia, official bios"
+    },
+    {
+      "source": "carolyn_kilpatrick",
+      "target": "kwame",
+      "type": "family",
+      "epistemic_status": "record",
+      "weight": 9,
+      "note": "Mother. US Rep 1997-2010. Kwame took her MI House seat 1996.",
+      "source_doc": "Historical records, Wikipedia, official bios"
+    },
+    {
+      "source": "kwame",
+      "target": "gay_dagnogo",
+      "type": "political",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "Kilpatrick political machine. Gay-Dagnogo is part of the Detroit political lineage.",
+      "source_doc": "Historical records, Wikipedia, official bios"
+    },
+    {
+      "source": "kwame",
+      "target": "pugh",
+      "type": "corruption",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "Kwame Kilpatrick corruption network. Pugh: City Council president, convicted.",
+      "source_doc": "Historical records, Wikipedia, official bios"
+    },
+    {
+      "source": "kwame",
+      "target": "fiore",
+      "type": "corruption",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "Part of the 'Kilpatrick enterprise' racketeering conspiracy. Fiore: fixer.",
+      "source_doc": "Historical records, Wikipedia, official bios"
+    },
+    {
+      "source": "archer",
+      "target": "sbm_burrell",
+      "type": "employment",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "Both Dickinson Wright. Archer: Chairman 2002-2009. Burrell: current SBM Secretary at DW.",
+      "source_doc": "Historical records, Wikipedia, official bios"
+    },
+    {
+      "source": "archer",
+      "target": "sbm",
+      "type": "governance",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "ABA President 2003-2004. First Black ABA president. State Bar of Michigan member.",
+      "source_doc": "Historical records, Wikipedia, official bios"
     }
   ],
   "epistemic_grammar": {
