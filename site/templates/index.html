@@ -6,7 +6,7 @@
 {% block og_desc %}{{ section.description }}{% endblock og_desc %}
 {% block tw_title %}{{ section.title }}{% endblock tw_title %}
 {% block tw_desc %}{{ section.description }}{% endblock tw_desc %}
-{% if section.extra.keywords %}{% block keywords %}{{ section.extra.keywords }}{% endblock keywords %}{% endif %}
+{% block keywords %}{% if section.extra.keywords %}{{ section.extra.keywords }}{% endif %}{% endblock keywords %}
 
 {% block content %}
 <section class="hero">
