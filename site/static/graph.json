@@ -130,7 +130,7 @@
       "type": "entity",
       "entity_type": "Oversight body",
       "note": "Appoints AGC Grievance Administrator, ADB members, JTC Commissioners. Declined to define UPL in 2014. The enforcement architecture is their creation.",
-      "tier": 2,
+      "tier": 1,
       "class": "entity",
       "membrane_response": "-1",
       "classification": "self",
@@ -146,7 +146,7 @@
       "type": "entity",
       "entity_type": "Regulatory body",
       "note": "306 Townsend St, Lansing MI 48933. (517) 346-6300. Mandatory bar association. Houses UPL Dept. Board of Commissioners governs. UPL closed file Sep 30 pointing to AGC. AGC returned filing Oct 1 pointing to UPL. Referral loop.",
-      "tier": 2,
+      "tier": 1,
       "class": "entity",
       "membrane_response": "0",
       "classification": "self",
@@ -162,7 +162,7 @@
       "type": "entity",
       "entity_type": "Oversight body",
       "note": "State Bar of Michigan UPL Department. (517) 346-6305. upl@michbar.org. 306 Townsend St, Lansing. Standing Committee + Department. Closed Banks file Sep 30. Pointed to AGC. AGC pointed back Oct 1. Referral loop. Committee: 12 members + 4 advisors. Chair: Courtney Cadotte.",
-      "tier": 2,
+      "tier": 1,
       "class": "entity",
       "membrane_response": "0",
       "classification": "self",
@@ -278,19 +278,6 @@
       "sort_note": "Board member of non-self entity."
     },
     {
-      "id": "cmu",
-      "label": "Central Michigan University",
-      "type": "entity",
-      "entity_type": "Charter authorizer",
-      "tier": 2,
-      "class": "entity",
-      "classification": "self",
-      "confidence": 0.9,
-      "opacity": 0.9,
-      "sort_pass": 1,
-      "sort_method": "phase1"
-    },
-    {
       "id": "miller",
       "label": "Judge Cylenthia Miller",
       "type": "actor",
@@ -305,6 +292,34 @@
       "sort_pass": 2,
       "sort_method": "board_of_nonself",
       "sort_note": "Board member of non-self entity."
+    },
+    {
+      "id": "jolia_hill",
+      "label": "Dr. Jolia Hill",
+      "type": "actor",
+      "tier": 2,
+      "role": "Director, EMU Charter Schools Office. Terminated DPSA charter Jun 30, 2026. MCCSA Treasurer.",
+      "class": "entity",
+      "membrane_response": "+0.8",
+      "classification": "non-self",
+      "confidence": 0.75,
+      "opacity": 0.75,
+      "sort_pass": 2,
+      "sort_method": "investigator",
+      "sort_note": "Entity investigating Banks."
+    },
+    {
+      "id": "cmu",
+      "label": "Central Michigan University",
+      "type": "entity",
+      "entity_type": "Charter authorizer",
+      "tier": 2,
+      "class": "entity",
+      "classification": "self",
+      "confidence": 0.9,
+      "opacity": 0.9,
+      "sort_pass": 1,
+      "sort_method": "phase1"
     },
     {
       "id": "npe",
@@ -337,21 +352,6 @@
       "sort_note": "Edge pattern unresolved."
     },
     {
-      "id": "jolia_hill",
-      "label": "Dr. Jolia Hill",
-      "type": "actor",
-      "tier": 2,
-      "role": "Director, EMU Charter Schools Office. Terminated DPSA charter Jun 30, 2026. MCCSA Treasurer.",
-      "class": "entity",
-      "membrane_response": "+0.8",
-      "classification": "non-self",
-      "confidence": 0.75,
-      "opacity": 0.75,
-      "sort_pass": 2,
-      "sort_method": "investigator",
-      "sort_note": "Entity investigating Banks."
-    },
-    {
       "id": "sc_cavanagh",
       "label": "Chief Justice Megan K. Cavanagh",
       "type": "actor",
@@ -380,6 +380,21 @@
       "sort_pass": 3,
       "sort_method": "unresolved",
       "sort_note": "Edge pattern unresolved."
+    },
+    {
+      "id": "mde",
+      "label": "Michigan Department of Education",
+      "type": "entity",
+      "entity_type": "State agency",
+      "tier": 2,
+      "class": "entity",
+      "membrane_response": "form",
+      "classification": "partial",
+      "confidence": 0.55,
+      "opacity": 0.55,
+      "sort_pass": 2,
+      "sort_method": "school_employee",
+      "sort_note": "Employee of captured school."
     },
     {
       "id": "emu",
@@ -441,21 +456,6 @@
       "sort_note": "Governance/board connection to non-self (cascade)."
     },
     {
-      "id": "mde",
-      "label": "Michigan Department of Education",
-      "type": "entity",
-      "entity_type": "State agency",
-      "tier": 2,
-      "class": "entity",
-      "membrane_response": "form",
-      "classification": "partial",
-      "confidence": 0.55,
-      "opacity": 0.55,
-      "sort_pass": 2,
-      "sort_method": "school_employee",
-      "sort_note": "Employee of captured school."
-    },
-    {
       "id": "wayne_county",
       "label": "Wayne County",
       "type": "entity",
@@ -469,6 +469,15 @@
       "sort_pass": 3,
       "sort_method": "cascade_nonself",
       "sort_note": "Governance/board connection to non-self (cascade)."
+    },
+    {
+      "id": "alj_rice",
+      "label": "ALJ Michael Rice",
+      "type": "actor",
+      "tier": 2,
+      "role": "Administrative Law Judge, SOAH. Presided over TCR 22-12. OVERRULED MDE and AG objections to Banks' certification. Relied on Shulman/Leno testimony. Aug 4, 2023 Final Decision. Later became State Superintendent (now retired).",
+      "class": "entity",
+      "classification": "null"
     },
     {
       "id": "glenn_page",
@@ -558,6 +567,16 @@
       "sort_note": "Edge pattern unresolved."
     },
     {
+      "id": "us_doe",
+      "label": "US Dept of Education",
+      "type": "entity",
+      "entity_type": "Federal agency",
+      "tier": 2,
+      "role": "Federal education funding source. Title I flows through charter schools. OIG hotline complaint target for charter fraud.",
+      "class": "institution",
+      "classification": "null"
+    },
+    {
       "id": "dykema",
       "label": "Dykema Gossett",
       "type": "entity",
@@ -604,6 +623,20 @@
       "sort_note": "Funding entity. Insufficient evidence for sort."
     },
     {
+      "id": "state_mi",
+      "label": "Michigan",
+      "type": "geography",
+      "tier": 3,
+      "role": "Target state — all schools, all courts, all actors",
+      "class": "entity",
+      "classification": "self",
+      "confidence": 0.75,
+      "opacity": 0.75,
+      "sort_pass": 2,
+      "sort_method": "state_entity",
+      "sort_note": "State government entity."
+    },
+    {
       "id": "kwame",
       "label": "Kwame Kilpatrick",
       "type": "actor",
@@ -617,20 +650,6 @@
       "sort_pass": 2,
       "sort_method": "banks_political",
       "sort_note": "Political connection to Banks."
-    },
-    {
-      "id": "state_mi",
-      "label": "Michigan",
-      "type": "geography",
-      "tier": 3,
-      "role": "Target state — all schools, all courts, all actors",
-      "class": "entity",
-      "classification": "self",
-      "confidence": 0.75,
-      "opacity": 0.75,
-      "sort_pass": 2,
-      "sort_method": "state_entity",
-      "sort_note": "State government entity."
     },
     {
       "id": "wilk",
@@ -701,6 +720,20 @@
       "sort_note": "Formation/governance connection to null (cascade)."
     },
     {
+      "id": "misha_stallworth",
+      "label": "Misha Stallworth West",
+      "type": "actor",
+      "tier": 4,
+      "role": "DPSCD Board + CitizenDetroit Director",
+      "class": "entity",
+      "classification": "partial",
+      "confidence": 0.55,
+      "opacity": 0.55,
+      "sort_pass": 2,
+      "sort_method": "board_of_nonself",
+      "sort_note": "Board member of non-self entity."
+    },
+    {
       "id": "renae_moore",
       "label": "Renae Moore",
       "type": "actor",
@@ -714,20 +747,6 @@
       "sort_method": "cascade_null",
       "sort_note": "Formation/governance connection to null (cascade).",
       "membrane_response": "-1"
-    },
-    {
-      "id": "misha_stallworth",
-      "label": "Misha Stallworth West",
-      "type": "actor",
-      "tier": 4,
-      "role": "DPSCD Board + CitizenDetroit Director",
-      "class": "entity",
-      "classification": "partial",
-      "confidence": 0.55,
-      "opacity": 0.55,
-      "sort_pass": 2,
-      "sort_method": "board_of_nonself",
-      "sort_note": "Board member of non-self entity."
     },
     {
       "id": "purpose_foundation",
@@ -744,6 +763,21 @@
       "sort_pass": 2,
       "sort_method": "banks_governance",
       "sort_note": "Entity governed by Banks."
+    },
+    {
+      "id": "msu",
+      "label": "Michigan State University",
+      "type": "entity",
+      "entity_type": "University",
+      "note": "East Lansing. Appears in bios of: Goetz (AGC, BS 1983), Mazur (AGC, BA), Frazee (AGC, BA), Bullington (AGC, BA), Uhuru (AGC, BS magna cum laude). MSU College of Law is separate node (msu_law).",
+      "tier": 4,
+      "class": "entity",
+      "classification": "other",
+      "confidence": 0.3,
+      "opacity": 0.3,
+      "sort_pass": 3,
+      "sort_method": "unresolved",
+      "sort_note": "Edge pattern unresolved."
     },
     {
       "id": "sheffield",
@@ -861,19 +895,27 @@
       "sort_note": "Legal infrastructure for Banks."
     },
     {
-      "id": "msu",
-      "label": "Michigan State University",
-      "type": "entity",
-      "entity_type": "University",
-      "note": "East Lansing. Appears in bios of: Goetz (AGC, BS 1983), Mazur (AGC, BA), Frazee (AGC, BA), Bullington (AGC, BA), Uhuru (AGC, BS magna cum laude). MSU College of Law is separate node (msu_law).",
+      "id": "gregory_meihn",
+      "label": "Gregory Meihn",
+      "type": "actor",
       "tier": 4,
+      "role": "Connected to charter school institutional capture. Referenced in investigation across multiple docs.",
       "class": "entity",
-      "classification": "other",
-      "confidence": 0.3,
-      "opacity": 0.3,
+      "classification": "null"
+    },
+    {
+      "id": "henri_harmon",
+      "label": "Henri O. Harmon",
+      "type": "actor",
+      "tier": 4,
+      "role": "GLLG Partner â€” MSU Law BLSA President",
+      "class": "entity",
+      "classification": "partial",
+      "confidence": 0.4,
+      "opacity": 0.4,
       "sort_pass": 3,
-      "sort_method": "unresolved",
-      "sort_note": "Edge pattern unresolved."
+      "sort_method": "cascade_adjacent",
+      "sort_note": "Low-edge entity adjacent to non-self."
     },
     {
       "id": "verkeydia_hall",
@@ -996,11 +1038,12 @@
       "sort_note": "Court or judicial entity."
     },
     {
-      "id": "gregory_meihn",
-      "label": "Gregory Meihn",
-      "type": "actor",
+      "id": "wiretap_fiore",
+      "label": "Gasper Fiore Wiretap",
+      "type": "entity",
+      "entity_type": "Federal evidence",
       "tier": 4,
-      "role": "Connected to charter school institutional capture. Referenced in investigation across multiple docs.",
+      "role": "FBI wiretap, United States v. Fiore (16-cr-20732). Banks captured on wiretap. 'Bid-rigging' in sworn affidavit. Led to Spivey, Sollars convictions. Area Towing produced files Sep 2025.",
       "class": "entity",
       "classification": "null"
     },
@@ -1121,6 +1164,36 @@
       "sort_note": "Too few edges."
     },
     {
+      "id": "wells_stallworth",
+      "label": "Nicole Wells-Stallworth",
+      "type": "actor",
+      "tier": 5,
+      "role": "Board President",
+      "class": "entity",
+      "classification": "partial",
+      "confidence": 0.55,
+      "opacity": 0.55,
+      "sort_pass": 2,
+      "sort_method": "board_of_nonself",
+      "sort_note": "Board member of non-self entity."
+    },
+    {
+      "id": "anchor_rock",
+      "label": "Anchor Rock Foundation",
+      "type": "entity",
+      "page": "/network/entities/anchor-rock-foundation/",
+      "entity_type": "Dissolved 501(c)(3)",
+      "lara_id": "802394934",
+      "tier": 5,
+      "class": "entity",
+      "classification": "null",
+      "confidence": 0.7,
+      "opacity": 0.7,
+      "sort_pass": 2,
+      "sort_method": "banks_governance",
+      "sort_note": "Entity governed by Banks."
+    },
+    {
       "id": "jennifer_crump",
       "label": "Jennifer Crump",
       "type": "actor",
@@ -1194,20 +1267,6 @@
       "role": "DEA-led OCDETF investigation. Codenamed by DEA Special Operations Division. Began Oct 28, 2003. 2-year investigation. Coordinated DEA + IRS-CI + USAO E.D. Mich. Wiretapped Terry Flenory's phone May 2004 — 900 pages of transcripts over 5 months. Oct 2005: arrested 30, seized $3M + 2.5kg cocaine + weapons. Prior arrests: 17 members, 632kg cocaine, $5.3M cash, $5.7M assets. Total defendants: 150+ nationwide, 65 in E.D. Mich alone. $270M+ in drug proceeds alleged.",
       "class": "entity",
       "classification": "other"
-    },
-    {
-      "id": "wells_stallworth",
-      "label": "Nicole Wells-Stallworth",
-      "type": "actor",
-      "tier": 5,
-      "role": "Board President",
-      "class": "entity",
-      "classification": "partial",
-      "confidence": 0.55,
-      "opacity": 0.55,
-      "sort_pass": 2,
-      "sort_method": "board_of_nonself",
-      "sort_note": "Board member of non-self entity."
     },
     {
       "id": "ag_cod",
@@ -1299,30 +1358,6 @@
       "sort_note": "Edge pattern unresolved."
     },
     {
-      "label": "Betsy DeVos",
-      "tier": 5,
-      "id": "betsy_devos",
-      "type": "actor",
-      "role": "Former Education Secretary, AFC chair",
-      "class": "entity",
-      "classification": "other",
-      "confidence": 0.4,
-      "opacity": 0.4,
-      "sort_pass": 3,
-      "sort_method": "funding",
-      "sort_note": "Funding entity. Insufficient evidence for sort."
-    },
-    {
-      "id": "richard_mclellan",
-      "label": "Richard D. McLellan",
-      "type": "actor",
-      "tier": 5,
-      "role": "Former Dykema partner (1982-2007, retired). Co-authored MI charter school law (PA 362). CO-FOUNDED Mackinac Center for Public Policy (1987) with Engler. Engler transition director (1990). McPherson Commission member (2001). Defended charter law at MI Supreme Court. Head of Govt Policy & Practice Group. Managing Member Lansing. Legal counsel to TEACH Michigan. MSU Law board of trustees. Former Livingston County Asst Prosecutor. Former MI Governor's staff (Milliken). The intellectual architect of MI charter schools.",
-      "class": "entity",
-      "classification": "negative",
-      "membrane_response": "-1"
-    },
-    {
       "id": "bullington",
       "label": "Cynthia C. Bullington",
       "type": "actor",
@@ -1345,6 +1380,59 @@
       "class": "entity",
       "classification": "null",
       "membrane_response": "0"
+    },
+    {
+      "id": "right_turn",
+      "label": "Right Turn Project",
+      "type": "entity",
+      "entity_type": "Dissolved nonprofit",
+      "lara_id": "800936257",
+      "tier": 5,
+      "class": "entity",
+      "classification": "null",
+      "confidence": 0.7,
+      "opacity": 0.7,
+      "sort_pass": 2,
+      "sort_method": "banks_governance",
+      "sort_note": "Entity governed by Banks."
+    },
+    {
+      "id": "sheila_cockrel",
+      "label": "Sheila Cockrel",
+      "type": "actor",
+      "tier": 5,
+      "role": "CitizenDetroit CEO â€” former Council",
+      "class": "entity",
+      "classification": "null",
+      "confidence": 0.45,
+      "opacity": 0.45,
+      "sort_pass": 3,
+      "sort_method": "cascade_null",
+      "sort_note": "Formation/governance connection to null (cascade)."
+    },
+    {
+      "label": "Betsy DeVos",
+      "tier": 5,
+      "id": "betsy_devos",
+      "type": "actor",
+      "role": "Former Education Secretary, AFC chair",
+      "class": "entity",
+      "classification": "other",
+      "confidence": 0.4,
+      "opacity": 0.4,
+      "sort_pass": 3,
+      "sort_method": "funding",
+      "sort_note": "Funding entity. Insufficient evidence for sort."
+    },
+    {
+      "id": "richard_mclellan",
+      "label": "Richard D. McLellan",
+      "type": "actor",
+      "tier": 5,
+      "role": "Former Dykema partner (1982-2007, retired). Co-authored MI charter school law (PA 362). CO-FOUNDED Mackinac Center for Public Policy (1987) with Engler. Engler transition director (1990). McPherson Commission member (2001). Defended charter law at MI Supreme Court. Head of Govt Policy & Practice Group. Managing Member Lansing. Legal counsel to TEACH Michigan. MSU Law board of trustees. Former Livingston County Asst Prosecutor. Former MI Governor's staff (Milliken). The intellectual architect of MI charter schools.",
+      "class": "entity",
+      "classification": "negative",
+      "membrane_response": "-1"
     },
     {
       "id": "johnson_l",
@@ -1375,22 +1463,6 @@
       "sort_note": "Edge pattern unresolved."
     },
     {
-      "id": "anchor_rock",
-      "label": "Anchor Rock Foundation",
-      "type": "entity",
-      "page": "/network/entities/anchor-rock-foundation/",
-      "entity_type": "Dissolved 501(c)(3)",
-      "lara_id": "802394934",
-      "tier": 5,
-      "class": "entity",
-      "classification": "null",
-      "confidence": 0.7,
-      "opacity": 0.7,
-      "sort_pass": 2,
-      "sort_method": "banks_governance",
-      "sort_note": "Entity governed by Banks."
-    },
-    {
       "id": "nuvision_inc",
       "label": "Nu Vision Media, Inc.",
       "type": "entity",
@@ -1404,21 +1476,6 @@
       "sort_pass": 3,
       "sort_method": "funding",
       "sort_note": "Funding entity. Insufficient evidence for sort."
-    },
-    {
-      "id": "right_turn",
-      "label": "Right Turn Project",
-      "type": "entity",
-      "entity_type": "Dissolved nonprofit",
-      "lara_id": "800936257",
-      "tier": 5,
-      "class": "entity",
-      "classification": "null",
-      "confidence": 0.7,
-      "opacity": 0.7,
-      "sort_pass": 2,
-      "sort_method": "banks_governance",
-      "sort_note": "Entity governed by Banks."
     },
     {
       "id": "wmu",
@@ -1460,13 +1517,41 @@
       "classification": "non-self"
     },
     {
-      "id": "wiretap_fiore",
-      "label": "Gasper Fiore Wiretap",
-      "type": "entity",
-      "entity_type": "Federal evidence",
+      "id": "michele_leno",
+      "label": "Michele Leno",
+      "type": "actor",
       "tier": 5,
-      "role": "FBI wiretap, United States v. Fiore (16-cr-20732). Banks captured on wiretap. 'Bid-rigging' in sworn affidavit. Led to Spivey, Sollars convictions. Area Towing produced files Sep 2025.",
+      "role": "Licensed professional counselor. Relationship to Banks network documented in investigation files.",
       "class": "entity",
+      "classification": "null"
+    },
+    {
+      "id": "andre_spivey",
+      "label": "Andre Spivey",
+      "type": "actor",
+      "tier": 5,
+      "role": "Former Detroit City Council member. Convicted of bribery (2:21-cr-20490). Operation Northern Hook. FBI raided Carol Banks' home seeking 501(c)(4) records and campaign finance docs.",
+      "class": "entity",
+      "classification": "null"
+    },
+    {
+      "id": "moecs",
+      "label": "MOECS",
+      "type": "entity",
+      "entity_type": "Government system",
+      "tier": 5,
+      "role": "Michigan Online Educator Certification System. Where credential fraud happens. MDE manages. Schmiedeknecht/Breen discovered Banks had no valid credential here. Reginald Scott was being REMOVED from MOECS access.",
+      "class": "institution",
+      "classification": "null"
+    },
+    {
+      "id": "fbi_detroit",
+      "label": "FBI Detroit Field Office",
+      "type": "entity",
+      "entity_type": "Federal agency",
+      "tier": 5,
+      "role": "FBI Detroit field office. Operation Northern Hook. Fiore/Spivey/Sollars/Banks wiretap. Raided Carol Banks home. Macomb County corruption probe (23+ convictions).",
+      "class": "institution",
       "classification": "null"
     },
     {
@@ -1710,21 +1795,6 @@
       "classification": "null"
     },
     {
-      "id": "citizendetroit",
-      "label": "CitizenDetroit Action Group",
-      "type": "entity",
-      "entity_type": "501(c)(3) nonprofit",
-      "ein": "82-2361291",
-      "tier": 5,
-      "class": "entity",
-      "classification": "null",
-      "confidence": 0.45,
-      "opacity": 0.45,
-      "sort_pass": 3,
-      "sort_method": "cascade_null",
-      "sort_note": "Formation/governance connection to null (cascade)."
-    },
-    {
       "id": "duggan",
       "label": "Mike Duggan",
       "type": "actor",
@@ -1842,21 +1912,84 @@
       "sort_note": "Edge pattern unresolved."
     },
     {
-      "id": "michele_leno",
-      "label": "Michele Leno",
-      "type": "actor",
-      "tier": 5,
-      "role": "Licensed professional counselor. Relationship to Banks network documented in investigation files.",
-      "class": "entity",
-      "classification": "null"
-    },
-    {
       "id": "detroit_free_press",
       "label": "Detroit Free Press",
       "type": "entity",
       "entity_type": "Media",
       "tier": 5,
       "role": "Major Detroit newspaper. Covered Chatfield/BMF/charter school stories. Investigation briefing packet delivered Sep 22, 2026.",
+      "class": "entity",
+      "classification": "null"
+    },
+    {
+      "id": "carol_banks",
+      "label": "Carol Banks",
+      "type": "actor",
+      "tier": 5,
+      "role": "Political operative",
+      "class": "entity",
+      "classification": "partial",
+      "confidence": 0.5,
+      "opacity": 0.5,
+      "sort_pass": 2,
+      "sort_method": "banks_family",
+      "sort_note": "Family member of Banks."
+    },
+    {
+      "id": "schmiedeknecht",
+      "label": "Katie Schmiedeknecht",
+      "type": "actor",
+      "tier": 5,
+      "role": "MDE Analyst",
+      "page": "/actors/katie-schmiedeknecht/",
+      "class": "entity",
+      "classification": "partial",
+      "confidence": 0.55,
+      "opacity": 0.55,
+      "sort_pass": 2,
+      "sort_method": "school_employee",
+      "sort_note": "Employee of captured school."
+    },
+    {
+      "id": "bing",
+      "label": "Dave Bing",
+      "type": "actor",
+      "tier": 5,
+      "role": "Mayor 2009-2013",
+      "class": "entity",
+      "classification": "other",
+      "confidence": 0.3,
+      "opacity": 0.3,
+      "sort_pass": 3,
+      "sort_method": "unresolved",
+      "sort_note": "Edge pattern unresolved."
+    },
+    {
+      "id": "operation_northern_hook",
+      "label": "Operation Northern Hook",
+      "type": "entity",
+      "entity_type": "Federal operation",
+      "tier": 5,
+      "role": "Referenced in investigation — federal enforcement operation connected to network actors.",
+      "class": "entity",
+      "classification": "null"
+    },
+    {
+      "id": "citizen_detroit",
+      "label": "CitizenDetroit Action Group",
+      "type": "entity",
+      "entity_type": "Nonprofit 501(c)(3)",
+      "tier": 5,
+      "role": "EIN 82-2361291. 'Empowers Detroiters to be critically engaged in civic life.' Board connects Misha Stallworth (charter authorizer) to Crump-Gibson (Banks' attorney). CEO: Sheila Cockrel.",
+      "class": "entity",
+      "classification": "null"
+    },
+    {
+      "id": "reginald_scott",
+      "label": "Reginald B. Scott II",
+      "type": "actor",
+      "tier": 5,
+      "role": "Unknown prior role at MacDowell. CC'd Feb 22 FOIA email. Being REMOVED from MOECS access. eotogroup@gmail.com. Was he the prior authorized rep?",
       "class": "entity",
       "classification": "null"
     },
@@ -1976,20 +2109,6 @@
       "sort_note": "Formation/governance connection to null (cascade)."
     },
     {
-      "id": "henri_harmon",
-      "label": "Henri O. Harmon",
-      "type": "actor",
-      "tier": 5,
-      "role": "GLLG Partner â€” MSU Law BLSA President",
-      "class": "entity",
-      "classification": "partial",
-      "confidence": 0.4,
-      "opacity": 0.4,
-      "sort_pass": 3,
-      "sort_method": "cascade_adjacent",
-      "sort_note": "Low-edge entity adjacent to non-self."
-    },
-    {
       "id": "hutchings",
       "label": "D. Hutchings",
       "type": "actor",
@@ -2011,34 +2130,6 @@
       "role": "Founder & Chairman, National Heritage Academies. 100+ schools, 9 states, 67,000+ students. Charter Schools Hall of Fame inductee 2025. Multi-millionaire Grand Rapids businessman. Served on TEACH Michigan board (lobbied for charter law). Opened first NHA school (Excel Charter Academy) 1995.",
       "class": "entity",
       "classification": "null"
-    },
-    {
-      "id": "sheila_cockrel",
-      "label": "Sheila Cockrel",
-      "type": "actor",
-      "tier": 5,
-      "role": "CitizenDetroit CEO â€” former Council",
-      "class": "entity",
-      "classification": "null",
-      "confidence": 0.45,
-      "opacity": 0.45,
-      "sort_pass": 3,
-      "sort_method": "cascade_null",
-      "sort_note": "Formation/governance connection to null (cascade)."
-    },
-    {
-      "id": "carol_banks",
-      "label": "Carol Banks",
-      "type": "actor",
-      "tier": 5,
-      "role": "Political operative",
-      "class": "entity",
-      "classification": "partial",
-      "confidence": 0.5,
-      "opacity": 0.5,
-      "sort_pass": 2,
-      "sort_method": "banks_family",
-      "sort_note": "Family member of Banks."
     },
     {
       "id": "dea",
@@ -2179,21 +2270,6 @@
       "sort_note": "Governance/board connection to non-self (cascade)."
     },
     {
-      "id": "schmiedeknecht",
-      "label": "Katie Schmiedeknecht",
-      "type": "actor",
-      "tier": 5,
-      "role": "MDE Analyst",
-      "page": "/actors/katie-schmiedeknecht/",
-      "class": "entity",
-      "classification": "partial",
-      "confidence": 0.55,
-      "opacity": 0.55,
-      "sort_pass": 2,
-      "sort_method": "school_employee",
-      "sort_note": "Employee of captured school."
-    },
-    {
       "id": "svsu",
       "label": "Saginaw Valley State University",
       "type": "entity",
@@ -2287,33 +2363,6 @@
       "opacity": 0.9,
       "sort_pass": 1,
       "sort_method": "phase1"
-    },
-    {
-      "id": "bing",
-      "label": "Dave Bing",
-      "type": "actor",
-      "tier": 5,
-      "role": "Mayor 2009-2013",
-      "class": "entity",
-      "classification": "other",
-      "confidence": 0.3,
-      "opacity": 0.3,
-      "sort_pass": 3,
-      "sort_method": "unresolved",
-      "sort_note": "Edge pattern unresolved."
-    },
-    {
-      "id": "city_council",
-      "label": "city council",
-      "type": "institution",
-      "tier": 5,
-      "class": "entity",
-      "classification": "other",
-      "confidence": 0.3,
-      "opacity": 0.3,
-      "sort_pass": 3,
-      "sort_method": "unresolved",
-      "sort_note": "Edge pattern unresolved."
     },
     {
       "id": "detroit_college_law",
@@ -2528,16 +2577,6 @@
       "classification": "null"
     },
     {
-      "id": "operation_northern_hook",
-      "label": "Operation Northern Hook",
-      "type": "entity",
-      "entity_type": "Federal operation",
-      "tier": 5,
-      "role": "Referenced in investigation — federal enforcement operation connected to network actors.",
-      "class": "entity",
-      "classification": "null"
-    },
-    {
       "id": "foley_mansfield",
       "label": "Foley & Mansfield PLLP",
       "type": "entity",
@@ -2548,13 +2587,26 @@
       "classification": "null"
     },
     {
-      "id": "andre_spivey",
-      "label": "Andre Spivey",
+      "id": "terrence_shulman",
+      "label": "Terrence Shulman",
       "type": "actor",
       "tier": 5,
-      "role": "Former Detroit City Council member. Convicted of bribery (2:21-cr-20490). Operation Northern Hook. FBI raided Carol Banks' home seeking 501(c)(4) records and campaign finance docs.",
+      "role": "Attorney/counselor. Connected to Banks network in investigation files.",
       "class": "entity",
       "classification": "null"
+    },
+    {
+      "id": "city_council",
+      "label": "city council",
+      "type": "institution",
+      "tier": 5,
+      "class": "entity",
+      "classification": "other",
+      "confidence": 0.3,
+      "opacity": 0.3,
+      "sort_pass": 3,
+      "sort_method": "unresolved",
+      "sort_note": "Edge pattern unresolved."
     },
     {
       "id": "chojlf",
@@ -2649,7 +2701,7 @@
       "label": "Carlton Ross",
       "type": "actor",
       "tier": 5,
-      "role": "Right Turn Treasurer",
+      "role": "Carlton Ross. Right Turn Project Treasurer. PCA Administrative Specialist. Connected to dark money pipeline.",
       "class": "entity",
       "classification": "null",
       "confidence": 0.45,
@@ -5147,15 +5199,6 @@
       "sort_note": "Entity governed by Banks."
     },
     {
-      "id": "terrence_shulman",
-      "label": "Terrence Shulman",
-      "type": "actor",
-      "tier": 5,
-      "role": "Attorney/counselor. Connected to Banks network in investigation files.",
-      "class": "entity",
-      "classification": "null"
-    },
-    {
       "id": "leah_breen",
       "label": "Leah Breen",
       "type": "actor",
@@ -5214,6 +5257,46 @@
       "classification": "null"
     },
     {
+      "id": "saybrook_university",
+      "label": "Saybrook University",
+      "type": "entity",
+      "entity_type": "University",
+      "tier": 5,
+      "role": "Low-residency/online private program. Leno's Ph.D. source. Structurally similar to Walden (Banks' claimed degree).",
+      "class": "entity",
+      "classification": "null"
+    },
+    {
+      "id": "walden_university",
+      "label": "Walden University",
+      "type": "entity",
+      "entity_type": "University",
+      "tier": 5,
+      "role": "For-profit online university (Laureate → Adtalem). Banks claims JD from here. No JD program exists. Same structural type as Saybrook (Leno's Ph.D.).",
+      "class": "entity",
+      "classification": "documented"
+    },
+    {
+      "id": "childrens_center",
+      "label": "The Children's Center",
+      "type": "entity",
+      "entity_type": "Nonprofit",
+      "tier": 5,
+      "role": "Children's mental health organization in Detroit. Nicole Wells-Stallworth became CEO July 2023. Running a children's mental health org while presiding over a school at 3% math proficiency.",
+      "class": "entity",
+      "classification": "null"
+    },
+    {
+      "id": "irs_eo_detroit",
+      "label": "IRS Exempt Organizations (Detroit)",
+      "type": "entity",
+      "entity_type": "Federal agency",
+      "tier": 5,
+      "role": "IRS Exempt Organizations division. Purpose Foundation 990 oversight. Self-dealing investigation jurisdiction.",
+      "class": "institution",
+      "classification": "null"
+    },
+    {
       "id": "bmf_entertainment",
       "label": "BMF Entertainment",
       "type": "entity",
@@ -5254,16 +5337,6 @@
       "classification": "null"
     },
     {
-      "id": "saybrook_university",
-      "label": "Saybrook University",
-      "type": "entity",
-      "entity_type": "University",
-      "tier": 5,
-      "role": "Low-residency/online private program. Leno's Ph.D. source. Structurally similar to Walden (Banks' claimed degree).",
-      "class": "entity",
-      "classification": "null"
-    },
-    {
       "id": "area_towing",
       "label": "Area Towing",
       "type": "entity",
@@ -5272,6 +5345,16 @@
       "role": "Area Towing v. Sollars (2:19-cv-10989). Civil case (active). Produced FBI wiretap files with Banks conversations Sep 2025.",
       "class": "entity",
       "classification": "null"
+    },
+    {
+      "id": "robert_moses",
+      "label": "Robert Moses (historical parallel)",
+      "type": "entity",
+      "entity_type": "Historical reference",
+      "tier": 5,
+      "role": "NYC power broker 1930s-1960s. Banks follows Moses playbook: wrote the legislation, controlled the money flow, made himself the sole pathway for federal dollars, used expert testimony to deflect.",
+      "class": "entity",
+      "classification": "non-self"
     }
   ],
   "edges": [
@@ -6518,7 +6601,7 @@
     },
     {
       "source": "archer_jr",
-      "target": "citizendetroit",
+      "target": "citizen_detroit",
       "type": "board_membership",
       "epistemic_status": "record",
       "role": "Director",
@@ -8326,7 +8409,7 @@
       "source_doc": "wire_leaves_fix.py"
     },
     {
-      "source": "citizendetroit",
+      "source": "citizen_detroit",
       "target": "archer_jr",
       "type": "governance",
       "epistemic_status": "record",
@@ -8336,7 +8419,7 @@
       "source_doc": "ProPublica Nonprofit Explorer EIN 82-2361291"
     },
     {
-      "source": "citizendetroit",
+      "source": "citizen_detroit",
       "target": "sheila_cockrel",
       "type": "governance",
       "epistemic_status": "record",
@@ -9314,7 +9397,7 @@
     },
     {
       "source": "crump_gibson",
-      "target": "citizendetroit",
+      "target": "citizen_detroit",
       "type": "board_membership",
       "epistemic_status": "record",
       "role": "Vice Chair / Chair",
@@ -15022,7 +15105,7 @@
     },
     {
       "source": "misha_stallworth",
-      "target": "citizendetroit",
+      "target": "citizen_detroit",
       "type": "board_membership",
       "epistemic_status": "record",
       "role": "Director",
@@ -17560,7 +17643,7 @@
     },
     {
       "source": "sheila_cockrel",
-      "target": "citizendetroit",
+      "target": "citizen_detroit",
       "type": "governance",
       "epistemic_status": "record",
       "role": "CEO",
@@ -19547,6 +19630,1014 @@
       "weight": 4,
       "note": "4 shared neighbors: banks, macdowell, msu, pca",
       "source_doc": "Shake tree bingo cube"
+    },
+    {
+      "source": "walden_university",
+      "target": "banks",
+      "type": "claimed_credential",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "Banks claims JD from Walden. No JD program exists.",
+      "source_doc": "ICHAT, TCR 22-12"
+    },
+    {
+      "source": "walden_university",
+      "target": "saybrook_university",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "Both low-residency/online. Banks' JD claim ≈ Leno's Ph.D. source.",
+      "source_doc": "Investigation analysis"
+    },
+    {
+      "source": "moecs",
+      "target": "mde",
+      "type": "system_ownership",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "MDE manages MOECS. Credential verification happens here.",
+      "source_doc": "michigan.gov"
+    },
+    {
+      "source": "moecs",
+      "target": "schmiedeknecht",
+      "type": "investigation_trigger",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "Schmiedeknecht discovered Banks had no valid credential in MOECS.",
+      "source_doc": "FOIA .msg emails"
+    },
+    {
+      "source": "moecs",
+      "target": "banks",
+      "type": "credential_fraud",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "Banks' credential gap detected in MOECS. Investigation killed same day.",
+      "source_doc": "FOIA"
+    },
+    {
+      "source": "moecs",
+      "target": "reginald_scott",
+      "type": "access_removal",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "Scott being REMOVED from MOECS access per Feb 22 email.",
+      "source_doc": "FOIA .msg"
+    },
+    {
+      "source": "alj_rice",
+      "target": "banks",
+      "type": "adjudication",
+      "epistemic_status": "record",
+      "weight": 9,
+      "note": "TCR 22-12 Final Decision Aug 4, 2023. Overruled MDE + AG. Granted certificate.",
+      "source_doc": "TCR 22-12"
+    },
+    {
+      "source": "alj_rice",
+      "target": "terrence_shulman",
+      "type": "relied_on_testimony",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "Relied on Shulman testimony to grant certificate.",
+      "source_doc": "TCR 22-12"
+    },
+    {
+      "source": "alj_rice",
+      "target": "michele_leno",
+      "type": "relied_on_testimony",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "Relied on Leno PTSD diagnosis to grant certificate.",
+      "source_doc": "TCR 22-12"
+    },
+    {
+      "source": "alj_rice",
+      "target": "gregory_meihn",
+      "type": "relied_on_testimony",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "Relied on Meihn 'rare find' testimony.",
+      "source_doc": "TCR 22-12"
+    },
+    {
+      "source": "alj_rice",
+      "target": "sbe",
+      "type": "institutional",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "Final Decision went to SBE. SBE accepted.",
+      "source_doc": "TCR 22-12"
+    },
+    {
+      "source": "alj_rice",
+      "target": "mde",
+      "type": "overruled",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "Overruled MDE objection to Banks' certification.",
+      "source_doc": "TCR 22-12"
+    },
+    {
+      "source": "sheila_cockrel",
+      "target": "citizen_detroit",
+      "type": "ceo",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "CEO of CitizenDetroit Action Group.",
+      "source_doc": "ProPublica 990"
+    },
+    {
+      "source": "sheila_cockrel",
+      "target": "crump_gibson",
+      "type": "employment_pipeline",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "Hired Crump-Gibson in government. Now both on CitizenDetroit.",
+      "source_doc": "LinkedIn"
+    },
+    {
+      "source": "sheila_cockrel",
+      "target": "detroit_city",
+      "type": "former_member",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "Former Detroit City Council member.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "citizen_detroit",
+      "target": "crump_gibson",
+      "type": "board_membership",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "Chair of CitizenDetroit board.",
+      "source_doc": "ProPublica 990"
+    },
+    {
+      "source": "citizen_detroit",
+      "target": "misha_stallworth",
+      "type": "board_membership",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "Board director. Charter authorizer on same board as Banks' attorney.",
+      "source_doc": "ProPublica 990"
+    },
+    {
+      "source": "childrens_center",
+      "target": "wells_stallworth",
+      "type": "employment",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "Wells-Stallworth became CEO July 2023. Mental health org leader while school at 3% math.",
+      "source_doc": "LinkedIn, children's center website"
+    },
+    {
+      "source": "childrens_center",
+      "target": "banks",
+      "type": "network",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "Wells-Stallworth bridges Banks' school board to children's mental health org.",
+      "source_doc": "Investigation analysis"
+    },
+    {
+      "source": "reginald_scott",
+      "target": "macdowell",
+      "type": "prior_role",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "CC'd on Feb 22 FOIA email. Being removed from MOECS access.",
+      "source_doc": "FOIA .msg"
+    },
+    {
+      "source": "reginald_scott",
+      "target": "banks",
+      "type": "network",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "Prior authorized rep? eotogroup@gmail.com.",
+      "source_doc": "FOIA"
+    },
+    {
+      "source": "ross",
+      "target": "pca",
+      "type": "employment",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "PCA Administrative Specialist.",
+      "source_doc": "macdowellprep.com"
+    },
+    {
+      "source": "ross",
+      "target": "right_turn",
+      "type": "connection",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "Connected to Right Turn Project (dark money).",
+      "source_doc": "Investigation analysis"
+    },
+    {
+      "source": "henri_harmon",
+      "target": "great_lakes_legal",
+      "type": "partnership",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "GLLG Partner.",
+      "source_doc": "gllegalgroup.com"
+    },
+    {
+      "source": "henri_harmon",
+      "target": "crump_gibson",
+      "type": "co_partner",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "Partner at same firm as Banks' defense attorney.",
+      "source_doc": "Firm website"
+    },
+    {
+      "source": "henri_harmon",
+      "target": "msu",
+      "type": "education",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "MSU Law BLSA '06. Same school Banks claims JD from.",
+      "source_doc": "Firm bio"
+    },
+    {
+      "source": "fbi_detroit",
+      "target": "operation_northern_hook",
+      "type": "operation",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "FBI Detroit ran Operation Northern Hook.",
+      "source_doc": "PACER"
+    },
+    {
+      "source": "fbi_detroit",
+      "target": "wiretap_fiore",
+      "type": "evidence",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "FBI Detroit executed wiretap in Fiore investigation.",
+      "source_doc": "Beeckman affidavit"
+    },
+    {
+      "source": "fbi_detroit",
+      "target": "carol_banks",
+      "type": "raid",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "FBI raided Carol Banks' home for 501(c)(4) + campaign records.",
+      "source_doc": "Dykema chronology"
+    },
+    {
+      "source": "fbi_detroit",
+      "target": "andre_spivey",
+      "type": "prosecution",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "FBI investigation led to Spivey bribery conviction.",
+      "source_doc": "PACER"
+    },
+    {
+      "source": "fbi_detroit",
+      "target": "banks",
+      "type": "investigation_subject",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "Banks on FBI wiretap. Carol Banks home raided.",
+      "source_doc": "Beeckman affidavit, PACER"
+    },
+    {
+      "source": "us_doe",
+      "target": "pca",
+      "type": "funding",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "Title I federal education funding flows to PCA.",
+      "source_doc": "federal grant data"
+    },
+    {
+      "source": "us_doe",
+      "target": "macdowell",
+      "type": "funding",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "Title I federal education funding.",
+      "source_doc": "federal grant data"
+    },
+    {
+      "source": "us_doe",
+      "target": "mde",
+      "type": "federal_oversight",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "Federal oversight of state education department.",
+      "source_doc": "US DOE"
+    },
+    {
+      "source": "irs_eo_detroit",
+      "target": "purpose_foundation",
+      "type": "tax_exempt_oversight",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "Purpose Foundation 990 oversight jurisdiction.",
+      "source_doc": "IRS"
+    },
+    {
+      "source": "irs_eo_detroit",
+      "target": "anchor_rock",
+      "type": "tax_exempt_oversight",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "Anchor Rock Foundation dissolved — IRS jurisdiction.",
+      "source_doc": "IRS"
+    },
+    {
+      "source": "robert_moses",
+      "target": "banks",
+      "type": "historical_parallel",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "Banks follows Moses playbook. Wrote legislation → controlled money → sole pathway for federal funds.",
+      "source_doc": "Analysis: historical-pattern.md"
+    },
+    {
+      "source": "moecs",
+      "target": "macdowell",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Back-scatter: 4 shared with moecs: banks, mde, reginald_scott, schmiedeknecht",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "alj_rice",
+      "target": "beasley",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with alj_rice: banks, mde, sbe",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "alj_rice",
+      "target": "wayne_resa",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with alj_rice: banks, mde, sbe",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "alj_rice",
+      "target": "raphael_washington",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with alj_rice: banks, mde, sbe",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "alj_rice",
+      "target": "plante_moran",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with alj_rice: banks, mde, sbe",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "alj_rice",
+      "target": "crump_gibson",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with alj_rice: banks, mde, sbe",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "alj_rice",
+      "target": "court_3rd",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with alj_rice: banks, mde, sbe",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "alj_rice",
+      "target": "wayne_county",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with alj_rice: banks, mde, sbe",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "alj_rice",
+      "target": "maleyko",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with alj_rice: banks, mde, sbe",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "alj_rice",
+      "target": "pca",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Back-scatter: 4 shared with alj_rice: banks, gregory_meihn, mde, sbe",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "alj_rice",
+      "target": "jolia_hill",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Back-scatter: 4 shared with alj_rice: banks, gregory_meihn, mde, sbe",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "alj_rice",
+      "target": "jtc",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with alj_rice: banks, mde, sbe",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "alj_rice",
+      "target": "wayne_state_law",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with alj_rice: banks, mde, sbe",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "alj_rice",
+      "target": "kym_worthy",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with alj_rice: banks, mde, sbe",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "alj_rice",
+      "target": "npe",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with alj_rice: banks, mde, sbe",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "alj_rice",
+      "target": "dpscd",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with alj_rice: banks, mde, sbe",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "alj_rice",
+      "target": "emu",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with alj_rice: banks, mde, sbe",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "alj_rice",
+      "target": "agc",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Back-scatter: 4 shared with alj_rice: banks, gregory_meihn, mde, sbe",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "alj_rice",
+      "target": "miller",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with alj_rice: banks, mde, sbe",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "alj_rice",
+      "target": "sbm",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with alj_rice: banks, mde, sbe",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "alj_rice",
+      "target": "mi_supreme_court",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with alj_rice: banks, mde, sbe",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "alj_rice",
+      "target": "yancey",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with alj_rice: banks, mde, sbe",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "alj_rice",
+      "target": "glenn_page",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with alj_rice: banks, mde, sbe",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "alj_rice",
+      "target": "charter_law_1993",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with alj_rice: banks, mde, sbe",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "alj_rice",
+      "target": "dpd",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with alj_rice: banks, mde, sbe",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "alj_rice",
+      "target": "upl_dept",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with alj_rice: banks, mde, sbe",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "alj_rice",
+      "target": "macdowell",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Back-scatter: 4 shared with alj_rice: banks, gregory_meihn, mde, sbe",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "alj_rice",
+      "target": "cmu",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with alj_rice: banks, mde, sbe",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "alj_rice",
+      "target": "vitti",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with alj_rice: banks, mde, sbe",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "alj_rice",
+      "target": "gay_dagnogo",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with alj_rice: banks, mde, sbe",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "alj_rice",
+      "target": "sc_cavanagh",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with alj_rice: banks, mde, sbe",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "alj_rice",
+      "target": "mccsa",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with alj_rice: banks, mde, sbe",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "alj_rice",
+      "target": "purpose_group",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with alj_rice: banks, mde, sbe",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "alj_rice",
+      "target": "detroit_city",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with alj_rice: banks, mde, sbe",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "alj_rice",
+      "target": "court_36th",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with alj_rice: banks, mde, sbe",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "sheila_cockrel",
+      "target": "misha_stallworth",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with sheila_cockrel: citizen_detroit, citizendetroit, crump_gibson",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "reginald_scott",
+      "target": "mde",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with reginald_scott: banks, macdowell, moecs",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "henri_harmon",
+      "target": "bullington",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with henri_harmon: banks, msu, msu_law",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "henri_harmon",
+      "target": "jolia_hill",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with henri_harmon: banks, crump_gibson, msu",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "henri_harmon",
+      "target": "miller",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with henri_harmon: banks, crump_gibson, msu_law",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "henri_harmon",
+      "target": "agc",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with henri_harmon: banks, crump_gibson, msu",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "us_doe",
+      "target": "beasley",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with us_doe: macdowell, mde, pca",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "us_doe",
+      "target": "wayne_resa",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with us_doe: macdowell, mde, pca",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "us_doe",
+      "target": "raphael_washington",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with us_doe: macdowell, mde, pca",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "us_doe",
+      "target": "plante_moran",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with us_doe: macdowell, mde, pca",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "us_doe",
+      "target": "crump_gibson",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with us_doe: macdowell, mde, pca",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "us_doe",
+      "target": "court_3rd",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with us_doe: macdowell, mde, pca",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "us_doe",
+      "target": "wayne_county",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with us_doe: macdowell, mde, pca",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "us_doe",
+      "target": "maleyko",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with us_doe: macdowell, mde, pca",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "us_doe",
+      "target": "jolia_hill",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with us_doe: macdowell, mde, pca",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "us_doe",
+      "target": "jtc",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with us_doe: macdowell, mde, pca",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "us_doe",
+      "target": "wayne_state_law",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with us_doe: macdowell, mde, pca",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "us_doe",
+      "target": "kym_worthy",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with us_doe: macdowell, mde, pca",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "us_doe",
+      "target": "npe",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with us_doe: macdowell, mde, pca",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "us_doe",
+      "target": "dpscd",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with us_doe: macdowell, mde, pca",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "us_doe",
+      "target": "emu",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with us_doe: macdowell, mde, pca",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "us_doe",
+      "target": "agc",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with us_doe: macdowell, mde, pca",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "us_doe",
+      "target": "miller",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with us_doe: macdowell, mde, pca",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "us_doe",
+      "target": "sbm",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with us_doe: macdowell, mde, pca",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "us_doe",
+      "target": "mi_supreme_court",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with us_doe: macdowell, mde, pca",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "us_doe",
+      "target": "yancey",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with us_doe: macdowell, mde, pca",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "us_doe",
+      "target": "glenn_page",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with us_doe: macdowell, mde, pca",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "us_doe",
+      "target": "charter_law_1993",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with us_doe: macdowell, mde, pca",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "us_doe",
+      "target": "dpd",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with us_doe: macdowell, mde, pca",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "us_doe",
+      "target": "upl_dept",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with us_doe: macdowell, mde, pca",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "us_doe",
+      "target": "cmu",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with us_doe: macdowell, mde, pca",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "us_doe",
+      "target": "vitti",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with us_doe: macdowell, mde, pca",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "us_doe",
+      "target": "gay_dagnogo",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with us_doe: macdowell, mde, pca",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "us_doe",
+      "target": "sbe",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with us_doe: macdowell, mde, pca",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "us_doe",
+      "target": "sc_cavanagh",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with us_doe: macdowell, mde, pca",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "us_doe",
+      "target": "banks",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with us_doe: macdowell, mde, pca",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "us_doe",
+      "target": "mccsa",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with us_doe: macdowell, mde, pca",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "us_doe",
+      "target": "purpose_group",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with us_doe: macdowell, mde, pca",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "us_doe",
+      "target": "detroit_city",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with us_doe: macdowell, mde, pca",
+      "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "us_doe",
+      "target": "court_36th",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Back-scatter: 3 shared with us_doe: macdowell, mde, pca",
+      "source_doc": "Back-scatter from scattered nodes"
     }
   ],
   "epistemic_grammar": {
