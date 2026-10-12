@@ -28,6 +28,20 @@ window.PtMembrane = function(deps) {
     rps: 0, fleetIps: 0, humanIps: 0, fleetPct: 0,
     totalReqs: 0, entityCount: 0, aliveCount: 0
   };
+  // Dimensional shape classification — ○□△◇ at module scope so animate() can see it
+  var DIM_SHAPES = [
+    {dim:1, sym:'\u25cb', color:'#9b59b6', count:0, names:[]},  // ○ circle
+    {dim:2, sym:'\u25a1', color:'#e85d3a', count:0, names:[]},  // □ square
+    {dim:3, sym:'\u25b3', color:'#5ab87a', count:0, names:[]},  // △ triangle
+    {dim:4, sym:'\u25c7', color:'#4a8fb8', count:0, names:[]}   // ◇ diamond
+  ];
+  if (PANELS && PANELS.length) {
+    PANELS.forEach(function(p) {
+      var dsi = Math.min(Math.max((p.dim || 1) - 1, 0), 3);
+      DIM_SHAPES[dsi].count++;
+      DIM_SHAPES[dsi].names.push(p.id);
+    });
+  }
 
   function el(tag, a, par) {
     var e = document.createElementNS(NS, tag);
@@ -738,6 +752,19 @@ window.PtMembrane = function(deps) {
     txt(ionoBandG, cx, cy + R * 0.86 + 7,
       'compression = lattice kernel', '#6e7681', 3.5,
       {opacity:0.06, id:'mg-kernel-label'});
+
+    // ── Dimensional shape sweep: ○□△◇ through the complexity chain ──
+    // The panel shapes ARE the complexity sort. ○=1D, □=2D, △=3D, ◇=4D.
+    // Collision detection is □ (2D). Fingerprint is △ (3D). Epitope Matrix is ◇ (4D).
+    // These were calculated in hud-pt.js mount(): shapeGlyph = p.dim === 1 ? '○' : ...
+    // C(n) = π^(n/2). Each dimension costs more to observe.
+    // Now we sweep them through the band — scan, sort, evolve.
+    DIM_SHAPES.forEach(function(ds) {
+      txt(ionoBandG, cx, cy, ds.sym, ds.color, 6,
+        {opacity:0.04, id:'mg-dim-shape-' + ds.dim});
+      txt(ionoBandG, cx, cy, ds.count + '', ds.color, 3.5,
+        {opacity:0.03, id:'mg-dim-count-' + ds.dim});
+    });
 
     // ═══ CLOSED RING: one continuous circle, panels distributed ═══
     // The ring IS Earth. The membrane boundary.
@@ -2180,6 +2207,36 @@ window.PtMembrane = function(deps) {
         stdEl.textContent = statData[stdi].text;
         var stdOp = statData[stdi].text ? 0.06 + 0.10 * perturb : 0;
         stdEl.setAttribute('opacity', stdOp.toFixed(3));
+      }
+    }
+
+    // ── Dimensional shape sweep: ○□△◇ orbit at their cost radius ──
+    // Each shape orbits at a radius proportional to π^(dim/2).
+    // ○ (1D) closest to center — cheapest to observe.
+    // ◇ (4D) furthest out — most expensive. Deep in the ionosphere band.
+    // The shapes ARE the complexity sort made visible.
+    var dimShapeDims = [1, 2, 3, 4];
+    for (var dsa = 0; dsa < 4; dsa++) {
+      var dsDim = dimShapeDims[dsa];
+      var dsR = R * Math.pow(PI, dsDim / 2) / (PI * PI) * 1.8;
+      // Clamp to ionosphere band if it goes too far
+      dsR = Math.min(dsR, R * 0.94);
+      var dsAngle = dsa * TAU / 4 + t * PI / (dsDim * 7 + 3); // each dim rotates at own rate
+      var dsEl = document.getElementById('mg-dim-shape-' + dsDim);
+      if (dsEl) {
+        dsEl.setAttribute('x', (cx + dsR * Math.cos(dsAngle)).toFixed(1));
+        dsEl.setAttribute('y', (cy + dsR * Math.sin(dsAngle)).toFixed(1));
+        // Brighter when its panels are alive
+        var dsAliveCount = 0;
+        DIM_SHAPES[dsa].names.forEach(function(n) { if (aliveSet.has(n)) dsAliveCount++; });
+        var dsLit = DIM_SHAPES[dsa].count > 0 ? dsAliveCount / DIM_SHAPES[dsa].count : 0;
+        dsEl.setAttribute('opacity', (0.04 + 0.12 * dsLit * perturb).toFixed(3));
+      }
+      var dsCnt = document.getElementById('mg-dim-count-' + dsDim);
+      if (dsCnt) {
+        dsCnt.setAttribute('x', (cx + dsR * Math.cos(dsAngle) + 5).toFixed(1));
+        dsCnt.setAttribute('y', (cy + dsR * Math.sin(dsAngle) - 4).toFixed(1));
+        dsCnt.setAttribute('opacity', (0.03 + 0.08 * perturb).toFixed(3));
       }
     }
 
