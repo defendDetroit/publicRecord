@@ -125,6 +125,20 @@
       "sort_note": "Employee of captured school."
     },
     {
+      "id": "dpscd",
+      "label": "Detroit Public Schools Community District",
+      "type": "entity",
+      "entity_type": "Authorizer",
+      "tier": 1,
+      "class": "entity",
+      "membrane_response": "-1",
+      "classification": "negative",
+      "confidence": 0.9,
+      "opacity": 0.9,
+      "sort_pass": 1,
+      "sort_method": "phase1"
+    },
+    {
       "id": "mi_supreme_court",
       "label": "Michigan Supreme Court",
       "type": "entity",
@@ -173,24 +187,10 @@
       "sort_note": "Regulatory body that did not act on Banks."
     },
     {
-      "id": "dpscd",
-      "label": "Detroit Public Schools Community District",
-      "type": "entity",
-      "entity_type": "Authorizer",
-      "tier": 2,
-      "class": "entity",
-      "membrane_response": "-1",
-      "classification": "negative",
-      "confidence": 0.9,
-      "opacity": 0.9,
-      "sort_pass": 1,
-      "sort_method": "phase1"
-    },
-    {
       "id": "beasley",
       "label": "Dr. Chalena Yancey Beasley",
       "type": "actor",
-      "tier": 2,
+      "tier": 1,
       "role": "Founding School Leader, PCA. PhD Wayne State ELPS 2023. 29yr DPSCD veteran. Principal Bunche Prep. NBCT. BS WMU, MA Marygrove, PhD Wayne State. Sister of Judge Tenisha Yancey. Husband Ahmed Beasley. Most credentialed person in Banks enterprise.",
       "class": "actor",
       "classification": "negative",
@@ -207,7 +207,7 @@
       "type": "entity",
       "entity_type": "Oversight body",
       "note": "8 elected members. Constitutional (Art VIII §3). Oversees authorizers. Meets Oct 13, 2026.",
-      "tier": 2,
+      "tier": 1,
       "class": "entity",
       "membrane_response": "+0.5",
       "classification": "partial",
@@ -494,21 +494,6 @@
       "sort_note": "Governance/board connection to non-self (cascade)."
     },
     {
-      "id": "maleyko",
-      "label": "Dr. Glenn Maleyko",
-      "type": "actor",
-      "tier": 2,
-      "role": "MI Superintendent of Public Instruction (Dec 2025). SBE Chair. PhD Wayne State ELPS (same dept as Beasley/Hill). Former Dearborn Supt.",
-      "classification": "partial",
-      "class": "actor",
-      "membrane_response": "null",
-      "confidence": 0.45,
-      "opacity": 0.45,
-      "sort_pass": 3,
-      "sort_method": "cascade_nonself",
-      "sort_note": "Governance/board connection to non-self (cascade)."
-    },
-    {
       "id": "purpose_group",
       "label": "The Purpose Group, LLC",
       "type": "entity",
@@ -524,20 +509,6 @@
       "sort_method": "phase1"
     },
     {
-      "id": "raphael_washington",
-      "label": "Sheriff Raphael Washington",
-      "type": "actor",
-      "tier": 2,
-      "role": "Wayne County Sheriff. Appointed 2021, reelected 2024 (69% vote).",
-      "class": "entity",
-      "classification": "other",
-      "confidence": 0.3,
-      "opacity": 0.3,
-      "sort_pass": 3,
-      "sort_method": "unresolved",
-      "sort_note": "Edge pattern unresolved."
-    },
-    {
       "id": "vitti",
       "label": "Dr. Nikolai Vitti",
       "type": "actor",
@@ -551,6 +522,35 @@
       "sort_pass": 3,
       "sort_method": "cascade_nonself",
       "sort_note": "Governance/board connection to non-self (cascade)."
+    },
+    {
+      "id": "maleyko",
+      "label": "Dr. Glenn Maleyko",
+      "type": "actor",
+      "tier": 2,
+      "role": "MI Superintendent of Public Instruction (Dec 2025). SBE Chair. PhD Wayne State ELPS (same dept as Beasley/Hill). Former Dearborn Supt.",
+      "classification": "partial",
+      "class": "actor",
+      "membrane_response": "null",
+      "confidence": 0.45,
+      "opacity": 0.45,
+      "sort_pass": 3,
+      "sort_method": "cascade_nonself",
+      "sort_note": "Governance/board connection to non-self (cascade)."
+    },
+    {
+      "id": "raphael_washington",
+      "label": "Sheriff Raphael Washington",
+      "type": "actor",
+      "tier": 2,
+      "role": "Wayne County Sheriff. Appointed 2021, reelected 2024 (69% vote).",
+      "class": "entity",
+      "classification": "other",
+      "confidence": 0.3,
+      "opacity": 0.3,
+      "sort_pass": 3,
+      "sort_method": "unresolved",
+      "sort_note": "Edge pattern unresolved."
     },
     {
       "id": "wayne_resa",
@@ -573,6 +573,16 @@
       "entity_type": "Federal agency",
       "tier": 2,
       "role": "Federal education funding source. Title I flows through charter schools. OIG hotline complaint target for charter fraud.",
+      "class": "institution",
+      "classification": "null"
+    },
+    {
+      "id": "wayne_resa_audit",
+      "label": "Wayne RESA Financial Oversight",
+      "type": "entity",
+      "entity_type": "Government function",
+      "tier": 2,
+      "role": "Wayne RESA performs financial oversight of charter schools. Did they audit PCA/MacDowell? Did they catch the LLC extraction? Raphael Washington is superintendent.",
       "class": "institution",
       "classification": "null"
     },
@@ -681,16 +691,6 @@
       "sort_note": "Formation/governance connection to null (cascade)."
     },
     {
-      "id": "bmf",
-      "label": "Black Mafia Family (BMF)",
-      "type": "entity",
-      "entity_type": "Criminal organization",
-      "tier": 4,
-      "role": "Black Mafia Family. Federal drug conspiracy — one of the largest in US history. Hundreds of millions in drug proceeds. Founded by Demetrius 'Big Meech' and Terry 'Southwest T' Flenory. Detroit + Atlanta operations. OD Banks was Defendant #22. Tonesa Welch (Banks's aunt) was also a defendant. Case: USA v. Flenory et al (2:05-cr-80955, E.D. Mich.).",
-      "class": "entity",
-      "classification": "negative"
-    },
-    {
       "id": "engler",
       "label": "Gov. John Engler",
       "type": "actor",
@@ -703,6 +703,30 @@
       "sort_pass": 3,
       "sort_method": "cascade_self",
       "sort_note": "Low-edge entity adjacent to self."
+    },
+    {
+      "id": "bmf",
+      "label": "Black Mafia Family (BMF)",
+      "type": "entity",
+      "entity_type": "Criminal organization",
+      "tier": 4,
+      "role": "Black Mafia Family. Federal drug conspiracy — one of the largest in US history. Hundreds of millions in drug proceeds. Founded by Demetrius 'Big Meech' and Terry 'Southwest T' Flenory. Detroit + Atlanta operations. OD Banks was Defendant #22. Tonesa Welch (Banks's aunt) was also a defendant. Case: USA v. Flenory et al (2:05-cr-80955, E.D. Mich.).",
+      "class": "entity",
+      "classification": "negative"
+    },
+    {
+      "label": "Betsy DeVos",
+      "tier": 4,
+      "id": "betsy_devos",
+      "type": "actor",
+      "role": "Former Education Secretary, AFC chair",
+      "class": "entity",
+      "classification": "other",
+      "confidence": 0.4,
+      "opacity": 0.4,
+      "sort_pass": 3,
+      "sort_method": "funding",
+      "sort_note": "Funding entity. Insufficient evidence for sort."
     },
     {
       "id": "scbc_tour",
@@ -780,6 +804,21 @@
       "sort_note": "Edge pattern unresolved."
     },
     {
+      "label": "Dick & Betsy DeVos Family Foundation",
+      "entity_type": "Private foundation",
+      "id": "devos_foundation",
+      "type": "entity",
+      "role": "Charter school funder",
+      "tier": 4,
+      "class": "entity",
+      "classification": "other",
+      "confidence": 0.4,
+      "opacity": 0.4,
+      "sort_pass": 3,
+      "sort_method": "funding",
+      "sort_note": "Funding entity. Insufficient evidence for sort."
+    },
+    {
       "id": "sheffield",
       "label": "Mayor Mary Sheffield",
       "type": "actor",
@@ -820,21 +859,6 @@
       "sort_pass": 3,
       "sort_method": "cascade_null",
       "sort_note": "Formation/governance connection to null (cascade)."
-    },
-    {
-      "label": "Dick & Betsy DeVos Family Foundation",
-      "entity_type": "Private foundation",
-      "id": "devos_foundation",
-      "type": "entity",
-      "role": "Charter school funder",
-      "tier": 4,
-      "class": "entity",
-      "classification": "other",
-      "confidence": 0.4,
-      "opacity": 0.4,
-      "sort_pass": 3,
-      "sort_method": "funding",
-      "sort_note": "Funding entity. Insufficient evidence for sort."
     },
     {
       "id": "dykema_federal_pac",
@@ -1048,6 +1072,22 @@
       "classification": "null"
     },
     {
+      "label": "MAPSA",
+      "entity_type": "Lobby organization",
+      "id": "mapsa",
+      "type": "entity",
+      "role": "Michigan Association of Public School Academies",
+      "tier": 4,
+      "class": "entity",
+      "classification": "self",
+      "confidence": 0.4,
+      "opacity": 0.4,
+      "sort_pass": 3,
+      "sort_method": "cascade_self",
+      "sort_note": "Low-edge entity adjacent to self.",
+      "membrane_response": "-1"
+    },
+    {
       "id": "sean_perkins",
       "label": "Judge Sean Perkins",
       "type": "actor",
@@ -1089,22 +1129,6 @@
       "sort_pass": 3,
       "sort_method": "funding",
       "sort_note": "Funding entity. Insufficient evidence for sort."
-    },
-    {
-      "label": "MAPSA",
-      "entity_type": "Lobby organization",
-      "id": "mapsa",
-      "type": "entity",
-      "role": "Michigan Association of Public School Academies",
-      "tier": 5,
-      "class": "entity",
-      "classification": "self",
-      "confidence": 0.4,
-      "opacity": 0.4,
-      "sort_pass": 3,
-      "sort_method": "cascade_self",
-      "sort_note": "Low-edge entity adjacent to self.",
-      "membrane_response": "-1"
     },
     {
       "id": "ms_perkins_pca",
@@ -1192,6 +1216,21 @@
       "sort_pass": 2,
       "sort_method": "banks_governance",
       "sort_note": "Entity governed by Banks."
+    },
+    {
+      "id": "glep",
+      "label": "Great Lakes Education Project (GLEP)",
+      "type": "entity",
+      "entity_type": "Political advocacy (PAC)",
+      "note": "Michigan school choice PAC created by Betsy DeVos after 2000 voucher ballot failure. DeVos chaired board 2001-2008. Family continues to fund. Focused on charter expansion in Michigan.",
+      "tier": 5,
+      "class": "entity",
+      "classification": "other",
+      "confidence": 0.3,
+      "opacity": 0.3,
+      "sort_pass": 3,
+      "sort_method": "unresolved",
+      "sort_note": "Edge pattern unresolved."
     },
     {
       "id": "jennifer_crump",
@@ -1382,6 +1421,26 @@
       "membrane_response": "0"
     },
     {
+      "id": "richard_mclellan",
+      "label": "Richard D. McLellan",
+      "type": "actor",
+      "tier": 5,
+      "role": "Former Dykema partner (1982-2007, retired). Co-authored MI charter school law (PA 362). CO-FOUNDED Mackinac Center for Public Policy (1987) with Engler. Engler transition director (1990). McPherson Commission member (2001). Defended charter law at MI Supreme Court. Head of Govt Policy & Practice Group. Managing Member Lansing. Legal counsel to TEACH Michigan. MSU Law board of trustees. Former Livingston County Asst Prosecutor. Former MI Governor's staff (Milliken). The intellectual architect of MI charter schools.",
+      "class": "entity",
+      "classification": "negative",
+      "membrane_response": "-1"
+    },
+    {
+      "id": "fbi_detroit",
+      "label": "FBI Detroit Field Office",
+      "type": "entity",
+      "entity_type": "Federal agency",
+      "tier": 5,
+      "role": "FBI Detroit field office. Operation Northern Hook. Fiore/Spivey/Sollars/Banks wiretap. Raided Carol Banks home. Macomb County corruption probe (23+ convictions).",
+      "class": "institution",
+      "classification": "null"
+    },
+    {
       "id": "right_turn",
       "label": "Right Turn Project",
       "type": "entity",
@@ -1409,30 +1468,6 @@
       "sort_pass": 3,
       "sort_method": "cascade_null",
       "sort_note": "Formation/governance connection to null (cascade)."
-    },
-    {
-      "label": "Betsy DeVos",
-      "tier": 5,
-      "id": "betsy_devos",
-      "type": "actor",
-      "role": "Former Education Secretary, AFC chair",
-      "class": "entity",
-      "classification": "other",
-      "confidence": 0.4,
-      "opacity": 0.4,
-      "sort_pass": 3,
-      "sort_method": "funding",
-      "sort_note": "Funding entity. Insufficient evidence for sort."
-    },
-    {
-      "id": "richard_mclellan",
-      "label": "Richard D. McLellan",
-      "type": "actor",
-      "tier": 5,
-      "role": "Former Dykema partner (1982-2007, retired). Co-authored MI charter school law (PA 362). CO-FOUNDED Mackinac Center for Public Policy (1987) with Engler. Engler transition director (1990). McPherson Commission member (2001). Defended charter law at MI Supreme Court. Head of Govt Policy & Practice Group. Managing Member Lansing. Legal counsel to TEACH Michigan. MSU Law board of trustees. Former Livingston County Asst Prosecutor. Former MI Governor's staff (Milliken). The intellectual architect of MI charter schools.",
-      "class": "entity",
-      "classification": "negative",
-      "membrane_response": "-1"
     },
     {
       "id": "johnson_l",
@@ -1541,16 +1576,6 @@
       "entity_type": "Government system",
       "tier": 5,
       "role": "Michigan Online Educator Certification System. Where credential fraud happens. MDE manages. Schmiedeknecht/Breen discovered Banks had no valid credential here. Reginald Scott was being REMOVED from MOECS access.",
-      "class": "institution",
-      "classification": "null"
-    },
-    {
-      "id": "fbi_detroit",
-      "label": "FBI Detroit Field Office",
-      "type": "entity",
-      "entity_type": "Federal agency",
-      "tier": 5,
-      "role": "FBI Detroit field office. Operation Northern Hook. Fiore/Spivey/Sollars/Banks wiretap. Raided Carol Banks home. Macomb County corruption probe (23+ convictions).",
       "class": "institution",
       "classification": "null"
     },
@@ -1994,6 +2019,21 @@
       "classification": "null"
     },
     {
+      "label": "Skillman Foundation",
+      "entity_type": "Private foundation",
+      "id": "skillman_foundation",
+      "type": "entity",
+      "role": "Detroit youth development funder",
+      "tier": 5,
+      "class": "entity",
+      "classification": "self",
+      "confidence": 0.4,
+      "opacity": 0.4,
+      "sort_pass": 3,
+      "sort_method": "cascade_self",
+      "sort_note": "Low-edge entity adjacent to self."
+    },
+    {
       "id": "adam_sabree",
       "label": "Judge Adam Sabree",
       "type": "actor",
@@ -2424,21 +2464,6 @@
       "sort_note": "Political connection to Banks."
     },
     {
-      "id": "glep",
-      "label": "Great Lakes Education Project (GLEP)",
-      "type": "entity",
-      "entity_type": "Political advocacy (PAC)",
-      "note": "Michigan school choice PAC created by Betsy DeVos after 2000 voucher ballot failure. DeVos chaired board 2001-2008. Family continues to fund. Focused on charter expansion in Michigan.",
-      "tier": 5,
-      "class": "entity",
-      "classification": "other",
-      "confidence": 0.3,
-      "opacity": 0.3,
-      "sort_pass": 3,
-      "sort_method": "unresolved",
-      "sort_note": "Edge pattern unresolved."
-    },
-    {
       "id": "harper_woods",
       "label": "Harper Woods",
       "type": "geography",
@@ -2552,21 +2577,6 @@
       "sort_note": "Entity owned by Banks."
     },
     {
-      "label": "Skillman Foundation",
-      "entity_type": "Private foundation",
-      "id": "skillman_foundation",
-      "type": "entity",
-      "role": "Detroit youth development funder",
-      "tier": 5,
-      "class": "entity",
-      "classification": "self",
-      "confidence": 0.4,
-      "opacity": 0.4,
-      "sort_pass": 3,
-      "sort_method": "cascade_self",
-      "sort_note": "Low-edge entity adjacent to self."
-    },
-    {
       "id": "metro_times",
       "label": "Metro Times",
       "type": "entity",
@@ -2594,6 +2604,30 @@
       "role": "Attorney/counselor. Connected to Banks network in investigation files.",
       "class": "entity",
       "classification": "null"
+    },
+    {
+      "id": "ross",
+      "label": "Carlton Ross",
+      "type": "actor",
+      "tier": 5,
+      "role": "Carlton Ross. Right Turn Project Treasurer. PCA Administrative Specialist. Connected to dark money pipeline.",
+      "class": "entity",
+      "classification": "null",
+      "confidence": 0.45,
+      "opacity": 0.45,
+      "sort_pass": 3,
+      "sort_method": "cascade_null",
+      "sort_note": "Formation/governance connection to null (cascade)."
+    },
+    {
+      "id": "eaa",
+      "label": "Education Achievement Authority",
+      "type": "entity",
+      "entity_type": "Government entity",
+      "tier": 5,
+      "role": "Snyder/Engler emergency manager era. Took over 15 DPS schools 2012-2017. John Covington was chancellor. Widely considered a failure. FBI investigated. Connected to same Lansing network.",
+      "class": "entity",
+      "classification": "non-self"
     },
     {
       "id": "city_council",
@@ -2695,20 +2729,6 @@
       "sort_pass": 3,
       "sort_method": "insufficient",
       "sort_note": "Too few edges."
-    },
-    {
-      "id": "ross",
-      "label": "Carlton Ross",
-      "type": "actor",
-      "tier": 5,
-      "role": "Carlton Ross. Right Turn Project Treasurer. PCA Administrative Specialist. Connected to dark money pipeline.",
-      "class": "entity",
-      "classification": "null",
-      "confidence": 0.45,
-      "opacity": 0.45,
-      "sort_pass": 3,
-      "sort_method": "cascade_null",
-      "sort_note": "Formation/governance connection to null (cascade)."
     },
     {
       "id": "sc_bernstein",
@@ -5297,6 +5317,35 @@
       "classification": "null"
     },
     {
+      "id": "broad_foundation",
+      "label": "The Broad Foundation",
+      "type": "entity",
+      "entity_type": "Foundation",
+      "tier": 5,
+      "role": "Eli Broad's education foundation. Broad Superintendents Academy. Vitti is a Broad graduate. Pipeline for urban superintendent placements.",
+      "class": "entity",
+      "classification": "non-self"
+    },
+    {
+      "id": "epic_charter",
+      "label": "EPIC Charter Schools (Oklahoma parallel)",
+      "type": "entity",
+      "entity_type": "Structural parallel",
+      "tier": 5,
+      "role": "Oklahoma virtual charter scandal. $150M+ in fraud. Founder indicted. Same pattern: management company extracts per-pupil $ through LLC controlled by founder. National precedent for Banks/Purpose Group model.",
+      "class": "entity",
+      "classification": "non-self"
+    },
+    {
+      "id": "ben_carson",
+      "label": "Ben Carson",
+      "type": "actor",
+      "tier": 5,
+      "role": "HUD Secretary 2017-2021. Detroit native. Johns Hopkins neurosurgeon. Carson Scholars Fund. Detroit real estate connection. Same political network as DeVos, Engler.",
+      "class": "entity",
+      "classification": "non-self"
+    },
+    {
       "id": "bmf_entertainment",
       "label": "BMF Entertainment",
       "type": "entity",
@@ -5355,6 +5404,25 @@
       "role": "NYC power broker 1930s-1960s. Banks follows Moses playbook: wrote the legislation, controlled the money flow, made himself the sole pathway for federal dollars, used expert testimony to deflect.",
       "class": "entity",
       "classification": "non-self"
+    },
+    {
+      "id": "pa_cyber",
+      "label": "PA Cyber Charter School (parallel)",
+      "type": "entity",
+      "entity_type": "Structural parallel",
+      "tier": 5,
+      "role": "Pennsylvania's largest cyber charter. Founder Nick Trombetta convicted 2016. Extracted $8M through management companies. Same LLC extraction model as Banks.",
+      "class": "entity",
+      "classification": "non-self"
+    },
+    {
+      "id": "matinga_ragatz",
+      "label": "Matinga Ragatz",
+      "type": "actor",
+      "tier": 5,
+      "role": "Michigan charter school lobbyist. Testified at legislature. Connected to MAPSA/charter advocacy network.",
+      "class": "entity",
+      "classification": "null"
     }
   ],
   "edges": [
@@ -20638,6 +20706,582 @@
       "weight": 3,
       "note": "Back-scatter: 3 shared with us_doe: macdowell, mde, pca",
       "source_doc": "Back-scatter from scattered nodes"
+    },
+    {
+      "source": "betsy_devos",
+      "target": "afc",
+      "type": "founder",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "Co-founded American Federation for Children. National charter advocacy.",
+      "source_doc": "AFC website, Wikipedia"
+    },
+    {
+      "source": "betsy_devos",
+      "target": "glep",
+      "type": "founder",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "Founded Great Lakes Education Project. Michigan charter lobby.",
+      "source_doc": "GLEP website"
+    },
+    {
+      "source": "betsy_devos",
+      "target": "charter_law_1993",
+      "type": "political_architect",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "DeVos family was primary funder of MI charter school expansion.",
+      "source_doc": "Detroit Free Press, campaign finance"
+    },
+    {
+      "source": "betsy_devos",
+      "target": "mackinac_center",
+      "type": "funding",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "DeVos family foundation major donor to Mackinac Center.",
+      "source_doc": "ProPublica 990"
+    },
+    {
+      "source": "betsy_devos",
+      "target": "engler",
+      "type": "political_alliance",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "Engler signed charter law. DeVos funded expansion. Same network.",
+      "source_doc": "Michigan politics"
+    },
+    {
+      "source": "betsy_devos",
+      "target": "us_doe",
+      "type": "cabinet",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "Secretary of Education 2017-2021.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "glep",
+      "target": "mapsa",
+      "type": "charter_advocacy",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "Both lobby for charter school interests in Michigan.",
+      "source_doc": "Lobbying records"
+    },
+    {
+      "source": "glep",
+      "target": "charter_law_1993",
+      "type": "advocacy",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "GLEP lobbied against charter accountability amendments.",
+      "source_doc": "Michigan legislature"
+    },
+    {
+      "source": "broad_foundation",
+      "target": "vitti",
+      "type": "fellowship",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "Vitti is Broad Superintendents Academy graduate. Pipeline placement.",
+      "source_doc": "Broad website, LinkedIn"
+    },
+    {
+      "source": "broad_foundation",
+      "target": "dpscd",
+      "type": "superintendent_pipeline",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "Broad places superintendents in urban districts. Vitti placed at DPSCD.",
+      "source_doc": "Broad website"
+    },
+    {
+      "source": "epic_charter",
+      "target": "banks",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "Same model: founder controls LLC, extracts per-pupil $, management agreement.",
+      "source_doc": "DOJ, Oklahoma AG"
+    },
+    {
+      "source": "epic_charter",
+      "target": "purpose_group",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "Both use management company LLC to extract school revenue.",
+      "source_doc": "Public records"
+    },
+    {
+      "source": "pa_cyber",
+      "target": "banks",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "Trombetta convicted for same LLC extraction model Banks uses.",
+      "source_doc": "DOJ"
+    },
+    {
+      "source": "eaa",
+      "target": "engler",
+      "type": "political_creation",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "Emergency manager era education entity. Snyder/Engler network.",
+      "source_doc": "Executive order"
+    },
+    {
+      "source": "eaa",
+      "target": "dpscd",
+      "type": "institutional_predecessor",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "EAA took over DPS schools. Dissolved back to DPSCD.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "eaa",
+      "target": "fbi_detroit",
+      "type": "investigation",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "FBI investigated EAA. Same field office as Banks wiretap.",
+      "source_doc": "Detroit News"
+    },
+    {
+      "source": "ben_carson",
+      "target": "detroit_city",
+      "type": "hometown",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "Detroit native. Carson Scholars Fund.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "ben_carson",
+      "target": "betsy_devos",
+      "type": "cabinet_peers",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "Both Trump cabinet. Same political network.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "wayne_resa_audit",
+      "target": "wayne_resa",
+      "type": "function",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "Financial oversight function of Wayne RESA.",
+      "source_doc": "Wayne RESA"
+    },
+    {
+      "source": "wayne_resa_audit",
+      "target": "pca",
+      "type": "oversight_jurisdiction",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "Should audit PCA financials. Did they catch LLC extraction?",
+      "source_doc": "Wayne RESA"
+    },
+    {
+      "source": "wayne_resa_audit",
+      "target": "macdowell",
+      "type": "oversight_jurisdiction",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "Should audit MacDowell financials.",
+      "source_doc": "Wayne RESA"
+    },
+    {
+      "source": "skillman_foundation",
+      "target": "detroit_city",
+      "type": "philanthropy",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "Major Detroit youth/education funder.",
+      "source_doc": "Skillman website"
+    },
+    {
+      "source": "betsy_devos",
+      "target": "pca",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Wild back-scatter: 3 shared: afc, charter_law_1993, us_doe",
+      "source_doc": "Wild card back-scatter"
+    },
+    {
+      "source": "betsy_devos",
+      "target": "detroit_city",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Wild back-scatter: 3 shared: ben_carson, charter_law_1993, us_doe",
+      "source_doc": "Wild card back-scatter"
+    },
+    {
+      "source": "betsy_devos",
+      "target": "richard_mclellan",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Wild back-scatter: 3 shared: charter_law_1993, engler, mackinac_center",
+      "source_doc": "Wild card back-scatter"
+    },
+    {
+      "source": "betsy_devos",
+      "target": "cmu",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Wild back-scatter: 3 shared: charter_law_1993, engler, us_doe",
+      "source_doc": "Wild card back-scatter"
+    },
+    {
+      "source": "glep",
+      "target": "engler",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Wild back-scatter: 3 shared: betsy_devos, charter_law_1993, mackinac_center",
+      "source_doc": "Wild card back-scatter"
+    },
+    {
+      "source": "glep",
+      "target": "devos_foundation",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Wild back-scatter: 3 shared: afc, betsy_devos, mackinac_center",
+      "source_doc": "Wild card back-scatter"
+    },
+    {
+      "source": "wayne_resa_audit",
+      "target": "upl_dept",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Wild back-scatter: 3 shared: macdowell, pca, wayne_resa",
+      "source_doc": "Wild card back-scatter"
+    },
+    {
+      "source": "wayne_resa_audit",
+      "target": "mi_supreme_court",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Wild back-scatter: 3 shared: macdowell, pca, wayne_resa",
+      "source_doc": "Wild card back-scatter"
+    },
+    {
+      "source": "wayne_resa_audit",
+      "target": "glenn_page",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Wild back-scatter: 3 shared: macdowell, pca, wayne_resa",
+      "source_doc": "Wild card back-scatter"
+    },
+    {
+      "source": "wayne_resa_audit",
+      "target": "cmu",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Wild back-scatter: 3 shared: macdowell, pca, wayne_resa",
+      "source_doc": "Wild card back-scatter"
+    },
+    {
+      "source": "wayne_resa_audit",
+      "target": "alj_rice",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Wild back-scatter: 3 shared: macdowell, pca, wayne_resa",
+      "source_doc": "Wild card back-scatter"
+    },
+    {
+      "source": "wayne_resa_audit",
+      "target": "dpscd",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Wild back-scatter: 3 shared: macdowell, pca, wayne_resa",
+      "source_doc": "Wild card back-scatter"
+    },
+    {
+      "source": "wayne_resa_audit",
+      "target": "jtc",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Wild back-scatter: 3 shared: macdowell, pca, wayne_resa",
+      "source_doc": "Wild card back-scatter"
+    },
+    {
+      "source": "wayne_resa_audit",
+      "target": "agc",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Wild back-scatter: 3 shared: macdowell, pca, wayne_resa",
+      "source_doc": "Wild card back-scatter"
+    },
+    {
+      "source": "wayne_resa_audit",
+      "target": "plante_moran",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Wild back-scatter: 3 shared: macdowell, pca, wayne_resa",
+      "source_doc": "Wild card back-scatter"
+    },
+    {
+      "source": "wayne_resa_audit",
+      "target": "court_36th",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Wild back-scatter: 3 shared: macdowell, pca, wayne_resa",
+      "source_doc": "Wild card back-scatter"
+    },
+    {
+      "source": "wayne_resa_audit",
+      "target": "maleyko",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Wild back-scatter: 3 shared: macdowell, pca, wayne_resa",
+      "source_doc": "Wild card back-scatter"
+    },
+    {
+      "source": "wayne_resa_audit",
+      "target": "jolia_hill",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Wild back-scatter: 3 shared: macdowell, pca, wayne_resa",
+      "source_doc": "Wild card back-scatter"
+    },
+    {
+      "source": "wayne_resa_audit",
+      "target": "sbe",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Wild back-scatter: 3 shared: macdowell, pca, wayne_resa",
+      "source_doc": "Wild card back-scatter"
+    },
+    {
+      "source": "wayne_resa_audit",
+      "target": "beasley",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Wild back-scatter: 3 shared: macdowell, pca, wayne_resa",
+      "source_doc": "Wild card back-scatter"
+    },
+    {
+      "source": "wayne_resa_audit",
+      "target": "raphael_washington",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Wild back-scatter: 3 shared: macdowell, pca, wayne_resa",
+      "source_doc": "Wild card back-scatter"
+    },
+    {
+      "source": "wayne_resa_audit",
+      "target": "mccsa",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Wild back-scatter: 3 shared: macdowell, pca, wayne_resa",
+      "source_doc": "Wild card back-scatter"
+    },
+    {
+      "source": "wayne_resa_audit",
+      "target": "emu",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Wild back-scatter: 3 shared: macdowell, pca, wayne_resa",
+      "source_doc": "Wild card back-scatter"
+    },
+    {
+      "source": "wayne_resa_audit",
+      "target": "miller",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Wild back-scatter: 3 shared: macdowell, pca, wayne_resa",
+      "source_doc": "Wild card back-scatter"
+    },
+    {
+      "source": "wayne_resa_audit",
+      "target": "sbm",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Wild back-scatter: 3 shared: macdowell, pca, wayne_resa",
+      "source_doc": "Wild card back-scatter"
+    },
+    {
+      "source": "wayne_resa_audit",
+      "target": "wayne_state_law",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Wild back-scatter: 3 shared: macdowell, pca, wayne_resa",
+      "source_doc": "Wild card back-scatter"
+    },
+    {
+      "source": "wayne_resa_audit",
+      "target": "purpose_group",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Wild back-scatter: 3 shared: macdowell, pca, wayne_resa",
+      "source_doc": "Wild card back-scatter"
+    },
+    {
+      "source": "wayne_resa_audit",
+      "target": "court_3rd",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Wild back-scatter: 3 shared: macdowell, pca, wayne_resa",
+      "source_doc": "Wild card back-scatter"
+    },
+    {
+      "source": "wayne_resa_audit",
+      "target": "us_doe",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Wild back-scatter: 3 shared: macdowell, pca, wayne_resa",
+      "source_doc": "Wild card back-scatter"
+    },
+    {
+      "source": "wayne_resa_audit",
+      "target": "npe",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Wild back-scatter: 3 shared: macdowell, pca, wayne_resa",
+      "source_doc": "Wild card back-scatter"
+    },
+    {
+      "source": "wayne_resa_audit",
+      "target": "banks",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Wild back-scatter: 3 shared: macdowell, pca, wayne_resa",
+      "source_doc": "Wild card back-scatter"
+    },
+    {
+      "source": "wayne_resa_audit",
+      "target": "mde",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Wild back-scatter: 3 shared: macdowell, pca, wayne_resa",
+      "source_doc": "Wild card back-scatter"
+    },
+    {
+      "source": "wayne_resa_audit",
+      "target": "sc_cavanagh",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Wild back-scatter: 3 shared: macdowell, pca, wayne_resa",
+      "source_doc": "Wild card back-scatter"
+    },
+    {
+      "source": "wayne_resa_audit",
+      "target": "gay_dagnogo",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Wild back-scatter: 3 shared: macdowell, pca, wayne_resa",
+      "source_doc": "Wild card back-scatter"
+    },
+    {
+      "source": "wayne_resa_audit",
+      "target": "kym_worthy",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Wild back-scatter: 3 shared: macdowell, pca, wayne_resa",
+      "source_doc": "Wild card back-scatter"
+    },
+    {
+      "source": "wayne_resa_audit",
+      "target": "wayne_county",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Wild back-scatter: 3 shared: macdowell, pca, wayne_resa",
+      "source_doc": "Wild card back-scatter"
+    },
+    {
+      "source": "wayne_resa_audit",
+      "target": "yancey",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Wild back-scatter: 3 shared: macdowell, pca, wayne_resa",
+      "source_doc": "Wild card back-scatter"
+    },
+    {
+      "source": "wayne_resa_audit",
+      "target": "detroit_city",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Wild back-scatter: 3 shared: macdowell, pca, wayne_resa",
+      "source_doc": "Wild card back-scatter"
+    },
+    {
+      "source": "wayne_resa_audit",
+      "target": "dpd",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Wild back-scatter: 3 shared: macdowell, pca, wayne_resa",
+      "source_doc": "Wild card back-scatter"
+    },
+    {
+      "source": "wayne_resa_audit",
+      "target": "charter_law_1993",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Wild back-scatter: 3 shared: macdowell, pca, wayne_resa",
+      "source_doc": "Wild card back-scatter"
+    },
+    {
+      "source": "wayne_resa_audit",
+      "target": "crump_gibson",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Wild back-scatter: 3 shared: macdowell, pca, wayne_resa",
+      "source_doc": "Wild card back-scatter"
+    },
+    {
+      "source": "wayne_resa_audit",
+      "target": "vitti",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 3,
+      "note": "Wild back-scatter: 3 shared: macdowell, pca, wayne_resa",
+      "source_doc": "Wild card back-scatter"
     }
   ],
   "epistemic_grammar": {
