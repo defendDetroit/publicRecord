@@ -3,15 +3,6 @@
   "_source": "REVERSE SWEEP + EPITOPE LOCALITY SORT Oct 12 2026. Geographic expansion: 6 state nodes, cross-state pipeline edges. + LARA API dark money vehicle scan Oct 12.",
   "nodes": [
     {
-      "id": "agc",
-      "label": "Attorney Grievance Commission",
-      "type": "entity",
-      "entity_type": "Oversight body",
-      "note": "Attorney Grievance Commission. 755 W Big Beaver Rd Suite 2100, Troy MI 48084. (313) 961-6585. Investigative and prosecutorial arm of MI Supreme Court. 9 commissioners (6 lawyers, 3 non-lawyers), appointed by Supreme Court. Returned Banks filing Oct 1, pointed to State Bar UPL. Referral loop.",
-      "tier": 1,
-      "class": "entity"
-    },
-    {
       "id": "banks",
       "label": "Brian Roderick Banks",
       "type": "actor",
@@ -21,21 +12,39 @@
       "class": "entity"
     },
     {
-      "id": "detroit_city",
-      "label": "City of Detroit",
-      "type": "entity",
-      "entity_type": "Municipality",
-      "tier": 1,
-      "note": "300+ year old city. Mayor: Sheffield. Council President: Tate. Chief: Bettison.",
-      "class": "entity"
-    },
-    {
       "id": "holland",
       "label": "Joseph Holland Jr.",
       "type": "actor",
       "tier": 1,
       "role": "Financial gatekeeper",
       "page": "/network/actors/joseph-holland/",
+      "class": "entity"
+    },
+    {
+      "id": "sc_cavanagh",
+      "label": "Chief Justice Megan K. Cavanagh",
+      "type": "actor",
+      "tier": 1,
+      "classification": "supreme_court",
+      "role": "MI Supreme Court Chief Justice (since 2019, CJ since Apr 2025). UMich Engineering + Wayne State Law. LIAISON TO AGC AND JTC. Former AGC member. Former SBM Appellate Practice Section Chair. She is the Supreme Court's direct connection to BOTH oversight bodies that refuse to act.",
+      "class": "entity"
+    },
+    {
+      "id": "agc",
+      "label": "Attorney Grievance Commission",
+      "type": "entity",
+      "entity_type": "Oversight body",
+      "note": "Attorney Grievance Commission. 755 W Big Beaver Rd Suite 2100, Troy MI 48084. (313) 961-6585. Investigative and prosecutorial arm of MI Supreme Court. 9 commissioners (6 lawyers, 3 non-lawyers), appointed by Supreme Court. Returned Banks filing Oct 1, pointed to State Bar UPL. Referral loop.",
+      "tier": 1,
+      "class": "entity"
+    },
+    {
+      "id": "detroit_city",
+      "label": "City of Detroit",
+      "type": "entity",
+      "entity_type": "Municipality",
+      "tier": 1,
+      "note": "300+ year old city. Mayor: Sheffield. Council President: Tate. Chief: Bettison.",
       "class": "entity"
     },
     {
@@ -76,15 +85,6 @@
       "class": "entity"
     },
     {
-      "id": "sc_cavanagh",
-      "label": "Chief Justice Megan K. Cavanagh",
-      "type": "actor",
-      "tier": 1,
-      "classification": "supreme_court",
-      "role": "MI Supreme Court Chief Justice (since 2019, CJ since Apr 2025). UMich Engineering + Wayne State Law. LIAISON TO AGC AND JTC. Former AGC member. Former SBM Appellate Practice Section Chair. She is the Supreme Court's direct connection to BOTH oversight bodies that refuse to act.",
-      "class": "entity"
-    },
-    {
       "id": "adam_sabree",
       "label": "Judge Adam Sabree",
       "type": "actor",
@@ -119,43 +119,12 @@
       "class": "entity"
     },
     {
-      "id": "court_36th",
-      "label": "court 36th",
-      "type": "institution",
-      "tier": 2,
-      "class": "entity"
-    },
-    {
-      "id": "court_3rd",
-      "label": "court 3rd",
-      "type": "institution",
-      "tier": 2,
-      "class": "entity"
-    },
-    {
       "id": "crump_gibson",
       "label": "Jehan Crump-Gibson",
       "type": "actor",
       "tier": 2,
       "role": "Attorney representing Brian Banks (9 felony convictions) in custody case 26-108221-DC. ADB Hearing Panelist — sits on the body that disciplines attorneys while representing a 9-time felon at K-12 schools. GLLG principal. Confirmed in writing NOT retained for law enforcement matters. On Burris reply-all thread Oct 12. Previously assumed aligned — assumption revoked.",
       "classification": "enabler",
-      "class": "entity"
-    },
-    {
-      "id": "dpd",
-      "label": "Detroit Police Department",
-      "type": "entity",
-      "entity_type": "Law enforcement",
-      "tier": 2,
-      "note": "$455M budget. 2,500 officers. Chief: Todd Bettison. State's largest municipal PD.",
-      "class": "entity"
-    },
-    {
-      "id": "dpscd",
-      "label": "Detroit Public Schools Community District",
-      "type": "entity",
-      "entity_type": "Authorizer",
-      "tier": 2,
       "class": "entity"
     },
     {
@@ -172,17 +141,6 @@
       "type": "actor",
       "tier": 2,
       "role": "Attorney",
-      "class": "entity"
-    },
-    {
-      "id": "great_lakes_legal",
-      "label": "Great Lakes Legal Group PLLC",
-      "type": "entity",
-      "entity_type": "Law firm",
-      "lara_id": "802112914",
-      "tier": 2,
-      "classification": "enabler_firm",
-      "note": "GLLG PLLC. Jehan Crump-Gibson, principal. Firm represents Brian Banks in custody proceedings. Banks has 9 felony convictions at K-12 institutions. Firm's representation enables Banks' continued access to child through legal process.",
       "class": "entity"
     },
     {
@@ -218,14 +176,6 @@
       "type": "actor",
       "tier": 2,
       "role": "Inner Link Graphics owner",
-      "class": "entity"
-    },
-    {
-      "id": "mde",
-      "label": "Michigan Department of Education",
-      "type": "entity",
-      "entity_type": "State agency",
-      "tier": 2,
       "class": "entity"
     },
     {
@@ -271,16 +221,6 @@
       "class": "entity"
     },
     {
-      "id": "purpose_foundation",
-      "label": "Purpose Foundation",
-      "type": "entity",
-      "page": "/network/entities/purpose-foundation/",
-      "entity_type": "Private 501(c)(3)",
-      "lara_id": "803294855",
-      "tier": 2,
-      "class": "entity"
-    },
-    {
       "id": "ross",
       "label": "Carlton Ross",
       "type": "actor",
@@ -295,24 +235,6 @@
       "tier": 2,
       "role": "Judicial cover",
       "page": "/network/judges/aliyah-sabree/",
-      "class": "entity"
-    },
-    {
-      "id": "sbe",
-      "label": "Michigan State Board of Education",
-      "type": "entity",
-      "entity_type": "Oversight body",
-      "note": "8 elected members. Constitutional (Art VIII §3). Oversees authorizers. Meets Oct 13, 2026.",
-      "tier": 2,
-      "class": "entity"
-    },
-    {
-      "id": "sbm",
-      "label": "State Bar of Michigan",
-      "type": "entity",
-      "entity_type": "Regulatory body",
-      "note": "306 Townsend St, Lansing MI 48933. (517) 346-6300. Mandatory bar association. Houses UPL Dept. Board of Commissioners governs. UPL closed file Sep 30 pointing to AGC. AGC returned filing Oct 1 pointing to UPL. Referral loop.",
-      "tier": 2,
       "class": "entity"
     },
     {
@@ -387,15 +309,6 @@
       "class": "entity"
     },
     {
-      "id": "upl_dept",
-      "label": "State Bar UPL Department",
-      "type": "entity",
-      "entity_type": "Oversight body",
-      "note": "State Bar of Michigan UPL Department. (517) 346-6305. upl@michbar.org. 306 Townsend St, Lansing. Standing Committee + Department. Closed Banks file Sep 30. Pointed to AGC. AGC pointed back Oct 1. Referral loop. Committee: 12 members + 4 advisors. Chair: Courtney Cadotte.",
-      "tier": 2,
-      "class": "entity"
-    },
-    {
       "id": "v_hall",
       "label": "V. Hall",
       "type": "actor",
@@ -410,6 +323,96 @@
       "tier": 2,
       "role": "Judicial cover â€” mentor",
       "page": "/network/judges/vonda-evans/",
+      "class": "entity"
+    },
+    {
+      "id": "wilk",
+      "label": "W. Alan Wilk",
+      "type": "actor",
+      "tier": 2,
+      "role": "Dark money architect",
+      "class": "entity"
+    },
+    {
+      "id": "yancey",
+      "label": "Judge Tenisha Yancey",
+      "type": "actor",
+      "tier": 2,
+      "role": "Judicial cover",
+      "page": "/network/judges/tenisha-yancey/",
+      "class": "entity"
+    },
+    {
+      "id": "dpd",
+      "label": "Detroit Police Department",
+      "type": "entity",
+      "entity_type": "Law enforcement",
+      "tier": 2,
+      "note": "$455M budget. 2,500 officers. Chief: Todd Bettison. State's largest municipal PD.",
+      "class": "entity"
+    },
+    {
+      "id": "dpscd",
+      "label": "Detroit Public Schools Community District",
+      "type": "entity",
+      "entity_type": "Authorizer",
+      "tier": 2,
+      "class": "entity"
+    },
+    {
+      "id": "great_lakes_legal",
+      "label": "Great Lakes Legal Group PLLC",
+      "type": "entity",
+      "entity_type": "Law firm",
+      "lara_id": "802112914",
+      "tier": 2,
+      "classification": "enabler_firm",
+      "note": "GLLG PLLC. Jehan Crump-Gibson, principal. Firm represents Brian Banks in custody proceedings. Banks has 9 felony convictions at K-12 institutions. Firm's representation enables Banks' continued access to child through legal process.",
+      "class": "entity"
+    },
+    {
+      "id": "mde",
+      "label": "Michigan Department of Education",
+      "type": "entity",
+      "entity_type": "State agency",
+      "tier": 2,
+      "class": "entity"
+    },
+    {
+      "id": "purpose_foundation",
+      "label": "Purpose Foundation",
+      "type": "entity",
+      "page": "/network/entities/purpose-foundation/",
+      "entity_type": "Private 501(c)(3)",
+      "lara_id": "803294855",
+      "tier": 2,
+      "class": "entity"
+    },
+    {
+      "id": "sbe",
+      "label": "Michigan State Board of Education",
+      "type": "entity",
+      "entity_type": "Oversight body",
+      "note": "8 elected members. Constitutional (Art VIII §3). Oversees authorizers. Meets Oct 13, 2026.",
+      "tier": 2,
+      "class": "entity"
+    },
+    {
+      "id": "sbm",
+      "label": "State Bar of Michigan",
+      "type": "entity",
+      "entity_type": "Regulatory body",
+      "note": "306 Townsend St, Lansing MI 48933. (517) 346-6300. Mandatory bar association. Houses UPL Dept. Board of Commissioners governs. UPL closed file Sep 30 pointing to AGC. AGC returned filing Oct 1 pointing to UPL. Referral loop.",
+      "tier": 2,
+      "class": "entity"
+    },
+    {
+      "id": "upl_dept",
+      "label": "State Bar UPL Department",
+      "type": "entity",
+      "entity_type": "Oversight body",
+      "note": "State Bar of Michigan UPL Department. (517) 346-6305. upl@michbar.org. 306 Townsend St, Lansing. Standing Committee + Department. Closed Banks file Sep 30. Pointed to AGC. AGC pointed back Oct 1. Referral loop. Committee: 12 members + 4 advisors. Chair: Courtney Cadotte.",
+      "tier": 2,
       "class": "entity"
     },
     {
@@ -431,29 +434,17 @@
       "class": "entity"
     },
     {
-      "id": "wilk",
-      "label": "W. Alan Wilk",
-      "type": "actor",
+      "id": "court_36th",
+      "label": "court 36th",
+      "type": "institution",
       "tier": 2,
-      "role": "Dark money architect",
       "class": "entity"
     },
     {
-      "id": "yancey",
-      "label": "Judge Tenisha Yancey",
-      "type": "actor",
+      "id": "court_3rd",
+      "label": "court 3rd",
+      "type": "institution",
       "tier": 2,
-      "role": "Judicial cover",
-      "page": "/network/judges/tenisha-yancey/",
-      "class": "entity"
-    },
-    {
-      "label": "American Federation for Children",
-      "entity_type": "Advocacy org",
-      "id": "afc",
-      "type": "entity",
-      "role": "School choice advocacy",
-      "tier": 3,
       "class": "entity"
     },
     {
@@ -529,12 +520,38 @@
       "class": "entity"
     },
     {
+      "id": "archer",
+      "label": "Dennis Archer",
+      "type": "actor",
+      "tier": 3,
+      "role": "Mayor 1994-2001",
+      "class": "entity"
+    },
+    {
       "id": "barrett",
       "label": "Rep. Tom Barrett",
       "type": "actor",
       "tier": 3,
       "role": "US House MI-7",
       "class": "entity"
+    },
+    {
+      "id": "beasley",
+      "label": "Dr. Chalena Yancey Beasley",
+      "type": "actor",
+      "tier": 3,
+      "role": "Founding School Leader, PCA. PhD Wayne State ELPS 2023. 29yr DPSCD veteran. Principal Bunche Prep. NBCT. BS WMU, MA Marygrove, PhD Wayne State. Sister of Judge Tenisha Yancey. Husband Ahmed Beasley. Most credentialed person in Banks enterprise.",
+      "class": "actor",
+      "classification": "enabler"
+    },
+    {
+      "id": "bert_johnson",
+      "label": "Sen. Bert Johnson",
+      "type": "actor",
+      "tier": 3,
+      "role": "Former MI State Senator. CHOJLF. CBC Foundation. Convicted 2022 bribery. Banks political ally.",
+      "classification": "bad_actor",
+      "class": "actor"
     },
     {
       "id": "bullington",
@@ -601,14 +618,6 @@
       "class": "entity"
     },
     {
-      "id": "dykema",
-      "label": "Dykema Gossett",
-      "type": "entity",
-      "entity_type": "Law firm",
-      "tier": 3,
-      "class": "entity"
-    },
-    {
       "id": "engler",
       "label": "Gov. John Engler",
       "type": "actor",
@@ -640,6 +649,14 @@
       "tier": 3,
       "role": "Political enabler â€” charter authorizer",
       "page": "/network/political/sherry-gay-dagnogo/",
+      "class": "entity"
+    },
+    {
+      "id": "goetz",
+      "label": "Michael V. Goetz",
+      "type": "actor",
+      "tier": 3,
+      "role": "AGC Grievance Administrator (Sep 2019). Former Senior AAG, Criminal Div Drug Interdiction. MSU 1983, DCL 1988.",
       "class": "entity"
     },
     {
@@ -680,6 +697,14 @@
       "type": "actor",
       "tier": 3,
       "role": "City Council D2 + PCA Board",
+      "class": "entity"
+    },
+    {
+      "id": "jolia_hill",
+      "label": "Dr. Jolia Hill",
+      "type": "actor",
+      "tier": 3,
+      "role": "Director, EMU Charter Schools Office. Terminated DPSA charter Jun 30, 2026. MCCSA Treasurer.",
       "class": "entity"
     },
     {
@@ -755,6 +780,15 @@
       "class": "entity"
     },
     {
+      "id": "keith_stallworth",
+      "label": "Keith Stallworth",
+      "type": "actor",
+      "tier": 3,
+      "role": "Stallworth dynasty. State Rep HD-6. Banks campaign ally. Political fixer.",
+      "classification": "enabler",
+      "class": "actor"
+    },
+    {
       "id": "kym_worthy",
       "label": "Kym L. Worthy",
       "type": "actor",
@@ -771,6 +805,15 @@
       "class": "entity"
     },
     {
+      "id": "maleyko",
+      "label": "Dr. Glenn Maleyko",
+      "type": "actor",
+      "tier": 3,
+      "role": "MI Superintendent of Public Instruction (Dec 2025). SBE Chair. PhD Wayne State ELPS (same dept as Beasley/Hill). Former Dearborn Supt.",
+      "classification": "oversight",
+      "class": "actor"
+    },
+    {
       "id": "mckinney",
       "label": "Billy McKinney",
       "type": "actor",
@@ -780,29 +823,11 @@
       "class": "entity"
     },
     {
-      "label": "MSU College of Law",
-      "id": "msu_law",
-      "type": "institution",
-      "role": "Banks claims J.D. 2010. Sabree graduated same year.",
-      "tier": 3,
-      "class": "entity"
-    },
-    {
       "id": "pugh",
       "label": "Charles Pugh",
       "type": "actor",
       "tier": 3,
       "role": "Former City Council President",
-      "class": "entity"
-    },
-    {
-      "id": "purpose_group",
-      "label": "The Purpose Group, LLC",
-      "type": "entity",
-      "page": "/network/entities/purpose-group-llc/",
-      "entity_type": "Charter Management Organization (CMO)",
-      "lara_id": "803295082",
-      "tier": 3,
       "class": "entity"
     },
     {
@@ -933,6 +958,14 @@
       "class": "entity"
     },
     {
+      "id": "vitti",
+      "label": "Dr. Nikolai Vitti",
+      "type": "actor",
+      "tier": 3,
+      "role": "DPSCD Superintendent. PCA authorized under his watch (Jul 2025).",
+      "class": "entity"
+    },
+    {
       "id": "wells_stallworth",
       "label": "Nicole Wells-Stallworth",
       "type": "actor",
@@ -949,19 +982,115 @@
       "class": "entity"
     },
     {
+      "label": "American Federation for Children",
+      "entity_type": "Advocacy org",
+      "id": "afc",
+      "type": "entity",
+      "role": "School choice advocacy",
+      "tier": 3,
+      "class": "entity"
+    },
+    {
+      "id": "ag_charitable_trust",
+      "label": "AG Charitable Trust Section",
+      "type": "entity",
+      "tier": 3,
+      "role": "MI AG Charitable Trust Section. Registers/oversees 13,000+ charitable orgs. RESPONDED 12:19 PM Oct 12 — complaint received, pending review, 30-45 days. ct_email@michigan.gov. Phone 517-335-7571.",
+      "classification": "oversight",
+      "class": "entity"
+    },
+    {
+      "id": "charter_law_1993",
+      "label": "PA 362 — Michigan Charter School Law (1993)",
+      "type": "entity",
+      "entity_type": "Legislation",
+      "note": "Public Act 362, signed Jan 14 1994 (passed Dec 3 1993). Part 6A Revised School Code. Authorized universities, community colleges, ISDs, and local districts to charter PSAs. Constitutional challenge 1994, Supreme Court upheld 1997. THE law that enables everything: CMU authorization, MacDowell, PCA, all of it.",
+      "tier": 3,
+      "class": "entity"
+    },
+    {
+      "id": "dykema",
+      "label": "Dykema Gossett",
+      "type": "entity",
+      "entity_type": "Law firm",
+      "tier": 3,
+      "class": "entity"
+    },
+    {
+      "id": "mde_prof_practice",
+      "label": "MDE Professional Practice",
+      "type": "entity",
+      "tier": 3,
+      "role": "MDE Office of Educator Excellence — Professional Practice unit. Criminal convictions + K-12 employment. Fingerprinting. Revocations. RESPONDED 12:19 PM Oct 12. MDE-Professional-Practice@Michigan.gov. Director: Kelli Brozanski (brozanskik@michigan.gov).",
+      "classification": "oversight",
+      "class": "entity"
+    },
+    {
+      "id": "msu",
+      "label": "Michigan State University",
+      "type": "entity",
+      "entity_type": "University",
+      "note": "East Lansing. Appears in bios of: Goetz (AGC, BS 1983), Mazur (AGC, BA), Frazee (AGC, BA), Bullington (AGC, BA), Uhuru (AGC, BS magna cum laude). MSU College of Law is separate node (msu_law).",
+      "tier": 3,
+      "class": "entity"
+    },
+    {
+      "id": "npe",
+      "label": "Network for Public Education Fund",
+      "type": "entity",
+      "entity_type": "Advocacy organization",
+      "note": "EIN 35-2532243. $1.4M assets. $314K rev (2024). 225 E 36th St Apt 10-O, NYC. 1.9 employees. Founded by Diane Ravitch 2013.",
+      "tier": 3,
+      "class": "entity"
+    },
+    {
+      "id": "purpose_group",
+      "label": "The Purpose Group, LLC",
+      "type": "entity",
+      "page": "/network/entities/purpose-group-llc/",
+      "entity_type": "Charter Management Organization (CMO)",
+      "lara_id": "803295082",
+      "tier": 3,
+      "class": "entity"
+    },
+    {
+      "label": "The 74 (The Seventy Four)",
+      "entity_type": "Education news site",
+      "id": "the_74",
+      "type": "entity",
+      "role": "Walton-funded education journalism",
+      "tier": 3,
+      "class": "entity"
+    },
+    {
+      "id": "state_mi",
+      "label": "Michigan",
+      "type": "geography",
+      "tier": 3,
+      "role": "Target state — all schools, all courts, all actors",
+      "class": "entity"
+    },
+    {
+      "id": "ag_office",
+      "label": "ag office",
+      "type": "institution",
+      "tier": 3,
+      "class": "entity"
+    },
+    {
+      "label": "MSU College of Law",
+      "id": "msu_law",
+      "type": "institution",
+      "role": "Banks claims J.D. 2010. Sabree graduated same year.",
+      "tier": 3,
+      "class": "entity"
+    },
+    {
       "id": "aaron_keel",
       "label": "Aaron Keel",
       "type": "actor",
       "tier": 4,
       "role": "MASB â†’ House Dem â†’ Treasury â†’ Dykema",
-      "class": "entity"
-    },
-    {
-      "id": "afc_growth",
-      "label": "AFC Growth Fund",
-      "type": "entity",
-      "tier": 4,
-      "role": "501(c)(3) arm of AFC — $12M/yr (EIN 52-2111508)",
       "class": "entity"
     },
     {
@@ -1091,6 +1220,15 @@
       "class": "entity"
     },
     {
+      "id": "ahmed_beasley",
+      "label": "Ahmed Beasley",
+      "type": "actor",
+      "tier": 4,
+      "role": "SVP Plante Moran Realpoint. K-12 construction management. 17yr Barton Malow (K-12 projects). BS Civil Engineering, Lawrence Tech. Husband of Dr. Chalena Beasley (PCA School Leader). Mentors at-risk youth via Winning Futures. Wife runs a school. He builds schools for Michigan's largest K-12 districts.",
+      "classification": "person_of_interest",
+      "class": "actor"
+    },
+    {
       "id": "alan_young",
       "label": "Alan C. Young CPA",
       "type": "actor",
@@ -1107,12 +1245,13 @@
       "class": "entity"
     },
     {
-      "id": "anchor_rock_found",
-      "label": "Anchor Rock Foundation",
-      "type": "entity",
+      "id": "alma_stallworth",
+      "label": "Alma Stallworth",
+      "type": "actor",
       "tier": 4,
-      "role": "Dissolved nonprofit — Miller was Board Chair (LARA 802394934)",
-      "class": "entity"
+      "role": "Stallworth dynasty matriarch. Former State Rep HD-6. Mother of Keith, Thomas. CHOJLF connection.",
+      "classification": "dynasty",
+      "class": "actor"
     },
     {
       "id": "archer_jr",
@@ -1121,23 +1260,6 @@
       "tier": 4,
       "role": "CitizenDetroit Director â€” dynasty",
       "class": "entity"
-    },
-    {
-      "id": "ars_holdings",
-      "label": "ARS Holdings LLC",
-      "type": "entity",
-      "tier": 4,
-      "role": "Holding company for Anchor Rock (LARA 802091174)",
-      "class": "entity"
-    },
-    {
-      "id": "beasley",
-      "label": "Dr. Chalena Yancey Beasley",
-      "type": "actor",
-      "tier": 3,
-      "role": "Founding School Leader, PCA. PhD Wayne State ELPS 2023. 29yr DPSCD veteran. Principal Bunche Prep. NBCT. BS WMU, MA Marygrove, PhD Wayne State. Sister of Judge Tenisha Yancey. Husband Ahmed Beasley. Most credentialed person in Banks enterprise.",
-      "class": "actor",
-      "classification": "enabler"
     },
     {
       "id": "cameron_coleman",
@@ -1180,12 +1302,13 @@
       "class": "entity"
     },
     {
-      "id": "gl_vision",
-      "label": "Great Lakes Vision for Evangelism",
-      "type": "entity",
+      "id": "gasper_fiore",
+      "label": "Gasper Fiore",
+      "type": "actor",
       "tier": 4,
-      "role": "Religious org at 1968 Severn Rd (LARA 802210862)",
-      "class": "entity"
+      "role": "Detroit corruption figure. Wiretap target list. Federal investigation.",
+      "classification": "bad_actor",
+      "class": "actor"
     },
     {
       "id": "glenn_page",
@@ -1193,14 +1316,6 @@
       "type": "actor",
       "tier": 4,
       "role": "JTC Interim ED (Feb 2026). Returned from retirement. Former Wayne County asst prosecutor. Bar 1980.",
-      "class": "entity"
-    },
-    {
-      "id": "goetz",
-      "label": "Michael V. Goetz",
-      "type": "actor",
-      "tier": 3,
-      "role": "AGC Grievance Administrator (Sep 2019). Former Senior AAG, Criminal Div Drug Interdiction. MSU 1983, DCL 1988.",
       "class": "entity"
     },
     {
@@ -1379,6 +1494,15 @@
       "class": "entity"
     },
     {
+      "id": "lenhoff",
+      "label": "Dr. Sarah Winchell Lenhoff",
+      "type": "actor",
+      "tier": 4,
+      "role": "Wayne State prof, ELPS. Director Detroit PEER. Beasley dissertation committee. Charter school/choice researcher. Skillman funded.",
+      "classification": "academic",
+      "class": "actor"
+    },
+    {
       "id": "mccastle",
       "label": "Gerald McCastle",
       "type": "actor",
@@ -1395,12 +1519,13 @@
       "class": "entity"
     },
     {
-      "id": "of_the_light",
-      "label": "Of The Light Ventures LLC",
-      "type": "entity",
+      "id": "ross_jones",
+      "label": "Ross Jones",
+      "type": "actor",
       "tier": 4,
-      "role": "Mystery entity — Zeeland, filed 4 mo before Purpose Group (LARA 803248859)",
-      "class": "entity"
+      "role": "WXYZ (Ch 7) investigative journalist. Covered Banks/charter school story. ross.jones@wxyz.com.",
+      "classification": "press",
+      "class": "actor"
     },
     {
       "id": "sbm_clay",
@@ -1427,6 +1552,22 @@
       "tier": 4,
       "role": "MDE Analyst",
       "page": "/actors/katie-schmiedeknecht/",
+      "class": "entity"
+    },
+    {
+      "id": "snyder_nikki",
+      "label": "Nikki Snyder",
+      "type": "actor",
+      "tier": 4,
+      "role": "SBE member (R-Goodrich). Confirmed positive actor. Responded 13 min. EMU grad. Nurse. Disability advocate.",
+      "class": "entity"
+    },
+    {
+      "id": "thomas_ryan",
+      "label": "Thomas J. Ryan, Esq.",
+      "type": "actor",
+      "tier": 4,
+      "role": "JTC Commission Chair (2026). Attorney.",
       "class": "entity"
     },
     {
@@ -1528,11 +1669,275 @@
       "class": "entity"
     },
     {
-      "id": "vitti",
-      "label": "Dr. Nikolai Vitti",
+      "id": "virgil_smith",
+      "label": "Sen. Virgil Smith",
       "type": "actor",
-      "tier": 3,
-      "role": "DPSCD Superintendent. PCA authorized under his watch (Jul 2025).",
+      "tier": 4,
+      "role": "Former MI State Senator. Convicted shooting at ex-wife's car 2015. Detroit political network.",
+      "classification": "bad_actor",
+      "class": "actor"
+    },
+    {
+      "id": "advance_detroit",
+      "label": "Advance Detroit",
+      "type": "entity",
+      "tier": 4,
+      "role": "Political committee. Detroit elections. Banks campaign infrastructure.",
+      "classification": "entity",
+      "class": "entity"
+    },
+    {
+      "id": "afc_growth",
+      "label": "AFC Growth Fund",
+      "type": "entity",
+      "tier": 4,
+      "role": "501(c)(3) arm of AFC — $12M/yr (EIN 52-2111508)",
+      "class": "entity"
+    },
+    {
+      "id": "ag_cod",
+      "label": "AG Corporate Oversight Division",
+      "type": "entity",
+      "entity_type": "Oversight body",
+      "note": "Charitable trust violations, consumer fraud, nonprofit self-dealing. Acting Chief: Darrin Fowler (P53464).",
+      "tier": 4,
+      "class": "entity"
+    },
+    {
+      "id": "anchor_rock_found",
+      "label": "Anchor Rock Foundation",
+      "type": "entity",
+      "tier": 4,
+      "role": "Dissolved nonprofit — Miller was Board Chair (LARA 802394934)",
+      "class": "entity"
+    },
+    {
+      "id": "ars_holdings",
+      "label": "ARS Holdings LLC",
+      "type": "entity",
+      "tier": 4,
+      "role": "Holding company for Anchor Rock (LARA 802091174)",
+      "class": "entity"
+    },
+    {
+      "id": "baker_college",
+      "label": "Baker College",
+      "type": "entity",
+      "tier": 4,
+      "role": "Multiple Banks-network actors credentialed here. Miller, Moreland connections.",
+      "classification": "institution",
+      "class": "entity"
+    },
+    {
+      "id": "banks_living_trust",
+      "label": "Brian Banks Living Trust",
+      "type": "entity",
+      "tier": 4,
+      "role": "Banks personal trust. Property/asset holding vehicle. GPW property.",
+      "classification": "entity",
+      "class": "entity"
+    },
+    {
+      "id": "black_caucus_found",
+      "label": "Black Caucus Foundation of MI",
+      "type": "entity",
+      "tier": 4,
+      "role": "CBC Foundation. Stallworth dynasty. Bert Johnson. Political network hub.",
+      "classification": "entity",
+      "class": "entity"
+    },
+    {
+      "id": "bunche_prep",
+      "label": "Bunche Preparatory Academy",
+      "type": "entity",
+      "tier": 4,
+      "role": "DPSCD K-8. Beasley was principal 2021-2025. Ralph J. Bunche school.",
+      "classification": "institution",
+      "class": "entity"
+    },
+    {
+      "id": "cmu",
+      "label": "Central Michigan University",
+      "type": "entity",
+      "entity_type": "Charter authorizer",
+      "tier": 4,
+      "class": "entity"
+    },
+    {
+      "id": "detroit_peer",
+      "label": "Detroit PEER",
+      "type": "entity",
+      "tier": 4,
+      "role": "Detroit Partnership for Education Equity & Research. Wayne State. DPSCD data-sharing. Skillman + Spencer funded.",
+      "classification": "research",
+      "class": "entity"
+    },
+    {
+      "label": "Dick & Betsy DeVos Family Foundation",
+      "entity_type": "Private foundation",
+      "id": "devos_foundation",
+      "type": "entity",
+      "role": "Charter school funder",
+      "tier": 4,
+      "class": "entity"
+    },
+    {
+      "id": "dykema_federal_pac",
+      "label": "Dykema Gossett Federal PAC",
+      "type": "entity",
+      "entity_type": "Federal PAC",
+      "fec_id": "C00342113",
+      "tier": 4,
+      "class": "entity"
+    },
+    {
+      "id": "emu",
+      "label": "Eastern Michigan University",
+      "type": "entity",
+      "entity_type": "Charter authorizer",
+      "tier": 4,
+      "class": "entity"
+    },
+    {
+      "id": "gl_vision",
+      "label": "Great Lakes Vision for Evangelism",
+      "type": "entity",
+      "tier": 4,
+      "role": "Religious org at 1968 Severn Rd (LARA 802210862)",
+      "class": "entity"
+    },
+    {
+      "id": "mackinac_center",
+      "label": "Mackinac Center for Public Policy",
+      "type": "entity",
+      "tier": 4,
+      "role": "DeVos-funded policy org. Pro-charter. School choice advocacy.",
+      "classification": "entity",
+      "class": "entity"
+    },
+    {
+      "id": "metro_property",
+      "label": "Metro Property Group",
+      "type": "entity",
+      "tier": 4,
+      "role": "Real estate group. Eric Sabree was counsel. Adam Sabree connection. Detroit RE corruption.",
+      "classification": "entity",
+      "class": "entity"
+    },
+    {
+      "id": "nuvision_inc",
+      "label": "Nu Vision Media, Inc.",
+      "type": "entity",
+      "entity_type": "Media company",
+      "note": "Roland Martin's for-profit media company. Produces #RolandMartinUnfiltered. CEO: Roland Martin. Received $145K from Virginia PACs. Texas address.",
+      "tier": 4,
+      "class": "entity"
+    },
+    {
+      "id": "of_the_light",
+      "label": "Of The Light Ventures LLC",
+      "type": "entity",
+      "tier": 4,
+      "role": "Mystery entity — Zeeland, filed 4 mo before Purpose Group (LARA 803248859)",
+      "class": "entity"
+    },
+    {
+      "id": "peninsula_fund",
+      "label": "Peninsula Fund",
+      "type": "entity",
+      "entity_type": "Dark money vehicle",
+      "role": " (LARA 802004683)",
+      "tier": 4,
+      "class": "entity"
+    },
+    {
+      "id": "perkins_law",
+      "label": "Perkins Law Group",
+      "type": "entity",
+      "tier": 4,
+      "role": "Todd Perkins' law firm. Banks' personal attorney. Same family as Judge Sean Perkins (36th DC).",
+      "classification": "entity",
+      "class": "entity"
+    },
+    {
+      "id": "plante_moran",
+      "label": "Plante Moran Realpoint",
+      "type": "entity",
+      "tier": 4,
+      "role": "Construction/program management firm. Ahmed Beasley is SVP. K-12 public sector clients. Southfield, MI.",
+      "classification": "institution",
+      "class": "entity"
+    },
+    {
+      "id": "promise_schools",
+      "label": "Promise Schools / Detroit Promise",
+      "type": "entity",
+      "tier": 4,
+      "role": "Charter school network. Banks adjacent. Detroit charter ecosystem.",
+      "classification": "entity",
+      "class": "entity"
+    },
+    {
+      "id": "right_turn",
+      "label": "Right Turn Project",
+      "type": "entity",
+      "entity_type": "Dissolved nonprofit",
+      "lara_id": "800936257",
+      "tier": 4,
+      "class": "entity"
+    },
+    {
+      "id": "scbc_tour",
+      "label": "School Choice Is The Black Choice Tour",
+      "type": "entity",
+      "entity_type": "Campaign",
+      "note": "10-city tour. Co-produced by Nu Vision Media + The 74. National partners: AFC, EdChoice, ExcelinEd, NACPS, UNCF, Walton. Walton gave $350K (2020).",
+      "tier": 4,
+      "class": "entity"
+    },
+    {
+      "id": "sdj",
+      "label": "Save Detroit Jobs",
+      "type": "entity",
+      "entity_type": "Dark money vehicle",
+      "lara_id": "802002459",
+      "tier": 4,
+      "class": "entity"
+    },
+    {
+      "id": "ud_mercy_law",
+      "label": "University of Detroit Mercy School of Law",
+      "type": "entity",
+      "entity_type": "Law school",
+      "note": "Detroit. Ryan (JTC Chair, JD), Willis (AGC Commissioner, JD 2002), Linville (AGC, JD). Detroit College of Law (Goetz JD 1988) merged into MSU Law.",
+      "tier": 4,
+      "class": "entity"
+    },
+    {
+      "id": "wayne_co_pa",
+      "label": "Wayne County Prosecutor's Office",
+      "type": "entity",
+      "entity_type": "Government office",
+      "note": "Glenn Page's former employer. Prosecutors.",
+      "tier": 4,
+      "class": "entity"
+    },
+    {
+      "id": "wayne_resa",
+      "label": "Wayne RESA",
+      "type": "entity",
+      "tier": 4,
+      "role": "Wayne Regional Educational Service Agency. Technical assistance to 33 districts + 100 PSAs. Beasley and Hill both alumni.",
+      "classification": "institution",
+      "class": "entity"
+    },
+    {
+      "id": "wayne_state_law",
+      "label": "Wayne State University Law School",
+      "type": "entity",
+      "entity_type": "Law school",
+      "note": "Detroit. Dawn Ison (JTC Commissioner, JD). Detroit legal pipeline.",
+      "tier": 4,
       "class": "entity"
     },
     {
@@ -1541,6 +1946,133 @@
       "type": "entity",
       "tier": 4,
       "role": "Dissolved — name = Whitlow + Banks ($8,500 payee) (LARA 802085022)",
+      "class": "entity"
+    },
+    {
+      "id": "wmu",
+      "label": "Western Michigan University",
+      "type": "entity",
+      "entity_type": "University",
+      "note": "Kalamazoo. Robinson (AGC Vice-Chair, BA PoliSci/CrimJ), Willis (AGC, BA 1997).",
+      "tier": 4,
+      "class": "entity"
+    },
+    {
+      "label": "Pahara Institute",
+      "id": "pahara_institute",
+      "type": "institution",
+      "role": "Charter leadership fellowship program",
+      "tier": 4,
+      "class": "entity"
+    },
+    {
+      "id": "perkins_d",
+      "label": "perkins d",
+      "type": "institution",
+      "tier": 4,
+      "class": "entity"
+    },
+    {
+      "id": "perkins_sean",
+      "label": "perkins sean",
+      "type": "institution",
+      "tier": 4,
+      "class": "entity"
+    },
+    {
+      "id": "bing",
+      "label": "Dave Bing",
+      "type": "actor",
+      "tier": 5,
+      "role": "Mayor 2009-2013",
+      "class": "entity"
+    },
+    {
+      "id": "coleman_young",
+      "label": "Coleman Young",
+      "type": "actor",
+      "tier": 5,
+      "role": "Mayor 1974-1993",
+      "class": "entity"
+    },
+    {
+      "label": "Diane Tavenner",
+      "id": "diane_tavenner",
+      "type": "actor",
+      "tier": 5,
+      "role": "Pahara Board Chair / Summit Public Schools founder",
+      "class": "entity"
+    },
+    {
+      "label": "Brendan Kelly",
+      "id": "kelly_emu",
+      "type": "actor",
+      "tier": 5,
+      "role": "EMU President (2026-present)",
+      "class": "entity"
+    },
+    {
+      "label": "Kriste Dragon",
+      "id": "kriste_dragon",
+      "type": "actor",
+      "tier": 5,
+      "role": "Pahara Institute CEO ($490K comp)",
+      "class": "entity"
+    },
+    {
+      "label": "Neil MacKinnon",
+      "id": "mackinnon",
+      "type": "actor",
+      "tier": 5,
+      "role": "CMU President (2024-present)",
+      "class": "entity"
+    },
+    {
+      "label": "Philomena Mantella",
+      "id": "mantella",
+      "type": "actor",
+      "tier": 5,
+      "role": "GVSU President",
+      "class": "entity"
+    },
+    {
+      "label": "Corey Northrop",
+      "id": "northrop",
+      "type": "actor",
+      "tier": 5,
+      "role": "Executive Director, CMU Center for Charter Schools",
+      "class": "entity"
+    },
+    {
+      "id": "od_banks",
+      "label": "OD Banks",
+      "type": "actor",
+      "tier": 5,
+      "role": "BMF Defendant #22",
+      "class": "entity"
+    },
+    {
+      "id": "ravitch",
+      "label": "Diane Ravitch",
+      "type": "actor",
+      "tier": 5,
+      "role": "NPE President. $0 comp. Former Bush admin education official. Broke with corporate reform. Historian. NYU professor.",
+      "class": "entity"
+    },
+    {
+      "label": "Dean Michael Sant'Ambrogio",
+      "id": "santambrogio",
+      "type": "actor",
+      "tier": 5,
+      "role": "MSU Law Dean (2024-present)",
+      "class": "entity"
+    },
+    {
+      "id": "welch",
+      "label": "Tonesa Welch",
+      "type": "actor",
+      "tier": 5,
+      "role": "BMF figure",
       "class": "entity"
     },
     {
@@ -1571,22 +2103,6 @@
       "class": "entity"
     },
     {
-      "id": "ag_cod",
-      "label": "AG Corporate Oversight Division",
-      "type": "entity",
-      "entity_type": "Oversight body",
-      "note": "Charitable trust violations, consumer fraud, nonprofit self-dealing. Acting Chief: Darrin Fowler (P53464).",
-      "tier": 4,
-      "class": "entity"
-    },
-    {
-      "id": "ag_office",
-      "label": "ag office",
-      "type": "institution",
-      "tier": 3,
-      "class": "entity"
-    },
-    {
       "id": "alliance_school_choice",
       "label": "Alliance for School Choice",
       "type": "entity",
@@ -1603,14 +2119,6 @@
       "entity_type": "Dissolved 501(c)(3)",
       "lara_id": "802394934",
       "tier": 5,
-      "class": "entity"
-    },
-    {
-      "id": "archer",
-      "label": "Dennis Archer",
-      "type": "actor",
-      "tier": 3,
-      "role": "Mayor 1994-2001",
       "class": "entity"
     },
     {
@@ -1640,11 +2148,12 @@
       "class": "entity"
     },
     {
-      "id": "bing",
-      "label": "Dave Bing",
-      "type": "actor",
+      "id": "barton_malow",
+      "label": "Barton Malow",
+      "type": "entity",
       "tier": 5,
-      "role": "Mayor 2009-2013",
+      "role": "Construction firm. Ahmed Beasley spent 17yr on K-12 projects.",
+      "classification": "institution",
       "class": "entity"
     },
     {
@@ -1657,20 +2166,20 @@
       "class": "entity"
     },
     {
+      "id": "cass_tech",
+      "label": "Cass Technical High School",
+      "type": "entity",
+      "tier": 5,
+      "role": "Detroit magnet HS. Beasley alumna. Historic: Diana Ross, Lily Tomlin, Jack White, many judges.",
+      "classification": "institution",
+      "class": "entity"
+    },
+    {
       "id": "chandler_park",
       "label": "Chandler Park Academy",
       "type": "entity",
       "entity_type": "Charter school",
       "tier": 5,
-      "class": "entity"
-    },
-    {
-      "id": "charter_law_1993",
-      "label": "PA 362 — Michigan Charter School Law (1993)",
-      "type": "entity",
-      "entity_type": "Legislation",
-      "note": "Public Act 362, signed Jan 14 1994 (passed Dec 3 1993). Part 6A Revised School Code. Authorized universities, community colleges, ISDs, and local districts to charter PSAs. Constitutional challenge 1994, Supreme Court upheld 1997. THE law that enables everything: CMU authorization, MacDowell, PCA, all of it.",
-      "tier": 3,
       "class": "entity"
     },
     {
@@ -1701,13 +2210,6 @@
       "class": "entity"
     },
     {
-      "id": "city_council",
-      "label": "city council",
-      "type": "institution",
-      "tier": 5,
-      "class": "entity"
-    },
-    {
       "id": "city_hill",
       "label": "City Hill Church",
       "type": "entity",
@@ -1718,41 +2220,11 @@
       "class": "entity"
     },
     {
-      "id": "cmu",
-      "label": "Central Michigan University",
-      "type": "entity",
-      "entity_type": "Charter authorizer",
-      "tier": 4,
-      "class": "entity"
-    },
-    {
-      "id": "coleman_young",
-      "label": "Coleman Young",
-      "type": "actor",
-      "tier": 5,
-      "role": "Mayor 1974-1993",
-      "class": "entity"
-    },
-    {
       "id": "cooley_law",
       "label": "Thomas M. Cooley Law School",
       "type": "entity",
       "entity_type": "Law school",
       "note": "Where Corbett taught criminal law for 15 years.",
-      "tier": 5,
-      "class": "entity"
-    },
-    {
-      "id": "court_oakland",
-      "label": "court oakland",
-      "type": "institution",
-      "tier": 5,
-      "class": "entity"
-    },
-    {
-      "id": "court_probate",
-      "label": "court probate",
-      "type": "institution",
       "tier": 5,
       "class": "entity"
     },
@@ -1789,23 +2261,6 @@
       "entity_type": "Law school",
       "note": "Goetz (AGC Grievance Admin, JD 1988). Merged into MSU College of Law.",
       "tier": 5,
-      "class": "entity"
-    },
-    {
-      "label": "Dick & Betsy DeVos Family Foundation",
-      "entity_type": "Private foundation",
-      "id": "devos_foundation",
-      "type": "entity",
-      "role": "Charter school funder",
-      "tier": 4,
-      "class": "entity"
-    },
-    {
-      "label": "Diane Tavenner",
-      "id": "diane_tavenner",
-      "type": "actor",
-      "tier": 5,
-      "role": "Pahara Board Chair / Summit Public Schools founder",
       "class": "entity"
     },
     {
@@ -1852,15 +2307,6 @@
       "class": "entity"
     },
     {
-      "id": "dykema_federal_pac",
-      "label": "Dykema Gossett Federal PAC",
-      "type": "entity",
-      "entity_type": "Federal PAC",
-      "fec_id": "C00342113",
-      "tier": 4,
-      "class": "entity"
-    },
-    {
       "id": "dykema_state_pac",
       "label": "Dykema Gossett State PAC",
       "type": "entity",
@@ -1884,14 +2330,6 @@
       "entity_type": "Lobby organization",
       "note": "School voucher/choice advocacy. Founded as Friedman Foundation. SCBC tour national partner.",
       "tier": 5,
-      "class": "entity"
-    },
-    {
-      "id": "emu",
-      "label": "Eastern Michigan University",
-      "type": "entity",
-      "entity_type": "Charter authorizer",
-      "tier": 4,
       "class": "entity"
     },
     {
@@ -1999,42 +2437,12 @@
       "class": "entity"
     },
     {
-      "label": "Brendan Kelly",
-      "id": "kelly_emu",
-      "type": "actor",
+      "id": "lawrence_tech",
+      "label": "Lawrence Technological University",
+      "type": "entity",
       "tier": 5,
-      "role": "EMU President (2026-present)",
-      "class": "entity"
-    },
-    {
-      "label": "Kriste Dragon",
-      "id": "kriste_dragon",
-      "type": "actor",
-      "tier": 5,
-      "role": "Pahara Institute CEO ($490K comp)",
-      "class": "entity"
-    },
-    {
-      "id": "latisha_johnson",
-      "label": "latisha johnson",
-      "type": "institution",
-      "tier": 5,
-      "class": "entity"
-    },
-    {
-      "label": "Neil MacKinnon",
-      "id": "mackinnon",
-      "type": "actor",
-      "tier": 5,
-      "role": "CMU President (2024-present)",
-      "class": "entity"
-    },
-    {
-      "label": "Philomena Mantella",
-      "id": "mantella",
-      "type": "actor",
-      "tier": 5,
-      "role": "GVSU President",
+      "role": "Southfield, MI. Ahmed Beasley BS Civil Engineering.",
+      "classification": "institution",
       "class": "entity"
     },
     {
@@ -2044,6 +2452,15 @@
       "type": "entity",
       "role": "Michigan Association of Public School Academies",
       "tier": 5,
+      "class": "entity"
+    },
+    {
+      "id": "marygrove",
+      "label": "Marygrove College",
+      "type": "entity",
+      "tier": 5,
+      "role": "Detroit college. Beasley MA in Teaching. Closed 2019, programs absorbed by U of D Mercy.",
+      "classification": "institution",
       "class": "entity"
     },
     {
@@ -2083,31 +2500,6 @@
       "class": "entity"
     },
     {
-      "id": "msu",
-      "label": "Michigan State University",
-      "type": "entity",
-      "entity_type": "University",
-      "note": "East Lansing. Appears in bios of: Goetz (AGC, BS 1983), Mazur (AGC, BA), Frazee (AGC, BA), Bullington (AGC, BA), Uhuru (AGC, BS magna cum laude). MSU College of Law is separate node (msu_law).",
-      "tier": 3,
-      "class": "entity"
-    },
-    {
-      "label": "NAACP Detroit Branch",
-      "id": "naacp_detroit",
-      "type": "institution",
-      "role": "Civil rights organization, Freedom Fund Dinner host",
-      "tier": 5,
-      "class": "entity"
-    },
-    {
-      "label": "NAACP Lansing Branch",
-      "id": "naacp_lansing",
-      "type": "institution",
-      "role": "60th Freedom Fund Dinner Oct 11, 2026 — Martin spoke",
-      "tier": 5,
-      "class": "entity"
-    },
-    {
       "id": "nacsa",
       "label": "National Assoc of Charter School Authorizers (NACSA)",
       "type": "entity",
@@ -2126,29 +2518,12 @@
       "class": "entity"
     },
     {
-      "label": "Corey Northrop",
-      "id": "northrop",
-      "type": "actor",
-      "tier": 5,
-      "role": "Executive Director, CMU Center for Charter Schools",
-      "class": "entity"
-    },
-    {
       "id": "notre_dame",
       "label": "University of Notre Dame",
       "type": "entity",
       "entity_type": "University",
       "note": "Ryan (JTC Chair, undergrad).",
       "tier": 5,
-      "class": "entity"
-    },
-    {
-      "id": "npe",
-      "label": "Network for Public Education Fund",
-      "type": "entity",
-      "entity_type": "Advocacy organization",
-      "note": "EIN 35-2532243. $1.4M assets. $314K rev (2024). 225 E 36th St Apt 10-O, NYC. 1.9 employees. Founded by Diane Ravitch 2013.",
-      "tier": 3,
       "class": "entity"
     },
     {
@@ -2166,30 +2541,6 @@
       "type": "entity",
       "entity_type": "Private 501(c)(3)",
       "note": "EIN 30-1028855. 1600 K St NW Suite 201, DC. In care of: Roland S Martin. Ruling: Jun 2025. $0/$0. Educational/Literary/Charitable.",
-      "tier": 5,
-      "class": "entity"
-    },
-    {
-      "id": "nuvision_inc",
-      "label": "Nu Vision Media, Inc.",
-      "type": "entity",
-      "entity_type": "Media company",
-      "note": "Roland Martin's for-profit media company. Produces #RolandMartinUnfiltered. CEO: Roland Martin. Received $145K from Virginia PACs. Texas address.",
-      "tier": 4,
-      "class": "entity"
-    },
-    {
-      "id": "od_banks",
-      "label": "OD Banks",
-      "type": "actor",
-      "tier": 5,
-      "role": "BMF Defendant #22",
-      "class": "entity"
-    },
-    {
-      "id": "ofa",
-      "label": "ofa",
-      "type": "institution",
       "tier": 5,
       "class": "entity"
     },
@@ -2212,65 +2563,12 @@
       "class": "entity"
     },
     {
-      "label": "Pahara Institute",
-      "id": "pahara_institute",
-      "type": "institution",
-      "role": "Charter leadership fellowship program",
-      "tier": 4,
-      "class": "entity"
-    },
-    {
-      "id": "peninsula_fund",
-      "label": "Peninsula Fund",
-      "type": "entity",
-      "entity_type": "Dark money vehicle",
-      "role": " (LARA 802004683)",
-      "tier": 4,
-      "class": "entity"
-    },
-    {
-      "id": "perkins_d",
-      "label": "perkins d",
-      "type": "institution",
-      "tier": 4,
-      "class": "entity"
-    },
-    {
-      "id": "perkins_sean",
-      "label": "perkins sean",
-      "type": "institution",
-      "tier": 4,
-      "class": "entity"
-    },
-    {
-      "id": "perkins_t",
-      "label": "perkins t",
-      "type": "institution",
-      "tier": 5,
-      "class": "entity"
-    },
-    {
       "id": "put_progress_first",
       "label": "Put Progress First",
       "type": "entity",
       "entity_type": "Dark money vehicle",
       "role": " (LARA 803061184)",
       "tier": 5,
-      "class": "entity"
-    },
-    {
-      "id": "ramsey",
-      "label": "ramsey",
-      "type": "institution",
-      "tier": 5,
-      "class": "entity"
-    },
-    {
-      "id": "ravitch",
-      "label": "Diane Ravitch",
-      "type": "actor",
-      "tier": 5,
-      "role": "NPE President. $0 comp. Former Bush admin education official. Broke with corporate reform. Historian. NYU professor.",
       "class": "entity"
     },
     {
@@ -2282,12 +2580,12 @@
       "class": "entity"
     },
     {
-      "id": "right_turn",
-      "label": "Right Turn Project",
+      "id": "river_rouge_sd",
+      "label": "River Rouge School District",
       "type": "entity",
-      "entity_type": "Dissolved nonprofit",
-      "lara_id": "800936257",
-      "tier": 4,
+      "tier": 5,
+      "role": "Beasley was Curriculum Director here before DPSCD admin roles.",
+      "classification": "institution",
       "class": "entity"
     },
     {
@@ -2296,61 +2594,6 @@
       "type": "entity",
       "entity_type": "Campaign vendor",
       "tier": 5,
-      "class": "entity"
-    },
-    {
-      "id": "sabree_a",
-      "label": "sabree a",
-      "type": "institution",
-      "tier": 5,
-      "class": "entity"
-    },
-    {
-      "id": "sabree_adam",
-      "label": "sabree adam",
-      "type": "institution",
-      "tier": 5,
-      "class": "entity"
-    },
-    {
-      "id": "sabree_e",
-      "label": "sabree e",
-      "type": "institution",
-      "tier": 5,
-      "class": "entity"
-    },
-    {
-      "id": "sam_gov",
-      "label": "SAM.gov (Federal)",
-      "type": "institution",
-      "tier": 5,
-      "role": "System for Award Management — federal contractor registry",
-      "class": "entity"
-    },
-    {
-      "label": "Dean Michael Sant'Ambrogio",
-      "id": "santambrogio",
-      "type": "actor",
-      "tier": 5,
-      "role": "MSU Law Dean (2024-present)",
-      "class": "entity"
-    },
-    {
-      "id": "scbc_tour",
-      "label": "School Choice Is The Black Choice Tour",
-      "type": "entity",
-      "entity_type": "Campaign",
-      "note": "10-city tour. Co-produced by Nu Vision Media + The 74. National partners: AFC, EdChoice, ExcelinEd, NACPS, UNCF, Walton. Walton gave $350K (2020).",
-      "tier": 4,
-      "class": "entity"
-    },
-    {
-      "id": "sdj",
-      "label": "Save Detroit Jobs",
-      "type": "entity",
-      "entity_type": "Dark money vehicle",
-      "lara_id": "802002459",
-      "tier": 4,
       "class": "entity"
     },
     {
@@ -2391,6 +2634,43 @@
       "class": "entity"
     },
     {
+      "id": "sun_community",
+      "label": "Sun Community Development Corp",
+      "type": "entity",
+      "page": "/network/entities/sun-community-development/",
+      "entity_type": "Community development nonprofit",
+      "lara_id": "803232314",
+      "tier": 5,
+      "class": "entity"
+    },
+    {
+      "id": "usao_edmi",
+      "label": "US Attorney's Office, Eastern District of Michigan",
+      "type": "entity",
+      "entity_type": "Government office",
+      "note": "Dawn Ison (JTC, 19yr AUSA Public Corruption Unit). Patrick Corbett (JTC, 20yr AUSA). Two JTC members, same federal office.",
+      "tier": 5,
+      "class": "entity"
+    },
+    {
+      "id": "ann_arbor",
+      "label": "Ann Arbor",
+      "type": "geography",
+      "tier": 5,
+      "role": "University of Michigan. EMU nearby. Hutchings connection.",
+      "classification": "geography",
+      "class": "geography"
+    },
+    {
+      "id": "harper_woods",
+      "label": "Harper Woods",
+      "type": "geography",
+      "tier": 5,
+      "role": "City adjacent to Grosse Pointe Woods. Yancey/Beasley connections. Banks adjacency.",
+      "classification": "geography",
+      "class": "geography"
+    },
+    {
       "id": "state_ar",
       "label": "Arkansas",
       "type": "geography",
@@ -2415,14 +2695,6 @@
       "class": "entity"
     },
     {
-      "id": "state_mi",
-      "label": "Michigan",
-      "type": "geography",
-      "tier": 3,
-      "role": "Target state — all schools, all courts, all actors",
-      "class": "entity"
-    },
-    {
       "id": "state_ny",
       "label": "New York",
       "type": "geography",
@@ -2439,83 +2711,97 @@
       "class": "entity"
     },
     {
-      "id": "sun_community",
-      "label": "Sun Community Development Corp",
-      "type": "entity",
-      "page": "/network/entities/sun-community-development/",
-      "entity_type": "Community development nonprofit",
-      "lara_id": "803232314",
+      "id": "city_council",
+      "label": "city council",
+      "type": "institution",
       "tier": 5,
       "class": "entity"
     },
     {
-      "label": "The 74 (The Seventy Four)",
-      "entity_type": "Education news site",
-      "id": "the_74",
-      "type": "entity",
-      "role": "Walton-funded education journalism",
-      "tier": 3,
-      "class": "entity"
-    },
-    {
-      "id": "thomas_ryan",
-      "label": "Thomas J. Ryan, Esq.",
-      "type": "actor",
-      "tier": 4,
-      "role": "JTC Commission Chair (2026). Attorney.",
-      "class": "entity"
-    },
-    {
-      "id": "ud_mercy_law",
-      "label": "University of Detroit Mercy School of Law",
-      "type": "entity",
-      "entity_type": "Law school",
-      "note": "Detroit. Ryan (JTC Chair, JD), Willis (AGC Commissioner, JD 2002), Linville (AGC, JD). Detroit College of Law (Goetz JD 1988) merged into MSU Law.",
-      "tier": 4,
-      "class": "entity"
-    },
-    {
-      "id": "usao_edmi",
-      "label": "US Attorney's Office, Eastern District of Michigan",
-      "type": "entity",
-      "entity_type": "Government office",
-      "note": "Dawn Ison (JTC, 19yr AUSA Public Corruption Unit). Patrick Corbett (JTC, 20yr AUSA). Two JTC members, same federal office.",
+      "id": "court_oakland",
+      "label": "court oakland",
+      "type": "institution",
       "tier": 5,
       "class": "entity"
     },
     {
-      "id": "wayne_co_pa",
-      "label": "Wayne County Prosecutor's Office",
-      "type": "entity",
-      "entity_type": "Government office",
-      "note": "Glenn Page's former employer. Prosecutors.",
-      "tier": 4,
-      "class": "entity"
-    },
-    {
-      "id": "wayne_state_law",
-      "label": "Wayne State University Law School",
-      "type": "entity",
-      "entity_type": "Law school",
-      "note": "Detroit. Dawn Ison (JTC Commissioner, JD). Detroit legal pipeline.",
-      "tier": 4,
-      "class": "entity"
-    },
-    {
-      "id": "welch",
-      "label": "Tonesa Welch",
-      "type": "actor",
+      "id": "court_probate",
+      "label": "court probate",
+      "type": "institution",
       "tier": 5,
-      "role": "BMF figure",
       "class": "entity"
     },
     {
-      "id": "wmu",
-      "label": "Western Michigan University",
-      "type": "entity",
-      "entity_type": "University",
-      "note": "Kalamazoo. Robinson (AGC Vice-Chair, BA PoliSci/CrimJ), Willis (AGC, BA 1997).",
-      "tier": 4,
+      "id": "latisha_johnson",
+      "label": "latisha johnson",
+      "type": "institution",
+      "tier": 5,
+      "class": "entity"
+    },
+    {
+      "label": "NAACP Detroit Branch",
+      "id": "naacp_detroit",
+      "type": "institution",
+      "role": "Civil rights organization, Freedom Fund Dinner host",
+      "tier": 5,
+      "class": "entity"
+    },
+    {
+      "label": "NAACP Lansing Branch",
+      "id": "naacp_lansing",
+      "type": "institution",
+      "role": "60th Freedom Fund Dinner Oct 11, 2026 — Martin spoke",
+      "tier": 5,
+      "class": "entity"
+    },
+    {
+      "id": "ofa",
+      "label": "ofa",
+      "type": "institution",
+      "tier": 5,
+      "class": "entity"
+    },
+    {
+      "id": "perkins_t",
+      "label": "perkins t",
+      "type": "institution",
+      "tier": 5,
+      "class": "entity"
+    },
+    {
+      "id": "ramsey",
+      "label": "ramsey",
+      "type": "institution",
+      "tier": 5,
+      "class": "entity"
+    },
+    {
+      "id": "sabree_a",
+      "label": "sabree a",
+      "type": "institution",
+      "tier": 5,
+      "class": "entity"
+    },
+    {
+      "id": "sabree_adam",
+      "label": "sabree adam",
+      "type": "institution",
+      "tier": 5,
+      "class": "entity"
+    },
+    {
+      "id": "sabree_e",
+      "label": "sabree e",
+      "type": "institution",
+      "tier": 5,
+      "class": "entity"
+    },
+    {
+      "id": "sam_gov",
+      "label": "SAM.gov (Federal)",
+      "type": "institution",
+      "tier": 5,
+      "role": "System for Award Management — federal contractor registry",
       "class": "entity"
     },
     {
@@ -2535,297 +2821,11 @@
       "class": "entity"
     },
     {
-      "id": "jolia_hill",
-      "label": "Dr. Jolia Hill",
-      "type": "actor",
-      "tier": 3,
-      "role": "Director, EMU Charter Schools Office. Terminated DPSA charter Jun 30, 2026. MCCSA Treasurer.",
-      "class": "entity"
-    },
-    {
       "id": "senier",
       "label": "Amy Senier",
       "type": "actor",
       "tier": 6,
       "role": "Education Advocacy Attorney, ACLU Michigan. Georgetown/Foley Hoag. S.S. v. Michigan.",
-      "class": "entity"
-    },
-    {
-      "id": "snyder_nikki",
-      "label": "Nikki Snyder",
-      "type": "actor",
-      "tier": 4,
-      "role": "SBE member (R-Goodrich). Confirmed positive actor. Responded 13 min. EMU grad. Nurse. Disability advocate.",
-      "class": "entity"
-    },
-    {
-      "id": "ahmed_beasley",
-      "label": "Ahmed Beasley",
-      "type": "actor",
-      "tier": 4,
-      "role": "SVP Plante Moran Realpoint. K-12 construction management. 17yr Barton Malow (K-12 projects). BS Civil Engineering, Lawrence Tech. Husband of Dr. Chalena Beasley (PCA School Leader). Mentors at-risk youth via Winning Futures. Wife runs a school. He builds schools for Michigan's largest K-12 districts.",
-      "classification": "person_of_interest",
-      "class": "actor"
-    },
-    {
-      "id": "wayne_resa",
-      "label": "Wayne RESA",
-      "type": "entity",
-      "tier": 4,
-      "role": "Wayne Regional Educational Service Agency. Technical assistance to 33 districts + 100 PSAs. Beasley and Hill both alumni.",
-      "classification": "institution",
-      "class": "entity"
-    },
-    {
-      "id": "marygrove",
-      "label": "Marygrove College",
-      "type": "entity",
-      "tier": 5,
-      "role": "Detroit college. Beasley MA in Teaching. Closed 2019, programs absorbed by U of D Mercy.",
-      "classification": "institution",
-      "class": "entity"
-    },
-    {
-      "id": "cass_tech",
-      "label": "Cass Technical High School",
-      "type": "entity",
-      "tier": 5,
-      "role": "Detroit magnet HS. Beasley alumna. Historic: Diana Ross, Lily Tomlin, Jack White, many judges.",
-      "classification": "institution",
-      "class": "entity"
-    },
-    {
-      "id": "bunche_prep",
-      "label": "Bunche Preparatory Academy",
-      "type": "entity",
-      "tier": 4,
-      "role": "DPSCD K-8. Beasley was principal 2021-2025. Ralph J. Bunche school.",
-      "classification": "institution",
-      "class": "entity"
-    },
-    {
-      "id": "lenhoff",
-      "label": "Dr. Sarah Winchell Lenhoff",
-      "type": "actor",
-      "tier": 4,
-      "role": "Wayne State prof, ELPS. Director Detroit PEER. Beasley dissertation committee. Charter school/choice researcher. Skillman funded.",
-      "classification": "academic",
-      "class": "actor"
-    },
-    {
-      "id": "detroit_peer",
-      "label": "Detroit PEER",
-      "type": "entity",
-      "tier": 4,
-      "role": "Detroit Partnership for Education Equity & Research. Wayne State. DPSCD data-sharing. Skillman + Spencer funded.",
-      "classification": "research",
-      "class": "entity"
-    },
-    {
-      "id": "plante_moran",
-      "label": "Plante Moran Realpoint",
-      "type": "entity",
-      "tier": 4,
-      "role": "Construction/program management firm. Ahmed Beasley is SVP. K-12 public sector clients. Southfield, MI.",
-      "classification": "institution",
-      "class": "entity"
-    },
-    {
-      "id": "barton_malow",
-      "label": "Barton Malow",
-      "type": "entity",
-      "tier": 5,
-      "role": "Construction firm. Ahmed Beasley spent 17yr on K-12 projects.",
-      "classification": "institution",
-      "class": "entity"
-    },
-    {
-      "id": "lawrence_tech",
-      "label": "Lawrence Technological University",
-      "type": "entity",
-      "tier": 5,
-      "role": "Southfield, MI. Ahmed Beasley BS Civil Engineering.",
-      "classification": "institution",
-      "class": "entity"
-    },
-    {
-      "id": "river_rouge_sd",
-      "label": "River Rouge School District",
-      "type": "entity",
-      "tier": 5,
-      "role": "Beasley was Curriculum Director here before DPSCD admin roles.",
-      "classification": "institution",
-      "class": "entity"
-    },
-    {
-      "id": "ag_charitable_trust",
-      "label": "AG Charitable Trust Section",
-      "type": "entity",
-      "tier": 3,
-      "role": "MI AG Charitable Trust Section. Registers/oversees 13,000+ charitable orgs. RESPONDED 12:19 PM Oct 12 — complaint received, pending review, 30-45 days. ct_email@michigan.gov. Phone 517-335-7571.",
-      "classification": "oversight",
-      "class": "entity"
-    },
-    {
-      "id": "bert_johnson",
-      "label": "Sen. Bert Johnson",
-      "type": "actor",
-      "tier": 3,
-      "role": "Former MI State Senator. CHOJLF. CBC Foundation. Convicted 2022 bribery. Banks political ally.",
-      "classification": "bad_actor",
-      "class": "actor"
-    },
-    {
-      "id": "alma_stallworth",
-      "label": "Alma Stallworth",
-      "type": "actor",
-      "tier": 4,
-      "role": "Stallworth dynasty matriarch. Former State Rep HD-6. Mother of Keith, Thomas. CHOJLF connection.",
-      "classification": "dynasty",
-      "class": "actor"
-    },
-    {
-      "id": "keith_stallworth",
-      "label": "Keith Stallworth",
-      "type": "actor",
-      "tier": 3,
-      "role": "Stallworth dynasty. State Rep HD-6. Banks campaign ally. Political fixer.",
-      "classification": "enabler",
-      "class": "actor"
-    },
-    {
-      "id": "ross_jones",
-      "label": "Ross Jones",
-      "type": "actor",
-      "tier": 4,
-      "role": "WXYZ (Ch 7) investigative journalist. Covered Banks/charter school story. ross.jones@wxyz.com.",
-      "classification": "press",
-      "class": "actor"
-    },
-    {
-      "id": "gasper_fiore",
-      "label": "Gasper Fiore",
-      "type": "actor",
-      "tier": 4,
-      "role": "Detroit corruption figure. Wiretap target list. Federal investigation.",
-      "classification": "bad_actor",
-      "class": "actor"
-    },
-    {
-      "id": "virgil_smith",
-      "label": "Sen. Virgil Smith",
-      "type": "actor",
-      "tier": 4,
-      "role": "Former MI State Senator. Convicted shooting at ex-wife's car 2015. Detroit political network.",
-      "classification": "bad_actor",
-      "class": "actor"
-    },
-    {
-      "id": "maleyko",
-      "label": "Dr. Glenn Maleyko",
-      "type": "actor",
-      "tier": 3,
-      "role": "MI Superintendent of Public Instruction (Dec 2025). SBE Chair. PhD Wayne State ELPS (same dept as Beasley/Hill). Former Dearborn Supt.",
-      "classification": "oversight",
-      "class": "actor"
-    },
-    {
-      "id": "metro_property",
-      "label": "Metro Property Group",
-      "type": "entity",
-      "tier": 4,
-      "role": "Real estate group. Eric Sabree was counsel. Adam Sabree connection. Detroit RE corruption.",
-      "classification": "entity",
-      "class": "entity"
-    },
-    {
-      "id": "perkins_law",
-      "label": "Perkins Law Group",
-      "type": "entity",
-      "tier": 4,
-      "role": "Todd Perkins' law firm. Banks' personal attorney. Same family as Judge Sean Perkins (36th DC).",
-      "classification": "entity",
-      "class": "entity"
-    },
-    {
-      "id": "baker_college",
-      "label": "Baker College",
-      "type": "entity",
-      "tier": 4,
-      "role": "Multiple Banks-network actors credentialed here. Miller, Moreland connections.",
-      "classification": "institution",
-      "class": "entity"
-    },
-    {
-      "id": "black_caucus_found",
-      "label": "Black Caucus Foundation of MI",
-      "type": "entity",
-      "tier": 4,
-      "role": "CBC Foundation. Stallworth dynasty. Bert Johnson. Political network hub.",
-      "classification": "entity",
-      "class": "entity"
-    },
-    {
-      "id": "promise_schools",
-      "label": "Promise Schools / Detroit Promise",
-      "type": "entity",
-      "tier": 4,
-      "role": "Charter school network. Banks adjacent. Detroit charter ecosystem.",
-      "classification": "entity",
-      "class": "entity"
-    },
-    {
-      "id": "advance_detroit",
-      "label": "Advance Detroit",
-      "type": "entity",
-      "tier": 4,
-      "role": "Political committee. Detroit elections. Banks campaign infrastructure.",
-      "classification": "entity",
-      "class": "entity"
-    },
-    {
-      "id": "mackinac_center",
-      "label": "Mackinac Center for Public Policy",
-      "type": "entity",
-      "tier": 4,
-      "role": "DeVos-funded policy org. Pro-charter. School choice advocacy.",
-      "classification": "entity",
-      "class": "entity"
-    },
-    {
-      "id": "banks_living_trust",
-      "label": "Brian Banks Living Trust",
-      "type": "entity",
-      "tier": 4,
-      "role": "Banks personal trust. Property/asset holding vehicle. GPW property.",
-      "classification": "entity",
-      "class": "entity"
-    },
-    {
-      "id": "harper_woods",
-      "label": "Harper Woods",
-      "type": "geography",
-      "tier": 5,
-      "role": "City adjacent to Grosse Pointe Woods. Yancey/Beasley connections. Banks adjacency.",
-      "classification": "geography",
-      "class": "geography"
-    },
-    {
-      "id": "ann_arbor",
-      "label": "Ann Arbor",
-      "type": "geography",
-      "tier": 5,
-      "role": "University of Michigan. EMU nearby. Hutchings connection.",
-      "classification": "geography",
-      "class": "geography"
-    },
-    {
-      "id": "mde_prof_practice",
-      "label": "MDE Professional Practice",
-      "type": "entity",
-      "tier": 3,
-      "role": "MDE Office of Educator Excellence — Professional Practice unit. Criminal convictions + K-12 employment. Fingerprinting. Revocations. RESPONDED 12:19 PM Oct 12. MDE-Professional-Practice@Michigan.gov. Director: Kelli Brozanski (brozanskik@michigan.gov).",
-      "classification": "oversight",
       "class": "entity"
     }
   ],
@@ -3098,6 +3098,14 @@
       "weight": 6,
       "note": "DPSCD (through authorizer) oversees PCA. Vitti is superintendent.",
       "source_doc": "Known connections from prior investigation"
+    },
+    {
+      "source": "jolia_hill",
+      "target": "dpsa",
+      "type": "authorization_terminated",
+      "weight": 10,
+      "label": "Terminated DPSA charter — EMU Regents Jun 2026",
+      "epistemic_status": "record"
     },
     {
       "source": "emu",
@@ -3602,6 +3610,14 @@
       "label": "Op Northern Hook"
     },
     {
+      "source": "gasper_fiore",
+      "target": "banks",
+      "type": "corruption",
+      "weight": 6,
+      "label": "Wiretap target list overlap",
+      "epistemic_status": "inference"
+    },
+    {
       "source": "gordon",
       "target": "banks",
       "type": "corruption",
@@ -3650,6 +3666,22 @@
       "source_doc": "Book analysis"
     },
     {
+      "source": "beasley",
+      "target": "wayne_state_law",
+      "type": "education",
+      "weight": 8,
+      "label": "PhD Educational Leadership & Policy Studies 2023",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "jolia_hill",
+      "target": "wayne_state_law",
+      "type": "education",
+      "weight": 8,
+      "label": "PhD Educational Leadership & Policy Studies",
+      "epistemic_status": "record"
+    },
+    {
       "source": "kwame",
       "target": "msu_law",
       "type": "education",
@@ -3668,6 +3700,14 @@
       "source_doc": "Historical records, Wikipedia, official bios"
     },
     {
+      "source": "maleyko",
+      "target": "wayne_state_law",
+      "type": "education",
+      "weight": 7,
+      "label": "PhD Wayne State ELPS — same dept as Beasley, Hill",
+      "epistemic_status": "record"
+    },
+    {
       "source": "archer",
       "target": "wmu",
       "type": "education",
@@ -3675,6 +3715,22 @@
       "weight": 6,
       "note": "BS from Western Michigan University 1965. Same school as Robinson (AGC), Willis (AGC), Carolyn Kilpatrick.",
       "source_doc": "Historical records, Wikipedia, official bios"
+    },
+    {
+      "source": "beasley",
+      "target": "wmu",
+      "type": "education",
+      "weight": 6,
+      "label": "BS Elementary Education",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "beasley",
+      "target": "marygrove",
+      "type": "education",
+      "weight": 6,
+      "label": "MA Teaching",
+      "epistemic_status": "record"
     },
     {
       "source": "carolyn_kilpatrick",
@@ -3686,6 +3742,14 @@
       "source_doc": "Historical records, Wikipedia, official bios"
     },
     {
+      "source": "jolia_hill",
+      "target": "msu",
+      "type": "education",
+      "weight": 6,
+      "label": "BS",
+      "epistemic_status": "record"
+    },
+    {
       "source": "miller",
       "target": "msu_law",
       "type": "education",
@@ -3693,6 +3757,22 @@
       "weight": 6,
       "note": "Miller: MSU Law grad",
       "source_doc": "Gap analysis R5"
+    },
+    {
+      "source": "miller",
+      "target": "baker_college",
+      "type": "education",
+      "weight": 6,
+      "label": "Credentialed at Baker College",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "moreland",
+      "target": "baker_college",
+      "type": "education",
+      "weight": 6,
+      "label": "Credentialed at Baker College",
+      "epistemic_status": "record"
     },
     {
       "source": "sabree",
@@ -3802,6 +3882,30 @@
       "weight": 5,
       "note": "BA 1997.",
       "source_doc": "Official bios (AGC/JTC websites, annual reports)"
+    },
+    {
+      "source": "ahmed_beasley",
+      "target": "lawrence_tech",
+      "type": "education",
+      "weight": 5,
+      "label": "BS Civil Engineering",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "beasley",
+      "target": "cass_tech",
+      "type": "education",
+      "weight": 5,
+      "label": "High school alumna",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "beasley",
+      "target": "emu",
+      "type": "education",
+      "weight": 5,
+      "label": "Leading for Equity & Justice Certificate, Jul 2020",
+      "epistemic_status": "record"
     },
     {
       "source": "bullington",
@@ -3960,6 +4064,22 @@
       "source_doc": "purposecharteracademy.com"
     },
     {
+      "source": "beasley",
+      "target": "banks",
+      "type": "employment",
+      "weight": 9,
+      "label": "School Leader at Banks' PCA — recruited post-DPSCD retirement",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "jolia_hill",
+      "target": "emu",
+      "type": "employment",
+      "weight": 9,
+      "label": "Director Charter Schools — terminated DPSA",
+      "epistemic_status": "record"
+    },
+    {
       "source": "moreland",
       "target": "ag_office",
       "type": "employment",
@@ -3977,6 +4097,14 @@
       "label": "Dykema Member â€” dark money architect"
     },
     {
+      "source": "ahmed_beasley",
+      "target": "plante_moran",
+      "type": "employment",
+      "weight": 8,
+      "label": "SVP, Plante Moran Realpoint — K-12 construction",
+      "epistemic_status": "record"
+    },
+    {
       "source": "beasley",
       "target": "dpscd",
       "type": "employment",
@@ -3989,6 +4117,22 @@
       "source_doc": "LinkedIn"
     },
     {
+      "source": "beasley",
+      "target": "bunche_prep",
+      "type": "employment",
+      "weight": 8,
+      "label": "Principal 2021-2025",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "bunche_prep",
+      "target": "beasley",
+      "type": "employment",
+      "weight": 8,
+      "label": "Principal 2021-2025. Under her leadership: #3022/3025 MI schools. ≤1% math. 7% reading.",
+      "epistemic_status": "record"
+    },
+    {
       "source": "cameron_coleman",
       "target": "dpscd",
       "type": "employment",
@@ -3999,6 +4143,14 @@
       "flow": "position",
       "label": "DPSCD employee â€” authorization membrane breach",
       "source_doc": "LinkedIn"
+    },
+    {
+      "source": "eric_sabree",
+      "target": "metro_property",
+      "type": "employment",
+      "weight": 8,
+      "label": "Legal counsel, Metro Property Group",
+      "epistemic_status": "record"
     },
     {
       "source": "great_lakes_legal",
@@ -4186,6 +4338,14 @@
       "source_doc": "agcmi.org/about-us/our-team"
     },
     {
+      "source": "ahmed_beasley",
+      "target": "barton_malow",
+      "type": "employment",
+      "weight": 7,
+      "label": "17yr K-12 project engineer/superintendent/PM",
+      "epistemic_status": "record"
+    },
+    {
       "source": "bing",
       "target": "dumas",
       "type": "employment",
@@ -4249,6 +4409,22 @@
       "flow": "position",
       "label": "Office Manager",
       "source_doc": "macdowellprep.com/about/"
+    },
+    {
+      "source": "jolia_hill",
+      "target": "gvsu",
+      "type": "employment",
+      "weight": 7,
+      "label": "AVP K-12 Academics & Innovation (Sep 2026)",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "jolia_hill",
+      "target": "wayne_resa",
+      "type": "employment",
+      "weight": 7,
+      "label": "10+ years technical assistance to 33 districts",
+      "epistemic_status": "record"
     },
     {
       "source": "jtc_corbett",
@@ -4377,6 +4553,14 @@
       "source_doc": "jtc.courts.mi.gov/the_staff"
     },
     {
+      "source": "lenhoff",
+      "target": "wayne_state_law",
+      "type": "employment",
+      "weight": 7,
+      "label": "Professor ELPS, Leonard Kaplan Endowed Chair",
+      "epistemic_status": "record"
+    },
+    {
       "source": "sheila_cockrel",
       "target": "crump_gibson",
       "type": "employment",
@@ -4396,6 +4580,14 @@
       "weight": 6,
       "note": "Lead Attorney, Wayne Co Prosecutor Mortgage & Deed Fraud Unit. Same office Glenn Page (JTC) came from.",
       "source_doc": "AGC annual report 2024"
+    },
+    {
+      "source": "beasley",
+      "target": "wayne_resa",
+      "type": "employment",
+      "weight": 6,
+      "label": "School Improvement Facilitator",
+      "epistemic_status": "record"
     },
     {
       "source": "dumas",
@@ -4502,6 +4694,14 @@
       "weight": 5,
       "note": "Both Dickinson Wright. Archer: Chairman 2002-2009. Burrell: current SBM Secretary at DW.",
       "source_doc": "Historical records, Wikipedia, official bios"
+    },
+    {
+      "source": "beasley",
+      "target": "river_rouge_sd",
+      "type": "employment",
+      "weight": 5,
+      "label": "Curriculum Director",
+      "epistemic_status": "record"
     },
     {
       "source": "glenn_page",
@@ -4633,6 +4833,22 @@
       "source_doc": "School records"
     },
     {
+      "source": "alma_stallworth",
+      "target": "stallworth_t",
+      "type": "family",
+      "weight": 10,
+      "label": "Mother of Thomas Stallworth Jr.",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "alma_stallworth",
+      "target": "keith_stallworth",
+      "type": "family",
+      "weight": 10,
+      "label": "Mother of Keith Stallworth",
+      "epistemic_status": "record"
+    },
+    {
       "source": "archer_jr",
       "target": "archer",
       "type": "family",
@@ -4642,6 +4858,14 @@
       "viz_type": "family",
       "flow": "influence",
       "label": "son of Mayor Archer"
+    },
+    {
+      "source": "beasley",
+      "target": "yancey",
+      "type": "family",
+      "weight": 10,
+      "label": "Sisters — confirmed in Beasley dissertation dedication",
+      "epistemic_status": "record"
     },
     {
       "source": "carol_banks",
@@ -4710,6 +4934,14 @@
       "label": "married"
     },
     {
+      "source": "alma_stallworth",
+      "target": "wells_stallworth",
+      "type": "family",
+      "weight": 9,
+      "label": "Mother-in-law to Nicole Wells-Stallworth",
+      "epistemic_status": "record"
+    },
+    {
       "source": "carolyn_kilpatrick",
       "target": "kwame",
       "type": "family",
@@ -4726,6 +4958,14 @@
       "note": "Married. Co-founded School Choice Is The Black Choice together.",
       "weight": 9,
       "source_doc": "huffpost.com; schoolchoiceistheblackchoice.com"
+    },
+    {
+      "source": "beasley",
+      "target": "ahmed_beasley",
+      "type": "family",
+      "weight": 8,
+      "label": "Married — dissertation dedication",
+      "epistemic_status": "record"
     },
     {
       "source": "coleman_young_ii",
@@ -5037,6 +5277,14 @@
       "source_doc": "Official bios (AGC/JTC websites, annual reports)"
     },
     {
+      "source": "marygrove",
+      "target": "ud_mercy_law",
+      "type": "formation",
+      "weight": 5,
+      "label": "Programs absorbed when Marygrove closed 2019",
+      "epistemic_status": "record"
+    },
+    {
       "weight": 9,
       "source_doc": "waltonfamilyfoundation.org/grants; influencewatch.org/pahara-institute",
       "type": "funding",
@@ -5075,6 +5323,14 @@
       "source_doc": "CNDC 990 Schedule I; the74million.org disclosure"
     },
     {
+      "source": "mackinac_center",
+      "target": "devos_foundation",
+      "type": "funding",
+      "weight": 8,
+      "label": "DeVos-funded policy arm",
+      "epistemic_status": "record"
+    },
+    {
       "weight": 8,
       "source_doc": "the74million.org disclosure statements",
       "type": "funding",
@@ -5095,6 +5351,14 @@
       "note": "National partner for 10-city tour 2018-2020 with The 74"
     },
     {
+      "source": "detroit_peer",
+      "target": "skillman_foundation",
+      "type": "funding",
+      "weight": 7,
+      "label": "Grant funding for Detroit charter/attendance research",
+      "epistemic_status": "record"
+    },
+    {
       "weight": 7,
       "source_doc": "the74million.org/devos-statement",
       "type": "funding",
@@ -5103,6 +5367,14 @@
       "target": "the_74",
       "role": "General operating support",
       "note": "Two-year grant disclosed when DeVos nominated for Education Secretary"
+    },
+    {
+      "source": "mackinac_center",
+      "target": "betsy_devos",
+      "type": "funding",
+      "weight": 7,
+      "label": "3 shared: charter_law_1993, devos_foundation, glep. DeVos policy arm.",
+      "epistemic_status": "record"
     },
     {
       "source": "walton_family_foundation",
@@ -5260,6 +5532,22 @@
       "source_doc": "Historical records, Wikipedia, official bios"
     },
     {
+      "source": "maleyko",
+      "target": "sbe",
+      "type": "governance",
+      "weight": 9,
+      "label": "SBE Chair, Superintendent of Public Instruction (Dec 2025)",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "maleyko",
+      "target": "mde",
+      "type": "governance",
+      "weight": 9,
+      "label": "Heads MDE",
+      "epistemic_status": "record"
+    },
+    {
       "source": "mi_supreme_court",
       "target": "charter_law_1993",
       "type": "governance",
@@ -5381,6 +5669,14 @@
       "epistemic_status": "record"
     },
     {
+      "source": "ag_charitable_trust",
+      "target": "ag_office",
+      "type": "governance",
+      "weight": 8,
+      "label": "Division of MI Attorney General",
+      "epistemic_status": "record"
+    },
+    {
       "source": "ag_office",
       "target": "ag_cod",
       "type": "governance",
@@ -5471,6 +5767,14 @@
       "source_doc": "LARA 803294855"
     },
     {
+      "source": "bert_johnson",
+      "target": "black_caucus_found",
+      "type": "governance",
+      "weight": 8,
+      "label": "CBC Foundation leadership",
+      "epistemic_status": "record"
+    },
+    {
       "source": "betsy_devos",
       "weight": 8,
       "type": "governance",
@@ -5487,6 +5791,14 @@
       "weight": 8,
       "note": "Created GLEP after 2000 voucher ballot failure. Chaired board 2001-2008.",
       "source_doc": "Historical records, Wikipedia, official bios"
+    },
+    {
+      "source": "brozanski",
+      "target": "mde_prof_practice",
+      "type": "governance",
+      "weight": 8,
+      "label": "Director, Professional Practice",
+      "epistemic_status": "record"
     },
     {
       "source": "bullington",
@@ -5635,6 +5947,22 @@
       "source_doc": "waynecountymi.gov"
     },
     {
+      "source": "lenhoff",
+      "target": "detroit_peer",
+      "type": "governance",
+      "weight": 8,
+      "label": "Faculty Director",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "mde_prof_practice",
+      "target": "mde",
+      "type": "governance",
+      "weight": 8,
+      "label": "Division of MDE — criminal conviction review for educators",
+      "epistemic_status": "record"
+    },
+    {
       "source": "naacp_detroit",
       "weight": 8,
       "type": "governance",
@@ -5777,6 +6105,14 @@
       "source_doc": "michbar.org/generalinfo/commdrct"
     },
     {
+      "source": "alice_thompson",
+      "target": "naacp_detroit",
+      "type": "governance",
+      "weight": 7,
+      "label": "NAACP Detroit connection",
+      "epistemic_status": "record"
+    },
+    {
       "source": "banks",
       "target": "right_turn",
       "type": "governance",
@@ -5786,6 +6122,22 @@
       "viz_type": "controls",
       "flow": "power",
       "label": "controlled via email (BBesq06@aol.com)"
+    },
+    {
+      "source": "black_caucus_found",
+      "target": "gay_dagnogo",
+      "type": "governance",
+      "weight": 7,
+      "label": "CHOJLF/CBC cross-connection",
+      "epistemic_status": "inference"
+    },
+    {
+      "source": "bunche_prep",
+      "target": "dpscd",
+      "type": "governance",
+      "weight": 7,
+      "label": "DPSCD school",
+      "epistemic_status": "record"
     },
     {
       "source": "carol_banks",
@@ -5860,6 +6212,14 @@
       "type": "governance",
       "note": "Court of Appeals judge. Appointed 2017. Former Wayne County Circuit.",
       "weight": 7,
+      "epistemic_status": "record"
+    },
+    {
+      "source": "mde_prof_practice",
+      "target": "mde_oee",
+      "type": "governance",
+      "weight": 7,
+      "label": "Professional Practice is part of OEE",
       "epistemic_status": "record"
     },
     {
@@ -6034,6 +6394,14 @@
       "source_doc": "waynecountymi.gov"
     },
     {
+      "source": "ag_charitable_trust",
+      "target": "nessel",
+      "type": "governance",
+      "weight": 6,
+      "label": "3 shared: ag_office, banks, purpose_foundation. CT Section reports to AG Nessel.",
+      "epistemic_status": "record"
+    },
+    {
       "source": "archer",
       "target": "sbm",
       "type": "governance",
@@ -6172,6 +6540,14 @@
       "source_doc": "MI Supreme Court bio"
     },
     {
+      "source": "virgil_smith",
+      "target": "detroit_city",
+      "type": "governance",
+      "weight": 6,
+      "label": "Former State Senator, Detroit",
+      "epistemic_status": "record"
+    },
+    {
       "source": "banks",
       "target": "city_hill",
       "type": "governance",
@@ -6258,6 +6634,14 @@
       "note": "Executive Director of 501c4 arm too. $10K additional comp.",
       "weight": 5,
       "source_doc": "philanthropy.org/990/person/carol-burris"
+    },
+    {
+      "source": "charter_law_1993",
+      "target": "sbe",
+      "type": "governance",
+      "weight": 5,
+      "label": "4 shared: banks, cmu, macdowell, pca. PA 362 created charter framework SBE oversees.",
+      "epistemic_status": "record"
     },
     {
       "source": "citizendetroit",
@@ -6512,6 +6896,54 @@
       "source_doc": "Meta-sort institutional analysis"
     },
     {
+      "source": "ag_charitable_trust",
+      "target": "purpose_foundation",
+      "type": "investigation",
+      "weight": 9,
+      "label": "Complaint filed Oct 12 2026. Acknowledged 12:19 PM. 30-45 day review.",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "mde_prof_practice",
+      "target": "banks",
+      "type": "investigation",
+      "weight": 9,
+      "label": "Complaint filed Oct 12. Auto-ack 12:19 PM. HOLD on permit #590606.",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "ag_charitable_trust",
+      "target": "banks",
+      "type": "investigation",
+      "weight": 8,
+      "label": "Subject of charitable trust complaint — 9 convictions, all 4 officer positions",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "ag_charitable_trust",
+      "target": "right_turn",
+      "type": "investigation",
+      "weight": 7,
+      "label": "Secondary target in complaint — Banks dark money vehicle",
+      "epistemic_status": "inference"
+    },
+    {
+      "source": "ag_charitable_trust",
+      "target": "holland",
+      "type": "investigation",
+      "weight": 7,
+      "label": "3 shared: banks, purpose_foundation, right_turn. Holland holds all 4 officer positions.",
+      "epistemic_status": "inference"
+    },
+    {
+      "source": "ag_office",
+      "target": "banks",
+      "type": "investigation",
+      "weight": 7,
+      "label": "4 shared: ag_charitable_trust, goetz, moreland, nessel. CT complaint filed Oct 12.",
+      "epistemic_status": "record"
+    },
+    {
       "source": "mde",
       "target": "banks",
       "type": "investigation",
@@ -6532,6 +6964,14 @@
       "viz_type": "institutional",
       "flow": "power",
       "label": "investigated Feb 2022, cleared"
+    },
+    {
+      "source": "ross_jones",
+      "target": "banks",
+      "type": "investigation",
+      "weight": 7,
+      "label": "WXYZ investigative coverage of Banks/charter schools",
+      "epistemic_status": "record"
     },
     {
       "source": "schmiedeknecht",
@@ -6723,6 +7163,38 @@
       "source_doc": "Graph prediction: 4 shared neighbors"
     },
     {
+      "source": "banks",
+      "target": "detroit_city",
+      "type": "jurisdiction",
+      "weight": 6,
+      "label": "4 shared: dpd, macdowell, pca, sheffield. Schools operate in Detroit.",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "banks",
+      "target": "wayne_county",
+      "type": "jurisdiction",
+      "weight": 6,
+      "label": "4 shared: court_3rd, kym_worthy, macdowell, pca. All operations in Wayne Co.",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "court_3rd",
+      "target": "dpscd",
+      "type": "jurisdiction",
+      "weight": 6,
+      "label": "4 shared: banks, macdowell, mde, pca. Wayne 3rd Circuit = charter school disputes.",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "court_3rd",
+      "target": "detroit_city",
+      "type": "jurisdiction",
+      "weight": 6,
+      "label": "4 shared: macdowell, pca, sheffield, wayne_county.",
+      "epistemic_status": "record"
+    },
+    {
       "source": "detroit_city",
       "target": "pca",
       "type": "jurisdiction",
@@ -6757,6 +7229,22 @@
       "note": "PCA authorized by DPSCD (Jul 2025). OIG has jurisdiction over authorization process.",
       "weight": 6,
       "source_doc": "detroitk12.org OIG"
+    },
+    {
+      "source": "kym_worthy",
+      "target": "macdowell",
+      "type": "jurisdiction",
+      "weight": 6,
+      "label": "4 shared: banks, court_3rd, pca, wayne_county. Prosecutor over charter school jurisdiction.",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "metro_property",
+      "target": "wayne_county",
+      "type": "jurisdiction",
+      "weight": 6,
+      "label": "Wayne County real estate operations",
+      "epistemic_status": "record"
     },
     {
       "source": "nessel",
@@ -6813,6 +7301,14 @@
       "source_doc": "Localities sweep + jurisdiction analysis"
     },
     {
+      "source": "wayne_resa",
+      "target": "wayne_county",
+      "type": "jurisdiction",
+      "weight": 6,
+      "label": "Wayne County regional education agency",
+      "epistemic_status": "record"
+    },
+    {
       "source": "aclu_mi",
       "target": "state_mi",
       "type": "jurisdiction",
@@ -6838,6 +7334,14 @@
       "weight": 5,
       "note": "MacDowell operates in Detroit metro area.",
       "source_doc": "Localities sweep + jurisdiction analysis"
+    },
+    {
+      "source": "harper_woods",
+      "target": "banks",
+      "type": "jurisdiction",
+      "weight": 5,
+      "label": "Yancey grew up on Banks' street in Harper Woods area",
+      "epistemic_status": "record"
     },
     {
       "source": "macdowell",
@@ -6915,6 +7419,14 @@
       "weight": 5,
       "note": "MacDowell in Wayne County area.",
       "source_doc": "Localities sweep + jurisdiction analysis"
+    },
+    {
+      "source": "perkins_law",
+      "target": "banks",
+      "type": "legal_representation",
+      "weight": 9,
+      "label": "Banks' personal attorney firm",
+      "epistemic_status": "record"
     },
     {
       "source": "todd_perkins",
@@ -7004,6 +7516,14 @@
       "note": "21-year mentor. Endorsed Banks despite criminal record.",
       "weight": 8,
       "source_doc": "Book analysis"
+    },
+    {
+      "source": "lenhoff",
+      "target": "beasley",
+      "type": "mentorship",
+      "weight": 7,
+      "label": "Dissertation committee member",
+      "epistemic_status": "record"
     },
     {
       "source": "macdowell",
@@ -7156,6 +7676,22 @@
       "source_doc": "DPSCD BoardDocs Policy 1270"
     },
     {
+      "source": "maleyko",
+      "target": "pca",
+      "type": "oversight",
+      "weight": 7,
+      "label": "3 shared: beasley, mde, sbe. Superintendent oversees authorizer of PCA.",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "maleyko",
+      "target": "dpscd",
+      "type": "oversight",
+      "weight": 7,
+      "label": "3 shared: beasley, mde, sbe. State Supt oversight of DPSCD.",
+      "epistemic_status": "record"
+    },
+    {
       "source": "sbe",
       "target": "cmu",
       "type": "oversight",
@@ -7181,6 +7717,14 @@
       "note": "SBE oversees all public school districts",
       "weight": 7,
       "source_doc": "MI Constitution Art VIII §3"
+    },
+    {
+      "source": "wayne_resa",
+      "target": "dpscd",
+      "type": "oversight",
+      "weight": 7,
+      "label": "Technical assistance to DPSCD (1 of 33 districts)",
+      "epistemic_status": "record"
     },
     {
       "source": "anchor_rock",
@@ -7309,6 +7853,14 @@
       "epistemic_status": "record"
     },
     {
+      "source": "banks_living_trust",
+      "target": "banks",
+      "type": "ownership",
+      "weight": 9,
+      "label": "Personal asset trust. GPW property.",
+      "epistemic_status": "record"
+    },
+    {
       "source": "roland_martin",
       "target": "nuvision_inc",
       "type": "ownership",
@@ -7316,6 +7868,14 @@
       "note": "CEO and owner. Full-service media firm. #RolandMartinUnfiltered, speakers bureau, book publishing, media consulting.",
       "weight": 9,
       "source_doc": "prweb.com; fox2detroit.com; TransparencyUSA"
+    },
+    {
+      "source": "todd_perkins",
+      "target": "perkins_law",
+      "type": "ownership",
+      "weight": 9,
+      "label": "Todd Perkins' law firm",
+      "epistemic_status": "record"
     },
     {
       "source": "banks",
@@ -7450,6 +8010,22 @@
       "source_doc": "the74million.org tour partner list"
     },
     {
+      "source": "detroit_peer",
+      "target": "dpscd",
+      "type": "partnership",
+      "weight": 7,
+      "label": "Research-practice partnership, data-sharing agreements",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "mackinac_center",
+      "target": "glep",
+      "type": "partnership",
+      "weight": 7,
+      "label": "School choice policy alignment",
+      "epistemic_status": "record"
+    },
+    {
       "source": "the_74",
       "target": "afc",
       "type": "partnership",
@@ -7494,6 +8070,14 @@
       "weight": 6,
       "note": "ExcelinEd (Jeb Bush) partners with SCBC tour. Education reform pipeline.",
       "source_doc": "Nu Vision SCBC tour partners list"
+    },
+    {
+      "source": "promise_schools",
+      "target": "dpscd",
+      "type": "partnership",
+      "weight": 6,
+      "label": "Detroit charter ecosystem",
+      "epistemic_status": "record"
     },
     {
       "source": "edchoice",
@@ -7708,6 +8292,14 @@
       "label": "succeeded 2002"
     },
     {
+      "source": "bert_johnson",
+      "target": "banks",
+      "type": "political",
+      "weight": 8,
+      "label": "Political ally. CBC Foundation. State Senate.",
+      "epistemic_status": "record"
+    },
+    {
       "source": "betsy_devos",
       "target": "charter_law_1993",
       "type": "political",
@@ -7750,6 +8342,14 @@
       "label": "succeeded 2024"
     },
     {
+      "source": "keith_stallworth",
+      "target": "banks",
+      "type": "political",
+      "weight": 8,
+      "label": "Campaign ally. State Rep HD-6.",
+      "epistemic_status": "record"
+    },
+    {
       "source": "kwame",
       "target": "bing",
       "type": "political",
@@ -7761,6 +8361,22 @@
       "label": "succeeded after conviction 2008"
     },
     {
+      "source": "advance_detroit",
+      "target": "banks",
+      "type": "political",
+      "weight": 7,
+      "label": "Campaign infrastructure",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "alma_stallworth",
+      "target": "banks",
+      "type": "political",
+      "weight": 7,
+      "label": "3 shared: keith_stallworth, stallworth_t, wells_stallworth. Dynasty→enterprise.",
+      "epistemic_status": "record"
+    },
+    {
       "source": "banks",
       "target": "misha_stallworth",
       "type": "political",
@@ -7768,6 +8384,22 @@
       "weight": 7,
       "note": "4 shared neighbors. Stallworth: DPSCD board, CitizenDetroit with Crump-Gibson, MacDowell.",
       "source_doc": "Graph prediction: 4 shared neighbors"
+    },
+    {
+      "source": "bert_johnson",
+      "target": "kwame",
+      "type": "political",
+      "weight": 7,
+      "label": "Detroit political network overlap",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "bert_johnson",
+      "target": "gay_dagnogo",
+      "type": "political",
+      "weight": 7,
+      "label": "3 shared: banks, black_caucus_found, kwame. Detroit Black political network.",
+      "epistemic_status": "record"
     },
     {
       "source": "bettison",
@@ -7781,6 +8413,22 @@
       "label": "OIG probe â€” phone call"
     },
     {
+      "source": "black_caucus_found",
+      "target": "banks",
+      "type": "political",
+      "weight": 7,
+      "label": "Banks connected through CBC network",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "black_caucus_found",
+      "target": "kwame",
+      "type": "political",
+      "weight": 7,
+      "label": "3 shared: banks, bert_johnson, gay_dagnogo. Detroit political dynasty hub.",
+      "epistemic_status": "record"
+    },
+    {
       "source": "gay_dagnogo",
       "target": "dpscd_auth",
       "type": "political",
@@ -7792,6 +8440,14 @@
       "label": "DPSCD board â†’ authorized PCA"
     },
     {
+      "source": "keith_stallworth",
+      "target": "advance_detroit",
+      "type": "political",
+      "weight": 7,
+      "label": "Political committee connection",
+      "epistemic_status": "inference"
+    },
+    {
       "source": "kwame",
       "target": "gay_dagnogo",
       "type": "political",
@@ -7799,6 +8455,30 @@
       "weight": 7,
       "note": "Kilpatrick political machine. Gay-Dagnogo is part of the Detroit political lineage.",
       "source_doc": "Historical records, Wikipedia, official bios"
+    },
+    {
+      "source": "mackinac_center",
+      "target": "charter_law_1993",
+      "type": "political",
+      "weight": 7,
+      "label": "Advocated for charter law expansion",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "virgil_smith",
+      "target": "kwame",
+      "type": "political",
+      "weight": 7,
+      "label": "Detroit political machine overlap",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "alice_thompson",
+      "target": "banks",
+      "type": "political",
+      "weight": 6,
+      "label": "Detroit education network overlap",
+      "epistemic_status": "inference"
     },
     {
       "source": "banks",
@@ -8107,6 +8787,22 @@
       "source_doc": "the74million.org tour articles"
     },
     {
+      "source": "vitti",
+      "target": "banks",
+      "type": "professional_connection",
+      "weight": 9,
+      "label": "Mentored Banks. Championed PCA authorization. Testified at TCR 22-12.",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "jolia_hill",
+      "target": "beasley",
+      "type": "professional_connection",
+      "weight": 8,
+      "label": "Sisters in the struggle — dissertation acknowledgment + Wayne RESA + Wayne State ELPS",
+      "epistemic_status": "record"
+    },
+    {
       "source": "chatfield",
       "target": "renae_moore",
       "type": "professional_connection",
@@ -8114,6 +8810,14 @@
       "note": "Moore named in Chatfield affidavit. Compliance officer across 80+ accounts, both parties.",
       "weight": 7,
       "source_doc": "Chatfield criminal case affidavit"
+    },
+    {
+      "source": "vitti",
+      "target": "beasley",
+      "type": "professional_connection",
+      "weight": 7,
+      "label": "Spoke at Beasley retirement video. Superintendent during her final DPSCD years.",
+      "epistemic_status": "record"
     },
     {
       "source": "glenn_page",
@@ -8159,6 +8863,14 @@
       "weight": 6,
       "note": "Both Wayne County Prosecutor's Office. Worthy is Prosecutor. Willis worked there.",
       "source_doc": "Localities sweep + jurisdiction analysis"
+    },
+    {
+      "source": "plante_moran",
+      "target": "dpscd",
+      "type": "professional_connection",
+      "weight": 6,
+      "label": "Public sector K-12 clients — largest districts in Michigan",
+      "epistemic_status": "inference"
     },
     {
       "source": "agc_willis",
@@ -8319,6 +9031,30 @@
       "source_doc": "lansing-naacp.org event listing"
     },
     {
+      "source": "beasley",
+      "target": "macdowell",
+      "type": "structural_proximity",
+      "weight": 7,
+      "label": "4 shared: banks, dpscd, pca, yancey. Sister chairs MacDowell board.",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "pca",
+      "target": "yancey",
+      "type": "structural_proximity",
+      "weight": 7,
+      "label": "4 shared: banks, beasley, court_36th, macdowell. Sister runs PCA.",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "sc_cavanagh",
+      "target": "upl_dept",
+      "type": "structural_proximity",
+      "weight": 7,
+      "label": "4 shared: agc, banks, mi_supreme_court, sbm. Cavanagh is liaison to UPL's parent bodies.",
+      "epistemic_status": "inference"
+    },
+    {
       "source": "wilk",
       "target": "renae_moore",
       "type": "structural_proximity",
@@ -8328,6 +9064,54 @@
       "source_doc": "run_it_back.py missing edge prediction"
     },
     {
+      "source": "beasley",
+      "target": "sbe",
+      "type": "structural_proximity",
+      "weight": 6,
+      "label": "5 shared: banks, dpscd, emu, pca, vitti. SBE oversees her authorizer.",
+      "epistemic_status": "inference"
+    },
+    {
+      "source": "crump_gibson",
+      "target": "dpscd",
+      "type": "structural_proximity",
+      "weight": 6,
+      "label": "4 shared: banks, jennifer_crump, macdowell, misha_stallworth.",
+      "epistemic_status": "inference"
+    },
+    {
+      "source": "gay_dagnogo",
+      "target": "vitti",
+      "type": "structural_proximity",
+      "weight": 6,
+      "label": "4 shared: banks, dpscd, pca, sbe. Both former DPSCD board.",
+      "epistemic_status": "inference"
+    },
+    {
+      "source": "maleyko",
+      "target": "beasley",
+      "type": "structural_proximity",
+      "weight": 6,
+      "label": "Same Wayne State ELPS dept. He oversees her authorizer.",
+      "epistemic_status": "inference"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "thomas_ryan",
+      "type": "structural_proximity",
+      "weight": 6,
+      "label": "4 shared: banks, jtc, sc_cavanagh, ud_mercy_law. Ryan is JTC Chair, U of D Mercy.",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "pca",
+      "target": "perkins_sean",
+      "type": "structural_proximity",
+      "weight": 6,
+      "label": "5 shared: banks, court_36th, ms_perkins_pca, sean_perkins, todd_perkins.",
+      "epistemic_status": "inference"
+    },
+    {
       "source": "banks",
       "target": "dpscd",
       "type": "structural_proximity",
@@ -8335,6 +9119,14 @@
       "weight": 5,
       "note": "Graph prediction: 5 shared neighbors. Via: Sherry Gay-Dagnogo, Purpose Charter Acad, Michigan State Board, Misha Stallworth Wes, MacDowell Preparator",
       "source_doc": "run_it_back.py missing edge prediction"
+    },
+    {
+      "source": "promise_schools",
+      "target": "banks",
+      "type": "structural_proximity",
+      "weight": 5,
+      "label": "Charter ecosystem overlap",
+      "epistemic_status": "inference"
     },
     {
       "source": "banks",
@@ -8499,795 +9291,11 @@
       "source_doc": "run_it_back.py missing edge prediction"
     },
     {
-      "source": "beasley",
-      "target": "yancey",
-      "type": "family",
-      "weight": 10,
-      "label": "Sisters — confirmed in Beasley dissertation dedication",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "beasley",
-      "target": "ahmed_beasley",
-      "type": "family",
-      "weight": 8,
-      "label": "Married — dissertation dedication",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "beasley",
-      "target": "wmu",
-      "type": "education",
-      "weight": 6,
-      "label": "BS Elementary Education",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "beasley",
-      "target": "marygrove",
-      "type": "education",
-      "weight": 6,
-      "label": "MA Teaching",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "beasley",
-      "target": "wayne_state_law",
-      "type": "education",
-      "weight": 8,
-      "label": "PhD Educational Leadership & Policy Studies 2023",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "beasley",
-      "target": "cass_tech",
-      "type": "education",
-      "weight": 5,
-      "label": "High school alumna",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "beasley",
-      "target": "bunche_prep",
-      "type": "employment",
-      "weight": 8,
-      "label": "Principal 2021-2025",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "beasley",
-      "target": "wayne_resa",
-      "type": "employment",
-      "weight": 6,
-      "label": "School Improvement Facilitator",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "bunche_prep",
-      "target": "dpscd",
-      "type": "governance",
-      "weight": 7,
-      "label": "DPSCD school",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "jolia_hill",
+      "source": "ann_arbor",
       "target": "emu",
-      "type": "employment",
-      "weight": 9,
-      "label": "Director Charter Schools — terminated DPSA",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "jolia_hill",
-      "target": "gvsu",
-      "type": "employment",
-      "weight": 7,
-      "label": "AVP K-12 Academics & Innovation (Sep 2026)",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "jolia_hill",
-      "target": "wayne_resa",
-      "type": "employment",
-      "weight": 7,
-      "label": "10+ years technical assistance to 33 districts",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "jolia_hill",
-      "target": "wayne_state_law",
-      "type": "education",
-      "weight": 8,
-      "label": "PhD Educational Leadership & Policy Studies",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "jolia_hill",
-      "target": "msu",
-      "type": "education",
-      "weight": 6,
-      "label": "BS",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "jolia_hill",
-      "target": "beasley",
-      "type": "professional_connection",
-      "weight": 8,
-      "label": "Sisters in the struggle — dissertation acknowledgment + Wayne RESA + Wayne State ELPS",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "jolia_hill",
-      "target": "dpsa",
-      "type": "authorization_terminated",
-      "weight": 10,
-      "label": "Terminated DPSA charter — EMU Regents Jun 2026",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "lenhoff",
-      "target": "wayne_state_law",
-      "type": "employment",
-      "weight": 7,
-      "label": "Professor ELPS, Leonard Kaplan Endowed Chair",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "lenhoff",
-      "target": "beasley",
-      "type": "mentorship",
-      "weight": 7,
-      "label": "Dissertation committee member",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "lenhoff",
-      "target": "detroit_peer",
-      "type": "governance",
-      "weight": 8,
-      "label": "Faculty Director",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "detroit_peer",
-      "target": "dpscd",
-      "type": "partnership",
-      "weight": 7,
-      "label": "Research-practice partnership, data-sharing agreements",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "detroit_peer",
-      "target": "skillman_foundation",
-      "type": "funding",
-      "weight": 7,
-      "label": "Grant funding for Detroit charter/attendance research",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "wayne_resa",
-      "target": "dpscd",
-      "type": "oversight",
-      "weight": 7,
-      "label": "Technical assistance to DPSCD (1 of 33 districts)",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "wayne_resa",
-      "target": "wayne_county",
-      "type": "jurisdiction",
-      "weight": 6,
-      "label": "Wayne County regional education agency",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "marygrove",
-      "target": "ud_mercy_law",
-      "type": "formation",
-      "weight": 5,
-      "label": "Programs absorbed when Marygrove closed 2019",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "beasley",
-      "target": "banks",
-      "type": "employment",
-      "weight": 9,
-      "label": "School Leader at Banks' PCA — recruited post-DPSCD retirement",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "ahmed_beasley",
-      "target": "plante_moran",
-      "type": "employment",
-      "weight": 8,
-      "label": "SVP, Plante Moran Realpoint — K-12 construction",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "ahmed_beasley",
-      "target": "barton_malow",
-      "type": "employment",
-      "weight": 7,
-      "label": "17yr K-12 project engineer/superintendent/PM",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "ahmed_beasley",
-      "target": "lawrence_tech",
-      "type": "education",
-      "weight": 5,
-      "label": "BS Civil Engineering",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "plante_moran",
-      "target": "dpscd",
-      "type": "professional_connection",
-      "weight": 6,
-      "label": "Public sector K-12 clients — largest districts in Michigan",
-      "epistemic_status": "inference"
-    },
-    {
-      "source": "beasley",
-      "target": "river_rouge_sd",
-      "type": "employment",
-      "weight": 5,
-      "label": "Curriculum Director",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "beasley",
-      "target": "emu",
-      "type": "education",
-      "weight": 5,
-      "label": "Leading for Equity & Justice Certificate, Jul 2020",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "vitti",
-      "target": "banks",
-      "type": "professional_connection",
-      "weight": 9,
-      "label": "Mentored Banks. Championed PCA authorization. Testified at TCR 22-12.",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "vitti",
-      "target": "beasley",
-      "type": "professional_connection",
-      "weight": 7,
-      "label": "Spoke at Beasley retirement video. Superintendent during her final DPSCD years.",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "bunche_prep",
-      "target": "beasley",
-      "type": "employment",
-      "weight": 8,
-      "label": "Principal 2021-2025. Under her leadership: #3022/3025 MI schools. ≤1% math. 7% reading.",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "ag_charitable_trust",
-      "target": "ag_office",
-      "type": "governance",
-      "weight": 8,
-      "label": "Division of MI Attorney General",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "ag_charitable_trust",
-      "target": "purpose_foundation",
-      "type": "investigation",
-      "weight": 9,
-      "label": "Complaint filed Oct 12 2026. Acknowledged 12:19 PM. 30-45 day review.",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "ag_charitable_trust",
-      "target": "banks",
-      "type": "investigation",
-      "weight": 8,
-      "label": "Subject of charitable trust complaint — 9 convictions, all 4 officer positions",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "ag_charitable_trust",
-      "target": "right_turn",
-      "type": "investigation",
-      "weight": 7,
-      "label": "Secondary target in complaint — Banks dark money vehicle",
-      "epistemic_status": "inference"
-    },
-    {
-      "source": "beasley",
-      "target": "sbe",
-      "type": "structural_proximity",
-      "weight": 6,
-      "label": "5 shared: banks, dpscd, emu, pca, vitti. SBE oversees her authorizer.",
-      "epistemic_status": "inference"
-    },
-    {
-      "source": "beasley",
-      "target": "macdowell",
-      "type": "structural_proximity",
-      "weight": 7,
-      "label": "4 shared: banks, dpscd, pca, yancey. Sister chairs MacDowell board.",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "pca",
-      "target": "yancey",
-      "type": "structural_proximity",
-      "weight": 7,
-      "label": "4 shared: banks, beasley, court_36th, macdowell. Sister runs PCA.",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "ag_office",
-      "target": "banks",
-      "type": "investigation",
-      "weight": 7,
-      "label": "4 shared: ag_charitable_trust, goetz, moreland, nessel. CT complaint filed Oct 12.",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "banks",
-      "target": "detroit_city",
-      "type": "jurisdiction",
-      "weight": 6,
-      "label": "4 shared: dpd, macdowell, pca, sheffield. Schools operate in Detroit.",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "banks",
-      "target": "wayne_county",
-      "type": "jurisdiction",
-      "weight": 6,
-      "label": "4 shared: court_3rd, kym_worthy, macdowell, pca. All operations in Wayne Co.",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "court_3rd",
-      "target": "dpscd",
-      "type": "jurisdiction",
-      "weight": 6,
-      "label": "4 shared: banks, macdowell, mde, pca. Wayne 3rd Circuit = charter school disputes.",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "court_3rd",
-      "target": "detroit_city",
-      "type": "jurisdiction",
-      "weight": 6,
-      "label": "4 shared: macdowell, pca, sheffield, wayne_county.",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "crump_gibson",
-      "target": "dpscd",
-      "type": "structural_proximity",
-      "weight": 6,
-      "label": "4 shared: banks, jennifer_crump, macdowell, misha_stallworth.",
-      "epistemic_status": "inference"
-    },
-    {
-      "source": "gay_dagnogo",
-      "target": "vitti",
-      "type": "structural_proximity",
-      "weight": 6,
-      "label": "4 shared: banks, dpscd, pca, sbe. Both former DPSCD board.",
-      "epistemic_status": "inference"
-    },
-    {
-      "source": "kym_worthy",
-      "target": "macdowell",
-      "type": "jurisdiction",
-      "weight": 6,
-      "label": "4 shared: banks, court_3rd, pca, wayne_county. Prosecutor over charter school jurisdiction.",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "sc_cavanagh",
-      "target": "upl_dept",
-      "type": "structural_proximity",
-      "weight": 7,
-      "label": "4 shared: agc, banks, mi_supreme_court, sbm. Cavanagh is liaison to UPL's parent bodies.",
-      "epistemic_status": "inference"
-    },
-    {
-      "source": "charter_law_1993",
-      "target": "sbe",
-      "type": "governance",
-      "weight": 5,
-      "label": "4 shared: banks, cmu, macdowell, pca. PA 362 created charter framework SBE oversees.",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "mi_supreme_court",
-      "target": "thomas_ryan",
-      "type": "structural_proximity",
-      "weight": 6,
-      "label": "4 shared: banks, jtc, sc_cavanagh, ud_mercy_law. Ryan is JTC Chair, U of D Mercy.",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "pca",
-      "target": "perkins_sean",
-      "type": "structural_proximity",
-      "weight": 6,
-      "label": "5 shared: banks, court_36th, ms_perkins_pca, sean_perkins, todd_perkins.",
-      "epistemic_status": "inference"
-    },
-    {
-      "source": "bert_johnson",
-      "target": "banks",
-      "type": "political",
-      "weight": 8,
-      "label": "Political ally. CBC Foundation. State Senate.",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "bert_johnson",
-      "target": "black_caucus_found",
-      "type": "governance",
-      "weight": 8,
-      "label": "CBC Foundation leadership",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "bert_johnson",
-      "target": "kwame",
-      "type": "political",
-      "weight": 7,
-      "label": "Detroit political network overlap",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "alma_stallworth",
-      "target": "stallworth_t",
-      "type": "family",
-      "weight": 10,
-      "label": "Mother of Thomas Stallworth Jr.",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "alma_stallworth",
-      "target": "keith_stallworth",
-      "type": "family",
-      "weight": 10,
-      "label": "Mother of Keith Stallworth",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "keith_stallworth",
-      "target": "banks",
-      "type": "political",
-      "weight": 8,
-      "label": "Campaign ally. State Rep HD-6.",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "keith_stallworth",
-      "target": "advance_detroit",
-      "type": "political",
-      "weight": 7,
-      "label": "Political committee connection",
-      "epistemic_status": "inference"
-    },
-    {
-      "source": "alma_stallworth",
-      "target": "wells_stallworth",
-      "type": "family",
-      "weight": 9,
-      "label": "Mother-in-law to Nicole Wells-Stallworth",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "eric_sabree",
-      "target": "metro_property",
-      "type": "employment",
-      "weight": 8,
-      "label": "Legal counsel, Metro Property Group",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "metro_property",
-      "target": "wayne_county",
-      "type": "jurisdiction",
-      "weight": 6,
-      "label": "Wayne County real estate operations",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "todd_perkins",
-      "target": "perkins_law",
-      "type": "ownership",
-      "weight": 9,
-      "label": "Todd Perkins' law firm",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "perkins_law",
-      "target": "banks",
-      "type": "legal_representation",
-      "weight": 9,
-      "label": "Banks' personal attorney firm",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "miller",
-      "target": "baker_college",
-      "type": "education",
-      "weight": 6,
-      "label": "Credentialed at Baker College",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "moreland",
-      "target": "baker_college",
-      "type": "education",
-      "weight": 6,
-      "label": "Credentialed at Baker College",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "black_caucus_found",
-      "target": "banks",
-      "type": "political",
-      "weight": 7,
-      "label": "Banks connected through CBC network",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "black_caucus_found",
-      "target": "gay_dagnogo",
-      "type": "governance",
-      "weight": 7,
-      "label": "CHOJLF/CBC cross-connection",
-      "epistemic_status": "inference"
-    },
-    {
-      "source": "promise_schools",
-      "target": "dpscd",
-      "type": "partnership",
-      "weight": 6,
-      "label": "Detroit charter ecosystem",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "promise_schools",
-      "target": "banks",
-      "type": "structural_proximity",
-      "weight": 5,
-      "label": "Charter ecosystem overlap",
-      "epistemic_status": "inference"
-    },
-    {
-      "source": "mackinac_center",
-      "target": "devos_foundation",
-      "type": "funding",
-      "weight": 8,
-      "label": "DeVos-funded policy arm",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "mackinac_center",
-      "target": "glep",
-      "type": "partnership",
-      "weight": 7,
-      "label": "School choice policy alignment",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "mackinac_center",
-      "target": "charter_law_1993",
-      "type": "political",
-      "weight": 7,
-      "label": "Advocated for charter law expansion",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "banks_living_trust",
-      "target": "banks",
-      "type": "ownership",
-      "weight": 9,
-      "label": "Personal asset trust. GPW property.",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "maleyko",
-      "target": "sbe",
-      "type": "governance",
-      "weight": 9,
-      "label": "SBE Chair, Superintendent of Public Instruction (Dec 2025)",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "maleyko",
-      "target": "mde",
-      "type": "governance",
-      "weight": 9,
-      "label": "Heads MDE",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "maleyko",
-      "target": "wayne_state_law",
-      "type": "education",
-      "weight": 7,
-      "label": "PhD Wayne State ELPS — same dept as Beasley, Hill",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "ross_jones",
-      "target": "banks",
-      "type": "investigation",
-      "weight": 7,
-      "label": "WXYZ investigative coverage of Banks/charter schools",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "gasper_fiore",
-      "target": "banks",
-      "type": "corruption",
-      "weight": 6,
-      "label": "Wiretap target list overlap",
-      "epistemic_status": "inference"
-    },
-    {
-      "source": "advance_detroit",
-      "target": "banks",
-      "type": "political",
-      "weight": 7,
-      "label": "Campaign infrastructure",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "alice_thompson",
-      "target": "naacp_detroit",
-      "type": "governance",
-      "weight": 7,
-      "label": "NAACP Detroit connection",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "alice_thompson",
-      "target": "banks",
-      "type": "political",
-      "weight": 6,
-      "label": "Detroit education network overlap",
-      "epistemic_status": "inference"
-    },
-    {
-      "source": "virgil_smith",
-      "target": "kwame",
-      "type": "political",
-      "weight": 7,
-      "label": "Detroit political machine overlap",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "virgil_smith",
-      "target": "detroit_city",
-      "type": "governance",
-      "weight": 6,
-      "label": "Former State Senator, Detroit",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "harper_woods",
-      "target": "banks",
       "type": "jurisdiction",
       "weight": 5,
-      "label": "Yancey grew up on Banks' street in Harper Woods area",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "maleyko",
-      "target": "beasley",
-      "type": "structural_proximity",
-      "weight": 6,
-      "label": "Same Wayne State ELPS dept. He oversees her authorizer.",
-      "epistemic_status": "inference"
-    },
-    {
-      "source": "mde_prof_practice",
-      "target": "mde",
-      "type": "governance",
-      "weight": 8,
-      "label": "Division of MDE — criminal conviction review for educators",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "mde_prof_practice",
-      "target": "banks",
-      "type": "investigation",
-      "weight": 9,
-      "label": "Complaint filed Oct 12. Auto-ack 12:19 PM. HOLD on permit #590606.",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "mde_prof_practice",
-      "target": "mde_oee",
-      "type": "governance",
-      "weight": 7,
-      "label": "Professional Practice is part of OEE",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "brozanski",
-      "target": "mde_prof_practice",
-      "type": "governance",
-      "weight": 8,
-      "label": "Director, Professional Practice",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "alma_stallworth",
-      "target": "banks",
-      "type": "political",
-      "weight": 7,
-      "label": "3 shared: keith_stallworth, stallworth_t, wells_stallworth. Dynasty→enterprise.",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "maleyko",
-      "target": "pca",
-      "type": "oversight",
-      "weight": 7,
-      "label": "3 shared: beasley, mde, sbe. Superintendent oversees authorizer of PCA.",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "maleyko",
-      "target": "dpscd",
-      "type": "oversight",
-      "weight": 7,
-      "label": "3 shared: beasley, mde, sbe. State Supt oversight of DPSCD.",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "ag_charitable_trust",
-      "target": "holland",
-      "type": "investigation",
-      "weight": 7,
-      "label": "3 shared: banks, purpose_foundation, right_turn. Holland holds all 4 officer positions.",
-      "epistemic_status": "inference"
-    },
-    {
-      "source": "ag_charitable_trust",
-      "target": "nessel",
-      "type": "governance",
-      "weight": 6,
-      "label": "3 shared: ag_office, banks, purpose_foundation. CT Section reports to AG Nessel.",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "bert_johnson",
-      "target": "gay_dagnogo",
-      "type": "political",
-      "weight": 7,
-      "label": "3 shared: banks, black_caucus_found, kwame. Detroit Black political network.",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "black_caucus_found",
-      "target": "kwame",
-      "type": "political",
-      "weight": 7,
-      "label": "3 shared: banks, bert_johnson, gay_dagnogo. Detroit political dynasty hub.",
-      "epistemic_status": "record"
-    },
-    {
-      "source": "mackinac_center",
-      "target": "betsy_devos",
-      "type": "funding",
-      "weight": 7,
-      "label": "3 shared: charter_law_1993, devos_foundation, glep. DeVos policy arm.",
+      "label": "EMU in Ypsilanti, adjacent to Ann Arbor",
       "epistemic_status": "record"
     }
   ],
