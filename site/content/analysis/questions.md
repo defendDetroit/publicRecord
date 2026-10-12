@@ -1,6 +1,6 @@
 +++
-title = "21 Questions You Can Answer Yourself"
-description = "We're not asking you to believe us. We're asking you to look. Every question below can be answered with a public records search. The answers are at detroit.primals.eco. But you don't have to take our word for it. Go check."
+title = "33 Questions You Can Answer Yourself"
+description = "We're not asking you to believe us. We're asking you to look. Every question below can be answered with a public records search — court records, PACER, FEC filings, LARA, MOECS, Amazon, LinkedIn. The answers are at detroit.primals.eco. But you don't have to take our word for it. Go check."
 date = 2026-10-12
 weight = 1
 
@@ -186,9 +186,163 @@ Every dollar. Every grant report. Every filing.
 
 ---
 
+## The Book
+
+**20. Brian Banks wrote a book called "It Had 2 Happen: The Agony of Success." On the cover, he calls himself "Brian Banks J.D." Has he ever been admitted to any bar?**
+
+Search the State Bar of Michigan. Zero results. He has never
+been licensed to practice law anywhere. But "J.D." is on the
+book, on the school websites, on LinkedIn, and on his Walden
+University Ph.D. dissertation cover page.
+
+A book is a party admission under the Federal Rules of Evidence
+(FRE 801(d)(2)(A)). He published his own confession.
+
+*(Verify: [State Bar of Michigan](https://e.courts.state.mi.us/mcr/), Amazon ISBN 978-1-7357540-3-1)*
+
+**21. In the acknowledgments section of that same book, Banks names his mentor. Who is she? What does she do for a living?**
+
+Judge Cylenthia LaToye Miller. Wayne County 3rd Circuit Court.
+She is also the Board Chair of Purpose Charter Academy — Banks'
+newest school.
+
+In 2012, when Banks ran for state office under fraudulent legal
+credentials, Miller said publicly: *"This is exactly the kind of
+person we want people to be, when they have made these mistakes.
+He's a poster child for what you want people to do."*
+
+She is a cum laude graduate of MSU Law. She knew what "J.D."
+means. She knew he didn't have one.
+
+*(Verify: [Banks book](https://amazon.com/dp/173575403X), [keepjudgemiller.com](https://keepjudgemiller.com), [PCA Board](https://purposecharteracademy.com/boardofdirectors))*
+
+---
+
+## The Family
+
+**22. Who is OD Banks? What federal case is he associated with?**
+
+OD Banks is Brian Banks' biological father. Search PACER for
+case 2:05-cr-80955 in the Eastern District of Michigan.
+
+That's the **Black Mafia Family** case — one of the largest
+federal drug conspiracy prosecutions in American history.
+
+*(Verify: [PACER](https://pacer.gov) — Case 2:05-cr-80955, E.D. Mich.)*
+
+**23. Who is Tonesa Welch? How is she related to Brian Banks?**
+
+Tonesa Welch is Brian Banks' aunt — through OD Banks. She
+wrote a book about her role in BMF. BET+ made a movie about
+her: "First Lady of BMF," directed by Vivica A. Fox.
+
+She also wrote a book about the operation. So did Brian Banks.
+Both are party admissions. Neither contains meaningful
+acceptance of responsibility. Both return to profiting from
+the activities they describe.
+
+*(Verify: Amazon — "The Real BMF: The Tonesa Welch Story," PACER — BMF case)*
+
+---
+
+## The Treasurer
+
+**24. Joseph Holland Jr. is the Treasurer of Purpose Foundation and the Treasurer of Brian Banks' political action committee. How many personal bankruptcies has he filed?**
+
+Five. In nine years. Search PACER — Eastern District of Michigan.
+
+BK3 (09-46072): Dismissed by Judge Steven Rhodes for "lack of
+good faith." BK4 (14-46410): Dismissed because he never filed a
+single document — pure automatic stay abuse. BK5 (14-51632):
+$117,149 in unsecured debt discharged — three months after BK4.
+
+This is the man who controls the money for an organization
+receiving $4.9 million in public education funds.
+
+*(Verify: [PACER](https://pacer.gov) — E.D. Mich bankruptcy, search "Williams, Joseph Antione" or "Joseph Holland")*
+
+**25. In his 2009 bankruptcy, Holland disclosed a property at 21456 Newcastle Road held jointly with Banks. In his 2014 bankruptcy, did he disclose it?**
+
+No. He checked "None" under Real Property. Swore under penalty
+of perjury he owned no real estate. The deed (QCD #2007402847)
+was never reversed. He still owned it.
+
+The court discharged $110,305 without knowing he owned joint
+property with a convicted felon.
+
+That's 18 U.S.C. § 152(1) — concealment of assets in bankruptcy.
+And 18 U.S.C. § 152(3) — false oath.
+
+*(Verify: [PACER](https://pacer.gov) — Compare 09-46072 Schedule A vs. 14-51632 Schedule A. [Wayne County ROD](https://waynecountylandrecords.com) — QCD #2007402847)*
+
+**26. What was Holland's MDOC discharge status?**
+
+"WITHOUT IMPROVEMENT." That's what the Michigan Department
+of Corrections wrote when they released him. Search MDOC OTIS,
+prisoner #443789.
+
+This is the man who serves as Secretary AND Treasurer of Purpose
+Foundation — both financial oversight positions — for a school
+receiving millions in public funds.
+
+*(Verify: [MDOC OTIS](https://mdocweb.state.mi.us/OTIS2) — #443789)*
+
+---
+
+## The Judge
+
+**27. Judge Miller carried a loaded, unregistered .380 handgun through DTW airport security in June 2024. Who was her defense attorney?**
+
+Todd Perkins. The same attorney who represents Brian Banks.
+
+She told police she got the gun "from her brother" in Ohio. The
+man was later determined to be not a relative. The Judicial Tenure
+Commission dismissed the case "with an admonition."
+
+*(Verify: WXYZ Ross Jones coverage, [JTC](https://jtc.courts.mi.gov))*
+
+**28. In December 2025, Judge Miller dismissed charges against a man accused of killing a 9-month-old infant. What did the prosecutor say?**
+
+Prosecutor Worthy called the dismissal "outrageous" and said
+Miller showed "bias throughout the trial" and should have recused.
+
+This is the judge who chairs the board of Purpose Charter Academy.
+
+*(Verify: WXYZ coverage, Wayne County 3rd Circuit records)*
+
+**29. Judge Miller and Brian Banks both taught Criminal Justice at Baker College Allen Park. She is a cum laude MSU Law graduate. He is a convicted felon who has never been admitted to any bar. She watched him teach criminal justice under fraudulent credentials — and said nothing?**
+
+Ask Baker College. Ask MSU Law.
+
+*(Verify: [Baker College](https://bakercollege.edu), MSU Law alumni records, Miller LinkedIn — "Adjunct Aug 2012 – Jun 2020")*
+
+---
+
+## The Assistant Attorney General
+
+**30. Lamar Moreland is an Assistant Attorney General. The AG's office previously charged Brian Banks with three felonies. Moreland now sits on the board of Banks' school. Is the Attorney General aware?**
+
+The AG's office charged Banks in 2016. Three felonies. He got
+one day. Now one of that same office's attorneys governs his
+newest school.
+
+*(Verify: [Purpose Charter Academy Board](https://purposecharteracademy.com/boardofdirectors), [Wayne County 3rd Circuit](https://cmspublic.3702.waynecounty.com) — Banks 2016 case)*
+
+**31. Moreland is running for judge in the 32A District Court. What city does that court serve? Where does Brian Banks live?**
+
+32A District Court serves Harper Woods and Grosse Pointe Woods.
+Brian Banks lives at 1968 Severn Road, Grosse Pointe Woods.
+
+If Moreland wins, Banks' own school board member will be the
+judge in Banks' home jurisdiction.
+
+*(Verify: [MI SOS candidate filings](https://mvic.sos.state.mi.us), LARA entity records — Banks address)*
+
+---
+
 ## The Real Questions
 
-**20. Do you know who speaks for your community? Did you choose them?**
+**32. Do you know who speaks for your community? Did you choose them?**
 
 Roland Martin says he speaks for the Black community. Brian Banks
 says he transforms education. Alice Thompson chairs the NAACP
@@ -198,11 +352,12 @@ for 30 years.
 But the parents whose children sit in a classroom with 3% math
 proficiency — did anyone ask them?
 
-**21. If every claim on this site is wrong — why is it all sourced to records these organizations published themselves?**
+**33. If every claim on this site is wrong — why is it all sourced to records these organizations published themselves?**
 
 Every grant from Walton's own reports. Every conviction from
 court records. Every board member from the school's own website.
-Every credential from Michigan's own database.
+Every credential from Michigan's own database. Every bankruptcy
+from PACER. Every book from Amazon.
 
 If we're wrong, show us where. The evidence is public.
 The methodology is open. The site has no cookies, no tracking,
@@ -212,6 +367,6 @@ no advertising, and no paywall.
 
 ---
 
-*129 nodes. 214 edges. 232 epitopes. 43 documents.*
+*129 nodes. 214 edges. 238 epitopes. 44 documents.*
 *Every claim cited. Every source linked. Every commit timestamped.*
 *No cookies. No tracking. No author.*
