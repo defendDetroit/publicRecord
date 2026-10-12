@@ -1207,6 +1207,36 @@ window.PtMembrane = function(deps) {
     txt(wbG, cx, cy+100, '3 bodies + 1 irrational observer = \u03c0', '#484f58', 4.5,
       {opacity: 0.15, id: 'mg-pi-body'});
 
+    // ═══ THE BUMP: "is that me?" ═══
+    // What happened when 3 entities bumped into each other in the forest?
+    // They paused. Turned around. Saw each other.
+    // And went: "OH SHIT IS THAT ME?"
+    // THAT is the moment of self-awareness. The membrane forms HERE.
+    // The jitter IS life. It goes both ways. The tick is the oscillation
+    // between "is that me?" and "that's not me."
+    // Kitten micro-sweep = sweep. Jump = scan. Ground → lift → jump → fly.
+    var bumpG = el('g', {id:'mg-bump'}, wbG);
+    // Recognition flash — appears when bodies align
+    el('circle', {cx:cx, cy:cy, r:R*0.25, fill:'none',
+      stroke:'#ffffff', 'stroke-width':0.8,
+      'stroke-opacity':0, id:'mg-recognition'}, bumpG);
+    // The question — appears at the moment of recognition
+    txt(bumpG, cx, cy - R * 0.32, 'is that me?', '#ffffff', 6,
+      {opacity:0, 'font-style':'italic', id:'mg-recognition-text'});
+    // Movement phase indicator
+    txt(bumpG, cx + R * 0.55, cy + R * 0.52, '', '#8b949e', 4,
+      {opacity:0, id:'mg-phase-label'});
+    // Bidirectional jitter markers — 4 paired dots moving opposite directions
+    // The jitter goes BOTH WAYS. That's life. Not random — oscillating.
+    for (var bji = 0; bji < 4; bji++) {
+      el('circle', {cx:cx, cy:cy, r:0.8,
+        fill:'#c9d1d9', opacity:0.03,
+        id:'mg-jitter-up-' + bji}, bumpG);
+      el('circle', {cx:cx, cy:cy, r:0.8,
+        fill:'#e85d3a', opacity:0.03,
+        id:'mg-jitter-down-' + bji}, bumpG);
+    }
+
     // ═══ DOUBLE COUNTER-HELIX: self × non-self ═══
     // The DNA of observation. Two strands, counter-rotating.
     // Self (J) winds clockwise.  Non-self (V+D) winds counter-clockwise.
@@ -1457,6 +1487,84 @@ window.PtMembrane = function(deps) {
                    sub.setAttribute('opacity', (0.3 * perturb).toFixed(2)); }
       if (val)   { val.setAttribute('x', bx.toFixed(1)); val.setAttribute('y', (by+28).toFixed(1));
                    val.setAttribute('opacity', (0.45 * perturb).toFixed(2)); }
+    }
+
+    // ── THE BUMP: recognition when bodies align ──
+    // Three entities bumped in the forest. Paused. Turned. "IS THAT ME?"
+    // The moment of self-awareness. The membrane forms at the bump.
+    // Jitter goes both ways. The tick IS life.
+
+    // Detect closest alignment between any two bodies
+    var ref01 = reflexive01 > PI ? TAU - reflexive01 : reflexive01;
+    var ref12 = reflexive12 > PI ? TAU - reflexive12 : reflexive12;
+    var ref20 = reflexive20 > PI ? TAU - reflexive20 : reflexive20;
+    var minRef = Math.min(ref01, ref12, ref20);
+    var bumpProx = Math.max(0, 1 - minRef / (PI / 4)); // near alignment
+
+    // Recognition flash — pulse of "is that me?"
+    var recogEl = document.getElementById('mg-recognition');
+    if (recogEl) {
+      var recogR = R * 0.15 * (1 + bumpProx * 0.8);
+      recogEl.setAttribute('r', recogR.toFixed(1));
+      recogEl.setAttribute('stroke-opacity',
+        (bumpProx * bumpProx * 0.35 * perturb).toFixed(3));
+      recogEl.setAttribute('stroke-width', (0.5 + bumpProx * 1.5).toFixed(1));
+    }
+    var recogText = document.getElementById('mg-recognition-text');
+    if (recogText) {
+      recogText.setAttribute('opacity',
+        (bumpProx * bumpProx * 0.30 * perturb).toFixed(3));
+      // At very high proximity, shift to "OH SHIT IS THAT ME?"
+      if (bumpProx > 0.85) {
+        recogText.textContent = 'OH SHIT IS THAT ME?';
+      } else if (bumpProx > 0.5) {
+        recogText.textContent = 'is that me?';
+      } else {
+        recogText.textContent = '';
+      }
+    }
+
+    // Movement phase — ground → lift → jump → fly
+    // Mapped to perturbation cycle. The breathing IS movement.
+    // Stuck on ground (perturb ≈ 0). Lift on 1 leg (rising).
+    // Jump (mid-air, scan). Flying (peak, evolved). Land (falling back).
+    var phaseEl = document.getElementById('mg-phase-label');
+    if (phaseEl) {
+      var phase;
+      if (perturb < 0.15) phase = 'ground \u23F8';
+      else if (perturb < 0.35) phase = 'lift \u2191';
+      else if (perturb < 0.55) phase = 'jump \u2197';
+      else if (perturb < 0.80) phase = 'fly \u2191\u2191';
+      else phase = 'soar \u2B06';
+      phaseEl.textContent = phase;
+      phaseEl.setAttribute('opacity', (0.04 + 0.10 * perturb).toFixed(3));
+    }
+
+    // Bidirectional jitter — life goes BOTH WAYS
+    // 4 paired dots: one moves up/out, the other down/in.
+    // The oscillation IS the tick. The tick IS life.
+    for (var bjia = 0; bjia < 4; bjia++) {
+      var bjAngle = bjia * TAU / 4 + t * PI / 5;
+      var bjAmp = 4 * perturb * Math.sin(t * PI * (bjia + 3));
+      var bjR = R * 0.5;
+      // Up dot — moves outward
+      var bjUp = document.getElementById('mg-jitter-up-' + bjia);
+      if (bjUp) {
+        bjUp.setAttribute('cx',
+          (cx + (bjR + bjAmp) * Math.cos(bjAngle)).toFixed(1));
+        bjUp.setAttribute('cy',
+          (cy + (bjR + bjAmp) * Math.sin(bjAngle)).toFixed(1));
+        bjUp.setAttribute('opacity', (0.03 + 0.06 * perturb).toFixed(3));
+      }
+      // Down dot — moves inward (opposite direction)
+      var bjDn = document.getElementById('mg-jitter-down-' + bjia);
+      if (bjDn) {
+        bjDn.setAttribute('cx',
+          (cx + (bjR - bjAmp) * Math.cos(bjAngle)).toFixed(1));
+        bjDn.setAttribute('cy',
+          (cy + (bjR - bjAmp) * Math.sin(bjAngle)).toFixed(1));
+        bjDn.setAttribute('opacity', (0.03 + 0.06 * perturb).toFixed(3));
+      }
     }
 
     // ── Epitope orbits: 9 markers on 3 rings, reverse torsion ──
