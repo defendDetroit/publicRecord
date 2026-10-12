@@ -246,7 +246,7 @@ window.PtMembrane = function(deps) {
 
   // ── Shared context for split files ──
   var _mc = {PI:PI, MG:MG, NS:NS, geo:geo, particles:particles, pulses:pulses,
-    arcGlow:arcGlow, MAX_P:MAX_P, rates:rates, CATS:CATS, catAccum:catAccum,
+    arcGlow:arcGlow, MAX_P:MAX_P, NS:NS, rates:rates, CATS:CATS, catAccum:catAccum,
     liveStats:liveStats, livePerturb:function(){return livePerturb;},
     setLivePerturb:function(v){livePerturb=v;},
     rps:function(){return rps;}, prevDash:function(){return prevDash;},

@@ -7,7 +7,7 @@ window._membraneBuild = function(mc) {
   var PANELS=mc.PANELS, CAT_COLORS=mc.CAT_COLORS, DIM_SHAPES=mc.DIM_SHAPES;
   var dimCost=mc.dimCost, geo=mc.geo, vdjShuffle=mc.vdjShuffle;
   var coilPath=mc.coilPath, greatCirclePath=mc.greatCirclePath;
-  var aliveSet=mc.aliveSet;
+  var aliveSet=mc.aliveSet, MAX_P=mc.MAX_P;
     var host = document.getElementById('membrane-focal-svg');
     if (!host) return;
     var W=MG.W, H=MG.H, cx=MG.cx, cy=MG.cy, R=MG.R;
