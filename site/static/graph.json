@@ -436,7 +436,8 @@
       "id": "dpscd",
       "label": "Detroit Public Schools Community District",
       "type": "entity",
-      "entity_type": "Authorizer"
+      "entity_type": "Authorizer",
+      "tier": 2
     },
     {
       "id": "dpscd_auth",
@@ -448,7 +449,8 @@
       "id": "dykema",
       "label": "Dykema Gossett",
       "type": "entity",
-      "entity_type": "Law firm"
+      "entity_type": "Law firm",
+      "tier": 3
     },
     {
       "id": "dykema_federal_pac",
@@ -629,13 +631,15 @@
       "label": "MacDowell Preparatory Academy",
       "type": "entity",
       "page": "/network/entities/macdowell-prep/",
-      "entity_type": "K-8 Charter School"
+      "entity_type": "K-8 Charter School",
+      "tier": 1
     },
     {
       "id": "mde",
       "label": "Michigan Department of Education",
       "type": "entity",
-      "entity_type": "State agency"
+      "entity_type": "State agency",
+      "tier": 2
     },
     {
       "id": "nha",
@@ -656,7 +660,8 @@
       "label": "Purpose Charter Academy",
       "type": "entity",
       "page": "/network/entities/purpose-charter-academy/",
-      "entity_type": "K-8 Charter School"
+      "entity_type": "K-8 Charter School",
+      "tier": 1
     },
     {
       "id": "purpose_foundation",
@@ -664,7 +669,8 @@
       "type": "entity",
       "page": "/network/entities/purpose-foundation/",
       "entity_type": "Private 501(c)(3)",
-      "lara_id": "803294855"
+      "lara_id": "803294855",
+      "tier": 2
     },
     {
       "id": "purpose_group",
@@ -672,7 +678,8 @@
       "type": "entity",
       "page": "/network/entities/purpose-group-llc/",
       "entity_type": "Charter Management Organization (CMO)",
-      "lara_id": "803295082"
+      "lara_id": "803295082",
+      "tier": 3
     },
     {
       "id": "right_turn",
@@ -723,12 +730,14 @@
     {
       "id": "court_36th",
       "label": "court 36th",
-      "type": "institution"
+      "type": "institution",
+      "tier": 2
     },
     {
       "id": "court_3rd",
       "label": "court 3rd",
-      "type": "institution"
+      "type": "institution",
+      "tier": 2
     },
     {
       "id": "court_oakland",
@@ -790,7 +799,8 @@
       "entity_type": "Private foundation",
       "id": "walton_family_foundation",
       "type": "entity",
-      "role": "Walmart heirs' education philanthropy"
+      "role": "Walmart heirs' education philanthropy",
+      "tier": 2
     },
     {
       "label": "Roland S. Martin",
@@ -838,7 +848,8 @@
       "entity_type": "Advocacy org",
       "id": "afc",
       "type": "entity",
-      "role": "School choice advocacy"
+      "role": "School choice advocacy",
+      "tier": 3
     },
     {
       "label": "Excellent Schools Detroit",
@@ -892,7 +903,8 @@
       "label": "MSU College of Law",
       "id": "msu_law",
       "type": "institution",
-      "role": "Banks claims J.D. 2010. Sabree graduated same year."
+      "role": "Banks claims J.D. 2010. Sabree graduated same year.",
+      "tier": 3
     },
     {
       "label": "Dean Michael Sant'Ambrogio",
@@ -1074,14 +1086,16 @@
       "type": "entity",
       "entity_type": "Oversight body",
       "note": "Judicial Tenure Commission. 3034 W Grand Blvd Suite 8-350, Detroit MI 48202. (313) 875-5110. Budget: $2,944,500 (FY2026). 15 staff (13 attorneys, 2 admin). 9 commissioners (5 judges, 2 attorneys, 2 lay). Oct 12, 2026 11:07 AM: 'The Commission will no longer respond to your email messages.' 5 open RFIs. Constitutional mandate Art VI §30. They chose silence.",
-      "classification": "refusal"
+      "classification": "refusal",
+      "tier": 1
     },
     {
       "id": "agc",
       "label": "Attorney Grievance Commission",
       "type": "entity",
       "entity_type": "Oversight body",
-      "note": "Attorney Grievance Commission. 755 W Big Beaver Rd Suite 2100, Troy MI 48084. (313) 961-6585. Investigative and prosecutorial arm of MI Supreme Court. 9 commissioners (6 lawyers, 3 non-lawyers), appointed by Supreme Court. Returned Banks filing Oct 1, pointed to State Bar UPL. Referral loop."
+      "note": "Attorney Grievance Commission. 755 W Big Beaver Rd Suite 2100, Troy MI 48084. (313) 961-6585. Investigative and prosecutorial arm of MI Supreme Court. 9 commissioners (6 lawyers, 3 non-lawyers), appointed by Supreme Court. Returned Banks filing Oct 1, pointed to State Bar UPL. Referral loop.",
+      "tier": 1
     },
     {
       "id": "mde_oee",
@@ -1137,7 +1151,8 @@
       "label": "Michigan State Board of Education",
       "type": "entity",
       "entity_type": "Oversight body",
-      "note": "8 elected members. Constitutional (Art VIII §3). Oversees authorizers. Meets Oct 13, 2026."
+      "note": "8 elected members. Constitutional (Art VIII §3). Oversees authorizers. Meets Oct 13, 2026.",
+      "tier": 2
     },
     {
       "id": "snyder_nikki",
@@ -1221,7 +1236,8 @@
       "label": "State Bar UPL Department",
       "type": "entity",
       "entity_type": "Oversight body",
-      "note": "State Bar of Michigan UPL Department. (517) 346-6305. upl@michbar.org. 306 Townsend St, Lansing. Standing Committee + Department. Closed Banks file Sep 30. Pointed to AGC. AGC pointed back Oct 1. Referral loop. Committee: 12 members + 4 advisors. Chair: Courtney Cadotte."
+      "note": "State Bar of Michigan UPL Department. (517) 346-6305. upl@michbar.org. 306 Townsend St, Lansing. Standing Committee + Department. Closed Banks file Sep 30. Pointed to AGC. AGC pointed back Oct 1. Referral loop. Committee: 12 members + 4 advisors. Chair: Courtney Cadotte.",
+      "tier": 2
     },
     {
       "id": "adb",
@@ -1235,7 +1251,8 @@
       "label": "Michigan Supreme Court",
       "type": "entity",
       "entity_type": "Oversight body",
-      "note": "Appoints AGC Grievance Administrator, ADB members, JTC Commissioners. Declined to define UPL in 2014. The enforcement architecture is their creation."
+      "note": "Appoints AGC Grievance Administrator, ADB members, JTC Commissioners. Declined to define UPL in 2014. The enforcement architecture is their creation.",
+      "tier": 1
     },
     {
       "id": "nuvision_inc",
@@ -1722,7 +1739,8 @@
       "label": "State Bar of Michigan",
       "type": "entity",
       "entity_type": "Regulatory body",
-      "note": "306 Townsend St, Lansing MI 48933. (517) 346-6300. Mandatory bar association. Houses UPL Dept. Board of Commissioners governs. UPL closed file Sep 30 pointing to AGC. AGC returned filing Oct 1 pointing to UPL. Referral loop."
+      "note": "306 Townsend St, Lansing MI 48933. (517) 346-6300. Mandatory bar association. Houses UPL Dept. Board of Commissioners governs. UPL closed file Sep 30 pointing to AGC. AGC returned filing Oct 1 pointing to UPL. Referral loop.",
+      "tier": 2
     },
     {
       "id": "sbm_bryant",
@@ -6579,6 +6597,132 @@
       "weight": 3,
       "note": "Perkins surname cluster across courts + PCA.",
       "source_doc": "Surname analysis"
+    },
+    {
+      "source": "pca",
+      "target": "macdowell",
+      "type": "partnership",
+      "epistemic_status": "inferred",
+      "weight": 8,
+      "note": "10 shared neighbors. Both Banks charter schools. Same fraud patterns, same money pipeline, same oversight failures. Graph predicts direct connection.",
+      "source_doc": "Graph missing edge prediction: 10 shared neighbors"
+    },
+    {
+      "source": "banks",
+      "target": "court_3rd",
+      "type": "jurisdiction",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "7 shared neighbors. Banks cases land in 3rd Circuit. Multiple judges connected.",
+      "source_doc": "Graph prediction: 7 shared neighbors"
+    },
+    {
+      "source": "banks",
+      "target": "sbe",
+      "type": "oversight",
+      "epistemic_status": "inferred",
+      "weight": 8,
+      "note": "5 shared neighbors. SBE has ultimate oversight of Banks' charter schools. SBE meets TOMORROW Oct 13. Snyder will be there.",
+      "source_doc": "Graph prediction: 5 shared neighbors"
+    },
+    {
+      "source": "the_74",
+      "target": "afc",
+      "type": "partnership",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "5 shared neighbors. Both Walton/DeVos funded. Same school choice media/advocacy pipeline.",
+      "source_doc": "Graph prediction: 5 shared neighbors"
+    },
+    {
+      "source": "dpscd",
+      "target": "macdowell",
+      "type": "authorization",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "5 shared neighbors. DPSCD is a charter authorizer. MacDowell connections through DPSCD staff.",
+      "source_doc": "Graph prediction: 5 shared neighbors"
+    },
+    {
+      "source": "agc",
+      "target": "msu",
+      "type": "institutional_pipeline",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "5 shared neighbors. 5 AGC staff are MSU graduates. AGC draws from MSU. Institutional pipeline.",
+      "source_doc": "Graph prediction: 5 AGC staff from MSU"
+    },
+    {
+      "source": "banks",
+      "target": "yancey",
+      "type": "jurisdiction",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "4 shared neighbors. Yancey is MacDowell jurisdiction judge.",
+      "source_doc": "Graph prediction: 4 shared neighbors"
+    },
+    {
+      "source": "banks",
+      "target": "misha_stallworth",
+      "type": "political",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "4 shared neighbors. Stallworth: DPSCD board, CitizenDetroit with Crump-Gibson, MacDowell.",
+      "source_doc": "Graph prediction: 4 shared neighbors"
+    },
+    {
+      "source": "crump_gibson",
+      "target": "macdowell",
+      "type": "jurisdiction",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "4 shared neighbors. Crump family (Jennifer) on MacDowell board. V. Hall connection.",
+      "source_doc": "Graph prediction: 4 shared neighbors"
+    },
+    {
+      "source": "roland_martin",
+      "target": "scbc_tour",
+      "type": "governance",
+      "epistemic_status": "inferred",
+      "weight": 8,
+      "note": "4 shared neighbors. Martin runs SCBC tour through Nu Vision.",
+      "source_doc": "Graph prediction: 4 shared neighbors"
+    },
+    {
+      "source": "pca",
+      "target": "todd_perkins",
+      "type": "jurisdiction",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "3 shared neighbors. PCA connected through Banks and Miller.",
+      "source_doc": "Graph prediction: 3 shared neighbors"
+    },
+    {
+      "source": "banks",
+      "target": "sean_perkins",
+      "type": "jurisdiction",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "3 shared neighbors through Perkins family cluster.",
+      "source_doc": "Graph prediction: 3 shared neighbors"
+    },
+    {
+      "source": "banks",
+      "target": "kwame",
+      "type": "political",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "3 shared neighbors. Gay-Dagnogo + Carolyn Kilpatrick + Dumas. Political dynasty.",
+      "source_doc": "Graph prediction: 3 shared neighbors"
+    },
+    {
+      "source": "banks",
+      "target": "mi_supreme_court",
+      "type": "oversight",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "3 shared neighbors. Supreme Court appoints JTC, AGC, UPL — all three have Banks failure edges.",
+      "source_doc": "Graph prediction: 3 shared neighbors + appointment chain"
     }
   ],
   "epistemic_grammar": {
