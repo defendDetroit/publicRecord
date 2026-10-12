@@ -2656,6 +2656,15 @@
       "role": "Beasley was Curriculum Director here before DPSCD admin roles.",
       "classification": "institution",
       "class": "entity"
+    },
+    {
+      "id": "ag_charitable_trust",
+      "label": "AG Charitable Trust Section",
+      "type": "entity",
+      "tier": 3,
+      "role": "MI AG Charitable Trust Section. Registers/oversees 13,000+ charitable orgs. RESPONDED 12:19 PM Oct 12 — complaint received, pending review, 30-45 days. ct_email@michigan.gov. Phone 517-335-7571.",
+      "classification": "oversight",
+      "class": "entity"
     }
   ],
   "edges": [
@@ -8598,6 +8607,38 @@
       "weight": 8,
       "label": "Principal 2021-2025. Under her leadership: #3022/3025 MI schools. ≤1% math. 7% reading.",
       "epistemic_status": "record"
+    },
+    {
+      "source": "ag_charitable_trust",
+      "target": "ag_office",
+      "type": "governance",
+      "weight": 8,
+      "label": "Division of MI Attorney General",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "ag_charitable_trust",
+      "target": "purpose_foundation",
+      "type": "investigation",
+      "weight": 9,
+      "label": "Complaint filed Oct 12 2026. Acknowledged 12:19 PM. 30-45 day review.",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "ag_charitable_trust",
+      "target": "banks",
+      "type": "investigation",
+      "weight": 8,
+      "label": "Subject of charitable trust complaint — 9 convictions, all 4 officer positions",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "ag_charitable_trust",
+      "target": "right_turn",
+      "type": "investigation",
+      "weight": 7,
+      "label": "Secondary target in complaint — Banks dark money vehicle",
+      "epistemic_status": "inference"
     }
   ],
   "epistemic_grammar": {
