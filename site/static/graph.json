@@ -13229,6 +13229,666 @@
         "non_human",
         "tier_5"
       ]
+    },
+    {
+      "id": "number_theory",
+      "label": "Number Theory",
+      "class": "false_entity",
+      "role": "The study of integers. Prime numbers. The atoms of arithmetic. The simplest questions are the hardest.",
+      "tags": [
+        "science_commons",
+        "non_human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "prime_numbers",
+      "label": "Prime Numbers",
+      "class": "false_entity",
+      "role": "Divisible only by 1 and themselves. The atoms of mathematics. Infinite. Unpredictable. The pattern nobody can crack.",
+      "tags": [
+        "science_commons",
+        "non_human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "graph_theory",
+      "label": "Graph Theory",
+      "class": "false_entity",
+      "role": "Nodes and edges. Euler's bridges of Konigsberg (1736). The mathematics of connection. This entire investigation is graph theory.",
+      "tags": [
+        "science_commons",
+        "non_human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "topology",
+      "label": "Topology",
+      "class": "false_entity",
+      "role": "The math of shapes that stretch but don't tear. A coffee cup is a donut. The structure survives deformation.",
+      "tags": [
+        "science_commons",
+        "non_human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "set_theory",
+      "label": "Set Theory",
+      "class": "false_entity",
+      "role": "The foundation of all mathematics. Collections of objects. Cantor proved some infinities are bigger than others.",
+      "tags": [
+        "science_commons",
+        "non_human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "probability",
+      "label": "Probability Theory",
+      "class": "false_entity",
+      "role": "The mathematics of uncertainty. Pascal's wager. Bayes' theorem. What are the odds Banks gets away with it?",
+      "tags": [
+        "science_commons",
+        "non_human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "game_theory",
+      "label": "Game Theory",
+      "class": "false_entity",
+      "role": "The mathematics of strategy. Nash equilibrium. Every actor optimizes. The system produces outcomes nobody intended.",
+      "tags": [
+        "science_commons",
+        "non_human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "chaos_theory",
+      "label": "Chaos Theory",
+      "class": "false_entity",
+      "role": "Deterministic systems with unpredictable outcomes. Sensitive dependence on initial conditions. The butterfly effect formalized.",
+      "tags": [
+        "science_commons",
+        "non_human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "group_theory_math",
+      "label": "Group Theory",
+      "class": "false_entity",
+      "role": "The mathematics of symmetry. What stays the same when everything changes. The invariant under transformation.",
+      "tags": [
+        "science_commons",
+        "non_human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "fibonacci",
+      "label": "Fibonacci Sequence",
+      "class": "false_entity",
+      "role": "1, 1, 2, 3, 5, 8, 13... Each number is the sum of the two before it. Found in pinecones, galaxies, shells. Math in nature.",
+      "tags": [
+        "science_commons",
+        "non_human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "pi",
+      "label": "Pi (3.14159...)",
+      "class": "false_entity",
+      "role": "The ratio of circumference to diameter. Irrational. Infinite. Never repeats. The number that can't be contained.",
+      "tags": [
+        "science_commons",
+        "non_human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "infinity",
+      "label": "Infinity",
+      "class": "false_entity",
+      "role": "Not a number. A concept. Cantor proved there are different sizes of infinity. The mind breaks and keeps going.",
+      "tags": [
+        "science_commons",
+        "non_human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "godel_incompleteness",
+      "label": "Godel's Incompleteness Theorems (1931)",
+      "class": "false_entity",
+      "role": "Any consistent system powerful enough to describe arithmetic contains true statements it cannot prove. The system cannot validate itself.",
+      "tags": [
+        "science_commons",
+        "non_human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "fermat_last",
+      "label": "Fermat's Last Theorem",
+      "class": "false_entity",
+      "role": "No three positive integers satisfy a^n + b^n = c^n for n>2. Fermat wrote 'I have a proof' in the margin. Took 358 years to prove.",
+      "tags": [
+        "science_commons",
+        "non_human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "riemann_hypothesis",
+      "label": "Riemann Hypothesis (1859)",
+      "class": "false_entity",
+      "role": "Where are the prime numbers? Riemann guessed. Nobody has proved it. $1M prize. 165 years and counting.",
+      "tags": [
+        "science_commons",
+        "non_human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "np_p",
+      "label": "P vs NP Problem",
+      "class": "false_entity",
+      "role": "Can every problem whose solution is easy to verify also be easy to solve? Nobody knows. $1M prize. The biggest open question in CS.",
+      "tags": [
+        "science_commons",
+        "non_human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "leonhard_euler",
+      "label": "Leonhard Euler",
+      "class": "actor",
+      "role": "Most prolific mathematician ever. Invented graph theory (Konigsberg bridges, 1736). Went blind. Kept working.",
+      "tags": [
+        "creator",
+        "human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "carl_gauss",
+      "label": "Carl Friedrich Gauss",
+      "class": "actor",
+      "role": "Prince of mathematicians. Summed 1-100 at age 7. Contributions to everything. Proved things he didn't bother publishing.",
+      "tags": [
+        "creator",
+        "human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "kurt_godel",
+      "label": "Kurt Godel",
+      "class": "actor",
+      "role": "Proved math cannot prove its own consistency (1931). Destroyed Hilbert's dream. Starved himself to death, afraid of poisoning.",
+      "tags": [
+        "creator",
+        "human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "georg_cantor",
+      "label": "Georg Cantor",
+      "class": "actor",
+      "role": "Proved infinity comes in sizes. Kronecker called him a 'corrupter of youth.' Died in a sanatorium. The math was right.",
+      "tags": [
+        "creator",
+        "human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "pierre_fermat",
+      "label": "Pierre de Fermat",
+      "class": "actor",
+      "role": "Wrote 'I have a proof too large for this margin' (1637). Nobody proved it for 358 years. The ultimate tease.",
+      "tags": [
+        "creator",
+        "human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "andrew_wiles",
+      "label": "Andrew Wiles",
+      "class": "actor",
+      "role": "Proved Fermat's Last Theorem (1995). Worked in secret for 7 years. Found an error. Fixed it. The obsession that paid off.",
+      "tags": [
+        "creator",
+        "human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "john_nash",
+      "label": "John Nash",
+      "class": "actor",
+      "role": "Game theory, Nash equilibrium, Nobel Prize. Beautiful Mind. Schizophrenia. The genius and the illness inseparable.",
+      "tags": [
+        "creator",
+        "human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "ada_lovelace",
+      "label": "Ada Lovelace",
+      "class": "actor",
+      "role": "Wrote the first computer program (1843). For a machine that didn't exist yet. Byron's daughter. The original programmer.",
+      "tags": [
+        "creator",
+        "human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "hypatia",
+      "label": "Hypatia of Alexandria",
+      "class": "actor",
+      "role": "Mathematician, astronomer, philosopher. Murdered by a Christian mob (415 AD). The last light of the Library.",
+      "tags": [
+        "creator",
+        "human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "maryam_mirzakhani",
+      "label": "Maryam Mirzakhani",
+      "class": "actor",
+      "role": "First woman to win Fields Medal (2014). Iranian. Studied the dynamics of surfaces. Died of cancer at 40.",
+      "tags": [
+        "creator",
+        "human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "ramanujan_person",
+      "label": "Srinivasa Ramanujan",
+      "class": "actor",
+      "role": "Self-taught genius from India. Sent theorems to Hardy. 'Every positive integer is a personal friend.' Died at 32.",
+      "tags": [
+        "creator",
+        "human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "sophie_germain",
+      "label": "Sophie Germain",
+      "class": "actor",
+      "role": "Studied math under a male pseudonym (1790s). Contributed to number theory and elasticity. Gauss only learned she was a woman later.",
+      "tags": [
+        "creator",
+        "human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "thermodynamics",
+      "label": "Thermodynamics",
+      "class": "false_entity",
+      "role": "Energy cannot be created or destroyed, only transformed. Entropy always increases. The universe tends toward disorder.",
+      "tags": [
+        "science_commons",
+        "non_human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "entropy",
+      "label": "Entropy",
+      "class": "false_entity",
+      "role": "Disorder always increases. Everything falls apart. The only question is how fast. The second law of thermodynamics.",
+      "tags": [
+        "science_commons",
+        "non_human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "electromagnetism",
+      "label": "Electromagnetism (Maxwell)",
+      "class": "false_entity",
+      "role": "Light, electricity, magnetism — all one force. Maxwell unified them (1865). Four equations. The universe simplified.",
+      "tags": [
+        "science_commons",
+        "non_human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "standard_model",
+      "label": "Standard Model of Particle Physics",
+      "class": "false_entity",
+      "role": "17 particles. 4 forces. Explains almost everything. Except gravity. The nearly-complete theory.",
+      "tags": [
+        "science_commons",
+        "non_human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "higgs_boson",
+      "label": "Higgs Boson",
+      "class": "false_entity",
+      "role": "The particle that gives mass to other particles. Predicted 1964. Found 2012. Cost $13.25 billion (LHC). The most expensive confirmation.",
+      "tags": [
+        "science_commons",
+        "non_human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "string_theory",
+      "label": "String Theory",
+      "class": "false_entity",
+      "role": "Everything is vibrating strings. 10 dimensions. No experimental evidence. Beautiful math, untestable physics. The theory that might be art.",
+      "tags": [
+        "science_commons",
+        "non_human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "special_relativity",
+      "label": "Special Relativity (Einstein, 1905)",
+      "class": "false_entity",
+      "role": "E=mc^2. Nothing faster than light. Time is relative. Mass is energy. Written by a patent clerk.",
+      "tags": [
+        "science_commons",
+        "non_human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "photoelectric",
+      "label": "Photoelectric Effect (Einstein, 1905)",
+      "class": "false_entity",
+      "role": "Light comes in packets (photons). Won Einstein the Nobel. Not relativity — this. The Nobel committee played it safe.",
+      "tags": [
+        "science_commons",
+        "non_human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "uncertainty_principle",
+      "label": "Heisenberg Uncertainty Principle",
+      "class": "false_entity",
+      "role": "You cannot know both position and momentum precisely. The more you know where it is, the less you know where it's going.",
+      "tags": [
+        "science_commons",
+        "non_human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "wave_particle",
+      "label": "Wave-Particle Duality",
+      "class": "false_entity",
+      "role": "Light is both a wave AND a particle. Depends on how you look. Reality changes with the question you ask.",
+      "tags": [
+        "science_commons",
+        "non_human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "black_holes",
+      "label": "Black Holes",
+      "class": "false_entity",
+      "role": "Gravity so strong not even light escapes. The information paradox: does the universe forget? Hawking said no.",
+      "tags": [
+        "science_commons",
+        "non_human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "cosmic_microwave_bg",
+      "label": "Cosmic Microwave Background",
+      "class": "false_entity",
+      "role": "The afterglow of the Big Bang. 13.8 billion years old. Everywhere you look. The oldest light in the universe.",
+      "tags": [
+        "science_commons",
+        "non_human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "big_bang",
+      "label": "Big Bang",
+      "class": "false_entity",
+      "role": "Everything from nothing. 13.8 billion years ago. The universe fit in a point. Then it didn't. The original expansion.",
+      "tags": [
+        "science_commons",
+        "non_human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "nuclear_fission",
+      "label": "Nuclear Fission",
+      "class": "false_entity",
+      "role": "Split the atom, release the energy. Hahn and Meitner (1938). Hiroshima (1945). The discovery that could end everything.",
+      "tags": [
+        "science_commons",
+        "non_human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "nuclear_fusion",
+      "label": "Nuclear Fusion",
+      "class": "false_entity",
+      "role": "Combine atoms, release more energy. Powers every star. Humans have been 20 years away for 70 years. The perpetual promise.",
+      "tags": [
+        "science_commons",
+        "non_human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "superconductivity",
+      "label": "Superconductivity",
+      "class": "false_entity",
+      "role": "Zero electrical resistance below a critical temperature. Current flows forever. No energy lost. The perfect commons.",
+      "tags": [
+        "science_commons",
+        "non_human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "gravitational_waves",
+      "label": "Gravitational Waves",
+      "class": "false_entity",
+      "role": "Ripples in spacetime. Einstein predicted (1916). LIGO detected (2015). 1.3 billion year old collision. The universe vibrates.",
+      "tags": [
+        "science_commons",
+        "non_human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "isaac_newton",
+      "label": "Isaac Newton",
+      "class": "actor",
+      "role": "Gravity, calculus, optics, laws of motion. Invented it during plague lockdown (1665-1666). Quarantine productivity.",
+      "tags": [
+        "creator",
+        "human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "niels_bohr",
+      "label": "Niels Bohr",
+      "class": "actor",
+      "role": "Quantum model of the atom. 'Anyone not shocked by quantum mechanics has not understood it.' Copenhagen interpretation.",
+      "tags": [
+        "creator",
+        "human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "werner_heisenberg",
+      "label": "Werner Heisenberg",
+      "class": "actor",
+      "role": "Uncertainty principle (1927). You can't know everything. The physics of epistemological limits.",
+      "tags": [
+        "creator",
+        "human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "james_clerk_maxwell",
+      "label": "James Clerk Maxwell",
+      "class": "actor",
+      "role": "Unified electricity, magnetism, and light in four equations (1865). Einstein said Maxwell's work was 'the most profound.'",
+      "tags": [
+        "creator",
+        "human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "marie_curie",
+      "label": "Marie Curie",
+      "class": "actor",
+      "role": "Discovered radioactivity, polonium, radium. Two Nobel Prizes. Died of radiation exposure from her own research. The work that kills you.",
+      "tags": [
+        "creator",
+        "human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "lise_meitner",
+      "label": "Lise Meitner",
+      "class": "actor",
+      "role": "Explained nuclear fission (1939). Hahn got the Nobel. She got nothing. The woman who split the atom and was erased.",
+      "tags": [
+        "creator",
+        "human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "stephen_hawking",
+      "label": "Stephen Hawking",
+      "class": "actor",
+      "role": "Black holes radiate. ALS at 21, told he had 2 years. Lived to 76. Wrote A Brief History of Time. The mind that outlasted the body.",
+      "tags": [
+        "creator",
+        "human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "max_planck",
+      "label": "Max Planck",
+      "class": "actor",
+      "role": "Quantum theory (1900). Energy comes in packets. 'Science advances one funeral at a time.' The original disruption.",
+      "tags": [
+        "creator",
+        "human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "michael_faraday",
+      "label": "Michael Faraday",
+      "class": "actor",
+      "role": "Self-taught. Bookbinder's apprentice. Discovered electromagnetic induction. No formal math. The outsider who built the modern world.",
+      "tags": [
+        "creator",
+        "human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "nikola_tesla",
+      "label": "Nikola Tesla",
+      "class": "actor",
+      "role": "AC power, radio, rotating magnetic field. Died broke in a hotel room. Edison got the credit. The inventor the system consumed.",
+      "tags": [
+        "creator",
+        "human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "thomas_edison",
+      "label": "Thomas Edison",
+      "class": "actor",
+      "role": "Light bulb, phonograph, motion pictures. 1,093 patents. Also electrocuted an elephant to discredit Tesla. The credit-taker.",
+      "tags": [
+        "creator",
+        "human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "vera_rubin",
+      "label": "Vera Rubin",
+      "class": "actor",
+      "role": "Proved dark matter exists by measuring galaxy rotation curves (1970s). No Nobel. Died 2016. The evidence was right. The prize was wrong.",
+      "tags": [
+        "creator",
+        "human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "chien_shiung_wu",
+      "label": "Chien-Shiung Wu",
+      "class": "actor",
+      "role": "Disproved conservation of parity (1957). Lee and Yang got the Nobel. She didn't. The experiment was hers.",
+      "tags": [
+        "creator",
+        "human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "enrico_fermi",
+      "label": "Enrico Fermi",
+      "class": "actor",
+      "role": "Built first nuclear reactor (1942). Under the football stands at U of Chicago. The Fermi Paradox. 'Where is everybody?'",
+      "tags": [
+        "creator",
+        "human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "roger_penrose",
+      "label": "Roger Penrose",
+      "class": "actor",
+      "role": "Penrose tiles, Penrose stairs, singularity theorems, Nobel 2020. The impossible objects and the real physics.",
+      "tags": [
+        "creator",
+        "human",
+        "tier_5"
+      ]
     }
   ],
   "edges": [
@@ -57526,6 +58186,419 @@
       "type": "foundational_to",
       "epistemic_status": "record",
       "note": ""
+    },
+    {
+      "source": "leonhard_euler",
+      "target": "graph_theory",
+      "type": "invented",
+      "epistemic_status": "record",
+      "note": "Konigsberg bridges, 1736. The first graph theory problem."
+    },
+    {
+      "source": "graph_theory",
+      "target": "public_education",
+      "type": "structural_parallel",
+      "epistemic_status": "analysis",
+      "note": "Nodes and edges. This entire investigation IS graph theory."
+    },
+    {
+      "source": "kurt_godel",
+      "target": "godel_incompleteness",
+      "type": "proved",
+      "epistemic_status": "record",
+      "note": "1931. The system cannot validate itself."
+    },
+    {
+      "source": "godel_incompleteness",
+      "target": "agc",
+      "type": "structural_parallel",
+      "epistemic_status": "analysis",
+      "note": "Any system powerful enough to describe itself contains truths it cannot prove. The AGC cannot validate itself."
+    },
+    {
+      "source": "godel_incompleteness",
+      "target": "russells_paradox",
+      "type": "related_to",
+      "epistemic_status": "record",
+      "note": "Both: the system hitting its own limits."
+    },
+    {
+      "source": "georg_cantor",
+      "target": "infinity",
+      "type": "proved_sizes_of",
+      "epistemic_status": "record",
+      "note": "Some infinities are bigger. Called 'corrupter of youth.' Died in sanatorium."
+    },
+    {
+      "source": "georg_cantor",
+      "target": "set_theory",
+      "type": "created",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "pierre_fermat",
+      "target": "fermat_last",
+      "type": "conjectured",
+      "epistemic_status": "record",
+      "note": "1637"
+    },
+    {
+      "source": "andrew_wiles",
+      "target": "fermat_last",
+      "type": "proved",
+      "epistemic_status": "record",
+      "note": "1995, after 7 years in secret"
+    },
+    {
+      "source": "john_nash",
+      "target": "game_theory",
+      "type": "advanced",
+      "epistemic_status": "record",
+      "note": "Nash equilibrium"
+    },
+    {
+      "source": "game_theory",
+      "target": "prisoners_dilemma",
+      "type": "formalizes",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "ada_lovelace",
+      "target": "alan_turing",
+      "type": "preceded",
+      "epistemic_status": "record",
+      "note": "First program (1843) before first computer. Turing formalized it (1936)."
+    },
+    {
+      "source": "hypatia",
+      "target": "alexandria_egypt",
+      "type": "killed_at",
+      "epistemic_status": "record",
+      "note": "Murdered by mob, 415 AD. The last light of the Library."
+    },
+    {
+      "source": "maryam_mirzakhani",
+      "target": "public_education",
+      "type": "structural_parallel",
+      "epistemic_status": "analysis",
+      "note": "Iranian woman. First female Fields Medal. Died at 40. Brilliance doesn't wait for the system."
+    },
+    {
+      "source": "sophie_germain",
+      "target": "mary_anning",
+      "type": "structural_parallel",
+      "epistemic_status": "analysis",
+      "note": "Both: women who did the work under male names/erasure. The discoverer hidden by the system."
+    },
+    {
+      "source": "prime_numbers",
+      "target": "number_theory",
+      "type": "central_to",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "fibonacci",
+      "target": "public_education",
+      "type": "structural_parallel",
+      "epistemic_status": "analysis",
+      "note": "The pattern in nature. 1,1,2,3,5,8,13... Each number depends on the two before. History depends on what came before."
+    },
+    {
+      "source": "pi",
+      "target": "public_education",
+      "type": "structural_parallel",
+      "epistemic_status": "analysis",
+      "note": "Irrational. Infinite. Never repeats. Cannot be contained. Like the investigation."
+    },
+    {
+      "source": "chaos_theory",
+      "target": "butterfly_effect",
+      "type": "formalizes",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "topology",
+      "target": "moebius_strip",
+      "type": "studies",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "topology",
+      "target": "klein_bottle",
+      "type": "studies",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "probability",
+      "target": "monty_hall",
+      "type": "explains",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "np_p",
+      "target": "halting_problem",
+      "type": "related_to",
+      "epistemic_status": "record",
+      "note": "Both: fundamental limits of computation. What can be known?"
+    },
+    {
+      "source": "riemann_hypothesis",
+      "target": "prime_numbers",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "ramanujan_person",
+      "target": "srinivasa_ramanujan",
+      "type": "same_as",
+      "epistemic_status": "record",
+      "note": "Same person, linking actor node to existing entity node"
+    },
+    {
+      "source": "isaac_newton",
+      "target": "calculus",
+      "type": "co_invented",
+      "epistemic_status": "record",
+      "note": "During plague lockdown 1665-1666. Quarantine productivity."
+    },
+    {
+      "source": "isaac_newton",
+      "target": "earth",
+      "type": "explained_gravity_of",
+      "epistemic_status": "record",
+      "note": "Apple falls. Moon orbits. Same force."
+    },
+    {
+      "source": "niels_bohr",
+      "target": "quantum_mechanics",
+      "type": "founded",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "werner_heisenberg",
+      "target": "uncertainty_principle",
+      "type": "formulated",
+      "epistemic_status": "record",
+      "note": "1927"
+    },
+    {
+      "source": "uncertainty_principle",
+      "target": "observer_effect",
+      "type": "related_to",
+      "epistemic_status": "record",
+      "note": "Both: measurement changes the system."
+    },
+    {
+      "source": "james_clerk_maxwell",
+      "target": "electromagnetism",
+      "type": "unified",
+      "epistemic_status": "record",
+      "note": "Four equations, 1865"
+    },
+    {
+      "source": "max_planck",
+      "target": "quantum_mechanics",
+      "type": "originated",
+      "epistemic_status": "record",
+      "note": "Energy comes in packets, 1900"
+    },
+    {
+      "source": "albert_einstein",
+      "target": "special_relativity",
+      "type": "published",
+      "epistemic_status": "record",
+      "note": "1905, patent clerk"
+    },
+    {
+      "source": "albert_einstein",
+      "target": "photoelectric",
+      "type": "explained",
+      "epistemic_status": "record",
+      "note": "Nobel Prize 1921"
+    },
+    {
+      "source": "albert_einstein",
+      "target": "gravitational_waves",
+      "type": "predicted",
+      "epistemic_status": "record",
+      "note": "1916"
+    },
+    {
+      "source": "marie_curie",
+      "target": "public_education",
+      "type": "structural_parallel",
+      "epistemic_status": "analysis",
+      "note": "Two Nobels. Died of her own research. The work that kills you."
+    },
+    {
+      "source": "lise_meitner",
+      "target": "nuclear_fission",
+      "type": "explained",
+      "epistemic_status": "record",
+      "note": "1939. Hahn got the Nobel. She got nothing."
+    },
+    {
+      "source": "lise_meitner",
+      "target": "barbara_mcclintock",
+      "type": "structural_parallel",
+      "epistemic_status": "analysis",
+      "note": "Both: women who made the discovery, men who got the prize."
+    },
+    {
+      "source": "stephen_hawking",
+      "target": "black_holes",
+      "type": "theorized_radiation_from",
+      "epistemic_status": "record",
+      "note": "Hawking radiation. Information is not lost."
+    },
+    {
+      "source": "michael_faraday",
+      "target": "electromagnetism",
+      "type": "discovered_induction",
+      "epistemic_status": "record",
+      "note": "Self-taught bookbinder. No formal math. Built the modern world."
+    },
+    {
+      "source": "michael_faraday",
+      "target": "public_education",
+      "type": "structural_parallel",
+      "epistemic_status": "analysis",
+      "note": "Self-taught outsider who built the foundation. No credentials. All contribution."
+    },
+    {
+      "source": "nikola_tesla",
+      "target": "thomas_edison",
+      "type": "rivaled",
+      "epistemic_status": "record",
+      "note": "AC vs DC. Tesla was right. Edison electrocuted an elephant. The credit-taker vs the creator."
+    },
+    {
+      "source": "nikola_tesla",
+      "target": "public_education",
+      "type": "structural_parallel",
+      "epistemic_status": "analysis",
+      "note": "Died broke. Edison got credit. The inventor the system consumed."
+    },
+    {
+      "source": "vera_rubin",
+      "target": "dark_matter",
+      "type": "proved",
+      "epistemic_status": "record",
+      "note": "Galaxy rotation curves, 1970s. No Nobel."
+    },
+    {
+      "source": "chien_shiung_wu",
+      "target": "public_education",
+      "type": "structural_parallel",
+      "epistemic_status": "analysis",
+      "note": "Did the experiment. Others got the Nobel. The evidence was hers."
+    },
+    {
+      "source": "enrico_fermi",
+      "target": "nuclear_fission",
+      "type": "first_reactor",
+      "epistemic_status": "record",
+      "note": "Chicago Pile-1, Dec 2, 1942. Under the football stands."
+    },
+    {
+      "source": "enrico_fermi",
+      "target": "fermi_paradox",
+      "type": "asked",
+      "epistemic_status": "record",
+      "note": "'Where is everybody?' 1950"
+    },
+    {
+      "source": "roger_penrose",
+      "target": "penrose_stairs",
+      "type": "invented",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "roger_penrose",
+      "target": "black_holes",
+      "type": "singularity_theorems",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "big_bang",
+      "target": "cosmic_microwave_bg",
+      "type": "produced",
+      "epistemic_status": "record",
+      "note": "13.8 billion years ago. The afterglow is still everywhere."
+    },
+    {
+      "source": "higgs_boson",
+      "target": "standard_model",
+      "type": "completes",
+      "epistemic_status": "record",
+      "note": "Predicted 1964, found 2012"
+    },
+    {
+      "source": "thermodynamics",
+      "target": "entropy",
+      "type": "includes",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "entropy",
+      "target": "public_education",
+      "type": "structural_parallel",
+      "epistemic_status": "analysis",
+      "note": "Disorder always increases. Everything falls apart. The only question is how fast."
+    },
+    {
+      "source": "superconductivity",
+      "target": "gpl",
+      "type": "structural_parallel",
+      "epistemic_status": "analysis",
+      "note": "Zero resistance. Current flows forever. No energy lost. The perfect commons."
+    },
+    {
+      "source": "nuclear_fission",
+      "target": "hiroshima_japan",
+      "type": "used_at",
+      "epistemic_status": "record",
+      "note": "August 6, 1945. The discovery that ended one war and started another."
+    },
+    {
+      "source": "wave_particle",
+      "target": "schrodingers_cat",
+      "type": "illustrates",
+      "epistemic_status": "record",
+      "note": "Both: reality depends on how you observe it."
+    },
+    {
+      "source": "standard_model",
+      "target": "public_education",
+      "type": "structural_parallel",
+      "epistemic_status": "analysis",
+      "note": "17 particles, 4 forces, explains almost everything. Except gravity. The nearly-complete theory."
+    },
+    {
+      "source": "string_theory",
+      "target": "public_education",
+      "type": "structural_parallel",
+      "epistemic_status": "analysis",
+      "note": "Beautiful. Elegant. No experimental evidence. Like a charter school accreditation."
+    },
+    {
+      "source": "gravitational_waves",
+      "target": "public_education",
+      "type": "structural_parallel",
+      "epistemic_status": "analysis",
+      "note": "Einstein predicted 1916. LIGO detected 2015. 99 years to confirm. The record waits."
     }
   ],
   "epistemic_grammar": {
