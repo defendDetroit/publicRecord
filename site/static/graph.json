@@ -1859,6 +1859,41 @@
       "tier": 4,
       "classification": "upl_committee",
       "role": "UPL Committee member. Detroit."
+    },
+    {
+      "id": "jennifer_crump",
+      "label": "Jennifer Crump",
+      "type": "actor",
+      "tier": 4,
+      "role": "MacDowell board. DPSCD. Crump surname dynasty — Jehan, V. Hall, Jennifer."
+    },
+    {
+      "id": "jason_perry_pca",
+      "label": "Jason Perry (PCA)",
+      "type": "actor",
+      "tier": 4,
+      "role": "PCA staff/administrator."
+    },
+    {
+      "id": "beasley",
+      "label": "Beasley",
+      "type": "actor",
+      "tier": 4,
+      "role": "PCA connection. DPSCD."
+    },
+    {
+      "id": "cameron_coleman",
+      "label": "Cameron Coleman",
+      "type": "actor",
+      "tier": 4,
+      "role": "MacDowell. DPSCD."
+    },
+    {
+      "id": "chalcee_norwood",
+      "label": "Chalcee Norwood",
+      "type": "actor",
+      "tier": 4,
+      "role": "MacDowell staff/connection."
     }
   ],
   "edges": [
@@ -3418,13 +3453,6 @@
       "viz_type": "family",
       "flow": "influence",
       "label": "Stallworth dynasty"
-    },
-    {
-      "id": "jennifer_crump",
-      "label": "Jennifer Crump",
-      "type": "actor",
-      "tier": 4,
-      "role": "MacDowell Office Manager"
     },
     {
       "source": "jennifer_crump",
@@ -5880,6 +5908,51 @@
       "weight": 5,
       "note": "Clay is 36th District Court judge AND SBM Commissioner. 36th District = geographic jurisdiction for PCA. The SBM board member adjudicates in the court where PCA matters could appear.",
       "source_doc": "michbar.org + court geographic jurisdiction"
+    },
+    {
+      "source": "edchoice",
+      "target": "scbc_tour",
+      "type": "partnership",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "EdChoice partners with SCBC tour. School choice advocacy org. Walton pipeline.",
+      "source_doc": "Nu Vision SCBC tour partners list"
+    },
+    {
+      "source": "excelined",
+      "target": "scbc_tour",
+      "type": "partnership",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "ExcelinEd (Jeb Bush) partners with SCBC tour. Education reform pipeline.",
+      "source_doc": "Nu Vision SCBC tour partners list"
+    },
+    {
+      "source": "edchoice",
+      "target": "afc",
+      "type": "partnership",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Both school choice advocacy orgs. Overlapping board/donor networks.",
+      "source_doc": "School choice advocacy ecosystem"
+    },
+    {
+      "source": "excelined",
+      "target": "afc",
+      "type": "partnership",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Both education reform orgs. Overlapping donor networks (DeVos, Walton).",
+      "source_doc": "Education reform ecosystem"
+    },
+    {
+      "source": "aclu_mi",
+      "target": "state_mi",
+      "type": "jurisdiction",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "ACLU of Michigan. Statewide civil liberties org.",
+      "source_doc": "aclumich.org"
     }
   ],
   "epistemic_grammar": {
