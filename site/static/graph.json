@@ -1894,6 +1894,83 @@
       "type": "actor",
       "tier": 4,
       "role": "MacDowell staff/connection."
+    },
+    {
+      "id": "msu",
+      "label": "Michigan State University",
+      "type": "entity",
+      "entity_type": "University",
+      "note": "East Lansing. Appears in bios of: Goetz (AGC, BS 1983), Mazur (AGC, BA), Frazee (AGC, BA), Bullington (AGC, BA), Uhuru (AGC, BS magna cum laude). MSU College of Law is separate node (msu_law)."
+    },
+    {
+      "id": "ud_mercy_law",
+      "label": "University of Detroit Mercy School of Law",
+      "type": "entity",
+      "entity_type": "Law school",
+      "note": "Detroit. Ryan (JTC Chair, JD), Willis (AGC Commissioner, JD 2002), Linville (AGC, JD). Detroit College of Law (Goetz JD 1988) merged into MSU Law."
+    },
+    {
+      "id": "wayne_state_law",
+      "label": "Wayne State University Law School",
+      "type": "entity",
+      "entity_type": "Law school",
+      "note": "Detroit. Dawn Ison (JTC Commissioner, JD). Detroit legal pipeline."
+    },
+    {
+      "id": "wmu",
+      "label": "Western Michigan University",
+      "type": "entity",
+      "entity_type": "University",
+      "note": "Kalamazoo. Robinson (AGC Vice-Chair, BA PoliSci/CrimJ), Willis (AGC, BA 1997)."
+    },
+    {
+      "id": "notre_dame",
+      "label": "University of Notre Dame",
+      "type": "entity",
+      "entity_type": "University",
+      "note": "Ryan (JTC Chair, undergrad)."
+    },
+    {
+      "id": "spelman",
+      "label": "Spelman College",
+      "type": "entity",
+      "entity_type": "University",
+      "note": "Dawn Ison (JTC Commissioner, undergrad). HBCU, Atlanta."
+    },
+    {
+      "id": "depaul_law",
+      "label": "DePaul University College of Law",
+      "type": "entity",
+      "entity_type": "Law school",
+      "note": "Chicago. Uhuru (AGC Deputy, JD)."
+    },
+    {
+      "id": "detroit_college_law",
+      "label": "Detroit College of Law (now MSU Law)",
+      "type": "entity",
+      "entity_type": "Law school",
+      "note": "Goetz (AGC Grievance Admin, JD 1988). Merged into MSU College of Law."
+    },
+    {
+      "id": "gw_law",
+      "label": "George Washington University Law School",
+      "type": "entity",
+      "entity_type": "Law school",
+      "note": "Bullington (AGC Asst Deputy, JD). DC."
+    },
+    {
+      "id": "cuny_law",
+      "label": "CUNY School of Law",
+      "type": "entity",
+      "entity_type": "Law school",
+      "note": "Swedlow (AGC Commissioner, JD). Queens College."
+    },
+    {
+      "id": "usao_edmi",
+      "label": "US Attorney's Office, Eastern District of Michigan",
+      "type": "entity",
+      "entity_type": "Government office",
+      "note": "Dawn Ison (JTC, 19yr AUSA Public Corruption Unit). Patrick Corbett (JTC, 20yr AUSA). Two JTC members, same federal office."
     }
   ],
   "edges": [
@@ -5953,6 +6030,303 @@
       "weight": 5,
       "note": "ACLU of Michigan. Statewide civil liberties org.",
       "source_doc": "aclumich.org"
+    },
+    {
+      "source": "goetz",
+      "target": "msu",
+      "type": "education",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "BS 1983. AGC Grievance Admin.",
+      "source_doc": "Official bios (AGC/JTC websites, annual reports)"
+    },
+    {
+      "source": "agc_mazur",
+      "target": "msu",
+      "type": "education",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "BA. AGC Senior Associate Counsel.",
+      "source_doc": "Official bios (AGC/JTC websites, annual reports)"
+    },
+    {
+      "source": "agc_frazee",
+      "target": "msu",
+      "type": "education",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "BA. AGC Senior Associate Counsel.",
+      "source_doc": "Official bios (AGC/JTC websites, annual reports)"
+    },
+    {
+      "source": "bullington",
+      "target": "msu",
+      "type": "education",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "BA. AGC Asst Deputy Admin.",
+      "source_doc": "Official bios (AGC/JTC websites, annual reports)"
+    },
+    {
+      "source": "uhuru",
+      "target": "msu",
+      "type": "education",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "BS magna cum laude, Political Theory & Constitutional Democracy.",
+      "source_doc": "Official bios (AGC/JTC websites, annual reports)"
+    },
+    {
+      "source": "thomas_ryan",
+      "target": "ud_mercy_law",
+      "type": "education",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "JD. JTC Chair since 2005.",
+      "source_doc": "Official bios (AGC/JTC websites, annual reports)"
+    },
+    {
+      "source": "agc_willis",
+      "target": "ud_mercy_law",
+      "type": "education",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "JD 2002. AGC Commissioner.",
+      "source_doc": "Official bios (AGC/JTC websites, annual reports)"
+    },
+    {
+      "source": "agc_linville",
+      "target": "ud_mercy_law",
+      "type": "education",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "JD. AGC Senior Associate Counsel.",
+      "source_doc": "Official bios (AGC/JTC websites, annual reports)"
+    },
+    {
+      "source": "jtc_ison",
+      "target": "wayne_state_law",
+      "type": "education",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "JD. Former AUSA Public Corruption Unit.",
+      "source_doc": "Official bios (AGC/JTC websites, annual reports)"
+    },
+    {
+      "source": "agc_robinson",
+      "target": "wmu",
+      "type": "education",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "BA Political Science & Criminal Justice.",
+      "source_doc": "Official bios (AGC/JTC websites, annual reports)"
+    },
+    {
+      "source": "agc_willis",
+      "target": "wmu",
+      "type": "education",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "BA 1997.",
+      "source_doc": "Official bios (AGC/JTC websites, annual reports)"
+    },
+    {
+      "source": "thomas_ryan",
+      "target": "notre_dame",
+      "type": "education",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "Undergrad. JTC Chair.",
+      "source_doc": "Official bios (AGC/JTC websites, annual reports)"
+    },
+    {
+      "source": "jtc_ison",
+      "target": "spelman",
+      "type": "education",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "Undergrad. HBCU, Atlanta.",
+      "source_doc": "Official bios (AGC/JTC websites, annual reports)"
+    },
+    {
+      "source": "uhuru",
+      "target": "depaul_law",
+      "type": "education",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "JD. AGC Deputy Admin.",
+      "source_doc": "Official bios (AGC/JTC websites, annual reports)"
+    },
+    {
+      "source": "goetz",
+      "target": "detroit_college_law",
+      "type": "education",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "JD 1988. Before MSU Law merger.",
+      "source_doc": "Official bios (AGC/JTC websites, annual reports)"
+    },
+    {
+      "source": "detroit_college_law",
+      "target": "msu_law",
+      "type": "formation",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "Merged into MSU College of Law.",
+      "source_doc": "Official bios (AGC/JTC websites, annual reports)"
+    },
+    {
+      "source": "bullington",
+      "target": "gw_law",
+      "type": "education",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "JD. AGC Asst Deputy Admin.",
+      "source_doc": "Official bios (AGC/JTC websites, annual reports)"
+    },
+    {
+      "source": "agc_swedlow",
+      "target": "cuny_law",
+      "type": "education",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "JD. Queens College.",
+      "source_doc": "Official bios (AGC/JTC websites, annual reports)"
+    },
+    {
+      "source": "jtc_ison",
+      "target": "usao_edmi",
+      "type": "employment",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "AUSA 19 years. Public Corruption Unit. Drug Task Force.",
+      "source_doc": "Official bios (AGC/JTC websites, annual reports)"
+    },
+    {
+      "source": "jtc_corbett",
+      "target": "usao_edmi",
+      "type": "employment",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "AUSA 20+ years. Federal crimes prosecution.",
+      "source_doc": "Official bios (AGC/JTC websites, annual reports)"
+    },
+    {
+      "source": "agc_linville",
+      "target": "wayne_co_pa",
+      "type": "employment",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "Former Assistant Prosecutor.",
+      "source_doc": "Official bios (AGC/JTC websites, annual reports)"
+    },
+    {
+      "source": "betsy_devos",
+      "target": "devos_foundation",
+      "type": "governance",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "Dick & Betsy DeVos Family Foundation.",
+      "source_doc": "Known connections from prior investigation"
+    },
+    {
+      "source": "devos_foundation",
+      "target": "afc",
+      "type": "funding",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "DeVos family primary funders of AFC.",
+      "source_doc": "Known connections from prior investigation"
+    },
+    {
+      "source": "devos_foundation",
+      "target": "walton_family_foundation",
+      "type": "partnership",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "Both fund charter school expansion pipeline. Overlapping grantees.",
+      "source_doc": "Known connections from prior investigation"
+    },
+    {
+      "source": "npe",
+      "target": "walton_family_foundation",
+      "type": "opposition",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "NPE publishes reports criticizing Walton-funded charter expansion. Yet Burris refused to engage.",
+      "source_doc": "Known connections from prior investigation"
+    },
+    {
+      "source": "vitti",
+      "target": "sbe",
+      "type": "reports_to",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "DPSCD Superintendent reports to State Board of Education.",
+      "source_doc": "Known connections from prior investigation"
+    },
+    {
+      "source": "vitti",
+      "target": "pca",
+      "type": "authorization",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "DPSCD (through authorizer) oversees PCA. Vitti is superintendent.",
+      "source_doc": "Known connections from prior investigation"
+    },
+    {
+      "source": "sbe",
+      "target": "mde",
+      "type": "governance",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "State Board of Education governs MDE.",
+      "source_doc": "Known connections from prior investigation"
+    },
+    {
+      "source": "snyder_nikki",
+      "target": "banks",
+      "type": "investigation",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "Oct 12: Called Kevin back in 13 minutes on personal cell. Non-self verified. SBE meets Oct 13, 9:30 AM. Snyder will be in the room with the evidence.",
+      "source_doc": "Known connections from prior investigation"
+    },
+    {
+      "source": "jtc_ison",
+      "target": "jtc_corbett",
+      "type": "professional_connection",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Both former AUSAs, Eastern District of Michigan. Ison: 19 years, Public Corruption. Corbett: 20+ years, federal crimes. Now both on JTC. Same federal office → same oversight body.",
+      "source_doc": "JTC + USAO EDMI bios"
+    },
+    {
+      "source": "agc_willis",
+      "target": "agc_linville",
+      "type": "professional_connection",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Both: Wayne County Prosecutor's Office + U of D Mercy Law graduates. Now both at AGC. Same prosecutor office + same law school → same oversight body.",
+      "source_doc": "AGC bios"
+    },
+    {
+      "source": "agc_robinson",
+      "target": "agc_willis",
+      "type": "education",
+      "epistemic_status": "record",
+      "weight": 4,
+      "note": "Both WMU graduates. Robinson: PoliSci/CrimJ. Willis: BA 1997.",
+      "source_doc": "AGC bios"
+    },
+    {
+      "source": "goetz",
+      "target": "uhuru",
+      "type": "education",
+      "epistemic_status": "record",
+      "weight": 4,
+      "note": "Both MSU graduates. Goetz BS 1983, Uhuru BS magna cum laude. AGC Grievance Admin + Deputy Admin from same university.",
+      "source_doc": "AGC bios"
     }
   ],
   "epistemic_grammar": {
