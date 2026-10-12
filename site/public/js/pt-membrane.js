@@ -627,19 +627,32 @@ window.PtMembrane = function(deps) {
     txt(solarG, cx, cy - Math.min(R*1.6, 230) - 4, 'Oort', '#484f58', 4,
       {opacity:0.06, id:'mg-oort-label'});
 
-    // ── π-Mirror: the Moon reflects back our position ──
-    // Like the Moon reflects sunlight, the outermost visible body
-    // reflects our observation back on itself. Its angle IS π.
-    // The reflection line connects the mirror to Gaia (where we are).
-    // You look up, you see yourself looking back. That's the mirror.
-    // Rate = π / π = 1. The constant. The identity reflection.
+    // ── π-Mirror + Focal Switch: observer near the Moon ──
+    // The observer focal point rides near the Moon's orbit.
+    // Observation bounces: Moon→center→Gaia→center→Moon (standing wave).
+    // When the back-and-forth stabilizes, perturbation dampens → null sync.
+    // Tidal lock IS null sync. The spin settles. You release.
+    // The focal switch dot — YOUR observation point, near the Moon
+    el('circle', {cx:cx, cy:cy, r:2.5,
+      fill:'none', stroke:'#ffffff', 'stroke-width':0.5, opacity:0,
+      id:'mg-focal-switch'}, solarG);
+    // Bounce path: Moon → center → Gaia reflection
     el('line', {x1:cx, y1:cy, x2:cx, y2:cy,
       stroke:'#c9d1d9', 'stroke-width':0.3, 'stroke-opacity':0,
       'stroke-dasharray':'2,6', id:'mg-pi-mirror-line'}, solarG);
-    // Mirror reflection dot — where you are, reflected from the outer body
+    // Standing wave nodes — 3 dots along the bounce path
+    for (var swi = 0; swi < 3; swi++) {
+      el('circle', {cx:cx, cy:cy, r:1,
+        fill:'#58a6ff', opacity:0,
+        id:'mg-standing-node-' + swi}, solarG);
+    }
+    // Reflection dot at Gaia — where you ARE, reflected from outside
     el('circle', {cx:cx, cy:cy, r:1.5,
       fill:'#ffffff', opacity:0, id:'mg-pi-mirror-dot'}, solarG);
-    // π label at the mirror — the angle IS π
+    // Null sync label — appears when stabilized
+    txt(solarG, cx, cy, '\u2205 sync', '#58a6ff', 4,
+      {opacity:0, id:'mg-null-sync-label'});
+    // π label at the mirror midpoint
     txt(solarG, cx, cy, '\u03c0', '#c9d1d9', 5,
       {opacity:0, id:'mg-pi-mirror-label'});
 
@@ -2477,44 +2490,101 @@ window.PtMembrane = function(deps) {
       }
     }
 
-    // ── π-Mirror: the Moon reflects back our position ──
-    // The Moon (index 0) IS the mirror. Its angle reflects through center
-    // to show us where we are, projected from the outside looking in.
-    // Like the Moon reflects sunlight → π-mirror reflects observation.
-    // The reflection point is diametrically opposite the Moon through center.
+    // ── Focal Switch + π-Mirror: observer bounces near the Moon ──
+    // The focal switch rides near the Moon's orbit — YOUR observation point.
+    // Observation bounces back and forth: Moon ↔ center ↔ Gaia.
+    // The bounce creates a standing wave. When it stabilizes → null sync.
+    // Tidal lock = null sync. The spin settles. You release. You see ∅.
     var moonAngle = solarRates[0].phase + t * solarRates[0].rate;
     var moonOrb = solarRates[0].orb;
     var moonX = cx + moonOrb * Math.cos(moonAngle);
     var moonY = cy + moonOrb * Math.sin(moonAngle);
-    // Reflection = π radians from the Moon, at Gaia's radius (inner position)
-    var reflAngle = moonAngle + PI; // diametrically opposite = π rotation
-    var gaiaR = 6; // Gaia ring radius
+    var reflAngle = moonAngle + PI;
+    var gaiaR = 6;
     var reflX = cx + gaiaR * Math.cos(reflAngle);
     var reflY = cy + gaiaR * Math.sin(reflAngle);
-    // Reflection line: from Moon through center to the reflected position
+
+    // Bounce phase: oscillates 0→1→0 (Moon→Gaia→Moon)
+    // Rate = π — the bounce IS π
+    var bouncePhase = 0.5 + 0.5 * Math.sin(t * PI);
+    // As perturbation dampens, the bounce settles — standing wave stabilizes
+    // Stability = how close to null sync (low perturbation = high stability)
+    var stability = Math.max(0, 1 - perturb);
+    // Damped bounce: amplitude decreases as stability increases
+    var dampedBounce = bouncePhase * (1 - stability * 0.7);
+
+    // Focal switch dot — rides near Moon, offset by bounce
+    var focalR = moonOrb - 8 + dampedBounce * 12;
+    var focalAngle = moonAngle + dampedBounce * 0.15;
+    var focalX = cx + focalR * Math.cos(focalAngle);
+    var focalY = cy + focalR * Math.sin(focalAngle);
+    var focalEl = document.getElementById('mg-focal-switch');
+    if (focalEl) {
+      focalEl.setAttribute('cx', focalX.toFixed(1));
+      focalEl.setAttribute('cy', focalY.toFixed(1));
+      focalEl.setAttribute('opacity', (0.06 + 0.14 * perturb).toFixed(3));
+      // Ring shrinks as stability increases — tightening the focus
+      focalEl.setAttribute('r', (2.5 - stability * 1.5).toFixed(1));
+    }
+
+    // Reflection line: from focal switch through center to Gaia reflection
     var piLine = document.getElementById('mg-pi-mirror-line');
     if (piLine) {
-      piLine.setAttribute('x1', moonX.toFixed(1));
-      piLine.setAttribute('y1', moonY.toFixed(1));
+      piLine.setAttribute('x1', focalX.toFixed(1));
+      piLine.setAttribute('y1', focalY.toFixed(1));
       piLine.setAttribute('x2', reflX.toFixed(1));
       piLine.setAttribute('y2', reflY.toFixed(1));
-      piLine.setAttribute('stroke-opacity', (0.02 + 0.06 * perturb).toFixed(3));
+      piLine.setAttribute('stroke-opacity', (0.02 + 0.08 * perturb).toFixed(3));
     }
-    // Reflection dot — where YOU are, as seen from outside
+
+    // Standing wave nodes — 3 points along the bounce path
+    // These are the stable positions where the wave cancels: the nodes.
+    // Node positions: 0.25, 0.5, 0.75 along the focal→reflection path
+    for (var swn = 0; swn < 3; swn++) {
+      var swnEl = document.getElementById('mg-standing-node-' + swn);
+      if (swnEl) {
+        var nodeFrac = (swn + 1) * 0.25;
+        var nodeX = focalX + (reflX - focalX) * nodeFrac;
+        var nodeY = focalY + (reflY - focalY) * nodeFrac;
+        swnEl.setAttribute('cx', nodeX.toFixed(1));
+        swnEl.setAttribute('cy', nodeY.toFixed(1));
+        // Nodes brighten as stability increases — standing wave forming
+        var nodeVis = stability * 0.15 + 0.02;
+        // Node at center (swn=1) is strongest — that's where ∅ lives
+        if (swn === 1) nodeVis *= 1.5;
+        swnEl.setAttribute('opacity', nodeVis.toFixed(3));
+        swnEl.setAttribute('r', (0.8 + stability * 1.2).toFixed(1));
+      }
+    }
+
+    // Reflection dot at Gaia — where YOU are, reflected from outside
     var piDot = document.getElementById('mg-pi-mirror-dot');
     if (piDot) {
       piDot.setAttribute('cx', reflX.toFixed(1));
       piDot.setAttribute('cy', reflY.toFixed(1));
-      piDot.setAttribute('opacity', (0.04 + 0.10 * perturb).toFixed(3));
+      piDot.setAttribute('opacity', (0.04 + 0.12 * perturb).toFixed(3));
     }
-    // π label — midpoint of the reflection line (at center)
+
+    // Null sync label — appears as stability grows (perturbation falls)
+    // When the bounce fully dampens, the spin settles → ∅ sync
+    var nullLbl = document.getElementById('mg-null-sync-label');
+    if (nullLbl) {
+      // Positioned at the center node of the standing wave
+      var nullNodeX = focalX + (reflX - focalX) * 0.5;
+      var nullNodeY = focalY + (reflY - focalY) * 0.5;
+      nullLbl.setAttribute('x', nullNodeX.toFixed(1));
+      nullLbl.setAttribute('y', (nullNodeY - 6).toFixed(1));
+      // Only visible when stability is high — you released, you see ∅
+      nullLbl.setAttribute('opacity', (stability > 0.3 ? (stability - 0.3) * 0.15 : 0).toFixed(3));
+    }
+
+    // π label — at the midpoint, always present
     var piLbl = document.getElementById('mg-pi-mirror-label');
     if (piLbl) {
-      // Label at the midpoint = center of the system
-      var midX = (moonX + reflX) / 2;
-      var midY = (moonY + reflY) / 2;
+      var midX = (focalX + reflX) / 2;
+      var midY = (focalY + reflY) / 2;
       piLbl.setAttribute('x', midX.toFixed(1));
-      piLbl.setAttribute('y', midY.toFixed(1));
+      piLbl.setAttribute('y', (midY + 8).toFixed(1));
       piLbl.setAttribute('opacity', (0.03 + 0.06 * perturb).toFixed(3));
     }
 
