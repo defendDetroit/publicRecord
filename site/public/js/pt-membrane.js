@@ -304,12 +304,48 @@ window.PtMembrane = function(deps) {
       geo[p.id] = {angle:angle, px:px, py:py, fx:fx, fy:fy,
         cat:p.cat, dim:p.dim, color:color, focalR:fR, R:R};
 
-      // Tangent line
+      // ── Tangent (tan): touches the circle at one point ──
+      // Perpendicular to the radius. The original line.
       el('line', {x1:(px-txd*tLen).toFixed(1), y1:(py-tyd*tLen).toFixed(1),
         x2:(px+txd*tLen).toFixed(1), y2:(py+tyd*tLen).toFixed(1),
         stroke:color, 'stroke-width':1, 'stroke-opacity':(op*0.6).toFixed(2)}, wasG);
 
-      // Focal line
+      // ── Secant (sec): through the circle to the antipodal point ──
+      // tangent ⊥ secant = π/2. They are relative to each other at π.
+      // The secant IS the diameter — it passes through center.
+      var sx = cx + R * Math.cos(angle + PI);
+      var sy = cy + R * Math.sin(angle + PI);
+      el('line', {x1:px.toFixed(1), y1:py.toFixed(1),
+        x2:sx.toFixed(1), y2:sy.toFixed(1),
+        stroke:color, 'stroke-width':0.3, 'stroke-opacity':(op*0.06).toFixed(3),
+        id:'mg-sec-'+p.id}, wasG);
+
+      // ── Normal / Cosecant direction (csc): outward from the ring ──
+      // Extends the radius OUTWARD past the panel dot.
+      // csc = 1/sin — the outward reach of perception.
+      var normOut = 16 + fd * 12;
+      var onx = px + Math.cos(angle) * normOut;
+      var ony = py + Math.sin(angle) * normOut;
+      el('line', {x1:px.toFixed(1), y1:py.toFixed(1),
+        x2:onx.toFixed(1), y2:ony.toFixed(1),
+        stroke:color, 'stroke-width':0.3, 'stroke-opacity':(op*0.08).toFixed(3),
+        'stroke-dasharray':'1,3', id:'mg-csc-'+p.id}, wasG);
+
+      // ── Cotangent (cot): tangent at the π/2-shifted point ──
+      // cot(θ) = tan(θ + π/2). At THIS panel, draw the tangent
+      // of the panel π/2 ahead — perpendicular to our tangent.
+      // This creates the π/2 relationship between tan and cot.
+      var cotAngle = angle + PI/2;
+      var cotPx = cx + R * Math.cos(cotAngle);
+      var cotPy = cy + R * Math.sin(cotAngle);
+      var cotLen = fd * 30; // shorter than tangent
+      var cotTxd = -Math.sin(cotAngle), cotTyd = Math.cos(cotAngle);
+      el('line', {x1:(cotPx-cotTxd*cotLen).toFixed(1), y1:(cotPy-cotTyd*cotLen).toFixed(1),
+        x2:(cotPx+cotTxd*cotLen).toFixed(1), y2:(cotPy+cotTyd*cotLen).toFixed(1),
+        stroke:color, 'stroke-width':0.2, 'stroke-opacity':(op*0.04).toFixed(3),
+        'stroke-dasharray':'2,5', id:'mg-cot-'+p.id}, wasG);
+
+      // ── Focal line (radius/normal — inward) ──
       el('line', {x1:px.toFixed(1), y1:py.toFixed(1),
         x2:fx.toFixed(1), y2:fy.toFixed(1),
         stroke:color, 'stroke-width':0.5, 'stroke-opacity':0.3,
