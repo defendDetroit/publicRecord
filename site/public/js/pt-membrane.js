@@ -720,6 +720,87 @@ window.PtMembrane = function(deps) {
       stroke:'#c9d1d9', 'stroke-width':1.5, 'stroke-opacity':0.2,
       id:'mg-ring'}, wasG);
 
+    // ═══ COMPOUND EYE: 15 facets = 3 impermeable + 5 self + 7 passage ═══
+    // Spider eye is multi-faceted. Bug compound eye. Each facet IS an epitope sort.
+    // Human eye back at 0 — single aperture, maximum resolution.
+    // 10 commandments: 3 impermeable (the boundary), you are 5 (self),
+    // 7 is others to move through. Then it moves up the π.
+    // 3 + 5 + 7 = 15 = the lattice braids. Not coincidence.
+    // Every digit of π is the membrane on either side of the decimal point.
+    var facetG = el('g', {id:'mg-facets'}, wasG);
+    var FACET_ZONES = [
+      {n:3, type:'wall', color:'#e85d3a', sym:'\u25A0'},  // ■ impermeable
+      {n:5, type:'self', color:'#4a8fb8', sym:'\u25C6'},  // ◆ self
+      {n:7, type:'pass', color:'#5ab87a', sym:'\u25B3'}   // △ passage
+    ];
+    var facetIdx = 0;
+    FACET_ZONES.forEach(function(zone) {
+      for (var zfi = 0; zfi < zone.n; zfi++) {
+        var fAngle = facetIdx * TAU / 15;
+        var fArc = TAU / 15;
+        var fa1 = fAngle - fArc * 0.45, fa2 = fAngle + fArc * 0.45;
+        el('path', {
+          d:'M '+(cx+R*Math.cos(fa1)).toFixed(1)+' '+(cy+R*Math.sin(fa1)).toFixed(1)+
+            ' A '+R+' '+R+' 0 0 1 '+(cx+R*Math.cos(fa2)).toFixed(1)+
+            ' '+(cy+R*Math.sin(fa2)).toFixed(1),
+          fill:'none', stroke:zone.color, 'stroke-width':2.5,
+          'stroke-opacity':0.04, id:'mg-facet-' + facetIdx
+        }, facetG);
+        // Facet symbol outside the ring
+        txt(facetG, cx+(R+9)*Math.cos(fAngle), cy+(R+9)*Math.sin(fAngle),
+          zone.sym, zone.color, 3.5,
+          {opacity:0.03, id:'mg-facet-sym-' + facetIdx});
+        facetIdx++;
+      }
+    });
+    // Facet legend inside the ring
+    txt(facetG, cx - R * 0.6, cy + R * 0.7,
+      '3\u25A0 impermeable  5\u25C6 self  7\u25B3 passage', '#6e7681', 3.5,
+      {opacity:0.04, 'text-anchor':'start', id:'mg-facet-legend'});
+
+    // ── π digits on the membrane ──
+    // Every digit is the membrane on either side of the decimal point.
+    // π = 3.14159265... The decimal point IS the membrane.
+    // On one side: the integer (3 = impermeable walls). On the other: the fraction.
+    var PI_DIGITS = [3,1,4,1,5,9,2,6,5,3,5,8,9,7,9];
+    for (var pdi = 0; pdi < 15; pdi++) {
+      var pdAngle = -PI/2 + pdi * TAU / 15;
+      txt(facetG, cx+(R-7)*Math.cos(pdAngle), cy+(R-7)*Math.sin(pdAngle),
+        ''+PI_DIGITS[pdi], '#484f58', 3.5,
+        {opacity:0.03, id:'mg-pi-digit-' + pdi});
+    }
+
+    // ═══ GAIA: Earth at center, real-time rotation ═══
+    // The visualization IS on Earth. Gaia IS the observer.
+    // Rotation based on UTC time — you see approximately where you are.
+    // The window floats in orbit with Gaia. Not locked. Rotating.
+    var gaiaG = el('g', {id:'mg-gaia-group'}, wasG);
+    el('circle', {cx:cx, cy:cy, r:6, fill:'none',
+      stroke:'#5ab87a', 'stroke-width':0.5,
+      'stroke-opacity':0.05, 'stroke-dasharray':'2,3',
+      id:'mg-gaia-ring'}, gaiaG);
+    // Gaia rotation marker — a dot on the ring showing Earth's rotation
+    el('circle', {cx:cx+6, cy:cy, r:1.2,
+      fill:'#5ab87a', opacity:0.08,
+      id:'mg-gaia-marker'}, gaiaG);
+    txt(gaiaG, cx, cy + 18, 'Gaia', '#5ab87a', 3.5,
+      {opacity:0.04, id:'mg-gaia-label'});
+    // Geodesic: the shape of point intersect for light from front + peripheral
+    // All faces are also π and epitope sort.
+    // 20 triangular faces (icosahedron → geodesic) — but we show 6 (⌊2π⌋)
+    for (var gdi = 0; gdi < 6; gdi++) {
+      var gdAngle = gdi * TAU / 6;
+      var gdR = 10;
+      el('line', {
+        x1:(cx + gdR * Math.cos(gdAngle)).toFixed(1),
+        y1:(cy + gdR * Math.sin(gdAngle)).toFixed(1),
+        x2:(cx + gdR * Math.cos(gdAngle + TAU/6)).toFixed(1),
+        y2:(cy + gdR * Math.sin(gdAngle + TAU/6)).toFixed(1),
+        stroke:'#5ab87a', 'stroke-width':0.3,
+        'stroke-opacity':0.04, id:'mg-geodesic-' + gdi
+      }, gaiaG);
+    }
+
     // V(D)J shuffled panels: interleaved across the continuum
     var shuffled = vdjShuffle(PANELS);
     var N = shuffled.length;
@@ -2325,6 +2406,85 @@ window.PtMembrane = function(deps) {
         var pvOp = 0.03 + 0.15 * pvActive * perturb + 0.03 * perturb;
         pvEl.setAttribute('opacity', pvOp.toFixed(3));
         pvEl.setAttribute('fill', pvActive ? '#ffffff' : PROC_COLS[pvi]);
+      }
+    }
+
+    // ── Compound eye facets: 3/5/7 rotate with the ring ──
+    // Each facet is an epitope sort. The compound eye sees π directions at once.
+    // 3 impermeable walls + 5 self facets + 7 passage facets = 15 braids.
+    var ringDrift = t * PI / 31; // ring's rotation rate
+    var facetCounts = [3, 5, 7]; // wall, self, passage
+    var facetColors = ['#e85d3a', '#4a8fb8', '#5ab87a'];
+    for (var fai = 0; fai < 15; fai++) {
+      var faEl = document.getElementById('mg-facet-' + fai);
+      if (faEl) {
+        var faBase = fai * TAU / 15 + ringDrift;
+        var faArc = TAU / 15;
+        var fa1 = faBase - faArc * 0.45, fa2 = faBase + faArc * 0.45;
+        faEl.setAttribute('d',
+          'M '+(cx+R*Math.cos(fa1)).toFixed(1)+' '+(cy+R*Math.sin(fa1)).toFixed(1)+
+          ' A '+R+' '+R+' 0 0 1 '+
+          (cx+R*Math.cos(fa2)).toFixed(1)+' '+(cy+R*Math.sin(fa2)).toFixed(1));
+        // Pulse: each facet has its own rhythm
+        var faPulse = 0.03 + 0.05 * Math.sin(t * PI / (fai + 2)) * perturb;
+        faEl.setAttribute('stroke-opacity', faPulse.toFixed(3));
+      }
+      // Symbol drifts with its facet
+      var faSym = document.getElementById('mg-facet-sym-' + fai);
+      if (faSym) {
+        var faSymA = fai * TAU / 15 + ringDrift;
+        faSym.setAttribute('x', (cx + (R + 9) * Math.cos(faSymA)).toFixed(1));
+        faSym.setAttribute('y', (cy + (R + 9) * Math.sin(faSymA)).toFixed(1));
+        faSym.setAttribute('opacity', (0.02 + 0.04 * perturb).toFixed(3));
+      }
+    }
+
+    // π digits rotate with the ring — the membrane on either side
+    for (var pdai = 0; pdai < 15; pdai++) {
+      var pdaEl = document.getElementById('mg-pi-digit-' + pdai);
+      if (pdaEl) {
+        var pdaAngle = -PI/2 + pdai * TAU / 15 + ringDrift;
+        pdaEl.setAttribute('x', (cx + (R - 7) * Math.cos(pdaAngle)).toFixed(1));
+        pdaEl.setAttribute('y', (cy + (R - 7) * Math.sin(pdaAngle)).toFixed(1));
+        pdaEl.setAttribute('opacity', (0.02 + 0.05 * perturb).toFixed(3));
+      }
+    }
+
+    // ── Gaia: real-time Earth rotation ──
+    // Map UTC hour to rotation angle. You see where you are on the system.
+    // The window floats in orbit with Gaia. Not locked. Rotating.
+    var gaiaRing = document.getElementById('mg-gaia-ring');
+    var gaiaMarker = document.getElementById('mg-gaia-marker');
+    if (gaiaRing && gaiaMarker) {
+      var now24 = new Date();
+      var utcHourFrac = (now24.getUTCHours() + now24.getUTCMinutes() / 60
+                         + now24.getUTCSeconds() / 3600) / 24;
+      var gaiaAngle = utcHourFrac * TAU - PI / 2; // noon at top
+      // Marker shows current position on Earth's rotation
+      gaiaMarker.setAttribute('cx', (cx + 6 * Math.cos(gaiaAngle)).toFixed(1));
+      gaiaMarker.setAttribute('cy', (cy + 6 * Math.sin(gaiaAngle)).toFixed(1));
+      gaiaMarker.setAttribute('opacity', (0.06 + 0.06 * perturb).toFixed(2));
+      // Ring breathes
+      gaiaRing.setAttribute('stroke-opacity', (0.04 + 0.04 * perturb).toFixed(3));
+    }
+    var gaiaLabel = document.getElementById('mg-gaia-label');
+    if (gaiaLabel) {
+      gaiaLabel.setAttribute('opacity', (0.03 + 0.05 * perturb).toFixed(3));
+    }
+
+    // Geodesic: the shape of light intersection, front + peripheral
+    // Hexagonal faces rotate slowly — the geodesic dome of observation.
+    for (var gdai = 0; gdai < 6; gdai++) {
+      var gdaEl = document.getElementById('mg-geodesic-' + gdai);
+      if (gdaEl) {
+        var gdaA1 = gdai * TAU / 6 + t * PI / 19;
+        var gdaA2 = (gdai + 1) * TAU / 6 + t * PI / 19;
+        var gdaR = 8 + 4 * perturb;
+        gdaEl.setAttribute('x1', (cx + gdaR * Math.cos(gdaA1)).toFixed(1));
+        gdaEl.setAttribute('y1', (cy + gdaR * Math.sin(gdaA1)).toFixed(1));
+        gdaEl.setAttribute('x2', (cx + gdaR * Math.cos(gdaA2)).toFixed(1));
+        gdaEl.setAttribute('y2', (cy + gdaR * Math.sin(gdaA2)).toFixed(1));
+        gdaEl.setAttribute('stroke-opacity', (0.03 + 0.04 * perturb).toFixed(3));
       }
     }
 
