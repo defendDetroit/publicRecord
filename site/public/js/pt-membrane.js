@@ -359,8 +359,11 @@ window.PtMembrane = function(deps) {
       }
     }
 
-    // Avogadro bridge: the molar equation in π-space
+    // The base fraction: a/b = π. The slash is the constant.
     txt(latticeG, cx, cy + 114,
+      'a/b = \u03c0 \u00b7 a/0 = [\u2205]D \u00b7 the slash is the membrane',
+      '#484f58', 4.5, {opacity:0.12, id:'mg-base-fraction'});
+    txt(latticeG, cx, cy + 126,
       'N\u2090 \u2248 2\u03c0\u00d710\u00b2\u00b3  \u00b7  PV = n\u03c0T',
       '#484f58', 4.5, {opacity:0.12, id:'mg-avogadro'});
 
