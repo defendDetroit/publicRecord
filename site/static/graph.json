@@ -5300,19 +5300,6 @@
       "sort_method": "phase1"
     },
     {
-      "id": "ramsey",
-      "label": "ramsey",
-      "type": "institution",
-      "tier": 5,
-      "class": "false_entity",
-      "classification": "self",
-      "confidence": 0.7,
-      "opacity": 0.7,
-      "sort_pass": 2,
-      "sort_method": "court",
-      "sort_note": "Court or judicial entity."
-    },
-    {
       "id": "ravitch",
       "label": "Diane Ravitch",
       "type": "actor",
@@ -5367,19 +5354,6 @@
       "sort_pass": 3,
       "sort_method": "unresolved",
       "sort_note": "Edge pattern unresolved."
-    },
-    {
-      "id": "sabree_adam",
-      "label": "sabree adam",
-      "type": "institution",
-      "tier": 5,
-      "class": "false_entity",
-      "classification": "self",
-      "confidence": 0.7,
-      "opacity": 0.7,
-      "sort_pass": 2,
-      "sort_method": "court",
-      "sort_note": "Court or judicial entity."
     },
     {
       "id": "sam_gov",
@@ -5614,16 +5588,6 @@
       "entity_type": "Nonprofit",
       "tier": 5,
       "role": "Children's mental health organization in Detroit. Nicole Wells-Stallworth became CEO July 2023. Running a children's mental health org while presiding over a school at 3% math proficiency.",
-      "class": "false_entity",
-      "classification": "null"
-    },
-    {
-      "id": "irs_eo_detroit",
-      "label": "IRS Exempt Organizations (Detroit)",
-      "type": "entity",
-      "entity_type": "Federal agency",
-      "tier": 5,
-      "role": "IRS Exempt Organizations division. Purpose Foundation 990 oversight. Self-dealing investigation jurisdiction.",
       "class": "false_entity",
       "classification": "null"
     },
@@ -12969,14 +12933,6 @@
       "weight": 10
     },
     {
-      "source": "eric_sabree",
-      "target": "sabree_adam",
-      "type": "family",
-      "epistemic_status": "record",
-      "role": "Father",
-      "weight": 10
-    },
-    {
       "source": "escuela_avancemos",
       "target": "macdowell",
       "type": "permit",
@@ -18296,15 +18252,7 @@
       "source_doc": "bingo_cube_controlled.py"
     },
     {
-      "source": "ramsey",
-      "target": "court_3rd",
-      "type": "bench",
-      "epistemic_status": "record",
-      "role": "Judge (Criminal Division)",
-      "weight": 10
-    },
-    {
-      "source": "ramsey",
+      "source": "kelly_ramsey",
       "target": "macdowell",
       "type": "employment_family",
       "epistemic_status": "record",
@@ -18754,7 +18702,7 @@
       "weight": 10
     },
     {
-      "source": "sabree_adam",
+      "source": "sabree_a",
       "target": "court_36th",
       "type": "bench",
       "epistemic_status": "record",
@@ -21804,7 +21752,7 @@
       "source_doc": "US DOE"
     },
     {
-      "source": "irs_eo_detroit",
+      "source": "irs_eo",
       "target": "purpose_foundation",
       "type": "tax_exempt_oversight",
       "epistemic_status": "record",
@@ -21813,7 +21761,7 @@
       "source_doc": "IRS"
     },
     {
-      "source": "irs_eo_detroit",
+      "source": "irs_eo",
       "target": "anchor_rock",
       "type": "tax_exempt_oversight",
       "epistemic_status": "record",
@@ -40774,6 +40722,123 @@
       "weight": 6,
       "note": "Tajiri created Pokemon for Yokoi's Game Boy. The insect collector met the lateral thinker.",
       "source_doc": "wikipedia CC-BY-SA 3.0"
+    },
+    {
+      "source": "periodic_table",
+      "target": "public_education",
+      "type": "requires",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "The periodic table hangs on the wall of every classroom that functions. Chemistry requires education.",
+      "source_doc": "ghost_hunt structural audit"
+    },
+    {
+      "source": "mae_jemison",
+      "target": "public_education",
+      "type": "product_of",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "Chicago public schools -> Stanford -> Peace Corps -> NASA. First Black woman in space. Public education works when it works.",
+      "source_doc": "ghost_hunt structural audit"
+    },
+    {
+      "source": "neil_degrasse_tyson",
+      "target": "public_education",
+      "type": "product_of",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "Bronx public schools -> Harvard -> Columbia PhD. Hayden Planetarium. Public education creates astrophysicists.",
+      "source_doc": "ghost_hunt structural audit"
+    },
+    {
+      "source": "matinga_ragatz",
+      "target": "dykema",
+      "type": "employment",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "Dykema Gossett attorney.",
+      "source_doc": "ghost_hunt structural audit"
+    },
+    {
+      "source": "mike_pence",
+      "target": "betsy_devos",
+      "type": "political_alliance",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "VP under Trump. DeVos appointed Education Secretary in the same administration.",
+      "source_doc": "ghost_hunt structural audit"
+    },
+    {
+      "source": "roger_penske",
+      "target": "detroit_city",
+      "type": "business",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "Penske Corp. Detroit business leader.",
+      "source_doc": "ghost_hunt structural audit"
+    },
+    {
+      "source": "bank_of_america",
+      "target": "blackrock",
+      "type": "financial",
+      "epistemic_status": "record",
+      "weight": 4,
+      "note": "Major financial institution. BlackRock is largest asset manager.",
+      "source_doc": "ghost_hunt structural audit"
+    },
+    {
+      "source": "citigroup",
+      "target": "blackrock",
+      "type": "financial",
+      "epistemic_status": "record",
+      "weight": 4,
+      "note": "Major bank. Interconnected financial system.",
+      "source_doc": "ghost_hunt structural audit"
+    },
+    {
+      "source": "amazon",
+      "target": "internet",
+      "type": "captured",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "Amazon captured commerce on the publicly-funded internet. Bezos became richest man from public infrastructure.",
+      "source_doc": "ghost_hunt structural audit"
+    },
+    {
+      "source": "unitedhealth",
+      "target": "public_education",
+      "type": "structural_proximity",
+      "epistemic_status": "record",
+      "weight": 3,
+      "note": "Healthcare and education: both commons being enclosed.",
+      "source_doc": "ghost_hunt structural audit"
+    },
+    {
+      "source": "cvs_health",
+      "target": "public_education",
+      "type": "structural_proximity",
+      "epistemic_status": "record",
+      "weight": 3,
+      "note": "Healthcare and education: both commons being enclosed.",
+      "source_doc": "ghost_hunt structural audit"
+    },
+    {
+      "source": "deloitte",
+      "target": "plante_moran",
+      "type": "competitor",
+      "epistemic_status": "record",
+      "weight": 4,
+      "note": "Big Four accounting firm. Competitor to Plante Moran in audit space.",
+      "source_doc": "ghost_hunt structural audit"
+    },
+    {
+      "source": "rouge_river",
+      "target": "detroit_city",
+      "type": "geography",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "Rouge River flows through Detroit metro. Environmental commons.",
+      "source_doc": "ghost_hunt structural audit"
     }
   ],
   "epistemic_grammar": {
