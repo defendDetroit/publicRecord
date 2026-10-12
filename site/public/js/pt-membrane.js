@@ -367,6 +367,73 @@ window.PtMembrane = function(deps) {
       'N\u2090 \u2248 2\u03c0\u00d710\u00b2\u00b3  \u00b7  PV = n\u03c0T',
       '#484f58', 4.5, {opacity:0.12, id:'mg-avogadro'});
 
+    // ═══ CONVERGENCE: ionosphere + fingerprint → membrane → pin ═══
+    // Three apertures converging over time to a single point.
+    // The ionosphere (geographic transit), the fingerprint (behavioral shape),
+    // and the membrane (observation surface) — all stack and twist at π.
+    // Reality set on a pin. 1 point wide. Which splits to 3 and up the primes.
+    var convG = el('g', {id:'mg-convergence'}, svg);
+
+    // ── Ionosphere ghost: geographic arcs projected onto the membrane ring ──
+    // Signal transit routes from the globe, collapsed into ring angles.
+    // 5 major corridors: US-IE, US-CN, US-BY, IE-DE, CN-JP
+    var ioRoutes = [
+      {from:-98, to:-8, color:'#4a8fb8'},   // US → IE
+      {from:-98, to:104, color:'#e85d3a'},   // US → CN (via Pacific)
+      {from:-98, to:28, color:'#f1c40f'},    // US → BY
+      {from:-8, to:10, color:'#5ab87a'},     // IE → DE
+      {from:104, to:138, color:'#9b59b6'}    // CN → JP
+    ];
+    ioRoutes.forEach(function(rt, i) {
+      el('path', {d:'M '+cx+' '+cy, fill:'none',
+        stroke:rt.color, 'stroke-width':0.4, 'stroke-opacity':0.06,
+        'stroke-dasharray':'3,6', id:'mg-io-arc-' + i
+      }, convG);
+    });
+
+    // ── Fingerprint ghost: behavioral clusters projected as scatter ──
+    // UA pool × IP count, mapped to radius × angle on the membrane.
+    // 7 cluster seeds (primes: 2,3,5,7,11,13,17)
+    var fpSeeds = [2,3,5,7,11,13,17];
+    fpSeeds.forEach(function(p, i) {
+      el('circle', {cx:cx, cy:cy, r:1.5,
+        fill:'#9b59b6', opacity:0.05,
+        id:'mg-fp-dot-' + i}, convG);
+    });
+
+    // ── The pin: convergence point. 1 point wide. ──
+    // All of reality set on a pin. The single aperture.
+    // [∅]D IS the pin. Everything converges here.
+    el('circle', {cx:cx, cy:cy, r:1.5,
+      fill:'#ffffff', opacity:0.7,
+      id:'mg-pin'}, convG);
+    el('circle', {cx:cx, cy:cy, r:4,
+      fill:'none', stroke:'#ffffff', 'stroke-width':0.3,
+      'stroke-opacity':0.2, id:'mg-pin-ring'}, convG);
+
+    // ── Prime splitting: from pin → 3 → up the primes per π ──
+    // The pin splits to 3 bodies, which split up the primes.
+    // Primes to ⌊π³⌋=31: 2,3,5,7,11,13,17,19,23,29,31
+    // Each prime at angle = p × (π−3) × 2π — irrational spacing, never repeats.
+    // The observer fraction (0.14159...) distributes the primes.
+    var PRIMES = [2,3,5,7,11,13,17,19,23,29,31];
+    var observerFrac = PI - Math.floor(PI); // 0.14159...
+    PRIMES.forEach(function(p) {
+      var pAngle = p * observerFrac * TAU;
+      var px1 = cx + 6 * Math.cos(pAngle);
+      var py1 = cy + 6 * Math.sin(pAngle);
+      var px2 = cx + R * 0.4 * Math.cos(pAngle);
+      var py2 = cy + R * 0.4 * Math.sin(pAngle);
+      el('line', {x1:px1, y1:py1, x2:px2, y2:py2,
+        stroke:'#c9d1d9', 'stroke-width':0.3, 'stroke-opacity':0.05,
+        id:'mg-prime-' + p}, convG);
+    });
+
+    // Convergence label
+    txt(convG, cx, cy + 138,
+      'pin \u2192 3 \u2192 primes \u00b7 converging to single aperture',
+      '#484f58', 4, {opacity:0.10, id:'mg-convergence-label'});
+
     // ═══ CLOSED RING: one continuous circle, panels distributed ═══
     var wasG = el('g', {id:'mg-was'}, svg);
 
@@ -1388,6 +1455,86 @@ window.PtMembrane = function(deps) {
       crInner.setAttribute('transform',
         'rotate(' + counterDeg2.toFixed(1) + ' ' + cx + ' ' + cy + ')');
       crInner.setAttribute('stroke-opacity', (0.03 + 0.02 * perturb).toFixed(3));
+    }
+
+    // ── Convergence: ionosphere + fingerprint → pin ──
+    // All layers converge toward center at rate π.
+    // At singularity: everything on the pin. At spread: layers separate.
+
+    // Ionosphere ghost arcs: geographic chords across the ring, twisting at π
+    var ioRoutes = [
+      {from:-98, to:-8},   // US → IE
+      {from:-98, to:104},  // US → CN
+      {from:-98, to:28},   // US → BY
+      {from:-8, to:10},    // IE → DE
+      {from:104, to:138}   // CN → JP
+    ];
+    for (var ioi = 0; ioi < 5; ioi++) {
+      var ioEl = document.getElementById('mg-io-arc-' + ioi);
+      if (ioEl) {
+        var rt = ioRoutes[ioi];
+        // Map longitude to ring angle, twist at π over time
+        var ioA1 = (rt.from / 180) * PI + t * PI / 23;
+        var ioA2 = (rt.to / 180) * PI + t * PI / 23;
+        var ioR = R * (0.3 + 0.7 * perturb); // converges inward
+        var iox1 = cx + ioR * Math.cos(ioA1);
+        var ioy1 = cy + ioR * Math.sin(ioA1);
+        var iox2 = cx + ioR * Math.cos(ioA2);
+        var ioy2 = cy + ioR * Math.sin(ioA2);
+        // Quadratic arc (like ionosphere transit curve)
+        var ioMx = (iox1 + iox2) / 2;
+        var ioMy = (ioy1 + ioy2) / 2 - ioR * 0.3;
+        ioEl.setAttribute('d',
+          'M ' + iox1.toFixed(1) + ' ' + ioy1.toFixed(1) +
+          ' Q ' + ioMx.toFixed(1) + ' ' + ioMy.toFixed(1) +
+          ' ' + iox2.toFixed(1) + ' ' + ioy2.toFixed(1));
+        ioEl.setAttribute('stroke-opacity', (0.06 + 0.04 * perturb).toFixed(3));
+      }
+    }
+
+    // Fingerprint ghost dots: behavioral clusters spiraling inward at π
+    var fpSeeds = [2,3,5,7,11,13,17];
+    for (var fpi = 0; fpi < 7; fpi++) {
+      var fpEl = document.getElementById('mg-fp-dot-' + fpi);
+      if (fpEl) {
+        var fpP = fpSeeds[fpi];
+        var fpAngle = fpP * (PI - 3) * TAU + t * PI / (fpP + 7);
+        var fpR = R * (0.1 + fpP / 31 * 0.5) * (0.3 + 0.7 * perturb);
+        fpEl.setAttribute('cx', (cx + fpR * Math.cos(fpAngle)).toFixed(1));
+        fpEl.setAttribute('cy', (cy + fpR * Math.sin(fpAngle)).toFixed(1));
+        fpEl.setAttribute('opacity', (0.05 + 0.08 * perturb).toFixed(3));
+      }
+    }
+
+    // Pin: pulses brighter at singularity (convergence complete)
+    var pinEl = document.getElementById('mg-pin');
+    if (pinEl) {
+      var pinBright = 0.5 + 0.4 * (1 - perturb);
+      pinEl.setAttribute('opacity', pinBright.toFixed(2));
+      pinEl.setAttribute('r', (1 + perturb * 0.5).toFixed(1));
+    }
+    var pinRing = document.getElementById('mg-pin-ring');
+    if (pinRing) {
+      pinRing.setAttribute('r', (3 + perturb * 4).toFixed(1));
+      pinRing.setAttribute('stroke-opacity', (0.3 * (1 - perturb * 0.7)).toFixed(3));
+    }
+
+    // Prime splitting: lines grow outward from pin, pulsing per prime
+    var observerFrac = PI - 3;
+    var PRIMES = [2,3,5,7,11,13,17,19,23,29,31];
+    for (var pri = 0; pri < PRIMES.length; pri++) {
+      var prP = PRIMES[pri];
+      var prEl = document.getElementById('mg-prime-' + prP);
+      if (prEl) {
+        var prAngle = prP * observerFrac * TAU + t * PI / (prP * 3);
+        var prPulse = 0.5 + 0.5 * Math.sin(t * PI / prP);
+        var prLen = R * 0.4 * prPulse * perturb;
+        prEl.setAttribute('x1', (cx + 6 * Math.cos(prAngle)).toFixed(1));
+        prEl.setAttribute('y1', (cy + 6 * Math.sin(prAngle)).toFixed(1));
+        prEl.setAttribute('x2', (cx + prLen * Math.cos(prAngle)).toFixed(1));
+        prEl.setAttribute('y2', (cy + prLen * Math.sin(prAngle)).toFixed(1));
+        prEl.setAttribute('stroke-opacity', (0.05 + prPulse * 0.08 * perturb).toFixed(3));
+      }
     }
 
     // ── Cones: triangular wedges pointing at [∅]D ──
