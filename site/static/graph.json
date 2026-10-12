@@ -6395,6 +6395,123 @@
       "role": "Organizing attorney for Purpose Group LLC. Drafted Article V liability shields. Set up the legal structure of the extraction engine.",
       "class": "entity",
       "classification": "null"
+    },
+    {
+      "id": "jason_drake",
+      "label": "Jason Drake",
+      "type": "actor",
+      "tier": 4,
+      "role": "Managing Partner, Plante Moran (July 2024-). CPA, CGMA. MSU Accounting. Crain's Notable Leader 2026. 8th managing partner. 4,000+ staff globally. $1B+ firm. The top of the chain.",
+      "class": "entity",
+      "classification": "null"
+    },
+    {
+      "id": "jim_proppe",
+      "label": "Jim Proppe",
+      "type": "actor",
+      "tier": 5,
+      "role": "Former Managing Partner, Plante Moran (2017-2024). Drake's predecessor. Set the culture and team that employed Beasley.",
+      "class": "entity",
+      "classification": "null"
+    },
+    {
+      "id": "donna_hanson",
+      "label": "Donna Hanson",
+      "type": "actor",
+      "tier": 5,
+      "role": "Group Managing Partner, Plante Moran. Nonprofit and public sector industries. Oversees the practice area that touches charter schools and K-12 public sector.",
+      "class": "entity",
+      "classification": "null"
+    },
+    {
+      "id": "nathan_buchalski",
+      "label": "Nathan Buchalski",
+      "type": "actor",
+      "tier": 5,
+      "role": "Group Managing Partner, Plante Moran. Illinois and Michigan offices. Oversees the offices where Beasley and PMR K-12 are based.",
+      "class": "entity",
+      "classification": "null"
+    },
+    {
+      "id": "dennis_graham",
+      "label": "Dennis Graham",
+      "type": "actor",
+      "tier": 5,
+      "role": "Group Managing Partner, Plante Moran. Management consulting and international offices. PMR falls under consulting.",
+      "class": "entity",
+      "classification": "null"
+    },
+    {
+      "id": "kimber_smail",
+      "label": "Kimber Smail",
+      "type": "actor",
+      "tier": 5,
+      "role": "Southfield Office Managing Partner, Plante Moran (July 2024-). Formerly Flint MP. Ahmed Beasley is based in the Southfield office.",
+      "class": "entity",
+      "classification": "null"
+    },
+    {
+      "id": "paul_theriault",
+      "label": "Paul Theriault",
+      "type": "actor",
+      "tier": 5,
+      "role": "Partner, Plante Moran Realpoint. PE, LEED AP. Leads $5B+ in K-12 capital projects. 50+ staff. 25 years. Ahmed Beasley's division partner. Speaks at K-12 school board meetings on market conditions, capital planning, procurement.",
+      "class": "entity",
+      "classification": "null"
+    },
+    {
+      "id": "paul_wills",
+      "label": "Paul Wills",
+      "type": "actor",
+      "tier": 5,
+      "role": "Partner, Plante Moran Realpoint. AIA, LEED AP, NCARB. Licensed architect. Lawrence Tech (SAME SCHOOL as Ahmed Beasley). 25+ years. $5B+ in capital projects. 600+ facilities.",
+      "class": "entity",
+      "classification": "null"
+    },
+    {
+      "id": "greg_vankirk",
+      "label": "Greg VanKirk",
+      "type": "actor",
+      "tier": 5,
+      "role": "Partner, Plante Moran Realpoint. CPA. Leads corporate real estate and public sector program management. MSU. At PM since 1992. K-12 capital project consulting. Clients include Wayne County, Bloomfield Hills Schools.",
+      "class": "entity",
+      "classification": "null"
+    },
+    {
+      "id": "bill_lichwalla",
+      "label": "Bill Lichwalla",
+      "type": "actor",
+      "tier": 5,
+      "role": "Partner, Plante Moran Realpoint. Listed as top partner on PMR's main page. Ahmed Beasley's firm leadership.",
+      "class": "entity",
+      "classification": "null"
+    },
+    {
+      "id": "nicole_blocker",
+      "label": "Nicole Blocker",
+      "type": "actor",
+      "tier": 5,
+      "role": "Plante Moran Realpoint. Listed on K-12 capital project consulting page alongside Theriault, Wills, VanKirk. Part of Beasley's K-12 team.",
+      "class": "entity",
+      "classification": "null"
+    },
+    {
+      "id": "matthew_kelly_pm",
+      "label": "Matthew Kelly",
+      "type": "actor",
+      "tier": 5,
+      "role": "Partner, Plante Moran. K-12 Education Practice Leader (July 2025-). Kalamazoo office MP. CPA. Leads 200+ educational institution clients. Succeeds Jennifer Chambers.",
+      "class": "entity",
+      "classification": "null"
+    },
+    {
+      "id": "jennifer_chambers",
+      "label": "Jennifer Chambers",
+      "type": "actor",
+      "tier": 5,
+      "role": "Partner, Plante Moran. Former K-12 Education Practice Leader (before July 2025). Still serves K-12 and real estate clients. Preceded Matthew Kelly.",
+      "class": "entity",
+      "classification": "null"
     }
   ],
   "edges": [
@@ -38427,6 +38544,258 @@
       "weight": 9,
       "note": "PCA authorized by Detroit Public Schools Community District, NOT CMU. Footer of purposecharteracademy.com: 'Authorized by Detroit Public Schools Community District.'",
       "source_doc": "purposecharteracademy.com"
+    },
+    {
+      "source": "jason_drake",
+      "target": "plante_moran",
+      "type": "managing_partner",
+      "epistemic_status": "record",
+      "weight": 9,
+      "note": "Managing Partner since July 2024. Leads $1B+ firm. 4,000+ staff. MSU. Crain's Notable Leader 2026.",
+      "source_doc": "plantemoran.com"
+    },
+    {
+      "source": "jason_drake",
+      "target": "msu",
+      "type": "education",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "BS Accounting from MSU. Broad College Advisory Board member.",
+      "source_doc": "plantemoran.com"
+    },
+    {
+      "source": "jason_drake",
+      "target": "donna_hanson",
+      "type": "appointed",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "Drake selected Hanson as GMP for nonprofit/public sector industries.",
+      "source_doc": "plantemoran.com"
+    },
+    {
+      "source": "jason_drake",
+      "target": "nathan_buchalski",
+      "type": "appointed",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "Drake selected Buchalski as GMP for Illinois and Michigan offices.",
+      "source_doc": "plantemoran.com"
+    },
+    {
+      "source": "jason_drake",
+      "target": "dennis_graham",
+      "type": "appointed",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "Drake selected Graham as GMP for management consulting.",
+      "source_doc": "plantemoran.com"
+    },
+    {
+      "source": "jim_proppe",
+      "target": "plante_moran",
+      "type": "former_managing_partner",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "Managing Partner 2017-2024. Set the team that employed Beasley. Drake's predecessor.",
+      "source_doc": "plantemoran.com"
+    },
+    {
+      "source": "donna_hanson",
+      "target": "plante_moran",
+      "type": "group_managing_partner",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "GMP, nonprofit and public sector industries. Charter schools are public sector.",
+      "source_doc": "plantemoran.com"
+    },
+    {
+      "source": "nathan_buchalski",
+      "target": "plante_moran",
+      "type": "group_managing_partner",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "GMP, Illinois and Michigan offices. PMR Southfield falls under his oversight.",
+      "source_doc": "plantemoran.com"
+    },
+    {
+      "source": "dennis_graham",
+      "target": "plante_moran",
+      "type": "group_managing_partner",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "GMP, management consulting. PMR is consulting subsidiary.",
+      "source_doc": "plantemoran.com"
+    },
+    {
+      "source": "kimber_smail",
+      "target": "plante_moran",
+      "type": "office_managing_partner",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "Southfield office MP (July 2024-). Ahmed Beasley works in Southfield office.",
+      "source_doc": "plantemoran.com"
+    },
+    {
+      "source": "kimber_smail",
+      "target": "beasley",
+      "type": "same_office",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "Smail runs the Southfield office where Beasley is based.",
+      "source_doc": "plantemoran.com"
+    },
+    {
+      "source": "paul_theriault",
+      "target": "plante_moran",
+      "type": "partner",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "Partner, Plante Moran Realpoint. K-12 capital project practice leader. $5B+ projects.",
+      "source_doc": "plantemoran.com"
+    },
+    {
+      "source": "paul_theriault",
+      "target": "beasley",
+      "type": "division_leadership",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "Theriault is PMR K-12 Partner. Beasley is SVP in same K-12 practice. Direct leadership chain.",
+      "source_doc": "plantemoran.com"
+    },
+    {
+      "source": "paul_wills",
+      "target": "plante_moran",
+      "type": "partner",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "Partner, PMR. K-12 capital projects. Licensed architect.",
+      "source_doc": "plantemoran.com"
+    },
+    {
+      "source": "paul_wills",
+      "target": "lawrence_tech",
+      "type": "education",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "BS + Master of Architecture from Lawrence Tech. SAME SCHOOL as Ahmed Beasley (civil engineering).",
+      "source_doc": "plantemoran.com"
+    },
+    {
+      "source": "paul_wills",
+      "target": "beasley",
+      "type": "division_leadership",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "Wills is PMR K-12 Partner. Beasley is SVP in same K-12 practice. Both Lawrence Tech alumni.",
+      "source_doc": "plantemoran.com"
+    },
+    {
+      "source": "greg_vankirk",
+      "target": "plante_moran",
+      "type": "partner",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "Partner, PMR. Leads corporate real estate and public sector program management. At PM since 1992.",
+      "source_doc": "plantemoran.com"
+    },
+    {
+      "source": "greg_vankirk",
+      "target": "msu",
+      "type": "education",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "BA Accounting from MSU.",
+      "source_doc": "plantemoran.com"
+    },
+    {
+      "source": "greg_vankirk",
+      "target": "beasley",
+      "type": "division_leadership",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "VanKirk is PMR Partner, public sector. Beasley is SVP in same division. Clients include Wayne County.",
+      "source_doc": "plantemoran.com"
+    },
+    {
+      "source": "bill_lichwalla",
+      "target": "plante_moran",
+      "type": "partner",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "Partner, PMR. Top partner listed on main PMR page.",
+      "source_doc": "plantemoran.com"
+    },
+    {
+      "source": "nicole_blocker",
+      "target": "plante_moran",
+      "type": "employment",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "PMR. Listed on K-12 capital project consulting page.",
+      "source_doc": "plantemoran.com"
+    },
+    {
+      "source": "nicole_blocker",
+      "target": "beasley",
+      "type": "colleague",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "Both on PMR K-12 team.",
+      "source_doc": "plantemoran.com"
+    },
+    {
+      "source": "matthew_kelly_pm",
+      "target": "plante_moran",
+      "type": "partner",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "Partner, K-12 Education Practice Leader (July 2025-). Kalamazoo office. 200+ educational institutions.",
+      "source_doc": "plantemoran.com"
+    },
+    {
+      "source": "matthew_kelly_pm",
+      "target": "beasley",
+      "type": "practice_leadership",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "Kelly leads K-12 education practice. Beasley is SVP in K-12 capital projects under same umbrella.",
+      "source_doc": "plantemoran.com"
+    },
+    {
+      "source": "jennifer_chambers",
+      "target": "plante_moran",
+      "type": "partner",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "Partner. Former K-12 Education Practice Leader (before July 2025). Preceded Matthew Kelly.",
+      "source_doc": "plantemoran.com"
+    },
+    {
+      "source": "jennifer_chambers",
+      "target": "beasley",
+      "type": "former_practice_leadership",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "Chambers led K-12 practice when Beasley was promoted to SVP in 2024.",
+      "source_doc": "plantemoran.com"
+    },
+    {
+      "source": "beasley",
+      "target": "barton_malow",
+      "type": "former_employment",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "17 years at Barton Malow as project engineer, superintendent, project manager. K-12 focus. Before PMR.",
+      "source_doc": "plantemoran.com"
+    },
+    {
+      "source": "chalena_beasley",
+      "target": "paul_theriault",
+      "type": "surname_orbit",
+      "epistemic_status": "record",
+      "weight": 4,
+      "note": "Chalena Beasley is PCA principal. Ahmed Beasley is SVP under Theriault at PMR. Same surname, same K-12 orbit.",
+      "source_doc": "structural"
     }
   ],
   "epistemic_grammar": {
