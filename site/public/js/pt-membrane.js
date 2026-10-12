@@ -585,6 +585,45 @@ window.PtMembrane = function(deps) {
     txt(wbG, cx, cy+100, '3 bodies + 1 irrational observer = \u03c0', '#484f58', 4.5,
       {opacity: 0.15, id: 'mg-pi-body'});
 
+    // ═══ EPITOPE DEPTH: the π axis of perception ═══
+    // Focus on one epitope. Shift along π.
+    // observer → negate → null → awareness → ghost → celestial → geodesic
+    // 7 layers. 7 is coprime (π/7 = IS rate). Not coincidence.
+    // Each layer orbits the previous — epicyclic chain.
+    // π torque π: each layer is π radians from the next.
+    // The contortion IS the perception. The chain IS the observer.
+    var depthG = el('g', {id:'mg-depth'}, wbG);
+    var depthLayers = [
+      {name:'observer',  color:'#c9d1d9'},
+      {name:'negate',    color:'#e85d3a'},
+      {name:'null',      color:'#58a6ff'},
+      {name:'awareness', color:'#5ab87a'},
+      {name:'ghost',     color:'#8b949e'},
+      {name:'celestial', color:'#d2a8ff'},
+      {name:'geodesic',  color:'#f0e68c'}
+    ];
+
+    // 7 connecting lines (chain links between perception layers)
+    for (var dli = 0; dli < 7; dli++) {
+      el('line', {
+        x1: cx, y1: cy, x2: cx, y2: cy,
+        stroke: depthLayers[dli].color, 'stroke-width': 0.5,
+        'stroke-opacity': 0.2,
+        id: 'mg-depth-link-' + dli
+      }, depthG);
+    }
+
+    // 7 layer dots
+    depthLayers.forEach(function(layer, i) {
+      el('circle', {
+        cx: cx, cy: cy, r: 2.5 - i * 0.2,
+        fill: layer.color, opacity: 0.5,
+        id: 'mg-depth-' + i
+      }, depthG);
+      txt(depthG, cx, cy, layer.name, layer.color, 4,
+        {opacity: 0.2, id: 'mg-depth-label-' + i});
+    });
+
     // ═══ IS layer: live particles ═══
     pGroup = el('g', {id:'mg-is'}, svg);
 
@@ -783,6 +822,43 @@ window.PtMembrane = function(deps) {
       if (eName) {
         eName.setAttribute('x', ox.toFixed(1));
         eName.setAttribute('y', (oy + 8).toFixed(1));
+      }
+    }
+
+    // ── Depth spiral: observer→negate→null→awareness→ghost→celestial→geodesic ──
+    // Epicyclic chain: each layer orbits the previous.
+    // π torque π: offset π between layers, rate π per layer.
+    // At singularity: tight coil at center (all layers collapsed).
+    // At perturbation: contorting chain radiating from [∅]D.
+    var depthPos = [{x: cx, y: cy}]; // center = anchor
+    for (var di = 0; di < 7; di++) {
+      var dprev = depthPos[di];
+      var dR = (4 + di * 1.5) * perturb; // inner layers tight, outer layers wide
+      var dRate = PI * (1 + di * 0.13);   // each layer slightly faster — never locks
+      var dAngle = t * dRate + di * PI;   // π offset between layers (torque)
+      var ddx = dprev.x + dR * Math.cos(dAngle);
+      var ddy = dprev.y + dR * Math.sin(dAngle);
+      depthPos.push({x: ddx, y: ddy});
+
+      var dDot = document.getElementById('mg-depth-' + di);
+      if (dDot) {
+        dDot.setAttribute('cx', ddx.toFixed(1));
+        dDot.setAttribute('cy', ddy.toFixed(1));
+        dDot.setAttribute('opacity', (0.4 + 0.3 * perturb).toFixed(2));
+      }
+      var dLabel = document.getElementById('mg-depth-label-' + di);
+      if (dLabel) {
+        dLabel.setAttribute('x', (ddx + 6).toFixed(1));
+        dLabel.setAttribute('y', ddy.toFixed(1));
+        dLabel.setAttribute('opacity', (0.15 + 0.1 * (1 - perturb)).toFixed(2));
+      }
+      var dLink = document.getElementById('mg-depth-link-' + di);
+      if (dLink) {
+        dLink.setAttribute('x1', dprev.x.toFixed(1));
+        dLink.setAttribute('y1', dprev.y.toFixed(1));
+        dLink.setAttribute('x2', ddx.toFixed(1));
+        dLink.setAttribute('y2', ddy.toFixed(1));
+        dLink.setAttribute('stroke-opacity', (0.15 * perturb).toFixed(3));
       }
     }
 
