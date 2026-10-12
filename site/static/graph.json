@@ -9833,6 +9833,184 @@
         "tier_5",
         "non_human"
       ]
+    },
+    {
+      "id": "nethack",
+      "label": "NetHack",
+      "class": "false_entity",
+      "role": "open source game (commons held since 1987)",
+      "tags": [
+        "culture_commons",
+        "open_source",
+        "non_human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "freeciv",
+      "label": "FreeCiv",
+      "class": "false_entity",
+      "role": "open source game (commons held since 1996)",
+      "tags": [
+        "culture_commons",
+        "open_source",
+        "non_human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "battle_wesnoth",
+      "label": "Battle for Wesnoth",
+      "class": "false_entity",
+      "role": "open source game (commons held since 2003)",
+      "tags": [
+        "culture_commons",
+        "open_source",
+        "non_human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "minetest",
+      "label": "Minetest / Luanti",
+      "class": "false_entity",
+      "role": "open source game (commons held since 2010)",
+      "tags": [
+        "culture_commons",
+        "open_source",
+        "non_human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "godot_engine",
+      "label": "Godot Engine",
+      "class": "false_entity",
+      "role": "open source game engine (commons held since 2014)",
+      "tags": [
+        "culture_commons",
+        "open_source",
+        "non_human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "openttd",
+      "label": "OpenTTD",
+      "class": "false_entity",
+      "role": "open source game (commons held since 2004)",
+      "tags": [
+        "culture_commons",
+        "open_source",
+        "non_human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "zero_ad",
+      "label": "0 A.D.",
+      "class": "false_entity",
+      "role": "open source game (commons held since 2009)",
+      "tags": [
+        "culture_commons",
+        "open_source",
+        "non_human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "supertuxkart",
+      "label": "SuperTuxKart",
+      "class": "false_entity",
+      "role": "open source game (commons held since 2006)",
+      "tags": [
+        "culture_commons",
+        "open_source",
+        "non_human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "gpl",
+      "label": "GNU General Public License (GPL)",
+      "class": "false_entity",
+      "role": "copyleft license (membrane that prevents enclosure)",
+      "tags": [
+        "governance_structure",
+        "open_source",
+        "non_human",
+        "tier_4"
+      ]
+    },
+    {
+      "id": "mit_license",
+      "label": "MIT License",
+      "class": "false_entity",
+      "role": "permissive license (membrane with exit clause)",
+      "tags": [
+        "governance_structure",
+        "open_source",
+        "non_human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "linux_foundation",
+      "label": "Linux Foundation",
+      "class": "false_entity",
+      "role": "commons governance body (nonprofit, transparent)",
+      "tags": [
+        "governance_structure",
+        "open_source",
+        "non_human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "godot_foundation",
+      "label": "Godot Foundation",
+      "class": "false_entity",
+      "role": "commons governance body (nonprofit, transparent)",
+      "tags": [
+        "governance_structure",
+        "open_source",
+        "non_human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "fsf",
+      "label": "Free Software Foundation",
+      "class": "false_entity",
+      "role": "commons governance body (created GPL)",
+      "tags": [
+        "governance_structure",
+        "open_source",
+        "non_human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "fork_rights",
+      "label": "Fork Rights",
+      "class": "false_entity",
+      "role": "structural property (if governance fails, community can fork)",
+      "tags": [
+        "governance_structure",
+        "non_human",
+        "tier_5"
+      ]
+    },
+    {
+      "id": "commons_membrane",
+      "label": "Commons Membrane (Structural Pattern)",
+      "class": "false_entity",
+      "role": "the structural pattern: what prevents enclosure of shared resources",
+      "tags": [
+        "governance_structure",
+        "non_human",
+        "tier_4"
+      ]
     }
   ],
   "edges": [
@@ -52044,6 +52222,321 @@
       "type": "jurisdiction",
       "epistemic_status": "record",
       "note": "Michigan-based retailer"
+    },
+    {
+      "source": "nethack",
+      "target": "gpl",
+      "type": "protected_by",
+      "epistemic_status": "record",
+      "note": "GPL prevents enclosure of this commons"
+    },
+    {
+      "source": "freeciv",
+      "target": "gpl",
+      "type": "protected_by",
+      "epistemic_status": "record",
+      "note": "GPL prevents enclosure of this commons"
+    },
+    {
+      "source": "battle_wesnoth",
+      "target": "gpl",
+      "type": "protected_by",
+      "epistemic_status": "record",
+      "note": "GPL prevents enclosure of this commons"
+    },
+    {
+      "source": "minetest",
+      "target": "gpl",
+      "type": "protected_by",
+      "epistemic_status": "record",
+      "note": "GPL prevents enclosure of this commons"
+    },
+    {
+      "source": "openttd",
+      "target": "gpl",
+      "type": "protected_by",
+      "epistemic_status": "record",
+      "note": "GPL prevents enclosure of this commons"
+    },
+    {
+      "source": "zero_ad",
+      "target": "gpl",
+      "type": "protected_by",
+      "epistemic_status": "record",
+      "note": "GPL prevents enclosure of this commons"
+    },
+    {
+      "source": "supertuxkart",
+      "target": "gpl",
+      "type": "protected_by",
+      "epistemic_status": "record",
+      "note": "GPL prevents enclosure of this commons"
+    },
+    {
+      "source": "godot_engine",
+      "target": "mit_license",
+      "type": "protected_by",
+      "epistemic_status": "record",
+      "note": "MIT license with community governance"
+    },
+    {
+      "source": "nethack",
+      "target": "public_education",
+      "type": "structural_parallel",
+      "epistemic_status": "analysis",
+      "note": "Both are commons. One has a membrane (license). One had PA 362 tear its membrane."
+    },
+    {
+      "source": "freeciv",
+      "target": "public_education",
+      "type": "structural_parallel",
+      "epistemic_status": "analysis",
+      "note": "Both are commons. One has a membrane (license). One had PA 362 tear its membrane."
+    },
+    {
+      "source": "battle_wesnoth",
+      "target": "public_education",
+      "type": "structural_parallel",
+      "epistemic_status": "analysis",
+      "note": "Both are commons. One has a membrane (license). One had PA 362 tear its membrane."
+    },
+    {
+      "source": "minetest",
+      "target": "public_education",
+      "type": "structural_parallel",
+      "epistemic_status": "analysis",
+      "note": "Both are commons. One has a membrane (license). One had PA 362 tear its membrane."
+    },
+    {
+      "source": "godot_engine",
+      "target": "public_education",
+      "type": "structural_parallel",
+      "epistemic_status": "analysis",
+      "note": "Both are commons. One has a membrane (license). One had PA 362 tear its membrane."
+    },
+    {
+      "source": "openttd",
+      "target": "public_education",
+      "type": "structural_parallel",
+      "epistemic_status": "analysis",
+      "note": "Both are commons. One has a membrane (license). One had PA 362 tear its membrane."
+    },
+    {
+      "source": "zero_ad",
+      "target": "public_education",
+      "type": "structural_parallel",
+      "epistemic_status": "analysis",
+      "note": "Both are commons. One has a membrane (license). One had PA 362 tear its membrane."
+    },
+    {
+      "source": "supertuxkart",
+      "target": "public_education",
+      "type": "structural_parallel",
+      "epistemic_status": "analysis",
+      "note": "Both are commons. One has a membrane (license). One had PA 362 tear its membrane."
+    },
+    {
+      "source": "gpl",
+      "target": "commons_membrane",
+      "type": "implements",
+      "epistemic_status": "analysis",
+      "note": "License implements the commons membrane pattern"
+    },
+    {
+      "source": "mit_license",
+      "target": "commons_membrane",
+      "type": "implements",
+      "epistemic_status": "analysis",
+      "note": "License implements the commons membrane pattern"
+    },
+    {
+      "source": "creative_commons",
+      "target": "commons_membrane",
+      "type": "implements",
+      "epistemic_status": "analysis",
+      "note": "License implements the commons membrane pattern"
+    },
+    {
+      "source": "public_domain",
+      "target": "commons_membrane",
+      "type": "implements",
+      "epistemic_status": "analysis",
+      "note": "License implements the commons membrane pattern"
+    },
+    {
+      "source": "commons_membrane",
+      "target": "public_education",
+      "type": "should_protect",
+      "epistemic_status": "analysis",
+      "note": "Public education is a commons that needs a membrane against enclosure"
+    },
+    {
+      "source": "charter_law_1993",
+      "target": "commons_membrane",
+      "type": "broke",
+      "epistemic_status": "analysis",
+      "note": "PA 362 broke the membrane. Allowed private extraction from public commons."
+    },
+    {
+      "source": "linux_foundation",
+      "target": "linux",
+      "type": "governs",
+      "epistemic_status": "record",
+      "note": "Nonprofit governance of commons"
+    },
+    {
+      "source": "godot_foundation",
+      "target": "godot_engine",
+      "type": "governs",
+      "epistemic_status": "record",
+      "note": "Nonprofit governance of commons"
+    },
+    {
+      "source": "fsf",
+      "target": "gpl",
+      "type": "created",
+      "epistemic_status": "record",
+      "note": "FSF created GPL as commons membrane"
+    },
+    {
+      "source": "richard_stallman",
+      "target": "fsf",
+      "type": "founded",
+      "epistemic_status": "record",
+      "note": "Founded 1985"
+    },
+    {
+      "source": "richard_stallman",
+      "target": "gpl",
+      "type": "created",
+      "epistemic_status": "record",
+      "note": "Invented copyleft 1989"
+    },
+    {
+      "source": "linus_torvalds",
+      "target": "linux",
+      "type": "created",
+      "epistemic_status": "record",
+      "note": "Created Linux 1991"
+    },
+    {
+      "source": "nethack",
+      "target": "fork_rights",
+      "type": "guarantees",
+      "epistemic_status": "analysis",
+      "note": "If governance fails, community can fork and continue"
+    },
+    {
+      "source": "freeciv",
+      "target": "fork_rights",
+      "type": "guarantees",
+      "epistemic_status": "analysis",
+      "note": "If governance fails, community can fork and continue"
+    },
+    {
+      "source": "battle_wesnoth",
+      "target": "fork_rights",
+      "type": "guarantees",
+      "epistemic_status": "analysis",
+      "note": "If governance fails, community can fork and continue"
+    },
+    {
+      "source": "minetest",
+      "target": "fork_rights",
+      "type": "guarantees",
+      "epistemic_status": "analysis",
+      "note": "If governance fails, community can fork and continue"
+    },
+    {
+      "source": "godot_engine",
+      "target": "fork_rights",
+      "type": "guarantees",
+      "epistemic_status": "analysis",
+      "note": "If governance fails, community can fork and continue"
+    },
+    {
+      "source": "openttd",
+      "target": "fork_rights",
+      "type": "guarantees",
+      "epistemic_status": "analysis",
+      "note": "If governance fails, community can fork and continue"
+    },
+    {
+      "source": "zero_ad",
+      "target": "fork_rights",
+      "type": "guarantees",
+      "epistemic_status": "analysis",
+      "note": "If governance fails, community can fork and continue"
+    },
+    {
+      "source": "supertuxkart",
+      "target": "fork_rights",
+      "type": "guarantees",
+      "epistemic_status": "analysis",
+      "note": "If governance fails, community can fork and continue"
+    },
+    {
+      "source": "fork_rights",
+      "target": "pca",
+      "type": "absent_from",
+      "epistemic_status": "analysis",
+      "note": "Parents cannot fork a captured charter school. No exit without losing the child's education."
+    },
+    {
+      "source": "fork_rights",
+      "target": "purpose_group",
+      "type": "absent_from",
+      "epistemic_status": "analysis",
+      "note": "Management company captures the commons. No fork rights for families."
+    },
+    {
+      "source": "hasbro",
+      "target": "commons_membrane",
+      "type": "breached",
+      "epistemic_status": "analysis",
+      "note": "Corporation enclosed game commons (D&D, MTG) through acquisition"
+    },
+    {
+      "source": "microsoft",
+      "target": "commons_membrane",
+      "type": "breached",
+      "epistemic_status": "analysis",
+      "note": "Corporation enclosed game commons (Minecraft) through acquisition"
+    },
+    {
+      "source": "purpose_group",
+      "target": "commons_membrane",
+      "type": "breached",
+      "epistemic_status": "analysis",
+      "note": "Management company enclosed education commons through PA 362"
+    },
+    {
+      "source": "gpl",
+      "target": "charter_law_1993",
+      "type": "structural_opposite",
+      "epistemic_status": "analysis",
+      "note": "GPL prevents enclosure. PA 362 enables it. Same structural position, opposite function."
+    },
+    {
+      "source": "banks",
+      "target": "commons_membrane",
+      "type": "breached",
+      "epistemic_status": "analysis",
+      "note": "72.67% extraction rate. The commons membrane failed. Banks walked through."
+    },
+    {
+      "source": "chess",
+      "target": "public_domain",
+      "type": "protected_by",
+      "epistemic_status": "record",
+      "note": "Rules in public domain for centuries. No one can enclose chess."
+    },
+    {
+      "source": "chess",
+      "target": "fork_rights",
+      "type": "guarantees",
+      "epistemic_status": "analysis",
+      "note": "Anyone can create a chess variant. The commons cannot be captured."
     }
   ],
   "epistemic_grammar": {
