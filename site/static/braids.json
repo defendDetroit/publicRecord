@@ -3499,5 +3499,124 @@
     },
     "witness": "https://opengovus.com/sam-entity/Y6UUUBULCU13",
     "timestamp_ns": 1791809110964772619
+  },
+  {
+    "edge": "walton → state_ar (jurisdiction)",
+    "data_hash": "e2dee5cf7387348327b58a8918502f13e2e27a67a20d0378b25476752e72979a",
+    "was_generated_by": "ProPublica Nonprofit Explorer API v2 + AR SOS cross-reference",
+    "was_derived_from": "ProPublica EIN 13-3441466; waltonfamilyfoundation.org",
+    "was_attributed_to": "ecoPrimal",
+    "metadata": {
+      "entity": "Walton Family Foundation Inc",
+      "ein": "13-3441466",
+      "city": "Bentonville, AR 72712",
+      "assets_2023": "$5.7B",
+      "revenue_2023": "$872M",
+      "grants_2024": "$562.3M (1,020 grants)",
+      "ntee": "T20 (Private Grantmaking Foundations)"
+    },
+    "witness": "https://projects.propublica.org/nonprofits/organizations/133441466",
+    "timestamp_ns": 1791809514937380352
+  },
+  {
+    "edge": "pahara → state_ca (jurisdiction)",
+    "data_hash": "301b38bb38250eece307aa5f0d10c399cffa281bbfa9096ba66999d3929403bd",
+    "was_generated_by": "CA SOS bizfile + ProPublica API cross-reference",
+    "was_derived_from": "CA SOS Entity 20181563653; ProPublica EIN 45-5141625",
+    "was_attributed_to": "ecoPrimal",
+    "metadata": {
+      "entity": "Pahara Institute",
+      "ein": "45-5141625",
+      "ca_entity_id": "20181563653",
+      "city": "Covina, CA 91723",
+      "agent": "InCorp Services, Inc. (Denver, CO)",
+      "status": "MERGED (as of Oct 2026)",
+      "irs_status": "Dropped from IRS register Sep 8, 2026",
+      "assets_2023": "$9.2M",
+      "revenue_2023": "$7.7M"
+    },
+    "witness": "https://plaincharity.com/org/455141625",
+    "timestamp_ns": 1791809514937380353
+  },
+  {
+    "edge": "afc → state_md (jurisdiction)",
+    "data_hash": "49d0395c059b12a975c91170bac76060b0e02307335849e408d7662ca45b3f78",
+    "was_generated_by": "ProPublica Nonprofit Explorer API v2 + OpenLobby",
+    "was_derived_from": "ProPublica EIN 33-0627955; OpenLobby AFC filings",
+    "was_attributed_to": "ecoPrimal",
+    "metadata": {
+      "entity": "American Federation for Children Inc",
+      "ein": "33-0627955",
+      "type": "501(c)(4)",
+      "city": "Columbia, MD 21044",
+      "principal": "Thomas Schultz",
+      "revenue_2023": "$11.1M",
+      "lobbying_total": "$620K (18 quarterly filings 2018-2021)",
+      "devos_connection": "Betsy DeVos = former Chair",
+      "growth_fund_ein": "52-2111508 ($12M/yr, 501(c)(3))"
+    },
+    "witness": "https://projects.propublica.org/nonprofits/organizations/330627955",
+    "timestamp_ns": 1791809514937380354
+  },
+  {
+    "edge": "walton → state_mi (cross-state funding)",
+    "data_hash": "0bb41730ad600479523c6c787a5f6c22e073e266651767ad95858a865a0369ed",
+    "was_generated_by": "Cross-reference: Walton grant reports + MI LARA + graph edges",
+    "was_derived_from": "waltonfamilyfoundation.org grant reports 2009-2024; edges.toml",
+    "was_attributed_to": "ecoPrimal",
+    "metadata": {
+      "pipeline": "AR → MI",
+      "known_grants_to_mi": "MAPSA $4.3M+ (2009-2013), ESD co-funding, charter school support",
+      "mechanism": "Foundation grants → fellowship → media → lobby → school authorization",
+      "gap": "Full Walton-to-MI grant list not yet extracted from 990-PF Schedule F"
+    },
+    "witness": "https://www.waltonfamilyfoundation.org/about-us/reports-financials",
+    "timestamp_ns": 1791809514937380355
+  },
+  {
+    "edge": "pahara → state_mi (cross-state credential)",
+    "data_hash": "cb259ec907e5be24fa36ebc15863da603732b18544a43831e857f18232a7d3bb",
+    "was_generated_by": "Pahara website + LARA cross-reference",
+    "was_derived_from": "pahara.org/cohort-52; LARA Purpose Charter Academy 900072324",
+    "was_attributed_to": "ecoPrimal",
+    "metadata": {
+      "pipeline": "CA → MI",
+      "mechanism": "Pahara fellowship (Banks = Cohort 52) → credential legitimization → PCA authorization",
+      "significance": "Banks = 9-time convicted felon selected for elite education fellowship"
+    },
+    "witness": "https://pahara.org/cohort-52",
+    "timestamp_ns": 1791809514937380356
+  },
+  {
+    "edge": "afc → state_mi (cross-state lobbying)",
+    "data_hash": "2d7dc553a3da914946c7a47349225b00de8ff1796a5d98ba3d8eac7030bb4ef1",
+    "was_generated_by": "OpenLobby + AFC 990 cross-reference",
+    "was_derived_from": "OpenLobby AFC filings; ProPublica EIN 33-0627955 990 Program 1",
+    "was_attributed_to": "ecoPrimal",
+    "metadata": {
+      "pipeline": "MD → MI",
+      "mechanism": "Lobbying + grants to state-level school choice campaigns",
+      "program_1_expenses": "$7.3M (state support: lobbyist contracts, grants, direct expenses)",
+      "devos_connection": "DeVos Foundation also funded The 74 and AFC"
+    },
+    "witness": "https://www.openlobby.us/clients/american-federation-for-children-fka-advocates-for-school-choice",
+    "timestamp_ns": 1791809514937380357
+  },
+  {
+    "edge": "skillman → state_mi (jurisdiction)",
+    "data_hash": "b9a9f9ed2be4210b94f5f8d717b0f65b88d1b27d78f5a605572d6e93765b99b9",
+    "was_generated_by": "ProPublica Nonprofit Explorer API v2",
+    "was_derived_from": "ProPublica EIN 38-1675780",
+    "was_attributed_to": "ecoPrimal",
+    "metadata": {
+      "entity": "Skillman Foundation",
+      "ein": "38-1675780",
+      "city": "Detroit, MI",
+      "assets_2023": "$418M",
+      "revenue_2023": "$21.9M",
+      "role": "Detroit-based co-funder with Walton. Funded ESD charter ratings."
+    },
+    "witness": "https://projects.propublica.org/nonprofits/organizations/381675780",
+    "timestamp_ns": 1791809514937380358
   }
 ]

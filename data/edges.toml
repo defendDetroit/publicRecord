@@ -2127,3 +2127,118 @@ viz_type = "controls"
 flow = "position"
 label = "Board Chair (Anchor Rock Foundation, dissolved)"
 source_doc = "LARA 802394934"
+
+# ── EPITOPE LOCALITY: Cross-State Pipeline (Oct 12, 2026) ───────────────
+# Geographic expansion layer. Every entity sorted by state.
+# Each state has its own database layer (SOS, campaign finance, courts).
+# The pipeline exists in the GAPS between states — no single regulator.
+
+[[edge]]
+source = "walton_family_foundation"
+target = "state_ar"
+type = "jurisdiction"
+epistemic_status = "record"
+note = "Headquartered Bentonville, AR. EIN 13-3441466. $5.7B assets. $562M grants/yr (2024). 990-PF private foundation."
+weight = 8
+source_doc = "ProPublica Nonprofit Explorer EIN 13-3441466"
+
+[[edge]]
+source = "pahara_institute"
+target = "state_ca"
+type = "jurisdiction"
+epistemic_status = "record"
+note = "CA SOS Entity 20181563653. Status: MERGED. IRS register dropped Sep 2026. Agent: InCorp (Denver CO). Covina, CA 91723."
+weight = 7
+source_doc = "CA SOS bizfileonline; ProPublica EIN 45-5141625; plaincharity.com/org/455141625"
+
+[[edge]]
+source = "afc"
+target = "state_md"
+type = "jurisdiction"
+epistemic_status = "record"
+note = "501(c)(4) Columbia, MD. EIN 33-0627955. $11.1M rev. $620K lobbying. Principal: Thomas Schultz. DeVos = former chair."
+weight = 7
+source_doc = "ProPublica EIN 33-0627955; OpenLobby; GuideStar"
+
+[[edge]]
+source = "afc_growth"
+target = "afc"
+type = "affiliated"
+epistemic_status = "record"
+note = "501(c)(3) arm. Columbia, MD. EIN 52-2111508. $12M/yr. Tax-deductible donations."
+weight = 7
+source_doc = "ProPublica EIN 52-2111508"
+
+[[edge]]
+source = "the_74"
+target = "state_ny"
+type = "jurisdiction"
+epistemic_status = "record"
+note = "Media org NYC. Campbell Brown = co-founder. Walton + DeVos funded."
+weight = 6
+source_doc = "the74million.org; niemanlab.org"
+
+[[edge]]
+source = "roland_martin"
+target = "state_tx"
+type = "jurisdiction"
+epistemic_status = "record"
+note = "Black Star Network, Dallas TX. 30M+ views/month. 'School Choice Is the Black Choice' tour originator."
+weight = 6
+source_doc = "blackstarnetwork.com"
+
+# ── Cross-state pipeline edges (the interstitial tissue) ─────────────────
+
+[[edge]]
+source = "walton_family_foundation"
+target = "state_mi"
+type = "funding"
+epistemic_status = "record"
+note = "AR→MI pipeline: MAPSA $4.3M+ (2009-2013), ESD co-funding, charter school support. $562M/yr total grantmaking."
+weight = 9
+source_doc = "waltonfamilyfoundation.org grant reports 2009-2024"
+
+[[edge]]
+source = "pahara_institute"
+target = "state_mi"
+type = "fellowship"
+epistemic_status = "record"
+note = "CA→MI pipeline: Banks = Cohort 52 fellow. 9-time felon selected for elite education fellowship. Credential washing."
+weight = 8
+source_doc = "pahara.org/cohort-52"
+
+[[edge]]
+source = "afc"
+target = "state_mi"
+type = "lobbying"
+epistemic_status = "record"
+note = "MD→MI pipeline: School choice legislation support. $7.3M/yr state-level program. DeVos connection."
+weight = 7
+source_doc = "OpenLobby AFC filings; ProPublica 990 Program 1"
+
+[[edge]]
+source = "roland_martin"
+target = "state_mi"
+type = "speaking"
+epistemic_status = "record"
+note = "TX→MI pipeline: NAACP Detroit Freedom Fund Dinner (Jun 29, 2025). NAACP Lansing (Oct 11, 2026). Tour pattern."
+weight = 7
+source_doc = "detroitnaacp.org; lansing-naacp.org"
+
+[[edge]]
+source = "the_74"
+target = "state_mi"
+type = "media"
+epistemic_status = "record"
+note = "NY→MI pipeline: Charter school narrative coverage. Walton-funded media covering Walton-funded schools."
+weight = 6
+source_doc = "the74million.org"
+
+[[edge]]
+source = "skillman_foundation"
+target = "state_mi"
+type = "jurisdiction"
+epistemic_status = "record"
+note = "Detroit-based. EIN 38-1675780. $418M assets. $21.9M revenue (2023). Co-funder with Walton for ESD charter ratings."
+weight = 6
+source_doc = "ProPublica Nonprofit Explorer EIN 38-1675780"

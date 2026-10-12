@@ -1,6 +1,6 @@
 {
     "_generated": "2026-10-11T20:00:00Z",
-    "_source": "Built by detroit-build + REVERSE SWEEP Oct 12 2026. 10 sub-org entities from LARA agent/address search.",
+    "_source": "REVERSE SWEEP + EPITOPE LOCALITY SORT Oct 12 2026. Geographic expansion: 6 state nodes, cross-state pipeline edges.",
     "nodes": [
         {
             "id": "adam_sabree",
@@ -1008,6 +1008,55 @@
             "type": "institution",
             "tier": 5,
             "role": "System for Award Management — federal contractor registry"
+        },
+        {
+            "id": "state_ar",
+            "label": "Arkansas",
+            "type": "geography",
+            "tier": 5,
+            "role": "Walton origin — Bentonville, AR"
+        },
+        {
+            "id": "state_ca",
+            "label": "California",
+            "type": "geography",
+            "tier": 5,
+            "role": "Pahara registration — Covina, CA"
+        },
+        {
+            "id": "state_md",
+            "label": "Maryland",
+            "type": "geography",
+            "tier": 5,
+            "role": "AFC registration — Columbia, MD"
+        },
+        {
+            "id": "state_mi",
+            "label": "Michigan",
+            "type": "geography",
+            "tier": 5,
+            "role": "Target state — all schools, all courts, all actors"
+        },
+        {
+            "id": "state_ny",
+            "label": "New York",
+            "type": "geography",
+            "tier": 5,
+            "role": "The 74 / Campbell Brown — media arm"
+        },
+        {
+            "id": "state_tx",
+            "label": "Texas",
+            "type": "geography",
+            "tier": 5,
+            "role": "Roland Martin / Black Star Network — Dallas"
+        },
+        {
+            "id": "afc_growth",
+            "label": "AFC Growth Fund",
+            "type": "entity",
+            "tier": 4,
+            "role": "501(c)(3) arm of AFC — $12M/yr (EIN 52-2111508)"
         }
     ],
     "edges": [
@@ -3439,6 +3488,114 @@
             "note": "Self Certified Small Disadvantaged Business. UEI Y6UUUBULCU13. Expired Feb 2022.",
             "weight": 6,
             "source_doc": "opengovus.com/sam-entity/Y6UUUBULCU13"
+        },
+        {
+            "source": "walton_family_foundation",
+            "target": "state_ar",
+            "type": "jurisdiction",
+            "epistemic_status": "record",
+            "note": "Headquartered Bentonville, AR. $5.7B assets. $562M grants/yr.",
+            "weight": 8,
+            "source_doc": "ProPublica EIN 13-3441466"
+        },
+        {
+            "source": "pahara_institute",
+            "target": "state_ca",
+            "type": "jurisdiction",
+            "epistemic_status": "record",
+            "note": "Registered CA (Entity 20181563653). Status: MERGED. IRS register dropped Sep 2026.",
+            "weight": 7,
+            "source_doc": "CA SOS; ProPublica EIN 45-5141625"
+        },
+        {
+            "source": "afc",
+            "target": "state_md",
+            "type": "jurisdiction",
+            "epistemic_status": "record",
+            "note": "501(c)(4) Columbia, MD. $11.1M revenue. $620K lobbying. DeVos = former chair.",
+            "weight": 7,
+            "source_doc": "ProPublica EIN 33-0627955; OpenLobby"
+        },
+        {
+            "source": "afc_growth",
+            "target": "afc",
+            "type": "affiliated",
+            "epistemic_status": "record",
+            "note": "501(c)(3) arm. Columbia, MD. $12M/yr. EIN 52-2111508.",
+            "weight": 7,
+            "source_doc": "ProPublica EIN 52-2111508"
+        },
+        {
+            "source": "the_74",
+            "target": "state_ny",
+            "type": "jurisdiction",
+            "epistemic_status": "record",
+            "note": "Media org. Campbell Brown = co-founder. Walton + DeVos funded.",
+            "weight": 6,
+            "source_doc": "the74million.org"
+        },
+        {
+            "source": "roland_martin",
+            "target": "state_tx",
+            "type": "jurisdiction",
+            "epistemic_status": "record",
+            "note": "Black Star Network, Dallas TX. 30M+ views/month.",
+            "weight": 6,
+            "source_doc": "blackstarnetwork.com"
+        },
+        {
+            "source": "walton_family_foundation",
+            "target": "state_mi",
+            "type": "funding",
+            "epistemic_status": "record",
+            "note": "Cross-state pipeline: AR→MI. MAPSA $4.3M+, ESD funding, charter school support.",
+            "weight": 9,
+            "source_doc": "waltonfamilyfoundation.org grant reports"
+        },
+        {
+            "source": "pahara_institute",
+            "target": "state_mi",
+            "type": "fellowship",
+            "epistemic_status": "record",
+            "note": "Cross-state pipeline: CA→MI. Banks = Cohort 52 fellow. Credential washing.",
+            "weight": 8,
+            "source_doc": "pahara.org/cohort-52"
+        },
+        {
+            "source": "afc",
+            "target": "state_mi",
+            "type": "lobbying",
+            "epistemic_status": "record",
+            "note": "Cross-state pipeline: MD→MI. School choice legislation support.",
+            "weight": 7,
+            "source_doc": "OpenLobby; AFC 990"
+        },
+        {
+            "source": "roland_martin",
+            "target": "state_mi",
+            "type": "speaking",
+            "epistemic_status": "record",
+            "note": "Cross-state pipeline: TX→MI. NAACP Detroit (Jun 2025) + Lansing (Oct 2026).",
+            "weight": 7,
+            "source_doc": "detroitnaacp.org; lansing-naacp.org"
+        },
+        {
+            "source": "the_74",
+            "target": "state_mi",
+            "type": "media",
+            "epistemic_status": "record",
+            "note": "Cross-state pipeline: NY→MI. Charter school narrative coverage.",
+            "weight": 6,
+            "source_doc": "the74million.org"
+        },
+        {
+            "source": "skillman_foundation",
+            "target": "state_mi",
+            "type": "jurisdiction",
+            "epistemic_status": "record",
+            "note": "Detroit-based. $418M assets. $21.9M revenue. Co-funder with Walton.",
+            "weight": 6,
+            "source_doc": "ProPublica EIN 38-1675780"
         }
     ],
     "epistemic_grammar": {
