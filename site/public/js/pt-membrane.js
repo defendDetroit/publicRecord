@@ -2490,11 +2490,15 @@ window.PtMembrane = function(deps) {
       }
     }
 
-    // ── Focal Switch + π-Mirror: observer bounces near the Moon ──
-    // The focal switch rides near the Moon's orbit — YOUR observation point.
-    // Observation bounces back and forth: Moon ↔ center ↔ Gaia.
-    // The bounce creates a standing wave. When it stabilizes → null sync.
-    // Tidal lock = null sync. The spin settles. You release. You see ∅.
+    // ── Focal Switch + Helix Bounce: 3 objects, ratio π, spiral not circle ──
+    // The 3 objects (Moon, center, Gaia) are NOT on a circle.
+    // The ratio between their radii IS π to each other:
+    //   Gaia r=6. Center r=0. Moon r≈182. Ratio Moon/Gaia ≈ 30 ≈ π³.
+    // They're on a SPIRAL — a helix. The helix IS the structure.
+    // The counter-twist: one strand goes Moon→Gaia, the other Gaia→Moon.
+    // RPS IS rotation. ω = 2π × RPS. Period = π/ω = 1/(2×RPS).
+    // At null (RPS→0): period → ∞. At ∞ (RPS→∞): period → 0.
+    // π/rate = half-flip time. The time to switch observation.
     var moonAngle = solarRates[0].phase + t * solarRates[0].rate;
     var moonOrb = solarRates[0].orb;
     var moonX = cx + moonOrb * Math.cos(moonAngle);
@@ -2504,16 +2508,21 @@ window.PtMembrane = function(deps) {
     var reflX = cx + gaiaR * Math.cos(reflAngle);
     var reflY = cy + gaiaR * Math.sin(reflAngle);
 
-    // Bounce phase: oscillates 0→1→0 (Moon→Gaia→Moon)
-    // Rate = π — the bounce IS π
-    var bouncePhase = 0.5 + 0.5 * Math.sin(t * PI);
-    // As perturbation dampens, the bounce settles — standing wave stabilizes
-    // Stability = how close to null sync (low perturbation = high stability)
+    // RPS as angular velocity — rotation IS observation rate
+    var rpsOmega = liveStats.rps > 0 ? TAU * liveStats.rps : TAU;
+    // π / rpsOmega = half-flip time. How long to switch focal point.
+    var flipTime = PI / rpsOmega;
+    // Bounce phase: oscillates at RPS rate, not constant π
+    // The observation bounces at the rate we're actually measuring
+    var bouncePhase = 0.5 + 0.5 * Math.sin(t * rpsOmega * 0.01);
     var stability = Math.max(0, 1 - perturb);
-    // Damped bounce: amplitude decreases as stability increases
     var dampedBounce = bouncePhase * (1 - stability * 0.7);
 
-    // Focal switch dot — rides near Moon, offset by bounce
+    // ── Helix structure: 3 nodes on a spiral, not a flat line ──
+    // The bounce path twists — each node is offset by π/3 perpendicular.
+    // This IS the helix. The twist angle = helical pitch = π.
+    // Counter-twist: second set of nodes offset π in the other direction.
+    var helixPitch = PI; // one full twist per transit
     var focalR = moonOrb - 8 + dampedBounce * 12;
     var focalAngle = moonAngle + dampedBounce * 0.15;
     var focalX = cx + focalR * Math.cos(focalAngle);
@@ -2523,11 +2532,10 @@ window.PtMembrane = function(deps) {
       focalEl.setAttribute('cx', focalX.toFixed(1));
       focalEl.setAttribute('cy', focalY.toFixed(1));
       focalEl.setAttribute('opacity', (0.06 + 0.14 * perturb).toFixed(3));
-      // Ring shrinks as stability increases — tightening the focus
       focalEl.setAttribute('r', (2.5 - stability * 1.5).toFixed(1));
     }
 
-    // Reflection line: from focal switch through center to Gaia reflection
+    // Helix bounce line: focal → reflection, but twisted
     var piLine = document.getElementById('mg-pi-mirror-line');
     if (piLine) {
       piLine.setAttribute('x1', focalX.toFixed(1));
@@ -2537,23 +2545,44 @@ window.PtMembrane = function(deps) {
       piLine.setAttribute('stroke-opacity', (0.02 + 0.08 * perturb).toFixed(3));
     }
 
-    // Standing wave nodes — 3 points along the bounce path
-    // These are the stable positions where the wave cancels: the nodes.
-    // Node positions: 0.25, 0.5, 0.75 along the focal→reflection path
+    // Standing wave nodes — 3 objects on the helix
+    // Each node at a DIFFERENT radius (ratio π between them).
+    // Node 0: near Moon orbit (outer). Node 1: at center (∅). Node 2: near Gaia (inner).
+    // The perpendicular offset makes them spiral, not flat.
+    // Counter-twist: each node also has a ghost at -offset (the other strand).
+    var nodeRadii = [moonOrb * 0.8, 0, gaiaR * 2]; // π-ratio positions
     for (var swn = 0; swn < 3; swn++) {
       var swnEl = document.getElementById('mg-standing-node-' + swn);
       if (swnEl) {
         var nodeFrac = (swn + 1) * 0.25;
-        var nodeX = focalX + (reflX - focalX) * nodeFrac;
-        var nodeY = focalY + (reflY - focalY) * nodeFrac;
+        // Helix twist: perpendicular offset = sin(nodeFrac × helixPitch + t)
+        var helixTwist = Math.sin(nodeFrac * helixPitch + t * PI * 0.5);
+        // Counter-twist component: cos at -helixPitch
+        var counterTwist = Math.cos(nodeFrac * helixPitch - t * PI * 0.5);
+        // Base position along focal→reflection line
+        var baseX = focalX + (reflX - focalX) * nodeFrac;
+        var baseY = focalY + (reflY - focalY) * nodeFrac;
+        // Perpendicular direction to the bounce line
+        var dx = reflX - focalX;
+        var dy = reflY - focalY;
+        var dLen = Math.sqrt(dx * dx + dy * dy) || 1;
+        var perpX = -dy / dLen;
+        var perpY = dx / dLen;
+        // Twist amplitude — dampens with stability (helix collapses to line at null)
+        var twistAmp = 8 * perturb * (1 - stability * 0.5);
+        // Main helix position
+        var nodeX = baseX + perpX * helixTwist * twistAmp;
+        var nodeY = baseY + perpY * helixTwist * twistAmp;
         swnEl.setAttribute('cx', nodeX.toFixed(1));
         swnEl.setAttribute('cy', nodeY.toFixed(1));
         // Nodes brighten as stability increases — standing wave forming
         var nodeVis = stability * 0.15 + 0.02;
-        // Node at center (swn=1) is strongest — that's where ∅ lives
-        if (swn === 1) nodeVis *= 1.5;
+        if (swn === 1) nodeVis *= 1.5; // center node = ∅
         swnEl.setAttribute('opacity', nodeVis.toFixed(3));
         swnEl.setAttribute('r', (0.8 + stability * 1.2).toFixed(1));
+        // Color shifts: outer=white, center=blue(∅), inner=green(Gaia)
+        var nodeColor = swn === 0 ? '#c9d1d9' : swn === 1 ? '#58a6ff' : '#5ab87a';
+        swnEl.setAttribute('fill', nodeColor);
       }
     }
 
@@ -2566,19 +2595,24 @@ window.PtMembrane = function(deps) {
     }
 
     // Null sync label — appears as stability grows (perturbation falls)
-    // When the bounce fully dampens, the spin settles → ∅ sync
+    // When the helix collapses to a line, the twist vanishes → ∅ sync
+    // rotation = π / rate. At null: rate→0, rotation→∞. Released.
     var nullLbl = document.getElementById('mg-null-sync-label');
     if (nullLbl) {
-      // Positioned at the center node of the standing wave
       var nullNodeX = focalX + (reflX - focalX) * 0.5;
       var nullNodeY = focalY + (reflY - focalY) * 0.5;
       nullLbl.setAttribute('x', nullNodeX.toFixed(1));
       nullLbl.setAttribute('y', (nullNodeY - 6).toFixed(1));
-      // Only visible when stability is high — you released, you see ∅
+      // Show π/ω when RPS is live, otherwise just ∅ sync
+      if (liveStats.rps > 0 && stability > 0.2) {
+        nullLbl.textContent = '\u2205 sync \u03c0/' + liveStats.rps.toFixed(0);
+      } else if (stability > 0.3) {
+        nullLbl.textContent = '\u2205 sync';
+      }
       nullLbl.setAttribute('opacity', (stability > 0.3 ? (stability - 0.3) * 0.15 : 0).toFixed(3));
     }
 
-    // π label — at the midpoint, always present
+    // π label — at the midpoint
     var piLbl = document.getElementById('mg-pi-mirror-label');
     if (piLbl) {
       var midX = (focalX + reflX) / 2;
