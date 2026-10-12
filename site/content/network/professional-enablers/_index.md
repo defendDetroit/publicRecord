@@ -70,6 +70,20 @@ Former board member [Sherry Gay-Dagnogo](/network/political/sherry-gay-dagnogo/)
 
 **Questions:** Did the board member with a social relationship to the charter operator recuse from the authorization vote? Was [Misha Stallworth West](/network/political/misha-stallworth-west/) on the board during the PCA authorization? If so, the pipeline is complete: Wells-Stallworth hires Banks at MacDowell → stepdaughter Misha authorizes PCA.
 
+### Plante Moran / Plante Moran Realpoint
+
+Plante Moran sits on **both sides** of Detroit's charter school table:
+
+1. **Plante & Moran PLLC** (parent firm) is the **auditor of DPSCD** — the district that authorizes charter schools including PCA. Selected in 2020 (RFP 20-0135). In their FY2025 management letter, PM found **$21.555 million** in charter school state aid was not properly reported as fiduciary activity.
+
+2. **Plante Moran Realpoint** (consulting subsidiary) employs **Ahmed Beasley** as Senior Vice President, K-12 Capital Projects. Beasley "represents some of the largest K-12 clients in the state of Michigan." He was promoted to SVP in **2024** by PMR President & CEO **Bill Lichwalla**.
+
+**The Beasley surname:** Ahmed Beasley (PMR SVP) and **Dr. Chalena Beasley** (PCA Principal/School Leader) share a surname and operate in the same K-12 Detroit charter ecosystem. Relationship unknown — this is an untested epitope.
+
+**The chain:** Jason Drake (Managing Partner) → Donna Hanson (GMP, Nonprofit/Public Sector) → Bill Lichwalla (President & CEO, PMR) → Paul Theriault (Partner, K-12) → Ahmed Beasley (SVP). Paul Wills, another PMR K-12 Partner, attended **Lawrence Technological University** — the same school as Ahmed Beasley. Greg VanKirk, PMR Partner, lists **Wayne County** as a public sector client.
+
+**The question:** How does a $1B+ firm with 4,000+ staff employ an SVP whose surname matches the principal of a school run by a nine-time convicted felon — and simultaneously audit the district that authorizes that school — without anyone noticing?
+
 ### Baker College
 
 Employs Banks as faculty/instructor. Accredited by Higher Learning Commission (HLC). HLC standards require institutional integrity in faculty credentialing.
