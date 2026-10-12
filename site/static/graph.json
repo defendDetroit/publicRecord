@@ -1062,6 +1062,118 @@
       "type": "entity",
       "tier": 4,
       "role": "501(c)(3) arm of AFC — $12M/yr (EIN 52-2111508)"
+    },
+    {
+      "id": "jtc",
+      "label": "Judicial Tenure Commission",
+      "type": "entity",
+      "entity_type": "Oversight body",
+      "note": "Constitutional commission. Investigates judicial misconduct. Formal complaint required (not email). Responded Sep 21 + Oct 12."
+    },
+    {
+      "id": "agc",
+      "label": "Attorney Grievance Commission",
+      "type": "entity",
+      "entity_type": "Oversight body",
+      "note": "Investigates attorney misconduct. michbar.org/generalinfo/agc. Phone 313-961-6585."
+    },
+    {
+      "id": "mde_oee",
+      "label": "MDE Office of Educator Excellence",
+      "type": "entity",
+      "entity_type": "Oversight body",
+      "note": "Criminal convictions + K-12 employment. MOECS permits. Fingerprinting. Revocations. Dir: Kelli Brozanski."
+    },
+    {
+      "id": "ag_cod",
+      "label": "AG Corporate Oversight Division",
+      "type": "entity",
+      "entity_type": "Oversight body",
+      "note": "Charitable trust violations, consumer fraud, nonprofit self-dealing. Acting Chief: Darrin Fowler (P53464)."
+    },
+    {
+      "id": "dpscd_oig",
+      "label": "DPSCD Office of Inspector General",
+      "type": "entity",
+      "entity_type": "Oversight body",
+      "note": "Independent office. Fraud, waste, abuse. Hotline (313) 870-3436. Reports to DPSCD Board."
+    },
+    {
+      "id": "doe_oig",
+      "label": "US DOE Office of Inspector General",
+      "type": "entity",
+      "entity_type": "Oversight body",
+      "note": "Federal. Charter school fraud, public corruption, embezzlement. Hotline (800) 647-8733."
+    },
+    {
+      "id": "irs_eo",
+      "label": "IRS Exempt Organizations",
+      "type": "entity",
+      "entity_type": "Oversight body",
+      "note": "Form 13909. Self-dealing (IRC 4941), disqualified persons (IRC 4946). Dallas processing center."
+    },
+    {
+      "id": "mccsa",
+      "label": "Michigan Council of Charter School Authorizers",
+      "type": "entity",
+      "entity_type": "Oversight body",
+      "note": "Authorizer accountability standards. Criminal background check requirement. Chair: Leah Breen (GVSU). Treasurer: Jolia Hill (EMU)."
+    },
+    {
+      "id": "aclu_mi",
+      "label": "ACLU of Michigan",
+      "type": "entity",
+      "entity_type": "Advocacy organization",
+      "note": "Education advocacy. S.S. v. Michigan (right to read). 2966 Woodward Ave, Detroit. (313) 578-6800."
+    },
+    {
+      "id": "sbe",
+      "label": "Michigan State Board of Education",
+      "type": "entity",
+      "entity_type": "Oversight body",
+      "note": "8 elected members. Constitutional (Art VIII §3). Oversees authorizers. Meets Oct 13, 2026."
+    },
+    {
+      "id": "snyder_nikki",
+      "label": "Nikki Snyder",
+      "type": "actor",
+      "tier": 6,
+      "role": "SBE member (R-Goodrich). Confirmed positive actor. Responded 13 min. EMU grad. Nurse. Disability advocate."
+    },
+    {
+      "id": "jolia_hill",
+      "label": "Dr. Jolia Hill",
+      "type": "actor",
+      "tier": 6,
+      "role": "Director, EMU Charter Schools Office. Terminated DPSA charter Jun 30, 2026. MCCSA Treasurer."
+    },
+    {
+      "id": "fowler",
+      "label": "Darrin Fowler",
+      "type": "actor",
+      "tier": 6,
+      "role": "Acting Division Chief, AG Corporate Oversight. Bar P53464. Former Eaton County detective."
+    },
+    {
+      "id": "brozanski",
+      "label": "Kelli Brozanski",
+      "type": "actor",
+      "tier": 6,
+      "role": "Director, MDE Office of Educator Excellence. brozanskik@michigan.gov. 517-648-4015."
+    },
+    {
+      "id": "senier",
+      "label": "Amy Senier",
+      "type": "actor",
+      "tier": 6,
+      "role": "Education Advocacy Attorney, ACLU Michigan. Georgetown/Foley Hoag. S.S. v. Michigan."
+    },
+    {
+      "id": "vitti",
+      "label": "Dr. Nikolai Vitti",
+      "type": "actor",
+      "tier": 4,
+      "role": "DPSCD Superintendent. PCA authorized under his watch (Jul 2025)."
     }
   ],
   "edges": [
@@ -3585,6 +3697,213 @@
       "note": "Detroit Jobs First (802002455) and Save Detroit Jobs (802002459) filed SAME DAY 09/08/2016. Entity IDs 4 apart. Batch-filed dark money vehicles.",
       "weight": 8,
       "source_doc": "LARA 802002455; LARA 802002459"
+    },
+    {
+      "source": "sbe",
+      "target": "cmu",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "SBE oversees charter authorizers including CMU per Art VIII §3",
+      "weight": 7,
+      "source_doc": "MI Constitution Art VIII §3; MCL 380.501"
+    },
+    {
+      "source": "sbe",
+      "target": "emu",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "SBE oversees charter authorizers including EMU",
+      "weight": 7,
+      "source_doc": "MI Constitution Art VIII §3"
+    },
+    {
+      "source": "sbe",
+      "target": "dpscd",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "SBE oversees all public school districts",
+      "weight": 7,
+      "source_doc": "MI Constitution Art VIII §3"
+    },
+    {
+      "source": "snyder_nikki",
+      "target": "sbe",
+      "type": "board_membership",
+      "epistemic_status": "record",
+      "note": "SBE member (R-Goodrich). Term: 1/1/2017-1/1/2033. Confirmed positive actor Oct 12, 2026.",
+      "weight": 6,
+      "source_doc": "michigan.gov SBE public list"
+    },
+    {
+      "source": "mde_oee",
+      "target": "banks",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "HOLD placed on permit #590606. Professional Practice handles criminal convictions + K-12 employment.",
+      "weight": 8,
+      "source_doc": "MOECS permit #590606 HOLD status"
+    },
+    {
+      "source": "brozanski",
+      "target": "mde_oee",
+      "type": "governance",
+      "epistemic_status": "record",
+      "note": "Director of OEE. Oversees certification, professional practice, fingerprinting.",
+      "weight": 5,
+      "source_doc": "michigan.gov/mde OEE leadership page"
+    },
+    {
+      "source": "schmiedeknecht",
+      "target": "mde_oee",
+      "type": "employment",
+      "epistemic_status": "record",
+      "note": "OEE Analyst. Investigated MacDowell Feb 2022. 'Cleared' Banks. What did she find?",
+      "weight": 6,
+      "source_doc": "MDE investigation Feb 2022 correspondence"
+    },
+    {
+      "source": "schmiedeknecht",
+      "target": "macdowell",
+      "type": "investigation",
+      "epistemic_status": "record",
+      "note": "Investigated MacDowell Feb 2022 for permit irregularities. Result: cleared despite permit HOLD.",
+      "weight": 7,
+      "source_doc": "MDE investigation Feb 2022"
+    },
+    {
+      "source": "ag_cod",
+      "target": "purpose_foundation",
+      "type": "jurisdiction",
+      "epistemic_status": "inferred",
+      "note": "AG Charitable Trust Section has jurisdiction over all MI charitable trusts. Purpose Foundation (EIN 33-3537910) must be registered.",
+      "weight": 7,
+      "source_doc": "MCL 14.251 et seq; LARA 803294855"
+    },
+    {
+      "source": "fowler",
+      "target": "ag_cod",
+      "type": "governance",
+      "epistemic_status": "record",
+      "note": "Acting Division Chief. FowlerD1@michigan.gov. 517-335-7622.",
+      "weight": 5,
+      "source_doc": "michigan.gov AG contact directory"
+    },
+    {
+      "source": "jtc",
+      "target": "miller",
+      "type": "jurisdiction",
+      "epistemic_status": "record",
+      "note": "JTC has jurisdiction over Miller (36th District). Board Chair of Banks' foundation while sitting judge.",
+      "weight": 8,
+      "source_doc": "MI Constitution Art VI §30; JTC response Oct 12, 2026"
+    },
+    {
+      "source": "jtc",
+      "target": "yancey",
+      "type": "jurisdiction",
+      "epistemic_status": "record",
+      "note": "JTC has jurisdiction over Yancey (36th District). $383.82 payment to Banks Strategy LLC.",
+      "weight": 7,
+      "source_doc": "MI Constitution Art VI §30; CFRS disclosure"
+    },
+    {
+      "source": "jolia_hill",
+      "target": "emu",
+      "type": "governance",
+      "epistemic_status": "record",
+      "note": "Director, Charter Schools Office since Feb 2022. Recommended DPSA termination Jun 2026.",
+      "weight": 6,
+      "source_doc": "emich.edu charter schools; EMU Board of Regents Sec 17, Jun 25 2026"
+    },
+    {
+      "source": "jolia_hill",
+      "target": "mccsa",
+      "type": "board_membership",
+      "epistemic_status": "record",
+      "note": "Treasurer, MCCSA. Cross-authorizer accountability network.",
+      "weight": 5,
+      "source_doc": "michiganauthorizers.com/jolia-hill"
+    },
+    {
+      "source": "dpscd_oig",
+      "target": "dpscd",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "Independent oversight office per Board Policy 1270. Reports functionally to DPSCD Board.",
+      "weight": 7,
+      "source_doc": "DPSCD BoardDocs Policy 1270"
+    },
+    {
+      "source": "dpscd_oig",
+      "target": "pca",
+      "type": "jurisdiction",
+      "epistemic_status": "inferred",
+      "note": "PCA authorized by DPSCD (Jul 2025). OIG has jurisdiction over authorization process.",
+      "weight": 6,
+      "source_doc": "detroitk12.org OIG"
+    },
+    {
+      "source": "vitti",
+      "target": "dpscd",
+      "type": "governance",
+      "epistemic_status": "record",
+      "note": "Superintendent. PCA authorized under his watch. nikolai.vitti@detroitk12.org.",
+      "weight": 7,
+      "source_doc": "detroitk12.org"
+    },
+    {
+      "source": "doe_oig",
+      "target": "pca",
+      "type": "jurisdiction",
+      "epistemic_status": "inferred",
+      "note": "Federal jurisdiction over Title I/IDEA funds at PCA. OIG Hotline (800) 647-8733.",
+      "weight": 6,
+      "source_doc": "oig.ed.gov; DOE OIG K-12 Fraud in Focus FY2020-2025"
+    },
+    {
+      "source": "doe_oig",
+      "target": "macdowell",
+      "type": "jurisdiction",
+      "epistemic_status": "inferred",
+      "note": "Federal jurisdiction over Title I/IDEA funds at MacDowell.",
+      "weight": 6,
+      "source_doc": "oig.ed.gov"
+    },
+    {
+      "source": "agc",
+      "target": "moreland",
+      "type": "jurisdiction",
+      "epistemic_status": "record",
+      "note": "AGC jurisdiction over Moreland dual role: AAG + PCA Board Director. MRPC 1.7 concurrent conflict.",
+      "weight": 8,
+      "source_doc": "State Bar MRPC 1.7; PCA board records"
+    },
+    {
+      "source": "irs_eo",
+      "target": "purpose_foundation",
+      "type": "jurisdiction",
+      "epistemic_status": "inferred",
+      "note": "EIN 33-3537910. Two felons as all 4 officers = disqualified persons (IRC §4946). Self-dealing (IRC §4941).",
+      "weight": 7,
+      "source_doc": "IRS Form 990; IRC §4941, §4946"
+    },
+    {
+      "source": "mccsa",
+      "target": "cmu",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "MCCSA sets authorizer accountability standards. Jason Sarsfield (CMU) is MCCSA Treasurer.",
+      "weight": 5,
+      "source_doc": "michiganauthorizers.com"
+    },
+    {
+      "source": "senier",
+      "target": "aclu_mi",
+      "type": "employment",
+      "epistemic_status": "record",
+      "note": "Education Advocacy Attorney. Litigates S.S. v. Michigan.",
+      "weight": 5,
+      "source_doc": "aclumich.org/our-staff"
     }
   ],
   "epistemic_grammar": {

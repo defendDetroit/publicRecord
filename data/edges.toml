@@ -1940,3 +1940,169 @@ epistemic_status = "record"
 note = "Detroit-based. EIN 38-1675780. $418M assets. $21.9M revenue (2023). Co-funder with Walton for ESD charter ratings."
 weight = 6
 source_doc = "ProPublica Nonprofit Explorer EIN 38-1675780"
+
+# ── Intra-membrane oversight body edges (Oct 12, 2026) ──────────────────
+# JTC + AGC + MDE OEE + AG COD + DPSCD OIG + DOE OIG + IRS EO + MCCSA + SBE
+# The immune system layer: oversight bodies with jurisdiction over the network.
+
+[[edge]]
+source = "sbe"
+target = "cmu"
+type = "oversight"
+epistemic_status = "record"
+note = "SBE oversees charter authorizers including CMU per MI Constitution Art VIII §3"
+weight = 7
+source_doc = "MI Constitution Art VIII §3; MCL 380.501"
+
+[[edge]]
+source = "sbe"
+target = "emu"
+type = "oversight"
+epistemic_status = "record"
+note = "SBE oversees charter authorizers including EMU"
+weight = 7
+source_doc = "MI Constitution Art VIII §3"
+
+[[edge]]
+source = "sbe"
+target = "dpscd"
+type = "oversight"
+epistemic_status = "record"
+note = "SBE oversees all public school districts"
+weight = 7
+source_doc = "MI Constitution Art VIII §3"
+
+[[edge]]
+source = "snyder_nikki"
+target = "sbe"
+type = "board_membership"
+epistemic_status = "record"
+note = "SBE member (R-Goodrich). Term 2017-2033. Confirmed positive actor Oct 12, 2026. Responded in 13 min with personal cell."
+weight = 6
+source_doc = "michigan.gov SBE public list; direct correspondence Oct 12, 2026"
+
+[[edge]]
+source = "mde_oee"
+target = "banks"
+type = "oversight"
+epistemic_status = "record"
+note = "HOLD placed on MOECS permit #590606. Professional Practice handles criminal convictions + K-12 employment."
+weight = 8
+source_doc = "MOECS permit #590606 HOLD status"
+
+[[edge]]
+source = "schmiedeknecht"
+target = "mde_oee"
+type = "employment"
+epistemic_status = "record"
+note = "OEE Analyst. Investigated MacDowell Feb 2022. What did she find?"
+weight = 6
+source_doc = "MDE investigation Feb 2022 correspondence"
+
+[[edge]]
+source = "schmiedeknecht"
+target = "macdowell"
+type = "investigation"
+epistemic_status = "record"
+note = "Investigated MacDowell Feb 2022 for permit irregularities. Result: cleared despite permit HOLD."
+weight = 7
+source_doc = "MDE investigation Feb 2022"
+
+[[edge]]
+source = "ag_cod"
+target = "purpose_foundation"
+type = "jurisdiction"
+epistemic_status = "inferred"
+note = "AG Charitable Trust Section jurisdiction over MI charitable trusts. Purpose Foundation (EIN 33-3537910) must be registered."
+weight = 7
+source_doc = "MCL 14.251 et seq; LARA 803294855"
+
+[[edge]]
+source = "jtc"
+target = "miller"
+type = "jurisdiction"
+epistemic_status = "record"
+note = "JTC jurisdiction over Miller (36th District). Board Chair of Banks' Anchor Rock Foundation while sitting judge. JTC acknowledged receipt Oct 12."
+weight = 8
+source_doc = "MI Constitution Art VI §30; JTC response Oct 12, 2026"
+
+[[edge]]
+source = "jtc"
+target = "yancey"
+type = "jurisdiction"
+epistemic_status = "record"
+note = "JTC jurisdiction over Yancey (36th District). $383.82 payment to Banks Strategy LLC per CFRS disclosure."
+weight = 7
+source_doc = "MI Constitution Art VI §30; CFRS disclosure"
+
+[[edge]]
+source = "jolia_hill"
+target = "emu"
+type = "governance"
+epistemic_status = "record"
+note = "Director, Charter Schools Office since Feb 2022. Recommended DPSA termination Jun 2026. MCCSA Treasurer."
+weight = 6
+source_doc = "emich.edu charter schools; EMU Board of Regents Sec 17, Jun 25, 2026"
+
+[[edge]]
+source = "dpscd_oig"
+target = "pca"
+type = "jurisdiction"
+epistemic_status = "inferred"
+note = "PCA authorized by DPSCD (Jul 2025). OIG has jurisdiction over authorization process. Hotline (313) 870-3436."
+weight = 6
+source_doc = "detroitk12.org OIG; DPSCD Board Policy 1270"
+
+[[edge]]
+source = "doe_oig"
+target = "pca"
+type = "jurisdiction"
+epistemic_status = "inferred"
+note = "Federal jurisdiction over Title I/IDEA funds. OIG convicted MI school official for kickbacks 2023 (Madison District $3.1M)."
+weight = 6
+source_doc = "oig.ed.gov; DOE OIG K-12 Fraud in Focus FY2020-2025"
+
+[[edge]]
+source = "doe_oig"
+target = "macdowell"
+type = "jurisdiction"
+epistemic_status = "inferred"
+note = "Federal jurisdiction over Title I/IDEA funds at MacDowell."
+weight = 6
+source_doc = "oig.ed.gov"
+
+[[edge]]
+source = "agc"
+target = "moreland"
+type = "jurisdiction"
+epistemic_status = "record"
+note = "AGC jurisdiction over Moreland dual role: AAG + PCA Board Director. MRPC 1.7 concurrent conflict."
+weight = 8
+source_doc = "State Bar MRPC 1.7; PCA board records"
+
+[[edge]]
+source = "irs_eo"
+target = "purpose_foundation"
+type = "jurisdiction"
+epistemic_status = "inferred"
+note = "EIN 33-3537910. Two felons as all 4 officers = disqualified persons (IRC §4946). Self-dealing (IRC §4941)."
+weight = 7
+source_doc = "IRS Form 990; IRC §4941, §4946"
+
+[[edge]]
+source = "mccsa"
+target = "cmu"
+type = "oversight"
+epistemic_status = "record"
+note = "MCCSA sets authorizer accountability standards. Criminal background check requirement. Jason Sarsfield (CMU) is on MCCSA board."
+weight = 5
+source_doc = "michiganauthorizers.com"
+
+[[edge]]
+source = "vitti"
+target = "dpscd"
+type = "governance"
+epistemic_status = "record"
+note = "Superintendent. PCA authorized under his watch (Jul 2025). nikolai.vitti@detroitk12.org."
+weight = 7
+source_doc = "detroitk12.org"
