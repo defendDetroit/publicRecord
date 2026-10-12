@@ -332,6 +332,21 @@
       "sort_note": "Board member of non-self entity."
     },
     {
+      "id": "mde",
+      "label": "Michigan Department of Education",
+      "type": "entity",
+      "entity_type": "State agency",
+      "tier": 1,
+      "class": "entity",
+      "membrane_response": "form",
+      "classification": "partial",
+      "confidence": 0.55,
+      "opacity": 0.55,
+      "sort_pass": 2,
+      "sort_method": "school_employee",
+      "sort_note": "Employee of captured school."
+    },
+    {
       "id": "court_36th",
       "label": "court 36th",
       "type": "institution",
@@ -376,19 +391,15 @@
       "wiki_url": "https://en.wikipedia.org/wiki/Mary_Sheffield"
     },
     {
-      "id": "mde",
-      "label": "Michigan Department of Education",
+      "id": "public_education",
+      "label": "Public Education (The Commons)",
       "type": "entity",
-      "entity_type": "State agency",
+      "entity_type": "Commons",
       "tier": 1,
+      "role": "The shared resource. Public education is a commons — it belongs to every child. When a convicted felon extracts 72.67% of per-pupil funding through a private LLC, he is enclosing the commons. This is the thing being stolen.",
       "class": "entity",
-      "membrane_response": "form",
-      "classification": "partial",
-      "confidence": 0.55,
-      "opacity": 0.55,
-      "sort_pass": 2,
-      "sort_method": "school_employee",
-      "sort_note": "Employee of captured school."
+      "classification": "non-self",
+      "wiki_url": "https://en.wikipedia.org/wiki/Public_education"
     },
     {
       "id": "npe",
@@ -1375,6 +1386,16 @@
       "wiki_url": "https://en.wikipedia.org/wiki/Bill_%26_Melinda_Gates_Foundation"
     },
     {
+      "id": "clutch_justice",
+      "label": "Clutch Justice",
+      "type": "entity",
+      "entity_type": "Investigation platform",
+      "tier": 5,
+      "role": "Published MacDowell investigation Sep 13, 2026. Published Detroit Files Part I Sep 21, 2026. Investigation platform.",
+      "class": "entity",
+      "classification": "non-self"
+    },
+    {
       "id": "len_wolfe",
       "label": "Leonard C. 'Len' Wolfe",
       "type": "actor",
@@ -1625,16 +1646,6 @@
       "sort_note": "Family member of Banks."
     },
     {
-      "id": "clutch_justice",
-      "label": "Clutch Justice",
-      "type": "entity",
-      "entity_type": "Investigation platform",
-      "tier": 5,
-      "role": "Published MacDowell investigation Sep 13, 2026. Published Detroit Files Part I Sep 21, 2026. Investigation platform.",
-      "class": "entity",
-      "classification": "non-self"
-    },
-    {
       "id": "michele_leno",
       "label": "Michele Leno",
       "type": "actor",
@@ -1688,6 +1699,27 @@
       "class": "entity",
       "classification": "non-self",
       "wiki_url": "https://en.wikipedia.org/wiki/Jeffrey_Epstein"
+    },
+    {
+      "id": "detroit_free_press",
+      "label": "Detroit Free Press",
+      "type": "entity",
+      "entity_type": "Media",
+      "tier": 5,
+      "role": "Major Detroit newspaper. Covered Chatfield/BMF/charter school stories. Investigation briefing packet delivered Sep 22, 2026.",
+      "class": "entity",
+      "classification": "null"
+    },
+    {
+      "id": "wikipedia_org",
+      "label": "Wikipedia",
+      "type": "entity",
+      "entity_type": "Commons/Knowledge",
+      "tier": 5,
+      "role": "The free encyclopedia. CC-BY-SA 3.0. Written by volunteer editors worldwide. The world's largest commons of verified knowledge. 67 nodes in this graph are sourced from Wikipedia. This is the kernel.",
+      "class": "entity",
+      "classification": "non-self",
+      "wiki_url": "https://en.wikipedia.org/wiki/Wikipedia"
     },
     {
       "id": "burris",
@@ -2033,16 +2065,6 @@
       "sort_note": "Edge pattern unresolved."
     },
     {
-      "id": "detroit_free_press",
-      "label": "Detroit Free Press",
-      "type": "entity",
-      "entity_type": "Media",
-      "tier": 5,
-      "role": "Major Detroit newspaper. Covered Chatfield/BMF/charter school stories. Investigation briefing packet delivered Sep 22, 2026.",
-      "class": "entity",
-      "classification": "null"
-    },
-    {
       "id": "carol_banks",
       "label": "Carol Banks",
       "type": "actor",
@@ -2124,6 +2146,38 @@
       "class": "entity",
       "classification": "non-self",
       "wiki_url": "https://en.wikipedia.org/wiki/The_Broad_Foundation"
+    },
+    {
+      "id": "eli_broad",
+      "label": "Eli Broad",
+      "type": "actor",
+      "tier": 5,
+      "role": "KB Home / SunAmerica. Broad Foundation (already in graph). Broad Superintendents Academy placed Vitti at DPSCD. Detroit art museum. Died 2021.",
+      "class": "entity",
+      "classification": "non-self",
+      "wiki_url": "https://en.wikipedia.org/wiki/Eli_Broad"
+    },
+    {
+      "id": "first_amendment",
+      "label": "First Amendment",
+      "type": "entity",
+      "entity_type": "Constitutional right",
+      "tier": 5,
+      "role": "Freedom of speech, press, assembly, petition. The right that protects this investigation. The right that makes the graph publishable. The commons of expression.",
+      "class": "entity",
+      "classification": "non-self",
+      "wiki_url": "https://en.wikipedia.org/wiki/First_Amendment_to_the_United_States_Constitution"
+    },
+    {
+      "id": "public_domain",
+      "label": "Public Domain",
+      "type": "entity",
+      "entity_type": "Commons/Legal",
+      "tier": 5,
+      "role": "Works not protected by IP rights. Government documents. Expired copyrights. The ultimate commons — knowledge that belongs to everyone forever.",
+      "class": "entity",
+      "classification": "non-self",
+      "wiki_url": "https://en.wikipedia.org/wiki/Public_domain"
     },
     {
       "id": "adam_sabree",
@@ -2766,16 +2820,6 @@
       "sort_note": "Too few edges."
     },
     {
-      "id": "eli_broad",
-      "label": "Eli Broad",
-      "type": "actor",
-      "tier": 5,
-      "role": "KB Home / SunAmerica. Broad Foundation (already in graph). Broad Superintendents Academy placed Vitti at DPSCD. Detroit art museum. Died 2021.",
-      "class": "entity",
-      "classification": "non-self",
-      "wiki_url": "https://en.wikipedia.org/wiki/Eli_Broad"
-    },
-    {
       "id": "dan_gilbert",
       "label": "Dan Gilbert",
       "type": "actor",
@@ -2837,6 +2881,28 @@
       "class": "entity",
       "classification": "non-self",
       "wiki_url": "https://en.wikipedia.org/wiki/Goldman_Sachs"
+    },
+    {
+      "id": "title_i",
+      "label": "Title I Federal Funding",
+      "type": "entity",
+      "entity_type": "Commons/Federal",
+      "tier": 5,
+      "role": "Elementary and Secondary Education Act (1965). Federal funding for schools serving low-income students. The money that flows from every American taxpayer to Detroit's poorest children — and then to Banks' LLC.",
+      "class": "entity",
+      "classification": "non-self",
+      "wiki_url": "https://en.wikipedia.org/wiki/Elementary_and_Secondary_Education_Act"
+    },
+    {
+      "id": "foia_act",
+      "label": "Freedom of Information Act",
+      "type": "entity",
+      "entity_type": "Commons/Law",
+      "tier": 5,
+      "role": "5 U.S.C. 552. The right of the people to access government records. Michigan FOIA (MCL 15.231). The tool that produced the MDE emails that revealed the investigation was killed same morning.",
+      "class": "entity",
+      "classification": "non-self",
+      "wiki_url": "https://en.wikipedia.org/wiki/Freedom_of_Information_Act_(United_States)"
     },
     {
       "id": "city_council",
@@ -5661,6 +5727,61 @@
       "wiki_url": "https://en.wikipedia.org/wiki/Kresge_Foundation"
     },
     {
+      "id": "creative_commons",
+      "label": "Creative Commons",
+      "type": "entity",
+      "entity_type": "Commons/License",
+      "tier": 5,
+      "role": "CC-BY-SA. The license that makes Wikipedia free. The license that makes this investigation shareable. Lawrence Lessig founded 2001. The legal infrastructure of the commons.",
+      "class": "entity",
+      "classification": "non-self",
+      "wiki_url": "https://en.wikipedia.org/wiki/Creative_Commons"
+    },
+    {
+      "id": "library_of_congress",
+      "label": "Library of Congress",
+      "type": "entity",
+      "entity_type": "Commons/Institution",
+      "tier": 5,
+      "role": "Largest library in the world. 170M items. The commons of recorded knowledge. ORC license (TX 9-307-067) registered here.",
+      "class": "entity",
+      "classification": "non-self",
+      "wiki_url": "https://en.wikipedia.org/wiki/Library_of_Congress"
+    },
+    {
+      "id": "internet_archive",
+      "label": "Internet Archive",
+      "type": "entity",
+      "entity_type": "Commons/Digital",
+      "tier": 5,
+      "role": "Wayback Machine. 735B web pages archived. Brewster Kahle. Universal access to all knowledge. The digital commons.",
+      "class": "entity",
+      "classification": "non-self",
+      "wiki_url": "https://en.wikipedia.org/wiki/Internet_Archive"
+    },
+    {
+      "id": "detroit_institute_arts",
+      "label": "Detroit Institute of Arts",
+      "type": "entity",
+      "entity_type": "Commons/Museum",
+      "tier": 5,
+      "role": "DIA. 100+ galleries. Diego Rivera murals. Nearly sold during bankruptcy. The commons of art. Saved by regional millage vote 2012.",
+      "class": "entity",
+      "classification": "non-self",
+      "wiki_url": "https://en.wikipedia.org/wiki/Detroit_Institute_of_Arts"
+    },
+    {
+      "id": "open_source",
+      "label": "Open Source Software",
+      "type": "entity",
+      "entity_type": "Commons/Software",
+      "tier": 5,
+      "role": "Free/open source software. Linux, Firefox, Python, Rust. The commons of computation. This investigation runs on open source tools.",
+      "class": "entity",
+      "classification": "non-self",
+      "wiki_url": "https://en.wikipedia.org/wiki/Open-source_software"
+    },
+    {
       "id": "bmf_entertainment",
       "label": "BMF Entertainment",
       "type": "entity",
@@ -5862,6 +5983,50 @@
       "wiki_url": "https://en.wikipedia.org/wiki/Ford_Foundation"
     },
     {
+      "id": "wikimedia_foundation",
+      "label": "Wikimedia Foundation",
+      "type": "entity",
+      "entity_type": "Commons/Nonprofit",
+      "tier": 5,
+      "role": "501(c)(3). Hosts Wikipedia, Wikidata, Wikimedia Commons. San Francisco. $180M budget from donations. No ads. Free knowledge for everyone.",
+      "class": "entity",
+      "classification": "non-self",
+      "wiki_url": "https://en.wikipedia.org/wiki/Wikimedia_Foundation"
+    },
+    {
+      "id": "nps",
+      "label": "National Park Service",
+      "type": "entity",
+      "entity_type": "Commons/Federal",
+      "tier": 5,
+      "role": "Department of Interior. 423 national park sites. 85M acres. The commons of land. Created 1916. 'For the benefit and enjoyment of the people.'",
+      "class": "entity",
+      "classification": "non-self",
+      "wiki_url": "https://en.wikipedia.org/wiki/National_Park_Service"
+    },
+    {
+      "id": "belle_isle",
+      "label": "Belle Isle Park",
+      "type": "entity",
+      "entity_type": "Commons/Park",
+      "tier": 5,
+      "role": "Detroit's island park. 982 acres. Designed by Olmsted. Transferred to Michigan DNR 2014 during bankruptcy. The commons they sold off.",
+      "class": "entity",
+      "classification": "non-self",
+      "wiki_url": "https://en.wikipedia.org/wiki/Belle_Isle_(Michigan)"
+    },
+    {
+      "id": "arxiv",
+      "label": "arXiv",
+      "type": "entity",
+      "entity_type": "Commons/Science",
+      "tier": 5,
+      "role": "Open access preprint server. 2.4M papers. Cornell. Physics, math, CS, biology. The commons of scientific knowledge.",
+      "class": "entity",
+      "classification": "non-self",
+      "wiki_url": "https://en.wikipedia.org/wiki/ArXiv"
+    },
+    {
       "id": "matinga_ragatz",
       "label": "Matinga Ragatz",
       "type": "actor",
@@ -5976,6 +6141,17 @@
       "class": "entity",
       "classification": "non-self",
       "wiki_url": "https://en.wikipedia.org/wiki/Deloitte"
+    },
+    {
+      "id": "rouge_river",
+      "label": "Rouge River (Michigan)",
+      "type": "entity",
+      "entity_type": "Commons/Waterway",
+      "tier": 5,
+      "role": "126-mile river through metro Detroit. Ford River Rouge Complex. Environmental commons. Cleanup ongoing.",
+      "class": "entity",
+      "classification": "non-self",
+      "wiki_url": "https://en.wikipedia.org/wiki/Rouge_River_(Michigan)"
     }
   ],
   "edges": [
@@ -36721,6 +36897,861 @@
       "weight": 4,
       "note": "F500 back-scatter: 4 shared",
       "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "public_education",
+      "target": "pca",
+      "type": "commons_enclosure",
+      "epistemic_status": "record",
+      "weight": 9,
+      "note": "PCA receives public education funding. 72.67% extracted through private LLC. This is commons enclosure.",
+      "source_doc": "Investigation"
+    },
+    {
+      "source": "public_education",
+      "target": "macdowell",
+      "type": "commons_enclosure",
+      "epistemic_status": "record",
+      "weight": 9,
+      "note": "MacDowell receives public education funding. Same extraction model.",
+      "source_doc": "Investigation"
+    },
+    {
+      "source": "public_education",
+      "target": "banks",
+      "type": "commons_theft",
+      "epistemic_status": "record",
+      "weight": 9,
+      "note": "Banks extracts from the commons of public education. 9 convictions. 3% math. The commons is being stolen.",
+      "source_doc": "Investigation"
+    },
+    {
+      "source": "public_education",
+      "target": "us_doe",
+      "type": "federal_stewardship",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "US DOE stewards federal education commons.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "public_education",
+      "target": "mde",
+      "type": "state_stewardship",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "MDE stewards Michigan education commons.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "public_education",
+      "target": "charter_law_1993",
+      "type": "privatization",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "Charter law 1993 enabled privatization of public education commons.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "public_education",
+      "target": "detroit_city",
+      "type": "municipal",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "Detroit's public education system.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "title_i",
+      "target": "pca",
+      "type": "funding",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "Title I funds flow to PCA — then to Banks' LLC.",
+      "source_doc": "Federal grant data"
+    },
+    {
+      "source": "title_i",
+      "target": "us_doe",
+      "type": "administration",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "US DOE administers Title I.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "title_i",
+      "target": "public_education",
+      "type": "funding_mechanism",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "Title I funds the commons of education for low-income students.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "first_amendment",
+      "target": "clutch_justice",
+      "type": "protection",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "First Amendment protects publication of investigation.",
+      "source_doc": "Constitution"
+    },
+    {
+      "source": "first_amendment",
+      "target": "detroit_free_press",
+      "type": "protection",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "Press freedom.",
+      "source_doc": "Constitution"
+    },
+    {
+      "source": "first_amendment",
+      "target": "foia_act",
+      "type": "complementary",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "FOIA + First Amendment: the right to know + the right to speak.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "foia_act",
+      "target": "mde",
+      "type": "tool",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "FOIA produced the MDE emails revealing investigation killed same morning.",
+      "source_doc": "MI FOIA MCL 15.231"
+    },
+    {
+      "source": "foia_act",
+      "target": "public_domain",
+      "type": "produces",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "FOIA-released documents enter the public domain.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "creative_commons",
+      "target": "wikipedia_org",
+      "type": "license",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "Wikipedia uses CC-BY-SA 3.0. The legal infrastructure of free knowledge.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "wikipedia_org",
+      "target": "wikimedia_foundation",
+      "type": "operated_by",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "Wikimedia Foundation hosts Wikipedia.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "wikipedia_org",
+      "target": "public_education",
+      "type": "knowledge_commons",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "Wikipedia IS public education — free, open, verifiable.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "belle_isle",
+      "target": "detroit_city",
+      "type": "park",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "Detroit's island park. Transferred to state during bankruptcy.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "nps",
+      "target": "public_domain",
+      "type": "stewardship",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "NPS manages public lands for the people.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "detroit_institute_arts",
+      "target": "detroit_city",
+      "type": "cultural_commons",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "Detroit's art museum. Nearly sold in bankruptcy. Saved by millage.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "detroit_institute_arts",
+      "target": "eli_broad",
+      "type": "philanthropy",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "Broad was major DIA supporter.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "internet_archive",
+      "target": "public_domain",
+      "type": "preservation",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "Internet Archive preserves the digital commons.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "internet_archive",
+      "target": "wikipedia_org",
+      "type": "complementary",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "Both serve the commons of free knowledge.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "arxiv",
+      "target": "public_education",
+      "type": "research_commons",
+      "epistemic_status": "record",
+      "weight": 4,
+      "note": "Open access science serves public education.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "open_source",
+      "target": "wikipedia_org",
+      "type": "shared_values",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "Both built by volunteers. Both free. Both commons.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "open_source",
+      "target": "creative_commons",
+      "type": "movement",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "Open source + Creative Commons = the commons movement.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "library_of_congress",
+      "target": "public_domain",
+      "type": "repository",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "Largest public knowledge repository.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "library_of_congress",
+      "target": "first_amendment",
+      "type": "preservation",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "LOC preserves the record of free expression.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "public_education",
+      "target": "todd_perkins",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "mackinac_center",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "sbe",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "sbm",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "purpose_group",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "upl_dept",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "wayne_state_law",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "afc",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "alj_rice",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "wayne_county",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "gay_dagnogo",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "maleyko",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "npe",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "goetz",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "glep",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "corey_northrop",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "gregory_meihn",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "crump_gibson",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "msu_law",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "raphael_washington",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "court_36th",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "jolia_hill",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "dpscd",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "engler",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "miller",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "emu",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "bmf",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Commons back-scatter: 4 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "verkeydia_hall",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "bullington",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "cmu",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "yancey",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "jennifer_crump",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "sheffield",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "state_mi",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "beasley",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "henri_harmon",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "glenn_page",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "wayne_resa",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "richard_mclellan",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "mi_supreme_court",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "kwame",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "moreland",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "perkins_sean",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "misha_stallworth",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "betsy_devos",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "wayne_resa_audit",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "jtc",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "koch_network",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "mccsa",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "court_3rd",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "amway",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "walton_family_foundation",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "trump",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "sc_cavanagh",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "vitti",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "perkins_d",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "devos_foundation",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "sean_perkins",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "msu",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "ms_perkins_pca",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "dick_devos",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "plante_moran",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "dpd",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "agc",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "clutch_justice",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Commons back-scatter: 4 shared",
+      "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "public_education",
+      "target": "kym_worthy",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Commons back-scatter: 7 shared",
+      "source_doc": "Wonders+Parks+Commons"
     }
   ],
   "epistemic_grammar": {
