@@ -12,6 +12,7 @@ Analysis of the documented patterns connecting convicted felons, captured courts
 
 | Analysis | Key Finding |
 |----------|-------------|
+| **[❓ 21 Questions You Can Answer Yourself](/analysis/questions/)** | **We're not telling you what to think. We're asking you to look. 21 questions, each verifiable with a public records search. The co-founder of the news outlet is also the foundation's education director. The charter lobby and a dark money PAC share a phone prefix. A judge chairs a felon's school board. We already found the answers. Go check.** |
 | **[🎤 The Voice of the Black Community](/analysis/the-voice/)** | **NEW — Roland Martin says he speaks for the Black community. A ring of ~33 people, funded from Bentonville, stamped in Lansing, honored in Detroit. He toured 10 cities. He never came to Detroit. 400 children can't do math. That's not a community. That's a supply chain.** |
 | **[🥜 Cracking the Walnut](/analysis/the-narrative-pipeline/)** | **From Walmart to the schoolhouse door. One foundation funds the journalism, the fellowship, and the lobby. Walton → Roland Martin → Pahara → Banks. $4.3M to the Michigan charter lobby. $3M+ to the fellowship that credentialed a 9-time felon. Every dollar from their own grant reports.** |
 | **[🔬 The Artisan Method](/analysis/the-artisan-method/)** | **10 structural invariants tested across 4 independent sectors. 9.875/10 match. The artisan is not a person — it's a METHOD. 121 nodes, 203 edges, zero-knowledge verifiable. Preprint forthcoming.** |
