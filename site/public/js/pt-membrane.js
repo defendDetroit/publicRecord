@@ -434,6 +434,59 @@ window.PtMembrane = function(deps) {
       'pin \u2192 3 \u2192 primes \u00b7 converging to single aperture',
       '#484f58', 4, {opacity:0.10, id:'mg-convergence-label'});
 
+    // ═══ CHEMISTRY: H + H → He, H + H + O → H₂O ═══
+    // The basic three-body problem of matter.
+    // Hydrogen is the simplest. IS. The first thing that exists.
+    // Two H's under pressure → He (fusion). The sun does this.
+    // Two H's + one O → H₂O (water). Life needs this.
+    // Bond angle 104.5° ≈ π/1.72 rad. Not π/2. Not π/3. Its own thing.
+    // The lattice IS the reactor. Pressure drives the chemistry.
+    var chemG = el('g', {id:'mg-chem'}, svg);
+
+    // 2 Hydrogen + 1 Oxygen — the basic three-body
+    var chemDefs = [
+      {id:'H1', symbol:'H', color:'#c9d1d9', r:3},
+      {id:'H2', symbol:'H', color:'#c9d1d9', r:3},
+      {id:'O',  symbol:'O', color:'#58a6ff', r:4}
+    ];
+    chemDefs.forEach(function(ce) {
+      el('circle', {cx:cx, cy:cy, r:ce.r,
+        fill:ce.color, opacity:0.25,
+        id:'mg-chem-' + ce.id}, chemG);
+      txt(chemG, cx, cy, ce.symbol, ce.color, 6,
+        {opacity:0.15, 'font-weight':'bold', id:'mg-chem-label-' + ce.id});
+    });
+
+    // He fusion indicator — appears when H + H are close under pressure
+    el('circle', {cx:cx, cy:cy, r:5,
+      fill:'#f0e68c', opacity:0, filter:'url(#mg-glow)',
+      id:'mg-chem-He'}, chemG);
+    txt(chemG, cx, cy, 'He', '#f0e68c', 7,
+      {opacity:0, 'font-weight':'bold', id:'mg-chem-label-He'});
+
+    // H₂O bond lines — appear when H-O-H triangle forms
+    el('line', {x1:cx, y1:cy, x2:cx, y2:cy,
+      stroke:'#58a6ff', 'stroke-width':1, 'stroke-opacity':0,
+      id:'mg-bond-HO1'}, chemG);
+    el('line', {x1:cx, y1:cy, x2:cx, y2:cy,
+      stroke:'#58a6ff', 'stroke-width':1, 'stroke-opacity':0,
+      id:'mg-bond-HO2'}, chemG);
+    // H-H proximity bond — appears during near-fusion
+    el('line', {x1:cx, y1:cy, x2:cx, y2:cy,
+      stroke:'#f0e68c', 'stroke-width':0.6, 'stroke-opacity':0,
+      'stroke-dasharray':'2,2', id:'mg-bond-HH'}, chemG);
+
+    // H₂O label
+    txt(chemG, cx, cy, 'H\u2082O', '#58a6ff', 6,
+      {opacity:0, 'font-weight':'bold', id:'mg-chem-label-H2O'});
+
+    // Bond angle annotation (104.5°)
+    el('path', {d:'M 0 0', fill:'none',
+      stroke:'#58a6ff', 'stroke-width':0.4, 'stroke-opacity':0,
+      'stroke-dasharray':'2,3', id:'mg-bond-angle'}, chemG);
+    txt(chemG, cx, cy, '104.5\u00b0', '#484f58', 4,
+      {opacity:0, id:'mg-bond-angle-label'});
+
     // ═══ CLOSED RING: one continuous circle, panels distributed ═══
     var wasG = el('g', {id:'mg-was'}, svg);
 
@@ -1534,6 +1587,139 @@ window.PtMembrane = function(deps) {
         prEl.setAttribute('x2', (cx + prLen * Math.cos(prAngle)).toFixed(1));
         prEl.setAttribute('y2', (cy + prLen * Math.sin(prAngle)).toFixed(1));
         prEl.setAttribute('stroke-opacity', (0.05 + prPulse * 0.08 * perturb).toFixed(3));
+      }
+    }
+
+    // ── Chemistry: H + H → He, H + H + O → H₂O ──
+    // Three particles orbit in the P-space lattice at coprime rates.
+    // Under pressure (near center), bonds form. Fusion glows.
+    // The chemistry IS the three-body problem made physical.
+    var chemOrbits = [
+      {id:'H1', orbR:R/3.2,  rate:PI/5,   phase:0},
+      {id:'H2', orbR:R/4.5,  rate:PI/8.3, phase:TAU/3},
+      {id:'O',  orbR:R/2.8,  rate:PI/13,  phase:TAU*2/3}
+    ];
+    var chemPos = [];
+    for (var chi = 0; chi < 3; chi++) {
+      var ce = chemOrbits[chi];
+      var chR = ce.orbR * (0.4 + 0.6 * perturb);
+      var chAngle = ce.phase + t * ce.rate;
+      // Pressure perturbation — bodies pull on the chemistry
+      var chPertX = 0, chPertY = 0;
+      for (var chbi = 0; chbi < bodyPositions.length; chbi++) {
+        var chDx = bodyPositions[chbi].x - cx;
+        var chDy = bodyPositions[chbi].y - cy;
+        chPertX += chDx * 0.05;
+        chPertY += chDy * 0.05;
+      }
+      var chx = cx + chR * Math.cos(chAngle) + chPertX;
+      var chy = cy + chR * Math.sin(chAngle) + chPertY;
+      chemPos.push({x:chx, y:chy});
+
+      var chDot = document.getElementById('mg-chem-' + ce.id);
+      if (chDot) {
+        chDot.setAttribute('cx', chx.toFixed(1));
+        chDot.setAttribute('cy', chy.toFixed(1));
+        chDot.setAttribute('opacity', (0.20 + 0.25 * perturb).toFixed(2));
+      }
+      var chLbl = document.getElementById('mg-chem-label-' + ce.id);
+      if (chLbl) {
+        chLbl.setAttribute('x', chx.toFixed(1));
+        chLbl.setAttribute('y', (chy - 6).toFixed(1));
+        chLbl.setAttribute('opacity', (0.12 + 0.15 * perturb).toFixed(2));
+      }
+    }
+
+    // Proximity: H1-H2, H1-O, H2-O
+    var dHH = Math.sqrt(Math.pow(chemPos[0].x - chemPos[1].x, 2) +
+                        Math.pow(chemPos[0].y - chemPos[1].y, 2));
+    var dH1O = Math.sqrt(Math.pow(chemPos[0].x - chemPos[2].x, 2) +
+                         Math.pow(chemPos[0].y - chemPos[2].y, 2));
+    var dH2O = Math.sqrt(Math.pow(chemPos[1].x - chemPos[2].x, 2) +
+                         Math.pow(chemPos[1].y - chemPos[2].y, 2));
+
+    // H-H bond (pre-fusion proximity)
+    var hhBond = document.getElementById('mg-bond-HH');
+    var fusionProx = Math.max(0, 1 - dHH / 45);
+    if (hhBond) {
+      hhBond.setAttribute('x1', chemPos[0].x.toFixed(1));
+      hhBond.setAttribute('y1', chemPos[0].y.toFixed(1));
+      hhBond.setAttribute('x2', chemPos[1].x.toFixed(1));
+      hhBond.setAttribute('y2', chemPos[1].y.toFixed(1));
+      hhBond.setAttribute('stroke-opacity', (fusionProx * 0.35).toFixed(3));
+    }
+
+    // He fusion indicator — glows when H+H are close
+    var heMx = (chemPos[0].x + chemPos[1].x) / 2;
+    var heMy = (chemPos[0].y + chemPos[1].y) / 2;
+    var heEl = document.getElementById('mg-chem-He');
+    if (heEl) {
+      heEl.setAttribute('cx', heMx.toFixed(1));
+      heEl.setAttribute('cy', heMy.toFixed(1));
+      heEl.setAttribute('opacity', (fusionProx * fusionProx * 0.6).toFixed(3));
+      heEl.setAttribute('r', (4 + fusionProx * 5).toFixed(1));
+    }
+    var heLbl = document.getElementById('mg-chem-label-He');
+    if (heLbl) {
+      heLbl.setAttribute('x', heMx.toFixed(1));
+      heLbl.setAttribute('y', (heMy - 10).toFixed(1));
+      heLbl.setAttribute('opacity', (fusionProx * fusionProx * 0.35).toFixed(3));
+    }
+
+    // H₂O bond formation — when both H's are near O
+    var waterProx = Math.min(
+      Math.max(0, 1 - dH1O / 55),
+      Math.max(0, 1 - dH2O / 55));
+    var bond1 = document.getElementById('mg-bond-HO1');
+    var bond2 = document.getElementById('mg-bond-HO2');
+    if (bond1) {
+      bond1.setAttribute('x1', chemPos[0].x.toFixed(1));
+      bond1.setAttribute('y1', chemPos[0].y.toFixed(1));
+      bond1.setAttribute('x2', chemPos[2].x.toFixed(1));
+      bond1.setAttribute('y2', chemPos[2].y.toFixed(1));
+      bond1.setAttribute('stroke-opacity', (waterProx * 0.45).toFixed(3));
+    }
+    if (bond2) {
+      bond2.setAttribute('x1', chemPos[1].x.toFixed(1));
+      bond2.setAttribute('y1', chemPos[1].y.toFixed(1));
+      bond2.setAttribute('x2', chemPos[2].x.toFixed(1));
+      bond2.setAttribute('y2', chemPos[2].y.toFixed(1));
+      bond2.setAttribute('stroke-opacity', (waterProx * 0.45).toFixed(3));
+    }
+
+    // H₂O label — appears when water forms
+    var h2oLbl = document.getElementById('mg-chem-label-H2O');
+    if (h2oLbl) {
+      h2oLbl.setAttribute('x', chemPos[2].x.toFixed(1));
+      h2oLbl.setAttribute('y', (chemPos[2].y + 12).toFixed(1));
+      h2oLbl.setAttribute('opacity', (waterProx * waterProx * 0.3).toFixed(3));
+    }
+
+    // Bond angle arc — show the 104.5° H-O-H angle when water forms
+    if (waterProx > 0.1) {
+      var aH1 = Math.atan2(chemPos[0].y - chemPos[2].y, chemPos[0].x - chemPos[2].x);
+      var aH2 = Math.atan2(chemPos[1].y - chemPos[2].y, chemPos[1].x - chemPos[2].x);
+      var bondAngleDeg = Math.abs(aH1 - aH2) * 180 / PI;
+      if (bondAngleDeg > 180) bondAngleDeg = 360 - bondAngleDeg;
+      var arcR = 8;
+      var arcPath = 'M ' +
+        (chemPos[2].x + arcR * Math.cos(aH1)).toFixed(1) + ' ' +
+        (chemPos[2].y + arcR * Math.sin(aH1)).toFixed(1) +
+        ' A ' + arcR + ' ' + arcR + ' 0 0 ' +
+        (aH2 > aH1 ? '1' : '0') + ' ' +
+        (chemPos[2].x + arcR * Math.cos(aH2)).toFixed(1) + ' ' +
+        (chemPos[2].y + arcR * Math.sin(aH2)).toFixed(1);
+      var bAngleEl = document.getElementById('mg-bond-angle');
+      if (bAngleEl) {
+        bAngleEl.setAttribute('d', arcPath);
+        bAngleEl.setAttribute('stroke-opacity', (waterProx * 0.3).toFixed(3));
+      }
+      var bAngleLbl = document.getElementById('mg-bond-angle-label');
+      if (bAngleLbl) {
+        bAngleLbl.setAttribute('x', (chemPos[2].x + 14 * Math.cos((aH1+aH2)/2)).toFixed(1));
+        bAngleLbl.setAttribute('y', (chemPos[2].y + 14 * Math.sin((aH1+aH2)/2)).toFixed(1));
+        bAngleLbl.textContent = bondAngleDeg.toFixed(1) + '\u00b0';
+        bAngleLbl.setAttribute('opacity', (waterProx * 0.2).toFixed(3));
       }
     }
 
