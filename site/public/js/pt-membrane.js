@@ -323,6 +323,30 @@ window.PtMembrane = function(deps) {
         id:'mg-tier-link-' + stci}, spineG);
     }
 
+    // ── Process verbs: scan → sweep → sort → fossilize → evolve ──
+    // The 5 actions that build reality at every tier.
+    // Each process spans 2 tiers of the chain (10 gaps / 5 = 2).
+    // scan at quark scale. sweep at fusion. sort at molecular.
+    // fossilize at cellular. evolve at planetary.
+    // When the wave passes through, the verb activates.
+    var PROCS = ['scan','sweep','sort','fossilize','evolve'];
+    var PROC_COLORS = ['#ffffff','#4a8fb8','#5ab87a','#f0e68c','#d2a8ff'];
+    for (var spi = 0; spi < 5; spi++) {
+      txt(spineG, cx, cy, PROCS[spi], PROC_COLORS[spi], 4,
+        {opacity:0.03, 'font-style':'italic', id:'mg-proc-' + spi});
+    }
+    // Evolution wave — the particle that climbs the chain
+    // One dot, from [∅]D to Oort, cycling. The scan head.
+    el('circle', {cx:cx, cy:cy, r:2.5,
+      fill:'#ffffff', opacity:0.08,
+      filter:'url(#mg-glow)', id:'mg-evo-wave'}, spineG);
+    // Wave trail — 3 fading dots behind the wave
+    for (var ewt = 0; ewt < 3; ewt++) {
+      el('circle', {cx:cx, cy:cy, r:1.5 - ewt * 0.4,
+        fill:'#c9d1d9', opacity:0.03,
+        id:'mg-evo-trail-' + ewt}, spineG);
+    }
+
     // ═══ INTERSTITIAL P-SPACE: the lattice of reality ═══
     // The grids and braids of data ARE the interstitial space.
     // Elements come to rest where secant crosses tangent — the docking sites.
@@ -1936,6 +1960,79 @@ window.PtMembrane = function(deps) {
     if (spNonEl) {
       spNonEl.setAttribute('d', 'M ' + spNonPts.join(' L '));
       spNonEl.setAttribute('stroke-opacity', (0.04 + 0.04 * perturb).toFixed(3));
+    }
+
+    // ── Evolution wave: scan → sweep → sort → fossilize → evolve ──
+    // One particle climbs from [∅]D to Oort, cycling every ~73 seconds.
+    // As it passes each process zone, that verb activates (brightens).
+    // The wave IS the observation moving through complexity.
+    var evoRate = 0.15; // climb speed — one tier per ~6.7s
+    var evoF = (t * evoRate) % 11; // fractional tier position [0..11)
+    var evoTierA = Math.floor(evoF);
+    var evoTierB = Math.min(evoTierA + 1, 10);
+    var evoLerp = evoF - evoTierA;
+
+    // Interpolate wave position between consecutive tier nodes
+    var evoR1 = TIER_FRACS[evoTierA] * R;
+    var evoR2 = TIER_FRACS[evoTierB] * R;
+    var evoA1 = spineAngle + evoTierA * PI / 5.5;
+    var evoA2 = spineAngle + evoTierB * PI / 5.5;
+    var evoR = evoR1 + (evoR2 - evoR1) * evoLerp;
+    var evoA = evoA1 + (evoA2 - evoA1) * evoLerp;
+    var evoX = cx + evoR * Math.cos(evoA);
+    var evoY = cy + evoR * Math.sin(evoA);
+
+    var evoWave = document.getElementById('mg-evo-wave');
+    if (evoWave) {
+      evoWave.setAttribute('cx', evoX.toFixed(1));
+      evoWave.setAttribute('cy', evoY.toFixed(1));
+      // Pulse brighter at tier crossings (when evoLerp near 0 or 1)
+      var evoPulse = 1 - Math.abs(evoLerp - 0.5) * 2; // 0 at edges, 1 at center
+      evoWave.setAttribute('opacity', (0.06 + 0.12 * perturb + 0.06 * evoPulse).toFixed(3));
+      evoWave.setAttribute('r', (2 + evoPulse * 1.5).toFixed(1));
+    }
+
+    // Wave trail — 3 fading dots trailing behind the wave
+    for (var ewti = 0; ewti < 3; ewti++) {
+      var ewtF = ((t * evoRate) - (ewti + 1) * 0.3 + 110) % 11;
+      var ewtTierA = Math.floor(ewtF);
+      var ewtTierB = Math.min(ewtTierA + 1, 10);
+      var ewtLerp = ewtF - ewtTierA;
+      var ewtR1 = TIER_FRACS[ewtTierA] * R;
+      var ewtR2 = TIER_FRACS[ewtTierB] * R;
+      var ewtA1 = spineAngle + ewtTierA * PI / 5.5;
+      var ewtA2 = spineAngle + ewtTierB * PI / 5.5;
+      var ewtR = ewtR1 + (ewtR2 - ewtR1) * ewtLerp;
+      var ewtA = ewtA1 + (ewtA2 - ewtA1) * ewtLerp;
+      var ewtEl = document.getElementById('mg-evo-trail-' + ewti);
+      if (ewtEl) {
+        ewtEl.setAttribute('cx', (cx + ewtR * Math.cos(ewtA)).toFixed(1));
+        ewtEl.setAttribute('cy', (cy + ewtR * Math.sin(ewtA)).toFixed(1));
+        ewtEl.setAttribute('opacity', (0.03 * (3 - ewti) / 3 * perturb).toFixed(3));
+      }
+    }
+
+    // Process verb labels — positioned at their zone midpoints
+    // scan: tiers 0-1 (quark scale). sweep: tiers 2-3 (fusion).
+    // sort: tiers 4-5 (molecular). fossilize: tiers 6-7 (cellular).
+    // evolve: tiers 8-9 (planetary). Tier 10 = Oort = boundary/wrap.
+    var PROC_COLS = ['#ffffff','#4a8fb8','#5ab87a','#f0e68c','#d2a8ff'];
+    for (var pvi = 0; pvi < 5; pvi++) {
+      var pvMidTier = pvi * 2 + 1; // midpoint tier for this process
+      var pvR = TIER_FRACS[pvMidTier] * R;
+      var pvA = spineAngle + pvMidTier * PI / 5.5 + PI / 11;
+      var pvX = cx + pvR * Math.cos(pvA);
+      var pvY = cy + pvR * Math.sin(pvA);
+      var pvEl = document.getElementById('mg-proc-' + pvi);
+      if (pvEl) {
+        pvEl.setAttribute('x', pvX.toFixed(1));
+        pvEl.setAttribute('y', pvY.toFixed(1));
+        // Brighten when evolution wave is in this process's zone
+        var pvActive = (evoF >= pvi * 2 && evoF < (pvi + 1) * 2) ? 1 : 0;
+        var pvOp = 0.03 + 0.15 * pvActive * perturb + 0.03 * perturb;
+        pvEl.setAttribute('opacity', pvOp.toFixed(3));
+        pvEl.setAttribute('fill', pvActive ? '#ffffff' : PROC_COLS[pvi]);
+      }
     }
 
     // ── Cones: triangular wedges pointing at [∅]D ──
