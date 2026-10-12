@@ -6352,10 +6352,10 @@
     },
     {
       "id": "chalena_beasley",
-      "label": "Dr. Chalena Beasley",
+      "label": "Dr. Chalena Yancey Beasley",
       "type": "actor",
-      "tier": 4,
-      "role": "PCA School Leader (principal). Ph.D. Educational Leadership, Wayne State. Cass Tech alum. Former principal Bunche Preparatory Academy. BEASLEY surname — same as Ahmed Beasley (Plante Moran SVP). Is the PCA principal related to the Plante Moran K-12 consultant?",
+      "tier": 1,
+      "role": "Principal (School Leader), Purpose Charter Academy. Born Chalena YANCEY. PhD Educational Leadership & Policy Studies, Wayne State University. SISTER of Judge Tenisha Yancey (36th District Court, MacDowell Board Chair). WIFE of Ahmed Beasley (SVP, Plante Moran Realpoint, K-12 Capital Projects). Daughter of Patricia Yancey and the late Wilbert Yancey. Brother: Julian Marshall. Children: Ashante', Camaria, Na'ima, Elijah. Grandchildren: Laila, Adrian, London. Former principal of Bunche Preparatory Academy (DPSCD). Cass Tech alumna. WMU BS, Marygrove MA, Wayne State PhD. National Board Certified Teacher. Actively reposts Banks' LinkedIn posts listing 'Brian Banks, J.D., Ph.D.' SOURCE: Wayne State dissertation dedication page.",
       "class": "entity",
       "classification": "null"
     },
@@ -38806,10 +38806,10 @@
     {
       "source": "chalena_beasley",
       "target": "beasley",
-      "type": "surname_match",
+      "type": "spouse_confirmed",
       "epistemic_status": "record",
-      "weight": 7,
-      "note": "BEASLEY surname. Ahmed Beasley is Plante Moran SVP for K-12 Capital Projects. Chalena Beasley is PCA principal. Are they related? Same surname at same school orbit.",
+      "weight": 10,
+      "note": "CONFIRMED MARRIED. Source: WSU dissertation dedication. Previously flagged as surname_match (null epitope). Now resolved.",
       "source_doc": "Plante Moran website + PCA website"
     },
     {
@@ -39900,6 +39900,69 @@
       "weight": 5,
       "note": "The 74 covers charter schools. Founded by WFF Education Director. PCA exists in the ecosystem The 74 covers and WFF funds.",
       "source_doc": "structural"
+    },
+    {
+      "source": "chalena_beasley",
+      "target": "yancey",
+      "type": "sister",
+      "epistemic_status": "record",
+      "weight": 10,
+      "note": "Chalena Yancey Beasley is Judge Tenisha Yancey's SISTER. Source: WSU dissertation dedication. 'My little big sister, Judge Tenisha Yancey raised the bar!'",
+      "source_doc": "digitalcommons.wayne.edu dissertation dedication"
+    },
+    {
+      "source": "chalena_beasley",
+      "target": "beasley",
+      "type": "spouse",
+      "epistemic_status": "record",
+      "weight": 10,
+      "note": "Chalena Beasley is MARRIED TO Ahmed Beasley (PMR SVP). Source: WSU dissertation dedication. 'My biggest cheerleader, my best friend and awesome husband, Ahmed Beasley.'",
+      "source_doc": "digitalcommons.wayne.edu dissertation dedication"
+    },
+    {
+      "source": "beasley",
+      "target": "yancey",
+      "type": "brother_in_law",
+      "epistemic_status": "record",
+      "weight": 9,
+      "note": "Ahmed Beasley is Judge Tenisha Yancey's BROTHER-IN-LAW. Married to her sister Chalena. The PMR SVP is family with the MacDowell Board Chair.",
+      "source_doc": "digitalcommons.wayne.edu dissertation dedication"
+    },
+    {
+      "source": "yancey",
+      "target": "pca",
+      "type": "sister_is_principal",
+      "epistemic_status": "record",
+      "weight": 9,
+      "note": "Judge Yancey's sister (Chalena) is principal of PCA. Yancey is Board Chair of MacDowell. Same felon (Banks) runs both schools.",
+      "source_doc": "purposecharteracademy.com, structural"
+    },
+    {
+      "source": "beasley",
+      "target": "pca",
+      "type": "wife_is_principal",
+      "epistemic_status": "record",
+      "weight": 9,
+      "note": "Ahmed Beasley's wife (Chalena) is principal of PCA. Beasley's employer (PM) audits DPSCD which authorizes PCA.",
+      "source_doc": "digitalcommons.wayne.edu, structural"
+    },
+    {
+      "source": "plante_moran",
+      "target": "yancey",
+      "type": "audit_conflict_family",
+      "epistemic_status": "record",
+      "weight": 9,
+      "note": "PM audits DPSCD. PM subsidiary employs Ahmed Beasley. Ahmed is married to Chalena. Chalena is Yancey's sister. Yancey is Board Chair of MacDowell (DPSCD-area school). FAMILY in the audit ecosystem.",
+      "source_doc": "structural"
+    },
+    {
+      "source": "purpose_group",
+      "target": "pca",
+      "type": "extraction_above_industry",
+      "epistemic_status": "record",
+      "weight": 9,
+      "note": "Purpose Group takes 72.67% of revenue. Industry average CMO fee: 7% (Education Next). EMO fee: 10-20%. KIPP: far less. 72.67% is 7-10x the national average. This is not a management fee. This is extraction.",
+      "source_doc": "educationnext.org, charterschooltools.org, CRPE"
     }
   ],
   "epistemic_grammar": {
