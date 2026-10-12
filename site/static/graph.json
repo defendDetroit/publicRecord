@@ -1298,8 +1298,9 @@
       "id": "burris",
       "label": "Carol Corbett Burris, Ed.D.",
       "type": "actor",
-      "tier": 3,
-      "role": "NPE Executive Director. $100K/yr. Replied-all to Banks: 'I have no idea who you are.' Her job is charter fraud."
+      "tier": 2,
+      "role": "NPE Executive Director. $100K/yr. Replied-all TWICE to charter fraud evidence chain (Banks, Crump-Gibson, UPL, MIAG on the thread): 'I have no idea who you are' then 'bye bye.' Her job is charter fraud. She chose complicity.",
+      "classification": "bad_actor"
     },
     {
       "id": "npe",
@@ -4539,10 +4540,10 @@
     {
       "source": "burris",
       "target": "banks",
-      "type": "inaction",
+      "type": "complicity",
       "epistemic_status": "record",
-      "note": "Oct 12, 2026: replied-all (to Banks + GLLG): 'I have no idea who you are but get me off your list.' Her org's mission is charter fraud investigation.",
-      "weight": 9,
+      "note": "Oct 12, 2026: Two reply-alls refusing evidence. Reply 1 (10:49 AM): 'I have no idea who you are but get me off your list.' Reply 2 (11:10 AM): 'bye bye.' Thread included Banks, Crump-Gibson, UPL, MIAG. Her org's mission is charter fraud investigation. Position + proof + refusal = complicity.",
+      "weight": 10,
       "source_doc": "Email from burriscarol@gmail.com, Oct 12, 2026 10:49 AM"
     },
     {
@@ -4562,6 +4563,15 @@
       "note": "NPE investigates charter fraud nationally. MacDowell: 3% math, $49.9M to LLC, 9-time felon superintendent.",
       "weight": 7,
       "source_doc": "NPE CSP waste reports; MacDowell financial records"
+    },
+    {
+      "source": "npe",
+      "target": "banks",
+      "type": "complicity",
+      "epistemic_status": "record",
+      "note": "NPE's ED (Burris) replied-all twice to charter fraud evidence involving Banks. NPE publishes reports on charter fraud. NPE's ED refused to engage with live charter fraud. Organizational complicity through leadership.",
+      "weight": 9,
+      "source_doc": "Emails Oct 12, 2026 10:49 AM + 11:10 AM"
     }
   ],
   "epistemic_grammar": {
