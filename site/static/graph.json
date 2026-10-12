@@ -37,13 +37,14 @@
       "label": "Chief Justice Megan K. Cavanagh",
       "type": "actor",
       "tier": 1,
-      "classification": "other",
+      "classification": "partial",
       "role": "MI Supreme Court Chief Justice (since 2019, CJ since Apr 2025). UMich Engineering + Wayne State Law. LIAISON TO AGC AND JTC. Former AGC member. Former SBM Appellate Practice Section Chair. She is the Supreme Court's direct connection to BOTH oversight bodies that refuse to act.",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.45,
+      "opacity": 0.45,
+      "sort_pass": 3,
+      "sort_method": "cascade_nonself",
+      "sort_note": "Governance/board connection to non-self (cascade)."
     },
     {
       "id": "agc",
@@ -68,11 +69,12 @@
       "tier": 1,
       "note": "300+ year old city. Mayor: Sheffield. Council President: Tate. Chief: Bettison.",
       "class": "entity",
-      "classification": "other",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "classification": "partial",
+      "confidence": 0.45,
+      "opacity": 0.45,
+      "sort_pass": 3,
+      "sort_method": "cascade_nonself",
+      "sort_note": "Governance/board connection to non-self (cascade)."
     },
     {
       "id": "jtc",
@@ -80,14 +82,14 @@
       "type": "entity",
       "entity_type": "Oversight body",
       "note": "Judicial Tenure Commission. 3034 W Grand Blvd Suite 8-350, Detroit MI 48202. (313) 875-5110. Budget: $2,944,500 (FY2026). 15 staff (13 attorneys, 2 admin). 9 commissioners (5 judges, 2 attorneys, 2 lay). Oct 12, 2026 11:07 AM: 'The Commission will no longer respond to your email messages.' 5 open RFIs. Constitutional mandate Art VI \u00a730. They chose silence.",
-      "classification": "self",
+      "classification": "partial",
       "tier": 1,
       "class": "entity",
-      "confidence": 0.6,
-      "opacity": 0.6,
-      "sort_pass": 2,
-      "sort_method": "inaction_target",
-      "sort_note": "Regulatory body that did not act on Banks."
+      "confidence": 0.45,
+      "opacity": 0.45,
+      "sort_pass": 3,
+      "sort_method": "cascade_nonself",
+      "sort_note": "Governance/board connection to non-self (cascade)."
     },
     {
       "id": "macdowell",
@@ -141,11 +143,11 @@
       "page": "/network/judges/adam-sabree/",
       "class": "entity",
       "classification": "other",
-      "confidence": 0.25,
-      "opacity": 0.25,
+      "confidence": 0.3,
+      "opacity": 0.3,
       "sort_pass": 3,
-      "sort_method": "insufficient",
-      "sort_note": "Too few edges."
+      "sort_method": "unresolved",
+      "sort_note": "Edge pattern unresolved."
     },
     {
       "label": "Betsy DeVos",
@@ -155,11 +157,11 @@
       "role": "Former Education Secretary, AFC chair",
       "class": "entity",
       "classification": "other",
-      "confidence": 0.25,
-      "opacity": 0.25,
+      "confidence": 0.4,
+      "opacity": 0.4,
       "sort_pass": 3,
-      "sort_method": "insufficient",
-      "sort_note": "Too few edges."
+      "sort_method": "funding",
+      "sort_note": "Funding entity. Insufficient evidence for sort."
     },
     {
       "id": "bettison",
@@ -168,12 +170,12 @@
       "tier": 2,
       "role": "DPD Chief + DPSA Board",
       "class": "entity",
-      "classification": "other",
-      "confidence": 0.3,
-      "opacity": 0.3,
+      "classification": "null",
+      "confidence": 0.45,
+      "opacity": 0.45,
       "sort_pass": 3,
-      "sort_method": "unresolved",
-      "sort_note": "Edge pattern unresolved."
+      "sort_method": "cascade_null",
+      "sort_note": "Formation/governance connection to null (cascade)."
     },
     {
       "id": "burris",
@@ -181,12 +183,13 @@
       "type": "actor",
       "tier": 2,
       "role": "NPE Executive Director. $100K/yr. Replied-all TWICE to charter fraud evidence chain (Banks, Crump-Gibson, UPL, MIAG on the thread): 'I have no idea who you are' then 'bye bye.' Her job is charter fraud. She chose complicity.",
-      "classification": "other",
+      "classification": "partial",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.45,
+      "opacity": 0.45,
+      "sort_pass": 3,
+      "sort_method": "cascade_nonself",
+      "sort_note": "Governance/board connection to non-self (cascade)."
     },
     {
       "id": "crump_gibson",
@@ -194,13 +197,13 @@
       "type": "actor",
       "tier": 2,
       "role": "Attorney representing Brian Banks (9 felony convictions) in custody case 26-108221-DC. ADB Hearing Panelist \u2014 sits on the body that disciplines attorneys while representing a 9-time felon at K-12 schools. GLLG principal. Confirmed in writing NOT retained for law enforcement matters. On Burris reply-all thread Oct 12. Previously assumed aligned \u2014 assumption revoked.",
-      "classification": "null",
+      "classification": "partial",
       "class": "entity",
-      "confidence": 0.65,
-      "opacity": 0.65,
+      "confidence": 0.55,
+      "opacity": 0.55,
       "sort_pass": 2,
-      "sort_method": "banks_legal",
-      "sort_note": "Legal infrastructure for Banks."
+      "sort_method": "school_employee",
+      "sort_note": "Employee of captured school."
     },
     {
       "id": "fiore",
@@ -209,12 +212,12 @@
       "tier": 2,
       "role": "Convicted bribery",
       "class": "entity",
-      "classification": "partial",
-      "confidence": 0.4,
-      "opacity": 0.4,
+      "classification": "other",
+      "confidence": 0.3,
+      "opacity": 0.3,
       "sort_pass": 3,
-      "sort_method": "cascade_adjacent",
-      "sort_note": "Low-edge entity adjacent to non-self."
+      "sort_method": "unresolved",
+      "sort_note": "Edge pattern unresolved."
     },
     {
       "id": "gordon",
@@ -238,12 +241,12 @@
       "role": "Judicial cover",
       "page": "/network/judges/kelly-ramsey/",
       "class": "entity",
-      "classification": "other",
-      "confidence": 0.25,
-      "opacity": 0.25,
-      "sort_pass": 3,
-      "sort_method": "insufficient",
-      "sort_note": "Too few edges."
+      "classification": "self",
+      "confidence": 0.7,
+      "opacity": 0.7,
+      "sort_pass": 2,
+      "sort_method": "court",
+      "sort_note": "Court or judicial entity."
     },
     {
       "id": "kwame",
@@ -253,12 +256,12 @@
       "role": "Mayor 2002-2008",
       "page": "/network/political/kilpatrick-dynasty/",
       "class": "entity",
-      "classification": "other",
-      "confidence": 0.3,
-      "opacity": 0.3,
-      "sort_pass": 3,
-      "sort_method": "unresolved",
-      "sort_note": "Edge pattern unresolved."
+      "classification": "null",
+      "confidence": 0.6,
+      "opacity": 0.6,
+      "sort_pass": 2,
+      "sort_method": "banks_political",
+      "sort_note": "Political connection to Banks."
     },
     {
       "id": "langford_morris",
@@ -283,11 +286,11 @@
       "role": "Inner Link Graphics owner",
       "class": "entity",
       "classification": "other",
-      "confidence": 0.25,
-      "opacity": 0.25,
+      "confidence": 0.3,
+      "opacity": 0.3,
       "sort_pass": 3,
-      "sort_method": "insufficient",
-      "sort_note": "Too few edges."
+      "sort_method": "unresolved",
+      "sort_note": "Edge pattern unresolved."
     },
     {
       "id": "miller",
@@ -339,11 +342,12 @@
       "tier": 2,
       "role": "Michigan Attorney General. Democrat. AG office oversees Corporate Oversight Division (Fowler). AG office where Goetz (AGC) worked (Drug Interdiction Unit). AG office where Cameron (JTC Vice-Chair) managed Criminal + Civil Rights Divisions.",
       "class": "entity",
-      "classification": "other",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "classification": "partial",
+      "confidence": 0.45,
+      "opacity": 0.45,
+      "sort_pass": 3,
+      "sort_method": "cascade_nonself",
+      "sort_note": "Governance/board connection to non-self (cascade)."
     },
     {
       "id": "perkins_david",
@@ -394,78 +398,84 @@
       "label": "Justice Richard H. Bernstein",
       "type": "actor",
       "tier": 2,
-      "classification": "other",
+      "classification": "self",
       "role": "MI Supreme Court Justice (since 2015). Northwestern Law. First blind justice on MI Supreme Court. Term exp Jan 1, 2031.",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.4,
+      "opacity": 0.4,
+      "sort_pass": 3,
+      "sort_method": "cascade_self",
+      "sort_note": "Low-edge entity adjacent to self."
     },
     {
       "id": "sc_bolden",
       "label": "Justice Kyra Harris Bolden",
       "type": "actor",
       "tier": 2,
-      "classification": "other",
+      "classification": "self",
       "role": "MI Supreme Court Justice (since 2023). U of D Mercy Law. Southfield. Appointed by Whitmer. Term exp Jan 1, 2029. NOTE: Same law school as Zahra, Ryan (JTC), Willis (AGC), Linville (AGC).",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.4,
+      "opacity": 0.4,
+      "sort_pass": 3,
+      "sort_method": "cascade_self",
+      "sort_note": "Low-edge entity adjacent to self."
     },
     {
       "id": "sc_hood",
       "label": "Justice Noah P. Hood",
       "type": "actor",
       "tier": 2,
-      "classification": "other",
+      "classification": "self",
       "role": "MI Supreme Court Justice (appointed May 2025). Harvard Law. Detroit. Former Court of Appeals. Appointed by Whitmer. Term exp Jan 1, 2027.",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.4,
+      "opacity": 0.4,
+      "sort_pass": 3,
+      "sort_method": "cascade_self",
+      "sort_note": "Low-edge entity adjacent to self."
     },
     {
       "id": "sc_thomas",
       "label": "Justice Kimberly A. Thomas",
       "type": "actor",
       "tier": 2,
-      "classification": "other",
+      "classification": "self",
       "role": "MI Supreme Court Justice (since 2025). Harvard Law. Ann Arbor. Term exp Jan 1, 2033.",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.4,
+      "opacity": 0.4,
+      "sort_pass": 3,
+      "sort_method": "cascade_self",
+      "sort_note": "Low-edge entity adjacent to self."
     },
     {
       "id": "sc_welch",
       "label": "Justice Elizabeth M. Welch",
       "type": "actor",
       "tier": 2,
-      "classification": "other",
+      "classification": "self",
       "role": "MI Supreme Court Justice (since 2021). Ohio State Law. Grand Rapids. Term exp Jan 1, 2029.",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.4,
+      "opacity": 0.4,
+      "sort_pass": 3,
+      "sort_method": "cascade_self",
+      "sort_note": "Low-edge entity adjacent to self."
     },
     {
       "id": "sc_zahra",
       "label": "Justice Brian K. Zahra",
       "type": "actor",
       "tier": 2,
-      "classification": "other",
+      "classification": "self",
       "role": "MI Supreme Court Justice (since 2011). U of D Mercy Law. Appointed by Rick Snyder. Republican. Term exp Jan 1, 2031. NOTE: Same law school as Thomas Ryan (JTC Chair), Willis (AGC), Linville (AGC).",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.4,
+      "opacity": 0.4,
+      "sort_pass": 3,
+      "sort_method": "cascade_self",
+      "sort_note": "Low-edge entity adjacent to self."
     },
     {
       "id": "sean_perkins",
@@ -475,12 +485,12 @@
       "role": "Judicial cover",
       "page": "/network/judges/sean-perkins/",
       "class": "entity",
-      "classification": "other",
-      "confidence": 0.3,
-      "opacity": 0.3,
-      "sort_pass": 3,
-      "sort_method": "unresolved",
-      "sort_note": "Edge pattern unresolved."
+      "classification": "partial",
+      "confidence": 0.55,
+      "opacity": 0.55,
+      "sort_pass": 2,
+      "sort_method": "school_employee",
+      "sort_note": "Employee of captured school."
     },
     {
       "id": "sheffield",
@@ -518,12 +528,12 @@
       "role": "Judicial cover \u00e2\u20ac\u201d mentor",
       "page": "/network/judges/vonda-evans/",
       "class": "entity",
-      "classification": "other",
-      "confidence": 0.25,
-      "opacity": 0.25,
-      "sort_pass": 3,
-      "sort_method": "insufficient",
-      "sort_note": "Too few edges."
+      "classification": "self",
+      "confidence": 0.7,
+      "opacity": 0.7,
+      "sort_pass": 2,
+      "sort_method": "court",
+      "sort_note": "Court or judicial entity."
     },
     {
       "id": "wilk",
@@ -562,11 +572,12 @@
       "tier": 2,
       "note": "$455M budget. 2,500 officers. Chief: Todd Bettison. State's largest municipal PD.",
       "class": "entity",
-      "classification": "other",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "classification": "partial",
+      "confidence": 0.55,
+      "opacity": 0.55,
+      "sort_pass": 2,
+      "sort_method": "school_employee",
+      "sort_note": "Employee of captured school."
     },
     {
       "id": "dpscd",
@@ -634,12 +645,12 @@
       "note": "8 elected members. Constitutional (Art VIII \u00a73). Oversees authorizers. Meets Oct 13, 2026.",
       "tier": 2,
       "class": "entity",
-      "classification": "self",
-      "confidence": 0.75,
-      "opacity": 0.75,
+      "classification": "partial",
+      "confidence": 0.55,
+      "opacity": 0.55,
       "sort_pass": 2,
-      "sort_method": "state_entity",
-      "sort_note": "State government entity."
+      "sort_method": "board_of_nonself",
+      "sort_note": "Board member of non-self entity."
     },
     {
       "id": "sbm",
@@ -649,11 +660,12 @@
       "note": "306 Townsend St, Lansing MI 48933. (517) 346-6300. Mandatory bar association. Houses UPL Dept. Board of Commissioners governs. UPL closed file Sep 30 pointing to AGC. AGC returned filing Oct 1 pointing to UPL. Referral loop.",
       "tier": 2,
       "class": "entity",
-      "classification": "other",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "classification": "partial",
+      "confidence": 0.45,
+      "opacity": 0.45,
+      "sort_pass": 3,
+      "sort_method": "cascade_nonself",
+      "sort_note": "Governance/board connection to non-self (cascade)."
     },
     {
       "id": "upl_dept",
@@ -678,12 +690,12 @@
       "role": "Walmart heirs' education philanthropy",
       "tier": 2,
       "class": "entity",
-      "classification": "other",
-      "confidence": 0.4,
-      "opacity": 0.4,
+      "classification": "null",
+      "confidence": 0.45,
+      "opacity": 0.45,
       "sort_pass": 3,
-      "sort_method": "funding",
-      "sort_note": "Funding entity. Insufficient evidence for sort."
+      "sort_method": "cascade_null",
+      "sort_note": "Formation/governance connection to null (cascade)."
     },
     {
       "id": "wayne_county",
@@ -693,11 +705,12 @@
       "tier": 2,
       "note": "Largest county in Michigan. Home to Detroit. 3rd Circuit Court jurisdiction.",
       "class": "entity",
-      "classification": "other",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "classification": "partial",
+      "confidence": 0.45,
+      "opacity": 0.45,
+      "sort_pass": 3,
+      "sort_method": "cascade_nonself",
+      "sort_note": "Governance/board connection to non-self (cascade)."
     },
     {
       "id": "court_36th",
@@ -730,52 +743,56 @@
       "label": "Kathleen Hickey",
       "type": "actor",
       "tier": 3,
-      "classification": "other",
+      "classification": "partial",
       "role": "AGC Chairperson. Represents lenders in loan originations. CLE presenter on commercial loan docs.",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.45,
+      "opacity": 0.45,
+      "sort_pass": 3,
+      "sort_method": "cascade_nonself",
+      "sort_note": "Governance/board connection to non-self (cascade)."
     },
     {
       "id": "agc_janes",
       "label": "J. Paul Janes",
       "type": "actor",
       "tier": 3,
-      "classification": "other",
+      "classification": "self",
       "role": "AGC Commissioner (former Vice-Chair). Attorney member.",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.4,
+      "opacity": 0.4,
+      "sort_pass": 3,
+      "sort_method": "cascade_self",
+      "sort_note": "Low-edge entity adjacent to self."
     },
     {
       "id": "agc_pahany",
       "label": "Alexander Pahany",
       "type": "actor",
       "tier": 3,
-      "classification": "other",
+      "classification": "self",
       "role": "AGC Commissioner. Huron County Bar Association president. Interned for Hon. Daniel P. Ryan, 3rd Circuit Court Wayne County. Criminal defense attorney Wayne County. Private practice Abu Dhabi. Appointed Oct 2023.",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.4,
+      "opacity": 0.4,
+      "sort_pass": 3,
+      "sort_method": "cascade_self",
+      "sort_note": "Low-edge entity adjacent to self."
     },
     {
       "id": "agc_prasad",
       "label": "Anjali Prasad",
       "type": "actor",
       "tier": 3,
-      "classification": "other",
+      "classification": "self",
       "role": "AGC Commissioner. Attorney member.",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.4,
+      "opacity": 0.4,
+      "sort_pass": 3,
+      "sort_method": "cascade_self",
+      "sort_note": "Low-edge entity adjacent to self."
     },
     {
       "id": "agc_robinson",
@@ -785,36 +802,39 @@
       "classification": "other",
       "role": "AGC Vice-Chairperson. Senior Asst Public Defender, Muskegon Co (14th Circuit). WMU (PoliSci/CrimJ) \u2192 Thomas M. Cooley Law. Youth mentor 'Aspiring Ladies of Law.' NOTE: Cooley Law connection \u2014 JTC's Patrick Corbett taught there 15 years.",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.3,
+      "opacity": 0.3,
+      "sort_pass": 3,
+      "sort_method": "unresolved",
+      "sort_note": "Edge pattern unresolved."
     },
     {
       "id": "agc_swedlow",
       "label": "Kathryn Swedlow",
       "type": "actor",
       "tier": 3,
-      "classification": "other",
+      "classification": "self",
       "role": "AGC Commissioner. Attorney, SADO Criminal Defense Resource Center. CUNY Law. CDAM Justice for All Award recipient.",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.4,
+      "opacity": 0.4,
+      "sort_pass": 3,
+      "sort_method": "cascade_self",
+      "sort_note": "Low-edge entity adjacent to self."
     },
     {
       "id": "agc_wassef",
       "label": "Samy Y. Wassef, MD",
       "type": "actor",
       "tier": 3,
-      "classification": "other",
+      "classification": "self",
       "role": "AGC Commissioner (non-lawyer). Chair of Psychiatry, Henry Ford Health-Jackson. Substance Abuse Programs director. Health Professionals Recovery Program, Lawyers & Judges Assistance Program provider. Cairo University \u2192 Henry Ford residency.",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.4,
+      "opacity": 0.4,
+      "sort_pass": 3,
+      "sort_method": "cascade_self",
+      "sort_note": "Low-edge entity adjacent to self."
     },
     {
       "id": "agc_willis",
@@ -824,10 +844,11 @@
       "classification": "other",
       "role": "AGC Commissioner (former Chair 2023). Lead Attorney, Wayne County Prosecutor's Mortgage and Deed Fraud Unit. WMU \u2192 U of D Mercy Law. NOTE: Wayne County Prosecutor's \u2014 same office as Glenn Page (JTC interim ED).",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.3,
+      "opacity": 0.3,
+      "sort_pass": 3,
+      "sort_method": "unresolved",
+      "sort_note": "Edge pattern unresolved."
     },
     {
       "id": "archer",
@@ -836,12 +857,12 @@
       "tier": 3,
       "role": "Mayor 1994-2001",
       "class": "entity",
-      "classification": "other",
-      "confidence": 0.3,
-      "opacity": 0.3,
+      "classification": "null",
+      "confidence": 0.45,
+      "opacity": 0.45,
       "sort_pass": 3,
-      "sort_method": "unresolved",
-      "sort_note": "Edge pattern unresolved."
+      "sort_method": "cascade_null",
+      "sort_note": "Formation/governance connection to null (cascade)."
     },
     {
       "id": "barrett",
@@ -864,11 +885,12 @@
       "tier": 3,
       "role": "Founding School Leader, PCA. PhD Wayne State ELPS 2023. 29yr DPSCD veteran. Principal Bunche Prep. NBCT. BS WMU, MA Marygrove, PhD Wayne State. Sister of Judge Tenisha Yancey. Husband Ahmed Beasley. Most credentialed person in Banks enterprise.",
       "class": "actor",
-      "classification": "other",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "classification": "partial",
+      "confidence": 0.55,
+      "opacity": 0.55,
+      "sort_pass": 2,
+      "sort_method": "school_employee",
+      "sort_note": "Employee of captured school."
     },
     {
       "id": "bert_johnson",
@@ -876,12 +898,13 @@
       "type": "actor",
       "tier": 3,
       "role": "Former MI State Senator. CHOJLF. CBC Foundation. Convicted 2022 bribery. Banks political ally.",
-      "classification": "other",
+      "classification": "null",
       "class": "actor",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.6,
+      "opacity": 0.6,
+      "sort_pass": 2,
+      "sort_method": "banks_political",
+      "sort_note": "Political connection to Banks."
     },
     {
       "id": "bullington",
@@ -960,11 +983,12 @@
       "tier": 3,
       "role": "Detroit City Council President Pro Tem. At-large. Grandson of Mayor Coleman Young (1974-1993). Political dynasty.",
       "class": "entity",
-      "classification": "other",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "classification": "null",
+      "confidence": 0.45,
+      "opacity": 0.45,
+      "sort_pass": 3,
+      "sort_method": "cascade_null",
+      "sort_note": "Formation/governance connection to null (cascade)."
     },
     {
       "id": "daniels",
@@ -1001,11 +1025,12 @@
       "tier": 3,
       "role": "Michigan Governor 1991-2003. Signed charter school law (PA 362) Jan 14, 1994. Republican. Proposed charter schools Oct 5, 1993 in joint session speech. His law created the framework that CMU, PCA, and MacDowell operate under.",
       "class": "entity",
-      "classification": "other",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "classification": "self",
+      "confidence": 0.4,
+      "opacity": 0.4,
+      "sort_pass": 3,
+      "sort_method": "cascade_self",
+      "sort_note": "Low-edge entity adjacent to self."
     },
     {
       "id": "eric_sabree",
@@ -1015,12 +1040,12 @@
       "role": "Political enabler \u00e2\u20ac\u201d family dynasty",
       "page": "/network/political/eric-sabree/",
       "class": "entity",
-      "classification": "self",
-      "confidence": 0.4,
-      "opacity": 0.4,
+      "classification": "other",
+      "confidence": 0.3,
+      "opacity": 0.3,
       "sort_pass": 3,
-      "sort_method": "cascade_self",
-      "sort_note": "Low-edge entity adjacent to self."
+      "sort_method": "unresolved",
+      "sort_note": "Edge pattern unresolved."
     },
     {
       "id": "evans",
@@ -1058,12 +1083,12 @@
       "tier": 3,
       "role": "AGC Grievance Administrator (Sep 2019). Former Senior AAG, Criminal Div Drug Interdiction. MSU 1983, DCL 1988.",
       "class": "entity",
-      "classification": "self",
-      "confidence": 0.4,
-      "opacity": 0.4,
+      "classification": "partial",
+      "confidence": 0.45,
+      "opacity": 0.45,
       "sort_pass": 3,
-      "sort_method": "cascade_self",
-      "sort_note": "Low-edge entity adjacent to self."
+      "sort_method": "cascade_nonself",
+      "sort_note": "Governance/board connection to non-self (cascade)."
     },
     {
       "id": "henri_harmon",
@@ -1154,13 +1179,14 @@
       "label": "Hon. Monte J. Burmeister",
       "type": "actor",
       "tier": 3,
-      "classification": "other",
+      "classification": "self",
       "role": "JTC Commissioner. Judge.",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.7,
+      "opacity": 0.7,
+      "sort_pass": 2,
+      "sort_method": "court",
+      "sort_note": "Court or judicial entity."
     },
     {
       "id": "jtc_cain",
@@ -1170,75 +1196,81 @@
       "classification": "other",
       "role": "JTC Commissioner. Lay member.",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.3,
+      "opacity": 0.3,
+      "sort_pass": 3,
+      "sort_method": "unresolved",
+      "sort_note": "Edge pattern unresolved."
     },
     {
       "id": "jtc_cameron",
       "label": "Hon. Thomas C. Cameron",
       "type": "actor",
       "tier": 3,
-      "classification": "other",
+      "classification": "self",
       "role": "JTC Vice-Chair. Court of Appeals judge. Former Wayne County Circuit. Former AG office: Criminal Division, Civil Rights Division, Corrections, Alcohol & Gambling. Federalist Society member. Adjunct professor (con law, crim law).",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.7,
+      "opacity": 0.7,
+      "sort_pass": 2,
+      "sort_method": "court",
+      "sort_note": "Court or judicial entity."
     },
     {
       "id": "jtc_cortes",
       "label": "Hon. Pablo Cortes",
       "type": "actor",
       "tier": 3,
-      "classification": "other",
+      "classification": "self",
       "role": "JTC Commissioner. Judge.",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.7,
+      "opacity": 0.7,
+      "sort_pass": 2,
+      "sort_method": "court",
+      "sort_note": "Court or judicial entity."
     },
     {
       "id": "jtc_ison",
       "label": "Dawn N. Ison, Esq.",
       "type": "actor",
       "tier": 3,
-      "classification": "other",
+      "classification": "partial",
       "role": "JTC Commissioner. Former AUSA Eastern District MI \u2014 PUBLIC CORRUPTION UNIT. 19 years as federal prosecutor. Spelman College, Wayne State Law. Daughter of Detroit, DPS graduate. On JTC since Jul 21, 2025. Term expires Dec 31, 2026. The public corruption prosecutor sits on the body that refuses to investigate judicial corruption.",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.45,
+      "opacity": 0.45,
+      "sort_pass": 3,
+      "sort_method": "cascade_nonself",
+      "sort_note": "Governance/board connection to non-self (cascade)."
     },
     {
       "id": "jtc_jaafar",
       "label": "Siham Awada Jaafar",
       "type": "actor",
       "tier": 3,
-      "classification": "other",
+      "classification": "self",
       "role": "JTC Commissioner. Lay member.",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.4,
+      "opacity": 0.4,
+      "sort_pass": 3,
+      "sort_method": "cascade_self",
+      "sort_note": "Low-edge entity adjacent to self."
     },
     {
       "id": "jtc_lillard",
       "label": "Hon. Qiana D. Lillard",
       "type": "actor",
       "tier": 3,
-      "classification": "other",
+      "classification": "self",
       "role": "JTC Commissioner. Judge.",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.7,
+      "opacity": 0.7,
+      "sort_pass": 2,
+      "sort_method": "court",
+      "sort_note": "Court or judicial entity."
     },
     {
       "id": "jtc_sullivan",
@@ -1248,10 +1280,11 @@
       "classification": "other",
       "role": "JTC Secretary.",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.3,
+      "opacity": 0.3,
+      "sort_pass": 3,
+      "sort_method": "unresolved",
+      "sort_note": "Edge pattern unresolved."
     },
     {
       "id": "keith_stallworth",
@@ -1259,12 +1292,13 @@
       "type": "actor",
       "tier": 3,
       "role": "Stallworth dynasty. State Rep HD-6. Banks campaign ally. Political fixer.",
-      "classification": "other",
+      "classification": "null",
       "class": "actor",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.6,
+      "opacity": 0.6,
+      "sort_pass": 2,
+      "sort_method": "banks_political",
+      "sort_note": "Political connection to Banks."
     },
     {
       "id": "kym_worthy",
@@ -1273,11 +1307,12 @@
       "tier": 3,
       "role": "Wayne County Prosecutor since 2004. Term through Jan 1, 2029. Championed rape kit testing (thousands of kits found 2009, hundreds of convictions). The county prosecutor with jurisdiction over PCA and Banks.",
       "class": "entity",
-      "classification": "other",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "classification": "partial",
+      "confidence": 0.45,
+      "opacity": 0.45,
+      "sort_pass": 3,
+      "sort_method": "cascade_nonself",
+      "sort_note": "Governance/board connection to non-self (cascade)."
     },
     {
       "id": "leach",
@@ -1299,12 +1334,13 @@
       "type": "actor",
       "tier": 3,
       "role": "MI Superintendent of Public Instruction (Dec 2025). SBE Chair. PhD Wayne State ELPS (same dept as Beasley/Hill). Former Dearborn Supt.",
-      "classification": "other",
+      "classification": "partial",
       "class": "actor",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.45,
+      "opacity": 0.45,
+      "sort_pass": 3,
+      "sort_method": "cascade_nonself",
+      "sort_note": "Governance/board connection to non-self (cascade)."
     },
     {
       "id": "mckinney",
@@ -1343,10 +1379,11 @@
       "role": "Wayne County Sheriff. Appointed 2021, reelected 2024 (69% vote).",
       "class": "entity",
       "classification": "other",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.3,
+      "opacity": 0.3,
+      "sort_pass": 3,
+      "sort_method": "unresolved",
+      "sort_note": "Edge pattern unresolved."
     },
     {
       "id": "renae_moore",
@@ -1369,38 +1406,40 @@
       "type": "actor",
       "role": "Journalist, Black Star Network founder",
       "class": "entity",
-      "classification": "other",
-      "confidence": 0.4,
-      "opacity": 0.4,
+      "classification": "null",
+      "confidence": 0.45,
+      "opacity": 0.45,
       "sort_pass": 3,
-      "sort_method": "funding",
-      "sort_note": "Funding entity. Insufficient evidence for sort."
+      "sort_method": "cascade_null",
+      "sort_note": "Formation/governance connection to null (cascade)."
     },
     {
       "id": "sbm_bryant",
       "label": "Erika L. Bryant",
       "type": "actor",
       "tier": 3,
-      "classification": "other",
+      "classification": "self",
       "role": "SBM President 2026-2027. Butler Davis PLLC, Detroit. District H (Wayne/Monroe/Lenawee).",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.4,
+      "opacity": 0.4,
+      "sort_pass": 3,
+      "sort_method": "cascade_self",
+      "sort_note": "Low-edge entity adjacent to self."
     },
     {
       "id": "sbm_burrell",
       "label": "Aaron V. Burrell",
       "type": "actor",
       "tier": 3,
-      "classification": "other",
+      "classification": "null",
       "role": "SBM Secretary. Dickinson Wright PLLC, Detroit. District H.",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.45,
+      "opacity": 0.45,
+      "sort_pass": 3,
+      "sort_method": "cascade_null",
+      "sort_note": "Formation/governance connection to null (cascade)."
     },
     {
       "id": "sbm_d_anderson",
@@ -1410,10 +1449,11 @@
       "classification": "other",
       "role": "SBM Vice President. Collins Einhorn Farrell PC, Southfield. District I (Oakland).",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.3,
+      "opacity": 0.3,
+      "sort_pass": 3,
+      "sort_method": "unresolved",
+      "sort_note": "Edge pattern unresolved."
     },
     {
       "id": "sbm_howlett",
@@ -1423,23 +1463,25 @@
       "classification": "other",
       "role": "SBM President-Elect. Googasian Firm PC, Bloomfield Hills. District I (Oakland Co).",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.3,
+      "opacity": 0.3,
+      "sort_pass": 3,
+      "sort_method": "unresolved",
+      "sort_note": "Edge pattern unresolved."
     },
     {
       "id": "sbm_larsen",
       "label": "Suzanne C. Larsen",
       "type": "actor",
       "tier": 3,
-      "classification": "other",
+      "classification": "self",
       "role": "SBM Treasurer. City of Marquette attorney. District A.",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.4,
+      "opacity": 0.4,
+      "sort_pass": 3,
+      "sort_method": "cascade_self",
+      "sort_note": "Low-edge entity adjacent to self."
     },
     {
       "id": "sheila_cockrel",
@@ -1491,36 +1533,39 @@
       "role": "Detroit City Council President (since Jan 5, 2026). District 1. On Council since 2010. Former Deputy Chief, Detroit Police. Former Emmy-winning assignment editor, WXYZ-TV.",
       "class": "entity",
       "classification": "other",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.3,
+      "opacity": 0.3,
+      "sort_pass": 3,
+      "sort_method": "unresolved",
+      "sort_note": "Edge pattern unresolved."
     },
     {
       "id": "upl_cadotte",
       "label": "Courtney Eugene Cadotte",
       "type": "actor",
       "tier": 3,
-      "classification": "other",
+      "classification": "partial",
       "role": "UPL Committee Chair. Legal Services of Northern Michigan, Gaylord. P79099.",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.45,
+      "opacity": 0.45,
+      "sort_pass": 3,
+      "sort_method": "cascade_nonself",
+      "sort_note": "Governance/board connection to non-self (cascade)."
     },
     {
       "id": "upl_kejbou",
       "label": "Dalia Rasha Kejbou",
       "type": "actor",
       "tier": 3,
-      "classification": "other",
+      "classification": "self",
       "role": "UPL Committee Vice-Chair. Bloomfield Hills. P63428.",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.4,
+      "opacity": 0.4,
+      "sort_pass": 3,
+      "sort_method": "cascade_self",
+      "sort_note": "Low-edge entity adjacent to self."
     },
     {
       "id": "vaughn",
@@ -1543,12 +1588,12 @@
       "tier": 3,
       "role": "DPSCD Superintendent. PCA authorized under his watch (Jul 2025).",
       "class": "entity",
-      "classification": "other",
-      "confidence": 0.25,
-      "opacity": 0.25,
+      "classification": "partial",
+      "confidence": 0.45,
+      "opacity": 0.45,
       "sort_pass": 3,
-      "sort_method": "insufficient",
-      "sort_note": "Too few edges."
+      "sort_method": "cascade_nonself",
+      "sort_note": "Governance/board connection to non-self (cascade)."
     },
     {
       "id": "wells_stallworth",
@@ -1571,12 +1616,12 @@
       "type": "actor",
       "role": "NAACP Detroit Branch president",
       "class": "entity",
-      "classification": "other",
-      "confidence": 0.25,
-      "opacity": 0.25,
-      "sort_pass": 3,
-      "sort_method": "insufficient",
-      "sort_note": "Too few edges."
+      "classification": "null",
+      "confidence": 0.6,
+      "opacity": 0.6,
+      "sort_pass": 2,
+      "sort_method": "banks_political",
+      "sort_note": "Political connection to Banks."
     },
     {
       "label": "American Federation for Children",
@@ -1587,11 +1632,11 @@
       "tier": 3,
       "class": "entity",
       "classification": "other",
-      "confidence": 0.3,
-      "opacity": 0.3,
+      "confidence": 0.4,
+      "opacity": 0.4,
       "sort_pass": 3,
-      "sort_method": "unresolved",
-      "sort_note": "Edge pattern unresolved."
+      "sort_method": "funding",
+      "sort_note": "Funding entity. Insufficient evidence for sort."
     },
     {
       "id": "ag_charitable_trust",
@@ -1599,12 +1644,13 @@
       "type": "entity",
       "tier": 3,
       "role": "MI AG Charitable Trust Section. Registers/oversees 13,000+ charitable orgs. RESPONDED 12:19 PM Oct 12 \u2014 complaint received, pending review, 30-45 days. ct_email@michigan.gov. Phone 517-335-7571.",
-      "classification": "other",
+      "classification": "self",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.75,
+      "opacity": 0.75,
+      "sort_pass": 2,
+      "sort_method": "investigator",
+      "sort_note": "Entity investigating Banks."
     },
     {
       "id": "charter_law_1993",
@@ -1614,11 +1660,12 @@
       "note": "Public Act 362, signed Jan 14 1994 (passed Dec 3 1993). Part 6A Revised School Code. Authorized universities, community colleges, ISDs, and local districts to charter PSAs. Constitutional challenge 1994, Supreme Court upheld 1997. THE law that enables everything: CMU authorization, MacDowell, PCA, all of it.",
       "tier": 3,
       "class": "entity",
-      "classification": "other",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "classification": "partial",
+      "confidence": 0.45,
+      "opacity": 0.45,
+      "sort_pass": 3,
+      "sort_method": "cascade_nonself",
+      "sort_note": "Governance/board connection to non-self (cascade)."
     },
     {
       "id": "dykema",
@@ -1639,12 +1686,13 @@
       "type": "entity",
       "tier": 3,
       "role": "MDE Office of Educator Excellence \u2014 Professional Practice unit. Criminal convictions + K-12 employment. Fingerprinting. Revocations. RESPONDED 12:19 PM Oct 12. MDE-Professional-Practice@Michigan.gov. Director: Kelli Brozanski (brozanskik@michigan.gov).",
-      "classification": "other",
+      "classification": "self",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.75,
+      "opacity": 0.75,
+      "sort_pass": 2,
+      "sort_method": "investigator",
+      "sort_note": "Entity investigating Banks."
     },
     {
       "id": "msu",
@@ -1655,10 +1703,11 @@
       "tier": 3,
       "class": "entity",
       "classification": "other",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.3,
+      "opacity": 0.3,
+      "sort_pass": 3,
+      "sort_method": "unresolved",
+      "sort_note": "Edge pattern unresolved."
     },
     {
       "id": "npe",
@@ -1668,11 +1717,12 @@
       "note": "EIN 35-2532243. $1.4M assets. $314K rev (2024). 225 E 36th St Apt 10-O, NYC. 1.9 employees. Founded by Diane Ravitch 2013.",
       "tier": 3,
       "class": "entity",
-      "classification": "other",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "classification": "partial",
+      "confidence": 0.45,
+      "opacity": 0.45,
+      "sort_pass": 3,
+      "sort_method": "cascade_nonself",
+      "sort_note": "Governance/board connection to non-self (cascade)."
     },
     {
       "id": "purpose_group",
@@ -1697,12 +1747,12 @@
       "role": "Walton-funded education journalism",
       "tier": 3,
       "class": "entity",
-      "classification": "other",
-      "confidence": 0.4,
-      "opacity": 0.4,
+      "classification": "null",
+      "confidence": 0.45,
+      "opacity": 0.45,
       "sort_pass": 3,
-      "sort_method": "funding",
-      "sort_note": "Funding entity. Insufficient evidence for sort."
+      "sort_method": "cascade_null",
+      "sort_note": "Formation/governance connection to null (cascade)."
     },
     {
       "id": "state_mi",
@@ -1728,8 +1778,8 @@
       "confidence": 0.75,
       "opacity": 0.75,
       "sort_pass": 2,
-      "sort_method": "state_entity",
-      "sort_note": "State government entity."
+      "sort_method": "investigator",
+      "sort_note": "Entity investigating Banks."
     },
     {
       "label": "MSU College of Law",
@@ -1764,130 +1814,140 @@
       "label": "Austin D. Blessing-Nelson",
       "type": "actor",
       "tier": 4,
-      "classification": "other",
+      "classification": "self",
       "role": "AGC Associate Counsel.",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.4,
+      "opacity": 0.4,
+      "sort_pass": 3,
+      "sort_method": "cascade_self",
+      "sort_note": "Low-edge entity adjacent to self."
     },
     {
       "id": "agc_bowen",
       "label": "Mary A. Bowen",
       "type": "actor",
       "tier": 4,
-      "classification": "other",
+      "classification": "self",
       "role": "AGC Associate Counsel AND SBM Representative Assembly Clerk (term exp 2029). Dual role: works for AGC, governs State Bar. Troy office.",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.4,
+      "opacity": 0.4,
+      "sort_pass": 3,
+      "sort_method": "cascade_self",
+      "sort_note": "Low-edge entity adjacent to self."
     },
     {
       "id": "agc_burgess",
       "label": "Yulanda Burgess",
       "type": "actor",
       "tier": 4,
-      "classification": "other",
+      "classification": "self",
       "role": "AGC Investigative Specialist.",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.4,
+      "opacity": 0.4,
+      "sort_pass": 3,
+      "sort_method": "cascade_self",
+      "sort_note": "Low-edge entity adjacent to self."
     },
     {
       "id": "agc_downey",
       "label": "Emily A. Downey",
       "type": "actor",
       "tier": 4,
-      "classification": "other",
+      "classification": "self",
       "role": "AGC Senior Associate Counsel.",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.4,
+      "opacity": 0.4,
+      "sort_pass": 3,
+      "sort_method": "cascade_self",
+      "sort_note": "Low-edge entity adjacent to self."
     },
     {
       "id": "agc_fernandez",
       "label": "Kristin E. Fernandez",
       "type": "actor",
       "tier": 4,
-      "classification": "other",
+      "classification": "self",
       "role": "AGC Associate Counsel.",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.4,
+      "opacity": 0.4,
+      "sort_pass": 3,
+      "sort_method": "cascade_self",
+      "sort_note": "Low-edge entity adjacent to self."
     },
     {
       "id": "agc_fleming",
       "label": "Caitlin O. Fleming",
       "type": "actor",
       "tier": 4,
-      "classification": "other",
+      "classification": "self",
       "role": "AGC Associate Counsel.",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.4,
+      "opacity": 0.4,
+      "sort_pass": 3,
+      "sort_method": "cascade_self",
+      "sort_note": "Low-edge entity adjacent to self."
     },
     {
       "id": "agc_frazee",
       "label": "Kenneth E. Frazee III",
       "type": "actor",
       "tier": 4,
-      "classification": "other",
+      "classification": "self",
       "role": "AGC Senior Associate Counsel. MSU.",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.4,
+      "opacity": 0.4,
+      "sort_pass": 3,
+      "sort_method": "cascade_self",
+      "sort_note": "Low-edge entity adjacent to self."
     },
     {
       "id": "agc_g_leach",
       "label": "Graham Leach",
       "type": "actor",
       "tier": 4,
-      "classification": "other",
+      "classification": "self",
       "role": "AGC Associate Counsel.",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.4,
+      "opacity": 0.4,
+      "sort_pass": 3,
+      "sort_method": "cascade_self",
+      "sort_note": "Low-edge entity adjacent to self."
     },
     {
       "id": "agc_jaafar",
       "label": "Gina M. Jaafar",
       "type": "actor",
       "tier": 4,
-      "classification": "other",
+      "classification": "self",
       "role": "AGC Office Manager. SURNAME MATCH: Siham Awada Jaafar (JTC Commissioner). Same surname across AGC and JTC \u2014 two oversight bodies with one family name.",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.4,
+      "opacity": 0.4,
+      "sort_pass": 3,
+      "sort_method": "cascade_self",
+      "sort_note": "Low-edge entity adjacent to self."
     },
     {
       "id": "agc_lindsey",
       "label": "Sarah C. Lindsey",
       "type": "actor",
       "tier": 4,
-      "classification": "other",
+      "classification": "self",
       "role": "AGC General Counsel.",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.4,
+      "opacity": 0.4,
+      "sort_pass": 3,
+      "sort_method": "cascade_self",
+      "sort_note": "Low-edge entity adjacent to self."
     },
     {
       "id": "agc_linville",
@@ -1897,49 +1957,53 @@
       "classification": "other",
       "role": "AGC Senior Associate Counsel. UMich \u2192 U of D Mercy Law. Former Asst Prosecutor. Former criminal defense.",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.3,
+      "opacity": 0.3,
+      "sort_pass": 3,
+      "sort_method": "unresolved",
+      "sort_note": "Edge pattern unresolved."
     },
     {
       "id": "agc_mazur",
       "label": "Michael K. Mazur",
       "type": "actor",
       "tier": 4,
-      "classification": "other",
+      "classification": "self",
       "role": "AGC Senior Associate Counsel. MSU.",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.4,
+      "opacity": 0.4,
+      "sort_pass": 3,
+      "sort_method": "cascade_self",
+      "sort_note": "Low-edge entity adjacent to self."
     },
     {
       "id": "agc_miciuda",
       "label": "Jason Miciuda",
       "type": "actor",
       "tier": 4,
-      "classification": "other",
+      "classification": "self",
       "role": "AGC Investigator.",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.4,
+      "opacity": 0.4,
+      "sort_pass": 3,
+      "sort_method": "cascade_self",
+      "sort_note": "Low-edge entity adjacent to self."
     },
     {
       "id": "agc_morgan",
       "label": "Cora L. Morgan",
       "type": "actor",
       "tier": 4,
-      "classification": "other",
+      "classification": "self",
       "role": "AGC Senior Associate Counsel.",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.4,
+      "opacity": 0.4,
+      "sort_pass": 3,
+      "sort_method": "cascade_self",
+      "sort_note": "Low-edge entity adjacent to self."
     },
     {
       "id": "ahmed_beasley",
@@ -1949,10 +2013,11 @@
       "role": "SVP Plante Moran Realpoint. K-12 construction management. 17yr Barton Malow (K-12 projects). BS Civil Engineering, Lawrence Tech. Husband of Dr. Chalena Beasley (PCA School Leader). Mentors at-risk youth via Winning Futures. Wife runs a school. He builds schools for Michigan's largest K-12 districts.",
       "classification": "other",
       "class": "actor",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.3,
+      "opacity": 0.3,
+      "sort_pass": 3,
+      "sort_method": "unresolved",
+      "sort_note": "Edge pattern unresolved."
     },
     {
       "id": "alan_young",
@@ -1962,11 +2027,11 @@
       "role": "Auditor",
       "class": "entity",
       "classification": "partial",
-      "confidence": 0.4,
-      "opacity": 0.4,
-      "sort_pass": 3,
-      "sort_method": "cascade_adjacent",
-      "sort_note": "Low-edge entity adjacent to non-self."
+      "confidence": 0.55,
+      "opacity": 0.55,
+      "sort_pass": 2,
+      "sort_method": "school_employee",
+      "sort_note": "Employee of captured school."
     },
     {
       "label": "Alice Thompson",
@@ -1975,12 +2040,12 @@
       "type": "actor",
       "role": "Hope Academy charter leader",
       "class": "entity",
-      "classification": "other",
-      "confidence": 0.4,
-      "opacity": 0.4,
-      "sort_pass": 3,
-      "sort_method": "funding",
-      "sort_note": "Funding entity. Insufficient evidence for sort."
+      "classification": "null",
+      "confidence": 0.6,
+      "opacity": 0.6,
+      "sort_pass": 2,
+      "sort_method": "banks_political",
+      "sort_note": "Political connection to Banks."
     },
     {
       "id": "alma_stallworth",
@@ -1988,12 +2053,13 @@
       "type": "actor",
       "tier": 4,
       "role": "Stallworth dynasty matriarch. Former State Rep HD-6. Mother of Keith, Thomas. CHOJLF connection.",
-      "classification": "other",
+      "classification": "null",
       "class": "actor",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.6,
+      "opacity": 0.6,
+      "sort_pass": 2,
+      "sort_method": "banks_political",
+      "sort_note": "Political connection to Banks."
     },
     {
       "id": "archer_jr",
@@ -2002,12 +2068,12 @@
       "tier": 4,
       "role": "CitizenDetroit Director \u00e2\u20ac\u201d dynasty",
       "class": "entity",
-      "classification": "other",
-      "confidence": 0.3,
-      "opacity": 0.3,
+      "classification": "null",
+      "confidence": 0.45,
+      "opacity": 0.45,
       "sort_pass": 3,
-      "sort_method": "unresolved",
-      "sort_note": "Edge pattern unresolved."
+      "sort_method": "cascade_null",
+      "sort_note": "Formation/governance connection to null (cascade)."
     },
     {
       "id": "cameron_coleman",
@@ -2016,11 +2082,12 @@
       "tier": 4,
       "role": "MacDowell. DPSCD.",
       "class": "entity",
-      "classification": "other",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "classification": "partial",
+      "confidence": 0.55,
+      "opacity": 0.55,
+      "sort_pass": 2,
+      "sort_method": "school_employee",
+      "sort_note": "Employee of captured school."
     },
     {
       "label": "Campbell Brown",
@@ -2043,11 +2110,12 @@
       "tier": 4,
       "role": "MacDowell staff/connection.",
       "class": "entity",
-      "classification": "other",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "classification": "partial",
+      "confidence": 0.55,
+      "opacity": 0.55,
+      "sort_pass": 2,
+      "sort_method": "school_employee",
+      "sort_note": "Employee of captured school."
     },
     {
       "id": "cockrel_jr",
@@ -2057,10 +2125,11 @@
       "role": "Detroit Mayor (acting) Sep 2008-May 2009 after Kwame resigned. City Council President. Father Kenneth Cockrel Sr. was radical labor attorney.",
       "class": "entity",
       "classification": "other",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.3,
+      "opacity": 0.3,
+      "sort_pass": 3,
+      "sort_method": "unresolved",
+      "sort_note": "Edge pattern unresolved."
     },
     {
       "id": "duggan",
@@ -2082,12 +2151,13 @@
       "type": "actor",
       "tier": 4,
       "role": "Detroit corruption figure. Wiretap target list. Federal investigation.",
-      "classification": "other",
+      "classification": "partial",
       "class": "actor",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.4,
+      "opacity": 0.4,
+      "sort_pass": 3,
+      "sort_method": "cascade_adjacent",
+      "sort_note": "Low-edge entity adjacent to non-self."
     },
     {
       "id": "glenn_page",
@@ -2096,12 +2166,12 @@
       "tier": 4,
       "role": "JTC Interim ED (Feb 2026). Returned from retirement. Former Wayne County asst prosecutor. Bar 1980.",
       "class": "entity",
-      "classification": "self",
-      "confidence": 0.4,
-      "opacity": 0.4,
+      "classification": "partial",
+      "confidence": 0.45,
+      "opacity": 0.45,
       "sort_pass": 3,
-      "sort_method": "cascade_self",
-      "sort_note": "Low-edge entity adjacent to self."
+      "sort_method": "cascade_nonself",
+      "sort_note": "Governance/board connection to non-self (cascade)."
     },
     {
       "id": "jason_perry_pca",
@@ -2110,11 +2180,12 @@
       "tier": 4,
       "role": "PCA staff/administrator.",
       "class": "entity",
-      "classification": "other",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "classification": "partial",
+      "confidence": 0.55,
+      "opacity": 0.55,
+      "sort_pass": 2,
+      "sort_method": "school_employee",
+      "sort_note": "Employee of captured school."
     },
     {
       "id": "jennifer_crump",
@@ -2123,11 +2194,12 @@
       "tier": 4,
       "role": "MacDowell board. DPSCD. Crump surname dynasty \u2014 Jehan, V. Hall, Jennifer.",
       "class": "entity",
-      "classification": "other",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "classification": "partial",
+      "confidence": 0.55,
+      "opacity": 0.55,
+      "sort_pass": 2,
+      "sort_method": "school_employee",
+      "sort_note": "Employee of captured school."
     },
     {
       "id": "john_james",
@@ -2151,10 +2223,11 @@
       "role": "Walton family member. Pioneer of charter school philanthropy. Launched WFF charter grants 1997. Co-created Charter School Growth Fund 2005. Died June 2005 plane crash. His vision shapes the entire pipeline.",
       "class": "entity",
       "classification": "other",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.3,
+      "opacity": 0.3,
+      "sort_pass": 3,
+      "sort_method": "unresolved",
+      "sort_note": "Edge pattern unresolved."
     },
     {
       "id": "jtc_corbett",
@@ -2164,23 +2237,25 @@
       "classification": "other",
       "role": "JTC Staff Attorney (part-time, joined Oct 2025). Former AUSA 20+ years, Eastern District MI. Professor of Criminal Law, Thomas M. Cooley Law School (15 years). Former AG office, Deputy Chief High Tech Crime Unit. Bar since 1987.",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.3,
+      "opacity": 0.3,
+      "sort_pass": 3,
+      "sort_method": "unresolved",
+      "sort_note": "Edge pattern unresolved."
     },
     {
       "id": "jtc_corbin",
       "label": "Camellalynette Corbin",
       "type": "actor",
       "tier": 4,
-      "classification": "other",
+      "classification": "self",
       "role": "JTC Office Manager.",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.4,
+      "opacity": 0.4,
+      "sort_pass": 3,
+      "sort_method": "cascade_self",
+      "sort_note": "Low-edge entity adjacent to self."
     },
     {
       "id": "jtc_dajani",
@@ -2190,10 +2265,11 @@
       "classification": "other",
       "role": "JTC Staff Attorney.",
       "class": "entity",
-      "confidence": 0.0,
+      "confidence": 0.25,
       "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "sort_pass": 3,
+      "sort_method": "insufficient",
+      "sort_note": "Too few edges."
     },
     {
       "id": "jtc_flowers",
@@ -2203,10 +2279,11 @@
       "classification": "other",
       "role": "JTC Administrative Assistant.",
       "class": "entity",
-      "confidence": 0.0,
+      "confidence": 0.25,
       "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "sort_pass": 3,
+      "sort_method": "insufficient",
+      "sort_note": "Too few edges."
     },
     {
       "id": "jtc_haffey",
@@ -2216,10 +2293,11 @@
       "classification": "other",
       "role": "JTC Staff Attorney.",
       "class": "entity",
-      "confidence": 0.0,
+      "confidence": 0.25,
       "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "sort_pass": 3,
+      "sort_method": "insufficient",
+      "sort_note": "Too few edges."
     },
     {
       "id": "jtc_helland",
@@ -2229,10 +2307,11 @@
       "classification": "other",
       "role": "Former JTC Executive Director and General Counsel (Feb 2017 \u2013 Jan 2026). Retired. Page replaced him as interim.",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.3,
+      "opacity": 0.3,
+      "sort_pass": 3,
+      "sort_method": "unresolved",
+      "sort_note": "Edge pattern unresolved."
     },
     {
       "id": "jtc_hoard",
@@ -2242,10 +2321,11 @@
       "classification": "other",
       "role": "JTC Staff Attorney.",
       "class": "entity",
-      "confidence": 0.0,
+      "confidence": 0.25,
       "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "sort_pass": 3,
+      "sort_method": "insufficient",
+      "sort_note": "Too few edges."
     },
     {
       "id": "jtc_jurva_brinn",
@@ -2255,10 +2335,11 @@
       "classification": "other",
       "role": "JTC Staff Attorney.",
       "class": "entity",
-      "confidence": 0.0,
+      "confidence": 0.25,
       "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "sort_pass": 3,
+      "sort_method": "insufficient",
+      "sort_note": "Too few edges."
     },
     {
       "id": "jtc_kalec",
@@ -2268,10 +2349,11 @@
       "classification": "other",
       "role": "JTC Staff Attorney.",
       "class": "entity",
-      "confidence": 0.0,
+      "confidence": 0.25,
       "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "sort_pass": 3,
+      "sort_method": "insufficient",
+      "sort_note": "Too few edges."
     },
     {
       "id": "jtc_kettler",
@@ -2281,10 +2363,11 @@
       "classification": "other",
       "role": "JTC Staff Attorney.",
       "class": "entity",
-      "confidence": 0.0,
+      "confidence": 0.25,
       "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "sort_pass": 3,
+      "sort_method": "insufficient",
+      "sort_note": "Too few edges."
     },
     {
       "id": "jtc_m_johnson",
@@ -2294,10 +2377,11 @@
       "classification": "other",
       "role": "JTC Staff Attorney.",
       "class": "entity",
-      "confidence": 0.0,
+      "confidence": 0.25,
       "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "sort_pass": 3,
+      "sort_method": "insufficient",
+      "sort_note": "Too few edges."
     },
     {
       "id": "jtc_poirier",
@@ -2307,10 +2391,11 @@
       "classification": "other",
       "role": "JTC Staff Attorney (joined March 2026). 35 years private practice, complex commercial litigation, Chicago + metro Detroit. Bar: IL since 1991, MI since 2001.",
       "class": "entity",
-      "confidence": 0.0,
+      "confidence": 0.25,
       "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "sort_pass": 3,
+      "sort_method": "insufficient",
+      "sort_note": "Too few edges."
     },
     {
       "id": "jtc_rynier",
@@ -2320,10 +2405,11 @@
       "classification": "other",
       "role": "JTC Staff Attorney.",
       "class": "entity",
-      "confidence": 0.0,
+      "confidence": 0.25,
       "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "sort_pass": 3,
+      "sort_method": "insufficient",
+      "sort_note": "Too few edges."
     },
     {
       "id": "jtc_swastek",
@@ -2333,10 +2419,11 @@
       "classification": "other",
       "role": "JTC Administrative Counsel. On staff since Aug 1997 \u2014 29 YEARS. Private practice: business litigation, legal/accounting malpractice defense. Bar since 1989.",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.3,
+      "opacity": 0.3,
+      "sort_pass": 3,
+      "sort_method": "unresolved",
+      "sort_note": "Edge pattern unresolved."
     },
     {
       "id": "jtc_uppal",
@@ -2346,10 +2433,11 @@
       "classification": "other",
       "role": "JTC Staff Attorney.",
       "class": "entity",
-      "confidence": 0.0,
+      "confidence": 0.25,
       "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "sort_pass": 3,
+      "sort_method": "insufficient",
+      "sort_note": "Too few edges."
     },
     {
       "id": "latisha_johnson_cc",
@@ -2358,11 +2446,12 @@
       "tier": 4,
       "role": "Detroit City Council District 4. Chandler Park, East English Village, Jefferson Chalmers. NOTE: PCA is in or near District 4 jurisdiction.",
       "class": "entity",
-      "classification": "other",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "classification": "null",
+      "confidence": 0.45,
+      "opacity": 0.45,
+      "sort_pass": 3,
+      "sort_method": "cascade_null",
+      "sort_note": "Formation/governance connection to null (cascade)."
     },
     {
       "id": "lenhoff",
@@ -2372,10 +2461,11 @@
       "role": "Wayne State prof, ELPS. Director Detroit PEER. Beasley dissertation committee. Charter school/choice researcher. Skillman funded.",
       "classification": "other",
       "class": "actor",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.3,
+      "opacity": 0.3,
+      "sort_pass": 3,
+      "sort_method": "unresolved",
+      "sort_note": "Edge pattern unresolved."
     },
     {
       "id": "mccastle",
@@ -2411,25 +2501,27 @@
       "type": "actor",
       "tier": 4,
       "role": "WXYZ (Ch 7) investigative journalist. Covered Banks/charter school story. ross.jones@wxyz.com.",
-      "classification": "other",
+      "classification": "self",
       "class": "actor",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.75,
+      "opacity": 0.75,
+      "sort_pass": 2,
+      "sort_method": "investigator",
+      "sort_note": "Entity investigating Banks."
     },
     {
       "id": "sbm_clay",
       "label": "Hon. Ponce D. Clay",
       "type": "actor",
       "tier": 4,
-      "classification": "other",
+      "classification": "partial",
       "role": "SBM Commissioner District H. 36th District Court judge, Detroit. Term exp 2029.",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.45,
+      "opacity": 0.45,
+      "sort_pass": 3,
+      "sort_method": "cascade_nonself",
+      "sort_note": "Governance/board connection to non-self (cascade)."
     },
     {
       "id": "sbm_dwalton",
@@ -2439,10 +2531,11 @@
       "classification": "other",
       "role": "SBM Commissioner District B (Genesee/Saginaw/etc). Genesee County Prosecutor's Office, Flint. Term exp 2029.",
       "class": "entity",
-      "confidence": 0.0,
+      "confidence": 0.25,
       "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "sort_pass": 3,
+      "sort_method": "insufficient",
+      "sort_note": "Too few edges."
     },
     {
       "id": "schmiedeknecht",
@@ -2467,11 +2560,11 @@
       "role": "SBE member (R-Goodrich). Confirmed positive actor. Responded 13 min. EMU grad. Nurse. Disability advocate.",
       "class": "entity",
       "classification": "self",
-      "confidence": 0.4,
-      "opacity": 0.4,
-      "sort_pass": 3,
-      "sort_method": "cascade_self",
-      "sort_note": "Low-edge entity adjacent to self."
+      "confidence": 0.75,
+      "opacity": 0.75,
+      "sort_pass": 2,
+      "sort_method": "investigator",
+      "sort_note": "Entity investigating Banks."
     },
     {
       "id": "thomas_ryan",
@@ -2480,12 +2573,12 @@
       "tier": 4,
       "role": "JTC Commission Chair (2026). Attorney.",
       "class": "entity",
-      "classification": "self",
-      "confidence": 0.4,
-      "opacity": 0.4,
+      "classification": "partial",
+      "confidence": 0.45,
+      "opacity": 0.45,
       "sort_pass": 3,
-      "sort_method": "cascade_self",
-      "sort_note": "Low-edge entity adjacent to self."
+      "sort_method": "cascade_nonself",
+      "sort_note": "Governance/board connection to non-self (cascade)."
     },
     {
       "id": "todd_perkins",
@@ -2524,7 +2617,21 @@
       "tier": 4,
       "role": "AGC Deputy Administrator. MSU magna cum laude, DePaul JD. High-profile misconduct prosecutions.",
       "class": "entity",
+      "classification": "other",
+      "confidence": 0.3,
+      "opacity": 0.3,
+      "sort_pass": 3,
+      "sort_method": "unresolved",
+      "sort_note": "Edge pattern unresolved."
+    },
+    {
+      "id": "upl_brauckmuller",
+      "label": "Howard H. Brauckmuller",
+      "type": "actor",
+      "tier": 4,
       "classification": "self",
+      "role": "UPL Committee member. Sterling Heights.",
+      "class": "entity",
       "confidence": 0.4,
       "opacity": 0.4,
       "sort_pass": 3,
@@ -2532,108 +2639,102 @@
       "sort_note": "Low-edge entity adjacent to self."
     },
     {
-      "id": "upl_brauckmuller",
-      "label": "Howard H. Brauckmuller",
-      "type": "actor",
-      "tier": 4,
-      "classification": "other",
-      "role": "UPL Committee member. Sterling Heights.",
-      "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
-    },
-    {
       "id": "upl_celentino",
       "label": "Marie Sayaka Celentino",
       "type": "actor",
       "tier": 4,
-      "classification": "other",
+      "classification": "self",
       "role": "UPL Committee member. Detroit.",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.4,
+      "opacity": 0.4,
+      "sort_pass": 3,
+      "sort_method": "cascade_self",
+      "sort_note": "Low-edge entity adjacent to self."
     },
     {
       "id": "upl_colombo",
       "label": "Carly Frances Colombo Reher",
       "type": "actor",
       "tier": 4,
-      "classification": "other",
+      "classification": "self",
       "role": "UPL Committee member. Austin TX.",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.4,
+      "opacity": 0.4,
+      "sort_pass": 3,
+      "sort_method": "cascade_self",
+      "sort_note": "Low-edge entity adjacent to self."
     },
     {
       "id": "upl_garwood",
       "label": "Hon. Tamara Ann Garwood",
       "type": "actor",
       "tier": 4,
-      "classification": "other",
+      "classification": "self",
       "role": "UPL Committee member. Judge. Ann Arbor.",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.7,
+      "opacity": 0.7,
+      "sort_pass": 2,
+      "sort_method": "court",
+      "sort_note": "Court or judicial entity."
     },
     {
       "id": "upl_griffin",
       "label": "Sasha N. Griffin",
       "type": "actor",
       "tier": 4,
-      "classification": "other",
+      "classification": "self",
       "role": "UPL Committee member. Detroit.",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.4,
+      "opacity": 0.4,
+      "sort_pass": 3,
+      "sort_method": "cascade_self",
+      "sort_note": "Low-edge entity adjacent to self."
     },
     {
       "id": "upl_moilanen",
       "label": "Philip M. Moilanen",
       "type": "actor",
       "tier": 4,
-      "classification": "other",
+      "classification": "self",
       "role": "UPL Committee member. Jackson.",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.4,
+      "opacity": 0.4,
+      "sort_pass": 3,
+      "sort_method": "cascade_self",
+      "sort_note": "Low-edge entity adjacent to self."
     },
     {
       "id": "upl_palacios",
       "label": "Emily C. Palacios",
       "type": "actor",
       "tier": 4,
-      "classification": "other",
+      "classification": "self",
       "role": "UPL Committee member. Kalamazoo.",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.4,
+      "opacity": 0.4,
+      "sort_pass": 3,
+      "sort_method": "cascade_self",
+      "sort_note": "Low-edge entity adjacent to self."
     },
     {
       "id": "upl_riordan",
       "label": "Meghan Kennedy Riordan",
       "type": "actor",
       "tier": 4,
-      "classification": "other",
+      "classification": "self",
       "role": "UPL Committee member. Detroit.",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.4,
+      "opacity": 0.4,
+      "sort_pass": 3,
+      "sort_method": "cascade_self",
+      "sort_note": "Low-edge entity adjacent to self."
     },
     {
       "id": "virgil_smith",
@@ -2641,12 +2742,13 @@
       "type": "actor",
       "tier": 4,
       "role": "Former MI State Senator. Convicted shooting at ex-wife's car 2015. Detroit political network.",
-      "classification": "other",
+      "classification": "null",
       "class": "actor",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.45,
+      "opacity": 0.45,
+      "sort_pass": 3,
+      "sort_method": "cascade_null",
+      "sort_note": "Formation/governance connection to null (cascade)."
     },
     {
       "id": "advance_detroit",
@@ -2654,12 +2756,13 @@
       "type": "entity",
       "tier": 4,
       "role": "Political committee. Detroit elections. Banks campaign infrastructure.",
-      "classification": "other",
+      "classification": "null",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.6,
+      "opacity": 0.6,
+      "sort_pass": 2,
+      "sort_method": "banks_political",
+      "sort_note": "Political connection to Banks."
     },
     {
       "id": "afc_growth",
@@ -2726,10 +2829,11 @@
       "role": "Multiple Banks-network actors credentialed here. Miller, Moreland connections.",
       "classification": "other",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.3,
+      "opacity": 0.3,
+      "sort_pass": 3,
+      "sort_method": "unresolved",
+      "sort_note": "Edge pattern unresolved."
     },
     {
       "id": "banks_living_trust",
@@ -2737,12 +2841,13 @@
       "type": "entity",
       "tier": 4,
       "role": "Banks personal trust. Property/asset holding vehicle. GPW property.",
-      "classification": "other",
+      "classification": "null",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.75,
+      "opacity": 0.75,
+      "sort_pass": 2,
+      "sort_method": "banks_ownership",
+      "sort_note": "Entity owned by Banks."
     },
     {
       "id": "black_caucus_found",
@@ -2750,12 +2855,13 @@
       "type": "entity",
       "tier": 4,
       "role": "CBC Foundation. Stallworth dynasty. Bert Johnson. Political network hub.",
-      "classification": "other",
+      "classification": "null",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.6,
+      "opacity": 0.6,
+      "sort_pass": 2,
+      "sort_method": "banks_political",
+      "sort_note": "Political connection to Banks."
     },
     {
       "id": "bunche_prep",
@@ -2765,10 +2871,11 @@
       "role": "DPSCD K-8. Beasley was principal 2021-2025. Ralph J. Bunche school.",
       "classification": "other",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.3,
+      "opacity": 0.3,
+      "sort_pass": 3,
+      "sort_method": "unresolved",
+      "sort_note": "Edge pattern unresolved."
     },
     {
       "id": "cmu",
@@ -2791,10 +2898,11 @@
       "role": "Detroit Partnership for Education Equity & Research. Wayne State. DPSCD data-sharing. Skillman + Spencer funded.",
       "classification": "other",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.4,
+      "opacity": 0.4,
+      "sort_pass": 3,
+      "sort_method": "funding",
+      "sort_note": "Funding entity. Insufficient evidence for sort."
     },
     {
       "label": "Dick & Betsy DeVos Family Foundation",
@@ -2861,10 +2969,11 @@
       "role": "DeVos-funded policy org. Pro-charter. School choice advocacy.",
       "classification": "other",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.4,
+      "opacity": 0.4,
+      "sort_pass": 3,
+      "sort_method": "funding",
+      "sort_note": "Funding entity. Insufficient evidence for sort."
     },
     {
       "id": "metro_property",
@@ -2874,10 +2983,11 @@
       "role": "Real estate group. Eric Sabree was counsel. Adam Sabree connection. Detroit RE corruption.",
       "classification": "other",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.3,
+      "opacity": 0.3,
+      "sort_pass": 3,
+      "sort_method": "unresolved",
+      "sort_note": "Edge pattern unresolved."
     },
     {
       "id": "nuvision_inc",
@@ -2929,12 +3039,13 @@
       "type": "entity",
       "tier": 4,
       "role": "Todd Perkins' law firm. Banks' personal attorney. Same family as Judge Sean Perkins (36th DC).",
-      "classification": "other",
+      "classification": "null",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.65,
+      "opacity": 0.65,
+      "sort_pass": 2,
+      "sort_method": "banks_legal",
+      "sort_note": "Legal infrastructure for Banks."
     },
     {
       "id": "plante_moran",
@@ -2944,10 +3055,11 @@
       "role": "Construction/program management firm. Ahmed Beasley is SVP. K-12 public sector clients. Southfield, MI.",
       "classification": "other",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.3,
+      "opacity": 0.3,
+      "sort_pass": 3,
+      "sort_method": "unresolved",
+      "sort_note": "Edge pattern unresolved."
     },
     {
       "id": "promise_schools",
@@ -2955,12 +3067,13 @@
       "type": "entity",
       "tier": 4,
       "role": "Charter school network. Banks adjacent. Detroit charter ecosystem.",
-      "classification": "other",
+      "classification": "partial",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.4,
+      "opacity": 0.4,
+      "sort_pass": 3,
+      "sort_method": "cascade_adjacent",
+      "sort_note": "Low-edge entity adjacent to non-self."
     },
     {
       "id": "right_turn",
@@ -2985,12 +3098,12 @@
       "note": "10-city tour. Co-produced by Nu Vision Media + The 74. National partners: AFC, EdChoice, ExcelinEd, NACPS, UNCF, Walton. Walton gave $350K (2020).",
       "tier": 4,
       "class": "entity",
-      "classification": "other",
-      "confidence": 0.4,
-      "opacity": 0.4,
+      "classification": "null",
+      "confidence": 0.45,
+      "opacity": 0.45,
       "sort_pass": 3,
-      "sort_method": "funding",
-      "sort_note": "Funding entity. Insufficient evidence for sort."
+      "sort_method": "cascade_null",
+      "sort_note": "Formation/governance connection to null (cascade)."
     },
     {
       "id": "sdj",
@@ -3016,10 +3129,11 @@
       "tier": 4,
       "class": "entity",
       "classification": "other",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.3,
+      "opacity": 0.3,
+      "sort_pass": 3,
+      "sort_method": "unresolved",
+      "sort_note": "Edge pattern unresolved."
     },
     {
       "id": "wayne_co_pa",
@@ -3030,10 +3144,11 @@
       "tier": 4,
       "class": "entity",
       "classification": "other",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.3,
+      "opacity": 0.3,
+      "sort_pass": 3,
+      "sort_method": "unresolved",
+      "sort_note": "Edge pattern unresolved."
     },
     {
       "id": "wayne_resa",
@@ -3043,10 +3158,11 @@
       "role": "Wayne Regional Educational Service Agency. Technical assistance to 33 districts + 100 PSAs. Beasley and Hill both alumni.",
       "classification": "other",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.3,
+      "opacity": 0.3,
+      "sort_pass": 3,
+      "sort_method": "unresolved",
+      "sort_note": "Edge pattern unresolved."
     },
     {
       "id": "wayne_state_law",
@@ -3057,10 +3173,11 @@
       "tier": 4,
       "class": "entity",
       "classification": "other",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.3,
+      "opacity": 0.3,
+      "sort_pass": 3,
+      "sort_method": "unresolved",
+      "sort_note": "Edge pattern unresolved."
     },
     {
       "id": "whitlowbanks",
@@ -3085,10 +3202,11 @@
       "tier": 4,
       "class": "entity",
       "classification": "other",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.3,
+      "opacity": 0.3,
+      "sort_pass": 3,
+      "sort_method": "unresolved",
+      "sort_note": "Edge pattern unresolved."
     },
     {
       "label": "Pahara Institute",
@@ -3152,11 +3270,11 @@
       "role": "Mayor 1974-1993",
       "class": "entity",
       "classification": "other",
-      "confidence": 0.25,
-      "opacity": 0.25,
+      "confidence": 0.3,
+      "opacity": 0.3,
       "sort_pass": 3,
-      "sort_method": "insufficient",
-      "sort_note": "Too few edges."
+      "sort_method": "unresolved",
+      "sort_note": "Edge pattern unresolved."
     },
     {
       "label": "Diane Tavenner",
@@ -3221,12 +3339,12 @@
       "tier": 5,
       "role": "GVSU President",
       "class": "entity",
-      "classification": "self",
-      "confidence": 0.4,
-      "opacity": 0.4,
+      "classification": "other",
+      "confidence": 0.25,
+      "opacity": 0.25,
       "sort_pass": 3,
-      "sort_method": "cascade_self",
-      "sort_note": "Low-edge entity adjacent to self."
+      "sort_method": "insufficient",
+      "sort_note": "Too few edges."
     },
     {
       "label": "Corey Northrop",
@@ -3264,10 +3382,11 @@
       "role": "NPE President. $0 comp. Former Bush admin education official. Broke with corporate reform. Historian. NYU professor.",
       "class": "entity",
       "classification": "other",
-      "confidence": 0.0,
+      "confidence": 0.25,
       "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "sort_pass": 3,
+      "sort_method": "insufficient",
+      "sort_note": "Too few edges."
     },
     {
       "label": "Dean Michael Sant'Ambrogio",
@@ -3305,12 +3424,12 @@
       "note": "Education advocacy. S.S. v. Michigan (right to read). 2966 Woodward Ave, Detroit. (313) 578-6800.",
       "tier": 5,
       "class": "entity",
-      "classification": "other",
-      "confidence": 0.25,
-      "opacity": 0.25,
+      "classification": "self",
+      "confidence": 0.4,
+      "opacity": 0.4,
       "sort_pass": 3,
-      "sort_method": "insufficient",
-      "sort_note": "Too few edges."
+      "sort_method": "cascade_self",
+      "sort_note": "Low-edge entity adjacent to self."
     },
     {
       "id": "adb",
@@ -3351,10 +3470,11 @@
       "tier": 5,
       "class": "entity",
       "classification": "other",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.4,
+      "opacity": 0.4,
+      "sort_pass": 3,
+      "sort_method": "funding",
+      "sort_note": "Funding entity. Insufficient evidence for sort."
     },
     {
       "id": "anchor_rock",
@@ -3423,10 +3543,11 @@
       "role": "Construction firm. Ahmed Beasley spent 17yr on K-12 projects.",
       "classification": "other",
       "class": "entity",
-      "confidence": 0.0,
+      "confidence": 0.25,
       "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "sort_pass": 3,
+      "sort_method": "insufficient",
+      "sort_note": "Too few edges."
     },
     {
       "label": "Black Star Network",
@@ -3451,10 +3572,11 @@
       "role": "Detroit magnet HS. Beasley alumna. Historic: Diana Ross, Lily Tomlin, Jack White, many judges.",
       "classification": "other",
       "class": "entity",
-      "confidence": 0.0,
+      "confidence": 0.25,
       "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "sort_pass": 3,
+      "sort_method": "insufficient",
+      "sort_note": "Too few edges."
     },
     {
       "id": "chandler_park",
@@ -3479,10 +3601,11 @@
       "tier": 5,
       "class": "entity",
       "classification": "other",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.4,
+      "opacity": 0.4,
+      "sort_pass": 3,
+      "sort_method": "funding",
+      "sort_note": "Funding entity. Insufficient evidence for sort."
     },
     {
       "id": "chojlf",
@@ -3539,10 +3662,11 @@
       "tier": 5,
       "class": "entity",
       "classification": "other",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.3,
+      "opacity": 0.3,
+      "sort_pass": 3,
+      "sort_method": "unresolved",
+      "sort_note": "Edge pattern unresolved."
     },
     {
       "id": "cuny_law",
@@ -3552,11 +3676,12 @@
       "note": "Swedlow (AGC Commissioner, JD). Queens College.",
       "tier": 5,
       "class": "entity",
-      "classification": "other",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "classification": "self",
+      "confidence": 0.4,
+      "opacity": 0.4,
+      "sort_pass": 3,
+      "sort_method": "cascade_self",
+      "sort_note": "Low-edge entity adjacent to self."
     },
     {
       "id": "custom_promo",
@@ -3581,10 +3706,11 @@
       "tier": 5,
       "class": "entity",
       "classification": "other",
-      "confidence": 0.0,
+      "confidence": 0.25,
       "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "sort_pass": 3,
+      "sort_method": "insufficient",
+      "sort_note": "Too few edges."
     },
     {
       "id": "detroit_college_law",
@@ -3594,11 +3720,12 @@
       "note": "Goetz (AGC Grievance Admin, JD 1988). Merged into MSU College of Law.",
       "tier": 5,
       "class": "entity",
-      "classification": "other",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "classification": "null",
+      "confidence": 0.45,
+      "opacity": 0.45,
+      "sort_pass": 3,
+      "sort_method": "cascade_null",
+      "sort_note": "Formation/governance connection to null (cascade)."
     },
     {
       "id": "djf",
@@ -3711,11 +3838,11 @@
       "tier": 5,
       "class": "entity",
       "classification": "other",
-      "confidence": 0.25,
-      "opacity": 0.25,
+      "confidence": 0.3,
+      "opacity": 0.3,
       "sort_pass": 3,
-      "sort_method": "insufficient",
-      "sort_note": "Too few edges."
+      "sort_method": "unresolved",
+      "sort_note": "Edge pattern unresolved."
     },
     {
       "id": "escuela_avancemos",
@@ -3740,11 +3867,11 @@
       "tier": 5,
       "class": "entity",
       "classification": "other",
-      "confidence": 0.25,
-      "opacity": 0.25,
+      "confidence": 0.3,
+      "opacity": 0.3,
       "sort_pass": 3,
-      "sort_method": "insufficient",
-      "sort_note": "Too few edges."
+      "sort_method": "unresolved",
+      "sort_note": "Edge pattern unresolved."
     },
     {
       "label": "Excellent Schools Detroit",
@@ -3813,10 +3940,11 @@
       "tier": 5,
       "class": "entity",
       "classification": "other",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.3,
+      "opacity": 0.3,
+      "sort_pass": 3,
+      "sort_method": "unresolved",
+      "sort_note": "Edge pattern unresolved."
     },
     {
       "id": "gvsu",
@@ -3825,12 +3953,12 @@
       "entity_type": "Charter authorizer",
       "tier": 5,
       "class": "entity",
-      "classification": "self",
-      "confidence": 0.4,
-      "opacity": 0.4,
+      "classification": "other",
+      "confidence": 0.3,
+      "opacity": 0.3,
       "sort_pass": 3,
-      "sort_method": "cascade_self",
-      "sort_note": "Low-edge entity adjacent to self."
+      "sort_method": "unresolved",
+      "sort_note": "Edge pattern unresolved."
     },
     {
       "id": "gw_law",
@@ -3840,11 +3968,12 @@
       "note": "Bullington (AGC Asst Deputy, JD). DC.",
       "tier": 5,
       "class": "entity",
-      "classification": "other",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "classification": "self",
+      "confidence": 0.4,
+      "opacity": 0.4,
+      "sort_pass": 3,
+      "sort_method": "cascade_self",
+      "sort_note": "Low-edge entity adjacent to self."
     },
     {
       "id": "inner_link",
@@ -3899,10 +4028,11 @@
       "role": "Southfield, MI. Ahmed Beasley BS Civil Engineering.",
       "classification": "other",
       "class": "entity",
-      "confidence": 0.0,
+      "confidence": 0.25,
       "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "sort_pass": 3,
+      "sort_method": "insufficient",
+      "sort_note": "Too few edges."
     },
     {
       "label": "MAPSA",
@@ -3927,10 +4057,11 @@
       "role": "Detroit college. Beasley MA in Teaching. Closed 2019, programs absorbed by U of D Mercy.",
       "classification": "other",
       "class": "entity",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.3,
+      "opacity": 0.3,
+      "sort_pass": 3,
+      "sort_method": "unresolved",
+      "sort_note": "Edge pattern unresolved."
     },
     {
       "id": "mccsa",
@@ -3970,11 +4101,12 @@
       "note": "Cameron's current court.",
       "tier": 5,
       "class": "entity",
-      "classification": "other",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "classification": "self",
+      "confidence": 0.75,
+      "opacity": 0.75,
+      "sort_pass": 2,
+      "sort_method": "state_entity",
+      "sort_note": "State government entity."
     },
     {
       "id": "michigan_first_principles",
@@ -3999,11 +4131,12 @@
       "note": "Founded 2000. CMU played leadership role in establishment. Sets authorizing standards that CMU claims to follow.",
       "tier": 5,
       "class": "entity",
-      "classification": "other",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "classification": "self",
+      "confidence": 0.4,
+      "opacity": 0.4,
+      "sort_pass": 3,
+      "sort_method": "cascade_self",
+      "sort_note": "Low-edge entity adjacent to self."
     },
     {
       "id": "nha",
@@ -4029,10 +4162,11 @@
       "tier": 5,
       "class": "entity",
       "classification": "other",
-      "confidence": 0.0,
+      "confidence": 0.25,
       "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "sort_pass": 3,
+      "sort_method": "insufficient",
+      "sort_note": "Too few edges."
     },
     {
       "id": "npe_action",
@@ -4043,10 +4177,11 @@
       "tier": 5,
       "class": "entity",
       "classification": "other",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.3,
+      "opacity": 0.3,
+      "sort_pass": 3,
+      "sort_method": "unresolved",
+      "sort_note": "Edge pattern unresolved."
     },
     {
       "id": "nuvision_foundation",
@@ -4129,10 +4264,11 @@
       "role": "Beasley was Curriculum Director here before DPSCD admin roles.",
       "classification": "other",
       "class": "entity",
-      "confidence": 0.0,
+      "confidence": 0.25,
       "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "sort_pass": 3,
+      "sort_method": "insufficient",
+      "sort_note": "Too few edges."
     },
     {
       "id": "ross_catering",
@@ -4173,10 +4309,11 @@
       "tier": 5,
       "class": "entity",
       "classification": "other",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.4,
+      "opacity": 0.4,
+      "sort_pass": 3,
+      "sort_method": "funding",
+      "sort_note": "Funding entity. Insufficient evidence for sort."
     },
     {
       "label": "Skillman Foundation",
@@ -4202,10 +4339,11 @@
       "tier": 5,
       "class": "entity",
       "classification": "other",
-      "confidence": 0.0,
+      "confidence": 0.25,
       "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "sort_pass": 3,
+      "sort_method": "insufficient",
+      "sort_note": "Too few edges."
     },
     {
       "id": "sun_community",
@@ -4232,10 +4370,11 @@
       "tier": 5,
       "class": "entity",
       "classification": "other",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.3,
+      "opacity": 0.3,
+      "sort_pass": 3,
+      "sort_method": "unresolved",
+      "sort_note": "Edge pattern unresolved."
     },
     {
       "id": "ann_arbor",
@@ -4243,12 +4382,13 @@
       "type": "geography",
       "tier": 5,
       "role": "University of Michigan. EMU nearby. Hutchings connection.",
-      "classification": "other",
+      "classification": "self",
       "class": "geography",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.7,
+      "opacity": 0.7,
+      "sort_pass": 2,
+      "sort_method": "jurisdiction",
+      "sort_note": "Jurisdictional entity."
     },
     {
       "id": "harper_woods",
@@ -4256,12 +4396,13 @@
       "type": "geography",
       "tier": 5,
       "role": "City adjacent to Grosse Pointe Woods. Yancey/Beasley connections. Banks adjacency.",
-      "classification": "other",
+      "classification": "self",
       "class": "geography",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0,
-      "sort_method": "unmatched"
+      "confidence": 0.7,
+      "opacity": 0.7,
+      "sort_pass": 2,
+      "sort_method": "jurisdiction",
+      "sort_note": "Jurisdictional entity."
     },
     {
       "id": "state_ar",
@@ -4392,12 +4533,12 @@
       "role": "Civil rights organization, Freedom Fund Dinner host",
       "tier": 5,
       "class": "entity",
-      "classification": "other",
-      "confidence": 0.3,
-      "opacity": 0.3,
+      "classification": "null",
+      "confidence": 0.45,
+      "opacity": 0.45,
       "sort_pass": 3,
-      "sort_method": "unresolved",
-      "sort_note": "Edge pattern unresolved."
+      "sort_method": "cascade_null",
+      "sort_note": "Formation/governance connection to null (cascade)."
     },
     {
       "label": "NAACP Lansing Branch",
@@ -4540,12 +4681,12 @@
       "tier": 6,
       "role": "Education Advocacy Attorney, ACLU Michigan. Georgetown/Foley Hoag. S.S. v. Michigan.",
       "class": "entity",
-      "classification": "other",
-      "confidence": 0.25,
-      "opacity": 0.25,
+      "classification": "self",
+      "confidence": 0.4,
+      "opacity": 0.4,
       "sort_pass": 3,
-      "sort_method": "insufficient",
-      "sort_note": "Too few edges."
+      "sort_method": "cascade_self",
+      "sort_note": "Low-edge entity adjacent to self."
     }
   ],
   "edges": [
