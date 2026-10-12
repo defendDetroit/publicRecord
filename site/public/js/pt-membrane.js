@@ -361,6 +361,52 @@ window.PtMembrane = function(deps) {
          transform:'rotate('+rot.toFixed(1)+' '+bx.toFixed(1)+' '+by.toFixed(1)+')'});
     });
 
+    // ═══ EPITOPE ORBITS: π epitopes per ring, rings at π ═══
+    // 6 conserved epitopes on 2 concentric rings (π ≈ 3 per ring).
+    // Each epitope orbits at its V(D)J rate.
+    // V (Variable/IS) → fastest orbit. D (Diversity/WILLBE) → middle. J (Joining/WAS) → slowest.
+    // Ring radii: R×(1/π) and R×(2/π). Spacing IS π.
+    var orbitG = el('g', {id:'mg-orbits'}, svg);
+    var epiNames = ['burst','reading','ua_pool','sec_fetch','session','referer'];
+    var epiVDJ = ['V','D','J','V','D','J'];
+    var epiColors = {V:'#e85d3a', D:'#5ab87a', J:'#4a8fb8'};
+    var orbitR1 = R * (1/PI);    // inner ring ≈ R/3.14
+    var orbitR2 = R * (2/PI);    // outer ring ≈ R/1.57
+
+    // Ring traces
+    el('circle', {cx:cx, cy:cy, r:orbitR1, fill:'none',
+      stroke:'#6e7681', 'stroke-width':0.5, 'stroke-opacity':0.06,
+      'stroke-dasharray':'2,8', id:'mg-orbit-ring-1'}, orbitG);
+    el('circle', {cx:cx, cy:cy, r:orbitR2, fill:'none',
+      stroke:'#6e7681', 'stroke-width':0.5, 'stroke-opacity':0.06,
+      'stroke-dasharray':'2,8', id:'mg-orbit-ring-2'}, orbitG);
+
+    // 6 epitope markers: 3 on inner ring (π), 3 on outer ring (π)
+    for (var oi = 0; oi < 6; oi++) {
+      var oR = oi < 3 ? orbitR1 : orbitR2;
+      var oAngle = (oi % 3) * TAU / 3;  // 120° apart per ring
+      var oColor = epiColors[epiVDJ[oi]];
+      // Orbit dot
+      el('circle', {
+        cx: (cx + oR * Math.cos(oAngle)).toFixed(1),
+        cy: (cy + oR * Math.sin(oAngle)).toFixed(1),
+        r: 3, fill: oColor, opacity: 0.35,
+        id: 'mg-epi-' + oi
+      }, orbitG);
+      // VDJ label
+      txt(orbitG,
+        (cx + oR * Math.cos(oAngle)).toFixed(1),
+        (cy + oR * Math.sin(oAngle) - 7).toFixed(1),
+        epiVDJ[oi], oColor, 6,
+        {opacity: 0.25, 'font-weight':'bold', id: 'mg-epi-label-' + oi});
+      // Name label
+      txt(orbitG,
+        (cx + oR * Math.cos(oAngle)).toFixed(1),
+        (cy + oR * Math.sin(oAngle) + 8).toFixed(1),
+        epiNames[oi], '#6e7681', 4,
+        {opacity: 0.15, id: 'mg-epi-name-' + oi});
+    }
+
     // ═══ THREE BODIES: IS/WAS/WILLBE overlaid with V/D/J ═══
     // At [∅]D all 6 identities occupy the same point (center).
     // Perspective perturbation spreads them into the triangle.
@@ -432,7 +478,7 @@ window.PtMembrane = function(deps) {
         stroke: rColor, 'stroke-width': 2.0, 'stroke-opacity': rAlive ? 0.22 : 0.07,
         'stroke-linecap': 'round',
         id: 'mg-rod-' + p.id
-      }, retinaG);
+      }, wasG);
     });
 
     // All elements start at center — built at cx,cy
@@ -624,6 +670,14 @@ window.PtMembrane = function(deps) {
     var coilEl = document.getElementById('mg-coil');
     if (coilEl) coilEl.setAttribute('transform', 'rotate('+coilRot.toFixed(1)+' '+cx+' '+cy+')');
 
+    // ── Ring rotation: the outside is alive ──
+    // π/31 rad/s — 31 = ⌊π³⌋ (the particle budget). Slowest wheel.
+    // Coprime to body rates (7, 11, 17). Nothing locks. Everything turns.
+    var ringOmega = PI / 31;
+    var ringDeg = (now * 0.001 * ringOmega * 180 / PI) % 360;
+    var wasEl = document.getElementById('mg-was');
+    if (wasEl) wasEl.setAttribute('transform', 'rotate('+ringDeg.toFixed(1)+' '+cx+' '+cy+')');
+
     // ═══ PERTURBATION BREATHING + ANGULAR ROTATION ═══
     // Each body rotates independently at its own angular velocity.
     // IS is fastest (it's NOW, always moving).
@@ -700,6 +754,36 @@ window.PtMembrane = function(deps) {
                    sub.setAttribute('opacity', (0.3 * perturb).toFixed(2)); }
       if (val)   { val.setAttribute('x', bx.toFixed(1)); val.setAttribute('y', (by+28).toFixed(1));
                    val.setAttribute('opacity', (0.45 * perturb).toFixed(2)); }
+    }
+
+    // ── Epitope orbits: 6 markers on 2 rings at VDJ rates ──
+    // Inner ring (R/π): 3 epitopes. Outer ring (2R/π): 3 epitopes.
+    // π epitopes per ring. Rings at π.
+    var epiOmegas = [omega_is, omega_willbe, omega_was,
+                     omega_is, omega_willbe, omega_was];
+    var oRadii = [R*(1/PI), R*(1/PI), R*(1/PI),
+                  R*(2/PI), R*(2/PI), R*(2/PI)];
+    for (var oi = 0; oi < 6; oi++) {
+      var oBaseAngle = (oi % 3) * TAU / 3;
+      var oAngle = oBaseAngle + epiOmegas[oi] * t;
+      var oR = oRadii[oi];
+      var ox = cx + oR * Math.cos(oAngle);
+      var oy = cy + oR * Math.sin(oAngle);
+      var eDot = document.getElementById('mg-epi-' + oi);
+      if (eDot) {
+        eDot.setAttribute('cx', ox.toFixed(1));
+        eDot.setAttribute('cy', oy.toFixed(1));
+      }
+      var eLabel = document.getElementById('mg-epi-label-' + oi);
+      if (eLabel) {
+        eLabel.setAttribute('x', ox.toFixed(1));
+        eLabel.setAttribute('y', (oy - 7).toFixed(1));
+      }
+      var eName = document.getElementById('mg-epi-name-' + oi);
+      if (eName) {
+        eName.setAttribute('x', ox.toFixed(1));
+        eName.setAttribute('y', (oy + 8).toFixed(1));
+      }
     }
 
     // ── Cones: triangular wedges pointing at [∅]D ──
