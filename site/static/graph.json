@@ -1230,6 +1230,48 @@
       "type": "entity",
       "entity_type": "Oversight body",
       "note": "Appoints AGC Grievance Administrator, ADB members, JTC Commissioners. Declined to define UPL in 2014. The enforcement architecture is their creation."
+    },
+    {
+      "id": "nuvision_inc",
+      "label": "Nu Vision Media, Inc.",
+      "type": "entity",
+      "entity_type": "Media company",
+      "note": "Roland Martin's for-profit media company. Produces #RolandMartinUnfiltered. CEO: Roland Martin. Received $145K from Virginia PACs. Texas address."
+    },
+    {
+      "id": "nuvision_foundation",
+      "label": "Nu Vision Media Foundation",
+      "type": "entity",
+      "entity_type": "Private 501(c)(3)",
+      "note": "EIN 30-1028855. 1600 K St NW Suite 201, DC. In care of: Roland S Martin. Ruling: Jun 2025. $0/$0. Educational/Literary/Charitable."
+    },
+    {
+      "id": "scbc_tour",
+      "label": "School Choice Is The Black Choice Tour",
+      "type": "entity",
+      "entity_type": "Campaign",
+      "note": "10-city tour. Co-produced by Nu Vision Media + The 74. National partners: AFC, EdChoice, ExcelinEd, NACPS, UNCF, Walton. Walton gave $350K (2020)."
+    },
+    {
+      "id": "edchoice",
+      "label": "EdChoice",
+      "type": "entity",
+      "entity_type": "Lobby organization",
+      "note": "School voucher/choice advocacy. Founded as Friedman Foundation. SCBC tour national partner."
+    },
+    {
+      "id": "excelined",
+      "label": "ExcelinEd",
+      "type": "entity",
+      "entity_type": "Lobby organization",
+      "note": "Founded by Jeb Bush. School choice policy. SCBC tour national partner."
+    },
+    {
+      "id": "fifty_can",
+      "label": "50CAN",
+      "type": "entity",
+      "entity_type": "Lobby organization",
+      "note": "Education reform advocacy. Nu Vision Media listed as FUNDER on 50can.org/financials. Derrell Bradford (Exec VP) on SCBC panels."
     }
   ],
   "edges": [
@@ -4230,6 +4272,87 @@
       "note": "National Heritage Academies: largest MI charter operator. Grand Rapids HQ. 90+ schools. J.C. Huizenga founded.",
       "weight": 5,
       "source_doc": "nhaschools.com"
+    },
+    {
+      "source": "roland_martin",
+      "target": "nuvision_inc",
+      "type": "ownership",
+      "epistemic_status": "record",
+      "note": "CEO and owner. Full-service media firm. #RolandMartinUnfiltered, speakers bureau, book publishing, media consulting.",
+      "weight": 9,
+      "source_doc": "prweb.com; fox2detroit.com; TransparencyUSA"
+    },
+    {
+      "source": "roland_martin",
+      "target": "nuvision_foundation",
+      "type": "governance",
+      "epistemic_status": "record",
+      "note": "In care of: Roland S Martin. 501(c)(3) formed Jun 2025 — same month as NAACP Detroit Freedom Fund Dinner.",
+      "weight": 8,
+      "source_doc": "IRS BMF; eintaxid.com EIN 30-1028855"
+    },
+    {
+      "source": "nuvision_inc",
+      "target": "scbc_tour",
+      "type": "production",
+      "epistemic_status": "record",
+      "note": "Nu Vision Media co-produces the 'School Choice Is The Black Choice' 10-city town hall tour with The 74.",
+      "weight": 8,
+      "source_doc": "the74million.org tour announcements; schoolchoiceistheblackchoice.com"
+    },
+    {
+      "source": "the_74",
+      "target": "scbc_tour",
+      "type": "production",
+      "epistemic_status": "record",
+      "note": "The 74 co-produces SCBC tour with Nu Vision Media. 'Disclosure: The Walton Family Foundation provides financial support to The 74.'",
+      "weight": 8,
+      "source_doc": "the74million.org tour articles"
+    },
+    {
+      "source": "walton_family_foundation",
+      "target": "scbc_tour",
+      "type": "funding",
+      "epistemic_status": "record",
+      "note": "$350,000 to 'Roland Martin's School Choice Is the Black Choice' (2020 via CNDC). Walton is national partner of tour.",
+      "weight": 9,
+      "source_doc": "CNDC 990 Schedule I; the74million.org disclosure"
+    },
+    {
+      "source": "afc",
+      "target": "scbc_tour",
+      "type": "partnership",
+      "epistemic_status": "record",
+      "note": "AFC is national partner of SCBC tour. DeVos vehicle funding the media tour that legitimizes charter expansion.",
+      "weight": 7,
+      "source_doc": "the74million.org tour partner list"
+    },
+    {
+      "source": "nuvision_inc",
+      "target": "fifty_can",
+      "type": "funding",
+      "epistemic_status": "record",
+      "note": "Nu Vision Media listed as FUNDER on 50CAN financials page. Media company funding advocacy org.",
+      "weight": 6,
+      "source_doc": "50can.org/financials"
+    },
+    {
+      "source": "roland_martin",
+      "target": "naacp_detroit",
+      "type": "speaking",
+      "epistemic_status": "record",
+      "note": "NAACP Detroit Freedom Fund Dinner (Jun 29, 2025). Same month Nu Vision Foundation formed (Jun 2025).",
+      "weight": 7,
+      "source_doc": "detroitnaacp.org"
+    },
+    {
+      "source": "nuvision_inc",
+      "target": "state_tx",
+      "type": "jurisdiction",
+      "epistemic_status": "record",
+      "note": "Nu Vision Media Inc registered at 4416 Briarwood Ave #110 PMB 43, Midland TX. Received $145K from VA PACs (Virginia Future Generations $130K, 2 PAC $15K).",
+      "weight": 5,
+      "source_doc": "TransparencyUSA Virginia payee records"
     }
   ],
   "epistemic_grammar": {
