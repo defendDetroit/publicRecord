@@ -317,6 +317,17 @@
       "wiki_url": "https://en.wikipedia.org/wiki/John_Engler"
     },
     {
+      "id": "public_education",
+      "label": "Public Education (The Commons)",
+      "type": "entity",
+      "entity_type": "Commons",
+      "tier": 1,
+      "role": "The shared resource. Public education is a commons — it belongs to every child. When a convicted felon extracts 72.67% of per-pupil funding through a private LLC, he is enclosing the commons. This is the thing being stolen.",
+      "class": "entity",
+      "classification": "non-self",
+      "wiki_url": "https://en.wikipedia.org/wiki/Public_education"
+    },
+    {
       "id": "gay_dagnogo",
       "label": "Sherry Gay-Dagnogo",
       "type": "actor",
@@ -389,17 +400,6 @@
       "sort_method": "banks_political",
       "sort_note": "Political connection to Banks.",
       "wiki_url": "https://en.wikipedia.org/wiki/Mary_Sheffield"
-    },
-    {
-      "id": "public_education",
-      "label": "Public Education (The Commons)",
-      "type": "entity",
-      "entity_type": "Commons",
-      "tier": 1,
-      "role": "The shared resource. Public education is a commons — it belongs to every child. When a convicted felon extracts 72.67% of per-pupil funding through a private LLC, he is enclosing the commons. This is the thing being stolen.",
-      "class": "entity",
-      "classification": "non-self",
-      "wiki_url": "https://en.wikipedia.org/wiki/Public_education"
     },
     {
       "id": "npe",
@@ -1545,6 +1545,28 @@
       "sort_note": "Edge pattern unresolved."
     },
     {
+      "id": "wikipedia_org",
+      "label": "Wikipedia",
+      "type": "entity",
+      "entity_type": "Commons/Knowledge",
+      "tier": 5,
+      "role": "The free encyclopedia. CC-BY-SA 3.0. Written by volunteer editors worldwide. The world's largest commons of verified knowledge. 67 nodes in this graph are sourced from Wikipedia. This is the kernel.",
+      "class": "entity",
+      "classification": "non-self",
+      "wiki_url": "https://en.wikipedia.org/wiki/Wikipedia"
+    },
+    {
+      "id": "public_domain",
+      "label": "Public Domain",
+      "type": "entity",
+      "entity_type": "Commons/Legal",
+      "tier": 5,
+      "role": "Works not protected by IP rights. Government documents. Expired copyrights. The ultimate commons — knowledge that belongs to everyone forever.",
+      "class": "entity",
+      "classification": "non-self",
+      "wiki_url": "https://en.wikipedia.org/wiki/Public_domain"
+    },
+    {
       "id": "right_turn",
       "label": "Right Turn Project",
       "type": "entity",
@@ -1711,15 +1733,26 @@
       "classification": "null"
     },
     {
-      "id": "wikipedia_org",
-      "label": "Wikipedia",
+      "id": "open_source",
+      "label": "Open Source Software",
       "type": "entity",
-      "entity_type": "Commons/Knowledge",
+      "entity_type": "Commons/Software",
       "tier": 5,
-      "role": "The free encyclopedia. CC-BY-SA 3.0. Written by volunteer editors worldwide. The world's largest commons of verified knowledge. 67 nodes in this graph are sourced from Wikipedia. This is the kernel.",
+      "role": "Free/open source software. Linux, Firefox, Python, Rust. The commons of computation. This investigation runs on open source tools.",
       "class": "entity",
       "classification": "non-self",
-      "wiki_url": "https://en.wikipedia.org/wiki/Wikipedia"
+      "wiki_url": "https://en.wikipedia.org/wiki/Open-source_software"
+    },
+    {
+      "id": "happy_birthday",
+      "label": "Happy Birthday to You",
+      "type": "entity",
+      "entity_type": "Commons/Song",
+      "tier": 5,
+      "role": "Most recognized song in English. Written by Hill sisters (1893). Warner/Chappell charged licensing fees 1935-2016. Ruled PUBLIC DOMAIN 2016. $14M settlement. 80 years of enclosure of a kindergarten teacher's gift.",
+      "class": "entity",
+      "classification": "non-self",
+      "wiki_url": "https://en.wikipedia.org/wiki/Happy_Birthday_to_You"
     },
     {
       "id": "burris",
@@ -2169,15 +2202,26 @@
       "wiki_url": "https://en.wikipedia.org/wiki/First_Amendment_to_the_United_States_Constitution"
     },
     {
-      "id": "public_domain",
-      "label": "Public Domain",
+      "id": "creative_commons",
+      "label": "Creative Commons",
       "type": "entity",
-      "entity_type": "Commons/Legal",
+      "entity_type": "Commons/License",
       "tier": 5,
-      "role": "Works not protected by IP rights. Government documents. Expired copyrights. The ultimate commons — knowledge that belongs to everyone forever.",
+      "role": "CC-BY-SA. The license that makes Wikipedia free. The license that makes this investigation shareable. Lawrence Lessig founded 2001. The legal infrastructure of the commons.",
       "class": "entity",
       "classification": "non-self",
-      "wiki_url": "https://en.wikipedia.org/wiki/Public_domain"
+      "wiki_url": "https://en.wikipedia.org/wiki/Creative_Commons"
+    },
+    {
+      "id": "pixar",
+      "label": "Pixar Animation Studios",
+      "type": "entity",
+      "entity_type": "Studio",
+      "tier": 5,
+      "role": "Founded 1986 (Lucasfilm spinoff). Catmull + Lasseter + Steve Jobs ($10M). Toy Story, Finding Nemo, Inside Out, Coco. Acquired by Disney 2006 ($7.4B). The artists' work, bought by the corporation.",
+      "class": "entity",
+      "classification": "non-self",
+      "wiki_url": "https://en.wikipedia.org/wiki/Pixar"
     },
     {
       "id": "adam_sabree",
@@ -2903,6 +2947,50 @@
       "class": "entity",
       "classification": "non-self",
       "wiki_url": "https://en.wikipedia.org/wiki/Freedom_of_Information_Act_(United_States)"
+    },
+    {
+      "id": "internet_archive",
+      "label": "Internet Archive",
+      "type": "entity",
+      "entity_type": "Commons/Digital",
+      "tier": 5,
+      "role": "Wayback Machine. 735B web pages archived. Brewster Kahle. Universal access to all knowledge. The digital commons.",
+      "class": "entity",
+      "classification": "non-self",
+      "wiki_url": "https://en.wikipedia.org/wiki/Internet_Archive"
+    },
+    {
+      "id": "detroit_institute_arts",
+      "label": "Detroit Institute of Arts",
+      "type": "entity",
+      "entity_type": "Commons/Museum",
+      "tier": 5,
+      "role": "DIA. 100+ galleries. Diego Rivera murals. Nearly sold during bankruptcy. The commons of art. Saved by regional millage vote 2012.",
+      "class": "entity",
+      "classification": "non-self",
+      "wiki_url": "https://en.wikipedia.org/wiki/Detroit_Institute_of_Arts"
+    },
+    {
+      "id": "detroit_industry_murals",
+      "label": "Detroit Industry Murals",
+      "type": "entity",
+      "entity_type": "Commons/Art",
+      "tier": 5,
+      "role": "Diego Rivera, DIA, 1932-33. 27 panels showing Ford workers. National Historic Landmark. The commons of labor depicted as art, housed in a public museum nearly sold in bankruptcy.",
+      "class": "entity",
+      "classification": "non-self",
+      "wiki_url": "https://en.wikipedia.org/wiki/Detroit_Industry_Murals"
+    },
+    {
+      "id": "motown",
+      "label": "Motown Records",
+      "type": "entity",
+      "entity_type": "Commons/Music",
+      "tier": 5,
+      "role": "Berry Gordy. Detroit. 1959. Hitsville U.S.A. Supremes, Temptations, Stevie Wonder, Marvin Gaye, Jackson 5. Detroit's gift to the world. Sold to MCA/Universal 1988. The artists' music, the corporation's catalog.",
+      "class": "entity",
+      "classification": "non-self",
+      "wiki_url": "https://en.wikipedia.org/wiki/Motown"
     },
     {
       "id": "city_council",
@@ -5727,17 +5815,6 @@
       "wiki_url": "https://en.wikipedia.org/wiki/Kresge_Foundation"
     },
     {
-      "id": "creative_commons",
-      "label": "Creative Commons",
-      "type": "entity",
-      "entity_type": "Commons/License",
-      "tier": 5,
-      "role": "CC-BY-SA. The license that makes Wikipedia free. The license that makes this investigation shareable. Lawrence Lessig founded 2001. The legal infrastructure of the commons.",
-      "class": "entity",
-      "classification": "non-self",
-      "wiki_url": "https://en.wikipedia.org/wiki/Creative_Commons"
-    },
-    {
       "id": "library_of_congress",
       "label": "Library of Congress",
       "type": "entity",
@@ -5749,37 +5826,65 @@
       "wiki_url": "https://en.wikipedia.org/wiki/Library_of_Congress"
     },
     {
-      "id": "internet_archive",
-      "label": "Internet Archive",
+      "id": "disney",
+      "label": "Walt Disney Company",
       "type": "entity",
-      "entity_type": "Commons/Digital",
+      "entity_type": "Fortune 500",
       "tier": 5,
-      "role": "Wayback Machine. 735B web pages archived. Brewster Kahle. Universal access to all knowledge. The digital commons.",
+      "role": "F500 #55. ABC (parent of WXYZ). ESPN. Disney Foundation.",
       "class": "entity",
       "classification": "non-self",
-      "wiki_url": "https://en.wikipedia.org/wiki/Internet_Archive"
+      "wiki_url": "https://en.wikipedia.org/wiki/The_Walt_Disney_Company"
     },
     {
-      "id": "detroit_institute_arts",
-      "label": "Detroit Institute of Arts",
-      "type": "entity",
-      "entity_type": "Commons/Museum",
+      "id": "steve_jobs",
+      "label": "Steve Jobs",
+      "type": "actor",
       "tier": 5,
-      "role": "DIA. 100+ galleries. Diego Rivera murals. Nearly sold during bankruptcy. The commons of art. Saved by regional millage vote 2012.",
+      "role": "Funded Pixar ($10M in 1986). Apple co-founder. His $10M became $7.4B when Disney bought Pixar. Made him Disney's largest shareholder. Died 2011.",
       "class": "entity",
       "classification": "non-self",
-      "wiki_url": "https://en.wikipedia.org/wiki/Detroit_Institute_of_Arts"
+      "wiki_url": "https://en.wikipedia.org/wiki/Steve_Jobs"
     },
     {
-      "id": "open_source",
-      "label": "Open Source Software",
-      "type": "entity",
-      "entity_type": "Commons/Software",
+      "id": "diego_rivera",
+      "label": "Diego Rivera",
+      "type": "actor",
       "tier": 5,
-      "role": "Free/open source software. Linux, Firefox, Python, Rust. The commons of computation. This investigation runs on open source tools.",
+      "role": "Mexican muralist. Painted 'Detroit Industry Murals' at DIA (1932-33). 27 panels. Commissioned by Edsel Ford. The murals show workers — the commons of labor made into art. Nearly destroyed by controversy. Now the DIA's most famous work.",
       "class": "entity",
       "classification": "non-self",
-      "wiki_url": "https://en.wikipedia.org/wiki/Open-source_software"
+      "wiki_url": "https://en.wikipedia.org/wiki/Diego_Rivera"
+    },
+    {
+      "id": "berry_gordy",
+      "label": "Berry Gordy",
+      "type": "actor",
+      "tier": 5,
+      "role": "Founded Motown Records 1959. Detroit. $800 loan from family. Built the label that defined American popular music. Sold to MCA 1988 for $61M. The creator's vision, eventually the corporation's asset.",
+      "class": "entity",
+      "classification": "non-self",
+      "wiki_url": "https://en.wikipedia.org/wiki/Berry_Gordy"
+    },
+    {
+      "id": "aaron_swartz",
+      "label": "Aaron Swartz",
+      "type": "actor",
+      "tier": 5,
+      "role": "Co-designed RSS. Reddit co-founder. Creative Commons early architect. Downloaded JSTOR articles to liberate publicly funded research. Prosecuted by DOJ. Died Jan 2013. He believed information should be free. The system killed him for it.",
+      "class": "entity",
+      "classification": "non-self",
+      "wiki_url": "https://en.wikipedia.org/wiki/Aaron_Swartz"
+    },
+    {
+      "id": "linus_torvalds",
+      "label": "Linus Torvalds",
+      "type": "actor",
+      "tier": 5,
+      "role": "Created Linux (1991). Git (2005). Finnish. Gave the world a free operating system and the version control system that runs this investigation. Every commit in this repo uses his tool.",
+      "class": "entity",
+      "classification": "non-self",
+      "wiki_url": "https://en.wikipedia.org/wiki/Linus_Torvalds"
     },
     {
       "id": "bmf_entertainment",
@@ -5961,17 +6066,6 @@
       "wiki_url": "https://en.wikipedia.org/wiki/DTE_Energy"
     },
     {
-      "id": "disney",
-      "label": "Walt Disney Company",
-      "type": "entity",
-      "entity_type": "Fortune 500",
-      "tier": 5,
-      "role": "F500 #55. ABC (parent of WXYZ). ESPN. Disney Foundation.",
-      "class": "entity",
-      "classification": "non-self",
-      "wiki_url": "https://en.wikipedia.org/wiki/The_Walt_Disney_Company"
-    },
-    {
       "id": "ford_foundation",
       "label": "Ford Foundation",
       "type": "entity",
@@ -6025,6 +6119,120 @@
       "class": "entity",
       "classification": "non-self",
       "wiki_url": "https://en.wikipedia.org/wiki/ArXiv"
+    },
+    {
+      "id": "apple",
+      "label": "Apple",
+      "type": "entity",
+      "entity_type": "Fortune 500",
+      "tier": 5,
+      "role": "F500 #3. iPads in schools. Apple Education. $2.7T market cap.",
+      "class": "entity",
+      "classification": "non-self",
+      "wiki_url": "https://en.wikipedia.org/wiki/Apple_Inc."
+    },
+    {
+      "id": "patty_hill",
+      "label": "Patty Hill",
+      "type": "actor",
+      "tier": 5,
+      "role": "Kindergarten teacher. Co-wrote 'Good Morning to All' (1893) with sister Mildred. The melody became 'Happy Birthday to You.' Warner/Chappell claimed copyright for 80 years, charged $5K-$10K per use. Ruled public domain 2016. A kindergarten teacher's gift to children was held hostage by a corporation for 80 years.",
+      "class": "entity",
+      "classification": "non-self",
+      "wiki_url": "https://en.wikipedia.org/wiki/Patty_Smith_Hill"
+    },
+    {
+      "id": "mildred_hill",
+      "label": "Mildred J. Hill",
+      "type": "actor",
+      "tier": 5,
+      "role": "Pianist, composer. Wrote the melody of 'Good Morning to All' (1893) with sister Patty. The melody that became Happy Birthday. A musician's gift to children.",
+      "class": "entity",
+      "classification": "non-self",
+      "wiki_url": "https://en.wikipedia.org/wiki/Mildred_J._Hill"
+    },
+    {
+      "id": "ed_catmull",
+      "label": "Ed Catmull",
+      "type": "actor",
+      "tier": 5,
+      "role": "Co-founder of Pixar. Invented texture mapping, subdivision surfaces, Z-buffer. PhD Utah (1974). The computer scientist who made digital animation possible. Disney bought Pixar for $7.4B. The artist's invention, the corporation's profit.",
+      "class": "entity",
+      "classification": "non-self",
+      "wiki_url": "https://en.wikipedia.org/wiki/Edwin_Catmull"
+    },
+    {
+      "id": "john_lasseter",
+      "label": "John Lasseter",
+      "type": "actor",
+      "tier": 5,
+      "role": "Co-founder of Pixar. Directed Toy Story (1995), first fully CGI feature film. CalArts. Disney fired him in 1983 for pushing computer animation. He built Pixar. Disney bought it back for $7.4B. Then fired him again (2018, misconduct).",
+      "class": "entity",
+      "classification": "non-self",
+      "wiki_url": "https://en.wikipedia.org/wiki/John_Lasseter"
+    },
+    {
+      "id": "lawrence_lessig",
+      "label": "Lawrence Lessig",
+      "type": "actor",
+      "tier": 5,
+      "role": "Harvard Law. Founded Creative Commons (2001). 'Free Culture.' 'Code is Law.' Argued Eldred v. Ashcroft (copyright extension). The legal architect of the digital commons.",
+      "class": "entity",
+      "classification": "non-self",
+      "wiki_url": "https://en.wikipedia.org/wiki/Lawrence_Lessig"
+    },
+    {
+      "id": "richard_stallman",
+      "label": "Richard Stallman",
+      "type": "actor",
+      "tier": 5,
+      "role": "Founded GNU Project (1983). Free Software Foundation. GPL license. 'Free as in freedom.' The original commons warrior of software. Made copyleft possible.",
+      "class": "entity",
+      "classification": "non-self",
+      "wiki_url": "https://en.wikipedia.org/wiki/Richard_Stallman"
+    },
+    {
+      "id": "jimmy_wales",
+      "label": "Jimmy Wales",
+      "type": "actor",
+      "tier": 5,
+      "role": "Co-founded Wikipedia (2001). Gave the world a free encyclopedia. 67 nodes in this graph are sourced from his creation. The person who made the kernel possible.",
+      "class": "entity",
+      "classification": "non-self",
+      "wiki_url": "https://en.wikipedia.org/wiki/Jimmy_Wales"
+    },
+    {
+      "id": "viacom",
+      "label": "Paramount Global (Viacom)",
+      "type": "entity",
+      "entity_type": "Media conglomerate",
+      "tier": 5,
+      "role": "BET (Banks network coverage), MTV, Nickelodeon, Paramount. Shari Redstone. The corporate shield over artists' work.",
+      "class": "entity",
+      "classification": "non-self",
+      "wiki_url": "https://en.wikipedia.org/wiki/Paramount_Global"
+    },
+    {
+      "id": "warner",
+      "label": "Warner Bros. Discovery",
+      "type": "entity",
+      "entity_type": "Media conglomerate",
+      "tier": 5,
+      "role": "Warner Music held Happy Birthday hostage for 80 years. Warner Bros, HBO, CNN. David Zaslav. The corporate shield.",
+      "class": "entity",
+      "classification": "non-self",
+      "wiki_url": "https://en.wikipedia.org/wiki/Warner_Bros._Discovery"
+    },
+    {
+      "id": "universal",
+      "label": "Universal Music Group",
+      "type": "entity",
+      "entity_type": "Media conglomerate",
+      "tier": 5,
+      "role": "Owns Motown catalog. Bought Berry Gordy's creation. Largest music company. The corporate shield over Detroit's musical commons.",
+      "class": "entity",
+      "classification": "non-self",
+      "wiki_url": "https://en.wikipedia.org/wiki/Universal_Music_Group"
     },
     {
       "id": "matinga_ragatz",
@@ -6086,17 +6294,6 @@
       "class": "entity",
       "classification": "non-self",
       "wiki_url": "https://en.wikipedia.org/wiki/Amazon_(company)"
-    },
-    {
-      "id": "apple",
-      "label": "Apple",
-      "type": "entity",
-      "entity_type": "Fortune 500",
-      "tier": 5,
-      "role": "F500 #3. iPads in schools. Apple Education. $2.7T market cap.",
-      "class": "entity",
-      "classification": "non-self",
-      "wiki_url": "https://en.wikipedia.org/wiki/Apple_Inc."
     },
     {
       "id": "unitedhealth",
@@ -37752,6 +37949,267 @@
       "weight": 7,
       "note": "Commons back-scatter: 7 shared",
       "source_doc": "Wonders+Parks+Commons"
+    },
+    {
+      "source": "patty_hill",
+      "target": "happy_birthday",
+      "type": "creator",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "Co-wrote 'Good Morning to All' (1893). The melody became Happy Birthday.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "mildred_hill",
+      "target": "happy_birthday",
+      "type": "creator",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "Co-composed the melody (1893).",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "happy_birthday",
+      "target": "public_domain",
+      "type": "freed",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "Ruled public domain 2016. $14M settlement. 80 years of enclosure ended.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "happy_birthday",
+      "target": "warner",
+      "type": "enclosure",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "Warner/Chappell claimed copyright 1935-2016. Charged $5K-$10K per use. 80 years.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "happy_birthday",
+      "target": "public_education",
+      "type": "origin",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "Written by kindergarten teachers for their students. The commons of education became a song.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "ed_catmull",
+      "target": "pixar",
+      "type": "co_founder",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "Co-founded Pixar. Invented core CG technology.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "john_lasseter",
+      "target": "pixar",
+      "type": "co_founder",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "Co-founded Pixar. Directed Toy Story.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "steve_jobs",
+      "target": "pixar",
+      "type": "investor",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "$10M investment 1986. Became Disney's largest shareholder.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "pixar",
+      "target": "disney",
+      "type": "acquired_by",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "Disney acquired Pixar 2006 for $7.4B. Artists' work → corporate asset.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "steve_jobs",
+      "target": "apple",
+      "type": "co_founder",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "Co-founded Apple.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "diego_rivera",
+      "target": "detroit_industry_murals",
+      "type": "creator",
+      "epistemic_status": "record",
+      "weight": 9,
+      "note": "Painted Detroit Industry Murals at DIA (1932-33). 27 panels.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "detroit_industry_murals",
+      "target": "detroit_institute_arts",
+      "type": "housed_at",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "National Historic Landmark. DIA's most famous work.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "detroit_industry_murals",
+      "target": "detroit_city",
+      "type": "cultural_heritage",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "Detroit's most famous artwork. The commons of labor as art.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "berry_gordy",
+      "target": "motown",
+      "type": "founder",
+      "epistemic_status": "record",
+      "weight": 9,
+      "note": "Founded Motown 1959. $800 loan. Detroit.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "motown",
+      "target": "detroit_city",
+      "type": "cultural_heritage",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "Detroit's gift to the world. Hitsville U.S.A.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "motown",
+      "target": "universal",
+      "type": "acquired_by",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "Sold to MCA 1988. Now Universal Music Group owns the catalog.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "aaron_swartz",
+      "target": "creative_commons",
+      "type": "architect",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "Early Creative Commons architect. RSS co-designer.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "aaron_swartz",
+      "target": "open_source",
+      "type": "champion",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "Believed information should be free. Reddit co-founder.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "lawrence_lessig",
+      "target": "creative_commons",
+      "type": "founder",
+      "epistemic_status": "record",
+      "weight": 9,
+      "note": "Founded Creative Commons 2001. Harvard Law.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "richard_stallman",
+      "target": "open_source",
+      "type": "founder",
+      "epistemic_status": "record",
+      "weight": 9,
+      "note": "Founded GNU Project 1983. GPL. Free Software Foundation.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "linus_torvalds",
+      "target": "open_source",
+      "type": "creator",
+      "epistemic_status": "record",
+      "weight": 9,
+      "note": "Created Linux (1991) and Git (2005). This repo runs on his tools.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "jimmy_wales",
+      "target": "wikipedia_org",
+      "type": "co_founder",
+      "epistemic_status": "record",
+      "weight": 9,
+      "note": "Co-founded Wikipedia 2001. Made the kernel possible.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "viacom",
+      "target": "detroit_city",
+      "type": "media_coverage",
+      "epistemic_status": "record",
+      "weight": 4,
+      "note": "BET covered Banks network. Paramount Global.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "warner",
+      "target": "happy_birthday",
+      "type": "former_enclosure",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "Held Happy Birthday hostage 80 years.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "universal",
+      "target": "motown",
+      "type": "ownership",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "Owns Motown catalog. Berry Gordy's creation.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "disney",
+      "target": "pixar",
+      "type": "ownership",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "Owns Pixar. $7.4B. Catmull/Lasseter's creation.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "diego_rivera",
+      "target": "public_domain",
+      "type": "legacy",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "Rivera's murals are housed in a public museum. The art is the commons.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "berry_gordy",
+      "target": "public_education",
+      "type": "detroit_origin",
+      "epistemic_status": "record",
+      "weight": 4,
+      "note": "Gordy grew up in Detroit public schools. The commons produced the creator.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "linus_torvalds",
+      "target": "internet_archive",
+      "type": "infrastructure",
+      "epistemic_status": "record",
+      "weight": 4,
+      "note": "Git + Linux power the Internet Archive. Open source enables the digital commons.",
+      "source_doc": "Wikipedia"
     }
   ],
   "epistemic_grammar": {
