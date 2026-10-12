@@ -6887,6 +6887,24 @@
       "class": "creator",
       "classification": "verified",
       "wiki_url": "https://en.wikipedia.org/wiki/Neil_deGrasse_Tyson"
+    },
+    {
+      "id": "romy_drucker",
+      "label": "Romy Drucker",
+      "type": "actor",
+      "tier": 4,
+      "role": "Education Program Director, Walton Family Foundation. FOUNDED The 74 media outlet in 2015. Yale BA, Harvard MBA. Former NYC DOE. WFF funds charter advocacy -> WFF director founded the media outlet that covers charter schools.",
+      "class": "entity",
+      "classification": "null"
+    },
+    {
+      "id": "steve_snyder_74",
+      "label": "Steve Snyder",
+      "type": "actor",
+      "tier": 5,
+      "role": "CEO, The 74. Founding Editorial Director. With The 74 since inception (2015). Lives in Brooklyn.",
+      "class": "entity",
+      "classification": "null"
     }
   ],
   "edges": [
@@ -39810,6 +39828,78 @@
       "weight": 6,
       "note": "Earth orbits the Sun. The Sun orbits the Milky Way. 230 million year galactic orbit.",
       "source_doc": "wikipedia CC-BY-SA 3.0"
+    },
+    {
+      "source": "romy_drucker",
+      "target": "walton_family_foundation",
+      "type": "education_director",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "Education Program Director at WFF. Leads charter school funding strategy.",
+      "source_doc": "waltonfamilyfoundation.org"
+    },
+    {
+      "source": "romy_drucker",
+      "target": "the_74",
+      "type": "founder",
+      "epistemic_status": "record",
+      "weight": 9,
+      "note": "Founded The 74 in 2015. Now runs WFF Education Program. She founded the media outlet, then went to the foundation that funds charter advocacy.",
+      "source_doc": "the74million.org, waltonfamilyfoundation.org"
+    },
+    {
+      "source": "walton_family_foundation",
+      "target": "the_74",
+      "type": "founder_pipeline",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "WFF Education Director Romy Drucker founded The 74. The funders and the media are connected at the director level.",
+      "source_doc": "waltonfamilyfoundation.org"
+    },
+    {
+      "source": "steve_snyder_74",
+      "target": "the_74",
+      "type": "ceo",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "CEO of The 74. Founding Editorial Director since 2015.",
+      "source_doc": "the74million.org"
+    },
+    {
+      "source": "chalena_beasley",
+      "target": "bunche_prep",
+      "type": "former_principal",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "Chalena Beasley was principal of Bunche Preparatory Academy (DPSCD) before moving to PCA. Left a legitimate DPSCD school for Banks' charter.",
+      "source_doc": "dpscd.galaxydigital.com, greatschools.org"
+    },
+    {
+      "source": "bunche_prep",
+      "target": "dpscd",
+      "type": "district_school",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "Bunche Prep is a DPSCD school. Chalena Beasley left it for PCA.",
+      "source_doc": "detroitk12.org"
+    },
+    {
+      "source": "chalena_beasley",
+      "target": "banks",
+      "type": "amplifies_credentials",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "Chalena Beasley actively reposts Banks' LinkedIn posts listing 'Brian Banks, J.D., Ph.D.' — amplifying his fake credential claims.",
+      "source_doc": "linkedin.com, May 2026 + Feb 2027 reposts"
+    },
+    {
+      "source": "the_74",
+      "target": "pca",
+      "type": "coverage_ecosystem",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "The 74 covers charter schools. Founded by WFF Education Director. PCA exists in the ecosystem The 74 covers and WFF funds.",
+      "source_doc": "structural"
     }
   ],
   "epistemic_grammar": {
