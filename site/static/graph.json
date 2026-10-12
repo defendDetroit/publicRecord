@@ -19,19 +19,19 @@
       "sort_note": "64 edges. Central node. Sole member purpose_group."
     },
     {
-      "id": "pca",
-      "label": "Purpose Charter Academy",
+      "id": "detroit_city",
+      "label": "City of Detroit",
       "type": "entity",
-      "page": "/network/entities/purpose-charter-academy/",
-      "entity_type": "K-8 Charter School",
+      "entity_type": "Municipality",
       "tier": 1,
+      "note": "300+ year old city. Mayor: Sheffield. Council President: Tate. Chief: Bettison.",
       "class": "entity",
-      "membrane_response": "-pi",
-      "classification": "negative",
-      "confidence": 0.9,
-      "opacity": 0.9,
-      "sort_pass": 1,
-      "sort_method": "phase1"
+      "classification": "partial",
+      "confidence": 0.45,
+      "opacity": 0.45,
+      "sort_pass": 3,
+      "sort_method": "cascade_nonself",
+      "sort_note": "Governance/board connection to non-self (cascade)."
     },
     {
       "id": "agc",
@@ -66,19 +66,19 @@
       "sort_note": "Governance/board connection to non-self (cascade)."
     },
     {
-      "id": "detroit_city",
-      "label": "City of Detroit",
+      "id": "pca",
+      "label": "Purpose Charter Academy",
       "type": "entity",
-      "entity_type": "Municipality",
+      "page": "/network/entities/purpose-charter-academy/",
+      "entity_type": "K-8 Charter School",
       "tier": 1,
-      "note": "300+ year old city. Mayor: Sheffield. Council President: Tate. Chief: Bettison.",
       "class": "entity",
-      "classification": "partial",
-      "confidence": 0.45,
-      "opacity": 0.45,
-      "sort_pass": 3,
-      "sort_method": "cascade_nonself",
-      "sort_note": "Governance/board connection to non-self (cascade)."
+      "membrane_response": "-pi",
+      "classification": "negative",
+      "confidence": 0.9,
+      "opacity": 0.9,
+      "sort_pass": 1,
+      "sort_method": "phase1"
     },
     {
       "id": "macdowell",
@@ -112,6 +112,21 @@
       "sort_note": "Regulatory body that did not act on Banks."
     },
     {
+      "id": "charter_law_1993",
+      "label": "PA 362 — Michigan Charter School Law (1993)",
+      "type": "entity",
+      "entity_type": "Legislation",
+      "note": "Public Act 362, signed Jan 14 1994 (passed Dec 3 1993). Part 6A Revised School Code. Authorized universities, community colleges, ISDs, and local districts to charter PSAs. Constitutional challenge 1994, Supreme Court upheld 1997. THE law that enables everything: CMU authorization, MacDowell, PCA, all of it.",
+      "tier": 1,
+      "class": "entity",
+      "classification": "partial",
+      "confidence": 0.45,
+      "opacity": 0.45,
+      "sort_pass": 3,
+      "sort_method": "cascade_nonself",
+      "sort_note": "Governance/board connection to non-self (cascade)."
+    },
+    {
       "id": "court_3rd",
       "label": "court 3rd",
       "type": "institution",
@@ -124,6 +139,51 @@
       "sort_pass": 2,
       "sort_method": "school_employee",
       "sort_note": "Employee of captured school."
+    },
+    {
+      "id": "state_mi",
+      "label": "Michigan",
+      "type": "geography",
+      "tier": 1,
+      "role": "Target state — all schools, all courts, all actors",
+      "class": "entity",
+      "classification": "self",
+      "confidence": 0.75,
+      "opacity": 0.75,
+      "sort_pass": 2,
+      "sort_method": "state_entity",
+      "sort_note": "State government entity."
+    },
+    {
+      "label": "American Federation for Children",
+      "entity_type": "Advocacy org",
+      "id": "afc",
+      "type": "entity",
+      "role": "School choice advocacy",
+      "tier": 1,
+      "class": "entity",
+      "membrane_response": "0",
+      "classification": "other",
+      "confidence": 0.4,
+      "opacity": 0.4,
+      "sort_pass": 3,
+      "sort_method": "funding",
+      "sort_note": "Funding entity. Insufficient evidence for sort."
+    },
+    {
+      "id": "kwame",
+      "label": "Kwame Kilpatrick",
+      "type": "actor",
+      "tier": 1,
+      "role": "Mayor 2002-2008",
+      "page": "/network/political/kilpatrick-dynasty/",
+      "class": "entity",
+      "classification": "null",
+      "confidence": 0.6,
+      "opacity": 0.6,
+      "sort_pass": 2,
+      "sort_method": "banks_political",
+      "sort_note": "Political connection to Banks."
     },
     {
       "id": "mi_supreme_court",
@@ -174,52 +234,6 @@
       "sort_note": "Regulatory body that did not act on Banks."
     },
     {
-      "label": "American Federation for Children",
-      "entity_type": "Advocacy org",
-      "id": "afc",
-      "type": "entity",
-      "role": "School choice advocacy",
-      "tier": 1,
-      "class": "entity",
-      "membrane_response": "0",
-      "classification": "other",
-      "confidence": 0.4,
-      "opacity": 0.4,
-      "sort_pass": 3,
-      "sort_method": "funding",
-      "sort_note": "Funding entity. Insufficient evidence for sort."
-    },
-    {
-      "id": "kwame",
-      "label": "Kwame Kilpatrick",
-      "type": "actor",
-      "tier": 1,
-      "role": "Mayor 2002-2008",
-      "page": "/network/political/kilpatrick-dynasty/",
-      "class": "entity",
-      "classification": "null",
-      "confidence": 0.6,
-      "opacity": 0.6,
-      "sort_pass": 2,
-      "sort_method": "banks_political",
-      "sort_note": "Political connection to Banks."
-    },
-    {
-      "id": "charter_law_1993",
-      "label": "PA 362 — Michigan Charter School Law (1993)",
-      "type": "entity",
-      "entity_type": "Legislation",
-      "note": "Public Act 362, signed Jan 14 1994 (passed Dec 3 1993). Part 6A Revised School Code. Authorized universities, community colleges, ISDs, and local districts to charter PSAs. Constitutional challenge 1994, Supreme Court upheld 1997. THE law that enables everything: CMU authorization, MacDowell, PCA, all of it.",
-      "tier": 1,
-      "class": "entity",
-      "classification": "partial",
-      "confidence": 0.45,
-      "opacity": 0.45,
-      "sort_pass": 3,
-      "sort_method": "cascade_nonself",
-      "sort_note": "Governance/board connection to non-self (cascade)."
-    },
-    {
       "id": "beasley",
       "label": "Dr. Chalena Yancey Beasley",
       "type": "actor",
@@ -265,20 +279,6 @@
       "sort_method": "phase1"
     },
     {
-      "id": "court_36th",
-      "label": "court 36th",
-      "type": "institution",
-      "tier": 1,
-      "class": "entity",
-      "membrane_response": "-1",
-      "classification": "negative",
-      "confidence": 0.55,
-      "opacity": 0.55,
-      "sort_pass": 2,
-      "sort_method": "school_employee",
-      "sort_note": "Employee of captured school."
-    },
-    {
       "id": "mccsa",
       "label": "Michigan Council of Charter School Authorizers",
       "type": "entity",
@@ -293,6 +293,20 @@
       "sort_method": "cascade_self",
       "sort_note": "Low-edge entity adjacent to self.",
       "membrane_response": "0"
+    },
+    {
+      "id": "engler",
+      "label": "Gov. John Engler",
+      "type": "actor",
+      "tier": 1,
+      "role": "Michigan Governor 1991-2003. Signed charter school law (PA 362) Jan 14, 1994. Republican. Proposed charter schools Oct 5, 1993 in joint session speech. His law created the framework that CMU, PCA, and MacDowell operate under.",
+      "class": "entity",
+      "classification": "self",
+      "confidence": 0.4,
+      "opacity": 0.4,
+      "sort_pass": 3,
+      "sort_method": "cascade_self",
+      "sort_note": "Low-edge entity adjacent to self."
     },
     {
       "id": "gay_dagnogo",
@@ -310,18 +324,18 @@
       "sort_note": "Board member of non-self entity."
     },
     {
-      "id": "engler",
-      "label": "Gov. John Engler",
-      "type": "actor",
+      "id": "court_36th",
+      "label": "court 36th",
+      "type": "institution",
       "tier": 1,
-      "role": "Michigan Governor 1991-2003. Signed charter school law (PA 362) Jan 14, 1994. Republican. Proposed charter schools Oct 5, 1993 in joint session speech. His law created the framework that CMU, PCA, and MacDowell operate under.",
       "class": "entity",
-      "classification": "self",
-      "confidence": 0.4,
-      "opacity": 0.4,
-      "sort_pass": 3,
-      "sort_method": "cascade_self",
-      "sort_note": "Low-edge entity adjacent to self."
+      "membrane_response": "-1",
+      "classification": "negative",
+      "confidence": 0.55,
+      "opacity": 0.55,
+      "sort_pass": 2,
+      "sort_method": "school_employee",
+      "sort_note": "Employee of captured school."
     },
     {
       "id": "crump_gibson",
@@ -339,20 +353,18 @@
       "sort_note": "Employee of captured school."
     },
     {
-      "id": "todd_perkins",
-      "label": "Todd Perkins",
+      "id": "sheffield",
+      "label": "Mayor Mary Sheffield",
       "type": "actor",
       "tier": 1,
-      "role": "Professional enabler â€” attorney",
-      "page": "/network/professional-enablers/todd-perkins/",
+      "role": "Mayor",
       "class": "entity",
-      "membrane_response": "-1",
-      "classification": "negative",
-      "confidence": 0.65,
-      "opacity": 0.65,
+      "classification": "null",
+      "confidence": 0.6,
+      "opacity": 0.6,
       "sort_pass": 2,
-      "sort_method": "banks_legal",
-      "sort_note": "Legal infrastructure for Banks."
+      "sort_method": "banks_political",
+      "sort_note": "Political connection to Banks."
     },
     {
       "id": "npe",
@@ -533,21 +545,6 @@
       "sort_note": "Board member of non-self entity."
     },
     {
-      "id": "dpd",
-      "label": "Detroit Police Department",
-      "type": "entity",
-      "entity_type": "Law enforcement",
-      "tier": 1,
-      "note": "$455M budget. 2,500 officers. Chief: Todd Bettison. State's largest municipal PD.",
-      "class": "entity",
-      "classification": "partial",
-      "confidence": 0.55,
-      "opacity": 0.55,
-      "sort_pass": 2,
-      "sort_method": "school_employee",
-      "sort_note": "Employee of captured school."
-    },
-    {
       "id": "msu",
       "label": "Michigan State University",
       "type": "entity",
@@ -589,6 +586,21 @@
       "sort_pass": 3,
       "sort_method": "cascade_nonself",
       "sort_note": "Governance/board connection to non-self (cascade)."
+    },
+    {
+      "id": "dpd",
+      "label": "Detroit Police Department",
+      "type": "entity",
+      "entity_type": "Law enforcement",
+      "tier": 1,
+      "note": "$455M budget. 2,500 officers. Chief: Todd Bettison. State's largest municipal PD.",
+      "class": "entity",
+      "classification": "partial",
+      "confidence": 0.55,
+      "opacity": 0.55,
+      "sort_pass": 2,
+      "sort_method": "school_employee",
+      "sort_note": "Employee of captured school."
     },
     {
       "id": "kym_worthy",
@@ -672,20 +684,6 @@
       "membrane_response": "0"
     },
     {
-      "id": "glenn_page",
-      "label": "Glenn J. Page",
-      "type": "actor",
-      "tier": 1,
-      "role": "JTC Interim ED (Feb 2026). Returned from retirement. Former Wayne County asst prosecutor. Bar 1980.",
-      "class": "entity",
-      "classification": "partial",
-      "confidence": 0.45,
-      "opacity": 0.45,
-      "sort_pass": 3,
-      "sort_method": "cascade_nonself",
-      "sort_note": "Governance/board connection to non-self (cascade)."
-    },
-    {
       "id": "purpose_group",
       "label": "The Purpose Group, LLC",
       "type": "entity",
@@ -716,6 +714,22 @@
       "sort_note": "Governance/board connection to non-self (cascade)."
     },
     {
+      "id": "todd_perkins",
+      "label": "Todd Perkins",
+      "type": "actor",
+      "tier": 1,
+      "role": "Professional enabler â€” attorney",
+      "page": "/network/professional-enablers/todd-perkins/",
+      "class": "entity",
+      "membrane_response": "-1",
+      "classification": "negative",
+      "confidence": 0.65,
+      "opacity": 0.65,
+      "sort_pass": 2,
+      "sort_method": "banks_legal",
+      "sort_note": "Legal infrastructure for Banks."
+    },
+    {
       "label": "Betsy DeVos",
       "tier": 1,
       "id": "betsy_devos",
@@ -723,34 +737,6 @@
       "role": "Former Education Secretary, AFC chair",
       "class": "entity",
       "classification": "other",
-      "confidence": 0.4,
-      "opacity": 0.4,
-      "sort_pass": 3,
-      "sort_method": "funding",
-      "sort_note": "Funding entity. Insufficient evidence for sort."
-    },
-    {
-      "id": "henri_harmon",
-      "label": "Henri O. Harmon",
-      "type": "actor",
-      "tier": 1,
-      "role": "GLLG Partner â€” MSU Law BLSA President",
-      "class": "entity",
-      "classification": "partial",
-      "confidence": 0.4,
-      "opacity": 0.4,
-      "sort_pass": 3,
-      "sort_method": "cascade_adjacent",
-      "sort_note": "Low-edge entity adjacent to non-self."
-    },
-    {
-      "id": "mackinac_center",
-      "label": "Mackinac Center for Public Policy",
-      "type": "entity",
-      "tier": 1,
-      "role": "DeVos-funded policy org. Pro-charter. School choice advocacy.",
-      "classification": "other",
-      "class": "entity",
       "confidence": 0.4,
       "opacity": 0.4,
       "sort_pass": 3,
@@ -771,6 +757,48 @@
       "sort_pass": 3,
       "sort_method": "unresolved",
       "sort_note": "Edge pattern unresolved."
+    },
+    {
+      "id": "mackinac_center",
+      "label": "Mackinac Center for Public Policy",
+      "type": "entity",
+      "tier": 1,
+      "role": "DeVos-funded policy org. Pro-charter. School choice advocacy.",
+      "classification": "other",
+      "class": "entity",
+      "confidence": 0.4,
+      "opacity": 0.4,
+      "sort_pass": 3,
+      "sort_method": "funding",
+      "sort_note": "Funding entity. Insufficient evidence for sort."
+    },
+    {
+      "id": "glenn_page",
+      "label": "Glenn J. Page",
+      "type": "actor",
+      "tier": 1,
+      "role": "JTC Interim ED (Feb 2026). Returned from retirement. Former Wayne County asst prosecutor. Bar 1980.",
+      "class": "entity",
+      "classification": "partial",
+      "confidence": 0.45,
+      "opacity": 0.45,
+      "sort_pass": 3,
+      "sort_method": "cascade_nonself",
+      "sort_note": "Governance/board connection to non-self (cascade)."
+    },
+    {
+      "id": "henri_harmon",
+      "label": "Henri O. Harmon",
+      "type": "actor",
+      "tier": 1,
+      "role": "GLLG Partner â€” MSU Law BLSA President",
+      "class": "entity",
+      "classification": "partial",
+      "confidence": 0.4,
+      "opacity": 0.4,
+      "sort_pass": 3,
+      "sort_method": "cascade_adjacent",
+      "sort_note": "Low-edge entity adjacent to non-self."
     },
     {
       "id": "bullington",
@@ -795,6 +823,61 @@
       "class": "entity",
       "classification": "negative",
       "membrane_response": "-1"
+    },
+    {
+      "id": "koch_network",
+      "label": "Koch Political Network",
+      "type": "entity",
+      "entity_type": "Political network",
+      "tier": 1,
+      "role": "Americans for Prosperity, AFP Action (already in graph). Koch Industries. Education policy: school choice, anti-union, deregulation. Michigan chapter active.",
+      "class": "entity",
+      "classification": "non-self"
+    },
+    {
+      "id": "perkins_sean",
+      "label": "perkins sean",
+      "type": "institution",
+      "tier": 1,
+      "class": "entity",
+      "classification": "self",
+      "confidence": 0.7,
+      "opacity": 0.7,
+      "sort_pass": 2,
+      "sort_method": "court",
+      "sort_note": "Court or judicial entity."
+    },
+    {
+      "id": "perkins_d",
+      "label": "perkins d",
+      "type": "institution",
+      "tier": 1,
+      "class": "entity",
+      "classification": "self",
+      "confidence": 0.7,
+      "opacity": 0.7,
+      "sort_pass": 2,
+      "sort_method": "court",
+      "sort_note": "Court or judicial entity."
+    },
+    {
+      "id": "us_doe",
+      "label": "US Dept of Education",
+      "type": "entity",
+      "entity_type": "Federal agency",
+      "tier": 1,
+      "role": "Federal education funding source. Title I flows through charter schools. OIG hotline complaint target for charter fraud.",
+      "class": "institution",
+      "classification": "null"
+    },
+    {
+      "id": "trump",
+      "label": "Donald Trump",
+      "type": "actor",
+      "tier": 1,
+      "role": "45th/47th President. Appointed DeVos as Education Secretary. Education policy: school choice, charter expansion. Detroit ties: hosted by Kwame, campaign events.",
+      "class": "entity",
+      "classification": "non-self"
     },
     {
       "id": "maleyko",
@@ -840,16 +923,6 @@
       "sort_note": "Edge pattern unresolved."
     },
     {
-      "id": "us_doe",
-      "label": "US Dept of Education",
-      "type": "entity",
-      "entity_type": "Federal agency",
-      "tier": 1,
-      "role": "Federal education funding source. Title I flows through charter schools. OIG hotline complaint target for charter fraud.",
-      "class": "institution",
-      "classification": "null"
-    },
-    {
       "id": "wayne_resa_audit",
       "label": "Wayne RESA Financial Oversight",
       "type": "entity",
@@ -874,6 +947,44 @@
       "sort_note": "Employee of captured school."
     },
     {
+      "id": "ms_perkins_pca",
+      "label": "Ms. Perkins (PCA)",
+      "type": "actor",
+      "tier": 1,
+      "role": "Ms. Perkins. PCA front desk / receptionist. THE FRONT DOOR. She is the DECISION-MAKER for who has access to Banks and Beasley. She made it clear SHE decides who gets through. Oct 12 10:30 AM: told caller she 'hasn't seen Banks today' — school in session, she lied. Controls physical and phone access to the superintendent of a public charter school. A receptionist at a school receiving $4.9M in public funds decides who can reach the man running it. Surname match: Todd Perkins (Banks' attorney), Sean Perkins (36th District judge), Judge David Perkins (36th District). Relationship TBD.",
+      "class": "entity",
+      "classification": "enabler",
+      "confidence": 0.55,
+      "opacity": 0.55,
+      "sort_pass": 2,
+      "sort_method": "school_employee",
+      "sort_note": "Employee of captured school."
+    },
+    {
+      "id": "sean_perkins",
+      "label": "Judge Sean Perkins",
+      "type": "actor",
+      "tier": 1,
+      "role": "Judicial cover",
+      "page": "/network/judges/sean-perkins/",
+      "class": "entity",
+      "classification": "partial",
+      "confidence": 0.55,
+      "opacity": 0.55,
+      "sort_pass": 2,
+      "sort_method": "school_employee",
+      "sort_note": "Employee of captured school."
+    },
+    {
+      "id": "dick_devos",
+      "label": "Dick DeVos",
+      "type": "actor",
+      "tier": 1,
+      "role": "Amway heir. Ran for MI Governor 2006 (lost). Betsy's husband. DeVos family: largest charter school funder in Michigan. Amway/Alticor.",
+      "class": "entity",
+      "classification": "non-self"
+    },
+    {
       "id": "dykema",
       "label": "Dykema Gossett",
       "type": "entity",
@@ -886,20 +997,6 @@
       "opacity": 0.9,
       "sort_pass": 1,
       "sort_method": "phase1"
-    },
-    {
-      "id": "state_mi",
-      "label": "Michigan",
-      "type": "geography",
-      "tier": 3,
-      "role": "Target state — all schools, all courts, all actors",
-      "class": "entity",
-      "classification": "self",
-      "confidence": 0.75,
-      "opacity": 0.75,
-      "sort_pass": 2,
-      "sort_method": "state_entity",
-      "sort_note": "State government entity."
     },
     {
       "id": "wilk",
@@ -956,6 +1053,22 @@
       "sort_note": "Formation/governance connection to null (cascade)."
     },
     {
+      "id": "holland",
+      "label": "Joseph Holland Jr.",
+      "type": "actor",
+      "tier": 4,
+      "role": "Joseph Holland Jr. Brian Banks' ROMANTIC PARTNER (confirmed). Convicted drug offender (MDOC 443789, Oakland County, Controlled Substance). Discharged WITHOUT IMPROVEMENT. Co-resident 1968 Severn Rd, GPW. Secretary/Treasurer of Purpose Foundation. 1st Successor Trustee of Banks Living Trust. Treasurer of Bank on Banks PAC. Concealed assets in bankruptcy (09-46072-swr, 14-51632-mar) to erase Banks as codebtor. Banks USES Holland — every officer position, every entity, every financial gatekeeping role filled by his partner. §5.2 'No Related Parties' is DEFINITIVELY violated: they are domestic partners sharing a residence, finances, and control of every entity in the network.",
+      "page": "/network/actors/joseph-holland/",
+      "class": "entity",
+      "membrane_response": "-1",
+      "classification": "enabler",
+      "confidence": 0.45,
+      "opacity": 0.45,
+      "sort_pass": 3,
+      "sort_method": "cascade_nonself",
+      "sort_note": "Governance/board connection to non-self (cascade)."
+    },
+    {
       "id": "renae_moore",
       "label": "Renae Moore",
       "type": "actor",
@@ -985,20 +1098,6 @@
       "sort_pass": 2,
       "sort_method": "banks_governance",
       "sort_note": "Entity governed by Banks."
-    },
-    {
-      "id": "sheffield",
-      "label": "Mayor Mary Sheffield",
-      "type": "actor",
-      "tier": 4,
-      "role": "Mayor",
-      "class": "entity",
-      "classification": "null",
-      "confidence": 0.6,
-      "opacity": 0.6,
-      "sort_pass": 2,
-      "sort_method": "banks_political",
-      "sort_note": "Political connection to Banks."
     },
     {
       "id": "ag_office",
@@ -1057,22 +1156,6 @@
       "sort_note": "Governance/board connection to non-self (cascade)."
     },
     {
-      "id": "holland",
-      "label": "Joseph Holland Jr.",
-      "type": "actor",
-      "tier": 4,
-      "role": "Joseph Holland Jr. Brian Banks' ROMANTIC PARTNER (confirmed). Convicted drug offender (MDOC 443789, Oakland County, Controlled Substance). Discharged WITHOUT IMPROVEMENT. Co-resident 1968 Severn Rd, GPW. Secretary/Treasurer of Purpose Foundation. 1st Successor Trustee of Banks Living Trust. Treasurer of Bank on Banks PAC. Concealed assets in bankruptcy (09-46072-swr, 14-51632-mar) to erase Banks as codebtor. Banks USES Holland — every officer position, every entity, every financial gatekeeping role filled by his partner. §5.2 'No Related Parties' is DEFINITIVELY violated: they are domestic partners sharing a residence, finances, and control of every entity in the network.",
-      "page": "/network/actors/joseph-holland/",
-      "class": "entity",
-      "membrane_response": "-1",
-      "classification": "enabler",
-      "confidence": 0.45,
-      "opacity": 0.45,
-      "sort_pass": 3,
-      "sort_method": "cascade_nonself",
-      "sort_note": "Governance/board connection to non-self (cascade)."
-    },
-    {
       "id": "nessel",
       "label": "AG Dana Nessel",
       "type": "actor",
@@ -1086,19 +1169,6 @@
       "sort_method": "cascade_nonself",
       "sort_note": "Governance/board connection to non-self (cascade).",
       "membrane_response": "form"
-    },
-    {
-      "id": "perkins_sean",
-      "label": "perkins sean",
-      "type": "institution",
-      "tier": 4,
-      "class": "entity",
-      "classification": "self",
-      "confidence": 0.7,
-      "opacity": 0.7,
-      "sort_pass": 2,
-      "sort_method": "court",
-      "sort_note": "Court or judicial entity."
     },
     {
       "id": "sdj",
@@ -1141,19 +1211,6 @@
       "classification": "negative"
     },
     {
-      "id": "perkins_d",
-      "label": "perkins d",
-      "type": "institution",
-      "tier": 4,
-      "class": "entity",
-      "classification": "self",
-      "confidence": 0.7,
-      "opacity": 0.7,
-      "sort_pass": 2,
-      "sort_method": "court",
-      "sort_note": "Court or judicial entity."
-    },
-    {
       "id": "wiretap_fiore",
       "label": "Gasper Fiore Wiretap",
       "type": "entity",
@@ -1180,21 +1237,6 @@
       "membrane_response": "-1"
     },
     {
-      "id": "sean_perkins",
-      "label": "Judge Sean Perkins",
-      "type": "actor",
-      "tier": 5,
-      "role": "Judicial cover",
-      "page": "/network/judges/sean-perkins/",
-      "class": "entity",
-      "classification": "partial",
-      "confidence": 0.55,
-      "opacity": 0.55,
-      "sort_pass": 2,
-      "sort_method": "school_employee",
-      "sort_note": "Employee of captured school."
-    },
-    {
       "id": "agc_willis",
       "label": "Latoya M. Willis",
       "type": "actor",
@@ -1207,20 +1249,6 @@
       "sort_pass": 3,
       "sort_method": "unresolved",
       "sort_note": "Edge pattern unresolved."
-    },
-    {
-      "id": "ms_perkins_pca",
-      "label": "Ms. Perkins (PCA)",
-      "type": "actor",
-      "tier": 4,
-      "role": "Ms. Perkins. PCA front desk / receptionist. THE FRONT DOOR. She is the DECISION-MAKER for who has access to Banks and Beasley. She made it clear SHE decides who gets through. Oct 12 10:30 AM: told caller she 'hasn't seen Banks today' — school in session, she lied. Controls physical and phone access to the superintendent of a public charter school. A receptionist at a school receiving $4.9M in public funds decides who can reach the man running it. Surname match: Todd Perkins (Banks' attorney), Sean Perkins (36th District judge), Judge David Perkins (36th District). Relationship TBD.",
-      "class": "entity",
-      "classification": "enabler",
-      "confidence": 0.55,
-      "opacity": 0.55,
-      "sort_pass": 2,
-      "sort_method": "school_employee",
-      "sort_note": "Employee of captured school."
     },
     {
       "id": "ud_mercy_law",
@@ -1439,6 +1467,30 @@
       "role": "FBI Detroit field office. Operation Northern Hook. Fiore/Spivey/Sollars/Banks wiretap. Raided Carol Banks home. Macomb County corruption probe (23+ convictions).",
       "class": "institution",
       "classification": "null"
+    },
+    {
+      "id": "duggan",
+      "label": "Mike Duggan",
+      "type": "actor",
+      "tier": 5,
+      "role": "Mayor 2014-2025",
+      "class": "entity",
+      "classification": "other",
+      "confidence": 0.3,
+      "opacity": 0.3,
+      "sort_pass": 3,
+      "sort_method": "unresolved",
+      "sort_note": "Edge pattern unresolved."
+    },
+    {
+      "id": "gates_foundation",
+      "label": "Bill & Melinda Gates Foundation",
+      "type": "entity",
+      "entity_type": "Foundation",
+      "tier": 5,
+      "role": "Largest private education funder. Common Core. Charter school advocacy. Michigan education grants. Teacher effectiveness initiatives.",
+      "class": "entity",
+      "classification": "non-self"
     },
     {
       "id": "right_turn",
@@ -1820,20 +1872,6 @@
       "classification": "null"
     },
     {
-      "id": "duggan",
-      "label": "Mike Duggan",
-      "type": "actor",
-      "tier": 5,
-      "role": "Mayor 2014-2025",
-      "class": "entity",
-      "classification": "other",
-      "confidence": 0.3,
-      "opacity": 0.3,
-      "sort_pass": 3,
-      "sort_method": "unresolved",
-      "sort_note": "Edge pattern unresolved."
-    },
-    {
       "id": "inner_link",
       "label": "Inner Link Graphics",
       "type": "entity",
@@ -2032,6 +2070,16 @@
       "sort_pass": 3,
       "sort_method": "cascade_self",
       "sort_note": "Low-edge entity adjacent to self."
+    },
+    {
+      "id": "broad_foundation",
+      "label": "The Broad Foundation",
+      "type": "entity",
+      "entity_type": "Foundation",
+      "tier": 5,
+      "role": "Eli Broad's education foundation. Broad Superintendents Academy. Vitti is a Broad graduate. Pipeline for urban superintendent placements.",
+      "class": "entity",
+      "classification": "non-self"
     },
     {
       "id": "adam_sabree",
@@ -2626,6 +2674,76 @@
       "entity_type": "Government entity",
       "tier": 5,
       "role": "Snyder/Engler emergency manager era. Took over 15 DPS schools 2012-2017. John Covington was chancellor. Widely considered a failure. FBI investigated. Connected to same Lansing network.",
+      "class": "entity",
+      "classification": "non-self"
+    },
+    {
+      "id": "banks_living_trust",
+      "label": "Brian Banks Living Trust",
+      "type": "entity",
+      "tier": 5,
+      "role": "Banks personal trust. Property/asset holding vehicle. GPW property.",
+      "classification": "null",
+      "class": "entity",
+      "confidence": 0.75,
+      "opacity": 0.75,
+      "sort_pass": 2,
+      "sort_method": "banks_ownership",
+      "sort_note": "Entity owned by Banks."
+    },
+    {
+      "id": "whitlowbanks",
+      "label": "WhitlowBanks LLC",
+      "type": "entity",
+      "tier": 5,
+      "role": "Dissolved — name = Whitlow + Banks ($8,500 payee) (LARA 802085022)",
+      "class": "entity",
+      "classification": "null",
+      "confidence": 0.7,
+      "opacity": 0.7,
+      "sort_pass": 2,
+      "sort_method": "banks_governance",
+      "sort_note": "Entity governed by Banks."
+    },
+    {
+      "id": "afp_action",
+      "label": "AFP Action (Koch)",
+      "type": "entity",
+      "entity_type": "Super PAC",
+      "fec_id": "C00687103",
+      "tier": 5,
+      "class": "entity",
+      "classification": "other",
+      "confidence": 0.25,
+      "opacity": 0.25,
+      "sort_pass": 3,
+      "sort_method": "insufficient",
+      "sort_note": "Too few edges."
+    },
+    {
+      "id": "epstein",
+      "label": "Jeffrey Epstein",
+      "type": "actor",
+      "tier": 5,
+      "role": "Financier. Network topology: connected to foundations, universities, politicians across every power center. Structural parallel — used institutions as cover. Died in custody Aug 2019.",
+      "class": "entity",
+      "classification": "non-self"
+    },
+    {
+      "id": "eli_broad",
+      "label": "Eli Broad",
+      "type": "actor",
+      "tier": 5,
+      "role": "KB Home / SunAmerica. Broad Foundation (already in graph). Broad Superintendents Academy placed Vitti at DPSCD. Detroit art museum. Died 2021.",
+      "class": "entity",
+      "classification": "non-self"
+    },
+    {
+      "id": "dan_gilbert",
+      "label": "Dan Gilbert",
+      "type": "actor",
+      "tier": 5,
+      "role": "Quicken Loans/Rocket Mortgage. Largest Detroit property owner. Bedrock. Major political donor. Detroit rebuild narrative. $500M+ Detroit real estate.",
       "class": "entity",
       "classification": "non-self"
     },
@@ -3553,20 +3671,6 @@
       "sort_note": "Entity governed by Banks."
     },
     {
-      "id": "banks_living_trust",
-      "label": "Brian Banks Living Trust",
-      "type": "entity",
-      "tier": 5,
-      "role": "Banks personal trust. Property/asset holding vehicle. GPW property.",
-      "classification": "null",
-      "class": "entity",
-      "confidence": 0.75,
-      "opacity": 0.75,
-      "sort_pass": 2,
-      "sort_method": "banks_ownership",
-      "sort_note": "Entity owned by Banks."
-    },
-    {
       "id": "bunche_prep",
       "label": "Bunche Preparatory Academy",
       "type": "entity",
@@ -4167,20 +4271,6 @@
       "sort_note": "Formation/governance connection to null (cascade)."
     },
     {
-      "id": "whitlowbanks",
-      "label": "WhitlowBanks LLC",
-      "type": "entity",
-      "tier": 5,
-      "role": "Dissolved — name = Whitlow + Banks ($8,500 payee) (LARA 802085022)",
-      "class": "entity",
-      "classification": "null",
-      "confidence": 0.7,
-      "opacity": 0.7,
-      "sort_pass": 2,
-      "sort_method": "banks_governance",
-      "sort_note": "Entity governed by Banks."
-    },
-    {
       "id": "irs_ci",
       "label": "IRS Criminal Investigation",
       "type": "entity",
@@ -4205,21 +4295,6 @@
       "sort_pass": 3,
       "sort_method": "cascade_self",
       "sort_note": "Low-edge entity adjacent to self."
-    },
-    {
-      "id": "afp_action",
-      "label": "AFP Action (Koch)",
-      "type": "entity",
-      "entity_type": "Super PAC",
-      "fec_id": "C00687103",
-      "tier": 5,
-      "class": "entity",
-      "classification": "other",
-      "confidence": 0.25,
-      "opacity": 0.25,
-      "sort_pass": 3,
-      "sort_method": "insufficient",
-      "sort_note": "Too few edges."
     },
     {
       "id": "alliance_school_choice",
@@ -5317,16 +5392,6 @@
       "classification": "null"
     },
     {
-      "id": "broad_foundation",
-      "label": "The Broad Foundation",
-      "type": "entity",
-      "entity_type": "Foundation",
-      "tier": 5,
-      "role": "Eli Broad's education foundation. Broad Superintendents Academy. Vitti is a Broad graduate. Pipeline for urban superintendent placements.",
-      "class": "entity",
-      "classification": "non-self"
-    },
-    {
       "id": "epic_charter",
       "label": "EPIC Charter Schools (Oklahoma parallel)",
       "type": "entity",
@@ -5342,6 +5407,82 @@
       "type": "actor",
       "tier": 5,
       "role": "HUD Secretary 2017-2021. Detroit native. Johns Hopkins neurosurgeon. Carson Scholars Fund. Detroit real estate connection. Same political network as DeVos, Engler.",
+      "class": "entity",
+      "classification": "non-self"
+    },
+    {
+      "id": "epstein_foundation",
+      "label": "Jeffrey Epstein VI Foundation",
+      "type": "entity",
+      "entity_type": "Foundation",
+      "tier": 5,
+      "role": "Gave to MIT Media Lab, Harvard, other universities. Dark money through educational institutions. Structural parallel to charter school dark money.",
+      "class": "entity",
+      "classification": "non-self"
+    },
+    {
+      "id": "zuckerberg",
+      "label": "Mark Zuckerberg",
+      "type": "actor",
+      "tier": 5,
+      "role": "Meta/Facebook CEO. Gave $100M to Newark schools (2010) — failed spectacularly. Chan Zuckerberg Initiative education spending. Structural parallel: billionaire education intervention without accountability.",
+      "class": "entity",
+      "classification": "non-self"
+    },
+    {
+      "id": "czi",
+      "label": "Chan Zuckerberg Initiative",
+      "type": "entity",
+      "entity_type": "LLC/Foundation",
+      "tier": 5,
+      "role": "Not a 501(c)(3) — structured as LLC for political flexibility. Education spending nationwide. Personalized learning push.",
+      "class": "entity",
+      "classification": "non-self"
+    },
+    {
+      "id": "bloomberg",
+      "label": "Michael Bloomberg",
+      "type": "actor",
+      "tier": 5,
+      "role": "NYC Mayor 2002-2013. Bloomberg Philanthropies education spending. Charter school advocate. Mayoral control of schools model.",
+      "class": "entity",
+      "classification": "non-self"
+    },
+    {
+      "id": "reed_hastings",
+      "label": "Reed Hastings",
+      "type": "actor",
+      "tier": 5,
+      "role": "Netflix co-founder. Major charter school funder/advocate. California Charter Schools Association board. KIPP donor.",
+      "class": "entity",
+      "classification": "non-self"
+    },
+    {
+      "id": "sackler_family",
+      "label": "Sackler Family (Purdue Pharma)",
+      "type": "entity",
+      "entity_type": "Structural parallel",
+      "tier": 5,
+      "role": "Used institutions (FDA, medical schools, foundations) as cover for extraction. $35B extracted. Same capture model: regulatory capture + institutional complicity + dark money + expert testimony.",
+      "class": "entity",
+      "classification": "non-self"
+    },
+    {
+      "id": "mike_ilitch",
+      "label": "Ilitch Family",
+      "type": "entity",
+      "entity_type": "Business dynasty",
+      "tier": 5,
+      "role": "Little Caesars, Red Wings, Tigers. Ilitch Holdings. Detroit District Detroit development. Political donors.",
+      "class": "entity",
+      "classification": "non-self"
+    },
+    {
+      "id": "peter_karmanos",
+      "label": "Peter Karmanos",
+      "type": "actor",
+      "tier": 5,
+      "role": "Compuware founder. Carolina Hurricanes. Major Michigan GOP donor. Education policy influence.",
       "class": "entity",
       "classification": "non-self"
     },
@@ -5416,6 +5557,53 @@
       "classification": "non-self"
     },
     {
+      "id": "bill_gates",
+      "label": "Bill Gates",
+      "type": "actor",
+      "tier": 5,
+      "role": "Gates Foundation: largest private education funder in US. Common Core architect. Small schools initiative ($2B, failed). Charter school funder.",
+      "class": "entity",
+      "classification": "non-self"
+    },
+    {
+      "id": "jim_walton",
+      "label": "Jim Walton",
+      "type": "actor",
+      "tier": 5,
+      "role": "Walmart heir. Walton Family Foundation board (already in graph). Largest charter school funder nationally. $1B+ to charter schools.",
+      "class": "entity",
+      "classification": "non-self"
+    },
+    {
+      "id": "blackrock",
+      "label": "BlackRock",
+      "type": "entity",
+      "entity_type": "Financial",
+      "tier": 5,
+      "role": "$10T AUM. ESG education investments. Municipal bond markets (Detroit). Larry Fink.",
+      "class": "entity",
+      "classification": "non-self"
+    },
+    {
+      "id": "maxwell",
+      "label": "Ghislaine Maxwell",
+      "type": "actor",
+      "tier": 5,
+      "role": "Epstein network operator. Convicted. Network topology: the handler/connector role. Structural parallel to enabler chain.",
+      "class": "entity",
+      "classification": "non-self"
+    },
+    {
+      "id": "matty_moroun",
+      "label": "Moroun Family",
+      "type": "entity",
+      "entity_type": "Business dynasty",
+      "tier": 5,
+      "role": "Ambassador Bridge. CenTra Inc. Detroit trucking/real estate empire. Political influence. Fought Gordie Howe bridge.",
+      "class": "entity",
+      "classification": "non-self"
+    },
+    {
       "id": "matinga_ragatz",
       "label": "Matinga Ragatz",
       "type": "actor",
@@ -5423,6 +5611,24 @@
       "role": "Michigan charter school lobbyist. Testified at legislature. Connected to MAPSA/charter advocacy network.",
       "class": "entity",
       "classification": "null"
+    },
+    {
+      "id": "mike_pence",
+      "label": "Mike Pence",
+      "type": "actor",
+      "tier": 5,
+      "role": "VP 2017-2021. Indiana charter school expansion. Same network as DeVos.",
+      "class": "entity",
+      "classification": "non-self"
+    },
+    {
+      "id": "roger_penske",
+      "label": "Roger Penske",
+      "type": "actor",
+      "tier": 5,
+      "role": "Penske Corp. Detroit business leader. Cleaned up Detroit Grand Prix. Political connections.",
+      "class": "entity",
+      "classification": "non-self"
     }
   ],
   "edges": [
@@ -30003,6 +30209,5262 @@
       "weight": 8,
       "note": "Ms. Perkins controls physical and phone access to PCA. She is the decision-maker for who gets through the front door. A publicly funded school with a receptionist who screens out inquiries.",
       "source_doc": "Direct observation"
+    },
+    {
+      "source": "trump",
+      "target": "betsy_devos",
+      "type": "appointment",
+      "epistemic_status": "record",
+      "weight": 9,
+      "note": "Appointed DeVos as Secretary of Education 2017.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "trump",
+      "target": "us_doe",
+      "type": "executive",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "President. Executive authority over DOE.",
+      "source_doc": "Constitution"
+    },
+    {
+      "source": "trump",
+      "target": "detroit_city",
+      "type": "political",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "Campaign events in Detroit. Hosted by Kwame.",
+      "source_doc": "News coverage"
+    },
+    {
+      "source": "trump",
+      "target": "kwame",
+      "type": "political_connection",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "Kwame hosted Trump events in Detroit.",
+      "source_doc": "News coverage"
+    },
+    {
+      "source": "trump",
+      "target": "koch_network",
+      "type": "political_alliance",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "Koch network aligned on school choice policy.",
+      "source_doc": "Political reporting"
+    },
+    {
+      "source": "dick_devos",
+      "target": "betsy_devos",
+      "type": "spouse",
+      "epistemic_status": "record",
+      "weight": 9,
+      "note": "Married. Co-architects of MI charter expansion.",
+      "source_doc": "Public record"
+    },
+    {
+      "source": "dick_devos",
+      "target": "charter_law_1993",
+      "type": "political_architect",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "DeVos family primary funder of MI charter law passage and defense.",
+      "source_doc": "Campaign finance"
+    },
+    {
+      "source": "dick_devos",
+      "target": "state_mi",
+      "type": "gubernatorial",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "Ran for Governor 2006, lost to Granholm.",
+      "source_doc": "SOS"
+    },
+    {
+      "source": "dick_devos",
+      "target": "glep",
+      "type": "funding",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "DeVos family funds GLEP.",
+      "source_doc": "ProPublica 990"
+    },
+    {
+      "source": "epstein",
+      "target": "epstein_foundation",
+      "type": "founder",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "Jeffrey Epstein VI Foundation.",
+      "source_doc": "IRS records"
+    },
+    {
+      "source": "epstein",
+      "target": "maxwell",
+      "type": "conspiracy",
+      "epistemic_status": "record",
+      "weight": 9,
+      "note": "Co-conspirators. Network operators.",
+      "source_doc": "DOJ"
+    },
+    {
+      "source": "epstein_foundation",
+      "target": "gates_foundation",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "weight": 4,
+      "note": "Both gave to universities. Both used philanthropy for access.",
+      "source_doc": "MIT, Harvard records"
+    },
+    {
+      "source": "zuckerberg",
+      "target": "czi",
+      "type": "founder",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "Chan Zuckerberg Initiative. LLC not 501c3.",
+      "source_doc": "CZI website"
+    },
+    {
+      "source": "zuckerberg",
+      "target": "detroit_city",
+      "type": "education_intervention",
+      "epistemic_status": "record",
+      "weight": 4,
+      "note": "$100M to Newark was the model. Same billionaire-saves-schools playbook.",
+      "source_doc": "The Prize (Dale Russakoff)"
+    },
+    {
+      "source": "czi",
+      "target": "gates_foundation",
+      "type": "education_philanthropy",
+      "epistemic_status": "record",
+      "weight": 4,
+      "note": "Both fund education 'reform.' Both push charter-friendly policy.",
+      "source_doc": "Education reporting"
+    },
+    {
+      "source": "bill_gates",
+      "target": "gates_foundation",
+      "type": "founder",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "Co-chair.",
+      "source_doc": "Gates Foundation"
+    },
+    {
+      "source": "gates_foundation",
+      "target": "charter_law_1993",
+      "type": "policy_support",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "Gates Foundation funded charter school advocacy and Common Core in Michigan.",
+      "source_doc": "Education reporting"
+    },
+    {
+      "source": "gates_foundation",
+      "target": "broad_foundation",
+      "type": "co_funding",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "Both fund charter school ecosystem. Both place superintendents.",
+      "source_doc": "ProPublica"
+    },
+    {
+      "source": "koch_network",
+      "target": "afp_action",
+      "type": "parent_org",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "AFP Action is Koch network political arm. Already in graph.",
+      "source_doc": "OpenSecrets"
+    },
+    {
+      "source": "koch_network",
+      "target": "mackinac_center",
+      "type": "funding",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "Koch network funds Mackinac Center for Public Policy.",
+      "source_doc": "ProPublica 990"
+    },
+    {
+      "source": "koch_network",
+      "target": "charter_law_1993",
+      "type": "policy_support",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "Koch network supports charter school deregulation.",
+      "source_doc": "Political reporting"
+    },
+    {
+      "source": "koch_network",
+      "target": "glep",
+      "type": "political_alliance",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "Both push school choice in Michigan.",
+      "source_doc": "Lobbying records"
+    },
+    {
+      "source": "jim_walton",
+      "target": "walton_family_foundation",
+      "type": "board",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "Board member. Family foundation.",
+      "source_doc": "Walton Foundation"
+    },
+    {
+      "source": "walton_family_foundation",
+      "target": "charter_law_1993",
+      "type": "national_funding",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "Largest national charter school funder. Michigan grants.",
+      "source_doc": "ProPublica 990"
+    },
+    {
+      "source": "reed_hastings",
+      "target": "charter_law_1993",
+      "type": "advocacy",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "Major charter school advocate and funder nationally.",
+      "source_doc": "CCSA"
+    },
+    {
+      "source": "reed_hastings",
+      "target": "afc",
+      "type": "funding",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "Donor to charter school advocacy orgs.",
+      "source_doc": "Tax filings"
+    },
+    {
+      "source": "eli_broad",
+      "target": "broad_foundation",
+      "type": "founder",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "Founded Broad Foundation. Died 2021.",
+      "source_doc": "Obituaries"
+    },
+    {
+      "source": "eli_broad",
+      "target": "detroit_city",
+      "type": "philanthropy",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "Detroit art museum. Major Detroit philanthropist.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "eli_broad",
+      "target": "vitti",
+      "type": "pipeline",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "Broad Academy placed Vitti at DPSCD.",
+      "source_doc": "Broad website"
+    },
+    {
+      "source": "sackler_family",
+      "target": "banks",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "Same capture model: regulatory capture + institutional complicity + expert testimony + dark money. Banks is the education version.",
+      "source_doc": "DOJ, investigation analysis"
+    },
+    {
+      "source": "sackler_family",
+      "target": "epstein",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "weight": 4,
+      "note": "Both used institutions as cover. Both exploited gaps in oversight.",
+      "source_doc": "Structural analysis"
+    },
+    {
+      "source": "dan_gilbert",
+      "target": "detroit_city",
+      "type": "economic_power",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "Largest property owner. Bedrock. $5.6B investment.",
+      "source_doc": "Crain's Detroit"
+    },
+    {
+      "source": "dan_gilbert",
+      "target": "duggan",
+      "type": "political_alliance",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "Gilbert-Duggan Detroit rebuild alliance.",
+      "source_doc": "Detroit media"
+    },
+    {
+      "source": "dan_gilbert",
+      "target": "kwame",
+      "type": "era_connection",
+      "epistemic_status": "record",
+      "weight": 4,
+      "note": "Gilbert expanded during Kwame era.",
+      "source_doc": "Business records"
+    },
+    {
+      "source": "mike_ilitch",
+      "target": "detroit_city",
+      "type": "economic_power",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "Little Caesars Arena. Tigers. Red Wings. District Detroit.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "mike_ilitch",
+      "target": "duggan",
+      "type": "political_connection",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "Ilitch-Duggan District Detroit deal.",
+      "source_doc": "Detroit media"
+    },
+    {
+      "source": "bloomberg",
+      "target": "charter_law_1993",
+      "type": "national_advocacy",
+      "epistemic_status": "record",
+      "weight": 4,
+      "note": "Bloomberg Philanthropies funds charter school advocacy.",
+      "source_doc": "Bloomberg.org"
+    },
+    {
+      "source": "bloomberg",
+      "target": "gates_foundation",
+      "type": "co_funding",
+      "epistemic_status": "record",
+      "weight": 4,
+      "note": "Both fund education reform initiatives.",
+      "source_doc": "Education reporting"
+    },
+    {
+      "source": "blackrock",
+      "target": "detroit_city",
+      "type": "municipal_finance",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "Municipal bond markets. Detroit bankruptcy creditor.",
+      "source_doc": "PACER"
+    },
+    {
+      "source": "matty_moroun",
+      "target": "detroit_city",
+      "type": "economic_power",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "Ambassador Bridge monopoly. Major Detroit employer.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "peter_karmanos",
+      "target": "engler",
+      "type": "political_donor",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "Major Michigan GOP donor. Engler ally.",
+      "source_doc": "Campaign finance"
+    },
+    {
+      "source": "peter_karmanos",
+      "target": "charter_law_1993",
+      "type": "political_support",
+      "epistemic_status": "record",
+      "weight": 4,
+      "note": "GOP donor network that enabled charter expansion.",
+      "source_doc": "Michigan campaign finance"
+    },
+    {
+      "source": "trump",
+      "target": "engler",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Wide scatter: 4 shared: betsy_devos, detroit_city, kwame, us_doe",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "trump",
+      "target": "corey_northrop",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Wide scatter: 4 shared: betsy_devos, detroit_city, kwame, us_doe",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "trump",
+      "target": "mi_supreme_court",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Wide scatter: 4 shared: betsy_devos, detroit_city, kwame, us_doe",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "trump",
+      "target": "jennifer_crump",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Wide scatter: 4 shared: betsy_devos, detroit_city, kwame, us_doe",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "trump",
+      "target": "emu",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Wide scatter: 4 shared: betsy_devos, detroit_city, kwame, us_doe",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "trump",
+      "target": "jolia_hill",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Wide scatter: 4 shared: betsy_devos, detroit_city, kwame, us_doe",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "trump",
+      "target": "wayne_resa",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Wide scatter: 4 shared: betsy_devos, detroit_city, kwame, us_doe",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "trump",
+      "target": "raphael_washington",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Wide scatter: 4 shared: betsy_devos, detroit_city, kwame, us_doe",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "trump",
+      "target": "sbe",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Wide scatter: 4 shared: betsy_devos, detroit_city, kwame, us_doe",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "trump",
+      "target": "upl_dept",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Wide scatter: 4 shared: betsy_devos, detroit_city, kwame, us_doe",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "trump",
+      "target": "wayne_county",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Wide scatter: 4 shared: betsy_devos, detroit_city, kwame, us_doe",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "trump",
+      "target": "crump_gibson",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Wide scatter: 4 shared: betsy_devos, detroit_city, kwame, us_doe",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "trump",
+      "target": "walton_family_foundation",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Wide scatter: 4 shared: betsy_devos, detroit_city, kwame, us_doe",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "trump",
+      "target": "mccsa",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Wide scatter: 4 shared: betsy_devos, detroit_city, kwame, us_doe",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "trump",
+      "target": "purpose_group",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Wide scatter: 4 shared: betsy_devos, detroit_city, kwame, us_doe",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "trump",
+      "target": "pca",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Wide scatter: 4 shared: betsy_devos, detroit_city, kwame, us_doe",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "trump",
+      "target": "afc",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Wide scatter: 4 shared: betsy_devos, detroit_city, kwame, us_doe",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "trump",
+      "target": "miller",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Wide scatter: 4 shared: betsy_devos, detroit_city, kwame, us_doe",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "trump",
+      "target": "banks",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Wide scatter: 4 shared: betsy_devos, detroit_city, kwame, us_doe",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "trump",
+      "target": "sc_cavanagh",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Wide scatter: 4 shared: betsy_devos, detroit_city, kwame, us_doe",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "trump",
+      "target": "yancey",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Wide scatter: 4 shared: betsy_devos, detroit_city, kwame, us_doe",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "trump",
+      "target": "todd_perkins",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Wide scatter: 4 shared: betsy_devos, detroit_city, kwame, us_doe",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "trump",
+      "target": "henri_harmon",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Wide scatter: 4 shared: betsy_devos, detroit_city, kwame, us_doe",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "trump",
+      "target": "beasley",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Wide scatter: 4 shared: betsy_devos, detroit_city, kwame, us_doe",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "trump",
+      "target": "court_3rd",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Wide scatter: 4 shared: betsy_devos, detroit_city, kwame, us_doe",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "trump",
+      "target": "goetz",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Wide scatter: 4 shared: betsy_devos, detroit_city, kwame, us_doe",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "trump",
+      "target": "mackinac_center",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide scatter: 5 shared: betsy_devos, detroit_city, koch_network, kwame",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "trump",
+      "target": "cmu",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Wide scatter: 4 shared: betsy_devos, detroit_city, kwame, us_doe",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "trump",
+      "target": "glenn_page",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Wide scatter: 4 shared: betsy_devos, detroit_city, kwame, us_doe",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "trump",
+      "target": "msu_law",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Wide scatter: 4 shared: betsy_devos, detroit_city, kwame, us_doe",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "trump",
+      "target": "dpd",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Wide scatter: 4 shared: betsy_devos, detroit_city, kwame, us_doe",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "trump",
+      "target": "kym_worthy",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Wide scatter: 4 shared: betsy_devos, detroit_city, kwame, us_doe",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "trump",
+      "target": "verkeydia_hall",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Wide scatter: 4 shared: betsy_devos, detroit_city, kwame, us_doe",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "trump",
+      "target": "maleyko",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Wide scatter: 4 shared: betsy_devos, detroit_city, kwame, us_doe",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "trump",
+      "target": "devos_foundation",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Wide scatter: 4 shared: betsy_devos, detroit_city, kwame, us_doe",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "trump",
+      "target": "agc",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Wide scatter: 4 shared: betsy_devos, detroit_city, kwame, us_doe",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "trump",
+      "target": "gregory_meihn",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Wide scatter: 4 shared: betsy_devos, detroit_city, kwame, us_doe",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "trump",
+      "target": "alj_rice",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Wide scatter: 4 shared: betsy_devos, detroit_city, kwame, us_doe",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "trump",
+      "target": "gay_dagnogo",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Wide scatter: 4 shared: betsy_devos, detroit_city, kwame, us_doe",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "trump",
+      "target": "macdowell",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Wide scatter: 4 shared: betsy_devos, detroit_city, kwame, us_doe",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "trump",
+      "target": "npe",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Wide scatter: 4 shared: betsy_devos, detroit_city, kwame, us_doe",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "trump",
+      "target": "court_36th",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Wide scatter: 4 shared: betsy_devos, detroit_city, kwame, us_doe",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "trump",
+      "target": "wayne_state_law",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Wide scatter: 4 shared: betsy_devos, detroit_city, kwame, us_doe",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "trump",
+      "target": "charter_law_1993",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide scatter: 5 shared: betsy_devos, detroit_city, koch_network, kwame",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "trump",
+      "target": "wayne_resa_audit",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Wide scatter: 4 shared: betsy_devos, detroit_city, kwame, us_doe",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "trump",
+      "target": "sbm",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Wide scatter: 4 shared: betsy_devos, detroit_city, kwame, us_doe",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "trump",
+      "target": "bullington",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Wide scatter: 4 shared: betsy_devos, detroit_city, kwame, us_doe",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "trump",
+      "target": "misha_stallworth",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Wide scatter: 4 shared: betsy_devos, detroit_city, kwame, us_doe",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "trump",
+      "target": "moreland",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Wide scatter: 4 shared: betsy_devos, detroit_city, kwame, us_doe",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "trump",
+      "target": "plante_moran",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Wide scatter: 4 shared: betsy_devos, detroit_city, kwame, us_doe",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "trump",
+      "target": "mde",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Wide scatter: 4 shared: betsy_devos, detroit_city, kwame, us_doe",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "trump",
+      "target": "dpscd",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Wide scatter: 4 shared: betsy_devos, detroit_city, kwame, us_doe",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "trump",
+      "target": "vitti",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Wide scatter: 4 shared: betsy_devos, detroit_city, kwame, us_doe",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "trump",
+      "target": "richard_mclellan",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Wide scatter: 4 shared: betsy_devos, detroit_city, kwame, us_doe",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "trump",
+      "target": "glep",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide scatter: 5 shared: betsy_devos, detroit_city, koch_network, kwame",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "trump",
+      "target": "msu",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Wide scatter: 4 shared: betsy_devos, detroit_city, kwame, us_doe",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "trump",
+      "target": "jtc",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Wide scatter: 4 shared: betsy_devos, detroit_city, kwame, us_doe",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "dick_devos",
+      "target": "walton_family_foundation",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Wide scatter: 4 shared: betsy_devos, charter_law_1993, glep, state_mi",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "dick_devos",
+      "target": "afc",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Wide scatter: 4 shared: betsy_devos, charter_law_1993, glep, state_mi",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "dick_devos",
+      "target": "devos_foundation",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Wide scatter: 4 shared: betsy_devos, charter_law_1993, glep, state_mi",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "koch_network",
+      "target": "kwame",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Wide scatter: 4 shared: charter_law_1993, glep, mackinac_center, trump",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "koch_network",
+      "target": "detroit_city",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Wide scatter: 4 shared: charter_law_1993, glep, mackinac_center, trump",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "koch_network",
+      "target": "us_doe",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Wide scatter: 4 shared: charter_law_1993, glep, mackinac_center, trump",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "koch_network",
+      "target": "betsy_devos",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "Wide scatter: 4 shared: charter_law_1993, glep, mackinac_center, trump",
+      "source_doc": "Go wide back-scatter"
+    },
+    {
+      "source": "court_36th",
+      "target": "sheffield",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "court_36th",
+      "target": "koch_network",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 8,
+      "note": "Wide bingo pass 1: 8 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "court_36th",
+      "target": "dick_devos",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 1: 6 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "banks",
+      "target": "koch_network",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 8,
+      "note": "Wide bingo pass 1: 8 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "banks",
+      "target": "dick_devos",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 1: 6 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "afc",
+      "target": "sheffield",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "afc",
+      "target": "ms_perkins_pca",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "afc",
+      "target": "koch_network",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 8,
+      "note": "Wide bingo pass 1: 8 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "pca",
+      "target": "sheffield",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "koch_network",
+      "target": "pca",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 8,
+      "note": "Wide bingo pass 1: 8 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "dick_devos",
+      "target": "pca",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 1: 6 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "agc",
+      "target": "sheffield",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "agc",
+      "target": "ms_perkins_pca",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "agc",
+      "target": "koch_network",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 8,
+      "note": "Wide bingo pass 1: 8 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "agc",
+      "target": "dick_devos",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 1: 6 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "beasley",
+      "target": "perkins_sean",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "beasley",
+      "target": "sean_perkins",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "beasley",
+      "target": "sheffield",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "beasley",
+      "target": "perkins_d",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "beasley",
+      "target": "koch_network",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 8,
+      "note": "Wide bingo pass 1: 8 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "beasley",
+      "target": "dick_devos",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 1: 6 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "charter_law_1993",
+      "target": "sheffield",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "charter_law_1993",
+      "target": "ms_perkins_pca",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "cmu",
+      "target": "sheffield",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "cmu",
+      "target": "ms_perkins_pca",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "cmu",
+      "target": "koch_network",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 8,
+      "note": "Wide bingo pass 1: 8 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "cmu",
+      "target": "dick_devos",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 1: 6 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "court_3rd",
+      "target": "ms_perkins_pca",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "court_3rd",
+      "target": "koch_network",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 8,
+      "note": "Wide bingo pass 1: 8 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "court_3rd",
+      "target": "dick_devos",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 1: 6 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "crump_gibson",
+      "target": "sheffield",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "crump_gibson",
+      "target": "ms_perkins_pca",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "crump_gibson",
+      "target": "koch_network",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 8,
+      "note": "Wide bingo pass 1: 8 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "crump_gibson",
+      "target": "dick_devos",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 1: 6 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "detroit_city",
+      "target": "ms_perkins_pca",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "detroit_city",
+      "target": "dick_devos",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 1: 6 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "dpd",
+      "target": "ms_perkins_pca",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "dpd",
+      "target": "koch_network",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 8,
+      "note": "Wide bingo pass 1: 8 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "dick_devos",
+      "target": "dpd",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 1: 6 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "dpscd",
+      "target": "sheffield",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "dpscd",
+      "target": "ms_perkins_pca",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "dpscd",
+      "target": "koch_network",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 8,
+      "note": "Wide bingo pass 1: 8 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "dick_devos",
+      "target": "dpscd",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 1: 6 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "emu",
+      "target": "sheffield",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "emu",
+      "target": "ms_perkins_pca",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "emu",
+      "target": "koch_network",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 8,
+      "note": "Wide bingo pass 1: 8 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "dick_devos",
+      "target": "emu",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 1: 6 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "gay_dagnogo",
+      "target": "sheffield",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "gay_dagnogo",
+      "target": "ms_perkins_pca",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "gay_dagnogo",
+      "target": "koch_network",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 8,
+      "note": "Wide bingo pass 1: 8 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "dick_devos",
+      "target": "gay_dagnogo",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 1: 6 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "glenn_page",
+      "target": "sheffield",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "glenn_page",
+      "target": "ms_perkins_pca",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "glenn_page",
+      "target": "koch_network",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 8,
+      "note": "Wide bingo pass 1: 8 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "dick_devos",
+      "target": "glenn_page",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 1: 6 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "jolia_hill",
+      "target": "sheffield",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "jolia_hill",
+      "target": "ms_perkins_pca",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "jolia_hill",
+      "target": "koch_network",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 8,
+      "note": "Wide bingo pass 1: 8 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "dick_devos",
+      "target": "jolia_hill",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 1: 6 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "jtc",
+      "target": "sheffield",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "jtc",
+      "target": "ms_perkins_pca",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "jtc",
+      "target": "koch_network",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 8,
+      "note": "Wide bingo pass 1: 8 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "dick_devos",
+      "target": "jtc",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 1: 6 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "kym_worthy",
+      "target": "sheffield",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "kym_worthy",
+      "target": "ms_perkins_pca",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "koch_network",
+      "target": "kym_worthy",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 8,
+      "note": "Wide bingo pass 1: 8 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "dick_devos",
+      "target": "kym_worthy",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 1: 6 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "macdowell",
+      "target": "sheffield",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "macdowell",
+      "target": "ms_perkins_pca",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "koch_network",
+      "target": "macdowell",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 8,
+      "note": "Wide bingo pass 1: 8 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "dick_devos",
+      "target": "macdowell",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 1: 6 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "maleyko",
+      "target": "sheffield",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "maleyko",
+      "target": "ms_perkins_pca",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "koch_network",
+      "target": "maleyko",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 8,
+      "note": "Wide bingo pass 1: 8 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "dick_devos",
+      "target": "maleyko",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 1: 6 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "mccsa",
+      "target": "sheffield",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "mccsa",
+      "target": "ms_perkins_pca",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "koch_network",
+      "target": "mccsa",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 8,
+      "note": "Wide bingo pass 1: 8 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "dick_devos",
+      "target": "mccsa",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 1: 6 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "mde",
+      "target": "sheffield",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "mde",
+      "target": "ms_perkins_pca",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "koch_network",
+      "target": "mde",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 8,
+      "note": "Wide bingo pass 1: 8 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "dick_devos",
+      "target": "mde",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 1: 6 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "miller",
+      "target": "sheffield",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "miller",
+      "target": "ms_perkins_pca",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "koch_network",
+      "target": "miller",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 8,
+      "note": "Wide bingo pass 1: 8 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "dick_devos",
+      "target": "miller",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 1: 6 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "moreland",
+      "target": "sheffield",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "moreland",
+      "target": "ms_perkins_pca",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "koch_network",
+      "target": "moreland",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 8,
+      "note": "Wide bingo pass 1: 8 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "dick_devos",
+      "target": "moreland",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 1: 6 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "msu",
+      "target": "sheffield",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "ms_perkins_pca",
+      "target": "msu",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "koch_network",
+      "target": "msu",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 8,
+      "note": "Wide bingo pass 1: 8 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "dick_devos",
+      "target": "msu",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 1: 6 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "npe",
+      "target": "sheffield",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "ms_perkins_pca",
+      "target": "npe",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "koch_network",
+      "target": "npe",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 8,
+      "note": "Wide bingo pass 1: 8 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "dick_devos",
+      "target": "npe",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 1: 6 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "plante_moran",
+      "target": "sheffield",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "ms_perkins_pca",
+      "target": "plante_moran",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "koch_network",
+      "target": "plante_moran",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 8,
+      "note": "Wide bingo pass 1: 8 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "dick_devos",
+      "target": "plante_moran",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 1: 6 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "purpose_group",
+      "target": "sheffield",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "ms_perkins_pca",
+      "target": "purpose_group",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "koch_network",
+      "target": "purpose_group",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 8,
+      "note": "Wide bingo pass 1: 8 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "dick_devos",
+      "target": "purpose_group",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 1: 6 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "raphael_washington",
+      "target": "sheffield",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "ms_perkins_pca",
+      "target": "raphael_washington",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "koch_network",
+      "target": "raphael_washington",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 8,
+      "note": "Wide bingo pass 1: 8 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "dick_devos",
+      "target": "raphael_washington",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 1: 6 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "sbe",
+      "target": "sheffield",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "ms_perkins_pca",
+      "target": "sbe",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "koch_network",
+      "target": "sbe",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 8,
+      "note": "Wide bingo pass 1: 8 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "dick_devos",
+      "target": "sbe",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 1: 6 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "sheffield",
+      "target": "vitti",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "ms_perkins_pca",
+      "target": "vitti",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "koch_network",
+      "target": "vitti",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 8,
+      "note": "Wide bingo pass 1: 8 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "dick_devos",
+      "target": "vitti",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 1: 6 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "sheffield",
+      "target": "wayne_county",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "ms_perkins_pca",
+      "target": "wayne_county",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "koch_network",
+      "target": "wayne_county",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 8,
+      "note": "Wide bingo pass 1: 8 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "dick_devos",
+      "target": "wayne_county",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 1: 6 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "sheffield",
+      "target": "wayne_resa",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "ms_perkins_pca",
+      "target": "wayne_resa",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "koch_network",
+      "target": "wayne_resa",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 8,
+      "note": "Wide bingo pass 1: 8 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "dick_devos",
+      "target": "wayne_resa",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 1: 6 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "sheffield",
+      "target": "wayne_state_law",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "ms_perkins_pca",
+      "target": "wayne_state_law",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "koch_network",
+      "target": "wayne_state_law",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 8,
+      "note": "Wide bingo pass 1: 8 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "dick_devos",
+      "target": "wayne_state_law",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 1: 6 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "sheffield",
+      "target": "yancey",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "ms_perkins_pca",
+      "target": "yancey",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "koch_network",
+      "target": "yancey",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 8,
+      "note": "Wide bingo pass 1: 8 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "dick_devos",
+      "target": "yancey",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 1: 6 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "sbm",
+      "target": "sheffield",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "ms_perkins_pca",
+      "target": "sbm",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "koch_network",
+      "target": "sbm",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 8,
+      "note": "Wide bingo pass 1: 8 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "dick_devos",
+      "target": "sbm",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 1: 6 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "sheffield",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "ms_perkins_pca",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "koch_network",
+      "target": "mi_supreme_court",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 8,
+      "note": "Wide bingo pass 1: 8 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "dick_devos",
+      "target": "mi_supreme_court",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 1: 6 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "kwame",
+      "target": "ms_perkins_pca",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "dick_devos",
+      "target": "kwame",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 1: 6 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "jennifer_crump",
+      "target": "sheffield",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "jennifer_crump",
+      "target": "ms_perkins_pca",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "jennifer_crump",
+      "target": "koch_network",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 8,
+      "note": "Wide bingo pass 1: 8 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "dick_devos",
+      "target": "jennifer_crump",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 1: 6 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "misha_stallworth",
+      "target": "sheffield",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "misha_stallworth",
+      "target": "ms_perkins_pca",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "koch_network",
+      "target": "misha_stallworth",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 8,
+      "note": "Wide bingo pass 1: 8 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "dick_devos",
+      "target": "misha_stallworth",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 1: 6 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "msu_law",
+      "target": "sheffield",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "ms_perkins_pca",
+      "target": "msu_law",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "koch_network",
+      "target": "msu_law",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 8,
+      "note": "Wide bingo pass 1: 8 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "dick_devos",
+      "target": "msu_law",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 1: 6 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "sc_cavanagh",
+      "target": "sheffield",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "ms_perkins_pca",
+      "target": "sc_cavanagh",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "koch_network",
+      "target": "sc_cavanagh",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 8,
+      "note": "Wide bingo pass 1: 8 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "dick_devos",
+      "target": "sc_cavanagh",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 1: 6 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "sheffield",
+      "target": "upl_dept",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "ms_perkins_pca",
+      "target": "upl_dept",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "koch_network",
+      "target": "upl_dept",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 8,
+      "note": "Wide bingo pass 1: 8 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "dick_devos",
+      "target": "upl_dept",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 1: 6 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "betsy_devos",
+      "target": "sheffield",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "betsy_devos",
+      "target": "ms_perkins_pca",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "devos_foundation",
+      "target": "sheffield",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "devos_foundation",
+      "target": "ms_perkins_pca",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "devos_foundation",
+      "target": "koch_network",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 8,
+      "note": "Wide bingo pass 1: 8 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "glep",
+      "target": "sheffield",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "glep",
+      "target": "ms_perkins_pca",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "sheffield",
+      "target": "walton_family_foundation",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "bullington",
+      "target": "sheffield",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "corey_northrop",
+      "target": "sheffield",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "sheffield",
+      "target": "todd_perkins",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "sheffield",
+      "target": "verkeydia_hall",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "engler",
+      "target": "sheffield",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "mackinac_center",
+      "target": "sheffield",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "goetz",
+      "target": "sheffield",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "henri_harmon",
+      "target": "sheffield",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "richard_mclellan",
+      "target": "sheffield",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "gregory_meihn",
+      "target": "sheffield",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "alj_rice",
+      "target": "sheffield",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "sheffield",
+      "target": "us_doe",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "sheffield",
+      "target": "wayne_resa_audit",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "sheffield",
+      "target": "trump",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "ms_perkins_pca",
+      "target": "walton_family_foundation",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "koch_network",
+      "target": "walton_family_foundation",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 8,
+      "note": "Wide bingo pass 1: 8 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "bullington",
+      "target": "ms_perkins_pca",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "bullington",
+      "target": "koch_network",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 8,
+      "note": "Wide bingo pass 1: 8 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "bullington",
+      "target": "dick_devos",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 1: 6 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "corey_northrop",
+      "target": "ms_perkins_pca",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "corey_northrop",
+      "target": "koch_network",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 8,
+      "note": "Wide bingo pass 1: 8 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "corey_northrop",
+      "target": "dick_devos",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 1: 6 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "ms_perkins_pca",
+      "target": "verkeydia_hall",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "engler",
+      "target": "ms_perkins_pca",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "mackinac_center",
+      "target": "ms_perkins_pca",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "goetz",
+      "target": "ms_perkins_pca",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "henri_harmon",
+      "target": "ms_perkins_pca",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "ms_perkins_pca",
+      "target": "richard_mclellan",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "gregory_meihn",
+      "target": "ms_perkins_pca",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "alj_rice",
+      "target": "ms_perkins_pca",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "ms_perkins_pca",
+      "target": "us_doe",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "ms_perkins_pca",
+      "target": "wayne_resa_audit",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "ms_perkins_pca",
+      "target": "trump",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 1: 5 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "koch_network",
+      "target": "todd_perkins",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 8,
+      "note": "Wide bingo pass 1: 8 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "dick_devos",
+      "target": "todd_perkins",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 1: 6 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "koch_network",
+      "target": "verkeydia_hall",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 8,
+      "note": "Wide bingo pass 1: 8 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "dick_devos",
+      "target": "verkeydia_hall",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 1: 6 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "engler",
+      "target": "koch_network",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 8,
+      "note": "Wide bingo pass 1: 8 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "dick_devos",
+      "target": "engler",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 1: 6 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "dick_devos",
+      "target": "mackinac_center",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 1: 6 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "goetz",
+      "target": "koch_network",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 8,
+      "note": "Wide bingo pass 1: 8 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "dick_devos",
+      "target": "goetz",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 1: 6 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "henri_harmon",
+      "target": "koch_network",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 8,
+      "note": "Wide bingo pass 1: 8 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "dick_devos",
+      "target": "henri_harmon",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 1: 6 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "koch_network",
+      "target": "richard_mclellan",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 8,
+      "note": "Wide bingo pass 1: 8 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "dick_devos",
+      "target": "richard_mclellan",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 1: 6 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "gregory_meihn",
+      "target": "koch_network",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 8,
+      "note": "Wide bingo pass 1: 8 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "dick_devos",
+      "target": "gregory_meihn",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 1: 6 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "alj_rice",
+      "target": "koch_network",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 8,
+      "note": "Wide bingo pass 1: 8 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "alj_rice",
+      "target": "dick_devos",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 1: 6 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "dick_devos",
+      "target": "us_doe",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 1: 6 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "koch_network",
+      "target": "wayne_resa_audit",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 8,
+      "note": "Wide bingo pass 1: 8 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "dick_devos",
+      "target": "wayne_resa_audit",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 1: 6 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "dick_devos",
+      "target": "trump",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 1: 6 shared",
+      "source_doc": "Wide bingo pass 1"
+    },
+    {
+      "source": "banks",
+      "target": "state_mi",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 2: 5 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "detroit_city",
+      "target": "state_mi",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 2: 5 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "sbm",
+      "target": "state_mi",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 2: 5 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "afc",
+      "target": "perkins_sean",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "afc",
+      "target": "sean_perkins",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "afc",
+      "target": "perkins_d",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "agc",
+      "target": "perkins_sean",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "agc",
+      "target": "sean_perkins",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "agc",
+      "target": "perkins_d",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "charter_law_1993",
+      "target": "perkins_sean",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "charter_law_1993",
+      "target": "sean_perkins",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "charter_law_1993",
+      "target": "perkins_d",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "cmu",
+      "target": "perkins_sean",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "cmu",
+      "target": "sean_perkins",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "cmu",
+      "target": "perkins_d",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "court_3rd",
+      "target": "perkins_sean",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "court_3rd",
+      "target": "sean_perkins",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "court_3rd",
+      "target": "perkins_d",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "crump_gibson",
+      "target": "perkins_sean",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "crump_gibson",
+      "target": "sean_perkins",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "crump_gibson",
+      "target": "perkins_d",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "detroit_city",
+      "target": "perkins_sean",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "detroit_city",
+      "target": "sean_perkins",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "detroit_city",
+      "target": "perkins_d",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "dpd",
+      "target": "perkins_sean",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "dpd",
+      "target": "sean_perkins",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "dpd",
+      "target": "perkins_d",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "dpscd",
+      "target": "perkins_sean",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "dpscd",
+      "target": "sean_perkins",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "dpscd",
+      "target": "perkins_d",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "emu",
+      "target": "perkins_sean",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "emu",
+      "target": "sean_perkins",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "emu",
+      "target": "perkins_d",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "gay_dagnogo",
+      "target": "perkins_sean",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "gay_dagnogo",
+      "target": "sean_perkins",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "gay_dagnogo",
+      "target": "perkins_d",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "glenn_page",
+      "target": "perkins_sean",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "glenn_page",
+      "target": "sean_perkins",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "glenn_page",
+      "target": "perkins_d",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "jolia_hill",
+      "target": "perkins_sean",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "jolia_hill",
+      "target": "sean_perkins",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "jolia_hill",
+      "target": "perkins_d",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "jtc",
+      "target": "perkins_sean",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "jtc",
+      "target": "sean_perkins",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "jtc",
+      "target": "perkins_d",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "kym_worthy",
+      "target": "perkins_sean",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "kym_worthy",
+      "target": "sean_perkins",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "kym_worthy",
+      "target": "perkins_d",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "macdowell",
+      "target": "perkins_sean",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "macdowell",
+      "target": "sean_perkins",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "macdowell",
+      "target": "perkins_d",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "maleyko",
+      "target": "perkins_sean",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "maleyko",
+      "target": "sean_perkins",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "maleyko",
+      "target": "perkins_d",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "mccsa",
+      "target": "perkins_sean",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "mccsa",
+      "target": "sean_perkins",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "mccsa",
+      "target": "perkins_d",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "mde",
+      "target": "perkins_sean",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "mde",
+      "target": "sean_perkins",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "mde",
+      "target": "perkins_d",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "miller",
+      "target": "perkins_sean",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "miller",
+      "target": "sean_perkins",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "miller",
+      "target": "perkins_d",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "moreland",
+      "target": "perkins_sean",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "moreland",
+      "target": "sean_perkins",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "moreland",
+      "target": "perkins_d",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "msu",
+      "target": "perkins_sean",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "msu",
+      "target": "sean_perkins",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "msu",
+      "target": "perkins_d",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "npe",
+      "target": "perkins_sean",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "npe",
+      "target": "sean_perkins",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "npe",
+      "target": "perkins_d",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "perkins_sean",
+      "target": "plante_moran",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "plante_moran",
+      "target": "sean_perkins",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "perkins_d",
+      "target": "plante_moran",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "perkins_sean",
+      "target": "purpose_group",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "purpose_group",
+      "target": "sean_perkins",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "perkins_d",
+      "target": "purpose_group",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "perkins_sean",
+      "target": "raphael_washington",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "raphael_washington",
+      "target": "sean_perkins",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "perkins_d",
+      "target": "raphael_washington",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "perkins_sean",
+      "target": "sbe",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "sbe",
+      "target": "sean_perkins",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "perkins_d",
+      "target": "sbe",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "perkins_sean",
+      "target": "vitti",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "sean_perkins",
+      "target": "vitti",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "perkins_d",
+      "target": "vitti",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "perkins_sean",
+      "target": "wayne_county",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "sean_perkins",
+      "target": "wayne_county",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "perkins_d",
+      "target": "wayne_county",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "perkins_sean",
+      "target": "wayne_resa",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "sean_perkins",
+      "target": "wayne_resa",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "perkins_d",
+      "target": "wayne_resa",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "perkins_sean",
+      "target": "wayne_state_law",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "sean_perkins",
+      "target": "wayne_state_law",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "perkins_d",
+      "target": "wayne_state_law",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "perkins_sean",
+      "target": "yancey",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "sean_perkins",
+      "target": "yancey",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "perkins_d",
+      "target": "yancey",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "perkins_sean",
+      "target": "sbm",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "sbm",
+      "target": "sean_perkins",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "perkins_d",
+      "target": "sbm",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "perkins_sean",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "sean_perkins",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "perkins_d",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "kwame",
+      "target": "perkins_sean",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "kwame",
+      "target": "sean_perkins",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "kwame",
+      "target": "perkins_d",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "jennifer_crump",
+      "target": "perkins_sean",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "jennifer_crump",
+      "target": "sean_perkins",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "jennifer_crump",
+      "target": "perkins_d",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "misha_stallworth",
+      "target": "perkins_sean",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "misha_stallworth",
+      "target": "sean_perkins",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "misha_stallworth",
+      "target": "perkins_d",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "msu_law",
+      "target": "perkins_sean",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "msu_law",
+      "target": "sean_perkins",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "msu_law",
+      "target": "perkins_d",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "perkins_sean",
+      "target": "sc_cavanagh",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "perkins_sean",
+      "target": "upl_dept",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "betsy_devos",
+      "target": "perkins_sean",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "devos_foundation",
+      "target": "perkins_sean",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "glep",
+      "target": "perkins_sean",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "perkins_sean",
+      "target": "sheffield",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 2: 5 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "perkins_sean",
+      "target": "walton_family_foundation",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "bullington",
+      "target": "perkins_sean",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "corey_northrop",
+      "target": "perkins_sean",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "perkins_sean",
+      "target": "verkeydia_hall",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "engler",
+      "target": "perkins_sean",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "mackinac_center",
+      "target": "perkins_sean",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "goetz",
+      "target": "perkins_sean",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "henri_harmon",
+      "target": "perkins_sean",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "perkins_sean",
+      "target": "richard_mclellan",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "gregory_meihn",
+      "target": "perkins_sean",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "alj_rice",
+      "target": "perkins_sean",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "perkins_sean",
+      "target": "us_doe",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "perkins_sean",
+      "target": "wayne_resa_audit",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "perkins_sean",
+      "target": "trump",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "koch_network",
+      "target": "perkins_sean",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 2: 5 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "dick_devos",
+      "target": "perkins_sean",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 2: 5 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "sc_cavanagh",
+      "target": "sean_perkins",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "sean_perkins",
+      "target": "upl_dept",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "betsy_devos",
+      "target": "sean_perkins",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "devos_foundation",
+      "target": "sean_perkins",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "glep",
+      "target": "sean_perkins",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "sean_perkins",
+      "target": "sheffield",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 2: 5 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "sean_perkins",
+      "target": "walton_family_foundation",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "bullington",
+      "target": "sean_perkins",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "corey_northrop",
+      "target": "sean_perkins",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "sean_perkins",
+      "target": "verkeydia_hall",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "engler",
+      "target": "sean_perkins",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "mackinac_center",
+      "target": "sean_perkins",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "goetz",
+      "target": "sean_perkins",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "henri_harmon",
+      "target": "sean_perkins",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "richard_mclellan",
+      "target": "sean_perkins",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "gregory_meihn",
+      "target": "sean_perkins",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "alj_rice",
+      "target": "sean_perkins",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "sean_perkins",
+      "target": "us_doe",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "sean_perkins",
+      "target": "wayne_resa_audit",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "sean_perkins",
+      "target": "trump",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "koch_network",
+      "target": "sean_perkins",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 2: 5 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "dick_devos",
+      "target": "sean_perkins",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 2: 5 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "perkins_d",
+      "target": "sc_cavanagh",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "perkins_d",
+      "target": "upl_dept",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "betsy_devos",
+      "target": "perkins_d",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "devos_foundation",
+      "target": "perkins_d",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "glep",
+      "target": "perkins_d",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "ms_perkins_pca",
+      "target": "sheffield",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 8,
+      "note": "Wide bingo pass 2: 62 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "perkins_d",
+      "target": "sheffield",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 2: 5 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "koch_network",
+      "target": "sheffield",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 8,
+      "note": "Wide bingo pass 2: 62 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "dick_devos",
+      "target": "sheffield",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 8,
+      "note": "Wide bingo pass 2: 62 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "perkins_d",
+      "target": "walton_family_foundation",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "bullington",
+      "target": "perkins_d",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "corey_northrop",
+      "target": "perkins_d",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "koch_network",
+      "target": "ms_perkins_pca",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 8,
+      "note": "Wide bingo pass 2: 62 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "dick_devos",
+      "target": "ms_perkins_pca",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 8,
+      "note": "Wide bingo pass 2: 62 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "perkins_d",
+      "target": "verkeydia_hall",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "engler",
+      "target": "perkins_d",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "mackinac_center",
+      "target": "perkins_d",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "goetz",
+      "target": "perkins_d",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "henri_harmon",
+      "target": "perkins_d",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "perkins_d",
+      "target": "richard_mclellan",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "gregory_meihn",
+      "target": "perkins_d",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "alj_rice",
+      "target": "perkins_d",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "perkins_d",
+      "target": "us_doe",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "perkins_d",
+      "target": "wayne_resa_audit",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "perkins_d",
+      "target": "trump",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 6,
+      "note": "Wide bingo pass 2: 6 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "koch_network",
+      "target": "perkins_d",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 2: 5 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "dick_devos",
+      "target": "perkins_d",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 5,
+      "note": "Wide bingo pass 2: 5 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "dick_devos",
+      "target": "koch_network",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 8,
+      "note": "Wide bingo pass 2: 62 shared",
+      "source_doc": "Wide bingo pass 2"
+    },
+    {
+      "source": "court_36th",
+      "target": "state_mi",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "pca",
+      "target": "state_mi",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "agc",
+      "target": "state_mi",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "beasley",
+      "target": "state_mi",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "charter_law_1993",
+      "target": "state_mi",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "cmu",
+      "target": "state_mi",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "court_3rd",
+      "target": "state_mi",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "crump_gibson",
+      "target": "state_mi",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "dpd",
+      "target": "state_mi",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "dpscd",
+      "target": "state_mi",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "emu",
+      "target": "state_mi",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "gay_dagnogo",
+      "target": "state_mi",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "glenn_page",
+      "target": "state_mi",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "jolia_hill",
+      "target": "state_mi",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "jtc",
+      "target": "state_mi",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "kym_worthy",
+      "target": "state_mi",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "macdowell",
+      "target": "state_mi",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "maleyko",
+      "target": "state_mi",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "mccsa",
+      "target": "state_mi",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "mde",
+      "target": "state_mi",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "miller",
+      "target": "state_mi",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "moreland",
+      "target": "state_mi",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "msu",
+      "target": "state_mi",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "npe",
+      "target": "state_mi",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "plante_moran",
+      "target": "state_mi",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "purpose_group",
+      "target": "state_mi",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "raphael_washington",
+      "target": "state_mi",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "sbe",
+      "target": "state_mi",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "state_mi",
+      "target": "vitti",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "state_mi",
+      "target": "wayne_county",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "state_mi",
+      "target": "wayne_resa",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "state_mi",
+      "target": "wayne_state_law",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "state_mi",
+      "target": "yancey",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "state_mi",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "kwame",
+      "target": "state_mi",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "jennifer_crump",
+      "target": "state_mi",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "misha_stallworth",
+      "target": "state_mi",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "msu_law",
+      "target": "state_mi",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "perkins_sean",
+      "target": "state_mi",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "sean_perkins",
+      "target": "state_mi",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "sc_cavanagh",
+      "target": "state_mi",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "state_mi",
+      "target": "upl_dept",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "betsy_devos",
+      "target": "state_mi",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "glep",
+      "target": "state_mi",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "sheffield",
+      "target": "state_mi",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "bullington",
+      "target": "state_mi",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "corey_northrop",
+      "target": "state_mi",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "ms_perkins_pca",
+      "target": "state_mi",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "perkins_d",
+      "target": "state_mi",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "state_mi",
+      "target": "todd_perkins",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "state_mi",
+      "target": "verkeydia_hall",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "engler",
+      "target": "state_mi",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "mackinac_center",
+      "target": "state_mi",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "goetz",
+      "target": "state_mi",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "henri_harmon",
+      "target": "state_mi",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "richard_mclellan",
+      "target": "state_mi",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "gregory_meihn",
+      "target": "state_mi",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "alj_rice",
+      "target": "state_mi",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "state_mi",
+      "target": "us_doe",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "state_mi",
+      "target": "wayne_resa_audit",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "state_mi",
+      "target": "trump",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "koch_network",
+      "target": "state_mi",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 7,
+      "note": "Wide bingo pass 3: 7 shared",
+      "source_doc": "Wide bingo pass 3"
     }
   ],
   "epistemic_grammar": {
