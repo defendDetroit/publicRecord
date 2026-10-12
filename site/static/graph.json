@@ -6481,8 +6481,8 @@
       "id": "bill_lichwalla",
       "label": "Bill Lichwalla",
       "type": "actor",
-      "tier": 5,
-      "role": "Partner, Plante Moran Realpoint. Listed as top partner on PMR's main page. Ahmed Beasley's firm leadership.",
+      "tier": 4,
+      "role": "PRESIDENT & CEO of Plante Moran Realpoint (since 2005). Partner, Plante Moran. MSU Eli Broad College 1991-1995. CPA. Michigan real estate broker. $6B+ in projects annually. 125+ staff in 8 states. Board of Directors: PMR, PMRIA, PM Living Forward. Crain's Notable Commercial Real Estate Leader 2024. THE PERSON WHO RUNS THE FIRM THAT EMPLOYS AHMED BEASLEY. In 2024, under his watch, Beasley was promoted to SVP.",
       "class": "entity",
       "classification": "null"
     },
@@ -6510,6 +6510,15 @@
       "type": "actor",
       "tier": 5,
       "role": "Partner, Plante Moran. Former K-12 Education Practice Leader (before July 2025). Still serves K-12 and real estate clients. Preceded Matthew Kelly.",
+      "class": "entity",
+      "classification": "null"
+    },
+    {
+      "id": "gary_naeyaert",
+      "label": "Gary Naeyaert",
+      "type": "actor",
+      "tier": 5,
+      "role": "Executive Director, Great Lakes Education Project (GLEP). DeVos's point man on Michigan charter school policy. 'We're proponents of all forms of choice.'",
       "class": "entity",
       "classification": "null"
     }
@@ -38796,6 +38805,87 @@
       "weight": 4,
       "note": "Chalena Beasley is PCA principal. Ahmed Beasley is SVP under Theriault at PMR. Same surname, same K-12 orbit.",
       "source_doc": "structural"
+    },
+    {
+      "source": "bill_lichwalla",
+      "target": "beasley",
+      "type": "ceo_of_employer",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "Lichwalla is President & CEO of Plante Moran Realpoint since 2005. Beasley is SVP at PMR. Lichwalla promoted Beasley to SVP in 2024.",
+      "source_doc": "plantemoran.com"
+    },
+    {
+      "source": "bill_lichwalla",
+      "target": "msu",
+      "type": "education",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "BA Accounting from MSU Eli Broad College (1991-1995).",
+      "source_doc": "linkedin.com"
+    },
+    {
+      "source": "gary_naeyaert",
+      "target": "glep",
+      "type": "executive_director",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "Naeyaert is GLEP exec director. DeVos's operational arm for Michigan charter policy.",
+      "source_doc": "glep.org"
+    },
+    {
+      "source": "gary_naeyaert",
+      "target": "betsy_devos",
+      "type": "works_for",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "Naeyaert carries out DeVos education reform goals as GLEP exec director.",
+      "source_doc": "edweek.org"
+    },
+    {
+      "source": "glep",
+      "target": "pca",
+      "type": "charter_ecosystem",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "GLEP lobbied to remove charter cap (2011), kill Detroit Education Commission, prevent accountability. PCA exists in the ecosystem GLEP built.",
+      "source_doc": "politico.com, theatlantic.com"
+    },
+    {
+      "source": "plante_moran",
+      "target": "dpscd",
+      "type": "auditor",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "PM selected as DPSCD auditor in 2020 (RFP 20-0135). Audits FY2024 and FY2025 financials. Found charter school reporting issues: $21.5M in charter aid not properly reported as fiduciary. DPSCD authorizes 8 charter schools.",
+      "source_doc": "detroitk12.org, michigan.gov"
+    },
+    {
+      "source": "plante_moran",
+      "target": "pca",
+      "type": "audit_ecosystem",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "PM audits DPSCD which authorizes charter schools. PMR (PM subsidiary) employs Ahmed Beasley on K-12 capital projects. The auditor and the capital project consultant are THE SAME FIRM.",
+      "source_doc": "structural"
+    },
+    {
+      "source": "barton_malow",
+      "target": "plante_moran",
+      "type": "talent_pipeline",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "Ahmed Beasley went from 17 years at Barton Malow to PMR. K-12 construction pipeline.",
+      "source_doc": "plantemoran.com"
+    },
+    {
+      "source": "betsy_devos",
+      "target": "plante_moran",
+      "type": "charter_audit_ecosystem",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "DeVos created the charter ecosystem. PM audits the resulting DPSCD. PM subsidiary PMR employs Beasley on K-12. The system DeVos built, PM profits from.",
+      "source_doc": "edweek.org, detroitk12.org"
     }
   ],
   "epistemic_grammar": {
