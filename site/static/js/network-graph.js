@@ -897,8 +897,8 @@
         nodeElements[n.id] = { group: g, circle: circle, radius: r };
       } else {
         // Regular node
-        if (n.url) {
-          g.style.cursor = 'pointer';
+      if (n.url) {
+        g.style.cursor = 'pointer';
           g.addEventListener('click', function(e) {
             e.stopPropagation();
             window.location.href = n.url;
@@ -1300,8 +1300,8 @@
         st.style.opacity = item.cls === 'unknown' ? '0.5' : '1';
         st.textContent = item.label;
         svg.appendChild(st);
-        legendY += 18;
-      });
+      legendY += 18;
+    });
       var summaryText = document.createElementNS('http://www.w3.org/2000/svg', 'text');
       summaryText.setAttribute('x', 20); summaryText.setAttribute('y', legendY + 4);
       summaryText.setAttribute('fill', 'currentColor'); summaryText.setAttribute('font-size', '9');
@@ -1467,8 +1467,8 @@
           renderGraph(container, applyClassification(gd));
           return;
         }
-        fetch('/api/public-record/network')
-          .then(function(r) { return r.ok ? r.json() : Promise.reject('no API'); })
+    fetch('/api/public-record/network')
+      .then(function(r) { return r.ok ? r.json() : Promise.reject('no API'); })
           .then(function(data) { renderGraph(container, applyClassification(data)); })
           .catch(function() {
             container.innerHTML = '<p style="color:#e74c3c;">Network data not loaded. Ensure network-data.js is included before network-graph.js.</p>';
