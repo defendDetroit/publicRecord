@@ -5127,6 +5127,55 @@
       "role": "Controlled ~50% of Detroit crack houses in the 1980s. Precursor to BMF in Detroit drug trade. Same neighborhoods later served by Banks's charter schools.",
       "class": "entity",
       "classification": "negative"
+    },
+    {
+      "id": "operation_motor_city_mafia",
+      "label": "Operation Motor City Mafia",
+      "type": "entity",
+      "entity_type": "Federal operation (OCDETF)",
+      "tier": 3,
+      "role": "DEA-led OCDETF investigation. Codenamed by DEA Special Operations Division. Began Oct 28, 2003. 2-year investigation. Coordinated DEA + IRS-CI + USAO E.D. Mich. Wiretapped Terry Flenory's phone May 2004 — 900 pages of transcripts over 5 months. Oct 2005: arrested 30, seized $3M + 2.5kg cocaine + weapons. Prior arrests: 17 members, 632kg cocaine, $5.3M cash, $5.7M assets. Total defendants: 150+ nationwide, 65 in E.D. Mich alone. $270M+ in drug proceeds alleged.",
+      "class": "entity",
+      "classification": "other"
+    },
+    {
+      "id": "dea",
+      "label": "Drug Enforcement Administration (DEA)",
+      "type": "entity",
+      "entity_type": "Federal law enforcement agency",
+      "tier": 3,
+      "role": "Led Operation Motor City Mafia. Detroit Field Division SAC Robert L. Corso. Special Operations Division coordinated the OCDETF. DEA wiretapped Terry Flenory's phone. Conducted raids Oct 28, 2005.",
+      "class": "institution",
+      "classification": "other"
+    },
+    {
+      "id": "irs_ci",
+      "label": "IRS Criminal Investigation",
+      "type": "entity",
+      "entity_type": "Federal law enforcement agency",
+      "tier": 4,
+      "role": "Partnered with DEA on Operation Motor City Mafia. SAC Maurice Aouate. Money laundering investigation. BMF used bank deposits, cashier's checks, money orders, wire transfers.",
+      "class": "institution",
+      "classification": "other"
+    },
+    {
+      "id": "judge_avern_cohn",
+      "label": "Judge Avern Cohn",
+      "type": "actor",
+      "tier": 3,
+      "role": "U.S. District Judge, E.D. Michigan. Presided over BMF case (2:05-cr-80955). Sentenced both Flenory brothers to 30 years (Sep 2008). Ruled on wiretap suppression motions, discovery, habeas petitions.",
+      "class": "institution",
+      "classification": "other"
+    },
+    {
+      "id": "bmf_entertainment",
+      "label": "BMF Entertainment",
+      "type": "entity",
+      "entity_type": "Record label (front)",
+      "tier": 5,
+      "role": "Record label incorporated by Demetrius 'Big Meech' Flenory. Suspected front for BMF drug money. Atlanta-based. Celebrity connections used to launder reputation.",
+      "class": "entity",
+      "classification": "negative"
     }
   ],
   "edges": [
@@ -14596,6 +14645,123 @@
       "weight": 10,
       "note": "BMF is Dynasty 1 of 4. Blood lineage. OD Banks (Defendant #22) → Brian Banks. Extraction playbook: drug money → public education funds. Zero accountability narrative.",
       "source_doc": "PACER 2:05-cr-80955, investigation framework"
+    },
+    {
+      "source": "dea",
+      "target": "operation_motor_city_mafia",
+      "type": "led",
+      "epistemic_status": "record",
+      "weight": 9,
+      "note": "DEA led OCDETF investigation. SOD coordination. Detroit Field Division.",
+      "source_doc": "DEA press release Oct 28, 2005"
+    },
+    {
+      "source": "irs_ci",
+      "target": "operation_motor_city_mafia",
+      "type": "partnership",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "IRS-CI partnered on money laundering investigation.",
+      "source_doc": "DEA press release Oct 28, 2005"
+    },
+    {
+      "source": "usao_edmi",
+      "target": "operation_motor_city_mafia",
+      "type": "prosecution",
+      "epistemic_status": "record",
+      "weight": 9,
+      "note": "USAO E.D. Mich prosecuted. 65 defendants charged in district.",
+      "source_doc": "DEA press releases 2005-2008"
+    },
+    {
+      "source": "operation_motor_city_mafia",
+      "target": "bmf",
+      "type": "investigation",
+      "epistemic_status": "record",
+      "weight": 10,
+      "note": "Operation Motor City Mafia targeted BMF. 2-year OCDETF. Wiretapped Terry Flenory May 2004. 900 pages transcripts. $270M+ drug proceeds. 150+ defendants nationwide.",
+      "source_doc": "DEA, DOJ, PACER 2:05-cr-80955"
+    },
+    {
+      "source": "operation_motor_city_mafia",
+      "target": "bmf_case",
+      "type": "produced",
+      "epistemic_status": "record",
+      "weight": 9,
+      "note": "Operation produced federal case 2:05-cr-80955. Oct 2005 indictment.",
+      "source_doc": "PACER, DEA"
+    },
+    {
+      "source": "judge_avern_cohn",
+      "target": "bmf_case",
+      "type": "presided",
+      "epistemic_status": "record",
+      "weight": 9,
+      "note": "Presided over USA v. Flenory et al. Sentenced Flenory brothers to 30 years each (Sep 12, 2008). Ruled on wiretap suppression motions. Denied habeas petitions.",
+      "source_doc": "PACER, DEA press release Sep 12, 2008"
+    },
+    {
+      "source": "operation_motor_city_mafia",
+      "target": "southwest_t",
+      "type": "wiretap",
+      "epistemic_status": "record",
+      "weight": 9,
+      "note": "DEA wiretapped Terry Flenory's phone May 2004. 5 months of intercepts. 900 pages of transcripts. Terry heard discussing drug operations, Demetrius's partying, coordinating bail money for arrested co-conspirators.",
+      "source_doc": "Newsweek, 6th Circuit (Sims), CourtListener"
+    },
+    {
+      "source": "big_meech",
+      "target": "bmf_entertainment",
+      "type": "founded",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "Incorporated BMF Entertainment record label in Atlanta. Suspected drug money front.",
+      "source_doc": "Metro Times, Wikipedia"
+    },
+    {
+      "source": "usao_edmi",
+      "target": "banks",
+      "type": "referral_pending",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "Federal Master Packet delivered Sep 22, 2026 to DOJ/FBI/IRS/ED-OIG/FTC/SEC/USED/FinCEN. Banks is the son of BMF Defendant #22. USAO E.D. Mich prosecuted the father's organization.",
+      "source_doc": "Federal Master Packet Sep 22, 2026"
+    },
+    {
+      "source": "bmf_case",
+      "target": "banks",
+      "type": "lineage_case",
+      "epistemic_status": "record",
+      "weight": 9,
+      "note": "Father (OD Banks, Defendant #22) prosecuted in E.D. Mich 2005. Son (Brian Banks) now runs charter schools in same district. Federal wiretaps documented the organization. Son wrote a book about his journey. Both aunt and nephew wrote books — party admissions.",
+      "source_doc": "PACER, Amazon, investigation"
+    },
+    {
+      "source": "welch",
+      "target": "southwest_t",
+      "type": "criminal_association",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "Welch 'helped connect Terry and Demetrius with major suppliers.' Served 30 months for her involvement. Self-described 'First Lady of BMF.'",
+      "source_doc": "Inside the Life podcast Nov 2025, Welch book"
+    },
+    {
+      "source": "bmf",
+      "target": "detroit_city",
+      "type": "criminal_activity",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "BMF operated from Southwest Detroit 1985-2005. 500+ members at peak. $270M+ in drug proceeds. 11 states. Ties to Mexican drug cartels. Same neighborhoods now served by Banks's charter schools.",
+      "source_doc": "Wikipedia, Newsweek, DEA"
+    },
+    {
+      "source": "bmf_case",
+      "target": "bmf",
+      "type": "prosecution",
+      "epistemic_status": "record",
+      "weight": 9,
+      "note": "Charged under Continuing Criminal Enterprise statute (21 USC 848) — similar to RICO. Conspiracy to distribute 5kg+ cocaine. Money laundering. 150+ defendants nationwide. $270M alleged.",
+      "source_doc": "PACER, DOJ, DEA"
     }
   ],
   "epistemic_grammar": {
