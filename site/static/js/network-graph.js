@@ -1,5 +1,7 @@
 // Network graph visualization for detroit.primals.eco
 // Renders actor/entity relationships as an interactive force-directed graph.
+// Body awareness: 0=raw(graph.json), 1=sorted(classification.json),
+//   2=observed(gaia core + moon orbit + π ratio).
 //
 // Data source: window.DETROIT_NETWORK (loaded from network-data.js)
 // Fallback: petalTongue API /api/public-record/network
@@ -22,6 +24,10 @@
     'non-self': '#e74c3c', 'self': '#27ae60', 'null': '#7f8c8d',
     'partial': '#f39c12', 'other': '#3498db', 'unknown': 'rgba(128,128,128,0.3)'
   };
+
+  // ── Body awareness state ──────────────────────────────────────────
+  var classificationData = null; // loaded from classification.json
+  var bodyLevel = 0; // 0=raw, 1=sorted, 2=observed
 
   // ── Sort overlay state ────────────────────────────────────────────
   var showSort = false;
@@ -434,6 +440,22 @@
     var repulsion = hasSuper ? 28000 : 18000;
     var idealDist = hasSuper ? 240 : 180;
 
+    // ── Gaia core: find gravitational center (highest edge count) ──
+    var gaiaCore = null;
+    var maxDeg = 0;
+    var degMap = {};
+    filteredLinks.forEach(function(l) {
+      degMap[l.source] = (degMap[l.source] || 0) + 1;
+      degMap[l.target] = (degMap[l.target] || 0) + 1;
+    });
+    nodes.forEach(function(n) {
+      var d = degMap[n.id] || 0;
+      if (d > maxDeg) { maxDeg = d; gaiaCore = n; }
+    });
+
+    // ── Sort orbit radii: classified nodes orbit at sort-class distances ──
+    var SORT_RADIUS = { 'non-self': 0.20, 'partial': 0.35, 'null': 0.50, 'self': 0.65, 'other': 0.80, 'unknown': 0.90 };
+
     for (var iter = 0; iter < 100; iter++) {
       for (var i = 0; i < nodes.length; i++) {
         for (var j = i + 1; j < nodes.length; j++) {
@@ -460,7 +482,19 @@
         s.vx += fx; s.vy += fy;
         t.vx -= fx; t.vy -= fy;
       });
+      // Gaia gravity: pull toward center, with sort-class orbit if body >= 1
+      var gcx = gaiaCore ? gaiaCore.x : width / 2;
+      var gcy = gaiaCore ? gaiaCore.y : height / 2;
+      var baseR = Math.min(width, height) * 0.35;
       nodes.forEach(function(n) {
+        if (showSort && bodyLevel >= 1 && n !== gaiaCore) {
+          var sortClass = n.classification || 'unknown';
+          var orbitR = baseR * (SORT_RADIUS[sortClass] || 0.90);
+          var dx = n.x - gcx, dy = n.y - gcy;
+          var dist = Math.sqrt(dx * dx + dy * dy) || 1;
+          n.vx += (gcx + (dx / dist) * orbitR - n.x) * 0.003;
+          n.vy += (gcy + (dy / dist) * orbitR - n.y) * 0.003;
+        }
         n.vx += (width / 2 - n.x) * 0.004;
         n.vy += (height / 2 - n.y) * 0.004;
         n.x += n.vx * 0.3;
@@ -1277,6 +1311,92 @@
       legendY += 20;
     }
 
+    // ── Moon orbit rings (body level ≥ 1) ──────────────────────────
+    if (showSort && gaiaCore) {
+      var gcx = gaiaCore.x, gcy = gaiaCore.y;
+      var baseR = Math.min(width, height) * 0.35;
+      var sortClasses = ['non-self', 'partial', 'null', 'self', 'other'];
+      sortClasses.forEach(function(cls) {
+        var orbitR = baseR * (SORT_RADIUS[cls] || 0.90);
+        var ring = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+        ring.setAttribute('cx', gcx); ring.setAttribute('cy', gcy);
+        ring.setAttribute('r', orbitR);
+        ring.setAttribute('fill', 'none');
+        ring.setAttribute('stroke', SORT_COLORS[cls] || '#7f8c8d');
+        ring.setAttribute('stroke-width', '0.5');
+        ring.setAttribute('stroke-opacity', '0.15');
+        ring.setAttribute('stroke-dasharray', '4,4');
+        svg.insertBefore(ring, svg.firstChild);
+      });
+
+      // Gaia core marker
+      var coreMarker = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+      coreMarker.setAttribute('cx', gcx); coreMarker.setAttribute('cy', gcy);
+      coreMarker.setAttribute('r', 3);
+      coreMarker.setAttribute('fill', '#e74c3c');
+      coreMarker.setAttribute('opacity', '0.4');
+      svg.appendChild(coreMarker);
+    }
+
+    // ── π observation panel (body level 2) ──────────────────────────
+    if (showSort) {
+      var piSorted = filteredNodes.filter(function(n) { return n.classification && n.classification !== 'unknown'; }).length;
+      var piTotal = filteredNodes.length;
+      var piRatio = piTotal > 0 ? piSorted / piTotal : 0;
+      var piTarget = 1 / Math.PI;
+
+      var piY = height - 80;
+      var piG = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+
+      // Body awareness label
+      var bodyLabel = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+      bodyLabel.setAttribute('x', width - 10); bodyLabel.setAttribute('y', piY);
+      bodyLabel.setAttribute('text-anchor', 'end');
+      bodyLabel.setAttribute('fill', 'currentColor'); bodyLabel.setAttribute('font-size', '9');
+      bodyLabel.setAttribute('opacity', '0.5');
+      var bl = bodyLevel === 0 ? '0-body: raw' : bodyLevel === 1 ? '1-body: sorted' : '2-body: observed';
+      bodyLabel.textContent = bl;
+      piG.appendChild(bodyLabel);
+
+      // π ratio
+      var piText = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+      piText.setAttribute('x', width - 10); piText.setAttribute('y', piY + 14);
+      piText.setAttribute('text-anchor', 'end');
+      piText.setAttribute('fill', piRatio > piTarget ? '#27ae60' : '#f39c12');
+      piText.setAttribute('font-size', '10'); piText.setAttribute('font-weight', '600');
+      piText.textContent = piSorted + '/' + piTotal + ' sorted · π=' + piRatio.toFixed(3) +
+        (piRatio > piTarget ? ' ✓' : ' → 1/π=' + piTarget.toFixed(3));
+      piG.appendChild(piText);
+
+      // Classification balance
+      var counts = { 'non-self': 0, 'null': 0, 'self': 0, 'partial': 0, 'other': 0 };
+      filteredNodes.forEach(function(n) {
+        var c = n.classification || 'unknown';
+        if (counts[c] !== undefined) counts[c]++;
+      });
+      var balText = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+      balText.setAttribute('x', width - 10); balText.setAttribute('y', piY + 28);
+      balText.setAttribute('text-anchor', 'end');
+      balText.setAttribute('fill', 'currentColor'); balText.setAttribute('font-size', '9');
+      balText.setAttribute('opacity', '0.4');
+      balText.textContent = 'non-self:' + counts['non-self'] + ' null:' + counts['null'] +
+        ' self:' + counts['self'] + ' partial:' + counts['partial'] + ' other:' + counts['other'];
+      piG.appendChild(balText);
+
+      // Gaia core label
+      if (gaiaCore) {
+        var gaiaText = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+        gaiaText.setAttribute('x', width - 10); gaiaText.setAttribute('y', piY + 42);
+        gaiaText.setAttribute('text-anchor', 'end');
+        gaiaText.setAttribute('fill', '#e74c3c'); gaiaText.setAttribute('font-size', '9');
+        gaiaText.setAttribute('opacity', '0.5');
+        gaiaText.textContent = 'gaia core: ' + (gaiaCore.label || gaiaCore.id) + ' (' + maxDeg + ' edges)';
+        piG.appendChild(gaiaText);
+      }
+
+      svg.appendChild(piG);
+    }
+
     // Node count summary
     var countText = document.createElementNS('http://www.w3.org/2000/svg', 'text');
     countText.setAttribute('x', width - 10); countText.setAttribute('y', height - 10);
@@ -1309,22 +1429,50 @@
     svg.appendChild(countText);
   }
 
+  // ── Apply classification.json (durable source of truth) ──────────────
+  function applyClassification(data) {
+    if (!classificationData || !classificationData.entities) return data;
+    data.nodes.forEach(function(n) {
+      var entry = classificationData.entities[n.id];
+      if (entry) {
+        n.classification = entry.classification;
+        n.confidence = entry.confidence;
+        n.opacity = Math.max(0.25, entry.confidence || 0);
+        n.sort_pass = entry.sort_pass;
+        n.sort_method = entry.method;
+        if (entry.note) n.sort_note = entry.note;
+      }
+    });
+    bodyLevel = 1; // sorted
+    var sorted = data.nodes.filter(function(n) { return n.classification && n.classification !== 'unknown'; }).length;
+    if (sorted > data.nodes.length * 0.3) bodyLevel = 2; // observed at π
+    return data;
+  }
+
   // ── Initialize ────────────────────────────────────────────────────────
 
   function init() {
     var container = document.getElementById('network-graph');
     if (!container) return;
 
-    // Data priority: shared data layer → API → error
-    if (DN.nodes && DN.edges) {
-      renderGraph(container, DN.graphData());
-      return;
-    }
-    fetch('/api/public-record/network')
-      .then(function(r) { return r.ok ? r.json() : Promise.reject('no API'); })
-      .then(function(data) { renderGraph(container, data); })
-      .catch(function() {
-        container.innerHTML = '<p style="color:#e74c3c;">Network data not loaded. Ensure network-data.js is included before network-graph.js.</p>';
+    // Fetch classification.json first (survives northGate merges)
+    fetch('/classification.json')
+      .then(function(r) { return r.ok ? r.json() : null; })
+      .then(function(cls) { classificationData = cls; })
+      .catch(function() { classificationData = null; })
+      .finally(function() {
+        // Data priority: shared data layer → API → error
+        if (DN.nodes && DN.edges) {
+          var gd = DN.graphData();
+          renderGraph(container, applyClassification(gd));
+          return;
+        }
+        fetch('/api/public-record/network')
+          .then(function(r) { return r.ok ? r.json() : Promise.reject('no API'); })
+          .then(function(data) { renderGraph(container, applyClassification(data)); })
+          .catch(function() {
+            container.innerHTML = '<p style="color:#e74c3c;">Network data not loaded. Ensure network-data.js is included before network-graph.js.</p>';
+          });
       });
   }
 
