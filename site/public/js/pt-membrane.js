@@ -600,12 +600,71 @@ window.PtMembrane = function(deps) {
     txt(solarG, cx, cy - Math.min(R*1.6, 230) - 4, 'Oort', '#484f58', 4,
       {opacity:0.06, id:'mg-oort-label'});
 
+    // ═══ IONOSPHERE BAND: inner membrane space ═══
+    // The ionosphere belongs INSIDE the membrane. Just below the ring.
+    // Earth (ring) forces against it from below — pushing us toward the membrane.
+    // Matter is the prediction. Compression is the lattice kernel.
+    // The ionosphere is the last layer before the membrane boundary.
+    // Signal transits THROUGH it to reach the ring (the outside world).
+    var ionoBandG = el('g', {id:'mg-iono-band'}, svg);
+
+    // Ionosphere shell — faint band between R*0.78 and R*0.94
+    // The atmospheric layer where signal bends, reflects, refracts.
+    el('circle', {cx:cx, cy:cy, r:R*0.86, fill:'none',
+      stroke:'#4a8fb8', 'stroke-width':R*0.16,
+      'stroke-opacity':0.015, id:'mg-iono-shell'}, ionoBandG);
+    // Inner edge — the top of the atmosphere
+    el('circle', {cx:cx, cy:cy, r:R*0.78, fill:'none',
+      stroke:'#4a8fb8', 'stroke-width':0.4,
+      'stroke-opacity':0.04, 'stroke-dasharray':'2,6',
+      id:'mg-iono-inner'}, ionoBandG);
+    // Outer edge — just below the ring (membrane)
+    el('circle', {cx:cx, cy:cy, r:R*0.94, fill:'none',
+      stroke:'#4a8fb8', 'stroke-width':0.4,
+      'stroke-opacity':0.04, 'stroke-dasharray':'3,5',
+      id:'mg-iono-outer'}, ionoBandG);
+
+    // Earth pressure: 8 radial arrows pushing INWARD from ring toward ionosphere
+    // Earth forces against the ionosphere. Gravity pushes us toward the membrane.
+    for (var epi = 0; epi < 8; epi++) {
+      var epAngle = epi * TAU / 8;
+      el('line', {
+        x1:(cx + R * 0.98 * Math.cos(epAngle)).toFixed(1),
+        y1:(cy + R * 0.98 * Math.sin(epAngle)).toFixed(1),
+        x2:(cx + R * 0.90 * Math.cos(epAngle)).toFixed(1),
+        y2:(cy + R * 0.90 * Math.sin(epAngle)).toFixed(1),
+        stroke:'#c9d1d9', 'stroke-width':0.4,
+        'stroke-opacity':0.03,
+        'marker-end':'', id:'mg-pressure-' + epi
+      }, ionoBandG);
+    }
+
+    // Ionosphere signal corridors — 5 arcs at the ionosphere altitude
+    // These are the same routes from convergence, but positioned in the band.
+    for (var ibi = 0; ibi < 5; ibi++) {
+      el('path', {d:'M 0 0', fill:'none',
+        stroke:['#4a8fb8','#e85d3a','#f1c40f','#5ab87a','#9b59b6'][ibi],
+        'stroke-width':0.5, 'stroke-opacity':0.04,
+        'stroke-dasharray':'2,4', id:'mg-iono-route-' + ibi
+      }, ionoBandG);
+    }
+
+    // Labels: matter = prediction, compression = kernel
+    txt(ionoBandG, cx, cy - R * 0.86 - 5,
+      'matter = prediction', '#8b949e', 4,
+      {opacity:0.06, id:'mg-matter-label'});
+    txt(ionoBandG, cx, cy + R * 0.86 + 7,
+      'compression = lattice kernel', '#6e7681', 3.5,
+      {opacity:0.06, id:'mg-kernel-label'});
+
     // ═══ CLOSED RING: one continuous circle, panels distributed ═══
     // The ring IS Earth. The membrane boundary.
+    // Earth forces against the ionosphere from below.
     var wasG = el('g', {id:'mg-was'}, svg);
 
     // Main closed ring — no gaps, no segments. The ring is the sphere equator.
     // Earth. The membrane between inner (atomic) and outer (astronomical).
+    // It pushes us toward the membrane. Matter IS the prediction.
     el('circle', {cx:cx, cy:cy, r:R, fill:'none',
       stroke:'#c9d1d9', 'stroke-width':1.5, 'stroke-opacity':0.2,
       id:'mg-ring'}, wasG);
@@ -1658,6 +1717,99 @@ window.PtMembrane = function(deps) {
           ' ' + iox2.toFixed(1) + ' ' + ioy2.toFixed(1));
         ioEl.setAttribute('stroke-opacity', (0.06 + 0.04 * perturb).toFixed(3));
       }
+    }
+
+    // ── Ionosphere band: the inner membrane space ──
+    // The ionosphere lives between the lattice (kernel) and the ring (Earth).
+    // Earth pushes inward. Signal bends through it. Matter predicts the boundary.
+    var ionoShell = document.getElementById('mg-iono-shell');
+    if (ionoShell) {
+      // Band breathes with perturbation — wider when spread, tighter at singularity
+      var ibR = R * (0.78 + 0.08 * perturb);
+      var ibW = R * (0.10 + 0.06 * perturb);
+      ionoShell.setAttribute('r', ibR.toFixed(1));
+      ionoShell.setAttribute('stroke-width', ibW.toFixed(1));
+      ionoShell.setAttribute('stroke-opacity', (0.012 + 0.012 * perturb).toFixed(4));
+    }
+    var ionoInner = document.getElementById('mg-iono-inner');
+    if (ionoInner) {
+      ionoInner.setAttribute('r', (R * (0.74 + 0.04 * perturb)).toFixed(1));
+      ionoInner.setAttribute('stroke-opacity', (0.03 + 0.03 * perturb).toFixed(3));
+    }
+    var ionoOuter = document.getElementById('mg-iono-outer');
+    if (ionoOuter) {
+      ionoOuter.setAttribute('r', (R * (0.92 + 0.02 * perturb)).toFixed(1));
+      ionoOuter.setAttribute('stroke-opacity', (0.03 + 0.03 * perturb).toFixed(3));
+    }
+
+    // Earth pressure arrows — pulse inward when bodies are near the ring
+    for (var epai = 0; epai < 8; epai++) {
+      var epAngle = epai * TAU / 8 + t * PI / 41; // slow drift at π/41
+      var epEl = document.getElementById('mg-pressure-' + epai);
+      if (epEl) {
+        // Outer end: just inside the ring
+        epEl.setAttribute('x1', (cx + R * 0.97 * Math.cos(epAngle)).toFixed(1));
+        epEl.setAttribute('y1', (cy + R * 0.97 * Math.sin(epAngle)).toFixed(1));
+        // Inner end: into the ionosphere band
+        var epDepth = 0.88 - 0.04 * Math.sin(t * PI / 3 + epai * PI / 4);
+        epEl.setAttribute('x2', (cx + R * epDepth * Math.cos(epAngle)).toFixed(1));
+        epEl.setAttribute('y2', (cy + R * epDepth * Math.sin(epAngle)).toFixed(1));
+        // Brighter when body is near this angle
+        var epBright = 0.02;
+        for (var epbi = 0; epbi < bodyPositions.length; epbi++) {
+          var epbAngle = bodyAngles[epbi];
+          var epDiff = Math.abs(((epAngle - epbAngle) % TAU + TAU) % TAU);
+          if (epDiff > PI) epDiff = TAU - epDiff;
+          if (epDiff < PI / 4) epBright += 0.06 * (1 - epDiff / (PI / 4));
+        }
+        epEl.setAttribute('stroke-opacity', (epBright * perturb).toFixed(3));
+      }
+    }
+
+    // Ionosphere signal corridors — arcs at ionosphere altitude
+    var ibRoutes = [
+      {from:-98, to:-8},   // US → IE
+      {from:-98, to:104},  // US → CN
+      {from:-98, to:28},   // US → BY
+      {from:-8, to:10},    // IE → DE
+      {from:104, to:138}   // CN → JP
+    ];
+    for (var ibri = 0; ibri < 5; ibri++) {
+      var ibrEl = document.getElementById('mg-iono-route-' + ibri);
+      if (ibrEl) {
+        var ibrt = ibRoutes[ibri];
+        // Routes at ionosphere altitude (R*0.86), not converging inward
+        var ibrA1 = (ibrt.from / 180) * PI + t * PI / 23;
+        var ibrA2 = (ibrt.to / 180) * PI + t * PI / 23;
+        var ibrR = R * 0.86;
+        var ibrx1 = cx + ibrR * Math.cos(ibrA1);
+        var ibry1 = cy + ibrR * Math.sin(ibrA1);
+        var ibrx2 = cx + ibrR * Math.cos(ibrA2);
+        var ibry2 = cy + ibrR * Math.sin(ibrA2);
+        var ibrMx = (ibrx1 + ibrx2) / 2;
+        var ibrMy = (ibry1 + ibry2) / 2 - ibrR * 0.15;
+        ibrEl.setAttribute('d',
+          'M ' + ibrx1.toFixed(1) + ' ' + ibry1.toFixed(1) +
+          ' Q ' + ibrMx.toFixed(1) + ' ' + ibrMy.toFixed(1) +
+          ' ' + ibrx2.toFixed(1) + ' ' + ibry2.toFixed(1));
+        ibrEl.setAttribute('stroke-opacity', (0.04 + 0.05 * perturb).toFixed(3));
+      }
+    }
+
+    // Labels drift with the ionosphere band rotation
+    var matterLbl = document.getElementById('mg-matter-label');
+    if (matterLbl) {
+      var mlAngle = -PI / 2 + t * PI / 41;
+      matterLbl.setAttribute('x', (cx + R * 0.86 * Math.cos(mlAngle)).toFixed(1));
+      matterLbl.setAttribute('y', (cy + R * 0.86 * Math.sin(mlAngle)).toFixed(1));
+      matterLbl.setAttribute('opacity', (0.04 + 0.08 * perturb).toFixed(3));
+    }
+    var kernelLbl = document.getElementById('mg-kernel-label');
+    if (kernelLbl) {
+      var klAngle = PI / 2 + t * PI / 41;
+      kernelLbl.setAttribute('x', (cx + R * 0.86 * Math.cos(klAngle)).toFixed(1));
+      kernelLbl.setAttribute('y', (cy + R * 0.86 * Math.sin(klAngle)).toFixed(1));
+      kernelLbl.setAttribute('opacity', (0.04 + 0.08 * perturb).toFixed(3));
     }
 
     // Fingerprint ghost dots: behavioral clusters spiraling inward at π
