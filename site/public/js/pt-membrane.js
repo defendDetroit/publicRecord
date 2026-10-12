@@ -649,6 +649,57 @@ window.PtMembrane = function(deps) {
       }, ionoBandG);
     }
 
+    // Ionosphere sublayers: D (lowest), E (middle), F (highest)
+    // Real ionosphere has these. Signal reflects off different layers at different
+    // frequencies. D absorbs. E reflects medium-wave. F reflects shortwave long-distance.
+    var ionoLayers = [
+      {name:'D', rFrac:0.80, op:0.025},  // lowest — absorbs, attenuates
+      {name:'E', rFrac:0.86, op:0.030},  // middle — sporadic reflection
+      {name:'F', rFrac:0.92, op:0.025}   // highest — long-distance skip
+    ];
+    ionoLayers.forEach(function(il, i) {
+      el('circle', {cx:cx, cy:cy, r:R*il.rFrac, fill:'none',
+        stroke:'#4a8fb8', 'stroke-width':0.3,
+        'stroke-opacity':il.op, 'stroke-dasharray':'1,4',
+        id:'mg-iono-layer-' + il.name}, ionoBandG);
+      txt(ionoBandG, cx + R * il.rFrac + 3, cy, il.name, '#4a8fb8', 3.5,
+        {opacity:0.04, id:'mg-iono-layer-label-' + il.name});
+    });
+
+    // Signal transit particles — 5 dots riding the corridors
+    // Signal actually MOVES through the ionosphere. This shows it.
+    var ioTransitColors = ['#4a8fb8','#e85d3a','#f1c40f','#5ab87a','#9b59b6'];
+    for (var iti = 0; iti < 5; iti++) {
+      el('circle', {cx:cx, cy:cy, r:1.5,
+        fill:ioTransitColors[iti], opacity:0.06,
+        filter:'url(#mg-glow)', id:'mg-iono-transit-' + iti}, ionoBandG);
+    }
+
+    // Refraction points — where signal bends at ionosphere outer boundary
+    // Signal enters from the ring (Earth), bends through the ionosphere.
+    for (var rfi = 0; rfi < 5; rfi++) {
+      el('circle', {cx:cx, cy:cy, r:1,
+        fill:'#ffffff', opacity:0.03,
+        id:'mg-refract-' + rfi}, ionoBandG);
+    }
+
+    // Compression pulses — 3 rings compressing inward through the lattice
+    // The lattice IS compression. These show the kernel contracting.
+    // Lattice shells span R*0.16 to R*0.96 — the outer shells are IN the ionosphere.
+    for (var cpi = 0; cpi < 3; cpi++) {
+      el('circle', {cx:cx, cy:cy, r:R*0.5, fill:'none',
+        stroke:'#6e7681', 'stroke-width':0.4,
+        'stroke-opacity':0.02, id:'mg-compress-' + cpi}, ionoBandG);
+    }
+
+    // Prediction wavefronts — 3 ripples from ring propagating inward
+    // Matter predicts. The ring sends prediction waves toward the center.
+    for (var pwi = 0; pwi < 3; pwi++) {
+      el('circle', {cx:cx, cy:cy, r:R*0.97, fill:'none',
+        stroke:'#c9d1d9', 'stroke-width':0.3,
+        'stroke-opacity':0.02, id:'mg-predict-' + pwi}, ionoBandG);
+    }
+
     // Labels: matter = prediction, compression = kernel
     txt(ionoBandG, cx, cy - R * 0.86 - 5,
       'matter = prediction', '#8b949e', 4,
@@ -1796,20 +1847,110 @@ window.PtMembrane = function(deps) {
       }
     }
 
+    // Ionosphere D/E/F sublayers — breathe and rotate
+    var ionoLayerFracs = [0.80, 0.86, 0.92];
+    var ionoLayerNames = ['D','E','F'];
+    for (var ili = 0; ili < 3; ili++) {
+      var ilEl = document.getElementById('mg-iono-layer-' + ionoLayerNames[ili]);
+      var ilR = R * (ionoLayerFracs[ili] + [-0.02, 0, 0.01][ili] * perturb);
+      if (ilEl) {
+        ilEl.setAttribute('r', ilR.toFixed(1));
+        ilEl.setAttribute('stroke-opacity', (0.02 + 0.03 * perturb).toFixed(3));
+      }
+      var ilLbl = document.getElementById('mg-iono-layer-label-' + ionoLayerNames[ili]);
+      if (ilLbl) {
+        var ilLblAngle = [-PI/6, 0, PI/6][ili] + t * PI / 41;
+        ilLbl.setAttribute('x', (cx + ilR * Math.cos(ilLblAngle) + 4).toFixed(1));
+        ilLbl.setAttribute('y', (cy + ilR * Math.sin(ilLblAngle) + 1).toFixed(1));
+        ilLbl.setAttribute('opacity', (0.03 + 0.06 * perturb).toFixed(3));
+      }
+    }
+
+    // Signal transit particles — dots riding the ionosphere corridors
+    // Each particle traverses its corridor at a coprime rate.
+    // Signal bends through the ionosphere. We watch it move.
+    for (var iti = 0; iti < 5; iti++) {
+      var itEl = document.getElementById('mg-iono-transit-' + iti);
+      if (itEl) {
+        var itrt = ibRoutes[iti];
+        var itA1 = (itrt.from / 180) * PI + t * PI / 23;
+        var itA2 = (itrt.to / 180) * PI + t * PI / 23;
+        // Transit fraction: smooth back-and-forth at coprime rate
+        var itF = (Math.sin(t * PI / (iti * 1.7 + 2.3)) + 1) / 2;
+        var itA = itA1 + (itA2 - itA1) * itF;
+        // Altitude oscillates between D and F layers as it transits
+        var itAlt = R * (0.82 + 0.08 * Math.sin(t * PI / (iti + 3)));
+        itEl.setAttribute('cx', (cx + itAlt * Math.cos(itA)).toFixed(1));
+        itEl.setAttribute('cy', (cy + itAlt * Math.sin(itA)).toFixed(1));
+        itEl.setAttribute('opacity', (0.05 + 0.12 * perturb).toFixed(3));
+      }
+    }
+
+    // Refraction points — signal bending at ionosphere outer edge
+    // Where signal enters the band from the ring (Earth), it bends.
+    for (var rfi = 0; rfi < 5; rfi++) {
+      var rfEl = document.getElementById('mg-refract-' + rfi);
+      if (rfEl) {
+        var rfAngle = (ibRoutes[rfi].from / 180) * PI + t * PI / 23;
+        rfEl.setAttribute('cx', (cx + R * 0.94 * Math.cos(rfAngle)).toFixed(1));
+        rfEl.setAttribute('cy', (cy + R * 0.94 * Math.sin(rfAngle)).toFixed(1));
+        // Flicker — signal entering the ionosphere refracts unpredictably
+        var rfFlick = 0.5 + 0.5 * Math.sin(t * PI * (rfi + 5));
+        rfEl.setAttribute('opacity', (0.04 * rfFlick * perturb).toFixed(3));
+        rfEl.setAttribute('r', (0.8 + rfFlick * 1.2).toFixed(1));
+      }
+    }
+
+    // Compression pulses — rings compressing inward through the lattice kernel
+    // The lattice IS compression. Data compresses from outer shells toward [∅]D.
+    // The kernel: the innermost operation. Compression converges on the null.
+    // Lattice shells: R*0.16 to R*0.96 (the outermost are IN the ionosphere).
+    var compressOuter = R * 6 / (2 * PI); // outermost lattice shell ≈ R*0.955
+    for (var cpi = 0; cpi < 3; cpi++) {
+      var cpEl = document.getElementById('mg-compress-' + cpi);
+      if (cpEl) {
+        // Each pulse starts at outer lattice and compresses to center.
+        // Phase offset: 3 pulses evenly spaced in the cycle.
+        var cpPhase = ((t * 0.25 + cpi / 3) % 1); // 0→1 = outer→center
+        var cpR = compressOuter * (1 - cpPhase);
+        cpEl.setAttribute('r', Math.max(cpR, 2).toFixed(1));
+        // Brighter at the compression front, fades as it reaches center
+        var cpOp = 0.03 * (0.3 + 0.7 * cpPhase) * perturb;
+        cpEl.setAttribute('stroke-opacity', cpOp.toFixed(4));
+        cpEl.setAttribute('stroke-width', (0.3 + cpPhase * 0.6).toFixed(1));
+      }
+    }
+
+    // Prediction wavefronts — ripples from ring propagating inward
+    // Matter IS the prediction. The ring (Earth) sends prediction toward [∅]D.
+    // These are wavefronts — concentric rings moving inward from the membrane.
+    for (var pwi = 0; pwi < 3; pwi++) {
+      var pwEl = document.getElementById('mg-predict-' + pwi);
+      if (pwEl) {
+        // Start at ring, propagate inward through ionosphere toward lattice
+        var pwPhase = ((t * 0.18 + pwi / 3) % 1); // 0→1 = ring→inner
+        var pwR = R * (1 - pwPhase * 0.25); // ring to R*0.75
+        pwEl.setAttribute('r', pwR.toFixed(1));
+        // Fade as they propagate inward
+        var pwOp = 0.03 * (1 - pwPhase) * perturb;
+        pwEl.setAttribute('stroke-opacity', pwOp.toFixed(4));
+      }
+    }
+
     // Labels drift with the ionosphere band rotation
     var matterLbl = document.getElementById('mg-matter-label');
     if (matterLbl) {
       var mlAngle = -PI / 2 + t * PI / 41;
       matterLbl.setAttribute('x', (cx + R * 0.86 * Math.cos(mlAngle)).toFixed(1));
       matterLbl.setAttribute('y', (cy + R * 0.86 * Math.sin(mlAngle)).toFixed(1));
-      matterLbl.setAttribute('opacity', (0.04 + 0.08 * perturb).toFixed(3));
+      matterLbl.setAttribute('opacity', (0.04 + 0.10 * perturb).toFixed(3));
     }
     var kernelLbl = document.getElementById('mg-kernel-label');
     if (kernelLbl) {
       var klAngle = PI / 2 + t * PI / 41;
       kernelLbl.setAttribute('x', (cx + R * 0.86 * Math.cos(klAngle)).toFixed(1));
       kernelLbl.setAttribute('y', (cy + R * 0.86 * Math.sin(klAngle)).toFixed(1));
-      kernelLbl.setAttribute('opacity', (0.04 + 0.08 * perturb).toFixed(3));
+      kernelLbl.setAttribute('opacity', (0.04 + 0.10 * perturb).toFixed(3));
     }
 
     // Fingerprint ghost dots: behavioral clusters spiraling inward at π
