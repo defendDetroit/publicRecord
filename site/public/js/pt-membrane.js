@@ -397,31 +397,43 @@ window.PtMembrane = function(deps) {
          transform:'rotate('+rot.toFixed(1)+' '+bx.toFixed(1)+' '+by.toFixed(1)+')'});
     });
 
-    // ═══ EPITOPE ORBITS: π epitopes per ring, rings at π ═══
-    // 6 conserved epitopes on 2 concentric rings (π ≈ 3 per ring).
-    // Each epitope orbits at its V(D)J rate.
-    // V (Variable/IS) → fastest orbit. D (Diversity/WILLBE) → middle. J (Joining/WAS) → slowest.
-    // Ring radii: R×(1/π) and R×(2/π). Spacing IS π.
+    // ═══ EPITOPE ORBITS: π rings of π epitopes at point π ═══
+    // ⌊π⌋ = 3 rings. ⌊π⌋ = 3 epitopes per ring. 9 markers.
+    // Ring 1 (inner): forward torsion.  Stiff epitopes.
+    // Ring 2 (middle): REVERSE torsion. Elastic epitopes. The eating.
+    // Ring 3 (outer): forward torsion.  Stiff epitopes — reflections of Ring 1.
+    // Stiff = rigid angle, drawn with crosshair.
+    // Elastic = deformable, drawn with spring circle.
+    // They face each other in reflections across [∅]D.
     var orbitG = el('g', {id:'mg-orbits'}, svg);
-    var epiNames = ['burst','reading','ua_pool','sec_fetch','session','referer'];
-    var epiVDJ = ['V','D','J','V','D','J'];
+    var epiVDJ9 = ['V','D','J', 'V','D','J', 'V','D','J'];
     var epiColors = {V:'#e85d3a', D:'#5ab87a', J:'#4a8fb8'};
-    var orbitR1 = R * (1/PI);    // inner ring ≈ R/3.14
-    var orbitR2 = R * (2/PI);    // outer ring ≈ R/1.57
+    // 3 rings at π-based radii
+    var orbitRadii = [R / PI, R / Math.sqrt(PI), R * 2 / PI];
+    // Torsion: +1 = forward, -1 = reverse
+    var orbitTorsion = [1, -1, 1]; // ring 2 eats in reverse
+    // Stiffness: true = stiff (rigid), false = elastic (deformable)
+    var epiStiff = [true, false, true, false, true, false, true, false, true];
+    var epiNames9 = ['burst','reading','ua_pool',
+                     'sec_fetch','session','referer',
+                     'burst\u0305','reading\u0305','ua_pool\u0305']; // overline = reflection
 
-    // Ring traces
-    el('circle', {cx:cx, cy:cy, r:orbitR1, fill:'none',
-      stroke:'#6e7681', 'stroke-width':0.5, 'stroke-opacity':0.06,
-      'stroke-dasharray':'2,8', id:'mg-orbit-ring-1'}, orbitG);
-    el('circle', {cx:cx, cy:cy, r:orbitR2, fill:'none',
-      stroke:'#6e7681', 'stroke-width':0.5, 'stroke-opacity':0.06,
-      'stroke-dasharray':'2,8', id:'mg-orbit-ring-2'}, orbitG);
+    // 3 ring traces
+    orbitRadii.forEach(function(oR, ri) {
+      el('circle', {cx:cx, cy:cy, r:oR, fill:'none',
+        stroke:'#6e7681', 'stroke-width':0.5, 'stroke-opacity':0.06,
+        'stroke-dasharray': ri === 1 ? '4,4' : '2,8',
+        id:'mg-orbit-ring-'+(ri+1)}, orbitG);
+    });
 
-    // 6 epitope markers: 3 on inner ring (π), 3 on outer ring (π)
-    for (var oi = 0; oi < 6; oi++) {
-      var oR = oi < 3 ? orbitR1 : orbitR2;
-      var oAngle = (oi % 3) * TAU / 3;  // 120° apart per ring
-      var oColor = epiColors[epiVDJ[oi]];
+    // 9 epitope markers: 3 per ring
+    for (var oi = 0; oi < 9; oi++) {
+      var ringIdx = Math.floor(oi / 3);
+      var oR = orbitRadii[ringIdx];
+      var oAngle = (oi % 3) * TAU / 3;
+      var oColor = epiColors[epiVDJ9[oi]];
+      var stiff = epiStiff[oi];
+
       // Orbit dot
       el('circle', {
         cx: (cx + oR * Math.cos(oAngle)).toFixed(1),
@@ -429,18 +441,31 @@ window.PtMembrane = function(deps) {
         r: 3, fill: oColor, opacity: 0.35,
         id: 'mg-epi-' + oi
       }, orbitG);
-      // VDJ label
-      txt(orbitG,
-        (cx + oR * Math.cos(oAngle)).toFixed(1),
-        (cy + oR * Math.sin(oAngle) - 7).toFixed(1),
-        epiVDJ[oi], oColor, 6,
-        {opacity: 0.25, 'font-weight':'bold', id: 'mg-epi-label-' + oi});
-      // Name label
-      txt(orbitG,
-        (cx + oR * Math.cos(oAngle)).toFixed(1),
-        (cy + oR * Math.sin(oAngle) + 8).toFixed(1),
-        epiNames[oi], '#6e7681', 4,
-        {opacity: 0.15, id: 'mg-epi-name-' + oi});
+
+      // Stiff crosshair or elastic spring ring
+      if (stiff) {
+        // Stiff: small crosshair — rigid, fixed angle
+        el('line', {x1:cx, y1:cy, x2:cx, y2:cy,
+          stroke: oColor, 'stroke-width': 0.6, 'stroke-opacity': 0.25,
+          id: 'mg-epi-cross-h-' + oi}, orbitG);
+        el('line', {x1:cx, y1:cy, x2:cx, y2:cy,
+          stroke: oColor, 'stroke-width': 0.6, 'stroke-opacity': 0.25,
+          id: 'mg-epi-cross-v-' + oi}, orbitG);
+      } else {
+        // Elastic: oscillating ring — deformable, breathing
+        el('circle', {cx:cx, cy:cy, r:5,
+          fill:'none', stroke: oColor, 'stroke-width': 0.4,
+          'stroke-opacity': 0.2, 'stroke-dasharray':'2,2',
+          id: 'mg-epi-spring-' + oi}, orbitG);
+      }
+
+      // VDJ + stiffness label
+      var sLabel = epiVDJ9[oi] + (stiff ? '\u2022' : '\u223C'); // • = stiff, ~ = elastic
+      txt(orbitG, cx, cy, sLabel, oColor, 5,
+        {opacity: 0.2, 'font-weight':'bold', id: 'mg-epi-label-' + oi});
+      // Name
+      txt(orbitG, cx, cy, epiNames9[oi], '#6e7681', 3.5,
+        {opacity: 0.12, id: 'mg-epi-name-' + oi});
     }
 
     // ═══ THREE BODIES: IS/WAS/WILLBE overlaid with V/D/J ═══
@@ -831,24 +856,68 @@ window.PtMembrane = function(deps) {
                    val.setAttribute('opacity', (0.45 * perturb).toFixed(2)); }
     }
 
-    // ── Epitope orbits: 6 markers on 2 rings at VDJ rates ──
-    // Inner ring (R/π): 3 epitopes. Outer ring (2R/π): 3 epitopes.
-    // π epitopes per ring. Rings at π.
-    var epiOmegas = [omega_is, omega_willbe, omega_was,
-                     omega_is, omega_willbe, omega_was];
-    var oRadii = [R*(1/PI), R*(1/PI), R*(1/PI),
-                  R*(2/PI), R*(2/PI), R*(2/PI)];
-    for (var oi = 0; oi < 6; oi++) {
+    // ── Epitope orbits: 9 markers on 3 rings, reverse torsion ──
+    // Ring 1 (R/π): forward. Ring 2 (R/√π): REVERSE. Ring 3 (2R/π): forward.
+    // Stiff epitopes hold angle. Elastic epitopes oscillate.
+    // Ring 3 mirrors Ring 1 — reflections facing across [∅]D.
+    var epiOmegas9 = [omega_is, omega_willbe, omega_was,
+                      omega_is, omega_willbe, omega_was,
+                      omega_is, omega_willbe, omega_was];
+    var oRadii9 = [R/PI, R/PI, R/PI,
+                   R/Math.sqrt(PI), R/Math.sqrt(PI), R/Math.sqrt(PI),
+                   R*2/PI, R*2/PI, R*2/PI];
+    var oTorsion9 = [1,1,1, -1,-1,-1, 1,1,1]; // ring 2 reverses
+    var oStiff9 = [true,false,true, false,true,false, true,false,true];
+
+    for (var oi = 0; oi < 9; oi++) {
       var oBaseAngle = (oi % 3) * TAU / 3;
-      var oAngle = oBaseAngle + epiOmegas[oi] * t;
-      var oR = oRadii[oi];
+      var oTorque = oTorsion9[oi];
+      var oAngle = oBaseAngle + epiOmegas9[oi] * t * oTorque;
+      var stiff = oStiff9[oi];
+
+      // Elastic epitopes oscillate ±π/12 around their base orbit
+      if (!stiff) {
+        oAngle += Math.sin(t * PI * 2.3) * (PI / 12);
+      }
+
+      var oR = oRadii9[oi];
       var ox = cx + oR * Math.cos(oAngle);
       var oy = cy + oR * Math.sin(oAngle);
+
       var eDot = document.getElementById('mg-epi-' + oi);
       if (eDot) {
         eDot.setAttribute('cx', ox.toFixed(1));
         eDot.setAttribute('cy', oy.toFixed(1));
       }
+
+      // Stiff crosshairs — rigid lines at fixed angle relative to orbit
+      if (stiff) {
+        var crossLen = 5;
+        var ch = document.getElementById('mg-epi-cross-h-' + oi);
+        var cv = document.getElementById('mg-epi-cross-v-' + oi);
+        if (ch) {
+          ch.setAttribute('x1', (ox - crossLen).toFixed(1));
+          ch.setAttribute('y1', oy.toFixed(1));
+          ch.setAttribute('x2', (ox + crossLen).toFixed(1));
+          ch.setAttribute('y2', oy.toFixed(1));
+        }
+        if (cv) {
+          cv.setAttribute('x1', ox.toFixed(1));
+          cv.setAttribute('y1', (oy - crossLen).toFixed(1));
+          cv.setAttribute('x2', ox.toFixed(1));
+          cv.setAttribute('y2', (oy + crossLen).toFixed(1));
+        }
+      } else {
+        // Elastic spring ring — breathes with perturbation
+        var spring = document.getElementById('mg-epi-spring-' + oi);
+        if (spring) {
+          spring.setAttribute('cx', ox.toFixed(1));
+          spring.setAttribute('cy', oy.toFixed(1));
+          var springR = 4 + Math.sin(t * PI * 1.7) * 2 * perturb;
+          spring.setAttribute('r', springR.toFixed(1));
+        }
+      }
+
       var eLabel = document.getElementById('mg-epi-label-' + oi);
       if (eLabel) {
         eLabel.setAttribute('x', ox.toFixed(1));
