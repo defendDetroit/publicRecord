@@ -3204,6 +3204,35 @@
                       "role":  "Dean",
                       "weight":  3,
                       "source_doc":  "law.msu.edu"
+                  },
+                  {
+                      "source":  "pahara_institute",
+                      "target":  "walton_family_foundation",
+                      "type":  "funding_received",
+                      "epistemic_status":  "record",
+                      "note":  "$27.6M cumulative gifts received (2013-2023). Nearly all revenue = contributions. Pass-through fellowship org.",
+                      "weight":  9,
+                      "source_doc":  "ProPublica Nonprofit Explorer EIN 45-5141625; IRS 990"
+                  },
+                  {
+                      "source":  "citizendetroit",
+                      "target":  "sheila_cockrel",
+                      "type":  "governance",
+                      "epistemic_status":  "record",
+                      "role":  "CEO / Care-of",
+                      "note":  "Collapsed $1.24M (2018) to $7.9K (2021). Filed 990-EZ. Effectively defunct.",
+                      "weight":  6,
+                      "source_doc":  "ProPublica Nonprofit Explorer EIN 82-2361291; IRS 990"
+                  },
+                  {
+                      "source":  "citizendetroit",
+                      "target":  "archer_jr",
+                      "type":  "governance",
+                      "epistemic_status":  "record",
+                      "role":  "Director",
+                      "note":  "Dynasty node: father was Mayor Dennis Archer.",
+                      "weight":  5,
+                      "source_doc":  "ProPublica Nonprofit Explorer EIN 82-2361291"
                   }
               ],
     "epistemic_grammar":  {

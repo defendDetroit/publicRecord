@@ -3020,5 +3020,83 @@
       "tier": "anchor",
       "context": "detroit-build edge: roland_martin -> naacp_lansing (Oct 11 2026)"
     }
+  },
+  {
+    "data_hash": "blake3:990:pahara_institute:funding_received:27.6M",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:eco:ecoPrimal",
+      "plan": "ProPublica 990 data feed — Oct 12 Phase 1",
+      "software": "propublica-api-v2/direct"
+    },
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "pahara_institute ← $27.6M cumulative gifts (IRS 990)",
+      "description": "12 years of 990 data. Revenue peaks $9.3M (2013), $8.7M (2021). Officer comp $4.7M cumulative. Nearly all revenue = contributions. Pass-through fellowship org that launders credentials.",
+      "tags": ["990", "record", "detroit", "funding_received", "propublica"],
+      "custom": {
+        "edge_type": "funding_received",
+        "ein": "45-5141625",
+        "epistemic_status": "record",
+        "source_doc": "ProPublica Nonprofit Explorer API v2",
+        "financial_summary": {
+          "cumulative_gifts_170": 27600000,
+          "peak_revenue_year": 2013,
+          "peak_revenue": 9333231,
+          "peak_officer_comp": 945484,
+          "latest_assets": 9233689,
+          "years_filed": 12
+        }
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "https://projects.propublica.org/nonprofits/api/v2/organizations/455141625.json",
+      "witnessed_at": 1791976000000000000,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "ProPublica 990 data: Pahara Institute $27.6M cumulative gifts"
+    }
+  },
+  {
+    "data_hash": "blake3:990:citizendetroit:collapse:1.24M_to_7.9K",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:eco:ecoPrimal",
+      "plan": "ProPublica 990 data feed — Oct 12 Phase 1",
+      "software": "propublica-api-v2/direct"
+    },
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "citizendetroit: collapsed $1.24M (2018) → $7.9K (2021)",
+      "description": "Sheila Cockrel CEO, Dennis Archer Jr Director. NTEE S21 Community Coalition. 990-EZ filer by 2021. Effectively defunct legitimacy vehicle.",
+      "tags": ["990", "record", "detroit", "governance", "propublica"],
+      "custom": {
+        "edge_type": "governance",
+        "ein": "82-2361291",
+        "epistemic_status": "record",
+        "source_doc": "ProPublica Nonprofit Explorer API v2",
+        "financial_summary": {
+          "revenue_2018": 1240765,
+          "revenue_2019": 808622,
+          "revenue_2020": 158455,
+          "revenue_2021": 7910,
+          "officer_comp_2019": 102308,
+          "collapse_ratio": "157:1"
+        }
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "https://projects.propublica.org/nonprofits/api/v2/organizations/822361291.json",
+      "witnessed_at": 1791976000000001000,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "ProPublica 990 data: CitizenDetroit collapse $1.24M → $7.9K"
+    }
   }
 ]

@@ -1832,3 +1832,55 @@ role = "BLSA President 2006"
 note = "MSU Law BLSA President — same institutional network Banks claims"
 weight = 5
 source_doc = "gllegalgroup.com; lawyer.com"
+
+# ── ProPublica 990 Data Feed (Oct 12, 2026) ─────────────────────────────
+# IRS Form 990 data via ProPublica Nonprofit Explorer API v2.
+# Zero-friction API, no key. Digitized financials.
+
+[[edge]]
+source = "pahara_institute"
+target = "walton_family_foundation"
+type = "funding_received"
+epistemic_status = "record"
+note = "Pahara received $27.6M cumulative gifts (2013-2023 gftgrntsrcvd170). Nearly all revenue = contributions. Pass-through fellowship org."
+amount = "27600000"
+weight = 9
+source_doc = "ProPublica Nonprofit Explorer EIN 45-5141625; IRS 990 2013-2023"
+
+[[edge]]
+source = "pahara_institute"
+target = "banks"
+type = "credential_legitimization"
+epistemic_status = "record"
+note = "Pahara spent $4.7M on officer compensation (2013-2023) while laundering credentials for fellows including 9-time convicted felon Banks. CEO comp peaked $945K (FY2018)."
+weight = 8
+source_doc = "ProPublica Nonprofit Explorer EIN 45-5141625; IRS 990 compnsatncurrofcr"
+
+[[edge]]
+source = "citizendetroit"
+target = "sheila_cockrel"
+type = "governance"
+epistemic_status = "record"
+role = "CEO / Care-of"
+note = "CitizenDetroit c/o Sheila Cockrel. Collapsed from $1.24M revenue (2018) to $7.9K (2021). Filed 990-EZ. NTEE S21 Community Coalition."
+weight = 6
+source_doc = "ProPublica Nonprofit Explorer EIN 82-2361291; IRS 990/990-EZ 2018-2022"
+
+[[edge]]
+source = "citizendetroit"
+target = "archer_jr"
+type = "governance"
+epistemic_status = "record"
+role = "Director"
+note = "Dennis Archer Jr. is CitizenDetroit Director. Dynasty node: father was Mayor."
+weight = 5
+source_doc = "ProPublica Nonprofit Explorer EIN 82-2361291"
+
+[[edge]]
+source = "citizendetroit"
+target = "gay_dagnogo"
+type = "political"
+epistemic_status = "inference"
+note = "CitizenDetroit + Gay-Dagnogo overlap: both charter advocacy, both DPSCD board connected. Cockrel is former Council, Gay-Dagnogo is former State Rep + DPSCD board."
+weight = 4
+source_doc = "Cross-reference: ProPublica 990 + DPSCD board records"
