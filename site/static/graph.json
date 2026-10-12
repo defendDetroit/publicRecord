@@ -127,20 +127,6 @@
       "sort_note": "Governance/board connection to non-self (cascade)."
     },
     {
-      "id": "court_3rd",
-      "label": "court 3rd",
-      "type": "institution",
-      "tier": 1,
-      "class": "entity",
-      "membrane_response": "-1",
-      "classification": "negative",
-      "confidence": 0.55,
-      "opacity": 0.55,
-      "sort_pass": 2,
-      "sort_method": "school_employee",
-      "sort_note": "Employee of captured school."
-    },
-    {
       "id": "state_mi",
       "label": "Michigan",
       "type": "geography",
@@ -153,6 +139,20 @@
       "sort_pass": 2,
       "sort_method": "state_entity",
       "sort_note": "State government entity."
+    },
+    {
+      "id": "court_3rd",
+      "label": "court 3rd",
+      "type": "institution",
+      "tier": 1,
+      "class": "entity",
+      "membrane_response": "-1",
+      "classification": "negative",
+      "confidence": 0.55,
+      "opacity": 0.55,
+      "sort_pass": 2,
+      "sort_method": "school_employee",
+      "sort_note": "Employee of captured school."
     },
     {
       "label": "American Federation for Children",
@@ -367,6 +367,21 @@
       "sort_note": "Political connection to Banks."
     },
     {
+      "id": "mde",
+      "label": "Michigan Department of Education",
+      "type": "entity",
+      "entity_type": "State agency",
+      "tier": 1,
+      "class": "entity",
+      "membrane_response": "form",
+      "classification": "partial",
+      "confidence": 0.55,
+      "opacity": 0.55,
+      "sort_pass": 2,
+      "sort_method": "school_employee",
+      "sort_note": "Employee of captured school."
+    },
+    {
       "id": "npe",
       "label": "Network for Public Education Fund",
       "type": "entity",
@@ -410,21 +425,6 @@
       "sort_pass": 3,
       "sort_method": "unresolved",
       "sort_note": "Edge pattern unresolved."
-    },
-    {
-      "id": "mde",
-      "label": "Michigan Department of Education",
-      "type": "entity",
-      "entity_type": "State agency",
-      "tier": 1,
-      "class": "entity",
-      "membrane_response": "form",
-      "classification": "partial",
-      "confidence": 0.55,
-      "opacity": 0.55,
-      "sort_pass": 2,
-      "sort_method": "school_employee",
-      "sort_note": "Employee of captured school."
     },
     {
       "id": "misha_stallworth",
@@ -714,6 +714,20 @@
       "sort_note": "Governance/board connection to non-self (cascade)."
     },
     {
+      "label": "Betsy DeVos",
+      "tier": 1,
+      "id": "betsy_devos",
+      "type": "actor",
+      "role": "Former Education Secretary, AFC chair",
+      "class": "entity",
+      "classification": "other",
+      "confidence": 0.4,
+      "opacity": 0.4,
+      "sort_pass": 3,
+      "sort_method": "funding",
+      "sort_note": "Funding entity. Insufficient evidence for sort."
+    },
+    {
       "id": "todd_perkins",
       "label": "Todd Perkins",
       "type": "actor",
@@ -728,20 +742,6 @@
       "sort_pass": 2,
       "sort_method": "banks_legal",
       "sort_note": "Legal infrastructure for Banks."
-    },
-    {
-      "label": "Betsy DeVos",
-      "tier": 1,
-      "id": "betsy_devos",
-      "type": "actor",
-      "role": "Former Education Secretary, AFC chair",
-      "class": "entity",
-      "classification": "other",
-      "confidence": 0.4,
-      "opacity": 0.4,
-      "sort_pass": 3,
-      "sort_method": "funding",
-      "sort_note": "Funding entity. Insufficient evidence for sort."
     },
     {
       "id": "glep",
@@ -861,6 +861,15 @@
       "sort_note": "Court or judicial entity."
     },
     {
+      "id": "trump",
+      "label": "Donald Trump",
+      "type": "actor",
+      "tier": 1,
+      "role": "45th/47th President. Appointed DeVos as Education Secretary. Education policy: school choice, charter expansion. Detroit ties: hosted by Kwame, campaign events.",
+      "class": "entity",
+      "classification": "non-self"
+    },
+    {
       "id": "us_doe",
       "label": "US Dept of Education",
       "type": "entity",
@@ -869,15 +878,6 @@
       "role": "Federal education funding source. Title I flows through charter schools. OIG hotline complaint target for charter fraud.",
       "class": "institution",
       "classification": "null"
-    },
-    {
-      "id": "trump",
-      "label": "Donald Trump",
-      "type": "actor",
-      "tier": 1,
-      "role": "45th/47th President. Appointed DeVos as Education Secretary. Education policy: school choice, charter expansion. Detroit ties: hosted by Kwame, campaign events.",
-      "class": "entity",
-      "classification": "non-self"
     },
     {
       "id": "maleyko",
@@ -981,6 +981,16 @@
       "type": "actor",
       "tier": 1,
       "role": "Amway heir. Ran for MI Governor 2006 (lost). Betsy's husband. DeVos family: largest charter school funder in Michigan. Amway/Alticor.",
+      "class": "entity",
+      "classification": "non-self"
+    },
+    {
+      "id": "amway",
+      "label": "Amway / Alticor",
+      "type": "entity",
+      "entity_type": "Private",
+      "tier": 1,
+      "role": "Ada MI (Grand Rapids). DeVos family company. Richard DeVos founded. $8.5B revenue. Largest private company in Michigan. Political donor machine.",
       "class": "entity",
       "classification": "non-self"
     },
@@ -1334,6 +1344,16 @@
       "classification": "other"
     },
     {
+      "id": "gates_foundation",
+      "label": "Bill & Melinda Gates Foundation",
+      "type": "entity",
+      "entity_type": "Foundation",
+      "tier": 5,
+      "role": "Largest private education funder. Common Core. Charter school advocacy. Michigan education grants. Teacher effectiveness initiatives.",
+      "class": "entity",
+      "classification": "non-self"
+    },
+    {
       "id": "len_wolfe",
       "label": "Leonard C. 'Len' Wolfe",
       "type": "actor",
@@ -1483,16 +1503,6 @@
       "sort_note": "Edge pattern unresolved."
     },
     {
-      "id": "gates_foundation",
-      "label": "Bill & Melinda Gates Foundation",
-      "type": "entity",
-      "entity_type": "Foundation",
-      "tier": 5,
-      "role": "Largest private education funder. Common Core. Charter school advocacy. Michigan education grants. Teacher effectiveness initiatives.",
-      "class": "entity",
-      "classification": "non-self"
-    },
-    {
       "id": "right_turn",
       "label": "Right Turn Project",
       "type": "entity",
@@ -1630,6 +1640,30 @@
       "role": "Michigan Online Educator Certification System. Where credential fraud happens. MDE manages. Schmiedeknecht/Breen discovered Banks had no valid credential here. Reginald Scott was being REMOVED from MOECS access.",
       "class": "institution",
       "classification": "null"
+    },
+    {
+      "label": "Skillman Foundation",
+      "entity_type": "Private foundation",
+      "id": "skillman_foundation",
+      "type": "entity",
+      "role": "Detroit youth development funder",
+      "tier": 5,
+      "class": "entity",
+      "classification": "self",
+      "confidence": 0.4,
+      "opacity": 0.4,
+      "sort_pass": 3,
+      "sort_method": "cascade_self",
+      "sort_note": "Low-edge entity adjacent to self."
+    },
+    {
+      "id": "epstein",
+      "label": "Jeffrey Epstein",
+      "type": "actor",
+      "tier": 5,
+      "role": "Financier. Network topology: connected to foundations, universities, politicians across every power center. Structural parallel — used institutions as cover. Died in custody Aug 2019.",
+      "class": "entity",
+      "classification": "non-self"
     },
     {
       "id": "burris",
@@ -2055,21 +2089,6 @@
       "role": "Unknown prior role at MacDowell. CC'd Feb 22 FOIA email. Being REMOVED from MOECS access. eotogroup@gmail.com. Was he the prior authorized rep?",
       "class": "entity",
       "classification": "null"
-    },
-    {
-      "label": "Skillman Foundation",
-      "entity_type": "Private foundation",
-      "id": "skillman_foundation",
-      "type": "entity",
-      "role": "Detroit youth development funder",
-      "tier": 5,
-      "class": "entity",
-      "classification": "self",
-      "confidence": 0.4,
-      "opacity": 0.4,
-      "sort_pass": 3,
-      "sort_method": "cascade_self",
-      "sort_note": "Low-edge entity adjacent to self."
     },
     {
       "id": "broad_foundation",
@@ -2721,15 +2740,6 @@
       "sort_note": "Too few edges."
     },
     {
-      "id": "epstein",
-      "label": "Jeffrey Epstein",
-      "type": "actor",
-      "tier": 5,
-      "role": "Financier. Network topology: connected to foundations, universities, politicians across every power center. Structural parallel — used institutions as cover. Died in custody Aug 2019.",
-      "class": "entity",
-      "classification": "non-self"
-    },
-    {
       "id": "eli_broad",
       "label": "Eli Broad",
       "type": "actor",
@@ -2744,6 +2754,55 @@
       "type": "actor",
       "tier": 5,
       "role": "Quicken Loans/Rocket Mortgage. Largest Detroit property owner. Bedrock. Major political donor. Detroit rebuild narrative. $500M+ Detroit real estate.",
+      "class": "entity",
+      "classification": "non-self"
+    },
+    {
+      "id": "wxyz",
+      "label": "WXYZ Channel 7",
+      "type": "entity",
+      "entity_type": "Media",
+      "tier": 5,
+      "role": "Detroit ABC affiliate. Ross Jones investigative team. Covered Banks/charter school story.",
+      "class": "entity",
+      "classification": "null"
+    },
+    {
+      "id": "zuckerberg",
+      "label": "Mark Zuckerberg",
+      "type": "actor",
+      "tier": 5,
+      "role": "Meta/Facebook CEO. Gave $100M to Newark schools (2010) — failed spectacularly. Chan Zuckerberg Initiative education spending. Structural parallel: billionaire education intervention without accountability.",
+      "class": "entity",
+      "classification": "non-self"
+    },
+    {
+      "id": "blackrock",
+      "label": "BlackRock",
+      "type": "entity",
+      "entity_type": "Financial",
+      "tier": 5,
+      "role": "$10T AUM. ESG education investments. Municipal bond markets (Detroit). Larry Fink.",
+      "class": "entity",
+      "classification": "non-self"
+    },
+    {
+      "id": "jpmorgan",
+      "label": "JPMorgan Chase",
+      "type": "entity",
+      "entity_type": "Fortune 500",
+      "tier": 5,
+      "role": "F500 #1 (revenue). Largest US bank. $100M Detroit investment (post-bankruptcy). Jamie Dimon. Major political donor. Municipal bond underwriter.",
+      "class": "entity",
+      "classification": "non-self"
+    },
+    {
+      "id": "goldman_sachs",
+      "label": "Goldman Sachs",
+      "type": "entity",
+      "entity_type": "Fortune 500",
+      "tier": 5,
+      "role": "F500 #67. Municipal bonds. Charter school financing (social impact bonds). Detroit bankruptcy creditor.",
       "class": "entity",
       "classification": "non-self"
     },
@@ -5313,16 +5372,6 @@
       "classification": "null"
     },
     {
-      "id": "wxyz",
-      "label": "WXYZ Channel 7",
-      "type": "entity",
-      "entity_type": "Media",
-      "tier": 5,
-      "role": "Detroit ABC affiliate. Ross Jones investigative team. Covered Banks/charter school story.",
-      "class": "entity",
-      "classification": "null"
-    },
-    {
       "id": "oakland_county_circuit",
       "label": "Oakland County Circuit Court",
       "type": "entity",
@@ -5421,15 +5470,6 @@
       "classification": "non-self"
     },
     {
-      "id": "zuckerberg",
-      "label": "Mark Zuckerberg",
-      "type": "actor",
-      "tier": 5,
-      "role": "Meta/Facebook CEO. Gave $100M to Newark schools (2010) — failed spectacularly. Chan Zuckerberg Initiative education spending. Structural parallel: billionaire education intervention without accountability.",
-      "class": "entity",
-      "classification": "non-self"
-    },
-    {
       "id": "czi",
       "label": "Chan Zuckerberg Initiative",
       "type": "entity",
@@ -5483,6 +5523,94 @@
       "type": "actor",
       "tier": 5,
       "role": "Compuware founder. Carolina Hurricanes. Major Michigan GOP donor. Education policy influence.",
+      "class": "entity",
+      "classification": "non-self"
+    },
+    {
+      "id": "bill_gates",
+      "label": "Bill Gates",
+      "type": "actor",
+      "tier": 5,
+      "role": "Gates Foundation: largest private education funder in US. Common Core architect. Small schools initiative ($2B, failed). Charter school funder.",
+      "class": "entity",
+      "classification": "non-self"
+    },
+    {
+      "id": "jim_walton",
+      "label": "Jim Walton",
+      "type": "actor",
+      "tier": 5,
+      "role": "Walmart heir. Walton Family Foundation board (already in graph). Largest charter school funder nationally. $1B+ to charter schools.",
+      "class": "entity",
+      "classification": "non-self"
+    },
+    {
+      "id": "microsoft",
+      "label": "Microsoft",
+      "type": "entity",
+      "entity_type": "Fortune 500",
+      "tier": 5,
+      "role": "F500 #13. Gates Foundation connection. Microsoft Education. LinkedIn (professional network data).",
+      "class": "entity",
+      "classification": "non-self"
+    },
+    {
+      "id": "fox_corp",
+      "label": "Fox Corporation",
+      "type": "entity",
+      "entity_type": "Fortune 500",
+      "tier": 5,
+      "role": "F500 #383. Fox News. School choice advocacy platform. Murdoch.",
+      "class": "entity",
+      "classification": "non-self"
+    },
+    {
+      "id": "pearson",
+      "label": "Pearson PLC",
+      "type": "entity",
+      "entity_type": "Education company",
+      "tier": 5,
+      "role": "Largest education company. Textbooks. Testing (M-STEP contracts). Assessment infrastructure.",
+      "class": "entity",
+      "classification": "non-self"
+    },
+    {
+      "id": "k12_inc",
+      "label": "Stride Inc. (K12)",
+      "type": "entity",
+      "entity_type": "Education company",
+      "tier": 5,
+      "role": "Largest for-profit virtual charter operator. Michigan Virtual Academy. Same extraction model — management company takes per-pupil $.",
+      "class": "entity",
+      "classification": "non-self"
+    },
+    {
+      "id": "walmart",
+      "label": "Walmart Inc.",
+      "type": "entity",
+      "entity_type": "Fortune 500",
+      "tier": 5,
+      "role": "F500 #1. Walton family. Walmart Foundation. Largest private employer in US. Connected via Walton Family Foundation.",
+      "class": "entity",
+      "classification": "non-self"
+    },
+    {
+      "id": "mckinsey",
+      "label": "McKinsey & Company",
+      "type": "entity",
+      "entity_type": "Consulting",
+      "tier": 5,
+      "role": "Global consulting. Education practice. Detroit restructuring. Advised on DPS/DPSCD transition.",
+      "class": "entity",
+      "classification": "non-self"
+    },
+    {
+      "id": "kresge_foundation",
+      "label": "Kresge Foundation",
+      "type": "entity",
+      "entity_type": "Foundation",
+      "tier": 5,
+      "role": "Troy MI. $3.8B endowment. Major Detroit education/community funder. Detroit Future City.",
       "class": "entity",
       "classification": "non-self"
     },
@@ -5557,34 +5685,6 @@
       "classification": "non-self"
     },
     {
-      "id": "bill_gates",
-      "label": "Bill Gates",
-      "type": "actor",
-      "tier": 5,
-      "role": "Gates Foundation: largest private education funder in US. Common Core architect. Small schools initiative ($2B, failed). Charter school funder.",
-      "class": "entity",
-      "classification": "non-self"
-    },
-    {
-      "id": "jim_walton",
-      "label": "Jim Walton",
-      "type": "actor",
-      "tier": 5,
-      "role": "Walmart heir. Walton Family Foundation board (already in graph). Largest charter school funder nationally. $1B+ to charter schools.",
-      "class": "entity",
-      "classification": "non-self"
-    },
-    {
-      "id": "blackrock",
-      "label": "BlackRock",
-      "type": "entity",
-      "entity_type": "Financial",
-      "tier": 5,
-      "role": "$10T AUM. ESG education investments. Municipal bond markets (Detroit). Larry Fink.",
-      "class": "entity",
-      "classification": "non-self"
-    },
-    {
       "id": "maxwell",
       "label": "Ghislaine Maxwell",
       "type": "actor",
@@ -5600,6 +5700,106 @@
       "entity_type": "Business dynasty",
       "tier": 5,
       "role": "Ambassador Bridge. CenTra Inc. Detroit trucking/real estate empire. Political influence. Fought Gordie Howe bridge.",
+      "class": "entity",
+      "classification": "non-self"
+    },
+    {
+      "id": "gm",
+      "label": "General Motors",
+      "type": "entity",
+      "entity_type": "Fortune 500",
+      "tier": 5,
+      "role": "F500 #25. Detroit HQ (Renaissance Center). Largest Michigan employer. Political donor. GM Foundation education grants. Mary Barra CEO.",
+      "class": "entity",
+      "classification": "non-self"
+    },
+    {
+      "id": "ford",
+      "label": "Ford Motor Company",
+      "type": "entity",
+      "entity_type": "Fortune 500",
+      "tier": 5,
+      "role": "F500 #27. Dearborn MI. Ford Fund education programs. Major political donor. Bill Ford. Ford Foundation (separate).",
+      "class": "entity",
+      "classification": "non-self"
+    },
+    {
+      "id": "stellantis",
+      "label": "Stellantis (Chrysler)",
+      "type": "entity",
+      "entity_type": "Fortune 500",
+      "tier": 5,
+      "role": "F500 #23. Auburn Hills MI. Former Chrysler. FCA. Detroit employer. Political donor.",
+      "class": "entity",
+      "classification": "non-self"
+    },
+    {
+      "id": "meta",
+      "label": "Meta Platforms",
+      "type": "entity",
+      "entity_type": "Fortune 500",
+      "tier": 5,
+      "role": "F500 #37. Zuckerberg's company. CZI separate. Platform for political organizing.",
+      "class": "entity",
+      "classification": "non-self"
+    },
+    {
+      "id": "alphabet",
+      "label": "Alphabet (Google)",
+      "type": "entity",
+      "entity_type": "Fortune 500",
+      "tier": 5,
+      "role": "F500 #8. Google.org education. YouTube Kids. ChromeBooks in schools. Data on everything.",
+      "class": "entity",
+      "classification": "non-self"
+    },
+    {
+      "id": "dow_chemical",
+      "label": "Dow Inc.",
+      "type": "entity",
+      "entity_type": "Fortune 500",
+      "tier": 5,
+      "role": "F500 #98. Midland MI. Dow Foundation. Major Michigan political donor. Herbert Dow.",
+      "class": "entity",
+      "classification": "non-self"
+    },
+    {
+      "id": "consumers_energy",
+      "label": "CMS Energy / Consumers Energy",
+      "type": "entity",
+      "entity_type": "Fortune 500",
+      "tier": 5,
+      "role": "F500 #334. Jackson MI. Michigan utility monopoly. Major political donor.",
+      "class": "entity",
+      "classification": "non-self"
+    },
+    {
+      "id": "dte_energy",
+      "label": "DTE Energy",
+      "type": "entity",
+      "entity_type": "Fortune 500",
+      "tier": 5,
+      "role": "F500 #245. Detroit HQ. Detroit utility. DTE Foundation. Major political donor. Gerry Anderson.",
+      "class": "entity",
+      "classification": "non-self"
+    },
+    {
+      "id": "disney",
+      "label": "Walt Disney Company",
+      "type": "entity",
+      "entity_type": "Fortune 500",
+      "tier": 5,
+      "role": "F500 #55. ABC (parent of WXYZ). ESPN. Disney Foundation.",
+      "class": "entity",
+      "classification": "non-self"
+    },
+    {
+      "id": "ford_foundation",
+      "label": "Ford Foundation",
+      "type": "entity",
+      "entity_type": "Foundation",
+      "tier": 5,
+      "role": "Separate from Ford Motor. $16B endowment. Education equity. Criminal justice reform.",
       "class": "entity",
       "classification": "non-self"
     },
@@ -5627,6 +5827,86 @@
       "type": "actor",
       "tier": 5,
       "role": "Penske Corp. Detroit business leader. Cleaned up Detroit Grand Prix. Political connections.",
+      "class": "entity",
+      "classification": "non-self"
+    },
+    {
+      "id": "bank_of_america",
+      "label": "Bank of America",
+      "type": "entity",
+      "entity_type": "Fortune 500",
+      "tier": 5,
+      "role": "F500 #19. Municipal finance. Detroit bonds. Education lending.",
+      "class": "entity",
+      "classification": "non-self"
+    },
+    {
+      "id": "citigroup",
+      "label": "Citigroup",
+      "type": "entity",
+      "entity_type": "Fortune 500",
+      "tier": 5,
+      "role": "F500 #28. Municipal finance. Detroit bonds.",
+      "class": "entity",
+      "classification": "non-self"
+    },
+    {
+      "id": "amazon",
+      "label": "Amazon",
+      "type": "entity",
+      "entity_type": "Fortune 500",
+      "tier": 5,
+      "role": "F500 #2. AWS. Amazon Future Engineer. Bezos Day 1 Fund (education). Lobbying.",
+      "class": "entity",
+      "classification": "non-self"
+    },
+    {
+      "id": "apple",
+      "label": "Apple",
+      "type": "entity",
+      "entity_type": "Fortune 500",
+      "tier": 5,
+      "role": "F500 #3. iPads in schools. Apple Education. $2.7T market cap.",
+      "class": "entity",
+      "classification": "non-self"
+    },
+    {
+      "id": "unitedhealth",
+      "label": "UnitedHealth Group",
+      "type": "entity",
+      "entity_type": "Fortune 500",
+      "tier": 5,
+      "role": "F500 #5. Largest US health insurer. School-based health. Optum.",
+      "class": "entity",
+      "classification": "non-self"
+    },
+    {
+      "id": "cvs_health",
+      "label": "CVS Health",
+      "type": "entity",
+      "entity_type": "Fortune 500",
+      "tier": 5,
+      "role": "F500 #6. Aetna. School health services.",
+      "class": "entity",
+      "classification": "non-self"
+    },
+    {
+      "id": "meijer",
+      "label": "Meijer Inc.",
+      "type": "entity",
+      "entity_type": "Private",
+      "tier": 5,
+      "role": "Grand Rapids MI. Major Michigan employer. Hank Meijer. Republican donor. West Michigan power.",
+      "class": "entity",
+      "classification": "non-self"
+    },
+    {
+      "id": "deloitte",
+      "label": "Deloitte",
+      "type": "entity",
+      "entity_type": "Big 4",
+      "tier": 5,
+      "role": "Big 4. Detroit office. State of Michigan audit contracts. Education sector practice.",
       "class": "entity",
       "classification": "non-self"
     }
@@ -35465,6 +35745,915 @@
       "weight": 7,
       "note": "Wide bingo pass 3: 7 shared",
       "source_doc": "Wide bingo pass 3"
+    },
+    {
+      "source": "gm",
+      "target": "detroit_city",
+      "type": "hq",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "GM HQ Renaissance Center Detroit.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "ford",
+      "target": "detroit_city",
+      "type": "economic_power",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "Ford Motor Dearborn. Detroit metro anchor employer.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "stellantis",
+      "target": "detroit_city",
+      "type": "economic_power",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "Chrysler/Stellantis Auburn Hills. Detroit employer.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "jpmorgan",
+      "target": "detroit_city",
+      "type": "investment",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "$100M Detroit investment post-bankruptcy. Jamie Dimon.",
+      "source_doc": "JPMorgan press release"
+    },
+    {
+      "source": "jpmorgan",
+      "target": "blackrock",
+      "type": "financial_system",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "Largest bank + largest asset manager. Municipal markets.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "goldman_sachs",
+      "target": "detroit_city",
+      "type": "municipal_finance",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "Detroit bankruptcy creditor. Municipal bonds.",
+      "source_doc": "PACER"
+    },
+    {
+      "source": "dick_devos",
+      "target": "amway",
+      "type": "family_business",
+      "epistemic_status": "record",
+      "weight": 9,
+      "note": "Dick DeVos is Richard DeVos' son. Amway heir.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "betsy_devos",
+      "target": "amway",
+      "type": "family",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "Married into Amway/DeVos family.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "amway",
+      "target": "charter_law_1993",
+      "type": "political_funding",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "DeVos/Amway money funded charter school expansion.",
+      "source_doc": "Campaign finance"
+    },
+    {
+      "source": "zuckerberg",
+      "target": "meta",
+      "type": "founder",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "Founder/CEO.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "bill_gates",
+      "target": "microsoft",
+      "type": "founder",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "Co-founded Microsoft.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "microsoft",
+      "target": "gates_foundation",
+      "type": "founder_link",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "Gates' Microsoft wealth funds the foundation.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "alphabet",
+      "target": "charter_law_1993",
+      "type": "edtech",
+      "epistemic_status": "record",
+      "weight": 4,
+      "note": "ChromeBooks in charter schools. Google Classroom.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "disney",
+      "target": "wxyz",
+      "type": "parent_company",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "ABC is Disney subsidiary. WXYZ is ABC affiliate.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "jim_walton",
+      "target": "walmart",
+      "type": "family",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "Walton family. Walmart heir.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "walmart",
+      "target": "walton_family_foundation",
+      "type": "family_foundation",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "Walton family wealth funds the foundation.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "k12_inc",
+      "target": "banks",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "Same model: management company extracts per-pupil $ from charter schools.",
+      "source_doc": "Investigation analysis"
+    },
+    {
+      "source": "k12_inc",
+      "target": "charter_law_1993",
+      "type": "charter_operator",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "Michigan Virtual Academy operates under MI charter law.",
+      "source_doc": "MCCSA"
+    },
+    {
+      "source": "pearson",
+      "target": "mde",
+      "type": "testing_contract",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "Assessment infrastructure. M-STEP testing.",
+      "source_doc": "State contracts"
+    },
+    {
+      "source": "pearson",
+      "target": "pca",
+      "type": "testing",
+      "epistemic_status": "record",
+      "weight": 4,
+      "note": "PCA's 3% math proficiency measured by Pearson assessments.",
+      "source_doc": "MDE data"
+    },
+    {
+      "source": "dow_chemical",
+      "target": "engler",
+      "type": "political_donor",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "Major Michigan GOP donor. Engler ally.",
+      "source_doc": "Campaign finance"
+    },
+    {
+      "source": "dte_energy",
+      "target": "detroit_city",
+      "type": "utility",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "Detroit utility monopoly. DTE Foundation.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "consumers_energy",
+      "target": "state_mi",
+      "type": "utility",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "Michigan utility. Major political donor.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "koch_network",
+      "target": "amway",
+      "type": "political_alliance",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "Koch + DeVos: two pillars of Michigan GOP funding.",
+      "source_doc": "OpenSecrets"
+    },
+    {
+      "source": "mckinsey",
+      "target": "detroit_city",
+      "type": "consulting",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "Detroit restructuring consulting. DPS transition.",
+      "source_doc": "Detroit media"
+    },
+    {
+      "source": "mckinsey",
+      "target": "dpscd",
+      "type": "consulting",
+      "epistemic_status": "record",
+      "weight": 4,
+      "note": "Advised on DPS/DPSCD transition.",
+      "source_doc": "DPSCD records"
+    },
+    {
+      "source": "kresge_foundation",
+      "target": "detroit_city",
+      "type": "philanthropy",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "Major Detroit funder. Troy MI HQ. $3.8B endowment.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "skillman_foundation",
+      "target": "kresge_foundation",
+      "type": "co_funding",
+      "epistemic_status": "record",
+      "weight": 4,
+      "note": "Both major Detroit education funders.",
+      "source_doc": "ProPublica 990"
+    },
+    {
+      "source": "ford_foundation",
+      "target": "detroit_city",
+      "type": "philanthropy",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "$16B endowment. Education equity grants.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "blackrock",
+      "target": "jpmorgan",
+      "type": "financial_system",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "Both major municipal finance players.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "blackrock",
+      "target": "goldman_sachs",
+      "type": "financial_system",
+      "epistemic_status": "record",
+      "weight": 4,
+      "note": "BlackRock spun out of Blackstone, Goldman in system.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "fox_corp",
+      "target": "trump",
+      "type": "media_alliance",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "Fox News platform for school choice messaging.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "fox_corp",
+      "target": "betsy_devos",
+      "type": "media_platform",
+      "epistemic_status": "record",
+      "weight": 4,
+      "note": "Fox News featured DeVos school choice advocacy.",
+      "source_doc": "Fox News archives"
+    },
+    {
+      "source": "epstein",
+      "target": "jpmorgan",
+      "type": "banking_relationship",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "JPMorgan maintained Epstein accounts. $365M settlement.",
+      "source_doc": "DOJ, SDNY"
+    },
+    {
+      "source": "epstein",
+      "target": "goldman_sachs",
+      "type": "financial",
+      "epistemic_status": "record",
+      "weight": 4,
+      "note": "Epstein claimed Goldman connections.",
+      "source_doc": "Court records"
+    },
+    {
+      "source": "amway",
+      "target": "npe",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "maleyko",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "glenn_page",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "plante_moran",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "sean_perkins",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "wayne_state_law",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "vitti",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "corey_northrop",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "banks",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "mccsa",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "kwame",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "court_36th",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "cmu",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "state_mi",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "jolia_hill",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "goetz",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "purpose_group",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "sbe",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "detroit_city",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "mackinac_center",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "macdowell",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "crump_gibson",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "gregory_meihn",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "court_3rd",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "sbm",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "upl_dept",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "misha_stallworth",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "wayne_county",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "jtc",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "msu_law",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "verkeydia_hall",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "trump",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "sc_cavanagh",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "miller",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "yancey",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "moreland",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "emu",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "kym_worthy",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "agc",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "devos_foundation",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "perkins_d",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "pca",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "gay_dagnogo",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "jennifer_crump",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "walton_family_foundation",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "bullington",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "glep",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "dpscd",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "sheffield",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "mde",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "beasley",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "engler",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "alj_rice",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "richard_mclellan",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "dpd",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "henri_harmon",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "mi_supreme_court",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "us_doe",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "raphael_washington",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "wayne_resa",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "perkins_sean",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "wayne_resa_audit",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "msu",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "ms_perkins_pca",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "afc",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
+    },
+    {
+      "source": "amway",
+      "target": "todd_perkins",
+      "type": "structural_proximity",
+      "epistemic_status": "predicted",
+      "weight": 4,
+      "note": "F500 back-scatter: 4 shared",
+      "source_doc": "Fortune 500 Wikipedia kernel"
     }
   ],
   "epistemic_grammar": {
