@@ -2045,6 +2045,128 @@
       "type": "actor",
       "tier": 4,
       "role": "Walton family member. Pioneer of charter school philanthropy. Launched WFF charter grants 1997. Co-created Charter School Growth Fund 2005. Died June 2005 plane crash. His vision shapes the entire pipeline."
+    },
+    {
+      "id": "sc_cavanagh",
+      "label": "Chief Justice Megan K. Cavanagh",
+      "type": "actor",
+      "tier": 1,
+      "classification": "supreme_court",
+      "role": "MI Supreme Court Chief Justice (since 2019, CJ since Apr 2025). UMich Engineering + Wayne State Law. LIAISON TO AGC AND JTC. Former AGC member. Former SBM Appellate Practice Section Chair. She is the Supreme Court's direct connection to BOTH oversight bodies that refuse to act."
+    },
+    {
+      "id": "sc_zahra",
+      "label": "Justice Brian K. Zahra",
+      "type": "actor",
+      "tier": 2,
+      "classification": "supreme_court",
+      "role": "MI Supreme Court Justice (since 2011). U of D Mercy Law. Appointed by Rick Snyder. Republican. Term exp Jan 1, 2031. NOTE: Same law school as Thomas Ryan (JTC Chair), Willis (AGC), Linville (AGC)."
+    },
+    {
+      "id": "sc_bernstein",
+      "label": "Justice Richard H. Bernstein",
+      "type": "actor",
+      "tier": 2,
+      "classification": "supreme_court",
+      "role": "MI Supreme Court Justice (since 2015). Northwestern Law. First blind justice on MI Supreme Court. Term exp Jan 1, 2031."
+    },
+    {
+      "id": "sc_welch",
+      "label": "Justice Elizabeth M. Welch",
+      "type": "actor",
+      "tier": 2,
+      "classification": "supreme_court",
+      "role": "MI Supreme Court Justice (since 2021). Ohio State Law. Grand Rapids. Term exp Jan 1, 2029."
+    },
+    {
+      "id": "sc_bolden",
+      "label": "Justice Kyra Harris Bolden",
+      "type": "actor",
+      "tier": 2,
+      "classification": "supreme_court",
+      "role": "MI Supreme Court Justice (since 2023). U of D Mercy Law. Southfield. Appointed by Whitmer. Term exp Jan 1, 2029. NOTE: Same law school as Zahra, Ryan (JTC), Willis (AGC), Linville (AGC)."
+    },
+    {
+      "id": "sc_thomas",
+      "label": "Justice Kimberly A. Thomas",
+      "type": "actor",
+      "tier": 2,
+      "classification": "supreme_court",
+      "role": "MI Supreme Court Justice (since 2025). Harvard Law. Ann Arbor. Term exp Jan 1, 2033."
+    },
+    {
+      "id": "sc_hood",
+      "label": "Justice Noah P. Hood",
+      "type": "actor",
+      "tier": 2,
+      "classification": "supreme_court",
+      "role": "MI Supreme Court Justice (appointed May 2025). Harvard Law. Detroit. Former Court of Appeals. Appointed by Whitmer. Term exp Jan 1, 2027."
+    },
+    {
+      "id": "detroit_city",
+      "label": "City of Detroit",
+      "type": "entity",
+      "entity_type": "Municipality",
+      "tier": 1,
+      "note": "300+ year old city. Mayor: Sheffield. Council President: Tate. Chief: Bettison."
+    },
+    {
+      "id": "tate_jr",
+      "label": "James Tate Jr.",
+      "type": "actor",
+      "tier": 3,
+      "role": "Detroit City Council President (since Jan 5, 2026). District 1. On Council since 2010. Former Deputy Chief, Detroit Police. Former Emmy-winning assignment editor, WXYZ-TV."
+    },
+    {
+      "id": "coleman_young_ii",
+      "label": "Coleman A. Young II",
+      "type": "actor",
+      "tier": 3,
+      "role": "Detroit City Council President Pro Tem. At-large. Grandson of Mayor Coleman Young (1974-1993). Political dynasty."
+    },
+    {
+      "id": "latisha_johnson_cc",
+      "label": "Latisha Johnson (City Council D4)",
+      "type": "actor",
+      "tier": 4,
+      "role": "Detroit City Council District 4. Chandler Park, East English Village, Jefferson Chalmers. NOTE: PCA is in or near District 4 jurisdiction."
+    },
+    {
+      "id": "dpd",
+      "label": "Detroit Police Department",
+      "type": "entity",
+      "entity_type": "Law enforcement",
+      "tier": 2,
+      "note": "$455M budget. 2,500 officers. Chief: Todd Bettison. State's largest municipal PD."
+    },
+    {
+      "id": "wayne_county",
+      "label": "Wayne County",
+      "type": "entity",
+      "entity_type": "County government",
+      "tier": 2,
+      "note": "Largest county in Michigan. Home to Detroit. 3rd Circuit Court jurisdiction."
+    },
+    {
+      "id": "kym_worthy",
+      "label": "Kym L. Worthy",
+      "type": "actor",
+      "tier": 3,
+      "role": "Wayne County Prosecutor since 2004. Term through Jan 1, 2029. Championed rape kit testing (thousands of kits found 2009, hundreds of convictions). The county prosecutor with jurisdiction over PCA and Banks."
+    },
+    {
+      "id": "raphael_washington",
+      "label": "Sheriff Raphael Washington",
+      "type": "actor",
+      "tier": 3,
+      "role": "Wayne County Sheriff. Appointed 2021, reelected 2024 (69% vote)."
+    },
+    {
+      "id": "nessel",
+      "label": "AG Dana Nessel",
+      "type": "actor",
+      "tier": 2,
+      "role": "Michigan Attorney General. Democrat. AG office oversees Corporate Oversight Division (Fowler). AG office where Goetz (AGC) worked (Drug Interdiction Unit). AG office where Cameron (JTC Vice-Chair) managed Criminal + Civil Rights Divisions."
     }
   ],
   "edges": [
@@ -7220,6 +7342,303 @@
       "weight": 3,
       "note": "Graph prediction: 3 shared neighbors. Via: Purpose Charter Acad, Brian Roderick Banks, MacDowell Preparator",
       "source_doc": "run_it_back.py missing edge prediction"
+    },
+    {
+      "source": "sc_cavanagh",
+      "target": "mi_supreme_court",
+      "type": "governance",
+      "epistemic_status": "record",
+      "weight": 9,
+      "note": "MI Supreme Court Chief Justice (since 2019, CJ since Apr 2025). UMich Engineering + Wayne State Law. LIAISON TO AGC AND ",
+      "source_doc": "MI Legislature Manual 2025-2026"
+    },
+    {
+      "source": "sc_zahra",
+      "target": "mi_supreme_court",
+      "type": "governance",
+      "epistemic_status": "record",
+      "weight": 9,
+      "note": "MI Supreme Court Justice (since 2011). U of D Mercy Law. Appointed by Rick Snyder. Republican. Term exp Jan 1, 2031. NOT",
+      "source_doc": "MI Legislature Manual 2025-2026"
+    },
+    {
+      "source": "sc_bernstein",
+      "target": "mi_supreme_court",
+      "type": "governance",
+      "epistemic_status": "record",
+      "weight": 9,
+      "note": "MI Supreme Court Justice (since 2015). Northwestern Law. First blind justice on MI Supreme Court. Term exp Jan 1, 2031.",
+      "source_doc": "MI Legislature Manual 2025-2026"
+    },
+    {
+      "source": "sc_welch",
+      "target": "mi_supreme_court",
+      "type": "governance",
+      "epistemic_status": "record",
+      "weight": 9,
+      "note": "MI Supreme Court Justice (since 2021). Ohio State Law. Grand Rapids. Term exp Jan 1, 2029.",
+      "source_doc": "MI Legislature Manual 2025-2026"
+    },
+    {
+      "source": "sc_bolden",
+      "target": "mi_supreme_court",
+      "type": "governance",
+      "epistemic_status": "record",
+      "weight": 9,
+      "note": "MI Supreme Court Justice (since 2023). U of D Mercy Law. Southfield. Appointed by Whitmer. Term exp Jan 1, 2029. NOTE: S",
+      "source_doc": "MI Legislature Manual 2025-2026"
+    },
+    {
+      "source": "sc_thomas",
+      "target": "mi_supreme_court",
+      "type": "governance",
+      "epistemic_status": "record",
+      "weight": 9,
+      "note": "MI Supreme Court Justice (since 2025). Harvard Law. Ann Arbor. Term exp Jan 1, 2033.",
+      "source_doc": "MI Legislature Manual 2025-2026"
+    },
+    {
+      "source": "sc_hood",
+      "target": "mi_supreme_court",
+      "type": "governance",
+      "epistemic_status": "record",
+      "weight": 9,
+      "note": "MI Supreme Court Justice (appointed May 2025). Harvard Law. Detroit. Former Court of Appeals. Appointed by Whitmer. Term",
+      "source_doc": "MI Legislature Manual 2025-2026"
+    },
+    {
+      "source": "sc_cavanagh",
+      "target": "agc",
+      "type": "governance",
+      "epistemic_status": "record",
+      "weight": 10,
+      "note": "Supreme Court LIAISON to AGC. Former AGC member. She is the direct connection between the Supreme Court and the body that returned the Banks filing.",
+      "source_doc": "MI Supreme Court bio"
+    },
+    {
+      "source": "sc_cavanagh",
+      "target": "jtc",
+      "type": "governance",
+      "epistemic_status": "record",
+      "weight": 10,
+      "note": "Supreme Court LIAISON to JTC. She is the direct connection between the Supreme Court and the body that said 'will no longer respond.'",
+      "source_doc": "MI Supreme Court bio"
+    },
+    {
+      "source": "sc_cavanagh",
+      "target": "wayne_state_law",
+      "type": "education",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "JD from Wayne State Law. Same school as Dawn Ison (JTC Commissioner).",
+      "source_doc": "MI Supreme Court bio"
+    },
+    {
+      "source": "sc_cavanagh",
+      "target": "sbm",
+      "type": "governance",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "Former SBM Appellate Practice Section Chair. SBM council member.",
+      "source_doc": "MI Supreme Court bio"
+    },
+    {
+      "source": "sc_zahra",
+      "target": "ud_mercy_law",
+      "type": "education",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "U of D Mercy Law. Same school as Ryan (JTC), Willis (AGC), Linville (AGC), Bolden.",
+      "source_doc": "MI Supreme Court bio"
+    },
+    {
+      "source": "sc_bolden",
+      "target": "ud_mercy_law",
+      "type": "education",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "U of D Mercy Law. Same school as Zahra (SC), Ryan (JTC), Willis (AGC), Linville (AGC).",
+      "source_doc": "MI Supreme Court bio"
+    },
+    {
+      "source": "sheffield",
+      "target": "detroit_city",
+      "type": "governance",
+      "epistemic_status": "record",
+      "weight": 9,
+      "note": "Mayor since Jan 1, 2026. First woman mayor. 77% election win.",
+      "source_doc": "detroitmi.gov + news"
+    },
+    {
+      "source": "tate_jr",
+      "target": "detroit_city",
+      "type": "governance",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "City Council President since Jan 5, 2026.",
+      "source_doc": "detroitmi.gov + news"
+    },
+    {
+      "source": "coleman_young_ii",
+      "target": "detroit_city",
+      "type": "governance",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "Council Pro Tem. Coleman Young grandson.",
+      "source_doc": "detroitmi.gov + news"
+    },
+    {
+      "source": "coleman_young_ii",
+      "target": "coleman_young",
+      "type": "family",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "Grandson of Mayor Coleman Young (1974-1993). Dynasty.",
+      "source_doc": "detroitmi.gov + news"
+    },
+    {
+      "source": "latisha_johnson_cc",
+      "target": "detroit_city",
+      "type": "governance",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "District 4. PCA jurisdiction area.",
+      "source_doc": "detroitmi.gov + news"
+    },
+    {
+      "source": "bettison",
+      "target": "dpd",
+      "type": "governance",
+      "epistemic_status": "record",
+      "weight": 9,
+      "note": "Police Chief. 27yr DPD veteran. Former Deputy Mayor.",
+      "source_doc": "detroitmi.gov + news"
+    },
+    {
+      "source": "dpd",
+      "target": "detroit_city",
+      "type": "governance",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "DPD serves City of Detroit.",
+      "source_doc": "detroitmi.gov + news"
+    },
+    {
+      "source": "tate_jr",
+      "target": "dpd",
+      "type": "employment",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "Former Deputy Chief before City Council.",
+      "source_doc": "detroitmi.gov + news"
+    },
+    {
+      "source": "sheffield",
+      "target": "kwame",
+      "type": "political",
+      "epistemic_status": "record",
+      "weight": 4,
+      "note": "Part of Detroit political lineage. Kwame→Cockrel→Bing→Duggan→Sheffield.",
+      "source_doc": "detroitmi.gov + news"
+    },
+    {
+      "source": "sheffield",
+      "target": "duggan",
+      "type": "political",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "Succeeded Duggan as mayor. Was Council President during Duggan admin.",
+      "source_doc": "detroitmi.gov + news"
+    },
+    {
+      "source": "kym_worthy",
+      "target": "wayne_county",
+      "type": "governance",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "County Prosecutor since 2004.",
+      "source_doc": "waynecountymi.gov"
+    },
+    {
+      "source": "raphael_washington",
+      "target": "wayne_county",
+      "type": "governance",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "County Sheriff since 2021.",
+      "source_doc": "waynecountymi.gov"
+    },
+    {
+      "source": "wayne_county",
+      "target": "court_3rd",
+      "type": "governance",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "3rd Circuit Court is Wayne County's circuit court.",
+      "source_doc": "waynecountymi.gov"
+    },
+    {
+      "source": "kym_worthy",
+      "target": "wayne_co_pa",
+      "type": "governance",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "Kym Worthy heads the Wayne Co Prosecutor's Office. Same office Glenn Page (JTC) and Willis (AGC) came from. She's their former boss/colleague.",
+      "source_doc": "waynecountymi.gov"
+    },
+    {
+      "source": "kym_worthy",
+      "target": "court_3rd",
+      "type": "jurisdiction",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "Prosecutes cases in 3rd Circuit Court.",
+      "source_doc": "waynecountymi.gov"
+    },
+    {
+      "source": "wayne_county",
+      "target": "detroit_city",
+      "type": "governance",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "Detroit is Wayne County seat.",
+      "source_doc": "waynecountymi.gov"
+    },
+    {
+      "source": "nessel",
+      "target": "ag_office",
+      "type": "governance",
+      "epistemic_status": "record",
+      "weight": 9,
+      "note": "Attorney General. Heads the office.",
+      "source_doc": "michigan.gov/ag + SC bio"
+    },
+    {
+      "source": "nessel",
+      "target": "ag_cod",
+      "type": "governance",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "AG COD reports to Nessel. Fowler works there.",
+      "source_doc": "michigan.gov/ag + SC bio"
+    },
+    {
+      "source": "ag_office",
+      "target": "ag_cod",
+      "type": "governance",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "Corporate Oversight Division is part of AG office.",
+      "source_doc": "michigan.gov/ag + SC bio"
+    },
+    {
+      "source": "nessel",
+      "target": "sc_cavanagh",
+      "type": "professional_connection",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "Cavanagh serves on AG's Elder Abuse Task Force. Direct professional connection AG↔Supreme Court.",
+      "source_doc": "michigan.gov/ag + SC bio"
     }
   ],
   "epistemic_grammar": {
