@@ -1549,3 +1549,171 @@ weight = 7
 viz_type = "institutional"
 flow = "power"
 label = "JTC complaints filed"
+
+# ── Walton-Martin-Pahara Pipeline (Wave 2 — Oct 11-12, 2026) ────────────
+# The credential-washing pipeline: Foundation → fellowship → media → lobby → school.
+# All sourced to public grant disclosures, 990s, and organizational websites.
+
+[[edge]]
+source = "walton_family_foundation"
+target = "pahara_institute"
+type = "funding"
+epistemic_status = "record"
+note = "Major funder of Pahara leadership fellowship"
+weight = 9
+source_doc = "waltonfamilyfoundation.org/grants; influencewatch.org/pahara-institute"
+
+[[edge]]
+source = "pahara_institute"
+target = "banks"
+type = "fellowship"
+epistemic_status = "record"
+role = "Pahara Fellow Cohort 52"
+note = "Banks selected as Pahara Fellow — credential washing through fellowship"
+weight = 9
+source_doc = "pahara.org/cohort-52"
+
+[[edge]]
+source = "walton_family_foundation"
+target = "the_74"
+type = "funding"
+epistemic_status = "record"
+role = "Major funder"
+note = "Disclosed in every The 74 article. Also funded Campbell Brown tenure lawsuit org."
+weight = 9
+source_doc = "the74million.org disclosure page"
+
+[[edge]]
+source = "walton_family_foundation"
+target = "roland_martin"
+type = "funding"
+epistemic_status = "record"
+role = "Tour funder"
+note = "Funded 'School Choice Is the Black Choice' 10-city tour"
+weight = 8
+source_doc = "the74million.org/keepingit100indy; blackpressusa.com"
+
+[[edge]]
+source = "walton_family_foundation"
+target = "mapsa"
+type = "funding"
+epistemic_status = "record"
+role = "Major funder"
+note = "$1.6M (2009), $1M (2010), $744K (2011), $426K (2012), $555K (2013) = $4.3M+"
+weight = 9
+source_doc = "waltonfamilyfoundation.org grant reports 2009-2013"
+
+[[edge]]
+source = "walton_family_foundation"
+target = "afc"
+type = "funding"
+epistemic_status = "record"
+role = "Tour partner"
+note = "AFC co-sponsored School Choice Is the Black Choice tour"
+weight = 7
+source_doc = "the74million.org event announcements"
+
+[[edge]]
+source = "walton_family_foundation"
+target = "excellent_schools_detroit"
+type = "funding"
+epistemic_status = "record"
+note = "Funded charter rating organization"
+weight = 6
+source_doc = "waltonfamilyfoundation.org/2013-grants"
+
+[[edge]]
+source = "roland_martin"
+target = "black_star_network"
+type = "governance"
+epistemic_status = "record"
+role = "Founder"
+note = "30M+ views/month. Platform for 'School Choice Is the Black Choice' messaging."
+weight = 9
+source_doc = "blackstarnetwork.com"
+
+[[edge]]
+source = "roland_martin"
+target = "the_74"
+type = "collaboration"
+epistemic_status = "record"
+role = "Co-host"
+note = "Co-hosted 10-city School Choice Is the Black Choice tour 2018-2020"
+weight = 8
+source_doc = "the74million.org"
+
+[[edge]]
+source = "roland_martin"
+target = "naacp_detroit"
+type = "speaking"
+epistemic_status = "record"
+role = "2025 Freedom Fund Dinner honoree"
+note = "Honored alongside Alice Thompson, Courtney Smith. 10,000 attendees. June 29, 2025."
+weight = 7
+source_doc = "detroitnaacp.org; youtube.com/watch?v=meCW7n99LZQ"
+
+[[edge]]
+source = "alice_thompson"
+target = "naacp_detroit"
+type = "speaking"
+epistemic_status = "record"
+role = "2025 Freedom Fund Dinner honoree"
+note = "Hope Academy charter leader honored alongside Roland Martin"
+weight = 5
+source_doc = "youtube.com/watch?v=meCW7n99LZQ"
+
+[[edge]]
+source = "naacp_detroit"
+target = "wendell_anthony"
+type = "governance"
+epistemic_status = "record"
+role = "Branch president"
+weight = 8
+source_doc = "detroitnaacp.org"
+
+[[edge]]
+source = "the_74"
+target = "campbell_brown"
+type = "governance"
+epistemic_status = "record"
+role = "Co-founder, editor-in-chief"
+weight = 9
+source_doc = "the74million.org; niemanlab.org"
+
+[[edge]]
+source = "campbell_brown"
+target = "afc"
+type = "governance"
+epistemic_status = "record"
+role = "Board member"
+note = "Board member of AFC, which DeVos previously chaired"
+weight = 7
+source_doc = "influencewatch.org"
+
+[[edge]]
+source = "betsy_devos"
+target = "afc"
+type = "governance"
+epistemic_status = "record"
+role = "Former chair"
+weight = 8
+source_doc = "influencewatch.org/american-federation-for-children"
+
+[[edge]]
+source = "devos_foundation"
+target = "the_74"
+type = "funding"
+epistemic_status = "record"
+role = "General operating support"
+note = "Two-year grant disclosed when DeVos nominated for Education Secretary"
+weight = 7
+source_doc = "the74million.org/devos-statement"
+
+[[edge]]
+source = "skillman_foundation"
+target = "excellent_schools_detroit"
+type = "funding"
+epistemic_status = "record"
+note = "Co-funded with Walton. Skillman is Detroit-based."
+weight = 5
+source_doc = "skillman.org/on-purpose-in-power"

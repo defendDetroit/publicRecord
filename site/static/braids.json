@@ -2328,5 +2328,469 @@
       "tier": "open",
       "context": "detroit-build edge: macdowell -> court_36th"
     }
+  },
+  {
+    "data_hash": "blake3:edge:walton_family_foundation->pahara_institute:funding",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:eco:ecoPrimal",
+      "plan": "Walton-Martin-Pahara pipeline braid — Wave 2 Oct 12",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "walton_family_foundation → pahara_institute (funding)",
+      "tags": ["funding", "record", "detroit", "pipeline"],
+      "custom": {
+        "edge_type": "funding",
+        "epistemic_status": "record",
+        "source_doc": "waltonfamilyfoundation.org/grants; influencewatch.org/pahara-institute"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1791975600000000000,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: walton_family_foundation -> pahara_institute"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:pahara_institute->banks:fellowship",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:eco:ecoPrimal",
+      "plan": "Walton-Martin-Pahara pipeline braid — Wave 2 Oct 12",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:detroit:banks",
+        "hash": "db7a4dc18443b6d58af7c87926d9d17b96b1da99e8193adbc0f469281efb013e"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "pahara_institute → banks (fellowship)",
+      "description": "Pahara Fellow Cohort 52 — credential washing through fellowship",
+      "tags": ["fellowship", "record", "detroit", "pipeline"],
+      "custom": {
+        "edge_type": "fellowship",
+        "role": "Pahara Fellow Cohort 52",
+        "epistemic_status": "record",
+        "source_doc": "pahara.org/cohort-52"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1791975600000001000,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: pahara_institute -> banks"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:walton_family_foundation->the_74:funding",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:eco:ecoPrimal",
+      "plan": "Walton-Martin-Pahara pipeline braid — Wave 2 Oct 12",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "walton_family_foundation → the_74 (funding)",
+      "tags": ["funding", "record", "detroit", "pipeline"],
+      "custom": {
+        "edge_type": "funding",
+        "role": "Major funder",
+        "epistemic_status": "record",
+        "source_doc": "the74million.org disclosure page"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1791975600000002000,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: walton_family_foundation -> the_74"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:walton_family_foundation->roland_martin:funding",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:eco:ecoPrimal",
+      "plan": "Walton-Martin-Pahara pipeline braid — Wave 2 Oct 12",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "walton_family_foundation → roland_martin (funding)",
+      "description": "Funded School Choice Is the Black Choice 10-city tour",
+      "tags": ["funding", "record", "detroit", "pipeline"],
+      "custom": {
+        "edge_type": "funding",
+        "role": "Tour funder",
+        "epistemic_status": "record",
+        "source_doc": "the74million.org/keepingit100indy; blackpressusa.com"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1791975600000003000,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: walton_family_foundation -> roland_martin"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:walton_family_foundation->mapsa:funding",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:eco:ecoPrimal",
+      "plan": "Walton-Martin-Pahara pipeline braid — Wave 2 Oct 12",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "walton_family_foundation → mapsa (funding)",
+      "description": "$4.3M+ over 5 years to Michigan charter lobby",
+      "tags": ["funding", "record", "detroit", "pipeline"],
+      "custom": {
+        "edge_type": "funding",
+        "role": "Major funder",
+        "amount_note": "$1.6M (2009), $1M (2010), $744K (2011), $426K (2012), $555K (2013) = $4.3M+",
+        "epistemic_status": "record",
+        "source_doc": "waltonfamilyfoundation.org grant reports 2009-2013"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1791975600000004000,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: walton_family_foundation -> mapsa"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:walton_family_foundation->afc:funding",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:eco:ecoPrimal",
+      "plan": "Walton-Martin-Pahara pipeline braid — Wave 2 Oct 12",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "walton_family_foundation → afc (funding)",
+      "description": "AFC co-sponsored School Choice Is the Black Choice tour",
+      "tags": ["funding", "record", "detroit", "pipeline"],
+      "custom": {
+        "edge_type": "funding",
+        "role": "Tour partner",
+        "epistemic_status": "record",
+        "source_doc": "the74million.org event announcements"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1791975600000005000,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: walton_family_foundation -> afc"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:roland_martin->black_star_network:governance",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:eco:ecoPrimal",
+      "plan": "Walton-Martin-Pahara pipeline braid — Wave 2 Oct 12",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "roland_martin → black_star_network (governance)",
+      "description": "Founder. 30M+ views/month.",
+      "tags": ["governance", "record", "detroit", "pipeline"],
+      "custom": {
+        "edge_type": "governance",
+        "role": "Founder",
+        "epistemic_status": "record",
+        "source_doc": "blackstarnetwork.com"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1791975600000006000,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: roland_martin -> black_star_network"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:roland_martin->the_74:collaboration",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:eco:ecoPrimal",
+      "plan": "Walton-Martin-Pahara pipeline braid — Wave 2 Oct 12",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "roland_martin → the_74 (collaboration)",
+      "description": "Co-hosted 10-city School Choice Is the Black Choice tour 2018-2020",
+      "tags": ["collaboration", "record", "detroit", "pipeline"],
+      "custom": {
+        "edge_type": "collaboration",
+        "role": "Co-host",
+        "epistemic_status": "record",
+        "source_doc": "the74million.org"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1791975600000007000,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: roland_martin -> the_74"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:roland_martin->naacp_detroit:speaking",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:eco:ecoPrimal",
+      "plan": "Walton-Martin-Pahara pipeline braid — Wave 2 Oct 12",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "roland_martin → naacp_detroit (speaking)",
+      "description": "2025 Freedom Fund Dinner honoree. 10,000 attendees.",
+      "tags": ["speaking", "record", "detroit", "pipeline"],
+      "custom": {
+        "edge_type": "speaking",
+        "role": "2025 Freedom Fund Dinner honoree",
+        "epistemic_status": "record",
+        "source_doc": "detroitnaacp.org; youtube.com/watch?v=meCW7n99LZQ"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1791975600000008000,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: roland_martin -> naacp_detroit"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:the_74->campbell_brown:governance",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:eco:ecoPrimal",
+      "plan": "Walton-Martin-Pahara pipeline braid — Wave 2 Oct 12",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "the_74 → campbell_brown (governance)",
+      "tags": ["governance", "record", "detroit", "pipeline"],
+      "custom": {
+        "edge_type": "governance",
+        "role": "Co-founder, editor-in-chief",
+        "epistemic_status": "record",
+        "source_doc": "the74million.org; niemanlab.org"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1791975600000009000,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: the_74 -> campbell_brown"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:campbell_brown->afc:governance",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:eco:ecoPrimal",
+      "plan": "Walton-Martin-Pahara pipeline braid — Wave 2 Oct 12",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "campbell_brown → afc (governance)",
+      "tags": ["governance", "record", "detroit", "pipeline"],
+      "custom": {
+        "edge_type": "governance",
+        "role": "Board member",
+        "epistemic_status": "record",
+        "source_doc": "influencewatch.org"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1791975600000010000,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: campbell_brown -> afc"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:betsy_devos->afc:governance",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:eco:ecoPrimal",
+      "plan": "Walton-Martin-Pahara pipeline braid — Wave 2 Oct 12",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "betsy_devos → afc (governance)",
+      "tags": ["governance", "record", "detroit", "pipeline"],
+      "custom": {
+        "edge_type": "governance",
+        "role": "Former chair",
+        "epistemic_status": "record",
+        "source_doc": "influencewatch.org/american-federation-for-children"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1791975600000011000,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: betsy_devos -> afc"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:devos_foundation->the_74:funding",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:eco:ecoPrimal",
+      "plan": "Walton-Martin-Pahara pipeline braid — Wave 2 Oct 12",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "devos_foundation → the_74 (funding)",
+      "description": "Two-year grant disclosed when DeVos nominated for Education Secretary",
+      "tags": ["funding", "record", "detroit", "pipeline"],
+      "custom": {
+        "edge_type": "funding",
+        "role": "General operating support",
+        "epistemic_status": "record",
+        "source_doc": "the74million.org/devos-statement"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1791975600000012000,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: devos_foundation -> the_74"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:naacp_detroit->wendell_anthony:governance",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:eco:ecoPrimal",
+      "plan": "Walton-Martin-Pahara pipeline braid — Wave 2 Oct 12",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "naacp_detroit → wendell_anthony (governance)",
+      "tags": ["governance", "record", "detroit", "pipeline"],
+      "custom": {
+        "edge_type": "governance",
+        "role": "Branch president",
+        "epistemic_status": "record",
+        "source_doc": "detroitnaacp.org"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1791975600000013000,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: naacp_detroit -> wendell_anthony"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:skillman_foundation->excellent_schools_detroit:funding",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:eco:ecoPrimal",
+      "plan": "Walton-Martin-Pahara pipeline braid — Wave 2 Oct 12",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "skillman_foundation → excellent_schools_detroit (funding)",
+      "description": "Co-funded with Walton. Skillman is Detroit-based.",
+      "tags": ["funding", "record", "detroit", "pipeline"],
+      "custom": {
+        "edge_type": "funding",
+        "epistemic_status": "record",
+        "source_doc": "skillman.org/on-purpose-in-power"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1791975600000014000,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: skillman_foundation -> excellent_schools_detroit"
+    }
   }
 ]
