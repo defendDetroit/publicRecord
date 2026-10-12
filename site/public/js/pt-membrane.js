@@ -381,6 +381,60 @@ window.PtMembrane = function(deps) {
        angle:-PI/2+2*TAU/3, color:'#5ab87a'}
     ];
 
+    // ═══ CONES & RODS: the retina of the membrane ═══
+    // Cones (3 body-cones) = color perception of time, pointing at [∅]D.
+    //   Like retinal cones — S, M, L wavelengths → IS, WAS, WILLBE tenses.
+    //   Three types. Concentrated near the fovea (center). Color-sensitive.
+    // Rods (panel detectors) = binary presence detection, pointing at [∅]D.
+    //   Numerous, peripheral, sensitive but colorblind. The ring IS the rod layer.
+    // Comet tails: π radians of wake trailing behind each rotating body.
+    //   The tail points away from motion, not from origin — solar wind analog.
+    //   Length = π. Around π again.
+    // All photoreceptors point toward origin — the eye looks inward at [∅]D.
+    var retinaG = el('g', {id:'mg-retina'}, wbG);
+
+    // Cone shapes: triangular wedges, tip at center, base at body
+    bodies.forEach(function(b) {
+      el('polygon', {
+        points: cx+','+cy+' '+cx+','+cy+' '+cx+','+cy,
+        fill: b.color, 'fill-opacity': 0.04,
+        stroke: b.color, 'stroke-width': 0.7, 'stroke-opacity': 0.12,
+        id: 'mg-cone-' + b.id
+      }, retinaG);
+    });
+
+    // Comet tails: 16 dots per body trailing π radians behind
+    bodies.forEach(function(b) {
+      for (var s = 0; s < 16; s++) {
+        el('circle', {
+          cx: cx, cy: cy, r: 2,
+          fill: b.color, opacity: 0,
+          id: 'mg-tail-' + b.id + '-' + s
+        }, retinaG);
+      }
+    });
+
+    // Rods: thick short indicators at each panel, inner edge of ring → center
+    // Like retinal rods — cylindrical, binary, peripheral.
+    // They detect presence but not color. The ring is the rod layer.
+    var rodLen = 14;
+    shuffled.forEach(function(p, idx) {
+      var rAngle = -PI/2 + (idx / N) * TAU;
+      var rColor = CAT_COLORS[p.cat] || '#6e7681';
+      var rAlive = aliveSet.has(p.id);
+      var rx1 = cx + (R - 2) * Math.cos(rAngle);
+      var ry1 = cy + (R - 2) * Math.sin(rAngle);
+      var rx2 = cx + (R - 2 - rodLen) * Math.cos(rAngle);
+      var ry2 = cy + (R - 2 - rodLen) * Math.sin(rAngle);
+      el('line', {
+        x1: rx1.toFixed(1), y1: ry1.toFixed(1),
+        x2: rx2.toFixed(1), y2: ry2.toFixed(1),
+        stroke: rColor, 'stroke-width': 2.0, 'stroke-opacity': rAlive ? 0.22 : 0.07,
+        'stroke-linecap': 'round',
+        id: 'mg-rod-' + p.id
+      }, retinaG);
+    });
+
     // All elements start at center — built at cx,cy
     // Triangle path
     el('path', {d:'M '+cx+' '+cy+' L '+cx+' '+cy+' L '+cx+' '+cy+' Z',
@@ -646,6 +700,53 @@ window.PtMembrane = function(deps) {
                    sub.setAttribute('opacity', (0.3 * perturb).toFixed(2)); }
       if (val)   { val.setAttribute('x', bx.toFixed(1)); val.setAttribute('y', (by+28).toFixed(1));
                    val.setAttribute('opacity', (0.45 * perturb).toFixed(2)); }
+    }
+
+    // ── Cones: triangular wedges pointing at [∅]D ──
+    // Tip at center (origin), base flanking the body position.
+    // Like retinal cones — concentrated at the fovea, color-sensitive.
+    // At perturbation=0: collapsed to a point (all at singularity).
+    // At perturbation=1: full cone spread, pointing inward.
+    for (var ci = 0; ci < 3; ci++) {
+      var coneEl = document.getElementById('mg-cone-' + bodyIds[ci]);
+      if (coneEl) {
+        var bp = bodyPositions[ci];
+        var ba = bodyAngles[ci];
+        var coneW = 12 * perturb; // base width grows with perturbation
+        var clx = bp.x + coneW * Math.cos(ba + PI/2);
+        var cly = bp.y + coneW * Math.sin(ba + PI/2);
+        var crx = bp.x + coneW * Math.cos(ba - PI/2);
+        var cry = bp.y + coneW * Math.sin(ba - PI/2);
+        coneEl.setAttribute('points',
+          cx.toFixed(1)+','+cy.toFixed(1)+' '+
+          clx.toFixed(1)+','+cly.toFixed(1)+' '+
+          crx.toFixed(1)+','+cry.toFixed(1));
+        coneEl.setAttribute('fill-opacity', (0.10 * perturb).toFixed(3));
+        coneEl.setAttribute('stroke-opacity', (0.25 * perturb).toFixed(3));
+      }
+    }
+
+    // ── Comet tails: π radians of wake behind each body ──
+    // 16 dots trail behind the body's orbit path.
+    // Length = π radians — the wake wraps halfway around.
+    // Opacity fades along the tail. Size shrinks.
+    // Like a comet's tail — always trailing behind motion.
+    for (var ci = 0; ci < 3; ci++) {
+      for (var s = 0; s < 16; s++) {
+        var tailEl = document.getElementById('mg-tail-' + bodyIds[ci] + '-' + s);
+        if (tailEl) {
+          var frac = (s + 1) / 16;
+          var tailAngle = bodyAngles[ci] - frac * PI; // π radians behind
+          var tx = cx + BR * Math.cos(tailAngle);
+          var ty = cy + BR * Math.sin(tailAngle);
+          var tailOp = (1 - frac) * 0.55 * perturb;
+          var tailR = (3.5 - frac * 2.5) * perturb;
+          tailEl.setAttribute('cx', tx.toFixed(1));
+          tailEl.setAttribute('cy', ty.toFixed(1));
+          tailEl.setAttribute('r', Math.max(tailR, 0.2).toFixed(1));
+          tailEl.setAttribute('opacity', tailOp.toFixed(3));
+        }
+      }
     }
 
     // Triangle path follows the bodies
