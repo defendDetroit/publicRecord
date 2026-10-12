@@ -276,6 +276,53 @@ window.PtMembrane = function(deps) {
       }, coilG);
     });
 
+    // ═══ COMPLEXITY SPINE: jelly strand evolution chain ═══
+    // The jelly strand sorts reality by complexity.
+    // From [∅]D (null) → quark → atom → molecule → lattice → helix → cell
+    //   → organism → Earth → system → Oort.
+    // 11 tiers. 11 is prime. The 11th prime is 31 = π-budget.
+    // Self strand spirals clockwise. Non-self counter-clockwise.
+    // π crossings per tier. The twist IS abstraction.
+    // Each tier contains all below it. Each abstracts all below it.
+    // The jelly: soft, translucent, wobbling. The connective tissue of reality.
+    var spineG = el('g', {id:'mg-spine'}, svg);
+    var TIERS = [
+      {name:'\u2205',      rFrac:0,     color:'#ffffff'},  // null — the point
+      {name:'quark',       rFrac:0.05,  color:'#d2a8ff'},  // fundamental particle
+      {name:'atom',        rFrac:0.18,  color:'#c9d1d9'},  // H — simplest
+      {name:'He',          rFrac:0.25,  color:'#f0e68c'},  // fusion product
+      {name:'H\u2082O',    rFrac:0.35,  color:'#58a6ff'},  // molecule — bonds
+      {name:'lattice',     rFrac:0.52,  color:'#6e7681'},  // crystal — structure
+      {name:'helix',       rFrac:0.68,  color:'#d2a8ff'},  // DNA — code
+      {name:'cell',        rFrac:0.82,  color:'#5ab87a'},  // membrane — boundary
+      {name:'Earth',       rFrac:1.0,   color:'#c9d1d9'},  // ring — the membrane
+      {name:'system',      rFrac:1.32,  color:'#f0e68c'},  // solar — scale
+      {name:'Oort',        rFrac:1.55,  color:'#484f58'}   // cosmic membrane
+    ];
+    // Tier nodes — complexity markers along the spine
+    for (var sti = 0; sti < TIERS.length; sti++) {
+      el('circle', {cx:cx, cy:cy, r:1.2,
+        fill:TIERS[sti].color, opacity:0.08,
+        id:'mg-tier-' + sti}, spineG);
+      txt(spineG, cx, cy, TIERS[sti].name, TIERS[sti].color, 3.5,
+        {opacity:0.04, id:'mg-tier-label-' + sti});
+    }
+    // Self spine strand — jelly extending from [∅]D through all tiers to Oort
+    el('path', {d:'M '+cx+' '+cy, fill:'none',
+      stroke:'#4a8fb8', 'stroke-width':0.5, 'stroke-opacity':0.04,
+      'stroke-dasharray':'4,8', id:'mg-spine-self'}, spineG);
+    // Non-self spine strand — counter-rotating jelly
+    el('path', {d:'M '+cx+' '+cy, fill:'none',
+      stroke:'#e85d3a', 'stroke-width':0.5, 'stroke-opacity':0.04,
+      'stroke-dasharray':'4,8', id:'mg-spine-nonself'}, spineG);
+    // Tier connection arcs — faint lines linking consecutive tiers
+    for (var stci = 0; stci < TIERS.length - 1; stci++) {
+      el('line', {x1:cx, y1:cy, x2:cx, y2:cy,
+        stroke:TIERS[stci+1].color, 'stroke-width':0.3,
+        'stroke-opacity':0.02, 'stroke-dasharray':'1,6',
+        id:'mg-tier-link-' + stci}, spineG);
+    }
+
     // ═══ INTERSTITIAL P-SPACE: the lattice of reality ═══
     // The grids and braids of data ARE the interstitial space.
     // Elements come to rest where secant crosses tangent — the docking sites.
@@ -1809,6 +1856,86 @@ window.PtMembrane = function(deps) {
         otrEl.setAttribute('transform',
           'rotate(' + otrDeg.toFixed(1) + ' ' + cx + ' ' + cy + ')');
       }
+    }
+
+    // ── Complexity spine: jelly strands evolving through all tiers ──
+    // The spine angle rotates slowly — the chain itself orbits.
+    // At each tier, the strand crosses (self meets non-self = abstraction).
+    // Complexity increases outward: more crossings, more structure.
+    var spineAngle = t * PI / 37; // slow drift — 37 is prime
+    var oortR = Math.min(R * 1.55, 230);
+    var TIER_FRACS = [0, 0.05, 0.18, 0.25, 0.35, 0.52, 0.68, 0.82, 1.0, 1.32, 1.55];
+    var TIER_COLORS = ['#ffffff','#d2a8ff','#c9d1d9','#f0e68c','#58a6ff',
+                       '#6e7681','#d2a8ff','#5ab87a','#c9d1d9','#f0e68c','#484f58'];
+
+    // Position tier nodes radially along the spine angle
+    for (var stai = 0; stai < 11; stai++) {
+      var stR = TIER_FRACS[stai] * R;
+      var stNodeAngle = spineAngle + stai * PI / 5.5; // π/5.5 radians between tiers
+      var stx = cx + stR * Math.cos(stNodeAngle);
+      var sty = cy + stR * Math.sin(stNodeAngle);
+      var stNode = document.getElementById('mg-tier-' + stai);
+      if (stNode) {
+        stNode.setAttribute('cx', stx.toFixed(1));
+        stNode.setAttribute('cy', sty.toFixed(1));
+        // Pulse at tier's own prime rate
+        var stPulse = 0.08 + 0.06 * Math.sin(t * PI / (stai + 2));
+        stNode.setAttribute('opacity', (stPulse * (0.3 + 0.7 * perturb)).toFixed(3));
+      }
+      var stLabel = document.getElementById('mg-tier-label-' + stai);
+      if (stLabel) {
+        stLabel.setAttribute('x', (stx + 5).toFixed(1));
+        stLabel.setAttribute('y', (sty - 3).toFixed(1));
+        stLabel.setAttribute('opacity', (0.04 + 0.08 * perturb).toFixed(3));
+      }
+    }
+
+    // Tier connection links — arc between consecutive tiers
+    for (var stli = 0; stli < 10; stli++) {
+      var stlR1 = TIER_FRACS[stli] * R;
+      var stlR2 = TIER_FRACS[stli + 1] * R;
+      var stlA1 = spineAngle + stli * PI / 5.5;
+      var stlA2 = spineAngle + (stli + 1) * PI / 5.5;
+      var stlLink = document.getElementById('mg-tier-link-' + stli);
+      if (stlLink) {
+        stlLink.setAttribute('x1', (cx + stlR1 * Math.cos(stlA1)).toFixed(1));
+        stlLink.setAttribute('y1', (cy + stlR1 * Math.sin(stlA1)).toFixed(1));
+        stlLink.setAttribute('x2', (cx + stlR2 * Math.cos(stlA2)).toFixed(1));
+        stlLink.setAttribute('y2', (cy + stlR2 * Math.sin(stlA2)).toFixed(1));
+        stlLink.setAttribute('stroke-opacity', (0.03 + 0.04 * perturb).toFixed(3));
+      }
+    }
+
+    // Self spine strand: clockwise jelly spiral from [∅]D through all tiers to Oort
+    var SSTEPS = 64;
+    var spSelfPts = [];
+    for (var ssi = 0; ssi <= SSTEPS; ssi++) {
+      var ssF = ssi / SSTEPS;
+      var ssR = ssF * oortR;
+      // π turns per full extent — the twist IS abstraction
+      var ssA = spineAngle + ssF * PI * TAU;
+      spSelfPts.push((cx + ssR * Math.cos(ssA)).toFixed(1) + ' ' +
+                     (cy + ssR * Math.sin(ssA)).toFixed(1));
+    }
+    var spSelfEl = document.getElementById('mg-spine-self');
+    if (spSelfEl) {
+      spSelfEl.setAttribute('d', 'M ' + spSelfPts.join(' L '));
+      spSelfEl.setAttribute('stroke-opacity', (0.04 + 0.04 * perturb).toFixed(3));
+    }
+
+    // Non-self spine strand: counter-clockwise, π offset
+    var spNonPts = [];
+    for (var sni = 0; sni <= SSTEPS; sni++) {
+      var snF = sni / SSTEPS;
+      var snR = snF * oortR;
+      var snA = spineAngle + PI + snF * PI * TAU * -1;
+      spNonPts.push((cx + snR * Math.cos(snA)).toFixed(1) + ' ' +
+                    (cy + snR * Math.sin(snA)).toFixed(1));
+    }
+    var spNonEl = document.getElementById('mg-spine-nonself');
+    if (spNonEl) {
+      spNonEl.setAttribute('d', 'M ' + spNonPts.join(' L '));
+      spNonEl.setAttribute('stroke-opacity', (0.04 + 0.04 * perturb).toFixed(3));
     }
 
     // ── Cones: triangular wedges pointing at [∅]D ──
