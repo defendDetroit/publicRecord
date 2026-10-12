@@ -63,6 +63,13 @@
       "confidence": 0.9,
       "sort_pass": 1
     },
+    "adb": {
+      "classification": "self",
+      "confidence": 0.6,
+      "method": "inaction_target",
+      "note": "Regulatory body that did not act on Banks.",
+      "sort_pass": 2
+    },
     "advance_detroit": {
       "classification": "null",
       "confidence": 0.6,
@@ -86,9 +93,9 @@
     },
     "ag_office": {
       "classification": "self",
-      "confidence": 0.75,
-      "method": "investigator",
-      "note": "Entity investigating Banks.",
+      "confidence": 0.6,
+      "method": "inaction_target",
+      "note": "Regulatory body that did not act on Banks.",
       "sort_pass": 2
     },
     "agc": {
@@ -406,6 +413,13 @@
       "note": "Board member of non-self entity.",
       "sort_pass": 2
     },
+    "jolia_hill": {
+      "classification": "self",
+      "confidence": 0.75,
+      "method": "investigator",
+      "note": "Entity investigating Banks.",
+      "sort_pass": 2
+    },
     "jtc_burmeister": {
       "classification": "self",
       "confidence": 0.7,
@@ -605,8 +619,8 @@
     "pahara_institute": {
       "classification": "self",
       "confidence": 0.6,
-      "method": "credential_source",
-      "note": "Used by Banks for credential legitimization.",
+      "method": "inaction_target",
+      "note": "Regulatory body that did not act on Banks.",
       "sort_pass": 2
     },
     "peninsula_fund": {
@@ -698,6 +712,13 @@
       "confidence": 0.55,
       "method": "board_of_nonself",
       "note": "Board member of non-self entity.",
+      "sort_pass": 2
+    },
+    "sbm": {
+      "classification": "self",
+      "confidence": 0.6,
+      "method": "inaction_target",
+      "note": "Regulatory body that did not act on Banks.",
       "sort_pass": 2
     },
     "schmiedeknecht": {
@@ -840,6 +861,13 @@
       "note": "Court or judicial entity.",
       "sort_pass": 2
     },
+    "walton_family_foundation": {
+      "classification": "self",
+      "confidence": 0.6,
+      "method": "inaction_target",
+      "note": "Regulatory body that did not act on Banks.",
+      "sort_pass": 2
+    },
     "wells_stallworth": {
       "classification": "partial",
       "confidence": 0.55,
@@ -894,13 +922,6 @@
       "confidence": 0.3,
       "method": "unresolved",
       "note": "Edge pattern unresolved.",
-      "sort_pass": 3
-    },
-    "adb": {
-      "classification": "self",
-      "confidence": 0.4,
-      "method": "cascade_self",
-      "note": "Low-edge entity adjacent to self.",
       "sort_pass": 3
     },
     "afc": {
@@ -1086,10 +1107,10 @@
       "sort_pass": 3
     },
     "alliance_school_choice": {
-      "classification": "other",
+      "classification": "self",
       "confidence": 0.4,
-      "method": "funding",
-      "note": "Funding entity. Insufficient evidence for sort.",
+      "method": "cascade_self",
+      "note": "Low-edge entity adjacent to self.",
       "sort_pass": 3
     },
     "archer": {
@@ -1205,10 +1226,10 @@
       "sort_pass": 3
     },
     "charter_school_growth_fund": {
-      "classification": "other",
+      "classification": "self",
       "confidence": 0.4,
-      "method": "funding",
-      "note": "Funding entity. Insufficient evidence for sort.",
+      "method": "cascade_self",
+      "note": "Low-edge entity adjacent to self.",
       "sort_pass": 3
     },
     "chatfield": {
@@ -1401,10 +1422,10 @@
       "sort_pass": 3
     },
     "excellent_schools_detroit": {
-      "classification": "other",
+      "classification": "self",
       "confidence": 0.4,
-      "method": "funding",
-      "note": "Funding entity. Insufficient evidence for sort.",
+      "method": "cascade_self",
+      "note": "Low-edge entity adjacent to self.",
       "sort_pass": 3
     },
     "fifty_can": {
@@ -1520,17 +1541,10 @@
       "sort_pass": 3
     },
     "john_walton": {
-      "classification": "other",
-      "confidence": 0.3,
-      "method": "unresolved",
-      "note": "Edge pattern unresolved.",
-      "sort_pass": 3
-    },
-    "jolia_hill": {
-      "classification": "other",
-      "confidence": 0.3,
-      "method": "unresolved",
-      "note": "Edge pattern unresolved.",
+      "classification": "self",
+      "confidence": 0.4,
+      "method": "cascade_self",
+      "note": "Low-edge entity adjacent to self.",
       "sort_pass": 3
     },
     "jtc": {
@@ -1758,10 +1772,10 @@
       "sort_pass": 3
     },
     "mapsa": {
-      "classification": "other",
+      "classification": "self",
       "confidence": 0.4,
-      "method": "funding",
-      "note": "Funding entity. Insufficient evidence for sort.",
+      "method": "cascade_self",
+      "note": "Low-edge entity adjacent to self.",
       "sort_pass": 3
     },
     "marygrove": {
@@ -1967,13 +1981,6 @@
       "note": "Low-edge entity adjacent to self.",
       "sort_pass": 3
     },
-    "sbm": {
-      "classification": "partial",
-      "confidence": 0.45,
-      "method": "cascade_nonself",
-      "note": "Governance/board connection to non-self (cascade).",
-      "sort_pass": 3
-    },
     "sbm_bryant": {
       "classification": "self",
       "confidence": 0.4,
@@ -1996,24 +2003,24 @@
       "sort_pass": 3
     },
     "sbm_d_anderson": {
-      "classification": "other",
-      "confidence": 0.3,
-      "method": "unresolved",
-      "note": "Edge pattern unresolved.",
+      "classification": "self",
+      "confidence": 0.4,
+      "method": "cascade_self",
+      "note": "Low-edge entity adjacent to self.",
       "sort_pass": 3
     },
     "sbm_dwalton": {
-      "classification": "other",
-      "confidence": 0.25,
-      "method": "insufficient",
-      "note": "Too few edges.",
+      "classification": "self",
+      "confidence": 0.4,
+      "method": "cascade_self",
+      "note": "Low-edge entity adjacent to self.",
       "sort_pass": 3
     },
     "sbm_howlett": {
-      "classification": "other",
-      "confidence": 0.3,
-      "method": "unresolved",
-      "note": "Edge pattern unresolved.",
+      "classification": "self",
+      "confidence": 0.4,
+      "method": "cascade_self",
+      "note": "Low-edge entity adjacent to self.",
       "sort_pass": 3
     },
     "sbm_larsen": {
@@ -2247,13 +2254,6 @@
       "note": "Governance/board connection to non-self (cascade).",
       "sort_pass": 3
     },
-    "walton_family_foundation": {
-      "classification": "null",
-      "confidence": 0.45,
-      "method": "cascade_null",
-      "note": "Formation/governance connection to null (cascade).",
-      "sort_pass": 3
-    },
     "wayne_co_pa": {
       "classification": "other",
       "confidence": 0.3,
@@ -2300,10 +2300,10 @@
   "summary": {
     "total": 329,
     "non_self": 5,
-    "null": 69,
-    "self": 96,
-    "partial": 58,
-    "other": 101,
-    "classified_with_confidence": 126
+    "null": 68,
+    "self": 107,
+    "partial": 57,
+    "other": 92,
+    "classified_with_confidence": 130
   }
 }
