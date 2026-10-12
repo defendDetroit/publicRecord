@@ -94,7 +94,7 @@ to give institutional weight to what is fundamentally an opinion.
 | **Vitti** | "Reflective, child-centric leader" | {{ fact(registry="entities", key="macdowell", field="math_proficiency") }} math proficiency. $4.28M extracted. |
 | **Shulman** | "I do not believe Mr. Banks suffers from any disorders" | Diagnosed PTSD by Leno — contradictory findings |
 | **Leno** | "No longer in need of formal therapy" | Banks's conduct in 2026 suggests otherwise |
-| **Wells-Stallworth** | "Has gotten his life back on track" | Co-residing with convicted drug offender managing entity finances |
+| **Wells-Stallworth** | "Has gotten his life back on track" | Romantic partner is a convicted drug offender managing entity finances — Banks uses Holland for every financial gatekeeping role |
 | **Meihn** | "Good people are few and far between" | Holland concealed assets in bankruptcy to erase Banks as codebtor |
 | **Vitti** | "Skills, character, and integrity required" | Banks denied father access to school, claimed to be lawyer |
 

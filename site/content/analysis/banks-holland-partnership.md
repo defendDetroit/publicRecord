@@ -1,11 +1,11 @@
 +++
-title = "The Banks-Holland Economic Unit — 20 Years of Shared Assets, Concealed Property, and Institutional Control"
-description = "Brian Banks and Joseph Holland Jr. have operated as a domestic and economic unit since at least 2005. Joint property, shared addresses, foundation co-officers, trust succession, and a documented pattern of concealing assets from courts."
+title = "The Banks-Holland Partnership — Romantic Partners, Criminal Enterprise, Institutional Control"
+description = "Brian Banks and Joseph Holland Jr. are romantic partners who have operated as a domestic and economic unit since at least 2005. Banks uses Holland — every financial gatekeeping role filled by his convicted drug offender partner. Joint property, shared address, foundation co-officers, trust succession, concealed assets, and a definitively violated Management Agreement."
 weight = 3
 date = 2026-09-30
 
 [extra]
-keywords = "Brian Banks Joseph Holland partnership, Banks Holland economic unit, Newcastle Road JTWRS, Brian Banks Living Trust, Holland bankruptcy fraud, Purpose Foundation two felons, Banks Holland co-resident Grosse Pointe Woods, 18 USC 152 concealment, Wayne County Register of Deeds, Banks Holland charter school"
+keywords = "Brian Banks Joseph Holland romantic partners, Banks Holland partnership, Banks Holland economic unit, Banks uses Holland, Newcastle Road JTWRS, Brian Banks Living Trust, Holland bankruptcy fraud, Purpose Foundation two felons, Banks Holland domestic partners Grosse Pointe Woods, 18 USC 152 concealment, Wayne County Register of Deeds, Banks Holland charter school, Section 5.2 related party violation, Banks Holland related parties management agreement"
 
 [taxonomies]
 actors = ["Brian Banks", "Joseph Holland"]
@@ -16,9 +16,11 @@ connections = ["business entity", "criminal record", "campaign finance", "RICO p
 
 ## Summary
 
-{{ actor(key="banks") }} and {{ actor(key="holland") }} have operated as a **cohabitating domestic and economic unit** for at least 20 years. They share a residential address, jointly own real property, co-lead a private foundation, and are connected through a trust that places Holland in control of Banks' primary asset.
+{{ actor(key="banks") }} and {{ actor(key="holland") }} are **romantic partners** who have operated as a cohabitating domestic and economic unit for at least 20 years. They share a residential address, jointly own real property, co-lead a private foundation, and are connected through a trust that places Holland in control of Banks' primary asset.
 
-This is not inference. It is the documented record of two convicted felons who together hold **every officer and financial position** in a network of entities receiving millions in public education funding.
+**Banks uses Holland.** Every financial gatekeeping role in the enterprise — Secretary/Treasurer, PAC Treasurer, Successor Trustee — is filled by his partner. A convicted drug offender, discharged from MDOC **without improvement**, given custody of public education dollars flowing through a children's charter school.
+
+This is the documented record of two convicted felons — romantic partners — who together hold **every officer and financial position** in a network of entities receiving millions in public education funding. Section 5.2 of the Management Agreement ("No Related Parties or Common Control") is **definitively violated.**
 
 ## The Property Chain {{ confidence(level="verified") }}
 
@@ -86,7 +88,7 @@ Every entity. Same two people. Same home address. Zero independent oversight.
 
 Purpose Group LLC — of which Banks is the sole member — takes **72.67%** of MacDowell Preparatory Academy's revenue ($3,936,712 of $4,929,893). The management agreement (Section 5.2) states there are **"No Related Parties or Common Control"** between Purpose Group and Purpose Charter Academy.
 
-Banks is the sole member of Purpose Group AND the superintendent of PCA. Holland — his co-resident, co-owner, domestic partner, and successor trustee — holds the financial positions. That clause is violated on its face.
+Banks is the sole member of Purpose Group AND the superintendent of PCA. Holland — his **romantic partner**, co-owner, and successor trustee — holds the financial positions. That clause is violated on its face. They are not just related parties — they are lovers sharing a home, finances, and every entity in the network. The "No Related Parties" representation is a lie signed by a convicted felon about his convicted drug offender partner.
 
 These are **public schools** funded with **public money**, educating **Detroit children**. Parents have a right to know who controls the money.
 

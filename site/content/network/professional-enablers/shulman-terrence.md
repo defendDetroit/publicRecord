@@ -50,7 +50,7 @@ In TCR 22-12, the department **objected** to Banks' certification. The Attorney 
 
 **2026 reality check:**
 - [Banks](/network/actors/brian-banks/) runs two charter schools extracting [72.67% of revenue](/analysis/funding-flow/) through a sole-member LLC
-- His co-resident and financial officer is a [convicted drug offender](/network/actors/joseph-holland/)
+- His **romantic partner** and financial officer is a [convicted drug offender](/network/actors/joseph-holland/) — Banks uses Holland for every financial gatekeeping role
 - $348,489 in management fees are not separately itemized
 - Math proficiency at [MacDowell](/analysis/words-vs-numbers/): **3%**
 - Banks claims a [J.D. not confirmed by bar records](/analysis/credential-audit/)

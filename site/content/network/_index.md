@@ -29,7 +29,7 @@ Hover any node to trace connections. Click to navigate to that person's page. To
 graph TB
     subgraph TIER1["🔴 Tier 1 — Enterprise Principals"]
         BANKS["<b>Brian Banks</b><br/>9 convictions · fake J.D.<br/>Superintendent of both schools"]
-        HOLLAND["<b>Joseph Holland Jr</b><br/>Drug conviction · MDOC #443789<br/>Co-resident · all financial roles"]
+        HOLLAND["<b>Joseph Holland Jr</b><br/>Drug conviction · MDOC #443789<br/>Banks' romantic partner · all financial roles"]
     end
 
     subgraph REVENUE["💰 Revenue Streams"]

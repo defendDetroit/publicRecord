@@ -32,7 +32,7 @@ This is a **public evidence library**, not a news article. Every claim is cited 
 ## Key Stories
 
 ### The Enterprise Structure
-A convicted felon runs two Detroit charter schools receiving $4.9M+ in public funding. His single-member LLC takes 72.67% of revenue. His co-resident is a convicted drug offender who holds all financial officer positions.
+A convicted felon runs two Detroit charter schools receiving $4.9M+ in public funding. His single-member LLC takes 72.67% of revenue. His **romantic partner** is a convicted drug offender — discharged from MDOC **without improvement** — who holds every financial officer position in the enterprise. Banks uses Holland. The Management Agreement's "No Related Parties" clause is violated on its face.
 
 → [Brian Banks profile](/network/actors/brian-banks/) · [Funding flow](/analysis/funding-flow/) · [RICO pattern](/analysis/rico-pattern/)
 

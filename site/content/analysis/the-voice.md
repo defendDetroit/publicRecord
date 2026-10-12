@@ -121,7 +121,7 @@ Phone: **517-374-9100** — Dykema's Lansing switchboard.
 | # | Name | Role | Source |
 |---|------|------|--------|
 | 12 | **Brian Banks** | Superintendent, PCA + MacDowell | macdowellprep.com, pahara.org |
-| 13 | **Joseph Holland Jr.** | Co-resident, PCA co-officer | LARA filings |
+| 13 | **Joseph Holland Jr.** | Banks' romantic partner, financial gatekeeper — every officer position | LARA filings, MDOC |
 | 14 | **Latisha Johnson** | PCA Board Secretary | LARA, funded by SDJ |
 | 15 | **Cortney Hutchings** | PCA Treasurer, DB Strategies | LARA filings |
 

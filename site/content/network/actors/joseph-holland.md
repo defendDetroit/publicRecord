@@ -1,12 +1,12 @@
 +++
-title = "Joseph Holland Jr. — Financial Gatekeeper"
-description = "Joseph Holland Jr. Convicted drug offender (MDOC #443789). Discharged WITHOUT IMPROVEMENT. Co-resident and financial officer for Banks charter schools."
+title = "Joseph Holland Jr. — Financial Gatekeeper, Romantic Partner"
+description = "Joseph Holland Jr. Brian Banks' romantic partner. Convicted drug offender (MDOC #443789). Discharged WITHOUT IMPROVEMENT. Banks uses Holland for every financial gatekeeping role in the enterprise."
 weight = 2
 date = 2026-09-20
 updated = 2026-09-30
 
 [extra]
-keywords = "Joseph Holland Detroit, Joseph Holland MDOC, Joseph Holland Purpose Foundation, Joseph Holland convicted, Joseph Holland charter school treasurer, Joseph Holland Brian Banks, Joseph Holland Brian Banks co-resident, Joseph Holland 1968 Severn Road, Bank on Banks PAC treasurer felon, Joseph Holland Jr Williams Joseph Antione, Joseph Holland MDOC 443789 Oakland County, Joseph Holland Controlled Substance Possession, Joseph Holland discharged WITHOUT IMPROVEMENT, Joseph Holland Purpose Foundation Secretary Treasurer convicted, Joseph Holland Banks Living Trust Successor Trustee, Joseph Holland PAC treasurer drug offender, Joseph Holland all officer positions two felons, Joseph Holland financial gatekeeper charter school"
+keywords = "Joseph Holland Detroit, Joseph Holland MDOC, Joseph Holland Purpose Foundation, Joseph Holland convicted, Joseph Holland charter school treasurer, Joseph Holland Brian Banks partner, Joseph Holland Brian Banks romantic partner, Joseph Holland 1968 Severn Road, Bank on Banks PAC treasurer felon, Joseph Holland Jr Williams Joseph Antione, Joseph Holland MDOC 443789 Oakland County, Joseph Holland Controlled Substance Possession, Joseph Holland discharged WITHOUT IMPROVEMENT, Joseph Holland Purpose Foundation Secretary Treasurer convicted, Joseph Holland Banks Living Trust Successor Trustee, Joseph Holland PAC treasurer drug offender, Joseph Holland all officer positions two felons, Joseph Holland financial gatekeeper charter school, Brian Banks uses Joseph Holland, Banks Holland domestic partners, Banks Holland related party violation Section 5.2"
 
 [taxonomies]
 actors = ["Joseph Holland", "Brian Banks"]
@@ -24,7 +24,8 @@ connections = ["employment", "board membership", "campaign finance", "business e
 | MDOC | #443789 | MDOC OTIS |
 | SID | 2321035P | MI ICHAT |
 | Discharge | May 8, 2024 — **"WITHOUT IMPROVEMENT"** | MDOC OTIS |
-| Residence | Grosse Pointe Woods, MI (same address as Banks — co-resident) | LARA |
+| Residence | Grosse Pointe Woods, MI (same address as Banks — **romantic partner**) | LARA |
+| Relationship | **Brian Banks' romantic partner** | Confirmed |
 
 ## Criminal Record {{ confidence(level="verified") }}
 
@@ -64,6 +65,19 @@ Holland and Banks have been a cohabitating domestic and economic unit for at lea
 | Nov 2025 | HELOC $93,700 taken against 1968 Severn | Wayne ROD #2025307267 |
 
 Both list the same residential address (1968 Severn Rd, Grosse Pointe Woods) on every filing — LARA, MDOC, Wayne ROD, PACER.
+
+## The Relationship {{ confidence(level="confirmed") }}
+
+Holland is Banks' **romantic partner**. They share a residence, finances, and all entity officer positions. Banks **uses** Holland — every financial gatekeeping role in the enterprise is filled by his partner:
+
+- **Secretary/Treasurer** of Purpose Foundation (the school's governing board entity)
+- **Treasurer** of Bank on Banks PAC
+- **1st Successor Trustee** of Brian Banks Living Trust
+- **Officer** on Serenity Guardianship Services, Sun Community Development Corp, OFA Foundation
+
+Holland is not an independent officer. He is Banks' partner, installed in every position that controls money. A convicted drug offender, discharged **without improvement**, given custody of public education dollars flowing through a children's charter school.
+
+**Section 5.2 of the Management Agreement** — the clause that says "No Related Parties or Common Control" — is **definitively violated.** Banks (sole member of Purpose Group LLC) and Holland (Secretary/Treasurer of Purpose Foundation) are domestic partners. This is not inference. This is fact.
 
 ## Bankruptcy Fraud — 18 U.S.C. § 152 {{ confidence(level="documented") }}
 

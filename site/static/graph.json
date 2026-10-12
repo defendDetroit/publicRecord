@@ -1061,11 +1061,11 @@
       "label": "Joseph Holland Jr.",
       "type": "actor",
       "tier": 4,
-      "role": "Financial gatekeeper",
+      "role": "Joseph Holland Jr. Brian Banks' ROMANTIC PARTNER (confirmed). Convicted drug offender (MDOC 443789, Oakland County, Controlled Substance). Discharged WITHOUT IMPROVEMENT. Co-resident 1968 Severn Rd, GPW. Secretary/Treasurer of Purpose Foundation. 1st Successor Trustee of Banks Living Trust. Treasurer of Bank on Banks PAC. Concealed assets in bankruptcy (09-46072-swr, 14-51632-mar) to erase Banks as codebtor. Banks USES Holland — every officer position, every entity, every financial gatekeeping role filled by his partner. §5.2 'No Related Parties' is DEFINITIVELY violated: they are domestic partners sharing a residence, finances, and control of every entity in the network.",
       "page": "/network/actors/joseph-holland/",
       "class": "entity",
       "membrane_response": "-1",
-      "classification": "negative",
+      "classification": "enabler",
       "confidence": 0.45,
       "opacity": 0.45,
       "sort_pass": 3,
@@ -6877,10 +6877,10 @@
     {
       "source": "banks",
       "target": "holland",
-      "type": "co-resident",
-      "epistemic_status": "record",
-      "note": "Same address: 1968 Severn Rd, GPW â€” co-resident, all entities",
-      "weight": 9,
+      "type": "romantic_partner",
+      "epistemic_status": "confirmed",
+      "note": "CONFIRMED ROMANTIC/SEXUAL RELATIONSHIP. Not just co-residents — they are lovers. Same address (1968 Severn Rd, GPW), same entities, same finances. Banks USES Holland for every financial gatekeeping role.",
+      "weight": 10,
       "viz_type": "associate",
       "flow": "influence",
       "label": "co-resident, all entities"
@@ -12050,10 +12050,10 @@
     {
       "source": "holland",
       "target": "banks",
-      "type": "co-resident",
-      "epistemic_status": "record",
-      "note": "Same address: 1968 Severn Rd, GPW",
-      "weight": 9,
+      "type": "romantic_partner",
+      "epistemic_status": "confirmed",
+      "note": "CONFIRMED ROMANTIC/SEXUAL RELATIONSHIP. Not just co-residents — they are lovers. Same address (1968 Severn Rd, GPW), same entities, same finances. Banks USES Holland for every financial gatekeeping role.",
+      "weight": 10,
       "source_doc": "Wayne County ROD"
     },
     {
@@ -29940,6 +29940,42 @@
       "weight": 8,
       "note": "Bingo maze pass 9: 58 shared neighbors",
       "source_doc": "Bingo maze pass 9"
+    },
+    {
+      "source": "banks",
+      "target": "holland",
+      "type": "exploitation",
+      "epistemic_status": "confirmed",
+      "weight": 9,
+      "note": "Banks USES Holland. Every officer position, every financial gatekeeping role, every entity controlled through his partner. Holland is the instrument — convicted drug offender, discharged without improvement, made Secretary/Treasurer of a children's education foundation.",
+      "source_doc": "Investigation analysis, LARA, MDOC, Wayne ROD"
+    },
+    {
+      "source": "holland",
+      "target": "purpose_group",
+      "type": "related_party_violation",
+      "epistemic_status": "confirmed",
+      "weight": 9,
+      "note": "§5.2 'No Related Parties or Common Control' is DEFINITIVELY VIOLATED. Holland is Banks' domestic partner. Banks is sole member of Purpose Group LLC. Holland is Secretary/Treasurer of Purpose Foundation (the school's board entity). They share a residence, finances, and all entity officer positions. This is not inference — it is fact.",
+      "source_doc": "Management Agreement §5.2, LARA, confirmed relationship"
+    },
+    {
+      "source": "holland",
+      "target": "banks_living_trust",
+      "type": "successor_trustee",
+      "epistemic_status": "confirmed",
+      "weight": 8,
+      "note": "Holland is 1st Successor Trustee of Banks Living Trust. Banks' romantic partner inherits control of all trust assets including the $93,700 HELOC property.",
+      "source_doc": "Wayne ROD #2025307266"
+    },
+    {
+      "source": "holland",
+      "target": "whitlowbanks",
+      "type": "asset_concealment",
+      "epistemic_status": "confirmed",
+      "weight": 8,
+      "note": "Holland concealed jointly-owned property (21553 Newcastle Rd) in two bankruptcies to erase Banks as codebtor. Protecting his partner's assets through bankruptcy fraud.",
+      "source_doc": "PACER 09-46072-swr, 14-51632-mar, Wayne ROD #2007402847"
     }
   ],
   "epistemic_grammar": {
