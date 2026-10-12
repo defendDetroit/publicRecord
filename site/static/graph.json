@@ -1212,10 +1212,10 @@
       "id": "ms_perkins_pca",
       "label": "Ms. Perkins (PCA)",
       "type": "actor",
-      "tier": 5,
-      "role": "PCA receptionist/staff. Surname match: Todd Perkins (Banks atty), Sean Perkins (36th judge). Relationship TBD.",
+      "tier": 4,
+      "role": "Ms. Perkins. PCA front desk / receptionist. THE FRONT DOOR. She is the DECISION-MAKER for who has access to Banks and Beasley. She made it clear SHE decides who gets through. Oct 12 10:30 AM: told caller she 'hasn't seen Banks today' — school in session, she lied. Controls physical and phone access to the superintendent of a public charter school. A receptionist at a school receiving $4.9M in public funds decides who can reach the man running it. Surname match: Todd Perkins (Banks' attorney), Sean Perkins (36th District judge), Judge David Perkins (36th District). Relationship TBD.",
       "class": "entity",
-      "classification": "partial",
+      "classification": "enabler",
       "confidence": 0.55,
       "opacity": 0.55,
       "sort_pass": 2,
@@ -15284,8 +15284,8 @@
       "target": "banks",
       "type": "access_denial",
       "epistemic_status": "record",
-      "note": "Oct 12 10:30 AM: told caller she 'hasn't seen Banks today.' School in session. She's the receptionist. She lied.",
-      "weight": 7,
+      "note": "Ms. Perkins is THE FRONT DOOR. She has made it clear SHE is the decision-maker for who has access to Banks and Beasley. Oct 12 10:30 AM: told caller she 'hasn't seen Banks today' — school is in session, superintendent's car is in the lot. She lied. She controls who gets through to a public official at a publicly funded school.",
+      "weight": 9,
       "source_doc": "Phone call (313) 767-3100, Oct 12, 2026 ~10:30 AM EDT"
     },
     {
@@ -29976,6 +29976,33 @@
       "weight": 8,
       "note": "Holland concealed jointly-owned property (21553 Newcastle Rd) in two bankruptcies to erase Banks as codebtor. Protecting his partner's assets through bankruptcy fraud.",
       "source_doc": "PACER 09-46072-swr, 14-51632-mar, Wayne ROD #2007402847"
+    },
+    {
+      "source": "ms_perkins_pca",
+      "target": "beasley",
+      "type": "access_control",
+      "epistemic_status": "field_report",
+      "weight": 8,
+      "note": "Ms. Perkins controls access to Ahmed Beasley (authorizer rep). She has made it clear she is the decision-maker for who gets through. The front desk of a charter school decides who can reach the authorizer's representative.",
+      "source_doc": "Phone interaction Oct 12, 2026"
+    },
+    {
+      "source": "ms_perkins_pca",
+      "target": "banks",
+      "type": "gatekeeper",
+      "epistemic_status": "field_report",
+      "weight": 9,
+      "note": "Ms. Perkins is the GATEKEEPER. She decides who has access to Banks. She made this clear herself. A receptionist at a public charter school controls access to the superintendent. Call (313) 767-3100 and ask.",
+      "source_doc": "Direct interaction Oct 12, 2026"
+    },
+    {
+      "source": "ms_perkins_pca",
+      "target": "pca",
+      "type": "access_control",
+      "epistemic_status": "field_report",
+      "weight": 8,
+      "note": "Ms. Perkins controls physical and phone access to PCA. She is the decision-maker for who gets through the front door. A publicly funded school with a receptionist who screens out inquiries.",
+      "source_doc": "Direct observation"
     }
   ],
   "epistemic_grammar": {
