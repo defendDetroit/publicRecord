@@ -1,6 +1,6 @@
 {
     "_generated": "2026-10-11T20:00:00Z",
-    "_source": "REVERSE SWEEP + EPITOPE LOCALITY SORT Oct 12 2026. Geographic expansion: 6 state nodes, cross-state pipeline edges.",
+    "_source": "REVERSE SWEEP + EPITOPE LOCALITY SORT Oct 12 2026. Geographic expansion: 6 state nodes, cross-state pipeline edges. + LARA API dark money vehicle scan Oct 12.",
     "nodes": [
         {
             "id": "adam_sabree",
@@ -480,25 +480,29 @@
             "id": "michigan_first_principles",
             "label": "Michigan First Principles",
             "type": "entity",
-            "entity_type": "Dark money vehicle"
+            "entity_type": "Dark money vehicle",
+            "role": " (LARA 900131858)"
         },
         {
             "id": "put_progress_first",
             "label": "Put Progress First",
             "type": "entity",
-            "entity_type": "Dark money vehicle"
+            "entity_type": "Dark money vehicle",
+            "role": " (LARA 803061184)"
         },
         {
             "id": "onf",
             "label": "Our Neighborhoods First",
             "type": "entity",
-            "entity_type": "Dark money vehicle"
+            "entity_type": "Dark money vehicle",
+            "role": " (LARA 802493189)"
         },
         {
             "id": "djf",
             "label": "Detroit Jobs First",
             "type": "entity",
-            "entity_type": "Dark money vehicle"
+            "entity_type": "Dark money vehicle",
+            "role": "Dark money vehicle — Agent: W. ALAN WILK at Dykema address (LARA 802002455)"
         },
         {
             "id": "rffw",
@@ -553,7 +557,8 @@
             "id": "peninsula_fund",
             "label": "Peninsula Fund",
             "type": "entity",
-            "entity_type": "Dark money vehicle"
+            "entity_type": "Dark money vehicle",
+            "role": " (LARA 802004683)"
         },
         {
             "id": "aaron_keel",
@@ -3596,6 +3601,60 @@
             "note": "Detroit-based. $418M assets. $21.9M revenue. Co-funder with Walton.",
             "weight": 6,
             "source_doc": "ProPublica EIN 38-1675780"
+        },
+        {
+            "source": "wilk",
+            "target": "djf",
+            "type": "formation",
+            "epistemic_status": "record",
+            "note": "W. Alan Wilk = registered agent of Detroit Jobs First (802002455) at 201 Townsend St Ste 900 = Dykema Lansing. Filed same day as Save Detroit Jobs (802002459). Entity IDs 4 apart.",
+            "weight": 9,
+            "source_doc": "LARA 802002455 (via API Oct 12, 2026)"
+        },
+        {
+            "source": "dykema",
+            "target": "put_progress_first",
+            "type": "formation",
+            "epistemic_status": "record",
+            "note": "Put Progress First entity email = compliance@dykema.com. Agent: The Corporation Company. PO Box 32423 Detroit 48243.",
+            "weight": 8,
+            "source_doc": "LARA 803061184 (via API Oct 12, 2026)"
+        },
+        {
+            "source": "dykema",
+            "target": "peninsula_fund",
+            "type": "formation",
+            "epistemic_status": "record",
+            "note": "Peninsula Fund entity email = kfellows@dykema.com. Agent: The Corporation Company. PO Box 1013 E. Lansing 48826. Chatfield-connected.",
+            "weight": 8,
+            "source_doc": "LARA 802004683 (via API Oct 12, 2026)"
+        },
+        {
+            "source": "dykema",
+            "target": "michigan_first_principles",
+            "type": "formation",
+            "epistemic_status": "record",
+            "note": "Michigan First Principles. Agent: The Corporation Company (Dykema formation service). Filed 12/09/2025. Newest dark money vehicle.",
+            "weight": 7,
+            "source_doc": "LARA 900131858 (via API Oct 12, 2026)"
+        },
+        {
+            "source": "dykema",
+            "target": "onf",
+            "type": "formation",
+            "epistemic_status": "record",
+            "note": "Our Neighborhoods First. Agent: The Corporation Company. Filed 07/30/2020. Dissolved 06/26/2023.",
+            "weight": 6,
+            "source_doc": "LARA 802493189 (via API Oct 12, 2026)"
+        },
+        {
+            "source": "djf",
+            "target": "sdj",
+            "type": "batch_filing",
+            "epistemic_status": "record",
+            "note": "Detroit Jobs First (802002455) and Save Detroit Jobs (802002459) filed SAME DAY 09/08/2016. Entity IDs 4 apart. Batch-filed dark money vehicles.",
+            "weight": 8,
+            "source_doc": "LARA 802002455; LARA 802002459"
         }
     ],
     "epistemic_grammar": {
