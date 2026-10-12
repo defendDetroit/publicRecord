@@ -2665,6 +2665,159 @@
       "role": "MI AG Charitable Trust Section. Registers/oversees 13,000+ charitable orgs. RESPONDED 12:19 PM Oct 12 — complaint received, pending review, 30-45 days. ct_email@michigan.gov. Phone 517-335-7571.",
       "classification": "oversight",
       "class": "entity"
+    },
+    {
+      "id": "bert_johnson",
+      "label": "Sen. Bert Johnson",
+      "type": "actor",
+      "tier": 3,
+      "role": "Former MI State Senator. CHOJLF. CBC Foundation. Convicted 2022 bribery. Banks political ally.",
+      "classification": "bad_actor",
+      "class": "actor"
+    },
+    {
+      "id": "alma_stallworth",
+      "label": "Alma Stallworth",
+      "type": "actor",
+      "tier": 4,
+      "role": "Stallworth dynasty matriarch. Former State Rep HD-6. Mother of Keith, Thomas. CHOJLF connection.",
+      "classification": "dynasty",
+      "class": "actor"
+    },
+    {
+      "id": "keith_stallworth",
+      "label": "Keith Stallworth",
+      "type": "actor",
+      "tier": 3,
+      "role": "Stallworth dynasty. State Rep HD-6. Banks campaign ally. Political fixer.",
+      "classification": "enabler",
+      "class": "actor"
+    },
+    {
+      "id": "ross_jones",
+      "label": "Ross Jones",
+      "type": "actor",
+      "tier": 4,
+      "role": "WXYZ (Ch 7) investigative journalist. Covered Banks/charter school story. ross.jones@wxyz.com.",
+      "classification": "press",
+      "class": "actor"
+    },
+    {
+      "id": "gasper_fiore",
+      "label": "Gasper Fiore",
+      "type": "actor",
+      "tier": 4,
+      "role": "Detroit corruption figure. Wiretap target list. Federal investigation.",
+      "classification": "bad_actor",
+      "class": "actor"
+    },
+    {
+      "id": "virgil_smith",
+      "label": "Sen. Virgil Smith",
+      "type": "actor",
+      "tier": 4,
+      "role": "Former MI State Senator. Convicted shooting at ex-wife's car 2015. Detroit political network.",
+      "classification": "bad_actor",
+      "class": "actor"
+    },
+    {
+      "id": "maleyko",
+      "label": "Dr. Glenn Maleyko",
+      "type": "actor",
+      "tier": 3,
+      "role": "MI Superintendent of Public Instruction (Dec 2025). SBE Chair. PhD Wayne State ELPS (same dept as Beasley/Hill). Former Dearborn Supt.",
+      "classification": "oversight",
+      "class": "actor"
+    },
+    {
+      "id": "metro_property",
+      "label": "Metro Property Group",
+      "type": "entity",
+      "tier": 4,
+      "role": "Real estate group. Eric Sabree was counsel. Adam Sabree connection. Detroit RE corruption.",
+      "classification": "entity",
+      "class": "entity"
+    },
+    {
+      "id": "perkins_law",
+      "label": "Perkins Law Group",
+      "type": "entity",
+      "tier": 4,
+      "role": "Todd Perkins' law firm. Banks' personal attorney. Same family as Judge Sean Perkins (36th DC).",
+      "classification": "entity",
+      "class": "entity"
+    },
+    {
+      "id": "baker_college",
+      "label": "Baker College",
+      "type": "entity",
+      "tier": 4,
+      "role": "Multiple Banks-network actors credentialed here. Miller, Moreland connections.",
+      "classification": "institution",
+      "class": "entity"
+    },
+    {
+      "id": "black_caucus_found",
+      "label": "Black Caucus Foundation of MI",
+      "type": "entity",
+      "tier": 4,
+      "role": "CBC Foundation. Stallworth dynasty. Bert Johnson. Political network hub.",
+      "classification": "entity",
+      "class": "entity"
+    },
+    {
+      "id": "promise_schools",
+      "label": "Promise Schools / Detroit Promise",
+      "type": "entity",
+      "tier": 4,
+      "role": "Charter school network. Banks adjacent. Detroit charter ecosystem.",
+      "classification": "entity",
+      "class": "entity"
+    },
+    {
+      "id": "advance_detroit",
+      "label": "Advance Detroit",
+      "type": "entity",
+      "tier": 4,
+      "role": "Political committee. Detroit elections. Banks campaign infrastructure.",
+      "classification": "entity",
+      "class": "entity"
+    },
+    {
+      "id": "mackinac_center",
+      "label": "Mackinac Center for Public Policy",
+      "type": "entity",
+      "tier": 4,
+      "role": "DeVos-funded policy org. Pro-charter. School choice advocacy.",
+      "classification": "entity",
+      "class": "entity"
+    },
+    {
+      "id": "banks_living_trust",
+      "label": "Brian Banks Living Trust",
+      "type": "entity",
+      "tier": 4,
+      "role": "Banks personal trust. Property/asset holding vehicle. GPW property.",
+      "classification": "entity",
+      "class": "entity"
+    },
+    {
+      "id": "harper_woods",
+      "label": "Harper Woods",
+      "type": "geography",
+      "tier": 5,
+      "role": "City adjacent to Grosse Pointe Woods. Yancey/Beasley connections. Banks adjacency.",
+      "classification": "geography",
+      "class": "geography"
+    },
+    {
+      "id": "ann_arbor",
+      "label": "Ann Arbor",
+      "type": "geography",
+      "tier": 5,
+      "role": "University of Michigan. EMU nearby. Hutchings connection.",
+      "classification": "geography",
+      "class": "geography"
     }
   ],
   "edges": [
@@ -8758,6 +8911,278 @@
       "type": "structural_proximity",
       "weight": 6,
       "label": "5 shared: banks, court_36th, ms_perkins_pca, sean_perkins, todd_perkins.",
+      "epistemic_status": "inference"
+    },
+    {
+      "source": "bert_johnson",
+      "target": "banks",
+      "type": "political",
+      "weight": 8,
+      "label": "Political ally. CBC Foundation. State Senate.",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "bert_johnson",
+      "target": "black_caucus_found",
+      "type": "governance",
+      "weight": 8,
+      "label": "CBC Foundation leadership",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "bert_johnson",
+      "target": "kwame",
+      "type": "political",
+      "weight": 7,
+      "label": "Detroit political network overlap",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "alma_stallworth",
+      "target": "stallworth_t",
+      "type": "family",
+      "weight": 10,
+      "label": "Mother of Thomas Stallworth Jr.",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "alma_stallworth",
+      "target": "keith_stallworth",
+      "type": "family",
+      "weight": 10,
+      "label": "Mother of Keith Stallworth",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "keith_stallworth",
+      "target": "banks",
+      "type": "political",
+      "weight": 8,
+      "label": "Campaign ally. State Rep HD-6.",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "keith_stallworth",
+      "target": "advance_detroit",
+      "type": "political",
+      "weight": 7,
+      "label": "Political committee connection",
+      "epistemic_status": "inference"
+    },
+    {
+      "source": "alma_stallworth",
+      "target": "wells_stallworth",
+      "type": "family",
+      "weight": 9,
+      "label": "Mother-in-law to Nicole Wells-Stallworth",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "eric_sabree",
+      "target": "metro_property",
+      "type": "employment",
+      "weight": 8,
+      "label": "Legal counsel, Metro Property Group",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "metro_property",
+      "target": "wayne_county",
+      "type": "jurisdiction",
+      "weight": 6,
+      "label": "Wayne County real estate operations",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "todd_perkins",
+      "target": "perkins_law",
+      "type": "ownership",
+      "weight": 9,
+      "label": "Todd Perkins' law firm",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "perkins_law",
+      "target": "banks",
+      "type": "legal_representation",
+      "weight": 9,
+      "label": "Banks' personal attorney firm",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "miller",
+      "target": "baker_college",
+      "type": "education",
+      "weight": 6,
+      "label": "Credentialed at Baker College",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "moreland",
+      "target": "baker_college",
+      "type": "education",
+      "weight": 6,
+      "label": "Credentialed at Baker College",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "black_caucus_found",
+      "target": "banks",
+      "type": "political",
+      "weight": 7,
+      "label": "Banks connected through CBC network",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "black_caucus_found",
+      "target": "gay_dagnogo",
+      "type": "governance",
+      "weight": 7,
+      "label": "CHOJLF/CBC cross-connection",
+      "epistemic_status": "inference"
+    },
+    {
+      "source": "promise_schools",
+      "target": "dpscd",
+      "type": "partnership",
+      "weight": 6,
+      "label": "Detroit charter ecosystem",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "promise_schools",
+      "target": "banks",
+      "type": "structural_proximity",
+      "weight": 5,
+      "label": "Charter ecosystem overlap",
+      "epistemic_status": "inference"
+    },
+    {
+      "source": "mackinac_center",
+      "target": "devos_foundation",
+      "type": "funding",
+      "weight": 8,
+      "label": "DeVos-funded policy arm",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "mackinac_center",
+      "target": "glep",
+      "type": "partnership",
+      "weight": 7,
+      "label": "School choice policy alignment",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "mackinac_center",
+      "target": "charter_law_1993",
+      "type": "political",
+      "weight": 7,
+      "label": "Advocated for charter law expansion",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "banks_living_trust",
+      "target": "banks",
+      "type": "ownership",
+      "weight": 9,
+      "label": "Personal asset trust. GPW property.",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "maleyko",
+      "target": "sbe",
+      "type": "governance",
+      "weight": 9,
+      "label": "SBE Chair, Superintendent of Public Instruction (Dec 2025)",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "maleyko",
+      "target": "mde",
+      "type": "governance",
+      "weight": 9,
+      "label": "Heads MDE",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "maleyko",
+      "target": "wayne_state_law",
+      "type": "education",
+      "weight": 7,
+      "label": "PhD Wayne State ELPS — same dept as Beasley, Hill",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "ross_jones",
+      "target": "banks",
+      "type": "investigation",
+      "weight": 7,
+      "label": "WXYZ investigative coverage of Banks/charter schools",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "gasper_fiore",
+      "target": "banks",
+      "type": "corruption",
+      "weight": 6,
+      "label": "Wiretap target list overlap",
+      "epistemic_status": "inference"
+    },
+    {
+      "source": "advance_detroit",
+      "target": "banks",
+      "type": "political",
+      "weight": 7,
+      "label": "Campaign infrastructure",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "alice_thompson",
+      "target": "naacp_detroit",
+      "type": "governance",
+      "weight": 7,
+      "label": "NAACP Detroit connection",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "alice_thompson",
+      "target": "banks",
+      "type": "political",
+      "weight": 6,
+      "label": "Detroit education network overlap",
+      "epistemic_status": "inference"
+    },
+    {
+      "source": "virgil_smith",
+      "target": "kwame",
+      "type": "political",
+      "weight": 7,
+      "label": "Detroit political machine overlap",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "virgil_smith",
+      "target": "detroit_city",
+      "type": "governance",
+      "weight": 6,
+      "label": "Former State Senator, Detroit",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "harper_woods",
+      "target": "banks",
+      "type": "jurisdiction",
+      "weight": 5,
+      "label": "Yancey grew up on Banks' street in Harper Woods area",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "maleyko",
+      "target": "beasley",
+      "type": "structural_proximity",
+      "weight": 6,
+      "label": "Same Wayne State ELPS dept. He oversees her authorizer.",
       "epistemic_status": "inference"
     }
   ],
