@@ -7639,6 +7639,168 @@
       "weight": 5,
       "note": "Cavanagh serves on AG's Elder Abuse Task Force. Direct professional connection AG↔Supreme Court.",
       "source_doc": "michigan.gov/ag + SC bio"
+    },
+    {
+      "source": "sc_cavanagh",
+      "target": "banks",
+      "type": "oversight",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Chief Justice → AGC liaison + JTC liaison. Both bodies have failure edges to Banks. She is the accountability terminus.",
+      "source_doc": "Localities sweep + jurisdiction analysis"
+    },
+    {
+      "source": "sc_cavanagh",
+      "target": "jtc_ison",
+      "type": "appointment",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "Chief Justice appoints/oversees JTC commissioners. Ison is her appointee.",
+      "source_doc": "Localities sweep + jurisdiction analysis"
+    },
+    {
+      "source": "sc_cavanagh",
+      "target": "thomas_ryan",
+      "type": "appointment",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "Chief Justice oversees JTC. Ryan is Chair since 2005.",
+      "source_doc": "Localities sweep + jurisdiction analysis"
+    },
+    {
+      "source": "sc_cavanagh",
+      "target": "goetz",
+      "type": "appointment",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "Supreme Court appoints AGC Grievance Administrator. Goetz is her appointee.",
+      "source_doc": "Localities sweep + jurisdiction analysis"
+    },
+    {
+      "source": "kym_worthy",
+      "target": "banks",
+      "type": "jurisdiction",
+      "epistemic_status": "inferred",
+      "weight": 8,
+      "note": "Wayne County Prosecutor has jurisdiction over criminal conduct in Wayne County. Banks' 9 felony convictions. PCA in Wayne County.",
+      "source_doc": "Localities sweep + jurisdiction analysis"
+    },
+    {
+      "source": "kym_worthy",
+      "target": "pca",
+      "type": "jurisdiction",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "Wayne County Prosecutor. PCA is in Wayne County. Jurisdiction.",
+      "source_doc": "Localities sweep + jurisdiction analysis"
+    },
+    {
+      "source": "kym_worthy",
+      "target": "glenn_page",
+      "type": "professional_connection",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Both Wayne County Prosecutor's Office. Worthy is the current Prosecutor. Page was assistant prosecutor there before JTC.",
+      "source_doc": "Localities sweep + jurisdiction analysis"
+    },
+    {
+      "source": "kym_worthy",
+      "target": "agc_willis",
+      "type": "professional_connection",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Both Wayne County Prosecutor's Office. Worthy is Prosecutor. Willis worked there.",
+      "source_doc": "Localities sweep + jurisdiction analysis"
+    },
+    {
+      "source": "detroit_city",
+      "target": "pca",
+      "type": "jurisdiction",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "PCA is located in Detroit. City has jurisdiction.",
+      "source_doc": "Localities sweep + jurisdiction analysis"
+    },
+    {
+      "source": "detroit_city",
+      "target": "macdowell",
+      "type": "jurisdiction",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "MacDowell operates in Detroit metro area.",
+      "source_doc": "Localities sweep + jurisdiction analysis"
+    },
+    {
+      "source": "dpd",
+      "target": "pca",
+      "type": "jurisdiction",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "DPD has jurisdiction over PCA location. Aug 29 DPD report filed (Giselle incident).",
+      "source_doc": "Localities sweep + jurisdiction analysis"
+    },
+    {
+      "source": "dpd",
+      "target": "banks",
+      "type": "jurisdiction",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "DPD has jurisdiction. Banks operates charter schools in Detroit. 9 felony convictions.",
+      "source_doc": "Localities sweep + jurisdiction analysis"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "charter_law_1993",
+      "type": "governance",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Upheld constitutionality of PA 362 in July 1997. The foundation of charter school authority.",
+      "source_doc": "Localities sweep + jurisdiction analysis"
+    },
+    {
+      "source": "nessel",
+      "target": "banks",
+      "type": "jurisdiction",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "AG has jurisdiction over charitable trusts, corporate fraud, consumer protection. Banks' network of LLCs, foundations, charter school finances.",
+      "source_doc": "Localities sweep + jurisdiction analysis"
+    },
+    {
+      "source": "nessel",
+      "target": "purpose_foundation",
+      "type": "jurisdiction",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "AG Corporate Oversight Division has jurisdiction over foundations.",
+      "source_doc": "Localities sweep + jurisdiction analysis"
+    },
+    {
+      "source": "wayne_county",
+      "target": "pca",
+      "type": "jurisdiction",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "PCA in Wayne County.",
+      "source_doc": "Localities sweep + jurisdiction analysis"
+    },
+    {
+      "source": "wayne_county",
+      "target": "macdowell",
+      "type": "jurisdiction",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "MacDowell in Wayne County area.",
+      "source_doc": "Localities sweep + jurisdiction analysis"
+    },
+    {
+      "source": "coleman_young_ii",
+      "target": "sheffield",
+      "type": "political",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Both on Detroit City Council together. She became Mayor, he became Pro Tem.",
+      "source_doc": "Localities sweep + jurisdiction analysis"
     }
   ],
   "epistemic_grammar": {
