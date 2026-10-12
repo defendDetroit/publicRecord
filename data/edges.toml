@@ -1884,3 +1884,36 @@ epistemic_status = "inference"
 note = "CitizenDetroit + Gay-Dagnogo overlap: both charter advocacy, both DPSCD board connected. Cockrel is former Council, Gay-Dagnogo is former State Rep + DPSCD board."
 weight = 4
 source_doc = "Cross-reference: ProPublica 990 + DPSCD board records"
+
+# ── FEC OpenFEC API Data Feed (Oct 12, 2026) ────────────────────────────
+# Federal campaign finance via api.open.fec.gov. DEMO_KEY. Schedule A/B.
+# Dykema Gossett Federal PAC: C00342113. 2,211 disbursements, 6,401 contributions.
+
+[[edge]]
+source = "wilk"
+target = "dykema_federal_pac"
+type = "personal_contribution"
+epistemic_status = "record"
+note = "W. Alan Wilk: $38,661 total to Dykema Federal PAC. 83 contributions 1999-2025. STILL CONTRIBUTING ($1,200 in 2025). Dark money architect funds the machine personally."
+amount = "38661"
+weight = 9
+source_doc = "FEC Schedule A, Committee C00342113, contributor WILK W ALAN"
+
+[[edge]]
+source = "renae_moore"
+target = "dykema_federal_pac"
+type = "personal_contribution"
+epistemic_status = "record"
+note = "Renae Moore: $26,359 total to Dykema Federal PAC. 39 contributions 2008-2015. Peaked $6,021 in 2009 (dark money vehicle peak). Compliance officer personally funding the PAC she manages accounts for."
+amount = "26359"
+weight = 8
+source_doc = "FEC Schedule A, Committee C00342113, contributor MOORE RENAE"
+
+[[edge]]
+source = "dykema_federal_pac"
+target = "dykema"
+type = "affiliated"
+epistemic_status = "record"
+note = "Dykema Gossett Federal PAC (C00342113) affiliated with DYKEMA GOSSETT PLLC. PAC type Q (Qualified). Lansing, MI. 2,211 total disbursements to both parties."
+weight = 7
+source_doc = "FEC Committee data C00342113"

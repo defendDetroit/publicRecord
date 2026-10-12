@@ -3233,6 +3233,33 @@
                       "note":  "Dynasty node: father was Mayor Dennis Archer.",
                       "weight":  5,
                       "source_doc":  "ProPublica Nonprofit Explorer EIN 82-2361291"
+                  },
+                  {
+                      "source":  "wilk",
+                      "target":  "dykema_federal_pac",
+                      "type":  "personal_contribution",
+                      "epistemic_status":  "record",
+                      "note":  "$38,661 total. 83 contributions 1999-2025. Still contributing. Dark money architect funds the machine.",
+                      "weight":  9,
+                      "source_doc":  "FEC Schedule A C00342113"
+                  },
+                  {
+                      "source":  "renae_moore",
+                      "target":  "dykema_federal_pac",
+                      "type":  "personal_contribution",
+                      "epistemic_status":  "record",
+                      "note":  "$26,359 total. 39 contributions 2008-2015. Compliance officer funds the PAC she manages accounts for.",
+                      "weight":  8,
+                      "source_doc":  "FEC Schedule A C00342113"
+                  },
+                  {
+                      "source":  "dykema_federal_pac",
+                      "target":  "dykema",
+                      "type":  "affiliated",
+                      "epistemic_status":  "record",
+                      "note":  "PAC type Q (Qualified). 2,211 disbursements. Contributions to both parties.",
+                      "weight":  7,
+                      "source_doc":  "FEC Committee C00342113"
                   }
               ],
     "epistemic_grammar":  {

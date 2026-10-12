@@ -3098,5 +3098,75 @@
       "tier": "anchor",
       "context": "ProPublica 990 data: CitizenDetroit collapse $1.24M → $7.9K"
     }
+  },
+  {
+    "data_hash": "blake3:fec:wilk->dykema_federal_pac:$38661:83_contributions",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:eco:ecoPrimal",
+      "plan": "FEC OpenFEC API data feed — Oct 12",
+      "software": "api.open.fec.gov/v1/schedules/schedule_a"
+    },
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "wilk → dykema_federal_pac ($38,661 personal contributions)",
+      "description": "83 contributions 1999-2025. Peaked $5,020 in 2007. Still contributing $1,200 in 2025. Dark money architect never stopped funding the machine.",
+      "tags": ["fec", "record", "detroit", "personal_contribution"],
+      "custom": {
+        "edge_type": "personal_contribution",
+        "fec_committee": "C00342113",
+        "total_amount": 38661,
+        "contribution_count": 83,
+        "first_year": 1999,
+        "last_year": 2025,
+        "epistemic_status": "record",
+        "source_doc": "FEC Schedule A"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "https://api.open.fec.gov/v1/schedules/schedule_a/?committee_id=C00342113&contributor_name=WILK",
+      "witnessed_at": 1791976100000000000,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "FEC data: Wilk $38,661 to Dykema Federal PAC (1999-2025)"
+    }
+  },
+  {
+    "data_hash": "blake3:fec:moore->dykema_federal_pac:$26359:39_contributions",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:eco:ecoPrimal",
+      "plan": "FEC OpenFEC API data feed — Oct 12",
+      "software": "api.open.fec.gov/v1/schedules/schedule_a"
+    },
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "moore → dykema_federal_pac ($26,359 personal contributions)",
+      "description": "39 contributions 2008-2015. Peaked $6,021 in 2009. Compliance officer personally funding the PAC while managing 80+ political accounts.",
+      "tags": ["fec", "record", "detroit", "personal_contribution"],
+      "custom": {
+        "edge_type": "personal_contribution",
+        "fec_committee": "C00342113",
+        "total_amount": 26359,
+        "contribution_count": 39,
+        "first_year": 2008,
+        "last_year": 2015,
+        "epistemic_status": "record",
+        "source_doc": "FEC Schedule A"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "https://api.open.fec.gov/v1/schedules/schedule_a/?committee_id=C00342113&contributor_name=MOORE+RENAE",
+      "witnessed_at": 1791976100000001000,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "FEC data: Moore $26,359 to Dykema Federal PAC (2008-2015)"
+    }
   }
 ]
