@@ -4611,10 +4611,10 @@
     {
       "source": "jtc",
       "target": "banks",
-      "type": "inaction",
+      "type": "refusal",
       "epistemic_status": "record",
-      "note": "5 RFIs filed Sep 24, acknowledged, assigned to staff. Oct 12 boilerplate: 'cannot act on email.' 97.1% dismissal rate (2025). Miller on ballot Nov 3.",
-      "weight": 9,
+      "note": "Oct 12, 2026 11:07 AM: 'The Commission will no longer respond to your email messages.' 5 open RFIs. $2.9M budget. 15 staff. 9 commissioners. Upgraded from inaction to refusal — they didn't just ignore, they explicitly refused.",
+      "weight": 10,
       "source_doc": "JTC responses Sep 21, Sep 24, Oct 12, 2026; JTC 2025 Annual Report"
     },
     {
@@ -5799,6 +5799,87 @@
       "weight": 7,
       "note": "Supreme Court Rules govern State Bar. UPL activity subject to Supreme Court oversight.",
       "source_doc": "michbar.org/generalinfo/unauthorizedpractice"
+    },
+    {
+      "source": "jtc_ison",
+      "target": "banks",
+      "type": "complicity_by_governance",
+      "epistemic_status": "inferred",
+      "weight": 8,
+      "note": "Former AUSA Public Corruption Unit (19yr) → JTC Commissioner → JTC refuses to investigate. The corruption prosecutor's oversight body said 'no more responses' to corruption evidence.",
+      "source_doc": "Graph path: jtc_ison→jtc→banks"
+    },
+    {
+      "source": "thomas_ryan",
+      "target": "banks",
+      "type": "complicity_by_governance",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "JTC Chair since 2005 (21 years). Oakland County Bar + State Bar president. His commission said 'no more responses' to 5 open RFIs about judicial misconduct.",
+      "source_doc": "Graph path: thomas_ryan→jtc→banks"
+    },
+    {
+      "source": "glenn_page",
+      "target": "banks",
+      "type": "complicity_by_governance",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "JTC Interim ED. Oversees intake and investigation of complaints. His staff wrote 'will no longer respond.' Former Wayne Co Prosecutor.",
+      "source_doc": "Graph path: glenn_page→jtc→banks"
+    },
+    {
+      "source": "goetz",
+      "target": "banks",
+      "type": "complicity_by_governance",
+      "epistemic_status": "inferred",
+      "weight": 8,
+      "note": "AGC Grievance Administrator. Oversees prosecutorial function. His office returned the filing Oct 1 creating the referral loop.",
+      "source_doc": "Graph path: goetz→agc→banks"
+    },
+    {
+      "source": "upl_cadotte",
+      "target": "banks",
+      "type": "complicity_by_governance",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "UPL Committee Chair. His committee closed File 26-UP-51 on Sep 30. 'Did not meet the standards.' Standards not published.",
+      "source_doc": "Graph path: upl_cadotte→upl_dept→banks"
+    },
+    {
+      "source": "agc_hickey",
+      "target": "banks",
+      "type": "complicity_by_governance",
+      "epistemic_status": "inferred",
+      "weight": 8,
+      "note": "AGC Chairperson. Her commission returned the Banks filing Oct 1. Referral loop with UPL.",
+      "source_doc": "Graph path: agc_hickey→agc→banks"
+    },
+    {
+      "source": "sbm_bryant",
+      "target": "upl_dept",
+      "type": "governance",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "SBM President. UPL Dept is under SBM governance. Bryant's bar closed File 26-UP-51.",
+      "source_doc": "michbar.org"
+    },
+    {
+      "source": "agc_g_leach",
+      "target": "leach",
+      "type": "possible_family",
+      "epistemic_status": "inferred",
+      "weight": 3,
+      "note": "SURNAME MATCH: Graham Leach (AGC Associate Counsel) ↔ W. Spencer Leach (Original Eastside Slate). Unconfirmed family connection.",
+      "source_doc": "Graph surname analysis"
+    },
+    {
+      "source": "sbm_clay",
+      "target": "pca",
+      "type": "jurisdiction",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Clay is 36th District Court judge AND SBM Commissioner. 36th District = geographic jurisdiction for PCA. The SBM board member adjudicates in the court where PCA matters could appear.",
+      "source_doc": "michbar.org + court geographic jurisdiction"
     }
   ],
   "epistemic_grammar": {
