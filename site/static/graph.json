@@ -13718,6 +13718,645 @@
       "role": "Board Chair",
       "weight": 9,
       "source_doc": "Clutch Justice Sep 13, 2026"
+    },
+    {
+      "source": "charter_law_1993",
+      "target": "mccsa",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 8,
+      "note": "R6 prediction: 10 shared neighbors. Via: banks, bay_mills, cmu, ferris_state, gvsu",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "beasley",
+      "target": "gay_dagnogo",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "R6 prediction: 6 shared neighbors. Via: banks, dpscd, macdowell, pca, sbe",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "beasley",
+      "target": "mde",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "R6 prediction: 6 shared neighbors. Via: banks, dpscd, macdowell, maleyko, pca",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "cmu",
+      "target": "pca",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "R6 prediction: 6 shared neighbors. Via: charter_law_1993, macdowell, mccsa, ncsi, plante_moran",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "detroit_city",
+      "target": "kym_worthy",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "R6 prediction: 6 shared neighbors. Via: banks, court_3rd, macdowell, pca, raphael_washington",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "macdowell",
+      "target": "vitti",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "R6 prediction: 6 shared neighbors. Via: banks, beasley, dpscd, gay_dagnogo, pca",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "banks",
+      "target": "maleyko",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "R6 prediction: 5 shared neighbors. Via: beasley, dpscd, mde, pca, sbe",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "beasley",
+      "target": "mccsa",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "R6 prediction: 5 shared neighbors. Via: banks, dpscd, emu, jolia_hill, pca",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "court_3rd",
+      "target": "gay_dagnogo",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "R6 prediction: 5 shared neighbors. Via: banks, dpscd, macdowell, mde, pca",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "court_3rd",
+      "target": "sbe",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "R6 prediction: 5 shared neighbors. Via: banks, dpscd, macdowell, mde, pca",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "dpscd",
+      "target": "jolia_hill",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "R6 prediction: 5 shared neighbors. Via: banks, beasley, mccsa, pca, wayne_resa",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "dpscd",
+      "target": "wayne_county",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "R6 prediction: 5 shared neighbors. Via: banks, court_3rd, macdowell, pca, wayne_resa",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "macdowell",
+      "target": "maleyko",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "R6 prediction: 5 shared neighbors. Via: beasley, dpscd, mde, pca, sbe",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "mccsa",
+      "target": "sbe",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "R6 prediction: 5 shared neighbors. Via: banks, cmu, dpscd, emu, pca",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "mde",
+      "target": "vitti",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "R6 prediction: 5 shared neighbors. Via: banks, dpscd, gay_dagnogo, pca, sbe",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "pca",
+      "target": "perkins_d",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "R6 prediction: 5 shared neighbors. Via: banks, ms_perkins_pca, perkins_sean, sean_perkins, todd_perkins",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "ag_cod",
+      "target": "banks",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: ag_office, banks_strategy, nessel, purpose_foundation",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "ag_office",
+      "target": "purpose_foundation",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: ag_charitable_trust, ag_cod, banks, nessel",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "agc",
+      "target": "jtc",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, jtc_corbin, mi_supreme_court, sc_cavanagh",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "banks",
+      "target": "cmu",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: charter_law_1993, macdowell, mccsa, sbe",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "banks",
+      "target": "emu",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: beasley, jolia_hill, mccsa, sbe",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "banks",
+      "target": "raphael_washington",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: detroit_city, dpd, kym_worthy, wayne_county",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "banks",
+      "target": "wayne_resa",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: beasley, dpscd, jolia_hill, wayne_county",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "banks",
+      "target": "wayne_state_law",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: beasley, jolia_hill, jtc_ison, sc_cavanagh",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "beasley",
+      "target": "charter_law_1993",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, macdowell, pca, sbe",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "beasley",
+      "target": "court_36th",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, macdowell, pca, yancey",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "beasley",
+      "target": "court_3rd",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, dpscd, macdowell, pca",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "beasley",
+      "target": "wayne_county",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, macdowell, pca, wayne_resa",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "charter_law_1993",
+      "target": "dpscd",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, macdowell, pca, sbe",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "charter_law_1993",
+      "target": "gay_dagnogo",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, macdowell, pca, sbe",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "charter_law_1993",
+      "target": "mde",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, macdowell, pca, sbe",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "charter_law_1993",
+      "target": "ncsi",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: cmu, engler, len_wolfe, pca",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "cmu",
+      "target": "dpscd",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: macdowell, mccsa, plante_moran, sbe",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "court_36th",
+      "target": "court_3rd",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, kelly_ramsey, macdowell, pca",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "court_36th",
+      "target": "ms_perkins_pca",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, pca, perkins_sean, sean_perkins",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "court_36th",
+      "target": "todd_perkins",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, pca, perkins_sean, sean_perkins",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "court_3rd",
+      "target": "npe",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, macdowell, mde, pca",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "court_3rd",
+      "target": "purpose_group",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, macdowell, mde, pca",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "court_3rd",
+      "target": "yancey",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, jtc, macdowell, pca",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "detroit_city",
+      "target": "dpscd",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, court_3rd, macdowell, pca",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "detroit_city",
+      "target": "mde",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, court_3rd, macdowell, pca",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "devos_foundation",
+      "target": "roland_martin",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: afc, state_mi, the_74, walton_family_foundation",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "devos_foundation",
+      "target": "scbc_tour",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: afc, state_mi, the_74, walton_family_foundation",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "dpd",
+      "target": "wayne_county",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, detroit_city, pca, raphael_washington",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "dpscd",
+      "target": "emu",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: beasley, mccsa, sbe, wayne_resa",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "dpscd",
+      "target": "kym_worthy",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, court_3rd, macdowell, pca",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "dpscd",
+      "target": "miller",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: baker_college, banks, court_3rd, pca",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "dpscd",
+      "target": "npe",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, macdowell, mde, pca",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "dpscd",
+      "target": "purpose_group",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, macdowell, mde, pca",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "dpscd",
+      "target": "v_hall",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, crump_gibson, jennifer_crump, macdowell",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "dpscd",
+      "target": "yancey",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, beasley, macdowell, pca",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "dykema_federal_pac",
+      "target": "sdj",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: dykema, peninsula_fund, renae_moore, wilk",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "emu",
+      "target": "pca",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: beasley, jolia_hill, mccsa, sbe",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "engler",
+      "target": "mackinac_center",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: charter_law_1993, devos_foundation, jc_huizenga, richard_mclellan",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "gay_dagnogo",
+      "target": "maleyko",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: dpscd, mde, pca, sbe",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "gay_dagnogo",
+      "target": "npe",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, macdowell, mde, pca",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "gay_dagnogo",
+      "target": "purpose_group",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, macdowell, mde, pca",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "jennifer_crump",
+      "target": "misha_stallworth",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, crump_gibson, dpscd, macdowell",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "jolia_hill",
+      "target": "sbe",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, beasley, emu, pca",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "jtc",
+      "target": "pca",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, court_3rd, miller, yancey",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "kym_worthy",
+      "target": "mde",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, court_3rd, macdowell, pca",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "macdowell",
+      "target": "mccsa",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, cmu, dpscd, pca",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "maleyko",
+      "target": "vitti",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: beasley, dpscd, pca, sbe",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "mccsa",
+      "target": "plante_moran",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: cmu, corey_northrop, dpscd, pca",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "mde",
+      "target": "wayne_county",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, court_3rd, macdowell, pca",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "npe",
+      "target": "purpose_group",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, macdowell, mde, pca",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "npe",
+      "target": "sbe",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, macdowell, mde, pca",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "pca",
+      "target": "raphael_washington",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: detroit_city, dpd, kym_worthy, wayne_county",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "pca",
+      "target": "wayne_resa",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: beasley, dpscd, jolia_hill, wayne_county",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "purpose_group",
+      "target": "sbe",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, macdowell, mde, pca",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "sbe",
+      "target": "yancey",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, beasley, macdowell, pca",
+      "source_doc": "unsupervised_r6.py"
     }
   ],
   "epistemic_grammar": {
