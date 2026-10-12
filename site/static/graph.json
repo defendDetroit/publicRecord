@@ -6521,6 +6521,60 @@
       "role": "Executive Director, Great Lakes Education Project (GLEP). DeVos's point man on Michigan charter school policy. 'We're proponents of all forms of choice.'",
       "class": "entity",
       "classification": "null"
+    },
+    {
+      "id": "kevin_mok",
+      "label": "Kevin Mok",
+      "type": "actor",
+      "tier": 1,
+      "role": "Complainant. Plaintiff in Ingham County 2026-4301-CZ and 2026-4349-CZ. Father of DaSean Mitchell. Discovered the network. Filed complaints with MDE, AGC, LARA, SBE, DPSCD OIG, US DOE OIG. Infantry veteran. Built the graph. Documented everything.",
+      "class": "complainant",
+      "classification": "verified"
+    },
+    {
+      "id": "case_4301",
+      "label": "2026-4301-CZ",
+      "type": "case",
+      "tier": 2,
+      "role": "Ingham County Circuit Court civil case. Kevin Mok v. Banks et al. Filed in Ingham County (not Wayne) because Wayne County institutions are not trusted.",
+      "class": "legal",
+      "classification": "record"
+    },
+    {
+      "id": "case_4349",
+      "label": "2026-4349-CZ",
+      "type": "case",
+      "tier": 2,
+      "role": "Ingham County Circuit Court civil case. Kevin Mok v. Banks et al. Companion case.",
+      "class": "legal",
+      "classification": "record"
+    },
+    {
+      "id": "dasean_mitchell",
+      "label": "DaSean Mitchell",
+      "type": "actor",
+      "tier": 2,
+      "role": "Student. Kevin Mok's son. Pro se in Wayne County 26-108221-DC (custody). Banks impersonated a child on the phone when DaSean called PCA. The reason this all matters: a child was harmed.",
+      "class": "complainant",
+      "classification": "verified"
+    },
+    {
+      "id": "case_108221",
+      "label": "26-108221-DC",
+      "type": "case",
+      "tier": 3,
+      "role": "Wayne County Family Court custody case. DaSean Mitchell pro se. Judge Triplett.",
+      "class": "legal",
+      "classification": "record"
+    },
+    {
+      "id": "lara",
+      "label": "LARA",
+      "type": "org",
+      "tier": 3,
+      "role": "Michigan Dept of Licensing and Regulatory Affairs. Corporate filings, professional licensing, regulatory oversight.",
+      "class": "entity",
+      "classification": "record"
     }
   ],
   "edges": [
@@ -38886,6 +38940,168 @@
       "weight": 7,
       "note": "DeVos created the charter ecosystem. PM audits the resulting DPSCD. PM subsidiary PMR employs Beasley on K-12. The system DeVos built, PM profits from.",
       "source_doc": "edweek.org, detroitk12.org"
+    },
+    {
+      "source": "kevin_mok",
+      "target": "case_4301",
+      "type": "plaintiff",
+      "epistemic_status": "record",
+      "weight": 10,
+      "note": "Kevin Mok is plaintiff. Filed in Ingham County Circuit Court.",
+      "source_doc": "Ingham County court records"
+    },
+    {
+      "source": "kevin_mok",
+      "target": "case_4349",
+      "type": "plaintiff",
+      "epistemic_status": "record",
+      "weight": 10,
+      "note": "Kevin Mok is plaintiff. Companion case.",
+      "source_doc": "Ingham County court records"
+    },
+    {
+      "source": "kevin_mok",
+      "target": "banks",
+      "type": "filed_against",
+      "epistemic_status": "record",
+      "weight": 10,
+      "note": "Kevin Mok sued Brian Banks. Discovered fake JD, 9 convictions, entire network.",
+      "source_doc": "court filings"
+    },
+    {
+      "source": "kevin_mok",
+      "target": "mde",
+      "type": "filed_complaint",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "Filed complaint with Michigan Department of Education.",
+      "source_doc": "complaint records"
+    },
+    {
+      "source": "kevin_mok",
+      "target": "agc",
+      "type": "filed_complaint",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "Filed complaint with Attorney Grievance Commission re: fake JD claim.",
+      "source_doc": "complaint records"
+    },
+    {
+      "source": "kevin_mok",
+      "target": "sbe",
+      "type": "filed_complaint",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "Filed complaint with State Board of Education.",
+      "source_doc": "complaint records"
+    },
+    {
+      "source": "kevin_mok",
+      "target": "dasean_mitchell",
+      "type": "father",
+      "epistemic_status": "record",
+      "weight": 10,
+      "note": "Kevin Mok is DaSean Mitchell's father. The reason this all started.",
+      "source_doc": "court records"
+    },
+    {
+      "source": "dasean_mitchell",
+      "target": "pca",
+      "type": "student_or_enrollee",
+      "epistemic_status": "record",
+      "weight": 9,
+      "note": "DaSean's connection to PCA triggered the investigation.",
+      "source_doc": "school records"
+    },
+    {
+      "source": "dasean_mitchell",
+      "target": "case_108221",
+      "type": "pro_se",
+      "epistemic_status": "record",
+      "weight": 9,
+      "note": "DaSean Mitchell files pro se in Wayne County custody case.",
+      "source_doc": "Wayne County court records"
+    },
+    {
+      "source": "case_4301",
+      "target": "banks",
+      "type": "defendant",
+      "epistemic_status": "record",
+      "weight": 10,
+      "note": "Banks is defendant in 2026-4301-CZ.",
+      "source_doc": "Ingham County court records"
+    },
+    {
+      "source": "case_4349",
+      "target": "banks",
+      "type": "defendant",
+      "epistemic_status": "record",
+      "weight": 10,
+      "note": "Banks is defendant in 2026-4349-CZ.",
+      "source_doc": "Ingham County court records"
+    },
+    {
+      "source": "kevin_mok",
+      "target": "ms_perkins_pca",
+      "type": "confronted",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "Perkins is the front door gatekeeper. Kevin called, Perkins lied about Banks being present.",
+      "source_doc": "phone logs Oct 12, 2026"
+    },
+    {
+      "source": "kevin_mok",
+      "target": "holland",
+      "type": "identified",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "Kevin identified Holland as Banks' romantic partner, board chair, MDOC #443789.",
+      "source_doc": "investigation"
+    },
+    {
+      "source": "kevin_mok",
+      "target": "plante_moran",
+      "type": "investigated",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "Kevin investigated Plante Moran leadership chain. Found Lichwalla, Theriault, DeVos ecosystem.",
+      "source_doc": "web research Oct 12, 2026"
+    },
+    {
+      "source": "kevin_mok",
+      "target": "dykema",
+      "type": "investigated",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "Kevin investigated Dykema Gossett. Found full wire of attorneys.",
+      "source_doc": "web research"
+    },
+    {
+      "source": "kevin_mok",
+      "target": "betsy_devos",
+      "type": "investigated",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "Kevin traced the DeVos charter ecosystem through GLEP to PCA.",
+      "source_doc": "web research Oct 12, 2026"
+    },
+    {
+      "source": "banks",
+      "target": "dasean_mitchell",
+      "type": "impersonated_child",
+      "epistemic_status": "record",
+      "weight": 9,
+      "note": "Oct 12, 2026: Banks picked up PCA phone and pretended to be a LITTLE GIRL when DaSean called.",
+      "source_doc": "phone logs Oct 12, 2026"
+    },
+    {
+      "source": "kevin_mok",
+      "target": "lara",
+      "type": "filed_complaint",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "Filed complaints with LARA re: corporate entities.",
+      "source_doc": "complaint records"
     }
   ],
   "epistemic_grammar": {
