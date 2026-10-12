@@ -1917,3 +1917,38 @@ epistemic_status = "record"
 note = "Dykema Gossett Federal PAC (C00342113) affiliated with DYKEMA GOSSETT PLLC. PAC type Q (Qualified). Lansing, MI. 2,211 total disbursements to both parties."
 weight = 7
 source_doc = "FEC Committee data C00342113"
+
+# ── Excellent Schools Detroit / Community Education Commission (Oct 12) ──
+# ProPublica API EIN 27-4616034. c/o Ricky Fountain. $34.2M total support.
+
+[[edge]]
+source = "walton_family_foundation"
+target = "excellent_schools_detroit"
+type = "funding"
+epistemic_status = "record"
+note = "ESD received $8.66M cumulative gifts (gftgrntsrcvd170 FY2023). $34.2M total support through FY2017 (totsupp509). Walton + Skillman primary funders. ESD rates charter schools including Banks' schools."
+amount = "8660000"
+weight = 8
+source_doc = "ProPublica Nonprofit Explorer EIN 27-4616034; IRS 990 2011-2023"
+
+[[edge]]
+source = "excellent_schools_detroit"
+target = "pca"
+type = "rating"
+epistemic_status = "inference"
+note = "ESD rates Detroit charter schools. PCA operates in ESD's coverage area. Does ESD rate PCA? If so, what rating? Funded by same foundations that fund the pipeline."
+weight = 5
+source_doc = "cecdetroit.org; cross-reference with school ratings"
+
+# ── Purpose Foundation (Oct 12) ──────────────────────────────────────────
+# ProPublica API EIN 33-3537910. Filed Dec 2024. NO 990s yet. Too new.
+
+[[edge]]
+source = "purpose_foundation"
+target = "banks"
+type = "governance"
+epistemic_status = "record"
+role = "President + Agent"
+note = "Purpose Foundation EIN 33-3537910. Filed Dec 9, 2024. Ruling date Nov 2025. NO 990 FILINGS YET. Private foundation at 1968 Severn Rd (Banks/Holland address). Filed by Crump-Gibson as Attorney In Fact."
+weight = 7
+source_doc = "ProPublica API; LARA 803294855; Charity Navigator"
