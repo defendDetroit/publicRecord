@@ -4446,6 +4446,24 @@
       "note": "Surname match. Todd = Banks attorney. Sean = 36th judge (brothers). Family connection TBD.",
       "weight": 4,
       "source_doc": "Surname match Oct 12, 2026"
+    },
+    {
+      "source": "ms_perkins_pca",
+      "target": "banks",
+      "type": "access_denial",
+      "epistemic_status": "record",
+      "note": "Oct 12 10:30 AM: told caller she 'hasn't seen Banks today.' School in session. She's the receptionist. She lied.",
+      "weight": 7,
+      "source_doc": "Phone call (313) 767-3100, Oct 12, 2026 ~10:30 AM EDT"
+    },
+    {
+      "source": "pca",
+      "target": "banks",
+      "type": "access_denial_pattern",
+      "epistemic_status": "record",
+      "note": "Two incidents, two staff: Giselle (Aug 29, physical, DPD report) + Ms. Perkins (Oct 12, phone, lied). Institutional policy, not individual error.",
+      "weight": 9,
+      "source_doc": "DPD #26-0909-0176 (Aug 29); Phone call Oct 12, 2026"
     }
   ],
   "epistemic_grammar": {
