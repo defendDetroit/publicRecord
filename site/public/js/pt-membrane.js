@@ -627,6 +627,22 @@ window.PtMembrane = function(deps) {
     txt(solarG, cx, cy - Math.min(R*1.6, 230) - 4, 'Oort', '#484f58', 4,
       {opacity:0.06, id:'mg-oort-label'});
 
+    // ── π-Mirror: the Moon reflects back our position ──
+    // Like the Moon reflects sunlight, the outermost visible body
+    // reflects our observation back on itself. Its angle IS π.
+    // The reflection line connects the mirror to Gaia (where we are).
+    // You look up, you see yourself looking back. That's the mirror.
+    // Rate = π / π = 1. The constant. The identity reflection.
+    el('line', {x1:cx, y1:cy, x2:cx, y2:cy,
+      stroke:'#c9d1d9', 'stroke-width':0.3, 'stroke-opacity':0,
+      'stroke-dasharray':'2,6', id:'mg-pi-mirror-line'}, solarG);
+    // Mirror reflection dot — where you are, reflected from the outer body
+    el('circle', {cx:cx, cy:cy, r:1.5,
+      fill:'#ffffff', opacity:0, id:'mg-pi-mirror-dot'}, solarG);
+    // π label at the mirror — the angle IS π
+    txt(solarG, cx, cy, '\u03c0', '#c9d1d9', 5,
+      {opacity:0, id:'mg-pi-mirror-label'});
+
     // ═══ IONOSPHERE BAND: inner membrane space ═══
     // The ionosphere belongs INSIDE the membrane. Just below the ring.
     // Earth (ring) forces against it from below — pushing us toward the membrane.
@@ -2459,6 +2475,47 @@ window.PtMembrane = function(deps) {
         var pSize = [2, 2.5, 4, 3.5][spi];
         spLbl.setAttribute('y', (spy - pSize - 3).toFixed(1));
       }
+    }
+
+    // ── π-Mirror: the Moon reflects back our position ──
+    // The Moon (index 0) IS the mirror. Its angle reflects through center
+    // to show us where we are, projected from the outside looking in.
+    // Like the Moon reflects sunlight → π-mirror reflects observation.
+    // The reflection point is diametrically opposite the Moon through center.
+    var moonAngle = solarRates[0].phase + t * solarRates[0].rate;
+    var moonOrb = solarRates[0].orb;
+    var moonX = cx + moonOrb * Math.cos(moonAngle);
+    var moonY = cy + moonOrb * Math.sin(moonAngle);
+    // Reflection = π radians from the Moon, at Gaia's radius (inner position)
+    var reflAngle = moonAngle + PI; // diametrically opposite = π rotation
+    var gaiaR = 6; // Gaia ring radius
+    var reflX = cx + gaiaR * Math.cos(reflAngle);
+    var reflY = cy + gaiaR * Math.sin(reflAngle);
+    // Reflection line: from Moon through center to the reflected position
+    var piLine = document.getElementById('mg-pi-mirror-line');
+    if (piLine) {
+      piLine.setAttribute('x1', moonX.toFixed(1));
+      piLine.setAttribute('y1', moonY.toFixed(1));
+      piLine.setAttribute('x2', reflX.toFixed(1));
+      piLine.setAttribute('y2', reflY.toFixed(1));
+      piLine.setAttribute('stroke-opacity', (0.02 + 0.06 * perturb).toFixed(3));
+    }
+    // Reflection dot — where YOU are, as seen from outside
+    var piDot = document.getElementById('mg-pi-mirror-dot');
+    if (piDot) {
+      piDot.setAttribute('cx', reflX.toFixed(1));
+      piDot.setAttribute('cy', reflY.toFixed(1));
+      piDot.setAttribute('opacity', (0.04 + 0.10 * perturb).toFixed(3));
+    }
+    // π label — midpoint of the reflection line (at center)
+    var piLbl = document.getElementById('mg-pi-mirror-label');
+    if (piLbl) {
+      // Label at the midpoint = center of the system
+      var midX = (moonX + reflX) / 2;
+      var midY = (moonY + reflY) / 2;
+      piLbl.setAttribute('x', midX.toFixed(1));
+      piLbl.setAttribute('y', midY.toFixed(1));
+      piLbl.setAttribute('opacity', (0.03 + 0.06 * perturb).toFixed(3));
     }
 
     // ── Epitope orbit ring twist: dashes rotate, rings come alive ──
