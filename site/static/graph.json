@@ -1272,6 +1272,20 @@
       "type": "entity",
       "entity_type": "Lobby organization",
       "note": "Education reform advocacy. Nu Vision Media listed as FUNDER on 50can.org/financials. Derrell Bradford (Exec VP) on SCBC panels."
+    },
+    {
+      "id": "jacquie_hood_martin",
+      "label": "Rev. Dr. Jacquie Hood Martin",
+      "type": "actor",
+      "tier": 3,
+      "role": "Co-founder SCBC. Owner J. Hood & Associates (501c3). Former Dean/VP Academic, City Colleges of Chicago. Nu Vision speakers bureau."
+    },
+    {
+      "id": "j_hood_assoc",
+      "label": "J. Hood & Associates",
+      "type": "entity",
+      "entity_type": "Private 501(c)(3)",
+      "note": "501c3 public charity. Professional dev, coaching, DiSC. SCBC tour launched THROUGH this nonprofit. Owner: Jacquie Hood Martin."
     }
   ],
   "edges": [
@@ -4353,6 +4367,60 @@
       "note": "Nu Vision Media Inc registered at 4416 Briarwood Ave #110 PMB 43, Midland TX. Received $145K from VA PACs (Virginia Future Generations $130K, 2 PAC $15K).",
       "weight": 5,
       "source_doc": "TransparencyUSA Virginia payee records"
+    },
+    {
+      "source": "jacquie_hood_martin",
+      "target": "roland_martin",
+      "type": "family",
+      "epistemic_status": "record",
+      "note": "Married. Co-founded School Choice Is The Black Choice together.",
+      "weight": 9,
+      "source_doc": "huffpost.com; schoolchoiceistheblackchoice.com"
+    },
+    {
+      "source": "jacquie_hood_martin",
+      "target": "j_hood_assoc",
+      "type": "ownership",
+      "epistemic_status": "record",
+      "note": "Owner of J. Hood & Associates, 501c3. SCBC tour launched through her nonprofit.",
+      "weight": 8,
+      "source_doc": "jhoodandassociates.org; BlackPressUSA"
+    },
+    {
+      "source": "j_hood_assoc",
+      "target": "scbc_tour",
+      "type": "production",
+      "epistemic_status": "record",
+      "note": "SCBC tour launched through J. Hood & Associates. Newswire: 'through her non-profit, J. Hood and Associates.'",
+      "weight": 8,
+      "source_doc": "newswire.com Oct 6, 2016; BlackPressUSA"
+    },
+    {
+      "source": "jacquie_hood_martin",
+      "target": "nuvision_inc",
+      "type": "employment",
+      "epistemic_status": "record",
+      "note": "On Nu Vision Media speakers bureau alongside Roland. Available for booking.",
+      "weight": 6,
+      "source_doc": "Nu Vision Media speakers booking form (screenshot Oct 12, 2026)"
+    },
+    {
+      "source": "jacquie_hood_martin",
+      "target": "scbc_tour",
+      "type": "governance",
+      "epistemic_status": "record",
+      "note": "Co-organizer of SCBC nationwide town halls. Former Dean/VP Academic, City Colleges of Chicago.",
+      "weight": 7,
+      "source_doc": "spreaker.com Ep 28; huffpost.com; al.com"
+    },
+    {
+      "source": "roland_martin",
+      "target": "fifty_can",
+      "type": "board_membership",
+      "epistemic_status": "record",
+      "note": "Board member of 50CAN. Previously on StudentsFirst board (merged with 50CAN).",
+      "weight": 7,
+      "source_doc": "BlackPressUSA; al.com"
     }
   ],
   "epistemic_grammar": {
