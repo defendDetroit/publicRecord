@@ -2562,9 +2562,9 @@
       "id": "ahmed_beasley",
       "label": "Ahmed Beasley",
       "type": "actor",
-      "tier": 5,
-      "role": "Husband of Dr. Chalena Beasley. Named in dissertation dedication.",
-      "classification": "unknown",
+      "tier": 4,
+      "role": "SVP Plante Moran Realpoint. K-12 construction management. 17yr Barton Malow (K-12 projects). BS Civil Engineering, Lawrence Tech. Husband of Dr. Chalena Beasley (PCA School Leader). Mentors at-risk youth via Winning Futures. Wife runs a school. He builds schools for Michigan's largest K-12 districts.",
+      "classification": "person_of_interest",
       "class": "actor"
     },
     {
@@ -2619,6 +2619,42 @@
       "tier": 4,
       "role": "Detroit Partnership for Education Equity & Research. Wayne State. DPSCD data-sharing. Skillman + Spencer funded.",
       "classification": "research",
+      "class": "entity"
+    },
+    {
+      "id": "plante_moran",
+      "label": "Plante Moran Realpoint",
+      "type": "entity",
+      "tier": 4,
+      "role": "Construction/program management firm. Ahmed Beasley is SVP. K-12 public sector clients. Southfield, MI.",
+      "classification": "institution",
+      "class": "entity"
+    },
+    {
+      "id": "barton_malow",
+      "label": "Barton Malow",
+      "type": "entity",
+      "tier": 5,
+      "role": "Construction firm. Ahmed Beasley spent 17yr on K-12 projects.",
+      "classification": "institution",
+      "class": "entity"
+    },
+    {
+      "id": "lawrence_tech",
+      "label": "Lawrence Technological University",
+      "type": "entity",
+      "tier": 5,
+      "role": "Southfield, MI. Ahmed Beasley BS Civil Engineering.",
+      "classification": "institution",
+      "class": "entity"
+    },
+    {
+      "id": "river_rouge_sd",
+      "label": "River Rouge School District",
+      "type": "entity",
+      "tier": 5,
+      "role": "Beasley was Curriculum Director here before DPSCD admin roles.",
+      "classification": "institution",
       "class": "entity"
     }
   ],
@@ -8489,6 +8525,78 @@
       "type": "employment",
       "weight": 9,
       "label": "School Leader at Banks' PCA — recruited post-DPSCD retirement",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "ahmed_beasley",
+      "target": "plante_moran",
+      "type": "employment",
+      "weight": 8,
+      "label": "SVP, Plante Moran Realpoint — K-12 construction",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "ahmed_beasley",
+      "target": "barton_malow",
+      "type": "employment",
+      "weight": 7,
+      "label": "17yr K-12 project engineer/superintendent/PM",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "ahmed_beasley",
+      "target": "lawrence_tech",
+      "type": "education",
+      "weight": 5,
+      "label": "BS Civil Engineering",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "plante_moran",
+      "target": "dpscd",
+      "type": "professional_connection",
+      "weight": 6,
+      "label": "Public sector K-12 clients — largest districts in Michigan",
+      "epistemic_status": "inference"
+    },
+    {
+      "source": "beasley",
+      "target": "river_rouge_sd",
+      "type": "employment",
+      "weight": 5,
+      "label": "Curriculum Director",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "beasley",
+      "target": "emu",
+      "type": "education",
+      "weight": 5,
+      "label": "Leading for Equity & Justice Certificate, Jul 2020",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "vitti",
+      "target": "banks",
+      "type": "professional_connection",
+      "weight": 9,
+      "label": "Mentored Banks. Championed PCA authorization. Testified at TCR 22-12.",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "vitti",
+      "target": "beasley",
+      "type": "professional_connection",
+      "weight": 7,
+      "label": "Spoke at Beasley retirement video. Superintendent during her final DPSCD years.",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "bunche_prep",
+      "target": "beasley",
+      "type": "employment",
+      "weight": 8,
+      "label": "Principal 2021-2025. Under her leadership: #3022/3025 MI schools. ≤1% math. 7% reading.",
       "epistemic_status": "record"
     }
   ],
