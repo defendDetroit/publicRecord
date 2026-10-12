@@ -6905,6 +6905,33 @@
       "role": "CEO, The 74. Founding Editorial Director. With The 74 since inception (2015). Lives in Brooklyn.",
       "class": "entity",
       "classification": "null"
+    },
+    {
+      "id": "gordon_krater",
+      "label": "Gordon Krater",
+      "type": "actor",
+      "tier": 4,
+      "role": "CHAIRMAN OF THE BOARD, Barton Malow. FORMER MANAGING PARTNER of Plante Moran (8 years). 40+ years at Plante Moran. UMich Ross School BBA. 'My experiences at Plante Moran led to my being asked to join the Barton Malow Board.' THE BRIDGE: PM's former managing partner now chairs the board of the company that employed Ahmed Beasley for 17 years.",
+      "class": "entity",
+      "classification": "null"
+    },
+    {
+      "id": "ryan_maibach",
+      "label": "Ryan Maibach",
+      "type": "actor",
+      "tier": 5,
+      "role": "President & CEO, Barton Malow. 4th generation Maibach family leadership. Purdue construction management. Joined 1997, CEO since 2011. $4.4B revenue (2026). 3,500 employees.",
+      "class": "entity",
+      "classification": "null"
+    },
+    {
+      "id": "marygrove_conservancy",
+      "label": "Marygrove Conservancy / P-20 Campus",
+      "type": "entity",
+      "tier": 5,
+      "role": "Marygrove College closed Dec 2019. Campus became P-20 cradle-to-career site. Partners: Kresge ($50M), UMich, DPSCD, Starfish, IFF. BARTON MALOW is construction manager. Vitti quoted in press release. Chalena Beasley got her MA from Marygrove before it closed.",
+      "class": "entity",
+      "classification": "record"
     }
   ],
   "edges": [
@@ -39963,6 +39990,105 @@
       "weight": 9,
       "note": "Purpose Group takes 72.67% of revenue. Industry average CMO fee: 7% (Education Next). EMO fee: 10-20%. KIPP: far less. 72.67% is 7-10x the national average. This is not a management fee. This is extraction.",
       "source_doc": "educationnext.org, charterschooltools.org, CRPE"
+    },
+    {
+      "source": "gordon_krater",
+      "target": "plante_moran",
+      "type": "former_managing_partner",
+      "epistemic_status": "record",
+      "weight": 9,
+      "note": "Krater was Plante Moran Managing Partner for 8 years. 40+ year career at PM. UMich. Now Chairman of Barton Malow Board.",
+      "source_doc": "linkedin.com"
+    },
+    {
+      "source": "gordon_krater",
+      "target": "barton_malow",
+      "type": "board_chairman",
+      "epistemic_status": "record",
+      "weight": 9,
+      "note": "Chairman of the Board, Barton Malow. 'My experiences at Plante Moran led to my being asked to join the Barton Malow Board.'",
+      "source_doc": "linkedin.com"
+    },
+    {
+      "source": "gordon_krater",
+      "target": "beasley",
+      "type": "indirect_chain",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "Krater was PM Managing Partner. Now chairs BM Board. Beasley worked at BM 17 years then moved to PM subsidiary. Krater is the BRIDGE between both firms.",
+      "source_doc": "structural"
+    },
+    {
+      "source": "barton_malow",
+      "target": "marygrove_conservancy",
+      "type": "construction_manager",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "BM is construction manager for Marygrove P-20 campus renovation. 53 acres, 5 buildings. Chalena Beasley got her MA from Marygrove College before it closed.",
+      "source_doc": "bartonmalow.com"
+    },
+    {
+      "source": "barton_malow",
+      "target": "dpscd",
+      "type": "construction_services",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "BM provided cost estimating for DPSCD $700M facilities master plan. Also construction manager for Marygrove P-20 (DPSCD operates the school).",
+      "source_doc": "bartonmalow.com, dlrgroup.com"
+    },
+    {
+      "source": "chalena_beasley",
+      "target": "marygrove_conservancy",
+      "type": "alumna",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "Chalena earned MA in Teaching from Marygrove College. Marygrove closed 2019. Campus renovated by Barton Malow (her husband's former employer for 17 years).",
+      "source_doc": "purposecharteracademy.com"
+    },
+    {
+      "source": "marygrove_conservancy",
+      "target": "dpscd",
+      "type": "partner",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "DPSCD operates the School at Marygrove on the P-20 campus. Vitti (DPSCD Superintendent): 'part of the story of how the school district was able to provide children with the best.'",
+      "source_doc": "kresge.org"
+    },
+    {
+      "source": "kresge_foundation",
+      "target": "marygrove_conservancy",
+      "type": "funder",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "$50M commitment. Largest philanthropic commitment centered on education in a Detroit neighborhood.",
+      "source_doc": "kresge.org"
+    },
+    {
+      "source": "marygrove_conservancy",
+      "target": "msu",
+      "type": "partner",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "UMich School of Education is P-20 partner. Teacher residency program modeled on medical residencies.",
+      "source_doc": "kresge.org"
+    },
+    {
+      "source": "ryan_maibach",
+      "target": "barton_malow",
+      "type": "ceo",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "President & CEO since 2011. 4th generation Maibach family. Purdue. $4.4B revenue.",
+      "source_doc": "bartonmalow.com, wikipedia"
+    },
+    {
+      "source": "barton_malow",
+      "target": "pca",
+      "type": "charter_construction_ecosystem",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "BM builds KIPP Detroit charter school AND works for DPSCD. BM employed Ahmed Beasley for 17 years. Ahmed's wife is PCA principal. The construction firm, the auditor, the judge, the principal, and the felon are all connected.",
+      "source_doc": "structural"
     }
   ],
   "epistemic_grammar": {
