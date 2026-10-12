@@ -12788,6 +12788,195 @@
       "weight": 6,
       "note": "Ahmed (SVP K-12 construction) married to Beasley (PCA principal). Firm alumnus Northrop runs CMU charter oversight.",
       "source_doc": "Structural observation"
+    },
+    {
+      "source": "sbe",
+      "target": "pca",
+      "type": "oversight_failure",
+      "epistemic_status": "analysis",
+      "weight": 9,
+      "note": "SBE has oversight authority. PCA at Bunche #3022/3025. ZERO board investigation in decades of charter schools.",
+      "source_doc": "MI Constitution Art VIII Sec 3, MDE School Index"
+    },
+    {
+      "source": "sbe",
+      "target": "macdowell",
+      "type": "oversight_failure",
+      "epistemic_status": "analysis",
+      "weight": 9,
+      "note": "SBE has oversight authority. MacDowell is Banks enterprise school. ZERO board investigation.",
+      "source_doc": "MI Constitution Art VIII Sec 3"
+    },
+    {
+      "source": "sbe",
+      "target": "charter_law_1993",
+      "type": "oversight_failure",
+      "epistemic_status": "analysis",
+      "weight": 8,
+      "note": "SBE existed when PA 362 was signed. 251+ charter schools created. No SBE investigation of charter fraud patterns.",
+      "source_doc": "MI Constitution"
+    },
+    {
+      "source": "snyder_nikki",
+      "target": "sbe",
+      "type": "isolated_response",
+      "epistemic_status": "analysis",
+      "weight": 7,
+      "note": "Snyder responded (+1). She is 1 of 8 voting members. Other 7 have not responded. Why did it take a citizen to activate 1 member?",
+      "source_doc": "Kevin contact Oct 12 2026"
+    },
+    {
+      "source": "jolia_hill",
+      "target": "mccsa",
+      "type": "incomplete_action",
+      "epistemic_status": "analysis",
+      "weight": 8,
+      "note": "Hill terminated DPSA (1 school). She sat on MCCSA board. Banks still runs PCA + MacDowell. MCCSA didn't scale the pattern.",
+      "source_doc": "ProPublica 990, GuideStar, Beasley scan"
+    },
+    {
+      "source": "jolia_hill",
+      "target": "pca",
+      "type": "incomplete_action",
+      "epistemic_status": "analysis",
+      "weight": 8,
+      "note": "Hill terminated DPSA at EMU. Same Banks. PCA still operating. Pattern not flagged across authorizers.",
+      "source_doc": "EMU records"
+    },
+    {
+      "source": "mde",
+      "target": "pca",
+      "type": "regulatory_failure",
+      "epistemic_status": "analysis",
+      "weight": 9,
+      "note": "MDE's Educator Conduct + Criminal Convictions page exists. Banks has 9 convictions. Still superintendent. MDE auto-replied linking to the page they don't use.",
+      "source_doc": "MDE PP auto-reply screenshot Oct 12 2026"
+    },
+    {
+      "source": "mde",
+      "target": "banks",
+      "type": "regulatory_failure",
+      "epistemic_status": "analysis",
+      "weight": 10,
+      "note": "MDE regulates educator credentials. Banks has 9 criminal convictions. No credential revocation. No investigation initiated after contact.",
+      "source_doc": "MDE PP auto-reply, ICHAT records"
+    },
+    {
+      "source": "mccsa",
+      "target": "pca",
+      "type": "oversight_failure",
+      "epistemic_status": "analysis",
+      "weight": 8,
+      "note": "MCCSA oversees all charter authorizers. PCA operates across MCCSA member authorizers. Pattern not flagged. 251 schools, nobody connected the dots.",
+      "source_doc": "MCCSA Annual Reports"
+    },
+    {
+      "source": "mccsa",
+      "target": "banks",
+      "type": "oversight_failure",
+      "epistemic_status": "analysis",
+      "weight": 8,
+      "note": "MCCSA members authorized Banks schools for years. 9 criminal convictions. Cross-authorizer pattern invisible to MCCSA.",
+      "source_doc": "MCCSA Annual Reports, ICHAT"
+    },
+    {
+      "source": "dpscd",
+      "target": "pca",
+      "type": "authorization_conflict",
+      "epistemic_status": "analysis",
+      "weight": 8,
+      "note": "DPSCD is BOTH traditional district AND charter authorizer. Competes with charter schools for students while authorizing them. Meriweather runs both.",
+      "source_doc": "DPSCD charter application, MCCSA"
+    },
+    {
+      "source": "dykema",
+      "target": "charter_law_1993",
+      "type": "accountability_void",
+      "epistemic_status": "analysis",
+      "weight": 9,
+      "note": "Dykema wrote PA 362 (1993). 200+ charter formations. Reviews ESP contracts. Went SILENT (-1) when told the system they built is producing ≤1% math.",
+      "source_doc": "dykema.com, SVSU Board docs, direct notice"
+    },
+    {
+      "source": "ncsi",
+      "target": "pca",
+      "type": "oversight_failure",
+      "epistemic_status": "analysis",
+      "weight": 7,
+      "note": "NCSI provides 'accountability' training for charter schools. Wolfe (Dykema CEO) + Engler on board. PCA scores #3022/3025. No NCSI intervention.",
+      "source_doc": "nationalcharterschools.org"
+    },
+    {
+      "source": "plante_moran",
+      "target": "cmu",
+      "type": "revolving_door",
+      "epistemic_status": "analysis",
+      "weight": 7,
+      "note": "Northrop went from Plante Moran CPA → CMU Charter Center ED. Ahmed (Plante Moran SVP K-12) married to Beasley (PCA principal). Same firm connects oversight to construction.",
+      "source_doc": "LinkedIn, CMU Center page"
+    },
+    {
+      "source": "nessel",
+      "target": "banks",
+      "type": "selective_enforcement",
+      "epistemic_status": "analysis",
+      "weight": 8,
+      "note": "AG prosecutes Chatfield (13 felonies, Peninsula Fund). AG has NOT acted on Banks (9 convictions, charter schools). Moore manages funds for BOTH the AG and the defendant.",
+      "source_doc": "Bridge MI Chatfield case, AG auto-replies"
+    },
+    {
+      "source": "nessel",
+      "target": "chatfield",
+      "type": "selective_enforcement",
+      "epistemic_status": "analysis",
+      "weight": 7,
+      "note": "AG prosecutes Chatfield for Peninsula Fund misuse. Same Dykema/Moore that manages AG's Promise to the People fund. Prosecution exists but Banks untouched.",
+      "source_doc": "Bridge MI, Detroit News, Free Press Feb 2025"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "agc",
+      "type": "captured_oversight",
+      "epistemic_status": "analysis",
+      "weight": 8,
+      "note": "MI Supreme Court appoints AGC commissioners. AGC is sealed (-1). The appointing body's oversight mechanism failed.",
+      "source_doc": "MI Constitution, Court Rules"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "jtc",
+      "type": "captured_oversight",
+      "epistemic_status": "analysis",
+      "weight": 8,
+      "note": "MI Supreme Court appoints JTC commissioners. JTC is sealed (-pi). The appointing body's oversight mechanism failed.",
+      "source_doc": "MI Constitution, Court Rules"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "adb",
+      "type": "captured_oversight",
+      "epistemic_status": "analysis",
+      "weight": 8,
+      "note": "MI Supreme Court appoints ADB panelists. ADB has Crump-Gibson (Banks attorney) as hearing panelist. Captured.",
+      "source_doc": "MI Constitution, Court Rules"
+    },
+    {
+      "source": "walton_family_foundation",
+      "target": "pca",
+      "type": "funding_without_accountability",
+      "epistemic_status": "analysis",
+      "weight": 7,
+      "note": "Walton funds AFC, The 74, Pahara — the entire charter ecosystem. PCA children score ≤1% math. $2B+ in but zero accountability pressure.",
+      "source_doc": "Walton annual reports, MDE School Index"
+    },
+    {
+      "source": "afc",
+      "target": "pca",
+      "type": "advocacy_failure",
+      "epistemic_status": "analysis",
+      "weight": 7,
+      "note": "AFC advocates for charter 'families.' PCA families' children at ≤1% math. AFC contacted. No response. Advocacy stops at the lobby.",
+      "source_doc": "AFC website, direct contact"
     }
   ],
   "epistemic_grammar": {
