@@ -66,6 +66,20 @@
       "sort_note": "Governance/board connection to non-self (cascade)."
     },
     {
+      "id": "dpscd",
+      "label": "Detroit Public Schools Community District",
+      "type": "entity",
+      "entity_type": "Authorizer",
+      "tier": 1,
+      "class": "entity",
+      "membrane_response": "-1",
+      "classification": "negative",
+      "confidence": 0.9,
+      "opacity": 0.9,
+      "sort_pass": 1,
+      "sort_method": "phase1"
+    },
+    {
       "id": "macdowell",
       "label": "MacDowell Preparatory Academy",
       "type": "entity",
@@ -79,6 +93,50 @@
       "opacity": 0.9,
       "sort_pass": 1,
       "sort_method": "phase1"
+    },
+    {
+      "id": "court_3rd",
+      "label": "court 3rd",
+      "type": "institution",
+      "tier": 1,
+      "class": "entity",
+      "membrane_response": "-1",
+      "classification": "negative",
+      "confidence": 0.55,
+      "opacity": 0.55,
+      "sort_pass": 2,
+      "sort_method": "school_employee",
+      "sort_note": "Employee of captured school."
+    },
+    {
+      "id": "beasley",
+      "label": "Dr. Chalena Yancey Beasley",
+      "type": "actor",
+      "tier": 1,
+      "role": "Founding School Leader, PCA. PhD Wayne State ELPS 2023. 29yr DPSCD veteran. Principal Bunche Prep. NBCT. BS WMU, MA Marygrove, PhD Wayne State. Sister of Judge Tenisha Yancey. Husband Ahmed Beasley. Most credentialed person in Banks enterprise.",
+      "class": "actor",
+      "classification": "negative",
+      "membrane_response": "-1",
+      "confidence": 0.55,
+      "opacity": 0.55,
+      "sort_pass": 2,
+      "sort_method": "school_employee",
+      "sort_note": "Employee of captured school."
+    },
+    {
+      "id": "detroit_city",
+      "label": "City of Detroit",
+      "type": "entity",
+      "entity_type": "Municipality",
+      "tier": 1,
+      "note": "300+ year old city. Mayor: Sheffield. Council President: Tate. Chief: Bettison.",
+      "class": "entity",
+      "classification": "partial",
+      "confidence": 0.45,
+      "opacity": 0.45,
+      "sort_pass": 3,
+      "sort_method": "cascade_nonself",
+      "sort_note": "Governance/board connection to non-self (cascade)."
     },
     {
       "id": "mi_supreme_court",
@@ -95,21 +153,6 @@
       "sort_pass": 2,
       "sort_method": "state_entity",
       "sort_note": "State government entity."
-    },
-    {
-      "id": "detroit_city",
-      "label": "City of Detroit",
-      "type": "entity",
-      "entity_type": "Municipality",
-      "tier": 1,
-      "note": "300+ year old city. Mayor: Sheffield. Council President: Tate. Chief: Bettison.",
-      "class": "entity",
-      "classification": "partial",
-      "confidence": 0.45,
-      "opacity": 0.45,
-      "sort_pass": 3,
-      "sort_method": "cascade_nonself",
-      "sort_note": "Governance/board connection to non-self (cascade)."
     },
     {
       "id": "sc_cavanagh",
@@ -143,49 +186,6 @@
       "sort_note": "Governance/board connection to non-self (cascade)."
     },
     {
-      "id": "court_3rd",
-      "label": "court 3rd",
-      "type": "institution",
-      "tier": 2,
-      "class": "entity",
-      "membrane_response": "-1",
-      "classification": "negative",
-      "confidence": 0.55,
-      "opacity": 0.55,
-      "sort_pass": 2,
-      "sort_method": "school_employee",
-      "sort_note": "Employee of captured school."
-    },
-    {
-      "id": "dpscd",
-      "label": "Detroit Public Schools Community District",
-      "type": "entity",
-      "entity_type": "Authorizer",
-      "tier": 2,
-      "class": "entity",
-      "membrane_response": "-1",
-      "classification": "negative",
-      "confidence": 0.9,
-      "opacity": 0.9,
-      "sort_pass": 1,
-      "sort_method": "phase1"
-    },
-    {
-      "id": "beasley",
-      "label": "Dr. Chalena Yancey Beasley",
-      "type": "actor",
-      "tier": 2,
-      "role": "Founding School Leader, PCA. PhD Wayne State ELPS 2023. 29yr DPSCD veteran. Principal Bunche Prep. NBCT. BS WMU, MA Marygrove, PhD Wayne State. Sister of Judge Tenisha Yancey. Husband Ahmed Beasley. Most credentialed person in Banks enterprise.",
-      "class": "actor",
-      "classification": "negative",
-      "membrane_response": "-1",
-      "confidence": 0.55,
-      "opacity": 0.55,
-      "sort_pass": 2,
-      "sort_method": "school_employee",
-      "sort_note": "Employee of captured school."
-    },
-    {
       "id": "sbe",
       "label": "Michigan State Board of Education",
       "type": "entity",
@@ -200,6 +200,21 @@
       "sort_pass": 2,
       "sort_method": "board_of_nonself",
       "sort_note": "Board member of non-self entity."
+    },
+    {
+      "id": "charter_law_1993",
+      "label": "PA 362 — Michigan Charter School Law (1993)",
+      "type": "entity",
+      "entity_type": "Legislation",
+      "note": "Public Act 362, signed Jan 14 1994 (passed Dec 3 1993). Part 6A Revised School Code. Authorized universities, community colleges, ISDs, and local districts to charter PSAs. Constitutional challenge 1994, Supreme Court upheld 1997. THE law that enables everything: CMU authorization, MacDowell, PCA, all of it.",
+      "tier": 2,
+      "class": "entity",
+      "classification": "partial",
+      "confidence": 0.45,
+      "opacity": 0.45,
+      "sort_pass": 3,
+      "sort_method": "cascade_nonself",
+      "sort_note": "Governance/board connection to non-self (cascade)."
     },
     {
       "id": "dykema",
@@ -232,19 +247,50 @@
       "sort_note": "Regulatory body that did not act on Banks."
     },
     {
-      "id": "charter_law_1993",
-      "label": "PA 362 — Michigan Charter School Law (1993)",
+      "id": "mccsa",
+      "label": "Michigan Council of Charter School Authorizers",
       "type": "entity",
-      "entity_type": "Legislation",
-      "note": "Public Act 362, signed Jan 14 1994 (passed Dec 3 1993). Part 6A Revised School Code. Authorized universities, community colleges, ISDs, and local districts to charter PSAs. Constitutional challenge 1994, Supreme Court upheld 1997. THE law that enables everything: CMU authorization, MacDowell, PCA, all of it.",
+      "entity_type": "Oversight body",
+      "note": "Authorizer accountability standards. Criminal background check requirement. Chair: Leah Breen (GVSU). Treasurer: Jolia Hill (EMU).",
       "tier": 2,
       "class": "entity",
-      "classification": "partial",
-      "confidence": 0.45,
-      "opacity": 0.45,
+      "classification": "self",
+      "confidence": 0.4,
+      "opacity": 0.4,
       "sort_pass": 3,
-      "sort_method": "cascade_nonself",
-      "sort_note": "Governance/board connection to non-self (cascade)."
+      "sort_method": "cascade_self",
+      "sort_note": "Low-edge entity adjacent to self.",
+      "membrane_response": "0"
+    },
+    {
+      "id": "gay_dagnogo",
+      "label": "Sherry Gay-Dagnogo",
+      "type": "actor",
+      "tier": 2,
+      "role": "Political enabler â€” charter authorizer",
+      "page": "/network/political/sherry-gay-dagnogo/",
+      "class": "entity",
+      "classification": "partial",
+      "confidence": 0.55,
+      "opacity": 0.55,
+      "sort_pass": 2,
+      "sort_method": "board_of_nonself",
+      "sort_note": "Board member of non-self entity."
+    },
+    {
+      "id": "mde",
+      "label": "Michigan Department of Education",
+      "type": "entity",
+      "entity_type": "State agency",
+      "tier": 2,
+      "class": "entity",
+      "membrane_response": "form",
+      "classification": "partial",
+      "confidence": 0.55,
+      "opacity": 0.55,
+      "sort_pass": 2,
+      "sort_method": "school_employee",
+      "sort_note": "Employee of captured school."
     },
     {
       "id": "sbm",
@@ -310,20 +356,32 @@
       "sort_note": "Political connection to Banks."
     },
     {
-      "id": "mccsa",
-      "label": "Michigan Council of Charter School Authorizers",
-      "type": "entity",
-      "entity_type": "Oversight body",
-      "note": "Authorizer accountability standards. Criminal background check requirement. Chair: Leah Breen (GVSU). Treasurer: Jolia Hill (EMU).",
+      "id": "state_mi",
+      "label": "Michigan",
+      "type": "geography",
       "tier": 2,
+      "role": "Target state — all schools, all courts, all actors",
       "class": "entity",
       "classification": "self",
-      "confidence": 0.4,
-      "opacity": 0.4,
-      "sort_pass": 3,
-      "sort_method": "cascade_self",
-      "sort_note": "Low-edge entity adjacent to self.",
-      "membrane_response": "0"
+      "confidence": 0.75,
+      "opacity": 0.75,
+      "sort_pass": 2,
+      "sort_method": "state_entity",
+      "sort_note": "State government entity."
+    },
+    {
+      "id": "court_36th",
+      "label": "court 36th",
+      "type": "institution",
+      "tier": 2,
+      "class": "entity",
+      "membrane_response": "-1",
+      "classification": "negative",
+      "confidence": 0.55,
+      "opacity": 0.55,
+      "sort_pass": 2,
+      "sort_method": "school_employee",
+      "sort_note": "Employee of captured school."
     },
     {
       "id": "wilk",
@@ -341,6 +399,21 @@
       "membrane_response": "-1"
     },
     {
+      "id": "wayne_county",
+      "label": "Wayne County",
+      "type": "entity",
+      "entity_type": "County government",
+      "tier": 2,
+      "note": "Largest county in Michigan. Home to Detroit. 3rd Circuit Court jurisdiction.",
+      "class": "entity",
+      "classification": "partial",
+      "confidence": 0.45,
+      "opacity": 0.45,
+      "sort_pass": 3,
+      "sort_method": "cascade_nonself",
+      "sort_note": "Governance/board connection to non-self (cascade)."
+    },
+    {
       "id": "crump_gibson",
       "label": "Jehan Crump-Gibson",
       "type": "actor",
@@ -356,33 +429,20 @@
       "sort_note": "Employee of captured school."
     },
     {
-      "id": "mde",
-      "label": "Michigan Department of Education",
-      "type": "entity",
-      "entity_type": "State agency",
+      "id": "yancey",
+      "label": "Judge Tenisha Yancey",
+      "type": "actor",
       "tier": 2,
-      "class": "entity",
-      "membrane_response": "form",
-      "classification": "partial",
-      "confidence": 0.55,
-      "opacity": 0.55,
-      "sort_pass": 2,
-      "sort_method": "school_employee",
-      "sort_note": "Employee of captured school."
-    },
-    {
-      "id": "court_36th",
-      "label": "court 36th",
-      "type": "institution",
-      "tier": 2,
+      "role": "Judicial cover",
+      "page": "/network/judges/tenisha-yancey/",
       "class": "entity",
       "membrane_response": "-1",
       "classification": "negative",
       "confidence": 0.55,
       "opacity": 0.55,
       "sort_pass": 2,
-      "sort_method": "school_employee",
-      "sort_note": "Employee of captured school."
+      "sort_method": "board_of_nonself",
+      "sort_note": "Board member of non-self entity."
     },
     {
       "id": "miller",
@@ -401,6 +461,22 @@
       "sort_note": "Board member of non-self entity."
     },
     {
+      "id": "purpose_foundation",
+      "label": "Purpose Foundation",
+      "type": "entity",
+      "page": "/network/entities/purpose-foundation/",
+      "entity_type": "Private 501(c)(3)",
+      "lara_id": "803294855",
+      "tier": 2,
+      "class": "entity",
+      "classification": "null",
+      "confidence": 0.7,
+      "opacity": 0.7,
+      "sort_pass": 2,
+      "sort_method": "banks_governance",
+      "sort_note": "Entity governed by Banks."
+    },
+    {
       "id": "sheffield",
       "label": "Mayor Mary Sheffield",
       "type": "actor",
@@ -415,30 +491,13 @@
       "sort_note": "Political connection to Banks."
     },
     {
-      "id": "wayne_county",
-      "label": "Wayne County",
-      "type": "entity",
-      "entity_type": "County government",
-      "tier": 2,
-      "note": "Largest county in Michigan. Home to Detroit. 3rd Circuit Court jurisdiction.",
-      "class": "entity",
-      "classification": "partial",
-      "confidence": 0.45,
-      "opacity": 0.45,
-      "sort_pass": 3,
-      "sort_method": "cascade_nonself",
-      "sort_note": "Governance/board connection to non-self (cascade)."
-    },
-    {
-      "id": "yancey",
-      "label": "Judge Tenisha Yancey",
+      "id": "misha_stallworth",
+      "label": "Misha Stallworth West",
       "type": "actor",
       "tier": 2,
-      "role": "Judicial cover",
-      "page": "/network/judges/tenisha-yancey/",
+      "role": "DPSCD Board + CitizenDetroit Director",
       "class": "entity",
-      "membrane_response": "-1",
-      "classification": "negative",
+      "classification": "partial",
       "confidence": 0.55,
       "opacity": 0.55,
       "sort_pass": 2,
@@ -461,42 +520,12 @@
       "membrane_response": "form"
     },
     {
-      "id": "purpose_foundation",
-      "label": "Purpose Foundation",
+      "id": "dpd",
+      "label": "Detroit Police Department",
       "type": "entity",
-      "page": "/network/entities/purpose-foundation/",
-      "entity_type": "Private 501(c)(3)",
-      "lara_id": "803294855",
+      "entity_type": "Law enforcement",
       "tier": 2,
-      "class": "entity",
-      "classification": "null",
-      "confidence": 0.7,
-      "opacity": 0.7,
-      "sort_pass": 2,
-      "sort_method": "banks_governance",
-      "sort_note": "Entity governed by Banks."
-    },
-    {
-      "id": "misha_stallworth",
-      "label": "Misha Stallworth West",
-      "type": "actor",
-      "tier": 2,
-      "role": "DPSCD Board + CitizenDetroit Director",
-      "class": "entity",
-      "classification": "partial",
-      "confidence": 0.55,
-      "opacity": 0.55,
-      "sort_pass": 2,
-      "sort_method": "board_of_nonself",
-      "sort_note": "Board member of non-self entity."
-    },
-    {
-      "id": "sean_perkins",
-      "label": "Judge Sean Perkins",
-      "type": "actor",
-      "tier": 2,
-      "role": "Judicial cover",
-      "page": "/network/judges/sean-perkins/",
+      "note": "$455M budget. 2,500 officers. Chief: Todd Bettison. State's largest municipal PD.",
       "class": "entity",
       "classification": "partial",
       "confidence": 0.55,
@@ -506,12 +535,12 @@
       "sort_note": "Employee of captured school."
     },
     {
-      "id": "dpd",
-      "label": "Detroit Police Department",
-      "type": "entity",
-      "entity_type": "Law enforcement",
+      "id": "sean_perkins",
+      "label": "Judge Sean Perkins",
+      "type": "actor",
       "tier": 2,
-      "note": "$455M budget. 2,500 officers. Chief: Todd Bettison. State's largest municipal PD.",
+      "role": "Judicial cover",
+      "page": "/network/judges/sean-perkins/",
       "class": "entity",
       "classification": "partial",
       "confidence": 0.55,
@@ -546,6 +575,20 @@
       "sort_note": "Employee of captured school."
     },
     {
+      "id": "v_hall",
+      "label": "V. Hall",
+      "type": "actor",
+      "tier": 2,
+      "role": "Attorney",
+      "class": "entity",
+      "classification": "partial",
+      "confidence": 0.55,
+      "opacity": 0.55,
+      "sort_pass": 2,
+      "sort_method": "board_of_nonself",
+      "sort_note": "Board member of non-self entity."
+    },
+    {
       "label": "Betsy DeVos",
       "tier": 2,
       "id": "betsy_devos",
@@ -568,20 +611,6 @@
       "class": "entity",
       "classification": "negative",
       "membrane_response": "-1"
-    },
-    {
-      "id": "v_hall",
-      "label": "V. Hall",
-      "type": "actor",
-      "tier": 2,
-      "role": "Attorney",
-      "class": "entity",
-      "classification": "partial",
-      "confidence": 0.55,
-      "opacity": 0.55,
-      "sort_pass": 2,
-      "sort_method": "board_of_nonself",
-      "sort_note": "Board member of non-self entity."
     },
     {
       "id": "burris",
@@ -857,33 +886,33 @@
       "sort_note": "Court or judicial entity."
     },
     {
-      "id": "state_mi",
-      "label": "Michigan",
-      "type": "geography",
+      "id": "cmu",
+      "label": "Central Michigan University",
+      "type": "entity",
+      "entity_type": "Charter authorizer",
       "tier": 3,
-      "role": "Target state — all schools, all courts, all actors",
       "class": "entity",
       "classification": "self",
-      "confidence": 0.75,
-      "opacity": 0.75,
-      "sort_pass": 2,
-      "sort_method": "state_entity",
-      "sort_note": "State government entity."
+      "confidence": 0.9,
+      "opacity": 0.9,
+      "sort_pass": 1,
+      "sort_method": "phase1"
     },
     {
-      "id": "gay_dagnogo",
-      "label": "Sherry Gay-Dagnogo",
-      "type": "actor",
+      "id": "npe",
+      "label": "Network for Public Education Fund",
+      "type": "entity",
+      "entity_type": "Advocacy organization",
+      "note": "EIN 35-2532243. $1.4M assets. $314K rev (2024). 225 E 36th St Apt 10-O, NYC. 1.9 employees. Founded by Diane Ravitch 2013.",
       "tier": 3,
-      "role": "Political enabler â€” charter authorizer",
-      "page": "/network/political/sherry-gay-dagnogo/",
       "class": "entity",
-      "classification": "partial",
-      "confidence": 0.55,
-      "opacity": 0.55,
-      "sort_pass": 2,
-      "sort_method": "board_of_nonself",
-      "sort_note": "Board member of non-self entity."
+      "membrane_response": "-1",
+      "classification": "negative",
+      "confidence": 0.45,
+      "opacity": 0.45,
+      "sort_pass": 3,
+      "sort_method": "cascade_nonself",
+      "sort_note": "Governance/board connection to non-self (cascade)."
     },
     {
       "label": "Roland S. Martin",
@@ -898,19 +927,6 @@
       "sort_pass": 3,
       "sort_method": "cascade_null",
       "sort_note": "Formation/governance connection to null (cascade)."
-    },
-    {
-      "id": "cmu",
-      "label": "Central Michigan University",
-      "type": "entity",
-      "entity_type": "Charter authorizer",
-      "tier": 3,
-      "class": "entity",
-      "classification": "self",
-      "confidence": 0.9,
-      "opacity": 0.9,
-      "sort_pass": 1,
-      "sort_method": "phase1"
     },
     {
       "id": "jolia_hill",
@@ -928,6 +944,34 @@
       "sort_note": "Entity investigating Banks."
     },
     {
+      "id": "kym_worthy",
+      "label": "Kym L. Worthy",
+      "type": "actor",
+      "tier": 3,
+      "role": "Wayne County Prosecutor since 2004. Term through Jan 1, 2029. Championed rape kit testing (thousands of kits found 2009, hundreds of convictions). The county prosecutor with jurisdiction over PCA and Banks.",
+      "class": "entity",
+      "classification": "partial",
+      "confidence": 0.45,
+      "opacity": 0.45,
+      "sort_pass": 3,
+      "sort_method": "cascade_nonself",
+      "sort_note": "Governance/board connection to non-self (cascade)."
+    },
+    {
+      "id": "emu",
+      "label": "Eastern Michigan University",
+      "type": "entity",
+      "entity_type": "Charter authorizer",
+      "tier": 3,
+      "class": "entity",
+      "classification": "other",
+      "confidence": 0.3,
+      "opacity": 0.3,
+      "sort_pass": 3,
+      "sort_method": "unresolved",
+      "sort_note": "Edge pattern unresolved."
+    },
+    {
       "id": "engler",
       "label": "Gov. John Engler",
       "type": "actor",
@@ -940,21 +984,6 @@
       "sort_pass": 3,
       "sort_method": "cascade_self",
       "sort_note": "Low-edge entity adjacent to self."
-    },
-    {
-      "id": "renae_moore",
-      "label": "Renae Moore",
-      "type": "actor",
-      "tier": 3,
-      "role": "Compliance officer (Dykema)",
-      "class": "entity",
-      "classification": "null",
-      "confidence": 0.45,
-      "opacity": 0.45,
-      "sort_pass": 3,
-      "sort_method": "cascade_null",
-      "sort_note": "Formation/governance connection to null (cascade).",
-      "membrane_response": "-1"
     },
     {
       "id": "scbc_tour",
@@ -972,6 +1001,50 @@
       "sort_note": "Formation/governance connection to null (cascade)."
     },
     {
+      "id": "maleyko",
+      "label": "Dr. Glenn Maleyko",
+      "type": "actor",
+      "tier": 3,
+      "role": "MI Superintendent of Public Instruction (Dec 2025). SBE Chair. PhD Wayne State ELPS (same dept as Beasley/Hill). Former Dearborn Supt.",
+      "classification": "partial",
+      "class": "actor",
+      "membrane_response": "null",
+      "confidence": 0.45,
+      "opacity": 0.45,
+      "sort_pass": 3,
+      "sort_method": "cascade_nonself",
+      "sort_note": "Governance/board connection to non-self (cascade)."
+    },
+    {
+      "id": "renae_moore",
+      "label": "Renae Moore",
+      "type": "actor",
+      "tier": 3,
+      "role": "Compliance officer (Dykema)",
+      "class": "entity",
+      "classification": "null",
+      "confidence": 0.45,
+      "opacity": 0.45,
+      "sort_pass": 3,
+      "sort_method": "cascade_null",
+      "sort_note": "Formation/governance connection to null (cascade).",
+      "membrane_response": "-1"
+    },
+    {
+      "id": "ag_office",
+      "label": "ag office",
+      "type": "institution",
+      "tier": 3,
+      "class": "entity",
+      "membrane_response": "form",
+      "classification": "partial",
+      "confidence": 0.6,
+      "opacity": 0.6,
+      "sort_pass": 2,
+      "sort_method": "inaction_target",
+      "sort_note": "Regulatory body that did not act on Banks."
+    },
+    {
       "id": "archer",
       "label": "Dennis Archer",
       "type": "actor",
@@ -986,6 +1059,35 @@
       "sort_note": "Formation/governance connection to null (cascade)."
     },
     {
+      "label": "Dick & Betsy DeVos Family Foundation",
+      "entity_type": "Private foundation",
+      "id": "devos_foundation",
+      "type": "entity",
+      "role": "Charter school funder",
+      "tier": 3,
+      "class": "entity",
+      "classification": "other",
+      "confidence": 0.4,
+      "opacity": 0.4,
+      "sort_pass": 3,
+      "sort_method": "funding",
+      "sort_note": "Funding entity. Insufficient evidence for sort."
+    },
+    {
+      "id": "dykema_federal_pac",
+      "label": "Dykema Gossett Federal PAC",
+      "type": "entity",
+      "entity_type": "Federal PAC",
+      "fec_id": "C00342113",
+      "tier": 3,
+      "class": "entity",
+      "classification": "null",
+      "confidence": 0.9,
+      "opacity": 0.9,
+      "sort_pass": 1,
+      "sort_method": "phase1"
+    },
+    {
       "id": "jtc_ison",
       "label": "Dawn N. Ison, Esq.",
       "type": "actor",
@@ -993,20 +1095,6 @@
       "classification": "partial",
       "role": "JTC Commissioner. Former AUSA Eastern District MI — PUBLIC CORRUPTION UNIT. 19 years as federal prosecutor. Spelman College, Wayne State Law. Daughter of Detroit, DPS graduate. On JTC since Jul 21, 2025. Term expires Dec 31, 2026. The public corruption prosecutor sits on the body that refuses to investigate judicial corruption.",
       "class": "entity",
-      "confidence": 0.45,
-      "opacity": 0.45,
-      "sort_pass": 3,
-      "sort_method": "cascade_nonself",
-      "sort_note": "Governance/board connection to non-self (cascade)."
-    },
-    {
-      "id": "kym_worthy",
-      "label": "Kym L. Worthy",
-      "type": "actor",
-      "tier": 3,
-      "role": "Wayne County Prosecutor since 2004. Term through Jan 1, 2029. Championed rape kit testing (thousands of kits found 2009, hundreds of convictions). The county prosecutor with jurisdiction over PCA and Banks.",
-      "class": "entity",
-      "classification": "partial",
       "confidence": 0.45,
       "opacity": 0.45,
       "sort_pass": 3,
@@ -1028,12 +1116,56 @@
       "sort_note": "Banks claims credential from this entity."
     },
     {
-      "id": "npe",
-      "label": "Network for Public Education Fund",
+      "id": "plante_moran",
+      "label": "Plante Moran",
       "type": "entity",
-      "entity_type": "Advocacy organization",
-      "note": "EIN 35-2532243. $1.4M assets. $314K rev (2024). 225 E 36th St Apt 10-O, NYC. 1.9 employees. Founded by Diane Ravitch 2013.",
       "tier": 3,
+      "role": "Major MI accounting/consulting firm. Ahmed Beasley is SVP K-12 Construction. Corey Northrop (CMU Charter Center ED) was formerly a CPA here. Connects charter school oversight to charter school construction.",
+      "classification": "other",
+      "class": "entity",
+      "confidence": 0.3,
+      "opacity": 0.3,
+      "sort_pass": 3,
+      "sort_method": "unresolved",
+      "sort_note": "Edge pattern unresolved."
+    },
+    {
+      "id": "purpose_group",
+      "label": "The Purpose Group, LLC",
+      "type": "entity",
+      "page": "/network/entities/purpose-group-llc/",
+      "entity_type": "Charter Management Organization (CMO)",
+      "lara_id": "803295082",
+      "tier": 3,
+      "class": "entity",
+      "classification": "non-self",
+      "confidence": 0.9,
+      "opacity": 0.9,
+      "sort_pass": 1,
+      "sort_method": "phase1"
+    },
+    {
+      "id": "todd_perkins",
+      "label": "Todd Perkins",
+      "type": "actor",
+      "tier": 3,
+      "role": "Professional enabler â€” attorney",
+      "page": "/network/professional-enablers/todd-perkins/",
+      "class": "entity",
+      "membrane_response": "-1",
+      "classification": "negative",
+      "confidence": 0.65,
+      "opacity": 0.65,
+      "sort_pass": 2,
+      "sort_method": "banks_legal",
+      "sort_note": "Legal infrastructure for Banks."
+    },
+    {
+      "id": "vitti",
+      "label": "Dr. Nikolai Vitti",
+      "type": "actor",
+      "tier": 3,
+      "role": "DPSCD Superintendent. PCA authorized under his watch (Jul 2025).",
       "class": "entity",
       "membrane_response": "-1",
       "classification": "negative",
@@ -1044,24 +1176,11 @@
       "sort_note": "Governance/board connection to non-self (cascade)."
     },
     {
-      "id": "ag_office",
-      "label": "ag office",
-      "type": "institution",
-      "tier": 3,
-      "class": "entity",
-      "membrane_response": "form",
-      "classification": "partial",
-      "confidence": 0.6,
-      "opacity": 0.6,
-      "sort_pass": 2,
-      "sort_method": "inaction_target",
-      "sort_note": "Regulatory body that did not act on Banks."
-    },
-    {
-      "id": "emu",
-      "label": "Eastern Michigan University",
+      "id": "wayne_state_law",
+      "label": "Wayne State University Law School",
       "type": "entity",
-      "entity_type": "Charter authorizer",
+      "entity_type": "Law school",
+      "note": "Detroit. Dawn Ison (JTC Commissioner, JD). Detroit legal pipeline.",
       "tier": 3,
       "class": "entity",
       "classification": "other",
@@ -1101,6 +1220,34 @@
       "sort_note": "Edge pattern unresolved."
     },
     {
+      "id": "perkins_sean",
+      "label": "perkins sean",
+      "type": "institution",
+      "tier": 3,
+      "class": "entity",
+      "classification": "self",
+      "confidence": 0.7,
+      "opacity": 0.7,
+      "sort_pass": 2,
+      "sort_method": "court",
+      "sort_note": "Court or judicial entity."
+    },
+    {
+      "id": "sdj",
+      "label": "Save Detroit Jobs",
+      "type": "entity",
+      "entity_type": "Dark money vehicle",
+      "lara_id": "802002459",
+      "tier": 3,
+      "class": "entity",
+      "classification": "null",
+      "confidence": 0.55,
+      "opacity": 0.55,
+      "sort_pass": 2,
+      "sort_method": "null_formation",
+      "sort_note": "Formed by or connected to null routing entity."
+    },
+    {
       "label": "The 74 (The Seventy Four)",
       "entity_type": "Education news site",
       "id": "the_74",
@@ -1114,37 +1261,6 @@
       "sort_pass": 3,
       "sort_method": "cascade_null",
       "sort_note": "Formation/governance connection to null (cascade)."
-    },
-    {
-      "id": "todd_perkins",
-      "label": "Todd Perkins",
-      "type": "actor",
-      "tier": 3,
-      "role": "Professional enabler â€” attorney",
-      "page": "/network/professional-enablers/todd-perkins/",
-      "class": "entity",
-      "membrane_response": "-1",
-      "classification": "negative",
-      "confidence": 0.65,
-      "opacity": 0.65,
-      "sort_pass": 2,
-      "sort_method": "banks_legal",
-      "sort_note": "Legal infrastructure for Banks."
-    },
-    {
-      "id": "wayne_state_law",
-      "label": "Wayne State University Law School",
-      "type": "entity",
-      "entity_type": "Law school",
-      "note": "Detroit. Dawn Ison (JTC Commissioner, JD). Detroit legal pipeline.",
-      "tier": 3,
-      "class": "entity",
-      "classification": "other",
-      "confidence": 0.3,
-      "opacity": 0.3,
-      "sort_pass": 3,
-      "sort_method": "unresolved",
-      "sort_note": "Edge pattern unresolved."
     },
     {
       "id": "agc_willis",
@@ -1176,34 +1292,29 @@
       "sort_note": "Entity investigating Banks."
     },
     {
-      "id": "maleyko",
-      "label": "Dr. Glenn Maleyko",
-      "type": "actor",
+      "id": "ncsi",
+      "label": "National Charter Schools Institute",
+      "type": "entity",
+      "entity_type": "Nonprofit (501c3)",
       "tier": 3,
-      "role": "MI Superintendent of Public Instruction (Dec 2025). SBE Chair. PhD Wayne State ELPS (same dept as Beasley/Hill). Former Dearborn Supt.",
-      "classification": "partial",
-      "class": "actor",
-      "membrane_response": "null",
-      "confidence": 0.45,
-      "opacity": 0.45,
-      "sort_pass": 3,
-      "sort_method": "cascade_nonself",
-      "sort_note": "Governance/board connection to non-self (cascade)."
+      "role": "Founded 1995 by Gov Engler + CMU as MI Resource Center for Charter Schools. $1M federal funding 2001 to expand nationally. Mt. Pleasant, MI. 52 employees, $11.3M revenue. CEO James Goenner (Hall of Fame 2010). Board: John Engler, Leonard Wolfe, Jim Barrett (Chair), Sheree Speakman, Gerald Pall. Provides resources, training, tools for charter governance and accountability.",
+      "class": "entity",
+      "classification": "null",
+      "membrane_response": "-1"
     },
     {
-      "id": "vitti",
-      "label": "Dr. Nikolai Vitti",
+      "id": "raphael_washington",
+      "label": "Sheriff Raphael Washington",
       "type": "actor",
       "tier": 3,
-      "role": "DPSCD Superintendent. PCA authorized under his watch (Jul 2025).",
+      "role": "Wayne County Sheriff. Appointed 2021, reelected 2024 (69% vote).",
       "class": "entity",
-      "membrane_response": "-1",
-      "classification": "negative",
-      "confidence": 0.45,
-      "opacity": 0.45,
+      "classification": "other",
+      "confidence": 0.3,
+      "opacity": 0.3,
       "sort_pass": 3,
-      "sort_method": "cascade_nonself",
-      "sort_note": "Governance/board connection to non-self (cascade)."
+      "sort_method": "unresolved",
+      "sort_note": "Edge pattern unresolved."
     },
     {
       "id": "bullington",
@@ -1242,17 +1353,6 @@
       "sort_pass": 2,
       "sort_method": "board_of_nonself",
       "sort_note": "Board member of non-self entity."
-    },
-    {
-      "id": "ncsi",
-      "label": "National Charter Schools Institute",
-      "type": "entity",
-      "entity_type": "Nonprofit (501c3)",
-      "tier": 3,
-      "role": "Founded 1995 by Gov Engler + CMU as MI Resource Center for Charter Schools. $1M federal funding 2001 to expand nationally. Mt. Pleasant, MI. 52 employees, $11.3M revenue. CEO James Goenner (Hall of Fame 2010). Board: John Engler, Leonard Wolfe, Jim Barrett (Chair), Sheree Speakman, Gerald Pall. Provides resources, training, tools for charter governance and accountability.",
-      "class": "entity",
-      "classification": "null",
-      "membrane_response": "-1"
     },
     {
       "id": "wells_stallworth",
@@ -1367,35 +1467,6 @@
       "sort_pass": 2,
       "sort_method": "investigator",
       "sort_note": "Entity investigating Banks."
-    },
-    {
-      "id": "purpose_group",
-      "label": "The Purpose Group, LLC",
-      "type": "entity",
-      "page": "/network/entities/purpose-group-llc/",
-      "entity_type": "Charter Management Organization (CMO)",
-      "lara_id": "803295082",
-      "tier": 3,
-      "class": "entity",
-      "classification": "non-self",
-      "confidence": 0.9,
-      "opacity": 0.9,
-      "sort_pass": 1,
-      "sort_method": "phase1"
-    },
-    {
-      "id": "raphael_washington",
-      "label": "Sheriff Raphael Washington",
-      "type": "actor",
-      "tier": 3,
-      "role": "Wayne County Sheriff. Appointed 2021, reelected 2024 (69% vote).",
-      "class": "entity",
-      "classification": "other",
-      "confidence": 0.3,
-      "opacity": 0.3,
-      "sort_pass": 3,
-      "sort_method": "unresolved",
-      "sort_note": "Edge pattern unresolved."
     },
     {
       "id": "stallworth_t",
@@ -2050,55 +2121,13 @@
       "sort_note": "Jurisdictional entity."
     },
     {
-      "id": "dykema_federal_pac",
-      "label": "Dykema Gossett Federal PAC",
-      "type": "entity",
-      "entity_type": "Federal PAC",
-      "fec_id": "C00342113",
-      "tier": 4,
-      "class": "entity",
-      "classification": "null",
-      "confidence": 0.9,
-      "opacity": 0.9,
-      "sort_pass": 1,
-      "sort_method": "phase1"
-    },
-    {
-      "id": "perkins_sean",
-      "label": "perkins sean",
-      "type": "institution",
-      "tier": 4,
-      "class": "entity",
-      "classification": "self",
-      "confidence": 0.7,
-      "opacity": 0.7,
-      "sort_pass": 2,
-      "sort_method": "court",
-      "sort_note": "Court or judicial entity."
-    },
-    {
-      "id": "plante_moran",
-      "label": "Plante Moran",
+      "id": "mackinac_center",
+      "label": "Mackinac Center for Public Policy",
       "type": "entity",
       "tier": 4,
-      "role": "Major MI accounting/consulting firm. Ahmed Beasley is SVP K-12 Construction. Corey Northrop (CMU Charter Center ED) was formerly a CPA here. Connects charter school oversight to charter school construction.",
+      "role": "DeVos-funded policy org. Pro-charter. School choice advocacy.",
       "classification": "other",
       "class": "entity",
-      "confidence": 0.3,
-      "opacity": 0.3,
-      "sort_pass": 3,
-      "sort_method": "unresolved",
-      "sort_note": "Edge pattern unresolved."
-    },
-    {
-      "label": "Dick & Betsy DeVos Family Foundation",
-      "entity_type": "Private foundation",
-      "id": "devos_foundation",
-      "type": "entity",
-      "role": "Charter school funder",
-      "tier": 4,
-      "class": "entity",
-      "classification": "other",
       "confidence": 0.4,
       "opacity": 0.4,
       "sort_pass": 3,
@@ -2122,19 +2151,31 @@
       "membrane_response": "-1"
     },
     {
-      "id": "sdj",
-      "label": "Save Detroit Jobs",
-      "type": "entity",
-      "entity_type": "Dark money vehicle",
-      "lara_id": "802002459",
+      "id": "ms_perkins_pca",
+      "label": "Ms. Perkins (PCA)",
+      "type": "actor",
       "tier": 4,
+      "role": "PCA receptionist/staff. Surname match: Todd Perkins (Banks atty), Sean Perkins (36th judge). Relationship TBD.",
       "class": "entity",
-      "classification": "null",
+      "classification": "partial",
       "confidence": 0.55,
       "opacity": 0.55,
       "sort_pass": 2,
-      "sort_method": "null_formation",
-      "sort_note": "Formed by or connected to null routing entity."
+      "sort_method": "school_employee",
+      "sort_note": "Employee of captured school."
+    },
+    {
+      "id": "perkins_d",
+      "label": "perkins d",
+      "type": "institution",
+      "tier": 4,
+      "class": "entity",
+      "classification": "self",
+      "confidence": 0.7,
+      "opacity": 0.7,
+      "sort_pass": 2,
+      "sort_method": "court",
+      "sort_note": "Court or judicial entity."
     },
     {
       "id": "ud_mercy_law",
@@ -2152,6 +2193,35 @@
       "sort_note": "Edge pattern unresolved."
     },
     {
+      "id": "wayne_resa",
+      "label": "Wayne RESA",
+      "type": "entity",
+      "tier": 4,
+      "role": "Wayne Regional Educational Service Agency. Technical assistance to 33 districts + 100 PSAs. Beasley and Hill both alumni.",
+      "classification": "other",
+      "class": "entity",
+      "confidence": 0.3,
+      "opacity": 0.3,
+      "sort_pass": 3,
+      "sort_method": "unresolved",
+      "sort_note": "Edge pattern unresolved."
+    },
+    {
+      "id": "ag_cod",
+      "label": "AG Corporate Oversight Division",
+      "type": "entity",
+      "entity_type": "Oversight body",
+      "note": "Charitable trust violations, consumer fraud, nonprofit self-dealing. Acting Chief: Darrin Fowler (P53464).",
+      "tier": 4,
+      "class": "entity",
+      "classification": "self",
+      "confidence": 0.75,
+      "opacity": 0.75,
+      "sort_pass": 2,
+      "sort_method": "state_entity",
+      "sort_note": "State government entity."
+    },
+    {
       "id": "gvsu",
       "label": "Grand Valley State University",
       "type": "entity",
@@ -2166,25 +2236,11 @@
       "sort_note": "Edge pattern unresolved."
     },
     {
-      "id": "mackinac_center",
-      "label": "Mackinac Center for Public Policy",
-      "type": "entity",
-      "tier": 4,
-      "role": "DeVos-funded policy org. Pro-charter. School choice advocacy.",
-      "classification": "other",
-      "class": "entity",
-      "confidence": 0.4,
-      "opacity": 0.4,
-      "sort_pass": 3,
-      "sort_method": "funding",
-      "sort_note": "Funding entity. Insufficient evidence for sort."
-    },
-    {
-      "id": "ms_perkins_pca",
-      "label": "Ms. Perkins (PCA)",
+      "id": "jennifer_crump",
+      "label": "Jennifer Crump",
       "type": "actor",
       "tier": 4,
-      "role": "PCA receptionist/staff. Surname match: Todd Perkins (Banks atty), Sean Perkins (36th judge). Relationship TBD.",
+      "role": "MacDowell board. DPSCD. Crump surname dynasty — Jehan, V. Hall, Jennifer.",
       "class": "entity",
       "classification": "partial",
       "confidence": 0.55,
@@ -2224,19 +2280,6 @@
       "sort_note": "Formed by or connected to null routing entity."
     },
     {
-      "id": "perkins_d",
-      "label": "perkins d",
-      "type": "institution",
-      "tier": 4,
-      "class": "entity",
-      "classification": "self",
-      "confidence": 0.7,
-      "opacity": 0.7,
-      "sort_pass": 2,
-      "sort_method": "court",
-      "sort_note": "Court or judicial entity."
-    },
-    {
       "id": "thomas_ryan",
       "label": "Thomas J. Ryan, Esq.",
       "type": "actor",
@@ -2249,21 +2292,6 @@
       "sort_pass": 3,
       "sort_method": "cascade_nonself",
       "sort_note": "Governance/board connection to non-self (cascade)."
-    },
-    {
-      "id": "ag_cod",
-      "label": "AG Corporate Oversight Division",
-      "type": "entity",
-      "entity_type": "Oversight body",
-      "note": "Charitable trust violations, consumer fraud, nonprofit self-dealing. Acting Chief: Darrin Fowler (P53464).",
-      "tier": 4,
-      "class": "entity",
-      "classification": "self",
-      "confidence": 0.75,
-      "opacity": 0.75,
-      "sort_pass": 2,
-      "sort_method": "state_entity",
-      "sort_note": "State government entity."
     },
     {
       "id": "anchor_rock",
@@ -2294,20 +2322,6 @@
       "sort_pass": 3,
       "sort_method": "cascade_nonself",
       "sort_note": "Governance/board connection to non-self (cascade)."
-    },
-    {
-      "id": "jennifer_crump",
-      "label": "Jennifer Crump",
-      "type": "actor",
-      "tier": 4,
-      "role": "MacDowell board. DPSCD. Crump surname dynasty — Jehan, V. Hall, Jennifer.",
-      "class": "entity",
-      "classification": "partial",
-      "confidence": 0.55,
-      "opacity": 0.55,
-      "sort_pass": 2,
-      "sort_method": "school_employee",
-      "sort_note": "Employee of captured school."
     },
     {
       "id": "nuvision_inc",
@@ -2348,20 +2362,6 @@
       "tier": 4,
       "class": "entity",
       "classification": "other",
-      "confidence": 0.3,
-      "opacity": 0.3,
-      "sort_pass": 3,
-      "sort_method": "unresolved",
-      "sort_note": "Edge pattern unresolved."
-    },
-    {
-      "id": "wayne_resa",
-      "label": "Wayne RESA",
-      "type": "entity",
-      "tier": 4,
-      "role": "Wayne Regional Educational Service Agency. Technical assistance to 33 districts + 100 PSAs. Beasley and Hill both alumni.",
-      "classification": "other",
-      "class": "entity",
       "confidence": 0.3,
       "opacity": 0.3,
       "sort_pass": 3,
@@ -2521,6 +2521,20 @@
       "sort_pass": 2,
       "sort_method": "state_entity",
       "sort_note": "State government entity."
+    },
+    {
+      "label": "NAACP Detroit Branch",
+      "id": "naacp_detroit",
+      "type": "institution",
+      "role": "Civil rights organization, Freedom Fund Dinner host",
+      "tier": 4,
+      "class": "entity",
+      "classification": "null",
+      "confidence": 0.45,
+      "opacity": 0.45,
+      "sort_pass": 3,
+      "sort_method": "cascade_null",
+      "sort_note": "Formation/governance connection to null (cascade)."
     },
     {
       "id": "nha",
@@ -3672,20 +3686,6 @@
       "sort_pass": 2,
       "sort_method": "banks_governance",
       "sort_note": "Entity governed by Banks."
-    },
-    {
-      "label": "NAACP Detroit Branch",
-      "id": "naacp_detroit",
-      "type": "institution",
-      "role": "Civil rights organization, Freedom Fund Dinner host",
-      "tier": 5,
-      "class": "entity",
-      "classification": "null",
-      "confidence": 0.45,
-      "opacity": 0.45,
-      "sort_pass": 3,
-      "sort_method": "cascade_null",
-      "sort_note": "Formation/governance connection to null (cascade)."
     },
     {
       "id": "adb",
@@ -5263,6 +5263,15 @@
     },
     {
       "source": "ag_cod",
+      "target": "banks",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: ag_office, banks_strategy, nessel, purpose_foundation",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "ag_cod",
       "target": "purpose_foundation",
       "type": "jurisdiction",
       "epistemic_status": "inferred",
@@ -5296,6 +5305,15 @@
       "epistemic_status": "record"
     },
     {
+      "source": "ag_office",
+      "target": "purpose_foundation",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: ag_charitable_trust, ag_cod, banks, nessel",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
       "source": "agc",
       "target": "banks",
       "type": "inaction",
@@ -5303,6 +5321,15 @@
       "note": "Returned Banks filing Oct 1: 'not a listed attorney.' That IS the violation under MCL 600.916. Silent on Moreland, Meihn, Hall who ARE licensed.",
       "weight": 9,
       "source_doc": "AGC return letter Oct 1, 2026; clutchjustice.com Mind the Gap Oct 7, 2026"
+    },
+    {
+      "source": "agc",
+      "target": "jtc",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, jtc_corbin, mi_supreme_court, sc_cavanagh",
+      "source_doc": "unsupervised_r6.py"
     },
     {
       "source": "agc",
@@ -6124,6 +6151,15 @@
     },
     {
       "source": "banks",
+      "target": "cmu",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: charter_law_1993, macdowell, mccsa, sbe",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "banks",
       "target": "court_36th",
       "type": "structural_proximity",
       "epistemic_status": "inferred",
@@ -6156,6 +6192,15 @@
       "weight": 5,
       "note": "Graph prediction: 5 shared neighbors. Via: Sherry Gay-Dagnogo, Purpose Charter Acad, Michigan State Board, Misha Stallworth Wes, MacDowell Preparator",
       "source_doc": "run_it_back.py missing edge prediction"
+    },
+    {
+      "source": "banks",
+      "target": "emu",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: beasley, jolia_hill, mccsa, sbe",
+      "source_doc": "unsupervised_r6.py"
     },
     {
       "source": "banks",
@@ -6224,6 +6269,15 @@
       "role": "Superintendent",
       "weight": 10,
       "source_doc": "macdowellprep.com"
+    },
+    {
+      "source": "banks",
+      "target": "maleyko",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "R6 prediction: 5 shared neighbors. Via: beasley, dpscd, mde, pca, sbe",
+      "source_doc": "unsupervised_r6.py"
     },
     {
       "source": "banks",
@@ -6327,6 +6381,15 @@
     },
     {
       "source": "banks",
+      "target": "raphael_washington",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: detroit_city, dpd, kym_worthy, wayne_county",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "banks",
       "target": "right_turn",
       "type": "governance",
       "epistemic_status": "record",
@@ -6388,6 +6451,24 @@
       "weight": 6,
       "label": "4 shared: court_3rd, kym_worthy, macdowell, pca. All operations in Wayne Co.",
       "epistemic_status": "record"
+    },
+    {
+      "source": "banks",
+      "target": "wayne_resa",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: beasley, dpscd, jolia_hill, wayne_county",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "banks",
+      "target": "wayne_state_law",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: beasley, jolia_hill, jtc_ison, sc_cavanagh",
+      "source_doc": "unsupervised_r6.py"
     },
     {
       "source": "banks",
@@ -6485,6 +6566,33 @@
     },
     {
       "source": "beasley",
+      "target": "charter_law_1993",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, macdowell, pca, sbe",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "beasley",
+      "target": "court_36th",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, macdowell, pca, yancey",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "beasley",
+      "target": "court_3rd",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, dpscd, macdowell, pca",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "beasley",
       "target": "dpscd",
       "type": "employment",
       "epistemic_status": "record",
@@ -6505,6 +6613,15 @@
     },
     {
       "source": "beasley",
+      "target": "gay_dagnogo",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "R6 prediction: 6 shared neighbors. Via: banks, dpscd, macdowell, pca, sbe",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "beasley",
       "target": "macdowell",
       "type": "structural_proximity",
       "weight": 7,
@@ -6518,6 +6635,24 @@
       "weight": 6,
       "label": "MA Teaching",
       "epistemic_status": "record"
+    },
+    {
+      "source": "beasley",
+      "target": "mccsa",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "R6 prediction: 5 shared neighbors. Via: banks, dpscd, emu, jolia_hill, pca",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "beasley",
+      "target": "mde",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "R6 prediction: 6 shared neighbors. Via: banks, dpscd, macdowell, maleyko, pca",
+      "source_doc": "unsupervised_r6.py"
     },
     {
       "source": "beasley",
@@ -6546,6 +6681,15 @@
       "weight": 6,
       "label": "5 shared: banks, dpscd, emu, pca, vitti. SBE oversees her authorizer.",
       "epistemic_status": "inference"
+    },
+    {
+      "source": "beasley",
+      "target": "wayne_county",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, macdowell, pca, wayne_resa",
+      "source_doc": "unsupervised_r6.py"
     },
     {
       "source": "beasley",
@@ -7018,12 +7162,30 @@
     },
     {
       "source": "charter_law_1993",
+      "target": "dpscd",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, macdowell, pca, sbe",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "charter_law_1993",
       "target": "ferris_state",
       "type": "enabled",
       "epistemic_status": "record",
       "weight": 7,
       "note": "PA 362 enabled FSU as charter authorizer.",
       "source_doc": "MCCSA"
+    },
+    {
+      "source": "charter_law_1993",
+      "target": "gay_dagnogo",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, macdowell, pca, sbe",
+      "source_doc": "unsupervised_r6.py"
     },
     {
       "source": "charter_law_1993",
@@ -7054,12 +7216,39 @@
     },
     {
       "source": "charter_law_1993",
+      "target": "mccsa",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 8,
+      "note": "R6 prediction: 10 shared neighbors. Via: banks, bay_mills, cmu, ferris_state, gvsu",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "charter_law_1993",
+      "target": "mde",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, macdowell, pca, sbe",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "charter_law_1993",
       "target": "mi_supreme_court",
       "type": "governance",
       "epistemic_status": "record",
       "weight": 9,
       "note": "MI Supreme Court upheld PA 362 constitutionality July 1997. The same court that now appoints JTC/AGC/ADB.",
       "source_doc": "Historical records, Wikipedia, official bios"
+    },
+    {
+      "source": "charter_law_1993",
+      "target": "ncsi",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: cmu, engler, len_wolfe, pca",
+      "source_doc": "unsupervised_r6.py"
     },
     {
       "source": "charter_law_1993",
@@ -7218,6 +7407,15 @@
     },
     {
       "source": "cmu",
+      "target": "dpscd",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: macdowell, mccsa, plante_moran, sbe",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "cmu",
       "target": "macdowell",
       "type": "authorization",
       "epistemic_status": "record",
@@ -7280,6 +7478,15 @@
       "role": "Executive Director, Center for Charter Schools",
       "weight": 4,
       "source_doc": "thecenterforcharters.org"
+    },
+    {
+      "source": "cmu",
+      "target": "pca",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "R6 prediction: 6 shared neighbors. Via: charter_law_1993, macdowell, mccsa, ncsi, plante_moran",
+      "source_doc": "unsupervised_r6.py"
     },
     {
       "source": "cockrel_jr",
@@ -7373,6 +7580,33 @@
       "epistemic_status": "record"
     },
     {
+      "source": "court_36th",
+      "target": "court_3rd",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, kelly_ramsey, macdowell, pca",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "court_36th",
+      "target": "ms_perkins_pca",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, pca, perkins_sean, sean_perkins",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "court_36th",
+      "target": "todd_perkins",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, pca, perkins_sean, sean_perkins",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
       "source": "court_3rd",
       "target": "detroit_city",
       "type": "jurisdiction",
@@ -7387,6 +7621,51 @@
       "weight": 6,
       "label": "4 shared: banks, macdowell, mde, pca. Wayne 3rd Circuit = charter school disputes.",
       "epistemic_status": "record"
+    },
+    {
+      "source": "court_3rd",
+      "target": "gay_dagnogo",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "R6 prediction: 5 shared neighbors. Via: banks, dpscd, macdowell, mde, pca",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "court_3rd",
+      "target": "npe",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, macdowell, mde, pca",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "court_3rd",
+      "target": "purpose_group",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, macdowell, mde, pca",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "court_3rd",
+      "target": "sbe",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "R6 prediction: 5 shared neighbors. Via: banks, dpscd, macdowell, mde, pca",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "court_3rd",
+      "target": "yancey",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, jtc, macdowell, pca",
+      "source_doc": "unsupervised_r6.py"
     },
     {
       "source": "court_oakland",
@@ -7565,12 +7844,39 @@
     },
     {
       "source": "detroit_city",
+      "target": "dpscd",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, court_3rd, macdowell, pca",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "detroit_city",
+      "target": "kym_worthy",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "R6 prediction: 6 shared neighbors. Via: banks, court_3rd, macdowell, pca, raphael_washington",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "detroit_city",
       "target": "macdowell",
       "type": "jurisdiction",
       "epistemic_status": "inferred",
       "weight": 5,
       "note": "MacDowell operates in Detroit metro area.",
       "source_doc": "Localities sweep + jurisdiction analysis"
+    },
+    {
+      "source": "detroit_city",
+      "target": "mde",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, court_3rd, macdowell, pca",
+      "source_doc": "unsupervised_r6.py"
     },
     {
       "source": "detroit_city",
@@ -7614,6 +7920,24 @@
       "weight": 6,
       "note": "DeVos family primary funders of AFC.",
       "source_doc": "Known connections from prior investigation"
+    },
+    {
+      "source": "devos_foundation",
+      "target": "roland_martin",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: afc, state_mi, the_74, walton_family_foundation",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "devos_foundation",
+      "target": "scbc_tour",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: afc, state_mi, the_74, walton_family_foundation",
+      "source_doc": "unsupervised_r6.py"
     },
     {
       "weight": 7,
@@ -7697,6 +8021,42 @@
       "source_doc": "Localities sweep + jurisdiction analysis"
     },
     {
+      "source": "dpd",
+      "target": "wayne_county",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, detroit_city, pca, raphael_washington",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "dpscd",
+      "target": "emu",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: beasley, mccsa, sbe, wayne_resa",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "dpscd",
+      "target": "jolia_hill",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "R6 prediction: 5 shared neighbors. Via: banks, beasley, mccsa, pca, wayne_resa",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "dpscd",
+      "target": "kym_worthy",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, court_3rd, macdowell, pca",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
       "source": "dpscd",
       "target": "macdowell",
       "type": "authorization",
@@ -7716,6 +8076,24 @@
     },
     {
       "source": "dpscd",
+      "target": "miller",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: baker_college, banks, court_3rd, pca",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "dpscd",
+      "target": "npe",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, macdowell, mde, pca",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "dpscd",
       "target": "pca",
       "type": "authorization",
       "epistemic_status": "record",
@@ -7731,6 +8109,42 @@
       "weight": 8,
       "note": "DPSCD is BOTH traditional district AND charter authorizer. Competes with charter schools for students while authorizing them. Meriweather runs both.",
       "source_doc": "DPSCD charter application, MCCSA"
+    },
+    {
+      "source": "dpscd",
+      "target": "purpose_group",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, macdowell, mde, pca",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "dpscd",
+      "target": "v_hall",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, crump_gibson, jennifer_crump, macdowell",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "dpscd",
+      "target": "wayne_county",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "R6 prediction: 5 shared neighbors. Via: banks, court_3rd, macdowell, pca, wayne_resa",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "dpscd",
+      "target": "yancey",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, beasley, macdowell, pca",
+      "source_doc": "unsupervised_r6.py"
     },
     {
       "source": "dpscd_auth",
@@ -7937,6 +8351,15 @@
       "source_doc": "FEC C00342113"
     },
     {
+      "source": "dykema_federal_pac",
+      "target": "sdj",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: dykema, peninsula_fund, renae_moore, wilk",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
       "source": "dykema_state_pac",
       "target": "charter_law_1993",
       "type": "structural_proximity",
@@ -8031,6 +8454,15 @@
       "source_doc": "MCCSA Annual Report"
     },
     {
+      "source": "emu",
+      "target": "pca",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: beasley, jolia_hill, mccsa, sbe",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
       "source": "engler",
       "target": "charter_law_1993",
       "type": "governance",
@@ -8054,6 +8486,15 @@
       "weight": 7,
       "label": "Engler+DeVos alliance created MI charter framework",
       "epistemic_status": "record"
+    },
+    {
+      "source": "engler",
+      "target": "mackinac_center",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: charter_law_1993, devos_foundation, jc_huizenga, richard_mclellan",
+      "source_doc": "unsupervised_r6.py"
     },
     {
       "source": "engler",
@@ -8299,12 +8740,30 @@
     },
     {
       "source": "gay_dagnogo",
+      "target": "maleyko",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: dpscd, mde, pca, sbe",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "gay_dagnogo",
       "target": "mde",
       "type": "governance",
       "epistemic_status": "inferred",
       "weight": 6,
       "note": "Gay-Dagnogo: former SBE member",
       "source_doc": "Gap analysis R5"
+    },
+    {
+      "source": "gay_dagnogo",
+      "target": "npe",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, macdowell, mde, pca",
+      "source_doc": "unsupervised_r6.py"
     },
     {
       "source": "gay_dagnogo",
@@ -8327,6 +8786,15 @@
       "flow": "money",
       "label": "$750 mayor campaign",
       "viz_amount": 750.0
+    },
+    {
+      "source": "gay_dagnogo",
+      "target": "purpose_group",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, macdowell, mde, pca",
+      "source_doc": "unsupervised_r6.py"
     },
     {
       "source": "gay_dagnogo",
@@ -8902,6 +9370,15 @@
     },
     {
       "source": "jennifer_crump",
+      "target": "misha_stallworth",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, crump_gibson, dpscd, macdowell",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "jennifer_crump",
       "target": "v_hall",
       "type": "family",
       "epistemic_status": "inference",
@@ -9035,6 +9512,15 @@
     },
     {
       "source": "jolia_hill",
+      "target": "sbe",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, beasley, emu, pca",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "jolia_hill",
       "target": "wayne_resa",
       "type": "employment",
       "weight": 7,
@@ -9084,6 +9570,15 @@
       "note": "JTC has jurisdiction over Miller (36th District). Board Chair of Banks' foundation while sitting judge.",
       "weight": 8,
       "source_doc": "MI Constitution Art VI §30; JTC response Oct 12, 2026"
+    },
+    {
+      "source": "jtc",
+      "target": "pca",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, court_3rd, miller, yancey",
+      "source_doc": "unsupervised_r6.py"
     },
     {
       "source": "jtc",
@@ -9753,6 +10248,15 @@
     },
     {
       "source": "kym_worthy",
+      "target": "mde",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, court_3rd, macdowell, pca",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "kym_worthy",
       "target": "pca",
       "type": "jurisdiction",
       "epistemic_status": "inferred",
@@ -10026,6 +10530,24 @@
     },
     {
       "source": "macdowell",
+      "target": "maleyko",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "R6 prediction: 5 shared neighbors. Via: beasley, dpscd, mde, pca, sbe",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "macdowell",
+      "target": "mccsa",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, cmu, dpscd, pca",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "macdowell",
       "target": "mde",
       "type": "oversight",
       "epistemic_status": "record",
@@ -10051,6 +10573,15 @@
       "weight": 6,
       "note": "SBE has ultimate oversight of all schools",
       "source_doc": "Gap analysis R5"
+    },
+    {
+      "source": "macdowell",
+      "target": "vitti",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "R6 prediction: 6 shared neighbors. Via: banks, beasley, dpscd, gay_dagnogo, pca",
+      "source_doc": "unsupervised_r6.py"
     },
     {
       "source": "mackinac_center",
@@ -10141,6 +10672,15 @@
       "weight": 9,
       "label": "SBE Chair, Superintendent of Public Instruction (Dec 2025)",
       "epistemic_status": "record"
+    },
+    {
+      "source": "maleyko",
+      "target": "vitti",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: beasley, dpscd, pca, sbe",
+      "source_doc": "unsupervised_r6.py"
     },
     {
       "source": "maleyko",
@@ -10247,6 +10787,24 @@
       "source_doc": "MCCSA Annual Reports"
     },
     {
+      "source": "mccsa",
+      "target": "plante_moran",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: cmu, corey_northrop, dpscd, pca",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "mccsa",
+      "target": "sbe",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "R6 prediction: 5 shared neighbors. Via: banks, cmu, dpscd, emu, pca",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
       "source": "mckinney",
       "target": "banks",
       "type": "payment",
@@ -10348,6 +10906,24 @@
       "weight": 3,
       "note": "Graph prediction: 3 shared neighbors. Via: Purpose Charter Acad, Brian Roderick Banks, MacDowell Preparator",
       "source_doc": "run_it_back.py missing edge prediction"
+    },
+    {
+      "source": "mde",
+      "target": "vitti",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "R6 prediction: 5 shared neighbors. Via: banks, dpscd, gay_dagnogo, pca, sbe",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "mde",
+      "target": "wayne_county",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, court_3rd, macdowell, pca",
+      "source_doc": "unsupervised_r6.py"
     },
     {
       "source": "mde_oee",
@@ -10912,6 +11488,24 @@
     },
     {
       "source": "npe",
+      "target": "purpose_group",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, macdowell, mde, pca",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "npe",
+      "target": "sbe",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, macdowell, mde, pca",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "npe",
       "target": "walton_family_foundation",
       "type": "opposition",
       "epistemic_status": "record",
@@ -11161,6 +11755,15 @@
     },
     {
       "source": "pca",
+      "target": "perkins_d",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "R6 prediction: 5 shared neighbors. Via: banks, ms_perkins_pca, perkins_sean, sean_perkins, todd_perkins",
+      "source_doc": "unsupervised_r6.py"
+    },
+    {
+      "source": "pca",
       "target": "perkins_sean",
       "type": "structural_proximity",
       "weight": 6,
@@ -11174,6 +11777,15 @@
       "epistemic_status": "corroborated",
       "note": "Management contract â€” per-pupil funding flows to CMO",
       "weight": 9
+    },
+    {
+      "source": "pca",
+      "target": "raphael_washington",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: detroit_city, dpd, kym_worthy, wayne_county",
+      "source_doc": "unsupervised_r6.py"
     },
     {
       "source": "pca",
@@ -11192,6 +11804,15 @@
       "weight": 5,
       "note": "3 shared neighbors. PCA connected through Banks and Miller.",
       "source_doc": "Graph prediction: 3 shared neighbors"
+    },
+    {
+      "source": "pca",
+      "target": "wayne_resa",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: beasley, dpscd, jolia_hill, wayne_county",
+      "source_doc": "unsupervised_r6.py"
     },
     {
       "source": "pca",
@@ -11452,6 +12073,15 @@
       "note": "Building purchase option from DPSCD at 10101 E. Canfield",
       "weight": 7,
       "source_doc": "Purpose Group Management Agreement (FOIA)"
+    },
+    {
+      "source": "purpose_group",
+      "target": "sbe",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, macdowell, mde, pca",
+      "source_doc": "unsupervised_r6.py"
     },
     {
       "source": "ramsey",
@@ -11938,6 +12568,15 @@
       "weight": 9,
       "note": "SBE has oversight authority. PCA at Bunche #3022/3025. ZERO board investigation in decades of charter schools.",
       "source_doc": "MI Constitution Art VIII Sec 3, MDE School Index"
+    },
+    {
+      "source": "sbe",
+      "target": "yancey",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 4,
+      "note": "R6 prediction: 4 shared neighbors. Via: banks, beasley, macdowell, pca",
+      "source_doc": "unsupervised_r6.py"
     },
     {
       "source": "sbm",
@@ -13718,645 +14357,6 @@
       "role": "Board Chair",
       "weight": 9,
       "source_doc": "Clutch Justice Sep 13, 2026"
-    },
-    {
-      "source": "charter_law_1993",
-      "target": "mccsa",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 8,
-      "note": "R6 prediction: 10 shared neighbors. Via: banks, bay_mills, cmu, ferris_state, gvsu",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "beasley",
-      "target": "gay_dagnogo",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 6,
-      "note": "R6 prediction: 6 shared neighbors. Via: banks, dpscd, macdowell, pca, sbe",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "beasley",
-      "target": "mde",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 6,
-      "note": "R6 prediction: 6 shared neighbors. Via: banks, dpscd, macdowell, maleyko, pca",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "cmu",
-      "target": "pca",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 6,
-      "note": "R6 prediction: 6 shared neighbors. Via: charter_law_1993, macdowell, mccsa, ncsi, plante_moran",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "detroit_city",
-      "target": "kym_worthy",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 6,
-      "note": "R6 prediction: 6 shared neighbors. Via: banks, court_3rd, macdowell, pca, raphael_washington",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "macdowell",
-      "target": "vitti",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 6,
-      "note": "R6 prediction: 6 shared neighbors. Via: banks, beasley, dpscd, gay_dagnogo, pca",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "banks",
-      "target": "maleyko",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 5,
-      "note": "R6 prediction: 5 shared neighbors. Via: beasley, dpscd, mde, pca, sbe",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "beasley",
-      "target": "mccsa",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 5,
-      "note": "R6 prediction: 5 shared neighbors. Via: banks, dpscd, emu, jolia_hill, pca",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "court_3rd",
-      "target": "gay_dagnogo",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 5,
-      "note": "R6 prediction: 5 shared neighbors. Via: banks, dpscd, macdowell, mde, pca",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "court_3rd",
-      "target": "sbe",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 5,
-      "note": "R6 prediction: 5 shared neighbors. Via: banks, dpscd, macdowell, mde, pca",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "dpscd",
-      "target": "jolia_hill",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 5,
-      "note": "R6 prediction: 5 shared neighbors. Via: banks, beasley, mccsa, pca, wayne_resa",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "dpscd",
-      "target": "wayne_county",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 5,
-      "note": "R6 prediction: 5 shared neighbors. Via: banks, court_3rd, macdowell, pca, wayne_resa",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "macdowell",
-      "target": "maleyko",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 5,
-      "note": "R6 prediction: 5 shared neighbors. Via: beasley, dpscd, mde, pca, sbe",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "mccsa",
-      "target": "sbe",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 5,
-      "note": "R6 prediction: 5 shared neighbors. Via: banks, cmu, dpscd, emu, pca",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "mde",
-      "target": "vitti",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 5,
-      "note": "R6 prediction: 5 shared neighbors. Via: banks, dpscd, gay_dagnogo, pca, sbe",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "pca",
-      "target": "perkins_d",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 5,
-      "note": "R6 prediction: 5 shared neighbors. Via: banks, ms_perkins_pca, perkins_sean, sean_perkins, todd_perkins",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "ag_cod",
-      "target": "banks",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 4,
-      "note": "R6 prediction: 4 shared neighbors. Via: ag_office, banks_strategy, nessel, purpose_foundation",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "ag_office",
-      "target": "purpose_foundation",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 4,
-      "note": "R6 prediction: 4 shared neighbors. Via: ag_charitable_trust, ag_cod, banks, nessel",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "agc",
-      "target": "jtc",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 4,
-      "note": "R6 prediction: 4 shared neighbors. Via: banks, jtc_corbin, mi_supreme_court, sc_cavanagh",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "banks",
-      "target": "cmu",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 4,
-      "note": "R6 prediction: 4 shared neighbors. Via: charter_law_1993, macdowell, mccsa, sbe",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "banks",
-      "target": "emu",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 4,
-      "note": "R6 prediction: 4 shared neighbors. Via: beasley, jolia_hill, mccsa, sbe",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "banks",
-      "target": "raphael_washington",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 4,
-      "note": "R6 prediction: 4 shared neighbors. Via: detroit_city, dpd, kym_worthy, wayne_county",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "banks",
-      "target": "wayne_resa",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 4,
-      "note": "R6 prediction: 4 shared neighbors. Via: beasley, dpscd, jolia_hill, wayne_county",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "banks",
-      "target": "wayne_state_law",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 4,
-      "note": "R6 prediction: 4 shared neighbors. Via: beasley, jolia_hill, jtc_ison, sc_cavanagh",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "beasley",
-      "target": "charter_law_1993",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 4,
-      "note": "R6 prediction: 4 shared neighbors. Via: banks, macdowell, pca, sbe",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "beasley",
-      "target": "court_36th",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 4,
-      "note": "R6 prediction: 4 shared neighbors. Via: banks, macdowell, pca, yancey",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "beasley",
-      "target": "court_3rd",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 4,
-      "note": "R6 prediction: 4 shared neighbors. Via: banks, dpscd, macdowell, pca",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "beasley",
-      "target": "wayne_county",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 4,
-      "note": "R6 prediction: 4 shared neighbors. Via: banks, macdowell, pca, wayne_resa",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "charter_law_1993",
-      "target": "dpscd",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 4,
-      "note": "R6 prediction: 4 shared neighbors. Via: banks, macdowell, pca, sbe",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "charter_law_1993",
-      "target": "gay_dagnogo",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 4,
-      "note": "R6 prediction: 4 shared neighbors. Via: banks, macdowell, pca, sbe",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "charter_law_1993",
-      "target": "mde",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 4,
-      "note": "R6 prediction: 4 shared neighbors. Via: banks, macdowell, pca, sbe",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "charter_law_1993",
-      "target": "ncsi",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 4,
-      "note": "R6 prediction: 4 shared neighbors. Via: cmu, engler, len_wolfe, pca",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "cmu",
-      "target": "dpscd",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 4,
-      "note": "R6 prediction: 4 shared neighbors. Via: macdowell, mccsa, plante_moran, sbe",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "court_36th",
-      "target": "court_3rd",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 4,
-      "note": "R6 prediction: 4 shared neighbors. Via: banks, kelly_ramsey, macdowell, pca",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "court_36th",
-      "target": "ms_perkins_pca",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 4,
-      "note": "R6 prediction: 4 shared neighbors. Via: banks, pca, perkins_sean, sean_perkins",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "court_36th",
-      "target": "todd_perkins",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 4,
-      "note": "R6 prediction: 4 shared neighbors. Via: banks, pca, perkins_sean, sean_perkins",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "court_3rd",
-      "target": "npe",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 4,
-      "note": "R6 prediction: 4 shared neighbors. Via: banks, macdowell, mde, pca",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "court_3rd",
-      "target": "purpose_group",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 4,
-      "note": "R6 prediction: 4 shared neighbors. Via: banks, macdowell, mde, pca",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "court_3rd",
-      "target": "yancey",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 4,
-      "note": "R6 prediction: 4 shared neighbors. Via: banks, jtc, macdowell, pca",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "detroit_city",
-      "target": "dpscd",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 4,
-      "note": "R6 prediction: 4 shared neighbors. Via: banks, court_3rd, macdowell, pca",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "detroit_city",
-      "target": "mde",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 4,
-      "note": "R6 prediction: 4 shared neighbors. Via: banks, court_3rd, macdowell, pca",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "devos_foundation",
-      "target": "roland_martin",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 4,
-      "note": "R6 prediction: 4 shared neighbors. Via: afc, state_mi, the_74, walton_family_foundation",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "devos_foundation",
-      "target": "scbc_tour",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 4,
-      "note": "R6 prediction: 4 shared neighbors. Via: afc, state_mi, the_74, walton_family_foundation",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "dpd",
-      "target": "wayne_county",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 4,
-      "note": "R6 prediction: 4 shared neighbors. Via: banks, detroit_city, pca, raphael_washington",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "dpscd",
-      "target": "emu",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 4,
-      "note": "R6 prediction: 4 shared neighbors. Via: beasley, mccsa, sbe, wayne_resa",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "dpscd",
-      "target": "kym_worthy",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 4,
-      "note": "R6 prediction: 4 shared neighbors. Via: banks, court_3rd, macdowell, pca",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "dpscd",
-      "target": "miller",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 4,
-      "note": "R6 prediction: 4 shared neighbors. Via: baker_college, banks, court_3rd, pca",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "dpscd",
-      "target": "npe",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 4,
-      "note": "R6 prediction: 4 shared neighbors. Via: banks, macdowell, mde, pca",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "dpscd",
-      "target": "purpose_group",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 4,
-      "note": "R6 prediction: 4 shared neighbors. Via: banks, macdowell, mde, pca",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "dpscd",
-      "target": "v_hall",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 4,
-      "note": "R6 prediction: 4 shared neighbors. Via: banks, crump_gibson, jennifer_crump, macdowell",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "dpscd",
-      "target": "yancey",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 4,
-      "note": "R6 prediction: 4 shared neighbors. Via: banks, beasley, macdowell, pca",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "dykema_federal_pac",
-      "target": "sdj",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 4,
-      "note": "R6 prediction: 4 shared neighbors. Via: dykema, peninsula_fund, renae_moore, wilk",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "emu",
-      "target": "pca",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 4,
-      "note": "R6 prediction: 4 shared neighbors. Via: beasley, jolia_hill, mccsa, sbe",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "engler",
-      "target": "mackinac_center",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 4,
-      "note": "R6 prediction: 4 shared neighbors. Via: charter_law_1993, devos_foundation, jc_huizenga, richard_mclellan",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "gay_dagnogo",
-      "target": "maleyko",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 4,
-      "note": "R6 prediction: 4 shared neighbors. Via: dpscd, mde, pca, sbe",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "gay_dagnogo",
-      "target": "npe",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 4,
-      "note": "R6 prediction: 4 shared neighbors. Via: banks, macdowell, mde, pca",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "gay_dagnogo",
-      "target": "purpose_group",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 4,
-      "note": "R6 prediction: 4 shared neighbors. Via: banks, macdowell, mde, pca",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "jennifer_crump",
-      "target": "misha_stallworth",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 4,
-      "note": "R6 prediction: 4 shared neighbors. Via: banks, crump_gibson, dpscd, macdowell",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "jolia_hill",
-      "target": "sbe",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 4,
-      "note": "R6 prediction: 4 shared neighbors. Via: banks, beasley, emu, pca",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "jtc",
-      "target": "pca",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 4,
-      "note": "R6 prediction: 4 shared neighbors. Via: banks, court_3rd, miller, yancey",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "kym_worthy",
-      "target": "mde",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 4,
-      "note": "R6 prediction: 4 shared neighbors. Via: banks, court_3rd, macdowell, pca",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "macdowell",
-      "target": "mccsa",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 4,
-      "note": "R6 prediction: 4 shared neighbors. Via: banks, cmu, dpscd, pca",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "maleyko",
-      "target": "vitti",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 4,
-      "note": "R6 prediction: 4 shared neighbors. Via: beasley, dpscd, pca, sbe",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "mccsa",
-      "target": "plante_moran",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 4,
-      "note": "R6 prediction: 4 shared neighbors. Via: cmu, corey_northrop, dpscd, pca",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "mde",
-      "target": "wayne_county",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 4,
-      "note": "R6 prediction: 4 shared neighbors. Via: banks, court_3rd, macdowell, pca",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "npe",
-      "target": "purpose_group",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 4,
-      "note": "R6 prediction: 4 shared neighbors. Via: banks, macdowell, mde, pca",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "npe",
-      "target": "sbe",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 4,
-      "note": "R6 prediction: 4 shared neighbors. Via: banks, macdowell, mde, pca",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "pca",
-      "target": "raphael_washington",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 4,
-      "note": "R6 prediction: 4 shared neighbors. Via: detroit_city, dpd, kym_worthy, wayne_county",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "pca",
-      "target": "wayne_resa",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 4,
-      "note": "R6 prediction: 4 shared neighbors. Via: beasley, dpscd, jolia_hill, wayne_county",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "purpose_group",
-      "target": "sbe",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 4,
-      "note": "R6 prediction: 4 shared neighbors. Via: banks, macdowell, mde, pca",
-      "source_doc": "unsupervised_r6.py"
-    },
-    {
-      "source": "sbe",
-      "target": "yancey",
-      "type": "structural_proximity",
-      "epistemic_status": "inferred",
-      "weight": 4,
-      "note": "R6 prediction: 4 shared neighbors. Via: banks, beasley, macdowell, pca",
-      "source_doc": "unsupervised_r6.py"
     }
   ],
   "epistemic_grammar": {
