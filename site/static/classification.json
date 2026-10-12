@@ -1,1167 +1,2168 @@
 {
-  "sort_pass": 1,
+  "sort_pass": 2,
   "sort_date": "2026-10-12",
-  "sort_method": "manual_epitope_sort",
+  "sort_method": "structural_cascade",
   "entities": {
-    "adam_sabree": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
+    "purpose_group": {
+      "classification": "non-self",
+      "method": "phase1",
+      "confidence": 0.9,
+      "sort_pass": 1
     },
-    "alan_young": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
+    "pca": {
+      "classification": "non-self",
+      "method": "phase1",
+      "confidence": 0.9,
+      "sort_pass": 1
     },
-    "archer": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "banks": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "bettison": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "bing": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "carol_banks": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "carolyn_kilpatrick": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "clora": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "coleman_young": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "crump_gibson": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "misha_stallworth": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "henri_harmon": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "sheila_cockrel": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "archer_jr": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "daniels": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "duggan": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "dumas": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "eric_sabree": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "evans": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "fiore": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "gay_dagnogo": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "gordon": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "holland": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "hutchings": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "johnson_l": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "kelly_ramsey": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "kwame": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "langford_morris": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "larry_thomas": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "leach": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "mccastle": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "mckinney": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "miller": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "moreland": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "od_banks": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "perkins_david": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "pugh": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "ross": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "sabree": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "schmiedeknecht": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "sean_perkins": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "sheffield": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "spivey": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "stallworth_t": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "todd_perkins": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "v_hall": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "vaughn": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "vonda_evans": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "welch": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "wells_stallworth": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "yancey": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "anchor_rock": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
+    "macdowell": {
+      "classification": "non-self",
+      "method": "phase1",
+      "confidence": 0.9,
+      "sort_pass": 1
     },
     "banks_strategy": {
       "classification": "non-self",
+      "method": "phase1",
       "confidence": 0.9,
-      "capture_score": "4/10",
-      "avg_strength": 0.9,
-      "note": "zero partition \u2014 banks_strategy IS Banks",
-      "opacity": 0.9,
       "sort_pass": 1
-    },
-    "chandler_park": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "city_hill": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "cmu": {
-      "classification": "self",
-      "confidence": 0.9,
-      "capture_score": "0/10",
-      "avg_strength": 0.0,
-      "note": "functioning institution, used for credential legitimization",
-      "opacity": 0.9,
-      "sort_pass": 1
-    },
-    "custom_promo": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "dpsa": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "dpscd": {
-      "classification": "partial",
-      "confidence": 0.6,
-      "capture_score": "4/10",
-      "avg_strength": 0.4,
-      "note": "self body, captured authorizing arm",
-      "opacity": 0.6,
-      "sort_pass": 1
-    },
-    "dpscd_auth": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
     },
     "dykema": {
       "classification": "null",
-      "confidence": 0.75,
-      "capture_score": "4/10",
-      "avg_strength": 0.7,
-      "note": "routing infrastructure",
-      "opacity": 0.75,
+      "method": "phase1",
+      "confidence": 0.9,
       "sort_pass": 1
     },
     "dykema_federal_pac": {
       "classification": "null",
-      "confidence": 0.85,
-      "capture_score": "2/10",
-      "avg_strength": 0.8,
-      "note": "pure routing",
-      "opacity": 0.85,
+      "method": "phase1",
+      "confidence": 0.9,
       "sort_pass": 1
-    },
-    "dykema_state_pac": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "wilk": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "renae_moore": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "michigan_first_principles": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
     },
     "put_progress_first": {
       "classification": "null",
-      "confidence": 0.7,
-      "capture_score": "3/10",
-      "avg_strength": 0.67,
-      "note": "pure political routing",
-      "opacity": 0.7,
+      "method": "phase1",
+      "confidence": 0.9,
       "sort_pass": 1
     },
-    "onf": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
+    "cmu": {
+      "classification": "self",
+      "method": "phase1",
+      "confidence": 0.9,
+      "sort_pass": 1
     },
-    "djf": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "rffw": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "afp_action": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "jason_roe": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "barrett": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "john_james": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "tremblay": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "chatfield": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "peninsula_fund": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "aaron_keel": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "eastside_slate": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "emu": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "escuela_avancemos": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
+    "dpscd": {
+      "classification": "partial",
+      "method": "phase1",
+      "confidence": 0.9,
+      "sort_pass": 1
     },
     "great_lakes_legal": {
       "classification": "other",
-      "confidence": 0.5,
-      "capture_score": "1/10",
-      "avg_strength": 0.2,
-      "note": "insufficient data",
-      "opacity": 0.5,
+      "method": "phase1",
+      "confidence": 0.9,
       "sort_pass": 1
-    },
-    "citizendetroit": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "chojlf": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "gvsu": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "inner_link": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "macdowell": {
-      "classification": "non-self",
-      "confidence": 0.99,
-      "capture_score": "10/10",
-      "avg_strength": 0.89,
-      "opacity": 0.99,
-      "sort_pass": 1
-    },
-    "mde": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "nha": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "pacs": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "pca": {
-      "classification": "non-self",
-      "confidence": 0.97,
-      "capture_score": "9/10",
-      "avg_strength": 0.82,
-      "opacity": 0.97,
-      "sort_pass": 1
-    },
-    "purpose_foundation": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "purpose_group": {
-      "classification": "non-self",
-      "confidence": 0.95,
-      "capture_score": "8/10",
-      "avg_strength": 0.79,
-      "opacity": 0.95,
-      "sort_pass": 1
-    },
-    "right_turn": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "ross_catering": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "sdj": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "serenity": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "sun_community": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "ag_office": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "city_council": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "court_36th": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "court_3rd": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "court_oakland": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "court_probate": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "latisha_johnson": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "ofa": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "perkins_d": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "perkins_sean": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "perkins_t": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "ramsey": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "sabree_a": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "sabree_adam": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "sabree_e": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "walton_family_foundation": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "roland_martin": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "black_star_network": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "the_74": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "pahara_institute": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "campbell_brown": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "mapsa": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "afc": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "excellent_schools_detroit": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "naacp_detroit": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "wendell_anthony": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "alice_thompson": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "betsy_devos": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "devos_foundation": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "skillman_foundation": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "msu_law": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "santambrogio": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "northrop": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "mackinnon": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "kelly_emu": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "mantella": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "kriste_dragon": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "diane_tavenner": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "naacp_lansing": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "ars_holdings": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "of_the_light": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "gl_vision": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "anchor_rock_found": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "free_flow": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "banks_powerwash": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "whitlowbanks": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "b_rodericks": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "gl_upfitting": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "sam_gov": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "state_ar": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "state_ca": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "state_md": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "state_mi": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "state_ny": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "state_tx": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "afc_growth": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "jtc": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "agc": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "mde_oee": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
     },
     "ag_cod": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
+      "classification": "self",
+      "confidence": 0.75,
+      "method": "state_entity",
+      "note": "State government entity.",
+      "sort_pass": 2
     },
-    "dpscd_oig": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
+    "ag_office": {
+      "classification": "self",
+      "confidence": 0.75,
+      "method": "state_entity",
+      "note": "State government entity.",
+      "sort_pass": 2
     },
-    "doe_oig": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
+    "agc": {
+      "classification": "self",
+      "confidence": 0.6,
+      "method": "inaction_target",
+      "note": "Regulatory body that did not act on Banks.",
+      "sort_pass": 2
     },
-    "irs_eo": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
+    "anchor_rock": {
+      "classification": "null",
+      "confidence": 0.7,
+      "method": "banks_governance",
+      "note": "Entity governed by Banks.",
+      "sort_pass": 2
     },
-    "mccsa": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
+    "anchor_rock_found": {
+      "classification": "null",
+      "confidence": 0.7,
+      "method": "banks_governance",
+      "note": "Entity governed by Banks.",
+      "sort_pass": 2
     },
-    "aclu_mi": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
+    "ars_holdings": {
+      "classification": "null",
+      "confidence": 0.7,
+      "method": "banks_governance",
+      "note": "Entity governed by Banks.",
+      "sort_pass": 2
     },
-    "sbe": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
+    "b_rodericks": {
+      "classification": "null",
+      "confidence": 0.7,
+      "method": "banks_governance",
+      "note": "Entity governed by Banks.",
+      "sort_pass": 2
     },
-    "snyder_nikki": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
+    "banks": {
+      "classification": "non-self",
+      "confidence": 0.99,
+      "method": "core_actor",
+      "note": "64 edges. Central node. Sole member purpose_group.",
+      "sort_pass": 2
     },
-    "jolia_hill": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "fowler": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "brozanski": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "senier": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "vitti": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "glenn_page": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "thomas_ryan": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "goetz": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
+    "banks_powerwash": {
+      "classification": "null",
+      "confidence": 0.7,
+      "method": "banks_governance",
+      "note": "Entity governed by Banks.",
+      "sort_pass": 2
     },
     "bullington": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
+      "classification": "self",
+      "confidence": 0.6,
+      "method": "inaction_target",
+      "note": "Regulatory body that did not act on Banks.",
+      "sort_pass": 2
     },
-    "uhuru": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
+    "carol_banks": {
+      "classification": "partial",
+      "confidence": 0.5,
+      "method": "banks_family",
+      "note": "Family member of Banks.",
+      "sort_pass": 2
     },
-    "upl_dept": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
+    "carolyn_kilpatrick": {
+      "classification": "null",
+      "confidence": 0.6,
+      "method": "banks_political",
+      "note": "Political connection to Banks.",
+      "sort_pass": 2
     },
-    "adb": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
+    "city_hill": {
+      "classification": "null",
+      "confidence": 0.7,
+      "method": "banks_governance",
+      "note": "Entity governed by Banks.",
+      "sort_pass": 2
+    },
+    "clora": {
+      "classification": "partial",
+      "confidence": 0.55,
+      "method": "board_of_nonself",
+      "note": "Board member of non-self entity.",
+      "sort_pass": 2
+    },
+    "court_36th": {
+      "classification": "partial",
+      "confidence": 0.55,
+      "method": "school_employee",
+      "note": "Employee of captured school.",
+      "sort_pass": 2
+    },
+    "court_3rd": {
+      "classification": "partial",
+      "confidence": 0.55,
+      "method": "school_employee",
+      "note": "Employee of captured school.",
+      "sort_pass": 2
+    },
+    "court_oakland": {
+      "classification": "self",
+      "confidence": 0.7,
+      "method": "court",
+      "note": "Court or judicial entity.",
+      "sort_pass": 2
+    },
+    "court_probate": {
+      "classification": "self",
+      "confidence": 0.7,
+      "method": "court",
+      "note": "Court or judicial entity.",
+      "sort_pass": 2
+    },
+    "crump_gibson": {
+      "classification": "null",
+      "confidence": 0.65,
+      "method": "banks_legal",
+      "note": "Legal infrastructure for Banks.",
+      "sort_pass": 2
+    },
+    "doe_oig": {
+      "classification": "self",
+      "confidence": 0.7,
+      "method": "jurisdiction",
+      "note": "Jurisdictional entity.",
+      "sort_pass": 2
+    },
+    "dpscd_oig": {
+      "classification": "self",
+      "confidence": 0.7,
+      "method": "jurisdiction",
+      "note": "Jurisdictional entity.",
+      "sort_pass": 2
+    },
+    "dumas": {
+      "classification": "null",
+      "confidence": 0.6,
+      "method": "banks_political",
+      "note": "Political connection to Banks.",
+      "sort_pass": 2
+    },
+    "dykema_state_pac": {
+      "classification": "null",
+      "confidence": 0.65,
+      "method": "pac",
+      "note": "Political committee. Routing.",
+      "sort_pass": 2
+    },
+    "eastside_slate": {
+      "classification": "null",
+      "confidence": 0.6,
+      "method": "banks_political",
+      "note": "Political connection to Banks.",
+      "sort_pass": 2
+    },
+    "evans": {
+      "classification": "null",
+      "confidence": 0.6,
+      "method": "banks_political",
+      "note": "Political connection to Banks.",
+      "sort_pass": 2
+    },
+    "free_flow": {
+      "classification": "null",
+      "confidence": 0.7,
+      "method": "banks_governance",
+      "note": "Entity governed by Banks.",
+      "sort_pass": 2
+    },
+    "gay_dagnogo": {
+      "classification": "partial",
+      "confidence": 0.55,
+      "method": "board_of_nonself",
+      "note": "Board member of non-self entity.",
+      "sort_pass": 2
+    },
+    "gl_upfitting": {
+      "classification": "null",
+      "confidence": 0.7,
+      "method": "banks_governance",
+      "note": "Entity governed by Banks.",
+      "sort_pass": 2
+    },
+    "gl_vision": {
+      "classification": "null",
+      "confidence": 0.7,
+      "method": "banks_governance",
+      "note": "Entity governed by Banks.",
+      "sort_pass": 2
+    },
+    "hutchings": {
+      "classification": "partial",
+      "confidence": 0.55,
+      "method": "board_of_nonself",
+      "note": "Board member of non-self entity.",
+      "sort_pass": 2
+    },
+    "inner_link": {
+      "classification": "null",
+      "confidence": 0.6,
+      "method": "banks_payment",
+      "note": "Payment relationship with Banks.",
+      "sort_pass": 2
+    },
+    "irs_eo": {
+      "classification": "self",
+      "confidence": 0.7,
+      "method": "jurisdiction",
+      "note": "Jurisdictional entity.",
+      "sort_pass": 2
+    },
+    "johnson_l": {
+      "classification": "partial",
+      "confidence": 0.55,
+      "method": "board_of_nonself",
+      "note": "Board member of non-self entity.",
+      "sort_pass": 2
+    },
+    "jtc": {
+      "classification": "self",
+      "confidence": 0.6,
+      "method": "inaction_target",
+      "note": "Regulatory body that did not act on Banks.",
+      "sort_pass": 2
+    },
+    "langford_morris": {
+      "classification": "self",
+      "confidence": 0.7,
+      "method": "court",
+      "note": "Court or judicial entity.",
+      "sort_pass": 2
+    },
+    "latisha_johnson": {
+      "classification": "partial",
+      "confidence": 0.55,
+      "method": "board_of_nonself",
+      "note": "Board member of non-self entity.",
+      "sort_pass": 2
+    },
+    "mccastle": {
+      "classification": "null",
+      "confidence": 0.6,
+      "method": "banks_payment",
+      "note": "Payment relationship with Banks.",
+      "sort_pass": 2
+    },
+    "mckinney": {
+      "classification": "null",
+      "confidence": 0.6,
+      "method": "banks_payment",
+      "note": "Payment relationship with Banks.",
+      "sort_pass": 2
+    },
+    "mde": {
+      "classification": "partial",
+      "confidence": 0.55,
+      "method": "school_employee",
+      "note": "Employee of captured school.",
+      "sort_pass": 2
+    },
+    "mde_oee": {
+      "classification": "self",
+      "confidence": 0.75,
+      "method": "state_entity",
+      "note": "State government entity.",
+      "sort_pass": 2
     },
     "mi_supreme_court": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
+      "classification": "self",
+      "confidence": 0.75,
+      "method": "state_entity",
+      "note": "State government entity.",
+      "sort_pass": 2
     },
-    "nuvision_inc": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
+    "michigan_first_principles": {
+      "classification": "null",
+      "confidence": 0.55,
+      "method": "null_formation",
+      "note": "Formed by or connected to null routing entity.",
+      "sort_pass": 2
     },
-    "nuvision_foundation": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
+    "miller": {
+      "classification": "partial",
+      "confidence": 0.55,
+      "method": "board_of_nonself",
+      "note": "Board member of non-self entity.",
+      "sort_pass": 2
     },
-    "scbc_tour": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
+    "misha_stallworth": {
+      "classification": "partial",
+      "confidence": 0.55,
+      "method": "board_of_nonself",
+      "note": "Board member of non-self entity.",
+      "sort_pass": 2
     },
-    "edchoice": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "excelined": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "fifty_can": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "jacquie_hood_martin": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
-    },
-    "j_hood_assoc": {
-      "classification": "unknown",
-      "confidence": 0.0,
-      "opacity": 0.25,
-      "sort_pass": 0
+    "moreland": {
+      "classification": "partial",
+      "confidence": 0.55,
+      "method": "school_employee",
+      "note": "Employee of captured school.",
+      "sort_pass": 2
     },
     "ms_perkins_pca": {
-      "classification": "unknown",
+      "classification": "partial",
+      "confidence": 0.55,
+      "method": "school_employee",
+      "note": "Employee of captured school.",
+      "sort_pass": 2
+    },
+    "msu_law": {
+      "classification": "self",
+      "confidence": 0.55,
+      "method": "credential_claim",
+      "note": "Banks claims credential from this entity.",
+      "sort_pass": 2
+    },
+    "nha": {
+      "classification": "self",
+      "confidence": 0.7,
+      "method": "jurisdiction",
+      "note": "Jurisdictional entity.",
+      "sort_pass": 2
+    },
+    "od_banks": {
+      "classification": "partial",
+      "confidence": 0.5,
+      "method": "banks_family",
+      "note": "Family member of Banks.",
+      "sort_pass": 2
+    },
+    "of_the_light": {
+      "classification": "null",
+      "confidence": 0.7,
+      "method": "banks_governance",
+      "note": "Entity governed by Banks.",
+      "sort_pass": 2
+    },
+    "ofa": {
+      "classification": "null",
+      "confidence": 0.7,
+      "method": "banks_governance",
+      "note": "Entity governed by Banks.",
+      "sort_pass": 2
+    },
+    "onf": {
+      "classification": "null",
+      "confidence": 0.55,
+      "method": "null_formation",
+      "note": "Formed by or connected to null routing entity.",
+      "sort_pass": 2
+    },
+    "pacs": {
+      "classification": "null",
+      "confidence": 0.7,
+      "method": "banks_governance",
+      "note": "Entity governed by Banks.",
+      "sort_pass": 2
+    },
+    "pahara_institute": {
+      "classification": "self",
+      "confidence": 0.6,
+      "method": "credential_source",
+      "note": "Used by Banks for credential legitimization.",
+      "sort_pass": 2
+    },
+    "peninsula_fund": {
+      "classification": "null",
+      "confidence": 0.55,
+      "method": "null_formation",
+      "note": "Formed by or connected to null routing entity.",
+      "sort_pass": 2
+    },
+    "perkins_d": {
+      "classification": "self",
+      "confidence": 0.7,
+      "method": "court",
+      "note": "Court or judicial entity.",
+      "sort_pass": 2
+    },
+    "perkins_sean": {
+      "classification": "self",
+      "confidence": 0.7,
+      "method": "court",
+      "note": "Court or judicial entity.",
+      "sort_pass": 2
+    },
+    "perkins_t": {
+      "classification": "null",
+      "confidence": 0.65,
+      "method": "banks_legal",
+      "note": "Legal infrastructure for Banks.",
+      "sort_pass": 2
+    },
+    "purpose_foundation": {
+      "classification": "null",
+      "confidence": 0.7,
+      "method": "banks_governance",
+      "note": "Entity governed by Banks.",
+      "sort_pass": 2
+    },
+    "ramsey": {
+      "classification": "self",
+      "confidence": 0.7,
+      "method": "court",
+      "note": "Court or judicial entity.",
+      "sort_pass": 2
+    },
+    "right_turn": {
+      "classification": "null",
+      "confidence": 0.7,
+      "method": "banks_governance",
+      "note": "Entity governed by Banks.",
+      "sort_pass": 2
+    },
+    "sabree_a": {
+      "classification": "self",
+      "confidence": 0.7,
+      "method": "court",
+      "note": "Court or judicial entity.",
+      "sort_pass": 2
+    },
+    "sabree_adam": {
+      "classification": "self",
+      "confidence": 0.7,
+      "method": "court",
+      "note": "Court or judicial entity.",
+      "sort_pass": 2
+    },
+    "sabree_e": {
+      "classification": "null",
+      "confidence": 0.6,
+      "method": "banks_political",
+      "note": "Political connection to Banks.",
+      "sort_pass": 2
+    },
+    "sbe": {
+      "classification": "self",
+      "confidence": 0.75,
+      "method": "state_entity",
+      "note": "State government entity.",
+      "sort_pass": 2
+    },
+    "schmiedeknecht": {
+      "classification": "partial",
+      "confidence": 0.55,
+      "method": "school_employee",
+      "note": "Employee of captured school.",
+      "sort_pass": 2
+    },
+    "sdj": {
+      "classification": "null",
+      "confidence": 0.55,
+      "method": "null_formation",
+      "note": "Formed by or connected to null routing entity.",
+      "sort_pass": 2
+    },
+    "serenity": {
+      "classification": "null",
+      "confidence": 0.75,
+      "method": "banks_ownership",
+      "note": "Entity owned by Banks.",
+      "sort_pass": 2
+    },
+    "sheffield": {
+      "classification": "null",
+      "confidence": 0.6,
+      "method": "banks_political",
+      "note": "Political connection to Banks.",
+      "sort_pass": 2
+    },
+    "stallworth_t": {
+      "classification": "null",
+      "confidence": 0.6,
+      "method": "banks_political",
+      "note": "Political connection to Banks.",
+      "sort_pass": 2
+    },
+    "state_ar": {
+      "classification": "self",
+      "confidence": 0.75,
+      "method": "state_entity",
+      "note": "State government entity.",
+      "sort_pass": 2
+    },
+    "state_ca": {
+      "classification": "self",
+      "confidence": 0.75,
+      "method": "state_entity",
+      "note": "State government entity.",
+      "sort_pass": 2
+    },
+    "state_md": {
+      "classification": "self",
+      "confidence": 0.75,
+      "method": "state_entity",
+      "note": "State government entity.",
+      "sort_pass": 2
+    },
+    "state_mi": {
+      "classification": "self",
+      "confidence": 0.75,
+      "method": "state_entity",
+      "note": "State government entity.",
+      "sort_pass": 2
+    },
+    "state_ny": {
+      "classification": "self",
+      "confidence": 0.75,
+      "method": "state_entity",
+      "note": "State government entity.",
+      "sort_pass": 2
+    },
+    "state_tx": {
+      "classification": "self",
+      "confidence": 0.75,
+      "method": "state_entity",
+      "note": "State government entity.",
+      "sort_pass": 2
+    },
+    "sun_community": {
+      "classification": "null",
+      "confidence": 0.7,
+      "method": "banks_governance",
+      "note": "Entity governed by Banks.",
+      "sort_pass": 2
+    },
+    "todd_perkins": {
+      "classification": "null",
+      "confidence": 0.65,
+      "method": "banks_legal",
+      "note": "Legal infrastructure for Banks.",
+      "sort_pass": 2
+    },
+    "upl_dept": {
+      "classification": "self",
+      "confidence": 0.6,
+      "method": "inaction_target",
+      "note": "Regulatory body that did not act on Banks.",
+      "sort_pass": 2
+    },
+    "v_hall": {
+      "classification": "partial",
+      "confidence": 0.55,
+      "method": "board_of_nonself",
+      "note": "Board member of non-self entity.",
+      "sort_pass": 2
+    },
+    "vaughn": {
+      "classification": "self",
+      "confidence": 0.7,
+      "method": "jurisdiction",
+      "note": "Jurisdictional entity.",
+      "sort_pass": 2
+    },
+    "wells_stallworth": {
+      "classification": "partial",
+      "confidence": 0.55,
+      "method": "board_of_nonself",
+      "note": "Board member of non-self entity.",
+      "sort_pass": 2
+    },
+    "whitlowbanks": {
+      "classification": "null",
+      "confidence": 0.7,
+      "method": "banks_governance",
+      "note": "Entity governed by Banks.",
+      "sort_pass": 2
+    },
+    "wilk": {
+      "classification": "null",
+      "confidence": 0.55,
+      "method": "null_formation",
+      "note": "Formed by or connected to null routing entity.",
+      "sort_pass": 2
+    },
+    "yancey": {
+      "classification": "partial",
+      "confidence": 0.55,
+      "method": "board_of_nonself",
+      "note": "Board member of non-self entity.",
+      "sort_pass": 2
+    },
+    "aaron_keel": {
+      "classification": "other",
+      "confidence": 0.3,
+      "method": "unresolved",
+      "note": "Edge pattern unresolved.",
+      "sort_pass": 3
+    },
+    "aclu_mi": {
+      "classification": "other",
+      "confidence": 0.25,
+      "method": "insufficient",
+      "note": "Too few edges.",
+      "sort_pass": 3
+    },
+    "adam_sabree": {
+      "classification": "other",
+      "confidence": 0.25,
+      "method": "insufficient",
+      "note": "Too few edges.",
+      "sort_pass": 3
+    },
+    "adb": {
+      "classification": "self",
+      "confidence": 0.4,
+      "method": "cascade_self",
+      "note": "Low-edge entity adjacent to self.",
+      "sort_pass": 3
+    },
+    "afc": {
+      "classification": "other",
+      "confidence": 0.3,
+      "method": "unresolved",
+      "note": "Edge pattern unresolved.",
+      "sort_pass": 3
+    },
+    "afc_growth": {
+      "classification": "other",
+      "confidence": 0.25,
+      "method": "insufficient",
+      "note": "Too few edges.",
+      "sort_pass": 3
+    },
+    "afp_action": {
+      "classification": "other",
+      "confidence": 0.25,
+      "method": "insufficient",
+      "note": "Too few edges.",
+      "sort_pass": 3
+    },
+    "alan_young": {
+      "classification": "partial",
+      "confidence": 0.4,
+      "method": "cascade_adjacent",
+      "note": "Low-edge entity adjacent to non-self.",
+      "sort_pass": 3
+    },
+    "alice_thompson": {
+      "classification": "other",
+      "confidence": 0.4,
+      "method": "funding",
+      "note": "Funding entity. Insufficient evidence for sort.",
+      "sort_pass": 3
+    },
+    "archer": {
+      "classification": "other",
+      "confidence": 0.3,
+      "method": "unresolved",
+      "note": "Edge pattern unresolved.",
+      "sort_pass": 3
+    },
+    "archer_jr": {
+      "classification": "other",
+      "confidence": 0.3,
+      "method": "unresolved",
+      "note": "Edge pattern unresolved.",
+      "sort_pass": 3
+    },
+    "barrett": {
+      "classification": "other",
+      "confidence": 0.3,
+      "method": "unresolved",
+      "note": "Edge pattern unresolved.",
+      "sort_pass": 3
+    },
+    "betsy_devos": {
+      "classification": "other",
+      "confidence": 0.25,
+      "method": "insufficient",
+      "note": "Too few edges.",
+      "sort_pass": 3
+    },
+    "bettison": {
+      "classification": "other",
+      "confidence": 0.3,
+      "method": "unresolved",
+      "note": "Edge pattern unresolved.",
+      "sort_pass": 3
+    },
+    "bing": {
+      "classification": "other",
+      "confidence": 0.3,
+      "method": "unresolved",
+      "note": "Edge pattern unresolved.",
+      "sort_pass": 3
+    },
+    "black_star_network": {
+      "classification": "other",
+      "confidence": 0.25,
+      "method": "insufficient",
+      "note": "Too few edges.",
+      "sort_pass": 3
+    },
+    "brozanski": {
+      "classification": "self",
+      "confidence": 0.4,
+      "method": "cascade_self",
+      "note": "Low-edge entity adjacent to self.",
+      "sort_pass": 3
+    },
+    "campbell_brown": {
+      "classification": "other",
+      "confidence": 0.3,
+      "method": "unresolved",
+      "note": "Edge pattern unresolved.",
+      "sort_pass": 3
+    },
+    "chandler_park": {
+      "classification": "partial",
+      "confidence": 0.4,
+      "method": "cascade_adjacent",
+      "note": "Low-edge entity adjacent to non-self.",
+      "sort_pass": 3
+    },
+    "chatfield": {
+      "classification": "other",
+      "confidence": 0.3,
+      "method": "unresolved",
+      "note": "Edge pattern unresolved.",
+      "sort_pass": 3
+    },
+    "chojlf": {
+      "classification": "other",
+      "confidence": 0.25,
+      "method": "insufficient",
+      "note": "Too few edges.",
+      "sort_pass": 3
+    },
+    "citizendetroit": {
+      "classification": "null",
+      "confidence": 0.45,
+      "method": "cascade_null",
+      "note": "Formation/governance connection to null (cascade).",
+      "sort_pass": 3
+    },
+    "city_council": {
+      "classification": "other",
+      "confidence": 0.3,
+      "method": "unresolved",
+      "note": "Edge pattern unresolved.",
+      "sort_pass": 3
+    },
+    "coleman_young": {
+      "classification": "other",
+      "confidence": 0.25,
+      "method": "insufficient",
+      "note": "Too few edges.",
+      "sort_pass": 3
+    },
+    "custom_promo": {
+      "classification": "other",
+      "confidence": 0.3,
+      "method": "unresolved",
+      "note": "Edge pattern unresolved.",
+      "sort_pass": 3
+    },
+    "daniels": {
+      "classification": "null",
+      "confidence": 0.45,
+      "method": "cascade_null",
+      "note": "Formation/governance connection to null (cascade).",
+      "sort_pass": 3
+    },
+    "devos_foundation": {
+      "classification": "other",
+      "confidence": 0.4,
+      "method": "funding",
+      "note": "Funding entity. Insufficient evidence for sort.",
+      "sort_pass": 3
+    },
+    "diane_tavenner": {
+      "classification": "self",
+      "confidence": 0.4,
+      "method": "cascade_self",
+      "note": "Low-edge entity adjacent to self.",
+      "sort_pass": 3
+    },
+    "djf": {
+      "classification": "null",
+      "confidence": 0.45,
+      "method": "cascade_null",
+      "note": "Formation/governance connection to null (cascade).",
+      "sort_pass": 3
+    },
+    "dpsa": {
+      "classification": "other",
+      "confidence": 0.3,
+      "method": "unresolved",
+      "note": "Edge pattern unresolved.",
+      "sort_pass": 3
+    },
+    "dpscd_auth": {
+      "classification": "partial",
+      "confidence": 0.4,
+      "method": "cascade_adjacent",
+      "note": "Low-edge entity adjacent to non-self.",
+      "sort_pass": 3
+    },
+    "duggan": {
+      "classification": "other",
+      "confidence": 0.3,
+      "method": "unresolved",
+      "note": "Edge pattern unresolved.",
+      "sort_pass": 3
+    },
+    "edchoice": {
+      "classification": "other",
+      "confidence": 0.25,
+      "method": "insufficient",
+      "note": "Too few edges.",
+      "sort_pass": 3
+    },
+    "emu": {
+      "classification": "other",
+      "confidence": 0.3,
+      "method": "unresolved",
+      "note": "Edge pattern unresolved.",
+      "sort_pass": 3
+    },
+    "eric_sabree": {
+      "classification": "self",
+      "confidence": 0.4,
+      "method": "cascade_self",
+      "note": "Low-edge entity adjacent to self.",
+      "sort_pass": 3
+    },
+    "escuela_avancemos": {
+      "classification": "partial",
+      "confidence": 0.4,
+      "method": "cascade_adjacent",
+      "note": "Low-edge entity adjacent to non-self.",
+      "sort_pass": 3
+    },
+    "excelined": {
+      "classification": "other",
+      "confidence": 0.25,
+      "method": "insufficient",
+      "note": "Too few edges.",
+      "sort_pass": 3
+    },
+    "excellent_schools_detroit": {
+      "classification": "other",
+      "confidence": 0.4,
+      "method": "funding",
+      "note": "Funding entity. Insufficient evidence for sort.",
+      "sort_pass": 3
+    },
+    "fifty_can": {
+      "classification": "other",
+      "confidence": 0.4,
+      "method": "funding",
+      "note": "Funding entity. Insufficient evidence for sort.",
+      "sort_pass": 3
+    },
+    "fiore": {
+      "classification": "partial",
+      "confidence": 0.4,
+      "method": "cascade_adjacent",
+      "note": "Low-edge entity adjacent to non-self.",
+      "sort_pass": 3
+    },
+    "fowler": {
+      "classification": "self",
+      "confidence": 0.4,
+      "method": "cascade_self",
+      "note": "Low-edge entity adjacent to self.",
+      "sort_pass": 3
+    },
+    "glenn_page": {
+      "classification": "self",
+      "confidence": 0.4,
+      "method": "cascade_self",
+      "note": "Low-edge entity adjacent to self.",
+      "sort_pass": 3
+    },
+    "goetz": {
+      "classification": "self",
+      "confidence": 0.4,
+      "method": "cascade_self",
+      "note": "Low-edge entity adjacent to self.",
+      "sort_pass": 3
+    },
+    "gordon": {
+      "classification": "partial",
+      "confidence": 0.4,
+      "method": "cascade_adjacent",
+      "note": "Low-edge entity adjacent to non-self.",
+      "sort_pass": 3
+    },
+    "gvsu": {
+      "classification": "self",
+      "confidence": 0.4,
+      "method": "cascade_self",
+      "note": "Low-edge entity adjacent to self.",
+      "sort_pass": 3
+    },
+    "henri_harmon": {
+      "classification": "partial",
+      "confidence": 0.4,
+      "method": "cascade_adjacent",
+      "note": "Low-edge entity adjacent to non-self.",
+      "sort_pass": 3
+    },
+    "holland": {
+      "classification": "partial",
+      "confidence": 0.45,
+      "method": "cascade_nonself",
+      "note": "Governance/board connection to non-self (cascade).",
+      "sort_pass": 3
+    },
+    "j_hood_assoc": {
+      "classification": "other",
+      "confidence": 0.3,
+      "method": "unresolved",
+      "note": "Edge pattern unresolved.",
+      "sort_pass": 3
+    },
+    "jacquie_hood_martin": {
+      "classification": "other",
+      "confidence": 0.3,
+      "method": "unresolved",
+      "note": "Edge pattern unresolved.",
+      "sort_pass": 3
+    },
+    "jason_roe": {
+      "classification": "other",
+      "confidence": 0.25,
+      "method": "insufficient",
+      "note": "Too few edges.",
+      "sort_pass": 3
+    },
+    "john_james": {
+      "classification": "other",
+      "confidence": 0.3,
+      "method": "unresolved",
+      "note": "Edge pattern unresolved.",
+      "sort_pass": 3
+    },
+    "jolia_hill": {
+      "classification": "other",
+      "confidence": 0.3,
+      "method": "unresolved",
+      "note": "Edge pattern unresolved.",
+      "sort_pass": 3
+    },
+    "kelly_emu": {
+      "classification": "other",
+      "confidence": 0.25,
+      "method": "insufficient",
+      "note": "Too few edges.",
+      "sort_pass": 3
+    },
+    "kelly_ramsey": {
+      "classification": "other",
+      "confidence": 0.25,
+      "method": "insufficient",
+      "note": "Too few edges.",
+      "sort_pass": 3
+    },
+    "kriste_dragon": {
+      "classification": "self",
+      "confidence": 0.4,
+      "method": "cascade_self",
+      "note": "Low-edge entity adjacent to self.",
+      "sort_pass": 3
+    },
+    "kwame": {
+      "classification": "other",
+      "confidence": 0.3,
+      "method": "unresolved",
+      "note": "Edge pattern unresolved.",
+      "sort_pass": 3
+    },
+    "larry_thomas": {
+      "classification": "other",
+      "confidence": 0.25,
+      "method": "insufficient",
+      "note": "Too few edges.",
+      "sort_pass": 3
+    },
+    "leach": {
+      "classification": "null",
+      "confidence": 0.45,
+      "method": "cascade_null",
+      "note": "Formation/governance connection to null (cascade).",
+      "sort_pass": 3
+    },
+    "mackinnon": {
+      "classification": "self",
+      "confidence": 0.4,
+      "method": "cascade_self",
+      "note": "Low-edge entity adjacent to self.",
+      "sort_pass": 3
+    },
+    "mantella": {
+      "classification": "self",
+      "confidence": 0.4,
+      "method": "cascade_self",
+      "note": "Low-edge entity adjacent to self.",
+      "sort_pass": 3
+    },
+    "mapsa": {
+      "classification": "other",
+      "confidence": 0.4,
+      "method": "funding",
+      "note": "Funding entity. Insufficient evidence for sort.",
+      "sort_pass": 3
+    },
+    "mccsa": {
+      "classification": "self",
+      "confidence": 0.4,
+      "method": "cascade_self",
+      "note": "Low-edge entity adjacent to self.",
+      "sort_pass": 3
+    },
+    "naacp_detroit": {
+      "classification": "other",
+      "confidence": 0.3,
+      "method": "unresolved",
+      "note": "Edge pattern unresolved.",
+      "sort_pass": 3
+    },
+    "naacp_lansing": {
+      "classification": "other",
+      "confidence": 0.25,
+      "method": "insufficient",
+      "note": "Too few edges.",
+      "sort_pass": 3
+    },
+    "northrop": {
+      "classification": "self",
+      "confidence": 0.4,
+      "method": "cascade_self",
+      "note": "Low-edge entity adjacent to self.",
+      "sort_pass": 3
+    },
+    "nuvision_foundation": {
+      "classification": "other",
+      "confidence": 0.25,
+      "method": "insufficient",
+      "note": "Too few edges.",
+      "sort_pass": 3
+    },
+    "nuvision_inc": {
+      "classification": "other",
+      "confidence": 0.4,
+      "method": "funding",
+      "note": "Funding entity. Insufficient evidence for sort.",
+      "sort_pass": 3
+    },
+    "perkins_david": {
+      "classification": "other",
+      "confidence": 0.25,
+      "method": "insufficient",
+      "note": "Too few edges.",
+      "sort_pass": 3
+    },
+    "pugh": {
+      "classification": "partial",
+      "confidence": 0.4,
+      "method": "cascade_adjacent",
+      "note": "Low-edge entity adjacent to non-self.",
+      "sort_pass": 3
+    },
+    "renae_moore": {
+      "classification": "null",
+      "confidence": 0.45,
+      "method": "cascade_null",
+      "note": "Formation/governance connection to null (cascade).",
+      "sort_pass": 3
+    },
+    "rffw": {
+      "classification": "null",
+      "confidence": 0.45,
+      "method": "cascade_null",
+      "note": "Formation/governance connection to null (cascade).",
+      "sort_pass": 3
+    },
+    "roland_martin": {
+      "classification": "other",
+      "confidence": 0.4,
+      "method": "funding",
+      "note": "Funding entity. Insufficient evidence for sort.",
+      "sort_pass": 3
+    },
+    "ross": {
+      "classification": "null",
+      "confidence": 0.45,
+      "method": "cascade_null",
+      "note": "Formation/governance connection to null (cascade).",
+      "sort_pass": 3
+    },
+    "ross_catering": {
+      "classification": "other",
+      "confidence": 0.3,
+      "method": "unresolved",
+      "note": "Edge pattern unresolved.",
+      "sort_pass": 3
+    },
+    "sabree": {
+      "classification": "self",
+      "confidence": 0.4,
+      "method": "cascade_self",
+      "note": "Low-edge entity adjacent to self.",
+      "sort_pass": 3
+    },
+    "sam_gov": {
+      "classification": "other",
+      "confidence": 0.25,
+      "method": "insufficient",
+      "note": "Too few edges.",
+      "sort_pass": 3
+    },
+    "santambrogio": {
+      "classification": "self",
+      "confidence": 0.4,
+      "method": "cascade_self",
+      "note": "Low-edge entity adjacent to self.",
+      "sort_pass": 3
+    },
+    "scbc_tour": {
+      "classification": "other",
+      "confidence": 0.4,
+      "method": "funding",
+      "note": "Funding entity. Insufficient evidence for sort.",
+      "sort_pass": 3
+    },
+    "sean_perkins": {
+      "classification": "other",
+      "confidence": 0.3,
+      "method": "unresolved",
+      "note": "Edge pattern unresolved.",
+      "sort_pass": 3
+    },
+    "senier": {
+      "classification": "other",
+      "confidence": 0.25,
+      "method": "insufficient",
+      "note": "Too few edges.",
+      "sort_pass": 3
+    },
+    "sheila_cockrel": {
+      "classification": "null",
+      "confidence": 0.45,
+      "method": "cascade_null",
+      "note": "Formation/governance connection to null (cascade).",
+      "sort_pass": 3
+    },
+    "skillman_foundation": {
+      "classification": "self",
+      "confidence": 0.4,
+      "method": "cascade_self",
+      "note": "Low-edge entity adjacent to self.",
+      "sort_pass": 3
+    },
+    "snyder_nikki": {
+      "classification": "self",
+      "confidence": 0.4,
+      "method": "cascade_self",
+      "note": "Low-edge entity adjacent to self.",
+      "sort_pass": 3
+    },
+    "spivey": {
+      "classification": "other",
+      "confidence": 0.3,
+      "method": "unresolved",
+      "note": "Edge pattern unresolved.",
+      "sort_pass": 3
+    },
+    "the_74": {
+      "classification": "other",
+      "confidence": 0.4,
+      "method": "funding",
+      "note": "Funding entity. Insufficient evidence for sort.",
+      "sort_pass": 3
+    },
+    "thomas_ryan": {
+      "classification": "self",
+      "confidence": 0.4,
+      "method": "cascade_self",
+      "note": "Low-edge entity adjacent to self.",
+      "sort_pass": 3
+    },
+    "tremblay": {
+      "classification": "partial",
+      "confidence": 0.4,
+      "method": "cascade_adjacent",
+      "note": "Low-edge entity adjacent to non-self.",
+      "sort_pass": 3
+    },
+    "uhuru": {
+      "classification": "self",
+      "confidence": 0.4,
+      "method": "cascade_self",
+      "note": "Low-edge entity adjacent to self.",
+      "sort_pass": 3
+    },
+    "vitti": {
+      "classification": "other",
+      "confidence": 0.25,
+      "method": "insufficient",
+      "note": "Too few edges.",
+      "sort_pass": 3
+    },
+    "vonda_evans": {
+      "classification": "other",
+      "confidence": 0.25,
+      "method": "insufficient",
+      "note": "Too few edges.",
+      "sort_pass": 3
+    },
+    "walton_family_foundation": {
+      "classification": "other",
+      "confidence": 0.4,
+      "method": "funding",
+      "note": "Funding entity. Insufficient evidence for sort.",
+      "sort_pass": 3
+    },
+    "welch": {
+      "classification": "other",
+      "confidence": 0.25,
+      "method": "insufficient",
+      "note": "Too few edges.",
+      "sort_pass": 3
+    },
+    "wendell_anthony": {
+      "classification": "other",
+      "confidence": 0.25,
+      "method": "insufficient",
+      "note": "Too few edges.",
+      "sort_pass": 3
+    },
+    "sc_cavanagh": {
+      "classification": "other",
       "confidence": 0.0,
-      "opacity": 0.25,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "detroit_city": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "burris": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "nessel": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "sc_bernstein": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "sc_bolden": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "sc_hood": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "sc_thomas": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "sc_welch": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "sc_zahra": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "dpd": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "sbm": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "wayne_county": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "agc_hickey": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "agc_janes": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "agc_pahany": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "agc_prasad": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "agc_robinson": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "agc_swedlow": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "agc_wassef": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "agc_willis": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "beasley": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "bert_johnson": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "coleman_young_ii": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "engler": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "jtc_burmeister": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "jtc_cain": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "jtc_cameron": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "jtc_cortes": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "jtc_ison": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "jtc_jaafar": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "jtc_lillard": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "jtc_sullivan": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "keith_stallworth": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "kym_worthy": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "maleyko": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "raphael_washington": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "sbm_bryant": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "sbm_burrell": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "sbm_d_anderson": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "sbm_howlett": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "sbm_larsen": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "tate_jr": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "upl_cadotte": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "upl_kejbou": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "ag_charitable_trust": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "charter_law_1993": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "mde_prof_practice": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "msu": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "npe": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "agc_blessing": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "agc_bowen": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "agc_burgess": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "agc_downey": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "agc_fernandez": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "agc_fleming": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "agc_frazee": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "agc_g_leach": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "agc_jaafar": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "agc_lindsey": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "agc_linville": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "agc_mazur": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "agc_miciuda": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "agc_morgan": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "ahmed_beasley": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "alma_stallworth": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "cameron_coleman": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "chalcee_norwood": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "cockrel_jr": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "gasper_fiore": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "jason_perry_pca": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "jennifer_crump": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "john_walton": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "jtc_corbett": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "jtc_corbin": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "jtc_dajani": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "jtc_flowers": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "jtc_haffey": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "jtc_helland": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "jtc_hoard": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "jtc_jurva_brinn": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "jtc_kalec": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "jtc_kettler": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "jtc_m_johnson": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "jtc_poirier": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "jtc_rynier": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "jtc_swastek": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "jtc_uppal": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "latisha_johnson_cc": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "lenhoff": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "ross_jones": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "sbm_clay": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "sbm_dwalton": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "upl_brauckmuller": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "upl_celentino": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "upl_colombo": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "upl_garwood": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "upl_griffin": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "upl_moilanen": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "upl_palacios": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "upl_riordan": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "virgil_smith": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "advance_detroit": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "baker_college": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "banks_living_trust": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "black_caucus_found": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "bunche_prep": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "detroit_peer": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "mackinac_center": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "metro_property": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "perkins_law": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "plante_moran": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "promise_schools": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "ud_mercy_law": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "wayne_co_pa": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "wayne_resa": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "wayne_state_law": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "wmu": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "ravitch": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "alliance_school_choice": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "barton_malow": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "cass_tech": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "charter_school_growth_fund": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "cooley_law": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "cuny_law": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "depaul_law": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "detroit_college_law": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "glep": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "gw_law": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "lawrence_tech": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "marygrove": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "mi_court_appeals": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "nacsa": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "notre_dame": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "npe_action": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "river_rouge_sd": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "sherwood_foundation": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "spelman": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "usao_edmi": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "ann_arbor": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
+      "sort_pass": 0
+    },
+    "harper_woods": {
+      "classification": "other",
+      "confidence": 0.0,
+      "method": "unmatched",
       "sort_pass": 0
     }
   },
   "summary": {
-    "total": 188,
-    "classified": 10,
-    "unknown": 178
+    "total": 329,
+    "non_self": 5,
+    "null": 47,
+    "self": 50,
+    "partial": 29,
+    "other": 198,
+    "classified_with_confidence": 95
   }
 }
