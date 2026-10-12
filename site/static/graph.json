@@ -5059,6 +5059,74 @@
       "sort_pass": 3,
       "sort_method": "insufficient",
       "sort_note": "Too few edges."
+    },
+    {
+      "id": "bmf",
+      "label": "Black Mafia Family (BMF)",
+      "type": "entity",
+      "entity_type": "Criminal organization",
+      "tier": 3,
+      "role": "Black Mafia Family. Federal drug conspiracy — one of the largest in US history. Hundreds of millions in drug proceeds. Founded by Demetrius 'Big Meech' and Terry 'Southwest T' Flenory. Detroit + Atlanta operations. OD Banks was Defendant #22. Tonesa Welch (Banks's aunt) was also a defendant. Case: USA v. Flenory et al (2:05-cr-80955, E.D. Mich.).",
+      "class": "entity",
+      "classification": "negative"
+    },
+    {
+      "id": "big_meech",
+      "label": "Demetrius 'Big Meech' Flenory",
+      "type": "actor",
+      "tier": 3,
+      "role": "BMF co-founder and leader. 30-year federal sentence (2008). Released 2025 after commutation. Detroit-born. Built multi-state drug distribution empire. Subject of Starz BMF TV series (exec produced by 50 Cent).",
+      "class": "entity",
+      "classification": "negative"
+    },
+    {
+      "id": "southwest_t",
+      "label": "Terry 'Southwest T' Flenory",
+      "type": "actor",
+      "tier": 3,
+      "role": "BMF co-founder. Ran Southwest Detroit operations. 30-year federal sentence. Released early (COVID compassionate release 2020). Brother of Big Meech.",
+      "class": "entity",
+      "classification": "negative"
+    },
+    {
+      "id": "bmf_case",
+      "label": "USA v. Flenory et al (2:05-cr-80955)",
+      "type": "entity",
+      "entity_type": "Federal criminal case",
+      "tier": 4,
+      "role": "PACER: 2:05-cr-80955, Eastern District of Michigan. One of the largest federal drug conspiracy prosecutions in US history. 30+ defendants. OD Banks is Defendant #22. Tonesa Welch also a defendant. Hundreds of millions in drug proceeds.",
+      "class": "entity",
+      "classification": "negative"
+    },
+    {
+      "id": "welch_book",
+      "label": "The Real BMF: The Tonesa Welch Story",
+      "type": "entity",
+      "entity_type": "Publication (book)",
+      "tier": 5,
+      "role": "Book by Tonesa Welch about her role in BMF. Party admission — admits involvement in BMF operations. Banks's aunt wrote about the same criminal enterprise her nephew now professionalizes.",
+      "class": "entity",
+      "classification": "other"
+    },
+    {
+      "id": "first_lady_bmf",
+      "label": "First Lady of BMF (BET+ film)",
+      "type": "entity",
+      "entity_type": "Media (film)",
+      "tier": 5,
+      "role": "BET+ film about Tonesa Welch. Directed by Vivica A. Fox. Based on Welch's role in BMF. Banks's aunt's story was turned into a movie.",
+      "class": "entity",
+      "classification": "other"
+    },
+    {
+      "id": "chambers_brothers",
+      "label": "Chambers Brothers",
+      "type": "entity",
+      "entity_type": "Criminal organization",
+      "tier": 4,
+      "role": "Controlled ~50% of Detroit crack houses in the 1980s. Precursor to BMF in Detroit drug trade. Same neighborhoods later served by Banks's charter schools.",
+      "class": "entity",
+      "classification": "negative"
     }
   ],
   "edges": [
@@ -14357,6 +14425,177 @@
       "role": "Board Chair",
       "weight": 9,
       "source_doc": "Clutch Justice Sep 13, 2026"
+    },
+    {
+      "source": "big_meech",
+      "target": "bmf",
+      "type": "founded",
+      "epistemic_status": "record",
+      "weight": 9,
+      "note": "Co-founded BMF. Leader. 30-year sentence.",
+      "source_doc": "PACER 2:05-cr-80955, DOJ press releases"
+    },
+    {
+      "source": "southwest_t",
+      "target": "bmf",
+      "type": "founded",
+      "epistemic_status": "record",
+      "weight": 9,
+      "note": "Co-founded BMF. Southwest Detroit operations. 30-year sentence.",
+      "source_doc": "PACER 2:05-cr-80955"
+    },
+    {
+      "source": "od_banks",
+      "target": "bmf",
+      "type": "membership",
+      "epistemic_status": "record",
+      "weight": 9,
+      "note": "BMF Defendant #22. Brian Banks's biological father.",
+      "source_doc": "PACER 2:05-cr-80955"
+    },
+    {
+      "source": "welch",
+      "target": "bmf",
+      "type": "membership",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "BMF defendant. Tonesa Welch — Banks's aunt through OD Banks.",
+      "source_doc": "PACER 2:05-cr-80955, Welch book"
+    },
+    {
+      "source": "bmf",
+      "target": "bmf_case",
+      "type": "prosecution",
+      "epistemic_status": "record",
+      "weight": 9,
+      "note": "USA v. Flenory et al. E.D. Mich. 30+ defendants. Hundreds of millions in drug proceeds.",
+      "source_doc": "PACER 2:05-cr-80955"
+    },
+    {
+      "source": "big_meech",
+      "target": "bmf_case",
+      "type": "defendant",
+      "epistemic_status": "record",
+      "weight": 9,
+      "note": "Lead defendant. 30-year sentence (2008). Released 2025.",
+      "source_doc": "PACER, DOJ"
+    },
+    {
+      "source": "southwest_t",
+      "target": "bmf_case",
+      "type": "defendant",
+      "epistemic_status": "record",
+      "weight": 9,
+      "note": "Co-defendant. 30-year sentence. Compassionate release 2020.",
+      "source_doc": "PACER, DOJ"
+    },
+    {
+      "source": "od_banks",
+      "target": "bmf_case",
+      "type": "defendant",
+      "epistemic_status": "record",
+      "weight": 9,
+      "note": "Defendant #22.",
+      "source_doc": "PACER 2:05-cr-80955"
+    },
+    {
+      "source": "welch",
+      "target": "bmf_case",
+      "type": "defendant",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "Defendant. Wrote book about her role.",
+      "source_doc": "PACER, Welch book"
+    },
+    {
+      "source": "od_banks",
+      "target": "big_meech",
+      "type": "criminal_association",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "Both BMF. OD Banks was Defendant #22 alongside Flenory brothers.",
+      "source_doc": "PACER 2:05-cr-80955"
+    },
+    {
+      "source": "banks",
+      "target": "bmf",
+      "type": "lineage",
+      "epistemic_status": "record",
+      "weight": 9,
+      "note": "Blood lineage: OD Banks (BMF Defendant #22) → Brian Banks (enterprise leader). Drug empire → charter school empire. Same extraction playbook, professionalized.",
+      "source_doc": "PACER, ICHAT, investigation"
+    },
+    {
+      "source": "welch",
+      "target": "welch_book",
+      "type": "authored",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "Wrote 'The Real BMF: The Tonesa Welch Story.' Party admission.",
+      "source_doc": "Amazon, publication records"
+    },
+    {
+      "source": "welch",
+      "target": "first_lady_bmf",
+      "type": "subject",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "BET+ film about Welch. Directed by Vivica A. Fox.",
+      "source_doc": "BET+, IMDb"
+    },
+    {
+      "source": "chambers_brothers",
+      "target": "detroit_city",
+      "type": "criminal_activity",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "Controlled ~50% of Detroit crack houses 1980s. Same neighborhoods Banks's schools now serve.",
+      "source_doc": "Wikipedia, Detroit history"
+    },
+    {
+      "source": "chambers_brothers",
+      "target": "bmf",
+      "type": "succession",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "BMF rose as Chambers Brothers fell. Generational succession in Detroit drug trade.",
+      "source_doc": "Historical analysis"
+    },
+    {
+      "source": "bmf",
+      "target": "pca",
+      "type": "lineage_to_enterprise",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "BMF (drug money) → Banks (enterprise leader) → PCA (public education funds). Same communities, different extraction method. ≤1% math proficiency.",
+      "source_doc": "PACER, MDE School Index, investigation"
+    },
+    {
+      "source": "bmf",
+      "target": "macdowell",
+      "type": "lineage_to_enterprise",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "BMF lineage → MacDowell. Second school in the enterprise.",
+      "source_doc": "PACER, investigation"
+    },
+    {
+      "source": "keith_stallworth",
+      "target": "bmf",
+      "type": "era_overlap",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "1980s-2000s: Stallworth laundered $20K gang money same era BMF operated. Different org, same ecosystem.",
+      "source_doc": "Court records, Stallworth plea"
+    },
+    {
+      "source": "bmf",
+      "target": "banks",
+      "type": "dynasty_origin",
+      "epistemic_status": "record",
+      "weight": 10,
+      "note": "BMF is Dynasty 1 of 4. Blood lineage. OD Banks (Defendant #22) → Brian Banks. Extraction playbook: drug money → public education funds. Zero accountability narrative.",
+      "source_doc": "PACER 2:05-cr-80955, investigation framework"
     }
   ],
   "epistemic_grammar": {
