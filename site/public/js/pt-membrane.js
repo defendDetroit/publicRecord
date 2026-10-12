@@ -487,10 +487,54 @@ window.PtMembrane = function(deps) {
     txt(chemG, cx, cy, '104.5\u00b0', '#484f58', 4,
       {opacity:0, id:'mg-bond-angle-label'});
 
+    // ═══ SOLAR SYSTEM: the ring IS Earth. Pin IS the Sun. ═══
+    // Inside the ring: atomic/quantum scale (chemistry, lattice, fusion).
+    // The ring: Earth's membrane. The boundary between inner and outer.
+    // Outside the ring: astronomical scale. Moon, Mars, Jupiter, Saturn.
+    // Oort Cloud at the edge. The pin at center IS the sun.
+    // H + H → He at center IS stellar fusion. It's all the same system.
+    var solarG = el('g', {id:'mg-solar'}, svg);
+
+    // Planetary orbits outside the ring (Earth = the ring itself)
+    var planets = [
+      {id:'moon',    orb:R+12,    size:2,   color:'#c9d1d9', label:'\u263D'},
+      {id:'mars',    orb:R*1.15,  size:2.5, color:'#e85d3a', label:'\u2642'},
+      {id:'jupiter', orb:R*1.32,  size:4,   color:'#f0e68c', label:'\u2643'},
+      {id:'saturn',  orb:R*1.44,  size:3.5, color:'#d2a8ff', label:'\u2644'}
+    ];
+    planets.forEach(function(p) {
+      // Orbit trace
+      el('circle', {cx:cx, cy:cy, r:p.orb, fill:'none',
+        stroke:p.color, 'stroke-width':0.3, 'stroke-opacity':0.04,
+        'stroke-dasharray':'2,8', id:'mg-solar-orbit-' + p.id}, solarG);
+      // Planet dot
+      el('circle', {cx:cx + p.orb, cy:cy, r:p.size,
+        fill:p.color, opacity:0.25,
+        id:'mg-solar-' + p.id}, solarG);
+      // Symbol label
+      txt(solarG, cx + p.orb, cy - p.size - 3, p.label, p.color, 6,
+        {opacity:0.15, id:'mg-solar-label-' + p.id});
+    });
+
+    // Asteroid belt between Mars and Jupiter
+    el('circle', {cx:cx, cy:cy, r:R*1.23, fill:'none',
+      stroke:'#6e7681', 'stroke-width':0.8, 'stroke-opacity':0.03,
+      'stroke-dasharray':'1,4', id:'mg-asteroid-belt'}, solarG);
+
+    // Oort Cloud — the outermost boundary of the solar system
+    el('circle', {cx:cx, cy:cy, r:Math.min(R*1.6, 230), fill:'none',
+      stroke:'#484f58', 'stroke-width':0.5, 'stroke-opacity':0.03,
+      'stroke-dasharray':'1,10', id:'mg-oort'}, solarG);
+    // Oort label
+    txt(solarG, cx, cy - Math.min(R*1.6, 230) - 4, 'Oort', '#484f58', 4,
+      {opacity:0.06, id:'mg-oort-label'});
+
     // ═══ CLOSED RING: one continuous circle, panels distributed ═══
+    // The ring IS Earth. The membrane boundary.
     var wasG = el('g', {id:'mg-was'}, svg);
 
     // Main closed ring — no gaps, no segments. The ring is the sphere equator.
+    // Earth. The membrane between inner (atomic) and outer (astronomical).
     el('circle', {cx:cx, cy:cy, r:R, fill:'none',
       stroke:'#c9d1d9', 'stroke-width':1.5, 'stroke-opacity':0.2,
       id:'mg-ring'}, wasG);
@@ -1720,6 +1764,50 @@ window.PtMembrane = function(deps) {
         bAngleLbl.setAttribute('y', (chemPos[2].y + 14 * Math.sin((aH1+aH2)/2)).toFixed(1));
         bAngleLbl.textContent = bondAngleDeg.toFixed(1) + '\u00b0';
         bAngleLbl.setAttribute('opacity', (waterProx * 0.2).toFixed(3));
+      }
+    }
+
+    // ── Solar system: planets orbit outside the ring ──
+    // Moon orbits fast (monthly). Mars, Jupiter, Saturn at their own rates.
+    // All rates coprime. Nothing locks.
+    var solarRates = [
+      {id:'moon',    orb:R+12,    rate:PI*1.5,  phase:0},
+      {id:'mars',    orb:R*1.15,  rate:PI/3.7,  phase:PI/3},
+      {id:'jupiter', orb:R*1.32,  rate:PI/7.9,  phase:PI},
+      {id:'saturn',  orb:R*1.44,  rate:PI/13.3, phase:PI*1.7}
+    ];
+    for (var spi = 0; spi < solarRates.length; spi++) {
+      var sp = solarRates[spi];
+      var spAngle = sp.phase + t * sp.rate;
+      var spx = cx + sp.orb * Math.cos(spAngle);
+      var spy = cy + sp.orb * Math.sin(spAngle);
+      var spDot = document.getElementById('mg-solar-' + sp.id);
+      if (spDot) {
+        spDot.setAttribute('cx', spx.toFixed(1));
+        spDot.setAttribute('cy', spy.toFixed(1));
+      }
+      var spLbl = document.getElementById('mg-solar-label-' + sp.id);
+      if (spLbl) {
+        spLbl.setAttribute('x', spx.toFixed(1));
+        var pSize = [2, 2.5, 4, 3.5][spi];
+        spLbl.setAttribute('y', (spy - pSize - 3).toFixed(1));
+      }
+    }
+
+    // ── Epitope orbit ring twist: dashes rotate, rings come alive ──
+    // The 3 orbit rings now twist visually — their dash patterns rotate.
+    // Ring 1: forward at ω_is. Ring 2: REVERSE at ω_was. Ring 3: forward at ω_willbe.
+    var orbitTwist = [
+      {rate: omega_is,     torsion: 1},   // ring 1: forward
+      {rate: omega_was,    torsion: -1},   // ring 2: reverse — the eating
+      {rate: omega_willbe, torsion: 1}    // ring 3: forward
+    ];
+    for (var otri = 0; otri < 3; otri++) {
+      var otrEl = document.getElementById('mg-orbit-ring-' + (otri + 1));
+      if (otrEl) {
+        var otrDeg = (t * orbitTwist[otri].rate * orbitTwist[otri].torsion * 180 / PI) % 360;
+        otrEl.setAttribute('transform',
+          'rotate(' + otrDeg.toFixed(1) + ' ' + cx + ' ' + cy + ')');
       }
     }
 
