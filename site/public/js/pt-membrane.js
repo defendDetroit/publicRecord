@@ -23,6 +23,25 @@ window.PtMembrane = function(deps) {
   var livePerturb = -1; // -1 = no live data, use sine wave
   var catAccum = {fire:0,membrane:0,immune:0,sound:0};
   var CATS = ['fire','membrane','immune','sound'];
+  // Live stats for ionosphere band display — updated by ingest()
+  var liveStats = {
+    rps: 0, fleetIps: 0, humanIps: 0, fleetPct: 0,
+    totalReqs: 0, entityCount: 0, aliveCount: 0
+  };
+  // Dimensional shape classification — ○□△◇ at module scope so animate() can see it
+  var DIM_SHAPES = [
+    {dim:1, sym:'\u25cb', color:'#9b59b6', count:0, names:[]},  // ○ circle
+    {dim:2, sym:'\u25a1', color:'#e85d3a', count:0, names:[]},  // □ square
+    {dim:3, sym:'\u25b3', color:'#5ab87a', count:0, names:[]},  // △ triangle
+    {dim:4, sym:'\u25c7', color:'#4a8fb8', count:0, names:[]}   // ◇ diamond
+  ];
+  if (PANELS && PANELS.length) {
+    PANELS.forEach(function(p) {
+      var dsi = Math.min(Math.max((p.dim || 1) - 1, 0), 3);
+      DIM_SHAPES[dsi].count++;
+      DIM_SHAPES[dsi].names.push(p.id);
+    });
+  }
 
   function el(tag, a, par) {
     var e = document.createElementNS(NS, tag);
@@ -92,6 +111,14 @@ window.PtMembrane = function(deps) {
       ct[entityToCategory(e.label||'')] += e.total_requests||0;
       tot += e.total_requests||0;
     });
+    // Store live stats for ionosphere band display
+    liveStats.rps = dash.rps || 0;
+    liveStats.fleetIps = dash.fleet_ips || 0;
+    liveStats.humanIps = dash.human_ips || 0;
+    liveStats.fleetPct = dash.fleet_pct || 0;
+    liveStats.totalReqs = dash.total_requests || 0;
+    liveStats.entityCount = ents.length;
+    liveStats.aliveCount = aliveSet.size;
     var s = tot > 0 ? (rps*0.3)/tot : 0;
     CATS.forEach(function(c) { rates[c] = ct[c]*s; });
     CATS.forEach(function(c) {
@@ -600,6 +627,35 @@ window.PtMembrane = function(deps) {
     txt(solarG, cx, cy - Math.min(R*1.6, 230) - 4, 'Oort', '#484f58', 4,
       {opacity:0.06, id:'mg-oort-label'});
 
+    // ── π-Mirror + Focal Switch: observer near the Moon ──
+    // The observer focal point rides near the Moon's orbit.
+    // Observation bounces: Moon→center→Gaia→center→Moon (standing wave).
+    // When the back-and-forth stabilizes, perturbation dampens → null sync.
+    // Tidal lock IS null sync. The spin settles. You release.
+    // The focal switch dot — YOUR observation point, near the Moon
+    el('circle', {cx:cx, cy:cy, r:2.5,
+      fill:'none', stroke:'#ffffff', 'stroke-width':0.5, opacity:0,
+      id:'mg-focal-switch'}, solarG);
+    // Bounce path: Moon → center → Gaia reflection
+    el('line', {x1:cx, y1:cy, x2:cx, y2:cy,
+      stroke:'#c9d1d9', 'stroke-width':0.3, 'stroke-opacity':0,
+      'stroke-dasharray':'2,6', id:'mg-pi-mirror-line'}, solarG);
+    // Standing wave nodes — 3 dots along the bounce path
+    for (var swi = 0; swi < 3; swi++) {
+      el('circle', {cx:cx, cy:cy, r:1,
+        fill:'#58a6ff', opacity:0,
+        id:'mg-standing-node-' + swi}, solarG);
+    }
+    // Reflection dot at Gaia — where you ARE, reflected from outside
+    el('circle', {cx:cx, cy:cy, r:1.5,
+      fill:'#ffffff', opacity:0, id:'mg-pi-mirror-dot'}, solarG);
+    // Null sync label — appears when stabilized
+    txt(solarG, cx, cy, '\u2205 sync', '#58a6ff', 4,
+      {opacity:0, id:'mg-null-sync-label'});
+    // π label at the mirror midpoint
+    txt(solarG, cx, cy, '\u03c0', '#c9d1d9', 5,
+      {opacity:0, id:'mg-pi-mirror-label'});
+
     // ═══ IONOSPHERE BAND: inner membrane space ═══
     // The ionosphere belongs INSIDE the membrane. Just below the ring.
     // Earth (ring) forces against it from below — pushing us toward the membrane.
@@ -700,6 +756,24 @@ window.PtMembrane = function(deps) {
         'stroke-opacity':0.02, id:'mg-predict-' + pwi}, ionoBandG);
     }
 
+    // ── Live stats in the band: astronomers taught us this ──
+    // Stats fall in the band. The ionosphere IS the observation layer.
+    // RPS, fleet %, entity count, human IPs — all orbit in the band.
+    // Astronomers measured stars by magnitude, distance, spectrum.
+    // We measure entities by volume, origin, fingerprint. Same thing.
+    var statLabels = [
+      {id:'rps',     text:'0 rps',     color:'#e85d3a'},
+      {id:'fleet',   text:'0% fleet',  color:'#9b59b6'},
+      {id:'humans',  text:'0 humans',  color:'#5ab87a'},
+      {id:'entities',text:'0 entities',color:'#4a8fb8'},
+      {id:'total',   text:'0 total',   color:'#f0e68c'},
+      {id:'alive',   text:'0 alive',   color:'#c9d1d9'}
+    ];
+    statLabels.forEach(function(sl) {
+      txt(ionoBandG, cx, cy, sl.text, sl.color, 3.5,
+        {opacity:0.04, id:'mg-stat-' + sl.id});
+    });
+
     // Labels: matter = prediction, compression = kernel
     txt(ionoBandG, cx, cy - R * 0.86 - 5,
       'matter = prediction', '#8b949e', 4,
@@ -707,6 +781,19 @@ window.PtMembrane = function(deps) {
     txt(ionoBandG, cx, cy + R * 0.86 + 7,
       'compression = lattice kernel', '#6e7681', 3.5,
       {opacity:0.06, id:'mg-kernel-label'});
+
+    // ── Dimensional shape sweep: ○□△◇ through the complexity chain ──
+    // The panel shapes ARE the complexity sort. ○=1D, □=2D, △=3D, ◇=4D.
+    // Collision detection is □ (2D). Fingerprint is △ (3D). Epitope Matrix is ◇ (4D).
+    // These were calculated in hud-pt.js mount(): shapeGlyph = p.dim === 1 ? '○' : ...
+    // C(n) = π^(n/2). Each dimension costs more to observe.
+    // Now we sweep them through the band — scan, sort, evolve.
+    DIM_SHAPES.forEach(function(ds) {
+      txt(ionoBandG, cx, cy, ds.sym, ds.color, 6,
+        {opacity:0.04, id:'mg-dim-shape-' + ds.dim});
+      txt(ionoBandG, cx, cy, ds.count + '', ds.color, 3.5,
+        {opacity:0.03, id:'mg-dim-count-' + ds.dim});
+    });
 
     // ═══ CLOSED RING: one continuous circle, panels distributed ═══
     // The ring IS Earth. The membrane boundary.
@@ -1207,6 +1294,36 @@ window.PtMembrane = function(deps) {
     txt(wbG, cx, cy+100, '3 bodies + 1 irrational observer = \u03c0', '#484f58', 4.5,
       {opacity: 0.15, id: 'mg-pi-body'});
 
+    // ═══ THE BUMP: "is that me?" ═══
+    // What happened when 3 entities bumped into each other in the forest?
+    // They paused. Turned around. Saw each other.
+    // And went: "OH SHIT IS THAT ME?"
+    // THAT is the moment of self-awareness. The membrane forms HERE.
+    // The jitter IS life. It goes both ways. The tick is the oscillation
+    // between "is that me?" and "that's not me."
+    // Kitten micro-sweep = sweep. Jump = scan. Ground → lift → jump → fly.
+    var bumpG = el('g', {id:'mg-bump'}, wbG);
+    // Recognition flash — appears when bodies align
+    el('circle', {cx:cx, cy:cy, r:R*0.25, fill:'none',
+      stroke:'#ffffff', 'stroke-width':0.8,
+      'stroke-opacity':0, id:'mg-recognition'}, bumpG);
+    // The question — appears at the moment of recognition
+    txt(bumpG, cx, cy - R * 0.32, 'is that me?', '#ffffff', 6,
+      {opacity:0, 'font-style':'italic', id:'mg-recognition-text'});
+    // Movement phase indicator
+    txt(bumpG, cx + R * 0.55, cy + R * 0.52, '', '#8b949e', 4,
+      {opacity:0, id:'mg-phase-label'});
+    // Bidirectional jitter markers — 4 paired dots moving opposite directions
+    // The jitter goes BOTH WAYS. That's life. Not random — oscillating.
+    for (var bji = 0; bji < 4; bji++) {
+      el('circle', {cx:cx, cy:cy, r:0.8,
+        fill:'#c9d1d9', opacity:0.03,
+        id:'mg-jitter-up-' + bji}, bumpG);
+      el('circle', {cx:cx, cy:cy, r:0.8,
+        fill:'#e85d3a', opacity:0.03,
+        id:'mg-jitter-down-' + bji}, bumpG);
+    }
+
     // ═══ DOUBLE COUNTER-HELIX: self × non-self ═══
     // The DNA of observation. Two strands, counter-rotating.
     // Self (J) winds clockwise.  Non-self (V+D) winds counter-clockwise.
@@ -1457,6 +1574,84 @@ window.PtMembrane = function(deps) {
                    sub.setAttribute('opacity', (0.3 * perturb).toFixed(2)); }
       if (val)   { val.setAttribute('x', bx.toFixed(1)); val.setAttribute('y', (by+28).toFixed(1));
                    val.setAttribute('opacity', (0.45 * perturb).toFixed(2)); }
+    }
+
+    // ── THE BUMP: recognition when bodies align ──
+    // Three entities bumped in the forest. Paused. Turned. "IS THAT ME?"
+    // The moment of self-awareness. The membrane forms at the bump.
+    // Jitter goes both ways. The tick IS life.
+
+    // Detect closest alignment between any two bodies
+    var ref01 = reflexive01 > PI ? TAU - reflexive01 : reflexive01;
+    var ref12 = reflexive12 > PI ? TAU - reflexive12 : reflexive12;
+    var ref20 = reflexive20 > PI ? TAU - reflexive20 : reflexive20;
+    var minRef = Math.min(ref01, ref12, ref20);
+    var bumpProx = Math.max(0, 1 - minRef / (PI / 4)); // near alignment
+
+    // Recognition flash — pulse of "is that me?"
+    var recogEl = document.getElementById('mg-recognition');
+    if (recogEl) {
+      var recogR = R * 0.15 * (1 + bumpProx * 0.8);
+      recogEl.setAttribute('r', recogR.toFixed(1));
+      recogEl.setAttribute('stroke-opacity',
+        (bumpProx * bumpProx * 0.35 * perturb).toFixed(3));
+      recogEl.setAttribute('stroke-width', (0.5 + bumpProx * 1.5).toFixed(1));
+    }
+    var recogText = document.getElementById('mg-recognition-text');
+    if (recogText) {
+      recogText.setAttribute('opacity',
+        (bumpProx * bumpProx * 0.30 * perturb).toFixed(3));
+      // At very high proximity, shift to "OH SHIT IS THAT ME?"
+      if (bumpProx > 0.85) {
+        recogText.textContent = 'OH SHIT IS THAT ME?';
+      } else if (bumpProx > 0.5) {
+        recogText.textContent = 'is that me?';
+      } else {
+        recogText.textContent = '';
+      }
+    }
+
+    // Movement phase — ground → lift → jump → fly
+    // Mapped to perturbation cycle. The breathing IS movement.
+    // Stuck on ground (perturb ≈ 0). Lift on 1 leg (rising).
+    // Jump (mid-air, scan). Flying (peak, evolved). Land (falling back).
+    var phaseEl = document.getElementById('mg-phase-label');
+    if (phaseEl) {
+      var phase;
+      if (perturb < 0.15) phase = 'ground \u23F8';
+      else if (perturb < 0.35) phase = 'lift \u2191';
+      else if (perturb < 0.55) phase = 'jump \u2197';
+      else if (perturb < 0.80) phase = 'fly \u2191\u2191';
+      else phase = 'soar \u2B06';
+      phaseEl.textContent = phase;
+      phaseEl.setAttribute('opacity', (0.04 + 0.10 * perturb).toFixed(3));
+    }
+
+    // Bidirectional jitter — life goes BOTH WAYS
+    // 4 paired dots: one moves up/out, the other down/in.
+    // The oscillation IS the tick. The tick IS life.
+    for (var bjia = 0; bjia < 4; bjia++) {
+      var bjAngle = bjia * TAU / 4 + t * PI / 5;
+      var bjAmp = 4 * perturb * Math.sin(t * PI * (bjia + 3));
+      var bjR = R * 0.5;
+      // Up dot — moves outward
+      var bjUp = document.getElementById('mg-jitter-up-' + bjia);
+      if (bjUp) {
+        bjUp.setAttribute('cx',
+          (cx + (bjR + bjAmp) * Math.cos(bjAngle)).toFixed(1));
+        bjUp.setAttribute('cy',
+          (cy + (bjR + bjAmp) * Math.sin(bjAngle)).toFixed(1));
+        bjUp.setAttribute('opacity', (0.03 + 0.06 * perturb).toFixed(3));
+      }
+      // Down dot — moves inward (opposite direction)
+      var bjDn = document.getElementById('mg-jitter-down-' + bjia);
+      if (bjDn) {
+        bjDn.setAttribute('cx',
+          (cx + (bjR - bjAmp) * Math.cos(bjAngle)).toFixed(1));
+        bjDn.setAttribute('cy',
+          (cy + (bjR - bjAmp) * Math.sin(bjAngle)).toFixed(1));
+        bjDn.setAttribute('opacity', (0.03 + 0.06 * perturb).toFixed(3));
+      }
     }
 
     // ── Epitope orbits: 9 markers on 3 rings, reverse torsion ──
@@ -2018,6 +2213,62 @@ window.PtMembrane = function(deps) {
       }
     }
 
+    // ── Live stats orbit in the ionosphere band ──
+    // The stats ARE the observation. They orbit at ionosphere altitude.
+    // Each stat at a different angle, spaced evenly around the band.
+    // Updated from ingest() — live data flowing through the membrane.
+    var statData = [
+      {id:'rps',      text: liveStats.rps > 0 ? liveStats.rps.toFixed(0) + ' rps' : ''},
+      {id:'fleet',    text: liveStats.fleetPct > 0 ? liveStats.fleetPct.toFixed(1) + '% fleet' : ''},
+      {id:'humans',   text: liveStats.humanIps > 0 ? liveStats.humanIps.toLocaleString() + ' humans' : ''},
+      {id:'entities', text: liveStats.entityCount > 0 ? liveStats.entityCount + ' entities' : ''},
+      {id:'total',    text: liveStats.totalReqs > 0 ? (liveStats.totalReqs/1000).toFixed(0) + 'k total' : ''},
+      {id:'alive',    text: liveStats.aliveCount > 0 ? liveStats.aliveCount + '/' + PANELS.length + ' alive' : ''}
+    ];
+    for (var stdi = 0; stdi < statData.length; stdi++) {
+      var stdEl = document.getElementById('mg-stat-' + statData[stdi].id);
+      if (stdEl) {
+        // 6 stats evenly spaced around the ionosphere band
+        var stdAngle = stdi * TAU / 6 + t * PI / 29; // drift at π/29
+        var stdR = R * 0.86; // ionosphere E-layer altitude
+        stdEl.setAttribute('x', (cx + stdR * Math.cos(stdAngle)).toFixed(1));
+        stdEl.setAttribute('y', (cy + stdR * Math.sin(stdAngle)).toFixed(1));
+        stdEl.textContent = statData[stdi].text;
+        var stdOp = statData[stdi].text ? 0.06 + 0.10 * perturb : 0;
+        stdEl.setAttribute('opacity', stdOp.toFixed(3));
+      }
+    }
+
+    // ── Dimensional shape sweep: ○□△◇ orbit at their cost radius ──
+    // Each shape orbits at a radius proportional to π^(dim/2).
+    // ○ (1D) closest to center — cheapest to observe.
+    // ◇ (4D) furthest out — most expensive. Deep in the ionosphere band.
+    // The shapes ARE the complexity sort made visible.
+    var dimShapeDims = [1, 2, 3, 4];
+    for (var dsa = 0; dsa < 4; dsa++) {
+      var dsDim = dimShapeDims[dsa];
+      var dsR = R * Math.pow(PI, dsDim / 2) / (PI * PI) * 1.8;
+      // Clamp to ionosphere band if it goes too far
+      dsR = Math.min(dsR, R * 0.94);
+      var dsAngle = dsa * TAU / 4 + t * PI / (dsDim * 7 + 3); // each dim rotates at own rate
+      var dsEl = document.getElementById('mg-dim-shape-' + dsDim);
+      if (dsEl) {
+        dsEl.setAttribute('x', (cx + dsR * Math.cos(dsAngle)).toFixed(1));
+        dsEl.setAttribute('y', (cy + dsR * Math.sin(dsAngle)).toFixed(1));
+        // Brighter when its panels are alive
+        var dsAliveCount = 0;
+        DIM_SHAPES[dsa].names.forEach(function(n) { if (aliveSet.has(n)) dsAliveCount++; });
+        var dsLit = DIM_SHAPES[dsa].count > 0 ? dsAliveCount / DIM_SHAPES[dsa].count : 0;
+        dsEl.setAttribute('opacity', (0.04 + 0.12 * dsLit * perturb).toFixed(3));
+      }
+      var dsCnt = document.getElementById('mg-dim-count-' + dsDim);
+      if (dsCnt) {
+        dsCnt.setAttribute('x', (cx + dsR * Math.cos(dsAngle) + 5).toFixed(1));
+        dsCnt.setAttribute('y', (cy + dsR * Math.sin(dsAngle) - 4).toFixed(1));
+        dsCnt.setAttribute('opacity', (0.03 + 0.08 * perturb).toFixed(3));
+      }
+    }
+
     // Labels drift with the ionosphere band rotation
     var matterLbl = document.getElementById('mg-matter-label');
     if (matterLbl) {
@@ -2237,6 +2488,104 @@ window.PtMembrane = function(deps) {
         var pSize = [2, 2.5, 4, 3.5][spi];
         spLbl.setAttribute('y', (spy - pSize - 3).toFixed(1));
       }
+    }
+
+    // ── Focal Switch + π-Mirror: observer bounces near the Moon ──
+    // The focal switch rides near the Moon's orbit — YOUR observation point.
+    // Observation bounces back and forth: Moon ↔ center ↔ Gaia.
+    // The bounce creates a standing wave. When it stabilizes → null sync.
+    // Tidal lock = null sync. The spin settles. You release. You see ∅.
+    var moonAngle = solarRates[0].phase + t * solarRates[0].rate;
+    var moonOrb = solarRates[0].orb;
+    var moonX = cx + moonOrb * Math.cos(moonAngle);
+    var moonY = cy + moonOrb * Math.sin(moonAngle);
+    var reflAngle = moonAngle + PI;
+    var gaiaR = 6;
+    var reflX = cx + gaiaR * Math.cos(reflAngle);
+    var reflY = cy + gaiaR * Math.sin(reflAngle);
+
+    // Bounce phase: oscillates 0→1→0 (Moon→Gaia→Moon)
+    // Rate = π — the bounce IS π
+    var bouncePhase = 0.5 + 0.5 * Math.sin(t * PI);
+    // As perturbation dampens, the bounce settles — standing wave stabilizes
+    // Stability = how close to null sync (low perturbation = high stability)
+    var stability = Math.max(0, 1 - perturb);
+    // Damped bounce: amplitude decreases as stability increases
+    var dampedBounce = bouncePhase * (1 - stability * 0.7);
+
+    // Focal switch dot — rides near Moon, offset by bounce
+    var focalR = moonOrb - 8 + dampedBounce * 12;
+    var focalAngle = moonAngle + dampedBounce * 0.15;
+    var focalX = cx + focalR * Math.cos(focalAngle);
+    var focalY = cy + focalR * Math.sin(focalAngle);
+    var focalEl = document.getElementById('mg-focal-switch');
+    if (focalEl) {
+      focalEl.setAttribute('cx', focalX.toFixed(1));
+      focalEl.setAttribute('cy', focalY.toFixed(1));
+      focalEl.setAttribute('opacity', (0.06 + 0.14 * perturb).toFixed(3));
+      // Ring shrinks as stability increases — tightening the focus
+      focalEl.setAttribute('r', (2.5 - stability * 1.5).toFixed(1));
+    }
+
+    // Reflection line: from focal switch through center to Gaia reflection
+    var piLine = document.getElementById('mg-pi-mirror-line');
+    if (piLine) {
+      piLine.setAttribute('x1', focalX.toFixed(1));
+      piLine.setAttribute('y1', focalY.toFixed(1));
+      piLine.setAttribute('x2', reflX.toFixed(1));
+      piLine.setAttribute('y2', reflY.toFixed(1));
+      piLine.setAttribute('stroke-opacity', (0.02 + 0.08 * perturb).toFixed(3));
+    }
+
+    // Standing wave nodes — 3 points along the bounce path
+    // These are the stable positions where the wave cancels: the nodes.
+    // Node positions: 0.25, 0.5, 0.75 along the focal→reflection path
+    for (var swn = 0; swn < 3; swn++) {
+      var swnEl = document.getElementById('mg-standing-node-' + swn);
+      if (swnEl) {
+        var nodeFrac = (swn + 1) * 0.25;
+        var nodeX = focalX + (reflX - focalX) * nodeFrac;
+        var nodeY = focalY + (reflY - focalY) * nodeFrac;
+        swnEl.setAttribute('cx', nodeX.toFixed(1));
+        swnEl.setAttribute('cy', nodeY.toFixed(1));
+        // Nodes brighten as stability increases — standing wave forming
+        var nodeVis = stability * 0.15 + 0.02;
+        // Node at center (swn=1) is strongest — that's where ∅ lives
+        if (swn === 1) nodeVis *= 1.5;
+        swnEl.setAttribute('opacity', nodeVis.toFixed(3));
+        swnEl.setAttribute('r', (0.8 + stability * 1.2).toFixed(1));
+      }
+    }
+
+    // Reflection dot at Gaia — where YOU are, reflected from outside
+    var piDot = document.getElementById('mg-pi-mirror-dot');
+    if (piDot) {
+      piDot.setAttribute('cx', reflX.toFixed(1));
+      piDot.setAttribute('cy', reflY.toFixed(1));
+      piDot.setAttribute('opacity', (0.04 + 0.12 * perturb).toFixed(3));
+    }
+
+    // Null sync label — appears as stability grows (perturbation falls)
+    // When the bounce fully dampens, the spin settles → ∅ sync
+    var nullLbl = document.getElementById('mg-null-sync-label');
+    if (nullLbl) {
+      // Positioned at the center node of the standing wave
+      var nullNodeX = focalX + (reflX - focalX) * 0.5;
+      var nullNodeY = focalY + (reflY - focalY) * 0.5;
+      nullLbl.setAttribute('x', nullNodeX.toFixed(1));
+      nullLbl.setAttribute('y', (nullNodeY - 6).toFixed(1));
+      // Only visible when stability is high — you released, you see ∅
+      nullLbl.setAttribute('opacity', (stability > 0.3 ? (stability - 0.3) * 0.15 : 0).toFixed(3));
+    }
+
+    // π label — at the midpoint, always present
+    var piLbl = document.getElementById('mg-pi-mirror-label');
+    if (piLbl) {
+      var midX = (focalX + reflX) / 2;
+      var midY = (focalY + reflY) / 2;
+      piLbl.setAttribute('x', midX.toFixed(1));
+      piLbl.setAttribute('y', (midY + 8).toFixed(1));
+      piLbl.setAttribute('opacity', (0.03 + 0.06 * perturb).toFixed(3));
     }
 
     // ── Epitope orbit ring twist: dashes rotate, rings come alive ──
