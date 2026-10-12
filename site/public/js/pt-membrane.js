@@ -313,18 +313,22 @@ window.PtMembrane = function(deps) {
     // Each tier contains all below it. Each abstracts all below it.
     // The jelly: soft, translucent, wobbling. The connective tissue of reality.
     var spineG = el('g', {id:'mg-spine'}, svg);
+    // ── Fossilized inventory: each tier maps to a real system layer ──
+    // Scanned Wave 176. Swept across 62 Rust modules, 10 sites, 28 panels.
+    // Sorted by alive/dead. Fossilized here. Evolution = wiring the dead zone.
+    // The maze increases diffraction → ∞. More leak, less impact per leak.
     var TIERS = [
-      {name:'\u2205',      rFrac:0,     color:'#ffffff'},  // null — the point
-      {name:'quark',       rFrac:0.05,  color:'#d2a8ff'},  // fundamental particle
-      {name:'atom',        rFrac:0.18,  color:'#c9d1d9'},  // H — simplest
-      {name:'He',          rFrac:0.25,  color:'#f0e68c'},  // fusion product
-      {name:'H\u2082O',    rFrac:0.35,  color:'#58a6ff'},  // molecule — bonds
-      {name:'lattice',     rFrac:0.52,  color:'#6e7681'},  // crystal — structure
-      {name:'helix',       rFrac:0.68,  color:'#d2a8ff'},  // DNA — code
-      {name:'cell',        rFrac:0.82,  color:'#5ab87a'},  // membrane — boundary
-      {name:'Earth',       rFrac:1.0,   color:'#c9d1d9'},  // ring — the membrane
-      {name:'system',      rFrac:1.32,  color:'#f0e68c'},  // solar — scale
-      {name:'Oort',        rFrac:1.55,  color:'#484f58'}   // cosmic membrane
+      {name:'\u2205',      rFrac:0,     color:'#ffffff',  sys:'NullDimension',      alive:0},  // sine wave fallback
+      {name:'quark',       rFrac:0.05,  color:'#d2a8ff',  sys:'log lines',          alive:1},  // skunky-ingest pipeline
+      {name:'atom',        rFrac:0.18,  color:'#c9d1d9',  sys:'IpProfile',           alive:1},  // entity fingerprint
+      {name:'He',          rFrac:0.25,  color:'#f0e68c',  sys:'fleet/human',         alive:1},  // classification sort
+      {name:'H\u2082O',    rFrac:0.35,  color:'#58a6ff',  sys:'epitope cluster',     alive:1},  // behavioral molecule
+      {name:'lattice',     rFrac:0.52,  color:'#6e7681',  sys:'Anderson bridge',     alive:0},  // NOT in dashboard
+      {name:'helix',       rFrac:0.68,  color:'#d2a8ff',  sys:'bingo cube',          alive:0},  // NOT in dashboard
+      {name:'cell',        rFrac:0.82,  color:'#5ab87a',  sys:'membrane stack',      alive:0},  // written, not consumed
+      {name:'Earth',       rFrac:1.0,   color:'#c9d1d9',  sys:'HUD 22/28',           alive:1},  // partial
+      {name:'system',      rFrac:1.32,  color:'#f0e68c',  sys:'10 sites 43 repos',   alive:1},  // ecosystem
+      {name:'Oort',        rFrac:1.55,  color:'#484f58',  sys:'honeycomb maze',      alive:1}   // scatter + 12 decoys
     ];
     // Tier nodes — complexity markers along the spine
     for (var sti = 0; sti < TIERS.length; sti++) {
@@ -1517,6 +1521,18 @@ window.PtMembrane = function(deps) {
     var perturb = livePerturb >= 0 ? livePerturb : sinePerturb;
     var BR = R * (PI/8) * perturb;
 
+    // ── Evolve tier alive status from live data ──
+    // When NullDimension data arrives, ∅ tier goes alive.
+    // When bingo/anderson fields appear in dashboard, those tiers light up.
+    // The dead zone shrinks as we wire the missing bridges.
+    TIERS[0].alive = livePerturb >= 0 ? 1 : 0;  // ∅: alive when NullDimension data arrives
+    // Tiers 5-7 evolve when their Rust modules start emitting to dashboard.json
+    // For now: check if the dashboard has the fields (set in ingest)
+    TIERS[5].alive = prevDash && prevDash.anderson_selectivity ? 1 : 0;  // lattice: Anderson
+    TIERS[6].alive = prevDash && prevDash.bingo_cube_summary ? 1 : 0;    // helix: Bingo
+    TIERS[7].alive = prevDash && prevDash.membrane_geometry ? 1 : 0;     // cell: membrane stack
+    TIERS[8].alive = liveStats.aliveCount > 14 ? 1 : 0; // Earth: >50% panels alive
+
     // ── Angular velocities: 3 independent wheels ──
     // IS:     fastest — π/7  rad/s (completes a cycle in 14s)
     // WILLBE: middle  — π/11 rad/s (completes in 22s)
@@ -2656,18 +2672,31 @@ window.PtMembrane = function(deps) {
       var stx = cx + stR * Math.cos(stNodeAngle);
       var sty = cy + stR * Math.sin(stNodeAngle);
       var stNode = document.getElementById('mg-tier-' + stai);
+      var tierAlive = TIERS[stai].alive;
       if (stNode) {
         stNode.setAttribute('cx', stx.toFixed(1));
         stNode.setAttribute('cy', sty.toFixed(1));
-        // Pulse at tier's own prime rate
         var stPulse = 0.08 + 0.06 * Math.sin(t * PI / (stai + 2));
-        stNode.setAttribute('opacity', (stPulse * (0.3 + 0.7 * perturb)).toFixed(3));
+        if (tierAlive) {
+          // Alive tier: normal pulse, color stays
+          stNode.setAttribute('opacity', (stPulse * (0.3 + 0.7 * perturb)).toFixed(3));
+          stNode.setAttribute('r', '1.2');
+        } else {
+          // Dead zone: flash red, larger radius — the gap is visible
+          // The dead zone IS the missing bridge: lattice→helix→cell
+          var deadFlash = 0.04 + 0.03 * Math.sin(t * PI * 2.3 + stai);
+          stNode.setAttribute('opacity', deadFlash.toFixed(3));
+          stNode.setAttribute('fill', '#e85d3a');
+          stNode.setAttribute('r', (1.8 + 0.5 * Math.sin(t * PI * 0.7)).toFixed(1));
+        }
       }
       var stLabel = document.getElementById('mg-tier-label-' + stai);
       if (stLabel) {
         stLabel.setAttribute('x', (stx + 5).toFixed(1));
         stLabel.setAttribute('y', (sty - 3).toFixed(1));
-        stLabel.setAttribute('opacity', (0.04 + 0.08 * perturb).toFixed(3));
+        // Dead tiers show their system name on hover-equivalent: brighter label
+        var lblOp = tierAlive ? (0.04 + 0.08 * perturb) : (0.06 + 0.04 * Math.sin(t * PI));
+        stLabel.setAttribute('opacity', lblOp.toFixed(3));
       }
     }
 
@@ -2683,7 +2712,16 @@ window.PtMembrane = function(deps) {
         stlLink.setAttribute('y1', (cy + stlR1 * Math.sin(stlA1)).toFixed(1));
         stlLink.setAttribute('x2', (cx + stlR2 * Math.cos(stlA2)).toFixed(1));
         stlLink.setAttribute('y2', (cy + stlR2 * Math.sin(stlA2)).toFixed(1));
-        stlLink.setAttribute('stroke-opacity', (0.03 + 0.04 * perturb).toFixed(3));
+        // Links spanning dead tiers flash — the bridge is broken here
+        var linkAlive = TIERS[stli].alive && TIERS[stli + 1].alive;
+        if (linkAlive) {
+          stlLink.setAttribute('stroke-opacity', (0.03 + 0.04 * perturb).toFixed(3));
+        } else {
+          // Broken link: red, flickering — the gap in the complexity chain
+          stlLink.setAttribute('stroke', '#e85d3a');
+          stlLink.setAttribute('stroke-opacity', (0.02 + 0.03 * Math.sin(t * PI * 1.7 + stli)).toFixed(3));
+          stlLink.setAttribute('stroke-dasharray', '1,3');
+        }
       }
     }
 
