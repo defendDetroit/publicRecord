@@ -79,7 +79,8 @@
       "label": "Jehan Crump-Gibson",
       "type": "actor",
       "tier": 2,
-      "role": "Attorney â€” Banks defense + ADB Panelist"
+      "role": "Attorney representing Brian Banks (9 felony convictions) in custody case 26-108221-DC. ADB Hearing Panelist — sits on the body that disciplines attorneys while representing a 9-time felon at K-12 schools. GLLG principal. Confirmed in writing NOT retained for law enforcement matters. On Burris reply-all thread Oct 12. Previously assumed aligned — assumption revoked.",
+      "classification": "enabler"
     },
     {
       "id": "misha_stallworth",
@@ -591,7 +592,10 @@
       "label": "Great Lakes Legal Group PLLC",
       "type": "entity",
       "entity_type": "Law firm",
-      "lara_id": "802112914"
+      "lara_id": "802112914",
+      "tier": 2,
+      "classification": "enabler_firm",
+      "note": "GLLG PLLC. Jehan Crump-Gibson, principal. Firm represents Brian Banks in custody proceedings. Banks has 9 felony convictions at K-12 institutions. Firm's representation enables Banks' continued access to child through legal process."
     },
     {
       "id": "citizendetroit",
@@ -604,7 +608,8 @@
       "id": "chojlf",
       "label": "Crump Hall of Justice Law Firm",
       "type": "entity",
-      "entity_type": "Law firm"
+      "entity_type": "Law firm",
+      "note": "Crump Hall of Justice Law Firm. V. Hall connection. Related entity to GLLG ecosystem."
     },
     {
       "id": "gvsu",
@@ -4572,6 +4577,33 @@
       "note": "NPE's ED (Burris) replied-all twice to charter fraud evidence involving Banks. NPE publishes reports on charter fraud. NPE's ED refused to engage with live charter fraud. Organizational complicity through leadership.",
       "weight": 9,
       "source_doc": "Emails Oct 12, 2026 10:49 AM + 11:10 AM"
+    },
+    {
+      "source": "crump_gibson",
+      "target": "adb",
+      "type": "governance",
+      "epistemic_status": "record",
+      "note": "ADB Hearing Panelist. Sits on the body that disciplines attorneys — while representing a 9-time felon at K-12 schools.",
+      "weight": 9,
+      "source_doc": "ADB panelist roster; michigan.gov/adb"
+    },
+    {
+      "source": "crump_gibson",
+      "target": "burris",
+      "type": "co_recipient",
+      "epistemic_status": "record",
+      "note": "Both on Burris reply-all thread Oct 12, 2026. Crump-Gibson saw Burris dismiss charter fraud evidence in real time.",
+      "weight": 5,
+      "source_doc": "Email thread Oct 12, 2026"
+    },
+    {
+      "source": "great_lakes_legal",
+      "target": "crump_gibson",
+      "type": "employment",
+      "epistemic_status": "record",
+      "note": "Crump-Gibson is principal/owner of GLLG PLLC.",
+      "weight": 8,
+      "source_doc": "LARA entity records; GLLG website"
     }
   ],
   "epistemic_grammar": {
