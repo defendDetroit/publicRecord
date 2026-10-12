@@ -6349,6 +6349,52 @@
       "class": "entity",
       "classification": "non-self",
       "wiki_url": "https://en.wikipedia.org/wiki/Rouge_River_(Michigan)"
+    },
+    {
+      "id": "chalena_beasley",
+      "label": "Dr. Chalena Beasley",
+      "type": "actor",
+      "tier": 4,
+      "role": "PCA School Leader (principal). Ph.D. Educational Leadership, Wayne State. Cass Tech alum. Former principal Bunche Preparatory Academy. BEASLEY surname — same as Ahmed Beasley (Plante Moran SVP). Is the PCA principal related to the Plante Moran K-12 consultant?",
+      "class": "entity",
+      "classification": "null"
+    },
+    {
+      "id": "ml_elrick",
+      "label": "M.L. Elrick",
+      "type": "actor",
+      "tier": 5,
+      "role": "Detroit Free Press investigative columnist. Wrote 'Back to Fool' (Aug 27, 2023) — first major exposé of Banks at MacDowell. Documented 8 felonies, unpaid debts, campaign finance violations, debt collection. 'No one in charge wants to talk.'",
+      "class": "entity",
+      "classification": "non-self"
+    },
+    {
+      "id": "sexual_harassment_suit",
+      "label": "Banks Sexual Harassment Lawsuit (2013)",
+      "type": "entity",
+      "entity_type": "Legal case",
+      "tier": 5,
+      "role": "2013: Former aide sued Banks for sexual harassment. Banks settled for $11,950. Wikipedia-sourced. Settled lawsuit while serving as State Representative.",
+      "class": "entity",
+      "classification": "null"
+    },
+    {
+      "id": "bishop_sheard",
+      "label": "Bishop J. Drew Sheard",
+      "type": "actor",
+      "tier": 5,
+      "role": "Greater Emmanuel Institutional COGIC. Banks' church. Banks claims membership on every official bio. Presiding Bishop of COGIC International (2021-). 2M+ member denomination. Does Sheard know about 9 convictions?",
+      "class": "entity",
+      "classification": "null"
+    },
+    {
+      "id": "gary_perlmuter",
+      "label": "Gary E. Perlmuter, Esq.",
+      "type": "actor",
+      "tier": 5,
+      "role": "Organizing attorney for Purpose Group LLC. Drafted Article V liability shields. Set up the legal structure of the extraction engine.",
+      "class": "entity",
+      "classification": "null"
     }
   ],
   "edges": [
@@ -38228,6 +38274,159 @@
       "weight": 9,
       "note": "Pattern: Aug 29 (physical block by Giselle, DPD report). Oct 12 AM (Ms. Perkins: 'haven't seen him'). Oct 12 PM (Banks impersonates child, fake voice, fake police threat). Three incidents. Three tactics. Same goal: deny parental access.",
       "source_doc": "DPD #26-0909-0176, phone logs Oct 12"
+    },
+    {
+      "source": "chalena_beasley",
+      "target": "pca",
+      "type": "principal",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "PCA School Leader. Ph.D. Wayne State. Cass Tech alum. Former Bunche Prep principal.",
+      "source_doc": "purposecharteracademy.com/ourschoolleader"
+    },
+    {
+      "source": "chalena_beasley",
+      "target": "banks",
+      "type": "employment",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "Works for Banks at PCA. Her superintendent has 9 convictions.",
+      "source_doc": "purposecharteracademy.com"
+    },
+    {
+      "source": "chalena_beasley",
+      "target": "beasley",
+      "type": "surname_match",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "BEASLEY surname. Ahmed Beasley is Plante Moran SVP for K-12 Capital Projects. Chalena Beasley is PCA principal. Are they related? Same surname at same school orbit.",
+      "source_doc": "Plante Moran website + PCA website"
+    },
+    {
+      "source": "beasley",
+      "target": "plante_moran",
+      "type": "employment",
+      "epistemic_status": "record",
+      "weight": 9,
+      "note": "Ahmed Beasley: Senior VP at Plante Moran Realpoint. K-12 Capital Project Consulting. 25+ years program management. Former Barton Malow (17 years, K-12 projects). Lawrence Tech civil engineering degree.",
+      "source_doc": "plantemoran.com/get-to-know/people/ahmed-beasley"
+    },
+    {
+      "source": "banks",
+      "target": "promise_schools",
+      "type": "student_recruitment",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "2019: Banks PAID to recruit students for Promise Schools (Highland Park). 8-time felon recruiting children for a school. Fox 2 Detroit reported Oct 2019.",
+      "source_doc": "Fox 2 Detroit, Oct 21, 2019"
+    },
+    {
+      "source": "promise_schools",
+      "target": "detroit_city",
+      "type": "charter_school",
+      "epistemic_status": "record",
+      "weight": 4,
+      "note": "K-8 school in Highland Park (Detroit metro).",
+      "source_doc": "Fox 2 Detroit"
+    },
+    {
+      "source": "ml_elrick",
+      "target": "detroit_free_press",
+      "type": "employment",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "Detroit Free Press investigative columnist.",
+      "source_doc": "freep.com"
+    },
+    {
+      "source": "ml_elrick",
+      "target": "banks",
+      "type": "investigation",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "'Back to Fool' (Aug 27, 2023). First major exposé. 8 felonies, unpaid debts, campaign finance violations. 'No one in charge wants to talk.'",
+      "source_doc": "freep.com/story/news/columnists/ml-elrick/2023/08/27/detroit-school-former-felon-as-principal/70669868007/"
+    },
+    {
+      "source": "ml_elrick",
+      "target": "macdowell",
+      "type": "investigation",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "Investigated MacDowell's hiring of Banks.",
+      "source_doc": "Detroit Free Press Aug 2023"
+    },
+    {
+      "source": "sexual_harassment_suit",
+      "target": "banks",
+      "type": "lawsuit",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "2013: Former aide sued Banks for sexual harassment. Settled $11,950. While serving as State Representative.",
+      "source_doc": "Wikipedia, court records"
+    },
+    {
+      "source": "bishop_sheard",
+      "target": "banks",
+      "type": "church_membership",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "Banks claims membership in Greater Emmanuel COGIC under Bishop Sheard. Every official bio lists this. Sheard is Presiding Bishop of COGIC International (2M+ members).",
+      "source_doc": "purposecharteracademy.com, pahara.org, macdowellprep.com"
+    },
+    {
+      "source": "bishop_sheard",
+      "target": "detroit_city",
+      "type": "religious_leader",
+      "epistemic_status": "record",
+      "weight": 4,
+      "note": "Greater Emmanuel Institutional COGIC, Detroit.",
+      "source_doc": "Wikipedia"
+    },
+    {
+      "source": "gary_perlmuter",
+      "target": "purpose_group",
+      "type": "organizing_attorney",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "Organized Purpose Group LLC. Drafted Article V liability shields for Banks.",
+      "source_doc": "LARA 803295082"
+    },
+    {
+      "source": "gary_perlmuter",
+      "target": "banks",
+      "type": "legal_service",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "Set up the legal structure of the extraction engine.",
+      "source_doc": "LARA filing"
+    },
+    {
+      "source": "banks",
+      "target": "walden_university",
+      "type": "claimed_phd",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "STILL claims Ph.D. from Walden on purposecharteracademy.com, pahara.org, and macdowellprep.com. Live as of Oct 12, 2026.",
+      "source_doc": "purposecharteracademy.com/ourfounder, pahara.org/fellow/brian-banks"
+    },
+    {
+      "source": "banks",
+      "target": "msu_law",
+      "type": "fake_jd_claim",
+      "epistemic_status": "record",
+      "weight": 9,
+      "note": "STILL claims 'Juris Doctor from Michigan State University College of Law' on ALL official bios. State Bar of Michigan returns ZERO results. Live as of Oct 12, 2026. This is an ongoing false representation on government-facing documents.",
+      "source_doc": "purposecharteracademy.com, pahara.org, macdowellprep.com, mdoe.state.mi.us"
+    },
+    {
+      "source": "pca",
+      "target": "dpscd",
+      "type": "authorization",
+      "epistemic_status": "record",
+      "weight": 9,
+      "note": "PCA authorized by Detroit Public Schools Community District, NOT CMU. Footer of purposecharteracademy.com: 'Authorized by Detroit Public Schools Community District.'",
+      "source_doc": "purposecharteracademy.com"
     }
   ],
   "epistemic_grammar": {
