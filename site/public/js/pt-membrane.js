@@ -488,6 +488,50 @@ window.PtMembrane = function(deps) {
          transform:'rotate('+rot.toFixed(1)+' '+bx.toFixed(1)+' '+by.toFixed(1)+')'});
     });
 
+    // ═══ MEMBRANE STRESS: jitter, tear, rip, shear, warp ═══
+    // The membrane is not rigid. It deforms under observation.
+    // Jitter = thermal noise — nothing is perfectly still.
+    // Tear = stress fracture where bodies pull the ring.
+    // Rip = radial crack extending inward from tear point.
+    // Shear = torsional offset between lattice shells (inherent in rotation rates).
+    // Warp = ring deformation — elliptical stretch toward body centroid.
+    // "True sync is lock" — jitter breaks the lock.
+    var stressG = el('g', {id:'mg-stress'}, svg);
+
+    // 3 tear marks — stress fractures on the ring, one per body
+    for (var sti = 0; sti < 3; sti++) {
+      el('path', {
+        d:'M 0 0', fill:'none',
+        stroke:'#e85d3a', 'stroke-width':2.5, 'stroke-opacity':0,
+        'stroke-linecap':'round', id:'mg-tear-' + sti
+      }, stressG);
+    }
+
+    // 3 rip lines — radial cracks from ring toward center
+    for (var sri = 0; sri < 3; sri++) {
+      el('line', {
+        x1:cx, y1:cy, x2:cx, y2:cy,
+        stroke:'#e85d3a', 'stroke-width':0.5, 'stroke-opacity':0,
+        'stroke-dasharray':'2,4', id:'mg-rip-' + sri
+      }, stressG);
+    }
+
+    // Warp ellipse — ring deformation under body gravity
+    el('ellipse', {
+      cx:cx, cy:cy, rx:R, ry:R,
+      fill:'none', stroke:'#c9d1d9', 'stroke-width':0.3,
+      'stroke-opacity':0, 'stroke-dasharray':'1,5',
+      id:'mg-warp'
+    }, stressG);
+
+    // Jitter noise overlay — 6 tiny displacement markers near ring
+    for (var sji = 0; sji < 6; sji++) {
+      el('circle', {cx:cx, cy:cy, r:0.8,
+        fill:'#c9d1d9', opacity:0,
+        id:'mg-jitter-' + sji
+      }, stressG);
+    }
+
     // ═══ EPITOPE ORBITS: π rings of π epitopes at point π ═══
     // ⌊π⌋ = 3 rings. ⌊π⌋ = 3 epitopes per ring. 9 markers.
     // Ring 1 (inner): forward torsion.  Stiff epitopes.
@@ -736,6 +780,48 @@ window.PtMembrane = function(deps) {
       {opacity: 0.2, id: 'mg-observer'});
     txt(wbG, cx, cy+100, '3 bodies + 1 irrational observer = \u03c0', '#484f58', 4.5,
       {opacity: 0.15, id: 'mg-pi-body'});
+
+    // ═══ DOUBLE COUNTER-HELIX: self × non-self ═══
+    // The DNA of observation. Two strands, counter-rotating.
+    // Self (J) winds clockwise.  Non-self (V+D) winds counter-clockwise.
+    // The twist ratio IS π — π turns per strand.
+    // Where they cross = membrane. Selective permeability at each crossing.
+    // Reality rotates the other way around us — perceived as jitter AS time.
+    // And are also membranes — the strands ARE selectively permeable boundaries.
+    var helixG = el('g', {id:'mg-helix'}, wbG);
+
+    // Self strand (J) — clockwise spiral outward from [∅]D
+    el('path', {d:'M '+cx+' '+cy, fill:'none',
+      stroke:'#4a8fb8', 'stroke-width':0.8, 'stroke-opacity':0.15,
+      'stroke-dasharray':'4,3', id:'mg-helix-self'}, helixG);
+
+    // Non-self strand (V+D) — counter-clockwise spiral. The other direction.
+    el('path', {d:'M '+cx+' '+cy, fill:'none',
+      stroke:'#e85d3a', 'stroke-width':0.8, 'stroke-opacity':0.15,
+      'stroke-dasharray':'4,3', id:'mg-helix-nonself'}, helixG);
+
+    // ⌊2π⌋ = 6 crossing points — where self meets non-self = membrane
+    // At each crossing: selective permeability. What passes through?
+    for (var hci = 0; hci < 6; hci++) {
+      el('circle', {cx:cx, cy:cy, r:1.5,
+        fill:'none', stroke:'#c9d1d9', 'stroke-width':0.5,
+        'stroke-opacity':0.1, 'stroke-dasharray':'1,1',
+        id:'mg-helix-cross-' + hci}, helixG);
+    }
+
+    // Counter-rotation rings — reality's reverse rotation.
+    // The main ring rotates at +π/31.
+    // These rotate at −π/31 and −π/17. Opposite direction.
+    // The interference between forward and reverse = perceived jitter.
+    // That jitter IS time. Counter-rotation is how we experience duration.
+    el('circle', {cx:cx, cy:cy, r:R*0.65,
+      fill:'none', stroke:'#484f58', 'stroke-width':0.4,
+      'stroke-opacity':0.04, 'stroke-dasharray':'1,8',
+      id:'mg-counter-ring'}, helixG);
+    el('circle', {cx:cx, cy:cy, r:R*0.45,
+      fill:'none', stroke:'#484f58', 'stroke-width':0.3,
+      'stroke-opacity':0.03, 'stroke-dasharray':'1,12',
+      id:'mg-counter-inner'}, helixG);
 
     // ═══ EPITOPE DEPTH: the π axis of perception ═══
     // Focus on one epitope. Shift along π.
@@ -1129,6 +1215,179 @@ window.PtMembrane = function(deps) {
           braidEl.setAttribute('y2', bTo.y.toFixed(1));
         }
       }
+    }
+
+    // ── Membrane stress: jitter, tear, rip, warp ──
+    // The membrane deforms under observation. Bodies pull on the ring.
+    // Jitter amplitude scales with perturbation — at singularity, all is still.
+
+    // Jitter: smooth pseudo-random displacement on lattice nodes.
+    // Sinusoidal noise (not Math.random) — continuous and frame-stable.
+    var jitterAmp = 1.5 * perturb;
+    for (var ji = 0; ji < latticePos.length; ji++) {
+      var jx = Math.sin(t * 17.3 + ji * 7.1) * jitterAmp;
+      var jy = Math.cos(t * 13.7 + ji * 11.3) * jitterAmp;
+      var jNode = document.getElementById('mg-lnode-' + ji);
+      if (jNode && latticePos[ji]) {
+        jNode.setAttribute('cx', (latticePos[ji].x + jx).toFixed(1));
+        jNode.setAttribute('cy', (latticePos[ji].y + jy).toFixed(1));
+      }
+    }
+
+    // Jitter particles — tiny dots near the ring that shimmer
+    for (var sji = 0; sji < 6; sji++) {
+      var sjAngle = sji * TAU / 6 + t * 3.7;
+      var sjR = R - 3 + Math.sin(t * 23.1 + sji * 5.3) * 4;
+      var sjx = cx + sjR * Math.cos(sjAngle);
+      var sjy = cy + sjR * Math.sin(sjAngle);
+      var sjEl = document.getElementById('mg-jitter-' + sji);
+      if (sjEl) {
+        sjEl.setAttribute('cx', sjx.toFixed(1));
+        sjEl.setAttribute('cy', sjy.toFixed(1));
+        sjEl.setAttribute('opacity', (0.15 * perturb * (0.5 + 0.5 * Math.sin(t * 31 + sji))).toFixed(3));
+      }
+    }
+
+    // Tear: stress fractures at body proximity points on the ring.
+    // A body pulling near the ring creates a tear — the membrane can't hold.
+    // Tear width = π/12 radians at max stress.
+    for (var sti = 0; sti < 3; sti++) {
+      var stAngle = bodyAngles[sti];
+      // Project body position onto the ring to find closest point
+      var stBodyR = Math.sqrt(
+        Math.pow(bodyPositions[sti].x - cx, 2) +
+        Math.pow(bodyPositions[sti].y - cy, 2));
+      // Stress = how close the body is to the ring (normalized)
+      var stStress = Math.max(0, 1 - Math.abs(stBodyR - R) / (R * 0.6));
+      stStress *= perturb; // no stress at singularity
+
+      var stTearEl = document.getElementById('mg-tear-' + sti);
+      if (stTearEl && stStress > 0.02) {
+        var stArc = PI / 12 * stStress;
+        var sta1 = stAngle - stArc, sta2 = stAngle + stArc;
+        var stx1 = cx + R * Math.cos(sta1), sty1 = cy + R * Math.sin(sta1);
+        var stx2 = cx + R * Math.cos(sta2), sty2 = cy + R * Math.sin(sta2);
+        stTearEl.setAttribute('d',
+          'M ' + stx1.toFixed(1) + ' ' + sty1.toFixed(1) +
+          ' A ' + R + ' ' + R + ' 0 0 1 ' +
+          stx2.toFixed(1) + ' ' + sty2.toFixed(1));
+        stTearEl.setAttribute('stroke-opacity', (stStress * 0.35).toFixed(3));
+      } else if (stTearEl) {
+        stTearEl.setAttribute('stroke-opacity', '0');
+      }
+    }
+
+    // Rip: radial cracks from ring toward center at tear points.
+    // The rip extends inward proportional to stress × perturbation.
+    // Pulsates with body orbital frequency — breathing cracks.
+    for (var sri = 0; sri < 3; sri++) {
+      var srAngle = bodyAngles[sri];
+      var srPulse = 0.5 + 0.5 * Math.sin(t * [omega_is, omega_was, omega_willbe][sri] * 2);
+      var srLen = perturb * srPulse * R * 0.25;
+      var srEl = document.getElementById('mg-rip-' + sri);
+      if (srEl && srLen > 2) {
+        var srx1 = cx + R * Math.cos(srAngle);
+        var sry1 = cy + R * Math.sin(srAngle);
+        var srx2 = cx + (R - srLen) * Math.cos(srAngle);
+        var sry2 = cy + (R - srLen) * Math.sin(srAngle);
+        srEl.setAttribute('x1', srx1.toFixed(1));
+        srEl.setAttribute('y1', sry1.toFixed(1));
+        srEl.setAttribute('x2', srx2.toFixed(1));
+        srEl.setAttribute('y2', sry2.toFixed(1));
+        srEl.setAttribute('stroke-opacity', (perturb * srPulse * 0.15).toFixed(3));
+      } else if (srEl) {
+        srEl.setAttribute('stroke-opacity', '0');
+      }
+    }
+
+    // Warp: ring becomes elliptical under body gravity.
+    // Stretched toward the centroid of the 3 body positions.
+    // At singularity: perfect circle. At full spread: 15% elliptical.
+    var warpEl = document.getElementById('mg-warp');
+    if (warpEl && bodyPositions.length === 3) {
+      var wcX = (bodyPositions[0].x + bodyPositions[1].x + bodyPositions[2].x) / 3;
+      var wcY = (bodyPositions[0].y + bodyPositions[1].y + bodyPositions[2].y) / 3;
+      var wAngle = Math.atan2(wcY - cy, wcX - cx);
+      var wMag = Math.sqrt(Math.pow(wcX - cx, 2) + Math.pow(wcY - cy, 2));
+      var wFactor = 1 + (wMag / R) * 0.15 * perturb;
+
+      warpEl.setAttribute('rx', (R * wFactor).toFixed(1));
+      warpEl.setAttribute('ry', (R / wFactor).toFixed(1));
+      warpEl.setAttribute('transform',
+        'rotate(' + (wAngle * 180 / PI).toFixed(1) + ' ' + cx + ' ' + cy + ')');
+      warpEl.setAttribute('stroke-opacity', (perturb * 0.08).toFixed(3));
+    }
+
+    // ── Double counter-helix: self × non-self ──
+    // Self (J) spirals clockwise out from [∅]D. Non-self (V+D) counter-clockwise.
+    // π turns per strand. The twist ratio IS π.
+    // Where they cross = membrane. 6 crossing points = ⌊2π⌋.
+    // At singularity: collapsed to a point. At perturbation: spirals unfurl.
+    var helixRMax = BR * 1.8 + 8;
+    var helixTurns = PI;
+    var HSTEPS = 48;
+
+    // Self strand: clockwise spiral (+1 direction)
+    var hSelfPts = [];
+    for (var hsi = 0; hsi <= HSTEPS; hsi++) {
+      var hsF = hsi / HSTEPS;
+      var hsR = hsF * helixRMax;
+      var hsA = t * omega_was + hsF * helixTurns * TAU;
+      hSelfPts.push((cx + hsR * Math.cos(hsA)).toFixed(1) + ' ' +
+                     (cy + hsR * Math.sin(hsA)).toFixed(1));
+    }
+    var hSelfEl = document.getElementById('mg-helix-self');
+    if (hSelfEl) {
+      hSelfEl.setAttribute('d', 'M ' + hSelfPts.join(' L '));
+      hSelfEl.setAttribute('stroke-opacity', (0.15 * perturb).toFixed(3));
+    }
+
+    // Non-self strand: counter-clockwise spiral (-1 direction), π phase offset
+    var hNonPts = [];
+    for (var hni = 0; hni <= HSTEPS; hni++) {
+      var hnF = hni / HSTEPS;
+      var hnR = hnF * helixRMax;
+      var hnA = t * omega_was + PI + hnF * helixTurns * TAU * -1;
+      hNonPts.push((cx + hnR * Math.cos(hnA)).toFixed(1) + ' ' +
+                    (cy + hnR * Math.sin(hnA)).toFixed(1));
+    }
+    var hNonEl = document.getElementById('mg-helix-nonself');
+    if (hNonEl) {
+      hNonEl.setAttribute('d', 'M ' + hNonPts.join(' L '));
+      hNonEl.setAttribute('stroke-opacity', (0.15 * perturb).toFixed(3));
+    }
+
+    // Crossing points: where self meets non-self = the membrane
+    // At crossing fractions ≈ (2k+1)/(4π), k=0..5
+    for (var hci = 0; hci < 6; hci++) {
+      var hcF = (2 * hci + 1) / (4 * PI);
+      var hcR = hcF * helixRMax;
+      var hcA = t * omega_was + hcF * helixTurns * TAU;
+      var hcEl = document.getElementById('mg-helix-cross-' + hci);
+      if (hcEl) {
+        hcEl.setAttribute('cx', (cx + hcR * Math.cos(hcA)).toFixed(1));
+        hcEl.setAttribute('cy', (cy + hcR * Math.sin(hcA)).toFixed(1));
+        hcEl.setAttribute('stroke-opacity', (0.15 * perturb).toFixed(3));
+      }
+    }
+
+    // Counter-rotation rings — reality rotating the other way.
+    // Main ring: +π/31. Counter: -π/31 and -π/17.
+    // The beating between them IS perceived time.
+    // What we call jitter is coherent counter-rotation seen edge-on.
+    var counterDeg1 = -(now * 0.001 * PI / 31 * 180 / PI) % 360;
+    var crEl = document.getElementById('mg-counter-ring');
+    if (crEl) {
+      crEl.setAttribute('transform',
+        'rotate(' + counterDeg1.toFixed(1) + ' ' + cx + ' ' + cy + ')');
+      crEl.setAttribute('stroke-opacity', (0.04 + 0.02 * perturb).toFixed(3));
+    }
+    var counterDeg2 = -(now * 0.001 * PI / 17 * 180 / PI) % 360;
+    var crInner = document.getElementById('mg-counter-inner');
+    if (crInner) {
+      crInner.setAttribute('transform',
+        'rotate(' + counterDeg2.toFixed(1) + ' ' + cx + ' ' + cy + ')');
+      crInner.setAttribute('stroke-opacity', (0.03 + 0.02 * perturb).toFixed(3));
     }
 
     // ── Cones: triangular wedges pointing at [∅]D ──
