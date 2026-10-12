@@ -23,6 +23,11 @@ window.PtMembrane = function(deps) {
   var livePerturb = -1; // -1 = no live data, use sine wave
   var catAccum = {fire:0,membrane:0,immune:0,sound:0};
   var CATS = ['fire','membrane','immune','sound'];
+  // Live stats for ionosphere band display — updated by ingest()
+  var liveStats = {
+    rps: 0, fleetIps: 0, humanIps: 0, fleetPct: 0,
+    totalReqs: 0, entityCount: 0, aliveCount: 0
+  };
 
   function el(tag, a, par) {
     var e = document.createElementNS(NS, tag);
@@ -92,6 +97,14 @@ window.PtMembrane = function(deps) {
       ct[entityToCategory(e.label||'')] += e.total_requests||0;
       tot += e.total_requests||0;
     });
+    // Store live stats for ionosphere band display
+    liveStats.rps = dash.rps || 0;
+    liveStats.fleetIps = dash.fleet_ips || 0;
+    liveStats.humanIps = dash.human_ips || 0;
+    liveStats.fleetPct = dash.fleet_pct || 0;
+    liveStats.totalReqs = dash.total_requests || 0;
+    liveStats.entityCount = ents.length;
+    liveStats.aliveCount = aliveSet.size;
     var s = tot > 0 ? (rps*0.3)/tot : 0;
     CATS.forEach(function(c) { rates[c] = ct[c]*s; });
     CATS.forEach(function(c) {
@@ -699,6 +712,24 @@ window.PtMembrane = function(deps) {
         stroke:'#c9d1d9', 'stroke-width':0.3,
         'stroke-opacity':0.02, id:'mg-predict-' + pwi}, ionoBandG);
     }
+
+    // ── Live stats in the band: astronomers taught us this ──
+    // Stats fall in the band. The ionosphere IS the observation layer.
+    // RPS, fleet %, entity count, human IPs — all orbit in the band.
+    // Astronomers measured stars by magnitude, distance, spectrum.
+    // We measure entities by volume, origin, fingerprint. Same thing.
+    var statLabels = [
+      {id:'rps',     text:'0 rps',     color:'#e85d3a'},
+      {id:'fleet',   text:'0% fleet',  color:'#9b59b6'},
+      {id:'humans',  text:'0 humans',  color:'#5ab87a'},
+      {id:'entities',text:'0 entities',color:'#4a8fb8'},
+      {id:'total',   text:'0 total',   color:'#f0e68c'},
+      {id:'alive',   text:'0 alive',   color:'#c9d1d9'}
+    ];
+    statLabels.forEach(function(sl) {
+      txt(ionoBandG, cx, cy, sl.text, sl.color, 3.5,
+        {opacity:0.04, id:'mg-stat-' + sl.id});
+    });
 
     // Labels: matter = prediction, compression = kernel
     txt(ionoBandG, cx, cy - R * 0.86 - 5,
@@ -2123,6 +2154,32 @@ window.PtMembrane = function(deps) {
         // Fade as they propagate inward
         var pwOp = 0.03 * (1 - pwPhase) * perturb;
         pwEl.setAttribute('stroke-opacity', pwOp.toFixed(4));
+      }
+    }
+
+    // ── Live stats orbit in the ionosphere band ──
+    // The stats ARE the observation. They orbit at ionosphere altitude.
+    // Each stat at a different angle, spaced evenly around the band.
+    // Updated from ingest() — live data flowing through the membrane.
+    var statData = [
+      {id:'rps',      text: liveStats.rps > 0 ? liveStats.rps.toFixed(0) + ' rps' : ''},
+      {id:'fleet',    text: liveStats.fleetPct > 0 ? liveStats.fleetPct.toFixed(1) + '% fleet' : ''},
+      {id:'humans',   text: liveStats.humanIps > 0 ? liveStats.humanIps.toLocaleString() + ' humans' : ''},
+      {id:'entities', text: liveStats.entityCount > 0 ? liveStats.entityCount + ' entities' : ''},
+      {id:'total',    text: liveStats.totalReqs > 0 ? (liveStats.totalReqs/1000).toFixed(0) + 'k total' : ''},
+      {id:'alive',    text: liveStats.aliveCount > 0 ? liveStats.aliveCount + '/' + PANELS.length + ' alive' : ''}
+    ];
+    for (var stdi = 0; stdi < statData.length; stdi++) {
+      var stdEl = document.getElementById('mg-stat-' + statData[stdi].id);
+      if (stdEl) {
+        // 6 stats evenly spaced around the ionosphere band
+        var stdAngle = stdi * TAU / 6 + t * PI / 29; // drift at π/29
+        var stdR = R * 0.86; // ionosphere E-layer altitude
+        stdEl.setAttribute('x', (cx + stdR * Math.cos(stdAngle)).toFixed(1));
+        stdEl.setAttribute('y', (cy + stdR * Math.sin(stdAngle)).toFixed(1));
+        stdEl.textContent = statData[stdi].text;
+        var stdOp = statData[stdi].text ? 0.06 + 0.10 * perturb : 0;
+        stdEl.setAttribute('opacity', stdOp.toFixed(3));
       }
     }
 
