@@ -206,7 +206,7 @@
     { id: 'banks_strategy', label: 'Banks Strategy', tier: 0, type: 'entity',
       detail: 'Receives judge campaign payments. LARA 802070120.', url: '/network/entities/banks-strategy-llc/',
       nexus: ['education', 'political'],
-      dynasty: null, era: null, community: 11 },
+      dynasty: null, era: null, community: 11, classification: 'non-self', confidence: 0.9, opacity: 0.9, sortPass: 1 },
     { id: 'chandler_park', label: 'Chandler Park', tier: 0, type: 'school',
       detail: 'Source of Daily Substitute Permit held by MacDowell 5th-grade teacher', url: null,
       nexus: [],
@@ -218,7 +218,7 @@
     { id: 'cmu', label: 'CMU', tier: 0, type: 'institutional',
       detail: 'Authorized MacDowell. ~9 Detroit schools. Mt. Pleasant (150 mi).', url: null,
       nexus: ['education'],
-      dynasty: null, era: null, community: 1 },
+      dynasty: null, era: null, community: 1, classification: 'self', confidence: 0.9, opacity: 0.9, sortPass: 1 },
     { id: 'custom_promo', label: 'Custom Promo', tier: 0, type: 'entity',
       detail: 'Dissolve-and-reform (Inc → LLC, 3 months). Gordon = attorney under FBI investigation.', url: null,
       nexus: ['political'],
@@ -230,7 +230,7 @@
     { id: 'dpscd', label: 'DPSCD', tier: 0, type: 'institutional',
       detail: 'Authorized PCA despite operator\'s bottom-3% record at MacDowell', url: null,
       nexus: [],
-      dynasty: null, era: null, community: 10 },
+      dynasty: null, era: null, community: 10, classification: 'partial', confidence: 0.6, opacity: 0.6, sortPass: 1 },
     { id: 'dpscd_auth', label: 'DPSCD Auth', tier: 0, type: 'institutional',
       detail: 'Detroit Public Schools Community District. Authorized PCA (2025). 7 charter schools. Collects 3% fee.', url: null,
       nexus: ['education'],
@@ -238,7 +238,7 @@
     { id: 'dykema', label: 'Dykema', tier: 0, type: 'institutional',
       detail: 'MI\'s largest law firm. Formed SDJ. compliance@dykema.com. 201 Townsend, Lansing.', url: null,
       nexus: ['political'],
-      dynasty: null, era: null, community: 8 },
+      dynasty: null, era: null, community: 8, classification: 'null', confidence: 0.75, opacity: 0.75, sortPass: 1 },
     { id: 'eastside_slate', label: 'Eastside Slate', tier: 0, type: 'entity',
       detail: '4th incarnation. Carol Banks = agent. Endorsement machine. LARA 802434498.', url: null,
       nexus: ['political'],
@@ -254,7 +254,7 @@
     { id: 'great_lakes_legal', label: 'Great Lakes Legal', tier: 0, type: 'entity',
       detail: 'Crump-Gibson\'s firm. LARA 802112914. Discipline Board panelist = Banks attorney.', url: null,
       nexus: ['education'],
-      dynasty: null, era: null, community: 7 },
+      dynasty: null, era: null, community: 7, classification: 'other', confidence: 0.5, opacity: 0.5, sortPass: 1 },
     { id: 'gvsu', label: 'GVSU', tier: 0, type: 'institutional',
       detail: 'Largest Detroit charter authorizer. ~25-35 schools. 78 statewide. Grand Rapids.', url: null,
       nexus: ['education'],
@@ -266,7 +266,7 @@
     { id: 'macdowell', label: 'MacDowell', tier: 0, type: 'school',
       detail: '$4.9M revenue, 3% math. [FOIA: 9yr audits]', url: '/network/entities/macdowell-prep/',
       nexus: ['education'],
-      dynasty: null, era: null, community: 1 },
+      dynasty: null, era: null, community: 1, classification: 'non-self', confidence: 0.99, opacity: 0.99, sortPass: 1 },
     { id: 'mde', label: 'MDE', tier: 0, type: 'institutional',
       detail: 'Investigated Banks Feb 2022 for no credential. Cleared. [FOIA]', url: null,
       nexus: ['education'],
@@ -282,7 +282,7 @@
     { id: 'pca', label: 'PCA', tier: 0, type: 'school',
       detail: 'K-8, DPSCD authorized. LARA 900072324.', url: '/network/entities/purpose-charter-academy/',
       nexus: ['education'],
-      dynasty: null, era: null, community: 6 },
+      dynasty: null, era: null, community: 6, classification: 'non-self', confidence: 0.97, opacity: 0.97, sortPass: 1 },
     { id: 'purpose_foundation', label: 'Purpose Foundation', tier: 0, type: 'entity',
       detail: '501(c)(3), 2 felons in all positions. LARA 803294855.', url: '/network/entities/purpose-foundation/',
       nexus: ['education'],
@@ -290,7 +290,7 @@
     { id: 'purpose_group', label: 'Purpose Group', tier: 0, type: 'entity',
       detail: 'CMO — takes 72.67% of revenue. LARA 803295082.', url: '/network/entities/purpose-group-llc/',
       nexus: ['education'],
-      dynasty: null, era: null, community: 6 },
+      dynasty: null, era: null, community: 6, classification: 'non-self', confidence: 0.95, opacity: 0.95, sortPass: 1 },
     { id: 'right_turn', label: 'Right Turn', tier: 0, type: 'entity',
       detail: 'Nonprofit. Dissolved 12/2021 (annual report failure). Holland = Pres. LARA 800936257.', url: null,
       nexus: ['political'],
@@ -961,6 +961,16 @@
     institutional: '#7f8c8d',
   };
 
+
+  var SORT_COLORS = {
+    'non-self': '#e74c3c',
+    'self':     '#27ae60',
+    'null':     '#7f8c8d',
+    'partial':  '#f39c12',
+    'other':    '#3498db',
+    'unknown':  'rgba(128,128,128,0.3)',
+  };
+
   var EDGE_COLORS = {
     controls: '#95a5a6',
     financial: '#f39c12',
@@ -1113,6 +1123,17 @@
     return cycles;
   }
 
+
+  // Mark unclassified nodes as unknown (proximate, hidden at low opacity)
+  NODES.forEach(function(n) {
+    if (!n.classification) {
+      n.classification = 'unknown';
+      n.confidence = 0;
+      n.opacity = 0.25;
+      n.sortPass = 0;
+    }
+  });
+
   var network = {
     nodes: NODES,
     edges: EDGES,
@@ -1124,6 +1145,7 @@
     geoAggregates: GEO_AGGREGATES,
     geoFlows: GEO_FLOWS,
     nodeColors: NODE_COLORS,
+    sortColors: SORT_COLORS,
     edgeColors: EDGE_COLORS,
     nexusColors: NEXUS_COLORS,
     flowColors: FLOW_COLORS,

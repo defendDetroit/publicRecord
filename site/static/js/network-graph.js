@@ -18,6 +18,13 @@
   var ADDRESS_CLUSTERS = DN.addressClusters || [];
   var OVERSIGHT_CYCLES = DN.oversightCycles || [];
   var COMMUNITIES = DN.communities || [];
+  var SORT_COLORS = DN.sortColors || {
+    'non-self': '#e74c3c', 'self': '#27ae60', 'null': '#7f8c8d',
+    'partial': '#f39c12', 'other': '#3498db', 'unknown': 'rgba(128,128,128,0.3)'
+  };
+
+  // ── Sort overlay state ────────────────────────────────────────────
+  var showSort = false;
 
   // ── Nexus filter state ─────────────────────────────────────────────
   var activeNexus = { education: true, political: true, enforcement: true, weaponization: true, legislative: true };
@@ -248,6 +255,23 @@
       document.addEventListener('click', function() { collapseMenu.style.display = 'none'; });
 
       controls.appendChild(collapseWrap);
+
+      // Sort overlay toggle — shows self/non-self/null/unknown classification
+      var sepSort = document.createElement('span');
+      sepSort.style.cssText = 'opacity:0.3;margin:0 4px;';
+      sepSort.textContent = '│';
+      controls.appendChild(sepSort);
+
+      var sortBtn = document.createElement('button');
+      sortBtn.textContent = '⊘ Epitope Sort';
+      sortBtn.style.cssText = 'padding:4px 12px;border:2px solid #e67e22;border-radius:14px;font-size:11px;font-weight:600;cursor:pointer;transition:all 0.2s;background:transparent;color:#e67e22;';
+      sortBtn.addEventListener('click', function() {
+        showSort = !showSort;
+        sortBtn.style.background = showSort ? '#e67e22' : 'transparent';
+        sortBtn.style.color = showSort ? '#fff' : '#e67e22';
+        renderGraph(container, data);
+      });
+      controls.appendChild(sortBtn);
 
       container.insertBefore(controls, container.firstChild);
     }
@@ -848,6 +872,24 @@
         }
 
         var r = Math.max(10, Math.min(32, 10 + Math.sqrt(deg) * 4));
+
+        // Sort overlay: classification ring + opacity
+        if (showSort && n.classification && n.classification !== 'unknown') {
+          var sortRing = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+          sortRing.setAttribute('r', r + 4);
+          sortRing.setAttribute('fill', 'none');
+          sortRing.setAttribute('stroke', SORT_COLORS[n.classification] || '#7f8c8d');
+          sortRing.setAttribute('stroke-width', '3');
+          sortRing.setAttribute('stroke-dasharray', n.classification === 'partial' ? '4,2' : 'none');
+          sortRing.style.opacity = String(n.confidence || 0.5);
+          g.appendChild(sortRing);
+        }
+
+        // Apply sort opacity: unknown nodes fade, classified nodes assert
+        if (showSort) {
+          g.style.opacity = String(n.opacity || 0.25);
+        }
+
       var circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
       circle.setAttribute('r', r);
       circle.setAttribute('fill', COLORS[n.type] || '#95a5a6');
@@ -887,7 +929,14 @@
         }
 
       var title = document.createElementNS('http://www.w3.org/2000/svg', 'title');
-        title.textContent = n.label + ' (' + deg + ' connections)\n' + n.detail;
+        var titleParts = [n.label + ' (' + deg + ' connections)', n.detail];
+        if (n.classification && n.classification !== 'unknown') {
+          titleParts.push('Sort: ' + n.classification.toUpperCase() + ' (' + Math.round((n.confidence || 0) * 100) + '%)');
+          if (n.sort_note) titleParts.push(n.sort_note);
+        } else if (showSort) {
+          titleParts.push('Sort: UNKNOWN — not yet classified');
+        }
+        title.textContent = titleParts.join('\n');
       g.appendChild(title);
 
         g.addEventListener('mouseenter', function() {
@@ -1038,10 +1087,21 @@
       var flowInfo = flowParts.length ?
         '<br><span style="font-size:10px;">' + flowParts.join(' · ') + '</span>' : '';
 
+      // Sort classification info
+      var sortInfo = '';
+      if (n.classification && n.classification !== 'unknown') {
+        var sortColor = SORT_COLORS[n.classification] || '#7f8c8d';
+        sortInfo = '<br><span style="color:' + sortColor + ';font-size:10px;font-weight:600;">⊘ ' +
+          n.classification.toUpperCase() + ' — ' + Math.round((n.confidence || 0) * 100) + '% confidence' +
+          (n.capture_score ? ' · ' + n.capture_score + ' epitopes' : '') + '</span>';
+      } else if (showSort) {
+        sortInfo = '<br><span style="opacity:0.4;font-size:10px;">⊘ Not yet sorted — hidden unknown</span>';
+      }
+
       infoPanel.innerHTML = '<strong style="font-size:14px;">' + n.label + '</strong><br>' +
         '<span style="opacity:0.7">' + n.detail + '</span><br>' +
         '<span style="opacity:0.5;font-size:10px;">' + connCount + ' connections · Nexus: ' + nexusStr + '</span>' +
-        flowInfo + ownershipInfo + addressInfo + cycleInfo +
+        flowInfo + sortInfo + ownershipInfo + addressInfo + cycleInfo +
         (n.url ? '<br><span style="opacity:0.4;font-size:10px;">Click to view page →</span>' : '');
       infoPanel.style.opacity = '1';
     }
@@ -1171,6 +1231,52 @@
       }
     }
 
+    // Sort legend when active
+    if (showSort) {
+      legendY += 8;
+      var sortLegend = [
+        { cls: 'non-self', label: 'Non-self (capture)' },
+        { cls: 'self',     label: 'Self (functioning)' },
+        { cls: 'null',     label: 'Null (routing)' },
+        { cls: 'partial',  label: 'Partial capture' },
+        { cls: 'other',    label: 'Other (insufficient data)' },
+        { cls: 'unknown',  label: 'Unknown — not yet sorted' },
+      ];
+      var sortHeader = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+      sortHeader.setAttribute('x', 20); sortHeader.setAttribute('y', legendY + 4);
+      sortHeader.setAttribute('fill', '#e67e22'); sortHeader.setAttribute('font-size', '10');
+      sortHeader.setAttribute('font-weight', '700');
+      sortHeader.textContent = 'Epitope Sort:';
+      svg.appendChild(sortHeader);
+      legendY += 18;
+      var sortedCount = filteredNodes.filter(function(n) { return n.classification && n.classification !== 'unknown'; }).length;
+      var unknownCount = filteredNodes.length - sortedCount;
+      sortLegend.forEach(function(item) {
+        var sc = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+        sc.setAttribute('cx', 20); sc.setAttribute('cy', legendY);
+        sc.setAttribute('r', 5); sc.setAttribute('fill', 'none');
+        sc.setAttribute('stroke', SORT_COLORS[item.cls]); sc.setAttribute('stroke-width', '2');
+        if (item.cls === 'partial') sc.setAttribute('stroke-dasharray', '3,1');
+        if (item.cls === 'unknown') sc.style.opacity = '0.25';
+        svg.appendChild(sc);
+        var st = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+        st.setAttribute('x', 32); st.setAttribute('y', legendY + 4);
+        st.setAttribute('fill', 'currentColor'); st.setAttribute('font-size', '10');
+        st.setAttribute('font-weight', '500');
+        st.style.opacity = item.cls === 'unknown' ? '0.5' : '1';
+        st.textContent = item.label;
+        svg.appendChild(st);
+        legendY += 18;
+      });
+      var summaryText = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+      summaryText.setAttribute('x', 20); summaryText.setAttribute('y', legendY + 4);
+      summaryText.setAttribute('fill', 'currentColor'); summaryText.setAttribute('font-size', '9');
+      summaryText.style.opacity = '0.5';
+      summaryText.textContent = sortedCount + ' sorted / ' + unknownCount + ' proximate';
+      svg.appendChild(summaryText);
+      legendY += 20;
+    }
+
     // Node count summary
     var countText = document.createElementNS('http://www.w3.org/2000/svg', 'text');
     countText.setAttribute('x', width - 10); countText.setAttribute('y', height - 10);
@@ -1193,6 +1299,10 @@
       var superCount = filteredNodes.filter(function(n) { return n._isSuper; }).length;
       var totalOriginal = data.nodes.length;
       layerInfo.push('collapsed: ' + superCount + ' groups from ' + totalOriginal + ' nodes');
+    }
+    if (showSort) {
+      var sc = filteredNodes.filter(function(n) { return n.classification && n.classification !== 'unknown'; }).length;
+      layerInfo.push(sc + ' sorted / ' + (filteredNodes.length - sc) + ' proximate');
     }
     countText.textContent = filteredNodes.length + ' nodes · ' + filteredLinks.length + ' edges' +
       (layerInfo.length ? ' · ' + layerInfo.join(' · ') : '');

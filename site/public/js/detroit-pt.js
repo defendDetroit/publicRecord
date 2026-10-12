@@ -1,13 +1,17 @@
-// detroit-pt.js — nanowire renderer for detroit.primals.eco
+// detroit-pt.js — petalTongue bridge for detroit.primals.eco
 // Reads window.DETROIT_NETWORK (loaded by network-data.js) and renders
-// through the nanowire — client-side, no WebSocket
-// Depends on: nanowire.js (NanowireRenderer)
+// through the grammar-of-graphics scene compiler at hud.primals.eco/ws
+// Depends on: pt-bridge-core.js (PetalBridge)
 (function() {
   'use strict';
 
-  var pt = NanowireRenderer({
+  var pt = PetalBridge({
+    wsUrl: 'wss://hud.primals.eco/ws',
+    domain: 'detroit',
     statusEl: 'pt-status',
     maxHeight: 260,
+    reconnectMs: 8000,
+    rpcTimeoutMs: 10000,
     onConnect: function() { tryRender(); }
   });
 
@@ -19,7 +23,6 @@
     if (!pt.isConnected() || !window.DETROIT_NETWORK) return;
     var net = window.DETROIT_NETWORK;
     var data = net.graphData();
-    data.edges = data.edges || data.links || [];
     var stats = net.stats();
 
     // 1. Node type donut
@@ -395,7 +398,7 @@
     // 23. Sort compression bar chart — bits of compression at each level
     var totalNodes = data.nodes.length;
     var alphaComp = Math.max(0, Math.log2(totalNodes)).toFixed(1);
-    var epitopeComp = Math.max(0, alphaComp - Math.log2(stats.typeCount || 8)).toFixed(1);
+    var epitopeComp = Math.max(0, alphaComp - Math.log2(data.stats().typeCount || 8)).toFixed(1);
     var tenseComp = Math.max(0, alphaComp - 1.58).toFixed(1); // 3 tense buckets = 1.58 bits
     pt.renderBinding({
       channel_type: 'bar', id: 'sort-compression',
@@ -404,89 +407,6 @@
       values: [parseFloat(alphaComp), parseFloat(epitopeComp), parseFloat(tenseComp)],
       unit: 'bits'
     }, 'pt-sort-compression');
-
-    // ── Tense Data Display — i² uncertainty model ──
-
-    // 24. Graph data card — total, range, distribution with tense
-    var nodeCounts = [];
-    var nodeTenses = [];
-    var nodeLabels = [];
-    var tierGroups = {};
-    data.nodes.forEach(function(n) {
-      var t = n.tier || 0;
-      if (!tierGroups[t]) tierGroups[t] = [];
-      tierGroups[t].push(n);
-    });
-    var tierKeys2 = Object.keys(tierGroups).sort();
-    tierKeys2.forEach(function(t) {
-      var ti = parseInt(t);
-      var tense = ti <= 2 ? 'is' : ti <= 4 ? 'was' : 'willbe';
-      nodeLabels.push('Tier ' + t);
-      nodeCounts.push(tierGroups[t].length);
-      nodeTenses.push(tense);
-    });
-    pt.renderBinding({
-      channel_type: 'data_card', id: 'graph-data',
-      label: 'Graph Data — Total · Range · Distribution',
-      values: nodeCounts,
-      tense: 'is',
-      unit: 'nodes per tier'
-    }, 'pt-graph-data');
-
-    // 25. Tense range bar — per-tier with uncertainty whiskers
-    // WAS tiers (3-4): no whiskers, past = [null] — Known
-    // IS tiers (1-2): ±σ/√n whiskers — i² rotation active
-    // WILLBE tier (5): ±σ√(1+1/n) — prediction widens
-    var allVals = nodeCounts.slice();
-    var st = pt.computeStats(allVals);
-    var tierSigmas = [];
-    nodeTenses.forEach(function(tense) {
-      var u = st ? pt.tenseUncertainty(st.sigma, st.n, tense) : null;
-      tierSigmas.push(u !== null ? u : 0);
-    });
-    pt.renderBinding({
-      channel_type: 'range_bar', id: 'tense-range',
-      label: 'Tier Population — i² Uncertainty Bands',
-      categories: nodeLabels,
-      values: nodeCounts,
-      tenses: nodeTenses,
-      sigmas: tierSigmas,
-      unit: 'nodes'
-    }, 'pt-tense-range');
-
-    // 26. Edge weight data card — flow distribution with IS tense
-    var edgeWeights = [];
-    data.edges.forEach(function(e) { edgeWeights.push(e.weight || 1); });
-    pt.renderBinding({
-      channel_type: 'data_card', id: 'edge-data',
-      label: 'Edge Weight Distribution — IS (measured now)',
-      values: edgeWeights,
-      tense: 'is',
-      unit: 'weight per edge'
-    }, 'pt-edge-data');
-
-    // 27. Nexus coverage range bar — per-nexus with tense bands
-    // Current active nexus types = IS, historical = WAS
-    var nexusLabels2 = [];
-    var nexusVals2 = [];
-    var nexusTenses2 = [];
-    nk.forEach(function(nx) {
-      nexusLabels2.push(nx);
-      nexusVals2.push(nexusCounts[nx]);
-      // education + enforcement = IS (ongoing), political + weaponization + legislative = WAS (documented)
-      var active = (nx === 'education' || nx === 'enforcement');
-      nexusTenses2.push(active ? 'is' : 'was');
-    });
-    if (nexusLabels2.length > 0) {
-      pt.renderBinding({
-        channel_type: 'range_bar', id: 'nexus-tense',
-        label: 'Nexus Tense — Active vs Documented',
-        categories: nexusLabels2,
-        values: nexusVals2,
-        tenses: nexusTenses2,
-        unit: 'nodes'
-      }, 'pt-nexus-tense');
-    }
   }
 
   // ═══════════════════════════════════════════════════════════════
@@ -507,10 +427,10 @@
       : 'loading...';
     el.innerHTML = ''
       + '<div class="pt-header">'
-      + '  <div class="pt-title">🔬 nanowire 2014 Direct Rendering</div>'
+      + '  <div class="pt-title">🔬 petalTongue Deep Analysis</div>'
       + '  <div><span id="pt-status"></span></div>'
       + '</div>'
-      + '<div class="pt-subtitle">Client-side rendering via nanowire 2014 no WebSocket, no bridge. '
+      + '<div class="pt-subtitle">Server-side rendering through the grammar-of-graphics scene compiler. '
       + 'All data from the DETROIT_NETWORK graph — ' + statsInfo + '</div>'
       + card('Node Types', 'Actor types — donut.', 'pt-node-types')
       + card('Flow Types', 'Money, power, influence, position — donut.', 'pt-flow-types')
@@ -538,12 +458,7 @@
       + card('Inter-Tier Flow', 'Chord diagram — flow between tiers.', 'pt-tier-chord')
       + '<div class="pt-card" style="grid-column:1/-1"><div class="pt-card-title" style="font-size:0.85em;color:#6e7681">▸ Epitope sort compression — Paper 48</div></div>'
       + card('Tense Distribution', 'Is (first seen) / Was (repeat) / Will Be (predicted).', 'pt-tense-donut')
-      + card('Sort Compression', 'Bits of compression at each sort level.', 'pt-sort-compression')
-      + '<div class="pt-card" style="grid-column:1/-1"><div class="pt-card-title" style="font-size:0.85em;color:#6e7681">\u25b8 Tense Data \u2014 i\u00b2 uncertainty model</div></div>'
-      + card('Graph Data', 'Total \u00b7 Range \u00b7 \u03c3 \u00b7 Distribution \u2014 tense-aware.', 'pt-graph-data')
-      + card('Tier Population \u00b1\u03c3', 'WAS = no band (Known). IS = \u00b1\u03c3/\u221an. WILLBE = \u00b1\u03c3\u221a(1+1/n).', 'pt-tense-range')
-      + card('Edge Weights', 'Flow weight distribution \u2014 IS tense.', 'pt-edge-data')
-      + card('Nexus Tense', 'Active (IS) vs documented (WAS) nexus coverage.', 'pt-nexus-tense');
+      + card('Sort Compression', 'Bits of compression at each sort level.', 'pt-sort-compression');
   }
 
   mount();
