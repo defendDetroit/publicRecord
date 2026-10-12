@@ -1717,3 +1717,118 @@ epistemic_status = "record"
 note = "Co-funded with Walton. Skillman is Detroit-based."
 weight = 5
 source_doc = "skillman.org/on-purpose-in-power"
+
+# ── Orgs of Origin — Wave 3 (Oct 12, 2026) ──────────────────────────────
+# Institutional nodes that credentialed, authorized, or fellowshipped Banks.
+# Hit president + board + charter office simultaneously.
+
+[[edge]]
+source = "banks"
+target = "msu_law"
+type = "credential_claim"
+epistemic_status = "record"
+note = "Claims J.D. from MSU Law (~2010). NOT in State Bar of Michigan."
+weight = 9
+source_doc = "Book cover; State Bar search (negative result)"
+
+[[edge]]
+source = "msu_law"
+target = "santambrogio"
+type = "governance"
+epistemic_status = "record"
+role = "Dean"
+weight = 3
+source_doc = "law.msu.edu"
+
+[[edge]]
+source = "cmu"
+target = "northrop"
+type = "governance"
+epistemic_status = "record"
+role = "Executive Director, Center for Charter Schools"
+weight = 4
+source_doc = "thecenterforcharters.org"
+
+[[edge]]
+source = "cmu"
+target = "mackinnon"
+type = "governance"
+epistemic_status = "record"
+role = "University President"
+weight = 4
+source_doc = "cmich.edu"
+
+[[edge]]
+source = "emu"
+target = "kelly_emu"
+type = "governance"
+epistemic_status = "record"
+role = "University President"
+weight = 4
+source_doc = "emich.edu"
+
+[[edge]]
+source = "emu"
+target = "dpsa"
+type = "authorization_terminated"
+epistemic_status = "record"
+note = "EMU Board of Regents terminated DPSA charter Jun 25, 2026"
+weight = 8
+source_doc = "emich.edu/regents/board-documents/2026/6-25-26.php Section 17"
+
+[[edge]]
+source = "gvsu"
+target = "mantella"
+type = "governance"
+epistemic_status = "record"
+role = "University President"
+weight = 4
+source_doc = "gvsu.edu"
+
+[[edge]]
+source = "pahara_institute"
+target = "kriste_dragon"
+type = "governance"
+epistemic_status = "record"
+role = "CEO ($490K compensation)"
+weight = 5
+source_doc = "ProPublica Nonprofit Explorer EIN 45-5141625"
+
+[[edge]]
+source = "pahara_institute"
+target = "diane_tavenner"
+type = "governance"
+epistemic_status = "record"
+role = "Board Chair"
+weight = 5
+source_doc = "GuideStar; pahara.org/board"
+
+[[edge]]
+source = "roland_martin"
+target = "naacp_lansing"
+type = "speaking"
+epistemic_status = "record"
+role = "60th Freedom Fund Dinner speaker"
+note = "Oct 11, 2026 — Lansing NAACP. Same tour pattern as Detroit Jun 2025."
+weight = 6
+source_doc = "lansing-naacp.org event listing"
+
+[[edge]]
+source = "sabree"
+target = "msu_law"
+type = "education"
+epistemic_status = "record"
+role = "J.D. 2010 (actual graduate)"
+note = "Real MSU Law graduate — same year Banks claims fake J.D."
+weight = 6
+source_doc = "State Bar of Michigan P78893"
+
+[[edge]]
+source = "henri_harmon"
+target = "msu_law"
+type = "education"
+epistemic_status = "record"
+role = "BLSA President 2006"
+note = "MSU Law BLSA President — same institutional network Banks claims"
+weight = 5
+source_doc = "gllegalgroup.com; lawyer.com"

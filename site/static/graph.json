@@ -877,6 +877,67 @@
                       "id":  "skillman_foundation",
                       "type":  "entity",
                       "role":  "Detroit youth development funder"
+                  },
+                  {
+                      "label":  "MSU College of Law",
+                      "id":  "msu_law",
+                      "type":  "institution",
+                      "role":  "Banks claims J.D. 2010. Sabree graduated same year."
+                  },
+                  {
+                      "label":  "Dean Michael Sant'Ambrogio",
+                      "id":  "santambrogio",
+                      "type":  "actor",
+                      "tier":  5,
+                      "role":  "MSU Law Dean (2024-present)"
+                  },
+                  {
+                      "label":  "Corey Northrop",
+                      "id":  "northrop",
+                      "type":  "actor",
+                      "tier":  5,
+                      "role":  "Executive Director, CMU Center for Charter Schools"
+                  },
+                  {
+                      "label":  "Neil MacKinnon",
+                      "id":  "mackinnon",
+                      "type":  "actor",
+                      "tier":  5,
+                      "role":  "CMU President (2024-present)"
+                  },
+                  {
+                      "label":  "Brendan Kelly",
+                      "id":  "kelly_emu",
+                      "type":  "actor",
+                      "tier":  5,
+                      "role":  "EMU President (2026-present)"
+                  },
+                  {
+                      "label":  "Philomena Mantella",
+                      "id":  "mantella",
+                      "type":  "actor",
+                      "tier":  5,
+                      "role":  "GVSU President"
+                  },
+                  {
+                      "label":  "Kriste Dragon",
+                      "id":  "kriste_dragon",
+                      "type":  "actor",
+                      "tier":  5,
+                      "role":  "Pahara Institute CEO ($490K comp)"
+                  },
+                  {
+                      "label":  "Diane Tavenner",
+                      "id":  "diane_tavenner",
+                      "type":  "actor",
+                      "tier":  5,
+                      "role":  "Pahara Board Chair / Summit Public Schools founder"
+                  },
+                  {
+                      "label":  "NAACP Lansing Branch",
+                      "id":  "naacp_lansing",
+                      "type":  "institution",
+                      "role":  "60th Freedom Fund Dinner Oct 11, 2026 — Martin spoke"
                   }
               ],
     "edges":  [
@@ -3032,6 +3093,117 @@
                       "target":  "alice_thompson",
                       "role":  "Planning grant",
                       "note":  "Grant to 5 Black charter leaders including Thompson"
+                  },
+                  {
+                      "source":  "banks",
+                      "target":  "msu_law",
+                      "type":  "credential_claim",
+                      "epistemic_status":  "record",
+                      "note":  "Claims J.D. from MSU Law (~2010). NOT in State Bar of Michigan.",
+                      "weight":  9,
+                      "source_doc":  "Book cover; State Bar search (negative result)"
+                  },
+                  {
+                      "source":  "emu",
+                      "target":  "dpsa",
+                      "type":  "authorization_terminated",
+                      "epistemic_status":  "record",
+                      "note":  "EMU Board of Regents terminated DPSA charter Jun 25, 2026",
+                      "weight":  8,
+                      "source_doc":  "emich.edu/regents Section 17 Jun 25 2026"
+                  },
+                  {
+                      "source":  "pahara_institute",
+                      "target":  "kriste_dragon",
+                      "type":  "governance",
+                      "epistemic_status":  "record",
+                      "role":  "CEO ($490K compensation)",
+                      "weight":  5,
+                      "source_doc":  "ProPublica Nonprofit Explorer EIN 45-5141625"
+                  },
+                  {
+                      "source":  "pahara_institute",
+                      "target":  "diane_tavenner",
+                      "type":  "governance",
+                      "epistemic_status":  "record",
+                      "role":  "Board Chair / Summit Public Schools founder",
+                      "weight":  5,
+                      "source_doc":  "GuideStar; pahara.org/board"
+                  },
+                  {
+                      "source":  "sabree",
+                      "target":  "msu_law",
+                      "type":  "education",
+                      "epistemic_status":  "record",
+                      "role":  "J.D. 2010 (actual graduate)",
+                      "note":  "Real MSU Law graduate — same year Banks claims fake J.D.",
+                      "weight":  6,
+                      "source_doc":  "State Bar of Michigan P78893"
+                  },
+                  {
+                      "source":  "henri_harmon",
+                      "target":  "msu_law",
+                      "type":  "education",
+                      "epistemic_status":  "record",
+                      "role":  "BLSA President 2006",
+                      "note":  "MSU Law BLSA President — same institutional network Banks claims",
+                      "weight":  5,
+                      "source_doc":  "gllegalgroup.com; lawyer.com"
+                  },
+                  {
+                      "source":  "roland_martin",
+                      "target":  "naacp_lansing",
+                      "type":  "speaking",
+                      "epistemic_status":  "record",
+                      "role":  "60th Freedom Fund Dinner speaker Oct 11, 2026",
+                      "note":  "Lansing NAACP. Same tour pattern as Detroit Jun 2025.",
+                      "weight":  6,
+                      "source_doc":  "lansing-naacp.org event listing"
+                  },
+                  {
+                      "source":  "cmu",
+                      "target":  "northrop",
+                      "type":  "governance",
+                      "epistemic_status":  "record",
+                      "role":  "Executive Director, Center for Charter Schools",
+                      "weight":  4,
+                      "source_doc":  "thecenterforcharters.org"
+                  },
+                  {
+                      "source":  "cmu",
+                      "target":  "mackinnon",
+                      "type":  "governance",
+                      "epistemic_status":  "record",
+                      "role":  "University President",
+                      "weight":  4,
+                      "source_doc":  "cmich.edu"
+                  },
+                  {
+                      "source":  "emu",
+                      "target":  "kelly_emu",
+                      "type":  "governance",
+                      "epistemic_status":  "record",
+                      "role":  "University President",
+                      "weight":  4,
+                      "source_doc":  "emich.edu"
+                  },
+                  {
+                      "source":  "gvsu",
+                      "target":  "mantella",
+                      "type":  "governance",
+                      "epistemic_status":  "record",
+                      "role":  "University President",
+                      "weight":  4,
+                      "source_doc":  "gvsu.edu"
+                  },
+                  {
+                      "source":  "msu_law",
+                      "target":  "santambrogio",
+                      "type":  "governance",
+                      "epistemic_status":  "record",
+                      "role":  "Dean",
+                      "weight":  3,
+                      "source_doc":  "law.msu.edu"
                   }
               ],
     "epistemic_grammar":  {

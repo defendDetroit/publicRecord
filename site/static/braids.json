@@ -2792,5 +2792,233 @@
       "tier": "anchor",
       "context": "detroit-build edge: skillman_foundation -> excellent_schools_detroit"
     }
+  },
+  {
+    "data_hash": "blake3:edge:banks->msu_law:credential_claim",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:eco:ecoPrimal",
+      "plan": "Orgs of Origin braid — Wave 3 Oct 12",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:detroit:banks",
+        "hash": "db7a4dc18443b6d58af7c87926d9d17b96b1da99e8193adbc0f469281efb013e"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "banks → msu_law (credential_claim)",
+      "description": "Claims J.D. from MSU Law (~2010). NOT in State Bar of Michigan.",
+      "tags": ["credential_claim", "record", "detroit", "orgs_of_origin"],
+      "custom": {
+        "edge_type": "credential_claim",
+        "epistemic_status": "record",
+        "source_doc": "Book cover; State Bar search (negative result)"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1791975700000000000,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: banks -> msu_law (fake credential claim)"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:emu->dpsa:authorization_terminated",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:eco:ecoPrimal",
+      "plan": "Orgs of Origin braid — Wave 3 Oct 12",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "emu → dpsa (authorization_terminated)",
+      "description": "EMU Board of Regents terminated DPSA charter Jun 25, 2026",
+      "tags": ["authorization_terminated", "record", "detroit", "orgs_of_origin"],
+      "custom": {
+        "edge_type": "authorization_terminated",
+        "epistemic_status": "record",
+        "source_doc": "emich.edu/regents/board-documents/2026/6-25-26.php Section 17"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1791975700000001000,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: emu -> dpsa (charter terminated Jun 2026)"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:pahara_institute->kriste_dragon:governance",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:eco:ecoPrimal",
+      "plan": "Orgs of Origin braid — Wave 3 Oct 12",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "pahara_institute → kriste_dragon (governance)",
+      "description": "CEO. $490K compensation. EIN 45-5141625.",
+      "tags": ["governance", "record", "detroit", "orgs_of_origin"],
+      "custom": {
+        "edge_type": "governance",
+        "role": "CEO",
+        "compensation": "$490,868",
+        "epistemic_status": "record",
+        "source_doc": "ProPublica Nonprofit Explorer EIN 45-5141625"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1791975700000002000,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: pahara_institute -> kriste_dragon"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:pahara_institute->diane_tavenner:governance",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:eco:ecoPrimal",
+      "plan": "Orgs of Origin braid — Wave 3 Oct 12",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "pahara_institute → diane_tavenner (governance)",
+      "description": "Board Chair. Summit Public Schools founder.",
+      "tags": ["governance", "record", "detroit", "orgs_of_origin"],
+      "custom": {
+        "edge_type": "governance",
+        "role": "Board Chair",
+        "epistemic_status": "record",
+        "source_doc": "GuideStar; pahara.org/board"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1791975700000003000,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: pahara_institute -> diane_tavenner"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:sabree->msu_law:education",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:eco:ecoPrimal",
+      "plan": "Orgs of Origin braid — Wave 3 Oct 12",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:detroit:sabree",
+        "hash": "cf63c0c7b24b6ec1084c46d020143766afec97921894057f1e64eebe7ce38fa6"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "sabree → msu_law (education)",
+      "description": "J.D. 2010 — real graduate. Same year Banks claims fake J.D.",
+      "tags": ["education", "record", "detroit", "orgs_of_origin"],
+      "custom": {
+        "edge_type": "education",
+        "role": "J.D. 2010 (actual graduate)",
+        "epistemic_status": "record",
+        "source_doc": "State Bar of Michigan P78893"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1791975700000004000,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: sabree -> msu_law (real grad, Banks fake)"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:henri_harmon->msu_law:education",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:eco:ecoPrimal",
+      "plan": "Orgs of Origin braid — Wave 3 Oct 12",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "henri_harmon → msu_law (education)",
+      "description": "BLSA President 2006. Same institutional network Banks claims.",
+      "tags": ["education", "record", "detroit", "orgs_of_origin"],
+      "custom": {
+        "edge_type": "education",
+        "role": "BLSA President 2006",
+        "epistemic_status": "record",
+        "source_doc": "gllegalgroup.com; lawyer.com"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1791975700000005000,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: henri_harmon -> msu_law (BLSA network)"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:roland_martin->naacp_lansing:speaking",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:eco:ecoPrimal",
+      "plan": "Orgs of Origin braid — Wave 3 Oct 12",
+      "software": "detroit-build/0.1.0"
+    },
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "roland_martin → naacp_lansing (speaking)",
+      "description": "60th Freedom Fund Dinner Oct 11, 2026. Same pattern as Detroit Jun 2025.",
+      "tags": ["speaking", "record", "detroit", "orgs_of_origin"],
+      "custom": {
+        "edge_type": "speaking",
+        "role": "60th Freedom Fund Dinner speaker",
+        "epistemic_status": "record",
+        "source_doc": "lansing-naacp.org event listing"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1791975700000006000,
+      "encoding": "none",
+      "tier": "anchor",
+      "context": "detroit-build edge: roland_martin -> naacp_lansing (Oct 11 2026)"
+    }
   }
 ]
