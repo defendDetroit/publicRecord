@@ -6575,6 +6575,78 @@
       "role": "Michigan Dept of Licensing and Regulatory Affairs. Corporate filings, professional licensing, regulatory oversight.",
       "class": "entity",
       "classification": "record"
+    },
+    {
+      "id": "chris_nelson_pm",
+      "label": "Chris Nelson",
+      "type": "actor",
+      "tier": 5,
+      "role": "Chief Legal and Risk Officer, Plante Moran. Southfield. MSU BA, Washington U St. Louis JD. MI Bar. Oversees firm's legal affairs and regulatory risk strategies. Nearly 30 years experience. The person whose desk this lands on.",
+      "class": "entity",
+      "classification": "null"
+    },
+    {
+      "id": "jefferey_bailey",
+      "label": "Jefferey Bailey",
+      "type": "actor",
+      "tier": 5,
+      "role": "Director, General Counsel, Plante Moran. Denver Tech Center. Former Special Counsel to PCAOB Chairman. GW Law magna cum laude. BYU. 20+ years professional services. Advises firm on ethics, regulatory compliance, litigation, employment.",
+      "class": "entity",
+      "classification": "null"
+    },
+    {
+      "id": "dave_doyle",
+      "label": "David T. Doyle",
+      "type": "actor",
+      "tier": 5,
+      "role": "Chief Compliance Officer, Plante Moran Financial Advisors. 248-223-3611. dave.doyle@plantemoran.com (confirmed SEC Form ADV). Ethics code enforcement.",
+      "class": "entity",
+      "classification": "null"
+    },
+    {
+      "id": "john_mccarroll",
+      "label": "John McCarroll",
+      "type": "actor",
+      "tier": 5,
+      "role": "Senior Vice President, Plante Moran Realpoint. Promoted to SVP in 2024 same cycle as Ahmed Beasley.",
+      "class": "entity",
+      "classification": "null"
+    },
+    {
+      "id": "tony_sorgi",
+      "label": "Tony Sorgi",
+      "type": "actor",
+      "tier": 5,
+      "role": "Senior Vice President, Plante Moran Realpoint. Promoted to SVP in 2024 same cycle as Ahmed Beasley.",
+      "class": "entity",
+      "classification": "null"
+    },
+    {
+      "id": "scott_smith_pm",
+      "label": "Scott Smith (PMR)",
+      "type": "actor",
+      "tier": 5,
+      "role": "Senior Vice President, Plante Moran Realpoint. K-12 bond programs. $400M+ in K-12 bonds. Michigan Tech. LEED AP. Promoted to SVP in 2024 same cycle as Ahmed Beasley.",
+      "class": "entity",
+      "classification": "null"
+    },
+    {
+      "id": "tawanesha_jones_williams",
+      "label": "Tawanesha Jones-Williams",
+      "type": "actor",
+      "tier": 5,
+      "role": "Senior Vice President, Plante Moran Realpoint. Promoted to SVP in 2024 same cycle as Ahmed Beasley.",
+      "class": "entity",
+      "classification": "null"
+    },
+    {
+      "id": "ron_zuhorski",
+      "label": "Ron Zuhorski",
+      "type": "actor",
+      "tier": 5,
+      "role": "Senior Vice President, Plante Moran Realpoint. Promoted to SVP in 2024 same cycle as Ahmed Beasley.",
+      "class": "entity",
+      "classification": "null"
     }
   ],
   "edges": [
@@ -39102,6 +39174,168 @@
       "weight": 7,
       "note": "Filed complaints with LARA re: corporate entities.",
       "source_doc": "complaint records"
+    },
+    {
+      "source": "chris_nelson_pm",
+      "target": "plante_moran",
+      "type": "chief_legal_officer",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "Chief Legal and Risk Officer. Oversees legal affairs and regulatory risk. The person who investigates this.",
+      "source_doc": "plantemoran.com"
+    },
+    {
+      "source": "jefferey_bailey",
+      "target": "plante_moran",
+      "type": "general_counsel",
+      "epistemic_status": "record",
+      "weight": 8,
+      "note": "Director, General Counsel. Former PCAOB Special Counsel. Manages legal risks. Ethics, compliance, litigation.",
+      "source_doc": "plantemoran.com"
+    },
+    {
+      "source": "dave_doyle",
+      "target": "plante_moran",
+      "type": "chief_compliance_officer",
+      "epistemic_status": "record",
+      "weight": 7,
+      "note": "CCO of Plante Moran Financial Advisors. Ethics code enforcement. 248-223-3611.",
+      "source_doc": "SEC Form ADV"
+    },
+    {
+      "source": "chris_nelson_pm",
+      "target": "beasley",
+      "type": "oversight_duty",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "Nelson oversees firm legal risk. Beasley is SVP at PMR subsidiary. Surname match with PCA principal is a risk.",
+      "source_doc": "structural"
+    },
+    {
+      "source": "jefferey_bailey",
+      "target": "beasley",
+      "type": "oversight_duty",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "Bailey manages firm legal risks including ethics and regulatory compliance. Beasley's connections are a compliance issue.",
+      "source_doc": "structural"
+    },
+    {
+      "source": "john_mccarroll",
+      "target": "plante_moran",
+      "type": "employment",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "SVP, PMR. Promoted 2024 same cycle as Beasley.",
+      "source_doc": "plantemoran.com/explore-our-thinking/insight/2024"
+    },
+    {
+      "source": "tony_sorgi",
+      "target": "plante_moran",
+      "type": "employment",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "SVP, PMR. Promoted 2024 same cycle as Beasley.",
+      "source_doc": "plantemoran.com/explore-our-thinking/insight/2024"
+    },
+    {
+      "source": "scott_smith_pm",
+      "target": "plante_moran",
+      "type": "employment",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "SVP, PMR. K-12 bond programs. $400M+. Michigan Tech. Promoted 2024 same cycle as Beasley.",
+      "source_doc": "plantemoran.com/explore-our-thinking/insight/2024"
+    },
+    {
+      "source": "tawanesha_jones_williams",
+      "target": "plante_moran",
+      "type": "employment",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "SVP, PMR. Promoted 2024 same cycle as Beasley.",
+      "source_doc": "plantemoran.com/explore-our-thinking/insight/2024"
+    },
+    {
+      "source": "ron_zuhorski",
+      "target": "plante_moran",
+      "type": "employment",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "SVP, PMR. Promoted 2024 same cycle as Beasley.",
+      "source_doc": "plantemoran.com/explore-our-thinking/insight/2024"
+    },
+    {
+      "source": "john_mccarroll",
+      "target": "beasley",
+      "type": "colleague_promoted_together",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "Promoted to SVP in same 2024 cycle as Beasley.",
+      "source_doc": "plantemoran.com 2024 promotions"
+    },
+    {
+      "source": "tony_sorgi",
+      "target": "beasley",
+      "type": "colleague_promoted_together",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "Promoted to SVP in same 2024 cycle as Beasley.",
+      "source_doc": "plantemoran.com 2024 promotions"
+    },
+    {
+      "source": "scott_smith_pm",
+      "target": "beasley",
+      "type": "colleague_promoted_together",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "Promoted to SVP in same 2024 cycle as Beasley. Both do K-12.",
+      "source_doc": "plantemoran.com 2024 promotions"
+    },
+    {
+      "source": "tawanesha_jones_williams",
+      "target": "beasley",
+      "type": "colleague_promoted_together",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "Promoted to SVP in same 2024 cycle as Beasley.",
+      "source_doc": "plantemoran.com 2024 promotions"
+    },
+    {
+      "source": "ron_zuhorski",
+      "target": "beasley",
+      "type": "colleague_promoted_together",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "Promoted to SVP in same 2024 cycle as Beasley.",
+      "source_doc": "plantemoran.com 2024 promotions"
+    },
+    {
+      "source": "nicole_blocker",
+      "target": "beasley",
+      "type": "k12_team_partner",
+      "epistemic_status": "record",
+      "weight": 6,
+      "note": "Blocker is Partner at PMR K-12. Beasley is SVP in same practice. She outranks him. She should know.",
+      "source_doc": "plantemoran.com, linkedin.com"
+    },
+    {
+      "source": "jason_drake",
+      "target": "chris_nelson_pm",
+      "type": "employs",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "Drake as MP employs Nelson as CLO/CRO.",
+      "source_doc": "plantemoran.com"
+    },
+    {
+      "source": "jason_drake",
+      "target": "jefferey_bailey",
+      "type": "employs",
+      "epistemic_status": "record",
+      "weight": 5,
+      "note": "Drake as MP employs Bailey as General Counsel.",
+      "source_doc": "plantemoran.com"
     }
   ],
   "epistemic_grammar": {
