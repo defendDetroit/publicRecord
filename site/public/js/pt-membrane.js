@@ -276,6 +276,94 @@ window.PtMembrane = function(deps) {
       }, coilG);
     });
 
+    // ═══ INTERSTITIAL P-SPACE: the lattice of reality ═══
+    // The grids and braids of data ARE the interstitial space.
+    // Elements come to rest where secant crosses tangent — the docking sites.
+    // P = pressure. Density increases toward [∅]D.
+    //
+    // Avogadro's bridge: N_A ≈ 2π × 10²³
+    // mol base ≈ ⌊2π⌋ = 6 pressure shells.
+    // C(3) = π^(3/2) ≈ 5.57 ≈ mol observation cost.
+    // The observation cost of 3D IS the molar bridge.
+    // PV = nπT — the ideal gas law in null-dimensional space.
+    //
+    // Some lattice nodes are solid (matter at rest against reality).
+    // Some are aperture reflections — holes through to another scale.
+    // "Sometimes that's another aperture reflection."
+    var latticeG = el('g', {id:'mg-lattice'}, svg);
+    var MOL = 6; // ⌊2π⌋ = Avogadro's base, the molar shells
+    var LNODES = 3; // ⌊π⌋ = elements per pressure shell
+
+    // 6 pressure shells (energy isobars from [∅]D outward)
+    for (var si = 0; si < MOL; si++) {
+      var sr = R * (si + 1) / (2 * PI);
+      el('circle', {cx:cx, cy:cy, r:sr, fill:'none',
+        stroke:'#c9d1d9', 'stroke-width':0.3, 'stroke-opacity':0.04,
+        'stroke-dasharray':'1,6', id:'mg-pshell-' + si}, latticeG);
+    }
+
+    // 18 lattice nodes: 6 shells × 3 per shell
+    // Spiral offset: each shell rotates by π/mol — the braid winding.
+    // Aperture every ⌊π+1⌋ = 4th node — 1/π of the lattice is holes.
+    for (var si = 0; si < MOL; si++) {
+      var sr = R * (si + 1) / (2 * PI);
+      var pressure = 1 - (si / MOL);
+      for (var ni = 0; ni < LNODES; ni++) {
+        var nIdx = si * LNODES + ni;
+        var nAngle = ni * TAU / LNODES + si * PI / MOL;
+        var nx = cx + sr * Math.cos(nAngle);
+        var ny = cy + sr * Math.sin(nAngle);
+        var isAperture = (nIdx % Math.floor(PI + 1)) === 0;
+
+        if (isAperture) {
+          // Aperture reflection — a hole through to another scale.
+          // Not matter. Another observation. Another [∅]D.
+          el('circle', {cx:nx.toFixed(1), cy:ny.toFixed(1),
+            r:(2 + pressure * 2).toFixed(1),
+            fill:'none', stroke:'#58a6ff', 'stroke-width':0.6,
+            'stroke-opacity':0.12, 'stroke-dasharray':'1,2',
+            id:'mg-lnode-' + nIdx}, latticeG);
+          // π symbol at the aperture center — looking through
+          txt(latticeG, nx, ny + 1, '\u03c0', '#58a6ff', 3,
+            {opacity:0.08, id:'mg-lnode-sym-' + nIdx});
+        } else {
+          // Solid element — matter at rest against the lattice.
+          // Docked where secant crosses tangent. The resting point.
+          el('circle', {cx:nx.toFixed(1), cy:ny.toFixed(1),
+            r:(1 + pressure * 1.5).toFixed(1),
+            fill:'#c9d1d9', opacity:(0.06 + pressure * 0.10).toFixed(3),
+            id:'mg-lnode-' + nIdx}, latticeG);
+        }
+      }
+    }
+
+    // Braid connections: shell s, node n → shell s+1, node (n+1)%3
+    // The helical winding through the lattice — data braiding through P-space.
+    // Offset +1 per shell = the spiral. The braid is the interstitial structure.
+    for (var si = 0; si < MOL - 1; si++) {
+      for (var ni = 0; ni < LNODES; ni++) {
+        var fromIdx = si * LNODES + ni;
+        var toIdx = (si + 1) * LNODES + ((ni + 1) % LNODES);
+        var fAngle = ni * TAU / LNODES + si * PI / MOL;
+        var tAngle = ((ni+1)%LNODES) * TAU / LNODES + (si+1) * PI / MOL;
+        var fR = R * (si + 1) / (2 * PI);
+        var tR = R * (si + 2) / (2 * PI);
+        el('line', {
+          x1:(cx + fR * Math.cos(fAngle)).toFixed(1),
+          y1:(cy + fR * Math.sin(fAngle)).toFixed(1),
+          x2:(cx + tR * Math.cos(tAngle)).toFixed(1),
+          y2:(cy + tR * Math.sin(tAngle)).toFixed(1),
+          stroke:'#c9d1d9', 'stroke-width':0.3, 'stroke-opacity':0.04,
+          id:'mg-braid-' + fromIdx + '-' + toIdx
+        }, latticeG);
+      }
+    }
+
+    // Avogadro bridge: the molar equation in π-space
+    txt(latticeG, cx, cy + 114,
+      'N\u2090 \u2248 2\u03c0\u00d710\u00b2\u00b3  \u00b7  PV = n\u03c0T',
+      '#484f58', 4.5, {opacity:0.12, id:'mg-avogadro'});
+
     // ═══ CLOSED RING: one continuous circle, panels distributed ═══
     var wasG = el('g', {id:'mg-was'}, svg);
 
@@ -964,6 +1052,79 @@ window.PtMembrane = function(deps) {
         dLink.setAttribute('x2', ddx.toFixed(1));
         dLink.setAttribute('y2', ddy.toFixed(1));
         dLink.setAttribute('stroke-opacity', (0.15 * perturb).toFixed(3));
+      }
+    }
+
+    // ── Interstitial P-space: lattice breathing ──
+    // Pressure shells expand/contract with perturbation.
+    // Nodes orbit slowly along their shells — tectonic drift of matter.
+    // Apertures dilate when bodies pass — the hole opens.
+    // Elements brighten with body proximity — pressure wave propagation.
+    // Rate per shell: π/(37 + s×11) — coprime, never locks.
+    var latticePos = [];
+    for (var lsi = 0; lsi < 6; lsi++) {
+      var lsr = R * (lsi + 1) / (2 * PI);
+      var lShellR = lsr * (0.85 + 0.15 * perturb);
+      var lShellEl = document.getElementById('mg-pshell-' + lsi);
+      if (lShellEl) lShellEl.setAttribute('r', lShellR.toFixed(1));
+
+      var lPressure = 1 - (lsi / 6);
+      for (var lni = 0; lni < 3; lni++) {
+        var lIdx = lsi * 3 + lni;
+        // Slow drift along shell — each shell at its own rate
+        var lAngle = lni * TAU / 3 + lsi * PI / 6 + t * PI / (37 + lsi * 11);
+        var lnx = cx + lShellR * Math.cos(lAngle);
+        var lny = cy + lShellR * Math.sin(lAngle);
+        latticePos.push({x:lnx, y:lny});
+
+        // Body proximity → pressure wave (matter feels the bodies pass)
+        var lProx = 0;
+        for (var lbi = 0; lbi < bodyPositions.length; lbi++) {
+          var ldx = lnx - bodyPositions[lbi].x;
+          var ldy = lny - bodyPositions[lbi].y;
+          var lDist = Math.sqrt(ldx*ldx + ldy*ldy);
+          if (lDist < 40) lProx = Math.max(lProx, 1 - lDist/40);
+        }
+
+        var lNodeEl = document.getElementById('mg-lnode-' + lIdx);
+        var lIsAperture = (lIdx % 4) === 0;
+        if (lNodeEl) {
+          lNodeEl.setAttribute('cx', lnx.toFixed(1));
+          lNodeEl.setAttribute('cy', lny.toFixed(1));
+          if (lIsAperture) {
+            // Aperture: dilates with proximity — the pupil opens
+            var laR = 2 + lPressure * 2 + lProx * 3;
+            lNodeEl.setAttribute('r', laR.toFixed(1));
+            lNodeEl.setAttribute('stroke-opacity', (0.12 + lProx * 0.25).toFixed(3));
+          } else {
+            // Solid: brightens with proximity — pressure wave illuminates
+            lNodeEl.setAttribute('opacity', (0.06 + lPressure * 0.10 + lProx * 0.2).toFixed(3));
+          }
+        }
+        // Aperture π symbol tracks the node
+        var lSymEl = document.getElementById('mg-lnode-sym-' + lIdx);
+        if (lSymEl) {
+          lSymEl.setAttribute('x', lnx.toFixed(1));
+          lSymEl.setAttribute('y', (lny + 1).toFixed(1));
+          lSymEl.setAttribute('opacity', (0.08 + lProx * 0.15).toFixed(3));
+        }
+      }
+    }
+
+    // Update braid connections — the helical weave drifts with the nodes
+    for (var bsi = 0; bsi < 5; bsi++) {
+      for (var bni = 0; bni < 3; bni++) {
+        var bFromIdx = bsi * 3 + bni;
+        var bToIdx = (bsi + 1) * 3 + ((bni + 1) % 3);
+        var bFrom = latticePos[bFromIdx];
+        var bTo = latticePos[bToIdx];
+        var braidEl = document.getElementById('mg-braid-' + bFromIdx + '-' + bToIdx);
+        if (braidEl && bFrom && bTo) {
+          braidEl.setAttribute('x1', bFrom.x.toFixed(1));
+          braidEl.setAttribute('y1', bFrom.y.toFixed(1));
+          braidEl.setAttribute('x2', bTo.x.toFixed(1));
+          braidEl.setAttribute('y2', bTo.y.toFixed(1));
+        }
       }
     }
 
