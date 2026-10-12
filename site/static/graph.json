@@ -7801,6 +7801,42 @@
       "weight": 5,
       "note": "Both on Detroit City Council together. She became Mayor, he became Pro Tem.",
       "source_doc": "Localities sweep + jurisdiction analysis"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "mi_supreme_court",
+      "type": "institutional_pipeline",
+      "epistemic_status": "inferred",
+      "weight": 8,
+      "note": "U of D Mercy produced 2 current Supreme Court justices (Zahra, Bolden) + JTC Chair (Ryan) + AGC Commissioner (Willis) + AGC staff (Linville). One school → both sides of the appointment chain.",
+      "source_doc": "Meta-sort educational institution analysis"
+    },
+    {
+      "source": "msu",
+      "target": "agc",
+      "type": "institutional_pipeline",
+      "epistemic_status": "inferred",
+      "weight": 8,
+      "note": "MSU produced Grievance Admin (Goetz) + Deputy (Uhuru) + Asst Deputy (Bullington) + 2 senior counsel (Mazur, Frazee). 5 of ~22 AGC personnel from one university.",
+      "source_doc": "Meta-sort educational institution analysis"
+    },
+    {
+      "source": "wayne_co_pa",
+      "target": "mi_supreme_court",
+      "type": "institutional_pipeline",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Wayne Co PA produced JTC interim ED (Page) who reports to Supreme Court. Kym Worthy (current prosecutor) has jurisdiction alongside SC-appointed oversight.",
+      "source_doc": "Meta-sort institutional analysis"
+    },
+    {
+      "source": "usao_edmi",
+      "target": "jtc",
+      "type": "institutional_pipeline",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "USAO EDMI produced 2 JTC staff: Ison (19yr Public Corruption) + Corbett (20yr). The federal prosecutor's office → the state oversight body.",
+      "source_doc": "Meta-sort institutional analysis"
     }
   ],
   "epistemic_grammar": {
