@@ -14762,6 +14762,4209 @@
       "weight": 9,
       "note": "Charged under Continuing Criminal Enterprise statute (21 USC 848) — similar to RICO. Conspiracy to distribute 5kg+ cocaine. Money laundering. 150+ defendants nationwide. $270M alleged.",
       "source_doc": "PACER, DOJ, DEA"
+    },
+    {
+      "source": "beasley",
+      "target": "npe",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 8,
+      "note": "Bingo cube ≥5: 8 shared neighbors. Via: banks, court_3rd, dpscd, gay_dagnogo",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "beasley",
+      "target": "purpose_group",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 8,
+      "note": "Bingo cube ≥5: 8 shared neighbors. Via: banks, court_3rd, dpscd, gay_dagnogo",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "charter_law_1993",
+      "target": "court_3rd",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 8,
+      "note": "Bingo cube ≥5: 8 shared neighbors. Via: banks, beasley, dpscd, gay_dagnogo",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "charter_law_1993",
+      "target": "maleyko",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 8,
+      "note": "Bingo cube ≥5: 8 shared neighbors. Via: banks, beasley, dpscd, gay_dagnogo",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "charter_law_1993",
+      "target": "vitti",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 8,
+      "note": "Bingo cube ≥5: 8 shared neighbors. Via: banks, beasley, dpscd, gay_dagnogo",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "court_3rd",
+      "target": "maleyko",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 8,
+      "note": "Bingo cube ≥5: 8 shared neighbors. Via: banks, beasley, dpscd, gay_dagnogo",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "court_3rd",
+      "target": "vitti",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 8,
+      "note": "Bingo cube ≥5: 8 shared neighbors. Via: banks, beasley, dpscd, gay_dagnogo",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "beasley",
+      "target": "cmu",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "Bingo cube ≥5: 7 shared neighbors. Via: banks, charter_law_1993, dpscd, macdowell",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "beasley",
+      "target": "detroit_city",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "Bingo cube ≥5: 7 shared neighbors. Via: banks, court_3rd, dpscd, macdowell",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "beasley",
+      "target": "kym_worthy",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "Bingo cube ≥5: 7 shared neighbors. Via: banks, court_3rd, dpscd, macdowell",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "charter_law_1993",
+      "target": "jolia_hill",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "Bingo cube ≥5: 7 shared neighbors. Via: banks, beasley, dpscd, gvsu",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "charter_law_1993",
+      "target": "npe",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "Bingo cube ≥5: 7 shared neighbors. Via: banks, dpscd, gay_dagnogo, macdowell",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "charter_law_1993",
+      "target": "purpose_group",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "Bingo cube ≥5: 7 shared neighbors. Via: banks, dpscd, gay_dagnogo, macdowell",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "gay_dagnogo",
+      "target": "mccsa",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "Bingo cube ≥5: 7 shared neighbors. Via: banks, beasley, charter_law_1993, dpscd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "gay_dagnogo",
+      "target": "wayne_county",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "Bingo cube ≥5: 7 shared neighbors. Via: banks, beasley, court_3rd, dpscd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "gay_dagnogo",
+      "target": "yancey",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "Bingo cube ≥5: 7 shared neighbors. Via: banks, beasley, court_3rd, dpscd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "maleyko",
+      "target": "npe",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "Bingo cube ≥5: 7 shared neighbors. Via: banks, dpscd, gay_dagnogo, macdowell",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "maleyko",
+      "target": "purpose_group",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "Bingo cube ≥5: 7 shared neighbors. Via: banks, dpscd, gay_dagnogo, macdowell",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "mccsa",
+      "target": "mde",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "Bingo cube ≥5: 7 shared neighbors. Via: banks, beasley, charter_law_1993, dpscd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "mde",
+      "target": "yancey",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "Bingo cube ≥5: 7 shared neighbors. Via: banks, beasley, court_3rd, dpscd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "npe",
+      "target": "vitti",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "Bingo cube ≥5: 7 shared neighbors. Via: banks, dpscd, gay_dagnogo, macdowell",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "purpose_group",
+      "target": "vitti",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "Bingo cube ≥5: 7 shared neighbors. Via: banks, dpscd, gay_dagnogo, macdowell",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "sbe",
+      "target": "wayne_county",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "Bingo cube ≥5: 7 shared neighbors. Via: banks, beasley, court_3rd, dpscd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "charter_law_1993",
+      "target": "emu",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, beasley, dpscd, mccsa",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "charter_law_1993",
+      "target": "wayne_county",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, beasley, dpscd, macdowell",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "charter_law_1993",
+      "target": "yancey",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, beasley, dpscd, macdowell",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "cmu",
+      "target": "gay_dagnogo",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, charter_law_1993, dpscd, macdowell",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "cmu",
+      "target": "mde",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, charter_law_1993, dpscd, macdowell",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "court_36th",
+      "target": "dpscd",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, beasley, court_3rd, macdowell",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "court_36th",
+      "target": "perkins_d",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, ms_perkins_pca, pca, perkins_sean",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "court_36th",
+      "target": "sbe",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, beasley, court_3rd, macdowell",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "court_3rd",
+      "target": "mccsa",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, beasley, dpscd, macdowell",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "detroit_city",
+      "target": "gay_dagnogo",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, court_3rd, dpscd, macdowell",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "detroit_city",
+      "target": "npe",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, court_3rd, dpscd, macdowell",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "detroit_city",
+      "target": "purpose_group",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, court_3rd, dpscd, macdowell",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "detroit_city",
+      "target": "sbe",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, court_3rd, dpscd, macdowell",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "emu",
+      "target": "macdowell",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, beasley, dpscd, mccsa",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "gay_dagnogo",
+      "target": "kym_worthy",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, court_3rd, dpscd, macdowell",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "jolia_hill",
+      "target": "macdowell",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, beasley, dpscd, mccsa",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "jolia_hill",
+      "target": "maleyko",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, beasley, dpscd, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "kym_worthy",
+      "target": "npe",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, court_3rd, dpscd, macdowell",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "kym_worthy",
+      "target": "purpose_group",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, court_3rd, dpscd, macdowell",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "kym_worthy",
+      "target": "sbe",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, court_3rd, dpscd, macdowell",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "maleyko",
+      "target": "mccsa",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, beasley, dpscd, macdowell",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "maleyko",
+      "target": "wayne_county",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, beasley, dpscd, macdowell",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "maleyko",
+      "target": "yancey",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, beasley, dpscd, macdowell",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "mccsa",
+      "target": "vitti",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, beasley, dpscd, macdowell",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "mccsa",
+      "target": "wayne_resa",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, beasley, dpscd, emu",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "mccsa",
+      "target": "yancey",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, beasley, dpscd, macdowell",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "npe",
+      "target": "wayne_county",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, court_3rd, dpscd, macdowell",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "npe",
+      "target": "yancey",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, court_3rd, dpscd, macdowell",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "purpose_group",
+      "target": "wayne_county",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, court_3rd, dpscd, macdowell",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "purpose_group",
+      "target": "yancey",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, court_3rd, dpscd, macdowell",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "sbe",
+      "target": "wayne_resa",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, beasley, dpscd, emu",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "vitti",
+      "target": "wayne_county",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, beasley, dpscd, macdowell",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "vitti",
+      "target": "yancey",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, beasley, dpscd, macdowell",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "wayne_county",
+      "target": "yancey",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, beasley, court_3rd, dpscd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "charter_law_1993",
+      "target": "detroit_city",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, dpscd, macdowell, mde",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "charter_law_1993",
+      "target": "kym_worthy",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, dpscd, macdowell, mde",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "charter_law_1993",
+      "target": "plante_moran",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: cmu, dpscd, dykema, mccsa",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "cmu",
+      "target": "court_3rd",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, dpscd, macdowell, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "cmu",
+      "target": "emu",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, dpscd, mccsa, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "cmu",
+      "target": "jolia_hill",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, dpscd, mccsa, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "cmu",
+      "target": "maleyko",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, dpscd, macdowell, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "cmu",
+      "target": "npe",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, dpscd, macdowell, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "cmu",
+      "target": "purpose_group",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, dpscd, macdowell, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "cmu",
+      "target": "vitti",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, dpscd, macdowell, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "cmu",
+      "target": "yancey",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, dpscd, macdowell, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "court_36th",
+      "target": "gay_dagnogo",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, beasley, court_3rd, macdowell",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "court_36th",
+      "target": "jtc",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, jtc_lillard, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "court_36th",
+      "target": "mde",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, beasley, court_3rd, macdowell",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "court_36th",
+      "target": "wayne_county",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, beasley, court_3rd, macdowell",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "court_3rd",
+      "target": "emu",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, beasley, dpscd, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "court_3rd",
+      "target": "jolia_hill",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, beasley, dpscd, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "court_3rd",
+      "target": "raphael_washington",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, detroit_city, kym_worthy, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "court_3rd",
+      "target": "wayne_resa",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, beasley, dpscd, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "detroit_city",
+      "target": "maleyko",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, dpscd, macdowell, mde",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "detroit_city",
+      "target": "vitti",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, dpscd, macdowell, mde",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "detroit_city",
+      "target": "yancey",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, dpscd, macdowell",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "dpd",
+      "target": "kym_worthy",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, detroit_city, pca, raphael_washington",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "dpscd",
+      "target": "jtc",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, miller, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "dpscd",
+      "target": "raphael_washington",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, detroit_city, kym_worthy, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "emu",
+      "target": "gay_dagnogo",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, beasley, dpscd, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "emu",
+      "target": "maleyko",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, beasley, dpscd, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "emu",
+      "target": "mde",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, beasley, dpscd, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "emu",
+      "target": "vitti",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, beasley, dpscd, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "emu",
+      "target": "wayne_county",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, beasley, dpscd, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "emu",
+      "target": "yancey",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, beasley, dpscd, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "gay_dagnogo",
+      "target": "jolia_hill",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, beasley, dpscd, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "jolia_hill",
+      "target": "mde",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, beasley, dpscd, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "jolia_hill",
+      "target": "vitti",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, beasley, dpscd, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "jolia_hill",
+      "target": "wayne_county",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, beasley, dpscd, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "jolia_hill",
+      "target": "yancey",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, beasley, dpscd, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "jtc",
+      "target": "sbe",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, jtc_cain, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "kym_worthy",
+      "target": "maleyko",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, dpscd, macdowell, mde",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "kym_worthy",
+      "target": "vitti",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, dpscd, macdowell, mde",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "kym_worthy",
+      "target": "yancey",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, dpscd, macdowell",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "macdowell",
+      "target": "raphael_washington",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, detroit_city, kym_worthy, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "macdowell",
+      "target": "wayne_resa",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, beasley, dpscd, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "mccsa",
+      "target": "npe",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, dpscd, macdowell, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "mccsa",
+      "target": "purpose_group",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, dpscd, macdowell, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "mccsa",
+      "target": "wayne_county",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, beasley, dpscd, macdowell",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "mde",
+      "target": "raphael_washington",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, detroit_city, kym_worthy, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "mde",
+      "target": "wayne_resa",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, beasley, dpscd, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "miller",
+      "target": "yancey",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, dpscd, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "misha_stallworth",
+      "target": "v_hall",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, crump_gibson, dpscd, jennifer_crump",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "cmu",
+      "target": "wayne_county",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 18 shared neighbors. Via: banks, beasley, charter_law_1993, court_3rd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "detroit_city",
+      "target": "mccsa",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 16 shared neighbors. Via: banks, beasley, charter_law_1993, court_3rd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "emu",
+      "target": "npe",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 16 shared neighbors. Via: banks, beasley, charter_law_1993, cmu",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "emu",
+      "target": "purpose_group",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 16 shared neighbors. Via: banks, beasley, charter_law_1993, cmu",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "jolia_hill",
+      "target": "npe",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 16 shared neighbors. Via: banks, beasley, charter_law_1993, cmu",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "jolia_hill",
+      "target": "purpose_group",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 16 shared neighbors. Via: banks, beasley, charter_law_1993, cmu",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "kym_worthy",
+      "target": "mccsa",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 16 shared neighbors. Via: banks, beasley, charter_law_1993, court_3rd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "cmu",
+      "target": "detroit_city",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 15 shared neighbors. Via: banks, beasley, charter_law_1993, court_3rd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "cmu",
+      "target": "kym_worthy",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 15 shared neighbors. Via: banks, beasley, charter_law_1993, court_3rd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "detroit_city",
+      "target": "emu",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 14 shared neighbors. Via: banks, beasley, charter_law_1993, court_3rd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "detroit_city",
+      "target": "jolia_hill",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 14 shared neighbors. Via: banks, beasley, charter_law_1993, court_3rd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "emu",
+      "target": "kym_worthy",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 14 shared neighbors. Via: banks, beasley, charter_law_1993, court_3rd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "jolia_hill",
+      "target": "kym_worthy",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 14 shared neighbors. Via: banks, beasley, charter_law_1993, court_3rd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "charter_law_1993",
+      "target": "wayne_resa",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 12 shared neighbors. Via: banks, beasley, court_3rd, dpscd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "gay_dagnogo",
+      "target": "wayne_resa",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 12 shared neighbors. Via: banks, beasley, court_3rd, dpscd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "maleyko",
+      "target": "wayne_resa",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 12 shared neighbors. Via: banks, beasley, court_3rd, dpscd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "vitti",
+      "target": "wayne_resa",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 12 shared neighbors. Via: banks, beasley, court_3rd, dpscd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "wayne_resa",
+      "target": "yancey",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 12 shared neighbors. Via: banks, beasley, court_3rd, dpscd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "charter_law_1993",
+      "target": "court_36th",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 11 shared neighbors. Via: banks, beasley, court_3rd, dpscd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "cmu",
+      "target": "wayne_resa",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 11 shared neighbors. Via: banks, beasley, court_3rd, dpscd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "court_36th",
+      "target": "detroit_city",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 11 shared neighbors. Via: banks, beasley, court_3rd, dpscd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "court_36th",
+      "target": "emu",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 11 shared neighbors. Via: banks, beasley, court_3rd, dpscd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "court_36th",
+      "target": "jolia_hill",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 11 shared neighbors. Via: banks, beasley, court_3rd, dpscd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "court_36th",
+      "target": "kym_worthy",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 11 shared neighbors. Via: banks, beasley, court_3rd, dpscd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "court_36th",
+      "target": "maleyko",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 11 shared neighbors. Via: banks, beasley, court_3rd, dpscd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "court_36th",
+      "target": "mccsa",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 11 shared neighbors. Via: banks, beasley, court_3rd, dpscd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "court_36th",
+      "target": "npe",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 11 shared neighbors. Via: banks, beasley, court_3rd, dpscd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "court_36th",
+      "target": "purpose_group",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 11 shared neighbors. Via: banks, beasley, court_3rd, dpscd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "court_36th",
+      "target": "vitti",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 11 shared neighbors. Via: banks, beasley, court_3rd, dpscd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "cmu",
+      "target": "court_36th",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 10 shared neighbors. Via: banks, beasley, court_3rd, dpscd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "npe",
+      "target": "wayne_resa",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 10 shared neighbors. Via: banks, beasley, court_3rd, dpscd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "purpose_group",
+      "target": "wayne_resa",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 10 shared neighbors. Via: banks, beasley, court_3rd, dpscd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "beasley",
+      "target": "raphael_washington",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 9 shared neighbors. Via: banks, court_3rd, detroit_city, dpscd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "charter_law_1993",
+      "target": "raphael_washington",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 9 shared neighbors. Via: banks, court_3rd, detroit_city, dpscd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "court_36th",
+      "target": "wayne_resa",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 9 shared neighbors. Via: banks, beasley, court_3rd, dpscd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "detroit_city",
+      "target": "wayne_resa",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 9 shared neighbors. Via: banks, beasley, court_3rd, dpscd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "gay_dagnogo",
+      "target": "raphael_washington",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 9 shared neighbors. Via: banks, court_3rd, detroit_city, dpscd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "kym_worthy",
+      "target": "wayne_resa",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 9 shared neighbors. Via: banks, beasley, court_3rd, dpscd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "maleyko",
+      "target": "raphael_washington",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 9 shared neighbors. Via: banks, court_3rd, detroit_city, dpscd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "npe",
+      "target": "raphael_washington",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 9 shared neighbors. Via: banks, court_3rd, detroit_city, dpscd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "purpose_group",
+      "target": "raphael_washington",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 9 shared neighbors. Via: banks, court_3rd, detroit_city, dpscd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "raphael_washington",
+      "target": "sbe",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 9 shared neighbors. Via: banks, court_3rd, detroit_city, dpscd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "raphael_washington",
+      "target": "vitti",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 9 shared neighbors. Via: banks, court_3rd, detroit_city, dpscd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "raphael_washington",
+      "target": "yancey",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 9 shared neighbors. Via: banks, court_3rd, detroit_city, dpscd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "beasley",
+      "target": "jtc",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "Bingo cube ≥5: 7 shared neighbors. Via: banks, court_36th, court_3rd, dpscd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "charter_law_1993",
+      "target": "jtc",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "Bingo cube ≥5: 7 shared neighbors. Via: banks, court_3rd, dpscd, mi_supreme_court",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "court_36th",
+      "target": "miller",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "Bingo cube ≥5: 7 shared neighbors. Via: banks, court_3rd, dpscd, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "court_36th",
+      "target": "raphael_washington",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "Bingo cube ≥5: 7 shared neighbors. Via: banks, court_3rd, dpscd, macdowell",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "emu",
+      "target": "raphael_washington",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "Bingo cube ≥5: 7 shared neighbors. Via: banks, court_3rd, dpscd, macdowell",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "gay_dagnogo",
+      "target": "jtc",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "Bingo cube ≥5: 7 shared neighbors. Via: banks, court_36th, court_3rd, dpscd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "jolia_hill",
+      "target": "raphael_washington",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "Bingo cube ≥5: 7 shared neighbors. Via: banks, court_3rd, dpscd, macdowell",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "jtc",
+      "target": "kym_worthy",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "Bingo cube ≥5: 7 shared neighbors. Via: banks, court_3rd, dpscd, glenn_page",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "jtc",
+      "target": "macdowell",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "Bingo cube ≥5: 7 shared neighbors. Via: banks, court_36th, court_3rd, dpscd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "jtc",
+      "target": "mde",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "Bingo cube ≥5: 7 shared neighbors. Via: banks, court_36th, court_3rd, dpscd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "jtc",
+      "target": "wayne_county",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "Bingo cube ≥5: 7 shared neighbors. Via: banks, court_36th, court_3rd, dpscd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "mccsa",
+      "target": "raphael_washington",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "Bingo cube ≥5: 7 shared neighbors. Via: banks, court_3rd, dpscd, macdowell",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "raphael_washington",
+      "target": "wayne_resa",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "Bingo cube ≥5: 7 shared neighbors. Via: banks, court_3rd, dpscd, macdowell",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "beasley",
+      "target": "plante_moran",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: ahmed_beasley, charter_law_1993, cmu, dpscd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "cmu",
+      "target": "jtc",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, court_3rd, dpscd, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "cmu",
+      "target": "raphael_washington",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, court_3rd, dpscd, macdowell",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "court_3rd",
+      "target": "dpd",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, detroit_city, kym_worthy, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "detroit_city",
+      "target": "jtc",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, court_3rd, dpscd, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "dpd",
+      "target": "dpscd",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, detroit_city, kym_worthy, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "dpd",
+      "target": "macdowell",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, detroit_city, kym_worthy, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "dpd",
+      "target": "mde",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, detroit_city, kym_worthy, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "emu",
+      "target": "jtc",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, court_3rd, dpscd, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "jolia_hill",
+      "target": "jtc",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, court_3rd, dpscd, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "jtc",
+      "target": "maleyko",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, court_3rd, dpscd, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "jtc",
+      "target": "mccsa",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, court_3rd, dpscd, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "jtc",
+      "target": "npe",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, court_3rd, dpscd, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "jtc",
+      "target": "purpose_group",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, court_3rd, dpscd, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "jtc",
+      "target": "vitti",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, court_3rd, dpscd, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "miller",
+      "target": "sbe",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, court_3rd, dpscd, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "banks",
+      "target": "plante_moran",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: charter_law_1993, cmu, dpscd, mccsa",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "beasley",
+      "target": "dpd",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, detroit_city, kym_worthy, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "beasley",
+      "target": "miller",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, dpscd, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "charter_law_1993",
+      "target": "dpd",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, detroit_city, kym_worthy, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "charter_law_1993",
+      "target": "miller",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, dpscd, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "cmu",
+      "target": "miller",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, dpscd, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "court_3rd",
+      "target": "plante_moran",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: charter_law_1993, cmu, dpscd, mccsa",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "detroit_city",
+      "target": "miller",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, dpscd, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "dpd",
+      "target": "gay_dagnogo",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, detroit_city, kym_worthy, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "dpd",
+      "target": "maleyko",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, detroit_city, kym_worthy, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "dpd",
+      "target": "npe",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, detroit_city, kym_worthy, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "dpd",
+      "target": "purpose_group",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, detroit_city, kym_worthy, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "dpd",
+      "target": "sbe",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, detroit_city, kym_worthy, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "dpd",
+      "target": "vitti",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, detroit_city, kym_worthy, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "dpd",
+      "target": "yancey",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, detroit_city, kym_worthy, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "emu",
+      "target": "miller",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, dpscd, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "emu",
+      "target": "plante_moran",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: charter_law_1993, cmu, dpscd, mccsa",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "gay_dagnogo",
+      "target": "miller",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, dpscd, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "gay_dagnogo",
+      "target": "plante_moran",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: charter_law_1993, cmu, dpscd, mccsa",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "jolia_hill",
+      "target": "miller",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, dpscd, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "jolia_hill",
+      "target": "plante_moran",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: charter_law_1993, cmu, dpscd, mccsa",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "jtc",
+      "target": "wayne_resa",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, dpscd, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "kym_worthy",
+      "target": "miller",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, dpscd, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "macdowell",
+      "target": "miller",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, dpscd, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "macdowell",
+      "target": "plante_moran",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: charter_law_1993, cmu, dpscd, mccsa",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "maleyko",
+      "target": "miller",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, dpscd, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "maleyko",
+      "target": "plante_moran",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: charter_law_1993, cmu, dpscd, mccsa",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "mccsa",
+      "target": "miller",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, dpscd, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "mde",
+      "target": "miller",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, dpscd, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "mde",
+      "target": "plante_moran",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: charter_law_1993, cmu, dpscd, mccsa",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "miller",
+      "target": "npe",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, dpscd, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "miller",
+      "target": "purpose_group",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, dpscd, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "miller",
+      "target": "vitti",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, dpscd, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "miller",
+      "target": "wayne_county",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, dpscd, pca",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "npe",
+      "target": "plante_moran",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: charter_law_1993, cmu, dpscd, mccsa",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "plante_moran",
+      "target": "purpose_group",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: charter_law_1993, cmu, dpscd, mccsa",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "plante_moran",
+      "target": "sbe",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: charter_law_1993, cmu, dpscd, mccsa",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "plante_moran",
+      "target": "vitti",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: charter_law_1993, cmu, dpscd, mccsa",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "plante_moran",
+      "target": "yancey",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: charter_law_1993, cmu, dpscd, mccsa",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "jtc",
+      "target": "raphael_washington",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 24 shared neighbors. Via: banks, beasley, charter_law_1993, cmu",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "miller",
+      "target": "wayne_resa",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 24 shared neighbors. Via: banks, beasley, charter_law_1993, cmu",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "miller",
+      "target": "raphael_washington",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 23 shared neighbors. Via: banks, beasley, charter_law_1993, cmu",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "cmu",
+      "target": "dpd",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 19 shared neighbors. Via: banks, beasley, charter_law_1993, court_3rd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "court_36th",
+      "target": "dpd",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 19 shared neighbors. Via: banks, beasley, charter_law_1993, court_3rd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "court_36th",
+      "target": "plante_moran",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 19 shared neighbors. Via: banks, beasley, charter_law_1993, cmu",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "detroit_city",
+      "target": "plante_moran",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 19 shared neighbors. Via: banks, beasley, charter_law_1993, cmu",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "dpd",
+      "target": "emu",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 19 shared neighbors. Via: banks, beasley, charter_law_1993, court_3rd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "dpd",
+      "target": "jolia_hill",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 19 shared neighbors. Via: banks, beasley, charter_law_1993, court_3rd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "dpd",
+      "target": "mccsa",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 19 shared neighbors. Via: banks, beasley, charter_law_1993, court_3rd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "dpd",
+      "target": "wayne_resa",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 19 shared neighbors. Via: banks, beasley, charter_law_1993, court_3rd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "jtc",
+      "target": "plante_moran",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 19 shared neighbors. Via: banks, beasley, charter_law_1993, cmu",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "kym_worthy",
+      "target": "plante_moran",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 19 shared neighbors. Via: banks, beasley, charter_law_1993, cmu",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "miller",
+      "target": "plante_moran",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 19 shared neighbors. Via: banks, beasley, charter_law_1993, cmu",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "plante_moran",
+      "target": "raphael_washington",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 19 shared neighbors. Via: banks, beasley, charter_law_1993, cmu",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "plante_moran",
+      "target": "wayne_county",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 19 shared neighbors. Via: banks, beasley, charter_law_1993, cmu",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "plante_moran",
+      "target": "wayne_resa",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 19 shared neighbors. Via: banks, beasley, charter_law_1993, cmu",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "dpd",
+      "target": "jtc",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 18 shared neighbors. Via: banks, beasley, charter_law_1993, court_3rd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "dpd",
+      "target": "miller",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 18 shared neighbors. Via: banks, beasley, charter_law_1993, court_3rd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "dpd",
+      "target": "plante_moran",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 9,
+      "note": "Bingo cube ≥5: 15 shared neighbors. Via: banks, beasley, charter_law_1993, court_3rd",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "jtc",
+      "target": "wayne_state_law",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "Bingo cube ≥5: 7 shared neighbors. Via: banks, beasley, jolia_hill, jtc_ison",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "charter_law_1993",
+      "target": "wayne_state_law",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, beasley, jolia_hill, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "cmu",
+      "target": "wayne_state_law",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, beasley, jolia_hill, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "court_36th",
+      "target": "wayne_state_law",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, beasley, jolia_hill, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "court_3rd",
+      "target": "wayne_state_law",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, beasley, jolia_hill, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "detroit_city",
+      "target": "wayne_state_law",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, beasley, jolia_hill, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "dpd",
+      "target": "wayne_state_law",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, beasley, jolia_hill, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "dpscd",
+      "target": "wayne_state_law",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, beasley, jolia_hill, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "emu",
+      "target": "wayne_state_law",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, beasley, jolia_hill, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "gay_dagnogo",
+      "target": "wayne_state_law",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, beasley, jolia_hill, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "kym_worthy",
+      "target": "wayne_state_law",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, beasley, jolia_hill, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "macdowell",
+      "target": "wayne_state_law",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, beasley, jolia_hill, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "mccsa",
+      "target": "wayne_state_law",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, beasley, jolia_hill, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "mde",
+      "target": "wayne_state_law",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, beasley, jolia_hill, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "miller",
+      "target": "wayne_state_law",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, beasley, jolia_hill, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "npe",
+      "target": "wayne_state_law",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, beasley, jolia_hill, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "pca",
+      "target": "wayne_state_law",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, beasley, jolia_hill, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "plante_moran",
+      "target": "wayne_state_law",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, beasley, jolia_hill, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "purpose_group",
+      "target": "wayne_state_law",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, beasley, jolia_hill, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "raphael_washington",
+      "target": "wayne_state_law",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, beasley, jolia_hill, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "sbe",
+      "target": "wayne_state_law",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, beasley, jolia_hill, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "vitti",
+      "target": "wayne_state_law",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, beasley, jolia_hill, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "wayne_county",
+      "target": "wayne_state_law",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, beasley, jolia_hill, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "wayne_resa",
+      "target": "wayne_state_law",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, beasley, jolia_hill, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "wayne_state_law",
+      "target": "yancey",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, beasley, jolia_hill, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "wayne_state_law",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, charter_law_1993, jtc, sc_bernstein",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "detroit_city",
+      "target": "mi_supreme_court",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, charter_law_1993, jtc, sc_hood",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "kym_worthy",
+      "target": "mi_supreme_court",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, charter_law_1993, jtc, wayne_co_pa",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "beasley",
+      "target": "mi_supreme_court",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, charter_law_1993, detroit_city, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "cmu",
+      "target": "mi_supreme_court",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, charter_law_1993, detroit_city, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "court_36th",
+      "target": "mi_supreme_court",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, charter_law_1993, detroit_city, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "court_3rd",
+      "target": "mi_supreme_court",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, charter_law_1993, detroit_city, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "dpd",
+      "target": "mi_supreme_court",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, charter_law_1993, detroit_city, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "dpscd",
+      "target": "mi_supreme_court",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, charter_law_1993, detroit_city, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "emu",
+      "target": "mi_supreme_court",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, charter_law_1993, detroit_city, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "gay_dagnogo",
+      "target": "mi_supreme_court",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, charter_law_1993, detroit_city, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "jolia_hill",
+      "target": "mi_supreme_court",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, charter_law_1993, detroit_city, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "macdowell",
+      "target": "mi_supreme_court",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, charter_law_1993, detroit_city, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "maleyko",
+      "target": "mi_supreme_court",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, charter_law_1993, detroit_city, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "mccsa",
+      "target": "mi_supreme_court",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, charter_law_1993, detroit_city, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "mde",
+      "target": "mi_supreme_court",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, charter_law_1993, detroit_city, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "miller",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, charter_law_1993, detroit_city, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "npe",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, charter_law_1993, detroit_city, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "pca",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, charter_law_1993, detroit_city, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "plante_moran",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, charter_law_1993, detroit_city, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "purpose_group",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, charter_law_1993, detroit_city, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "raphael_washington",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, charter_law_1993, detroit_city, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "sbe",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, charter_law_1993, detroit_city, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "vitti",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, charter_law_1993, detroit_city, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "wayne_county",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, charter_law_1993, detroit_city, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "wayne_resa",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, charter_law_1993, detroit_city, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "yancey",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, charter_law_1993, detroit_city, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "crump_gibson",
+      "target": "mi_supreme_court",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: adb, banks, dpscd, macdowell",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "glenn_page",
+      "target": "mi_supreme_court",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, jtc, kym_worthy",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "beasley",
+      "target": "glenn_page",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, jtc, kym_worthy",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "charter_law_1993",
+      "target": "glenn_page",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, jtc, kym_worthy",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "cmu",
+      "target": "glenn_page",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, jtc, kym_worthy",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "court_36th",
+      "target": "glenn_page",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, jtc, kym_worthy",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "crump_gibson",
+      "target": "npe",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, burris, dpscd, macdowell",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "detroit_city",
+      "target": "glenn_page",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, jtc, kym_worthy",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "dpd",
+      "target": "glenn_page",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, jtc, kym_worthy",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "dpscd",
+      "target": "glenn_page",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, jtc, kym_worthy",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "emu",
+      "target": "glenn_page",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, jtc, kym_worthy",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "gay_dagnogo",
+      "target": "glenn_page",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, jtc, kym_worthy",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "glenn_page",
+      "target": "jolia_hill",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, jtc, kym_worthy",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "glenn_page",
+      "target": "macdowell",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, jtc, kym_worthy",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "glenn_page",
+      "target": "maleyko",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, jtc, kym_worthy",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "glenn_page",
+      "target": "mccsa",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, jtc, kym_worthy",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "glenn_page",
+      "target": "mde",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, jtc, kym_worthy",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "glenn_page",
+      "target": "miller",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, jtc, kym_worthy",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "glenn_page",
+      "target": "npe",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, jtc, kym_worthy",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "glenn_page",
+      "target": "pca",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, jtc, kym_worthy",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "glenn_page",
+      "target": "plante_moran",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, jtc, kym_worthy",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "glenn_page",
+      "target": "purpose_group",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, jtc, kym_worthy",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "glenn_page",
+      "target": "raphael_washington",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, jtc, kym_worthy",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "glenn_page",
+      "target": "sbe",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, jtc, kym_worthy",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "glenn_page",
+      "target": "vitti",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, jtc, kym_worthy",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "glenn_page",
+      "target": "wayne_county",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, jtc, kym_worthy",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "glenn_page",
+      "target": "wayne_resa",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, jtc, kym_worthy",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "glenn_page",
+      "target": "wayne_state_law",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, jtc, kym_worthy",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "glenn_page",
+      "target": "yancey",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, jtc, kym_worthy",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "beasley",
+      "target": "crump_gibson",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, dpscd, macdowell, mi_supreme_court",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "charter_law_1993",
+      "target": "crump_gibson",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, dpscd, macdowell, mi_supreme_court",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "cmu",
+      "target": "crump_gibson",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, dpscd, macdowell, mi_supreme_court",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "court_36th",
+      "target": "crump_gibson",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, dpscd, macdowell, mi_supreme_court",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "court_3rd",
+      "target": "crump_gibson",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, dpscd, macdowell, mi_supreme_court",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "crump_gibson",
+      "target": "detroit_city",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, dpscd, macdowell, mi_supreme_court",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "crump_gibson",
+      "target": "dpd",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, dpscd, macdowell, mi_supreme_court",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "crump_gibson",
+      "target": "emu",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, dpscd, macdowell, mi_supreme_court",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "crump_gibson",
+      "target": "gay_dagnogo",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, dpscd, macdowell, mi_supreme_court",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "crump_gibson",
+      "target": "glenn_page",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, dpscd, macdowell, mi_supreme_court",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "crump_gibson",
+      "target": "jolia_hill",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, dpscd, macdowell, mi_supreme_court",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "crump_gibson",
+      "target": "jtc",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, dpscd, macdowell, mi_supreme_court",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "crump_gibson",
+      "target": "kym_worthy",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, dpscd, macdowell, mi_supreme_court",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "crump_gibson",
+      "target": "maleyko",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, dpscd, macdowell, mi_supreme_court",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "crump_gibson",
+      "target": "mccsa",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, dpscd, macdowell, mi_supreme_court",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "crump_gibson",
+      "target": "mde",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, dpscd, macdowell, mi_supreme_court",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "crump_gibson",
+      "target": "miller",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, dpscd, macdowell, mi_supreme_court",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "crump_gibson",
+      "target": "pca",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, dpscd, macdowell, mi_supreme_court",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "crump_gibson",
+      "target": "plante_moran",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, dpscd, macdowell, mi_supreme_court",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "crump_gibson",
+      "target": "purpose_group",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, dpscd, macdowell, mi_supreme_court",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "crump_gibson",
+      "target": "raphael_washington",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, dpscd, macdowell, mi_supreme_court",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "crump_gibson",
+      "target": "sbe",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, dpscd, macdowell, mi_supreme_court",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "crump_gibson",
+      "target": "vitti",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, dpscd, macdowell, mi_supreme_court",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "crump_gibson",
+      "target": "wayne_county",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, dpscd, macdowell, mi_supreme_court",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "crump_gibson",
+      "target": "wayne_resa",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, dpscd, macdowell, mi_supreme_court",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "crump_gibson",
+      "target": "wayne_state_law",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, dpscd, macdowell, mi_supreme_court",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "crump_gibson",
+      "target": "yancey",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, dpscd, macdowell, mi_supreme_court",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "court_3rd",
+      "target": "sbm",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, crump_gibson, mi_supreme_court, sbm_d_anderson",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "crump_gibson",
+      "target": "sc_cavanagh",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, jtc, mi_supreme_court, sbm",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "jtc",
+      "target": "sbm",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: agc, banks, crump_gibson, mi_supreme_court",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "court_36th",
+      "target": "sbm",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, court_3rd, crump_gibson, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "court_3rd",
+      "target": "sc_cavanagh",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, crump_gibson, jtc, mi_supreme_court",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "pca",
+      "target": "sbm",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, court_3rd, crump_gibson, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "sbm",
+      "target": "wayne_state_law",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: banks, court_3rd, crump_gibson, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "agc",
+      "target": "court_3rd",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: agc_pahany, banks, jtc, mi_supreme_court",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "agc",
+      "target": "crump_gibson",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, jtc, mi_supreme_court, sbm",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "beasley",
+      "target": "sbm",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, crump_gibson, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "beasley",
+      "target": "sc_cavanagh",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, crump_gibson, jtc, mi_supreme_court",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "charter_law_1993",
+      "target": "sbm",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, crump_gibson, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "charter_law_1993",
+      "target": "sc_cavanagh",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, crump_gibson, jtc, mi_supreme_court",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "cmu",
+      "target": "sbm",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, crump_gibson, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "cmu",
+      "target": "sc_cavanagh",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, crump_gibson, jtc, mi_supreme_court",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "court_36th",
+      "target": "sc_cavanagh",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, crump_gibson, jtc, mi_supreme_court",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "detroit_city",
+      "target": "sbm",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, crump_gibson, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "detroit_city",
+      "target": "sc_cavanagh",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, crump_gibson, jtc, mi_supreme_court",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "dpd",
+      "target": "sbm",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, crump_gibson, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "dpd",
+      "target": "sc_cavanagh",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, crump_gibson, jtc, mi_supreme_court",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "dpscd",
+      "target": "sbm",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, crump_gibson, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "dpscd",
+      "target": "sc_cavanagh",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, crump_gibson, jtc, mi_supreme_court",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "emu",
+      "target": "sbm",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, crump_gibson, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "emu",
+      "target": "sc_cavanagh",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, crump_gibson, jtc, mi_supreme_court",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "gay_dagnogo",
+      "target": "sbm",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, crump_gibson, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "gay_dagnogo",
+      "target": "sc_cavanagh",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, crump_gibson, jtc, mi_supreme_court",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "glenn_page",
+      "target": "sbm",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, crump_gibson, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "glenn_page",
+      "target": "sc_cavanagh",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, crump_gibson, jtc, mi_supreme_court",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "jolia_hill",
+      "target": "sbm",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, crump_gibson, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "jolia_hill",
+      "target": "sc_cavanagh",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, crump_gibson, jtc, mi_supreme_court",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "jtc",
+      "target": "upl_dept",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: agc, banks, mi_supreme_court, sbm",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "kym_worthy",
+      "target": "sbm",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, crump_gibson, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "kym_worthy",
+      "target": "sc_cavanagh",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, crump_gibson, jtc, mi_supreme_court",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "macdowell",
+      "target": "sbm",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, crump_gibson, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "macdowell",
+      "target": "sc_cavanagh",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, crump_gibson, jtc, mi_supreme_court",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "maleyko",
+      "target": "sbm",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, crump_gibson, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "maleyko",
+      "target": "sc_cavanagh",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, crump_gibson, jtc, mi_supreme_court",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "mccsa",
+      "target": "sbm",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, crump_gibson, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "mccsa",
+      "target": "sc_cavanagh",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, crump_gibson, jtc, mi_supreme_court",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "mde",
+      "target": "sbm",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, crump_gibson, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "mde",
+      "target": "sc_cavanagh",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, crump_gibson, jtc, mi_supreme_court",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "miller",
+      "target": "sbm",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, crump_gibson, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "miller",
+      "target": "sc_cavanagh",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, crump_gibson, jtc, mi_supreme_court",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "npe",
+      "target": "sbm",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, crump_gibson, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "npe",
+      "target": "sc_cavanagh",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, crump_gibson, jtc, mi_supreme_court",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "pca",
+      "target": "sc_cavanagh",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, crump_gibson, jtc, mi_supreme_court",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "plante_moran",
+      "target": "sbm",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, crump_gibson, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "plante_moran",
+      "target": "sc_cavanagh",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, crump_gibson, jtc, mi_supreme_court",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "purpose_group",
+      "target": "sbm",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, crump_gibson, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "purpose_group",
+      "target": "sc_cavanagh",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, crump_gibson, jtc, mi_supreme_court",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "raphael_washington",
+      "target": "sbm",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, crump_gibson, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "raphael_washington",
+      "target": "sc_cavanagh",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, crump_gibson, jtc, mi_supreme_court",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "sbe",
+      "target": "sbm",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, crump_gibson, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "sbe",
+      "target": "sc_cavanagh",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, crump_gibson, jtc, mi_supreme_court",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "sbm",
+      "target": "vitti",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, crump_gibson, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "sbm",
+      "target": "wayne_county",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, crump_gibson, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "sbm",
+      "target": "wayne_resa",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, crump_gibson, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "sbm",
+      "target": "yancey",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, court_3rd, crump_gibson, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "sc_cavanagh",
+      "target": "vitti",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, crump_gibson, jtc, mi_supreme_court",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "sc_cavanagh",
+      "target": "wayne_county",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, crump_gibson, jtc, mi_supreme_court",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "sc_cavanagh",
+      "target": "wayne_resa",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, crump_gibson, jtc, mi_supreme_court",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "sc_cavanagh",
+      "target": "yancey",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, crump_gibson, jtc, mi_supreme_court",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "agc",
+      "target": "detroit_city",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 8,
+      "note": "Bingo cube ≥5: 8 shared neighbors. Via: agc_wassef, banks, court_3rd, crump_gibson",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "agc",
+      "target": "jolia_hill",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 8,
+      "note": "Bingo cube ≥5: 8 shared neighbors. Via: banks, court_3rd, crump_gibson, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "agc",
+      "target": "kym_worthy",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 8,
+      "note": "Bingo cube ≥5: 8 shared neighbors. Via: agc_willis, banks, court_3rd, crump_gibson",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "agc",
+      "target": "pca",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 8,
+      "note": "Bingo cube ≥5: 8 shared neighbors. Via: banks, court_3rd, crump_gibson, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "agc",
+      "target": "beasley",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "Bingo cube ≥5: 7 shared neighbors. Via: banks, court_3rd, crump_gibson, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "agc",
+      "target": "charter_law_1993",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "Bingo cube ≥5: 7 shared neighbors. Via: banks, court_3rd, crump_gibson, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "agc",
+      "target": "cmu",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "Bingo cube ≥5: 7 shared neighbors. Via: banks, court_3rd, crump_gibson, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "agc",
+      "target": "court_36th",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "Bingo cube ≥5: 7 shared neighbors. Via: banks, court_3rd, crump_gibson, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "agc",
+      "target": "dpd",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "Bingo cube ≥5: 7 shared neighbors. Via: banks, court_3rd, crump_gibson, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "agc",
+      "target": "dpscd",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "Bingo cube ≥5: 7 shared neighbors. Via: banks, court_3rd, crump_gibson, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "agc",
+      "target": "emu",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "Bingo cube ≥5: 7 shared neighbors. Via: banks, court_3rd, crump_gibson, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "agc",
+      "target": "gay_dagnogo",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "Bingo cube ≥5: 7 shared neighbors. Via: banks, court_3rd, crump_gibson, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "agc",
+      "target": "glenn_page",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "Bingo cube ≥5: 7 shared neighbors. Via: banks, court_3rd, crump_gibson, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "agc",
+      "target": "macdowell",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "Bingo cube ≥5: 7 shared neighbors. Via: banks, court_3rd, crump_gibson, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "agc",
+      "target": "maleyko",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "Bingo cube ≥5: 7 shared neighbors. Via: banks, court_3rd, crump_gibson, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "agc",
+      "target": "mccsa",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "Bingo cube ≥5: 7 shared neighbors. Via: banks, court_3rd, crump_gibson, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "agc",
+      "target": "mde",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "Bingo cube ≥5: 7 shared neighbors. Via: banks, court_3rd, crump_gibson, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "agc",
+      "target": "miller",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "Bingo cube ≥5: 7 shared neighbors. Via: banks, court_3rd, crump_gibson, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "agc",
+      "target": "npe",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "Bingo cube ≥5: 7 shared neighbors. Via: banks, court_3rd, crump_gibson, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "agc",
+      "target": "plante_moran",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "Bingo cube ≥5: 7 shared neighbors. Via: banks, court_3rd, crump_gibson, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "agc",
+      "target": "purpose_group",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "Bingo cube ≥5: 7 shared neighbors. Via: banks, court_3rd, crump_gibson, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "agc",
+      "target": "raphael_washington",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "Bingo cube ≥5: 7 shared neighbors. Via: banks, court_3rd, crump_gibson, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "agc",
+      "target": "sbe",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "Bingo cube ≥5: 7 shared neighbors. Via: banks, court_3rd, crump_gibson, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "agc",
+      "target": "vitti",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "Bingo cube ≥5: 7 shared neighbors. Via: banks, court_3rd, crump_gibson, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "agc",
+      "target": "wayne_county",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "Bingo cube ≥5: 7 shared neighbors. Via: banks, court_3rd, crump_gibson, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "agc",
+      "target": "wayne_resa",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "Bingo cube ≥5: 7 shared neighbors. Via: banks, court_3rd, crump_gibson, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "agc",
+      "target": "wayne_state_law",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "Bingo cube ≥5: 7 shared neighbors. Via: banks, court_3rd, crump_gibson, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "agc",
+      "target": "yancey",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "Bingo cube ≥5: 7 shared neighbors. Via: banks, court_3rd, crump_gibson, jtc",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "court_3rd",
+      "target": "upl_dept",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "Bingo cube ≥5: 7 shared neighbors. Via: agc, banks, jtc, mi_supreme_court",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "detroit_city",
+      "target": "upl_dept",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 7,
+      "note": "Bingo cube ≥5: 7 shared neighbors. Via: banks, jtc, mi_supreme_court, sbm",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "crump_gibson",
+      "target": "upl_dept",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 6,
+      "note": "Bingo cube ≥5: 6 shared neighbors. Via: agc, banks, jtc, mi_supreme_court",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "beasley",
+      "target": "upl_dept",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, jtc, mi_supreme_court, sbm",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "charter_law_1993",
+      "target": "upl_dept",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, jtc, mi_supreme_court, sbm",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "cmu",
+      "target": "upl_dept",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, jtc, mi_supreme_court, sbm",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "court_36th",
+      "target": "upl_dept",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, jtc, mi_supreme_court, sbm",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "dpd",
+      "target": "upl_dept",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, jtc, mi_supreme_court, sbm",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "dpscd",
+      "target": "upl_dept",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, jtc, mi_supreme_court, sbm",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "emu",
+      "target": "upl_dept",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, jtc, mi_supreme_court, sbm",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "gay_dagnogo",
+      "target": "upl_dept",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, jtc, mi_supreme_court, sbm",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "glenn_page",
+      "target": "upl_dept",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, jtc, mi_supreme_court, sbm",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "jolia_hill",
+      "target": "upl_dept",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, jtc, mi_supreme_court, sbm",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "kym_worthy",
+      "target": "upl_dept",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, jtc, mi_supreme_court, sbm",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "macdowell",
+      "target": "upl_dept",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, jtc, mi_supreme_court, sbm",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "maleyko",
+      "target": "upl_dept",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, jtc, mi_supreme_court, sbm",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "mccsa",
+      "target": "upl_dept",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, jtc, mi_supreme_court, sbm",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "mde",
+      "target": "upl_dept",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, jtc, mi_supreme_court, sbm",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "miller",
+      "target": "upl_dept",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, jtc, mi_supreme_court, sbm",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "npe",
+      "target": "upl_dept",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, jtc, mi_supreme_court, sbm",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "pca",
+      "target": "upl_dept",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, jtc, mi_supreme_court, sbm",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "plante_moran",
+      "target": "upl_dept",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, jtc, mi_supreme_court, sbm",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "purpose_group",
+      "target": "upl_dept",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, jtc, mi_supreme_court, sbm",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "raphael_washington",
+      "target": "upl_dept",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, jtc, mi_supreme_court, sbm",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "sbe",
+      "target": "upl_dept",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, jtc, mi_supreme_court, sbm",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "upl_dept",
+      "target": "vitti",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, jtc, mi_supreme_court, sbm",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "upl_dept",
+      "target": "wayne_county",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, jtc, mi_supreme_court, sbm",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "upl_dept",
+      "target": "wayne_resa",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, jtc, mi_supreme_court, sbm",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "upl_dept",
+      "target": "wayne_state_law",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, jtc, mi_supreme_court, sbm",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "upl_dept",
+      "target": "yancey",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: banks, jtc, mi_supreme_court, sbm",
+      "source_doc": "bingo_cube_controlled.py"
+    },
+    {
+      "source": "agc",
+      "target": "wayne_co_pa",
+      "type": "structural_proximity",
+      "epistemic_status": "inferred",
+      "weight": 5,
+      "note": "Bingo cube ≥5: 5 shared neighbors. Via: agc_linville, agc_willis, glenn_page, kym_worthy",
+      "source_doc": "bingo_cube_controlled.py"
     }
   ],
   "epistemic_grammar": {
