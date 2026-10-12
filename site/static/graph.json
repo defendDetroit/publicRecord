@@ -1531,7 +1531,7 @@
       "id": "vitti",
       "label": "Dr. Nikolai Vitti",
       "type": "actor",
-      "tier": 4,
+      "tier": 3,
       "role": "DPSCD Superintendent. PCA authorized under his watch (Jul 2025).",
       "class": "entity"
     },
@@ -2341,7 +2341,7 @@
       "type": "entity",
       "entity_type": "Campaign",
       "note": "10-city tour. Co-produced by Nu Vision Media + The 74. National partners: AFC, EdChoice, ExcelinEd, NACPS, UNCF, Walton. Walton gave $350K (2020).",
-      "tier": 5,
+      "tier": 4,
       "class": "entity"
     },
     {
@@ -2418,7 +2418,7 @@
       "id": "state_mi",
       "label": "Michigan",
       "type": "geography",
-      "tier": 5,
+      "tier": 3,
       "role": "Target state — all schools, all courts, all actors",
       "class": "entity"
     },
@@ -2538,7 +2538,7 @@
       "id": "jolia_hill",
       "label": "Dr. Jolia Hill",
       "type": "actor",
-      "tier": 6,
+      "tier": 3,
       "role": "Director, EMU Charter Schools Office. Terminated DPSA charter Jun 30, 2026. MCCSA Treasurer.",
       "class": "entity"
     },
@@ -8638,6 +8638,126 @@
       "type": "investigation",
       "weight": 7,
       "label": "Secondary target in complaint — Banks dark money vehicle",
+      "epistemic_status": "inference"
+    },
+    {
+      "source": "beasley",
+      "target": "sbe",
+      "type": "structural_proximity",
+      "weight": 6,
+      "label": "5 shared: banks, dpscd, emu, pca, vitti. SBE oversees her authorizer.",
+      "epistemic_status": "inference"
+    },
+    {
+      "source": "beasley",
+      "target": "macdowell",
+      "type": "structural_proximity",
+      "weight": 7,
+      "label": "4 shared: banks, dpscd, pca, yancey. Sister chairs MacDowell board.",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "pca",
+      "target": "yancey",
+      "type": "structural_proximity",
+      "weight": 7,
+      "label": "4 shared: banks, beasley, court_36th, macdowell. Sister runs PCA.",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "ag_office",
+      "target": "banks",
+      "type": "investigation",
+      "weight": 7,
+      "label": "4 shared: ag_charitable_trust, goetz, moreland, nessel. CT complaint filed Oct 12.",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "banks",
+      "target": "detroit_city",
+      "type": "jurisdiction",
+      "weight": 6,
+      "label": "4 shared: dpd, macdowell, pca, sheffield. Schools operate in Detroit.",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "banks",
+      "target": "wayne_county",
+      "type": "jurisdiction",
+      "weight": 6,
+      "label": "4 shared: court_3rd, kym_worthy, macdowell, pca. All operations in Wayne Co.",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "court_3rd",
+      "target": "dpscd",
+      "type": "jurisdiction",
+      "weight": 6,
+      "label": "4 shared: banks, macdowell, mde, pca. Wayne 3rd Circuit = charter school disputes.",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "court_3rd",
+      "target": "detroit_city",
+      "type": "jurisdiction",
+      "weight": 6,
+      "label": "4 shared: macdowell, pca, sheffield, wayne_county.",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "crump_gibson",
+      "target": "dpscd",
+      "type": "structural_proximity",
+      "weight": 6,
+      "label": "4 shared: banks, jennifer_crump, macdowell, misha_stallworth.",
+      "epistemic_status": "inference"
+    },
+    {
+      "source": "gay_dagnogo",
+      "target": "vitti",
+      "type": "structural_proximity",
+      "weight": 6,
+      "label": "4 shared: banks, dpscd, pca, sbe. Both former DPSCD board.",
+      "epistemic_status": "inference"
+    },
+    {
+      "source": "kym_worthy",
+      "target": "macdowell",
+      "type": "jurisdiction",
+      "weight": 6,
+      "label": "4 shared: banks, court_3rd, pca, wayne_county. Prosecutor over charter school jurisdiction.",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "sc_cavanagh",
+      "target": "upl_dept",
+      "type": "structural_proximity",
+      "weight": 7,
+      "label": "4 shared: agc, banks, mi_supreme_court, sbm. Cavanagh is liaison to UPL's parent bodies.",
+      "epistemic_status": "inference"
+    },
+    {
+      "source": "charter_law_1993",
+      "target": "sbe",
+      "type": "governance",
+      "weight": 5,
+      "label": "4 shared: banks, cmu, macdowell, pca. PA 362 created charter framework SBE oversees.",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "thomas_ryan",
+      "type": "structural_proximity",
+      "weight": 6,
+      "label": "4 shared: banks, jtc, sc_cavanagh, ud_mercy_law. Ryan is JTC Chair, U of D Mercy.",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "pca",
+      "target": "perkins_sean",
+      "type": "structural_proximity",
+      "weight": 6,
+      "label": "5 shared: banks, court_36th, ms_perkins_pca, sean_perkins, todd_perkins.",
       "epistemic_status": "inference"
     }
   ],
