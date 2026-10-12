@@ -1,6 +1,6 @@
 +++
-title = "33 Questions You Can Answer Yourself"
-description = "We're not asking you to believe us. We're asking you to look. Every question below can be answered with a public records search — court records, PACER, FEC filings, LARA, MOECS, Amazon, LinkedIn. The answers are at detroit.primals.eco. But you don't have to take our word for it. Go check."
+title = "41 Questions You Can Answer Yourself"
+description = "We're not asking you to believe us. We're asking you to look. The first 31 questions can be answered with public records — court records, PACER, FEC filings, Amazon. The last 10 can be answered by looking at your own child. You are inside a membrane. These questions punch holes in it."
 date = 2026-10-12
 weight = 1
 
@@ -340,28 +340,157 @@ judge in Banks' home jurisdiction.
 
 ---
 
-## The Real Questions
+## The Membrane
 
-**32. Do you know who speaks for your community? Did you choose them?**
+The next questions are different. They don't require a database.
+They don't require PACER or ICHAT or MOECS.
 
-Roland Martin says he speaks for the Black community. Brian Banks
-says he transforms education. Alice Thompson chairs the NAACP
-Detroit education committee. Wendell Anthony has led the branch
-for 30 years.
+They require you to look at your own life.
 
-But the parents whose children sit in a classroom with 3% math
-proficiency — did anyone ask them?
+Roland Martin says he speaks for the Black community. If that's
+true — if he is the voice and Brian Banks is the educator and
+Judge Miller is the protector and Wendell Anthony is the leader
+and Alice Thompson is the advocate — then "the Black community,"
+as defined by these 33 people, is fully comfortable with the
+exploitation documented on this site.
 
-**33. If every claim on this site is wrong — why is it all sourced to records these organizations published themselves?**
+But you're not comfortable with it. Are you?
+
+You didn't know. That's the point. You are inside a membrane.
+These people — this ring of names — they surround you. They
+define what information reaches you. The NAACP dinners, the
+speaking tours, the "School Choice Is the Black Choice"
+branding, the 710,000 followers, the 30 million views per
+month. That's the wall. It filters what you see.
+
+From outside the membrane, the extraction is visible. The
+court records, the bankruptcy filings, the credential fraud,
+the family connections — they are all public. They have been
+public for years. But from inside the membrane, all you see
+is the narrative: *transformation, redemption, empowerment,
+community, purpose.*
+
+The questions below punch holes in the membrane. Not from the
+outside — you don't need our databases for these. From the
+inside. From where you already are.
+
+**32. Can your child do math?**
+
+Not "is your child's school rated well." Not "does the
+brochure say college prep." Can your child — the one who
+comes home to you every day — actually do math at grade
+level?
+
+If the answer is no, you already know everything in this
+book. You just didn't know why.
+
+*(No database needed. Ask your child what 7 × 8 is.)*
+
+**33. Have you ever met your child's superintendent?**
+
+Not a photo at an event. Not a name on a letterhead. Have
+you met the person who controls $4.9 million of public money
+allocated to educate your child? Do they know your child's
+name? Do they know yours?
+
+**34. Has anyone from your child's school ever asked you what you want?**
+
+Not a survey. Not a form. Has a human being at the institution
+that receives public funds to educate your child ever sat
+down and asked you — as a parent, as a person — what you
+need? What your child needs? What isn't working?
+
+If the answer is no: who speaks for you?
+
+**35. Do you know where your school's money goes?**
+
+Every charter school in Michigan is required to post a
+transparency report. Have you seen yours? Do you know what
+percentage goes to instruction versus management fees? Do you
+know who owns the management company?
+
+At MacDowell Prep, 72.67% goes to Purpose Group LLC. Purpose
+Group LLC is owned by the superintendent. One man. One company.
+
+*(Verify: Your school's transparency page. It's required by law.)*
+
+**36. When Roland Martin came to your city, what did he say about your school?**
+
+He toured 10 cities. He said "School Choice Is the Black Choice."
+But did he say the name of your child's school? Did he say
+what your child scored on the M-STEP? Did he ask any parent
+in the audience what their experience has been?
+
+Or did he speak *about* you without speaking *to* you?
+
+**37. If someone told you your child's teacher wasn't certified, would you want to know?**
+
+Two of fourteen. That's the ratio at MacDowell Prep. Two
+certified teachers out of fourteen instructional staff. The
+database is public — MOECS, anyone can search it.
+
+But you didn't search it. Why would you? You trusted the
+school. You trusted the system. You trusted the name on the
+door and the credential after the name.
+
+The credential is fake.
+
+**38. When the NAACP Freedom Fund Dinner honored Roland Martin, were you at the table?**
+
+10,000 people. The largest sit-down dinner in America. Tickets
+cost money. Tables cost more. Advance Detroit — a political
+organization registered at Dykema's Lansing office — paid
+$1,500 for tickets.
+
+Who sat at those tables? Was it you? Was it your neighbor?
+
+Or was it the same 33 people who already knew each other's
+names?
+
+**39. If your child's school is failing, and the people who say they speak for you funded the school, credentialed the superintendent, protected the judge, and lobbied against regulation — who are they speaking for?**
+
+Not you.
+
+They are speaking for the pipeline. From Bentonville to
+Detroit. From Walmart to the schoolhouse door. From a
+foundation's grant report to your child's empty worksheet.
+
+You are not the community they serve. You are the community
+they describe. There is a difference.
+
+---
+
+## The Final Questions
+
+**40. Do you know who speaks for your community? Did you choose them?**
+
+Not "do you recognize the name." Did you — specifically you,
+the person reading this — choose Roland Martin to speak for
+you? Did you choose Alice Thompson to chair your education
+committee? Did you choose Wendell Anthony to lead your NAACP
+branch for 30 years?
+
+Or were they already there when you arrived — part of the
+architecture, like the walls?
+
+Walls can be doors. But only if someone points out that
+they're not load-bearing.
+
+**41. If every claim on this site is wrong — why is it all sourced to records these organizations published themselves?**
 
 Every grant from Walton's own reports. Every conviction from
 court records. Every board member from the school's own website.
 Every credential from Michigan's own database. Every bankruptcy
-from PACER. Every book from Amazon.
+from PACER. Every book from Amazon. Every board page from
+the school's own URL.
 
 If we're wrong, show us where. The evidence is public.
 The methodology is open. The site has no cookies, no tracking,
 no advertising, and no paywall.
+
+And if we're right — then the membrane just got a hole in it.
+
+Look through it.
 
 **detroit.primals.eco**
 
@@ -370,3 +499,7 @@ no advertising, and no paywall.
 *129 nodes. 214 edges. 238 epitopes. 44 documents.*
 *Every claim cited. Every source linked. Every commit timestamped.*
 *No cookies. No tracking. No author.*
+
+*The emperor has no clothes.*
+*The membrane has a hole.*
+*You're already looking through it.*
