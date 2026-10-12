@@ -2818,6 +2818,15 @@
       "role": "University of Michigan. EMU nearby. Hutchings connection.",
       "classification": "geography",
       "class": "geography"
+    },
+    {
+      "id": "mde_prof_practice",
+      "label": "MDE Professional Practice",
+      "type": "entity",
+      "tier": 3,
+      "role": "MDE Office of Educator Excellence — Professional Practice unit. Criminal convictions + K-12 employment. Fingerprinting. Revocations. RESPONDED 12:19 PM Oct 12. MDE-Professional-Practice@Michigan.gov. Director: Kelli Brozanski (brozanskik@michigan.gov).",
+      "classification": "oversight",
+      "class": "entity"
     }
   ],
   "edges": [
@@ -9184,6 +9193,38 @@
       "weight": 6,
       "label": "Same Wayne State ELPS dept. He oversees her authorizer.",
       "epistemic_status": "inference"
+    },
+    {
+      "source": "mde_prof_practice",
+      "target": "mde",
+      "type": "governance",
+      "weight": 8,
+      "label": "Division of MDE — criminal conviction review for educators",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "mde_prof_practice",
+      "target": "banks",
+      "type": "investigation",
+      "weight": 9,
+      "label": "Complaint filed Oct 12. Auto-ack 12:19 PM. HOLD on permit #590606.",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "mde_prof_practice",
+      "target": "mde_oee",
+      "type": "governance",
+      "weight": 7,
+      "label": "Professional Practice is part of OEE",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "brozanski",
+      "target": "mde_prof_practice",
+      "type": "governance",
+      "weight": 8,
+      "label": "Director, Professional Practice",
+      "epistemic_status": "record"
     }
   ],
   "epistemic_grammar": {
