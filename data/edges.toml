@@ -138,14 +138,9 @@ role = "Board Chair"
 weight = 9
 source_doc = "purposecharteracademy.com/boardofdirectors (Sep 2026)"
 
-[[edge]]
-source = "miller"
-target = "anchor_rock"
-type = "board_membership"
-epistemic_status = "record"
-role = "Board Chair (historical)"
-weight = 7
-source_doc = "LARA 802394934"
+# NOTE: Miller Board Chair edge moved to anchor_rock_found (802394934) in reverse sweep section.
+# Original edge incorrectly pointed at anchor_rock (800770907 = construction company).
+# LARA 802394934 = Anchor Rock Foundation (dissolved nonprofit) — the correct target.
 
 [[edge]]
 source = "miller"
@@ -1952,3 +1947,183 @@ role = "President + Agent"
 note = "Purpose Foundation EIN 33-3537910. Filed Dec 9, 2024. Ruling date Nov 2025. NO 990 FILINGS YET. Private foundation at 1968 Severn Rd (Banks/Holland address). Filed by Crump-Gibson as Attorney In Fact."
 weight = 7
 source_doc = "ProPublica API; LARA 803294855; Charity Navigator"
+
+# ── REVERSE SWEEP: Sub-Orgs by Address + Agent (Oct 12, 2026) ───────────
+# Searched LARA by agent name "BRIAN BANKS" and address "1968 SEVERN".
+# Found 10 entities missing from graph. 18 total Banks entities across 25 years.
+
+# ── ARS Holdings LLC (holding company for Anchor Rock) ───────────────────
+
+[[edge]]
+source = "banks"
+target = "ars_holdings"
+type = "governance"
+epistemic_status = "record"
+role = "Agent"
+note = "ARS Holdings LLC (LARA 802091174). Filed 05/2017. Holding company for Anchor Rock Services. Holland, MI."
+weight = 5
+viz_type = "controls"
+flow = "power"
+label = "agent (holding company)"
+source_doc = "LARA 802091174"
+
+[[edge]]
+source = "ars_holdings"
+target = "anchor_rock"
+type = "parent_company"
+epistemic_status = "record"
+note = "ARS Holdings = holding company for Anchor Rock Services Inc"
+weight = 6
+viz_type = "controls"
+flow = "power"
+label = "holding company"
+source_doc = "LARA 802091174; detroit.primals.eco/analysis/corporate-network-lara/"
+
+# ── Of The Light Ventures LLC (mystery pre-cursor) ───────────────────────
+
+[[edge]]
+source = "banks"
+target = "of_the_light"
+type = "governance"
+epistemic_status = "record"
+role = "Agent"
+note = "Of The Light Ventures LLC (LARA 803248859). Filed 07/2024. Zeeland, MI. Filed 4 months BEFORE Purpose Group — possible prototype or holding entity for school operation."
+weight = 5
+viz_type = "controls"
+flow = "power"
+label = "agent (Zeeland, filed 4 mo before Purpose Group)"
+source_doc = "LARA 803248859"
+
+# ── Great Lakes Vision for Evangelism (religious, Severn Rd) ─────────────
+
+[[edge]]
+source = "banks"
+target = "gl_vision"
+type = "governance"
+epistemic_status = "record"
+role = "Officer"
+note = "Great Lakes Vision for Evangelism (LARA 802210862). Active. Religious org at 1968 Severn Rd. One of 8 entities at Banks' home address."
+weight = 4
+viz_type = "controls"
+flow = "power"
+label = "officer (religious org, Severn Rd)"
+source_doc = "LARA 802210862"
+
+# ── Anchor Rock Foundation (DISSOLVED — Miller was Board Chair) ──────────
+
+[[edge]]
+source = "banks"
+target = "anchor_rock_found"
+type = "governance"
+epistemic_status = "record"
+role = "Officer"
+note = "Anchor Rock Foundation (LARA 802394934). Dissolved nonprofit. NOT the same as Anchor Rock Services (800770907). Miller was Board Chair."
+weight = 5
+viz_type = "controls"
+flow = "power"
+label = "officer (dissolved nonprofit)"
+source_doc = "LARA 802394934"
+
+# ── Free Flow Gutter Protection LLC (not in good standing) ───────────────
+
+[[edge]]
+source = "banks"
+target = "free_flow"
+type = "governance"
+epistemic_status = "record"
+role = "Agent"
+note = "Free Flow Gutter Protection LLC (LARA 802950394). Filed 11/2022. Waterford, MI. NOT in good standing — annual report failure."
+weight = 3
+viz_type = "controls"
+flow = "power"
+label = "agent (not in good standing)"
+source_doc = "LARA 802950394"
+
+# ── Banks Powerwashing LLC (not in good standing) ────────────────────────
+
+[[edge]]
+source = "banks"
+target = "banks_powerwash"
+type = "governance"
+epistemic_status = "record"
+role = "Agent"
+note = "Banks Powerwashing LLC (LARA 801634031). Filed 02/2012. Clarkston, MI. NOT in good standing."
+weight = 3
+viz_type = "controls"
+flow = "power"
+label = "agent (not in good standing, since 2012)"
+source_doc = "LARA 801634031"
+
+# ── WhitlowBanks LLC (dissolved — Whitlow = $8,500 campaign payee) ──────
+
+[[edge]]
+source = "banks"
+target = "whitlowbanks"
+type = "governance"
+epistemic_status = "record"
+role = "Implied controller"
+note = "WhitlowBanks LLC (LARA 802085022). Filed 04/2017, dissolved 02/2020. Agent: Tameka Ramsey (Pontiac). Entity name combines 'Whitlow' + 'Banks'. Carles Whitlow received $8,500 from Banks for Senate campaign."
+weight = 5
+viz_type = "controls"
+flow = "power"
+label = "implied controller (name = Whitlow + Banks)"
+source_doc = "LARA 802085022; TransparencyUSA"
+
+# ── B. Roderick's Salon & Spa (dissolved — 16500 North Park connection) ──
+
+[[edge]]
+source = "banks"
+target = "b_rodericks"
+type = "governance"
+epistemic_status = "record"
+role = "Agent"
+note = "B. Roderick's Salon & Spa Inc (LARA 800591240). Filed 10/2001 — Banks' FIRST entity. Dissolved. At 16500 Northpark Dr #1715, Southfield — same building where Right Turn Project officers later appear."
+weight = 4
+viz_type = "controls"
+flow = "power"
+label = "agent (first entity, 2001, 16500 N Park)"
+source_doc = "LARA 800591240"
+
+# ── Great Lakes Upfitting (dissolved predecessor chain) ──────────────────
+
+[[edge]]
+source = "banks"
+target = "gl_upfitting"
+type = "governance"
+epistemic_status = "record"
+role = "Agent"
+note = "Two dissolved entities: Great Lakes Upfitting LLC (802260651, 11/2018) and GL Upfitting LLC (803155176, 01/2024). Holland, MI. Predecessor to Anchor Rock's 'Great Lakes Upfitting' assumed name. Dissolve-and-reform pattern."
+weight = 4
+viz_type = "controls"
+flow = "power"
+label = "agent (dissolved, Holland, dissolve-and-reform)"
+source_doc = "LARA 802260651; LARA 803155176"
+
+# ── SAM.gov Federal Contractor Registration ──────────────────────────────
+
+[[edge]]
+source = "anchor_rock"
+target = "sam_gov"
+type = "registration"
+epistemic_status = "record"
+note = "Anchor Rock registered in SAM.gov as 'Self Certified Small Disadvantaged Business'. UEI Y6UUUBULCU13. Officers: Brian Banks + Paul Cooke. Expired Feb 2022. NAICS 811118. Division: Great Lakes Upfitting."
+weight = 6
+viz_type = "institutional"
+flow = "power"
+label = "SAM.gov SDB self-certification (expired)"
+source_doc = "opengovus.com/sam-entity/Y6UUUBULCU13"
+
+# ── FIX: Miller → Anchor Rock Foundation (was targeting wrong entity) ────
+
+[[edge]]
+source = "miller"
+target = "anchor_rock_found"
+type = "board_membership"
+epistemic_status = "record"
+role = "Board Chair (historical)"
+note = "Miller was Board Chair of Anchor Rock FOUNDATION (802394934), NOT Anchor Rock Services (800770907). Different entities. Foundation is dissolved."
+weight = 7
+viz_type = "controls"
+flow = "position"
+label = "Board Chair (Anchor Rock Foundation, dissolved)"
+source_doc = "LARA 802394934"
