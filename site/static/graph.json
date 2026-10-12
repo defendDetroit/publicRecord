@@ -9,7 +9,8 @@
       "tier": 1,
       "role": "Enterprise leader",
       "page": "/network/actors/brian-banks/",
-      "class": "entity"
+      "class": "entity",
+      "membrane_response": "-1"
     },
     {
       "id": "holland",
@@ -18,7 +19,8 @@
       "tier": 1,
       "role": "Financial gatekeeper",
       "page": "/network/actors/joseph-holland/",
-      "class": "entity"
+      "class": "entity",
+      "membrane_response": "-1"
     },
     {
       "id": "sc_cavanagh",
@@ -27,7 +29,8 @@
       "tier": 1,
       "classification": "supreme_court",
       "role": "MI Supreme Court Chief Justice (since 2019, CJ since Apr 2025). UMich Engineering + Wayne State Law. LIAISON TO AGC AND JTC. Former AGC member. Former SBM Appellate Practice Section Chair. She is the Supreme Court's direct connection to BOTH oversight bodies that refuse to act.",
-      "class": "entity"
+      "class": "entity",
+      "membrane_response": "-1"
     },
     {
       "id": "agc",
@@ -36,7 +39,8 @@
       "entity_type": "Oversight body",
       "note": "Attorney Grievance Commission. 755 W Big Beaver Rd Suite 2100, Troy MI 48084. (313) 961-6585. Investigative and prosecutorial arm of MI Supreme Court. 9 commissioners (6 lawyers, 3 non-lawyers), appointed by Supreme Court. Returned Banks filing Oct 1, pointed to State Bar UPL. Referral loop.",
       "tier": 1,
-      "class": "entity"
+      "class": "entity",
+      "membrane_response": "-1"
     },
     {
       "id": "detroit_city",
@@ -55,7 +59,8 @@
       "note": "Judicial Tenure Commission. 3034 W Grand Blvd Suite 8-350, Detroit MI 48202. (313) 875-5110. Budget: $2,944,500 (FY2026). 15 staff (13 attorneys, 2 admin). 9 commissioners (5 judges, 2 attorneys, 2 lay). Oct 12, 2026 11:07 AM: 'The Commission will no longer respond to your email messages.' 5 open RFIs. Constitutional mandate Art VI §30. They chose silence.",
       "classification": "refusal",
       "tier": 1,
-      "class": "entity"
+      "class": "entity",
+      "membrane_response": "-pi"
     },
     {
       "id": "macdowell",
@@ -64,7 +69,8 @@
       "page": "/network/entities/macdowell-prep/",
       "entity_type": "K-8 Charter School",
       "tier": 1,
-      "class": "entity"
+      "class": "entity",
+      "membrane_response": "-1"
     },
     {
       "id": "mi_supreme_court",
@@ -73,7 +79,8 @@
       "entity_type": "Oversight body",
       "note": "Appoints AGC Grievance Administrator, ADB members, JTC Commissioners. Declined to define UPL in 2014. The enforcement architecture is their creation.",
       "tier": 1,
-      "class": "entity"
+      "class": "entity",
+      "membrane_response": "-1"
     },
     {
       "id": "pca",
@@ -82,7 +89,8 @@
       "page": "/network/entities/purpose-charter-academy/",
       "entity_type": "K-8 Charter School",
       "tier": 1,
-      "class": "entity"
+      "class": "entity",
+      "membrane_response": "-pi"
     },
     {
       "id": "adam_sabree",
@@ -125,7 +133,8 @@
       "tier": 2,
       "role": "Attorney representing Brian Banks (9 felony convictions) in custody case 26-108221-DC. ADB Hearing Panelist — sits on the body that disciplines attorneys while representing a 9-time felon at K-12 schools. GLLG principal. Confirmed in writing NOT retained for law enforcement matters. On Burris reply-all thread Oct 12. Previously assumed aligned — assumption revoked.",
       "classification": "enabler",
-      "class": "entity"
+      "class": "entity",
+      "membrane_response": "-pi"
     },
     {
       "id": "fiore",
@@ -185,7 +194,8 @@
       "tier": 2,
       "role": "Judicial cover",
       "page": "/network/judges/cylenthia-miller/",
-      "class": "entity"
+      "class": "entity",
+      "membrane_response": "-1"
     },
     {
       "id": "misha_stallworth",
@@ -201,7 +211,8 @@
       "type": "actor",
       "tier": 2,
       "role": "AAG â†’ PCA Board Director",
-      "class": "entity"
+      "class": "entity",
+      "membrane_response": "-1"
     },
     {
       "id": "nessel",
@@ -340,7 +351,8 @@
       "tier": 2,
       "role": "Judicial cover",
       "page": "/network/judges/tenisha-yancey/",
-      "class": "entity"
+      "class": "entity",
+      "membrane_response": "-1"
     },
     {
       "id": "dpd",
@@ -357,7 +369,8 @@
       "type": "entity",
       "entity_type": "Authorizer",
       "tier": 2,
-      "class": "entity"
+      "class": "entity",
+      "membrane_response": "-1"
     },
     {
       "id": "great_lakes_legal",
@@ -376,7 +389,8 @@
       "type": "entity",
       "entity_type": "State agency",
       "tier": 2,
-      "class": "entity"
+      "class": "entity",
+      "membrane_response": "form"
     },
     {
       "id": "purpose_foundation",
@@ -395,7 +409,8 @@
       "entity_type": "Oversight body",
       "note": "8 elected members. Constitutional (Art VIII §3). Oversees authorizers. Meets Oct 13, 2026.",
       "tier": 2,
-      "class": "entity"
+      "class": "entity",
+      "membrane_response": "+0.5"
     },
     {
       "id": "sbm",
@@ -404,7 +419,8 @@
       "entity_type": "Regulatory body",
       "note": "306 Townsend St, Lansing MI 48933. (517) 346-6300. Mandatory bar association. Houses UPL Dept. Board of Commissioners governs. UPL closed file Sep 30 pointing to AGC. AGC returned filing Oct 1 pointing to UPL. Referral loop.",
       "tier": 2,
-      "class": "entity"
+      "class": "entity",
+      "membrane_response": "0"
     },
     {
       "id": "upl_dept",
@@ -413,7 +429,8 @@
       "entity_type": "Oversight body",
       "note": "State Bar of Michigan UPL Department. (517) 346-6305. upl@michbar.org. 306 Townsend St, Lansing. Standing Committee + Department. Closed Banks file Sep 30. Pointed to AGC. AGC pointed back Oct 1. Referral loop. Committee: 12 members + 4 advisors. Chair: Courtney Cadotte.",
       "tier": 2,
-      "class": "entity"
+      "class": "entity",
+      "membrane_response": "0"
     },
     {
       "label": "Walton Family Foundation",
@@ -422,7 +439,8 @@
       "type": "entity",
       "role": "Walmart heirs' education philanthropy",
       "tier": 2,
-      "class": "entity"
+      "class": "entity",
+      "membrane_response": "0"
     },
     {
       "id": "wayne_county",
@@ -438,14 +456,16 @@
       "label": "court 36th",
       "type": "institution",
       "tier": 2,
-      "class": "entity"
+      "class": "entity",
+      "membrane_response": "-1"
     },
     {
       "id": "court_3rd",
       "label": "court 3rd",
       "type": "institution",
       "tier": 2,
-      "class": "entity"
+      "class": "entity",
+      "membrane_response": "-1"
     },
     {
       "id": "agc_hickey",
@@ -542,7 +562,8 @@
       "tier": 3,
       "role": "Founding School Leader, PCA. PhD Wayne State ELPS 2023. 29yr DPSCD veteran. Principal Bunche Prep. NBCT. BS WMU, MA Marygrove, PhD Wayne State. Sister of Judge Tenisha Yancey. Husband Ahmed Beasley. Most credentialed person in Banks enterprise.",
       "class": "actor",
-      "classification": "enabler"
+      "classification": "enabler",
+      "membrane_response": "-1"
     },
     {
       "id": "bert_johnson",
@@ -705,7 +726,8 @@
       "type": "actor",
       "tier": 3,
       "role": "Director, EMU Charter Schools Office. Terminated DPSA charter Jun 30, 2026. MCCSA Treasurer.",
-      "class": "entity"
+      "class": "entity",
+      "membrane_response": "+0.8"
     },
     {
       "id": "jtc_burmeister",
@@ -811,7 +833,8 @@
       "tier": 3,
       "role": "MI Superintendent of Public Instruction (Dec 2025). SBE Chair. PhD Wayne State ELPS (same dept as Beasley/Hill). Former Dearborn Supt.",
       "classification": "oversight",
-      "class": "actor"
+      "class": "actor",
+      "membrane_response": "null"
     },
     {
       "id": "mckinney",
@@ -963,7 +986,8 @@
       "type": "actor",
       "tier": 3,
       "role": "DPSCD Superintendent. PCA authorized under his watch (Jul 2025).",
-      "class": "entity"
+      "class": "entity",
+      "membrane_response": "-1"
     },
     {
       "id": "wells_stallworth",
@@ -988,7 +1012,8 @@
       "type": "entity",
       "role": "School choice advocacy",
       "tier": 3,
-      "class": "entity"
+      "class": "entity",
+      "membrane_response": "0"
     },
     {
       "id": "ag_charitable_trust",
@@ -997,7 +1022,8 @@
       "tier": 3,
       "role": "MI AG Charitable Trust Section. Registers/oversees 13,000+ charitable orgs. RESPONDED 12:19 PM Oct 12 — complaint received, pending review, 30-45 days. ct_email@michigan.gov. Phone 517-335-7571.",
       "classification": "oversight",
-      "class": "entity"
+      "class": "entity",
+      "membrane_response": "form"
     },
     {
       "id": "charter_law_1993",
@@ -1014,7 +1040,8 @@
       "type": "entity",
       "entity_type": "Law firm",
       "tier": 3,
-      "class": "entity"
+      "class": "entity",
+      "membrane_response": "-1"
     },
     {
       "id": "mde_prof_practice",
@@ -1023,7 +1050,8 @@
       "tier": 3,
       "role": "MDE Office of Educator Excellence — Professional Practice unit. Criminal convictions + K-12 employment. Fingerprinting. Revocations. RESPONDED 12:19 PM Oct 12. MDE-Professional-Practice@Michigan.gov. Director: Kelli Brozanski (brozanskik@michigan.gov).",
       "classification": "oversight",
-      "class": "entity"
+      "class": "entity",
+      "membrane_response": "form"
     },
     {
       "id": "msu",
@@ -1041,7 +1069,8 @@
       "entity_type": "Advocacy organization",
       "note": "EIN 35-2532243. $1.4M assets. $314K rev (2024). 225 E 36th St Apt 10-O, NYC. 1.9 employees. Founded by Diane Ravitch 2013.",
       "tier": 3,
-      "class": "entity"
+      "class": "entity",
+      "membrane_response": "-1"
     },
     {
       "id": "purpose_group",
@@ -1075,7 +1104,8 @@
       "label": "ag office",
       "type": "institution",
       "tier": 3,
-      "class": "entity"
+      "class": "entity",
+      "membrane_response": "form"
     },
     {
       "label": "MSU College of Law",
@@ -1525,7 +1555,8 @@
       "tier": 4,
       "role": "WXYZ (Ch 7) investigative journalist. Covered Banks/charter school story. ross.jones@wxyz.com.",
       "classification": "press",
-      "class": "actor"
+      "class": "actor",
+      "membrane_response": "+0.5"
     },
     {
       "id": "sbm_clay",
@@ -1560,7 +1591,8 @@
       "type": "actor",
       "tier": 4,
       "role": "SBE member (R-Goodrich). Confirmed positive actor. Responded 13 min. EMU grad. Nurse. Disability advocate.",
-      "class": "entity"
+      "class": "entity",
+      "membrane_response": "+1"
     },
     {
       "id": "thomas_ryan",
@@ -1577,7 +1609,8 @@
       "tier": 4,
       "role": "Professional enabler â€” attorney",
       "page": "/network/professional-enablers/todd-perkins/",
-      "class": "entity"
+      "class": "entity",
+      "membrane_response": "-1"
     },
     {
       "id": "tremblay",
@@ -1963,7 +1996,8 @@
       "type": "institution",
       "role": "Charter leadership fellowship program",
       "tier": 4,
-      "class": "entity"
+      "class": "entity",
+      "membrane_response": "0"
     },
     {
       "id": "perkins_d",
@@ -2082,7 +2116,8 @@
       "entity_type": "Advocacy organization",
       "note": "Education advocacy. S.S. v. Michigan (right to read). 2966 Woodward Ave, Detroit. (313) 578-6800.",
       "tier": 5,
-      "class": "entity"
+      "class": "entity",
+      "membrane_response": "?"
     },
     {
       "id": "adb",
@@ -2091,7 +2126,8 @@
       "entity_type": "Oversight body",
       "note": "Adjudicates attorney discipline. 9 members. Chair: Peter A. Smit. Hearing panelists include Jehan Crump-Gibson.",
       "tier": 5,
-      "class": "entity"
+      "class": "entity",
+      "membrane_response": "-1"
     },
     {
       "id": "afp_action",
@@ -9792,6 +9828,70 @@
       "type": "structural_proximity",
       "weight": 4,
       "label": "Charter ecosystem overlap",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "ag_office",
+      "target": "banks",
+      "type": "inaction",
+      "weight": 7,
+      "label": "Triple auto-reply 12:19/12:29/12:36 PM Oct 12. 'Not for private individuals.'",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "sbm",
+      "target": "banks",
+      "type": "inaction",
+      "weight": 7,
+      "label": "Banks uses J.D./Esq. without bar admission. SBM silent.",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "walton_family_foundation",
+      "target": "banks",
+      "type": "inaction",
+      "weight": 6,
+      "label": "Funded Pahara fellowship for Banks. Silent on 9 convictions.",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "pahara_institute",
+      "target": "banks",
+      "type": "inaction",
+      "weight": 6,
+      "label": "Gave Banks fellowship. Silent on convictions.",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "mde",
+      "target": "banks",
+      "type": "inaction",
+      "weight": 6,
+      "label": "MDE received complaint. Bureaucratic response only.",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "court_36th",
+      "target": "banks",
+      "type": "inaction",
+      "weight": 7,
+      "label": "3 network judges elected same cycle. No recusals. No systemic response.",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "adb",
+      "target": "banks",
+      "type": "inaction",
+      "weight": 6,
+      "label": "Crump-Gibson sits as hearing panelist. Discipline body captured.",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "jolia_hill",
+      "target": "banks",
+      "type": "investigation",
+      "weight": 7,
+      "label": "Terminated DPSA (Banks-network school). Sister in the struggle to Beasley.",
       "epistemic_status": "record"
     }
   ],
