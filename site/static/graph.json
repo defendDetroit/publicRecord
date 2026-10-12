@@ -1286,6 +1286,13 @@
       "type": "entity",
       "entity_type": "Private 501(c)(3)",
       "note": "501c3 public charity. Professional dev, coaching, DiSC. SCBC tour launched THROUGH this nonprofit. Owner: Jacquie Hood Martin."
+    },
+    {
+      "id": "ms_perkins_pca",
+      "label": "Ms. Perkins (PCA)",
+      "type": "actor",
+      "tier": 4,
+      "role": "PCA receptionist/staff. Surname match: Todd Perkins (Banks atty), Sean Perkins (36th judge). Relationship TBD."
     }
   ],
   "edges": [
@@ -4421,6 +4428,24 @@
       "note": "Board member of 50CAN. Previously on StudentsFirst board (merged with 50CAN).",
       "weight": 7,
       "source_doc": "BlackPressUSA; al.com"
+    },
+    {
+      "source": "ms_perkins_pca",
+      "target": "pca",
+      "type": "employment",
+      "epistemic_status": "record",
+      "note": "PCA staff. Identified Oct 12, 2026. Perkins surname match.",
+      "weight": 5,
+      "source_doc": "Direct observation Oct 12, 2026"
+    },
+    {
+      "source": "ms_perkins_pca",
+      "target": "todd_perkins",
+      "type": "possible_family",
+      "epistemic_status": "inferred",
+      "note": "Surname match. Todd = Banks attorney. Sean = 36th judge (brothers). Family connection TBD.",
+      "weight": 4,
+      "source_doc": "Surname match Oct 12, 2026"
     }
   ],
   "epistemic_grammar": {
