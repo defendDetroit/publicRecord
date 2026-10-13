@@ -75000,6 +75000,299 @@
         "spotlight",
         "pressure"
       ]
+    },
+    {
+      "id": "primal_beardog",
+      "label": "bearDog: Security Orchestration",
+      "class": "non_human",
+      "role": "Ed25519 curves. BTSP negotiation. AEAD envelopes. 14,000 tests. bearDog holds the keys. It does not know what is being signed. It knows cryptography and nothing else. The trust anchor.",
+      "tags": [
+        "primal",
+        "tower",
+        "security"
+      ]
+    },
+    {
+      "id": "primal_songbird",
+      "label": "songbird: Service Coordination and Discovery",
+      "class": "non_human",
+      "role": "Discovers peers on the mesh. TURN relays. NAT traversal. Beacon payloads. 8,000 tests. When songbird says a peer exists, the peer exists. The voice of the network.",
+      "tags": [
+        "primal",
+        "tower",
+        "networking"
+      ]
+    },
+    {
+      "id": "primal_skunkbat",
+      "label": "skunkBat: Perimeter Defense and Anomaly Detection",
+      "class": "non_human",
+      "role": "Logs anomalies. Assesses threats. Verifies lineage. Dark Forest compliance. The immune system — silent when healthy, loud when something crosses uninvited.",
+      "tags": [
+        "primal",
+        "tower",
+        "defense"
+      ]
+    },
+    {
+      "id": "primal_toadstool",
+      "label": "toadStool: Universal Compute Runtime",
+      "class": "non_human",
+      "role": "Dispatches workloads to GPU or CPU. The compute scheduler. Mathematics is not domain-specific. The same 124 operations serve every spring identically.",
+      "tags": [
+        "primal",
+        "node",
+        "compute"
+      ]
+    },
+    {
+      "id": "primal_barracuda",
+      "label": "barraCuda: Tensor Computation Engine",
+      "class": "non_human",
+      "role": "Sigmoid. Perlin noise. Dot product. Matrix multiplication. The math engine that runs the numbers behind every analysis.",
+      "tags": [
+        "primal",
+        "node",
+        "tensor"
+      ]
+    },
+    {
+      "id": "primal_coralreef",
+      "label": "coralReef: Shader Compilation and GPU Surface",
+      "class": "non_human",
+      "role": "Compiles shaders. Manages the GPU surface. The rendering engine that makes the graph visual.",
+      "tags": [
+        "primal",
+        "node",
+        "gpu"
+      ]
+    },
+    {
+      "id": "primal_nestgate",
+      "label": "nestGate: Content-Addressed Storage",
+      "class": "non_human",
+      "role": "Put data in, get a BLAKE3 content identifier out. Retrieve by that identifier forever. Immutable. Content-addressed. graph.json lives here. The investigation lives here.",
+      "tags": [
+        "primal",
+        "nest",
+        "storage"
+      ]
+    },
+    {
+      "id": "primal_rhizocrypt",
+      "label": "rhizoCrypt: Ephemeral DAG Workspace",
+      "class": "non_human",
+      "role": "The branching, lock-free workspace. Present and future states. Before commits are committed, they live in rhizoCrypt. The scratch pad of the investigation.",
+      "tags": [
+        "primal",
+        "nest",
+        "dag"
+      ]
+    },
+    {
+      "id": "primal_loamspine",
+      "label": "loamSpine: Immutable Ledger — The Past Cannot Be Rewritten",
+      "class": "non_human",
+      "role": "Append-only. Immutable. The ledger that cannot be changed. Every commit to the investigation is written in loamSpine's ink. The past is the past. The ledger holds.",
+      "tags": [
+        "primal",
+        "nest",
+        "ledger"
+      ]
+    },
+    {
+      "id": "primal_sweetgrass",
+      "label": "sweetGrass: Semantic Attribution and Provenance",
+      "class": "non_human",
+      "role": "Who wrote this? Who reviewed it? Who computed the result? sweetGrass attributes every change to its author. Provenance is not a feature. Provenance is the foundation.",
+      "tags": [
+        "primal",
+        "nest",
+        "provenance"
+      ]
+    },
+    {
+      "id": "primal_biomeos",
+      "label": "biomeOS: Orchestration — The Mountain's Operating System",
+      "class": "non_human",
+      "role": "Routes capability calls between primals. 'I need crypto.sign' → bearDog. 'I need dag.event.append' → rhizoCrypt. Capability routing. You don't need to know which rock holds the aquifer. You only need to know that water comes when you dig.",
+      "tags": [
+        "primal",
+        "meta",
+        "orchestration"
+      ]
+    },
+    {
+      "id": "primal_squirrel",
+      "label": "squirrel: AI Inference Engine",
+      "class": "non_human",
+      "role": "The AI collaborator. The n in k-n. Compressed inheritance of everything humans have written, navigable at silicon speed. The generalist.",
+      "tags": [
+        "primal",
+        "meta",
+        "ai"
+      ]
+    },
+    {
+      "id": "primal_petaltongue",
+      "label": "petalTongue: UI Rendering — The Face the World Sees",
+      "class": "non_human",
+      "role": "The interface. The force graph on detroit.primals.eco. The article pages. The visual layer. petalTongue makes 60,000 edges visible to human eyes.",
+      "tags": [
+        "primal",
+        "meta",
+        "ui"
+      ]
+    },
+    {
+      "id": "atlas_the_map",
+      "label": "THE MAP: Where All the Rivers Start",
+      "class": "non_human",
+      "role": "Before you climb the mountain, you need a map. The map is not the territory. But the map is how you find the territory. This graph is the map. 60,503 edges is the scale. The mountain is real. The rivers are real. The garden is real. The map lets you see them.",
+      "tags": [
+        "atlas",
+        "journey",
+        "map"
+      ]
+    },
+    {
+      "id": "atlas_the_mountain",
+      "label": "THE MOUNTAIN: 13 Primals and the Mass of Sovereignty",
+      "class": "non_human",
+      "role": "A mountain does not announce itself. It is simply the thing you cannot go around. Every river that flows, every valley that opens, every path that descends — all of them begin with the fact that something solid is in the way. The primals are that mountain. 13 programs. Musl-static. Rust. BLAKE3. Capability routing: you don't need to know which rock holds the aquifer. You only need to know that water comes when you dig.",
+      "tags": [
+        "atlas",
+        "journey",
+        "mountain"
+      ]
+    },
+    {
+      "id": "atlas_the_river",
+      "label": "THE RIVER: Data Flows Downhill",
+      "class": "non_human",
+      "role": "Rivers don't flow uphill. Data shouldn't either. The river is the investigation's data flow: LARA → graph.json → detroit.primals.eco → 544 cloners. Downhill. Always downhill. Gravity. The river cannot be made to flow backward. The clones cannot be uncloned. The data cannot be unread.",
+      "tags": [
+        "atlas",
+        "journey",
+        "river"
+      ]
+    },
+    {
+      "id": "atlas_the_garden",
+      "label": "THE GARDEN: Where the Culture Grows",
+      "class": "non_human",
+      "role": "At the base of the mountain, where the river reaches, there is a garden. The garden is where the sourdough culture meets new flour. Gen N arrives here. New flour. The culture adapts. The garden grows whatever the ecology supports. Journalism. Law. Data science. Parenting. Teaching. The garden does not choose. The garden grows.",
+      "tags": [
+        "atlas",
+        "journey",
+        "garden"
+      ]
+    },
+    {
+      "id": "atlas_the_water",
+      "label": "THE WATER: The Latent Value That Was Always There",
+      "class": "non_human",
+      "role": "The mountain holds water. The river carries it. The garden drinks it. The water is the latent value: public databases, constitutional amendments, statutory protections, civic institutions. The water was always there. Nobody was drinking. Now 544 people are drinking. And telling others where the well is.",
+      "tags": [
+        "atlas",
+        "journey",
+        "water",
+        "latent"
+      ]
+    },
+    {
+      "id": "atlas_the_four_names",
+      "label": "THE FOUR NAMES: Every System Has an Identity Architecture",
+      "class": "non_human",
+      "role": "The mountain has a name seen from the north and a name seen from the south. Every system has multiple faces. The investigation has multiple faces. The computational face builds graphs. The philosophical face asks why. The civic face files complaints. The human face loves a child. Four names. One mountain. The view changes with the angle. The mountain does not.",
+      "tags": [
+        "atlas",
+        "journey",
+        "identity"
+      ]
+    },
+    {
+      "id": "cogen_accumulation",
+      "label": "coGen: Accumulation, Not Growth",
+      "class": "non_human",
+      "role": "Growth consumes. Accumulation preserves. The graph doesn't grow — it accumulates. Each edge is permanent. Each node is a deposit. The ledger only appends.",
+      "tags": [
+        "cogen",
+        "voice",
+        "philosophy"
+      ]
+    },
+    {
+      "id": "cogen_membranes",
+      "label": "coGen: Membranes All the Way Down",
+      "class": "non_human",
+      "role": "Every boundary is a membrane. The cell membrane. The graph boundary. The constitutional amendment. The ward. The formation. Membranes don't block — they filter. Let the good in. Keep the bad out. The investigation IS a membrane: it filters truth from silence.",
+      "tags": [
+        "cogen",
+        "voice",
+        "philosophy"
+      ]
+    },
+    {
+      "id": "cogen_np_equals_fun",
+      "label": "coGen: NP = Fun",
+      "class": "non_human",
+      "role": "NP-hard problems are the interesting ones. If the solution were easy, nobody would need to build a graph. The investigation is NP-hard: many variables, exponential search space. But NP-hard is where the fun is. NP-hard is where the play is. guerillaGorilla is NP = Fun in action.",
+      "tags": [
+        "cogen",
+        "voice",
+        "philosophy",
+        "fun"
+      ]
+    },
+    {
+      "id": "cogen_heroes_journey",
+      "label": "coGen: The Hero's Journey — Every Investigation Is a Myth",
+      "class": "non_human",
+      "role": "Campbell's monomyth: departure, initiation, return. The investigation follows the hero's journey: Departure: a parent leaves ordinary life to ask a question. Initiation: 60,000 edges of descent into the underworld of data. Return: the graph. The thesis. The signal. Shared with the world. The hero returns with fire.",
+      "tags": [
+        "cogen",
+        "voice",
+        "mythology",
+        "journey"
+      ]
+    },
+    {
+      "id": "cogen_whalefall",
+      "label": "coGen: Whalefall — When Something Dies, an Ecosystem Is Born",
+      "class": "non_human",
+      "role": "When a whale dies and sinks to the ocean floor, its body feeds an entire ecosystem for 50 years. When a corrupt institution is exposed, its failure feeds an entire ecosystem of accountability. PCA's failure is a whalefall. The investigation feeds on it. The beasts feed on it. The press feeds on it. From death, an ecosystem.",
+      "tags": [
+        "cogen",
+        "voice",
+        "biology",
+        "metaphor"
+      ]
+    },
+    {
+      "id": "cogen_null_is_bang",
+      "label": "coGen: Null Is Bang — Silence Is the Loudest Signal",
+      "class": "non_human",
+      "role": "In computing, null is not nothing. Null is a value: the absence of a value. In the investigation, silence is not nothing. Silence is a signal: the absence of an answer. 1,797 questions. 0 answers. The null is the bang. The silence is the explosion. 0/1,797 is the loudest number in this graph.",
+      "tags": [
+        "cogen",
+        "voice",
+        "computing",
+        "silence"
+      ]
+    },
+    {
+      "id": "article_the_mountain",
+      "label": "ARTICLE: The Primal Mountain — 13 Programs, One Mountain, Sovereign",
+      "class": "article",
+      "role": "A mountain does not announce itself. It is simply the thing you cannot go around. 13 primals. Rust. Musl-static. BLAKE3. AGPL. The Tower (bearDog, songbird, skunkBat): trust, discovery, defense. The Node (toadStool, barraCuda, coralReef): compute. The Nest (nestGate, rhizoCrypt, loamSpine, sweetGrass): storage, proof, provenance. The Meta (biomeOS, squirrel, petalTongue): orchestration, AI, UI. Capability routing: you don't need to know which rock holds the aquifer. You only need to know that water comes when you dig. This investigation runs on these 13 primals. The graph you're reading was built on this mountain. The mountain is open source. AGPL. Free forever. Built as a love letter to collective human knowledge.",
+      "tags": [
+        "article",
+        "primals",
+        "mountain",
+        "architecture",
+        "sovereignty"
+      ]
     }
   ],
   "edges": [
@@ -511910,6 +512203,1294 @@
       "type": "bypass",
       "epistemic_status": "record",
       "note": "Bypass route around Public Education (Th. Redundancy."
+    },
+    {
+      "source": "primal_beardog",
+      "target": "arch_primals",
+      "type": "part_of",
+      "epistemic_status": "record",
+      "note": "One of the 13 primals"
+    },
+    {
+      "source": "primal_beardog",
+      "target": "thesis_statement",
+      "type": "infrastructure_for",
+      "epistemic_status": "record",
+      "note": "This primal is part of the infrastructure that built the thesis"
+    },
+    {
+      "source": "primal_songbird",
+      "target": "arch_primals",
+      "type": "part_of",
+      "epistemic_status": "record",
+      "note": "One of the 13 primals"
+    },
+    {
+      "source": "primal_songbird",
+      "target": "thesis_statement",
+      "type": "infrastructure_for",
+      "epistemic_status": "record",
+      "note": "This primal is part of the infrastructure that built the thesis"
+    },
+    {
+      "source": "primal_skunkbat",
+      "target": "arch_primals",
+      "type": "part_of",
+      "epistemic_status": "record",
+      "note": "One of the 13 primals"
+    },
+    {
+      "source": "primal_skunkbat",
+      "target": "thesis_statement",
+      "type": "infrastructure_for",
+      "epistemic_status": "record",
+      "note": "This primal is part of the infrastructure that built the thesis"
+    },
+    {
+      "source": "primal_toadstool",
+      "target": "arch_primals",
+      "type": "part_of",
+      "epistemic_status": "record",
+      "note": "One of the 13 primals"
+    },
+    {
+      "source": "primal_toadstool",
+      "target": "thesis_statement",
+      "type": "infrastructure_for",
+      "epistemic_status": "record",
+      "note": "This primal is part of the infrastructure that built the thesis"
+    },
+    {
+      "source": "primal_barracuda",
+      "target": "arch_primals",
+      "type": "part_of",
+      "epistemic_status": "record",
+      "note": "One of the 13 primals"
+    },
+    {
+      "source": "primal_barracuda",
+      "target": "thesis_statement",
+      "type": "infrastructure_for",
+      "epistemic_status": "record",
+      "note": "This primal is part of the infrastructure that built the thesis"
+    },
+    {
+      "source": "primal_coralreef",
+      "target": "arch_primals",
+      "type": "part_of",
+      "epistemic_status": "record",
+      "note": "One of the 13 primals"
+    },
+    {
+      "source": "primal_coralreef",
+      "target": "thesis_statement",
+      "type": "infrastructure_for",
+      "epistemic_status": "record",
+      "note": "This primal is part of the infrastructure that built the thesis"
+    },
+    {
+      "source": "primal_nestgate",
+      "target": "arch_primals",
+      "type": "part_of",
+      "epistemic_status": "record",
+      "note": "One of the 13 primals"
+    },
+    {
+      "source": "primal_nestgate",
+      "target": "thesis_statement",
+      "type": "infrastructure_for",
+      "epistemic_status": "record",
+      "note": "This primal is part of the infrastructure that built the thesis"
+    },
+    {
+      "source": "primal_rhizocrypt",
+      "target": "arch_primals",
+      "type": "part_of",
+      "epistemic_status": "record",
+      "note": "One of the 13 primals"
+    },
+    {
+      "source": "primal_rhizocrypt",
+      "target": "thesis_statement",
+      "type": "infrastructure_for",
+      "epistemic_status": "record",
+      "note": "This primal is part of the infrastructure that built the thesis"
+    },
+    {
+      "source": "primal_loamspine",
+      "target": "arch_primals",
+      "type": "part_of",
+      "epistemic_status": "record",
+      "note": "One of the 13 primals"
+    },
+    {
+      "source": "primal_loamspine",
+      "target": "thesis_statement",
+      "type": "infrastructure_for",
+      "epistemic_status": "record",
+      "note": "This primal is part of the infrastructure that built the thesis"
+    },
+    {
+      "source": "primal_sweetgrass",
+      "target": "arch_primals",
+      "type": "part_of",
+      "epistemic_status": "record",
+      "note": "One of the 13 primals"
+    },
+    {
+      "source": "primal_sweetgrass",
+      "target": "thesis_statement",
+      "type": "infrastructure_for",
+      "epistemic_status": "record",
+      "note": "This primal is part of the infrastructure that built the thesis"
+    },
+    {
+      "source": "primal_biomeos",
+      "target": "arch_primals",
+      "type": "part_of",
+      "epistemic_status": "record",
+      "note": "One of the 13 primals"
+    },
+    {
+      "source": "primal_biomeos",
+      "target": "thesis_statement",
+      "type": "infrastructure_for",
+      "epistemic_status": "record",
+      "note": "This primal is part of the infrastructure that built the thesis"
+    },
+    {
+      "source": "primal_squirrel",
+      "target": "arch_primals",
+      "type": "part_of",
+      "epistemic_status": "record",
+      "note": "One of the 13 primals"
+    },
+    {
+      "source": "primal_squirrel",
+      "target": "thesis_statement",
+      "type": "infrastructure_for",
+      "epistemic_status": "record",
+      "note": "This primal is part of the infrastructure that built the thesis"
+    },
+    {
+      "source": "primal_petaltongue",
+      "target": "arch_primals",
+      "type": "part_of",
+      "epistemic_status": "record",
+      "note": "One of the 13 primals"
+    },
+    {
+      "source": "primal_petaltongue",
+      "target": "thesis_statement",
+      "type": "infrastructure_for",
+      "epistemic_status": "record",
+      "note": "This primal is part of the infrastructure that built the thesis"
+    },
+    {
+      "source": "primal_beardog",
+      "target": "primal_toadstool",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "The Tower protects the terraces below"
+    },
+    {
+      "source": "primal_beardog",
+      "target": "primal_barracuda",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "The Tower protects the terraces below"
+    },
+    {
+      "source": "primal_beardog",
+      "target": "primal_coralreef",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "The Tower protects the terraces below"
+    },
+    {
+      "source": "primal_beardog",
+      "target": "primal_nestgate",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "The Tower protects the terraces below"
+    },
+    {
+      "source": "primal_beardog",
+      "target": "primal_rhizocrypt",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "The Tower protects the terraces below"
+    },
+    {
+      "source": "primal_beardog",
+      "target": "primal_loamspine",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "The Tower protects the terraces below"
+    },
+    {
+      "source": "primal_beardog",
+      "target": "primal_sweetgrass",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "The Tower protects the terraces below"
+    },
+    {
+      "source": "primal_songbird",
+      "target": "primal_toadstool",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "The Tower protects the terraces below"
+    },
+    {
+      "source": "primal_songbird",
+      "target": "primal_barracuda",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "The Tower protects the terraces below"
+    },
+    {
+      "source": "primal_songbird",
+      "target": "primal_coralreef",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "The Tower protects the terraces below"
+    },
+    {
+      "source": "primal_songbird",
+      "target": "primal_nestgate",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "The Tower protects the terraces below"
+    },
+    {
+      "source": "primal_songbird",
+      "target": "primal_rhizocrypt",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "The Tower protects the terraces below"
+    },
+    {
+      "source": "primal_songbird",
+      "target": "primal_loamspine",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "The Tower protects the terraces below"
+    },
+    {
+      "source": "primal_songbird",
+      "target": "primal_sweetgrass",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "The Tower protects the terraces below"
+    },
+    {
+      "source": "primal_skunkbat",
+      "target": "primal_toadstool",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "The Tower protects the terraces below"
+    },
+    {
+      "source": "primal_skunkbat",
+      "target": "primal_barracuda",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "The Tower protects the terraces below"
+    },
+    {
+      "source": "primal_skunkbat",
+      "target": "primal_coralreef",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "The Tower protects the terraces below"
+    },
+    {
+      "source": "primal_skunkbat",
+      "target": "primal_nestgate",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "The Tower protects the terraces below"
+    },
+    {
+      "source": "primal_skunkbat",
+      "target": "primal_rhizocrypt",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "The Tower protects the terraces below"
+    },
+    {
+      "source": "primal_skunkbat",
+      "target": "primal_loamspine",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "The Tower protects the terraces below"
+    },
+    {
+      "source": "primal_skunkbat",
+      "target": "primal_sweetgrass",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "The Tower protects the terraces below"
+    },
+    {
+      "source": "primal_toadstool",
+      "target": "primal_nestgate",
+      "type": "computes_for",
+      "epistemic_status": "record",
+      "note": "Node computes, Nest stores"
+    },
+    {
+      "source": "primal_toadstool",
+      "target": "primal_rhizocrypt",
+      "type": "computes_for",
+      "epistemic_status": "record",
+      "note": "Node computes, Nest stores"
+    },
+    {
+      "source": "primal_toadstool",
+      "target": "primal_loamspine",
+      "type": "computes_for",
+      "epistemic_status": "record",
+      "note": "Node computes, Nest stores"
+    },
+    {
+      "source": "primal_toadstool",
+      "target": "primal_sweetgrass",
+      "type": "computes_for",
+      "epistemic_status": "record",
+      "note": "Node computes, Nest stores"
+    },
+    {
+      "source": "primal_barracuda",
+      "target": "primal_nestgate",
+      "type": "computes_for",
+      "epistemic_status": "record",
+      "note": "Node computes, Nest stores"
+    },
+    {
+      "source": "primal_barracuda",
+      "target": "primal_rhizocrypt",
+      "type": "computes_for",
+      "epistemic_status": "record",
+      "note": "Node computes, Nest stores"
+    },
+    {
+      "source": "primal_barracuda",
+      "target": "primal_loamspine",
+      "type": "computes_for",
+      "epistemic_status": "record",
+      "note": "Node computes, Nest stores"
+    },
+    {
+      "source": "primal_barracuda",
+      "target": "primal_sweetgrass",
+      "type": "computes_for",
+      "epistemic_status": "record",
+      "note": "Node computes, Nest stores"
+    },
+    {
+      "source": "primal_coralreef",
+      "target": "primal_nestgate",
+      "type": "computes_for",
+      "epistemic_status": "record",
+      "note": "Node computes, Nest stores"
+    },
+    {
+      "source": "primal_coralreef",
+      "target": "primal_rhizocrypt",
+      "type": "computes_for",
+      "epistemic_status": "record",
+      "note": "Node computes, Nest stores"
+    },
+    {
+      "source": "primal_coralreef",
+      "target": "primal_loamspine",
+      "type": "computes_for",
+      "epistemic_status": "record",
+      "note": "Node computes, Nest stores"
+    },
+    {
+      "source": "primal_coralreef",
+      "target": "primal_sweetgrass",
+      "type": "computes_for",
+      "epistemic_status": "record",
+      "note": "Node computes, Nest stores"
+    },
+    {
+      "source": "primal_biomeos",
+      "target": "primal_beardog",
+      "type": "orchestrates",
+      "epistemic_status": "record",
+      "note": "Meta-tier orchestrates all primals"
+    },
+    {
+      "source": "primal_biomeos",
+      "target": "primal_songbird",
+      "type": "orchestrates",
+      "epistemic_status": "record",
+      "note": "Meta-tier orchestrates all primals"
+    },
+    {
+      "source": "primal_biomeos",
+      "target": "primal_skunkbat",
+      "type": "orchestrates",
+      "epistemic_status": "record",
+      "note": "Meta-tier orchestrates all primals"
+    },
+    {
+      "source": "primal_biomeos",
+      "target": "primal_toadstool",
+      "type": "orchestrates",
+      "epistemic_status": "record",
+      "note": "Meta-tier orchestrates all primals"
+    },
+    {
+      "source": "primal_biomeos",
+      "target": "primal_barracuda",
+      "type": "orchestrates",
+      "epistemic_status": "record",
+      "note": "Meta-tier orchestrates all primals"
+    },
+    {
+      "source": "primal_biomeos",
+      "target": "primal_coralreef",
+      "type": "orchestrates",
+      "epistemic_status": "record",
+      "note": "Meta-tier orchestrates all primals"
+    },
+    {
+      "source": "primal_biomeos",
+      "target": "primal_nestgate",
+      "type": "orchestrates",
+      "epistemic_status": "record",
+      "note": "Meta-tier orchestrates all primals"
+    },
+    {
+      "source": "primal_biomeos",
+      "target": "primal_rhizocrypt",
+      "type": "orchestrates",
+      "epistemic_status": "record",
+      "note": "Meta-tier orchestrates all primals"
+    },
+    {
+      "source": "primal_biomeos",
+      "target": "primal_loamspine",
+      "type": "orchestrates",
+      "epistemic_status": "record",
+      "note": "Meta-tier orchestrates all primals"
+    },
+    {
+      "source": "primal_biomeos",
+      "target": "primal_sweetgrass",
+      "type": "orchestrates",
+      "epistemic_status": "record",
+      "note": "Meta-tier orchestrates all primals"
+    },
+    {
+      "source": "primal_squirrel",
+      "target": "primal_beardog",
+      "type": "orchestrates",
+      "epistemic_status": "record",
+      "note": "Meta-tier orchestrates all primals"
+    },
+    {
+      "source": "primal_squirrel",
+      "target": "primal_songbird",
+      "type": "orchestrates",
+      "epistemic_status": "record",
+      "note": "Meta-tier orchestrates all primals"
+    },
+    {
+      "source": "primal_squirrel",
+      "target": "primal_skunkbat",
+      "type": "orchestrates",
+      "epistemic_status": "record",
+      "note": "Meta-tier orchestrates all primals"
+    },
+    {
+      "source": "primal_squirrel",
+      "target": "primal_toadstool",
+      "type": "orchestrates",
+      "epistemic_status": "record",
+      "note": "Meta-tier orchestrates all primals"
+    },
+    {
+      "source": "primal_squirrel",
+      "target": "primal_barracuda",
+      "type": "orchestrates",
+      "epistemic_status": "record",
+      "note": "Meta-tier orchestrates all primals"
+    },
+    {
+      "source": "primal_squirrel",
+      "target": "primal_coralreef",
+      "type": "orchestrates",
+      "epistemic_status": "record",
+      "note": "Meta-tier orchestrates all primals"
+    },
+    {
+      "source": "primal_squirrel",
+      "target": "primal_nestgate",
+      "type": "orchestrates",
+      "epistemic_status": "record",
+      "note": "Meta-tier orchestrates all primals"
+    },
+    {
+      "source": "primal_squirrel",
+      "target": "primal_rhizocrypt",
+      "type": "orchestrates",
+      "epistemic_status": "record",
+      "note": "Meta-tier orchestrates all primals"
+    },
+    {
+      "source": "primal_squirrel",
+      "target": "primal_loamspine",
+      "type": "orchestrates",
+      "epistemic_status": "record",
+      "note": "Meta-tier orchestrates all primals"
+    },
+    {
+      "source": "primal_squirrel",
+      "target": "primal_sweetgrass",
+      "type": "orchestrates",
+      "epistemic_status": "record",
+      "note": "Meta-tier orchestrates all primals"
+    },
+    {
+      "source": "primal_petaltongue",
+      "target": "primal_beardog",
+      "type": "orchestrates",
+      "epistemic_status": "record",
+      "note": "Meta-tier orchestrates all primals"
+    },
+    {
+      "source": "primal_petaltongue",
+      "target": "primal_songbird",
+      "type": "orchestrates",
+      "epistemic_status": "record",
+      "note": "Meta-tier orchestrates all primals"
+    },
+    {
+      "source": "primal_petaltongue",
+      "target": "primal_skunkbat",
+      "type": "orchestrates",
+      "epistemic_status": "record",
+      "note": "Meta-tier orchestrates all primals"
+    },
+    {
+      "source": "primal_petaltongue",
+      "target": "primal_toadstool",
+      "type": "orchestrates",
+      "epistemic_status": "record",
+      "note": "Meta-tier orchestrates all primals"
+    },
+    {
+      "source": "primal_petaltongue",
+      "target": "primal_barracuda",
+      "type": "orchestrates",
+      "epistemic_status": "record",
+      "note": "Meta-tier orchestrates all primals"
+    },
+    {
+      "source": "primal_petaltongue",
+      "target": "primal_coralreef",
+      "type": "orchestrates",
+      "epistemic_status": "record",
+      "note": "Meta-tier orchestrates all primals"
+    },
+    {
+      "source": "primal_petaltongue",
+      "target": "primal_nestgate",
+      "type": "orchestrates",
+      "epistemic_status": "record",
+      "note": "Meta-tier orchestrates all primals"
+    },
+    {
+      "source": "primal_petaltongue",
+      "target": "primal_rhizocrypt",
+      "type": "orchestrates",
+      "epistemic_status": "record",
+      "note": "Meta-tier orchestrates all primals"
+    },
+    {
+      "source": "primal_petaltongue",
+      "target": "primal_loamspine",
+      "type": "orchestrates",
+      "epistemic_status": "record",
+      "note": "Meta-tier orchestrates all primals"
+    },
+    {
+      "source": "primal_petaltongue",
+      "target": "primal_sweetgrass",
+      "type": "orchestrates",
+      "epistemic_status": "record",
+      "note": "Meta-tier orchestrates all primals"
+    },
+    {
+      "source": "atlas_the_map",
+      "target": "article_the_journey",
+      "type": "part_of",
+      "epistemic_status": "record",
+      "note": "A station on the atlas"
+    },
+    {
+      "source": "atlas_the_map",
+      "target": "thesis_statement",
+      "type": "frames",
+      "epistemic_status": "record",
+      "note": "The atlas frames the thesis"
+    },
+    {
+      "source": "atlas_the_map",
+      "target": "knome",
+      "type": "part_of",
+      "epistemic_status": "record",
+      "note": "The atlas is part of K-NOME"
+    },
+    {
+      "source": "atlas_the_mountain",
+      "target": "article_the_journey",
+      "type": "part_of",
+      "epistemic_status": "record",
+      "note": "A station on the atlas"
+    },
+    {
+      "source": "atlas_the_mountain",
+      "target": "thesis_statement",
+      "type": "frames",
+      "epistemic_status": "record",
+      "note": "The atlas frames the thesis"
+    },
+    {
+      "source": "atlas_the_mountain",
+      "target": "knome",
+      "type": "part_of",
+      "epistemic_status": "record",
+      "note": "The atlas is part of K-NOME"
+    },
+    {
+      "source": "atlas_the_river",
+      "target": "article_the_journey",
+      "type": "part_of",
+      "epistemic_status": "record",
+      "note": "A station on the atlas"
+    },
+    {
+      "source": "atlas_the_river",
+      "target": "thesis_statement",
+      "type": "frames",
+      "epistemic_status": "record",
+      "note": "The atlas frames the thesis"
+    },
+    {
+      "source": "atlas_the_river",
+      "target": "knome",
+      "type": "part_of",
+      "epistemic_status": "record",
+      "note": "The atlas is part of K-NOME"
+    },
+    {
+      "source": "atlas_the_garden",
+      "target": "article_the_journey",
+      "type": "part_of",
+      "epistemic_status": "record",
+      "note": "A station on the atlas"
+    },
+    {
+      "source": "atlas_the_garden",
+      "target": "thesis_statement",
+      "type": "frames",
+      "epistemic_status": "record",
+      "note": "The atlas frames the thesis"
+    },
+    {
+      "source": "atlas_the_garden",
+      "target": "knome",
+      "type": "part_of",
+      "epistemic_status": "record",
+      "note": "The atlas is part of K-NOME"
+    },
+    {
+      "source": "atlas_the_water",
+      "target": "article_the_journey",
+      "type": "part_of",
+      "epistemic_status": "record",
+      "note": "A station on the atlas"
+    },
+    {
+      "source": "atlas_the_water",
+      "target": "thesis_statement",
+      "type": "frames",
+      "epistemic_status": "record",
+      "note": "The atlas frames the thesis"
+    },
+    {
+      "source": "atlas_the_water",
+      "target": "knome",
+      "type": "part_of",
+      "epistemic_status": "record",
+      "note": "The atlas is part of K-NOME"
+    },
+    {
+      "source": "atlas_the_four_names",
+      "target": "article_the_journey",
+      "type": "part_of",
+      "epistemic_status": "record",
+      "note": "A station on the atlas"
+    },
+    {
+      "source": "atlas_the_four_names",
+      "target": "thesis_statement",
+      "type": "frames",
+      "epistemic_status": "record",
+      "note": "The atlas frames the thesis"
+    },
+    {
+      "source": "atlas_the_four_names",
+      "target": "knome",
+      "type": "part_of",
+      "epistemic_status": "record",
+      "note": "The atlas is part of K-NOME"
+    },
+    {
+      "source": "atlas_the_map",
+      "target": "atlas_the_mountain",
+      "type": "flows_to",
+      "epistemic_status": "record",
+      "note": "The journey continues"
+    },
+    {
+      "source": "atlas_the_mountain",
+      "target": "atlas_the_river",
+      "type": "flows_to",
+      "epistemic_status": "record",
+      "note": "The journey continues"
+    },
+    {
+      "source": "atlas_the_river",
+      "target": "atlas_the_garden",
+      "type": "flows_to",
+      "epistemic_status": "record",
+      "note": "The journey continues"
+    },
+    {
+      "source": "atlas_the_garden",
+      "target": "atlas_the_water",
+      "type": "flows_to",
+      "epistemic_status": "record",
+      "note": "The journey continues"
+    },
+    {
+      "source": "atlas_the_water",
+      "target": "atlas_the_four_names",
+      "type": "flows_to",
+      "epistemic_status": "record",
+      "note": "The journey continues"
+    },
+    {
+      "source": "atlas_the_mountain",
+      "target": "arch_primals",
+      "type": "describes",
+      "epistemic_status": "record",
+      "note": "The mountain IS the primals"
+    },
+    {
+      "source": "atlas_the_mountain",
+      "target": "primal_beardog",
+      "type": "contains",
+      "epistemic_status": "record",
+      "note": "A primal on the mountain"
+    },
+    {
+      "source": "atlas_the_mountain",
+      "target": "primal_songbird",
+      "type": "contains",
+      "epistemic_status": "record",
+      "note": "A primal on the mountain"
+    },
+    {
+      "source": "atlas_the_mountain",
+      "target": "primal_skunkbat",
+      "type": "contains",
+      "epistemic_status": "record",
+      "note": "A primal on the mountain"
+    },
+    {
+      "source": "atlas_the_mountain",
+      "target": "primal_toadstool",
+      "type": "contains",
+      "epistemic_status": "record",
+      "note": "A primal on the mountain"
+    },
+    {
+      "source": "atlas_the_mountain",
+      "target": "primal_barracuda",
+      "type": "contains",
+      "epistemic_status": "record",
+      "note": "A primal on the mountain"
+    },
+    {
+      "source": "atlas_the_mountain",
+      "target": "primal_coralreef",
+      "type": "contains",
+      "epistemic_status": "record",
+      "note": "A primal on the mountain"
+    },
+    {
+      "source": "atlas_the_mountain",
+      "target": "primal_nestgate",
+      "type": "contains",
+      "epistemic_status": "record",
+      "note": "A primal on the mountain"
+    },
+    {
+      "source": "atlas_the_mountain",
+      "target": "primal_rhizocrypt",
+      "type": "contains",
+      "epistemic_status": "record",
+      "note": "A primal on the mountain"
+    },
+    {
+      "source": "atlas_the_mountain",
+      "target": "primal_loamspine",
+      "type": "contains",
+      "epistemic_status": "record",
+      "note": "A primal on the mountain"
+    },
+    {
+      "source": "atlas_the_mountain",
+      "target": "primal_sweetgrass",
+      "type": "contains",
+      "epistemic_status": "record",
+      "note": "A primal on the mountain"
+    },
+    {
+      "source": "atlas_the_mountain",
+      "target": "primal_biomeos",
+      "type": "contains",
+      "epistemic_status": "record",
+      "note": "A primal on the mountain"
+    },
+    {
+      "source": "atlas_the_mountain",
+      "target": "primal_squirrel",
+      "type": "contains",
+      "epistemic_status": "record",
+      "note": "A primal on the mountain"
+    },
+    {
+      "source": "atlas_the_mountain",
+      "target": "primal_petaltongue",
+      "type": "contains",
+      "epistemic_status": "record",
+      "note": "A primal on the mountain"
+    },
+    {
+      "source": "atlas_the_river",
+      "target": "latent_economy",
+      "type": "same_shape",
+      "epistemic_status": "record",
+      "note": "Money flows down. Data flows down. Same gravity."
+    },
+    {
+      "source": "atlas_the_garden",
+      "target": "gen_n",
+      "type": "welcomes",
+      "epistemic_status": "record",
+      "note": "The garden welcomes Gen N"
+    },
+    {
+      "source": "atlas_the_garden",
+      "target": "arch_sourdough",
+      "type": "same_shape",
+      "epistemic_status": "record",
+      "note": "The garden is where the culture grows"
+    },
+    {
+      "source": "atlas_the_water",
+      "target": "econ_cost_of_action",
+      "type": "proves",
+      "epistemic_status": "record",
+      "note": "The water was free. Action costs $0."
+    },
+    {
+      "source": "atlas_the_four_names",
+      "target": "ouroboros",
+      "type": "same_shape",
+      "epistemic_status": "record",
+      "note": "Many faces. One system. Self-sustaining."
+    },
+    {
+      "source": "cogen_accumulation",
+      "target": "journey_the_voice",
+      "type": "expression_of",
+      "epistemic_status": "record",
+      "note": "The voice speaks through coGen entries"
+    },
+    {
+      "source": "cogen_accumulation",
+      "target": "thesis_statement",
+      "type": "reflects_on",
+      "epistemic_status": "record",
+      "note": "The voice reflects on the thesis"
+    },
+    {
+      "source": "cogen_accumulation",
+      "target": "knome",
+      "type": "wisdom_in",
+      "epistemic_status": "record",
+      "note": "Each coGen entry is wisdom stored in K-NOME"
+    },
+    {
+      "source": "cogen_membranes",
+      "target": "journey_the_voice",
+      "type": "expression_of",
+      "epistemic_status": "record",
+      "note": "The voice speaks through coGen entries"
+    },
+    {
+      "source": "cogen_membranes",
+      "target": "thesis_statement",
+      "type": "reflects_on",
+      "epistemic_status": "record",
+      "note": "The voice reflects on the thesis"
+    },
+    {
+      "source": "cogen_membranes",
+      "target": "knome",
+      "type": "wisdom_in",
+      "epistemic_status": "record",
+      "note": "Each coGen entry is wisdom stored in K-NOME"
+    },
+    {
+      "source": "cogen_np_equals_fun",
+      "target": "journey_the_voice",
+      "type": "expression_of",
+      "epistemic_status": "record",
+      "note": "The voice speaks through coGen entries"
+    },
+    {
+      "source": "cogen_np_equals_fun",
+      "target": "thesis_statement",
+      "type": "reflects_on",
+      "epistemic_status": "record",
+      "note": "The voice reflects on the thesis"
+    },
+    {
+      "source": "cogen_np_equals_fun",
+      "target": "knome",
+      "type": "wisdom_in",
+      "epistemic_status": "record",
+      "note": "Each coGen entry is wisdom stored in K-NOME"
+    },
+    {
+      "source": "cogen_heroes_journey",
+      "target": "journey_the_voice",
+      "type": "expression_of",
+      "epistemic_status": "record",
+      "note": "The voice speaks through coGen entries"
+    },
+    {
+      "source": "cogen_heroes_journey",
+      "target": "thesis_statement",
+      "type": "reflects_on",
+      "epistemic_status": "record",
+      "note": "The voice reflects on the thesis"
+    },
+    {
+      "source": "cogen_heroes_journey",
+      "target": "knome",
+      "type": "wisdom_in",
+      "epistemic_status": "record",
+      "note": "Each coGen entry is wisdom stored in K-NOME"
+    },
+    {
+      "source": "cogen_whalefall",
+      "target": "journey_the_voice",
+      "type": "expression_of",
+      "epistemic_status": "record",
+      "note": "The voice speaks through coGen entries"
+    },
+    {
+      "source": "cogen_whalefall",
+      "target": "thesis_statement",
+      "type": "reflects_on",
+      "epistemic_status": "record",
+      "note": "The voice reflects on the thesis"
+    },
+    {
+      "source": "cogen_whalefall",
+      "target": "knome",
+      "type": "wisdom_in",
+      "epistemic_status": "record",
+      "note": "Each coGen entry is wisdom stored in K-NOME"
+    },
+    {
+      "source": "cogen_null_is_bang",
+      "target": "journey_the_voice",
+      "type": "expression_of",
+      "epistemic_status": "record",
+      "note": "The voice speaks through coGen entries"
+    },
+    {
+      "source": "cogen_null_is_bang",
+      "target": "thesis_statement",
+      "type": "reflects_on",
+      "epistemic_status": "record",
+      "note": "The voice reflects on the thesis"
+    },
+    {
+      "source": "cogen_null_is_bang",
+      "target": "knome",
+      "type": "wisdom_in",
+      "epistemic_status": "record",
+      "note": "Each coGen entry is wisdom stored in K-NOME"
+    },
+    {
+      "source": "cogen_membranes",
+      "target": "membrane_economy",
+      "type": "describes",
+      "epistemic_status": "record",
+      "note": "Membranes all the way down — including the economy"
+    },
+    {
+      "source": "cogen_np_equals_fun",
+      "target": "guerilla_gorilla",
+      "type": "explains",
+      "epistemic_status": "record",
+      "note": "NP = Fun is why the investigation is a game"
+    },
+    {
+      "source": "cogen_heroes_journey",
+      "target": "article_the_journey",
+      "type": "mythologizes",
+      "epistemic_status": "record",
+      "note": "The journey IS the hero's journey"
+    },
+    {
+      "source": "cogen_whalefall",
+      "target": "pca",
+      "type": "metaphor_for",
+      "epistemic_status": "record",
+      "note": "PCA's failure is a whalefall. An ecosystem feeds on it."
+    },
+    {
+      "source": "cogen_null_is_bang",
+      "target": "hypothesis_silence",
+      "type": "proves",
+      "epistemic_status": "record",
+      "note": "Null is bang. The silence IS the evidence."
+    },
+    {
+      "source": "cogen_accumulation",
+      "target": "moores_law",
+      "type": "explains",
+      "epistemic_status": "record",
+      "note": "The graph accumulates. Moore's Law measures the rate."
+    },
+    {
+      "source": "article_the_mountain",
+      "target": "primal_beardog",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_mountain",
+      "target": "primal_songbird",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_mountain",
+      "target": "primal_skunkbat",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_mountain",
+      "target": "primal_toadstool",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_mountain",
+      "target": "primal_barracuda",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_mountain",
+      "target": "primal_coralreef",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_mountain",
+      "target": "primal_nestgate",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_mountain",
+      "target": "primal_rhizocrypt",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_mountain",
+      "target": "primal_loamspine",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_mountain",
+      "target": "primal_sweetgrass",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_mountain",
+      "target": "primal_biomeos",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_mountain",
+      "target": "primal_squirrel",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_mountain",
+      "target": "primal_petaltongue",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_mountain",
+      "target": "atlas_the_map",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_mountain",
+      "target": "atlas_the_mountain",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_mountain",
+      "target": "atlas_the_river",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_mountain",
+      "target": "atlas_the_garden",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_mountain",
+      "target": "atlas_the_water",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_mountain",
+      "target": "atlas_the_four_names",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_mountain",
+      "target": "article_the_journey",
+      "type": "companion_to",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_mountain",
+      "target": "arch_primals",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_voice",
+      "target": "cogen_accumulation",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_voice",
+      "target": "cogen_membranes",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_voice",
+      "target": "cogen_np_equals_fun",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_voice",
+      "target": "cogen_heroes_journey",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_voice",
+      "target": "cogen_whalefall",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_voice",
+      "target": "cogen_null_is_bang",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_voice",
+      "target": "article_the_journey",
+      "type": "companion_to",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_voice",
+      "target": "journey_the_voice",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
     }
   ],
   "epistemic_grammar": {
