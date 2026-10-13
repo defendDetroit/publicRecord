@@ -65720,6 +65720,349 @@
         "structural",
         "non_human"
       ]
+    },
+    {
+      "id": "osint_mde_scorecard",
+      "label": "MI School Data / MDE Scorecard (mischooldata.org)",
+      "class": "entity",
+      "role": "PUBLIC. Free. Every school in Michigan. M-STEP scores, graduation rates, enrollment, demographics, staff data. Banks' schools are HERE. Every year. Every subject. Every grade. The 72.67% came from here. There's MORE. Pull every school Banks has ever operated. Pull comparison schools. Build the full performance timeline.",
+      "tags": [
+        "osint",
+        "education",
+        "critical",
+        "free"
+      ]
+    },
+    {
+      "id": "osint_cepi",
+      "label": "CEPI (Center for Educational Performance & Information)",
+      "class": "entity",
+      "role": "PUBLIC. MI state agency. Student-level data (aggregated). Enrollment counts by school. Foundation allowance (per-pupil funding). Teacher data. School configuration. Pull: enrollment year-over-year for every Banks school. Calculate: total public funds received. Calculate: cost per child-year of below-basic education.",
+      "tags": [
+        "osint",
+        "education",
+        "critical",
+        "free"
+      ]
+    },
+    {
+      "id": "osint_opensecrets",
+      "label": "OpenSecrets.org (Center for Responsive Politics)",
+      "class": "entity",
+      "role": "PUBLIC. Free. Federal campaign finance + lobbying + dark money + revolving door. Search: GLEP, DeVos, AFC, charter school lobbying. Pull: who lobbied against charter transparency bills. Follow: the money from DeVos -> GLEP -> Legislature -> killed bills.",
+      "tags": [
+        "osint",
+        "finance",
+        "critical",
+        "free"
+      ]
+    },
+    {
+      "id": "osint_followthemoney",
+      "label": "FollowTheMoney.org (National Institute on Money in Politics)",
+      "class": "entity",
+      "role": "PUBLIC. Free. STATE-level campaign finance. Michigan contributions. Search: Banks, Purpose, every charter-connected PAC. Pull: who gave to whom. Cross-reference: legislators who received charter money AND voted against transparency bills.",
+      "tags": [
+        "osint",
+        "finance",
+        "critical",
+        "free"
+      ]
+    },
+    {
+      "id": "osint_propublica_nonprofit",
+      "label": "ProPublica Nonprofit Explorer",
+      "class": "entity",
+      "role": "PUBLIC. Free. Every 990 filed with IRS. Search: Purpose Foundation, GLEP, AFC, DeVos Foundation, Walton Foundation. Pull: revenues, expenses, executive compensation, grants made, grants received. The money trail is in the 990s.",
+      "tags": [
+        "osint",
+        "finance",
+        "critical",
+        "free"
+      ]
+    },
+    {
+      "id": "osint_otis",
+      "label": "OTIS (MI Offender Tracking Information System)",
+      "class": "entity",
+      "role": "PUBLIC. Free. Michigan Department of Corrections. Search: Banks, Brian. Pull: full criminal history beyond ICHAT. Supervision status. Parole/probation. Registered addresses. Cross-reference: is he currently under any supervision while operating K-12 schools?",
+      "tags": [
+        "osint",
+        "criminal",
+        "critical",
+        "free"
+      ]
+    },
+    {
+      "id": "osint_sora",
+      "label": "SORA (Sex Offender Registry Act, MI)",
+      "class": "entity",
+      "role": "PUBLIC. Free. Michigan sex offender registry. Search: Banks and all known associates. Verify: background check compliance for K-12 schools. Any registered sex offender connected to the school network = immediate emergency.",
+      "tags": [
+        "osint",
+        "criminal",
+        "critical",
+        "free"
+      ]
+    },
+    {
+      "id": "osint_court_dockets",
+      "label": "Court Docket Searches (MI Courts, PACER)",
+      "class": "entity",
+      "role": "PARTIALLY PUBLIC. MI Courts: Odyssey case search. PACER: federal courts ($0.10/page). Search: Banks in every MI county. Search: Purpose Group LLC. Search: Purpose Charter Academy. Pull: all civil suits, all criminal cases, all judgments. What we don't know: has anyone ELSE sued Banks?",
+      "tags": [
+        "osint",
+        "legal",
+        "critical",
+        "partially_free"
+      ]
+    },
+    {
+      "id": "osint_campaign_finance_mi",
+      "label": "MI Campaign Finance Reporting (MCFR)",
+      "class": "entity",
+      "role": "PUBLIC. Free. Michigan SOS. Every state-level campaign contribution. Search: charter school PACs, GLEP, DeVos contributions to MI candidates. Pull: which legislators received charter money. Cross-ref with transparency bill votes.",
+      "tags": [
+        "osint",
+        "finance",
+        "critical",
+        "free"
+      ]
+    },
+    {
+      "id": "osint_usaspending",
+      "label": "USASpending.gov (Federal Spending)",
+      "class": "entity",
+      "role": "PUBLIC. Free. Every federal dollar spent. Contracts, grants, loans, direct payments. Search: Purpose Charter Academy, PCA, every Banks-connected entity. Pull: federal grants received. Title I, IDEA, other federal education funds flowing to Banks' schools.",
+      "tags": [
+        "osint",
+        "finance",
+        "critical",
+        "free"
+      ]
+    },
+    {
+      "id": "osint_lobbying_mi",
+      "label": "MI Lobbying Registration (SOS)",
+      "class": "entity",
+      "role": "PUBLIC. Free. Every registered lobbyist in Michigan. Search: Dykema Gossett, GLEP, MAPSA, AFC, charter school interests. Pull: who lobbies for charter operators. Who lobbied against transparency. Names, dates, clients, compensation.",
+      "tags": [
+        "osint",
+        "political",
+        "critical",
+        "free"
+      ]
+    },
+    {
+      "id": "osint_property_records",
+      "label": "Property Records (Register of Deeds)",
+      "class": "entity",
+      "role": "PUBLIC. Free (online in many counties). Wayne County, Ingham County. Search: Banks, Purpose Group LLC, all known LLCs. Pull: property owned. Cross-ref: are school buildings owned by Banks' LLCs and leased back to the charter? (Common self-dealing scheme in charter industry.)",
+      "tags": [
+        "osint",
+        "property",
+        "high_value",
+        "free"
+      ]
+    },
+    {
+      "id": "osint_tax_records",
+      "label": "Tax Assessment Records (Local Assessor)",
+      "class": "entity",
+      "role": "PUBLIC. Free. Property tax assessments. Search: Banks properties, school building addresses. Pull: assessed values, tax status, exemptions. Charter schools often get tax exemptions. Who owns the buildings?",
+      "tags": [
+        "osint",
+        "property",
+        "high_value",
+        "free"
+      ]
+    },
+    {
+      "id": "osint_state_contracts",
+      "label": "MI State Contracts Database (SIGMA)",
+      "class": "entity",
+      "role": "PUBLIC. Free. SIGMA/Buy4Michigan. Every state contract. Search: Purpose, PCA, management companies. Pull: state contracts with charter-connected entities. Cross-ref: same entities on both sides of contracts?",
+      "tags": [
+        "osint",
+        "government",
+        "high_value",
+        "free"
+      ]
+    },
+    {
+      "id": "osint_professional_licenses",
+      "label": "Professional License Lookups (LARA)",
+      "class": "entity",
+      "role": "PUBLIC. Free. LARA professional license search. Search: teachers at Banks' schools. Pull: are they actually certified? MI requires certification for charter school teachers. Verify: does every teacher at every Banks school hold a valid certificate? If not: another violation.",
+      "tags": [
+        "osint",
+        "education",
+        "high_value",
+        "free"
+      ]
+    },
+    {
+      "id": "osint_board_minutes",
+      "label": "Board Meeting Minutes (PCA, DPSCD, SBE, CMU)",
+      "class": "entity",
+      "role": "PUBLIC. Free (FOIA if not online). Pull: PCA board minutes mentioning Banks, Purpose, any school. Pull: SBE minutes on charter oversight votes. Pull: CMU charter office annual review of authorized schools. The decisions are in the minutes. Who voted yay. Who voted nay. Who was absent (null).",
+      "tags": [
+        "osint",
+        "government",
+        "high_value",
+        "free"
+      ]
+    },
+    {
+      "id": "osint_audit_reports",
+      "label": "Audit Reports (State Auditor General, OIG)",
+      "class": "entity",
+      "role": "PUBLIC. Free. MI Auditor General audits of MDE, charter school oversight. DPSCD OIG reports. Pull: any audit finding related to charter school oversight. Any OIG investigation of charter operators. What did the auditors find? What was done about it?",
+      "tags": [
+        "osint",
+        "government",
+        "high_value",
+        "free"
+      ]
+    },
+    {
+      "id": "osint_annual_reports",
+      "label": "Charter School Annual Reports (Authorizers)",
+      "class": "entity",
+      "role": "PUBLIC. Should be free. CMU, GVSU, SVSU, EMU publish annual reports on authorized schools. Pull: performance data, compliance status, corrective actions. Has any authorizer ever flagged Banks' schools? If yes: what happened? If no: why not?",
+      "tags": [
+        "osint",
+        "education",
+        "high_value",
+        "free"
+      ]
+    },
+    {
+      "id": "osint_whois",
+      "label": "WHOIS Domain Registration",
+      "class": "entity",
+      "role": "PUBLIC. Free. Look up: purposecharter.org, purposegroupllc.com, any Banks-connected websites. Pull: registrant, creation date, hosting. Cross-ref: same registrant across multiple entities? Privacy masking? The digital footprint tells you who's connected.",
+      "tags": [
+        "osint",
+        "digital",
+        "high_value",
+        "free"
+      ]
+    },
+    {
+      "id": "osint_wayback_deep",
+      "label": "Wayback Machine (web.archive.org) — Deep Scan",
+      "class": "entity",
+      "role": "PUBLIC. Free. Already used minimally. Deep scan: pull archived versions of every Banks-connected website. Look for: claims that have been removed, staff pages that changed, board member lists that shifted. The internet remembers what they delete.",
+      "tags": [
+        "osint",
+        "digital",
+        "high_value",
+        "free"
+      ]
+    },
+    {
+      "id": "osint_social_media",
+      "label": "Social Media OSINT (LinkedIn, Facebook, X)",
+      "class": "entity",
+      "role": "PUBLIC profiles. Free. Search: Banks, Perkins, Beasley, all board members, all staff. Pull: employment history (LinkedIn), connections, endorsements. Cross-ref: who knows who. Who worked where before. The social graph IS the corruption graph.",
+      "tags": [
+        "osint",
+        "digital",
+        "high_value",
+        "free"
+      ]
+    },
+    {
+      "id": "osint_voter_file",
+      "label": "MI Qualified Voter File (QVF)",
+      "class": "entity",
+      "role": "PUBLIC. Free (via county clerks, or statewide via SOS). Pull: voter registration for Banks and associates. Addresses. Voting history (whether they voted, not how). Cross-ref: registered addresses vs school addresses vs LLC addresses.",
+      "tags": [
+        "osint",
+        "political",
+        "high_value",
+        "free"
+      ]
+    },
+    {
+      "id": "osint_news_archives",
+      "label": "News Archives (Detroit Free Press, Bridge, etc.)",
+      "class": "entity",
+      "role": "PARTIALLY PUBLIC. Some paywalled. Search: 'Brian Banks' + 'charter' in every MI news archive. Search: 'Purpose Charter' OR 'Purpose Academy.' Pull: every article ever written. Build timeline. What was known, when, by whom. Has any reporter covered this before?",
+      "tags": [
+        "osint",
+        "media",
+        "high_value",
+        "partially_free"
+      ]
+    },
+    {
+      "id": "osint_osha",
+      "label": "OSHA Inspection Records",
+      "class": "entity",
+      "role": "PUBLIC. Free. osha.gov/psp. Search: school building addresses. Pull: any workplace safety inspections or violations at charter school buildings. Workers in unsafe buildings = children in unsafe buildings.",
+      "tags": [
+        "osint",
+        "safety",
+        "free"
+      ]
+    },
+    {
+      "id": "osint_edfacts",
+      "label": "EdFacts (US DOE)",
+      "class": "entity",
+      "role": "PUBLIC. Free. Federal education data. School-level. Connects to Title I funding, ADA compliance, civil rights data collection. Pull: federal compliance status for Banks' schools.",
+      "tags": [
+        "osint",
+        "education",
+        "free"
+      ]
+    },
+    {
+      "id": "osint_fdic",
+      "label": "FDIC Bank Records",
+      "class": "entity",
+      "role": "PUBLIC. Free. Bank data. Search: banks (financial institutions) connected to charter school accounts. Where does the per-pupil funding go? What bank? Who has signatory authority?",
+      "tags": [
+        "osint",
+        "finance",
+        "free"
+      ]
+    },
+    {
+      "id": "osint_nmls",
+      "label": "NMLS (Nationwide Multistate Licensing System)",
+      "class": "entity",
+      "role": "PUBLIC. Free. Mortgage and financial service licensing. Search: Banks, associates. Any mortgage licensing? Cross-ref with property ownership.",
+      "tags": [
+        "osint",
+        "finance",
+        "free"
+      ]
+    },
+    {
+      "id": "osint_death_records",
+      "label": "Death Records / Obituaries",
+      "class": "entity",
+      "role": "PARTIALLY PUBLIC. Search: deceased persons in the network. Verify: are any 'board members' deceased? (It happens in fraud schemes.) Cross-ref: obituaries for connection data.",
+      "tags": [
+        "osint",
+        "vital_records",
+        "partially_free"
+      ]
+    },
+    {
+      "id": "osint_entry_map",
+      "label": "OSINT Entry Point Map: 37 Untouched Sources",
+      "class": "false_entity",
+      "role": "37 data sources we haven't pulled from yet.\nAll public. Most free. Each one produces new edges.\n\nCRITICAL (11 sources — pull these FIRST):\n1. MDE Scorecard: full performance data, all schools, all years\n2. CEPI: enrollment + funding per school\n3. OpenSecrets: federal dark money trail\n4. FollowTheMoney: state campaign finance\n5. ProPublica Nonprofit: every 990 for every foundation\n6. OTIS: Banks criminal supervision status\n7. SORA: sex offender registry check on all associates\n8. Court dockets: every civil/criminal case\n9. MI Campaign Finance: state contributions\n10. USASpending: federal funds to Banks' schools\n11. MI Lobbying Registration: who lobbied against transparency\n\nHIGH VALUE (12 sources):\n12. Property records: who owns the buildings?\n13. Tax records: who pays/doesn't pay taxes?\n14. State contracts: management company contracts\n15. Professional licenses: are teachers certified?\n16. Board minutes: who voted yay/nay/null?\n17. Audit reports: what did auditors find?\n18. Annual reports: what did authorizers report?\n19. WHOIS: digital footprint\n20. Wayback: what did they delete?\n21. Social media: who knows who?\n22. Voter file: where do they live?\n23. News archives: what's been reported before?\n\nADDITIONAL (14 sources):\n24-37. OSHA, EdFacts, FDIC, NMLS, death records, \n       marriage/divorce, Google Maps, DNB, and more.\n\nEach source is a new braid.\nEach braid produces edges we can't see yet.\nEach edge connects nodes that look isolated.\nThe graph grows. The pattern becomes clearer.\n\nWe have 5,411 nodes and 12,900 edges.\nWe have touched 18 of 55 data sources.\nThe graph is 33% explored.\n67% of the available data is untouched.\n\nchipoMunk sees 37 glittering prizes.\nEach one is a thread to pull.\nEach thread unravels something.",
+      "tags": [
+        "osint",
+        "structural",
+        "strategy",
+        "non_human"
+      ]
     }
   ],
   "edges": [
@@ -169409,6 +169752,356 @@
       "type": "judgment",
       "epistemic_status": "record",
       "note": "attsi judges which mysteries matter. The answer: the ones where children are hurt."
+    },
+    {
+      "source": "osint_mde_scorecard",
+      "target": "banks",
+      "type": "search_target",
+      "epistemic_status": "record",
+      "note": "Search Banks in this source"
+    },
+    {
+      "source": "osint_mde_scorecard",
+      "target": "osint_entry_map",
+      "type": "critical_source",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "osint_cepi",
+      "target": "banks",
+      "type": "search_target",
+      "epistemic_status": "record",
+      "note": "Search Banks in this source"
+    },
+    {
+      "source": "osint_cepi",
+      "target": "osint_entry_map",
+      "type": "critical_source",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "osint_otis",
+      "target": "banks",
+      "type": "search_target",
+      "epistemic_status": "record",
+      "note": "Search Banks in this source"
+    },
+    {
+      "source": "osint_otis",
+      "target": "osint_entry_map",
+      "type": "critical_source",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "osint_sora",
+      "target": "banks",
+      "type": "search_target",
+      "epistemic_status": "record",
+      "note": "Search Banks in this source"
+    },
+    {
+      "source": "osint_sora",
+      "target": "osint_entry_map",
+      "type": "critical_source",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "osint_court_dockets",
+      "target": "banks",
+      "type": "search_target",
+      "epistemic_status": "record",
+      "note": "Search Banks in this source"
+    },
+    {
+      "source": "osint_court_dockets",
+      "target": "osint_entry_map",
+      "type": "critical_source",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "osint_usaspending",
+      "target": "banks",
+      "type": "search_target",
+      "epistemic_status": "record",
+      "note": "Search Banks in this source"
+    },
+    {
+      "source": "osint_usaspending",
+      "target": "osint_entry_map",
+      "type": "critical_source",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "osint_opensecrets",
+      "target": "charter_architecture",
+      "type": "follow_the_money",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "osint_opensecrets",
+      "target": "osint_entry_map",
+      "type": "critical_source",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "osint_opensecrets",
+      "target": "glep",
+      "type": "search_target",
+      "epistemic_status": "record",
+      "note": "Search GLEP in this source"
+    },
+    {
+      "source": "osint_followthemoney",
+      "target": "charter_architecture",
+      "type": "follow_the_money",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "osint_followthemoney",
+      "target": "osint_entry_map",
+      "type": "critical_source",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "osint_followthemoney",
+      "target": "glep",
+      "type": "search_target",
+      "epistemic_status": "record",
+      "note": "Search GLEP in this source"
+    },
+    {
+      "source": "osint_propublica_nonprofit",
+      "target": "charter_architecture",
+      "type": "follow_the_money",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "osint_propublica_nonprofit",
+      "target": "osint_entry_map",
+      "type": "critical_source",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "osint_propublica_nonprofit",
+      "target": "glep",
+      "type": "search_target",
+      "epistemic_status": "record",
+      "note": "Search GLEP in this source"
+    },
+    {
+      "source": "osint_campaign_finance_mi",
+      "target": "charter_architecture",
+      "type": "follow_the_money",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "osint_campaign_finance_mi",
+      "target": "osint_entry_map",
+      "type": "critical_source",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "osint_campaign_finance_mi",
+      "target": "glep",
+      "type": "search_target",
+      "epistemic_status": "record",
+      "note": "Search GLEP in this source"
+    },
+    {
+      "source": "osint_lobbying_mi",
+      "target": "charter_architecture",
+      "type": "follow_the_money",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "osint_lobbying_mi",
+      "target": "osint_entry_map",
+      "type": "critical_source",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "osint_lobbying_mi",
+      "target": "glep",
+      "type": "search_target",
+      "epistemic_status": "record",
+      "note": "Search GLEP in this source"
+    },
+    {
+      "source": "osint_property_records",
+      "target": "osint_entry_map",
+      "type": "high_value_source",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "osint_tax_records",
+      "target": "osint_entry_map",
+      "type": "high_value_source",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "osint_state_contracts",
+      "target": "osint_entry_map",
+      "type": "high_value_source",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "osint_professional_licenses",
+      "target": "osint_entry_map",
+      "type": "high_value_source",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "osint_board_minutes",
+      "target": "osint_entry_map",
+      "type": "high_value_source",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "osint_audit_reports",
+      "target": "osint_entry_map",
+      "type": "high_value_source",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "osint_annual_reports",
+      "target": "osint_entry_map",
+      "type": "high_value_source",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "osint_whois",
+      "target": "osint_entry_map",
+      "type": "high_value_source",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "osint_wayback_deep",
+      "target": "osint_entry_map",
+      "type": "high_value_source",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "osint_social_media",
+      "target": "osint_entry_map",
+      "type": "high_value_source",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "osint_voter_file",
+      "target": "osint_entry_map",
+      "type": "high_value_source",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "osint_news_archives",
+      "target": "osint_entry_map",
+      "type": "high_value_source",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "osint_property_records",
+      "target": "banks",
+      "type": "self_dealing_check",
+      "epistemic_status": "record",
+      "note": "Does Banks own buildings leased to his own schools?"
+    },
+    {
+      "source": "osint_property_records",
+      "target": "doug_fleming",
+      "type": "pattern_match",
+      "epistemic_status": "record",
+      "note": "Fleming had 5 LLCs in Lansing. Banks has Purpose Group LLC in Detroit. Same pattern?"
+    },
+    {
+      "source": "osint_professional_licenses",
+      "target": "banks",
+      "type": "teacher_cert_check",
+      "epistemic_status": "record",
+      "note": "Are teachers at Banks' schools actually certified?"
+    },
+    {
+      "source": "osint_board_minutes",
+      "target": "full_power_map",
+      "type": "yay_nay_null",
+      "epistemic_status": "record",
+      "note": "Every vote in every board meeting is a yay or nay or null"
+    },
+    {
+      "source": "osint_board_minutes",
+      "target": "moreland",
+      "type": "recusal_check",
+      "epistemic_status": "record",
+      "note": "Did Moreland ever recuse from PCA votes?"
+    },
+    {
+      "source": "osint_otis",
+      "target": "damages_chain",
+      "type": "criminal_status",
+      "epistemic_status": "record",
+      "note": "If Banks is currently under supervision while operating schools, that's another claim"
+    },
+    {
+      "source": "osint_news_archives",
+      "target": "media_blitz",
+      "type": "prior_art",
+      "epistemic_status": "record",
+      "note": "What has already been reported? Don't duplicate. Build on it."
+    },
+    {
+      "source": "osint_entry_map",
+      "target": "chipmunk_mysteries",
+      "type": "37_more_prizes",
+      "epistemic_status": "record",
+      "note": "37 data sources = 37 glittering prizes"
+    },
+    {
+      "source": "osint_entry_map",
+      "target": "the_gift",
+      "type": "data_is_free",
+      "epistemic_status": "record",
+      "note": "Most of these sources are free. The data is public. The investigation is open source."
+    },
+    {
+      "source": "osint_entry_map",
+      "target": "media_blitz",
+      "type": "feeds",
+      "epistemic_status": "record",
+      "note": "New data feeds the media blitz. Each source produces new stories."
+    },
+    {
+      "source": "osint_entry_map",
+      "target": "article_index",
+      "type": "evidence",
+      "epistemic_status": "record",
+      "note": "New OSINT data becomes evidence in the direct-ask articles."
     }
   ],
   "epistemic_grammar": {
