@@ -61290,6 +61290,39 @@
         "action",
         "non_human"
       ]
+    },
+    {
+      "id": "signal_response",
+      "label": "Signal Response: YES / NO / NULL",
+      "class": "false_entity",
+      "role": "THE INVERSE OF SCIENCE:\nScience = information without belief. You follow the data wherever it goes.\nFaith = belief without information. You hold a position regardless of evidence.\nNeither is evil alone. But when you have BOTH the information AND the power,\nand you choose to believe in the harm you've done — that's the inverse of both.\n\nFairstein had DNA that excluded all five boys. She chose to believe they were guilty anyway.\nRussell had a confession HE WROTE. He chose to tell prosecutors the kid wrote it.\nCarolyn Bryant had a 14-year-old's blood on her lie. She waited 52 years to whisper 'that part's not true.'\n\nYES = saw the signal, acted to protect (science: follow the evidence)\nNO = saw the signal, chose to maintain harm (inverse: evidence meets ego)\nNULL = had the signal, did nothing (void: evidence meets silence)\n\nThe kids are the signal. The response is the measure.",
+      "tags": [
+        "structural",
+        "framework",
+        "non_human"
+      ]
+    },
+    {
+      "id": "lamar_moreland_response",
+      "label": "Lamar Moreland Signal Response",
+      "class": "false_entity",
+      "role": "Asst AG. PCA Vice Chair. His boss could investigate Banks. He governs Banks' school. The conflict IS the response. NULL.",
+      "tags": [
+        "investigation",
+        "signal",
+        "non_human"
+      ]
+    },
+    {
+      "id": "inverse_of_science",
+      "label": "The Inverse of Science",
+      "class": "false_entity",
+      "role": "Science: information with no belief required. Follow the data.\nFaith: belief with no information required. Hold the position.\nCreativity: belief AND information together. Make something new.\n\nThe INVERSE: information AND power, and you choose belief over evidence.\nFairstein had DNA. She chose ego.\nRussell had the confession HE WROTE. He chose the lie.\nBryant had 52 years. She chose silence.\nPrice had 9 boys on death row. She chose to let them stay.\n\nThe inverse of science is not faith. Faith can be beautiful.\nThe inverse is having the evidence and choosing to destroy it\nso your belief can survive.\n\nThat's what 3% math proficiency is.\nBanks has the test scores. He has the money. He has the power.\nHe chooses to keep operating.\nAnd every NULL actor — Nessel, Miller, Johnson, Vitti, SBE, MDE, CMU —\nthey have the same evidence. They choose silence.\n\nThe signal is the children. The response is the measure of the person.",
+      "tags": [
+        "structural",
+        "philosophical",
+        "non_human"
+      ]
     }
   ],
   "edges": [
@@ -159216,6 +159249,321 @@
       "source": "page_fill_the_seats",
       "target": "swarm_strategy",
       "type": "implements",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "carolyn_bryant_donham",
+      "target": "signal_response",
+      "type": "NO",
+      "epistemic_status": "record",
+      "note": "Had the truth for 52 years. Whispered to a historian in 2007: 'That part's not true.' Never said it publicly. Never apologized. A 14-year-old boy was tortured to death because of her lie. Died 2023. NO remorse."
+    },
+    {
+      "source": "roy_bryant",
+      "target": "signal_response",
+      "type": "NO",
+      "epistemic_status": "record",
+      "note": "Admitted to murdering Till in Look magazine. FOR $4,000. Never expressed remorse. Died 1994."
+    },
+    {
+      "source": "jw_milam",
+      "target": "signal_response",
+      "type": "NO",
+      "epistemic_status": "record",
+      "note": "Admitted to murder. 'I'm likely to kill him.' Described the killing in detail for money. Never expressed remorse. Died 1980."
+    },
+    {
+      "source": "mamie_till",
+      "target": "signal_response",
+      "type": "YES",
+      "epistemic_status": "record",
+      "note": "Open casket. 'Let the world see what they did to my boy.' Turned grief into the civil rights movement. The signal amplified."
+    },
+    {
+      "source": "till_willie_reed",
+      "target": "signal_response",
+      "type": "YES",
+      "epistemic_status": "record",
+      "note": "Testified at trial against Till's murderers in 1955 Mississippi. Had to flee the state. Courage in the face of death."
+    },
+    {
+      "source": "sb_ruby_bates",
+      "target": "signal_response",
+      "type": "YES_EVENTUALLY",
+      "epistemic_status": "record",
+      "note": "Lied initially. Then RECANTED. Testified for the defense. Marched in protests. It took her time, but she chose the evidence over the lie."
+    },
+    {
+      "source": "cp5_linda_fairstein",
+      "target": "signal_response",
+      "type": "NO",
+      "epistemic_status": "record",
+      "note": "DNA excluded all 5. Matias Reyes confessed. Fairstein STILL says they were guilty. 'I watched more than thirty detectives conduct a brilliant investigation.' 5 boys crushed. 7-13 years each. So she could feel like she was right. NO REMORSE. The inverse of science: evidence meets ego and ego wins."
+    },
+    {
+      "source": "cp5_elizabeth_lederer",
+      "target": "signal_response",
+      "type": "NO",
+      "epistemic_status": "record",
+      "note": "Presented coerced confessions. Won convictions. After exoneration, continued teaching at Columbia Law for 17 years. Only resigned when 'When They See Us' made it impossible to stay. Not remorse — reputation management."
+    },
+    {
+      "source": "cp5_tim_clements",
+      "target": "signal_response",
+      "type": "NO",
+      "epistemic_status": "record",
+      "note": "Co-prosecutor. Even after Reyes confession, believed Five were involved. No remorse."
+    },
+    {
+      "source": "cp5_det_michael_sheehan",
+      "target": "signal_response",
+      "type": "NO",
+      "epistemic_status": "record",
+      "note": "Key detective. After exoneration: 'I believe the investigation was handled correctly.' The evidence changed. His belief didn't. Dead now, but died believing he was right."
+    },
+    {
+      "source": "cp5_robert_morgenthau",
+      "target": "signal_response",
+      "type": "NULL_THEN_YES",
+      "epistemic_status": "record",
+      "note": "DA. Assigned the case. Later said confidence in Fairstein was 'misplaced.' Recommended vacating convictions in 2002 — but that was 13 years after conviction. 13 years of NULL before YES."
+    },
+    {
+      "source": "trump",
+      "target": "signal_response",
+      "type": "NO",
+      "epistemic_status": "record",
+      "note": "$85,000 full-page ads calling for death penalty for the Central Park Five. After exoneration: never apologized. During 2016 campaign, STILL said they were guilty. Evidence means nothing when the position is the brand."
+    },
+    {
+      "source": "cp5_matias_reyes",
+      "target": "signal_response",
+      "type": "YES_EVENTUALLY",
+      "epistemic_status": "record",
+      "note": "The actual rapist. Confessed in 2002. Led to exoneration. Even the perpetrator eventually told the truth. The prosecutors still haven't."
+    },
+    {
+      "source": "det_michael_russell",
+      "target": "signal_response",
+      "type": "NO",
+      "epistemic_status": "record",
+      "note": "WROTE the confession for a 14-year-old. Told prosecutors the kid wrote it himself. Lied about blood on shoes. Called him 'dumbass' for asking for a lawyer. Never prosecuted. NO REMORSE."
+    },
+    {
+      "source": "det_james_tolbert",
+      "target": "signal_response",
+      "type": "NO",
+      "epistemic_status": "record",
+      "note": "Drew the crime scene sketch, had the kid fill in bodies from photos. Fabricated the evidence. Never prosecuted."
+    },
+    {
+      "source": "judge_brian_sullivan",
+      "target": "signal_response",
+      "type": "NO",
+      "epistemic_status": "record",
+      "note": "REFUSED to let the real killer testify. Denied motion to withdraw plea. Blocked exoneration for YEARS. When the evidence was right there. A professional hitman with the murder weapon. And the judge said no."
+    },
+    {
+      "source": "vincent_smothers",
+      "target": "signal_response",
+      "type": "YES",
+      "epistemic_status": "record",
+      "note": "The actual killer. Professional hitman. Confessed voluntarily. Led police to the murder weapon. Ballistics matched. Even the hitman told the truth. The judge wouldn't let him."
+    },
+    {
+      "source": "michigan_innocence_clinic",
+      "target": "signal_response",
+      "type": "YES",
+      "epistemic_status": "record",
+      "note": "Michigan Innocence Clinic + Center on Wrongful Convictions. Fought for years. Filed motions. Documented everything. Freed Sanford after 9 years."
+    },
+    {
+      "source": "sb_victoria_price",
+      "target": "signal_response",
+      "type": "NO",
+      "epistemic_status": "record",
+      "note": "Lied about rape to avoid vagrancy charges. Maintained the lie through multiple trials. 9 boys sentenced to death. 100+ collective years in prison. Never recanted. Never apologized."
+    },
+    {
+      "source": "sb_judge_callahan",
+      "target": "signal_response",
+      "type": "NO",
+      "epistemic_status": "record",
+      "note": "Replaced Judge Horton. Hostile to defense. Maximum sentences. Refused compromise. The system's replacement for justice."
+    },
+    {
+      "source": "sb_thomas_knight_jr",
+      "target": "signal_response",
+      "type": "NO",
+      "epistemic_status": "record",
+      "note": "AG who prosecuted the retrials. His father authored the Supreme Court decision upholding the original convictions. Father-son NO."
+    },
+    {
+      "source": "sb_judge_horton",
+      "target": "signal_response",
+      "type": "YES",
+      "epistemic_status": "record",
+      "note": "Set aside the conviction. 'Let justice be done though the heavens may fall.' LOST HIS JUDGESHIP. The cost of YES is real. He paid it."
+    },
+    {
+      "source": "sb_samuel_leibowitz",
+      "target": "signal_response",
+      "type": "YES",
+      "epistemic_status": "record",
+      "note": "Defense attorney. Exposed forged jury rolls. Proved no rape occurred. Won 2 Supreme Court reversals. Fought for years."
+    },
+    {
+      "source": "emile_zola",
+      "target": "signal_response",
+      "type": "YES",
+      "epistemic_status": "record",
+      "note": "'J'accuse!' Published Jan 13, 1898. Named names. Accused the military of antisemitism and cover-up. Convicted of libel. Fled to England. The cost of YES."
+    },
+    {
+      "source": "salem_samuel_sewall",
+      "target": "signal_response",
+      "type": "YES_EVENTUALLY",
+      "epistemic_status": "record",
+      "note": "Trial judge. Later stood in church and took the blame for his role. Public apology 1697. One of the only ones who did. It took 5 years. But he said it."
+    },
+    {
+      "source": "salem_cotton_mather",
+      "target": "signal_response",
+      "type": "NO",
+      "epistemic_status": "record",
+      "note": "Promoted spectral evidence. Wrote 'Wonders of the Invisible World' defending the trials. 19 people hanged. Never recanted. Believed he was doing God's work. Belief without information, weaponized."
+    },
+    {
+      "source": "banks",
+      "target": "signal_response",
+      "type": "NO",
+      "epistemic_status": "record",
+      "note": "9 convictions. Unverified JD. 72.67% sweeps. 3% math proficiency. 5,432 child-years. Still operating. Still claiming credentials. Still taking the money. NO remorse. NO change. The signal is the children's futures."
+    },
+    {
+      "source": "nessel",
+      "target": "signal_response",
+      "type": "NULL",
+      "epistemic_status": "record",
+      "note": "AG. Could investigate. Has not. Her employee Lamar Moreland is PCA Vice Chair. The evidence is public. The signal is loud. The response is silence."
+    },
+    {
+      "source": "latisha_johnson_cc",
+      "target": "signal_response",
+      "type": "NULL_COMPLICIT",
+      "epistemic_status": "record",
+      "note": "City Council D4. PCA Board SECRETARY. DPSCD liaison. Chairs Planning & Econ. Vice chairs Budget. Touches every lever. Has all the information. Sits on his board. NULL is generous — this is active participation."
+    },
+    {
+      "source": "lamar_moreland",
+      "target": "signal_response",
+      "type": "NULL",
+      "epistemic_status": "record",
+      "note": "AG employee on Banks' board. The conflict of interest IS the null response. He is the mechanism by which the AG does nothing."
+    },
+    {
+      "source": "miller",
+      "target": "signal_response",
+      "type": "NULL_COMPLICIT",
+      "epistemic_status": "record",
+      "note": "3rd Circuit judge. PCA Board CHAIR. Her court hears cases involving PCA families. She chairs the board of a 9x convicted felon's school. NULL is generous."
+    },
+    {
+      "source": "vitti",
+      "target": "signal_response",
+      "type": "NULL",
+      "epistemic_status": "record",
+      "note": "DPSCD Superintendent. 9 years. DPSCD authorized PCA. 3% math proficiency at MacDowell. Vitti has the data. The signal is in his dashboard every day. The response: continued authorization."
+    },
+    {
+      "source": "sbe",
+      "target": "signal_response",
+      "type": "NULL",
+      "epistemic_status": "record",
+      "note": "State Board of Education. Meets today Oct 13. Oversees all public education including charters. 3% math proficiency is in the data. The signal is there. The response is silence."
+    },
+    {
+      "source": "mde",
+      "target": "signal_response",
+      "type": "NULL",
+      "epistemic_status": "record",
+      "note": "Michigan Department of Education. Receives enrollment data, test scores, financial reports. 3% math proficiency. The department designed to protect children. NULL."
+    },
+    {
+      "source": "cmu",
+      "target": "signal_response",
+      "type": "NULL",
+      "epistemic_status": "record",
+      "note": "Central Michigan University. Michigan's largest charter authorizer. 60+ schools. Established the framework that PCA operates within. The authorizer ecosystem they built. NULL on accountability."
+    },
+    {
+      "source": "snyder_nikki",
+      "target": "signal_response",
+      "type": "YES",
+      "epistemic_status": "record",
+      "note": "SBE member. Positive actor. Aligned on accountability. In the room today (Oct 13). She sees the signal."
+    },
+    {
+      "source": "clutch_justice",
+      "target": "signal_response",
+      "type": "YES",
+      "epistemic_status": "record",
+      "note": "Acting on the signal. Investigating. Documenting. Building the case."
+    },
+    {
+      "source": "bridge_michigan",
+      "target": "signal_response",
+      "type": "YES",
+      "epistemic_status": "record",
+      "note": "Covering the story. Reporting. The signal needs amplifiers."
+    },
+    {
+      "source": "chalkbeat_detroit",
+      "target": "signal_response",
+      "type": "YES",
+      "epistemic_status": "record",
+      "note": "Covering DPSCD election. 35 candidates. Documenting the system."
+    },
+    {
+      "source": "innocence_project",
+      "target": "signal_response",
+      "type": "YES",
+      "epistemic_status": "record",
+      "note": "375+ exonerations. The institutional YES. When the system says NO, the Innocence Project says YES."
+    },
+    {
+      "source": "casandra_ulbrich",
+      "target": "signal_response",
+      "type": "YES",
+      "epistemic_status": "record",
+      "note": "Former SBE president. Testified for transparency. She knows the system from inside."
+    },
+    {
+      "source": "barry_scheck",
+      "target": "signal_response",
+      "type": "YES",
+      "epistemic_status": "record",
+      "note": "Co-founded the Innocence Project. Institutional YES."
+    },
+    {
+      "source": "peter_neufeld",
+      "target": "signal_response",
+      "type": "YES",
+      "epistemic_status": "record",
+      "note": "Co-founded the Innocence Project."
+    },
+    {
+      "source": "inverse_of_science",
+      "target": "signal_response",
+      "type": "defines",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "inverse_of_science",
+      "target": "false_blame_pattern",
+      "type": "structural_parallel",
       "epistemic_status": "record",
       "note": ""
     }
