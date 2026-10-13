@@ -69397,6 +69397,39 @@
         "institutional_failure",
         "detroit"
       ]
+    },
+    {
+      "id": "unnamed_house_aide",
+      "label": "Unnamed House Aide (Harassed by Banks)",
+      "class": "person",
+      "role": "Banks harassed this person while working in the Michigan House of Representatives. Their name is not yet public, but the incident is documented. If this person comes forward, they become a witness to Banks' pattern of predatory behavior extending beyond PCA into state government. WHERE IS THIS PERSON? What happened to their complaint? Did the House take action? Did HR investigate? THE FAINTEST GLIMMER: a person harassed by Banks in a government building, and the entire apparatus closed around it.",
+      "tags": [
+        "investigation",
+        "epitope",
+        "criminal"
+      ]
+    },
+    {
+      "id": "insurance_chain",
+      "label": "THE INSURANCE CHAIN: Who Pays When the Dam Breaks",
+      "class": "pattern",
+      "role": "Plante Moran has malpractice insurance. Dykema has malpractice insurance. CMU has E&O insurance. MDE has state sovereign immunity (partial). Banks has... nothing. Holland has... criminal history. Purpose Foundation has... whatever's in the 990. When this case goes to trial, the question isn't just WHO is liable — it's WHO HAS INSURANCE. Because the firms with insurance will settle. The individuals without it will be destroyed. And the children? They had no insurance at all.",
+      "tags": [
+        "investigation",
+        "legal",
+        "epitope"
+      ]
+    },
+    {
+      "id": "lara_filing_gaps",
+      "label": "LARA Filing Gaps: What We'd Find If We Looked",
+      "class": "pattern",
+      "role": "LARA (Michigan's licensing and regulatory affairs) has corporate filings for: Purpose Group LLC, Purpose Foundation, Nu Vision Media. If Banks is the registered agent or officer on ALL of these, that's a single point of control. If Holland (convicted narcotics trafficker) is on ANY of them, that's a disqualifying event. If the addresses match the Severn address (a front), that's evidence of fraud. WE HAVEN'T LOOKED YET. But when we do, each filing is a thread that, when pulled, unravels the entire corporate shell structure.",
+      "tags": [
+        "investigation",
+        "epitope",
+        "legal"
+      ]
     }
   ],
   "edges": [
@@ -213028,6 +213061,265 @@
       "type": "asks_directly",
       "epistemic_status": "record",
       "note": "You're council president. What happened to the inspector general's reports?"
+    },
+    {
+      "source": "great_lakes_education_project_full",
+      "target": "pca",
+      "type": "transitively_enabled",
+      "epistemic_status": "inferred",
+      "note": "Chain: great_lakes_education_project_full -> charter_law_1993 -> cmu_authorizer"
+    },
+    {
+      "source": "great_lakes_education_project_full",
+      "target": "banks",
+      "type": "transitively_enabled",
+      "epistemic_status": "inferred",
+      "note": "Chain: great_lakes_education_project_full -> charter_law_1993 -> cmu_authorizer -> pca"
+    },
+    {
+      "source": "charter_law_1993",
+      "target": "banks",
+      "type": "transitively_enabled",
+      "epistemic_status": "inferred",
+      "note": "Chain: charter_law_1993 -> cmu_authorizer -> pca"
+    },
+    {
+      "source": "plante_moran",
+      "target": "banks",
+      "type": "complicit_silence",
+      "epistemic_status": "inferred",
+      "note": "PM audits PCA. PM knows Banks. PM says nothing."
+    },
+    {
+      "source": "jocelyn_benson",
+      "target": "banks",
+      "type": "systemic_blind_spot",
+      "epistemic_status": "inferred",
+      "note": "Benson certifies elections, SOS oversees corporations including Purpose Group"
+    },
+    {
+      "source": "mde",
+      "target": "banks",
+      "type": "failed_to_stop",
+      "epistemic_status": "inferred",
+      "note": "OVERSIGHT FAILURE: Failed to revoke PCA authorization despite 9 convictions"
+    },
+    {
+      "source": "mde",
+      "target": "pca",
+      "type": "failed_to_stop",
+      "epistemic_status": "inferred",
+      "note": "OVERSIGHT FAILURE: Failed to revoke PCA authorization despite 9 convictions"
+    },
+    {
+      "source": "wayne_resa",
+      "target": "banks",
+      "type": "failed_to_stop",
+      "epistemic_status": "inferred",
+      "note": "OVERSIGHT FAILURE: Financial oversight missed or ignored fraud signals"
+    },
+    {
+      "source": "wayne_resa",
+      "target": "pca",
+      "type": "failed_to_stop",
+      "epistemic_status": "inferred",
+      "note": "OVERSIGHT FAILURE: Financial oversight missed or ignored fraud signals"
+    },
+    {
+      "source": "dpscd",
+      "target": "banks",
+      "type": "failed_to_stop",
+      "epistemic_status": "inferred",
+      "note": "OVERSIGHT FAILURE: District-level oversight gap"
+    },
+    {
+      "source": "dpscd",
+      "target": "pca",
+      "type": "failed_to_stop",
+      "epistemic_status": "inferred",
+      "note": "OVERSIGHT FAILURE: District-level oversight gap"
+    },
+    {
+      "source": "nessel",
+      "target": "banks",
+      "type": "failed_to_stop",
+      "epistemic_status": "inferred",
+      "note": "OVERSIGHT FAILURE: AG has criminal investigation authority"
+    },
+    {
+      "source": "nessel",
+      "target": "pca",
+      "type": "failed_to_stop",
+      "epistemic_status": "inferred",
+      "note": "OVERSIGHT FAILURE: AG has criminal investigation authority"
+    },
+    {
+      "source": "fadwa_hammoud",
+      "target": "banks",
+      "type": "failed_to_stop",
+      "epistemic_status": "inferred",
+      "note": "OVERSIGHT FAILURE: Chief Deputy AG could have investigated"
+    },
+    {
+      "source": "fadwa_hammoud",
+      "target": "pca",
+      "type": "failed_to_stop",
+      "epistemic_status": "inferred",
+      "note": "OVERSIGHT FAILURE: Chief Deputy AG could have investigated"
+    },
+    {
+      "source": "detroit_inspector_general",
+      "target": "banks",
+      "type": "failed_to_stop",
+      "epistemic_status": "inferred",
+      "note": "OVERSIGHT FAILURE: City inspector should have flagged"
+    },
+    {
+      "source": "detroit_inspector_general",
+      "target": "pca",
+      "type": "failed_to_stop",
+      "epistemic_status": "inferred",
+      "note": "OVERSIGHT FAILURE: City inspector should have flagged"
+    },
+    {
+      "source": "michigan_legislature",
+      "target": "banks",
+      "type": "failed_to_stop",
+      "epistemic_status": "inferred",
+      "note": "OVERSIGHT FAILURE: Legislature wrote the enabling law"
+    },
+    {
+      "source": "michigan_legislature",
+      "target": "pca",
+      "type": "failed_to_stop",
+      "epistemic_status": "inferred",
+      "note": "OVERSIGHT FAILURE: Legislature wrote the enabling law"
+    },
+    {
+      "source": "unnamed_house_aide",
+      "target": "banks",
+      "type": "harassed_by",
+      "epistemic_status": "inferred",
+      "note": "Banks harassed this House aide"
+    },
+    {
+      "source": "unnamed_house_aide",
+      "target": "banks_harassment_house",
+      "type": "victim_of",
+      "epistemic_status": "inferred",
+      "note": "Victim of Banks harassment in House"
+    },
+    {
+      "source": "unnamed_house_aide",
+      "target": "michigan_legislature",
+      "type": "employed_by",
+      "epistemic_status": "inferred",
+      "note": "Worked in Michigan House"
+    },
+    {
+      "source": "unnamed_house_aide",
+      "target": "pattern_silence_is_complicity",
+      "type": "exemplifies",
+      "epistemic_status": "inferred",
+      "note": "House protected Banks, silenced aide"
+    },
+    {
+      "source": "insurance_chain",
+      "target": "plante_moran",
+      "type": "insured",
+      "epistemic_status": "inferred",
+      "note": "PM carries malpractice insurance"
+    },
+    {
+      "source": "insurance_chain",
+      "target": "dykema",
+      "type": "insured",
+      "epistemic_status": "inferred",
+      "note": "Dykema carries malpractice insurance"
+    },
+    {
+      "source": "insurance_chain",
+      "target": "banks",
+      "type": "uninsured",
+      "epistemic_status": "inferred",
+      "note": "Banks likely has no malpractice coverage"
+    },
+    {
+      "source": "insurance_chain",
+      "target": "holland",
+      "type": "uninsured",
+      "epistemic_status": "inferred",
+      "note": "Holland: convicted narcotics trafficker, no coverage"
+    },
+    {
+      "source": "insurance_chain",
+      "target": "purpose_foundation",
+      "type": "shell",
+      "epistemic_status": "inferred",
+      "note": "Foundation assets are the only buffer"
+    },
+    {
+      "source": "insurance_chain",
+      "target": "mde",
+      "type": "sovereign_immunity",
+      "epistemic_status": "inferred",
+      "note": "State may claim partial immunity"
+    },
+    {
+      "source": "insurance_chain",
+      "target": "pca",
+      "type": "undercapitalized",
+      "epistemic_status": "inferred",
+      "note": "School's assets are the students' money"
+    },
+    {
+      "source": "lara_filing_gaps",
+      "target": "lara",
+      "type": "search_needed",
+      "epistemic_status": "inferred",
+      "note": "LARA search for all Banks entities"
+    },
+    {
+      "source": "lara_filing_gaps",
+      "target": "banks",
+      "type": "officer_of",
+      "epistemic_status": "inferred",
+      "note": "Banks likely officer on all entities"
+    },
+    {
+      "source": "lara_filing_gaps",
+      "target": "holland",
+      "type": "may_appear_on",
+      "epistemic_status": "inferred",
+      "note": "Holland may be on corporate filings"
+    },
+    {
+      "source": "lara_filing_gaps",
+      "target": "purpose_group",
+      "type": "filing_target",
+      "epistemic_status": "inferred",
+      "note": "Purpose Group LLC filings"
+    },
+    {
+      "source": "lara_filing_gaps",
+      "target": "purpose_foundation",
+      "type": "filing_target",
+      "epistemic_status": "inferred",
+      "note": "Purpose Foundation filings"
+    },
+    {
+      "source": "lara_filing_gaps",
+      "target": "nuvision_inc",
+      "type": "filing_target",
+      "epistemic_status": "inferred",
+      "note": "Nu Vision Media filings"
+    },
+    {
+      "source": "lara_filing_gaps",
+      "target": "severn_address",
+      "type": "address_check",
+      "epistemic_status": "inferred",
+      "note": "Do filings list the Severn front?"
     }
   ],
   "epistemic_grammar": {
