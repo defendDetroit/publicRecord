@@ -49155,6 +49155,190 @@
         "state",
         "non_human"
       ]
+    },
+    {
+      "id": "site_detroit",
+      "label": "detroit.primals.eco",
+      "class": "entity",
+      "role": "Detroit investigation site. Banks, Purpose, charter schools. The ground level.",
+      "tags": [
+        "site",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "site_barry",
+      "label": "barry.primals.eco",
+      "class": "entity",
+      "role": "Barry County investigation site. Rita's domain. Campaign finance, dark money, signal permeability.",
+      "tags": [
+        "site",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "site_tuebor",
+      "label": "tuebor.primals.eco",
+      "class": "entity",
+      "role": "Statewide radiator. Michigan charter ecosystem, oversight failures, policy capture.",
+      "tags": [
+        "site",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "site_lansing",
+      "label": "lansing scope",
+      "class": "entity",
+      "role": "Ingham County scope. AGC, JTC, SBE, MDE, Legislature, Governor. Where the levers are.",
+      "tags": [
+        "site",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "sbe_pamela_pugh",
+      "label": "Dr. Pamela Pugh (SBE)",
+      "class": "actor",
+      "role": "SBE Vice President. Detroit. Public health background. Pro-public education.",
+      "tags": [
+        "oversight",
+        "sbe_member"
+      ]
+    },
+    {
+      "id": "sbe_tom_mcmillin",
+      "label": "Tom McMillin (SBE)",
+      "class": "actor",
+      "role": "SBE member. Former state rep. Pro-charter. DeVos aligned. WATCH.",
+      "tags": [
+        "oversight",
+        "sbe_member",
+        "charter_ecosystem"
+      ]
+    },
+    {
+      "id": "sbe_tiffany_tilley",
+      "label": "Tiffany Tilley (SBE)",
+      "class": "actor",
+      "role": "SBE member. Grand Rapids. Educator.",
+      "tags": [
+        "oversight",
+        "sbe_member"
+      ]
+    },
+    {
+      "id": "sbe_mitchell_robinson",
+      "label": "Dr. Mitchell Robinson (SBE)",
+      "class": "actor",
+      "role": "SBE member. MSU professor. Music education. Pro-public education.",
+      "tags": [
+        "oversight",
+        "sbe_member"
+      ]
+    },
+    {
+      "id": "sbe_jason_strayhorn",
+      "label": "Jason Strayhorn (SBE)",
+      "class": "actor",
+      "role": "SBE President. Former MSU football. Pro-accountability.",
+      "tags": [
+        "oversight",
+        "sbe_member"
+      ]
+    },
+    {
+      "id": "mde_michael_rice_supt",
+      "label": "Dr. Michael Rice (State Superintendent)",
+      "class": "actor",
+      "role": "State Superintendent. Appointed by SBE. Responsible for charter school oversight statewide.",
+      "tags": [
+        "oversight",
+        "state",
+        "education"
+      ]
+    },
+    {
+      "id": "mde_kelli_brozanski",
+      "label": "Kelli Brozanski (MDE)",
+      "class": "actor",
+      "role": "MDE staff. brozanskik@michigan.gov. Does MDE know about 9 convictions at K-12 schools?",
+      "tags": [
+        "oversight",
+        "state",
+        "education"
+      ]
+    },
+    {
+      "id": "ag_charitable_trust_full",
+      "label": "AG Charitable Trust Section",
+      "class": "entity",
+      "role": "Oversees 501(c)(3) organizations. Purpose Foundation is a charitable trust. Darrin Fowler.",
+      "tags": [
+        "oversight",
+        "state",
+        "enforcement"
+      ]
+    },
+    {
+      "id": "ag_darrin_fowler",
+      "label": "Darrin Fowler (AG Charitable Trust)",
+      "class": "actor",
+      "role": "FowlerD1@michigan.gov. Handles charitable trust complaints. Purpose Foundation.",
+      "tags": [
+        "oversight",
+        "state"
+      ]
+    },
+    {
+      "id": "ethan_bakuli",
+      "label": "Ethan Bakuli (Chalkbeat)",
+      "class": "actor",
+      "role": "Chalkbeat Detroit reporter. Covers DPSCD, charter schools, SBE.",
+      "tags": [
+        "media",
+        "journalism"
+      ]
+    },
+    {
+      "id": "ron_french",
+      "label": "Ron French (Bridge Michigan)",
+      "class": "actor",
+      "role": "Bridge Michigan education reporter. Deep data coverage of charter schools.",
+      "tags": [
+        "media",
+        "journalism"
+      ]
+    },
+    {
+      "id": "membrane_gap_walton",
+      "label": "MEMBRANE GAP: Walton -> No Oversight",
+      "class": "false_entity",
+      "role": "Walton Family Foundation has 121 connections in the charter ecosystem and ZERO oversight connections. $1B+ in charter school funding. No accountability.",
+      "tags": [
+        "membrane_gap",
+        "non_human"
+      ]
+    },
+    {
+      "id": "membrane_gap_afc",
+      "label": "MEMBRANE GAP: AFC -> No Oversight",
+      "class": "false_entity",
+      "role": "American Federation for Children (DeVos) has 115 connections and ZERO oversight connections. The lobby IS the gap.",
+      "tags": [
+        "membrane_gap",
+        "non_human"
+      ]
+    },
+    {
+      "id": "membrane_gap_koch",
+      "label": "MEMBRANE GAP: Koch -> No Oversight",
+      "class": "false_entity",
+      "role": "Koch Political Network has 107 connections and ZERO oversight connections. Dark money operates in the dark.",
+      "tags": [
+        "membrane_gap",
+        "non_human"
+      ]
     }
   ],
   "edges": [
@@ -136947,6 +137131,524 @@
       "type": "structural_proximity",
       "epistemic_status": "predicted",
       "note": "Actor -> likely institution via 37 shared inv neighbors"
+    },
+    {
+      "source": "site_detroit",
+      "target": "banks",
+      "type": "scope",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "site_detroit",
+      "target": "pca",
+      "type": "scope",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "site_detroit",
+      "target": "purpose_group",
+      "type": "scope",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "site_detroit",
+      "target": "detroit_city",
+      "type": "scope",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "site_detroit",
+      "target": "dpscd",
+      "type": "scope",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "site_barry",
+      "target": "dykema",
+      "type": "scope",
+      "epistemic_status": "record",
+      "note": "Dark money, campaign finance"
+    },
+    {
+      "source": "site_barry",
+      "target": "agc",
+      "type": "scope",
+      "epistemic_status": "record",
+      "note": "AGC complaint tracking"
+    },
+    {
+      "source": "site_tuebor",
+      "target": "charter_law_1993",
+      "type": "scope",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "site_tuebor",
+      "target": "mde",
+      "type": "scope",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "site_tuebor",
+      "target": "sbe",
+      "type": "scope",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "site_tuebor",
+      "target": "mackinac_center",
+      "type": "scope",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "site_tuebor",
+      "target": "michigan_legislature",
+      "type": "scope",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "site_lansing",
+      "target": "agc",
+      "type": "scope",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "site_lansing",
+      "target": "jtc",
+      "type": "scope",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "site_lansing",
+      "target": "mi_supreme_court",
+      "type": "scope",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "site_lansing",
+      "target": "sbe",
+      "type": "scope",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "site_lansing",
+      "target": "mde",
+      "type": "scope",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "site_lansing",
+      "target": "ingham_county_circuit_court",
+      "type": "scope",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "site_lansing",
+      "target": "governors_office",
+      "type": "scope",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "site_lansing",
+      "target": "michigan_legislature",
+      "type": "scope",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "holland",
+      "target": "wayne_county_circuit_court",
+      "type": "jurisdiction",
+      "epistemic_status": "record",
+      "note": "Wayne County resident"
+    },
+    {
+      "source": "holland",
+      "target": "wayne_county_prosecutors",
+      "type": "potential_victim",
+      "epistemic_status": "record",
+      "note": "Exploited by Banks"
+    },
+    {
+      "source": "renae_moore",
+      "target": "cmu_charter_office",
+      "type": "employer_authorized_by",
+      "epistemic_status": "record",
+      "note": "PCA authorized by CMU"
+    },
+    {
+      "source": "renae_moore",
+      "target": "mde",
+      "type": "jurisdiction",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "duggan",
+      "target": "wayne_county_circuit_court",
+      "type": "jurisdiction",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "duggan",
+      "target": "michigan_state_police",
+      "type": "jurisdiction",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "duggan",
+      "target": "detroit_oig",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "andre_spivey",
+      "target": "wayne_county_circuit_court",
+      "type": "convicted_in",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "andre_spivey",
+      "target": "michigan_state_police",
+      "type": "investigated_by",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "sheila_cockrel",
+      "target": "detroit_city_council",
+      "type": "former_member",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "sheila_cockrel",
+      "target": "detroit_oig",
+      "type": "jurisdiction",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "latisha_johnson_cc",
+      "target": "detroit_city_council",
+      "type": "member",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "latisha_johnson_cc",
+      "target": "detroit_oig",
+      "type": "jurisdiction",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "dan_gilbert",
+      "target": "michigan_treasury",
+      "type": "tax_obligations",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "dan_gilbert",
+      "target": "detroit_oig",
+      "type": "jurisdiction",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "od_banks",
+      "target": "wayne_county_circuit_court",
+      "type": "jurisdiction",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "od_banks",
+      "target": "fbi_detroit",
+      "type": "potential_investigation",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "ross",
+      "target": "wayne_county_circuit_court",
+      "type": "jurisdiction",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "national_heritage_academies",
+      "target": "michigan_auditor_general",
+      "type": "should_audit",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "national_heritage_academies",
+      "target": "mde",
+      "type": "jurisdiction",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "sbe_pamela_pugh",
+      "target": "sbe",
+      "type": "member",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "sbe_pamela_pugh",
+      "target": "mde",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "sbe_tom_mcmillin",
+      "target": "sbe",
+      "type": "member",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "sbe_tom_mcmillin",
+      "target": "mde",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "sbe_tiffany_tilley",
+      "target": "sbe",
+      "type": "member",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "sbe_tiffany_tilley",
+      "target": "mde",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "sbe_mitchell_robinson",
+      "target": "sbe",
+      "type": "member",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "sbe_mitchell_robinson",
+      "target": "mde",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "sbe_jason_strayhorn",
+      "target": "sbe",
+      "type": "member",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "sbe_jason_strayhorn",
+      "target": "mde",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "snyder_nikki",
+      "target": "mde",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "sbe_tom_mcmillin",
+      "target": "great_lakes_education_project_full",
+      "type": "supported_by",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "sbe_tom_mcmillin",
+      "target": "charter_law_1993",
+      "type": "supports",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "mde_michael_rice_supt",
+      "target": "mde",
+      "type": "leads",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "mde_michael_rice_supt",
+      "target": "sbe",
+      "type": "appointed_by",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "mde_michael_rice_supt",
+      "target": "charter_law_1993",
+      "type": "enforces",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "mde_michael_rice_supt",
+      "target": "pca",
+      "type": "jurisdiction",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "mde_kelli_brozanski",
+      "target": "mde",
+      "type": "employment",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "mde_kelli_brozanski",
+      "target": "banks",
+      "type": "should_know",
+      "epistemic_status": "record",
+      "note": "Does she know about 9 felonies?"
+    },
+    {
+      "source": "ag_darrin_fowler",
+      "target": "ag_charitable_trust_full",
+      "type": "leads",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "ag_charitable_trust_full",
+      "target": "ag_office",
+      "type": "part_of",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "ag_charitable_trust_full",
+      "target": "purpose_foundation",
+      "type": "jurisdiction",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "ag_charitable_trust_full",
+      "target": "purpose_group",
+      "type": "jurisdiction",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "ag_darrin_fowler",
+      "target": "banks",
+      "type": "should_investigate",
+      "epistemic_status": "record",
+      "note": "Charitable trust violations"
+    },
+    {
+      "source": "ethan_bakuli",
+      "target": "chalkbeat_detroit",
+      "type": "employment",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "ethan_bakuli",
+      "target": "dpscd",
+      "type": "covers",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "ethan_bakuli",
+      "target": "sbe",
+      "type": "covers",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "ron_french",
+      "target": "bridge_michigan",
+      "type": "employment",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "ron_french",
+      "target": "charter_law_1993",
+      "type": "covers",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "ron_french",
+      "target": "mde",
+      "type": "covers",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "ml_elrick",
+      "target": "detroit_free_press",
+      "type": "formerly",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "membrane_gap_walton",
+      "target": "public_education",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "The largest charter funder has no oversight connection. The gap IS the design."
+    },
+    {
+      "source": "membrane_gap_afc",
+      "target": "public_education",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "The DeVos lobby machine has no oversight connection."
+    },
+    {
+      "source": "membrane_gap_koch",
+      "target": "public_education",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Dark money has no oversight. By design."
     }
   ],
   "epistemic_grammar": {
