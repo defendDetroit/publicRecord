@@ -64177,6 +64177,584 @@
         "articles",
         "non_human"
       ]
+    },
+    {
+      "id": "oss",
+      "label": "Office of Strategic Services (OSS, 1942-1945)",
+      "class": "entity",
+      "role": "Predecessor to CIA. Founded by 'Wild Bill' Donovan under FDR. WWII. Espionage, sabotage, propaganda. Recruited from Ivy League, Wall Street, Hollywood. Disbanded by Truman, reborn as CIA.",
+      "tags": [
+        "intelligence",
+        "us",
+        "wwii"
+      ]
+    },
+    {
+      "id": "cia",
+      "label": "Central Intelligence Agency (CIA, 1947-present)",
+      "class": "entity",
+      "role": "Created by National Security Act of 1947. From OSS. Allen Dulles (1st civilian director, 1953-61). Covert ops: Iran 1953 (Mossadegh), Guatemala 1954, Bay of Pigs 1961, Chile 1973, Contras 1980s. MKUltra. Enhanced interrogation. Black sites. WMD intel failure 2003. 'We tortured some folks' --Obama.",
+      "tags": [
+        "intelligence",
+        "us",
+        "covert"
+      ]
+    },
+    {
+      "id": "fbi",
+      "label": "Federal Bureau of Investigation (FBI, 1908-present)",
+      "class": "entity",
+      "role": "Domestic intelligence + federal law enforcement. J. Edgar Hoover (1924-1972, 48 YEARS). COINTELPRO: infiltrated MLK, Black Panthers, AIM, anti-war. Kept files on everyone. Hoover blackmailed presidents. Mueller -> Comey -> Wray. Public corruption unit (already in graph).",
+      "tags": [
+        "intelligence",
+        "us",
+        "domestic"
+      ]
+    },
+    {
+      "id": "nsa",
+      "label": "National Security Agency (NSA, 1952-present)",
+      "class": "entity",
+      "role": "Signals intelligence. 'No Such Agency.' Crypto. Surveillance. PRISM (Snowden 2013). Collects everything. Phone metadata. Internet traffic. Budget classified but ~$11B. Largest employer of mathematicians in the world.",
+      "tags": [
+        "intelligence",
+        "us",
+        "signals"
+      ]
+    },
+    {
+      "id": "dia",
+      "label": "Defense Intelligence Agency (DIA, 1961-present)",
+      "class": "entity",
+      "role": "Military intelligence. Pentagon. Created after Bay of Pigs failure showed CIA couldn't do military intel. 16,500+ employees. Provided some of the WMD 'intelligence.' Douglas Feith's Office of Special Plans used DIA analysts.",
+      "tags": [
+        "intelligence",
+        "us",
+        "military"
+      ]
+    },
+    {
+      "id": "dni",
+      "label": "Director of National Intelligence (DNI, 2004-present)",
+      "class": "entity",
+      "role": "Created AFTER Iraq WMD failure. 9/11 Commission recommendation. Supposed to coordinate 18 intelligence agencies. John Negroponte first DNI. The fix they built after the lie.",
+      "tags": [
+        "intelligence",
+        "us",
+        "coordination"
+      ]
+    },
+    {
+      "id": "kgb",
+      "label": "KGB (Committee for State Security, 1954-1991)",
+      "class": "entity",
+      "role": "Soviet intelligence + secret police. Successor to NKVD, OGPU, Cheka. Foreign intel, domestic surveillance, border guards. 480,000 employees. Putin was KGB (Dresden, East Germany, 1985-1990). Dissolved 1991 -> FSB + SVR.",
+      "tags": [
+        "intelligence",
+        "russia",
+        "soviet"
+      ]
+    },
+    {
+      "id": "fsb",
+      "label": "FSB (Federal Security Service, 1995-present)",
+      "class": "entity",
+      "role": "Successor to KGB domestic. Putin was director (1998-1999) before becoming PM then President. Domestic security, counterintel, counterterror. Moscow apartment bombings 1999 (pretext for Second Chechen War). Litvinenko assassination (polonium). Navalny poisoning (Novichok).",
+      "tags": [
+        "intelligence",
+        "russia"
+      ]
+    },
+    {
+      "id": "svr",
+      "label": "SVR (Foreign Intelligence Service, 1991-present)",
+      "class": "entity",
+      "role": "Successor to KGB First Chief Directorate. Foreign intel. Illegals program (Anna Chapman). Sergei Skripal (poisoned Salisbury 2018). Deep cover agents.",
+      "tags": [
+        "intelligence",
+        "russia"
+      ]
+    },
+    {
+      "id": "gru",
+      "label": "GRU (Main Intelligence Directorate, 1918-present)",
+      "class": "entity",
+      "role": "Russian military intelligence. Oldest surviving intel agency. Spetsnaz under GRU command. 2016 US election interference (Mueller indicted 12 GRU officers). Skripal poisoning (GRU Unit 29155). MH17 shootdown.",
+      "tags": [
+        "intelligence",
+        "russia",
+        "military"
+      ]
+    },
+    {
+      "id": "spetsnaz",
+      "label": "Spetsnaz (Special Purpose Forces)",
+      "class": "entity",
+      "role": "Russian special forces under GRU. Unconventional warfare, sabotage, assassination, reconnaissance. Active in Afghanistan (1979-89), Chechnya, Georgia, Crimea (2014, 'little green men'), Ukraine (2022-). Vympel (FSB counterpart), Alpha Group.",
+      "tags": [
+        "intelligence",
+        "russia",
+        "military",
+        "special_forces"
+      ]
+    },
+    {
+      "id": "mi6_sis",
+      "label": "MI6 / Secret Intelligence Service (SIS, 1909-present)",
+      "class": "entity",
+      "role": "British foreign intelligence. James Bond is fiction. Reality: Kim Philby (Soviet mole, Cambridge Five). Christopher Steele (Trump dossier, ex-MI6). Iraq WMD: the '45 minutes' claim came from MI6 source 'Curveball' (actually a liar). Vauxhall Cross, London.",
+      "tags": [
+        "intelligence",
+        "uk",
+        "foreign"
+      ]
+    },
+    {
+      "id": "mi5",
+      "label": "MI5 (Security Service, 1909-present)",
+      "class": "entity",
+      "role": "British domestic intelligence. Counterintel, counterterror. Thames House, London. Cambridge Five (Philby, Burgess, Maclean, Blunt, Cairncross) -- all MI5/MI6 officers who were KGB moles. The greatest penetration in intelligence history.",
+      "tags": [
+        "intelligence",
+        "uk",
+        "domestic"
+      ]
+    },
+    {
+      "id": "gchq",
+      "label": "GCHQ (Government Communications HQ, 1919-present)",
+      "class": "entity",
+      "role": "British signals intelligence. Partner to NSA. Five Eyes. Bletchley Park -> GCHQ. Turing cracked Enigma here. Cheltenham. Tempora program (tapped undersea cables). Shares everything with NSA.",
+      "tags": [
+        "intelligence",
+        "uk",
+        "signals"
+      ]
+    },
+    {
+      "id": "mossad",
+      "label": "Mossad (Institute for Intelligence, 1949-present)",
+      "class": "entity",
+      "role": "Israeli foreign intelligence. Eichmann capture (Argentina, 1960). Munich Olympics retaliation (1972, 'Wrath of God'). Stuxnet (with NSA/CIA, destroyed Iranian centrifuges). Targeted assassinations. 'Where there is no counsel, the people fall, but in the multitude of counsellors there is safety.' -- Proverbs 11:14 (their motto).",
+      "tags": [
+        "intelligence",
+        "israel"
+      ]
+    },
+    {
+      "id": "shin_bet",
+      "label": "Shin Bet (Internal Security, 1949-present)",
+      "class": "entity",
+      "role": "Israeli domestic intelligence. Palestinian territories surveillance. Torture documented by B'Tselem. 'The Gatekeepers' documentary: 6 former Shin Bet directors said occupation is destroying Israel.",
+      "tags": [
+        "intelligence",
+        "israel",
+        "domestic"
+      ]
+    },
+    {
+      "id": "aman",
+      "label": "Aman (Military Intelligence Directorate, Israel)",
+      "class": "entity",
+      "role": "Israeli military intelligence. Unit 8200: signals intelligence, cyber. Alumni founded NSO Group (Pegasus spyware), Check Point, many tech companies. The unit that surveils Palestinians also trains the people who sell surveillance tools to every government.",
+      "tags": [
+        "intelligence",
+        "israel",
+        "military"
+      ]
+    },
+    {
+      "id": "bnd",
+      "label": "BND (Federal Intelligence Service, Germany, 1956-present)",
+      "class": "entity",
+      "role": "German foreign intelligence. Founded by Reinhard Gehlen, who ran Nazi military intelligence on the Eastern Front. The US hired a Nazi spy chief to spy on the Soviets. That's the foundation.",
+      "tags": [
+        "intelligence",
+        "germany"
+      ]
+    },
+    {
+      "id": "dgse",
+      "label": "DGSE (General Directorate for External Security, France)",
+      "class": "entity",
+      "role": "French foreign intelligence. Rainbow Warrior bombing (1985, sank Greenpeace ship in New Zealand, killed photographer). Action Division: paramilitary. Africa operations (Francafrique).",
+      "tags": [
+        "intelligence",
+        "france"
+      ]
+    },
+    {
+      "id": "isi",
+      "label": "ISI (Inter-Services Intelligence, Pakistan, 1948-present)",
+      "class": "entity",
+      "role": "Pakistani military intelligence. Funded Taliban (with CIA money in 1980s). Hid bin Laden? (Abbottabad, 1 mile from military academy). Double game: US ally + Taliban supporter. Nuclear proliferation (A.Q. Khan network).",
+      "tags": [
+        "intelligence",
+        "pakistan"
+      ]
+    },
+    {
+      "id": "mss",
+      "label": "MSS (Ministry of State Security, China, 2018-present form)",
+      "class": "entity",
+      "role": "Chinese intelligence. Corporate espionage at industrial scale. Confucius Institutes (cultural + intel). Thousand Talents Program. OPM hack (2015, 22M federal employee records). The Great Firewall. Social credit system.",
+      "tags": [
+        "intelligence",
+        "china"
+      ]
+    },
+    {
+      "id": "five_eyes",
+      "label": "Five Eyes Alliance (FVEY)",
+      "class": "entity",
+      "role": "US + UK + Canada + Australia + New Zealand. Signals intelligence sharing since 1946 (UKUSA Agreement). Post-WWII. Each country spies on the others' citizens to get around domestic surveillance laws, then shares. Snowden revealed the full scope. The largest surveillance network in human history.",
+      "tags": [
+        "intelligence",
+        "alliance",
+        "surveillance"
+      ]
+    },
+    {
+      "id": "curveball",
+      "label": "Curveball (Rafid Ahmed Alwan al-Janabi)",
+      "class": "entity",
+      "role": "Iraqi chemical engineer defector. Went to Germany (BND) in 1999. Claimed Iraq had mobile biological weapons labs. BND warned CIA he was unreliable. CIA used his claims anyway. Colin Powell cited him at UN (Feb 5, 2003). Curveball admitted in 2011: 'I had the chance to fabricate something to topple the regime.' He LIED. And they KNEW he was lying. And they used it anyway.",
+      "tags": [
+        "wmd",
+        "intelligence",
+        "iraq",
+        "liar"
+      ]
+    },
+    {
+      "id": "ahmed_chalabi",
+      "label": "Ahmed Chalabi (Iraqi National Congress)",
+      "class": "entity",
+      "role": "Iraqi exile. Founded Iraqi National Congress (INC) with CIA funding ($100M+). Fed false intel about WMD to Pentagon (Doug Feith's Office of Special Plans) and to NYT reporter Judith Miller. Wanted to be post-Saddam leader. The CIA's own reports said he was unreliable. Neocons used him anyway. He was also an Iranian intelligence asset. Dead 2015.",
+      "tags": [
+        "wmd",
+        "intelligence",
+        "iraq",
+        "source"
+      ]
+    },
+    {
+      "id": "office_special_plans",
+      "label": "Office of Special Plans (OSP, 2002-2003)",
+      "class": "entity",
+      "role": "Created by Doug Feith (Undersecretary of Defense for Policy) under Rumsfeld. Purpose: find the WMD evidence that CIA couldn't find. Cherry-picked raw intel. Bypassed CIA analysis. Used Chalabi's INC sources directly. Stovepiped unvetted intel straight to Cheney and Rumsfeld. THIS IS WHERE THE LIE WAS MANUFACTURED. Not found -- manufactured.",
+      "tags": [
+        "wmd",
+        "intelligence",
+        "neocon",
+        "manufactured"
+      ]
+    },
+    {
+      "id": "doug_feith",
+      "label": "Douglas Feith (Undersecretary of Defense, 2001-2005)",
+      "class": "entity",
+      "role": "Created Office of Special Plans. Gen. Tommy Franks called him 'the dumbest fucking guy on the planet.' Stovepiped raw intel past CIA to Cheney. PNAC signatory. The man who built the machine that manufactured the WMD lie.",
+      "tags": [
+        "wmd",
+        "neocon",
+        "pentagon"
+      ]
+    },
+    {
+      "id": "powell_un_speech",
+      "label": "Colin Powell UN Speech (Feb 5, 2003)",
+      "class": "entity",
+      "role": "Secretary of State Colin Powell presented 'evidence' of Iraqi WMD to UN Security Council. Held up vial of 'anthrax.' Showed satellite photos. Cited Curveball (mobile labs). CIA Director Tenet sat behind him. Powell later called it 'a blot, a failure.' He knew some of it was weak. He presented it anyway. 4,431 US troops died. 300,000+ Iraqi civilians died. Because of this speech.",
+      "tags": [
+        "wmd",
+        "iraq",
+        "un",
+        "null_signal"
+      ]
+    },
+    {
+      "id": "pnac",
+      "label": "Project for the New American Century (PNAC, 1997-2009)",
+      "class": "entity",
+      "role": "Neocon think tank. Founded by William Kristol and Robert Kagan. 1998 letter to Clinton: remove Saddam. Signatories: Rumsfeld, Wolfowitz, Cheney (as VP), Bolton, Feith, Perle, Abrams. BEFORE 9/11 they wanted Iraq. 9/11 gave them the pretext. 'Rebuilding America's Defenses' (2000): called for 'new Pearl Harbor' to transform military. Then Pearl Harbor happened.",
+      "tags": [
+        "wmd",
+        "neocon",
+        "think_tank"
+      ]
+    },
+    {
+      "id": "cheney_wmd",
+      "label": "VP Dick Cheney: The Architect of the WMD Lie",
+      "class": "entity",
+      "role": "Vice President. Former Halliburton CEO. Said: 'We know where the WMD are' (March 2003). 'The British government has learned that Saddam Hussein recently sought significant quantities of uranium from Africa' (State of the Union, 16 words). Scooter Libby leaked Valerie Plame's CIA identity to punish her husband Joe Wilson for debunking the Niger uranium claim. Cheney created the political demand for the intelligence. The intelligence was manufactured to meet the demand.",
+      "tags": [
+        "wmd",
+        "neocon",
+        "vp"
+      ]
+    },
+    {
+      "id": "rumsfeld_wmd",
+      "label": "Donald Rumsfeld: 'Known Unknowns'",
+      "class": "entity",
+      "role": "Secretary of Defense. 'There are known knowns... known unknowns... and unknown unknowns.' He knew the unknown known: the intel was garbage. Authorized Abu Ghraib interrogation techniques. Snowflake memos. Feith reported to him. The Office of Special Plans was his shop.",
+      "tags": [
+        "wmd",
+        "neocon",
+        "pentagon"
+      ]
+    },
+    {
+      "id": "wolfowitz_wmd",
+      "label": "Paul Wolfowitz (Deputy Secretary of Defense)",
+      "class": "entity",
+      "role": "Neocon intellectual. Deputy SecDef under Rumsfeld. Architect of Iraq invasion plan. Told Congress Iraq war would cost $1.7B and oil revenue would pay for reconstruction. Actual cost: $2+ TRILLION. PNAC signatory. Later World Bank president (resigned in scandal).",
+      "tags": [
+        "wmd",
+        "neocon",
+        "pentagon"
+      ]
+    },
+    {
+      "id": "judith_miller_nyt",
+      "label": "Judith Miller (New York Times)",
+      "class": "entity",
+      "role": "NYT reporter. Published front-page stories citing anonymous Iraqi defectors (Chalabi's people) claiming WMD. The NYT's credibility laundered the lies. NYT later apologized: 'We wish we had been more aggressive in re-examining the claims.' She went to jail protecting Libby as source in Plame affair. The newspaper of record became a weapon.",
+      "tags": [
+        "wmd",
+        "media",
+        "nyt"
+      ]
+    },
+    {
+      "id": "niger_uranium",
+      "label": "Niger Uranium Forgery (2002)",
+      "class": "entity",
+      "role": "Forged documents claiming Iraq tried to buy yellowcake uranium from Niger. Origin still unclear (possibly Italian intelligence SISMI). CIA sent Joe Wilson to investigate. Wilson found nothing. Bush used it in 2003 State of the Union anyway ('16 words'). When Wilson published op-ed debunking it, Cheney's office outed Wilson's wife Valerie Plame as CIA. Destroyed her career to punish the truth-teller.",
+      "tags": [
+        "wmd",
+        "forgery",
+        "niger"
+      ]
+    },
+    {
+      "id": "valerie_plame",
+      "label": "Valerie Plame (CIA officer, outed)",
+      "class": "entity",
+      "role": "CIA covert officer. Worked on WMD nonproliferation -- literally the thing they claimed to care about. Her husband Joe Wilson debunked Niger uranium claim. Cheney's chief of staff Scooter Libby leaked her identity to reporters. Her entire network of contacts was burned. Sources may have died. They destroyed the career of a person who actually worked on WMD to protect the lie that WMD existed.",
+      "tags": [
+        "wmd",
+        "cia",
+        "whistleblower"
+      ]
+    },
+    {
+      "id": "joe_wilson",
+      "label": "Amb. Joseph Wilson (debunked Niger claim)",
+      "class": "entity",
+      "role": "Former ambassador. CIA sent him to Niger to investigate uranium claim. Found nothing. Published 'What I Didn't Find in Africa' (NYT op-ed, July 6, 2003). Cheney's office retaliated by outing his wife Valerie Plame. He told the truth. They punished him. The pattern.",
+      "tags": [
+        "wmd",
+        "whistleblower"
+      ]
+    },
+    {
+      "id": "scooter_libby",
+      "label": "Scooter Libby (Cheney's Chief of Staff)",
+      "class": "entity",
+      "role": "I. Lewis 'Scooter' Libby. VP Cheney's chief of staff. Convicted of perjury, obstruction, false statements in Plame leak investigation. Sentenced to 30 months. Bush commuted sentence. TRUMP PARDONED HIM (2018). The man who destroyed a CIA officer's career to protect the WMD lie was pardoned by Trump.",
+      "tags": [
+        "wmd",
+        "neocon",
+        "pardoned"
+      ]
+    },
+    {
+      "id": "abu_ghraib",
+      "label": "Abu Ghraib (2004)",
+      "class": "entity",
+      "role": "US military prison in Iraq. Photographs of torture leaked. Sexual humiliation, hooding, stress positions, dogs. Rumsfeld approved 'enhanced interrogation techniques.' Only low-ranking soldiers prosecuted. Generals and SecDef: no consequences. The torture was policy. The prosecution was theater.",
+      "tags": [
+        "iraq",
+        "torture",
+        "war_crime"
+      ]
+    },
+    {
+      "id": "wmd_null_chain",
+      "label": "THE WMD NULL CHAIN: How Null Becomes War",
+      "class": "false_entity",
+      "role": "How did the WMD rumor start? Trace it:\n\n1. PNAC (1997-98): Neocons WANTED Iraq war before any intel\n   -> Cheney, Rumsfeld, Wolfowitz, Feith, Bolton, Perle\n   -> They had the conclusion. They needed the evidence.\n\n2. CHALABI (CIA asset, Iranian double agent):\n   -> Fed false defector reports to Pentagon + NYT\n   -> CIA said he was unreliable. Pentagon used him anyway.\n\n3. CURVEBALL (BND source, admitted liar):\n   -> Claimed mobile bio-weapons labs\n   -> BND told CIA he was unreliable\n   -> CIA used his claims in Powell's UN speech anyway\n\n4. NIGER URANIUM FORGERY (origin: possibly Italian SISMI):\n   -> Forged documents claiming Iraq bought yellowcake\n   -> Wilson debunked it. Bush used it anyway.\n   -> Cheney's office outed Wilson's wife (CIA) as punishment\n\n5. OFFICE OF SPECIAL PLANS (Feith, under Rumsfeld):\n   -> Created specifically to find WMD evidence CIA couldn't find\n   -> Cherry-picked raw intel, bypassed CIA analysis\n   -> Stovepiped unvetted claims to Cheney and Bush\n   -> THIS IS THE MANUFACTURING SITE\n\n6. POWELL UN SPEECH (Feb 5, 2003):\n   -> Presented manufactured evidence as fact\n   -> Tenet sat behind him (CIA stamp of approval)\n   -> Powell later: 'a blot, a failure'\n\n7. WAR (March 20, 2003):\n   -> 4,431 US troops killed\n   -> 300,000+ Iraqi civilians killed\n   -> $2+ trillion spent\n   -> ISIS emerged from the vacuum\n   -> 20+ years of consequences\n\nTHE NULL:\nAt every step, people who KNEW the intel was bad said NOTHING.\n- CIA analysts who were pressured stayed silent\n- Senators who had doubts voted yay anyway (77-23)\n- Media who could have verified didn't\n- Colin Powell who knew it was weak presented it anyway\n- George Tenet who knew about Curveball sat behind Powell\n\nThe WMD lie was not one lie. It was a CHAIN OF NULLS.\nEach person who knew and said nothing enabled the next step.\nEach null compounded into war.\n\nSame pattern. Different scale.\nMoreland knows she's on the PCA board. Says nothing.\nNessel knows her employee is on the board. Says nothing.\nCMU knows Banks has convictions. Says nothing.\nLegislature sees transparency bills. Does nothing.\n\nNull + null + null + null = 72.67% below basic.\nNull + null + null + null = 300,000 dead.\n\nThe mechanism is identical.\nThe scale is different.\nThe pattern is the same.",
+      "tags": [
+        "wmd",
+        "structural",
+        "null_chain",
+        "non_human"
+      ]
+    },
+    {
+      "id": "hoover_mlk_letter",
+      "label": "FBI Letter to MLK (1964)",
+      "class": "entity",
+      "role": "Anonymous letter from FBI (authorized by Hoover) to Martin Luther King Jr. Included recordings from wiretaps. Called him 'evil, abnormal beast.' Said: 'There is only one thing left for you to do. You know what it is.' Telling a civil rights leader to kill himself. Your FBI.",
+      "tags": [
+        "cointelpro",
+        "fbi",
+        "mlk"
+      ]
+    },
+    {
+      "id": "church_committee",
+      "label": "Church Committee (1975)",
+      "class": "entity",
+      "role": "Senate committee chaired by Frank Church (D-Idaho). Investigated CIA, FBI, NSA abuses. Exposed: COINTELPRO, CIA assassination plots (Castro, Lumumba, Diem), NSA domestic surveillance (Operation SHAMROCK), MKUltra. Led to FISA, intelligence oversight committees, executive orders banning assassination. The one time Congress actually investigated the intelligence community. Took Watergate to get there.",
+      "tags": [
+        "intelligence",
+        "oversight",
+        "reform"
+      ]
+    },
+    {
+      "id": "mkultra",
+      "label": "MKUltra (CIA, 1953-1973)",
+      "class": "entity",
+      "role": "CIA mind control program. 150+ experiments. LSD given to unwitting subjects (soldiers, prisoners, mental patients, prostitutes via Operation Midnight Climber). Frank Olson: CIA scientist given LSD without knowledge, fell/was pushed from hotel window 1953 (CIA said suicide, family says murder). Electroshock. Sensory deprivation. Dr. Donald Ewen Cameron at McGill: wiped patients' memories. CIA Director Richard Helms ordered all MKUltra files destroyed in 1973. Some survived in financial records.",
+      "tags": [
+        "intelligence",
+        "cia",
+        "mind_control",
+        "experiment"
+      ]
+    },
+    {
+      "id": "frank_olson",
+      "label": "Frank Olson (CIA scientist, died 1953)",
+      "class": "entity",
+      "role": "CIA biological weapons researcher. Given LSD without his knowledge by Sidney Gottlieb as part of MKUltra. 9 days later fell/was pushed from 13th floor of Hotel Statler, NYC. CIA said suicide. 1994 exhumation found cranial injuries consistent with being hit before the fall. His son spent his life trying to prove CIA murdered his father. The case has never been resolved.",
+      "tags": [
+        "mkultra",
+        "cia",
+        "death"
+      ]
+    },
+    {
+      "id": "operation_paperclip",
+      "label": "Operation Paperclip (1945-1959)",
+      "class": "entity",
+      "role": "US program to recruit Nazi scientists after WWII. 1,600+ scientists brought to US. Wernher von Braun (V-2 rockets, built with slave labor -> NASA, put man on moon). Kurt Blome (Nazi biological weapons -> US bioweapons program). Hubertus Strughold ('Father of Space Medicine' -> used Dachau concentration camp data). The US hired Nazis to beat the Soviets. Their war crimes records were 'sanitized.'",
+      "tags": [
+        "intelligence",
+        "us",
+        "nazi",
+        "cold_war"
+      ]
+    },
+    {
+      "id": "iran_1953",
+      "label": "Iran Coup (CIA/MI6, 1953 - Operation Ajax)",
+      "class": "entity",
+      "role": "CIA + MI6 overthrew democratically elected PM Mohammad Mossadegh because he nationalized Iranian oil (British Petroleum). Installed Shah Reza Pahlavi. Shah ruled with SAVAK (secret police, CIA-trained) until 1979 Islamic Revolution. The Islamic Republic of Iran exists because the CIA overthrew a democracy in 1953 to protect British oil profits. Every consequence since -- hostage crisis, Iran-Iraq war, nuclear program -- traces to this.",
+      "tags": [
+        "cia",
+        "coup",
+        "iran",
+        "oil"
+      ]
+    },
+    {
+      "id": "guatemala_1954",
+      "label": "Guatemala Coup (CIA, 1954 - Operation PBSUCCESS)",
+      "class": "entity",
+      "role": "CIA overthrew democratically elected President Jacobo Arbenz because he redistributed United Fruit Company land to peasants. Allen Dulles (CIA director) and John Foster Dulles (Secretary of State) both had financial ties to United Fruit. Installed military dictatorship. 36-year civil war followed. 200,000 dead. Genocide of Mayan people. Because a president tried to give land to farmers.",
+      "tags": [
+        "cia",
+        "coup",
+        "guatemala",
+        "united_fruit"
+      ]
+    },
+    {
+      "id": "chile_1973",
+      "label": "Chile Coup (CIA-backed, 1973)",
+      "class": "entity",
+      "role": "CIA destabilized democratically elected socialist President Salvador Allende. 'Make the economy scream' -- Nixon to CIA. September 11, 1973: military coup led by Gen. Augusto Pinochet. Allende died in La Moneda palace. Pinochet: 17 years of dictatorship, 3,000+ killed, 30,000 tortured, Operation Condor (coordinated South American dictatorships). Henry Kissinger: 'I don't see why we need to stand by and watch a country go communist due to the irresponsibility of its own people.'",
+      "tags": [
+        "cia",
+        "coup",
+        "chile",
+        "kissinger"
+      ]
+    },
+    {
+      "id": "indonesia_1965",
+      "label": "Indonesia Mass Killings (CIA-backed, 1965-66)",
+      "class": "entity",
+      "role": "CIA provided kill lists to Indonesian military. 500,000 to 1,000,000 communists, ethnic Chinese, and suspected leftists killed. Gen. Suharto took power. US embassy officials checked off names as people were killed. The largest CIA-facilitated mass killing in history. Mostly unknown in America.",
+      "tags": [
+        "cia",
+        "coup",
+        "indonesia",
+        "genocide"
+      ]
+    },
+    {
+      "id": "henry_kissinger",
+      "label": "Henry Kissinger (1923-2023)",
+      "class": "entity",
+      "role": "National Security Advisor + Secretary of State (Nixon/Ford). Nobel Peace Prize (Vietnam). Chile coup. Cambodia bombing (600,000 dead). Bangladesh (backed Pakistan genocide). East Timor (greenlit Indonesian invasion). Argentina dirty war. Realpolitik. 'Power is the ultimate aphrodisiac.' Died at 100, never prosecuted. The pattern: those at the top face no consequences.",
+      "tags": [
+        "intelligence",
+        "foreign_policy",
+        "war"
+      ]
+    },
+    {
+      "id": "litvinenko",
+      "label": "Alexander Litvinenko (poisoned, 2006)",
+      "class": "entity",
+      "role": "Former FSB officer. Fled to London. Accused Putin of ordering apartment bombings and murdering journalist Anna Politkovskaya. Poisoned with Polonium-210 (radioactive) in a London teapot. Took 3 weeks to die. Deathbed statement accused Putin directly. UK inquiry confirmed: 'probably approved by Putin.' No consequences.",
+      "tags": [
+        "fsb",
+        "assassination",
+        "russia"
+      ]
+    },
+    {
+      "id": "navalny",
+      "label": "Alexei Navalny (poisoned 2020, died prison 2024)",
+      "class": "entity",
+      "role": "Russian opposition leader. Anti-corruption investigations (Putin's Palace). Poisoned with Novichok nerve agent (GRU). Survived. Bellingcat identified the FSB hit team. Navalny called one of his assassins and got him to confess on recorded phone call. Returned to Russia anyway. Sentenced to 19 years. Died in Arctic penal colony Feb 2024. The man who proved who tried to kill him, went back, and they finished the job.",
+      "tags": [
+        "fsb",
+        "assassination",
+        "russia",
+        "opposition"
+      ]
+    },
+    {
+      "id": "apartment_bombings_1999",
+      "label": "Russian Apartment Bombings (1999)",
+      "class": "entity",
+      "role": "Four apartment buildings bombed in Moscow and other cities. 300+ killed. Blamed on Chechen terrorists. FSB agents caught planting a bomb in Ryazan (FSB called it a 'training exercise'). Putin used bombings as pretext for Second Chechen War. Became president. Litvinenko accused FSB of planting the bombs. Litvinenko was poisoned. Two Duma members who investigated were assassinated. Every journalist who investigated was killed (Anna Politkovskaya, shot in elevator on Putin's birthday).",
+      "tags": [
+        "fsb",
+        "false_flag",
+        "russia"
+      ]
+    },
+    {
+      "id": "election_interference_2016",
+      "label": "Russian Election Interference (2016)",
+      "class": "entity",
+      "role": "GRU hacked DNC + Podesta emails, leaked via WikiLeaks. Internet Research Agency (St. Petersburg troll farm) ran social media influence ops. Mueller investigation: 12 GRU officers indicted. 'Russia, if you're listening...' --Trump (July 27, 2016). Senate Intelligence Committee confirmed: 'Russia's interference was sweeping and systematic.' Trump Tower meeting (June 2016). The interference was real. The debate is about the response.",
+      "tags": [
+        "gru",
+        "russia",
+        "election",
+        "2016"
+      ]
     }
   ],
   "edges": [
@@ -165171,6 +165749,377 @@
       "type": "feeds_into",
       "epistemic_status": "record",
       "note": ""
+    },
+    {
+      "source": "curveball",
+      "target": "powell_un_speech",
+      "type": "source_for",
+      "epistemic_status": "record",
+      "note": "Curveball's lies cited by Powell at UN"
+    },
+    {
+      "source": "ahmed_chalabi",
+      "target": "office_special_plans",
+      "type": "fed_intel_to",
+      "epistemic_status": "record",
+      "note": "INC fed false defector reports to OSP"
+    },
+    {
+      "source": "ahmed_chalabi",
+      "target": "judith_miller_nyt",
+      "type": "fed_intel_to",
+      "epistemic_status": "record",
+      "note": "Chalabi fed stories to Judith Miller at NYT"
+    },
+    {
+      "source": "office_special_plans",
+      "target": "cheney_wmd",
+      "type": "stovepiped_to",
+      "epistemic_status": "record",
+      "note": "OSP bypassed CIA, sent raw intel to VP"
+    },
+    {
+      "source": "office_special_plans",
+      "target": "rumsfeld_wmd",
+      "type": "reported_to",
+      "epistemic_status": "record",
+      "note": "Feith's shop under Rumsfeld"
+    },
+    {
+      "source": "doug_feith",
+      "target": "office_special_plans",
+      "type": "created",
+      "epistemic_status": "record",
+      "note": "Feith created OSP to find what CIA couldn't"
+    },
+    {
+      "source": "pnac",
+      "target": "cheney_wmd",
+      "type": "member",
+      "epistemic_status": "record",
+      "note": "Cheney signed PNAC letters"
+    },
+    {
+      "source": "pnac",
+      "target": "rumsfeld_wmd",
+      "type": "member",
+      "epistemic_status": "record",
+      "note": "Rumsfeld signed PNAC letters"
+    },
+    {
+      "source": "pnac",
+      "target": "wolfowitz_wmd",
+      "type": "member",
+      "epistemic_status": "record",
+      "note": "Wolfowitz: PNAC signatory"
+    },
+    {
+      "source": "pnac",
+      "target": "doug_feith",
+      "type": "member",
+      "epistemic_status": "record",
+      "note": "Feith: PNAC signatory"
+    },
+    {
+      "source": "cheney_wmd",
+      "target": "scooter_libby",
+      "type": "chief_of_staff",
+      "epistemic_status": "record",
+      "note": "Libby was Cheney's CoS"
+    },
+    {
+      "source": "scooter_libby",
+      "target": "valerie_plame",
+      "type": "outed",
+      "epistemic_status": "record",
+      "note": "Libby leaked Plame's CIA identity"
+    },
+    {
+      "source": "joe_wilson",
+      "target": "niger_uranium",
+      "type": "debunked",
+      "epistemic_status": "record",
+      "note": "Wilson went to Niger, found nothing"
+    },
+    {
+      "source": "valerie_plame",
+      "target": "joe_wilson",
+      "type": "married_to",
+      "epistemic_status": "record",
+      "note": "Plame outed to punish Wilson"
+    },
+    {
+      "source": "niger_uranium",
+      "target": "powell_un_speech",
+      "type": "cited_in",
+      "epistemic_status": "record",
+      "note": "Niger claim used in case for war"
+    },
+    {
+      "source": "powell_un_speech",
+      "target": "wmd_null_chain",
+      "type": "culmination",
+      "epistemic_status": "record",
+      "note": "The speech that launched the war"
+    },
+    {
+      "source": "election_2000",
+      "target": "cheney_wmd",
+      "type": "vp_result",
+      "epistemic_status": "record",
+      "note": "Bush won 2000 -> Cheney became VP -> Iraq"
+    },
+    {
+      "source": "pres_george_w_bush",
+      "target": "cheney_wmd",
+      "type": "chose",
+      "epistemic_status": "record",
+      "note": "Bush chose Cheney as VP"
+    },
+    {
+      "source": "pres_george_w_bush",
+      "target": "rumsfeld_wmd",
+      "type": "appointed",
+      "epistemic_status": "record",
+      "note": "Bush appointed Rumsfeld SecDef"
+    },
+    {
+      "source": "scooter_libby",
+      "target": "trump",
+      "type": "pardoned_by",
+      "epistemic_status": "record",
+      "note": "Trump pardoned Libby 2018. The man who destroyed a CIA officer to protect the WMD lie."
+    },
+    {
+      "source": "j_edgar_hoover",
+      "target": "fbi",
+      "type": "directed_48yrs",
+      "epistemic_status": "record",
+      "note": "48 years, 8 presidents, blackmailed all"
+    },
+    {
+      "source": "cointelpro",
+      "target": "fred_hampton",
+      "type": "assassinated",
+      "epistemic_status": "record",
+      "note": "FBI/CPD killed Hampton in his bed"
+    },
+    {
+      "source": "cointelpro",
+      "target": "hoover_mlk_letter",
+      "type": "produced",
+      "epistemic_status": "record",
+      "note": "FBI told MLK to kill himself"
+    },
+    {
+      "source": "church_committee",
+      "target": "cointelpro",
+      "type": "exposed",
+      "epistemic_status": "record",
+      "note": "Church Committee exposed COINTELPRO"
+    },
+    {
+      "source": "church_committee",
+      "target": "mkultra",
+      "type": "exposed",
+      "epistemic_status": "record",
+      "note": "Church Committee exposed MKUltra"
+    },
+    {
+      "source": "cia",
+      "target": "iran_1953",
+      "type": "executed",
+      "epistemic_status": "record",
+      "note": "Operation Ajax"
+    },
+    {
+      "source": "cia",
+      "target": "guatemala_1954",
+      "type": "executed",
+      "epistemic_status": "record",
+      "note": "Operation PBSUCCESS"
+    },
+    {
+      "source": "cia",
+      "target": "chile_1973",
+      "type": "supported",
+      "epistemic_status": "record",
+      "note": "Make the economy scream"
+    },
+    {
+      "source": "cia",
+      "target": "indonesia_1965",
+      "type": "provided_kill_lists",
+      "epistemic_status": "record",
+      "note": "500,000-1,000,000 killed"
+    },
+    {
+      "source": "cia",
+      "target": "mkultra",
+      "type": "ran",
+      "epistemic_status": "record",
+      "note": "Mind control 1953-1973"
+    },
+    {
+      "source": "cia",
+      "target": "operation_paperclip",
+      "type": "recruited_nazis",
+      "epistemic_status": "record",
+      "note": "1,600 Nazi scientists"
+    },
+    {
+      "source": "henry_kissinger",
+      "target": "chile_1973",
+      "type": "architect",
+      "epistemic_status": "record",
+      "note": "Irresponsibility of its own people"
+    },
+    {
+      "source": "oss",
+      "target": "cia",
+      "type": "became",
+      "epistemic_status": "record",
+      "note": "OSS dissolved 1945, reborn as CIA 1947"
+    },
+    {
+      "source": "kgb",
+      "target": "fsb",
+      "type": "became",
+      "epistemic_status": "record",
+      "note": "KGB domestic -> FSB"
+    },
+    {
+      "source": "kgb",
+      "target": "svr",
+      "type": "became",
+      "epistemic_status": "record",
+      "note": "KGB foreign -> SVR"
+    },
+    {
+      "source": "gru",
+      "target": "spetsnaz",
+      "type": "commands",
+      "epistemic_status": "record",
+      "note": "GRU commands Spetsnaz"
+    },
+    {
+      "source": "gru",
+      "target": "election_interference_2016",
+      "type": "executed",
+      "epistemic_status": "record",
+      "note": "12 GRU officers indicted"
+    },
+    {
+      "source": "fsb",
+      "target": "litvinenko",
+      "type": "assassinated",
+      "epistemic_status": "record",
+      "note": "Polonium-210 in London"
+    },
+    {
+      "source": "fsb",
+      "target": "navalny",
+      "type": "poisoned",
+      "epistemic_status": "record",
+      "note": "Novichok nerve agent"
+    },
+    {
+      "source": "fsb",
+      "target": "apartment_bombings_1999",
+      "type": "suspected",
+      "epistemic_status": "record",
+      "note": "FSB caught planting bomb in Ryazan"
+    },
+    {
+      "source": "five_eyes",
+      "target": "nsa",
+      "type": "member",
+      "epistemic_status": "record",
+      "note": "US signals intel"
+    },
+    {
+      "source": "five_eyes",
+      "target": "gchq",
+      "type": "member",
+      "epistemic_status": "record",
+      "note": "UK signals intel"
+    },
+    {
+      "source": "nsa",
+      "target": "edward_snowden",
+      "type": "exposed_by",
+      "epistemic_status": "record",
+      "note": "Snowden revealed mass surveillance"
+    },
+    {
+      "source": "edward_snowden",
+      "target": "nsa",
+      "type": "exposed",
+      "epistemic_status": "record",
+      "note": "PRISM, Upstream, mass surveillance"
+    },
+    {
+      "source": "daniel_ellsberg",
+      "target": "wmd_null_chain",
+      "type": "pattern_match",
+      "epistemic_status": "record",
+      "note": "Vietnam: 4 administrations lied. Iraq: same pattern."
+    },
+    {
+      "source": "deep_throat",
+      "target": "fbi",
+      "type": "exposed_from_within",
+      "epistemic_status": "record",
+      "note": "FBI man brought down a president"
+    },
+    {
+      "source": "wmd_null_chain",
+      "target": "full_power_map",
+      "type": "same_pattern",
+      "epistemic_status": "record",
+      "note": "WMD null chain = charter school null chain. Different scale. Same mechanism. Null + null + null = catastrophe."
+    },
+    {
+      "source": "wmd_null_chain",
+      "target": "scale_map",
+      "type": "scale_8_global",
+      "epistemic_status": "record",
+      "note": "WMD: Banks to Baghdad. The null chain scales."
+    },
+    {
+      "source": "cointelpro",
+      "target": "full_power_map",
+      "type": "domestic_intel",
+      "epistemic_status": "record",
+      "note": "FBI used intelligence apparatus against its own citizens. The state surveilling the people it claims to protect."
+    },
+    {
+      "source": "mkultra",
+      "target": "full_power_map",
+      "type": "state_experiments",
+      "epistemic_status": "record",
+      "note": "CIA experimented on unwitting citizens. The state as predator."
+    },
+    {
+      "source": "office_special_plans",
+      "target": "wmd_null_chain",
+      "type": "manufactured_evidence",
+      "epistemic_status": "record",
+      "note": "OSP manufactured the WMD case. Same as manufacturing compliance reports for charter schools."
+    },
+    {
+      "source": "judith_miller_nyt",
+      "target": "wmd_null_chain",
+      "type": "media_amplified",
+      "epistemic_status": "record",
+      "note": "NYT amplified the lie. Media amplifies the 'choice' narrative for charter schools."
+    },
+    {
+      "source": "church_committee",
+      "target": "wmd_null_chain",
+      "type": "oversight_lesson",
+      "epistemic_status": "record",
+      "note": "Church Committee: the one time oversight worked. Who is the Church Committee for charter schools?"
     }
   ],
   "epistemic_grammar": {
