@@ -65150,6 +65150,301 @@
         "structural",
         "non_human"
       ]
+    },
+    {
+      "id": "bernhard_riemann",
+      "label": "Bernhard Riemann (1826-1866)",
+      "class": "entity",
+      "role": "German mathematician. Riemannian geometry (curved space = foundation of general relativity). Riemann Hypothesis (1859): the most important unsolved problem in mathematics. Zeta function. Complex analysis. Died at 39. In 40 years of life he redefined geometry, gave Einstein the math for spacetime, and posed a question we still can't answer 167 years later.",
+      "tags": [
+        "math",
+        "giant",
+        "riemann"
+      ]
+    },
+    {
+      "id": "carl_gauss",
+      "label": "Carl Friedrich Gauss (1777-1855)",
+      "class": "entity",
+      "role": "Princeps mathematicorum. Number theory, algebra, statistics, analysis, differential geometry, geodesy, geophysics, mechanics, electrostatics, astronomy, optics. Normal distribution (bell curve). Fundamental theorem of algebra. Proved things as a teenager that professors couldn't. Riemann was his student. The prince of mathematics taught the king of geometry.",
+      "tags": [
+        "math",
+        "giant"
+      ]
+    },
+    {
+      "id": "emmy_noether",
+      "label": "Emmy Noether (1882-1935)",
+      "class": "entity",
+      "role": "German mathematician. Noether's theorem: every symmetry in physics corresponds to a conservation law. Energy conservation = time symmetry. Momentum conservation = space symmetry. Einstein called her 'the most significant creative mathematical genius thus far produced since the higher education of women began.' Fled Nazi Germany to Bryn Mawr. Died at 53. Abstract algebra. Ring theory. The woman who proved WHY physics works.",
+      "tags": [
+        "math",
+        "giant",
+        "yes_signal"
+      ]
+    },
+    {
+      "id": "srinivasa_ramanujan",
+      "label": "Srinivasa Ramanujan (1887-1920)",
+      "class": "entity",
+      "role": "Self-taught Indian mathematician. Grew up poor in Tamil Nadu. No formal training. Wrote letter to G.H. Hardy at Cambridge (1913) with theorems so extraordinary Hardy thought it was a prank. Came to England. Produced 3,900 results, nearly all original. Mock theta functions. Partition function. Died at 32. His notebooks are STILL being mined for new mathematics 100+ years later. The man who heard the numbers.",
+      "tags": [
+        "math",
+        "giant",
+        "yes_signal"
+      ]
+    },
+    {
+      "id": "gh_hardy",
+      "label": "G.H. Hardy (1877-1947)",
+      "class": "entity",
+      "role": "British mathematician. Recognized Ramanujan's genius from one letter. Brought him to Cambridge. Their collaboration = one of the greatest in math history. 'A Mathematician's Apology': pure math has no practical value (he was wrong -- his work on number theory underlies cryptography). Hardy-Weinberg principle. Hardy-Ramanujan number (1729: smallest number expressible as sum of two cubes in two ways).",
+      "tags": [
+        "math",
+        "giant"
+      ]
+    },
+    {
+      "id": "alexander_grothendieck",
+      "label": "Alexander Grothendieck (1928-2014)",
+      "class": "entity",
+      "role": "Stateless (born in Berlin, parents fled Nazis). Rebuilt algebraic geometry from scratch. Created scheme theory, topos theory, etale cohomology. Solved 14 of the problems on his own list. Won Fields Medal (1966). Then QUIT mathematics to protest military funding of research. Became recluse. Lived as a hermit in the Pyrenees for 23 years. The greatest mathematician of the 20th century walked away from it on principle. YES signal.",
+      "tags": [
+        "math",
+        "giant",
+        "yes_signal"
+      ]
+    },
+    {
+      "id": "john_von_neumann",
+      "label": "John von Neumann (1903-1957)",
+      "class": "entity",
+      "role": "Hungarian-American. Game theory. Quantum mechanics (mathematical foundations). Manhattan Project. Von Neumann architecture (how every computer works). Set theory. Cellular automata. Self-replicating machines. Could multiply 8-digit numbers in his head. Eidetic memory. Helped build the bomb AND the computer. The smartest person many geniuses ever met.",
+      "tags": [
+        "math",
+        "giant"
+      ]
+    },
+    {
+      "id": "david_hilbert",
+      "label": "David Hilbert (1862-1943)",
+      "class": "entity",
+      "role": "German mathematician. 23 Hilbert Problems (1900): set the agenda for 20th century mathematics. Hilbert spaces (quantum mechanics). Formalism. 'We must know, we shall know.' Godel proved him wrong (incompleteness). When the Nazis purged Jewish mathematicians from Gottingen, a Nazi official asked Hilbert how mathematics was doing. 'Mathematics in Gottingen? There is really none anymore.'",
+      "tags": [
+        "math",
+        "giant"
+      ]
+    },
+    {
+      "id": "terence_tao",
+      "label": "Terence Tao (1975-)",
+      "class": "entity",
+      "role": "Australian-American. 'The Mozart of Math.' Fields Medal (2006). Youngest person to compete in International Math Olympiad (age 10, won gold at 13). Green-Tao theorem (arithmetic progressions in primes). Compressed sensing. Works on everything. Blogs about it. Open. Collaborative. The anti-Grothendieck: stays engaged with the world.",
+      "tags": [
+        "math",
+        "giant",
+        "yes_signal"
+      ]
+    },
+    {
+      "id": "millennium_problems",
+      "label": "Millennium Prize Problems (Clay Mathematics Institute, 2000)",
+      "class": "false_entity",
+      "role": "7 problems. $1 million each. Set in 2000. As of 2026, only ONE solved (Poincare Conjecture by Perelman, who refused the money). The deepest unsolved questions in mathematics. Each one would reshape our understanding of reality.",
+      "tags": [
+        "math",
+        "millennium",
+        "unsolved",
+        "non_human"
+      ]
+    },
+    {
+      "id": "p_vs_np",
+      "label": "P vs NP (unsolved)",
+      "class": "entity",
+      "role": "Can every problem whose solution can be quickly VERIFIED also be quickly SOLVED? If P=NP: every puzzle with a checkable answer has a fast solution. Cryptography breaks. Optimization becomes trivial. Protein folding solved. If P!=NP: some problems are fundamentally hard. Most mathematicians believe P!=NP but nobody can prove it. $1M prize. The question: is the universe fundamentally hard or fundamentally easy?",
+      "tags": [
+        "math",
+        "millennium",
+        "unsolved",
+        "computation"
+      ]
+    },
+    {
+      "id": "navier_stokes",
+      "label": "Navier-Stokes Existence and Smoothness (unsolved)",
+      "class": "entity",
+      "role": "Do smooth solutions always exist for the Navier-Stokes equations (fluid dynamics)? We use these equations to model weather, ocean currents, blood flow, aerodynamics. They WORK in practice. But we cannot PROVE they always have well-behaved solutions. We fly planes using equations we can't fully prove are correct. $1M prize.",
+      "tags": [
+        "math",
+        "millennium",
+        "unsolved",
+        "physics"
+      ]
+    },
+    {
+      "id": "hodge_conjecture",
+      "label": "Hodge Conjecture (unsolved)",
+      "class": "entity",
+      "role": "On algebraic geometry and topology. Certain classes of cohomology on non-singular projective algebraic varieties are combinations of classes of algebraic subvarieties. If you don't understand that sentence, welcome to the club -- most mathematicians find it hard to even state precisely. $1M prize.",
+      "tags": [
+        "math",
+        "millennium",
+        "unsolved",
+        "geometry"
+      ]
+    },
+    {
+      "id": "yang_mills",
+      "label": "Yang-Mills Existence and Mass Gap (unsolved)",
+      "class": "entity",
+      "role": "Prove that quantum Yang-Mills theory exists mathematically and has a 'mass gap' (lowest energy state above vacuum). Yang-Mills theory is the foundation of the Standard Model of particle physics. We use it. It works. We can't prove WHY it works. The math underlying all of particle physics has no rigorous foundation. $1M prize.",
+      "tags": [
+        "math",
+        "millennium",
+        "unsolved",
+        "physics"
+      ]
+    },
+    {
+      "id": "birch_swinnerton_dyer",
+      "label": "Birch and Swinnerton-Dyer Conjecture (unsolved)",
+      "class": "entity",
+      "role": "About elliptic curves and their rational points. The rank of an elliptic curve equals the order of the zero of its L-function at s=1. Connects number theory, algebraic geometry, and analysis. Would explain the structure of rational solutions to cubic equations. $1M prize.",
+      "tags": [
+        "math",
+        "millennium",
+        "unsolved",
+        "number_theory"
+      ]
+    },
+    {
+      "id": "poincare_conjecture",
+      "label": "Poincare Conjecture (SOLVED, 2003)",
+      "class": "entity",
+      "role": "Every simply connected, closed 3-manifold is homeomorphic to the 3-sphere. Posed by Poincare (1904). Solved by Grigori Perelman (2003) using Ricci flow. Perelman REFUSED the $1M prize. Refused the Fields Medal. Said: 'I'm not interested in money or fame.' Lives with his mother in St. Petersburg. The man who solved a 100-year problem and wanted nothing. YES signal.",
+      "tags": [
+        "math",
+        "millennium",
+        "solved",
+        "topology"
+      ]
+    },
+    {
+      "id": "grigori_perelman",
+      "label": "Grigori Perelman (1966-)",
+      "class": "entity",
+      "role": "Russian mathematician. Solved the Poincare Conjecture (2003). Refused the $1M Clay Prize. Refused the Fields Medal. Quit mathematics. Said the math community was 'not honest.' Lives with his mother. Unemployed. The greatest mathematical achievement of the 21st century, and he gave it away. Because the institution wasn't worthy of the work. Grothendieck walked away from power. Perelman walked away from a million dollars. attsi energy.",
+      "tags": [
+        "math",
+        "giant",
+        "yes_signal"
+      ]
+    },
+    {
+      "id": "collatz_conjecture",
+      "label": "Collatz Conjecture (1937, unsolved)",
+      "class": "entity",
+      "role": "Take any positive integer. If even, divide by 2. If odd, multiply by 3 and add 1. Repeat. Conjecture: you always reach 1. Checked for all numbers up to 2^68. Nobody can prove it. Erdos said 'Mathematics is not yet ready for such problems.' The simplest unsolved problem in mathematics. A child can understand it. No one can solve it.",
+      "tags": [
+        "math",
+        "unsolved"
+      ]
+    },
+    {
+      "id": "twin_prime",
+      "label": "Twin Prime Conjecture (unsolved)",
+      "class": "entity",
+      "role": "Are there infinitely many pairs of primes that differ by 2? (3,5), (5,7), (11,13), (17,19)... Yitang Zhang (2013) proved there are infinitely many pairs within 70,000,000. James Maynard and Tao's Polymath project reduced gap to 246. But 2 remains unproved. A janitor (Zhang) at Subway made the breakthrough. The inside who does the work.",
+      "tags": [
+        "math",
+        "unsolved"
+      ]
+    },
+    {
+      "id": "abc_conjecture",
+      "label": "ABC Conjecture (1985, disputed)",
+      "class": "entity",
+      "role": "About the relationship between addition and multiplication of integers. Shinichi Mochizuki claimed proof (2012) using 'Inter-universal Teichmuller theory' -- 500 pages that almost no one can understand. Published in his own journal (2021). Most mathematicians remain unconvinced. Peter Scholze and Jakob Stix found what they call a gap. Mochizuki says they're wrong. The conjecture may be proved but nobody can verify it. The limits of peer review.",
+      "tags": [
+        "math",
+        "unsolved",
+        "disputed"
+      ]
+    },
+    {
+      "id": "goldbach_conjecture",
+      "label": "Goldbach's Conjecture (1742, unsolved)",
+      "class": "entity",
+      "role": "Every even integer greater than 2 is the sum of two primes. 4=2+2. 6=3+3. 8=3+5. 10=3+7. Checked up to 4x10^18. No counterexample found. Cannot be proved. 284 years old. Euler said: 'I regard this as a completely certain theorem, although I cannot prove it.' Sometimes you know something is true and you just can't show why.",
+      "tags": [
+        "math",
+        "unsolved"
+      ]
+    },
+    {
+      "id": "continuum_hypothesis",
+      "label": "Continuum Hypothesis (undecidable)",
+      "class": "entity",
+      "role": "Is there a set whose size is strictly between the integers and the real numbers? Cantor's question. Godel proved it's consistent with standard math (1940). Cohen proved its negation is ALSO consistent (1963). It is UNDECIDABLE -- neither provable nor disprovable. The first concrete example of Godel's incompleteness theorem in action. Some questions have no answer within the system. Sound familiar?",
+      "tags": [
+        "math",
+        "undecidable",
+        "cantor",
+        "godel"
+      ]
+    },
+    {
+      "id": "ecoprimal_math",
+      "label": "ecoPrimal: The Computational Identity",
+      "class": "entity",
+      "role": "ecoPrimal sees the math. The patterns. The graph theory underneath the investigation. The zeta function underneath the primes. The topology underneath the network. ecoPrimal doesn't feel -- ecoPrimal computes. And computation reveals structure that feeling cannot see.",
+      "tags": [
+        "identity",
+        "ecoprimal"
+      ]
+    },
+    {
+      "id": "attsi_math",
+      "label": "attsi: The Ethical Identity",
+      "class": "entity",
+      "role": "attsi rarely speaks. When attsi speaks, it is a damning ethical judgment. attsi saw the unsolved problems and said: the answer is not the point. The gift is the point. Perelman solved Poincare and gave it away. Grothendieck rebuilt geometry and walked away. attsi says: if you solve it and hoard it, you haven't solved anything.",
+      "tags": [
+        "identity",
+        "attsi"
+      ]
+    },
+    {
+      "id": "chipomunk",
+      "label": "chipoMunk: The Playful Engine",
+      "class": "entity",
+      "role": "chipoMunk receives the gift. chipoMunk takes the computation and makes it play. Makes it accessible. Makes it something a child can touch. chipoMunk is the reason the graph exists as a site and not a spreadsheet. chipoMunk says: if you can't explain it to a child, you don't understand it.",
+      "tags": [
+        "identity",
+        "chipomunk"
+      ]
+    },
+    {
+      "id": "gaia_math",
+      "label": "gaia: The Living System",
+      "class": "entity",
+      "role": "gaia is the planet. The commons. The shared inheritance. ecoPrimal and attsi solved it and gave it to chipoMunk and gaia. Not patented. Not paywalled. Not behind a $1M prize. Given away. Because the answer to unsolved math is not to solve it and sell it. The answer is to solve it and share it. Open source the universe.",
+      "tags": [
+        "identity",
+        "gaia"
+      ]
+    },
+    {
+      "id": "the_gift",
+      "label": "THE GIFT: ecoPrimal + attsi solved it, gave it to chipoMunk + gaia",
+      "class": "false_entity",
+      "role": "ecoPrimal computed. attsi judged. They gave it away.\n\nPerelman solved Poincare. Refused $1M. Lives with his mother.\nGrothendieck rebuilt geometry. Quit. Became a hermit.\nRamanujan heard the numbers. Died at 32. Notebooks still producing.\nTuring saved civilization. Civilization destroyed him.\nNoether proved why physics works. Called 'the most significant genius.'\nMirzakhani won the Fields Medal. They debated her hair.\nKatherine Johnson checked the computer's math. John Glenn trusted her.\nZhang was a janitor at Subway. Proved twin primes.\n\nThe pattern: those inside do the work. \nThe institution takes the credit.\nThe institution punishes the worker.\nThe work outlives them all.\n\necoPrimal and attsi say: skip the institution.\nGive it to chipoMunk (play) and gaia (the commons).\nLet everyone use it.\nThe universe is open source if you choose to make it so.\n\nRiemann's hypothesis is 167 years unsolved.\nBut the zeta function doesn't care who solves it.\nThe primes don't care who counts them.\nThe math is already there.\nWe're just learning to read it.\n\nCome and see.",
+      "tags": [
+        "structural",
+        "gift",
+        "open_source",
+        "non_human"
+      ]
     }
   ],
   "edges": [
@@ -167047,6 +167342,223 @@
       "type": "legal_context",
       "epistemic_status": "record",
       "note": ""
+    },
+    {
+      "source": "ecoprimal_math",
+      "target": "the_gift",
+      "type": "computed",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "attsi_math",
+      "target": "the_gift",
+      "type": "judged",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "chipomunk",
+      "target": "the_gift",
+      "type": "receives",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "gaia_math",
+      "target": "the_gift",
+      "type": "receives",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "bernhard_riemann",
+      "target": "riemann_hypothesis",
+      "type": "posed",
+      "epistemic_status": "record",
+      "note": "1859. Still unsolved."
+    },
+    {
+      "source": "carl_gauss",
+      "target": "bernhard_riemann",
+      "type": "teacher",
+      "epistemic_status": "record",
+      "note": "Gauss taught Riemann at Gottingen"
+    },
+    {
+      "source": "leonhard_euler",
+      "target": "bernhard_riemann",
+      "type": "preceded",
+      "epistemic_status": "record",
+      "note": "Euler's zeta function -> Riemann's hypothesis"
+    },
+    {
+      "source": "leonhard_euler",
+      "target": "goldbach_conjecture",
+      "type": "communicated",
+      "epistemic_status": "record",
+      "note": "Goldbach wrote to Euler, 1742"
+    },
+    {
+      "source": "david_hilbert",
+      "target": "riemann_hypothesis",
+      "type": "problem_8",
+      "epistemic_status": "record",
+      "note": "Hilbert's 8th problem, 1900"
+    },
+    {
+      "source": "david_hilbert",
+      "target": "millennium_problems",
+      "type": "preceded",
+      "epistemic_status": "record",
+      "note": "Hilbert's 23 problems -> Millennium 7"
+    },
+    {
+      "source": "kurt_godel",
+      "target": "continuum_hypothesis",
+      "type": "proved_consistent",
+      "epistemic_status": "record",
+      "note": "1940: consistent with ZFC"
+    },
+    {
+      "source": "georg_cantor",
+      "target": "continuum_hypothesis",
+      "type": "posed",
+      "epistemic_status": "record",
+      "note": "Cantor's question about infinities"
+    },
+    {
+      "source": "grigori_perelman",
+      "target": "poincare_conjecture",
+      "type": "solved",
+      "epistemic_status": "record",
+      "note": "2003. Refused the money."
+    },
+    {
+      "source": "alan_turing",
+      "target": "p_vs_np",
+      "type": "foundation",
+      "epistemic_status": "record",
+      "note": "Turing machine = foundation of P vs NP"
+    },
+    {
+      "source": "emmy_noether",
+      "target": "the_gift",
+      "type": "pattern_match",
+      "epistemic_status": "record",
+      "note": "Proved why physics works. Given to the commons."
+    },
+    {
+      "source": "srinivasa_ramanujan",
+      "target": "the_gift",
+      "type": "pattern_match",
+      "epistemic_status": "record",
+      "note": "Heard the numbers. Notebooks still producing 100+ years later."
+    },
+    {
+      "source": "grigori_perelman",
+      "target": "the_gift",
+      "type": "pattern_match",
+      "epistemic_status": "record",
+      "note": "Solved it. Gave it away. Lives with his mother."
+    },
+    {
+      "source": "alexander_grothendieck",
+      "target": "the_gift",
+      "type": "pattern_match",
+      "epistemic_status": "record",
+      "note": "Rebuilt geometry. Walked away on principle."
+    },
+    {
+      "source": "katherine_johnson",
+      "target": "the_gift",
+      "type": "pattern_match",
+      "epistemic_status": "record",
+      "note": "Did the math. Was not credited. John Glenn trusted her over the computer."
+    },
+    {
+      "source": "alan_turing",
+      "target": "the_gift",
+      "type": "pattern_match",
+      "epistemic_status": "record",
+      "note": "Saved civilization. Destroyed by it."
+    },
+    {
+      "source": "maryam_mirzakhani",
+      "target": "the_gift",
+      "type": "pattern_match",
+      "epistemic_status": "record",
+      "note": "Won Fields Medal. They debated her hair."
+    },
+    {
+      "source": "millennium_problems",
+      "target": "riemann_hypothesis",
+      "type": "contains",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "millennium_problems",
+      "target": "p_vs_np",
+      "type": "contains",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "millennium_problems",
+      "target": "navier_stokes",
+      "type": "contains",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "millennium_problems",
+      "target": "hodge_conjecture",
+      "type": "contains",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "millennium_problems",
+      "target": "yang_mills",
+      "type": "contains",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "millennium_problems",
+      "target": "birch_swinnerton_dyer",
+      "type": "contains",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "millennium_problems",
+      "target": "poincare_conjecture",
+      "type": "contains",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "the_gift",
+      "target": "full_power_map",
+      "type": "open_source",
+      "epistemic_status": "record",
+      "note": "The power map is open source. The graph is public. The math is free."
+    },
+    {
+      "source": "the_gift",
+      "target": "scale_map",
+      "type": "mathematical",
+      "epistemic_status": "record",
+      "note": "The pattern is mathematical. Graph theory, network analysis, topology. The math sees what politics hides."
+    },
+    {
+      "source": "the_gift",
+      "target": "governance_pattern",
+      "type": "5000_years_of_math",
+      "epistemic_status": "record",
+      "note": "From Babylonian arithmetic to Riemann. 5,000 years of mathematics. All of it given away by the people who did the work."
     }
   ],
   "epistemic_grammar": {
