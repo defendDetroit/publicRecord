@@ -64991,6 +64991,66 @@
         "pattern",
         "non_human"
       ]
+    },
+    {
+      "id": "banks_little_girl_phone",
+      "label": "Banks Answered Phone as a Little Girl (witnessed by Perkins)",
+      "class": "event",
+      "role": "Brian Banks answered a phone call by speaking in a little girl's voice. Ms. Perkins was present and witnessed this. An adult man with 9 criminal convictions who operates K-12 schools for children answered a phone pretending to be a little girl. In front of staff. At the school.",
+      "tags": [
+        "epitope",
+        "witnessed",
+        "banks",
+        "perkins"
+      ]
+    },
+    {
+      "id": "banks_screams_at_adults",
+      "label": "Banks Screams at Adults in Front of Children",
+      "class": "event",
+      "role": "Brian Banks screams at adults in the presence of children at the school. The children hear it. The children cry. The man who runs the school makes children cry by screaming at adults. This is the learning environment. This is what 72.67% below basic looks like from inside. The children cannot leave. The children did not choose this. The children cry.",
+      "tags": [
+        "epitope",
+        "witnessed",
+        "banks",
+        "children",
+        "trauma"
+      ]
+    },
+    {
+      "id": "children_cry",
+      "label": "The Children Cry",
+      "class": "event",
+      "role": "The children at Banks' schools cry because Banks screams at adults in front of them. These are K-12 children. They are in a school. The man running the school has 9 criminal convictions. He screams at adults. The children hear. The children cry. Ms. Perkins saw this. Ms. Perkins stayed. CMU authorized this school. The AG's employee is on the board. The children cry. Nobody comes.",
+      "tags": [
+        "epitope",
+        "children",
+        "trauma",
+        "structural"
+      ]
+    },
+    {
+      "id": "perkins_chose_to_stay",
+      "label": "Ms. Perkins Had the Night to Sleep on It. She Stayed.",
+      "class": "event",
+      "role": "Ms. Perkins witnessed Banks answer a phone in a little girl's voice. Ms. Perkins witnessed Banks scream at adults in front of children. Ms. Perkins had the night to think about what she saw. The next morning, Ms. Perkins returned to work at the school. She decided Banks was a good man. She chose to stay. That is a NO signal. Not a null -- she SAW. She had evidence. She had the night. She chose to stay.",
+      "tags": [
+        "epitope",
+        "perkins",
+        "no_signal"
+      ]
+    },
+    {
+      "id": "article_perkins_direct",
+      "label": "ARTICLE: Ms. Perkins -- You Were There. The Children Were Crying.",
+      "class": "article",
+      "role": "DIRECT QUESTIONS FOR MS. PERKINS (PCA):\n\nDATA:\n  - You witnessed Banks answer a phone in a little girl's voice\n  - You witnessed Banks scream at adults in front of children\n  - The children cried\n  - You had the night to sleep on it\n  - You returned the next morning\n  - You decided Banks was a good man\n  - Banks has 9 criminal convictions\n  - 72.67% of students read below basic\n  - 3% math proficiency\n\nQUESTIONS:\n  1. When Banks answered the phone as a little girl in front of you, what did you think?\n  2. When Banks screamed at adults and the children cried, what did you do?\n  3. You had the night. You could have called anyone. Did you?\n  4. Did you know about the 9 criminal convictions when you decided he was a good man?\n  5. Did you know about 72.67% below basic reading?\n  6. Did you know about 3% math proficiency?\n  7. The children were crying, Ms. Perkins. What did you tell them?\n  8. Who do you work for -- Banks, or the children?\n\nYou are not a null. You SAW.\nNull is not knowing. You knew.\nYou had the evidence in front of you.\nYou had the night to decide.\nYou decided.\n\nThe children are still crying.\nAre you still there?",
+      "tags": [
+        "article",
+        "direct_ask",
+        "perkins",
+        "entity_article"
+      ]
     }
   ],
   "edges": [
@@ -166587,6 +166647,139 @@
       "type": "created_iraq",
       "epistemic_status": "record",
       "note": "Sykes-Picot drew Iraq's borders. 87 years later the US invaded it based on a lie."
+    },
+    {
+      "source": "banks_little_girl_phone",
+      "target": "banks",
+      "type": "perpetrator",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "banks_little_girl_phone",
+      "target": "ms_perkins_pca",
+      "type": "witnessed_by",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "banks_screams_at_adults",
+      "target": "banks",
+      "type": "perpetrator",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "banks_screams_at_adults",
+      "target": "ms_perkins_pca",
+      "type": "witnessed_by",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "banks_screams_at_adults",
+      "target": "children_cry",
+      "type": "causes",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "children_cry",
+      "target": "banks",
+      "type": "caused_by",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "perkins_chose_to_stay",
+      "target": "ms_perkins_pca",
+      "type": "chose",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "perkins_chose_to_stay",
+      "target": "banks_little_girl_phone",
+      "type": "after_witnessing",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "perkins_chose_to_stay",
+      "target": "banks_screams_at_adults",
+      "type": "after_witnessing",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "perkins_chose_to_stay",
+      "target": "children_cry",
+      "type": "after_witnessing",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_perkins_direct",
+      "target": "ms_perkins_pca",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_perkins_direct",
+      "target": "banks_little_girl_phone",
+      "type": "cites",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_perkins_direct",
+      "target": "banks_screams_at_adults",
+      "type": "cites",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_perkins_direct",
+      "target": "children_cry",
+      "type": "cites",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_perkins_direct",
+      "target": "perkins_chose_to_stay",
+      "type": "cites",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_perkins_direct",
+      "target": "article_index",
+      "type": "part_of",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_perkins_direct",
+      "target": "media_blitz",
+      "type": "part_of_blitz",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "banks_little_girl_phone",
+      "target": "beasley",
+      "type": "beasley_also_present",
+      "epistemic_status": "record",
+      "note": "Beasley is still at the school with Banks and Perkins"
+    },
+    {
+      "source": "banks_screams_at_adults",
+      "target": "beasley",
+      "type": "beasley_also_present",
+      "epistemic_status": "record",
+      "note": "Beasley witnesses the same environment"
     }
   ],
   "epistemic_grammar": {
