@@ -48170,6 +48170,386 @@
         "non_human",
         "tier_5"
       ]
+    },
+    {
+      "id": "wayne_county_circuit_court",
+      "label": "Wayne County Circuit Court",
+      "class": "entity",
+      "role": "Third Judicial Circuit. Where Banks' cases should land. Where Yancey sits. Where the system processes.",
+      "tags": [
+        "judicial",
+        "detroit",
+        "oversight"
+      ]
+    },
+    {
+      "id": "michigan_state_police",
+      "label": "Michigan State Police",
+      "class": "entity",
+      "role": "Law enforcement. Has jurisdiction over fraud statewide. Has not acted on charter school fraud.",
+      "tags": [
+        "law_enforcement",
+        "state",
+        "oversight"
+      ]
+    },
+    {
+      "id": "ingham_county_circuit_court",
+      "label": "Ingham County Circuit Court",
+      "class": "entity",
+      "role": "30th Judicial Circuit. Where Kevin's civil cases are filed. 2026-4301-CZ and 2026-4349-CZ.",
+      "tags": [
+        "judicial",
+        "lansing",
+        "oversight"
+      ]
+    },
+    {
+      "id": "michigan_legislature",
+      "label": "Michigan Legislature",
+      "class": "entity",
+      "role": "Senate and House. Passed PA 362 in 1993. Created the charter school system. Could repeal it.",
+      "tags": [
+        "legislative",
+        "state",
+        "oversight"
+      ]
+    },
+    {
+      "id": "governors_office",
+      "label": "Governor's Office (Michigan)",
+      "class": "entity",
+      "role": "Executive. Engler signed PA 362. Whitmer inherits the mess. Appoints some SBE members.",
+      "tags": [
+        "executive",
+        "state",
+        "oversight"
+      ]
+    },
+    {
+      "id": "aclu_michigan",
+      "label": "ACLU of Michigan",
+      "class": "entity",
+      "role": "Civil liberties. Education rights. Has standing to challenge charter school civil rights violations.",
+      "tags": [
+        "advocacy",
+        "civil_rights"
+      ]
+    },
+    {
+      "id": "bridge_michigan",
+      "label": "Bridge Michigan",
+      "class": "entity",
+      "role": "Nonprofit news. Education coverage. Ron French, Mike Wilkinson. Data-driven charter school reporting.",
+      "tags": [
+        "media",
+        "journalism"
+      ]
+    },
+    {
+      "id": "chalkbeat_detroit",
+      "label": "Chalkbeat Detroit",
+      "class": "entity",
+      "role": "Education news. Ethan Bakuli. Covers DPSCD, charter schools, SBE. National network.",
+      "tags": [
+        "media",
+        "journalism"
+      ]
+    },
+    {
+      "id": "us_dept_education",
+      "label": "US Department of Education",
+      "class": "entity",
+      "role": "Federal. Title I, IDEA, civil rights. Has jurisdiction over charter schools receiving federal funds.",
+      "tags": [
+        "federal",
+        "oversight"
+      ]
+    },
+    {
+      "id": "michigan_court_of_appeals_full",
+      "label": "Michigan Court of Appeals",
+      "class": "entity",
+      "role": "Appellate jurisdiction. Reviews circuit court decisions. Published opinions. Where the law gets made.",
+      "tags": [
+        "judicial",
+        "state",
+        "oversight"
+      ]
+    },
+    {
+      "id": "wayne_county_register_deeds",
+      "label": "Wayne County Register of Deeds",
+      "class": "entity",
+      "role": "Property records. Every real estate transaction. Banks' properties. Holland's properties. The money in the land.",
+      "tags": [
+        "detroit",
+        "records"
+      ]
+    },
+    {
+      "id": "detroit_city_council",
+      "label": "Detroit City Council",
+      "class": "entity",
+      "role": "Legislative body. 9 members. James Tate Jr. is new president. Oversight of city operations.",
+      "tags": [
+        "detroit",
+        "legislative"
+      ]
+    },
+    {
+      "id": "detroit_oig",
+      "label": "Detroit Inspector General",
+      "class": "entity",
+      "role": "Oversight. Investigations. Annual reports. Has investigated city contracts. Has NOT investigated charter school vendor contracts.",
+      "tags": [
+        "detroit",
+        "oversight"
+      ]
+    },
+    {
+      "id": "wayne_county_prosecutors",
+      "label": "Wayne County Prosecutor's Office",
+      "class": "entity",
+      "role": "Kym L. Worthy. Could prosecute Banks for fraud, identity theft, practicing law without a license. Has not.",
+      "tags": [
+        "detroit",
+        "law_enforcement",
+        "oversight"
+      ]
+    },
+    {
+      "id": "michigan_treasury",
+      "label": "Michigan Department of Treasury",
+      "class": "entity",
+      "role": "Revenue. School finance. Per-pupil funding flows through Treasury. Foundation allowance payments.",
+      "tags": [
+        "state",
+        "finance"
+      ]
+    },
+    {
+      "id": "michigan_civil_rights",
+      "label": "Michigan Department of Civil Rights",
+      "class": "entity",
+      "role": "Elliott-Larsen enforcement. Education discrimination complaints. Disability discrimination. Charter school access.",
+      "tags": [
+        "state",
+        "civil_rights"
+      ]
+    },
+    {
+      "id": "michigan_auditor_general",
+      "label": "Michigan Auditor General",
+      "class": "entity",
+      "role": "Performance audits. Financial audits. Could audit charter school authorizers. Has done so sporadically.",
+      "tags": [
+        "state",
+        "oversight",
+        "audit"
+      ]
+    },
+    {
+      "id": "michigan_school_finance_research",
+      "label": "Michigan School Finance Research Collaborative",
+      "class": "entity",
+      "role": "Research. Adequacy studies. Found Michigan underfunds education by $2,000-$5,000 per student.",
+      "tags": [
+        "state",
+        "education",
+        "research"
+      ]
+    },
+    {
+      "id": "michigan_association_public_school_academies",
+      "label": "Michigan Association of Public School Academies (MAPSA)",
+      "class": "entity",
+      "role": "Charter school lobby. Dan Quisenberry, president. Lobbies against charter school accountability.",
+      "tags": [
+        "state",
+        "charter_ecosystem",
+        "lobby"
+      ]
+    },
+    {
+      "id": "great_lakes_education_project_full",
+      "label": "Great Lakes Education Project (GLEP)",
+      "class": "entity",
+      "role": "DeVos-funded PAC. Lobbies for charter expansion. Against accountability. Against transparency.",
+      "tags": [
+        "state",
+        "charter_ecosystem",
+        "dark_money"
+      ]
+    },
+    {
+      "id": "ohio_charter_system",
+      "label": "Ohio Charter School System",
+      "class": "entity",
+      "role": "ECOT scandal. $80 million fraud. Founder Bill Lager. Similar pattern to Michigan. No oversight. Same result.",
+      "tags": [
+        "regional",
+        "charter_ecosystem"
+      ]
+    },
+    {
+      "id": "ecot_scandal",
+      "label": "ECOT (Electronic Classroom of Tomorrow) Scandal",
+      "class": "entity",
+      "role": "Ohio's largest online charter. $80M in fraudulent attendance. Founder Bill Lager donated $2.6M to politicians. Closed 2018.",
+      "tags": [
+        "regional",
+        "charter_ecosystem",
+        "fraud"
+      ]
+    },
+    {
+      "id": "indiana_charter_system",
+      "label": "Indiana Charter School System",
+      "class": "entity",
+      "role": "Indiana Charter School Board. Virtual charter scandals. DeVos influence here too.",
+      "tags": [
+        "regional",
+        "charter_ecosystem"
+      ]
+    },
+    {
+      "id": "illinois_charter_system",
+      "label": "Illinois Charter School System",
+      "class": "entity",
+      "role": "Chicago. Noble Network. UNO. Corruption scandals. The charter model repeats.",
+      "tags": [
+        "regional",
+        "charter_ecosystem"
+      ]
+    },
+    {
+      "id": "national_alliance_public_charter",
+      "label": "National Alliance for Public Charter Schools",
+      "class": "entity",
+      "role": "National lobby. Rankings. Model legislation. Promotes the charter model nationally. The machine's national arm.",
+      "tags": [
+        "national",
+        "charter_ecosystem",
+        "lobby"
+      ]
+    },
+    {
+      "id": "national_heritage_academies",
+      "label": "National Heritage Academies",
+      "class": "entity",
+      "role": "Grand Rapids. J.C. Huizenga. 100+ charter schools. Michigan's largest charter operator. DeVos orbit.",
+      "tags": [
+        "michigan",
+        "charter_ecosystem"
+      ]
+    },
+    {
+      "id": "fbi_public_corruption",
+      "label": "FBI Public Corruption Unit",
+      "class": "entity",
+      "role": "Public corruption investigations. Has jurisdiction over public officials, including charter school operators using public funds.",
+      "tags": [
+        "federal",
+        "law_enforcement"
+      ]
+    },
+    {
+      "id": "irs_tax_exempt",
+      "label": "IRS Tax-Exempt Division",
+      "class": "entity",
+      "role": "Oversees 501(c)(3) status. Purpose Foundation is a 501(c)(3). Annual 990 filings required. Is PF filing correctly?",
+      "tags": [
+        "federal",
+        "oversight",
+        "finance"
+      ]
+    },
+    {
+      "id": "sec_enforcement",
+      "label": "Securities and Exchange Commission",
+      "class": "entity",
+      "role": "If any charter school bonds were issued with false credentials, SEC has jurisdiction.",
+      "tags": [
+        "federal",
+        "oversight",
+        "finance"
+      ]
+    },
+    {
+      "id": "hhs_oig",
+      "label": "HHS Office of Inspector General",
+      "class": "entity",
+      "role": "If Banks' schools received Medicaid funding for special education services, HHS OIG has jurisdiction.",
+      "tags": [
+        "federal",
+        "oversight"
+      ]
+    },
+    {
+      "id": "doj_civil_rights",
+      "label": "DOJ Civil Rights Division",
+      "class": "entity",
+      "role": "Education section. Desegregation. Equal access. Charter schools that discriminate. Federal jurisdiction.",
+      "tags": [
+        "federal",
+        "oversight",
+        "civil_rights"
+      ]
+    },
+    {
+      "id": "cmu_charter_office",
+      "label": "CMU Office of Charter Schools",
+      "class": "entity",
+      "role": "Authorizes Purpose Charter Academy. Corey Northrop leads. 60+ schools. Largest authorizer in Michigan.",
+      "tags": [
+        "charter_ecosystem",
+        "education",
+        "oversight"
+      ]
+    },
+    {
+      "id": "gvsu_charter_office",
+      "label": "GVSU Charter Schools Office",
+      "class": "entity",
+      "role": "Authorizes charter schools. Smaller portfolio than CMU. Grand Valley State University.",
+      "tags": [
+        "charter_ecosystem",
+        "education",
+        "oversight"
+      ]
+    },
+    {
+      "id": "emu_charter_office",
+      "label": "EMU Charter Schools",
+      "class": "entity",
+      "role": "Eastern Michigan University charter school office. Authorized MacDowell Preparatory Academy.",
+      "tags": [
+        "charter_ecosystem",
+        "education",
+        "oversight"
+      ]
+    },
+    {
+      "id": "michigan_campaign_finance",
+      "label": "Michigan Campaign Finance Network",
+      "class": "entity",
+      "role": "Tracks political donations. MCFN data shows charter lobby spending. The money trail.",
+      "tags": [
+        "state",
+        "finance",
+        "transparency"
+      ]
+    },
+    {
+      "id": "guidestar_990",
+      "label": "GuideStar/Candid (990 Database)",
+      "class": "entity",
+      "role": "990 tax filings. Every nonprofit. Purpose Foundation's 990. The financial x-ray.",
+      "tags": [
+        "federal",
+        "transparency"
+      ]
     }
   ],
   "edges": [
@@ -132770,6 +133150,1231 @@
       "type": "structural_parallel",
       "epistemic_status": "record",
       "note": "Migration: Bird Migration. People move toward the commons. Away from its absence."
+    },
+    {
+      "source": "wayne_county_circuit_court",
+      "target": "wayne_county",
+      "type": "jurisdiction",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "wayne_county_circuit_court",
+      "target": "court_3rd",
+      "type": "part_of",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "banks",
+      "target": "wayne_county_circuit_court",
+      "type": "jurisdiction",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "wayne_county_circuit_court",
+      "target": "yancey_tenisha",
+      "type": "employment",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "michigan_state_police",
+      "target": "banks",
+      "type": "inaction",
+      "epistemic_status": "record",
+      "note": "No investigation opened"
+    },
+    {
+      "source": "michigan_state_police",
+      "target": "michigan_supreme_court",
+      "type": "jurisdiction",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "ingham_county_circuit_court",
+      "target": "2026-4301-CZ",
+      "type": "adjudicates",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "ingham_county_circuit_court",
+      "target": "2026-4349-CZ",
+      "type": "adjudicates",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "ingham_county_circuit_court",
+      "target": "kevin_mok",
+      "type": "jurisdiction",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "michigan_legislature",
+      "target": "charter_law_1993",
+      "type": "created",
+      "epistemic_status": "record",
+      "note": "Passed PA 362 in 1993"
+    },
+    {
+      "source": "michigan_legislature",
+      "target": "public_education",
+      "type": "governance",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "michigan_legislature",
+      "target": "michigan_state_board_of_education",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "governors_office",
+      "target": "charter_law_1993",
+      "type": "signed",
+      "epistemic_status": "record",
+      "note": "Engler signed PA 362"
+    },
+    {
+      "source": "governors_office",
+      "target": "engler",
+      "type": "employment",
+      "epistemic_status": "record",
+      "note": "1991-2003"
+    },
+    {
+      "source": "governors_office",
+      "target": "michigan_state_board_of_education",
+      "type": "appoints",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "aclu_michigan",
+      "target": "public_education",
+      "type": "advocacy",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "aclu_michigan",
+      "target": "charter_law_1993",
+      "type": "potential_challenger",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "bridge_michigan",
+      "target": "public_education",
+      "type": "coverage",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "bridge_michigan",
+      "target": "charter_law_1993",
+      "type": "coverage",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "chalkbeat_detroit",
+      "target": "public_education",
+      "type": "coverage",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "chalkbeat_detroit",
+      "target": "detroit_public_schools_community_district",
+      "type": "coverage",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "us_dept_education",
+      "target": "public_education",
+      "type": "governance",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "us_dept_education",
+      "target": "charter_law_1993",
+      "type": "jurisdiction",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "us_dept_education",
+      "target": "us_doe_oig",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "michigan_court_of_appeals_full",
+      "target": "michigan_supreme_court",
+      "type": "subordinate_to",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "michigan_court_of_appeals_full",
+      "target": "ingham_county_circuit_court",
+      "type": "reviews",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "michigan_court_of_appeals_full",
+      "target": "wayne_county_circuit_court",
+      "type": "reviews",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "wayne_county_register_deeds",
+      "target": "wayne_county",
+      "type": "part_of",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "banks",
+      "target": "wayne_county_register_deeds",
+      "type": "filed_with",
+      "epistemic_status": "record",
+      "note": "Property records"
+    },
+    {
+      "source": "detroit_city_council",
+      "target": "detroit",
+      "type": "governance",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "detroit_city_council",
+      "target": "sheffield_mary",
+      "type": "former_member",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "detroit_oig",
+      "target": "detroit",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "detroit_oig",
+      "target": "banks",
+      "type": "inaction",
+      "epistemic_status": "record",
+      "note": "No investigation of vendor contracts"
+    },
+    {
+      "source": "dpscd_oig",
+      "target": "detroit_public_schools_community_district",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "dpscd_oig",
+      "target": "banks",
+      "type": "pending_complaint",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "dpscd_oig",
+      "target": "purpose_charter_academy",
+      "type": "jurisdiction",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "wayne_resa",
+      "target": "detroit_public_schools_community_district",
+      "type": "services",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "wayne_resa",
+      "target": "purpose_charter_academy",
+      "type": "services",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "detroit_economic_club",
+      "target": "detroit",
+      "type": "part_of",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "wayne_county_prosecutors",
+      "target": "kym_worthy",
+      "type": "led_by",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "wayne_county_prosecutors",
+      "target": "banks",
+      "type": "inaction",
+      "epistemic_status": "record",
+      "note": "No prosecution despite 9 felony convictions"
+    },
+    {
+      "source": "wayne_county_prosecutors",
+      "target": "wayne_county",
+      "type": "jurisdiction",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "purpose_charter_academy",
+      "type": "funding_conduit",
+      "epistemic_status": "record",
+      "note": "Per-pupil foundation allowance"
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "public_education",
+      "type": "funding",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "michigan_legislature",
+      "type": "subordinate_to",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "michigan_civil_rights",
+      "target": "public_education",
+      "type": "jurisdiction",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "michigan_civil_rights",
+      "target": "charter_law_1993",
+      "type": "enforcement",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "michigan_auditor_general",
+      "target": "michigan_legislature",
+      "type": "reports_to",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "michigan_auditor_general",
+      "target": "michigan_department_of_education",
+      "type": "audits",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "michigan_auditor_general",
+      "target": "purpose_charter_academy",
+      "type": "potential_audit",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "michigan_school_finance_research",
+      "target": "public_education",
+      "type": "research",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "michigan_association_public_school_academies",
+      "target": "charter_law_1993",
+      "type": "lobbies_for",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "michigan_association_public_school_academies",
+      "target": "purpose_charter_academy",
+      "type": "member",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "michigan_association_public_school_academies",
+      "target": "devos_betsy",
+      "type": "funding",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "great_lakes_education_project_full",
+      "target": "devos_betsy",
+      "type": "funding",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "great_lakes_education_project_full",
+      "target": "charter_law_1993",
+      "type": "lobbies_for",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "great_lakes_education_project_full",
+      "target": "michigan_legislature",
+      "type": "lobbies",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "ohio_charter_system",
+      "target": "charter_law_1993",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Same pattern: authorize without oversight"
+    },
+    {
+      "source": "ohio_charter_system",
+      "target": "public_education",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "ecot_scandal",
+      "target": "ohio_charter_system",
+      "type": "example",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "ecot_scandal",
+      "target": "banks",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Same pattern: fraud, political donations, no oversight"
+    },
+    {
+      "source": "ecot_scandal",
+      "target": "purpose_charter_academy",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "indiana_charter_system",
+      "target": "charter_law_1993",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "indiana_charter_system",
+      "target": "devos_betsy",
+      "type": "influence",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "illinois_charter_system",
+      "target": "charter_law_1993",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "national_alliance_public_charter",
+      "target": "charter_law_1993",
+      "type": "lobbies_for",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "national_alliance_public_charter",
+      "target": "michigan_association_public_school_academies",
+      "type": "affiliated",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "national_heritage_academies",
+      "target": "charter_law_1993",
+      "type": "enabled_by",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "national_heritage_academies",
+      "target": "devos_betsy",
+      "type": "network",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "national_heritage_academies",
+      "target": "public_education",
+      "type": "competes_with",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "k12_inc",
+      "target": "charter_law_1993",
+      "type": "enabled_by",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "k12_inc",
+      "target": "public_education",
+      "type": "competes_with",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "fbi_public_corruption",
+      "target": "fbi_detroit_field_office",
+      "type": "part_of",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "fbi_public_corruption",
+      "target": "banks",
+      "type": "potential_investigation",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "irs_tax_exempt",
+      "target": "purpose_foundation",
+      "type": "jurisdiction",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "irs_tax_exempt",
+      "target": "purpose_group",
+      "type": "jurisdiction",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "sec_enforcement",
+      "target": "charter_law_1993",
+      "type": "potential_jurisdiction",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "hhs_oig",
+      "target": "purpose_charter_academy",
+      "type": "potential_jurisdiction",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "doj_civil_rights",
+      "target": "public_education",
+      "type": "jurisdiction",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "doj_civil_rights",
+      "target": "charter_law_1993",
+      "type": "jurisdiction",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "doj_civil_rights",
+      "target": "banks",
+      "type": "potential_investigation",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "andre_spivey",
+      "target": "detroit_city_council",
+      "type": "former_member",
+      "epistemic_status": "record",
+      "note": "Convicted of bribery"
+    },
+    {
+      "source": "dan_gilbert",
+      "target": "detroit_economic_club",
+      "type": "member",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "ross_jones",
+      "target": "detroit_free_press",
+      "type": "employment",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "cmu_charter_office",
+      "target": "central_michigan_university",
+      "type": "part_of",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "cmu_charter_office",
+      "target": "purpose_charter_academy",
+      "type": "authorizes",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "cmu_charter_office",
+      "target": "banks",
+      "type": "authorized",
+      "epistemic_status": "record",
+      "note": "Authorized Banks despite red flags"
+    },
+    {
+      "source": "cmu_charter_office",
+      "target": "corey_northrop",
+      "type": "led_by",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "cmu_charter_office",
+      "target": "michigan_department_of_education",
+      "type": "reports_to",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "gvsu_charter_office",
+      "target": "grand_valley_state_university",
+      "type": "part_of",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "gvsu_charter_office",
+      "target": "charter_law_1993",
+      "type": "enabled_by",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "emu_charter_office",
+      "target": "eastern_michigan_university",
+      "type": "part_of",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "emu_charter_office",
+      "target": "macdowell_preparatory_academy",
+      "type": "authorizes",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "emu_charter_office",
+      "target": "charter_law_1993",
+      "type": "enabled_by",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "michigan_campaign_finance",
+      "target": "michigan_legislature",
+      "type": "monitors",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "michigan_campaign_finance",
+      "target": "great_lakes_education_project_full",
+      "type": "tracks",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "guidestar_990",
+      "target": "purpose_foundation",
+      "type": "contains_filing",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "guidestar_990",
+      "target": "purpose_group",
+      "type": "contains_filing",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "jtc_ison",
+      "target": "wayne_county_prosecutors",
+      "type": "employment",
+      "epistemic_status": "record",
+      "note": "US Attorney, Eastern District of Michigan"
+    },
+    {
+      "source": "jtc_ison",
+      "target": "fbi_detroit",
+      "type": "coordination",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "jtc_ison",
+      "target": "banks",
+      "type": "inaction",
+      "epistemic_status": "record",
+      "note": "No federal prosecution"
+    },
+    {
+      "source": "nessel",
+      "target": "governors_office",
+      "type": "coordination",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "nessel",
+      "target": "michigan_legislature",
+      "type": "coordination",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "nessel",
+      "target": "banks",
+      "type": "inaction",
+      "epistemic_status": "record",
+      "note": "No prosecution despite referrals"
+    },
+    {
+      "source": "nessel",
+      "target": "charter_law_1993",
+      "type": "enforcement_failure",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "nessel",
+      "target": "ag_office",
+      "type": "leads",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "sheffield",
+      "target": "detroit_city_council",
+      "type": "former_president",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "duggan",
+      "target": "detroit_city",
+      "type": "governance",
+      "epistemic_status": "record",
+      "note": "Former mayor"
+    },
+    {
+      "source": "duggan",
+      "target": "detroit_economic_club",
+      "type": "member",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "duggan",
+      "target": "banks",
+      "type": "political",
+      "epistemic_status": "record",
+      "note": "Political context"
+    },
+    {
+      "source": "andre_spivey",
+      "target": "fbi_detroit",
+      "type": "convicted_by",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "chatfield",
+      "target": "michigan_legislature",
+      "type": "former_speaker",
+      "epistemic_status": "record",
+      "note": "Former Speaker, convicted of fraud"
+    },
+    {
+      "source": "chatfield",
+      "target": "charter_law_1993",
+      "type": "benefited_from",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "chatfield",
+      "target": "banks",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Both: fraud, political connections, system failure"
+    },
+    {
+      "source": "snyder_nikki",
+      "target": "public_education",
+      "type": "advocacy",
+      "epistemic_status": "record",
+      "note": "Aligned on accountability"
+    },
+    {
+      "source": "wilk",
+      "target": "charter_law_1993",
+      "type": "drafted",
+      "epistemic_status": "record",
+      "note": "Helped draft PA 362"
+    },
+    {
+      "source": "holland",
+      "target": "banks",
+      "type": "exploitation",
+      "epistemic_status": "record",
+      "note": "Banks exploited Holland"
+    },
+    {
+      "source": "holland",
+      "target": "detroit_city",
+      "type": "connected",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "fbi_detroit",
+      "target": "fbi_public_corruption",
+      "type": "contains",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "fbi_detroit",
+      "target": "banks",
+      "type": "potential_investigation",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "fbi_detroit",
+      "target": "wayne_county_prosecutors",
+      "type": "coordination",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "wayne_county_circuit_court",
+      "target": "detroit_city",
+      "type": "jurisdiction",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "ingham_county_circuit_court",
+      "target": "michigan_legislature",
+      "type": "jurisdiction",
+      "epistemic_status": "record",
+      "note": "State capital courts"
+    },
+    {
+      "source": "michigan_state_police",
+      "target": "governors_office",
+      "type": "subordinate_to",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "governors_office",
+      "type": "subordinate_to",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "michigan_civil_rights",
+      "target": "governors_office",
+      "type": "subordinate_to",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "ecot_scandal",
+      "target": "national_alliance_public_charter",
+      "type": "exposed_flaw",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "ohio_charter_system",
+      "target": "michigan_association_public_school_academies",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "doj_civil_rights",
+      "target": "fbi_detroit",
+      "type": "coordination",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "irs_tax_exempt",
+      "target": "guidestar_990",
+      "type": "data_source",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "snyder_nikki",
+      "target": "sbe",
+      "type": "member",
+      "epistemic_status": "record",
+      "note": "SBE member, aligned on accountability"
+    },
+    {
+      "source": "wilk",
+      "target": "richard_mclellan",
+      "type": "colleague",
+      "epistemic_status": "record",
+      "note": "Both at Dykema"
+    },
+    {
+      "source": "holland",
+      "target": "pca",
+      "type": "connected",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "cmu_charter_office",
+      "target": "pca",
+      "type": "authorizes",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "bridge_michigan",
+      "target": "mde",
+      "type": "covers",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "chalkbeat_detroit",
+      "target": "dpscd",
+      "type": "covers",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "us_dept_education",
+      "target": "mde",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "emu_charter_office",
+      "target": "mde",
+      "type": "reports_to",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "gvsu_charter_office",
+      "target": "mde",
+      "type": "reports_to",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "cmu_charter_office",
+      "target": "mde",
+      "type": "reports_to",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "sbe",
+      "target": "mde",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "sbe",
+      "target": "charter_law_1993",
+      "type": "jurisdiction",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "sbe",
+      "target": "pca",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "dpscd",
+      "target": "pca",
+      "type": "competing",
+      "epistemic_status": "record",
+      "note": "Charter schools drain enrollment from DPSCD"
+    },
+    {
+      "source": "dpscd",
+      "target": "wayne_resa",
+      "type": "member",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "michigan_legislature",
+      "target": "sbe",
+      "type": "created",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "michigan_legislature",
+      "target": "michigan_treasury",
+      "type": "created",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "michigan_legislature",
+      "target": "mde",
+      "type": "created",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "pca",
+      "type": "funding_conduit",
+      "epistemic_status": "record",
+      "note": "Per-pupil foundation allowance"
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "dpscd",
+      "type": "funding_conduit",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "michigan_auditor_general",
+      "target": "mde",
+      "type": "audits",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "michigan_auditor_general",
+      "target": "michigan_treasury",
+      "type": "audits",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "national_heritage_academies",
+      "target": "pca",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Same model, same state"
+    },
+    {
+      "source": "k12_inc",
+      "target": "pca",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Same extraction model"
+    },
+    {
+      "source": "great_lakes_education_project_full",
+      "target": "michigan_association_public_school_academies",
+      "type": "allied",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "michigan_association_public_school_academies",
+      "target": "pca",
+      "type": "member",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "doj_civil_rights",
+      "target": "mde",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "hhs_oig",
+      "target": "pca",
+      "type": "potential_jurisdiction",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "sec_enforcement",
+      "target": "pca",
+      "type": "potential_jurisdiction",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "michigan_court_of_appeals_full",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "wayne_county_circuit_court",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "ingham_county_circuit_court",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "michigan_legislature",
+      "type": "judicial_review",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "charter_law_1993",
+      "type": "judicial_review",
+      "epistemic_status": "record",
+      "note": "Could rule PA 362 unconstitutional"
+    },
+    {
+      "source": "macdowell",
+      "target": "banks",
+      "type": "employment",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "macdowell",
+      "target": "emu_charter_office",
+      "type": "authorized_by",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "macdowell",
+      "target": "michigan_treasury",
+      "type": "funding_conduit",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "doe_oig",
+      "target": "us_dept_education",
+      "type": "part_of",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "doe_oig",
+      "target": "pca",
+      "type": "potential_investigation",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "doe_oig",
+      "target": "macdowell",
+      "type": "potential_investigation",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "detroit_news",
+      "target": "banks",
+      "type": "coverage",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "aclu_michigan",
+      "target": "mi_supreme_court",
+      "type": "litigation",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "aclu_michigan",
+      "target": "dpscd",
+      "type": "advocacy",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "chalkbeat_detroit",
+      "target": "sbe",
+      "type": "coverage",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "chalkbeat_detroit",
+      "target": "mde",
+      "type": "coverage",
+      "epistemic_status": "record",
+      "note": ""
     }
   ],
   "epistemic_grammar": {
