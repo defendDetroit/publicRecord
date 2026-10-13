@@ -250,6 +250,53 @@ If you live in Michigan, this is your money. These are your institutions. These 
 
 ---
 
+### X. So What Do You Do?
+
+Don't bother calling your congressman. They did this.
+
+Don't bother calling the governor. She appoints the boards that don't investigate.
+
+Don't bother calling the AG. Her employee is Vice Chair of Banks' school board.
+
+Don't bother calling the courts. The judge IS the Chair of Banks' school board.
+
+Don't bother calling the cops. Chief Todd Bettison works for Mayor Sheffield. Sheffield's council colleague Latisha Johnson sits on Banks' board. Bettison is already under OIG investigation for calling an activist and asking him to remove old photos of Sheffield — after which the activist was detained and his phone seized. In front of his seven-year-old son.
+
+The cops work for the mayor. The mayor works with the council. The council member works for Banks.
+
+**Don't call them. They did this.**
+
+Instead:
+
+**Turn to your neighbor. Share this. And then go fill a seat.**
+
+#### The Seats Are Empty. The Seats Are Yours.
+
+| Where | What's Open | Deadline |
+|---|---|---|
+| **DPSCD School Board** | 5 of 7 seats, 35 candidates | Nov 3 vote / **Oct 23 write-in deadline** |
+| **Muskegon Heights School Board** | 5 of 7 seats, **ZERO candidates filed** | **Oct 23 write-in deadline** |
+| **Whiteford Agricultural Schools** | 3 seats, **ZERO candidates** | Nov 3 |
+| **SBE** | 2 of 8 seats, block the CMU-country MAGA candidate | Nov 3 |
+| **Detroit Precinct Delegates** | Hundreds of empty seats | Next filing: 2028 |
+| **Detroit Commissions** | Tenants' Rights, Entertainment, Historic Advisory, Zoning, Board of Review | Apply to Council |
+| **State Boards** | 200+ boards and commissions | Apply anytime: michigan.gov/appointments |
+| **County Boards** | Kent (16 openings), Mason (13), Shiawassee, Jackson, and every other county | Ongoing |
+
+**A true fool would be better.**
+
+Not an insult. Math. A person who knows nothing but shows up with good intentions is better than an empty seat that the machine fills by default. A person who has never read a budget but asks "where did the money go?" is better than a board member who knows exactly where it went and says nothing.
+
+**Someone I don't know vs. someone I know not to trust.**
+
+That's the choice. At every level. At every board. At every commission. At every precinct delegate slot in every neighborhood in every city in this state.
+
+The machine runs on vacancies. The vacancies are the vulnerability.
+
+**Fill them.**
+
+---
+
 *All information sourced from public records: purposecharteracademy.com, detroitk12.org, michigan.gov, LARA corporate filings, Wayne County Circuit Court, Ingham County Circuit Court, TransparencyUSA, NCES, M-STEP data, Plante Moran management letters, DPSCD board minutes, Chalkbeat Detroit, BridgeDetroit, mlive.com, and Michigan State Police records. No confidential information used. Verify everything at [detroit.primals.eco](/).*
 
 *Contact: eco.primal@pm.me*
