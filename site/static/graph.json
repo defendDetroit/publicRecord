@@ -1342,7 +1342,7 @@
       "label": "Ms. Perkins (PCA)",
       "type": "actor",
       "tier": 1,
-      "role": "Ms. Perkins. PCA front desk / receptionist. THE FRONT DOOR. She is the DECISION-MAKER for who has access to Banks and Beasley. She made it clear SHE decides who gets through. Oct 12 10:30 AM: told caller she 'hasn't seen Banks today' — school in session, she lied. Controls physical and phone access to the superintendent of a public charter school. A receptionist at a school receiving $4.9M in public funds decides who can reach the man running it. Surname match: Todd Perkins (Banks' attorney), Sean Perkins (36th District judge), Judge David Perkins (36th District). Relationship TBD.",
+      "role": "Ms. Perkins. PCA front desk / receptionist. THE FRONT DOOR. Still at the school as of Oct 13, 2026. LIVE OBSERVATIONS: - Declines calls selectively, then answers the next. - Pattern: trying to predict Kevin's call times. They can't see him but are trying to predict his actions. - She decides who can see their children. She decides who can talk to teachers and principals. - IS THAT LEGAL? IS THAT ETHICAL? - A receptionist at an unauthorized school run by a man with 9 convictions is deciding which parents can access their own children's educators. - She said she doesn't have to answer Kevin's questions. - That is technically true. But 'I don't have to' is not NO. It is NULL. - And NULL means we assume YES until told otherwise. - SIGNAL RESPONSE: NULL (refuses to answer = assumed affirmative) - She chose to stay at this school. She chose to be the gatekeeper. - She chose to screen calls for a man with 9 criminal convictions. - Every day she sits at that desk is a choice. - IF YOU KNOW PCA AND BRIAN BANKS, AND YOUR CHILD OR FRIEND'S LAST NAME IS PERKINS: COME GET YOUR GIRL. - She needs someone who cares about her to tell her she is standing guard at the wrong door.",
       "class": "entity",
       "classification": "enabler",
       "confidence": 0.55,
@@ -68529,6 +68529,47 @@
         "hope",
         "love",
         "universal"
+      ]
+    },
+    {
+      "id": "perkins_screening_oct13",
+      "label": "LIVE: Perkins Screening Calls (Oct 13, 2026)",
+      "class": "event",
+      "role": "Oct 13, 2026. Ms. Perkins still at PCA front desk. Declines some calls, answers others. Pattern: trying to predict caller. They can't see Kevin but are trying to predict his actions. She is gatekeeping access to children, teachers, and principals. A receptionist at an unauthorized school deciding who gets to see their own children and speak to their children's teachers. 'I don't have to answer your questions.' True. But 'I don't have to' is not NO. It's NULL. NULL = assumed YES.",
+      "tags": [
+        "epitope",
+        "investigation",
+        "live",
+        "pca",
+        "perkins",
+        "oct13"
+      ]
+    },
+    {
+      "id": "article_perkins_gatekeeper",
+      "label": "ARTICLE: Ms. Perkins -- Come Get Your Girl",
+      "class": "article",
+      "role": "MS. PERKINS.\n\nStill at that school. October 13, 2026.\n\nShe declines some calls. She answers the next.\nThey can't see Kevin. But they're trying to predict his actions.\n\nShe sits at the front desk of Purpose Charter Academy\nand decides:\n- Who can see their children\n- Who can talk to teachers\n- Who can speak to principals\n\nIS THAT LEGAL?\nIS THAT ETHICAL?\n\nA receptionist. At an unauthorized school.\nRun by a man with 9 criminal convictions.\nDECIDING WHICH PARENTS CAN ACCESS THEIR OWN CHILDREN'S EDUCATORS.\n\nShe said: 'I don't have to answer your questions.'\n\nAnd that's true. She doesn't have to.\n\nBut here's the thing about 'I don't have to':\n\n'I DON'T HAVE TO' IS NOT NO.\n'I DON'T HAVE TO' IS NULL.\n\nAnd when the question is 'Is Brian Banks operating an unauthorized\nschool with 9 criminal convictions while harming children?' --\n\nNULL MEANS YES.\n\nBecause if the answer were NO, she would say NO.\nIf the answer were 'he's innocent,' she would say 'he's innocent.'\nIf the answer were 'you're wrong,' she would say 'you're wrong.'\n\nShe didn't say any of those things.\nShe said 'I don't have to answer.'\n\nThat's not a denial. That's an admission wrapped in silence.\n\nMS. PERKINS:\nYou have chosen to be the gatekeeper for a man with 9 convictions.\nYou have chosen to screen calls for him.\nYou have chosen to decide which parents get access.\nYou have chosen this desk. Every day. You walk in and choose it again.\n\nEvery day you sit at that desk is a day you chose Brian Banks\nover the children walking past you.\n\nIF YOU KNOW PCA AND BRIAN BANKS,\nAND YOUR CHILD OR FRIEND'S LAST NAME IS PERKINS:\n\nCOME GET YOUR GIRL.\n\nShe needs someone who cares about her\nto tell her she is standing guard at the wrong door.\n\nMaybe she'll answer YOUR questions.\nShe won't answer mine.\nBut 'I don't have to' was never 'no.'\n\nIt was always yes.",
+      "tags": [
+        "article",
+        "investigation",
+        "epitope",
+        "live",
+        "perkins",
+        "pca",
+        "accountability"
+      ]
+    },
+    {
+      "id": "null_is_yes",
+      "label": "NULL IS YES: 'I Don't Have To Answer' Is Not 'No'",
+      "class": "entity",
+      "role": "The investigative principle: when the question is clear and the answer is 'I don't have to respond,' that is not a denial. A denial is 'no.' A denial is 'you're wrong.' A denial is 'he's innocent.' 'I don't have to answer' is NULL. And when the question is whether a convicted felon is harming children, NULL is assumed YES until proven otherwise. Silence is not innocence. Silence is the sound of guilt that doesn't want to be recorded.",
+      "tags": [
+        "investigation",
+        "principle",
+        "epitope",
+        "accountability"
       ]
     }
   ],
@@ -189663,6 +189704,195 @@
       "type": "send_to",
       "epistemic_status": "record",
       "note": "Global education story"
+    },
+    {
+      "source": "perkins_screening_oct13",
+      "target": "ms_perkins_pca",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "Perkins screening calls live Oct 13"
+    },
+    {
+      "source": "perkins_screening_oct13",
+      "target": "pca",
+      "type": "located_in",
+      "epistemic_status": "record",
+      "note": "At PCA front desk"
+    },
+    {
+      "source": "perkins_screening_oct13",
+      "target": "children_cry",
+      "type": "denies_access",
+      "epistemic_status": "record",
+      "note": "Gatekeeping access to children"
+    },
+    {
+      "source": "article_perkins_gatekeeper",
+      "target": "ms_perkins_pca",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Come get your girl"
+    },
+    {
+      "source": "article_perkins_gatekeeper",
+      "target": "perkins_screening_oct13",
+      "type": "cites_evidence",
+      "epistemic_status": "record",
+      "note": "Live evidence Oct 13"
+    },
+    {
+      "source": "article_perkins_gatekeeper",
+      "target": "pca",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "PCA front desk"
+    },
+    {
+      "source": "article_perkins_gatekeeper",
+      "target": "null_is_yes",
+      "type": "presents",
+      "epistemic_status": "record",
+      "note": "NULL is YES principle"
+    },
+    {
+      "source": "article_perkins_gatekeeper",
+      "target": "signal_response",
+      "type": "NULL",
+      "epistemic_status": "record",
+      "note": "Perkins: I don't have to answer = NULL = YES"
+    },
+    {
+      "source": "null_is_yes",
+      "target": "signal_response",
+      "type": "defines",
+      "epistemic_status": "record",
+      "note": "NULL response = assumed YES"
+    },
+    {
+      "source": "null_is_yes",
+      "target": "ms_perkins_pca",
+      "type": "applies_to",
+      "epistemic_status": "record",
+      "note": "Perkins said I don't have to = NULL = YES"
+    },
+    {
+      "source": "null_is_yes",
+      "target": "avoidance_increases_cost",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Avoidance is not a defense"
+    },
+    {
+      "source": "article_perkins_gatekeeper",
+      "target": "article_wheres_the_video",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Connected investigation article"
+    },
+    {
+      "source": "article_perkins_gatekeeper",
+      "target": "article_smith_family",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Connected investigation article"
+    },
+    {
+      "source": "article_perkins_gatekeeper",
+      "target": "article_who_does_the_work",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Connected investigation article"
+    },
+    {
+      "source": "article_perkins_gatekeeper",
+      "target": "article_are_you_ok",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Connected investigation article"
+    },
+    {
+      "source": "article_perkins_gatekeeper",
+      "target": "article_1_8_million",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Connected investigation article"
+    },
+    {
+      "source": "article_perkins_gatekeeper",
+      "target": "article_oversight_failure",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Connected investigation article"
+    },
+    {
+      "source": "article_perkins_gatekeeper",
+      "target": "detroit_free_press",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Perkins gatekeeper story"
+    },
+    {
+      "source": "article_perkins_gatekeeper",
+      "target": "michigan_advance",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Perkins gatekeeper story"
+    },
+    {
+      "source": "article_perkins_gatekeeper",
+      "target": "chalkbeat_detroit",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Perkins gatekeeper story"
+    },
+    {
+      "source": "article_perkins_gatekeeper",
+      "target": "wxyz_channel7",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Perkins gatekeeper story"
+    },
+    {
+      "source": "article_perkins_gatekeeper",
+      "target": "deadline_detroit",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Perkins gatekeeper story"
+    },
+    {
+      "source": "article_perkins_gatekeeper",
+      "target": "wdiv_local4",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Perkins gatekeeper story"
+    },
+    {
+      "source": "article_perkins_gatekeeper",
+      "target": "propublica",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Perkins gatekeeper story"
+    },
+    {
+      "source": "article_perkins_gatekeeper",
+      "target": "the_intercept",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Perkins gatekeeper story"
+    },
+    {
+      "source": "article_perkins_gatekeeper",
+      "target": "marshall_project",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Perkins gatekeeper story"
+    },
+    {
+      "source": "ms_perkins_pca",
+      "target": "signal_response",
+      "type": "NULL",
+      "epistemic_status": "record",
+      "note": "I don't have to answer = NULL = assumed YES"
     }
   ],
   "epistemic_grammar": {
