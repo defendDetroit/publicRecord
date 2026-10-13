@@ -70899,6 +70899,126 @@
         "science_commons",
         "culture_commons"
       ]
+    },
+    {
+      "id": "article_charter_law_1993",
+      "label": "ARTICLE: PA 362 — Michigan Charter School Law (1993) -- 544 Connections, 51 Articles, Zero Answers",
+      "class": "article",
+      "role": "This entity appears in 51 articles and has 544 connections in the graph. Original role: enabling legislation. Yet no one has written the article that asks the direct question. Until now.",
+      "tags": [
+        "article",
+        "investigation",
+        "direct_ask",
+        "auto_generated"
+      ]
+    },
+    {
+      "id": "article_detroit_city",
+      "label": "ARTICLE: City of Detroit -- 334 Connections, 24 Articles, Zero Answers",
+      "class": "article",
+      "role": "This entity appears in 24 articles and has 334 connections in the graph. Original role: municipal government. Yet no one has written the article that asks the direct question. Until now.",
+      "tags": [
+        "article",
+        "investigation",
+        "direct_ask",
+        "auto_generated"
+      ]
+    },
+    {
+      "id": "article_mde",
+      "label": "ARTICLE: Michigan Department of Education -- 303 Connections, 50 Articles, Zero Answers",
+      "class": "article",
+      "role": "This entity appears in 50 articles and has 303 connections in the graph. Original role: state education department. Yet no one has written the article that asks the direct question. Until now.",
+      "tags": [
+        "article",
+        "investigation",
+        "direct_ask",
+        "auto_generated"
+      ]
+    },
+    {
+      "id": "article_pattern_regulatory_capture",
+      "label": "ARTICLE: THE PATTERN: Regulatory Capture Across Every Domain -- 265 Connections, 67 Articles, Zero Answers",
+      "class": "article",
+      "role": "This entity appears in 67 articles and has 265 connections in the graph. Original role: FDA: funded by pharma. Rating agencies: paid by banks. Housing inspectors: overwhelmed. USDA: industry self-inspects. Flint DEQ: hid the data. Public defenders: 7 minutes. Big Tech: Section 230. Catho. Yet no one has written the article that asks the direct question. Until now.",
+      "tags": [
+        "article",
+        "investigation",
+        "direct_ask",
+        "auto_generated"
+      ]
+    },
+    {
+      "id": "article_sbe",
+      "label": "ARTICLE: Michigan State Board of Education -- 233 Connections, 54 Articles, Zero Answers",
+      "class": "article",
+      "role": "This entity appears in 54 articles and has 233 connections in the graph. Original role: state education oversight board. Yet no one has written the article that asks the direct question. Until now.",
+      "tags": [
+        "article",
+        "investigation",
+        "direct_ask",
+        "auto_generated"
+      ]
+    },
+    {
+      "id": "article_dpscd",
+      "label": "ARTICLE: Detroit Public Schools Community District -- 231 Connections, 58 Articles, Zero Answers",
+      "class": "article",
+      "role": "This entity appears in 58 articles and has 231 connections in the graph. Original role: public school district (authorizer). Yet no one has written the article that asks the direct question. Until now.",
+      "tags": [
+        "article",
+        "investigation",
+        "direct_ask",
+        "auto_generated"
+      ]
+    },
+    {
+      "id": "article_wayne_resa_audit",
+      "label": "ARTICLE: Wayne RESA Financial Oversight -- 200 Connections, 52 Articles, Zero Answers",
+      "class": "article",
+      "role": "This entity appears in 52 articles and has 200 connections in the graph. Original role: Wayne RESA performs financial oversight of charter schools. Did they audit PCA/MacDowell? Did they catch the LLC extraction? Raphael Washington is superintendent.. Yet no one has written the article that asks the direct question. Until now.",
+      "tags": [
+        "article",
+        "investigation",
+        "direct_ask",
+        "auto_generated"
+      ]
+    },
+    {
+      "id": "article_richard_mclellan",
+      "label": "ARTICLE: Richard D. McLellan -- 195 Connections, 54 Articles, Zero Answers",
+      "class": "article",
+      "role": "This entity appears in 54 articles and has 195 connections in the graph. Original role: Former Dykema partner (1982-2007, retired). Co-authored MI charter school law (PA 362). CO-FOUNDED Mackinac Center for Public Policy (1987) with Engler. Engler transition director (1990). McPherson Co. Yet no one has written the article that asks the direct question. Until now.",
+      "tags": [
+        "article",
+        "investigation",
+        "direct_ask",
+        "auto_generated"
+      ]
+    },
+    {
+      "id": "article_bmf",
+      "label": "ARTICLE: Black Mafia Family (BMF) -- 193 Connections, 24 Articles, Zero Answers",
+      "class": "article",
+      "role": "This entity appears in 24 articles and has 193 connections in the graph. Original role: criminal enterprise (structural parallel). Yet no one has written the article that asks the direct question. Until now.",
+      "tags": [
+        "article",
+        "investigation",
+        "direct_ask",
+        "auto_generated"
+      ]
+    },
+    {
+      "id": "article_detroit_free_press",
+      "label": "ARTICLE: Detroit Free Press -- 187 Connections, 103 Articles, Zero Answers",
+      "class": "article",
+      "role": "This entity appears in 103 articles and has 187 connections in the graph. Original role: Major Detroit newspaper. Covered Chatfield/BMF/charter school stories. Investigation briefing packet delivered Sep 22, 2026.. Yet no one has written the article that asks the direct question. Until now.",
+      "tags": [
+        "article",
+        "investigation",
+        "direct_ask",
+        "auto_generated"
+      ]
     }
   ],
   "edges": [
@@ -310192,6 +310312,4360 @@
       "type": "co_investigation",
       "epistemic_status": "record",
       "note": "Michigan actors should cross-connect"
+    },
+    {
+      "source": "article_charter_law_1993",
+      "target": "charter_law_1993",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "The article that asks PA 362 — Michigan Charter School Law (1993) directly"
+    },
+    {
+      "source": "article_charter_law_1993",
+      "target": "charter_law_1993",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "You have 544 connections and appear in 51 articles. What is your answer?"
+    },
+    {
+      "source": "article_charter_law_1993",
+      "target": "article_370",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_charter_law_1993",
+      "target": "article_allied_cases",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_charter_law_1993",
+      "target": "article_anderson_localization",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_charter_law_1993",
+      "target": "article_anderson_permeability",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_charter_law_1993",
+      "target": "article_credential_audit",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_charter_law_1993",
+      "target": "article_damages_calculator",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_charter_law_1993",
+      "target": "article_dark_money",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_charter_law_1993",
+      "target": "article_detroit_literacy",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_charter_law_1993",
+      "target": "article_dykema_chronology",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_charter_law_1993",
+      "target": "article_education_landscape",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_charter_law_1993",
+      "target": "article_epitope_table",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_charter_law_1993",
+      "target": "article_historical_pattern",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_charter_law_1993",
+      "target": "article_how_to_build_os",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_charter_law_1993",
+      "target": "article_institutional_capture_graph",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_charter_law_1993",
+      "target": "article_institutional_capture",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_charter_law_1993",
+      "target": "article_institutional_response",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_charter_law_1993",
+      "target": "article_knowledge_commons",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_charter_law_1993",
+      "target": "article_leak_in_dyke",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_charter_law_1993",
+      "target": "article_one_way_door",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_charter_law_1993",
+      "target": "article_plante_moran",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_charter_law_1993",
+      "target": "article_questions",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_charter_law_1993",
+      "target": "article_rico_pattern",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_charter_law_1993",
+      "target": "article_shepherds_wolves",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_charter_law_1993",
+      "target": "article_the_machine",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_charter_law_1993",
+      "target": "article_narrative_pipeline",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_charter_law_1993",
+      "target": "article_hiding_behind_you",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_charter_law_1993",
+      "target": "article_whitmer_direct",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_charter_law_1993",
+      "target": "article_mclellan_direct",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_charter_law_1993",
+      "target": "article_engler_direct",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_charter_law_1993",
+      "target": "article_archer_direct",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_charter_law_1993",
+      "target": "article_dykema_wrote_the_law",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_charter_law_1993",
+      "target": "article_devos_bought_silence",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_charter_law_1993",
+      "target": "article_by_the_numbers",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_charter_law_1993",
+      "target": "article_come_and_see",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_charter_law_1993",
+      "target": "article_judge_miller_direct",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_charter_law_1993",
+      "target": "article_cavanagh_direct",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_charter_law_1993",
+      "target": "article_named_entities",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_charter_law_1993",
+      "target": "article_cmu_authorizer",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_charter_law_1993",
+      "target": "article_oversight_failure",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_charter_law_1993",
+      "target": "article_same_pattern_everywhere",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_charter_law_1993",
+      "target": "article_where_we_havent_been",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_charter_law_1993",
+      "target": "article_momentum",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_charter_law_1993",
+      "target": "article_dykema_scathing",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_charter_law_1993",
+      "target": "article_pa362",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_charter_law_1993",
+      "target": "article_purpose_group",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_charter_law_1993",
+      "target": "article_engler_signed",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_charter_law_1993",
+      "target": "article_evolution",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_charter_law_1993",
+      "target": "article_nassar_pattern",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_charter_law_1993",
+      "target": "article_complicit",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_charter_law_1993",
+      "target": "article_nobel_vs_banks",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_charter_law_1993",
+      "target": "article_burn_it_down",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_charter_law_1993",
+      "target": "banks",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "All roads lead here"
+    },
+    {
+      "source": "article_detroit_city",
+      "target": "detroit_city",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "The article that asks City of Detroit directly"
+    },
+    {
+      "source": "article_detroit_city",
+      "target": "detroit_city",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "You have 334 connections and appear in 24 articles. What is your answer?"
+    },
+    {
+      "source": "article_detroit_city",
+      "target": "article_allied_cases",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_city",
+      "target": "article_anderson_localization",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_city",
+      "target": "article_anderson_permeability",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_city",
+      "target": "article_credential_audit",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_city",
+      "target": "article_damages_calculator",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_city",
+      "target": "article_dark_money",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_city",
+      "target": "article_detroit_literacy",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_city",
+      "target": "article_dykema_chronology",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_city",
+      "target": "article_education_landscape",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_city",
+      "target": "article_epitope_table",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_city",
+      "target": "article_historical_pattern",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_city",
+      "target": "article_institutional_capture_graph",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_city",
+      "target": "article_institutional_capture",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_city",
+      "target": "article_institutional_response",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_city",
+      "target": "article_land_deal",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_city",
+      "target": "article_plante_moran",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_city",
+      "target": "article_questions",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_city",
+      "target": "article_rico_pattern",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_city",
+      "target": "article_shepherds_wolves",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_city",
+      "target": "article_the_machine",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_city",
+      "target": "article_narrative_pipeline",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_city",
+      "target": "article_momentum",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_city",
+      "target": "article_evolution",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_city",
+      "target": "article_complicit",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_city",
+      "target": "banks",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "All roads lead here"
+    },
+    {
+      "source": "article_mde",
+      "target": "mde",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "The article that asks Michigan Department of Education directly"
+    },
+    {
+      "source": "article_mde",
+      "target": "mde",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "You have 303 connections and appear in 50 articles. What is your answer?"
+    },
+    {
+      "source": "article_mde",
+      "target": "article_allied_cases",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_mde",
+      "target": "article_anderson_localization",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_mde",
+      "target": "article_anderson_permeability",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_mde",
+      "target": "article_credential_audit",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_mde",
+      "target": "article_damages_calculator",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_mde",
+      "target": "article_dark_money",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_mde",
+      "target": "article_detroit_literacy",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_mde",
+      "target": "article_dykema_chronology",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_mde",
+      "target": "article_education_landscape",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_mde",
+      "target": "article_epitope_table",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_mde",
+      "target": "article_historical_pattern",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_mde",
+      "target": "article_institutional_capture_graph",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_mde",
+      "target": "article_institutional_capture",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_mde",
+      "target": "article_institutional_response",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_mde",
+      "target": "article_plante_moran",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_mde",
+      "target": "article_questions",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_mde",
+      "target": "article_rico_pattern",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_mde",
+      "target": "article_shepherds_wolves",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_mde",
+      "target": "article_the_machine",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_mde",
+      "target": "article_narrative_pipeline",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_mde",
+      "target": "article_hiding_behind_you",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_mde",
+      "target": "article_children_cry_nobody_comes",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_mde",
+      "target": "article_by_the_numbers",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_mde",
+      "target": "article_come_and_see",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_mde",
+      "target": "article_cmu_authorizer",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_mde",
+      "target": "article_oversight_failure",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_mde",
+      "target": "article_let_others_ask",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_mde",
+      "target": "article_who_does_the_work",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_mde",
+      "target": "article_detroit_to_stars",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_mde",
+      "target": "article_where_we_havent_been",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_mde",
+      "target": "article_momentum",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_mde",
+      "target": "article_pa362",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_mde",
+      "target": "article_purpose_group",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_mde",
+      "target": "article_evolution",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_mde",
+      "target": "article_nassar_pattern",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_mde",
+      "target": "article_child_eaters",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_mde",
+      "target": "article_gravity_well",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_mde",
+      "target": "article_name_the_victims",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_mde",
+      "target": "article_spiral_out",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_mde",
+      "target": "article_spiral_down",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_mde",
+      "target": "article_spiral_up",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_mde",
+      "target": "article_spiral_across",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_mde",
+      "target": "article_americana",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_mde",
+      "target": "article_complicit",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_mde",
+      "target": "article_man_bites_dog",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_mde",
+      "target": "article_exoplanet_cant_read",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_mde",
+      "target": "article_unesco_not_children",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_mde",
+      "target": "article_ocean_deeper",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_mde",
+      "target": "article_how_to_reach_them",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_mde",
+      "target": "article_burn_it_down",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_mde",
+      "target": "banks",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "All roads lead here"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "pattern_regulatory_capture",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "The article that asks THE PATTERN: Regulatory Capture Across Every Domain directly"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "pattern_regulatory_capture",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "You have 265 connections and appear in 67 articles. What is your answer?"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_allied_cases",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_anderson_localization",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_anderson_permeability",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_banks_holland",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_credential_audit",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_damages_calculator",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_dark_money",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_detroit_literacy",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_dykema_chronology",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_education_landscape",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_epitope_table",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_historical_pattern",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_institutional_capture_graph",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_institutional_capture",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_institutional_response",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_plante_moran",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_questions",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_rico_pattern",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_shepherds_wolves",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_the_machine",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_narrative_pipeline",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_hiding_behind_you",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_nessel_direct",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_follow_the_money",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_devos_bought_silence",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_smith_family",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_wheres_the_video",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_named_entities",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_macdowell_direct",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_cmu_authorizer",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_oversight_failure",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_let_others_ask",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_who_does_the_work",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_nessel_badge",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_chief_white",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_1_8_million",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_same_pattern_everywhere",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_perkins_gatekeeper",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_where_we_havent_been",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_momentum",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_pm_scathing",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_dykema_scathing",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_cmu_scathing",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_agc_scathing",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_money_machine_scathing",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_pa362",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_purpose_group",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_jtc_scathing",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_evolution",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_nassar_pattern",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_child_eaters",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_revolving_door",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_ghost_network",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_faintest_glimmer",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_breeding_ground",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_gravity_well",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_council_does_nothing",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_dynasty_map",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_name_the_victims",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_spiral_out",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_spiral_down",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_spiral_up",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_spiral_across",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_americana",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_complicit",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_man_bites_dog",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "article_burn_it_down",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "banks",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "All roads lead here"
+    },
+    {
+      "source": "article_sbe",
+      "target": "sbe",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "The article that asks Michigan State Board of Education directly"
+    },
+    {
+      "source": "article_sbe",
+      "target": "sbe",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "You have 233 connections and appear in 54 articles. What is your answer?"
+    },
+    {
+      "source": "article_sbe",
+      "target": "article_allied_cases",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_sbe",
+      "target": "article_anderson_localization",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_sbe",
+      "target": "article_anderson_permeability",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_sbe",
+      "target": "article_credential_audit",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_sbe",
+      "target": "article_damages_calculator",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_sbe",
+      "target": "article_dark_money",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_sbe",
+      "target": "article_detroit_literacy",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_sbe",
+      "target": "article_dykema_chronology",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_sbe",
+      "target": "article_education_landscape",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_sbe",
+      "target": "article_epitope_table",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_sbe",
+      "target": "article_historical_pattern",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_sbe",
+      "target": "article_institutional_capture_graph",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_sbe",
+      "target": "article_institutional_capture",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_sbe",
+      "target": "article_institutional_response",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_sbe",
+      "target": "article_plante_moran",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_sbe",
+      "target": "article_questions",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_sbe",
+      "target": "article_rico_pattern",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_sbe",
+      "target": "article_shepherds_wolves",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_sbe",
+      "target": "article_the_machine",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_sbe",
+      "target": "article_narrative_pipeline",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_sbe",
+      "target": "article_hiding_behind_you",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_sbe",
+      "target": "article_sbe_direct",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_sbe",
+      "target": "article_devos_bought_silence",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_sbe",
+      "target": "article_smith_family",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_sbe",
+      "target": "article_named_entities",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_sbe",
+      "target": "article_macdowell_direct",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_sbe",
+      "target": "article_cmu_authorizer",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_sbe",
+      "target": "article_oversight_failure",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_sbe",
+      "target": "article_let_others_ask",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_sbe",
+      "target": "article_who_does_the_work",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_sbe",
+      "target": "article_nessel_badge",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_sbe",
+      "target": "article_chief_white",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_sbe",
+      "target": "article_1_8_million",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_sbe",
+      "target": "article_perkins_gatekeeper",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_sbe",
+      "target": "article_where_we_havent_been",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_sbe",
+      "target": "article_momentum",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_sbe",
+      "target": "article_pm_scathing",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_sbe",
+      "target": "article_cmu_scathing",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_sbe",
+      "target": "article_agc_scathing",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_sbe",
+      "target": "article_pa362",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_sbe",
+      "target": "article_purpose_group",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_sbe",
+      "target": "article_jtc_scathing",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_sbe",
+      "target": "article_evolution",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_sbe",
+      "target": "article_nassar_pattern",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_sbe",
+      "target": "article_child_eaters",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_sbe",
+      "target": "article_revolving_door",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_sbe",
+      "target": "article_breeding_ground",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_sbe",
+      "target": "article_gravity_well",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_sbe",
+      "target": "article_council_does_nothing",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_sbe",
+      "target": "article_dynasty_map",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_sbe",
+      "target": "article_spiral_down",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_sbe",
+      "target": "article_spiral_across",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_sbe",
+      "target": "article_complicit",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_sbe",
+      "target": "article_man_bites_dog",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_sbe",
+      "target": "banks",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "All roads lead here"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "dpscd",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "The article that asks Detroit Public Schools Community District directly"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "dpscd",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "You have 231 connections and appear in 58 articles. What is your answer?"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "article_allied_cases",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "article_anderson_localization",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "article_anderson_permeability",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "article_credential_audit",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "article_damages_calculator",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "article_damages_register",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "article_dark_money",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "article_detroit_literacy",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "article_dykema_chronology",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "article_education_landscape",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "article_epitope_table",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "article_funding_flow",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "article_historical_pattern",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "article_institutional_capture_graph",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "article_institutional_capture",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "article_institutional_response",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "article_plante_moran",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "article_questions",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "article_rico_pattern",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "article_shepherds_wolves",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "article_the_machine",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "article_narrative_pipeline",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "article_hiding_behind_you",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "article_devos_bought_silence",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "article_smith_family",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "article_named_entities",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "article_macdowell_direct",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "article_cmu_authorizer",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "article_oversight_failure",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "article_let_others_ask",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "article_who_does_the_work",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "article_nessel_badge",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "article_vitti_280k",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "article_chief_white",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "article_1_8_million",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "article_perkins_gatekeeper",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "article_where_we_havent_been",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "article_momentum",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "article_pm_scathing",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "article_cmu_scathing",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "article_agc_scathing",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "article_pa362",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "article_purpose_group",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "article_jtc_scathing",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "article_evolution",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "article_nassar_pattern",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "article_child_eaters",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "article_revolving_door",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "article_breeding_ground",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "article_gravity_well",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "article_council_does_nothing",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "article_dynasty_map",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "article_spiral_down",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "article_spiral_across",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "article_complicit",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "article_man_bites_dog",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "article_how_to_reach_them",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "article_burn_it_down",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "banks",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "All roads lead here"
+    },
+    {
+      "source": "article_wayne_resa_audit",
+      "target": "wayne_resa_audit",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "The article that asks Wayne RESA Financial Oversight directly"
+    },
+    {
+      "source": "article_wayne_resa_audit",
+      "target": "wayne_resa_audit",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "You have 200 connections and appear in 52 articles. What is your answer?"
+    },
+    {
+      "source": "article_wayne_resa_audit",
+      "target": "article_allied_cases",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_wayne_resa_audit",
+      "target": "article_anderson_localization",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_wayne_resa_audit",
+      "target": "article_anderson_permeability",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_wayne_resa_audit",
+      "target": "article_credential_audit",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_wayne_resa_audit",
+      "target": "article_damages_calculator",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_wayne_resa_audit",
+      "target": "article_dark_money",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_wayne_resa_audit",
+      "target": "article_detroit_literacy",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_wayne_resa_audit",
+      "target": "article_dykema_chronology",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_wayne_resa_audit",
+      "target": "article_education_landscape",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_wayne_resa_audit",
+      "target": "article_epitope_table",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_wayne_resa_audit",
+      "target": "article_historical_pattern",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_wayne_resa_audit",
+      "target": "article_institutional_capture_graph",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_wayne_resa_audit",
+      "target": "article_institutional_capture",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_wayne_resa_audit",
+      "target": "article_institutional_response",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_wayne_resa_audit",
+      "target": "article_plante_moran",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_wayne_resa_audit",
+      "target": "article_questions",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_wayne_resa_audit",
+      "target": "article_rico_pattern",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_wayne_resa_audit",
+      "target": "article_shepherds_wolves",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_wayne_resa_audit",
+      "target": "article_the_machine",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_wayne_resa_audit",
+      "target": "article_narrative_pipeline",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_wayne_resa_audit",
+      "target": "article_devos_bought_silence",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_wayne_resa_audit",
+      "target": "article_smith_family",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_wayne_resa_audit",
+      "target": "article_named_entities",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_wayne_resa_audit",
+      "target": "article_macdowell_direct",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_wayne_resa_audit",
+      "target": "article_cmu_authorizer",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_wayne_resa_audit",
+      "target": "article_oversight_failure",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_wayne_resa_audit",
+      "target": "article_let_others_ask",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_wayne_resa_audit",
+      "target": "article_who_does_the_work",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_wayne_resa_audit",
+      "target": "article_nessel_badge",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_wayne_resa_audit",
+      "target": "article_chief_white",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_wayne_resa_audit",
+      "target": "article_1_8_million",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_wayne_resa_audit",
+      "target": "article_perkins_gatekeeper",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_wayne_resa_audit",
+      "target": "article_where_we_havent_been",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_wayne_resa_audit",
+      "target": "article_momentum",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_wayne_resa_audit",
+      "target": "article_pm_scathing",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_wayne_resa_audit",
+      "target": "article_cmu_scathing",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_wayne_resa_audit",
+      "target": "article_agc_scathing",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_wayne_resa_audit",
+      "target": "article_pa362",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_wayne_resa_audit",
+      "target": "article_purpose_group",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_wayne_resa_audit",
+      "target": "article_jtc_scathing",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_wayne_resa_audit",
+      "target": "article_evolution",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_wayne_resa_audit",
+      "target": "article_nassar_pattern",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_wayne_resa_audit",
+      "target": "article_child_eaters",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_wayne_resa_audit",
+      "target": "article_revolving_door",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_wayne_resa_audit",
+      "target": "article_breeding_ground",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_wayne_resa_audit",
+      "target": "article_gravity_well",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_wayne_resa_audit",
+      "target": "article_council_does_nothing",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_wayne_resa_audit",
+      "target": "article_dynasty_map",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_wayne_resa_audit",
+      "target": "article_spiral_down",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_wayne_resa_audit",
+      "target": "article_spiral_across",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_wayne_resa_audit",
+      "target": "article_complicit",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_wayne_resa_audit",
+      "target": "article_man_bites_dog",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_wayne_resa_audit",
+      "target": "banks",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "All roads lead here"
+    },
+    {
+      "source": "article_richard_mclellan",
+      "target": "richard_mclellan",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "The article that asks Richard D. McLellan directly"
+    },
+    {
+      "source": "article_richard_mclellan",
+      "target": "richard_mclellan",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "You have 195 connections and appear in 54 articles. What is your answer?"
+    },
+    {
+      "source": "article_richard_mclellan",
+      "target": "article_allied_cases",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_richard_mclellan",
+      "target": "article_anderson_localization",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_richard_mclellan",
+      "target": "article_anderson_permeability",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_richard_mclellan",
+      "target": "article_credential_audit",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_richard_mclellan",
+      "target": "article_damages_calculator",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_richard_mclellan",
+      "target": "article_dark_money",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_richard_mclellan",
+      "target": "article_detroit_literacy",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_richard_mclellan",
+      "target": "article_dykema_chronology",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_richard_mclellan",
+      "target": "article_education_landscape",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_richard_mclellan",
+      "target": "article_epitope_table",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_richard_mclellan",
+      "target": "article_historical_pattern",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_richard_mclellan",
+      "target": "article_institutional_capture_graph",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_richard_mclellan",
+      "target": "article_institutional_capture",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_richard_mclellan",
+      "target": "article_institutional_response",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_richard_mclellan",
+      "target": "article_leak_in_dyke",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_richard_mclellan",
+      "target": "article_plante_moran",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_richard_mclellan",
+      "target": "article_questions",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_richard_mclellan",
+      "target": "article_rico_pattern",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_richard_mclellan",
+      "target": "article_shepherds_wolves",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_richard_mclellan",
+      "target": "article_the_machine",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_richard_mclellan",
+      "target": "article_narrative_pipeline",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_richard_mclellan",
+      "target": "article_mclellan_direct",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_richard_mclellan",
+      "target": "article_devos_bought_silence",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_richard_mclellan",
+      "target": "article_smith_family",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_richard_mclellan",
+      "target": "article_named_entities",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_richard_mclellan",
+      "target": "article_macdowell_direct",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_richard_mclellan",
+      "target": "article_cmu_authorizer",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_richard_mclellan",
+      "target": "article_oversight_failure",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_richard_mclellan",
+      "target": "article_let_others_ask",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_richard_mclellan",
+      "target": "article_who_does_the_work",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_richard_mclellan",
+      "target": "article_nessel_badge",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_richard_mclellan",
+      "target": "article_chief_white",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_richard_mclellan",
+      "target": "article_1_8_million",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_richard_mclellan",
+      "target": "article_perkins_gatekeeper",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_richard_mclellan",
+      "target": "article_where_we_havent_been",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_richard_mclellan",
+      "target": "article_momentum",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_richard_mclellan",
+      "target": "article_pm_scathing",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_richard_mclellan",
+      "target": "article_cmu_scathing",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_richard_mclellan",
+      "target": "article_agc_scathing",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_richard_mclellan",
+      "target": "article_pa362",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_richard_mclellan",
+      "target": "article_purpose_group",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_richard_mclellan",
+      "target": "article_jtc_scathing",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_richard_mclellan",
+      "target": "article_evolution",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_richard_mclellan",
+      "target": "article_nassar_pattern",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_richard_mclellan",
+      "target": "article_child_eaters",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_richard_mclellan",
+      "target": "article_revolving_door",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_richard_mclellan",
+      "target": "article_breeding_ground",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_richard_mclellan",
+      "target": "article_gravity_well",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_richard_mclellan",
+      "target": "article_council_does_nothing",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_richard_mclellan",
+      "target": "article_dynasty_map",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_richard_mclellan",
+      "target": "article_spiral_down",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_richard_mclellan",
+      "target": "article_spiral_across",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_richard_mclellan",
+      "target": "article_complicit",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_richard_mclellan",
+      "target": "article_man_bites_dog",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_richard_mclellan",
+      "target": "banks",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "All roads lead here"
+    },
+    {
+      "source": "article_bmf",
+      "target": "bmf",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "The article that asks Black Mafia Family (BMF) directly"
+    },
+    {
+      "source": "article_bmf",
+      "target": "bmf",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "You have 193 connections and appear in 24 articles. What is your answer?"
+    },
+    {
+      "source": "article_bmf",
+      "target": "article_allied_cases",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_bmf",
+      "target": "article_anderson_localization",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_bmf",
+      "target": "article_anderson_permeability",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_bmf",
+      "target": "article_credential_audit",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_bmf",
+      "target": "article_damages_calculator",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_bmf",
+      "target": "article_dark_money",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_bmf",
+      "target": "article_detroit_literacy",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_bmf",
+      "target": "article_dykema_chronology",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_bmf",
+      "target": "article_education_landscape",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_bmf",
+      "target": "article_epitope_table",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_bmf",
+      "target": "article_historical_pattern",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_bmf",
+      "target": "article_institutional_capture_graph",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_bmf",
+      "target": "article_institutional_capture",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_bmf",
+      "target": "article_institutional_response",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_bmf",
+      "target": "article_plante_moran",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_bmf",
+      "target": "article_questions",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_bmf",
+      "target": "article_rico_pattern",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_bmf",
+      "target": "article_shepherds_wolves",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_bmf",
+      "target": "article_the_machine",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_bmf",
+      "target": "article_narrative_pipeline",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_bmf",
+      "target": "article_worthy_wont",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_bmf",
+      "target": "article_holland_exposed",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_bmf",
+      "target": "article_evolution",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_bmf",
+      "target": "article_complicit",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_bmf",
+      "target": "banks",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "All roads lead here"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "detroit_free_press",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "The article that asks Detroit Free Press directly"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "detroit_free_press",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "You have 187 connections and appear in 103 articles. What is your answer?"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_370",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_allied_cases",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_anderson_localization",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_anderson_permeability",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_banks_holland",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_cbc_events",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_corporate_network",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_credential_audit",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_damages_calculator",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_damages_register",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_dark_money",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_detroit_literacy",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_dykema_chronology",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_education_landscape",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_epitope_table",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_funding_flow",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_historical_pattern",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_how_to_build_os",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_institutional_capture_graph",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_institutional_capture",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_institutional_response",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_knowledge_commons",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_land_deal",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_leak_in_dyke",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_one_way_door",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_plante_moran",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_questions",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_rico_pattern",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_shepherds_wolves",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_flower_to_wilk",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_the_machine",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_narrative_pipeline",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_the_voice",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_words_vs_numbers",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_hiding_behind_you",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_fill_the_seats",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_benson_direct",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_vitti_direct",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_sheffield_direct",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_worthy_direct",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_gay_dagnogo_direct",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_stallworth_direct",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_archer_direct",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_council_direct",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_index",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_phone_call_this_morning",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_kwame_connection",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_judge_yancey_direct",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_henri_harmon_direct",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_glenn_page_direct",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_roland_martin_direct",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_duggan_direct",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_hiding_behind_race",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_yeah_you_parent",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_the_way_forward",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_you_yeah_you",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_smith_family",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_are_you_ok",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_wheres_the_video",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_named_entities",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_macdowell_direct",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_cmu_authorizer",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_oversight_failure",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_let_others_ask",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_who_does_the_work",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_nessel_badge",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_benson_certify",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_vitti_280k",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_worthy_wont",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_chief_white",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_1_8_million",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_hope_love_educators",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_same_pattern_everywhere",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_detroit_to_stars",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_perkins_gatekeeper",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_where_we_havent_been",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_holland_exposed",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_momentum",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_pm_scathing",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_dykema_scathing",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_cmu_scathing",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_agc_scathing",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_money_machine_scathing",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_pa362",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_purpose_group",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_jtc_scathing",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_roland_martin",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_engler_signed",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_evolution",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_nassar_pattern",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_child_eaters",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_faintest_glimmer",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_gravity_well",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_name_the_victims",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_spiral_out",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_spiral_down",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_spiral_up",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_spiral_across",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_americana",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_complicit",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_man_bites_dog",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_how_to_reach_them",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "article_burn_it_down",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Shared subject"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "banks",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "All roads lead here"
+    },
+    {
+      "source": "article_banks_holland",
+      "target": "banks",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "This article covers you. Answer the questions inside."
+    },
+    {
+      "source": "article_cbc_events",
+      "target": "banks",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "This article covers you. Answer the questions inside."
+    },
+    {
+      "source": "article_corporate_network",
+      "target": "banks",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "This article covers you. Answer the questions inside."
+    },
+    {
+      "source": "article_credential_audit",
+      "target": "banks",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "This article covers you. Answer the questions inside."
+    },
+    {
+      "source": "article_damages_calculator",
+      "target": "banks",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "This article covers you. Answer the questions inside."
+    },
+    {
+      "source": "article_damages_register",
+      "target": "banks",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "This article covers you. Answer the questions inside."
+    },
+    {
+      "source": "article_detroit_literacy",
+      "target": "banks",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "This article covers you. Answer the questions inside."
+    },
+    {
+      "source": "article_dykema_chronology",
+      "target": "banks",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "This article covers you. Answer the questions inside."
+    },
+    {
+      "source": "article_education_landscape",
+      "target": "banks",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "This article covers you. Answer the questions inside."
+    },
+    {
+      "source": "article_epitope_table",
+      "target": "banks",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "This article covers you. Answer the questions inside."
+    },
+    {
+      "source": "article_funding_flow",
+      "target": "banks",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "This article covers you. Answer the questions inside."
+    },
+    {
+      "source": "article_historical_pattern",
+      "target": "banks",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "This article covers you. Answer the questions inside."
+    },
+    {
+      "source": "article_how_to_build_os",
+      "target": "charter_law_1993",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "This article covers you. Answer the questions inside."
+    },
+    {
+      "source": "article_institutional_capture_graph",
+      "target": "banks",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "This article covers you. Answer the questions inside."
+    },
+    {
+      "source": "article_institutional_capture",
+      "target": "banks",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "This article covers you. Answer the questions inside."
+    },
+    {
+      "source": "article_institutional_response",
+      "target": "banks",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "This article covers you. Answer the questions inside."
+    },
+    {
+      "source": "article_land_deal",
+      "target": "banks",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "This article covers you. Answer the questions inside."
+    },
+    {
+      "source": "article_leak_in_dyke",
+      "target": "banks",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "This article covers you. Answer the questions inside."
+    },
+    {
+      "source": "article_one_way_door",
+      "target": "banks",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "This article covers you. Answer the questions inside."
+    },
+    {
+      "source": "article_questions",
+      "target": "banks",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "This article covers you. Answer the questions inside."
+    },
+    {
+      "source": "article_rico_pattern",
+      "target": "banks",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "This article covers you. Answer the questions inside."
+    },
+    {
+      "source": "article_shepherds_wolves",
+      "target": "banks",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "This article covers you. Answer the questions inside."
+    },
+    {
+      "source": "article_the_machine",
+      "target": "banks",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "This article covers you. Answer the questions inside."
+    },
+    {
+      "source": "article_narrative_pipeline",
+      "target": "banks",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "This article covers you. Answer the questions inside."
+    },
+    {
+      "source": "article_the_voice",
+      "target": "banks",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "This article covers you. Answer the questions inside."
+    },
+    {
+      "source": "article_words_vs_numbers",
+      "target": "banks",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "This article covers you. Answer the questions inside."
+    },
+    {
+      "source": "article_fill_the_seats",
+      "target": "article_evolution",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "This article covers you. Answer the questions inside."
+    },
+    {
+      "source": "article_index",
+      "target": "article_evolution",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "This article covers you. Answer the questions inside."
+    },
+    {
+      "source": "article_9_convictions_your_kids",
+      "target": "banks",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "This article covers you. Answer the questions inside."
+    },
+    {
+      "source": "article_ag_employee_board",
+      "target": "banks",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "This article covers you. Answer the questions inside."
+    },
+    {
+      "source": "article_children_cry_nobody_comes",
+      "target": "banks",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "This article covers you. Answer the questions inside."
+    },
+    {
+      "source": "article_dykema_wrote_the_law",
+      "target": "banks",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "This article covers you. Answer the questions inside."
+    },
+    {
+      "source": "article_phone_call_this_morning",
+      "target": "banks",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "This article covers you. Answer the questions inside."
+    },
+    {
+      "source": "article_perkins_slept_on_it",
+      "target": "banks",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "This article covers you. Answer the questions inside."
+    },
+    {
+      "source": "article_op_ed_mandate_revoked",
+      "target": "banks",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "This article covers you. Answer the questions inside."
+    },
+    {
+      "source": "article_op_ed_null_kills",
+      "target": "banks",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "This article covers you. Answer the questions inside."
+    },
+    {
+      "source": "article_the_way_forward",
+      "target": "article_evolution",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "This article covers you. Answer the questions inside."
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "banks",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "This article covers you. Answer the questions inside."
+    },
+    {
+      "source": "article_nobel_vs_banks",
+      "target": "banks",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "This article covers you. Answer the questions inside."
+    },
+    {
+      "source": "article_creatures_explain_pca",
+      "target": "banks",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "This article covers you. Answer the questions inside."
+    },
+    {
+      "source": "gunpei_yokoi",
+      "target": "banks",
+      "type": "structural_proximity",
+      "epistemic_status": "record",
+      "note": "Pulled from 5 hops to direct connection"
+    },
+    {
+      "source": "bnd",
+      "target": "banks",
+      "type": "structural_proximity",
+      "epistemic_status": "record",
+      "note": "Pulled from 4 hops to direct connection"
+    },
+    {
+      "source": "operation_paperclip",
+      "target": "banks",
+      "type": "structural_proximity",
+      "epistemic_status": "record",
+      "note": "Pulled from 4 hops to direct connection"
+    },
+    {
+      "source": "dgse",
+      "target": "banks",
+      "type": "structural_proximity",
+      "epistemic_status": "record",
+      "note": "Pulled from 4 hops to direct connection"
+    },
+    {
+      "source": "oss",
+      "target": "banks",
+      "type": "structural_proximity",
+      "epistemic_status": "record",
+      "note": "Pulled from 4 hops to direct connection"
+    },
+    {
+      "source": "mossad",
+      "target": "banks",
+      "type": "structural_proximity",
+      "epistemic_status": "record",
+      "note": "Pulled from 4 hops to direct connection"
+    },
+    {
+      "source": "guatemala_1954",
+      "target": "banks",
+      "type": "structural_proximity",
+      "epistemic_status": "record",
+      "note": "Pulled from 4 hops to direct connection"
+    },
+    {
+      "source": "pnac",
+      "target": "banks",
+      "type": "structural_proximity",
+      "epistemic_status": "record",
+      "note": "Pulled from 4 hops to direct connection"
+    },
+    {
+      "source": "joe_wilson",
+      "target": "banks",
+      "type": "structural_proximity",
+      "epistemic_status": "record",
+      "note": "Pulled from 4 hops to direct connection"
+    },
+    {
+      "source": "john_von_neumann",
+      "target": "banks",
+      "type": "structural_proximity",
+      "epistemic_status": "record",
+      "note": "Pulled from 4 hops to direct connection"
+    },
+    {
+      "source": "carl_gauss",
+      "target": "banks",
+      "type": "structural_proximity",
+      "epistemic_status": "record",
+      "note": "Pulled from 4 hops to direct connection"
+    },
+    {
+      "source": "pax_mongolica",
+      "target": "banks",
+      "type": "structural_proximity",
+      "epistemic_status": "record",
+      "note": "Pulled from 4 hops to direct connection"
+    },
+    {
+      "source": "arpanet",
+      "target": "banks",
+      "type": "structural_proximity",
+      "epistemic_status": "record",
+      "note": "Pulled from 4 hops to direct connection"
+    },
+    {
+      "source": "game_boy",
+      "target": "banks",
+      "type": "structural_proximity",
+      "epistemic_status": "record",
+      "note": "Pulled from 4 hops to direct connection"
+    },
+    {
+      "source": "satoshi_tajiri",
+      "target": "banks",
+      "type": "structural_proximity",
+      "epistemic_status": "record",
+      "note": "Pulled from 4 hops to direct connection"
     }
   ],
   "epistemic_grammar": {
