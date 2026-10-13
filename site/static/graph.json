@@ -67416,6 +67416,110 @@
         "mesh",
         "whistleblower"
       ]
+    },
+    {
+      "id": "ppo_hearing_banks",
+      "label": "PPO Hearing: Banks Claims Video Evidence",
+      "class": "event",
+      "role": "Brian Banks appeared at a PPO hearing. Banks claimed he had video of Kevin acting poorly. Dede Banks is the ONLY person who has seen this alleged video. Dede said Kevin acted like he normally does. Banks says the video shows bad behavior. Dede says it shows normal behavior. One of them is lying. If the video is real: it was filmed at a PUBLIC school. Kevin Mok approves its publication. He consents. Publish it. WHERE IS THE VIDEO, BRIAN? If it shows what you say it shows, publish it. If it doesn't exist, that's perjury at a PPO hearing.",
+      "tags": [
+        "epitope",
+        "investigation",
+        "legal",
+        "ppo",
+        "evidence",
+        "banks"
+      ]
+    },
+    {
+      "id": "false_reports_banks_smith",
+      "label": "False Police Reports: Banks and the Smiths",
+      "class": "event",
+      "role": "Brian Banks and the Smith family filed false police reports. False reporting is a crime under Michigan law (MCL 750.411a). Filing a false police report is a misdemeanor punishable by up to 93 days. If the false report accuses someone of a felony, it is a felony (up to 4 years). Banks already has 9 criminal convictions. The Smiths chose to participate in filing false reports. Every officer who took these reports has a name and a badge number.",
+      "tags": [
+        "epitope",
+        "investigation",
+        "legal",
+        "criminal",
+        "false_report",
+        "smith",
+        "banks"
+      ]
+    },
+    {
+      "id": "police_ppo_notification",
+      "label": "Police Called About PPO -- Refused All Information",
+      "class": "event",
+      "role": "Police called Kevin Mok to inform him a PPO was filed against him. They refused to provide any information about the PPO. They gave him none. The City of Detroit is hiding Kevin's information and saying it's theirs. A citizen has a right to know the details of legal actions filed against him. The police served as Banks's personal notification service while withholding the information Kevin needs to respond.",
+      "tags": [
+        "epitope",
+        "investigation",
+        "legal",
+        "police",
+        "detroit",
+        "obstruction"
+      ]
+    },
+    {
+      "id": "det_5th_precinct",
+      "label": "Detroit Police 5th Precinct",
+      "class": "entity",
+      "role": "Detroit Police Department 5th Precinct. Officers at this precinct were involved in the PPO notification and/or took the false reports filed by Banks and the Smiths. Every officer and prosecutor mailed in September is now tagged.",
+      "tags": [
+        "investigation",
+        "police",
+        "detroit",
+        "oversight"
+      ]
+    },
+    {
+      "id": "lt_white_dpd",
+      "label": "Lieutenant White (DPD 5th Precinct)",
+      "class": "entity",
+      "role": "Lieutenant White, Detroit Police Department 5th Precinct. Involved in the Banks/Smith false report and PPO notification chain. Contacted in September mailing.",
+      "tags": [
+        "investigation",
+        "police",
+        "detroit"
+      ]
+    },
+    {
+      "id": "sgt_white_dpd",
+      "label": "Sergeant White (DPD 5th Precinct)",
+      "class": "entity",
+      "role": "Sergeant White, Detroit Police Department 5th Precinct. Involved in the Banks/Smith false report and PPO notification chain. Contacted in September mailing.",
+      "tags": [
+        "investigation",
+        "police",
+        "detroit"
+      ]
+    },
+    {
+      "id": "dede_banks",
+      "label": "Dede Banks",
+      "class": "entity",
+      "role": "Dede Banks. Only person besides Brian Banks who claims to have seen the alleged video of Kevin Mok at PCA. Dede said Kevin acted like he normally does. Brian Banks said the video shows Kevin acting poorly. Their stories contradict each other. One of them is lying under oath at a PPO hearing.",
+      "tags": [
+        "investigation",
+        "banks",
+        "witness",
+        "epitope"
+      ]
+    },
+    {
+      "id": "article_wheres_the_video",
+      "label": "ARTICLE: Where's the Video, Brian?",
+      "class": "article",
+      "role": "WHERE'S THE VIDEO, BRIAN?\n\nBrian Banks appeared at a PPO hearing and told the court he had video\nof Kevin Mok acting poorly at Purpose Charter Academy.\n\nThere's one problem.\n\nDede Banks is the only other person who has seen this alleged video.\nAnd Dede said Kevin acted like he normally does.\n\nSo who's the liar, Brian? You or the old lady?\n\nIf the video is real:\n- It was filmed at a PUBLIC school\n- Kevin Mok approves its publication\n- Kevin Mok CONSENTS to its release\n- Publish it. Right now. Let everyone see.\n\nIf the video doesn't exist:\n- That's perjury at a PPO hearing\n- Add it to the 9 convictions\n- Add it to the false reports you and the Smiths filed\n\nTHE FALSE REPORTS:\n\nBanks and the Smith family filed false police reports.\nFiling a false police report is a crime (MCL 750.411a).\nEvery officer who took those reports has a name and a badge number.\n\nTHE NOTIFICATION:\n\nPolice called Kevin to tell him a PPO was filed.\nThen refused to give him ANY information about it.\nNone.\nThe City of Detroit is hiding his information and saying it's theirs.\n\nDoes this sound familiar?\n\nDo you have friends and family with trumped up charges?\nDo you know what it feels like when the system files papers on you\nand then won't even tell you what they say?\n\nThat's what happened here.\n\nA man with 9 criminal convictions used the legal system\nto file a protection order against the person investigating him.\nThen the police helped him hide the details.\n\nSgt White. Lieutenant White. 5th Precinct.\nEvery officer and prosecutor mailed in September.\nWe see you. We tagged you. You're in the graph now.\n\nBrian: where's the video?\nThe whole world is watching. Publish it or admit it doesn't exist.",
+      "tags": [
+        "article",
+        "investigation",
+        "epitope",
+        "legal",
+        "ppo",
+        "false_report",
+        "police"
+      ]
     }
   ],
   "edges": [
@@ -182907,6 +183011,300 @@
       "type": "cites",
       "epistemic_status": "record",
       "note": "Whistleblower protections exist"
+    },
+    {
+      "source": "dede_banks",
+      "target": "ppo_hearing_banks",
+      "type": "witness",
+      "epistemic_status": "record",
+      "note": "Dede is the only witness to alleged video"
+    },
+    {
+      "source": "ppo_hearing_banks",
+      "target": "pca",
+      "type": "located_in",
+      "epistemic_status": "record",
+      "note": "Alleged video from PCA"
+    },
+    {
+      "source": "leon_smith",
+      "target": "false_reports_banks_smith",
+      "type": "filed",
+      "epistemic_status": "record",
+      "note": "Smiths participated in false reports"
+    },
+    {
+      "source": "shayla_smith",
+      "target": "false_reports_banks_smith",
+      "type": "filed",
+      "epistemic_status": "record",
+      "note": "Smiths participated in false reports"
+    },
+    {
+      "source": "false_reports_banks_smith",
+      "target": "det_5th_precinct",
+      "type": "filed_at",
+      "epistemic_status": "record",
+      "note": "Reports taken at 5th Precinct"
+    },
+    {
+      "source": "det_5th_precinct",
+      "target": "police_ppo_notification",
+      "type": "issued",
+      "epistemic_status": "record",
+      "note": "5th Precinct called about PPO"
+    },
+    {
+      "source": "lt_white_dpd",
+      "target": "police_ppo_notification",
+      "type": "involved",
+      "epistemic_status": "record",
+      "note": "Lt White involved in notification"
+    },
+    {
+      "source": "sgt_white_dpd",
+      "target": "police_ppo_notification",
+      "type": "involved",
+      "epistemic_status": "record",
+      "note": "Sgt White involved in notification"
+    },
+    {
+      "source": "lt_white_dpd",
+      "target": "det_5th_precinct",
+      "type": "member",
+      "epistemic_status": "record",
+      "note": "Lt White at 5th Precinct"
+    },
+    {
+      "source": "sgt_white_dpd",
+      "target": "det_5th_precinct",
+      "type": "member",
+      "epistemic_status": "record",
+      "note": "Sgt White at 5th Precinct"
+    },
+    {
+      "source": "detroit_city",
+      "target": "police_ppo_notification",
+      "type": "obstruction",
+      "epistemic_status": "record",
+      "note": "City hiding Kevin's information"
+    },
+    {
+      "source": "article_wheres_the_video",
+      "target": "ppo_hearing_banks",
+      "type": "cites_evidence",
+      "epistemic_status": "record",
+      "note": "PPO hearing is the evidence"
+    },
+    {
+      "source": "article_wheres_the_video",
+      "target": "false_reports_banks_smith",
+      "type": "cites_evidence",
+      "epistemic_status": "record",
+      "note": "False reports are evidence"
+    },
+    {
+      "source": "article_wheres_the_video",
+      "target": "police_ppo_notification",
+      "type": "cites_evidence",
+      "epistemic_status": "record",
+      "note": "Police notification is evidence"
+    },
+    {
+      "source": "article_wheres_the_video",
+      "target": "dede_banks",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Who's the liar -- Brian or Dede?"
+    },
+    {
+      "source": "article_wheres_the_video",
+      "target": "det_5th_precinct",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Every officer tagged"
+    },
+    {
+      "source": "article_wheres_the_video",
+      "target": "lt_white_dpd",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Lieutenant White -- we see you"
+    },
+    {
+      "source": "article_wheres_the_video",
+      "target": "sgt_white_dpd",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Sergeant White -- we see you"
+    },
+    {
+      "source": "article_wheres_the_video",
+      "target": "leon_smith",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "False reports -- the Smiths"
+    },
+    {
+      "source": "article_wheres_the_video",
+      "target": "shayla_smith",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "False reports -- the Smiths"
+    },
+    {
+      "source": "article_wheres_the_video",
+      "target": "pca",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "Video allegedly from PCA"
+    },
+    {
+      "source": "det_5th_precinct",
+      "target": "signal_response",
+      "type": "NULL",
+      "epistemic_status": "record",
+      "note": "Took false reports, hid information"
+    },
+    {
+      "source": "lt_white_dpd",
+      "target": "signal_response",
+      "type": "NULL",
+      "epistemic_status": "record",
+      "note": "Involved in hiding information"
+    },
+    {
+      "source": "sgt_white_dpd",
+      "target": "signal_response",
+      "type": "NULL",
+      "epistemic_status": "record",
+      "note": "Involved in hiding information"
+    },
+    {
+      "source": "article_wheres_the_video",
+      "target": "article_smith_family",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Smiths filed false reports too"
+    },
+    {
+      "source": "article_wheres_the_video",
+      "target": "article_hiding_behind_race",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Trumped up charges -- sound familiar?"
+    },
+    {
+      "source": "article_wheres_the_video",
+      "target": "article_are_you_ok",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Do you have friends with trumped up charges?"
+    },
+    {
+      "source": "article_wheres_the_video",
+      "target": "article_by_the_numbers",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Add perjury to the 9 convictions"
+    },
+    {
+      "source": "article_wheres_the_video",
+      "target": "damages_chain",
+      "type": "connected_to_investigation",
+      "epistemic_status": "record",
+      "note": "PPO + false reports = more damages"
+    },
+    {
+      "source": "false_reports_banks_smith",
+      "target": "racial_shield_pattern",
+      "type": "uses_framework",
+      "epistemic_status": "record",
+      "note": "Using system against investigator"
+    },
+    {
+      "source": "ppo_hearing_banks",
+      "target": "racial_shield_pattern",
+      "type": "uses_framework",
+      "epistemic_status": "record",
+      "note": "PPO as offensive weapon"
+    },
+    {
+      "source": "article_wheres_the_video",
+      "target": "exonerated_five",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Trumped up charges -- sound familiar?"
+    },
+    {
+      "source": "article_wheres_the_video",
+      "target": "scottsboro_boys",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "False accusations -- sound familiar?"
+    },
+    {
+      "source": "article_wheres_the_video",
+      "target": "detroit_free_press",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Where's the video story for coverage"
+    },
+    {
+      "source": "article_wheres_the_video",
+      "target": "michigan_advance",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Where's the video story for coverage"
+    },
+    {
+      "source": "article_wheres_the_video",
+      "target": "wxyz_channel7",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Where's the video story for coverage"
+    },
+    {
+      "source": "article_wheres_the_video",
+      "target": "wdiv_local4",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Where's the video story for coverage"
+    },
+    {
+      "source": "article_wheres_the_video",
+      "target": "deadline_detroit",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Where's the video story for coverage"
+    },
+    {
+      "source": "article_wheres_the_video",
+      "target": "chalkbeat_detroit",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Where's the video story for coverage"
+    },
+    {
+      "source": "article_wheres_the_video",
+      "target": "propublica",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Where's the video story for coverage"
+    },
+    {
+      "source": "article_wheres_the_video",
+      "target": "the_intercept",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Where's the video story for coverage"
+    },
+    {
+      "source": "article_wheres_the_video",
+      "target": "marshall_project",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Where's the video story for coverage"
     }
   ],
   "epistemic_grammar": {
