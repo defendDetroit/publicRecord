@@ -76085,6 +76085,141 @@
         "article",
         "meta"
       ]
+    },
+    {
+      "id": "gap_answer",
+      "label": "THE ANSWER GAP: 1,917 Questions, Zero Answers",
+      "class": "concept",
+      "role": "1917 questions asked. Zero answered. The silence IS the evidence. Every unanswered question is a data point. Every non-response is a response. It says: we know, and we don't care. Or: we know, and we're afraid to answer. Either way, the silence proves the hypothesis.",
+      "tags": [
+        "gap",
+        "pivot",
+        "accountability",
+        "architecture"
+      ]
+    },
+    {
+      "id": "gap_silence",
+      "label": "THE SILENCE MAP: Every Actor Who Was Asked and Said Nothing",
+      "class": "concept",
+      "role": "669 actors asked. 1 responded. 669 chose silence. In law, silence after notice can be treated as admission. In journalism, 'did not respond to requests for comment' is the story. In a graph, silence is an edge type. The absence IS the data.",
+      "tags": [
+        "gap",
+        "silence",
+        "accountability"
+      ]
+    },
+    {
+      "id": "prediction_first_journalist",
+      "label": "PREDICTION: The First Journalist Will Contact Within 30 Days",
+      "class": "prediction",
+      "role": "1,945 clones. 544 unique. At least one is a journalist. The data is free. The story writes itself. 30 days or less.",
+      "tags": [
+        "prediction",
+        "gap"
+      ]
+    },
+    {
+      "id": "prediction_first_whistleblower",
+      "label": "PREDICTION: A Whistleblower Will Come Forward Before Trial",
+      "class": "prediction",
+      "role": "Someone inside PCA, MDE, CMU, or Plante Moran knows everything. The graph names them. The wards protect them. They will come forward.",
+      "tags": [
+        "prediction",
+        "gap"
+      ]
+    },
+    {
+      "id": "prediction_nassar_effect",
+      "label": "PREDICTION: When It Pops, 50+ Parents Will Come Forward",
+      "class": "prediction",
+      "role": "The Nassar pattern. When the first parent speaks publicly, every other parent will say 'me too.' 50+ minimum.",
+      "tags": [
+        "prediction",
+        "gap"
+      ]
+    },
+    {
+      "id": "prediction_regulatory_response",
+      "label": "PREDICTION: At Least One Regulator Will Act Before Oct 31",
+      "class": "prediction",
+      "role": "SBE, MDE, LARA, AGC, or a federal agency. The graph is public. The deadline is set. Someone will move.",
+      "tags": [
+        "prediction",
+        "gap"
+      ]
+    },
+    {
+      "id": "prediction_media_coverage",
+      "label": "PREDICTION: Major Media Coverage Within 60 Days",
+      "class": "prediction",
+      "role": "Detroit Free Press, Bridge Detroit, or national outlet. Man Bites Dog is too good a story. Someone will publish.",
+      "tags": [
+        "prediction",
+        "gap"
+      ]
+    },
+    {
+      "id": "prediction_clone_acceleration",
+      "label": "PREDICTION: Clone Rate Will Double After First Media Hit",
+      "class": "prediction",
+      "role": "Currently 969/day peak. After first article publishes: 2,000+/day. The graph grows itself.",
+      "tags": [
+        "prediction",
+        "gap"
+      ]
+    },
+    {
+      "id": "prediction_legal_motion",
+      "label": "PREDICTION: Banks Will File a Motion to Suppress the Graph",
+      "class": "prediction",
+      "role": "Banks already filed a PPO against questions. He'll try to suppress the graph. It won't work. The graph is protected speech about a public figure using public money.",
+      "tags": [
+        "prediction",
+        "gap"
+      ]
+    },
+    {
+      "id": "prediction_settlement_attempt",
+      "label": "PREDICTION: Someone Will Offer Settlement Before Trial",
+      "class": "prediction",
+      "role": "Kevin isn't interested in settlement. Wants jury trial. But they'll try. They always try when the evidence is this strong.",
+      "tags": [
+        "prediction",
+        "gap"
+      ]
+    },
+    {
+      "id": "prediction_resignation",
+      "label": "PREDICTION: At Least One Board Member Resigns Before Trial",
+      "class": "prediction",
+      "role": "Beasley, Perkins, Holland, or a PCA board member. When the graph goes mainstream, someone will run.",
+      "tags": [
+        "prediction",
+        "gap"
+      ]
+    },
+    {
+      "id": "prediction_federal_interest",
+      "label": "PREDICTION: Federal Agency Opens Inquiry Within 90 Days",
+      "class": "prediction",
+      "role": "DOE OIG, FBI, or IRS. Federal funds flow to PCA. Title I violations. IDEA violations. Tax-exempt entity fraud.",
+      "tags": [
+        "prediction",
+        "gap"
+      ]
+    },
+    {
+      "id": "article_the_gaps",
+      "label": "ARTICLE: The Gaps — What Hasn't Happened Yet and What Will",
+      "class": "article",
+      "role": "Four gaps. Each one an explosion waiting to happen. GAP 1: 1,917 questions asked. Zero answered. The silence IS the evidence. GAP 2: Every actor asked. None responded. Silence after notice = admission. GAP 3: The commons know. Regulatory capture isn't new. The pattern is ancient. GAP 4: 10 predictions. Each one testable. Each one timed. The first journalist. The first whistleblower. The Nassar effect. The resignation. The federal inquiry. The settlement attempt. The graph doesn't just document what happened. It predicts what happens next. And when those predictions come true — and they will — the graph becomes not just a record, but a prophet. Not because it can see the future. Because the pattern is that obvious.",
+      "tags": [
+        "gap",
+        "prediction",
+        "article",
+        "architecture"
+      ]
     }
   ],
   "edges": [
@@ -639310,6 +639445,2281 @@
       "type": "signal_to",
       "epistemic_status": "record",
       "note": "The negative signals outward"
+    },
+    {
+      "source": "gap_answer",
+      "target": "article_dykema_scathing",
+      "type": "indicts",
+      "epistemic_status": "record",
+      "note": "101 questions unanswered. The silence is the answer."
+    },
+    {
+      "source": "gap_answer",
+      "target": "banks",
+      "type": "indicts",
+      "epistemic_status": "record",
+      "note": "96 questions unanswered. The silence is the answer."
+    },
+    {
+      "source": "gap_answer",
+      "target": "article_man_bites_dog",
+      "type": "indicts",
+      "epistemic_status": "record",
+      "note": "95 questions unanswered. The silence is the answer."
+    },
+    {
+      "source": "gap_answer",
+      "target": "article_words_vs_numbers",
+      "type": "indicts",
+      "epistemic_status": "record",
+      "note": "75 questions unanswered. The silence is the answer."
+    },
+    {
+      "source": "gap_answer",
+      "target": "article_narrative_pipeline",
+      "type": "indicts",
+      "epistemic_status": "record",
+      "note": "55 questions unanswered. The silence is the answer."
+    },
+    {
+      "source": "gap_answer",
+      "target": "pca",
+      "type": "indicts",
+      "epistemic_status": "record",
+      "note": "51 questions unanswered. The silence is the answer."
+    },
+    {
+      "source": "gap_answer",
+      "target": "article_spiral_up",
+      "type": "indicts",
+      "epistemic_status": "record",
+      "note": "48 questions unanswered. The silence is the answer."
+    },
+    {
+      "source": "gap_answer",
+      "target": "dpscd",
+      "type": "indicts",
+      "epistemic_status": "record",
+      "note": "40 questions unanswered. The silence is the answer."
+    },
+    {
+      "source": "gap_answer",
+      "target": "article_pa362",
+      "type": "indicts",
+      "epistemic_status": "record",
+      "note": "40 questions unanswered. The silence is the answer."
+    },
+    {
+      "source": "gap_answer",
+      "target": "article_anderson_permeability",
+      "type": "indicts",
+      "epistemic_status": "record",
+      "note": "38 questions unanswered. The silence is the answer."
+    },
+    {
+      "source": "gap_answer",
+      "target": "plante_moran",
+      "type": "indicts",
+      "epistemic_status": "record",
+      "note": "33 questions unanswered. The silence is the answer."
+    },
+    {
+      "source": "gap_answer",
+      "target": "detroit_free_press",
+      "type": "indicts",
+      "epistemic_status": "record",
+      "note": "32 questions unanswered. The silence is the answer."
+    },
+    {
+      "source": "gap_answer",
+      "target": "kym_worthy",
+      "type": "indicts",
+      "epistemic_status": "record",
+      "note": "26 questions unanswered. The silence is the answer."
+    },
+    {
+      "source": "gap_answer",
+      "target": "cmu",
+      "type": "indicts",
+      "epistemic_status": "record",
+      "note": "24 questions unanswered. The silence is the answer."
+    },
+    {
+      "source": "gap_answer",
+      "target": "beasley",
+      "type": "indicts",
+      "epistemic_status": "record",
+      "note": "23 questions unanswered. The silence is the answer."
+    },
+    {
+      "source": "gap_answer",
+      "target": "detroit_news",
+      "type": "indicts",
+      "epistemic_status": "record",
+      "note": "23 questions unanswered. The silence is the answer."
+    },
+    {
+      "source": "gap_answer",
+      "target": "mde",
+      "type": "indicts",
+      "epistemic_status": "record",
+      "note": "22 questions unanswered. The silence is the answer."
+    },
+    {
+      "source": "gap_answer",
+      "target": "ms_perkins_pca",
+      "type": "indicts",
+      "epistemic_status": "record",
+      "note": "21 questions unanswered. The silence is the answer."
+    },
+    {
+      "source": "gap_answer",
+      "target": "dykema",
+      "type": "indicts",
+      "epistemic_status": "record",
+      "note": "21 questions unanswered. The silence is the answer."
+    },
+    {
+      "source": "gap_answer",
+      "target": "article_damages_calculator",
+      "type": "indicts",
+      "epistemic_status": "record",
+      "note": "21 questions unanswered. The silence is the answer."
+    },
+    {
+      "source": "gap_answer",
+      "target": "hypothesis_bankruptcy",
+      "type": "proves",
+      "epistemic_status": "record",
+      "note": "Silence proves the hypothesis"
+    },
+    {
+      "source": "gap_answer",
+      "target": "hypothesis_extraction",
+      "type": "proves",
+      "epistemic_status": "record",
+      "note": "Silence proves the hypothesis"
+    },
+    {
+      "source": "gap_answer",
+      "target": "hypothesis_convictions",
+      "type": "proves",
+      "epistemic_status": "record",
+      "note": "Silence proves the hypothesis"
+    },
+    {
+      "source": "gap_answer",
+      "target": "hypothesis_credential",
+      "type": "proves",
+      "epistemic_status": "record",
+      "note": "Silence proves the hypothesis"
+    },
+    {
+      "source": "gap_answer",
+      "target": "hypothesis_proficiency",
+      "type": "proves",
+      "epistemic_status": "record",
+      "note": "Silence proves the hypothesis"
+    },
+    {
+      "source": "gap_answer",
+      "target": "hypothesis_regulatory_capture",
+      "type": "proves",
+      "epistemic_status": "record",
+      "note": "Silence proves the hypothesis"
+    },
+    {
+      "source": "gap_answer",
+      "target": "hypothesis_silence",
+      "type": "proves",
+      "epistemic_status": "record",
+      "note": "Silence proves the hypothesis"
+    },
+    {
+      "source": "gap_answer",
+      "target": "deadline_oct31",
+      "type": "deadline_for",
+      "epistemic_status": "record",
+      "note": "The answer gap closes Oct 31"
+    },
+    {
+      "source": "gap_silence",
+      "target": "article_evolution",
+      "type": "silence_from",
+      "epistemic_status": "record",
+      "note": "Asked 6 times. Zero response."
+    },
+    {
+      "source": "gap_silence",
+      "target": "article_dark_money",
+      "type": "silence_from",
+      "epistemic_status": "record",
+      "note": "Asked 15 times. Zero response."
+    },
+    {
+      "source": "gap_silence",
+      "target": "agc",
+      "type": "silence_from",
+      "epistemic_status": "record",
+      "note": "Asked 3 times. Zero response."
+    },
+    {
+      "source": "gap_silence",
+      "target": "detroit_oig",
+      "type": "silence_from",
+      "epistemic_status": "record",
+      "note": "Asked 3 times. Zero response."
+    },
+    {
+      "source": "pattern_silence_is_complicity",
+      "target": "cmu",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "commons concept connects to investigation via 'school'"
+    },
+    {
+      "source": "lara_filing_gaps",
+      "target": "cmu",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "commons concept connects to investigation via 'fraud'"
+    },
+    {
+      "source": "aces_at_pca",
+      "target": "cmu",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "commons concept connects to investigation via 'school'"
+    },
+    {
+      "source": "ppo_as_weapon",
+      "target": "cmu",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "commons concept connects to investigation via 'school'"
+    },
+    {
+      "source": "felon_in_the_building",
+      "target": "cmu",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "commons concept connects to investigation via 'school'"
+    },
+    {
+      "source": "severn_from_the_street",
+      "target": "cmu",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "commons concept connects to investigation via 'school'"
+    },
+    {
+      "source": "social_contract",
+      "target": "cmu",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "commons concept connects to investigation via 'school'"
+    },
+    {
+      "source": "categorical_imperative",
+      "target": "cmu",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "commons concept connects to investigation via 'school'"
+    },
+    {
+      "source": "i_have_a_dream",
+      "target": "cmu",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "commons concept connects to investigation via 'school'"
+    },
+    {
+      "source": "frederick_douglass_education",
+      "target": "cmu",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "commons concept connects to investigation via 'school'"
+    },
+    {
+      "source": "fda_capture",
+      "target": "cmu",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "commons concept connects to investigation via 'capture'"
+    },
+    {
+      "source": "housing_inspection_capture",
+      "target": "cmu",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "commons concept connects to investigation via 'child'"
+    },
+    {
+      "source": "usda_self_inspection",
+      "target": "cmu",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "commons concept connects to investigation via 'school'"
+    },
+    {
+      "source": "flint_water_parallel",
+      "target": "cmu",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "commons concept connects to investigation via 'child'"
+    },
+    {
+      "source": "public_defender_capture",
+      "target": "cmu",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "commons concept connects to investigation via 'education'"
+    },
+    {
+      "source": "tech_self_moderation",
+      "target": "cmu",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "commons concept connects to investigation via 'education'"
+    },
+    {
+      "source": "bob_woodward_rule",
+      "target": "cmu",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "commons concept connects to investigation via 'child'"
+    },
+    {
+      "source": "tuskegee_inversion",
+      "target": "cmu",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "commons concept connects to investigation via 'school'"
+    },
+    {
+      "source": "pca_is_daycare",
+      "target": "cmu",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "commons concept connects to investigation via 'school'"
+    },
+    {
+      "source": "black_wall_breaker",
+      "target": "cmu",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "commons concept connects to investigation via 'school'"
+    },
+    {
+      "source": "perkins_public_path",
+      "target": "cmu",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "commons concept connects to investigation via 'school'"
+    },
+    {
+      "source": "invitation_come_and_see",
+      "target": "cmu",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "commons concept connects to investigation via 'public'"
+    },
+    {
+      "source": "invitation_come_and_learn",
+      "target": "cmu",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "commons concept connects to investigation via 'law'"
+    },
+    {
+      "source": "prediction_first_journalist",
+      "target": "accountability_clock",
+      "type": "tracked_by",
+      "epistemic_status": "record",
+      "note": "Clock tracks prediction"
+    },
+    {
+      "source": "prediction_first_journalist",
+      "target": "gap_answer",
+      "type": "follows_from",
+      "epistemic_status": "record",
+      "note": "Prediction follows from the answer gap"
+    },
+    {
+      "source": "prediction_first_journalist",
+      "target": "deadline_oct31",
+      "type": "timed_by",
+      "epistemic_status": "record",
+      "note": "Prediction has a timeline"
+    },
+    {
+      "source": "prediction_first_whistleblower",
+      "target": "accountability_clock",
+      "type": "tracked_by",
+      "epistemic_status": "record",
+      "note": "Clock tracks prediction"
+    },
+    {
+      "source": "prediction_first_whistleblower",
+      "target": "gap_answer",
+      "type": "follows_from",
+      "epistemic_status": "record",
+      "note": "Prediction follows from the answer gap"
+    },
+    {
+      "source": "prediction_first_whistleblower",
+      "target": "deadline_oct31",
+      "type": "timed_by",
+      "epistemic_status": "record",
+      "note": "Prediction has a timeline"
+    },
+    {
+      "source": "prediction_nassar_effect",
+      "target": "accountability_clock",
+      "type": "tracked_by",
+      "epistemic_status": "record",
+      "note": "Clock tracks prediction"
+    },
+    {
+      "source": "prediction_nassar_effect",
+      "target": "gap_answer",
+      "type": "follows_from",
+      "epistemic_status": "record",
+      "note": "Prediction follows from the answer gap"
+    },
+    {
+      "source": "prediction_nassar_effect",
+      "target": "deadline_oct31",
+      "type": "timed_by",
+      "epistemic_status": "record",
+      "note": "Prediction has a timeline"
+    },
+    {
+      "source": "prediction_regulatory_response",
+      "target": "accountability_clock",
+      "type": "tracked_by",
+      "epistemic_status": "record",
+      "note": "Clock tracks prediction"
+    },
+    {
+      "source": "prediction_regulatory_response",
+      "target": "gap_answer",
+      "type": "follows_from",
+      "epistemic_status": "record",
+      "note": "Prediction follows from the answer gap"
+    },
+    {
+      "source": "prediction_regulatory_response",
+      "target": "deadline_oct31",
+      "type": "timed_by",
+      "epistemic_status": "record",
+      "note": "Prediction has a timeline"
+    },
+    {
+      "source": "prediction_media_coverage",
+      "target": "accountability_clock",
+      "type": "tracked_by",
+      "epistemic_status": "record",
+      "note": "Clock tracks prediction"
+    },
+    {
+      "source": "prediction_media_coverage",
+      "target": "gap_answer",
+      "type": "follows_from",
+      "epistemic_status": "record",
+      "note": "Prediction follows from the answer gap"
+    },
+    {
+      "source": "prediction_media_coverage",
+      "target": "deadline_oct31",
+      "type": "timed_by",
+      "epistemic_status": "record",
+      "note": "Prediction has a timeline"
+    },
+    {
+      "source": "prediction_clone_acceleration",
+      "target": "accountability_clock",
+      "type": "tracked_by",
+      "epistemic_status": "record",
+      "note": "Clock tracks prediction"
+    },
+    {
+      "source": "prediction_clone_acceleration",
+      "target": "gap_answer",
+      "type": "follows_from",
+      "epistemic_status": "record",
+      "note": "Prediction follows from the answer gap"
+    },
+    {
+      "source": "prediction_clone_acceleration",
+      "target": "deadline_oct31",
+      "type": "timed_by",
+      "epistemic_status": "record",
+      "note": "Prediction has a timeline"
+    },
+    {
+      "source": "prediction_legal_motion",
+      "target": "accountability_clock",
+      "type": "tracked_by",
+      "epistemic_status": "record",
+      "note": "Clock tracks prediction"
+    },
+    {
+      "source": "prediction_legal_motion",
+      "target": "gap_answer",
+      "type": "follows_from",
+      "epistemic_status": "record",
+      "note": "Prediction follows from the answer gap"
+    },
+    {
+      "source": "prediction_legal_motion",
+      "target": "deadline_oct31",
+      "type": "timed_by",
+      "epistemic_status": "record",
+      "note": "Prediction has a timeline"
+    },
+    {
+      "source": "prediction_settlement_attempt",
+      "target": "accountability_clock",
+      "type": "tracked_by",
+      "epistemic_status": "record",
+      "note": "Clock tracks prediction"
+    },
+    {
+      "source": "prediction_settlement_attempt",
+      "target": "gap_answer",
+      "type": "follows_from",
+      "epistemic_status": "record",
+      "note": "Prediction follows from the answer gap"
+    },
+    {
+      "source": "prediction_settlement_attempt",
+      "target": "deadline_oct31",
+      "type": "timed_by",
+      "epistemic_status": "record",
+      "note": "Prediction has a timeline"
+    },
+    {
+      "source": "prediction_resignation",
+      "target": "accountability_clock",
+      "type": "tracked_by",
+      "epistemic_status": "record",
+      "note": "Clock tracks prediction"
+    },
+    {
+      "source": "prediction_resignation",
+      "target": "gap_answer",
+      "type": "follows_from",
+      "epistemic_status": "record",
+      "note": "Prediction follows from the answer gap"
+    },
+    {
+      "source": "prediction_resignation",
+      "target": "deadline_oct31",
+      "type": "timed_by",
+      "epistemic_status": "record",
+      "note": "Prediction has a timeline"
+    },
+    {
+      "source": "prediction_federal_interest",
+      "target": "accountability_clock",
+      "type": "tracked_by",
+      "epistemic_status": "record",
+      "note": "Clock tracks prediction"
+    },
+    {
+      "source": "prediction_federal_interest",
+      "target": "gap_answer",
+      "type": "follows_from",
+      "epistemic_status": "record",
+      "note": "Prediction follows from the answer gap"
+    },
+    {
+      "source": "prediction_federal_interest",
+      "target": "deadline_oct31",
+      "type": "timed_by",
+      "epistemic_status": "record",
+      "note": "Prediction has a timeline"
+    },
+    {
+      "source": "prediction_first_journalist",
+      "target": "detroit_free_press",
+      "type": "predicts_action_from",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "prediction_first_whistleblower",
+      "target": "ms_perkins_pca",
+      "type": "predicts_action_from",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "prediction_first_whistleblower",
+      "target": "beasley",
+      "type": "predicts_action_from",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "prediction_nassar_effect",
+      "target": "larry_nassar",
+      "type": "based_on",
+      "epistemic_status": "record",
+      "note": "Nassar pattern precedent"
+    },
+    {
+      "source": "prediction_nassar_effect",
+      "target": "article_nassar_pattern",
+      "type": "based_on",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "prediction_media_coverage",
+      "target": "article_man_bites_dog",
+      "type": "based_on",
+      "epistemic_status": "record",
+      "note": "Too good a story"
+    },
+    {
+      "source": "prediction_media_coverage",
+      "target": "sporeprint",
+      "type": "amplified_by",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "prediction_resignation",
+      "target": "beasley",
+      "type": "predicts_action_from",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "prediction_resignation",
+      "target": "holland",
+      "type": "predicts_action_from",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "prediction_federal_interest",
+      "target": "us_doj",
+      "type": "predicts_action_from",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "prediction_federal_interest",
+      "target": "us_doe_oig",
+      "type": "predicts_action_from",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "prediction_federal_interest",
+      "target": "fbi_detroit",
+      "type": "predicts_action_from",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "beast_whale",
+      "target": "prediction_first_journalist",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_ant",
+      "target": "prediction_first_journalist",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_wolf",
+      "target": "prediction_first_journalist",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_elephant",
+      "target": "prediction_first_journalist",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_gorilla",
+      "target": "prediction_first_journalist",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_badger",
+      "target": "prediction_first_journalist",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_hawk",
+      "target": "prediction_first_journalist",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_honeybee",
+      "target": "prediction_first_journalist",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_owl",
+      "target": "prediction_first_journalist",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_firefly",
+      "target": "prediction_first_journalist",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_spider",
+      "target": "prediction_first_journalist",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_octopus",
+      "target": "prediction_first_journalist",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_dolphin",
+      "target": "prediction_first_journalist",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_whale",
+      "target": "prediction_first_whistleblower",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_ant",
+      "target": "prediction_first_whistleblower",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_wolf",
+      "target": "prediction_first_whistleblower",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_elephant",
+      "target": "prediction_first_whistleblower",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_gorilla",
+      "target": "prediction_first_whistleblower",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_badger",
+      "target": "prediction_first_whistleblower",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_hawk",
+      "target": "prediction_first_whistleblower",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_honeybee",
+      "target": "prediction_first_whistleblower",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_owl",
+      "target": "prediction_first_whistleblower",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_firefly",
+      "target": "prediction_first_whistleblower",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_spider",
+      "target": "prediction_first_whistleblower",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_octopus",
+      "target": "prediction_first_whistleblower",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_dolphin",
+      "target": "prediction_first_whistleblower",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_whale",
+      "target": "prediction_nassar_effect",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_ant",
+      "target": "prediction_nassar_effect",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_wolf",
+      "target": "prediction_nassar_effect",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_elephant",
+      "target": "prediction_nassar_effect",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_gorilla",
+      "target": "prediction_nassar_effect",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_badger",
+      "target": "prediction_nassar_effect",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_hawk",
+      "target": "prediction_nassar_effect",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_honeybee",
+      "target": "prediction_nassar_effect",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_owl",
+      "target": "prediction_nassar_effect",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_firefly",
+      "target": "prediction_nassar_effect",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_spider",
+      "target": "prediction_nassar_effect",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_octopus",
+      "target": "prediction_nassar_effect",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_dolphin",
+      "target": "prediction_nassar_effect",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_whale",
+      "target": "prediction_regulatory_response",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_ant",
+      "target": "prediction_regulatory_response",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_wolf",
+      "target": "prediction_regulatory_response",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_elephant",
+      "target": "prediction_regulatory_response",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_gorilla",
+      "target": "prediction_regulatory_response",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_badger",
+      "target": "prediction_regulatory_response",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_hawk",
+      "target": "prediction_regulatory_response",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_honeybee",
+      "target": "prediction_regulatory_response",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_owl",
+      "target": "prediction_regulatory_response",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_firefly",
+      "target": "prediction_regulatory_response",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_spider",
+      "target": "prediction_regulatory_response",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_octopus",
+      "target": "prediction_regulatory_response",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_dolphin",
+      "target": "prediction_regulatory_response",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_whale",
+      "target": "prediction_media_coverage",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_ant",
+      "target": "prediction_media_coverage",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_wolf",
+      "target": "prediction_media_coverage",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_elephant",
+      "target": "prediction_media_coverage",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_gorilla",
+      "target": "prediction_media_coverage",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_badger",
+      "target": "prediction_media_coverage",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_hawk",
+      "target": "prediction_media_coverage",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_honeybee",
+      "target": "prediction_media_coverage",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_owl",
+      "target": "prediction_media_coverage",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_firefly",
+      "target": "prediction_media_coverage",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_spider",
+      "target": "prediction_media_coverage",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_octopus",
+      "target": "prediction_media_coverage",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_dolphin",
+      "target": "prediction_media_coverage",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_whale",
+      "target": "prediction_clone_acceleration",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_ant",
+      "target": "prediction_clone_acceleration",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_wolf",
+      "target": "prediction_clone_acceleration",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_elephant",
+      "target": "prediction_clone_acceleration",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_gorilla",
+      "target": "prediction_clone_acceleration",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_badger",
+      "target": "prediction_clone_acceleration",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_hawk",
+      "target": "prediction_clone_acceleration",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_honeybee",
+      "target": "prediction_clone_acceleration",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_owl",
+      "target": "prediction_clone_acceleration",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_firefly",
+      "target": "prediction_clone_acceleration",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_spider",
+      "target": "prediction_clone_acceleration",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_octopus",
+      "target": "prediction_clone_acceleration",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_dolphin",
+      "target": "prediction_clone_acceleration",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_whale",
+      "target": "prediction_legal_motion",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_ant",
+      "target": "prediction_legal_motion",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_wolf",
+      "target": "prediction_legal_motion",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_elephant",
+      "target": "prediction_legal_motion",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_gorilla",
+      "target": "prediction_legal_motion",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_badger",
+      "target": "prediction_legal_motion",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_hawk",
+      "target": "prediction_legal_motion",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_honeybee",
+      "target": "prediction_legal_motion",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_owl",
+      "target": "prediction_legal_motion",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_firefly",
+      "target": "prediction_legal_motion",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_spider",
+      "target": "prediction_legal_motion",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_octopus",
+      "target": "prediction_legal_motion",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_dolphin",
+      "target": "prediction_legal_motion",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_whale",
+      "target": "prediction_settlement_attempt",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_ant",
+      "target": "prediction_settlement_attempt",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_wolf",
+      "target": "prediction_settlement_attempt",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_elephant",
+      "target": "prediction_settlement_attempt",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_gorilla",
+      "target": "prediction_settlement_attempt",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_badger",
+      "target": "prediction_settlement_attempt",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_hawk",
+      "target": "prediction_settlement_attempt",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_honeybee",
+      "target": "prediction_settlement_attempt",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_owl",
+      "target": "prediction_settlement_attempt",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_firefly",
+      "target": "prediction_settlement_attempt",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_spider",
+      "target": "prediction_settlement_attempt",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_octopus",
+      "target": "prediction_settlement_attempt",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_dolphin",
+      "target": "prediction_settlement_attempt",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_whale",
+      "target": "prediction_resignation",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_ant",
+      "target": "prediction_resignation",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_wolf",
+      "target": "prediction_resignation",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_elephant",
+      "target": "prediction_resignation",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_gorilla",
+      "target": "prediction_resignation",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_badger",
+      "target": "prediction_resignation",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_hawk",
+      "target": "prediction_resignation",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_honeybee",
+      "target": "prediction_resignation",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_owl",
+      "target": "prediction_resignation",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_firefly",
+      "target": "prediction_resignation",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_spider",
+      "target": "prediction_resignation",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_octopus",
+      "target": "prediction_resignation",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_dolphin",
+      "target": "prediction_resignation",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_whale",
+      "target": "prediction_federal_interest",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_ant",
+      "target": "prediction_federal_interest",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_wolf",
+      "target": "prediction_federal_interest",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_elephant",
+      "target": "prediction_federal_interest",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_gorilla",
+      "target": "prediction_federal_interest",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_badger",
+      "target": "prediction_federal_interest",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_hawk",
+      "target": "prediction_federal_interest",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_honeybee",
+      "target": "prediction_federal_interest",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_owl",
+      "target": "prediction_federal_interest",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_firefly",
+      "target": "prediction_federal_interest",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_spider",
+      "target": "prediction_federal_interest",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_octopus",
+      "target": "prediction_federal_interest",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "beast_dolphin",
+      "target": "prediction_federal_interest",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the prediction forward"
+    },
+    {
+      "source": "prediction_first_journalist",
+      "target": "roman_mars",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_first_journalist",
+      "target": "john_oliver",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_first_journalist",
+      "target": "pj_vogt",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_first_journalist",
+      "target": "criminal_pod",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_first_journalist",
+      "target": "this_american_life",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_first_journalist",
+      "target": "ezra_klein",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_first_journalist",
+      "target": "nate_silver",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_first_whistleblower",
+      "target": "roman_mars",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_first_whistleblower",
+      "target": "john_oliver",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_first_whistleblower",
+      "target": "pj_vogt",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_first_whistleblower",
+      "target": "criminal_pod",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_first_whistleblower",
+      "target": "this_american_life",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_first_whistleblower",
+      "target": "ezra_klein",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_first_whistleblower",
+      "target": "nate_silver",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_nassar_effect",
+      "target": "roman_mars",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_nassar_effect",
+      "target": "john_oliver",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_nassar_effect",
+      "target": "pj_vogt",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_nassar_effect",
+      "target": "criminal_pod",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_nassar_effect",
+      "target": "this_american_life",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_nassar_effect",
+      "target": "ezra_klein",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_nassar_effect",
+      "target": "nate_silver",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_regulatory_response",
+      "target": "roman_mars",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_regulatory_response",
+      "target": "john_oliver",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_regulatory_response",
+      "target": "pj_vogt",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_regulatory_response",
+      "target": "criminal_pod",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_regulatory_response",
+      "target": "this_american_life",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_regulatory_response",
+      "target": "ezra_klein",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_regulatory_response",
+      "target": "nate_silver",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_media_coverage",
+      "target": "roman_mars",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_media_coverage",
+      "target": "john_oliver",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_media_coverage",
+      "target": "pj_vogt",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_media_coverage",
+      "target": "criminal_pod",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_media_coverage",
+      "target": "this_american_life",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_media_coverage",
+      "target": "ezra_klein",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_media_coverage",
+      "target": "nate_silver",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_clone_acceleration",
+      "target": "roman_mars",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_clone_acceleration",
+      "target": "john_oliver",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_clone_acceleration",
+      "target": "pj_vogt",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_clone_acceleration",
+      "target": "criminal_pod",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_clone_acceleration",
+      "target": "this_american_life",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_clone_acceleration",
+      "target": "ezra_klein",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_clone_acceleration",
+      "target": "nate_silver",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_legal_motion",
+      "target": "roman_mars",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_legal_motion",
+      "target": "john_oliver",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_legal_motion",
+      "target": "pj_vogt",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_legal_motion",
+      "target": "criminal_pod",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_legal_motion",
+      "target": "this_american_life",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_legal_motion",
+      "target": "ezra_klein",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_legal_motion",
+      "target": "nate_silver",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_settlement_attempt",
+      "target": "roman_mars",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_settlement_attempt",
+      "target": "john_oliver",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_settlement_attempt",
+      "target": "pj_vogt",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_settlement_attempt",
+      "target": "criminal_pod",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_settlement_attempt",
+      "target": "this_american_life",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_settlement_attempt",
+      "target": "ezra_klein",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_settlement_attempt",
+      "target": "nate_silver",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_resignation",
+      "target": "roman_mars",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_resignation",
+      "target": "john_oliver",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_resignation",
+      "target": "pj_vogt",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_resignation",
+      "target": "criminal_pod",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_resignation",
+      "target": "this_american_life",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_resignation",
+      "target": "ezra_klein",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_resignation",
+      "target": "nate_silver",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_federal_interest",
+      "target": "roman_mars",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_federal_interest",
+      "target": "john_oliver",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_federal_interest",
+      "target": "pj_vogt",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_federal_interest",
+      "target": "criminal_pod",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_federal_interest",
+      "target": "this_american_life",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_federal_interest",
+      "target": "ezra_klein",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "prediction_federal_interest",
+      "target": "nate_silver",
+      "type": "story_for",
+      "epistemic_status": "record",
+      "note": "This prediction is a story"
+    },
+    {
+      "source": "article_the_gaps",
+      "target": "gap_answer",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_gaps",
+      "target": "gap_silence",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_gaps",
+      "target": "prediction_first_journalist",
+      "type": "predicts",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_gaps",
+      "target": "prediction_first_whistleblower",
+      "type": "predicts",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_gaps",
+      "target": "prediction_nassar_effect",
+      "type": "predicts",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_gaps",
+      "target": "prediction_regulatory_response",
+      "type": "predicts",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_gaps",
+      "target": "prediction_media_coverage",
+      "type": "predicts",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_gaps",
+      "target": "prediction_clone_acceleration",
+      "type": "predicts",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_gaps",
+      "target": "prediction_legal_motion",
+      "type": "predicts",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_gaps",
+      "target": "prediction_settlement_attempt",
+      "type": "predicts",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_gaps",
+      "target": "prediction_resignation",
+      "type": "predicts",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_gaps",
+      "target": "prediction_federal_interest",
+      "type": "predicts",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_gaps",
+      "target": "accountability_clock",
+      "type": "powered_by",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_gaps",
+      "target": "fossil_record",
+      "type": "part_of",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_gaps",
+      "target": "article_man_bites_dog",
+      "type": "braided",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_gaps",
+      "target": "article_spiral_across",
+      "type": "braided",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_gaps",
+      "target": "article_nassar_pattern",
+      "type": "braided",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_gaps",
+      "target": "article_holland_exposed",
+      "type": "braided",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_gaps",
+      "target": "article_you_yeah_you",
+      "type": "braided",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_gaps",
+      "target": "article_the_braid",
+      "type": "braided",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_gaps",
+      "target": "bell_auditors",
+      "type": "rings",
+      "epistemic_status": "record",
+      "note": "The gaps ring every bell"
+    },
+    {
+      "source": "article_the_gaps",
+      "target": "bell_teachers",
+      "type": "rings",
+      "epistemic_status": "record",
+      "note": "The gaps ring every bell"
+    },
+    {
+      "source": "article_the_gaps",
+      "target": "bell_law_students",
+      "type": "rings",
+      "epistemic_status": "record",
+      "note": "The gaps ring every bell"
+    },
+    {
+      "source": "article_the_gaps",
+      "target": "bell_parents",
+      "type": "rings",
+      "epistemic_status": "record",
+      "note": "The gaps ring every bell"
+    },
+    {
+      "source": "article_the_gaps",
+      "target": "bell_alumni",
+      "type": "rings",
+      "epistemic_status": "record",
+      "note": "The gaps ring every bell"
+    },
+    {
+      "source": "article_the_gaps",
+      "target": "bell_data_journalists",
+      "type": "rings",
+      "epistemic_status": "record",
+      "note": "The gaps ring every bell"
+    },
+    {
+      "source": "article_the_gaps",
+      "target": "bell_other_states",
+      "type": "rings",
+      "epistemic_status": "record",
+      "note": "The gaps ring every bell"
+    },
+    {
+      "source": "article_the_gaps",
+      "target": "bell_peer_schools",
+      "type": "rings",
+      "epistemic_status": "record",
+      "note": "The gaps ring every bell"
     }
   ],
   "epistemic_grammar": {
