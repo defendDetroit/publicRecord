@@ -69430,6 +69430,17 @@
         "epitope",
         "legal"
       ]
+    },
+    {
+      "id": "article_dynasty_map",
+      "label": "ARTICLE: The Dynasty Map — Same Names, Different Desks, Same Machine",
+      "class": "article",
+      "role": "Leach at the Attorney Grievance Commission. Leach at the Eastside Slate. Jaafar at the AGC. Jaafar at the Judicial Tenure Commission. Banks at PCA. Banks at the Eastside Slate. Crump at MSU Law. Crump-Gibson at the Attorney Discipline Board. When the SAME SURNAMES appear at DIFFERENT oversight bodies, it's not nepotism — it's infrastructure. The machine doesn't just hire friends. It places FAMILIES across every body that could hold it accountable. If your sister works at the AGC and your brother works at the JTC, who investigates whom? Nobody investigates anybody. That's the point. This is the faintest glimmer that became a searchlight: the dynasties aren't hiding. They're in the employee directory.",
+      "tags": [
+        "investigation",
+        "epitope",
+        "institutional_failure"
+      ]
     }
   ],
   "edges": [
@@ -213320,6 +213331,202 @@
       "type": "address_check",
       "epistemic_status": "inferred",
       "note": "Do filings list the Severn front?"
+    },
+    {
+      "source": "nessel_moreland_conflict",
+      "target": "nessel",
+      "type": "asks_directly",
+      "epistemic_status": "inferred",
+      "note": "Did Nessel know? Did she approve the outside activity?"
+    },
+    {
+      "source": "osint_court_dockets",
+      "target": "banks",
+      "type": "asks_directly",
+      "epistemic_status": "inferred",
+      "note": "What we don't know: has anyone ELSE sued Banks?"
+    },
+    {
+      "source": "article_smith_family",
+      "target": "shayla_smith",
+      "type": "asks_directly",
+      "epistemic_status": "inferred",
+      "note": "Ask Shayla Smith: Is winning more important than your daughters learning to read?"
+    },
+    {
+      "source": "james_mestdagh",
+      "target": "banks",
+      "type": "asks_directly",
+      "epistemic_status": "inferred",
+      "note": "Does he know about Brian Banks? Does he know about the 9 convictions? Does he know his firm audits t"
+    },
+    {
+      "source": "john_dykema",
+      "target": "dykema",
+      "type": "asks_directly",
+      "epistemic_status": "inferred",
+      "note": "Is the Dykema family aware what is being done in their name? Are they cool with it?"
+    },
+    {
+      "source": "article_named_entities",
+      "target": "plante_moran",
+      "type": "asks_directly",
+      "epistemic_status": "inferred",
+      "note": "IS MORAN THE PERSON AWARE WHAT'S HAPPENING IN HIS NAME?\n\nIs he cool with it?"
+    },
+    {
+      "source": "article_oversight_failure",
+      "target": "banks",
+      "type": "asks_directly",
+      "epistemic_status": "inferred",
+      "note": "Did anyone run Banks through LEIN?"
+    },
+    {
+      "source": "article_chief_white",
+      "target": "banks",
+      "type": "asks_directly",
+      "epistemic_status": "inferred",
+      "note": "When did the Detroit Police Department\nstart working for Brian Banks?"
+    },
+    {
+      "source": "article_perkins_gatekeeper",
+      "target": "banks",
+      "type": "asks_directly",
+      "epistemic_status": "inferred",
+      "note": "And when the question is 'Is Brian Banks operating an unauthorized\nschool with 9 criminal conviction"
+    },
+    {
+      "source": "mckinney_vento",
+      "target": "banks",
+      "type": "asks_directly",
+      "epistemic_status": "inferred",
+      "note": "Does PCA comply with McKinney-Vento? Does Banks even know what it is? How many homeless students are"
+    },
+    {
+      "source": "charter_sped_gap",
+      "target": "banks",
+      "type": "asks_directly",
+      "epistemic_status": "inferred",
+      "note": "' Does PCA have a special education program? Does PCA have certified special education teachers? How"
+    },
+    {
+      "source": "addiction_impact_schools",
+      "target": "banks",
+      "type": "asks_directly",
+      "epistemic_status": "inferred",
+      "note": "Does PCA? Does Banks even care?"
+    },
+    {
+      "source": "lgbtq_students_charters",
+      "target": "banks",
+      "type": "asks_directly",
+      "epistemic_status": "inferred",
+      "note": "Does PCA see them? Does any Banks school?"
+    },
+    {
+      "source": "article_roland_martin",
+      "target": "banks",
+      "type": "asks_directly",
+      "epistemic_status": "inferred",
+      "note": "How many of your viewers sent their children to PCA\nbecause Roland Martin said Banks was legitimate?"
+    },
+    {
+      "source": "judge_aquilina",
+      "target": "banks",
+      "type": "asks_directly",
+      "epistemic_status": "inferred",
+      "note": "When Banks's cases hit the courtroom -- 2026-4301-CZ and 2026-4349-CZ -- in Ingham County -- how man"
+    },
+    {
+      "source": "carol_banks_eastside",
+      "target": "banks",
+      "type": "asks_directly",
+      "epistemic_status": "inferred",
+      "note": "Is she related to Brian Roderick Banks?"
+    },
+    {
+      "source": "article_dynasty_map",
+      "target": "agc_g_leach",
+      "type": "about",
+      "epistemic_status": "inferred",
+      "note": ""
+    },
+    {
+      "source": "article_dynasty_map",
+      "target": "agc_jaafar",
+      "type": "about",
+      "epistemic_status": "inferred",
+      "note": ""
+    },
+    {
+      "source": "article_dynasty_map",
+      "target": "jtc_jaafar",
+      "type": "about",
+      "epistemic_status": "inferred",
+      "note": ""
+    },
+    {
+      "source": "article_dynasty_map",
+      "target": "carol_banks_eastside",
+      "type": "about",
+      "epistemic_status": "inferred",
+      "note": ""
+    },
+    {
+      "source": "article_dynasty_map",
+      "target": "banks",
+      "type": "about",
+      "epistemic_status": "inferred",
+      "note": ""
+    },
+    {
+      "source": "article_dynasty_map",
+      "target": "crump_gibson",
+      "type": "about",
+      "epistemic_status": "inferred",
+      "note": ""
+    },
+    {
+      "source": "article_dynasty_map",
+      "target": "jennifer_crump",
+      "type": "about",
+      "epistemic_status": "inferred",
+      "note": ""
+    },
+    {
+      "source": "article_dynasty_map",
+      "target": "verkeydia_hall",
+      "type": "about",
+      "epistemic_status": "inferred",
+      "note": ""
+    },
+    {
+      "source": "article_dynasty_map",
+      "target": "original_eastside_slate",
+      "type": "about",
+      "epistemic_status": "inferred",
+      "note": ""
+    },
+    {
+      "source": "article_dynasty_map",
+      "target": "pattern_silence_is_complicity",
+      "type": "about",
+      "epistemic_status": "inferred",
+      "note": "Dynasty placements ensure silence"
+    },
+    {
+      "source": "article_dynasty_map",
+      "target": "nessel",
+      "type": "asks_directly",
+      "epistemic_status": "inferred",
+      "note": "Your AGC has surname matches with the JTC. Is that oversight or family business?"
+    },
+    {
+      "source": "article_dynasty_map",
+      "target": "jocelyn_benson",
+      "type": "asks_directly",
+      "epistemic_status": "inferred",
+      "note": "Carol Banks sits on the slate that endorsed you. Is she related to Brian Banks?"
     }
   ],
   "epistemic_grammar": {
