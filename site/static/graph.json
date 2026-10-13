@@ -74315,6 +74315,30 @@
         "signal",
         "pressure"
       ]
+    },
+    {
+      "id": "article_what_breaks",
+      "label": "ARTICLE: What Breaks Without Banks? — 3 Nodes Only Connect Through Him",
+      "class": "article",
+      "role": "If you remove Banks from the graph, 3 nodes become unreachable from PCA. These 3 nodes ONLY connect to the investigation through Banks. This is structural dependency. This is what a Gordian Knot looks like in data. Banks is not just a target. Banks is a BRIDGE. Remove him and parts of the graph go dark. This is why the investigation is about the SYSTEM, not just the man. The system created the bridge. The system depends on the bridge. Cut the bridge and the system reveals its fractures.",
+      "tags": [
+        "article",
+        "structural",
+        "curiosity",
+        "fragility"
+      ]
+    },
+    {
+      "id": "article_farthest_from_banks",
+      "label": "ARTICLE: 3 Hops from Banks — The Edge of the Graph",
+      "class": "article",
+      "role": "The farthest node from Banks is 3 hops away. That means even the most distant corner of this 6,141-node graph is only 3 steps from the center of the investigation. In network science, this is called the 'diameter' of the graph. A diameter of 3 in a graph this size means: everything is close. The whale song reaches every node. The signal propagates everywhere. There is nowhere to hide in a graph with a diameter of 3.",
+      "tags": [
+        "article",
+        "structural",
+        "curiosity",
+        "network_science"
+      ]
     }
   ],
   "edges": [
@@ -503445,6 +503469,538 @@
     {
       "source": "article_halloween",
       "target": "escalation_jan1",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "unnamed_pca_principal",
+      "target": "whistleblower_inside",
+      "type": "reconnected",
+      "epistemic_status": "record",
+      "note": "Forgotten node reconnected. Was degree 5."
+    },
+    {
+      "source": "unnamed_pca_principal",
+      "target": "pol_rashida_tlaib",
+      "type": "reconnected",
+      "epistemic_status": "record",
+      "note": "Forgotten node reconnected. Was degree 5."
+    },
+    {
+      "source": "unnamed_pca_principal",
+      "target": "bell_data_journalists",
+      "type": "reconnected",
+      "epistemic_status": "record",
+      "note": "Forgotten node reconnected. Was degree 5."
+    },
+    {
+      "source": "unnamed_pca_principal",
+      "target": "internet",
+      "type": "reconnected",
+      "epistemic_status": "record",
+      "note": "Forgotten node reconnected. Was degree 5."
+    },
+    {
+      "source": "unnamed_pca_principal",
+      "target": "osint_news_archives",
+      "type": "reconnected",
+      "epistemic_status": "record",
+      "note": "Forgotten node reconnected. Was degree 5."
+    },
+    {
+      "source": "unnamed_pca_board",
+      "target": "whistleblower_inside",
+      "type": "reconnected",
+      "epistemic_status": "record",
+      "note": "Forgotten node reconnected. Was degree 5."
+    },
+    {
+      "source": "unnamed_pca_board",
+      "target": "pol_rashida_tlaib",
+      "type": "reconnected",
+      "epistemic_status": "record",
+      "note": "Forgotten node reconnected. Was degree 5."
+    },
+    {
+      "source": "unnamed_pca_board",
+      "target": "bell_data_journalists",
+      "type": "reconnected",
+      "epistemic_status": "record",
+      "note": "Forgotten node reconnected. Was degree 5."
+    },
+    {
+      "source": "unnamed_pca_board",
+      "target": "internet",
+      "type": "reconnected",
+      "epistemic_status": "record",
+      "note": "Forgotten node reconnected. Was degree 5."
+    },
+    {
+      "source": "unnamed_pca_board",
+      "target": "osint_news_archives",
+      "type": "reconnected",
+      "epistemic_status": "record",
+      "note": "Forgotten node reconnected. Was degree 5."
+    },
+    {
+      "source": "unnamed_lara_reviewer",
+      "target": "whistleblower_inside",
+      "type": "reconnected",
+      "epistemic_status": "record",
+      "note": "Forgotten node reconnected. Was degree 5."
+    },
+    {
+      "source": "unnamed_lara_reviewer",
+      "target": "pol_rashida_tlaib",
+      "type": "reconnected",
+      "epistemic_status": "record",
+      "note": "Forgotten node reconnected. Was degree 5."
+    },
+    {
+      "source": "unnamed_lara_reviewer",
+      "target": "bell_data_journalists",
+      "type": "reconnected",
+      "epistemic_status": "record",
+      "note": "Forgotten node reconnected. Was degree 5."
+    },
+    {
+      "source": "unnamed_lara_reviewer",
+      "target": "internet",
+      "type": "reconnected",
+      "epistemic_status": "record",
+      "note": "Forgotten node reconnected. Was degree 5."
+    },
+    {
+      "source": "unnamed_lara_reviewer",
+      "target": "osint_news_archives",
+      "type": "reconnected",
+      "epistemic_status": "record",
+      "note": "Forgotten node reconnected. Was degree 5."
+    },
+    {
+      "source": "unnamed_mde_authorizer",
+      "target": "whistleblower_inside",
+      "type": "reconnected",
+      "epistemic_status": "record",
+      "note": "Forgotten node reconnected. Was degree 5."
+    },
+    {
+      "source": "unnamed_mde_authorizer",
+      "target": "pol_rashida_tlaib",
+      "type": "reconnected",
+      "epistemic_status": "record",
+      "note": "Forgotten node reconnected. Was degree 5."
+    },
+    {
+      "source": "unnamed_mde_authorizer",
+      "target": "bell_data_journalists",
+      "type": "reconnected",
+      "epistemic_status": "record",
+      "note": "Forgotten node reconnected. Was degree 5."
+    },
+    {
+      "source": "unnamed_mde_authorizer",
+      "target": "internet",
+      "type": "reconnected",
+      "epistemic_status": "record",
+      "note": "Forgotten node reconnected. Was degree 5."
+    },
+    {
+      "source": "unnamed_mde_authorizer",
+      "target": "osint_news_archives",
+      "type": "reconnected",
+      "epistemic_status": "record",
+      "note": "Forgotten node reconnected. Was degree 5."
+    },
+    {
+      "source": "holland",
+      "target": "1st_amendment",
+      "type": "should_be_connected",
+      "epistemic_status": "record",
+      "note": "Jaccard 0.51, 233 shared neighbors. Why aren't these connected?"
+    },
+    {
+      "source": "banks",
+      "target": "site_tuebor",
+      "type": "should_be_connected",
+      "epistemic_status": "record",
+      "note": "Jaccard 0.17, 206 shared neighbors. Why aren't these connected?"
+    },
+    {
+      "source": "pca",
+      "target": "site_tuebor",
+      "type": "should_be_connected",
+      "epistemic_status": "record",
+      "note": "Jaccard 0.11, 144 shared neighbors. Why aren't these connected?"
+    },
+    {
+      "source": "banks",
+      "target": "dana_nessel",
+      "type": "should_be_connected",
+      "epistemic_status": "record",
+      "note": "Jaccard 0.11, 142 shared neighbors. Why aren't these connected?"
+    },
+    {
+      "source": "detroit_free_press",
+      "target": "site_tuebor",
+      "type": "should_be_connected",
+      "epistemic_status": "record",
+      "note": "Jaccard 0.30, 130 shared neighbors. Why aren't these connected?"
+    },
+    {
+      "source": "plante_moran",
+      "target": "three_percent_math",
+      "type": "should_be_connected",
+      "epistemic_status": "record",
+      "note": "Jaccard 0.13, 121 shared neighbors. Why aren't these connected?"
+    },
+    {
+      "source": "public_education",
+      "target": "pattern_regulatory_capture",
+      "type": "should_be_connected",
+      "epistemic_status": "record",
+      "note": "Jaccard 0.03, 119 shared neighbors. Why aren't these connected?"
+    },
+    {
+      "source": "pca",
+      "target": "ud_mercy_law",
+      "type": "should_be_connected",
+      "epistemic_status": "record",
+      "note": "Jaccard 0.10, 116 shared neighbors. Why aren't these connected?"
+    },
+    {
+      "source": "pca",
+      "target": "damages_mde",
+      "type": "should_be_connected",
+      "epistemic_status": "record",
+      "note": "Jaccard 0.10, 115 shared neighbors. Why aren't these connected?"
+    },
+    {
+      "source": "public_education",
+      "target": "site_detroit",
+      "type": "should_be_connected",
+      "epistemic_status": "record",
+      "note": "Jaccard 0.03, 113 shared neighbors. Why aren't these connected?"
+    },
+    {
+      "source": "banks",
+      "target": "ud_mercy_law",
+      "type": "should_be_connected",
+      "epistemic_status": "record",
+      "note": "Jaccard 0.09, 113 shared neighbors. Why aren't these connected?"
+    },
+    {
+      "source": "detroit_free_press",
+      "target": "wayne_resa",
+      "type": "should_be_connected",
+      "epistemic_status": "record",
+      "note": "Jaccard 0.28, 109 shared neighbors. Why aren't these connected?"
+    },
+    {
+      "source": "mde",
+      "target": "detroit_city_council",
+      "type": "should_be_connected",
+      "epistemic_status": "record",
+      "note": "Jaccard 0.18, 107 shared neighbors. Why aren't these connected?"
+    },
+    {
+      "source": "detroit_free_press",
+      "target": "bridge_michigan",
+      "type": "should_be_connected",
+      "epistemic_status": "record",
+      "note": "Jaccard 0.29, 107 shared neighbors. Why aren't these connected?"
+    },
+    {
+      "source": "plante_moran",
+      "target": "site_tuebor",
+      "type": "should_be_connected",
+      "epistemic_status": "record",
+      "note": "Jaccard 0.14, 106 shared neighbors. Why aren't these connected?"
+    },
+    {
+      "source": "mde",
+      "target": "dana_nessel",
+      "type": "should_be_connected",
+      "epistemic_status": "record",
+      "note": "Jaccard 0.19, 103 shared neighbors. Why aren't these connected?"
+    },
+    {
+      "source": "pca",
+      "target": "thesis_statement",
+      "type": "should_be_connected",
+      "epistemic_status": "record",
+      "note": "Jaccard 0.08, 101 shared neighbors. Why aren't these connected?"
+    },
+    {
+      "source": "three_percent_math",
+      "target": "site_detroit",
+      "type": "should_be_connected",
+      "epistemic_status": "record",
+      "note": "Jaccard 0.16, 101 shared neighbors. Why aren't these connected?"
+    },
+    {
+      "source": "sc_cavanagh",
+      "target": "site_detroit",
+      "type": "should_be_connected",
+      "epistemic_status": "record",
+      "note": "Jaccard 0.17, 97 shared neighbors. Why aren't these connected?"
+    },
+    {
+      "source": "three_percent_math",
+      "target": "site_tuebor",
+      "type": "should_be_connected",
+      "epistemic_status": "record",
+      "note": "Jaccard 0.18, 96 shared neighbors. Why aren't these connected?"
+    },
+    {
+      "source": "pattern_regulatory_capture",
+      "target": "insurance_chain",
+      "type": "should_be_connected",
+      "epistemic_status": "record",
+      "note": "Jaccard 0.38, 96 shared neighbors. Why aren't these connected?"
+    },
+    {
+      "source": "pca",
+      "target": "jtc_corbett",
+      "type": "should_be_connected",
+      "epistemic_status": "record",
+      "note": "Jaccard 0.08, 94 shared neighbors. Why aren't these connected?"
+    },
+    {
+      "source": "mde",
+      "target": "phantom_audit",
+      "type": "should_be_connected",
+      "epistemic_status": "record",
+      "note": "Jaccard 0.18, 94 shared neighbors. Why aren't these connected?"
+    },
+    {
+      "source": "three_percent_math",
+      "target": "detroit_free_press",
+      "type": "should_be_connected",
+      "epistemic_status": "record",
+      "note": "Jaccard 0.14, 92 shared neighbors. Why aren't these connected?"
+    },
+    {
+      "source": "detroit_free_press",
+      "target": "pattern_regulatory_capture",
+      "type": "should_be_connected",
+      "epistemic_status": "record",
+      "note": "Jaccard 0.20, 92 shared neighbors. Why aren't these connected?"
+    },
+    {
+      "source": "detroit_free_press",
+      "target": "phantom_audit",
+      "type": "should_be_connected",
+      "epistemic_status": "record",
+      "note": "Jaccard 0.24, 90 shared neighbors. Why aren't these connected?"
+    },
+    {
+      "source": "public_education",
+      "target": "detroit_oig",
+      "type": "should_be_connected",
+      "epistemic_status": "record",
+      "note": "Jaccard 0.02, 89 shared neighbors. Why aren't these connected?"
+    },
+    {
+      "source": "pca",
+      "target": "inkfish",
+      "type": "should_be_connected",
+      "epistemic_status": "record",
+      "note": "Jaccard 0.07, 89 shared neighbors. Why aren't these connected?"
+    },
+    {
+      "source": "banks",
+      "target": "inkfish",
+      "type": "should_be_connected",
+      "epistemic_status": "record",
+      "note": "Jaccard 0.07, 85 shared neighbors. Why aren't these connected?"
+    },
+    {
+      "source": "site_detroit",
+      "target": "phantom_audit",
+      "type": "should_be_connected",
+      "epistemic_status": "record",
+      "note": "Jaccard 0.24, 84 shared neighbors. Why aren't these connected?"
+    },
+    {
+      "source": "three_percent_math",
+      "target": "sc_cavanagh",
+      "type": "should_be_connected",
+      "epistemic_status": "record",
+      "note": "Jaccard 0.12, 82 shared neighbors. Why aren't these connected?"
+    },
+    {
+      "source": "three_percent_math",
+      "target": "pattern_regulatory_capture",
+      "type": "should_be_connected",
+      "epistemic_status": "record",
+      "note": "Jaccard 0.15, 82 shared neighbors. Why aren't these connected?"
+    },
+    {
+      "source": "detroit_free_press",
+      "target": "sheffield",
+      "type": "should_be_connected",
+      "epistemic_status": "record",
+      "note": "Jaccard 0.22, 82 shared neighbors. Why aren't these connected?"
+    },
+    {
+      "source": "site_detroit",
+      "target": "pattern_regulatory_capture",
+      "type": "should_be_connected",
+      "epistemic_status": "record",
+      "note": "Jaccard 0.19, 82 shared neighbors. Why aren't these connected?"
+    },
+    {
+      "source": "site_detroit",
+      "target": "media_blitz",
+      "type": "should_be_connected",
+      "epistemic_status": "record",
+      "note": "Jaccard 0.20, 82 shared neighbors. Why aren't these connected?"
+    },
+    {
+      "source": "cmu",
+      "target": "bridge_michigan",
+      "type": "should_be_connected",
+      "epistemic_status": "record",
+      "note": "Jaccard 0.26, 82 shared neighbors. Why aren't these connected?"
+    },
+    {
+      "source": "dpscd",
+      "target": "site_tuebor",
+      "type": "should_be_connected",
+      "epistemic_status": "record",
+      "note": "Jaccard 0.22, 82 shared neighbors. Why aren't these connected?"
+    },
+    {
+      "source": "pattern_regulatory_capture",
+      "target": "wayne_state_law",
+      "type": "should_be_connected",
+      "epistemic_status": "record",
+      "note": "Jaccard 0.24, 82 shared neighbors. Why aren't these connected?"
+    },
+    {
+      "source": "sc_cavanagh",
+      "target": "site_tuebor",
+      "type": "should_be_connected",
+      "epistemic_status": "record",
+      "note": "Jaccard 0.16, 81 shared neighbors. Why aren't these connected?"
+    },
+    {
+      "source": "detroit_free_press",
+      "target": "insurance_chain",
+      "type": "should_be_connected",
+      "epistemic_status": "record",
+      "note": "Jaccard 0.21, 81 shared neighbors. Why aren't these connected?"
+    },
+    {
+      "source": "three_percent_math",
+      "target": "pattern_we_name_the_victims",
+      "type": "should_be_connected",
+      "epistemic_status": "record",
+      "note": "Jaccard 0.17, 80 shared neighbors. Why aren't these connected?"
+    },
+    {
+      "source": "detroit_free_press",
+      "target": "msu",
+      "type": "should_be_connected",
+      "epistemic_status": "record",
+      "note": "Jaccard 0.22, 80 shared neighbors. Why aren't these connected?"
+    },
+    {
+      "source": "pattern_regulatory_capture",
+      "target": "msu_law",
+      "type": "should_be_connected",
+      "epistemic_status": "record",
+      "note": "Jaccard 0.23, 80 shared neighbors. Why aren't these connected?"
+    },
+    {
+      "source": "sc_cavanagh",
+      "target": "insurance_chain",
+      "type": "should_be_connected",
+      "epistemic_status": "record",
+      "note": "Jaccard 0.20, 79 shared neighbors. Why aren't these connected?"
+    },
+    {
+      "source": "site_detroit",
+      "target": "agc",
+      "type": "should_be_connected",
+      "epistemic_status": "record",
+      "note": "Jaccard 0.16, 79 shared neighbors. Why aren't these connected?"
+    },
+    {
+      "source": "cmu",
+      "target": "chalkbeat_detroit",
+      "type": "should_be_connected",
+      "epistemic_status": "record",
+      "note": "Jaccard 0.22, 79 shared neighbors. Why aren't these connected?"
+    },
+    {
+      "source": "site_tuebor",
+      "target": "phantom_audit",
+      "type": "should_be_connected",
+      "epistemic_status": "record",
+      "note": "Jaccard 0.27, 78 shared neighbors. Why aren't these connected?"
+    },
+    {
+      "source": "plante_moran",
+      "target": "pattern_we_name_the_victims",
+      "type": "should_be_connected",
+      "epistemic_status": "record",
+      "note": "Jaccard 0.11, 77 shared neighbors. Why aren't these connected?"
+    },
+    {
+      "source": "three_percent_math",
+      "target": "dpscd",
+      "type": "should_be_connected",
+      "epistemic_status": "record",
+      "note": "Jaccard 0.14, 77 shared neighbors. Why aren't these connected?"
+    },
+    {
+      "source": "site_detroit",
+      "target": "pattern_we_name_the_victims",
+      "type": "should_be_connected",
+      "epistemic_status": "record",
+      "note": "Jaccard 0.21, 77 shared neighbors. Why aren't these connected?"
+    },
+    {
+      "source": "article_what_breaks",
+      "target": "banks",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_what_breaks",
+      "target": "gordian_knot",
+      "type": "proves",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_what_breaks",
+      "target": "article_the_signal",
+      "type": "companion_to",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_farthest_from_banks",
+      "target": "banks",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_farthest_from_banks",
+      "target": "article_the_signal",
+      "type": "companion_to",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_farthest_from_banks",
+      "target": "moores_law",
       "type": "about",
       "epistemic_status": "record",
       "note": ""
