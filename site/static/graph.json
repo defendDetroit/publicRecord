@@ -76304,6 +76304,185 @@
         "protected_speech",
         "dasean"
       ]
+    },
+    {
+      "id": "game_red_flag_bingo",
+      "label": "GAME: Red Flag Bingo",
+      "class": "game",
+      "role": "Pick a school. Any charter school in Michigan. Pull up mischooldata.org. Check the 10 red flags from THE RADAR. How many flags does it hit? 3/10 = suspicious. 5/10 = alarming. 7/10 = PCA territory. Play with friends. Play at board meetings. Play in the car. The data is free. The bingo card is the 10 red flags. TIME: 15 minutes per school. SKILL: reading. REWARD: knowledge.",
+      "tags": [
+        "game",
+        "play",
+        "guerillaGorilla",
+        "radar"
+      ]
+    },
+    {
+      "id": "game_follow_the_money",
+      "label": "GAME: Follow the Money",
+      "class": "game",
+      "role": "Pick any entity from the graph. Trace its money. Start at FollowTheMoney.org. Cross-reference with LARA filings. Check OpenSecrets. Check USASpending.gov. How far can you trace the dollar? Where does it start? Where does it end? Every dollar you trace is a new edge in the graph. TIME: 30 minutes. SKILL: research. REWARD: new evidence.",
+      "tags": [
+        "game",
+        "play",
+        "guerillaGorilla",
+        "osint",
+        "money"
+      ]
+    },
+    {
+      "id": "game_foia_roulette",
+      "label": "GAME: FOIA Roulette",
+      "class": "game",
+      "role": "Pick a state agency. MDE. LARA. AG. SBE. CMU Charter Office. File a FOIA request for charter school oversight records. What comes back? How long does it take? Do they comply? Every response (or non-response) is data. TIME: 10 minutes to file. SKILL: writing. REWARD: public records.",
+      "tags": [
+        "game",
+        "play",
+        "guerillaGorilla",
+        "foia"
+      ]
+    },
+    {
+      "id": "game_graph_explorer",
+      "label": "GAME: Graph Explorer",
+      "class": "game",
+      "role": "Clone the repo. Load graph.json. Pick any node. How many hops to Banks? How many hops to the farthest node? Find the node with the most edges. Find the loneliest node. Find a path from your hometown to the investigation. Every path you find is a story. TIME: 20 minutes. SKILL: curiosity. REWARD: understanding.",
+      "tags": [
+        "game",
+        "play",
+        "guerillaGorilla",
+        "graph",
+        "exploration"
+      ]
+    },
+    {
+      "id": "game_pinocchio_detector",
+      "label": "GAME: Pinocchio Detector",
+      "class": "game",
+      "role": "Find a public statement by a charter school operator. Cross-reference it with public data. mischooldata.org. CEPI. LARA. Is it true? Rate it on the Pinocchio Scale. Banks said he self-funded PCA. The state pays $8,700/student. Can you find more Pinocchios? TIME: 15 minutes. SKILL: fact-checking. REWARD: truth.",
+      "tags": [
+        "game",
+        "play",
+        "guerillaGorilla",
+        "pinocchio",
+        "fact_check"
+      ]
+    },
+    {
+      "id": "game_board_meeting_bingo",
+      "label": "GAME: Board Meeting Bingo",
+      "class": "game",
+      "role": "Attend a charter school board meeting (they're public). Bring the bingo card: Does the operator mention test scores? Does anyone mention the criminal background check? Does a parent ask a question? Is it answered? How many items on the agenda? How long does it last? TIME: 1-2 hours. SKILL: showing up. REWARD: being a witness.",
+      "tags": [
+        "game",
+        "play",
+        "guerillaGorilla",
+        "board_meeting",
+        "civic"
+      ]
+    },
+    {
+      "id": "game_radar_sweep",
+      "label": "GAME: Radar Sweep",
+      "class": "game",
+      "role": "Run THE RADAR protocol on any entity. 10 red flags. 8 entity types. 90 minutes. Start with public data. Cross-reference. Score. Document your findings. Add them to the graph via pull request. TIME: 90 minutes. SKILL: analysis. REWARD: new radar hits.",
+      "tags": [
+        "game",
+        "play",
+        "guerillaGorilla",
+        "radar",
+        "protocol"
+      ]
+    },
+    {
+      "id": "game_nassar_pattern_hunt",
+      "label": "GAME: Pattern Hunt",
+      "class": "game",
+      "role": "Pick a domain: medicine, finance, housing, food, justice, tech, religion. Find a case where the institution investigated itself and found itself innocent. Document it. How many victims? How long did it take to break? Who finally broke the silence? What was the cost of the cover-up? Every pattern you find strengthens the case that THIS is the design, not the exception. TIME: 30 minutes. SKILL: research. REWARD: pattern recognition.",
+      "tags": [
+        "game",
+        "play",
+        "guerillaGorilla",
+        "pattern",
+        "investigation"
+      ]
+    },
+    {
+      "id": "game_one_share",
+      "label": "GAME: One Share",
+      "class": "game",
+      "role": "The simplest game. Takes 30 seconds. Share the graph link with ONE person. That's it. github.com/defendDetroit/publicRecord Tell them one number: 3% math. Or 9 convictions. Or $8,700/student. They'll ask the next question themselves. TIME: 30 seconds. SKILL: caring. REWARD: the second line grows by one.",
+      "tags": [
+        "game",
+        "play",
+        "guerillaGorilla",
+        "spread",
+        "simple"
+      ]
+    },
+    {
+      "id": "game_what_would_you_do",
+      "label": "GAME: What Would You Do?",
+      "class": "game",
+      "role": "Read one article from the graph. Any article. Then ask yourself: what would I do if my child went to this school? What would I do if I worked there? What would I do if I was on the board? What would I do if I was the auditor? Write your answer. That's your beast talking. TIME: 10 minutes. SKILL: empathy. REWARD: clarity.",
+      "tags": [
+        "game",
+        "play",
+        "guerillaGorilla",
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "id": "game_dead_link_hunt",
+      "label": "GAME: Dead Link Hunt",
+      "class": "game",
+      "role": "Check every URL in the graph. Which ones are dead? Dead links are evidence of scrubbing. Someone deleted something. Archive.org has the receipts. Wayback Machine remembers. Every dead link you find and archive is evidence preserved. TIME: 20 minutes. SKILL: clicking. REWARD: preserved evidence.",
+      "tags": [
+        "game",
+        "play",
+        "guerillaGorilla",
+        "osint",
+        "archives"
+      ]
+    },
+    {
+      "id": "game_six_degrees_of_banks",
+      "label": "GAME: Six Degrees of Banks",
+      "class": "game",
+      "role": "Pick any public figure in Michigan politics. How many hops to Brian Banks in the graph? Hint: the diameter is 3. Almost everyone is 3 hops or less. Who's the FARTHEST from Banks? Who's the CLOSEST? The answers might surprise you. TIME: 15 minutes. SKILL: graph navigation. REWARD: understanding the network.",
+      "tags": [
+        "game",
+        "play",
+        "guerillaGorilla",
+        "graph",
+        "degrees"
+      ]
+    },
+    {
+      "id": "game_write_an_article",
+      "label": "GAME: Write the Article",
+      "class": "game",
+      "role": "Pick a node that doesn't have an article. There are thousands. Pick one. Research it. Write it. Submit it as a pull request to the repo. If it's factual and sourced, it gets merged. Your words become part of the investigation. Forever. TIME: 1 hour. SKILL: writing. REWARD: authorship in the fossil record.",
+      "tags": [
+        "game",
+        "play",
+        "guerillaGorilla",
+        "writing",
+        "contribution"
+      ]
+    },
+    {
+      "id": "article_come_and_play_games",
+      "label": "ARTICLE: Come and Play — 13 Games Anyone Can Play Right Now",
+      "class": "article",
+      "role": "13 games. Zero cost. No login required. Red Flag Bingo. Follow the Money. FOIA Roulette. Graph Explorer. Pinocchio Detector. Board Meeting Bingo. Radar Sweep. Pattern Hunt. One Share. What Would You Do. Dead Link Hunt. Six Degrees of Banks. Write the Article. Each game has a time, a skill, and a reward. The shortest takes 30 seconds (One Share). The longest takes 90 minutes (Radar Sweep). Every game produces data. Every player is a beast. Pick your beast. Pick your game. Go play.",
+      "tags": [
+        "game",
+        "play",
+        "article",
+        "guerillaGorilla"
+      ]
     }
   ],
   "edges": [
@@ -642364,6 +642543,5578 @@
       "type": "story_for",
       "epistemic_status": "record",
       "note": "A man claims he self-funded a public school. The budget says otherwise."
+    },
+    {
+      "source": "beast_gorilla",
+      "target": "game_red_flag_bingo",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_whale",
+      "target": "game_red_flag_bingo",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_badger",
+      "target": "game_red_flag_bingo",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_hawk",
+      "target": "game_red_flag_bingo",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_octopus",
+      "target": "game_red_flag_bingo",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_dolphin",
+      "target": "game_red_flag_bingo",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_elephant",
+      "target": "game_red_flag_bingo",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_owl",
+      "target": "game_red_flag_bingo",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_ant",
+      "target": "game_red_flag_bingo",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_wolf",
+      "target": "game_red_flag_bingo",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_firefly",
+      "target": "game_red_flag_bingo",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_honeybee",
+      "target": "game_red_flag_bingo",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_spider",
+      "target": "game_red_flag_bingo",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_gorilla",
+      "target": "game_follow_the_money",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_whale",
+      "target": "game_follow_the_money",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_badger",
+      "target": "game_follow_the_money",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_hawk",
+      "target": "game_follow_the_money",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_octopus",
+      "target": "game_follow_the_money",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_dolphin",
+      "target": "game_follow_the_money",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_elephant",
+      "target": "game_follow_the_money",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_owl",
+      "target": "game_follow_the_money",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_ant",
+      "target": "game_follow_the_money",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_wolf",
+      "target": "game_follow_the_money",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_firefly",
+      "target": "game_follow_the_money",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_honeybee",
+      "target": "game_follow_the_money",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_spider",
+      "target": "game_follow_the_money",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_gorilla",
+      "target": "game_foia_roulette",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_whale",
+      "target": "game_foia_roulette",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_badger",
+      "target": "game_foia_roulette",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_hawk",
+      "target": "game_foia_roulette",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_octopus",
+      "target": "game_foia_roulette",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_dolphin",
+      "target": "game_foia_roulette",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_elephant",
+      "target": "game_foia_roulette",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_owl",
+      "target": "game_foia_roulette",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_ant",
+      "target": "game_foia_roulette",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_wolf",
+      "target": "game_foia_roulette",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_firefly",
+      "target": "game_foia_roulette",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_honeybee",
+      "target": "game_foia_roulette",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_spider",
+      "target": "game_foia_roulette",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_gorilla",
+      "target": "game_graph_explorer",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_whale",
+      "target": "game_graph_explorer",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_badger",
+      "target": "game_graph_explorer",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_hawk",
+      "target": "game_graph_explorer",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_octopus",
+      "target": "game_graph_explorer",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_dolphin",
+      "target": "game_graph_explorer",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_elephant",
+      "target": "game_graph_explorer",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_owl",
+      "target": "game_graph_explorer",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_ant",
+      "target": "game_graph_explorer",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_wolf",
+      "target": "game_graph_explorer",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_firefly",
+      "target": "game_graph_explorer",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_honeybee",
+      "target": "game_graph_explorer",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_spider",
+      "target": "game_graph_explorer",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_gorilla",
+      "target": "game_pinocchio_detector",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_whale",
+      "target": "game_pinocchio_detector",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_badger",
+      "target": "game_pinocchio_detector",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_hawk",
+      "target": "game_pinocchio_detector",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_octopus",
+      "target": "game_pinocchio_detector",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_dolphin",
+      "target": "game_pinocchio_detector",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_elephant",
+      "target": "game_pinocchio_detector",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_owl",
+      "target": "game_pinocchio_detector",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_ant",
+      "target": "game_pinocchio_detector",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_wolf",
+      "target": "game_pinocchio_detector",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_firefly",
+      "target": "game_pinocchio_detector",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_honeybee",
+      "target": "game_pinocchio_detector",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_spider",
+      "target": "game_pinocchio_detector",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_gorilla",
+      "target": "game_board_meeting_bingo",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_whale",
+      "target": "game_board_meeting_bingo",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_badger",
+      "target": "game_board_meeting_bingo",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_hawk",
+      "target": "game_board_meeting_bingo",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_octopus",
+      "target": "game_board_meeting_bingo",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_dolphin",
+      "target": "game_board_meeting_bingo",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_elephant",
+      "target": "game_board_meeting_bingo",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_owl",
+      "target": "game_board_meeting_bingo",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_ant",
+      "target": "game_board_meeting_bingo",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_wolf",
+      "target": "game_board_meeting_bingo",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_firefly",
+      "target": "game_board_meeting_bingo",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_honeybee",
+      "target": "game_board_meeting_bingo",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_spider",
+      "target": "game_board_meeting_bingo",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_gorilla",
+      "target": "game_radar_sweep",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_whale",
+      "target": "game_radar_sweep",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_badger",
+      "target": "game_radar_sweep",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_hawk",
+      "target": "game_radar_sweep",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_octopus",
+      "target": "game_radar_sweep",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_dolphin",
+      "target": "game_radar_sweep",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_elephant",
+      "target": "game_radar_sweep",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_owl",
+      "target": "game_radar_sweep",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_ant",
+      "target": "game_radar_sweep",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_wolf",
+      "target": "game_radar_sweep",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_firefly",
+      "target": "game_radar_sweep",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_honeybee",
+      "target": "game_radar_sweep",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_spider",
+      "target": "game_radar_sweep",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_gorilla",
+      "target": "game_nassar_pattern_hunt",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_whale",
+      "target": "game_nassar_pattern_hunt",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_badger",
+      "target": "game_nassar_pattern_hunt",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_hawk",
+      "target": "game_nassar_pattern_hunt",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_octopus",
+      "target": "game_nassar_pattern_hunt",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_dolphin",
+      "target": "game_nassar_pattern_hunt",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_elephant",
+      "target": "game_nassar_pattern_hunt",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_owl",
+      "target": "game_nassar_pattern_hunt",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_ant",
+      "target": "game_nassar_pattern_hunt",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_wolf",
+      "target": "game_nassar_pattern_hunt",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_firefly",
+      "target": "game_nassar_pattern_hunt",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_honeybee",
+      "target": "game_nassar_pattern_hunt",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_spider",
+      "target": "game_nassar_pattern_hunt",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_gorilla",
+      "target": "game_one_share",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_whale",
+      "target": "game_one_share",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_badger",
+      "target": "game_one_share",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_hawk",
+      "target": "game_one_share",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_octopus",
+      "target": "game_one_share",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_dolphin",
+      "target": "game_one_share",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_elephant",
+      "target": "game_one_share",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_owl",
+      "target": "game_one_share",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_ant",
+      "target": "game_one_share",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_wolf",
+      "target": "game_one_share",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_firefly",
+      "target": "game_one_share",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_honeybee",
+      "target": "game_one_share",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_spider",
+      "target": "game_one_share",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_gorilla",
+      "target": "game_what_would_you_do",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_whale",
+      "target": "game_what_would_you_do",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_badger",
+      "target": "game_what_would_you_do",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_hawk",
+      "target": "game_what_would_you_do",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_octopus",
+      "target": "game_what_would_you_do",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_dolphin",
+      "target": "game_what_would_you_do",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_elephant",
+      "target": "game_what_would_you_do",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_owl",
+      "target": "game_what_would_you_do",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_ant",
+      "target": "game_what_would_you_do",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_wolf",
+      "target": "game_what_would_you_do",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_firefly",
+      "target": "game_what_would_you_do",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_honeybee",
+      "target": "game_what_would_you_do",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_spider",
+      "target": "game_what_would_you_do",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_gorilla",
+      "target": "game_dead_link_hunt",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_whale",
+      "target": "game_dead_link_hunt",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_badger",
+      "target": "game_dead_link_hunt",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_hawk",
+      "target": "game_dead_link_hunt",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_octopus",
+      "target": "game_dead_link_hunt",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_dolphin",
+      "target": "game_dead_link_hunt",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_elephant",
+      "target": "game_dead_link_hunt",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_owl",
+      "target": "game_dead_link_hunt",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_ant",
+      "target": "game_dead_link_hunt",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_wolf",
+      "target": "game_dead_link_hunt",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_firefly",
+      "target": "game_dead_link_hunt",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_honeybee",
+      "target": "game_dead_link_hunt",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_spider",
+      "target": "game_dead_link_hunt",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_gorilla",
+      "target": "game_six_degrees_of_banks",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_whale",
+      "target": "game_six_degrees_of_banks",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_badger",
+      "target": "game_six_degrees_of_banks",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_hawk",
+      "target": "game_six_degrees_of_banks",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_octopus",
+      "target": "game_six_degrees_of_banks",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_dolphin",
+      "target": "game_six_degrees_of_banks",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_elephant",
+      "target": "game_six_degrees_of_banks",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_owl",
+      "target": "game_six_degrees_of_banks",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_ant",
+      "target": "game_six_degrees_of_banks",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_wolf",
+      "target": "game_six_degrees_of_banks",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_firefly",
+      "target": "game_six_degrees_of_banks",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_honeybee",
+      "target": "game_six_degrees_of_banks",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_spider",
+      "target": "game_six_degrees_of_banks",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_gorilla",
+      "target": "game_write_an_article",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_whale",
+      "target": "game_write_an_article",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_badger",
+      "target": "game_write_an_article",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_hawk",
+      "target": "game_write_an_article",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_octopus",
+      "target": "game_write_an_article",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_dolphin",
+      "target": "game_write_an_article",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_elephant",
+      "target": "game_write_an_article",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_owl",
+      "target": "game_write_an_article",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_ant",
+      "target": "game_write_an_article",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_wolf",
+      "target": "game_write_an_article",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_firefly",
+      "target": "game_write_an_article",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_honeybee",
+      "target": "game_write_an_article",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "beast_spider",
+      "target": "game_write_an_article",
+      "type": "plays",
+      "epistemic_status": "record",
+      "note": "beast plays game"
+    },
+    {
+      "source": "game_red_flag_bingo",
+      "target": "redflag_audit_hired_by_client",
+      "type": "uses",
+      "epistemic_status": "record",
+      "note": "game uses redflag_"
+    },
+    {
+      "source": "game_red_flag_bingo",
+      "target": "redflag_scores_vs_money",
+      "type": "uses",
+      "epistemic_status": "record",
+      "note": "game uses redflag_"
+    },
+    {
+      "source": "game_red_flag_bingo",
+      "target": "redflag_criminal_background",
+      "type": "uses",
+      "epistemic_status": "record",
+      "note": "game uses redflag_"
+    },
+    {
+      "source": "game_red_flag_bingo",
+      "target": "article_the_cast",
+      "type": "uses",
+      "epistemic_status": "record",
+      "note": "game entry point"
+    },
+    {
+      "source": "game_follow_the_money",
+      "target": "bounty_sec_whistleblower",
+      "type": "uses",
+      "epistemic_status": "record",
+      "note": "game uses bounty_"
+    },
+    {
+      "source": "game_follow_the_money",
+      "target": "bounty_state_ag",
+      "type": "uses",
+      "epistemic_status": "record",
+      "note": "game uses bounty_"
+    },
+    {
+      "source": "game_follow_the_money",
+      "target": "bounty_social_spread",
+      "type": "uses",
+      "epistemic_status": "record",
+      "note": "game uses bounty_"
+    },
+    {
+      "source": "game_follow_the_money",
+      "target": "purpose_foundation",
+      "type": "uses",
+      "epistemic_status": "record",
+      "note": "game entry point"
+    },
+    {
+      "source": "game_foia_roulette",
+      "target": "cmu",
+      "type": "uses",
+      "epistemic_status": "record",
+      "note": "game entry point"
+    },
+    {
+      "source": "game_graph_explorer",
+      "target": "fossil_record",
+      "type": "uses",
+      "epistemic_status": "record",
+      "note": "game entry point"
+    },
+    {
+      "source": "game_graph_explorer",
+      "target": "article_the_braid",
+      "type": "uses",
+      "epistemic_status": "record",
+      "note": "game entry point"
+    },
+    {
+      "source": "game_pinocchio_detector",
+      "target": "article_pinocchio",
+      "type": "uses",
+      "epistemic_status": "record",
+      "note": "game entry point"
+    },
+    {
+      "source": "game_pinocchio_detector",
+      "target": "pinocchio_scale",
+      "type": "uses",
+      "epistemic_status": "record",
+      "note": "game entry point"
+    },
+    {
+      "source": "game_pinocchio_detector",
+      "target": "banks_claim_self_funded",
+      "type": "uses",
+      "epistemic_status": "record",
+      "note": "game entry point"
+    },
+    {
+      "source": "game_radar_sweep",
+      "target": "redflag_audit_hired_by_client",
+      "type": "uses",
+      "epistemic_status": "record",
+      "note": "game uses redflag_"
+    },
+    {
+      "source": "game_radar_sweep",
+      "target": "redflag_scores_vs_money",
+      "type": "uses",
+      "epistemic_status": "record",
+      "note": "game uses redflag_"
+    },
+    {
+      "source": "game_radar_sweep",
+      "target": "redflag_criminal_background",
+      "type": "uses",
+      "epistemic_status": "record",
+      "note": "game uses redflag_"
+    },
+    {
+      "source": "game_radar_sweep",
+      "target": "entity_type_silent_regulator",
+      "type": "uses",
+      "epistemic_status": "record",
+      "note": "game uses entity_type_"
+    },
+    {
+      "source": "game_radar_sweep",
+      "target": "entity_type_front",
+      "type": "uses",
+      "epistemic_status": "record",
+      "note": "game uses entity_type_"
+    },
+    {
+      "source": "game_radar_sweep",
+      "target": "entity_type_extractor",
+      "type": "uses",
+      "epistemic_status": "record",
+      "note": "game uses entity_type_"
+    },
+    {
+      "source": "game_nassar_pattern_hunt",
+      "target": "pattern_regulatory_capture",
+      "type": "uses",
+      "epistemic_status": "record",
+      "note": "game entry point"
+    },
+    {
+      "source": "game_nassar_pattern_hunt",
+      "target": "larry_nassar",
+      "type": "uses",
+      "epistemic_status": "record",
+      "note": "game entry point"
+    },
+    {
+      "source": "game_one_share",
+      "target": "spread_reddit",
+      "type": "uses",
+      "epistemic_status": "record",
+      "note": "game uses spread_"
+    },
+    {
+      "source": "game_one_share",
+      "target": "spread_twitter",
+      "type": "uses",
+      "epistemic_status": "record",
+      "note": "game uses spread_"
+    },
+    {
+      "source": "game_one_share",
+      "target": "spread_law_schools",
+      "type": "uses",
+      "epistemic_status": "record",
+      "note": "game uses spread_"
+    },
+    {
+      "source": "game_one_share",
+      "target": "sporeprint",
+      "type": "uses",
+      "epistemic_status": "record",
+      "note": "game entry point"
+    },
+    {
+      "source": "game_what_would_you_do",
+      "target": "article_you_yeah_you",
+      "type": "uses",
+      "epistemic_status": "record",
+      "note": "game entry point"
+    },
+    {
+      "source": "game_dead_link_hunt",
+      "target": "neg_no_foia_response",
+      "type": "uses",
+      "epistemic_status": "record",
+      "note": "game entry point"
+    },
+    {
+      "source": "game_write_an_article",
+      "target": "fossil_record",
+      "type": "uses",
+      "epistemic_status": "record",
+      "note": "game entry point"
+    },
+    {
+      "source": "game_write_an_article",
+      "target": "invitation_come_and_build",
+      "type": "uses",
+      "epistemic_status": "record",
+      "note": "game entry point"
+    },
+    {
+      "source": "invitation_come_and_play",
+      "target": "game_red_flag_bingo",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_play",
+      "target": "game_follow_the_money",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_play",
+      "target": "game_foia_roulette",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_play",
+      "target": "game_graph_explorer",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_play",
+      "target": "game_pinocchio_detector",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_play",
+      "target": "game_board_meeting_bingo",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_play",
+      "target": "game_radar_sweep",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_play",
+      "target": "game_nassar_pattern_hunt",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_play",
+      "target": "game_one_share",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_play",
+      "target": "game_what_would_you_do",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_play",
+      "target": "game_dead_link_hunt",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_play",
+      "target": "game_six_degrees_of_banks",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_play",
+      "target": "game_write_an_article",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_build",
+      "target": "game_red_flag_bingo",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_build",
+      "target": "game_follow_the_money",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_build",
+      "target": "game_foia_roulette",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_build",
+      "target": "game_graph_explorer",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_build",
+      "target": "game_pinocchio_detector",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_build",
+      "target": "game_board_meeting_bingo",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_build",
+      "target": "game_radar_sweep",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_build",
+      "target": "game_nassar_pattern_hunt",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_build",
+      "target": "game_one_share",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_build",
+      "target": "game_what_would_you_do",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_build",
+      "target": "game_dead_link_hunt",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_build",
+      "target": "game_six_degrees_of_banks",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_build",
+      "target": "game_write_an_article",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_homes",
+      "target": "game_red_flag_bingo",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_homes",
+      "target": "game_follow_the_money",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_homes",
+      "target": "game_foia_roulette",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_homes",
+      "target": "game_graph_explorer",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_homes",
+      "target": "game_pinocchio_detector",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_homes",
+      "target": "game_board_meeting_bingo",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_homes",
+      "target": "game_radar_sweep",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_homes",
+      "target": "game_nassar_pattern_hunt",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_homes",
+      "target": "game_one_share",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_homes",
+      "target": "game_what_would_you_do",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_homes",
+      "target": "game_dead_link_hunt",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_homes",
+      "target": "game_six_degrees_of_banks",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_homes",
+      "target": "game_write_an_article",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_see",
+      "target": "game_red_flag_bingo",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_see",
+      "target": "game_follow_the_money",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_see",
+      "target": "game_foia_roulette",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_see",
+      "target": "game_graph_explorer",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_see",
+      "target": "game_pinocchio_detector",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_see",
+      "target": "game_board_meeting_bingo",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_see",
+      "target": "game_radar_sweep",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_see",
+      "target": "game_nassar_pattern_hunt",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_see",
+      "target": "game_one_share",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_see",
+      "target": "game_what_would_you_do",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_see",
+      "target": "game_dead_link_hunt",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_see",
+      "target": "game_six_degrees_of_banks",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_see",
+      "target": "game_write_an_article",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_listen",
+      "target": "game_red_flag_bingo",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_listen",
+      "target": "game_follow_the_money",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_listen",
+      "target": "game_foia_roulette",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_listen",
+      "target": "game_graph_explorer",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_listen",
+      "target": "game_pinocchio_detector",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_listen",
+      "target": "game_board_meeting_bingo",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_listen",
+      "target": "game_radar_sweep",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_listen",
+      "target": "game_nassar_pattern_hunt",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_listen",
+      "target": "game_one_share",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_listen",
+      "target": "game_what_would_you_do",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_listen",
+      "target": "game_dead_link_hunt",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_listen",
+      "target": "game_six_degrees_of_banks",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_listen",
+      "target": "game_write_an_article",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_learn",
+      "target": "game_red_flag_bingo",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_learn",
+      "target": "game_follow_the_money",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_learn",
+      "target": "game_foia_roulette",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_learn",
+      "target": "game_graph_explorer",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_learn",
+      "target": "game_pinocchio_detector",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_learn",
+      "target": "game_board_meeting_bingo",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_learn",
+      "target": "game_radar_sweep",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_learn",
+      "target": "game_nassar_pattern_hunt",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_learn",
+      "target": "game_one_share",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_learn",
+      "target": "game_what_would_you_do",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_learn",
+      "target": "game_dead_link_hunt",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_learn",
+      "target": "game_six_degrees_of_banks",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "invitation_come_and_learn",
+      "target": "game_write_an_article",
+      "type": "play_this",
+      "epistemic_status": "record",
+      "note": "invitation leads to game"
+    },
+    {
+      "source": "game_red_flag_bingo",
+      "target": "bounty_sec_whistleblower",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_red_flag_bingo",
+      "target": "bounty_state_ag",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_red_flag_bingo",
+      "target": "bounty_social_spread",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_red_flag_bingo",
+      "target": "bounty_irs_whistleblower",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_red_flag_bingo",
+      "target": "bounty_qui_tam",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_follow_the_money",
+      "target": "bounty_sec_whistleblower",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_follow_the_money",
+      "target": "bounty_state_ag",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_follow_the_money",
+      "target": "bounty_social_spread",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_follow_the_money",
+      "target": "bounty_irs_whistleblower",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_follow_the_money",
+      "target": "bounty_qui_tam",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_foia_roulette",
+      "target": "bounty_sec_whistleblower",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_foia_roulette",
+      "target": "bounty_state_ag",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_foia_roulette",
+      "target": "bounty_social_spread",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_foia_roulette",
+      "target": "bounty_irs_whistleblower",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_foia_roulette",
+      "target": "bounty_qui_tam",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_graph_explorer",
+      "target": "bounty_sec_whistleblower",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_graph_explorer",
+      "target": "bounty_state_ag",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_graph_explorer",
+      "target": "bounty_social_spread",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_graph_explorer",
+      "target": "bounty_irs_whistleblower",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_graph_explorer",
+      "target": "bounty_qui_tam",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_pinocchio_detector",
+      "target": "bounty_sec_whistleblower",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_pinocchio_detector",
+      "target": "bounty_state_ag",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_pinocchio_detector",
+      "target": "bounty_social_spread",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_pinocchio_detector",
+      "target": "bounty_irs_whistleblower",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_pinocchio_detector",
+      "target": "bounty_qui_tam",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_board_meeting_bingo",
+      "target": "bounty_sec_whistleblower",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_board_meeting_bingo",
+      "target": "bounty_state_ag",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_board_meeting_bingo",
+      "target": "bounty_social_spread",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_board_meeting_bingo",
+      "target": "bounty_irs_whistleblower",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_board_meeting_bingo",
+      "target": "bounty_qui_tam",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_radar_sweep",
+      "target": "bounty_sec_whistleblower",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_radar_sweep",
+      "target": "bounty_state_ag",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_radar_sweep",
+      "target": "bounty_social_spread",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_radar_sweep",
+      "target": "bounty_irs_whistleblower",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_radar_sweep",
+      "target": "bounty_qui_tam",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_nassar_pattern_hunt",
+      "target": "bounty_sec_whistleblower",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_nassar_pattern_hunt",
+      "target": "bounty_state_ag",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_nassar_pattern_hunt",
+      "target": "bounty_social_spread",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_nassar_pattern_hunt",
+      "target": "bounty_irs_whistleblower",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_nassar_pattern_hunt",
+      "target": "bounty_qui_tam",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_one_share",
+      "target": "bounty_sec_whistleblower",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_one_share",
+      "target": "bounty_state_ag",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_one_share",
+      "target": "bounty_social_spread",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_one_share",
+      "target": "bounty_irs_whistleblower",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_one_share",
+      "target": "bounty_qui_tam",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_what_would_you_do",
+      "target": "bounty_sec_whistleblower",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_what_would_you_do",
+      "target": "bounty_state_ag",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_what_would_you_do",
+      "target": "bounty_social_spread",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_what_would_you_do",
+      "target": "bounty_irs_whistleblower",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_what_would_you_do",
+      "target": "bounty_qui_tam",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_dead_link_hunt",
+      "target": "bounty_sec_whistleblower",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_dead_link_hunt",
+      "target": "bounty_state_ag",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_dead_link_hunt",
+      "target": "bounty_social_spread",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_dead_link_hunt",
+      "target": "bounty_irs_whistleblower",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_dead_link_hunt",
+      "target": "bounty_qui_tam",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_six_degrees_of_banks",
+      "target": "bounty_sec_whistleblower",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_six_degrees_of_banks",
+      "target": "bounty_state_ag",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_six_degrees_of_banks",
+      "target": "bounty_social_spread",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_six_degrees_of_banks",
+      "target": "bounty_irs_whistleblower",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_six_degrees_of_banks",
+      "target": "bounty_qui_tam",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_write_an_article",
+      "target": "bounty_sec_whistleblower",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_write_an_article",
+      "target": "bounty_state_ag",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_write_an_article",
+      "target": "bounty_social_spread",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_write_an_article",
+      "target": "bounty_irs_whistleblower",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_write_an_article",
+      "target": "bounty_qui_tam",
+      "type": "earns_toward",
+      "epistemic_status": "record",
+      "note": "playing earns toward bounty"
+    },
+    {
+      "source": "game_red_flag_bingo",
+      "target": "spread_reddit",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_red_flag_bingo",
+      "target": "spread_twitter",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_red_flag_bingo",
+      "target": "spread_law_schools",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_red_flag_bingo",
+      "target": "spread_journalists",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_red_flag_bingo",
+      "target": "spread_tiktok",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_follow_the_money",
+      "target": "spread_reddit",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_follow_the_money",
+      "target": "spread_twitter",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_follow_the_money",
+      "target": "spread_law_schools",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_follow_the_money",
+      "target": "spread_journalists",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_follow_the_money",
+      "target": "spread_tiktok",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_foia_roulette",
+      "target": "spread_reddit",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_foia_roulette",
+      "target": "spread_twitter",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_foia_roulette",
+      "target": "spread_law_schools",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_foia_roulette",
+      "target": "spread_journalists",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_foia_roulette",
+      "target": "spread_tiktok",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_graph_explorer",
+      "target": "spread_reddit",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_graph_explorer",
+      "target": "spread_twitter",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_graph_explorer",
+      "target": "spread_law_schools",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_graph_explorer",
+      "target": "spread_journalists",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_graph_explorer",
+      "target": "spread_tiktok",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_pinocchio_detector",
+      "target": "spread_reddit",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_pinocchio_detector",
+      "target": "spread_twitter",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_pinocchio_detector",
+      "target": "spread_law_schools",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_pinocchio_detector",
+      "target": "spread_journalists",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_pinocchio_detector",
+      "target": "spread_tiktok",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_board_meeting_bingo",
+      "target": "spread_reddit",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_board_meeting_bingo",
+      "target": "spread_twitter",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_board_meeting_bingo",
+      "target": "spread_law_schools",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_board_meeting_bingo",
+      "target": "spread_journalists",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_board_meeting_bingo",
+      "target": "spread_tiktok",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_radar_sweep",
+      "target": "spread_reddit",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_radar_sweep",
+      "target": "spread_twitter",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_radar_sweep",
+      "target": "spread_law_schools",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_radar_sweep",
+      "target": "spread_journalists",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_radar_sweep",
+      "target": "spread_tiktok",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_nassar_pattern_hunt",
+      "target": "spread_reddit",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_nassar_pattern_hunt",
+      "target": "spread_twitter",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_nassar_pattern_hunt",
+      "target": "spread_law_schools",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_nassar_pattern_hunt",
+      "target": "spread_journalists",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_nassar_pattern_hunt",
+      "target": "spread_tiktok",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_one_share",
+      "target": "spread_reddit",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_one_share",
+      "target": "spread_twitter",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_one_share",
+      "target": "spread_law_schools",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_one_share",
+      "target": "spread_journalists",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_one_share",
+      "target": "spread_tiktok",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_what_would_you_do",
+      "target": "spread_reddit",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_what_would_you_do",
+      "target": "spread_twitter",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_what_would_you_do",
+      "target": "spread_law_schools",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_what_would_you_do",
+      "target": "spread_journalists",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_what_would_you_do",
+      "target": "spread_tiktok",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_dead_link_hunt",
+      "target": "spread_reddit",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_dead_link_hunt",
+      "target": "spread_twitter",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_dead_link_hunt",
+      "target": "spread_law_schools",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_dead_link_hunt",
+      "target": "spread_journalists",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_dead_link_hunt",
+      "target": "spread_tiktok",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_six_degrees_of_banks",
+      "target": "spread_reddit",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_six_degrees_of_banks",
+      "target": "spread_twitter",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_six_degrees_of_banks",
+      "target": "spread_law_schools",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_six_degrees_of_banks",
+      "target": "spread_journalists",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_six_degrees_of_banks",
+      "target": "spread_tiktok",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_write_an_article",
+      "target": "spread_reddit",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_write_an_article",
+      "target": "spread_twitter",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_write_an_article",
+      "target": "spread_law_schools",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_write_an_article",
+      "target": "spread_journalists",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "game_write_an_article",
+      "target": "spread_tiktok",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "games spread through channels"
+    },
+    {
+      "source": "boardgame_connect_four",
+      "target": "game_board_meeting_bingo",
+      "type": "inspired",
+      "epistemic_status": "record",
+      "note": "board games inspire board meeting bingo"
+    },
+    {
+      "source": "boardgame_connect_four",
+      "target": "game_red_flag_bingo",
+      "type": "inspired",
+      "epistemic_status": "record",
+      "note": "games inspire games"
+    },
+    {
+      "source": "boardgame_13_dead_end_drive",
+      "target": "game_board_meeting_bingo",
+      "type": "inspired",
+      "epistemic_status": "record",
+      "note": "board games inspire board meeting bingo"
+    },
+    {
+      "source": "boardgame_13_dead_end_drive",
+      "target": "game_red_flag_bingo",
+      "type": "inspired",
+      "epistemic_status": "record",
+      "note": "games inspire games"
+    },
+    {
+      "source": "boardgame_trivial_pursuit",
+      "target": "game_board_meeting_bingo",
+      "type": "inspired",
+      "epistemic_status": "record",
+      "note": "board games inspire board meeting bingo"
+    },
+    {
+      "source": "boardgame_trivial_pursuit",
+      "target": "game_red_flag_bingo",
+      "type": "inspired",
+      "epistemic_status": "record",
+      "note": "games inspire games"
+    },
+    {
+      "source": "boardgame_galaxy_trucker",
+      "target": "game_board_meeting_bingo",
+      "type": "inspired",
+      "epistemic_status": "record",
+      "note": "board games inspire board meeting bingo"
+    },
+    {
+      "source": "boardgame_galaxy_trucker",
+      "target": "game_red_flag_bingo",
+      "type": "inspired",
+      "epistemic_status": "record",
+      "note": "games inspire games"
+    },
+    {
+      "source": "boardgame_shax",
+      "target": "game_board_meeting_bingo",
+      "type": "inspired",
+      "epistemic_status": "record",
+      "note": "board games inspire board meeting bingo"
+    },
+    {
+      "source": "boardgame_shax",
+      "target": "game_red_flag_bingo",
+      "type": "inspired",
+      "epistemic_status": "record",
+      "note": "games inspire games"
+    },
+    {
+      "source": "boardgame_no_thanks!",
+      "target": "game_board_meeting_bingo",
+      "type": "inspired",
+      "epistemic_status": "record",
+      "note": "board games inspire board meeting bingo"
+    },
+    {
+      "source": "boardgame_no_thanks!",
+      "target": "game_red_flag_bingo",
+      "type": "inspired",
+      "epistemic_status": "record",
+      "note": "games inspire games"
+    },
+    {
+      "source": "boardgame_xiangqi",
+      "target": "game_board_meeting_bingo",
+      "type": "inspired",
+      "epistemic_status": "record",
+      "note": "board games inspire board meeting bingo"
+    },
+    {
+      "source": "boardgame_xiangqi",
+      "target": "game_red_flag_bingo",
+      "type": "inspired",
+      "epistemic_status": "record",
+      "note": "games inspire games"
+    },
+    {
+      "source": "boardgame_keltis",
+      "target": "game_board_meeting_bingo",
+      "type": "inspired",
+      "epistemic_status": "record",
+      "note": "board games inspire board meeting bingo"
+    },
+    {
+      "source": "boardgame_keltis",
+      "target": "game_red_flag_bingo",
+      "type": "inspired",
+      "epistemic_status": "record",
+      "note": "games inspire games"
+    },
+    {
+      "source": "boardgame_backgammon",
+      "target": "game_board_meeting_bingo",
+      "type": "inspired",
+      "epistemic_status": "record",
+      "note": "board games inspire board meeting bingo"
+    },
+    {
+      "source": "boardgame_backgammon",
+      "target": "game_red_flag_bingo",
+      "type": "inspired",
+      "epistemic_status": "record",
+      "note": "games inspire games"
+    },
+    {
+      "source": "boardgame_shatar",
+      "target": "game_board_meeting_bingo",
+      "type": "inspired",
+      "epistemic_status": "record",
+      "note": "board games inspire board meeting bingo"
+    },
+    {
+      "source": "boardgame_shatar",
+      "target": "game_red_flag_bingo",
+      "type": "inspired",
+      "epistemic_status": "record",
+      "note": "games inspire games"
+    },
+    {
+      "source": "boardgame_checkers",
+      "target": "game_board_meeting_bingo",
+      "type": "inspired",
+      "epistemic_status": "record",
+      "note": "board games inspire board meeting bingo"
+    },
+    {
+      "source": "boardgame_checkers",
+      "target": "game_red_flag_bingo",
+      "type": "inspired",
+      "epistemic_status": "record",
+      "note": "games inspire games"
+    },
+    {
+      "source": "boardgame_thats_life!",
+      "target": "game_board_meeting_bingo",
+      "type": "inspired",
+      "epistemic_status": "record",
+      "note": "board games inspire board meeting bingo"
+    },
+    {
+      "source": "boardgame_thats_life!",
+      "target": "game_red_flag_bingo",
+      "type": "inspired",
+      "epistemic_status": "record",
+      "note": "games inspire games"
+    },
+    {
+      "source": "boardgame_risk",
+      "target": "game_board_meeting_bingo",
+      "type": "inspired",
+      "epistemic_status": "record",
+      "note": "board games inspire board meeting bingo"
+    },
+    {
+      "source": "boardgame_risk",
+      "target": "game_red_flag_bingo",
+      "type": "inspired",
+      "epistemic_status": "record",
+      "note": "games inspire games"
+    },
+    {
+      "source": "boardgame_labyrinth",
+      "target": "game_board_meeting_bingo",
+      "type": "inspired",
+      "epistemic_status": "record",
+      "note": "board games inspire board meeting bingo"
+    },
+    {
+      "source": "boardgame_labyrinth",
+      "target": "game_red_flag_bingo",
+      "type": "inspired",
+      "epistemic_status": "record",
+      "note": "games inspire games"
+    },
+    {
+      "source": "boardgame_score_four",
+      "target": "game_board_meeting_bingo",
+      "type": "inspired",
+      "epistemic_status": "record",
+      "note": "board games inspire board meeting bingo"
+    },
+    {
+      "source": "boardgame_score_four",
+      "target": "game_red_flag_bingo",
+      "type": "inspired",
+      "epistemic_status": "record",
+      "note": "games inspire games"
+    },
+    {
+      "source": "boardgame_pay_day",
+      "target": "game_board_meeting_bingo",
+      "type": "inspired",
+      "epistemic_status": "record",
+      "note": "board games inspire board meeting bingo"
+    },
+    {
+      "source": "boardgame_pay_day",
+      "target": "game_red_flag_bingo",
+      "type": "inspired",
+      "epistemic_status": "record",
+      "note": "games inspire games"
+    },
+    {
+      "source": "boardgame_7_wonders",
+      "target": "game_board_meeting_bingo",
+      "type": "inspired",
+      "epistemic_status": "record",
+      "note": "board games inspire board meeting bingo"
+    },
+    {
+      "source": "boardgame_7_wonders",
+      "target": "game_red_flag_bingo",
+      "type": "inspired",
+      "epistemic_status": "record",
+      "note": "games inspire games"
+    },
+    {
+      "source": "boardgame_monopoly",
+      "target": "game_board_meeting_bingo",
+      "type": "inspired",
+      "epistemic_status": "record",
+      "note": "board games inspire board meeting bingo"
+    },
+    {
+      "source": "boardgame_monopoly",
+      "target": "game_red_flag_bingo",
+      "type": "inspired",
+      "epistemic_status": "record",
+      "note": "games inspire games"
+    },
+    {
+      "source": "boardgame_abalone",
+      "target": "game_board_meeting_bingo",
+      "type": "inspired",
+      "epistemic_status": "record",
+      "note": "board games inspire board meeting bingo"
+    },
+    {
+      "source": "boardgame_abalone",
+      "target": "game_red_flag_bingo",
+      "type": "inspired",
+      "epistemic_status": "record",
+      "note": "games inspire games"
+    },
+    {
+      "source": "boardgame_torres",
+      "target": "game_board_meeting_bingo",
+      "type": "inspired",
+      "epistemic_status": "record",
+      "note": "board games inspire board meeting bingo"
+    },
+    {
+      "source": "boardgame_torres",
+      "target": "game_red_flag_bingo",
+      "type": "inspired",
+      "epistemic_status": "record",
+      "note": "games inspire games"
+    },
+    {
+      "source": "boardgame_chess",
+      "target": "game_board_meeting_bingo",
+      "type": "inspired",
+      "epistemic_status": "record",
+      "note": "board games inspire board meeting bingo"
+    },
+    {
+      "source": "boardgame_chess",
+      "target": "game_red_flag_bingo",
+      "type": "inspired",
+      "epistemic_status": "record",
+      "note": "games inspire games"
+    },
+    {
+      "source": "boardgame_mondo",
+      "target": "game_board_meeting_bingo",
+      "type": "inspired",
+      "epistemic_status": "record",
+      "note": "board games inspire board meeting bingo"
+    },
+    {
+      "source": "boardgame_mondo",
+      "target": "game_red_flag_bingo",
+      "type": "inspired",
+      "epistemic_status": "record",
+      "note": "games inspire games"
+    },
+    {
+      "source": "boardgame_pueblo",
+      "target": "game_board_meeting_bingo",
+      "type": "inspired",
+      "epistemic_status": "record",
+      "note": "board games inspire board meeting bingo"
+    },
+    {
+      "source": "boardgame_pueblo",
+      "target": "game_red_flag_bingo",
+      "type": "inspired",
+      "epistemic_status": "record",
+      "note": "games inspire games"
+    },
+    {
+      "source": "boardgame_1830:_the_game_of_railroads_and_robber_b",
+      "target": "game_board_meeting_bingo",
+      "type": "inspired",
+      "epistemic_status": "record",
+      "note": "board games inspire board meeting bingo"
+    },
+    {
+      "source": "boardgame_1830:_the_game_of_railroads_and_robber_b",
+      "target": "game_red_flag_bingo",
+      "type": "inspired",
+      "epistemic_status": "record",
+      "note": "games inspire games"
+    },
+    {
+      "source": "boardgame_the_settlers_of_catan",
+      "target": "game_board_meeting_bingo",
+      "type": "inspired",
+      "epistemic_status": "record",
+      "note": "board games inspire board meeting bingo"
+    },
+    {
+      "source": "boardgame_the_settlers_of_catan",
+      "target": "game_red_flag_bingo",
+      "type": "inspired",
+      "epistemic_status": "record",
+      "note": "games inspire games"
+    },
+    {
+      "source": "boardgame_rithmomachia",
+      "target": "game_board_meeting_bingo",
+      "type": "inspired",
+      "epistemic_status": "record",
+      "note": "board games inspire board meeting bingo"
+    },
+    {
+      "source": "boardgame_rithmomachia",
+      "target": "game_red_flag_bingo",
+      "type": "inspired",
+      "epistemic_status": "record",
+      "note": "games inspire games"
+    },
+    {
+      "source": "boardgame_mastermind",
+      "target": "game_board_meeting_bingo",
+      "type": "inspired",
+      "epistemic_status": "record",
+      "note": "board games inspire board meeting bingo"
+    },
+    {
+      "source": "boardgame_mastermind",
+      "target": "game_red_flag_bingo",
+      "type": "inspired",
+      "epistemic_status": "record",
+      "note": "games inspire games"
+    },
+    {
+      "source": "boardgame_mahjong",
+      "target": "game_board_meeting_bingo",
+      "type": "inspired",
+      "epistemic_status": "record",
+      "note": "board games inspire board meeting bingo"
+    },
+    {
+      "source": "boardgame_mahjong",
+      "target": "game_red_flag_bingo",
+      "type": "inspired",
+      "epistemic_status": "record",
+      "note": "games inspire games"
+    },
+    {
+      "source": "boardgame_diplomacy",
+      "target": "game_board_meeting_bingo",
+      "type": "inspired",
+      "epistemic_status": "record",
+      "note": "board games inspire board meeting bingo"
+    },
+    {
+      "source": "boardgame_diplomacy",
+      "target": "game_red_flag_bingo",
+      "type": "inspired",
+      "epistemic_status": "record",
+      "note": "games inspire games"
+    },
+    {
+      "source": "boardgame_zatre",
+      "target": "game_board_meeting_bingo",
+      "type": "inspired",
+      "epistemic_status": "record",
+      "note": "board games inspire board meeting bingo"
+    },
+    {
+      "source": "boardgame_zatre",
+      "target": "game_red_flag_bingo",
+      "type": "inspired",
+      "epistemic_status": "record",
+      "note": "games inspire games"
+    },
+    {
+      "source": "gabe_newell",
+      "target": "game_red_flag_bingo",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "gabe_newell",
+      "target": "game_follow_the_money",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "gabe_newell",
+      "target": "game_foia_roulette",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "gabe_newell",
+      "target": "game_graph_explorer",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "gabe_newell",
+      "target": "game_pinocchio_detector",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "gabe_newell",
+      "target": "game_board_meeting_bingo",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "gabe_newell",
+      "target": "game_radar_sweep",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "gabe_newell",
+      "target": "game_nassar_pattern_hunt",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "gabe_newell",
+      "target": "game_one_share",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "gabe_newell",
+      "target": "game_what_would_you_do",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "gabe_newell",
+      "target": "game_dead_link_hunt",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "gabe_newell",
+      "target": "game_six_degrees_of_banks",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "gabe_newell",
+      "target": "game_write_an_article",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "valve_corporation",
+      "target": "game_red_flag_bingo",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "valve_corporation",
+      "target": "game_follow_the_money",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "valve_corporation",
+      "target": "game_foia_roulette",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "valve_corporation",
+      "target": "game_graph_explorer",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "valve_corporation",
+      "target": "game_pinocchio_detector",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "valve_corporation",
+      "target": "game_board_meeting_bingo",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "valve_corporation",
+      "target": "game_radar_sweep",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "valve_corporation",
+      "target": "game_nassar_pattern_hunt",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "valve_corporation",
+      "target": "game_one_share",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "valve_corporation",
+      "target": "game_what_would_you_do",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "valve_corporation",
+      "target": "game_dead_link_hunt",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "valve_corporation",
+      "target": "game_six_degrees_of_banks",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "valve_corporation",
+      "target": "game_write_an_article",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "steam_platform",
+      "target": "game_red_flag_bingo",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "steam_platform",
+      "target": "game_follow_the_money",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "steam_platform",
+      "target": "game_foia_roulette",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "steam_platform",
+      "target": "game_graph_explorer",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "steam_platform",
+      "target": "game_pinocchio_detector",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "steam_platform",
+      "target": "game_board_meeting_bingo",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "steam_platform",
+      "target": "game_radar_sweep",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "steam_platform",
+      "target": "game_nassar_pattern_hunt",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "steam_platform",
+      "target": "game_one_share",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "steam_platform",
+      "target": "game_what_would_you_do",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "steam_platform",
+      "target": "game_dead_link_hunt",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "steam_platform",
+      "target": "game_six_degrees_of_banks",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "steam_platform",
+      "target": "game_write_an_article",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "steam_deck",
+      "target": "game_red_flag_bingo",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "steam_deck",
+      "target": "game_follow_the_money",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "steam_deck",
+      "target": "game_foia_roulette",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "steam_deck",
+      "target": "game_graph_explorer",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "steam_deck",
+      "target": "game_pinocchio_detector",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "steam_deck",
+      "target": "game_board_meeting_bingo",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "steam_deck",
+      "target": "game_radar_sweep",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "steam_deck",
+      "target": "game_nassar_pattern_hunt",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "steam_deck",
+      "target": "game_one_share",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "steam_deck",
+      "target": "game_what_would_you_do",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "steam_deck",
+      "target": "game_dead_link_hunt",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "steam_deck",
+      "target": "game_six_degrees_of_banks",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "steam_deck",
+      "target": "game_write_an_article",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "steam_vr_index",
+      "target": "game_red_flag_bingo",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "steam_vr_index",
+      "target": "game_follow_the_money",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "steam_vr_index",
+      "target": "game_foia_roulette",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "steam_vr_index",
+      "target": "game_graph_explorer",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "steam_vr_index",
+      "target": "game_pinocchio_detector",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "steam_vr_index",
+      "target": "game_board_meeting_bingo",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "steam_vr_index",
+      "target": "game_radar_sweep",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "steam_vr_index",
+      "target": "game_nassar_pattern_hunt",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "steam_vr_index",
+      "target": "game_one_share",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "steam_vr_index",
+      "target": "game_what_would_you_do",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "steam_vr_index",
+      "target": "game_dead_link_hunt",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "steam_vr_index",
+      "target": "game_six_degrees_of_banks",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "steam_vr_index",
+      "target": "game_write_an_article",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "half_life",
+      "target": "game_red_flag_bingo",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "half_life",
+      "target": "game_follow_the_money",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "half_life",
+      "target": "game_foia_roulette",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "half_life",
+      "target": "game_graph_explorer",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "half_life",
+      "target": "game_pinocchio_detector",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "half_life",
+      "target": "game_board_meeting_bingo",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "half_life",
+      "target": "game_radar_sweep",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "half_life",
+      "target": "game_nassar_pattern_hunt",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "half_life",
+      "target": "game_one_share",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "half_life",
+      "target": "game_what_would_you_do",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "half_life",
+      "target": "game_dead_link_hunt",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "half_life",
+      "target": "game_six_degrees_of_banks",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "half_life",
+      "target": "game_write_an_article",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "inkfish",
+      "target": "game_red_flag_bingo",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "inkfish",
+      "target": "game_follow_the_money",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "inkfish",
+      "target": "game_foia_roulette",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "inkfish",
+      "target": "game_graph_explorer",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "inkfish",
+      "target": "game_pinocchio_detector",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "inkfish",
+      "target": "game_board_meeting_bingo",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "inkfish",
+      "target": "game_radar_sweep",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "inkfish",
+      "target": "game_nassar_pattern_hunt",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "inkfish",
+      "target": "game_one_share",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "inkfish",
+      "target": "game_what_would_you_do",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "inkfish",
+      "target": "game_dead_link_hunt",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "inkfish",
+      "target": "game_six_degrees_of_banks",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "inkfish",
+      "target": "game_write_an_article",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "gaming culture inspires civic games"
+    },
+    {
+      "source": "article_come_and_play_games",
+      "target": "game_red_flag_bingo",
+      "type": "features",
+      "epistemic_status": "record",
+      "note": "article features game"
+    },
+    {
+      "source": "article_come_and_play_games",
+      "target": "game_follow_the_money",
+      "type": "features",
+      "epistemic_status": "record",
+      "note": "article features game"
+    },
+    {
+      "source": "article_come_and_play_games",
+      "target": "game_foia_roulette",
+      "type": "features",
+      "epistemic_status": "record",
+      "note": "article features game"
+    },
+    {
+      "source": "article_come_and_play_games",
+      "target": "game_graph_explorer",
+      "type": "features",
+      "epistemic_status": "record",
+      "note": "article features game"
+    },
+    {
+      "source": "article_come_and_play_games",
+      "target": "game_pinocchio_detector",
+      "type": "features",
+      "epistemic_status": "record",
+      "note": "article features game"
+    },
+    {
+      "source": "article_come_and_play_games",
+      "target": "game_board_meeting_bingo",
+      "type": "features",
+      "epistemic_status": "record",
+      "note": "article features game"
+    },
+    {
+      "source": "article_come_and_play_games",
+      "target": "game_radar_sweep",
+      "type": "features",
+      "epistemic_status": "record",
+      "note": "article features game"
+    },
+    {
+      "source": "article_come_and_play_games",
+      "target": "game_nassar_pattern_hunt",
+      "type": "features",
+      "epistemic_status": "record",
+      "note": "article features game"
+    },
+    {
+      "source": "article_come_and_play_games",
+      "target": "game_one_share",
+      "type": "features",
+      "epistemic_status": "record",
+      "note": "article features game"
+    },
+    {
+      "source": "article_come_and_play_games",
+      "target": "game_what_would_you_do",
+      "type": "features",
+      "epistemic_status": "record",
+      "note": "article features game"
+    },
+    {
+      "source": "article_come_and_play_games",
+      "target": "game_dead_link_hunt",
+      "type": "features",
+      "epistemic_status": "record",
+      "note": "article features game"
+    },
+    {
+      "source": "article_come_and_play_games",
+      "target": "game_six_degrees_of_banks",
+      "type": "features",
+      "epistemic_status": "record",
+      "note": "article features game"
+    },
+    {
+      "source": "article_come_and_play_games",
+      "target": "game_write_an_article",
+      "type": "features",
+      "epistemic_status": "record",
+      "note": "article features game"
+    },
+    {
+      "source": "analog_catholic_church",
+      "target": "atlas_the_water",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: analog <-> atlas"
+    },
+    {
+      "source": "analog_catholic_church",
+      "target": "bell_auditors",
+      "type": "echoes_in",
+      "epistemic_status": "record",
+      "note": "layer mesh: analog <-> bell"
+    },
+    {
+      "source": "analog_catholic_church",
+      "target": "bounty_sec_whistleblower",
+      "type": "rewards",
+      "epistemic_status": "record",
+      "note": "layer mesh: analog <-> bounty"
+    },
+    {
+      "source": "analog_catholic_church",
+      "target": "cogen_accumulation",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: analog <-> cogen"
+    },
+    {
+      "source": "analog_catholic_church",
+      "target": "entity_type_silent_regulator",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: analog <-> entity_type"
+    },
+    {
+      "source": "analog_catholic_church",
+      "target": "gap_silence",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: analog <-> gap"
+    },
+    {
+      "source": "analog_catholic_church",
+      "target": "gen_4",
+      "type": "repeats_across",
+      "epistemic_status": "record",
+      "note": "layer mesh: analog <-> gen"
+    },
+    {
+      "source": "analog_catholic_church",
+      "target": "invitation_come_and_play",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: analog <-> invitation"
+    },
+    {
+      "source": "analog_catholic_church",
+      "target": "journey_the_products",
+      "type": "encountered_on",
+      "epistemic_status": "record",
+      "note": "layer mesh: analog <-> journey"
+    },
+    {
+      "source": "analog_catholic_church",
+      "target": "joy_number_click",
+      "type": "resonates_with",
+      "epistemic_status": "record",
+      "note": "layer mesh: analog <-> joy"
+    },
+    {
+      "source": "analog_catholic_church",
+      "target": "love_son",
+      "type": "mirrors",
+      "epistemic_status": "record",
+      "note": "layer mesh: analog <-> love"
+    },
+    {
+      "source": "analog_catholic_church",
+      "target": "paradox_observer",
+      "type": "embodies",
+      "epistemic_status": "record",
+      "note": "layer mesh: analog <-> paradox"
+    },
+    {
+      "source": "analog_catholic_church",
+      "target": "prediction_legal_motion",
+      "type": "predicts_via",
+      "epistemic_status": "record",
+      "note": "layer mesh: analog <-> prediction"
+    },
+    {
+      "source": "analog_catholic_church",
+      "target": "primal_songbird",
+      "type": "reflects",
+      "epistemic_status": "record",
+      "note": "layer mesh: analog <-> primal"
+    },
+    {
+      "source": "analog_catholic_church",
+      "target": "redflag_audit_hired_by_client",
+      "type": "pattern_of",
+      "epistemic_status": "record",
+      "note": "layer mesh: analog <-> redflag"
+    },
+    {
+      "source": "analog_catholic_church",
+      "target": "signal_4th",
+      "type": "amplifies",
+      "epistemic_status": "record",
+      "note": "layer mesh: analog <-> signal"
+    },
+    {
+      "source": "analog_catholic_church",
+      "target": "spread_reddit",
+      "type": "travels_through",
+      "epistemic_status": "record",
+      "note": "layer mesh: analog <-> spread"
+    },
+    {
+      "source": "analog_catholic_church",
+      "target": "verdict_spot_kym_worthy",
+      "type": "informs",
+      "epistemic_status": "record",
+      "note": "layer mesh: analog <-> verdict"
+    },
+    {
+      "source": "analog_catholic_church",
+      "target": "ward_foia",
+      "type": "protected_by",
+      "epistemic_status": "record",
+      "note": "layer mesh: analog <-> ward"
+    },
+    {
+      "source": "analog_catholic_church",
+      "target": "wonder_immune",
+      "type": "inspires",
+      "epistemic_status": "record",
+      "note": "layer mesh: analog <-> wonder"
+    },
+    {
+      "source": "atlas_the_water",
+      "target": "beast_gorilla",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: atlas <-> beast"
+    },
+    {
+      "source": "atlas_the_water",
+      "target": "bell_auditors",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: atlas <-> bell"
+    },
+    {
+      "source": "atlas_the_water",
+      "target": "bounty_sec_whistleblower",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: atlas <-> bounty"
+    },
+    {
+      "source": "atlas_the_water",
+      "target": "cogen_accumulation",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: atlas <-> cogen"
+    },
+    {
+      "source": "atlas_the_water",
+      "target": "entity_type_silent_regulator",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: atlas <-> entity_type"
+    },
+    {
+      "source": "atlas_the_water",
+      "target": "gap_silence",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: atlas <-> gap"
+    },
+    {
+      "source": "atlas_the_water",
+      "target": "hypothesis_bankruptcy",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: atlas <-> hypothesis"
+    },
+    {
+      "source": "atlas_the_water",
+      "target": "invitation_come_and_play",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: atlas <-> invitation"
+    },
+    {
+      "source": "atlas_the_water",
+      "target": "journey_the_products",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: atlas <-> journey"
+    },
+    {
+      "source": "atlas_the_water",
+      "target": "joy_number_click",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: atlas <-> joy"
+    },
+    {
+      "source": "atlas_the_water",
+      "target": "love_son",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: atlas <-> love"
+    },
+    {
+      "source": "atlas_the_water",
+      "target": "neg_children_still_harmed",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: atlas <-> neg"
+    },
+    {
+      "source": "atlas_the_water",
+      "target": "paradox_observer",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: atlas <-> paradox"
+    },
+    {
+      "source": "atlas_the_water",
+      "target": "prediction_legal_motion",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: atlas <-> prediction"
+    },
+    {
+      "source": "atlas_the_water",
+      "target": "redflag_audit_hired_by_client",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: atlas <-> redflag"
+    },
+    {
+      "source": "atlas_the_water",
+      "target": "signal_4th",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: atlas <-> signal"
+    },
+    {
+      "source": "atlas_the_water",
+      "target": "spread_reddit",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: atlas <-> spread"
+    },
+    {
+      "source": "atlas_the_water",
+      "target": "stratum_09_braids",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: atlas <-> stratum"
+    },
+    {
+      "source": "atlas_the_water",
+      "target": "verdict_spot_kym_worthy",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: atlas <-> verdict"
+    },
+    {
+      "source": "atlas_the_water",
+      "target": "ward_foia",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: atlas <-> ward"
+    },
+    {
+      "source": "atlas_the_water",
+      "target": "wonder_immune",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: atlas <-> wonder"
+    },
+    {
+      "source": "beast_gorilla",
+      "target": "cogen_accumulation",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: beast <-> cogen"
+    },
+    {
+      "source": "beast_gorilla",
+      "target": "entity_type_silent_regulator",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: beast <-> entity_type"
+    },
+    {
+      "source": "beast_gorilla",
+      "target": "gap_silence",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: beast <-> gap"
+    },
+    {
+      "source": "beast_gorilla",
+      "target": "gen_4",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: beast <-> gen"
+    },
+    {
+      "source": "beast_gorilla",
+      "target": "invitation_come_and_play",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: beast <-> invitation"
+    },
+    {
+      "source": "beast_gorilla",
+      "target": "journey_the_products",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: beast <-> journey"
+    },
+    {
+      "source": "beast_gorilla",
+      "target": "joy_number_click",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: beast <-> joy"
+    },
+    {
+      "source": "beast_gorilla",
+      "target": "love_son",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: beast <-> love"
+    },
+    {
+      "source": "beast_gorilla",
+      "target": "neg_children_still_harmed",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: beast <-> neg"
+    },
+    {
+      "source": "beast_gorilla",
+      "target": "paradox_observer",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: beast <-> paradox"
+    },
+    {
+      "source": "beast_gorilla",
+      "target": "primal_songbird",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: beast <-> primal"
+    },
+    {
+      "source": "beast_gorilla",
+      "target": "verdict_spot_kym_worthy",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: beast <-> verdict"
+    },
+    {
+      "source": "beast_gorilla",
+      "target": "wonder_immune",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: beast <-> wonder"
+    },
+    {
+      "source": "bell_auditors",
+      "target": "bounty_sec_whistleblower",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: bell <-> bounty"
+    },
+    {
+      "source": "bell_auditors",
+      "target": "cogen_accumulation",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: bell <-> cogen"
+    },
+    {
+      "source": "bell_auditors",
+      "target": "entity_type_silent_regulator",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: bell <-> entity_type"
+    },
+    {
+      "source": "bell_auditors",
+      "target": "gap_silence",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: bell <-> gap"
+    },
+    {
+      "source": "bell_auditors",
+      "target": "gen_4",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: bell <-> gen"
+    },
+    {
+      "source": "bell_auditors",
+      "target": "invitation_come_and_play",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: bell <-> invitation"
+    },
+    {
+      "source": "bell_auditors",
+      "target": "journey_the_products",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: bell <-> journey"
+    },
+    {
+      "source": "bell_auditors",
+      "target": "joy_number_click",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: bell <-> joy"
+    },
+    {
+      "source": "bell_auditors",
+      "target": "love_son",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: bell <-> love"
+    },
+    {
+      "source": "bell_auditors",
+      "target": "neg_children_still_harmed",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: bell <-> neg"
+    },
+    {
+      "source": "bell_auditors",
+      "target": "prediction_legal_motion",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: bell <-> prediction"
+    },
+    {
+      "source": "bell_auditors",
+      "target": "primal_songbird",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: bell <-> primal"
+    },
+    {
+      "source": "bell_auditors",
+      "target": "redflag_audit_hired_by_client",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: bell <-> redflag"
+    },
+    {
+      "source": "bell_auditors",
+      "target": "spread_reddit",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: bell <-> spread"
+    },
+    {
+      "source": "bell_auditors",
+      "target": "verdict_spot_kym_worthy",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: bell <-> verdict"
+    },
+    {
+      "source": "bell_auditors",
+      "target": "wonder_immune",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: bell <-> wonder"
+    },
+    {
+      "source": "bounty_sec_whistleblower",
+      "target": "cogen_accumulation",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: bounty <-> cogen"
+    },
+    {
+      "source": "bounty_sec_whistleblower",
+      "target": "entity_type_silent_regulator",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: bounty <-> entity_type"
+    },
+    {
+      "source": "bounty_sec_whistleblower",
+      "target": "gap_silence",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: bounty <-> gap"
+    },
+    {
+      "source": "bounty_sec_whistleblower",
+      "target": "gen_4",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: bounty <-> gen"
+    },
+    {
+      "source": "bounty_sec_whistleblower",
+      "target": "invitation_come_and_play",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: bounty <-> invitation"
+    },
+    {
+      "source": "bounty_sec_whistleblower",
+      "target": "journey_the_products",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: bounty <-> journey"
+    },
+    {
+      "source": "bounty_sec_whistleblower",
+      "target": "joy_number_click",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: bounty <-> joy"
+    },
+    {
+      "source": "bounty_sec_whistleblower",
+      "target": "love_son",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: bounty <-> love"
+    },
+    {
+      "source": "bounty_sec_whistleblower",
+      "target": "neg_children_still_harmed",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: bounty <-> neg"
+    },
+    {
+      "source": "bounty_sec_whistleblower",
+      "target": "prediction_legal_motion",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: bounty <-> prediction"
+    },
+    {
+      "source": "bounty_sec_whistleblower",
+      "target": "primal_songbird",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: bounty <-> primal"
+    },
+    {
+      "source": "bounty_sec_whistleblower",
+      "target": "redflag_audit_hired_by_client",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: bounty <-> redflag"
+    },
+    {
+      "source": "bounty_sec_whistleblower",
+      "target": "verdict_spot_kym_worthy",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: bounty <-> verdict"
+    },
+    {
+      "source": "bounty_sec_whistleblower",
+      "target": "wonder_immune",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: bounty <-> wonder"
+    },
+    {
+      "source": "cogen_accumulation",
+      "target": "entity_type_silent_regulator",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: cogen <-> entity_type"
+    },
+    {
+      "source": "cogen_accumulation",
+      "target": "gap_silence",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: cogen <-> gap"
+    },
+    {
+      "source": "cogen_accumulation",
+      "target": "invitation_come_and_play",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: cogen <-> invitation"
+    },
+    {
+      "source": "cogen_accumulation",
+      "target": "joy_number_click",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: cogen <-> joy"
+    },
+    {
+      "source": "cogen_accumulation",
+      "target": "love_son",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: cogen <-> love"
+    },
+    {
+      "source": "cogen_accumulation",
+      "target": "neg_children_still_harmed",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: cogen <-> neg"
+    },
+    {
+      "source": "cogen_accumulation",
+      "target": "paradox_observer",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: cogen <-> paradox"
+    },
+    {
+      "source": "cogen_accumulation",
+      "target": "prediction_legal_motion",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: cogen <-> prediction"
+    },
+    {
+      "source": "cogen_accumulation",
+      "target": "primal_songbird",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: cogen <-> primal"
+    },
+    {
+      "source": "cogen_accumulation",
+      "target": "redflag_audit_hired_by_client",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: cogen <-> redflag"
+    },
+    {
+      "source": "cogen_accumulation",
+      "target": "signal_4th",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: cogen <-> signal"
+    },
+    {
+      "source": "cogen_accumulation",
+      "target": "spread_reddit",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: cogen <-> spread"
+    },
+    {
+      "source": "cogen_accumulation",
+      "target": "stratum_09_braids",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: cogen <-> stratum"
+    },
+    {
+      "source": "cogen_accumulation",
+      "target": "verdict_spot_kym_worthy",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: cogen <-> verdict"
+    },
+    {
+      "source": "cogen_accumulation",
+      "target": "ward_foia",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: cogen <-> ward"
+    },
+    {
+      "source": "cogen_accumulation",
+      "target": "wonder_immune",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: cogen <-> wonder"
+    },
+    {
+      "source": "entity_type_silent_regulator",
+      "target": "gap_silence",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: entity_type <-> gap"
+    },
+    {
+      "source": "entity_type_silent_regulator",
+      "target": "gen_4",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: entity_type <-> gen"
+    },
+    {
+      "source": "entity_type_silent_regulator",
+      "target": "hypothesis_bankruptcy",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: entity_type <-> hypothesis"
+    },
+    {
+      "source": "entity_type_silent_regulator",
+      "target": "invitation_come_and_play",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: entity_type <-> invitation"
+    },
+    {
+      "source": "entity_type_silent_regulator",
+      "target": "journey_the_products",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: entity_type <-> journey"
+    },
+    {
+      "source": "entity_type_silent_regulator",
+      "target": "joy_number_click",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: entity_type <-> joy"
+    },
+    {
+      "source": "entity_type_silent_regulator",
+      "target": "love_son",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: entity_type <-> love"
+    },
+    {
+      "source": "entity_type_silent_regulator",
+      "target": "neg_children_still_harmed",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: entity_type <-> neg"
+    },
+    {
+      "source": "entity_type_silent_regulator",
+      "target": "paradox_observer",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: entity_type <-> paradox"
+    },
+    {
+      "source": "entity_type_silent_regulator",
+      "target": "prediction_legal_motion",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: entity_type <-> prediction"
+    },
+    {
+      "source": "entity_type_silent_regulator",
+      "target": "primal_songbird",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: entity_type <-> primal"
+    },
+    {
+      "source": "entity_type_silent_regulator",
+      "target": "signal_4th",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: entity_type <-> signal"
+    },
+    {
+      "source": "entity_type_silent_regulator",
+      "target": "spread_reddit",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: entity_type <-> spread"
+    },
+    {
+      "source": "entity_type_silent_regulator",
+      "target": "ward_foia",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: entity_type <-> ward"
+    },
+    {
+      "source": "entity_type_silent_regulator",
+      "target": "wonder_immune",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: entity_type <-> wonder"
+    },
+    {
+      "source": "gap_silence",
+      "target": "gen_4",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: gap <-> gen"
+    },
+    {
+      "source": "gap_silence",
+      "target": "invitation_come_and_play",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: gap <-> invitation"
+    },
+    {
+      "source": "gap_silence",
+      "target": "journey_the_products",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: gap <-> journey"
+    },
+    {
+      "source": "gap_silence",
+      "target": "joy_number_click",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: gap <-> joy"
+    },
+    {
+      "source": "gap_silence",
+      "target": "love_son",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: gap <-> love"
+    },
+    {
+      "source": "gap_silence",
+      "target": "neg_children_still_harmed",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: gap <-> neg"
+    },
+    {
+      "source": "gap_silence",
+      "target": "paradox_observer",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: gap <-> paradox"
+    },
+    {
+      "source": "gap_silence",
+      "target": "primal_songbird",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: gap <-> primal"
+    },
+    {
+      "source": "gap_silence",
+      "target": "redflag_audit_hired_by_client",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: gap <-> redflag"
+    },
+    {
+      "source": "gap_silence",
+      "target": "signal_4th",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: gap <-> signal"
+    },
+    {
+      "source": "gap_silence",
+      "target": "spread_reddit",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: gap <-> spread"
+    },
+    {
+      "source": "gap_silence",
+      "target": "stratum_09_braids",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: gap <-> stratum"
+    },
+    {
+      "source": "gap_silence",
+      "target": "verdict_spot_kym_worthy",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: gap <-> verdict"
+    },
+    {
+      "source": "gap_silence",
+      "target": "ward_foia",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: gap <-> ward"
+    },
+    {
+      "source": "gap_silence",
+      "target": "wonder_immune",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: gap <-> wonder"
+    },
+    {
+      "source": "gen_4",
+      "target": "hypothesis_bankruptcy",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: gen <-> hypothesis"
+    },
+    {
+      "source": "gen_4",
+      "target": "invitation_come_and_play",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: gen <-> invitation"
+    },
+    {
+      "source": "gen_4",
+      "target": "joy_number_click",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: gen <-> joy"
+    },
+    {
+      "source": "gen_4",
+      "target": "love_son",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: gen <-> love"
+    },
+    {
+      "source": "gen_4",
+      "target": "paradox_observer",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: gen <-> paradox"
+    },
+    {
+      "source": "gen_4",
+      "target": "prediction_legal_motion",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: gen <-> prediction"
+    },
+    {
+      "source": "gen_4",
+      "target": "redflag_audit_hired_by_client",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: gen <-> redflag"
+    },
+    {
+      "source": "gen_4",
+      "target": "signal_4th",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: gen <-> signal"
+    },
+    {
+      "source": "gen_4",
+      "target": "spread_reddit",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: gen <-> spread"
+    },
+    {
+      "source": "gen_4",
+      "target": "verdict_spot_kym_worthy",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: gen <-> verdict"
+    },
+    {
+      "source": "gen_4",
+      "target": "ward_foia",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: gen <-> ward"
+    },
+    {
+      "source": "gen_4",
+      "target": "wonder_immune",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: gen <-> wonder"
+    },
+    {
+      "source": "hypothesis_bankruptcy",
+      "target": "invitation_come_and_play",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: hypothesis <-> invitation"
+    },
+    {
+      "source": "hypothesis_bankruptcy",
+      "target": "journey_the_products",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: hypothesis <-> journey"
+    },
+    {
+      "source": "hypothesis_bankruptcy",
+      "target": "joy_number_click",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: hypothesis <-> joy"
+    },
+    {
+      "source": "hypothesis_bankruptcy",
+      "target": "prediction_legal_motion",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: hypothesis <-> prediction"
+    },
+    {
+      "source": "hypothesis_bankruptcy",
+      "target": "primal_songbird",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: hypothesis <-> primal"
+    },
+    {
+      "source": "hypothesis_bankruptcy",
+      "target": "spread_reddit",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: hypothesis <-> spread"
+    },
+    {
+      "source": "invitation_come_and_play",
+      "target": "journey_the_products",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: invitation <-> journey"
+    },
+    {
+      "source": "invitation_come_and_play",
+      "target": "joy_number_click",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: invitation <-> joy"
+    },
+    {
+      "source": "invitation_come_and_play",
+      "target": "love_son",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: invitation <-> love"
+    },
+    {
+      "source": "invitation_come_and_play",
+      "target": "neg_children_still_harmed",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: invitation <-> neg"
+    },
+    {
+      "source": "invitation_come_and_play",
+      "target": "paradox_observer",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: invitation <-> paradox"
+    },
+    {
+      "source": "invitation_come_and_play",
+      "target": "prediction_legal_motion",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: invitation <-> prediction"
+    },
+    {
+      "source": "invitation_come_and_play",
+      "target": "primal_songbird",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: invitation <-> primal"
+    },
+    {
+      "source": "invitation_come_and_play",
+      "target": "redflag_audit_hired_by_client",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: invitation <-> redflag"
+    },
+    {
+      "source": "invitation_come_and_play",
+      "target": "signal_4th",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: invitation <-> signal"
+    },
+    {
+      "source": "invitation_come_and_play",
+      "target": "spread_reddit",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: invitation <-> spread"
+    },
+    {
+      "source": "invitation_come_and_play",
+      "target": "verdict_spot_kym_worthy",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: invitation <-> verdict"
+    },
+    {
+      "source": "invitation_come_and_play",
+      "target": "ward_foia",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: invitation <-> ward"
+    },
+    {
+      "source": "invitation_come_and_play",
+      "target": "wonder_immune",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: invitation <-> wonder"
+    },
+    {
+      "source": "journey_the_products",
+      "target": "joy_number_click",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: journey <-> joy"
+    },
+    {
+      "source": "journey_the_products",
+      "target": "love_son",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: journey <-> love"
+    },
+    {
+      "source": "journey_the_products",
+      "target": "prediction_legal_motion",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: journey <-> prediction"
+    },
+    {
+      "source": "journey_the_products",
+      "target": "redflag_audit_hired_by_client",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: journey <-> redflag"
+    },
+    {
+      "source": "journey_the_products",
+      "target": "signal_4th",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: journey <-> signal"
+    },
+    {
+      "source": "journey_the_products",
+      "target": "spread_reddit",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: journey <-> spread"
+    },
+    {
+      "source": "journey_the_products",
+      "target": "verdict_spot_kym_worthy",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: journey <-> verdict"
+    },
+    {
+      "source": "journey_the_products",
+      "target": "ward_foia",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: journey <-> ward"
+    },
+    {
+      "source": "journey_the_products",
+      "target": "wonder_immune",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: journey <-> wonder"
+    },
+    {
+      "source": "joy_number_click",
+      "target": "neg_children_still_harmed",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: joy <-> neg"
+    },
+    {
+      "source": "joy_number_click",
+      "target": "paradox_observer",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: joy <-> paradox"
+    },
+    {
+      "source": "joy_number_click",
+      "target": "prediction_legal_motion",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: joy <-> prediction"
+    },
+    {
+      "source": "joy_number_click",
+      "target": "primal_songbird",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: joy <-> primal"
+    },
+    {
+      "source": "joy_number_click",
+      "target": "redflag_audit_hired_by_client",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: joy <-> redflag"
+    },
+    {
+      "source": "joy_number_click",
+      "target": "signal_4th",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: joy <-> signal"
+    },
+    {
+      "source": "joy_number_click",
+      "target": "spread_reddit",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: joy <-> spread"
+    },
+    {
+      "source": "joy_number_click",
+      "target": "verdict_spot_kym_worthy",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: joy <-> verdict"
+    },
+    {
+      "source": "love_son",
+      "target": "neg_children_still_harmed",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: love <-> neg"
+    },
+    {
+      "source": "love_son",
+      "target": "prediction_legal_motion",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: love <-> prediction"
+    },
+    {
+      "source": "love_son",
+      "target": "primal_songbird",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: love <-> primal"
+    },
+    {
+      "source": "love_son",
+      "target": "redflag_audit_hired_by_client",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: love <-> redflag"
+    },
+    {
+      "source": "love_son",
+      "target": "signal_4th",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: love <-> signal"
+    },
+    {
+      "source": "love_son",
+      "target": "spread_reddit",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: love <-> spread"
+    },
+    {
+      "source": "love_son",
+      "target": "verdict_spot_kym_worthy",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: love <-> verdict"
+    },
+    {
+      "source": "neg_children_still_harmed",
+      "target": "paradox_observer",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: neg <-> paradox"
+    },
+    {
+      "source": "neg_children_still_harmed",
+      "target": "prediction_legal_motion",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: neg <-> prediction"
+    },
+    {
+      "source": "neg_children_still_harmed",
+      "target": "redflag_audit_hired_by_client",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: neg <-> redflag"
+    },
+    {
+      "source": "neg_children_still_harmed",
+      "target": "spread_reddit",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: neg <-> spread"
+    },
+    {
+      "source": "neg_children_still_harmed",
+      "target": "verdict_spot_kym_worthy",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: neg <-> verdict"
+    },
+    {
+      "source": "neg_children_still_harmed",
+      "target": "ward_foia",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: neg <-> ward"
+    },
+    {
+      "source": "neg_children_still_harmed",
+      "target": "wonder_immune",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: neg <-> wonder"
+    },
+    {
+      "source": "paradox_observer",
+      "target": "prediction_legal_motion",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: paradox <-> prediction"
+    },
+    {
+      "source": "paradox_observer",
+      "target": "primal_songbird",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: paradox <-> primal"
+    },
+    {
+      "source": "paradox_observer",
+      "target": "redflag_audit_hired_by_client",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: paradox <-> redflag"
+    },
+    {
+      "source": "paradox_observer",
+      "target": "verdict_spot_kym_worthy",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: paradox <-> verdict"
+    },
+    {
+      "source": "paradox_observer",
+      "target": "wonder_immune",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: paradox <-> wonder"
+    },
+    {
+      "source": "prediction_legal_motion",
+      "target": "primal_songbird",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: prediction <-> primal"
+    },
+    {
+      "source": "prediction_legal_motion",
+      "target": "redflag_audit_hired_by_client",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: prediction <-> redflag"
+    },
+    {
+      "source": "prediction_legal_motion",
+      "target": "signal_4th",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: prediction <-> signal"
+    },
+    {
+      "source": "prediction_legal_motion",
+      "target": "spread_reddit",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: prediction <-> spread"
+    },
+    {
+      "source": "prediction_legal_motion",
+      "target": "stratum_09_braids",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: prediction <-> stratum"
+    },
+    {
+      "source": "prediction_legal_motion",
+      "target": "verdict_spot_kym_worthy",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: prediction <-> verdict"
+    },
+    {
+      "source": "prediction_legal_motion",
+      "target": "ward_foia",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: prediction <-> ward"
+    },
+    {
+      "source": "prediction_legal_motion",
+      "target": "wonder_immune",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: prediction <-> wonder"
+    },
+    {
+      "source": "primal_songbird",
+      "target": "redflag_audit_hired_by_client",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: primal <-> redflag"
+    },
+    {
+      "source": "primal_songbird",
+      "target": "spread_reddit",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: primal <-> spread"
+    },
+    {
+      "source": "primal_songbird",
+      "target": "verdict_spot_kym_worthy",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: primal <-> verdict"
+    },
+    {
+      "source": "primal_songbird",
+      "target": "ward_foia",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: primal <-> ward"
+    },
+    {
+      "source": "primal_songbird",
+      "target": "wonder_immune",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: primal <-> wonder"
+    },
+    {
+      "source": "redflag_audit_hired_by_client",
+      "target": "spread_reddit",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: redflag <-> spread"
+    },
+    {
+      "source": "redflag_audit_hired_by_client",
+      "target": "verdict_spot_kym_worthy",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: redflag <-> verdict"
+    },
+    {
+      "source": "redflag_audit_hired_by_client",
+      "target": "ward_foia",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: redflag <-> ward"
+    },
+    {
+      "source": "redflag_audit_hired_by_client",
+      "target": "wonder_immune",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: redflag <-> wonder"
+    },
+    {
+      "source": "signal_4th",
+      "target": "spread_reddit",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: signal <-> spread"
+    },
+    {
+      "source": "signal_4th",
+      "target": "stratum_09_braids",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: signal <-> stratum"
+    },
+    {
+      "source": "signal_4th",
+      "target": "verdict_spot_kym_worthy",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: signal <-> verdict"
+    },
+    {
+      "source": "signal_4th",
+      "target": "wonder_immune",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: signal <-> wonder"
+    },
+    {
+      "source": "spread_reddit",
+      "target": "stratum_09_braids",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: spread <-> stratum"
+    },
+    {
+      "source": "spread_reddit",
+      "target": "verdict_spot_kym_worthy",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: spread <-> verdict"
+    },
+    {
+      "source": "spread_reddit",
+      "target": "ward_foia",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: spread <-> ward"
+    },
+    {
+      "source": "spread_reddit",
+      "target": "wonder_immune",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: spread <-> wonder"
+    },
+    {
+      "source": "verdict_spot_kym_worthy",
+      "target": "ward_foia",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: verdict <-> ward"
+    },
+    {
+      "source": "verdict_spot_kym_worthy",
+      "target": "wonder_immune",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: verdict <-> wonder"
+    },
+    {
+      "source": "ward_foia",
+      "target": "wonder_immune",
+      "type": "layer_mesh",
+      "epistemic_status": "record",
+      "note": "layer mesh: ward <-> wonder"
     }
   ],
   "epistemic_grammar": {
