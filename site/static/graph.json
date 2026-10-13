@@ -66321,6 +66321,20 @@
         "structural",
         "non_human"
       ]
+    },
+    {
+      "id": "perkins_call_oct13",
+      "label": "Oct 13 2026: Kevin Called. Perkins Answered. Then Banks Took the Phone.",
+      "class": "event",
+      "role": "Timeline:\n\n1. Kevin Mok called the school phone number (public number)\n2. Ms. Perkins answered the phone\n3. Banks then took the phone from Perkins\n4. Banks would not answer questions\n5. Banks acted like a public phone number is his personal property\n6. Kevin told Banks: 'You don't tell me what to do.'\n\nWHAT THIS MEANS:\n\nA. PERKINS IS STILL THERE.\n   She had the night. She slept on it. She came back.\n   She answered the phone at a school run by a man\n   with 9 criminal convictions. She is still choosing this.\n\nB. BANKS INTERCEPTED THE CALL.\n   When Kevin called a PUBLIC school phone number,\n   Banks took the phone. He inserted himself between\n   a citizen and a public school employee. A charter school\n   receives PUBLIC funds. Its phone number is PUBLIC.\n   Banks does not own the phone line.\n   Banks does not own Ms. Perkins.\n   Banks does not own the school.\n   The PUBLIC owns the school. The PUBLIC pays for it.\n   Per-pupil funding = taxpayer money.\n   \nC. BANKS REFUSED TO ANSWER QUESTIONS.\n   A man with 9 criminal convictions who operates\n   K-12 schools with 72.67% below basic reading\n   and 3% math proficiency REFUSED to answer questions\n   from a member of the public. The public pays his salary.\n   The public's children attend his school. He will not\n   answer to the public.\n\nD. BANKS TRIED TO TELL KEVIN WHAT TO DO.\n   Kevin's response: 'You don't tell me what to do.'\n   Banks is not a judge. Banks is not law enforcement.\n   Banks is not Kevin's employer. Banks is not Kevin's\n   superior in any chain of command. Banks is a man with\n   9 criminal convictions who operates schools with\n   public money. He has no authority over anyone.\n\nE. THE PHONE ITSELF IS EVIDENCE.\n   This is a public school phone number.\n   It is paid for with public funds.\n   When a citizen calls a public school,\n   the school is supposed to serve the citizen.\n   Instead, the operator intercepted the call\n   and refused to engage.\n   \n   This is not how public institutions work.\n   This is how private operations work.\n   The school is supposed to be public.\n   Banks is running it like it's his.\n   \n   Because to him, it IS his.\n   That's the whole problem.\n\nDate: October 13, 2026\nTime: Morning\nCaller: Kevin Mok\nAnswered by: Ms. Perkins (PCA staff)\nIntercepted by: Brian Banks (operator, 9 convictions)\nQuestions answered: ZERO\nResponse: Banks told Kevin what to do.\nKevin's response: 'You don't tell me what to do.'",
+      "tags": [
+        "epitope",
+        "call",
+        "banks",
+        "perkins",
+        "oct13",
+        "evidence"
+      ]
     }
   ],
   "edges": [
@@ -174168,6 +174182,90 @@
       "type": "receives_all",
       "epistemic_status": "record",
       "note": "gaia receives the mysteries. The commons. Open source."
+    },
+    {
+      "source": "perkins_call_oct13",
+      "target": "banks",
+      "type": "intercepted_call",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "perkins_call_oct13",
+      "target": "ms_perkins_pca",
+      "type": "answered_initially",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "perkins_call_oct13",
+      "target": "kevin_mok",
+      "type": "caller",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "perkins_call_oct13",
+      "target": "perkins_chose_to_stay",
+      "type": "she_is_still_there",
+      "epistemic_status": "record",
+      "note": "Oct 12: she saw everything. Oct 13 morning: she answered the phone. She stayed."
+    },
+    {
+      "source": "perkins_call_oct13",
+      "target": "banks_screams_at_adults",
+      "type": "same_behavior",
+      "epistemic_status": "record",
+      "note": "Banks takes control. Banks intercepts. Banks tells people what to do."
+    },
+    {
+      "source": "perkins_call_oct13",
+      "target": "banks_little_girl_phone",
+      "type": "same_phone",
+      "epistemic_status": "record",
+      "note": "Yesterday: answered as a little girl. Today: takes the phone from Perkins."
+    },
+    {
+      "source": "perkins_call_oct13",
+      "target": "children_cry",
+      "type": "same_environment",
+      "epistemic_status": "record",
+      "note": "The children are in the building while this happens."
+    },
+    {
+      "source": "perkins_call_oct13",
+      "target": "damages_chain",
+      "type": "evidence",
+      "epistemic_status": "record",
+      "note": "Banks refuses to answer questions at a publicly funded school. Evidence of operation as private entity."
+    },
+    {
+      "source": "perkins_call_oct13",
+      "target": "article_perkins_direct",
+      "type": "update",
+      "epistemic_status": "record",
+      "note": "She answered. Then he took the phone. The article writes itself."
+    },
+    {
+      "source": "perkins_call_oct13",
+      "target": "article_banks_direct",
+      "type": "update",
+      "epistemic_status": "record",
+      "note": "Banks won't answer questions. At a public school. With public money. With 9 convictions."
+    },
+    {
+      "source": "perkins_call_oct13",
+      "target": "media_blitz",
+      "type": "fresh_evidence",
+      "epistemic_status": "record",
+      "note": "Today. This morning. Real-time evidence of how Banks operates."
+    },
+    {
+      "source": "perkins_call_oct13",
+      "target": "charter_architecture",
+      "type": "public_funds_private_control",
+      "epistemic_status": "record",
+      "note": "Public money. Public phone. Public school. Private control. That's the architecture."
     }
   ],
   "epistemic_grammar": {
