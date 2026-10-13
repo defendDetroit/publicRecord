@@ -72315,6 +72315,201 @@
         "signal",
         "evidence"
       ]
+    },
+    {
+      "id": "ward_whistleblower_mi",
+      "label": "Michigan Whistleblowers' Protection Act (MCL 15.361-15.369)",
+      "class": "non_human",
+      "role": "Michigan law protects employees who report violations to public bodies. Anyone inside PCA, MDE, CMU, or Plante Moran who speaks is protected by law. Retaliation is a separate cause of action. The shield is statutory.",
+      "tags": [
+        "ward",
+        "legal",
+        "protection"
+      ]
+    },
+    {
+      "id": "ward_whistleblower_fed",
+      "label": "Federal Whistleblower Protections (Dodd-Frank, SOX, False Claims Act)",
+      "class": "non_human",
+      "role": "Federal protections for reporting fraud involving federal funds. Title I funds flow to PCA. False Claims Act allows qui tam actions. The whistleblower gets a percentage of recovered funds. The shield is federal.",
+      "tags": [
+        "ward",
+        "legal",
+        "protection",
+        "federal"
+      ]
+    },
+    {
+      "id": "ward_anti_slapp",
+      "label": "Michigan Anti-SLAPP Protections (MCL 600.2911)",
+      "class": "non_human",
+      "role": "Strategic Lawsuits Against Public Participation are subject to early dismissal. This graph is public participation. The articles are protected speech. Any attempt to silence through litigation triggers anti-SLAPP review.",
+      "tags": [
+        "ward",
+        "legal",
+        "protection"
+      ]
+    },
+    {
+      "id": "ward_reporter_privilege",
+      "label": "Reporter's Privilege / Shield Law (MCL 767A.1)",
+      "class": "non_human",
+      "role": "Michigan's shield law protects journalists from compelled disclosure of sources. Every journalist who covers this story is shielded. Every source who speaks to a journalist is shielded by the journalist's privilege.",
+      "tags": [
+        "ward",
+        "legal",
+        "protection",
+        "press"
+      ]
+    },
+    {
+      "id": "ward_foia",
+      "label": "Freedom of Information Act (Michigan FOIA, MCL 15.231)",
+      "class": "non_human",
+      "role": "Every document cited in this graph is obtainable through Michigan FOIA. MDE records. LARA records. CMU authorization files. Court records. The government cannot refuse without statutory exemption. The ward is the right to know.",
+      "tags": [
+        "ward",
+        "legal",
+        "protection"
+      ]
+    },
+    {
+      "id": "ward_open_meetings",
+      "label": "Michigan Open Meetings Act (MCL 15.261-15.275)",
+      "class": "non_human",
+      "role": "SBE meetings are public. PCA board meetings should be public. CMU authorization decisions are public. If decisions about children's education happen behind closed doors, the Open Meetings Act is violated. Sunshine is a ward.",
+      "tags": [
+        "ward",
+        "legal",
+        "protection"
+      ]
+    },
+    {
+      "id": "ward_1983",
+      "label": "42 USC 1983: Civil Rights Action Under Color of Law",
+      "class": "non_human",
+      "role": "Any person acting under color of state law who deprives another of constitutional rights is liable. MDE authorized PCA. CMU oversees PCA. LARA licensed the LLCs. If any of them knew and failed to act, Section 1983 applies. The ward is the right to sue the government.",
+      "tags": [
+        "ward",
+        "legal",
+        "protection",
+        "federal",
+        "civil_rights"
+      ]
+    },
+    {
+      "id": "ward_qui_tam",
+      "label": "False Claims Act Qui Tam (31 USC 3729-3733)",
+      "class": "non_human",
+      "role": "Any person with knowledge of fraud against the government can file a qui tam action. Title I federal funds flow to PCA. If those funds were obtained through false statements, a private citizen can sue on behalf of the United States. The whistleblower keeps 15-30% of the recovery. The ward pays.",
+      "tags": [
+        "ward",
+        "legal",
+        "protection",
+        "federal"
+      ]
+    },
+    {
+      "id": "bell_parents",
+      "label": "THE BELL: PCA Parents",
+      "class": "non_human",
+      "role": "Your children attend a school with 3% math proficiency. The operator has 5 bankruptcies and 2 felony convictions. 72.67% of the funding meant for your child exits through LLCs. You have the right to know. You have the right to choose differently. You have the right to demand accountability. The bell rings for you.",
+      "tags": [
+        "bell",
+        "signal",
+        "parents"
+      ]
+    },
+    {
+      "id": "bell_teachers",
+      "label": "THE BELL: PCA Teachers",
+      "class": "non_human",
+      "role": "You teach at a school where 3% of students meet math standards. You know it is not for lack of trying. You know where the money goes. Michigan's Whistleblowers' Protection Act shields you. The bell rings for you. Your voice matters more than any graph.",
+      "tags": [
+        "bell",
+        "signal",
+        "teachers"
+      ]
+    },
+    {
+      "id": "bell_alumni",
+      "label": "THE BELL: PCA Alumni",
+      "class": "non_human",
+      "role": "You graduated from a school with 3% math proficiency. Your diploma may not reflect the education you deserved. Your story matters. Your experience is evidence. The bell rings for you.",
+      "tags": [
+        "bell",
+        "signal",
+        "alumni"
+      ]
+    },
+    {
+      "id": "bell_peer_schools",
+      "label": "THE BELL: Every Charter School in Michigan",
+      "class": "non_human",
+      "role": "There are 300+ charter schools in Michigan. PCA is one. When one school extracts 72.67%, it poisons the well for all of you. The honest operators suffer when the fraudulent ones go unchecked. The bell rings for every school that does it right.",
+      "tags": [
+        "bell",
+        "signal",
+        "charter_schools"
+      ]
+    },
+    {
+      "id": "bell_auditors",
+      "label": "THE BELL: Every Auditor Who Signed Off",
+      "class": "non_human",
+      "role": "Plante Moran audited PCA. Other firms audit other charter schools. When a school can't account for its expenditures and the auditor signs off, the auditor's license is at stake. E&O insurance exists for a reason. The bell rings for professional liability.",
+      "tags": [
+        "bell",
+        "signal",
+        "auditors"
+      ]
+    },
+    {
+      "id": "bell_law_students",
+      "label": "THE BELL: Every Law Student in Michigan",
+      "class": "non_human",
+      "role": "Wayne State Law. MSU Law. Michigan Law. Cooley. This case is a clinic. Unauthorized practice of law. Regulatory capture. Civil rights. RICO. False Claims Act. Constitutional law. It is all here. In one case. In public data. The bell rings for your education. Learn from this.",
+      "tags": [
+        "bell",
+        "signal",
+        "education",
+        "legal"
+      ]
+    },
+    {
+      "id": "bell_data_journalists",
+      "label": "THE BELL: Every Data Journalist",
+      "class": "non_human",
+      "role": "5,968 nodes. 51,322 edges. 216 articles. 7 testable hypotheses. Public databases: LARA, MDE, CFRS, FEC, IRS 990, PACER, OTIS, SOS. graph.json is 50 MB of structured investigation data. The bell rings for the story in the data.",
+      "tags": [
+        "bell",
+        "signal",
+        "journalism",
+        "data"
+      ]
+    },
+    {
+      "id": "bell_other_states",
+      "label": "THE BELL: Every State with Charter Schools",
+      "class": "non_human",
+      "role": "Michigan's charter law (PA 362, 1993) was a model. Other states copied it. If it can happen in Michigan, it can happen in your state. The extraction pattern is not unique. The regulatory capture is not unique. The bell rings across state lines.",
+      "tags": [
+        "bell",
+        "signal",
+        "national"
+      ]
+    },
+    {
+      "id": "article_the_ripple",
+      "label": "ARTICLE: The Ripple — What Happens When 544 Becomes 5,440",
+      "class": "article",
+      "role": "The math of distribution: 544 copies exist. Each copy is complete. Each copy contains 5,968 nodes, 51,000+ edges, and 7 testable hypotheses. If each of the 544 shares with one person, there are 1,088. If each of those shares with one person, there are 2,176. Ten doublings: 557,056 copies. But copies are not the point. Verification is the point. Hypothesis 2 (false credential) takes 60 seconds to test. If 100 people independently verify it, the finding is replicated 100 times. That is not a conspiracy theory. That is peer review. The ripple is not the clone. The ripple is the verification. Each person who tests a hypothesis and finds it holds is a peer reviewer of the thesis. 544 silent peer reviewers. Growing. The ripple cannot be unrung.",
+      "tags": [
+        "article",
+        "signal",
+        "distribution",
+        "thesis"
+      ]
     }
   ],
   "edges": [
@@ -444958,6 +445153,1567 @@
       "type": "evidence_for",
       "epistemic_status": "record",
       "note": "544 unique entities have the data. None have falsified a hypothesis."
+    },
+    {
+      "source": "ward_whistleblower_mi",
+      "target": "the_unnamed_400",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "This ward shields the children and their advocates"
+    },
+    {
+      "source": "ward_whistleblower_mi",
+      "target": "signal_1st",
+      "type": "implements",
+      "epistemic_status": "record",
+      "note": "This ward implements constitutional protection"
+    },
+    {
+      "source": "ward_whistleblower_mi",
+      "target": "thesis_statement",
+      "type": "enables_challenge_of",
+      "epistemic_status": "record",
+      "note": "This ward protects those who test the thesis"
+    },
+    {
+      "source": "ward_whistleblower_mi",
+      "target": "article_thesis_for_the_544",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "This ward protects you too, 544"
+    },
+    {
+      "source": "ward_whistleblower_mi",
+      "target": "article_the_signal",
+      "type": "shields",
+      "epistemic_status": "record",
+      "note": "The signal is shielded by law"
+    },
+    {
+      "source": "ward_whistleblower_fed",
+      "target": "the_unnamed_400",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "This ward shields the children and their advocates"
+    },
+    {
+      "source": "ward_whistleblower_fed",
+      "target": "signal_1st",
+      "type": "implements",
+      "epistemic_status": "record",
+      "note": "This ward implements constitutional protection"
+    },
+    {
+      "source": "ward_whistleblower_fed",
+      "target": "thesis_statement",
+      "type": "enables_challenge_of",
+      "epistemic_status": "record",
+      "note": "This ward protects those who test the thesis"
+    },
+    {
+      "source": "ward_whistleblower_fed",
+      "target": "article_thesis_for_the_544",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "This ward protects you too, 544"
+    },
+    {
+      "source": "ward_whistleblower_fed",
+      "target": "article_the_signal",
+      "type": "shields",
+      "epistemic_status": "record",
+      "note": "The signal is shielded by law"
+    },
+    {
+      "source": "ward_anti_slapp",
+      "target": "the_unnamed_400",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "This ward shields the children and their advocates"
+    },
+    {
+      "source": "ward_anti_slapp",
+      "target": "signal_1st",
+      "type": "implements",
+      "epistemic_status": "record",
+      "note": "This ward implements constitutional protection"
+    },
+    {
+      "source": "ward_anti_slapp",
+      "target": "thesis_statement",
+      "type": "enables_challenge_of",
+      "epistemic_status": "record",
+      "note": "This ward protects those who test the thesis"
+    },
+    {
+      "source": "ward_anti_slapp",
+      "target": "article_thesis_for_the_544",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "This ward protects you too, 544"
+    },
+    {
+      "source": "ward_anti_slapp",
+      "target": "article_the_signal",
+      "type": "shields",
+      "epistemic_status": "record",
+      "note": "The signal is shielded by law"
+    },
+    {
+      "source": "ward_reporter_privilege",
+      "target": "the_unnamed_400",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "This ward shields the children and their advocates"
+    },
+    {
+      "source": "ward_reporter_privilege",
+      "target": "signal_1st",
+      "type": "implements",
+      "epistemic_status": "record",
+      "note": "This ward implements constitutional protection"
+    },
+    {
+      "source": "ward_reporter_privilege",
+      "target": "thesis_statement",
+      "type": "enables_challenge_of",
+      "epistemic_status": "record",
+      "note": "This ward protects those who test the thesis"
+    },
+    {
+      "source": "ward_reporter_privilege",
+      "target": "article_thesis_for_the_544",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "This ward protects you too, 544"
+    },
+    {
+      "source": "ward_reporter_privilege",
+      "target": "article_the_signal",
+      "type": "shields",
+      "epistemic_status": "record",
+      "note": "The signal is shielded by law"
+    },
+    {
+      "source": "ward_foia",
+      "target": "the_unnamed_400",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "This ward shields the children and their advocates"
+    },
+    {
+      "source": "ward_foia",
+      "target": "signal_1st",
+      "type": "implements",
+      "epistemic_status": "record",
+      "note": "This ward implements constitutional protection"
+    },
+    {
+      "source": "ward_foia",
+      "target": "thesis_statement",
+      "type": "enables_challenge_of",
+      "epistemic_status": "record",
+      "note": "This ward protects those who test the thesis"
+    },
+    {
+      "source": "ward_foia",
+      "target": "article_thesis_for_the_544",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "This ward protects you too, 544"
+    },
+    {
+      "source": "ward_foia",
+      "target": "article_the_signal",
+      "type": "shields",
+      "epistemic_status": "record",
+      "note": "The signal is shielded by law"
+    },
+    {
+      "source": "ward_open_meetings",
+      "target": "the_unnamed_400",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "This ward shields the children and their advocates"
+    },
+    {
+      "source": "ward_open_meetings",
+      "target": "signal_1st",
+      "type": "implements",
+      "epistemic_status": "record",
+      "note": "This ward implements constitutional protection"
+    },
+    {
+      "source": "ward_open_meetings",
+      "target": "thesis_statement",
+      "type": "enables_challenge_of",
+      "epistemic_status": "record",
+      "note": "This ward protects those who test the thesis"
+    },
+    {
+      "source": "ward_open_meetings",
+      "target": "article_thesis_for_the_544",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "This ward protects you too, 544"
+    },
+    {
+      "source": "ward_open_meetings",
+      "target": "article_the_signal",
+      "type": "shields",
+      "epistemic_status": "record",
+      "note": "The signal is shielded by law"
+    },
+    {
+      "source": "ward_1983",
+      "target": "the_unnamed_400",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "This ward shields the children and their advocates"
+    },
+    {
+      "source": "ward_1983",
+      "target": "signal_1st",
+      "type": "implements",
+      "epistemic_status": "record",
+      "note": "This ward implements constitutional protection"
+    },
+    {
+      "source": "ward_1983",
+      "target": "thesis_statement",
+      "type": "enables_challenge_of",
+      "epistemic_status": "record",
+      "note": "This ward protects those who test the thesis"
+    },
+    {
+      "source": "ward_1983",
+      "target": "article_thesis_for_the_544",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "This ward protects you too, 544"
+    },
+    {
+      "source": "ward_1983",
+      "target": "article_the_signal",
+      "type": "shields",
+      "epistemic_status": "record",
+      "note": "The signal is shielded by law"
+    },
+    {
+      "source": "ward_qui_tam",
+      "target": "the_unnamed_400",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "This ward shields the children and their advocates"
+    },
+    {
+      "source": "ward_qui_tam",
+      "target": "signal_1st",
+      "type": "implements",
+      "epistemic_status": "record",
+      "note": "This ward implements constitutional protection"
+    },
+    {
+      "source": "ward_qui_tam",
+      "target": "thesis_statement",
+      "type": "enables_challenge_of",
+      "epistemic_status": "record",
+      "note": "This ward protects those who test the thesis"
+    },
+    {
+      "source": "ward_qui_tam",
+      "target": "article_thesis_for_the_544",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "This ward protects you too, 544"
+    },
+    {
+      "source": "ward_qui_tam",
+      "target": "article_the_signal",
+      "type": "shields",
+      "epistemic_status": "record",
+      "note": "The signal is shielded by law"
+    },
+    {
+      "source": "bell_parents",
+      "target": "article_the_signal",
+      "type": "amplifies",
+      "epistemic_status": "record",
+      "note": "The bell carries the signal further"
+    },
+    {
+      "source": "bell_parents",
+      "target": "thesis_statement",
+      "type": "addresses",
+      "epistemic_status": "record",
+      "note": "The bell tells a new audience about the thesis"
+    },
+    {
+      "source": "bell_parents",
+      "target": "article_clarion_call",
+      "type": "extends",
+      "epistemic_status": "record",
+      "note": "The bell extends the clarion call"
+    },
+    {
+      "source": "bell_parents",
+      "target": "pca",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "The bell rings about PCA"
+    },
+    {
+      "source": "bell_teachers",
+      "target": "article_the_signal",
+      "type": "amplifies",
+      "epistemic_status": "record",
+      "note": "The bell carries the signal further"
+    },
+    {
+      "source": "bell_teachers",
+      "target": "thesis_statement",
+      "type": "addresses",
+      "epistemic_status": "record",
+      "note": "The bell tells a new audience about the thesis"
+    },
+    {
+      "source": "bell_teachers",
+      "target": "article_clarion_call",
+      "type": "extends",
+      "epistemic_status": "record",
+      "note": "The bell extends the clarion call"
+    },
+    {
+      "source": "bell_teachers",
+      "target": "pca",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "The bell rings about PCA"
+    },
+    {
+      "source": "bell_alumni",
+      "target": "article_the_signal",
+      "type": "amplifies",
+      "epistemic_status": "record",
+      "note": "The bell carries the signal further"
+    },
+    {
+      "source": "bell_alumni",
+      "target": "thesis_statement",
+      "type": "addresses",
+      "epistemic_status": "record",
+      "note": "The bell tells a new audience about the thesis"
+    },
+    {
+      "source": "bell_alumni",
+      "target": "article_clarion_call",
+      "type": "extends",
+      "epistemic_status": "record",
+      "note": "The bell extends the clarion call"
+    },
+    {
+      "source": "bell_alumni",
+      "target": "pca",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "The bell rings about PCA"
+    },
+    {
+      "source": "bell_peer_schools",
+      "target": "article_the_signal",
+      "type": "amplifies",
+      "epistemic_status": "record",
+      "note": "The bell carries the signal further"
+    },
+    {
+      "source": "bell_peer_schools",
+      "target": "thesis_statement",
+      "type": "addresses",
+      "epistemic_status": "record",
+      "note": "The bell tells a new audience about the thesis"
+    },
+    {
+      "source": "bell_peer_schools",
+      "target": "article_clarion_call",
+      "type": "extends",
+      "epistemic_status": "record",
+      "note": "The bell extends the clarion call"
+    },
+    {
+      "source": "bell_peer_schools",
+      "target": "pca",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "The bell rings about PCA"
+    },
+    {
+      "source": "bell_auditors",
+      "target": "article_the_signal",
+      "type": "amplifies",
+      "epistemic_status": "record",
+      "note": "The bell carries the signal further"
+    },
+    {
+      "source": "bell_auditors",
+      "target": "thesis_statement",
+      "type": "addresses",
+      "epistemic_status": "record",
+      "note": "The bell tells a new audience about the thesis"
+    },
+    {
+      "source": "bell_auditors",
+      "target": "article_clarion_call",
+      "type": "extends",
+      "epistemic_status": "record",
+      "note": "The bell extends the clarion call"
+    },
+    {
+      "source": "bell_auditors",
+      "target": "pca",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "The bell rings about PCA"
+    },
+    {
+      "source": "bell_law_students",
+      "target": "article_the_signal",
+      "type": "amplifies",
+      "epistemic_status": "record",
+      "note": "The bell carries the signal further"
+    },
+    {
+      "source": "bell_law_students",
+      "target": "thesis_statement",
+      "type": "addresses",
+      "epistemic_status": "record",
+      "note": "The bell tells a new audience about the thesis"
+    },
+    {
+      "source": "bell_law_students",
+      "target": "article_clarion_call",
+      "type": "extends",
+      "epistemic_status": "record",
+      "note": "The bell extends the clarion call"
+    },
+    {
+      "source": "bell_law_students",
+      "target": "pca",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "The bell rings about PCA"
+    },
+    {
+      "source": "bell_data_journalists",
+      "target": "article_the_signal",
+      "type": "amplifies",
+      "epistemic_status": "record",
+      "note": "The bell carries the signal further"
+    },
+    {
+      "source": "bell_data_journalists",
+      "target": "thesis_statement",
+      "type": "addresses",
+      "epistemic_status": "record",
+      "note": "The bell tells a new audience about the thesis"
+    },
+    {
+      "source": "bell_data_journalists",
+      "target": "article_clarion_call",
+      "type": "extends",
+      "epistemic_status": "record",
+      "note": "The bell extends the clarion call"
+    },
+    {
+      "source": "bell_data_journalists",
+      "target": "pca",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "The bell rings about PCA"
+    },
+    {
+      "source": "bell_other_states",
+      "target": "article_the_signal",
+      "type": "amplifies",
+      "epistemic_status": "record",
+      "note": "The bell carries the signal further"
+    },
+    {
+      "source": "bell_other_states",
+      "target": "thesis_statement",
+      "type": "addresses",
+      "epistemic_status": "record",
+      "note": "The bell tells a new audience about the thesis"
+    },
+    {
+      "source": "bell_other_states",
+      "target": "article_clarion_call",
+      "type": "extends",
+      "epistemic_status": "record",
+      "note": "The bell extends the clarion call"
+    },
+    {
+      "source": "bell_other_states",
+      "target": "pca",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "The bell rings about PCA"
+    },
+    {
+      "source": "bell_parents",
+      "target": "bell_teachers",
+      "type": "rings_with",
+      "epistemic_status": "record",
+      "note": "The bells ring together"
+    },
+    {
+      "source": "bell_parents",
+      "target": "bell_alumni",
+      "type": "rings_with",
+      "epistemic_status": "record",
+      "note": "The bells ring together"
+    },
+    {
+      "source": "bell_parents",
+      "target": "bell_peer_schools",
+      "type": "rings_with",
+      "epistemic_status": "record",
+      "note": "The bells ring together"
+    },
+    {
+      "source": "bell_parents",
+      "target": "bell_auditors",
+      "type": "rings_with",
+      "epistemic_status": "record",
+      "note": "The bells ring together"
+    },
+    {
+      "source": "bell_parents",
+      "target": "bell_law_students",
+      "type": "rings_with",
+      "epistemic_status": "record",
+      "note": "The bells ring together"
+    },
+    {
+      "source": "bell_parents",
+      "target": "bell_data_journalists",
+      "type": "rings_with",
+      "epistemic_status": "record",
+      "note": "The bells ring together"
+    },
+    {
+      "source": "bell_parents",
+      "target": "bell_other_states",
+      "type": "rings_with",
+      "epistemic_status": "record",
+      "note": "The bells ring together"
+    },
+    {
+      "source": "bell_teachers",
+      "target": "bell_alumni",
+      "type": "rings_with",
+      "epistemic_status": "record",
+      "note": "The bells ring together"
+    },
+    {
+      "source": "bell_teachers",
+      "target": "bell_peer_schools",
+      "type": "rings_with",
+      "epistemic_status": "record",
+      "note": "The bells ring together"
+    },
+    {
+      "source": "bell_teachers",
+      "target": "bell_auditors",
+      "type": "rings_with",
+      "epistemic_status": "record",
+      "note": "The bells ring together"
+    },
+    {
+      "source": "bell_teachers",
+      "target": "bell_law_students",
+      "type": "rings_with",
+      "epistemic_status": "record",
+      "note": "The bells ring together"
+    },
+    {
+      "source": "bell_teachers",
+      "target": "bell_data_journalists",
+      "type": "rings_with",
+      "epistemic_status": "record",
+      "note": "The bells ring together"
+    },
+    {
+      "source": "bell_teachers",
+      "target": "bell_other_states",
+      "type": "rings_with",
+      "epistemic_status": "record",
+      "note": "The bells ring together"
+    },
+    {
+      "source": "bell_alumni",
+      "target": "bell_peer_schools",
+      "type": "rings_with",
+      "epistemic_status": "record",
+      "note": "The bells ring together"
+    },
+    {
+      "source": "bell_alumni",
+      "target": "bell_auditors",
+      "type": "rings_with",
+      "epistemic_status": "record",
+      "note": "The bells ring together"
+    },
+    {
+      "source": "bell_alumni",
+      "target": "bell_law_students",
+      "type": "rings_with",
+      "epistemic_status": "record",
+      "note": "The bells ring together"
+    },
+    {
+      "source": "bell_alumni",
+      "target": "bell_data_journalists",
+      "type": "rings_with",
+      "epistemic_status": "record",
+      "note": "The bells ring together"
+    },
+    {
+      "source": "bell_alumni",
+      "target": "bell_other_states",
+      "type": "rings_with",
+      "epistemic_status": "record",
+      "note": "The bells ring together"
+    },
+    {
+      "source": "bell_peer_schools",
+      "target": "bell_auditors",
+      "type": "rings_with",
+      "epistemic_status": "record",
+      "note": "The bells ring together"
+    },
+    {
+      "source": "bell_peer_schools",
+      "target": "bell_law_students",
+      "type": "rings_with",
+      "epistemic_status": "record",
+      "note": "The bells ring together"
+    },
+    {
+      "source": "bell_peer_schools",
+      "target": "bell_data_journalists",
+      "type": "rings_with",
+      "epistemic_status": "record",
+      "note": "The bells ring together"
+    },
+    {
+      "source": "bell_peer_schools",
+      "target": "bell_other_states",
+      "type": "rings_with",
+      "epistemic_status": "record",
+      "note": "The bells ring together"
+    },
+    {
+      "source": "bell_auditors",
+      "target": "bell_law_students",
+      "type": "rings_with",
+      "epistemic_status": "record",
+      "note": "The bells ring together"
+    },
+    {
+      "source": "bell_auditors",
+      "target": "bell_data_journalists",
+      "type": "rings_with",
+      "epistemic_status": "record",
+      "note": "The bells ring together"
+    },
+    {
+      "source": "bell_auditors",
+      "target": "bell_other_states",
+      "type": "rings_with",
+      "epistemic_status": "record",
+      "note": "The bells ring together"
+    },
+    {
+      "source": "bell_law_students",
+      "target": "bell_data_journalists",
+      "type": "rings_with",
+      "epistemic_status": "record",
+      "note": "The bells ring together"
+    },
+    {
+      "source": "bell_law_students",
+      "target": "bell_other_states",
+      "type": "rings_with",
+      "epistemic_status": "record",
+      "note": "The bells ring together"
+    },
+    {
+      "source": "bell_data_journalists",
+      "target": "bell_other_states",
+      "type": "rings_with",
+      "epistemic_status": "record",
+      "note": "The bells ring together"
+    },
+    {
+      "source": "ward_whistleblower_mi",
+      "target": "bell_parents",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_whistleblower_mi",
+      "target": "bell_teachers",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_whistleblower_mi",
+      "target": "bell_alumni",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_whistleblower_mi",
+      "target": "bell_peer_schools",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_whistleblower_mi",
+      "target": "bell_auditors",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_whistleblower_mi",
+      "target": "bell_law_students",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_whistleblower_mi",
+      "target": "bell_data_journalists",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_whistleblower_mi",
+      "target": "bell_other_states",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_whistleblower_fed",
+      "target": "bell_parents",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_whistleblower_fed",
+      "target": "bell_teachers",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_whistleblower_fed",
+      "target": "bell_alumni",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_whistleblower_fed",
+      "target": "bell_peer_schools",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_whistleblower_fed",
+      "target": "bell_auditors",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_whistleblower_fed",
+      "target": "bell_law_students",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_whistleblower_fed",
+      "target": "bell_data_journalists",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_whistleblower_fed",
+      "target": "bell_other_states",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_anti_slapp",
+      "target": "bell_parents",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_anti_slapp",
+      "target": "bell_teachers",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_anti_slapp",
+      "target": "bell_alumni",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_anti_slapp",
+      "target": "bell_peer_schools",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_anti_slapp",
+      "target": "bell_auditors",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_anti_slapp",
+      "target": "bell_law_students",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_anti_slapp",
+      "target": "bell_data_journalists",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_anti_slapp",
+      "target": "bell_other_states",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_reporter_privilege",
+      "target": "bell_parents",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_reporter_privilege",
+      "target": "bell_teachers",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_reporter_privilege",
+      "target": "bell_alumni",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_reporter_privilege",
+      "target": "bell_peer_schools",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_reporter_privilege",
+      "target": "bell_auditors",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_reporter_privilege",
+      "target": "bell_law_students",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_reporter_privilege",
+      "target": "bell_data_journalists",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_reporter_privilege",
+      "target": "bell_other_states",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_foia",
+      "target": "bell_parents",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_foia",
+      "target": "bell_teachers",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_foia",
+      "target": "bell_alumni",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_foia",
+      "target": "bell_peer_schools",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_foia",
+      "target": "bell_auditors",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_foia",
+      "target": "bell_law_students",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_foia",
+      "target": "bell_data_journalists",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_foia",
+      "target": "bell_other_states",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_open_meetings",
+      "target": "bell_parents",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_open_meetings",
+      "target": "bell_teachers",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_open_meetings",
+      "target": "bell_alumni",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_open_meetings",
+      "target": "bell_peer_schools",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_open_meetings",
+      "target": "bell_auditors",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_open_meetings",
+      "target": "bell_law_students",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_open_meetings",
+      "target": "bell_data_journalists",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_open_meetings",
+      "target": "bell_other_states",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_1983",
+      "target": "bell_parents",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_1983",
+      "target": "bell_teachers",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_1983",
+      "target": "bell_alumni",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_1983",
+      "target": "bell_peer_schools",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_1983",
+      "target": "bell_auditors",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_1983",
+      "target": "bell_law_students",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_1983",
+      "target": "bell_data_journalists",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_1983",
+      "target": "bell_other_states",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_qui_tam",
+      "target": "bell_parents",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_qui_tam",
+      "target": "bell_teachers",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_qui_tam",
+      "target": "bell_alumni",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_qui_tam",
+      "target": "bell_peer_schools",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_qui_tam",
+      "target": "bell_auditors",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_qui_tam",
+      "target": "bell_law_students",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_qui_tam",
+      "target": "bell_data_journalists",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "ward_qui_tam",
+      "target": "bell_other_states",
+      "type": "protects_audience_of",
+      "epistemic_status": "record",
+      "note": "The ward protects those who answer the bell"
+    },
+    {
+      "source": "article_the_ripple",
+      "target": "thesis_statement",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "The ripple carries the thesis"
+    },
+    {
+      "source": "article_the_ripple",
+      "target": "clone_traffic_oct12",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "The ripple is the traffic"
+    },
+    {
+      "source": "article_the_ripple",
+      "target": "article_thesis_for_the_544",
+      "type": "companion_to",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_ripple",
+      "target": "article_the_signal",
+      "type": "amplifies",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_ripple",
+      "target": "bell_parents",
+      "type": "causes",
+      "epistemic_status": "record",
+      "note": "The ripple is what the bells set in motion"
+    },
+    {
+      "source": "article_the_ripple",
+      "target": "bell_teachers",
+      "type": "causes",
+      "epistemic_status": "record",
+      "note": "The ripple is what the bells set in motion"
+    },
+    {
+      "source": "article_the_ripple",
+      "target": "bell_alumni",
+      "type": "causes",
+      "epistemic_status": "record",
+      "note": "The ripple is what the bells set in motion"
+    },
+    {
+      "source": "article_the_ripple",
+      "target": "bell_peer_schools",
+      "type": "causes",
+      "epistemic_status": "record",
+      "note": "The ripple is what the bells set in motion"
+    },
+    {
+      "source": "article_the_ripple",
+      "target": "bell_auditors",
+      "type": "causes",
+      "epistemic_status": "record",
+      "note": "The ripple is what the bells set in motion"
+    },
+    {
+      "source": "article_the_ripple",
+      "target": "bell_law_students",
+      "type": "causes",
+      "epistemic_status": "record",
+      "note": "The ripple is what the bells set in motion"
+    },
+    {
+      "source": "article_the_ripple",
+      "target": "bell_data_journalists",
+      "type": "causes",
+      "epistemic_status": "record",
+      "note": "The ripple is what the bells set in motion"
+    },
+    {
+      "source": "article_the_ripple",
+      "target": "bell_other_states",
+      "type": "causes",
+      "epistemic_status": "record",
+      "note": "The ripple is what the bells set in motion"
+    },
+    {
+      "source": "ward_whistleblower_mi",
+      "target": "article_the_ripple",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "The wards protect the ripple"
+    },
+    {
+      "source": "ward_whistleblower_fed",
+      "target": "article_the_ripple",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "The wards protect the ripple"
+    },
+    {
+      "source": "ward_anti_slapp",
+      "target": "article_the_ripple",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "The wards protect the ripple"
+    },
+    {
+      "source": "ward_reporter_privilege",
+      "target": "article_the_ripple",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "The wards protect the ripple"
+    },
+    {
+      "source": "ward_foia",
+      "target": "article_the_ripple",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "The wards protect the ripple"
+    },
+    {
+      "source": "ward_open_meetings",
+      "target": "article_the_ripple",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "The wards protect the ripple"
+    },
+    {
+      "source": "ward_1983",
+      "target": "article_the_ripple",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "The wards protect the ripple"
+    },
+    {
+      "source": "ward_qui_tam",
+      "target": "article_the_ripple",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "The wards protect the ripple"
+    },
+    {
+      "source": "article_the_signal",
+      "target": "public_education",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Public Education (The Commons): 4052 connections in this graph. 1 questions asked. The bell is ringing. The ward is up. Your silence is measured. What is your answer?"
+    },
+    {
+      "source": "article_the_signal",
+      "target": "money_pipeline",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Dark Money Pipeline (DeVos to Child): 411 connections in this graph. 1 questions asked. The bell is ringing. The ward is up. Your silence is measured. What is your answer?"
+    },
+    {
+      "source": "article_the_signal",
+      "target": "detroit_city",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "City of Detroit: 379 connections in this graph. 2 questions asked. The bell is ringing. The ward is up. Your silence is measured. What is your answer?"
+    },
+    {
+      "source": "article_the_signal",
+      "target": "sc_cavanagh",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Chief Justice Megan K. Cavanagh: 357 connections in this graph. 1 questions asked. The bell is ringing. The ward is up. Your silence is measured. What is your answer?"
+    },
+    {
+      "source": "article_the_signal",
+      "target": "pattern_regulatory_capture",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "THE PATTERN: Regulatory Capture Across Every Domain: 274 connections in this graph. 2 questions asked. The bell is ringing. The ward is up. Your silence is measured. What is your answer?"
+    },
+    {
+      "source": "article_the_signal",
+      "target": "wayne_resa_audit",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Wayne RESA Financial Oversight: 208 connections in this graph. 2 questions asked. The bell is ringing. The ward is up. Your silence is measured. What is your answer?"
+    },
+    {
+      "source": "article_the_signal",
+      "target": "wayne_state_law",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Wayne State University Law School: 193 connections in this graph. 2 questions asked. The bell is ringing. The ward is up. Your silence is measured. What is your answer?"
+    },
+    {
+      "source": "article_the_signal",
+      "target": "msu_law",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "MSU College of Law: 187 connections in this graph. 1 questions asked. The bell is ringing. The ward is up. Your silence is measured. What is your answer?"
+    },
+    {
+      "source": "article_the_signal",
+      "target": "purpose_group",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "The Purpose Group, LLC: 186 connections in this graph. 2 questions asked. The bell is ringing. The ward is up. Your silence is measured. What is your answer?"
+    },
+    {
+      "source": "article_the_signal",
+      "target": "media_blitz",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "MEDIA BLITZ: Dispersal Map: 183 connections in this graph. 0 questions asked. The bell is ringing. The ward is up. Your silence is measured. What is your answer?"
+    },
+    {
+      "source": "article_the_signal",
+      "target": "gay_dagnogo",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Sherry Gay-Dagnogo: 180 connections in this graph. 1 questions asked. The bell is ringing. The ward is up. Your silence is measured. What is your answer?"
+    },
+    {
+      "source": "article_the_signal",
+      "target": "macdowell",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "MacDowell Preparatory Academy: 179 connections in this graph. 1 questions asked. The bell is ringing. The ward is up. Your silence is measured. What is your answer?"
+    },
+    {
+      "source": "article_the_signal",
+      "target": "verkeydia_hall",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Verkeydia Hall: 175 connections in this graph. 1 questions asked. The bell is ringing. The ward is up. Your silence is measured. What is your answer?"
+    },
+    {
+      "source": "article_the_signal",
+      "target": "thomas_ryan",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Thomas J. Ryan, Esq.: 174 connections in this graph. 1 questions asked. The bell is ringing. The ward is up. Your silence is measured. What is your answer?"
+    },
+    {
+      "source": "article_the_signal",
+      "target": "mccsa",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Michigan Council of Charter School Authorizers: 173 connections in this graph. 1 questions asked. The bell is ringing. The ward is up. Your silence is measured. What is your answer?"
+    },
+    {
+      "source": "article_the_signal",
+      "target": "detroit_city_council",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Detroit City Council: 170 connections in this graph. 1 questions asked. The bell is ringing. The ward is up. Your silence is measured. What is your answer?"
+    },
+    {
+      "source": "article_the_signal",
+      "target": "goetz",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Michael V. Goetz: 169 connections in this graph. 1 questions asked. The bell is ringing. The ward is up. Your silence is measured. What is your answer?"
+    },
+    {
+      "source": "article_the_signal",
+      "target": "ncsi",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "National Charter Schools Institute: 167 connections in this graph. 1 questions asked. The bell is ringing. The ward is up. Your silence is measured. What is your answer?"
+    },
+    {
+      "source": "article_the_signal",
+      "target": "jolia_hill",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Dr. Jolia Hill: 167 connections in this graph. 2 questions asked. The bell is ringing. The ward is up. Your silence is measured. What is your answer?"
+    },
+    {
+      "source": "article_the_signal",
+      "target": "court_3rd",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "court 3rd: 164 connections in this graph. 1 questions asked. The bell is ringing. The ward is up. Your silence is measured. What is your answer?"
+    },
+    {
+      "source": "article_the_signal",
+      "target": "mi_supreme_court",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Michigan Supreme Court: 153 connections in this graph. 1 questions asked. The bell is ringing. The ward is up. Your silence is measured. What is your answer?"
+    },
+    {
+      "source": "article_the_signal",
+      "target": "koch_network",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Koch Political Network: 151 connections in this graph. 2 questions asked. The bell is ringing. The ward is up. Your silence is measured. What is your answer?"
+    },
+    {
+      "source": "article_the_signal",
+      "target": "us_doe",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "US Dept of Education: 151 connections in this graph. 2 questions asked. The bell is ringing. The ward is up. Your silence is measured. What is your answer?"
+    },
+    {
+      "source": "article_the_signal",
+      "target": "damages_chain",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "THE DAMAGES CHAIN: Banks -> Purpose -> MDE -> State: 149 connections in this graph. 1 questions asked. The bell is ringing. The ward is up. Your silence is measured. What is your answer?"
+    },
+    {
+      "source": "article_the_signal",
+      "target": "kevin_mok",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Kevin Mok: 146 connections in this graph. 1 questions asked. The bell is ringing. The ward is up. Your silence is measured. What is your answer?"
+    },
+    {
+      "source": "article_the_signal",
+      "target": "jtc_corbett",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Patrick Corbett: 144 connections in this graph. 1 questions asked. The bell is ringing. The ward is up. Your silence is measured. What is your answer?"
+    },
+    {
+      "source": "article_the_signal",
+      "target": "mackinac_center",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Mackinac Center for Public Policy: 142 connections in this graph. 2 questions asked. The bell is ringing. The ward is up. Your silence is measured. What is your answer?"
+    },
+    {
+      "source": "article_the_signal",
+      "target": "betsy_devos",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Betsy DeVos: 139 connections in this graph. 1 questions asked. The bell is ringing. The ward is up. Your silence is measured. What is your answer?"
+    },
+    {
+      "source": "article_the_signal",
+      "target": "pattern_we_name_the_victims",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "THE PATTERN: We Remember the Monster, We Forget the Victim: 139 connections in this graph. 1 questions asked. The bell is ringing. The ward is up. Your silence is measured. What is your answer?"
+    },
+    {
+      "source": "article_the_signal",
+      "target": "msu",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Michigan State University: 136 connections in this graph. 2 questions asked. The bell is ringing. The ward is up. Your silence is measured. What is your answer?"
+    },
+    {
+      "source": "article_the_signal",
+      "target": "insurance_chain",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "THE INSURANCE CHAIN: Who Pays When the Dam Breaks: 135 connections in this graph. 1 questions asked. The bell is ringing. The ward is up. Your silence is measured. What is your answer?"
+    },
+    {
+      "source": "article_the_signal",
+      "target": "chalena_beasley",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Dr. Chalena Yancey Beasley: 135 connections in this graph. 1 questions asked. The bell is ringing. The ward is up. Your silence is measured. What is your answer?"
+    },
+    {
+      "source": "article_the_signal",
+      "target": "kwame",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Kwame Kilpatrick: 134 connections in this graph. 2 questions asked. The bell is ringing. The ward is up. Your silence is measured. What is your answer?"
+    },
+    {
+      "source": "article_the_signal",
+      "target": "damages_mde",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "DAMAGES: Michigan Department of Education Owes Kevin Mok: 134 connections in this graph. 1 questions asked. The bell is ringing. The ward is up. Your silence is measured. What is your answer?"
+    },
+    {
+      "source": "article_the_signal",
+      "target": "len_wolfe",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Leonard C. 'Len' Wolfe: 134 connections in this graph. 2 questions asked. The bell is ringing. The ward is up. Your silence is measured. What is your answer?"
+    },
+    {
+      "source": "article_the_signal",
+      "target": "sheffield",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Mayor Mary Sheffield: 134 connections in this graph. 2 questions asked. The bell is ringing. The ward is up. Your silence is measured. What is your answer?"
+    },
+    {
+      "source": "article_the_signal",
+      "target": "afc",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "American Federation for Children: 133 connections in this graph. 1 questions asked. The bell is ringing. The ward is up. Your silence is measured. What is your answer?"
+    },
+    {
+      "source": "article_the_signal",
+      "target": "citizen_detroit",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "CitizenDetroit Action Group: 132 connections in this graph. 1 questions asked. The bell is ringing. The ward is up. Your silence is measured. What is your answer?"
+    },
+    {
+      "source": "article_the_signal",
+      "target": "commons_membrane",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Commons Membrane (Structural Pattern): 132 connections in this graph. 1 questions asked. The bell is ringing. The ward is up. Your silence is measured. What is your answer?"
     }
   ],
   "epistemic_grammar": {
