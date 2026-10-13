@@ -65054,9 +65054,9 @@
     },
     {
       "id": "shayla_smith",
-      "label": "Shayla Smith",
+      "label": "Shayla Smith (mother of 2 at PCA)",
       "class": "actor",
-      "role": "Aware the school is not real. Knows the education outcomes. Puts her children there anyway. Winning the custody dispute is more important to her than her children's education. The children attend a school run by a man with 9 criminal convictions and 72.67% below basic reading. She knows. She chooses.",
+      "role": "Daughter of Leon and Marquaita Smith. Sister of Simone Smith. Mother of 2 daughters who are students at Purpose Charter Academy. She put her own children in a building run by Brian Banks -- a man with 9 criminal convictions including identity theft and larceny. She is aware the school is not authorized. She is aware of the convictions. She chose to enroll her children anyway. They kept father away from his kids by choice and complicity. Winning was more important than her children learning to read.",
       "tags": [
         "smith",
         "custody",
@@ -65065,9 +65065,9 @@
     },
     {
       "id": "leon_smith",
-      "label": "Leon Smith",
+      "label": "Leon Smith (father)",
       "class": "actor",
-      "role": "Connected to Banks/Purpose Charter school network via family.",
+      "role": "Father of Shayla Smith and Simone Smith. Husband/partner of Marquaita Smith. His grandchildren are in the PCA building. Kept away from his kids by choice and complicity of the Banks operation. He knows what Banks is. He knows the school isn't real. His daughter put his granddaughters in a building run by a man with 9 convictions.",
       "tags": [
         "smith",
         "custody"
@@ -65075,9 +65075,9 @@
     },
     {
       "id": "simone_smith",
-      "label": "Simone Smith",
+      "label": "Simone Smith (sister)",
       "class": "actor",
-      "role": "Child. Enrolled at Banks' school. 72.67% below basic reading. 3% math proficiency. Did not choose this school. Did not choose this custody arrangement. A child.",
+      "role": "Daughter of Leon and Marquaita Smith. Sister of Shayla Smith. Her nieces are in the PCA building. Part of the Smith family that aligned with Banks over their own children.",
       "tags": [
         "smith",
         "custody",
@@ -65086,9 +65086,9 @@
     },
     {
       "id": "marquaita_smith",
-      "label": "Marquaita Smith",
+      "label": "Marquaita Smith (mother)",
       "class": "actor",
-      "role": "Connected to Smith family and Banks/Purpose Charter school network.",
+      "role": "Mother of Shayla Smith and Simone Smith. Partner of Leon Smith. Her granddaughters are in the PCA building. She knows Banks has 9 criminal convictions. She knows the school lost its authorization. Her granddaughters are inside anyway.",
       "tags": [
         "smith",
         "custody"
@@ -67349,6 +67349,32 @@
         "help",
         "personal",
         "direct"
+      ]
+    },
+    {
+      "id": "article_smith_family",
+      "label": "ARTICLE: The Smith Family -- When Winning Is More Important Than Your Children",
+      "class": "article",
+      "role": "THE SMITH FAMILY.\n\nLeon Smith and Marquaita Smith are the parents.\nShayla Smith and Simone Smith are their daughters.\nShayla has 2 daughters of her own -- unnamed minors -- who are students at Purpose Charter Academy.\n\nShayla Smith put her own children in a building run by Brian Banks.\nBrian Banks has 9 criminal convictions including identity theft and larceny.\nPurpose Charter Academy's authorization was terminated by its own authorizer.\nThe school continues to operate under legal challenge.\n\nSHE KNOWS ALL OF THIS.\n\nAnd they kept father away from his kids. By choice. By complicity.\n\nLeon Smith's granddaughters are in that building every day.\nHe was kept away from his own children by the people who chose Banks.\nMarquaita Smith's granddaughters are in that building.\nSimone Smith's nieces are in that building.\n\nThe children are the victims. Not the adults who made choices.\n\nWHAT YOU NEED TO KNOW:\n- Banks has 9 criminal convictions including identity theft and larceny\n- Purpose Charter Academy's authorization was terminated\n- The school continues to operate under legal challenge\n- 2 minor children are inside this building every day\n- Their mother chose to put them there knowing everything\n- Their grandfather was kept away by choice and complicity\n- The adults chose winning over children learning to read\n\nTHIS IS NOT A SECRET ANYMORE.\n\nAsk Shayla Smith: Is winning more important than your daughters learning to read?\nAsk Leon Smith: They kept you away from your kids. What are you going to do about it?",
+      "tags": [
+        "article",
+        "investigation",
+        "smith",
+        "children",
+        "accountability"
+      ]
+    },
+    {
+      "id": "smith_children_pca",
+      "label": "Shayla Smith's 2 Daughters (unnamed minors at PCA)",
+      "class": "entity",
+      "role": "Two unnamed minor children. Daughters of Shayla Smith. Granddaughters of Leon and Marquaita Smith. Nieces of Simone Smith. Currently enrolled at Purpose Charter Academy. They are in a building run by a man with 9 criminal convictions. They are the victims. Not the adults who made choices. Their names are withheld because they are children. Their mother chose to put them there. Their grandfather was kept away.",
+      "tags": [
+        "investigation",
+        "children",
+        "victim",
+        "smith",
+        "pca"
       ]
     }
   ],
@@ -181413,6 +181439,1252 @@
       "type": "companion",
       "epistemic_status": "record",
       "note": "Way forward = what to build. You yeah you = who builds it."
+    },
+    {
+      "source": "article_smith_family",
+      "target": "leon_smith",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "Direct subject of article"
+    },
+    {
+      "source": "article_smith_family",
+      "target": "shayla_smith",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "Direct subject of article"
+    },
+    {
+      "source": "article_smith_family",
+      "target": "simone_smith",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "Direct subject of article"
+    },
+    {
+      "source": "article_smith_family",
+      "target": "marquaita_smith",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "Direct subject of article"
+    },
+    {
+      "source": "article_smith_family",
+      "target": "pca",
+      "type": "analyzes",
+      "epistemic_status": "record",
+      "note": "Analyzes PCA as context for Smith decision"
+    },
+    {
+      "source": "article_smith_family",
+      "target": "children_cry",
+      "type": "cites_evidence",
+      "epistemic_status": "record",
+      "note": "Children are the victims"
+    },
+    {
+      "source": "article_smith_family",
+      "target": "damages_chain",
+      "type": "connected_to_investigation",
+      "epistemic_status": "record",
+      "note": "Smith children part of damages"
+    },
+    {
+      "source": "article_smith_family",
+      "target": "signal_response",
+      "type": "NO",
+      "epistemic_status": "record",
+      "note": "Smiths saw evidence, chose enrollment"
+    },
+    {
+      "source": "article_smith_family",
+      "target": "racial_shield_pattern",
+      "type": "analyzes",
+      "epistemic_status": "record",
+      "note": "Shield pattern applies here"
+    },
+    {
+      "source": "article_smith_family",
+      "target": "detroit_free_press",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Smith family story for coverage"
+    },
+    {
+      "source": "article_smith_family",
+      "target": "michigan_advance",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Smith family story for coverage"
+    },
+    {
+      "source": "article_smith_family",
+      "target": "chalkbeat_detroit",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Smith family story for coverage"
+    },
+    {
+      "source": "article_smith_family",
+      "target": "wxyz_channel7",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Smith family story for coverage"
+    },
+    {
+      "source": "article_smith_family",
+      "target": "deadline_detroit",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Smith family story for coverage"
+    },
+    {
+      "source": "media_blitz",
+      "target": "pca",
+      "type": "targets",
+      "epistemic_status": "record",
+      "note": "Media blitz dispersal target: pca"
+    },
+    {
+      "source": "media_blitz",
+      "target": "dykema",
+      "type": "targets",
+      "epistemic_status": "record",
+      "note": "Media blitz dispersal target: dykema"
+    },
+    {
+      "source": "media_blitz",
+      "target": "plante_moran",
+      "type": "targets",
+      "epistemic_status": "record",
+      "note": "Media blitz dispersal target: plante_moran"
+    },
+    {
+      "source": "media_blitz",
+      "target": "mde",
+      "type": "targets",
+      "epistemic_status": "record",
+      "note": "Media blitz dispersal target: mde"
+    },
+    {
+      "source": "media_blitz",
+      "target": "agc",
+      "type": "targets",
+      "epistemic_status": "record",
+      "note": "Media blitz dispersal target: agc"
+    },
+    {
+      "source": "media_blitz",
+      "target": "jtc",
+      "type": "targets",
+      "epistemic_status": "record",
+      "note": "Media blitz dispersal target: jtc"
+    },
+    {
+      "source": "media_blitz",
+      "target": "dpscd",
+      "type": "targets",
+      "epistemic_status": "record",
+      "note": "Media blitz dispersal target: dpscd"
+    },
+    {
+      "source": "media_blitz",
+      "target": "macdowell",
+      "type": "targets",
+      "epistemic_status": "record",
+      "note": "Media blitz dispersal target: macdowell"
+    },
+    {
+      "source": "media_blitz",
+      "target": "walton_family_foundation",
+      "type": "targets",
+      "epistemic_status": "record",
+      "note": "Media blitz dispersal target: walton_family_foundation"
+    },
+    {
+      "source": "media_blitz",
+      "target": "purpose_foundation",
+      "type": "targets",
+      "epistemic_status": "record",
+      "note": "Media blitz dispersal target: purpose_foundation"
+    },
+    {
+      "source": "media_blitz",
+      "target": "detroit_city",
+      "type": "targets",
+      "epistemic_status": "record",
+      "note": "Media blitz dispersal target: detroit_city"
+    },
+    {
+      "source": "pol_gretchen_whitmer",
+      "target": "pol_garlin_gilchrist",
+      "type": "governance",
+      "epistemic_status": "record",
+      "note": "Governor appoints Lt. Governor"
+    },
+    {
+      "source": "pol_debbie_stabenow",
+      "target": "pol_gary_peters",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "MI Senate delegation"
+    },
+    {
+      "source": "pol_debbie_stabenow",
+      "target": "pol_elissa_slotkin",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Slotkin succeeded Stabenow 2024"
+    },
+    {
+      "source": "pol_rashida_tlaib",
+      "target": "pol_shri_thanedar",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Adjacent Detroit-area districts"
+    },
+    {
+      "source": "pol_john_james",
+      "target": "pol_haley_stevens",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Adjacent MI House districts"
+    },
+    {
+      "source": "pol_gretchen_whitmer",
+      "target": "mde",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "State/Federal education oversight"
+    },
+    {
+      "source": "pol_gretchen_whitmer",
+      "target": "dpscd",
+      "type": "jurisdiction",
+      "epistemic_status": "record",
+      "note": "Constituent district"
+    },
+    {
+      "source": "pol_garlin_gilchrist",
+      "target": "mde",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "State/Federal education oversight"
+    },
+    {
+      "source": "pol_garlin_gilchrist",
+      "target": "dpscd",
+      "type": "jurisdiction",
+      "epistemic_status": "record",
+      "note": "Constituent district"
+    },
+    {
+      "source": "pol_debbie_stabenow",
+      "target": "mde",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "State/Federal education oversight"
+    },
+    {
+      "source": "pol_debbie_stabenow",
+      "target": "dpscd",
+      "type": "jurisdiction",
+      "epistemic_status": "record",
+      "note": "Constituent district"
+    },
+    {
+      "source": "pol_gary_peters",
+      "target": "mde",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "State/Federal education oversight"
+    },
+    {
+      "source": "pol_gary_peters",
+      "target": "dpscd",
+      "type": "jurisdiction",
+      "epistemic_status": "record",
+      "note": "Constituent district"
+    },
+    {
+      "source": "pol_elissa_slotkin",
+      "target": "mde",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "State/Federal education oversight"
+    },
+    {
+      "source": "pol_elissa_slotkin",
+      "target": "dpscd",
+      "type": "jurisdiction",
+      "epistemic_status": "record",
+      "note": "Constituent district"
+    },
+    {
+      "source": "pol_rashida_tlaib",
+      "target": "mde",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "State/Federal education oversight"
+    },
+    {
+      "source": "pol_rashida_tlaib",
+      "target": "dpscd",
+      "type": "jurisdiction",
+      "epistemic_status": "record",
+      "note": "Constituent district"
+    },
+    {
+      "source": "pol_shri_thanedar",
+      "target": "mde",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "State/Federal education oversight"
+    },
+    {
+      "source": "pol_shri_thanedar",
+      "target": "dpscd",
+      "type": "jurisdiction",
+      "epistemic_status": "record",
+      "note": "Constituent district"
+    },
+    {
+      "source": "pol_john_james",
+      "target": "mde",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "State/Federal education oversight"
+    },
+    {
+      "source": "pol_john_james",
+      "target": "dpscd",
+      "type": "jurisdiction",
+      "epistemic_status": "record",
+      "note": "Constituent district"
+    },
+    {
+      "source": "pol_haley_stevens",
+      "target": "mde",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "State/Federal education oversight"
+    },
+    {
+      "source": "pol_haley_stevens",
+      "target": "dpscd",
+      "type": "jurisdiction",
+      "epistemic_status": "record",
+      "note": "Constituent district"
+    },
+    {
+      "source": "pol_hillary_scholten",
+      "target": "mde",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "State/Federal education oversight"
+    },
+    {
+      "source": "pol_hillary_scholten",
+      "target": "dpscd",
+      "type": "jurisdiction",
+      "epistemic_status": "record",
+      "note": "Constituent district"
+    },
+    {
+      "source": "pol_rashida_tlaib",
+      "target": "pca",
+      "type": "jurisdiction",
+      "epistemic_status": "record",
+      "note": "Charter school in district"
+    },
+    {
+      "source": "pol_shri_thanedar",
+      "target": "pca",
+      "type": "jurisdiction",
+      "epistemic_status": "record",
+      "note": "Charter school in district"
+    },
+    {
+      "source": "pol_gretchen_whitmer",
+      "target": "agc",
+      "type": "governance",
+      "epistemic_status": "record",
+      "note": "AG reports to Governor"
+    },
+    {
+      "source": "pol_gretchen_whitmer",
+      "target": "mde",
+      "type": "governance",
+      "epistemic_status": "record",
+      "note": "MDE under executive branch"
+    },
+    {
+      "source": "walton_family_foundation",
+      "target": "money_pipeline",
+      "type": "funding",
+      "epistemic_status": "record",
+      "note": "Walton supplements pipeline"
+    },
+    {
+      "source": "glep",
+      "target": "money_pipeline",
+      "type": "feeds_into",
+      "epistemic_status": "record",
+      "note": "GLEP lobbies to maintain pipeline"
+    },
+    {
+      "source": "article_follow_the_money",
+      "target": "money_pipeline",
+      "type": "analyzes",
+      "epistemic_status": "record",
+      "note": "Article traces the full pipeline"
+    },
+    {
+      "source": "national_heritage_academies",
+      "target": "jc_huizenga",
+      "type": "founded",
+      "epistemic_status": "record",
+      "note": "Huizenga founded NHA"
+    },
+    {
+      "source": "pca",
+      "target": "national_heritage_academies",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Both charter operators in MI"
+    },
+    {
+      "source": "pca",
+      "target": "ross",
+      "type": "structural_proximity",
+      "epistemic_status": "record",
+      "note": "Ross connected to PCA ecosystem"
+    },
+    {
+      "source": "pol_gretchen_whitmer",
+      "target": "nessel_benson_cohort",
+      "type": "member",
+      "epistemic_status": "record",
+      "note": "Governor is part of cohort"
+    },
+    {
+      "source": "agc",
+      "target": "nessel_benson_cohort",
+      "type": "structural_proximity",
+      "epistemic_status": "record",
+      "note": "AG Nessel's office"
+    },
+    {
+      "source": "mde",
+      "target": "casandra_ulbrich",
+      "type": "governance",
+      "epistemic_status": "record",
+      "note": "Ulbrich oversaw MDE as SBE President"
+    },
+    {
+      "source": "pca",
+      "target": "ross_jones",
+      "type": "investigated_by",
+      "epistemic_status": "record",
+      "note": "Jones covered PCA"
+    },
+    {
+      "source": "purpose_foundation",
+      "target": "sweeps_contracts",
+      "type": "uses_framework",
+      "epistemic_status": "record",
+      "note": "Purpose uses sweeps model"
+    },
+    {
+      "source": "mde",
+      "target": "policy_pipeline",
+      "type": "passes_through",
+      "epistemic_status": "record",
+      "note": "MDE is a pass-through in the pipeline"
+    },
+    {
+      "source": "dpscd_cand_ijazz_jackson",
+      "target": "pca",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "DPSCD board governs schools in district including PCA"
+    },
+    {
+      "source": "dpscd_cand_aliya_moore",
+      "target": "pca",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "DPSCD board governs schools in district including PCA"
+    },
+    {
+      "source": "dpscd_cand_shawn_vaughn",
+      "target": "pca",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "DPSCD board governs schools in district including PCA"
+    },
+    {
+      "source": "dpscd_cand_bobby_christian",
+      "target": "pca",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "DPSCD board governs schools in district including PCA"
+    },
+    {
+      "source": "dpscd_cand_bessie_harris",
+      "target": "pca",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "DPSCD board governs schools in district including PCA"
+    },
+    {
+      "source": "dpscd_cand_jameel_smith",
+      "target": "pca",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "DPSCD board governs schools in district including PCA"
+    },
+    {
+      "source": "dpscd_cand_theodore_jones",
+      "target": "pca",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "DPSCD board governs schools in district including PCA"
+    },
+    {
+      "source": "dpscd_cand_liana_mulholland",
+      "target": "pca",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "DPSCD board governs schools in district including PCA"
+    },
+    {
+      "source": "dpscd_cand_nicole_conaway",
+      "target": "pca",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "DPSCD board governs schools in district including PCA"
+    },
+    {
+      "source": "dpscd_cand_tabrian_joe",
+      "target": "pca",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "DPSCD board governs schools in district including PCA"
+    },
+    {
+      "source": "dpscd_cand_elizabeth_williams",
+      "target": "pca",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "DPSCD board governs schools in district including PCA"
+    },
+    {
+      "source": "dpscd_cand_terry_whitfield",
+      "target": "pca",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "DPSCD board governs schools in district including PCA"
+    },
+    {
+      "source": "dpscd_cand_calesther_smith_arnold",
+      "target": "pca",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "DPSCD board governs schools in district including PCA"
+    },
+    {
+      "source": "dpscd_cand_natalie_bien_aime",
+      "target": "pca",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "DPSCD board governs schools in district including PCA"
+    },
+    {
+      "source": "dpscd_cand_michelle_broughton",
+      "target": "pca",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "DPSCD board governs schools in district including PCA"
+    },
+    {
+      "source": "dpscd_cand_katrina_brown",
+      "target": "pca",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "DPSCD board governs schools in district including PCA"
+    },
+    {
+      "source": "dpscd_cand_cidney_calloway",
+      "target": "pca",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "DPSCD board governs schools in district including PCA"
+    },
+    {
+      "source": "dpscd_cand_vilma_escamilla",
+      "target": "pca",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "DPSCD board governs schools in district including PCA"
+    },
+    {
+      "source": "dpscd_cand_daniel_ferguson",
+      "target": "pca",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "DPSCD board governs schools in district including PCA"
+    },
+    {
+      "source": "dpscd_cand_duane_grigsby",
+      "target": "pca",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "DPSCD board governs schools in district including PCA"
+    },
+    {
+      "source": "dpscd_cand_david_harris",
+      "target": "pca",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "DPSCD board governs schools in district including PCA"
+    },
+    {
+      "source": "dpscd_cand_allan_hubbard",
+      "target": "pca",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "DPSCD board governs schools in district including PCA"
+    },
+    {
+      "source": "dpscd_cand_henrietta_ivey",
+      "target": "pca",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "DPSCD board governs schools in district including PCA"
+    },
+    {
+      "source": "dpscd_cand_shinese_johnson",
+      "target": "pca",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "DPSCD board governs schools in district including PCA"
+    },
+    {
+      "source": "dpscd_cand_georgia_lemmons",
+      "target": "pca",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "DPSCD board governs schools in district including PCA"
+    },
+    {
+      "source": "dpscd_cand_lamar_lemmons",
+      "target": "pca",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "DPSCD board governs schools in district including PCA"
+    },
+    {
+      "source": "dpscd_cand_clement_lett",
+      "target": "pca",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "DPSCD board governs schools in district including PCA"
+    },
+    {
+      "source": "dpscd_cand_phil_lloyd",
+      "target": "pca",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "DPSCD board governs schools in district including PCA"
+    },
+    {
+      "source": "dpscd_cand_darious_morris",
+      "target": "pca",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "DPSCD board governs schools in district including PCA"
+    },
+    {
+      "source": "dpscd_cand_tyshea_pope",
+      "target": "pca",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "DPSCD board governs schools in district including PCA"
+    },
+    {
+      "source": "dpscd_cand_danetta_simpson",
+      "target": "pca",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "DPSCD board governs schools in district including PCA"
+    },
+    {
+      "source": "dpscd_cand_tawanna_simpson",
+      "target": "pca",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "DPSCD board governs schools in district including PCA"
+    },
+    {
+      "source": "dpscd_cand_steve_bland",
+      "target": "pca",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "DPSCD board governs schools in district including PCA"
+    },
+    {
+      "source": "dpscd_cand_theresa_williams",
+      "target": "pca",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "DPSCD board governs schools in district including PCA"
+    },
+    {
+      "source": "sbe_cand_tiffany_tilley",
+      "target": "mde",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "SBE members direct MDE"
+    },
+    {
+      "source": "sbe_cand_judith_pritchett",
+      "target": "mde",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "SBE members direct MDE"
+    },
+    {
+      "source": "sbe_cand_terence_collins",
+      "target": "mde",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "SBE members direct MDE"
+    },
+    {
+      "source": "sbe_cand_bree_moeggenberg",
+      "target": "mde",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "SBE members direct MDE"
+    },
+    {
+      "source": "sbe_cand_charles_essner",
+      "target": "mde",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "SBE members direct MDE"
+    },
+    {
+      "source": "sbe_cand_wissam_charafeddine",
+      "target": "mde",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "SBE members direct MDE"
+    },
+    {
+      "source": "sbe_cand_william_mohr",
+      "target": "mde",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "SBE members direct MDE"
+    },
+    {
+      "source": "sbe_cand_christine_schwartz",
+      "target": "mde",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "SBE members direct MDE"
+    },
+    {
+      "source": "sbe_cand_mary_anne_hering",
+      "target": "mde",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "SBE members direct MDE"
+    },
+    {
+      "source": "sbe_cand_kelli_monroe",
+      "target": "mde",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "SBE members direct MDE"
+    },
+    {
+      "source": "detroit_free_press",
+      "target": "michigan_advance",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Same market: Detroit/Michigan media"
+    },
+    {
+      "source": "detroit_free_press",
+      "target": "chalkbeat_detroit",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Same market: Detroit/Michigan media"
+    },
+    {
+      "source": "detroit_free_press",
+      "target": "wxyz_channel7",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Same market: Detroit/Michigan media"
+    },
+    {
+      "source": "detroit_free_press",
+      "target": "wdiv_local4",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Same market: Detroit/Michigan media"
+    },
+    {
+      "source": "detroit_free_press",
+      "target": "deadline_detroit",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Same market: Detroit/Michigan media"
+    },
+    {
+      "source": "detroit_free_press",
+      "target": "mlive",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Same market: Detroit/Michigan media"
+    },
+    {
+      "source": "detroit_free_press",
+      "target": "michigan_radio",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Same market: Detroit/Michigan media"
+    },
+    {
+      "source": "michigan_advance",
+      "target": "chalkbeat_detroit",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Same market: Detroit/Michigan media"
+    },
+    {
+      "source": "michigan_advance",
+      "target": "wxyz_channel7",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Same market: Detroit/Michigan media"
+    },
+    {
+      "source": "michigan_advance",
+      "target": "wdiv_local4",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Same market: Detroit/Michigan media"
+    },
+    {
+      "source": "michigan_advance",
+      "target": "deadline_detroit",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Same market: Detroit/Michigan media"
+    },
+    {
+      "source": "michigan_advance",
+      "target": "mlive",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Same market: Detroit/Michigan media"
+    },
+    {
+      "source": "michigan_advance",
+      "target": "michigan_radio",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Same market: Detroit/Michigan media"
+    },
+    {
+      "source": "chalkbeat_detroit",
+      "target": "wxyz_channel7",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Same market: Detroit/Michigan media"
+    },
+    {
+      "source": "chalkbeat_detroit",
+      "target": "wdiv_local4",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Same market: Detroit/Michigan media"
+    },
+    {
+      "source": "chalkbeat_detroit",
+      "target": "deadline_detroit",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Same market: Detroit/Michigan media"
+    },
+    {
+      "source": "chalkbeat_detroit",
+      "target": "mlive",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Same market: Detroit/Michigan media"
+    },
+    {
+      "source": "chalkbeat_detroit",
+      "target": "michigan_radio",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Same market: Detroit/Michigan media"
+    },
+    {
+      "source": "wxyz_channel7",
+      "target": "wdiv_local4",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Same market: Detroit/Michigan media"
+    },
+    {
+      "source": "wxyz_channel7",
+      "target": "deadline_detroit",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Same market: Detroit/Michigan media"
+    },
+    {
+      "source": "wxyz_channel7",
+      "target": "mlive",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Same market: Detroit/Michigan media"
+    },
+    {
+      "source": "wxyz_channel7",
+      "target": "michigan_radio",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Same market: Detroit/Michigan media"
+    },
+    {
+      "source": "wdiv_local4",
+      "target": "deadline_detroit",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Same market: Detroit/Michigan media"
+    },
+    {
+      "source": "wdiv_local4",
+      "target": "mlive",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Same market: Detroit/Michigan media"
+    },
+    {
+      "source": "wdiv_local4",
+      "target": "michigan_radio",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Same market: Detroit/Michigan media"
+    },
+    {
+      "source": "deadline_detroit",
+      "target": "mlive",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Same market: Detroit/Michigan media"
+    },
+    {
+      "source": "deadline_detroit",
+      "target": "michigan_radio",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Same market: Detroit/Michigan media"
+    },
+    {
+      "source": "mlive",
+      "target": "michigan_radio",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Same market: Detroit/Michigan media"
+    },
+    {
+      "source": "propublica",
+      "target": "the_intercept",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Same tier: National education/investigative media"
+    },
+    {
+      "source": "propublica",
+      "target": "marshall_project",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Same tier: National education/investigative media"
+    },
+    {
+      "source": "propublica",
+      "target": "education_week",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Same tier: National education/investigative media"
+    },
+    {
+      "source": "propublica",
+      "target": "washington_post",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Same tier: National education/investigative media"
+    },
+    {
+      "source": "propublica",
+      "target": "guardian_us",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Same tier: National education/investigative media"
+    },
+    {
+      "source": "the_intercept",
+      "target": "marshall_project",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Same tier: National education/investigative media"
+    },
+    {
+      "source": "the_intercept",
+      "target": "education_week",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Same tier: National education/investigative media"
+    },
+    {
+      "source": "the_intercept",
+      "target": "washington_post",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Same tier: National education/investigative media"
+    },
+    {
+      "source": "the_intercept",
+      "target": "guardian_us",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Same tier: National education/investigative media"
+    },
+    {
+      "source": "marshall_project",
+      "target": "education_week",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Same tier: National education/investigative media"
+    },
+    {
+      "source": "marshall_project",
+      "target": "washington_post",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Same tier: National education/investigative media"
+    },
+    {
+      "source": "marshall_project",
+      "target": "guardian_us",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Same tier: National education/investigative media"
+    },
+    {
+      "source": "education_week",
+      "target": "washington_post",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Same tier: National education/investigative media"
+    },
+    {
+      "source": "education_week",
+      "target": "guardian_us",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Same tier: National education/investigative media"
+    },
+    {
+      "source": "washington_post",
+      "target": "guardian_us",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Same tier: National education/investigative media"
+    },
+    {
+      "source": "walton_family_foundation",
+      "target": "glep",
+      "type": "co_funding",
+      "epistemic_status": "record",
+      "note": "Dark money internal connection"
+    },
+    {
+      "source": "glep",
+      "target": "mackinac_center",
+      "type": "political_alliance",
+      "epistemic_status": "record",
+      "note": "Dark money internal connection"
+    },
+    {
+      "source": "mackinac_center",
+      "target": "choice_schools",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Dark money internal connection"
+    },
+    {
+      "source": "article_smith_family",
+      "target": "article_by_the_numbers",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Smith family story connects to this article"
+    },
+    {
+      "source": "article_smith_family",
+      "target": "article_follow_the_money",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Smith family story connects to this article"
+    },
+    {
+      "source": "article_smith_family",
+      "target": "article_yeah_you_parent",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Smith family story connects to this article"
+    },
+    {
+      "source": "article_smith_family",
+      "target": "article_hiding_behind_race",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Smith family story connects to this article"
+    },
+    {
+      "source": "article_smith_family",
+      "target": "article_damages_register",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Smith family story connects to this article"
+    },
+    {
+      "source": "shayla_smith",
+      "target": "smith_children_pca",
+      "type": "family",
+      "epistemic_status": "record",
+      "note": "Shayla is their mother"
+    },
+    {
+      "source": "leon_smith",
+      "target": "smith_children_pca",
+      "type": "family",
+      "epistemic_status": "record",
+      "note": "Leon is their grandfather"
+    },
+    {
+      "source": "marquaita_smith",
+      "target": "smith_children_pca",
+      "type": "family",
+      "epistemic_status": "record",
+      "note": "Marquaita is their grandmother"
+    },
+    {
+      "source": "simone_smith",
+      "target": "smith_children_pca",
+      "type": "family",
+      "epistemic_status": "record",
+      "note": "Simone is their aunt"
+    },
+    {
+      "source": "leon_smith",
+      "target": "marquaita_smith",
+      "type": "family",
+      "epistemic_status": "record",
+      "note": "Partners / parents of Shayla and Simone"
+    },
+    {
+      "source": "leon_smith",
+      "target": "simone_smith",
+      "type": "family",
+      "epistemic_status": "record",
+      "note": "Father of Simone"
+    },
+    {
+      "source": "marquaita_smith",
+      "target": "simone_smith",
+      "type": "family",
+      "epistemic_status": "record",
+      "note": "Mother of Simone"
+    },
+    {
+      "source": "shayla_smith",
+      "target": "simone_smith",
+      "type": "family",
+      "epistemic_status": "record",
+      "note": "Sisters"
+    },
+    {
+      "source": "smith_children_pca",
+      "target": "pca",
+      "type": "victim",
+      "epistemic_status": "record",
+      "note": "Enrolled at PCA -- a school run by a man with 9 convictions"
+    },
+    {
+      "source": "smith_children_pca",
+      "target": "children_cry",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "More children harmed by this operation"
+    },
+    {
+      "source": "shayla_smith",
+      "target": "leon_smith",
+      "type": "denies_access",
+      "epistemic_status": "record",
+      "note": "Choice and complicity -- kept father from his children"
+    },
+    {
+      "source": "pca",
+      "target": "leon_smith",
+      "type": "denies_access",
+      "epistemic_status": "record",
+      "note": "PCA operation kept father away"
+    },
+    {
+      "source": "shayla_smith",
+      "target": "signal_response",
+      "type": "NO",
+      "epistemic_status": "record",
+      "note": "Saw all evidence, chose enrollment anyway"
+    },
+    {
+      "source": "leon_smith",
+      "target": "signal_response",
+      "type": "NO",
+      "epistemic_status": "record",
+      "note": "His grandchildren are in the building and he knows"
+    },
+    {
+      "source": "marquaita_smith",
+      "target": "signal_response",
+      "type": "NO",
+      "epistemic_status": "record",
+      "note": "Her grandchildren are in the building and she knows"
+    },
+    {
+      "source": "article_smith_family",
+      "target": "smith_children_pca",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "Article is about the children in the building"
+    },
+    {
+      "source": "smith_children_pca",
+      "target": "damages_chain",
+      "type": "victim",
+      "epistemic_status": "record",
+      "note": "Smith children are part of the damages"
     }
   ],
   "epistemic_grammar": {
