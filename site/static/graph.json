@@ -72077,6 +72077,18 @@
         "chipmunk",
         "investigation"
       ]
+    },
+    {
+      "id": "article_heroes_and_helpers",
+      "label": "ARTICLE: The Heroes and Helpers — Who Can Act, Who Already Has, and Who's Next",
+      "class": "article",
+      "role": "Nikki Snyder raised concerns at the SBE. Jolia Hill terminated a charter. Kym Worthy called Miller's dismissal 'outrageous.' Ross Jones broke the gun story. Aquilina sentenced Nassar to 175 years. The heroes exist. The helpers have power. The chain is clear. Snyder -> Brozanski -> MDE. Hill -> Northrop -> CMU. Worthy -> false police reports -> Smith family. Nessel -> her own 2016 file -> 'why did we let him plead?' The cavalry is not coming. The cavalry is already here. They just need to know the battle has started.",
+      "tags": [
+        "article",
+        "investigation",
+        "hope",
+        "good"
+      ]
     }
   ],
   "edges": [
@@ -422222,6 +422234,601 @@
       "type": "same_lesson",
       "epistemic_status": "record",
       "note": "Everything teaches everything"
+    },
+    {
+      "source": "article_heroes_and_helpers",
+      "target": "nikki_snyder_yes",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "ALREADY ACTED"
+    },
+    {
+      "source": "article_heroes_and_helpers",
+      "target": "nikki_snyder_yes",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "You already acted. The chain starts with you. Act."
+    },
+    {
+      "source": "article_heroes_and_helpers",
+      "target": "jolia_hill",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "ALREADY ACTED"
+    },
+    {
+      "source": "article_heroes_and_helpers",
+      "target": "jolia_hill",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "You already acted. The chain starts with you. Act."
+    },
+    {
+      "source": "article_heroes_and_helpers",
+      "target": "kym_worthy",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "HAS JURISDICTION"
+    },
+    {
+      "source": "article_heroes_and_helpers",
+      "target": "kym_worthy",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "You has jurisdiction. The chain starts with you. Act."
+    },
+    {
+      "source": "article_heroes_and_helpers",
+      "target": "dana_nessel",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "HAS JURISDICTION"
+    },
+    {
+      "source": "article_heroes_and_helpers",
+      "target": "dana_nessel",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "You has jurisdiction. The chain starts with you. Act."
+    },
+    {
+      "source": "article_heroes_and_helpers",
+      "target": "judge_aquilina",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "HAS SHOWN SPINE"
+    },
+    {
+      "source": "article_heroes_and_helpers",
+      "target": "judge_aquilina",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "You has shown spine. The chain starts with you. Act."
+    },
+    {
+      "source": "article_heroes_and_helpers",
+      "target": "detroit_free_press",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "HAS PLATFORM"
+    },
+    {
+      "source": "article_heroes_and_helpers",
+      "target": "detroit_free_press",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "You has platform. The chain starts with you. Act."
+    },
+    {
+      "source": "article_heroes_and_helpers",
+      "target": "michigan_chronicle",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "HAS COMMUNITY"
+    },
+    {
+      "source": "article_heroes_and_helpers",
+      "target": "michigan_chronicle",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "You has community. The chain starts with you. Act."
+    },
+    {
+      "source": "article_heroes_and_helpers",
+      "target": "us_doe",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "HAS FEDERAL AUTHORITY"
+    },
+    {
+      "source": "article_heroes_and_helpers",
+      "target": "us_doe",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "You has federal authority. The chain starts with you. Act."
+    },
+    {
+      "source": "article_heroes_and_helpers",
+      "target": "jtc",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "HAS COMPLAINT"
+    },
+    {
+      "source": "article_heroes_and_helpers",
+      "target": "jtc",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "You has complaint. The chain starts with you. Act."
+    },
+    {
+      "source": "article_heroes_and_helpers",
+      "target": "cmu",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "HAS LIABILITY"
+    },
+    {
+      "source": "article_heroes_and_helpers",
+      "target": "cmu",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "You has liability. The chain starts with you. Act."
+    },
+    {
+      "source": "article_heroes_and_helpers",
+      "target": "dpscd",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "HAS AUTHORITY"
+    },
+    {
+      "source": "article_heroes_and_helpers",
+      "target": "dpscd",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "You has authority. The chain starts with you. Act."
+    },
+    {
+      "source": "article_heroes_and_helpers",
+      "target": "banks",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "The target"
+    },
+    {
+      "source": "article_heroes_and_helpers",
+      "target": "pca",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "The school"
+    },
+    {
+      "source": "article_heroes_and_helpers",
+      "target": "the_unnamed_400",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "The reason"
+    },
+    {
+      "source": "nikki_snyder_yes",
+      "target": "jolia_hill",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "The chain connects you"
+    },
+    {
+      "source": "nikki_snyder_yes",
+      "target": "kym_worthy",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "The chain connects you"
+    },
+    {
+      "source": "nikki_snyder_yes",
+      "target": "dana_nessel",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "The chain connects you"
+    },
+    {
+      "source": "nikki_snyder_yes",
+      "target": "judge_aquilina",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "The chain connects you"
+    },
+    {
+      "source": "nikki_snyder_yes",
+      "target": "detroit_free_press",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "The chain connects you"
+    },
+    {
+      "source": "nikki_snyder_yes",
+      "target": "michigan_chronicle",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "The chain connects you"
+    },
+    {
+      "source": "nikki_snyder_yes",
+      "target": "us_doe",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "The chain connects you"
+    },
+    {
+      "source": "nikki_snyder_yes",
+      "target": "jtc",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "The chain connects you"
+    },
+    {
+      "source": "nikki_snyder_yes",
+      "target": "cmu",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "The chain connects you"
+    },
+    {
+      "source": "nikki_snyder_yes",
+      "target": "dpscd",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "The chain connects you"
+    },
+    {
+      "source": "jolia_hill",
+      "target": "kym_worthy",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "The chain connects you"
+    },
+    {
+      "source": "jolia_hill",
+      "target": "dana_nessel",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "The chain connects you"
+    },
+    {
+      "source": "jolia_hill",
+      "target": "judge_aquilina",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "The chain connects you"
+    },
+    {
+      "source": "jolia_hill",
+      "target": "detroit_free_press",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "The chain connects you"
+    },
+    {
+      "source": "jolia_hill",
+      "target": "michigan_chronicle",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "The chain connects you"
+    },
+    {
+      "source": "jolia_hill",
+      "target": "us_doe",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "The chain connects you"
+    },
+    {
+      "source": "jolia_hill",
+      "target": "jtc",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "The chain connects you"
+    },
+    {
+      "source": "jolia_hill",
+      "target": "cmu",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "The chain connects you"
+    },
+    {
+      "source": "jolia_hill",
+      "target": "dpscd",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "The chain connects you"
+    },
+    {
+      "source": "kym_worthy",
+      "target": "dana_nessel",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "The chain connects you"
+    },
+    {
+      "source": "kym_worthy",
+      "target": "judge_aquilina",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "The chain connects you"
+    },
+    {
+      "source": "kym_worthy",
+      "target": "detroit_free_press",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "The chain connects you"
+    },
+    {
+      "source": "kym_worthy",
+      "target": "michigan_chronicle",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "The chain connects you"
+    },
+    {
+      "source": "kym_worthy",
+      "target": "us_doe",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "The chain connects you"
+    },
+    {
+      "source": "kym_worthy",
+      "target": "jtc",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "The chain connects you"
+    },
+    {
+      "source": "kym_worthy",
+      "target": "cmu",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "The chain connects you"
+    },
+    {
+      "source": "kym_worthy",
+      "target": "dpscd",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "The chain connects you"
+    },
+    {
+      "source": "dana_nessel",
+      "target": "judge_aquilina",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "The chain connects you"
+    },
+    {
+      "source": "dana_nessel",
+      "target": "detroit_free_press",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "The chain connects you"
+    },
+    {
+      "source": "dana_nessel",
+      "target": "michigan_chronicle",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "The chain connects you"
+    },
+    {
+      "source": "dana_nessel",
+      "target": "us_doe",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "The chain connects you"
+    },
+    {
+      "source": "dana_nessel",
+      "target": "jtc",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "The chain connects you"
+    },
+    {
+      "source": "dana_nessel",
+      "target": "cmu",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "The chain connects you"
+    },
+    {
+      "source": "dana_nessel",
+      "target": "dpscd",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "The chain connects you"
+    },
+    {
+      "source": "judge_aquilina",
+      "target": "detroit_free_press",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "The chain connects you"
+    },
+    {
+      "source": "judge_aquilina",
+      "target": "michigan_chronicle",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "The chain connects you"
+    },
+    {
+      "source": "judge_aquilina",
+      "target": "us_doe",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "The chain connects you"
+    },
+    {
+      "source": "judge_aquilina",
+      "target": "jtc",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "The chain connects you"
+    },
+    {
+      "source": "judge_aquilina",
+      "target": "cmu",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "The chain connects you"
+    },
+    {
+      "source": "judge_aquilina",
+      "target": "dpscd",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "The chain connects you"
+    },
+    {
+      "source": "detroit_free_press",
+      "target": "michigan_chronicle",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "The chain connects you"
+    },
+    {
+      "source": "detroit_free_press",
+      "target": "us_doe",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "The chain connects you"
+    },
+    {
+      "source": "detroit_free_press",
+      "target": "jtc",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "The chain connects you"
+    },
+    {
+      "source": "detroit_free_press",
+      "target": "cmu",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "The chain connects you"
+    },
+    {
+      "source": "detroit_free_press",
+      "target": "dpscd",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "The chain connects you"
+    },
+    {
+      "source": "michigan_chronicle",
+      "target": "us_doe",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "The chain connects you"
+    },
+    {
+      "source": "michigan_chronicle",
+      "target": "jtc",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "The chain connects you"
+    },
+    {
+      "source": "michigan_chronicle",
+      "target": "cmu",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "The chain connects you"
+    },
+    {
+      "source": "michigan_chronicle",
+      "target": "dpscd",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "The chain connects you"
+    },
+    {
+      "source": "us_doe",
+      "target": "jtc",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "The chain connects you"
+    },
+    {
+      "source": "us_doe",
+      "target": "cmu",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "The chain connects you"
+    },
+    {
+      "source": "us_doe",
+      "target": "dpscd",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "The chain connects you"
+    },
+    {
+      "source": "jtc",
+      "target": "cmu",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "The chain connects you"
+    },
+    {
+      "source": "jtc",
+      "target": "dpscd",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "The chain connects you"
+    },
+    {
+      "source": "cmu",
+      "target": "dpscd",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "The chain connects you"
+    },
+    {
+      "source": "article_heroes_and_helpers",
+      "target": "glep",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "You've been under-pressured. That changes now."
+    },
+    {
+      "source": "article_heroes_and_helpers",
+      "target": "richard_mclellan",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "You've been under-pressured. That changes now."
+    },
+    {
+      "source": "article_heroes_and_helpers",
+      "target": "bmf",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "You've been under-pressured. That changes now."
+    },
+    {
+      "source": "article_heroes_and_helpers",
+      "target": "wayne_state_law",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "You've been under-pressured. That changes now."
+    },
+    {
+      "source": "article_heroes_and_helpers",
+      "target": "purpose_group",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "You've been under-pressured. That changes now."
     }
   ],
   "epistemic_grammar": {
