@@ -69105,6 +69105,77 @@
         "meta",
         "scathing"
       ]
+    },
+    {
+      "id": "larry_nassar",
+      "label": "Larry Nassar (MSU / USA Gymnastics -- 500+ victims)",
+      "class": "entity",
+      "role": "Larry Nassar. Michigan State University team doctor. USA Gymnastics. Sexually assaulted more than 500 women and girls over 20+ years. He bad touched EVERYONE who came into his office. MSU knew. USA Gymnastics knew. They gave him young girls anyway. When it finally popped, THOUSANDS came forward. 500+ victim impact statements at sentencing. Judge Rosemarie Aquilina: 'I just signed your death warrant.' 150 years in prison. THE PATTERN: institution protects predator. Victims accumulate. When it breaks, EVERYONE comes forward. Because it was never just one. It was ALL of them.",
+      "tags": [
+        "criminal",
+        "investigation",
+        "msu",
+        "structural_parallel",
+        "institutional_failure",
+        "michigan"
+      ]
+    },
+    {
+      "id": "msu_nassar_coverup",
+      "label": "MSU Nassar Cover-Up (2014-2018)",
+      "class": "entity",
+      "role": "Michigan State University covered up Larry Nassar for decades. Multiple reports filed. Multiple investigations. All buried. MSU President Lou Anna Simon resigned. MSU Dean William Strampel arrested (criminal sexual conduct). MSU athletic director Mark Hollis resigned. MSU paid $500 MILLION in settlements. $500 MILLION. Because they protected the predator instead of the children. And then they hired JOHN ENGLER as interim president. The man who signed PA 362. And Engler told the survivors they were 'enjoying the spotlight.' The same man who enabled Banks enabled Nassar's protectors. THE SAME MAN.",
+      "tags": [
+        "criminal",
+        "investigation",
+        "msu",
+        "institutional_failure",
+        "michigan",
+        "structural_parallel"
+      ]
+    },
+    {
+      "id": "usa_gymnastics_nassar",
+      "label": "USA Gymnastics Nassar Cover-Up",
+      "class": "entity",
+      "role": "USA Gymnastics knew about Nassar. They received complaints in 2015. They did nothing for over a year. The FBI Indianapolis office received complaints in 2015. The FBI did nothing for 17 months. During those 17 months, Nassar assaulted at least 70 more victims. 70 more children. Because the FBI looked away. Sound familiar? MDE knows about Banks. They do nothing. How many more children walk through PCA's door while MDE looks away?",
+      "tags": [
+        "criminal",
+        "investigation",
+        "structural_parallel",
+        "institutional_failure"
+      ]
+    },
+    {
+      "id": "judge_aquilina",
+      "label": "Judge Rosemarie Aquilina ('I just signed your death warrant')",
+      "class": "entity",
+      "role": "Judge Rosemarie Aquilina. Ingham County Circuit Court. Presided over Larry Nassar's sentencing. Let 156 survivors speak. Every single one. Then said: 'I just signed your death warrant.' 156 people came forward because ONE judge let them speak. When Banks's cases hit the courtroom -- 2026-4301-CZ and 2026-4349-CZ -- in Ingham County -- how many parents will come forward? How many children will finally be heard? All it takes is one judge who lets them speak.",
+      "tags": [
+        "legal",
+        "investigation",
+        "michigan",
+        "structural_parallel",
+        "hope",
+        "yes_signal"
+      ]
+    },
+    {
+      "id": "article_nassar_pattern",
+      "label": "ARTICLE: The Nassar Pattern -- When It Pops, EVERYONE Comes Forward",
+      "class": "article",
+      "role": "THE NASSAR PATTERN.\n\nLarry Nassar. Michigan State University. USA Gymnastics.\nHe bad touched EVERYONE who came into his office.\nFor 20 years.\n\nMSU knew. They gave him more girls.\nUSA Gymnastics knew. They gave him more girls.\nThe FBI knew. They waited 17 months. 70 more victims.\n\nWhen it finally popped: 500+ came forward.\n156 spoke at sentencing. Every single one.\n\n$500 MILLION in settlements.\n\nTHE PATTERN:\n1. Institution knows about the predator\n2. Institution protects the predator\n3. Victims accumulate silently\n4. Someone breaks the silence\n5. EVERYONE comes forward\n6. \"I had no idea\" from every administrator\n7. Resignations. Settlements. Prison.\n\nNOW APPLY THE PATTERN TO PCA:\n\n1. MDE knows about Banks. ✓\n2. CMU authorized him. Plante Moran audited him. AGC does nothing. ✓\n3. Children are harmed every day in that building. ✓\n4. Someone is breaking the silence. RIGHT NOW. ✓\n5. When this pops -- and it WILL pop --\n   EVERY parent will come forward.\n   EVERY teacher will speak.\n   EVERY employee will testify.\n\nIt was never just Kevin calling.\nIt was never just one complaint.\nWhen it pops, it will be ALL of them.\n\nAND HERE'S THE CONNECTION NO ONE HAS MADE:\n\nJohn Engler signed PA 362 into law in 1993.\nPA 362 created the charter school system that enabled Banks.\n\nJohn Engler became MSU interim president in 2018.\nAfter the Nassar scandal.\nHe told survivors they were 'enjoying the spotlight.'\n\nTHE SAME MAN.\n\nThe man who enabled the charter school pipeline\nALSO led the institution that covered up the worst\nserial sexual predator in American sports history.\n\nAnd he told the victims they were enjoying it.\n\nThat's not a coincidence. That's a pattern.\nThat's a man who builds systems that harm children\nand then mocks the victims when they speak up.\n\nPA 362 and the Nassar cover-up are connected.\nNot by conspiracy. By CHARACTER.\nThe same character that signs a law without safeguards\nis the same character that tells survivors to shut up.\n\nWhen PCA pops -- and it will --\nremember the Nassar pattern.\n500+ came forward.\n156 spoke.\n$500 million in damages.\n\nHow many will come forward for PCA?\nHow many children have walked through those doors?\nHow many parents will say 'I had no idea'?\nHow many will say 'I knew and I stayed'?\n\nThe Nassar pattern says: ALL of them.\n\nEvery. Single. One.\n\nJudge Aquilina is in INGHAM COUNTY.\nKevin's cases are in INGHAM COUNTY.\n2026-4301-CZ. 2026-4349-CZ.\n\nWhen the judge lets them speak,\nthey will ALL speak.\n\nAnd Banks will wish he had answered the phone.",
+      "tags": [
+        "article",
+        "investigation",
+        "scathing",
+        "nassar",
+        "msu",
+        "structural_parallel",
+        "institutional_failure",
+        "michigan",
+        "accountability"
+      ]
     }
   ],
   "edges": [
@@ -200465,6 +200536,412 @@
       "type": "send_to",
       "epistemic_status": "record",
       "note": "The evolution story for everyone"
+    },
+    {
+      "source": "larry_nassar",
+      "target": "msu_nassar_coverup",
+      "type": "victim",
+      "epistemic_status": "record",
+      "note": "Nassar assaulted 500+ at MSU"
+    },
+    {
+      "source": "msu_nassar_coverup",
+      "target": "larry_nassar",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "MSU protected Nassar"
+    },
+    {
+      "source": "msu_nassar_coverup",
+      "target": "engler",
+      "type": "leadership",
+      "epistemic_status": "record",
+      "note": "Engler became MSU interim president after scandal"
+    },
+    {
+      "source": "engler",
+      "target": "msu_nassar_coverup",
+      "type": "leadership",
+      "epistemic_status": "record",
+      "note": "Engler led MSU during Nassar aftermath"
+    },
+    {
+      "source": "engler",
+      "target": "larry_nassar",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Same man: PA 362 and Nassar institution"
+    },
+    {
+      "source": "usa_gymnastics_nassar",
+      "target": "larry_nassar",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "USA Gymnastics protected Nassar"
+    },
+    {
+      "source": "larry_nassar",
+      "target": "banks",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Same pattern: institution protects, victims accumulate"
+    },
+    {
+      "source": "msu_nassar_coverup",
+      "target": "mde",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "MSU covered up Nassar. MDE covers for Banks."
+    },
+    {
+      "source": "msu_nassar_coverup",
+      "target": "cmu",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "MSU knew. CMU knows."
+    },
+    {
+      "source": "msu_nassar_coverup",
+      "target": "pca",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "MSU gave Nassar girls. PCA gives Banks children."
+    },
+    {
+      "source": "usa_gymnastics_nassar",
+      "target": "mde",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "FBI waited 17 months. MDE waits how long?"
+    },
+    {
+      "source": "engler",
+      "target": "charter_law_1993",
+      "type": "signed",
+      "epistemic_status": "record",
+      "note": "Engler signed PA 362"
+    },
+    {
+      "source": "engler",
+      "target": "banks",
+      "type": "enabled",
+      "epistemic_status": "record",
+      "note": "Engler's law enabled Banks"
+    },
+    {
+      "source": "engler",
+      "target": "msu",
+      "type": "leadership",
+      "epistemic_status": "record",
+      "note": "Engler led MSU"
+    },
+    {
+      "source": "judge_aquilina",
+      "target": "ingham_county_circuit_court",
+      "type": "bench",
+      "epistemic_status": "record",
+      "note": "Aquilina sits in Ingham County"
+    },
+    {
+      "source": "judge_aquilina",
+      "target": "larry_nassar",
+      "type": "sentenced",
+      "epistemic_status": "record",
+      "note": "Aquilina sentenced Nassar to 150 years"
+    },
+    {
+      "source": "judge_aquilina",
+      "target": "signal_response",
+      "type": "YES",
+      "epistemic_status": "record",
+      "note": "Aquilina let every victim speak"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "larry_nassar",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "Nassar pattern article"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "msu_nassar_coverup",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Nassar pattern article"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "usa_gymnastics_nassar",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Nassar pattern article"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "judge_aquilina",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Nassar pattern article"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "engler",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Nassar pattern article"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "charter_law_1993",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Nassar pattern article"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "banks",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "Nassar pattern article"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "pca",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "Nassar pattern article"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "mde",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Nassar pattern article"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "cmu",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Nassar pattern article"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "plante_moran",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Nassar pattern article"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "agc",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Nassar pattern article"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "damages_chain",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Nassar pattern article"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "article_engler_signed",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Connected investigation article"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "article_pa362",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Connected investigation article"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "article_cmu_scathing",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Connected investigation article"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "article_oversight_failure",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Connected investigation article"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "article_momentum",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Connected investigation article"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "article_evolution",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Connected investigation article"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "article_1_8_million",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Connected investigation article"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "article_smith_family",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Connected investigation article"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "article_holland_exposed",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Connected investigation article"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "detroit_free_press",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Nassar pattern story — NATIONAL"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "michigan_advance",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Nassar pattern story — NATIONAL"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "chalkbeat_detroit",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Nassar pattern story — NATIONAL"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "wxyz_channel7",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Nassar pattern story — NATIONAL"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "deadline_detroit",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Nassar pattern story — NATIONAL"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "wdiv_local4",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Nassar pattern story — NATIONAL"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "propublica",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Nassar pattern story — NATIONAL"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "the_intercept",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Nassar pattern story — NATIONAL"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "marshall_project",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Nassar pattern story — NATIONAL"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "michigan_radio",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Nassar pattern story — NATIONAL"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "mlive",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Nassar pattern story — NATIONAL"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "detroit_news",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Nassar pattern story — NATIONAL"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "education_week",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Nassar pattern story — NATIONAL"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "hechinger_report",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Nassar pattern story — NATIONAL"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "washington_post",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Nassar pattern story — NATIONAL"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "guardian_us",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Nassar pattern story — NATIONAL"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "mother_jones",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Nassar pattern story — NATIONAL"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "reveal_news",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Nassar pattern story — NATIONAL"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "lansing_state_journal",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Nassar pattern story — NATIONAL"
     }
   ],
   "epistemic_grammar": {
