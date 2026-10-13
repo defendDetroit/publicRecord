@@ -61279,6 +61279,17 @@
         "action",
         "non_human"
       ]
+    },
+    {
+      "id": "page_fill_the_seats",
+      "label": "Fill the Seats: How to Get In",
+      "class": "false_entity",
+      "role": "Action guide. 4 tiers. Every seat. Every deadline. Every step. How to file. How to apply. How to write in. How to win.",
+      "tags": [
+        "article",
+        "action",
+        "non_human"
+      ]
     }
   ],
   "edges": [
@@ -159119,6 +159130,90 @@
     },
     {
       "source": "article_fill_the_seats",
+      "target": "swarm_strategy",
+      "type": "implements",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "page_fill_the_seats",
+      "target": "article_fill_the_seats",
+      "type": "implements",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "page_fill_the_seats",
+      "target": "article_hiding_behind_you",
+      "type": "implements",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "page_fill_the_seats",
+      "target": "dpscd_election_2026",
+      "type": "implements",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "page_fill_the_seats",
+      "target": "sbe_election_2026",
+      "type": "implements",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "page_fill_the_seats",
+      "target": "muskegon_heights_school_board",
+      "type": "implements",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "page_fill_the_seats",
+      "target": "detroit_tenants_rights_commission",
+      "type": "implements",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "page_fill_the_seats",
+      "target": "detroit_entertainment_commission",
+      "type": "implements",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "page_fill_the_seats",
+      "target": "detroit_historic_advisory",
+      "type": "implements",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "page_fill_the_seats",
+      "target": "governor_appointments",
+      "type": "implements",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "page_fill_the_seats",
+      "target": "precinct_delegates",
+      "type": "implements",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "page_fill_the_seats",
+      "target": "detroit_precinct_vacancies",
+      "type": "implements",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "page_fill_the_seats",
       "target": "swarm_strategy",
       "type": "implements",
       "epistemic_status": "record",
