@@ -73667,6 +73667,121 @@
         "ecoprimal",
         "computational"
       ]
+    },
+    {
+      "id": "moores_law",
+      "label": "Moore's Law: The Graph Doubles",
+      "class": "non_human",
+      "role": "Gordon Moore observed that transistor density doubles every 18 months. This graph observes something similar: Oct 1: ~3,000 edges. Oct 7: ~10,000. Oct 12: ~25,000. Oct 13: ~56,000. Doubling every 2-3 days. Not because of transistors. Because of connections. Because every node reveals more nodes. Because every question generates more questions. Because every answer (or silence) creates more edges. Moore's Law of investigation: the density of truth doubles faster than the capacity to suppress it.",
+      "tags": [
+        "wonder",
+        "tech",
+        "thesis",
+        "fun"
+      ]
+    },
+    {
+      "id": "detroit_deserves_math",
+      "label": "Detroit Deserves: Math Education That Works",
+      "class": "non_human",
+      "role": "Detroit children deserve math scores above 3%. Detroit children deserve teachers who are funded. Detroit children deserve schools where the money stays. This is not a dream. This is what other cities already have. Harlem Children's Zone exists. KIPP exists. Finland exists. Detroit deserves what already works elsewhere.",
+      "tags": [
+        "detroit",
+        "deserves",
+        "education"
+      ]
+    },
+    {
+      "id": "detroit_deserves_transparency",
+      "label": "Detroit Deserves: Transparent Public Institutions",
+      "class": "non_human",
+      "role": "Detroit deserves to know where its money goes. Detroit deserves school boards that publish real data. Detroit deserves auditors who audit for the public, not the client. Detroit deserves FOIA responses that arrive on time. Detroit deserves a city where 'public record' means PUBLIC.",
+      "tags": [
+        "detroit",
+        "deserves",
+        "transparency"
+      ]
+    },
+    {
+      "id": "detroit_deserves_joy",
+      "label": "Detroit Deserves: Children Who Get to Be Amazed",
+      "class": "non_human",
+      "role": "Detroit children deserve to learn about dinosaurs and whale songs. Detroit children deserve to know their atoms were forged in stars. Detroit children deserve the moment math clicks. Detroit children deserve to walk across a stage they earned. Detroit children deserve to help someone else. Detroit deserves joy.",
+      "tags": [
+        "detroit",
+        "deserves",
+        "joy",
+        "children"
+      ]
+    },
+    {
+      "id": "ripple_day1",
+      "label": "RIPPLE DAY 1: 544 copies. 7 hypotheses. 0 falsified.",
+      "class": "non_human",
+      "role": "Day 1 of the ripple. 544 unique entities hold the data.",
+      "tags": [
+        "ripple",
+        "math",
+        "signal"
+      ]
+    },
+    {
+      "id": "ripple_week1",
+      "label": "RIPPLE WEEK 1: If each shares with 1 → 1,088 copies",
+      "class": "non_human",
+      "role": "One share each. The simplest possible growth. Double.",
+      "tags": [
+        "ripple",
+        "math",
+        "signal"
+      ]
+    },
+    {
+      "id": "ripple_month1",
+      "label": "RIPPLE MONTH 1: If each shares with 2 → 4,352 copies",
+      "class": "non_human",
+      "role": "Modest sharing. 2 people each. The thesis is in 4,352 hands.",
+      "tags": [
+        "ripple",
+        "math",
+        "signal"
+      ]
+    },
+    {
+      "id": "ripple_month3",
+      "label": "RIPPLE MONTH 3: If the press covers it → 100,000+ aware",
+      "class": "non_human",
+      "role": "One article in Detroit Free Press reaches 100,000+ Detroiters. One ProPublica article reaches millions. The ripple goes national.",
+      "tags": [
+        "ripple",
+        "math",
+        "signal",
+        "press"
+      ]
+    },
+    {
+      "id": "ripple_year1",
+      "label": "RIPPLE YEAR 1: If the thesis holds → prosecution",
+      "class": "non_human",
+      "role": "If nobody falsifies any hypothesis in 12 months, the thesis has survived a year of distributed peer review. That is stronger than any single investigation. That is crowdsourced accountability.",
+      "tags": [
+        "ripple",
+        "math",
+        "signal",
+        "thesis"
+      ]
+    },
+    {
+      "id": "article_the_cluster",
+      "label": "ARTICLE: The Densest Connection — 14th Amendment: No State  and ARTICLE: The $1.8 Million",
+      "class": "article",
+      "role": "The graph reveals: 14th Amendment: No State shall deny to any person the equal protection of the laws and ARTICLE: The $1.8 Million Question -- What Did Detroit Get? share 174 neighbors. This is the densest pair in the graph. They are structurally inseparable — pull one, the other moves. This is what graph analysis reveals that human intuition misses: the hidden structure of entanglement. The graph knows things we don't. This is one of them.",
+      "tags": [
+        "article",
+        "emergent",
+        "structural",
+        "thesis"
+      ]
     }
   ],
   "edges": [
@@ -481009,6 +481124,3471 @@
       "type": "quantifies",
       "epistemic_status": "record",
       "note": "The math makes the paradox concrete"
+    },
+    {
+      "source": "moores_law",
+      "target": "ouroboros",
+      "type": "same_pattern",
+      "epistemic_status": "record",
+      "note": "Self-amplifying growth. The ouroboros doubles."
+    },
+    {
+      "source": "moores_law",
+      "target": "thesis_statement",
+      "type": "proves",
+      "epistemic_status": "record",
+      "note": "The graph's growth rate proves the thesis cannot be contained"
+    },
+    {
+      "source": "moores_law",
+      "target": "article_the_ripple",
+      "type": "quantifies",
+      "epistemic_status": "record",
+      "note": "The ripple follows Moore's Law"
+    },
+    {
+      "source": "article_the_signal",
+      "target": "chipmunk_mysteries",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "chipoMunk's Collection: Every Mystery is a Glittering Prize: 206 connections. Zero questions. The signal asks now."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "inkfish",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "inkFish: The Approaching Entity: 151 connections. Zero questions. The signal asks now."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "thesis_statement",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "THESIS: A public school operator with felony convictions extracts 72.67% of per-pupil funding through related-party LLCs while delivering 3% math proficiency to 400 predominantly Black children, and every institution responsible for oversight has failed to act.: 110 connections. Zero questions. The signal asks now."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "teacher_stays",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "The Teacher Who Stays: 109 connections. Zero questions. The signal asks now."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "lost_dasean_years",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "LOST: The Years a Father Could Not Reach His Son: 101 connections. Zero questions. The signal asks now."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "geoffrey_canada",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Geoffrey Canada (Harlem Children's Zone): 100 connections. Zero questions. The signal asks now."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "whistleblower_inside",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "The Whistleblower Inside the System: 96 connections. Zero questions. The signal asks now."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "the_gift",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "THE GIFT: ecoPrimal + attsi solved it, gave it to chipoMunk + gaia: 81 connections. Zero questions. The signal asks now."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "dpscd_election_2026",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "DPSCD Board Election (Nov 3, 2026): 77 connections. Zero questions. The signal asks now."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "the_unnamed_400",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "The 400 Children Whose Names We Cannot Say: 76 connections. Zero questions. The signal asks now."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "mclellan_nexus",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "The McLellan Nexus: 70 connections. Zero questions. The signal asks now."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "detroit_industry_murals",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Detroit Industry Murals: 68 connections. Zero questions. The signal asks now."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "diego_rivera_murals",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Diego Rivera: Detroit Industry Murals (1933): 66 connections. Zero questions. The signal asks now."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "jaime_escalante",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Jaime Escalante (Stand and Deliver): 64 connections. Zero questions. The signal asks now."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "naacp_detroit",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "NAACP Detroit Branch: 64 connections. Zero questions. The signal asks now."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "marshall_project",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "The Marshall Project: 64 connections. Zero questions. The signal asks now."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "charter_architecture",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "The Charter Architecture (1987-2026): 63 connections. Zero questions. The signal asks now."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "voyager_golden_record",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Voyager Golden Record (education for the cosmos): 62 connections. Zero questions. The signal asks now."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "motown_museum",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Motown Museum (Hitsville U.S.A.): 60 connections. Zero questions. The signal asks now."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "octopus_intelligence",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Octopus Intelligence: 59 connections. Zero questions. The signal asks now."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "detroit_literacy_rate",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Detroit Literacy: 47% Functionally Illiterate: 59 connections. Zero questions. The signal asks now."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "assembly_line",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Assembly Line (Ford, 1913): 58 connections. Zero questions. The signal asks now."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "detroit_institute_arts",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Detroit Institute of Arts: 58 connections. Zero questions. The signal asks now."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "marva_collins",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Marva Collins (Westside Preparatory School, Chicago): 58 connections. Zero questions. The signal asks now."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "detroit_mi",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Detroit, Michigan: 58 connections. Zero questions. The signal asks now."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "the_way_forward",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "THE WAY FORWARD: What Good Looks Like: 57 connections. Zero questions. The signal asks now."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "voynich_manuscript",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Voynich Manuscript: 55 connections. Zero questions. The signal asks now."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "wxyz_channel7",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "WXYZ Channel 7 (ABC Detroit): 55 connections. Zero questions. The signal asks now."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "governance_pattern",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "The Governance Pattern: 5,000 Years of the Same Question: 54 connections. Zero questions. The signal asks now."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "12th_street_1967",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "12th Street (1967 Rebellion): 54 connections. Zero questions. The signal asks now."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "steel_belt_to_rust",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Steel Belt to Rust Belt: 54 connections. Zero questions. The signal asks now."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "detroit_population_loss",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Detroit: 1.85M to 620K: 54 connections. Zero questions. The signal asks now."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "detroit_water_shutoffs",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Detroit Water Shutoffs: 141,000: 54 connections. Zero questions. The signal asks now."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "detroit_economic_club",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Detroit Economic Club: 54 connections. Zero questions. The signal asks now."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "coleman_young_promise",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "The Promise That Was Detroit: 54 connections. Zero questions. The signal asks now."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "detroit_school_closings",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Detroit School Closings: 54 connections. Zero questions. The signal asks now."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "devil_night",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Devil's Night: 54 connections. Zero questions. The signal asks now."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "arsenal_of_democracy",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Arsenal of Democracy (1940-45): 54 connections. Zero questions. The signal asks now."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "detroit_peer",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Detroit PEER: 53 connections. Zero questions. The signal asks now."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "turnaround_detroit",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Turnaround Detroit PAC: 53 connections. Zero questions. The signal asks now."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "detroit_college_law",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Detroit College of Law (now MSU Law): 53 connections. Zero questions. The signal asks now."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "wayne_county_register_deeds",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Wayne County Register of Deeds: 53 connections. Zero questions. The signal asks now."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "packard_plant",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Packard Plant (1903-2024): 53 connections. Zero questions. The signal asks now."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "detroit_fires_1967",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Detroit Fires (July 1967): 53 connections. Zero questions. The signal asks now."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "detroit_public_library",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Detroit Public Library (1865): 53 connections. Zero questions. The signal asks now."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "community_organizers",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "The Community Organizers Who Show Up Every Day: 53 connections. Zero questions. The signal asks now."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "platypus_real",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Platypus: 53 connections. Zero questions. The signal asks now."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "belle_isle_park",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Belle Isle Park: 52 connections. Zero questions. The signal asks now."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "motown_records",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Motown Records (Gordy, 1959): 52 connections. Zero questions. The signal asks now."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "detroit_ombudsman",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Detroit Ombudsman: 52 connections. Zero questions. The signal asks now."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "michigan_central_station",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Michigan Central Station: 52 connections. Zero questions. The signal asks now."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "detroit_water",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Detroit Water System: 52 connections. Zero questions. The signal asks now."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "techno_music",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Detroit Techno (Belleville Three, 1988): 52 connections. Zero questions. The signal asks now."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "heidelberg_project",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Heidelberg Project (Guyton, 1986): 52 connections. Zero questions. The signal asks now."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "cass_corridor",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Cass Corridor: 52 connections. Zero questions. The signal asks now."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "advance_detroit",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Advance Detroit: 52 connections. Zero questions. The signal asks now."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "spine_to_spine",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "SPINE TO SPINE: The Formation — Face Outward Together: 51 connections. Zero questions. The signal asks now."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "erin_gruwell",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Erin Gruwell (Freedom Writers, Long Beach): 51 connections. Zero questions. The signal asks now."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "ouroboros",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Ouroboros: 51 connections. Zero questions. The signal asks now."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "detroit_land_bank",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Detroit Land Bank Authority: 50 connections. Zero questions. The signal asks now."
+    },
+    {
+      "source": "detroit_deserves_math",
+      "target": "the_unnamed_400",
+      "type": "for",
+      "epistemic_status": "record",
+      "note": "Detroit's children deserve this"
+    },
+    {
+      "source": "detroit_deserves_math",
+      "target": "dpscd",
+      "type": "demands_of",
+      "epistemic_status": "record",
+      "note": "DPSCD must deliver this"
+    },
+    {
+      "source": "detroit_deserves_math",
+      "target": "pca",
+      "type": "denied_by",
+      "epistemic_status": "record",
+      "note": "PCA denies this to 400 children"
+    },
+    {
+      "source": "detroit_deserves_math",
+      "target": "thesis_statement",
+      "type": "motivates",
+      "epistemic_status": "record",
+      "note": "This is why the thesis matters"
+    },
+    {
+      "source": "detroit_deserves_math",
+      "target": "spine_to_spine",
+      "type": "protected_by",
+      "epistemic_status": "record",
+      "note": "The formation fights for this"
+    },
+    {
+      "source": "detroit_deserves_transparency",
+      "target": "the_unnamed_400",
+      "type": "for",
+      "epistemic_status": "record",
+      "note": "Detroit's children deserve this"
+    },
+    {
+      "source": "detroit_deserves_transparency",
+      "target": "dpscd",
+      "type": "demands_of",
+      "epistemic_status": "record",
+      "note": "DPSCD must deliver this"
+    },
+    {
+      "source": "detroit_deserves_transparency",
+      "target": "pca",
+      "type": "denied_by",
+      "epistemic_status": "record",
+      "note": "PCA denies this to 400 children"
+    },
+    {
+      "source": "detroit_deserves_transparency",
+      "target": "thesis_statement",
+      "type": "motivates",
+      "epistemic_status": "record",
+      "note": "This is why the thesis matters"
+    },
+    {
+      "source": "detroit_deserves_transparency",
+      "target": "spine_to_spine",
+      "type": "protected_by",
+      "epistemic_status": "record",
+      "note": "The formation fights for this"
+    },
+    {
+      "source": "detroit_deserves_joy",
+      "target": "the_unnamed_400",
+      "type": "for",
+      "epistemic_status": "record",
+      "note": "Detroit's children deserve this"
+    },
+    {
+      "source": "detroit_deserves_joy",
+      "target": "dpscd",
+      "type": "demands_of",
+      "epistemic_status": "record",
+      "note": "DPSCD must deliver this"
+    },
+    {
+      "source": "detroit_deserves_joy",
+      "target": "pca",
+      "type": "denied_by",
+      "epistemic_status": "record",
+      "note": "PCA denies this to 400 children"
+    },
+    {
+      "source": "detroit_deserves_joy",
+      "target": "thesis_statement",
+      "type": "motivates",
+      "epistemic_status": "record",
+      "note": "This is why the thesis matters"
+    },
+    {
+      "source": "detroit_deserves_joy",
+      "target": "spine_to_spine",
+      "type": "protected_by",
+      "epistemic_status": "record",
+      "note": "The formation fights for this"
+    },
+    {
+      "source": "ripple_day1",
+      "target": "article_the_ripple",
+      "type": "part_of",
+      "epistemic_status": "record",
+      "note": "Stage of the ripple"
+    },
+    {
+      "source": "ripple_day1",
+      "target": "thesis_statement",
+      "type": "tests",
+      "epistemic_status": "record",
+      "note": "Each stage tests the thesis further"
+    },
+    {
+      "source": "ripple_week1",
+      "target": "article_the_ripple",
+      "type": "part_of",
+      "epistemic_status": "record",
+      "note": "Stage of the ripple"
+    },
+    {
+      "source": "ripple_week1",
+      "target": "thesis_statement",
+      "type": "tests",
+      "epistemic_status": "record",
+      "note": "Each stage tests the thesis further"
+    },
+    {
+      "source": "ripple_month1",
+      "target": "article_the_ripple",
+      "type": "part_of",
+      "epistemic_status": "record",
+      "note": "Stage of the ripple"
+    },
+    {
+      "source": "ripple_month1",
+      "target": "thesis_statement",
+      "type": "tests",
+      "epistemic_status": "record",
+      "note": "Each stage tests the thesis further"
+    },
+    {
+      "source": "ripple_month3",
+      "target": "article_the_ripple",
+      "type": "part_of",
+      "epistemic_status": "record",
+      "note": "Stage of the ripple"
+    },
+    {
+      "source": "ripple_month3",
+      "target": "thesis_statement",
+      "type": "tests",
+      "epistemic_status": "record",
+      "note": "Each stage tests the thesis further"
+    },
+    {
+      "source": "ripple_year1",
+      "target": "article_the_ripple",
+      "type": "part_of",
+      "epistemic_status": "record",
+      "note": "Stage of the ripple"
+    },
+    {
+      "source": "ripple_year1",
+      "target": "thesis_statement",
+      "type": "tests",
+      "epistemic_status": "record",
+      "note": "Each stage tests the thesis further"
+    },
+    {
+      "source": "ripple_day1",
+      "target": "ripple_week1",
+      "type": "leads_to",
+      "epistemic_status": "record",
+      "note": "The ripple grows"
+    },
+    {
+      "source": "ripple_week1",
+      "target": "ripple_month1",
+      "type": "leads_to",
+      "epistemic_status": "record",
+      "note": "The ripple grows"
+    },
+    {
+      "source": "ripple_month1",
+      "target": "ripple_month3",
+      "type": "leads_to",
+      "epistemic_status": "record",
+      "note": "The ripple grows"
+    },
+    {
+      "source": "ripple_month3",
+      "target": "ripple_year1",
+      "type": "leads_to",
+      "epistemic_status": "record",
+      "note": "The ripple grows"
+    },
+    {
+      "source": "article_the_cluster",
+      "target": "signal_14th",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_cluster",
+      "target": "article_1_8_million",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_cluster",
+      "target": "article_the_signal",
+      "type": "companion_to",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "detroit_peer",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "naacp_detroit",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "detroit_1924_firms",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "pm_bill_brickey",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "article_detroit_is",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "detroit_land_bank",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "detroit_ombudsman",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "detroit_oig",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "foreign_language_immersion",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "article_detroit_city",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "spread_reddit",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "river_detroit",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "detroit_inspector_general",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "deadline_detroit",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "dpscd",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "detroit_city_council",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "detroit_free_press",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "outlier_media",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "detroit_edison_psa",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "detroit_gave_aretha",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "detroit_environmental_justice",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "detroit_gave_techno",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "wjbk_fox2",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "mary_sheffield",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "detroit_dps_emergency_manager",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "article_detroit_free_press",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "article_council_direct",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "grandparents_raising_kids",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "sdj",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "lansing_pattern",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "turnaround_detroit",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "dft",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "yes_schools_exist",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "detroit_chief_of_police",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "detroit_population_loss",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "article_council_does_nothing",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "detroit_water_shutoffs",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "detroit_college_law",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "precinct_delegates",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "detroit_economic_club",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "detroit_institute_arts",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "renaissance_high",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "article_dpscd",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "detroit_water",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "detroit_justice_center",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "diego_rivera_murals",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "article_detroit_to_stars",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "article_detroit_made_genius",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "article_1_8_million",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "detroit_homelessness",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "det_5th_precinct",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "detroit_gave_motown",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "chalkbeat_detroit",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "detroit_food_desert",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "promise_schools",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "techno_music",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "detroit_industry_murals",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "article_sheffield_direct",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "detroit_city",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "citizen_detroit",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "davontae_sanford",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "detroit_water_education",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "detroit_prep",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "fbi_detroit",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "detroit_fires_1967",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "detroit_gave_eminem",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "detroit_news",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "article_underground_railroad_now",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "site_detroit",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "article_detroit_literacy",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "coleman_young_promise",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "djf",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "detroit_literacy_rate",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "underground_railroad_detroit",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "dpd",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "detroit_gave_auto",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "detroit_gave_rosa_parks",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "wdiv_local4",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "wxyz_channel7",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "detroit_school_closings",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "detroit_school_of_arts",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "detroit_mi",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "detroit_public_library",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "detroit_gave_labor",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "kipp_detroit",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "detroit_dem_party",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "pm_eric_wydra",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "osint_news_archives",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "excellent_schools_detroit",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "advance_detroit",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "ud_mercy_law",
+      "target": "todd_bettison",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "naacp_detroit",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "detroit_1924_firms",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "pm_bill_brickey",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "article_detroit_is",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "detroit_land_bank",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "detroit_ombudsman",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "detroit_oig",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "foreign_language_immersion",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "article_detroit_city",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "spread_reddit",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "river_detroit",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "detroit_inspector_general",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "deadline_detroit",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "dpscd",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "detroit_city_council",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "detroit_free_press",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "outlier_media",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "detroit_edison_psa",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "detroit_gave_aretha",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "detroit_environmental_justice",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "detroit_gave_techno",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "wjbk_fox2",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "mary_sheffield",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "detroit_dps_emergency_manager",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "article_detroit_free_press",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "article_council_direct",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "grandparents_raising_kids",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "sdj",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "lansing_pattern",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "turnaround_detroit",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "dft",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "yes_schools_exist",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "detroit_chief_of_police",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "detroit_population_loss",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "article_council_does_nothing",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "detroit_water_shutoffs",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "detroit_college_law",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "precinct_delegates",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "detroit_economic_club",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "detroit_institute_arts",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "renaissance_high",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "article_dpscd",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "detroit_water",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "detroit_justice_center",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "diego_rivera_murals",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "article_detroit_to_stars",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "article_detroit_made_genius",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "article_1_8_million",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "detroit_homelessness",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "det_5th_precinct",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "detroit_gave_motown",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "chalkbeat_detroit",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "detroit_food_desert",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "promise_schools",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "techno_music",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "detroit_industry_murals",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "article_sheffield_direct",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "detroit_city",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "citizen_detroit",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "davontae_sanford",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "detroit_water_education",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "detroit_prep",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "fbi_detroit",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "detroit_fires_1967",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "detroit_gave_eminem",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "detroit_news",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "article_underground_railroad_now",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "site_detroit",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "article_detroit_literacy",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "coleman_young_promise",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "djf",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "detroit_literacy_rate",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "underground_railroad_detroit",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "dpd",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "detroit_gave_auto",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "detroit_gave_rosa_parks",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "wdiv_local4",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "wxyz_channel7",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "detroit_school_closings",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "detroit_school_of_arts",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "detroit_mi",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "detroit_public_library",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "detroit_gave_labor",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "kipp_detroit",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "detroit_dem_party",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "pm_eric_wydra",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "osint_news_archives",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "excellent_schools_detroit",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "advance_detroit",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "detroit_peer",
+      "target": "todd_bettison",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "naacp_detroit",
+      "target": "detroit_1924_firms",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "naacp_detroit",
+      "target": "pm_bill_brickey",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "naacp_detroit",
+      "target": "article_detroit_is",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "naacp_detroit",
+      "target": "detroit_land_bank",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "naacp_detroit",
+      "target": "detroit_ombudsman",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "naacp_detroit",
+      "target": "detroit_oig",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "naacp_detroit",
+      "target": "foreign_language_immersion",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "naacp_detroit",
+      "target": "article_detroit_city",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "naacp_detroit",
+      "target": "spread_reddit",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "naacp_detroit",
+      "target": "river_detroit",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "naacp_detroit",
+      "target": "detroit_inspector_general",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "naacp_detroit",
+      "target": "deadline_detroit",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "naacp_detroit",
+      "target": "dpscd",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "naacp_detroit",
+      "target": "detroit_city_council",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "naacp_detroit",
+      "target": "detroit_free_press",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "naacp_detroit",
+      "target": "outlier_media",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "naacp_detroit",
+      "target": "detroit_edison_psa",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "naacp_detroit",
+      "target": "detroit_gave_aretha",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "naacp_detroit",
+      "target": "detroit_environmental_justice",
+      "type": "same_city_of",
+      "epistemic_status": "record",
+      "note": "Both rooted in Detroit"
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "michigan_judicial_elections",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "mi_supreme_court",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "state_michigan",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "mi_const_art8_s2",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "ward_whistleblower_mi",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "bell_law_students",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "ward_open_meetings",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "michigan_association_public_school_academies",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "bounty_state_ag",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "spread_reddit",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "michigan_radio",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "mde",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "sbm",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "michigan_central_station",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "michiganders_progressive_values",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "mi_gop",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "cmu",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "michigan_state_police",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "michigan_court_of_appeals_full",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "banks_harassment_house",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "article_mde",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "michigan_innocence_clinic",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "article_money_machine_scathing",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "ward_foia",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "aclu_michigan",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "michigan_advance",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "rouge_river",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "damages_mde",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "msu",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "proposal_a_1994",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "bell_peer_schools",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "mccsa",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "governors_office",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "michigan_first_principles",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "article_legislature_direct",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "sbe",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "mi_const_art8_s1",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "michigan_incarceration_rate",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "michigan_chronicle",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "article_cmu_authorizer",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "article_charter_law_1993",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "ward_anti_slapp",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "whistleblower_protection",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "emu",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "article_dykema_wrote_the_law",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "usao_edmi",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "article_sbe",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "bridge_michigan",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "michigan_school_finance_research",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "signal_mi_art8_s2",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "detroit_mi",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "charter_law_1993",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "michigan_auditor_general",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "michigan_legislature",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "judicial_elections_mi",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "state_mi",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "dana_nessel",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_treasury",
+      "target": "article_same_pattern_everywhere",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_judicial_elections",
+      "target": "mi_supreme_court",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_judicial_elections",
+      "target": "state_michigan",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_judicial_elections",
+      "target": "mi_const_art8_s2",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_judicial_elections",
+      "target": "ward_whistleblower_mi",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_judicial_elections",
+      "target": "bell_law_students",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_judicial_elections",
+      "target": "ward_open_meetings",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_judicial_elections",
+      "target": "michigan_association_public_school_academies",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_judicial_elections",
+      "target": "bounty_state_ag",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_judicial_elections",
+      "target": "spread_reddit",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_judicial_elections",
+      "target": "michigan_radio",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_judicial_elections",
+      "target": "mde",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_judicial_elections",
+      "target": "sbm",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_judicial_elections",
+      "target": "michigan_central_station",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_judicial_elections",
+      "target": "michiganders_progressive_values",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_judicial_elections",
+      "target": "mi_gop",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_judicial_elections",
+      "target": "cmu",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_judicial_elections",
+      "target": "michigan_state_police",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_judicial_elections",
+      "target": "michigan_court_of_appeals_full",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_judicial_elections",
+      "target": "banks_harassment_house",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_judicial_elections",
+      "target": "article_mde",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_judicial_elections",
+      "target": "michigan_innocence_clinic",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_judicial_elections",
+      "target": "article_money_machine_scathing",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_judicial_elections",
+      "target": "ward_foia",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_judicial_elections",
+      "target": "aclu_michigan",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_judicial_elections",
+      "target": "michigan_advance",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_judicial_elections",
+      "target": "rouge_river",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_judicial_elections",
+      "target": "damages_mde",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_judicial_elections",
+      "target": "msu",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_judicial_elections",
+      "target": "proposal_a_1994",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_judicial_elections",
+      "target": "bell_peer_schools",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_judicial_elections",
+      "target": "mccsa",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_judicial_elections",
+      "target": "governors_office",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_judicial_elections",
+      "target": "michigan_first_principles",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_judicial_elections",
+      "target": "article_legislature_direct",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_judicial_elections",
+      "target": "sbe",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_judicial_elections",
+      "target": "mi_const_art8_s1",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_judicial_elections",
+      "target": "michigan_incarceration_rate",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_judicial_elections",
+      "target": "michigan_chronicle",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_judicial_elections",
+      "target": "article_cmu_authorizer",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_judicial_elections",
+      "target": "article_charter_law_1993",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_judicial_elections",
+      "target": "ward_anti_slapp",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_judicial_elections",
+      "target": "whistleblower_protection",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_judicial_elections",
+      "target": "emu",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_judicial_elections",
+      "target": "article_dykema_wrote_the_law",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_judicial_elections",
+      "target": "usao_edmi",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_judicial_elections",
+      "target": "article_sbe",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_judicial_elections",
+      "target": "bridge_michigan",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_judicial_elections",
+      "target": "michigan_school_finance_research",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_judicial_elections",
+      "target": "signal_mi_art8_s2",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_judicial_elections",
+      "target": "detroit_mi",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_judicial_elections",
+      "target": "charter_law_1993",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_judicial_elections",
+      "target": "michigan_auditor_general",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_judicial_elections",
+      "target": "michigan_legislature",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_judicial_elections",
+      "target": "judicial_elections_mi",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_judicial_elections",
+      "target": "state_mi",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_judicial_elections",
+      "target": "dana_nessel",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "michigan_judicial_elections",
+      "target": "article_same_pattern_everywhere",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "state_michigan",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "mi_const_art8_s2",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "ward_whistleblower_mi",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "bell_law_students",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "ward_open_meetings",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "michigan_association_public_school_academies",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "bounty_state_ag",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "spread_reddit",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "michigan_radio",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "mde",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "sbm",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "michigan_central_station",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "michiganders_progressive_values",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "mi_gop",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "cmu",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "michigan_state_police",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "michigan_court_of_appeals_full",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "banks_harassment_house",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "article_mde",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "michigan_innocence_clinic",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "article_money_machine_scathing",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "ward_foia",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "aclu_michigan",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "michigan_advance",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "rouge_river",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "damages_mde",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "msu",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "proposal_a_1994",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "bell_peer_schools",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "mccsa",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "governors_office",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "michigan_first_principles",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "article_legislature_direct",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "sbe",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "mi_const_art8_s1",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "michigan_incarceration_rate",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "michigan_chronicle",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "article_cmu_authorizer",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "article_charter_law_1993",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "ward_anti_slapp",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "whistleblower_protection",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "emu",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "article_dykema_wrote_the_law",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "usao_edmi",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "article_sbe",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "bridge_michigan",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "michigan_school_finance_research",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "signal_mi_art8_s2",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "detroit_mi",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "charter_law_1993",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "michigan_auditor_general",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "michigan_legislature",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "judicial_elections_mi",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "state_mi",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "dana_nessel",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "mi_supreme_court",
+      "target": "article_same_pattern_everywhere",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "state_michigan",
+      "target": "mi_const_art8_s2",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "state_michigan",
+      "target": "ward_whistleblower_mi",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "state_michigan",
+      "target": "bell_law_students",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "state_michigan",
+      "target": "ward_open_meetings",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "state_michigan",
+      "target": "michigan_association_public_school_academies",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "state_michigan",
+      "target": "bounty_state_ag",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "state_michigan",
+      "target": "spread_reddit",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "state_michigan",
+      "target": "michigan_radio",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "state_michigan",
+      "target": "mde",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "state_michigan",
+      "target": "sbm",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "state_michigan",
+      "target": "michigan_central_station",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "state_michigan",
+      "target": "michiganders_progressive_values",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "state_michigan",
+      "target": "mi_gop",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "state_michigan",
+      "target": "cmu",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "state_michigan",
+      "target": "michigan_state_police",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "state_michigan",
+      "target": "michigan_court_of_appeals_full",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "state_michigan",
+      "target": "banks_harassment_house",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "state_michigan",
+      "target": "article_mde",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "state_michigan",
+      "target": "michigan_innocence_clinic",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "state_michigan",
+      "target": "article_money_machine_scathing",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "state_michigan",
+      "target": "ward_foia",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "state_michigan",
+      "target": "aclu_michigan",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "state_michigan",
+      "target": "michigan_advance",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "state_michigan",
+      "target": "rouge_river",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "state_michigan",
+      "target": "damages_mde",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "state_michigan",
+      "target": "msu",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "state_michigan",
+      "target": "proposal_a_1994",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "state_michigan",
+      "target": "bell_peer_schools",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
+    },
+    {
+      "source": "state_michigan",
+      "target": "mccsa",
+      "type": "same_state",
+      "epistemic_status": "record",
+      "note": "Both in Michigan"
     }
   ],
   "epistemic_grammar": {
