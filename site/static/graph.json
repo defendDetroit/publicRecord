@@ -192174,6 +192174,482 @@
       "type": "asks_directly",
       "epistemic_status": "record",
       "note": "PA 362 gave CMU authorizer power"
+    },
+    {
+      "source": "banks",
+      "target": "pca",
+      "type": "criminal_record",
+      "epistemic_status": "record",
+      "note": "Banks has 9 convictions and operates PCA"
+    },
+    {
+      "source": "banks",
+      "target": "purpose_foundation",
+      "type": "criminal_record",
+      "epistemic_status": "record",
+      "note": "Banks runs Purpose Foundation with 9 convictions"
+    },
+    {
+      "source": "joseph_holland",
+      "target": "pca",
+      "type": "criminal_record",
+      "epistemic_status": "record",
+      "note": "Holland is convicted narcotics trafficker and PCA treasurer"
+    },
+    {
+      "source": "joseph_holland",
+      "target": "purpose_foundation",
+      "type": "criminal_record",
+      "epistemic_status": "record",
+      "note": "Narcotics trafficker as treasurer"
+    },
+    {
+      "source": "cmu",
+      "target": "banks",
+      "type": "background_check",
+      "epistemic_status": "record",
+      "note": "CMU authorized Banks -- did they run a background check?"
+    },
+    {
+      "source": "mde",
+      "target": "banks",
+      "type": "background_check",
+      "epistemic_status": "record",
+      "note": "MDE oversees charters -- did they check Banks?"
+    },
+    {
+      "source": "dpscd",
+      "target": "banks",
+      "type": "background_check",
+      "epistemic_status": "record",
+      "note": "DPSCD -- did they check Banks?"
+    },
+    {
+      "source": "plante_moran",
+      "target": "purpose_foundation",
+      "type": "financial_data",
+      "epistemic_status": "record",
+      "note": "PM audits Purpose Foundation finances"
+    },
+    {
+      "source": "plante_moran",
+      "target": "pca",
+      "type": "financial_data",
+      "epistemic_status": "record",
+      "note": "PM audits PCA finances"
+    },
+    {
+      "source": "purpose_foundation",
+      "target": "irs_tax_exempt",
+      "type": "financial_data",
+      "epistemic_status": "record",
+      "note": "Purpose Foundation 990 filings"
+    },
+    {
+      "source": "plante_moran",
+      "target": "pca",
+      "type": "audit_finding",
+      "epistemic_status": "record",
+      "note": "PM audit findings for PCA"
+    },
+    {
+      "source": "wayne_resa_audit",
+      "target": "pca",
+      "type": "audit_finding",
+      "epistemic_status": "record",
+      "note": "Wayne RESA audit findings"
+    },
+    {
+      "source": "purpose_foundation",
+      "target": "osint_propublica_nonprofit",
+      "type": "tax_filing",
+      "epistemic_status": "record",
+      "note": "EIN 39-3159535 on ProPublica"
+    },
+    {
+      "source": "walton_family_foundation",
+      "target": "afc",
+      "type": "campaign_donation",
+      "epistemic_status": "record",
+      "note": "Walton funds AFC"
+    },
+    {
+      "source": "koch_network",
+      "target": "mackinac_center",
+      "type": "campaign_donation",
+      "epistemic_status": "record",
+      "note": "Koch funds Mackinac"
+    },
+    {
+      "source": "kevin_mok",
+      "target": "banks",
+      "type": "lawsuit",
+      "epistemic_status": "record",
+      "note": "Case 2026-4301-CZ Ingham County"
+    },
+    {
+      "source": "pca",
+      "target": "purpose_group",
+      "type": "contract",
+      "epistemic_status": "record",
+      "note": "PCA contracts with Purpose Group for management"
+    },
+    {
+      "source": "pca",
+      "target": "plante_moran",
+      "type": "contract",
+      "epistemic_status": "record",
+      "note": "PCA contracts PM for auditing"
+    },
+    {
+      "source": "banks",
+      "target": "ppo_hearing_banks",
+      "type": "evidence_chain",
+      "epistemic_status": "record",
+      "note": "Banks claims video evidence at PPO hearing"
+    },
+    {
+      "source": "dede_banks",
+      "target": "ppo_hearing_banks",
+      "type": "evidence_chain",
+      "epistemic_status": "record",
+      "note": "Dede contradicts Banks on video"
+    },
+    {
+      "source": "banks",
+      "target": "false_reports_banks_smith",
+      "type": "evidence_chain",
+      "epistemic_status": "record",
+      "note": "Banks filed false reports"
+    },
+    {
+      "source": "banks",
+      "target": "banks_harassment_house",
+      "type": "evidence_chain",
+      "epistemic_status": "record",
+      "note": "Banks harassed House aide"
+    },
+    {
+      "source": "joseph_holland",
+      "target": "severn_address",
+      "type": "evidence_chain",
+      "epistemic_status": "record",
+      "note": "Holland lives at Severn front"
+    },
+    {
+      "source": "inside_mde_compliance",
+      "target": "whistleblower_protection",
+      "type": "whistleblower",
+      "epistemic_status": "record",
+      "note": "MDE insider protected"
+    },
+    {
+      "source": "inside_ag_investigator",
+      "target": "whistleblower_protection",
+      "type": "whistleblower",
+      "epistemic_status": "record",
+      "note": "AG insider protected"
+    },
+    {
+      "source": "inside_dpscd_analyst",
+      "target": "whistleblower_protection",
+      "type": "whistleblower",
+      "epistemic_status": "record",
+      "note": "DPSCD insider protected"
+    },
+    {
+      "source": "shayla_smith",
+      "target": "pca",
+      "type": "parent_complaint",
+      "epistemic_status": "record",
+      "note": "Smith parent chose enrollment despite evidence"
+    },
+    {
+      "source": "article_yeah_you_parent",
+      "target": "pca",
+      "type": "parent_complaint",
+      "epistemic_status": "record",
+      "note": "Parents should file complaints about PCA"
+    },
+    {
+      "source": "nikolai_vitti",
+      "target": "dpscd",
+      "type": "salary",
+      "epistemic_status": "record",
+      "note": "Vitti: $280,000+/year"
+    },
+    {
+      "source": "dana_nessel",
+      "target": "agc",
+      "type": "salary",
+      "epistemic_status": "record",
+      "note": "Nessel: $159,300/year"
+    },
+    {
+      "source": "kevin_mok",
+      "target": "jtc",
+      "type": "filed_complaint",
+      "epistemic_status": "record",
+      "note": "Kevin filed JTC complaint"
+    },
+    {
+      "source": "brennan_center",
+      "target": "pca",
+      "type": "should_investigate",
+      "epistemic_status": "record",
+      "note": "brennan_center should investigate PCA"
+    },
+    {
+      "source": "brennan_center",
+      "target": "banks",
+      "type": "should_answer",
+      "epistemic_status": "record",
+      "note": "brennan_center should ask Banks"
+    },
+    {
+      "source": "brennan_center",
+      "target": "damages_chain",
+      "type": "legal_support",
+      "epistemic_status": "record",
+      "note": "Potential legal support for damages"
+    },
+    {
+      "source": "detroit_justice_center",
+      "target": "pca",
+      "type": "should_investigate",
+      "epistemic_status": "record",
+      "note": "detroit_justice_center should investigate PCA"
+    },
+    {
+      "source": "detroit_justice_center",
+      "target": "banks",
+      "type": "should_answer",
+      "epistemic_status": "record",
+      "note": "detroit_justice_center should ask Banks"
+    },
+    {
+      "source": "detroit_justice_center",
+      "target": "damages_chain",
+      "type": "legal_support",
+      "epistemic_status": "record",
+      "note": "Potential legal support for damages"
+    },
+    {
+      "source": "lawyers_committee_civil_rights",
+      "target": "pca",
+      "type": "should_investigate",
+      "epistemic_status": "record",
+      "note": "lawyers_committee_civil_rights should investigate PCA"
+    },
+    {
+      "source": "lawyers_committee_civil_rights",
+      "target": "banks",
+      "type": "should_answer",
+      "epistemic_status": "record",
+      "note": "lawyers_committee_civil_rights should ask Banks"
+    },
+    {
+      "source": "lawyers_committee_civil_rights",
+      "target": "damages_chain",
+      "type": "legal_support",
+      "epistemic_status": "record",
+      "note": "Potential legal support for damages"
+    },
+    {
+      "source": "southern_poverty_law",
+      "target": "pca",
+      "type": "should_investigate",
+      "epistemic_status": "record",
+      "note": "southern_poverty_law should investigate PCA"
+    },
+    {
+      "source": "southern_poverty_law",
+      "target": "banks",
+      "type": "should_answer",
+      "epistemic_status": "record",
+      "note": "southern_poverty_law should ask Banks"
+    },
+    {
+      "source": "southern_poverty_law",
+      "target": "damages_chain",
+      "type": "legal_support",
+      "epistemic_status": "record",
+      "note": "Potential legal support for damages"
+    },
+    {
+      "source": "sugar_law_center",
+      "target": "pca",
+      "type": "should_investigate",
+      "epistemic_status": "record",
+      "note": "sugar_law_center should investigate PCA"
+    },
+    {
+      "source": "sugar_law_center",
+      "target": "banks",
+      "type": "should_answer",
+      "epistemic_status": "record",
+      "note": "sugar_law_center should ask Banks"
+    },
+    {
+      "source": "sugar_law_center",
+      "target": "damages_chain",
+      "type": "legal_support",
+      "epistemic_status": "record",
+      "note": "Potential legal support for damages"
+    },
+    {
+      "source": "network_public_ed",
+      "target": "pca",
+      "type": "should_investigate",
+      "epistemic_status": "record",
+      "note": "network_public_ed should investigate PCA"
+    },
+    {
+      "source": "network_public_ed",
+      "target": "banks",
+      "type": "should_answer",
+      "epistemic_status": "record",
+      "note": "network_public_ed should ask Banks"
+    },
+    {
+      "source": "network_public_ed",
+      "target": "damages_chain",
+      "type": "legal_support",
+      "epistemic_status": "record",
+      "note": "Potential legal support for damages"
+    },
+    {
+      "source": "kipp_detroit",
+      "target": "pca",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Detroit charter school comparison"
+    },
+    {
+      "source": "kipp_detroit",
+      "target": "banks",
+      "type": "contrast",
+      "epistemic_status": "record",
+      "note": "KIPP vs Banks operation"
+    },
+    {
+      "source": "welch_book",
+      "target": "banks",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Detroit criminal enterprise parallel"
+    },
+    {
+      "source": "welch_book",
+      "target": "joseph_holland",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Narcotics trafficking parallel"
+    },
+    {
+      "source": "wayne_state_law",
+      "target": "banks",
+      "type": "should_investigate",
+      "epistemic_status": "record",
+      "note": "WSU Law should investigate Banks case"
+    },
+    {
+      "source": "wayne_state_law",
+      "target": "pca",
+      "type": "should_investigate",
+      "epistemic_status": "record",
+      "note": "WSU Law clinic should examine PCA"
+    },
+    {
+      "source": "wayne_state_law",
+      "target": "damages_chain",
+      "type": "legal_support",
+      "epistemic_status": "record",
+      "note": "WSU Law could support damages litigation"
+    },
+    {
+      "source": "purpose_foundation",
+      "target": "irs_tax_exempt",
+      "type": "tax_filing",
+      "epistemic_status": "record",
+      "note": "Purpose Foundation tax-exempt filings"
+    },
+    {
+      "source": "purpose_foundation",
+      "target": "damages_chain",
+      "type": "defendant",
+      "epistemic_status": "record",
+      "note": "Purpose Foundation is a defendant in damages"
+    },
+    {
+      "source": "police_ppo_notification",
+      "target": "detroit_chief_of_police",
+      "type": "reports_to",
+      "epistemic_status": "record",
+      "note": "PPO notification goes up chain"
+    },
+    {
+      "source": "police_ppo_notification",
+      "target": "kym_worthy",
+      "type": "should_investigate",
+      "epistemic_status": "record",
+      "note": "Prosecutor should review notification procedure"
+    },
+    {
+      "source": "false_reports_banks_smith",
+      "target": "kym_worthy",
+      "type": "should_prosecute",
+      "epistemic_status": "record",
+      "note": "False reports are prosecutable crimes"
+    },
+    {
+      "source": "false_reports_banks_smith",
+      "target": "damages_chain",
+      "type": "evidence_chain",
+      "epistemic_status": "record",
+      "note": "False reports add to damages"
+    },
+    {
+      "source": "children_cry",
+      "target": "damages_chain",
+      "type": "evidence_chain",
+      "epistemic_status": "record",
+      "note": "Children's suffering is part of damages"
+    },
+    {
+      "source": "children_cry",
+      "target": "childrens_mental_health",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Children's mental health harmed"
+    },
+    {
+      "source": "gvsu",
+      "target": "mde",
+      "type": "reports_to",
+      "epistemic_status": "record",
+      "note": "gvsu reports authorization status to MDE"
+    },
+    {
+      "source": "oakland_university",
+      "target": "mde",
+      "type": "reports_to",
+      "epistemic_status": "record",
+      "note": "oakland_university reports authorization status to MDE"
+    },
+    {
+      "source": "bay_mills",
+      "target": "mde",
+      "type": "reports_to",
+      "epistemic_status": "record",
+      "note": "bay_mills reports authorization status to MDE"
+    },
+    {
+      "source": "ferris_state",
+      "target": "mde",
+      "type": "reports_to",
+      "epistemic_status": "record",
+      "note": "ferris_state reports authorization status to MDE"
     }
   ],
   "epistemic_grammar": {
