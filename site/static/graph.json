@@ -73951,6 +73951,241 @@
         "play",
         "signal"
       ]
+    },
+    {
+      "id": "redflag_llc_web",
+      "label": "RED FLAG 1: Multiple LLCs With Overlapping Officers",
+      "class": "non_human",
+      "role": "If the school operator has 3+ LLCs with the same registered agent, the same address, or overlapping officers — RED FLAG. HOW TO CHECK: LARA Business Entity Search (Michigan). Search by officer name. Count the entities. Map the overlaps. WHAT YOU FOUND AT PCA: Purpose Foundation, Banks Strategy Group, and related entities all trace back to one person. The LLC web is the extraction pipeline.",
+      "tags": [
+        "redflag",
+        "radar",
+        "llc"
+      ]
+    },
+    {
+      "id": "redflag_audit_hired_by_client",
+      "label": "RED FLAG 2: The Auditor Is Hired by the Entity Being Audited",
+      "class": "non_human",
+      "role": "If the school hires its own auditor — RED FLAG. The auditor's incentive is to keep the client, not protect the public. HOW TO CHECK: Read the audit engagement letter. Who signed it? Who pays the auditor's invoice? If it's the school — captured auditor. WHAT YOU FOUND AT PCA: Plante Moran is hired by PCA. Plante Moran found the school can't account for expenditures. And yet the engagement continues.",
+      "tags": [
+        "redflag",
+        "radar",
+        "audit"
+      ]
+    },
+    {
+      "id": "redflag_distant_authorizer",
+      "label": "RED FLAG 3: The Authorizer Is Far From the School",
+      "class": "non_human",
+      "role": "If the charter school authorizer is 100+ miles from the school — RED FLAG. Distance = reduced oversight. Nobody drives 3 hours to check on a school. HOW TO CHECK: Find the authorizer. Map the distance. WHAT YOU FOUND AT PCA: CMU (Mount Pleasant) authorized PCA (Detroit). 150 miles apart. Different county. Different world.",
+      "tags": [
+        "redflag",
+        "radar",
+        "authorizer"
+      ]
+    },
+    {
+      "id": "redflag_scores_vs_money",
+      "label": "RED FLAG 4: Low Scores + High Revenue = Extraction",
+      "class": "non_human",
+      "role": "If proficiency is below 10% but per-pupil revenue is above state average — RED FLAG. The money is going IN but results are not coming OUT. The delta is the extraction. HOW TO CHECK: mischooldata.org for scores. MDE for funding. Divide spending by results. If $12,850/child yields 3% math, that's $428,333 per proficient child. State average: ~$17,000. 25x the cost for the same result.",
+      "tags": [
+        "redflag",
+        "radar",
+        "scores"
+      ]
+    },
+    {
+      "id": "redflag_criminal_background",
+      "label": "RED FLAG 5: Operator Has a Criminal Record",
+      "class": "non_human",
+      "role": "If the person controlling a K-12 school has criminal convictions — RED FLAG. Most states require background checks for school employees. But charter school OPERATORS often slip through. HOW TO CHECK: OTIS (Michigan MDOC Offender Tracking). Court records (county clerk). PACER (federal). WHAT YOU FOUND AT PCA: Two felony convictions.",
+      "tags": [
+        "redflag",
+        "radar",
+        "criminal"
+      ]
+    },
+    {
+      "id": "redflag_bankruptcy_pattern",
+      "label": "RED FLAG 6: Multiple Bankruptcies + New Entity Formation",
+      "class": "non_human",
+      "role": "If someone files bankruptcy, then immediately forms new LLCs — RED FLAG. Bankruptcy discharges debt. New LLCs create new extraction vehicles. The pattern: extract → bankrupt → new LLC → extract again. HOW TO CHECK: PACER for bankruptcy filings. LARA for LLC formation dates. Compare the timeline. WHAT YOU FOUND AT PCA: Five bankruptcies. LLCs formed between filings.",
+      "tags": [
+        "redflag",
+        "radar",
+        "bankruptcy"
+      ]
+    },
+    {
+      "id": "redflag_false_credential",
+      "label": "RED FLAG 7: Legal Representative Not Licensed in the State",
+      "class": "non_human",
+      "role": "If the school's legal representative is not in the State Bar directory — RED FLAG. MCR 8.121 requires authorization to practice law in Michigan. HOW TO CHECK: State Bar of Michigan attorney directory. 60 seconds. WHAT YOU FOUND AT PCA: No bar number found for Sean Perkins.",
+      "tags": [
+        "redflag",
+        "radar",
+        "credential"
+      ]
+    },
+    {
+      "id": "redflag_board_independence",
+      "label": "RED FLAG 8: Board Members Are Appointees of the Operator",
+      "class": "non_human",
+      "role": "If the school board is appointed by the person being overseen — RED FLAG. The board is supposed to oversee the operator. If the operator appoints the board, oversight is theater. HOW TO CHECK: FOIA the board meeting minutes. Read who appointed whom. Check for familial or business relationships between board members and operator.",
+      "tags": [
+        "redflag",
+        "radar",
+        "governance"
+      ]
+    },
+    {
+      "id": "redflag_related_party_transactions",
+      "label": "RED FLAG 9: Related-Party Transactions Not Disclosed",
+      "class": "non_human",
+      "role": "If the school pays LLCs owned by the same person who runs the school — RED FLAG. Related-party transactions must be disclosed in audits and 990s. HOW TO CHECK: Read the IRS 990 Schedule L (Transactions with Interested Persons). Compare payees in the audit to LLC officers in LARA. WHAT YOU FOUND AT PCA: The LLC web exists. The 990 disclosures are incomplete.",
+      "tags": [
+        "redflag",
+        "radar",
+        "transactions"
+      ]
+    },
+    {
+      "id": "redflag_silence_ratio",
+      "label": "RED FLAG 10: High Public Profile + Zero Public Accountability",
+      "class": "non_human",
+      "role": "If an entity has many public connections but answers zero questions — RED FLAG. The silence ratio: connections divided by responses. HOW TO CHECK: Ask a question. Any question. Publicly. Time the response. If it never comes — the silence IS the answer. WHAT YOU FOUND AT PCA: 1,787 questions. 0 answers. The silence ratio is undefined. Division by zero. Appropriate.",
+      "tags": [
+        "redflag",
+        "radar",
+        "silence"
+      ]
+    },
+    {
+      "id": "radar_protocol",
+      "label": "THE RADAR: How to Scan Any Charter School in 90 Minutes",
+      "class": "non_human",
+      "role": "STEP 1 (5 min): mischooldata.org — check proficiency scores. Below 10%? Flag. STEP 2 (5 min): MDE — find the authorizer. How far away? Over 50 miles? Flag. STEP 3 (10 min): LARA Business Entity Search — search the operator's name. Count LLCs. More than 3? Flag. STEP 4 (5 min): State Bar directory — search the school's lawyer. Not found? Flag. STEP 5 (5 min): OTIS — search the operator. Criminal record? Flag. STEP 6 (10 min): PACER — search for bankruptcies. Multiple filings? Flag. STEP 7 (15 min): IRS 990 (ProPublica Nonprofit Explorer) — read Schedule L. Related-party transactions? Flag. STEP 8 (10 min): Read the most recent audit. Who hired the auditor? Does it balance? Flag if not. STEP 9 (10 min): FOIA board minutes. Who appoints the board? Same person being overseen? Flag. STEP 10 (5 min): Ask one question publicly. Time the response. No response? Flag. SCORE: 0-2 flags = probably fine. 3-5 flags = investigate further. 6+ flags = sound the alarm. PCA SCORE: 10 out of 10. Every single flag.",
+      "tags": [
+        "radar",
+        "protocol",
+        "diagnostic",
+        "replicable"
+      ]
+    },
+    {
+      "id": "entity_type_extractor",
+      "label": "ENTITY TYPE: The Extractor — Takes public money through private LLCs",
+      "class": "non_human",
+      "role": "The person at the top of the LLC web. Identifies by: multiple LLCs, overlapping officers, high revenue, low results. At PCA: Banks.",
+      "tags": [
+        "entity_type",
+        "radar",
+        "extraction"
+      ]
+    },
+    {
+      "id": "entity_type_captured_auditor",
+      "label": "ENTITY TYPE: The Captured Auditor — Hired by the client, protects the client",
+      "class": "non_human",
+      "role": "The firm that signs off on books that don't balance. Identifies by: engagement letter signed by the entity being audited. At PCA: Plante Moran.",
+      "tags": [
+        "entity_type",
+        "radar",
+        "audit"
+      ]
+    },
+    {
+      "id": "entity_type_distant_overseer",
+      "label": "ENTITY TYPE: The Distant Overseer — Authorizes from afar, never visits",
+      "class": "non_human",
+      "role": "The institution that rubber-stamps authorization from 150 miles away. Identifies by: physical distance, rare site visits, form-letter renewals. At PCA: CMU.",
+      "tags": [
+        "entity_type",
+        "radar",
+        "oversight"
+      ]
+    },
+    {
+      "id": "entity_type_false_credential",
+      "label": "ENTITY TYPE: The False Credential — Practices without authorization",
+      "class": "non_human",
+      "role": "The person who represents the school legally without bar membership. Identifies by: absence from State Bar directory. At PCA: Perkins.",
+      "tags": [
+        "entity_type",
+        "radar",
+        "credential"
+      ]
+    },
+    {
+      "id": "entity_type_silent_regulator",
+      "label": "ENTITY TYPE: The Silent Regulator — Has authority, uses none",
+      "class": "non_human",
+      "role": "The agency with statutory power to revoke, investigate, or sanction that chooses to do nothing. Identifies by: silence ratio (questions asked / answers given = undefined). At PCA: MDE, SBE, LARA.",
+      "tags": [
+        "entity_type",
+        "radar",
+        "regulatory"
+      ]
+    },
+    {
+      "id": "entity_type_enabler",
+      "label": "ENTITY TYPE: The Enabler — Knows, doesn't act, benefits from inaction",
+      "class": "non_human",
+      "role": "The person or institution that sees the red flags and looks away. Not the extractor — the one who lets the extractor extract. Identifies by: proximity to evidence + absence of action. At PCA: multiple institutions.",
+      "tags": [
+        "entity_type",
+        "radar",
+        "enabler"
+      ]
+    },
+    {
+      "id": "entity_type_front",
+      "label": "ENTITY TYPE: The Front — Looks legitimate, serves the extractor",
+      "class": "non_human",
+      "role": "The LLC or nonprofit that exists on paper to receive and pass through funds. Identifies by: no employees, no office, same address as other entities. At PCA: Purpose Foundation.",
+      "tags": [
+        "entity_type",
+        "radar",
+        "front"
+      ]
+    },
+    {
+      "id": "entity_type_shield",
+      "label": "ENTITY TYPE: The Political Shield — Uses political connections for protection",
+      "class": "non_human",
+      "role": "The person who avoids accountability because of who they know. Identifies by: political donations, board appointments, relationships with regulators. At PCA: deep political connections across Detroit.",
+      "tags": [
+        "entity_type",
+        "radar",
+        "political"
+      ]
+    },
+    {
+      "id": "article_red_flags",
+      "label": "ARTICLE: 10 Red Flags — How to Spot a Bad Actor in Any Charter School",
+      "class": "article",
+      "role": "10 red flags. Each one independently verifiable. Each one takes less than 15 minutes to check. All 10 together take 90 minutes. PCA scores 10 out of 10. Every single flag. Use these flags on YOUR district's charter schools. The pattern is not unique to Detroit. The databases are national. LARA is Michigan. But every state has a business entity search. Every state has a bar directory. Every state has court records. The red flags are universal. The extraction pattern is universal. The only thing unique about PCA is that someone finally counted the flags.",
+      "tags": [
+        "article",
+        "radar",
+        "redflag",
+        "diagnostic",
+        "replicable"
+      ]
+    },
+    {
+      "id": "article_the_cast",
+      "label": "ARTICLE: The Cast of Characters — 8 Entity Types in the Extraction Play",
+      "class": "article",
+      "role": "Every extraction has the same cast: The Extractor. The Captured Auditor. The Distant Overseer. The False Credential. The Silent Regulator. The Enabler. The Front. The Political Shield. 8 roles. Same play. Different costumes. At PCA, every role is filled. Every actor is named. In your district, the cast may be different. But the play is the same. Learn the roles. Spot the actors.",
+      "tags": [
+        "article",
+        "radar",
+        "entity_type",
+        "diagnostic"
+      ]
     }
   ],
   "edges": [
@@ -486067,6 +486302,1196 @@
       "type": "same_spirit",
       "epistemic_status": "record",
       "note": "Gaming is play. Investigation is play. guerillaGorilla is both."
+    },
+    {
+      "source": "redflag_llc_web",
+      "target": "thesis_statement",
+      "type": "diagnostic_for",
+      "epistemic_status": "record",
+      "note": "This red flag tests a component of the thesis"
+    },
+    {
+      "source": "redflag_llc_web",
+      "target": "guerilla_gorilla",
+      "type": "teaches",
+      "epistemic_status": "record",
+      "note": "The red flags teach the beasts what to look for"
+    },
+    {
+      "source": "redflag_llc_web",
+      "target": "beast_owl",
+      "type": "equips",
+      "epistemic_status": "record",
+      "note": "The owl uses red flags to see in the dark"
+    },
+    {
+      "source": "redflag_audit_hired_by_client",
+      "target": "thesis_statement",
+      "type": "diagnostic_for",
+      "epistemic_status": "record",
+      "note": "This red flag tests a component of the thesis"
+    },
+    {
+      "source": "redflag_audit_hired_by_client",
+      "target": "guerilla_gorilla",
+      "type": "teaches",
+      "epistemic_status": "record",
+      "note": "The red flags teach the beasts what to look for"
+    },
+    {
+      "source": "redflag_audit_hired_by_client",
+      "target": "beast_owl",
+      "type": "equips",
+      "epistemic_status": "record",
+      "note": "The owl uses red flags to see in the dark"
+    },
+    {
+      "source": "redflag_distant_authorizer",
+      "target": "thesis_statement",
+      "type": "diagnostic_for",
+      "epistemic_status": "record",
+      "note": "This red flag tests a component of the thesis"
+    },
+    {
+      "source": "redflag_distant_authorizer",
+      "target": "guerilla_gorilla",
+      "type": "teaches",
+      "epistemic_status": "record",
+      "note": "The red flags teach the beasts what to look for"
+    },
+    {
+      "source": "redflag_distant_authorizer",
+      "target": "beast_owl",
+      "type": "equips",
+      "epistemic_status": "record",
+      "note": "The owl uses red flags to see in the dark"
+    },
+    {
+      "source": "redflag_scores_vs_money",
+      "target": "thesis_statement",
+      "type": "diagnostic_for",
+      "epistemic_status": "record",
+      "note": "This red flag tests a component of the thesis"
+    },
+    {
+      "source": "redflag_scores_vs_money",
+      "target": "guerilla_gorilla",
+      "type": "teaches",
+      "epistemic_status": "record",
+      "note": "The red flags teach the beasts what to look for"
+    },
+    {
+      "source": "redflag_scores_vs_money",
+      "target": "beast_owl",
+      "type": "equips",
+      "epistemic_status": "record",
+      "note": "The owl uses red flags to see in the dark"
+    },
+    {
+      "source": "redflag_criminal_background",
+      "target": "thesis_statement",
+      "type": "diagnostic_for",
+      "epistemic_status": "record",
+      "note": "This red flag tests a component of the thesis"
+    },
+    {
+      "source": "redflag_criminal_background",
+      "target": "guerilla_gorilla",
+      "type": "teaches",
+      "epistemic_status": "record",
+      "note": "The red flags teach the beasts what to look for"
+    },
+    {
+      "source": "redflag_criminal_background",
+      "target": "beast_owl",
+      "type": "equips",
+      "epistemic_status": "record",
+      "note": "The owl uses red flags to see in the dark"
+    },
+    {
+      "source": "redflag_bankruptcy_pattern",
+      "target": "thesis_statement",
+      "type": "diagnostic_for",
+      "epistemic_status": "record",
+      "note": "This red flag tests a component of the thesis"
+    },
+    {
+      "source": "redflag_bankruptcy_pattern",
+      "target": "guerilla_gorilla",
+      "type": "teaches",
+      "epistemic_status": "record",
+      "note": "The red flags teach the beasts what to look for"
+    },
+    {
+      "source": "redflag_bankruptcy_pattern",
+      "target": "beast_owl",
+      "type": "equips",
+      "epistemic_status": "record",
+      "note": "The owl uses red flags to see in the dark"
+    },
+    {
+      "source": "redflag_false_credential",
+      "target": "thesis_statement",
+      "type": "diagnostic_for",
+      "epistemic_status": "record",
+      "note": "This red flag tests a component of the thesis"
+    },
+    {
+      "source": "redflag_false_credential",
+      "target": "guerilla_gorilla",
+      "type": "teaches",
+      "epistemic_status": "record",
+      "note": "The red flags teach the beasts what to look for"
+    },
+    {
+      "source": "redflag_false_credential",
+      "target": "beast_owl",
+      "type": "equips",
+      "epistemic_status": "record",
+      "note": "The owl uses red flags to see in the dark"
+    },
+    {
+      "source": "redflag_board_independence",
+      "target": "thesis_statement",
+      "type": "diagnostic_for",
+      "epistemic_status": "record",
+      "note": "This red flag tests a component of the thesis"
+    },
+    {
+      "source": "redflag_board_independence",
+      "target": "guerilla_gorilla",
+      "type": "teaches",
+      "epistemic_status": "record",
+      "note": "The red flags teach the beasts what to look for"
+    },
+    {
+      "source": "redflag_board_independence",
+      "target": "beast_owl",
+      "type": "equips",
+      "epistemic_status": "record",
+      "note": "The owl uses red flags to see in the dark"
+    },
+    {
+      "source": "redflag_related_party_transactions",
+      "target": "thesis_statement",
+      "type": "diagnostic_for",
+      "epistemic_status": "record",
+      "note": "This red flag tests a component of the thesis"
+    },
+    {
+      "source": "redflag_related_party_transactions",
+      "target": "guerilla_gorilla",
+      "type": "teaches",
+      "epistemic_status": "record",
+      "note": "The red flags teach the beasts what to look for"
+    },
+    {
+      "source": "redflag_related_party_transactions",
+      "target": "beast_owl",
+      "type": "equips",
+      "epistemic_status": "record",
+      "note": "The owl uses red flags to see in the dark"
+    },
+    {
+      "source": "redflag_silence_ratio",
+      "target": "thesis_statement",
+      "type": "diagnostic_for",
+      "epistemic_status": "record",
+      "note": "This red flag tests a component of the thesis"
+    },
+    {
+      "source": "redflag_silence_ratio",
+      "target": "guerilla_gorilla",
+      "type": "teaches",
+      "epistemic_status": "record",
+      "note": "The red flags teach the beasts what to look for"
+    },
+    {
+      "source": "redflag_silence_ratio",
+      "target": "beast_owl",
+      "type": "equips",
+      "epistemic_status": "record",
+      "note": "The owl uses red flags to see in the dark"
+    },
+    {
+      "source": "redflag_llc_web",
+      "target": "redflag_audit_hired_by_client",
+      "type": "compounds_with",
+      "epistemic_status": "record",
+      "note": "Red flags compound. One is suspicious. Three is a pattern. Ten is PCA."
+    },
+    {
+      "source": "redflag_llc_web",
+      "target": "redflag_distant_authorizer",
+      "type": "compounds_with",
+      "epistemic_status": "record",
+      "note": "Red flags compound. One is suspicious. Three is a pattern. Ten is PCA."
+    },
+    {
+      "source": "redflag_llc_web",
+      "target": "redflag_scores_vs_money",
+      "type": "compounds_with",
+      "epistemic_status": "record",
+      "note": "Red flags compound. One is suspicious. Three is a pattern. Ten is PCA."
+    },
+    {
+      "source": "redflag_llc_web",
+      "target": "redflag_criminal_background",
+      "type": "compounds_with",
+      "epistemic_status": "record",
+      "note": "Red flags compound. One is suspicious. Three is a pattern. Ten is PCA."
+    },
+    {
+      "source": "redflag_llc_web",
+      "target": "redflag_bankruptcy_pattern",
+      "type": "compounds_with",
+      "epistemic_status": "record",
+      "note": "Red flags compound. One is suspicious. Three is a pattern. Ten is PCA."
+    },
+    {
+      "source": "redflag_llc_web",
+      "target": "redflag_false_credential",
+      "type": "compounds_with",
+      "epistemic_status": "record",
+      "note": "Red flags compound. One is suspicious. Three is a pattern. Ten is PCA."
+    },
+    {
+      "source": "redflag_llc_web",
+      "target": "redflag_board_independence",
+      "type": "compounds_with",
+      "epistemic_status": "record",
+      "note": "Red flags compound. One is suspicious. Three is a pattern. Ten is PCA."
+    },
+    {
+      "source": "redflag_llc_web",
+      "target": "redflag_related_party_transactions",
+      "type": "compounds_with",
+      "epistemic_status": "record",
+      "note": "Red flags compound. One is suspicious. Three is a pattern. Ten is PCA."
+    },
+    {
+      "source": "redflag_llc_web",
+      "target": "redflag_silence_ratio",
+      "type": "compounds_with",
+      "epistemic_status": "record",
+      "note": "Red flags compound. One is suspicious. Three is a pattern. Ten is PCA."
+    },
+    {
+      "source": "redflag_audit_hired_by_client",
+      "target": "redflag_distant_authorizer",
+      "type": "compounds_with",
+      "epistemic_status": "record",
+      "note": "Red flags compound. One is suspicious. Three is a pattern. Ten is PCA."
+    },
+    {
+      "source": "redflag_audit_hired_by_client",
+      "target": "redflag_scores_vs_money",
+      "type": "compounds_with",
+      "epistemic_status": "record",
+      "note": "Red flags compound. One is suspicious. Three is a pattern. Ten is PCA."
+    },
+    {
+      "source": "redflag_audit_hired_by_client",
+      "target": "redflag_criminal_background",
+      "type": "compounds_with",
+      "epistemic_status": "record",
+      "note": "Red flags compound. One is suspicious. Three is a pattern. Ten is PCA."
+    },
+    {
+      "source": "redflag_audit_hired_by_client",
+      "target": "redflag_bankruptcy_pattern",
+      "type": "compounds_with",
+      "epistemic_status": "record",
+      "note": "Red flags compound. One is suspicious. Three is a pattern. Ten is PCA."
+    },
+    {
+      "source": "redflag_audit_hired_by_client",
+      "target": "redflag_false_credential",
+      "type": "compounds_with",
+      "epistemic_status": "record",
+      "note": "Red flags compound. One is suspicious. Three is a pattern. Ten is PCA."
+    },
+    {
+      "source": "redflag_audit_hired_by_client",
+      "target": "redflag_board_independence",
+      "type": "compounds_with",
+      "epistemic_status": "record",
+      "note": "Red flags compound. One is suspicious. Three is a pattern. Ten is PCA."
+    },
+    {
+      "source": "redflag_audit_hired_by_client",
+      "target": "redflag_related_party_transactions",
+      "type": "compounds_with",
+      "epistemic_status": "record",
+      "note": "Red flags compound. One is suspicious. Three is a pattern. Ten is PCA."
+    },
+    {
+      "source": "redflag_audit_hired_by_client",
+      "target": "redflag_silence_ratio",
+      "type": "compounds_with",
+      "epistemic_status": "record",
+      "note": "Red flags compound. One is suspicious. Three is a pattern. Ten is PCA."
+    },
+    {
+      "source": "redflag_distant_authorizer",
+      "target": "redflag_scores_vs_money",
+      "type": "compounds_with",
+      "epistemic_status": "record",
+      "note": "Red flags compound. One is suspicious. Three is a pattern. Ten is PCA."
+    },
+    {
+      "source": "redflag_distant_authorizer",
+      "target": "redflag_criminal_background",
+      "type": "compounds_with",
+      "epistemic_status": "record",
+      "note": "Red flags compound. One is suspicious. Three is a pattern. Ten is PCA."
+    },
+    {
+      "source": "redflag_distant_authorizer",
+      "target": "redflag_bankruptcy_pattern",
+      "type": "compounds_with",
+      "epistemic_status": "record",
+      "note": "Red flags compound. One is suspicious. Three is a pattern. Ten is PCA."
+    },
+    {
+      "source": "redflag_distant_authorizer",
+      "target": "redflag_false_credential",
+      "type": "compounds_with",
+      "epistemic_status": "record",
+      "note": "Red flags compound. One is suspicious. Three is a pattern. Ten is PCA."
+    },
+    {
+      "source": "redflag_distant_authorizer",
+      "target": "redflag_board_independence",
+      "type": "compounds_with",
+      "epistemic_status": "record",
+      "note": "Red flags compound. One is suspicious. Three is a pattern. Ten is PCA."
+    },
+    {
+      "source": "redflag_distant_authorizer",
+      "target": "redflag_related_party_transactions",
+      "type": "compounds_with",
+      "epistemic_status": "record",
+      "note": "Red flags compound. One is suspicious. Three is a pattern. Ten is PCA."
+    },
+    {
+      "source": "redflag_distant_authorizer",
+      "target": "redflag_silence_ratio",
+      "type": "compounds_with",
+      "epistemic_status": "record",
+      "note": "Red flags compound. One is suspicious. Three is a pattern. Ten is PCA."
+    },
+    {
+      "source": "redflag_scores_vs_money",
+      "target": "redflag_criminal_background",
+      "type": "compounds_with",
+      "epistemic_status": "record",
+      "note": "Red flags compound. One is suspicious. Three is a pattern. Ten is PCA."
+    },
+    {
+      "source": "redflag_scores_vs_money",
+      "target": "redflag_bankruptcy_pattern",
+      "type": "compounds_with",
+      "epistemic_status": "record",
+      "note": "Red flags compound. One is suspicious. Three is a pattern. Ten is PCA."
+    },
+    {
+      "source": "redflag_scores_vs_money",
+      "target": "redflag_false_credential",
+      "type": "compounds_with",
+      "epistemic_status": "record",
+      "note": "Red flags compound. One is suspicious. Three is a pattern. Ten is PCA."
+    },
+    {
+      "source": "redflag_scores_vs_money",
+      "target": "redflag_board_independence",
+      "type": "compounds_with",
+      "epistemic_status": "record",
+      "note": "Red flags compound. One is suspicious. Three is a pattern. Ten is PCA."
+    },
+    {
+      "source": "redflag_scores_vs_money",
+      "target": "redflag_related_party_transactions",
+      "type": "compounds_with",
+      "epistemic_status": "record",
+      "note": "Red flags compound. One is suspicious. Three is a pattern. Ten is PCA."
+    },
+    {
+      "source": "redflag_scores_vs_money",
+      "target": "redflag_silence_ratio",
+      "type": "compounds_with",
+      "epistemic_status": "record",
+      "note": "Red flags compound. One is suspicious. Three is a pattern. Ten is PCA."
+    },
+    {
+      "source": "redflag_criminal_background",
+      "target": "redflag_bankruptcy_pattern",
+      "type": "compounds_with",
+      "epistemic_status": "record",
+      "note": "Red flags compound. One is suspicious. Three is a pattern. Ten is PCA."
+    },
+    {
+      "source": "redflag_criminal_background",
+      "target": "redflag_false_credential",
+      "type": "compounds_with",
+      "epistemic_status": "record",
+      "note": "Red flags compound. One is suspicious. Three is a pattern. Ten is PCA."
+    },
+    {
+      "source": "redflag_criminal_background",
+      "target": "redflag_board_independence",
+      "type": "compounds_with",
+      "epistemic_status": "record",
+      "note": "Red flags compound. One is suspicious. Three is a pattern. Ten is PCA."
+    },
+    {
+      "source": "redflag_criminal_background",
+      "target": "redflag_related_party_transactions",
+      "type": "compounds_with",
+      "epistemic_status": "record",
+      "note": "Red flags compound. One is suspicious. Three is a pattern. Ten is PCA."
+    },
+    {
+      "source": "redflag_criminal_background",
+      "target": "redflag_silence_ratio",
+      "type": "compounds_with",
+      "epistemic_status": "record",
+      "note": "Red flags compound. One is suspicious. Three is a pattern. Ten is PCA."
+    },
+    {
+      "source": "redflag_bankruptcy_pattern",
+      "target": "redflag_false_credential",
+      "type": "compounds_with",
+      "epistemic_status": "record",
+      "note": "Red flags compound. One is suspicious. Three is a pattern. Ten is PCA."
+    },
+    {
+      "source": "redflag_bankruptcy_pattern",
+      "target": "redflag_board_independence",
+      "type": "compounds_with",
+      "epistemic_status": "record",
+      "note": "Red flags compound. One is suspicious. Three is a pattern. Ten is PCA."
+    },
+    {
+      "source": "redflag_bankruptcy_pattern",
+      "target": "redflag_related_party_transactions",
+      "type": "compounds_with",
+      "epistemic_status": "record",
+      "note": "Red flags compound. One is suspicious. Three is a pattern. Ten is PCA."
+    },
+    {
+      "source": "redflag_bankruptcy_pattern",
+      "target": "redflag_silence_ratio",
+      "type": "compounds_with",
+      "epistemic_status": "record",
+      "note": "Red flags compound. One is suspicious. Three is a pattern. Ten is PCA."
+    },
+    {
+      "source": "redflag_false_credential",
+      "target": "redflag_board_independence",
+      "type": "compounds_with",
+      "epistemic_status": "record",
+      "note": "Red flags compound. One is suspicious. Three is a pattern. Ten is PCA."
+    },
+    {
+      "source": "redflag_false_credential",
+      "target": "redflag_related_party_transactions",
+      "type": "compounds_with",
+      "epistemic_status": "record",
+      "note": "Red flags compound. One is suspicious. Three is a pattern. Ten is PCA."
+    },
+    {
+      "source": "redflag_false_credential",
+      "target": "redflag_silence_ratio",
+      "type": "compounds_with",
+      "epistemic_status": "record",
+      "note": "Red flags compound. One is suspicious. Three is a pattern. Ten is PCA."
+    },
+    {
+      "source": "redflag_board_independence",
+      "target": "redflag_related_party_transactions",
+      "type": "compounds_with",
+      "epistemic_status": "record",
+      "note": "Red flags compound. One is suspicious. Three is a pattern. Ten is PCA."
+    },
+    {
+      "source": "redflag_board_independence",
+      "target": "redflag_silence_ratio",
+      "type": "compounds_with",
+      "epistemic_status": "record",
+      "note": "Red flags compound. One is suspicious. Three is a pattern. Ten is PCA."
+    },
+    {
+      "source": "redflag_related_party_transactions",
+      "target": "redflag_silence_ratio",
+      "type": "compounds_with",
+      "epistemic_status": "record",
+      "note": "Red flags compound. One is suspicious. Three is a pattern. Ten is PCA."
+    },
+    {
+      "source": "redflag_llc_web",
+      "target": "purpose_foundation",
+      "type": "found_at",
+      "epistemic_status": "record",
+      "note": "This red flag was found here"
+    },
+    {
+      "source": "redflag_llc_web",
+      "target": "banks",
+      "type": "found_at",
+      "epistemic_status": "record",
+      "note": "This red flag was found here"
+    },
+    {
+      "source": "redflag_llc_web",
+      "target": "lara",
+      "type": "found_at",
+      "epistemic_status": "record",
+      "note": "This red flag was found here"
+    },
+    {
+      "source": "redflag_audit_hired_by_client",
+      "target": "plante_moran",
+      "type": "found_at",
+      "epistemic_status": "record",
+      "note": "This red flag was found here"
+    },
+    {
+      "source": "redflag_audit_hired_by_client",
+      "target": "pca",
+      "type": "found_at",
+      "epistemic_status": "record",
+      "note": "This red flag was found here"
+    },
+    {
+      "source": "redflag_distant_authorizer",
+      "target": "cmu",
+      "type": "found_at",
+      "epistemic_status": "record",
+      "note": "This red flag was found here"
+    },
+    {
+      "source": "redflag_distant_authorizer",
+      "target": "pca",
+      "type": "found_at",
+      "epistemic_status": "record",
+      "note": "This red flag was found here"
+    },
+    {
+      "source": "redflag_scores_vs_money",
+      "target": "three_percent_math",
+      "type": "found_at",
+      "epistemic_status": "record",
+      "note": "This red flag was found here"
+    },
+    {
+      "source": "redflag_scores_vs_money",
+      "target": "pca",
+      "type": "found_at",
+      "epistemic_status": "record",
+      "note": "This red flag was found here"
+    },
+    {
+      "source": "redflag_scores_vs_money",
+      "target": "mde",
+      "type": "found_at",
+      "epistemic_status": "record",
+      "note": "This red flag was found here"
+    },
+    {
+      "source": "redflag_criminal_background",
+      "target": "banks",
+      "type": "found_at",
+      "epistemic_status": "record",
+      "note": "This red flag was found here"
+    },
+    {
+      "source": "redflag_criminal_background",
+      "target": "pca",
+      "type": "found_at",
+      "epistemic_status": "record",
+      "note": "This red flag was found here"
+    },
+    {
+      "source": "redflag_bankruptcy_pattern",
+      "target": "banks",
+      "type": "found_at",
+      "epistemic_status": "record",
+      "note": "This red flag was found here"
+    },
+    {
+      "source": "redflag_false_credential",
+      "target": "agc",
+      "type": "found_at",
+      "epistemic_status": "record",
+      "note": "This red flag was found here"
+    },
+    {
+      "source": "redflag_board_independence",
+      "target": "pca",
+      "type": "found_at",
+      "epistemic_status": "record",
+      "note": "This red flag was found here"
+    },
+    {
+      "source": "redflag_board_independence",
+      "target": "banks",
+      "type": "found_at",
+      "epistemic_status": "record",
+      "note": "This red flag was found here"
+    },
+    {
+      "source": "redflag_related_party_transactions",
+      "target": "purpose_foundation",
+      "type": "found_at",
+      "epistemic_status": "record",
+      "note": "This red flag was found here"
+    },
+    {
+      "source": "redflag_related_party_transactions",
+      "target": "banks",
+      "type": "found_at",
+      "epistemic_status": "record",
+      "note": "This red flag was found here"
+    },
+    {
+      "source": "redflag_silence_ratio",
+      "target": "article_the_signal",
+      "type": "found_at",
+      "epistemic_status": "record",
+      "note": "This red flag was found here"
+    },
+    {
+      "source": "redflag_silence_ratio",
+      "target": "mde",
+      "type": "found_at",
+      "epistemic_status": "record",
+      "note": "This red flag was found here"
+    },
+    {
+      "source": "redflag_silence_ratio",
+      "target": "sbe",
+      "type": "found_at",
+      "epistemic_status": "record",
+      "note": "This red flag was found here"
+    },
+    {
+      "source": "redflag_llc_web",
+      "target": "hypothesis_extraction",
+      "type": "detects",
+      "epistemic_status": "record",
+      "note": "This red flag detects this hypothesis"
+    },
+    {
+      "source": "redflag_scores_vs_money",
+      "target": "hypothesis_proficiency",
+      "type": "detects",
+      "epistemic_status": "record",
+      "note": "This red flag detects this hypothesis"
+    },
+    {
+      "source": "redflag_criminal_background",
+      "target": "hypothesis_convictions",
+      "type": "detects",
+      "epistemic_status": "record",
+      "note": "This red flag detects this hypothesis"
+    },
+    {
+      "source": "redflag_false_credential",
+      "target": "hypothesis_credential",
+      "type": "detects",
+      "epistemic_status": "record",
+      "note": "This red flag detects this hypothesis"
+    },
+    {
+      "source": "redflag_silence_ratio",
+      "target": "hypothesis_silence",
+      "type": "detects",
+      "epistemic_status": "record",
+      "note": "This red flag detects this hypothesis"
+    },
+    {
+      "source": "radar_protocol",
+      "target": "guerilla_gorilla",
+      "type": "equips",
+      "epistemic_status": "record",
+      "note": "The radar equips the pack with a replicable protocol"
+    },
+    {
+      "source": "radar_protocol",
+      "target": "redflag_llc_web",
+      "type": "includes",
+      "epistemic_status": "record",
+      "note": "Step in the radar protocol"
+    },
+    {
+      "source": "radar_protocol",
+      "target": "redflag_audit_hired_by_client",
+      "type": "includes",
+      "epistemic_status": "record",
+      "note": "Step in the radar protocol"
+    },
+    {
+      "source": "radar_protocol",
+      "target": "redflag_distant_authorizer",
+      "type": "includes",
+      "epistemic_status": "record",
+      "note": "Step in the radar protocol"
+    },
+    {
+      "source": "radar_protocol",
+      "target": "redflag_scores_vs_money",
+      "type": "includes",
+      "epistemic_status": "record",
+      "note": "Step in the radar protocol"
+    },
+    {
+      "source": "radar_protocol",
+      "target": "redflag_criminal_background",
+      "type": "includes",
+      "epistemic_status": "record",
+      "note": "Step in the radar protocol"
+    },
+    {
+      "source": "radar_protocol",
+      "target": "redflag_bankruptcy_pattern",
+      "type": "includes",
+      "epistemic_status": "record",
+      "note": "Step in the radar protocol"
+    },
+    {
+      "source": "radar_protocol",
+      "target": "redflag_false_credential",
+      "type": "includes",
+      "epistemic_status": "record",
+      "note": "Step in the radar protocol"
+    },
+    {
+      "source": "radar_protocol",
+      "target": "redflag_board_independence",
+      "type": "includes",
+      "epistemic_status": "record",
+      "note": "Step in the radar protocol"
+    },
+    {
+      "source": "radar_protocol",
+      "target": "redflag_related_party_transactions",
+      "type": "includes",
+      "epistemic_status": "record",
+      "note": "Step in the radar protocol"
+    },
+    {
+      "source": "radar_protocol",
+      "target": "redflag_silence_ratio",
+      "type": "includes",
+      "epistemic_status": "record",
+      "note": "Step in the radar protocol"
+    },
+    {
+      "source": "radar_protocol",
+      "target": "thesis_statement",
+      "type": "operationalizes",
+      "epistemic_status": "record",
+      "note": "The radar makes the thesis testable by anyone, anywhere"
+    },
+    {
+      "source": "radar_protocol",
+      "target": "bell_other_states",
+      "type": "exported_to",
+      "epistemic_status": "record",
+      "note": "The radar works in any state with charter schools"
+    },
+    {
+      "source": "radar_protocol",
+      "target": "bell_peer_schools",
+      "type": "applies_to",
+      "epistemic_status": "record",
+      "note": "Apply the radar to every charter school"
+    },
+    {
+      "source": "entity_type_extractor",
+      "target": "radar_protocol",
+      "type": "detected_by",
+      "epistemic_status": "record",
+      "note": "The radar detects this entity type"
+    },
+    {
+      "source": "entity_type_extractor",
+      "target": "guerilla_gorilla",
+      "type": "teaches",
+      "epistemic_status": "record",
+      "note": "Teaches the pack to recognize this entity type"
+    },
+    {
+      "source": "entity_type_extractor",
+      "target": "thesis_statement",
+      "type": "component_of",
+      "epistemic_status": "record",
+      "note": "This entity type is a component of the thesis"
+    },
+    {
+      "source": "entity_type_captured_auditor",
+      "target": "radar_protocol",
+      "type": "detected_by",
+      "epistemic_status": "record",
+      "note": "The radar detects this entity type"
+    },
+    {
+      "source": "entity_type_captured_auditor",
+      "target": "guerilla_gorilla",
+      "type": "teaches",
+      "epistemic_status": "record",
+      "note": "Teaches the pack to recognize this entity type"
+    },
+    {
+      "source": "entity_type_captured_auditor",
+      "target": "thesis_statement",
+      "type": "component_of",
+      "epistemic_status": "record",
+      "note": "This entity type is a component of the thesis"
+    },
+    {
+      "source": "entity_type_distant_overseer",
+      "target": "radar_protocol",
+      "type": "detected_by",
+      "epistemic_status": "record",
+      "note": "The radar detects this entity type"
+    },
+    {
+      "source": "entity_type_distant_overseer",
+      "target": "guerilla_gorilla",
+      "type": "teaches",
+      "epistemic_status": "record",
+      "note": "Teaches the pack to recognize this entity type"
+    },
+    {
+      "source": "entity_type_distant_overseer",
+      "target": "thesis_statement",
+      "type": "component_of",
+      "epistemic_status": "record",
+      "note": "This entity type is a component of the thesis"
+    },
+    {
+      "source": "entity_type_false_credential",
+      "target": "radar_protocol",
+      "type": "detected_by",
+      "epistemic_status": "record",
+      "note": "The radar detects this entity type"
+    },
+    {
+      "source": "entity_type_false_credential",
+      "target": "guerilla_gorilla",
+      "type": "teaches",
+      "epistemic_status": "record",
+      "note": "Teaches the pack to recognize this entity type"
+    },
+    {
+      "source": "entity_type_false_credential",
+      "target": "thesis_statement",
+      "type": "component_of",
+      "epistemic_status": "record",
+      "note": "This entity type is a component of the thesis"
+    },
+    {
+      "source": "entity_type_silent_regulator",
+      "target": "radar_protocol",
+      "type": "detected_by",
+      "epistemic_status": "record",
+      "note": "The radar detects this entity type"
+    },
+    {
+      "source": "entity_type_silent_regulator",
+      "target": "guerilla_gorilla",
+      "type": "teaches",
+      "epistemic_status": "record",
+      "note": "Teaches the pack to recognize this entity type"
+    },
+    {
+      "source": "entity_type_silent_regulator",
+      "target": "thesis_statement",
+      "type": "component_of",
+      "epistemic_status": "record",
+      "note": "This entity type is a component of the thesis"
+    },
+    {
+      "source": "entity_type_enabler",
+      "target": "radar_protocol",
+      "type": "detected_by",
+      "epistemic_status": "record",
+      "note": "The radar detects this entity type"
+    },
+    {
+      "source": "entity_type_enabler",
+      "target": "guerilla_gorilla",
+      "type": "teaches",
+      "epistemic_status": "record",
+      "note": "Teaches the pack to recognize this entity type"
+    },
+    {
+      "source": "entity_type_enabler",
+      "target": "thesis_statement",
+      "type": "component_of",
+      "epistemic_status": "record",
+      "note": "This entity type is a component of the thesis"
+    },
+    {
+      "source": "entity_type_front",
+      "target": "radar_protocol",
+      "type": "detected_by",
+      "epistemic_status": "record",
+      "note": "The radar detects this entity type"
+    },
+    {
+      "source": "entity_type_front",
+      "target": "guerilla_gorilla",
+      "type": "teaches",
+      "epistemic_status": "record",
+      "note": "Teaches the pack to recognize this entity type"
+    },
+    {
+      "source": "entity_type_front",
+      "target": "thesis_statement",
+      "type": "component_of",
+      "epistemic_status": "record",
+      "note": "This entity type is a component of the thesis"
+    },
+    {
+      "source": "entity_type_shield",
+      "target": "radar_protocol",
+      "type": "detected_by",
+      "epistemic_status": "record",
+      "note": "The radar detects this entity type"
+    },
+    {
+      "source": "entity_type_shield",
+      "target": "guerilla_gorilla",
+      "type": "teaches",
+      "epistemic_status": "record",
+      "note": "Teaches the pack to recognize this entity type"
+    },
+    {
+      "source": "entity_type_shield",
+      "target": "thesis_statement",
+      "type": "component_of",
+      "epistemic_status": "record",
+      "note": "This entity type is a component of the thesis"
+    },
+    {
+      "source": "entity_type_extractor",
+      "target": "banks",
+      "type": "exemplified_by",
+      "epistemic_status": "record",
+      "note": "At PCA, this entity type is exemplified by banks"
+    },
+    {
+      "source": "entity_type_captured_auditor",
+      "target": "plante_moran",
+      "type": "exemplified_by",
+      "epistemic_status": "record",
+      "note": "At PCA, this entity type is exemplified by plante_moran"
+    },
+    {
+      "source": "entity_type_distant_overseer",
+      "target": "cmu",
+      "type": "exemplified_by",
+      "epistemic_status": "record",
+      "note": "At PCA, this entity type is exemplified by cmu"
+    },
+    {
+      "source": "entity_type_silent_regulator",
+      "target": "mde",
+      "type": "exemplified_by",
+      "epistemic_status": "record",
+      "note": "At PCA, this entity type is exemplified by mde"
+    },
+    {
+      "source": "entity_type_front",
+      "target": "purpose_foundation",
+      "type": "exemplified_by",
+      "epistemic_status": "record",
+      "note": "At PCA, this entity type is exemplified by purpose_foundation"
+    },
+    {
+      "source": "article_red_flags",
+      "target": "redflag_llc_web",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_red_flags",
+      "target": "redflag_audit_hired_by_client",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_red_flags",
+      "target": "redflag_distant_authorizer",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_red_flags",
+      "target": "redflag_scores_vs_money",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_red_flags",
+      "target": "redflag_criminal_background",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_red_flags",
+      "target": "redflag_bankruptcy_pattern",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_red_flags",
+      "target": "redflag_false_credential",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_red_flags",
+      "target": "redflag_board_independence",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_red_flags",
+      "target": "redflag_related_party_transactions",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_red_flags",
+      "target": "redflag_silence_ratio",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_red_flags",
+      "target": "radar_protocol",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_red_flags",
+      "target": "article_the_signal",
+      "type": "companion_to",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_red_flags",
+      "target": "article_guerilla_gorilla",
+      "type": "companion_to",
+      "epistemic_status": "record",
+      "note": "The red flags equip the beasts"
+    },
+    {
+      "source": "article_red_flags",
+      "target": "bell_other_states",
+      "type": "exported_to",
+      "epistemic_status": "record",
+      "note": "Use these flags in your state"
+    },
+    {
+      "source": "article_red_flags",
+      "target": "thesis_statement",
+      "type": "operationalizes",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_cast",
+      "target": "entity_type_extractor",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_cast",
+      "target": "entity_type_captured_auditor",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_cast",
+      "target": "entity_type_distant_overseer",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_cast",
+      "target": "entity_type_false_credential",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_cast",
+      "target": "entity_type_silent_regulator",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_cast",
+      "target": "entity_type_enabler",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_cast",
+      "target": "entity_type_front",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_cast",
+      "target": "entity_type_shield",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_cast",
+      "target": "article_red_flags",
+      "type": "companion_to",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_cast",
+      "target": "article_the_signal",
+      "type": "companion_to",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_cast",
+      "target": "article_same_pattern",
+      "type": "companion_to",
+      "epistemic_status": "record",
+      "note": "The cast is the same in every analog"
     }
   ],
   "epistemic_grammar": {
