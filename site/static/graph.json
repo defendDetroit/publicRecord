@@ -170102,6 +170102,741 @@
       "type": "evidence",
       "epistemic_status": "record",
       "note": "New OSINT data becomes evidence in the direct-ask articles."
+    },
+    {
+      "source": "dia",
+      "target": "cia",
+      "type": "parallel_to",
+      "epistemic_status": "record",
+      "note": "Military intel. Created after Bay of Pigs."
+    },
+    {
+      "source": "dia",
+      "target": "office_special_plans",
+      "type": "feith_used_dia",
+      "epistemic_status": "record",
+      "note": "Feith cherry-picked DIA analysts for WMD case"
+    },
+    {
+      "source": "dni",
+      "target": "cia",
+      "type": "coordinates",
+      "epistemic_status": "record",
+      "note": "Created 2004 to coordinate 18 agencies after Iraq failure"
+    },
+    {
+      "source": "dni",
+      "target": "wmd_null_chain",
+      "type": "created_because_of",
+      "epistemic_status": "record",
+      "note": "DNI exists because the WMD lie happened"
+    },
+    {
+      "source": "mi6_sis",
+      "target": "cia",
+      "type": "allied",
+      "epistemic_status": "record",
+      "note": "UK-US special relationship. Shared intel. Both wrong on Iraq."
+    },
+    {
+      "source": "mi6_sis",
+      "target": "curveball",
+      "type": "45_minutes_claim",
+      "epistemic_status": "record",
+      "note": "MI6 sourced the '45 minutes' WMD claim"
+    },
+    {
+      "source": "mi5",
+      "target": "mi6_sis",
+      "type": "domestic_foreign",
+      "epistemic_status": "record",
+      "note": "MI5 domestic, MI6 foreign. Same building. Different mission."
+    },
+    {
+      "source": "mi5",
+      "target": "five_eyes",
+      "type": "member_uk_domestic",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "mossad",
+      "target": "cia",
+      "type": "allied",
+      "epistemic_status": "record",
+      "note": "Israel-US intel sharing. Stuxnet collaboration."
+    },
+    {
+      "source": "mossad",
+      "target": "five_eyes",
+      "type": "partner_not_member",
+      "epistemic_status": "record",
+      "note": "Israel not Five Eyes but close partner"
+    },
+    {
+      "source": "shin_bet",
+      "target": "mossad",
+      "type": "domestic_foreign",
+      "epistemic_status": "record",
+      "note": "Shin Bet domestic, Mossad foreign"
+    },
+    {
+      "source": "aman",
+      "target": "mossad",
+      "type": "military_civilian",
+      "epistemic_status": "record",
+      "note": "Aman military, Mossad civilian. Unit 8200."
+    },
+    {
+      "source": "bnd",
+      "target": "cia",
+      "type": "allied",
+      "epistemic_status": "record",
+      "note": "German intel. Founded by ex-Nazi Gehlen with US help."
+    },
+    {
+      "source": "bnd",
+      "target": "operation_paperclip",
+      "type": "origin",
+      "epistemic_status": "record",
+      "note": "BND founder Gehlen was a Nazi. US hired him."
+    },
+    {
+      "source": "dgse",
+      "target": "cia",
+      "type": "sometimes_allied",
+      "epistemic_status": "record",
+      "note": "France sank Greenpeace ship. Not always on same page."
+    },
+    {
+      "source": "isi",
+      "target": "cia",
+      "type": "double_game",
+      "epistemic_status": "record",
+      "note": "ISI: US ally + Taliban supporter. CIA funded mujahideen through ISI."
+    },
+    {
+      "source": "mss",
+      "target": "five_eyes",
+      "type": "adversary",
+      "epistemic_status": "record",
+      "note": "China is primary intelligence adversary of Five Eyes"
+    },
+    {
+      "source": "abu_ghraib",
+      "target": "rumsfeld_wmd",
+      "type": "authorized",
+      "epistemic_status": "record",
+      "note": "Rumsfeld approved interrogation techniques"
+    },
+    {
+      "source": "abu_ghraib",
+      "target": "wmd_null_chain",
+      "type": "consequence",
+      "epistemic_status": "record",
+      "note": "Abu Ghraib: consequence of the WMD lie"
+    },
+    {
+      "source": "frank_olson",
+      "target": "mkultra",
+      "type": "victim",
+      "epistemic_status": "record",
+      "note": "CIA scientist given LSD without knowledge. Fell/pushed from window."
+    },
+    {
+      "source": "abc_conjecture",
+      "target": "millennium_problems",
+      "type": "related_unsolved",
+      "epistemic_status": "record",
+      "note": "Not a Millennium Problem but equally deep"
+    },
+    {
+      "source": "abc_conjecture",
+      "target": "riemann_hypothesis",
+      "type": "number_theory",
+      "epistemic_status": "record",
+      "note": "Both about deep structure of numbers"
+    },
+    {
+      "source": "gh_hardy",
+      "target": "srinivasa_ramanujan",
+      "type": "discovered",
+      "epistemic_status": "record",
+      "note": "Hardy recognized Ramanujan's genius from one letter"
+    },
+    {
+      "source": "gh_hardy",
+      "target": "riemann_hypothesis",
+      "type": "worked_on",
+      "epistemic_status": "record",
+      "note": "Hardy proved infinitely many zeros on the critical line"
+    },
+    {
+      "source": "john_von_neumann",
+      "target": "alan_turing",
+      "type": "contemporaries",
+      "epistemic_status": "record",
+      "note": "Both founders of computer science"
+    },
+    {
+      "source": "john_von_neumann",
+      "target": "kurt_godel",
+      "type": "princeton",
+      "epistemic_status": "record",
+      "note": "Both at Princeton IAS. von Neumann tried to hire Godel."
+    },
+    {
+      "source": "terence_tao",
+      "target": "twin_prime",
+      "type": "contributed",
+      "epistemic_status": "record",
+      "note": "Tao's Polymath reduced gap to 246"
+    },
+    {
+      "source": "twin_prime",
+      "target": "riemann_hypothesis",
+      "type": "prime_distribution",
+      "epistemic_status": "record",
+      "note": "Both about the distribution of primes"
+    },
+    {
+      "source": "terence_tao",
+      "target": "millennium_problems",
+      "type": "works_on",
+      "epistemic_status": "record",
+      "note": "Tao has contributed to multiple millennium-adjacent problems"
+    },
+    {
+      "source": "david_hilbert",
+      "target": "kurt_godel",
+      "type": "proved_wrong",
+      "epistemic_status": "record",
+      "note": "Hilbert: we must know. Godel: some things we can't."
+    },
+    {
+      "source": "collatz_conjecture",
+      "target": "riemann_hypothesis",
+      "type": "both_unsolved",
+      "epistemic_status": "record",
+      "note": "Both unsolved. One simple. One deep. Both stubborn."
+    },
+    {
+      "source": "alexander_grothendieck",
+      "target": "millennium_problems",
+      "type": "influenced",
+      "epistemic_status": "record",
+      "note": "Grothendieck's work underlies multiple millennium problems"
+    },
+    {
+      "source": "egyptian_pharaohs",
+      "target": "governance_pattern",
+      "type": "3000_years",
+      "epistemic_status": "record",
+      "note": "3,000 years of continuous civilization"
+    },
+    {
+      "source": "egyptian_pharaohs",
+      "target": "code_of_hammurabi",
+      "type": "contemporaries",
+      "epistemic_status": "record",
+      "note": "Both ancient Near East governance"
+    },
+    {
+      "source": "viking_thing",
+      "target": "governance_pattern",
+      "type": "oldest_parliament",
+      "epistemic_status": "record",
+      "note": "Althing 930 AD. Predates Magna Carta by 285 years."
+    },
+    {
+      "source": "viking_thing",
+      "target": "iroquois_confederacy",
+      "type": "consensus_democracy",
+      "epistemic_status": "record",
+      "note": "Both consensus-based. Both predate modern democracy."
+    },
+    {
+      "source": "doc_13th",
+      "target": "media_blitz",
+      "type": "tier_5_longform",
+      "epistemic_status": "record",
+      "note": "Ava DuVernay. Mass incarceration documentary."
+    },
+    {
+      "source": "doc_13th",
+      "target": "marshall_project",
+      "type": "criminal_justice",
+      "epistemic_status": "record",
+      "note": "Both cover criminal justice"
+    },
+    {
+      "source": "patriot_act",
+      "target": "media_blitz",
+      "type": "tier_5_longform",
+      "epistemic_status": "record",
+      "note": "Hasan Minhaj. Education segments."
+    },
+    {
+      "source": "pod_radiolab",
+      "target": "media_blitz",
+      "type": "tier_5_longform",
+      "epistemic_status": "record",
+      "note": "Science + society"
+    },
+    {
+      "source": "national_urban_league",
+      "target": "media_blitz",
+      "type": "tier_4_civil_rights",
+      "epistemic_status": "record",
+      "note": "Marc Morial. Detroit chapter."
+    },
+    {
+      "source": "national_urban_league",
+      "target": "detroit_urban_league",
+      "type": "national_chapter",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "public_interest_law_center",
+      "target": "media_blitz",
+      "type": "tier_4_civil_rights",
+      "epistemic_status": "record",
+      "note": "Charter accountability litigation"
+    },
+    {
+      "source": "public_interest_law_center",
+      "target": "education_law_center",
+      "type": "parallel",
+      "epistemic_status": "record",
+      "note": "Both litigate education equity"
+    },
+    {
+      "source": "known_bi_partisan",
+      "target": "charter_architecture",
+      "type": "400_orgs",
+      "epistemic_status": "record",
+      "note": "400+ orgs called for accountability across party lines"
+    },
+    {
+      "source": "michigan_league_public_policy",
+      "target": "media_blitz",
+      "type": "tier_3_advocacy",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "michigan_league_public_policy",
+      "target": "charter_architecture",
+      "type": "anti_poverty",
+      "epistemic_status": "record",
+      "note": "Education funding analysis"
+    },
+    {
+      "source": "michigan_parents_education",
+      "target": "media_blitz",
+      "type": "tier_3_advocacy",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "michigan_parents_education",
+      "target": "charter_architecture",
+      "type": "parent_voice",
+      "epistemic_status": "record",
+      "note": "Parent organizing for public school funding"
+    },
+    {
+      "source": "edu_michigan_future",
+      "target": "media_blitz",
+      "type": "tier_3_advocacy",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "hope_starts_here",
+      "target": "media_blitz",
+      "type": "tier_3_advocacy",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "hope_starts_here",
+      "target": "elnc",
+      "type": "early_childhood",
+      "epistemic_status": "record",
+      "note": "Both Detroit early childhood"
+    },
+    {
+      "source": "raise_michigan",
+      "target": "media_blitz",
+      "type": "tier_3_advocacy",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "raise_michigan",
+      "target": "hope_starts_here",
+      "type": "early_childhood",
+      "epistemic_status": "record",
+      "note": "Both 0-8 focus"
+    },
+    {
+      "source": "detroit_inspector_general",
+      "target": "detroit_oig",
+      "type": "same_entity",
+      "epistemic_status": "record",
+      "note": "Inspector General = OIG"
+    },
+    {
+      "source": "osint_osha",
+      "target": "osint_entry_map",
+      "type": "additional_source",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "osint_edfacts",
+      "target": "osint_entry_map",
+      "type": "additional_source",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "osint_edfacts",
+      "target": "osint_mde_scorecard",
+      "type": "federal_complement",
+      "epistemic_status": "record",
+      "note": "Federal education data complements state"
+    },
+    {
+      "source": "osint_fdic",
+      "target": "osint_entry_map",
+      "type": "additional_source",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "osint_nmls",
+      "target": "osint_entry_map",
+      "type": "additional_source",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "osint_death_records",
+      "target": "osint_entry_map",
+      "type": "additional_source",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "osint_death_records",
+      "target": "banks",
+      "type": "verify",
+      "epistemic_status": "record",
+      "note": "Are any 'board members' deceased? It happens in fraud."
+    },
+    {
+      "source": "lamar_moreland_response",
+      "target": "lamar_moreland",
+      "type": "signal",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "lamar_moreland_response",
+      "target": "moreland",
+      "type": "connected_to",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "pres_george_w_bush",
+      "target": "john_roberts_cj",
+      "type": "appointed",
+      "epistemic_status": "record",
+      "note": "2005. 78-22."
+    },
+    {
+      "source": "pres_george_w_bush",
+      "target": "samuel_alito_j",
+      "type": "appointed",
+      "epistemic_status": "record",
+      "note": "2006. 58-42."
+    },
+    {
+      "source": "pres_barack_obama",
+      "target": "sonia_sotomayor_j",
+      "type": "appointed",
+      "epistemic_status": "record",
+      "note": "2009. 68-31. First Hispanic."
+    },
+    {
+      "source": "pres_barack_obama",
+      "target": "elena_kagan_j",
+      "type": "appointed",
+      "epistemic_status": "record",
+      "note": "2010. 63-37. Former SG."
+    },
+    {
+      "source": "trump",
+      "target": "neil_gorsuch_j",
+      "type": "appointed",
+      "epistemic_status": "record",
+      "note": "2017. 54-45. The stolen seat."
+    },
+    {
+      "source": "trump",
+      "target": "brett_kavanaugh_j",
+      "type": "appointed",
+      "epistemic_status": "record",
+      "note": "2018. 50-48. Blasey Ford testimony."
+    },
+    {
+      "source": "trump",
+      "target": "amy_coney_barrett_j",
+      "type": "appointed",
+      "epistemic_status": "record",
+      "note": "2020. 52-48. 8 days before election."
+    },
+    {
+      "source": "pres_joe_biden",
+      "target": "ketanji_brown_jackson_j",
+      "type": "appointed",
+      "epistemic_status": "record",
+      "note": "2022. 53-47. First Black woman."
+    },
+    {
+      "source": "clarence_thomas_j",
+      "target": "betsy_devos",
+      "type": "ideological_allies",
+      "epistemic_status": "record",
+      "note": "Both conservative. Thomas wife Ginni active in right-wing politics."
+    },
+    {
+      "source": "samuel_alito_j",
+      "target": "governance_pattern",
+      "type": "dobbs",
+      "epistemic_status": "record",
+      "note": "Alito wrote Dobbs. Overturned 50 years of precedent. Power of interpretation."
+    },
+    {
+      "source": "john_roberts_cj",
+      "target": "election_2000",
+      "type": "bush_v_gore",
+      "epistemic_status": "record",
+      "note": "Roberts was on Bush legal team for Florida recount before becoming CJ"
+    },
+    {
+      "source": "ap_investigations",
+      "target": "article_banks_direct",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Wire service = every outlet picks it up"
+    },
+    {
+      "source": "democracy_now",
+      "target": "article_devos_direct",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Amy Goodman. DeVos story."
+    },
+    {
+      "source": "deadline_detroit",
+      "target": "article_banks_direct",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Allan Lengel. Detroit investigative."
+    },
+    {
+      "source": "detroit_action",
+      "target": "article_sheffield_direct",
+      "type": "community_pressure",
+      "epistemic_status": "record",
+      "note": "Community org -> Mayor"
+    },
+    {
+      "source": "detroit_justice_center",
+      "target": "article_worthy_direct",
+      "type": "legal_analysis",
+      "epistemic_status": "record",
+      "note": "Legal org -> Prosecutor"
+    },
+    {
+      "source": "detroit_peoples_platform",
+      "target": "article_council_direct",
+      "type": "community_pressure",
+      "epistemic_status": "record",
+      "note": "Community org -> Council"
+    },
+    {
+      "source": "color_of_change",
+      "target": "article_devos_direct",
+      "type": "corporate_accountability",
+      "epistemic_status": "record",
+      "note": "Rashad Robinson. Corporate pressure."
+    },
+    {
+      "source": "brennan_center",
+      "target": "article_legislature_direct",
+      "type": "democracy_reform",
+      "epistemic_status": "record",
+      "note": "Voting rights + government reform"
+    },
+    {
+      "source": "education_law_center",
+      "target": "article_sbe_direct",
+      "type": "legal_expertise",
+      "epistemic_status": "record",
+      "note": "School finance litigation"
+    },
+    {
+      "source": "advancement_project",
+      "target": "article_banks_direct",
+      "type": "civil_rights",
+      "epistemic_status": "record",
+      "note": "Multi-racial civil rights"
+    },
+    {
+      "source": "education_post",
+      "target": "article_banks_direct",
+      "type": "education_media",
+      "epistemic_status": "record",
+      "note": "Chris Stewart. Pro-accountability."
+    },
+    {
+      "source": "curveball",
+      "target": "cia",
+      "type": "source_for",
+      "epistemic_status": "record",
+      "note": "CIA used Curveball despite BND warnings"
+    },
+    {
+      "source": "curveball",
+      "target": "bnd",
+      "type": "debriefed_by",
+      "epistemic_status": "record",
+      "note": "BND debriefed Curveball in Germany 1999"
+    },
+    {
+      "source": "doug_feith",
+      "target": "pnac",
+      "type": "signatory",
+      "epistemic_status": "record",
+      "note": "PNAC letter signatory"
+    },
+    {
+      "source": "doug_feith",
+      "target": "rumsfeld_wmd",
+      "type": "reported_to",
+      "epistemic_status": "record",
+      "note": "Feith was Undersecretary under Rumsfeld"
+    },
+    {
+      "source": "ahmed_chalabi",
+      "target": "cia",
+      "type": "funded_by",
+      "epistemic_status": "record",
+      "note": "CIA gave INC $100M+"
+    },
+    {
+      "source": "ahmed_chalabi",
+      "target": "pnac",
+      "type": "useful_to",
+      "epistemic_status": "record",
+      "note": "Neocons used Chalabi as their Iraqi"
+    },
+    {
+      "source": "election_1788",
+      "target": "us_presidential_elections",
+      "type": "first_election",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "election_1792",
+      "target": "us_presidential_elections",
+      "type": "second_election",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "election_1824",
+      "target": "us_presidential_elections",
+      "type": "corrupt_bargain",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "damages_mde",
+      "target": "osint_mde_scorecard",
+      "type": "evidence_source",
+      "epistemic_status": "record",
+      "note": "MDE Scorecard data IS the evidence for damages claim against MDE"
+    },
+    {
+      "source": "damages_mde",
+      "target": "damages_chain",
+      "type": "tier_3",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "alexander_grothendieck",
+      "target": "the_gift",
+      "type": "walked_away",
+      "epistemic_status": "record",
+      "note": "Quit mathematics on principle. YES signal."
+    },
+    {
+      "source": "drake_circumnavigation",
+      "target": "magellan_circumnavigation",
+      "type": "second_after_first",
+      "epistemic_status": "record",
+      "note": "Drake 1580. Second circumnavigation. 58 years after Magellan."
+    },
+    {
+      "source": "cyrus_cylinder",
+      "target": "governance_pattern",
+      "type": "first_human_rights",
+      "epistemic_status": "record",
+      "note": "539 BC. First declaration of human rights. Carved in clay."
+    },
+    {
+      "source": "cp5_trump_ad",
+      "target": "trump",
+      "type": "1989_ad",
+      "epistemic_status": "record",
+      "note": "Trump took out full-page ad calling for death penalty for Exonerated Five"
+    },
+    {
+      "source": "cp5_trump_ad",
+      "target": "election_2016",
+      "type": "character",
+      "epistemic_status": "record",
+      "note": "Same man who wanted innocent teenagers executed became president"
+    },
+    {
+      "source": "detroit_police_commission",
+      "target": "detroit_city_council",
+      "type": "appointed_by",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "detroit_city_planning_commission",
+      "target": "detroit_city_council",
+      "type": "reports_to",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "detroit_board_review",
+      "target": "detroit_city_council",
+      "type": "reports_to",
+      "epistemic_status": "record",
+      "note": ""
     }
   ],
   "epistemic_grammar": {
