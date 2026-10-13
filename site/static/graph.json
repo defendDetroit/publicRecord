@@ -68913,6 +68913,19 @@
         "legal",
         "protected_speech"
       ]
+    },
+    {
+      "id": "article_momentum",
+      "label": "ARTICLE: The Momentum Is Building -- Who Will Break First?",
+      "class": "article",
+      "role": "THE MOMENTUM IS BUILDING.\n\n110 different sources are pressuring PCA.\n69 different sources are pressuring Banks.\n40 different sources are pressuring MDE.\n\nAnd they are ALL SILENT.\n\nMDE: 40 sources of pressure pointing at you.\nParents. Journalists. Legislators. Advocates. Data.\nEvidence. Convictions. Audits. Filings.\nALL pointing at you.\nYour response: silence.\n\nDETROIT OIG: 14 sources of pressure.\nA man with 9 convictions runs a school in your city.\nYour officers took false police reports.\nYour response: silence.\n\nDPSCD: 18 sources of pressure.\nPCA operates in YOUR district. Siphons YOUR per-pupil funding.\nYour superintendent makes $280,000/year.\nYour response: silence.\n\nWAYNE COUNTY CIRCUIT COURT: 10 sources of pressure.\nFalse reports. PPOs used as weapons. Perjury.\nAll in your jurisdiction.\nYour response: silence.\n\nTHE MOMENTUM IS MATH.\n\nEvery day of silence adds another source of pressure.\nEvery article adds another question.\nEvery epitope adds another fact.\nEvery node adds another connection.\n\nThe graph was 5,099 nodes two days ago.\nIt's 5,668 now.\n+569 nodes in 48 hours.\n+3,400 edges in 48 hours.\n\nThat's the momentum.\n\nWho will break first?\n\nBanks can't answer because the answers are convictions.\nPerkins can't answer because she chose the wrong door.\nHolland can't answer because he's a narcotics trafficker.\nBeasley can't answer because she's on the board.\n\nMDE can answer. They choose not to.\nThe OIG can answer. They choose not to.\nDPSCD can answer. They choose not to.\nThe court can answer. They choose not to.\n\nBut the momentum doesn't care about choices.\nThe momentum is math.\nAnd the math says: someone breaks.\n\n124 articles. 172 direct questions. 15,764 edges.\n\nThe graph doesn't get tired.\nThe graph doesn't get scared.\nThe graph doesn't go home.\n\nThe graph just grows.\n\nWho will break first?",
+      "tags": [
+        "article",
+        "investigation",
+        "scathing",
+        "momentum",
+        "accountability"
+      ]
     }
   ],
   "edges": [
@@ -192650,6 +192663,356 @@
       "type": "reports_to",
       "epistemic_status": "record",
       "note": "ferris_state reports authorization status to MDE"
+    },
+    {
+      "source": "mde",
+      "target": "banks",
+      "type": "should_investigate",
+      "epistemic_status": "record",
+      "note": "MDE has 40 pressure sources pointing at it. Why isn't it investigating Banks?"
+    },
+    {
+      "source": "mde",
+      "target": "pca",
+      "type": "should_investigate",
+      "epistemic_status": "record",
+      "note": "MDE should investigate PCA operations"
+    },
+    {
+      "source": "mde",
+      "target": "purpose_foundation",
+      "type": "should_audit",
+      "epistemic_status": "record",
+      "note": "MDE should audit Purpose Foundation"
+    },
+    {
+      "source": "mde",
+      "target": "cmu",
+      "type": "should_answer",
+      "epistemic_status": "record",
+      "note": "MDE should ask CMU why Banks was authorized"
+    },
+    {
+      "source": "detroit_oig",
+      "target": "banks",
+      "type": "should_investigate",
+      "epistemic_status": "record",
+      "note": "OIG should investigate Banks operations in Detroit"
+    },
+    {
+      "source": "detroit_oig",
+      "target": "pca",
+      "type": "should_investigate",
+      "epistemic_status": "record",
+      "note": "OIG should investigate PCA"
+    },
+    {
+      "source": "detroit_oig",
+      "target": "det_5th_precinct",
+      "type": "should_investigate",
+      "epistemic_status": "record",
+      "note": "OIG should investigate 5th Precinct false reports"
+    },
+    {
+      "source": "detroit_oig",
+      "target": "false_reports_banks_smith",
+      "type": "should_investigate",
+      "epistemic_status": "record",
+      "note": "OIG should investigate false reports"
+    },
+    {
+      "source": "dpscd",
+      "target": "banks",
+      "type": "should_answer",
+      "epistemic_status": "record",
+      "note": "DPSCD: Banks operates in your district. What are you doing?"
+    },
+    {
+      "source": "dpscd",
+      "target": "pca",
+      "type": "should_investigate",
+      "epistemic_status": "record",
+      "note": "DPSCD should investigate PCA in its district"
+    },
+    {
+      "source": "detroit_city",
+      "target": "banks",
+      "type": "should_answer",
+      "epistemic_status": "record",
+      "note": "City of Detroit: 9 convictions running a school in your city"
+    },
+    {
+      "source": "detroit_city",
+      "target": "det_5th_precinct",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "City oversees DPD 5th Precinct"
+    },
+    {
+      "source": "wayne_county_circuit_court",
+      "target": "banks",
+      "type": "jurisdiction",
+      "epistemic_status": "record",
+      "note": "Banks cases in Wayne County court"
+    },
+    {
+      "source": "wayne_county_circuit_court",
+      "target": "false_reports_banks_smith",
+      "type": "should_investigate",
+      "epistemic_status": "record",
+      "note": "False reports filed in Wayne County"
+    },
+    {
+      "source": "purpose_foundation",
+      "target": "banks",
+      "type": "employs",
+      "epistemic_status": "record",
+      "note": "Purpose Foundation employs Banks as operator"
+    },
+    {
+      "source": "purpose_foundation",
+      "target": "joseph_holland",
+      "type": "employs",
+      "epistemic_status": "record",
+      "note": "Purpose Foundation employs Holland as treasurer"
+    },
+    {
+      "source": "ms_perkins_pca",
+      "target": "banks",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "Perkins screens calls FOR Banks"
+    },
+    {
+      "source": "sbe",
+      "target": "mde",
+      "type": "should_answer",
+      "epistemic_status": "record",
+      "note": "SBE should demand MDE investigate Banks"
+    },
+    {
+      "source": "sbe",
+      "target": "cmu",
+      "type": "should_answer",
+      "epistemic_status": "record",
+      "note": "SBE should ask CMU about PCA authorization"
+    },
+    {
+      "source": "article_momentum",
+      "target": "mde",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "mde -- your silence is the story"
+    },
+    {
+      "source": "article_momentum",
+      "target": "detroit_oig",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "detroit_oig -- your silence is the story"
+    },
+    {
+      "source": "article_momentum",
+      "target": "dpscd",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "dpscd -- your silence is the story"
+    },
+    {
+      "source": "article_momentum",
+      "target": "detroit_city",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "detroit_city -- your silence is the story"
+    },
+    {
+      "source": "article_momentum",
+      "target": "wayne_county_circuit_court",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "wayne_county_circuit_court -- your silence is the story"
+    },
+    {
+      "source": "article_momentum",
+      "target": "purpose_foundation",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "purpose_foundation -- your silence is the story"
+    },
+    {
+      "source": "article_momentum",
+      "target": "ms_perkins_pca",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "ms_perkins_pca -- your silence is the story"
+    },
+    {
+      "source": "article_momentum",
+      "target": "sbe",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "sbe -- your silence is the story"
+    },
+    {
+      "source": "article_momentum",
+      "target": "kym_worthy",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "kym_worthy -- your silence is the story"
+    },
+    {
+      "source": "article_momentum",
+      "target": "banks",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "All momentum points at Banks"
+    },
+    {
+      "source": "article_momentum",
+      "target": "pca",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "PCA is the convergence point"
+    },
+    {
+      "source": "article_momentum",
+      "target": "damages_chain",
+      "type": "connected_to_investigation",
+      "epistemic_status": "record",
+      "note": "Momentum adds to damages"
+    },
+    {
+      "source": "article_momentum",
+      "target": "article_oversight_failure",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Connected pressure article"
+    },
+    {
+      "source": "article_momentum",
+      "target": "article_1_8_million",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Connected pressure article"
+    },
+    {
+      "source": "article_momentum",
+      "target": "article_who_does_the_work",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Connected pressure article"
+    },
+    {
+      "source": "article_momentum",
+      "target": "article_nessel_badge",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Connected pressure article"
+    },
+    {
+      "source": "article_momentum",
+      "target": "article_worthy_wont",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Connected pressure article"
+    },
+    {
+      "source": "article_momentum",
+      "target": "article_chief_white",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Connected pressure article"
+    },
+    {
+      "source": "article_momentum",
+      "target": "article_holland_exposed",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Connected pressure article"
+    },
+    {
+      "source": "article_momentum",
+      "target": "article_perkins_gatekeeper",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Connected pressure article"
+    },
+    {
+      "source": "article_momentum",
+      "target": "detroit_free_press",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Momentum story for coverage"
+    },
+    {
+      "source": "article_momentum",
+      "target": "michigan_advance",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Momentum story for coverage"
+    },
+    {
+      "source": "article_momentum",
+      "target": "chalkbeat_detroit",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Momentum story for coverage"
+    },
+    {
+      "source": "article_momentum",
+      "target": "wxyz_channel7",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Momentum story for coverage"
+    },
+    {
+      "source": "article_momentum",
+      "target": "deadline_detroit",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Momentum story for coverage"
+    },
+    {
+      "source": "article_momentum",
+      "target": "wdiv_local4",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Momentum story for coverage"
+    },
+    {
+      "source": "article_momentum",
+      "target": "propublica",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Momentum story for coverage"
+    },
+    {
+      "source": "article_momentum",
+      "target": "the_intercept",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Momentum story for coverage"
+    },
+    {
+      "source": "article_momentum",
+      "target": "marshall_project",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Momentum story for coverage"
+    },
+    {
+      "source": "article_momentum",
+      "target": "michigan_radio",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Momentum story for coverage"
+    },
+    {
+      "source": "article_momentum",
+      "target": "mlive",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Momentum story for coverage"
     }
   ],
   "epistemic_grammar": {
