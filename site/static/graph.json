@@ -67520,6 +67520,99 @@
         "false_report",
         "police"
       ]
+    },
+    {
+      "id": "henry_plante",
+      "label": "Henry Plante (co-founder, Plante Moran)",
+      "class": "entity",
+      "role": "Henry Plante. Co-founded Plante & Moran in 1924 with Frank Moran. His name is on every audit that enabled this. Is the Plante family aware? Are they cool with it?",
+      "tags": [
+        "investigation",
+        "plante_moran",
+        "founder",
+        "named_entity",
+        "accountability"
+      ]
+    },
+    {
+      "id": "james_mestdagh",
+      "label": "James Mestdagh (Managing Partner, Plante Moran)",
+      "class": "entity",
+      "role": "James Mestdagh. Current Managing Partner of Plante Moran. He signs off. He leads the firm. He is responsible. Does he know about Brian Banks? Does he know about the 9 convictions? Does he know his firm audits the finances of a school run by a convicted felon? Avoiding this question increases the cost. It doesn't decrease it.",
+      "tags": [
+        "investigation",
+        "plante_moran",
+        "leadership",
+        "named_entity",
+        "accountability"
+      ]
+    },
+    {
+      "id": "john_dykema",
+      "label": "John Dykema (founder, Dykema Gossett)",
+      "class": "entity",
+      "role": "John Dykema. Founded Dykema Gossett PLLC. His name is on the firm that provides legal cover for charter school operators. Is the Dykema family aware what is being done in their name? Are they cool with it?",
+      "tags": [
+        "investigation",
+        "dykema",
+        "founder",
+        "named_entity",
+        "accountability"
+      ]
+    },
+    {
+      "id": "peter_kellett",
+      "label": "Peter Kellett (CEO/Member in Charge, Dykema Gossett)",
+      "class": "entity",
+      "role": "Peter Kellett. CEO and Member in Charge of Dykema Gossett PLLC. He leads the firm. He is responsible. Does he know his firm's work enables charter school operators with criminal records? Will he answer that question? We will ask in front of the jury if he won't answer now.",
+      "tags": [
+        "investigation",
+        "dykema",
+        "leadership",
+        "named_entity",
+        "accountability"
+      ]
+    },
+    {
+      "id": "barton_malow_family",
+      "label": "The Barton and Malow Families (founders, Barton Malow)",
+      "class": "entity",
+      "role": "Carl Barton and C. Malow. Founded Barton Malow Company. Their name is on the construction company. Are the families aware what contracts are executed under their name? Are they cool with it?",
+      "tags": [
+        "investigation",
+        "barton_malow",
+        "founder",
+        "named_entity",
+        "accountability"
+      ]
+    },
+    {
+      "id": "article_named_entities",
+      "label": "ARTICLE: Is Moran the Person Aware? Are You Cool With It?",
+      "class": "article",
+      "role": "IS MORAN THE PERSON AWARE WHAT'S HAPPENING IN HIS NAME?\n\nIs he cool with it?\n\nBecause I'll be asking these questions in front of the jury as well.\n\nI want to know, and I will find out.\n\nTHEM AVOIDING ACCOUNTABILITY INCREASES THE COST THEY PAY ME.\nIT DOES NOT DECREASE IT.\n\nEvery named entity in this investigation carries someone's name.\nA person. A family. A legacy. And that name is on the work.\n\nPLANTE MORAN:\nFrank Moran and Henry Plante founded this firm in 1924.\nJames Mestdagh runs it now.\nTheir firm audits the finances of schools run by Brian Banks.\nBrian Banks has 9 criminal convictions.\nDoes Mestdagh know? Does the Moran family know?\nAre they cool with it?\n\nDYKEMA GOSSETT:\nJohn Dykema's name is on this firm.\nPeter Kellett runs it now.\nTheir attorneys provide legal cover for charter school operators.\nDo they know who they're covering for?\nAre they cool with it?\n\nBARTON MALOW:\nCarl Barton and C. Malow built this company.\nTheir name is on construction contracts connected to this network.\nDo the families know?\n\nWALTON FAMILY FOUNDATION:\nSam Walton's wealth funds charter expansion.\nThe Waltons know exactly what they fund. They chose this.\n\nDEVOS FAMILY:\nThe DeVos family wrote PA 362.\nThey built the pipeline.\nThey know.\n\nNATIONAL HERITAGE ACADEMIES:\nJ.C. Huizenga built this empire under PA 362.\nHe knows.\n\nEVERY NAMED ENTITY:\nYour name is on this work.\nYour name is in this graph.\nYour name will be in front of the jury.\n\nAvoiding the question does not make it go away.\nIt makes the damages larger.\n\nEvery day you don't answer is another day of complicity.\nEvery silence is consent to what Banks is doing to children.\n\nI want to know.\nI will find out.\nAnd so will the jury.",
+      "tags": [
+        "article",
+        "investigation",
+        "accountability",
+        "named_entity",
+        "legal",
+        "jury",
+        "damages"
+      ]
+    },
+    {
+      "id": "avoidance_increases_cost",
+      "label": "Avoidance Increases the Cost -- It Does Not Decrease It",
+      "class": "entity",
+      "role": "Legal principle and investigative reality: Every entity that avoids answering questions about their role in enabling Brian Banks and the charter school pipeline increases their exposure, not decreases it. Silence is not a defense. Silence is evidence of knowledge. The jury will hear every question they refused to answer. The jury will see every email they didn't respond to. The cost goes UP with time, not down.",
+      "tags": [
+        "investigation",
+        "legal",
+        "damages",
+        "accountability",
+        "principle"
+      ]
     }
   ],
   "edges": [
@@ -183305,6 +183398,300 @@
       "type": "send_to",
       "epistemic_status": "record",
       "note": "Where's the video story for coverage"
+    },
+    {
+      "source": "frank_moran",
+      "target": "plante_moran",
+      "type": "founded",
+      "epistemic_status": "record",
+      "note": "Co-founded Plante Moran 1924"
+    },
+    {
+      "source": "henry_plante",
+      "target": "plante_moran",
+      "type": "founded",
+      "epistemic_status": "record",
+      "note": "Co-founded Plante Moran 1924"
+    },
+    {
+      "source": "james_mestdagh",
+      "target": "plante_moran",
+      "type": "leadership",
+      "epistemic_status": "record",
+      "note": "Current Managing Partner"
+    },
+    {
+      "source": "frank_moran",
+      "target": "henry_plante",
+      "type": "co_founder",
+      "epistemic_status": "record",
+      "note": "Co-founders"
+    },
+    {
+      "source": "john_dykema",
+      "target": "dykema",
+      "type": "founded",
+      "epistemic_status": "record",
+      "note": "Founded Dykema Gossett"
+    },
+    {
+      "source": "peter_kellett",
+      "target": "dykema",
+      "type": "leadership",
+      "epistemic_status": "record",
+      "note": "CEO / Member in Charge"
+    },
+    {
+      "source": "james_mestdagh",
+      "target": "pca",
+      "type": "should_answer",
+      "epistemic_status": "record",
+      "note": "Does he know his firm enables this school?"
+    },
+    {
+      "source": "james_mestdagh",
+      "target": "signal_response",
+      "type": "NULL",
+      "epistemic_status": "record",
+      "note": "Has not answered"
+    },
+    {
+      "source": "peter_kellett",
+      "target": "pca",
+      "type": "should_answer",
+      "epistemic_status": "record",
+      "note": "Does he know his firm enables this school?"
+    },
+    {
+      "source": "peter_kellett",
+      "target": "signal_response",
+      "type": "NULL",
+      "epistemic_status": "record",
+      "note": "Has not answered"
+    },
+    {
+      "source": "avoidance_increases_cost",
+      "target": "damages_chain",
+      "type": "connected_to_investigation",
+      "epistemic_status": "record",
+      "note": "Avoidance adds to damages"
+    },
+    {
+      "source": "avoidance_increases_cost",
+      "target": "plante_moran",
+      "type": "applies_to",
+      "epistemic_status": "record",
+      "note": "PM avoiding increases their cost"
+    },
+    {
+      "source": "avoidance_increases_cost",
+      "target": "dykema",
+      "type": "applies_to",
+      "epistemic_status": "record",
+      "note": "Dykema avoiding increases their cost"
+    },
+    {
+      "source": "article_named_entities",
+      "target": "frank_moran",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Is Moran the person aware?"
+    },
+    {
+      "source": "article_named_entities",
+      "target": "henry_plante",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Is Plante the person aware?"
+    },
+    {
+      "source": "article_named_entities",
+      "target": "james_mestdagh",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Does Mestdagh know?"
+    },
+    {
+      "source": "article_named_entities",
+      "target": "john_dykema",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Is Dykema the person aware?"
+    },
+    {
+      "source": "article_named_entities",
+      "target": "peter_kellett",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Does Kellett know?"
+    },
+    {
+      "source": "article_named_entities",
+      "target": "barton_malow_family",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Do the families know?"
+    },
+    {
+      "source": "article_named_entities",
+      "target": "sam_walton",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "The Waltons know what they fund"
+    },
+    {
+      "source": "article_named_entities",
+      "target": "plante_moran",
+      "type": "analyzes",
+      "epistemic_status": "record",
+      "note": "Plante Moran named"
+    },
+    {
+      "source": "article_named_entities",
+      "target": "dykema",
+      "type": "analyzes",
+      "epistemic_status": "record",
+      "note": "Dykema Gossett named"
+    },
+    {
+      "source": "article_named_entities",
+      "target": "walton_family_foundation",
+      "type": "analyzes",
+      "epistemic_status": "record",
+      "note": "Walton Foundation named"
+    },
+    {
+      "source": "article_named_entities",
+      "target": "jc_huizenga",
+      "type": "analyzes",
+      "epistemic_status": "record",
+      "note": "Huizenga named"
+    },
+    {
+      "source": "article_named_entities",
+      "target": "national_heritage_academies",
+      "type": "analyzes",
+      "epistemic_status": "record",
+      "note": "NHA named"
+    },
+    {
+      "source": "article_named_entities",
+      "target": "pca",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "PCA is the building"
+    },
+    {
+      "source": "article_named_entities",
+      "target": "avoidance_increases_cost",
+      "type": "presents",
+      "epistemic_status": "record",
+      "note": "The principle: avoidance increases cost"
+    },
+    {
+      "source": "article_named_entities",
+      "target": "damages_chain",
+      "type": "connected_to_investigation",
+      "epistemic_status": "record",
+      "note": "Every silence adds to damages"
+    },
+    {
+      "source": "article_named_entities",
+      "target": "article_follow_the_money",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Named entity accountability"
+    },
+    {
+      "source": "article_named_entities",
+      "target": "article_by_the_numbers",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Named entity accountability"
+    },
+    {
+      "source": "article_named_entities",
+      "target": "article_wheres_the_video",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Named entity accountability"
+    },
+    {
+      "source": "article_named_entities",
+      "target": "article_smith_family",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Named entity accountability"
+    },
+    {
+      "source": "article_named_entities",
+      "target": "article_damages_register",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Named entity accountability"
+    },
+    {
+      "source": "article_named_entities",
+      "target": "detroit_free_press",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Named entity accountability story"
+    },
+    {
+      "source": "article_named_entities",
+      "target": "michigan_advance",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Named entity accountability story"
+    },
+    {
+      "source": "article_named_entities",
+      "target": "chalkbeat_detroit",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Named entity accountability story"
+    },
+    {
+      "source": "article_named_entities",
+      "target": "wxyz_channel7",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Named entity accountability story"
+    },
+    {
+      "source": "article_named_entities",
+      "target": "deadline_detroit",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Named entity accountability story"
+    },
+    {
+      "source": "article_named_entities",
+      "target": "propublica",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Named entity accountability story"
+    },
+    {
+      "source": "article_named_entities",
+      "target": "the_intercept",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Named entity accountability story"
+    },
+    {
+      "source": "article_named_entities",
+      "target": "marshall_project",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Named entity accountability story"
+    },
+    {
+      "source": "article_named_entities",
+      "target": "wdiv_local4",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "Named entity accountability story"
     }
   ],
   "epistemic_grammar": {
