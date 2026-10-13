@@ -57214,6 +57214,230 @@
         "non_self",
         "human"
       ]
+    },
+    {
+      "id": "slate_peoples_platform",
+      "label": "People's Platform Slate",
+      "class": "entity",
+      "role": "Progressive Detroit slate. Anti-Duggan. Endorsed council candidates as bloc. Grassroots.",
+      "tags": [
+        "political",
+        "detroit",
+        "slate"
+      ]
+    },
+    {
+      "id": "slate_team_detroit",
+      "label": "Team Detroit Slate",
+      "class": "entity",
+      "role": "Moderate Detroit slate. Business-aligned. Duggan orbit. Establishment.",
+      "tags": [
+        "political",
+        "detroit",
+        "slate"
+      ]
+    },
+    {
+      "id": "slate_d4_justice",
+      "label": "D4 Justice Coalition",
+      "class": "entity",
+      "role": "District 4 political coalition. Latisha Johnson's district. Eastside. Where the schools are. Where the children are.",
+      "tags": [
+        "political",
+        "detroit",
+        "slate"
+      ]
+    },
+    {
+      "id": "slate_charter_choice",
+      "label": "Charter School Choice Bloc",
+      "class": "entity",
+      "role": "Informal slate of candidates funded by charter school money. DeVos, GLEP, AFC. Not an official ticket but a pattern.",
+      "tags": [
+        "political",
+        "detroit",
+        "slate",
+        "charter_ecosystem"
+      ]
+    },
+    {
+      "id": "stallworth_dynasty",
+      "label": "Stallworth Political Dynasty",
+      "class": "entity",
+      "role": "Multi-generational Detroit political family. State reps, council members, connected to Banks orbit.",
+      "tags": [
+        "political",
+        "detroit",
+        "dynasty"
+      ]
+    },
+    {
+      "id": "kilpatrick_machine",
+      "label": "Kilpatrick Political Machine",
+      "class": "entity",
+      "role": "Kwame Kilpatrick's political network. Family, allies, donors, operatives. Convicted 2013. 28 years. Commuted by Trump 2021.",
+      "tags": [
+        "political",
+        "detroit",
+        "machine"
+      ]
+    },
+    {
+      "id": "wayne_county_dem",
+      "label": "Wayne County Democratic Party",
+      "class": "entity",
+      "role": "County-level party. Controls endorsements. Controls slate cards. The slate card IS the machine.",
+      "tags": [
+        "political",
+        "detroit"
+      ]
+    },
+    {
+      "id": "mi_dem_party",
+      "label": "Michigan Democratic Party",
+      "class": "entity",
+      "role": "State party. Lansing. Controls statewide endorsements. Funds candidates. The pipeline from local to state.",
+      "tags": [
+        "political",
+        "state"
+      ]
+    },
+    {
+      "id": "detroit_dem_party",
+      "label": "Detroit Democratic Party",
+      "class": "entity",
+      "role": "City-level party. Precinct delegates, district chairs. The ground level of the machine.",
+      "tags": [
+        "political",
+        "detroit"
+      ]
+    },
+    {
+      "id": "mi_gop",
+      "label": "Michigan Republican Party",
+      "class": "entity",
+      "role": "State party. DeVos family dominated. Charter school expansion. Dark money pipeline.",
+      "tags": [
+        "political",
+        "state",
+        "charter_ecosystem"
+      ]
+    },
+    {
+      "id": "wayne_county_commission",
+      "label": "Wayne County Commission",
+      "class": "entity",
+      "role": "15 members. Legislative body of Wayne County. Oversees Wayne County government. Largely invisible to most Detroiters.",
+      "tags": [
+        "political",
+        "detroit"
+      ]
+    },
+    {
+      "id": "wayne_county_exec",
+      "label": "Wayne County Executive",
+      "class": "entity",
+      "role": "Chief executive of Wayne County. Currently Warren Evans.",
+      "tags": [
+        "political",
+        "detroit"
+      ]
+    },
+    {
+      "id": "senate_ed_committee",
+      "label": "MI Senate Education Committee",
+      "class": "entity",
+      "role": "Where charter school bills live or die. Where PA 362 amendments are heard. The bottleneck.",
+      "tags": [
+        "political",
+        "state",
+        "education"
+      ]
+    },
+    {
+      "id": "house_ed_committee",
+      "label": "MI House Education Committee",
+      "class": "entity",
+      "role": "Companion committee. Where education bills originate in the House.",
+      "tags": [
+        "political",
+        "state",
+        "education"
+      ]
+    },
+    {
+      "id": "policy_pipeline",
+      "label": "The Policy Pipeline (State to Child)",
+      "class": "false_entity",
+      "role": "Legislature passes law. Governor signs. MDE implements. SBE oversees. Authorizer approves. School opens. Child enrolls. Every step is a failure point. PA 362 failed at every step.",
+      "tags": [
+        "structural",
+        "non_human"
+      ]
+    },
+    {
+      "id": "money_pipeline",
+      "label": "Dark Money Pipeline (DeVos to Child)",
+      "class": "false_entity",
+      "role": "DeVos family -> GLEP/AFC -> MI GOP -> Legislature -> PA 362 -> CMU authorizer -> Purpose Charter Academy -> Brian Banks -> 5,432 child-years. Follow the money all the way down.",
+      "tags": [
+        "structural",
+        "non_human",
+        "dark_money"
+      ]
+    },
+    {
+      "id": "judicial_elections_mi",
+      "label": "Michigan Judicial Elections",
+      "class": "entity",
+      "role": "Judges are elected in Michigan. Partisan nominations, nonpartisan ballots. The appearance of independence. DeVos money in judicial races.",
+      "tags": [
+        "political",
+        "judicial",
+        "state"
+      ]
+    },
+    {
+      "id": "dpscd_school_board",
+      "label": "DPSCD School Board",
+      "class": "entity",
+      "role": "7 elected members. Oversees Detroit public schools. Low-turnout elections. Charter lobby targets school board races.",
+      "tags": [
+        "political",
+        "detroit",
+        "education"
+      ]
+    },
+    {
+      "id": "precinct_delegates",
+      "label": "Precinct Delegates (Detroit)",
+      "class": "false_entity",
+      "role": "The ground floor of the political machine. 500+ precinct delegates in Detroit. They elect district chairs who elect county chairs who elect state chairs. The pyramid starts here. Most seats go unfilled. The machine runs on vacancies.",
+      "tags": [
+        "political",
+        "detroit",
+        "non_human"
+      ]
+    },
+    {
+      "id": "recall_mechanism",
+      "label": "Recall Elections (Michigan)",
+      "class": "false_entity",
+      "role": "Michigan allows recall of elected officials. Requires 25% of votes cast in last election. Has anyone recalled a school board member for authorizing a fraudulent school? No.",
+      "tags": [
+        "political",
+        "non_human"
+      ]
+    },
+    {
+      "id": "ballot_initiative_mi",
+      "label": "Michigan Ballot Initiatives",
+      "class": "false_entity",
+      "role": "Citizens can put laws on the ballot. PA 362 was NOT a ballot initiative. What if charter school accountability were put to a vote?",
+      "tags": [
+        "political",
+        "non_human"
+      ]
     }
   ],
   "edges": [
@@ -150312,6 +150536,601 @@
       "type": "from",
       "epistemic_status": "record",
       "note": "Michigan product. Public school pipeline."
+    },
+    {
+      "source": "slate_charter_choice",
+      "target": "great_lakes_education_project_full",
+      "type": "funding",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "slate_charter_choice",
+      "target": "michigan_association_public_school_academies",
+      "type": "allied",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "latisha_johnson_cc",
+      "target": "wayne_county_circuit_court",
+      "type": "jurisdiction",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "latisha_johnson_cc",
+      "target": "dpscd",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "Council oversees city including school-adjacent issues"
+    },
+    {
+      "source": "latisha_johnson_cc",
+      "target": "public_education",
+      "type": "jurisdiction",
+      "epistemic_status": "record",
+      "note": "D4 includes schools affected by charter extraction"
+    },
+    {
+      "source": "latisha_johnson_cc",
+      "target": "detroit_oig",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "Council oversees OIG"
+    },
+    {
+      "source": "cc_james_tate",
+      "target": "detroit_oig",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "Council oversees OIG"
+    },
+    {
+      "source": "cc_fred_durhal",
+      "target": "detroit_oig",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "Council oversees OIG"
+    },
+    {
+      "source": "cc_angela_whitfield",
+      "target": "detroit_oig",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "Council oversees OIG"
+    },
+    {
+      "source": "cc_scott_benson",
+      "target": "detroit_oig",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "Council oversees OIG"
+    },
+    {
+      "source": "cc_latisha_johnson_full",
+      "target": "detroit_oig",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "Council oversees OIG"
+    },
+    {
+      "source": "cc_mary_waters",
+      "target": "detroit_oig",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "Council oversees OIG"
+    },
+    {
+      "source": "cc_gabriela_santiago",
+      "target": "detroit_oig",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "Council oversees OIG"
+    },
+    {
+      "source": "cc_coleman_young_cc",
+      "target": "detroit_oig",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "Council oversees OIG"
+    },
+    {
+      "source": "misha_stallworth",
+      "target": "stallworth_dynasty",
+      "type": "member",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "wells_stallworth",
+      "target": "stallworth_dynasty",
+      "type": "member",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "keith_stallworth",
+      "target": "stallworth_dynasty",
+      "type": "member",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "stallworth_t",
+      "target": "stallworth_dynasty",
+      "type": "member",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "alma_stallworth",
+      "target": "stallworth_dynasty",
+      "type": "member",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "stallworth_dynasty",
+      "target": "banks",
+      "type": "political",
+      "epistemic_status": "record",
+      "note": "Dynasty orbits Banks network"
+    },
+    {
+      "source": "stallworth_dynasty",
+      "target": "detroit_city",
+      "type": "political",
+      "epistemic_status": "record",
+      "note": "Multi-generational Detroit political family"
+    },
+    {
+      "source": "stallworth_dynasty",
+      "target": "michigan_legislature",
+      "type": "political",
+      "epistemic_status": "record",
+      "note": "State reps from the dynasty"
+    },
+    {
+      "source": "kilpatrick_machine",
+      "target": "detroit_city",
+      "type": "controlled",
+      "epistemic_status": "record",
+      "note": "2002-2008"
+    },
+    {
+      "source": "kilpatrick_machine",
+      "target": "banks",
+      "type": "political",
+      "epistemic_status": "record",
+      "note": "Banks operated within Kilpatrick's Detroit"
+    },
+    {
+      "source": "carolyn_kilpatrick",
+      "target": "kilpatrick_machine",
+      "type": "family",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "carolyn_kilpatrick",
+      "target": "michigan_legislature",
+      "type": "former_member",
+      "epistemic_status": "record",
+      "note": "US Representative"
+    },
+    {
+      "source": "detroit_dem_party",
+      "target": "wayne_county_dem",
+      "type": "part_of",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "wayne_county_dem",
+      "target": "mi_dem_party",
+      "type": "part_of",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "detroit_dem_party",
+      "target": "detroit_city_council",
+      "type": "endorses",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "wayne_county_dem",
+      "target": "wayne_county_circuit_court",
+      "type": "endorses",
+      "epistemic_status": "record",
+      "note": "Judicial endorsements"
+    },
+    {
+      "source": "mi_dem_party",
+      "target": "michigan_legislature",
+      "type": "endorses",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "mi_dem_party",
+      "target": "governors_office",
+      "type": "endorses",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "mi_gop",
+      "target": "great_lakes_education_project_full",
+      "type": "allied",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "mi_gop",
+      "target": "michigan_legislature",
+      "type": "fields_candidates",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "mi_gop",
+      "target": "charter_law_1993",
+      "type": "created",
+      "epistemic_status": "record",
+      "note": "GOP majority passed PA 362"
+    },
+    {
+      "source": "mi_gop",
+      "target": "engler",
+      "type": "member",
+      "epistemic_status": "record",
+      "note": "Engler was GOP governor"
+    },
+    {
+      "source": "wayne_county_commission",
+      "target": "wayne_county",
+      "type": "governance",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "wayne_county_exec",
+      "target": "wayne_county",
+      "type": "governance",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "wayne_county_commission",
+      "target": "wayne_county_prosecutors",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "wayne_county_exec",
+      "target": "wayne_county_circuit_court",
+      "type": "coordination",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "eric_sabree",
+      "target": "wayne_county",
+      "type": "employment",
+      "epistemic_status": "record",
+      "note": "Wayne County Treasurer"
+    },
+    {
+      "source": "eric_sabree",
+      "target": "wayne_county_commission",
+      "type": "coordination",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "senate_ed_committee",
+      "target": "michigan_legislature",
+      "type": "part_of",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "house_ed_committee",
+      "target": "michigan_legislature",
+      "type": "part_of",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "senate_ed_committee",
+      "target": "charter_law_1993",
+      "type": "jurisdiction",
+      "epistemic_status": "record",
+      "note": "Could amend or repeal PA 362"
+    },
+    {
+      "source": "house_ed_committee",
+      "target": "charter_law_1993",
+      "type": "jurisdiction",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "senate_ed_committee",
+      "target": "mde",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "house_ed_committee",
+      "target": "sbe",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "policy_pipeline",
+      "target": "michigan_legislature",
+      "type": "starts_at",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "policy_pipeline",
+      "target": "governors_office",
+      "type": "passes_through",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "policy_pipeline",
+      "target": "mde",
+      "type": "passes_through",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "policy_pipeline",
+      "target": "sbe",
+      "type": "passes_through",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "policy_pipeline",
+      "target": "cmu_charter_office",
+      "type": "passes_through",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "policy_pipeline",
+      "target": "pca",
+      "type": "passes_through",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "policy_pipeline",
+      "target": "child_who_trusted",
+      "type": "ends_at",
+      "epistemic_status": "record",
+      "note": "The child at the end of the pipeline"
+    },
+    {
+      "source": "policy_pipeline",
+      "target": "public_education",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Every step in the pipeline is a membrane that should have stopped Banks. None did."
+    },
+    {
+      "source": "money_pipeline",
+      "target": "great_lakes_education_project_full",
+      "type": "passes_through",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "money_pipeline",
+      "target": "mi_gop",
+      "type": "passes_through",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "money_pipeline",
+      "target": "michigan_legislature",
+      "type": "passes_through",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "money_pipeline",
+      "target": "charter_law_1993",
+      "type": "passes_through",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "money_pipeline",
+      "target": "cmu_charter_office",
+      "type": "passes_through",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "money_pipeline",
+      "target": "pca",
+      "type": "passes_through",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "money_pipeline",
+      "target": "banks",
+      "type": "passes_through",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "money_pipeline",
+      "target": "child_years_5432",
+      "type": "ends_at",
+      "epistemic_status": "record",
+      "note": "5,432 child-years at the end of the pipeline"
+    },
+    {
+      "source": "money_pipeline",
+      "target": "public_education",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "The money flows down. The harm flows up. The accountability flows nowhere."
+    },
+    {
+      "source": "judicial_elections_mi",
+      "target": "mi_supreme_court",
+      "type": "selects",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "judicial_elections_mi",
+      "target": "wayne_county_circuit_court",
+      "type": "selects",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "judicial_elections_mi",
+      "target": "ingham_county_circuit_court",
+      "type": "selects",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "judicial_elections_mi",
+      "target": "mi_gop",
+      "type": "influenced_by",
+      "epistemic_status": "record",
+      "note": "DeVos money in judicial races"
+    },
+    {
+      "source": "judicial_elections_mi",
+      "target": "mi_dem_party",
+      "type": "influenced_by",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "judicial_elections_mi",
+      "target": "wayne_county_dem",
+      "type": "influenced_by",
+      "epistemic_status": "record",
+      "note": "Judicial endorsements"
+    },
+    {
+      "source": "judicial_elections_mi",
+      "target": "banks",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Banks used campaign vendor relationships with judges. The political-judicial pipeline."
+    },
+    {
+      "source": "dpscd_school_board",
+      "target": "dpscd",
+      "type": "governance",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "dpscd_school_board",
+      "target": "detroit_city",
+      "type": "jurisdiction",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "dpscd_school_board",
+      "target": "public_education",
+      "type": "governance",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "dpscd_school_board",
+      "target": "slate_charter_choice",
+      "type": "targeted_by",
+      "epistemic_status": "record",
+      "note": "Charter lobby targets school board races to install friendly board members"
+    },
+    {
+      "source": "dpscd_school_board",
+      "target": "great_lakes_education_project_full",
+      "type": "targeted_by",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "precinct_delegates",
+      "target": "detroit_dem_party",
+      "type": "elects",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "precinct_delegates",
+      "target": "detroit_city",
+      "type": "jurisdiction",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "precinct_delegates",
+      "target": "public_education",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Most precinct delegate seats are EMPTY. The machine runs on the seats nobody fills. Like oversight that nobody exercises."
+    },
+    {
+      "source": "recall_mechanism",
+      "target": "michigan_legislature",
+      "type": "authorized_by",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "recall_mechanism",
+      "target": "dpscd_school_board",
+      "type": "could_apply_to",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "recall_mechanism",
+      "target": "public_education",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "The recall mechanism exists. It has never been used against charter school enablers."
+    },
+    {
+      "source": "ballot_initiative_mi",
+      "target": "michigan_legislature",
+      "type": "bypasses",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "ballot_initiative_mi",
+      "target": "charter_law_1993",
+      "type": "could_repeal",
+      "epistemic_status": "record",
+      "note": "A ballot initiative could repeal PA 362. Massachusetts voters rejected charter expansion in 2016."
     }
   ],
   "epistemic_grammar": {
