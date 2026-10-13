@@ -67376,6 +67376,46 @@
         "smith",
         "pca"
       ]
+    },
+    {
+      "id": "article_are_you_ok",
+      "label": "ARTICLE: Are You OK? Do You Need Help?",
+      "class": "article",
+      "role": "You. Yeah, you.\n\nAre you OK?\n\nDo you need help?\n\nIf I can, I will. And if I can't, I'll connect you to those who can.\nAs well all others in the mesh.\n\nThis is not just an investigation. This is a network of people\nwho see what's happening and choose to do something about it.\n\nIf you're a parent and your child is in one of these schools --\nare you OK? Do you know what's happening? Do you need help getting out?\nI will help you. If I can't, someone in this mesh can.\n\nIf you're a teacher and you see what's happening inside --\nare you OK? Are you safe? Do you need someone to talk to?\nI will listen. If I can't help, someone here can.\n\nIf you're a student and none of this makes sense --\nare you OK? You deserve better than this. You deserve a real school\nwith real teachers who actually passed a background check.\nWe see you. We will help.\n\nIf you're an employee and you know things --\nare you OK? Whistleblower protections exist. You are not alone.\nI will connect you to the right people. Legal. Media. Oversight.\nThe mesh holds.\n\nIf you're a neighbor and you see the building --\nare you OK with what's happening on your block?\nA man with 9 criminal convictions runs a school there.\nYou can help just by asking questions. Just by watching. Just by caring.\n\nIf you're anyone, anywhere, and you stumbled onto this --\nare you OK?\n\nBecause the whole point of all of this -- every node, every edge,\nevery article, every document, every epitope -- is that we take care\nof each other. That's what the mesh is.\n\nI am one person. But the mesh is everyone who sees and acts.\n\nYou see it now. Are you OK?\n\nIf you need help: eco.primal@pm.me\nIf you CAN help: eco.primal@pm.me\nIf you know someone who needs help: eco.primal@pm.me\n\nThe mesh connects. That's what it does.\n\nNot a hierarchy. Not an organization. Not a movement with a leader.\nA mesh. Everyone who sees connects to everyone who can.\nAnd everyone who can connects to everyone who needs.\n\nAre you OK?\n\nIf yes -- good. Now help someone who isn't.\nIf no -- reach out. We are here. I am here.\n\nThe mesh holds.",
+      "tags": [
+        "article",
+        "mesh",
+        "love",
+        "good",
+        "beckoning",
+        "help",
+        "second_line"
+      ]
+    },
+    {
+      "id": "the_mesh",
+      "label": "The Mesh: Everyone Who Sees Connects to Everyone Who Can",
+      "class": "entity",
+      "role": "The mesh is not an organization. It has no leader. No hierarchy. No membership. It is every person who sees what is happening and chooses to connect. If you can help, you help. If you can't, you connect to those who can. If you need help, you reach out. Someone in the mesh will answer. The mesh holds because people hold each other.",
+      "tags": [
+        "mesh",
+        "love",
+        "good",
+        "second_line",
+        "structure"
+      ]
+    },
+    {
+      "id": "whistleblower_protection",
+      "label": "Whistleblower Protections (Michigan + Federal)",
+      "class": "entity",
+      "role": "Michigan Whistleblowers' Protection Act (MCL 15.361-15.369). Federal False Claims Act (31 USC 3729-3733) qui tam provisions. Employees who report illegal activity are protected from retaliation. If you work at PCA, Purpose Foundation, or any school in this network and you see something wrong -- you are protected. Contact: eco.primal@pm.me for connection to legal resources.",
+      "tags": [
+        "legal",
+        "help",
+        "mesh",
+        "whistleblower"
+      ]
     }
   ],
   "edges": [
@@ -182685,6 +182725,188 @@
       "type": "victim",
       "epistemic_status": "record",
       "note": "Smith children are part of the damages"
+    },
+    {
+      "source": "article_are_you_ok",
+      "target": "the_mesh",
+      "type": "presents",
+      "epistemic_status": "record",
+      "note": "Article introduces the mesh concept"
+    },
+    {
+      "source": "article_are_you_ok",
+      "target": "smith_children_pca",
+      "type": "offers_help",
+      "epistemic_status": "record",
+      "note": "Are you OK? We see you."
+    },
+    {
+      "source": "article_are_you_ok",
+      "target": "children_cry",
+      "type": "offers_help",
+      "epistemic_status": "record",
+      "note": "The children. Are they OK?"
+    },
+    {
+      "source": "article_are_you_ok",
+      "target": "ms_perkins_pca",
+      "type": "offers_help",
+      "epistemic_status": "record",
+      "note": "Ms. Perkins -- are you OK?"
+    },
+    {
+      "source": "article_are_you_ok",
+      "target": "pca",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "PCA is why people need help"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "article_are_you_ok",
+      "type": "leads_to",
+      "epistemic_status": "record",
+      "note": "Beckoning leads to offering help"
+    },
+    {
+      "source": "article_are_you_ok",
+      "target": "article_the_way_forward",
+      "type": "leads_to",
+      "epistemic_status": "record",
+      "note": "Offering help leads to the way forward"
+    },
+    {
+      "source": "article_are_you_ok",
+      "target": "article_yeah_you_parent",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Parents -- are you OK?"
+    },
+    {
+      "source": "article_are_you_ok",
+      "target": "article_hiding_behind_race",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "The shield doesn't protect you"
+    },
+    {
+      "source": "article_are_you_ok",
+      "target": "article_smith_family",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": "Smith family -- are the children OK?"
+    },
+    {
+      "source": "the_mesh",
+      "target": "second_line",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Second line joins the mesh"
+    },
+    {
+      "source": "the_mesh",
+      "target": "swarm_strategy",
+      "type": "connected_to",
+      "epistemic_status": "record",
+      "note": "Mesh connects to swarm_strategy"
+    },
+    {
+      "source": "the_mesh",
+      "target": "page_fill_the_seats",
+      "type": "connected_to",
+      "epistemic_status": "record",
+      "note": "Mesh connects to page_fill_the_seats"
+    },
+    {
+      "source": "the_mesh",
+      "target": "damages_chain",
+      "type": "connected_to",
+      "epistemic_status": "record",
+      "note": "Mesh connects to damages_chain"
+    },
+    {
+      "source": "the_mesh",
+      "target": "signal_response",
+      "type": "connected_to",
+      "epistemic_status": "record",
+      "note": "Mesh connects to signal_response"
+    },
+    {
+      "source": "article_are_you_ok",
+      "target": "detroit_free_press",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "The mesh story for coverage"
+    },
+    {
+      "source": "article_are_you_ok",
+      "target": "michigan_advance",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "The mesh story for coverage"
+    },
+    {
+      "source": "article_are_you_ok",
+      "target": "chalkbeat_detroit",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "The mesh story for coverage"
+    },
+    {
+      "source": "article_are_you_ok",
+      "target": "wxyz_channel7",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "The mesh story for coverage"
+    },
+    {
+      "source": "article_are_you_ok",
+      "target": "deadline_detroit",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "The mesh story for coverage"
+    },
+    {
+      "source": "article_are_you_ok",
+      "target": "michigan_radio",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "The mesh story for coverage"
+    },
+    {
+      "source": "article_are_you_ok",
+      "target": "propublica",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "The mesh story for coverage"
+    },
+    {
+      "source": "article_are_you_ok",
+      "target": "the_intercept",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "The mesh story for coverage"
+    },
+    {
+      "source": "article_are_you_ok",
+      "target": "marshall_project",
+      "type": "send_to",
+      "epistemic_status": "record",
+      "note": "The mesh story for coverage"
+    },
+    {
+      "source": "the_mesh",
+      "target": "whistleblower_protection",
+      "type": "offers_help",
+      "epistemic_status": "record",
+      "note": "Mesh connects whistleblowers to protection"
+    },
+    {
+      "source": "article_are_you_ok",
+      "target": "whistleblower_protection",
+      "type": "cites",
+      "epistemic_status": "record",
+      "note": "Whistleblower protections exist"
     }
   ],
   "epistemic_grammar": {
