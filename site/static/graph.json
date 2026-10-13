@@ -70603,6 +70603,29 @@
         "education",
         "ocean"
       ]
+    },
+    {
+      "id": "article_how_to_reach_them",
+      "label": "ARTICLE: How to Reach Every Person in This Graph — Public Paths Only",
+      "class": "article",
+      "role": "You've read the graph. You've seen 5,822 nodes and 25,369 edges. You've seen 363 questions asked and 362 answered with silence. Now YOU ask. Here's how. Every path below is PUBLIC record. \n\nBEASLEY — Dr. Chalena Yancey Beasley, Principal of Bunche Prep (DPSCD). Search DPSCD staff directory at detroitk12.org. Her LinkedIn is public. Wayne State University dissertation records are public. Bunche Prep Academy has a listed office phone through DPSCD. She is a public school employee. Her contact is public record. \n\nBANKS — Brian Roderick Banks, operator of PCA and MacDowell. LARA: search Purpose Group LLC, Purpose Foundation, Nu Vision Media at michigan.gov/lara. OTIS: search his name at michigan.gov/corrections. ICHAT: $10 criminal history check at michigan.gov/msp. PCA and MacDowell Prep have listed school phones. His CBC event appearances are publicly documented. \n\nHOLLAND — Joseph Holland Jr., PCA Treasurer. OTIS: search michigan.gov/corrections. LARA: check if he appears on any corporate filings. Wayne County court docket search: courts.michigan.gov. \n\nPLANTE MORAN — (248) 223-3000 main, (313) 496-7200 Detroit. plantemoran.com — ask for the K-12 Education practice leader. David Doyle: dave.doyle@plantemoran.com, (248) 223-3611. Ask: did you audit Purpose Charter Academy? What did you find? \n\nDYKEMA GOSSETT — (313) 568-6800 main. dykema.com. Penobscot Building, 645 Griswold, Detroit MI. Ask for Peter Kellett (CEO) or Gary Gordon (Government Relations). \n\nCMU — (989) 774-4000 main. Charter Schools Office: (989) 774-2100. Corey Northrop runs the office. Ask: why is PCA still authorized? \n\nMDE — (517) 373-3324 main. michigan.gov/mde. Kelli Brozanski: brozanskik@michigan.gov, (517) 648-4015. MDE-Professional-Practice@Michigan.gov. Ask: does MDE know about 9 convictions at K-12 schools? \n\nAG NESSEL — (517) 335-7622 main. michigan.gov/ag. Charitable Trust: FowlerD1@michigan.gov, (517) 335-7571. Ask: MCL 750.411a — false police reports. Why no prosecution? \n\nSOS BENSON — (888) 767-6424 main. michigan.gov/sos. Purpose Group LLC corporate filing is in your database. Search it. \n\nDPSCD — (313) 873-7490 main. detroitk12.org. Inspector General: inspectorgeneral@detroitk12.org. Board meetings are public and streamed. Show up. Ask. \n\nDETROIT POLICE — 5th Precinct: (313) 596-5500. FOIA office for police records. Ask: where are the false report investigations? \n\nWAYNE COUNTY PROSECUTOR — (313) 224-5777. waynecounty.com/prosecutor. Public integrity unit. Ask: MCL 750.411a. How many false reports before you act? \n\nMEDIA — Every tip line in the graph: tips@propublica.org, tips@nytimes.com, tips@revealnews.org, tips@theintercept.com, tips@deadlinedetroit.com, tips@mlive.com, tips@michiganradio.org, tips@fox2detroit.com, tips@clickondetroit.com, wxyzinvestigates@wxyz.com, ross.jones@wxyz.com, tips@hechingerreport.org, frontline@wgbh.org. \n\nPUBLIC DATABASES (search yourself): OTIS (michigan.gov/corrections), ICHAT (michigan.gov/msp), LARA (michigan.gov/lara), MCFR (michigan.gov/sos), ProPublica 990s (projects.propublica.org/nonprofits), MI School Data (mischooldata.org — search PCA, search MacDowell), OpenSecrets.org, FollowTheMoney.org, USASpending.gov. \n\nEvery path above is PUBLIC. Every phone is a listed number. Every email is a public-facing address. Every database is open. We are not doxxing anyone. We are publishing the PHONE BOOK. The question isn't whether you CAN reach them. The question is whether you WILL.",
+      "tags": [
+        "investigation",
+        "epitope",
+        "education",
+        "pca"
+      ]
+    },
+    {
+      "id": "perkins_public_path",
+      "label": "How to Reach Ms. Perkins: PCA's Listed School Phone",
+      "class": "pattern",
+      "role": "Perkins screens Kevin's calls. She recognizes his number. But she can't screen EVERY number. PCA has a listed school phone number. It's on the school's public profile. MiSchoolData.org lists it. GreatSchools.org lists it. The school website (if it exists) lists it. Call from a number she doesn't recognize. Ask: what was the last book my child read with a teacher? If she answers: you'll learn something. If she screens: you'll learn even more. If Banks answers instead: you'll learn everything.",
+      "tags": [
+        "investigation",
+        "epitope",
+        "pca"
+      ]
     }
   ],
   "edges": [
@@ -261575,6 +261598,545 @@
       "type": "structural_parallel",
       "epistemic_status": "record",
       "note": "place node connected to education commons"
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "beasley",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "banks",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "holland",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "plante_moran",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "dykema",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "mde",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "nessel",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "jocelyn_benson",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "dpscd",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "kym_worthy",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "detroit_free_press",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "detroit_news",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "pca",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "article_complicit",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "article_man_bites_dog",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "osint_mde_scorecard",
+      "type": "references",
+      "epistemic_status": "record",
+      "note": "Public database"
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "osint_cepi",
+      "type": "references",
+      "epistemic_status": "record",
+      "note": "Public database"
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "osint_opensecrets",
+      "type": "references",
+      "epistemic_status": "record",
+      "note": "Public database"
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "osint_followthemoney",
+      "type": "references",
+      "epistemic_status": "record",
+      "note": "Public database"
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "osint_propublica_nonprofit",
+      "type": "references",
+      "epistemic_status": "record",
+      "note": "Public database"
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "osint_otis",
+      "type": "references",
+      "epistemic_status": "record",
+      "note": "Public database"
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "osint_sora",
+      "type": "references",
+      "epistemic_status": "record",
+      "note": "Public database"
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "osint_court_dockets",
+      "type": "references",
+      "epistemic_status": "record",
+      "note": "Public database"
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "osint_campaign_finance_mi",
+      "type": "references",
+      "epistemic_status": "record",
+      "note": "Public database"
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "osint_usaspending",
+      "type": "references",
+      "epistemic_status": "record",
+      "note": "Public database"
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "osint_lobbying_mi",
+      "type": "references",
+      "epistemic_status": "record",
+      "note": "Public database"
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "osint_property_records",
+      "type": "references",
+      "epistemic_status": "record",
+      "note": "Public database"
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "osint_tax_records",
+      "type": "references",
+      "epistemic_status": "record",
+      "note": "Public database"
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "osint_state_contracts",
+      "type": "references",
+      "epistemic_status": "record",
+      "note": "Public database"
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "osint_professional_licenses",
+      "type": "references",
+      "epistemic_status": "record",
+      "note": "Public database"
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "osint_board_minutes",
+      "type": "references",
+      "epistemic_status": "record",
+      "note": "Public database"
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "osint_audit_reports",
+      "type": "references",
+      "epistemic_status": "record",
+      "note": "Public database"
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "osint_annual_reports",
+      "type": "references",
+      "epistemic_status": "record",
+      "note": "Public database"
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "osint_whois",
+      "type": "references",
+      "epistemic_status": "record",
+      "note": "Public database"
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "osint_wayback_deep",
+      "type": "references",
+      "epistemic_status": "record",
+      "note": "Public database"
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "osint_social_media",
+      "type": "references",
+      "epistemic_status": "record",
+      "note": "Public database"
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "osint_voter_file",
+      "type": "references",
+      "epistemic_status": "record",
+      "note": "Public database"
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "osint_news_archives",
+      "type": "references",
+      "epistemic_status": "record",
+      "note": "Public database"
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "osint_osha",
+      "type": "references",
+      "epistemic_status": "record",
+      "note": "Public database"
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "osint_edfacts",
+      "type": "references",
+      "epistemic_status": "record",
+      "note": "Public database"
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "osint_fdic",
+      "type": "references",
+      "epistemic_status": "record",
+      "note": "Public database"
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "osint_nmls",
+      "type": "references",
+      "epistemic_status": "record",
+      "note": "Public database"
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "osint_death_records",
+      "type": "references",
+      "epistemic_status": "record",
+      "note": "Public database"
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "osint_entry_map",
+      "type": "references",
+      "epistemic_status": "record",
+      "note": "Public database"
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "detroit_free_press",
+      "type": "contact_path",
+      "epistemic_status": "record",
+      "note": "Media tip line available"
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "serenity",
+      "type": "contact_path",
+      "epistemic_status": "record",
+      "note": "Media tip line available"
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "wxyz",
+      "type": "contact_path",
+      "epistemic_status": "record",
+      "note": "Media tip line available"
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "detroit_news",
+      "type": "contact_path",
+      "epistemic_status": "record",
+      "note": "Media tip line available"
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "pentagon_papers_case",
+      "type": "contact_path",
+      "epistemic_status": "record",
+      "note": "Media tip line available"
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "wdiv_local4",
+      "type": "contact_path",
+      "epistemic_status": "record",
+      "note": "Media tip line available"
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "wxyz_channel7",
+      "type": "contact_path",
+      "epistemic_status": "record",
+      "note": "Media tip line available"
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "wjbk_fox2",
+      "type": "contact_path",
+      "epistemic_status": "record",
+      "note": "Media tip line available"
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "michigan_radio",
+      "type": "contact_path",
+      "epistemic_status": "record",
+      "note": "Media tip line available"
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "mlive",
+      "type": "contact_path",
+      "epistemic_status": "record",
+      "note": "Media tip line available"
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "deadline_detroit",
+      "type": "contact_path",
+      "epistemic_status": "record",
+      "note": "Media tip line available"
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "propublica",
+      "type": "contact_path",
+      "epistemic_status": "record",
+      "note": "Media tip line available"
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "propublica_local_mi",
+      "type": "contact_path",
+      "epistemic_status": "record",
+      "note": "Media tip line available"
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "the_intercept",
+      "type": "contact_path",
+      "epistemic_status": "record",
+      "note": "Media tip line available"
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "reveal_news",
+      "type": "contact_path",
+      "epistemic_status": "record",
+      "note": "Media tip line available"
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "mother_jones",
+      "type": "contact_path",
+      "epistemic_status": "record",
+      "note": "Media tip line available"
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "hechinger_report",
+      "type": "contact_path",
+      "epistemic_status": "record",
+      "note": "Media tip line available"
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "democracy_now",
+      "type": "contact_path",
+      "epistemic_status": "record",
+      "note": "Media tip line available"
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "ap_investigations",
+      "type": "contact_path",
+      "epistemic_status": "record",
+      "note": "Media tip line available"
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "guardian_us",
+      "type": "contact_path",
+      "epistemic_status": "record",
+      "note": "Media tip line available"
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "pod_reveal",
+      "type": "contact_path",
+      "epistemic_status": "record",
+      "note": "Media tip line available"
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "frontline_pbs",
+      "type": "contact_path",
+      "epistemic_status": "record",
+      "note": "Media tip line available"
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "osint_propublica_nonprofit",
+      "type": "contact_path",
+      "epistemic_status": "record",
+      "note": "Media tip line available"
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "osint_news_archives",
+      "type": "contact_path",
+      "epistemic_status": "record",
+      "note": "Media tip line available"
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "article_complicit",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "article_man_bites_dog",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "article_spiral_down",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "article_faintest_glimmer",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "article_spiral_across",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "perkins_public_path",
+      "target": "pca",
+      "type": "at_school",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "perkins_public_path",
+      "target": "banks",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "perkins_public_path",
+      "target": "anatomy_of_a_screened_call",
+      "type": "counters",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "perkins_public_path",
+      "target": "article_how_to_reach_them",
+      "type": "referenced_in",
+      "epistemic_status": "record",
+      "note": ""
     }
   ],
   "epistemic_grammar": {
