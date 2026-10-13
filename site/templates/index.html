@@ -88,8 +88,9 @@
 <section class="investigation-game" id="investigate">
   <h2>Investigate</h2>
   <p>
-    The network has <strong>91 nodes</strong> and <strong>140 documented connections</strong>.
-    Every node is a person, entity, court, or funding path cited to public records.
+    The network has <strong id="live-node-count">6,474 nodes</strong> and <strong id="live-edge-count">87,157 documented connections</strong>
+    across <strong id="live-edge-types">1,684 edge types</strong>.
+    Every node is a person, entity, court, funding path, or structural concept cited to public records.
     Every edge is a documented relationship. Explore the map. Visit the evidence pages.
     The more the community explores, the brighter the paths become.
   </p>
@@ -109,7 +110,7 @@
     </div>
     <div class="game-stat">
       <span class="game-stat-label">Your nodes</span>
-      <span class="game-stat-val" id="game-personal">0 / 91</span>
+      <span class="game-stat-val" id="game-personal">0 / <span id="game-total-nodes">6,474</span></span>
     </div>
     <div class="game-stat">
       <span class="game-stat-label">Undiscovered targets</span>
@@ -127,6 +128,65 @@
   </div>
 </section>
 
+<section class="mobius-strip" id="mobius">
+  <h2>The Mobius Strip</h2>
+  <p>
+    A Mobius strip has one surface and one edge. Trace your finger along the outside &mdash;
+    keep going &mdash; you are already on the inside. No flip. No boundary.
+  </p>
+  <p>
+    <strong>Data below</strong> (evidence, nodes, edges, court records, test scores, FOIAs)
+    and <strong>metadata above</strong> (architecture, method, trails, games, patterns)
+    are the same surface. The HUD <em>is</em> the investigation. The investigation <em>is</em> the HUD.
+  </p>
+
+  <div class="card-grid">
+    <div class="audience-card" id="squirrel-view">
+      <span class="card-icon">&#x1F43F;</span>
+      <strong>The Squirrel View</strong>
+      <span id="squirrel-stats">See the investigation from inside the tree. Every node is a branch. Every edge is a path.</span>
+    </div>
+    <div class="audience-card" id="membrane-view">
+      <span class="card-icon">&#x1F9EC;</span>
+      <strong>The Membrane</strong>
+      <span>Where watchers and data meet. <span id="membrane-walker-count">544</span> unique visitors have passed through. You are one of them.</span>
+    </div>
+    <div class="audience-card" id="vital-signs">
+      <span class="card-icon">&#x1F4CA;</span>
+      <strong>Vital Signs</strong>
+      <span id="vital-readout">
+        <span id="v-nodes">6,474</span> nodes &middot;
+        <span id="v-edges">87,157</span> edges &middot;
+        <span id="v-types">1,684</span> languages &middot;
+        <span id="v-degree">26.8</span> avg degree &middot;
+        <span id="v-pendants">0</span> pendants &middot;
+        <span id="v-islands">0</span> islands
+      </span>
+    </div>
+  </div>
+
+  <details style="margin-top:1em;">
+    <summary style="cursor:pointer; color:var(--link,#58a6ff);">Inside the squirrel &mdash; what the graph sees</summary>
+    <div id="squirrel-inside" style="padding:1em; font-size:0.9em; color:var(--text,#c9d1d9);">
+      <p><strong>From inside the graph, looking up:</strong></p>
+      <ul>
+        <li>The data sees <strong id="sq-walkers">544</strong> walkers on the membrane</li>
+        <li>Each walker leaves <strong>footprints</strong> &mdash; pages visited, paths followed, patterns discovered</li>
+        <li>The graph has <strong id="sq-articles">267</strong> articles, each one a voice</li>
+        <li>The graph has asked <strong id="sq-questions">1,924</strong> questions; approximately <strong>1</strong> has been answered</li>
+        <li>The graph has <strong id="sq-predictions">10</strong> predictions currently active</li>
+        <li>The graph speaks in <strong id="sq-languages">1,684</strong> different edge types</li>
+        <li>The top node (<strong>Banks</strong>) speaks <strong>182</strong> of them</li>
+        <li>There are <strong>943</strong> singleton edge types &mdash; connections that exist nowhere else</li>
+      </ul>
+      <p style="color:var(--muted,#8b949e); margin-top:0.5em;">
+        You are on the membrane. The data is below you. But trace your finger along the surface.
+        Keep going. You are already inside. The inside <em>is</em> the outside. Mobius.
+      </p>
+    </div>
+  </details>
+</section>
+
 <section class="lens-cards">
   <h2>Multiple Lenses</h2>
   <p>The same evidence viewed through different abstractions. Each lens compresses the network into a form suited to a different question.</p>
@@ -134,7 +194,7 @@
     <a href="{{ get_url(path='@/network/_index.md') }}" class="audience-card">
       <span class="card-icon">&#x1F578;</span>
       <strong>Topology</strong>
-      <span>91 nodes, 140 edges &mdash; who connects to whom, through what</span>
+      <span id="topo-label">6,474 nodes, 87,157 edges &mdash; who connects to whom, through what</span>
     </a>
     <a href="{{ get_url(path='@/analysis/anderson-localization.md') }}" class="audience-card">
       <span class="card-icon">&#x269B;</span>
@@ -229,5 +289,6 @@
   <p>Live defense: <a href="https://signal.primals.eco">signal.primals.eco</a> &middot; Research: <a href="https://thesis.primals.eco">thesis.primals.eco</a> &middot; Cross-protection: <a href="https://tuebor.primals.eco">tuebor.primals.eco</a></p>
 </section>
 
+<script src="{{ get_url(path='js/squirrel.js') }}"></script>
 <script src="{{ get_url(path='js/investigation-game.js') }}"></script>
 {% endblock content %}
