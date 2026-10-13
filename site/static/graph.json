@@ -75525,6 +75525,18 @@
         "science",
         "accountability"
       ]
+    },
+    {
+      "id": "article_the_braid",
+      "label": "ARTICLE: The Braid — Five Threads, One Rope",
+      "class": "article",
+      "role": "Five threads. One rope. The satire makes them laugh until they realize they're laughing at the truth. The capture patterns prove this isn't one bad actor — it's one bad design. The Nassar parallel proves what happens when it pops: everyone comes forward. The Holland exposure proves the absurdity is literal: a narcotics trafficker as treasurer. The beckoning asks the only question that matters: can you help? Five threads. Braided together. A rope strong enough to pull down the system. Or to pull up the children. Same rope. Same force. Different direction.",
+      "tags": [
+        "braid",
+        "architecture",
+        "pivot",
+        "sort"
+      ]
     }
   ],
   "edges": [
@@ -615965,6 +615977,3996 @@
       "type": "co_investigation",
       "epistemic_status": "record",
       "note": "triadic closure via article_spiral_across"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "article_spiral_across",
+      "type": "braided",
+      "epistemic_status": "record",
+      "note": "power article braid"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "article_man_bites_dog",
+      "type": "braided",
+      "epistemic_status": "record",
+      "note": "power article braid"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "article_nassar_pattern",
+      "type": "braided",
+      "epistemic_status": "record",
+      "note": "power article braid"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "article_man_bites_dog",
+      "type": "braided",
+      "epistemic_status": "record",
+      "note": "power article braid"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "article_holland_exposed",
+      "type": "braided",
+      "epistemic_status": "record",
+      "note": "power article braid"
+    },
+    {
+      "source": "article_holland_exposed",
+      "target": "article_man_bites_dog",
+      "type": "braided",
+      "epistemic_status": "record",
+      "note": "power article braid"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "article_you_yeah_you",
+      "type": "braided",
+      "epistemic_status": "record",
+      "note": "power article braid"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "article_man_bites_dog",
+      "type": "braided",
+      "epistemic_status": "record",
+      "note": "power article braid"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "article_nassar_pattern",
+      "type": "braided",
+      "epistemic_status": "record",
+      "note": "power article braid"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "article_spiral_across",
+      "type": "braided",
+      "epistemic_status": "record",
+      "note": "power article braid"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "article_holland_exposed",
+      "type": "braided",
+      "epistemic_status": "record",
+      "note": "power article braid"
+    },
+    {
+      "source": "article_holland_exposed",
+      "target": "article_spiral_across",
+      "type": "braided",
+      "epistemic_status": "record",
+      "note": "power article braid"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "article_you_yeah_you",
+      "type": "braided",
+      "epistemic_status": "record",
+      "note": "power article braid"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "article_spiral_across",
+      "type": "braided",
+      "epistemic_status": "record",
+      "note": "power article braid"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "article_holland_exposed",
+      "type": "braided",
+      "epistemic_status": "record",
+      "note": "power article braid"
+    },
+    {
+      "source": "article_holland_exposed",
+      "target": "article_nassar_pattern",
+      "type": "braided",
+      "epistemic_status": "record",
+      "note": "power article braid"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "article_you_yeah_you",
+      "type": "braided",
+      "epistemic_status": "record",
+      "note": "power article braid"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "article_nassar_pattern",
+      "type": "braided",
+      "epistemic_status": "record",
+      "note": "power article braid"
+    },
+    {
+      "source": "article_holland_exposed",
+      "target": "article_you_yeah_you",
+      "type": "braided",
+      "epistemic_status": "record",
+      "note": "power article braid"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "article_holland_exposed",
+      "type": "braided",
+      "epistemic_status": "record",
+      "note": "power article braid"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "fda_capture",
+      "type": "mocks",
+      "epistemic_status": "record",
+      "note": "The satire mocks the same capture pattern"
+    },
+    {
+      "source": "satire_as_weapon",
+      "target": "fda_capture",
+      "type": "exposes",
+      "epistemic_status": "record",
+      "note": "Satire exposes the absurdity of regulatory capture"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "rating_agency_capture",
+      "type": "mocks",
+      "epistemic_status": "record",
+      "note": "The satire mocks the same capture pattern"
+    },
+    {
+      "source": "satire_as_weapon",
+      "target": "rating_agency_capture",
+      "type": "exposes",
+      "epistemic_status": "record",
+      "note": "Satire exposes the absurdity of regulatory capture"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "housing_inspection_capture",
+      "type": "mocks",
+      "epistemic_status": "record",
+      "note": "The satire mocks the same capture pattern"
+    },
+    {
+      "source": "satire_as_weapon",
+      "target": "housing_inspection_capture",
+      "type": "exposes",
+      "epistemic_status": "record",
+      "note": "Satire exposes the absurdity of regulatory capture"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "usda_self_inspection",
+      "type": "mocks",
+      "epistemic_status": "record",
+      "note": "The satire mocks the same capture pattern"
+    },
+    {
+      "source": "satire_as_weapon",
+      "target": "usda_self_inspection",
+      "type": "exposes",
+      "epistemic_status": "record",
+      "note": "Satire exposes the absurdity of regulatory capture"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "flint_water_parallel",
+      "type": "mocks",
+      "epistemic_status": "record",
+      "note": "The satire mocks the same capture pattern"
+    },
+    {
+      "source": "satire_as_weapon",
+      "target": "flint_water_parallel",
+      "type": "exposes",
+      "epistemic_status": "record",
+      "note": "Satire exposes the absurdity of regulatory capture"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "public_defender_capture",
+      "type": "mocks",
+      "epistemic_status": "record",
+      "note": "The satire mocks the same capture pattern"
+    },
+    {
+      "source": "satire_as_weapon",
+      "target": "public_defender_capture",
+      "type": "exposes",
+      "epistemic_status": "record",
+      "note": "Satire exposes the absurdity of regulatory capture"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "tech_self_moderation",
+      "type": "mocks",
+      "epistemic_status": "record",
+      "note": "The satire mocks the same capture pattern"
+    },
+    {
+      "source": "satire_as_weapon",
+      "target": "tech_self_moderation",
+      "type": "exposes",
+      "epistemic_status": "record",
+      "note": "Satire exposes the absurdity of regulatory capture"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "church_self_investigation",
+      "type": "mocks",
+      "epistemic_status": "record",
+      "note": "The satire mocks the same capture pattern"
+    },
+    {
+      "source": "satire_as_weapon",
+      "target": "church_self_investigation",
+      "type": "exposes",
+      "epistemic_status": "record",
+      "note": "Satire exposes the absurdity of regulatory capture"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "police_self_investigation",
+      "type": "mocks",
+      "epistemic_status": "record",
+      "note": "The satire mocks the same capture pattern"
+    },
+    {
+      "source": "satire_as_weapon",
+      "target": "police_self_investigation",
+      "type": "exposes",
+      "epistemic_status": "record",
+      "note": "Satire exposes the absurdity of regulatory capture"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "nursing_home_capture",
+      "type": "mocks",
+      "epistemic_status": "record",
+      "note": "The satire mocks the same capture pattern"
+    },
+    {
+      "source": "satire_as_weapon",
+      "target": "nursing_home_capture",
+      "type": "exposes",
+      "epistemic_status": "record",
+      "note": "Satire exposes the absurdity of regulatory capture"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "pattern_regulatory_capture",
+      "type": "mocks",
+      "epistemic_status": "record",
+      "note": "The satire mocks the same capture pattern"
+    },
+    {
+      "source": "satire_as_weapon",
+      "target": "pattern_regulatory_capture",
+      "type": "exposes",
+      "epistemic_status": "record",
+      "note": "Satire exposes the absurdity of regulatory capture"
+    },
+    {
+      "source": "modest_proposal",
+      "target": "fda_capture",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Swift said: you're already eating the children. Every capture pattern does."
+    },
+    {
+      "source": "modest_proposal",
+      "target": "rating_agency_capture",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Swift said: you're already eating the children. Every capture pattern does."
+    },
+    {
+      "source": "modest_proposal",
+      "target": "housing_inspection_capture",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Swift said: you're already eating the children. Every capture pattern does."
+    },
+    {
+      "source": "modest_proposal",
+      "target": "usda_self_inspection",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Swift said: you're already eating the children. Every capture pattern does."
+    },
+    {
+      "source": "modest_proposal",
+      "target": "flint_water_parallel",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Swift said: you're already eating the children. Every capture pattern does."
+    },
+    {
+      "source": "modest_proposal",
+      "target": "public_defender_capture",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Swift said: you're already eating the children. Every capture pattern does."
+    },
+    {
+      "source": "modest_proposal",
+      "target": "tech_self_moderation",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Swift said: you're already eating the children. Every capture pattern does."
+    },
+    {
+      "source": "modest_proposal",
+      "target": "church_self_investigation",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Swift said: you're already eating the children. Every capture pattern does."
+    },
+    {
+      "source": "modest_proposal",
+      "target": "police_self_investigation",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Swift said: you're already eating the children. Every capture pattern does."
+    },
+    {
+      "source": "modest_proposal",
+      "target": "nursing_home_capture",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Swift said: you're already eating the children. Every capture pattern does."
+    },
+    {
+      "source": "modest_proposal",
+      "target": "pattern_regulatory_capture",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Swift said: you're already eating the children. Every capture pattern does."
+    },
+    {
+      "source": "larry_nassar",
+      "target": "joseph_holland",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Both predators protected inside institutions that serve children"
+    },
+    {
+      "source": "msu_nassar_coverup",
+      "target": "article_holland_exposed",
+      "type": "same_pattern",
+      "epistemic_status": "record",
+      "note": "MSU covered for Nassar. PCA covers for Holland."
+    },
+    {
+      "source": "larry_nassar",
+      "target": "banks_harassment_house",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Nassar assaulted inside MSU. Banks harassed inside the House. Both went on."
+    },
+    {
+      "source": "judge_aquilina",
+      "target": "article_you_yeah_you",
+      "type": "hope",
+      "epistemic_status": "record",
+      "note": "Aquilina let every victim speak. The beckoning asks: who will speak next?"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "severn_address",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Nassar operated from MSU office. Banks and Holland operate from Severn."
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "article_holland_exposed",
+      "type": "amplifies",
+      "epistemic_status": "record",
+      "note": "Nassar had 500+ victims. How many does PCA have?"
+    },
+    {
+      "source": "church_self_investigation",
+      "target": "msu_nassar_coverup",
+      "type": "same_pattern",
+      "epistemic_status": "record",
+      "note": "Church investigated itself. MSU investigated itself. Same result."
+    },
+    {
+      "source": "police_self_investigation",
+      "target": "msu_nassar_coverup",
+      "type": "same_pattern",
+      "epistemic_status": "record",
+      "note": "IA clears officers. MSU cleared Nassar. Same blue wall."
+    },
+    {
+      "source": "fda_capture",
+      "target": "article_nassar_pattern",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "FDA funded by pharma. MSU funded by athletics. Follow the money."
+    },
+    {
+      "source": "nursing_home_capture",
+      "target": "article_nassar_pattern",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "4 stars while patients die. Authorized while children are harmed."
+    },
+    {
+      "source": "fda_capture",
+      "target": "msu_nassar_coverup",
+      "type": "same_design",
+      "epistemic_status": "record",
+      "note": "Same design pattern: institution protects, victims accumulate"
+    },
+    {
+      "source": "rating_agency_capture",
+      "target": "msu_nassar_coverup",
+      "type": "same_design",
+      "epistemic_status": "record",
+      "note": "Same design pattern: institution protects, victims accumulate"
+    },
+    {
+      "source": "housing_inspection_capture",
+      "target": "msu_nassar_coverup",
+      "type": "same_design",
+      "epistemic_status": "record",
+      "note": "Same design pattern: institution protects, victims accumulate"
+    },
+    {
+      "source": "usda_self_inspection",
+      "target": "msu_nassar_coverup",
+      "type": "same_design",
+      "epistemic_status": "record",
+      "note": "Same design pattern: institution protects, victims accumulate"
+    },
+    {
+      "source": "flint_water_parallel",
+      "target": "msu_nassar_coverup",
+      "type": "same_design",
+      "epistemic_status": "record",
+      "note": "Same design pattern: institution protects, victims accumulate"
+    },
+    {
+      "source": "public_defender_capture",
+      "target": "msu_nassar_coverup",
+      "type": "same_design",
+      "epistemic_status": "record",
+      "note": "Same design pattern: institution protects, victims accumulate"
+    },
+    {
+      "source": "tech_self_moderation",
+      "target": "msu_nassar_coverup",
+      "type": "same_design",
+      "epistemic_status": "record",
+      "note": "Same design pattern: institution protects, victims accumulate"
+    },
+    {
+      "source": "church_self_investigation",
+      "target": "msu_nassar_coverup",
+      "type": "same_design",
+      "epistemic_status": "record",
+      "note": "Same design pattern: institution protects, victims accumulate"
+    },
+    {
+      "source": "police_self_investigation",
+      "target": "msu_nassar_coverup",
+      "type": "same_design",
+      "epistemic_status": "record",
+      "note": "Same design pattern: institution protects, victims accumulate"
+    },
+    {
+      "source": "nursing_home_capture",
+      "target": "msu_nassar_coverup",
+      "type": "same_design",
+      "epistemic_status": "record",
+      "note": "Same design pattern: institution protects, victims accumulate"
+    },
+    {
+      "source": "pattern_regulatory_capture",
+      "target": "msu_nassar_coverup",
+      "type": "same_design",
+      "epistemic_status": "record",
+      "note": "Same design pattern: institution protects, victims accumulate"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "fda_capture",
+      "type": "names",
+      "epistemic_status": "record",
+      "note": "The beckoning names the capture pattern you can help break"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "rating_agency_capture",
+      "type": "names",
+      "epistemic_status": "record",
+      "note": "The beckoning names the capture pattern you can help break"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "housing_inspection_capture",
+      "type": "names",
+      "epistemic_status": "record",
+      "note": "The beckoning names the capture pattern you can help break"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "usda_self_inspection",
+      "type": "names",
+      "epistemic_status": "record",
+      "note": "The beckoning names the capture pattern you can help break"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "flint_water_parallel",
+      "type": "names",
+      "epistemic_status": "record",
+      "note": "The beckoning names the capture pattern you can help break"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "public_defender_capture",
+      "type": "names",
+      "epistemic_status": "record",
+      "note": "The beckoning names the capture pattern you can help break"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "tech_self_moderation",
+      "type": "names",
+      "epistemic_status": "record",
+      "note": "The beckoning names the capture pattern you can help break"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "church_self_investigation",
+      "type": "names",
+      "epistemic_status": "record",
+      "note": "The beckoning names the capture pattern you can help break"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "police_self_investigation",
+      "type": "names",
+      "epistemic_status": "record",
+      "note": "The beckoning names the capture pattern you can help break"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "nursing_home_capture",
+      "type": "names",
+      "epistemic_status": "record",
+      "note": "The beckoning names the capture pattern you can help break"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "pattern_regulatory_capture",
+      "type": "names",
+      "epistemic_status": "record",
+      "note": "The beckoning names the capture pattern you can help break"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "larry_nassar",
+      "type": "proof",
+      "epistemic_status": "record",
+      "note": "Nassar proves: when it pops, EVERYONE comes forward"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "judge_aquilina",
+      "type": "proof",
+      "epistemic_status": "record",
+      "note": "Aquilina proves: one judge who listens changes everything"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "msu_nassar_coverup",
+      "type": "proof",
+      "epistemic_status": "record",
+      "note": "MSU paid $500M. The cost of covering up is always higher than coming clean."
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "article_holland_exposed",
+      "type": "use_this",
+      "epistemic_status": "record",
+      "note": "Show someone Holland. Narcotics trafficker as school treasurer. They'll ask the next question."
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "severn_address",
+      "type": "use_this",
+      "epistemic_status": "record",
+      "note": "Banks and Holland at the same address. A front. Show someone."
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "banks_harassment_house",
+      "type": "use_this",
+      "epistemic_status": "record",
+      "note": "Banks harassed a House aide. Then ran a school. Show someone."
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "article_man_bites_dog",
+      "type": "entry_point",
+      "epistemic_status": "record",
+      "note": "Start with satire. Make them laugh. Then make them think."
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "satire_as_weapon",
+      "type": "uses",
+      "epistemic_status": "record",
+      "note": "The beckoning uses satire as the hook"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "modest_proposal",
+      "type": "inspired_by",
+      "epistemic_status": "record",
+      "note": "Swift beckoned too. Different century. Same method."
+    },
+    {
+      "source": "satire_as_weapon",
+      "target": "larry_nassar",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Chaplin mocked Hitler. We mock the system that protects Banks. Nassar shows why."
+    },
+    {
+      "source": "satire_as_weapon",
+      "target": "msu_nassar_coverup",
+      "type": "exposes",
+      "epistemic_status": "record",
+      "note": "The absurdity: MSU paid $500M to protect one man. The joke writes itself."
+    },
+    {
+      "source": "satire_as_weapon",
+      "target": "article_holland_exposed",
+      "type": "amplifies",
+      "epistemic_status": "record",
+      "note": "A narcotics trafficker as school treasurer. You can't make this up."
+    },
+    {
+      "source": "satire_as_weapon",
+      "target": "banks_harassment_house",
+      "type": "amplifies",
+      "epistemic_status": "record",
+      "note": "He harassed a House aide then ran a school. The satire is the truth."
+    },
+    {
+      "source": "modest_proposal",
+      "target": "larry_nassar",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Swift: you're eating the children. MSU: you're feeding them to Nassar."
+    },
+    {
+      "source": "modest_proposal",
+      "target": "article_holland_exposed",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Swift: a modest proposal. Holland: a modest treasurer."
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "cmu",
+      "type": "targets",
+      "epistemic_status": "record",
+      "note": "power article targets investigation core"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "plante_moran",
+      "type": "targets",
+      "epistemic_status": "record",
+      "note": "power article targets investigation core"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "purpose_foundation",
+      "type": "targets",
+      "epistemic_status": "record",
+      "note": "power article targets investigation core"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "dykema",
+      "type": "targets",
+      "epistemic_status": "record",
+      "note": "power article targets investigation core"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "beasley",
+      "type": "targets",
+      "epistemic_status": "record",
+      "note": "power article targets investigation core"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "ms_perkins_pca",
+      "type": "targets",
+      "epistemic_status": "record",
+      "note": "power article targets investigation core"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "holland",
+      "type": "targets",
+      "epistemic_status": "record",
+      "note": "power article targets investigation core"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "detroit_free_press",
+      "type": "targets",
+      "epistemic_status": "record",
+      "note": "power article targets investigation core"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "detroit_news",
+      "type": "targets",
+      "epistemic_status": "record",
+      "note": "power article targets investigation core"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "cmu",
+      "type": "targets",
+      "epistemic_status": "record",
+      "note": "power article targets investigation core"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "plante_moran",
+      "type": "targets",
+      "epistemic_status": "record",
+      "note": "power article targets investigation core"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "purpose_foundation",
+      "type": "targets",
+      "epistemic_status": "record",
+      "note": "power article targets investigation core"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "dykema",
+      "type": "targets",
+      "epistemic_status": "record",
+      "note": "power article targets investigation core"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "beasley",
+      "type": "targets",
+      "epistemic_status": "record",
+      "note": "power article targets investigation core"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "ms_perkins_pca",
+      "type": "targets",
+      "epistemic_status": "record",
+      "note": "power article targets investigation core"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "holland",
+      "type": "targets",
+      "epistemic_status": "record",
+      "note": "power article targets investigation core"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "detroit_free_press",
+      "type": "targets",
+      "epistemic_status": "record",
+      "note": "power article targets investigation core"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "detroit_news",
+      "type": "targets",
+      "epistemic_status": "record",
+      "note": "power article targets investigation core"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "cmu",
+      "type": "targets",
+      "epistemic_status": "record",
+      "note": "power article targets investigation core"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "plante_moran",
+      "type": "targets",
+      "epistemic_status": "record",
+      "note": "power article targets investigation core"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "purpose_foundation",
+      "type": "targets",
+      "epistemic_status": "record",
+      "note": "power article targets investigation core"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "dykema",
+      "type": "targets",
+      "epistemic_status": "record",
+      "note": "power article targets investigation core"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "beasley",
+      "type": "targets",
+      "epistemic_status": "record",
+      "note": "power article targets investigation core"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "ms_perkins_pca",
+      "type": "targets",
+      "epistemic_status": "record",
+      "note": "power article targets investigation core"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "holland",
+      "type": "targets",
+      "epistemic_status": "record",
+      "note": "power article targets investigation core"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "detroit_free_press",
+      "type": "targets",
+      "epistemic_status": "record",
+      "note": "power article targets investigation core"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "detroit_news",
+      "type": "targets",
+      "epistemic_status": "record",
+      "note": "power article targets investigation core"
+    },
+    {
+      "source": "article_holland_exposed",
+      "target": "cmu",
+      "type": "targets",
+      "epistemic_status": "record",
+      "note": "power article targets investigation core"
+    },
+    {
+      "source": "article_holland_exposed",
+      "target": "plante_moran",
+      "type": "targets",
+      "epistemic_status": "record",
+      "note": "power article targets investigation core"
+    },
+    {
+      "source": "article_holland_exposed",
+      "target": "purpose_foundation",
+      "type": "targets",
+      "epistemic_status": "record",
+      "note": "power article targets investigation core"
+    },
+    {
+      "source": "article_holland_exposed",
+      "target": "dykema",
+      "type": "targets",
+      "epistemic_status": "record",
+      "note": "power article targets investigation core"
+    },
+    {
+      "source": "article_holland_exposed",
+      "target": "beasley",
+      "type": "targets",
+      "epistemic_status": "record",
+      "note": "power article targets investigation core"
+    },
+    {
+      "source": "article_holland_exposed",
+      "target": "ms_perkins_pca",
+      "type": "targets",
+      "epistemic_status": "record",
+      "note": "power article targets investigation core"
+    },
+    {
+      "source": "article_holland_exposed",
+      "target": "holland",
+      "type": "targets",
+      "epistemic_status": "record",
+      "note": "power article targets investigation core"
+    },
+    {
+      "source": "article_holland_exposed",
+      "target": "detroit_free_press",
+      "type": "targets",
+      "epistemic_status": "record",
+      "note": "power article targets investigation core"
+    },
+    {
+      "source": "article_holland_exposed",
+      "target": "detroit_news",
+      "type": "targets",
+      "epistemic_status": "record",
+      "note": "power article targets investigation core"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "cmu",
+      "type": "targets",
+      "epistemic_status": "record",
+      "note": "power article targets investigation core"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "plante_moran",
+      "type": "targets",
+      "epistemic_status": "record",
+      "note": "power article targets investigation core"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "purpose_foundation",
+      "type": "targets",
+      "epistemic_status": "record",
+      "note": "power article targets investigation core"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "dykema",
+      "type": "targets",
+      "epistemic_status": "record",
+      "note": "power article targets investigation core"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "beasley",
+      "type": "targets",
+      "epistemic_status": "record",
+      "note": "power article targets investigation core"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "ms_perkins_pca",
+      "type": "targets",
+      "epistemic_status": "record",
+      "note": "power article targets investigation core"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "holland",
+      "type": "targets",
+      "epistemic_status": "record",
+      "note": "power article targets investigation core"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "detroit_free_press",
+      "type": "targets",
+      "epistemic_status": "record",
+      "note": "power article targets investigation core"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "detroit_news",
+      "type": "targets",
+      "epistemic_status": "record",
+      "note": "power article targets investigation core"
+    },
+    {
+      "source": "beast_spider",
+      "target": "article_man_bites_dog",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_octopus",
+      "target": "article_man_bites_dog",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_hawk",
+      "target": "article_man_bites_dog",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_wolf",
+      "target": "article_man_bites_dog",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_honeybee",
+      "target": "article_man_bites_dog",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_dolphin",
+      "target": "article_man_bites_dog",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_badger",
+      "target": "article_man_bites_dog",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_ant",
+      "target": "article_man_bites_dog",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_whale",
+      "target": "article_man_bites_dog",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_firefly",
+      "target": "article_man_bites_dog",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_owl",
+      "target": "article_man_bites_dog",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_gorilla",
+      "target": "article_man_bites_dog",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_elephant",
+      "target": "article_man_bites_dog",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_spider",
+      "target": "article_spiral_across",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_octopus",
+      "target": "article_spiral_across",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_hawk",
+      "target": "article_spiral_across",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_wolf",
+      "target": "article_spiral_across",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_honeybee",
+      "target": "article_spiral_across",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_dolphin",
+      "target": "article_spiral_across",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_badger",
+      "target": "article_spiral_across",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_ant",
+      "target": "article_spiral_across",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_whale",
+      "target": "article_spiral_across",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_firefly",
+      "target": "article_spiral_across",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_owl",
+      "target": "article_spiral_across",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_gorilla",
+      "target": "article_spiral_across",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_elephant",
+      "target": "article_spiral_across",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_spider",
+      "target": "article_nassar_pattern",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_octopus",
+      "target": "article_nassar_pattern",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_hawk",
+      "target": "article_nassar_pattern",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_wolf",
+      "target": "article_nassar_pattern",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_honeybee",
+      "target": "article_nassar_pattern",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_dolphin",
+      "target": "article_nassar_pattern",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_badger",
+      "target": "article_nassar_pattern",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_ant",
+      "target": "article_nassar_pattern",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_whale",
+      "target": "article_nassar_pattern",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_firefly",
+      "target": "article_nassar_pattern",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_owl",
+      "target": "article_nassar_pattern",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_gorilla",
+      "target": "article_nassar_pattern",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_elephant",
+      "target": "article_nassar_pattern",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_spider",
+      "target": "article_holland_exposed",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_octopus",
+      "target": "article_holland_exposed",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_hawk",
+      "target": "article_holland_exposed",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_wolf",
+      "target": "article_holland_exposed",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_honeybee",
+      "target": "article_holland_exposed",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_dolphin",
+      "target": "article_holland_exposed",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_badger",
+      "target": "article_holland_exposed",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_ant",
+      "target": "article_holland_exposed",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_whale",
+      "target": "article_holland_exposed",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_firefly",
+      "target": "article_holland_exposed",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_owl",
+      "target": "article_holland_exposed",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_gorilla",
+      "target": "article_holland_exposed",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_elephant",
+      "target": "article_holland_exposed",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_spider",
+      "target": "article_you_yeah_you",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_octopus",
+      "target": "article_you_yeah_you",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_hawk",
+      "target": "article_you_yeah_you",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_wolf",
+      "target": "article_you_yeah_you",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_honeybee",
+      "target": "article_you_yeah_you",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_dolphin",
+      "target": "article_you_yeah_you",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_badger",
+      "target": "article_you_yeah_you",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_ant",
+      "target": "article_you_yeah_you",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_whale",
+      "target": "article_you_yeah_you",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_firefly",
+      "target": "article_you_yeah_you",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_owl",
+      "target": "article_you_yeah_you",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_gorilla",
+      "target": "article_you_yeah_you",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "beast_elephant",
+      "target": "article_you_yeah_you",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the power article"
+    },
+    {
+      "source": "ward_anti_slapp",
+      "target": "article_man_bites_dog",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "ward protects the power article"
+    },
+    {
+      "source": "ward_1983",
+      "target": "article_man_bites_dog",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "ward protects the power article"
+    },
+    {
+      "source": "ward_open_meetings",
+      "target": "article_man_bites_dog",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "ward protects the power article"
+    },
+    {
+      "source": "ward_whistleblower_mi",
+      "target": "article_man_bites_dog",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "ward protects the power article"
+    },
+    {
+      "source": "ward_whistleblower_fed",
+      "target": "article_man_bites_dog",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "ward protects the power article"
+    },
+    {
+      "source": "ward_reporter_privilege",
+      "target": "article_man_bites_dog",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "ward protects the power article"
+    },
+    {
+      "source": "ward_qui_tam",
+      "target": "article_man_bites_dog",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "ward protects the power article"
+    },
+    {
+      "source": "ward_foia",
+      "target": "article_man_bites_dog",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "ward protects the power article"
+    },
+    {
+      "source": "ward_anti_slapp",
+      "target": "article_spiral_across",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "ward protects the power article"
+    },
+    {
+      "source": "ward_1983",
+      "target": "article_spiral_across",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "ward protects the power article"
+    },
+    {
+      "source": "ward_open_meetings",
+      "target": "article_spiral_across",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "ward protects the power article"
+    },
+    {
+      "source": "ward_whistleblower_mi",
+      "target": "article_spiral_across",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "ward protects the power article"
+    },
+    {
+      "source": "ward_whistleblower_fed",
+      "target": "article_spiral_across",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "ward protects the power article"
+    },
+    {
+      "source": "ward_reporter_privilege",
+      "target": "article_spiral_across",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "ward protects the power article"
+    },
+    {
+      "source": "ward_qui_tam",
+      "target": "article_spiral_across",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "ward protects the power article"
+    },
+    {
+      "source": "ward_foia",
+      "target": "article_spiral_across",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "ward protects the power article"
+    },
+    {
+      "source": "ward_anti_slapp",
+      "target": "article_nassar_pattern",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "ward protects the power article"
+    },
+    {
+      "source": "ward_1983",
+      "target": "article_nassar_pattern",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "ward protects the power article"
+    },
+    {
+      "source": "ward_open_meetings",
+      "target": "article_nassar_pattern",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "ward protects the power article"
+    },
+    {
+      "source": "ward_whistleblower_mi",
+      "target": "article_nassar_pattern",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "ward protects the power article"
+    },
+    {
+      "source": "ward_whistleblower_fed",
+      "target": "article_nassar_pattern",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "ward protects the power article"
+    },
+    {
+      "source": "ward_reporter_privilege",
+      "target": "article_nassar_pattern",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "ward protects the power article"
+    },
+    {
+      "source": "ward_qui_tam",
+      "target": "article_nassar_pattern",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "ward protects the power article"
+    },
+    {
+      "source": "ward_foia",
+      "target": "article_nassar_pattern",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "ward protects the power article"
+    },
+    {
+      "source": "ward_anti_slapp",
+      "target": "article_holland_exposed",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "ward protects the power article"
+    },
+    {
+      "source": "ward_1983",
+      "target": "article_holland_exposed",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "ward protects the power article"
+    },
+    {
+      "source": "ward_open_meetings",
+      "target": "article_holland_exposed",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "ward protects the power article"
+    },
+    {
+      "source": "ward_whistleblower_mi",
+      "target": "article_holland_exposed",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "ward protects the power article"
+    },
+    {
+      "source": "ward_whistleblower_fed",
+      "target": "article_holland_exposed",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "ward protects the power article"
+    },
+    {
+      "source": "ward_reporter_privilege",
+      "target": "article_holland_exposed",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "ward protects the power article"
+    },
+    {
+      "source": "ward_qui_tam",
+      "target": "article_holland_exposed",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "ward protects the power article"
+    },
+    {
+      "source": "ward_foia",
+      "target": "article_holland_exposed",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "ward protects the power article"
+    },
+    {
+      "source": "ward_anti_slapp",
+      "target": "article_you_yeah_you",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "ward protects the power article"
+    },
+    {
+      "source": "ward_1983",
+      "target": "article_you_yeah_you",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "ward protects the power article"
+    },
+    {
+      "source": "ward_open_meetings",
+      "target": "article_you_yeah_you",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "ward protects the power article"
+    },
+    {
+      "source": "ward_whistleblower_mi",
+      "target": "article_you_yeah_you",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "ward protects the power article"
+    },
+    {
+      "source": "ward_whistleblower_fed",
+      "target": "article_you_yeah_you",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "ward protects the power article"
+    },
+    {
+      "source": "ward_reporter_privilege",
+      "target": "article_you_yeah_you",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "ward protects the power article"
+    },
+    {
+      "source": "ward_qui_tam",
+      "target": "article_you_yeah_you",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "ward protects the power article"
+    },
+    {
+      "source": "ward_foia",
+      "target": "article_you_yeah_you",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "ward protects the power article"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "bell_alumni",
+      "type": "rings",
+      "epistemic_status": "record",
+      "note": "power article rings the bell"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "bell_data_journalists",
+      "type": "rings",
+      "epistemic_status": "record",
+      "note": "power article rings the bell"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "bell_auditors",
+      "type": "rings",
+      "epistemic_status": "record",
+      "note": "power article rings the bell"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "bell_teachers",
+      "type": "rings",
+      "epistemic_status": "record",
+      "note": "power article rings the bell"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "bell_other_states",
+      "type": "rings",
+      "epistemic_status": "record",
+      "note": "power article rings the bell"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "bell_law_students",
+      "type": "rings",
+      "epistemic_status": "record",
+      "note": "power article rings the bell"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "bell_peer_schools",
+      "type": "rings",
+      "epistemic_status": "record",
+      "note": "power article rings the bell"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "bell_parents",
+      "type": "rings",
+      "epistemic_status": "record",
+      "note": "power article rings the bell"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "bell_alumni",
+      "type": "rings",
+      "epistemic_status": "record",
+      "note": "power article rings the bell"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "bell_data_journalists",
+      "type": "rings",
+      "epistemic_status": "record",
+      "note": "power article rings the bell"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "bell_auditors",
+      "type": "rings",
+      "epistemic_status": "record",
+      "note": "power article rings the bell"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "bell_teachers",
+      "type": "rings",
+      "epistemic_status": "record",
+      "note": "power article rings the bell"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "bell_other_states",
+      "type": "rings",
+      "epistemic_status": "record",
+      "note": "power article rings the bell"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "bell_law_students",
+      "type": "rings",
+      "epistemic_status": "record",
+      "note": "power article rings the bell"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "bell_peer_schools",
+      "type": "rings",
+      "epistemic_status": "record",
+      "note": "power article rings the bell"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "bell_parents",
+      "type": "rings",
+      "epistemic_status": "record",
+      "note": "power article rings the bell"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "bell_alumni",
+      "type": "rings",
+      "epistemic_status": "record",
+      "note": "power article rings the bell"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "bell_data_journalists",
+      "type": "rings",
+      "epistemic_status": "record",
+      "note": "power article rings the bell"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "bell_auditors",
+      "type": "rings",
+      "epistemic_status": "record",
+      "note": "power article rings the bell"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "bell_teachers",
+      "type": "rings",
+      "epistemic_status": "record",
+      "note": "power article rings the bell"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "bell_other_states",
+      "type": "rings",
+      "epistemic_status": "record",
+      "note": "power article rings the bell"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "bell_law_students",
+      "type": "rings",
+      "epistemic_status": "record",
+      "note": "power article rings the bell"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "bell_peer_schools",
+      "type": "rings",
+      "epistemic_status": "record",
+      "note": "power article rings the bell"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "bell_parents",
+      "type": "rings",
+      "epistemic_status": "record",
+      "note": "power article rings the bell"
+    },
+    {
+      "source": "article_holland_exposed",
+      "target": "bell_alumni",
+      "type": "rings",
+      "epistemic_status": "record",
+      "note": "power article rings the bell"
+    },
+    {
+      "source": "article_holland_exposed",
+      "target": "bell_data_journalists",
+      "type": "rings",
+      "epistemic_status": "record",
+      "note": "power article rings the bell"
+    },
+    {
+      "source": "article_holland_exposed",
+      "target": "bell_auditors",
+      "type": "rings",
+      "epistemic_status": "record",
+      "note": "power article rings the bell"
+    },
+    {
+      "source": "article_holland_exposed",
+      "target": "bell_teachers",
+      "type": "rings",
+      "epistemic_status": "record",
+      "note": "power article rings the bell"
+    },
+    {
+      "source": "article_holland_exposed",
+      "target": "bell_other_states",
+      "type": "rings",
+      "epistemic_status": "record",
+      "note": "power article rings the bell"
+    },
+    {
+      "source": "article_holland_exposed",
+      "target": "bell_law_students",
+      "type": "rings",
+      "epistemic_status": "record",
+      "note": "power article rings the bell"
+    },
+    {
+      "source": "article_holland_exposed",
+      "target": "bell_peer_schools",
+      "type": "rings",
+      "epistemic_status": "record",
+      "note": "power article rings the bell"
+    },
+    {
+      "source": "article_holland_exposed",
+      "target": "bell_parents",
+      "type": "rings",
+      "epistemic_status": "record",
+      "note": "power article rings the bell"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "bell_alumni",
+      "type": "rings",
+      "epistemic_status": "record",
+      "note": "power article rings the bell"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "bell_data_journalists",
+      "type": "rings",
+      "epistemic_status": "record",
+      "note": "power article rings the bell"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "bell_auditors",
+      "type": "rings",
+      "epistemic_status": "record",
+      "note": "power article rings the bell"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "bell_teachers",
+      "type": "rings",
+      "epistemic_status": "record",
+      "note": "power article rings the bell"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "bell_other_states",
+      "type": "rings",
+      "epistemic_status": "record",
+      "note": "power article rings the bell"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "bell_law_students",
+      "type": "rings",
+      "epistemic_status": "record",
+      "note": "power article rings the bell"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "bell_peer_schools",
+      "type": "rings",
+      "epistemic_status": "record",
+      "note": "power article rings the bell"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "bell_parents",
+      "type": "rings",
+      "epistemic_status": "record",
+      "note": "power article rings the bell"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "hypothesis_credential",
+      "type": "evidence_for",
+      "epistemic_status": "record",
+      "note": "power article provides evidence"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "hypothesis_extraction",
+      "type": "evidence_for",
+      "epistemic_status": "record",
+      "note": "power article provides evidence"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "hypothesis_silence",
+      "type": "evidence_for",
+      "epistemic_status": "record",
+      "note": "power article provides evidence"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "hypothesis_convictions",
+      "type": "evidence_for",
+      "epistemic_status": "record",
+      "note": "power article provides evidence"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "hypothesis_bankruptcy",
+      "type": "evidence_for",
+      "epistemic_status": "record",
+      "note": "power article provides evidence"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "hypothesis_proficiency",
+      "type": "evidence_for",
+      "epistemic_status": "record",
+      "note": "power article provides evidence"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "hypothesis_regulatory_capture",
+      "type": "evidence_for",
+      "epistemic_status": "record",
+      "note": "power article provides evidence"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "hypothesis_credential",
+      "type": "evidence_for",
+      "epistemic_status": "record",
+      "note": "power article provides evidence"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "hypothesis_extraction",
+      "type": "evidence_for",
+      "epistemic_status": "record",
+      "note": "power article provides evidence"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "hypothesis_silence",
+      "type": "evidence_for",
+      "epistemic_status": "record",
+      "note": "power article provides evidence"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "hypothesis_convictions",
+      "type": "evidence_for",
+      "epistemic_status": "record",
+      "note": "power article provides evidence"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "hypothesis_bankruptcy",
+      "type": "evidence_for",
+      "epistemic_status": "record",
+      "note": "power article provides evidence"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "hypothesis_proficiency",
+      "type": "evidence_for",
+      "epistemic_status": "record",
+      "note": "power article provides evidence"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "hypothesis_regulatory_capture",
+      "type": "evidence_for",
+      "epistemic_status": "record",
+      "note": "power article provides evidence"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "hypothesis_credential",
+      "type": "evidence_for",
+      "epistemic_status": "record",
+      "note": "power article provides evidence"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "hypothesis_extraction",
+      "type": "evidence_for",
+      "epistemic_status": "record",
+      "note": "power article provides evidence"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "hypothesis_silence",
+      "type": "evidence_for",
+      "epistemic_status": "record",
+      "note": "power article provides evidence"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "hypothesis_convictions",
+      "type": "evidence_for",
+      "epistemic_status": "record",
+      "note": "power article provides evidence"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "hypothesis_bankruptcy",
+      "type": "evidence_for",
+      "epistemic_status": "record",
+      "note": "power article provides evidence"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "hypothesis_proficiency",
+      "type": "evidence_for",
+      "epistemic_status": "record",
+      "note": "power article provides evidence"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "hypothesis_regulatory_capture",
+      "type": "evidence_for",
+      "epistemic_status": "record",
+      "note": "power article provides evidence"
+    },
+    {
+      "source": "article_holland_exposed",
+      "target": "hypothesis_credential",
+      "type": "evidence_for",
+      "epistemic_status": "record",
+      "note": "power article provides evidence"
+    },
+    {
+      "source": "article_holland_exposed",
+      "target": "hypothesis_extraction",
+      "type": "evidence_for",
+      "epistemic_status": "record",
+      "note": "power article provides evidence"
+    },
+    {
+      "source": "article_holland_exposed",
+      "target": "hypothesis_silence",
+      "type": "evidence_for",
+      "epistemic_status": "record",
+      "note": "power article provides evidence"
+    },
+    {
+      "source": "article_holland_exposed",
+      "target": "hypothesis_convictions",
+      "type": "evidence_for",
+      "epistemic_status": "record",
+      "note": "power article provides evidence"
+    },
+    {
+      "source": "article_holland_exposed",
+      "target": "hypothesis_bankruptcy",
+      "type": "evidence_for",
+      "epistemic_status": "record",
+      "note": "power article provides evidence"
+    },
+    {
+      "source": "article_holland_exposed",
+      "target": "hypothesis_proficiency",
+      "type": "evidence_for",
+      "epistemic_status": "record",
+      "note": "power article provides evidence"
+    },
+    {
+      "source": "article_holland_exposed",
+      "target": "hypothesis_regulatory_capture",
+      "type": "evidence_for",
+      "epistemic_status": "record",
+      "note": "power article provides evidence"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "hypothesis_credential",
+      "type": "evidence_for",
+      "epistemic_status": "record",
+      "note": "power article provides evidence"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "hypothesis_extraction",
+      "type": "evidence_for",
+      "epistemic_status": "record",
+      "note": "power article provides evidence"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "hypothesis_silence",
+      "type": "evidence_for",
+      "epistemic_status": "record",
+      "note": "power article provides evidence"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "hypothesis_convictions",
+      "type": "evidence_for",
+      "epistemic_status": "record",
+      "note": "power article provides evidence"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "hypothesis_bankruptcy",
+      "type": "evidence_for",
+      "epistemic_status": "record",
+      "note": "power article provides evidence"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "hypothesis_proficiency",
+      "type": "evidence_for",
+      "epistemic_status": "record",
+      "note": "power article provides evidence"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "hypothesis_regulatory_capture",
+      "type": "evidence_for",
+      "epistemic_status": "record",
+      "note": "power article provides evidence"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "neg_no_media",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "neg_no_lara_revocation",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "neg_no_restitution",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "neg_no_charges",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "neg_no_whistleblower",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "neg_children_still_harmed",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "neg_no_mde_action",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "neg_silence_continues",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "neg_no_audit",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "neg_no_accountability",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "neg_no_federal",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "neg_no_foia_response",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "neg_no_resignation",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "neg_no_board_action",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "neg_no_media",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "neg_no_lara_revocation",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "neg_no_restitution",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "neg_no_charges",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "neg_no_whistleblower",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "neg_children_still_harmed",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "neg_no_mde_action",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "neg_silence_continues",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "neg_no_audit",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "neg_no_accountability",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "neg_no_federal",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "neg_no_foia_response",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "neg_no_resignation",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "neg_no_board_action",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "neg_no_media",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "neg_no_lara_revocation",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "neg_no_restitution",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "neg_no_charges",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "neg_no_whistleblower",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "neg_children_still_harmed",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "neg_no_mde_action",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "neg_silence_continues",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "neg_no_audit",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "neg_no_accountability",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "neg_no_federal",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "neg_no_foia_response",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "neg_no_resignation",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "neg_no_board_action",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_holland_exposed",
+      "target": "neg_no_media",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_holland_exposed",
+      "target": "neg_no_lara_revocation",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_holland_exposed",
+      "target": "neg_no_restitution",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_holland_exposed",
+      "target": "neg_no_charges",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_holland_exposed",
+      "target": "neg_no_whistleblower",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_holland_exposed",
+      "target": "neg_children_still_harmed",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_holland_exposed",
+      "target": "neg_no_mde_action",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_holland_exposed",
+      "target": "neg_silence_continues",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_holland_exposed",
+      "target": "neg_no_audit",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_holland_exposed",
+      "target": "neg_no_accountability",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_holland_exposed",
+      "target": "neg_no_federal",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_holland_exposed",
+      "target": "neg_no_foia_response",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_holland_exposed",
+      "target": "neg_no_resignation",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_holland_exposed",
+      "target": "neg_no_board_action",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "neg_no_media",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "neg_no_lara_revocation",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "neg_no_restitution",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "neg_no_charges",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "neg_no_whistleblower",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "neg_children_still_harmed",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "neg_no_mde_action",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "neg_silence_continues",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "neg_no_audit",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "neg_no_accountability",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "neg_no_federal",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "neg_no_foia_response",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "neg_no_resignation",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "neg_no_board_action",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": "power article documents the negative"
+    },
+    {
+      "source": "bounty_qui_tam",
+      "target": "article_man_bites_dog",
+      "type": "rewards_investigation_of",
+      "epistemic_status": "record",
+      "note": "bounty rewards this investigation thread"
+    },
+    {
+      "source": "bounty_irs_whistleblower",
+      "target": "article_man_bites_dog",
+      "type": "rewards_investigation_of",
+      "epistemic_status": "record",
+      "note": "bounty rewards this investigation thread"
+    },
+    {
+      "source": "bounty_social_spread",
+      "target": "article_man_bites_dog",
+      "type": "rewards_investigation_of",
+      "epistemic_status": "record",
+      "note": "bounty rewards this investigation thread"
+    },
+    {
+      "source": "bounty_sec_whistleblower",
+      "target": "article_man_bites_dog",
+      "type": "rewards_investigation_of",
+      "epistemic_status": "record",
+      "note": "bounty rewards this investigation thread"
+    },
+    {
+      "source": "bounty_state_ag",
+      "target": "article_man_bites_dog",
+      "type": "rewards_investigation_of",
+      "epistemic_status": "record",
+      "note": "bounty rewards this investigation thread"
+    },
+    {
+      "source": "bounty_qui_tam",
+      "target": "article_spiral_across",
+      "type": "rewards_investigation_of",
+      "epistemic_status": "record",
+      "note": "bounty rewards this investigation thread"
+    },
+    {
+      "source": "bounty_irs_whistleblower",
+      "target": "article_spiral_across",
+      "type": "rewards_investigation_of",
+      "epistemic_status": "record",
+      "note": "bounty rewards this investigation thread"
+    },
+    {
+      "source": "bounty_social_spread",
+      "target": "article_spiral_across",
+      "type": "rewards_investigation_of",
+      "epistemic_status": "record",
+      "note": "bounty rewards this investigation thread"
+    },
+    {
+      "source": "bounty_sec_whistleblower",
+      "target": "article_spiral_across",
+      "type": "rewards_investigation_of",
+      "epistemic_status": "record",
+      "note": "bounty rewards this investigation thread"
+    },
+    {
+      "source": "bounty_state_ag",
+      "target": "article_spiral_across",
+      "type": "rewards_investigation_of",
+      "epistemic_status": "record",
+      "note": "bounty rewards this investigation thread"
+    },
+    {
+      "source": "bounty_qui_tam",
+      "target": "article_nassar_pattern",
+      "type": "rewards_investigation_of",
+      "epistemic_status": "record",
+      "note": "bounty rewards this investigation thread"
+    },
+    {
+      "source": "bounty_irs_whistleblower",
+      "target": "article_nassar_pattern",
+      "type": "rewards_investigation_of",
+      "epistemic_status": "record",
+      "note": "bounty rewards this investigation thread"
+    },
+    {
+      "source": "bounty_social_spread",
+      "target": "article_nassar_pattern",
+      "type": "rewards_investigation_of",
+      "epistemic_status": "record",
+      "note": "bounty rewards this investigation thread"
+    },
+    {
+      "source": "bounty_sec_whistleblower",
+      "target": "article_nassar_pattern",
+      "type": "rewards_investigation_of",
+      "epistemic_status": "record",
+      "note": "bounty rewards this investigation thread"
+    },
+    {
+      "source": "bounty_state_ag",
+      "target": "article_nassar_pattern",
+      "type": "rewards_investigation_of",
+      "epistemic_status": "record",
+      "note": "bounty rewards this investigation thread"
+    },
+    {
+      "source": "bounty_qui_tam",
+      "target": "article_holland_exposed",
+      "type": "rewards_investigation_of",
+      "epistemic_status": "record",
+      "note": "bounty rewards this investigation thread"
+    },
+    {
+      "source": "bounty_irs_whistleblower",
+      "target": "article_holland_exposed",
+      "type": "rewards_investigation_of",
+      "epistemic_status": "record",
+      "note": "bounty rewards this investigation thread"
+    },
+    {
+      "source": "bounty_social_spread",
+      "target": "article_holland_exposed",
+      "type": "rewards_investigation_of",
+      "epistemic_status": "record",
+      "note": "bounty rewards this investigation thread"
+    },
+    {
+      "source": "bounty_sec_whistleblower",
+      "target": "article_holland_exposed",
+      "type": "rewards_investigation_of",
+      "epistemic_status": "record",
+      "note": "bounty rewards this investigation thread"
+    },
+    {
+      "source": "bounty_state_ag",
+      "target": "article_holland_exposed",
+      "type": "rewards_investigation_of",
+      "epistemic_status": "record",
+      "note": "bounty rewards this investigation thread"
+    },
+    {
+      "source": "bounty_qui_tam",
+      "target": "article_you_yeah_you",
+      "type": "rewards_investigation_of",
+      "epistemic_status": "record",
+      "note": "bounty rewards this investigation thread"
+    },
+    {
+      "source": "bounty_irs_whistleblower",
+      "target": "article_you_yeah_you",
+      "type": "rewards_investigation_of",
+      "epistemic_status": "record",
+      "note": "bounty rewards this investigation thread"
+    },
+    {
+      "source": "bounty_social_spread",
+      "target": "article_you_yeah_you",
+      "type": "rewards_investigation_of",
+      "epistemic_status": "record",
+      "note": "bounty rewards this investigation thread"
+    },
+    {
+      "source": "bounty_sec_whistleblower",
+      "target": "article_you_yeah_you",
+      "type": "rewards_investigation_of",
+      "epistemic_status": "record",
+      "note": "bounty rewards this investigation thread"
+    },
+    {
+      "source": "bounty_state_ag",
+      "target": "article_you_yeah_you",
+      "type": "rewards_investigation_of",
+      "epistemic_status": "record",
+      "note": "bounty rewards this investigation thread"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "spread_journalists",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "power article reaches through channel"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "spread_twitter",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "power article reaches through channel"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "spread_reddit",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "power article reaches through channel"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "spread_tiktok",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "power article reaches through channel"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "spread_law_schools",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "power article reaches through channel"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "spread_journalists",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "power article reaches through channel"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "spread_twitter",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "power article reaches through channel"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "spread_reddit",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "power article reaches through channel"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "spread_tiktok",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "power article reaches through channel"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "spread_law_schools",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "power article reaches through channel"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "spread_journalists",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "power article reaches through channel"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "spread_twitter",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "power article reaches through channel"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "spread_reddit",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "power article reaches through channel"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "spread_tiktok",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "power article reaches through channel"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "spread_law_schools",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "power article reaches through channel"
+    },
+    {
+      "source": "article_holland_exposed",
+      "target": "spread_journalists",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "power article reaches through channel"
+    },
+    {
+      "source": "article_holland_exposed",
+      "target": "spread_twitter",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "power article reaches through channel"
+    },
+    {
+      "source": "article_holland_exposed",
+      "target": "spread_reddit",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "power article reaches through channel"
+    },
+    {
+      "source": "article_holland_exposed",
+      "target": "spread_tiktok",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "power article reaches through channel"
+    },
+    {
+      "source": "article_holland_exposed",
+      "target": "spread_law_schools",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "power article reaches through channel"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "spread_journalists",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "power article reaches through channel"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "spread_twitter",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "power article reaches through channel"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "spread_reddit",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "power article reaches through channel"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "spread_tiktok",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "power article reaches through channel"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "spread_law_schools",
+      "type": "spreads_through",
+      "epistemic_status": "record",
+      "note": "power article reaches through channel"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "redflag_llc_web",
+      "type": "validates",
+      "epistemic_status": "record",
+      "note": "power article validates red flag pattern"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "redflag_silence_ratio",
+      "type": "validates",
+      "epistemic_status": "record",
+      "note": "power article validates red flag pattern"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "redflag_audit_hired_by_client",
+      "type": "validates",
+      "epistemic_status": "record",
+      "note": "power article validates red flag pattern"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "redflag_scores_vs_money",
+      "type": "validates",
+      "epistemic_status": "record",
+      "note": "power article validates red flag pattern"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "redflag_false_credential",
+      "type": "validates",
+      "epistemic_status": "record",
+      "note": "power article validates red flag pattern"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "redflag_bankruptcy_pattern",
+      "type": "validates",
+      "epistemic_status": "record",
+      "note": "power article validates red flag pattern"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "redflag_criminal_background",
+      "type": "validates",
+      "epistemic_status": "record",
+      "note": "power article validates red flag pattern"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "redflag_distant_authorizer",
+      "type": "validates",
+      "epistemic_status": "record",
+      "note": "power article validates red flag pattern"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "redflag_board_independence",
+      "type": "validates",
+      "epistemic_status": "record",
+      "note": "power article validates red flag pattern"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "redflag_related_party_transactions",
+      "type": "validates",
+      "epistemic_status": "record",
+      "note": "power article validates red flag pattern"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "redflag_llc_web",
+      "type": "validates",
+      "epistemic_status": "record",
+      "note": "power article validates red flag pattern"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "redflag_silence_ratio",
+      "type": "validates",
+      "epistemic_status": "record",
+      "note": "power article validates red flag pattern"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "redflag_audit_hired_by_client",
+      "type": "validates",
+      "epistemic_status": "record",
+      "note": "power article validates red flag pattern"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "redflag_scores_vs_money",
+      "type": "validates",
+      "epistemic_status": "record",
+      "note": "power article validates red flag pattern"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "redflag_false_credential",
+      "type": "validates",
+      "epistemic_status": "record",
+      "note": "power article validates red flag pattern"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "redflag_bankruptcy_pattern",
+      "type": "validates",
+      "epistemic_status": "record",
+      "note": "power article validates red flag pattern"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "redflag_criminal_background",
+      "type": "validates",
+      "epistemic_status": "record",
+      "note": "power article validates red flag pattern"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "redflag_distant_authorizer",
+      "type": "validates",
+      "epistemic_status": "record",
+      "note": "power article validates red flag pattern"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "redflag_board_independence",
+      "type": "validates",
+      "epistemic_status": "record",
+      "note": "power article validates red flag pattern"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "redflag_related_party_transactions",
+      "type": "validates",
+      "epistemic_status": "record",
+      "note": "power article validates red flag pattern"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "redflag_llc_web",
+      "type": "validates",
+      "epistemic_status": "record",
+      "note": "power article validates red flag pattern"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "redflag_silence_ratio",
+      "type": "validates",
+      "epistemic_status": "record",
+      "note": "power article validates red flag pattern"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "redflag_audit_hired_by_client",
+      "type": "validates",
+      "epistemic_status": "record",
+      "note": "power article validates red flag pattern"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "redflag_scores_vs_money",
+      "type": "validates",
+      "epistemic_status": "record",
+      "note": "power article validates red flag pattern"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "redflag_false_credential",
+      "type": "validates",
+      "epistemic_status": "record",
+      "note": "power article validates red flag pattern"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "redflag_bankruptcy_pattern",
+      "type": "validates",
+      "epistemic_status": "record",
+      "note": "power article validates red flag pattern"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "redflag_criminal_background",
+      "type": "validates",
+      "epistemic_status": "record",
+      "note": "power article validates red flag pattern"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "redflag_distant_authorizer",
+      "type": "validates",
+      "epistemic_status": "record",
+      "note": "power article validates red flag pattern"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "redflag_board_independence",
+      "type": "validates",
+      "epistemic_status": "record",
+      "note": "power article validates red flag pattern"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "redflag_related_party_transactions",
+      "type": "validates",
+      "epistemic_status": "record",
+      "note": "power article validates red flag pattern"
+    },
+    {
+      "source": "article_holland_exposed",
+      "target": "redflag_llc_web",
+      "type": "validates",
+      "epistemic_status": "record",
+      "note": "power article validates red flag pattern"
+    },
+    {
+      "source": "article_holland_exposed",
+      "target": "redflag_silence_ratio",
+      "type": "validates",
+      "epistemic_status": "record",
+      "note": "power article validates red flag pattern"
+    },
+    {
+      "source": "article_holland_exposed",
+      "target": "redflag_audit_hired_by_client",
+      "type": "validates",
+      "epistemic_status": "record",
+      "note": "power article validates red flag pattern"
+    },
+    {
+      "source": "article_holland_exposed",
+      "target": "redflag_scores_vs_money",
+      "type": "validates",
+      "epistemic_status": "record",
+      "note": "power article validates red flag pattern"
+    },
+    {
+      "source": "article_holland_exposed",
+      "target": "redflag_false_credential",
+      "type": "validates",
+      "epistemic_status": "record",
+      "note": "power article validates red flag pattern"
+    },
+    {
+      "source": "article_holland_exposed",
+      "target": "redflag_bankruptcy_pattern",
+      "type": "validates",
+      "epistemic_status": "record",
+      "note": "power article validates red flag pattern"
+    },
+    {
+      "source": "article_holland_exposed",
+      "target": "redflag_criminal_background",
+      "type": "validates",
+      "epistemic_status": "record",
+      "note": "power article validates red flag pattern"
+    },
+    {
+      "source": "article_holland_exposed",
+      "target": "redflag_distant_authorizer",
+      "type": "validates",
+      "epistemic_status": "record",
+      "note": "power article validates red flag pattern"
+    },
+    {
+      "source": "article_holland_exposed",
+      "target": "redflag_board_independence",
+      "type": "validates",
+      "epistemic_status": "record",
+      "note": "power article validates red flag pattern"
+    },
+    {
+      "source": "article_holland_exposed",
+      "target": "redflag_related_party_transactions",
+      "type": "validates",
+      "epistemic_status": "record",
+      "note": "power article validates red flag pattern"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "redflag_llc_web",
+      "type": "validates",
+      "epistemic_status": "record",
+      "note": "power article validates red flag pattern"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "redflag_silence_ratio",
+      "type": "validates",
+      "epistemic_status": "record",
+      "note": "power article validates red flag pattern"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "redflag_audit_hired_by_client",
+      "type": "validates",
+      "epistemic_status": "record",
+      "note": "power article validates red flag pattern"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "redflag_scores_vs_money",
+      "type": "validates",
+      "epistemic_status": "record",
+      "note": "power article validates red flag pattern"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "redflag_false_credential",
+      "type": "validates",
+      "epistemic_status": "record",
+      "note": "power article validates red flag pattern"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "redflag_bankruptcy_pattern",
+      "type": "validates",
+      "epistemic_status": "record",
+      "note": "power article validates red flag pattern"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "redflag_criminal_background",
+      "type": "validates",
+      "epistemic_status": "record",
+      "note": "power article validates red flag pattern"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "redflag_distant_authorizer",
+      "type": "validates",
+      "epistemic_status": "record",
+      "note": "power article validates red flag pattern"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "redflag_board_independence",
+      "type": "validates",
+      "epistemic_status": "record",
+      "note": "power article validates red flag pattern"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "redflag_related_party_transactions",
+      "type": "validates",
+      "epistemic_status": "record",
+      "note": "power article validates red flag pattern"
+    },
+    {
+      "source": "accountability_clock",
+      "target": "fda_capture",
+      "type": "proves_pattern",
+      "epistemic_status": "record",
+      "note": "The clock proves the capture pattern is real"
+    },
+    {
+      "source": "accountability_clock",
+      "target": "rating_agency_capture",
+      "type": "proves_pattern",
+      "epistemic_status": "record",
+      "note": "The clock proves the capture pattern is real"
+    },
+    {
+      "source": "accountability_clock",
+      "target": "housing_inspection_capture",
+      "type": "proves_pattern",
+      "epistemic_status": "record",
+      "note": "The clock proves the capture pattern is real"
+    },
+    {
+      "source": "accountability_clock",
+      "target": "usda_self_inspection",
+      "type": "proves_pattern",
+      "epistemic_status": "record",
+      "note": "The clock proves the capture pattern is real"
+    },
+    {
+      "source": "accountability_clock",
+      "target": "flint_water_parallel",
+      "type": "proves_pattern",
+      "epistemic_status": "record",
+      "note": "The clock proves the capture pattern is real"
+    },
+    {
+      "source": "accountability_clock",
+      "target": "public_defender_capture",
+      "type": "proves_pattern",
+      "epistemic_status": "record",
+      "note": "The clock proves the capture pattern is real"
+    },
+    {
+      "source": "accountability_clock",
+      "target": "tech_self_moderation",
+      "type": "proves_pattern",
+      "epistemic_status": "record",
+      "note": "The clock proves the capture pattern is real"
+    },
+    {
+      "source": "accountability_clock",
+      "target": "church_self_investigation",
+      "type": "proves_pattern",
+      "epistemic_status": "record",
+      "note": "The clock proves the capture pattern is real"
+    },
+    {
+      "source": "accountability_clock",
+      "target": "police_self_investigation",
+      "type": "proves_pattern",
+      "epistemic_status": "record",
+      "note": "The clock proves the capture pattern is real"
+    },
+    {
+      "source": "accountability_clock",
+      "target": "nursing_home_capture",
+      "type": "proves_pattern",
+      "epistemic_status": "record",
+      "note": "The clock proves the capture pattern is real"
+    },
+    {
+      "source": "accountability_clock",
+      "target": "pattern_regulatory_capture",
+      "type": "proves_pattern",
+      "epistemic_status": "record",
+      "note": "The clock proves the capture pattern is real"
+    },
+    {
+      "source": "accountability_clock",
+      "target": "larry_nassar",
+      "type": "precedent",
+      "epistemic_status": "record",
+      "note": "Nassar proves: accountability comes. The only question is when."
+    },
+    {
+      "source": "accountability_clock",
+      "target": "judge_aquilina",
+      "type": "precedent",
+      "epistemic_status": "record",
+      "note": "Aquilina proves: one judge can change everything."
+    },
+    {
+      "source": "article_the_braid",
+      "target": "article_man_bites_dog",
+      "type": "braids",
+      "epistemic_status": "record",
+      "note": "The braid article braids this power article"
+    },
+    {
+      "source": "article_the_braid",
+      "target": "article_spiral_across",
+      "type": "braids",
+      "epistemic_status": "record",
+      "note": "The braid article braids this power article"
+    },
+    {
+      "source": "article_the_braid",
+      "target": "article_nassar_pattern",
+      "type": "braids",
+      "epistemic_status": "record",
+      "note": "The braid article braids this power article"
+    },
+    {
+      "source": "article_the_braid",
+      "target": "article_holland_exposed",
+      "type": "braids",
+      "epistemic_status": "record",
+      "note": "The braid article braids this power article"
+    },
+    {
+      "source": "article_the_braid",
+      "target": "article_you_yeah_you",
+      "type": "braids",
+      "epistemic_status": "record",
+      "note": "The braid article braids this power article"
+    },
+    {
+      "source": "article_the_braid",
+      "target": "fda_capture",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "The braid touches every capture"
+    },
+    {
+      "source": "article_the_braid",
+      "target": "rating_agency_capture",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "The braid touches every capture"
+    },
+    {
+      "source": "article_the_braid",
+      "target": "housing_inspection_capture",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "The braid touches every capture"
+    },
+    {
+      "source": "article_the_braid",
+      "target": "usda_self_inspection",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "The braid touches every capture"
+    },
+    {
+      "source": "article_the_braid",
+      "target": "flint_water_parallel",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "The braid touches every capture"
+    },
+    {
+      "source": "article_the_braid",
+      "target": "public_defender_capture",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "The braid touches every capture"
+    },
+    {
+      "source": "article_the_braid",
+      "target": "tech_self_moderation",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "The braid touches every capture"
+    },
+    {
+      "source": "article_the_braid",
+      "target": "church_self_investigation",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "The braid touches every capture"
+    },
+    {
+      "source": "article_the_braid",
+      "target": "police_self_investigation",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "The braid touches every capture"
+    },
+    {
+      "source": "article_the_braid",
+      "target": "nursing_home_capture",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "The braid touches every capture"
+    },
+    {
+      "source": "article_the_braid",
+      "target": "pattern_regulatory_capture",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "The braid touches every capture"
+    },
+    {
+      "source": "article_the_braid",
+      "target": "larry_nassar",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "The braid includes Nassar"
+    },
+    {
+      "source": "article_the_braid",
+      "target": "satire_as_weapon",
+      "type": "uses",
+      "epistemic_status": "record",
+      "note": "The braid uses satire"
+    },
+    {
+      "source": "article_the_braid",
+      "target": "modest_proposal",
+      "type": "inspired_by",
+      "epistemic_status": "record",
+      "note": "Swift braided first"
+    },
+    {
+      "source": "article_the_braid",
+      "target": "accountability_clock",
+      "type": "powered_by",
+      "epistemic_status": "record",
+      "note": "The clock powers the braid"
+    },
+    {
+      "source": "beast_spider",
+      "target": "article_the_braid",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the braid"
+    },
+    {
+      "source": "beast_octopus",
+      "target": "article_the_braid",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the braid"
+    },
+    {
+      "source": "beast_hawk",
+      "target": "article_the_braid",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the braid"
+    },
+    {
+      "source": "beast_wolf",
+      "target": "article_the_braid",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the braid"
+    },
+    {
+      "source": "beast_honeybee",
+      "target": "article_the_braid",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the braid"
+    },
+    {
+      "source": "beast_dolphin",
+      "target": "article_the_braid",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the braid"
+    },
+    {
+      "source": "beast_badger",
+      "target": "article_the_braid",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the braid"
+    },
+    {
+      "source": "beast_ant",
+      "target": "article_the_braid",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the braid"
+    },
+    {
+      "source": "beast_whale",
+      "target": "article_the_braid",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the braid"
+    },
+    {
+      "source": "beast_firefly",
+      "target": "article_the_braid",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the braid"
+    },
+    {
+      "source": "beast_owl",
+      "target": "article_the_braid",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the braid"
+    },
+    {
+      "source": "beast_gorilla",
+      "target": "article_the_braid",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the braid"
+    },
+    {
+      "source": "beast_elephant",
+      "target": "article_the_braid",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "beast carries the braid"
+    },
+    {
+      "source": "ward_anti_slapp",
+      "target": "article_the_braid",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "ward protects the braid"
+    },
+    {
+      "source": "ward_1983",
+      "target": "article_the_braid",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "ward protects the braid"
+    },
+    {
+      "source": "ward_open_meetings",
+      "target": "article_the_braid",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "ward protects the braid"
+    },
+    {
+      "source": "ward_whistleblower_mi",
+      "target": "article_the_braid",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "ward protects the braid"
+    },
+    {
+      "source": "ward_whistleblower_fed",
+      "target": "article_the_braid",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "ward protects the braid"
+    },
+    {
+      "source": "ward_reporter_privilege",
+      "target": "article_the_braid",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "ward protects the braid"
+    },
+    {
+      "source": "ward_qui_tam",
+      "target": "article_the_braid",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "ward protects the braid"
+    },
+    {
+      "source": "ward_foia",
+      "target": "article_the_braid",
+      "type": "protects",
+      "epistemic_status": "record",
+      "note": "ward protects the braid"
+    },
+    {
+      "source": "article_the_braid",
+      "target": "bell_alumni",
+      "type": "rings",
+      "epistemic_status": "record",
+      "note": "the braid rings every bell"
+    },
+    {
+      "source": "article_the_braid",
+      "target": "bell_data_journalists",
+      "type": "rings",
+      "epistemic_status": "record",
+      "note": "the braid rings every bell"
+    },
+    {
+      "source": "article_the_braid",
+      "target": "bell_auditors",
+      "type": "rings",
+      "epistemic_status": "record",
+      "note": "the braid rings every bell"
+    },
+    {
+      "source": "article_the_braid",
+      "target": "bell_teachers",
+      "type": "rings",
+      "epistemic_status": "record",
+      "note": "the braid rings every bell"
+    },
+    {
+      "source": "article_the_braid",
+      "target": "bell_other_states",
+      "type": "rings",
+      "epistemic_status": "record",
+      "note": "the braid rings every bell"
+    },
+    {
+      "source": "article_the_braid",
+      "target": "bell_law_students",
+      "type": "rings",
+      "epistemic_status": "record",
+      "note": "the braid rings every bell"
+    },
+    {
+      "source": "article_the_braid",
+      "target": "bell_peer_schools",
+      "type": "rings",
+      "epistemic_status": "record",
+      "note": "the braid rings every bell"
+    },
+    {
+      "source": "article_the_braid",
+      "target": "bell_parents",
+      "type": "rings",
+      "epistemic_status": "record",
+      "note": "the braid rings every bell"
+    },
+    {
+      "source": "article_the_braid",
+      "target": "hypothesis_credential",
+      "type": "evidence_for",
+      "epistemic_status": "record",
+      "note": "the braid tests every hypothesis"
+    },
+    {
+      "source": "article_the_braid",
+      "target": "hypothesis_extraction",
+      "type": "evidence_for",
+      "epistemic_status": "record",
+      "note": "the braid tests every hypothesis"
+    },
+    {
+      "source": "article_the_braid",
+      "target": "hypothesis_silence",
+      "type": "evidence_for",
+      "epistemic_status": "record",
+      "note": "the braid tests every hypothesis"
+    },
+    {
+      "source": "article_the_braid",
+      "target": "hypothesis_convictions",
+      "type": "evidence_for",
+      "epistemic_status": "record",
+      "note": "the braid tests every hypothesis"
+    },
+    {
+      "source": "article_the_braid",
+      "target": "hypothesis_bankruptcy",
+      "type": "evidence_for",
+      "epistemic_status": "record",
+      "note": "the braid tests every hypothesis"
+    },
+    {
+      "source": "article_the_braid",
+      "target": "hypothesis_proficiency",
+      "type": "evidence_for",
+      "epistemic_status": "record",
+      "note": "the braid tests every hypothesis"
+    },
+    {
+      "source": "article_the_braid",
+      "target": "hypothesis_regulatory_capture",
+      "type": "evidence_for",
+      "epistemic_status": "record",
+      "note": "the braid tests every hypothesis"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "deadline_oct31",
+      "type": "deadline_for",
+      "epistemic_status": "record",
+      "note": "The articles have a deadline"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "deadline_oct31",
+      "type": "deadline_for",
+      "epistemic_status": "record",
+      "note": "The articles have a deadline"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "deadline_oct31",
+      "type": "deadline_for",
+      "epistemic_status": "record",
+      "note": "The articles have a deadline"
+    },
+    {
+      "source": "article_holland_exposed",
+      "target": "deadline_oct31",
+      "type": "deadline_for",
+      "epistemic_status": "record",
+      "note": "The articles have a deadline"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "deadline_oct31",
+      "type": "deadline_for",
+      "epistemic_status": "record",
+      "note": "The articles have a deadline"
+    },
+    {
+      "source": "article_the_braid",
+      "target": "deadline_oct31",
+      "type": "deadline_for",
+      "epistemic_status": "record",
+      "note": "The articles have a deadline"
     }
   ],
   "epistemic_grammar": {
