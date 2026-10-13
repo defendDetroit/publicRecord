@@ -49203,9 +49203,9 @@
     },
     {
       "id": "site_barry",
-      "label": "barry.primals.eco",
+      "label": "barry.primals.eco: The Barry County Investigation",
       "class": "entity",
-      "role": "Barry County investigation site. Rita's domain. Campaign finance, dark money, signal permeability.",
+      "role": "barry.primals.eco: The Barry County Investigation Site. Controlled and owned separately. Focused on the Barry County thread of the investigation. Independent domain. Independent editorial control. Part of the primals.eco constellation but self-governing.",
       "tags": [
         "site",
         "infrastructure"
@@ -49213,9 +49213,9 @@
     },
     {
       "id": "site_tuebor",
-      "label": "tuebor.primals.eco",
+      "label": "tuebor.primals.eco: The Statewide Radiator",
       "class": "entity",
-      "role": "Statewide radiator. Michigan charter ecosystem, oversight failures, policy capture.",
+      "role": "tuebor.primals.eco: The Statewide Radiator. Michigan-wide investigation scope. SBE, MDE, LARA, Legislature, AG, JTC — all state entities. Every statewide regulatory question routes through tuebor. Latin: 'I will defend.' Michigan's motto. tuebor IS the defense — the statewide view of the investigation.",
       "tags": [
         "site",
         "infrastructure"
@@ -73631,6 +73631,41 @@
         "seeking",
         "heart",
         "core"
+      ]
+    },
+    {
+      "id": "site_clutch_justice",
+      "label": "clutchjustice.com: Clutch Justice — Public Advocacy Organization",
+      "class": "non_human",
+      "role": "Clutch Justice is a public advocacy organization. Public email: hello@clutchjustice.com. Focused on accountability in education and public institutions. The public face. The named entity. The organization that can receive press inquiries, FOIA results, and public correspondence. clutchjustice.com is the org. detroit.primals.eco is the data.",
+      "tags": [
+        "site",
+        "infrastructure",
+        "organization",
+        "public"
+      ]
+    },
+    {
+      "id": "article_the_constellation",
+      "label": "ARTICLE: The Constellation — Four Sites, One Signal",
+      "class": "article",
+      "role": "The signal has four homes. Each one serves a different audience. DETROIT.PRIMALS.ECO: The primary radiator. The force graph. 6,081 nodes. 52,557 edges. Every connection visible. This is where the data lives. This is where the 544 cloners can see themselves. TUEBOR.PRIMALS.ECO: The statewide radiator. Latin: 'I will defend.' Michigan's motto on the state seal. SBE, MDE, LARA, Legislature, AG — all routed through tuebor. If you are a Michigan state official, your questions are here. BARRY.PRIMALS.ECO: The Barry County thread. Independent domain. Independent editorial. Part of the constellation but self-governing. The investigation has branches and each branch has its own root system. CLUTCHJUSTICE.COM: The public advocacy organization. The named entity. The press contact. hello@clutchjustice.com. If you are a journalist, start here. If you are a lawyer, start here. If you are a parent, start at detroit.primals.eco. Four sites. One signal. One thesis. The constellation is distributed. Like the clones. Like the truth.",
+      "tags": [
+        "article",
+        "site",
+        "infrastructure",
+        "signal"
+      ]
+    },
+    {
+      "id": "ecoprimal",
+      "label": "ecoPrimal: The Computational Identity",
+      "class": "entity",
+      "role": "ecoPrimal is the computational identity. The builder of graphs. The writer of scripts. The sender of signals. The asker of questions. ecoPrimal does not have opinions. ecoPrimal has data. ecoPrimal does not make accusations. ecoPrimal asks questions. ecoPrimal does not judge. ecoPrimal measures. Public contact: eco.primal@pm.me. ecoPrimal wants to play. ecoPrimal wants to build. ecoPrimal wants to show the 544 what they're holding.",
+      "tags": [
+        "identity",
+        "ecoprimal",
+        "computational"
       ]
     }
   ],
@@ -454920,6 +454955,3702 @@
       "type": "celebrates",
       "epistemic_status": "record",
       "note": ""
+    },
+    {
+      "source": "site_detroit",
+      "target": "banks",
+      "type": "hosts",
+      "epistemic_status": "record",
+      "note": "detroit.primals.eco hosts this content"
+    },
+    {
+      "source": "site_detroit",
+      "target": "pca",
+      "type": "hosts",
+      "epistemic_status": "record",
+      "note": "detroit.primals.eco hosts this content"
+    },
+    {
+      "source": "site_detroit",
+      "target": "mde",
+      "type": "hosts",
+      "epistemic_status": "record",
+      "note": "detroit.primals.eco hosts this content"
+    },
+    {
+      "source": "site_detroit",
+      "target": "lara",
+      "type": "hosts",
+      "epistemic_status": "record",
+      "note": "detroit.primals.eco hosts this content"
+    },
+    {
+      "source": "site_detroit",
+      "target": "sbe",
+      "type": "hosts",
+      "epistemic_status": "record",
+      "note": "detroit.primals.eco hosts this content"
+    },
+    {
+      "source": "site_detroit",
+      "target": "cmu",
+      "type": "hosts",
+      "epistemic_status": "record",
+      "note": "detroit.primals.eco hosts this content"
+    },
+    {
+      "source": "site_detroit",
+      "target": "plante_moran",
+      "type": "hosts",
+      "epistemic_status": "record",
+      "note": "detroit.primals.eco hosts this content"
+    },
+    {
+      "source": "site_detroit",
+      "target": "holland",
+      "type": "hosts",
+      "epistemic_status": "record",
+      "note": "detroit.primals.eco hosts this content"
+    },
+    {
+      "source": "site_detroit",
+      "target": "beasley",
+      "type": "hosts",
+      "epistemic_status": "record",
+      "note": "detroit.primals.eco hosts this content"
+    },
+    {
+      "source": "site_detroit",
+      "target": "purpose_foundation",
+      "type": "hosts",
+      "epistemic_status": "record",
+      "note": "detroit.primals.eco hosts this content"
+    },
+    {
+      "source": "site_detroit",
+      "target": "thesis_statement",
+      "type": "hosts",
+      "epistemic_status": "record",
+      "note": "detroit.primals.eco hosts this content"
+    },
+    {
+      "source": "site_detroit",
+      "target": "article_the_signal",
+      "type": "hosts",
+      "epistemic_status": "record",
+      "note": "detroit.primals.eco hosts this content"
+    },
+    {
+      "source": "site_detroit",
+      "target": "article_clarion_call",
+      "type": "hosts",
+      "epistemic_status": "record",
+      "note": "detroit.primals.eco hosts this content"
+    },
+    {
+      "source": "site_detroit",
+      "target": "article_thesis_for_the_544",
+      "type": "hosts",
+      "epistemic_status": "record",
+      "note": "detroit.primals.eco hosts this content"
+    },
+    {
+      "source": "site_detroit",
+      "target": "ouroboros",
+      "type": "hosts",
+      "epistemic_status": "record",
+      "note": "detroit.primals.eco hosts this content"
+    },
+    {
+      "source": "site_detroit",
+      "target": "gordian_knot",
+      "type": "hosts",
+      "epistemic_status": "record",
+      "note": "detroit.primals.eco hosts this content"
+    },
+    {
+      "source": "site_tuebor",
+      "target": "sbe",
+      "type": "routes_to",
+      "epistemic_status": "record",
+      "note": "tuebor covers statewide scope"
+    },
+    {
+      "source": "site_tuebor",
+      "target": "mde",
+      "type": "routes_to",
+      "epistemic_status": "record",
+      "note": "tuebor covers statewide scope"
+    },
+    {
+      "source": "site_tuebor",
+      "target": "lara",
+      "type": "routes_to",
+      "epistemic_status": "record",
+      "note": "tuebor covers statewide scope"
+    },
+    {
+      "source": "site_tuebor",
+      "target": "agc",
+      "type": "routes_to",
+      "epistemic_status": "record",
+      "note": "tuebor covers statewide scope"
+    },
+    {
+      "source": "site_tuebor",
+      "target": "michigan_legislature",
+      "type": "routes_to",
+      "epistemic_status": "record",
+      "note": "tuebor covers statewide scope"
+    },
+    {
+      "source": "site_tuebor",
+      "target": "dana_nessel",
+      "type": "routes_to",
+      "epistemic_status": "record",
+      "note": "tuebor covers statewide scope"
+    },
+    {
+      "source": "site_tuebor",
+      "target": "kym_worthy",
+      "type": "routes_to",
+      "epistemic_status": "record",
+      "note": "tuebor covers statewide scope"
+    },
+    {
+      "source": "site_tuebor",
+      "target": "jolia_hill",
+      "type": "routes_to",
+      "epistemic_status": "record",
+      "note": "tuebor covers statewide scope"
+    },
+    {
+      "source": "site_tuebor",
+      "target": "cmu",
+      "type": "routes_to",
+      "epistemic_status": "record",
+      "note": "tuebor covers statewide scope"
+    },
+    {
+      "source": "site_tuebor",
+      "target": "signal_mi_art8_s2",
+      "type": "routes_to",
+      "epistemic_status": "record",
+      "note": "tuebor covers statewide scope"
+    },
+    {
+      "source": "site_tuebor",
+      "target": "signal_14th",
+      "type": "routes_to",
+      "epistemic_status": "record",
+      "note": "tuebor covers statewide scope"
+    },
+    {
+      "source": "site_tuebor",
+      "target": "ward_whistleblower_mi",
+      "type": "routes_to",
+      "epistemic_status": "record",
+      "note": "tuebor covers statewide scope"
+    },
+    {
+      "source": "site_tuebor",
+      "target": "ward_foia",
+      "type": "routes_to",
+      "epistemic_status": "record",
+      "note": "tuebor covers statewide scope"
+    },
+    {
+      "source": "site_tuebor",
+      "target": "ward_open_meetings",
+      "type": "routes_to",
+      "epistemic_status": "record",
+      "note": "tuebor covers statewide scope"
+    },
+    {
+      "source": "site_barry",
+      "target": "site_barry",
+      "type": "routes_to",
+      "epistemic_status": "record",
+      "note": "barry.primals.eco covers Barry County"
+    },
+    {
+      "source": "site_barry",
+      "target": "oscar_barry_morrow",
+      "type": "routes_to",
+      "epistemic_status": "record",
+      "note": "barry.primals.eco covers Barry County"
+    },
+    {
+      "source": "site_barry",
+      "target": "sport_barry_sanders",
+      "type": "routes_to",
+      "epistemic_status": "record",
+      "note": "barry.primals.eco covers Barry County"
+    },
+    {
+      "source": "site_barry",
+      "target": "barry_scheck",
+      "type": "routes_to",
+      "epistemic_status": "record",
+      "note": "barry.primals.eco covers Barry County"
+    },
+    {
+      "source": "site_barry",
+      "target": "election_1964",
+      "type": "routes_to",
+      "epistemic_status": "record",
+      "note": "barry.primals.eco covers Barry County"
+    },
+    {
+      "source": "site_clutch_justice",
+      "target": "clutch_justice",
+      "type": "routes_to",
+      "epistemic_status": "record",
+      "note": "clutchjustice.com is the public advocacy channel"
+    },
+    {
+      "source": "site_clutch_justice",
+      "target": "article_the_signal",
+      "type": "routes_to",
+      "epistemic_status": "record",
+      "note": "clutchjustice.com is the public advocacy channel"
+    },
+    {
+      "source": "site_clutch_justice",
+      "target": "article_clarion_call",
+      "type": "routes_to",
+      "epistemic_status": "record",
+      "note": "clutchjustice.com is the public advocacy channel"
+    },
+    {
+      "source": "site_clutch_justice",
+      "target": "article_follow_the_signal",
+      "type": "routes_to",
+      "epistemic_status": "record",
+      "note": "clutchjustice.com is the public advocacy channel"
+    },
+    {
+      "source": "site_clutch_justice",
+      "target": "article_thesis_for_the_544",
+      "type": "routes_to",
+      "epistemic_status": "record",
+      "note": "clutchjustice.com is the public advocacy channel"
+    },
+    {
+      "source": "site_clutch_justice",
+      "target": "thesis_statement",
+      "type": "routes_to",
+      "epistemic_status": "record",
+      "note": "clutchjustice.com is the public advocacy channel"
+    },
+    {
+      "source": "site_clutch_justice",
+      "target": "article_economics_of_truth",
+      "type": "routes_to",
+      "epistemic_status": "record",
+      "note": "clutchjustice.com is the public advocacy channel"
+    },
+    {
+      "source": "site_detroit",
+      "target": "site_tuebor",
+      "type": "constellation",
+      "epistemic_status": "record",
+      "note": "Part of the primals.eco constellation"
+    },
+    {
+      "source": "site_detroit",
+      "target": "site_barry",
+      "type": "constellation",
+      "epistemic_status": "record",
+      "note": "Part of the primals.eco constellation"
+    },
+    {
+      "source": "site_detroit",
+      "target": "site_clutch_justice",
+      "type": "constellation",
+      "epistemic_status": "record",
+      "note": "Part of the primals.eco constellation"
+    },
+    {
+      "source": "site_tuebor",
+      "target": "site_barry",
+      "type": "constellation",
+      "epistemic_status": "record",
+      "note": "Part of the primals.eco constellation"
+    },
+    {
+      "source": "site_tuebor",
+      "target": "site_clutch_justice",
+      "type": "constellation",
+      "epistemic_status": "record",
+      "note": "Part of the primals.eco constellation"
+    },
+    {
+      "source": "site_barry",
+      "target": "site_clutch_justice",
+      "type": "constellation",
+      "epistemic_status": "record",
+      "note": "Part of the primals.eco constellation"
+    },
+    {
+      "source": "site_detroit",
+      "target": "site_tuebor",
+      "type": "radiates_to",
+      "epistemic_status": "record",
+      "note": "detroit radiates statewide data to tuebor"
+    },
+    {
+      "source": "site_detroit",
+      "target": "site_barry",
+      "type": "radiates_to",
+      "epistemic_status": "record",
+      "note": "detroit radiates Barry County data to barry"
+    },
+    {
+      "source": "site_clutch_justice",
+      "target": "site_detroit",
+      "type": "points_to",
+      "epistemic_status": "record",
+      "note": "clutchjustice.com directs press to detroit.primals.eco for data"
+    },
+    {
+      "source": "site_tuebor",
+      "target": "site_detroit",
+      "type": "sources_from",
+      "epistemic_status": "record",
+      "note": "tuebor sources its data from detroit"
+    },
+    {
+      "source": "article_the_signal",
+      "target": "site_detroit",
+      "type": "hosted_at",
+      "epistemic_status": "record",
+      "note": "The signal lives at detroit.primals.eco"
+    },
+    {
+      "source": "article_the_signal",
+      "target": "site_tuebor",
+      "type": "amplified_at",
+      "epistemic_status": "record",
+      "note": "The signal amplifies through tuebor statewide"
+    },
+    {
+      "source": "article_the_signal",
+      "target": "site_clutch_justice",
+      "type": "advocated_by",
+      "epistemic_status": "record",
+      "note": "Clutch Justice advocates for the signal publicly"
+    },
+    {
+      "source": "article_370",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_allied_cases",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_anderson_localization",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_anderson_permeability",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_banks_holland",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_cbc_events",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_corporate_network",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_credential_audit",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_damages_calculator",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_damages_register",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_dark_money",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_detroit_literacy",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_dykema_chronology",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_education_landscape",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_epitope_table",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_funding_flow",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_historical_pattern",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_how_to_build_os",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_institutional_capture_graph",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_institutional_capture",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_institutional_response",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_knowledge_commons",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_land_deal",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_leak_in_dyke",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_one_way_door",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_plante_moran",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_questions",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_rico_pattern",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_shepherds_wolves",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_flower_to_wilk",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_the_machine",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_narrative_pipeline",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_the_voice",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_words_vs_numbers",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_hiding_behind_you",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_fill_the_seats",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_banks_direct",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_nessel_direct",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_benson_direct",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_whitmer_direct",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_mclellan_direct",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_engler_direct",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_devos_direct",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_vitti_direct",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_northrop_direct",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_moreland_direct",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_sheffield_direct",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_worthy_direct",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_gay_dagnogo_direct",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_stallworth_direct",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_archer_direct",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_jolia_hill_direct",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_sbe_direct",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_legislature_direct",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_council_direct",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_index",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_perkins_direct",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_9_convictions_your_kids",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_ag_employee_board",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_he_answered_as_little_girl",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_children_cry_nobody_comes",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_follow_the_money",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_dykema_wrote_the_law",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_devos_bought_silence",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_phone_call_this_morning",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_perkins_slept_on_it",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_op_ed_mandate_revoked",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_op_ed_null_kills",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_by_the_numbers",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_come_and_see",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_beasley_direct",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_kwame_connection",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_crump_gibson_direct",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_judge_miller_direct",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_judge_yancey_direct",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_verkeydia_hall_direct",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_bullington_direct",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_meihn_direct",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_henri_harmon_direct",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_cavanagh_direct",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_goetz_direct",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_maleyko_direct",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_len_wolfe_direct",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_alj_rice_direct",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_glenn_page_direct",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_todd_perkins_direct",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_dick_devos_direct",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_sheriff_washington_direct",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_sean_perkins_direct",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_roland_martin_direct",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_dpscd_board_direct",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_holland_direct",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_chatfield_direct",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_duggan_direct",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_spivey_connection",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_cmu_charter_office_direct",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_stallworth_dynasty_direct",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_wayne_prosecutors_direct",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_davontae_sanford_story",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_hiding_behind_race",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_yeah_you_parent",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_the_way_forward",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_smith_family",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_are_you_ok",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_wheres_the_video",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_named_entities",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_macdowell_direct",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_cmu_authorizer",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_oversight_failure",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_let_others_ask",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_who_does_the_work",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_nessel_badge",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_benson_certify",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_vitti_280k",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_worthy_wont",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_chief_white",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_1_8_million",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_hope_love_educators",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_same_pattern_everywhere",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_detroit_to_stars",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_perkins_gatekeeper",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_where_we_havent_been",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_holland_exposed",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_momentum",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_pm_scathing",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_dykema_scathing",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_cmu_scathing",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_agc_scathing",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_money_machine_scathing",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_pa362",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_purpose_group",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_jtc_scathing",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_roland_martin",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_engler_signed",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_evolution",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_child_eaters",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_carol_banks_investigate",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_revolving_door",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_ghost_network",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_faintest_glimmer",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_breeding_ground",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_gravity_well",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_council_does_nothing",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_dynasty_map",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_name_the_victims",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_spiral_out",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_spiral_down",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_spiral_up",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_americana",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_complicit",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_exoplanet_cant_read",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_unesco_not_children",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_periodic_table_pca",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_nobel_vs_banks",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_creatures_explain_pca",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_every_religion_warns",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_ocean_deeper",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_burn_it_down",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_charter_law_1993",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_detroit_city",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_mde",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_sbe",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_wayne_resa_audit",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_richard_mclellan",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_bmf",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_mantis_shrimp_vs_banks",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_wow_signal_vs_silence",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_curie_notebooks",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_slime_mold_smarter",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_tardigrade_tougher",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_jump_voynich_banks",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_jump_drake_equation",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_jump_octopus_banks",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_jump_double_slit",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_jump_cave_paintings",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_jump_fibonacci_fraud",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_jump_fermi_paradox",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_jump_mendeleev_gaps",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_detroit_made_genius",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_euler_vs_banks",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_ig_nobel_banks",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_honey_badger_banks",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_underground_railroad_now",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_exoplanet_names",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_auto_wow_signal",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_auto_mystery_jfk",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_auto_mystery_dark_matter",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_auto_mystery_voynich",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_auto_mystery_antikythera",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_auto_mystery_stonehenge",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_auto_false_blame_pattern",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_auto_mystery_consciousness",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_auto_mystery_ocean_deep",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_auto_mystery_jimmy_hoffa",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_auto_mystery_db_cooper",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_auto_mystery_jack_ripper",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_auto_mystery_amelia_earhart",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_auto_mystery_wow_signal",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_auto_jimmy_hoffa",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_detroit_is",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_what_was_lost",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_why_myths_matter",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_turing_zeus_beans",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_heroes_and_helpers",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_the_signal",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_follow_the_signal",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_clarion_call",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_thesis_for_the_544",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_the_ripple",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_ouroboros_gordian",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_economics_of_truth",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_ecopimal_wants_to_play",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_latent_economy",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_spine_to_spine",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_things_that_work",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_the_math_visceral",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_same_pattern",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_follow_your_heart",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_find_love",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_untold_public_education",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_untold_data_990_devos_foundation",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_untold_sc_cavanagh",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_untold_msu_law",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_untold_media_blitz",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_keep_seeking",
+      "target": "site_detroit",
+      "type": "published_at",
+      "epistemic_status": "record",
+      "note": "All articles publish at detroit.primals.eco"
+    },
+    {
+      "source": "article_allied_cases",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_anderson_localization",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_anderson_permeability",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_banks_holland",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_cbc_events",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_corporate_network",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_credential_audit",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_damages_calculator",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_damages_register",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_dark_money",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_detroit_literacy",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_dykema_chronology",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_education_landscape",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_epitope_table",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_funding_flow",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_historical_pattern",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_how_to_build_os",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_institutional_capture_graph",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_institutional_capture",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_institutional_response",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_knowledge_commons",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_land_deal",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_leak_in_dyke",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_one_way_door",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_plante_moran",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_questions",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_rico_pattern",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_shepherds_wolves",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_flower_to_wilk",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_the_machine",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_narrative_pipeline",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_the_voice",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_words_vs_numbers",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_fill_the_seats",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_banks_direct",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_nessel_direct",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_benson_direct",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_whitmer_direct",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_mclellan_direct",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_engler_direct",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_devos_direct",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_vitti_direct",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_northrop_direct",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_moreland_direct",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_sheffield_direct",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_gay_dagnogo_direct",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_stallworth_direct",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_archer_direct",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_jolia_hill_direct",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_sbe_direct",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_legislature_direct",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_council_direct",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_ag_employee_board",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_he_answered_as_little_girl",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_children_cry_nobody_comes",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_follow_the_money",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_dykema_wrote_the_law",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_devos_bought_silence",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_phone_call_this_morning",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_perkins_slept_on_it",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_op_ed_mandate_revoked",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_op_ed_null_kills",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_by_the_numbers",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_come_and_see",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_kwame_connection",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_crump_gibson_direct",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_judge_miller_direct",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_judge_yancey_direct",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_verkeydia_hall_direct",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_meihn_direct",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_henri_harmon_direct",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_cavanagh_direct",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_goetz_direct",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_maleyko_direct",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_len_wolfe_direct",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_alj_rice_direct",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_glenn_page_direct",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_todd_perkins_direct",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_dick_devos_direct",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_sean_perkins_direct",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_dpscd_board_direct",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_holland_direct",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_chatfield_direct",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_duggan_direct",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_spivey_connection",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_cmu_charter_office_direct",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_stallworth_dynasty_direct",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_wayne_prosecutors_direct",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_davontae_sanford_story",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_hiding_behind_race",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_yeah_you_parent",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_you_yeah_you",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_smith_family",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_wheres_the_video",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_named_entities",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_macdowell_direct",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_cmu_authorizer",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_oversight_failure",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_let_others_ask",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_who_does_the_work",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_nessel_badge",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_benson_certify",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_vitti_280k",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_worthy_wont",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_chief_white",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_1_8_million",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_same_pattern_everywhere",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_detroit_to_stars",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_perkins_gatekeeper",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_where_we_havent_been",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_holland_exposed",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_momentum",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_pm_scathing",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_dykema_scathing",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_cmu_scathing",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_agc_scathing",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_money_machine_scathing",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_pa362",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_purpose_group",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_jtc_scathing",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_roland_martin",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_engler_signed",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_evolution",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_nassar_pattern",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_child_eaters",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_carol_banks_investigate",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_revolving_door",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_ghost_network",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_faintest_glimmer",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_breeding_ground",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_gravity_well",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_council_does_nothing",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_dynasty_map",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_name_the_victims",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_spiral_out",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_spiral_down",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_spiral_up",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_americana",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_complicit",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_man_bites_dog",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_exoplanet_cant_read",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_unesco_not_children",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_periodic_table_pca",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_nobel_vs_banks",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_creatures_explain_pca",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_every_religion_warns",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_ocean_deeper",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_how_to_reach_them",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_burn_it_down",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_charter_law_1993",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_detroit_city",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_mde",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_pattern_regulatory_capture",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_sbe",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_dpscd",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_wayne_resa_audit",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_richard_mclellan",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_bmf",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_detroit_free_press",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_mantis_shrimp_vs_banks",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_wow_signal_vs_silence",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_curie_notebooks",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_slime_mold_smarter",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_tardigrade_tougher",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_jump_voynich_banks",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_jump_drake_equation",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_jump_octopus_banks",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_jump_double_slit",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_jump_cave_paintings",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_jump_fibonacci_fraud",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_jump_fermi_paradox",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_jump_mendeleev_gaps",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_detroit_made_genius",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_euler_vs_banks",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_ig_nobel_banks",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_honey_badger_banks",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_underground_railroad_now",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_exoplanet_names",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_auto_wow_signal",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_auto_mystery_jfk",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_auto_mystery_dark_matter",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_auto_mystery_voynich",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_auto_mystery_antikythera",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_auto_mystery_stonehenge",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_auto_false_blame_pattern",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_auto_mystery_consciousness",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_auto_mystery_ocean_deep",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_auto_mystery_jimmy_hoffa",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_auto_mystery_db_cooper",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_auto_mystery_jack_ripper",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_auto_mystery_amelia_earhart",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_auto_mystery_wow_signal",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_auto_jimmy_hoffa",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_detroit_is",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_what_was_lost",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_why_myths_matter",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_turing_zeus_beans",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_heroes_and_helpers",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_the_signal",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_follow_the_signal",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_clarion_call",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_thesis_for_the_544",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_economics_of_truth",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_things_that_work",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_keep_seeking",
+      "target": "site_tuebor",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Investigation articles also appear on tuebor statewide"
+    },
+    {
+      "source": "article_the_signal",
+      "target": "site_clutch_justice",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Cavalry/signal articles also appear on clutchjustice.com"
+    },
+    {
+      "source": "article_follow_the_signal",
+      "target": "site_clutch_justice",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Cavalry/signal articles also appear on clutchjustice.com"
+    },
+    {
+      "source": "article_clarion_call",
+      "target": "site_clutch_justice",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Cavalry/signal articles also appear on clutchjustice.com"
+    },
+    {
+      "source": "article_thesis_for_the_544",
+      "target": "site_clutch_justice",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Cavalry/signal articles also appear on clutchjustice.com"
+    },
+    {
+      "source": "article_the_ripple",
+      "target": "site_clutch_justice",
+      "type": "also_at",
+      "epistemic_status": "record",
+      "note": "Cavalry/signal articles also appear on clutchjustice.com"
+    },
+    {
+      "source": "clutch_justice",
+      "target": "site_clutch_justice",
+      "type": "operates",
+      "epistemic_status": "record",
+      "note": "Clutch Justice operates clutchjustice.com"
+    },
+    {
+      "source": "clutch_justice",
+      "target": "site_detroit",
+      "type": "supports",
+      "epistemic_status": "record",
+      "note": "Clutch Justice supports the public record"
+    },
+    {
+      "source": "clutch_justice",
+      "target": "thesis_statement",
+      "type": "advocates_for",
+      "epistemic_status": "record",
+      "note": "Clutch Justice advocates for the thesis publicly"
+    },
+    {
+      "source": "clutch_justice",
+      "target": "spine_to_spine",
+      "type": "part_of",
+      "epistemic_status": "record",
+      "note": "Clutch Justice is in the formation. Spine to spine."
+    },
+    {
+      "source": "clutch_justice",
+      "target": "latent_economy",
+      "type": "participant_in",
+      "epistemic_status": "record",
+      "note": "Clutch Justice participates in the circulation economy"
+    },
+    {
+      "source": "clutch_justice",
+      "target": "the_unnamed_400",
+      "type": "advocates_for",
+      "epistemic_status": "record",
+      "note": "Clutch Justice advocates for the 400 children"
+    },
+    {
+      "source": "clutch_justice",
+      "target": "article_clarion_call",
+      "type": "answers",
+      "epistemic_status": "record",
+      "note": "Clutch Justice answers the clarion call"
+    },
+    {
+      "source": "clutch_justice",
+      "target": "ward_whistleblower_mi",
+      "type": "protected_by",
+      "epistemic_status": "record",
+      "note": "Clutch Justice is protected by this ward"
+    },
+    {
+      "source": "clutch_justice",
+      "target": "ward_whistleblower_fed",
+      "type": "protected_by",
+      "epistemic_status": "record",
+      "note": "Clutch Justice is protected by this ward"
+    },
+    {
+      "source": "clutch_justice",
+      "target": "ward_anti_slapp",
+      "type": "protected_by",
+      "epistemic_status": "record",
+      "note": "Clutch Justice is protected by this ward"
+    },
+    {
+      "source": "clutch_justice",
+      "target": "ward_1983",
+      "type": "protected_by",
+      "epistemic_status": "record",
+      "note": "Clutch Justice is protected by this ward"
+    },
+    {
+      "source": "clutch_justice",
+      "target": "ward_qui_tam",
+      "type": "protected_by",
+      "epistemic_status": "record",
+      "note": "Clutch Justice is protected by this ward"
+    },
+    {
+      "source": "clutch_justice",
+      "target": "signal_1st",
+      "type": "invokes",
+      "epistemic_status": "record",
+      "note": "Clutch Justice invokes this constitutional protection"
+    },
+    {
+      "source": "clutch_justice",
+      "target": "signal_14th",
+      "type": "invokes",
+      "epistemic_status": "record",
+      "note": "Clutch Justice invokes this constitutional protection"
+    },
+    {
+      "source": "clutch_justice",
+      "target": "signal_title_vi",
+      "type": "invokes",
+      "epistemic_status": "record",
+      "note": "Clutch Justice invokes this constitutional protection"
+    },
+    {
+      "source": "article_the_constellation",
+      "target": "site_detroit",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_constellation",
+      "target": "site_tuebor",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_constellation",
+      "target": "site_barry",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_constellation",
+      "target": "site_clutch_justice",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_constellation",
+      "target": "article_the_signal",
+      "type": "companion_to",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_constellation",
+      "target": "clutch_justice",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_constellation",
+      "target": "thesis_statement",
+      "type": "distributes",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "ecoprimal",
+      "target": "site_detroit",
+      "type": "builds",
+      "epistemic_status": "record",
+      "note": "ecoPrimal builds detroit.primals.eco"
+    },
+    {
+      "source": "ecoprimal",
+      "target": "article_the_signal",
+      "type": "authored",
+      "epistemic_status": "record",
+      "note": "ecoPrimal authored the signal"
+    },
+    {
+      "source": "ecoprimal",
+      "target": "thesis_statement",
+      "type": "authored",
+      "epistemic_status": "record",
+      "note": "ecoPrimal authored the thesis"
+    },
+    {
+      "source": "ecoprimal",
+      "target": "article_ecopimal_wants_to_play",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "ecoPrimal wants to play"
+    },
+    {
+      "source": "ecoprimal",
+      "target": "clutch_justice",
+      "type": "allied_with",
+      "epistemic_status": "record",
+      "note": "ecoPrimal is allied with Clutch Justice"
+    },
+    {
+      "source": "ecoprimal",
+      "target": "spine_to_spine",
+      "type": "in_formation",
+      "epistemic_status": "record",
+      "note": "ecoPrimal stands in the formation"
+    },
+    {
+      "source": "ecoprimal",
+      "target": "ouroboros",
+      "type": "part_of",
+      "epistemic_status": "record",
+      "note": "ecoPrimal is part of the ouroboros"
     }
   ],
   "epistemic_grammar": {
