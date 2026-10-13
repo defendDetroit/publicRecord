@@ -72181,6 +72181,29 @@
         "guide",
         "investigation"
       ]
+    },
+    {
+      "id": "us_attorney_ed_michigan",
+      "label": "US Attorney, Eastern District of Michigan",
+      "class": "entity",
+      "role": "Federal prosecutor with jurisdiction over Detroit. Wire fraud, mail fraud, RICO, false statements — all federal charges that apply here.",
+      "tags": [
+        "federal",
+        "prosecutor",
+        "cavalry"
+      ]
+    },
+    {
+      "id": "article_clarion_call",
+      "label": "ARTICLE: The Clarion Call — Every Institution That Should Act",
+      "class": "article",
+      "role": "This is the roll call. Every institution with jurisdiction. Every newsroom with a platform. Every civil rights organization with a mandate. Every federal agency with authority. Every university with liability. The question is not whether the data exists. It does. The question is not whether the violations are real. They are. The question is: who will act first? The Free Press has 291 connections in this graph. The NAACP has 59. Chalkbeat covers education and has asked ZERO questions. The DeVos Foundation has 2,581 connections and ZERO questions asked of it. The FBI Detroit Field Office has jurisdiction over wire fraud, mail fraud, and RICO. The US Attorney can convene a grand jury. The AGC can disbar. The SBE can revoke. The Legislature can repeal. The press can publish. The people can read. Every amendment protects the right to ask. The clarion call is sounded. Who answers?",
+      "tags": [
+        "article",
+        "cavalry",
+        "signal",
+        "investigation"
+      ]
     }
   ],
   "edges": [
@@ -443116,6 +443139,1357 @@
       "type": "about",
       "epistemic_status": "record",
       "note": "Where to verify"
+    },
+    {
+      "source": "chalkbeat_detroit",
+      "target": "banks",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "Chalkbeat covers education. This is THE education story in Michigan. 3% math. 72.67% extraction. 400 children. You cover this beat."
+    },
+    {
+      "source": "chalkbeat_detroit",
+      "target": "pca",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "Chalkbeat covers education. This is THE education story in Michigan. 3% math. 72.67% extraction. 400 children. You cover this beat."
+    },
+    {
+      "source": "chalkbeat_detroit",
+      "target": "article_the_signal",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "Follow the signal. Report what you find."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "chalkbeat_detroit",
+      "type": "signal_to",
+      "epistemic_status": "record",
+      "note": "The signal calls the press."
+    },
+    {
+      "source": "detroit_news",
+      "target": "banks",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "The News and the Free Press are Detroit's papers of record. One is cavalry. Will both be?"
+    },
+    {
+      "source": "detroit_news",
+      "target": "pca",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "The News and the Free Press are Detroit's papers of record. One is cavalry. Will both be?"
+    },
+    {
+      "source": "detroit_news",
+      "target": "article_the_signal",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "Follow the signal. Report what you find."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "detroit_news",
+      "type": "signal_to",
+      "epistemic_status": "record",
+      "note": "The signal calls the press."
+    },
+    {
+      "source": "bridge_michigan",
+      "target": "banks",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "Bridge does deep Michigan policy journalism. Charter school fraud IS Michigan policy."
+    },
+    {
+      "source": "bridge_michigan",
+      "target": "pca",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "Bridge does deep Michigan policy journalism. Charter school fraud IS Michigan policy."
+    },
+    {
+      "source": "bridge_michigan",
+      "target": "article_the_signal",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "Follow the signal. Report what you find."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "bridge_michigan",
+      "type": "signal_to",
+      "epistemic_status": "record",
+      "note": "The signal calls the press."
+    },
+    {
+      "source": "propublica",
+      "target": "banks",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "ProPublica investigates nonprofits. IRS 990s show $2.6M from DeVos foundation to charter networks. Your Nonprofit Explorer already has the data."
+    },
+    {
+      "source": "propublica",
+      "target": "pca",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "ProPublica investigates nonprofits. IRS 990s show $2.6M from DeVos foundation to charter networks. Your Nonprofit Explorer already has the data."
+    },
+    {
+      "source": "propublica",
+      "target": "article_the_signal",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "Follow the signal. Report what you find."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "propublica",
+      "type": "signal_to",
+      "epistemic_status": "record",
+      "note": "The signal calls the press."
+    },
+    {
+      "source": "deadline_detroit",
+      "target": "banks",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "Deadline Detroit: You break Detroit stories others won't touch. This one has been waiting."
+    },
+    {
+      "source": "deadline_detroit",
+      "target": "pca",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "Deadline Detroit: You break Detroit stories others won't touch. This one has been waiting."
+    },
+    {
+      "source": "deadline_detroit",
+      "target": "article_the_signal",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "Follow the signal. Report what you find."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "deadline_detroit",
+      "type": "signal_to",
+      "epistemic_status": "record",
+      "note": "The signal calls the press."
+    },
+    {
+      "source": "outlier_media",
+      "target": "banks",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "Outlier: You serve Detroit communities directly. The parents at PCA deserve to know what the data says."
+    },
+    {
+      "source": "outlier_media",
+      "target": "pca",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "Outlier: You serve Detroit communities directly. The parents at PCA deserve to know what the data says."
+    },
+    {
+      "source": "outlier_media",
+      "target": "article_the_signal",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "Follow the signal. Report what you find."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "outlier_media",
+      "type": "signal_to",
+      "epistemic_status": "record",
+      "note": "The signal calls the press."
+    },
+    {
+      "source": "wjbk_fox2",
+      "target": "banks",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "Fox 2: Investigative unit. FOIA the MDE authorization files. Read what Plante Moran found. Air it."
+    },
+    {
+      "source": "wjbk_fox2",
+      "target": "pca",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "Fox 2: Investigative unit. FOIA the MDE authorization files. Read what Plante Moran found. Air it."
+    },
+    {
+      "source": "wjbk_fox2",
+      "target": "article_the_signal",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "Follow the signal. Report what you find."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "wjbk_fox2",
+      "type": "signal_to",
+      "epistemic_status": "record",
+      "note": "The signal calls the press."
+    },
+    {
+      "source": "propublica_local_mi",
+      "target": "banks",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "ProPublica Local MI: This is exactly what you were built for."
+    },
+    {
+      "source": "propublica_local_mi",
+      "target": "pca",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "ProPublica Local MI: This is exactly what you were built for."
+    },
+    {
+      "source": "propublica_local_mi",
+      "target": "article_the_signal",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "Follow the signal. Report what you find."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "propublica_local_mi",
+      "type": "signal_to",
+      "epistemic_status": "record",
+      "note": "The signal calls the press."
+    },
+    {
+      "source": "education_law_center",
+      "target": "banks",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "ELC: The children have a right to adequate education. 3% math is not adequate. The funding exists. It exits through LLCs."
+    },
+    {
+      "source": "education_law_center",
+      "target": "pca",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "ELC: The children have a right to adequate education. 3% math is not adequate. The funding exists. It exits through LLCs."
+    },
+    {
+      "source": "education_law_center",
+      "target": "the_unnamed_400",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "These children need you."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "education_law_center",
+      "type": "signal_to",
+      "epistemic_status": "record",
+      "note": "The signal calls civil rights."
+    },
+    {
+      "source": "lawyers_committee_civil_rights",
+      "target": "banks",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "Lawyers' Committee: Title VI. Federal funds. Racial disparity. All documented."
+    },
+    {
+      "source": "lawyers_committee_civil_rights",
+      "target": "pca",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "Lawyers' Committee: Title VI. Federal funds. Racial disparity. All documented."
+    },
+    {
+      "source": "lawyers_committee_civil_rights",
+      "target": "the_unnamed_400",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "These children need you."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "lawyers_committee_civil_rights",
+      "type": "signal_to",
+      "epistemic_status": "record",
+      "note": "The signal calls civil rights."
+    },
+    {
+      "source": "brennan_center",
+      "target": "banks",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "Brennan Center: The regulatory capture here — auditor hired by the school, authorizer 150 miles away, LARA rubber-stamps — is democracy failure."
+    },
+    {
+      "source": "brennan_center",
+      "target": "pca",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "Brennan Center: The regulatory capture here — auditor hired by the school, authorizer 150 miles away, LARA rubber-stamps — is democracy failure."
+    },
+    {
+      "source": "brennan_center",
+      "target": "the_unnamed_400",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "These children need you."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "brennan_center",
+      "type": "signal_to",
+      "epistemic_status": "record",
+      "note": "The signal calls civil rights."
+    },
+    {
+      "source": "public_interest_law_center",
+      "target": "banks",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "PILC: 400 children. Public funds. Private extraction. You litigate this."
+    },
+    {
+      "source": "public_interest_law_center",
+      "target": "pca",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "PILC: 400 children. Public funds. Private extraction. You litigate this."
+    },
+    {
+      "source": "public_interest_law_center",
+      "target": "the_unnamed_400",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "These children need you."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "public_interest_law_center",
+      "type": "signal_to",
+      "epistemic_status": "record",
+      "note": "The signal calls civil rights."
+    },
+    {
+      "source": "naacp_detroit",
+      "target": "banks",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "NAACP Detroit: This is your city. These are your children. The data is public. The silence is deafening."
+    },
+    {
+      "source": "naacp_detroit",
+      "target": "pca",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "NAACP Detroit: This is your city. These are your children. The data is public. The silence is deafening."
+    },
+    {
+      "source": "naacp_detroit",
+      "target": "the_unnamed_400",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "These children need you."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "naacp_detroit",
+      "type": "signal_to",
+      "epistemic_status": "record",
+      "note": "The signal calls civil rights."
+    },
+    {
+      "source": "fbi_detroit",
+      "target": "banks",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "FBI Detroit: Wire fraud (18 USC 1343). Mail fraud (18 USC 1341). RICO (18 USC 1961-1968). False statements on bankruptcy filings (18 USC 152). You have jurisdiction."
+    },
+    {
+      "source": "fbi_detroit",
+      "target": "pca",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "FBI Detroit: Wire fraud (18 USC 1343). Mail fraud (18 USC 1341). RICO (18 USC 1961-1968). False statements on bankruptcy filings (18 USC 152). You have jurisdiction."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "fbi_detroit",
+      "type": "signal_to",
+      "epistemic_status": "record",
+      "note": "The signal calls federal authority."
+    },
+    {
+      "source": "doj_civil_rights",
+      "target": "banks",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "DOJ Civil Rights: Title VI complaint. Federal funds flowing to a school with 3% math proficiency serving predominantly Black children. Pattern or practice."
+    },
+    {
+      "source": "doj_civil_rights",
+      "target": "pca",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "DOJ Civil Rights: Title VI complaint. Federal funds flowing to a school with 3% math proficiency serving predominantly Black children. Pattern or practice."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "doj_civil_rights",
+      "type": "signal_to",
+      "epistemic_status": "record",
+      "note": "The signal calls federal authority."
+    },
+    {
+      "source": "us_attorney_ed_michigan",
+      "target": "banks",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "US Attorney: Wire fraud, mail fraud, RICO. The LLC web crosses state lines. The bankruptcy omissions are federal. You have jurisdiction."
+    },
+    {
+      "source": "us_attorney_ed_michigan",
+      "target": "pca",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "Federal funds at this school."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "us_attorney_ed_michigan",
+      "type": "signal_to",
+      "epistemic_status": "record",
+      "note": "The signal calls the US Attorney."
+    },
+    {
+      "source": "agc",
+      "target": "banks",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "AGC: Perkins practices law without a license. MCR 8.121. You received a complaint. Act on it."
+    },
+    {
+      "source": "agc",
+      "target": "pca",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "AGC: Perkins practices law without a license. MCR 8.121. You received a complaint. Act on it."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "agc",
+      "type": "signal_to",
+      "epistemic_status": "record",
+      "note": "The signal calls the regulators."
+    },
+    {
+      "source": "sbe",
+      "target": "banks",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "SBE: You authorized PCA. You can revoke. The data says 3% math. Plante Moran says the books don't balance. Act."
+    },
+    {
+      "source": "sbe",
+      "target": "pca",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "SBE: You authorized PCA. You can revoke. The data says 3% math. Plante Moran says the books don't balance. Act."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "sbe",
+      "type": "signal_to",
+      "epistemic_status": "record",
+      "note": "The signal calls the regulators."
+    },
+    {
+      "source": "mde",
+      "target": "banks",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "MDE: You oversee charter schools. This one has 3% math proficiency. The operator has 5 bankruptcies. Your authorization letter is a public record."
+    },
+    {
+      "source": "mde",
+      "target": "pca",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "MDE: You oversee charter schools. This one has 3% math proficiency. The operator has 5 bankruptcies. Your authorization letter is a public record."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "mde",
+      "type": "signal_to",
+      "epistemic_status": "record",
+      "note": "The signal calls the regulators."
+    },
+    {
+      "source": "detroit_city_council",
+      "target": "banks",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "City Council: Banks ran for this body. He lost. Then he took $12,850/child/year through a charter school instead. Your constituents' children."
+    },
+    {
+      "source": "detroit_city_council",
+      "target": "pca",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "City Council: Banks ran for this body. He lost. Then he took $12,850/child/year through a charter school instead. Your constituents' children."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "detroit_city_council",
+      "type": "signal_to",
+      "epistemic_status": "record",
+      "note": "The signal calls the regulators."
+    },
+    {
+      "source": "michigan_legislature",
+      "target": "banks",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "Legislature: You passed PA 362. It created this. 72.67% extraction rate. 3% math. The law you wrote is the tool of fraud."
+    },
+    {
+      "source": "michigan_legislature",
+      "target": "pca",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "Legislature: You passed PA 362. It created this. 72.67% extraction rate. 3% math. The law you wrote is the tool of fraud."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "michigan_legislature",
+      "type": "signal_to",
+      "epistemic_status": "record",
+      "note": "The signal calls the regulators."
+    },
+    {
+      "source": "wayne_resa",
+      "target": "banks",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "Wayne RESA: You provide financial oversight. What did you see? What did you report? Who read it?"
+    },
+    {
+      "source": "wayne_resa",
+      "target": "pca",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "Wayne RESA: You provide financial oversight. What did you see? What did you report? Who read it?"
+    },
+    {
+      "source": "article_the_signal",
+      "target": "wayne_resa",
+      "type": "signal_to",
+      "epistemic_status": "record",
+      "note": "The signal calls the regulators."
+    },
+    {
+      "source": "cmu",
+      "target": "banks",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "CMU: You authorized PCA from 150 miles away. The school has 3% math. You collected the oversight fee. You are liable."
+    },
+    {
+      "source": "cmu",
+      "target": "pca",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "CMU: You authorized PCA from 150 miles away. The school has 3% math. You collected the oversight fee. You are liable."
+    },
+    {
+      "source": "wayne_state_law",
+      "target": "banks",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "Wayne State Law: You're IN Detroit. These children are YOUR community. The false credential practices are YOUR professional domain."
+    },
+    {
+      "source": "wayne_state_law",
+      "target": "pca",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "Wayne State Law: You're IN Detroit. These children are YOUR community. The false credential practices are YOUR professional domain."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "wayne_state_law",
+      "type": "signal_to",
+      "epistemic_status": "record",
+      "note": "The signal calls the academy."
+    },
+    {
+      "source": "msu_law",
+      "target": "banks",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "MSU Law: Legal ethics is your curriculum. Perkins practices without a license. Teach this case."
+    },
+    {
+      "source": "msu_law",
+      "target": "pca",
+      "type": "cavalry",
+      "epistemic_status": "record",
+      "note": "MSU Law: Legal ethics is your curriculum. Perkins practices without a license. Teach this case."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "msu_law",
+      "type": "signal_to",
+      "epistemic_status": "record",
+      "note": "The signal calls the academy."
+    },
+    {
+      "source": "article_the_signal",
+      "target": "data_990_devos_foundation",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Dick DeVos: Your family foundation gave $2.6M to charter school networks including GLEP. PCA has 3% math proficiency. Did you know?"
+    },
+    {
+      "source": "article_the_signal",
+      "target": "chalkbeat_detroit",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "Chalkbeat: You cover education in Detroit. PCA has 3% math proficiency. The operator has 5 bankruptcies and 2 felony convictions. Why hasn't this been reported?"
+    },
+    {
+      "source": "article_clarion_call",
+      "target": "chalkbeat_detroit",
+      "type": "calls_to_action",
+      "epistemic_status": "record",
+      "note": "The clarion call names you. Will you answer?"
+    },
+    {
+      "source": "article_clarion_call",
+      "target": "detroit_news",
+      "type": "calls_to_action",
+      "epistemic_status": "record",
+      "note": "The clarion call names you. Will you answer?"
+    },
+    {
+      "source": "article_clarion_call",
+      "target": "bridge_michigan",
+      "type": "calls_to_action",
+      "epistemic_status": "record",
+      "note": "The clarion call names you. Will you answer?"
+    },
+    {
+      "source": "article_clarion_call",
+      "target": "propublica",
+      "type": "calls_to_action",
+      "epistemic_status": "record",
+      "note": "The clarion call names you. Will you answer?"
+    },
+    {
+      "source": "article_clarion_call",
+      "target": "deadline_detroit",
+      "type": "calls_to_action",
+      "epistemic_status": "record",
+      "note": "The clarion call names you. Will you answer?"
+    },
+    {
+      "source": "article_clarion_call",
+      "target": "outlier_media",
+      "type": "calls_to_action",
+      "epistemic_status": "record",
+      "note": "The clarion call names you. Will you answer?"
+    },
+    {
+      "source": "article_clarion_call",
+      "target": "wjbk_fox2",
+      "type": "calls_to_action",
+      "epistemic_status": "record",
+      "note": "The clarion call names you. Will you answer?"
+    },
+    {
+      "source": "article_clarion_call",
+      "target": "propublica_local_mi",
+      "type": "calls_to_action",
+      "epistemic_status": "record",
+      "note": "The clarion call names you. Will you answer?"
+    },
+    {
+      "source": "article_clarion_call",
+      "target": "education_law_center",
+      "type": "calls_to_action",
+      "epistemic_status": "record",
+      "note": "The clarion call names you. Will you answer?"
+    },
+    {
+      "source": "article_clarion_call",
+      "target": "lawyers_committee_civil_rights",
+      "type": "calls_to_action",
+      "epistemic_status": "record",
+      "note": "The clarion call names you. Will you answer?"
+    },
+    {
+      "source": "article_clarion_call",
+      "target": "brennan_center",
+      "type": "calls_to_action",
+      "epistemic_status": "record",
+      "note": "The clarion call names you. Will you answer?"
+    },
+    {
+      "source": "article_clarion_call",
+      "target": "public_interest_law_center",
+      "type": "calls_to_action",
+      "epistemic_status": "record",
+      "note": "The clarion call names you. Will you answer?"
+    },
+    {
+      "source": "article_clarion_call",
+      "target": "naacp_detroit",
+      "type": "calls_to_action",
+      "epistemic_status": "record",
+      "note": "The clarion call names you. Will you answer?"
+    },
+    {
+      "source": "article_clarion_call",
+      "target": "fbi_detroit",
+      "type": "calls_to_action",
+      "epistemic_status": "record",
+      "note": "The clarion call names you. Will you answer?"
+    },
+    {
+      "source": "article_clarion_call",
+      "target": "doj_civil_rights",
+      "type": "calls_to_action",
+      "epistemic_status": "record",
+      "note": "The clarion call names you. Will you answer?"
+    },
+    {
+      "source": "article_clarion_call",
+      "target": "agc",
+      "type": "calls_to_action",
+      "epistemic_status": "record",
+      "note": "The clarion call names you. Will you answer?"
+    },
+    {
+      "source": "article_clarion_call",
+      "target": "sbe",
+      "type": "calls_to_action",
+      "epistemic_status": "record",
+      "note": "The clarion call names you. Will you answer?"
+    },
+    {
+      "source": "article_clarion_call",
+      "target": "mde",
+      "type": "calls_to_action",
+      "epistemic_status": "record",
+      "note": "The clarion call names you. Will you answer?"
+    },
+    {
+      "source": "article_clarion_call",
+      "target": "detroit_city_council",
+      "type": "calls_to_action",
+      "epistemic_status": "record",
+      "note": "The clarion call names you. Will you answer?"
+    },
+    {
+      "source": "article_clarion_call",
+      "target": "michigan_legislature",
+      "type": "calls_to_action",
+      "epistemic_status": "record",
+      "note": "The clarion call names you. Will you answer?"
+    },
+    {
+      "source": "article_clarion_call",
+      "target": "wayne_resa",
+      "type": "calls_to_action",
+      "epistemic_status": "record",
+      "note": "The clarion call names you. Will you answer?"
+    },
+    {
+      "source": "article_clarion_call",
+      "target": "cmu",
+      "type": "calls_to_action",
+      "epistemic_status": "record",
+      "note": "The clarion call names you. Will you answer?"
+    },
+    {
+      "source": "article_clarion_call",
+      "target": "wayne_state_law",
+      "type": "calls_to_action",
+      "epistemic_status": "record",
+      "note": "The clarion call names you. Will you answer?"
+    },
+    {
+      "source": "article_clarion_call",
+      "target": "msu_law",
+      "type": "calls_to_action",
+      "epistemic_status": "record",
+      "note": "The clarion call names you. Will you answer?"
+    },
+    {
+      "source": "article_clarion_call",
+      "target": "us_attorney_ed_michigan",
+      "type": "calls_to_action",
+      "epistemic_status": "record",
+      "note": "The clarion call names you. Will you answer?"
+    },
+    {
+      "source": "article_clarion_call",
+      "target": "signal_1st",
+      "type": "invokes",
+      "epistemic_status": "record",
+      "note": "The clarion call invokes this amendment."
+    },
+    {
+      "source": "article_clarion_call",
+      "target": "signal_4th",
+      "type": "invokes",
+      "epistemic_status": "record",
+      "note": "The clarion call invokes this amendment."
+    },
+    {
+      "source": "article_clarion_call",
+      "target": "signal_5th",
+      "type": "invokes",
+      "epistemic_status": "record",
+      "note": "The clarion call invokes this amendment."
+    },
+    {
+      "source": "article_clarion_call",
+      "target": "signal_14th",
+      "type": "invokes",
+      "epistemic_status": "record",
+      "note": "The clarion call invokes this amendment."
+    },
+    {
+      "source": "article_clarion_call",
+      "target": "signal_mi_art8_s2",
+      "type": "invokes",
+      "epistemic_status": "record",
+      "note": "The clarion call invokes this amendment."
+    },
+    {
+      "source": "article_clarion_call",
+      "target": "signal_title_vi",
+      "type": "invokes",
+      "epistemic_status": "record",
+      "note": "The clarion call invokes this amendment."
+    },
+    {
+      "source": "article_clarion_call",
+      "target": "banks",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "The subject of the call"
+    },
+    {
+      "source": "article_clarion_call",
+      "target": "pca",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "The subject of the call"
+    },
+    {
+      "source": "article_clarion_call",
+      "target": "the_unnamed_400",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "The subject of the call"
+    },
+    {
+      "source": "article_clarion_call",
+      "target": "article_the_signal",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": "The subject of the call"
+    },
+    {
+      "source": "precinct_vacancy_fill",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "karen_whitehouse",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "till_leslie_milam",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "internet_archive",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "yasa",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "three_domains",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "data_990_skillman_foundation",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "jimmy_wales",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "aaron_swartz",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "sycamore_woodside",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "data_990_nuvision_foundation",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "tibet_china",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "richard_stallman",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "nsa",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "mendelian_genetics",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "john_james",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "missing_data",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "filing_990_skillman_foundation",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "gchq",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "enrico_fermi",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "han_dynasty_civil_service",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "goldbach_conjecture",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "ashlee_barker_lhc",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "ibn_battuta",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "gps",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "simtob_management",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "fsf",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "blues",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "columbus",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "persian_empire",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "epic_gilgamesh",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "emma_henry_lhc",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "vasco_da_gama",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "christina_swarns",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "salem_witch_trials",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "grand_prismatic",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "tulku_system",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "great_law_peace",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "smallpox_americas",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "barrett",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "kgb",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "timbuktu",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "topology",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "gh_hardy",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "great_dying",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "mary_anning",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "electromagnetism",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "cyril_radcliffe",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "svr",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "kurukan_fuga",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "czi",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "barbara_mcclintock",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "darwin_finches",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "filing_990_kresge_foundation",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "data_990_kresge_foundation",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "astrobiology",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Brought into cavalry range"
+    },
+    {
+      "source": "kublai_khan",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "endangered_languages",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "europa",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "jason_roe",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "genealogy",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "jfk",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "enceladus",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "bradbury_451",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "twin_prime",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "carl_sagan",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "universal",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "banksy",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
+    },
+    {
+      "source": "lise_meitner",
+      "target": "article_clarion_call",
+      "type": "reachable_from",
+      "epistemic_status": "record",
+      "note": "Now within cavalry reach"
     }
   ],
   "epistemic_grammar": {
