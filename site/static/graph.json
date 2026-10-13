@@ -75864,6 +75864,227 @@
         "outreach",
         "invitation"
       ]
+    },
+    {
+      "id": "fossil_record",
+      "label": "THE FOSSIL RECORD: 401 Scripts, 19 Strata, 76K+ Edges",
+      "class": "concept",
+      "role": "401 Python scripts sorted into 19 strata. Every one loaded graph.json, transformed it, and saved it back. 401 times. The sedimentary record of an investigation. Fossilized October 13, 2026.",
+      "tags": [
+        "architecture",
+        "fossil",
+        "meta"
+      ]
+    },
+    {
+      "id": "stratum_01_investigation",
+      "label": "STRATUM: Investigation Core (76 scripts)",
+      "class": "concept",
+      "role": "",
+      "tags": [
+        "fossil",
+        "stratum",
+        "architecture"
+      ]
+    },
+    {
+      "id": "stratum_02_commons",
+      "label": "STRATUM: Knowledge Commons Injection (30 scripts)",
+      "class": "concept",
+      "role": "",
+      "tags": [
+        "fossil",
+        "stratum",
+        "architecture"
+      ]
+    },
+    {
+      "id": "stratum_03_batch",
+      "label": "STRATUM: Batch Data Ingestion (10 scripts)",
+      "class": "concept",
+      "role": "",
+      "tags": [
+        "fossil",
+        "stratum",
+        "architecture"
+      ]
+    },
+    {
+      "id": "stratum_04_bingo",
+      "label": "STRATUM: Bingo Cube Predictions (17 scripts)",
+      "class": "concept",
+      "role": "",
+      "tags": [
+        "fossil",
+        "stratum",
+        "architecture"
+      ]
+    },
+    {
+      "id": "stratum_05_scan",
+      "label": "STRATUM: Scan Sweep Sort Engine (66 scripts)",
+      "class": "concept",
+      "role": "",
+      "tags": [
+        "fossil",
+        "stratum",
+        "architecture"
+      ]
+    },
+    {
+      "id": "stratum_06_maintenance",
+      "label": "STRATUM: Graph Maintenance (38 scripts)",
+      "class": "concept",
+      "role": "",
+      "tags": [
+        "fossil",
+        "stratum",
+        "architecture"
+      ]
+    },
+    {
+      "id": "stratum_07_site",
+      "label": "STRATUM: Site Builders (7 scripts)",
+      "class": "concept",
+      "role": "",
+      "tags": [
+        "fossil",
+        "stratum",
+        "architecture"
+      ]
+    },
+    {
+      "id": "stratum_08_external",
+      "label": "STRATUM: External Data (13 scripts)",
+      "class": "concept",
+      "role": "",
+      "tags": [
+        "fossil",
+        "stratum",
+        "architecture"
+      ]
+    },
+    {
+      "id": "stratum_09_braids",
+      "label": "STRATUM: Braids + Membrane (11 scripts)",
+      "class": "concept",
+      "role": "",
+      "tags": [
+        "fossil",
+        "stratum",
+        "architecture"
+      ]
+    },
+    {
+      "id": "stratum_11_articles",
+      "label": "STRATUM: Article Writing (20 scripts)",
+      "class": "concept",
+      "role": "",
+      "tags": [
+        "fossil",
+        "stratum",
+        "architecture"
+      ]
+    },
+    {
+      "id": "stratum_12_architecture",
+      "label": "STRATUM: Structural Architecture (17 scripts)",
+      "class": "concept",
+      "role": "",
+      "tags": [
+        "fossil",
+        "stratum",
+        "architecture"
+      ]
+    },
+    {
+      "id": "stratum_13_outreach",
+      "label": "STRATUM: Outreach + Signal (14 scripts)",
+      "class": "concept",
+      "role": "",
+      "tags": [
+        "fossil",
+        "stratum",
+        "architecture"
+      ]
+    },
+    {
+      "id": "stratum_14_pivot",
+      "label": "STRATUM: Pivot + Sort (13 scripts)",
+      "class": "concept",
+      "role": "",
+      "tags": [
+        "fossil",
+        "stratum",
+        "architecture"
+      ]
+    },
+    {
+      "id": "stratum_15_economics",
+      "label": "STRATUM: Economics + Legal (8 scripts)",
+      "class": "concept",
+      "role": "",
+      "tags": [
+        "fossil",
+        "stratum",
+        "architecture"
+      ]
+    },
+    {
+      "id": "stratum_16_spiral",
+      "label": "STRATUM: Deep Exploration (11 scripts)",
+      "class": "concept",
+      "role": "",
+      "tags": [
+        "fossil",
+        "stratum",
+        "architecture"
+      ]
+    },
+    {
+      "id": "stratum_17_heart",
+      "label": "STRATUM: Heart + Identity (11 scripts)",
+      "class": "concept",
+      "role": "",
+      "tags": [
+        "fossil",
+        "stratum",
+        "architecture"
+      ]
+    },
+    {
+      "id": "stratum_18_density",
+      "label": "STRATUM: Density Wiring (22 scripts)",
+      "class": "concept",
+      "role": "",
+      "tags": [
+        "fossil",
+        "stratum",
+        "architecture"
+      ]
+    },
+    {
+      "id": "stratum_19_tools",
+      "label": "STRATUM: Session Tools (7 scripts)",
+      "class": "concept",
+      "role": "",
+      "tags": [
+        "fossil",
+        "stratum",
+        "architecture"
+      ]
+    },
+    {
+      "id": "article_fossil_record",
+      "label": "ARTICLE: The Fossil Record — 401 Scripts, 19 Strata",
+      "class": "article",
+      "role": "401 scripts. 19 strata. Investigation. Commons. Predictions. Scans. Maintenance. Sites. Articles. Architecture. Outreach. Pivots. Economics. Spirals. Heart. Density. Each script loaded the graph, transformed it, saved it back. 401 times. 76,000+ edges of sedimentary evidence. The fossil record is the method. The graph is the result. Sorted. Compressed. Fossilized. Permanent.",
+      "tags": [
+        "fossil",
+        "architecture",
+        "article",
+        "meta"
+      ]
     }
   ],
   "edges": [
@@ -624914,6 +625135,958 @@
       "type": "about",
       "epistemic_status": "record",
       "note": ""
+    },
+    {
+      "source": "fossil_record",
+      "target": "stratum_01_investigation",
+      "type": "contains",
+      "epistemic_status": "record",
+      "note": "76 scripts in this stratum"
+    },
+    {
+      "source": "fossil_record",
+      "target": "stratum_02_commons",
+      "type": "contains",
+      "epistemic_status": "record",
+      "note": "30 scripts in this stratum"
+    },
+    {
+      "source": "fossil_record",
+      "target": "stratum_03_batch",
+      "type": "contains",
+      "epistemic_status": "record",
+      "note": "10 scripts in this stratum"
+    },
+    {
+      "source": "fossil_record",
+      "target": "stratum_04_bingo",
+      "type": "contains",
+      "epistemic_status": "record",
+      "note": "17 scripts in this stratum"
+    },
+    {
+      "source": "fossil_record",
+      "target": "stratum_05_scan",
+      "type": "contains",
+      "epistemic_status": "record",
+      "note": "66 scripts in this stratum"
+    },
+    {
+      "source": "fossil_record",
+      "target": "stratum_06_maintenance",
+      "type": "contains",
+      "epistemic_status": "record",
+      "note": "38 scripts in this stratum"
+    },
+    {
+      "source": "fossil_record",
+      "target": "stratum_07_site",
+      "type": "contains",
+      "epistemic_status": "record",
+      "note": "7 scripts in this stratum"
+    },
+    {
+      "source": "fossil_record",
+      "target": "stratum_08_external",
+      "type": "contains",
+      "epistemic_status": "record",
+      "note": "13 scripts in this stratum"
+    },
+    {
+      "source": "fossil_record",
+      "target": "stratum_09_braids",
+      "type": "contains",
+      "epistemic_status": "record",
+      "note": "11 scripts in this stratum"
+    },
+    {
+      "source": "fossil_record",
+      "target": "stratum_11_articles",
+      "type": "contains",
+      "epistemic_status": "record",
+      "note": "20 scripts in this stratum"
+    },
+    {
+      "source": "fossil_record",
+      "target": "stratum_12_architecture",
+      "type": "contains",
+      "epistemic_status": "record",
+      "note": "17 scripts in this stratum"
+    },
+    {
+      "source": "fossil_record",
+      "target": "stratum_13_outreach",
+      "type": "contains",
+      "epistemic_status": "record",
+      "note": "14 scripts in this stratum"
+    },
+    {
+      "source": "fossil_record",
+      "target": "stratum_14_pivot",
+      "type": "contains",
+      "epistemic_status": "record",
+      "note": "13 scripts in this stratum"
+    },
+    {
+      "source": "fossil_record",
+      "target": "stratum_15_economics",
+      "type": "contains",
+      "epistemic_status": "record",
+      "note": "8 scripts in this stratum"
+    },
+    {
+      "source": "fossil_record",
+      "target": "stratum_16_spiral",
+      "type": "contains",
+      "epistemic_status": "record",
+      "note": "11 scripts in this stratum"
+    },
+    {
+      "source": "fossil_record",
+      "target": "stratum_17_heart",
+      "type": "contains",
+      "epistemic_status": "record",
+      "note": "11 scripts in this stratum"
+    },
+    {
+      "source": "fossil_record",
+      "target": "stratum_18_density",
+      "type": "contains",
+      "epistemic_status": "record",
+      "note": "22 scripts in this stratum"
+    },
+    {
+      "source": "fossil_record",
+      "target": "stratum_19_tools",
+      "type": "contains",
+      "epistemic_status": "record",
+      "note": "7 scripts in this stratum"
+    },
+    {
+      "source": "stratum_01_investigation",
+      "target": "holland",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "This stratum built holland"
+    },
+    {
+      "source": "stratum_01_investigation",
+      "target": "beasley",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "This stratum built beasley"
+    },
+    {
+      "source": "stratum_01_investigation",
+      "target": "ms_perkins_pca",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "This stratum built ms_perkins_pca"
+    },
+    {
+      "source": "stratum_01_investigation",
+      "target": "dykema",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "This stratum built dykema"
+    },
+    {
+      "source": "stratum_01_investigation",
+      "target": "larry_nassar",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "This stratum built larry_nassar"
+    },
+    {
+      "source": "stratum_02_commons",
+      "target": "pattern_regulatory_capture",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "This stratum built pattern_regulatory_capture"
+    },
+    {
+      "source": "stratum_02_commons",
+      "target": "modest_proposal",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "This stratum built modest_proposal"
+    },
+    {
+      "source": "stratum_04_bingo",
+      "target": "article_the_pivot",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "This stratum built article_the_pivot"
+    },
+    {
+      "source": "stratum_05_scan",
+      "target": "accountability_clock",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "This stratum built accountability_clock"
+    },
+    {
+      "source": "stratum_11_articles",
+      "target": "article_man_bites_dog",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "This stratum built article_man_bites_dog"
+    },
+    {
+      "source": "stratum_11_articles",
+      "target": "article_spiral_across",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "This stratum built article_spiral_across"
+    },
+    {
+      "source": "stratum_11_articles",
+      "target": "article_you_yeah_you",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "This stratum built article_you_yeah_you"
+    },
+    {
+      "source": "stratum_11_articles",
+      "target": "article_nassar_pattern",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "This stratum built article_nassar_pattern"
+    },
+    {
+      "source": "stratum_11_articles",
+      "target": "article_holland_exposed",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "This stratum built article_holland_exposed"
+    },
+    {
+      "source": "stratum_12_architecture",
+      "target": "article_the_braid",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "This stratum built article_the_braid"
+    },
+    {
+      "source": "stratum_12_architecture",
+      "target": "sporeprint",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "This stratum built sporeprint"
+    },
+    {
+      "source": "stratum_13_outreach",
+      "target": "roman_mars",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "This stratum built roman_mars"
+    },
+    {
+      "source": "stratum_13_outreach",
+      "target": "sporeprint",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "This stratum built sporeprint"
+    },
+    {
+      "source": "stratum_14_pivot",
+      "target": "accountability_clock",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "This stratum built accountability_clock"
+    },
+    {
+      "source": "stratum_14_pivot",
+      "target": "article_the_pivot",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "This stratum built article_the_pivot"
+    },
+    {
+      "source": "stratum_17_heart",
+      "target": "invitation_come_and_see",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "This stratum built invitation_come_and_see"
+    },
+    {
+      "source": "article_fossil_record",
+      "target": "fossil_record",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_fossil_record",
+      "target": "stratum_01_investigation",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_fossil_record",
+      "target": "stratum_02_commons",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_fossil_record",
+      "target": "stratum_03_batch",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_fossil_record",
+      "target": "stratum_04_bingo",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_fossil_record",
+      "target": "stratum_05_scan",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_fossil_record",
+      "target": "stratum_06_maintenance",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_fossil_record",
+      "target": "stratum_07_site",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_fossil_record",
+      "target": "stratum_08_external",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_fossil_record",
+      "target": "stratum_09_braids",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_fossil_record",
+      "target": "stratum_11_articles",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_fossil_record",
+      "target": "stratum_12_architecture",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_fossil_record",
+      "target": "stratum_13_outreach",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_fossil_record",
+      "target": "stratum_14_pivot",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_fossil_record",
+      "target": "stratum_15_economics",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_fossil_record",
+      "target": "stratum_16_spiral",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_fossil_record",
+      "target": "stratum_17_heart",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_fossil_record",
+      "target": "stratum_18_density",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_fossil_record",
+      "target": "stratum_19_tools",
+      "type": "documents",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "fossil_record",
+      "target": "beast_gorilla",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "beast_firefly",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "beast_badger",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "beast_dolphin",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "beast_octopus",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "beast_hawk",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "beast_spider",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "beast_whale",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "beast_ant",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "beast_honeybee",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "beast_elephant",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "beast_wolf",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "beast_owl",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "ward_anti_slapp",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "ward_whistleblower_mi",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "ward_foia",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "ward_open_meetings",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "ward_1983",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "ward_qui_tam",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "ward_whistleblower_fed",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "ward_reporter_privilege",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "bell_auditors",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "bell_law_students",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "bell_other_states",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "bell_data_journalists",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "bell_parents",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "bell_peer_schools",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "bell_teachers",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "bell_alumni",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "hypothesis_extraction",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "hypothesis_proficiency",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "hypothesis_silence",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "hypothesis_convictions",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "hypothesis_regulatory_capture",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "hypothesis_credential",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "hypothesis_bankruptcy",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "primal_petaltongue",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "primal_toadstool",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "primal_sweetgrass",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "primal_nestgate",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "primal_barracuda",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "primal_songbird",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "primal_biomeos",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "primal_coralreef",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "primal_rhizocrypt",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "primal_skunkbat",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "primal_loamspine",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "primal_squirrel",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "primal_beardog",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "bounty_social_spread",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "bounty_irs_whistleblower",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "bounty_state_ag",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "bounty_sec_whistleblower",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "bounty_qui_tam",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "neg_no_audit",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "neg_no_restitution",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "neg_no_board_action",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "neg_no_accountability",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "neg_no_foia_response",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "neg_no_lara_revocation",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "neg_no_federal",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "neg_no_resignation",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "neg_no_whistleblower",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "neg_no_media",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "neg_no_charges",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "neg_silence_continues",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "neg_children_still_harmed",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "neg_no_mde_action",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "gen_5",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "gen_4",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "gen_6",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "gen_2",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "gen_0",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "gen_7",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "gen_3",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "gen_n",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "gen_1",
+      "type": "built",
+      "epistemic_status": "record",
+      "note": "The fossil record built this layer"
+    },
+    {
+      "source": "fossil_record",
+      "target": "deadline_oct31",
+      "type": "deadline_for",
+      "epistemic_status": "record",
+      "note": "The fossil record was built before the deadline"
     }
   ],
   "epistemic_grammar": {
