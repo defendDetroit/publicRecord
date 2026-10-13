@@ -21,7 +21,8 @@
       "tags": [
         "tier_1",
         "human",
-        "banks_orbit"
+        "banks_orbit",
+        "investigation"
       ]
     },
     {
@@ -42,6 +43,7 @@
       "role": "municipal government",
       "tags": [
         "tier_1",
+        "investigation",
         "non_human"
       ]
     },
@@ -175,8 +177,10 @@
       "wiki_url": "https://en.wikipedia.org/wiki/Charter_schools_in_Michigan",
       "role": "enabling legislation",
       "tags": [
+        "non_human",
         "tier_1",
-        "non_human"
+        "charter_ecosystem",
+        "investigation"
       ]
     },
     {
@@ -212,9 +216,10 @@
       "sort_note": "Employee of captured school.",
       "role": "circuit court (Wayne County)",
       "tags": [
-        "judicial",
         "non_human",
-        "tier_2"
+        "judicial",
+        "tier_2",
+        "investigation"
       ]
     },
     {
@@ -279,6 +284,7 @@
       "tags": [
         "tier_1",
         "judicial",
+        "investigation",
         "non_human"
       ]
     },
@@ -340,8 +346,9 @@
       "sort_note": "Employee of captured school.",
       "tags": [
         "tier_1",
+        "education",
         "human",
-        "education"
+        "investigation"
       ]
     },
     {
@@ -384,6 +391,7 @@
       "tags": [
         "tier_1",
         "education",
+        "investigation",
         "non_human"
       ]
     },
@@ -524,8 +532,9 @@
       "sort_note": "Employee of captured school.",
       "tags": [
         "human",
+        "tier_2",
         "education",
-        "tier_2"
+        "investigation"
       ]
     },
     {
@@ -606,9 +615,10 @@
       "wiki_url": "https://en.wikipedia.org/wiki/Wayne_State_University_Law_School",
       "role": "law school",
       "tags": [
-        "legal",
         "education",
         "non_human",
+        "investigation",
+        "legal",
         "tier_2"
       ]
     },
@@ -706,8 +716,9 @@
       "wiki_url": "https://en.wikipedia.org/wiki/Central_Michigan_University",
       "role": "university (charter authorizer)",
       "tags": [
-        "education",
         "charter_ecosystem",
+        "education",
+        "investigation",
         "non_human",
         "tier_2"
       ]
@@ -810,9 +821,10 @@
       "sort_method": "credential_claim",
       "sort_note": "Banks claims credential from this entity.",
       "tags": [
-        "legal",
         "education",
         "non_human",
+        "investigation",
+        "legal",
         "tier_2"
       ]
     },
@@ -852,7 +864,8 @@
       "role": "law enforcement",
       "tags": [
         "non_human",
-        "tier_2"
+        "tier_2",
+        "investigation"
       ]
     },
     {
@@ -870,7 +883,8 @@
       "sort_note": "Governance/board connection to non-self (cascade).",
       "tags": [
         "human",
-        "tier_2"
+        "tier_2",
+        "investigation"
       ]
     },
     {
@@ -890,7 +904,8 @@
       "role": "county government",
       "tags": [
         "non_human",
-        "tier_2"
+        "tier_2",
+        "investigation"
       ]
     },
     {
@@ -987,7 +1002,9 @@
       "sort_method": "phase1",
       "role": "management company (Banks-controlled)",
       "tags": [
+        "charter_ecosystem",
         "banks_orbit",
+        "investigation",
         "non_human",
         "tier_2"
       ]
@@ -1026,8 +1043,10 @@
       "sort_note": "Funding entity. Insufficient evidence for sort.",
       "wiki_url": "https://en.wikipedia.org/wiki/Betsy_DeVos",
       "tags": [
+        "charter_ecosystem",
         "human",
         "devos_network",
+        "investigation",
         "tier_2"
       ]
     },
@@ -1090,7 +1109,9 @@
       "wiki_url": "https://en.wikipedia.org/wiki/Mackinac_Center_for_Public_Policy",
       "tags": [
         "non_human",
-        "tier_2"
+        "tier_2",
+        "charter_ecosystem",
+        "investigation"
       ]
     },
     {
@@ -1351,9 +1372,10 @@
       "sort_method": "school_employee",
       "sort_note": "Employee of captured school.",
       "tags": [
-        "human",
-        "education",
         "charter_ecosystem",
+        "education",
+        "human",
+        "investigation",
         "tier_2"
       ]
     },
@@ -1465,7 +1487,8 @@
       "sort_note": "Formation/governance connection to null (cascade).",
       "tags": [
         "human",
-        "tier_2"
+        "tier_2",
+        "investigation"
       ]
     },
     {
@@ -1568,9 +1591,10 @@
       "sort_note": "Entity governed by Banks.",
       "role": "nonprofit arm (Banks-controlled)",
       "tags": [
-        "banks_orbit",
+        "non_human",
         "tier_4",
-        "non_human"
+        "banks_orbit",
+        "investigation"
       ]
     },
     {
@@ -1920,7 +1944,8 @@
       "classification": "non-self",
       "tags": [
         "non_human",
-        "tier_2"
+        "tier_2",
+        "investigation"
       ]
     },
     {
@@ -2051,7 +2076,8 @@
       "sort_note": "Governance/board connection to non-self (cascade).",
       "tags": [
         "human",
-        "tier_4"
+        "tier_4",
+        "investigation"
       ]
     },
     {
@@ -8857,9 +8883,10 @@
       "class": "complainant",
       "classification": "verified",
       "tags": [
-        "human",
         "complainant",
-        "tier_2"
+        "human",
+        "tier_2",
+        "investigation"
       ]
     },
     {
@@ -10013,9 +10040,10 @@
       "class": "false_entity",
       "role": "the structural pattern: what prevents enclosure of shared resources",
       "tags": [
-        "governance_structure",
         "non_human",
-        "tier_4"
+        "governance_structure",
+        "tier_4",
+        "investigation"
       ]
     },
     {
@@ -48299,8 +48327,9 @@
       "class": "entity",
       "role": "Legislative body. 9 members. James Tate Jr. is new president. Oversight of city operations.",
       "tags": [
+        "legislative",
         "detroit",
-        "legislative"
+        "investigation"
       ]
     },
     {
@@ -191963,6 +191992,174 @@
       "type": "structural_proximity",
       "epistemic_status": "record",
       "note": "Connected to education commons"
+    },
+    {
+      "source": "citizen_detroit",
+      "target": "banks",
+      "type": "should_answer",
+      "epistemic_status": "record",
+      "note": "CitizenDetroit should ask Banks"
+    },
+    {
+      "source": "citizen_detroit",
+      "target": "pca",
+      "type": "should_answer",
+      "epistemic_status": "record",
+      "note": "CitizenDetroit should ask about PCA"
+    },
+    {
+      "source": "detroit_news",
+      "target": "banks",
+      "type": "should_answer",
+      "epistemic_status": "record",
+      "note": "Detroit News should investigate Banks"
+    },
+    {
+      "source": "detroit_news",
+      "target": "pca",
+      "type": "coverage",
+      "epistemic_status": "record",
+      "note": "Detroit News should cover PCA"
+    },
+    {
+      "source": "anchor_rock",
+      "target": "glep",
+      "type": "funding",
+      "epistemic_status": "record",
+      "note": "Anchor Rock connected to GLEP"
+    },
+    {
+      "source": "todd_bettison",
+      "target": "banks",
+      "type": "jurisdiction",
+      "epistemic_status": "record",
+      "note": "Former DPD Chief jurisdiction"
+    },
+    {
+      "source": "todd_bettison",
+      "target": "det_5th_precinct",
+      "type": "leadership",
+      "epistemic_status": "record",
+      "note": "Former chief oversight"
+    },
+    {
+      "source": "alice_thompson",
+      "target": "banks",
+      "type": "structural_proximity",
+      "epistemic_status": "record",
+      "note": "Detroit education figure"
+    },
+    {
+      "source": "alice_thompson",
+      "target": "pca",
+      "type": "should_answer",
+      "epistemic_status": "record",
+      "note": "Thompson should know about PCA"
+    },
+    {
+      "source": "burris",
+      "target": "banks",
+      "type": "should_answer",
+      "epistemic_status": "record",
+      "note": "National charter critic should know about Banks"
+    },
+    {
+      "source": "burris",
+      "target": "pca",
+      "type": "should_answer",
+      "epistemic_status": "record",
+      "note": "Burris should know about PCA"
+    },
+    {
+      "source": "k12_inc",
+      "target": "money_pipeline",
+      "type": "feeds_into",
+      "epistemic_status": "record",
+      "note": "K12 part of charter money pipeline"
+    },
+    {
+      "source": "promise_schools",
+      "target": "banks",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Detroit charter operator"
+    },
+    {
+      "source": "promise_schools",
+      "target": "dpscd",
+      "type": "structural_proximity",
+      "epistemic_status": "record",
+      "note": "Promise in DPSCD district"
+    },
+    {
+      "source": "mde_prof_practice",
+      "target": "banks",
+      "type": "oversight",
+      "epistemic_status": "record",
+      "note": "MDE should review Banks credentials"
+    },
+    {
+      "source": "jen_flood",
+      "target": "banks",
+      "type": "structural_proximity",
+      "epistemic_status": "record",
+      "note": "Dykema revolving door"
+    },
+    {
+      "source": "jen_flood",
+      "target": "money_pipeline",
+      "type": "structural_proximity",
+      "epistemic_status": "record",
+      "note": "Budget director controls funding flow"
+    },
+    {
+      "source": "legal_defense_fund",
+      "target": "banks",
+      "type": "should_answer",
+      "epistemic_status": "record",
+      "note": "LDF should know about children's rights violations"
+    },
+    {
+      "source": "alycia_meriweather",
+      "target": "banks",
+      "type": "should_answer",
+      "epistemic_status": "record",
+      "note": "Former DPSCD leadership"
+    },
+    {
+      "source": "fowler",
+      "target": "banks",
+      "type": "should_answer",
+      "epistemic_status": "record",
+      "note": "AG Charitable Trust should investigate Banks"
+    },
+    {
+      "source": "martin_endorsement",
+      "target": "banks",
+      "type": "endorsed",
+      "epistemic_status": "record",
+      "note": "Martin endorsed Banks"
+    },
+    {
+      "source": "martin_endorsement",
+      "target": "pca",
+      "type": "connected_to_investigation",
+      "epistemic_status": "record",
+      "note": "Endorsement covers PCA"
+    },
+    {
+      "source": "doe_oig_fraud_report",
+      "target": "pca",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Fraud patterns at PCA"
+    },
+    {
+      "source": "james_white_former",
+      "target": "banks",
+      "type": "structural_proximity",
+      "epistemic_status": "record",
+      "note": "Former DPD Chief era"
     }
   ],
   "epistemic_grammar": {
