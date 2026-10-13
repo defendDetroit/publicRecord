@@ -70123,6 +70123,123 @@
         "education",
         "legal"
       ]
+    },
+    {
+      "id": "fda_capture",
+      "label": "FDA Regulatory Capture: The Agency Funded by the Industry It Regulates",
+      "class": "pattern",
+      "role": "The FDA receives 45% of its budget from pharmaceutical user fees — money paid by the companies it's supposed to regulate. The reviewer's salary depends on the company's application being processed quickly. Vioxx: FDA approved it. 88,000 heart attacks. 38,000 deaths. Merck knew. The FDA reviewer who raised concerns was silenced. Opioids: FDA approved OxyContin's label claiming low addiction risk. 500,000+ Americans died. Purdue knew. The FDA official who approved it left for a $400K/year job at Purdue. MDE is funded by the state. The state benefits from charter per-pupil funding. The regulator's budget depends on the system it's supposed to oversee. Same capture. Different domain. Same dead.",
+      "tags": [
+        "education"
+      ]
+    },
+    {
+      "id": "rating_agency_capture",
+      "label": "Rating Agency Capture: Moody's, S&P Graded Junk as AAA",
+      "class": "pattern",
+      "role": "Before 2008: Moody's and S&P rated mortgage-backed securities AAA. The banks PAID the rating agencies to rate their products. The rating agencies had a choice: rate honestly and lose the client, or rate favorably and keep the fee. They chose the fee. The result: global financial crisis. 8.7 million jobs lost. 26 million Americans underemployed. Millions of homes foreclosed. Plante Moran audits PCA. PCA pays Plante Moran. PM has a choice: audit honestly and lose the client, or audit favorably and keep the fee. When the auditor is paid by the audited, the audit is a product.",
+      "tags": [
+        "education"
+      ]
+    },
+    {
+      "id": "housing_inspection_capture",
+      "label": "Housing Inspection: The Code That Isn't Enforced",
+      "class": "pattern",
+      "role": "Detroit has a rental inspection ordinance. Inspectors are supposed to check every rental unit for safety. Lead paint. Electrical. Plumbing. Structural. In practice: inspectors are overworked, underfunded, and sometimes corrupted. Slumlords pay for quick approvals. Tenants live in dangerous units. Children get lead-poisoned. The inspection happened ON PAPER. The danger persisted IN REALITY. MDE authorizes PCA on paper. PCA harms children in reality. The inspection is not the protection. The protection would require actually LOOKING.",
+      "tags": [
+        "education",
+        "detroit"
+      ]
+    },
+    {
+      "id": "usda_self_inspection",
+      "label": "USDA: Letting the Meatpacker Inspect the Meat",
+      "class": "pattern",
+      "role": "In 1996, USDA shifted to HACCP — letting plants design their own food safety plans. The plants inspect themselves. USDA audits the PLAN, not the meat. Jack in the Box: E. coli. 732 ill. 4 children died. Peanut Corp of America: salmonella. Stewart Parnell KNEW and shipped anyway. 9 dead. When the producer inspects the product, the product kills the consumer. When the school operator runs the school AND controls the reporting, the reporting says 'everything is fine' while the children fall behind.",
+      "tags": [
+        "education"
+      ]
+    },
+    {
+      "id": "flint_water_parallel",
+      "label": "Flint Water Crisis: They Tested the Water. They Hid the Results.",
+      "class": "pattern",
+      "role": "Michigan DEQ tested Flint's water. Found lead. Changed the methodology to hide it. EPA Region 5 knew. Said nothing. The governor's office knew. Said nothing. For 18 months, children drank lead-poisoned water while officials said it was safe. The test existed. The data existed. The officials HID THE DATA. MDE has PCA's test scores: 3% math. The data exists. MDE doesn't hide it — they just don't DO anything about it. Flint: they hid the poison. MDE: they publish the poison and shrug. Which is worse? At least Flint officials went to trial.",
+      "tags": [
+        "education",
+        "michigan"
+      ]
+    },
+    {
+      "id": "public_defender_capture",
+      "label": "Public Defenders: 7 Minutes Per Case",
+      "class": "pattern",
+      "role": "In many jurisdictions, public defenders handle 500+ cases per year. Some meet their client for the first time AT TRIAL. Missouri: average of 7 minutes per case. Louisiana: one public defender for 19,000 misdemeanors. The 6th Amendment guarantees effective assistance of counsel. 7 minutes is not effective. It's a performance of representation. PCA performs education. Public defenders perform representation. The form is present. The substance is gone. When the system provides the SHAPE of a right without the SUBSTANCE, the shape becomes the cover story.",
+      "tags": [
+        "education",
+        "legal"
+      ]
+    },
+    {
+      "id": "tech_self_moderation",
+      "label": "Big Tech: The Platform That Moderates Itself",
+      "class": "pattern",
+      "role": "Facebook's content moderation: 3.2 billion users, AI decides what you see. The Frances Haugen leaks proved: Facebook KNEW its algorithm promoted harmful content to teenagers. Knew Instagram increased suicidal ideation in teen girls. Published research saying the opposite. Section 230: platforms aren't liable for user content. Self-regulation means: the company decides how much harm is acceptable. PCA decides how much education is acceptable: 3%. When the entity defines its own standard, the standard serves the entity.",
+      "tags": [
+        "education"
+      ]
+    },
+    {
+      "id": "church_self_investigation",
+      "label": "The Church That Investigates Itself",
+      "class": "pattern",
+      "role": "The Catholic Church's response to abuse allegations for decades: investigate internally. Move the priest. Don't tell the new parish. The institution investigated ITSELF and found ITSELF not guilty. The Boston Globe (Spotlight team, 2002) proved: 90 priests in Boston alone. The church knew about ALL of them. Moved ALL of them. Told NOBODY. CMU authorized PCA. When concerns arise, CMU reviews its own authorization. The authorizer investigates the authorization and finds the authorization valid. When the institution judges itself, the verdict is always: innocent.",
+      "tags": [
+        "education",
+        "criminal"
+      ]
+    },
+    {
+      "id": "police_self_investigation",
+      "label": "Police Internal Affairs: Investigating Ourselves",
+      "class": "pattern",
+      "role": "When a police officer kills a civilian, the department investigates itself. Internal Affairs is staffed by officers from the same department. The blue wall of silence: officers don't testify against officers. Clearance rate for officer-involved shootings internally: 98%+ 'justified.' Independent investigations find misconduct at 5-10x the internal rate. AGC investigates attorneys. JTC investigates judges. Staffed by attorneys and judges from the same system. When the profession investigates itself, the profession is always clean.",
+      "tags": [
+        "education",
+        "criminal"
+      ]
+    },
+    {
+      "id": "nursing_home_capture",
+      "label": "Nursing Homes: 4 Stars on Medicare, 40% Violation Rate",
+      "class": "pattern",
+      "role": "CMS rates nursing homes on a 5-star system. Facilities with repeated violations maintain 4+ stars because the rating system weights self-reported staffing data. The GAO found: 1 in 4 nursing homes had a serious deficiency that wasn't cited. COVID killed 200,000+ nursing home residents. Many in facilities rated 4-5 stars. The rating was a sales tool, not a safety measure. PCA: authorized by CMU. Not shut down despite 3% math and 9 convictions. The nursing home: rated by CMS. Not shut down despite violations and deaths. Authorization and rating are not protection. They are BRANDING.",
+      "tags": [
+        "education"
+      ]
+    },
+    {
+      "id": "pattern_regulatory_capture",
+      "label": "THE PATTERN: Regulatory Capture Across Every Domain",
+      "class": "pattern",
+      "role": "FDA: funded by pharma. Rating agencies: paid by banks. Housing inspectors: overwhelmed. USDA: industry self-inspects. Flint DEQ: hid the data. Public defenders: 7 minutes. Big Tech: Section 230. Catholic Church: investigated itself. Police: blue wall. Nursing homes: 4 stars, 40% violations. And education: MDE authorizes, CMU rubber-stamps, PM audits, everyone gets paid, nobody checks the children. This is not a conspiracy. This is a DESIGN PATTERN. Across every domain where humans built a system to protect vulnerable people, the system has been captured by the people it was supposed to regulate. The fox doesn't just guard the henhouse. The fox BUILT the henhouse. The fox INSPECTS the henhouse. The fox WRITES THE REPORT that says the hens are fine. And when the hens are gone, the fox writes: 'despite our best efforts.' PCA is not an exception. PCA is the RULE. That's what makes it so dangerous — and so possible to break. Because if you break it HERE, you show it can be broken EVERYWHERE.",
+      "tags": [
+        "investigation",
+        "epitope",
+        "education"
+      ]
+    },
+    {
+      "id": "article_spiral_across",
+      "label": "ARTICLE: Spiral Across — The Fox Built the Henhouse",
+      "class": "article",
+      "role": "We spiraled out: the global pattern. Down: the child. Up: the law. Now across: every domain. FDA approves drugs that kill — funded by the companies it regulates. S&P rates junk as AAA — paid by the banks it rates. Housing inspectors sign off on lead paint — overwhelmed by design. USDA lets meatpackers inspect their own meat — children die from E. coli. Flint DEQ hid lead results — children poisoned for 18 months. Public defenders get 7 minutes per case — the shape of justice without substance. Facebook knew its algorithm harmed teenagers — published research saying the opposite. The Catholic Church investigated itself — moved priests, told nobody. Police internal affairs: 98% justified. Nursing homes: 4 stars on Medicare while residents die. And at PCA: authorized by CMU, audited by PM, overseen by MDE. 3% math. 9 convictions. Narcotics trafficker treasurer. EVERYONE gets paid. NOBODY checks the children. This is not one bad school. This is one bad DESIGN — replicated across every system we built to protect the vulnerable. Break it here. Break it everywhere.",
+      "tags": [
+        "investigation",
+        "epitope",
+        "education"
+      ]
     }
   ],
   "edges": [
@@ -216043,6 +216160,342 @@
       "type": "asks_directly",
       "epistemic_status": "record",
       "note": "Douglass said literacy is freedom. Children at PCA can't read. Is that your front page?"
+    },
+    {
+      "source": "fda_capture",
+      "target": "mde",
+      "type": "same_pattern",
+      "epistemic_status": "record",
+      "note": "Regulator funded by the system it oversees"
+    },
+    {
+      "source": "fda_capture",
+      "target": "pca",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "FDA approves drugs that kill. MDE approves schools that harm."
+    },
+    {
+      "source": "rating_agency_capture",
+      "target": "plante_moran",
+      "type": "same_pattern",
+      "epistemic_status": "record",
+      "note": "PM is paid by PCA to audit PCA. Same as S&P paid by banks to rate banks."
+    },
+    {
+      "source": "rating_agency_capture",
+      "target": "enron_skilling",
+      "type": "same_pattern",
+      "epistemic_status": "record",
+      "note": "Arthur Andersen, S&P, PM — all paid by the entity they check"
+    },
+    {
+      "source": "housing_inspection_capture",
+      "target": "phantom_audit",
+      "type": "same_pattern",
+      "epistemic_status": "record",
+      "note": "Housing inspector signs off. PM signs off. Neither actually looks."
+    },
+    {
+      "source": "housing_inspection_capture",
+      "target": "mde",
+      "type": "same_pattern",
+      "epistemic_status": "record",
+      "note": "MDE authorizes on paper. The paper is not the child."
+    },
+    {
+      "source": "usda_self_inspection",
+      "target": "pca",
+      "type": "same_pattern",
+      "epistemic_status": "record",
+      "note": "PCA self-reports. USDA lets meatpackers self-inspect. Same result: harm goes unreported."
+    },
+    {
+      "source": "flint_water_parallel",
+      "target": "mde",
+      "type": "same_pattern",
+      "epistemic_status": "record",
+      "note": "Flint hid lead data. MDE publishes 3% math and does nothing. MDE might be worse."
+    },
+    {
+      "source": "flint_water_parallel",
+      "target": "pca",
+      "type": "structural_parallel",
+      "epistemic_status": "record",
+      "note": "Flint water and PCA education: both poison children"
+    },
+    {
+      "source": "flint_water_parallel",
+      "target": "flint_schools_lead",
+      "type": "same_event",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "public_defender_capture",
+      "target": "pca",
+      "type": "same_pattern",
+      "epistemic_status": "record",
+      "note": "PCA performs education without educating. Public defenders perform representation without defending."
+    },
+    {
+      "source": "public_defender_capture",
+      "target": "phantom_audit",
+      "type": "same_pattern",
+      "epistemic_status": "record",
+      "note": "Shape without substance across every domain"
+    },
+    {
+      "source": "tech_self_moderation",
+      "target": "pca",
+      "type": "same_pattern",
+      "epistemic_status": "record",
+      "note": "Facebook set its own harm threshold. PCA sets its own education standard."
+    },
+    {
+      "source": "nursing_home_capture",
+      "target": "pca",
+      "type": "same_pattern",
+      "epistemic_status": "record",
+      "note": "CMS rates nursing homes. CMU authorizes PCA. Both produce brands, not safety."
+    },
+    {
+      "source": "pattern_regulatory_capture",
+      "target": "fda_capture",
+      "type": "exemplified_by",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "pattern_regulatory_capture",
+      "target": "rating_agency_capture",
+      "type": "exemplified_by",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "pattern_regulatory_capture",
+      "target": "housing_inspection_capture",
+      "type": "exemplified_by",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "pattern_regulatory_capture",
+      "target": "usda_self_inspection",
+      "type": "exemplified_by",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "pattern_regulatory_capture",
+      "target": "flint_water_parallel",
+      "type": "exemplified_by",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "pattern_regulatory_capture",
+      "target": "public_defender_capture",
+      "type": "exemplified_by",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "pattern_regulatory_capture",
+      "target": "tech_self_moderation",
+      "type": "exemplified_by",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "pattern_regulatory_capture",
+      "target": "church_self_investigation",
+      "type": "exemplified_by",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "pattern_regulatory_capture",
+      "target": "police_self_investigation",
+      "type": "exemplified_by",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "pattern_regulatory_capture",
+      "target": "nursing_home_capture",
+      "type": "exemplified_by",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "pattern_regulatory_capture",
+      "target": "pca",
+      "type": "exemplified_by",
+      "epistemic_status": "record",
+      "note": "PCA is the rule, not the exception"
+    },
+    {
+      "source": "pattern_regulatory_capture",
+      "target": "mde",
+      "type": "exemplified_by",
+      "epistemic_status": "record",
+      "note": "MDE = captured regulator"
+    },
+    {
+      "source": "pattern_regulatory_capture",
+      "target": "plante_moran",
+      "type": "exemplified_by",
+      "epistemic_status": "record",
+      "note": "PM = captured auditor"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "fda_capture",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "rating_agency_capture",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "housing_inspection_capture",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "usda_self_inspection",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "flint_water_parallel",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "public_defender_capture",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "tech_self_moderation",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "church_self_investigation",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "police_self_investigation",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "nursing_home_capture",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "pattern_regulatory_capture",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "banks",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "pca",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "mde",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "plante_moran",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "dykema",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "beasley",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "holland",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "mde",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "The FDA is funded by pharma. You're funded by the state that profits from charters. See the pattern?"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "plante_moran",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "S&P rated junk as AAA because the banks paid them. PCA pays you. What did you rate them?"
+    },
+    {
+      "source": "article_spiral_across",
+      "target": "detroit_free_press",
+      "type": "asks_directly",
+      "epistemic_status": "record",
+      "note": "The Spotlight team broke the Church. The Free Press could break this. Will you?"
     }
   ],
   "epistemic_grammar": {
