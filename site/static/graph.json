@@ -76483,6 +76483,410 @@
         "article",
         "guerillaGorilla"
       ]
+    },
+    {
+      "id": "quest_first_clone",
+      "label": "QUEST: First Clone",
+      "class": "quest",
+      "role": "Clone the repo. Open graph.json. You're in. OBJECTIVE: git clone github.com/defendDetroit/publicRecord. REWARD: You now have the entire investigation on your machine. DIFFICULTY: Beginner. TIME: 2 minutes.",
+      "tags": [
+        "quest",
+        "beginner"
+      ]
+    },
+    {
+      "id": "quest_find_your_school",
+      "label": "QUEST: Find Your School",
+      "class": "quest",
+      "role": "Go to mischooldata.org. Find your child's school. Or your old school. What are the test scores? What's the operator's background? OBJECTIVE: Pull real data on one school you care about. REWARD: You now know what the state knows. DIFFICULTY: Beginner. TIME: 15 minutes.",
+      "tags": [
+        "quest",
+        "beginner",
+        "education"
+      ]
+    },
+    {
+      "id": "quest_trace_one_dollar",
+      "label": "QUEST: Trace One Dollar",
+      "class": "quest",
+      "role": "Pick one entity from the graph. Find where its money comes from. State funding? Federal grants? Private donations? Dark money? OBJECTIVE: Follow one funding stream from source to destination. REWARD: One new edge in the graph. Your edge. DIFFICULTY: Intermediate. TIME: 45 minutes.",
+      "tags": [
+        "quest",
+        "intermediate",
+        "money"
+      ]
+    },
+    {
+      "id": "quest_verify_one_claim",
+      "label": "QUEST: Verify One Claim",
+      "class": "quest",
+      "role": "Pick any claim in any article. Verify it independently. Use primary sources: court records, LARA filings, mischooldata.org, ICHAT. OBJECTIVE: Confirm or refute one specific factual claim. REWARD: Verified data point. Cite your source. Submit PR. DIFFICULTY: Intermediate. TIME: 30 minutes.",
+      "tags": [
+        "quest",
+        "intermediate",
+        "verification"
+      ]
+    },
+    {
+      "id": "quest_attend_public_meeting",
+      "label": "QUEST: Attend a Public Meeting",
+      "class": "quest",
+      "role": "Charter school board meetings are public. School board meetings are public. SBE meetings are public. City council is public. OBJECTIVE: Show up. Sit in the back. Take notes. REWARD: You are now a witness. Your presence is pressure. DIFFICULTY: Intermediate. TIME: 1-3 hours.",
+      "tags": [
+        "quest",
+        "intermediate",
+        "civic"
+      ]
+    },
+    {
+      "id": "quest_file_a_foia",
+      "label": "QUEST: File Your First FOIA",
+      "class": "quest",
+      "role": "Michigan FOIA Act (MCL 15.231-15.246). Write: 'Under the Michigan Freedom of Information Act, I request...' MDE: charter school authorization documents for Purpose Charter Academy. OBJECTIVE: File one FOIA request. Track the response. REWARD: Public records. Or proof of non-compliance. Both are valuable. DIFFICULTY: Intermediate. TIME: 20 minutes to write.",
+      "tags": [
+        "quest",
+        "intermediate",
+        "foia",
+        "legal"
+      ]
+    },
+    {
+      "id": "quest_build_a_radar",
+      "label": "QUEST: Build Your Own Radar",
+      "class": "quest",
+      "role": "Take THE RADAR protocol. Apply it to a DIFFERENT charter school. 10 red flags. 8 entity types. 90 minutes. Document everything. OBJECTIVE: Complete a full radar sweep on one new target. REWARD: A complete radar report. Submit as PR. DIFFICULTY: Advanced. TIME: 90 minutes.",
+      "tags": [
+        "quest",
+        "advanced",
+        "radar"
+      ]
+    },
+    {
+      "id": "quest_write_your_article",
+      "label": "QUEST: Write Your Article",
+      "class": "quest",
+      "role": "Pick any node without an article. Research it deeply. Write 500+ words. Cite sources. Be factual. Be specific. OBJECTIVE: One complete, sourced article about one node. REWARD: Your words in the fossil record. Permanent authorship. DIFFICULTY: Advanced. TIME: 2-4 hours.",
+      "tags": [
+        "quest",
+        "advanced",
+        "writing"
+      ]
+    },
+    {
+      "id": "quest_map_the_network",
+      "label": "QUEST: Map a Network",
+      "class": "quest",
+      "role": "Pick one person in the graph. Find every organization they're connected to. Every board they sit on. Every LLC they're listed in. Every campaign they donated to. OBJECTIVE: Complete network map for one individual. REWARD: Network visualization. New edges. New patterns. DIFFICULTY: Advanced. TIME: 2-3 hours.",
+      "tags": [
+        "quest",
+        "advanced",
+        "osint",
+        "network"
+      ]
+    },
+    {
+      "id": "quest_cross_state_parallel",
+      "label": "QUEST: Cross-State Parallel",
+      "class": "quest",
+      "role": "Find a charter school scandal in ANOTHER state that matches the PCA pattern. Ohio (ECOT). Arizona (BASIS). Oklahoma (EPIC). California. Florida. OBJECTIVE: Document one cross-state parallel with sources. REWARD: The pattern is national. Your finding proves it. DIFFICULTY: Expert. TIME: 3-5 hours.",
+      "tags": [
+        "quest",
+        "expert",
+        "investigation",
+        "national"
+      ]
+    },
+    {
+      "id": "achievement_first_blood",
+      "label": "ACHIEVEMENT: First Blood",
+      "class": "achievement",
+      "role": "Cloned the repo for the first time.",
+      "tags": [
+        "achievement",
+        "guerillaGorilla"
+      ]
+    },
+    {
+      "id": "achievement_data_hunter",
+      "label": "ACHIEVEMENT: Data Hunter",
+      "class": "achievement",
+      "role": "Found and verified one data point from a primary source.",
+      "tags": [
+        "achievement",
+        "guerillaGorilla"
+      ]
+    },
+    {
+      "id": "achievement_foia_warrior",
+      "label": "ACHIEVEMENT: FOIA Warrior",
+      "class": "achievement",
+      "role": "Filed a Freedom of Information Act request.",
+      "tags": [
+        "achievement",
+        "guerillaGorilla"
+      ]
+    },
+    {
+      "id": "achievement_pattern_seeker",
+      "label": "ACHIEVEMENT: Pattern Seeker",
+      "class": "achievement",
+      "role": "Identified a regulatory capture pattern in a new domain.",
+      "tags": [
+        "achievement",
+        "guerillaGorilla"
+      ]
+    },
+    {
+      "id": "achievement_witness",
+      "label": "ACHIEVEMENT: Witness",
+      "class": "achievement",
+      "role": "Attended a public meeting and took notes.",
+      "tags": [
+        "achievement",
+        "guerillaGorilla"
+      ]
+    },
+    {
+      "id": "achievement_pinocchio_catcher",
+      "label": "ACHIEVEMENT: Pinocchio Catcher",
+      "class": "achievement",
+      "role": "Caught and documented a false public statement with evidence.",
+      "tags": [
+        "achievement",
+        "guerillaGorilla"
+      ]
+    },
+    {
+      "id": "achievement_money_tracer",
+      "label": "ACHIEVEMENT: Money Tracer",
+      "class": "achievement",
+      "role": "Followed a funding stream from source to destination.",
+      "tags": [
+        "achievement",
+        "guerillaGorilla"
+      ]
+    },
+    {
+      "id": "achievement_article_author",
+      "label": "ACHIEVEMENT: Article Author",
+      "class": "achievement",
+      "role": "Wrote and submitted an article to the investigation.",
+      "tags": [
+        "achievement",
+        "guerillaGorilla"
+      ]
+    },
+    {
+      "id": "achievement_beast_mode",
+      "label": "ACHIEVEMENT: Beast Mode",
+      "class": "achievement",
+      "role": "Completed 5 quests. You are a full guerillaGorilla operator.",
+      "tags": [
+        "achievement",
+        "guerillaGorilla"
+      ]
+    },
+    {
+      "id": "achievement_radar_operator",
+      "label": "ACHIEVEMENT: Radar Operator",
+      "class": "achievement",
+      "role": "Completed a full radar sweep on a new target.",
+      "tags": [
+        "achievement",
+        "guerillaGorilla"
+      ]
+    },
+    {
+      "id": "achievement_network_mapper",
+      "label": "ACHIEVEMENT: Network Mapper",
+      "class": "achievement",
+      "role": "Mapped a complete network for one individual.",
+      "tags": [
+        "achievement",
+        "guerillaGorilla"
+      ]
+    },
+    {
+      "id": "achievement_six_degrees",
+      "label": "ACHIEVEMENT: Six Degrees",
+      "class": "achievement",
+      "role": "Found a path from any node to Banks in 3 hops or less.",
+      "tags": [
+        "achievement",
+        "guerillaGorilla"
+      ]
+    },
+    {
+      "id": "boss_banks",
+      "label": "BOSS FIGHT: Brian Banks",
+      "class": "boss",
+      "role": "The final boss. 9 convictions. Screams at adults. Makes children cry. Claims he self-funded a public school. WEAKNESS: public records. SHIELD: PPO threats. TO DEFEAT: document everything. The graph IS the weapon.",
+      "tags": [
+        "boss",
+        "guerillaGorilla"
+      ]
+    },
+    {
+      "id": "boss_mde",
+      "label": "BOSS FIGHT: Michigan Department of Education",
+      "class": "boss",
+      "role": "The sleeping giant. Has oversight authority. Uses none of it. WEAKNESS: its own published data (mischooldata.org). SHIELD: bureaucratic inertia. TO DEFEAT: FOIA requests. Public pressure. SBE activation.",
+      "tags": [
+        "boss",
+        "guerillaGorilla"
+      ]
+    },
+    {
+      "id": "boss_plante_moran",
+      "label": "BOSS FIGHT: Plante Moran",
+      "class": "boss",
+      "role": "The captured auditor. Paid by the entity it audits. WEAKNESS: Enron/Arthur Andersen parallel. SHIELD: professional reputation. TO DEFEAT: ask one question — how did you audit 3% math and find nothing wrong?",
+      "tags": [
+        "boss",
+        "guerillaGorilla"
+      ]
+    },
+    {
+      "id": "boss_cmu",
+      "label": "BOSS FIGHT: Central Michigan University",
+      "class": "boss",
+      "role": "The rubber-stamp authorizer. Authorized Banks despite everything. WEAKNESS: its own reputation. SHIELD: institutional distance. TO DEFEAT: Nassar parallel. MSU paid $500M. What will CMU pay?",
+      "tags": [
+        "boss",
+        "guerillaGorilla"
+      ]
+    },
+    {
+      "id": "boss_silence",
+      "label": "BOSS FIGHT: THE SILENCE",
+      "class": "boss",
+      "role": "The hardest boss. 669 actors asked. 1 responded. Silence is the final shield. Silence is the last weapon. WEAKNESS: the truth spreads faster than silence can contain it. TO DEFEAT: keep asking. Keep graphing. Keep publishing. The silence breaks.",
+      "tags": [
+        "boss",
+        "guerillaGorilla"
+      ]
+    },
+    {
+      "id": "side_quest_archive",
+      "label": "SIDE QUEST: Archive Everything",
+      "class": "side_quest",
+      "role": "Save every page to Archive.org before it gets deleted. LARA filings. mischooldata pages. Board minutes. The internet forgets. Archive.org remembers.",
+      "tags": [
+        "side_quest",
+        "guerillaGorilla"
+      ]
+    },
+    {
+      "id": "side_quest_visualize",
+      "label": "SIDE QUEST: Visualize the Graph",
+      "class": "side_quest",
+      "role": "Take graph.json. Load it into D3.js, Gephi, or NetworkX. Make it visual. Make it beautiful. Share the visualization.",
+      "tags": [
+        "side_quest",
+        "guerillaGorilla"
+      ]
+    },
+    {
+      "id": "side_quest_translate",
+      "label": "SIDE QUEST: Translate",
+      "class": "side_quest",
+      "role": "The articles are in English. Detroit's population speaks many languages. Arabic. Spanish. Bengali. Translate one article.",
+      "tags": [
+        "side_quest",
+        "guerillaGorilla"
+      ]
+    },
+    {
+      "id": "side_quest_teach",
+      "label": "SIDE QUEST: Teach Someone",
+      "class": "side_quest",
+      "role": "Show a non-technical person how to read the graph. What's a node. What's an edge. What's a path. Make the graph accessible to everyone.",
+      "tags": [
+        "side_quest",
+        "guerillaGorilla"
+      ]
+    },
+    {
+      "id": "side_quest_music",
+      "label": "SIDE QUEST: Make Music",
+      "class": "side_quest",
+      "role": "Turn the data into sound. 3% math as a frequency. 9 convictions as a rhythm. 1,917 unanswered questions as silence. Data sonification. Make them HEAR it.",
+      "tags": [
+        "side_quest",
+        "guerillaGorilla"
+      ]
+    },
+    {
+      "id": "side_quest_art",
+      "label": "SIDE QUEST: Make Art",
+      "class": "side_quest",
+      "role": "Draw it. Paint it. Sculpt it. Print it. The graph is data. Data is material. Material is art. Make someone see what 78,000 edges looks like.",
+      "tags": [
+        "side_quest",
+        "guerillaGorilla"
+      ]
+    },
+    {
+      "id": "level_curious",
+      "label": "LEVEL 1: Curious",
+      "class": "level",
+      "role": "You just got here. You're reading. You're wondering. GAMES: One Share, What Would You Do, Graph Explorer.",
+      "tags": [
+        "level",
+        "guerillaGorilla"
+      ]
+    },
+    {
+      "id": "level_engaged",
+      "label": "LEVEL 2: Engaged",
+      "class": "level",
+      "role": "You've cloned the repo. You've read some articles. You want to help. GAMES: Red Flag Bingo, Pinocchio Detector, Find Your School.",
+      "tags": [
+        "level",
+        "guerillaGorilla"
+      ]
+    },
+    {
+      "id": "level_active",
+      "label": "LEVEL 3: Active",
+      "class": "level",
+      "role": "You're filing FOIAs. Attending meetings. Tracing money. QUESTS: File a FOIA, Attend a Meeting, Trace One Dollar.",
+      "tags": [
+        "level",
+        "guerillaGorilla"
+      ]
+    },
+    {
+      "id": "level_operator",
+      "label": "LEVEL 4: Operator",
+      "class": "level",
+      "role": "You're running radar sweeps. Writing articles. Mapping networks. QUESTS: Build a Radar, Write Your Article, Map the Network.",
+      "tags": [
+        "level",
+        "guerillaGorilla"
+      ]
+    },
+    {
+      "id": "level_beast_mode",
+      "label": "LEVEL 5: Beast Mode",
+      "class": "level",
+      "role": "You've completed 5+ quests. You're a full guerillaGorilla operator. You ARE the second line. The beasts run with you.",
+      "tags": [
+        "level",
+        "guerillaGorilla"
+      ]
+    },
+    {
+      "id": "article_the_rpg",
+      "label": "ARTICLE: The RPG — Quests, Achievements, Boss Fights, and Beast Mode",
+      "class": "article",
+      "role": "10 quests from Beginner to Expert. 12 achievements to unlock. 5 boss fights including THE SILENCE. 6 side quests. 5 difficulty levels. This isn't a metaphor. This is a playable civic investigation RPG. Your data is your weapon. Your beast is your class. The graph is the world map. The articles are the lore. Every quest produces real data. Every achievement means you helped. Level up. Go beast mode. Face the bosses. The children are the quest reward. Their future is the endgame.",
+      "tags": [
+        "article",
+        "game",
+        "rpg",
+        "guerillaGorilla"
+      ]
     }
   ],
   "edges": [
@@ -648115,6 +648519,2379 @@
       "type": "layer_mesh",
       "epistemic_status": "record",
       "note": "layer mesh: ward <-> wonder"
+    },
+    {
+      "source": "boss_plante_moran",
+      "target": "plante_moran",
+      "type": "targets",
+      "epistemic_status": "record",
+      "note": "boss fight targets this entity"
+    },
+    {
+      "source": "boss_cmu",
+      "target": "cmu",
+      "type": "targets",
+      "epistemic_status": "record",
+      "note": "boss fight targets this entity"
+    },
+    {
+      "source": "boss_silence",
+      "target": "gap_silence",
+      "type": "targets",
+      "epistemic_status": "record",
+      "note": "boss fight targets this entity"
+    },
+    {
+      "source": "quest_first_clone",
+      "target": "game_graph_explorer",
+      "type": "extends",
+      "epistemic_status": "record",
+      "note": "quest extends game"
+    },
+    {
+      "source": "quest_find_your_school",
+      "target": "game_red_flag_bingo",
+      "type": "extends",
+      "epistemic_status": "record",
+      "note": "quest extends game"
+    },
+    {
+      "source": "quest_trace_one_dollar",
+      "target": "game_follow_the_money",
+      "type": "extends",
+      "epistemic_status": "record",
+      "note": "quest extends game"
+    },
+    {
+      "source": "quest_verify_one_claim",
+      "target": "game_pinocchio_detector",
+      "type": "extends",
+      "epistemic_status": "record",
+      "note": "quest extends game"
+    },
+    {
+      "source": "quest_attend_public_meeting",
+      "target": "game_board_meeting_bingo",
+      "type": "extends",
+      "epistemic_status": "record",
+      "note": "quest extends game"
+    },
+    {
+      "source": "quest_file_a_foia",
+      "target": "game_foia_roulette",
+      "type": "extends",
+      "epistemic_status": "record",
+      "note": "quest extends game"
+    },
+    {
+      "source": "quest_build_a_radar",
+      "target": "game_radar_sweep",
+      "type": "extends",
+      "epistemic_status": "record",
+      "note": "quest extends game"
+    },
+    {
+      "source": "quest_write_your_article",
+      "target": "game_write_an_article",
+      "type": "extends",
+      "epistemic_status": "record",
+      "note": "quest extends game"
+    },
+    {
+      "source": "quest_map_the_network",
+      "target": "game_six_degrees_of_banks",
+      "type": "extends",
+      "epistemic_status": "record",
+      "note": "quest extends game"
+    },
+    {
+      "source": "quest_cross_state_parallel",
+      "target": "game_nassar_pattern_hunt",
+      "type": "extends",
+      "epistemic_status": "record",
+      "note": "quest extends game"
+    },
+    {
+      "source": "quest_first_clone",
+      "target": "achievement_first_blood",
+      "type": "unlocks",
+      "epistemic_status": "record",
+      "note": "completing this unlocks achievement"
+    },
+    {
+      "source": "quest_verify_one_claim",
+      "target": "achievement_data_hunter",
+      "type": "unlocks",
+      "epistemic_status": "record",
+      "note": "completing this unlocks achievement"
+    },
+    {
+      "source": "quest_file_a_foia",
+      "target": "achievement_foia_warrior",
+      "type": "unlocks",
+      "epistemic_status": "record",
+      "note": "completing this unlocks achievement"
+    },
+    {
+      "source": "quest_cross_state_parallel",
+      "target": "achievement_pattern_seeker",
+      "type": "unlocks",
+      "epistemic_status": "record",
+      "note": "completing this unlocks achievement"
+    },
+    {
+      "source": "quest_attend_public_meeting",
+      "target": "achievement_witness",
+      "type": "unlocks",
+      "epistemic_status": "record",
+      "note": "completing this unlocks achievement"
+    },
+    {
+      "source": "quest_verify_one_claim",
+      "target": "achievement_pinocchio_catcher",
+      "type": "unlocks",
+      "epistemic_status": "record",
+      "note": "completing this unlocks achievement"
+    },
+    {
+      "source": "quest_trace_one_dollar",
+      "target": "achievement_money_tracer",
+      "type": "unlocks",
+      "epistemic_status": "record",
+      "note": "completing this unlocks achievement"
+    },
+    {
+      "source": "quest_write_your_article",
+      "target": "achievement_article_author",
+      "type": "unlocks",
+      "epistemic_status": "record",
+      "note": "completing this unlocks achievement"
+    },
+    {
+      "source": "level_beast_mode",
+      "target": "achievement_beast_mode",
+      "type": "unlocks",
+      "epistemic_status": "record",
+      "note": "completing this unlocks achievement"
+    },
+    {
+      "source": "quest_build_a_radar",
+      "target": "achievement_radar_operator",
+      "type": "unlocks",
+      "epistemic_status": "record",
+      "note": "completing this unlocks achievement"
+    },
+    {
+      "source": "quest_map_the_network",
+      "target": "achievement_network_mapper",
+      "type": "unlocks",
+      "epistemic_status": "record",
+      "note": "completing this unlocks achievement"
+    },
+    {
+      "source": "game_six_degrees_of_banks",
+      "target": "achievement_six_degrees",
+      "type": "unlocks",
+      "epistemic_status": "record",
+      "note": "completing this unlocks achievement"
+    },
+    {
+      "source": "level_curious",
+      "target": "quest_first_clone",
+      "type": "unlocks",
+      "epistemic_status": "record",
+      "note": "level unlocks quest"
+    },
+    {
+      "source": "level_engaged",
+      "target": "quest_find_your_school",
+      "type": "unlocks",
+      "epistemic_status": "record",
+      "note": "level unlocks quest"
+    },
+    {
+      "source": "level_engaged",
+      "target": "quest_verify_one_claim",
+      "type": "unlocks",
+      "epistemic_status": "record",
+      "note": "level unlocks quest"
+    },
+    {
+      "source": "level_active",
+      "target": "quest_file_a_foia",
+      "type": "unlocks",
+      "epistemic_status": "record",
+      "note": "level unlocks quest"
+    },
+    {
+      "source": "level_active",
+      "target": "quest_attend_public_meeting",
+      "type": "unlocks",
+      "epistemic_status": "record",
+      "note": "level unlocks quest"
+    },
+    {
+      "source": "level_active",
+      "target": "quest_trace_one_dollar",
+      "type": "unlocks",
+      "epistemic_status": "record",
+      "note": "level unlocks quest"
+    },
+    {
+      "source": "level_operator",
+      "target": "quest_build_a_radar",
+      "type": "unlocks",
+      "epistemic_status": "record",
+      "note": "level unlocks quest"
+    },
+    {
+      "source": "level_operator",
+      "target": "quest_write_your_article",
+      "type": "unlocks",
+      "epistemic_status": "record",
+      "note": "level unlocks quest"
+    },
+    {
+      "source": "level_operator",
+      "target": "quest_map_the_network",
+      "type": "unlocks",
+      "epistemic_status": "record",
+      "note": "level unlocks quest"
+    },
+    {
+      "source": "level_beast_mode",
+      "target": "quest_cross_state_parallel",
+      "type": "unlocks",
+      "epistemic_status": "record",
+      "note": "level unlocks quest"
+    },
+    {
+      "source": "boss_banks",
+      "target": "level_operator",
+      "type": "requires",
+      "epistemic_status": "record",
+      "note": "You need to be an operator to face this boss"
+    },
+    {
+      "source": "boss_mde",
+      "target": "level_active",
+      "type": "requires",
+      "epistemic_status": "record",
+      "note": "You need to be active to face this boss"
+    },
+    {
+      "source": "boss_plante_moran",
+      "target": "level_active",
+      "type": "requires",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "boss_cmu",
+      "target": "level_operator",
+      "type": "requires",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "boss_silence",
+      "target": "level_beast_mode",
+      "type": "requires",
+      "epistemic_status": "record",
+      "note": "The final boss requires beast mode"
+    },
+    {
+      "source": "beast_honeybee",
+      "target": "quest_first_clone",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_elephant",
+      "target": "quest_first_clone",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_owl",
+      "target": "quest_first_clone",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_whale",
+      "target": "quest_first_clone",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_octopus",
+      "target": "quest_first_clone",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_firefly",
+      "target": "quest_first_clone",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_badger",
+      "target": "quest_first_clone",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_dolphin",
+      "target": "quest_first_clone",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_ant",
+      "target": "quest_first_clone",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_hawk",
+      "target": "quest_first_clone",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_wolf",
+      "target": "quest_first_clone",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_spider",
+      "target": "quest_first_clone",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_gorilla",
+      "target": "quest_first_clone",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_honeybee",
+      "target": "quest_find_your_school",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_elephant",
+      "target": "quest_find_your_school",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_owl",
+      "target": "quest_find_your_school",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_whale",
+      "target": "quest_find_your_school",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_octopus",
+      "target": "quest_find_your_school",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_firefly",
+      "target": "quest_find_your_school",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_badger",
+      "target": "quest_find_your_school",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_dolphin",
+      "target": "quest_find_your_school",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_ant",
+      "target": "quest_find_your_school",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_hawk",
+      "target": "quest_find_your_school",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_wolf",
+      "target": "quest_find_your_school",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_spider",
+      "target": "quest_find_your_school",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_gorilla",
+      "target": "quest_find_your_school",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_honeybee",
+      "target": "quest_trace_one_dollar",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_elephant",
+      "target": "quest_trace_one_dollar",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_owl",
+      "target": "quest_trace_one_dollar",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_whale",
+      "target": "quest_trace_one_dollar",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_octopus",
+      "target": "quest_trace_one_dollar",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_firefly",
+      "target": "quest_trace_one_dollar",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_badger",
+      "target": "quest_trace_one_dollar",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_dolphin",
+      "target": "quest_trace_one_dollar",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_ant",
+      "target": "quest_trace_one_dollar",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_hawk",
+      "target": "quest_trace_one_dollar",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_wolf",
+      "target": "quest_trace_one_dollar",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_spider",
+      "target": "quest_trace_one_dollar",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_gorilla",
+      "target": "quest_trace_one_dollar",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_honeybee",
+      "target": "quest_verify_one_claim",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_elephant",
+      "target": "quest_verify_one_claim",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_owl",
+      "target": "quest_verify_one_claim",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_whale",
+      "target": "quest_verify_one_claim",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_octopus",
+      "target": "quest_verify_one_claim",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_firefly",
+      "target": "quest_verify_one_claim",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_badger",
+      "target": "quest_verify_one_claim",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_dolphin",
+      "target": "quest_verify_one_claim",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_ant",
+      "target": "quest_verify_one_claim",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_hawk",
+      "target": "quest_verify_one_claim",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_wolf",
+      "target": "quest_verify_one_claim",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_spider",
+      "target": "quest_verify_one_claim",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_gorilla",
+      "target": "quest_verify_one_claim",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_honeybee",
+      "target": "quest_attend_public_meeting",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_elephant",
+      "target": "quest_attend_public_meeting",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_owl",
+      "target": "quest_attend_public_meeting",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_whale",
+      "target": "quest_attend_public_meeting",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_octopus",
+      "target": "quest_attend_public_meeting",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_firefly",
+      "target": "quest_attend_public_meeting",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_badger",
+      "target": "quest_attend_public_meeting",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_dolphin",
+      "target": "quest_attend_public_meeting",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_ant",
+      "target": "quest_attend_public_meeting",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_hawk",
+      "target": "quest_attend_public_meeting",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_wolf",
+      "target": "quest_attend_public_meeting",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_spider",
+      "target": "quest_attend_public_meeting",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_gorilla",
+      "target": "quest_attend_public_meeting",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_honeybee",
+      "target": "quest_file_a_foia",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_elephant",
+      "target": "quest_file_a_foia",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_owl",
+      "target": "quest_file_a_foia",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_whale",
+      "target": "quest_file_a_foia",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_octopus",
+      "target": "quest_file_a_foia",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_firefly",
+      "target": "quest_file_a_foia",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_badger",
+      "target": "quest_file_a_foia",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_dolphin",
+      "target": "quest_file_a_foia",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_ant",
+      "target": "quest_file_a_foia",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_hawk",
+      "target": "quest_file_a_foia",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_wolf",
+      "target": "quest_file_a_foia",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_spider",
+      "target": "quest_file_a_foia",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_gorilla",
+      "target": "quest_file_a_foia",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_honeybee",
+      "target": "quest_build_a_radar",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_elephant",
+      "target": "quest_build_a_radar",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_owl",
+      "target": "quest_build_a_radar",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_whale",
+      "target": "quest_build_a_radar",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_octopus",
+      "target": "quest_build_a_radar",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_firefly",
+      "target": "quest_build_a_radar",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_badger",
+      "target": "quest_build_a_radar",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_dolphin",
+      "target": "quest_build_a_radar",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_ant",
+      "target": "quest_build_a_radar",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_hawk",
+      "target": "quest_build_a_radar",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_wolf",
+      "target": "quest_build_a_radar",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_spider",
+      "target": "quest_build_a_radar",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_gorilla",
+      "target": "quest_build_a_radar",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_honeybee",
+      "target": "quest_write_your_article",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_elephant",
+      "target": "quest_write_your_article",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_owl",
+      "target": "quest_write_your_article",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_whale",
+      "target": "quest_write_your_article",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_octopus",
+      "target": "quest_write_your_article",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_firefly",
+      "target": "quest_write_your_article",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_badger",
+      "target": "quest_write_your_article",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_dolphin",
+      "target": "quest_write_your_article",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_ant",
+      "target": "quest_write_your_article",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_hawk",
+      "target": "quest_write_your_article",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_wolf",
+      "target": "quest_write_your_article",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_spider",
+      "target": "quest_write_your_article",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_gorilla",
+      "target": "quest_write_your_article",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_honeybee",
+      "target": "quest_map_the_network",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_elephant",
+      "target": "quest_map_the_network",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_owl",
+      "target": "quest_map_the_network",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_whale",
+      "target": "quest_map_the_network",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_octopus",
+      "target": "quest_map_the_network",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_firefly",
+      "target": "quest_map_the_network",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_badger",
+      "target": "quest_map_the_network",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_dolphin",
+      "target": "quest_map_the_network",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_ant",
+      "target": "quest_map_the_network",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_hawk",
+      "target": "quest_map_the_network",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_wolf",
+      "target": "quest_map_the_network",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_spider",
+      "target": "quest_map_the_network",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_gorilla",
+      "target": "quest_map_the_network",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_honeybee",
+      "target": "quest_cross_state_parallel",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_elephant",
+      "target": "quest_cross_state_parallel",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_owl",
+      "target": "quest_cross_state_parallel",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_whale",
+      "target": "quest_cross_state_parallel",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_octopus",
+      "target": "quest_cross_state_parallel",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_firefly",
+      "target": "quest_cross_state_parallel",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_badger",
+      "target": "quest_cross_state_parallel",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_dolphin",
+      "target": "quest_cross_state_parallel",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_ant",
+      "target": "quest_cross_state_parallel",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_hawk",
+      "target": "quest_cross_state_parallel",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_wolf",
+      "target": "quest_cross_state_parallel",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_spider",
+      "target": "quest_cross_state_parallel",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_gorilla",
+      "target": "quest_cross_state_parallel",
+      "type": "undertakes",
+      "epistemic_status": "record",
+      "note": "beast undertakes quest"
+    },
+    {
+      "source": "beast_honeybee",
+      "target": "side_quest_archive",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_elephant",
+      "target": "side_quest_archive",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_owl",
+      "target": "side_quest_archive",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_whale",
+      "target": "side_quest_archive",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_octopus",
+      "target": "side_quest_archive",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_firefly",
+      "target": "side_quest_archive",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_badger",
+      "target": "side_quest_archive",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_dolphin",
+      "target": "side_quest_archive",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_ant",
+      "target": "side_quest_archive",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_hawk",
+      "target": "side_quest_archive",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_wolf",
+      "target": "side_quest_archive",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_spider",
+      "target": "side_quest_archive",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_gorilla",
+      "target": "side_quest_archive",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_honeybee",
+      "target": "side_quest_visualize",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_elephant",
+      "target": "side_quest_visualize",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_owl",
+      "target": "side_quest_visualize",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_whale",
+      "target": "side_quest_visualize",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_octopus",
+      "target": "side_quest_visualize",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_firefly",
+      "target": "side_quest_visualize",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_badger",
+      "target": "side_quest_visualize",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_dolphin",
+      "target": "side_quest_visualize",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_ant",
+      "target": "side_quest_visualize",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_hawk",
+      "target": "side_quest_visualize",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_wolf",
+      "target": "side_quest_visualize",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_spider",
+      "target": "side_quest_visualize",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_gorilla",
+      "target": "side_quest_visualize",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_honeybee",
+      "target": "side_quest_translate",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_elephant",
+      "target": "side_quest_translate",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_owl",
+      "target": "side_quest_translate",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_whale",
+      "target": "side_quest_translate",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_octopus",
+      "target": "side_quest_translate",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_firefly",
+      "target": "side_quest_translate",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_badger",
+      "target": "side_quest_translate",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_dolphin",
+      "target": "side_quest_translate",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_ant",
+      "target": "side_quest_translate",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_hawk",
+      "target": "side_quest_translate",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_wolf",
+      "target": "side_quest_translate",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_spider",
+      "target": "side_quest_translate",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_gorilla",
+      "target": "side_quest_translate",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_honeybee",
+      "target": "side_quest_teach",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_elephant",
+      "target": "side_quest_teach",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_owl",
+      "target": "side_quest_teach",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_whale",
+      "target": "side_quest_teach",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_octopus",
+      "target": "side_quest_teach",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_firefly",
+      "target": "side_quest_teach",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_badger",
+      "target": "side_quest_teach",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_dolphin",
+      "target": "side_quest_teach",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_ant",
+      "target": "side_quest_teach",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_hawk",
+      "target": "side_quest_teach",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_wolf",
+      "target": "side_quest_teach",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_spider",
+      "target": "side_quest_teach",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_gorilla",
+      "target": "side_quest_teach",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_honeybee",
+      "target": "side_quest_music",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_elephant",
+      "target": "side_quest_music",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_owl",
+      "target": "side_quest_music",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_whale",
+      "target": "side_quest_music",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_octopus",
+      "target": "side_quest_music",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_firefly",
+      "target": "side_quest_music",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_badger",
+      "target": "side_quest_music",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_dolphin",
+      "target": "side_quest_music",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_ant",
+      "target": "side_quest_music",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_hawk",
+      "target": "side_quest_music",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_wolf",
+      "target": "side_quest_music",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_spider",
+      "target": "side_quest_music",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_gorilla",
+      "target": "side_quest_music",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_honeybee",
+      "target": "side_quest_art",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_elephant",
+      "target": "side_quest_art",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_owl",
+      "target": "side_quest_art",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_whale",
+      "target": "side_quest_art",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_octopus",
+      "target": "side_quest_art",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_firefly",
+      "target": "side_quest_art",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_badger",
+      "target": "side_quest_art",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_dolphin",
+      "target": "side_quest_art",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_ant",
+      "target": "side_quest_art",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_hawk",
+      "target": "side_quest_art",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_wolf",
+      "target": "side_quest_art",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_spider",
+      "target": "side_quest_art",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "beast_gorilla",
+      "target": "side_quest_art",
+      "type": "explores",
+      "epistemic_status": "record",
+      "note": "beast explores side quest"
+    },
+    {
+      "source": "guerilla_gorilla",
+      "target": "quest_first_clone",
+      "type": "offers",
+      "epistemic_status": "record",
+      "note": "guerillaGorilla offers quest"
+    },
+    {
+      "source": "guerilla_gorilla",
+      "target": "quest_find_your_school",
+      "type": "offers",
+      "epistemic_status": "record",
+      "note": "guerillaGorilla offers quest"
+    },
+    {
+      "source": "guerilla_gorilla",
+      "target": "quest_trace_one_dollar",
+      "type": "offers",
+      "epistemic_status": "record",
+      "note": "guerillaGorilla offers quest"
+    },
+    {
+      "source": "guerilla_gorilla",
+      "target": "quest_verify_one_claim",
+      "type": "offers",
+      "epistemic_status": "record",
+      "note": "guerillaGorilla offers quest"
+    },
+    {
+      "source": "guerilla_gorilla",
+      "target": "quest_attend_public_meeting",
+      "type": "offers",
+      "epistemic_status": "record",
+      "note": "guerillaGorilla offers quest"
+    },
+    {
+      "source": "guerilla_gorilla",
+      "target": "quest_file_a_foia",
+      "type": "offers",
+      "epistemic_status": "record",
+      "note": "guerillaGorilla offers quest"
+    },
+    {
+      "source": "guerilla_gorilla",
+      "target": "quest_build_a_radar",
+      "type": "offers",
+      "epistemic_status": "record",
+      "note": "guerillaGorilla offers quest"
+    },
+    {
+      "source": "guerilla_gorilla",
+      "target": "quest_write_your_article",
+      "type": "offers",
+      "epistemic_status": "record",
+      "note": "guerillaGorilla offers quest"
+    },
+    {
+      "source": "guerilla_gorilla",
+      "target": "quest_map_the_network",
+      "type": "offers",
+      "epistemic_status": "record",
+      "note": "guerillaGorilla offers quest"
+    },
+    {
+      "source": "guerilla_gorilla",
+      "target": "quest_cross_state_parallel",
+      "type": "offers",
+      "epistemic_status": "record",
+      "note": "guerillaGorilla offers quest"
+    },
+    {
+      "source": "guerilla_gorilla",
+      "target": "achievement_first_blood",
+      "type": "awards",
+      "epistemic_status": "record",
+      "note": "guerillaGorilla awards achievement"
+    },
+    {
+      "source": "guerilla_gorilla",
+      "target": "achievement_data_hunter",
+      "type": "awards",
+      "epistemic_status": "record",
+      "note": "guerillaGorilla awards achievement"
+    },
+    {
+      "source": "guerilla_gorilla",
+      "target": "achievement_foia_warrior",
+      "type": "awards",
+      "epistemic_status": "record",
+      "note": "guerillaGorilla awards achievement"
+    },
+    {
+      "source": "guerilla_gorilla",
+      "target": "achievement_pattern_seeker",
+      "type": "awards",
+      "epistemic_status": "record",
+      "note": "guerillaGorilla awards achievement"
+    },
+    {
+      "source": "guerilla_gorilla",
+      "target": "achievement_witness",
+      "type": "awards",
+      "epistemic_status": "record",
+      "note": "guerillaGorilla awards achievement"
+    },
+    {
+      "source": "guerilla_gorilla",
+      "target": "achievement_pinocchio_catcher",
+      "type": "awards",
+      "epistemic_status": "record",
+      "note": "guerillaGorilla awards achievement"
+    },
+    {
+      "source": "guerilla_gorilla",
+      "target": "achievement_money_tracer",
+      "type": "awards",
+      "epistemic_status": "record",
+      "note": "guerillaGorilla awards achievement"
+    },
+    {
+      "source": "guerilla_gorilla",
+      "target": "achievement_article_author",
+      "type": "awards",
+      "epistemic_status": "record",
+      "note": "guerillaGorilla awards achievement"
+    },
+    {
+      "source": "guerilla_gorilla",
+      "target": "achievement_beast_mode",
+      "type": "awards",
+      "epistemic_status": "record",
+      "note": "guerillaGorilla awards achievement"
+    },
+    {
+      "source": "guerilla_gorilla",
+      "target": "achievement_radar_operator",
+      "type": "awards",
+      "epistemic_status": "record",
+      "note": "guerillaGorilla awards achievement"
+    },
+    {
+      "source": "guerilla_gorilla",
+      "target": "achievement_network_mapper",
+      "type": "awards",
+      "epistemic_status": "record",
+      "note": "guerillaGorilla awards achievement"
+    },
+    {
+      "source": "guerilla_gorilla",
+      "target": "achievement_six_degrees",
+      "type": "awards",
+      "epistemic_status": "record",
+      "note": "guerillaGorilla awards achievement"
+    },
+    {
+      "source": "guerilla_gorilla",
+      "target": "boss_banks",
+      "type": "features",
+      "epistemic_status": "record",
+      "note": "guerillaGorilla features boss fight"
+    },
+    {
+      "source": "guerilla_gorilla",
+      "target": "boss_mde",
+      "type": "features",
+      "epistemic_status": "record",
+      "note": "guerillaGorilla features boss fight"
+    },
+    {
+      "source": "guerilla_gorilla",
+      "target": "boss_plante_moran",
+      "type": "features",
+      "epistemic_status": "record",
+      "note": "guerillaGorilla features boss fight"
+    },
+    {
+      "source": "guerilla_gorilla",
+      "target": "boss_cmu",
+      "type": "features",
+      "epistemic_status": "record",
+      "note": "guerillaGorilla features boss fight"
+    },
+    {
+      "source": "guerilla_gorilla",
+      "target": "boss_silence",
+      "type": "features",
+      "epistemic_status": "record",
+      "note": "guerillaGorilla features boss fight"
+    },
+    {
+      "source": "guerilla_gorilla",
+      "target": "level_curious",
+      "type": "has_level",
+      "epistemic_status": "record",
+      "note": "guerillaGorilla has difficulty level"
+    },
+    {
+      "source": "guerilla_gorilla",
+      "target": "level_engaged",
+      "type": "has_level",
+      "epistemic_status": "record",
+      "note": "guerillaGorilla has difficulty level"
+    },
+    {
+      "source": "guerilla_gorilla",
+      "target": "level_active",
+      "type": "has_level",
+      "epistemic_status": "record",
+      "note": "guerillaGorilla has difficulty level"
+    },
+    {
+      "source": "guerilla_gorilla",
+      "target": "level_operator",
+      "type": "has_level",
+      "epistemic_status": "record",
+      "note": "guerillaGorilla has difficulty level"
+    },
+    {
+      "source": "guerilla_gorilla",
+      "target": "level_beast_mode",
+      "type": "has_level",
+      "epistemic_status": "record",
+      "note": "guerillaGorilla has difficulty level"
+    },
+    {
+      "source": "guerilla_gorilla",
+      "target": "side_quest_archive",
+      "type": "offers",
+      "epistemic_status": "record",
+      "note": "guerillaGorilla offers side quest"
+    },
+    {
+      "source": "guerilla_gorilla",
+      "target": "side_quest_visualize",
+      "type": "offers",
+      "epistemic_status": "record",
+      "note": "guerillaGorilla offers side quest"
+    },
+    {
+      "source": "guerilla_gorilla",
+      "target": "side_quest_translate",
+      "type": "offers",
+      "epistemic_status": "record",
+      "note": "guerillaGorilla offers side quest"
+    },
+    {
+      "source": "guerilla_gorilla",
+      "target": "side_quest_teach",
+      "type": "offers",
+      "epistemic_status": "record",
+      "note": "guerillaGorilla offers side quest"
+    },
+    {
+      "source": "guerilla_gorilla",
+      "target": "side_quest_music",
+      "type": "offers",
+      "epistemic_status": "record",
+      "note": "guerillaGorilla offers side quest"
+    },
+    {
+      "source": "guerilla_gorilla",
+      "target": "side_quest_art",
+      "type": "offers",
+      "epistemic_status": "record",
+      "note": "guerillaGorilla offers side quest"
+    },
+    {
+      "source": "sporeprint",
+      "target": "quest_first_clone",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "sporeprint carries quest"
+    },
+    {
+      "source": "sporeprint",
+      "target": "quest_find_your_school",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "sporeprint carries quest"
+    },
+    {
+      "source": "sporeprint",
+      "target": "quest_trace_one_dollar",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "sporeprint carries quest"
+    },
+    {
+      "source": "sporeprint",
+      "target": "quest_verify_one_claim",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "sporeprint carries quest"
+    },
+    {
+      "source": "sporeprint",
+      "target": "quest_attend_public_meeting",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "sporeprint carries quest"
+    },
+    {
+      "source": "sporeprint",
+      "target": "quest_file_a_foia",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "sporeprint carries quest"
+    },
+    {
+      "source": "sporeprint",
+      "target": "quest_build_a_radar",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "sporeprint carries quest"
+    },
+    {
+      "source": "sporeprint",
+      "target": "quest_write_your_article",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "sporeprint carries quest"
+    },
+    {
+      "source": "sporeprint",
+      "target": "quest_map_the_network",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "sporeprint carries quest"
+    },
+    {
+      "source": "sporeprint",
+      "target": "quest_cross_state_parallel",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "sporeprint carries quest"
+    },
+    {
+      "source": "article_come_and_play_games",
+      "target": "boss_banks",
+      "type": "features",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_come_and_play_games",
+      "target": "quest_first_clone",
+      "type": "features",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_come_and_play_games",
+      "target": "quest_find_your_school",
+      "type": "features",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_come_and_play_games",
+      "target": "quest_trace_one_dollar",
+      "type": "features",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_come_and_play_games",
+      "target": "quest_verify_one_claim",
+      "type": "features",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_come_and_play_games",
+      "target": "quest_attend_public_meeting",
+      "type": "features",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_come_and_play_games",
+      "target": "quest_file_a_foia",
+      "type": "features",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_come_and_play_games",
+      "target": "quest_build_a_radar",
+      "type": "features",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_come_and_play_games",
+      "target": "quest_write_your_article",
+      "type": "features",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_come_and_play_games",
+      "target": "quest_map_the_network",
+      "type": "features",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_come_and_play_games",
+      "target": "quest_cross_state_parallel",
+      "type": "features",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_rpg",
+      "target": "quest_first_clone",
+      "type": "features",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_rpg",
+      "target": "quest_find_your_school",
+      "type": "features",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_rpg",
+      "target": "quest_trace_one_dollar",
+      "type": "features",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_rpg",
+      "target": "quest_verify_one_claim",
+      "type": "features",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_rpg",
+      "target": "quest_attend_public_meeting",
+      "type": "features",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_rpg",
+      "target": "quest_file_a_foia",
+      "type": "features",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_rpg",
+      "target": "quest_build_a_radar",
+      "type": "features",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_rpg",
+      "target": "quest_write_your_article",
+      "type": "features",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_rpg",
+      "target": "quest_map_the_network",
+      "type": "features",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_rpg",
+      "target": "quest_cross_state_parallel",
+      "type": "features",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_rpg",
+      "target": "achievement_first_blood",
+      "type": "features",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_rpg",
+      "target": "achievement_data_hunter",
+      "type": "features",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_rpg",
+      "target": "achievement_foia_warrior",
+      "type": "features",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_rpg",
+      "target": "achievement_pattern_seeker",
+      "type": "features",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_rpg",
+      "target": "achievement_witness",
+      "type": "features",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_rpg",
+      "target": "achievement_pinocchio_catcher",
+      "type": "features",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_rpg",
+      "target": "achievement_money_tracer",
+      "type": "features",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_rpg",
+      "target": "achievement_article_author",
+      "type": "features",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_rpg",
+      "target": "achievement_beast_mode",
+      "type": "features",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_rpg",
+      "target": "achievement_radar_operator",
+      "type": "features",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_rpg",
+      "target": "achievement_network_mapper",
+      "type": "features",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_rpg",
+      "target": "achievement_six_degrees",
+      "type": "features",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_rpg",
+      "target": "boss_banks",
+      "type": "features",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_rpg",
+      "target": "boss_mde",
+      "type": "features",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_rpg",
+      "target": "boss_plante_moran",
+      "type": "features",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_rpg",
+      "target": "boss_cmu",
+      "type": "features",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_rpg",
+      "target": "boss_silence",
+      "type": "features",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_rpg",
+      "target": "level_curious",
+      "type": "features",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_rpg",
+      "target": "level_engaged",
+      "type": "features",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_rpg",
+      "target": "level_active",
+      "type": "features",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_rpg",
+      "target": "level_operator",
+      "type": "features",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_the_rpg",
+      "target": "level_beast_mode",
+      "type": "features",
+      "epistemic_status": "record",
+      "note": ""
     }
   ],
   "epistemic_grammar": {
