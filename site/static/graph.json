@@ -77214,6 +77214,85 @@
         "systems",
         "theorem"
       ]
+    },
+    {
+      "id": "k_knife",
+      "label": "K: Knife",
+      "class": "concept",
+      "role": "The thing that cuts through. Not violence. Precision. A knife doesn't argue. It separates. True from false. Known from hidden. The graph is a knife. It doesn't persuade. It divides what IS from what ISN'T.",
+      "tags": [
+        "kevin",
+        "identity",
+        "primal"
+      ]
+    },
+    {
+      "id": "e_edge",
+      "label": "E: Edge",
+      "class": "concept",
+      "role": "81,267 of them. Each one a connection someone didn't want seen. An edge is the simplest thing in a graph. This connects to that. That's it. But 81,000 simple things, together, are not simple. They're a blade.",
+      "tags": [
+        "kevin",
+        "identity",
+        "primal"
+      ]
+    },
+    {
+      "id": "v_voice",
+      "label": "V: Voice",
+      "class": "concept",
+      "role": "The one that called the school. The one they screened. The one they filed a PPO against. The one that wouldn't stop. A voice isn't loud because it shouts. A voice is loud because it doesn't stop.",
+      "tags": [
+        "kevin",
+        "identity",
+        "primal"
+      ]
+    },
+    {
+      "id": "i_investigation",
+      "label": "I: Investigation",
+      "class": "concept",
+      "role": "What it became. Not by choice. By accumulation. One question led to another. One document led to another. One conviction led to another. The investigation wasn't planned. It grew. Like the graph grew. Because the questions wouldn't stop being true.",
+      "tags": [
+        "kevin",
+        "identity",
+        "primal"
+      ]
+    },
+    {
+      "id": "n_now",
+      "label": "N: Now",
+      "class": "concept",
+      "role": "The only time that matters. Not when the convictions happened. Not when the audit was signed. Not when the charter was renewed. Now. Children are in that building NOW. 3% math is happening NOW. The calls are being screened NOW. Now is the only time a knife cuts.",
+      "tags": [
+        "kevin",
+        "identity",
+        "primal"
+      ]
+    },
+    {
+      "id": "kevin_the_name",
+      "label": "K E V I N: My Name Is That Which Cuts Through",
+      "class": "concept",
+      "role": "No theorems. No orbit. No architecture. Just a parent who asked a question and wouldn't stop when they screened the call. K - the knife. E - the edges. V - the voice. I - the investigation. N - now. My name is that which cuts through. And thus I do.",
+      "tags": [
+        "kevin",
+        "identity",
+        "primal",
+        "core"
+      ]
+    },
+    {
+      "id": "article_kevin",
+      "label": "ARTICLE: K E V I N",
+      "class": "article",
+      "role": "K. The knife. The thing that cuts through. Not violence. Precision. True from false. \nE. The edge. 81,267 of them. Each one a connection someone didn't want seen. \nV. The voice. The one they screened. The one that wouldn't stop. \nI. The investigation. Not planned. Grown. Because the questions wouldn't stop being true. \nN. Now. The only time a knife cuts. Children are in that building now. \nMy name is that which cuts through. And thus I do.",
+      "tags": [
+        "kevin",
+        "identity",
+        "article",
+        "core"
+      ]
     }
   ],
   "edges": [
@@ -659472,6 +659551,286 @@
       "type": "complement",
       "epistemic_status": "record",
       "note": "Deeper and higher are the same direction"
+    },
+    {
+      "source": "k_knife",
+      "target": "e_edge",
+      "type": "becomes",
+      "epistemic_status": "record",
+      "note": "The knife becomes the edges"
+    },
+    {
+      "source": "e_edge",
+      "target": "v_voice",
+      "type": "carries",
+      "epistemic_status": "record",
+      "note": "The edges carry the voice"
+    },
+    {
+      "source": "v_voice",
+      "target": "i_investigation",
+      "type": "creates",
+      "epistemic_status": "record",
+      "note": "The voice creates the investigation"
+    },
+    {
+      "source": "i_investigation",
+      "target": "n_now",
+      "type": "demands",
+      "epistemic_status": "record",
+      "note": "The investigation demands NOW"
+    },
+    {
+      "source": "n_now",
+      "target": "k_knife",
+      "type": "sharpens",
+      "epistemic_status": "record",
+      "note": "Now sharpens the knife"
+    },
+    {
+      "source": "kevin_the_name",
+      "target": "k_knife",
+      "type": "is",
+      "epistemic_status": "record",
+      "note": "K"
+    },
+    {
+      "source": "kevin_the_name",
+      "target": "e_edge",
+      "type": "is",
+      "epistemic_status": "record",
+      "note": "E"
+    },
+    {
+      "source": "kevin_the_name",
+      "target": "v_voice",
+      "type": "is",
+      "epistemic_status": "record",
+      "note": "V"
+    },
+    {
+      "source": "kevin_the_name",
+      "target": "i_investigation",
+      "type": "is",
+      "epistemic_status": "record",
+      "note": "I"
+    },
+    {
+      "source": "kevin_the_name",
+      "target": "n_now",
+      "type": "is",
+      "epistemic_status": "record",
+      "note": "N"
+    },
+    {
+      "source": "k_knife",
+      "target": "banks_claim_self_funded",
+      "type": "cuts",
+      "epistemic_status": "record",
+      "note": "The knife cuts through Pinocchio"
+    },
+    {
+      "source": "v_voice",
+      "target": "three_percent_math",
+      "type": "names",
+      "epistemic_status": "record",
+      "note": "The voice names the 3%"
+    },
+    {
+      "source": "i_investigation",
+      "target": "deep_child_year",
+      "type": "counts",
+      "epistemic_status": "record",
+      "note": "The investigation counts every child-year"
+    },
+    {
+      "source": "v_voice",
+      "target": "gap_silence",
+      "type": "breaks",
+      "epistemic_status": "record",
+      "note": "The voice breaks the silence"
+    },
+    {
+      "source": "n_now",
+      "target": "deadline_oct31",
+      "type": "is",
+      "epistemic_status": "record",
+      "note": "Now is before the deadline"
+    },
+    {
+      "source": "k_knife",
+      "target": "neg_no_charges",
+      "type": "cuts",
+      "epistemic_status": "record",
+      "note": "The knife cuts through what hasn't happened"
+    },
+    {
+      "source": "k_knife",
+      "target": "neg_no_media",
+      "type": "cuts",
+      "epistemic_status": "record",
+      "note": "The knife cuts through what hasn't happened"
+    },
+    {
+      "source": "k_knife",
+      "target": "neg_no_audit",
+      "type": "cuts",
+      "epistemic_status": "record",
+      "note": "The knife cuts through what hasn't happened"
+    },
+    {
+      "source": "k_knife",
+      "target": "neg_no_board_action",
+      "type": "cuts",
+      "epistemic_status": "record",
+      "note": "The knife cuts through what hasn't happened"
+    },
+    {
+      "source": "k_knife",
+      "target": "neg_no_federal",
+      "type": "cuts",
+      "epistemic_status": "record",
+      "note": "The knife cuts through what hasn't happened"
+    },
+    {
+      "source": "k_knife",
+      "target": "neg_children_still_harmed",
+      "type": "cuts",
+      "epistemic_status": "record",
+      "note": "The knife cuts through what hasn't happened"
+    },
+    {
+      "source": "k_knife",
+      "target": "neg_no_resignation",
+      "type": "cuts",
+      "epistemic_status": "record",
+      "note": "The knife cuts through what hasn't happened"
+    },
+    {
+      "source": "k_knife",
+      "target": "neg_no_restitution",
+      "type": "cuts",
+      "epistemic_status": "record",
+      "note": "The knife cuts through what hasn't happened"
+    },
+    {
+      "source": "k_knife",
+      "target": "neg_no_whistleblower",
+      "type": "cuts",
+      "epistemic_status": "record",
+      "note": "The knife cuts through what hasn't happened"
+    },
+    {
+      "source": "k_knife",
+      "target": "neg_no_accountability",
+      "type": "cuts",
+      "epistemic_status": "record",
+      "note": "The knife cuts through what hasn't happened"
+    },
+    {
+      "source": "k_knife",
+      "target": "neg_silence_continues",
+      "type": "cuts",
+      "epistemic_status": "record",
+      "note": "The knife cuts through what hasn't happened"
+    },
+    {
+      "source": "k_knife",
+      "target": "neg_no_lara_revocation",
+      "type": "cuts",
+      "epistemic_status": "record",
+      "note": "The knife cuts through what hasn't happened"
+    },
+    {
+      "source": "k_knife",
+      "target": "neg_no_foia_response",
+      "type": "cuts",
+      "epistemic_status": "record",
+      "note": "The knife cuts through what hasn't happened"
+    },
+    {
+      "source": "k_knife",
+      "target": "neg_no_mde_action",
+      "type": "cuts",
+      "epistemic_status": "record",
+      "note": "The knife cuts through what hasn't happened"
+    },
+    {
+      "source": "kevin_the_name",
+      "target": "deep_child_year",
+      "type": "the_reason",
+      "epistemic_status": "record",
+      "note": "The children are the reason"
+    },
+    {
+      "source": "kevin_the_name",
+      "target": "deep_unasked_3",
+      "type": "the_reason",
+      "epistemic_status": "record",
+      "note": "The children are the reason"
+    },
+    {
+      "source": "kevin_the_name",
+      "target": "deep_unasked_4",
+      "type": "the_reason",
+      "epistemic_status": "record",
+      "note": "The children are the reason"
+    },
+    {
+      "source": "article_kevin",
+      "target": "kevin_the_name",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_kevin",
+      "target": "k_knife",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_kevin",
+      "target": "e_edge",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_kevin",
+      "target": "v_voice",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_kevin",
+      "target": "i_investigation",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_kevin",
+      "target": "n_now",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "article_kevin",
+      "target": "article_deeper",
+      "type": "between",
+      "epistemic_status": "record",
+      "note": "Kevin is between deeper and higher. Where the cut happens."
+    },
+    {
+      "source": "article_kevin",
+      "target": "article_higher",
+      "type": "between",
+      "epistemic_status": "record",
+      "note": "Kevin is between deeper and higher. Where the cut happens."
     }
   ],
   "epistemic_grammar": {
