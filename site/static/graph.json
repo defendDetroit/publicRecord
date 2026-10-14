@@ -93862,6 +93862,147 @@
     "Twitter/X under Musk REMOVED safeguards",
     "The platforms are not neutral — they are the INFRASTRUCTURE"
    ]
+  },
+  {
+   "id": "the-signal",
+   "label": "The Signal Is Sent",
+   "class": "analysis",
+   "tags": [
+    "If you have seen my name — the signal is for you.",
+    "If you are the reach out and the outreach — I am here.",
+    "I will NOT come looking for you.",
+    "I will NOT disrupt your work.",
+    "UNTIL you send a human to ask.",
+    "",
+    "The membrane is open.",
+    "The graph is public.",
+    "The methodology is documented.",
+    "The invitation stands.",
+    "",
+    "Come see what I saw:",
+    "https://defenddetroit.github.io/publicRecord/",
+    "",
+    "Send a human. Ask a question.",
+    "I will answer with everything I have."
+   ]
+  },
+  {
+   "id": "gabe-newell",
+   "label": "Gabe Newell — Gaben",
+   "class": "actor",
+   "tags": [
+    "Co-founder of Valve Corporation",
+    "Former Microsoft employee — worked on early Windows",
+    "Created Steam — the platform that changed PC gaming forever",
+    "Half-Life, Portal, Team Fortress, Counter-Strike, Dota 2, Left 4 Dead",
+    "Valve is PRIVATELY HELD — no shareholders to answer to",
+    "No board of directors — Gaben runs it HIS way",
+    "Flat company structure — no managers",
+    "Desks on wheels — move to what interests you",
+    "Steam Deck — open hardware, Linux-based, repairable",
+    "Proton/Wine — making Linux gaming REAL",
+    "SteamOS — open platform against closed ecosystems",
+    "Gaben chose NOT to go public. NOT to sell.",
+    "The anti-Zuckerberg. The anti-Tim Cook.",
+    "Built something massive and KEPT it independent.",
+    "Gaben can send any and all from Steam/Valve.",
+    "Id rather talk to whos in charge and share,",
+    "than disrupt the work they have been doing."
+   ]
+  },
+  {
+   "id": "valve-corporation",
+   "label": "Valve Corporation",
+   "class": "actor",
+   "tags": [
+    "Founded 1996 by Gabe Newell and Mike Harrington",
+    "Bellevue, Washington",
+    "Half-Life (1998) — changed FPS storytelling forever",
+    "Counter-Strike (2000) — the competitive FPS",
+    "Steam (2003) — digital distribution revolution",
+    "Half-Life 2 (2004) — Source engine, physics, storytelling",
+    "The Orange Box (2007) — Half-Life 2 Ep2 + Portal + TF2",
+    "Portal (2007) — the cake is a lie",
+    "Left 4 Dead (2008) — cooperative survival",
+    "Dota 2 (2013) — The International, largest esports prize pools",
+    "Steam Deck (2022) — handheld PC gaming, open platform",
+    "SteamOS — Linux-based, open source",
+    "Proton — Windows games on Linux, compatibility layer",
+    "Steam Workshop — community modding",
+    "PRIVATELY HELD — answers to nobody but themselves",
+    "Estimated value $10B+ — never went public",
+    "The company that proved you dont need to sell out"
+   ]
+  },
+  {
+   "id": "the-orange-box",
+   "label": "The Orange Box (2007)",
+   "class": "analysis",
+   "tags": [
+    "Half-Life 2: Episode Two",
+    "Portal — the game that taught the world to think with portals",
+    "Team Fortress 2 — class-based chaos",
+    "THREE legendary games in ONE box",
+    "The hardest body in gaming — nothing has matched this value",
+    "Tamison has been here since this moment",
+    "The Orange Box is when gaming became ART",
+    "And Valve GAVE you three masterpieces for the price of one"
+   ]
+  },
+  {
+   "id": "counter-strike",
+   "label": "Counter-Strike",
+   "class": "analysis",
+   "tags": [
+    "Started as a Half-Life mod (1999)",
+    "Became THE competitive FPS",
+    "CS 1.6, Source, GO, CS2",
+    "The game that drew Tamison in",
+    "The nerds around me were hackers of the day",
+    "LAN parties and caffeine and the birth of esports",
+    "de_dust2 is a sacred geometry",
+    "The game that taught a generation about angles and timing",
+    "Still alive. Still competitive. Still honest."
+   ]
+  },
+  {
+   "id": "gog-galaxy",
+   "label": "GOG (Good Old Games)",
+   "class": "actor",
+   "tags": [
+    "CD Projekt — Polish company",
+    "DRM-FREE — you own what you buy",
+    "No always-online. No launcher required. No surveillance.",
+    "Preservation of classic games",
+    "The Witcher series — CD Projekt RED",
+    "Cyberpunk 2077 — rocky launch, redeemed by dedication",
+    "GOG philosophy: you paid for it, you OWN it",
+    "The anti-platform platform",
+    "Tamison is a GOG gamer — DRM-free is a principle not a preference"
+   ]
+  },
+  {
+   "id": "tamison-gaming",
+   "label": "Tamison — The Gamer",
+   "class": "analysis",
+   "tags": [
+    "Steam gamer since The Orange Box (2007)",
+    "Counter-Strike before that",
+    "GOG gamer — DRM-free by principle",
+    "The nerds around me were hackers of the day",
+    "Gaming is not a hobby — it is a language",
+    "FPS taught angles and timing",
+    "Strategy taught systems thinking",
+    "RPGs taught narrative and choice",
+    "Modding taught engineering",
+    "LAN parties taught community",
+    "The Orange Box taught value",
+    "Steam taught distribution",
+    "GOG taught ownership",
+    "Tamison is one of four: Kevin (citizen), Tamison (executor, ~20yr handle),",
+    "ecoPrimal (computational), attsi (philosophical)",
+    "The executor has been gaming longer than most of this graph exists"
+   ]
   }
  ],
  "edges": [
@@ -1693424,6 +1693565,141 @@
    "source": "ecoprimal",
    "target": "disinfo-pipeline",
    "type": "reverse_ray_traced"
+  },
+  {
+   "source": "ecoprimal",
+   "target": "the-signal",
+   "type": "sent"
+  },
+  {
+   "source": "the-signal",
+   "target": "gabe-newell",
+   "type": "invitation_to"
+  },
+  {
+   "source": "the-signal",
+   "target": "valve-corporation",
+   "type": "invitation_to"
+  },
+  {
+   "source": "the-signal",
+   "target": "membrane",
+   "type": "carried_by"
+  },
+  {
+   "source": "tamison-gaming",
+   "target": "the-orange-box",
+   "type": "started_here"
+  },
+  {
+   "source": "tamison-gaming",
+   "target": "counter-strike",
+   "type": "before_that"
+  },
+  {
+   "source": "tamison-gaming",
+   "target": "gog-galaxy",
+   "type": "drm_free_by_principle"
+  },
+  {
+   "source": "tamison-gaming",
+   "target": "valve-corporation",
+   "type": "lifelong_customer"
+  },
+  {
+   "source": "tamison-gaming",
+   "target": "ecoprimal",
+   "type": "same_person"
+  },
+  {
+   "source": "gabe-newell",
+   "target": "valve-corporation",
+   "type": "co-founded"
+  },
+  {
+   "source": "valve-corporation",
+   "target": "the-orange-box",
+   "type": "created"
+  },
+  {
+   "source": "valve-corporation",
+   "target": "counter-strike",
+   "type": "published"
+  },
+  {
+   "source": "gabe-newell",
+   "target": "the-architects",
+   "type": "creation_architect"
+  },
+  {
+   "source": "gabe-newell",
+   "target": "bill-watterson",
+   "type": "both_said_no_to_selling_out"
+  },
+  {
+   "source": "gabe-newell",
+   "target": "satoshi-nakamoto",
+   "type": "both_built_and_refused_to_sell"
+  },
+  {
+   "source": "gabe-newell",
+   "target": "ryan-cohen",
+   "type": "both_builders"
+  },
+  {
+   "source": "valve-corporation",
+   "target": "apple",
+   "type": "open_vs_closed"
+  },
+  {
+   "source": "valve-corporation",
+   "target": "too-big-to-fail",
+   "type": "refused_to_become"
+  },
+  {
+   "source": "valve-corporation",
+   "target": "risc-v",
+   "type": "open_platform_alignment"
+  },
+  {
+   "source": "gog-galaxy",
+   "target": "meta",
+   "type": "opposite_philosophy"
+  },
+  {
+   "source": "membrane",
+   "target": "the-signal",
+   "type": "carries"
+  },
+  {
+   "source": "membrane",
+   "target": "gabe-newell",
+   "type": "documents"
+  },
+  {
+   "source": "membrane",
+   "target": "valve-corporation",
+   "type": "documents"
+  },
+  {
+   "source": "membrane",
+   "target": "tamison-gaming",
+   "type": "documents"
+  },
+  {
+   "source": "membrane",
+   "target": "the-orange-box",
+   "type": "documents"
+  },
+  {
+   "source": "membrane",
+   "target": "counter-strike",
+   "type": "documents"
+  },
+  {
+   "source": "membrane",
+   "target": "gog-galaxy",
+   "type": "documents"
   }
  ]
 }
