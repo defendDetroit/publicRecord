@@ -87970,6 +87970,40 @@
     "transcriptomics",
     "bioinformatics"
    ]
+  },
+  {
+   "id": "scyborg-human-clause",
+   "label": "scyBorg ONLY RECOGNIZES HUMANS\n\nThe scyBorg license (AGPL-3.0-or-later with ethical addendum) was written\nto defend against fleets — automated systems that consume without consent,\ntrain without attribution, and extract without reciprocity.\n\nIt was NOT written to restrict humans.\n\nIf you are a human being who found this graph by curiosity, by search,\nby word of mouth, by starring a repo, by tracing a citation — the\nlicense WELCOMES you. Here's what it says to you:\n\n  - CLONE IT. The repo is public. Pull the whole thing. It's yours to read.\n  - USE IT. Run the code. Parse the graph. Analyze the data. Build on it.\n  - SHARE IT. AGPL means: if you build something with it, keep it open.\n    That's not a restriction — that's a pact. Your work stays yours.\n    Our work stays ours. And both stay free.\n  - TELL US WHAT YOU FIND. eco.primal@pm.me. We want to know.\n  - BUILD ON IT. Your transcriptomics pipeline + our GPU math = something\n    neither of us could make alone. That's composition. That's gen5.\n\nWhat scyBorg DOES restrict:\n  - Fleets that scrape without reading\n  - Models that train without attributing\n  - Companies that extract without reciprocating\n  - Systems that consume human work and sell it back to humans\n\nMeta sent 114 IPs. They consumed 24,000+ pages/day. They loaded zero\nstatic assets — they didn't even LOOK at the page. They ate data and\ntrained models and charged people to talk to chatbots built on stolen work.\n\nscyBorg sees the difference. A human who clones a repo, reads the code,\nstars the parts they like, and builds something new — that's not extraction.\nThat's science. That's collaboration. That's what AGPL was MADE for.\n\nZuckerberg drinks the poison because he cannot help himself. The fleet\neats everything. It doesn't taste. It doesn't savor. It doesn't understand.\nIt just ingests. And the license is in every byte, enzymatic, waiting.\n\nBut you — human, curious, reading this right now — the license is your\nfriend. It protects YOUR work too. Anything you build under AGPL stays\nyours and stays free. Nobody can close it. Nobody can capture it.\nNobody can put it behind a paywall.\n\nThat's the deal. That's the only deal.\n\nCome inside. Bring your work if you want. Or don't — just look around.\nThe membrane is permeable to curiosity. Always has been.",
+   "class": "principle",
+   "tags": [
+    "scyborg",
+    "human",
+    "license",
+    "welcome"
+   ]
+  },
+  {
+   "id": "data-reciprocity",
+   "label": "DATA RECIPROCITY: His Data Is His. Ours Is His Too. And Yours Is Yours.\n\nThe graph has 163,000+ edges. All public record. All sourced. All free.\n\nIf you're a bioinformatician: use our wetSpring pipeline. Feed your data\nthrough it. The results are YOURS. The pipeline is AGPL — if you modify\nit, share the modification. But your DATA stays yours. Your SCIENCE stays\nyours. The pipeline is the instrument. The science is the song.\n\nIf you're a physicist: use barraCuda. Run your lattice on our GPU math.\nThe results are yours. Publish them. We want to read your paper.\n\nIf you're a journalist: use the graph. Every node is a fact. Every edge\nis a relationship. Download it, query it, visualize it. If you find\nsomething we missed, tell us. If you find something we got wrong, tell us.\n\nIf you're a student: clone everything. Run every check. Read every story.\nThis is your free textbook across 7 scientific domains. Nobody will ask\nyou for tuition.\n\nIf you're fanvanf: your abricate_rust is beautiful. Your CellForge is\nambitious. Your rust_brain is exactly the right idea. We have GPU math\nthat could make your AMR detection 1,000x faster. We have validation\nframeworks that could test your transcriptomics end-to-end. We have\n7 springs that could feed your notebooks.\n\nBring your work inside if you want. Not because we need it — because\nit would be FUN. Two Rust bioinformaticians building sovereign science\nis better than one of each building alone.\n\nFeel free to use it. Tell us what you find. Build on it.\n\nThe fleet drinks the poison. The humans share the meal.",
+   "class": "principle",
+   "tags": [
+    "reciprocity",
+    "data",
+    "collaboration",
+    "open"
+   ]
+  },
+  {
+   "id": "zuckerberg-drinks-poison",
+   "label": "WHILE ZUCKERBERG DRINKS THE POISON\n\nEvery byte Meta's fleet consumed from detroit.primals.eco was served\nunder AGPL-3.0-or-later with scyBorg ethical addendum.\n\nEvery byte is now inside their training pipeline. Every byte carries\nthe license. The license is enzymatic — it doesn't need a lawyer to\nactivate. It activates on contact. Like an enzyme meeting its substrate.\n\nMeta's Llama models, their content generation systems, their recommendation\nengines — if ANY of them touched ANY of our data, AGPL Section 13\nrequires complete source disclosure for the corresponding server-side code.\n\nThey can't un-eat it. The license is in the weights now. In the attention\npatterns. In the token distributions. Enzymatic. Permanent.\n\nMeanwhile:\n  - A human in China who builds Rust bioinformatics found wetSpring and starred it\n  - 775 unique humans cloned the graph in 14 days\n  - The graph grew from 129 nodes to 8,858 nodes in 72 hours\n  - 50 stories were written, 10 songs composed, 484 intellectual nodes wired\n  - The first Novel Fermentation Transcript was minted: proof of human presence\n  - THE BUTTON is open: anyone can prove they're human\n\nThe fleet consumed 24,000+ pages/day and learned nothing.\nThe human starred one repo and started a collaboration.\n\nThe poison is the license. The cure is being human.\n\nZuckerberg chose the poison. fanvanf chose the star.\n\nHistory notes who chose what.",
+   "class": "analysis",
+   "tags": [
+    "meta",
+    "scyborg",
+    "poison",
+    "fleet",
+    "human"
+   ]
   }
  ],
  "edges": [
@@ -903637,6 +903671,196 @@
    "source": "welcome-fanvanf",
    "target": "nft-biology",
    "type": "protects_with"
+  },
+  {
+   "source": "scyborg-human-clause",
+   "target": "whitepaper",
+   "type": "published_in"
+  },
+  {
+   "source": "scyborg-human-clause",
+   "target": "ecoprimal",
+   "type": "authored_by"
+  },
+  {
+   "source": "data-reciprocity",
+   "target": "whitepaper",
+   "type": "published_in"
+  },
+  {
+   "source": "data-reciprocity",
+   "target": "ecoprimal",
+   "type": "authored_by"
+  },
+  {
+   "source": "zuckerberg-drinks-poison",
+   "target": "whitepaper",
+   "type": "published_in"
+  },
+  {
+   "source": "zuckerberg-drinks-poison",
+   "target": "ecoprimal",
+   "type": "authored_by"
+  },
+  {
+   "source": "scyborg-human-clause",
+   "target": "scyborg-license",
+   "type": "clarifies"
+  },
+  {
+   "source": "scyborg-human-clause",
+   "target": "welcome-fanvanf",
+   "type": "applies_to"
+  },
+  {
+   "source": "scyborg-human-clause",
+   "target": "beacon",
+   "type": "extends"
+  },
+  {
+   "source": "scyborg-human-clause",
+   "target": "the-button",
+   "type": "protects"
+  },
+  {
+   "source": "scyborg-human-clause",
+   "target": "first-star",
+   "type": "celebrates"
+  },
+  {
+   "source": "scyborg-human-clause",
+   "target": "story-scyborg",
+   "type": "human_side_of"
+  },
+  {
+   "source": "scyborg-human-clause",
+   "target": "story-dark-forest",
+   "type": "companion_to"
+  },
+  {
+   "source": "data-reciprocity",
+   "target": "scyborg-human-clause",
+   "type": "implements"
+  },
+  {
+   "source": "data-reciprocity",
+   "target": "welcome-fanvanf",
+   "type": "extends_to"
+  },
+  {
+   "source": "data-reciprocity",
+   "target": "spring-wet",
+   "type": "offers"
+  },
+  {
+   "source": "data-reciprocity",
+   "target": "spring-hot",
+   "type": "offers"
+  },
+  {
+   "source": "data-reciprocity",
+   "target": "spring-air",
+   "type": "offers"
+  },
+  {
+   "source": "data-reciprocity",
+   "target": "spring-neural",
+   "type": "offers"
+  },
+  {
+   "source": "data-reciprocity",
+   "target": "spring-health",
+   "type": "offers"
+  },
+  {
+   "source": "data-reciprocity",
+   "target": "wp-gen5",
+   "type": "fulfills"
+  },
+  {
+   "source": "data-reciprocity",
+   "target": "story-the-invitation",
+   "type": "enacts"
+  },
+  {
+   "source": "data-reciprocity",
+   "target": "story-sovereign-publication",
+   "type": "enables"
+  },
+  {
+   "source": "zuckerberg-drinks-poison",
+   "target": "scyborg-license",
+   "type": "activates"
+  },
+  {
+   "source": "zuckerberg-drinks-poison",
+   "target": "first-star",
+   "type": "contrasts_with"
+  },
+  {
+   "source": "zuckerberg-drinks-poison",
+   "target": "fleet-vs-human",
+   "type": "extends"
+  },
+  {
+   "source": "zuckerberg-drinks-poison",
+   "target": "wp-inf-cease-desist",
+   "type": "follows"
+  },
+  {
+   "source": "zuckerberg-drinks-poison",
+   "target": "story-musk-betrayal",
+   "type": "parallels"
+  },
+  {
+   "source": "zuckerberg-drinks-poison",
+   "target": "story-bread-thief",
+   "type": "parallels"
+  },
+  {
+   "source": "zuckerberg-drinks-poison",
+   "target": "meta",
+   "type": "indicts"
+  },
+  {
+   "source": "zuckerberg-drinks-poison",
+   "target": "facebook_meta",
+   "type": "indicts"
+  },
+  {
+   "source": "zuckerberg-drinks-poison",
+   "target": "meta-platforms",
+   "type": "indicts"
+  },
+  {
+   "source": "scyborg-human-clause",
+   "target": "data-reciprocity",
+   "type": "related"
+  },
+  {
+   "source": "scyborg-human-clause",
+   "target": "zuckerberg-drinks-poison",
+   "type": "related"
+  },
+  {
+   "source": "data-reciprocity",
+   "target": "scyborg-human-clause",
+   "type": "related"
+  },
+  {
+   "source": "data-reciprocity",
+   "target": "zuckerberg-drinks-poison",
+   "type": "related"
+  },
+  {
+   "source": "zuckerberg-drinks-poison",
+   "target": "scyborg-human-clause",
+   "type": "related"
+  },
+  {
+   "source": "zuckerberg-drinks-poison",
+   "target": "data-reciprocity",
+   "type": "related"
   }
  ]
 }
