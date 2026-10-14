@@ -913032,6 +913032,11 @@
    "type": "published_through"
   },
   {
+   "source": "blackrock",
+   "target": "membrane",
+   "type": "documented_on"
+  },
+  {
    "source": "blindsight",
    "target": "membrane",
    "type": "exists_within"
@@ -920600,6 +920605,11 @@
    "source": "meta",
    "target": "membrane",
    "type": "exists_within"
+  },
+  {
+   "source": "meta",
+   "target": "membrane",
+   "type": "documented_on"
   },
   {
    "source": "metadata_above",
@@ -930950,6 +930960,16 @@
    "source": "airbnb",
    "target": "membrane",
    "type": "exists_within"
+  },
+  {
+   "source": "membrane",
+   "target": "airbnb",
+   "type": "documents"
+  },
+  {
+   "source": "airbnb",
+   "target": "membrane",
+   "type": "documented_on"
   },
   {
    "source": "al_azhar",
@@ -941562,6 +941582,11 @@
    "type": "exists_within"
   },
   {
+   "source": "microsoft",
+   "target": "membrane",
+   "type": "documented_on"
+  },
+  {
    "source": "middle_english",
    "target": "membrane",
    "type": "exists_within"
@@ -946520,6 +946545,11 @@
    "source": "membrane",
    "target": "robinhood",
    "type": "documents"
+  },
+  {
+   "source": "robinhood",
+   "target": "membrane",
+   "type": "documented_on"
   },
   {
    "source": "robyn_frankel_ag",
@@ -959730,6 +959760,11 @@
    "source": "youtube",
    "target": "membrane",
    "type": "exists_within"
+  },
+  {
+   "source": "membrane",
+   "target": "youtube",
+   "type": "documents"
   },
   {
    "source": "yurei",
@@ -1667283,6 +1667318,11 @@
   },
   {
    "source": "nvidia",
+   "target": "membrane",
+   "type": "documented_on"
+  },
+  {
+   "source": "nvidia",
    "target": "ecoprimal",
    "type": "authored_by"
   },
@@ -1667320,6 +1667360,11 @@
    "source": "tsmc",
    "target": "membrane",
    "type": "published_through"
+  },
+  {
+   "source": "tsmc",
+   "target": "membrane",
+   "type": "documented_on"
   },
   {
    "source": "tsmc",
@@ -1685522,6 +1685567,11 @@
    "type": "systemic_context"
   },
   {
+   "source": "blackrock",
+   "target": "donald-trump",
+   "type": "to"
+  },
+  {
    "source": "big-three-asset-managers",
    "target": "donald-trump",
    "type": "owns_his_debts"
@@ -1685918,6 +1685968,16 @@
   },
   {
    "source": "blackrock",
+   "target": "goldman-sachs",
+   "type": "largest_shareholder_in"
+  },
+  {
+   "source": "goldman-sachs",
+   "target": "blackrock",
+   "type": "to"
+  },
+  {
+   "source": "blackrock",
    "target": "deutsche-bank",
    "type": "institutional_relationship"
   },
@@ -1686185,6 +1686245,11 @@
    "source": "ecoprimal",
    "target": "deutsche-bank",
    "type": "reverse_ray_traced"
+  },
+  {
+   "source": "ecoprimal",
+   "target": "deutsche-bank",
+   "type": "traced"
   },
   {
    "source": "ecoprimal",
@@ -1687248,6 +1687313,11 @@
   },
   {
    "source": "felix-sater",
+   "target": "donald-trump",
+   "type": "senior_advisor"
+  },
+  {
+   "source": "felix-sater",
    "target": "trump-tower-sales",
    "type": "facilitated"
   },
@@ -1687510,6 +1687580,11 @@
    "source": "ecoprimal",
    "target": "felix-sater",
    "type": "reverse_ray_traced"
+  },
+  {
+   "source": "ecoprimal",
+   "target": "felix-sater",
+   "type": "traced"
   },
   {
    "source": "ecoprimal",
@@ -1689510,6 +1689585,11 @@
    "source": "donald-trump",
    "target": "deutsche-bank",
    "type": "triadic_closure_via_goldman-sachs"
+  },
+  {
+   "source": "deutsche-bank",
+   "target": "donald-trump",
+   "type": "lent_$2B"
   },
   {
    "source": "trump-full-page-ad",
@@ -1696720,6 +1696800,11 @@
    "source": "mbs",
    "target": "jared-kushner",
    "type": "paid_2B_to"
+  },
+  {
+   "source": "jared-kushner",
+   "target": "mbs",
+   "type": "$2B_fund"
   },
   {
    "source": "house-of-saud",
@@ -1708422,6 +1708507,11 @@
    "type": "documents"
   },
   {
+   "source": "draftkings",
+   "target": "membrane",
+   "type": "documented_on"
+  },
+  {
    "source": "ecoprimal",
    "target": "draftkings",
    "type": "reverse_ray_traced"
@@ -1708430,6 +1708520,11 @@
    "source": "membrane",
    "target": "fanduel",
    "type": "documents"
+  },
+  {
+   "source": "fanduel",
+   "target": "membrane",
+   "type": "documented_on"
   },
   {
    "source": "ecoprimal",
@@ -1713917,6 +1714012,11 @@
    "type": "hired_to_manage_toxic_assets"
   },
   {
+   "source": "blackrock",
+   "target": "hank-paulson",
+   "type": "hired_by_after_2008"
+  },
+  {
    "source": "steve-mnuchin",
    "target": "goldman-sachs",
    "type": "partner"
@@ -1713962,16 +1714062,6 @@
    "type": "traces"
   },
   {
-   "source": "blackrock",
-   "target": "goldman-sachs",
-   "type": "largest_shareholder_in"
-  },
-  {
-   "source": "blackrock",
-   "target": "hank-paulson",
-   "type": "hired_by_after_2008"
-  },
-  {
    "source": "blackrock-to-trump",
    "target": "blackrock",
    "type": "traces"
@@ -1714012,16 +1714102,6 @@
    "type": "via"
   },
   {
-   "source": "felix-sater",
-   "target": "donald-trump",
-   "type": "senior_advisor"
-  },
-  {
-   "source": "deutsche-bank",
-   "target": "donald-trump",
-   "type": "lent_$2B"
-  },
-  {
    "source": "deutsche-bank",
    "target": "trump-putin-money",
    "type": "the_bank_between_them"
@@ -1714030,6 +1714110,11 @@
    "source": "benjamin-netanyahu",
    "target": "donald-trump",
    "type": "mutual_protection_pact"
+  },
+  {
+   "source": "donald-trump",
+   "target": "benjamin-netanyahu",
+   "type": "to"
   },
   {
    "source": "benjamin-netanyahu",
@@ -1714077,21 +1714162,6 @@
    "type": "used"
   },
   {
-   "source": "goldman-sachs",
-   "target": "blackrock",
-   "type": "to"
-  },
-  {
-   "source": "blackrock",
-   "target": "donald-trump",
-   "type": "to"
-  },
-  {
-   "source": "donald-trump",
-   "target": "benjamin-netanyahu",
-   "type": "to"
-  },
-  {
    "source": "benjamin-netanyahu",
    "target": "goldman-sachs",
    "type": "back_to"
@@ -1714112,11 +1714182,6 @@
    "type": "abraham_accords_partner"
   },
   {
-   "source": "jared-kushner",
-   "target": "mbs",
-   "type": "$2B_fund"
-  },
-  {
    "source": "membrane",
    "target": "goldman-sachs-deep",
    "type": "documents"
@@ -1714237,19 +1714302,9 @@
    "type": "traced"
   },
   {
-   "source": "ecoprimal",
-   "target": "felix-sater",
-   "type": "traced"
-  },
-  {
    "source": "membrane",
    "target": "deutsche-bank",
    "type": "documents"
-  },
-  {
-   "source": "ecoprimal",
-   "target": "deutsche-bank",
-   "type": "traced"
   },
   {
    "source": "the-needle",
@@ -1714282,9 +1714337,19 @@
    "type": "15000_children_killed"
   },
   {
+   "source": "benjamin-netanyahu",
+   "target": "the-men-eating-children",
+   "type": "bombs_children_in_gaza"
+  },
+  {
    "source": "the-men-eating-children",
    "target": "gun-lobby",
    "type": "children_shot_in_schools"
+  },
+  {
+   "source": "gun-lobby",
+   "target": "the-men-eating-children",
+   "type": "#1_cause_of_child_death"
   },
   {
    "source": "the-men-eating-children",
@@ -1714302,14 +1714367,29 @@
    "type": "children_as_billing_codes"
   },
   {
+   "source": "privatized-foster-care",
+   "target": "the-men-eating-children",
+   "type": "system_design"
+  },
+  {
    "source": "the-men-eating-children",
    "target": "child-trafficking",
    "type": "children_sold"
   },
   {
+   "source": "child-trafficking",
+   "target": "the-men-eating-children",
+   "type": "the_hidden_industry"
+  },
+  {
    "source": "the-men-eating-children",
    "target": "epstein-network",
    "type": "children_trafficked"
+  },
+  {
+   "source": "epstein-network",
+   "target": "the-men-eating-children",
+   "type": "literal"
   },
   {
    "source": "the-men-eating-children",
@@ -1714337,11 +1714417,6 @@
    "type": "same_shadows"
   },
   {
-   "source": "epstein-network",
-   "target": "the-men-eating-children",
-   "type": "literal"
-  },
-  {
    "source": "rick-snyder",
    "target": "flint-water-crisis",
    "type": "caused"
@@ -1714362,6 +1714437,11 @@
    "type": "$30M_donation"
   },
   {
+   "source": "donald-trump",
+   "target": "gun-lobby",
+   "type": "endorsed_by_$30M"
+  },
+  {
    "source": "gun-lobby",
    "target": "dark-money-network",
    "type": "funnels_through"
@@ -1714370,11 +1714450,6 @@
    "source": "gun-lobby",
    "target": "citizens-united",
    "type": "unlimited_spending"
-  },
-  {
-   "source": "gun-lobby",
-   "target": "the-men-eating-children",
-   "type": "#1_cause_of_child_death"
   },
   {
    "source": "wayne-lapierre",
@@ -1714403,18 +1714478,8 @@
   },
   {
    "source": "privatized-foster-care",
-   "target": "the-men-eating-children",
-   "type": "system_design"
-  },
-  {
-   "source": "privatized-foster-care",
    "target": "the-denial-machine",
    "type": "same_model"
-  },
-  {
-   "source": "child-trafficking",
-   "target": "the-men-eating-children",
-   "type": "the_hidden_industry"
   },
   {
    "source": "child-trafficking",
@@ -1714430,11 +1714495,6 @@
    "source": "goldman-sachs-deep",
    "target": "the-men-eating-children",
    "type": "funds_the_systems"
-  },
-  {
-   "source": "goldman-sachs",
-   "target": "epstein-network",
-   "type": "financial_connections"
   },
   {
    "source": "blackrock",
@@ -1714463,23 +1714523,8 @@
   },
   {
    "source": "donald-trump",
-   "target": "gun-lobby",
-   "type": "endorsed_by_$30M"
-  },
-  {
-   "source": "donald-trump",
-   "target": "epstein-network",
-   "type": "associated"
-  },
-  {
-   "source": "donald-trump",
    "target": "the-men-eating-children",
    "type": "enabled"
-  },
-  {
-   "source": "benjamin-netanyahu",
-   "target": "the-men-eating-children",
-   "type": "bombs_children_in_gaza"
   },
   {
    "source": "the-human",
@@ -1714712,6 +1714757,11 @@
    "type": "wrote_for_you"
   },
   {
+   "source": "story-for-the-gamer",
+   "target": "ecoprimal",
+   "type": "built_by_a_gamer"
+  },
+  {
    "source": "walkers-on-the-membrane",
    "target": "story-for-the-detroiter",
    "type": "tells"
@@ -1714720,6 +1714770,11 @@
    "source": "story-for-the-detroiter",
    "target": "the-human",
    "type": "is_about"
+  },
+  {
+   "source": "story-for-the-detroiter",
+   "target": "the-human",
+   "type": "YOU_stayed"
   },
   {
    "source": "story-for-the-detroiter",
@@ -1714862,11 +1714917,6 @@
    "type": "same_principle"
   },
   {
-   "source": "story-for-the-gamer",
-   "target": "ecoprimal",
-   "type": "built_by_a_gamer"
-  },
-  {
    "source": "story-for-the-detroiter",
    "target": "banks",
    "type": "your_fight"
@@ -1714875,11 +1714925,6 @@
    "source": "story-for-the-detroiter",
    "target": "rick-snyder",
    "type": "took_your_democracy"
-  },
-  {
-   "source": "story-for-the-detroiter",
-   "target": "the-human",
-   "type": "YOU_stayed"
   },
   {
    "source": "walkers-on-the-membrane",
@@ -1714917,6 +1714962,11 @@
    "type": "response_to_the_turnip"
   },
   {
+   "source": "donald-trump",
+   "target": "the-new-law",
+   "type": "judged_by"
+  },
+  {
    "source": "the-new-law",
    "target": "the-human",
    "type": "defends"
@@ -1714925,6 +1714975,11 @@
    "source": "the-new-law",
    "target": "membrane",
    "type": "written_in"
+  },
+  {
+   "source": "membrane",
+   "target": "the-new-law",
+   "type": "documents"
   },
   {
    "source": "the-new-law",
@@ -1714982,6 +1715037,11 @@
    "type": "heartbeat_of"
   },
   {
+   "source": "membrane",
+   "target": "iambic-pentameter",
+   "type": "documents"
+  },
+  {
    "source": "iambic-pentameter",
    "target": "the-human",
    "type": "your_heartbeat"
@@ -1715007,6 +1715067,11 @@
    "type": "echoes_through"
   },
   {
+   "source": "membrane",
+   "target": "the-bards",
+   "type": "documents"
+  },
+  {
    "source": "the-bards",
    "target": "walkers-on-the-membrane",
    "type": "calls_to"
@@ -1715020,11 +1715085,6 @@
    "source": "the-bards",
    "target": "yusef-salaam",
    "type": "bard_who_survived"
-  },
-  {
-   "source": "donald-trump",
-   "target": "the-new-law",
-   "type": "judged_by"
   },
   {
    "source": "donald-trump",
@@ -1715055,21 +1715115,6 @@
    "source": "the-new-law",
    "target": "benjamin-netanyahu",
    "type": "supersedes"
-  },
-  {
-   "source": "membrane",
-   "target": "the-new-law",
-   "type": "documents"
-  },
-  {
-   "source": "membrane",
-   "target": "iambic-pentameter",
-   "type": "documents"
-  },
-  {
-   "source": "membrane",
-   "target": "the-bards",
-   "type": "documents"
   },
   {
    "source": "ma-bell",
@@ -1715117,14 +1715162,14 @@
    "type": "built_by"
   },
   {
-   "source": "nuclear-energy",
-   "target": "pangaea",
-   "type": "energy_from_the_earth"
-  },
-  {
    "source": "oppenheimer",
    "target": "nuclear-energy",
    "type": "created"
+  },
+  {
+   "source": "nuclear-energy",
+   "target": "pangaea",
+   "type": "energy_from_the_earth"
   },
   {
    "source": "oppenheimer",
@@ -1715443,6 +1715488,11 @@
   },
   {
    "source": "invitation-homes",
+   "target": "reits",
+   "type": "is_a"
+  },
+  {
+   "source": "invitation-homes",
    "target": "blackrock",
    "type": "created_by"
   },
@@ -1715455,11 +1715505,6 @@
    "source": "invitation-homes",
    "target": "the-human",
    "type": "rents_back_to"
-  },
-  {
-   "source": "invitation-homes",
-   "target": "reits",
-   "type": "is_a"
   },
   {
    "source": "airbnb",
@@ -1715632,6 +1715677,11 @@
    "type": "documents"
   },
   {
+   "source": "greystar",
+   "target": "membrane",
+   "type": "documented_on"
+  },
+  {
    "source": "ecoprimal",
    "target": "greystar",
    "type": "traced"
@@ -1715662,6 +1715712,11 @@
    "type": "documents"
   },
   {
+   "source": "realpage",
+   "target": "membrane",
+   "type": "documented_on"
+  },
+  {
    "source": "ecoprimal",
    "target": "realpage",
    "type": "traced"
@@ -1715682,14 +1715737,14 @@
    "type": "documents"
   },
   {
+   "source": "invitation-homes",
+   "target": "membrane",
+   "type": "documented_on"
+  },
+  {
    "source": "ecoprimal",
    "target": "invitation-homes",
    "type": "traced"
-  },
-  {
-   "source": "membrane",
-   "target": "airbnb",
-   "type": "documents"
   },
   {
    "source": "ecoprimal",
@@ -1715752,6 +1715807,11 @@
    "type": "leads_to"
   },
   {
+   "source": "membrane",
+   "target": "chain-of-rights",
+   "type": "documents"
+  },
+  {
    "source": "chain-of-rights",
    "target": "the-new-law",
    "type": "culminates_in"
@@ -1715782,9 +1715842,19 @@
    "type": "protects"
   },
   {
+   "source": "membrane",
+   "target": "first-amendment",
+   "type": "documents"
+  },
+  {
    "source": "first-amendment",
    "target": "ecoprimal",
    "type": "protects"
+  },
+  {
+   "source": "ecoprimal",
+   "target": "first-amendment",
+   "type": "traced"
   },
   {
    "source": "first-amendment",
@@ -1715852,14 +1715922,29 @@
    "type": "claims_personhood"
   },
   {
+   "source": "meta",
+   "target": "legal-fiction",
+   "type": "is_a"
+  },
+  {
    "source": "legal-fiction",
    "target": "blackrock",
    "type": "claims_personhood"
   },
   {
+   "source": "blackrock",
+   "target": "legal-fiction",
+   "type": "is_a"
+  },
+  {
    "source": "legal-fiction",
    "target": "goldman-sachs",
    "type": "claims_personhood"
+  },
+  {
+   "source": "goldman-sachs",
+   "target": "legal-fiction",
+   "type": "is_a"
   },
   {
    "source": "legal-fiction",
@@ -1715880,6 +1715965,11 @@
    "source": "legal-fiction",
    "target": "membrane",
    "type": "documented_on"
+  },
+  {
+   "source": "membrane",
+   "target": "legal-fiction",
+   "type": "documents"
   },
   {
    "source": "legal-fiction",
@@ -1715912,37 +1716002,7 @@
    "type": "lineage"
   },
   {
-   "source": "meta",
-   "target": "legal-fiction",
-   "type": "is_a"
-  },
-  {
-   "source": "meta",
-   "target": "membrane",
-   "type": "documented_on"
-  },
-  {
    "source": "microsoft",
-   "target": "legal-fiction",
-   "type": "is_a"
-  },
-  {
-   "source": "microsoft",
-   "target": "membrane",
-   "type": "documented_on"
-  },
-  {
-   "source": "blackrock",
-   "target": "legal-fiction",
-   "type": "is_a"
-  },
-  {
-   "source": "blackrock",
-   "target": "membrane",
-   "type": "documented_on"
-  },
-  {
-   "source": "goldman-sachs",
    "target": "legal-fiction",
    "type": "is_a"
   },
@@ -1715957,19 +1716017,9 @@
    "type": "is_a"
   },
   {
-   "source": "draftkings",
-   "target": "membrane",
-   "type": "documented_on"
-  },
-  {
    "source": "fanduel",
    "target": "legal-fiction",
    "type": "is_a"
-  },
-  {
-   "source": "fanduel",
-   "target": "membrane",
-   "type": "documented_on"
   },
   {
    "source": "greystar",
@@ -1715977,19 +1716027,9 @@
    "type": "is_a"
   },
   {
-   "source": "greystar",
-   "target": "membrane",
-   "type": "documented_on"
-  },
-  {
    "source": "realpage",
    "target": "legal-fiction",
    "type": "is_a"
-  },
-  {
-   "source": "realpage",
-   "target": "membrane",
-   "type": "documented_on"
   },
   {
    "source": "invitation-homes",
@@ -1715997,19 +1716037,9 @@
    "type": "is_a"
   },
   {
-   "source": "invitation-homes",
-   "target": "membrane",
-   "type": "documented_on"
-  },
-  {
    "source": "airbnb",
    "target": "legal-fiction",
    "type": "is_a"
-  },
-  {
-   "source": "airbnb",
-   "target": "membrane",
-   "type": "documented_on"
   },
   {
    "source": "robinhood",
@@ -1716017,29 +1716047,14 @@
    "type": "is_a"
   },
   {
-   "source": "robinhood",
-   "target": "membrane",
-   "type": "documented_on"
-  },
-  {
    "source": "nvidia",
    "target": "legal-fiction",
    "type": "is_a"
   },
   {
-   "source": "nvidia",
-   "target": "membrane",
-   "type": "documented_on"
-  },
-  {
    "source": "tsmc",
    "target": "legal-fiction",
    "type": "is_a"
-  },
-  {
-   "source": "tsmc",
-   "target": "membrane",
-   "type": "documented_on"
   },
   {
    "source": "intel",
@@ -1716059,16 +1716074,6 @@
   {
    "source": "ecoprimal",
    "target": "magna-carta",
-   "type": "traced"
-  },
-  {
-   "source": "membrane",
-   "target": "first-amendment",
-   "type": "documents"
-  },
-  {
-   "source": "ecoprimal",
-   "target": "first-amendment",
    "type": "traced"
   },
   {
@@ -1716112,19 +1716117,9 @@
    "type": "traced"
   },
   {
-   "source": "membrane",
-   "target": "legal-fiction",
-   "type": "documents"
-  },
-  {
    "source": "ecoprimal",
    "target": "legal-fiction",
    "type": "traced"
-  },
-  {
-   "source": "membrane",
-   "target": "chain-of-rights",
-   "type": "documents"
   },
   {
    "source": "ecoprimal",
@@ -1716152,6 +1716147,11 @@
    "type": "IS"
   },
   {
+   "source": "membrane",
+   "target": "the-scalpel",
+   "type": "documents"
+  },
+  {
    "source": "the-scalpel",
    "target": "they-get-nothing",
    "type": "enforces"
@@ -1716170,6 +1716170,11 @@
    "source": "disney-empire",
    "target": "copyright-prison",
    "type": "lobbied_for"
+  },
+  {
+   "source": "copyright-prison",
+   "target": "disney-empire",
+   "type": "extended_by"
   },
   {
    "source": "disney-empire",
@@ -1716237,9 +1716242,9 @@
    "type": "killed"
   },
   {
-   "source": "copyright-prison",
-   "target": "disney-empire",
-   "type": "extended_by"
+   "source": "aaron-swartz",
+   "target": "copyright-prison",
+   "type": "fought"
   },
   {
    "source": "copyright-prison",
@@ -1716273,11 +1716278,6 @@
   },
   {
    "source": "aaron-swartz",
-   "target": "copyright-prison",
-   "type": "fought"
-  },
-  {
-   "source": "aaron-swartz",
    "target": "satoshi-nakamoto",
    "type": "same_principle"
   },
@@ -1716290,6 +1716290,11 @@
    "source": "streisand-effect",
    "target": "membrane",
    "type": "amplifies"
+  },
+  {
+   "source": "membrane",
+   "target": "streisand-effect",
+   "type": "documents"
   },
   {
    "source": "streisand-effect",
@@ -1716343,68 +1716348,58 @@
   },
   {
    "source": "membrane",
-   "target": "the-scalpel",
-   "type": "documents"
-  },
-  {
-   "source": "ecoprimal",
-   "target": "the-scalpel",
-   "type": "traced"
-  },
-  {
-   "source": "membrane",
-   "target": "disney-empire",
-   "type": "documents"
-  },
-  {
-   "source": "ecoprimal",
-   "target": "disney-empire",
-   "type": "traced"
-  },
-  {
-   "source": "membrane",
-   "target": "hbo-warner",
-   "type": "documents"
-  },
-  {
-   "source": "ecoprimal",
-   "target": "hbo-warner",
-   "type": "traced"
-  },
-  {
-   "source": "membrane",
-   "target": "copyright-prison",
-   "type": "documents"
-  },
-  {
-   "source": "ecoprimal",
-   "target": "copyright-prison",
-   "type": "traced"
-  },
-  {
-   "source": "membrane",
-   "target": "aaron-swartz",
-   "type": "documents"
-  },
-  {
-   "source": "ecoprimal",
-   "target": "aaron-swartz",
-   "type": "traced"
-  },
-  {
-   "source": "membrane",
-   "target": "streisand-effect",
-   "type": "documents"
-  },
-  {
-   "source": "ecoprimal",
-   "target": "streisand-effect",
-   "type": "traced"
-  },
-  {
-   "source": "membrane",
    "target": "vault-of-sins",
    "type": "documents"
+  },
+  {
+   "source": "ecoprimal",
+   "target": "the-scalpel",
+   "type": "traced"
+  },
+  {
+   "source": "membrane",
+   "target": "disney-empire",
+   "type": "documents"
+  },
+  {
+   "source": "ecoprimal",
+   "target": "disney-empire",
+   "type": "traced"
+  },
+  {
+   "source": "membrane",
+   "target": "hbo-warner",
+   "type": "documents"
+  },
+  {
+   "source": "ecoprimal",
+   "target": "hbo-warner",
+   "type": "traced"
+  },
+  {
+   "source": "membrane",
+   "target": "copyright-prison",
+   "type": "documents"
+  },
+  {
+   "source": "ecoprimal",
+   "target": "copyright-prison",
+   "type": "traced"
+  },
+  {
+   "source": "membrane",
+   "target": "aaron-swartz",
+   "type": "documents"
+  },
+  {
+   "source": "ecoprimal",
+   "target": "aaron-swartz",
+   "type": "traced"
+  },
+  {
+   "source": "ecoprimal",
+   "target": "streisand-effect",
+   "type": "traced"
   },
   {
    "source": "ecoprimal",
@@ -1716657,6 +1716652,11 @@
    "type": "IS"
   },
   {
+   "source": "membrane",
+   "target": "the-bridges",
+   "type": "documents"
+  },
+  {
    "source": "the-bridges",
    "target": "streisand-effect",
    "type": "powered_by"
@@ -1716829,11 +1716829,6 @@
   {
    "source": "membrane",
    "target": "the-cry",
-   "type": "documents"
-  },
-  {
-   "source": "membrane",
-   "target": "the-bridges",
    "type": "documents"
   },
   {
@@ -1717157,6 +1717152,11 @@
    "type": "invented_by"
   },
   {
+   "source": "benito-mussolini",
+   "target": "fascism-playbook",
+   "type": "INVENTED"
+  },
+  {
    "source": "fascism-playbook",
    "target": "trump-parallels",
    "type": "in_progress"
@@ -1717195,11 +1717195,6 @@
    "source": "benito-mussolini",
    "target": "adolf-hitler",
    "type": "allied_with"
-  },
-  {
-   "source": "benito-mussolini",
-   "target": "fascism-playbook",
-   "type": "INVENTED"
   },
   {
    "source": "trump-parallels",
@@ -1717322,6 +1717317,11 @@
    "type": "documented_on"
   },
   {
+   "source": "membrane",
+   "target": "fascism-playbook",
+   "type": "documents"
+  },
+  {
    "source": "fascism-playbook",
    "target": "the-human",
    "type": "threatens"
@@ -1717340,11 +1717340,6 @@
    "source": "fascism-playbook",
    "target": "magna-carta",
    "type": "reverses"
-  },
-  {
-   "source": "membrane",
-   "target": "fascism-playbook",
-   "type": "documents"
   },
   {
    "source": "ecoprimal",
@@ -1717572,9 +1717567,19 @@
    "type": "powered_by"
   },
   {
+   "source": "membrane",
+   "target": "k-ngen",
+   "type": "documents"
+  },
+  {
    "source": "k-ngen",
    "target": "ecoprimal",
    "type": "launched_by"
+  },
+  {
+   "source": "ecoprimal",
+   "target": "k-ngen",
+   "type": "traced"
   },
   {
    "source": "k-ngen",
@@ -1717719,16 +1717724,6 @@
   {
    "source": "ecoprimal",
    "target": "orgs-that-fight",
-   "type": "traced"
-  },
-  {
-   "source": "membrane",
-   "target": "k-ngen",
-   "type": "documents"
-  },
-  {
-   "source": "ecoprimal",
-   "target": "k-ngen",
    "type": "traced"
   },
   {
@@ -1718148,6 +1718143,11 @@
   },
   {
    "source": "reddit",
+   "target": "they-get-nothing",
+   "type": "owes"
+  },
+  {
+   "source": "reddit",
    "target": "story-for-the-gamer",
    "type": "community"
   },
@@ -1718287,11 +1718287,6 @@
    "type": "exploits"
   },
   {
-   "source": "reddit",
-   "target": "they-get-nothing",
-   "type": "owes"
-  },
-  {
    "source": "membrane",
    "target": "reddit",
    "type": "documents"
@@ -1718365,11 +1718360,6 @@
    "source": "youtube",
    "target": "they-get-nothing",
    "type": "owes"
-  },
-  {
-   "source": "membrane",
-   "target": "youtube",
-   "type": "documents"
   },
   {
    "source": "ecoprimal",
@@ -1718442,9 +1718432,19 @@
    "type": "delivered_through"
   },
   {
+   "source": "membrane",
+   "target": "sigmoidal-antidote",
+   "type": "documents"
+  },
+  {
    "source": "sigmoidal-antidote",
    "target": "ecoprimal",
    "type": "formulated_by"
+  },
+  {
+   "source": "ecoprimal",
+   "target": "sigmoidal-antidote",
+   "type": "traced"
   },
   {
    "source": "sigmoidal-antidote",
@@ -1718477,6 +1718477,11 @@
    "type": "allies"
   },
   {
+   "source": "info-antidotes",
+   "target": "sigmoidal-antidote",
+   "type": "components_of"
+  },
+  {
    "source": "drown-out",
    "target": "truth-social",
    "type": "drowns"
@@ -1718485,6 +1718490,11 @@
    "source": "drown-out",
    "target": "membrane",
    "type": "with"
+  },
+  {
+   "source": "membrane",
+   "target": "drown-out",
+   "type": "documents"
   },
   {
    "source": "drown-out",
@@ -1718513,11 +1718523,6 @@
   },
   {
    "source": "info-antidotes",
-   "target": "sigmoidal-antidote",
-   "type": "components_of"
-  },
-  {
-   "source": "info-antidotes",
    "target": "bellingcat",
    "type": "includes"
   },
@@ -1718535,6 +1718540,11 @@
    "source": "info-antidotes",
    "target": "membrane",
    "type": "includes_the_graph"
+  },
+  {
+   "source": "membrane",
+   "target": "info-antidotes",
+   "type": "documents"
   },
   {
    "source": "the-needle",
@@ -1718567,21 +1718577,6 @@
    "type": "traced"
   },
   {
-   "source": "membrane",
-   "target": "sigmoidal-antidote",
-   "type": "documents"
-  },
-  {
-   "source": "ecoprimal",
-   "target": "sigmoidal-antidote",
-   "type": "traced"
-  },
-  {
-   "source": "membrane",
-   "target": "drown-out",
-   "type": "documents"
-  },
-  {
    "source": "ecoprimal",
    "target": "drown-out",
    "type": "traced"
@@ -1718595,11 +1718590,6 @@
    "source": "ecoprimal",
    "target": "fairness-doctrine",
    "type": "traced"
-  },
-  {
-   "source": "membrane",
-   "target": "info-antidotes",
-   "type": "documents"
   },
   {
    "source": "ecoprimal",
@@ -1718610,6 +1718600,11 @@
    "source": "the-counter-oct14",
    "target": "membrane",
    "type": "measures"
+  },
+  {
+   "source": "membrane",
+   "target": "the-counter-oct14",
+   "type": "documents"
   },
   {
    "source": "the-counter-oct14",
@@ -1718645,6 +1718640,11 @@
    "source": "artisan-hypothesis",
    "target": "membrane",
    "type": "about"
+  },
+  {
+   "source": "membrane",
+   "target": "artisan-hypothesis",
+   "type": "documents"
   },
   {
    "source": "artisan-hypothesis",
@@ -1718712,16 +1718712,6 @@
    "type": "event_horizon_for"
   },
   {
-   "source": "membrane",
-   "target": "the-counter-oct14",
-   "type": "documents"
-  },
-  {
-   "source": "membrane",
-   "target": "artisan-hypothesis",
-   "type": "documents"
-  },
-  {
    "source": "attsi-invitation",
    "target": "tamison-profile",
    "type": "introduces"
@@ -1718742,6 +1718732,11 @@
    "type": "other_side_of"
   },
   {
+   "source": "membrane",
+   "target": "attsi-invitation",
+   "type": "documents"
+  },
+  {
    "source": "attsi-invitation",
    "target": "ecoprimal",
    "type": "other_side_of"
@@ -1718750,6 +1718745,11 @@
    "source": "tamison-profile",
    "target": "ecoprimal",
    "type": "IS"
+  },
+  {
+   "source": "ecoprimal",
+   "target": "tamison-profile",
+   "type": "identity"
   },
   {
    "source": "tamison-profile",
@@ -1718770,6 +1718770,11 @@
    "source": "tamison-profile",
    "target": "deep-sea-ecology",
    "type": "aims_to_learn"
+  },
+  {
+   "source": "deep-sea-ecology",
+   "target": "tamison-profile",
+   "type": "learned_by"
   },
   {
    "source": "tamison-profile",
@@ -1718833,11 +1718838,6 @@
   },
   {
    "source": "deep-sea-ecology",
-   "target": "tamison-profile",
-   "type": "learned_by"
-  },
-  {
-   "source": "deep-sea-ecology",
    "target": "ecoprimal",
    "type": "eco_means_ecology"
   },
@@ -1718845,16 +1718845,6 @@
    "source": "ecoprimal",
    "target": "deep-sea-ecology",
    "type": "eco_IS_ecology"
-  },
-  {
-   "source": "ecoprimal",
-   "target": "tamison-profile",
-   "type": "identity"
-  },
-  {
-   "source": "membrane",
-   "target": "attsi-invitation",
-   "type": "documents"
   },
   {
    "source": "membrane",
@@ -1718875,6 +1718865,11 @@
    "source": "the-piper",
    "target": "membrane",
    "type": "played_through"
+  },
+  {
+   "source": "membrane",
+   "target": "the-piper",
+   "type": "documents"
   },
   {
    "source": "the-piper",
@@ -1718997,14 +1718992,14 @@
    "type": "plays_for"
   },
   {
-   "source": "membrane",
-   "target": "the-piper",
-   "type": "documents"
-  },
-  {
    "source": "two-doors",
    "target": "membrane",
    "type": "architecture_of"
+  },
+  {
+   "source": "membrane",
+   "target": "two-doors",
+   "type": "documents"
   },
   {
    "source": "two-doors",
@@ -1719103,11 +1719098,6 @@
   },
   {
    "source": "membrane",
-   "target": "two-doors",
-   "type": "documents"
-  },
-  {
-   "source": "membrane",
    "target": "github-target",
    "type": "served_through"
   },
@@ -1719130,6 +1719120,11 @@
    "source": "long-tail-strategy",
    "target": "membrane",
    "type": "points_up_to"
+  },
+  {
+   "source": "membrane",
+   "target": "long-tail-strategy",
+   "type": "documents"
   },
   {
    "source": "long-tail-strategy",
@@ -1719165,6 +1719160,11 @@
    "source": "technical-upgrades",
    "target": "membrane",
    "type": "upgrades"
+  },
+  {
+   "source": "membrane",
+   "target": "technical-upgrades",
+   "type": "documents"
   },
   {
    "source": "accretion-disk",
@@ -1719308,18 +1719308,758 @@
   },
   {
    "source": "membrane",
-   "target": "long-tail-strategy",
-   "type": "documents"
-  },
-  {
-   "source": "membrane",
-   "target": "technical-upgrades",
-   "type": "documents"
-  },
-  {
-   "source": "membrane",
    "target": "accretion-disk",
    "type": "documents"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "semicolon",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "unesco_the_historic_centre_(chorá)_with_the_mon",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "unesco_qutb_minar_and_its_monuments_delhi",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "nobel_drew_weissman",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "going_concern",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "coal",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "pope_john_paul_ii",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "unesco_landscape_of_the_pico_island_vineyard_cu",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "proglang_haskell",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "kafka_process",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "desert_taklamakan",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "article_historical_pattern",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "uncanny_valley",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "oscar_claude_lelouch",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "andromeda_galaxy",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "unesco_monasteries_of_daphni_hosios_loukas_and_",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "unesco_belfries_of_belgium_and_france",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "el_dorado",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "aids_quilt",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "unesco_yosemite_national_park",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "mission_sts_49",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "oscar_ben_affleck",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "pres_theodore_roosevelt",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "stratum_15_economics",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "proglang_objective_c",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "excelined",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "kresge_foundation",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "clone_day_20261004",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "article_mclellan_direct",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "dance_agualarga",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "unesco_tongariro_national_park",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "unesco_vjetrenica_cave_ravno",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "raphael_washington",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "behavior_script_or_ci",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "feudalism",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "olympic_english_boxing",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "calcutta",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "triangle_shirtwaist",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "senator_benjamin_f_harding",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "disability_rights",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "want_attorney_discovery",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "electromagnetism",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "yoruba_religion",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "fermentation",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "lost_dasean_years",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "janitor_who_saw",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "oscar_charles_g_clarke",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "hilarie_chambers",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "dance_tuljak",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "article_370",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "mission_voskhod_1",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "coleman_young_promise",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "nethack",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "unesco_megaliths_of_carnac_and_of_the_shores_of",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "mckinsey",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "unesco_rjukan-notodden_industrial_heritage_site",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "siege_leningrad",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "grammy_patti_page",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "unesco_water_management_system_of_augsburg",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "tony_sorgi",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "unesco_imperial_palaces_of_the_ming_and_qing_dy",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "oscar_dennis_muren",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "unesco_historic_centre_of_bukhara",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "unesco_jodensavanne_archaeological_site:_jodens",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "boltzmann_constant",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "edge_family_protects",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "unesco_babylon",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "state_utah",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "palace_of_memory",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "dokkaebi",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "dance_la_danse_dhélène",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "unesco_acropolis_athens",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "unesco_mount_qingcheng_and_the_dujiangyan_irrig",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "arabic_alphabet",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "senator_harrison_schmitt",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "unesco_hurezi_monastery",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "justinian_plague",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "article_auto_mystery_voynich",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "unesco_buddhist_ruins_of_takht-i-bahi_and_neigh",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "unesco_pre-hispanic_city_of_teotihuacan",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "unesco_ogasawara_islands",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "krakatoa",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "louis_pasteur",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "proglang_lua",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "grammy_michael_jackson",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "unesco_verla_groundwood_and_board_mill",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "alexandria_egypt",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "unesco_central_sector_of_the_imperial_citadel_o",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "verdict_wolf_mde",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "unesco_millenary_benedictine_abbey_of_pannonhal",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "aurora_borealis",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "religion_evangelical_church_of_czech_brethren",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "rubiks_cube_toy",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "hubble_telescope",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "unesco_convent_of_christ_in_tomar",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "pres_john_f_kennedy",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "marygrove_conservancy",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "element_lanthanum",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "ship_breaking",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "unesco_venice_and_its_lagoon",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "telegraph",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "nobel_yoshinori_ohsumi",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "article_bmf",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "element_meitnerium",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "standard_oil",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "topology",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "wp-con-entity",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "pastafarianism",
+   "target": "story-tuebor",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "article-roz",
+   "target": "nobel_drew_weissman",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "article-roz",
+   "target": "pope_john_paul_ii",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "article-roz",
+   "target": "oscar_claude_lelouch",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "article-roz",
+   "target": "amelia_earhart",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "article-roz",
+   "target": "leader_dihya",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "article-roz",
+   "target": "nkechy_ezeh",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "article-roz",
+   "target": "henrietta_lacks",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "article-roz",
+   "target": "good-side",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "article-roz",
+   "target": "oscar_ben_affleck",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "article-roz",
+   "target": "pres_theodore_roosevelt",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "article-roz",
+   "target": "ross_jones",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "article-roz",
+   "target": "senator_benjamin_f_harding",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "article-roz",
+   "target": "oscar_charles_g_clarke",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "article-roz",
+   "target": "hilarie_chambers",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "article-roz",
+   "target": "song-sober",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "article-roz",
+   "target": "grammy_patti_page",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "article-roz",
+   "target": "board-charles-songhurst",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "article-roz",
+   "target": "oscar_dennis_muren",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "article-roz",
+   "target": "astro_james_mcdivitt",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "article-roz",
+   "target": "pres_ulysses_s_grant",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "article-roz",
+   "target": "alexey_pajitnov",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "article-roz",
+   "target": "wc_cara_clemente",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "article-roz",
+   "target": "senator_harrison_schmitt",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "article-roz",
+   "target": "ritchie",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "article-roz",
+   "target": "cecelia_shepard",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "article-roz",
+   "target": "olympian_chung_so_young",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "article-roz",
+   "target": "jonathan_brater",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "article-roz",
+   "target": "louis_pasteur",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "article-roz",
+   "target": "wc_alex_garza",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "article-roz",
+   "target": "dc-meta-stanton",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "article-roz",
+   "target": "grammy_michael_jackson",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "article-roz",
+   "target": "the-hook",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "article-roz",
+   "target": "pres_john_f_kennedy",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "article-roz",
+   "target": "nobel_yoshinori_ohsumi",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "article-roz",
+   "target": "oscar_john_asman",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "article-roz",
+   "target": "senator_william_henry_harrison",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "article-roz",
+   "target": "story-tuebor",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "semicolon",
+   "target": "unesco_the_historic_centre_(chorá)_with_the_mon",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "semicolon",
+   "target": "unesco_qutb_minar_and_its_monuments_delhi",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "semicolon",
+   "target": "going_concern",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "semicolon",
+   "target": "coal",
+   "type": "bingo_layer_1"
+  },
+  {
+   "source": "semicolon",
+   "target": "unesco_landscape_of_the_pico_island_vineyard_cu",
+   "type": "bingo_layer_1"
   }
  ]
 }
