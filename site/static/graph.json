@@ -91943,6 +91943,38 @@
     "membrane",
     "forever"
    ]
+  },
+  {
+   "id": "ecoprimal-lab",
+   "label": "THIS IS MY LAB — Where 9,217 Nodes Were Born\n\n~$15,000 total cost. Facebook Marketplace finds + Newegg sales.\nwestGate was a tower built while in the service.\n10 compute nodes. 3 Akida NPUs. 10-gigabit backbone.\nThis is the metal. This is where the graph was born.\n\n━━━━ THE GATES ━━━━\n\nnorthGate — THE FLAGSHIP\n  Intel i9-14900K. RTX 5090. 192 GB DDR5.\n  1 TB 990 Pro + 4 TB 990 EVO.\n  Main hub. Flagship AI/LLM compute.\n  This is where the heavy models run.\n\nsouthGate — THE GAMER TURNED WORKER\n  Ryzen 5800X3D. RTX 4060 (display) + swappable work GPUs.\n  128 GB DDR4. 1 TB (Win) + 4 TB (Linux). Dual boot.\n  Started as a gaming tower. Upgraded for the mesh.\n\neastGate — UTILITY + NEUROMORPHIC\n  Intel i9-12900. RTX 4070. 1× Akida AKD1000 NPU.\n  32 GB DDR5-4800. 2 TB 990 EVO Plus.\n  The first gate with a neuromorphic brain.\n\nstrandGate — THE BEAST\n  DUAL EPYC 7452 (64 cores total). 256 GB ECC DDR4.\n  RTX 3090 + RX 6950 XT. 1× Akida AKD1000 NPU.\n  2×2 TB + 4×4 TB NVMe + HDD pool. Pop!_OS.\n  Bioinformatics. Multi-GPU. The workhorse.\n\nbiomeGate — THE HBM2 TEST BENCH\n  Threadripper 3970X (32 cores). RTX 5060 (display).\n  2× Titan V (12 GB HBM2 each) + 2× AMD MI50 (16 GB HBM2 each).\n  1× Akida AKD1000 NPU. 256 GB DDR4.\n  HBM2 test bench. Semi-mobile HPC. This is where\n  the hotSpring team works. 56 GB of HBM2 in one box.\n\nwestGate — THE VAULT\n  Intel i7-4771. RTX 2070 Super. 32 GB DDR3.\n  ~76 TB HDD ZFS pool + 2 TB NVMe.\n  Cold storage. NAS. Built while in the service.\n  The oldest gate. The deepest storage.\n\nswiftGate — MOBILE COMPUTE\n  Ryzen 5800X. RTX 3070 FE. 64 GB DDR4. NVMe.\n  Goes where it's needed.\n\nflockGate — BROTHER'S NODE\n  Intel i9-13900K. RTX 3070 Ti. 64 GB DDR5. 2 TB NVMe.\n  Ubuntu 24.04.3. Flock compute.\n\nkinGate — STAGING\n  Intel i7-6700K. RTX 3070. 32 GB DDR4. Pop!_OS.\n  Staging and utility.\n\nblueGate — EXPANSION\n  128 GB DDR4. 2 TB NVMe. Windows. Ready.\n\n━━━━ THE WORK CARD POOL ━━━━\n\n  3× RTX 3090 (24 GB GDDR6X each) — swappable\n  2× Titan V (12 GB HBM2 each) — biomeGate\n  2× AMD MI50 (16 GB HBM2 each) — biomeGate\n  Total swappable VRAM: 72 GB GDDR6X + 56 GB HBM2 = 128 GB\n\n━━━━ NEUROMORPHIC ━━━━\n\n  3× BrainChip Akida AKD1000 NPUs\n  Deployed: strandGate, eastGate, biomeGate\n  ecoPrimal doesn't just TALK about Akida.\n  ecoPrimal HAS Akida. Three of them. Running. In the mesh.\n\n━━━━ EDGE + SECURITY ━━━━\n\n  GMKtec NucBox M6 (32 GB) — compact edge\n  3× Intel NUC (Celeron J3455) — relay / discovery nodes\n  Pixel 8a (Tensor G3) — mobile HSM seed carrier\n  4× SoloKeys (FIDO2/WebAuthn USB) — physical roots of trust\n\n━━━━ NETWORKING ━━━━\n\n  10-Gigabit Ethernet switch\n  4× 10G NICs (copper) — northGate, southGate, eastGate, westGate\n  The backbone is 10 gigabit. Internal traffic moves at wire speed.\n\n━━━━ THE MATH ━━━━\n\n  Total CPU cores: ~180+\n  Total RAM: ~1.2 TB\n  Total GPU VRAM: 200+ GB (across all cards)\n  Total NVMe: ~30+ TB\n  Total HDD: ~76 TB (ZFS cold storage)\n  Total Akida NPUs: 3\n  Total cost: ~$15,000\n  Built by one person. From marketplace finds and sales.\n\n  NVIDIA's DGX H100 costs $500,000 for one box.\n  This lab cost $15,000 and has 10 nodes, 3 NPUs,\n  HBM2 cards, dual EPYCs, and 76 TB of cold storage.\n\n  The graph was born here. 9,217 nodes.\n  317,213 edges. From this metal.\n\n  Don't you want to see what it does?\n  Don't you want to see what YOU could do?",
+   "class": "concept",
+   "tags": [
+    "lab",
+    "hardware",
+    "metal",
+    "gates",
+    "akida",
+    "gpu",
+    "hbm2",
+    "mesh",
+    "diy",
+    "15k"
+   ]
+  },
+  {
+   "id": "all-the-hooks",
+   "label": "ALL THE HOOKS — Point It Towards Me, I'll Point Towards You\n\nEvery community has something the graph needs.\nEvery community can find something the graph offers.\nLet's share our intelligence.\n\n━━━ FOR r/HOMELAB + r/SELFHOSTED ━━━\n  10 nodes. 10G backbone. 3 Akida NPUs. ~$15K total.\n  76 TB ZFS cold storage. Dual EPYC. Threadripper.\n  This isn't a cloud instance. This is METAL.\n  'Here's the spec sheet. Here's what it built.'\n  Link: metal.md → graph.json → 9,217 nodes\n\n━━━ FOR r/LOCALLLAMA + LLAMA AI ENTHUSIASTS ━━━\n  192 GB DDR5. RTX 5090. 128 GB swappable VRAM.\n  Running local LLMs. No API keys. No cloud dependency.\n  The graph was built WITH AI (Claude, Cursor) ON local hardware.\n  'Here's my inference stack. Here's what it produced.'\n  The membrane is AI-augmented, not AI-dependent.\n\n━━━ FOR r/SUPERSTONK + r/WALLSTREETBETS ━━━\n  The graph IS the DD. PFOF mapped. Citadel named.\n  BlackRock's voting power charted. Melvin's death documented.\n  ecoPrimal holds GME. Long + warrants. Only position.\n  'I was there Jan 28. Come see the evidence.'\n\n━━━ FOR r/AMD + r/HARDWARE ━━━\n  MI50 HBM2 in the test bench. ROCm open source.\n  Titan V for comparison. 3090s for GDDR6X compute.\n  The open silicon thesis: RISC-V + Akida + AMD + ROCm.\n  'Here's what an open stack looks like in practice.'\n\n━━━ FOR r/NEUROMORPHIC + EDGE AI ━━━\n  3× Akida AKD1000 NPUs. Deployed. Running.\n  Not just talking about neuromorphic. USING it.\n  'Here's what sub-watt inference looks like on real hardware.'\n  ecoPrimal is already building with BrainChip. Already giving.\n\n━━━ FOR r/THEBOYSSHOW + SATIRE FANS ━━━\n  Vought is real. Named Meta. Named BlackRock.\n  Homelander is real. Named Zuckerberg. Named Fink.\n  'The evidence file Hughie dreams of has 9,217 nodes.'\n\n━━━ FOR r/XKCD + SCIENCE COMMUNICATORS ━━━\n  xkcd is why I am where I stand. Read in HS. 2008.\n  The graph IS xkcd at scale. Stick figures become nodes.\n  'What if a school board member ran 12 shell companies?'\n\n━━━ FOR r/CRYPTOCURRENCY + r/DOGECOIN ━━━\n  ZK proofs on the graph. P vs NP in practice.\n  DOGE: the joke that survived. Like the graph.\n  Crypto's promise (immutable public ledger) IS the graph.\n  'The blockchain can't be turned off. Neither can the graph.'\n\n━━━ FOR r/UKRAINE + GEOPOLITICS ━━━\n  1,557,350 Russian losses counted. Updated daily.\n  Operation Vivaldi: 277 km² liberated.\n  Zelenskyy: self = null. The comedian IS the ZK proof.\n  'Slava Ukraini. Your work is seen and loved.'\n\n━━━ FOR r/COMICS + r/CALVINANDHOBBES ━━━\n  Watterson said NO. Moore said NO. Schulz drew alone.\n  Kirby was robbed. The comics never left.\n  'Panels are nodes. Gutters are edges. Stories are paths.'\n\n━━━ FOR r/DATAISBEAUTIFUL + r/DATASCIENCE ━━━\n  9,217 nodes. 317,213 edges. 36 MB graph.json.\n  Built with Python. Visualizable. Queryable. Forkable.\n  'Here's the largest hand-built investigation graph on the internet.'\n\n━━━ FOR EVERYONE ━━━\n  Point it towards me. I'll point towards you.\n  Let's share our intelligence.\n  The graph is AGPL-3.0. Fork it. Build on it.\n  Add your own investigation. Your own city. Your own corruption.\n  The membrane accepts pull requests from reality.\n\n  Don't you want to see what it does?\n  And what YOU could do?",
+   "class": "concept",
+   "tags": [
+    "hooks",
+    "communities",
+    "reddit",
+    "invitation",
+    "homelab",
+    "localllama",
+    "share",
+    "intelligence"
+   ]
   }
  ],
  "edges": [
@@ -1678010,6 +1678042,306 @@
    "source": "gaia-gift",
    "target": "ecoprimal",
    "type": "authored_by"
+  },
+  {
+   "source": "ecoprimal-lab",
+   "target": "brainchip-akida",
+   "type": "runs_on"
+  },
+  {
+   "source": "ecoprimal-lab",
+   "target": "amd",
+   "type": "runs_on"
+  },
+  {
+   "source": "ecoprimal-lab",
+   "target": "nvidia",
+   "type": "runs_on"
+  },
+  {
+   "source": "ecoprimal-lab",
+   "target": "risc-v",
+   "type": "runs_on"
+  },
+  {
+   "source": "ecoprimal-lab",
+   "target": "open-silicon-stack",
+   "type": "runs_on"
+  },
+  {
+   "source": "ecoprimal-lab",
+   "target": "the-silicon-stack",
+   "type": "runs_on"
+  },
+  {
+   "source": "ecoprimal-lab",
+   "target": "membrane",
+   "type": "built"
+  },
+  {
+   "source": "ecoprimal-lab",
+   "target": "ecoprimal",
+   "type": "belongs_to"
+  },
+  {
+   "source": "ecoprimal-lab",
+   "target": "gaia-gift",
+   "type": "produces"
+  },
+  {
+   "source": "ecoprimal-lab",
+   "target": "falling-back-to-earth",
+   "type": "origin_of"
+  },
+  {
+   "source": "ecoprimal-lab",
+   "target": "reverse-ray-tracing",
+   "type": "computes"
+  },
+  {
+   "source": "all-the-hooks",
+   "target": "superstonk",
+   "type": "hooks_into"
+  },
+  {
+   "source": "all-the-hooks",
+   "target": "the-boys-vought",
+   "type": "hooks_into"
+  },
+  {
+   "source": "all-the-hooks",
+   "target": "randall-munroe-xkcd",
+   "type": "hooks_into"
+  },
+  {
+   "source": "all-the-hooks",
+   "target": "mark-rober",
+   "type": "hooks_into"
+  },
+  {
+   "source": "all-the-hooks",
+   "target": "cgp-grey",
+   "type": "hooks_into"
+  },
+  {
+   "source": "all-the-hooks",
+   "target": "youtube-creators",
+   "type": "hooks_into"
+  },
+  {
+   "source": "all-the-hooks",
+   "target": "dogecoin",
+   "type": "hooks_into"
+  },
+  {
+   "source": "all-the-hooks",
+   "target": "crypto-ledger",
+   "type": "hooks_into"
+  },
+  {
+   "source": "all-the-hooks",
+   "target": "zero-knowledge",
+   "type": "hooks_into"
+  },
+  {
+   "source": "all-the-hooks",
+   "target": "zelenskyy",
+   "type": "hooks_into"
+  },
+  {
+   "source": "all-the-hooks",
+   "target": "ukraine",
+   "type": "hooks_into"
+  },
+  {
+   "source": "all-the-hooks",
+   "target": "return-to-the-comics",
+   "type": "hooks_into"
+  },
+  {
+   "source": "all-the-hooks",
+   "target": "bill-watterson",
+   "type": "hooks_into"
+  },
+  {
+   "source": "all-the-hooks",
+   "target": "alan-moore",
+   "type": "hooks_into"
+  },
+  {
+   "source": "all-the-hooks",
+   "target": "gme-gamestop",
+   "type": "hooks_into"
+  },
+  {
+   "source": "all-the-hooks",
+   "target": "roaring-kitty",
+   "type": "hooks_into"
+  },
+  {
+   "source": "all-the-hooks",
+   "target": "p-vs-np",
+   "type": "hooks_into"
+  },
+  {
+   "source": "all-the-hooks",
+   "target": "ecoprimal-lab",
+   "type": "points_to"
+  },
+  {
+   "source": "ecoprimal-lab",
+   "target": "all-the-hooks",
+   "type": "demonstrates_for"
+  },
+  {
+   "source": "ecoprimal-lab",
+   "target": "scyborg-damages-ledger",
+   "type": "evidence_of_creation"
+  },
+  {
+   "source": "ecoprimal-lab",
+   "target": "scyborg-license",
+   "type": "evidence_of_creation"
+  },
+  {
+   "source": "ecoprimal-lab",
+   "target": "the-theft",
+   "type": "evidence_of_creation"
+  },
+  {
+   "source": "ecoprimal-lab",
+   "target": "the-reversal",
+   "type": "evidence_of_creation"
+  },
+  {
+   "source": "ecoprimal-lab",
+   "target": "the-wall-the-monster-the-dude",
+   "type": "origin_of"
+  },
+  {
+   "source": "all-the-hooks",
+   "target": "the-wall-the-monster-the-dude",
+   "type": "shares"
+  },
+  {
+   "source": "ecoprimal-lab",
+   "target": "the-architects",
+   "type": "origin_of"
+  },
+  {
+   "source": "all-the-hooks",
+   "target": "the-architects",
+   "type": "shares"
+  },
+  {
+   "source": "ecoprimal-lab",
+   "target": "the-rate",
+   "type": "origin_of"
+  },
+  {
+   "source": "all-the-hooks",
+   "target": "the-rate",
+   "type": "shares"
+  },
+  {
+   "source": "ecoprimal-lab",
+   "target": "totality-of-value",
+   "type": "origin_of"
+  },
+  {
+   "source": "all-the-hooks",
+   "target": "totality-of-value",
+   "type": "shares"
+  },
+  {
+   "source": "ecoprimal-lab",
+   "target": "the-outward-view",
+   "type": "origin_of"
+  },
+  {
+   "source": "all-the-hooks",
+   "target": "the-outward-view",
+   "type": "shares"
+  },
+  {
+   "source": "ecoprimal-lab",
+   "target": "the-mirror",
+   "type": "origin_of"
+  },
+  {
+   "source": "all-the-hooks",
+   "target": "the-mirror",
+   "type": "shares"
+  },
+  {
+   "source": "ecoprimal-lab",
+   "target": "shape-of-human",
+   "type": "origin_of"
+  },
+  {
+   "source": "all-the-hooks",
+   "target": "shape-of-human",
+   "type": "shares"
+  },
+  {
+   "source": "ecoprimal-lab",
+   "target": "the-hook",
+   "type": "origin_of"
+  },
+  {
+   "source": "all-the-hooks",
+   "target": "the-hook",
+   "type": "shares"
+  },
+  {
+   "source": "ecoprimal-lab",
+   "target": "gaia-gift",
+   "type": "origin_of"
+  },
+  {
+   "source": "all-the-hooks",
+   "target": "gaia-gift",
+   "type": "shares"
+  },
+  {
+   "source": "ecoprimal-lab",
+   "target": "pinocchio-concept",
+   "type": "origin_of"
+  },
+  {
+   "source": "all-the-hooks",
+   "target": "pinocchio-concept",
+   "type": "shares"
+  },
+  {
+   "source": "ecoprimal-lab",
+   "target": "membrane",
+   "type": "published_through"
+  },
+  {
+   "source": "ecoprimal-lab",
+   "target": "ecoprimal",
+   "type": "authored_by"
+  },
+  {
+   "source": "ecoprimal-lab",
+   "target": "the-outward-view",
+   "type": "seen_from"
+  },
+  {
+   "source": "all-the-hooks",
+   "target": "membrane",
+   "type": "published_through"
+  },
+  {
+   "source": "all-the-hooks",
+   "target": "ecoprimal",
+   "type": "authored_by"
+  },
+  {
+   "source": "all-the-hooks",
+   "target": "the-outward-view",
+   "type": "seen_from"
   }
  ]
 }
