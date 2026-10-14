@@ -41,7 +41,7 @@
   "description": "{{ page.description | default(value='') }}",
   "url": "{{ page.permalink | safe }}",
   "author": { "@type": "Person", "name": "{{ config.extra.author }}" },
-  "datePublished": "{{ page.date | date(format='%Y-%m-%d') }}",
+  "datePublished": "{% if page.date %}{{ page.date | date(format='%Y-%m-%d') }}{% else %}{{ now() | date(format='%Y-%m-%d') }}{% endif %}",
   "dateModified": "{{ now() | date(format='%Y-%m-%d') }}"
 }
 {% endif %}
