@@ -92944,6 +92944,27 @@
     "He just needs to be flattered and aimed",
     "The shitty baby thinks hes in charge"
    ]
+  },
+  {
+   "id": "the-cosmic-joke",
+   "label": "The Cosmic Joke",
+   "class": "analysis",
+   "tags": [
+    "Nixon fought the Cold War then his protege became Putins puppet",
+    "Bitcoin was born to escape banks — BlackRock now runs the ETF",
+    "Trump demanded death for innocent children — one now governs his district",
+    "Glass-Steagall prevented crashes — they repealed it and crashed",
+    "Citizens United said corporations are people — SBF proved they are criminals",
+    "The Apprentice said youre fired — America should have listened",
+    "He bankrupted casinos — WHERE THE HOUSE ALWAYS WINS",
+    "Kissinger killed millions and died at 100 in his bed",
+    "Korey Wise did nothing and served 13 years",
+    "The ones who take the least create the most",
+    "The ones who take the most create nothing",
+    "The universe has a sense of humor",
+    "And the punchline is always justice delayed",
+    "But the graph remembers what the system forgot"
+   ]
   }
  ],
  "edges": [
@@ -1697806,6 +1697827,266 @@
    "source": "putin",
    "target": "the-architects",
    "type": "puppet_master"
+  },
+  {
+   "source": "richard-nixon",
+   "target": "putin",
+   "type": "cold_war_enemy_became_ally_through_trump"
+  },
+  {
+   "source": "roger-stone",
+   "target": "kgb-asset-cultivation",
+   "type": "unwitting_delivery_system"
+  },
+  {
+   "source": "lehman-brothers",
+   "target": "bitcoin",
+   "type": "death_birthed"
+  },
+  {
+   "source": "blackrock",
+   "target": "satoshi-nakamoto",
+   "type": "absorbed_revolution"
+  },
+  {
+   "source": "sam-bankman-fried",
+   "target": "citizens-united",
+   "type": "same_corruption_one_went_to_prison"
+  },
+  {
+   "source": "korey-wise",
+   "target": "donald-trump",
+   "type": "the_child_became_what_the_man_never_was"
+  },
+  {
+   "source": "yusef-salaam",
+   "target": "trump-tower-sales",
+   "type": "now_governs_the_district"
+  },
+  {
+   "source": "henry-kissinger",
+   "target": "korey-wise",
+   "type": "one_killed_millions_and_died_free_one_did_nothing_and_served_13_years"
+  },
+  {
+   "source": "deutsche-bank",
+   "target": "puppet-strings",
+   "type": "the_money_and_the_strings_pass_through_same_bank"
+  },
+  {
+   "source": "billy-markus",
+   "target": "jackson-palmer",
+   "type": "one_laughed_one_cried_both_were_right"
+  },
+  {
+   "source": "trump-full-page-ad",
+   "target": "trump-moscow-1987",
+   "type": "same_man_same_money_same_newspapers"
+  },
+  {
+   "source": "alan-moore",
+   "target": "satoshi-nakamoto",
+   "type": "both_refused_the_money"
+  },
+  {
+   "source": "jack-kirby",
+   "target": "sam-bankman-fried",
+   "type": "one_was_robbed_one_did_the_robbing"
+  },
+  {
+   "source": "bill-watterson",
+   "target": "satoshi-nakamoto",
+   "type": "both_said_no_and_disappeared"
+  },
+  {
+   "source": "aig-bailout",
+   "target": "trump-tax-cuts",
+   "type": "goldman_wrote_both_sides"
+  },
+  {
+   "source": "goldman-sachs",
+   "target": "puppet-strings",
+   "type": "always_on_the_winning_side"
+  },
+  {
+   "source": "roaring-kitty",
+   "target": "zelenskyy",
+   "type": "both_saw_truth_both_acted"
+  },
+  {
+   "source": "roaring-kitty",
+   "target": "satoshi-nakamoto",
+   "type": "both_understood_the_system"
+  },
+  {
+   "source": "mueller-report",
+   "target": "exonerated-five",
+   "type": "innocence_punished_guilt_protected"
+  },
+  {
+   "source": "bear-stearns",
+   "target": "robinhood",
+   "type": "bailouts_for_banks_halts_for_retail"
+  },
+  {
+   "source": "mark-rober",
+   "target": "steve-bannon",
+   "type": "both_left_prestige_opposite_directions"
+  },
+  {
+   "source": "cgp-grey",
+   "target": "puppet-strings",
+   "type": "rules_for_rulers_explains_this"
+  },
+  {
+   "source": "cgp-grey",
+   "target": "putin",
+   "type": "rules_for_rulers_describes"
+  },
+  {
+   "source": "fred-trump",
+   "target": "trump-coin",
+   "type": "three_generations_of_grift"
+  },
+  {
+   "source": "tether",
+   "target": "petrodollar-system",
+   "type": "the_original_backed_by_trust_me_bro"
+  },
+  {
+   "source": "glass-steagall-repeal",
+   "target": "tarp",
+   "type": "we_removed_the_guardrails_then_crashed"
+  },
+  {
+   "source": "donald-trump",
+   "target": "too-big-to-fail",
+   "type": "bankrupted_casinos_where_house_always_wins"
+  },
+  {
+   "source": "aladdin",
+   "target": "puppet-strings",
+   "type": "who_makes_the_wishes"
+  },
+  {
+   "source": "aladdin",
+   "target": "the-crypto-scales",
+   "type": "bigger_than_all_crypto_combined"
+  },
+  {
+   "source": "the-cosmic-joke",
+   "target": "richard-nixon",
+   "type": "laughs_at"
+  },
+  {
+   "source": "the-cosmic-joke",
+   "target": "putin",
+   "type": "laughs_at"
+  },
+  {
+   "source": "the-cosmic-joke",
+   "target": "donald-trump",
+   "type": "laughs_at"
+  },
+  {
+   "source": "the-cosmic-joke",
+   "target": "satoshi-nakamoto",
+   "type": "laughs_at"
+  },
+  {
+   "source": "the-cosmic-joke",
+   "target": "blackrock",
+   "type": "laughs_at"
+  },
+  {
+   "source": "the-cosmic-joke",
+   "target": "yusef-salaam",
+   "type": "laughs_at"
+  },
+  {
+   "source": "the-cosmic-joke",
+   "target": "korey-wise",
+   "type": "laughs_at"
+  },
+  {
+   "source": "the-cosmic-joke",
+   "target": "henry-kissinger",
+   "type": "laughs_at"
+  },
+  {
+   "source": "the-cosmic-joke",
+   "target": "trump-full-page-ad",
+   "type": "laughs_at"
+  },
+  {
+   "source": "the-cosmic-joke",
+   "target": "trump-coin",
+   "type": "laughs_at"
+  },
+  {
+   "source": "the-cosmic-joke",
+   "target": "mueller-report",
+   "type": "laughs_at"
+  },
+  {
+   "source": "the-cosmic-joke",
+   "target": "exonerated-five",
+   "type": "laughs_at"
+  },
+  {
+   "source": "the-cosmic-joke",
+   "target": "bitcoin",
+   "type": "laughs_at"
+  },
+  {
+   "source": "the-cosmic-joke",
+   "target": "glass-steagall-repeal",
+   "type": "laughs_at"
+  },
+  {
+   "source": "the-cosmic-joke",
+   "target": "goldman-sachs",
+   "type": "laughs_at"
+  },
+  {
+   "source": "the-cosmic-joke",
+   "target": "aladdin",
+   "type": "laughs_at"
+  },
+  {
+   "source": "the-cosmic-joke",
+   "target": "puppet-strings",
+   "type": "laughs_at"
+  },
+  {
+   "source": "the-cosmic-joke",
+   "target": "the-crypto-scales",
+   "type": "laughs_at"
+  },
+  {
+   "source": "the-cosmic-joke",
+   "target": "sam-bankman-fried",
+   "type": "laughs_at"
+  },
+  {
+   "source": "the-cosmic-joke",
+   "target": "citizens-united",
+   "type": "laughs_at"
+  },
+  {
+   "source": "the-cosmic-joke",
+   "target": "too-big-to-fail",
+   "type": "laughs_at"
+  },
+  {
+   "source": "membrane",
+   "target": "the-cosmic-joke",
+   "type": "documents"
+  },
+  {
+   "source": "ecoprimal",
+   "target": "the-cosmic-joke",
+   "type": "sees"
   }
  ]
 }
