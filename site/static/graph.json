@@ -1723098,22 +1723098,7 @@
   },
   {
    "source": "slabs-student-loans",
-   "target": "student-debt-crisis",
-   "type": "compounds-with"
-  },
-  {
-   "source": "slabs-student-loans",
    "target": "medical-debt-crisis",
-   "type": "compounds-with"
-  },
-  {
-   "source": "medical-debt-crisis",
-   "target": "student-debt-crisis",
-   "type": "compounds-with"
-  },
-  {
-   "source": "medical-debt-crisis",
-   "target": "slabs-student-loans",
    "type": "compounds-with"
   },
   {
@@ -1723958,11 +1723943,6 @@
   },
   {
    "source": "un-universal-declaration-hr",
-   "target": "icc-international-criminal-court",
-   "type": "founded-alongside"
-  },
-  {
-   "source": "un-universal-declaration-hr",
    "target": "geneva-conventions",
    "type": "founded-alongside"
   },
@@ -1723988,16 +1723968,6 @@
   },
   {
    "source": "geneva-conventions",
-   "target": "icc-international-criminal-court",
-   "type": "founded-alongside"
-  },
-  {
-   "source": "geneva-conventions",
-   "target": "un-universal-declaration-hr",
-   "type": "founded-alongside"
-  },
-  {
-   "source": "geneva-conventions",
    "target": "nuremberg-principles",
    "type": "founded-alongside"
   },
@@ -1724015,21 +1723985,6 @@
    "source": "geneva-conventions",
    "target": "the-new-law",
    "type": "predecessor-of"
-  },
-  {
-   "source": "nuremberg-principles",
-   "target": "icc-international-criminal-court",
-   "type": "founded-alongside"
-  },
-  {
-   "source": "nuremberg-principles",
-   "target": "un-universal-declaration-hr",
-   "type": "founded-alongside"
-  },
-  {
-   "source": "nuremberg-principles",
-   "target": "geneva-conventions",
-   "type": "founded-alongside"
   },
   {
    "source": "nuremberg-principles",
@@ -1724098,11 +1724053,6 @@
   },
   {
    "source": "haitian-revolution-1791",
-   "target": "french-revolution-1789",
-   "type": "echoes"
-  },
-  {
-   "source": "haitian-revolution-1791",
    "target": "civil-rights-movement",
    "type": "echoes"
   },
@@ -1724123,16 +1724073,6 @@
   },
   {
    "source": "civil-rights-movement",
-   "target": "french-revolution-1789",
-   "type": "echoes"
-  },
-  {
-   "source": "civil-rights-movement",
-   "target": "haitian-revolution-1791",
-   "type": "echoes"
-  },
-  {
-   "source": "civil-rights-movement",
    "target": "arab-spring-2011",
    "type": "echoes"
   },
@@ -1724148,21 +1724088,6 @@
   },
   {
    "source": "arab-spring-2011",
-   "target": "french-revolution-1789",
-   "type": "echoes"
-  },
-  {
-   "source": "arab-spring-2011",
-   "target": "haitian-revolution-1791",
-   "type": "echoes"
-  },
-  {
-   "source": "arab-spring-2011",
-   "target": "civil-rights-movement",
-   "type": "echoes"
-  },
-  {
-   "source": "arab-spring-2011",
    "target": "occupy-wall-street-2011",
    "type": "echoes"
   },
@@ -1724170,26 +1724095,6 @@
    "source": "arab-spring-2011",
    "target": "the-new-law",
    "type": "predecessor-of"
-  },
-  {
-   "source": "occupy-wall-street-2011",
-   "target": "french-revolution-1789",
-   "type": "echoes"
-  },
-  {
-   "source": "occupy-wall-street-2011",
-   "target": "haitian-revolution-1791",
-   "type": "echoes"
-  },
-  {
-   "source": "occupy-wall-street-2011",
-   "target": "civil-rights-movement",
-   "type": "echoes"
-  },
-  {
-   "source": "occupy-wall-street-2011",
-   "target": "arab-spring-2011",
-   "type": "echoes"
   },
   {
    "source": "occupy-wall-street-2011",
@@ -1724258,22 +1724163,7 @@
   },
   {
    "source": "british-empire-collapse",
-   "target": "roman-empire-fall",
-   "type": "same-pattern-as"
-  },
-  {
-   "source": "british-empire-collapse",
    "target": "soviet-union-collapse-1991",
-   "type": "same-pattern-as"
-  },
-  {
-   "source": "soviet-union-collapse-1991",
-   "target": "roman-empire-fall",
-   "type": "same-pattern-as"
-  },
-  {
-   "source": "soviet-union-collapse-1991",
-   "target": "british-empire-collapse",
    "type": "same-pattern-as"
   },
   {
@@ -1724443,11 +1724333,6 @@
   },
   {
    "source": "chelsea-manning",
-   "target": "edward-snowden",
-   "type": "kinship-with"
-  },
-  {
-   "source": "chelsea-manning",
    "target": "daniel-ellsberg",
    "type": "kinship-with"
   },
@@ -1724458,32 +1724343,7 @@
   },
   {
    "source": "daniel-ellsberg",
-   "target": "edward-snowden",
-   "type": "kinship-with"
-  },
-  {
-   "source": "daniel-ellsberg",
-   "target": "chelsea-manning",
-   "type": "kinship-with"
-  },
-  {
-   "source": "daniel-ellsberg",
    "target": "gary-webb",
-   "type": "kinship-with"
-  },
-  {
-   "source": "gary-webb",
-   "target": "edward-snowden",
-   "type": "kinship-with"
-  },
-  {
-   "source": "gary-webb",
-   "target": "chelsea-manning",
-   "type": "kinship-with"
-  },
-  {
-   "source": "gary-webb",
-   "target": "daniel-ellsberg",
    "type": "kinship-with"
   },
   {
@@ -1725433,11 +1725293,6 @@
   },
   {
    "source": "stanford-prison-experiment",
-   "target": "learned-helplessness",
-   "type": "reinforces"
-  },
-  {
-   "source": "stanford-prison-experiment",
    "target": "milgram-obedience",
    "type": "reinforces"
   },
@@ -1725458,16 +1725313,6 @@
   },
   {
    "source": "milgram-obedience",
-   "target": "learned-helplessness",
-   "type": "reinforces"
-  },
-  {
-   "source": "milgram-obedience",
-   "target": "stanford-prison-experiment",
-   "type": "reinforces"
-  },
-  {
-   "source": "milgram-obedience",
    "target": "manufacturing-consent",
    "type": "reinforces"
   },
@@ -1725483,21 +1725328,6 @@
   },
   {
    "source": "manufacturing-consent",
-   "target": "learned-helplessness",
-   "type": "reinforces"
-  },
-  {
-   "source": "manufacturing-consent",
-   "target": "stanford-prison-experiment",
-   "type": "reinforces"
-  },
-  {
-   "source": "manufacturing-consent",
-   "target": "milgram-obedience",
-   "type": "reinforces"
-  },
-  {
-   "source": "manufacturing-consent",
    "target": "attention-economy",
    "type": "reinforces"
   },
@@ -1725508,52 +1725338,7 @@
   },
   {
    "source": "attention-economy",
-   "target": "learned-helplessness",
-   "type": "reinforces"
-  },
-  {
-   "source": "attention-economy",
-   "target": "stanford-prison-experiment",
-   "type": "reinforces"
-  },
-  {
-   "source": "attention-economy",
-   "target": "milgram-obedience",
-   "type": "reinforces"
-  },
-  {
-   "source": "attention-economy",
-   "target": "manufacturing-consent",
-   "type": "reinforces"
-  },
-  {
-   "source": "attention-economy",
    "target": "dopamine-hijacking",
-   "type": "reinforces"
-  },
-  {
-   "source": "dopamine-hijacking",
-   "target": "learned-helplessness",
-   "type": "reinforces"
-  },
-  {
-   "source": "dopamine-hijacking",
-   "target": "stanford-prison-experiment",
-   "type": "reinforces"
-  },
-  {
-   "source": "dopamine-hijacking",
-   "target": "milgram-obedience",
-   "type": "reinforces"
-  },
-  {
-   "source": "dopamine-hijacking",
-   "target": "manufacturing-consent",
-   "type": "reinforces"
-  },
-  {
-   "source": "dopamine-hijacking",
-   "target": "attention-economy",
    "type": "reinforces"
   },
   {
@@ -1725638,11 +1725423,6 @@
   },
   {
    "source": "power-law-distribution",
-   "target": "game-theory-prisoners-dilemma",
-   "type": "connects-to"
-  },
-  {
-   "source": "power-law-distribution",
    "target": "entropy-information-theory",
    "type": "connects-to"
   },
@@ -1725673,16 +1725453,6 @@
   },
   {
    "source": "entropy-information-theory",
-   "target": "game-theory-prisoners-dilemma",
-   "type": "connects-to"
-  },
-  {
-   "source": "entropy-information-theory",
-   "target": "power-law-distribution",
-   "type": "connects-to"
-  },
-  {
-   "source": "entropy-information-theory",
    "target": "network-science-barabasi",
    "type": "connects-to"
   },
@@ -1725708,21 +1725478,6 @@
   },
   {
    "source": "network-science-barabasi",
-   "target": "game-theory-prisoners-dilemma",
-   "type": "connects-to"
-  },
-  {
-   "source": "network-science-barabasi",
-   "target": "power-law-distribution",
-   "type": "connects-to"
-  },
-  {
-   "source": "network-science-barabasi",
-   "target": "entropy-information-theory",
-   "type": "connects-to"
-  },
-  {
-   "source": "network-science-barabasi",
    "target": "godel-incompleteness",
    "type": "connects-to"
   },
@@ -1725743,26 +1725498,6 @@
   },
   {
    "source": "godel-incompleteness",
-   "target": "game-theory-prisoners-dilemma",
-   "type": "connects-to"
-  },
-  {
-   "source": "godel-incompleteness",
-   "target": "power-law-distribution",
-   "type": "connects-to"
-  },
-  {
-   "source": "godel-incompleteness",
-   "target": "entropy-information-theory",
-   "type": "connects-to"
-  },
-  {
-   "source": "godel-incompleteness",
-   "target": "network-science-barabasi",
-   "type": "connects-to"
-  },
-  {
-   "source": "godel-incompleteness",
    "target": "turing-halting-problem",
    "type": "connects-to"
   },
@@ -1725778,31 +1725513,6 @@
   },
   {
    "source": "turing-halting-problem",
-   "target": "game-theory-prisoners-dilemma",
-   "type": "connects-to"
-  },
-  {
-   "source": "turing-halting-problem",
-   "target": "power-law-distribution",
-   "type": "connects-to"
-  },
-  {
-   "source": "turing-halting-problem",
-   "target": "entropy-information-theory",
-   "type": "connects-to"
-  },
-  {
-   "source": "turing-halting-problem",
-   "target": "network-science-barabasi",
-   "type": "connects-to"
-  },
-  {
-   "source": "turing-halting-problem",
-   "target": "godel-incompleteness",
-   "type": "connects-to"
-  },
-  {
-   "source": "turing-halting-problem",
    "target": "fibonacci-golden-ratio",
    "type": "connects-to"
   },
@@ -1725813,72 +1725523,7 @@
   },
   {
    "source": "fibonacci-golden-ratio",
-   "target": "game-theory-prisoners-dilemma",
-   "type": "connects-to"
-  },
-  {
-   "source": "fibonacci-golden-ratio",
-   "target": "power-law-distribution",
-   "type": "connects-to"
-  },
-  {
-   "source": "fibonacci-golden-ratio",
-   "target": "entropy-information-theory",
-   "type": "connects-to"
-  },
-  {
-   "source": "fibonacci-golden-ratio",
-   "target": "network-science-barabasi",
-   "type": "connects-to"
-  },
-  {
-   "source": "fibonacci-golden-ratio",
-   "target": "godel-incompleteness",
-   "type": "connects-to"
-  },
-  {
-   "source": "fibonacci-golden-ratio",
-   "target": "turing-halting-problem",
-   "type": "connects-to"
-  },
-  {
-   "source": "fibonacci-golden-ratio",
    "target": "mandelbrot-fractals",
-   "type": "connects-to"
-  },
-  {
-   "source": "mandelbrot-fractals",
-   "target": "game-theory-prisoners-dilemma",
-   "type": "connects-to"
-  },
-  {
-   "source": "mandelbrot-fractals",
-   "target": "power-law-distribution",
-   "type": "connects-to"
-  },
-  {
-   "source": "mandelbrot-fractals",
-   "target": "entropy-information-theory",
-   "type": "connects-to"
-  },
-  {
-   "source": "mandelbrot-fractals",
-   "target": "network-science-barabasi",
-   "type": "connects-to"
-  },
-  {
-   "source": "mandelbrot-fractals",
-   "target": "godel-incompleteness",
-   "type": "connects-to"
-  },
-  {
-   "source": "mandelbrot-fractals",
-   "target": "turing-halting-problem",
-   "type": "connects-to"
-  },
-  {
-   "source": "mandelbrot-fractals",
-   "target": "fibonacci-golden-ratio",
    "type": "connects-to"
   },
   {
@@ -1725978,11 +1725623,6 @@
   },
   {
    "source": "library-of-alexandria",
-   "target": "code-of-hammurabi",
-   "type": "echoes-across-time"
-  },
-  {
-   "source": "library-of-alexandria",
    "target": "east-india-company",
    "type": "echoes-across-time"
   },
@@ -1726008,16 +1725648,6 @@
   },
   {
    "source": "east-india-company",
-   "target": "code-of-hammurabi",
-   "type": "echoes-across-time"
-  },
-  {
-   "source": "east-india-company",
-   "target": "library-of-alexandria",
-   "type": "echoes-across-time"
-  },
-  {
-   "source": "east-india-company",
    "target": "tulip-mania-1637",
    "type": "echoes-across-time"
   },
@@ -1726038,21 +1725668,6 @@
   },
   {
    "source": "tulip-mania-1637",
-   "target": "code-of-hammurabi",
-   "type": "echoes-across-time"
-  },
-  {
-   "source": "tulip-mania-1637",
-   "target": "library-of-alexandria",
-   "type": "echoes-across-time"
-  },
-  {
-   "source": "tulip-mania-1637",
-   "target": "east-india-company",
-   "type": "echoes-across-time"
-  },
-  {
-   "source": "tulip-mania-1637",
    "target": "printing-press-1440",
    "type": "echoes-across-time"
   },
@@ -1726068,26 +1725683,6 @@
   },
   {
    "source": "printing-press-1440",
-   "target": "code-of-hammurabi",
-   "type": "echoes-across-time"
-  },
-  {
-   "source": "printing-press-1440",
-   "target": "library-of-alexandria",
-   "type": "echoes-across-time"
-  },
-  {
-   "source": "printing-press-1440",
-   "target": "east-india-company",
-   "type": "echoes-across-time"
-  },
-  {
-   "source": "printing-press-1440",
-   "target": "tulip-mania-1637",
-   "type": "echoes-across-time"
-  },
-  {
-   "source": "printing-press-1440",
    "target": "rosetta-stone",
    "type": "echoes-across-time"
   },
@@ -1726095,31 +1725690,6 @@
    "source": "printing-press-1440",
    "target": "magna-carta",
    "type": "contextualizes"
-  },
-  {
-   "source": "rosetta-stone",
-   "target": "code-of-hammurabi",
-   "type": "echoes-across-time"
-  },
-  {
-   "source": "rosetta-stone",
-   "target": "library-of-alexandria",
-   "type": "echoes-across-time"
-  },
-  {
-   "source": "rosetta-stone",
-   "target": "east-india-company",
-   "type": "echoes-across-time"
-  },
-  {
-   "source": "rosetta-stone",
-   "target": "tulip-mania-1637",
-   "type": "echoes-across-time"
-  },
-  {
-   "source": "rosetta-stone",
-   "target": "printing-press-1440",
-   "type": "echoes-across-time"
   },
   {
    "source": "rosetta-stone",
@@ -1726485,6 +1726055,7006 @@
    "source": "mandelbrot-fractals",
    "target": "microsoft-corp",
    "type": "ingested-by"
+  },
+  {
+   "source": "the-great-callout",
+   "target": "michael-flynn",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "the-great-callout",
+   "target": "the-revolving-door",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "the-great-callout",
+   "target": "wikileaks-russian-conduit",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "the-great-callout",
+   "target": "jared-kushner",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "the-great-callout",
+   "target": "netanyahu-trump",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "the-great-callout",
+   "target": "fox-book-machine",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "the-great-callout",
+   "target": "helsinki-summit",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "the-great-callout",
+   "target": "jan6-committee",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "the-great-callout",
+   "target": "board-dana-white",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "the-great-callout",
+   "target": "citizens-united",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "the-great-callout",
+   "target": "stolen-land-labor-lives",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "the-great-callout",
+   "target": "tucker-carlson-disinfo",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "the-great-callout",
+   "target": "steve-mnuchin",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "the-great-callout",
+   "target": "oath-keepers",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "the-great-callout",
+   "target": "qanon",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "the-great-callout",
+   "target": "tulip-mania-1637",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "the-great-callout",
+   "target": "project-2025",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "the-great-callout",
+   "target": "disinformation",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "the-great-callout",
+   "target": "disinfo-pipeline",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "the-great-callout",
+   "target": "trump-coin",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "the-great-callout",
+   "target": "kgb-asset-cultivation",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "the-great-callout",
+   "target": "roger-stone",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "the-great-callout",
+   "target": "liz-cheney",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "the-great-callout",
+   "target": "former-palmer-luckey",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "the-great-callout",
+   "target": "gold-to-oil-to-now",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "the-great-callout",
+   "target": "the-stack-of-sins",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "the-great-callout",
+   "target": "proud-boys",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "the-great-callout",
+   "target": "fascism-playbook",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "michael-flynn",
+   "target": "the-revolving-door",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "michael-flynn",
+   "target": "wikileaks-russian-conduit",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "michael-flynn",
+   "target": "jared-kushner",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "michael-flynn",
+   "target": "kim-jong-un",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "michael-flynn",
+   "target": "netanyahu-trump",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "michael-flynn",
+   "target": "fox-book-machine",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "michael-flynn",
+   "target": "helsinki-summit",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "michael-flynn",
+   "target": "jan6-committee",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "michael-flynn",
+   "target": "board-dana-white",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "michael-flynn",
+   "target": "stolen-land-labor-lives",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "michael-flynn",
+   "target": "tucker-carlson-disinfo",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "michael-flynn",
+   "target": "steve-mnuchin",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "michael-flynn",
+   "target": "qanon",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "michael-flynn",
+   "target": "tulip-mania-1637",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "michael-flynn",
+   "target": "project-2025",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "michael-flynn",
+   "target": "disinformation",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "michael-flynn",
+   "target": "disinfo-pipeline",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "michael-flynn",
+   "target": "trump-coin",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "michael-flynn",
+   "target": "kgb-asset-cultivation",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "michael-flynn",
+   "target": "liz-cheney",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "michael-flynn",
+   "target": "former-palmer-luckey",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "michael-flynn",
+   "target": "gold-to-oil-to-now",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "michael-flynn",
+   "target": "the-stack-of-sins",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "michael-flynn",
+   "target": "fascism-playbook",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "the-revolving-door",
+   "target": "wikileaks-russian-conduit",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "the-revolving-door",
+   "target": "jared-kushner",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "the-revolving-door",
+   "target": "kim-jong-un",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "the-revolving-door",
+   "target": "netanyahu-trump",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "the-revolving-door",
+   "target": "fox-book-machine",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "the-revolving-door",
+   "target": "helsinki-summit",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "the-revolving-door",
+   "target": "jan6-committee",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "the-revolving-door",
+   "target": "board-dana-white",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "the-revolving-door",
+   "target": "stolen-land-labor-lives",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "the-revolving-door",
+   "target": "tucker-carlson-disinfo",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "the-revolving-door",
+   "target": "steve-mnuchin",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "the-revolving-door",
+   "target": "oath-keepers",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "the-revolving-door",
+   "target": "qanon",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "the-revolving-door",
+   "target": "tulip-mania-1637",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "the-revolving-door",
+   "target": "project-2025",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "the-revolving-door",
+   "target": "disinformation",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "the-revolving-door",
+   "target": "trump-coin",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "the-revolving-door",
+   "target": "roger-stone",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "the-revolving-door",
+   "target": "liz-cheney",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "the-revolving-door",
+   "target": "former-palmer-luckey",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "the-revolving-door",
+   "target": "gold-to-oil-to-now",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "the-revolving-door",
+   "target": "proud-boys",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "the-revolving-door",
+   "target": "fascism-playbook",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "wikileaks-russian-conduit",
+   "target": "jared-kushner",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "wikileaks-russian-conduit",
+   "target": "kim-jong-un",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "wikileaks-russian-conduit",
+   "target": "netanyahu-trump",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "wikileaks-russian-conduit",
+   "target": "fox-book-machine",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "wikileaks-russian-conduit",
+   "target": "helsinki-summit",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "wikileaks-russian-conduit",
+   "target": "jan6-committee",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "wikileaks-russian-conduit",
+   "target": "board-dana-white",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "wikileaks-russian-conduit",
+   "target": "citizens-united",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "wikileaks-russian-conduit",
+   "target": "stolen-land-labor-lives",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "wikileaks-russian-conduit",
+   "target": "tucker-carlson-disinfo",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "wikileaks-russian-conduit",
+   "target": "steve-mnuchin",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "wikileaks-russian-conduit",
+   "target": "oath-keepers",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "wikileaks-russian-conduit",
+   "target": "qanon",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "wikileaks-russian-conduit",
+   "target": "tulip-mania-1637",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "wikileaks-russian-conduit",
+   "target": "project-2025",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "wikileaks-russian-conduit",
+   "target": "disinformation",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "wikileaks-russian-conduit",
+   "target": "disinfo-pipeline",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "wikileaks-russian-conduit",
+   "target": "trump-coin",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "wikileaks-russian-conduit",
+   "target": "kgb-asset-cultivation",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "wikileaks-russian-conduit",
+   "target": "liz-cheney",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "wikileaks-russian-conduit",
+   "target": "former-palmer-luckey",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "wikileaks-russian-conduit",
+   "target": "gold-to-oil-to-now",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "wikileaks-russian-conduit",
+   "target": "the-stack-of-sins",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "wikileaks-russian-conduit",
+   "target": "proud-boys",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "wikileaks-russian-conduit",
+   "target": "fascism-playbook",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "jared-kushner",
+   "target": "kim-jong-un",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "jared-kushner",
+   "target": "fox-book-machine",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "jared-kushner",
+   "target": "helsinki-summit",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "jared-kushner",
+   "target": "jan6-committee",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "jared-kushner",
+   "target": "board-dana-white",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "jared-kushner",
+   "target": "citizens-united",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "jared-kushner",
+   "target": "stolen-land-labor-lives",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "jared-kushner",
+   "target": "tucker-carlson-disinfo",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "jared-kushner",
+   "target": "steve-mnuchin",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "jared-kushner",
+   "target": "oath-keepers",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "jared-kushner",
+   "target": "qanon",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "jared-kushner",
+   "target": "tulip-mania-1637",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "jared-kushner",
+   "target": "project-2025",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "jared-kushner",
+   "target": "disinformation",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "jared-kushner",
+   "target": "disinfo-pipeline",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "jared-kushner",
+   "target": "kgb-asset-cultivation",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "jared-kushner",
+   "target": "roger-stone",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "jared-kushner",
+   "target": "liz-cheney",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "jared-kushner",
+   "target": "former-palmer-luckey",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "jared-kushner",
+   "target": "proud-boys",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "jared-kushner",
+   "target": "fascism-playbook",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "kim-jong-un",
+   "target": "netanyahu-trump",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "kim-jong-un",
+   "target": "fox-book-machine",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "kim-jong-un",
+   "target": "helsinki-summit",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "kim-jong-un",
+   "target": "jan6-committee",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "kim-jong-un",
+   "target": "board-dana-white",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "kim-jong-un",
+   "target": "citizens-united",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "kim-jong-un",
+   "target": "stolen-land-labor-lives",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "kim-jong-un",
+   "target": "tucker-carlson-disinfo",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "kim-jong-un",
+   "target": "steve-mnuchin",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "kim-jong-un",
+   "target": "oath-keepers",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "kim-jong-un",
+   "target": "qanon",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "kim-jong-un",
+   "target": "tulip-mania-1637",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "kim-jong-un",
+   "target": "project-2025",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "kim-jong-un",
+   "target": "disinformation",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "kim-jong-un",
+   "target": "disinfo-pipeline",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "kim-jong-un",
+   "target": "trump-coin",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "kim-jong-un",
+   "target": "kgb-asset-cultivation",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "kim-jong-un",
+   "target": "roger-stone",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "kim-jong-un",
+   "target": "liz-cheney",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "kim-jong-un",
+   "target": "former-palmer-luckey",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "kim-jong-un",
+   "target": "gold-to-oil-to-now",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "kim-jong-un",
+   "target": "the-stack-of-sins",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "kim-jong-un",
+   "target": "proud-boys",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "kim-jong-un",
+   "target": "fascism-playbook",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "netanyahu-trump",
+   "target": "fox-book-machine",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "netanyahu-trump",
+   "target": "helsinki-summit",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "netanyahu-trump",
+   "target": "jan6-committee",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "netanyahu-trump",
+   "target": "board-dana-white",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "netanyahu-trump",
+   "target": "citizens-united",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "netanyahu-trump",
+   "target": "stolen-land-labor-lives",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "netanyahu-trump",
+   "target": "tucker-carlson-disinfo",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "netanyahu-trump",
+   "target": "steve-mnuchin",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "netanyahu-trump",
+   "target": "oath-keepers",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "netanyahu-trump",
+   "target": "qanon",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "netanyahu-trump",
+   "target": "tulip-mania-1637",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "netanyahu-trump",
+   "target": "project-2025",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "netanyahu-trump",
+   "target": "disinformation",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "netanyahu-trump",
+   "target": "disinfo-pipeline",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "netanyahu-trump",
+   "target": "trump-coin",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "netanyahu-trump",
+   "target": "kgb-asset-cultivation",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "netanyahu-trump",
+   "target": "roger-stone",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "netanyahu-trump",
+   "target": "liz-cheney",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "netanyahu-trump",
+   "target": "former-palmer-luckey",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "netanyahu-trump",
+   "target": "gold-to-oil-to-now",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "netanyahu-trump",
+   "target": "the-stack-of-sins",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "netanyahu-trump",
+   "target": "proud-boys",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "netanyahu-trump",
+   "target": "fascism-playbook",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "fox-book-machine",
+   "target": "helsinki-summit",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "fox-book-machine",
+   "target": "jan6-committee",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "fox-book-machine",
+   "target": "board-dana-white",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "fox-book-machine",
+   "target": "citizens-united",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "fox-book-machine",
+   "target": "stolen-land-labor-lives",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "fox-book-machine",
+   "target": "tucker-carlson-disinfo",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "fox-book-machine",
+   "target": "steve-mnuchin",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "fox-book-machine",
+   "target": "oath-keepers",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "fox-book-machine",
+   "target": "qanon",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "fox-book-machine",
+   "target": "tulip-mania-1637",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "fox-book-machine",
+   "target": "project-2025",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "fox-book-machine",
+   "target": "disinfo-pipeline",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "fox-book-machine",
+   "target": "trump-coin",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "fox-book-machine",
+   "target": "kgb-asset-cultivation",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "fox-book-machine",
+   "target": "roger-stone",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "fox-book-machine",
+   "target": "liz-cheney",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "fox-book-machine",
+   "target": "former-palmer-luckey",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "fox-book-machine",
+   "target": "gold-to-oil-to-now",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "fox-book-machine",
+   "target": "the-stack-of-sins",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "fox-book-machine",
+   "target": "proud-boys",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "fox-book-machine",
+   "target": "fascism-playbook",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "helsinki-summit",
+   "target": "jan6-committee",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "helsinki-summit",
+   "target": "board-dana-white",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "helsinki-summit",
+   "target": "stolen-land-labor-lives",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "helsinki-summit",
+   "target": "tucker-carlson-disinfo",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "helsinki-summit",
+   "target": "steve-mnuchin",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "helsinki-summit",
+   "target": "oath-keepers",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "helsinki-summit",
+   "target": "qanon",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "helsinki-summit",
+   "target": "tulip-mania-1637",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "helsinki-summit",
+   "target": "project-2025",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "helsinki-summit",
+   "target": "disinformation",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "helsinki-summit",
+   "target": "disinfo-pipeline",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "helsinki-summit",
+   "target": "trump-coin",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "helsinki-summit",
+   "target": "roger-stone",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "helsinki-summit",
+   "target": "liz-cheney",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "helsinki-summit",
+   "target": "former-palmer-luckey",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "helsinki-summit",
+   "target": "gold-to-oil-to-now",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "helsinki-summit",
+   "target": "the-stack-of-sins",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "helsinki-summit",
+   "target": "proud-boys",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "helsinki-summit",
+   "target": "fascism-playbook",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "jan6-committee",
+   "target": "board-dana-white",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "jan6-committee",
+   "target": "citizens-united",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "jan6-committee",
+   "target": "stolen-land-labor-lives",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "jan6-committee",
+   "target": "tucker-carlson-disinfo",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "jan6-committee",
+   "target": "steve-mnuchin",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "jan6-committee",
+   "target": "oath-keepers",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "jan6-committee",
+   "target": "qanon",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "jan6-committee",
+   "target": "tulip-mania-1637",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "jan6-committee",
+   "target": "project-2025",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "jan6-committee",
+   "target": "disinfo-pipeline",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "jan6-committee",
+   "target": "trump-coin",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "jan6-committee",
+   "target": "kgb-asset-cultivation",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "jan6-committee",
+   "target": "roger-stone",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "jan6-committee",
+   "target": "former-palmer-luckey",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "jan6-committee",
+   "target": "gold-to-oil-to-now",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "jan6-committee",
+   "target": "the-stack-of-sins",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "jan6-committee",
+   "target": "proud-boys",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "jan6-committee",
+   "target": "fascism-playbook",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "board-dana-white",
+   "target": "citizens-united",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "board-dana-white",
+   "target": "stolen-land-labor-lives",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "board-dana-white",
+   "target": "tucker-carlson-disinfo",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "board-dana-white",
+   "target": "steve-mnuchin",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "board-dana-white",
+   "target": "oath-keepers",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "board-dana-white",
+   "target": "qanon",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "board-dana-white",
+   "target": "tulip-mania-1637",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "board-dana-white",
+   "target": "project-2025",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "board-dana-white",
+   "target": "disinformation",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "board-dana-white",
+   "target": "disinfo-pipeline",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "board-dana-white",
+   "target": "trump-coin",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "board-dana-white",
+   "target": "kgb-asset-cultivation",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "board-dana-white",
+   "target": "roger-stone",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "board-dana-white",
+   "target": "liz-cheney",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "board-dana-white",
+   "target": "gold-to-oil-to-now",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "board-dana-white",
+   "target": "the-stack-of-sins",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "board-dana-white",
+   "target": "proud-boys",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "board-dana-white",
+   "target": "fascism-playbook",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "citizens-united",
+   "target": "stolen-land-labor-lives",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "citizens-united",
+   "target": "tucker-carlson-disinfo",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "citizens-united",
+   "target": "steve-mnuchin",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "citizens-united",
+   "target": "oath-keepers",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "citizens-united",
+   "target": "qanon",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "citizens-united",
+   "target": "tulip-mania-1637",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "citizens-united",
+   "target": "project-2025",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "citizens-united",
+   "target": "disinformation",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "citizens-united",
+   "target": "liz-cheney",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "citizens-united",
+   "target": "former-palmer-luckey",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "citizens-united",
+   "target": "gold-to-oil-to-now",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "citizens-united",
+   "target": "proud-boys",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "citizens-united",
+   "target": "fascism-playbook",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "stolen-land-labor-lives",
+   "target": "tucker-carlson-disinfo",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "stolen-land-labor-lives",
+   "target": "steve-mnuchin",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "stolen-land-labor-lives",
+   "target": "oath-keepers",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "stolen-land-labor-lives",
+   "target": "qanon",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "stolen-land-labor-lives",
+   "target": "tulip-mania-1637",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "stolen-land-labor-lives",
+   "target": "project-2025",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "stolen-land-labor-lives",
+   "target": "disinformation",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "stolen-land-labor-lives",
+   "target": "disinfo-pipeline",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "stolen-land-labor-lives",
+   "target": "trump-coin",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "stolen-land-labor-lives",
+   "target": "kgb-asset-cultivation",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "stolen-land-labor-lives",
+   "target": "roger-stone",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "stolen-land-labor-lives",
+   "target": "liz-cheney",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "stolen-land-labor-lives",
+   "target": "former-palmer-luckey",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "stolen-land-labor-lives",
+   "target": "gold-to-oil-to-now",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "stolen-land-labor-lives",
+   "target": "proud-boys",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "stolen-land-labor-lives",
+   "target": "fascism-playbook",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "tucker-carlson-disinfo",
+   "target": "steve-mnuchin",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "tucker-carlson-disinfo",
+   "target": "oath-keepers",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "tucker-carlson-disinfo",
+   "target": "qanon",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "tucker-carlson-disinfo",
+   "target": "tulip-mania-1637",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "tucker-carlson-disinfo",
+   "target": "project-2025",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "tucker-carlson-disinfo",
+   "target": "trump-coin",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "tucker-carlson-disinfo",
+   "target": "kgb-asset-cultivation",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "tucker-carlson-disinfo",
+   "target": "roger-stone",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "tucker-carlson-disinfo",
+   "target": "liz-cheney",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "tucker-carlson-disinfo",
+   "target": "former-palmer-luckey",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "tucker-carlson-disinfo",
+   "target": "gold-to-oil-to-now",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "tucker-carlson-disinfo",
+   "target": "the-stack-of-sins",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "tucker-carlson-disinfo",
+   "target": "proud-boys",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "tucker-carlson-disinfo",
+   "target": "fascism-playbook",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "steve-mnuchin",
+   "target": "oath-keepers",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "steve-mnuchin",
+   "target": "qanon",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "steve-mnuchin",
+   "target": "tulip-mania-1637",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "steve-mnuchin",
+   "target": "project-2025",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "steve-mnuchin",
+   "target": "disinformation",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "steve-mnuchin",
+   "target": "disinfo-pipeline",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "steve-mnuchin",
+   "target": "trump-coin",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "steve-mnuchin",
+   "target": "kgb-asset-cultivation",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "steve-mnuchin",
+   "target": "roger-stone",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "steve-mnuchin",
+   "target": "liz-cheney",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "steve-mnuchin",
+   "target": "former-palmer-luckey",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "steve-mnuchin",
+   "target": "gold-to-oil-to-now",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "steve-mnuchin",
+   "target": "the-stack-of-sins",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "steve-mnuchin",
+   "target": "proud-boys",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "steve-mnuchin",
+   "target": "fascism-playbook",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "oath-keepers",
+   "target": "qanon",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "oath-keepers",
+   "target": "tulip-mania-1637",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "oath-keepers",
+   "target": "project-2025",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "oath-keepers",
+   "target": "disinformation",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "oath-keepers",
+   "target": "disinfo-pipeline",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "oath-keepers",
+   "target": "trump-coin",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "oath-keepers",
+   "target": "kgb-asset-cultivation",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "oath-keepers",
+   "target": "liz-cheney",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "oath-keepers",
+   "target": "former-palmer-luckey",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "oath-keepers",
+   "target": "gold-to-oil-to-now",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "oath-keepers",
+   "target": "the-stack-of-sins",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "oath-keepers",
+   "target": "fascism-playbook",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "qanon",
+   "target": "tulip-mania-1637",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "qanon",
+   "target": "project-2025",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "qanon",
+   "target": "trump-coin",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "qanon",
+   "target": "kgb-asset-cultivation",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "qanon",
+   "target": "roger-stone",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "qanon",
+   "target": "liz-cheney",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "qanon",
+   "target": "gold-to-oil-to-now",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "qanon",
+   "target": "the-stack-of-sins",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "qanon",
+   "target": "proud-boys",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "qanon",
+   "target": "fascism-playbook",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "tulip-mania-1637",
+   "target": "project-2025",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "tulip-mania-1637",
+   "target": "disinformation",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "tulip-mania-1637",
+   "target": "disinfo-pipeline",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "tulip-mania-1637",
+   "target": "trump-coin",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "tulip-mania-1637",
+   "target": "kgb-asset-cultivation",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "tulip-mania-1637",
+   "target": "roger-stone",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "tulip-mania-1637",
+   "target": "liz-cheney",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "tulip-mania-1637",
+   "target": "former-palmer-luckey",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "tulip-mania-1637",
+   "target": "gold-to-oil-to-now",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "tulip-mania-1637",
+   "target": "the-stack-of-sins",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "tulip-mania-1637",
+   "target": "proud-boys",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "tulip-mania-1637",
+   "target": "fascism-playbook",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "project-2025",
+   "target": "disinfo-pipeline",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "project-2025",
+   "target": "kgb-asset-cultivation",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "project-2025",
+   "target": "roger-stone",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "project-2025",
+   "target": "liz-cheney",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "project-2025",
+   "target": "former-palmer-luckey",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "project-2025",
+   "target": "gold-to-oil-to-now",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "project-2025",
+   "target": "proud-boys",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "project-2025",
+   "target": "fascism-playbook",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "disinformation",
+   "target": "kgb-asset-cultivation",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "disinformation",
+   "target": "roger-stone",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "disinformation",
+   "target": "liz-cheney",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "disinformation",
+   "target": "former-palmer-luckey",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "disinformation",
+   "target": "gold-to-oil-to-now",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "disinformation",
+   "target": "proud-boys",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "disinformation",
+   "target": "fascism-playbook",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "disinfo-pipeline",
+   "target": "trump-coin",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "disinfo-pipeline",
+   "target": "roger-stone",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "disinfo-pipeline",
+   "target": "liz-cheney",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "disinfo-pipeline",
+   "target": "former-palmer-luckey",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "disinfo-pipeline",
+   "target": "gold-to-oil-to-now",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "disinfo-pipeline",
+   "target": "proud-boys",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "disinfo-pipeline",
+   "target": "fascism-playbook",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "trump-coin",
+   "target": "kgb-asset-cultivation",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "trump-coin",
+   "target": "roger-stone",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "trump-coin",
+   "target": "liz-cheney",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "trump-coin",
+   "target": "former-palmer-luckey",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "trump-coin",
+   "target": "gold-to-oil-to-now",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "trump-coin",
+   "target": "proud-boys",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "trump-coin",
+   "target": "fascism-playbook",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "kgb-asset-cultivation",
+   "target": "liz-cheney",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "kgb-asset-cultivation",
+   "target": "former-palmer-luckey",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "kgb-asset-cultivation",
+   "target": "gold-to-oil-to-now",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "kgb-asset-cultivation",
+   "target": "proud-boys",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "kgb-asset-cultivation",
+   "target": "fascism-playbook",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "roger-stone",
+   "target": "liz-cheney",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "roger-stone",
+   "target": "former-palmer-luckey",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "roger-stone",
+   "target": "gold-to-oil-to-now",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "roger-stone",
+   "target": "the-stack-of-sins",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "roger-stone",
+   "target": "fascism-playbook",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "liz-cheney",
+   "target": "former-palmer-luckey",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "liz-cheney",
+   "target": "gold-to-oil-to-now",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "liz-cheney",
+   "target": "the-stack-of-sins",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "liz-cheney",
+   "target": "proud-boys",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "liz-cheney",
+   "target": "fascism-playbook",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "former-palmer-luckey",
+   "target": "gold-to-oil-to-now",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "former-palmer-luckey",
+   "target": "the-stack-of-sins",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "former-palmer-luckey",
+   "target": "proud-boys",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "former-palmer-luckey",
+   "target": "fascism-playbook",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "gold-to-oil-to-now",
+   "target": "the-stack-of-sins",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "gold-to-oil-to-now",
+   "target": "proud-boys",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "gold-to-oil-to-now",
+   "target": "fascism-playbook",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "the-stack-of-sins",
+   "target": "proud-boys",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "the-stack-of-sins",
+   "target": "fascism-playbook",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "proud-boys",
+   "target": "fascism-playbook",
+   "type": "bingo-trump"
+  },
+  {
+   "source": "wd_houston_stewart_chamberlain",
+   "target": "wd_rock_hudson",
+   "type": "bingo-wikidata"
+  },
+  {
+   "source": "wd_houston_stewart_chamberlain",
+   "target": "wd_ahmad_yasin",
+   "type": "bingo-wikidata"
+  },
+  {
+   "source": "wd_houston_stewart_chamberlain",
+   "target": "wd_johann_bernhard_basedow",
+   "type": "bingo-wikidata"
+  },
+  {
+   "source": "wd_houston_stewart_chamberlain",
+   "target": "wd_alan_gross",
+   "type": "bingo-wikidata"
+  },
+  {
+   "source": "wd_houston_stewart_chamberlain",
+   "target": "wd_teri_hatcher",
+   "type": "bingo-wikidata"
+  },
+  {
+   "source": "wd_houston_stewart_chamberlain",
+   "target": "wd_bobby_sands",
+   "type": "bingo-wikidata"
+  },
+  {
+   "source": "wd_houston_stewart_chamberlain",
+   "target": "wd_rob_stolk",
+   "type": "bingo-wikidata"
+  },
+  {
+   "source": "wd_houston_stewart_chamberlain",
+   "target": "wd_lionel_giles",
+   "type": "bingo-wikidata"
+  },
+  {
+   "source": "wd_houston_stewart_chamberlain",
+   "target": "wd_paul_tillich",
+   "type": "bingo-wikidata"
+  },
+  {
+   "source": "wd_houston_stewart_chamberlain",
+   "target": "wd_martin_sheen",
+   "type": "bingo-wikidata"
+  },
+  {
+   "source": "braid_achievement_x_prediction",
+   "target": "achievement_first_blood",
+   "type": "label-achievement"
+  },
+  {
+   "source": "braid_achievement_x_prediction",
+   "target": "achievement_witness",
+   "type": "label-achievement"
+  },
+  {
+   "source": "braid_achievement_x_prediction",
+   "target": "achievement_radar_operator",
+   "type": "label-achievement"
+  },
+  {
+   "source": "braid_achievement_x_prediction",
+   "target": "achievement_pinocchio_catcher",
+   "type": "label-achievement"
+  },
+  {
+   "source": "braid_achievement_x_prediction",
+   "target": "achievement_money_tracer",
+   "type": "label-achievement"
+  },
+  {
+   "source": "braid_achievement_x_prediction",
+   "target": "eaa",
+   "type": "label-achievement"
+  },
+  {
+   "source": "braid_achievement_x_prediction",
+   "target": "achievement_network_mapper",
+   "type": "label-achievement"
+  },
+  {
+   "source": "achievement_first_blood",
+   "target": "braid_achievement_x_side_quest",
+   "type": "label-achievement"
+  },
+  {
+   "source": "achievement_first_blood",
+   "target": "braid_achievement_x_quest",
+   "type": "label-achievement"
+  },
+  {
+   "source": "achievement_first_blood",
+   "target": "braid_achievement_x_document",
+   "type": "label-achievement"
+  },
+  {
+   "source": "achievement_first_blood",
+   "target": "braid_achievement_x_entity",
+   "type": "label-achievement"
+  },
+  {
+   "source": "achievement_first_blood",
+   "target": "braid_achievement_x_actor",
+   "type": "label-achievement"
+  },
+  {
+   "source": "achievement_first_blood",
+   "target": "braid_achievement_x_event",
+   "type": "label-achievement"
+  },
+  {
+   "source": "achievement_first_blood",
+   "target": "braid_achievement_x_analysis",
+   "type": "label-achievement"
+  },
+  {
+   "source": "achievement_first_blood",
+   "target": "braid_achievement_x_group",
+   "type": "label-achievement"
+  },
+  {
+   "source": "achievement_first_blood",
+   "target": "braid_achievement_x_person",
+   "type": "label-achievement"
+  },
+  {
+   "source": "achievement_first_blood",
+   "target": "braid_achievement_x_law",
+   "type": "label-achievement"
+  },
+  {
+   "source": "achievement_first_blood",
+   "target": "eaa",
+   "type": "label-achievement"
+  },
+  {
+   "source": "achievement_first_blood",
+   "target": "braid_achievement_x_milestone",
+   "type": "label-achievement"
+  },
+  {
+   "source": "achievement_first_blood",
+   "target": "braid_achievement_x_non_human",
+   "type": "label-achievement"
+  },
+  {
+   "source": "braid_achievement_x_side_quest",
+   "target": "achievement_witness",
+   "type": "label-achievement"
+  },
+  {
+   "source": "braid_achievement_x_side_quest",
+   "target": "achievement_radar_operator",
+   "type": "label-achievement"
+  },
+  {
+   "source": "braid_achievement_x_side_quest",
+   "target": "achievement_pinocchio_catcher",
+   "type": "label-achievement"
+  },
+  {
+   "source": "braid_achievement_x_side_quest",
+   "target": "achievement_money_tracer",
+   "type": "label-achievement"
+  },
+  {
+   "source": "braid_achievement_x_side_quest",
+   "target": "eaa",
+   "type": "label-achievement"
+  },
+  {
+   "source": "braid_achievement_x_side_quest",
+   "target": "achievement_network_mapper",
+   "type": "label-achievement"
+  },
+  {
+   "source": "achievement_witness",
+   "target": "braid_achievement_x_quest",
+   "type": "label-achievement"
+  },
+  {
+   "source": "achievement_witness",
+   "target": "braid_achievement_x_document",
+   "type": "label-achievement"
+  },
+  {
+   "source": "achievement_witness",
+   "target": "braid_achievement_x_entity",
+   "type": "label-achievement"
+  },
+  {
+   "source": "achievement_witness",
+   "target": "braid_achievement_x_actor",
+   "type": "label-achievement"
+  },
+  {
+   "source": "achievement_witness",
+   "target": "braid_achievement_x_event",
+   "type": "label-achievement"
+  },
+  {
+   "source": "achievement_witness",
+   "target": "braid_achievement_x_analysis",
+   "type": "label-achievement"
+  },
+  {
+   "source": "achievement_witness",
+   "target": "braid_achievement_x_group",
+   "type": "label-achievement"
+  },
+  {
+   "source": "achievement_witness",
+   "target": "braid_achievement_x_person",
+   "type": "label-achievement"
+  },
+  {
+   "source": "achievement_witness",
+   "target": "braid_achievement_x_law",
+   "type": "label-achievement"
+  },
+  {
+   "source": "achievement_witness",
+   "target": "eaa",
+   "type": "label-achievement"
+  },
+  {
+   "source": "achievement_witness",
+   "target": "braid_achievement_x_milestone",
+   "type": "label-achievement"
+  },
+  {
+   "source": "achievement_witness",
+   "target": "braid_achievement_x_non_human",
+   "type": "label-achievement"
+  },
+  {
+   "source": "braid_achievement_x_quest",
+   "target": "achievement_radar_operator",
+   "type": "label-achievement"
+  },
+  {
+   "source": "braid_achievement_x_quest",
+   "target": "achievement_pinocchio_catcher",
+   "type": "label-achievement"
+  },
+  {
+   "source": "braid_achievement_x_quest",
+   "target": "achievement_money_tracer",
+   "type": "label-achievement"
+  },
+  {
+   "source": "braid_achievement_x_quest",
+   "target": "eaa",
+   "type": "label-achievement"
+  },
+  {
+   "source": "braid_achievement_x_quest",
+   "target": "achievement_network_mapper",
+   "type": "label-achievement"
+  },
+  {
+   "source": "braid_achievement_x_document",
+   "target": "achievement_radar_operator",
+   "type": "label-achievement"
+  },
+  {
+   "source": "braid_achievement_x_document",
+   "target": "achievement_pinocchio_catcher",
+   "type": "label-achievement"
+  },
+  {
+   "source": "braid_achievement_x_document",
+   "target": "achievement_money_tracer",
+   "type": "label-achievement"
+  },
+  {
+   "source": "braid_achievement_x_document",
+   "target": "eaa",
+   "type": "label-achievement"
+  },
+  {
+   "source": "braid_achievement_x_document",
+   "target": "achievement_network_mapper",
+   "type": "label-achievement"
+  },
+  {
+   "source": "braid_achievement_x_entity",
+   "target": "achievement_radar_operator",
+   "type": "label-achievement"
+  },
+  {
+   "source": "braid_achievement_x_entity",
+   "target": "achievement_pinocchio_catcher",
+   "type": "label-achievement"
+  },
+  {
+   "source": "braid_achievement_x_entity",
+   "target": "achievement_money_tracer",
+   "type": "label-achievement"
+  },
+  {
+   "source": "braid_achievement_x_entity",
+   "target": "eaa",
+   "type": "label-achievement"
+  },
+  {
+   "source": "braid_achievement_x_entity",
+   "target": "achievement_network_mapper",
+   "type": "label-achievement"
+  },
+  {
+   "source": "braid_achievement_x_actor",
+   "target": "achievement_radar_operator",
+   "type": "label-achievement"
+  },
+  {
+   "source": "braid_achievement_x_actor",
+   "target": "achievement_pinocchio_catcher",
+   "type": "label-achievement"
+  },
+  {
+   "source": "braid_achievement_x_actor",
+   "target": "achievement_money_tracer",
+   "type": "label-achievement"
+  },
+  {
+   "source": "braid_achievement_x_actor",
+   "target": "eaa",
+   "type": "label-achievement"
+  },
+  {
+   "source": "braid_achievement_x_actor",
+   "target": "achievement_network_mapper",
+   "type": "label-achievement"
+  },
+  {
+   "source": "achievement_radar_operator",
+   "target": "braid_achievement_x_event",
+   "type": "label-achievement"
+  },
+  {
+   "source": "achievement_radar_operator",
+   "target": "braid_achievement_x_analysis",
+   "type": "label-achievement"
+  },
+  {
+   "source": "achievement_radar_operator",
+   "target": "braid_achievement_x_group",
+   "type": "label-achievement"
+  },
+  {
+   "source": "achievement_radar_operator",
+   "target": "braid_achievement_x_person",
+   "type": "label-achievement"
+  },
+  {
+   "source": "achievement_radar_operator",
+   "target": "braid_achievement_x_law",
+   "type": "label-achievement"
+  },
+  {
+   "source": "achievement_radar_operator",
+   "target": "eaa",
+   "type": "label-achievement"
+  },
+  {
+   "source": "achievement_radar_operator",
+   "target": "braid_achievement_x_milestone",
+   "type": "label-achievement"
+  },
+  {
+   "source": "achievement_radar_operator",
+   "target": "braid_achievement_x_non_human",
+   "type": "label-achievement"
+  },
+  {
+   "source": "braid_achievement_x_event",
+   "target": "achievement_pinocchio_catcher",
+   "type": "label-achievement"
+  },
+  {
+   "source": "braid_achievement_x_event",
+   "target": "achievement_money_tracer",
+   "type": "label-achievement"
+  },
+  {
+   "source": "braid_achievement_x_event",
+   "target": "eaa",
+   "type": "label-achievement"
+  },
+  {
+   "source": "braid_achievement_x_event",
+   "target": "achievement_network_mapper",
+   "type": "label-achievement"
+  },
+  {
+   "source": "achievement_pinocchio_catcher",
+   "target": "braid_achievement_x_analysis",
+   "type": "label-achievement"
+  },
+  {
+   "source": "achievement_pinocchio_catcher",
+   "target": "braid_achievement_x_group",
+   "type": "label-achievement"
+  },
+  {
+   "source": "achievement_pinocchio_catcher",
+   "target": "braid_achievement_x_person",
+   "type": "label-achievement"
+  },
+  {
+   "source": "achievement_pinocchio_catcher",
+   "target": "braid_achievement_x_law",
+   "type": "label-achievement"
+  },
+  {
+   "source": "achievement_pinocchio_catcher",
+   "target": "eaa",
+   "type": "label-achievement"
+  },
+  {
+   "source": "achievement_pinocchio_catcher",
+   "target": "braid_achievement_x_milestone",
+   "type": "label-achievement"
+  },
+  {
+   "source": "achievement_pinocchio_catcher",
+   "target": "braid_achievement_x_non_human",
+   "type": "label-achievement"
+  },
+  {
+   "source": "achievement_money_tracer",
+   "target": "braid_achievement_x_analysis",
+   "type": "label-achievement"
+  },
+  {
+   "source": "achievement_money_tracer",
+   "target": "braid_achievement_x_group",
+   "type": "label-achievement"
+  },
+  {
+   "source": "achievement_money_tracer",
+   "target": "braid_achievement_x_person",
+   "type": "label-achievement"
+  },
+  {
+   "source": "achievement_money_tracer",
+   "target": "braid_achievement_x_law",
+   "type": "label-achievement"
+  },
+  {
+   "source": "achievement_money_tracer",
+   "target": "eaa",
+   "type": "label-achievement"
+  },
+  {
+   "source": "achievement_money_tracer",
+   "target": "braid_achievement_x_milestone",
+   "type": "label-achievement"
+  },
+  {
+   "source": "achievement_money_tracer",
+   "target": "braid_achievement_x_non_human",
+   "type": "label-achievement"
+  },
+  {
+   "source": "braid_achievement_x_analysis",
+   "target": "eaa",
+   "type": "label-achievement"
+  },
+  {
+   "source": "braid_achievement_x_analysis",
+   "target": "achievement_network_mapper",
+   "type": "label-achievement"
+  },
+  {
+   "source": "braid_achievement_x_group",
+   "target": "eaa",
+   "type": "label-achievement"
+  },
+  {
+   "source": "braid_achievement_x_group",
+   "target": "achievement_network_mapper",
+   "type": "label-achievement"
+  },
+  {
+   "source": "braid_achievement_x_person",
+   "target": "eaa",
+   "type": "label-achievement"
+  },
+  {
+   "source": "braid_achievement_x_person",
+   "target": "achievement_network_mapper",
+   "type": "label-achievement"
+  },
+  {
+   "source": "braid_achievement_x_law",
+   "target": "eaa",
+   "type": "label-achievement"
+  },
+  {
+   "source": "braid_achievement_x_law",
+   "target": "achievement_network_mapper",
+   "type": "label-achievement"
+  },
+  {
+   "source": "eaa",
+   "target": "achievement_network_mapper",
+   "type": "label-achievement"
+  },
+  {
+   "source": "eaa",
+   "target": "braid_achievement_x_milestone",
+   "type": "label-achievement"
+  },
+  {
+   "source": "eaa",
+   "target": "braid_achievement_x_non_human",
+   "type": "label-achievement"
+  },
+  {
+   "source": "achievement_network_mapper",
+   "target": "braid_achievement_x_milestone",
+   "type": "label-achievement"
+  },
+  {
+   "source": "achievement_network_mapper",
+   "target": "braid_achievement_x_non_human",
+   "type": "label-achievement"
+  },
+  {
+   "source": "sonia_sotomayor_j",
+   "target": "article_untold_sc_cavanagh",
+   "type": "label-justice"
+  },
+  {
+   "source": "sonia_sotomayor_j",
+   "target": "detroit_justice_center",
+   "type": "label-justice"
+  },
+  {
+   "source": "sonia_sotomayor_j",
+   "target": "sc_hood",
+   "type": "label-justice"
+  },
+  {
+   "source": "sonia_sotomayor_j",
+   "target": "site_clutch_justice",
+   "type": "label-justice"
+  },
+  {
+   "source": "sonia_sotomayor_j",
+   "target": "mothering_justice",
+   "type": "label-justice"
+  },
+  {
+   "source": "sonia_sotomayor_j",
+   "target": "amy_coney_barrett_j",
+   "type": "label-justice"
+  },
+  {
+   "source": "sonia_sotomayor_j",
+   "target": "hope-restorative-justice",
+   "type": "label-justice"
+  },
+  {
+   "source": "sonia_sotomayor_j",
+   "target": "chojlf",
+   "type": "label-justice"
+  },
+  {
+   "source": "sonia_sotomayor_j",
+   "target": "us_doj",
+   "type": "label-justice"
+  },
+  {
+   "source": "sonia_sotomayor_j",
+   "target": "restorative_justice_deep",
+   "type": "label-justice"
+  },
+  {
+   "source": "sonia_sotomayor_j",
+   "target": "slate_d4_justice",
+   "type": "label-justice"
+  },
+  {
+   "source": "sonia_sotomayor_j",
+   "target": "purpose-charter-academy",
+   "type": "label-justice"
+  },
+  {
+   "source": "sonia_sotomayor_j",
+   "target": "brennan_center",
+   "type": "label-justice"
+  },
+  {
+   "source": "sonia_sotomayor_j",
+   "target": "sc_cavanagh",
+   "type": "label-justice"
+  },
+  {
+   "source": "sonia_sotomayor_j",
+   "target": "restorative_justice",
+   "type": "label-justice"
+  },
+  {
+   "source": "sonia_sotomayor_j",
+   "target": "miller-dykema-connection",
+   "type": "label-justice"
+  },
+  {
+   "source": "article_untold_sc_cavanagh",
+   "target": "detroit_justice_center",
+   "type": "label-justice"
+  },
+  {
+   "source": "article_untold_sc_cavanagh",
+   "target": "scalia_mccollum",
+   "type": "label-justice"
+  },
+  {
+   "source": "article_untold_sc_cavanagh",
+   "target": "sc_hood",
+   "type": "label-justice"
+  },
+  {
+   "source": "article_untold_sc_cavanagh",
+   "target": "site_clutch_justice",
+   "type": "label-justice"
+  },
+  {
+   "source": "article_untold_sc_cavanagh",
+   "target": "mothering_justice",
+   "type": "label-justice"
+  },
+  {
+   "source": "article_untold_sc_cavanagh",
+   "target": "amy_coney_barrett_j",
+   "type": "label-justice"
+  },
+  {
+   "source": "article_untold_sc_cavanagh",
+   "target": "hope-restorative-justice",
+   "type": "label-justice"
+  },
+  {
+   "source": "article_untold_sc_cavanagh",
+   "target": "brett_kavanaugh_j",
+   "type": "label-justice"
+  },
+  {
+   "source": "article_untold_sc_cavanagh",
+   "target": "chojlf",
+   "type": "label-justice"
+  },
+  {
+   "source": "article_untold_sc_cavanagh",
+   "target": "us_doj",
+   "type": "label-justice"
+  },
+  {
+   "source": "article_untold_sc_cavanagh",
+   "target": "restorative_justice_deep",
+   "type": "label-justice"
+  },
+  {
+   "source": "article_untold_sc_cavanagh",
+   "target": "slate_d4_justice",
+   "type": "label-justice"
+  },
+  {
+   "source": "article_untold_sc_cavanagh",
+   "target": "purpose-charter-academy",
+   "type": "label-justice"
+  },
+  {
+   "source": "article_untold_sc_cavanagh",
+   "target": "samuel_alito_j",
+   "type": "label-justice"
+  },
+  {
+   "source": "article_untold_sc_cavanagh",
+   "target": "brennan_center",
+   "type": "label-justice"
+  },
+  {
+   "source": "article_untold_sc_cavanagh",
+   "target": "restorative_justice",
+   "type": "label-justice"
+  },
+  {
+   "source": "article_untold_sc_cavanagh",
+   "target": "miller-dykema-connection",
+   "type": "label-justice"
+  },
+  {
+   "source": "detroit_justice_center",
+   "target": "scalia_mccollum",
+   "type": "label-justice"
+  },
+  {
+   "source": "detroit_justice_center",
+   "target": "sc_hood",
+   "type": "label-justice"
+  },
+  {
+   "source": "detroit_justice_center",
+   "target": "site_clutch_justice",
+   "type": "label-justice"
+  },
+  {
+   "source": "detroit_justice_center",
+   "target": "amy_coney_barrett_j",
+   "type": "label-justice"
+  },
+  {
+   "source": "detroit_justice_center",
+   "target": "hope-restorative-justice",
+   "type": "label-justice"
+  },
+  {
+   "source": "detroit_justice_center",
+   "target": "brett_kavanaugh_j",
+   "type": "label-justice"
+  },
+  {
+   "source": "detroit_justice_center",
+   "target": "chojlf",
+   "type": "label-justice"
+  },
+  {
+   "source": "detroit_justice_center",
+   "target": "us_doj",
+   "type": "label-justice"
+  },
+  {
+   "source": "detroit_justice_center",
+   "target": "restorative_justice_deep",
+   "type": "label-justice"
+  },
+  {
+   "source": "detroit_justice_center",
+   "target": "slate_d4_justice",
+   "type": "label-justice"
+  },
+  {
+   "source": "detroit_justice_center",
+   "target": "purpose-charter-academy",
+   "type": "label-justice"
+  },
+  {
+   "source": "detroit_justice_center",
+   "target": "samuel_alito_j",
+   "type": "label-justice"
+  },
+  {
+   "source": "detroit_justice_center",
+   "target": "restorative_justice",
+   "type": "label-justice"
+  },
+  {
+   "source": "detroit_justice_center",
+   "target": "miller-dykema-connection",
+   "type": "label-justice"
+  },
+  {
+   "source": "scalia_mccollum",
+   "target": "sc_hood",
+   "type": "label-justice"
+  },
+  {
+   "source": "scalia_mccollum",
+   "target": "site_clutch_justice",
+   "type": "label-justice"
+  },
+  {
+   "source": "scalia_mccollum",
+   "target": "mothering_justice",
+   "type": "label-justice"
+  },
+  {
+   "source": "scalia_mccollum",
+   "target": "amy_coney_barrett_j",
+   "type": "label-justice"
+  },
+  {
+   "source": "scalia_mccollum",
+   "target": "hope-restorative-justice",
+   "type": "label-justice"
+  },
+  {
+   "source": "scalia_mccollum",
+   "target": "chojlf",
+   "type": "label-justice"
+  },
+  {
+   "source": "scalia_mccollum",
+   "target": "us_doj",
+   "type": "label-justice"
+  },
+  {
+   "source": "scalia_mccollum",
+   "target": "restorative_justice_deep",
+   "type": "label-justice"
+  },
+  {
+   "source": "scalia_mccollum",
+   "target": "slate_d4_justice",
+   "type": "label-justice"
+  },
+  {
+   "source": "scalia_mccollum",
+   "target": "purpose-charter-academy",
+   "type": "label-justice"
+  },
+  {
+   "source": "scalia_mccollum",
+   "target": "brennan_center",
+   "type": "label-justice"
+  },
+  {
+   "source": "scalia_mccollum",
+   "target": "sc_cavanagh",
+   "type": "label-justice"
+  },
+  {
+   "source": "scalia_mccollum",
+   "target": "restorative_justice",
+   "type": "label-justice"
+  },
+  {
+   "source": "scalia_mccollum",
+   "target": "miller-dykema-connection",
+   "type": "label-justice"
+  },
+  {
+   "source": "sc_hood",
+   "target": "site_clutch_justice",
+   "type": "label-justice"
+  },
+  {
+   "source": "sc_hood",
+   "target": "mothering_justice",
+   "type": "label-justice"
+  },
+  {
+   "source": "sc_hood",
+   "target": "amy_coney_barrett_j",
+   "type": "label-justice"
+  },
+  {
+   "source": "sc_hood",
+   "target": "hope-restorative-justice",
+   "type": "label-justice"
+  },
+  {
+   "source": "sc_hood",
+   "target": "brett_kavanaugh_j",
+   "type": "label-justice"
+  },
+  {
+   "source": "sc_hood",
+   "target": "chojlf",
+   "type": "label-justice"
+  },
+  {
+   "source": "sc_hood",
+   "target": "us_doj",
+   "type": "label-justice"
+  },
+  {
+   "source": "sc_hood",
+   "target": "restorative_justice_deep",
+   "type": "label-justice"
+  },
+  {
+   "source": "sc_hood",
+   "target": "slate_d4_justice",
+   "type": "label-justice"
+  },
+  {
+   "source": "sc_hood",
+   "target": "purpose-charter-academy",
+   "type": "label-justice"
+  },
+  {
+   "source": "sc_hood",
+   "target": "samuel_alito_j",
+   "type": "label-justice"
+  },
+  {
+   "source": "sc_hood",
+   "target": "brennan_center",
+   "type": "label-justice"
+  },
+  {
+   "source": "sc_hood",
+   "target": "restorative_justice",
+   "type": "label-justice"
+  },
+  {
+   "source": "sc_hood",
+   "target": "miller-dykema-connection",
+   "type": "label-justice"
+  },
+  {
+   "source": "site_clutch_justice",
+   "target": "mothering_justice",
+   "type": "label-justice"
+  },
+  {
+   "source": "site_clutch_justice",
+   "target": "amy_coney_barrett_j",
+   "type": "label-justice"
+  },
+  {
+   "source": "site_clutch_justice",
+   "target": "hope-restorative-justice",
+   "type": "label-justice"
+  },
+  {
+   "source": "site_clutch_justice",
+   "target": "brett_kavanaugh_j",
+   "type": "label-justice"
+  },
+  {
+   "source": "site_clutch_justice",
+   "target": "chojlf",
+   "type": "label-justice"
+  },
+  {
+   "source": "site_clutch_justice",
+   "target": "us_doj",
+   "type": "label-justice"
+  },
+  {
+   "source": "site_clutch_justice",
+   "target": "restorative_justice_deep",
+   "type": "label-justice"
+  },
+  {
+   "source": "site_clutch_justice",
+   "target": "slate_d4_justice",
+   "type": "label-justice"
+  },
+  {
+   "source": "site_clutch_justice",
+   "target": "purpose-charter-academy",
+   "type": "label-justice"
+  },
+  {
+   "source": "site_clutch_justice",
+   "target": "samuel_alito_j",
+   "type": "label-justice"
+  },
+  {
+   "source": "site_clutch_justice",
+   "target": "brennan_center",
+   "type": "label-justice"
+  },
+  {
+   "source": "site_clutch_justice",
+   "target": "sc_cavanagh",
+   "type": "label-justice"
+  },
+  {
+   "source": "site_clutch_justice",
+   "target": "restorative_justice",
+   "type": "label-justice"
+  },
+  {
+   "source": "site_clutch_justice",
+   "target": "miller-dykema-connection",
+   "type": "label-justice"
+  },
+  {
+   "source": "mothering_justice",
+   "target": "amy_coney_barrett_j",
+   "type": "label-justice"
+  },
+  {
+   "source": "mothering_justice",
+   "target": "hope-restorative-justice",
+   "type": "label-justice"
+  },
+  {
+   "source": "mothering_justice",
+   "target": "brett_kavanaugh_j",
+   "type": "label-justice"
+  },
+  {
+   "source": "mothering_justice",
+   "target": "chojlf",
+   "type": "label-justice"
+  },
+  {
+   "source": "mothering_justice",
+   "target": "us_doj",
+   "type": "label-justice"
+  },
+  {
+   "source": "mothering_justice",
+   "target": "restorative_justice_deep",
+   "type": "label-justice"
+  },
+  {
+   "source": "mothering_justice",
+   "target": "slate_d4_justice",
+   "type": "label-justice"
+  },
+  {
+   "source": "mothering_justice",
+   "target": "purpose-charter-academy",
+   "type": "label-justice"
+  },
+  {
+   "source": "mothering_justice",
+   "target": "samuel_alito_j",
+   "type": "label-justice"
+  },
+  {
+   "source": "mothering_justice",
+   "target": "sc_cavanagh",
+   "type": "label-justice"
+  },
+  {
+   "source": "mothering_justice",
+   "target": "restorative_justice",
+   "type": "label-justice"
+  },
+  {
+   "source": "mothering_justice",
+   "target": "miller-dykema-connection",
+   "type": "label-justice"
+  },
+  {
+   "source": "amy_coney_barrett_j",
+   "target": "hope-restorative-justice",
+   "type": "label-justice"
+  },
+  {
+   "source": "amy_coney_barrett_j",
+   "target": "brett_kavanaugh_j",
+   "type": "label-justice"
+  },
+  {
+   "source": "amy_coney_barrett_j",
+   "target": "chojlf",
+   "type": "label-justice"
+  },
+  {
+   "source": "amy_coney_barrett_j",
+   "target": "us_doj",
+   "type": "label-justice"
+  },
+  {
+   "source": "amy_coney_barrett_j",
+   "target": "restorative_justice_deep",
+   "type": "label-justice"
+  },
+  {
+   "source": "amy_coney_barrett_j",
+   "target": "slate_d4_justice",
+   "type": "label-justice"
+  },
+  {
+   "source": "amy_coney_barrett_j",
+   "target": "purpose-charter-academy",
+   "type": "label-justice"
+  },
+  {
+   "source": "amy_coney_barrett_j",
+   "target": "samuel_alito_j",
+   "type": "label-justice"
+  },
+  {
+   "source": "amy_coney_barrett_j",
+   "target": "brennan_center",
+   "type": "label-justice"
+  },
+  {
+   "source": "amy_coney_barrett_j",
+   "target": "sc_cavanagh",
+   "type": "label-justice"
+  },
+  {
+   "source": "amy_coney_barrett_j",
+   "target": "restorative_justice",
+   "type": "label-justice"
+  },
+  {
+   "source": "amy_coney_barrett_j",
+   "target": "miller-dykema-connection",
+   "type": "label-justice"
+  },
+  {
+   "source": "hope-restorative-justice",
+   "target": "brett_kavanaugh_j",
+   "type": "label-justice"
+  },
+  {
+   "source": "hope-restorative-justice",
+   "target": "chojlf",
+   "type": "label-justice"
+  },
+  {
+   "source": "hope-restorative-justice",
+   "target": "us_doj",
+   "type": "label-justice"
+  },
+  {
+   "source": "hope-restorative-justice",
+   "target": "restorative_justice_deep",
+   "type": "label-justice"
+  },
+  {
+   "source": "hope-restorative-justice",
+   "target": "slate_d4_justice",
+   "type": "label-justice"
+  },
+  {
+   "source": "hope-restorative-justice",
+   "target": "purpose-charter-academy",
+   "type": "label-justice"
+  },
+  {
+   "source": "hope-restorative-justice",
+   "target": "samuel_alito_j",
+   "type": "label-justice"
+  },
+  {
+   "source": "hope-restorative-justice",
+   "target": "brennan_center",
+   "type": "label-justice"
+  },
+  {
+   "source": "hope-restorative-justice",
+   "target": "sc_cavanagh",
+   "type": "label-justice"
+  },
+  {
+   "source": "hope-restorative-justice",
+   "target": "restorative_justice",
+   "type": "label-justice"
+  },
+  {
+   "source": "hope-restorative-justice",
+   "target": "miller-dykema-connection",
+   "type": "label-justice"
+  },
+  {
+   "source": "brett_kavanaugh_j",
+   "target": "us_doj",
+   "type": "label-justice"
+  },
+  {
+   "source": "brett_kavanaugh_j",
+   "target": "restorative_justice_deep",
+   "type": "label-justice"
+  },
+  {
+   "source": "brett_kavanaugh_j",
+   "target": "slate_d4_justice",
+   "type": "label-justice"
+  },
+  {
+   "source": "brett_kavanaugh_j",
+   "target": "purpose-charter-academy",
+   "type": "label-justice"
+  },
+  {
+   "source": "brett_kavanaugh_j",
+   "target": "brennan_center",
+   "type": "label-justice"
+  },
+  {
+   "source": "brett_kavanaugh_j",
+   "target": "sc_cavanagh",
+   "type": "label-justice"
+  },
+  {
+   "source": "brett_kavanaugh_j",
+   "target": "restorative_justice",
+   "type": "label-justice"
+  },
+  {
+   "source": "brett_kavanaugh_j",
+   "target": "miller-dykema-connection",
+   "type": "label-justice"
+  },
+  {
+   "source": "chojlf",
+   "target": "us_doj",
+   "type": "label-justice"
+  },
+  {
+   "source": "chojlf",
+   "target": "restorative_justice_deep",
+   "type": "label-justice"
+  },
+  {
+   "source": "chojlf",
+   "target": "slate_d4_justice",
+   "type": "label-justice"
+  },
+  {
+   "source": "chojlf",
+   "target": "purpose-charter-academy",
+   "type": "label-justice"
+  },
+  {
+   "source": "chojlf",
+   "target": "samuel_alito_j",
+   "type": "label-justice"
+  },
+  {
+   "source": "chojlf",
+   "target": "brennan_center",
+   "type": "label-justice"
+  },
+  {
+   "source": "chojlf",
+   "target": "sc_cavanagh",
+   "type": "label-justice"
+  },
+  {
+   "source": "chojlf",
+   "target": "restorative_justice",
+   "type": "label-justice"
+  },
+  {
+   "source": "chojlf",
+   "target": "miller-dykema-connection",
+   "type": "label-justice"
+  },
+  {
+   "source": "us_doj",
+   "target": "restorative_justice_deep",
+   "type": "label-justice"
+  },
+  {
+   "source": "us_doj",
+   "target": "slate_d4_justice",
+   "type": "label-justice"
+  },
+  {
+   "source": "us_doj",
+   "target": "purpose-charter-academy",
+   "type": "label-justice"
+  },
+  {
+   "source": "us_doj",
+   "target": "samuel_alito_j",
+   "type": "label-justice"
+  },
+  {
+   "source": "us_doj",
+   "target": "brennan_center",
+   "type": "label-justice"
+  },
+  {
+   "source": "us_doj",
+   "target": "sc_cavanagh",
+   "type": "label-justice"
+  },
+  {
+   "source": "us_doj",
+   "target": "restorative_justice",
+   "type": "label-justice"
+  },
+  {
+   "source": "us_doj",
+   "target": "miller-dykema-connection",
+   "type": "label-justice"
+  },
+  {
+   "source": "restorative_justice_deep",
+   "target": "slate_d4_justice",
+   "type": "label-justice"
+  },
+  {
+   "source": "restorative_justice_deep",
+   "target": "purpose-charter-academy",
+   "type": "label-justice"
+  },
+  {
+   "source": "restorative_justice_deep",
+   "target": "samuel_alito_j",
+   "type": "label-justice"
+  },
+  {
+   "source": "restorative_justice_deep",
+   "target": "brennan_center",
+   "type": "label-justice"
+  },
+  {
+   "source": "restorative_justice_deep",
+   "target": "sc_cavanagh",
+   "type": "label-justice"
+  },
+  {
+   "source": "restorative_justice_deep",
+   "target": "restorative_justice",
+   "type": "label-justice"
+  },
+  {
+   "source": "restorative_justice_deep",
+   "target": "miller-dykema-connection",
+   "type": "label-justice"
+  },
+  {
+   "source": "slate_d4_justice",
+   "target": "purpose-charter-academy",
+   "type": "label-justice"
+  },
+  {
+   "source": "slate_d4_justice",
+   "target": "samuel_alito_j",
+   "type": "label-justice"
+  },
+  {
+   "source": "slate_d4_justice",
+   "target": "brennan_center",
+   "type": "label-justice"
+  },
+  {
+   "source": "slate_d4_justice",
+   "target": "sc_cavanagh",
+   "type": "label-justice"
+  },
+  {
+   "source": "slate_d4_justice",
+   "target": "restorative_justice",
+   "type": "label-justice"
+  },
+  {
+   "source": "slate_d4_justice",
+   "target": "miller-dykema-connection",
+   "type": "label-justice"
+  },
+  {
+   "source": "purpose-charter-academy",
+   "target": "samuel_alito_j",
+   "type": "label-justice"
+  },
+  {
+   "source": "purpose-charter-academy",
+   "target": "brennan_center",
+   "type": "label-justice"
+  },
+  {
+   "source": "purpose-charter-academy",
+   "target": "sc_cavanagh",
+   "type": "label-justice"
+  },
+  {
+   "source": "purpose-charter-academy",
+   "target": "restorative_justice",
+   "type": "label-justice"
+  },
+  {
+   "source": "samuel_alito_j",
+   "target": "brennan_center",
+   "type": "label-justice"
+  },
+  {
+   "source": "samuel_alito_j",
+   "target": "sc_cavanagh",
+   "type": "label-justice"
+  },
+  {
+   "source": "samuel_alito_j",
+   "target": "restorative_justice",
+   "type": "label-justice"
+  },
+  {
+   "source": "samuel_alito_j",
+   "target": "miller-dykema-connection",
+   "type": "label-justice"
+  },
+  {
+   "source": "brennan_center",
+   "target": "restorative_justice",
+   "type": "label-justice"
+  },
+  {
+   "source": "brennan_center",
+   "target": "miller-dykema-connection",
+   "type": "label-justice"
+  },
+  {
+   "source": "sc_cavanagh",
+   "target": "restorative_justice",
+   "type": "label-justice"
+  },
+  {
+   "source": "sc_cavanagh",
+   "target": "miller-dykema-connection",
+   "type": "label-justice"
+  },
+  {
+   "source": "restorative_justice",
+   "target": "miller-dykema-connection",
+   "type": "label-justice"
+  },
+  {
+   "source": "crypto-ledger",
+   "target": "braid_event_x_institution",
+   "type": "label-institution"
+  },
+  {
+   "source": "crypto-ledger",
+   "target": "epitope-concept",
+   "type": "label-institution"
+  },
+  {
+   "source": "crypto-ledger",
+   "target": "braid_human_x_institution",
+   "type": "label-institution"
+  },
+  {
+   "source": "crypto-ledger",
+   "target": "braid_institution_x_pivot",
+   "type": "label-institution"
+  },
+  {
+   "source": "crypto-ledger",
+   "target": "braid_institution_x_prediction",
+   "type": "label-institution"
+  },
+  {
+   "source": "crypto-ledger",
+   "target": "braid_article_x_institution",
+   "type": "label-institution"
+  },
+  {
+   "source": "crypto-ledger",
+   "target": "braid_institution_x_person",
+   "type": "label-institution"
+  },
+  {
+   "source": "crypto-ledger",
+   "target": "braid_institution_x_level",
+   "type": "label-institution"
+  },
+  {
+   "source": "crypto-ledger",
+   "target": "analog_catholic_church",
+   "type": "label-institution"
+  },
+  {
+   "source": "crypto-ledger",
+   "target": "braid_actor_x_institution",
+   "type": "label-institution"
+  },
+  {
+   "source": "crypto-ledger",
+   "target": "braid_institution_x_law",
+   "type": "label-institution"
+  },
+  {
+   "source": "crypto-ledger",
+   "target": "braid_institution_x_pattern",
+   "type": "label-institution"
+  },
+  {
+   "source": "crypto-ledger",
+   "target": "class_institution",
+   "type": "label-institution"
+  },
+  {
+   "source": "crypto-ledger",
+   "target": "braid_concept_x_institution",
+   "type": "label-institution"
+  },
+  {
+   "source": "crypto-ledger",
+   "target": "braid_entity_x_institution",
+   "type": "label-institution"
+  },
+  {
+   "source": "crypto-ledger",
+   "target": "braid_false_entity_x_institution",
+   "type": "label-institution"
+  },
+  {
+   "source": "crypto-ledger",
+   "target": "braid_institution_x_side_quest",
+   "type": "label-institution"
+  },
+  {
+   "source": "crypto-ledger",
+   "target": "braid_institution_x_milestone",
+   "type": "label-institution"
+  },
+  {
+   "source": "crypto-ledger",
+   "target": "braid_complainant_x_institution",
+   "type": "label-institution"
+  },
+  {
+   "source": "braid_event_x_institution",
+   "target": "epitope-concept",
+   "type": "label-institution"
+  },
+  {
+   "source": "braid_event_x_institution",
+   "target": "analog_catholic_church",
+   "type": "label-institution"
+  },
+  {
+   "source": "braid_event_x_institution",
+   "target": "class_institution",
+   "type": "label-institution"
+  },
+  {
+   "source": "epitope-concept",
+   "target": "braid_human_x_institution",
+   "type": "label-institution"
+  },
+  {
+   "source": "epitope-concept",
+   "target": "braid_institution_x_pivot",
+   "type": "label-institution"
+  },
+  {
+   "source": "epitope-concept",
+   "target": "braid_institution_x_prediction",
+   "type": "label-institution"
+  },
+  {
+   "source": "epitope-concept",
+   "target": "braid_article_x_institution",
+   "type": "label-institution"
+  },
+  {
+   "source": "epitope-concept",
+   "target": "braid_institution_x_person",
+   "type": "label-institution"
+  },
+  {
+   "source": "epitope-concept",
+   "target": "braid_institution_x_level",
+   "type": "label-institution"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "sandy_hook",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "wp-initiochem",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "leader_æthelred_lord_of_the_mercians",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "unesco_vizcaya_bridge",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "constellation_taurus",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "space_debris",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "game_boy",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "redflag_board_independence",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "wp-ls-community",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "class_group",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "jonathan_kinloch",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "charter_law_1993",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "wayne_county_dem",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "pattern_regulatory_capture",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "detroit_precinct_vacancies",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "detroit_city_council",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "article_hiding_behind_race",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "flow_recovery",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "escalation_nov15",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "article_latent_economy",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "marquaita_smith",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "smith_school_choice",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "latent_economy",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "salem_cotton_mather",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "till_willie_reed",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "verdict_wolf_plante_moran",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "journey_reproduction",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "article_glenn_page_direct",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "pinocchio-concept",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "dpscd_cand_henrietta_ivey",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "unesco_zuojiang_huashan_rock_art_cultural_lands",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "broad_foundation",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "aaron_keel",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "dpscd_cand_nicole_conaway",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "dpscd_corletta_vaughn",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "unesco_medieval_town_of_toruń",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "ripple_month1",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "econ_heckman",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "article_ouroboros_gordian",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "spread_tiktok",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "econ_insurance_chain",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "analog_wirecard",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "redflag_related_party_transactions",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "primal_nestgate",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "article_red_flags",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "bell_data_journalists",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "article_wider_thomas_ryan",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "stratum_economics_legal",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "devos_foundation",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "deadline_oct31",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "ouroboros",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "vaughn",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "article_halloween",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "hill_harper",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "article_fill_the_seats",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "wayne_county",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "article_historical_pattern",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "article_faintest_glimmer",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "wayne_resa_audit",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "article_credential_audit",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "article_spiral_down",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "crump_gibson",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "pol_shri_thanedar",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "article_vitti_direct",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "article_knowledge_commons",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "redflag_criminal_background",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "redflag_distant_authorizer",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "article_auto_wow_signal",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "edge_family_domain",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "lesson_einstein",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "article_questions",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "vital_session",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "miller",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "page_fill_the_seats",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "parliament_funkadelic",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "dpscd_latrice_mcclendon",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "detroit_historic_advisory",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "dpscd_cand_calesther_smith_arnold",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "misdirection",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "wp-thesis-12",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "state_idaho",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "paradox_liar",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "outlier_media",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "propublica",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "wp-thesis-00",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "wxyz",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_deserves_transparency",
+   "target": "state_new_york",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "opioid-dead-2017",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "opioid-dead-2000",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "frank_olson",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "kensington-ave",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "florida-pill-mills-stat",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "michigan-opioid",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "story-first-responders",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "opioid-dead-2019",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "colorado-river",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "article-judge-jones",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "oz-magic-pills",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "health-misinfo-body-count",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "article-kathe-sackler",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "article-david-sackler",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "opioid-deaths-total",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "fentanyl-crisis",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "ohio-opioid",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "kentucky-opioid",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "fentanyl-deaths-2023",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "purdue-revenue-first-year",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "book-cadillac-desert",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "lake-mead",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "the_way_forward",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "mantella",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "opioid-dead-2020",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "article_are_you_ok",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "the_mesh",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "covid-unvax-excess-deaths",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "opioid-dead-2010",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "article_jump_double_slit",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "opioid-dead-1999",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "article_what_was_lost",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "parliament_funkadelic",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "plante_moran",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "attsi_inflection_02",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "12_angry_men",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "article_jump_octopus_banks",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "fentanyl-dead-2022",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "article_jump_fibonacci_fraud",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "analog_sacklers",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "membrane_site",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "fentanyl-dead-2021",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "lesson_archimedes",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "abdel_kader_haidara",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "braid_actor_x_human",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "braid_epitope_x_human",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "atlas_the_water",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "astro_aleksandr_serebrov",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "shape_pain_to_data",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "haboob",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "unesco_archaeological_sites_of_mycenae_and_tiry",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "cesar_chavez_boycott",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "lamar_moreland",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "constellation_octans",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "article_moreland_direct",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "article_op_ed_mandate_revoked",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "writeup_h8_formal",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "article_detroit_literacy",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "article_education_landscape",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "article_benson_certify",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "article_devos_bought_silence",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "article_narrative_pipeline",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "article_perkins_slept_on_it",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "article-marc-kesselman",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "oz-hydroxychloroquine",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "shape-of-human",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "article-dr-oz",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "the-mirror",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "article-jessica",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "wv-opioid-rate",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "hypothesis_credential",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "tennessee-opioid",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "cmu",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "article_ghost_network",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "article_stallworth_direct",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "article_the_silence_map",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "article_hiding_behind_you",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "article_man_bites_dog",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "land-heroes",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "article-richard-sackler",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "plastic-crisis",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "wozniak",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "pennsylvania-opioid",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "lake-powell",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "charter_law_1993",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "article_keep_seeking",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "article_the_signal",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "article_child_eaters",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "article_spine_to_spine",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "detroit_justice_center",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "un_crc_article3",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "foley_mansfield",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "southern_poverty_law",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "bounty_qui_tam",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "measles-deaths-2024",
+   "target": "sc_bolden",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "holland",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "perkins_sean",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "whitepaper",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "article_devos_bought_silence",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "unesco_walled_city_of_baku_with_the_shirvanshah",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "state_alaska",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "maleyko",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "unesco_old_city_of_zamość",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "article_education_landscape",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "site_tuebor",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "state_oklahoma",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "styx",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "redlining",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "state_new_hampshire",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "enclosure_movement",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "state_tennessee",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "state_nebraska",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "catch_22",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "state_california",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "cradle_to_cradle",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "state_rhode_island",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "state_south_carolina",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "state_guam",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "tyrian_purple",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "unesco_canadian_rocky_mountain_parks",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "quenching",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "element_iron",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "family_tree",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "unesco_the_persian_garden",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "grammy_frank_zappa",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "unesco_su_nuraxi_di_barumini",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "infrasound",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "olympian_lee_yong_dae",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "religion_discordianism",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "state_virginia",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "secret-calculus",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "lichen",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "mary_shelley",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "hasbro",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "senier",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "joseph_heller",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "shift_48k",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "belle_isle",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "sc_cavanagh",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "unesco_archaeological_site_of_philippi",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "olympian_tom_reuveny",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "exo_toi_5595_b",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "hypothesis_extraction",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "exo_toi_4034_b",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "sisyphus",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "thomas_kuhn",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "jackie_robinson",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "unesco_gough_and_inaccessible_islands",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "teacher_who_stayed",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "unesco_banc_darguin_national_park",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "wp-tech-unibin",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "emmett_till_weight",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "dance_agualarga",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "unesco_taj_mahal",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "migration_birds",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "unesco_national_archeological_park_of_tierraden",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "grammy_charlie_parker",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "olympic_judo_as_a_sport",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "grammy_bob_dylan",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "element_lanthanum",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "unesco_old_city_of_jerusalem_and_its_walls",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "unesco_atlantic_forest_south-east_reserves",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "olympian_li_xuerui",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "oscar_tom_stoppard",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "grammy_miles_davis",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "salem_witch_trials",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "grammy_antônio_carlos_jobim",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "grammy_joan_baez",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "element_copernicium",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "oscar_robert_moresco",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "olympic_fencing",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "hermes_trickster",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "lang_russian",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "satanic_temple",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "entropy_life",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "religion_ngor",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "dykema_100yr_arc",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "dykema_jason_hanselman",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "state_dc",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "dykema_robert_boonin",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "tremblay",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "nessel_benson_cohort",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "terra_preta",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "underwater_waterfall",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "sunni_shia_split",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "superconductivity",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "tinker_v_des_moines",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "dungeons_dragons",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "state_ca",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "volcano_acotango",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "river_tigris",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "general_relativity",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "state_texas",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "elliott_larsen_1976",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "teacher_stays",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "article_ghost_network",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "bridge_intl_academies",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "article_crump_gibson_direct",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "class_level",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "article_by_the_numbers",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "article_you_yeah_you",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "blue_mitten_action",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "korey-wise",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "stratum_11_articles",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "unesco_historic_city_of_trogir",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "wiretap_fiore",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "unesco_rietveld_schröderhuis_(rietveld_schröder",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "unesco_pre-hispanic_city_and_national_park_of_p",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "czi",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "oscar_jason_smith",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "dave_doyle",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "unesco_ferrara_city_of_the_renaissance_and_its_",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "unesco_historic_centre_of_the_city_of_salzburg",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "unesco_city_of_verona",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "convention_rights_child",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "mde_kelli_brozanski",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "philip_zimbardo",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "article_damages_calculator",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "jainism",
+   "target": "doors",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "braid_article_x_boss",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "bill-watterson",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "braid_actor_x_analysis",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "braid_complainant_x_quest",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "ken-griffin",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "roaring-kitty",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "braid_false_entity_x_level",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "braid_game_x_law",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "braid_group_x_person",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "braid_entity_x_game",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "game_board_meeting_bingo",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "braid_analysis_x_false_entity",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "cost_function_addiction",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "braid_analysis_x_boss",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "braid_analysis_x_person",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "braid_document_x_game",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "braid_game_x_person",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "braid_achievement_x_article",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "braid_achievement_x_institution",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "braid_achievement_x_action",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "braid_achievement_x_creature",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "braid_pattern_x_pivot",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "coralforge",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "braid_achievement_x_pivot",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "braid_achievement_x_creator",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "braid_action_x_pattern",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "braid_milestone_x_non_human",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "braid_document_x_person",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "braid_actor_x_non_human",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "braid_boss_x_non_human",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "braid_institution_x_non_human",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "braid_non_human_x_quest",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "braid_creator_x_non_human",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "attsi_inflection_02",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "braid_institution_x_pattern",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "braid_creature_x_human",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "braid_achievement_x_event",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "braid_law_x_pattern",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "braid_event_x_law",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "braid_complainant_x_pattern",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "braid_creature_x_pattern",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "braid_pattern_x_person",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "aces_at_pca",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "braid_complainant_x_method",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "braid_document_x_level",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "noclothes_part1",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "braid_false_entity_x_pattern",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "braid_milestone_x_pattern",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "braid_architecture_x_pattern",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "braid_complainant_x_side_quest",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "braid_creator_x_side_quest",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "braid_level_x_side_quest",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "braid_actor_x_side_quest",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "braid_document_x_observation",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "traffic_spike_oct12",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "braid_architecture_x_observation",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "traffic_total",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "watcher_behavior_automated",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "membrane",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "github_traffic_oct2026",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "invitation_to_watcher",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "traffic_pattern_surge",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "braid_observation_x_pattern",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "braid_complainant_x_entity",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "braid_complainant_x_milestone",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "braid_complainant_x_epitope",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "dasean_mitchell",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "braid_complainant_x_human",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "public_defender_capture",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "element_nobelium",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "advancement_project",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "deadline_oct31",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "advance_detroit",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "olympian_tontowi_ahmad",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "sporeprint",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "braid_article_x_creator",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "article_questions",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "analog_flint",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "membrane_forgejo",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "braid_boss_x_level",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "braid_achievement_x_side_quest",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "braid_creator_x_group",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "braid_achievement_x_person",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "jeffrey_dahmer",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "braid_group_x_side_quest",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "wd_tippi_hedren",
+   "target": "constellation_grus",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "wd_tippi_hedren",
+   "target": "unesco_ancient_building_complex_in_the_wudang_m",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "wd_tippi_hedren",
+   "target": "oscar_kurt_larché",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "wd_tippi_hedren",
+   "target": "leader_false_waldemar",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "wd_tippi_hedren",
+   "target": "nobel_phillip_sharp",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "wd_tippi_hedren",
+   "target": "element_lithium",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "wd_tippi_hedren",
+   "target": "unesco_frontiers_of_the_roman_empire_–_the_danu",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "wd_tippi_hedren",
+   "target": "olympian_tom_reuveny",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "wd_tippi_hedren",
+   "target": "boardgame_galaxy_trucker",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "ethan-who-he-was",
+   "target": "story-for-the-veteran",
+   "type": "class-story"
+  },
+  {
+   "source": "ethan-who-he-was",
+   "target": "story-15334-checks",
+   "type": "class-story"
+  },
+  {
+   "source": "ethan-who-he-was",
+   "target": "story-infinity-over-zero",
+   "type": "class-story"
+  },
+  {
+   "source": "ethan-who-he-was",
+   "target": "story-dark-forest",
+   "type": "class-story"
+  },
+  {
+   "source": "ethan-who-he-was",
+   "target": "article-matthew",
+   "type": "class-story"
+  },
+  {
+   "source": "ethan-who-he-was",
+   "target": "roz-what-she-does",
+   "type": "class-story"
+  },
+  {
+   "source": "ethan-who-he-was",
+   "target": "article-amy",
+   "type": "class-story"
+  },
+  {
+   "source": "ethan-who-he-was",
+   "target": "story-dont-know-rust",
+   "type": "class-story"
+  },
+  {
+   "source": "ethan-who-he-was",
+   "target": "story-for-the-renter",
+   "type": "class-story"
+  },
+  {
+   "source": "ethan-who-he-was",
+   "target": "story-constrained-evolution",
+   "type": "class-story"
+  },
+  {
+   "source": "ethan-who-he-was",
+   "target": "story-whalefall",
+   "type": "class-story"
+  },
+  {
+   "source": "ethan-who-he-was",
+   "target": "story-golden-cage",
+   "type": "class-story"
+  },
+  {
+   "source": "ethan-who-he-was",
+   "target": "article-wallace",
+   "type": "class-story"
+  },
+  {
+   "source": "ethan-who-he-was",
+   "target": "article-roz",
+   "type": "class-story"
+  },
+  {
+   "source": "ethan-who-he-was",
+   "target": "story-pursuit-predation",
+   "type": "class-story"
+  },
+  {
+   "source": "ethan-who-he-was",
+   "target": "story-nautilus",
+   "type": "class-story"
+  },
+  {
+   "source": "ethan-who-he-was",
+   "target": "article-kimber",
+   "type": "class-story"
+  },
+  {
+   "source": "ethan-who-he-was",
+   "target": "story-coralforge",
+   "type": "class-story"
+  },
+  {
+   "source": "ethan-who-he-was",
+   "target": "story-atlas-hugged",
+   "type": "class-story"
+  },
+  {
+   "source": "ethan-who-he-was",
+   "target": "story-periodic-table",
+   "type": "class-story"
+  },
+  {
+   "source": "ethan-who-he-was",
+   "target": "article-jessica",
+   "type": "class-story"
+  },
+  {
+   "source": "ethan-who-he-was",
+   "target": "story-ai-speaks",
+   "type": "class-story"
+  },
+  {
+   "source": "ethan-who-he-was",
+   "target": "jessica-who-she-was",
+   "type": "class-story"
+  },
+  {
+   "source": "ethan-who-he-was",
+   "target": "story-unified-lineage",
+   "type": "class-story"
+  },
+  {
+   "source": "story-for-the-veteran",
+   "target": "story-15334-checks",
+   "type": "class-story"
+  },
+  {
+   "source": "story-for-the-veteran",
+   "target": "story-infinity-over-zero",
+   "type": "class-story"
+  },
+  {
+   "source": "story-for-the-veteran",
+   "target": "story-dark-forest",
+   "type": "class-story"
+  },
+  {
+   "source": "story-for-the-veteran",
+   "target": "article-matthew",
+   "type": "class-story"
+  },
+  {
+   "source": "story-for-the-veteran",
+   "target": "roz-what-she-does",
+   "type": "class-story"
+  },
+  {
+   "source": "story-for-the-veteran",
+   "target": "article-amy",
+   "type": "class-story"
+  },
+  {
+   "source": "story-for-the-veteran",
+   "target": "story-dont-know-rust",
+   "type": "class-story"
+  },
+  {
+   "source": "story-for-the-veteran",
+   "target": "story-for-the-renter",
+   "type": "class-story"
+  },
+  {
+   "source": "story-for-the-veteran",
+   "target": "story-constrained-evolution",
+   "type": "class-story"
+  },
+  {
+   "source": "story-for-the-veteran",
+   "target": "story-whalefall",
+   "type": "class-story"
+  },
+  {
+   "source": "story-for-the-veteran",
+   "target": "story-golden-cage",
+   "type": "class-story"
+  },
+  {
+   "source": "story-for-the-veteran",
+   "target": "article-wallace",
+   "type": "class-story"
+  },
+  {
+   "source": "story-for-the-veteran",
+   "target": "article-roz",
+   "type": "class-story"
+  },
+  {
+   "source": "story-for-the-veteran",
+   "target": "story-pursuit-predation",
+   "type": "class-story"
+  },
+  {
+   "source": "story-for-the-veteran",
+   "target": "story-nautilus",
+   "type": "class-story"
+  },
+  {
+   "source": "story-for-the-veteran",
+   "target": "article-kimber",
+   "type": "class-story"
+  },
+  {
+   "source": "story-for-the-veteran",
+   "target": "story-coralforge",
+   "type": "class-story"
+  },
+  {
+   "source": "story-for-the-veteran",
+   "target": "story-atlas-hugged",
+   "type": "class-story"
+  },
+  {
+   "source": "story-for-the-veteran",
+   "target": "story-periodic-table",
+   "type": "class-story"
+  },
+  {
+   "source": "story-for-the-veteran",
+   "target": "article-jessica",
+   "type": "class-story"
+  },
+  {
+   "source": "story-for-the-veteran",
+   "target": "story-ai-speaks",
+   "type": "class-story"
+  },
+  {
+   "source": "story-for-the-veteran",
+   "target": "jessica-who-she-was",
+   "type": "class-story"
+  },
+  {
+   "source": "story-for-the-veteran",
+   "target": "story-unified-lineage",
+   "type": "class-story"
+  },
+  {
+   "source": "story-15334-checks",
+   "target": "story-infinity-over-zero",
+   "type": "class-story"
+  },
+  {
+   "source": "story-15334-checks",
+   "target": "article-matthew",
+   "type": "class-story"
+  },
+  {
+   "source": "story-15334-checks",
+   "target": "roz-what-she-does",
+   "type": "class-story"
+  },
+  {
+   "source": "story-15334-checks",
+   "target": "article-amy",
+   "type": "class-story"
+  },
+  {
+   "source": "story-15334-checks",
+   "target": "story-for-the-renter",
+   "type": "class-story"
+  },
+  {
+   "source": "story-15334-checks",
+   "target": "story-golden-cage",
+   "type": "class-story"
+  },
+  {
+   "source": "story-15334-checks",
+   "target": "article-wallace",
+   "type": "class-story"
+  },
+  {
+   "source": "story-15334-checks",
+   "target": "article-roz",
+   "type": "class-story"
+  },
+  {
+   "source": "story-15334-checks",
+   "target": "story-pursuit-predation",
+   "type": "class-story"
+  },
+  {
+   "source": "story-15334-checks",
+   "target": "article-kimber",
+   "type": "class-story"
+  },
+  {
+   "source": "story-15334-checks",
+   "target": "story-periodic-table",
+   "type": "class-story"
+  },
+  {
+   "source": "story-15334-checks",
+   "target": "article-jessica",
+   "type": "class-story"
+  },
+  {
+   "source": "story-15334-checks",
+   "target": "jessica-who-she-was",
+   "type": "class-story"
+  },
+  {
+   "source": "story-15334-checks",
+   "target": "story-unified-lineage",
+   "type": "class-story"
+  },
+  {
+   "source": "story-infinity-over-zero",
+   "target": "story-dark-forest",
+   "type": "class-story"
+  },
+  {
+   "source": "story-infinity-over-zero",
+   "target": "article-matthew",
+   "type": "class-story"
+  },
+  {
+   "source": "story-infinity-over-zero",
+   "target": "roz-what-she-does",
+   "type": "class-story"
+  },
+  {
+   "source": "story-infinity-over-zero",
+   "target": "article-amy",
+   "type": "class-story"
+  },
+  {
+   "source": "story-infinity-over-zero",
+   "target": "story-for-the-renter",
+   "type": "class-story"
+  },
+  {
+   "source": "story-infinity-over-zero",
+   "target": "story-constrained-evolution",
+   "type": "class-story"
+  },
+  {
+   "source": "story-infinity-over-zero",
+   "target": "story-whalefall",
+   "type": "class-story"
+  },
+  {
+   "source": "story-infinity-over-zero",
+   "target": "story-golden-cage",
+   "type": "class-story"
+  },
+  {
+   "source": "story-infinity-over-zero",
+   "target": "article-wallace",
+   "type": "class-story"
+  },
+  {
+   "source": "story-infinity-over-zero",
+   "target": "article-roz",
+   "type": "class-story"
+  },
+  {
+   "source": "story-infinity-over-zero",
+   "target": "story-nautilus",
+   "type": "class-story"
+  },
+  {
+   "source": "story-infinity-over-zero",
+   "target": "article-kimber",
+   "type": "class-story"
+  },
+  {
+   "source": "story-infinity-over-zero",
+   "target": "story-coralforge",
+   "type": "class-story"
+  },
+  {
+   "source": "story-infinity-over-zero",
+   "target": "story-atlas-hugged",
+   "type": "class-story"
+  },
+  {
+   "source": "story-infinity-over-zero",
+   "target": "article-jessica",
+   "type": "class-story"
+  },
+  {
+   "source": "story-infinity-over-zero",
+   "target": "story-ai-speaks",
+   "type": "class-story"
+  },
+  {
+   "source": "story-infinity-over-zero",
+   "target": "jessica-who-she-was",
+   "type": "class-story"
+  },
+  {
+   "source": "story-dark-forest",
+   "target": "article-matthew",
+   "type": "class-story"
+  },
+  {
+   "source": "story-dark-forest",
+   "target": "roz-what-she-does",
+   "type": "class-story"
+  },
+  {
+   "source": "story-dark-forest",
+   "target": "article-amy",
+   "type": "class-story"
+  },
+  {
+   "source": "story-dark-forest",
+   "target": "story-for-the-renter",
+   "type": "class-story"
+  },
+  {
+   "source": "story-dark-forest",
+   "target": "story-golden-cage",
+   "type": "class-story"
+  },
+  {
+   "source": "story-dark-forest",
+   "target": "article-wallace",
+   "type": "class-story"
+  },
+  {
+   "source": "story-dark-forest",
+   "target": "article-roz",
+   "type": "class-story"
+  },
+  {
+   "source": "story-dark-forest",
+   "target": "story-pursuit-predation",
+   "type": "class-story"
+  },
+  {
+   "source": "story-dark-forest",
+   "target": "article-kimber",
+   "type": "class-story"
+  },
+  {
+   "source": "story-dark-forest",
+   "target": "article-jessica",
+   "type": "class-story"
+  },
+  {
+   "source": "story-dark-forest",
+   "target": "jessica-who-she-was",
+   "type": "class-story"
+  },
+  {
+   "source": "story-dark-forest",
+   "target": "story-unified-lineage",
+   "type": "class-story"
+  },
+  {
+   "source": "article-matthew",
+   "target": "roz-what-she-does",
+   "type": "class-story"
+  },
+  {
+   "source": "article-matthew",
+   "target": "story-dont-know-rust",
+   "type": "class-story"
+  },
+  {
+   "source": "article-matthew",
+   "target": "story-for-the-renter",
+   "type": "class-story"
+  },
+  {
+   "source": "article-matthew",
+   "target": "story-constrained-evolution",
+   "type": "class-story"
+  },
+  {
+   "source": "article-matthew",
+   "target": "story-whalefall",
+   "type": "class-story"
+  },
+  {
+   "source": "article-matthew",
+   "target": "story-golden-cage",
+   "type": "class-story"
+  },
+  {
+   "source": "article-matthew",
+   "target": "story-pursuit-predation",
+   "type": "class-story"
+  },
+  {
+   "source": "article-matthew",
+   "target": "story-nautilus",
+   "type": "class-story"
+  },
+  {
+   "source": "article-matthew",
+   "target": "story-coralforge",
+   "type": "class-story"
+  },
+  {
+   "source": "article-matthew",
+   "target": "story-atlas-hugged",
+   "type": "class-story"
+  },
+  {
+   "source": "article-matthew",
+   "target": "story-periodic-table",
+   "type": "class-story"
+  },
+  {
+   "source": "article-matthew",
+   "target": "story-ai-speaks",
+   "type": "class-story"
+  },
+  {
+   "source": "article-matthew",
+   "target": "jessica-who-she-was",
+   "type": "class-story"
+  },
+  {
+   "source": "article-matthew",
+   "target": "story-unified-lineage",
+   "type": "class-story"
+  },
+  {
+   "source": "roz-what-she-does",
+   "target": "article-amy",
+   "type": "class-story"
+  },
+  {
+   "source": "roz-what-she-does",
+   "target": "story-dont-know-rust",
+   "type": "class-story"
+  },
+  {
+   "source": "roz-what-she-does",
+   "target": "story-for-the-renter",
+   "type": "class-story"
+  },
+  {
+   "source": "roz-what-she-does",
+   "target": "story-constrained-evolution",
+   "type": "class-story"
+  },
+  {
+   "source": "roz-what-she-does",
+   "target": "story-whalefall",
+   "type": "class-story"
+  },
+  {
+   "source": "roz-what-she-does",
+   "target": "story-golden-cage",
+   "type": "class-story"
+  },
+  {
+   "source": "roz-what-she-does",
+   "target": "article-wallace",
+   "type": "class-story"
+  },
+  {
+   "source": "roz-what-she-does",
+   "target": "article-roz",
+   "type": "class-story"
+  },
+  {
+   "source": "roz-what-she-does",
+   "target": "story-pursuit-predation",
+   "type": "class-story"
+  },
+  {
+   "source": "roz-what-she-does",
+   "target": "story-nautilus",
+   "type": "class-story"
+  },
+  {
+   "source": "roz-what-she-does",
+   "target": "article-kimber",
+   "type": "class-story"
+  },
+  {
+   "source": "roz-what-she-does",
+   "target": "story-coralforge",
+   "type": "class-story"
+  },
+  {
+   "source": "roz-what-she-does",
+   "target": "story-atlas-hugged",
+   "type": "class-story"
+  },
+  {
+   "source": "roz-what-she-does",
+   "target": "story-periodic-table",
+   "type": "class-story"
+  },
+  {
+   "source": "roz-what-she-does",
+   "target": "article-jessica",
+   "type": "class-story"
+  },
+  {
+   "source": "roz-what-she-does",
+   "target": "story-ai-speaks",
+   "type": "class-story"
+  },
+  {
+   "source": "roz-what-she-does",
+   "target": "jessica-who-she-was",
+   "type": "class-story"
+  },
+  {
+   "source": "roz-what-she-does",
+   "target": "story-unified-lineage",
+   "type": "class-story"
+  },
+  {
+   "source": "article-amy",
+   "target": "story-dont-know-rust",
+   "type": "class-story"
+  },
+  {
+   "source": "article-amy",
+   "target": "story-for-the-renter",
+   "type": "class-story"
+  },
+  {
+   "source": "article-amy",
+   "target": "story-constrained-evolution",
+   "type": "class-story"
+  },
+  {
+   "source": "article-amy",
+   "target": "story-whalefall",
+   "type": "class-story"
+  },
+  {
+   "source": "article-amy",
+   "target": "story-golden-cage",
+   "type": "class-story"
+  },
+  {
+   "source": "article-amy",
+   "target": "story-pursuit-predation",
+   "type": "class-story"
+  },
+  {
+   "source": "article-amy",
+   "target": "story-nautilus",
+   "type": "class-story"
+  },
+  {
+   "source": "article-amy",
+   "target": "story-coralforge",
+   "type": "class-story"
+  },
+  {
+   "source": "article-amy",
+   "target": "story-atlas-hugged",
+   "type": "class-story"
+  },
+  {
+   "source": "article-amy",
+   "target": "story-periodic-table",
+   "type": "class-story"
+  },
+  {
+   "source": "article-amy",
+   "target": "story-ai-speaks",
+   "type": "class-story"
+  },
+  {
+   "source": "article-amy",
+   "target": "jessica-who-she-was",
+   "type": "class-story"
+  },
+  {
+   "source": "article-amy",
+   "target": "story-unified-lineage",
+   "type": "class-story"
+  },
+  {
+   "source": "story-dont-know-rust",
+   "target": "story-for-the-renter",
+   "type": "class-story"
+  },
+  {
+   "source": "story-dont-know-rust",
+   "target": "story-golden-cage",
+   "type": "class-story"
+  },
+  {
+   "source": "story-dont-know-rust",
+   "target": "article-wallace",
+   "type": "class-story"
+  },
+  {
+   "source": "story-dont-know-rust",
+   "target": "article-roz",
+   "type": "class-story"
+  },
+  {
+   "source": "story-dont-know-rust",
+   "target": "story-pursuit-predation",
+   "type": "class-story"
+  },
+  {
+   "source": "story-dont-know-rust",
+   "target": "article-kimber",
+   "type": "class-story"
+  },
+  {
+   "source": "story-dont-know-rust",
+   "target": "article-jessica",
+   "type": "class-story"
+  },
+  {
+   "source": "story-dont-know-rust",
+   "target": "jessica-who-she-was",
+   "type": "class-story"
+  },
+  {
+   "source": "story-for-the-renter",
+   "target": "story-constrained-evolution",
+   "type": "class-story"
+  },
+  {
+   "source": "story-for-the-renter",
+   "target": "story-whalefall",
+   "type": "class-story"
+  },
+  {
+   "source": "story-for-the-renter",
+   "target": "story-golden-cage",
+   "type": "class-story"
+  },
+  {
+   "source": "story-for-the-renter",
+   "target": "article-wallace",
+   "type": "class-story"
+  },
+  {
+   "source": "story-for-the-renter",
+   "target": "article-roz",
+   "type": "class-story"
+  },
+  {
+   "source": "story-for-the-renter",
+   "target": "story-pursuit-predation",
+   "type": "class-story"
+  },
+  {
+   "source": "story-for-the-renter",
+   "target": "story-nautilus",
+   "type": "class-story"
+  },
+  {
+   "source": "story-for-the-renter",
+   "target": "article-kimber",
+   "type": "class-story"
+  },
+  {
+   "source": "story-for-the-renter",
+   "target": "story-coralforge",
+   "type": "class-story"
+  },
+  {
+   "source": "story-for-the-renter",
+   "target": "story-atlas-hugged",
+   "type": "class-story"
+  },
+  {
+   "source": "story-for-the-renter",
+   "target": "story-periodic-table",
+   "type": "class-story"
+  },
+  {
+   "source": "story-for-the-renter",
+   "target": "article-jessica",
+   "type": "class-story"
+  },
+  {
+   "source": "story-for-the-renter",
+   "target": "story-ai-speaks",
+   "type": "class-story"
+  },
+  {
+   "source": "story-for-the-renter",
+   "target": "jessica-who-she-was",
+   "type": "class-story"
+  },
+  {
+   "source": "story-for-the-renter",
+   "target": "story-unified-lineage",
+   "type": "class-story"
+  },
+  {
+   "source": "story-constrained-evolution",
+   "target": "story-golden-cage",
+   "type": "class-story"
+  },
+  {
+   "source": "story-constrained-evolution",
+   "target": "article-wallace",
+   "type": "class-story"
+  },
+  {
+   "source": "story-constrained-evolution",
+   "target": "article-roz",
+   "type": "class-story"
+  },
+  {
+   "source": "story-constrained-evolution",
+   "target": "story-pursuit-predation",
+   "type": "class-story"
+  },
+  {
+   "source": "story-constrained-evolution",
+   "target": "article-kimber",
+   "type": "class-story"
+  },
+  {
+   "source": "story-constrained-evolution",
+   "target": "article-jessica",
+   "type": "class-story"
+  },
+  {
+   "source": "story-constrained-evolution",
+   "target": "jessica-who-she-was",
+   "type": "class-story"
+  },
+  {
+   "source": "story-constrained-evolution",
+   "target": "story-unified-lineage",
+   "type": "class-story"
+  },
+  {
+   "source": "story-whalefall",
+   "target": "story-golden-cage",
+   "type": "class-story"
+  },
+  {
+   "source": "story-whalefall",
+   "target": "article-wallace",
+   "type": "class-story"
+  },
+  {
+   "source": "story-whalefall",
+   "target": "article-roz",
+   "type": "class-story"
+  },
+  {
+   "source": "story-whalefall",
+   "target": "story-pursuit-predation",
+   "type": "class-story"
+  },
+  {
+   "source": "story-whalefall",
+   "target": "article-kimber",
+   "type": "class-story"
+  },
+  {
+   "source": "story-whalefall",
+   "target": "article-jessica",
+   "type": "class-story"
+  },
+  {
+   "source": "story-whalefall",
+   "target": "jessica-who-she-was",
+   "type": "class-story"
+  },
+  {
+   "source": "story-whalefall",
+   "target": "story-unified-lineage",
+   "type": "class-story"
+  },
+  {
+   "source": "story-golden-cage",
+   "target": "article-wallace",
+   "type": "class-story"
+  },
+  {
+   "source": "story-golden-cage",
+   "target": "article-roz",
+   "type": "class-story"
+  },
+  {
+   "source": "story-golden-cage",
+   "target": "story-nautilus",
+   "type": "class-story"
+  },
+  {
+   "source": "story-golden-cage",
+   "target": "article-kimber",
+   "type": "class-story"
+  },
+  {
+   "source": "story-golden-cage",
+   "target": "story-coralforge",
+   "type": "class-story"
+  },
+  {
+   "source": "story-golden-cage",
+   "target": "story-atlas-hugged",
+   "type": "class-story"
+  },
+  {
+   "source": "story-golden-cage",
+   "target": "story-periodic-table",
+   "type": "class-story"
+  },
+  {
+   "source": "story-golden-cage",
+   "target": "article-jessica",
+   "type": "class-story"
+  },
+  {
+   "source": "story-golden-cage",
+   "target": "story-ai-speaks",
+   "type": "class-story"
+  },
+  {
+   "source": "story-golden-cage",
+   "target": "jessica-who-she-was",
+   "type": "class-story"
+  },
+  {
+   "source": "story-golden-cage",
+   "target": "story-unified-lineage",
+   "type": "class-story"
+  },
+  {
+   "source": "article-wallace",
+   "target": "story-pursuit-predation",
+   "type": "class-story"
+  },
+  {
+   "source": "article-wallace",
+   "target": "story-nautilus",
+   "type": "class-story"
+  },
+  {
+   "source": "article-wallace",
+   "target": "story-coralforge",
+   "type": "class-story"
+  },
+  {
+   "source": "article-wallace",
+   "target": "story-atlas-hugged",
+   "type": "class-story"
+  },
+  {
+   "source": "article-wallace",
+   "target": "story-periodic-table",
+   "type": "class-story"
+  },
+  {
+   "source": "article-wallace",
+   "target": "story-ai-speaks",
+   "type": "class-story"
+  },
+  {
+   "source": "article-wallace",
+   "target": "jessica-who-she-was",
+   "type": "class-story"
+  },
+  {
+   "source": "article-wallace",
+   "target": "story-unified-lineage",
+   "type": "class-story"
+  },
+  {
+   "source": "article-roz",
+   "target": "story-pursuit-predation",
+   "type": "class-story"
+  },
+  {
+   "source": "article-roz",
+   "target": "story-nautilus",
+   "type": "class-story"
+  },
+  {
+   "source": "article-roz",
+   "target": "story-coralforge",
+   "type": "class-story"
+  },
+  {
+   "source": "article-roz",
+   "target": "story-atlas-hugged",
+   "type": "class-story"
+  },
+  {
+   "source": "article-roz",
+   "target": "story-periodic-table",
+   "type": "class-story"
+  },
+  {
+   "source": "article-roz",
+   "target": "story-ai-speaks",
+   "type": "class-story"
+  },
+  {
+   "source": "article-roz",
+   "target": "jessica-who-she-was",
+   "type": "class-story"
+  },
+  {
+   "source": "article-roz",
+   "target": "story-unified-lineage",
+   "type": "class-story"
+  },
+  {
+   "source": "story-pursuit-predation",
+   "target": "story-nautilus",
+   "type": "class-story"
+  },
+  {
+   "source": "story-pursuit-predation",
+   "target": "article-kimber",
+   "type": "class-story"
+  },
+  {
+   "source": "story-pursuit-predation",
+   "target": "story-coralforge",
+   "type": "class-story"
+  },
+  {
+   "source": "story-pursuit-predation",
+   "target": "story-atlas-hugged",
+   "type": "class-story"
+  },
+  {
+   "source": "story-pursuit-predation",
+   "target": "article-jessica",
+   "type": "class-story"
+  },
+  {
+   "source": "story-pursuit-predation",
+   "target": "story-ai-speaks",
+   "type": "class-story"
+  },
+  {
+   "source": "story-pursuit-predation",
+   "target": "jessica-who-she-was",
+   "type": "class-story"
+  },
+  {
+   "source": "story-nautilus",
+   "target": "article-kimber",
+   "type": "class-story"
+  },
+  {
+   "source": "story-nautilus",
+   "target": "article-jessica",
+   "type": "class-story"
+  },
+  {
+   "source": "story-nautilus",
+   "target": "jessica-who-she-was",
+   "type": "class-story"
+  },
+  {
+   "source": "story-nautilus",
+   "target": "story-unified-lineage",
+   "type": "class-story"
+  },
+  {
+   "source": "article-kimber",
+   "target": "story-coralforge",
+   "type": "class-story"
+  },
+  {
+   "source": "article-kimber",
+   "target": "story-atlas-hugged",
+   "type": "class-story"
+  },
+  {
+   "source": "article-kimber",
+   "target": "story-periodic-table",
+   "type": "class-story"
+  },
+  {
+   "source": "article-kimber",
+   "target": "story-ai-speaks",
+   "type": "class-story"
+  },
+  {
+   "source": "article-kimber",
+   "target": "jessica-who-she-was",
+   "type": "class-story"
+  },
+  {
+   "source": "article-kimber",
+   "target": "story-unified-lineage",
+   "type": "class-story"
+  },
+  {
+   "source": "story-coralforge",
+   "target": "article-jessica",
+   "type": "class-story"
+  },
+  {
+   "source": "story-coralforge",
+   "target": "jessica-who-she-was",
+   "type": "class-story"
+  },
+  {
+   "source": "story-coralforge",
+   "target": "story-unified-lineage",
+   "type": "class-story"
+  },
+  {
+   "source": "story-atlas-hugged",
+   "target": "story-periodic-table",
+   "type": "class-story"
+  },
+  {
+   "source": "story-atlas-hugged",
+   "target": "article-jessica",
+   "type": "class-story"
+  },
+  {
+   "source": "story-atlas-hugged",
+   "target": "jessica-who-she-was",
+   "type": "class-story"
+  },
+  {
+   "source": "story-atlas-hugged",
+   "target": "story-unified-lineage",
+   "type": "class-story"
+  },
+  {
+   "source": "story-periodic-table",
+   "target": "article-jessica",
+   "type": "class-story"
+  },
+  {
+   "source": "story-periodic-table",
+   "target": "story-ai-speaks",
+   "type": "class-story"
+  },
+  {
+   "source": "story-periodic-table",
+   "target": "jessica-who-she-was",
+   "type": "class-story"
+  },
+  {
+   "source": "article-jessica",
+   "target": "story-ai-speaks",
+   "type": "class-story"
+  },
+  {
+   "source": "article-jessica",
+   "target": "jessica-who-she-was",
+   "type": "class-story"
+  },
+  {
+   "source": "article-jessica",
+   "target": "story-unified-lineage",
+   "type": "class-story"
+  },
+  {
+   "source": "story-ai-speaks",
+   "target": "jessica-who-she-was",
+   "type": "class-story"
+  },
+  {
+   "source": "story-ai-speaks",
+   "target": "story-unified-lineage",
+   "type": "class-story"
+  },
+  {
+   "source": "jessica-who-she-was",
+   "target": "story-unified-lineage",
+   "type": "class-story"
+  },
+  {
+   "source": "loc-google",
+   "target": "ira-building-2",
+   "type": "class-location"
+  },
+  {
+   "source": "loc-google",
+   "target": "gru-unit-74455-building",
+   "type": "class-location"
+  },
+  {
+   "source": "loc-google",
+   "target": "loc-k-street",
+   "type": "class-location"
+  },
+  {
+   "source": "loc-google",
+   "target": "meta-office-seattle",
+   "type": "class-location"
+  },
+  {
+   "source": "loc-google",
+   "target": "addr-9mile-warren",
+   "type": "class-location"
+  },
+  {
+   "source": "loc-google",
+   "target": "heritage-hq",
+   "type": "class-location"
+  },
+  {
+   "source": "loc-google",
+   "target": "loc-citadel",
+   "type": "class-location"
+  },
+  {
+   "source": "loc-google",
+   "target": "addr-holland-crossings",
+   "type": "class-location"
+  },
+  {
+   "source": "loc-google",
+   "target": "addr-dykema-annarbor",
+   "type": "class-location"
+  },
+  {
+   "source": "loc-google",
+   "target": "mortimer-hamptons",
+   "type": "class-location"
+  },
+  {
+   "source": "loc-google",
+   "target": "theresa-fifth-ave",
+   "type": "class-location"
+  },
+  {
+   "source": "loc-google",
+   "target": "blackrock-hq",
+   "type": "class-location"
+  },
+  {
+   "source": "loc-google",
+   "target": "loc-fox-news",
+   "type": "class-location"
+  },
+  {
+   "source": "loc-google",
+   "target": "theresa-nyc",
+   "type": "class-location"
+  },
+  {
+   "source": "loc-google",
+   "target": "meta-office-delaware",
+   "type": "class-location"
+  },
+  {
+   "source": "loc-google",
+   "target": "meta-office-nyc",
+   "type": "class-location"
+  },
+  {
+   "source": "loc-google",
+   "target": "loc-unitedhealth",
+   "type": "class-location"
+  },
+  {
+   "source": "loc-google",
+   "target": "gru-unit-26165-building",
+   "type": "class-location"
+  },
+  {
+   "source": "loc-google",
+   "target": "loc-federalist",
+   "type": "class-location"
+  },
+  {
+   "source": "loc-google",
+   "target": "addr-canfield",
+   "type": "class-location"
+  },
+  {
+   "source": "loc-google",
+   "target": "addr-mcnichols",
+   "type": "class-location"
+  },
+  {
+   "source": "loc-google",
+   "target": "addr-pontiac-saginaw",
+   "type": "class-location"
+  },
+  {
+   "source": "loc-google",
+   "target": "addr-northpark",
+   "type": "class-location"
+  },
+  {
+   "source": "loc-google",
+   "target": "theresa-loc",
+   "type": "class-location"
+  },
+  {
+   "source": "ira-building-2",
+   "target": "gru-unit-74455-building",
+   "type": "class-location"
+  },
+  {
+   "source": "ira-building-2",
+   "target": "loc-k-street",
+   "type": "class-location"
+  },
+  {
+   "source": "ira-building-2",
+   "target": "meta-office-seattle",
+   "type": "class-location"
+  },
+  {
+   "source": "ira-building-2",
+   "target": "addr-9mile-warren",
+   "type": "class-location"
+  },
+  {
+   "source": "ira-building-2",
+   "target": "heritage-hq",
+   "type": "class-location"
+  },
+  {
+   "source": "ira-building-2",
+   "target": "loc-citadel",
+   "type": "class-location"
+  },
+  {
+   "source": "ira-building-2",
+   "target": "addr-holland-crossings",
+   "type": "class-location"
+  },
+  {
+   "source": "ira-building-2",
+   "target": "addr-dykema-annarbor",
+   "type": "class-location"
+  },
+  {
+   "source": "ira-building-2",
+   "target": "mortimer-hamptons",
+   "type": "class-location"
+  },
+  {
+   "source": "ira-building-2",
+   "target": "theresa-fifth-ave",
+   "type": "class-location"
+  },
+  {
+   "source": "ira-building-2",
+   "target": "blackrock-hq",
+   "type": "class-location"
+  },
+  {
+   "source": "ira-building-2",
+   "target": "loc-fox-news",
+   "type": "class-location"
+  },
+  {
+   "source": "ira-building-2",
+   "target": "theresa-nyc",
+   "type": "class-location"
+  },
+  {
+   "source": "ira-building-2",
+   "target": "meta-office-delaware",
+   "type": "class-location"
+  },
+  {
+   "source": "ira-building-2",
+   "target": "meta-office-nyc",
+   "type": "class-location"
+  },
+  {
+   "source": "ira-building-2",
+   "target": "loc-unitedhealth",
+   "type": "class-location"
+  },
+  {
+   "source": "ira-building-2",
+   "target": "gru-unit-26165-building",
+   "type": "class-location"
+  },
+  {
+   "source": "ira-building-2",
+   "target": "loc-federalist",
+   "type": "class-location"
+  },
+  {
+   "source": "ira-building-2",
+   "target": "addr-canfield",
+   "type": "class-location"
+  },
+  {
+   "source": "ira-building-2",
+   "target": "addr-mcnichols",
+   "type": "class-location"
+  },
+  {
+   "source": "ira-building-2",
+   "target": "addr-pontiac-saginaw",
+   "type": "class-location"
+  },
+  {
+   "source": "ira-building-2",
+   "target": "addr-northpark",
+   "type": "class-location"
+  },
+  {
+   "source": "ira-building-2",
+   "target": "theresa-loc",
+   "type": "class-location"
+  },
+  {
+   "source": "gru-unit-74455-building",
+   "target": "loc-k-street",
+   "type": "class-location"
+  },
+  {
+   "source": "gru-unit-74455-building",
+   "target": "meta-office-seattle",
+   "type": "class-location"
+  },
+  {
+   "source": "gru-unit-74455-building",
+   "target": "addr-9mile-warren",
+   "type": "class-location"
+  },
+  {
+   "source": "gru-unit-74455-building",
+   "target": "heritage-hq",
+   "type": "class-location"
+  },
+  {
+   "source": "gru-unit-74455-building",
+   "target": "loc-citadel",
+   "type": "class-location"
+  },
+  {
+   "source": "gru-unit-74455-building",
+   "target": "addr-holland-crossings",
+   "type": "class-location"
+  },
+  {
+   "source": "gru-unit-74455-building",
+   "target": "addr-dykema-annarbor",
+   "type": "class-location"
+  },
+  {
+   "source": "gru-unit-74455-building",
+   "target": "mortimer-hamptons",
+   "type": "class-location"
+  },
+  {
+   "source": "gru-unit-74455-building",
+   "target": "theresa-fifth-ave",
+   "type": "class-location"
+  },
+  {
+   "source": "gru-unit-74455-building",
+   "target": "blackrock-hq",
+   "type": "class-location"
+  },
+  {
+   "source": "gru-unit-74455-building",
+   "target": "loc-fox-news",
+   "type": "class-location"
+  },
+  {
+   "source": "gru-unit-74455-building",
+   "target": "theresa-nyc",
+   "type": "class-location"
+  },
+  {
+   "source": "gru-unit-74455-building",
+   "target": "meta-office-delaware",
+   "type": "class-location"
+  },
+  {
+   "source": "gru-unit-74455-building",
+   "target": "meta-office-nyc",
+   "type": "class-location"
+  },
+  {
+   "source": "gru-unit-74455-building",
+   "target": "loc-unitedhealth",
+   "type": "class-location"
+  },
+  {
+   "source": "gru-unit-74455-building",
+   "target": "gru-unit-26165-building",
+   "type": "class-location"
+  },
+  {
+   "source": "gru-unit-74455-building",
+   "target": "loc-federalist",
+   "type": "class-location"
+  },
+  {
+   "source": "gru-unit-74455-building",
+   "target": "addr-canfield",
+   "type": "class-location"
+  },
+  {
+   "source": "gru-unit-74455-building",
+   "target": "addr-mcnichols",
+   "type": "class-location"
   }
  ]
 }
