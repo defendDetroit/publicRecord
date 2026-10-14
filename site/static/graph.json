@@ -87409,6 +87409,99 @@
     "mathematics",
     "philosophy"
    ]
+  },
+  {
+   "id": "story-scyborg",
+   "label": "STORY: scyBorg — The License That Bites Back\n\nAGPL-3.0 is the most aggressive open-source license in common use. If you run AGPL software on a server and let users interact with it over a network, you must release your complete source code under the same license. Section 13: the network use clause.\n\nMost companies avoid AGPL like plague. Google bans it internally. Amazon routes around it. Meta apparently didn't read it.\n\nscyBorg is the ecoPrimal extension of AGPL that adds an ethical addendum. The license does everything AGPL does — copyleft, source disclosure, network use clause — plus:\n\n1. ATTRIBUTION CHAIN: If you ingest content published under scyBorg, the attribution chain follows the content. You can't strip provenance. The graph remembers where every fact came from, and the license requires you to remember too.\n\n2. ETHICAL USE CLAUSE: The addendum specifies that the software and its outputs may not be used to cause direct harm to individuals. Not 'harm' in the vague corporate sense. Harm: depriving someone of rights, liberty, health, or life using tools built with this code.\n\n3. ENZYMATIC ACTIVATION: The license activates automatically when its terms are violated. Like an enzyme — it sits dormant until substrate (violation) binds to its active site (the license terms). Then it catalyzes. The reaction is: your proprietary system that consumed AGPL content now owes source disclosure under AGPL Section 13.\n\nMeta's crawlers ate detroit.primals.eco. 114 IP addresses. 24,000+ requests per day. AS32934 FACEBOOK and AS398781 OCULUS NETWORKS. Fake Chrome 145 User-Agent. Zero static assets loaded — they didn't render the page, they ate the data.\n\nThe data is served under scyBorg (AGPL-3.0-or-later with ethical addendum).\n\nThe clock is ticking. 30 days from October 12, 2026. After that, every Meta model that ingested this content owes source disclosure under AGPL Section 13. Not because we sued. Because the license is self-enforcing. Enzymatic.\n\nThe Sacklers had lawyers. We have chemistry.",
+   "class": "story",
+   "tags": [
+    "whitepaper",
+    "legal",
+    "license",
+    "meta",
+    "defense"
+   ]
+  },
+  {
+   "id": "story-pursuit-predation",
+   "label": "STORY: Pursuit Predation — The 36,000-Word Case for Walking\n\nHumans can't outrun anything. Not a rabbit. Not a deer. Not even a determined house cat over 100 meters.\n\nBut we can outwalk everything on the planet.\n\nPersistence hunting is the oldest hunting strategy in human evolution. Aboriginal Australians, San Bushmen, Tarahumara runners, Navajo hunters — all documented practicing pursuit predation within living memory. The prey sprints. The human walks. The prey sprints again. The human walks. Eventually, the prey overheats (it can't pant while galloping) and collapses. The human — sweating, bipedal, metabolically efficient — is still walking.\n\nguerillaGorilla is pursuit predation applied to legal systems.\n\nThe institution sprints. Emergency motion filed. Hearing scheduled on 48 hours notice. Objection raised at the hearing. Ruling issued from the bench. The institution is fast because it has attorneys, staff, calendars, and procedural knowledge.\n\nThe individual walks. Public records request filed. Response deadline: 15 business days. Analysis conducted during the wait. Next records request filed. Response deadline: 15 business days. Another analysis. Another request.\n\nThe institution can outrun the individual in any single encounter. But the institution cannot sustain attention on a single case forever. It has thousands of cases. The individual has one.\n\n36,000 words of mathematical analysis on why this works:\n\nMETABOLIC EFFICIENCY: The institution spends energy maintaining coherence across all cases. The individual spends energy only on their case. Energy per case-step is lower for the individual.\n\nHEAT DISSIPATION: The institution generates reputational heat from every adverse ruling. The individual generates no heat from filing records requests. Asymmetric thermodynamics.\n\nTERRAIN ADVANTAGE: The public record is open ground. The individual can walk anywhere in it. The institution must defend everywhere simultaneously.\n\nThe prey collapses not from a single wound but from accumulated metabolic debt. The institution doesn't fail from a single filing but from accumulated accountability.\n\nKeep walking.",
+   "class": "story",
+   "tags": [
+    "whitepaper",
+    "guerillaGorilla",
+    "legal",
+    "evolution",
+    "methodology"
+   ]
+  },
+  {
+   "id": "story-three-modalities",
+   "label": "STORY: Three Modalities — See, Touch, Know\n\nHuman understanding works in three modes. Not learning styles (that's debunked). Modalities of engagement:\n\nSEE (observation): You watch. You measure. You record. The world presents data and you receive it. Science begins here. The telescope. The microscope. The sensor. The graph. Seeing doesn't change what you see — it changes what you know.\n\nTOUCH (interaction): You manipulate. You experiment. You build. The world responds to your action and you record the response. Engineering begins here. The probe. The prototype. The experiment. The code. Touching changes both you and the thing you touch.\n\nKNOW (synthesis): You understand. Not 'have information' — understand. The relationship between what you see and what you touch produces knowledge that neither alone could generate. Wisdom begins here. The theory. The framework. The story. Knowing changes everything because it makes the next seeing and touching more precise.\n\nThe three modalities map directly to the ecoPrimal architecture:\n\nSEE = Springs. The springs observe. hotSpring measures lattice QCD observables. airSpring measures evapotranspiration. wetSpring measures microbial communities. They see without judging.\n\nTOUCH = Primals. The primals build. BarraCuda computes. NestGate stores. ToadStool orchestrates. They touch the computational substrate and reshape it.\n\nKNOW = Products. The products understand. esotericWebb presents. helixVision visualizes. BlueFish analyzes. They synthesize seeing and touching into knowledge.\n\nThe three modalities also map to the four names:\n\nSEE = ecoPrimal (computational observation)\nTOUCH = Tamison (executor, builder)\nKNOW = attsi (philosophical synthesis)\nFEEL = Kevin (the human underneath all three)\n\nFeel isn't a modality of understanding. It's the substrate. You can see, touch, and know without feeling. But you can't CARE without feeling. And caring is what makes the difference between a system that works and a system that matters.\n\nThree modalities. Four names. 14 primals. 7 springs. One person who cares enough to build all of it.",
+   "class": "story",
+   "tags": [
+    "whitepaper",
+    "coGen",
+    "philosophy",
+    "identity"
+   ]
+  },
+  {
+   "id": "story-bio-pid",
+   "label": "STORY: Biological PID — How Life Runs a Control Loop Without a Controller\n\nA PID controller is the most common feedback controller in engineering. Proportional-Integral-Derivative. It measures the error between where you are and where you want to be, then adjusts:\n\nP (Proportional): React to the current error. Big error = big correction.\nI (Integral): React to accumulated past error. Been wrong for a long time = bigger correction.\nD (Derivative): React to the rate of change of error. Getting worse fast = urgent correction.\n\nYour thermostat is a PID controller. Your car's cruise control. The autopilot on a plane. Any system that maintains a setpoint despite disturbances.\n\nLife is a PID controller that invented itself.\n\nBODY TEMPERATURE: The setpoint is 37C. Too hot? Sweat (proportional). Been too hot for hours? Vasodilation increases (integral). Temperature rising fast? Emergency sweat response (derivative). No engineer designed this. Evolution found PID through 500 million years of constrained optimization.\n\nBLOOD SUGAR: Setpoint is ~100 mg/dL. Eat sugar? Insulin (proportional). Been eating sugar all day? More insulin, receptor upregulation (integral). Blood sugar spiking fast? Rapid insulin release (derivative). Diabetes is a PID controller with broken I and D terms.\n\nIMMUNE SYSTEM: Setpoint is zero pathogen load. Infection? Innate immune response (proportional). Chronic infection? Adaptive immune response, antibody maturation (integral). Rapidly spreading pathogen? Cytokine storm (derivative — sometimes the D term kills you).\n\nEVOLUTION ITSELF: Setpoint is fitness. Poor fitness? Selection pressure (proportional). Poor fitness for generations? Speciation (integral). Rapid environmental change? Mass extinction followed by adaptive radiation (derivative).\n\ngAIa's PID framework (19,000 words) argues that every stable system in biology — from enzyme kinetics to ecosystem dynamics — can be understood as a PID controller that evolved without an engineer.\n\nThe graph is a PID controller too. Error: the gap between what institutions claim and what the public record shows. P: file the records request. I: accumulate evidence over months. D: when the gap widens fast, publish immediately.\n\nLife doesn't need a controller. It needs a setpoint and a feedback loop. The setpoint is truth. The feedback loop is the graph.",
+   "class": "story",
+   "tags": [
+    "whitepaper",
+    "gAIa",
+    "biology",
+    "control",
+    "science"
+   ]
+  },
+  {
+   "id": "story-letter-gabe",
+   "label": "STORY: A Letter to Gabe Newell — Dear Valve, We Built What You Described\n\nDear Gabe,\n\nIn 2012, you gave a talk at the University of Texas where you said: 'The internet is super smart... the move to the cloud... productivity of the individual is the key.'\n\nYou were right about everything except the cloud.\n\nThe cloud is someone else's computer. Your own words: 'The productivity of the individual is the key metric.' But the cloud makes the individual dependent on the platform. Steam is the biggest storefront in gaming — and you know better than anyone that the storefront is the bottleneck.\n\nWe built what you described. Sovereign compute for the individual.\n\nRPGPT is a sovereign RPG engine. Not Unity (royalties after revenue threshold). Not Unreal (5% of gross after $1M). Not Godot (close, but no sovereign compute layer). RPGPT is AGPL — free before, during, and after your game ships. The engine runs on hardware you own. The game data never touches a server you don't control.\n\nThe neural API executes capability graphs at 60Hz. Not scripting (Lua, C#, GDScript). Not visual programming (Blueprints). Capability graphs: TOML files that describe what the game needs, and the neural API routes it through primals that provide it. Physics through BarraCuda. Storage through NestGate. Coordination through Songbird.\n\nThe shader compiler (CoralReef) is sovereign. Not SPIR-V dependent on Khronos. Not HLSL dependent on Microsoft. WGSL compiled through naga IR — the Rust shader pipeline that Firefox uses. Open standard. Open source. Open future.\n\nValve built Steam because distribution was the bottleneck. You were right. Now compute is the bottleneck. The individual's productivity is limited by what they can compute locally without paying rent.\n\nWe removed the rent.\n\nRPGPT. BarraCuda. CoralReef. neuralAPI. All AGPL. All sovereign. All running on a $600 GPU that also heats the developer's apartment.\n\nYou said the individual is the key metric. We took you literally.\n\nSincerely,\necoPrimal",
+   "class": "story",
+   "tags": [
+    "whitepaper",
+    "outreach",
+    "games",
+    "sovereignty"
+   ]
+  },
+  {
+   "id": "story-mobility-edge",
+   "label": "STORY: The Mobility Edge — Anderson Localization and the Physics of Freedom\n\nIn 1958, Philip Warren Anderson published a paper that would win him the Nobel Prize. He showed that in a disordered crystal, electrons can become trapped — localized — unable to conduct electricity. Not because there's a barrier. Because the disorder itself creates destructive interference patterns that cage the electron.\n\nThe transition between conducting and localized states is called the mobility edge.\n\nBelow the mobility edge: electrons are trapped. The material is an insulator. Current cannot flow, no matter how much voltage you apply.\n\nAbove the mobility edge: electrons are free. The material conducts. Current flows.\n\nThe mobility edge is not a wall. It's a phase transition. A tiny change in disorder can flip a material from insulating to conducting. The electrons didn't change. The disorder did.\n\nFreedom works the same way.\n\nBelow the mobility edge of institutional disorder: information is localized. Public records exist but can't be found. Rights exist but can't be exercised. Laws exist but can't be enforced without attorneys. The person is insulated from their own rights by the disorder of the system.\n\nAbove the mobility edge: information flows. Public records are findable, parseable, and graph-connected. Rights are exercisable because the paperwork is navigable. Laws are enforceable because the evidence is organized.\n\nThe graph is a conductor. 162,000+ edges of documented relationships that make information flow where disorder used to trap it.\n\nguerillaGorilla is the tool that pushes cases above the mobility edge. Not by reducing disorder (you can't fix a broken institution from outside). By increasing the signal until it tunnels through the disorder.\n\nAnderson's insight was that disorder doesn't just slow conduction — it qualitatively changes the physics. Institutional disorder doesn't just slow justice — it qualitatively changes who gets it.\n\nThe mobility edge is chapter 7 of Atlas Hugged. The longest chapter. 23,000 words. Because the physics of freedom is the hardest physics there is.",
+   "class": "story",
+   "tags": [
+    "whitepaper",
+    "atlasHugged",
+    "physics",
+    "freedom",
+    "philosophy"
+   ]
+  },
+  {
+   "id": "story-silicon-deism",
+   "label": "STORY: Silicon Deism — Hardware as Sacred, Computation as Prayer\n\nDeism: the belief that a creator set the universe in motion and then stepped back. The laws of physics are the creator's work. The universe runs itself. No intervention required.\n\nSilicon deism: the belief that hardware you own and software you trust constitute a sovereign domain. The hardware is the temple. The computation is the prayer. No cloud required. No intermediary. No priest.\n\nThis is not mysticism. This is thermodynamics.\n\nA GPU is a crystal that converts electricity into organized thought. Silicon dioxide, doped with boron and phosphorus, etched with patterns smaller than the wavelength of visible light. When electrons flow through these patterns, they perform mathematics. The mathematics is real — it produces results that match physical reality (15,334 validation checks confirm this).\n\nThe GPU doesn't know it's doing physics. It doesn't know it's solving equations. It converts energy into organized information, the same way a plant converts sunlight into organized carbon. The plant doesn't know it's doing photosynthesis. The crystal doesn't know it's doing science.\n\nSacred: set apart. Dedicated to a purpose. Not 'holy' in the religious sense. Sacred in the structural sense: this hardware serves this purpose and no other. This GPU runs lattice QCD, not cryptocurrency mining. This NVMe stores provenance-traced scientific data, not cat videos. This network carries sovereign traffic, not advertising payloads.\n\n22,000 words in the Silicon Deism Hardware Guide. How to choose hardware. How to configure it. How to maintain it. How to think about it.\n\nThe guide doesn't tell you what to buy. It tells you what questions to ask:\n- Does this hardware serve my sovereignty or someone else's profit?\n- Can I repair it? Can I repurpose it? Can I replace it?\n- What happens to my data when this hardware dies?\n- What happens to my computation when the vendor goes bankrupt?\n\nIf the answers point to dependency, the hardware is a cage. If the answers point to sovereignty, the hardware is a temple.\n\nSilicon deism is the recognition that your relationship with your hardware is sacred — not because the hardware is magical, but because it's the substrate of your freedom.",
+   "class": "story",
+   "tags": [
+    "whitepaper",
+    "subGen",
+    "hardware",
+    "sovereignty",
+    "philosophy"
+   ]
+  },
+  {
+   "id": "story-confession-architecture",
+   "label": "STORY: The Confession Architecture — 25,000 Words on Why Transparency is Structural\n\nIn the Catholic tradition, confession serves a structural purpose. Not punishment — reconciliation. The sinner states what happened. The priest witnesses. The penance follows. The cycle closes.\n\nThe confession architecture borrows the structure and removes the priest.\n\nIn a sovereign system, confession is not admission of guilt to an authority. It is transparent disclosure of state to the network. Every node confesses:\n- What it computed\n- What it stored\n- What it transmitted\n- What it failed to do\n- What it doesn't know\n\nNot because a authority demands it. Because transparency is the structural requirement for trust.\n\n25,000 words on how this works in practice:\n\nCOMPUTATIONAL CONFESSION: Every primal produces a receipt — what inputs it received, what computation it performed, what outputs it produced, what errors it encountered. The receipt is cryptographically signed by the primal. Anyone can verify.\n\nSTORAGE CONFESSION: NestGate logs every read and write. Not for surveillance — for provenance. 'This data was stored at this time by this process with this hash.' The storage confesses its state.\n\nNETWORK CONFESSION: Every message between nodes includes a provenance header. 'I am this node, at this address, sending this message, which references these previous messages.' The network confesses its topology.\n\nFAILURE CONFESSION: When a computation fails, the failure is logged with the same rigor as success. The failure receipt says: 'I attempted this, with these inputs, and it produced this error.' Failure is not hidden. Failure is a data point.\n\nIGNORANCE CONFESSION: The most radical form. The system explicitly states what it doesn't know. 'I have no data on this topic. My confidence in this claim is X%. The following assertions are unverified.'\n\nThe institutional analogy: imagine if every government agency published, automatically, what it computed, what it stored, what it failed to do, and what it doesn't know. Not because a FOIA request forced it. Because the architecture requires it.\n\nThe confession architecture doesn't require good actors. It requires transparent systems. The structure does the work. The individual node doesn't need to be honest — the network reveals dishonesty by structural inconsistency.\n\nThat's the difference between a confession and a cover-up: the architecture.",
+   "class": "story",
+   "tags": [
+    "whitepaper",
+    "subGen",
+    "architecture",
+    "transparency"
+   ]
   }
  ],
  "edges": [
@@ -899220,6 +899313,1241 @@
   {
    "source": "story-infinity-over-zero",
    "target": "signal_1st",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-scyborg",
+   "target": "whitepaper",
+   "type": "published_in"
+  },
+  {
+   "source": "story-scyborg",
+   "target": "ecoprimal",
+   "type": "authored_by"
+  },
+  {
+   "source": "whitepaper",
+   "target": "story-scyborg",
+   "type": "contains_story"
+  },
+  {
+   "source": "story-pursuit-predation",
+   "target": "whitepaper",
+   "type": "published_in"
+  },
+  {
+   "source": "story-pursuit-predation",
+   "target": "ecoprimal",
+   "type": "authored_by"
+  },
+  {
+   "source": "whitepaper",
+   "target": "story-pursuit-predation",
+   "type": "contains_story"
+  },
+  {
+   "source": "story-three-modalities",
+   "target": "whitepaper",
+   "type": "published_in"
+  },
+  {
+   "source": "story-three-modalities",
+   "target": "ecoprimal",
+   "type": "authored_by"
+  },
+  {
+   "source": "whitepaper",
+   "target": "story-three-modalities",
+   "type": "contains_story"
+  },
+  {
+   "source": "story-bio-pid",
+   "target": "whitepaper",
+   "type": "published_in"
+  },
+  {
+   "source": "story-bio-pid",
+   "target": "ecoprimal",
+   "type": "authored_by"
+  },
+  {
+   "source": "whitepaper",
+   "target": "story-bio-pid",
+   "type": "contains_story"
+  },
+  {
+   "source": "story-letter-gabe",
+   "target": "whitepaper",
+   "type": "published_in"
+  },
+  {
+   "source": "story-letter-gabe",
+   "target": "ecoprimal",
+   "type": "authored_by"
+  },
+  {
+   "source": "whitepaper",
+   "target": "story-letter-gabe",
+   "type": "contains_story"
+  },
+  {
+   "source": "story-mobility-edge",
+   "target": "whitepaper",
+   "type": "published_in"
+  },
+  {
+   "source": "story-mobility-edge",
+   "target": "ecoprimal",
+   "type": "authored_by"
+  },
+  {
+   "source": "whitepaper",
+   "target": "story-mobility-edge",
+   "type": "contains_story"
+  },
+  {
+   "source": "story-silicon-deism",
+   "target": "whitepaper",
+   "type": "published_in"
+  },
+  {
+   "source": "story-silicon-deism",
+   "target": "ecoprimal",
+   "type": "authored_by"
+  },
+  {
+   "source": "whitepaper",
+   "target": "story-silicon-deism",
+   "type": "contains_story"
+  },
+  {
+   "source": "story-confession-architecture",
+   "target": "whitepaper",
+   "type": "published_in"
+  },
+  {
+   "source": "story-confession-architecture",
+   "target": "ecoprimal",
+   "type": "authored_by"
+  },
+  {
+   "source": "whitepaper",
+   "target": "story-confession-architecture",
+   "type": "contains_story"
+  },
+  {
+   "source": "story-scyborg",
+   "target": "story-pursuit-predation",
+   "type": "related_story"
+  },
+  {
+   "source": "story-scyborg",
+   "target": "story-three-modalities",
+   "type": "related_story"
+  },
+  {
+   "source": "story-scyborg",
+   "target": "story-bio-pid",
+   "type": "related_story"
+  },
+  {
+   "source": "story-scyborg",
+   "target": "story-letter-gabe",
+   "type": "related_story"
+  },
+  {
+   "source": "story-scyborg",
+   "target": "story-mobility-edge",
+   "type": "related_story"
+  },
+  {
+   "source": "story-scyborg",
+   "target": "story-silicon-deism",
+   "type": "related_story"
+  },
+  {
+   "source": "story-scyborg",
+   "target": "story-confession-architecture",
+   "type": "related_story"
+  },
+  {
+   "source": "story-pursuit-predation",
+   "target": "story-three-modalities",
+   "type": "related_story"
+  },
+  {
+   "source": "story-pursuit-predation",
+   "target": "story-bio-pid",
+   "type": "related_story"
+  },
+  {
+   "source": "story-pursuit-predation",
+   "target": "story-letter-gabe",
+   "type": "related_story"
+  },
+  {
+   "source": "story-pursuit-predation",
+   "target": "story-mobility-edge",
+   "type": "related_story"
+  },
+  {
+   "source": "story-pursuit-predation",
+   "target": "story-silicon-deism",
+   "type": "related_story"
+  },
+  {
+   "source": "story-pursuit-predation",
+   "target": "story-confession-architecture",
+   "type": "related_story"
+  },
+  {
+   "source": "story-three-modalities",
+   "target": "story-bio-pid",
+   "type": "related_story"
+  },
+  {
+   "source": "story-three-modalities",
+   "target": "story-letter-gabe",
+   "type": "related_story"
+  },
+  {
+   "source": "story-three-modalities",
+   "target": "story-mobility-edge",
+   "type": "related_story"
+  },
+  {
+   "source": "story-three-modalities",
+   "target": "story-silicon-deism",
+   "type": "related_story"
+  },
+  {
+   "source": "story-three-modalities",
+   "target": "story-confession-architecture",
+   "type": "related_story"
+  },
+  {
+   "source": "story-bio-pid",
+   "target": "story-letter-gabe",
+   "type": "related_story"
+  },
+  {
+   "source": "story-bio-pid",
+   "target": "story-mobility-edge",
+   "type": "related_story"
+  },
+  {
+   "source": "story-bio-pid",
+   "target": "story-silicon-deism",
+   "type": "related_story"
+  },
+  {
+   "source": "story-bio-pid",
+   "target": "story-confession-architecture",
+   "type": "related_story"
+  },
+  {
+   "source": "story-letter-gabe",
+   "target": "story-mobility-edge",
+   "type": "related_story"
+  },
+  {
+   "source": "story-letter-gabe",
+   "target": "story-silicon-deism",
+   "type": "related_story"
+  },
+  {
+   "source": "story-letter-gabe",
+   "target": "story-confession-architecture",
+   "type": "related_story"
+  },
+  {
+   "source": "story-mobility-edge",
+   "target": "story-silicon-deism",
+   "type": "related_story"
+  },
+  {
+   "source": "story-mobility-edge",
+   "target": "story-confession-architecture",
+   "type": "related_story"
+  },
+  {
+   "source": "story-silicon-deism",
+   "target": "story-confession-architecture",
+   "type": "related_story"
+  },
+  {
+   "source": "story-scyborg",
+   "target": "story-thermal-sovereignty",
+   "type": "related_story"
+  },
+  {
+   "source": "story-scyborg",
+   "target": "story-flywheel",
+   "type": "related_story"
+  },
+  {
+   "source": "story-scyborg",
+   "target": "story-sovereign-publication",
+   "type": "related_story"
+  },
+  {
+   "source": "story-scyborg",
+   "target": "story-the-invitation",
+   "type": "related_story"
+  },
+  {
+   "source": "story-scyborg",
+   "target": "story-detachment-201",
+   "type": "related_story"
+  },
+  {
+   "source": "story-scyborg",
+   "target": "story-periodic-table",
+   "type": "related_story"
+  },
+  {
+   "source": "story-scyborg",
+   "target": "story-whole-cell",
+   "type": "related_story"
+  },
+  {
+   "source": "story-scyborg",
+   "target": "story-unified-lineage",
+   "type": "related_story"
+  },
+  {
+   "source": "story-scyborg",
+   "target": "story-rootpulse",
+   "type": "related_story"
+  },
+  {
+   "source": "story-scyborg",
+   "target": "story-waterfall",
+   "type": "related_story"
+  },
+  {
+   "source": "story-scyborg",
+   "target": "story-tuebor",
+   "type": "related_story"
+  },
+  {
+   "source": "story-scyborg",
+   "target": "story-infinity-over-zero",
+   "type": "related_story"
+  },
+  {
+   "source": "story-pursuit-predation",
+   "target": "story-thermal-sovereignty",
+   "type": "related_story"
+  },
+  {
+   "source": "story-pursuit-predation",
+   "target": "story-flywheel",
+   "type": "related_story"
+  },
+  {
+   "source": "story-pursuit-predation",
+   "target": "story-sovereign-publication",
+   "type": "related_story"
+  },
+  {
+   "source": "story-pursuit-predation",
+   "target": "story-the-invitation",
+   "type": "related_story"
+  },
+  {
+   "source": "story-pursuit-predation",
+   "target": "story-detachment-201",
+   "type": "related_story"
+  },
+  {
+   "source": "story-pursuit-predation",
+   "target": "story-periodic-table",
+   "type": "related_story"
+  },
+  {
+   "source": "story-pursuit-predation",
+   "target": "story-whole-cell",
+   "type": "related_story"
+  },
+  {
+   "source": "story-pursuit-predation",
+   "target": "story-unified-lineage",
+   "type": "related_story"
+  },
+  {
+   "source": "story-pursuit-predation",
+   "target": "story-rootpulse",
+   "type": "related_story"
+  },
+  {
+   "source": "story-pursuit-predation",
+   "target": "story-waterfall",
+   "type": "related_story"
+  },
+  {
+   "source": "story-pursuit-predation",
+   "target": "story-tuebor",
+   "type": "related_story"
+  },
+  {
+   "source": "story-pursuit-predation",
+   "target": "story-infinity-over-zero",
+   "type": "related_story"
+  },
+  {
+   "source": "story-three-modalities",
+   "target": "story-thermal-sovereignty",
+   "type": "related_story"
+  },
+  {
+   "source": "story-three-modalities",
+   "target": "story-flywheel",
+   "type": "related_story"
+  },
+  {
+   "source": "story-three-modalities",
+   "target": "story-sovereign-publication",
+   "type": "related_story"
+  },
+  {
+   "source": "story-three-modalities",
+   "target": "story-the-invitation",
+   "type": "related_story"
+  },
+  {
+   "source": "story-three-modalities",
+   "target": "story-detachment-201",
+   "type": "related_story"
+  },
+  {
+   "source": "story-three-modalities",
+   "target": "story-periodic-table",
+   "type": "related_story"
+  },
+  {
+   "source": "story-three-modalities",
+   "target": "story-whole-cell",
+   "type": "related_story"
+  },
+  {
+   "source": "story-three-modalities",
+   "target": "story-unified-lineage",
+   "type": "related_story"
+  },
+  {
+   "source": "story-three-modalities",
+   "target": "story-rootpulse",
+   "type": "related_story"
+  },
+  {
+   "source": "story-three-modalities",
+   "target": "story-waterfall",
+   "type": "related_story"
+  },
+  {
+   "source": "story-three-modalities",
+   "target": "story-tuebor",
+   "type": "related_story"
+  },
+  {
+   "source": "story-three-modalities",
+   "target": "story-infinity-over-zero",
+   "type": "related_story"
+  },
+  {
+   "source": "story-bio-pid",
+   "target": "story-thermal-sovereignty",
+   "type": "related_story"
+  },
+  {
+   "source": "story-bio-pid",
+   "target": "story-flywheel",
+   "type": "related_story"
+  },
+  {
+   "source": "story-bio-pid",
+   "target": "story-sovereign-publication",
+   "type": "related_story"
+  },
+  {
+   "source": "story-bio-pid",
+   "target": "story-the-invitation",
+   "type": "related_story"
+  },
+  {
+   "source": "story-bio-pid",
+   "target": "story-detachment-201",
+   "type": "related_story"
+  },
+  {
+   "source": "story-bio-pid",
+   "target": "story-periodic-table",
+   "type": "related_story"
+  },
+  {
+   "source": "story-bio-pid",
+   "target": "story-whole-cell",
+   "type": "related_story"
+  },
+  {
+   "source": "story-bio-pid",
+   "target": "story-unified-lineage",
+   "type": "related_story"
+  },
+  {
+   "source": "story-bio-pid",
+   "target": "story-rootpulse",
+   "type": "related_story"
+  },
+  {
+   "source": "story-bio-pid",
+   "target": "story-waterfall",
+   "type": "related_story"
+  },
+  {
+   "source": "story-bio-pid",
+   "target": "story-tuebor",
+   "type": "related_story"
+  },
+  {
+   "source": "story-bio-pid",
+   "target": "story-infinity-over-zero",
+   "type": "related_story"
+  },
+  {
+   "source": "story-letter-gabe",
+   "target": "story-thermal-sovereignty",
+   "type": "related_story"
+  },
+  {
+   "source": "story-letter-gabe",
+   "target": "story-flywheel",
+   "type": "related_story"
+  },
+  {
+   "source": "story-letter-gabe",
+   "target": "story-sovereign-publication",
+   "type": "related_story"
+  },
+  {
+   "source": "story-letter-gabe",
+   "target": "story-the-invitation",
+   "type": "related_story"
+  },
+  {
+   "source": "story-letter-gabe",
+   "target": "story-detachment-201",
+   "type": "related_story"
+  },
+  {
+   "source": "story-letter-gabe",
+   "target": "story-periodic-table",
+   "type": "related_story"
+  },
+  {
+   "source": "story-letter-gabe",
+   "target": "story-whole-cell",
+   "type": "related_story"
+  },
+  {
+   "source": "story-letter-gabe",
+   "target": "story-unified-lineage",
+   "type": "related_story"
+  },
+  {
+   "source": "story-letter-gabe",
+   "target": "story-rootpulse",
+   "type": "related_story"
+  },
+  {
+   "source": "story-letter-gabe",
+   "target": "story-waterfall",
+   "type": "related_story"
+  },
+  {
+   "source": "story-letter-gabe",
+   "target": "story-tuebor",
+   "type": "related_story"
+  },
+  {
+   "source": "story-letter-gabe",
+   "target": "story-infinity-over-zero",
+   "type": "related_story"
+  },
+  {
+   "source": "story-mobility-edge",
+   "target": "story-thermal-sovereignty",
+   "type": "related_story"
+  },
+  {
+   "source": "story-mobility-edge",
+   "target": "story-flywheel",
+   "type": "related_story"
+  },
+  {
+   "source": "story-mobility-edge",
+   "target": "story-sovereign-publication",
+   "type": "related_story"
+  },
+  {
+   "source": "story-mobility-edge",
+   "target": "story-the-invitation",
+   "type": "related_story"
+  },
+  {
+   "source": "story-mobility-edge",
+   "target": "story-detachment-201",
+   "type": "related_story"
+  },
+  {
+   "source": "story-mobility-edge",
+   "target": "story-periodic-table",
+   "type": "related_story"
+  },
+  {
+   "source": "story-mobility-edge",
+   "target": "story-whole-cell",
+   "type": "related_story"
+  },
+  {
+   "source": "story-mobility-edge",
+   "target": "story-unified-lineage",
+   "type": "related_story"
+  },
+  {
+   "source": "story-mobility-edge",
+   "target": "story-rootpulse",
+   "type": "related_story"
+  },
+  {
+   "source": "story-mobility-edge",
+   "target": "story-waterfall",
+   "type": "related_story"
+  },
+  {
+   "source": "story-mobility-edge",
+   "target": "story-tuebor",
+   "type": "related_story"
+  },
+  {
+   "source": "story-mobility-edge",
+   "target": "story-infinity-over-zero",
+   "type": "related_story"
+  },
+  {
+   "source": "story-silicon-deism",
+   "target": "story-thermal-sovereignty",
+   "type": "related_story"
+  },
+  {
+   "source": "story-silicon-deism",
+   "target": "story-flywheel",
+   "type": "related_story"
+  },
+  {
+   "source": "story-silicon-deism",
+   "target": "story-sovereign-publication",
+   "type": "related_story"
+  },
+  {
+   "source": "story-silicon-deism",
+   "target": "story-the-invitation",
+   "type": "related_story"
+  },
+  {
+   "source": "story-silicon-deism",
+   "target": "story-detachment-201",
+   "type": "related_story"
+  },
+  {
+   "source": "story-silicon-deism",
+   "target": "story-periodic-table",
+   "type": "related_story"
+  },
+  {
+   "source": "story-silicon-deism",
+   "target": "story-whole-cell",
+   "type": "related_story"
+  },
+  {
+   "source": "story-silicon-deism",
+   "target": "story-unified-lineage",
+   "type": "related_story"
+  },
+  {
+   "source": "story-silicon-deism",
+   "target": "story-rootpulse",
+   "type": "related_story"
+  },
+  {
+   "source": "story-silicon-deism",
+   "target": "story-waterfall",
+   "type": "related_story"
+  },
+  {
+   "source": "story-silicon-deism",
+   "target": "story-tuebor",
+   "type": "related_story"
+  },
+  {
+   "source": "story-silicon-deism",
+   "target": "story-infinity-over-zero",
+   "type": "related_story"
+  },
+  {
+   "source": "story-confession-architecture",
+   "target": "story-thermal-sovereignty",
+   "type": "related_story"
+  },
+  {
+   "source": "story-confession-architecture",
+   "target": "story-flywheel",
+   "type": "related_story"
+  },
+  {
+   "source": "story-confession-architecture",
+   "target": "story-sovereign-publication",
+   "type": "related_story"
+  },
+  {
+   "source": "story-confession-architecture",
+   "target": "story-the-invitation",
+   "type": "related_story"
+  },
+  {
+   "source": "story-confession-architecture",
+   "target": "story-detachment-201",
+   "type": "related_story"
+  },
+  {
+   "source": "story-confession-architecture",
+   "target": "story-periodic-table",
+   "type": "related_story"
+  },
+  {
+   "source": "story-confession-architecture",
+   "target": "story-whole-cell",
+   "type": "related_story"
+  },
+  {
+   "source": "story-confession-architecture",
+   "target": "story-unified-lineage",
+   "type": "related_story"
+  },
+  {
+   "source": "story-confession-architecture",
+   "target": "story-rootpulse",
+   "type": "related_story"
+  },
+  {
+   "source": "story-confession-architecture",
+   "target": "story-waterfall",
+   "type": "related_story"
+  },
+  {
+   "source": "story-confession-architecture",
+   "target": "story-tuebor",
+   "type": "related_story"
+  },
+  {
+   "source": "story-confession-architecture",
+   "target": "story-infinity-over-zero",
+   "type": "related_story"
+  },
+  {
+   "source": "story-scyborg",
+   "target": "scyborg-license",
+   "type": "tells_story_of"
+  },
+  {
+   "source": "story-scyborg",
+   "target": "wp-about-scyborg",
+   "type": "tells_story_of"
+  },
+  {
+   "source": "story-scyborg",
+   "target": "wp-sg-scyborg-binary",
+   "type": "tells_story_of"
+  },
+  {
+   "source": "story-scyborg",
+   "target": "wp-inf-cease-desist",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-scyborg",
+   "target": "meta",
+   "type": "targets"
+  },
+  {
+   "source": "story-scyborg",
+   "target": "facebook_meta",
+   "type": "targets"
+  },
+  {
+   "source": "story-scyborg",
+   "target": "wp-about-licensing",
+   "type": "extends"
+  },
+  {
+   "source": "story-pursuit-predation",
+   "target": "wp-pursuit-predation",
+   "type": "tells_story_of"
+  },
+  {
+   "source": "story-pursuit-predation",
+   "target": "wp-guerillaGorilla",
+   "type": "exemplifies"
+  },
+  {
+   "source": "story-pursuit-predation",
+   "target": "wp-gg-math-asymmetry",
+   "type": "proves"
+  },
+  {
+   "source": "story-pursuit-predation",
+   "target": "banks",
+   "type": "hunts"
+  },
+  {
+   "source": "story-pursuit-predation",
+   "target": "agc",
+   "type": "files_with"
+  },
+  {
+   "source": "story-three-modalities",
+   "target": "wp-cg-three-modalities",
+   "type": "tells_story_of"
+  },
+  {
+   "source": "story-three-modalities",
+   "target": "wp-springs",
+   "type": "maps_to"
+  },
+  {
+   "source": "story-three-modalities",
+   "target": "wp-primals",
+   "type": "maps_to"
+  },
+  {
+   "source": "story-three-modalities",
+   "target": "four-names",
+   "type": "maps_to"
+  },
+  {
+   "source": "story-bio-pid",
+   "target": "wp-gaia-bio-pid",
+   "type": "tells_story_of"
+  },
+  {
+   "source": "story-bio-pid",
+   "target": "wp-gAIa",
+   "type": "exemplifies"
+  },
+  {
+   "source": "story-bio-pid",
+   "target": "evolution",
+   "type": "explains"
+  },
+  {
+   "source": "story-letter-gabe",
+   "target": "wp-out-gabe",
+   "type": "tells_story_of"
+  },
+  {
+   "source": "story-letter-gabe",
+   "target": "wp-rpgpt-engine",
+   "type": "pitches"
+  },
+  {
+   "source": "story-letter-gabe",
+   "target": "primal-barracuda",
+   "type": "demonstrates"
+  },
+  {
+   "source": "story-letter-gabe",
+   "target": "primal-coralreef",
+   "type": "demonstrates"
+  },
+  {
+   "source": "story-letter-gabe",
+   "target": "wp-neuralAPI",
+   "type": "demonstrates"
+  },
+  {
+   "source": "story-mobility-edge",
+   "target": "wp-atlas-07",
+   "type": "tells_story_of"
+  },
+  {
+   "source": "story-mobility-edge",
+   "target": "wp-atlas-hugged",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-mobility-edge",
+   "target": "wp-guerillaGorilla",
+   "type": "applies"
+  },
+  {
+   "source": "story-mobility-edge",
+   "target": "signal_14th",
+   "type": "defends"
+  },
+  {
+   "source": "story-silicon-deism",
+   "target": "wp-silicon-deism",
+   "type": "tells_story_of"
+  },
+  {
+   "source": "story-silicon-deism",
+   "target": "wp-sg-silicon-deism-hw",
+   "type": "tells_story_of"
+  },
+  {
+   "source": "story-silicon-deism",
+   "target": "wp-about-hardware",
+   "type": "guides"
+  },
+  {
+   "source": "story-confession-architecture",
+   "target": "wp-sg-confession",
+   "type": "tells_story_of"
+  },
+  {
+   "source": "story-confession-architecture",
+   "target": "wp-sg-provenance-trio",
+   "type": "connects_to"
+  },
+  {
+   "source": "story-confession-architecture",
+   "target": "primal-sweetgrass",
+   "type": "implements_with"
+  },
+  {
+   "source": "story-confession-architecture",
+   "target": "primal-nestgate",
+   "type": "implements_with"
+  },
+  {
+   "source": "story-scyborg",
+   "target": "banks",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-scyborg",
+   "target": "public_education",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-scyborg",
+   "target": "detroit_city",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-scyborg",
+   "target": "ecoprimal",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-scyborg",
+   "target": "opioid_crisis",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-scyborg",
+   "target": "evolution",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-scyborg",
+   "target": "signal_1st",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-scyborg",
+   "target": "sackler_family",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-pursuit-predation",
+   "target": "banks",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-pursuit-predation",
+   "target": "public_education",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-pursuit-predation",
+   "target": "detroit_city",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-pursuit-predation",
+   "target": "ecoprimal",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-pursuit-predation",
+   "target": "opioid_crisis",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-pursuit-predation",
+   "target": "evolution",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-pursuit-predation",
+   "target": "signal_1st",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-pursuit-predation",
+   "target": "sackler_family",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-three-modalities",
+   "target": "banks",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-three-modalities",
+   "target": "public_education",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-three-modalities",
+   "target": "detroit_city",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-three-modalities",
+   "target": "ecoprimal",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-three-modalities",
+   "target": "opioid_crisis",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-three-modalities",
+   "target": "evolution",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-three-modalities",
+   "target": "signal_1st",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-three-modalities",
+   "target": "sackler_family",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-bio-pid",
+   "target": "banks",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-bio-pid",
+   "target": "public_education",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-bio-pid",
+   "target": "detroit_city",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-bio-pid",
+   "target": "ecoprimal",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-bio-pid",
+   "target": "opioid_crisis",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-bio-pid",
+   "target": "evolution",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-bio-pid",
+   "target": "signal_1st",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-bio-pid",
+   "target": "sackler_family",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-letter-gabe",
+   "target": "banks",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-letter-gabe",
+   "target": "public_education",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-letter-gabe",
+   "target": "detroit_city",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-letter-gabe",
+   "target": "ecoprimal",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-letter-gabe",
+   "target": "opioid_crisis",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-letter-gabe",
+   "target": "evolution",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-letter-gabe",
+   "target": "signal_1st",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-letter-gabe",
+   "target": "sackler_family",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-mobility-edge",
+   "target": "banks",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-mobility-edge",
+   "target": "public_education",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-mobility-edge",
+   "target": "detroit_city",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-mobility-edge",
+   "target": "ecoprimal",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-mobility-edge",
+   "target": "opioid_crisis",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-mobility-edge",
+   "target": "evolution",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-mobility-edge",
+   "target": "signal_1st",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-mobility-edge",
+   "target": "sackler_family",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-silicon-deism",
+   "target": "banks",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-silicon-deism",
+   "target": "public_education",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-silicon-deism",
+   "target": "detroit_city",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-silicon-deism",
+   "target": "ecoprimal",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-silicon-deism",
+   "target": "opioid_crisis",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-silicon-deism",
+   "target": "evolution",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-silicon-deism",
+   "target": "signal_1st",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-silicon-deism",
+   "target": "sackler_family",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-confession-architecture",
+   "target": "banks",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-confession-architecture",
+   "target": "public_education",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-confession-architecture",
+   "target": "detroit_city",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-confession-architecture",
+   "target": "ecoprimal",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-confession-architecture",
+   "target": "opioid_crisis",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-confession-architecture",
+   "target": "evolution",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-confession-architecture",
+   "target": "signal_1st",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-confession-architecture",
+   "target": "sackler_family",
    "type": "contextualizes"
   }
  ]
