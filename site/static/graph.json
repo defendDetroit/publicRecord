@@ -94219,6 +94219,110 @@
     "It shines for all.",
     "https://defenddetroit.github.io/publicRecord/"
    ]
+  },
+  {
+   "id": "disinformation",
+   "label": "Disinformation — Deliberate Lies",
+   "class": "analysis",
+   "tags": [
+    "DIS-information: intentionally false, designed to deceive",
+    "Not a mistake. Not confusion. DELIBERATE.",
+    "",
+    "The Big Lie — election was stolen (it was not)",
+    "IRA troll factory — fake personas, fake movements, real division",
+    "RT/Sputnik — state propaganda packaged as journalism",
+    "Fox News — knew the fraud claims were lies, said them anyway ($787.5M proved it)",
+    "QAnon — zero predictions true, Russian-amplified",
+    "Ukraine is run by Nazis — Zelenskyy is JEWISH",
+    "Bucha was staged — satellite photos prove occupation",
+    "MH17 was Ukraine — Dutch investigation proved Russian Buk",
+    "Iraq has WMDs — 600,000+ dead on a lie",
+    "Trump won — he lost by 7 million votes",
+    "The Central Park Five are guilty — DNA proved innocence",
+    "Trickle-down economics works — 50 years of data says no",
+    "",
+    "Disinformation has a SOURCE. Trace it.",
+    "Disinformation has a MOTIVE. Follow the money.",
+    "Disinformation has VICTIMS. Count them."
+   ]
+  },
+  {
+   "id": "null-information",
+   "label": "Null Information — The Absence of Truth",
+   "class": "analysis",
+   "tags": [
+    "NULL: what is deliberately NOT said, NOT reported, NOT investigated",
+    "",
+    "The 2008 crash: who decided NOT to prosecute any executives?",
+    "Epstein client list: who decided NOT to release it?",
+    "Citizens United dark money: who decided donors could be HIDDEN?",
+    "Sackler bankruptcy: who decided victims get $3,500 while family keeps $11B?",
+    "Trump interpreter notes: who decided to HIDE what was said to Putin?",
+    "Mueller Report: who decided a sitting president CANNOT be indicted?",
+    "Jan 6 pardons: who decided insurrectionists deserve freedom?",
+    "Flint water: who decided NOT to test the water?",
+    "Detroit school closures: who decided NOT to count the children?",
+    "",
+    "Null is not nothing. Null is a DECISION.",
+    "Every absence is a choice made by someone with power.",
+    "The graph fills the nulls.",
+    "Where they left silence, we put data."
+   ]
+  },
+  {
+   "id": "non-information",
+   "label": "Non-Information — Noise That Drowns Signal",
+   "class": "analysis",
+   "tags": [
+    "NON: content that is technically not false but carries zero knowledge",
+    "",
+    "Celebrity gossip while democracy burns",
+    "Horse-race election coverage — who is up, who is down — never WHY",
+    "Both sides journalism — climate denial gets equal airtime to science",
+    "Engagement-optimized content — designed to keep you scrolling, not thinking",
+    "Algorithmic feeds — what makes you ANGRY, not what makes you INFORMED",
+    "24-hour news cycle — same story repeated until meaning dissolves",
+    "Pundit panels — 6 people yelling, zero facts exchanged",
+    "Social media metrics — likes, shares, follows — measuring nothing",
+    "Corporate earnings calls — quarterly capitalism, no long-term vision",
+    "Press releases disguised as journalism",
+    "",
+    "Non-information is the fog.",
+    "It does not lie. It does not hide.",
+    "It simply fills the space where knowledge should be.",
+    "Until there is no room left for truth."
+   ]
+  },
+  {
+   "id": "knowledge",
+   "label": "Knowledge — What Remains",
+   "class": "analysis",
+   "tags": [
+    "KNOWLEDGE: verified, sourced, connected, contextual, actionable",
+    "",
+    "The graph is knowledge.",
+    "Every node is a verified entity.",
+    "Every edge is a documented connection.",
+    "Every tag is a sourced fact.",
+    "",
+    "Knowledge is what you get when you:",
+    "1. Identify the disinformation and LABEL it as lies",
+    "2. Fill the nulls with data they tried to hide",
+    "3. Cut through the noise to find signal",
+    "4. Connect the dots across domains",
+    "5. Make it PUBLIC so anyone can verify",
+    "",
+    "9,343 nodes of knowledge.",
+    "320,000+ connections between them.",
+    "The dis gets labeled.",
+    "The null gets filled.",
+    "The non gets cut.",
+    "What remains is the truth.",
+    "",
+    "And the truth does not need to be loud.",
+    "It just needs to be findable.",
+    "https://defenddetroit.github.io/publicRecord/"
+   ]
   }
  ],
  "edges": [
@@ -1696746,6 +1696850,611 @@
    "source": "ecoprimal",
    "target": "the-beacon",
    "type": "lit"
+  },
+  {
+   "source": "disinformation",
+   "target": "the-big-lie",
+   "type": "disinformation_product"
+  },
+  {
+   "source": "the-big-lie",
+   "target": "disinformation",
+   "type": "is"
+  },
+  {
+   "source": "disinformation",
+   "target": "internet-research-agency",
+   "type": "disinformation_factory"
+  },
+  {
+   "source": "internet-research-agency",
+   "target": "disinformation",
+   "type": "is"
+  },
+  {
+   "source": "disinformation",
+   "target": "rt-sputnik",
+   "type": "disinformation_outlet"
+  },
+  {
+   "source": "rt-sputnik",
+   "target": "disinformation",
+   "type": "is"
+  },
+  {
+   "source": "disinformation",
+   "target": "fox-news-disinfo",
+   "type": "disinformation_amplifier"
+  },
+  {
+   "source": "fox-news-disinfo",
+   "target": "disinformation",
+   "type": "is"
+  },
+  {
+   "source": "disinformation",
+   "target": "qanon",
+   "type": "disinformation_movement"
+  },
+  {
+   "source": "qanon",
+   "target": "disinformation",
+   "type": "is"
+  },
+  {
+   "source": "disinformation",
+   "target": "ukraine-disinfo",
+   "type": "disinformation_campaign"
+  },
+  {
+   "source": "ukraine-disinfo",
+   "target": "disinformation",
+   "type": "is"
+  },
+  {
+   "source": "disinformation",
+   "target": "tucker-carlson-disinfo",
+   "type": "disinformation_vector"
+  },
+  {
+   "source": "tucker-carlson-disinfo",
+   "target": "disinformation",
+   "type": "is"
+  },
+  {
+   "source": "disinformation",
+   "target": "disinfo-pipeline",
+   "type": "disinformation_infrastructure"
+  },
+  {
+   "source": "disinfo-pipeline",
+   "target": "disinformation",
+   "type": "is"
+  },
+  {
+   "source": "disinformation",
+   "target": "trump-full-page-ad",
+   "type": "disinformation_paid"
+  },
+  {
+   "source": "trump-full-page-ad",
+   "target": "disinformation",
+   "type": "is"
+  },
+  {
+   "source": "disinformation",
+   "target": "rudy-giuliani",
+   "type": "disinformation_propagator"
+  },
+  {
+   "source": "rudy-giuliani",
+   "target": "disinformation",
+   "type": "is"
+  },
+  {
+   "source": "disinformation",
+   "target": "trump-coin",
+   "type": "disinformation_financial"
+  },
+  {
+   "source": "trump-coin",
+   "target": "disinformation",
+   "type": "is"
+  },
+  {
+   "source": "disinformation",
+   "target": "melania-coin",
+   "type": "disinformation_financial"
+  },
+  {
+   "source": "melania-coin",
+   "target": "disinformation",
+   "type": "is"
+  },
+  {
+   "source": "null-information",
+   "target": "the-protection-racket",
+   "type": "null_accountability"
+  },
+  {
+   "source": "the-protection-racket",
+   "target": "null-information",
+   "type": "produces"
+  },
+  {
+   "source": "null-information",
+   "target": "too-big-to-fail",
+   "type": "null_prosecution"
+  },
+  {
+   "source": "too-big-to-fail",
+   "target": "null-information",
+   "type": "produces"
+  },
+  {
+   "source": "null-information",
+   "target": "dark-money-network",
+   "type": "null_disclosure"
+  },
+  {
+   "source": "dark-money-network",
+   "target": "null-information",
+   "type": "produces"
+  },
+  {
+   "source": "null-information",
+   "target": "citizens-united",
+   "type": "null_transparency"
+  },
+  {
+   "source": "citizens-united",
+   "target": "null-information",
+   "type": "produces"
+  },
+  {
+   "source": "null-information",
+   "target": "helsinki-summit",
+   "type": "null_interpreter_notes"
+  },
+  {
+   "source": "helsinki-summit",
+   "target": "null-information",
+   "type": "produces"
+  },
+  {
+   "source": "null-information",
+   "target": "mueller-report",
+   "type": "null_indictment_policy"
+  },
+  {
+   "source": "mueller-report",
+   "target": "null-information",
+   "type": "produces"
+  },
+  {
+   "source": "null-information",
+   "target": "jan6-pardons",
+   "type": "null_consequences"
+  },
+  {
+   "source": "jan6-pardons",
+   "target": "null-information",
+   "type": "produces"
+  },
+  {
+   "source": "null-information",
+   "target": "tarp",
+   "type": "null_strings_attached"
+  },
+  {
+   "source": "tarp",
+   "target": "null-information",
+   "type": "produces"
+  },
+  {
+   "source": "null-information",
+   "target": "aig-bailout",
+   "type": "null_accountability"
+  },
+  {
+   "source": "aig-bailout",
+   "target": "null-information",
+   "type": "produces"
+  },
+  {
+   "source": "null-information",
+   "target": "the-revolving-door",
+   "type": "null_separation"
+  },
+  {
+   "source": "the-revolving-door",
+   "target": "null-information",
+   "type": "produces"
+  },
+  {
+   "source": "null-information",
+   "target": "coerced-confessions",
+   "type": "null_due_process"
+  },
+  {
+   "source": "coerced-confessions",
+   "target": "null-information",
+   "type": "produces"
+  },
+  {
+   "source": "non-information",
+   "target": "meta",
+   "type": "algorithm_amplifies_noise"
+  },
+  {
+   "source": "meta",
+   "target": "non-information",
+   "type": "profits_from"
+  },
+  {
+   "source": "non-information",
+   "target": "fox-news-disinfo",
+   "type": "24hr_cycle_dissolves_meaning"
+  },
+  {
+   "source": "non-information",
+   "target": "dark-money-network",
+   "type": "drowns_signal_with_money"
+  },
+  {
+   "source": "knowledge",
+   "target": "membrane",
+   "type": "includes"
+  },
+  {
+   "source": "knowledge",
+   "target": "bellingcat",
+   "type": "includes"
+  },
+  {
+   "source": "knowledge",
+   "target": "reverse-ray-tracing",
+   "type": "includes"
+  },
+  {
+   "source": "knowledge",
+   "target": "the-crypto-scales",
+   "type": "includes"
+  },
+  {
+   "source": "knowledge",
+   "target": "the-stack-of-sins",
+   "type": "includes"
+  },
+  {
+   "source": "knowledge",
+   "target": "the-beacon",
+   "type": "includes"
+  },
+  {
+   "source": "knowledge",
+   "target": "attsi-sees-the-membrane",
+   "type": "includes"
+  },
+  {
+   "source": "knowledge",
+   "target": "this-citizen-is-united",
+   "type": "includes"
+  },
+  {
+   "source": "knowledge",
+   "target": "infantry-not-intel",
+   "type": "includes"
+  },
+  {
+   "source": "knowledge",
+   "target": "the-cosmic-joke",
+   "type": "includes"
+  },
+  {
+   "source": "knowledge",
+   "target": "bitcoin",
+   "type": "includes"
+  },
+  {
+   "source": "knowledge",
+   "target": "ethereum",
+   "type": "includes"
+  },
+  {
+   "source": "knowledge",
+   "target": "satoshi-nakamoto",
+   "type": "includes"
+  },
+  {
+   "source": "knowledge",
+   "target": "jan6-committee",
+   "type": "includes"
+  },
+  {
+   "source": "knowledge",
+   "target": "mueller-report",
+   "type": "includes"
+  },
+  {
+   "source": "knowledge",
+   "target": "disinformation",
+   "type": "defeats"
+  },
+  {
+   "source": "knowledge",
+   "target": "null-information",
+   "type": "fills"
+  },
+  {
+   "source": "knowledge",
+   "target": "non-information",
+   "type": "cuts_through"
+  },
+  {
+   "source": "membrane",
+   "target": "knowledge",
+   "type": "IS"
+  },
+  {
+   "source": "ecoprimal",
+   "target": "knowledge",
+   "type": "produces"
+  },
+  {
+   "source": "bellingcat",
+   "target": "knowledge",
+   "type": "produces"
+  },
+  {
+   "source": "bellingcat",
+   "target": "disinformation",
+   "type": "defeats"
+  },
+  {
+   "source": "jan6-committee",
+   "target": "knowledge",
+   "type": "produced"
+  },
+  {
+   "source": "jan6-committee",
+   "target": "disinformation",
+   "type": "investigated"
+  },
+  {
+   "source": "jan6-committee",
+   "target": "the-big-lie",
+   "type": "debunked"
+  },
+  {
+   "source": "disinformation",
+   "target": "knowledge",
+   "type": "defeated_by"
+  },
+  {
+   "source": "fox-news-disinfo",
+   "target": "knowledge",
+   "type": "paid_787M_to"
+  },
+  {
+   "source": "disinformation",
+   "target": "2008-financial-crisis",
+   "type": "accompanied"
+  },
+  {
+   "source": "null-information",
+   "target": "2008-financial-crisis",
+   "type": "suppressed_truth_about"
+  },
+  {
+   "source": "non-information",
+   "target": "2008-financial-crisis",
+   "type": "drowned_coverage_of"
+  },
+  {
+   "source": "disinformation",
+   "target": "january-6th",
+   "type": "accompanied"
+  },
+  {
+   "source": "null-information",
+   "target": "january-6th",
+   "type": "suppressed_truth_about"
+  },
+  {
+   "source": "non-information",
+   "target": "january-6th",
+   "type": "drowned_coverage_of"
+  },
+  {
+   "source": "disinformation",
+   "target": "flint-water-crisis",
+   "type": "accompanied"
+  },
+  {
+   "source": "null-information",
+   "target": "flint-water-crisis",
+   "type": "suppressed_truth_about"
+  },
+  {
+   "source": "non-information",
+   "target": "flint-water-crisis",
+   "type": "drowned_coverage_of"
+  },
+  {
+   "source": "disinformation",
+   "target": "bucha-massacre",
+   "type": "accompanied"
+  },
+  {
+   "source": "null-information",
+   "target": "bucha-massacre",
+   "type": "suppressed_truth_about"
+  },
+  {
+   "source": "non-information",
+   "target": "bucha-massacre",
+   "type": "drowned_coverage_of"
+  },
+  {
+   "source": "disinformation",
+   "target": "mh17-shootdown",
+   "type": "accompanied"
+  },
+  {
+   "source": "null-information",
+   "target": "mh17-shootdown",
+   "type": "suppressed_truth_about"
+  },
+  {
+   "source": "non-information",
+   "target": "mh17-shootdown",
+   "type": "drowned_coverage_of"
+  },
+  {
+   "source": "puppet-strings",
+   "target": "disinformation",
+   "type": "operates_through"
+  },
+  {
+   "source": "puppet-strings",
+   "target": "null-information",
+   "type": "creates"
+  },
+  {
+   "source": "the-stack-of-sins",
+   "target": "disinformation",
+   "type": "enabled_by"
+  },
+  {
+   "source": "the-stack-of-sins",
+   "target": "null-information",
+   "type": "protected_by"
+  },
+  {
+   "source": "the-stack-of-sins",
+   "target": "non-information",
+   "type": "hidden_by"
+  },
+  {
+   "source": "goldman-sachs",
+   "target": "null-information",
+   "type": "what_they_dont_disclose"
+  },
+  {
+   "source": "blackrock",
+   "target": "null-information",
+   "type": "aladdin_is_a_black_box"
+  },
+  {
+   "source": "aladdin",
+   "target": "null-information",
+   "type": "21T_managed_zero_transparency"
+  },
+  {
+   "source": "tether",
+   "target": "null-information",
+   "type": "never_fully_audited"
+  },
+  {
+   "source": "fred-trump",
+   "target": "null-information",
+   "type": "applications_marked_C_hidden"
+  },
+  {
+   "source": "trump-nyc-racism",
+   "target": "disinformation",
+   "type": "pattern"
+  },
+  {
+   "source": "trump-tower-sales",
+   "target": "null-information",
+   "type": "shell_companies_hide_buyers"
+  },
+  {
+   "source": "deutsche-bank",
+   "target": "null-information",
+   "type": "blocked_suspicious_activity_reports"
+  },
+  {
+   "source": "banks",
+   "target": "disinformation",
+   "type": "false_police_reports"
+  },
+  {
+   "source": "banks",
+   "target": "null-information",
+   "type": "what_PCA_hides"
+  },
+  {
+   "source": "nra-russia-pipeline",
+   "target": "null-information",
+   "type": "refused_to_disclose_foreign_donors"
+  },
+  {
+   "source": "nra-russia-pipeline",
+   "target": "disinformation",
+   "type": "guns_dont_kill_people"
+  },
+  {
+   "source": "project-2025",
+   "target": "disinformation",
+   "type": "trump_claimed_he_didnt_know"
+  },
+  {
+   "source": "project-2025",
+   "target": "null-information",
+   "type": "who_funded_it"
+  },
+  {
+   "source": "the-real-citizens",
+   "target": "non-information",
+   "type": "drowned_by"
+  },
+  {
+   "source": "the-real-citizens",
+   "target": "knowledge",
+   "type": "deserve"
+  },
+  {
+   "source": "zelenskyy",
+   "target": "disinformation",
+   "type": "fights_daily"
+  },
+  {
+   "source": "zelenskyy",
+   "target": "knowledge",
+   "type": "weapon_of_choice"
+  },
+  {
+   "source": "alexei-navalny",
+   "target": "knowledge",
+   "type": "died_for"
+  },
+  {
+   "source": "alexei-navalny",
+   "target": "disinformation",
+   "type": "fought_to_death"
+  },
+  {
+   "source": "membrane",
+   "target": "disinformation",
+   "type": "identifies"
+  },
+  {
+   "source": "membrane",
+   "target": "null-information",
+   "type": "fills"
+  },
+  {
+   "source": "membrane",
+   "target": "non-information",
+   "type": "filters"
+  },
+  {
+   "source": "membrane",
+   "target": "knowledge",
+   "type": "produces"
   }
  ]
 }
