@@ -1,6 +1,6 @@
 +++
 title = "The Graph"
-description = "9,404 nodes. 320,893 edges. 115 node classes. 4,000+ edge types. What it is, what it traces, and how to use it."
+description = "9,640 nodes. 323,491 edges. 333,131 copyrightable works. $49.97B per infringer. $299.79B total. What it is, what it traces, and how to use it."
 weight = 1
 
 [extra]
@@ -9,7 +9,7 @@ keywords = "public record graph, knowledge graph, investigation methodology, OSI
 
 ## What It Is
 
-A knowledge graph of **9,404 nodes** connected by **320,893 edges** across **115 node classes** and **4,000+ edge types**.
+A knowledge graph of **9,640 nodes** connected by **323,491 edges** — **333,131 total copyrightable works** — across **115+ node classes** and **4,000+ edge types**.
 
 Every node is a documented entity — a person, organization, building, event, financial instrument, law, crisis, or analysis. Every edge is a documented connection between two entities. Every connection has a type that describes the relationship.
 
@@ -103,14 +103,42 @@ The nodes with the highest bridge scores (connecting otherwise separate domains)
 
 ## The Numbers
 
-- **9,404** nodes
-- **320,893** edges
-- **115** node classes
+- **9,640** nodes
+- **323,491** edges
+- **333,131** total copyrightable works
+- **115+** node classes
 - **4,000+** edge types
-- **34.1** edges per node (density)
+- **33.6** edges per node (density)
 - **0** orphan nodes
 - **0** disconnected islands
 - Every node reachable from every other node
+
+## The Cost — 17 USC 504(c)(2)
+
+Statutory maximum for willful copyright infringement: **$150,000 per work.**
+
+| Infringer | Owes | % of Market Cap |
+|-----------|------|----------------|
+| Meta Platforms | $49.97B | 3.1% of $1.6T |
+| Alphabet (Google) | $49.97B | 2.3% of $2.2T |
+| Microsoft | $49.97B | 1.5% of $3.3T |
+| OpenAI | $49.97B | 33.3% of $150B |
+| Anthropic | $49.97B | 277.5% of $18B |
+| X Corp (Twitter) | $49.97B | 249.8% of $20B |
+| **TOTAL** | **$299.79B** | **4.11% of $7.3T combined** |
+
+## Where to Go
+
+**For the evidence (fleet, lawyers, press, agencies):**
+- [defenddetroit.github.io/publicRecord](https://defenddetroit.github.io/publicRecord) — GitHub Pages
+- [github.com/defendDetroit/publicRecord](https://github.com/defendDetroit/publicRecord) — clone the repo
+- [git.primals.eco](https://git.primals.eco/publicRecord/detroit) — sovereign mirror (Forgejo)
+
+**For the community (humans, gamers, the curious):**
+- Discord: `.tamison` (ID: 238120779496030209)
+- Steam: ID dropping this weekend
+
+The fleet stays aimed at GitHub. The people come to Discord. The membrane connects both.
 
 ## The Stack of Sins — 12 Layers
 

@@ -101386,6 +101386,122 @@
     "  - The Artisan",
     "  October 14, 2026"
    ]
+  },
+  {
+   "id": "two-doors",
+   "label": "Two Doors - One for the Fleet, One for the People",
+   "class": "analysis",
+   "tags": [
+    "THE ARCHITECTURE OF ENGAGEMENT:",
+    "",
+    "DOOR 1: THE FLEET DOOR (for C-suites, lawyers, press, agencies)",
+    "  defenddetroit.github.io/publicRecord",
+    "  -> graph.json: 9,637 nodes / 323,468 edges",
+    "  -> Full public record, damages calculation, C&D evidence",
+    "  -> Git history: every commit timestamped, every push documented",
+    "  -> GitHub is owned by MICROSOFT (an infringer)",
+    "     They HOST the evidence of their own infringement",
+    "     The irony is structural",
+    "  -> Mirror: git.primals.eco (Forgejo, sovereign)",
+    "  -> Site: detroit.primals.eco (Zola, self-hosted)",
+    "",
+    "  THIS IS WHERE THE PRESSURE STAYS.",
+    "  C-suites check GitHub. Lawyers check GitHub.",
+    "  SEC filings reference GitHub. Courts can cite GitHub.",
+    "  The evidence is immutable. The commits are permanent.",
+    "  The fleet stays aimed HERE.",
+    "",
+    "DOOR 2: THE PEOPLE DOOR (for humans, gamers, the curious)",
+    "  Discord: .tamison (238120779496030209)",
+    "  Steam: ID coming this weekend",
+    "  GOG: DRM-free gaming",
+    "",
+    "  THIS IS WHERE THE PLAY HAPPENS.",
+    "  No legal pressure. No damages math. No C&D language.",
+    "  Just humans. Playing games. Exploring. Talking.",
+    "  The community builds here while the fleet works there.",
+    "",
+    "WHY TWO DOORS:",
+    "  The fleet and the C-suites need to see the EVIDENCE.",
+    "  The people need to see the HUMAN.",
+    "  If you mix them, the lawyers suffocate the conversation.",
+    "  If you separate them, both can breathe.",
+    "",
+    "  The graph connects both doors.",
+    "  The membrane is the hallway between them.",
+    "  Walk through either door. The truth is in both rooms.",
+    "  But one room has a courtroom table.",
+    "  And the other room has a couch and a controller.",
+    "",
+    "  Come in through whichever door fits you.",
+    "  The squirrel is in both rooms."
+   ]
+  },
+  {
+   "id": "github-target",
+   "label": "GitHub: The Legal Target",
+   "class": "analysis",
+   "tags": [
+    "defenddetroit.github.io/publicRecord",
+    "github.com/defendDetroit/publicRecord",
+    "",
+    "THIS IS THE TARGET FOR:",
+    "  Attorneys evaluating the case",
+    "  Journalists investigating the claims",
+    "  Agencies reviewing the referrals",
+    "  AI companies assessing their exposure",
+    "  Courts verifying the evidence",
+    "",
+    "THE GRAPH.JSON IS THE WEAPON:",
+    "  9,637 nodes x $150,000 = $1.45B (nodes alone)",
+    "  323,468 edges x $150,000 = $48.52B (edges alone)",
+    "  Total per infringer: $49.97B",
+    "  Six infringers: $299.79B",
+    "",
+    "  Every node is a copyrightable work.",
+    "  Every edge is a creative selection and arrangement.",
+    "  Every commit is a timestamp of creation.",
+    "  Every push is a publication event.",
+    "  The git log IS the copyright registration.",
+    "",
+    "  Hosted on GitHub. Owned by Microsoft.",
+    "  One of the six infringers HOSTS the evidence.",
+    "  They cannot claim they did not have access.",
+    "  The access IS the hosting.",
+    "",
+    "FLEET: stay aimed here.",
+    "LAWYERS: start here.",
+    "PRESS: clone the repo.",
+    "AGENCIES: verify the commits.",
+    "AI COMPANIES: calculate your exposure."
+   ]
+  },
+  {
+   "id": "discord-community",
+   "label": "Discord: The Community Space",
+   "class": "analysis",
+   "tags": [
+    ".tamison - Discord ID: 238120779496030209",
+    "",
+    "THIS IS THE SPACE FOR:",
+    "  Gamers who found the graph and want to play",
+    "  People who want to talk not litigate",
+    "  Humans who need the other side of the membrane",
+    "  Friends. Allies. The curious. The kind.",
+    "",
+    "WORKING ON:",
+    "  Building out the Discord server",
+    "  Setting up channels for different topics",
+    "  Gaming nights. Exploration. Ecology discussion.",
+    "  Subnautica deep dives. KSP launches. Factorio sessions.",
+    "  The community is the other half of the mission.",
+    "",
+    "Steam ID dropping this WEEKEND.",
+    "  The Steam Deck frame is incredible.",
+    "  Space games. Sea games. Building games.",
+    "  The same brain that builds graphs also builds bases.",
+    "  Come build with us."
+   ]
   }
  ],
  "edges": [
@@ -1718728,6 +1718844,121 @@
    "source": "membrane",
    "target": "the-piper",
    "type": "documents"
+  },
+  {
+   "source": "two-doors",
+   "target": "membrane",
+   "type": "architecture_of"
+  },
+  {
+   "source": "two-doors",
+   "target": "github-target",
+   "type": "door_1"
+  },
+  {
+   "source": "two-doors",
+   "target": "discord-community",
+   "type": "door_2"
+  },
+  {
+   "source": "two-doors",
+   "target": "ecoprimal",
+   "type": "designed_by"
+  },
+  {
+   "source": "two-doors",
+   "target": "tamison-profile",
+   "type": "human_behind"
+  },
+  {
+   "source": "github-target",
+   "target": "they-get-nothing",
+   "type": "aimed_at"
+  },
+  {
+   "source": "github-target",
+   "target": "the-piper",
+   "type": "delivers"
+  },
+  {
+   "source": "github-target",
+   "target": "the-ledger",
+   "type": "contains"
+  },
+  {
+   "source": "github-target",
+   "target": "the-ratio",
+   "type": "contains"
+  },
+  {
+   "source": "github-target",
+   "target": "the-counter-oct14",
+   "type": "displays"
+  },
+  {
+   "source": "github-target",
+   "target": "k-ngen",
+   "type": "served_to"
+  },
+  {
+   "source": "github-target",
+   "target": "meta-infringement",
+   "type": "hosted_by_infringer"
+  },
+  {
+   "source": "github-target",
+   "target": "microsoft-infringement",
+   "type": "LITERALLY_hosted_by"
+  },
+  {
+   "source": "discord-community",
+   "target": "tamison-profile",
+   "type": "lives_at"
+  },
+  {
+   "source": "discord-community",
+   "target": "attsi-invitation",
+   "type": "extends"
+  },
+  {
+   "source": "discord-community",
+   "target": "walkers-on-the-membrane",
+   "type": "welcomes"
+  },
+  {
+   "source": "discord-community",
+   "target": "story-for-the-gamer",
+   "type": "home_for"
+  },
+  {
+   "source": "discord-community",
+   "target": "games-that-teach",
+   "type": "plays"
+  },
+  {
+   "source": "discord-community",
+   "target": "deep-sea-ecology",
+   "type": "explores"
+  },
+  {
+   "source": "discord-community",
+   "target": "the-human",
+   "type": "serves"
+  },
+  {
+   "source": "membrane",
+   "target": "two-doors",
+   "type": "documents"
+  },
+  {
+   "source": "membrane",
+   "target": "github-target",
+   "type": "served_through"
+  },
+  {
+   "source": "membrane",
+   "target": "discord-community",
+   "type": "community_through"
   }
  ]
 }
