@@ -92357,6 +92357,147 @@
     "Convicted of contempt — imprisoned",
     "The finance-to-fascism pipeline personified"
    ]
+  },
+  {
+   "id": "exonerated-five",
+   "label": "The Exonerated Five (Central Park Five)",
+   "class": "actor",
+   "tags": [
+    "Korey Wise",
+    "Yusef Salaam",
+    "Kevin Richardson",
+    "Antron McCray",
+    "Raymond Santana",
+    "Accused 1989 — ages 14 to 16",
+    "All Black and Latino",
+    "Coerced confessions",
+    "Convicted on zero physical evidence",
+    "DNA exonerated ALL FIVE in 2002",
+    "Actual attacker Matias Reyes confessed — serial rapist already in prison",
+    "Served 6 to 13 YEARS in prison for nothing",
+    "Korey Wise — tried as adult at 16, served 13 years",
+    "NYC settled for $41 million in 2014",
+    "Netflix When They See Us (Ava DuVernay 2019)",
+    "Yusef Salaam elected NYC City Council 2023",
+    "From wrongfully imprisoned teenager to elected official",
+    "The system broke them — they rebuilt themselves"
+   ]
+  },
+  {
+   "id": "trump-full-page-ad",
+   "label": "Trump Full-Page Ad — BRING BACK THE DEATH PENALTY (1989)",
+   "class": "analysis",
+   "tags": [
+    "May 1 1989",
+    "Full-page ads in NYT, Daily News, NY Post, NY Newsday",
+    "Cost $85,000",
+    "BRING BACK THE DEATH PENALTY. BRING BACK OUR POLICE.",
+    "Called for execution of five INNOCENT teenagers",
+    "Before any trial",
+    "Presumption of innocence destroyed by money",
+    "A rich white man buying a page to demand Black children die",
+    "Trump NEVER apologized — even after DNA exoneration",
+    "2016 campaign: still said they were guilty",
+    "2019: refused to apologize AGAIN",
+    "The ad poisoned the jury pool",
+    "This is what $85,000 of racism looks like"
+   ]
+  },
+  {
+   "id": "korey-wise",
+   "label": "Korey Wise",
+   "class": "actor",
+   "tags": [
+    "16 years old in 1989",
+    "Tried as ADULT",
+    "Served 13 YEARS — longest of the five",
+    "Rikers Island and Attica",
+    "Beaten in prison",
+    "DNA proved innocence 2002",
+    "Donated $190,000 to Innocence Project",
+    "Korey Wise Innocence Project at Colorado Law School",
+    "Turned suffering into saving others"
+   ]
+  },
+  {
+   "id": "yusef-salaam",
+   "label": "Yusef Salaam",
+   "class": "actor",
+   "tags": [
+    "15 years old in 1989",
+    "Convicted at 16",
+    "Served nearly 7 years",
+    "PhD honorary from various universities",
+    "Elected NYC City Council District 9 — Harlem — 2023",
+    "From wrongfully imprisoned child to ELECTED OFFICIAL",
+    "The system tried to destroy him — he governs it now",
+    "Author and speaker",
+    "Obama invited to White House 2016"
+   ]
+  },
+  {
+   "id": "ava-duvernay",
+   "label": "Ava DuVernay",
+   "class": "actor",
+   "tags": [
+    "Director When They See Us (2019 Netflix)",
+    "Told the Exonerated Five story to the world",
+    "13th documentary — mass incarceration",
+    "Selma (2014)",
+    "First Black woman nominated for Golden Globe directing",
+    "Art as justice"
+   ]
+  },
+  {
+   "id": "matias-reyes",
+   "label": "Matias Reyes — Actual Attacker",
+   "class": "actor",
+   "tags": [
+    "Serial rapist already in prison",
+    "Confessed in 2002",
+    "DNA matched — his and ONLY his",
+    "The five had ZERO physical evidence connecting them",
+    "Coerced confessions were the only evidence",
+    "The system convicted children on lies while the real attacker walked free"
+   ]
+  },
+  {
+   "id": "trump-nyc-racism",
+   "label": "Trump NYC Racism Pattern",
+   "class": "analysis",
+   "tags": [
+    "1973: DOJ sues Fred and Donald Trump for housing discrimination",
+    "Application marked C for colored",
+    "Black applicants told no vacancies",
+    "White applicants shown apartments same day",
+    "1989: $85,000 full-page ad demanding death for innocent Black teens",
+    "1991: The only guys I want counting my money are short guys in yarmulkes",
+    "2011: Birtherism against Obama",
+    "2015: Mexicans are rapists — campaign launch",
+    "2016: Muslim ban",
+    "2017: Very fine people on both sides — Charlottesville",
+    "2019: Still refuses to apologize to Exonerated Five",
+    "The racism is not a bug — it is the PRODUCT",
+    "Fred discriminated in housing — Donald escalated to demanding executions",
+    "Each generation worse than the last"
+   ]
+  },
+  {
+   "id": "coerced-confessions",
+   "label": "Coerced Confessions",
+   "class": "analysis",
+   "tags": [
+    "Teenagers interrogated 14-30 hours",
+    "No parents present for most interrogations",
+    "No lawyers present",
+    "Sleep deprived",
+    "Lied to about evidence",
+    "Told they could go home if they confessed",
+    "Confessions contradicted each other AND the evidence",
+    "NYPD manufactured a case",
+    "Standard practice — still happening today",
+    "False confessions are the #1 cause of wrongful conviction for youth"
+   ]
   }
  ],
  "edges": [
@@ -1696024,6 +1696165,251 @@
    "source": "bretton-woods",
    "target": "the-reversal",
    "type": "full_circle"
+  },
+  {
+   "source": "donald-trump",
+   "target": "trump-full-page-ad",
+   "type": "paid_for"
+  },
+  {
+   "source": "trump-full-page-ad",
+   "target": "exonerated-five",
+   "type": "targeted"
+  },
+  {
+   "source": "trump-full-page-ad",
+   "target": "exonerated-five",
+   "type": "demanded_death_penalty_for"
+  },
+  {
+   "source": "exonerated-five",
+   "target": "korey-wise",
+   "type": "includes"
+  },
+  {
+   "source": "exonerated-five",
+   "target": "yusef-salaam",
+   "type": "includes"
+  },
+  {
+   "source": "coerced-confessions",
+   "target": "exonerated-five",
+   "type": "used_against"
+  },
+  {
+   "source": "matias-reyes",
+   "target": "exonerated-five",
+   "type": "actual_attacker_exonerated"
+  },
+  {
+   "source": "ava-duvernay",
+   "target": "exonerated-five",
+   "type": "told_their_story"
+  },
+  {
+   "source": "fred-trump",
+   "target": "trump-nyc-racism",
+   "type": "originated"
+  },
+  {
+   "source": "donald-trump",
+   "target": "trump-nyc-racism",
+   "type": "continued"
+  },
+  {
+   "source": "trump-full-page-ad",
+   "target": "trump-nyc-racism",
+   "type": "peak_expression_of"
+  },
+  {
+   "source": "fred-trump",
+   "target": "donald-trump",
+   "type": "taught_racism_to"
+  },
+  {
+   "source": "trump-money-pipeline",
+   "target": "trump-full-page-ad",
+   "type": "funded"
+  },
+  {
+   "source": "donald-trump",
+   "target": "exonerated-five",
+   "type": "never_apologized_to"
+  },
+  {
+   "source": "donald-trump",
+   "target": "korey-wise",
+   "type": "demanded_death_of_innocent_child"
+  },
+  {
+   "source": "donald-trump",
+   "target": "yusef-salaam",
+   "type": "demanded_death_of_innocent_child"
+  },
+  {
+   "source": "yusef-salaam",
+   "target": "trump-full-page-ad",
+   "type": "survived"
+  },
+  {
+   "source": "yusef-salaam",
+   "target": "coerced-confessions",
+   "type": "victim_of"
+  },
+  {
+   "source": "yusef-salaam",
+   "target": "donald-trump",
+   "type": "outlasted"
+  },
+  {
+   "source": "korey-wise",
+   "target": "trump-full-page-ad",
+   "type": "survived"
+  },
+  {
+   "source": "korey-wise",
+   "target": "coerced-confessions",
+   "type": "victim_of"
+  },
+  {
+   "source": "membrane",
+   "target": "exonerated-five",
+   "type": "documents"
+  },
+  {
+   "source": "membrane",
+   "target": "trump-full-page-ad",
+   "type": "documents"
+  },
+  {
+   "source": "membrane",
+   "target": "trump-nyc-racism",
+   "type": "documents"
+  },
+  {
+   "source": "membrane",
+   "target": "coerced-confessions",
+   "type": "documents"
+  },
+  {
+   "source": "membrane",
+   "target": "korey-wise",
+   "type": "documents"
+  },
+  {
+   "source": "membrane",
+   "target": "yusef-salaam",
+   "type": "documents"
+  },
+  {
+   "source": "membrane",
+   "target": "ava-duvernay",
+   "type": "documents"
+  },
+  {
+   "source": "ecoprimal",
+   "target": "exonerated-five",
+   "type": "reverse_ray_traced"
+  },
+  {
+   "source": "ecoprimal",
+   "target": "trump-nyc-racism",
+   "type": "reverse_ray_traced"
+  },
+  {
+   "source": "ecoprimal",
+   "target": "trump-full-page-ad",
+   "type": "reverse_ray_traced"
+  },
+  {
+   "source": "deutsche-bank-trump",
+   "target": "trump-nyc-racism",
+   "type": "funded_despite"
+  },
+  {
+   "source": "deutsche-bank",
+   "target": "trump-nyc-racism",
+   "type": "funded_despite"
+  },
+  {
+   "source": "trump-money-pipeline",
+   "target": "trump-nyc-racism",
+   "type": "money_enabled"
+  },
+  {
+   "source": "2008-financial-crisis",
+   "target": "exonerated-five",
+   "type": "same_system_different_victims"
+  },
+  {
+   "source": "too-big-to-fail",
+   "target": "coerced-confessions",
+   "type": "same_impunity"
+  },
+  {
+   "source": "citizens-united",
+   "target": "trump-full-page-ad",
+   "type": "money_as_weapon_precedent"
+  },
+  {
+   "source": "reverse-ray-tracing",
+   "target": "trump-full-page-ad",
+   "type": "illuminates"
+  },
+  {
+   "source": "reverse-ray-tracing",
+   "target": "trump-nyc-racism",
+   "type": "traces_pattern"
+  },
+  {
+   "source": "reverse-ray-tracing",
+   "target": "coerced-confessions",
+   "type": "exposes"
+  },
+  {
+   "source": "yusef-salaam",
+   "target": "zelenskyy",
+   "type": "same_energy_rebuilt_from_destruction"
+  },
+  {
+   "source": "trump-full-page-ad",
+   "target": "the-architects",
+   "type": "extraction_of_innocence"
+  },
+  {
+   "source": "superstonk",
+   "target": "exonerated-five",
+   "type": "same_system_same_fight"
+  },
+  {
+   "source": "coerced-confessions",
+   "target": "banks",
+   "type": "same_playbook"
+  },
+  {
+   "source": "trump-nyc-racism",
+   "target": "banks",
+   "type": "pattern_recognition"
+  },
+  {
+   "source": "trump-full-page-ad",
+   "target": "meta",
+   "type": "money_buys_amplification"
+  },
+  {
+   "source": "richard-nixon",
+   "target": "trump-nyc-racism",
+   "type": "political_lineage"
+  },
+  {
+   "source": "roger-stone",
+   "target": "trump-nyc-racism",
+   "type": "connected_to"
+  },
+  {
+   "source": "the-rate",
+   "target": "trump-full-page-ad",
+   "type": "money_weaponized"
   }
  ]
 }
