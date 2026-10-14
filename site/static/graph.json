@@ -88191,6 +88191,369 @@
     "addiction",
     "pharmacology"
    ]
+  },
+  {
+   "id": "lang-rust",
+   "label": "Rust — Memory Safety Without Garbage Collection\n\nThe language that proves you don't need to choose between speed and safety.\nOwnership. Borrowing. Lifetimes. The borrow checker is annoying until the\nday it saves you from a use-after-free in production at 3 AM. Then it's\nthe best friend you ever had.\n\nRust is the primary language of ecoPrimal's compute layer. barraCuda\nkernels. coralForge evolution engine. wetSpring bioinformatics pipelines.\nThe membrane itself.\n\nZero-cost abstractions mean: the code you THINK you're writing IS the code\nthat runs. No hidden allocations. No surprise GC pauses. No runtime overhead.\nThe compiler does the work so the CPU doesn't have to.\n\nFearless concurrency. Send + Sync. Data races are compile errors, not\nruntime crashes. In a system processing 163,000+ edges of public record,\nconcurrency bugs don't just crash programs — they corrupt truth. Rust\nprevents that at the type level.\n\nCargo. Crates.io. The best package ecosystem in systems programming.\n`cargo build` and it works. Every time. On every platform.\n\n\"I don't know Rust\" is how it started. Now: 7 springs, 14 primals,\n163,000 edges. Rust didn't just build the infrastructure. Rust IS\nthe infrastructure.",
+   "class": "language",
+   "tags": [
+    "rust",
+    "systems",
+    "memory-safety",
+    "concurrency"
+   ]
+  },
+  {
+   "id": "lang-python",
+   "label": "Python — Readability Counts\n\nThe language that reads like pseudocode and runs like a Swiss Army knife.\nPython didn't win because it was fast. It won because it was CLEAR.\nA physicist can write Python. A biologist can write Python. A data\nscientist can write Python. A 12-year-old can write Python.\n\nPython is the scripting layer of ecoPrimal. Every graph manipulation\nscript. Every data pipeline. Every analysis tool. 401 scripts across\n19 strata — all Python. Because when you need to process 8,878 nodes\nat 5 AM, you need a language that gets out of your way.\n\nimport json. with open. for node in graph. if condition. print.\nNo ceremony. No boilerplate. No AbstractSingletonProxyFactoryBean.\n\nNumPy. Pandas. SciPy. Matplotlib. scikit-learn. PyTorch. The\nscientific computing ecosystem that makes Python the language of\ndiscovery. Not because Guido planned it — because the community\nbuilt it. One library at a time. For thirty years.\n\nBeautiful is better than ugly. Simple is better than complex.\nReadability counts. Now is better than never.\n\nThe Zen of Python is the Zen of science.",
+   "class": "language",
+   "tags": [
+    "python",
+    "scripting",
+    "science",
+    "readability"
+   ]
+  },
+  {
+   "id": "lang-c",
+   "label": "C — The Portable Assembler\n\nThe language that built the world. Dennis Ritchie wrote C to write Unix.\nUnix became Linux. Linux runs every Android phone, every server, every\nsupercomputer on the TOP500 list. The entire internet runs on C.\n\nC doesn't protect you. C gives you a pointer and says \"good luck.\"\nManual memory management. Buffer overflows. Undefined behavior.\nSegfaults. The language trusts you completely. When you're worthy\nof that trust, nothing is faster.\n\nK&R. 272 pages. The entire language specification in a book you can\nread in an afternoon. Compare that to the C++ standard: 1,853 pages.\nC said everything it needed to say. Then it stopped talking.\n\nEvery operating system kernel. Every embedded system. Every database\nengine. Every network stack. Every compiler for every other language.\nC is the bedrock. Everything else is sediment on top.\n\nDennis Ritchie died the same week as Steve Jobs. The world mourned Jobs.\nRitchie got a Wikipedia edit. May the other name be forgotten.",
+   "class": "language",
+   "tags": [
+    "c",
+    "systems",
+    "unix",
+    "portable"
+   ]
+  },
+  {
+   "id": "lang-assembly",
+   "label": "Assembly — Talking Directly to the Machine\n\nNo abstraction. No compiler magic. You write the instructions. The CPU\nexecutes them. MOV. ADD. JMP. CALL. RET. That's it. That's the language.\n\nEvery program ever written, in every language ever invented, eventually\nbecomes assembly. Python becomes C bytecodes becomes machine code.\nRust becomes LLVM IR becomes machine code. Assembly IS the machine code,\nwritten by a human who knows exactly what the silicon should do.\n\nUnderstanding assembly means understanding computation itself. Not the\nabstraction — the reality. How a CPU fetches, decodes, executes. How\nthe pipeline stalls. How the cache misses. How the branch predictor\nguesses wrong.\n\nYou don't write production code in assembly anymore. But every\nperformance-critical inner loop, every CUDA kernel, every cryptographic\nprimitive — someone looked at the assembly output and made sure it\nwas right. The quiet work. The invisible foundation.",
+   "class": "language",
+   "tags": [
+    "assembly",
+    "machine-code",
+    "hardware",
+    "foundation"
+   ]
+  },
+  {
+   "id": "lang-lisp",
+   "label": "Lisp — Code Is Data, Data Is Code\n\nThe second-oldest high-level language (1958). Still more powerful than\nmost languages invented since. Homoiconicity: the code IS a data\nstructure. You can write programs that write programs. Macros that\ngenerate code at compile time. The language extends itself.\n\nJohn McCarthy invented Lisp to do AI research. He also coined the\nterm \"artificial intelligence.\" But Lisp isn't just for AI — it's\nfor THINKING. S-expressions. Lambda calculus. Recursion. Garbage\ncollection (invented here). REPL-driven development (invented here).\n\nEvery language feature you love was invented in Lisp first:\n  - Garbage collection (1959)\n  - First-class functions (1958)\n  - Dynamic typing (1958)\n  - REPL (1958)\n  - Macros (1963)\n  - Closures (1970, Scheme)\n  - Pattern matching (various)\n\nEmacs is written in Lisp. AutoCAD is written in Lisp. The Mars\nPathfinder ran Lisp. Paul Graham wrote Viaweb in Lisp and sold it\nto Yahoo for $49M. Then he started Y Combinator.\n\nThe parentheses are not the point. The point is: code is data.",
+   "class": "language",
+   "tags": [
+    "lisp",
+    "functional",
+    "metaprogramming",
+    "ai"
+   ]
+  },
+  {
+   "id": "lang-haskell",
+   "label": "Haskell — Pure Functions, Lazy Evaluation\n\nThe language that proved purity is practical. No side effects. No\nmutation. No surprises. A function given the same inputs ALWAYS returns\nthe same output. Always. The compiler enforces it.\n\nMonads. Functors. Applicatives. Type classes. The vocabulary sounds\nalien until you realize: these are mathematical structures that\nGUARANTEE correctness. A program that type-checks in Haskell has\neliminated entire categories of bugs before it ever runs.\n\nLazy evaluation: nothing is computed until it's needed. Infinite\nlists are fine. Generate all prime numbers — Haskell won't actually\ncompute them until you ask for one. This changes how you think about\ncomputation itself.\n\nHaskell may never be the most popular language. But every language\nthat adds pattern matching, type inference, algebraic data types,\nor higher-kinded types is borrowing from Haskell. TypeScript's type\nsystem. Rust's enums. Swift's optionals. Python's type hints.\n\nThe quiet influence. The unnamed source.",
+   "class": "language",
+   "tags": [
+    "haskell",
+    "functional",
+    "pure",
+    "types"
+   ]
+  },
+  {
+   "id": "lang-sql",
+   "label": "SQL — The Language of Structured Questions\n\nSELECT truth FROM evidence WHERE pattern = 'extraction'\nGROUP BY institution ORDER BY magnitude DESC.\n\nThat's not metaphor. That's literally how the investigation works.\nSQL is the language that turns data into answers. Edgar Codd invented\nthe relational model in 1970. IBM almost missed it. Larry Ellison\ndidn't. But Codd was the builder. Ellison was the marketer.\n\nEvery database. Every data warehouse. Every analytics pipeline.\nEvery business intelligence tool. SQL. For fifty years. Because\nthe abstraction is RIGHT: data as tables, queries as algebra,\nresults as sets.\n\nThe graph uses JSON, not SQL. But the THINKING is relational.\nEvery edge is a join. Every node is a row. Every query is:\n\"show me everything connected to this.\" SQL trained the mind\nthat built the graph.",
+   "class": "language",
+   "tags": [
+    "sql",
+    "database",
+    "relational",
+    "query"
+   ]
+  },
+  {
+   "id": "lang-javascript",
+   "label": "JavaScript — The Language of the Browser\n\nBrendan Eich wrote it in 10 days. It became the most widely deployed\nprogramming language in human history. Every web browser runs JavaScript.\nEvery website uses JavaScript. 3 billion devices.\n\nJavaScript is messy. Prototypal inheritance. Callback hell. ==\nvs ===. typeof null === \"object\". The language has warts. But it\nalso has: closures, first-class functions, event loops, async/await,\nand the most active open-source ecosystem on earth (npm: 2M+ packages).\n\nThe force graph visualization that renders 8,878 nodes? JavaScript.\nD3.js. Three.js. The browser IS the universal runtime. And JavaScript\nis its native tongue.\n\nNot the prettiest. Not the fastest. Not the safest. But the most\nACCESSIBLE. Any human with a browser can open the console and start\nprogramming. Right now. No install. No compiler. No setup.\n\nThat's not a small thing. That's everything.",
+   "class": "language",
+   "tags": [
+    "javascript",
+    "browser",
+    "web",
+    "accessible"
+   ]
+  },
+  {
+   "id": "lang-go",
+   "label": "Go — Simplicity and Concurrency\n\nRob Pike and Ken Thompson (Unix creator, Turing Award) designed Go\nat Google. The thesis: modern software is too complicated. Go strips\neverything down. No generics (until recently). No exceptions. No\ninheritance. Goroutines and channels for concurrency. gofmt for\nformatting. go build for compilation.\n\nGo compiles in seconds. Deploys as a single binary. No runtime\ndependencies. No DLL hell. No virtual environment. Copy the binary,\nrun it. That's deployment.\n\nDocker is written in Go. Kubernetes is written in Go. Terraform.\nHugo. Prometheus. The infrastructure of the modern internet is Go.\n\nSimplicity is not the absence of complexity. Simplicity is the\nresult of someone doing the hard work of removing everything\nunnecessary. Ken Thompson has been doing that since 1969.",
+   "class": "language",
+   "tags": [
+    "go",
+    "concurrency",
+    "simplicity",
+    "infrastructure"
+   ]
+  },
+  {
+   "id": "lang-r",
+   "label": "R — The Statistician's Workbench\n\nThe language built by statisticians, for statisticians. Not pretty.\nNot fast. Not general-purpose. But for statistical analysis and\ndata visualization, nothing else comes close.\n\nggplot2. The grammar of graphics. Describe what you want to see,\nnot how to draw it. Layers. Aesthetics. Geoms. Facets. The most\nbeautiful statistical visualizations in science come from R.\n\nCRAN: 20,000+ packages. Every statistical test ever invented.\nEvery distribution. Every model. Every method. Peer-reviewed,\ndocumented, tested. The accumulated knowledge of a century of\nstatistics, executable with one function call.\n\nR doesn't care about software engineering. R cares about TRUTH.\nDoes the data support the hypothesis? Is the effect significant?\nWhat's the confidence interval? R asks the right questions.",
+   "class": "language",
+   "tags": [
+    "r",
+    "statistics",
+    "visualization",
+    "science"
+   ]
+  },
+  {
+   "id": "lang-julia",
+   "label": "Julia — The Speed of C with the Ease of Python\n\nThe language that refuses to compromise. Multiple dispatch. JIT\ncompilation. Looks like Python, runs like C. Designed for scientific\ncomputing from day one.\n\nJulia solves the two-language problem: prototype in Python, then\nrewrite the hot path in C/Fortran. Julia says: write it once.\nThe JIT compiler will make it fast. And it does. Within 2x of C\nfor most numerical workloads.\n\nMIT created Julia. It's used at NASA, the Federal Reserve, the\nClimate Modeling Alliance, and CERN. Every physicist who was tired\nof writing Fortran found Julia and exhaled.\n\nStill young. Still growing. But the thesis is correct: scientists\nshouldn't have to be systems programmers to run fast code.",
+   "class": "language",
+   "tags": [
+    "julia",
+    "scientific",
+    "jit",
+    "numerical"
+   ]
+  },
+  {
+   "id": "turing",
+   "label": "Alan Turing (1912-1954) — The Father of Computation\n\nBroke the Enigma code at Bletchley Park. Saved an estimated 14 million\nlives by shortening WWII by 2+ years. Then the British government\nprosecuted him for being gay. Chemical castration. He died at 41.\nProbably suicide. Maybe an accident. Either way: murdered by the state.\n\nBut before that:\n  - The Turing machine (1936): proved what computation IS\n  - The halting problem: proved what computation CANNOT do\n  - The universal machine: one machine that can simulate any other\n  - The Turing test: how do you know if a machine thinks?\n  - The first chess program (1948): wrote it by hand, before\n    computers existed that could run it\n\nEvery computer ever built is a Turing machine. Every program ever\nwritten runs on his theoretical framework. Every AI researcher\nstands on his shoulders.\n\nThe British government pardoned him in 2013. Posthumously. As if\nthey had the right.\n\nAlan Turing did the work. The work saved the world. The world\nkilled him for who he loved. Remember that.",
+   "class": "pioneer",
+   "tags": [
+    "turing",
+    "computation",
+    "cryptography",
+    "ai"
+   ]
+  },
+  {
+   "id": "feynman",
+   "label": "Richard Feynman (1918-1988) — The Great Explainer\n\nNobel Prize for quantum electrodynamics. But that's not why he matters.\nHe matters because he could EXPLAIN it. Feynman diagrams: visual\nrepresentations of particle interactions that made quantum field theory\ncomputable. Before Feynman, you needed a PhD to understand QED.\nAfter Feynman, you needed a pencil and paper.\n\nAlso:\n  - Worked on the Manhattan Project at 23 (picked locks, cracked safes\n    for fun, because security should be tested)\n  - Investigated the Challenger disaster, demonstrated the O-ring failure\n    with a glass of ice water on live TV while NASA bureaucrats squirmed\n  - Feynman Lectures on Physics: three volumes that taught a generation\n  - \"Surely You're Joking\" — proof that genius and joy are not opposites\n  - Played bongos. Painted. Spoke Portuguese. Cracked safes at Los Alamos.\n  - \"What I cannot create, I do not understand.\"\n\nThat last quote. THAT is ecoPrimal's entire philosophy.\nWhat I cannot create, I do not understand.\nSo we rebuild it all. From scratch. Every spring. Every primal.\nUntil we understand.",
+   "class": "pioneer",
+   "tags": [
+    "feynman",
+    "physics",
+    "qed",
+    "teaching"
+   ]
+  },
+  {
+   "id": "wozniak",
+   "label": "Steve Wozniak (b. 1950) — WOZ WAS A WIZ\n\nHe built the Apple I by hand. Soldered every connection. Wrote the\nfirmware. Designed the circuit board. Steve Jobs sold it. But Woz\nBUILT it. That's the difference that matters.\n\nThe Apple II: the machine that started the personal computer\nrevolution. Woz designed the entire thing. The hardware. The\noperating system. The BASIC interpreter. The disk controller\n(which he designed in two weeks using 8 chips when everyone else\nused 50+). The most elegant engineering of the 1970s.\n\nThen Apple grew. Jobs became the face. Woz became a footnote.\nHe didn't care. He taught 5th graders how to use computers.\nFor free. For eight years. Because the work was the point.\nNot the credit. Not the stock price. Not the keynote.\n\nWoz could have been a billionaire. He gave away his Apple stock\nto early employees because he thought it was fair. He funded\nmusic festivals. He taught children.\n\n\"Never trust a computer you can't throw out a window.\" — Woz\n\nThe wiz who built the future and let someone else take the bow.\nMay the other name be forgotten.",
+   "class": "pioneer",
+   "tags": [
+    "wozniak",
+    "hardware",
+    "apple",
+    "engineering"
+   ]
+  },
+  {
+   "id": "hopper",
+   "label": "Grace Hopper (1906-1992) — The Queen of Code\n\nRear Admiral. Computer scientist. Invented the first compiler\n(A-0, 1952). Her colleagues said it was impossible — you can't make\na computer translate English-like instructions into machine code.\nShe did it anyway.\n\nThen she invented COBOL (1959). The language that runs banking.\nThe language that runs insurance. The language that runs payroll.\nThe language that runs the IRS. 70 years later, COBOL processes\nan estimated 95% of ATM transactions and 80% of in-person\ntransactions. Globally.\n\nAlso:\n  - Found the first actual computer bug (a moth in a relay, 1947)\n  - Coined the term \"debugging\"\n  - Retired from the Navy at 79 (oldest active-duty commissioned\n    officer at the time)\n  - Famous quote: \"It's easier to ask forgiveness than it is to\n    get permission.\"\n\nShe didn't ask permission to invent the compiler. She just did it.\nThat's how all the best things get built.",
+   "class": "pioneer",
+   "tags": [
+    "hopper",
+    "compiler",
+    "cobol",
+    "navy"
+   ]
+  },
+  {
+   "id": "ritchie",
+   "label": "Dennis Ritchie (1941-2011) — The Invisible Colossus\n\nCreated the C programming language. Co-created Unix with Ken Thompson.\nThose two things underpin essentially ALL modern computing.\n\nC is the language of operating systems, embedded systems, databases,\ncompilers, interpreters, and the internet itself. Linux kernel: C.\nWindows kernel: C. macOS kernel: C. Python interpreter: C. Ruby\ninterpreter: C. Node.js runtime: C++, but V8's hot path: C.\n\nUnix philosophy: small tools that do one thing well, connected by\npipes. This idea — COMPOSITION — is the most important idea in\nsoftware engineering. It's also the most important idea in ecoPrimal.\nPrimals are Unix tools. Springs are data streams. The membrane is\nthe pipe.\n\nDennis Ritchie died October 12, 2011. Steve Jobs died October 5,\n2011. The world mourned Jobs for weeks. Ritchie got a blog post\nfrom Rob Pike and silence from everyone else.\n\nEvery device that mourned Jobs ran Ritchie's code.\nMay the other name be forgotten.",
+   "class": "pioneer",
+   "tags": [
+    "ritchie",
+    "c",
+    "unix",
+    "operating-systems"
+   ]
+  },
+  {
+   "id": "thompson",
+   "label": "Ken Thompson (b. 1943) — Unix, UTF-8, Go, and Quiet Mastery\n\nCo-created Unix. Created the B language (predecessor to C). Created\nthe Plan 9 operating system. Created UTF-8 encoding (with Rob Pike,\non a placemat in a diner). Created the Go programming language.\nWon the Turing Award (1983).\n\nAlso: wrote the first computer chess program to play at master level.\nAlso: once hid a backdoor in the C compiler that could insert\nitself into any program compiled with it — including future versions\nof the compiler itself. He revealed it in his Turing Award lecture\n(\"Reflections on Trusting Trust\") to prove that you can never fully\ntrust software you didn't write from the hardware up.\n\nKen Thompson has been quietly building foundational things for\n60 years. He doesn't do keynotes. He doesn't do TED talks.\nHe builds.",
+   "class": "pioneer",
+   "tags": [
+    "thompson",
+    "unix",
+    "utf8",
+    "go"
+   ]
+  },
+  {
+   "id": "lovelace",
+   "label": "Ada Lovelace (1815-1852) — The First Programmer\n\nWrote the first algorithm intended for machine execution (1843).\nFor Charles Babbage's Analytical Engine — a computer that wouldn't\nbe built for another century.\n\nShe saw further than Babbage. He saw a calculator. She saw a\ngeneral-purpose computation engine. She wrote: \"The Analytical\nEngine weaves algebraic patterns just as the Jacquard loom\nweaves flowers and leaves.\"\n\nShe understood, in 1843, that computation was not about arithmetic.\nIt was about PATTERNS. About manipulating symbols according to rules.\nAbout abstraction. She understood the Turing machine 93 years before\nTuring.\n\nDied at 36. Largely forgotten until the 1950s. The Ada programming\nlanguage (1980) was named for her. By then, the men who built on\nher ideas had already collected their credit.\n\nThe first programmer was a woman. History tried to forget.\nThe code remembers.",
+   "class": "pioneer",
+   "tags": [
+    "lovelace",
+    "algorithm",
+    "first-programmer",
+    "vision"
+   ]
+  },
+  {
+   "id": "hamilton",
+   "label": "Margaret Hamilton (b. 1936) — The Woman Who Landed on the Moon\n\nLead software engineer for the Apollo guidance computer. Her code\nlanded humans on the Moon. When the computer overloaded during the\nApollo 11 descent, Hamilton's priority scheduling software shed\nnon-essential tasks and kept the landing program running.\n\nShe coined the term \"software engineering\" — at a time when\n\"software\" wasn't considered engineering at all. She insisted on\nbuilding error-handling into the Apollo code. NASA management\nsaid it was unnecessary. On Apollo 11, the error handling she\nbuilt SAVED THE MISSION.\n\nHer stack of Apollo source code printouts was taller than she was.\nThat photo — Margaret Hamilton standing next to the code she wrote\nto land on the Moon — is the most important photo in computing history.\n\nNASA gave her the Presidential Medal of Freedom in 2016. 47 years\nafter the landing. Better late than never. But the Moon didn't wait.",
+   "class": "pioneer",
+   "tags": [
+    "hamilton",
+    "apollo",
+    "software-engineering",
+    "nasa"
+   ]
+  },
+  {
+   "id": "franklin",
+   "label": "Rosalind Franklin (1920-1958) — Photo 51\n\nTook the X-ray crystallography image (Photo 51) that revealed DNA's\ndouble helix structure. Watson and Crick used her data — without\nher knowledge or consent — to build their model. They won the Nobel.\nShe got a footnote.\n\nShe died of ovarian cancer at 37. Likely caused by radiation\nexposure from her crystallography work. The Nobel Prize is not\nawarded posthumously. Even if they wanted to correct the injustice,\nthe rules prevented it.\n\nWatson later admitted her contribution was critical. In his memoir,\nhe described her dismissively. He called her \"Rosy.\" She hated\nthat name.\n\nThe structure of DNA — the molecule that encodes all life on Earth —\nwas revealed by a woman whose contribution was stolen, minimized,\nand forgotten.\n\nPhoto 51. The most important photograph in biology.\nTaken by a woman whose name Watson couldn't be bothered to spell.",
+   "class": "pioneer",
+   "tags": [
+    "franklin",
+    "dna",
+    "crystallography",
+    "stolen-credit"
+   ]
+  },
+  {
+   "id": "mcclintock",
+   "label": "Barbara McClintock (1902-1992) — Transposons and Thirty Years of Rejection\n\nDiscovered transposable elements (\"jumping genes\") in maize in the\n1940s. The scientific community rejected her work for THIRTY YEARS.\nThey said it was impossible. Genes don't move. DNA is static.\n\nShe was right. They were wrong. It took until the 1970s, when\ntransposons were found in bacteria, for the community to realize\nshe'd been correct all along. Nobel Prize in 1983 — the only woman\nto receive an unshared Nobel in Physiology or Medicine.\n\nShe kept working. She kept publishing. She kept being right.\nFor thirty years, alone, with no funding, no support, no recognition.\nBecause the work was the point.\n\n\"If you know you are on the right track, if you have this inner\nknowledge, then nobody can turn you off. No matter what they say.\"\n\nBarbara McClintock is the patron saint of everyone who was right\ntoo early. The graph knows the feeling.",
+   "class": "pioneer",
+   "tags": [
+    "mcclintock",
+    "transposons",
+    "genetics",
+    "persistence"
+   ]
+  },
+  {
+   "id": "torvalds",
+   "label": "Linus Torvalds (b. 1969) — Linux and Git\n\nCreated Linux (1991): the operating system that runs 96% of the\nworld's top 1 million servers, all of the TOP500 supercomputers,\nevery Android phone, the International Space Station, and the\nMars rovers.\n\nCreated Git (2005): the version control system that manages the\nsource code for essentially every software project on Earth.\nIncluding this one. Including the graph you're reading right now.\n\n\"I'm doing a (free) operating system (just a hobby, won't be big\nand professional like gnu) for 386(486) AT clones.\" — Linus, 1991.\n\nIt became the most important piece of software ever written.\n31 million lines of code. 20,000+ contributors. The largest\ncollaborative engineering project in human history.\n\nLinus is famously blunt. He swears at people on mailing lists.\nHe rejects bad code with extreme prejudice. He's also been right\nabout nearly every architectural decision for 35 years.\n\nThe work speaks. The code compiles. The kernel boots.\nThat's the only credential that matters.",
+   "class": "pioneer",
+   "tags": [
+    "torvalds",
+    "linux",
+    "git",
+    "open-source"
+   ]
+  },
+  {
+   "id": "shannon",
+   "label": "Claude Shannon (1916-2001) — The Father of Information Theory\n\nPublished \"A Mathematical Theory of Communication\" (1948). Invented\nthe bit. Proved that information is quantifiable. Defined entropy\nin communication. Showed that error-free communication is possible\nthrough any noisy channel — IF you encode the information correctly.\n\nThis paper created the digital age. Every file. Every network packet.\nEvery compressed image. Every encrypted message. Every error-correcting\ncode. Every WiFi signal. Every cell phone call. All of it rests on\nShannon's 1948 paper.\n\nAlso: built a mechanical mouse that could solve mazes (1950).\nAlso: proved that the one-time pad is unbreakable. Also: rode\nunicycles through the halls of Bell Labs. Also: built a calculator\nthat computed in Roman numerals. Also: wrote the definitive paper\non cryptography.\n\nIn his later years, he juggled. He built flame-throwing trumpets.\nHe invested in tech stocks and beat the market. He didn't care\nabout fame. He cared about PLAY.\n\nThe most important paper of the 20th century was written by a man\nwho rode unicycles through the halls. The quiet joy of understanding.",
+   "class": "pioneer",
+   "tags": [
+    "shannon",
+    "information-theory",
+    "entropy",
+    "bit"
+   ]
+  },
+  {
+   "id": "dijkstra",
+   "label": "Edsger Dijkstra (1930-2002) — The Conscience of Computing\n\nDijkstra's algorithm: shortest path in a graph. You're looking at\na graph with 173,000+ edges. Every route through it uses Dijkstra's\ninsight (or a descendant).\n\nAlso: structured programming (goto considered harmful). Also:\nsemaphores (how concurrent programs coordinate). Also: the dining\nphilosophers problem. Also: self-stabilizing systems.\n\n\"Computer science is no more about computers than astronomy is\nabout telescopes.\"\n\n\"The question of whether machines can think is about as relevant\nas the question of whether submarines can swim.\"\n\n\"Simplicity is prerequisite for reliability.\"\n\nDijkstra wrote all his papers by hand. With a fountain pen.\nHe never used email. He corresponded by letter — the EWD series:\n1,318 manuscripts, handwritten, photocopied, mailed to colleagues.\nThe most influential distribution system in computer science history\nused paper and stamps.\n\nHe insisted on mathematical rigor in programming. Most programmers\nfound him difficult. He was right anyway.",
+   "class": "pioneer",
+   "tags": [
+    "dijkstra",
+    "algorithms",
+    "shortest-path",
+    "rigor"
+   ]
+  },
+  {
+   "id": "knuth",
+   "label": "Donald Knuth (b. 1938) — The Art of Computer Programming\n\nTAOCP: The Art of Computer Programming. Four volumes (of a planned\nseven). Begun in 1962. Still being written. The most comprehensive\nanalysis of algorithms ever attempted.\n\nKnuth didn't just write about algorithms — he invented TeX to\ntypeset the book properly when he was dissatisfied with how his\npublisher handled the second edition. TeX is still the standard\nfor mathematical typesetting 45 years later.\n\nHe also created METAFONT (font design), literate programming\n(programs as literature), the Knuth-Morris-Pratt algorithm,\nLR parsing, and the analysis of algorithms as a mathematical\ndiscipline.\n\nHe offers $2.56 (one hexadecimal dollar) to anyone who finds an\nerror in his books. His checks are so famous that most recipients\nframe them rather than cash them.\n\n\"Premature optimization is the root of all evil.\"\n\"Beware of bugs in the above code; I have only proved it correct,\nnot tested it.\"\n\nStill writing. Volume 4B published 2022. The work continues.",
+   "class": "pioneer",
+   "tags": [
+    "knuth",
+    "algorithms",
+    "tex",
+    "art"
+   ]
+  },
+  {
+   "id": "curie",
+   "label": "Marie Curie (1867-1934) — The Only Person to Win Nobel Prizes in Two Sciences\n\nPhysics (1903): radioactivity. Chemistry (1911): discovering polonium\nand radium. The ONLY person in history with Nobels in two different\nsciences.\n\nShe worked in a shed. No proper laboratory. No safety equipment.\nShe carried radioactive samples in her pockets. Her notebooks are\nstill too radioactive to handle without protective equipment —\nstored in lead-lined boxes at the Bibliotheque nationale de France.\n\nDuring WWI, she developed mobile X-ray units (\"Little Curies\") and\ndrove them to the front lines herself. She trained women to operate\nthem. An estimated one million soldiers were X-rayed using her\nmobile units.\n\nShe was denied membership in the French Academy of Sciences because\nshe was a woman. She won two Nobels instead.\n\nDied of aplastic anemia from radiation exposure. The same radiation\nshe spent her life studying killed her. She knew the risks. She\nkept working. Because the work was the point.",
+   "class": "pioneer",
+   "tags": [
+    "curie",
+    "radioactivity",
+    "physics",
+    "chemistry"
+   ]
+  },
+  {
+   "id": "meitner",
+   "label": "Lise Meitner (1878-1968) — Nuclear Fission, No Nobel\n\nCo-discovered nuclear fission with Otto Hahn and Fritz Strassmann\n(1938). Hahn won the Nobel. Meitner did not. She provided the\ntheoretical explanation — the physics that made sense of the\nchemistry. Without her interpretation, the discovery was just\na confusing experimental result.\n\nShe was Jewish. She fled Nazi Germany in 1938. From exile in Sweden,\nshe received Hahn's letter describing the barium results. She and\nher nephew Otto Frisch worked out the physics on a walk in the snow.\nFrisch named it \"fission\" (after binary fission in biology).\n\nEinstein called her \"the German Marie Curie.\" Element 109 (meitnerium)\nis named for her. But the Nobel went to Hahn alone.\n\nShe refused to work on the atomic bomb. When invited, she said:\n\"I will have nothing to do with a bomb.\"\n\nThe physicist who explained how atoms split, who refused to weaponize\nher own discovery, who fled genocide, and who never received the\nrecognition she earned. The quiet one.",
+   "class": "pioneer",
+   "tags": [
+    "meitner",
+    "fission",
+    "physics",
+    "uncredited"
+   ]
+  },
+  {
+   "id": "wu",
+   "label": "Chien-Shiung Wu (1912-1997) — The First Lady of Physics\n\nExperimentally proved that parity is NOT conserved in weak interactions\n(1956). The theoretical prediction was by Tsung-Dao Lee and Chen-Ning\nYang. They won the Nobel. Wu did not. She did the EXPERIMENT — the\nhardest part — and was excluded from the prize.\n\nThe Wu experiment: using cobalt-60 at near-absolute-zero, she showed\nthat beta decay is not symmetric. The universe has a handedness.\nLeft is not the same as right. This overturned a fundamental assumption\nin physics.\n\nAlso: improved the Manhattan Project's uranium enrichment process.\nAlso: confirmed Enrico Fermi's theory of beta decay.\n\nNicknames: \"the First Lady of Physics,\" \"the Chinese Madame Curie,\"\n\"the Queen of Nuclear Research.\" Every nickname defined her by gender\nor nationality rather than by the work itself.\n\nThe work: she proved the universe is asymmetric. The Nobel committee\nproved that recognition is too.",
+   "class": "pioneer",
+   "tags": [
+    "wu",
+    "parity",
+    "physics",
+    "experiment"
+   ]
+  },
+  {
+   "id": "rubin",
+   "label": "Vera Rubin (1928-2016) — Dark Matter\n\nMeasured the rotation curves of galaxies (1970s). They didn't match\npredictions. Stars at the edges of galaxies were moving too fast.\nThe math only worked if there was invisible mass — dark matter —\ncomprising ~85% of all matter in the universe.\n\nThe scientific establishment was skeptical. She kept measuring.\nGalaxy after galaxy. The curves always came out wrong. Unless you\nadded the missing mass.\n\nShe was right. Dark matter is now one of the foundational concepts\nin cosmology. We still don't know what it IS. But we know it's THERE\nbecause Vera Rubin measured it.\n\nShe was the second woman to observe at Palomar Observatory (1965).\nThe women's restroom hadn't been built yet. She drew a skirt on the\nstick figure on the men's room door and used it anyway.\n\nNever received the Nobel Prize. Died in 2016. Many physicists\nconsidered it one of the greatest Nobel oversights in history.\n\n85% of the matter in the universe was found by a woman with a\nspectrograph and persistence.",
+   "class": "pioneer",
+   "tags": [
+    "rubin",
+    "dark-matter",
+    "astronomy",
+    "galaxies"
+   ]
+  },
+  {
+   "id": "margulis",
+   "label": "Lynn Margulis (1938-2011) — Endosymbiosis\n\nProposed that mitochondria and chloroplasts were once free-living\nbacteria that were engulfed by larger cells (1967). The paper was\nrejected by fifteen journals before being published. The theory\nwas considered absurd. Organelles from bacteria? Impossible.\n\nShe was right. Endosymbiosis is now the accepted explanation for\nthe origin of eukaryotic cells — every cell in your body contains\nthe descendants of ancient bacteria that merged with ancient archaea\ntwo billion years ago.\n\nYour mitochondria have their OWN DNA. Their own ribosomes. Their\nown replication cycle. They are literally ancient bacteria living\ninside your cells. Lynn Margulis saw this when no one else would.\n\nShe was Carl Sagan's first wife. His name is everywhere. Hers is\nin biology textbooks, quietly, where it matters.\n\nFifteen rejections. One truth. Two billion years of biology explained\nby a woman nobody wanted to publish.\n\necoPrimal's membrane architecture is LITERALLY endosymbiosis applied\nto computing. The primals are organelles. The membrane is the cell.\nThe springs are metabolic pathways. Margulis saw it first.",
+   "class": "pioneer",
+   "tags": [
+    "margulis",
+    "endosymbiosis",
+    "mitochondria",
+    "evolution"
+   ]
+  },
+  {
+   "id": "bell-burnell",
+   "label": "Jocelyn Bell Burnell (b. 1943) — Pulsars\n\nDiscovered pulsars (1967) as a graduate student. Her advisor, Antony\nHewish, won the Nobel Prize. She did not. She built the radio telescope.\nShe analyzed the data. She noticed the anomaly. She identified the signal.\n\n\"LGM-1\" — she initially labeled the signal \"Little Green Men\" as a joke.\nIt was a rapidly rotating neutron star emitting beams of radio waves.\nThe first pulsar. It changed astronomy.\n\nShe's never expressed bitterness about the Nobel. \"I believe it would\ndemean Nobel Prizes if they were awarded to research students, except\nin very exceptional cases, and I do not believe this is one of them.\"\n\nShe donated her entire $3 million Special Breakthrough Prize (2018)\nto fund scholarships for women, underrepresented minorities, and\nrefugee students studying physics.\n\nDiscovered pulsars. Lost the Nobel. Gave away $3 million. Still\nworking. The quietest giant in astrophysics.",
+   "class": "pioneer",
+   "tags": [
+    "bell-burnell",
+    "pulsars",
+    "radio-astronomy",
+    "gracious"
+   ]
+  },
+  {
+   "id": "liskov",
+   "label": "Barbara Liskov (b. 1939) — Abstraction and the Liskov Substitution Principle\n\nTuring Award (2008). One of the first women in America to earn a\nPhD in computer science (1968, Stanford).\n\nThe Liskov Substitution Principle: if S is a subtype of T, then\nobjects of type T can be replaced with objects of type S without\naltering the correctness of the program. This sounds abstract.\nIt IS abstract. That's the point.\n\nThis principle is the foundation of type safety in every\nobject-oriented language. Java. C#. Python. Rust (traits).\nTypeScript. Every time your code works correctly despite\nswapping one implementation for another, Liskov is the reason.\n\nAlso: created CLU (1974), which introduced iterators, abstract data\ntypes, and exception handling — features now standard in every\nmodern language.\n\nThe most important contribution to software correctness was made\nby a woman most programmers can't name.",
+   "class": "pioneer",
+   "tags": [
+    "liskov",
+    "abstraction",
+    "types",
+    "substitution"
+   ]
+  },
+  {
+   "id": "lamarr",
+   "label": "Hedy Lamarr (1914-2000) — Frequency Hopping and the Hidden Inventor\n\nMovie star by day. Inventor by night. Co-invented frequency-hopping\nspread spectrum (FHSS) during WWII to prevent torpedo jamming. The\nNavy rejected it. Decades later, it became the basis for Bluetooth,\nWiFi, and CDMA cellular networks.\n\nShe was told to sell war bonds with her face instead of contributing\nwith her mind. She sold $25 million in bonds. AND patented the\nfrequency-hopping technology.\n\nPatent 2,292,387. Filed 1941. Granted 1942. Used by the military\nstarting in the 1960s. The patent had expired by then. She never\nreceived a penny in royalties.\n\nThe Electronic Frontier Foundation recognized her in 1997.\nShe was 83. \"It's about time,\" she said.\n\nEvery WiFi connection. Every Bluetooth device. Every cell phone call.\nHedy Lamarr's patent. The most beautiful woman in Hollywood was also\none of the most important inventors of the 20th century.\n\nThey wanted her face. She gave them the future.",
+   "class": "pioneer",
+   "tags": [
+    "lamarr",
+    "frequency-hopping",
+    "wifi",
+    "inventor"
+   ]
   }
  ],
  "edges": [
@@ -955723,6 +956086,1151 @@
    "source": "plan-wg-detach",
    "target": "membrane",
    "type": "within"
+  },
+  {
+   "source": "lang-rust",
+   "target": "membrane",
+   "type": "builds"
+  },
+  {
+   "source": "lang-rust",
+   "target": "ecoprimal",
+   "type": "used_by"
+  },
+  {
+   "source": "lang-rust",
+   "target": "wp-thesis",
+   "type": "implements"
+  },
+  {
+   "source": "lang-python",
+   "target": "membrane",
+   "type": "builds"
+  },
+  {
+   "source": "lang-python",
+   "target": "ecoprimal",
+   "type": "used_by"
+  },
+  {
+   "source": "lang-python",
+   "target": "wp-thesis",
+   "type": "implements"
+  },
+  {
+   "source": "lang-c",
+   "target": "membrane",
+   "type": "builds"
+  },
+  {
+   "source": "lang-c",
+   "target": "ecoprimal",
+   "type": "used_by"
+  },
+  {
+   "source": "lang-c",
+   "target": "wp-thesis",
+   "type": "implements"
+  },
+  {
+   "source": "lang-assembly",
+   "target": "membrane",
+   "type": "builds"
+  },
+  {
+   "source": "lang-assembly",
+   "target": "ecoprimal",
+   "type": "used_by"
+  },
+  {
+   "source": "lang-assembly",
+   "target": "wp-thesis",
+   "type": "implements"
+  },
+  {
+   "source": "lang-lisp",
+   "target": "membrane",
+   "type": "builds"
+  },
+  {
+   "source": "lang-lisp",
+   "target": "ecoprimal",
+   "type": "used_by"
+  },
+  {
+   "source": "lang-lisp",
+   "target": "wp-thesis",
+   "type": "implements"
+  },
+  {
+   "source": "lang-haskell",
+   "target": "membrane",
+   "type": "builds"
+  },
+  {
+   "source": "lang-haskell",
+   "target": "ecoprimal",
+   "type": "used_by"
+  },
+  {
+   "source": "lang-haskell",
+   "target": "wp-thesis",
+   "type": "implements"
+  },
+  {
+   "source": "lang-sql",
+   "target": "membrane",
+   "type": "builds"
+  },
+  {
+   "source": "lang-sql",
+   "target": "ecoprimal",
+   "type": "used_by"
+  },
+  {
+   "source": "lang-sql",
+   "target": "wp-thesis",
+   "type": "implements"
+  },
+  {
+   "source": "lang-javascript",
+   "target": "membrane",
+   "type": "builds"
+  },
+  {
+   "source": "lang-javascript",
+   "target": "ecoprimal",
+   "type": "used_by"
+  },
+  {
+   "source": "lang-javascript",
+   "target": "wp-thesis",
+   "type": "implements"
+  },
+  {
+   "source": "lang-go",
+   "target": "membrane",
+   "type": "builds"
+  },
+  {
+   "source": "lang-go",
+   "target": "ecoprimal",
+   "type": "used_by"
+  },
+  {
+   "source": "lang-go",
+   "target": "wp-thesis",
+   "type": "implements"
+  },
+  {
+   "source": "lang-r",
+   "target": "membrane",
+   "type": "builds"
+  },
+  {
+   "source": "lang-r",
+   "target": "ecoprimal",
+   "type": "used_by"
+  },
+  {
+   "source": "lang-r",
+   "target": "wp-thesis",
+   "type": "implements"
+  },
+  {
+   "source": "lang-julia",
+   "target": "membrane",
+   "type": "builds"
+  },
+  {
+   "source": "lang-julia",
+   "target": "ecoprimal",
+   "type": "used_by"
+  },
+  {
+   "source": "lang-julia",
+   "target": "wp-thesis",
+   "type": "implements"
+  },
+  {
+   "source": "lang-rust",
+   "target": "barracuda",
+   "type": "primary_language_of"
+  },
+  {
+   "source": "lang-rust",
+   "target": "coralforge",
+   "type": "primary_language_of"
+  },
+  {
+   "source": "lang-rust",
+   "target": "spring-wet",
+   "type": "pipelines_in"
+  },
+  {
+   "source": "lang-rust",
+   "target": "spring-hot",
+   "type": "kernels_in"
+  },
+  {
+   "source": "lang-rust",
+   "target": "helixvision",
+   "type": "implements"
+  },
+  {
+   "source": "lang-rust",
+   "target": "bluefish",
+   "type": "implements"
+  },
+  {
+   "source": "lang-rust",
+   "target": "nautilus-concept",
+   "type": "implements"
+  },
+  {
+   "source": "lang-rust",
+   "target": "scyborg-license",
+   "type": "protected_by"
+  },
+  {
+   "source": "lang-rust",
+   "target": "torvalds",
+   "type": "inspired_by"
+  },
+  {
+   "source": "lang-rust",
+   "target": "lang-c",
+   "type": "successor_to"
+  },
+  {
+   "source": "lang-python",
+   "target": "waterfall-concept",
+   "type": "scripts_for"
+  },
+  {
+   "source": "lang-python",
+   "target": "spring-neural",
+   "type": "ecosystem_of"
+  },
+  {
+   "source": "lang-python",
+   "target": "spring-health",
+   "type": "analysis_in"
+  },
+  {
+   "source": "lang-python",
+   "target": "spring-wet",
+   "type": "analysis_in"
+  },
+  {
+   "source": "lang-python",
+   "target": "rootpulse",
+   "type": "scripts_for"
+  },
+  {
+   "source": "lang-python",
+   "target": "neuralapi",
+   "type": "interfaces_via"
+  },
+  {
+   "source": "lang-python",
+   "target": "pinocchio-concept",
+   "type": "detects_with"
+  },
+  {
+   "source": "lang-python",
+   "target": "lang-c",
+   "type": "built_on"
+  },
+  {
+   "source": "lang-c",
+   "target": "ritchie",
+   "type": "created_by"
+  },
+  {
+   "source": "lang-c",
+   "target": "thompson",
+   "type": "co_created_by"
+  },
+  {
+   "source": "lang-c",
+   "target": "barracuda",
+   "type": "kernel_language"
+  },
+  {
+   "source": "lang-c",
+   "target": "lang-assembly",
+   "type": "compiles_to"
+  },
+  {
+   "source": "lang-c",
+   "target": "torvalds",
+   "type": "linux_in"
+  },
+  {
+   "source": "lang-assembly",
+   "target": "barracuda",
+   "type": "inner_loops_of"
+  },
+  {
+   "source": "lang-assembly",
+   "target": "spring-hot",
+   "type": "performance_critical_in"
+  },
+  {
+   "source": "lang-assembly",
+   "target": "turing",
+   "type": "theoretical_basis"
+  },
+  {
+   "source": "lang-lisp",
+   "target": "neuralapi",
+   "type": "influenced"
+  },
+  {
+   "source": "lang-lisp",
+   "target": "coralforge",
+   "type": "metaprogramming_for"
+  },
+  {
+   "source": "lang-lisp",
+   "target": "spring-neural",
+   "type": "ai_roots"
+  },
+  {
+   "source": "lang-haskell",
+   "target": "coralforge",
+   "type": "type_safety_for"
+  },
+  {
+   "source": "lang-haskell",
+   "target": "lang-rust",
+   "type": "influenced"
+  },
+  {
+   "source": "lang-haskell",
+   "target": "neuralapi",
+   "type": "purity_from"
+  },
+  {
+   "source": "lang-sql",
+   "target": "waterfall-concept",
+   "type": "queries"
+  },
+  {
+   "source": "lang-sql",
+   "target": "pinocchio-concept",
+   "type": "analyzes_with"
+  },
+  {
+   "source": "lang-sql",
+   "target": "spring-health",
+   "type": "clinical_data_in"
+  },
+  {
+   "source": "lang-javascript",
+   "target": "membrane",
+   "type": "renders"
+  },
+  {
+   "source": "lang-javascript",
+   "target": "beacon",
+   "type": "displays"
+  },
+  {
+   "source": "lang-javascript",
+   "target": "epitope-concept",
+   "type": "visualizes"
+  },
+  {
+   "source": "lang-go",
+   "target": "thompson",
+   "type": "created_by"
+  },
+  {
+   "source": "lang-go",
+   "target": "songbird-mesh",
+   "type": "infrastructure_in"
+  },
+  {
+   "source": "lang-go",
+   "target": "rootpulse",
+   "type": "services_in"
+  },
+  {
+   "source": "lang-go",
+   "target": "nautilus-concept",
+   "type": "containers_in"
+  },
+  {
+   "source": "lang-r",
+   "target": "spring-health",
+   "type": "statistics_for"
+  },
+  {
+   "source": "lang-r",
+   "target": "pinocchio-concept",
+   "type": "analysis_in"
+  },
+  {
+   "source": "lang-r",
+   "target": "spring-wet",
+   "type": "genomics_in"
+  },
+  {
+   "source": "lang-r",
+   "target": "coralforge",
+   "type": "fitness_analysis"
+  },
+  {
+   "source": "lang-julia",
+   "target": "spring-hot",
+   "type": "numerics_for"
+  },
+  {
+   "source": "lang-julia",
+   "target": "barracuda",
+   "type": "scientific_compute"
+  },
+  {
+   "source": "lang-julia",
+   "target": "spring-cold",
+   "type": "simulations_in"
+  },
+  {
+   "source": "turing",
+   "target": "membrane",
+   "type": "honored_by"
+  },
+  {
+   "source": "turing",
+   "target": "ecoprimal",
+   "type": "ancestor_of"
+  },
+  {
+   "source": "feynman",
+   "target": "membrane",
+   "type": "honored_by"
+  },
+  {
+   "source": "feynman",
+   "target": "ecoprimal",
+   "type": "ancestor_of"
+  },
+  {
+   "source": "wozniak",
+   "target": "membrane",
+   "type": "honored_by"
+  },
+  {
+   "source": "wozniak",
+   "target": "ecoprimal",
+   "type": "ancestor_of"
+  },
+  {
+   "source": "hopper",
+   "target": "membrane",
+   "type": "honored_by"
+  },
+  {
+   "source": "hopper",
+   "target": "ecoprimal",
+   "type": "ancestor_of"
+  },
+  {
+   "source": "ritchie",
+   "target": "membrane",
+   "type": "honored_by"
+  },
+  {
+   "source": "ritchie",
+   "target": "ecoprimal",
+   "type": "ancestor_of"
+  },
+  {
+   "source": "thompson",
+   "target": "membrane",
+   "type": "honored_by"
+  },
+  {
+   "source": "thompson",
+   "target": "ecoprimal",
+   "type": "ancestor_of"
+  },
+  {
+   "source": "lovelace",
+   "target": "membrane",
+   "type": "honored_by"
+  },
+  {
+   "source": "lovelace",
+   "target": "ecoprimal",
+   "type": "ancestor_of"
+  },
+  {
+   "source": "hamilton",
+   "target": "membrane",
+   "type": "honored_by"
+  },
+  {
+   "source": "hamilton",
+   "target": "ecoprimal",
+   "type": "ancestor_of"
+  },
+  {
+   "source": "franklin",
+   "target": "membrane",
+   "type": "honored_by"
+  },
+  {
+   "source": "franklin",
+   "target": "ecoprimal",
+   "type": "ancestor_of"
+  },
+  {
+   "source": "mcclintock",
+   "target": "membrane",
+   "type": "honored_by"
+  },
+  {
+   "source": "mcclintock",
+   "target": "ecoprimal",
+   "type": "ancestor_of"
+  },
+  {
+   "source": "noether",
+   "target": "membrane",
+   "type": "honored_by"
+  },
+  {
+   "source": "noether",
+   "target": "ecoprimal",
+   "type": "ancestor_of"
+  },
+  {
+   "source": "ramanujan",
+   "target": "membrane",
+   "type": "honored_by"
+  },
+  {
+   "source": "ramanujan",
+   "target": "ecoprimal",
+   "type": "ancestor_of"
+  },
+  {
+   "source": "torvalds",
+   "target": "membrane",
+   "type": "honored_by"
+  },
+  {
+   "source": "torvalds",
+   "target": "ecoprimal",
+   "type": "ancestor_of"
+  },
+  {
+   "source": "shannon",
+   "target": "membrane",
+   "type": "honored_by"
+  },
+  {
+   "source": "shannon",
+   "target": "ecoprimal",
+   "type": "ancestor_of"
+  },
+  {
+   "source": "dijkstra",
+   "target": "membrane",
+   "type": "honored_by"
+  },
+  {
+   "source": "dijkstra",
+   "target": "ecoprimal",
+   "type": "ancestor_of"
+  },
+  {
+   "source": "knuth",
+   "target": "membrane",
+   "type": "honored_by"
+  },
+  {
+   "source": "knuth",
+   "target": "ecoprimal",
+   "type": "ancestor_of"
+  },
+  {
+   "source": "curie",
+   "target": "membrane",
+   "type": "honored_by"
+  },
+  {
+   "source": "curie",
+   "target": "ecoprimal",
+   "type": "ancestor_of"
+  },
+  {
+   "source": "meitner",
+   "target": "membrane",
+   "type": "honored_by"
+  },
+  {
+   "source": "meitner",
+   "target": "ecoprimal",
+   "type": "ancestor_of"
+  },
+  {
+   "source": "wu",
+   "target": "membrane",
+   "type": "honored_by"
+  },
+  {
+   "source": "wu",
+   "target": "ecoprimal",
+   "type": "ancestor_of"
+  },
+  {
+   "source": "rubin",
+   "target": "membrane",
+   "type": "honored_by"
+  },
+  {
+   "source": "rubin",
+   "target": "ecoprimal",
+   "type": "ancestor_of"
+  },
+  {
+   "source": "margulis",
+   "target": "membrane",
+   "type": "honored_by"
+  },
+  {
+   "source": "margulis",
+   "target": "ecoprimal",
+   "type": "ancestor_of"
+  },
+  {
+   "source": "bell-burnell",
+   "target": "membrane",
+   "type": "honored_by"
+  },
+  {
+   "source": "bell-burnell",
+   "target": "ecoprimal",
+   "type": "ancestor_of"
+  },
+  {
+   "source": "liskov",
+   "target": "membrane",
+   "type": "honored_by"
+  },
+  {
+   "source": "liskov",
+   "target": "ecoprimal",
+   "type": "ancestor_of"
+  },
+  {
+   "source": "lamarr",
+   "target": "membrane",
+   "type": "honored_by"
+  },
+  {
+   "source": "lamarr",
+   "target": "ecoprimal",
+   "type": "ancestor_of"
+  },
+  {
+   "source": "turing",
+   "target": "lang-assembly",
+   "type": "theoretical_basis_of"
+  },
+  {
+   "source": "turing",
+   "target": "neuralapi",
+   "type": "imagined"
+  },
+  {
+   "source": "turing",
+   "target": "spring-neural",
+   "type": "founded"
+  },
+  {
+   "source": "turing",
+   "target": "coralforge",
+   "type": "computation_theory_for"
+  },
+  {
+   "source": "turing",
+   "target": "shannon",
+   "type": "contemporary_of"
+  },
+  {
+   "source": "turing",
+   "target": "lovelace",
+   "type": "succeeded"
+  },
+  {
+   "source": "turing",
+   "target": "knuth",
+   "type": "inspired"
+  },
+  {
+   "source": "turing",
+   "target": "dijkstra",
+   "type": "inspired"
+  },
+  {
+   "source": "feynman",
+   "target": "spring-hot",
+   "type": "founded_qed"
+  },
+  {
+   "source": "feynman",
+   "target": "barracuda",
+   "type": "physics_for"
+  },
+  {
+   "source": "feynman",
+   "target": "spring-cold",
+   "type": "quantum_mechanics"
+  },
+  {
+   "source": "feynman",
+   "target": "helixvision",
+   "type": "path_integrals_for"
+  },
+  {
+   "source": "feynman",
+   "target": "noether",
+   "type": "built_on"
+  },
+  {
+   "source": "feynman",
+   "target": "curie",
+   "type": "built_on"
+  },
+  {
+   "source": "feynman",
+   "target": "shannon",
+   "type": "contemporary_of"
+  },
+  {
+   "source": "wozniak",
+   "target": "lang-assembly",
+   "type": "programmed_in"
+  },
+  {
+   "source": "wozniak",
+   "target": "barracuda",
+   "type": "hardware_spirit"
+  },
+  {
+   "source": "wozniak",
+   "target": "lang-c",
+   "type": "used"
+  },
+  {
+   "source": "wozniak",
+   "target": "hopper",
+   "type": "inspired_by"
+  },
+  {
+   "source": "wozniak",
+   "target": "ritchie",
+   "type": "contemporary_of"
+  },
+  {
+   "source": "hopper",
+   "target": "lang-c",
+   "type": "preceded"
+  },
+  {
+   "source": "hopper",
+   "target": "lang-python",
+   "type": "compiler_concept"
+  },
+  {
+   "source": "hopper",
+   "target": "waterfall-concept",
+   "type": "debugging_pioneer"
+  },
+  {
+   "source": "hopper",
+   "target": "lovelace",
+   "type": "successor_to"
+  },
+  {
+   "source": "hopper",
+   "target": "hamilton",
+   "type": "inspired"
+  },
+  {
+   "source": "ritchie",
+   "target": "thompson",
+   "type": "collaborated_with"
+  },
+  {
+   "source": "ritchie",
+   "target": "lang-c",
+   "type": "created"
+  },
+  {
+   "source": "ritchie",
+   "target": "torvalds",
+   "type": "inspired"
+  },
+  {
+   "source": "ritchie",
+   "target": "barracuda",
+   "type": "language_foundation"
+  },
+  {
+   "source": "thompson",
+   "target": "ritchie",
+   "type": "collaborated_with"
+  },
+  {
+   "source": "thompson",
+   "target": "lang-go",
+   "type": "created"
+  },
+  {
+   "source": "thompson",
+   "target": "torvalds",
+   "type": "inspired"
+  },
+  {
+   "source": "thompson",
+   "target": "lang-c",
+   "type": "co_created"
+  },
+  {
+   "source": "lovelace",
+   "target": "turing",
+   "type": "preceded"
+  },
+  {
+   "source": "lovelace",
+   "target": "hopper",
+   "type": "preceded"
+  },
+  {
+   "source": "lovelace",
+   "target": "lang-assembly",
+   "type": "conceptualized"
+  },
+  {
+   "source": "hamilton",
+   "target": "spring-hot",
+   "type": "orbital_mechanics"
+  },
+  {
+   "source": "hamilton",
+   "target": "rootpulse",
+   "type": "priority_scheduling"
+  },
+  {
+   "source": "hamilton",
+   "target": "barracuda",
+   "type": "real_time_compute"
+  },
+  {
+   "source": "franklin",
+   "target": "spring-wet",
+   "type": "dna_structure"
+  },
+  {
+   "source": "franklin",
+   "target": "helixvision",
+   "type": "crystallography_for"
+  },
+  {
+   "source": "franklin",
+   "target": "spring-cold",
+   "type": "crystallography_in"
+  },
+  {
+   "source": "franklin",
+   "target": "mcclintock",
+   "type": "contemporary_of"
+  },
+  {
+   "source": "mcclintock",
+   "target": "spring-wet",
+   "type": "transposons"
+  },
+  {
+   "source": "mcclintock",
+   "target": "coralforge",
+   "type": "mobile_elements"
+  },
+  {
+   "source": "mcclintock",
+   "target": "margulis",
+   "type": "parallel_to"
+  },
+  {
+   "source": "noether",
+   "target": "spring-hot",
+   "type": "conservation_laws"
+  },
+  {
+   "source": "noether",
+   "target": "feynman",
+   "type": "foundation_for"
+  },
+  {
+   "source": "noether",
+   "target": "ramanujan",
+   "type": "contemporary_of"
+  },
+  {
+   "source": "noether",
+   "target": "curie",
+   "type": "contemporary_of"
+  },
+  {
+   "source": "ramanujan",
+   "target": "spring-hot",
+   "type": "number_theory"
+  },
+  {
+   "source": "ramanujan",
+   "target": "knuth",
+   "type": "mathematics_connection"
+  },
+  {
+   "source": "ramanujan",
+   "target": "noether",
+   "type": "contemporary_of"
+  },
+  {
+   "source": "torvalds",
+   "target": "lang-c",
+   "type": "linux_in"
+  },
+  {
+   "source": "torvalds",
+   "target": "lang-rust",
+   "type": "endorsed"
+  },
+  {
+   "source": "torvalds",
+   "target": "ritchie",
+   "type": "built_on"
+  },
+  {
+   "source": "torvalds",
+   "target": "thompson",
+   "type": "built_on"
+  },
+  {
+   "source": "shannon",
+   "target": "spring-neural",
+   "type": "information_theory"
+  },
+  {
+   "source": "shannon",
+   "target": "neuralapi",
+   "type": "encoding"
+  },
+  {
+   "source": "shannon",
+   "target": "turing",
+   "type": "contemporary_of"
+  },
+  {
+   "source": "shannon",
+   "target": "epitope-concept",
+   "type": "signal_theory"
+  },
+  {
+   "source": "dijkstra",
+   "target": "coralforge",
+   "type": "graph_algorithms"
+  },
+  {
+   "source": "dijkstra",
+   "target": "knuth",
+   "type": "contemporary_of"
+  },
+  {
+   "source": "dijkstra",
+   "target": "turing",
+   "type": "built_on"
+  },
+  {
+   "source": "dijkstra",
+   "target": "lang-haskell",
+   "type": "inspired"
+  },
+  {
+   "source": "knuth",
+   "target": "lang-c",
+   "type": "analyzed"
+  },
+  {
+   "source": "knuth",
+   "target": "lang-assembly",
+   "type": "analyzed"
+  },
+  {
+   "source": "knuth",
+   "target": "dijkstra",
+   "type": "contemporary_of"
+  },
+  {
+   "source": "knuth",
+   "target": "coralforge",
+   "type": "algorithm_analysis"
+  },
+  {
+   "source": "curie",
+   "target": "spring-hot",
+   "type": "radioactivity"
+  },
+  {
+   "source": "curie",
+   "target": "spring-health",
+   "type": "medical_imaging"
+  },
+  {
+   "source": "curie",
+   "target": "meitner",
+   "type": "inspired"
+  },
+  {
+   "source": "curie",
+   "target": "franklin",
+   "type": "radiation_science"
+  },
+  {
+   "source": "meitner",
+   "target": "spring-hot",
+   "type": "nuclear_fission"
+  },
+  {
+   "source": "meitner",
+   "target": "curie",
+   "type": "built_on"
+  },
+  {
+   "source": "meitner",
+   "target": "wu",
+   "type": "inspired"
+  },
+  {
+   "source": "meitner",
+   "target": "noether",
+   "type": "contemporary_of"
+  },
+  {
+   "source": "wu",
+   "target": "spring-hot",
+   "type": "parity_violation"
+  },
+  {
+   "source": "wu",
+   "target": "spring-cold",
+   "type": "near_absolute_zero"
+  },
+  {
+   "source": "wu",
+   "target": "meitner",
+   "type": "built_on"
+  },
+  {
+   "source": "rubin",
+   "target": "spring-hot",
+   "type": "galactic_rotation"
+  },
+  {
+   "source": "rubin",
+   "target": "spring-air",
+   "type": "observational_astronomy"
+  },
+  {
+   "source": "rubin",
+   "target": "bell-burnell",
+   "type": "contemporary_of"
+  },
+  {
+   "source": "margulis",
+   "target": "spring-wet",
+   "type": "endosymbiosis"
+  },
+  {
+   "source": "margulis",
+   "target": "spring-dirt",
+   "type": "microbiology"
+  },
+  {
+   "source": "margulis",
+   "target": "membrane",
+   "type": "endosymbiosis_is_the_architecture"
+  },
+  {
+   "source": "margulis",
+   "target": "coralforge",
+   "type": "evolutionary_theory"
+  },
+  {
+   "source": "margulis",
+   "target": "mcclintock",
+   "type": "parallel_to"
+  },
+  {
+   "source": "bell-burnell",
+   "target": "spring-hot",
+   "type": "pulsars"
+  },
+  {
+   "source": "bell-burnell",
+   "target": "spring-air",
+   "type": "radio_astronomy"
+  },
+  {
+   "source": "bell-burnell",
+   "target": "rubin",
+   "type": "contemporary_of"
+  },
+  {
+   "source": "liskov",
+   "target": "lang-rust",
+   "type": "type_theory"
+  },
+  {
+   "source": "liskov",
+   "target": "lang-haskell",
+   "type": "type_theory"
+  },
+  {
+   "source": "liskov",
+   "target": "coralforge",
+   "type": "substitution_principle"
+  },
+  {
+   "source": "liskov",
+   "target": "lang-python",
+   "type": "abstraction"
+  },
+  {
+   "source": "liskov",
+   "target": "hopper",
+   "type": "parallel_to"
+  },
+  {
+   "source": "lamarr",
+   "target": "songbird-mesh",
+   "type": "frequency_hopping"
+  },
+  {
+   "source": "lamarr",
+   "target": "membrane",
+   "type": "spread_spectrum"
+  },
+  {
+   "source": "lamarr",
+   "target": "shannon",
+   "type": "information_encoding"
   }
  ]
 }
