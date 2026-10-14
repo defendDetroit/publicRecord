@@ -109145,6 +109145,535 @@
     "1.5-degrees",
     "humanity"
    ]
+  },
+  {
+   "id": "big-bang",
+   "label": "Big Bang — 13.8 billion years ago. Everything from nothing. Temperature: 10^32 K. Time itself began.",
+   "class": "event",
+   "tags": [
+    "cosmos",
+    "big-bang",
+    "origin",
+    "13.8-billion",
+    "everything-from-nothing"
+   ]
+  },
+  {
+   "id": "cosmic-microwave-background",
+   "label": "Cosmic Microwave Background — The afterglow. 380,000 years after the Bang. 2.725 K everywhere. The oldest light you can see.",
+   "class": "concept",
+   "tags": [
+    "cosmos",
+    "cmb",
+    "afterglow",
+    "oldest-light",
+    "penzias-wilson"
+   ]
+  },
+  {
+   "id": "stellar-nucleosynthesis",
+   "label": "Stellar Nucleosynthesis — Stars fuse hydrogen into helium into carbon into iron. Everything heavier = supernova. You are stardust.",
+   "class": "concept",
+   "tags": [
+    "cosmos",
+    "nucleosynthesis",
+    "stardust",
+    "elements",
+    "supernova"
+   ]
+  },
+  {
+   "id": "neutron-star",
+   "label": "Neutron Star — A teaspoon weighs 6 billion tons. Spins 716 times per second. The densest thing that isn't a black hole.",
+   "class": "concept",
+   "tags": [
+    "cosmos",
+    "neutron-star",
+    "density",
+    "spin",
+    "extreme"
+   ]
+  },
+  {
+   "id": "black-hole-m87",
+   "label": "M87 Black Hole — First image (2019). 55 million light-years away. 6.5 billion solar masses. Katie Bouman's algorithm made it visible.",
+   "class": "event",
+   "tags": [
+    "cosmos",
+    "black-hole",
+    "m87",
+    "katie-bouman",
+    "first-image"
+   ]
+  },
+  {
+   "id": "gravitational-waves",
+   "label": "Gravitational Waves — LIGO (2015). Two black holes merged 1.3 billion years ago. Spacetime rippled. We felt it. Einstein was right.",
+   "class": "event",
+   "tags": [
+    "cosmos",
+    "gravitational-waves",
+    "ligo",
+    "einstein",
+    "spacetime"
+   ]
+  },
+  {
+   "id": "dark-matter",
+   "label": "Dark Matter — 27% of the universe. We can't see it. Can't touch it. But galaxies can't hold together without it. The invisible scaffolding.",
+   "class": "concept",
+   "tags": [
+    "cosmos",
+    "dark-matter",
+    "invisible",
+    "scaffolding",
+    "27-percent"
+   ]
+  },
+  {
+   "id": "dark-energy",
+   "label": "Dark Energy — 68% of the universe. Accelerating expansion. We don't know what it is. The universe is mostly mystery.",
+   "class": "concept",
+   "tags": [
+    "cosmos",
+    "dark-energy",
+    "expansion",
+    "mystery",
+    "68-percent"
+   ]
+  },
+  {
+   "id": "exoplanets-kepler",
+   "label": "Kepler Mission — Found 2,700+ exoplanets. At least 1 in 5 sun-like stars has an Earth-sized planet in the habitable zone.",
+   "class": "event",
+   "tags": [
+    "cosmos",
+    "exoplanets",
+    "kepler",
+    "habitable",
+    "not-alone"
+   ]
+  },
+  {
+   "id": "fermi-paradox",
+   "label": "Fermi Paradox — 100 billion galaxies. 200 billion trillion stars. Where is everybody? The silence is data.",
+   "class": "concept",
+   "tags": [
+    "cosmos",
+    "fermi",
+    "paradox",
+    "silence",
+    "data"
+   ]
+  },
+  {
+   "id": "carl-sagan-billions",
+   "label": "Carl Sagan — 'Billions and billions.' 'We are a way for the cosmos to know itself.' Pale Blue Dot. Cosmos. The great communicator.",
+   "class": "person",
+   "tags": [
+    "cosmos",
+    "sagan",
+    "communicator",
+    "billions",
+    "know-itself"
+   ]
+  },
+  {
+   "id": "neil-degrasse-tyson",
+   "label": "Neil deGrasse Tyson — 'The universe is under no obligation to make sense to you.' Hayden Planetarium. Made space accessible.",
+   "class": "person",
+   "tags": [
+    "cosmos",
+    "tyson",
+    "planetarium",
+    "accessible",
+    "communicator"
+   ]
+  },
+  {
+   "id": "multiverse-hypothesis",
+   "label": "Multiverse Hypothesis — Maybe there are infinite universes. Every quantum decision branches. This is one timeline. There may be others.",
+   "class": "concept",
+   "tags": [
+    "cosmos",
+    "multiverse",
+    "quantum",
+    "branches",
+    "infinite"
+   ]
+  },
+  {
+   "id": "dna-double-helix",
+   "label": "DNA Double Helix — Watson, Crick, and Franklin (uncredited). 1953. 3.2 billion base pairs. The source code of you.",
+   "class": "concept",
+   "tags": [
+    "dna",
+    "double-helix",
+    "1953",
+    "base-pairs",
+    "source-code"
+   ]
+  },
+  {
+   "id": "four-bases-atcg",
+   "label": "The Four Bases: A-T-C-G — Adenine, Thymine, Cytosine, Guanine. 4 letters. 3.2 billion long. Every organism on Earth uses the same alphabet.",
+   "class": "concept",
+   "tags": [
+    "dna",
+    "bases",
+    "atcg",
+    "universal",
+    "alphabet-of-life"
+   ]
+  },
+  {
+   "id": "human-genome-project",
+   "label": "Human Genome Project (1990-2003) — 13 years. $2.7 billion. Mapped 3.2 billion base pairs. Now costs $200. Moore's Law for biology.",
+   "class": "event",
+   "tags": [
+    "dna",
+    "genome",
+    "mapping",
+    "hgp",
+    "2003"
+   ]
+  },
+  {
+   "id": "junk-dna-not-junk",
+   "label": "Junk DNA (Not Junk) — 98.5% of DNA doesn't code for proteins. Called it 'junk.' ENCODE found 80%+ is functional. Hubris.",
+   "class": "concept",
+   "tags": [
+    "dna",
+    "junk-dna",
+    "encode",
+    "functional",
+    "hubris"
+   ]
+  },
+  {
+   "id": "mitochondrial-eve",
+   "label": "Mitochondrial Eve — Every human alive descends from ONE woman. ~200,000 years ago. Africa. mtDNA doesn't lie.",
+   "class": "concept",
+   "tags": [
+    "dna",
+    "mitochondrial-eve",
+    "africa",
+    "ancestor",
+    "200000-years"
+   ]
+  },
+  {
+   "id": "horizontal-gene-transfer",
+   "label": "Horizontal Gene Transfer — Bacteria share DNA SIDEWAYS. Not parent to child. Peer to peer. The original open source.",
+   "class": "concept",
+   "tags": [
+    "dna",
+    "horizontal-transfer",
+    "bacteria",
+    "peer-to-peer",
+    "open-source"
+   ]
+  },
+  {
+   "id": "crispr-cas9-detail",
+   "label": "CRISPR-Cas9 — Bacteria's immune system. Cut DNA at exact locations. Edit the code of life. Jennifer Doudna. Emmanuelle Charpentier.",
+   "class": "concept",
+   "tags": [
+    "dna",
+    "crispr",
+    "gene-editing",
+    "immune-system",
+    "precision"
+   ]
+  },
+  {
+   "id": "rna-world-hypothesis",
+   "label": "RNA World Hypothesis — RNA came BEFORE DNA. Before proteins. RNA can store info AND catalyze reactions. Life started with RNA.",
+   "class": "concept",
+   "tags": [
+    "rna",
+    "origin-of-life",
+    "rna-world",
+    "first",
+    "catalyst"
+   ]
+  },
+  {
+   "id": "mrna-messenger",
+   "label": "mRNA (Messenger RNA) — Carries the blueprint from DNA to the ribosome. The courier. The message. Katalin Kariko spent 40 years on it.",
+   "class": "concept",
+   "tags": [
+    "rna",
+    "mrna",
+    "messenger",
+    "ribosome",
+    "kariko"
+   ]
+  },
+  {
+   "id": "trna-translator",
+   "label": "tRNA (Transfer RNA) — Reads the codon. Delivers the amino acid. The TRANSLATOR. Converts information into matter.",
+   "class": "concept",
+   "tags": [
+    "rna",
+    "trna",
+    "translator",
+    "codon",
+    "amino-acid"
+   ]
+  },
+  {
+   "id": "rrna-ribosome",
+   "label": "rRNA (Ribosomal RNA) — The ribosome itself is mostly RNA. The FACTORY is made of its own product. Self-referential.",
+   "class": "concept",
+   "tags": [
+    "rna",
+    "rrna",
+    "ribosome",
+    "factory",
+    "self-referential"
+   ]
+  },
+  {
+   "id": "mirna-silencer",
+   "label": "miRNA (MicroRNA) — Tiny. 22 nucleotides. Silences genes. Turns things OFF. The volume knob of the genome.",
+   "class": "concept",
+   "tags": [
+    "rna",
+    "mirna",
+    "silencing",
+    "regulation",
+    "volume-knob"
+   ]
+  },
+  {
+   "id": "reverse-transcriptase",
+   "label": "Reverse Transcriptase — RNA → DNA. Backwards. HIV uses it. Violated the 'Central Dogma.' Biology doesn't follow rules.",
+   "class": "concept",
+   "tags": [
+    "rna",
+    "reverse-transcriptase",
+    "hiv",
+    "central-dogma",
+    "rule-breaker"
+   ]
+  },
+  {
+   "id": "rna-interference",
+   "label": "RNA Interference (RNAi) — Double-stranded RNA silences matching genes. Fire & Mello. Nobel 2006. The cell's own CRISPR.",
+   "class": "concept",
+   "tags": [
+    "rna",
+    "rnai",
+    "silencing",
+    "nobel",
+    "fire-mello"
+   ]
+  },
+  {
+   "id": "cell-membrane-lipid-bilayer",
+   "label": "Cell Membrane — Lipid bilayer. Selectively permeable. Decides what comes in, what goes out. THE MEMBRANE. Sound familiar?",
+   "class": "concept",
+   "tags": [
+    "cell",
+    "membrane",
+    "lipid-bilayer",
+    "selective-permeability",
+    "self-non-self"
+   ]
+  },
+  {
+   "id": "mitochondria-powerhouse",
+   "label": "Mitochondria — 'Powerhouse of the cell.' Was a FREE-LIVING BACTERIUM that merged 2 billion years ago. Endosymbiosis. Cooperation > competition.",
+   "class": "concept",
+   "tags": [
+    "cell",
+    "mitochondria",
+    "endosymbiosis",
+    "cooperation",
+    "energy"
+   ]
+  },
+  {
+   "id": "ribosome-protein-factory",
+   "label": "Ribosome — Reads mRNA. Builds proteins. 20 amino acids. 10,000 ribosomes per cell. The FACTORY that builds everything.",
+   "class": "concept",
+   "tags": [
+    "cell",
+    "ribosome",
+    "protein",
+    "factory",
+    "translation"
+   ]
+  },
+  {
+   "id": "golgi-apparatus",
+   "label": "Golgi Apparatus — The post office. Packages proteins. Sorts them. Ships them. Tags them with addresses. The logistics network.",
+   "class": "concept",
+   "tags": [
+    "cell",
+    "golgi",
+    "packaging",
+    "sorting",
+    "logistics"
+   ]
+  },
+  {
+   "id": "endoplasmic-reticulum",
+   "label": "Endoplasmic Reticulum — Rough (with ribosomes) and Smooth (lipids). The highway system. The manufacturing floor.",
+   "class": "concept",
+   "tags": [
+    "cell",
+    "er",
+    "rough",
+    "smooth",
+    "highway"
+   ]
+  },
+  {
+   "id": "lysosome-recycler",
+   "label": "Lysosome — The recycling center. Digests damaged parts. Eats invaders. pH 4.5 acid bath. The cell's garbage disposal AND immune system.",
+   "class": "concept",
+   "tags": [
+    "cell",
+    "lysosome",
+    "recycling",
+    "digestion",
+    "immune"
+   ]
+  },
+  {
+   "id": "apoptosis",
+   "label": "Apoptosis — Programmed cell death. The cell CHOOSES to die for the good of the organism. 50-70 BILLION cells die in you every day. Sacrifice.",
+   "class": "concept",
+   "tags": [
+    "cell",
+    "apoptosis",
+    "death",
+    "sacrifice",
+    "50-billion-per-day"
+   ]
+  },
+  {
+   "id": "stem-cells",
+   "label": "Stem Cells — Can become anything. Pluripotent. The blank page. The beginning of every tissue. Controversy because potential is political.",
+   "class": "concept",
+   "tags": [
+    "cell",
+    "stem-cells",
+    "pluripotent",
+    "potential",
+    "controversy"
+   ]
+  },
+  {
+   "id": "immune-cell-types",
+   "label": "Immune Cell Army — T-cells (kill infected), B-cells (make antibodies), NK cells (kill cancer), Macrophages (eat everything). Your body has an ARMY.",
+   "class": "concept",
+   "tags": [
+    "cell",
+    "immune",
+    "t-cell",
+    "b-cell",
+    "nk-cell",
+    "macrophage"
+   ]
+  },
+  {
+   "id": "neurons-100-billion",
+   "label": "Neurons — 100 billion in your brain. Each connects to 7,000 others. 700 trillion synapses. The most complex object in the known universe.",
+   "class": "concept",
+   "tags": [
+    "cell",
+    "neurons",
+    "brain",
+    "synapses",
+    "complexity"
+   ]
+  },
+  {
+   "id": "microbiome",
+   "label": "Human Microbiome — 38 TRILLION bacteria in your body. More than your own cells. They're not invaders. They're YOU. You are a colony.",
+   "class": "concept",
+   "tags": [
+    "cell",
+    "microbiome",
+    "bacteria",
+    "colony",
+    "38-trillion"
+   ]
+  },
+  {
+   "id": "hela-cells-immortal",
+   "label": "HeLa Cells — From Henrietta Lacks. 1951. Still dividing. 50 million metric tons produced. The only immortal human cells. Taken without consent.",
+   "class": "concept",
+   "tags": [
+    "cell",
+    "hela",
+    "immortal",
+    "henrietta-lacks",
+    "consent"
+   ]
+  },
+  {
+   "id": "planck-length",
+   "label": "Planck Length — 1.6 × 10^-35 meters. The smallest meaningful distance. Below this, space itself loses meaning.",
+   "class": "concept",
+   "tags": [
+    "scale",
+    "planck",
+    "smallest",
+    "quantum",
+    "limit"
+   ]
+  },
+  {
+   "id": "observable-universe",
+   "label": "Observable Universe — 93 billion light-years across. 2 trillion galaxies. And that's just what light has had time to reach us from.",
+   "class": "concept",
+   "tags": [
+    "scale",
+    "universe",
+    "93-billion",
+    "2-trillion-galaxies",
+    "observable"
+   ]
+  },
+  {
+   "id": "powers-of-ten",
+   "label": "Powers of Ten (Eames, 1977) — From quarks to galaxies. Every 10 seconds, 10x bigger. The most important 9 minutes of film ever made.",
+   "class": "concept",
+   "tags": [
+    "scale",
+    "eames",
+    "powers-of-ten",
+    "zoom",
+    "perspective"
+   ]
+  },
+  {
+   "id": "atom-to-universe",
+   "label": "Atom to Universe — Quark → Proton → Atom → Molecule → Cell → Organism → City → Planet → Star → Galaxy → Universe. Same physics. Same math.",
+   "class": "pattern",
+   "tags": [
+    "scale",
+    "atom",
+    "universe",
+    "same-physics",
+    "fractal"
+   ]
+  },
+  {
+   "id": "fractal-geometry",
+   "label": "Fractal Geometry — Mandelbrot. Self-similar at every scale. Coastlines. Broccoli. Blood vessels. Galaxies. The universe repeats itself.",
+   "class": "concept",
+   "tags": [
+    "scale",
+    "fractal",
+    "mandelbrot",
+    "self-similar",
+    "everywhere"
+   ]
   }
  ],
  "edges": [
@@ -3702347,6 +3702876,6361 @@
    "source": "amazon-rainforest-tipping",
    "target": "ipcc-code-red",
    "type": "wide-deep-weave"
+  },
+  {
+   "source": "big-bang",
+   "target": "cosmic-microwave-background",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "cosmic-microwave-background",
+   "target": "big-bang",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "big-bang",
+   "target": "stellar-nucleosynthesis",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "stellar-nucleosynthesis",
+   "target": "big-bang",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "big-bang",
+   "target": "neutron-star",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "neutron-star",
+   "target": "big-bang",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "big-bang",
+   "target": "black-hole-m87",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "black-hole-m87",
+   "target": "big-bang",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "big-bang",
+   "target": "gravitational-waves",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "gravitational-waves",
+   "target": "big-bang",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "big-bang",
+   "target": "dark-matter",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "dark-matter",
+   "target": "big-bang",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "big-bang",
+   "target": "dark-energy",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "dark-energy",
+   "target": "big-bang",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "big-bang",
+   "target": "exoplanets-kepler",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "exoplanets-kepler",
+   "target": "big-bang",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "big-bang",
+   "target": "fermi-paradox",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "fermi-paradox",
+   "target": "big-bang",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "big-bang",
+   "target": "carl-sagan-billions",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "carl-sagan-billions",
+   "target": "big-bang",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "big-bang",
+   "target": "neil-degrasse-tyson",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "neil-degrasse-tyson",
+   "target": "big-bang",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "big-bang",
+   "target": "multiverse-hypothesis",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "multiverse-hypothesis",
+   "target": "big-bang",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "cosmic-microwave-background",
+   "target": "stellar-nucleosynthesis",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "stellar-nucleosynthesis",
+   "target": "cosmic-microwave-background",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "cosmic-microwave-background",
+   "target": "neutron-star",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "neutron-star",
+   "target": "cosmic-microwave-background",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "cosmic-microwave-background",
+   "target": "black-hole-m87",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "black-hole-m87",
+   "target": "cosmic-microwave-background",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "cosmic-microwave-background",
+   "target": "gravitational-waves",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "gravitational-waves",
+   "target": "cosmic-microwave-background",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "cosmic-microwave-background",
+   "target": "dark-matter",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "dark-matter",
+   "target": "cosmic-microwave-background",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "cosmic-microwave-background",
+   "target": "dark-energy",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "dark-energy",
+   "target": "cosmic-microwave-background",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "cosmic-microwave-background",
+   "target": "exoplanets-kepler",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "exoplanets-kepler",
+   "target": "cosmic-microwave-background",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "cosmic-microwave-background",
+   "target": "fermi-paradox",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "fermi-paradox",
+   "target": "cosmic-microwave-background",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "cosmic-microwave-background",
+   "target": "carl-sagan-billions",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "carl-sagan-billions",
+   "target": "cosmic-microwave-background",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "cosmic-microwave-background",
+   "target": "neil-degrasse-tyson",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "neil-degrasse-tyson",
+   "target": "cosmic-microwave-background",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "cosmic-microwave-background",
+   "target": "multiverse-hypothesis",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "multiverse-hypothesis",
+   "target": "cosmic-microwave-background",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "stellar-nucleosynthesis",
+   "target": "neutron-star",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "neutron-star",
+   "target": "stellar-nucleosynthesis",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "stellar-nucleosynthesis",
+   "target": "black-hole-m87",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "black-hole-m87",
+   "target": "stellar-nucleosynthesis",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "stellar-nucleosynthesis",
+   "target": "gravitational-waves",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "gravitational-waves",
+   "target": "stellar-nucleosynthesis",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "stellar-nucleosynthesis",
+   "target": "dark-matter",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "dark-matter",
+   "target": "stellar-nucleosynthesis",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "stellar-nucleosynthesis",
+   "target": "dark-energy",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "dark-energy",
+   "target": "stellar-nucleosynthesis",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "stellar-nucleosynthesis",
+   "target": "exoplanets-kepler",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "exoplanets-kepler",
+   "target": "stellar-nucleosynthesis",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "stellar-nucleosynthesis",
+   "target": "fermi-paradox",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "fermi-paradox",
+   "target": "stellar-nucleosynthesis",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "stellar-nucleosynthesis",
+   "target": "carl-sagan-billions",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "carl-sagan-billions",
+   "target": "stellar-nucleosynthesis",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "stellar-nucleosynthesis",
+   "target": "neil-degrasse-tyson",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "neil-degrasse-tyson",
+   "target": "stellar-nucleosynthesis",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "stellar-nucleosynthesis",
+   "target": "multiverse-hypothesis",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "multiverse-hypothesis",
+   "target": "stellar-nucleosynthesis",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "neutron-star",
+   "target": "black-hole-m87",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "black-hole-m87",
+   "target": "neutron-star",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "neutron-star",
+   "target": "gravitational-waves",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "gravitational-waves",
+   "target": "neutron-star",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "neutron-star",
+   "target": "dark-matter",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "dark-matter",
+   "target": "neutron-star",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "neutron-star",
+   "target": "dark-energy",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "dark-energy",
+   "target": "neutron-star",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "neutron-star",
+   "target": "exoplanets-kepler",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "exoplanets-kepler",
+   "target": "neutron-star",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "neutron-star",
+   "target": "fermi-paradox",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "fermi-paradox",
+   "target": "neutron-star",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "neutron-star",
+   "target": "carl-sagan-billions",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "carl-sagan-billions",
+   "target": "neutron-star",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "neutron-star",
+   "target": "neil-degrasse-tyson",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "neil-degrasse-tyson",
+   "target": "neutron-star",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "neutron-star",
+   "target": "multiverse-hypothesis",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "multiverse-hypothesis",
+   "target": "neutron-star",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "black-hole-m87",
+   "target": "gravitational-waves",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "gravitational-waves",
+   "target": "black-hole-m87",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "black-hole-m87",
+   "target": "dark-matter",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "dark-matter",
+   "target": "black-hole-m87",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "black-hole-m87",
+   "target": "dark-energy",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "dark-energy",
+   "target": "black-hole-m87",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "black-hole-m87",
+   "target": "exoplanets-kepler",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "exoplanets-kepler",
+   "target": "black-hole-m87",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "black-hole-m87",
+   "target": "fermi-paradox",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "fermi-paradox",
+   "target": "black-hole-m87",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "black-hole-m87",
+   "target": "carl-sagan-billions",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "carl-sagan-billions",
+   "target": "black-hole-m87",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "black-hole-m87",
+   "target": "neil-degrasse-tyson",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "neil-degrasse-tyson",
+   "target": "black-hole-m87",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "black-hole-m87",
+   "target": "multiverse-hypothesis",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "multiverse-hypothesis",
+   "target": "black-hole-m87",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "gravitational-waves",
+   "target": "dark-matter",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "dark-matter",
+   "target": "gravitational-waves",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "gravitational-waves",
+   "target": "dark-energy",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "dark-energy",
+   "target": "gravitational-waves",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "gravitational-waves",
+   "target": "exoplanets-kepler",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "exoplanets-kepler",
+   "target": "gravitational-waves",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "gravitational-waves",
+   "target": "fermi-paradox",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "fermi-paradox",
+   "target": "gravitational-waves",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "gravitational-waves",
+   "target": "carl-sagan-billions",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "carl-sagan-billions",
+   "target": "gravitational-waves",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "gravitational-waves",
+   "target": "neil-degrasse-tyson",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "neil-degrasse-tyson",
+   "target": "gravitational-waves",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "gravitational-waves",
+   "target": "multiverse-hypothesis",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "multiverse-hypothesis",
+   "target": "gravitational-waves",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "dark-matter",
+   "target": "dark-energy",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "dark-energy",
+   "target": "dark-matter",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "dark-matter",
+   "target": "exoplanets-kepler",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "exoplanets-kepler",
+   "target": "dark-matter",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "dark-matter",
+   "target": "fermi-paradox",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "fermi-paradox",
+   "target": "dark-matter",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "dark-matter",
+   "target": "carl-sagan-billions",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "carl-sagan-billions",
+   "target": "dark-matter",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "dark-matter",
+   "target": "neil-degrasse-tyson",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "neil-degrasse-tyson",
+   "target": "dark-matter",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "dark-matter",
+   "target": "multiverse-hypothesis",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "multiverse-hypothesis",
+   "target": "dark-matter",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "dark-energy",
+   "target": "exoplanets-kepler",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "exoplanets-kepler",
+   "target": "dark-energy",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "dark-energy",
+   "target": "fermi-paradox",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "fermi-paradox",
+   "target": "dark-energy",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "dark-energy",
+   "target": "carl-sagan-billions",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "carl-sagan-billions",
+   "target": "dark-energy",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "dark-energy",
+   "target": "neil-degrasse-tyson",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "neil-degrasse-tyson",
+   "target": "dark-energy",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "dark-energy",
+   "target": "multiverse-hypothesis",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "multiverse-hypothesis",
+   "target": "dark-energy",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "exoplanets-kepler",
+   "target": "fermi-paradox",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "fermi-paradox",
+   "target": "exoplanets-kepler",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "exoplanets-kepler",
+   "target": "carl-sagan-billions",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "carl-sagan-billions",
+   "target": "exoplanets-kepler",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "exoplanets-kepler",
+   "target": "neil-degrasse-tyson",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "neil-degrasse-tyson",
+   "target": "exoplanets-kepler",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "exoplanets-kepler",
+   "target": "multiverse-hypothesis",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "multiverse-hypothesis",
+   "target": "exoplanets-kepler",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "fermi-paradox",
+   "target": "carl-sagan-billions",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "carl-sagan-billions",
+   "target": "fermi-paradox",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "fermi-paradox",
+   "target": "neil-degrasse-tyson",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "neil-degrasse-tyson",
+   "target": "fermi-paradox",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "fermi-paradox",
+   "target": "multiverse-hypothesis",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "multiverse-hypothesis",
+   "target": "fermi-paradox",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "carl-sagan-billions",
+   "target": "neil-degrasse-tyson",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "neil-degrasse-tyson",
+   "target": "carl-sagan-billions",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "carl-sagan-billions",
+   "target": "multiverse-hypothesis",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "multiverse-hypothesis",
+   "target": "carl-sagan-billions",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "neil-degrasse-tyson",
+   "target": "multiverse-hypothesis",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "multiverse-hypothesis",
+   "target": "neil-degrasse-tyson",
+   "type": "heavens-mesh"
+  },
+  {
+   "source": "big-bang",
+   "target": "membrane",
+   "type": "heavens-core"
+  },
+  {
+   "source": "big-bang",
+   "target": "public_education",
+   "type": "heavens-core"
+  },
+  {
+   "source": "big-bang",
+   "target": "banks",
+   "type": "heavens-core"
+  },
+  {
+   "source": "big-bang",
+   "target": "data_990_devos_foundation",
+   "type": "heavens-core"
+  },
+  {
+   "source": "big-bang",
+   "target": "unesco_historic_centre_of_naples",
+   "type": "heavens-core"
+  },
+  {
+   "source": "big-bang",
+   "target": "ecoprimal",
+   "type": "heavens-core"
+  },
+  {
+   "source": "big-bang",
+   "target": "unesco_the_medinas_of_the_historic_sultanates_o",
+   "type": "heavens-core"
+  },
+  {
+   "source": "big-bang",
+   "target": "unesco_historic_centre_of_san_gimignano",
+   "type": "heavens-core"
+  },
+  {
+   "source": "cosmic-microwave-background",
+   "target": "membrane",
+   "type": "heavens-core"
+  },
+  {
+   "source": "cosmic-microwave-background",
+   "target": "public_education",
+   "type": "heavens-core"
+  },
+  {
+   "source": "cosmic-microwave-background",
+   "target": "banks",
+   "type": "heavens-core"
+  },
+  {
+   "source": "cosmic-microwave-background",
+   "target": "data_990_devos_foundation",
+   "type": "heavens-core"
+  },
+  {
+   "source": "cosmic-microwave-background",
+   "target": "unesco_historic_centre_of_naples",
+   "type": "heavens-core"
+  },
+  {
+   "source": "cosmic-microwave-background",
+   "target": "ecoprimal",
+   "type": "heavens-core"
+  },
+  {
+   "source": "cosmic-microwave-background",
+   "target": "unesco_the_medinas_of_the_historic_sultanates_o",
+   "type": "heavens-core"
+  },
+  {
+   "source": "cosmic-microwave-background",
+   "target": "unesco_historic_centre_of_san_gimignano",
+   "type": "heavens-core"
+  },
+  {
+   "source": "stellar-nucleosynthesis",
+   "target": "membrane",
+   "type": "heavens-core"
+  },
+  {
+   "source": "stellar-nucleosynthesis",
+   "target": "public_education",
+   "type": "heavens-core"
+  },
+  {
+   "source": "stellar-nucleosynthesis",
+   "target": "banks",
+   "type": "heavens-core"
+  },
+  {
+   "source": "stellar-nucleosynthesis",
+   "target": "data_990_devos_foundation",
+   "type": "heavens-core"
+  },
+  {
+   "source": "stellar-nucleosynthesis",
+   "target": "unesco_historic_centre_of_naples",
+   "type": "heavens-core"
+  },
+  {
+   "source": "stellar-nucleosynthesis",
+   "target": "ecoprimal",
+   "type": "heavens-core"
+  },
+  {
+   "source": "stellar-nucleosynthesis",
+   "target": "unesco_the_medinas_of_the_historic_sultanates_o",
+   "type": "heavens-core"
+  },
+  {
+   "source": "stellar-nucleosynthesis",
+   "target": "unesco_historic_centre_of_san_gimignano",
+   "type": "heavens-core"
+  },
+  {
+   "source": "neutron-star",
+   "target": "membrane",
+   "type": "heavens-core"
+  },
+  {
+   "source": "neutron-star",
+   "target": "public_education",
+   "type": "heavens-core"
+  },
+  {
+   "source": "neutron-star",
+   "target": "banks",
+   "type": "heavens-core"
+  },
+  {
+   "source": "neutron-star",
+   "target": "data_990_devos_foundation",
+   "type": "heavens-core"
+  },
+  {
+   "source": "neutron-star",
+   "target": "unesco_historic_centre_of_naples",
+   "type": "heavens-core"
+  },
+  {
+   "source": "neutron-star",
+   "target": "ecoprimal",
+   "type": "heavens-core"
+  },
+  {
+   "source": "neutron-star",
+   "target": "unesco_the_medinas_of_the_historic_sultanates_o",
+   "type": "heavens-core"
+  },
+  {
+   "source": "neutron-star",
+   "target": "unesco_historic_centre_of_san_gimignano",
+   "type": "heavens-core"
+  },
+  {
+   "source": "black-hole-m87",
+   "target": "membrane",
+   "type": "heavens-core"
+  },
+  {
+   "source": "black-hole-m87",
+   "target": "public_education",
+   "type": "heavens-core"
+  },
+  {
+   "source": "black-hole-m87",
+   "target": "banks",
+   "type": "heavens-core"
+  },
+  {
+   "source": "black-hole-m87",
+   "target": "data_990_devos_foundation",
+   "type": "heavens-core"
+  },
+  {
+   "source": "black-hole-m87",
+   "target": "unesco_historic_centre_of_naples",
+   "type": "heavens-core"
+  },
+  {
+   "source": "black-hole-m87",
+   "target": "ecoprimal",
+   "type": "heavens-core"
+  },
+  {
+   "source": "black-hole-m87",
+   "target": "unesco_the_medinas_of_the_historic_sultanates_o",
+   "type": "heavens-core"
+  },
+  {
+   "source": "black-hole-m87",
+   "target": "unesco_historic_centre_of_san_gimignano",
+   "type": "heavens-core"
+  },
+  {
+   "source": "gravitational-waves",
+   "target": "membrane",
+   "type": "heavens-core"
+  },
+  {
+   "source": "gravitational-waves",
+   "target": "public_education",
+   "type": "heavens-core"
+  },
+  {
+   "source": "gravitational-waves",
+   "target": "banks",
+   "type": "heavens-core"
+  },
+  {
+   "source": "gravitational-waves",
+   "target": "data_990_devos_foundation",
+   "type": "heavens-core"
+  },
+  {
+   "source": "gravitational-waves",
+   "target": "unesco_historic_centre_of_naples",
+   "type": "heavens-core"
+  },
+  {
+   "source": "gravitational-waves",
+   "target": "ecoprimal",
+   "type": "heavens-core"
+  },
+  {
+   "source": "gravitational-waves",
+   "target": "unesco_the_medinas_of_the_historic_sultanates_o",
+   "type": "heavens-core"
+  },
+  {
+   "source": "gravitational-waves",
+   "target": "unesco_historic_centre_of_san_gimignano",
+   "type": "heavens-core"
+  },
+  {
+   "source": "dark-matter",
+   "target": "membrane",
+   "type": "heavens-core"
+  },
+  {
+   "source": "dark-matter",
+   "target": "public_education",
+   "type": "heavens-core"
+  },
+  {
+   "source": "dark-matter",
+   "target": "banks",
+   "type": "heavens-core"
+  },
+  {
+   "source": "dark-matter",
+   "target": "data_990_devos_foundation",
+   "type": "heavens-core"
+  },
+  {
+   "source": "dark-matter",
+   "target": "unesco_historic_centre_of_naples",
+   "type": "heavens-core"
+  },
+  {
+   "source": "dark-matter",
+   "target": "ecoprimal",
+   "type": "heavens-core"
+  },
+  {
+   "source": "dark-matter",
+   "target": "unesco_the_medinas_of_the_historic_sultanates_o",
+   "type": "heavens-core"
+  },
+  {
+   "source": "dark-matter",
+   "target": "unesco_historic_centre_of_san_gimignano",
+   "type": "heavens-core"
+  },
+  {
+   "source": "dark-energy",
+   "target": "membrane",
+   "type": "heavens-core"
+  },
+  {
+   "source": "dark-energy",
+   "target": "public_education",
+   "type": "heavens-core"
+  },
+  {
+   "source": "dark-energy",
+   "target": "banks",
+   "type": "heavens-core"
+  },
+  {
+   "source": "dark-energy",
+   "target": "data_990_devos_foundation",
+   "type": "heavens-core"
+  },
+  {
+   "source": "dark-energy",
+   "target": "unesco_historic_centre_of_naples",
+   "type": "heavens-core"
+  },
+  {
+   "source": "dark-energy",
+   "target": "ecoprimal",
+   "type": "heavens-core"
+  },
+  {
+   "source": "dark-energy",
+   "target": "unesco_the_medinas_of_the_historic_sultanates_o",
+   "type": "heavens-core"
+  },
+  {
+   "source": "dark-energy",
+   "target": "unesco_historic_centre_of_san_gimignano",
+   "type": "heavens-core"
+  },
+  {
+   "source": "exoplanets-kepler",
+   "target": "membrane",
+   "type": "heavens-core"
+  },
+  {
+   "source": "exoplanets-kepler",
+   "target": "public_education",
+   "type": "heavens-core"
+  },
+  {
+   "source": "exoplanets-kepler",
+   "target": "banks",
+   "type": "heavens-core"
+  },
+  {
+   "source": "exoplanets-kepler",
+   "target": "data_990_devos_foundation",
+   "type": "heavens-core"
+  },
+  {
+   "source": "exoplanets-kepler",
+   "target": "unesco_historic_centre_of_naples",
+   "type": "heavens-core"
+  },
+  {
+   "source": "exoplanets-kepler",
+   "target": "ecoprimal",
+   "type": "heavens-core"
+  },
+  {
+   "source": "exoplanets-kepler",
+   "target": "unesco_the_medinas_of_the_historic_sultanates_o",
+   "type": "heavens-core"
+  },
+  {
+   "source": "exoplanets-kepler",
+   "target": "unesco_historic_centre_of_san_gimignano",
+   "type": "heavens-core"
+  },
+  {
+   "source": "fermi-paradox",
+   "target": "membrane",
+   "type": "heavens-core"
+  },
+  {
+   "source": "fermi-paradox",
+   "target": "public_education",
+   "type": "heavens-core"
+  },
+  {
+   "source": "fermi-paradox",
+   "target": "banks",
+   "type": "heavens-core"
+  },
+  {
+   "source": "fermi-paradox",
+   "target": "data_990_devos_foundation",
+   "type": "heavens-core"
+  },
+  {
+   "source": "fermi-paradox",
+   "target": "unesco_historic_centre_of_naples",
+   "type": "heavens-core"
+  },
+  {
+   "source": "fermi-paradox",
+   "target": "ecoprimal",
+   "type": "heavens-core"
+  },
+  {
+   "source": "fermi-paradox",
+   "target": "unesco_the_medinas_of_the_historic_sultanates_o",
+   "type": "heavens-core"
+  },
+  {
+   "source": "fermi-paradox",
+   "target": "unesco_historic_centre_of_san_gimignano",
+   "type": "heavens-core"
+  },
+  {
+   "source": "carl-sagan-billions",
+   "target": "membrane",
+   "type": "heavens-core"
+  },
+  {
+   "source": "carl-sagan-billions",
+   "target": "public_education",
+   "type": "heavens-core"
+  },
+  {
+   "source": "carl-sagan-billions",
+   "target": "banks",
+   "type": "heavens-core"
+  },
+  {
+   "source": "carl-sagan-billions",
+   "target": "data_990_devos_foundation",
+   "type": "heavens-core"
+  },
+  {
+   "source": "carl-sagan-billions",
+   "target": "unesco_historic_centre_of_naples",
+   "type": "heavens-core"
+  },
+  {
+   "source": "carl-sagan-billions",
+   "target": "ecoprimal",
+   "type": "heavens-core"
+  },
+  {
+   "source": "carl-sagan-billions",
+   "target": "unesco_the_medinas_of_the_historic_sultanates_o",
+   "type": "heavens-core"
+  },
+  {
+   "source": "carl-sagan-billions",
+   "target": "unesco_historic_centre_of_san_gimignano",
+   "type": "heavens-core"
+  },
+  {
+   "source": "neil-degrasse-tyson",
+   "target": "membrane",
+   "type": "heavens-core"
+  },
+  {
+   "source": "neil-degrasse-tyson",
+   "target": "public_education",
+   "type": "heavens-core"
+  },
+  {
+   "source": "neil-degrasse-tyson",
+   "target": "banks",
+   "type": "heavens-core"
+  },
+  {
+   "source": "neil-degrasse-tyson",
+   "target": "data_990_devos_foundation",
+   "type": "heavens-core"
+  },
+  {
+   "source": "neil-degrasse-tyson",
+   "target": "unesco_historic_centre_of_naples",
+   "type": "heavens-core"
+  },
+  {
+   "source": "neil-degrasse-tyson",
+   "target": "ecoprimal",
+   "type": "heavens-core"
+  },
+  {
+   "source": "neil-degrasse-tyson",
+   "target": "unesco_the_medinas_of_the_historic_sultanates_o",
+   "type": "heavens-core"
+  },
+  {
+   "source": "neil-degrasse-tyson",
+   "target": "unesco_historic_centre_of_san_gimignano",
+   "type": "heavens-core"
+  },
+  {
+   "source": "multiverse-hypothesis",
+   "target": "membrane",
+   "type": "heavens-core"
+  },
+  {
+   "source": "multiverse-hypothesis",
+   "target": "public_education",
+   "type": "heavens-core"
+  },
+  {
+   "source": "multiverse-hypothesis",
+   "target": "banks",
+   "type": "heavens-core"
+  },
+  {
+   "source": "multiverse-hypothesis",
+   "target": "data_990_devos_foundation",
+   "type": "heavens-core"
+  },
+  {
+   "source": "multiverse-hypothesis",
+   "target": "unesco_historic_centre_of_naples",
+   "type": "heavens-core"
+  },
+  {
+   "source": "multiverse-hypothesis",
+   "target": "ecoprimal",
+   "type": "heavens-core"
+  },
+  {
+   "source": "multiverse-hypothesis",
+   "target": "unesco_the_medinas_of_the_historic_sultanates_o",
+   "type": "heavens-core"
+  },
+  {
+   "source": "multiverse-hypothesis",
+   "target": "unesco_historic_centre_of_san_gimignano",
+   "type": "heavens-core"
+  },
+  {
+   "source": "dna-double-helix",
+   "target": "four-bases-atcg",
+   "type": "dna-mesh"
+  },
+  {
+   "source": "four-bases-atcg",
+   "target": "dna-double-helix",
+   "type": "dna-mesh"
+  },
+  {
+   "source": "dna-double-helix",
+   "target": "human-genome-project",
+   "type": "dna-mesh"
+  },
+  {
+   "source": "human-genome-project",
+   "target": "dna-double-helix",
+   "type": "dna-mesh"
+  },
+  {
+   "source": "dna-double-helix",
+   "target": "junk-dna-not-junk",
+   "type": "dna-mesh"
+  },
+  {
+   "source": "junk-dna-not-junk",
+   "target": "dna-double-helix",
+   "type": "dna-mesh"
+  },
+  {
+   "source": "dna-double-helix",
+   "target": "mitochondrial-eve",
+   "type": "dna-mesh"
+  },
+  {
+   "source": "mitochondrial-eve",
+   "target": "dna-double-helix",
+   "type": "dna-mesh"
+  },
+  {
+   "source": "dna-double-helix",
+   "target": "horizontal-gene-transfer",
+   "type": "dna-mesh"
+  },
+  {
+   "source": "horizontal-gene-transfer",
+   "target": "dna-double-helix",
+   "type": "dna-mesh"
+  },
+  {
+   "source": "dna-double-helix",
+   "target": "crispr-cas9-detail",
+   "type": "dna-mesh"
+  },
+  {
+   "source": "crispr-cas9-detail",
+   "target": "dna-double-helix",
+   "type": "dna-mesh"
+  },
+  {
+   "source": "four-bases-atcg",
+   "target": "human-genome-project",
+   "type": "dna-mesh"
+  },
+  {
+   "source": "human-genome-project",
+   "target": "four-bases-atcg",
+   "type": "dna-mesh"
+  },
+  {
+   "source": "four-bases-atcg",
+   "target": "junk-dna-not-junk",
+   "type": "dna-mesh"
+  },
+  {
+   "source": "junk-dna-not-junk",
+   "target": "four-bases-atcg",
+   "type": "dna-mesh"
+  },
+  {
+   "source": "four-bases-atcg",
+   "target": "mitochondrial-eve",
+   "type": "dna-mesh"
+  },
+  {
+   "source": "mitochondrial-eve",
+   "target": "four-bases-atcg",
+   "type": "dna-mesh"
+  },
+  {
+   "source": "four-bases-atcg",
+   "target": "horizontal-gene-transfer",
+   "type": "dna-mesh"
+  },
+  {
+   "source": "horizontal-gene-transfer",
+   "target": "four-bases-atcg",
+   "type": "dna-mesh"
+  },
+  {
+   "source": "four-bases-atcg",
+   "target": "crispr-cas9-detail",
+   "type": "dna-mesh"
+  },
+  {
+   "source": "crispr-cas9-detail",
+   "target": "four-bases-atcg",
+   "type": "dna-mesh"
+  },
+  {
+   "source": "human-genome-project",
+   "target": "junk-dna-not-junk",
+   "type": "dna-mesh"
+  },
+  {
+   "source": "junk-dna-not-junk",
+   "target": "human-genome-project",
+   "type": "dna-mesh"
+  },
+  {
+   "source": "human-genome-project",
+   "target": "mitochondrial-eve",
+   "type": "dna-mesh"
+  },
+  {
+   "source": "mitochondrial-eve",
+   "target": "human-genome-project",
+   "type": "dna-mesh"
+  },
+  {
+   "source": "human-genome-project",
+   "target": "horizontal-gene-transfer",
+   "type": "dna-mesh"
+  },
+  {
+   "source": "horizontal-gene-transfer",
+   "target": "human-genome-project",
+   "type": "dna-mesh"
+  },
+  {
+   "source": "human-genome-project",
+   "target": "crispr-cas9-detail",
+   "type": "dna-mesh"
+  },
+  {
+   "source": "crispr-cas9-detail",
+   "target": "human-genome-project",
+   "type": "dna-mesh"
+  },
+  {
+   "source": "junk-dna-not-junk",
+   "target": "mitochondrial-eve",
+   "type": "dna-mesh"
+  },
+  {
+   "source": "mitochondrial-eve",
+   "target": "junk-dna-not-junk",
+   "type": "dna-mesh"
+  },
+  {
+   "source": "junk-dna-not-junk",
+   "target": "horizontal-gene-transfer",
+   "type": "dna-mesh"
+  },
+  {
+   "source": "horizontal-gene-transfer",
+   "target": "junk-dna-not-junk",
+   "type": "dna-mesh"
+  },
+  {
+   "source": "junk-dna-not-junk",
+   "target": "crispr-cas9-detail",
+   "type": "dna-mesh"
+  },
+  {
+   "source": "crispr-cas9-detail",
+   "target": "junk-dna-not-junk",
+   "type": "dna-mesh"
+  },
+  {
+   "source": "mitochondrial-eve",
+   "target": "horizontal-gene-transfer",
+   "type": "dna-mesh"
+  },
+  {
+   "source": "horizontal-gene-transfer",
+   "target": "mitochondrial-eve",
+   "type": "dna-mesh"
+  },
+  {
+   "source": "mitochondrial-eve",
+   "target": "crispr-cas9-detail",
+   "type": "dna-mesh"
+  },
+  {
+   "source": "crispr-cas9-detail",
+   "target": "mitochondrial-eve",
+   "type": "dna-mesh"
+  },
+  {
+   "source": "horizontal-gene-transfer",
+   "target": "crispr-cas9-detail",
+   "type": "dna-mesh"
+  },
+  {
+   "source": "crispr-cas9-detail",
+   "target": "horizontal-gene-transfer",
+   "type": "dna-mesh"
+  },
+  {
+   "source": "dna-double-helix",
+   "target": "membrane",
+   "type": "dna-core"
+  },
+  {
+   "source": "dna-double-helix",
+   "target": "public_education",
+   "type": "dna-core"
+  },
+  {
+   "source": "dna-double-helix",
+   "target": "banks",
+   "type": "dna-core"
+  },
+  {
+   "source": "dna-double-helix",
+   "target": "data_990_devos_foundation",
+   "type": "dna-core"
+  },
+  {
+   "source": "dna-double-helix",
+   "target": "unesco_historic_centre_of_naples",
+   "type": "dna-core"
+  },
+  {
+   "source": "dna-double-helix",
+   "target": "ecoprimal",
+   "type": "dna-core"
+  },
+  {
+   "source": "dna-double-helix",
+   "target": "unesco_the_medinas_of_the_historic_sultanates_o",
+   "type": "dna-core"
+  },
+  {
+   "source": "dna-double-helix",
+   "target": "unesco_historic_centre_of_san_gimignano",
+   "type": "dna-core"
+  },
+  {
+   "source": "four-bases-atcg",
+   "target": "membrane",
+   "type": "dna-core"
+  },
+  {
+   "source": "four-bases-atcg",
+   "target": "public_education",
+   "type": "dna-core"
+  },
+  {
+   "source": "four-bases-atcg",
+   "target": "banks",
+   "type": "dna-core"
+  },
+  {
+   "source": "four-bases-atcg",
+   "target": "data_990_devos_foundation",
+   "type": "dna-core"
+  },
+  {
+   "source": "four-bases-atcg",
+   "target": "unesco_historic_centre_of_naples",
+   "type": "dna-core"
+  },
+  {
+   "source": "four-bases-atcg",
+   "target": "ecoprimal",
+   "type": "dna-core"
+  },
+  {
+   "source": "four-bases-atcg",
+   "target": "unesco_the_medinas_of_the_historic_sultanates_o",
+   "type": "dna-core"
+  },
+  {
+   "source": "four-bases-atcg",
+   "target": "unesco_historic_centre_of_san_gimignano",
+   "type": "dna-core"
+  },
+  {
+   "source": "human-genome-project",
+   "target": "membrane",
+   "type": "dna-core"
+  },
+  {
+   "source": "human-genome-project",
+   "target": "public_education",
+   "type": "dna-core"
+  },
+  {
+   "source": "human-genome-project",
+   "target": "banks",
+   "type": "dna-core"
+  },
+  {
+   "source": "human-genome-project",
+   "target": "data_990_devos_foundation",
+   "type": "dna-core"
+  },
+  {
+   "source": "human-genome-project",
+   "target": "unesco_historic_centre_of_naples",
+   "type": "dna-core"
+  },
+  {
+   "source": "human-genome-project",
+   "target": "ecoprimal",
+   "type": "dna-core"
+  },
+  {
+   "source": "human-genome-project",
+   "target": "unesco_the_medinas_of_the_historic_sultanates_o",
+   "type": "dna-core"
+  },
+  {
+   "source": "human-genome-project",
+   "target": "unesco_historic_centre_of_san_gimignano",
+   "type": "dna-core"
+  },
+  {
+   "source": "junk-dna-not-junk",
+   "target": "membrane",
+   "type": "dna-core"
+  },
+  {
+   "source": "junk-dna-not-junk",
+   "target": "public_education",
+   "type": "dna-core"
+  },
+  {
+   "source": "junk-dna-not-junk",
+   "target": "banks",
+   "type": "dna-core"
+  },
+  {
+   "source": "junk-dna-not-junk",
+   "target": "data_990_devos_foundation",
+   "type": "dna-core"
+  },
+  {
+   "source": "junk-dna-not-junk",
+   "target": "unesco_historic_centre_of_naples",
+   "type": "dna-core"
+  },
+  {
+   "source": "junk-dna-not-junk",
+   "target": "ecoprimal",
+   "type": "dna-core"
+  },
+  {
+   "source": "junk-dna-not-junk",
+   "target": "unesco_the_medinas_of_the_historic_sultanates_o",
+   "type": "dna-core"
+  },
+  {
+   "source": "junk-dna-not-junk",
+   "target": "unesco_historic_centre_of_san_gimignano",
+   "type": "dna-core"
+  },
+  {
+   "source": "mitochondrial-eve",
+   "target": "membrane",
+   "type": "dna-core"
+  },
+  {
+   "source": "mitochondrial-eve",
+   "target": "public_education",
+   "type": "dna-core"
+  },
+  {
+   "source": "mitochondrial-eve",
+   "target": "banks",
+   "type": "dna-core"
+  },
+  {
+   "source": "mitochondrial-eve",
+   "target": "data_990_devos_foundation",
+   "type": "dna-core"
+  },
+  {
+   "source": "mitochondrial-eve",
+   "target": "unesco_historic_centre_of_naples",
+   "type": "dna-core"
+  },
+  {
+   "source": "mitochondrial-eve",
+   "target": "ecoprimal",
+   "type": "dna-core"
+  },
+  {
+   "source": "mitochondrial-eve",
+   "target": "unesco_the_medinas_of_the_historic_sultanates_o",
+   "type": "dna-core"
+  },
+  {
+   "source": "mitochondrial-eve",
+   "target": "unesco_historic_centre_of_san_gimignano",
+   "type": "dna-core"
+  },
+  {
+   "source": "horizontal-gene-transfer",
+   "target": "membrane",
+   "type": "dna-core"
+  },
+  {
+   "source": "horizontal-gene-transfer",
+   "target": "public_education",
+   "type": "dna-core"
+  },
+  {
+   "source": "horizontal-gene-transfer",
+   "target": "banks",
+   "type": "dna-core"
+  },
+  {
+   "source": "horizontal-gene-transfer",
+   "target": "data_990_devos_foundation",
+   "type": "dna-core"
+  },
+  {
+   "source": "horizontal-gene-transfer",
+   "target": "unesco_historic_centre_of_naples",
+   "type": "dna-core"
+  },
+  {
+   "source": "horizontal-gene-transfer",
+   "target": "ecoprimal",
+   "type": "dna-core"
+  },
+  {
+   "source": "horizontal-gene-transfer",
+   "target": "unesco_the_medinas_of_the_historic_sultanates_o",
+   "type": "dna-core"
+  },
+  {
+   "source": "horizontal-gene-transfer",
+   "target": "unesco_historic_centre_of_san_gimignano",
+   "type": "dna-core"
+  },
+  {
+   "source": "crispr-cas9-detail",
+   "target": "membrane",
+   "type": "dna-core"
+  },
+  {
+   "source": "crispr-cas9-detail",
+   "target": "public_education",
+   "type": "dna-core"
+  },
+  {
+   "source": "crispr-cas9-detail",
+   "target": "banks",
+   "type": "dna-core"
+  },
+  {
+   "source": "crispr-cas9-detail",
+   "target": "data_990_devos_foundation",
+   "type": "dna-core"
+  },
+  {
+   "source": "crispr-cas9-detail",
+   "target": "unesco_historic_centre_of_naples",
+   "type": "dna-core"
+  },
+  {
+   "source": "crispr-cas9-detail",
+   "target": "ecoprimal",
+   "type": "dna-core"
+  },
+  {
+   "source": "crispr-cas9-detail",
+   "target": "unesco_the_medinas_of_the_historic_sultanates_o",
+   "type": "dna-core"
+  },
+  {
+   "source": "crispr-cas9-detail",
+   "target": "unesco_historic_centre_of_san_gimignano",
+   "type": "dna-core"
+  },
+  {
+   "source": "rna-world-hypothesis",
+   "target": "mrna-messenger",
+   "type": "rna-mesh"
+  },
+  {
+   "source": "mrna-messenger",
+   "target": "rna-world-hypothesis",
+   "type": "rna-mesh"
+  },
+  {
+   "source": "rna-world-hypothesis",
+   "target": "trna-translator",
+   "type": "rna-mesh"
+  },
+  {
+   "source": "trna-translator",
+   "target": "rna-world-hypothesis",
+   "type": "rna-mesh"
+  },
+  {
+   "source": "rna-world-hypothesis",
+   "target": "rrna-ribosome",
+   "type": "rna-mesh"
+  },
+  {
+   "source": "rrna-ribosome",
+   "target": "rna-world-hypothesis",
+   "type": "rna-mesh"
+  },
+  {
+   "source": "rna-world-hypothesis",
+   "target": "mirna-silencer",
+   "type": "rna-mesh"
+  },
+  {
+   "source": "mirna-silencer",
+   "target": "rna-world-hypothesis",
+   "type": "rna-mesh"
+  },
+  {
+   "source": "rna-world-hypothesis",
+   "target": "reverse-transcriptase",
+   "type": "rna-mesh"
+  },
+  {
+   "source": "reverse-transcriptase",
+   "target": "rna-world-hypothesis",
+   "type": "rna-mesh"
+  },
+  {
+   "source": "rna-world-hypothesis",
+   "target": "rna-interference",
+   "type": "rna-mesh"
+  },
+  {
+   "source": "rna-interference",
+   "target": "rna-world-hypothesis",
+   "type": "rna-mesh"
+  },
+  {
+   "source": "mrna-messenger",
+   "target": "trna-translator",
+   "type": "rna-mesh"
+  },
+  {
+   "source": "trna-translator",
+   "target": "mrna-messenger",
+   "type": "rna-mesh"
+  },
+  {
+   "source": "mrna-messenger",
+   "target": "rrna-ribosome",
+   "type": "rna-mesh"
+  },
+  {
+   "source": "rrna-ribosome",
+   "target": "mrna-messenger",
+   "type": "rna-mesh"
+  },
+  {
+   "source": "mrna-messenger",
+   "target": "mirna-silencer",
+   "type": "rna-mesh"
+  },
+  {
+   "source": "mirna-silencer",
+   "target": "mrna-messenger",
+   "type": "rna-mesh"
+  },
+  {
+   "source": "mrna-messenger",
+   "target": "reverse-transcriptase",
+   "type": "rna-mesh"
+  },
+  {
+   "source": "reverse-transcriptase",
+   "target": "mrna-messenger",
+   "type": "rna-mesh"
+  },
+  {
+   "source": "mrna-messenger",
+   "target": "rna-interference",
+   "type": "rna-mesh"
+  },
+  {
+   "source": "rna-interference",
+   "target": "mrna-messenger",
+   "type": "rna-mesh"
+  },
+  {
+   "source": "trna-translator",
+   "target": "rrna-ribosome",
+   "type": "rna-mesh"
+  },
+  {
+   "source": "rrna-ribosome",
+   "target": "trna-translator",
+   "type": "rna-mesh"
+  },
+  {
+   "source": "trna-translator",
+   "target": "mirna-silencer",
+   "type": "rna-mesh"
+  },
+  {
+   "source": "mirna-silencer",
+   "target": "trna-translator",
+   "type": "rna-mesh"
+  },
+  {
+   "source": "trna-translator",
+   "target": "reverse-transcriptase",
+   "type": "rna-mesh"
+  },
+  {
+   "source": "reverse-transcriptase",
+   "target": "trna-translator",
+   "type": "rna-mesh"
+  },
+  {
+   "source": "trna-translator",
+   "target": "rna-interference",
+   "type": "rna-mesh"
+  },
+  {
+   "source": "rna-interference",
+   "target": "trna-translator",
+   "type": "rna-mesh"
+  },
+  {
+   "source": "rrna-ribosome",
+   "target": "mirna-silencer",
+   "type": "rna-mesh"
+  },
+  {
+   "source": "mirna-silencer",
+   "target": "rrna-ribosome",
+   "type": "rna-mesh"
+  },
+  {
+   "source": "rrna-ribosome",
+   "target": "reverse-transcriptase",
+   "type": "rna-mesh"
+  },
+  {
+   "source": "reverse-transcriptase",
+   "target": "rrna-ribosome",
+   "type": "rna-mesh"
+  },
+  {
+   "source": "rrna-ribosome",
+   "target": "rna-interference",
+   "type": "rna-mesh"
+  },
+  {
+   "source": "rna-interference",
+   "target": "rrna-ribosome",
+   "type": "rna-mesh"
+  },
+  {
+   "source": "mirna-silencer",
+   "target": "reverse-transcriptase",
+   "type": "rna-mesh"
+  },
+  {
+   "source": "reverse-transcriptase",
+   "target": "mirna-silencer",
+   "type": "rna-mesh"
+  },
+  {
+   "source": "mirna-silencer",
+   "target": "rna-interference",
+   "type": "rna-mesh"
+  },
+  {
+   "source": "rna-interference",
+   "target": "mirna-silencer",
+   "type": "rna-mesh"
+  },
+  {
+   "source": "reverse-transcriptase",
+   "target": "rna-interference",
+   "type": "rna-mesh"
+  },
+  {
+   "source": "rna-interference",
+   "target": "reverse-transcriptase",
+   "type": "rna-mesh"
+  },
+  {
+   "source": "rna-world-hypothesis",
+   "target": "membrane",
+   "type": "rna-core"
+  },
+  {
+   "source": "rna-world-hypothesis",
+   "target": "public_education",
+   "type": "rna-core"
+  },
+  {
+   "source": "rna-world-hypothesis",
+   "target": "banks",
+   "type": "rna-core"
+  },
+  {
+   "source": "rna-world-hypothesis",
+   "target": "data_990_devos_foundation",
+   "type": "rna-core"
+  },
+  {
+   "source": "rna-world-hypothesis",
+   "target": "unesco_historic_centre_of_naples",
+   "type": "rna-core"
+  },
+  {
+   "source": "rna-world-hypothesis",
+   "target": "ecoprimal",
+   "type": "rna-core"
+  },
+  {
+   "source": "rna-world-hypothesis",
+   "target": "unesco_the_medinas_of_the_historic_sultanates_o",
+   "type": "rna-core"
+  },
+  {
+   "source": "rna-world-hypothesis",
+   "target": "unesco_historic_centre_of_san_gimignano",
+   "type": "rna-core"
+  },
+  {
+   "source": "mrna-messenger",
+   "target": "membrane",
+   "type": "rna-core"
+  },
+  {
+   "source": "mrna-messenger",
+   "target": "public_education",
+   "type": "rna-core"
+  },
+  {
+   "source": "mrna-messenger",
+   "target": "banks",
+   "type": "rna-core"
+  },
+  {
+   "source": "mrna-messenger",
+   "target": "data_990_devos_foundation",
+   "type": "rna-core"
+  },
+  {
+   "source": "mrna-messenger",
+   "target": "unesco_historic_centre_of_naples",
+   "type": "rna-core"
+  },
+  {
+   "source": "mrna-messenger",
+   "target": "ecoprimal",
+   "type": "rna-core"
+  },
+  {
+   "source": "mrna-messenger",
+   "target": "unesco_the_medinas_of_the_historic_sultanates_o",
+   "type": "rna-core"
+  },
+  {
+   "source": "mrna-messenger",
+   "target": "unesco_historic_centre_of_san_gimignano",
+   "type": "rna-core"
+  },
+  {
+   "source": "trna-translator",
+   "target": "membrane",
+   "type": "rna-core"
+  },
+  {
+   "source": "trna-translator",
+   "target": "public_education",
+   "type": "rna-core"
+  },
+  {
+   "source": "trna-translator",
+   "target": "banks",
+   "type": "rna-core"
+  },
+  {
+   "source": "trna-translator",
+   "target": "data_990_devos_foundation",
+   "type": "rna-core"
+  },
+  {
+   "source": "trna-translator",
+   "target": "unesco_historic_centre_of_naples",
+   "type": "rna-core"
+  },
+  {
+   "source": "trna-translator",
+   "target": "ecoprimal",
+   "type": "rna-core"
+  },
+  {
+   "source": "trna-translator",
+   "target": "unesco_the_medinas_of_the_historic_sultanates_o",
+   "type": "rna-core"
+  },
+  {
+   "source": "trna-translator",
+   "target": "unesco_historic_centre_of_san_gimignano",
+   "type": "rna-core"
+  },
+  {
+   "source": "rrna-ribosome",
+   "target": "membrane",
+   "type": "rna-core"
+  },
+  {
+   "source": "rrna-ribosome",
+   "target": "public_education",
+   "type": "rna-core"
+  },
+  {
+   "source": "rrna-ribosome",
+   "target": "banks",
+   "type": "rna-core"
+  },
+  {
+   "source": "rrna-ribosome",
+   "target": "data_990_devos_foundation",
+   "type": "rna-core"
+  },
+  {
+   "source": "rrna-ribosome",
+   "target": "unesco_historic_centre_of_naples",
+   "type": "rna-core"
+  },
+  {
+   "source": "rrna-ribosome",
+   "target": "ecoprimal",
+   "type": "rna-core"
+  },
+  {
+   "source": "rrna-ribosome",
+   "target": "unesco_the_medinas_of_the_historic_sultanates_o",
+   "type": "rna-core"
+  },
+  {
+   "source": "rrna-ribosome",
+   "target": "unesco_historic_centre_of_san_gimignano",
+   "type": "rna-core"
+  },
+  {
+   "source": "mirna-silencer",
+   "target": "membrane",
+   "type": "rna-core"
+  },
+  {
+   "source": "mirna-silencer",
+   "target": "public_education",
+   "type": "rna-core"
+  },
+  {
+   "source": "mirna-silencer",
+   "target": "banks",
+   "type": "rna-core"
+  },
+  {
+   "source": "mirna-silencer",
+   "target": "data_990_devos_foundation",
+   "type": "rna-core"
+  },
+  {
+   "source": "mirna-silencer",
+   "target": "unesco_historic_centre_of_naples",
+   "type": "rna-core"
+  },
+  {
+   "source": "mirna-silencer",
+   "target": "ecoprimal",
+   "type": "rna-core"
+  },
+  {
+   "source": "mirna-silencer",
+   "target": "unesco_the_medinas_of_the_historic_sultanates_o",
+   "type": "rna-core"
+  },
+  {
+   "source": "mirna-silencer",
+   "target": "unesco_historic_centre_of_san_gimignano",
+   "type": "rna-core"
+  },
+  {
+   "source": "reverse-transcriptase",
+   "target": "membrane",
+   "type": "rna-core"
+  },
+  {
+   "source": "reverse-transcriptase",
+   "target": "public_education",
+   "type": "rna-core"
+  },
+  {
+   "source": "reverse-transcriptase",
+   "target": "banks",
+   "type": "rna-core"
+  },
+  {
+   "source": "reverse-transcriptase",
+   "target": "data_990_devos_foundation",
+   "type": "rna-core"
+  },
+  {
+   "source": "reverse-transcriptase",
+   "target": "unesco_historic_centre_of_naples",
+   "type": "rna-core"
+  },
+  {
+   "source": "reverse-transcriptase",
+   "target": "ecoprimal",
+   "type": "rna-core"
+  },
+  {
+   "source": "reverse-transcriptase",
+   "target": "unesco_the_medinas_of_the_historic_sultanates_o",
+   "type": "rna-core"
+  },
+  {
+   "source": "reverse-transcriptase",
+   "target": "unesco_historic_centre_of_san_gimignano",
+   "type": "rna-core"
+  },
+  {
+   "source": "rna-interference",
+   "target": "membrane",
+   "type": "rna-core"
+  },
+  {
+   "source": "rna-interference",
+   "target": "public_education",
+   "type": "rna-core"
+  },
+  {
+   "source": "rna-interference",
+   "target": "banks",
+   "type": "rna-core"
+  },
+  {
+   "source": "rna-interference",
+   "target": "data_990_devos_foundation",
+   "type": "rna-core"
+  },
+  {
+   "source": "rna-interference",
+   "target": "unesco_historic_centre_of_naples",
+   "type": "rna-core"
+  },
+  {
+   "source": "rna-interference",
+   "target": "ecoprimal",
+   "type": "rna-core"
+  },
+  {
+   "source": "rna-interference",
+   "target": "unesco_the_medinas_of_the_historic_sultanates_o",
+   "type": "rna-core"
+  },
+  {
+   "source": "rna-interference",
+   "target": "unesco_historic_centre_of_san_gimignano",
+   "type": "rna-core"
+  },
+  {
+   "source": "mitochondrial-eve",
+   "target": "rrna-ribosome",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "rrna-ribosome",
+   "target": "mitochondrial-eve",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "mitochondrial-eve",
+   "target": "cell-membrane-lipid-bilayer",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "cell-membrane-lipid-bilayer",
+   "target": "mitochondrial-eve",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "mitochondrial-eve",
+   "target": "mitochondria-powerhouse",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "mitochondria-powerhouse",
+   "target": "mitochondrial-eve",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "mitochondrial-eve",
+   "target": "ribosome-protein-factory",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "ribosome-protein-factory",
+   "target": "mitochondrial-eve",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "mitochondrial-eve",
+   "target": "golgi-apparatus",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "golgi-apparatus",
+   "target": "mitochondrial-eve",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "mitochondrial-eve",
+   "target": "endoplasmic-reticulum",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "endoplasmic-reticulum",
+   "target": "mitochondrial-eve",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "mitochondrial-eve",
+   "target": "lysosome-recycler",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "lysosome-recycler",
+   "target": "mitochondrial-eve",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "mitochondrial-eve",
+   "target": "apoptosis",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "apoptosis",
+   "target": "mitochondrial-eve",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "mitochondrial-eve",
+   "target": "stem-cells",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "stem-cells",
+   "target": "mitochondrial-eve",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "mitochondrial-eve",
+   "target": "immune-cell-types",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "immune-cell-types",
+   "target": "mitochondrial-eve",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "mitochondrial-eve",
+   "target": "neurons-100-billion",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "neurons-100-billion",
+   "target": "mitochondrial-eve",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "mitochondrial-eve",
+   "target": "microbiome",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "microbiome",
+   "target": "mitochondrial-eve",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "mitochondrial-eve",
+   "target": "hela-cells-immortal",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "hela-cells-immortal",
+   "target": "mitochondrial-eve",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "rrna-ribosome",
+   "target": "cell-membrane-lipid-bilayer",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "cell-membrane-lipid-bilayer",
+   "target": "rrna-ribosome",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "rrna-ribosome",
+   "target": "mitochondria-powerhouse",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "mitochondria-powerhouse",
+   "target": "rrna-ribosome",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "rrna-ribosome",
+   "target": "ribosome-protein-factory",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "ribosome-protein-factory",
+   "target": "rrna-ribosome",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "rrna-ribosome",
+   "target": "golgi-apparatus",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "golgi-apparatus",
+   "target": "rrna-ribosome",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "rrna-ribosome",
+   "target": "endoplasmic-reticulum",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "endoplasmic-reticulum",
+   "target": "rrna-ribosome",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "rrna-ribosome",
+   "target": "lysosome-recycler",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "lysosome-recycler",
+   "target": "rrna-ribosome",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "rrna-ribosome",
+   "target": "apoptosis",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "apoptosis",
+   "target": "rrna-ribosome",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "rrna-ribosome",
+   "target": "stem-cells",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "stem-cells",
+   "target": "rrna-ribosome",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "rrna-ribosome",
+   "target": "immune-cell-types",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "immune-cell-types",
+   "target": "rrna-ribosome",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "rrna-ribosome",
+   "target": "neurons-100-billion",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "neurons-100-billion",
+   "target": "rrna-ribosome",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "rrna-ribosome",
+   "target": "microbiome",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "microbiome",
+   "target": "rrna-ribosome",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "rrna-ribosome",
+   "target": "hela-cells-immortal",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "hela-cells-immortal",
+   "target": "rrna-ribosome",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "cell-membrane-lipid-bilayer",
+   "target": "mitochondria-powerhouse",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "mitochondria-powerhouse",
+   "target": "cell-membrane-lipid-bilayer",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "cell-membrane-lipid-bilayer",
+   "target": "ribosome-protein-factory",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "ribosome-protein-factory",
+   "target": "cell-membrane-lipid-bilayer",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "cell-membrane-lipid-bilayer",
+   "target": "golgi-apparatus",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "golgi-apparatus",
+   "target": "cell-membrane-lipid-bilayer",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "cell-membrane-lipid-bilayer",
+   "target": "endoplasmic-reticulum",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "endoplasmic-reticulum",
+   "target": "cell-membrane-lipid-bilayer",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "cell-membrane-lipid-bilayer",
+   "target": "lysosome-recycler",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "lysosome-recycler",
+   "target": "cell-membrane-lipid-bilayer",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "cell-membrane-lipid-bilayer",
+   "target": "apoptosis",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "apoptosis",
+   "target": "cell-membrane-lipid-bilayer",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "cell-membrane-lipid-bilayer",
+   "target": "stem-cells",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "stem-cells",
+   "target": "cell-membrane-lipid-bilayer",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "cell-membrane-lipid-bilayer",
+   "target": "immune-cell-types",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "immune-cell-types",
+   "target": "cell-membrane-lipid-bilayer",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "cell-membrane-lipid-bilayer",
+   "target": "neurons-100-billion",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "neurons-100-billion",
+   "target": "cell-membrane-lipid-bilayer",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "cell-membrane-lipid-bilayer",
+   "target": "microbiome",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "microbiome",
+   "target": "cell-membrane-lipid-bilayer",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "cell-membrane-lipid-bilayer",
+   "target": "hela-cells-immortal",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "hela-cells-immortal",
+   "target": "cell-membrane-lipid-bilayer",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "mitochondria-powerhouse",
+   "target": "ribosome-protein-factory",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "ribosome-protein-factory",
+   "target": "mitochondria-powerhouse",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "mitochondria-powerhouse",
+   "target": "golgi-apparatus",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "golgi-apparatus",
+   "target": "mitochondria-powerhouse",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "mitochondria-powerhouse",
+   "target": "endoplasmic-reticulum",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "endoplasmic-reticulum",
+   "target": "mitochondria-powerhouse",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "mitochondria-powerhouse",
+   "target": "lysosome-recycler",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "lysosome-recycler",
+   "target": "mitochondria-powerhouse",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "mitochondria-powerhouse",
+   "target": "apoptosis",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "apoptosis",
+   "target": "mitochondria-powerhouse",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "mitochondria-powerhouse",
+   "target": "stem-cells",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "stem-cells",
+   "target": "mitochondria-powerhouse",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "mitochondria-powerhouse",
+   "target": "immune-cell-types",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "immune-cell-types",
+   "target": "mitochondria-powerhouse",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "mitochondria-powerhouse",
+   "target": "neurons-100-billion",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "neurons-100-billion",
+   "target": "mitochondria-powerhouse",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "mitochondria-powerhouse",
+   "target": "microbiome",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "microbiome",
+   "target": "mitochondria-powerhouse",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "mitochondria-powerhouse",
+   "target": "hela-cells-immortal",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "hela-cells-immortal",
+   "target": "mitochondria-powerhouse",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "ribosome-protein-factory",
+   "target": "golgi-apparatus",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "golgi-apparatus",
+   "target": "ribosome-protein-factory",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "ribosome-protein-factory",
+   "target": "endoplasmic-reticulum",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "endoplasmic-reticulum",
+   "target": "ribosome-protein-factory",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "ribosome-protein-factory",
+   "target": "lysosome-recycler",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "lysosome-recycler",
+   "target": "ribosome-protein-factory",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "ribosome-protein-factory",
+   "target": "apoptosis",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "apoptosis",
+   "target": "ribosome-protein-factory",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "ribosome-protein-factory",
+   "target": "stem-cells",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "stem-cells",
+   "target": "ribosome-protein-factory",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "ribosome-protein-factory",
+   "target": "immune-cell-types",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "immune-cell-types",
+   "target": "ribosome-protein-factory",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "ribosome-protein-factory",
+   "target": "neurons-100-billion",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "neurons-100-billion",
+   "target": "ribosome-protein-factory",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "ribosome-protein-factory",
+   "target": "microbiome",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "microbiome",
+   "target": "ribosome-protein-factory",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "ribosome-protein-factory",
+   "target": "hela-cells-immortal",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "hela-cells-immortal",
+   "target": "ribosome-protein-factory",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "golgi-apparatus",
+   "target": "endoplasmic-reticulum",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "endoplasmic-reticulum",
+   "target": "golgi-apparatus",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "golgi-apparatus",
+   "target": "lysosome-recycler",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "lysosome-recycler",
+   "target": "golgi-apparatus",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "golgi-apparatus",
+   "target": "apoptosis",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "apoptosis",
+   "target": "golgi-apparatus",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "golgi-apparatus",
+   "target": "stem-cells",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "stem-cells",
+   "target": "golgi-apparatus",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "golgi-apparatus",
+   "target": "immune-cell-types",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "immune-cell-types",
+   "target": "golgi-apparatus",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "golgi-apparatus",
+   "target": "neurons-100-billion",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "neurons-100-billion",
+   "target": "golgi-apparatus",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "golgi-apparatus",
+   "target": "microbiome",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "microbiome",
+   "target": "golgi-apparatus",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "golgi-apparatus",
+   "target": "hela-cells-immortal",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "hela-cells-immortal",
+   "target": "golgi-apparatus",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "endoplasmic-reticulum",
+   "target": "lysosome-recycler",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "lysosome-recycler",
+   "target": "endoplasmic-reticulum",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "endoplasmic-reticulum",
+   "target": "apoptosis",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "apoptosis",
+   "target": "endoplasmic-reticulum",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "endoplasmic-reticulum",
+   "target": "stem-cells",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "stem-cells",
+   "target": "endoplasmic-reticulum",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "endoplasmic-reticulum",
+   "target": "immune-cell-types",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "immune-cell-types",
+   "target": "endoplasmic-reticulum",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "endoplasmic-reticulum",
+   "target": "neurons-100-billion",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "neurons-100-billion",
+   "target": "endoplasmic-reticulum",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "endoplasmic-reticulum",
+   "target": "microbiome",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "microbiome",
+   "target": "endoplasmic-reticulum",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "endoplasmic-reticulum",
+   "target": "hela-cells-immortal",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "hela-cells-immortal",
+   "target": "endoplasmic-reticulum",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "lysosome-recycler",
+   "target": "apoptosis",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "apoptosis",
+   "target": "lysosome-recycler",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "lysosome-recycler",
+   "target": "stem-cells",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "stem-cells",
+   "target": "lysosome-recycler",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "lysosome-recycler",
+   "target": "immune-cell-types",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "immune-cell-types",
+   "target": "lysosome-recycler",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "lysosome-recycler",
+   "target": "neurons-100-billion",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "neurons-100-billion",
+   "target": "lysosome-recycler",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "lysosome-recycler",
+   "target": "microbiome",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "microbiome",
+   "target": "lysosome-recycler",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "lysosome-recycler",
+   "target": "hela-cells-immortal",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "hela-cells-immortal",
+   "target": "lysosome-recycler",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "apoptosis",
+   "target": "stem-cells",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "stem-cells",
+   "target": "apoptosis",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "apoptosis",
+   "target": "immune-cell-types",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "immune-cell-types",
+   "target": "apoptosis",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "apoptosis",
+   "target": "neurons-100-billion",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "neurons-100-billion",
+   "target": "apoptosis",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "apoptosis",
+   "target": "microbiome",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "microbiome",
+   "target": "apoptosis",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "apoptosis",
+   "target": "hela-cells-immortal",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "hela-cells-immortal",
+   "target": "apoptosis",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "stem-cells",
+   "target": "immune-cell-types",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "immune-cell-types",
+   "target": "stem-cells",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "stem-cells",
+   "target": "neurons-100-billion",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "neurons-100-billion",
+   "target": "stem-cells",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "stem-cells",
+   "target": "microbiome",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "microbiome",
+   "target": "stem-cells",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "stem-cells",
+   "target": "hela-cells-immortal",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "hela-cells-immortal",
+   "target": "stem-cells",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "immune-cell-types",
+   "target": "neurons-100-billion",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "neurons-100-billion",
+   "target": "immune-cell-types",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "immune-cell-types",
+   "target": "microbiome",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "microbiome",
+   "target": "immune-cell-types",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "immune-cell-types",
+   "target": "hela-cells-immortal",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "hela-cells-immortal",
+   "target": "immune-cell-types",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "neurons-100-billion",
+   "target": "microbiome",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "microbiome",
+   "target": "neurons-100-billion",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "neurons-100-billion",
+   "target": "hela-cells-immortal",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "hela-cells-immortal",
+   "target": "neurons-100-billion",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "microbiome",
+   "target": "hela-cells-immortal",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "hela-cells-immortal",
+   "target": "microbiome",
+   "type": "cell-mesh"
+  },
+  {
+   "source": "mitochondrial-eve",
+   "target": "membrane",
+   "type": "cell-core"
+  },
+  {
+   "source": "mitochondrial-eve",
+   "target": "public_education",
+   "type": "cell-core"
+  },
+  {
+   "source": "mitochondrial-eve",
+   "target": "banks",
+   "type": "cell-core"
+  },
+  {
+   "source": "mitochondrial-eve",
+   "target": "data_990_devos_foundation",
+   "type": "cell-core"
+  },
+  {
+   "source": "mitochondrial-eve",
+   "target": "unesco_historic_centre_of_naples",
+   "type": "cell-core"
+  },
+  {
+   "source": "mitochondrial-eve",
+   "target": "ecoprimal",
+   "type": "cell-core"
+  },
+  {
+   "source": "mitochondrial-eve",
+   "target": "unesco_the_medinas_of_the_historic_sultanates_o",
+   "type": "cell-core"
+  },
+  {
+   "source": "mitochondrial-eve",
+   "target": "unesco_historic_centre_of_san_gimignano",
+   "type": "cell-core"
+  },
+  {
+   "source": "rrna-ribosome",
+   "target": "membrane",
+   "type": "cell-core"
+  },
+  {
+   "source": "rrna-ribosome",
+   "target": "public_education",
+   "type": "cell-core"
+  },
+  {
+   "source": "rrna-ribosome",
+   "target": "banks",
+   "type": "cell-core"
+  },
+  {
+   "source": "rrna-ribosome",
+   "target": "data_990_devos_foundation",
+   "type": "cell-core"
+  },
+  {
+   "source": "rrna-ribosome",
+   "target": "unesco_historic_centre_of_naples",
+   "type": "cell-core"
+  },
+  {
+   "source": "rrna-ribosome",
+   "target": "ecoprimal",
+   "type": "cell-core"
+  },
+  {
+   "source": "rrna-ribosome",
+   "target": "unesco_the_medinas_of_the_historic_sultanates_o",
+   "type": "cell-core"
+  },
+  {
+   "source": "rrna-ribosome",
+   "target": "unesco_historic_centre_of_san_gimignano",
+   "type": "cell-core"
+  },
+  {
+   "source": "cell-membrane-lipid-bilayer",
+   "target": "membrane",
+   "type": "cell-core"
+  },
+  {
+   "source": "cell-membrane-lipid-bilayer",
+   "target": "public_education",
+   "type": "cell-core"
+  },
+  {
+   "source": "cell-membrane-lipid-bilayer",
+   "target": "banks",
+   "type": "cell-core"
+  },
+  {
+   "source": "cell-membrane-lipid-bilayer",
+   "target": "data_990_devos_foundation",
+   "type": "cell-core"
+  },
+  {
+   "source": "cell-membrane-lipid-bilayer",
+   "target": "unesco_historic_centre_of_naples",
+   "type": "cell-core"
+  },
+  {
+   "source": "cell-membrane-lipid-bilayer",
+   "target": "ecoprimal",
+   "type": "cell-core"
+  },
+  {
+   "source": "cell-membrane-lipid-bilayer",
+   "target": "unesco_the_medinas_of_the_historic_sultanates_o",
+   "type": "cell-core"
+  },
+  {
+   "source": "cell-membrane-lipid-bilayer",
+   "target": "unesco_historic_centre_of_san_gimignano",
+   "type": "cell-core"
+  },
+  {
+   "source": "mitochondria-powerhouse",
+   "target": "membrane",
+   "type": "cell-core"
+  },
+  {
+   "source": "mitochondria-powerhouse",
+   "target": "public_education",
+   "type": "cell-core"
+  },
+  {
+   "source": "mitochondria-powerhouse",
+   "target": "banks",
+   "type": "cell-core"
+  },
+  {
+   "source": "mitochondria-powerhouse",
+   "target": "data_990_devos_foundation",
+   "type": "cell-core"
+  },
+  {
+   "source": "mitochondria-powerhouse",
+   "target": "unesco_historic_centre_of_naples",
+   "type": "cell-core"
+  },
+  {
+   "source": "mitochondria-powerhouse",
+   "target": "ecoprimal",
+   "type": "cell-core"
+  },
+  {
+   "source": "mitochondria-powerhouse",
+   "target": "unesco_the_medinas_of_the_historic_sultanates_o",
+   "type": "cell-core"
+  },
+  {
+   "source": "mitochondria-powerhouse",
+   "target": "unesco_historic_centre_of_san_gimignano",
+   "type": "cell-core"
+  },
+  {
+   "source": "ribosome-protein-factory",
+   "target": "membrane",
+   "type": "cell-core"
+  },
+  {
+   "source": "ribosome-protein-factory",
+   "target": "public_education",
+   "type": "cell-core"
+  },
+  {
+   "source": "ribosome-protein-factory",
+   "target": "banks",
+   "type": "cell-core"
+  },
+  {
+   "source": "ribosome-protein-factory",
+   "target": "data_990_devos_foundation",
+   "type": "cell-core"
+  },
+  {
+   "source": "ribosome-protein-factory",
+   "target": "unesco_historic_centre_of_naples",
+   "type": "cell-core"
+  },
+  {
+   "source": "ribosome-protein-factory",
+   "target": "ecoprimal",
+   "type": "cell-core"
+  },
+  {
+   "source": "ribosome-protein-factory",
+   "target": "unesco_the_medinas_of_the_historic_sultanates_o",
+   "type": "cell-core"
+  },
+  {
+   "source": "ribosome-protein-factory",
+   "target": "unesco_historic_centre_of_san_gimignano",
+   "type": "cell-core"
+  },
+  {
+   "source": "golgi-apparatus",
+   "target": "membrane",
+   "type": "cell-core"
+  },
+  {
+   "source": "golgi-apparatus",
+   "target": "public_education",
+   "type": "cell-core"
+  },
+  {
+   "source": "golgi-apparatus",
+   "target": "banks",
+   "type": "cell-core"
+  },
+  {
+   "source": "golgi-apparatus",
+   "target": "data_990_devos_foundation",
+   "type": "cell-core"
+  },
+  {
+   "source": "golgi-apparatus",
+   "target": "unesco_historic_centre_of_naples",
+   "type": "cell-core"
+  },
+  {
+   "source": "golgi-apparatus",
+   "target": "ecoprimal",
+   "type": "cell-core"
+  },
+  {
+   "source": "golgi-apparatus",
+   "target": "unesco_the_medinas_of_the_historic_sultanates_o",
+   "type": "cell-core"
+  },
+  {
+   "source": "golgi-apparatus",
+   "target": "unesco_historic_centre_of_san_gimignano",
+   "type": "cell-core"
+  },
+  {
+   "source": "endoplasmic-reticulum",
+   "target": "membrane",
+   "type": "cell-core"
+  },
+  {
+   "source": "endoplasmic-reticulum",
+   "target": "public_education",
+   "type": "cell-core"
+  },
+  {
+   "source": "endoplasmic-reticulum",
+   "target": "banks",
+   "type": "cell-core"
+  },
+  {
+   "source": "endoplasmic-reticulum",
+   "target": "data_990_devos_foundation",
+   "type": "cell-core"
+  },
+  {
+   "source": "endoplasmic-reticulum",
+   "target": "unesco_historic_centre_of_naples",
+   "type": "cell-core"
+  },
+  {
+   "source": "endoplasmic-reticulum",
+   "target": "ecoprimal",
+   "type": "cell-core"
+  },
+  {
+   "source": "endoplasmic-reticulum",
+   "target": "unesco_the_medinas_of_the_historic_sultanates_o",
+   "type": "cell-core"
+  },
+  {
+   "source": "endoplasmic-reticulum",
+   "target": "unesco_historic_centre_of_san_gimignano",
+   "type": "cell-core"
+  },
+  {
+   "source": "lysosome-recycler",
+   "target": "membrane",
+   "type": "cell-core"
+  },
+  {
+   "source": "lysosome-recycler",
+   "target": "public_education",
+   "type": "cell-core"
+  },
+  {
+   "source": "lysosome-recycler",
+   "target": "banks",
+   "type": "cell-core"
+  },
+  {
+   "source": "lysosome-recycler",
+   "target": "data_990_devos_foundation",
+   "type": "cell-core"
+  },
+  {
+   "source": "lysosome-recycler",
+   "target": "unesco_historic_centre_of_naples",
+   "type": "cell-core"
+  },
+  {
+   "source": "lysosome-recycler",
+   "target": "ecoprimal",
+   "type": "cell-core"
+  },
+  {
+   "source": "lysosome-recycler",
+   "target": "unesco_the_medinas_of_the_historic_sultanates_o",
+   "type": "cell-core"
+  },
+  {
+   "source": "lysosome-recycler",
+   "target": "unesco_historic_centre_of_san_gimignano",
+   "type": "cell-core"
+  },
+  {
+   "source": "apoptosis",
+   "target": "membrane",
+   "type": "cell-core"
+  },
+  {
+   "source": "apoptosis",
+   "target": "public_education",
+   "type": "cell-core"
+  },
+  {
+   "source": "apoptosis",
+   "target": "banks",
+   "type": "cell-core"
+  },
+  {
+   "source": "apoptosis",
+   "target": "data_990_devos_foundation",
+   "type": "cell-core"
+  },
+  {
+   "source": "apoptosis",
+   "target": "unesco_historic_centre_of_naples",
+   "type": "cell-core"
+  },
+  {
+   "source": "apoptosis",
+   "target": "ecoprimal",
+   "type": "cell-core"
+  },
+  {
+   "source": "apoptosis",
+   "target": "unesco_the_medinas_of_the_historic_sultanates_o",
+   "type": "cell-core"
+  },
+  {
+   "source": "apoptosis",
+   "target": "unesco_historic_centre_of_san_gimignano",
+   "type": "cell-core"
+  },
+  {
+   "source": "stem-cells",
+   "target": "membrane",
+   "type": "cell-core"
+  },
+  {
+   "source": "stem-cells",
+   "target": "public_education",
+   "type": "cell-core"
+  },
+  {
+   "source": "stem-cells",
+   "target": "banks",
+   "type": "cell-core"
+  },
+  {
+   "source": "stem-cells",
+   "target": "data_990_devos_foundation",
+   "type": "cell-core"
+  },
+  {
+   "source": "stem-cells",
+   "target": "unesco_historic_centre_of_naples",
+   "type": "cell-core"
+  },
+  {
+   "source": "stem-cells",
+   "target": "ecoprimal",
+   "type": "cell-core"
+  },
+  {
+   "source": "stem-cells",
+   "target": "unesco_the_medinas_of_the_historic_sultanates_o",
+   "type": "cell-core"
+  },
+  {
+   "source": "stem-cells",
+   "target": "unesco_historic_centre_of_san_gimignano",
+   "type": "cell-core"
+  },
+  {
+   "source": "immune-cell-types",
+   "target": "membrane",
+   "type": "cell-core"
+  },
+  {
+   "source": "immune-cell-types",
+   "target": "public_education",
+   "type": "cell-core"
+  },
+  {
+   "source": "immune-cell-types",
+   "target": "banks",
+   "type": "cell-core"
+  },
+  {
+   "source": "immune-cell-types",
+   "target": "data_990_devos_foundation",
+   "type": "cell-core"
+  },
+  {
+   "source": "immune-cell-types",
+   "target": "unesco_historic_centre_of_naples",
+   "type": "cell-core"
+  },
+  {
+   "source": "immune-cell-types",
+   "target": "ecoprimal",
+   "type": "cell-core"
+  },
+  {
+   "source": "immune-cell-types",
+   "target": "unesco_the_medinas_of_the_historic_sultanates_o",
+   "type": "cell-core"
+  },
+  {
+   "source": "immune-cell-types",
+   "target": "unesco_historic_centre_of_san_gimignano",
+   "type": "cell-core"
+  },
+  {
+   "source": "neurons-100-billion",
+   "target": "membrane",
+   "type": "cell-core"
+  },
+  {
+   "source": "neurons-100-billion",
+   "target": "public_education",
+   "type": "cell-core"
+  },
+  {
+   "source": "neurons-100-billion",
+   "target": "banks",
+   "type": "cell-core"
+  },
+  {
+   "source": "neurons-100-billion",
+   "target": "data_990_devos_foundation",
+   "type": "cell-core"
+  },
+  {
+   "source": "neurons-100-billion",
+   "target": "unesco_historic_centre_of_naples",
+   "type": "cell-core"
+  },
+  {
+   "source": "neurons-100-billion",
+   "target": "ecoprimal",
+   "type": "cell-core"
+  },
+  {
+   "source": "neurons-100-billion",
+   "target": "unesco_the_medinas_of_the_historic_sultanates_o",
+   "type": "cell-core"
+  },
+  {
+   "source": "neurons-100-billion",
+   "target": "unesco_historic_centre_of_san_gimignano",
+   "type": "cell-core"
+  },
+  {
+   "source": "microbiome",
+   "target": "membrane",
+   "type": "cell-core"
+  },
+  {
+   "source": "microbiome",
+   "target": "public_education",
+   "type": "cell-core"
+  },
+  {
+   "source": "microbiome",
+   "target": "banks",
+   "type": "cell-core"
+  },
+  {
+   "source": "microbiome",
+   "target": "data_990_devos_foundation",
+   "type": "cell-core"
+  },
+  {
+   "source": "microbiome",
+   "target": "unesco_historic_centre_of_naples",
+   "type": "cell-core"
+  },
+  {
+   "source": "microbiome",
+   "target": "ecoprimal",
+   "type": "cell-core"
+  },
+  {
+   "source": "microbiome",
+   "target": "unesco_the_medinas_of_the_historic_sultanates_o",
+   "type": "cell-core"
+  },
+  {
+   "source": "microbiome",
+   "target": "unesco_historic_centre_of_san_gimignano",
+   "type": "cell-core"
+  },
+  {
+   "source": "hela-cells-immortal",
+   "target": "membrane",
+   "type": "cell-core"
+  },
+  {
+   "source": "hela-cells-immortal",
+   "target": "public_education",
+   "type": "cell-core"
+  },
+  {
+   "source": "hela-cells-immortal",
+   "target": "banks",
+   "type": "cell-core"
+  },
+  {
+   "source": "hela-cells-immortal",
+   "target": "data_990_devos_foundation",
+   "type": "cell-core"
+  },
+  {
+   "source": "hela-cells-immortal",
+   "target": "unesco_historic_centre_of_naples",
+   "type": "cell-core"
+  },
+  {
+   "source": "hela-cells-immortal",
+   "target": "ecoprimal",
+   "type": "cell-core"
+  },
+  {
+   "source": "hela-cells-immortal",
+   "target": "unesco_the_medinas_of_the_historic_sultanates_o",
+   "type": "cell-core"
+  },
+  {
+   "source": "hela-cells-immortal",
+   "target": "unesco_historic_centre_of_san_gimignano",
+   "type": "cell-core"
+  },
+  {
+   "source": "planck-length",
+   "target": "observable-universe",
+   "type": "scale-mesh"
+  },
+  {
+   "source": "observable-universe",
+   "target": "planck-length",
+   "type": "scale-mesh"
+  },
+  {
+   "source": "planck-length",
+   "target": "powers-of-ten",
+   "type": "scale-mesh"
+  },
+  {
+   "source": "powers-of-ten",
+   "target": "planck-length",
+   "type": "scale-mesh"
+  },
+  {
+   "source": "planck-length",
+   "target": "atom-to-universe",
+   "type": "scale-mesh"
+  },
+  {
+   "source": "atom-to-universe",
+   "target": "planck-length",
+   "type": "scale-mesh"
+  },
+  {
+   "source": "planck-length",
+   "target": "fractal-geometry",
+   "type": "scale-mesh"
+  },
+  {
+   "source": "fractal-geometry",
+   "target": "planck-length",
+   "type": "scale-mesh"
+  },
+  {
+   "source": "observable-universe",
+   "target": "powers-of-ten",
+   "type": "scale-mesh"
+  },
+  {
+   "source": "powers-of-ten",
+   "target": "observable-universe",
+   "type": "scale-mesh"
+  },
+  {
+   "source": "observable-universe",
+   "target": "atom-to-universe",
+   "type": "scale-mesh"
+  },
+  {
+   "source": "atom-to-universe",
+   "target": "observable-universe",
+   "type": "scale-mesh"
+  },
+  {
+   "source": "observable-universe",
+   "target": "fractal-geometry",
+   "type": "scale-mesh"
+  },
+  {
+   "source": "fractal-geometry",
+   "target": "observable-universe",
+   "type": "scale-mesh"
+  },
+  {
+   "source": "powers-of-ten",
+   "target": "atom-to-universe",
+   "type": "scale-mesh"
+  },
+  {
+   "source": "atom-to-universe",
+   "target": "powers-of-ten",
+   "type": "scale-mesh"
+  },
+  {
+   "source": "powers-of-ten",
+   "target": "fractal-geometry",
+   "type": "scale-mesh"
+  },
+  {
+   "source": "fractal-geometry",
+   "target": "powers-of-ten",
+   "type": "scale-mesh"
+  },
+  {
+   "source": "atom-to-universe",
+   "target": "fractal-geometry",
+   "type": "scale-mesh"
+  },
+  {
+   "source": "fractal-geometry",
+   "target": "atom-to-universe",
+   "type": "scale-mesh"
+  },
+  {
+   "source": "planck-length",
+   "target": "membrane",
+   "type": "scale-core"
+  },
+  {
+   "source": "planck-length",
+   "target": "public_education",
+   "type": "scale-core"
+  },
+  {
+   "source": "planck-length",
+   "target": "banks",
+   "type": "scale-core"
+  },
+  {
+   "source": "planck-length",
+   "target": "data_990_devos_foundation",
+   "type": "scale-core"
+  },
+  {
+   "source": "planck-length",
+   "target": "unesco_historic_centre_of_naples",
+   "type": "scale-core"
+  },
+  {
+   "source": "planck-length",
+   "target": "ecoprimal",
+   "type": "scale-core"
+  },
+  {
+   "source": "planck-length",
+   "target": "unesco_the_medinas_of_the_historic_sultanates_o",
+   "type": "scale-core"
+  },
+  {
+   "source": "planck-length",
+   "target": "unesco_historic_centre_of_san_gimignano",
+   "type": "scale-core"
+  },
+  {
+   "source": "observable-universe",
+   "target": "membrane",
+   "type": "scale-core"
+  },
+  {
+   "source": "observable-universe",
+   "target": "public_education",
+   "type": "scale-core"
+  },
+  {
+   "source": "observable-universe",
+   "target": "banks",
+   "type": "scale-core"
+  },
+  {
+   "source": "observable-universe",
+   "target": "data_990_devos_foundation",
+   "type": "scale-core"
+  },
+  {
+   "source": "observable-universe",
+   "target": "unesco_historic_centre_of_naples",
+   "type": "scale-core"
+  },
+  {
+   "source": "observable-universe",
+   "target": "ecoprimal",
+   "type": "scale-core"
+  },
+  {
+   "source": "observable-universe",
+   "target": "unesco_the_medinas_of_the_historic_sultanates_o",
+   "type": "scale-core"
+  },
+  {
+   "source": "observable-universe",
+   "target": "unesco_historic_centre_of_san_gimignano",
+   "type": "scale-core"
+  },
+  {
+   "source": "powers-of-ten",
+   "target": "membrane",
+   "type": "scale-core"
+  },
+  {
+   "source": "powers-of-ten",
+   "target": "public_education",
+   "type": "scale-core"
+  },
+  {
+   "source": "powers-of-ten",
+   "target": "banks",
+   "type": "scale-core"
+  },
+  {
+   "source": "powers-of-ten",
+   "target": "data_990_devos_foundation",
+   "type": "scale-core"
+  },
+  {
+   "source": "powers-of-ten",
+   "target": "unesco_historic_centre_of_naples",
+   "type": "scale-core"
+  },
+  {
+   "source": "powers-of-ten",
+   "target": "ecoprimal",
+   "type": "scale-core"
+  },
+  {
+   "source": "powers-of-ten",
+   "target": "unesco_the_medinas_of_the_historic_sultanates_o",
+   "type": "scale-core"
+  },
+  {
+   "source": "powers-of-ten",
+   "target": "unesco_historic_centre_of_san_gimignano",
+   "type": "scale-core"
+  },
+  {
+   "source": "atom-to-universe",
+   "target": "membrane",
+   "type": "scale-core"
+  },
+  {
+   "source": "atom-to-universe",
+   "target": "public_education",
+   "type": "scale-core"
+  },
+  {
+   "source": "atom-to-universe",
+   "target": "banks",
+   "type": "scale-core"
+  },
+  {
+   "source": "atom-to-universe",
+   "target": "data_990_devos_foundation",
+   "type": "scale-core"
+  },
+  {
+   "source": "atom-to-universe",
+   "target": "unesco_historic_centre_of_naples",
+   "type": "scale-core"
+  },
+  {
+   "source": "atom-to-universe",
+   "target": "ecoprimal",
+   "type": "scale-core"
+  },
+  {
+   "source": "atom-to-universe",
+   "target": "unesco_the_medinas_of_the_historic_sultanates_o",
+   "type": "scale-core"
+  },
+  {
+   "source": "atom-to-universe",
+   "target": "unesco_historic_centre_of_san_gimignano",
+   "type": "scale-core"
+  },
+  {
+   "source": "fractal-geometry",
+   "target": "membrane",
+   "type": "scale-core"
+  },
+  {
+   "source": "fractal-geometry",
+   "target": "public_education",
+   "type": "scale-core"
+  },
+  {
+   "source": "fractal-geometry",
+   "target": "banks",
+   "type": "scale-core"
+  },
+  {
+   "source": "fractal-geometry",
+   "target": "data_990_devos_foundation",
+   "type": "scale-core"
+  },
+  {
+   "source": "fractal-geometry",
+   "target": "unesco_historic_centre_of_naples",
+   "type": "scale-core"
+  },
+  {
+   "source": "fractal-geometry",
+   "target": "ecoprimal",
+   "type": "scale-core"
+  },
+  {
+   "source": "fractal-geometry",
+   "target": "unesco_the_medinas_of_the_historic_sultanates_o",
+   "type": "scale-core"
+  },
+  {
+   "source": "fractal-geometry",
+   "target": "unesco_historic_centre_of_san_gimignano",
+   "type": "scale-core"
+  },
+  {
+   "source": "big-bang",
+   "target": "stellar-nucleosynthesis",
+   "type": "great-chain-of-being"
+  },
+  {
+   "source": "stellar-nucleosynthesis",
+   "target": "big-bang",
+   "type": "great-chain-of-being"
+  },
+  {
+   "source": "stellar-nucleosynthesis",
+   "target": "supernova",
+   "type": "great-chain-of-being"
+  },
+  {
+   "source": "supernova",
+   "target": "stellar-nucleosynthesis",
+   "type": "great-chain-of-being"
+  },
+  {
+   "source": "supernova",
+   "target": "four-bases-atcg",
+   "type": "great-chain-of-being"
+  },
+  {
+   "source": "four-bases-atcg",
+   "target": "supernova",
+   "type": "great-chain-of-being"
+  },
+  {
+   "source": "four-bases-atcg",
+   "target": "rna-world-hypothesis",
+   "type": "great-chain-of-being"
+  },
+  {
+   "source": "rna-world-hypothesis",
+   "target": "four-bases-atcg",
+   "type": "great-chain-of-being"
+  },
+  {
+   "source": "rna-world-hypothesis",
+   "target": "cell-membrane-lipid-bilayer",
+   "type": "great-chain-of-being"
+  },
+  {
+   "source": "cell-membrane-lipid-bilayer",
+   "target": "rna-world-hypothesis",
+   "type": "great-chain-of-being"
+  },
+  {
+   "source": "cell-membrane-lipid-bilayer",
+   "target": "mitochondria-powerhouse",
+   "type": "great-chain-of-being"
+  },
+  {
+   "source": "mitochondria-powerhouse",
+   "target": "cell-membrane-lipid-bilayer",
+   "type": "great-chain-of-being"
+  },
+  {
+   "source": "mitochondria-powerhouse",
+   "target": "neurons-100-billion",
+   "type": "great-chain-of-being"
+  },
+  {
+   "source": "neurons-100-billion",
+   "target": "mitochondria-powerhouse",
+   "type": "great-chain-of-being"
+  },
+  {
+   "source": "neurons-100-billion",
+   "target": "microbiome",
+   "type": "great-chain-of-being"
+  },
+  {
+   "source": "microbiome",
+   "target": "neurons-100-billion",
+   "type": "great-chain-of-being"
+  },
+  {
+   "source": "cell-membrane-lipid-bilayer",
+   "target": "membrane",
+   "type": "membrane-is-membrane"
+  },
+  {
+   "source": "membrane",
+   "target": "cell-membrane-lipid-bilayer",
+   "type": "membrane-is-membrane"
+  },
+  {
+   "source": "golgi-apparatus",
+   "target": "infra-golgiBody",
+   "type": "golgi-namesake"
+  },
+  {
+   "source": "big-bang",
+   "target": "planck-length",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "big-bang",
+   "target": "observable-universe",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "big-bang",
+   "target": "powers-of-ten",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "big-bang",
+   "target": "atom-to-universe",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "big-bang",
+   "target": "fractal-geometry",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "cosmic-microwave-background",
+   "target": "planck-length",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "cosmic-microwave-background",
+   "target": "observable-universe",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "cosmic-microwave-background",
+   "target": "powers-of-ten",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "cosmic-microwave-background",
+   "target": "atom-to-universe",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "cosmic-microwave-background",
+   "target": "fractal-geometry",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "stellar-nucleosynthesis",
+   "target": "planck-length",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "stellar-nucleosynthesis",
+   "target": "observable-universe",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "stellar-nucleosynthesis",
+   "target": "powers-of-ten",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "stellar-nucleosynthesis",
+   "target": "atom-to-universe",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "stellar-nucleosynthesis",
+   "target": "fractal-geometry",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "neutron-star",
+   "target": "planck-length",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "neutron-star",
+   "target": "observable-universe",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "neutron-star",
+   "target": "powers-of-ten",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "neutron-star",
+   "target": "atom-to-universe",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "neutron-star",
+   "target": "fractal-geometry",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "black-hole-m87",
+   "target": "planck-length",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "black-hole-m87",
+   "target": "observable-universe",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "black-hole-m87",
+   "target": "powers-of-ten",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "black-hole-m87",
+   "target": "atom-to-universe",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "black-hole-m87",
+   "target": "fractal-geometry",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "gravitational-waves",
+   "target": "planck-length",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "gravitational-waves",
+   "target": "observable-universe",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "gravitational-waves",
+   "target": "powers-of-ten",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "gravitational-waves",
+   "target": "atom-to-universe",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "gravitational-waves",
+   "target": "fractal-geometry",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "dark-matter",
+   "target": "planck-length",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "dark-matter",
+   "target": "observable-universe",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "dark-matter",
+   "target": "powers-of-ten",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "dark-matter",
+   "target": "atom-to-universe",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "dark-matter",
+   "target": "fractal-geometry",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "dark-energy",
+   "target": "planck-length",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "dark-energy",
+   "target": "observable-universe",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "dark-energy",
+   "target": "powers-of-ten",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "dark-energy",
+   "target": "atom-to-universe",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "dark-energy",
+   "target": "fractal-geometry",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "exoplanets-kepler",
+   "target": "planck-length",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "exoplanets-kepler",
+   "target": "observable-universe",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "exoplanets-kepler",
+   "target": "powers-of-ten",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "exoplanets-kepler",
+   "target": "atom-to-universe",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "exoplanets-kepler",
+   "target": "fractal-geometry",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "fermi-paradox",
+   "target": "planck-length",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "fermi-paradox",
+   "target": "observable-universe",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "fermi-paradox",
+   "target": "powers-of-ten",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "fermi-paradox",
+   "target": "atom-to-universe",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "fermi-paradox",
+   "target": "fractal-geometry",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "carl-sagan-billions",
+   "target": "planck-length",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "carl-sagan-billions",
+   "target": "observable-universe",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "carl-sagan-billions",
+   "target": "powers-of-ten",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "carl-sagan-billions",
+   "target": "atom-to-universe",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "carl-sagan-billions",
+   "target": "fractal-geometry",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "neil-degrasse-tyson",
+   "target": "planck-length",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "neil-degrasse-tyson",
+   "target": "observable-universe",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "neil-degrasse-tyson",
+   "target": "powers-of-ten",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "neil-degrasse-tyson",
+   "target": "atom-to-universe",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "neil-degrasse-tyson",
+   "target": "fractal-geometry",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "multiverse-hypothesis",
+   "target": "planck-length",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "multiverse-hypothesis",
+   "target": "observable-universe",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "multiverse-hypothesis",
+   "target": "powers-of-ten",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "multiverse-hypothesis",
+   "target": "atom-to-universe",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "multiverse-hypothesis",
+   "target": "fractal-geometry",
+   "type": "scale-bridge"
+  },
+  {
+   "source": "dna-double-helix",
+   "target": "rna-world-hypothesis",
+   "type": "central-dogma"
+  },
+  {
+   "source": "dna-double-helix",
+   "target": "mrna-messenger",
+   "type": "central-dogma"
+  },
+  {
+   "source": "dna-double-helix",
+   "target": "trna-translator",
+   "type": "central-dogma"
+  },
+  {
+   "source": "dna-double-helix",
+   "target": "rrna-ribosome",
+   "type": "central-dogma"
+  },
+  {
+   "source": "dna-double-helix",
+   "target": "mirna-silencer",
+   "type": "central-dogma"
+  },
+  {
+   "source": "dna-double-helix",
+   "target": "reverse-transcriptase",
+   "type": "central-dogma"
+  },
+  {
+   "source": "dna-double-helix",
+   "target": "rna-interference",
+   "type": "central-dogma"
+  },
+  {
+   "source": "four-bases-atcg",
+   "target": "rna-world-hypothesis",
+   "type": "central-dogma"
+  },
+  {
+   "source": "four-bases-atcg",
+   "target": "mrna-messenger",
+   "type": "central-dogma"
+  },
+  {
+   "source": "four-bases-atcg",
+   "target": "trna-translator",
+   "type": "central-dogma"
+  },
+  {
+   "source": "four-bases-atcg",
+   "target": "rrna-ribosome",
+   "type": "central-dogma"
+  },
+  {
+   "source": "four-bases-atcg",
+   "target": "mirna-silencer",
+   "type": "central-dogma"
+  },
+  {
+   "source": "four-bases-atcg",
+   "target": "reverse-transcriptase",
+   "type": "central-dogma"
+  },
+  {
+   "source": "four-bases-atcg",
+   "target": "rna-interference",
+   "type": "central-dogma"
+  },
+  {
+   "source": "human-genome-project",
+   "target": "rna-world-hypothesis",
+   "type": "central-dogma"
+  },
+  {
+   "source": "human-genome-project",
+   "target": "mrna-messenger",
+   "type": "central-dogma"
+  },
+  {
+   "source": "human-genome-project",
+   "target": "trna-translator",
+   "type": "central-dogma"
+  },
+  {
+   "source": "human-genome-project",
+   "target": "rrna-ribosome",
+   "type": "central-dogma"
+  },
+  {
+   "source": "human-genome-project",
+   "target": "mirna-silencer",
+   "type": "central-dogma"
+  },
+  {
+   "source": "human-genome-project",
+   "target": "reverse-transcriptase",
+   "type": "central-dogma"
+  },
+  {
+   "source": "human-genome-project",
+   "target": "rna-interference",
+   "type": "central-dogma"
+  },
+  {
+   "source": "junk-dna-not-junk",
+   "target": "rna-world-hypothesis",
+   "type": "central-dogma"
+  },
+  {
+   "source": "junk-dna-not-junk",
+   "target": "mrna-messenger",
+   "type": "central-dogma"
+  },
+  {
+   "source": "junk-dna-not-junk",
+   "target": "trna-translator",
+   "type": "central-dogma"
+  },
+  {
+   "source": "junk-dna-not-junk",
+   "target": "rrna-ribosome",
+   "type": "central-dogma"
+  },
+  {
+   "source": "junk-dna-not-junk",
+   "target": "mirna-silencer",
+   "type": "central-dogma"
+  },
+  {
+   "source": "junk-dna-not-junk",
+   "target": "reverse-transcriptase",
+   "type": "central-dogma"
+  },
+  {
+   "source": "junk-dna-not-junk",
+   "target": "rna-interference",
+   "type": "central-dogma"
+  },
+  {
+   "source": "mitochondrial-eve",
+   "target": "rna-world-hypothesis",
+   "type": "central-dogma"
+  },
+  {
+   "source": "mitochondrial-eve",
+   "target": "mrna-messenger",
+   "type": "central-dogma"
+  },
+  {
+   "source": "mitochondrial-eve",
+   "target": "trna-translator",
+   "type": "central-dogma"
+  },
+  {
+   "source": "mitochondrial-eve",
+   "target": "rrna-ribosome",
+   "type": "central-dogma"
+  },
+  {
+   "source": "mitochondrial-eve",
+   "target": "mirna-silencer",
+   "type": "central-dogma"
+  },
+  {
+   "source": "mitochondrial-eve",
+   "target": "reverse-transcriptase",
+   "type": "central-dogma"
+  },
+  {
+   "source": "mitochondrial-eve",
+   "target": "rna-interference",
+   "type": "central-dogma"
+  },
+  {
+   "source": "horizontal-gene-transfer",
+   "target": "rna-world-hypothesis",
+   "type": "central-dogma"
+  },
+  {
+   "source": "horizontal-gene-transfer",
+   "target": "mrna-messenger",
+   "type": "central-dogma"
+  },
+  {
+   "source": "horizontal-gene-transfer",
+   "target": "trna-translator",
+   "type": "central-dogma"
+  },
+  {
+   "source": "horizontal-gene-transfer",
+   "target": "rrna-ribosome",
+   "type": "central-dogma"
+  },
+  {
+   "source": "horizontal-gene-transfer",
+   "target": "mirna-silencer",
+   "type": "central-dogma"
+  },
+  {
+   "source": "horizontal-gene-transfer",
+   "target": "reverse-transcriptase",
+   "type": "central-dogma"
+  },
+  {
+   "source": "horizontal-gene-transfer",
+   "target": "rna-interference",
+   "type": "central-dogma"
+  },
+  {
+   "source": "crispr-cas9-detail",
+   "target": "rna-world-hypothesis",
+   "type": "central-dogma"
+  },
+  {
+   "source": "crispr-cas9-detail",
+   "target": "mrna-messenger",
+   "type": "central-dogma"
+  },
+  {
+   "source": "crispr-cas9-detail",
+   "target": "trna-translator",
+   "type": "central-dogma"
+  },
+  {
+   "source": "crispr-cas9-detail",
+   "target": "rrna-ribosome",
+   "type": "central-dogma"
+  },
+  {
+   "source": "crispr-cas9-detail",
+   "target": "mirna-silencer",
+   "type": "central-dogma"
+  },
+  {
+   "source": "crispr-cas9-detail",
+   "target": "reverse-transcriptase",
+   "type": "central-dogma"
+  },
+  {
+   "source": "crispr-cas9-detail",
+   "target": "rna-interference",
+   "type": "central-dogma"
+  },
+  {
+   "source": "rna-world-hypothesis",
+   "target": "mitochondrial-eve",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "rna-world-hypothesis",
+   "target": "rrna-ribosome",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "rna-world-hypothesis",
+   "target": "cell-membrane-lipid-bilayer",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "rna-world-hypothesis",
+   "target": "mitochondria-powerhouse",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "rna-world-hypothesis",
+   "target": "ribosome-protein-factory",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "rna-world-hypothesis",
+   "target": "golgi-apparatus",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "rna-world-hypothesis",
+   "target": "endoplasmic-reticulum",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "rna-world-hypothesis",
+   "target": "lysosome-recycler",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "rna-world-hypothesis",
+   "target": "apoptosis",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "rna-world-hypothesis",
+   "target": "stem-cells",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "rna-world-hypothesis",
+   "target": "immune-cell-types",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "rna-world-hypothesis",
+   "target": "neurons-100-billion",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "rna-world-hypothesis",
+   "target": "microbiome",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "rna-world-hypothesis",
+   "target": "hela-cells-immortal",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "mrna-messenger",
+   "target": "mitochondrial-eve",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "mrna-messenger",
+   "target": "rrna-ribosome",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "mrna-messenger",
+   "target": "cell-membrane-lipid-bilayer",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "mrna-messenger",
+   "target": "mitochondria-powerhouse",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "mrna-messenger",
+   "target": "ribosome-protein-factory",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "mrna-messenger",
+   "target": "golgi-apparatus",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "mrna-messenger",
+   "target": "endoplasmic-reticulum",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "mrna-messenger",
+   "target": "lysosome-recycler",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "mrna-messenger",
+   "target": "apoptosis",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "mrna-messenger",
+   "target": "stem-cells",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "mrna-messenger",
+   "target": "immune-cell-types",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "mrna-messenger",
+   "target": "neurons-100-billion",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "mrna-messenger",
+   "target": "microbiome",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "mrna-messenger",
+   "target": "hela-cells-immortal",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "trna-translator",
+   "target": "mitochondrial-eve",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "trna-translator",
+   "target": "rrna-ribosome",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "trna-translator",
+   "target": "cell-membrane-lipid-bilayer",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "trna-translator",
+   "target": "mitochondria-powerhouse",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "trna-translator",
+   "target": "ribosome-protein-factory",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "trna-translator",
+   "target": "golgi-apparatus",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "trna-translator",
+   "target": "endoplasmic-reticulum",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "trna-translator",
+   "target": "lysosome-recycler",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "trna-translator",
+   "target": "apoptosis",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "trna-translator",
+   "target": "stem-cells",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "trna-translator",
+   "target": "immune-cell-types",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "trna-translator",
+   "target": "neurons-100-billion",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "trna-translator",
+   "target": "microbiome",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "trna-translator",
+   "target": "hela-cells-immortal",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "rrna-ribosome",
+   "target": "mitochondrial-eve",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "rrna-ribosome",
+   "target": "cell-membrane-lipid-bilayer",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "rrna-ribosome",
+   "target": "mitochondria-powerhouse",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "rrna-ribosome",
+   "target": "ribosome-protein-factory",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "rrna-ribosome",
+   "target": "golgi-apparatus",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "rrna-ribosome",
+   "target": "endoplasmic-reticulum",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "rrna-ribosome",
+   "target": "lysosome-recycler",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "rrna-ribosome",
+   "target": "apoptosis",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "rrna-ribosome",
+   "target": "stem-cells",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "rrna-ribosome",
+   "target": "immune-cell-types",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "rrna-ribosome",
+   "target": "neurons-100-billion",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "rrna-ribosome",
+   "target": "microbiome",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "rrna-ribosome",
+   "target": "hela-cells-immortal",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "mirna-silencer",
+   "target": "mitochondrial-eve",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "mirna-silencer",
+   "target": "rrna-ribosome",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "mirna-silencer",
+   "target": "cell-membrane-lipid-bilayer",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "mirna-silencer",
+   "target": "mitochondria-powerhouse",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "mirna-silencer",
+   "target": "ribosome-protein-factory",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "mirna-silencer",
+   "target": "golgi-apparatus",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "mirna-silencer",
+   "target": "endoplasmic-reticulum",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "mirna-silencer",
+   "target": "lysosome-recycler",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "mirna-silencer",
+   "target": "apoptosis",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "mirna-silencer",
+   "target": "stem-cells",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "mirna-silencer",
+   "target": "immune-cell-types",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "mirna-silencer",
+   "target": "neurons-100-billion",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "mirna-silencer",
+   "target": "microbiome",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "mirna-silencer",
+   "target": "hela-cells-immortal",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "reverse-transcriptase",
+   "target": "mitochondrial-eve",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "reverse-transcriptase",
+   "target": "rrna-ribosome",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "reverse-transcriptase",
+   "target": "cell-membrane-lipid-bilayer",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "reverse-transcriptase",
+   "target": "mitochondria-powerhouse",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "reverse-transcriptase",
+   "target": "ribosome-protein-factory",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "reverse-transcriptase",
+   "target": "golgi-apparatus",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "reverse-transcriptase",
+   "target": "endoplasmic-reticulum",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "reverse-transcriptase",
+   "target": "lysosome-recycler",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "reverse-transcriptase",
+   "target": "apoptosis",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "reverse-transcriptase",
+   "target": "stem-cells",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "reverse-transcriptase",
+   "target": "immune-cell-types",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "reverse-transcriptase",
+   "target": "neurons-100-billion",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "reverse-transcriptase",
+   "target": "microbiome",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "reverse-transcriptase",
+   "target": "hela-cells-immortal",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "rna-interference",
+   "target": "mitochondrial-eve",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "rna-interference",
+   "target": "rrna-ribosome",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "rna-interference",
+   "target": "cell-membrane-lipid-bilayer",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "rna-interference",
+   "target": "mitochondria-powerhouse",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "rna-interference",
+   "target": "ribosome-protein-factory",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "rna-interference",
+   "target": "golgi-apparatus",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "rna-interference",
+   "target": "endoplasmic-reticulum",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "rna-interference",
+   "target": "lysosome-recycler",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "rna-interference",
+   "target": "apoptosis",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "rna-interference",
+   "target": "stem-cells",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "rna-interference",
+   "target": "immune-cell-types",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "rna-interference",
+   "target": "neurons-100-billion",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "rna-interference",
+   "target": "microbiome",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "rna-interference",
+   "target": "hela-cells-immortal",
+   "type": "translation-bridge"
+  },
+  {
+   "source": "big-bang",
+   "target": "neutron-star",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "big-bang",
+   "target": "dark-energy",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "big-bang",
+   "target": "neil-degrasse-tyson",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "big-bang",
+   "target": "human-genome-project",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "big-bang",
+   "target": "crispr-cas9-detail",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "big-bang",
+   "target": "rrna-ribosome",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "big-bang",
+   "target": "cell-membrane-lipid-bilayer",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "big-bang",
+   "target": "endoplasmic-reticulum",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "big-bang",
+   "target": "immune-cell-types",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "big-bang",
+   "target": "planck-length",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "big-bang",
+   "target": "fractal-geometry",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "cosmic-microwave-background",
+   "target": "black-hole-m87",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "cosmic-microwave-background",
+   "target": "exoplanets-kepler",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "cosmic-microwave-background",
+   "target": "multiverse-hypothesis",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "cosmic-microwave-background",
+   "target": "junk-dna-not-junk",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "cosmic-microwave-background",
+   "target": "rna-world-hypothesis",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "cosmic-microwave-background",
+   "target": "mirna-silencer",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "cosmic-microwave-background",
+   "target": "mitochondria-powerhouse",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "cosmic-microwave-background",
+   "target": "lysosome-recycler",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "cosmic-microwave-background",
+   "target": "neurons-100-billion",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "cosmic-microwave-background",
+   "target": "observable-universe",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "stellar-nucleosynthesis",
+   "target": "gravitational-waves",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "stellar-nucleosynthesis",
+   "target": "fermi-paradox",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "stellar-nucleosynthesis",
+   "target": "dna-double-helix",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "stellar-nucleosynthesis",
+   "target": "mitochondrial-eve",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "stellar-nucleosynthesis",
+   "target": "mrna-messenger",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "stellar-nucleosynthesis",
+   "target": "reverse-transcriptase",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "stellar-nucleosynthesis",
+   "target": "ribosome-protein-factory",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "stellar-nucleosynthesis",
+   "target": "apoptosis",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "stellar-nucleosynthesis",
+   "target": "microbiome",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "stellar-nucleosynthesis",
+   "target": "powers-of-ten",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "neutron-star",
+   "target": "dark-matter",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "neutron-star",
+   "target": "carl-sagan-billions",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "neutron-star",
+   "target": "four-bases-atcg",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "neutron-star",
+   "target": "horizontal-gene-transfer",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "neutron-star",
+   "target": "trna-translator",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "neutron-star",
+   "target": "rna-interference",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "neutron-star",
+   "target": "golgi-apparatus",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "neutron-star",
+   "target": "stem-cells",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "neutron-star",
+   "target": "hela-cells-immortal",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "neutron-star",
+   "target": "atom-to-universe",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "black-hole-m87",
+   "target": "dark-energy",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "black-hole-m87",
+   "target": "neil-degrasse-tyson",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "black-hole-m87",
+   "target": "human-genome-project",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "black-hole-m87",
+   "target": "crispr-cas9-detail",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "black-hole-m87",
+   "target": "rrna-ribosome",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "black-hole-m87",
+   "target": "cell-membrane-lipid-bilayer",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "black-hole-m87",
+   "target": "endoplasmic-reticulum",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "black-hole-m87",
+   "target": "immune-cell-types",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "black-hole-m87",
+   "target": "planck-length",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "black-hole-m87",
+   "target": "fractal-geometry",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "gravitational-waves",
+   "target": "exoplanets-kepler",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "gravitational-waves",
+   "target": "multiverse-hypothesis",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "gravitational-waves",
+   "target": "junk-dna-not-junk",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "gravitational-waves",
+   "target": "rna-world-hypothesis",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "gravitational-waves",
+   "target": "mirna-silencer",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "gravitational-waves",
+   "target": "mitochondria-powerhouse",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "gravitational-waves",
+   "target": "lysosome-recycler",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "gravitational-waves",
+   "target": "neurons-100-billion",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "gravitational-waves",
+   "target": "observable-universe",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "dark-matter",
+   "target": "fermi-paradox",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "dark-matter",
+   "target": "dna-double-helix",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "dark-matter",
+   "target": "mitochondrial-eve",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "dark-matter",
+   "target": "mrna-messenger",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "dark-matter",
+   "target": "reverse-transcriptase",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "dark-matter",
+   "target": "ribosome-protein-factory",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "dark-matter",
+   "target": "apoptosis",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "dark-matter",
+   "target": "microbiome",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "dark-matter",
+   "target": "powers-of-ten",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "dark-energy",
+   "target": "carl-sagan-billions",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "dark-energy",
+   "target": "four-bases-atcg",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "dark-energy",
+   "target": "horizontal-gene-transfer",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "dark-energy",
+   "target": "trna-translator",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "dark-energy",
+   "target": "rna-interference",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "dark-energy",
+   "target": "golgi-apparatus",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "dark-energy",
+   "target": "stem-cells",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "dark-energy",
+   "target": "hela-cells-immortal",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "dark-energy",
+   "target": "atom-to-universe",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "exoplanets-kepler",
+   "target": "neil-degrasse-tyson",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "exoplanets-kepler",
+   "target": "human-genome-project",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "exoplanets-kepler",
+   "target": "crispr-cas9-detail",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "exoplanets-kepler",
+   "target": "rrna-ribosome",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "exoplanets-kepler",
+   "target": "cell-membrane-lipid-bilayer",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "exoplanets-kepler",
+   "target": "endoplasmic-reticulum",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "exoplanets-kepler",
+   "target": "immune-cell-types",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "exoplanets-kepler",
+   "target": "planck-length",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "exoplanets-kepler",
+   "target": "fractal-geometry",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "fermi-paradox",
+   "target": "multiverse-hypothesis",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "fermi-paradox",
+   "target": "junk-dna-not-junk",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "fermi-paradox",
+   "target": "rna-world-hypothesis",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "fermi-paradox",
+   "target": "mirna-silencer",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "fermi-paradox",
+   "target": "mitochondria-powerhouse",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "fermi-paradox",
+   "target": "lysosome-recycler",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "fermi-paradox",
+   "target": "neurons-100-billion",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "fermi-paradox",
+   "target": "observable-universe",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "carl-sagan-billions",
+   "target": "dna-double-helix",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "carl-sagan-billions",
+   "target": "mitochondrial-eve",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "carl-sagan-billions",
+   "target": "mrna-messenger",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "carl-sagan-billions",
+   "target": "reverse-transcriptase",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "carl-sagan-billions",
+   "target": "ribosome-protein-factory",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "carl-sagan-billions",
+   "target": "apoptosis",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "carl-sagan-billions",
+   "target": "microbiome",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "carl-sagan-billions",
+   "target": "powers-of-ten",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "neil-degrasse-tyson",
+   "target": "four-bases-atcg",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "neil-degrasse-tyson",
+   "target": "horizontal-gene-transfer",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "neil-degrasse-tyson",
+   "target": "trna-translator",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "neil-degrasse-tyson",
+   "target": "rna-interference",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "neil-degrasse-tyson",
+   "target": "golgi-apparatus",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "neil-degrasse-tyson",
+   "target": "stem-cells",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "neil-degrasse-tyson",
+   "target": "hela-cells-immortal",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "neil-degrasse-tyson",
+   "target": "atom-to-universe",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "multiverse-hypothesis",
+   "target": "human-genome-project",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "multiverse-hypothesis",
+   "target": "crispr-cas9-detail",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "multiverse-hypothesis",
+   "target": "rrna-ribosome",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "multiverse-hypothesis",
+   "target": "cell-membrane-lipid-bilayer",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "multiverse-hypothesis",
+   "target": "endoplasmic-reticulum",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "multiverse-hypothesis",
+   "target": "immune-cell-types",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "multiverse-hypothesis",
+   "target": "planck-length",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "multiverse-hypothesis",
+   "target": "fractal-geometry",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "dna-double-helix",
+   "target": "junk-dna-not-junk",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "dna-double-helix",
+   "target": "rna-world-hypothesis",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "dna-double-helix",
+   "target": "mirna-silencer",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "dna-double-helix",
+   "target": "mitochondria-powerhouse",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "dna-double-helix",
+   "target": "lysosome-recycler",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "dna-double-helix",
+   "target": "neurons-100-billion",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "dna-double-helix",
+   "target": "observable-universe",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "four-bases-atcg",
+   "target": "mitochondrial-eve",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "four-bases-atcg",
+   "target": "mrna-messenger",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "four-bases-atcg",
+   "target": "reverse-transcriptase",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "four-bases-atcg",
+   "target": "ribosome-protein-factory",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "four-bases-atcg",
+   "target": "apoptosis",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "four-bases-atcg",
+   "target": "microbiome",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "four-bases-atcg",
+   "target": "powers-of-ten",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "human-genome-project",
+   "target": "horizontal-gene-transfer",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "human-genome-project",
+   "target": "trna-translator",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "human-genome-project",
+   "target": "rna-interference",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "human-genome-project",
+   "target": "golgi-apparatus",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "human-genome-project",
+   "target": "stem-cells",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "human-genome-project",
+   "target": "hela-cells-immortal",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "human-genome-project",
+   "target": "atom-to-universe",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "junk-dna-not-junk",
+   "target": "crispr-cas9-detail",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "junk-dna-not-junk",
+   "target": "rrna-ribosome",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "junk-dna-not-junk",
+   "target": "cell-membrane-lipid-bilayer",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "junk-dna-not-junk",
+   "target": "endoplasmic-reticulum",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "junk-dna-not-junk",
+   "target": "immune-cell-types",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "junk-dna-not-junk",
+   "target": "planck-length",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "junk-dna-not-junk",
+   "target": "fractal-geometry",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "mitochondrial-eve",
+   "target": "rna-world-hypothesis",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "mitochondrial-eve",
+   "target": "mirna-silencer",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "mitochondrial-eve",
+   "target": "mitochondria-powerhouse",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "mitochondrial-eve",
+   "target": "lysosome-recycler",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "mitochondrial-eve",
+   "target": "neurons-100-billion",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "mitochondrial-eve",
+   "target": "observable-universe",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "horizontal-gene-transfer",
+   "target": "mrna-messenger",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "horizontal-gene-transfer",
+   "target": "reverse-transcriptase",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "horizontal-gene-transfer",
+   "target": "ribosome-protein-factory",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "horizontal-gene-transfer",
+   "target": "apoptosis",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "horizontal-gene-transfer",
+   "target": "microbiome",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "horizontal-gene-transfer",
+   "target": "powers-of-ten",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "crispr-cas9-detail",
+   "target": "trna-translator",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "crispr-cas9-detail",
+   "target": "rna-interference",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "crispr-cas9-detail",
+   "target": "golgi-apparatus",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "crispr-cas9-detail",
+   "target": "stem-cells",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "crispr-cas9-detail",
+   "target": "hela-cells-immortal",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "crispr-cas9-detail",
+   "target": "atom-to-universe",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "rna-world-hypothesis",
+   "target": "rrna-ribosome",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "rna-world-hypothesis",
+   "target": "cell-membrane-lipid-bilayer",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "rna-world-hypothesis",
+   "target": "endoplasmic-reticulum",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "rna-world-hypothesis",
+   "target": "immune-cell-types",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "rna-world-hypothesis",
+   "target": "planck-length",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "rna-world-hypothesis",
+   "target": "fractal-geometry",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "mrna-messenger",
+   "target": "mirna-silencer",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "mrna-messenger",
+   "target": "mitochondria-powerhouse",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "mrna-messenger",
+   "target": "lysosome-recycler",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "mrna-messenger",
+   "target": "neurons-100-billion",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "mrna-messenger",
+   "target": "observable-universe",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "trna-translator",
+   "target": "reverse-transcriptase",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "trna-translator",
+   "target": "ribosome-protein-factory",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "trna-translator",
+   "target": "apoptosis",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "trna-translator",
+   "target": "microbiome",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "trna-translator",
+   "target": "powers-of-ten",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "rrna-ribosome",
+   "target": "rna-interference",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "rrna-ribosome",
+   "target": "golgi-apparatus",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "rrna-ribosome",
+   "target": "stem-cells",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "rrna-ribosome",
+   "target": "hela-cells-immortal",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "rrna-ribosome",
+   "target": "atom-to-universe",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "mirna-silencer",
+   "target": "cell-membrane-lipid-bilayer",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "mirna-silencer",
+   "target": "endoplasmic-reticulum",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "mirna-silencer",
+   "target": "immune-cell-types",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "mirna-silencer",
+   "target": "planck-length",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "mirna-silencer",
+   "target": "fractal-geometry",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "reverse-transcriptase",
+   "target": "mitochondria-powerhouse",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "reverse-transcriptase",
+   "target": "lysosome-recycler",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "reverse-transcriptase",
+   "target": "neurons-100-billion",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "reverse-transcriptase",
+   "target": "observable-universe",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "rna-interference",
+   "target": "ribosome-protein-factory",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "rna-interference",
+   "target": "apoptosis",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "rna-interference",
+   "target": "microbiome",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "rna-interference",
+   "target": "powers-of-ten",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "cell-membrane-lipid-bilayer",
+   "target": "golgi-apparatus",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "cell-membrane-lipid-bilayer",
+   "target": "stem-cells",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "cell-membrane-lipid-bilayer",
+   "target": "hela-cells-immortal",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "cell-membrane-lipid-bilayer",
+   "target": "atom-to-universe",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "mitochondria-powerhouse",
+   "target": "endoplasmic-reticulum",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "mitochondria-powerhouse",
+   "target": "immune-cell-types",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "mitochondria-powerhouse",
+   "target": "planck-length",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "mitochondria-powerhouse",
+   "target": "fractal-geometry",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "ribosome-protein-factory",
+   "target": "lysosome-recycler",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "ribosome-protein-factory",
+   "target": "neurons-100-billion",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "ribosome-protein-factory",
+   "target": "observable-universe",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "golgi-apparatus",
+   "target": "apoptosis",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "golgi-apparatus",
+   "target": "microbiome",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "golgi-apparatus",
+   "target": "powers-of-ten",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "endoplasmic-reticulum",
+   "target": "stem-cells",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "endoplasmic-reticulum",
+   "target": "hela-cells-immortal",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "endoplasmic-reticulum",
+   "target": "atom-to-universe",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "lysosome-recycler",
+   "target": "immune-cell-types",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "lysosome-recycler",
+   "target": "planck-length",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "lysosome-recycler",
+   "target": "fractal-geometry",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "apoptosis",
+   "target": "neurons-100-billion",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "apoptosis",
+   "target": "observable-universe",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "stem-cells",
+   "target": "microbiome",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "stem-cells",
+   "target": "powers-of-ten",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "immune-cell-types",
+   "target": "hela-cells-immortal",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "immune-cell-types",
+   "target": "atom-to-universe",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "neurons-100-billion",
+   "target": "planck-length",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "neurons-100-billion",
+   "target": "fractal-geometry",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "microbiome",
+   "target": "observable-universe",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "hela-cells-immortal",
+   "target": "powers-of-ten",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "planck-length",
+   "target": "atom-to-universe",
+   "type": "cosmos-cell-weave"
+  },
+  {
+   "source": "observable-universe",
+   "target": "fractal-geometry",
+   "type": "cosmos-cell-weave"
   }
  ]
 }
