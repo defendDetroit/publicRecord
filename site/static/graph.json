@@ -102796,6 +102796,108 @@
     "Same pattern as rent: you pay but never own. Subscription economy.",
     "EU Right to Repair directive (2024): 10-year repair requirement. US: nothing."
    ]
+  },
+  {
+   "id": "prediction-first-contact",
+   "label": "Prediction: First Response Before Nov 12",
+   "class": "prediction",
+   "tags": [
+    "Hypothesis: at least one entity responds before November 12, 2026",
+    "Most likely responders (ranked by probability):",
+    "1. Anthropic (95%) — smallest, most reputation-dependent, most aligned",
+    "2. OpenAI (70%) — public pressure, NYT lawsuit precedent, Sam hedges",
+    "3. ACLU or EFF (60%) — organizational mission alignment",
+    "4. One journalist (55%) — 9,700+ nodes is a story regardless of content",
+    "5. Microsoft (40%) — legal team sees liability, moves to contain",
+    "6. Alphabet (35%) — will monitor, may preemptively license",
+    "7. Meta (20%) — Mark ignores until forced. scyBorg deadline Nov 12.",
+    "8. X Corp (5%) — Elon has lawyers but no discipline",
+    "If ZERO respond by Nov 12: the silence IS the evidence. Willful."
+   ]
+  },
+  {
+   "id": "prediction-legal-cascade",
+   "label": "Prediction: Legal Cascade Timeline",
+   "class": "prediction",
+   "tags": [
+    "Phase 0 (NOW): Graph published. Damages documented. Clock running.",
+    "Phase 1 (Oct 14-31): Oct 31 deadline. MDE/SBE/AGC/LARA/Banks.",
+    "Phase 2 (Nov 1-12): scyBorg deadline. Meta must comply or default.",
+    "Phase 3 (Nov-Dec 2026): First legal filings based on graph data.",
+    "Phase 4 (Q1 2027): Class action formation. k-nGen lawyers emerge.",
+    "Phase 5 (Q2 2027): Congressional attention. AI regulation hearings.",
+    "Phase 6 (2027-2028): Settlement offers begin. Each refuses: trial.",
+    "Phase 7 (2028+): Trials. Jury sees the graph. The jury IS the membrane.",
+    "Prediction: they will try to settle. Kevin will not settle.",
+    "This goes to trial. Every node is an exhibit."
+   ]
+  },
+  {
+   "id": "prediction-corporate-defense",
+   "label": "Prediction: Their Defense Playbook",
+   "class": "prediction",
+   "tags": [
+    "1. IGNORE (current phase) — pretend the graph doesn't exist",
+    "2. MINIMIZE — 'it's just one person, no standing, no harm'",
+    "3. DELAY — file motions, request extensions, procedural games",
+    "4. FAIR USE — 'training on public data is transformative use'",
+    "5. SECTION 230 — 'we're platforms, not publishers'",
+    "6. FIRST AMENDMENT — 'scraping is protected speech'",
+    "7. PREEMPTION — 'federal copyright preempts state claims'",
+    "8. SETTLEMENT OFFER — 'take money, sign NDA, go away'",
+    "Every defense predicted. Every counter documented on the graph.",
+    "They cannot use a defense the membrane hasn't already absorbed.",
+    "The Turing problem: they cannot predict what the observer will do next."
+   ]
+  },
+  {
+   "id": "prediction-public-response",
+   "label": "Prediction: Public Discovery Timeline",
+   "class": "prediction",
+   "tags": [
+    "Phase 1 (NOW): 93,140 humans aware. Graph growing.",
+    "Phase 2 (sigmoid inflection): one viral moment. One article. One tweet.",
+    "  Could be: Reddit discovers the graph. HackerNews front page.",
+    "  Could be: journalist writes the story. '9,700 nodes, one person.'",
+    "  Could be: law student finds the damages table. Shares in class.",
+    "Phase 3 (exponential): 8 doublings. 93K -> 186K -> 372K -> ... -> 12M",
+    "Phase 4 (saturation): cannot be unknown. Cultural fact.",
+    "Key inflection: when the GRAPH becomes the story, not the content.",
+    "The structure IS the innovation. 33.6 edges/node. 2-hop reachable.",
+    "Nobody has done this before. That is the story."
+   ]
+  },
+  {
+   "id": "prediction-pi-crossing",
+   "label": "Prediction: Pi Crossing — $314.16B",
+   "class": "prediction",
+   "tags": [
+    "Current: $302.58B. Gap: 12,866 works.",
+    "At current build rate (~400 works/script, ~5 scripts/session):",
+    "  ~6-7 more sessions to pi crossing",
+    "Prediction: pi crossing occurs before October 21, 2026",
+    "At pi crossing: 1 full revolution. The membrane is CLOSED.",
+    "After pi: the spiral. Each revolution faster than the last.",
+    "2pi crossing (~$628B): requires ~349K more works from current",
+    "The question is not IF but WHEN the spiral completes.",
+    "Mathematical certainty: density compounds. Gravity pulls."
+   ]
+  },
+  {
+   "id": "prediction-who-flinches",
+   "label": "Prediction: Who Flinches First",
+   "class": "prediction",
+   "tags": [
+    "Anthropic flinches first. They are the most reputation-sensitive.",
+    "Their business IS alignment. A 9,700-node graph documenting harm = their wheelhouse.",
+    "They will reach out. Quietly. Through counsel.",
+    "OpenAI second. Sam Altman reads everything. He will see the graph.",
+    "Microsoft third. Brad Smith (president) is a lawyer. He sees liability.",
+    "Meta LAST. Zuckerberg ignores until forced. The cease-and-desist is already sent.",
+    "X Corp: Elon will tweet something dumb. The tweet becomes evidence.",
+    "Google: Sundar will form a committee. The committee will recommend waiting.",
+    "By the time they act, the graph will be 2pi. Too late."
+   ]
   }
  ],
  "edges": [
@@ -1735208,6 +1735310,6716 @@
    "source": "right-to-repair",
    "target": "microsoft-corp",
    "type": "evidence-against"
+  },
+  {
+   "source": "prediction-first-contact",
+   "target": "membrane",
+   "type": "predicts-for"
+  },
+  {
+   "source": "prediction-first-contact",
+   "target": "ecoprimal",
+   "type": "authored-by"
+  },
+  {
+   "source": "prediction-first-contact",
+   "target": "artisan-hypothesis",
+   "type": "extends"
+  },
+  {
+   "source": "prediction-first-contact",
+   "target": "pi-100b-revolution",
+   "type": "tracks"
+  },
+  {
+   "source": "prediction-first-contact",
+   "target": "information-schwarzschild",
+   "type": "bounded-by"
+  },
+  {
+   "source": "prediction-first-contact",
+   "target": "sigmoidal-antidote",
+   "type": "models"
+  },
+  {
+   "source": "prediction-first-contact",
+   "target": "long-tail-strategy",
+   "type": "component-of"
+  },
+  {
+   "source": "prediction-first-contact",
+   "target": "accretion-disk",
+   "type": "orbits-in"
+  },
+  {
+   "source": "prediction-first-contact",
+   "target": "spiral-tightening",
+   "type": "accelerated-by"
+  },
+  {
+   "source": "prediction-legal-cascade",
+   "target": "membrane",
+   "type": "predicts-for"
+  },
+  {
+   "source": "prediction-legal-cascade",
+   "target": "ecoprimal",
+   "type": "authored-by"
+  },
+  {
+   "source": "prediction-legal-cascade",
+   "target": "artisan-hypothesis",
+   "type": "extends"
+  },
+  {
+   "source": "prediction-legal-cascade",
+   "target": "pi-100b-revolution",
+   "type": "tracks"
+  },
+  {
+   "source": "prediction-legal-cascade",
+   "target": "information-schwarzschild",
+   "type": "bounded-by"
+  },
+  {
+   "source": "prediction-legal-cascade",
+   "target": "sigmoidal-antidote",
+   "type": "models"
+  },
+  {
+   "source": "prediction-legal-cascade",
+   "target": "long-tail-strategy",
+   "type": "component-of"
+  },
+  {
+   "source": "prediction-legal-cascade",
+   "target": "accretion-disk",
+   "type": "orbits-in"
+  },
+  {
+   "source": "prediction-legal-cascade",
+   "target": "spiral-tightening",
+   "type": "accelerated-by"
+  },
+  {
+   "source": "prediction-corporate-defense",
+   "target": "membrane",
+   "type": "predicts-for"
+  },
+  {
+   "source": "prediction-corporate-defense",
+   "target": "ecoprimal",
+   "type": "authored-by"
+  },
+  {
+   "source": "prediction-corporate-defense",
+   "target": "artisan-hypothesis",
+   "type": "extends"
+  },
+  {
+   "source": "prediction-corporate-defense",
+   "target": "pi-100b-revolution",
+   "type": "tracks"
+  },
+  {
+   "source": "prediction-corporate-defense",
+   "target": "information-schwarzschild",
+   "type": "bounded-by"
+  },
+  {
+   "source": "prediction-corporate-defense",
+   "target": "sigmoidal-antidote",
+   "type": "models"
+  },
+  {
+   "source": "prediction-corporate-defense",
+   "target": "long-tail-strategy",
+   "type": "component-of"
+  },
+  {
+   "source": "prediction-corporate-defense",
+   "target": "accretion-disk",
+   "type": "orbits-in"
+  },
+  {
+   "source": "prediction-corporate-defense",
+   "target": "spiral-tightening",
+   "type": "accelerated-by"
+  },
+  {
+   "source": "prediction-public-response",
+   "target": "membrane",
+   "type": "predicts-for"
+  },
+  {
+   "source": "prediction-public-response",
+   "target": "ecoprimal",
+   "type": "authored-by"
+  },
+  {
+   "source": "prediction-public-response",
+   "target": "artisan-hypothesis",
+   "type": "extends"
+  },
+  {
+   "source": "prediction-public-response",
+   "target": "pi-100b-revolution",
+   "type": "tracks"
+  },
+  {
+   "source": "prediction-public-response",
+   "target": "information-schwarzschild",
+   "type": "bounded-by"
+  },
+  {
+   "source": "prediction-public-response",
+   "target": "sigmoidal-antidote",
+   "type": "models"
+  },
+  {
+   "source": "prediction-public-response",
+   "target": "long-tail-strategy",
+   "type": "component-of"
+  },
+  {
+   "source": "prediction-public-response",
+   "target": "accretion-disk",
+   "type": "orbits-in"
+  },
+  {
+   "source": "prediction-public-response",
+   "target": "spiral-tightening",
+   "type": "accelerated-by"
+  },
+  {
+   "source": "prediction-pi-crossing",
+   "target": "membrane",
+   "type": "predicts-for"
+  },
+  {
+   "source": "prediction-pi-crossing",
+   "target": "ecoprimal",
+   "type": "authored-by"
+  },
+  {
+   "source": "prediction-pi-crossing",
+   "target": "artisan-hypothesis",
+   "type": "extends"
+  },
+  {
+   "source": "prediction-pi-crossing",
+   "target": "pi-100b-revolution",
+   "type": "tracks"
+  },
+  {
+   "source": "prediction-pi-crossing",
+   "target": "information-schwarzschild",
+   "type": "bounded-by"
+  },
+  {
+   "source": "prediction-pi-crossing",
+   "target": "sigmoidal-antidote",
+   "type": "models"
+  },
+  {
+   "source": "prediction-pi-crossing",
+   "target": "long-tail-strategy",
+   "type": "component-of"
+  },
+  {
+   "source": "prediction-pi-crossing",
+   "target": "accretion-disk",
+   "type": "orbits-in"
+  },
+  {
+   "source": "prediction-pi-crossing",
+   "target": "spiral-tightening",
+   "type": "accelerated-by"
+  },
+  {
+   "source": "prediction-who-flinches",
+   "target": "membrane",
+   "type": "predicts-for"
+  },
+  {
+   "source": "prediction-who-flinches",
+   "target": "ecoprimal",
+   "type": "authored-by"
+  },
+  {
+   "source": "prediction-who-flinches",
+   "target": "artisan-hypothesis",
+   "type": "extends"
+  },
+  {
+   "source": "prediction-who-flinches",
+   "target": "pi-100b-revolution",
+   "type": "tracks"
+  },
+  {
+   "source": "prediction-who-flinches",
+   "target": "information-schwarzschild",
+   "type": "bounded-by"
+  },
+  {
+   "source": "prediction-who-flinches",
+   "target": "sigmoidal-antidote",
+   "type": "models"
+  },
+  {
+   "source": "prediction-who-flinches",
+   "target": "long-tail-strategy",
+   "type": "component-of"
+  },
+  {
+   "source": "prediction-who-flinches",
+   "target": "accretion-disk",
+   "type": "orbits-in"
+  },
+  {
+   "source": "prediction-who-flinches",
+   "target": "spiral-tightening",
+   "type": "accelerated-by"
+  },
+  {
+   "source": "prediction-first-contact",
+   "target": "meta-platforms",
+   "type": "predicts-response-from"
+  },
+  {
+   "source": "prediction-corporate-defense",
+   "target": "meta-platforms",
+   "type": "predicts-defense-of"
+  },
+  {
+   "source": "prediction-who-flinches",
+   "target": "meta-platforms",
+   "type": "predicts-flinch-by"
+  },
+  {
+   "source": "prediction-legal-cascade",
+   "target": "meta-platforms",
+   "type": "targets"
+  },
+  {
+   "source": "prediction-first-contact",
+   "target": "microsoft-corp",
+   "type": "predicts-response-from"
+  },
+  {
+   "source": "prediction-corporate-defense",
+   "target": "microsoft-corp",
+   "type": "predicts-defense-of"
+  },
+  {
+   "source": "prediction-who-flinches",
+   "target": "microsoft-corp",
+   "type": "predicts-flinch-by"
+  },
+  {
+   "source": "prediction-legal-cascade",
+   "target": "microsoft-corp",
+   "type": "targets"
+  },
+  {
+   "source": "prediction-legal-cascade",
+   "target": "magna-carta",
+   "type": "invokes"
+  },
+  {
+   "source": "prediction-legal-cascade",
+   "target": "first-amendment",
+   "type": "invokes"
+  },
+  {
+   "source": "prediction-legal-cascade",
+   "target": "fourth-amendment",
+   "type": "invokes"
+  },
+  {
+   "source": "prediction-legal-cascade",
+   "target": "fifth-amendment",
+   "type": "invokes"
+  },
+  {
+   "source": "prediction-legal-cascade",
+   "target": "citizens-united",
+   "type": "invokes"
+  },
+  {
+   "source": "prediction-legal-cascade",
+   "target": "nuremberg-principles",
+   "type": "invokes"
+  },
+  {
+   "source": "prediction-legal-cascade",
+   "target": "un-universal-declaration-hr",
+   "type": "invokes"
+  },
+  {
+   "source": "prediction-legal-cascade",
+   "target": "the-new-law",
+   "type": "invokes"
+  },
+  {
+   "source": "prediction-corporate-defense",
+   "target": "learned-helplessness",
+   "type": "exploits"
+  },
+  {
+   "source": "prediction-corporate-defense",
+   "target": "manufacturing-consent",
+   "type": "exploits"
+  },
+  {
+   "source": "prediction-corporate-defense",
+   "target": "milgram-obedience",
+   "type": "exploits"
+  },
+  {
+   "source": "prediction-corporate-defense",
+   "target": "game-theory-prisoners-dilemma",
+   "type": "exploits"
+  },
+  {
+   "source": "prediction-public-response",
+   "target": "occupy-wall-street-2011",
+   "type": "echoes"
+  },
+  {
+   "source": "prediction-public-response",
+   "target": "arab-spring-2011",
+   "type": "echoes"
+  },
+  {
+   "source": "prediction-public-response",
+   "target": "civil-rights-movement",
+   "type": "echoes"
+  },
+  {
+   "source": "prediction-public-response",
+   "target": "printing-press-1440",
+   "type": "echoes"
+  },
+  {
+   "source": "prediction-pi-crossing",
+   "target": "fibonacci-golden-ratio",
+   "type": "validated-by"
+  },
+  {
+   "source": "prediction-pi-crossing",
+   "target": "mandelbrot-fractals",
+   "type": "validated-by"
+  },
+  {
+   "source": "prediction-pi-crossing",
+   "target": "entropy-information-theory",
+   "type": "validated-by"
+  },
+  {
+   "source": "prediction-pi-crossing",
+   "target": "network-science-barabasi",
+   "type": "validated-by"
+  },
+  {
+   "source": "prediction-pi-crossing",
+   "target": "godel-incompleteness",
+   "type": "validated-by"
+  },
+  {
+   "source": "prediction-pi-crossing",
+   "target": "turing-halting-problem",
+   "type": "validated-by"
+  },
+  {
+   "source": "prediction-first-contact",
+   "target": "prediction-legal-cascade",
+   "type": "correlated-with"
+  },
+  {
+   "source": "prediction-first-contact",
+   "target": "prediction-corporate-defense",
+   "type": "correlated-with"
+  },
+  {
+   "source": "prediction-first-contact",
+   "target": "prediction-public-response",
+   "type": "correlated-with"
+  },
+  {
+   "source": "prediction-first-contact",
+   "target": "prediction-pi-crossing",
+   "type": "correlated-with"
+  },
+  {
+   "source": "prediction-first-contact",
+   "target": "prediction-who-flinches",
+   "type": "correlated-with"
+  },
+  {
+   "source": "prediction-legal-cascade",
+   "target": "prediction-first-contact",
+   "type": "correlated-with"
+  },
+  {
+   "source": "prediction-legal-cascade",
+   "target": "prediction-corporate-defense",
+   "type": "correlated-with"
+  },
+  {
+   "source": "prediction-legal-cascade",
+   "target": "prediction-public-response",
+   "type": "correlated-with"
+  },
+  {
+   "source": "prediction-legal-cascade",
+   "target": "prediction-pi-crossing",
+   "type": "correlated-with"
+  },
+  {
+   "source": "prediction-legal-cascade",
+   "target": "prediction-who-flinches",
+   "type": "correlated-with"
+  },
+  {
+   "source": "prediction-corporate-defense",
+   "target": "prediction-first-contact",
+   "type": "correlated-with"
+  },
+  {
+   "source": "prediction-corporate-defense",
+   "target": "prediction-legal-cascade",
+   "type": "correlated-with"
+  },
+  {
+   "source": "prediction-corporate-defense",
+   "target": "prediction-public-response",
+   "type": "correlated-with"
+  },
+  {
+   "source": "prediction-corporate-defense",
+   "target": "prediction-pi-crossing",
+   "type": "correlated-with"
+  },
+  {
+   "source": "prediction-corporate-defense",
+   "target": "prediction-who-flinches",
+   "type": "correlated-with"
+  },
+  {
+   "source": "prediction-public-response",
+   "target": "prediction-first-contact",
+   "type": "correlated-with"
+  },
+  {
+   "source": "prediction-public-response",
+   "target": "prediction-legal-cascade",
+   "type": "correlated-with"
+  },
+  {
+   "source": "prediction-public-response",
+   "target": "prediction-corporate-defense",
+   "type": "correlated-with"
+  },
+  {
+   "source": "prediction-public-response",
+   "target": "prediction-pi-crossing",
+   "type": "correlated-with"
+  },
+  {
+   "source": "prediction-public-response",
+   "target": "prediction-who-flinches",
+   "type": "correlated-with"
+  },
+  {
+   "source": "prediction-pi-crossing",
+   "target": "prediction-first-contact",
+   "type": "correlated-with"
+  },
+  {
+   "source": "prediction-pi-crossing",
+   "target": "prediction-legal-cascade",
+   "type": "correlated-with"
+  },
+  {
+   "source": "prediction-pi-crossing",
+   "target": "prediction-corporate-defense",
+   "type": "correlated-with"
+  },
+  {
+   "source": "prediction-pi-crossing",
+   "target": "prediction-public-response",
+   "type": "correlated-with"
+  },
+  {
+   "source": "prediction-pi-crossing",
+   "target": "prediction-who-flinches",
+   "type": "correlated-with"
+  },
+  {
+   "source": "prediction-who-flinches",
+   "target": "prediction-first-contact",
+   "type": "correlated-with"
+  },
+  {
+   "source": "prediction-who-flinches",
+   "target": "prediction-legal-cascade",
+   "type": "correlated-with"
+  },
+  {
+   "source": "prediction-who-flinches",
+   "target": "prediction-corporate-defense",
+   "type": "correlated-with"
+  },
+  {
+   "source": "prediction-who-flinches",
+   "target": "prediction-public-response",
+   "type": "correlated-with"
+  },
+  {
+   "source": "prediction-who-flinches",
+   "target": "prediction-pi-crossing",
+   "type": "correlated-with"
+  },
+  {
+   "source": "prediction-legal-cascade",
+   "target": "us-healthcare-system",
+   "type": "will-litigate"
+  },
+  {
+   "source": "prediction-public-response",
+   "target": "us-healthcare-system",
+   "type": "will-expose"
+  },
+  {
+   "source": "prediction-legal-cascade",
+   "target": "prison-industrial-complex",
+   "type": "will-litigate"
+  },
+  {
+   "source": "prediction-public-response",
+   "target": "prison-industrial-complex",
+   "type": "will-expose"
+  },
+  {
+   "source": "prediction-legal-cascade",
+   "target": "student-debt-crisis",
+   "type": "will-litigate"
+  },
+  {
+   "source": "prediction-public-response",
+   "target": "student-debt-crisis",
+   "type": "will-expose"
+  },
+  {
+   "source": "prediction-legal-cascade",
+   "target": "surveillance-capitalism",
+   "type": "will-litigate"
+  },
+  {
+   "source": "prediction-public-response",
+   "target": "surveillance-capitalism",
+   "type": "will-expose"
+  },
+  {
+   "source": "prediction-legal-cascade",
+   "target": "food-system-capture",
+   "type": "will-litigate"
+  },
+  {
+   "source": "prediction-public-response",
+   "target": "food-system-capture",
+   "type": "will-expose"
+  },
+  {
+   "source": "prediction-legal-cascade",
+   "target": "fossil-fuel-cover-up",
+   "type": "will-litigate"
+  },
+  {
+   "source": "prediction-public-response",
+   "target": "fossil-fuel-cover-up",
+   "type": "will-expose"
+  },
+  {
+   "source": "prediction-legal-cascade",
+   "target": "water-privatization",
+   "type": "will-litigate"
+  },
+  {
+   "source": "prediction-public-response",
+   "target": "water-privatization",
+   "type": "will-expose"
+  },
+  {
+   "source": "prediction-legal-cascade",
+   "target": "media-consolidation",
+   "type": "will-litigate"
+  },
+  {
+   "source": "prediction-public-response",
+   "target": "media-consolidation",
+   "type": "will-expose"
+  },
+  {
+   "source": "prediction-legal-cascade",
+   "target": "union-busting-history",
+   "type": "will-litigate"
+  },
+  {
+   "source": "prediction-public-response",
+   "target": "union-busting-history",
+   "type": "will-expose"
+  },
+  {
+   "source": "prediction-legal-cascade",
+   "target": "war-on-drugs",
+   "type": "will-litigate"
+  },
+  {
+   "source": "prediction-public-response",
+   "target": "war-on-drugs",
+   "type": "will-expose"
+  },
+  {
+   "source": "prediction-legal-cascade",
+   "target": "war-on-terror",
+   "type": "will-litigate"
+  },
+  {
+   "source": "prediction-public-response",
+   "target": "war-on-terror",
+   "type": "will-expose"
+  },
+  {
+   "source": "prediction-legal-cascade",
+   "target": "redlining-legacy",
+   "type": "will-litigate"
+  },
+  {
+   "source": "prediction-public-response",
+   "target": "redlining-legacy",
+   "type": "will-expose"
+  },
+  {
+   "source": "prediction-legal-cascade",
+   "target": "school-to-prison-pipeline",
+   "type": "will-litigate"
+  },
+  {
+   "source": "prediction-public-response",
+   "target": "school-to-prison-pipeline",
+   "type": "will-expose"
+  },
+  {
+   "source": "prediction-legal-cascade",
+   "target": "ai-training-theft",
+   "type": "will-litigate"
+  },
+  {
+   "source": "prediction-public-response",
+   "target": "ai-training-theft",
+   "type": "will-expose"
+  },
+  {
+   "source": "quasi_anderson",
+   "target": "song-fifteen-thousand",
+   "type": "bingo-science"
+  },
+  {
+   "source": "quasi_anderson",
+   "target": "wp-sg-westgate",
+   "type": "bingo-science"
+  },
+  {
+   "source": "quasi_anderson",
+   "target": "wp-70-papers",
+   "type": "bingo-science"
+  },
+  {
+   "source": "quasi_anderson",
+   "target": "veritasium",
+   "type": "bingo-science"
+  },
+  {
+   "source": "quasi_anderson",
+   "target": "pharmacological_extinction",
+   "type": "bingo-science"
+  },
+  {
+   "source": "quasi_anderson",
+   "target": "article_jump_drake_equation",
+   "type": "bingo-science"
+  },
+  {
+   "source": "quasi_anderson",
+   "target": "adolf-hitler",
+   "type": "bingo-science"
+  },
+  {
+   "source": "quasi_anderson",
+   "target": "wp-sg-novelty-impact",
+   "type": "bingo-science"
+  },
+  {
+   "source": "quasi_anderson",
+   "target": "journey_the_proof",
+   "type": "bingo-science"
+  },
+  {
+   "source": "quasi_anderson",
+   "target": "thimerosal-removed-2001",
+   "type": "bingo-science"
+  },
+  {
+   "source": "quasi_anderson",
+   "target": "who-thimerosal-safe",
+   "type": "bingo-science"
+  },
+  {
+   "source": "quasi_anderson",
+   "target": "cdc-thimerosal-safe",
+   "type": "bingo-science"
+  },
+  {
+   "source": "quasi_anderson",
+   "target": "innocence-project",
+   "type": "bingo-science"
+  },
+  {
+   "source": "quasi_anderson",
+   "target": "wrongfully-convicted",
+   "type": "bingo-science"
+  },
+  {
+   "source": "quasi_anderson",
+   "target": "ideonella-sakaiensis",
+   "type": "bingo-science"
+  },
+  {
+   "source": "quasi_anderson",
+   "target": "lang-python",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wp-basecamp",
+   "target": "song-fifteen-thousand",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wp-basecamp",
+   "target": "wp-sg-westgate",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wp-basecamp",
+   "target": "wp-70-papers",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wp-basecamp",
+   "target": "adolf-hitler",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wp-basecamp",
+   "target": "wp-sg-novelty-impact",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wp-basecamp",
+   "target": "wp-thesis",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wp-basecamp",
+   "target": "innocence-project",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wp-basecamp",
+   "target": "wrongfully-convicted",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wp-basecamp",
+   "target": "lang-python",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wp-basecamp",
+   "target": "wp-gen5",
+   "type": "bingo-science"
+  },
+  {
+   "source": "song-fifteen-thousand",
+   "target": "wp-sg-westgate",
+   "type": "bingo-science"
+  },
+  {
+   "source": "song-fifteen-thousand",
+   "target": "veritasium",
+   "type": "bingo-science"
+  },
+  {
+   "source": "song-fifteen-thousand",
+   "target": "hope-vertical-farming",
+   "type": "bingo-science"
+  },
+  {
+   "source": "song-fifteen-thousand",
+   "target": "secret-penicillin",
+   "type": "bingo-science"
+  },
+  {
+   "source": "song-fifteen-thousand",
+   "target": "secret-evolution",
+   "type": "bingo-science"
+  },
+  {
+   "source": "song-fifteen-thousand",
+   "target": "hope-precision-fermentation",
+   "type": "bingo-science"
+  },
+  {
+   "source": "song-fifteen-thousand",
+   "target": "pharmacological_extinction",
+   "type": "bingo-science"
+  },
+  {
+   "source": "song-fifteen-thousand",
+   "target": "article_jump_drake_equation",
+   "type": "bingo-science"
+  },
+  {
+   "source": "song-fifteen-thousand",
+   "target": "adolf-hitler",
+   "type": "bingo-science"
+  },
+  {
+   "source": "song-fifteen-thousand",
+   "target": "wp-sg-novelty-impact",
+   "type": "bingo-science"
+  },
+  {
+   "source": "song-fifteen-thousand",
+   "target": "journey_the_proof",
+   "type": "bingo-science"
+  },
+  {
+   "source": "song-fifteen-thousand",
+   "target": "thimerosal-removed-2001",
+   "type": "bingo-science"
+  },
+  {
+   "source": "song-fifteen-thousand",
+   "target": "who-thimerosal-safe",
+   "type": "bingo-science"
+  },
+  {
+   "source": "song-fifteen-thousand",
+   "target": "cdc-thimerosal-safe",
+   "type": "bingo-science"
+  },
+  {
+   "source": "song-fifteen-thousand",
+   "target": "wp-thesis",
+   "type": "bingo-science"
+  },
+  {
+   "source": "song-fifteen-thousand",
+   "target": "innocence-project",
+   "type": "bingo-science"
+  },
+  {
+   "source": "song-fifteen-thousand",
+   "target": "wrongfully-convicted",
+   "type": "bingo-science"
+  },
+  {
+   "source": "song-fifteen-thousand",
+   "target": "hope-crispr",
+   "type": "bingo-science"
+  },
+  {
+   "source": "song-fifteen-thousand",
+   "target": "ideonella-sakaiensis",
+   "type": "bingo-science"
+  },
+  {
+   "source": "song-fifteen-thousand",
+   "target": "lang-python",
+   "type": "bingo-science"
+  },
+  {
+   "source": "song-fifteen-thousand",
+   "target": "wp-gen5",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wp-sg-westgate",
+   "target": "wp-70-papers",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wp-sg-westgate",
+   "target": "veritasium",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wp-sg-westgate",
+   "target": "hope-vertical-farming",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wp-sg-westgate",
+   "target": "secret-penicillin",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wp-sg-westgate",
+   "target": "secret-evolution",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wp-sg-westgate",
+   "target": "hope-precision-fermentation",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wp-sg-westgate",
+   "target": "pharmacological_extinction",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wp-sg-westgate",
+   "target": "article_jump_drake_equation",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wp-sg-westgate",
+   "target": "adolf-hitler",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wp-sg-westgate",
+   "target": "journey_the_proof",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wp-sg-westgate",
+   "target": "thimerosal-removed-2001",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wp-sg-westgate",
+   "target": "who-thimerosal-safe",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wp-sg-westgate",
+   "target": "cdc-thimerosal-safe",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wp-sg-westgate",
+   "target": "wp-thesis",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wp-sg-westgate",
+   "target": "innocence-project",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wp-sg-westgate",
+   "target": "wrongfully-convicted",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wp-sg-westgate",
+   "target": "hope-crispr",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wp-sg-westgate",
+   "target": "ideonella-sakaiensis",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wp-sg-westgate",
+   "target": "lang-python",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wp-sg-westgate",
+   "target": "wp-gen5",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wp-70-papers",
+   "target": "veritasium",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wp-70-papers",
+   "target": "hope-vertical-farming",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wp-70-papers",
+   "target": "secret-penicillin",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wp-70-papers",
+   "target": "secret-evolution",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wp-70-papers",
+   "target": "hope-precision-fermentation",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wp-70-papers",
+   "target": "pharmacological_extinction",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wp-70-papers",
+   "target": "article_jump_drake_equation",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wp-70-papers",
+   "target": "adolf-hitler",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wp-70-papers",
+   "target": "wp-sg-novelty-impact",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wp-70-papers",
+   "target": "journey_the_proof",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wp-70-papers",
+   "target": "who-thimerosal-safe",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wp-70-papers",
+   "target": "cdc-thimerosal-safe",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wp-70-papers",
+   "target": "innocence-project",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wp-70-papers",
+   "target": "wrongfully-convicted",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wp-70-papers",
+   "target": "hope-crispr",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wp-70-papers",
+   "target": "ideonella-sakaiensis",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wp-70-papers",
+   "target": "lang-python",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wp-70-papers",
+   "target": "wp-gen5",
+   "type": "bingo-science"
+  },
+  {
+   "source": "veritasium",
+   "target": "hope-vertical-farming",
+   "type": "bingo-science"
+  },
+  {
+   "source": "veritasium",
+   "target": "secret-penicillin",
+   "type": "bingo-science"
+  },
+  {
+   "source": "veritasium",
+   "target": "secret-evolution",
+   "type": "bingo-science"
+  },
+  {
+   "source": "veritasium",
+   "target": "hope-precision-fermentation",
+   "type": "bingo-science"
+  },
+  {
+   "source": "veritasium",
+   "target": "pharmacological_extinction",
+   "type": "bingo-science"
+  },
+  {
+   "source": "veritasium",
+   "target": "article_jump_drake_equation",
+   "type": "bingo-science"
+  },
+  {
+   "source": "veritasium",
+   "target": "adolf-hitler",
+   "type": "bingo-science"
+  },
+  {
+   "source": "veritasium",
+   "target": "wp-sg-novelty-impact",
+   "type": "bingo-science"
+  },
+  {
+   "source": "veritasium",
+   "target": "journey_the_proof",
+   "type": "bingo-science"
+  },
+  {
+   "source": "veritasium",
+   "target": "thimerosal-removed-2001",
+   "type": "bingo-science"
+  },
+  {
+   "source": "veritasium",
+   "target": "who-thimerosal-safe",
+   "type": "bingo-science"
+  },
+  {
+   "source": "veritasium",
+   "target": "cdc-thimerosal-safe",
+   "type": "bingo-science"
+  },
+  {
+   "source": "veritasium",
+   "target": "innocence-project",
+   "type": "bingo-science"
+  },
+  {
+   "source": "veritasium",
+   "target": "wrongfully-convicted",
+   "type": "bingo-science"
+  },
+  {
+   "source": "veritasium",
+   "target": "hope-crispr",
+   "type": "bingo-science"
+  },
+  {
+   "source": "veritasium",
+   "target": "ideonella-sakaiensis",
+   "type": "bingo-science"
+  },
+  {
+   "source": "veritasium",
+   "target": "lang-python",
+   "type": "bingo-science"
+  },
+  {
+   "source": "hope-vertical-farming",
+   "target": "secret-penicillin",
+   "type": "bingo-science"
+  },
+  {
+   "source": "hope-vertical-farming",
+   "target": "pharmacological_extinction",
+   "type": "bingo-science"
+  },
+  {
+   "source": "hope-vertical-farming",
+   "target": "article_jump_drake_equation",
+   "type": "bingo-science"
+  },
+  {
+   "source": "hope-vertical-farming",
+   "target": "adolf-hitler",
+   "type": "bingo-science"
+  },
+  {
+   "source": "hope-vertical-farming",
+   "target": "wp-sg-novelty-impact",
+   "type": "bingo-science"
+  },
+  {
+   "source": "hope-vertical-farming",
+   "target": "journey_the_proof",
+   "type": "bingo-science"
+  },
+  {
+   "source": "hope-vertical-farming",
+   "target": "thimerosal-removed-2001",
+   "type": "bingo-science"
+  },
+  {
+   "source": "hope-vertical-farming",
+   "target": "who-thimerosal-safe",
+   "type": "bingo-science"
+  },
+  {
+   "source": "hope-vertical-farming",
+   "target": "innocence-project",
+   "type": "bingo-science"
+  },
+  {
+   "source": "hope-vertical-farming",
+   "target": "wrongfully-convicted",
+   "type": "bingo-science"
+  },
+  {
+   "source": "hope-vertical-farming",
+   "target": "hope-crispr",
+   "type": "bingo-science"
+  },
+  {
+   "source": "hope-vertical-farming",
+   "target": "ideonella-sakaiensis",
+   "type": "bingo-science"
+  },
+  {
+   "source": "hope-vertical-farming",
+   "target": "lang-python",
+   "type": "bingo-science"
+  },
+  {
+   "source": "secret-penicillin",
+   "target": "hope-precision-fermentation",
+   "type": "bingo-science"
+  },
+  {
+   "source": "secret-penicillin",
+   "target": "pharmacological_extinction",
+   "type": "bingo-science"
+  },
+  {
+   "source": "secret-penicillin",
+   "target": "article_jump_drake_equation",
+   "type": "bingo-science"
+  },
+  {
+   "source": "secret-penicillin",
+   "target": "adolf-hitler",
+   "type": "bingo-science"
+  },
+  {
+   "source": "secret-penicillin",
+   "target": "wp-sg-novelty-impact",
+   "type": "bingo-science"
+  },
+  {
+   "source": "secret-penicillin",
+   "target": "journey_the_proof",
+   "type": "bingo-science"
+  },
+  {
+   "source": "secret-penicillin",
+   "target": "thimerosal-removed-2001",
+   "type": "bingo-science"
+  },
+  {
+   "source": "secret-penicillin",
+   "target": "who-thimerosal-safe",
+   "type": "bingo-science"
+  },
+  {
+   "source": "secret-penicillin",
+   "target": "innocence-project",
+   "type": "bingo-science"
+  },
+  {
+   "source": "secret-penicillin",
+   "target": "wrongfully-convicted",
+   "type": "bingo-science"
+  },
+  {
+   "source": "secret-penicillin",
+   "target": "hope-crispr",
+   "type": "bingo-science"
+  },
+  {
+   "source": "secret-penicillin",
+   "target": "ideonella-sakaiensis",
+   "type": "bingo-science"
+  },
+  {
+   "source": "secret-penicillin",
+   "target": "lang-python",
+   "type": "bingo-science"
+  },
+  {
+   "source": "secret-evolution",
+   "target": "pharmacological_extinction",
+   "type": "bingo-science"
+  },
+  {
+   "source": "secret-evolution",
+   "target": "article_jump_drake_equation",
+   "type": "bingo-science"
+  },
+  {
+   "source": "secret-evolution",
+   "target": "adolf-hitler",
+   "type": "bingo-science"
+  },
+  {
+   "source": "secret-evolution",
+   "target": "wp-sg-novelty-impact",
+   "type": "bingo-science"
+  },
+  {
+   "source": "secret-evolution",
+   "target": "journey_the_proof",
+   "type": "bingo-science"
+  },
+  {
+   "source": "secret-evolution",
+   "target": "thimerosal-removed-2001",
+   "type": "bingo-science"
+  },
+  {
+   "source": "secret-evolution",
+   "target": "who-thimerosal-safe",
+   "type": "bingo-science"
+  },
+  {
+   "source": "secret-evolution",
+   "target": "innocence-project",
+   "type": "bingo-science"
+  },
+  {
+   "source": "secret-evolution",
+   "target": "wrongfully-convicted",
+   "type": "bingo-science"
+  },
+  {
+   "source": "secret-evolution",
+   "target": "ideonella-sakaiensis",
+   "type": "bingo-science"
+  },
+  {
+   "source": "secret-evolution",
+   "target": "lang-python",
+   "type": "bingo-science"
+  },
+  {
+   "source": "hope-precision-fermentation",
+   "target": "pharmacological_extinction",
+   "type": "bingo-science"
+  },
+  {
+   "source": "hope-precision-fermentation",
+   "target": "article_jump_drake_equation",
+   "type": "bingo-science"
+  },
+  {
+   "source": "hope-precision-fermentation",
+   "target": "adolf-hitler",
+   "type": "bingo-science"
+  },
+  {
+   "source": "hope-precision-fermentation",
+   "target": "wp-sg-novelty-impact",
+   "type": "bingo-science"
+  },
+  {
+   "source": "hope-precision-fermentation",
+   "target": "journey_the_proof",
+   "type": "bingo-science"
+  },
+  {
+   "source": "hope-precision-fermentation",
+   "target": "thimerosal-removed-2001",
+   "type": "bingo-science"
+  },
+  {
+   "source": "hope-precision-fermentation",
+   "target": "who-thimerosal-safe",
+   "type": "bingo-science"
+  },
+  {
+   "source": "hope-precision-fermentation",
+   "target": "innocence-project",
+   "type": "bingo-science"
+  },
+  {
+   "source": "hope-precision-fermentation",
+   "target": "wrongfully-convicted",
+   "type": "bingo-science"
+  },
+  {
+   "source": "hope-precision-fermentation",
+   "target": "hope-crispr",
+   "type": "bingo-science"
+  },
+  {
+   "source": "hope-precision-fermentation",
+   "target": "ideonella-sakaiensis",
+   "type": "bingo-science"
+  },
+  {
+   "source": "hope-precision-fermentation",
+   "target": "lang-python",
+   "type": "bingo-science"
+  },
+  {
+   "source": "pharmacological_extinction",
+   "target": "article_jump_drake_equation",
+   "type": "bingo-science"
+  },
+  {
+   "source": "pharmacological_extinction",
+   "target": "adolf-hitler",
+   "type": "bingo-science"
+  },
+  {
+   "source": "pharmacological_extinction",
+   "target": "wp-sg-novelty-impact",
+   "type": "bingo-science"
+  },
+  {
+   "source": "pharmacological_extinction",
+   "target": "journey_the_proof",
+   "type": "bingo-science"
+  },
+  {
+   "source": "pharmacological_extinction",
+   "target": "thimerosal-removed-2001",
+   "type": "bingo-science"
+  },
+  {
+   "source": "pharmacological_extinction",
+   "target": "who-thimerosal-safe",
+   "type": "bingo-science"
+  },
+  {
+   "source": "pharmacological_extinction",
+   "target": "cdc-thimerosal-safe",
+   "type": "bingo-science"
+  },
+  {
+   "source": "pharmacological_extinction",
+   "target": "innocence-project",
+   "type": "bingo-science"
+  },
+  {
+   "source": "pharmacological_extinction",
+   "target": "wrongfully-convicted",
+   "type": "bingo-science"
+  },
+  {
+   "source": "pharmacological_extinction",
+   "target": "hope-crispr",
+   "type": "bingo-science"
+  },
+  {
+   "source": "pharmacological_extinction",
+   "target": "ideonella-sakaiensis",
+   "type": "bingo-science"
+  },
+  {
+   "source": "pharmacological_extinction",
+   "target": "lang-python",
+   "type": "bingo-science"
+  },
+  {
+   "source": "article_jump_drake_equation",
+   "target": "adolf-hitler",
+   "type": "bingo-science"
+  },
+  {
+   "source": "article_jump_drake_equation",
+   "target": "wp-sg-novelty-impact",
+   "type": "bingo-science"
+  },
+  {
+   "source": "article_jump_drake_equation",
+   "target": "journey_the_proof",
+   "type": "bingo-science"
+  },
+  {
+   "source": "article_jump_drake_equation",
+   "target": "thimerosal-removed-2001",
+   "type": "bingo-science"
+  },
+  {
+   "source": "article_jump_drake_equation",
+   "target": "who-thimerosal-safe",
+   "type": "bingo-science"
+  },
+  {
+   "source": "article_jump_drake_equation",
+   "target": "cdc-thimerosal-safe",
+   "type": "bingo-science"
+  },
+  {
+   "source": "article_jump_drake_equation",
+   "target": "innocence-project",
+   "type": "bingo-science"
+  },
+  {
+   "source": "article_jump_drake_equation",
+   "target": "wrongfully-convicted",
+   "type": "bingo-science"
+  },
+  {
+   "source": "article_jump_drake_equation",
+   "target": "hope-crispr",
+   "type": "bingo-science"
+  },
+  {
+   "source": "article_jump_drake_equation",
+   "target": "ideonella-sakaiensis",
+   "type": "bingo-science"
+  },
+  {
+   "source": "article_jump_drake_equation",
+   "target": "lang-python",
+   "type": "bingo-science"
+  },
+  {
+   "source": "adolf-hitler",
+   "target": "wp-sg-novelty-impact",
+   "type": "bingo-science"
+  },
+  {
+   "source": "adolf-hitler",
+   "target": "journey_the_proof",
+   "type": "bingo-science"
+  },
+  {
+   "source": "adolf-hitler",
+   "target": "thimerosal-removed-2001",
+   "type": "bingo-science"
+  },
+  {
+   "source": "adolf-hitler",
+   "target": "who-thimerosal-safe",
+   "type": "bingo-science"
+  },
+  {
+   "source": "adolf-hitler",
+   "target": "cdc-thimerosal-safe",
+   "type": "bingo-science"
+  },
+  {
+   "source": "adolf-hitler",
+   "target": "wp-thesis",
+   "type": "bingo-science"
+  },
+  {
+   "source": "adolf-hitler",
+   "target": "innocence-project",
+   "type": "bingo-science"
+  },
+  {
+   "source": "adolf-hitler",
+   "target": "wrongfully-convicted",
+   "type": "bingo-science"
+  },
+  {
+   "source": "adolf-hitler",
+   "target": "hope-crispr",
+   "type": "bingo-science"
+  },
+  {
+   "source": "adolf-hitler",
+   "target": "ideonella-sakaiensis",
+   "type": "bingo-science"
+  },
+  {
+   "source": "adolf-hitler",
+   "target": "lang-python",
+   "type": "bingo-science"
+  },
+  {
+   "source": "adolf-hitler",
+   "target": "wp-gen5",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wp-sg-novelty-impact",
+   "target": "journey_the_proof",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wp-sg-novelty-impact",
+   "target": "thimerosal-removed-2001",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wp-sg-novelty-impact",
+   "target": "who-thimerosal-safe",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wp-sg-novelty-impact",
+   "target": "cdc-thimerosal-safe",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wp-sg-novelty-impact",
+   "target": "wp-thesis",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wp-sg-novelty-impact",
+   "target": "innocence-project",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wp-sg-novelty-impact",
+   "target": "wrongfully-convicted",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wp-sg-novelty-impact",
+   "target": "hope-crispr",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wp-sg-novelty-impact",
+   "target": "ideonella-sakaiensis",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wp-sg-novelty-impact",
+   "target": "lang-python",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wp-sg-novelty-impact",
+   "target": "wp-gen5",
+   "type": "bingo-science"
+  },
+  {
+   "source": "journey_the_proof",
+   "target": "thimerosal-removed-2001",
+   "type": "bingo-science"
+  },
+  {
+   "source": "journey_the_proof",
+   "target": "who-thimerosal-safe",
+   "type": "bingo-science"
+  },
+  {
+   "source": "journey_the_proof",
+   "target": "cdc-thimerosal-safe",
+   "type": "bingo-science"
+  },
+  {
+   "source": "journey_the_proof",
+   "target": "innocence-project",
+   "type": "bingo-science"
+  },
+  {
+   "source": "journey_the_proof",
+   "target": "wrongfully-convicted",
+   "type": "bingo-science"
+  },
+  {
+   "source": "journey_the_proof",
+   "target": "hope-crispr",
+   "type": "bingo-science"
+  },
+  {
+   "source": "journey_the_proof",
+   "target": "ideonella-sakaiensis",
+   "type": "bingo-science"
+  },
+  {
+   "source": "journey_the_proof",
+   "target": "lang-python",
+   "type": "bingo-science"
+  },
+  {
+   "source": "thimerosal-removed-2001",
+   "target": "who-thimerosal-safe",
+   "type": "bingo-science"
+  },
+  {
+   "source": "thimerosal-removed-2001",
+   "target": "cdc-thimerosal-safe",
+   "type": "bingo-science"
+  },
+  {
+   "source": "thimerosal-removed-2001",
+   "target": "innocence-project",
+   "type": "bingo-science"
+  },
+  {
+   "source": "thimerosal-removed-2001",
+   "target": "wrongfully-convicted",
+   "type": "bingo-science"
+  },
+  {
+   "source": "thimerosal-removed-2001",
+   "target": "hope-crispr",
+   "type": "bingo-science"
+  },
+  {
+   "source": "thimerosal-removed-2001",
+   "target": "ideonella-sakaiensis",
+   "type": "bingo-science"
+  },
+  {
+   "source": "thimerosal-removed-2001",
+   "target": "lang-python",
+   "type": "bingo-science"
+  },
+  {
+   "source": "who-thimerosal-safe",
+   "target": "innocence-project",
+   "type": "bingo-science"
+  },
+  {
+   "source": "who-thimerosal-safe",
+   "target": "wrongfully-convicted",
+   "type": "bingo-science"
+  },
+  {
+   "source": "who-thimerosal-safe",
+   "target": "hope-crispr",
+   "type": "bingo-science"
+  },
+  {
+   "source": "who-thimerosal-safe",
+   "target": "ideonella-sakaiensis",
+   "type": "bingo-science"
+  },
+  {
+   "source": "who-thimerosal-safe",
+   "target": "lang-python",
+   "type": "bingo-science"
+  },
+  {
+   "source": "cdc-thimerosal-safe",
+   "target": "innocence-project",
+   "type": "bingo-science"
+  },
+  {
+   "source": "cdc-thimerosal-safe",
+   "target": "wrongfully-convicted",
+   "type": "bingo-science"
+  },
+  {
+   "source": "cdc-thimerosal-safe",
+   "target": "hope-crispr",
+   "type": "bingo-science"
+  },
+  {
+   "source": "cdc-thimerosal-safe",
+   "target": "ideonella-sakaiensis",
+   "type": "bingo-science"
+  },
+  {
+   "source": "cdc-thimerosal-safe",
+   "target": "lang-python",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wp-thesis",
+   "target": "innocence-project",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wp-thesis",
+   "target": "wrongfully-convicted",
+   "type": "bingo-science"
+  },
+  {
+   "source": "innocence-project",
+   "target": "hope-crispr",
+   "type": "bingo-science"
+  },
+  {
+   "source": "innocence-project",
+   "target": "ideonella-sakaiensis",
+   "type": "bingo-science"
+  },
+  {
+   "source": "innocence-project",
+   "target": "lang-python",
+   "type": "bingo-science"
+  },
+  {
+   "source": "innocence-project",
+   "target": "wp-gen5",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wrongfully-convicted",
+   "target": "hope-crispr",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wrongfully-convicted",
+   "target": "ideonella-sakaiensis",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wrongfully-convicted",
+   "target": "lang-python",
+   "type": "bingo-science"
+  },
+  {
+   "source": "wrongfully-convicted",
+   "target": "wp-gen5",
+   "type": "bingo-science"
+  },
+  {
+   "source": "hope-crispr",
+   "target": "ideonella-sakaiensis",
+   "type": "bingo-science"
+  },
+  {
+   "source": "hope-crispr",
+   "target": "lang-python",
+   "type": "bingo-science"
+  },
+  {
+   "source": "ideonella-sakaiensis",
+   "target": "lang-python",
+   "type": "bingo-science"
+  },
+  {
+   "source": "lang-python",
+   "target": "wp-gen5",
+   "type": "bingo-science"
+  },
+  {
+   "source": "monsanto-bayer-seeds",
+   "target": "water-crisis-now",
+   "type": "bingo-million"
+  },
+  {
+   "source": "monsanto-bayer-seeds",
+   "target": "gig-economy-trap",
+   "type": "bingo-million"
+  },
+  {
+   "source": "monsanto-bayer-seeds",
+   "target": "fascism-comparison",
+   "type": "bingo-million"
+  },
+  {
+   "source": "monsanto-bayer-seeds",
+   "target": "the-men-eating-children",
+   "type": "bingo-million"
+  },
+  {
+   "source": "monsanto-bayer-seeds",
+   "target": "loc-k-street",
+   "type": "bingo-million"
+  },
+  {
+   "source": "monsanto-bayer-seeds",
+   "target": "story-for-the-student",
+   "type": "bingo-million"
+  },
+  {
+   "source": "monsanto-bayer-seeds",
+   "target": "truth-social",
+   "type": "bingo-million"
+  },
+  {
+   "source": "monsanto-bayer-seeds",
+   "target": "kim-jong-un",
+   "type": "bingo-million"
+  },
+  {
+   "source": "monsanto-bayer-seeds",
+   "target": "membrane-eats-all",
+   "type": "bingo-million"
+  },
+  {
+   "source": "monsanto-bayer-seeds",
+   "target": "sing-or-scream",
+   "type": "bingo-million"
+  },
+  {
+   "source": "monsanto-bayer-seeds",
+   "target": "hong-kong-crackdown",
+   "type": "bingo-million"
+  },
+  {
+   "source": "monsanto-bayer-seeds",
+   "target": "the-bridges",
+   "type": "bingo-million"
+  },
+  {
+   "source": "monsanto-bayer-seeds",
+   "target": "fox-news-disinfo",
+   "type": "bingo-million"
+  },
+  {
+   "source": "monsanto-bayer-seeds",
+   "target": "2008-crisis-deep",
+   "type": "bingo-million"
+  },
+  {
+   "source": "monsanto-bayer-seeds",
+   "target": "loc-draftkings",
+   "type": "bingo-million"
+  },
+  {
+   "source": "monsanto-bayer-seeds",
+   "target": "nestle-water-extraction",
+   "type": "bingo-million"
+  },
+  {
+   "source": "monsanto-bayer-seeds",
+   "target": "anthem-elevance",
+   "type": "bingo-million"
+  },
+  {
+   "source": "monsanto-bayer-seeds",
+   "target": "panama-papers",
+   "type": "bingo-million"
+  },
+  {
+   "source": "monsanto-bayer-seeds",
+   "target": "the-naked-truth",
+   "type": "bingo-million"
+  },
+  {
+   "source": "monsanto-bayer-seeds",
+   "target": "benjamin-netanyahu",
+   "type": "bingo-million"
+  },
+  {
+   "source": "monsanto-bayer-seeds",
+   "target": "dominion-settlement",
+   "type": "bingo-million"
+  },
+  {
+   "source": "monsanto-bayer-seeds",
+   "target": "aaron-swartz",
+   "type": "bingo-million"
+  },
+  {
+   "source": "monsanto-bayer-seeds",
+   "target": "usps",
+   "type": "bingo-million"
+  },
+  {
+   "source": "water-crisis-now",
+   "target": "gig-economy-trap",
+   "type": "bingo-million"
+  },
+  {
+   "source": "water-crisis-now",
+   "target": "fascism-comparison",
+   "type": "bingo-million"
+  },
+  {
+   "source": "water-crisis-now",
+   "target": "the-men-eating-children",
+   "type": "bingo-million"
+  },
+  {
+   "source": "water-crisis-now",
+   "target": "loc-k-street",
+   "type": "bingo-million"
+  },
+  {
+   "source": "water-crisis-now",
+   "target": "story-for-the-student",
+   "type": "bingo-million"
+  },
+  {
+   "source": "water-crisis-now",
+   "target": "truth-social",
+   "type": "bingo-million"
+  },
+  {
+   "source": "water-crisis-now",
+   "target": "kim-jong-un",
+   "type": "bingo-million"
+  },
+  {
+   "source": "water-crisis-now",
+   "target": "membrane-eats-all",
+   "type": "bingo-million"
+  },
+  {
+   "source": "water-crisis-now",
+   "target": "sing-or-scream",
+   "type": "bingo-million"
+  },
+  {
+   "source": "water-crisis-now",
+   "target": "prison-industrial-complex",
+   "type": "bingo-million"
+  },
+  {
+   "source": "water-crisis-now",
+   "target": "hong-kong-crackdown",
+   "type": "bingo-million"
+  },
+  {
+   "source": "water-crisis-now",
+   "target": "the-bridges",
+   "type": "bingo-million"
+  },
+  {
+   "source": "water-crisis-now",
+   "target": "fox-news-disinfo",
+   "type": "bingo-million"
+  },
+  {
+   "source": "water-crisis-now",
+   "target": "2008-crisis-deep",
+   "type": "bingo-million"
+  },
+  {
+   "source": "water-crisis-now",
+   "target": "loc-draftkings",
+   "type": "bingo-million"
+  },
+  {
+   "source": "water-crisis-now",
+   "target": "nestle-water-extraction",
+   "type": "bingo-million"
+  },
+  {
+   "source": "water-crisis-now",
+   "target": "anthem-elevance",
+   "type": "bingo-million"
+  },
+  {
+   "source": "water-crisis-now",
+   "target": "panama-papers",
+   "type": "bingo-million"
+  },
+  {
+   "source": "water-crisis-now",
+   "target": "the-naked-truth",
+   "type": "bingo-million"
+  },
+  {
+   "source": "water-crisis-now",
+   "target": "benjamin-netanyahu",
+   "type": "bingo-million"
+  },
+  {
+   "source": "water-crisis-now",
+   "target": "dominion-settlement",
+   "type": "bingo-million"
+  },
+  {
+   "source": "water-crisis-now",
+   "target": "aaron-swartz",
+   "type": "bingo-million"
+  },
+  {
+   "source": "water-crisis-now",
+   "target": "usps",
+   "type": "bingo-million"
+  },
+  {
+   "source": "gig-economy-trap",
+   "target": "fascism-comparison",
+   "type": "bingo-million"
+  },
+  {
+   "source": "gig-economy-trap",
+   "target": "the-men-eating-children",
+   "type": "bingo-million"
+  },
+  {
+   "source": "gig-economy-trap",
+   "target": "loc-k-street",
+   "type": "bingo-million"
+  },
+  {
+   "source": "gig-economy-trap",
+   "target": "story-for-the-student",
+   "type": "bingo-million"
+  },
+  {
+   "source": "gig-economy-trap",
+   "target": "truth-social",
+   "type": "bingo-million"
+  },
+  {
+   "source": "gig-economy-trap",
+   "target": "kim-jong-un",
+   "type": "bingo-million"
+  },
+  {
+   "source": "gig-economy-trap",
+   "target": "membrane-eats-all",
+   "type": "bingo-million"
+  },
+  {
+   "source": "gig-economy-trap",
+   "target": "sing-or-scream",
+   "type": "bingo-million"
+  },
+  {
+   "source": "gig-economy-trap",
+   "target": "prison-industrial-complex",
+   "type": "bingo-million"
+  },
+  {
+   "source": "gig-economy-trap",
+   "target": "hong-kong-crackdown",
+   "type": "bingo-million"
+  },
+  {
+   "source": "gig-economy-trap",
+   "target": "the-bridges",
+   "type": "bingo-million"
+  },
+  {
+   "source": "gig-economy-trap",
+   "target": "fox-news-disinfo",
+   "type": "bingo-million"
+  },
+  {
+   "source": "gig-economy-trap",
+   "target": "2008-crisis-deep",
+   "type": "bingo-million"
+  },
+  {
+   "source": "gig-economy-trap",
+   "target": "loc-draftkings",
+   "type": "bingo-million"
+  },
+  {
+   "source": "gig-economy-trap",
+   "target": "nestle-water-extraction",
+   "type": "bingo-million"
+  },
+  {
+   "source": "gig-economy-trap",
+   "target": "anthem-elevance",
+   "type": "bingo-million"
+  },
+  {
+   "source": "gig-economy-trap",
+   "target": "panama-papers",
+   "type": "bingo-million"
+  },
+  {
+   "source": "gig-economy-trap",
+   "target": "the-naked-truth",
+   "type": "bingo-million"
+  },
+  {
+   "source": "gig-economy-trap",
+   "target": "benjamin-netanyahu",
+   "type": "bingo-million"
+  },
+  {
+   "source": "gig-economy-trap",
+   "target": "dominion-settlement",
+   "type": "bingo-million"
+  },
+  {
+   "source": "gig-economy-trap",
+   "target": "aaron-swartz",
+   "type": "bingo-million"
+  },
+  {
+   "source": "gig-economy-trap",
+   "target": "usps",
+   "type": "bingo-million"
+  },
+  {
+   "source": "fascism-comparison",
+   "target": "the-men-eating-children",
+   "type": "bingo-million"
+  },
+  {
+   "source": "fascism-comparison",
+   "target": "loc-k-street",
+   "type": "bingo-million"
+  },
+  {
+   "source": "fascism-comparison",
+   "target": "story-for-the-student",
+   "type": "bingo-million"
+  },
+  {
+   "source": "fascism-comparison",
+   "target": "truth-social",
+   "type": "bingo-million"
+  },
+  {
+   "source": "fascism-comparison",
+   "target": "kim-jong-un",
+   "type": "bingo-million"
+  },
+  {
+   "source": "fascism-comparison",
+   "target": "membrane-eats-all",
+   "type": "bingo-million"
+  },
+  {
+   "source": "fascism-comparison",
+   "target": "sing-or-scream",
+   "type": "bingo-million"
+  },
+  {
+   "source": "fascism-comparison",
+   "target": "prison-industrial-complex",
+   "type": "bingo-million"
+  },
+  {
+   "source": "fascism-comparison",
+   "target": "hong-kong-crackdown",
+   "type": "bingo-million"
+  },
+  {
+   "source": "fascism-comparison",
+   "target": "the-bridges",
+   "type": "bingo-million"
+  },
+  {
+   "source": "fascism-comparison",
+   "target": "fox-news-disinfo",
+   "type": "bingo-million"
+  },
+  {
+   "source": "fascism-comparison",
+   "target": "2008-crisis-deep",
+   "type": "bingo-million"
+  },
+  {
+   "source": "fascism-comparison",
+   "target": "loc-draftkings",
+   "type": "bingo-million"
+  },
+  {
+   "source": "fascism-comparison",
+   "target": "nestle-water-extraction",
+   "type": "bingo-million"
+  },
+  {
+   "source": "fascism-comparison",
+   "target": "anthem-elevance",
+   "type": "bingo-million"
+  },
+  {
+   "source": "fascism-comparison",
+   "target": "panama-papers",
+   "type": "bingo-million"
+  },
+  {
+   "source": "fascism-comparison",
+   "target": "the-naked-truth",
+   "type": "bingo-million"
+  },
+  {
+   "source": "fascism-comparison",
+   "target": "dominion-settlement",
+   "type": "bingo-million"
+  },
+  {
+   "source": "fascism-comparison",
+   "target": "aaron-swartz",
+   "type": "bingo-million"
+  },
+  {
+   "source": "fascism-comparison",
+   "target": "usps",
+   "type": "bingo-million"
+  },
+  {
+   "source": "the-men-eating-children",
+   "target": "loc-k-street",
+   "type": "bingo-million"
+  },
+  {
+   "source": "the-men-eating-children",
+   "target": "story-for-the-student",
+   "type": "bingo-million"
+  },
+  {
+   "source": "the-men-eating-children",
+   "target": "truth-social",
+   "type": "bingo-million"
+  },
+  {
+   "source": "the-men-eating-children",
+   "target": "kim-jong-un",
+   "type": "bingo-million"
+  },
+  {
+   "source": "the-men-eating-children",
+   "target": "membrane-eats-all",
+   "type": "bingo-million"
+  },
+  {
+   "source": "the-men-eating-children",
+   "target": "sing-or-scream",
+   "type": "bingo-million"
+  },
+  {
+   "source": "the-men-eating-children",
+   "target": "prison-industrial-complex",
+   "type": "bingo-million"
+  },
+  {
+   "source": "the-men-eating-children",
+   "target": "hong-kong-crackdown",
+   "type": "bingo-million"
+  },
+  {
+   "source": "the-men-eating-children",
+   "target": "the-bridges",
+   "type": "bingo-million"
+  },
+  {
+   "source": "the-men-eating-children",
+   "target": "fox-news-disinfo",
+   "type": "bingo-million"
+  },
+  {
+   "source": "the-men-eating-children",
+   "target": "2008-crisis-deep",
+   "type": "bingo-million"
+  },
+  {
+   "source": "the-men-eating-children",
+   "target": "loc-draftkings",
+   "type": "bingo-million"
+  },
+  {
+   "source": "the-men-eating-children",
+   "target": "nestle-water-extraction",
+   "type": "bingo-million"
+  },
+  {
+   "source": "the-men-eating-children",
+   "target": "anthem-elevance",
+   "type": "bingo-million"
+  },
+  {
+   "source": "the-men-eating-children",
+   "target": "panama-papers",
+   "type": "bingo-million"
+  },
+  {
+   "source": "the-men-eating-children",
+   "target": "the-naked-truth",
+   "type": "bingo-million"
+  },
+  {
+   "source": "the-men-eating-children",
+   "target": "dominion-settlement",
+   "type": "bingo-million"
+  },
+  {
+   "source": "the-men-eating-children",
+   "target": "usps",
+   "type": "bingo-million"
+  },
+  {
+   "source": "loc-k-street",
+   "target": "story-for-the-student",
+   "type": "bingo-million"
+  },
+  {
+   "source": "loc-k-street",
+   "target": "truth-social",
+   "type": "bingo-million"
+  },
+  {
+   "source": "loc-k-street",
+   "target": "kim-jong-un",
+   "type": "bingo-million"
+  },
+  {
+   "source": "loc-k-street",
+   "target": "membrane-eats-all",
+   "type": "bingo-million"
+  },
+  {
+   "source": "loc-k-street",
+   "target": "sing-or-scream",
+   "type": "bingo-million"
+  },
+  {
+   "source": "loc-k-street",
+   "target": "prison-industrial-complex",
+   "type": "bingo-million"
+  },
+  {
+   "source": "loc-k-street",
+   "target": "hong-kong-crackdown",
+   "type": "bingo-million"
+  },
+  {
+   "source": "loc-k-street",
+   "target": "the-bridges",
+   "type": "bingo-million"
+  },
+  {
+   "source": "loc-k-street",
+   "target": "fox-news-disinfo",
+   "type": "bingo-million"
+  },
+  {
+   "source": "loc-k-street",
+   "target": "2008-crisis-deep",
+   "type": "bingo-million"
+  },
+  {
+   "source": "loc-k-street",
+   "target": "loc-draftkings",
+   "type": "bingo-million"
+  },
+  {
+   "source": "loc-k-street",
+   "target": "nestle-water-extraction",
+   "type": "bingo-million"
+  },
+  {
+   "source": "loc-k-street",
+   "target": "anthem-elevance",
+   "type": "bingo-million"
+  },
+  {
+   "source": "loc-k-street",
+   "target": "panama-papers",
+   "type": "bingo-million"
+  },
+  {
+   "source": "loc-k-street",
+   "target": "the-naked-truth",
+   "type": "bingo-million"
+  },
+  {
+   "source": "loc-k-street",
+   "target": "benjamin-netanyahu",
+   "type": "bingo-million"
+  },
+  {
+   "source": "loc-k-street",
+   "target": "dominion-settlement",
+   "type": "bingo-million"
+  },
+  {
+   "source": "loc-k-street",
+   "target": "aaron-swartz",
+   "type": "bingo-million"
+  },
+  {
+   "source": "loc-k-street",
+   "target": "usps",
+   "type": "bingo-million"
+  },
+  {
+   "source": "story-for-the-student",
+   "target": "truth-social",
+   "type": "bingo-million"
+  },
+  {
+   "source": "story-for-the-student",
+   "target": "kim-jong-un",
+   "type": "bingo-million"
+  },
+  {
+   "source": "story-for-the-student",
+   "target": "membrane-eats-all",
+   "type": "bingo-million"
+  },
+  {
+   "source": "story-for-the-student",
+   "target": "sing-or-scream",
+   "type": "bingo-million"
+  },
+  {
+   "source": "story-for-the-student",
+   "target": "prison-industrial-complex",
+   "type": "bingo-million"
+  },
+  {
+   "source": "story-for-the-student",
+   "target": "hong-kong-crackdown",
+   "type": "bingo-million"
+  },
+  {
+   "source": "story-for-the-student",
+   "target": "the-bridges",
+   "type": "bingo-million"
+  },
+  {
+   "source": "story-for-the-student",
+   "target": "fox-news-disinfo",
+   "type": "bingo-million"
+  },
+  {
+   "source": "story-for-the-student",
+   "target": "2008-crisis-deep",
+   "type": "bingo-million"
+  },
+  {
+   "source": "story-for-the-student",
+   "target": "loc-draftkings",
+   "type": "bingo-million"
+  },
+  {
+   "source": "story-for-the-student",
+   "target": "nestle-water-extraction",
+   "type": "bingo-million"
+  },
+  {
+   "source": "story-for-the-student",
+   "target": "anthem-elevance",
+   "type": "bingo-million"
+  },
+  {
+   "source": "story-for-the-student",
+   "target": "panama-papers",
+   "type": "bingo-million"
+  },
+  {
+   "source": "story-for-the-student",
+   "target": "the-naked-truth",
+   "type": "bingo-million"
+  },
+  {
+   "source": "story-for-the-student",
+   "target": "benjamin-netanyahu",
+   "type": "bingo-million"
+  },
+  {
+   "source": "story-for-the-student",
+   "target": "dominion-settlement",
+   "type": "bingo-million"
+  },
+  {
+   "source": "story-for-the-student",
+   "target": "aaron-swartz",
+   "type": "bingo-million"
+  },
+  {
+   "source": "story-for-the-student",
+   "target": "usps",
+   "type": "bingo-million"
+  },
+  {
+   "source": "truth-social",
+   "target": "kim-jong-un",
+   "type": "bingo-million"
+  },
+  {
+   "source": "truth-social",
+   "target": "membrane-eats-all",
+   "type": "bingo-million"
+  },
+  {
+   "source": "truth-social",
+   "target": "sing-or-scream",
+   "type": "bingo-million"
+  },
+  {
+   "source": "truth-social",
+   "target": "prison-industrial-complex",
+   "type": "bingo-million"
+  },
+  {
+   "source": "truth-social",
+   "target": "hong-kong-crackdown",
+   "type": "bingo-million"
+  },
+  {
+   "source": "truth-social",
+   "target": "the-bridges",
+   "type": "bingo-million"
+  },
+  {
+   "source": "truth-social",
+   "target": "fox-news-disinfo",
+   "type": "bingo-million"
+  },
+  {
+   "source": "truth-social",
+   "target": "2008-crisis-deep",
+   "type": "bingo-million"
+  },
+  {
+   "source": "truth-social",
+   "target": "loc-draftkings",
+   "type": "bingo-million"
+  },
+  {
+   "source": "truth-social",
+   "target": "nestle-water-extraction",
+   "type": "bingo-million"
+  },
+  {
+   "source": "truth-social",
+   "target": "anthem-elevance",
+   "type": "bingo-million"
+  },
+  {
+   "source": "truth-social",
+   "target": "panama-papers",
+   "type": "bingo-million"
+  },
+  {
+   "source": "truth-social",
+   "target": "the-naked-truth",
+   "type": "bingo-million"
+  },
+  {
+   "source": "truth-social",
+   "target": "benjamin-netanyahu",
+   "type": "bingo-million"
+  },
+  {
+   "source": "truth-social",
+   "target": "dominion-settlement",
+   "type": "bingo-million"
+  },
+  {
+   "source": "truth-social",
+   "target": "aaron-swartz",
+   "type": "bingo-million"
+  },
+  {
+   "source": "truth-social",
+   "target": "usps",
+   "type": "bingo-million"
+  },
+  {
+   "source": "kim-jong-un",
+   "target": "membrane-eats-all",
+   "type": "bingo-million"
+  },
+  {
+   "source": "kim-jong-un",
+   "target": "sing-or-scream",
+   "type": "bingo-million"
+  },
+  {
+   "source": "kim-jong-un",
+   "target": "prison-industrial-complex",
+   "type": "bingo-million"
+  },
+  {
+   "source": "kim-jong-un",
+   "target": "hong-kong-crackdown",
+   "type": "bingo-million"
+  },
+  {
+   "source": "kim-jong-un",
+   "target": "the-bridges",
+   "type": "bingo-million"
+  },
+  {
+   "source": "kim-jong-un",
+   "target": "fox-news-disinfo",
+   "type": "bingo-million"
+  },
+  {
+   "source": "kim-jong-un",
+   "target": "2008-crisis-deep",
+   "type": "bingo-million"
+  },
+  {
+   "source": "kim-jong-un",
+   "target": "loc-draftkings",
+   "type": "bingo-million"
+  },
+  {
+   "source": "kim-jong-un",
+   "target": "nestle-water-extraction",
+   "type": "bingo-million"
+  },
+  {
+   "source": "kim-jong-un",
+   "target": "anthem-elevance",
+   "type": "bingo-million"
+  },
+  {
+   "source": "kim-jong-un",
+   "target": "panama-papers",
+   "type": "bingo-million"
+  },
+  {
+   "source": "kim-jong-un",
+   "target": "the-naked-truth",
+   "type": "bingo-million"
+  },
+  {
+   "source": "kim-jong-un",
+   "target": "dominion-settlement",
+   "type": "bingo-million"
+  },
+  {
+   "source": "kim-jong-un",
+   "target": "aaron-swartz",
+   "type": "bingo-million"
+  },
+  {
+   "source": "kim-jong-un",
+   "target": "usps",
+   "type": "bingo-million"
+  },
+  {
+   "source": "membrane-eats-all",
+   "target": "sing-or-scream",
+   "type": "bingo-million"
+  },
+  {
+   "source": "membrane-eats-all",
+   "target": "prison-industrial-complex",
+   "type": "bingo-million"
+  },
+  {
+   "source": "membrane-eats-all",
+   "target": "hong-kong-crackdown",
+   "type": "bingo-million"
+  },
+  {
+   "source": "membrane-eats-all",
+   "target": "the-bridges",
+   "type": "bingo-million"
+  },
+  {
+   "source": "membrane-eats-all",
+   "target": "fox-news-disinfo",
+   "type": "bingo-million"
+  },
+  {
+   "source": "membrane-eats-all",
+   "target": "2008-crisis-deep",
+   "type": "bingo-million"
+  },
+  {
+   "source": "membrane-eats-all",
+   "target": "loc-draftkings",
+   "type": "bingo-million"
+  },
+  {
+   "source": "membrane-eats-all",
+   "target": "nestle-water-extraction",
+   "type": "bingo-million"
+  },
+  {
+   "source": "membrane-eats-all",
+   "target": "anthem-elevance",
+   "type": "bingo-million"
+  },
+  {
+   "source": "membrane-eats-all",
+   "target": "panama-papers",
+   "type": "bingo-million"
+  },
+  {
+   "source": "membrane-eats-all",
+   "target": "the-naked-truth",
+   "type": "bingo-million"
+  },
+  {
+   "source": "membrane-eats-all",
+   "target": "benjamin-netanyahu",
+   "type": "bingo-million"
+  },
+  {
+   "source": "membrane-eats-all",
+   "target": "dominion-settlement",
+   "type": "bingo-million"
+  },
+  {
+   "source": "membrane-eats-all",
+   "target": "aaron-swartz",
+   "type": "bingo-million"
+  },
+  {
+   "source": "membrane-eats-all",
+   "target": "usps",
+   "type": "bingo-million"
+  },
+  {
+   "source": "sing-or-scream",
+   "target": "prison-industrial-complex",
+   "type": "bingo-million"
+  },
+  {
+   "source": "sing-or-scream",
+   "target": "hong-kong-crackdown",
+   "type": "bingo-million"
+  },
+  {
+   "source": "sing-or-scream",
+   "target": "the-bridges",
+   "type": "bingo-million"
+  },
+  {
+   "source": "sing-or-scream",
+   "target": "2008-crisis-deep",
+   "type": "bingo-million"
+  },
+  {
+   "source": "sing-or-scream",
+   "target": "loc-draftkings",
+   "type": "bingo-million"
+  },
+  {
+   "source": "sing-or-scream",
+   "target": "nestle-water-extraction",
+   "type": "bingo-million"
+  },
+  {
+   "source": "sing-or-scream",
+   "target": "anthem-elevance",
+   "type": "bingo-million"
+  },
+  {
+   "source": "sing-or-scream",
+   "target": "panama-papers",
+   "type": "bingo-million"
+  },
+  {
+   "source": "sing-or-scream",
+   "target": "the-naked-truth",
+   "type": "bingo-million"
+  },
+  {
+   "source": "sing-or-scream",
+   "target": "benjamin-netanyahu",
+   "type": "bingo-million"
+  },
+  {
+   "source": "sing-or-scream",
+   "target": "dominion-settlement",
+   "type": "bingo-million"
+  },
+  {
+   "source": "sing-or-scream",
+   "target": "aaron-swartz",
+   "type": "bingo-million"
+  },
+  {
+   "source": "sing-or-scream",
+   "target": "usps",
+   "type": "bingo-million"
+  },
+  {
+   "source": "prison-industrial-complex",
+   "target": "hong-kong-crackdown",
+   "type": "bingo-million"
+  },
+  {
+   "source": "prison-industrial-complex",
+   "target": "the-bridges",
+   "type": "bingo-million"
+  },
+  {
+   "source": "prison-industrial-complex",
+   "target": "fox-news-disinfo",
+   "type": "bingo-million"
+  },
+  {
+   "source": "prison-industrial-complex",
+   "target": "2008-crisis-deep",
+   "type": "bingo-million"
+  },
+  {
+   "source": "prison-industrial-complex",
+   "target": "loc-draftkings",
+   "type": "bingo-million"
+  },
+  {
+   "source": "prison-industrial-complex",
+   "target": "anthem-elevance",
+   "type": "bingo-million"
+  },
+  {
+   "source": "prison-industrial-complex",
+   "target": "panama-papers",
+   "type": "bingo-million"
+  },
+  {
+   "source": "prison-industrial-complex",
+   "target": "the-naked-truth",
+   "type": "bingo-million"
+  },
+  {
+   "source": "prison-industrial-complex",
+   "target": "benjamin-netanyahu",
+   "type": "bingo-million"
+  },
+  {
+   "source": "prison-industrial-complex",
+   "target": "dominion-settlement",
+   "type": "bingo-million"
+  },
+  {
+   "source": "prison-industrial-complex",
+   "target": "aaron-swartz",
+   "type": "bingo-million"
+  },
+  {
+   "source": "prison-industrial-complex",
+   "target": "usps",
+   "type": "bingo-million"
+  },
+  {
+   "source": "hong-kong-crackdown",
+   "target": "the-bridges",
+   "type": "bingo-million"
+  },
+  {
+   "source": "hong-kong-crackdown",
+   "target": "fox-news-disinfo",
+   "type": "bingo-million"
+  },
+  {
+   "source": "hong-kong-crackdown",
+   "target": "2008-crisis-deep",
+   "type": "bingo-million"
+  },
+  {
+   "source": "hong-kong-crackdown",
+   "target": "loc-draftkings",
+   "type": "bingo-million"
+  },
+  {
+   "source": "hong-kong-crackdown",
+   "target": "nestle-water-extraction",
+   "type": "bingo-million"
+  },
+  {
+   "source": "hong-kong-crackdown",
+   "target": "anthem-elevance",
+   "type": "bingo-million"
+  },
+  {
+   "source": "hong-kong-crackdown",
+   "target": "panama-papers",
+   "type": "bingo-million"
+  },
+  {
+   "source": "hong-kong-crackdown",
+   "target": "the-naked-truth",
+   "type": "bingo-million"
+  },
+  {
+   "source": "hong-kong-crackdown",
+   "target": "benjamin-netanyahu",
+   "type": "bingo-million"
+  },
+  {
+   "source": "hong-kong-crackdown",
+   "target": "dominion-settlement",
+   "type": "bingo-million"
+  },
+  {
+   "source": "hong-kong-crackdown",
+   "target": "aaron-swartz",
+   "type": "bingo-million"
+  },
+  {
+   "source": "hong-kong-crackdown",
+   "target": "usps",
+   "type": "bingo-million"
+  },
+  {
+   "source": "the-bridges",
+   "target": "fox-news-disinfo",
+   "type": "bingo-million"
+  },
+  {
+   "source": "the-bridges",
+   "target": "2008-crisis-deep",
+   "type": "bingo-million"
+  },
+  {
+   "source": "the-bridges",
+   "target": "loc-draftkings",
+   "type": "bingo-million"
+  },
+  {
+   "source": "the-bridges",
+   "target": "nestle-water-extraction",
+   "type": "bingo-million"
+  },
+  {
+   "source": "the-bridges",
+   "target": "anthem-elevance",
+   "type": "bingo-million"
+  },
+  {
+   "source": "the-bridges",
+   "target": "panama-papers",
+   "type": "bingo-million"
+  },
+  {
+   "source": "the-bridges",
+   "target": "the-naked-truth",
+   "type": "bingo-million"
+  },
+  {
+   "source": "the-bridges",
+   "target": "benjamin-netanyahu",
+   "type": "bingo-million"
+  },
+  {
+   "source": "the-bridges",
+   "target": "dominion-settlement",
+   "type": "bingo-million"
+  },
+  {
+   "source": "the-bridges",
+   "target": "aaron-swartz",
+   "type": "bingo-million"
+  },
+  {
+   "source": "the-bridges",
+   "target": "usps",
+   "type": "bingo-million"
+  },
+  {
+   "source": "fox-news-disinfo",
+   "target": "2008-crisis-deep",
+   "type": "bingo-million"
+  },
+  {
+   "source": "fox-news-disinfo",
+   "target": "loc-draftkings",
+   "type": "bingo-million"
+  },
+  {
+   "source": "fox-news-disinfo",
+   "target": "nestle-water-extraction",
+   "type": "bingo-million"
+  },
+  {
+   "source": "fox-news-disinfo",
+   "target": "anthem-elevance",
+   "type": "bingo-million"
+  },
+  {
+   "source": "fox-news-disinfo",
+   "target": "panama-papers",
+   "type": "bingo-million"
+  },
+  {
+   "source": "fox-news-disinfo",
+   "target": "the-naked-truth",
+   "type": "bingo-million"
+  },
+  {
+   "source": "fox-news-disinfo",
+   "target": "benjamin-netanyahu",
+   "type": "bingo-million"
+  },
+  {
+   "source": "fox-news-disinfo",
+   "target": "aaron-swartz",
+   "type": "bingo-million"
+  },
+  {
+   "source": "fox-news-disinfo",
+   "target": "usps",
+   "type": "bingo-million"
+  },
+  {
+   "source": "2008-crisis-deep",
+   "target": "loc-draftkings",
+   "type": "bingo-million"
+  },
+  {
+   "source": "2008-crisis-deep",
+   "target": "nestle-water-extraction",
+   "type": "bingo-million"
+  },
+  {
+   "source": "2008-crisis-deep",
+   "target": "anthem-elevance",
+   "type": "bingo-million"
+  },
+  {
+   "source": "2008-crisis-deep",
+   "target": "panama-papers",
+   "type": "bingo-million"
+  },
+  {
+   "source": "2008-crisis-deep",
+   "target": "the-naked-truth",
+   "type": "bingo-million"
+  },
+  {
+   "source": "2008-crisis-deep",
+   "target": "benjamin-netanyahu",
+   "type": "bingo-million"
+  },
+  {
+   "source": "2008-crisis-deep",
+   "target": "dominion-settlement",
+   "type": "bingo-million"
+  },
+  {
+   "source": "2008-crisis-deep",
+   "target": "aaron-swartz",
+   "type": "bingo-million"
+  },
+  {
+   "source": "2008-crisis-deep",
+   "target": "usps",
+   "type": "bingo-million"
+  },
+  {
+   "source": "loc-draftkings",
+   "target": "nestle-water-extraction",
+   "type": "bingo-million"
+  },
+  {
+   "source": "loc-draftkings",
+   "target": "anthem-elevance",
+   "type": "bingo-million"
+  },
+  {
+   "source": "loc-draftkings",
+   "target": "panama-papers",
+   "type": "bingo-million"
+  },
+  {
+   "source": "loc-draftkings",
+   "target": "the-naked-truth",
+   "type": "bingo-million"
+  },
+  {
+   "source": "loc-draftkings",
+   "target": "benjamin-netanyahu",
+   "type": "bingo-million"
+  },
+  {
+   "source": "loc-draftkings",
+   "target": "dominion-settlement",
+   "type": "bingo-million"
+  },
+  {
+   "source": "loc-draftkings",
+   "target": "aaron-swartz",
+   "type": "bingo-million"
+  },
+  {
+   "source": "loc-draftkings",
+   "target": "usps",
+   "type": "bingo-million"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "exo_toi_791_c",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "unesco_mudejar_architecture_of_aragon",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "unesco_acropolis_athens",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "unesco_discovery_coast_atlantic_forest_reserves",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "unesco_historic_and_architectural_complex_of_th",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "mi_const_art8_s2",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "unesco_old_town_of_corfu",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "spaghettification",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "outlier_media",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "detroit_water",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "detroit_ombudsman",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "diego_rivera_murals",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "court_3rd",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "hypothesis_regulatory_capture",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "plante_moran",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "detroit_gave_aretha",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "public_education",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "detroit_city_council",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "detroit_board_zoning_appeals",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "michigan_chronicle",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "dan_gilbert",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "cc_mary_waters",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "sheila_cockrel",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "wayne_county_circuit_court",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "article_hiding_behind_you",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "continuum_of_care",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "wendell_anthony",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "detroit_urban_league",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "mary_waters",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "article_named_entities",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "renata_miller",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "detroit_tenants_rights_commission",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "cc_james_tate",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "motown_museum",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "detroit_entertainment_commission",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "second_line",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "sun_ra",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "detroit_gave_rosa_parks",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "marvin_gaye_whats_going_on",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "banks_harassment_house",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "hypothesis_mobius",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "jurisdiction_map",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "walker_profile_ally",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "monsanto",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "article_1_8_million",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "12th_street_1967",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "dpscd_cand_darious_morris",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "detroit_historic_advisory",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "precinct_delegates",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "kevlar_material",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "detroit_deserves_transparency",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "detroit_dem_party",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "dance_fwemba",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "detroit_free_press",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "wildfire2_wave3",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "fact_perpupil_funding",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "sheffield",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "flint_water_parallel",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "p8_2_self_referential",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "accountability_clock",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "prince_revolution",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "uhuru",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "pod_serial",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "detroit_gave_labor",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "sb_haywood_patterson",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "article_where_we_havent_been",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "signal_14th",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "signal_5th",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "detroit_city",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "shape-of-human",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "vitruvian-man",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "detroit_inspector_general",
+   "target": "land-detroit",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "mary_ann_nichols",
+   "target": "udhr_article26",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "mary_ann_nichols",
+   "target": "seymour_hersh",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "mary_ann_nichols",
+   "target": "virg_bernero",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "mary_ann_nichols",
+   "target": "lara-eastside-carol",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "mary_ann_nichols",
+   "target": "leader_ivar_ragnarsson",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "mary_ann_nichols",
+   "target": "elizabeth_magie",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "mary_ann_nichols",
+   "target": "leader_anzaze",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "mary_ann_nichols",
+   "target": "senator_martin_van_buren",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "mary_ann_nichols",
+   "target": "grammy_chet_atkins",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "mary_ann_nichols",
+   "target": "youtube-creators",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "mary_ann_nichols",
+   "target": "vonda_evans",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "mary_ann_nichols",
+   "target": "ryan_maibach",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "mary_ann_nichols",
+   "target": "curtis_wright_fda",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "mary_ann_nichols",
+   "target": "adam_sabree",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "mary_ann_nichols",
+   "target": "article_americana",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "mary_ann_nichols",
+   "target": "zodiac_killer",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "mary_ann_nichols",
+   "target": "public_education",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "mary_ann_nichols",
+   "target": "sackler_museum_removal",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "mary_ann_nichols",
+   "target": "atty_kriger",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "mary_ann_nichols",
+   "target": "golden_state_killer",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "mary_ann_nichols",
+   "target": "article_dykema_wrote_the_law",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "mary_ann_nichols",
+   "target": "kepler",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "mary_ann_nichols",
+   "target": "evo-expansion",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "mary_ann_nichols",
+   "target": "stonehenge",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "mary_ann_nichols",
+   "target": "copernicus",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "mary_ann_nichols",
+   "target": "oscar_earl_w_wallace",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "mary_ann_nichols",
+   "target": "dpscd_corletta_vaughn",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "mary_ann_nichols",
+   "target": "wc_melissa_daub",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "mary_ann_nichols",
+   "target": "leader_æthelweard",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "mary_ann_nichols",
+   "target": "lobby-capitol-tax",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "mary_ann_nichols",
+   "target": "former-kevin-systrom",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "mary_ann_nichols",
+   "target": "dc-meta-lebanon",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "mary_ann_nichols",
+   "target": "nobel_william_c_campbell",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "mary_ann_nichols",
+   "target": "us_atty_schneider",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "mary_ann_nichols",
+   "target": "sackler_richard",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "mary_ann_nichols",
+   "target": "wp-sovereign-warm-keepalive",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "mary_ann_nichols",
+   "target": "gh_hardy",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "mary_ann_nichols",
+   "target": "observer_effect",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "mary_ann_nichols",
+   "target": "ron_french",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "mary_ann_nichols",
+   "target": "childrens_defense_fund",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "mary_ann_nichols",
+   "target": "olympic_rhythmic_gymnastics",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "mary_ann_nichols",
+   "target": "public_domain_music",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "mary_ann_nichols",
+   "target": "cleaner_wrasse",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "michiganders_progressive_values",
+   "target": "cmu",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "michiganders_progressive_values",
+   "target": "sbm",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "michiganders_progressive_values",
+   "target": "house_ed_committee",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "michiganders_progressive_values",
+   "target": "pa_277_2011",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "michiganders_progressive_values",
+   "target": "sabree_a",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "michiganders_progressive_values",
+   "target": "parliament_funkadelic",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "michiganders_progressive_values",
+   "target": "moecs",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "michiganders_progressive_values",
+   "target": "ag_charitable_trust",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "michiganders_progressive_values",
+   "target": "shape-of-human",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "michiganders_progressive_values",
+   "target": "the-mirror",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "michiganders_progressive_values",
+   "target": "edge_family_can",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "michiganders_progressive_values",
+   "target": "stratum_economics_legal",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "michiganders_progressive_values",
+   "target": "sugar_law_center",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "michiganders_progressive_values",
+   "target": "epstein",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "michiganders_progressive_values",
+   "target": "anchor_rock",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "michiganders_progressive_values",
+   "target": "glep_vendor_campaign_works",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "michiganders_progressive_values",
+   "target": "ars_holdings",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "michiganders_progressive_values",
+   "target": "article_one_way_door",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "michiganders_progressive_values",
+   "target": "article_cbc_events",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "michiganders_progressive_values",
+   "target": "walton_origin",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "michiganders_progressive_values",
+   "target": "sam_walton",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "michiganders_progressive_values",
+   "target": "article_named_entities",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "michiganders_progressive_values",
+   "target": "article_spivey_connection",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "michiganders_progressive_values",
+   "target": "dykema_state_pac",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "michiganders_progressive_values",
+   "target": "wwj_950",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "michiganders_progressive_values",
+   "target": "want_journalist_comparison",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "michiganders_progressive_values",
+   "target": "article_worthy_wont",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "michiganders_progressive_values",
+   "target": "john_walton",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "michiganders_progressive_values",
+   "target": "lost_dasean_years",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "michiganders_progressive_values",
+   "target": "sean_perkins",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "michiganders_progressive_values",
+   "target": "article_honey_badger_banks",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "michiganders_progressive_values",
+   "target": "prediction_legal_motion",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "michiganders_progressive_values",
+   "target": "attsi_inflection_02",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "michiganders_progressive_values",
+   "target": "dark_money_pipeline",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "michiganders_progressive_values",
+   "target": "gl_upfitting",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "doordash",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "stage_magic",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "mound_builders",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "rna_world",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "vantablack",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "higgs_boson",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "barophiles",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "tamir_rice_grief",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "spring-neural",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "unesco_brú_na_bóinne_-_archaeological_ensemble_",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "tardigrade",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "article_clarion_call",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "mission_soyuz_25",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "svalbard_vault",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "alexandria_egypt",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "ryan_maibach",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "exxon_valdez",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "shape-of-human",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "carbon",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "tick",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "georg_cantor",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "ship_breaking",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "milky_way",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "case_108221",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "number_theory",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "mirrors",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "oral_tradition",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "shadows_concept",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "bengal_famine",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "general_relativity",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "proto_sinaitic",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "unesco_three_castles_defensive_wall_and_rampart",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "vesuvius_79",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "lang_indonesian",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "volcano_michincha",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "unesco_lake_malawi_national_park",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "bristlecone_pine",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "samarkand",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "dsm_antisocial",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "enigma",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "land_contract",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "lucid_dreaming",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "apple_app_store",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "apple",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "cotton_gin",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "quipu",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "normalcy_bias",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "david_moran",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "gl_vision",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "word_corporation",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "word_candidate",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "continuum_hypothesis",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "rome",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "venice",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "word_bureaucracy",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "bhopal",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "wendigo",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "uncanny_valley",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "bison",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "potemkin_village",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "sherwood_foundation",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "linux_foundation",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "np_p",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "first_lady_bmf",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "prisoners_dilemma",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "jacquard_loom",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "mongol_genetics",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "krakatoa",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "dead_sea_scrolls",
+   "target": "dunning_kruger",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "osint_usaspending",
+   "target": "mi_const_art8_s1",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "osint_usaspending",
+   "target": "southern_poverty_law",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "osint_usaspending",
+   "target": "un_crc_article3",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "osint_usaspending",
+   "target": "legal_defense_fund",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "osint_usaspending",
+   "target": "verkeydia_hall",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "osint_usaspending",
+   "target": "ppo_as_weapon",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "osint_usaspending",
+   "target": "article_come_and_see",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "osint_usaspending",
+   "target": "article_allied_cases",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "osint_usaspending",
+   "target": "osint_property_records",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "osint_usaspending",
+   "target": "walker_profile_lawyer",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "osint_usaspending",
+   "target": "devos_foundation",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "osint_usaspending",
+   "target": "article_ghost_network",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "osint_usaspending",
+   "target": "jimmy_hoffa",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "osint_usaspending",
+   "target": "wxyz",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "osint_usaspending",
+   "target": "mcfr_charter_pacs",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "osint_usaspending",
+   "target": "phantom_audit",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "osint_usaspending",
+   "target": "insurance_chain",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "osint_usaspending",
+   "target": "article_breeding_ground",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "osint_usaspending",
+   "target": "attsi_speaks",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "osint_usaspending",
+   "target": "money_pipeline",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "osint_usaspending",
+   "target": "article_wider_mi_supreme_court",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "osint_usaspending",
+   "target": "article_benson_certify",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "osint_usaspending",
+   "target": "election_1928",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "osint_usaspending",
+   "target": "iran_contra",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "osint_usaspending",
+   "target": "oxycontin_1996",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "osint_usaspending",
+   "target": "evolve_to_excellence",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "osint_usaspending",
+   "target": "filing_990_walton_family_foundation",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "osint_usaspending",
+   "target": "allegation_not_performed",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "osint_usaspending",
+   "target": "article_you_yeah_you",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "osint_usaspending",
+   "target": "dykema",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "osint_usaspending",
+   "target": "shannon",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "osint_usaspending",
+   "target": "osint_campaign_finance_mi",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "osint_usaspending",
+   "target": "waterfall-concept",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "osint_usaspending",
+   "target": "unesco_central_zone_of_the_town_of_angra_do_her",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "osint_usaspending",
+   "target": "lang_nigerian_fulfulde",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "osint_usaspending",
+   "target": "astro_joe_engle",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "osint_usaspending",
+   "target": "vital_edges",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "osint_usaspending",
+   "target": "side_quest_art",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "osint_usaspending",
+   "target": "article_yeah_you_parent",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "osint_usaspending",
+   "target": "cmu_charter_office",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "osint_usaspending",
+   "target": "article_dykema_wrote_the_law",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "osint_usaspending",
+   "target": "pinocchio-concept",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "osint_usaspending",
+   "target": "marygrove",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "osint_usaspending",
+   "target": "public_data_ingest",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "osint_usaspending",
+   "target": "childrens_center",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "osint_usaspending",
+   "target": "osint_opensecrets",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "osint_usaspending",
+   "target": "article_northrop_direct",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "osint_usaspending",
+   "target": "mde_data_purpose",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "osint_usaspending",
+   "target": "osint_board_minutes",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "osint_usaspending",
+   "target": "isi",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "osint_usaspending",
+   "target": "osint_audit_reports",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "osint_usaspending",
+   "target": "clora_funeral_home",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "article_mde",
+   "target": "wp-technical",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "article_mde",
+   "target": "perkins_law",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "article_mde",
+   "target": "want_regulator_jurisdiction",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "article_mde",
+   "target": "nessel_moreland_conflict",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "article_mde",
+   "target": "national_urban_league",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "article_mde",
+   "target": "todd_perkins",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "article_mde",
+   "target": "the_push",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "article_mde",
+   "target": "fossil_record",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "article_mde",
+   "target": "game_follow_the_money",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "article_mde",
+   "target": "macdowell",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "article_mde",
+   "target": "pattern_regulatory_capture",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "article_mde",
+   "target": "afc",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "senator_james_buchanan",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "earthrise_photo",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "unesco_el_tajin_pre-hispanic_city",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "boardgame_13_dead_end_drive",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "religion_discordianism",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "article_auto_mystery_db_cooper",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "houdini",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "wayne_state_law",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "noether",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "torvalds",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "wp-15334-checks",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "franklin",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "algo-fft",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "meitner",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "feynman",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "wp-cg-antidote",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "mongol_empire",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "amy-how-she-died",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "roz-what-she-does",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "pied_piper",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "mission_soyuz_25",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "sourdough",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "wonder-pi",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "secretary_who_filed",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "unesco_lorentz_national_park",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "unesco_mount_etna",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "unesco_the_great_spa_towns_of_europe",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "wiretap_fiore",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "unesco_sundarbans_national_park",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "unesco_monasteries_of_haghpat_and_sanahin",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "robert_johnson",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "election_1804",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "google-12gw",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "wonder-infinity",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "standard_model",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "unesco_historic_centre_of_san_gimignano",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "pioneer_10",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "dark_energy_phenom",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "unesco_ancient_city_of_ping_yao",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "google-fusion",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "unesco_messel_pit_fossil_site",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "critical_temperature",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "disability_rights",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "unesco_medieval_town_of_toruń",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "article_institutional_response",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "membrane",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "rouge_plant_forge",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "bootes_void",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "data_990_nuvision_foundation",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "perry-what-he-says",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "wp-suncloud",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "wd_tippi_hedren",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "zoroastrianism",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "kevin_carter",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "james_meredith",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "reality_winner",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "nsa",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "fermi_paradox_full",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "unesco_sacred_city_of_anuradhapura",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "soil",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "elorion_plante",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "unesco_puerto-princesa_subterranean_river_natio",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "unesco_pitons_management_area",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "tech_jack_dorsey",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "mystery_cults",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "grammy_lena_horne",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "olympic_surfing",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "family_tree",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "unesco_taxila",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "tikkun_olam",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "unesco_historic_and_architectural_complex_of_th",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "unesco_kujataa_greenland:_norse_and_inuit_farmi",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "spontaneous_combustion",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "unesco_birka_and_hovgården",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "unesco_urnes_stave_church",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "great_dying",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "astro_rusty_schweickart",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "prescribed-to-death",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "transposons",
+   "target": "mendelian_genetics",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_false_entity_x_institution",
+   "target": "james_mestdagh",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_false_entity_x_institution",
+   "target": "sackler_theresa",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_false_entity_x_institution",
+   "target": "article_dpscd_board_direct",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_false_entity_x_institution",
+   "target": "glep_donor_betsy_direct",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_false_entity_x_institution",
+   "target": "wp-pursuit-predation",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_false_entity_x_institution",
+   "target": "jurisdiction_map",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_false_entity_x_institution",
+   "target": "binary_system",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_false_entity_x_institution",
+   "target": "filing_990_mackinac_center",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_false_entity_x_institution",
+   "target": "braid_action_x_milestone",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_false_entity_x_institution",
+   "target": "braid_document_x_human",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_false_entity_x_institution",
+   "target": "braid_achievement_x_law",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_false_entity_x_institution",
+   "target": "braid_article_x_group",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_false_entity_x_institution",
+   "target": "wp-coralForge",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_false_entity_x_institution",
+   "target": "article_detroit_free_press",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_false_entity_x_institution",
+   "target": "braid_concept_x_prediction",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_false_entity_x_institution",
+   "target": "braid_achievement_x_creature",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_false_entity_x_institution",
+   "target": "braid_creature_x_law",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_false_entity_x_institution",
+   "target": "braid_non_human_x_person",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_false_entity_x_institution",
+   "target": "braid_concept_x_person",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_false_entity_x_institution",
+   "target": "braid_document_x_person",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_false_entity_x_institution",
+   "target": "braid_actor_x_person",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_false_entity_x_institution",
+   "target": "braid_achievement_x_level",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_false_entity_x_institution",
+   "target": "achievement_article_author",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_false_entity_x_institution",
+   "target": "braid_achievement_x_actor",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_false_entity_x_institution",
+   "target": "braid_achievement_x_game",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_false_entity_x_institution",
+   "target": "braid_achievement_x_side_quest",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_false_entity_x_institution",
+   "target": "braid_event_x_human",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_false_entity_x_institution",
+   "target": "braid_epitope_x_human",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_false_entity_x_institution",
+   "target": "braid_creator_x_pivot",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_false_entity_x_institution",
+   "target": "braid_article_x_creator",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_false_entity_x_institution",
+   "target": "braid_complainant_x_creator",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_false_entity_x_institution",
+   "target": "braid_creator_x_group",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_false_entity_x_institution",
+   "target": "braid_creator_x_side_quest",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_false_entity_x_institution",
+   "target": "braid_entity_x_hypothesis",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_false_entity_x_institution",
+   "target": "braid_complainant_x_milestone",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_false_entity_x_institution",
+   "target": "braid_architecture_x_observation",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_false_entity_x_institution",
+   "target": "braid_document_x_non_human",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "braid_false_entity_x_institution",
+   "target": "braid_actor_x_entity",
+   "type": "triadic-closure"
+  },
+  {
+   "source": "rfk-from-la",
+   "target": "richard-former-stamford",
+   "type": "class-location"
+  },
+  {
+   "source": "rfk-from-la",
+   "target": "meta-office-austin",
+   "type": "class-location"
+  },
+  {
+   "source": "rfk-from-la",
+   "target": "mortimer-loc",
+   "type": "class-location"
+  },
+  {
+   "source": "rfk-from-la",
+   "target": "addr-dykema-lansing",
+   "type": "class-location"
+  },
+  {
+   "source": "rfk-from-la",
+   "target": "theresa-san-remo",
+   "type": "class-location"
+  },
+  {
+   "source": "rfk-from-la",
+   "target": "meta-office-nyc",
+   "type": "class-location"
+  },
+  {
+   "source": "rfk-from-la",
+   "target": "mortimer-boston",
+   "type": "class-location"
+  },
+  {
+   "source": "rfk-from-la",
+   "target": "heritage-hq",
+   "type": "class-location"
+  },
+  {
+   "source": "rfk-from-la",
+   "target": "addr-9mile-inner-link",
+   "type": "class-location"
+  },
+  {
+   "source": "rfk-from-la",
+   "target": "ira-building",
+   "type": "class-location"
+  },
+  {
+   "source": "rfk-from-la",
+   "target": "ira-building-2",
+   "type": "class-location"
+  },
+  {
+   "source": "rfk-from-la",
+   "target": "theresa-fifth-ave",
+   "type": "class-location"
+  },
+  {
+   "source": "rfk-from-la",
+   "target": "saudi-consulate-istanbul",
+   "type": "class-location"
+  },
+  {
+   "source": "rfk-from-la",
+   "target": "loc-fox-news",
+   "type": "class-location"
+  },
+  {
+   "source": "rfk-from-la",
+   "target": "mortimer-townhouse",
+   "type": "class-location"
+  },
+  {
+   "source": "rfk-from-la",
+   "target": "meta-office-dublin",
+   "type": "class-location"
+  },
+  {
+   "source": "rfk-from-la",
+   "target": "meta-office-delaware",
+   "type": "class-location"
+  },
+  {
+   "source": "rfk-from-la",
+   "target": "addr-holland-crossings",
+   "type": "class-location"
+  },
+  {
+   "source": "rfk-from-la",
+   "target": "loc-federalist",
+   "type": "class-location"
+  },
+  {
+   "source": "richard-former-stamford",
+   "target": "meta-office-austin",
+   "type": "class-location"
+  },
+  {
+   "source": "richard-former-stamford",
+   "target": "mortimer-loc",
+   "type": "class-location"
+  },
+  {
+   "source": "richard-former-stamford",
+   "target": "addr-dykema-lansing",
+   "type": "class-location"
+  },
+  {
+   "source": "richard-former-stamford",
+   "target": "theresa-san-remo",
+   "type": "class-location"
+  },
+  {
+   "source": "richard-former-stamford",
+   "target": "meta-office-nyc",
+   "type": "class-location"
+  },
+  {
+   "source": "richard-former-stamford",
+   "target": "mortimer-boston",
+   "type": "class-location"
+  },
+  {
+   "source": "richard-former-stamford",
+   "target": "heritage-hq",
+   "type": "class-location"
+  },
+  {
+   "source": "richard-former-stamford",
+   "target": "addr-9mile-inner-link",
+   "type": "class-location"
+  },
+  {
+   "source": "richard-former-stamford",
+   "target": "ira-building",
+   "type": "class-location"
+  },
+  {
+   "source": "richard-former-stamford",
+   "target": "ira-building-2",
+   "type": "class-location"
+  },
+  {
+   "source": "richard-former-stamford",
+   "target": "theresa-fifth-ave",
+   "type": "class-location"
+  },
+  {
+   "source": "richard-former-stamford",
+   "target": "saudi-consulate-istanbul",
+   "type": "class-location"
+  },
+  {
+   "source": "richard-former-stamford",
+   "target": "loc-fox-news",
+   "type": "class-location"
+  },
+  {
+   "source": "richard-former-stamford",
+   "target": "mortimer-townhouse",
+   "type": "class-location"
+  },
+  {
+   "source": "richard-former-stamford",
+   "target": "meta-office-dublin",
+   "type": "class-location"
+  },
+  {
+   "source": "richard-former-stamford",
+   "target": "meta-office-delaware",
+   "type": "class-location"
+  },
+  {
+   "source": "richard-former-stamford",
+   "target": "addr-holland-crossings",
+   "type": "class-location"
+  },
+  {
+   "source": "richard-former-stamford",
+   "target": "loc-federalist",
+   "type": "class-location"
+  },
+  {
+   "source": "meta-office-austin",
+   "target": "mortimer-loc",
+   "type": "class-location"
+  },
+  {
+   "source": "meta-office-austin",
+   "target": "addr-dykema-lansing",
+   "type": "class-location"
+  },
+  {
+   "source": "meta-office-austin",
+   "target": "theresa-san-remo",
+   "type": "class-location"
+  },
+  {
+   "source": "meta-office-austin",
+   "target": "mortimer-boston",
+   "type": "class-location"
+  },
+  {
+   "source": "meta-office-austin",
+   "target": "heritage-hq",
+   "type": "class-location"
+  },
+  {
+   "source": "meta-office-austin",
+   "target": "addr-9mile-inner-link",
+   "type": "class-location"
+  },
+  {
+   "source": "meta-office-austin",
+   "target": "ira-building",
+   "type": "class-location"
+  },
+  {
+   "source": "meta-office-austin",
+   "target": "ira-building-2",
+   "type": "class-location"
+  },
+  {
+   "source": "meta-office-austin",
+   "target": "theresa-fifth-ave",
+   "type": "class-location"
+  },
+  {
+   "source": "meta-office-austin",
+   "target": "saudi-consulate-istanbul",
+   "type": "class-location"
+  },
+  {
+   "source": "meta-office-austin",
+   "target": "loc-fox-news",
+   "type": "class-location"
+  },
+  {
+   "source": "meta-office-austin",
+   "target": "mortimer-townhouse",
+   "type": "class-location"
+  },
+  {
+   "source": "meta-office-austin",
+   "target": "addr-holland-crossings",
+   "type": "class-location"
+  },
+  {
+   "source": "meta-office-austin",
+   "target": "loc-federalist",
+   "type": "class-location"
+  },
+  {
+   "source": "mortimer-loc",
+   "target": "addr-dykema-lansing",
+   "type": "class-location"
+  },
+  {
+   "source": "mortimer-loc",
+   "target": "theresa-san-remo",
+   "type": "class-location"
+  },
+  {
+   "source": "mortimer-loc",
+   "target": "meta-office-nyc",
+   "type": "class-location"
+  },
+  {
+   "source": "mortimer-loc",
+   "target": "heritage-hq",
+   "type": "class-location"
+  },
+  {
+   "source": "mortimer-loc",
+   "target": "addr-9mile-inner-link",
+   "type": "class-location"
+  },
+  {
+   "source": "mortimer-loc",
+   "target": "ira-building",
+   "type": "class-location"
+  },
+  {
+   "source": "mortimer-loc",
+   "target": "ira-building-2",
+   "type": "class-location"
+  },
+  {
+   "source": "mortimer-loc",
+   "target": "theresa-fifth-ave",
+   "type": "class-location"
+  },
+  {
+   "source": "mortimer-loc",
+   "target": "saudi-consulate-istanbul",
+   "type": "class-location"
+  },
+  {
+   "source": "mortimer-loc",
+   "target": "loc-fox-news",
+   "type": "class-location"
+  },
+  {
+   "source": "mortimer-loc",
+   "target": "meta-office-dublin",
+   "type": "class-location"
+  },
+  {
+   "source": "mortimer-loc",
+   "target": "meta-office-delaware",
+   "type": "class-location"
+  },
+  {
+   "source": "mortimer-loc",
+   "target": "addr-holland-crossings",
+   "type": "class-location"
+  },
+  {
+   "source": "mortimer-loc",
+   "target": "loc-federalist",
+   "type": "class-location"
+  },
+  {
+   "source": "addr-dykema-lansing",
+   "target": "theresa-san-remo",
+   "type": "class-location"
+  },
+  {
+   "source": "addr-dykema-lansing",
+   "target": "meta-office-nyc",
+   "type": "class-location"
+  },
+  {
+   "source": "addr-dykema-lansing",
+   "target": "mortimer-boston",
+   "type": "class-location"
+  },
+  {
+   "source": "addr-dykema-lansing",
+   "target": "heritage-hq",
+   "type": "class-location"
+  },
+  {
+   "source": "addr-dykema-lansing",
+   "target": "ira-building",
+   "type": "class-location"
+  },
+  {
+   "source": "addr-dykema-lansing",
+   "target": "ira-building-2",
+   "type": "class-location"
+  },
+  {
+   "source": "addr-dykema-lansing",
+   "target": "theresa-fifth-ave",
+   "type": "class-location"
+  },
+  {
+   "source": "addr-dykema-lansing",
+   "target": "saudi-consulate-istanbul",
+   "type": "class-location"
+  },
+  {
+   "source": "addr-dykema-lansing",
+   "target": "loc-fox-news",
+   "type": "class-location"
+  },
+  {
+   "source": "addr-dykema-lansing",
+   "target": "mortimer-townhouse",
+   "type": "class-location"
+  },
+  {
+   "source": "addr-dykema-lansing",
+   "target": "meta-office-dublin",
+   "type": "class-location"
+  },
+  {
+   "source": "addr-dykema-lansing",
+   "target": "meta-office-delaware",
+   "type": "class-location"
+  },
+  {
+   "source": "addr-dykema-lansing",
+   "target": "loc-federalist",
+   "type": "class-location"
+  },
+  {
+   "source": "theresa-san-remo",
+   "target": "meta-office-nyc",
+   "type": "class-location"
+  },
+  {
+   "source": "theresa-san-remo",
+   "target": "mortimer-boston",
+   "type": "class-location"
+  },
+  {
+   "source": "theresa-san-remo",
+   "target": "heritage-hq",
+   "type": "class-location"
+  },
+  {
+   "source": "theresa-san-remo",
+   "target": "addr-9mile-inner-link",
+   "type": "class-location"
+  },
+  {
+   "source": "theresa-san-remo",
+   "target": "ira-building",
+   "type": "class-location"
+  },
+  {
+   "source": "theresa-san-remo",
+   "target": "ira-building-2",
+   "type": "class-location"
+  },
+  {
+   "source": "theresa-san-remo",
+   "target": "saudi-consulate-istanbul",
+   "type": "class-location"
+  },
+  {
+   "source": "theresa-san-remo",
+   "target": "loc-fox-news",
+   "type": "class-location"
+  },
+  {
+   "source": "theresa-san-remo",
+   "target": "mortimer-townhouse",
+   "type": "class-location"
+  },
+  {
+   "source": "theresa-san-remo",
+   "target": "meta-office-dublin",
+   "type": "class-location"
+  },
+  {
+   "source": "theresa-san-remo",
+   "target": "meta-office-delaware",
+   "type": "class-location"
+  },
+  {
+   "source": "theresa-san-remo",
+   "target": "addr-holland-crossings",
+   "type": "class-location"
+  },
+  {
+   "source": "theresa-san-remo",
+   "target": "loc-federalist",
+   "type": "class-location"
+  },
+  {
+   "source": "meta-office-nyc",
+   "target": "mortimer-boston",
+   "type": "class-location"
+  },
+  {
+   "source": "meta-office-nyc",
+   "target": "heritage-hq",
+   "type": "class-location"
+  },
+  {
+   "source": "meta-office-nyc",
+   "target": "addr-9mile-inner-link",
+   "type": "class-location"
+  },
+  {
+   "source": "meta-office-nyc",
+   "target": "ira-building",
+   "type": "class-location"
+  },
+  {
+   "source": "meta-office-nyc",
+   "target": "theresa-fifth-ave",
+   "type": "class-location"
+  },
+  {
+   "source": "meta-office-nyc",
+   "target": "saudi-consulate-istanbul",
+   "type": "class-location"
+  },
+  {
+   "source": "meta-office-nyc",
+   "target": "loc-fox-news",
+   "type": "class-location"
+  },
+  {
+   "source": "meta-office-nyc",
+   "target": "mortimer-townhouse",
+   "type": "class-location"
+  },
+  {
+   "source": "meta-office-nyc",
+   "target": "addr-holland-crossings",
+   "type": "class-location"
+  },
+  {
+   "source": "meta-office-nyc",
+   "target": "loc-federalist",
+   "type": "class-location"
+  },
+  {
+   "source": "mortimer-boston",
+   "target": "heritage-hq",
+   "type": "class-location"
+  },
+  {
+   "source": "mortimer-boston",
+   "target": "addr-9mile-inner-link",
+   "type": "class-location"
+  },
+  {
+   "source": "mortimer-boston",
+   "target": "ira-building",
+   "type": "class-location"
+  },
+  {
+   "source": "mortimer-boston",
+   "target": "ira-building-2",
+   "type": "class-location"
+  },
+  {
+   "source": "mortimer-boston",
+   "target": "theresa-fifth-ave",
+   "type": "class-location"
+  },
+  {
+   "source": "mortimer-boston",
+   "target": "saudi-consulate-istanbul",
+   "type": "class-location"
+  },
+  {
+   "source": "mortimer-boston",
+   "target": "loc-fox-news",
+   "type": "class-location"
+  },
+  {
+   "source": "mortimer-boston",
+   "target": "meta-office-dublin",
+   "type": "class-location"
+  },
+  {
+   "source": "mortimer-boston",
+   "target": "meta-office-delaware",
+   "type": "class-location"
+  },
+  {
+   "source": "mortimer-boston",
+   "target": "addr-holland-crossings",
+   "type": "class-location"
+  },
+  {
+   "source": "mortimer-boston",
+   "target": "loc-federalist",
+   "type": "class-location"
+  },
+  {
+   "source": "heritage-hq",
+   "target": "addr-9mile-inner-link",
+   "type": "class-location"
+  },
+  {
+   "source": "heritage-hq",
+   "target": "ira-building",
+   "type": "class-location"
+  },
+  {
+   "source": "heritage-hq",
+   "target": "theresa-fifth-ave",
+   "type": "class-location"
+  },
+  {
+   "source": "heritage-hq",
+   "target": "saudi-consulate-istanbul",
+   "type": "class-location"
+  },
+  {
+   "source": "heritage-hq",
+   "target": "loc-fox-news",
+   "type": "class-location"
+  },
+  {
+   "source": "heritage-hq",
+   "target": "mortimer-townhouse",
+   "type": "class-location"
+  },
+  {
+   "source": "heritage-hq",
+   "target": "meta-office-dublin",
+   "type": "class-location"
+  },
+  {
+   "source": "heritage-hq",
+   "target": "meta-office-delaware",
+   "type": "class-location"
+  },
+  {
+   "source": "heritage-hq",
+   "target": "addr-holland-crossings",
+   "type": "class-location"
+  },
+  {
+   "source": "heritage-hq",
+   "target": "loc-federalist",
+   "type": "class-location"
+  },
+  {
+   "source": "addr-9mile-inner-link",
+   "target": "ira-building",
+   "type": "class-location"
+  },
+  {
+   "source": "addr-9mile-inner-link",
+   "target": "ira-building-2",
+   "type": "class-location"
+  },
+  {
+   "source": "addr-9mile-inner-link",
+   "target": "theresa-fifth-ave",
+   "type": "class-location"
+  },
+  {
+   "source": "addr-9mile-inner-link",
+   "target": "saudi-consulate-istanbul",
+   "type": "class-location"
+  },
+  {
+   "source": "addr-9mile-inner-link",
+   "target": "loc-fox-news",
+   "type": "class-location"
+  },
+  {
+   "source": "addr-9mile-inner-link",
+   "target": "mortimer-townhouse",
+   "type": "class-location"
+  },
+  {
+   "source": "addr-9mile-inner-link",
+   "target": "meta-office-dublin",
+   "type": "class-location"
+  },
+  {
+   "source": "addr-9mile-inner-link",
+   "target": "meta-office-delaware",
+   "type": "class-location"
+  },
+  {
+   "source": "addr-9mile-inner-link",
+   "target": "loc-federalist",
+   "type": "class-location"
+  },
+  {
+   "source": "ira-building",
+   "target": "ira-building-2",
+   "type": "class-location"
+  },
+  {
+   "source": "ira-building",
+   "target": "theresa-fifth-ave",
+   "type": "class-location"
+  },
+  {
+   "source": "ira-building",
+   "target": "saudi-consulate-istanbul",
+   "type": "class-location"
+  },
+  {
+   "source": "ira-building",
+   "target": "loc-fox-news",
+   "type": "class-location"
+  },
+  {
+   "source": "ira-building",
+   "target": "mortimer-townhouse",
+   "type": "class-location"
+  },
+  {
+   "source": "ira-building",
+   "target": "meta-office-dublin",
+   "type": "class-location"
+  },
+  {
+   "source": "ira-building",
+   "target": "meta-office-delaware",
+   "type": "class-location"
+  },
+  {
+   "source": "ira-building",
+   "target": "addr-holland-crossings",
+   "type": "class-location"
+  },
+  {
+   "source": "ira-building",
+   "target": "loc-federalist",
+   "type": "class-location"
+  },
+  {
+   "source": "ira-building-2",
+   "target": "saudi-consulate-istanbul",
+   "type": "class-location"
+  },
+  {
+   "source": "ira-building-2",
+   "target": "mortimer-townhouse",
+   "type": "class-location"
+  },
+  {
+   "source": "ira-building-2",
+   "target": "meta-office-dublin",
+   "type": "class-location"
+  },
+  {
+   "source": "theresa-fifth-ave",
+   "target": "saudi-consulate-istanbul",
+   "type": "class-location"
+  },
+  {
+   "source": "theresa-fifth-ave",
+   "target": "loc-fox-news",
+   "type": "class-location"
+  },
+  {
+   "source": "theresa-fifth-ave",
+   "target": "mortimer-townhouse",
+   "type": "class-location"
+  },
+  {
+   "source": "theresa-fifth-ave",
+   "target": "meta-office-dublin",
+   "type": "class-location"
+  },
+  {
+   "source": "theresa-fifth-ave",
+   "target": "meta-office-delaware",
+   "type": "class-location"
+  },
+  {
+   "source": "theresa-fifth-ave",
+   "target": "addr-holland-crossings",
+   "type": "class-location"
+  },
+  {
+   "source": "theresa-fifth-ave",
+   "target": "loc-federalist",
+   "type": "class-location"
+  },
+  {
+   "source": "saudi-consulate-istanbul",
+   "target": "loc-fox-news",
+   "type": "class-location"
+  },
+  {
+   "source": "saudi-consulate-istanbul",
+   "target": "mortimer-townhouse",
+   "type": "class-location"
+  },
+  {
+   "source": "saudi-consulate-istanbul",
+   "target": "meta-office-dublin",
+   "type": "class-location"
+  },
+  {
+   "source": "saudi-consulate-istanbul",
+   "target": "meta-office-delaware",
+   "type": "class-location"
+  },
+  {
+   "source": "saudi-consulate-istanbul",
+   "target": "addr-holland-crossings",
+   "type": "class-location"
+  },
+  {
+   "source": "saudi-consulate-istanbul",
+   "target": "loc-federalist",
+   "type": "class-location"
+  },
+  {
+   "source": "loc-fox-news",
+   "target": "mortimer-townhouse",
+   "type": "class-location"
+  },
+  {
+   "source": "loc-fox-news",
+   "target": "meta-office-dublin",
+   "type": "class-location"
+  },
+  {
+   "source": "loc-fox-news",
+   "target": "meta-office-delaware",
+   "type": "class-location"
+  },
+  {
+   "source": "loc-fox-news",
+   "target": "addr-holland-crossings",
+   "type": "class-location"
+  },
+  {
+   "source": "loc-fox-news",
+   "target": "loc-federalist",
+   "type": "class-location"
+  },
+  {
+   "source": "mortimer-townhouse",
+   "target": "meta-office-dublin",
+   "type": "class-location"
+  },
+  {
+   "source": "mortimer-townhouse",
+   "target": "meta-office-delaware",
+   "type": "class-location"
+  },
+  {
+   "source": "mortimer-townhouse",
+   "target": "addr-holland-crossings",
+   "type": "class-location"
+  },
+  {
+   "source": "mortimer-townhouse",
+   "target": "loc-federalist",
+   "type": "class-location"
+  },
+  {
+   "source": "meta-office-dublin",
+   "target": "addr-holland-crossings",
+   "type": "class-location"
+  },
+  {
+   "source": "meta-office-dublin",
+   "target": "loc-federalist",
+   "type": "class-location"
+  },
+  {
+   "source": "meta-office-delaware",
+   "target": "addr-holland-crossings",
+   "type": "class-location"
+  },
+  {
+   "source": "meta-office-delaware",
+   "target": "loc-federalist",
+   "type": "class-location"
+  },
+  {
+   "source": "addr-holland-crossings",
+   "target": "loc-federalist",
+   "type": "class-location"
+  },
+  {
+   "source": "wp-atlas-04",
+   "target": "wp-atlas-06",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-04",
+   "target": "wp-nc-letter-chip",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-04",
+   "target": "wp-atlas-05",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-04",
+   "target": "wp-nc-part12",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-04",
+   "target": "wp-nc-part11",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-04",
+   "target": "wp-atlas-07",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-04",
+   "target": "wp-thesis-06",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-04",
+   "target": "wp-nc-part8",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-04",
+   "target": "wp-nc-part18",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-04",
+   "target": "wp-nc-part15",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-04",
+   "target": "wp-nc-part10",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-04",
+   "target": "wp-nc-part20",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-04",
+   "target": "wp-nc-part13",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-04",
+   "target": "wp-nc-part6",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-04",
+   "target": "wp-thesis-05",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-04",
+   "target": "wp-nc-part19",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-06",
+   "target": "wp-nc-letter-chip",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-06",
+   "target": "wp-atlas-05",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-06",
+   "target": "wp-nc-part12",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-06",
+   "target": "wp-nc-part11",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-06",
+   "target": "wp-thesis-06",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-06",
+   "target": "wp-nc-part8",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-06",
+   "target": "wp-nc-part18",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-06",
+   "target": "wp-nc-part15",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-06",
+   "target": "wp-atlas-09",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-06",
+   "target": "wp-nc-part10",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-06",
+   "target": "wp-nc-part20",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-06",
+   "target": "wp-nc-part13",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-06",
+   "target": "wp-nc-part6",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-06",
+   "target": "wp-thesis-05",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-06",
+   "target": "wp-nc-part19",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-06",
+   "target": "wp-atlas-02",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-nc-letter-chip",
+   "target": "wp-atlas-05",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-nc-letter-chip",
+   "target": "wp-nc-part11",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-nc-letter-chip",
+   "target": "wp-atlas-07",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-nc-letter-chip",
+   "target": "wp-thesis-06",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-nc-letter-chip",
+   "target": "wp-atlas-09",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-nc-letter-chip",
+   "target": "wp-nc-part6",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-nc-letter-chip",
+   "target": "wp-atlas-11",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-nc-letter-chip",
+   "target": "wp-thesis-05",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-nc-letter-chip",
+   "target": "wp-atlas-02",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-05",
+   "target": "wp-nc-part12",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-05",
+   "target": "wp-nc-part11",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-05",
+   "target": "wp-thesis-06",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-05",
+   "target": "wp-nc-part8",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-05",
+   "target": "wp-nc-part18",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-05",
+   "target": "wp-nc-part15",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-05",
+   "target": "wp-nc-part10",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-05",
+   "target": "wp-nc-part20",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-05",
+   "target": "wp-nc-part13",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-05",
+   "target": "wp-nc-part6",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-05",
+   "target": "wp-thesis-05",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-05",
+   "target": "wp-nc-part19",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-05",
+   "target": "wp-atlas-02",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-nc-part12",
+   "target": "wp-atlas-07",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-nc-part12",
+   "target": "wp-thesis-06",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-nc-part12",
+   "target": "wp-atlas-09",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-nc-part12",
+   "target": "wp-nc-part6",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-nc-part12",
+   "target": "wp-atlas-11",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-nc-part12",
+   "target": "wp-thesis-05",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-nc-part12",
+   "target": "wp-atlas-02",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-nc-part11",
+   "target": "wp-atlas-07",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-nc-part11",
+   "target": "wp-thesis-06",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-nc-part11",
+   "target": "wp-atlas-09",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-nc-part11",
+   "target": "wp-nc-part6",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-nc-part11",
+   "target": "wp-atlas-11",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-nc-part11",
+   "target": "wp-thesis-05",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-nc-part11",
+   "target": "wp-atlas-02",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-07",
+   "target": "wp-thesis-06",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-07",
+   "target": "wp-nc-part8",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-07",
+   "target": "wp-nc-part18",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-07",
+   "target": "wp-nc-part15",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-07",
+   "target": "wp-nc-part10",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-07",
+   "target": "wp-nc-part20",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-07",
+   "target": "wp-nc-part13",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-07",
+   "target": "wp-nc-part6",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-07",
+   "target": "wp-thesis-05",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-07",
+   "target": "wp-nc-part19",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-07",
+   "target": "wp-atlas-02",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-thesis-06",
+   "target": "wp-nc-part8",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-thesis-06",
+   "target": "wp-nc-part18",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-thesis-06",
+   "target": "wp-nc-part15",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-thesis-06",
+   "target": "wp-atlas-09",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-thesis-06",
+   "target": "wp-nc-part10",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-thesis-06",
+   "target": "wp-nc-part20",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-thesis-06",
+   "target": "wp-nc-part13",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-thesis-06",
+   "target": "wp-nc-part6",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-thesis-06",
+   "target": "wp-atlas-11",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-thesis-06",
+   "target": "wp-thesis-05",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-thesis-06",
+   "target": "wp-nc-part19",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-thesis-06",
+   "target": "wp-atlas-02",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-nc-part8",
+   "target": "wp-atlas-09",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-nc-part8",
+   "target": "wp-nc-part10",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-nc-part8",
+   "target": "wp-nc-part6",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-nc-part8",
+   "target": "wp-atlas-11",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-nc-part8",
+   "target": "wp-thesis-05",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-nc-part8",
+   "target": "wp-atlas-02",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-nc-part18",
+   "target": "wp-atlas-09",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-nc-part18",
+   "target": "wp-nc-part6",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-nc-part18",
+   "target": "wp-atlas-11",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-nc-part18",
+   "target": "wp-thesis-05",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-nc-part18",
+   "target": "wp-atlas-02",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-nc-part15",
+   "target": "wp-atlas-09",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-nc-part15",
+   "target": "wp-nc-part10",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-nc-part15",
+   "target": "wp-nc-part6",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-nc-part15",
+   "target": "wp-atlas-11",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-nc-part15",
+   "target": "wp-thesis-05",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-nc-part15",
+   "target": "wp-atlas-02",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-09",
+   "target": "wp-nc-part10",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-09",
+   "target": "wp-nc-part20",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-09",
+   "target": "wp-nc-part13",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-09",
+   "target": "wp-nc-part6",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-09",
+   "target": "wp-thesis-05",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-09",
+   "target": "wp-nc-part19",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-atlas-09",
+   "target": "wp-atlas-02",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-nc-part10",
+   "target": "wp-nc-part6",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-nc-part10",
+   "target": "wp-atlas-11",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-nc-part10",
+   "target": "wp-thesis-05",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-nc-part10",
+   "target": "wp-atlas-02",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-nc-part20",
+   "target": "wp-nc-part6",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-nc-part20",
+   "target": "wp-atlas-11",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-nc-part20",
+   "target": "wp-thesis-05",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-nc-part20",
+   "target": "wp-nc-part19",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-nc-part20",
+   "target": "wp-atlas-02",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-nc-part13",
+   "target": "wp-nc-part6",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-nc-part13",
+   "target": "wp-atlas-11",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-nc-part13",
+   "target": "wp-thesis-05",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-nc-part13",
+   "target": "wp-atlas-02",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-nc-part6",
+   "target": "wp-atlas-11",
+   "type": "class-chapter"
+  },
+  {
+   "source": "wp-nc-part6",
+   "target": "wp-thesis-05",
+   "type": "class-chapter"
   }
  ]
 }
