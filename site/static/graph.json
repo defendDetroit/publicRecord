@@ -76175,6 +76175,87 @@
     "defense",
     "strategy"
    ]
+  },
+  {
+   "id": "origin_sackler",
+   "label": "ORIGIN TRACE: Sackler → Purdue → OxyContin → Patent US 5,656,295 → FDA approval 1995 → $48M year 1 → $35B total → 900K dead",
+   "class": "analysis",
+   "tags": [
+    "origin",
+    "sackler"
+   ]
+  },
+  {
+   "id": "origin_banks",
+   "label": "ORIGIN TRACE: Banks → Purpose Group → Walton → Pahara → MAPSA → GLEP → DeVos → PA 362 → McLellan → Dykema (1926)",
+   "class": "analysis",
+   "tags": [
+    "origin",
+    "banks"
+   ]
+  },
+  {
+   "id": "origin_mok",
+   "label": "ORIGIN TRACE: Dr. Mok → 304K procedures → healing → Medicare ban → patients lose access → system protects Sacklers, punishes healers",
+   "class": "analysis",
+   "tags": [
+    "origin",
+    "mok"
+   ]
+  },
+  {
+   "id": "origin_convergence",
+   "label": "CONVERGENCE: All three traces meet at the COST FUNCTION. Extract from vulnerable. Target individuals. Protect institutions.",
+   "class": "analysis",
+   "tags": [
+    "origin",
+    "convergence"
+   ]
+  },
+  {
+   "id": "root_profit_over_people",
+   "label": "ROOT: Profit over people. Every trace leads here.",
+   "class": "concept",
+   "tags": [
+    "origin",
+    "root"
+   ]
+  },
+  {
+   "id": "root_regulatory_capture",
+   "label": "ROOT: Regulatory capture. FDA→Purdue. Authorizer→Banks. Medicare→prosecution.",
+   "class": "concept",
+   "tags": [
+    "origin",
+    "root"
+   ]
+  },
+  {
+   "id": "root_information_asymmetry",
+   "label": "ROOT: Information asymmetry. Patients don't know. Parents don't know. Jurors don't know.",
+   "class": "concept",
+   "tags": [
+    "origin",
+    "root"
+   ]
+  },
+  {
+   "id": "root_accountability_inversion",
+   "label": "ROOT: Accountability inversion. Healers prosecuted. Extractors protected. Killers immunized.",
+   "class": "concept",
+   "tags": [
+    "origin",
+    "root"
+   ]
+  },
+  {
+   "id": "graph_corrects",
+   "label": "THE GRAPH corrects the information asymmetry. 131,000+ edges. Every connection verifiable. The cure for the root cause.",
+   "class": "concept",
+   "tags": [
+    "origin",
+    "solution"
+   ]
   }
  ],
  "edges": [
@@ -732787,6 +732868,6711 @@
    "source": "backtrace_patients",
    "target": "scatter_as_weapon",
    "type": "enables"
+  },
+  {
+   "source": "sackler_richard_s",
+   "target": "sackler_family",
+   "type": "origin_chain"
+  },
+  {
+   "source": "sackler_family",
+   "target": "purdue_pharma",
+   "type": "origin_chain"
+  },
+  {
+   "source": "purdue_pharma",
+   "target": "oxycontin_gateway",
+   "type": "origin_chain"
+  },
+  {
+   "source": "oxycontin_gateway",
+   "target": "fentanyl_pipeline",
+   "type": "origin_chain"
+  },
+  {
+   "source": "fentanyl_pipeline",
+   "target": "fentanyl_deaths",
+   "type": "origin_chain"
+  },
+  {
+   "source": "fentanyl_deaths",
+   "target": "deaths_opioid_total",
+   "type": "origin_chain"
+  },
+  {
+   "source": "origin_sackler",
+   "target": "sackler_richard_s",
+   "type": "begins_at"
+  },
+  {
+   "source": "origin_sackler",
+   "target": "deaths_opioid_total",
+   "type": "ends_at"
+  },
+  {
+   "source": "banks_brian",
+   "target": "walton_family_foundation",
+   "type": "origin_chain"
+  },
+  {
+   "source": "walton_family_foundation",
+   "target": "pahara_institute",
+   "type": "origin_chain"
+  },
+  {
+   "source": "pahara_institute",
+   "target": "mapsa",
+   "type": "origin_chain"
+  },
+  {
+   "source": "mapsa",
+   "target": "dykema_gossett",
+   "type": "origin_chain"
+  },
+  {
+   "source": "origin_banks",
+   "target": "banks_brian",
+   "type": "begins_at"
+  },
+  {
+   "source": "charles_mok",
+   "target": "allure_medical",
+   "type": "origin_chain"
+  },
+  {
+   "source": "allure_medical",
+   "target": "allure_304k_procedures",
+   "type": "origin_chain"
+  },
+  {
+   "source": "allure_304k_procedures",
+   "target": "venous_ulcer_patients",
+   "type": "origin_chain"
+  },
+  {
+   "source": "venous_ulcer_patients",
+   "target": "punishment_medicare_ban",
+   "type": "origin_chain"
+  },
+  {
+   "source": "punishment_medicare_ban",
+   "target": "punishment_patients_harmed",
+   "type": "origin_chain"
+  },
+  {
+   "source": "origin_mok",
+   "target": "charles_mok",
+   "type": "begins_at"
+  },
+  {
+   "source": "origin_sackler",
+   "target": "origin_convergence",
+   "type": "converges_at"
+  },
+  {
+   "source": "origin_banks",
+   "target": "origin_convergence",
+   "type": "converges_at"
+  },
+  {
+   "source": "origin_mok",
+   "target": "origin_convergence",
+   "type": "converges_at"
+  },
+  {
+   "source": "origin_convergence",
+   "target": "pattern_extract_protect",
+   "type": "is"
+  },
+  {
+   "source": "origin_convergence",
+   "target": "three_cost_functions",
+   "type": "unifies"
+  },
+  {
+   "source": "sackler_jonathan",
+   "target": "parallel_banks_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_jonathan",
+   "target": "banksy",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_jonathan",
+   "target": "banks_living_trust",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_jonathan",
+   "target": "article_jump_voynich_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_jonathan",
+   "target": "article_farthest_from_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_jonathan",
+   "target": "unesco_paris_banks_of_the_seine",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_jonathan",
+   "target": "bmf_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_jonathan",
+   "target": "article_nobel_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_jonathan",
+   "target": "dede_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_jonathan",
+   "target": "carol_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_jonathan",
+   "target": "banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_jonathan",
+   "target": "article_mantis_shrimp_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_jonathan",
+   "target": "lara_data_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_jonathan",
+   "target": "article_euler_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_jonathan",
+   "target": "banks_little_girl_phone",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_jonathan",
+   "target": "fun_six_degrees_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_jonathan",
+   "target": "banks_powerwash",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_jonathan",
+   "target": "twist_banks_mobius",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_jonathan",
+   "target": "answer_banks_convictions",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_jonathan",
+   "target": "article_jump_octopus_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_jonathan",
+   "target": "game_six_degrees_of_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_jonathan",
+   "target": "whitlowbanks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_jonathan",
+   "target": "banks_claim_self_funded",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_jonathan",
+   "target": "fun_banks_languages",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_jonathan",
+   "target": "unesco_budapest_including_the_banks_of_the_danu",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_jonathan",
+   "target": "banks_harassment_house",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_jonathan",
+   "target": "false_reports_banks_smith",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_jonathan",
+   "target": "banks_math_repeat",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_jonathan",
+   "target": "banks_brian",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_jonathan",
+   "target": "ppo_hearing_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer",
+   "target": "parallel_banks_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer",
+   "target": "banksy",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer",
+   "target": "banks_living_trust",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer",
+   "target": "article_jump_voynich_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer",
+   "target": "article_farthest_from_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer",
+   "target": "unesco_paris_banks_of_the_seine",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer",
+   "target": "bmf_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer",
+   "target": "article_nobel_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer",
+   "target": "dede_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer",
+   "target": "carol_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer",
+   "target": "banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer",
+   "target": "article_mantis_shrimp_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer",
+   "target": "lara_data_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer",
+   "target": "article_euler_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer",
+   "target": "banks_little_girl_phone",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer",
+   "target": "fun_six_degrees_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer",
+   "target": "banks_powerwash",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer",
+   "target": "twist_banks_mobius",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer",
+   "target": "answer_banks_convictions",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer",
+   "target": "article_jump_octopus_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer",
+   "target": "game_six_degrees_of_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer",
+   "target": "whitlowbanks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer",
+   "target": "banks_claim_self_funded",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer",
+   "target": "fun_banks_languages",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer",
+   "target": "unesco_budapest_including_the_banks_of_the_danu",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer",
+   "target": "banks_harassment_house",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer",
+   "target": "false_reports_banks_smith",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer",
+   "target": "banks_math_repeat",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer",
+   "target": "banks_brian",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer",
+   "target": "ppo_hearing_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_math",
+   "target": "parallel_banks_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_math",
+   "target": "banksy",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_math",
+   "target": "banks_living_trust",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_math",
+   "target": "article_jump_voynich_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_math",
+   "target": "article_farthest_from_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_math",
+   "target": "unesco_paris_banks_of_the_seine",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_math",
+   "target": "bmf_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_math",
+   "target": "article_nobel_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_math",
+   "target": "dede_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_math",
+   "target": "carol_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_math",
+   "target": "banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_math",
+   "target": "article_mantis_shrimp_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_math",
+   "target": "lara_data_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_math",
+   "target": "article_euler_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_math",
+   "target": "banks_little_girl_phone",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_math",
+   "target": "fun_six_degrees_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_math",
+   "target": "banks_powerwash",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_math",
+   "target": "twist_banks_mobius",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_math",
+   "target": "answer_banks_convictions",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_math",
+   "target": "article_jump_octopus_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_math",
+   "target": "game_six_degrees_of_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_math",
+   "target": "whitlowbanks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_math",
+   "target": "banks_claim_self_funded",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_math",
+   "target": "fun_banks_languages",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_math",
+   "target": "unesco_budapest_including_the_banks_of_the_danu",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_math",
+   "target": "banks_harassment_house",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_math",
+   "target": "false_reports_banks_smith",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_math",
+   "target": "banks_math_repeat",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_math",
+   "target": "banks_brian",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_math",
+   "target": "ppo_hearing_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_david",
+   "target": "parallel_banks_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_david",
+   "target": "banksy",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_david",
+   "target": "banks_living_trust",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_david",
+   "target": "article_jump_voynich_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_david",
+   "target": "article_farthest_from_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_david",
+   "target": "unesco_paris_banks_of_the_seine",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_david",
+   "target": "bmf_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_david",
+   "target": "article_nobel_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_david",
+   "target": "dede_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_david",
+   "target": "carol_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_david",
+   "target": "banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_david",
+   "target": "article_mantis_shrimp_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_david",
+   "target": "lara_data_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_david",
+   "target": "article_euler_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_david",
+   "target": "banks_little_girl_phone",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_david",
+   "target": "fun_six_degrees_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_david",
+   "target": "banks_powerwash",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_david",
+   "target": "twist_banks_mobius",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_david",
+   "target": "answer_banks_convictions",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_david",
+   "target": "article_jump_octopus_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_david",
+   "target": "game_six_degrees_of_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_david",
+   "target": "whitlowbanks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_david",
+   "target": "banks_claim_self_funded",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_david",
+   "target": "fun_banks_languages",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_david",
+   "target": "unesco_budapest_including_the_banks_of_the_danu",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_david",
+   "target": "banks_harassment_house",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_david",
+   "target": "false_reports_banks_smith",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_david",
+   "target": "banks_math_repeat",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_david",
+   "target": "banks_brian",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_david",
+   "target": "ppo_hearing_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_rebecca",
+   "target": "parallel_banks_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_rebecca",
+   "target": "banksy",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_rebecca",
+   "target": "banks_living_trust",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_rebecca",
+   "target": "article_jump_voynich_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_rebecca",
+   "target": "article_farthest_from_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_rebecca",
+   "target": "unesco_paris_banks_of_the_seine",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_rebecca",
+   "target": "bmf_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_rebecca",
+   "target": "article_nobel_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_rebecca",
+   "target": "dede_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_rebecca",
+   "target": "carol_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_rebecca",
+   "target": "banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_rebecca",
+   "target": "article_mantis_shrimp_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_rebecca",
+   "target": "lara_data_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_rebecca",
+   "target": "article_euler_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_rebecca",
+   "target": "banks_little_girl_phone",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_rebecca",
+   "target": "fun_six_degrees_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_rebecca",
+   "target": "banks_powerwash",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_rebecca",
+   "target": "twist_banks_mobius",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_rebecca",
+   "target": "answer_banks_convictions",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_rebecca",
+   "target": "article_jump_octopus_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_rebecca",
+   "target": "game_six_degrees_of_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_rebecca",
+   "target": "whitlowbanks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_rebecca",
+   "target": "banks_claim_self_funded",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_rebecca",
+   "target": "fun_banks_languages",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_rebecca",
+   "target": "unesco_budapest_including_the_banks_of_the_danu",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_rebecca",
+   "target": "banks_harassment_house",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_rebecca",
+   "target": "false_reports_banks_smith",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_rebecca",
+   "target": "banks_math_repeat",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_rebecca",
+   "target": "banks_brian",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_rebecca",
+   "target": "ppo_hearing_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_ilene",
+   "target": "parallel_banks_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_ilene",
+   "target": "banksy",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_ilene",
+   "target": "banks_living_trust",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_ilene",
+   "target": "article_jump_voynich_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_ilene",
+   "target": "article_farthest_from_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_ilene",
+   "target": "unesco_paris_banks_of_the_seine",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_ilene",
+   "target": "bmf_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_ilene",
+   "target": "article_nobel_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_ilene",
+   "target": "dede_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_ilene",
+   "target": "carol_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_ilene",
+   "target": "banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_ilene",
+   "target": "article_mantis_shrimp_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_ilene",
+   "target": "lara_data_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_ilene",
+   "target": "article_euler_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_ilene",
+   "target": "banks_little_girl_phone",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_ilene",
+   "target": "fun_six_degrees_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_ilene",
+   "target": "banks_powerwash",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_ilene",
+   "target": "twist_banks_mobius",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_ilene",
+   "target": "answer_banks_convictions",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_ilene",
+   "target": "article_jump_octopus_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_ilene",
+   "target": "game_six_degrees_of_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_ilene",
+   "target": "whitlowbanks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_ilene",
+   "target": "banks_claim_self_funded",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_ilene",
+   "target": "fun_banks_languages",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_ilene",
+   "target": "unesco_budapest_including_the_banks_of_the_danu",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_ilene",
+   "target": "banks_harassment_house",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_ilene",
+   "target": "false_reports_banks_smith",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_ilene",
+   "target": "banks_math_repeat",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_ilene",
+   "target": "banks_brian",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_ilene",
+   "target": "ppo_hearing_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "guggenheim_sackler_removed",
+   "target": "parallel_banks_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "guggenheim_sackler_removed",
+   "target": "banksy",
+   "type": "backscatter"
+  },
+  {
+   "source": "guggenheim_sackler_removed",
+   "target": "banks_living_trust",
+   "type": "backscatter"
+  },
+  {
+   "source": "guggenheim_sackler_removed",
+   "target": "article_jump_voynich_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "guggenheim_sackler_removed",
+   "target": "article_farthest_from_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "guggenheim_sackler_removed",
+   "target": "unesco_paris_banks_of_the_seine",
+   "type": "backscatter"
+  },
+  {
+   "source": "guggenheim_sackler_removed",
+   "target": "bmf_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "guggenheim_sackler_removed",
+   "target": "article_nobel_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "guggenheim_sackler_removed",
+   "target": "dede_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "guggenheim_sackler_removed",
+   "target": "carol_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "guggenheim_sackler_removed",
+   "target": "banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "guggenheim_sackler_removed",
+   "target": "article_mantis_shrimp_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "guggenheim_sackler_removed",
+   "target": "lara_data_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "guggenheim_sackler_removed",
+   "target": "article_euler_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "guggenheim_sackler_removed",
+   "target": "banks_little_girl_phone",
+   "type": "backscatter"
+  },
+  {
+   "source": "guggenheim_sackler_removed",
+   "target": "fun_six_degrees_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "guggenheim_sackler_removed",
+   "target": "banks_powerwash",
+   "type": "backscatter"
+  },
+  {
+   "source": "guggenheim_sackler_removed",
+   "target": "twist_banks_mobius",
+   "type": "backscatter"
+  },
+  {
+   "source": "guggenheim_sackler_removed",
+   "target": "answer_banks_convictions",
+   "type": "backscatter"
+  },
+  {
+   "source": "guggenheim_sackler_removed",
+   "target": "article_jump_octopus_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "guggenheim_sackler_removed",
+   "target": "game_six_degrees_of_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "guggenheim_sackler_removed",
+   "target": "whitlowbanks",
+   "type": "backscatter"
+  },
+  {
+   "source": "guggenheim_sackler_removed",
+   "target": "banks_claim_self_funded",
+   "type": "backscatter"
+  },
+  {
+   "source": "guggenheim_sackler_removed",
+   "target": "fun_banks_languages",
+   "type": "backscatter"
+  },
+  {
+   "source": "guggenheim_sackler_removed",
+   "target": "unesco_budapest_including_the_banks_of_the_danu",
+   "type": "backscatter"
+  },
+  {
+   "source": "guggenheim_sackler_removed",
+   "target": "banks_harassment_house",
+   "type": "backscatter"
+  },
+  {
+   "source": "guggenheim_sackler_removed",
+   "target": "false_reports_banks_smith",
+   "type": "backscatter"
+  },
+  {
+   "source": "guggenheim_sackler_removed",
+   "target": "banks_math_repeat",
+   "type": "backscatter"
+  },
+  {
+   "source": "guggenheim_sackler_removed",
+   "target": "banks_brian",
+   "type": "backscatter"
+  },
+  {
+   "source": "guggenheim_sackler_removed",
+   "target": "ppo_hearing_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "analog_sacklers",
+   "target": "parallel_banks_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "analog_sacklers",
+   "target": "banksy",
+   "type": "backscatter"
+  },
+  {
+   "source": "analog_sacklers",
+   "target": "banks_living_trust",
+   "type": "backscatter"
+  },
+  {
+   "source": "analog_sacklers",
+   "target": "article_jump_voynich_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "analog_sacklers",
+   "target": "article_farthest_from_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "analog_sacklers",
+   "target": "unesco_paris_banks_of_the_seine",
+   "type": "backscatter"
+  },
+  {
+   "source": "analog_sacklers",
+   "target": "bmf_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "analog_sacklers",
+   "target": "article_nobel_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "analog_sacklers",
+   "target": "dede_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "analog_sacklers",
+   "target": "carol_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "analog_sacklers",
+   "target": "article_mantis_shrimp_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "analog_sacklers",
+   "target": "lara_data_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "analog_sacklers",
+   "target": "article_euler_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "analog_sacklers",
+   "target": "banks_little_girl_phone",
+   "type": "backscatter"
+  },
+  {
+   "source": "analog_sacklers",
+   "target": "fun_six_degrees_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "analog_sacklers",
+   "target": "banks_powerwash",
+   "type": "backscatter"
+  },
+  {
+   "source": "analog_sacklers",
+   "target": "article_jump_octopus_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "analog_sacklers",
+   "target": "game_six_degrees_of_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "analog_sacklers",
+   "target": "whitlowbanks",
+   "type": "backscatter"
+  },
+  {
+   "source": "analog_sacklers",
+   "target": "banks_claim_self_funded",
+   "type": "backscatter"
+  },
+  {
+   "source": "analog_sacklers",
+   "target": "fun_banks_languages",
+   "type": "backscatter"
+  },
+  {
+   "source": "analog_sacklers",
+   "target": "unesco_budapest_including_the_banks_of_the_danu",
+   "type": "backscatter"
+  },
+  {
+   "source": "analog_sacklers",
+   "target": "banks_harassment_house",
+   "type": "backscatter"
+  },
+  {
+   "source": "analog_sacklers",
+   "target": "false_reports_banks_smith",
+   "type": "backscatter"
+  },
+  {
+   "source": "analog_sacklers",
+   "target": "banks_math_repeat",
+   "type": "backscatter"
+  },
+  {
+   "source": "analog_sacklers",
+   "target": "banks_brian",
+   "type": "backscatter"
+  },
+  {
+   "source": "analog_sacklers",
+   "target": "ppo_hearing_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_fda",
+   "target": "parallel_banks_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_fda",
+   "target": "banksy",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_fda",
+   "target": "banks_living_trust",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_fda",
+   "target": "article_jump_voynich_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_fda",
+   "target": "article_farthest_from_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_fda",
+   "target": "unesco_paris_banks_of_the_seine",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_fda",
+   "target": "bmf_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_fda",
+   "target": "article_nobel_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_fda",
+   "target": "dede_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_fda",
+   "target": "carol_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_fda",
+   "target": "banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_fda",
+   "target": "article_mantis_shrimp_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_fda",
+   "target": "lara_data_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_fda",
+   "target": "article_euler_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_fda",
+   "target": "banks_little_girl_phone",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_fda",
+   "target": "fun_six_degrees_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_fda",
+   "target": "banks_powerwash",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_fda",
+   "target": "twist_banks_mobius",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_fda",
+   "target": "answer_banks_convictions",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_fda",
+   "target": "article_jump_octopus_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_fda",
+   "target": "game_six_degrees_of_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_fda",
+   "target": "whitlowbanks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_fda",
+   "target": "banks_claim_self_funded",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_fda",
+   "target": "fun_banks_languages",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_fda",
+   "target": "unesco_budapest_including_the_banks_of_the_danu",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_fda",
+   "target": "banks_harassment_house",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_fda",
+   "target": "false_reports_banks_smith",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_fda",
+   "target": "banks_math_repeat",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_fda",
+   "target": "banks_brian",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_fda",
+   "target": "ppo_hearing_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_richard_s",
+   "target": "parallel_banks_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_richard_s",
+   "target": "banksy",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_richard_s",
+   "target": "banks_living_trust",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_richard_s",
+   "target": "article_jump_voynich_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_richard_s",
+   "target": "article_farthest_from_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_richard_s",
+   "target": "unesco_paris_banks_of_the_seine",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_richard_s",
+   "target": "bmf_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_richard_s",
+   "target": "article_nobel_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_richard_s",
+   "target": "dede_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_richard_s",
+   "target": "carol_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_richard_s",
+   "target": "banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_richard_s",
+   "target": "article_mantis_shrimp_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_richard_s",
+   "target": "lara_data_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_richard_s",
+   "target": "article_euler_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_richard_s",
+   "target": "banks_little_girl_phone",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_richard_s",
+   "target": "fun_six_degrees_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_richard_s",
+   "target": "banks_powerwash",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_richard_s",
+   "target": "twist_banks_mobius",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_richard_s",
+   "target": "answer_banks_convictions",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_richard_s",
+   "target": "article_jump_octopus_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_richard_s",
+   "target": "game_six_degrees_of_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_richard_s",
+   "target": "whitlowbanks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_richard_s",
+   "target": "banks_claim_self_funded",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_richard_s",
+   "target": "fun_banks_languages",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_richard_s",
+   "target": "unesco_budapest_including_the_banks_of_the_danu",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_richard_s",
+   "target": "banks_harassment_house",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_richard_s",
+   "target": "false_reports_banks_smith",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_richard_s",
+   "target": "banks_math_repeat",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_richard_s",
+   "target": "banks_brian",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_richard_s",
+   "target": "ppo_hearing_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "purdue_pharma_sacklers",
+   "target": "parallel_banks_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "purdue_pharma_sacklers",
+   "target": "banksy",
+   "type": "backscatter"
+  },
+  {
+   "source": "purdue_pharma_sacklers",
+   "target": "banks_living_trust",
+   "type": "backscatter"
+  },
+  {
+   "source": "purdue_pharma_sacklers",
+   "target": "article_jump_voynich_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "purdue_pharma_sacklers",
+   "target": "article_farthest_from_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "purdue_pharma_sacklers",
+   "target": "unesco_paris_banks_of_the_seine",
+   "type": "backscatter"
+  },
+  {
+   "source": "purdue_pharma_sacklers",
+   "target": "bmf_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "purdue_pharma_sacklers",
+   "target": "article_nobel_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "purdue_pharma_sacklers",
+   "target": "dede_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "purdue_pharma_sacklers",
+   "target": "carol_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "purdue_pharma_sacklers",
+   "target": "banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "purdue_pharma_sacklers",
+   "target": "article_mantis_shrimp_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "purdue_pharma_sacklers",
+   "target": "lara_data_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "purdue_pharma_sacklers",
+   "target": "article_euler_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "purdue_pharma_sacklers",
+   "target": "banks_little_girl_phone",
+   "type": "backscatter"
+  },
+  {
+   "source": "purdue_pharma_sacklers",
+   "target": "fun_six_degrees_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "purdue_pharma_sacklers",
+   "target": "banks_powerwash",
+   "type": "backscatter"
+  },
+  {
+   "source": "purdue_pharma_sacklers",
+   "target": "twist_banks_mobius",
+   "type": "backscatter"
+  },
+  {
+   "source": "purdue_pharma_sacklers",
+   "target": "answer_banks_convictions",
+   "type": "backscatter"
+  },
+  {
+   "source": "purdue_pharma_sacklers",
+   "target": "article_jump_octopus_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "purdue_pharma_sacklers",
+   "target": "game_six_degrees_of_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "purdue_pharma_sacklers",
+   "target": "whitlowbanks",
+   "type": "backscatter"
+  },
+  {
+   "source": "purdue_pharma_sacklers",
+   "target": "banks_claim_self_funded",
+   "type": "backscatter"
+  },
+  {
+   "source": "purdue_pharma_sacklers",
+   "target": "fun_banks_languages",
+   "type": "backscatter"
+  },
+  {
+   "source": "purdue_pharma_sacklers",
+   "target": "unesco_budapest_including_the_banks_of_the_danu",
+   "type": "backscatter"
+  },
+  {
+   "source": "purdue_pharma_sacklers",
+   "target": "banks_harassment_house",
+   "type": "backscatter"
+  },
+  {
+   "source": "purdue_pharma_sacklers",
+   "target": "false_reports_banks_smith",
+   "type": "backscatter"
+  },
+  {
+   "source": "purdue_pharma_sacklers",
+   "target": "banks_math_repeat",
+   "type": "backscatter"
+  },
+  {
+   "source": "purdue_pharma_sacklers",
+   "target": "banks_brian",
+   "type": "backscatter"
+  },
+  {
+   "source": "purdue_pharma_sacklers",
+   "target": "ppo_hearing_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer_da",
+   "target": "parallel_banks_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer_da",
+   "target": "banksy",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer_da",
+   "target": "banks_living_trust",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer_da",
+   "target": "article_jump_voynich_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer_da",
+   "target": "article_farthest_from_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer_da",
+   "target": "unesco_paris_banks_of_the_seine",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer_da",
+   "target": "bmf_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer_da",
+   "target": "article_nobel_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer_da",
+   "target": "dede_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer_da",
+   "target": "carol_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer_da",
+   "target": "banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer_da",
+   "target": "article_mantis_shrimp_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer_da",
+   "target": "lara_data_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer_da",
+   "target": "article_euler_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer_da",
+   "target": "banks_little_girl_phone",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer_da",
+   "target": "fun_six_degrees_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer_da",
+   "target": "banks_powerwash",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer_da",
+   "target": "twist_banks_mobius",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer_da",
+   "target": "answer_banks_convictions",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer_da",
+   "target": "article_jump_octopus_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer_da",
+   "target": "game_six_degrees_of_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer_da",
+   "target": "whitlowbanks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer_da",
+   "target": "banks_claim_self_funded",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer_da",
+   "target": "fun_banks_languages",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer_da",
+   "target": "unesco_budapest_including_the_banks_of_the_danu",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer_da",
+   "target": "banks_harassment_house",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer_da",
+   "target": "false_reports_banks_smith",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer_da",
+   "target": "banks_math_repeat",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer_da",
+   "target": "banks_brian",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer_da",
+   "target": "ppo_hearing_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_miles",
+   "target": "parallel_banks_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_miles",
+   "target": "banksy",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_miles",
+   "target": "banks_living_trust",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_miles",
+   "target": "article_jump_voynich_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_miles",
+   "target": "article_farthest_from_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_miles",
+   "target": "unesco_paris_banks_of_the_seine",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_miles",
+   "target": "bmf_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_miles",
+   "target": "article_nobel_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_miles",
+   "target": "dede_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_miles",
+   "target": "carol_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_miles",
+   "target": "banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_miles",
+   "target": "article_mantis_shrimp_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_miles",
+   "target": "lara_data_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_miles",
+   "target": "article_euler_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_miles",
+   "target": "banks_little_girl_phone",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_miles",
+   "target": "fun_six_degrees_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_miles",
+   "target": "banks_powerwash",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_miles",
+   "target": "twist_banks_mobius",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_miles",
+   "target": "answer_banks_convictions",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_miles",
+   "target": "article_jump_octopus_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_miles",
+   "target": "game_six_degrees_of_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_miles",
+   "target": "whitlowbanks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_miles",
+   "target": "banks_claim_self_funded",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_miles",
+   "target": "fun_banks_languages",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_miles",
+   "target": "unesco_budapest_including_the_banks_of_the_danu",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_miles",
+   "target": "banks_harassment_house",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_miles",
+   "target": "false_reports_banks_smith",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_miles",
+   "target": "banks_math_repeat",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_miles",
+   "target": "banks_brian",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_miles",
+   "target": "ppo_hearing_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "deaths_per_sackler_dollar",
+   "target": "parallel_banks_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "deaths_per_sackler_dollar",
+   "target": "banksy",
+   "type": "backscatter"
+  },
+  {
+   "source": "deaths_per_sackler_dollar",
+   "target": "banks_living_trust",
+   "type": "backscatter"
+  },
+  {
+   "source": "deaths_per_sackler_dollar",
+   "target": "article_jump_voynich_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "deaths_per_sackler_dollar",
+   "target": "article_farthest_from_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "deaths_per_sackler_dollar",
+   "target": "unesco_paris_banks_of_the_seine",
+   "type": "backscatter"
+  },
+  {
+   "source": "deaths_per_sackler_dollar",
+   "target": "bmf_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "deaths_per_sackler_dollar",
+   "target": "article_nobel_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "deaths_per_sackler_dollar",
+   "target": "dede_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "deaths_per_sackler_dollar",
+   "target": "carol_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "deaths_per_sackler_dollar",
+   "target": "banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "deaths_per_sackler_dollar",
+   "target": "article_mantis_shrimp_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "deaths_per_sackler_dollar",
+   "target": "lara_data_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "deaths_per_sackler_dollar",
+   "target": "article_euler_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "deaths_per_sackler_dollar",
+   "target": "banks_little_girl_phone",
+   "type": "backscatter"
+  },
+  {
+   "source": "deaths_per_sackler_dollar",
+   "target": "fun_six_degrees_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "deaths_per_sackler_dollar",
+   "target": "banks_powerwash",
+   "type": "backscatter"
+  },
+  {
+   "source": "deaths_per_sackler_dollar",
+   "target": "twist_banks_mobius",
+   "type": "backscatter"
+  },
+  {
+   "source": "deaths_per_sackler_dollar",
+   "target": "answer_banks_convictions",
+   "type": "backscatter"
+  },
+  {
+   "source": "deaths_per_sackler_dollar",
+   "target": "article_jump_octopus_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "deaths_per_sackler_dollar",
+   "target": "game_six_degrees_of_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "deaths_per_sackler_dollar",
+   "target": "whitlowbanks",
+   "type": "backscatter"
+  },
+  {
+   "source": "deaths_per_sackler_dollar",
+   "target": "banks_claim_self_funded",
+   "type": "backscatter"
+  },
+  {
+   "source": "deaths_per_sackler_dollar",
+   "target": "fun_banks_languages",
+   "type": "backscatter"
+  },
+  {
+   "source": "deaths_per_sackler_dollar",
+   "target": "unesco_budapest_including_the_banks_of_the_danu",
+   "type": "backscatter"
+  },
+  {
+   "source": "deaths_per_sackler_dollar",
+   "target": "banks_harassment_house",
+   "type": "backscatter"
+  },
+  {
+   "source": "deaths_per_sackler_dollar",
+   "target": "false_reports_banks_smith",
+   "type": "backscatter"
+  },
+  {
+   "source": "deaths_per_sackler_dollar",
+   "target": "banks_math_repeat",
+   "type": "backscatter"
+  },
+  {
+   "source": "deaths_per_sackler_dollar",
+   "target": "banks_brian",
+   "type": "backscatter"
+  },
+  {
+   "source": "deaths_per_sackler_dollar",
+   "target": "ppo_hearing_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_marissa",
+   "target": "parallel_banks_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_marissa",
+   "target": "banksy",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_marissa",
+   "target": "banks_living_trust",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_marissa",
+   "target": "article_jump_voynich_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_marissa",
+   "target": "article_farthest_from_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_marissa",
+   "target": "unesco_paris_banks_of_the_seine",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_marissa",
+   "target": "bmf_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_marissa",
+   "target": "article_nobel_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_marissa",
+   "target": "dede_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_marissa",
+   "target": "carol_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_marissa",
+   "target": "banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_marissa",
+   "target": "article_mantis_shrimp_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_marissa",
+   "target": "lara_data_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_marissa",
+   "target": "article_euler_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_marissa",
+   "target": "banks_little_girl_phone",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_marissa",
+   "target": "fun_six_degrees_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_marissa",
+   "target": "banks_powerwash",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_marissa",
+   "target": "twist_banks_mobius",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_marissa",
+   "target": "answer_banks_convictions",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_marissa",
+   "target": "article_jump_octopus_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_marissa",
+   "target": "game_six_degrees_of_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_marissa",
+   "target": "whitlowbanks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_marissa",
+   "target": "banks_claim_self_funded",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_marissa",
+   "target": "fun_banks_languages",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_marissa",
+   "target": "unesco_budapest_including_the_banks_of_the_danu",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_marissa",
+   "target": "banks_harassment_house",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_marissa",
+   "target": "false_reports_banks_smith",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_marissa",
+   "target": "banks_math_repeat",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_marissa",
+   "target": "banks_brian",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_marissa",
+   "target": "ppo_hearing_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_kathe",
+   "target": "parallel_banks_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_kathe",
+   "target": "banksy",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_kathe",
+   "target": "banks_living_trust",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_kathe",
+   "target": "article_jump_voynich_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_kathe",
+   "target": "article_farthest_from_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_kathe",
+   "target": "unesco_paris_banks_of_the_seine",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_kathe",
+   "target": "bmf_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_kathe",
+   "target": "article_nobel_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_kathe",
+   "target": "dede_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_kathe",
+   "target": "carol_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_kathe",
+   "target": "banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_kathe",
+   "target": "article_mantis_shrimp_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_kathe",
+   "target": "lara_data_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_kathe",
+   "target": "article_euler_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_kathe",
+   "target": "banks_little_girl_phone",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_kathe",
+   "target": "fun_six_degrees_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_kathe",
+   "target": "banks_powerwash",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_kathe",
+   "target": "twist_banks_mobius",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_kathe",
+   "target": "answer_banks_convictions",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_kathe",
+   "target": "article_jump_octopus_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_kathe",
+   "target": "game_six_degrees_of_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_kathe",
+   "target": "whitlowbanks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_kathe",
+   "target": "banks_claim_self_funded",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_kathe",
+   "target": "fun_banks_languages",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_kathe",
+   "target": "unesco_budapest_including_the_banks_of_the_danu",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_kathe",
+   "target": "banks_harassment_house",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_kathe",
+   "target": "false_reports_banks_smith",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_kathe",
+   "target": "banks_math_repeat",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_kathe",
+   "target": "banks_brian",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_kathe",
+   "target": "ppo_hearing_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_zero_prison",
+   "target": "parallel_banks_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_zero_prison",
+   "target": "banksy",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_zero_prison",
+   "target": "banks_living_trust",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_zero_prison",
+   "target": "article_jump_voynich_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_zero_prison",
+   "target": "article_farthest_from_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_zero_prison",
+   "target": "unesco_paris_banks_of_the_seine",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_zero_prison",
+   "target": "bmf_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_zero_prison",
+   "target": "article_nobel_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_zero_prison",
+   "target": "dede_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_zero_prison",
+   "target": "carol_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_zero_prison",
+   "target": "banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_zero_prison",
+   "target": "article_mantis_shrimp_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_zero_prison",
+   "target": "lara_data_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_zero_prison",
+   "target": "article_euler_vs_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_zero_prison",
+   "target": "banks_little_girl_phone",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_zero_prison",
+   "target": "fun_six_degrees_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_zero_prison",
+   "target": "banks_powerwash",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_zero_prison",
+   "target": "twist_banks_mobius",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_zero_prison",
+   "target": "answer_banks_convictions",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_zero_prison",
+   "target": "article_jump_octopus_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_zero_prison",
+   "target": "game_six_degrees_of_banks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_zero_prison",
+   "target": "whitlowbanks",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_zero_prison",
+   "target": "banks_claim_self_funded",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_zero_prison",
+   "target": "fun_banks_languages",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_jonathan",
+   "target": "mok_charged_2020",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_jonathan",
+   "target": "allure_26_clinics",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_jonathan",
+   "target": "unesco_high_coast_/_kvarken_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_jonathan",
+   "target": "usa_v_mok_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_jonathan",
+   "target": "unesco_great_smoky_mountains_national_park",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_jonathan",
+   "target": "chipmunk_mysteries",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_jonathan",
+   "target": "mok_wound_care_quote",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_jonathan",
+   "target": "smoking_gun",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_jonathan",
+   "target": "chipmonk_boundary",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_jonathan",
+   "target": "mok_math",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_jonathan",
+   "target": "chip_to_monk",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_jonathan",
+   "target": "chip_nickname",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_jonathan",
+   "target": "chipmonk",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_jonathan",
+   "target": "allure_flat_leadership",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_jonathan",
+   "target": "chipomunk",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_jonathan",
+   "target": "unesco_papahānaumokuākea",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_jonathan",
+   "target": "allure_medical",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_jonathan",
+   "target": "origin_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_jonathan",
+   "target": "mok_recharged_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_jonathan",
+   "target": "deaths_vs_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_jonathan",
+   "target": "allure_304k_procedures",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_jonathan",
+   "target": "unesco_archipiélago_de_revillagigedo",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_jonathan",
+   "target": "unesco_vegaøyan_–_the_vega_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_jonathan",
+   "target": "mok_dismissed_2023",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_jonathan",
+   "target": "usa_v_mok_2020",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_jonathan",
+   "target": "unesco_socotra_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_jonathan",
+   "target": "kevin_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_jonathan",
+   "target": "article_wider_chipmunk_mysteries",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_jonathan",
+   "target": "charles_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer",
+   "target": "mok_charged_2020",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer",
+   "target": "allure_26_clinics",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer",
+   "target": "unesco_high_coast_/_kvarken_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer",
+   "target": "usa_v_mok_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer",
+   "target": "unesco_great_smoky_mountains_national_park",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer",
+   "target": "chipmunk_mysteries",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer",
+   "target": "mok_wound_care_quote",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer",
+   "target": "smoking_gun",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer",
+   "target": "chipmonk_boundary",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer",
+   "target": "mok_math",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer",
+   "target": "chip_to_monk",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer",
+   "target": "chip_nickname",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer",
+   "target": "chipmonk",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer",
+   "target": "allure_flat_leadership",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer",
+   "target": "chipomunk",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer",
+   "target": "unesco_papahānaumokuākea",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer",
+   "target": "allure_medical",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer",
+   "target": "origin_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer",
+   "target": "mok_recharged_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer",
+   "target": "deaths_vs_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer",
+   "target": "allure_304k_procedures",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer",
+   "target": "unesco_archipiélago_de_revillagigedo",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer",
+   "target": "unesco_vegaøyan_–_the_vega_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer",
+   "target": "mok_dismissed_2023",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer",
+   "target": "usa_v_mok_2020",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer",
+   "target": "unesco_socotra_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer",
+   "target": "kevin_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer",
+   "target": "article_wider_chipmunk_mysteries",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer",
+   "target": "charles_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_math",
+   "target": "mok_charged_2020",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_math",
+   "target": "allure_26_clinics",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_math",
+   "target": "unesco_high_coast_/_kvarken_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_math",
+   "target": "usa_v_mok_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_math",
+   "target": "unesco_great_smoky_mountains_national_park",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_math",
+   "target": "chipmunk_mysteries",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_math",
+   "target": "mok_wound_care_quote",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_math",
+   "target": "smoking_gun",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_math",
+   "target": "chipmonk_boundary",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_math",
+   "target": "chip_to_monk",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_math",
+   "target": "chip_nickname",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_math",
+   "target": "chipmonk",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_math",
+   "target": "allure_flat_leadership",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_math",
+   "target": "chipomunk",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_math",
+   "target": "unesco_papahānaumokuākea",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_math",
+   "target": "allure_medical",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_math",
+   "target": "origin_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_math",
+   "target": "mok_recharged_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_math",
+   "target": "deaths_vs_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_math",
+   "target": "allure_304k_procedures",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_math",
+   "target": "unesco_archipiélago_de_revillagigedo",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_math",
+   "target": "unesco_vegaøyan_–_the_vega_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_math",
+   "target": "mok_dismissed_2023",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_math",
+   "target": "usa_v_mok_2020",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_math",
+   "target": "unesco_socotra_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_math",
+   "target": "kevin_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_math",
+   "target": "article_wider_chipmunk_mysteries",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_math",
+   "target": "charles_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_david",
+   "target": "mok_charged_2020",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_david",
+   "target": "allure_26_clinics",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_david",
+   "target": "unesco_high_coast_/_kvarken_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_david",
+   "target": "usa_v_mok_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_david",
+   "target": "unesco_great_smoky_mountains_national_park",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_david",
+   "target": "chipmunk_mysteries",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_david",
+   "target": "mok_wound_care_quote",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_david",
+   "target": "smoking_gun",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_david",
+   "target": "chipmonk_boundary",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_david",
+   "target": "mok_math",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_david",
+   "target": "chip_to_monk",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_david",
+   "target": "chip_nickname",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_david",
+   "target": "chipmonk",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_david",
+   "target": "allure_flat_leadership",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_david",
+   "target": "chipomunk",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_david",
+   "target": "unesco_papahānaumokuākea",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_david",
+   "target": "allure_medical",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_david",
+   "target": "origin_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_david",
+   "target": "mok_recharged_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_david",
+   "target": "deaths_vs_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_david",
+   "target": "allure_304k_procedures",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_david",
+   "target": "unesco_archipiélago_de_revillagigedo",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_david",
+   "target": "unesco_vegaøyan_–_the_vega_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_david",
+   "target": "mok_dismissed_2023",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_david",
+   "target": "usa_v_mok_2020",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_david",
+   "target": "unesco_socotra_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_david",
+   "target": "kevin_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_david",
+   "target": "article_wider_chipmunk_mysteries",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_david",
+   "target": "charles_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_rebecca",
+   "target": "mok_charged_2020",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_rebecca",
+   "target": "allure_26_clinics",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_rebecca",
+   "target": "unesco_high_coast_/_kvarken_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_rebecca",
+   "target": "usa_v_mok_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_rebecca",
+   "target": "unesco_great_smoky_mountains_national_park",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_rebecca",
+   "target": "chipmunk_mysteries",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_rebecca",
+   "target": "mok_wound_care_quote",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_rebecca",
+   "target": "smoking_gun",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_rebecca",
+   "target": "chipmonk_boundary",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_rebecca",
+   "target": "mok_math",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_rebecca",
+   "target": "chip_to_monk",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_rebecca",
+   "target": "chip_nickname",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_rebecca",
+   "target": "chipmonk",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_rebecca",
+   "target": "allure_flat_leadership",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_rebecca",
+   "target": "chipomunk",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_rebecca",
+   "target": "unesco_papahānaumokuākea",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_rebecca",
+   "target": "allure_medical",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_rebecca",
+   "target": "origin_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_rebecca",
+   "target": "mok_recharged_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_rebecca",
+   "target": "deaths_vs_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_rebecca",
+   "target": "allure_304k_procedures",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_rebecca",
+   "target": "unesco_archipiélago_de_revillagigedo",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_rebecca",
+   "target": "unesco_vegaøyan_–_the_vega_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_rebecca",
+   "target": "mok_dismissed_2023",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_rebecca",
+   "target": "usa_v_mok_2020",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_rebecca",
+   "target": "unesco_socotra_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_rebecca",
+   "target": "kevin_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_rebecca",
+   "target": "article_wider_chipmunk_mysteries",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_rebecca",
+   "target": "charles_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_ilene",
+   "target": "mok_charged_2020",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_ilene",
+   "target": "allure_26_clinics",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_ilene",
+   "target": "unesco_high_coast_/_kvarken_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_ilene",
+   "target": "usa_v_mok_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_ilene",
+   "target": "unesco_great_smoky_mountains_national_park",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_ilene",
+   "target": "chipmunk_mysteries",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_ilene",
+   "target": "mok_wound_care_quote",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_ilene",
+   "target": "smoking_gun",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_ilene",
+   "target": "chipmonk_boundary",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_ilene",
+   "target": "mok_math",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_ilene",
+   "target": "chip_to_monk",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_ilene",
+   "target": "chip_nickname",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_ilene",
+   "target": "chipmonk",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_ilene",
+   "target": "allure_flat_leadership",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_ilene",
+   "target": "chipomunk",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_ilene",
+   "target": "unesco_papahānaumokuākea",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_ilene",
+   "target": "allure_medical",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_ilene",
+   "target": "origin_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_ilene",
+   "target": "mok_recharged_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_ilene",
+   "target": "deaths_vs_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_ilene",
+   "target": "allure_304k_procedures",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_ilene",
+   "target": "unesco_archipiélago_de_revillagigedo",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_ilene",
+   "target": "unesco_vegaøyan_–_the_vega_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_ilene",
+   "target": "mok_dismissed_2023",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_ilene",
+   "target": "usa_v_mok_2020",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_ilene",
+   "target": "unesco_socotra_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_ilene",
+   "target": "kevin_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_ilene",
+   "target": "article_wider_chipmunk_mysteries",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_ilene",
+   "target": "charles_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "guggenheim_sackler_removed",
+   "target": "mok_charged_2020",
+   "type": "backscatter"
+  },
+  {
+   "source": "guggenheim_sackler_removed",
+   "target": "allure_26_clinics",
+   "type": "backscatter"
+  },
+  {
+   "source": "guggenheim_sackler_removed",
+   "target": "unesco_high_coast_/_kvarken_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "guggenheim_sackler_removed",
+   "target": "usa_v_mok_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "guggenheim_sackler_removed",
+   "target": "unesco_great_smoky_mountains_national_park",
+   "type": "backscatter"
+  },
+  {
+   "source": "guggenheim_sackler_removed",
+   "target": "chipmunk_mysteries",
+   "type": "backscatter"
+  },
+  {
+   "source": "guggenheim_sackler_removed",
+   "target": "mok_wound_care_quote",
+   "type": "backscatter"
+  },
+  {
+   "source": "guggenheim_sackler_removed",
+   "target": "smoking_gun",
+   "type": "backscatter"
+  },
+  {
+   "source": "guggenheim_sackler_removed",
+   "target": "chipmonk_boundary",
+   "type": "backscatter"
+  },
+  {
+   "source": "guggenheim_sackler_removed",
+   "target": "mok_math",
+   "type": "backscatter"
+  },
+  {
+   "source": "guggenheim_sackler_removed",
+   "target": "chip_to_monk",
+   "type": "backscatter"
+  },
+  {
+   "source": "guggenheim_sackler_removed",
+   "target": "chip_nickname",
+   "type": "backscatter"
+  },
+  {
+   "source": "guggenheim_sackler_removed",
+   "target": "chipmonk",
+   "type": "backscatter"
+  },
+  {
+   "source": "guggenheim_sackler_removed",
+   "target": "allure_flat_leadership",
+   "type": "backscatter"
+  },
+  {
+   "source": "guggenheim_sackler_removed",
+   "target": "chipomunk",
+   "type": "backscatter"
+  },
+  {
+   "source": "guggenheim_sackler_removed",
+   "target": "unesco_papahānaumokuākea",
+   "type": "backscatter"
+  },
+  {
+   "source": "guggenheim_sackler_removed",
+   "target": "allure_medical",
+   "type": "backscatter"
+  },
+  {
+   "source": "guggenheim_sackler_removed",
+   "target": "origin_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "guggenheim_sackler_removed",
+   "target": "mok_recharged_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "guggenheim_sackler_removed",
+   "target": "deaths_vs_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "guggenheim_sackler_removed",
+   "target": "allure_304k_procedures",
+   "type": "backscatter"
+  },
+  {
+   "source": "guggenheim_sackler_removed",
+   "target": "unesco_archipiélago_de_revillagigedo",
+   "type": "backscatter"
+  },
+  {
+   "source": "guggenheim_sackler_removed",
+   "target": "unesco_vegaøyan_–_the_vega_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "guggenheim_sackler_removed",
+   "target": "mok_dismissed_2023",
+   "type": "backscatter"
+  },
+  {
+   "source": "guggenheim_sackler_removed",
+   "target": "usa_v_mok_2020",
+   "type": "backscatter"
+  },
+  {
+   "source": "guggenheim_sackler_removed",
+   "target": "unesco_socotra_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "guggenheim_sackler_removed",
+   "target": "kevin_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "guggenheim_sackler_removed",
+   "target": "article_wider_chipmunk_mysteries",
+   "type": "backscatter"
+  },
+  {
+   "source": "guggenheim_sackler_removed",
+   "target": "charles_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "analog_sacklers",
+   "target": "mok_charged_2020",
+   "type": "backscatter"
+  },
+  {
+   "source": "analog_sacklers",
+   "target": "allure_26_clinics",
+   "type": "backscatter"
+  },
+  {
+   "source": "analog_sacklers",
+   "target": "unesco_high_coast_/_kvarken_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "analog_sacklers",
+   "target": "usa_v_mok_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "analog_sacklers",
+   "target": "unesco_great_smoky_mountains_national_park",
+   "type": "backscatter"
+  },
+  {
+   "source": "analog_sacklers",
+   "target": "chipmunk_mysteries",
+   "type": "backscatter"
+  },
+  {
+   "source": "analog_sacklers",
+   "target": "mok_wound_care_quote",
+   "type": "backscatter"
+  },
+  {
+   "source": "analog_sacklers",
+   "target": "smoking_gun",
+   "type": "backscatter"
+  },
+  {
+   "source": "analog_sacklers",
+   "target": "chipmonk_boundary",
+   "type": "backscatter"
+  },
+  {
+   "source": "analog_sacklers",
+   "target": "mok_math",
+   "type": "backscatter"
+  },
+  {
+   "source": "analog_sacklers",
+   "target": "chip_to_monk",
+   "type": "backscatter"
+  },
+  {
+   "source": "analog_sacklers",
+   "target": "chip_nickname",
+   "type": "backscatter"
+  },
+  {
+   "source": "analog_sacklers",
+   "target": "chipmonk",
+   "type": "backscatter"
+  },
+  {
+   "source": "analog_sacklers",
+   "target": "allure_flat_leadership",
+   "type": "backscatter"
+  },
+  {
+   "source": "analog_sacklers",
+   "target": "chipomunk",
+   "type": "backscatter"
+  },
+  {
+   "source": "analog_sacklers",
+   "target": "unesco_papahānaumokuākea",
+   "type": "backscatter"
+  },
+  {
+   "source": "analog_sacklers",
+   "target": "allure_medical",
+   "type": "backscatter"
+  },
+  {
+   "source": "analog_sacklers",
+   "target": "origin_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "analog_sacklers",
+   "target": "mok_recharged_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "analog_sacklers",
+   "target": "deaths_vs_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "analog_sacklers",
+   "target": "allure_304k_procedures",
+   "type": "backscatter"
+  },
+  {
+   "source": "analog_sacklers",
+   "target": "unesco_archipiélago_de_revillagigedo",
+   "type": "backscatter"
+  },
+  {
+   "source": "analog_sacklers",
+   "target": "unesco_vegaøyan_–_the_vega_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "analog_sacklers",
+   "target": "mok_dismissed_2023",
+   "type": "backscatter"
+  },
+  {
+   "source": "analog_sacklers",
+   "target": "usa_v_mok_2020",
+   "type": "backscatter"
+  },
+  {
+   "source": "analog_sacklers",
+   "target": "unesco_socotra_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "analog_sacklers",
+   "target": "article_wider_chipmunk_mysteries",
+   "type": "backscatter"
+  },
+  {
+   "source": "analog_sacklers",
+   "target": "charles_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_fda",
+   "target": "mok_charged_2020",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_fda",
+   "target": "allure_26_clinics",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_fda",
+   "target": "unesco_high_coast_/_kvarken_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_fda",
+   "target": "usa_v_mok_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_fda",
+   "target": "unesco_great_smoky_mountains_national_park",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_fda",
+   "target": "chipmunk_mysteries",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_fda",
+   "target": "mok_wound_care_quote",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_fda",
+   "target": "smoking_gun",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_fda",
+   "target": "chipmonk_boundary",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_fda",
+   "target": "mok_math",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_fda",
+   "target": "chip_to_monk",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_fda",
+   "target": "chip_nickname",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_fda",
+   "target": "chipmonk",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_fda",
+   "target": "allure_flat_leadership",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_fda",
+   "target": "chipomunk",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_fda",
+   "target": "unesco_papahānaumokuākea",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_fda",
+   "target": "allure_medical",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_fda",
+   "target": "origin_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_fda",
+   "target": "mok_recharged_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_fda",
+   "target": "deaths_vs_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_fda",
+   "target": "allure_304k_procedures",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_fda",
+   "target": "unesco_archipiélago_de_revillagigedo",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_fda",
+   "target": "unesco_vegaøyan_–_the_vega_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_fda",
+   "target": "mok_dismissed_2023",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_fda",
+   "target": "usa_v_mok_2020",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_fda",
+   "target": "unesco_socotra_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_fda",
+   "target": "kevin_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_fda",
+   "target": "article_wider_chipmunk_mysteries",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_fda",
+   "target": "charles_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_richard_s",
+   "target": "mok_charged_2020",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_richard_s",
+   "target": "allure_26_clinics",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_richard_s",
+   "target": "unesco_high_coast_/_kvarken_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_richard_s",
+   "target": "usa_v_mok_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_richard_s",
+   "target": "unesco_great_smoky_mountains_national_park",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_richard_s",
+   "target": "chipmunk_mysteries",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_richard_s",
+   "target": "mok_wound_care_quote",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_richard_s",
+   "target": "smoking_gun",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_richard_s",
+   "target": "chipmonk_boundary",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_richard_s",
+   "target": "mok_math",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_richard_s",
+   "target": "chip_to_monk",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_richard_s",
+   "target": "chip_nickname",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_richard_s",
+   "target": "chipmonk",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_richard_s",
+   "target": "allure_flat_leadership",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_richard_s",
+   "target": "chipomunk",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_richard_s",
+   "target": "unesco_papahānaumokuākea",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_richard_s",
+   "target": "allure_medical",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_richard_s",
+   "target": "origin_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_richard_s",
+   "target": "mok_recharged_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_richard_s",
+   "target": "deaths_vs_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_richard_s",
+   "target": "allure_304k_procedures",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_richard_s",
+   "target": "unesco_archipiélago_de_revillagigedo",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_richard_s",
+   "target": "unesco_vegaøyan_–_the_vega_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_richard_s",
+   "target": "mok_dismissed_2023",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_richard_s",
+   "target": "usa_v_mok_2020",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_richard_s",
+   "target": "unesco_socotra_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_richard_s",
+   "target": "kevin_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_richard_s",
+   "target": "article_wider_chipmunk_mysteries",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_richard_s",
+   "target": "charles_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "purdue_pharma_sacklers",
+   "target": "mok_charged_2020",
+   "type": "backscatter"
+  },
+  {
+   "source": "purdue_pharma_sacklers",
+   "target": "allure_26_clinics",
+   "type": "backscatter"
+  },
+  {
+   "source": "purdue_pharma_sacklers",
+   "target": "unesco_high_coast_/_kvarken_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "purdue_pharma_sacklers",
+   "target": "usa_v_mok_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "purdue_pharma_sacklers",
+   "target": "unesco_great_smoky_mountains_national_park",
+   "type": "backscatter"
+  },
+  {
+   "source": "purdue_pharma_sacklers",
+   "target": "chipmunk_mysteries",
+   "type": "backscatter"
+  },
+  {
+   "source": "purdue_pharma_sacklers",
+   "target": "mok_wound_care_quote",
+   "type": "backscatter"
+  },
+  {
+   "source": "purdue_pharma_sacklers",
+   "target": "smoking_gun",
+   "type": "backscatter"
+  },
+  {
+   "source": "purdue_pharma_sacklers",
+   "target": "chipmonk_boundary",
+   "type": "backscatter"
+  },
+  {
+   "source": "purdue_pharma_sacklers",
+   "target": "mok_math",
+   "type": "backscatter"
+  },
+  {
+   "source": "purdue_pharma_sacklers",
+   "target": "chip_to_monk",
+   "type": "backscatter"
+  },
+  {
+   "source": "purdue_pharma_sacklers",
+   "target": "chip_nickname",
+   "type": "backscatter"
+  },
+  {
+   "source": "purdue_pharma_sacklers",
+   "target": "chipmonk",
+   "type": "backscatter"
+  },
+  {
+   "source": "purdue_pharma_sacklers",
+   "target": "allure_flat_leadership",
+   "type": "backscatter"
+  },
+  {
+   "source": "purdue_pharma_sacklers",
+   "target": "chipomunk",
+   "type": "backscatter"
+  },
+  {
+   "source": "purdue_pharma_sacklers",
+   "target": "unesco_papahānaumokuākea",
+   "type": "backscatter"
+  },
+  {
+   "source": "purdue_pharma_sacklers",
+   "target": "allure_medical",
+   "type": "backscatter"
+  },
+  {
+   "source": "purdue_pharma_sacklers",
+   "target": "origin_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "purdue_pharma_sacklers",
+   "target": "mok_recharged_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "purdue_pharma_sacklers",
+   "target": "deaths_vs_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "purdue_pharma_sacklers",
+   "target": "allure_304k_procedures",
+   "type": "backscatter"
+  },
+  {
+   "source": "purdue_pharma_sacklers",
+   "target": "unesco_archipiélago_de_revillagigedo",
+   "type": "backscatter"
+  },
+  {
+   "source": "purdue_pharma_sacklers",
+   "target": "unesco_vegaøyan_–_the_vega_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "purdue_pharma_sacklers",
+   "target": "mok_dismissed_2023",
+   "type": "backscatter"
+  },
+  {
+   "source": "purdue_pharma_sacklers",
+   "target": "usa_v_mok_2020",
+   "type": "backscatter"
+  },
+  {
+   "source": "purdue_pharma_sacklers",
+   "target": "unesco_socotra_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "purdue_pharma_sacklers",
+   "target": "kevin_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "purdue_pharma_sacklers",
+   "target": "article_wider_chipmunk_mysteries",
+   "type": "backscatter"
+  },
+  {
+   "source": "purdue_pharma_sacklers",
+   "target": "charles_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer_da",
+   "target": "mok_charged_2020",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer_da",
+   "target": "allure_26_clinics",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer_da",
+   "target": "unesco_high_coast_/_kvarken_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer_da",
+   "target": "usa_v_mok_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer_da",
+   "target": "unesco_great_smoky_mountains_national_park",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer_da",
+   "target": "chipmunk_mysteries",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer_da",
+   "target": "mok_wound_care_quote",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer_da",
+   "target": "smoking_gun",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer_da",
+   "target": "chipmonk_boundary",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer_da",
+   "target": "mok_math",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer_da",
+   "target": "chip_to_monk",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer_da",
+   "target": "chip_nickname",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer_da",
+   "target": "chipmonk",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer_da",
+   "target": "allure_flat_leadership",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer_da",
+   "target": "chipomunk",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer_da",
+   "target": "unesco_papahānaumokuākea",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer_da",
+   "target": "allure_medical",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer_da",
+   "target": "origin_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer_da",
+   "target": "mok_recharged_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer_da",
+   "target": "deaths_vs_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer_da",
+   "target": "allure_304k_procedures",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer_da",
+   "target": "unesco_archipiélago_de_revillagigedo",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer_da",
+   "target": "unesco_vegaøyan_–_the_vega_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer_da",
+   "target": "mok_dismissed_2023",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer_da",
+   "target": "usa_v_mok_2020",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer_da",
+   "target": "unesco_socotra_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer_da",
+   "target": "kevin_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer_da",
+   "target": "article_wider_chipmunk_mysteries",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_mortimer_da",
+   "target": "charles_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_miles",
+   "target": "mok_charged_2020",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_miles",
+   "target": "allure_26_clinics",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_miles",
+   "target": "unesco_high_coast_/_kvarken_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_miles",
+   "target": "usa_v_mok_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_miles",
+   "target": "unesco_great_smoky_mountains_national_park",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_miles",
+   "target": "chipmunk_mysteries",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_miles",
+   "target": "mok_wound_care_quote",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_miles",
+   "target": "smoking_gun",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_miles",
+   "target": "chipmonk_boundary",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_miles",
+   "target": "mok_math",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_miles",
+   "target": "chip_to_monk",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_miles",
+   "target": "chip_nickname",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_miles",
+   "target": "chipmonk",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_miles",
+   "target": "allure_flat_leadership",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_miles",
+   "target": "chipomunk",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_miles",
+   "target": "unesco_papahānaumokuākea",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_miles",
+   "target": "allure_medical",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_miles",
+   "target": "origin_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_miles",
+   "target": "mok_recharged_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_miles",
+   "target": "deaths_vs_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_miles",
+   "target": "allure_304k_procedures",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_miles",
+   "target": "unesco_archipiélago_de_revillagigedo",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_miles",
+   "target": "unesco_vegaøyan_–_the_vega_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_miles",
+   "target": "mok_dismissed_2023",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_miles",
+   "target": "usa_v_mok_2020",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_miles",
+   "target": "unesco_socotra_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_miles",
+   "target": "kevin_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_miles",
+   "target": "article_wider_chipmunk_mysteries",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_miles",
+   "target": "charles_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "deaths_per_sackler_dollar",
+   "target": "mok_charged_2020",
+   "type": "backscatter"
+  },
+  {
+   "source": "deaths_per_sackler_dollar",
+   "target": "allure_26_clinics",
+   "type": "backscatter"
+  },
+  {
+   "source": "deaths_per_sackler_dollar",
+   "target": "unesco_high_coast_/_kvarken_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "deaths_per_sackler_dollar",
+   "target": "usa_v_mok_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "deaths_per_sackler_dollar",
+   "target": "unesco_great_smoky_mountains_national_park",
+   "type": "backscatter"
+  },
+  {
+   "source": "deaths_per_sackler_dollar",
+   "target": "chipmunk_mysteries",
+   "type": "backscatter"
+  },
+  {
+   "source": "deaths_per_sackler_dollar",
+   "target": "mok_wound_care_quote",
+   "type": "backscatter"
+  },
+  {
+   "source": "deaths_per_sackler_dollar",
+   "target": "smoking_gun",
+   "type": "backscatter"
+  },
+  {
+   "source": "deaths_per_sackler_dollar",
+   "target": "chipmonk_boundary",
+   "type": "backscatter"
+  },
+  {
+   "source": "deaths_per_sackler_dollar",
+   "target": "mok_math",
+   "type": "backscatter"
+  },
+  {
+   "source": "deaths_per_sackler_dollar",
+   "target": "chip_to_monk",
+   "type": "backscatter"
+  },
+  {
+   "source": "deaths_per_sackler_dollar",
+   "target": "chip_nickname",
+   "type": "backscatter"
+  },
+  {
+   "source": "deaths_per_sackler_dollar",
+   "target": "chipmonk",
+   "type": "backscatter"
+  },
+  {
+   "source": "deaths_per_sackler_dollar",
+   "target": "allure_flat_leadership",
+   "type": "backscatter"
+  },
+  {
+   "source": "deaths_per_sackler_dollar",
+   "target": "chipomunk",
+   "type": "backscatter"
+  },
+  {
+   "source": "deaths_per_sackler_dollar",
+   "target": "unesco_papahānaumokuākea",
+   "type": "backscatter"
+  },
+  {
+   "source": "deaths_per_sackler_dollar",
+   "target": "allure_medical",
+   "type": "backscatter"
+  },
+  {
+   "source": "deaths_per_sackler_dollar",
+   "target": "origin_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "deaths_per_sackler_dollar",
+   "target": "mok_recharged_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "deaths_per_sackler_dollar",
+   "target": "deaths_vs_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "deaths_per_sackler_dollar",
+   "target": "allure_304k_procedures",
+   "type": "backscatter"
+  },
+  {
+   "source": "deaths_per_sackler_dollar",
+   "target": "unesco_archipiélago_de_revillagigedo",
+   "type": "backscatter"
+  },
+  {
+   "source": "deaths_per_sackler_dollar",
+   "target": "unesco_vegaøyan_–_the_vega_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "deaths_per_sackler_dollar",
+   "target": "mok_dismissed_2023",
+   "type": "backscatter"
+  },
+  {
+   "source": "deaths_per_sackler_dollar",
+   "target": "usa_v_mok_2020",
+   "type": "backscatter"
+  },
+  {
+   "source": "deaths_per_sackler_dollar",
+   "target": "unesco_socotra_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "deaths_per_sackler_dollar",
+   "target": "kevin_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "deaths_per_sackler_dollar",
+   "target": "article_wider_chipmunk_mysteries",
+   "type": "backscatter"
+  },
+  {
+   "source": "deaths_per_sackler_dollar",
+   "target": "charles_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_marissa",
+   "target": "mok_charged_2020",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_marissa",
+   "target": "allure_26_clinics",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_marissa",
+   "target": "unesco_high_coast_/_kvarken_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_marissa",
+   "target": "usa_v_mok_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_marissa",
+   "target": "unesco_great_smoky_mountains_national_park",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_marissa",
+   "target": "chipmunk_mysteries",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_marissa",
+   "target": "mok_wound_care_quote",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_marissa",
+   "target": "smoking_gun",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_marissa",
+   "target": "chipmonk_boundary",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_marissa",
+   "target": "mok_math",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_marissa",
+   "target": "chip_to_monk",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_marissa",
+   "target": "chip_nickname",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_marissa",
+   "target": "chipmonk",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_marissa",
+   "target": "allure_flat_leadership",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_marissa",
+   "target": "chipomunk",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_marissa",
+   "target": "unesco_papahānaumokuākea",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_marissa",
+   "target": "allure_medical",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_marissa",
+   "target": "origin_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_marissa",
+   "target": "mok_recharged_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_marissa",
+   "target": "deaths_vs_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_marissa",
+   "target": "allure_304k_procedures",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_marissa",
+   "target": "unesco_archipiélago_de_revillagigedo",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_marissa",
+   "target": "unesco_vegaøyan_–_the_vega_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_marissa",
+   "target": "mok_dismissed_2023",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_marissa",
+   "target": "usa_v_mok_2020",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_marissa",
+   "target": "unesco_socotra_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_marissa",
+   "target": "kevin_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_marissa",
+   "target": "article_wider_chipmunk_mysteries",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_marissa",
+   "target": "charles_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_kathe",
+   "target": "mok_charged_2020",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_kathe",
+   "target": "allure_26_clinics",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_kathe",
+   "target": "unesco_high_coast_/_kvarken_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_kathe",
+   "target": "usa_v_mok_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_kathe",
+   "target": "unesco_great_smoky_mountains_national_park",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_kathe",
+   "target": "chipmunk_mysteries",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_kathe",
+   "target": "mok_wound_care_quote",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_kathe",
+   "target": "smoking_gun",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_kathe",
+   "target": "chipmonk_boundary",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_kathe",
+   "target": "mok_math",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_kathe",
+   "target": "chip_to_monk",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_kathe",
+   "target": "chip_nickname",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_kathe",
+   "target": "chipmonk",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_kathe",
+   "target": "allure_flat_leadership",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_kathe",
+   "target": "chipomunk",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_kathe",
+   "target": "unesco_papahānaumokuākea",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_kathe",
+   "target": "allure_medical",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_kathe",
+   "target": "origin_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_kathe",
+   "target": "mok_recharged_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_kathe",
+   "target": "deaths_vs_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_kathe",
+   "target": "allure_304k_procedures",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_kathe",
+   "target": "unesco_archipiélago_de_revillagigedo",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_kathe",
+   "target": "unesco_vegaøyan_–_the_vega_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_kathe",
+   "target": "mok_dismissed_2023",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_kathe",
+   "target": "usa_v_mok_2020",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_kathe",
+   "target": "unesco_socotra_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_kathe",
+   "target": "kevin_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_kathe",
+   "target": "article_wider_chipmunk_mysteries",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_kathe",
+   "target": "charles_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_zero_prison",
+   "target": "mok_charged_2020",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_zero_prison",
+   "target": "allure_26_clinics",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_zero_prison",
+   "target": "unesco_high_coast_/_kvarken_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_zero_prison",
+   "target": "usa_v_mok_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_zero_prison",
+   "target": "unesco_great_smoky_mountains_national_park",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_zero_prison",
+   "target": "chipmunk_mysteries",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_zero_prison",
+   "target": "mok_wound_care_quote",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_zero_prison",
+   "target": "smoking_gun",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_zero_prison",
+   "target": "chipmonk_boundary",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_zero_prison",
+   "target": "mok_math",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_zero_prison",
+   "target": "chip_to_monk",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_zero_prison",
+   "target": "chip_nickname",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_zero_prison",
+   "target": "chipmonk",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_zero_prison",
+   "target": "allure_flat_leadership",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_zero_prison",
+   "target": "chipomunk",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_zero_prison",
+   "target": "unesco_papahānaumokuākea",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_zero_prison",
+   "target": "allure_medical",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_zero_prison",
+   "target": "origin_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_zero_prison",
+   "target": "mok_recharged_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_zero_prison",
+   "target": "deaths_vs_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_zero_prison",
+   "target": "allure_304k_procedures",
+   "type": "backscatter"
+  },
+  {
+   "source": "sackler_zero_prison",
+   "target": "unesco_archipiélago_de_revillagigedo",
+   "type": "backscatter"
+  },
+  {
+   "source": "parallel_banks_mok",
+   "target": "parallel_banks_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "parallel_banks_mok",
+   "target": "mok_charged_2020",
+   "type": "backscatter"
+  },
+  {
+   "source": "parallel_banks_mok",
+   "target": "allure_26_clinics",
+   "type": "backscatter"
+  },
+  {
+   "source": "parallel_banks_mok",
+   "target": "unesco_high_coast_/_kvarken_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "parallel_banks_mok",
+   "target": "usa_v_mok_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "parallel_banks_mok",
+   "target": "unesco_great_smoky_mountains_national_park",
+   "type": "backscatter"
+  },
+  {
+   "source": "parallel_banks_mok",
+   "target": "chipmunk_mysteries",
+   "type": "backscatter"
+  },
+  {
+   "source": "parallel_banks_mok",
+   "target": "mok_wound_care_quote",
+   "type": "backscatter"
+  },
+  {
+   "source": "parallel_banks_mok",
+   "target": "smoking_gun",
+   "type": "backscatter"
+  },
+  {
+   "source": "parallel_banks_mok",
+   "target": "chipmonk_boundary",
+   "type": "backscatter"
+  },
+  {
+   "source": "parallel_banks_mok",
+   "target": "mok_math",
+   "type": "backscatter"
+  },
+  {
+   "source": "parallel_banks_mok",
+   "target": "chip_to_monk",
+   "type": "backscatter"
+  },
+  {
+   "source": "parallel_banks_mok",
+   "target": "chip_nickname",
+   "type": "backscatter"
+  },
+  {
+   "source": "parallel_banks_mok",
+   "target": "chipmonk",
+   "type": "backscatter"
+  },
+  {
+   "source": "parallel_banks_mok",
+   "target": "allure_flat_leadership",
+   "type": "backscatter"
+  },
+  {
+   "source": "parallel_banks_mok",
+   "target": "chipomunk",
+   "type": "backscatter"
+  },
+  {
+   "source": "parallel_banks_mok",
+   "target": "unesco_papahānaumokuākea",
+   "type": "backscatter"
+  },
+  {
+   "source": "parallel_banks_mok",
+   "target": "allure_medical",
+   "type": "backscatter"
+  },
+  {
+   "source": "parallel_banks_mok",
+   "target": "origin_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "parallel_banks_mok",
+   "target": "mok_recharged_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "banksy",
+   "target": "parallel_banks_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "banksy",
+   "target": "mok_charged_2020",
+   "type": "backscatter"
+  },
+  {
+   "source": "banksy",
+   "target": "allure_26_clinics",
+   "type": "backscatter"
+  },
+  {
+   "source": "banksy",
+   "target": "unesco_high_coast_/_kvarken_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "banksy",
+   "target": "usa_v_mok_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "banksy",
+   "target": "unesco_great_smoky_mountains_national_park",
+   "type": "backscatter"
+  },
+  {
+   "source": "banksy",
+   "target": "chipmunk_mysteries",
+   "type": "backscatter"
+  },
+  {
+   "source": "banksy",
+   "target": "mok_wound_care_quote",
+   "type": "backscatter"
+  },
+  {
+   "source": "banksy",
+   "target": "smoking_gun",
+   "type": "backscatter"
+  },
+  {
+   "source": "banksy",
+   "target": "chipmonk_boundary",
+   "type": "backscatter"
+  },
+  {
+   "source": "banksy",
+   "target": "mok_math",
+   "type": "backscatter"
+  },
+  {
+   "source": "banksy",
+   "target": "chip_to_monk",
+   "type": "backscatter"
+  },
+  {
+   "source": "banksy",
+   "target": "chip_nickname",
+   "type": "backscatter"
+  },
+  {
+   "source": "banksy",
+   "target": "chipmonk",
+   "type": "backscatter"
+  },
+  {
+   "source": "banksy",
+   "target": "allure_flat_leadership",
+   "type": "backscatter"
+  },
+  {
+   "source": "banksy",
+   "target": "chipomunk",
+   "type": "backscatter"
+  },
+  {
+   "source": "banksy",
+   "target": "unesco_papahānaumokuākea",
+   "type": "backscatter"
+  },
+  {
+   "source": "banksy",
+   "target": "allure_medical",
+   "type": "backscatter"
+  },
+  {
+   "source": "banksy",
+   "target": "origin_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "banksy",
+   "target": "mok_recharged_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "banks_living_trust",
+   "target": "parallel_banks_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "banks_living_trust",
+   "target": "mok_charged_2020",
+   "type": "backscatter"
+  },
+  {
+   "source": "banks_living_trust",
+   "target": "allure_26_clinics",
+   "type": "backscatter"
+  },
+  {
+   "source": "banks_living_trust",
+   "target": "unesco_high_coast_/_kvarken_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "banks_living_trust",
+   "target": "usa_v_mok_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "banks_living_trust",
+   "target": "unesco_great_smoky_mountains_national_park",
+   "type": "backscatter"
+  },
+  {
+   "source": "banks_living_trust",
+   "target": "chipmunk_mysteries",
+   "type": "backscatter"
+  },
+  {
+   "source": "banks_living_trust",
+   "target": "mok_wound_care_quote",
+   "type": "backscatter"
+  },
+  {
+   "source": "banks_living_trust",
+   "target": "smoking_gun",
+   "type": "backscatter"
+  },
+  {
+   "source": "banks_living_trust",
+   "target": "chipmonk_boundary",
+   "type": "backscatter"
+  },
+  {
+   "source": "banks_living_trust",
+   "target": "mok_math",
+   "type": "backscatter"
+  },
+  {
+   "source": "banks_living_trust",
+   "target": "chip_to_monk",
+   "type": "backscatter"
+  },
+  {
+   "source": "banks_living_trust",
+   "target": "chip_nickname",
+   "type": "backscatter"
+  },
+  {
+   "source": "banks_living_trust",
+   "target": "chipmonk",
+   "type": "backscatter"
+  },
+  {
+   "source": "banks_living_trust",
+   "target": "allure_flat_leadership",
+   "type": "backscatter"
+  },
+  {
+   "source": "banks_living_trust",
+   "target": "chipomunk",
+   "type": "backscatter"
+  },
+  {
+   "source": "banks_living_trust",
+   "target": "unesco_papahānaumokuākea",
+   "type": "backscatter"
+  },
+  {
+   "source": "banks_living_trust",
+   "target": "allure_medical",
+   "type": "backscatter"
+  },
+  {
+   "source": "banks_living_trust",
+   "target": "origin_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "banks_living_trust",
+   "target": "mok_recharged_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_jump_voynich_banks",
+   "target": "parallel_banks_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_jump_voynich_banks",
+   "target": "mok_charged_2020",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_jump_voynich_banks",
+   "target": "allure_26_clinics",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_jump_voynich_banks",
+   "target": "unesco_high_coast_/_kvarken_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_jump_voynich_banks",
+   "target": "usa_v_mok_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_jump_voynich_banks",
+   "target": "unesco_great_smoky_mountains_national_park",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_jump_voynich_banks",
+   "target": "chipmunk_mysteries",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_jump_voynich_banks",
+   "target": "mok_wound_care_quote",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_jump_voynich_banks",
+   "target": "smoking_gun",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_jump_voynich_banks",
+   "target": "chipmonk_boundary",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_jump_voynich_banks",
+   "target": "mok_math",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_jump_voynich_banks",
+   "target": "chip_to_monk",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_jump_voynich_banks",
+   "target": "chip_nickname",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_jump_voynich_banks",
+   "target": "chipmonk",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_jump_voynich_banks",
+   "target": "allure_flat_leadership",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_jump_voynich_banks",
+   "target": "chipomunk",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_jump_voynich_banks",
+   "target": "unesco_papahānaumokuākea",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_jump_voynich_banks",
+   "target": "allure_medical",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_jump_voynich_banks",
+   "target": "origin_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_jump_voynich_banks",
+   "target": "mok_recharged_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_farthest_from_banks",
+   "target": "parallel_banks_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_farthest_from_banks",
+   "target": "mok_charged_2020",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_farthest_from_banks",
+   "target": "allure_26_clinics",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_farthest_from_banks",
+   "target": "unesco_high_coast_/_kvarken_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_farthest_from_banks",
+   "target": "usa_v_mok_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_farthest_from_banks",
+   "target": "unesco_great_smoky_mountains_national_park",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_farthest_from_banks",
+   "target": "chipmunk_mysteries",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_farthest_from_banks",
+   "target": "mok_wound_care_quote",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_farthest_from_banks",
+   "target": "smoking_gun",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_farthest_from_banks",
+   "target": "chipmonk_boundary",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_farthest_from_banks",
+   "target": "mok_math",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_farthest_from_banks",
+   "target": "chip_to_monk",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_farthest_from_banks",
+   "target": "chip_nickname",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_farthest_from_banks",
+   "target": "chipmonk",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_farthest_from_banks",
+   "target": "allure_flat_leadership",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_farthest_from_banks",
+   "target": "chipomunk",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_farthest_from_banks",
+   "target": "unesco_papahānaumokuākea",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_farthest_from_banks",
+   "target": "allure_medical",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_farthest_from_banks",
+   "target": "origin_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_farthest_from_banks",
+   "target": "mok_recharged_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "unesco_paris_banks_of_the_seine",
+   "target": "parallel_banks_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "unesco_paris_banks_of_the_seine",
+   "target": "mok_charged_2020",
+   "type": "backscatter"
+  },
+  {
+   "source": "unesco_paris_banks_of_the_seine",
+   "target": "allure_26_clinics",
+   "type": "backscatter"
+  },
+  {
+   "source": "unesco_paris_banks_of_the_seine",
+   "target": "unesco_high_coast_/_kvarken_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "unesco_paris_banks_of_the_seine",
+   "target": "usa_v_mok_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "unesco_paris_banks_of_the_seine",
+   "target": "unesco_great_smoky_mountains_national_park",
+   "type": "backscatter"
+  },
+  {
+   "source": "unesco_paris_banks_of_the_seine",
+   "target": "chipmunk_mysteries",
+   "type": "backscatter"
+  },
+  {
+   "source": "unesco_paris_banks_of_the_seine",
+   "target": "mok_wound_care_quote",
+   "type": "backscatter"
+  },
+  {
+   "source": "unesco_paris_banks_of_the_seine",
+   "target": "smoking_gun",
+   "type": "backscatter"
+  },
+  {
+   "source": "unesco_paris_banks_of_the_seine",
+   "target": "chipmonk_boundary",
+   "type": "backscatter"
+  },
+  {
+   "source": "unesco_paris_banks_of_the_seine",
+   "target": "mok_math",
+   "type": "backscatter"
+  },
+  {
+   "source": "unesco_paris_banks_of_the_seine",
+   "target": "chip_to_monk",
+   "type": "backscatter"
+  },
+  {
+   "source": "unesco_paris_banks_of_the_seine",
+   "target": "chip_nickname",
+   "type": "backscatter"
+  },
+  {
+   "source": "unesco_paris_banks_of_the_seine",
+   "target": "chipmonk",
+   "type": "backscatter"
+  },
+  {
+   "source": "unesco_paris_banks_of_the_seine",
+   "target": "allure_flat_leadership",
+   "type": "backscatter"
+  },
+  {
+   "source": "unesco_paris_banks_of_the_seine",
+   "target": "chipomunk",
+   "type": "backscatter"
+  },
+  {
+   "source": "unesco_paris_banks_of_the_seine",
+   "target": "unesco_papahānaumokuākea",
+   "type": "backscatter"
+  },
+  {
+   "source": "unesco_paris_banks_of_the_seine",
+   "target": "allure_medical",
+   "type": "backscatter"
+  },
+  {
+   "source": "unesco_paris_banks_of_the_seine",
+   "target": "origin_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "unesco_paris_banks_of_the_seine",
+   "target": "mok_recharged_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "bmf_vs_banks",
+   "target": "parallel_banks_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "bmf_vs_banks",
+   "target": "mok_charged_2020",
+   "type": "backscatter"
+  },
+  {
+   "source": "bmf_vs_banks",
+   "target": "allure_26_clinics",
+   "type": "backscatter"
+  },
+  {
+   "source": "bmf_vs_banks",
+   "target": "unesco_high_coast_/_kvarken_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "bmf_vs_banks",
+   "target": "usa_v_mok_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "bmf_vs_banks",
+   "target": "unesco_great_smoky_mountains_national_park",
+   "type": "backscatter"
+  },
+  {
+   "source": "bmf_vs_banks",
+   "target": "chipmunk_mysteries",
+   "type": "backscatter"
+  },
+  {
+   "source": "bmf_vs_banks",
+   "target": "mok_wound_care_quote",
+   "type": "backscatter"
+  },
+  {
+   "source": "bmf_vs_banks",
+   "target": "smoking_gun",
+   "type": "backscatter"
+  },
+  {
+   "source": "bmf_vs_banks",
+   "target": "chipmonk_boundary",
+   "type": "backscatter"
+  },
+  {
+   "source": "bmf_vs_banks",
+   "target": "mok_math",
+   "type": "backscatter"
+  },
+  {
+   "source": "bmf_vs_banks",
+   "target": "chip_to_monk",
+   "type": "backscatter"
+  },
+  {
+   "source": "bmf_vs_banks",
+   "target": "chip_nickname",
+   "type": "backscatter"
+  },
+  {
+   "source": "bmf_vs_banks",
+   "target": "chipmonk",
+   "type": "backscatter"
+  },
+  {
+   "source": "bmf_vs_banks",
+   "target": "allure_flat_leadership",
+   "type": "backscatter"
+  },
+  {
+   "source": "bmf_vs_banks",
+   "target": "chipomunk",
+   "type": "backscatter"
+  },
+  {
+   "source": "bmf_vs_banks",
+   "target": "unesco_papahānaumokuākea",
+   "type": "backscatter"
+  },
+  {
+   "source": "bmf_vs_banks",
+   "target": "allure_medical",
+   "type": "backscatter"
+  },
+  {
+   "source": "bmf_vs_banks",
+   "target": "origin_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "bmf_vs_banks",
+   "target": "mok_recharged_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_nobel_vs_banks",
+   "target": "parallel_banks_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_nobel_vs_banks",
+   "target": "mok_charged_2020",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_nobel_vs_banks",
+   "target": "allure_26_clinics",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_nobel_vs_banks",
+   "target": "unesco_high_coast_/_kvarken_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_nobel_vs_banks",
+   "target": "usa_v_mok_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_nobel_vs_banks",
+   "target": "unesco_great_smoky_mountains_national_park",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_nobel_vs_banks",
+   "target": "chipmunk_mysteries",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_nobel_vs_banks",
+   "target": "mok_wound_care_quote",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_nobel_vs_banks",
+   "target": "smoking_gun",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_nobel_vs_banks",
+   "target": "chipmonk_boundary",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_nobel_vs_banks",
+   "target": "mok_math",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_nobel_vs_banks",
+   "target": "chip_to_monk",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_nobel_vs_banks",
+   "target": "chip_nickname",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_nobel_vs_banks",
+   "target": "chipmonk",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_nobel_vs_banks",
+   "target": "allure_flat_leadership",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_nobel_vs_banks",
+   "target": "chipomunk",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_nobel_vs_banks",
+   "target": "unesco_papahānaumokuākea",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_nobel_vs_banks",
+   "target": "allure_medical",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_nobel_vs_banks",
+   "target": "origin_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_nobel_vs_banks",
+   "target": "mok_recharged_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "dede_banks",
+   "target": "parallel_banks_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "dede_banks",
+   "target": "mok_charged_2020",
+   "type": "backscatter"
+  },
+  {
+   "source": "dede_banks",
+   "target": "allure_26_clinics",
+   "type": "backscatter"
+  },
+  {
+   "source": "dede_banks",
+   "target": "unesco_high_coast_/_kvarken_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "dede_banks",
+   "target": "usa_v_mok_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "dede_banks",
+   "target": "unesco_great_smoky_mountains_national_park",
+   "type": "backscatter"
+  },
+  {
+   "source": "dede_banks",
+   "target": "chipmunk_mysteries",
+   "type": "backscatter"
+  },
+  {
+   "source": "dede_banks",
+   "target": "mok_wound_care_quote",
+   "type": "backscatter"
+  },
+  {
+   "source": "dede_banks",
+   "target": "smoking_gun",
+   "type": "backscatter"
+  },
+  {
+   "source": "dede_banks",
+   "target": "chipmonk_boundary",
+   "type": "backscatter"
+  },
+  {
+   "source": "dede_banks",
+   "target": "mok_math",
+   "type": "backscatter"
+  },
+  {
+   "source": "dede_banks",
+   "target": "chip_to_monk",
+   "type": "backscatter"
+  },
+  {
+   "source": "dede_banks",
+   "target": "chip_nickname",
+   "type": "backscatter"
+  },
+  {
+   "source": "dede_banks",
+   "target": "chipmonk",
+   "type": "backscatter"
+  },
+  {
+   "source": "dede_banks",
+   "target": "allure_flat_leadership",
+   "type": "backscatter"
+  },
+  {
+   "source": "dede_banks",
+   "target": "chipomunk",
+   "type": "backscatter"
+  },
+  {
+   "source": "dede_banks",
+   "target": "unesco_papahānaumokuākea",
+   "type": "backscatter"
+  },
+  {
+   "source": "dede_banks",
+   "target": "allure_medical",
+   "type": "backscatter"
+  },
+  {
+   "source": "dede_banks",
+   "target": "origin_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "dede_banks",
+   "target": "mok_recharged_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "carol_banks",
+   "target": "parallel_banks_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "carol_banks",
+   "target": "mok_charged_2020",
+   "type": "backscatter"
+  },
+  {
+   "source": "carol_banks",
+   "target": "allure_26_clinics",
+   "type": "backscatter"
+  },
+  {
+   "source": "carol_banks",
+   "target": "unesco_high_coast_/_kvarken_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "carol_banks",
+   "target": "usa_v_mok_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "carol_banks",
+   "target": "unesco_great_smoky_mountains_national_park",
+   "type": "backscatter"
+  },
+  {
+   "source": "carol_banks",
+   "target": "chipmunk_mysteries",
+   "type": "backscatter"
+  },
+  {
+   "source": "carol_banks",
+   "target": "mok_wound_care_quote",
+   "type": "backscatter"
+  },
+  {
+   "source": "carol_banks",
+   "target": "smoking_gun",
+   "type": "backscatter"
+  },
+  {
+   "source": "carol_banks",
+   "target": "chipmonk_boundary",
+   "type": "backscatter"
+  },
+  {
+   "source": "carol_banks",
+   "target": "mok_math",
+   "type": "backscatter"
+  },
+  {
+   "source": "carol_banks",
+   "target": "chip_to_monk",
+   "type": "backscatter"
+  },
+  {
+   "source": "carol_banks",
+   "target": "chip_nickname",
+   "type": "backscatter"
+  },
+  {
+   "source": "carol_banks",
+   "target": "chipmonk",
+   "type": "backscatter"
+  },
+  {
+   "source": "carol_banks",
+   "target": "allure_flat_leadership",
+   "type": "backscatter"
+  },
+  {
+   "source": "carol_banks",
+   "target": "chipomunk",
+   "type": "backscatter"
+  },
+  {
+   "source": "carol_banks",
+   "target": "unesco_papahānaumokuākea",
+   "type": "backscatter"
+  },
+  {
+   "source": "carol_banks",
+   "target": "allure_medical",
+   "type": "backscatter"
+  },
+  {
+   "source": "carol_banks",
+   "target": "origin_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "carol_banks",
+   "target": "mok_recharged_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "banks",
+   "target": "parallel_banks_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "banks",
+   "target": "mok_charged_2020",
+   "type": "backscatter"
+  },
+  {
+   "source": "banks",
+   "target": "allure_26_clinics",
+   "type": "backscatter"
+  },
+  {
+   "source": "banks",
+   "target": "usa_v_mok_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "banks",
+   "target": "mok_wound_care_quote",
+   "type": "backscatter"
+  },
+  {
+   "source": "banks",
+   "target": "chipmonk_boundary",
+   "type": "backscatter"
+  },
+  {
+   "source": "banks",
+   "target": "mok_math",
+   "type": "backscatter"
+  },
+  {
+   "source": "banks",
+   "target": "chip_to_monk",
+   "type": "backscatter"
+  },
+  {
+   "source": "banks",
+   "target": "chip_nickname",
+   "type": "backscatter"
+  },
+  {
+   "source": "banks",
+   "target": "chipmonk",
+   "type": "backscatter"
+  },
+  {
+   "source": "banks",
+   "target": "allure_flat_leadership",
+   "type": "backscatter"
+  },
+  {
+   "source": "banks",
+   "target": "allure_medical",
+   "type": "backscatter"
+  },
+  {
+   "source": "banks",
+   "target": "origin_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "banks",
+   "target": "mok_recharged_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_mantis_shrimp_vs_banks",
+   "target": "parallel_banks_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_mantis_shrimp_vs_banks",
+   "target": "mok_charged_2020",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_mantis_shrimp_vs_banks",
+   "target": "allure_26_clinics",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_mantis_shrimp_vs_banks",
+   "target": "unesco_high_coast_/_kvarken_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_mantis_shrimp_vs_banks",
+   "target": "usa_v_mok_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_mantis_shrimp_vs_banks",
+   "target": "unesco_great_smoky_mountains_national_park",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_mantis_shrimp_vs_banks",
+   "target": "mok_wound_care_quote",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_mantis_shrimp_vs_banks",
+   "target": "smoking_gun",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_mantis_shrimp_vs_banks",
+   "target": "chipmonk_boundary",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_mantis_shrimp_vs_banks",
+   "target": "mok_math",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_mantis_shrimp_vs_banks",
+   "target": "chip_to_monk",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_mantis_shrimp_vs_banks",
+   "target": "chip_nickname",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_mantis_shrimp_vs_banks",
+   "target": "chipmonk",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_mantis_shrimp_vs_banks",
+   "target": "allure_flat_leadership",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_mantis_shrimp_vs_banks",
+   "target": "unesco_papahānaumokuākea",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_mantis_shrimp_vs_banks",
+   "target": "allure_medical",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_mantis_shrimp_vs_banks",
+   "target": "origin_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_mantis_shrimp_vs_banks",
+   "target": "mok_recharged_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "lara_data_banks",
+   "target": "parallel_banks_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "lara_data_banks",
+   "target": "mok_charged_2020",
+   "type": "backscatter"
+  },
+  {
+   "source": "lara_data_banks",
+   "target": "allure_26_clinics",
+   "type": "backscatter"
+  },
+  {
+   "source": "lara_data_banks",
+   "target": "unesco_high_coast_/_kvarken_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "lara_data_banks",
+   "target": "usa_v_mok_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "lara_data_banks",
+   "target": "unesco_great_smoky_mountains_national_park",
+   "type": "backscatter"
+  },
+  {
+   "source": "lara_data_banks",
+   "target": "chipmunk_mysteries",
+   "type": "backscatter"
+  },
+  {
+   "source": "lara_data_banks",
+   "target": "mok_wound_care_quote",
+   "type": "backscatter"
+  },
+  {
+   "source": "lara_data_banks",
+   "target": "smoking_gun",
+   "type": "backscatter"
+  },
+  {
+   "source": "lara_data_banks",
+   "target": "chipmonk_boundary",
+   "type": "backscatter"
+  },
+  {
+   "source": "lara_data_banks",
+   "target": "mok_math",
+   "type": "backscatter"
+  },
+  {
+   "source": "lara_data_banks",
+   "target": "chip_to_monk",
+   "type": "backscatter"
+  },
+  {
+   "source": "lara_data_banks",
+   "target": "chip_nickname",
+   "type": "backscatter"
+  },
+  {
+   "source": "lara_data_banks",
+   "target": "chipmonk",
+   "type": "backscatter"
+  },
+  {
+   "source": "lara_data_banks",
+   "target": "allure_flat_leadership",
+   "type": "backscatter"
+  },
+  {
+   "source": "lara_data_banks",
+   "target": "chipomunk",
+   "type": "backscatter"
+  },
+  {
+   "source": "lara_data_banks",
+   "target": "unesco_papahānaumokuākea",
+   "type": "backscatter"
+  },
+  {
+   "source": "lara_data_banks",
+   "target": "allure_medical",
+   "type": "backscatter"
+  },
+  {
+   "source": "lara_data_banks",
+   "target": "origin_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "lara_data_banks",
+   "target": "mok_recharged_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_euler_vs_banks",
+   "target": "parallel_banks_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_euler_vs_banks",
+   "target": "mok_charged_2020",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_euler_vs_banks",
+   "target": "allure_26_clinics",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_euler_vs_banks",
+   "target": "unesco_high_coast_/_kvarken_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_euler_vs_banks",
+   "target": "usa_v_mok_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_euler_vs_banks",
+   "target": "unesco_great_smoky_mountains_national_park",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_euler_vs_banks",
+   "target": "chipmunk_mysteries",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_euler_vs_banks",
+   "target": "mok_wound_care_quote",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_euler_vs_banks",
+   "target": "smoking_gun",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_euler_vs_banks",
+   "target": "chipmonk_boundary",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_euler_vs_banks",
+   "target": "mok_math",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_euler_vs_banks",
+   "target": "chip_to_monk",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_euler_vs_banks",
+   "target": "chip_nickname",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_euler_vs_banks",
+   "target": "chipmonk",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_euler_vs_banks",
+   "target": "allure_flat_leadership",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_euler_vs_banks",
+   "target": "chipomunk",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_euler_vs_banks",
+   "target": "unesco_papahānaumokuākea",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_euler_vs_banks",
+   "target": "allure_medical",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_euler_vs_banks",
+   "target": "origin_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "article_euler_vs_banks",
+   "target": "mok_recharged_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "banks_little_girl_phone",
+   "target": "parallel_banks_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "banks_little_girl_phone",
+   "target": "mok_charged_2020",
+   "type": "backscatter"
+  },
+  {
+   "source": "banks_little_girl_phone",
+   "target": "allure_26_clinics",
+   "type": "backscatter"
+  },
+  {
+   "source": "banks_little_girl_phone",
+   "target": "unesco_high_coast_/_kvarken_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "banks_little_girl_phone",
+   "target": "usa_v_mok_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "banks_little_girl_phone",
+   "target": "unesco_great_smoky_mountains_national_park",
+   "type": "backscatter"
+  },
+  {
+   "source": "banks_little_girl_phone",
+   "target": "chipmunk_mysteries",
+   "type": "backscatter"
+  },
+  {
+   "source": "banks_little_girl_phone",
+   "target": "mok_wound_care_quote",
+   "type": "backscatter"
+  },
+  {
+   "source": "banks_little_girl_phone",
+   "target": "smoking_gun",
+   "type": "backscatter"
+  },
+  {
+   "source": "banks_little_girl_phone",
+   "target": "chipmonk_boundary",
+   "type": "backscatter"
+  },
+  {
+   "source": "banks_little_girl_phone",
+   "target": "mok_math",
+   "type": "backscatter"
+  },
+  {
+   "source": "banks_little_girl_phone",
+   "target": "chip_to_monk",
+   "type": "backscatter"
+  },
+  {
+   "source": "banks_little_girl_phone",
+   "target": "chip_nickname",
+   "type": "backscatter"
+  },
+  {
+   "source": "banks_little_girl_phone",
+   "target": "chipmonk",
+   "type": "backscatter"
+  },
+  {
+   "source": "banks_little_girl_phone",
+   "target": "allure_flat_leadership",
+   "type": "backscatter"
+  },
+  {
+   "source": "banks_little_girl_phone",
+   "target": "chipomunk",
+   "type": "backscatter"
+  },
+  {
+   "source": "banks_little_girl_phone",
+   "target": "unesco_papahānaumokuākea",
+   "type": "backscatter"
+  },
+  {
+   "source": "banks_little_girl_phone",
+   "target": "allure_medical",
+   "type": "backscatter"
+  },
+  {
+   "source": "banks_little_girl_phone",
+   "target": "origin_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "banks_little_girl_phone",
+   "target": "mok_recharged_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "fun_six_degrees_banks",
+   "target": "parallel_banks_mok",
+   "type": "backscatter"
+  },
+  {
+   "source": "fun_six_degrees_banks",
+   "target": "mok_charged_2020",
+   "type": "backscatter"
+  },
+  {
+   "source": "fun_six_degrees_banks",
+   "target": "allure_26_clinics",
+   "type": "backscatter"
+  },
+  {
+   "source": "fun_six_degrees_banks",
+   "target": "unesco_high_coast_/_kvarken_archipelago",
+   "type": "backscatter"
+  },
+  {
+   "source": "fun_six_degrees_banks",
+   "target": "usa_v_mok_2025",
+   "type": "backscatter"
+  },
+  {
+   "source": "fun_six_degrees_banks",
+   "target": "unesco_great_smoky_mountains_national_park",
+   "type": "backscatter"
+  },
+  {
+   "source": "fun_six_degrees_banks",
+   "target": "chipmunk_mysteries",
+   "type": "backscatter"
+  },
+  {
+   "source": "fun_six_degrees_banks",
+   "target": "mok_wound_care_quote",
+   "type": "backscatter"
+  },
+  {
+   "source": "fun_six_degrees_banks",
+   "target": "smoking_gun",
+   "type": "backscatter"
+  },
+  {
+   "source": "root_profit_over_people",
+   "target": "origin_convergence",
+   "type": "underlies"
+  },
+  {
+   "source": "root_regulatory_capture",
+   "target": "origin_convergence",
+   "type": "underlies"
+  },
+  {
+   "source": "root_information_asymmetry",
+   "target": "origin_convergence",
+   "type": "underlies"
+  },
+  {
+   "source": "root_accountability_inversion",
+   "target": "origin_convergence",
+   "type": "underlies"
+  },
+  {
+   "source": "root_regulatory_capture",
+   "target": "curtis_wright_fda",
+   "type": "exemplified_by"
+  },
+  {
+   "source": "root_regulatory_capture",
+   "target": "dykema_gossett",
+   "type": "exemplified_by"
+  },
+  {
+   "source": "root_regulatory_capture",
+   "target": "dpscd",
+   "type": "exemplified_by"
+  },
+  {
+   "source": "root_information_asymmetry",
+   "target": "venous_ulcer_patients",
+   "type": "exploits"
+  },
+  {
+   "source": "root_information_asymmetry",
+   "target": "oxycontin_gateway",
+   "type": "exploits"
+  },
+  {
+   "source": "root_accountability_inversion",
+   "target": "sackler_zero_prison",
+   "type": "proven_by"
+  },
+  {
+   "source": "root_accountability_inversion",
+   "target": "punishment_medicare_ban",
+   "type": "proven_by"
+  },
+  {
+   "source": "root_accountability_inversion",
+   "target": "banks_brian",
+   "type": "proven_by"
+  },
+  {
+   "source": "graph_corrects",
+   "target": "root_information_asymmetry",
+   "type": "corrects"
+  },
+  {
+   "source": "graph_corrects",
+   "target": "graph_json",
+   "type": "implemented_as"
+  },
+  {
+   "source": "chipmonk",
+   "target": "graph_corrects",
+   "type": "built"
+  },
+  {
+   "source": "origin_convergence",
+   "target": "h1_credential",
+   "type": "validated_by"
+  },
+  {
+   "source": "origin_convergence",
+   "target": "h2_rico",
+   "type": "validated_by"
+  },
+  {
+   "source": "origin_convergence",
+   "target": "h3_pipeline",
+   "type": "validated_by"
+  },
+  {
+   "source": "origin_convergence",
+   "target": "h4_capture",
+   "type": "validated_by"
+  },
+  {
+   "source": "origin_convergence",
+   "target": "h5_dark_money",
+   "type": "validated_by"
+  },
+  {
+   "source": "origin_convergence",
+   "target": "h6_authorizer",
+   "type": "validated_by"
+  },
+  {
+   "source": "origin_convergence",
+   "target": "h7_cost",
+   "type": "validated_by"
+  },
+  {
+   "source": "origin_convergence",
+   "target": "h8_mobius",
+   "type": "validated_by"
+  },
+  {
+   "source": "origin_convergence",
+   "target": "h9_intelligence",
+   "type": "validated_by"
+  },
+  {
+   "source": "per_unit_comparison",
+   "target": "origin_convergence",
+   "type": "supports"
+  },
+  {
+   "source": "cost_table_final",
+   "target": "origin_convergence",
+   "type": "supports"
+  },
+  {
+   "source": "three_way_contrast",
+   "target": "origin_convergence",
+   "type": "supports"
+  },
+  {
+   "source": "harm_comparison",
+   "target": "origin_convergence",
+   "type": "supports"
+  },
+  {
+   "source": "shake_question",
+   "target": "origin_convergence",
+   "type": "supports"
+  },
+  {
+   "source": "primal_defense",
+   "target": "origin_convergence",
+   "type": "supports"
+  },
+  {
+   "source": "scatter_304k",
+   "target": "origin_convergence",
+   "type": "supports"
   }
  ]
 }
