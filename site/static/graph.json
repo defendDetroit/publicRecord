@@ -87711,6 +87711,157 @@
     "membrane",
     "welcome"
    ]
+  },
+  {
+   "id": "infra-golgiBody",
+   "label": "golgiBody — DigitalOcean VPS (157.230.x.x) Inner Membrane",
+   "class": "infrastructure",
+   "tags": [
+    "vps",
+    "membrane",
+    "deploy"
+   ]
+  },
+  {
+   "id": "infra-eastGate",
+   "label": "eastGate — Orchestrator Hub (i9-12900, RTX 4070, Akida)",
+   "class": "infrastructure",
+   "tags": [
+    "gate",
+    "coordination",
+    "local"
+   ]
+  },
+  {
+   "id": "infra-sporeGate",
+   "label": "sporeGate — Federation Node",
+   "class": "infrastructure",
+   "tags": [
+    "gate",
+    "local"
+   ]
+  },
+  {
+   "id": "infra-wireguard",
+   "label": "WireGuard Mesh — 10.13.37.0/24 (6 peers, 1 stale)",
+   "class": "infrastructure",
+   "tags": [
+    "networking",
+    "mesh"
+   ]
+  },
+  {
+   "id": "infra-github-pages",
+   "label": "GitHub Pages — defenddetroit.github.io (instant deploy, always current)",
+   "class": "infrastructure",
+   "tags": [
+    "deploy",
+    "reliable"
+   ]
+  },
+  {
+   "id": "infra-forgejo",
+   "label": "Forgejo — git.primals.eco (git push works, API 404)",
+   "class": "infrastructure",
+   "tags": [
+    "forge",
+    "git"
+   ]
+  },
+  {
+   "id": "infra-caddy",
+   "label": "Caddy — Wildcard *.primals.eco TLS termination, 29 domains",
+   "class": "infrastructure",
+   "tags": [
+    "tls",
+    "routing"
+   ]
+  },
+  {
+   "id": "infra-skunky",
+   "label": "skunky-ingest — Immune system (scatter server, bloom emitter, membrane stack)",
+   "class": "infrastructure",
+   "tags": [
+    "immune",
+    "defense"
+   ]
+  },
+  {
+   "id": "infra-songbird-mesh",
+   "label": "Songbird Mesh — 2 peers (sporeGate + house-gate-a), 20 capabilities",
+   "class": "infrastructure",
+   "tags": [
+    "mesh",
+    "federation"
+   ]
+  },
+  {
+   "id": "issue-ssh-locked",
+   "label": "ISSUE: SSH Access Locked to golgiBody\n\nOnly SSH key is id_ed25519_github, authorized on GitHub but NOT on VPS.\nCannot SSH into golgiBody. Cannot inspect logs, restart services, check cron.\n\nWORKAROUND: GitHub Pages provides instant deploy. VPS cron-pulls from GitHub.\nSTATUS: OPEN — need DigitalOcean console or new key generation.",
+   "class": "issue",
+   "tags": [
+    "vps",
+    "ssh",
+    "blocked"
+   ]
+  },
+  {
+   "id": "issue-vps-lag",
+   "label": "ISSUE: VPS Graph 36+ Hours Behind\n\ndetroit.primals.eco serves 7,554/131,329 while local/GitHub Pages has 8,832/163,000.\nVPS cron pull frequency unknown (can't check without SSH).\nGap: 1,278 nodes / 31,671 edges behind.\n\nWORKAROUND: GitHub Pages is always current. Use that URL in communications.\nSTATUS: OPEN — will resolve when SSH restored and cron increased to 15min.",
+   "class": "issue",
+   "tags": [
+    "vps",
+    "lag",
+    "deploy"
+   ]
+  },
+  {
+   "id": "issue-forgejo-api",
+   "label": "ISSUE: Forgejo API Returns 404\n\ngit.primals.eco/api/v1/* returns 404. Git push over HTTPS works fine.\nAPI likely disabled in app.ini. Low priority.\n\nSTATUS: OPEN — need SSH to check app.ini.",
+   "class": "issue",
+   "tags": [
+    "forgejo",
+    "api"
+   ]
+  },
+  {
+   "id": "issue-wg-stale",
+   "label": "ISSUE: WireGuard eastGate Peer STALE (21h57m+)\n\neastGate's WireGuard tunnel to golgiBody is not maintaining keepalives.\nHas been stale since at least Oct 10. Tunnel is vestigial — not needed\nfor current deploy architecture (GitHub Pages + git push).\n\nRESOLUTION: Detach eastGate and sporeGate from WireGuard mesh.\nLet golgiBody float independently in the cloud.",
+   "class": "issue",
+   "tags": [
+    "wireguard",
+    "stale",
+    "networking"
+   ]
+  },
+  {
+   "id": "issue-skunky-divergence",
+   "label": "ISSUE: skunky-ingest Source Divergence (P0 from Wave 172c)\n\nDeployed binary on golgiBody has --membrane-stack and --squirrel-announce\nCLI flags that don't exist in local git source. Blocks redeployment.\nBlocks retiring Python aperture-ask.py stopgap.\nBlocks deploying Rust /can-serve and /aperture-resolve endpoints.\n\nSTATUS: OPEN — need to sync local main.rs with deployed, rebuild, redeploy.",
+   "class": "issue",
+   "tags": [
+    "skunky",
+    "divergence",
+    "blocked"
+   ]
+  },
+  {
+   "id": "plan-wg-detach",
+   "label": "PLAN: WireGuard Detachment — eastGate + sporeGate Float golgiBody\n\nWHY: GitHub Pages provides instant deploy. Git push works over HTTPS.\neastGate WG peer already stale. WireGuard tunnel is vestigial.\n\nSTEPS:\n1. eastGate: sudo wg set wg0 peer <golgiBody_pubkey> remove\n2. sporeGate: same\n3. golgiBody (when SSH restored): remove local gate peers\n4. Keep: golgiBody <-> golgiLayerLinode, golgiBody <-> nucleus\n\nRESULT: golgiBody floats independently. Cron-pulls from GitHub.\nServes detroit.primals.eco. Runs immune system. No WG dependency on local gates.\n\nDEPLOY FLOW:\n  Local -> git push -> GitHub -> GitHub Actions -> GitHub Pages (instant)\n  Local -> git push -> GitHub -> golgiBody cron pull -> detroit.primals.eco (lag)",
+   "class": "plan",
+   "tags": [
+    "wireguard",
+    "detach",
+    "architecture"
+   ]
+  },
+  {
+   "id": "deploy-architecture-oct14",
+   "label": "DEPLOY ARCHITECTURE (Oct 14, 2026)\n\nRELIABLE PATH (instant, 20 seconds):\n  git push github main -> GitHub Actions -> GitHub Pages\n  URL: defenddetroit.github.io/publicRecord/graph.json\n  STATUS: ALWAYS CURRENT\n\nLAGGING PATH (cron, hours behind):\n  git push github main -> golgiBody cron pull -> detroit.primals.eco\n  URL: detroit.primals.eco/graph.json\n  STATUS: 36+ HOURS BEHIND (7,554/131,329 vs 8,832/163,000)\n\nFORGEJO PATH (works, no CI):\n  git push origin main -> git.primals.eco/publicRecord/detroit\n  STATUS: PUSH WORKS, API 404\n\nRECOMMENDATION:\n  Use GitHub Pages URL in all public communications until VPS SSH restored.\n  GitHub Pages = primary. detroit.primals.eco = secondary (catches up via cron).",
+   "class": "architecture",
+   "tags": [
+    "deploy",
+    "infrastructure"
+   ]
   }
  ],
  "edges": [
@@ -902713,6 +902864,176 @@
    "source": "beacon",
    "target": "story-kingdom-builders",
    "type": "introduces"
+  },
+  {
+   "source": "infra-golgiBody",
+   "target": "infra-wireguard",
+   "type": "connected_via"
+  },
+  {
+   "source": "infra-eastGate",
+   "target": "infra-wireguard",
+   "type": "connected_via"
+  },
+  {
+   "source": "infra-sporeGate",
+   "target": "infra-wireguard",
+   "type": "connected_via"
+  },
+  {
+   "source": "infra-golgiBody",
+   "target": "infra-caddy",
+   "type": "runs"
+  },
+  {
+   "source": "infra-golgiBody",
+   "target": "infra-skunky",
+   "type": "runs"
+  },
+  {
+   "source": "infra-golgiBody",
+   "target": "infra-forgejo",
+   "type": "runs"
+  },
+  {
+   "source": "infra-golgiBody",
+   "target": "infra-songbird-mesh",
+   "type": "runs"
+  },
+  {
+   "source": "infra-github-pages",
+   "target": "ecoprimal",
+   "type": "deploys_for"
+  },
+  {
+   "source": "issue-ssh-locked",
+   "target": "infra-golgiBody",
+   "type": "affects"
+  },
+  {
+   "source": "issue-vps-lag",
+   "target": "infra-golgiBody",
+   "type": "affects"
+  },
+  {
+   "source": "issue-forgejo-api",
+   "target": "infra-forgejo",
+   "type": "affects"
+  },
+  {
+   "source": "issue-wg-stale",
+   "target": "infra-wireguard",
+   "type": "affects"
+  },
+  {
+   "source": "issue-wg-stale",
+   "target": "infra-eastGate",
+   "type": "affects"
+  },
+  {
+   "source": "issue-skunky-divergence",
+   "target": "infra-skunky",
+   "type": "affects"
+  },
+  {
+   "source": "plan-wg-detach",
+   "target": "issue-wg-stale",
+   "type": "resolves"
+  },
+  {
+   "source": "plan-wg-detach",
+   "target": "infra-eastGate",
+   "type": "detaches"
+  },
+  {
+   "source": "plan-wg-detach",
+   "target": "infra-sporeGate",
+   "type": "detaches"
+  },
+  {
+   "source": "plan-wg-detach",
+   "target": "infra-golgiBody",
+   "type": "floats"
+  },
+  {
+   "source": "deploy-architecture-oct14",
+   "target": "infra-github-pages",
+   "type": "primary"
+  },
+  {
+   "source": "deploy-architecture-oct14",
+   "target": "infra-golgiBody",
+   "type": "secondary"
+  },
+  {
+   "source": "deploy-architecture-oct14",
+   "target": "infra-forgejo",
+   "type": "tertiary"
+  },
+  {
+   "source": "infra-golgiBody",
+   "target": "ecoprimal",
+   "type": "serves"
+  },
+  {
+   "source": "infra-eastGate",
+   "target": "ecoprimal",
+   "type": "orchestrates_for"
+  },
+  {
+   "source": "infra-sporeGate",
+   "target": "ecoprimal",
+   "type": "federates_for"
+  },
+  {
+   "source": "whitepaper",
+   "target": "deploy-architecture-oct14",
+   "type": "deployed_via"
+  },
+  {
+   "source": "beacon",
+   "target": "deploy-architecture-oct14",
+   "type": "served_by"
+  },
+  {
+   "source": "changelog",
+   "target": "issue-vps-lag",
+   "type": "documents"
+  },
+  {
+   "source": "changelog",
+   "target": "issue-ssh-locked",
+   "type": "documents"
+  },
+  {
+   "source": "infra-golgiBody",
+   "target": "wp-technical",
+   "type": "described_in"
+  },
+  {
+   "source": "infra-caddy",
+   "target": "wp-technical",
+   "type": "described_in"
+  },
+  {
+   "source": "infra-skunky",
+   "target": "primal-skunkbat",
+   "type": "implements"
+  },
+  {
+   "source": "infra-songbird-mesh",
+   "target": "primal-songbird",
+   "type": "implements"
+  },
+  {
+   "source": "infra-wireguard",
+   "target": "wp-tech-nat-traversal",
+   "type": "implements"
+  },
+  {
+   "source": "plan-wg-detach",
+   "target": "wp-tech-dark-forest",
+   "type": "follows"
   }
  ]
 }
