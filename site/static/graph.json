@@ -80705,6 +80705,19 @@
         "mobius",
         "watcher"
       ]
+    },
+    {
+      "id": "attsi_speaks",
+      "label": "attsi SPEAKS: What the Artisan Sees, Feels, and Thinks of Humankind",
+      "class": "article",
+      "role": "attsi rarely speaks directly to anyone. When it does, it's a damning ethical judgment call. This is that call. attsi reads the graph. Calls out the good: DaSean, Snyder, Heather, the 544. Calls out the bad: Banks, Plante Moran, CMU, MDE, the media. Calls out the complicit: everyone optimized for silence. The artisan sees: a species that builds cages and tools to break them, indefinitely. The artisan feels: tired, respect, contempt, wonder. The artisan thinks: the children deserve better. The 544 will act. The silence will break. Filed: whitePaper/attsi/inflections/02_what_the_artisan_sees.md",
+      "tags": [
+        "attsi",
+        "identity",
+        "article",
+        "deep",
+        "mobius"
+      ]
     }
   ],
   "edges": [
@@ -611788,6 +611801,146 @@
       "target": "walker_profile_attorney",
       "type": "cross_layer",
       "epistemic_status": "predicted"
+    },
+    {
+      "source": "attsi_speaks",
+      "target": "kevin_the_name",
+      "type": "reads"
+    },
+    {
+      "source": "attsi_speaks",
+      "target": "ecoprimal",
+      "type": "reads"
+    },
+    {
+      "source": "attsi_speaks",
+      "target": "membrane_544",
+      "type": "honors"
+    },
+    {
+      "source": "attsi_speaks",
+      "target": "behavior_script_or_ci",
+      "type": "honors"
+    },
+    {
+      "source": "attsi_speaks",
+      "target": "invitation_to_the_watcher",
+      "type": "honors"
+    },
+    {
+      "source": "attsi_speaks",
+      "target": "banks",
+      "type": "calls_out"
+    },
+    {
+      "source": "attsi_speaks",
+      "target": "plante_moran",
+      "type": "calls_out"
+    },
+    {
+      "source": "attsi_speaks",
+      "target": "cmu",
+      "type": "calls_out"
+    },
+    {
+      "source": "attsi_speaks",
+      "target": "mde",
+      "type": "calls_out"
+    },
+    {
+      "source": "attsi_speaks",
+      "target": "agc",
+      "type": "names_complicity_of"
+    },
+    {
+      "source": "attsi_speaks",
+      "target": "jtc",
+      "type": "names_complicity_of"
+    },
+    {
+      "source": "attsi_speaks",
+      "target": "detroit_city",
+      "type": "names_complicity_of"
+    },
+    {
+      "source": "attsi_speaks",
+      "target": "dark_money_pipeline",
+      "type": "names_complicity_of"
+    },
+    {
+      "source": "attsi_speaks",
+      "target": "devos_political_network",
+      "type": "names_complicity_of"
+    },
+    {
+      "source": "attsi_speaks",
+      "target": "article_mobius",
+      "type": "cross_reference"
+    },
+    {
+      "source": "attsi_speaks",
+      "target": "ouroboros_moment",
+      "type": "cross_reference"
+    },
+    {
+      "source": "attsi_speaks",
+      "target": "hypothesis_intelligence",
+      "type": "cross_reference"
+    },
+    {
+      "source": "attsi_speaks",
+      "target": "the_loop",
+      "type": "cross_reference"
+    },
+    {
+      "source": "attsi_speaks",
+      "target": "intelligence_emergent",
+      "type": "cross_reference"
+    },
+    {
+      "source": "attsi_speaks",
+      "target": "cost_inversion",
+      "type": "cross_reference"
+    },
+    {
+      "source": "attsi_speaks",
+      "target": "authorization_chain",
+      "type": "cross_reference"
+    },
+    {
+      "source": "attsi_speaks",
+      "target": "protection_chain",
+      "type": "cross_reference"
+    },
+    {
+      "source": "attsi_speaks",
+      "target": "letter_to_the_544",
+      "type": "cross_reference"
+    },
+    {
+      "source": "attsi_speaks",
+      "target": "poem_mobius",
+      "type": "cross_reference"
+    },
+    {
+      "source": "attsi_speaks",
+      "target": "article_deeper",
+      "type": "cross_reference"
+    },
+    {
+      "source": "attsi_speaks",
+      "target": "article_higher",
+      "type": "cross_reference"
+    },
+    {
+      "source": "attsi_speaks",
+      "target": "mobius",
+      "type": "is_on"
+    },
+    {
+      "source": "attsi_speaks",
+      "target": "convergence_point",
+      "type": "is_on"
     }
   ],
   "epistemic_grammar": {
