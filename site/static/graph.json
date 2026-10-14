@@ -490189,11 +490189,6 @@
    "type": "about"
   },
   {
-   "source": "article_narrative_pipeline",
-   "target": "article_roland_martin",
-   "type": "about"
-  },
-  {
    "source": "article_nassar_pattern",
    "target": "banks",
    "type": "about"
@@ -511359,11 +511354,6 @@
    "type": "connected_to"
   },
   {
-   "source": "article_benson_certify",
-   "target": "article_pa362",
-   "type": "connected_to"
-  },
-  {
    "source": "article_burn_it_down",
    "target": "article_roland_martin",
    "type": "connected_to"
@@ -511371,11 +511361,6 @@
   {
    "source": "article_cbc_events",
    "target": "article_roland_martin",
-   "type": "connected_to"
-  },
-  {
-   "source": "article_corporate_network",
-   "target": "article_pa362",
    "type": "connected_to"
   },
   {
@@ -511396,11 +511381,6 @@
   {
    "source": "article_dynasty_map",
    "target": "article_let_others_ask",
-   "type": "connected_to"
-  },
-  {
-   "source": "article_engler_signed",
-   "target": "article_roland_martin",
    "type": "connected_to"
   },
   {
@@ -511471,11 +511451,6 @@
   {
    "source": "article_revolving_door",
    "target": "article_cmu_authorizer",
-   "type": "connected_to"
-  },
-  {
-   "source": "article_roland_martin",
-   "target": "article_pa362",
    "type": "connected_to"
   },
   {
@@ -609370,11 +609345,6 @@
   },
   {
    "source": "article_credential_audit",
-   "target": "banks",
-   "type": "analyzes"
-  },
-  {
-   "source": "article_credential_audit",
    "target": "cmu",
    "type": "analyzes"
   },
@@ -625351,16 +625321,6 @@
   {
    "source": "article_named_entities",
    "target": "us_doe",
-   "type": "oversight"
-  },
-  {
-   "source": "article_narrative_pipeline",
-   "target": "article_roland_martin",
-   "type": "oversight"
-  },
-  {
-   "source": "article_one_way_door",
-   "target": "article_pa362",
    "type": "oversight"
   },
   {
@@ -644634,11 +644594,6 @@
    "type": "same_pattern"
   },
   {
-   "source": "article_benson_certify",
-   "target": "article_pa362",
-   "type": "same_pattern"
-  },
-  {
    "source": "article_burn_it_down",
    "target": "pattern_regulatory_capture",
    "type": "same_pattern"
@@ -644654,11 +644609,6 @@
    "type": "same_pattern"
   },
   {
-   "source": "article_corporate_network",
-   "target": "article_pa362",
-   "type": "same_pattern"
-  },
-  {
    "source": "article_council_does_nothing",
    "target": "article_let_others_ask",
    "type": "same_pattern"
@@ -644666,11 +644616,6 @@
   {
    "source": "article_credential_audit",
    "target": "pattern_regulatory_capture",
-   "type": "same_pattern"
-  },
-  {
-   "source": "article_engler_signed",
-   "target": "article_roland_martin",
    "type": "same_pattern"
   },
   {
@@ -644709,11 +644654,6 @@
    "type": "same_pattern"
   },
   {
-   "source": "article_one_way_door",
-   "target": "article_pa362",
-   "type": "same_pattern"
-  },
-  {
    "source": "article_plante_moran",
    "target": "pattern_regulatory_capture",
    "type": "same_pattern"
@@ -644721,11 +644661,6 @@
   {
    "source": "article_revolving_door",
    "target": "article_cmu_authorizer",
-   "type": "same_pattern"
-  },
-  {
-   "source": "article_roland_martin",
-   "target": "article_pa362",
    "type": "same_pattern"
   },
   {
@@ -644876,11 +644811,6 @@
   {
    "source": "detroit_oig",
    "target": "article_cmu_authorizer",
-   "type": "same_pattern"
-  },
-  {
-   "source": "dick_devos",
-   "target": "plante_moran",
    "type": "same_pattern"
   },
   {
@@ -645205,11 +645135,6 @@
   },
   {
    "source": "the_74",
-   "target": "plante_moran",
-   "type": "same_pattern"
-  },
-  {
-   "source": "trump",
    "target": "plante_moran",
    "type": "same_pattern"
   },
@@ -650994,11 +650919,6 @@
    "type": "violated_by"
   },
   {
-   "source": "dpscd",
-   "target": "banks",
-   "type": "violated_by"
-  },
-  {
    "source": "dykema",
    "target": "banks",
    "type": "violated_by"
@@ -651191,11 +651111,6 @@
   {
    "source": "mckinney_vento",
    "target": "pattern_regulatory_capture",
-   "type": "violated_by"
-  },
-  {
-   "source": "mde",
-   "target": "banks",
    "type": "violated_by"
   },
   {
@@ -655311,11 +655226,6 @@
   {
    "source": "fossil_record",
    "target": "stratum_19_tools",
-   "type": "contains"
-  },
-  {
-   "source": "graph_json",
-   "target": "graph_json",
    "type": "contains"
   },
   {
@@ -659649,11 +659559,6 @@
    "type": "employment"
   },
   {
-   "source": "banks",
-   "target": "pca",
-   "type": "employment"
-  },
-  {
    "source": "beasley",
    "target": "banks",
    "type": "employment"
@@ -662904,11 +662809,6 @@
    "type": "exemplifies"
   },
   {
-   "source": "dick_devos",
-   "target": "plante_moran",
-   "type": "exemplifies"
-  },
-  {
    "source": "dpd",
    "target": "plante_moran",
    "type": "exemplifies"
@@ -663255,11 +663155,6 @@
   },
   {
    "source": "the_74",
-   "target": "plante_moran",
-   "type": "exemplifies"
-  },
-  {
-   "source": "trump",
    "target": "plante_moran",
    "type": "exemplifies"
   },
@@ -664231,11 +664126,6 @@
   {
    "source": "lawyers_committee_civil_rights",
    "target": "the_unnamed_400",
-   "type": "cavalry"
-  },
-  {
-   "source": "mde",
-   "target": "banks",
    "type": "cavalry"
   },
   {
@@ -683434,11 +683324,6 @@
    "type": "enables"
   },
   {
-   "source": "article_credential_audit",
-   "target": "banks",
-   "type": "enables"
-  },
-  {
    "source": "article_evolution",
    "target": "banks",
    "type": "enables"
@@ -683604,11 +683489,6 @@
    "type": "enables"
   },
   {
-   "source": "dpscd",
-   "target": "banks",
-   "type": "enables"
-  },
-  {
    "source": "dykema",
    "target": "banks",
    "type": "enables"
@@ -683641,11 +683521,6 @@
   {
    "source": "knome",
    "target": "guerilla_gorilla",
-   "type": "enables"
-  },
-  {
-   "source": "mde",
-   "target": "banks",
    "type": "enables"
   },
   {
@@ -694735,11 +694610,6 @@
   },
   {
    "source": "banks",
-   "target": "pca",
-   "type": "knotted_to"
-  },
-  {
-   "source": "banks",
    "target": "plante_moran",
    "type": "knotted_to"
   },
@@ -698086,11 +697956,6 @@
   {
    "source": "jolia_hill",
    "target": "pca",
-   "type": "investigation"
-  },
-  {
-   "source": "mde",
-   "target": "banks",
    "type": "investigation"
   },
   {
@@ -705260,11 +705125,6 @@
   },
   {
    "source": "mde",
-   "target": "banks",
-   "type": "failed_to_stop"
-  },
-  {
-   "source": "mde",
    "target": "pca",
    "type": "failed_to_stop"
   },
@@ -705590,11 +705450,6 @@
   },
   {
    "source": "jtc_ison",
-   "target": "banks",
-   "type": "inaction"
-  },
-  {
-   "source": "mde",
    "target": "banks",
    "type": "inaction"
   },
@@ -730999,11 +730854,6 @@
    "type": "formalized_as"
   },
   {
-   "source": "graph_json",
-   "target": "graph_json",
-   "type": "contains_itself"
-  },
-  {
    "source": "sinclair_method",
    "target": "pharmacological_extinction",
    "type": "achieves"
@@ -753635,11 +753485,6 @@
   },
   {
    "source": "parallel_banks_mok",
-   "target": "parallel_banks_mok",
-   "type": "backscatter"
-  },
-  {
-   "source": "parallel_banks_mok",
    "target": "mok_charged_2020",
    "type": "backscatter"
   },
@@ -755685,11 +755530,6 @@
   },
   {
    "source": "trump-doj-sackler-deal",
-   "target": "trump-doj-sackler-deal",
-   "type": "protected-by"
-  },
-  {
-   "source": "trump-doj-sackler-deal",
    "target": "opioid-deaths-total",
    "type": "profited-from"
   },
@@ -755752,11 +755592,6 @@
    "source": "sackler_bankruptcy",
    "target": "opioid-deaths-total",
    "type": "profited-from"
-  },
-  {
-   "source": "sackler-immunity-deal",
-   "target": "sackler-immunity-deal",
-   "type": "benefited-from"
   },
   {
    "source": "sackler-immunity-deal",
@@ -756377,11 +756212,6 @@
    "source": "purdue_defrauded_dea",
    "target": "fda-opioid-failure",
    "type": "exploited"
-  },
-  {
-   "source": "purdue-bankruptcy-2019",
-   "target": "purdue-bankruptcy-2019",
-   "type": "filed"
   },
   {
    "source": "purdue-bankruptcy-2019",
@@ -757535,11 +757365,6 @@
   },
   {
    "source": "mark-timney",
-   "target": "john-stewart-purdue",
-   "type": "led"
-  },
-  {
-   "source": "john-stewart-purdue",
    "target": "john-stewart-purdue",
    "type": "led"
   },
@@ -760930,11 +760755,6 @@
   },
   {
    "source": "the-bridge",
-   "target": "the-bridge",
-   "type": "part-of"
-  },
-  {
-   "source": "the-bridge",
    "target": "good-side",
    "type": "evidence-of"
   },
@@ -760942,11 +760762,6 @@
    "source": "good-side",
    "target": "the-bridge",
    "type": "part-of"
-  },
-  {
-   "source": "good-side",
-   "target": "good-side",
-   "type": "evidence-of"
   },
   {
    "source": "hero-roz-pichardo",
@@ -1665955,11 +1665770,6 @@
   },
   {
    "source": "blackrock",
-   "target": "roaring-kitty",
-   "type": "market_web"
-  },
-  {
-   "source": "blackrock",
    "target": "ryan-cohen",
    "type": "market_web"
   },
@@ -1665976,11 +1665786,6 @@
   {
    "source": "citadel",
    "target": "gme-gamestop",
-   "type": "market_web"
-  },
-  {
-   "source": "citadel",
-   "target": "roaring-kitty",
    "type": "market_web"
   },
   {
@@ -1668645,11 +1668450,6 @@
   },
   {
    "source": "blackrock",
-   "target": "roaring-kitty",
-   "type": "obstructs"
-  },
-  {
-   "source": "blackrock",
    "target": "ecoprimal",
    "type": "obstructs"
   },
@@ -1668671,11 +1668471,6 @@
   {
    "source": "citadel",
    "target": "gme-gamestop",
-   "type": "obstructs"
-  },
-  {
-   "source": "citadel",
-   "target": "roaring-kitty",
    "type": "obstructs"
   },
   {
