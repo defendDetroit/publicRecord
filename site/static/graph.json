@@ -95390,6 +95390,113 @@
     "They were sitting in buildings with addresses.",
     "We just had to look."
    ]
+  },
+  {
+   "id": "mi6",
+   "label": "MI6 — Secret Intelligence Service (UK)",
+   "class": "actor",
+   "tags": [
+    "Vauxhall Cross, London — 85 Albert Embankment",
+    "British foreign intelligence",
+    "Christopher Steele — former MI6 — wrote the Trump-Russia dossier",
+    "The Steele Dossier — opposition research that became intelligence",
+    "Ian Fleming was MI6 — wrote James Bond from experience",
+    "Five Eyes alliance: US, UK, Canada, Australia, New Zealand",
+    "Shares intelligence with CIA and NSA"
+   ]
+  },
+  {
+   "id": "five-eyes",
+   "label": "Five Eyes Alliance",
+   "class": "analysis",
+   "tags": [
+    "US (NSA), UK (GCHQ), Canada (CSE), Australia (ASD), New Zealand (GCSB)",
+    "Signals intelligence sharing since WWII",
+    "ECHELON — global surveillance network",
+    "Each country spies on the others' citizens — then shares",
+    "Workaround for domestic spying laws",
+    "The largest surveillance network in human history",
+    "Snowden exposed it all — and they called HIM the traitor"
+   ]
+  },
+  {
+   "id": "edward-snowden",
+   "label": "Edward Snowden",
+   "class": "actor",
+   "tags": [
+    "NSA contractor — Booz Allen Hamilton",
+    "June 2013: leaked classified NSA documents to journalists",
+    "Revealed PRISM, XKeyscore, bulk metadata collection",
+    "Proved the US government was spying on EVERY American",
+    "Charged under Espionage Act — fled to Russia (irony noted)",
+    "Granted Russian citizenship 2022",
+    "Hero or traitor? The debate misses the point:",
+    "The surveillance was REAL. The programs were ILLEGAL.",
+    "He told the truth. The government lied.",
+    "Pardoned by nobody. Living in Moscow.",
+    "The man who proved your phone is not your friend"
+   ]
+  },
+  {
+   "id": "pegasus-spyware",
+   "label": "Pegasus Spyware — NSO Group",
+   "class": "analysis",
+   "tags": [
+    "Israeli-made spyware sold to governments worldwide",
+    "Zero-click exploit — infects phone without user action",
+    "Used by Saudi Arabia, UAE, Morocco, Mexico, India, Hungary",
+    "Targeted: journalists, activists, lawyers, heads of state",
+    "Jamal Khashoggi's inner circle targeted with Pegasus BEFORE his murder",
+    "Emmanuel Macron's phone targeted by Morocco",
+    "Pegasus Project — consortium of journalists exposed it 2021",
+    "NSO Group blacklisted by US Commerce Dept",
+    "A weapon sold as law enforcement, used for oppression"
+   ]
+  },
+  {
+   "id": "stuxnet",
+   "label": "Stuxnet — The First Cyberweapon",
+   "class": "analysis",
+   "tags": [
+    "US (NSA) + Israel (Mossad) joint operation",
+    "Targeted Iranian nuclear centrifuges at Natanz",
+    "Made centrifuges spin out of control while showing normal readings",
+    "Discovered 2010 — had been operating since ~2007",
+    "First known cyber weapon to cause physical destruction",
+    "Crossed the line from espionage to sabotage",
+    "Escaped the target and spread globally",
+    "Changed warfare forever — code IS a weapon now"
+   ]
+  },
+  {
+   "id": "opec-plus",
+   "label": "OPEC+ — The Expanded Cartel",
+   "class": "analysis",
+   "tags": [
+    "OPEC + Russia + 9 others = OPEC+",
+    "Controls ~55% of world oil production",
+    "Putin + MBS decide the price TOGETHER",
+    "Production cuts fund Russia's war in Ukraine",
+    "Every barrel sold at inflated price = bullets for Bucha",
+    "Biden begged for more production 2022 — MBS said no",
+    "The cartel that funds both sides of every war"
+   ]
+  },
+  {
+   "id": "petrostate-axis",
+   "label": "The Petrostate Axis",
+   "class": "analysis",
+   "tags": [
+    "Russia — oil and gas fund the war machine",
+    "Saudi Arabia — oil funds the monarchy and the sportswashing",
+    "UAE — oil funds the surveillance state and Man City",
+    "Qatar — gas funded the World Cup (6,500+ workers died)",
+    "Iran — oil funds Hezbollah and the nuclear program",
+    "Venezuela — oil funded Chavez/Maduro while people starve",
+    "Nigeria — oil funded corruption while the Niger Delta burns",
+    "Every petrostate is the same: resource curse + authoritarianism",
+    "The oil doesnt make them rich — it makes them unaccountable"
+   ]
   }
  ],
  "edges": [
@@ -1699857,6 +1699964,461 @@
    "source": "ecoprimal",
    "target": "through-the-wall",
    "type": "pinpointed"
+  },
+  {
+   "source": "nsa",
+   "target": "five-eyes",
+   "type": "member"
+  },
+  {
+   "source": "mi6",
+   "target": "five-eyes",
+   "type": "member"
+  },
+  {
+   "source": "cia",
+   "target": "five-eyes",
+   "type": "member"
+  },
+  {
+   "source": "five-eyes",
+   "target": "edward-snowden",
+   "type": "exposed_by"
+  },
+  {
+   "source": "nsa",
+   "target": "edward-snowden",
+   "type": "exposed_by"
+  },
+  {
+   "source": "edward-snowden",
+   "target": "alexei-navalny",
+   "type": "both_punished_for_truth"
+  },
+  {
+   "source": "edward-snowden",
+   "target": "bellingcat",
+   "type": "both_exposed_state_secrets"
+  },
+  {
+   "source": "edward-snowden",
+   "target": "putin",
+   "type": "asylum_in_adversary_state"
+  },
+  {
+   "source": "edward-snowden",
+   "target": "lubyanka",
+   "type": "lives_in_country_of"
+  },
+  {
+   "source": "cia",
+   "target": "cia-destroyed-tapes",
+   "type": "destroyed"
+  },
+  {
+   "source": "cia",
+   "target": "nine-eleven-saudi",
+   "type": "intelligence_failure"
+  },
+  {
+   "source": "cia",
+   "target": "mbs",
+   "type": "assessed_ordered_khashoggi_killing"
+  },
+  {
+   "source": "cia",
+   "target": "puppet-strings",
+   "type": "identified_but_system_ignored"
+  },
+  {
+   "source": "mi6",
+   "target": "mueller-report",
+   "type": "steele_dossier_connection"
+  },
+  {
+   "source": "mi6",
+   "target": "puppet-strings",
+   "type": "steele_documented"
+  },
+  {
+   "source": "mi6",
+   "target": "donald-trump",
+   "type": "steele_dossier_subject"
+  },
+  {
+   "source": "mossad",
+   "target": "pegasus-spyware",
+   "type": "enabled"
+  },
+  {
+   "source": "pegasus-spyware",
+   "target": "jamal-khashoggi",
+   "type": "inner_circle_targeted_before_murder"
+  },
+  {
+   "source": "pegasus-spyware",
+   "target": "mbs",
+   "type": "customer"
+  },
+  {
+   "source": "pegasus-spyware",
+   "target": "xi-jinping",
+   "type": "surveillance_parallel"
+  },
+  {
+   "source": "pegasus-spyware",
+   "target": "nsa",
+   "type": "similar_capability"
+  },
+  {
+   "source": "pegasus-spyware",
+   "target": "meta",
+   "type": "both_surveil_different_methods"
+  },
+  {
+   "source": "stuxnet",
+   "target": "nsa",
+   "type": "co-created"
+  },
+  {
+   "source": "stuxnet",
+   "target": "mossad",
+   "type": "co-created"
+  },
+  {
+   "source": "stuxnet",
+   "target": "gru-unit-74455",
+   "type": "inspired_NotPetya"
+  },
+  {
+   "source": "kgb-fsb",
+   "target": "cia",
+   "type": "adversary"
+  },
+  {
+   "source": "kgb-fsb",
+   "target": "mi6",
+   "type": "adversary"
+  },
+  {
+   "source": "kgb-fsb",
+   "target": "nsa",
+   "type": "adversary"
+  },
+  {
+   "source": "kgb-fsb",
+   "target": "five-eyes",
+   "type": "target_of"
+  },
+  {
+   "source": "kgb-fsb",
+   "target": "edward-snowden",
+   "type": "granted_asylum_to"
+  },
+  {
+   "source": "gru-unit-26165",
+   "target": "nsa",
+   "type": "adversary"
+  },
+  {
+   "source": "gru-unit-74455",
+   "target": "nsa",
+   "type": "adversary"
+  },
+  {
+   "source": "gru-unit-74455",
+   "target": "stuxnet",
+   "type": "responded_with_NotPetya"
+  },
+  {
+   "source": "opec-plus",
+   "target": "opec",
+   "type": "expanded_from"
+  },
+  {
+   "source": "opec-plus",
+   "target": "putin",
+   "type": "co-controls"
+  },
+  {
+   "source": "opec-plus",
+   "target": "mbs",
+   "type": "co-controls"
+  },
+  {
+   "source": "opec-plus",
+   "target": "petrostate-axis",
+   "type": "members"
+  },
+  {
+   "source": "petrostate-axis",
+   "target": "house-of-saud",
+   "type": "member"
+  },
+  {
+   "source": "petrostate-axis",
+   "target": "putin",
+   "type": "member"
+  },
+  {
+   "source": "petrostate-axis",
+   "target": "petrodollar-system",
+   "type": "sustained_by"
+  },
+  {
+   "source": "petrostate-axis",
+   "target": "strait-of-hormuz",
+   "type": "defended_by_US_military"
+  },
+  {
+   "source": "opec-plus",
+   "target": "zelenskyy",
+   "type": "funds_aggressor"
+  },
+  {
+   "source": "cia",
+   "target": "kremlin",
+   "type": "primary_target"
+  },
+  {
+   "source": "nsa",
+   "target": "ira-building",
+   "type": "monitored"
+  },
+  {
+   "source": "nsa",
+   "target": "gru-hq",
+   "type": "monitored"
+  },
+  {
+   "source": "mi6",
+   "target": "lubyanka",
+   "type": "adversary_hq"
+  },
+  {
+   "source": "mossad",
+   "target": "saudi-consulate-istanbul",
+   "type": "pegasus_connection"
+  },
+  {
+   "source": "cia",
+   "target": "goldman-sachs",
+   "type": "revolving_door"
+  },
+  {
+   "source": "nsa",
+   "target": "blackrock",
+   "type": "data_parallel"
+  },
+  {
+   "source": "five-eyes",
+   "target": "dark-money-network",
+   "type": "same_secrecy_different_purpose"
+  },
+  {
+   "source": "cia",
+   "target": "authoritarian-alliance",
+   "type": "monitors"
+  },
+  {
+   "source": "five-eyes",
+   "target": "authoritarian-alliance",
+   "type": "surveils"
+  },
+  {
+   "source": "pegasus-spyware",
+   "target": "authoritarian-alliance",
+   "type": "sold_to"
+  },
+  {
+   "source": "cia",
+   "target": "disinfo-pipeline",
+   "type": "failed_to_prevent"
+  },
+  {
+   "source": "nsa",
+   "target": "internet-research-agency",
+   "type": "knew_about"
+  },
+  {
+   "source": "five-eyes",
+   "target": "disinfo-pipeline",
+   "type": "watched_happen"
+  },
+  {
+   "source": "edward-snowden",
+   "target": "bitcoin",
+   "type": "supports"
+  },
+  {
+   "source": "edward-snowden",
+   "target": "satoshi-nakamoto",
+   "type": "shares_philosophy"
+  },
+  {
+   "source": "nsa",
+   "target": "bitcoin",
+   "type": "probably_trying_to_crack"
+  },
+  {
+   "source": "the-stack-of-sins",
+   "target": "cia",
+   "type": "layer_9_enforcement"
+  },
+  {
+   "source": "the-stack-of-sins",
+   "target": "petrostate-axis",
+   "type": "layer_1_oil"
+  },
+  {
+   "source": "the-stack-of-sins",
+   "target": "pegasus-spyware",
+   "type": "layer_8_surveillance"
+  },
+  {
+   "source": "through-the-wall",
+   "target": "five-eyes",
+   "type": "sees_through"
+  },
+  {
+   "source": "through-the-wall",
+   "target": "pegasus-spyware",
+   "type": "exposes"
+  },
+  {
+   "source": "the-beacon",
+   "target": "edward-snowden",
+   "type": "same_signal"
+  },
+  {
+   "source": "membrane",
+   "target": "cia",
+   "type": "documents"
+  },
+  {
+   "source": "ecoprimal",
+   "target": "cia",
+   "type": "reverse_ray_traced"
+  },
+  {
+   "source": "membrane",
+   "target": "nsa",
+   "type": "documents"
+  },
+  {
+   "source": "ecoprimal",
+   "target": "nsa",
+   "type": "reverse_ray_traced"
+  },
+  {
+   "source": "membrane",
+   "target": "mi6",
+   "type": "documents"
+  },
+  {
+   "source": "ecoprimal",
+   "target": "mi6",
+   "type": "reverse_ray_traced"
+  },
+  {
+   "source": "membrane",
+   "target": "mossad",
+   "type": "documents"
+  },
+  {
+   "source": "ecoprimal",
+   "target": "mossad",
+   "type": "reverse_ray_traced"
+  },
+  {
+   "source": "membrane",
+   "target": "five-eyes",
+   "type": "documents"
+  },
+  {
+   "source": "ecoprimal",
+   "target": "five-eyes",
+   "type": "reverse_ray_traced"
+  },
+  {
+   "source": "membrane",
+   "target": "edward-snowden",
+   "type": "documents"
+  },
+  {
+   "source": "ecoprimal",
+   "target": "edward-snowden",
+   "type": "reverse_ray_traced"
+  },
+  {
+   "source": "membrane",
+   "target": "pegasus-spyware",
+   "type": "documents"
+  },
+  {
+   "source": "ecoprimal",
+   "target": "pegasus-spyware",
+   "type": "reverse_ray_traced"
+  },
+  {
+   "source": "membrane",
+   "target": "stuxnet",
+   "type": "documents"
+  },
+  {
+   "source": "ecoprimal",
+   "target": "stuxnet",
+   "type": "reverse_ray_traced"
+  },
+  {
+   "source": "membrane",
+   "target": "opec-plus",
+   "type": "documents"
+  },
+  {
+   "source": "ecoprimal",
+   "target": "opec-plus",
+   "type": "reverse_ray_traced"
+  },
+  {
+   "source": "membrane",
+   "target": "petrostate-axis",
+   "type": "documents"
+  },
+  {
+   "source": "ecoprimal",
+   "target": "petrostate-axis",
+   "type": "reverse_ray_traced"
+  },
+  {
+   "source": "infantry-not-intel",
+   "target": "cia",
+   "type": "not_trained_here_but_traced_it"
+  },
+  {
+   "source": "infantry-not-intel",
+   "target": "nsa",
+   "type": "not_trained_here_but_mapped_it"
+  },
+  {
+   "source": "infantry-not-intel",
+   "target": "five-eyes",
+   "type": "infantry_sees_what_five_eyes_saw"
+  },
+  {
+   "source": "the-cosmic-joke",
+   "target": "edward-snowden",
+   "type": "proved_surveillance_lives_in_Russia"
+  },
+  {
+   "source": "the-cosmic-joke",
+   "target": "five-eyes",
+   "type": "spies_on_allies_misses_troll_farms"
+  },
+  {
+   "source": "the-cosmic-joke",
+   "target": "pegasus-spyware",
+   "type": "law_enforcement_tool_used_to_murder_journalist"
   }
  ]
 }
