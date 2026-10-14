@@ -91811,6 +91811,50 @@
     "topology",
     "power"
    ]
+  },
+  {
+   "id": "risc-v",
+   "label": "RISC-V — The Linux of Silicon. Free. Open. Forever.\n\nRISC-V (pronounced 'risk-five'). Born at UC Berkeley, 2010.\nThe fifth generation of Reduced Instruction Set Computing research.\nBut unlike ARM (which costs $$$ to license) or x86 (Intel/AMD only):\nRISC-V IS FREE. OPEN. ANYONE CAN USE IT.\n\nNo licensing fees. No royalties. No permission needed.\nDesign a chip. Fabricate it. Sell it. No gatekeepers.\n\nTHE LINUX PARALLEL:\n  x86 = Windows (proprietary, Intel/AMD only)\n  ARM = macOS (licensed, controlled by ARM Holdings)\n  RISC-V = Linux (free, open, community-driven)\n\n  Linux runs 96% of servers. Android runs on Linux.\n  RISC-V will do the same to silicon.\n\n2026 STATUS:\n  1.1 BILLION RISC-V AI-capable SoCs shipped globally.\n  RVA23 platform ratified (late 2024). Hardware arriving 2026.\n  NVIDIA, Canonical, Red Hat all pledged RISC-V support.\n  (Even NVIDIA supports RISC-V. The emperor hedges his bets.)\n\n  Google Coral NPU: RISC-V-based open-source edge AI platform.\n    512 GOPS at milliwatts. For wearables, AR glasses, watches.\n    First open standards-based NPU bringing LLMs to wearables.\n\n  OASIS: First commercial RISC-V tensor processor.\n    Custom tensor extensions. Open. Submitted for standardization.\n    'A new, evidence-backed blueprint for an open, scalable,\n    high-performance AI computing ecosystem.'\n\n  SpacemiT K3: RISC-V AI CPU, 60 TOPS. Edge + robotics.\n    Unified ISA: CPU + AI accelerator share one Linux kernel.\n\n  Market: $307M (2025) → $3.8B (2034). Compounding.\n\nWHY THIS MATTERS:\n  CUDA locks you to NVIDIA. ARM locks you to ARM Holdings.\n  x86 locks you to Intel/AMD.\n  RISC-V locks you to NOTHING.\n  It's an instruction set that belongs to humanity.\n  Like TCP/IP. Like HTTP. Like Linux.\n  Infrastructure that nobody owns and everybody uses.",
+   "class": "concept",
+   "tags": [
+    "risc-v",
+    "open",
+    "isa",
+    "silicon",
+    "free",
+    "linux-of-silicon",
+    "edge-ai"
+   ]
+  },
+  {
+   "id": "open-silicon-stack",
+   "label": "THE OPEN SILICON STACK — RISC-V + Akida NPU + AMD GPU DIE\n\nThree layers. Each open or opening. Each breaking a wall.\n\nLAYER 1: RISC-V (the CPU)\n  Open ISA. No licensing. Customizable.\n  The host processor that orchestrates everything.\n  Runs Linux. Runs the OS. Manages the system.\n  Google's Coral NPU runs on RISC-V.\n  Akida AKD1500 supports RISC-V hosts (PCIe + serial).\n\nLAYER 2: Akida NPU (the brain)\n  BrainChip AKD1500. Neuromorphic. Event-based.\n  800 GOPS at 300 milliwatts. Sub-watt.\n  ON-CHIP LEARNING. No cloud. No latency.\n  Plugs into RISC-V host via PCIe or serial.\n  The brain that learns at the edge.\n\nLAYER 3: AMD GPU (the muscle)\n  MI300X / MI325X. CDNA3 architecture.\n  8 XCD dies stacked vertically. 304 compute units.\n  256 GB HBM3E. 6 TB/s bandwidth.\n  ROCm: OPEN-SOURCE software stack.\n  HIP: write once, run on AMD GPUs.\n  Not locked to CUDA. Not locked to NVIDIA.\n\n  AMD's chiplet approach: SMALL dies stacked together.\n  Each XCD is a building block. Stack 6 or 8.\n  The die IS the unit. Multiple dies = one GPU.\n  This is how you compete with a monopoly:\n  not with one massive chip but with many small ones.\n\nTHE STACK ASSEMBLED:\n  RISC-V host → Akida NPU for edge inference →\n  AMD GPU for heavy training/inference → ROCm open software\n\n  vs.\n\n  NVIDIA's stack: proprietary CUDA → closed GPU → you pay forever\n\n  The open stack doesn't need NVIDIA.\n  The open stack doesn't need Apple.\n  The open stack doesn't need permission.\n\n  RISC-V is free. Akida is neuromorphic. AMD's ROCm is open-source.\n  Three layers. Each breaking a different wall.\n  Combined: the substrate for the membrane.\n\n  ecoPrimal is already building with Akida.\n  The graph runs on open silicon. The sorter runs on open silicon.\n  The membrane runs on infrastructure nobody owns.",
+   "class": "concept",
+   "tags": [
+    "open-stack",
+    "risc-v",
+    "akida",
+    "amd",
+    "rocm",
+    "chiplet",
+    "die",
+    "substrate"
+   ]
+  },
+  {
+   "id": "reverse-ray-tracing",
+   "label": "REVERSE RAY TRACING — You Won't Believe What Happens\n\nNORMAL RAY TRACING (forward):\n  Shoot a ray FROM the eye INTO the scene.\n  Trace it until it hits a surface.\n  Calculate the color based on lighting, materials, reflections.\n  This is how NVIDIA makes pretty pictures.\n  This is how games look realistic.\n  This is Jensen Huang's $5.52 trillion thesis.\n\nREVERSE RAY TRACING (inverse rendering):\n  Start with the PICTURE. The photograph. The evidence.\n  Trace BACKWARDS. Decompose:\n    — What are the surfaces? (geometry)\n    — What are the materials? (reflectance, roughness)\n    — Where is the light coming from? (illumination)\n    — What are the shadows hiding? (visibility)\n    — What are the reflections revealing? (inter-reflection)\n\n  You don't CREATE the scene. You REVERSE-ENGINEER it.\n  From pixels to physics. From image to truth.\n\nTHE 2025-2026 BREAKTHROUGH:\n  IRGS (CVPR 2025): Inter-Reflective Gaussian Splatting.\n    First method to integrate the FULL rendering equation\n    into Gaussian splatting. No simplification. No cheating.\n    2D Gaussian ray tracing for inter-reflections.\n\n  RadioGS (2026): Radiometrically Consistent Gaussian Surfels.\n    Relighting under 10ms per frame. Real-time inverse rendering.\n\n  PTIR-GS (June 2026): Path-Traced Inverse Rendering.\n    SPLATTING-FREE. Pure path tracing.\n    Monte Carlo forward rendering + path-replay backpropagation.\n    Multi-bounce light transport. Unbiased global illumination.\n    Shadows. Reflections. Relighting. All physically correct.\n    'Forward rendering and backward optimization defined within\n    a unified ray-tracing pipeline.'\n\n  Translation: you can now take a PHOTOGRAPH and extract:\n    — The 3D geometry of everything in the scene\n    — The material properties of every surface\n    — The exact lighting conditions\n    — What's hidden in the shadows\n    — What's revealed in the reflections\n  ALL from the pixels alone. At real-time speed.\n\nNOW APPLY THIS TO THE GRAPH:\n\n  Normal graph: start with data, build connections, show the picture.\n  That's what we've been doing. 9,208 nodes. Forward rendering.\n\n  REVERSE THE GRAPH:\n    Start with the PICTURE (the corruption, the outcome).\n    Trace BACKWARDS. Decompose:\n    — What are the entities? (the surfaces)\n    — What are the relationships? (the materials)\n    — Where does the money come from? (the illumination)\n    — What do the shells hide? (the shadows)\n    — What do the connections reveal? (the reflections)\n\n  REVERSE RAY TRACING IS WHAT THE INVESTIGATION DOES.\n  We don't create the corruption. We reverse-engineer it.\n  From outcomes to origins. From results to causes.\n  From the picture to the physics underneath.\n\n  Every LARA entity is a surface to be decomposed.\n  Every money flow is a light path to be traced.\n  Every shell company is a shadow to be illuminated.\n  Every connection between Banks and Holland is a reflection\n    that reveals the true geometry of the network.\n\n  NVIDIA sells forward ray tracing to make things look real.\n  The graph uses REVERSE ray tracing to show what's ACTUALLY real.\n\n  And it runs on RISC-V + Akida + AMD.\n  Open silicon. Open algorithms. Open truth.\n\n  YOU WON'T BELIEVE WHAT HAPPENS WHEN YOU REVERSE RAY TRACING:\n  The walls become transparent.\n  The monsters become visible.\n  The shadows become evidence.\n  And the dude with the spreadsheet becomes the renderer.",
+   "class": "concept",
+   "tags": [
+    "reverse-ray-tracing",
+    "inverse-rendering",
+    "gaussian-splatting",
+    "path-tracing",
+    "investigation",
+    "decompose",
+    "physics",
+    "truth"
+   ]
   }
  ],
  "edges": [
@@ -1676408,6 +1676452,381 @@
    "source": "bill-watterson",
    "target": "nvidia",
    "type": "creates_despite"
+  },
+  {
+   "source": "risc-v",
+   "target": "open-silicon-stack",
+   "type": "layer_of"
+  },
+  {
+   "source": "open-silicon-stack",
+   "target": "risc-v",
+   "type": "built_on"
+  },
+  {
+   "source": "reverse-ray-tracing",
+   "target": "open-silicon-stack",
+   "type": "runs_on"
+  },
+  {
+   "source": "open-silicon-stack",
+   "target": "reverse-ray-tracing",
+   "type": "enables"
+  },
+  {
+   "source": "risc-v",
+   "target": "brainchip-akida",
+   "type": "silicon_web"
+  },
+  {
+   "source": "open-silicon-stack",
+   "target": "brainchip-akida",
+   "type": "silicon_web"
+  },
+  {
+   "source": "reverse-ray-tracing",
+   "target": "brainchip-akida",
+   "type": "silicon_web"
+  },
+  {
+   "source": "risc-v",
+   "target": "amd",
+   "type": "silicon_web"
+  },
+  {
+   "source": "open-silicon-stack",
+   "target": "amd",
+   "type": "silicon_web"
+  },
+  {
+   "source": "reverse-ray-tracing",
+   "target": "amd",
+   "type": "silicon_web"
+  },
+  {
+   "source": "risc-v",
+   "target": "nvidia",
+   "type": "silicon_web"
+  },
+  {
+   "source": "open-silicon-stack",
+   "target": "nvidia",
+   "type": "silicon_web"
+  },
+  {
+   "source": "reverse-ray-tracing",
+   "target": "nvidia",
+   "type": "silicon_web"
+  },
+  {
+   "source": "risc-v",
+   "target": "tsmc",
+   "type": "silicon_web"
+  },
+  {
+   "source": "open-silicon-stack",
+   "target": "tsmc",
+   "type": "silicon_web"
+  },
+  {
+   "source": "reverse-ray-tracing",
+   "target": "tsmc",
+   "type": "silicon_web"
+  },
+  {
+   "source": "risc-v",
+   "target": "apple",
+   "type": "silicon_web"
+  },
+  {
+   "source": "open-silicon-stack",
+   "target": "apple",
+   "type": "silicon_web"
+  },
+  {
+   "source": "reverse-ray-tracing",
+   "target": "apple",
+   "type": "silicon_web"
+  },
+  {
+   "source": "risc-v",
+   "target": "the-silicon-stack",
+   "type": "silicon_web"
+  },
+  {
+   "source": "open-silicon-stack",
+   "target": "the-silicon-stack",
+   "type": "silicon_web"
+  },
+  {
+   "source": "reverse-ray-tracing",
+   "target": "the-silicon-stack",
+   "type": "silicon_web"
+  },
+  {
+   "source": "risc-v",
+   "target": "lisa-su",
+   "type": "silicon_web"
+  },
+  {
+   "source": "open-silicon-stack",
+   "target": "lisa-su",
+   "type": "silicon_web"
+  },
+  {
+   "source": "reverse-ray-tracing",
+   "target": "lisa-su",
+   "type": "silicon_web"
+  },
+  {
+   "source": "risc-v",
+   "target": "jensen-huang",
+   "type": "silicon_web"
+  },
+  {
+   "source": "open-silicon-stack",
+   "target": "jensen-huang",
+   "type": "silicon_web"
+  },
+  {
+   "source": "reverse-ray-tracing",
+   "target": "jensen-huang",
+   "type": "silicon_web"
+  },
+  {
+   "source": "risc-v",
+   "target": "torvalds",
+   "type": "parallel_to"
+  },
+  {
+   "source": "risc-v",
+   "target": "brainchip-akida",
+   "type": "hosts"
+  },
+  {
+   "source": "brainchip-akida",
+   "target": "risc-v",
+   "type": "runs_on"
+  },
+  {
+   "source": "open-silicon-stack",
+   "target": "brainchip-akida",
+   "type": "includes"
+  },
+  {
+   "source": "open-silicon-stack",
+   "target": "amd",
+   "type": "includes"
+  },
+  {
+   "source": "amd",
+   "target": "open-silicon-stack",
+   "type": "gpu_layer"
+  },
+  {
+   "source": "open-silicon-stack",
+   "target": "nvidia",
+   "type": "alternative_to"
+  },
+  {
+   "source": "risc-v",
+   "target": "nvidia",
+   "type": "frees_from"
+  },
+  {
+   "source": "reverse-ray-tracing",
+   "target": "stallworth-dynasty",
+   "type": "methodology_for"
+  },
+  {
+   "source": "reverse-ray-tracing",
+   "target": "dpscd",
+   "type": "methodology_for"
+  },
+  {
+   "source": "reverse-ray-tracing",
+   "target": "save-detroit-jobs",
+   "type": "methodology_for"
+  },
+  {
+   "source": "reverse-ray-tracing",
+   "target": "the-theft",
+   "type": "methodology_for"
+  },
+  {
+   "source": "reverse-ray-tracing",
+   "target": "the-rate",
+   "type": "methodology_for"
+  },
+  {
+   "source": "reverse-ray-tracing",
+   "target": "the-reversal",
+   "type": "methodology_for"
+  },
+  {
+   "source": "reverse-ray-tracing",
+   "target": "the-mirror",
+   "type": "illuminates"
+  },
+  {
+   "source": "reverse-ray-tracing",
+   "target": "shape-of-human",
+   "type": "illuminates"
+  },
+  {
+   "source": "reverse-ray-tracing",
+   "target": "vitruvian-man",
+   "type": "illuminates"
+  },
+  {
+   "source": "reverse-ray-tracing",
+   "target": "the-outward-view",
+   "type": "illuminates"
+  },
+  {
+   "source": "reverse-ray-tracing",
+   "target": "the-wall-the-monster-the-dude",
+   "type": "illuminates"
+  },
+  {
+   "source": "reverse-ray-tracing",
+   "target": "the-architects",
+   "type": "illuminates"
+  },
+  {
+   "source": "reverse-ray-tracing",
+   "target": "pinocchio-concept",
+   "type": "illuminates"
+  },
+  {
+   "source": "risc-v",
+   "target": "membrane",
+   "type": "published_through"
+  },
+  {
+   "source": "risc-v",
+   "target": "ecoprimal",
+   "type": "authored_by"
+  },
+  {
+   "source": "risc-v",
+   "target": "the-outward-view",
+   "type": "seen_from"
+  },
+  {
+   "source": "open-silicon-stack",
+   "target": "membrane",
+   "type": "published_through"
+  },
+  {
+   "source": "open-silicon-stack",
+   "target": "ecoprimal",
+   "type": "authored_by"
+  },
+  {
+   "source": "open-silicon-stack",
+   "target": "the-outward-view",
+   "type": "seen_from"
+  },
+  {
+   "source": "reverse-ray-tracing",
+   "target": "membrane",
+   "type": "published_through"
+  },
+  {
+   "source": "reverse-ray-tracing",
+   "target": "ecoprimal",
+   "type": "authored_by"
+  },
+  {
+   "source": "reverse-ray-tracing",
+   "target": "the-outward-view",
+   "type": "seen_from"
+  },
+  {
+   "source": "reverse-ray-tracing",
+   "target": "turing",
+   "type": "built_on_vision_of"
+  },
+  {
+   "source": "risc-v",
+   "target": "turing",
+   "type": "built_on_vision_of"
+  },
+  {
+   "source": "reverse-ray-tracing",
+   "target": "feynman",
+   "type": "built_on_vision_of"
+  },
+  {
+   "source": "risc-v",
+   "target": "feynman",
+   "type": "built_on_vision_of"
+  },
+  {
+   "source": "reverse-ray-tracing",
+   "target": "hopper",
+   "type": "built_on_vision_of"
+  },
+  {
+   "source": "risc-v",
+   "target": "hopper",
+   "type": "built_on_vision_of"
+  },
+  {
+   "source": "reverse-ray-tracing",
+   "target": "lovelace",
+   "type": "built_on_vision_of"
+  },
+  {
+   "source": "risc-v",
+   "target": "lovelace",
+   "type": "built_on_vision_of"
+  },
+  {
+   "source": "reverse-ray-tracing",
+   "target": "wozniak",
+   "type": "built_on_vision_of"
+  },
+  {
+   "source": "risc-v",
+   "target": "wozniak",
+   "type": "built_on_vision_of"
+  },
+  {
+   "source": "reverse-ray-tracing",
+   "target": "da-vinci",
+   "type": "built_on_vision_of"
+  },
+  {
+   "source": "risc-v",
+   "target": "da-vinci",
+   "type": "built_on_vision_of"
+  },
+  {
+   "source": "reverse-ray-tracing",
+   "target": "meta-platforms",
+   "type": "decomposes"
+  },
+  {
+   "source": "reverse-ray-tracing",
+   "target": "meta",
+   "type": "decomposes"
+  },
+  {
+   "source": "reverse-ray-tracing",
+   "target": "true-face-of-mark",
+   "type": "decomposes"
+  },
+  {
+   "source": "reverse-ray-tracing",
+   "target": "scyborg-damages-ledger",
+   "type": "evidence_for"
+  },
+  {
+   "source": "reverse-ray-tracing",
+   "target": "scyborg-license",
+   "type": "evidence_for"
   }
  ]
 }
