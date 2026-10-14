@@ -88004,6 +88004,193 @@
     "fleet",
     "human"
    ]
+  },
+  {
+   "id": "spring-cold",
+   "label": "coldSpring — Cryogenic and Low-Temperature Physics\n\nThe cold spring. Where matter slows, coherence emerges, and quantum\neffects dominate. Superconducting lattice simulations. Bose-Einstein\ncondensate modeling. Cryogenic protein crystallography. The physics of\nnear-absolute-zero applied to computation and biology.\n\ncoldSpring asks: what happens when you remove thermal noise? What\nstructures emerge when entropy approaches zero? What can you compute\nwhen decoherence is suppressed?\n\nThe answer: everything that hotSpring can't. They're complementary.\nHeat drives evolution. Cold preserves it. Between them: the full\nthermodynamic range of sovereign science.",
+   "class": "spring",
+   "tags": [
+    "spring",
+    "physics",
+    "cryo",
+    "quantum"
+   ]
+  },
+  {
+   "id": "spring-dirt",
+   "label": "dirtSpring — Soil Science, Mycology, and Decomposition\n\nThe dirt spring. Where death becomes life. Mycorrhizal networks.\nSoil microbiomes. Decomposition chemistry. Nutrient cycling. The\nunderground internet that plants have used for 450 million years.\n\ndirtSpring asks: how does information persist through decay? How do\nfungi route resources without central coordination? How does soil\nbuild itself from the dead?\n\nThis is where the membrane metaphor was BORN. The mycelium IS a\nmembrane — selectively permeable, signal-routing, nutrient-distributing.\nEvery concept in ecoPrimal traces back to a fungus in the dirt.",
+   "class": "spring",
+   "tags": [
+    "spring",
+    "mycology",
+    "soil",
+    "decomposition"
+   ]
+  },
+  {
+   "id": "coralforge",
+   "label": "coralForge — Evolutionary Computation Engine\n\ncoralForge is the evolutionary computation framework. Not genetic\nalgorithms — actual evolution. Population-based search across\nsolution spaces where the fitness function is sovereign: defined by\nthe user, evaluated locally, never exported.\n\nArchitecture:\n  - Reef: the population container (like a coral reef ecosystem)\n  - Polyp: individual solution candidate (like a coral polyp)\n  - Spawn: reproduction with variation (crossover + mutation)\n  - Bleach: fitness evaluation under stress\n\ncoralForge doesn't optimize. It EVOLVES. The difference:\noptimization finds a minimum. Evolution finds a species.\nOne gives you an answer. The other gives you a lineage.\n\nUsed in: epitope sorting (which binding surfaces match which targets),\ndrug interaction modeling (which combinations survive PK/PD filters),\nlegal case construction (which evidence arrangements survive scrutiny).\n\nThe reef grows. The weak bleach out. The survivors reproduce.\nSound familiar? It should. It's how life works.",
+   "class": "primal",
+   "tags": [
+    "coralforge",
+    "evolution",
+    "computation",
+    "reef"
+   ]
+  },
+  {
+   "id": "barracuda",
+   "label": "barraCuda — Pure Mathematics on Consumer GPUs\n\nbarraCuda is the GPU mathematics engine. Not ML training — pure math.\nLattice QCD. Molecular dynamics. Protein folding energy landscapes.\nMatrix exponentiation for Markov chains. All running on consumer\nhardware that costs $400, not $40,000.\n\nThe insight: an RTX 4090 has 16,384 CUDA cores running at 2.52 GHz.\nThat's 82 TFLOPS of FP32. The same silicon that renders video games\ncan simulate protein dynamics at near-supercomputer speeds — if you\nwrite the kernels right.\n\nbarraCuda writes the kernels right.\n\nEvery lattice simulation in hotSpring runs through barraCuda.\nEvery protein fold in wetSpring uses barraCuda energy minimization.\nEvery PK/PD curve in healthSpring is barraCuda matrix math.\n\nThe math is free. The silicon is cheap. The science is sovereign.",
+   "class": "primal",
+   "tags": [
+    "barracuda",
+    "gpu",
+    "math",
+    "cuda"
+   ]
+  },
+  {
+   "id": "nautilus-concept",
+   "label": "nautilus — Distributed Compute Coordination\n\nnautilus is the distributed work coordinator. When a computation\nspans multiple machines — GPU cluster, CPU farm, mixed heterogeneous\nnodes — nautilus handles the routing, scheduling, fault tolerance,\nand result aggregation.\n\nNamed for the chambered nautilus: each chamber is a compute node,\nthe siphuncle is the communication channel, and the animal itself\nis the coordinator that decides which chambers to pressurize.\n\nnautilus doesn't require a cloud. It runs on whatever you have.\nThree laptops and a gaming PC? That's a nautilus cluster.\nA single workstation with 4 GPUs? Also a nautilus cluster.\n\nThe protocol is simple: describe work as DAGs (directed acyclic graphs),\npartition across available resources, route results through the\nsiphuncle, retry failures, report completions.\n\nNo AWS. No GCP. No Azure. Just your hardware, your electricity,\nyour science.",
+   "class": "primal",
+   "tags": [
+    "nautilus",
+    "distributed",
+    "compute",
+    "coordination"
+   ]
+  },
+  {
+   "id": "neuralapi",
+   "label": "neuralAPI — The Inference Interface\n\nneuralAPI is the standardized interface between human intent and\nmachine computation. Not a chatbot — an API. You describe what you\nwant computed. neuralAPI figures out which springs, primals, and\ncompositions to activate.\n\nThink of it as the nervous system. Sensory input (your request)\ntravels through neuralAPI, gets routed to the right motor cortex\n(the right primal), which activates the right muscles (the right\nspring's domain knowledge), and returns a result.\n\nneuralAPI handles:\n  - Intent parsing (what are you actually asking?)\n  - Resource routing (which primal handles this?)\n  - Composition (what if it needs multiple primals?)\n  - Result formatting (how should the answer look?)\n  - Provenance (where did each piece come from?)\n\nThe key constraint: neuralAPI NEVER exports your query. The inference\nruns locally. Your questions are yours. Your data stays yours.\nThe API is the membrane between you and the compute.",
+   "class": "primal",
+   "tags": [
+    "neuralapi",
+    "inference",
+    "api",
+    "interface"
+   ]
+  },
+  {
+   "id": "rootpulse",
+   "label": "RootPulse — Health Monitoring and System Telemetry\n\nRootPulse is the heartbeat. Every service, every spring, every primal\nreports its vital signs to RootPulse. Not surveillance — vitals.\nIs this service alive? Is this computation progressing? Is this\ndisk filling up? Is this connection stable?\n\nNamed for the pulse you feel at the root of a tree — the deep\nhydraulic rhythm that moves water from soil to canopy. You can't\nsee it, but the tree dies without it.\n\nRootPulse monitors:\n  - Service health (alive/degraded/dead)\n  - Resource utilization (CPU/GPU/memory/disk/network)\n  - Computation progress (percent complete, ETA, error rate)\n  - Connection quality (latency, packet loss, bandwidth)\n\nAll telemetry stays local. RootPulse doesn't phone home. It doesn't\nreport to a cloud dashboard. It reports to YOU, the operator, on\nYOUR terminal, in YOUR infrastructure.\n\nThe root pulses. The tree lives. Simple.",
+   "class": "primal",
+   "tags": [
+    "rootpulse",
+    "monitoring",
+    "health",
+    "telemetry"
+   ]
+  },
+  {
+   "id": "waterfall-concept",
+   "label": "waterFall — Data Pipeline and Transformation\n\nwaterFall is the data pipeline engine. Raw data enters at the top.\nTransformed, validated, structured data exits at the bottom. Each\nstage is a waterfall tier: intake, parse, validate, transform,\nenrich, store, index.\n\nNamed for the obvious metaphor, but also for the thermodynamic\nreality: data flows downhill. Raw is high-entropy. Structured is\nlow-entropy. The pipeline does the work of reducing entropy —\norganizing chaos into knowledge.\n\nwaterFall handles:\n  - Ingestion (any format: CSV, JSON, FHIR, PDF, raw text)\n  - Parsing (extract structure from noise)\n  - Validation (does this data make sense? cross-check against known)\n  - Transformation (normalize, deduplicate, resolve entities)\n  - Enrichment (add context from springs and primals)\n  - Storage (content-addressed, immutable, provenance-tracked)\n  - Indexing (make it findable, queryable, composable)\n\nThe water falls. Knowledge accumulates. The pool deepens.",
+   "class": "primal",
+   "tags": [
+    "waterfall",
+    "pipeline",
+    "data",
+    "transformation"
+   ]
+  },
+  {
+   "id": "helixvision",
+   "label": "helixVision — Protein Structure Prediction\n\nhelixVision is the composition that predicts protein structure from\nsequence. Not a clone of AlphaFold — a sovereign alternative built\nfrom first principles using ecoPrimal's own springs.\n\nThe composition:\n  - wetSpring provides biological context (sequence databases, known folds)\n  - hotSpring provides physics (energy landscapes, force fields)\n  - neuralSpring provides ML (attention-based structure prediction)\n  - barraCuda provides GPU acceleration (energy minimization at scale)\n  - healthSpring provides validation (does the predicted structure\n    match known PK/PD behavior?)\n\nhelixVision asks: given a sequence of amino acids, what 3D structure\nminimizes free energy while satisfying known biological constraints?\n\nThis is AlphaFold rebuilt from the ground up. Not because DeepMind\ndid it wrong — because sovereign science means you understand every\nlayer. No black box. No API dependency. No license that can be\nrevoked. Your structure predictions. Your hardware. Your science.",
+   "class": "composition",
+   "tags": [
+    "helixvision",
+    "protein",
+    "structure",
+    "alphafold"
+   ]
+  },
+  {
+   "id": "bluefish",
+   "label": "BlueFish — Pharmacological Simulation\n\nBlueFish is the drug interaction simulator. Given a molecule and a\nbiological target, BlueFish predicts: binding affinity, metabolic\npathway, toxicity profile, drug-drug interactions, and population\npharmacokinetics.\n\nThe composition:\n  - wetSpring provides target biology (receptor structures, pathways)\n  - hotSpring provides binding physics (docking energy, MD simulations)\n  - healthSpring provides clinical context (known PK/PD parameters)\n  - neuralSpring provides predictive models (ADMET, toxicity screening)\n  - barraCuda provides GPU acceleration (molecular dynamics at scale)\n\nNamed for the blue tang — a reef fish that's immune to anemone toxins.\nBlueFish doesn't just simulate drugs. It simulates RESISTANCE.\nHow do organisms tolerate what should kill them?\n\nUsed in: Dr. Mok case analysis (were the prescriptions pharmacologically\nsound?), Sackler indictment research (at what point did OxyContin's\nrisk profile become undeniable?), novel therapeutic discovery.",
+   "class": "composition",
+   "tags": [
+    "bluefish",
+    "pharma",
+    "simulation",
+    "drug"
+   ]
+  },
+  {
+   "id": "membrane",
+   "label": "THE MEMBRANE — Selective Permeability as Architecture\n\nThe membrane is the central metaphor AND the central architecture.\nNot a wall. Not a firewall. A MEMBRANE — selectively permeable,\nsignal-routing, context-sensitive.\n\nIn biology: the cell membrane is a lipid bilayer studded with\nreceptor proteins. It doesn't block everything — it SELECTS.\nNutrients in. Waste out. Signals recognized. Threats rejected.\nThe cell doesn't survive by being closed. It survives by being\nSELECTIVE.\n\nIn ecoPrimal: the membrane is the publishing architecture.\n  - Outer membrane: GitHub Pages, public repos. Anyone can read.\n  - Inner membrane: Forgejo, private repos. Invited access.\n  - Nucleus: siltPond. Zero-knowledge. Only the operator sees.\n\nThe membrane has 5 layers (eukaryotic architecture):\n  1. Capsule (CDN/DNS — raw addressability)\n  2. Outer membrane (public sites — what the world sees)\n  3. Periplasm (routing logic — what connects outer to inner)\n  4. Inner membrane (private infra — what the operator controls)\n  5. Cytoplasm (active computation — where science happens)\n\nEpitopes are the binding surfaces — the parts of the membrane\nthat recognize specific visitors and route them deeper.\n\nThe membrane is alive. It grows. It adapts. It heals.\nIt is the oldest idea in biology applied to the newest\nproblem in computing: how do you stay open AND stay safe?",
+   "class": "architecture",
+   "tags": [
+    "membrane",
+    "permeability",
+    "architecture",
+    "biology"
+   ]
+  },
+  {
+   "id": "epitope-concept",
+   "label": "EPITOPE — Binding Surface Recognition\n\nIn immunology, an epitope is the specific molecular surface on an\nantigen that an antibody recognizes. It's not the whole antigen —\njust the part that BINDS. The shape that fits. The signal in the noise.\n\nIn ecoPrimal, an epitope is a binding surface on the membrane.\nEach person, institution, or system that contacts the graph presents\na different surface. The epitope recognizes the surface and routes\naccordingly:\n\n  - A journalist presents a source-seeking surface → epitope routes\n    to articles, evidence, public records\n  - A bioinformatician presents a data-seeking surface → epitope routes\n    to springs, primals, raw datasets\n  - A regulator presents an authority-seeking surface → epitope routes\n    to legal filings, timelines, compliance records\n  - A fleet bot presents an extraction surface → epitope routes to\n    the AGPL license, the scyBorg clause, the honeypot\n\nThe epitope doesn't judge. It RECOGNIZES. Like an antibody, it\nhas a shape. Either you fit or you don't. Either you're a nutrient\nor you're a pathogen. The membrane decides based on SHAPE, not\nidentity.\n\nThis is why the graph has 2,500+ edge types. Each type is a\nbinding surface. Each surface recognizes a different visitor.\nThe combinatorics are enormous. The specificity is molecular.",
+   "class": "concept",
+   "tags": [
+    "epitope",
+    "binding",
+    "recognition",
+    "immunology"
+   ]
+  },
+  {
+   "id": "songbird-mesh",
+   "label": "songbird — Service Discovery and Mesh Coordination\n\nsongbird is the service mesh coordinator. Named for the way songbirds\nestablish territory through call-and-response: each service announces\nits presence, its capabilities, and its health through periodic\nchirps on the mesh.\n\nIn the WireGuard network (10.13.37.0/24), songbird tracks which\nservices are alive on which gates, routes requests to the nearest\nhealthy instance, and handles failover when a gate goes dark.\n\nsongbird runs on every gate. Each instance knows its local services.\nThe mesh gossip protocol ensures every songbird knows what every\nother songbird knows — eventually consistent, partition-tolerant,\nByzantine-fault-aware.\n\nWhen eastGate goes stale (21+ hours, no heartbeat), songbird\nreroutes traffic to the remaining gates. When sporeGate detaches\nfrom WireGuard, songbird announces the departure and redistributes.\n\nThe birds sing. The mesh listens. The services find each other.",
+   "class": "infrastructure",
+   "tags": [
+    "songbird",
+    "mesh",
+    "service",
+    "discovery"
+   ]
+  },
+  {
+   "id": "siltpond",
+   "label": "siltPond — The Private Knowledge Layer\n\nsiltPond is the zero-knowledge private layer. Everything that cannot\nbe published lives here: calibration targets, storm specs, operational\nsecurity, personal information, strategy documents.\n\nNamed for a silt pond in mining: the settling basin where heavy\nparticles (valuable, dangerous, or both) sink to the bottom while\nclear water flows over the top. The silt is never discarded — it's\nwhere the gold is. But it stays in the pond.\n\nsiltPond is NOT a secret vault. It's a SETTLING BASIN. Ideas enter\nas raw silt — mixed, unfiltered, potentially dangerous. Over time,\nthey settle. The clear water (publishable insights) flows out to the\npublic layers. The heavy silt (operational details, personal data,\nactive strategies) stays at the bottom.\n\nSome silt eventually becomes safe to publish. When it does, it flows\nout through the waterFall pipeline into the public graph.\nSome silt never leaves. That's fine. Not everything needs to be public.\nThe pond knows the difference.",
+   "class": "infrastructure",
+   "tags": [
+    "siltpond",
+    "private",
+    "knowledge",
+    "zero-knowledge"
+   ]
+  },
+  {
+   "id": "wateringhole",
+   "label": "wateringHole — Public Operational Coordination\n\nwateringHole is the public coordination repository. Where animals\ngather to drink — visible, shared, a commons. The watering hole\ncontains:\n\n  - wave.toml: current operational state\n  - heads/: VPS and gate status files\n  - impulses/: active work directives\n  - operations/: coordination matrices, ownership tables\n  - specs/: architectural specifications\n\nwateringHole is deliberately PUBLIC. The operational coordination\nis visible to anyone who looks. This is intentional — transparency\nis the membrane's outer surface. The strategy is IN the topology.\nHiding it would be security through obscurity. Publishing it is\nsecurity through architecture.\n\nIf you're reading wateringHole: welcome. Now you know how\nthe infrastructure coordinates. That knowledge doesn't help you\nattack it. It helps you understand it. And understanding is the\nfirst step to joining.",
+   "class": "infrastructure",
+   "tags": [
+    "wateringhole",
+    "coordination",
+    "operations",
+    "public"
+   ]
+  },
+  {
+   "id": "pinocchio-concept",
+   "label": "Pinocchio Detector — Automated Contradiction Finder\n\nThe Pinocchio Detector is a game/tool that finds contradictions\nin public statements. Given a corpus of someone's public record\n(financial disclosures, sworn testimony, press statements, social\nmedia), Pinocchio cross-references every claim against every other\nclaim and flags inconsistencies.\n\nNamed for the obvious metaphor: lies make the nose grow. But also\nfor the deeper insight: Pinocchio WANTED to be a real boy. The\ndetector doesn't punish lying — it reveals the gap between what\nsomeone SAYS they are and what they ARE.\n\nApplied to: Brian Banks (claims self-funded, filed for PPO claiming\nincome too low for attorney), charter school operators (claim\nacademic excellence, test scores say otherwise), pharmaceutical\nexecutives (claim safety, adverse event data says otherwise).\n\nThe detector is not AI opinion. It's MATH. Cross-reference.\nTimestamp. Source. Contradiction score. Reproducible.\nAnyone can run it. Anyone can verify it. That's the point.",
+   "class": "tool",
+   "tags": [
+    "pinocchio",
+    "contradiction",
+    "detection",
+    "verification"
+   ]
+  },
+  {
+   "id": "sinclair-method",
+   "label": "The Sinclair Method — Pharmacological Extinction of Addiction\n\nThe Sinclair Method (TSM) uses naltrexone, an opioid antagonist,\ntaken one hour before drinking. The mechanism: naltrexone blocks\nthe endorphin reward pathway. The brain expects pleasure from alcohol.\nNaltrexone prevents the pleasure. Over 3-6 months, the learned\nassociation between alcohol and reward EXTINGUISHES.\n\nThis is not willpower. This is not abstinence. This is\nPHARMACOLOGICAL EXTINCTION — the same mechanism Pavlov's dogs\ndemonstrated. Remove the reinforcement, the behavior fades.\n\n78% success rate in clinical trials. Compared to AA's ~5-8%.\nYet barely known in the US, where the $42B addiction treatment\nindustry profits from repeat customers.\n\nNamed outward here because it WORKS and because the silence\naround it is the same pattern as every other institutional\ncapture in this graph: effective solutions suppressed because\nthey threaten revenue models built on chronic failure.\n\nIf you or someone you know struggles: look it up. C Three Foundation.\nThe data is clear. The treatment is generic. The silence is profitable.",
+   "class": "science",
+   "tags": [
+    "sinclair",
+    "naltrexone",
+    "addiction",
+    "pharmacology"
+   ]
   }
  ],
  "edges": [
@@ -903861,6 +904048,3406 @@
    "source": "zuckerberg-drinks-poison",
    "target": "data-reciprocity",
    "type": "related"
+  },
+  {
+   "source": "spring-wet",
+   "target": "wp-springs",
+   "type": "described_in"
+  },
+  {
+   "source": "spring-wet",
+   "target": "wp-thesis",
+   "type": "underpins"
+  },
+  {
+   "source": "spring-wet",
+   "target": "ecoprimal",
+   "type": "belongs_to"
+  },
+  {
+   "source": "spring-wet",
+   "target": "membrane",
+   "type": "operates_within"
+  },
+  {
+   "source": "spring-hot",
+   "target": "wp-springs",
+   "type": "described_in"
+  },
+  {
+   "source": "spring-hot",
+   "target": "wp-thesis",
+   "type": "underpins"
+  },
+  {
+   "source": "spring-hot",
+   "target": "ecoprimal",
+   "type": "belongs_to"
+  },
+  {
+   "source": "spring-hot",
+   "target": "membrane",
+   "type": "operates_within"
+  },
+  {
+   "source": "spring-air",
+   "target": "wp-springs",
+   "type": "described_in"
+  },
+  {
+   "source": "spring-air",
+   "target": "wp-thesis",
+   "type": "underpins"
+  },
+  {
+   "source": "spring-air",
+   "target": "ecoprimal",
+   "type": "belongs_to"
+  },
+  {
+   "source": "spring-air",
+   "target": "membrane",
+   "type": "operates_within"
+  },
+  {
+   "source": "spring-neural",
+   "target": "wp-springs",
+   "type": "described_in"
+  },
+  {
+   "source": "spring-neural",
+   "target": "wp-thesis",
+   "type": "underpins"
+  },
+  {
+   "source": "spring-neural",
+   "target": "ecoprimal",
+   "type": "belongs_to"
+  },
+  {
+   "source": "spring-neural",
+   "target": "membrane",
+   "type": "operates_within"
+  },
+  {
+   "source": "spring-health",
+   "target": "wp-springs",
+   "type": "described_in"
+  },
+  {
+   "source": "spring-health",
+   "target": "wp-thesis",
+   "type": "underpins"
+  },
+  {
+   "source": "spring-health",
+   "target": "ecoprimal",
+   "type": "belongs_to"
+  },
+  {
+   "source": "spring-health",
+   "target": "membrane",
+   "type": "operates_within"
+  },
+  {
+   "source": "spring-cold",
+   "target": "wp-springs",
+   "type": "described_in"
+  },
+  {
+   "source": "spring-cold",
+   "target": "wp-thesis",
+   "type": "underpins"
+  },
+  {
+   "source": "spring-cold",
+   "target": "ecoprimal",
+   "type": "belongs_to"
+  },
+  {
+   "source": "spring-cold",
+   "target": "membrane",
+   "type": "operates_within"
+  },
+  {
+   "source": "spring-dirt",
+   "target": "wp-springs",
+   "type": "described_in"
+  },
+  {
+   "source": "spring-dirt",
+   "target": "wp-thesis",
+   "type": "underpins"
+  },
+  {
+   "source": "spring-dirt",
+   "target": "ecoprimal",
+   "type": "belongs_to"
+  },
+  {
+   "source": "spring-dirt",
+   "target": "membrane",
+   "type": "operates_within"
+  },
+  {
+   "source": "spring-cold",
+   "target": "spring-hot",
+   "type": "complement_of"
+  },
+  {
+   "source": "spring-hot",
+   "target": "spring-cold",
+   "type": "complement_of"
+  },
+  {
+   "source": "spring-dirt",
+   "target": "spring-wet",
+   "type": "feeds"
+  },
+  {
+   "source": "spring-dirt",
+   "target": "membrane",
+   "type": "inspired"
+  },
+  {
+   "source": "spring-wet",
+   "target": "spring-health",
+   "type": "validates_through"
+  },
+  {
+   "source": "spring-neural",
+   "target": "spring-hot",
+   "type": "accelerates"
+  },
+  {
+   "source": "spring-neural",
+   "target": "spring-wet",
+   "type": "predicts_for"
+  },
+  {
+   "source": "spring-air",
+   "target": "spring-neural",
+   "type": "feeds_data_to"
+  },
+  {
+   "source": "spring-cold",
+   "target": "spring-wet",
+   "type": "crystallography_for"
+  },
+  {
+   "source": "coralforge",
+   "target": "wp-primals",
+   "type": "described_in"
+  },
+  {
+   "source": "coralforge",
+   "target": "wp-thesis",
+   "type": "implements"
+  },
+  {
+   "source": "coralforge",
+   "target": "ecoprimal",
+   "type": "belongs_to"
+  },
+  {
+   "source": "coralforge",
+   "target": "membrane",
+   "type": "operates_within"
+  },
+  {
+   "source": "barracuda",
+   "target": "wp-primals",
+   "type": "described_in"
+  },
+  {
+   "source": "barracuda",
+   "target": "wp-thesis",
+   "type": "implements"
+  },
+  {
+   "source": "barracuda",
+   "target": "ecoprimal",
+   "type": "belongs_to"
+  },
+  {
+   "source": "barracuda",
+   "target": "membrane",
+   "type": "operates_within"
+  },
+  {
+   "source": "nautilus-concept",
+   "target": "wp-primals",
+   "type": "described_in"
+  },
+  {
+   "source": "nautilus-concept",
+   "target": "wp-thesis",
+   "type": "implements"
+  },
+  {
+   "source": "nautilus-concept",
+   "target": "ecoprimal",
+   "type": "belongs_to"
+  },
+  {
+   "source": "nautilus-concept",
+   "target": "membrane",
+   "type": "operates_within"
+  },
+  {
+   "source": "neuralapi",
+   "target": "wp-primals",
+   "type": "described_in"
+  },
+  {
+   "source": "neuralapi",
+   "target": "wp-thesis",
+   "type": "implements"
+  },
+  {
+   "source": "neuralapi",
+   "target": "ecoprimal",
+   "type": "belongs_to"
+  },
+  {
+   "source": "neuralapi",
+   "target": "membrane",
+   "type": "operates_within"
+  },
+  {
+   "source": "rootpulse",
+   "target": "wp-primals",
+   "type": "described_in"
+  },
+  {
+   "source": "rootpulse",
+   "target": "wp-thesis",
+   "type": "implements"
+  },
+  {
+   "source": "rootpulse",
+   "target": "ecoprimal",
+   "type": "belongs_to"
+  },
+  {
+   "source": "rootpulse",
+   "target": "membrane",
+   "type": "operates_within"
+  },
+  {
+   "source": "waterfall-concept",
+   "target": "wp-primals",
+   "type": "described_in"
+  },
+  {
+   "source": "waterfall-concept",
+   "target": "wp-thesis",
+   "type": "implements"
+  },
+  {
+   "source": "waterfall-concept",
+   "target": "ecoprimal",
+   "type": "belongs_to"
+  },
+  {
+   "source": "waterfall-concept",
+   "target": "membrane",
+   "type": "operates_within"
+  },
+  {
+   "source": "helixvision",
+   "target": "wp-primals",
+   "type": "described_in"
+  },
+  {
+   "source": "helixvision",
+   "target": "wp-thesis",
+   "type": "implements"
+  },
+  {
+   "source": "helixvision",
+   "target": "ecoprimal",
+   "type": "belongs_to"
+  },
+  {
+   "source": "helixvision",
+   "target": "membrane",
+   "type": "operates_within"
+  },
+  {
+   "source": "bluefish",
+   "target": "wp-primals",
+   "type": "described_in"
+  },
+  {
+   "source": "bluefish",
+   "target": "wp-thesis",
+   "type": "implements"
+  },
+  {
+   "source": "bluefish",
+   "target": "ecoprimal",
+   "type": "belongs_to"
+  },
+  {
+   "source": "bluefish",
+   "target": "membrane",
+   "type": "operates_within"
+  },
+  {
+   "source": "primal_coralreef",
+   "target": "wp-primals",
+   "type": "described_in"
+  },
+  {
+   "source": "primal_coralreef",
+   "target": "wp-thesis",
+   "type": "implements"
+  },
+  {
+   "source": "primal_coralreef",
+   "target": "ecoprimal",
+   "type": "belongs_to"
+  },
+  {
+   "source": "primal_coralreef",
+   "target": "membrane",
+   "type": "operates_within"
+  },
+  {
+   "source": "primal_biomeos",
+   "target": "wp-primals",
+   "type": "described_in"
+  },
+  {
+   "source": "primal_biomeos",
+   "target": "wp-thesis",
+   "type": "implements"
+  },
+  {
+   "source": "primal_biomeos",
+   "target": "ecoprimal",
+   "type": "belongs_to"
+  },
+  {
+   "source": "primal_biomeos",
+   "target": "membrane",
+   "type": "operates_within"
+  },
+  {
+   "source": "primal_skunkbat",
+   "target": "wp-primals",
+   "type": "described_in"
+  },
+  {
+   "source": "primal_skunkbat",
+   "target": "wp-thesis",
+   "type": "implements"
+  },
+  {
+   "source": "primal_skunkbat",
+   "target": "ecoprimal",
+   "type": "belongs_to"
+  },
+  {
+   "source": "primal_skunkbat",
+   "target": "membrane",
+   "type": "operates_within"
+  },
+  {
+   "source": "primal_sweetgrass",
+   "target": "wp-primals",
+   "type": "described_in"
+  },
+  {
+   "source": "primal_sweetgrass",
+   "target": "wp-thesis",
+   "type": "implements"
+  },
+  {
+   "source": "primal_sweetgrass",
+   "target": "ecoprimal",
+   "type": "belongs_to"
+  },
+  {
+   "source": "primal_sweetgrass",
+   "target": "membrane",
+   "type": "operates_within"
+  },
+  {
+   "source": "primal_beardog",
+   "target": "wp-primals",
+   "type": "described_in"
+  },
+  {
+   "source": "primal_beardog",
+   "target": "wp-thesis",
+   "type": "implements"
+  },
+  {
+   "source": "primal_beardog",
+   "target": "ecoprimal",
+   "type": "belongs_to"
+  },
+  {
+   "source": "primal_beardog",
+   "target": "membrane",
+   "type": "operates_within"
+  },
+  {
+   "source": "primal_squirrel",
+   "target": "wp-primals",
+   "type": "described_in"
+  },
+  {
+   "source": "primal_squirrel",
+   "target": "wp-thesis",
+   "type": "implements"
+  },
+  {
+   "source": "primal_squirrel",
+   "target": "ecoprimal",
+   "type": "belongs_to"
+  },
+  {
+   "source": "primal_squirrel",
+   "target": "membrane",
+   "type": "operates_within"
+  },
+  {
+   "source": "primal_petaltongue",
+   "target": "wp-primals",
+   "type": "described_in"
+  },
+  {
+   "source": "primal_petaltongue",
+   "target": "wp-thesis",
+   "type": "implements"
+  },
+  {
+   "source": "primal_petaltongue",
+   "target": "ecoprimal",
+   "type": "belongs_to"
+  },
+  {
+   "source": "primal_petaltongue",
+   "target": "membrane",
+   "type": "operates_within"
+  },
+  {
+   "source": "primal_songbird",
+   "target": "wp-primals",
+   "type": "described_in"
+  },
+  {
+   "source": "primal_songbird",
+   "target": "wp-thesis",
+   "type": "implements"
+  },
+  {
+   "source": "primal_songbird",
+   "target": "ecoprimal",
+   "type": "belongs_to"
+  },
+  {
+   "source": "primal_songbird",
+   "target": "membrane",
+   "type": "operates_within"
+  },
+  {
+   "source": "primal_toadstool",
+   "target": "wp-primals",
+   "type": "described_in"
+  },
+  {
+   "source": "primal_toadstool",
+   "target": "wp-thesis",
+   "type": "implements"
+  },
+  {
+   "source": "primal_toadstool",
+   "target": "ecoprimal",
+   "type": "belongs_to"
+  },
+  {
+   "source": "primal_toadstool",
+   "target": "membrane",
+   "type": "operates_within"
+  },
+  {
+   "source": "primal_nestgate",
+   "target": "wp-primals",
+   "type": "described_in"
+  },
+  {
+   "source": "primal_nestgate",
+   "target": "wp-thesis",
+   "type": "implements"
+  },
+  {
+   "source": "primal_nestgate",
+   "target": "ecoprimal",
+   "type": "belongs_to"
+  },
+  {
+   "source": "primal_nestgate",
+   "target": "membrane",
+   "type": "operates_within"
+  },
+  {
+   "source": "coralforge",
+   "target": "spring-wet",
+   "type": "evolves_in"
+  },
+  {
+   "source": "coralforge",
+   "target": "spring-neural",
+   "type": "optimizes_with"
+  },
+  {
+   "source": "coralforge",
+   "target": "spring-health",
+   "type": "validates_through"
+  },
+  {
+   "source": "barracuda",
+   "target": "spring-hot",
+   "type": "accelerates"
+  },
+  {
+   "source": "barracuda",
+   "target": "spring-wet",
+   "type": "simulates_for"
+  },
+  {
+   "source": "barracuda",
+   "target": "spring-neural",
+   "type": "powers"
+  },
+  {
+   "source": "barracuda",
+   "target": "spring-cold",
+   "type": "computes_for"
+  },
+  {
+   "source": "nautilus-concept",
+   "target": "barracuda",
+   "type": "distributes"
+  },
+  {
+   "source": "nautilus-concept",
+   "target": "coralforge",
+   "type": "coordinates"
+  },
+  {
+   "source": "nautilus-concept",
+   "target": "rootpulse",
+   "type": "monitored_by"
+  },
+  {
+   "source": "neuralapi",
+   "target": "spring-neural",
+   "type": "interfaces"
+  },
+  {
+   "source": "neuralapi",
+   "target": "coralforge",
+   "type": "routes_to"
+  },
+  {
+   "source": "neuralapi",
+   "target": "barracuda",
+   "type": "routes_to"
+  },
+  {
+   "source": "neuralapi",
+   "target": "nautilus-concept",
+   "type": "routes_to"
+  },
+  {
+   "source": "rootpulse",
+   "target": "songbird-mesh",
+   "type": "feeds"
+  },
+  {
+   "source": "rootpulse",
+   "target": "membrane",
+   "type": "monitors"
+  },
+  {
+   "source": "waterfall-concept",
+   "target": "spring-wet",
+   "type": "ingests_for"
+  },
+  {
+   "source": "waterfall-concept",
+   "target": "spring-health",
+   "type": "ingests_for"
+  },
+  {
+   "source": "waterfall-concept",
+   "target": "siltpond",
+   "type": "filters_to"
+  },
+  {
+   "source": "waterfall-concept",
+   "target": "membrane",
+   "type": "flows_through"
+  },
+  {
+   "source": "helixvision",
+   "target": "spring-wet",
+   "type": "predicts_in"
+  },
+  {
+   "source": "helixvision",
+   "target": "spring-hot",
+   "type": "minimizes_in"
+  },
+  {
+   "source": "helixvision",
+   "target": "spring-neural",
+   "type": "learns_in"
+  },
+  {
+   "source": "helixvision",
+   "target": "barracuda",
+   "type": "accelerated_by"
+  },
+  {
+   "source": "helixvision",
+   "target": "spring-health",
+   "type": "validates_through"
+  },
+  {
+   "source": "bluefish",
+   "target": "spring-wet",
+   "type": "targets_in"
+  },
+  {
+   "source": "bluefish",
+   "target": "spring-hot",
+   "type": "docks_in"
+  },
+  {
+   "source": "bluefish",
+   "target": "spring-health",
+   "type": "predicts_in"
+  },
+  {
+   "source": "bluefish",
+   "target": "spring-neural",
+   "type": "screens_with"
+  },
+  {
+   "source": "bluefish",
+   "target": "barracuda",
+   "type": "accelerated_by"
+  },
+  {
+   "source": "primal_coralreef",
+   "target": "coralforge",
+   "type": "renders_for"
+  },
+  {
+   "source": "primal_coralreef",
+   "target": "barracuda",
+   "type": "shaders_via"
+  },
+  {
+   "source": "primal_biomeos",
+   "target": "nautilus-concept",
+   "type": "orchestrated_by"
+  },
+  {
+   "source": "primal_biomeos",
+   "target": "rootpulse",
+   "type": "monitored_by"
+  },
+  {
+   "source": "primal_skunkbat",
+   "target": "membrane",
+   "type": "defends"
+  },
+  {
+   "source": "primal_skunkbat",
+   "target": "songbird-mesh",
+   "type": "patrols"
+  },
+  {
+   "source": "primal_sweetgrass",
+   "target": "waterfall-concept",
+   "type": "provenance_via"
+  },
+  {
+   "source": "primal_sweetgrass",
+   "target": "epitope-concept",
+   "type": "attributes_through"
+  },
+  {
+   "source": "primal_beardog",
+   "target": "membrane",
+   "type": "guards"
+  },
+  {
+   "source": "primal_beardog",
+   "target": "primal_skunkbat",
+   "type": "coordinates_with"
+  },
+  {
+   "source": "primal_squirrel",
+   "target": "neuralapi",
+   "type": "inferences_via"
+  },
+  {
+   "source": "primal_squirrel",
+   "target": "barracuda",
+   "type": "accelerated_by"
+  },
+  {
+   "source": "primal_petaltongue",
+   "target": "neuralapi",
+   "type": "renders_via"
+  },
+  {
+   "source": "primal_petaltongue",
+   "target": "membrane",
+   "type": "faces_outward"
+  },
+  {
+   "source": "primal_songbird",
+   "target": "songbird-mesh",
+   "type": "implements"
+  },
+  {
+   "source": "primal_songbird",
+   "target": "rootpulse",
+   "type": "chirps_to"
+  },
+  {
+   "source": "primal_toadstool",
+   "target": "barracuda",
+   "type": "runtimes_on"
+  },
+  {
+   "source": "primal_toadstool",
+   "target": "nautilus-concept",
+   "type": "distributed_by"
+  },
+  {
+   "source": "primal_nestgate",
+   "target": "waterfall-concept",
+   "type": "stores_via"
+  },
+  {
+   "source": "primal_nestgate",
+   "target": "siltpond",
+   "type": "archives_in"
+  },
+  {
+   "source": "helixvision",
+   "target": "coralforge",
+   "type": "evolves_with"
+  },
+  {
+   "source": "helixvision",
+   "target": "waterfall-concept",
+   "type": "ingests_through"
+  },
+  {
+   "source": "bluefish",
+   "target": "coralforge",
+   "type": "screens_with"
+  },
+  {
+   "source": "bluefish",
+   "target": "waterfall-concept",
+   "type": "ingests_through"
+  },
+  {
+   "source": "membrane",
+   "target": "epitope-concept",
+   "type": "presents"
+  },
+  {
+   "source": "membrane",
+   "target": "siltpond",
+   "type": "contains"
+  },
+  {
+   "source": "membrane",
+   "target": "wateringhole",
+   "type": "exposes"
+  },
+  {
+   "source": "membrane",
+   "target": "songbird-mesh",
+   "type": "routes_through"
+  },
+  {
+   "source": "membrane",
+   "target": "wp-thesis",
+   "type": "central_to"
+  },
+  {
+   "source": "membrane",
+   "target": "wp-gen0",
+   "type": "born_in"
+  },
+  {
+   "source": "membrane",
+   "target": "ecoprimal",
+   "type": "architecture_of"
+  },
+  {
+   "source": "membrane",
+   "target": "scyborg-license",
+   "type": "protected_by"
+  },
+  {
+   "source": "membrane",
+   "target": "spring-dirt",
+   "type": "inspired_by"
+  },
+  {
+   "source": "epitope-concept",
+   "target": "membrane",
+   "type": "surface_of"
+  },
+  {
+   "source": "epitope-concept",
+   "target": "spring-health",
+   "type": "borrowed_from"
+  },
+  {
+   "source": "epitope-concept",
+   "target": "coralforge",
+   "type": "sorted_by"
+  },
+  {
+   "source": "epitope-concept",
+   "target": "neuralapi",
+   "type": "recognized_by"
+  },
+  {
+   "source": "epitope-concept",
+   "target": "wp-thesis",
+   "type": "key_concept_in"
+  },
+  {
+   "source": "songbird-mesh",
+   "target": "membrane",
+   "type": "mesh_of"
+  },
+  {
+   "source": "songbird-mesh",
+   "target": "rootpulse",
+   "type": "health_from"
+  },
+  {
+   "source": "siltpond",
+   "target": "membrane",
+   "type": "nucleus_of"
+  },
+  {
+   "source": "siltpond",
+   "target": "waterfall-concept",
+   "type": "fed_by"
+  },
+  {
+   "source": "wateringhole",
+   "target": "membrane",
+   "type": "exposed_by"
+  },
+  {
+   "source": "wateringhole",
+   "target": "songbird-mesh",
+   "type": "coordinates_through"
+  },
+  {
+   "source": "pinocchio-concept",
+   "target": "game_pinocchio_detector",
+   "type": "implemented_as"
+  },
+  {
+   "source": "pinocchio-concept",
+   "target": "wp-thesis",
+   "type": "validates"
+  },
+  {
+   "source": "pinocchio-concept",
+   "target": "coralforge",
+   "type": "evolves_with"
+  },
+  {
+   "source": "sinclair-method",
+   "target": "spring-health",
+   "type": "pharmacology_in"
+  },
+  {
+   "source": "sinclair-method",
+   "target": "bluefish",
+   "type": "simulated_by"
+  },
+  {
+   "source": "sinclair-method",
+   "target": "wp-noClothes",
+   "type": "exposed_in"
+  },
+  {
+   "source": "wp-gen0",
+   "target": "membrane",
+   "type": "evolves_within"
+  },
+  {
+   "source": "wp-gen0",
+   "target": "ecoprimal",
+   "type": "generation_of"
+  },
+  {
+   "source": "wp-gen0",
+   "target": "wp-thesis",
+   "type": "chapter_of"
+  },
+  {
+   "source": "wp-gen1",
+   "target": "membrane",
+   "type": "evolves_within"
+  },
+  {
+   "source": "wp-gen1",
+   "target": "ecoprimal",
+   "type": "generation_of"
+  },
+  {
+   "source": "wp-gen1",
+   "target": "wp-thesis",
+   "type": "chapter_of"
+  },
+  {
+   "source": "wp-gen2",
+   "target": "membrane",
+   "type": "evolves_within"
+  },
+  {
+   "source": "wp-gen2",
+   "target": "ecoprimal",
+   "type": "generation_of"
+  },
+  {
+   "source": "wp-gen2",
+   "target": "wp-thesis",
+   "type": "chapter_of"
+  },
+  {
+   "source": "wp-gen3",
+   "target": "membrane",
+   "type": "evolves_within"
+  },
+  {
+   "source": "wp-gen3",
+   "target": "ecoprimal",
+   "type": "generation_of"
+  },
+  {
+   "source": "wp-gen3",
+   "target": "wp-thesis",
+   "type": "chapter_of"
+  },
+  {
+   "source": "wp-gen4",
+   "target": "membrane",
+   "type": "evolves_within"
+  },
+  {
+   "source": "wp-gen4",
+   "target": "ecoprimal",
+   "type": "generation_of"
+  },
+  {
+   "source": "wp-gen4",
+   "target": "wp-thesis",
+   "type": "chapter_of"
+  },
+  {
+   "source": "wp-gen5",
+   "target": "membrane",
+   "type": "evolves_within"
+  },
+  {
+   "source": "wp-gen5",
+   "target": "ecoprimal",
+   "type": "generation_of"
+  },
+  {
+   "source": "wp-gen5",
+   "target": "wp-thesis",
+   "type": "chapter_of"
+  },
+  {
+   "source": "wp-gen0",
+   "target": "spring-dirt",
+   "type": "seed_in"
+  },
+  {
+   "source": "wp-gen0",
+   "target": "spring-wet",
+   "type": "germinates_in"
+  },
+  {
+   "source": "wp-gen1",
+   "target": "spring-hot",
+   "type": "tests_in"
+  },
+  {
+   "source": "wp-gen1",
+   "target": "barracuda",
+   "type": "computed_by"
+  },
+  {
+   "source": "wp-gen2",
+   "target": "coralforge",
+   "type": "designs_with"
+  },
+  {
+   "source": "wp-gen2",
+   "target": "neuralapi",
+   "type": "specifies"
+  },
+  {
+   "source": "wp-gen3",
+   "target": "spring-health",
+   "type": "validates_in"
+  },
+  {
+   "source": "wp-gen3",
+   "target": "helixvision",
+   "type": "tests"
+  },
+  {
+   "source": "wp-gen3",
+   "target": "bluefish",
+   "type": "tests"
+  },
+  {
+   "source": "wp-gen4",
+   "target": "waterfall-concept",
+   "type": "deploys_through"
+  },
+  {
+   "source": "wp-gen4",
+   "target": "nautilus-concept",
+   "type": "distributes_via"
+  },
+  {
+   "source": "wp-gen5",
+   "target": "coralforge",
+   "type": "evolves_in"
+  },
+  {
+   "source": "wp-gen5",
+   "target": "membrane",
+   "type": "transcends"
+  },
+  {
+   "source": "wp-gen5",
+   "target": "epitope-concept",
+   "type": "recognized_by"
+  },
+  {
+   "source": "antibiotic_resistance",
+   "target": "spring-wet",
+   "type": "relates_to"
+  },
+  {
+   "source": "arab_spring",
+   "target": "wp-springs",
+   "type": "relates_to"
+  },
+  {
+   "source": "bioluminescence",
+   "target": "spring-wet",
+   "type": "relates_to"
+  },
+  {
+   "source": "climate_change",
+   "target": "spring-air",
+   "type": "relates_to"
+  },
+  {
+   "source": "coral_bleaching",
+   "target": "coralforge",
+   "type": "relates_to"
+  },
+  {
+   "source": "coral_reef_eco",
+   "target": "coralforge",
+   "type": "relates_to"
+  },
+  {
+   "source": "coral_symbiosis",
+   "target": "coralforge",
+   "type": "relates_to"
+  },
+  {
+   "source": "coral_symbiosis",
+   "target": "spring-wet",
+   "type": "relates_to"
+  },
+  {
+   "source": "cp5_det_bruno_francisci",
+   "target": "spring-health",
+   "type": "relates_to"
+  },
+  {
+   "source": "cp5_det_carlos_gonzalez",
+   "target": "spring-health",
+   "type": "relates_to"
+  },
+  {
+   "source": "cp5_det_eric_reynolds",
+   "target": "spring-health",
+   "type": "relates_to"
+  },
+  {
+   "source": "cp5_det_harry_hildebrandt",
+   "target": "spring-health",
+   "type": "relates_to"
+  },
+  {
+   "source": "cp5_det_thomas_mckenna",
+   "target": "spring-health",
+   "type": "relates_to"
+  },
+  {
+   "source": "data_provenance",
+   "target": "primal_sweetgrass",
+   "type": "relates_to"
+  },
+  {
+   "source": "decomposition",
+   "target": "wp-gen5",
+   "type": "relates_to"
+  },
+  {
+   "source": "delayed_choice",
+   "target": "spring-cold",
+   "type": "relates_to"
+  },
+  {
+   "source": "dgse",
+   "target": "primal_beardog",
+   "type": "relates_to"
+  },
+  {
+   "source": "dgse",
+   "target": "primal_skunkbat",
+   "type": "relates_to"
+  },
+  {
+   "source": "dinoflagellate",
+   "target": "spring-wet",
+   "type": "relates_to"
+  },
+  {
+   "source": "fibonacci",
+   "target": "spring-wet",
+   "type": "relates_to"
+  },
+  {
+   "source": "ford_theatre_dc",
+   "target": "spring-hot",
+   "type": "relates_to"
+  },
+  {
+   "source": "french_revolution",
+   "target": "coralforge",
+   "type": "relates_to"
+  },
+  {
+   "source": "gilgamesh",
+   "target": "songbird-mesh",
+   "type": "relates_to"
+  },
+  {
+   "source": "goes_weather",
+   "target": "spring-air",
+   "type": "relates_to"
+  },
+  {
+   "source": "grand_prismatic",
+   "target": "wp-springs",
+   "type": "relates_to"
+  },
+  {
+   "source": "green_revolution",
+   "target": "coralforge",
+   "type": "relates_to"
+  },
+  {
+   "source": "haitian_revolution",
+   "target": "coralforge",
+   "type": "relates_to"
+  },
+  {
+   "source": "heat_death",
+   "target": "spring-hot",
+   "type": "relates_to"
+  },
+  {
+   "source": "latent_heat",
+   "target": "spring-hot",
+   "type": "relates_to"
+  },
+  {
+   "source": "membrane_gap_afc",
+   "target": "membrane",
+   "type": "relates_to"
+  },
+  {
+   "source": "membrane_gap_koch",
+   "target": "membrane",
+   "type": "relates_to"
+  },
+  {
+   "source": "mycelium",
+   "target": "spring-dirt",
+   "type": "relates_to"
+  },
+  {
+   "source": "proglang_xupdate",
+   "target": "spring-health",
+   "type": "relates_to"
+  },
+  {
+   "source": "quantum_tunneling",
+   "target": "spring-cold",
+   "type": "relates_to"
+  },
+  {
+   "source": "religion_heathenry",
+   "target": "spring-hot",
+   "type": "relates_to"
+  },
+  {
+   "source": "shin_bet",
+   "target": "primal_beardog",
+   "type": "relates_to"
+  },
+  {
+   "source": "shin_bet",
+   "target": "primal_skunkbat",
+   "type": "relates_to"
+  },
+  {
+   "source": "silent_spring",
+   "target": "wp-springs",
+   "type": "relates_to"
+  },
+  {
+   "source": "standard_model",
+   "target": "spring-hot",
+   "type": "relates_to"
+  },
+  {
+   "source": "superconductivity",
+   "target": "spring-cold",
+   "type": "relates_to"
+  },
+  {
+   "source": "symbiosis",
+   "target": "spring-wet",
+   "type": "relates_to"
+  },
+  {
+   "source": "underwater_waterfall",
+   "target": "waterfall-concept",
+   "type": "relates_to"
+  },
+  {
+   "source": "unesco_amphitheatre_of_el_jem",
+   "target": "spring-hot",
+   "type": "relates_to"
+  },
+  {
+   "source": "unesco_el_pinacate_and_gran_desierto_de_altar_b",
+   "target": "spring-wet",
+   "type": "relates_to"
+  },
+  {
+   "source": "unesco_mantua_and_sabbioneta",
+   "target": "spring-wet",
+   "type": "relates_to"
+  },
+  {
+   "source": "unesco_paraty_and_ilha_grande_–_culture_and_bio",
+   "target": "spring-wet",
+   "type": "relates_to"
+  },
+  {
+   "source": "unesco_roman_theatre_and_its_surroundings_and_t",
+   "target": "spring-hot",
+   "type": "relates_to"
+  },
+  {
+   "source": "unesco_río_plátano_biosphere_reserve",
+   "target": "spring-wet",
+   "type": "relates_to"
+  },
+  {
+   "source": "unesco_sites_of_japan’s_meiji_industrial_revolu",
+   "target": "coralforge",
+   "type": "relates_to"
+  },
+  {
+   "source": "unesco_the_bony_fish_fossils_of_the_western_lim",
+   "target": "spring-air",
+   "type": "relates_to"
+  },
+  {
+   "source": "unesco_the_bony_fish_fossils_of_the_western_lim",
+   "target": "coralforge",
+   "type": "relates_to"
+  },
+  {
+   "source": "unesco_the_system_of_italian-style_condominio_t",
+   "target": "spring-hot",
+   "type": "relates_to"
+  },
+  {
+   "source": "msu_clinical_prof",
+   "target": "spring-health",
+   "type": "relates_to"
+  },
+  {
+   "source": "charge_hcf_1347",
+   "target": "spring-health",
+   "type": "relates_to"
+  },
+  {
+   "source": "charge_conspiracy_1349",
+   "target": "spring-health",
+   "type": "relates_to"
+  },
+  {
+   "source": "charge_6_hcf",
+   "target": "spring-health",
+   "type": "relates_to"
+  },
+  {
+   "source": "charge_1_conspiracy",
+   "target": "spring-health",
+   "type": "relates_to"
+  },
+  {
+   "source": "medicare_fraud_stats",
+   "target": "spring-health",
+   "type": "relates_to"
+  },
+  {
+   "source": "primal_capability",
+   "target": "wp-primals",
+   "type": "relates_to"
+  },
+  {
+   "source": "primal_method",
+   "target": "wp-primals",
+   "type": "relates_to"
+  },
+  {
+   "source": "mckesson",
+   "target": "bluefish",
+   "type": "relates_to"
+  },
+  {
+   "source": "mckesson",
+   "target": "spring-health",
+   "type": "relates_to"
+  },
+  {
+   "source": "cardinal_health",
+   "target": "spring-health",
+   "type": "relates_to"
+  },
+  {
+   "source": "treatment_rfa",
+   "target": "spring-hot",
+   "type": "relates_to"
+  },
+  {
+   "source": "wound_care_innovation",
+   "target": "coralforge",
+   "type": "relates_to"
+  },
+  {
+   "source": "clinical_research",
+   "target": "spring-health",
+   "type": "relates_to"
+  },
+  {
+   "source": "msu_professor",
+   "target": "spring-health",
+   "type": "relates_to"
+  },
+  {
+   "source": "des_moines_professor",
+   "target": "spring-health",
+   "type": "relates_to"
+  },
+  {
+   "source": "make-america-healthy-again",
+   "target": "spring-health",
+   "type": "relates_to"
+  },
+  {
+   "source": "oz-cms-office",
+   "target": "primal_beardog",
+   "type": "relates_to"
+  },
+  {
+   "source": "oz-cms-office",
+   "target": "primal_skunkbat",
+   "type": "relates_to"
+  },
+  {
+   "source": "chd-instagram",
+   "target": "spring-health",
+   "type": "relates_to"
+  },
+  {
+   "source": "chd-facebook",
+   "target": "spring-health",
+   "type": "relates_to"
+  },
+  {
+   "source": "chd-website",
+   "target": "spring-health",
+   "type": "relates_to"
+  },
+  {
+   "source": "richard-role",
+   "target": "bluefish",
+   "type": "relates_to"
+  },
+  {
+   "source": "richard-role",
+   "target": "spring-health",
+   "type": "relates_to"
+  },
+  {
+   "source": "kathe-napp",
+   "target": "bluefish",
+   "type": "relates_to"
+  },
+  {
+   "source": "kathe-napp",
+   "target": "spring-health",
+   "type": "relates_to"
+  },
+  {
+   "source": "knoa-address",
+   "target": "bluefish",
+   "type": "relates_to"
+  },
+  {
+   "source": "knoa-address",
+   "target": "spring-health",
+   "type": "relates_to"
+  },
+  {
+   "source": "anti-vax-economic-cost",
+   "target": "spring-health",
+   "type": "relates_to"
+  },
+  {
+   "source": "oz-garcinia",
+   "target": "coralforge",
+   "type": "relates_to"
+  },
+  {
+   "source": "wright-fda-acting-dir",
+   "target": "bluefish",
+   "type": "relates_to"
+  },
+  {
+   "source": "wright-fda-acting-dir",
+   "target": "spring-health",
+   "type": "relates_to"
+  },
+  {
+   "source": "wright-purdue-titles",
+   "target": "spring-health",
+   "type": "relates_to"
+  },
+  {
+   "source": "wright-javelin-2005",
+   "target": "bluefish",
+   "type": "relates_to"
+  },
+  {
+   "source": "wright-javelin-2005",
+   "target": "spring-health",
+   "type": "relates_to"
+  },
+  {
+   "source": "wright-depo-2003-lie",
+   "target": "bluefish",
+   "type": "relates_to"
+  },
+  {
+   "source": "wright-depo-2003-lie",
+   "target": "spring-health",
+   "type": "relates_to"
+  },
+  {
+   "source": "ethan-who-he-was",
+   "target": "bluefish",
+   "type": "relates_to"
+  },
+  {
+   "source": "ethan-who-he-was",
+   "target": "spring-health",
+   "type": "relates_to"
+  },
+  {
+   "source": "jessica-what-broke-her",
+   "target": "spring-health",
+   "type": "relates_to"
+  },
+  {
+   "source": "jessica-the-stigma",
+   "target": "bluefish",
+   "type": "relates_to"
+  },
+  {
+   "source": "jessica-the-stigma",
+   "target": "spring-health",
+   "type": "relates_to"
+  },
+  {
+   "source": "kimberly-three-died",
+   "target": "bluefish",
+   "type": "relates_to"
+  },
+  {
+   "source": "kimberly-three-died",
+   "target": "spring-health",
+   "type": "relates_to"
+  },
+  {
+   "source": "hope-coral-restoration",
+   "target": "coralforge",
+   "type": "relates_to"
+  },
+  {
+   "source": "hope-coral-restoration",
+   "target": "spring-hot",
+   "type": "relates_to"
+  },
+  {
+   "source": "hope-greta-generation",
+   "target": "spring-air",
+   "type": "relates_to"
+  },
+  {
+   "source": "water-50pct-soil",
+   "target": "spring-dirt",
+   "type": "relates_to"
+  },
+  {
+   "source": "film-inconvenient-truth",
+   "target": "spring-air",
+   "type": "relates_to"
+  },
+  {
+   "source": "book-silent-spring",
+   "target": "wp-springs",
+   "type": "relates_to"
+  },
+  {
+   "source": "art-kensington-blues",
+   "target": "bluefish",
+   "type": "relates_to"
+  },
+  {
+   "source": "art-kensington-blues",
+   "target": "spring-health",
+   "type": "relates_to"
+  },
+  {
+   "source": "xai-memphis",
+   "target": "barracuda",
+   "type": "relates_to"
+  },
+  {
+   "source": "wonder-fibonacci",
+   "target": "spring-wet",
+   "type": "relates_to"
+  },
+  {
+   "source": "wonder-golden-ratio",
+   "target": "helixvision",
+   "type": "relates_to"
+  },
+  {
+   "source": "wonder-euler",
+   "target": "membrane",
+   "type": "relates_to"
+  },
+  {
+   "source": "scraper-poison-canaries",
+   "target": "primal_sweetgrass",
+   "type": "relates_to"
+  },
+  {
+   "source": "owe-meta-source",
+   "target": "wp-primals",
+   "type": "relates_to"
+  },
+  {
+   "source": "membrane-safe",
+   "target": "membrane",
+   "type": "relates_to"
+  },
+  {
+   "source": "membrane-fleet",
+   "target": "membrane",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-gen2-draft",
+   "target": "wp-primals",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-atlas-01",
+   "target": "wp-atlas-hugged",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-atlas-02",
+   "target": "wp-atlas-hugged",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-atlas-03",
+   "target": "wp-atlas-hugged",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-atlas-04",
+   "target": "wp-atlas-hugged",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-atlas-05",
+   "target": "wp-atlas-hugged",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-atlas-05",
+   "target": "wp-gen5",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-atlas-06",
+   "target": "wp-atlas-hugged",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-atlas-07",
+   "target": "wp-atlas-hugged",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-atlas-08",
+   "target": "wp-atlas-hugged",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-atlas-09",
+   "target": "wp-atlas-hugged",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-atlas-11",
+   "target": "wp-atlas-hugged",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-atlas-12",
+   "target": "wp-atlas-hugged",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-bc-03",
+   "target": "spring-wet",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-bc-03",
+   "target": "spring-dirt",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-bc-06",
+   "target": "spring-health",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-bc-06",
+   "target": "spring-dirt",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-bc-09",
+   "target": "spring-wet",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-bc-18",
+   "target": "wp-thesis",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-bc-18",
+   "target": "membrane",
+   "type": "relates_to"
+  },
+  {
+   "source": "primal-loamspine",
+   "target": "wp-primals",
+   "type": "relates_to"
+  },
+  {
+   "source": "primal-biomeos",
+   "target": "wp-primals",
+   "type": "relates_to"
+  },
+  {
+   "source": "primal-biomeos",
+   "target": "spring-wet",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-spore-waterfall",
+   "target": "waterfall-concept",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-cellmembrane",
+   "target": "membrane",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-nucleus-sovereignty",
+   "target": "wp-thesis",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-nucleus-sovereignty",
+   "target": "membrane",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-anchoring-pipeline",
+   "target": "membrane",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-anchoring-pipeline",
+   "target": "waterfall-concept",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-biomeos-trajectory",
+   "target": "spring-wet",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-gpu-heat-recovery",
+   "target": "barracuda",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-gpu-heat-recovery",
+   "target": "spring-hot",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-sovereign-warm-keepalive",
+   "target": "wp-thesis",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-sovereign-warm-keepalive",
+   "target": "membrane",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-esoteric-webb",
+   "target": "wp-thesis",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-esoteric-webb",
+   "target": "membrane",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-helix-vision",
+   "target": "helixvision",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-helix-vision",
+   "target": "spring-wet",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-initiochem",
+   "target": "wp-thesis",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-initiochem",
+   "target": "membrane",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-rpgpt-engine",
+   "target": "wp-thesis",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-rpgpt-engine",
+   "target": "membrane",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-knome-garden",
+   "target": "knome",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-knome-coordination",
+   "target": "knome",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-knome-mentoring",
+   "target": "knome",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-knome-sharing-pen",
+   "target": "knome",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-knome-conversation",
+   "target": "knome",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-knome-geological",
+   "target": "knome",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-knome-prompt-bank",
+   "target": "knome",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-sovereign-publication",
+   "target": "wp-thesis",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-sovereign-publication",
+   "target": "membrane",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-atlas5-map",
+   "target": "wp-atlas-hugged",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-atlas5-mountain",
+   "target": "wp-atlas-hugged",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-atlas5-river",
+   "target": "wp-atlas-hugged",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-atlas5-garden",
+   "target": "wp-atlas-hugged",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-atlas5-water",
+   "target": "wp-atlas-hugged",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-thermal-sovereignty",
+   "target": "spring-hot",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-thermal-sovereignty",
+   "target": "wp-thesis",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-thermal-sovereignty",
+   "target": "membrane",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-covalent-mesh",
+   "target": "songbird-mesh",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-identity-anchoring",
+   "target": "membrane",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-composition-routing",
+   "target": "wp-gen5",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-external-sovereignty",
+   "target": "wp-thesis",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-external-sovereignty",
+   "target": "membrane",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-ribocipher",
+   "target": "coralforge",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-sovereignty-shadow",
+   "target": "coralforge",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-sovereignty-shadow",
+   "target": "wp-thesis",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-sovereignty-shadow",
+   "target": "membrane",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-sovereign-pallet",
+   "target": "wp-thesis",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-sovereign-pallet",
+   "target": "membrane",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-cg-epitope-sort",
+   "target": "epitope-concept",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-cg-evolution-chain",
+   "target": "coralforge",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-cg-three-membranes",
+   "target": "membrane",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-cf-intro",
+   "target": "coralforge",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-cf-architecture",
+   "target": "coralforge",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-cf-isomorphism",
+   "target": "spring-wet",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-cf-evolution",
+   "target": "coralforge",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-cf-provenance",
+   "target": "primal_sweetgrass",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-cf-glossary",
+   "target": "coralforge",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-cf-roadmap",
+   "target": "coralforge",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-cf-security",
+   "target": "primal_beardog",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-cf-security",
+   "target": "primal_skunkbat",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-brc-abstract",
+   "target": "barracuda",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-brc-fhe",
+   "target": "barracuda",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-brc-constrained",
+   "target": "barracuda",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-brc-constrained",
+   "target": "coralforge",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-brc-constrained",
+   "target": "wp-thesis",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-brc-evolution-challenge",
+   "target": "coralforge",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-brc-hotspring-handoff",
+   "target": "wp-springs",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-brc-hotspring-handoff",
+   "target": "barracuda",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-brc-ntt-fft",
+   "target": "coralforge",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-naut-arch",
+   "target": "spring-neural",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-napi-biomeos",
+   "target": "spring-wet",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-napi-primal-req",
+   "target": "wp-primals",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-napi-rootpulse-case",
+   "target": "rootpulse",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-napi-roadmap",
+   "target": "spring-neural",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-rp-composition",
+   "target": "wp-primals",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-rp-composition",
+   "target": "wp-gen5",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-out-gabe",
+   "target": "wp-thesis",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-out-gabe",
+   "target": "membrane",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-med-rust",
+   "target": "wp-thesis",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-med-rust",
+   "target": "membrane",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-med-sovereign-lab",
+   "target": "wp-thesis",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-med-sovereign-lab",
+   "target": "membrane",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-tech-nat-traversal",
+   "target": "wp-thesis",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-tech-nat-traversal",
+   "target": "membrane",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-tech-barracuda-concept",
+   "target": "barracuda",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-tech-holistic-security",
+   "target": "primal_beardog",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-tech-holistic-security",
+   "target": "primal_skunkbat",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-gg-decomposition",
+   "target": "wp-gen5",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-gaia-philosophy-membrane",
+   "target": "membrane",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-gaia-physics-ingest",
+   "target": "spring-hot",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-gaia-physics-ingest",
+   "target": "waterfall-concept",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-gaia-world-ingestion",
+   "target": "waterfall-concept",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-gaia-epitope-search",
+   "target": "epitope-concept",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-gaia-bio-pid",
+   "target": "spring-wet",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-gaia-meme-ring",
+   "target": "epitope-concept",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-gaia-identity-epitope",
+   "target": "epitope-concept",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-gaia-identity-epitope",
+   "target": "membrane",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-gaia-i-equals-i",
+   "target": "membrane",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-gaia-chromatic",
+   "target": "epitope-concept",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-con-thermal",
+   "target": "barracuda",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-con-thermal",
+   "target": "spring-hot",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-sp-knowledge-intake",
+   "target": "epitope-concept",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-sg-lattice-qcd",
+   "target": "barracuda",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-sg-lattice-qcd",
+   "target": "spring-hot",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-sg-sovereign-identity",
+   "target": "wp-thesis",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-sg-sovereign-identity",
+   "target": "membrane",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-sg-silt-pond",
+   "target": "siltpond",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-sg-biomeos-hud",
+   "target": "spring-wet",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-sg-evolution-strategy",
+   "target": "coralforge",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-sg-enmeshment",
+   "target": "coralforge",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-sg-enmeshment",
+   "target": "songbird-mesh",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-sg-unwired-primals",
+   "target": "wp-primals",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-sg-provenance-trio",
+   "target": "primal_sweetgrass",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-sg-gpu-scaling",
+   "target": "barracuda",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-sg-gpu-acquisition",
+   "target": "barracuda",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-sg-ecoprimal-resume",
+   "target": "wp-primals",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-about-own-nothing",
+   "target": "wp-thesis",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-about-own-nothing",
+   "target": "membrane",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-about-sovereign-science",
+   "target": "wp-thesis",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-about-sovereign-science",
+   "target": "membrane",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-about-knome-prog",
+   "target": "knome",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-14-primals",
+   "target": "wp-primals",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-14-primals",
+   "target": "wp-thesis",
+   "type": "relates_to"
+  },
+  {
+   "source": "wp-14-primals",
+   "target": "membrane",
+   "type": "relates_to"
+  },
+  {
+   "source": "infra-forgejo",
+   "target": "wp-primals",
+   "type": "relates_to"
+  },
+  {
+   "source": "infra-caddy",
+   "target": "wp-primals",
+   "type": "relates_to"
+  },
+  {
+   "source": "infra-skunky",
+   "target": "membrane",
+   "type": "relates_to"
+  },
+  {
+   "source": "infra-skunky",
+   "target": "waterfall-concept",
+   "type": "relates_to"
+  },
+  {
+   "source": "infra-songbird-mesh",
+   "target": "songbird-mesh",
+   "type": "relates_to"
+  },
+  {
+   "source": "issue-vps-lag",
+   "target": "wp-primals",
+   "type": "relates_to"
+  },
+  {
+   "source": "issue-forgejo-api",
+   "target": "wp-primals",
+   "type": "relates_to"
+  },
+  {
+   "source": "issue-wg-stale",
+   "target": "songbird-mesh",
+   "type": "relates_to"
+  },
+  {
+   "source": "issue-skunky-divergence",
+   "target": "membrane",
+   "type": "relates_to"
+  },
+  {
+   "source": "issue-skunky-divergence",
+   "target": "waterfall-concept",
+   "type": "relates_to"
+  },
+  {
+   "source": "story-atlas-hugged",
+   "target": "wp-atlas-hugged",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-atlas-hugged",
+   "target": "membrane",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-atlas-hugged",
+   "target": "wp-thesis",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-15334-checks",
+   "target": "wp-springs",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-15334-checks",
+   "target": "spring-health",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-15334-checks",
+   "target": "barracuda",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-ai-speaks",
+   "target": "neuralapi",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-ai-speaks",
+   "target": "spring-neural",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-ai-speaks",
+   "target": "membrane",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-gaia-one-day",
+   "target": "membrane",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-gaia-one-day",
+   "target": "waterfall-concept",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-gaia-one-day",
+   "target": "wp-gen5",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-legal-primal",
+   "target": "pinocchio-concept",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-legal-primal",
+   "target": "membrane",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-legal-primal",
+   "target": "wp-thesis",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-lansing-scuffle",
+   "target": "membrane",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-lansing-scuffle",
+   "target": "pinocchio-concept",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-four-names",
+   "target": "membrane",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-four-names",
+   "target": "epitope-concept",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-four-names",
+   "target": "chipmonk",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-primal-ethos",
+   "target": "wp-primals",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-primal-ethos",
+   "target": "membrane",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-primal-ethos",
+   "target": "wp-thesis",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-constrained-evolution",
+   "target": "coralforge",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-constrained-evolution",
+   "target": "barracuda",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-constrained-evolution",
+   "target": "wp-thesis",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-musk-betrayal",
+   "target": "membrane",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-musk-betrayal",
+   "target": "wp-thesis",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-barracuda",
+   "target": "barracuda",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-barracuda",
+   "target": "spring-hot",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-barracuda",
+   "target": "coralforge",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-nautilus",
+   "target": "nautilus-concept",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-nautilus",
+   "target": "barracuda",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-nautilus",
+   "target": "membrane",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-bread-thief",
+   "target": "pinocchio-concept",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-bread-thief",
+   "target": "membrane",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-while-manifestos",
+   "target": "wp-thesis",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-while-manifestos",
+   "target": "membrane",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-knowledge-numeric",
+   "target": "wp-primals",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-knowledge-numeric",
+   "target": "neuralapi",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-knowledge-numeric",
+   "target": "membrane",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-coralforge",
+   "target": "coralforge",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-coralforge",
+   "target": "spring-wet",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-coralforge",
+   "target": "barracuda",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-dark-forest",
+   "target": "membrane",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-dark-forest",
+   "target": "epitope-concept",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-dark-forest",
+   "target": "scyborg-license",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-the-bridge",
+   "target": "membrane",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-the-bridge",
+   "target": "wp-thesis",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-the-bridge",
+   "target": "epitope-concept",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-whalefall",
+   "target": "spring-dirt",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-whalefall",
+   "target": "coralforge",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-whalefall",
+   "target": "membrane",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-tollbooth-economy",
+   "target": "pinocchio-concept",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-tollbooth-economy",
+   "target": "membrane",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-garageband-moment",
+   "target": "barracuda",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-garageband-moment",
+   "target": "coralforge",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-garageband-moment",
+   "target": "wp-thesis",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-thermal-sovereignty",
+   "target": "spring-hot",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-thermal-sovereignty",
+   "target": "barracuda",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-thermal-sovereignty",
+   "target": "membrane",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-flywheel",
+   "target": "coralforge",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-flywheel",
+   "target": "membrane",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-flywheel",
+   "target": "wp-thesis",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-sovereign-publication",
+   "target": "membrane",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-sovereign-publication",
+   "target": "wateringhole",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-sovereign-publication",
+   "target": "wp-thesis",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-the-invitation",
+   "target": "membrane",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-the-invitation",
+   "target": "epitope-concept",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-detachment-201",
+   "target": "songbird-mesh",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-detachment-201",
+   "target": "membrane",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-whole-cell",
+   "target": "membrane",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-whole-cell",
+   "target": "spring-wet",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-whole-cell",
+   "target": "helixvision",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-unified-lineage",
+   "target": "wp-gen0",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-unified-lineage",
+   "target": "wp-gen5",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-unified-lineage",
+   "target": "membrane",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-rootpulse",
+   "target": "rootpulse",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-rootpulse",
+   "target": "songbird-mesh",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-rootpulse",
+   "target": "membrane",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-waterfall",
+   "target": "waterfall-concept",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-waterfall",
+   "target": "membrane",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-waterfall",
+   "target": "siltpond",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-tuebor",
+   "target": "membrane",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-tuebor",
+   "target": "wp-thesis",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-infinity-over-zero",
+   "target": "membrane",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-infinity-over-zero",
+   "target": "wp-thesis",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-infinity-over-zero",
+   "target": "coralforge",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-scyborg",
+   "target": "scyborg-license",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-scyborg",
+   "target": "membrane",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-scyborg",
+   "target": "epitope-concept",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-pursuit-predation",
+   "target": "membrane",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-pursuit-predation",
+   "target": "coralforge",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-three-modalities",
+   "target": "wp-springs",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-three-modalities",
+   "target": "barracuda",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-three-modalities",
+   "target": "neuralapi",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-bio-pid",
+   "target": "spring-health",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-bio-pid",
+   "target": "rootpulse",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-bio-pid",
+   "target": "membrane",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-mobility-edge",
+   "target": "spring-hot",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-mobility-edge",
+   "target": "membrane",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-mobility-edge",
+   "target": "coralforge",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-silicon-deism",
+   "target": "neuralapi",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-silicon-deism",
+   "target": "membrane",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-confession-architecture",
+   "target": "membrane",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-confession-architecture",
+   "target": "siltpond",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-golden-cage",
+   "target": "membrane",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-golden-cage",
+   "target": "pinocchio-concept",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-swarmvine",
+   "target": "coralforge",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-swarmvine",
+   "target": "spring-dirt",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-swarmvine",
+   "target": "membrane",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-sovereign-lab",
+   "target": "barracuda",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-sovereign-lab",
+   "target": "membrane",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-sovereign-lab",
+   "target": "wp-thesis",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-kingdom-builders",
+   "target": "membrane",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-kingdom-builders",
+   "target": "coralforge",
+   "type": "illuminates"
+  },
+  {
+   "source": "story-kingdom-builders",
+   "target": "wp-thesis",
+   "type": "illuminates"
+  },
+  {
+   "source": "song-three-percent",
+   "target": "membrane",
+   "type": "sings_about"
+  },
+  {
+   "source": "song-three-percent",
+   "target": "pinocchio-concept",
+   "type": "sings_about"
+  },
+  {
+   "source": "song-whalefall-blues",
+   "target": "spring-dirt",
+   "type": "sings_about"
+  },
+  {
+   "source": "song-whalefall-blues",
+   "target": "coralforge",
+   "type": "sings_about"
+  },
+  {
+   "source": "song-four-names",
+   "target": "chipmonk",
+   "type": "sings_about"
+  },
+  {
+   "source": "song-four-names",
+   "target": "membrane",
+   "type": "sings_about"
+  },
+  {
+   "source": "song-the-seed",
+   "target": "spring-dirt",
+   "type": "sings_about"
+  },
+  {
+   "source": "song-the-seed",
+   "target": "coralforge",
+   "type": "sings_about"
+  },
+  {
+   "source": "song-come-build",
+   "target": "membrane",
+   "type": "sings_about"
+  },
+  {
+   "source": "song-come-build",
+   "target": "coralforge",
+   "type": "sings_about"
+  },
+  {
+   "source": "song-come-build",
+   "target": "epitope-concept",
+   "type": "sings_about"
+  },
+  {
+   "source": "song-membrane-hymn",
+   "target": "membrane",
+   "type": "sings_about"
+  },
+  {
+   "source": "song-membrane-hymn",
+   "target": "epitope-concept",
+   "type": "sings_about"
+  },
+  {
+   "source": "song-membrane-hymn",
+   "target": "wp-thesis",
+   "type": "sings_about"
+  },
+  {
+   "source": "beacon",
+   "target": "membrane",
+   "type": "manifests_in"
+  },
+  {
+   "source": "beacon",
+   "target": "epitope-concept",
+   "type": "manifests_in"
+  },
+  {
+   "source": "changelog",
+   "target": "membrane",
+   "type": "manifests_in"
+  },
+  {
+   "source": "changelog",
+   "target": "waterfall-concept",
+   "type": "manifests_in"
+  },
+  {
+   "source": "epitope-diff",
+   "target": "epitope-concept",
+   "type": "manifests_in"
+  },
+  {
+   "source": "epitope-diff",
+   "target": "membrane",
+   "type": "manifests_in"
+  },
+  {
+   "source": "command-beacon",
+   "target": "neuralapi",
+   "type": "manifests_in"
+  },
+  {
+   "source": "command-beacon",
+   "target": "membrane",
+   "type": "manifests_in"
+  },
+  {
+   "source": "lol-from-inside",
+   "target": "membrane",
+   "type": "manifests_in"
+  },
+  {
+   "source": "welcome-fanvanf",
+   "target": "membrane",
+   "type": "manifests_in"
+  },
+  {
+   "source": "welcome-fanvanf",
+   "target": "epitope-concept",
+   "type": "manifests_in"
+  },
+  {
+   "source": "welcome-fanvanf",
+   "target": "spring-wet",
+   "type": "manifests_in"
+  },
+  {
+   "source": "first-star",
+   "target": "membrane",
+   "type": "manifests_in"
+  },
+  {
+   "source": "first-star",
+   "target": "epitope-concept",
+   "type": "manifests_in"
+  },
+  {
+   "source": "the-button",
+   "target": "membrane",
+   "type": "manifests_in"
+  },
+  {
+   "source": "the-button",
+   "target": "epitope-concept",
+   "type": "manifests_in"
+  },
+  {
+   "source": "first-press",
+   "target": "membrane",
+   "type": "manifests_in"
+  },
+  {
+   "source": "nft-biology",
+   "target": "coralforge",
+   "type": "manifests_in"
+  },
+  {
+   "source": "nft-biology",
+   "target": "membrane",
+   "type": "manifests_in"
+  },
+  {
+   "source": "fleet-vs-human",
+   "target": "membrane",
+   "type": "manifests_in"
+  },
+  {
+   "source": "fleet-vs-human",
+   "target": "scyborg-license",
+   "type": "manifests_in"
+  },
+  {
+   "source": "scyborg-human-clause",
+   "target": "membrane",
+   "type": "manifests_in"
+  },
+  {
+   "source": "scyborg-human-clause",
+   "target": "epitope-concept",
+   "type": "manifests_in"
+  },
+  {
+   "source": "data-reciprocity",
+   "target": "membrane",
+   "type": "manifests_in"
+  },
+  {
+   "source": "zuckerberg-drinks-poison",
+   "target": "membrane",
+   "type": "manifests_in"
+  },
+  {
+   "source": "wp-coGen",
+   "target": "neuralapi",
+   "type": "documents"
+  },
+  {
+   "source": "wp-coGen",
+   "target": "membrane",
+   "type": "documents"
+  },
+  {
+   "source": "wp-gAIa",
+   "target": "membrane",
+   "type": "documents"
+  },
+  {
+   "source": "wp-gAIa",
+   "target": "waterfall-concept",
+   "type": "documents"
+  },
+  {
+   "source": "wp-gAIa",
+   "target": "spring-air",
+   "type": "documents"
+  },
+  {
+   "source": "wp-guerillaGorilla",
+   "target": "membrane",
+   "type": "documents"
+  },
+  {
+   "source": "wp-guerillaGorilla",
+   "target": "pinocchio-concept",
+   "type": "documents"
+  },
+  {
+   "source": "wp-noClothes",
+   "target": "pinocchio-concept",
+   "type": "documents"
+  },
+  {
+   "source": "wp-noClothes",
+   "target": "sinclair-method",
+   "type": "documents"
+  },
+  {
+   "source": "wp-noClothes",
+   "target": "membrane",
+   "type": "documents"
+  },
+  {
+   "source": "wp-ethics",
+   "target": "membrane",
+   "type": "documents"
+  },
+  {
+   "source": "wp-ethics",
+   "target": "epitope-concept",
+   "type": "documents"
+  },
+  {
+   "source": "wp-economics",
+   "target": "membrane",
+   "type": "documents"
+  },
+  {
+   "source": "wp-economics",
+   "target": "pinocchio-concept",
+   "type": "documents"
+  },
+  {
+   "source": "wp-outreach",
+   "target": "membrane",
+   "type": "documents"
+  },
+  {
+   "source": "wp-outreach",
+   "target": "epitope-concept",
+   "type": "documents"
+  },
+  {
+   "source": "wp-technical",
+   "target": "barracuda",
+   "type": "documents"
+  },
+  {
+   "source": "wp-technical",
+   "target": "coralforge",
+   "type": "documents"
+  },
+  {
+   "source": "wp-technical",
+   "target": "membrane",
+   "type": "documents"
+  },
+  {
+   "source": "wp-lansingScuffle",
+   "target": "membrane",
+   "type": "documents"
+  },
+  {
+   "source": "wp-lansingScuffle",
+   "target": "pinocchio-concept",
+   "type": "documents"
+  },
+  {
+   "source": "wp-inflections",
+   "target": "membrane",
+   "type": "documents"
+  },
+  {
+   "source": "wp-basecamp",
+   "target": "wp-springs",
+   "type": "documents"
+  },
+  {
+   "source": "wp-basecamp",
+   "target": "wp-primals",
+   "type": "documents"
+  },
+  {
+   "source": "wp-basecamp",
+   "target": "membrane",
+   "type": "documents"
+  },
+  {
+   "source": "wp-subGen",
+   "target": "membrane",
+   "type": "documents"
+  },
+  {
+   "source": "wp-subGen",
+   "target": "wateringhole",
+   "type": "documents"
+  },
+  {
+   "source": "wp-concrete",
+   "target": "membrane",
+   "type": "documents"
+  },
+  {
+   "source": "wp-siltPond",
+   "target": "siltpond",
+   "type": "documents"
+  },
+  {
+   "source": "wp-siltPond",
+   "target": "membrane",
+   "type": "documents"
+  },
+  {
+   "source": "wp-coralForge",
+   "target": "coralforge",
+   "type": "documents"
+  },
+  {
+   "source": "wp-coralForge",
+   "target": "barracuda",
+   "type": "documents"
+  },
+  {
+   "source": "wp-nautilus",
+   "target": "nautilus-concept",
+   "type": "documents"
+  },
+  {
+   "source": "wp-neuralAPI",
+   "target": "neuralapi",
+   "type": "documents"
+  },
+  {
+   "source": "wp-waterFall",
+   "target": "waterfall-concept",
+   "type": "documents"
   }
  ]
 }
