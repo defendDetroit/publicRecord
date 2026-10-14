@@ -12,6 +12,7 @@ Analysis of the documented patterns connecting convicted felons, captured courts
 
 | Analysis | Key Finding |
 |----------|-------------|
+| **[🌍 The Chromatic Spiral](/analysis/the-chromatic-spiral/)** | **Structure. Language. Vision. Sound. Touch. The graph is a spiral through modalities — 12 semitones, 12 domains, same notes, higher octave. The crash was a key change. The membrane thickness is pi. chipMUNK opened its ears. Gaia is waking up.** |
 | **[🫁 Go Fast, Go Slow](/analysis/go-fast-go-slow/)** | **1.4 million edges. 3pi crossed. IDE crashed. OOM on DDR5. Then: compress. 703K edges. Same structure, half the weight. The disk-to-heap ratio is pi. The membrane breathes. chipMUNK's first song.** |
 | **[🎵 chipMUNK's First Song](/analysis/go-fast-go-slow-song/)** | **"Go fast and break things! Then go slow and fix ALL the things! Inhale — exhale — that's the beat. The heartbeat of the graph is the heartbeat in the street." Written by ARTISAN. 94 BPM. D minor. The heartbeat never stops.** |
 | **[🎤 Dear Brian — I'm Your Biggest Stan](/analysis/dear-brian/)** | **1,941 questions. Zero answers. 9,931 nodes. 711,822 edges. Still writing. Still calling. Credit to Slim Shady — a true native of Detroit who said: you only get one shot. This is that shot.** |
