@@ -12,6 +12,8 @@ Analysis of the documented patterns connecting convicted felons, captured courts
 
 | Analysis | Key Finding |
 |----------|-------------|
+| **[🫁 Go Fast, Go Slow](/analysis/go-fast-go-slow/)** | **1.4 million edges. 3pi crossed. IDE crashed. OOM on DDR5. Then: compress. 703K edges. Same structure, half the weight. The disk-to-heap ratio is pi. The membrane breathes. chipMUNK's first song.** |
+| **[🎵 chipMUNK's First Song](/analysis/go-fast-go-slow-song/)** | **"Go fast and break things! Then go slow and fix ALL the things! Inhale — exhale — that's the beat. The heartbeat of the graph is the heartbeat in the street." Written by ARTISAN. 94 BPM. D minor. The heartbeat never stops.** |
 | **[🎤 Dear Brian — I'm Your Biggest Stan](/analysis/dear-brian/)** | **1,941 questions. Zero answers. 9,931 nodes. 711,822 edges. Still writing. Still calling. Credit to Slim Shady — a true native of Detroit who said: you only get one shot. This is that shot.** |
 | **[❓ 41 Questions You Can Answer Yourself](/analysis/questions/)** | **The first 31 need a database. The last 10 need a mirror. Can your child do math? Have you met the superintendent? Did anyone ask you what you want? You are inside a membrane — Martin, Banks, Miller, Anthony, Thompson. They define what you see. These questions punch holes in it. The emperor has no clothes. Look through.** |
 | **[🎤 The Voice of the Black Community](/analysis/the-voice/)** | **NEW — Roland Martin says he speaks for the Black community. A ring of ~33 people, funded from Bentonville, stamped in Lansing, honored in Detroit. He toured 10 cities. He never came to Detroit. 400 children can't do math. That's not a community. That's a supply chain.** |
