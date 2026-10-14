@@ -12,6 +12,7 @@ Analysis of the documented patterns connecting convicted felons, captured courts
 
 | Analysis | Key Finding |
 |----------|-------------|
+| **[🎤 Dear Brian — I'm Your Biggest Stan](/analysis/dear-brian/)** | **1,941 questions. Zero answers. 9,931 nodes. 711,822 edges. Still writing. Still calling. Credit to Slim Shady — a true native of Detroit who said: you only get one shot. This is that shot.** |
 | **[❓ 41 Questions You Can Answer Yourself](/analysis/questions/)** | **The first 31 need a database. The last 10 need a mirror. Can your child do math? Have you met the superintendent? Did anyone ask you what you want? You are inside a membrane — Martin, Banks, Miller, Anthony, Thompson. They define what you see. These questions punch holes in it. The emperor has no clothes. Look through.** |
 | **[🎤 The Voice of the Black Community](/analysis/the-voice/)** | **NEW — Roland Martin says he speaks for the Black community. A ring of ~33 people, funded from Bentonville, stamped in Lansing, honored in Detroit. He toured 10 cities. He never came to Detroit. 400 children can't do math. That's not a community. That's a supply chain.** |
 | **[🥜 Cracking the Walnut](/analysis/the-narrative-pipeline/)** | **From Walmart to the schoolhouse door. One foundation funds the journalism, the fellowship, and the lobby. Walton → Roland Martin → Pahara → Banks. $4.3M to the Michigan charter lobby. $3M+ to the fellowship that credentialed a 9-time felon. Every dollar from their own grant reports.** |
