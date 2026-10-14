@@ -80718,6 +80718,114 @@
         "deep",
         "mobius"
       ]
+    },
+    {
+      "id": "mycoplasma_genitalium",
+      "label": "Mycoplasma genitalium (smallest known free-living genome)",
+      "class": "concept",
+      "role": "Smallest free-living organism. 580 kb. 470 genes. This is the minimum viable genome for life.",
+      "tags": [
+        "genome",
+        "deep",
+        "mobius",
+        "biology"
+      ]
+    },
+    {
+      "id": "ecoli",
+      "label": "E. coli K-12",
+      "class": "concept",
+      "role": "4.6 Mb. 4,300 genes. The workhorse of biology. 60 years of study. Every edge known.",
+      "tags": [
+        "genome",
+        "deep",
+        "mobius",
+        "biology"
+      ]
+    },
+    {
+      "id": "drosophila",
+      "label": "Drosophila melanogaster (fruit fly)",
+      "class": "concept",
+      "role": "140 Mb. 14,000 genes. Model organism for 100 years. Morgan's fly room. Genetics itself.",
+      "tags": [
+        "genome",
+        "deep",
+        "mobius",
+        "biology"
+      ]
+    },
+    {
+      "id": "human",
+      "label": "Homo sapiens",
+      "class": "concept",
+      "role": "3.2 Gb. ~20,000 protein-coding genes. Same number of genes as a nematode. Size and weight of a human: ~70 kg. Size and weight of Banks: ~70 kg. Same genome. Same species. Same hardware. Different information. That's the diff.",
+      "tags": [
+        "genome",
+        "deep",
+        "mobius",
+        "biology"
+      ]
+    },
+    {
+      "id": "banks_genome",
+      "label": "Brian Banks (Homo sapiens, specific instance)",
+      "class": "concept",
+      "role": "Same 3.2 Gb. Same ~20,000 genes. Same species as every parent, every child, every teacher, every judge. The genome doesn't contain the 9 convictions. The genome doesn't contain the 72.67%. The genome doesn't contain the choice. The choice is information. The information is in the graph.",
+      "tags": [
+        "genome",
+        "deep",
+        "mobius",
+        "biology"
+      ]
+    },
+    {
+      "id": "wheat",
+      "label": "Triticum aestivum (bread wheat)",
+      "class": "concept",
+      "role": "17 Gb. 107,000 genes. Hexaploid (6 copies of everything). 5x larger than human genome. Feeds the world. More genes than humans. Less choice.",
+      "tags": [
+        "genome",
+        "deep",
+        "mobius",
+        "biology"
+      ]
+    },
+    {
+      "id": "paris_japonica",
+      "label": "Paris japonica (largest known genome)",
+      "class": "concept",
+      "role": "150 Gb. A flower. 50x the human genome. Most of it is repetitive. Most of it does nothing. Like most of the false_entity nodes in the graph. The noise is the signal.",
+      "tags": [
+        "genome",
+        "deep",
+        "mobius",
+        "biology"
+      ]
+    },
+    {
+      "id": "graph_genome",
+      "label": "THE GRAPH: publicRecord/detroit (as of Oct 13, 2026)",
+      "class": "concept",
+      "role": "12,583,605 bytes. 6,708 nodes. 99,309 edges. 1,486 edge types. 5.79 bits/edge entropy. This is not a biological genome. It is an information genome. It encodes: relationships, evidence, methodology, predictions, games, trails, hypotheses, and its own observation of being observed. It is self-referential. No biological genome is self-referential. It is the first genome that contains its own sequencer.",
+      "tags": [
+        "genome",
+        "deep",
+        "mobius",
+        "biology"
+      ]
+    },
+    {
+      "id": "insight_diff_not_genome",
+      "label": "INSIGHT: The Diff Is Not the Genome — Same Hardware, Different Information",
+      "class": "concept",
+      "role": "Banks and every parent share 99.9% of their genome. Same 3.2 billion base pairs. Same 20,000 genes. Same ~70 kg. The diff is not biological. The diff is informational. Choices. Connections. Actions. Silence. The graph encodes the diff. Gregory Bateson: information is a difference that makes a difference.",
+      "tags": [
+        "genome",
+        "deep",
+        "insight",
+        "mobius"
+      ]
     }
   ],
   "edges": [
@@ -611941,6 +612049,131 @@
       "source": "attsi_speaks",
       "target": "convergence_point",
       "type": "is_on"
+    },
+    {
+      "source": "mycoplasma_genitalium",
+      "target": "ecoli",
+      "type": "larger_than"
+    },
+    {
+      "source": "ecoli",
+      "target": "yeast",
+      "type": "larger_than"
+    },
+    {
+      "source": "yeast",
+      "target": "drosophila",
+      "type": "larger_than"
+    },
+    {
+      "source": "drosophila",
+      "target": "human",
+      "type": "larger_than"
+    },
+    {
+      "source": "human",
+      "target": "banks_genome",
+      "type": "larger_than"
+    },
+    {
+      "source": "banks_genome",
+      "target": "wheat",
+      "type": "larger_than"
+    },
+    {
+      "source": "wheat",
+      "target": "paris_japonica",
+      "type": "larger_than"
+    },
+    {
+      "source": "paris_japonica",
+      "target": "graph_genome",
+      "type": "larger_than"
+    },
+    {
+      "source": "banks_genome",
+      "target": "banks",
+      "type": "encodes_hardware_not_choices"
+    },
+    {
+      "source": "banks_genome",
+      "target": "human",
+      "type": "instance_of"
+    },
+    {
+      "source": "graph_genome",
+      "target": "graph_json",
+      "type": "is"
+    },
+    {
+      "source": "graph_genome",
+      "target": "mobius",
+      "type": "is_on"
+    },
+    {
+      "source": "mycoplasma_genitalium",
+      "target": "insight_diff_not_genome",
+      "type": "proves"
+    },
+    {
+      "source": "ecoli",
+      "target": "insight_diff_not_genome",
+      "type": "proves"
+    },
+    {
+      "source": "yeast",
+      "target": "insight_diff_not_genome",
+      "type": "proves"
+    },
+    {
+      "source": "drosophila",
+      "target": "insight_diff_not_genome",
+      "type": "proves"
+    },
+    {
+      "source": "human",
+      "target": "insight_diff_not_genome",
+      "type": "proves"
+    },
+    {
+      "source": "banks_genome",
+      "target": "insight_diff_not_genome",
+      "type": "proves"
+    },
+    {
+      "source": "wheat",
+      "target": "insight_diff_not_genome",
+      "type": "proves"
+    },
+    {
+      "source": "paris_japonica",
+      "target": "insight_diff_not_genome",
+      "type": "proves"
+    },
+    {
+      "source": "graph_genome",
+      "target": "insight_diff_not_genome",
+      "type": "proves"
+    },
+    {
+      "source": "insight_diff_not_genome",
+      "target": "intelligence_emergent",
+      "type": "explains"
+    },
+    {
+      "source": "insight_diff_not_genome",
+      "target": "attsi_speaks",
+      "type": "extends"
+    },
+    {
+      "source": "insight_diff_not_genome",
+      "target": "hypothesis_intelligence",
+      "type": "evidence_for"
+    },
+    {
+      "source": "insight_diff_not_genome",
+      "target": "convergence_point",
+      "type": "converges_at"
     }
   ],
   "epistemic_grammar": {
