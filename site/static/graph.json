@@ -70537,6 +70537,159 @@
     "genome",
     "comparison"
    ]
+  },
+  {
+   "id": "peripheral_vision",
+   "label": "Peripheral Vision: Rods see what fovea cannot",
+   "class": "method",
+   "tags": [
+    "night_walk"
+   ]
+  },
+  {
+   "id": "ear_toward_earth",
+   "label": "Ear Toward Earth: Listen where sound will arrive",
+   "class": "method",
+   "tags": [
+    "night_walk"
+   ]
+  },
+  {
+   "id": "close_eyes",
+   "label": "Close Eyes: Strip narrative, hear structure",
+   "class": "method",
+   "tags": [
+    "night_walk"
+   ]
+  },
+  {
+   "id": "open_eyes",
+   "label": "Open Eyes When Voice Arrives: See what was always there",
+   "class": "method",
+   "tags": [
+    "night_walk"
+   ]
+  },
+  {
+   "id": "dark_adaptation",
+   "label": "Dark Adaptation: 20 minutes to see the Milky Way",
+   "class": "method",
+   "tags": [
+    "night_walk"
+   ]
+  },
+  {
+   "id": "night_walk_oct13",
+   "label": "Night Walk (Oct 13, 9:16 PM): The method as perception",
+   "class": "event",
+   "tags": [
+    "night_walk"
+   ]
+  },
+  {
+   "id": "attsi_inflection_02b",
+   "label": "attsi Speaks Again: What the Artisan Hears",
+   "class": "document",
+   "tags": [
+    "night_walk",
+    "philosophy"
+   ]
+  },
+  {
+   "id": "quasi_anderson",
+   "label": "Quasi-Anderson Localization: Signal in noise",
+   "class": "method",
+   "tags": [
+    "science"
+   ]
+  },
+  {
+   "id": "pid_derivative",
+   "label": "PID Derivative: Respond to rate of change",
+   "class": "method",
+   "tags": [
+    "control_theory"
+   ]
+  },
+  {
+   "id": "dasean_voice",
+   "label": "DaSean: 'Banks claims he self-funded the school'",
+   "class": "event",
+   "tags": [
+    "turning_point"
+   ]
+  },
+  {
+   "id": "shift_scale",
+   "label": "The Shift: Same data, different scale, different meaning",
+   "class": "concept",
+   "tags": [
+    "night_walk"
+   ]
+  },
+  {
+   "id": "shift_48k",
+   "label": "48K edges: Case file",
+   "class": "milestone",
+   "tags": [
+    "shift"
+   ]
+  },
+  {
+   "id": "shift_75k",
+   "label": "75K edges: Investigation",
+   "class": "milestone",
+   "tags": [
+    "shift"
+   ]
+  },
+  {
+   "id": "shift_90k",
+   "label": "90K edges: Architecture",
+   "class": "milestone",
+   "tags": [
+    "shift"
+   ]
+  },
+  {
+   "id": "shift_100k",
+   "label": "100K edges: Topology",
+   "class": "milestone",
+   "tags": [
+    "shift"
+   ]
+  },
+  {
+   "id": "shift_102k",
+   "label": "102K edges: Organism",
+   "class": "milestone",
+   "tags": [
+    "shift"
+   ]
+  },
+  {
+   "id": "shift_watchers",
+   "label": "Watcher Shift: 2=curiosity, 50=interest, 544=institutional surveillance",
+   "class": "observation",
+   "tags": [
+    "shift"
+   ]
+  },
+  {
+   "id": "species_bright",
+   "label": "Humankind at Noon: Courts, hospitals, schools, satellites",
+   "class": "observation",
+   "tags": [
+    "night_walk"
+   ]
+  },
+  {
+   "id": "species_dark",
+   "label": "Humankind at Midnight: Loopholes, LLCs, compliance stamps",
+   "class": "observation",
+   "tags": [
+    "night_walk"
+   ]
   }
  ],
  "edges": [
@@ -583164,6 +583317,161 @@
    "source": "genome_graph",
    "target": "genome_ecoli",
    "type": "more_complex_than"
+  },
+  {
+   "source": "peripheral_vision",
+   "target": "ear_toward_earth",
+   "type": "followed_by"
+  },
+  {
+   "source": "ear_toward_earth",
+   "target": "close_eyes",
+   "type": "followed_by"
+  },
+  {
+   "source": "close_eyes",
+   "target": "open_eyes",
+   "type": "followed_by"
+  },
+  {
+   "source": "open_eyes",
+   "target": "dark_adaptation",
+   "type": "enables"
+  },
+  {
+   "source": "peripheral_vision",
+   "target": "night_walk_oct13",
+   "type": "demonstrated_by"
+  },
+  {
+   "source": "ear_toward_earth",
+   "target": "night_walk_oct13",
+   "type": "demonstrated_by"
+  },
+  {
+   "source": "close_eyes",
+   "target": "night_walk_oct13",
+   "type": "demonstrated_by"
+  },
+  {
+   "source": "open_eyes",
+   "target": "night_walk_oct13",
+   "type": "demonstrated_by"
+  },
+  {
+   "source": "peripheral_vision",
+   "target": "quasi_anderson",
+   "type": "is_analogous_to"
+  },
+  {
+   "source": "ear_toward_earth",
+   "target": "pid_derivative",
+   "type": "is_analogous_to"
+  },
+  {
+   "source": "close_eyes",
+   "target": "graph_json",
+   "type": "method_applied_to"
+  },
+  {
+   "source": "open_eyes",
+   "target": "dasean_voice",
+   "type": "triggered_by"
+  },
+  {
+   "source": "dasean_voice",
+   "target": "dasean_mitchell",
+   "type": "spoken_by"
+  },
+  {
+   "source": "shift_48k",
+   "target": "shift_scale",
+   "type": "exemplifies"
+  },
+  {
+   "source": "shift_75k",
+   "target": "shift_scale",
+   "type": "exemplifies"
+  },
+  {
+   "source": "shift_90k",
+   "target": "shift_scale",
+   "type": "exemplifies"
+  },
+  {
+   "source": "shift_100k",
+   "target": "shift_scale",
+   "type": "exemplifies"
+  },
+  {
+   "source": "shift_102k",
+   "target": "shift_scale",
+   "type": "exemplifies"
+  },
+  {
+   "source": "shift_48k",
+   "target": "shift_75k",
+   "type": "shifts_to"
+  },
+  {
+   "source": "shift_75k",
+   "target": "shift_90k",
+   "type": "shifts_to"
+  },
+  {
+   "source": "shift_90k",
+   "target": "shift_100k",
+   "type": "shifts_to"
+  },
+  {
+   "source": "shift_100k",
+   "target": "shift_102k",
+   "type": "shifts_to"
+  },
+  {
+   "source": "shift_watchers",
+   "target": "shift_scale",
+   "type": "exemplifies"
+  },
+  {
+   "source": "shift_watchers",
+   "target": "watcher_cohort_544",
+   "type": "describes"
+  },
+  {
+   "source": "attsi_inflection_02b",
+   "target": "attsi_speaks",
+   "type": "continues"
+  },
+  {
+   "source": "attsi_inflection_02b",
+   "target": "night_walk_oct13",
+   "type": "documents"
+  },
+  {
+   "source": "night_walk_oct13",
+   "target": "dark_adaptation",
+   "type": "teaches"
+  },
+  {
+   "source": "species_bright",
+   "target": "species_dark",
+   "type": "same_surface"
+  },
+  {
+   "source": "species_dark",
+   "target": "species_bright",
+   "type": "same_surface"
+  },
+  {
+   "source": "species_bright",
+   "target": "mobius_architecture",
+   "type": "viewed_through"
+  },
+  {
+   "source": "species_dark",
+   "target": "mobius_architecture",
+   "type": "viewed_through"
   }
  ]
 }
