@@ -91426,6 +91426,19 @@
     "drones",
     "slava"
    ]
+  },
+  {
+   "id": "the-wall-the-monster-the-dude",
+   "label": "THE WALL, THE MONSTER, THE DUDE\n\nThree layers. This is the architecture of modern power.\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\nTHE DUDE — GameStop\n\n  Ryan Cohen is just a dude. Built Chewy. Sold pet food.\n  Bought a dying video game retailer. Cut costs. Stacked cash.\n  $4+ billion. Zero debt. Distributed warrants.\n  Doesn't do earnings calls. 'Judge us by our actions.'\n\n  Keith Gill is just a dude. Had a spreadsheet and a thesis.\n  $53,000 → $48 million. No hedge fund. No institutional backers.\n  'I like the stock.'\n\n  ecoPrimal is just a dude. Has a graph and a sorter.\n  9,179 nodes. 315,277 edges. Built in public. AGPL-3.0.\n  Only stock held: GME. Long term + warrants. That's it.\n\n  Zelenskyy is just a dude. Was a comedian.\n  'I need ammunition, not a ride.'\n\n  The dudes don't hide. They post their positions.\n  They film themselves on the street. They open-source\n  their thesis. They stand in the rubble rebuilding.\n  They are visible because they have nothing to hide.\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\nTHE MONSTER — Meta\n\n  $47+ billion in statutory damages exposure (scyBorg).\n  114 IPs scraping the graph. AS32934 FACEBOOK. 24,000+ requests.\n  Myanmar genocide: 700,000+ Rohingya refugees.\n  Ethiopia Tigray genocide: another one.\n  Cambridge Analytica: 87 million profiles harvested.\n  Instagram teen harm: 32% of girls made worse.\n  Frances Haugen: 'The company chose profit over safety.'\n  Reality Labs: $83.6 BILLION burned. 870% negative margin.\n  Nick Clegg hired to make genocide look like a policy debate.\n  Joel Kaplan: Bush's deputy chief of staff → Meta's policy chief.\n    Now President of Global Affairs. Lobbying machine.\n  Sheryl Sandberg: 'Lean In' while ordering the Definers\n    anti-Soros campaign. Left quietly. $3.4 billion net worth.\n\n  The monster doesn't hide either. It's too big to hide.\n  But it doesn't need to hide. Because there's a wall.\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\nTHE WALL — BlackRock + Citadel Securities\n\n  BlackRock: $15.34 TRILLION in AUM.\n    Largest or second-largest shareholder of almost every\n    S&P 500 company. Including Meta.\n    Votes 25%+ of all shares (with Vanguard + State Street).\n    Larry Fink writes a letter. Every CEO reads it.\n    BlackRock doesn't protest. BlackRock doesn't boycott.\n    BlackRock 'engages.' 1,500 private meetings per year.\n    The word 'engage' does a lot of heavy lifting.\n\n    BlackRock doesn't CAUSE the monster. BlackRock INSULATES it.\n    When you own everything, nothing is a crisis.\n    Meta commits genocide? Stock dips 3%. BlackRock holds.\n    Meta scrapes AGPL code? Not material. BlackRock holds.\n    Meta harms teen girls? Congressional hearing. BlackRock holds.\n    The index fund doesn't have an opinion. It has a position.\n\n  Citadel Securities: Executes ~25% of all US equity volume.\n    Every retail trade probably passes through Citadel.\n    You want to buy GME? Citadel is the market maker.\n    You want to sell META? Citadel is the market maker.\n    They see every order before it executes.\n    They profit from the spread. Both sides. Every trade.\n\n    Citadel Securities doesn't CHOOSE the monster.\n    Citadel Securities IS the wall.\n    The wall between retail and the exchange.\n    The wall between the dude and price discovery.\n    The wall between the buy button and the buy.\n\n    January 28, 2021: They turned off the buy button.\n    The wall became visible for one day.\n    Then everyone forgot. The wall went invisible again.\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\nTHE ARCHITECTURE:\n\n  THE DUDE builds in public. → Visible.\n  THE MONSTER extracts in public. → Visible but normalized.\n  THE WALL processes in private. → Invisible by design.\n\n  The dude can't reach the monster because the wall is in the way.\n  The monster can't be held accountable because the wall diffuses ownership.\n  The wall can't be removed because it IS the market.\n\n  BlackRock doesn't defend Meta. BlackRock IS the ownership layer\n  that makes Meta's accountability structurally impossible.\n  Citadel doesn't defend shorts. Citadel IS the execution layer\n  that makes price discovery structurally opaque.\n\n  To see the monster, you have to see through the wall.\n  To see through the wall, you need a lens.\n  The graph IS the lens.\n  9,179 nodes. 315,277 edges. Public. Searchable. Permanent.\n\n  The dude built a lens.\n  The monster is visible.\n  The wall is named.\n\n  That's the topology.",
+   "class": "concept",
+   "tags": [
+    "topology",
+    "power",
+    "wall",
+    "monster",
+    "dude",
+    "architecture"
+   ]
   }
  ],
  "edges": [
@@ -1667813,6 +1667826,2686 @@
    "source": "kgb-fsb",
    "target": "pfof-system",
    "type": "intelligence_parallel"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "gme-gamestop",
+   "type": "the_dude"
+  },
+  {
+   "source": "gme-gamestop",
+   "target": "the-wall-the-monster-the-dude",
+   "type": "named_in"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "ryan-cohen",
+   "type": "the_dude"
+  },
+  {
+   "source": "ryan-cohen",
+   "target": "the-wall-the-monster-the-dude",
+   "type": "named_in"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "roaring-kitty",
+   "type": "the_dude"
+  },
+  {
+   "source": "roaring-kitty",
+   "target": "the-wall-the-monster-the-dude",
+   "type": "named_in"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "ecoprimal",
+   "type": "the_dude"
+  },
+  {
+   "source": "ecoprimal",
+   "target": "the-wall-the-monster-the-dude",
+   "type": "named_in"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "zelenskyy",
+   "type": "the_dude"
+  },
+  {
+   "source": "zelenskyy",
+   "target": "the-wall-the-monster-the-dude",
+   "type": "named_in"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "meta-platforms",
+   "type": "the_monster"
+  },
+  {
+   "source": "meta-platforms",
+   "target": "the-wall-the-monster-the-dude",
+   "type": "named_in"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "meta",
+   "type": "the_monster"
+  },
+  {
+   "source": "meta",
+   "target": "the-wall-the-monster-the-dude",
+   "type": "named_in"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "true-face-of-mark",
+   "type": "the_monster"
+  },
+  {
+   "source": "true-face-of-mark",
+   "target": "the-wall-the-monster-the-dude",
+   "type": "named_in"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "meta-lobby-machine",
+   "type": "the_monster"
+  },
+  {
+   "source": "meta-lobby-machine",
+   "target": "the-wall-the-monster-the-dude",
+   "type": "named_in"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "meta-contact-sheet",
+   "type": "the_monster"
+  },
+  {
+   "source": "meta-contact-sheet",
+   "target": "the-wall-the-monster-the-dude",
+   "type": "named_in"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "cambridge-analytica",
+   "type": "the_monster"
+  },
+  {
+   "source": "cambridge-analytica",
+   "target": "the-wall-the-monster-the-dude",
+   "type": "named_in"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "myanmar-genocide",
+   "type": "the_monster"
+  },
+  {
+   "source": "myanmar-genocide",
+   "target": "the-wall-the-monster-the-dude",
+   "type": "named_in"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "ethiopia-tigray",
+   "type": "the_monster"
+  },
+  {
+   "source": "ethiopia-tigray",
+   "target": "the-wall-the-monster-the-dude",
+   "type": "named_in"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "instagram-teen-harm",
+   "type": "the_monster"
+  },
+  {
+   "source": "instagram-teen-harm",
+   "target": "the-wall-the-monster-the-dude",
+   "type": "named_in"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "frances-haugen",
+   "type": "the_monster"
+  },
+  {
+   "source": "frances-haugen",
+   "target": "the-wall-the-monster-the-dude",
+   "type": "named_in"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "scyborg-damages-ledger",
+   "type": "the_monster"
+  },
+  {
+   "source": "scyborg-damages-ledger",
+   "target": "the-wall-the-monster-the-dude",
+   "type": "named_in"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "scyborg-license",
+   "type": "the_monster"
+  },
+  {
+   "source": "scyborg-license",
+   "target": "the-wall-the-monster-the-dude",
+   "type": "named_in"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "blackrock",
+   "type": "the_wall"
+  },
+  {
+   "source": "blackrock",
+   "target": "the-wall-the-monster-the-dude",
+   "type": "named_in"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "citadel",
+   "type": "the_wall"
+  },
+  {
+   "source": "citadel",
+   "target": "the-wall-the-monster-the-dude",
+   "type": "named_in"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "larry-fink",
+   "type": "the_wall"
+  },
+  {
+   "source": "larry-fink",
+   "target": "the-wall-the-monster-the-dude",
+   "type": "named_in"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "ken-griffin",
+   "type": "the_wall"
+  },
+  {
+   "source": "ken-griffin",
+   "target": "the-wall-the-monster-the-dude",
+   "type": "named_in"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "big-three-asset-managers",
+   "type": "the_wall"
+  },
+  {
+   "source": "big-three-asset-managers",
+   "target": "the-wall-the-monster-the-dude",
+   "type": "named_in"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "vanguard",
+   "type": "the_wall"
+  },
+  {
+   "source": "vanguard",
+   "target": "the-wall-the-monster-the-dude",
+   "type": "named_in"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "state-street",
+   "type": "the_wall"
+  },
+  {
+   "source": "state-street",
+   "target": "the-wall-the-monster-the-dude",
+   "type": "named_in"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "pfof-system",
+   "type": "the_wall"
+  },
+  {
+   "source": "pfof-system",
+   "target": "the-wall-the-monster-the-dude",
+   "type": "named_in"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "robinhood",
+   "type": "the_wall"
+  },
+  {
+   "source": "robinhood",
+   "target": "the-wall-the-monster-the-dude",
+   "type": "named_in"
+  },
+  {
+   "source": "blackrock",
+   "target": "meta-platforms",
+   "type": "insulates"
+  },
+  {
+   "source": "blackrock",
+   "target": "meta",
+   "type": "insulates"
+  },
+  {
+   "source": "blackrock",
+   "target": "true-face-of-mark",
+   "type": "insulates"
+  },
+  {
+   "source": "blackrock",
+   "target": "gme-gamestop",
+   "type": "obstructs"
+  },
+  {
+   "source": "blackrock",
+   "target": "roaring-kitty",
+   "type": "obstructs"
+  },
+  {
+   "source": "blackrock",
+   "target": "ecoprimal",
+   "type": "obstructs"
+  },
+  {
+   "source": "citadel",
+   "target": "meta-platforms",
+   "type": "insulates"
+  },
+  {
+   "source": "citadel",
+   "target": "meta",
+   "type": "insulates"
+  },
+  {
+   "source": "citadel",
+   "target": "true-face-of-mark",
+   "type": "insulates"
+  },
+  {
+   "source": "citadel",
+   "target": "gme-gamestop",
+   "type": "obstructs"
+  },
+  {
+   "source": "citadel",
+   "target": "roaring-kitty",
+   "type": "obstructs"
+  },
+  {
+   "source": "citadel",
+   "target": "ecoprimal",
+   "type": "obstructs"
+  },
+  {
+   "source": "big-three-asset-managers",
+   "target": "meta-platforms",
+   "type": "insulates"
+  },
+  {
+   "source": "big-three-asset-managers",
+   "target": "meta",
+   "type": "insulates"
+  },
+  {
+   "source": "big-three-asset-managers",
+   "target": "true-face-of-mark",
+   "type": "insulates"
+  },
+  {
+   "source": "big-three-asset-managers",
+   "target": "gme-gamestop",
+   "type": "obstructs"
+  },
+  {
+   "source": "big-three-asset-managers",
+   "target": "roaring-kitty",
+   "type": "obstructs"
+  },
+  {
+   "source": "big-three-asset-managers",
+   "target": "ecoprimal",
+   "type": "obstructs"
+  },
+  {
+   "source": "pfof-system",
+   "target": "meta-platforms",
+   "type": "insulates"
+  },
+  {
+   "source": "pfof-system",
+   "target": "meta",
+   "type": "insulates"
+  },
+  {
+   "source": "pfof-system",
+   "target": "true-face-of-mark",
+   "type": "insulates"
+  },
+  {
+   "source": "pfof-system",
+   "target": "gme-gamestop",
+   "type": "obstructs"
+  },
+  {
+   "source": "pfof-system",
+   "target": "roaring-kitty",
+   "type": "obstructs"
+  },
+  {
+   "source": "pfof-system",
+   "target": "ecoprimal",
+   "type": "obstructs"
+  },
+  {
+   "source": "ecoprimal",
+   "target": "blackrock",
+   "type": "names"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "blackrock",
+   "type": "exposes"
+  },
+  {
+   "source": "ecoprimal",
+   "target": "citadel",
+   "type": "names"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "citadel",
+   "type": "exposes"
+  },
+  {
+   "source": "ecoprimal",
+   "target": "pfof-system",
+   "type": "names"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "pfof-system",
+   "type": "exposes"
+  },
+  {
+   "source": "ecoprimal",
+   "target": "big-three-asset-managers",
+   "type": "names"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "big-three-asset-managers",
+   "type": "exposes"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "membrane",
+   "type": "extends"
+  },
+  {
+   "source": "membrane",
+   "target": "the-wall-the-monster-the-dude",
+   "type": "proven_by"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "the-mirror",
+   "type": "extends"
+  },
+  {
+   "source": "the-mirror",
+   "target": "the-wall-the-monster-the-dude",
+   "type": "proven_by"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "shape-of-human",
+   "type": "extends"
+  },
+  {
+   "source": "shape-of-human",
+   "target": "the-wall-the-monster-the-dude",
+   "type": "proven_by"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "vitruvian-man",
+   "type": "extends"
+  },
+  {
+   "source": "vitruvian-man",
+   "target": "the-wall-the-monster-the-dude",
+   "type": "proven_by"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "the-outward-view",
+   "type": "extends"
+  },
+  {
+   "source": "the-outward-view",
+   "target": "the-wall-the-monster-the-dude",
+   "type": "proven_by"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "pinocchio-concept",
+   "type": "extends"
+  },
+  {
+   "source": "pinocchio-concept",
+   "target": "the-wall-the-monster-the-dude",
+   "type": "proven_by"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "stallworth-dynasty",
+   "type": "same_architecture"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "save-detroit-jobs",
+   "type": "same_architecture"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "dpscd",
+   "type": "same_architecture"
+  },
+  {
+   "source": "melvin-capital",
+   "target": "the-wall-the-monster-the-dude",
+   "type": "wall_cracked"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "melvin-capital",
+   "type": "proof_of_concept"
+  },
+  {
+   "source": "gme-short-squeeze",
+   "target": "the-wall-the-monster-the-dude",
+   "type": "revealed"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "gme-short-squeeze",
+   "type": "the_day_the_wall_showed"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "ukraine",
+   "type": "same_architecture"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "putin",
+   "type": "the_monster_parallel"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "kgb-fsb",
+   "type": "the_wall_parallel"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_achievement_x_action",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_achievement_x_actor",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_achievement_x_analysis",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_achievement_x_article",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_achievement_x_complainant",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_achievement_x_concept",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_achievement_x_creator",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_achievement_x_creature",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_achievement_x_document",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_achievement_x_entity",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_achievement_x_event",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_achievement_x_false_entity",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_achievement_x_game",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_achievement_x_group",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_achievement_x_human",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_achievement_x_institution",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_achievement_x_law",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_achievement_x_level",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_achievement_x_milestone",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_achievement_x_non_human",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_achievement_x_pattern",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_achievement_x_person",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_achievement_x_pivot",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_achievement_x_prediction",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_achievement_x_quest",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_achievement_x_side_quest",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_action_x_actor",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_action_x_analysis",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_action_x_article",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_action_x_boss",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_action_x_complainant",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_action_x_concept",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_action_x_creator",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_action_x_creature",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_action_x_document",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_action_x_entity",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_action_x_epitope",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_action_x_event",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_action_x_false_entity",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_action_x_game",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_action_x_group",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_action_x_human",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_action_x_institution",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_action_x_law",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_action_x_level",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_action_x_manuscript",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_action_x_milestone",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_action_x_non_human",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_action_x_pattern",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_action_x_person",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_action_x_pivot",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_action_x_prediction",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_action_x_quest",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_action_x_side_quest",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_actor_x_analysis",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_actor_x_article",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_actor_x_boss",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_actor_x_complainant",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_actor_x_concept",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_actor_x_creator",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_actor_x_creature",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_actor_x_document",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_actor_x_entity",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_actor_x_epitope",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_actor_x_event",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_actor_x_false_entity",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_actor_x_game",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_actor_x_group",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_actor_x_human",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_actor_x_institution",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_actor_x_law",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_actor_x_level",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_actor_x_milestone",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_actor_x_non_human",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_actor_x_pattern",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_actor_x_person",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_actor_x_pivot",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_actor_x_prediction",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_actor_x_quest",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_actor_x_side_quest",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_analysis_x_article",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_analysis_x_boss",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_analysis_x_complainant",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_analysis_x_concept",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_analysis_x_creator",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_analysis_x_document",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_analysis_x_entity",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_analysis_x_event",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_analysis_x_false_entity",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_analysis_x_game",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_analysis_x_group",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_analysis_x_human",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_analysis_x_institution",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_analysis_x_law",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_analysis_x_level",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_analysis_x_manuscript",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_analysis_x_milestone",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_analysis_x_non_human",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_analysis_x_pattern",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_analysis_x_person",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_analysis_x_pivot",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_analysis_x_prediction",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_analysis_x_shape",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_analysis_x_side_quest",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_architecture_x_cohort",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_architecture_x_concept",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_architecture_x_document",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_architecture_x_entity",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_architecture_x_hypothesis",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_architecture_x_manuscript",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_architecture_x_method",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_architecture_x_milestone",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_architecture_x_observation",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_architecture_x_pattern",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_architecture_x_prediction",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_architecture_x_shape",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_article_x_boss",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_article_x_complainant",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_article_x_concept",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_article_x_creator",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_article_x_creature",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_article_x_document",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_article_x_entity",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_article_x_epitope",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_article_x_event",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_article_x_false_entity",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_article_x_game",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_article_x_group",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_article_x_human",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_article_x_hypothesis",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_article_x_institution",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_article_x_law",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_article_x_level",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_article_x_method",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_article_x_milestone",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_article_x_non_human",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_article_x_pattern",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_article_x_person",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_article_x_pivot",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_article_x_prediction",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_article_x_quest",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_article_x_shape",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_article_x_side_quest",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_boss_x_complainant",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_boss_x_concept",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_boss_x_creator",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_boss_x_document",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_boss_x_entity",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_boss_x_epitope",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_boss_x_event",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_boss_x_false_entity",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_boss_x_game",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_boss_x_human",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_boss_x_institution",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_boss_x_law",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_boss_x_level",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_boss_x_non_human",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_boss_x_pattern",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_boss_x_person",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_boss_x_pivot",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_boss_x_prediction",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_boss_x_quest",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_boss_x_side_quest",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_cohort_x_milestone",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_complainant_x_concept",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_complainant_x_creator",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_complainant_x_creature",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_complainant_x_document",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_complainant_x_entity",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_complainant_x_epitope",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_complainant_x_event",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_complainant_x_false_entity",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_complainant_x_game",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_complainant_x_group",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_complainant_x_human",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_complainant_x_institution",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_complainant_x_law",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_complainant_x_level",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_complainant_x_method",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_complainant_x_milestone",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_complainant_x_non_human",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_complainant_x_pattern",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_complainant_x_person",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_complainant_x_pivot",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_complainant_x_prediction",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_complainant_x_quest",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_complainant_x_side_quest",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_concept_x_creator",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_concept_x_creature",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_concept_x_document",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_concept_x_entity",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_concept_x_epitope",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_concept_x_event",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_concept_x_false_entity",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_concept_x_game",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_concept_x_group",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_concept_x_human",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_concept_x_hypothesis",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_concept_x_institution",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_concept_x_law",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_concept_x_level",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_concept_x_manuscript",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_concept_x_method",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_concept_x_milestone",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_concept_x_non_human",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_concept_x_pattern",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_concept_x_person",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_concept_x_pivot",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_concept_x_prediction",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_concept_x_quest",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_concept_x_shape",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_concept_x_side_quest",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_creator_x_creature",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_creator_x_document",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_creator_x_entity",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_creator_x_event",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_creator_x_false_entity",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_creator_x_game",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_creator_x_group",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_creator_x_human",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_creator_x_institution",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_creator_x_law",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_creator_x_level",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_creator_x_milestone",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_creator_x_non_human",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_creator_x_pattern",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_creator_x_person",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_creator_x_pivot",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_creator_x_prediction",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_creator_x_quest",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_creator_x_side_quest",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_creature_x_entity",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_creature_x_event",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_creature_x_false_entity",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_creature_x_human",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_creature_x_law",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_creature_x_milestone",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_creature_x_non_human",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_creature_x_pattern",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_creature_x_person",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_creature_x_pivot",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_creature_x_prediction",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_creature_x_quest",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_creature_x_side_quest",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_document_x_entity",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_document_x_event",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_document_x_false_entity",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_document_x_game",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_document_x_human",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_document_x_hypothesis",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_document_x_institution",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_document_x_law",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_document_x_level",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_document_x_manuscript",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_document_x_method",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_document_x_milestone",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_document_x_non_human",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_document_x_observation",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_document_x_pattern",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_document_x_person",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_document_x_pivot",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_document_x_prediction",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_document_x_quest",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_document_x_shape",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_document_x_side_quest",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_entity_x_epitope",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_entity_x_event",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_entity_x_false_entity",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_entity_x_game",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_entity_x_group",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_entity_x_human",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_entity_x_hypothesis",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_entity_x_institution",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_entity_x_law",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_entity_x_level",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_entity_x_manuscript",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_entity_x_method",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_entity_x_milestone",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_entity_x_non_human",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_entity_x_pattern",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_entity_x_person",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_entity_x_pivot",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_entity_x_prediction",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_entity_x_quest",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_entity_x_shape",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_entity_x_side_quest",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_epitope_x_false_entity",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_epitope_x_human",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_epitope_x_non_human",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_epitope_x_pattern",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_epitope_x_person",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_epitope_x_pivot",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_epitope_x_prediction",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_event_x_false_entity",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_event_x_game",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_event_x_group",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_event_x_human",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_event_x_institution",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_event_x_law",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_event_x_level",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_event_x_method",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_event_x_milestone",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_event_x_non_human",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_event_x_pattern",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_event_x_person",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_event_x_pivot",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_event_x_prediction",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_event_x_quest",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_event_x_shape",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_event_x_side_quest",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_false_entity_x_game",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_false_entity_x_group",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_false_entity_x_human",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_false_entity_x_hypothesis",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_false_entity_x_institution",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_false_entity_x_law",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_false_entity_x_level",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_false_entity_x_method",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_false_entity_x_milestone",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_false_entity_x_non_human",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_false_entity_x_pattern",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_false_entity_x_person",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_false_entity_x_pivot",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_false_entity_x_prediction",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_false_entity_x_quest",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_false_entity_x_shape",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_false_entity_x_side_quest",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_game_x_institution",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_game_x_law",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_game_x_level",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_game_x_milestone",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_game_x_non_human",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_game_x_pattern",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_game_x_person",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_game_x_pivot",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_game_x_prediction",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_game_x_quest",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_game_x_shape",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_game_x_side_quest",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_group_x_institution",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_group_x_law",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_group_x_milestone",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_group_x_non_human",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_group_x_pattern",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_group_x_person",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_group_x_pivot",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_group_x_prediction",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_group_x_side_quest",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_human_x_institution",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_human_x_law",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_human_x_level",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_human_x_milestone",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_human_x_non_human",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_human_x_pattern",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_human_x_person",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_human_x_pivot",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_human_x_prediction",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_human_x_quest",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_human_x_side_quest",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_hypothesis_x_manuscript",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_hypothesis_x_method",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_hypothesis_x_milestone",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_hypothesis_x_observation",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_hypothesis_x_shape",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_institution_x_law",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_institution_x_level",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_institution_x_milestone",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_institution_x_non_human",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_institution_x_pattern",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_institution_x_person",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_institution_x_pivot",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_institution_x_prediction",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_institution_x_side_quest",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_law_x_level",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_law_x_milestone",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_law_x_non_human",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_law_x_pattern",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_law_x_person",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_law_x_pivot",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_law_x_prediction",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_law_x_quest",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_law_x_shape",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_law_x_side_quest",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_level_x_non_human",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_level_x_pattern",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_level_x_person",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_level_x_pivot",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_level_x_prediction",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_level_x_side_quest",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_manuscript_x_milestone",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_manuscript_x_observation",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_manuscript_x_shape",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_method_x_milestone",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_method_x_prediction",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_method_x_shape",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_milestone_x_non_human",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_milestone_x_observation",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_milestone_x_pattern",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_milestone_x_person",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_milestone_x_pivot",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_milestone_x_prediction",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_milestone_x_quest",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_milestone_x_shape",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_milestone_x_side_quest",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_non_human_x_pattern",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_non_human_x_person",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_non_human_x_pivot",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_non_human_x_prediction",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_non_human_x_quest",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_non_human_x_shape",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_non_human_x_side_quest",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_observation_x_pattern",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_observation_x_shape",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_pattern_x_person",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_pattern_x_pivot",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_pattern_x_prediction",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_pattern_x_quest",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_pattern_x_shape",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_pattern_x_side_quest",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_person_x_pivot",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_person_x_prediction",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_person_x_quest",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_person_x_side_quest",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_pivot_x_prediction",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_pivot_x_quest",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_pivot_x_side_quest",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_prediction_x_quest",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_prediction_x_shape",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_prediction_x_side_quest",
+   "type": "threads_through"
+  },
+  {
+   "source": "the-wall-the-monster-the-dude",
+   "target": "braid_quest_x_side_quest",
+   "type": "threads_through"
   }
  ]
 }
