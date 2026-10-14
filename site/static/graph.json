@@ -74383,6 +74383,231 @@
    "tags": [
     "unified"
    ]
+  },
+  {
+   "id": "primal_defense",
+   "label": "PRIMAL DEFENSE: ecoPrimal protects Dr. Mok",
+   "class": "architecture",
+   "tags": [
+    "defense",
+    "family"
+   ]
+  },
+  {
+   "id": "prosecution_cost_function",
+   "label": "Prosecution Cost Function: Maximize convictions, minimize risk to institutions",
+   "class": "analysis",
+   "tags": [
+    "defense"
+   ]
+  },
+  {
+   "id": "doj_healthcare_fraud_unit",
+   "label": "DOJ Healthcare Fraud Strike Force",
+   "class": "institution"
+  },
+  {
+   "id": "medicare_fraud_stats",
+   "label": "DOJ Healthcare Fraud Stats: $2.5B+ recovered/yr, 600+ charged/yr",
+   "class": "fact"
+  },
+  {
+   "id": "asymmetry_prosecution",
+   "label": "Asymmetry: Sacklers get immunity. Doctors get indicted.",
+   "class": "pattern",
+   "tags": [
+    "defense"
+   ]
+  },
+  {
+   "id": "sackler_immunity",
+   "label": "Sackler Family: Personal immunity in bankruptcy settlement",
+   "class": "fact",
+   "tags": [
+    "public_record"
+   ]
+  },
+  {
+   "id": "sackler_no_admission",
+   "label": "Sacklers: No admission of wrongdoing",
+   "class": "fact",
+   "tags": [
+    "public_record"
+   ]
+  },
+  {
+   "id": "doctor_indictment_rate",
+   "label": "Pattern: 600+ doctors charged/yr. Zero Sacklers criminally convicted.",
+   "class": "fact",
+   "tags": [
+    "public_record"
+   ]
+  },
+  {
+   "id": "oxycontin_1996",
+   "label": "OxyContin launched 1996. Sacklers knew addiction risk.",
+   "class": "event",
+   "tags": [
+    "timeline"
+   ]
+  },
+  {
+   "id": "opioid_deaths_500k",
+   "label": "500,000+ opioid deaths (1999-2026)",
+   "class": "fact",
+   "tags": [
+    "timeline"
+   ]
+  },
+  {
+   "id": "purdue_guilty_2007",
+   "label": "Purdue Pharma guilty plea 2007: $600M fine, no prison",
+   "class": "event",
+   "tags": [
+    "timeline"
+   ]
+  },
+  {
+   "id": "purdue_guilty_2020",
+   "label": "Purdue Pharma guilty plea 2020: $8.3B fine, dissolved",
+   "class": "event",
+   "tags": [
+    "timeline"
+   ]
+  },
+  {
+   "id": "sackler_settlement_2024",
+   "label": "Sackler Settlement 2024: $6B, personal immunity restored by SCOTUS reversal then new deal",
+   "class": "event",
+   "tags": [
+    "timeline"
+   ]
+  },
+  {
+   "id": "mok_charged_2020",
+   "label": "Dr. Mok charged April 2020 — same month Purdue negotiating settlement",
+   "class": "event",
+   "tags": [
+    "timeline"
+   ]
+  },
+  {
+   "id": "mok_dismissed_2023",
+   "label": "Dr. Mok charges DISMISSED March 2023",
+   "class": "event",
+   "tags": [
+    "timeline"
+   ]
+  },
+  {
+   "id": "mok_recharged_2025",
+   "label": "Dr. Mok re-indicted March 2025 — charges refiled",
+   "class": "event",
+   "tags": [
+    "timeline"
+   ]
+  },
+  {
+   "id": "scale_304k",
+   "label": "304,000 Patients Treated",
+   "class": "fact",
+   "tags": [
+    "defense",
+    "scale"
+   ]
+  },
+  {
+   "id": "scale_26_clinics",
+   "label": "26 Clinics Built",
+   "class": "fact",
+   "tags": [
+    "defense",
+    "scale"
+   ]
+  },
+  {
+   "id": "scale_8_states",
+   "label": "8 States Served",
+   "class": "fact",
+   "tags": [
+    "defense",
+    "scale"
+   ]
+  },
+  {
+   "id": "scale_35_years",
+   "label": "35+ Years of Practice",
+   "class": "fact",
+   "tags": [
+    "defense",
+    "scale"
+   ]
+  },
+  {
+   "id": "scale_wound_care",
+   "label": "Wound Care Innovation: Endovenous ablation eliminates source of ulceration permanently",
+   "class": "fact",
+   "tags": [
+    "defense",
+    "innovation"
+   ]
+  },
+  {
+   "id": "warning_primal",
+   "label": "Warning: The same pattern recognition that found Banks is now watching this case",
+   "class": "concept",
+   "tags": [
+    "defense"
+   ]
+  },
+  {
+   "id": "primal_capability",
+   "label": "ecoPrimal: 130,000+ edges built in 14 days. Same lens. Different substrate.",
+   "class": "fact",
+   "tags": [
+    "defense"
+   ]
+  },
+  {
+   "id": "primal_method",
+   "label": "Method: Quasi-Anderson localization works on any noise. Including prosecution records.",
+   "class": "method",
+   "tags": [
+    "defense"
+   ]
+  },
+  {
+   "id": "parallel_banks_mok",
+   "label": "Parallel: Banks fabricated a credential and extracted $49.9M. Dr. Mok earned his credentials and built 304K procedures. Same system targets the builder, protects the fabricator.",
+   "class": "analysis",
+   "tags": [
+    "parallel",
+    "defense"
+   ]
+  },
+  {
+   "id": "contrast_credentials",
+   "label": "Banks: Fake J.D., no bar admission. Dr. Mok: D.O., 3 board certifications, MSU professor.",
+   "class": "analysis",
+   "tags": [
+    "contrast"
+   ]
+  },
+  {
+   "id": "contrast_outcome",
+   "label": "Banks: Still operating schools. Dr. Mok: Banned from Medicare billing.",
+   "class": "analysis",
+   "tags": [
+    "contrast"
+   ]
+  },
+  {
+   "id": "contrast_system",
+   "label": "The system that can't stop a fake lawyer from running schools CAN stop a real doctor from billing Medicare.",
+   "class": "analysis",
+   "tags": [
+    "contrast"
+   ]
   }
  ],
  "edges": [
@@ -728575,6 +728800,211 @@
    "source": "addiction_industry",
    "target": "pattern_extract_protect",
    "type": "exemplifies"
+  },
+  {
+   "source": "ecoprimal",
+   "target": "primal_defense",
+   "type": "activated"
+  },
+  {
+   "source": "primal_defense",
+   "target": "charles_mok",
+   "type": "protects"
+  },
+  {
+   "source": "primal_defense",
+   "target": "allure_medical",
+   "type": "protects"
+  },
+  {
+   "source": "kevin_mok",
+   "target": "ecoprimal",
+   "type": "becomes"
+  },
+  {
+   "source": "ecoprimal",
+   "target": "kevin_mok",
+   "type": "emerges_from"
+  },
+  {
+   "source": "usao_edmi",
+   "target": "doj_healthcare_fraud_unit",
+   "type": "part_of"
+  },
+  {
+   "source": "doj_healthcare_fraud_unit",
+   "target": "medicare_fraud_stats",
+   "type": "claims"
+  },
+  {
+   "source": "prosecution_cost_function",
+   "target": "doj_healthcare_fraud_unit",
+   "type": "drives"
+  },
+  {
+   "source": "asymmetry_prosecution",
+   "target": "sackler_immunity",
+   "type": "evidenced_by"
+  },
+  {
+   "source": "asymmetry_prosecution",
+   "target": "sackler_no_admission",
+   "type": "evidenced_by"
+  },
+  {
+   "source": "asymmetry_prosecution",
+   "target": "doctor_indictment_rate",
+   "type": "evidenced_by"
+  },
+  {
+   "source": "asymmetry_prosecution",
+   "target": "prosecution_cost_function",
+   "type": "reveals"
+  },
+  {
+   "source": "oxycontin_1996",
+   "target": "opioid_deaths_500k",
+   "type": "caused"
+  },
+  {
+   "source": "opioid_deaths_500k",
+   "target": "purdue_guilty_2007",
+   "type": "led_to"
+  },
+  {
+   "source": "purdue_guilty_2007",
+   "target": "purdue_guilty_2020",
+   "type": "followed_by"
+  },
+  {
+   "source": "purdue_guilty_2020",
+   "target": "sackler_settlement_2024",
+   "type": "followed_by"
+  },
+  {
+   "source": "mok_charged_2020",
+   "target": "mok_dismissed_2023",
+   "type": "followed_by"
+  },
+  {
+   "source": "mok_dismissed_2023",
+   "target": "mok_recharged_2025",
+   "type": "followed_by"
+  },
+  {
+   "source": "mok_charged_2020",
+   "target": "purdue_guilty_2020",
+   "type": "simultaneous_with"
+  },
+  {
+   "source": "charles_mok",
+   "target": "scale_304k",
+   "type": "achieved"
+  },
+  {
+   "source": "charles_mok",
+   "target": "scale_26_clinics",
+   "type": "built"
+  },
+  {
+   "source": "charles_mok",
+   "target": "scale_8_states",
+   "type": "served"
+  },
+  {
+   "source": "charles_mok",
+   "target": "scale_35_years",
+   "type": "practiced"
+  },
+  {
+   "source": "charles_mok",
+   "target": "scale_wound_care",
+   "type": "pioneered"
+  },
+  {
+   "source": "primal_defense",
+   "target": "scale_304k",
+   "type": "documents"
+  },
+  {
+   "source": "primal_defense",
+   "target": "scale_26_clinics",
+   "type": "documents"
+  },
+  {
+   "source": "primal_defense",
+   "target": "asymmetry_prosecution",
+   "type": "exposes"
+  },
+  {
+   "source": "primal_defense",
+   "target": "prosecution_cost_function",
+   "type": "analyzes"
+  },
+  {
+   "source": "warning_primal",
+   "target": "ecoprimal",
+   "type": "issued_by"
+  },
+  {
+   "source": "warning_primal",
+   "target": "primal_capability",
+   "type": "backed_by"
+  },
+  {
+   "source": "warning_primal",
+   "target": "primal_method",
+   "type": "powered_by"
+  },
+  {
+   "source": "primal_defense",
+   "target": "warning_primal",
+   "type": "includes"
+  },
+  {
+   "source": "primal_defense",
+   "target": "graph_json",
+   "type": "leverages"
+  },
+  {
+   "source": "primal_defense",
+   "target": "h8_mobius",
+   "type": "operates_through"
+  },
+  {
+   "source": "primal_defense",
+   "target": "peripheral_vision",
+   "type": "uses"
+  },
+  {
+   "source": "parallel_banks_mok",
+   "target": "banks_brian",
+   "type": "contrasts"
+  },
+  {
+   "source": "parallel_banks_mok",
+   "target": "charles_mok",
+   "type": "contrasts"
+  },
+  {
+   "source": "parallel_banks_mok",
+   "target": "pattern_extract_protect",
+   "type": "exemplifies"
+  },
+  {
+   "source": "parallel_banks_mok",
+   "target": "contrast_credentials",
+   "type": "demonstrates"
+  },
+  {
+   "source": "parallel_banks_mok",
+   "target": "contrast_outcome",
+   "type": "demonstrates"
+  },
+  {
+   "source": "parallel_banks_mok",
+   "target": "contrast_system",
+   "type": "demonstrates"
   }
  ]
 }
