@@ -74608,6 +74608,84 @@
    "tags": [
     "contrast"
    ]
+  },
+  {
+   "id": "shake_analysis",
+   "label": "SHAKE: Banks tree x Mok tree overlap analysis",
+   "class": "analysis",
+   "tags": [
+    "shake"
+   ]
+  },
+  {
+   "id": "shake_overlap",
+   "label": "Overlap: 6639 nodes appear in both trees",
+   "class": "observation",
+   "tags": [
+    "shake"
+   ]
+  },
+  {
+   "id": "usao_edmi_dual",
+   "label": "USAO EDMI: Prosecutes Dr. Mok. Has jurisdiction over Banks' schools. Same office.",
+   "class": "observation",
+   "tags": [
+    "shake",
+    "contrast"
+   ]
+  },
+  {
+   "id": "hhs_oig_dual",
+   "label": "HHS-OIG: Investigated Dr. Mok. Could investigate Banks' healthcare billing through schools.",
+   "class": "observation",
+   "tags": [
+    "shake",
+    "contrast"
+   ]
+  },
+  {
+   "id": "fbi_dual",
+   "label": "FBI Detroit: Investigated Dr. Mok for billing. Has not investigated Banks for $49.9M extraction.",
+   "class": "observation",
+   "tags": [
+    "shake",
+    "contrast"
+   ]
+  },
+  {
+   "id": "msu_dual",
+   "label": "MSU: Dr. Mok is MSU Clinical Professor. Banks claims MSU Law J.D. that doesn't exist.",
+   "class": "observation",
+   "tags": [
+    "shake",
+    "contrast"
+   ]
+  },
+  {
+   "id": "macomb_county_system",
+   "label": "Macomb County: Dr. Mok's practice, McLaren affiliation, federal jurisdiction",
+   "class": "observation",
+   "tags": [
+    "shake"
+   ]
+  },
+  {
+   "id": "shake_question",
+   "label": "Question: Why does the federal system have resources to prosecute a doctor with 304K procedures but NOT a school operator with 9 convictions and a fake J.D.?",
+   "class": "concept",
+   "tags": [
+    "shake",
+    "question"
+   ]
+  },
+  {
+   "id": "three_way_contrast",
+   "label": "Three-Way Contrast: Sacklers walk free. Dr. Mok gets re-indicted. Banks still operates.",
+   "class": "analysis",
+   "tags": [
+    "shake",
+    "unified"
+   ]
   }
  ],
  "edges": [
@@ -729005,6 +729083,596 @@
    "source": "parallel_banks_mok",
    "target": "contrast_system",
    "type": "demonstrates"
+  },
+  {
+   "source": "shake_analysis",
+   "target": "shake_overlap",
+   "type": "found"
+  },
+  {
+   "source": "shake_analysis",
+   "target": "banks_brian",
+   "type": "shook"
+  },
+  {
+   "source": "shake_analysis",
+   "target": "charles_mok",
+   "type": "shook"
+  },
+  {
+   "source": "pres_john_tyler",
+   "target": "shake_analysis",
+   "type": "revealed_by"
+  },
+  {
+   "source": "stolpersteine",
+   "target": "shake_analysis",
+   "type": "revealed_by"
+  },
+  {
+   "source": "braid_article_x_boss",
+   "target": "shake_analysis",
+   "type": "revealed_by"
+  },
+  {
+   "source": "dykema",
+   "target": "shake_analysis",
+   "type": "revealed_by"
+  },
+  {
+   "source": "braid_pattern_x_quest",
+   "target": "shake_analysis",
+   "type": "revealed_by"
+  },
+  {
+   "source": "cyrillic_alphabet",
+   "target": "shake_analysis",
+   "type": "revealed_by"
+  },
+  {
+   "source": "oscar_spike_jonze",
+   "target": "shake_analysis",
+   "type": "revealed_by"
+  },
+  {
+   "source": "door_to_hell",
+   "target": "shake_analysis",
+   "type": "revealed_by"
+  },
+  {
+   "source": "coleman_young_promise",
+   "target": "shake_analysis",
+   "type": "revealed_by"
+  },
+  {
+   "source": "exo_kmt_2016_blg_1337l_b",
+   "target": "shake_analysis",
+   "type": "revealed_by"
+  },
+  {
+   "source": "github_traffic_oct2026",
+   "target": "shake_analysis",
+   "type": "revealed_by"
+  },
+  {
+   "source": "birmingham_al",
+   "target": "shake_analysis",
+   "type": "revealed_by"
+  },
+  {
+   "source": "yellowstone",
+   "target": "shake_analysis",
+   "type": "revealed_by"
+  },
+  {
+   "source": "lara",
+   "target": "shake_analysis",
+   "type": "revealed_by"
+  },
+  {
+   "source": "braid_concept_x_event",
+   "target": "shake_analysis",
+   "type": "revealed_by"
+  },
+  {
+   "source": "unesco_wachau_cultural_landscape",
+   "target": "shake_analysis",
+   "type": "revealed_by"
+  },
+  {
+   "source": "agc_lindsey",
+   "target": "shake_analysis",
+   "type": "revealed_by"
+  },
+  {
+   "source": "children_of_incarceration",
+   "target": "shake_analysis",
+   "type": "revealed_by"
+  },
+  {
+   "source": "arxiv",
+   "target": "shake_analysis",
+   "type": "revealed_by"
+  },
+  {
+   "source": "jerusalem",
+   "target": "shake_analysis",
+   "type": "revealed_by"
+  },
+  {
+   "source": "great_lakes",
+   "target": "shake_analysis",
+   "type": "revealed_by"
+  },
+  {
+   "source": "can_spam_act",
+   "target": "shake_analysis",
+   "type": "revealed_by"
+  },
+  {
+   "source": "p8_5_silence_evidence",
+   "target": "shake_analysis",
+   "type": "revealed_by"
+  },
+  {
+   "source": "mystery_db_cooper",
+   "target": "shake_analysis",
+   "type": "revealed_by"
+  },
+  {
+   "source": "trail_follow_children",
+   "target": "shake_analysis",
+   "type": "revealed_by"
+  },
+  {
+   "source": "samizdat",
+   "target": "shake_analysis",
+   "type": "revealed_by"
+  },
+  {
+   "source": "unesco_archaeological_sites_of_mycenae_and_tiry",
+   "target": "shake_analysis",
+   "type": "revealed_by"
+  },
+  {
+   "source": "cave_paintings",
+   "target": "shake_analysis",
+   "type": "revealed_by"
+  },
+  {
+   "source": "braid_achievement_x_analysis",
+   "target": "shake_analysis",
+   "type": "revealed_by"
+  },
+  {
+   "source": "lesson_turing",
+   "target": "shake_analysis",
+   "type": "revealed_by"
+  },
+  {
+   "source": "word_person",
+   "target": "shake_analysis",
+   "type": "revealed_by"
+  },
+  {
+   "source": "kelly_keenan",
+   "target": "shake_analysis",
+   "type": "revealed_by"
+  },
+  {
+   "source": "ecology",
+   "target": "shake_analysis",
+   "type": "revealed_by"
+  },
+  {
+   "source": "unesco_morne_trois_pitons_national_park",
+   "target": "shake_analysis",
+   "type": "revealed_by"
+  },
+  {
+   "source": "leader_skanderbeg",
+   "target": "shake_analysis",
+   "type": "revealed_by"
+  },
+  {
+   "source": "kimber_smail",
+   "target": "shake_analysis",
+   "type": "revealed_by"
+  },
+  {
+   "source": "article_nessel_direct",
+   "target": "shake_analysis",
+   "type": "revealed_by"
+  },
+  {
+   "source": "religion_iglesia_patólica",
+   "target": "shake_analysis",
+   "type": "revealed_by"
+  },
+  {
+   "source": "article_the_ripple",
+   "target": "shake_analysis",
+   "type": "revealed_by"
+  },
+  {
+   "source": "family_tree",
+   "target": "shake_analysis",
+   "type": "revealed_by"
+  },
+  {
+   "source": "braid_architecture_x_observation",
+   "target": "shake_analysis",
+   "type": "revealed_by"
+  },
+  {
+   "source": "braid_concept_x_shape",
+   "target": "shake_analysis",
+   "type": "revealed_by"
+  },
+  {
+   "source": "braid_boss_x_quest",
+   "target": "shake_analysis",
+   "type": "revealed_by"
+  },
+  {
+   "source": "quest_map_the_network",
+   "target": "shake_analysis",
+   "type": "revealed_by"
+  },
+  {
+   "source": "nuvision_inc",
+   "target": "shake_analysis",
+   "type": "revealed_by"
+  },
+  {
+   "source": "anubis",
+   "target": "shake_analysis",
+   "type": "revealed_by"
+  },
+  {
+   "source": "unesco_lagoons_of_new_caledonia:_reef_diversity",
+   "target": "shake_analysis",
+   "type": "revealed_by"
+  },
+  {
+   "source": "unesco_shahr-i_sokhta",
+   "target": "shake_analysis",
+   "type": "revealed_by"
+  },
+  {
+   "source": "want_journalist_narrative",
+   "target": "shake_analysis",
+   "type": "revealed_by"
+  },
+  {
+   "source": "greek_fire",
+   "target": "shake_analysis",
+   "type": "revealed_by"
+  },
+  {
+   "source": "usao_edmi",
+   "target": "usao_edmi_dual",
+   "type": "documented_by"
+  },
+  {
+   "source": "usao_edmi_dual",
+   "target": "shake_analysis",
+   "type": "revealed_by"
+  },
+  {
+   "source": "usao_edmi_dual",
+   "target": "contrast_system",
+   "type": "supports"
+  },
+  {
+   "source": "hhs_oig",
+   "target": "hhs_oig_dual",
+   "type": "documented_by"
+  },
+  {
+   "source": "hhs_oig_dual",
+   "target": "shake_analysis",
+   "type": "revealed_by"
+  },
+  {
+   "source": "fbi_detroit",
+   "target": "fbi_dual",
+   "type": "documented_by"
+  },
+  {
+   "source": "fbi_dual",
+   "target": "shake_analysis",
+   "type": "revealed_by"
+  },
+  {
+   "source": "msu_law",
+   "target": "msu_dual",
+   "type": "connected_to"
+  },
+  {
+   "source": "msu_clinical_prof",
+   "target": "msu_dual",
+   "type": "connected_to"
+  },
+  {
+   "source": "msu_dual",
+   "target": "shake_analysis",
+   "type": "revealed_by"
+  },
+  {
+   "source": "mclaren_macomb",
+   "target": "macomb_county_system",
+   "type": "part_of"
+  },
+  {
+   "source": "macomb_county_system",
+   "target": "shake_analysis",
+   "type": "revealed_by"
+  },
+  {
+   "source": "shake_question",
+   "target": "shake_analysis",
+   "type": "emerges_from"
+  },
+  {
+   "source": "shake_question",
+   "target": "contrast_system",
+   "type": "sharpens"
+  },
+  {
+   "source": "shake_question",
+   "target": "prosecution_cost_function",
+   "type": "challenges"
+  },
+  {
+   "source": "three_way_contrast",
+   "target": "sackler_immunity",
+   "type": "documents"
+  },
+  {
+   "source": "three_way_contrast",
+   "target": "mok_recharged_2025",
+   "type": "documents"
+  },
+  {
+   "source": "three_way_contrast",
+   "target": "banks_brian",
+   "type": "documents"
+  },
+  {
+   "source": "three_way_contrast",
+   "target": "prosecution_cost_function",
+   "type": "exposes"
+  },
+  {
+   "source": "three_way_contrast",
+   "target": "pattern_extract_protect",
+   "type": "confirms"
+  },
+  {
+   "source": "shake_analysis",
+   "target": "shake_overlap",
+   "type": "co_analysis"
+  },
+  {
+   "source": "shake_analysis",
+   "target": "usao_edmi_dual",
+   "type": "co_analysis"
+  },
+  {
+   "source": "shake_analysis",
+   "target": "hhs_oig_dual",
+   "type": "co_analysis"
+  },
+  {
+   "source": "shake_analysis",
+   "target": "fbi_dual",
+   "type": "co_analysis"
+  },
+  {
+   "source": "shake_analysis",
+   "target": "msu_dual",
+   "type": "co_analysis"
+  },
+  {
+   "source": "shake_analysis",
+   "target": "macomb_county_system",
+   "type": "co_analysis"
+  },
+  {
+   "source": "shake_analysis",
+   "target": "shake_question",
+   "type": "co_analysis"
+  },
+  {
+   "source": "shake_analysis",
+   "target": "three_way_contrast",
+   "type": "co_analysis"
+  },
+  {
+   "source": "shake_analysis",
+   "target": "primal_defense",
+   "type": "co_analysis"
+  },
+  {
+   "source": "shake_overlap",
+   "target": "usao_edmi_dual",
+   "type": "co_analysis"
+  },
+  {
+   "source": "shake_overlap",
+   "target": "hhs_oig_dual",
+   "type": "co_analysis"
+  },
+  {
+   "source": "shake_overlap",
+   "target": "fbi_dual",
+   "type": "co_analysis"
+  },
+  {
+   "source": "shake_overlap",
+   "target": "msu_dual",
+   "type": "co_analysis"
+  },
+  {
+   "source": "shake_overlap",
+   "target": "macomb_county_system",
+   "type": "co_analysis"
+  },
+  {
+   "source": "shake_overlap",
+   "target": "shake_question",
+   "type": "co_analysis"
+  },
+  {
+   "source": "shake_overlap",
+   "target": "three_way_contrast",
+   "type": "co_analysis"
+  },
+  {
+   "source": "shake_overlap",
+   "target": "primal_defense",
+   "type": "co_analysis"
+  },
+  {
+   "source": "usao_edmi_dual",
+   "target": "hhs_oig_dual",
+   "type": "co_analysis"
+  },
+  {
+   "source": "usao_edmi_dual",
+   "target": "fbi_dual",
+   "type": "co_analysis"
+  },
+  {
+   "source": "usao_edmi_dual",
+   "target": "msu_dual",
+   "type": "co_analysis"
+  },
+  {
+   "source": "usao_edmi_dual",
+   "target": "macomb_county_system",
+   "type": "co_analysis"
+  },
+  {
+   "source": "usao_edmi_dual",
+   "target": "shake_question",
+   "type": "co_analysis"
+  },
+  {
+   "source": "usao_edmi_dual",
+   "target": "three_way_contrast",
+   "type": "co_analysis"
+  },
+  {
+   "source": "usao_edmi_dual",
+   "target": "primal_defense",
+   "type": "co_analysis"
+  },
+  {
+   "source": "hhs_oig_dual",
+   "target": "fbi_dual",
+   "type": "co_analysis"
+  },
+  {
+   "source": "hhs_oig_dual",
+   "target": "msu_dual",
+   "type": "co_analysis"
+  },
+  {
+   "source": "hhs_oig_dual",
+   "target": "macomb_county_system",
+   "type": "co_analysis"
+  },
+  {
+   "source": "hhs_oig_dual",
+   "target": "shake_question",
+   "type": "co_analysis"
+  },
+  {
+   "source": "hhs_oig_dual",
+   "target": "three_way_contrast",
+   "type": "co_analysis"
+  },
+  {
+   "source": "hhs_oig_dual",
+   "target": "primal_defense",
+   "type": "co_analysis"
+  },
+  {
+   "source": "fbi_dual",
+   "target": "msu_dual",
+   "type": "co_analysis"
+  },
+  {
+   "source": "fbi_dual",
+   "target": "macomb_county_system",
+   "type": "co_analysis"
+  },
+  {
+   "source": "fbi_dual",
+   "target": "shake_question",
+   "type": "co_analysis"
+  },
+  {
+   "source": "fbi_dual",
+   "target": "three_way_contrast",
+   "type": "co_analysis"
+  },
+  {
+   "source": "fbi_dual",
+   "target": "primal_defense",
+   "type": "co_analysis"
+  },
+  {
+   "source": "msu_dual",
+   "target": "macomb_county_system",
+   "type": "co_analysis"
+  },
+  {
+   "source": "msu_dual",
+   "target": "shake_question",
+   "type": "co_analysis"
+  },
+  {
+   "source": "msu_dual",
+   "target": "three_way_contrast",
+   "type": "co_analysis"
+  },
+  {
+   "source": "msu_dual",
+   "target": "primal_defense",
+   "type": "co_analysis"
+  },
+  {
+   "source": "macomb_county_system",
+   "target": "shake_question",
+   "type": "co_analysis"
+  },
+  {
+   "source": "macomb_county_system",
+   "target": "three_way_contrast",
+   "type": "co_analysis"
+  },
+  {
+   "source": "macomb_county_system",
+   "target": "primal_defense",
+   "type": "co_analysis"
+  },
+  {
+   "source": "shake_question",
+   "target": "three_way_contrast",
+   "type": "co_analysis"
+  },
+  {
+   "source": "shake_question",
+   "target": "primal_defense",
+   "type": "co_analysis"
+  },
+  {
+   "source": "three_way_contrast",
+   "target": "primal_defense",
+   "type": "co_analysis"
   }
  ]
 }
