@@ -81139,6 +81139,114 @@
     "hero",
     "hope"
    ]
+  },
+  {
+   "id": "land-opioid-crisis",
+   "label": "START HERE: The Opioid Crisis — 932,000 dead. $35B stolen. Who did it. Who died. Who's fighting back.",
+   "class": "landing",
+   "tags": [
+    "entry",
+    "opioid"
+   ]
+  },
+  {
+   "id": "land-water-crisis",
+   "label": "START HERE: The Water Crisis — UN declared Global Water Bankruptcy Jan 2026. Who's drinking the desert dry.",
+   "class": "landing",
+   "tags": [
+    "entry",
+    "water"
+   ]
+  },
+  {
+   "id": "land-anti-vax",
+   "label": "START HERE: The Anti-Vax Lie — From one retracted paper to measles returning. Wakefield to RFK Jr.",
+   "class": "landing",
+   "tags": [
+    "entry",
+    "health"
+   ]
+  },
+  {
+   "id": "land-accountability",
+   "label": "START HERE: Accountability Inversion — Healers indicted. Liars appointed. The system protects the system.",
+   "class": "landing",
+   "tags": [
+    "entry",
+    "accountability"
+   ]
+  },
+  {
+   "id": "land-hope",
+   "label": "START HERE: Hope — Bugs eat plastic. Solar cheapest ever. Sickle cell cured. Narcan saves 30K/year. People who give a damn.",
+   "class": "landing",
+   "tags": [
+    "entry",
+    "hope"
+   ]
+  },
+  {
+   "id": "land-victims",
+   "label": "START HERE: The Victims — Who they were. What they did. Why they didn't deserve to die.",
+   "class": "landing",
+   "tags": [
+    "entry",
+    "memorial"
+   ]
+  },
+  {
+   "id": "land-heroes",
+   "label": "START HERE: Heroes & Angels — Roz saved 2,245. Ryan built vending machines. Stephen saved dogs. They came back from hell to help.",
+   "class": "landing",
+   "tags": [
+    "entry",
+    "hero"
+   ]
+  },
+  {
+   "id": "land-help",
+   "label": "START HERE: Get Help Now — 988 Crisis Line. SAMHSA 1-800-662-4357. Narcan at any pharmacy. You are not alone.",
+   "class": "landing",
+   "tags": [
+    "entry",
+    "help"
+   ]
+  },
+  {
+   "id": "land-money",
+   "label": "START HERE: Follow the Money — $35B OxyContin. $13B Sackler fortune. $10.3B extracted. $6.5B settlement. $4B+ kept. Per death: $37,554.",
+   "class": "landing",
+   "tags": [
+    "entry",
+    "financial"
+   ]
+  },
+  {
+   "id": "land-energy",
+   "label": "START HERE: Energy — Solar, nuclear, hydro, geothermal, fusion. 46 GW locked by Big Tech. Three Mile Island restarting.",
+   "class": "landing",
+   "tags": [
+    "entry",
+    "energy"
+   ]
+  },
+  {
+   "id": "land-ecoprimal",
+   "label": "START HERE: ecoPrimal — Computational ecology. Bugs that eat plastic. Graphs that eat lies. If you reach out, I'll take your hand.",
+   "class": "landing",
+   "tags": [
+    "entry",
+    "ecoprimal"
+   ]
+  },
+  {
+   "id": "land-detroit",
+   "label": "START HERE: Detroit Investigation — Banks, PCA, Dykema, DaSean, public education, accountability.",
+   "class": "landing",
+   "tags": [
+    "entry",
+    "detroit"
+   ]
   }
  ],
  "edges": [
@@ -744625,7 +744733,7 @@
   {
    "source": "oz-magic-pills",
    "target": "oz-senate-testimony-2014",
-   "type": "investigated-at"
+   "type": "investigated"
   },
   {
    "source": "mehmet-oz",
@@ -744680,7 +744788,7 @@
   {
    "source": "donald-trump",
    "target": "fentanyl-crisis",
-   "type": "failed-to-address"
+   "type": "failed"
   },
   {
    "source": "donald-trump",
@@ -745845,7 +745953,7 @@
   {
    "source": "root_accountability_inversion",
    "target": "accountability-inversion-health",
-   "type": "instance-of"
+   "type": "instance"
   },
   {
    "source": "prosecution-contrast",
@@ -745905,7 +746013,7 @@
   {
    "source": "fda-same-fda",
    "target": "oxycontin-fda-approval-1995",
-   "type": "approved-oxycontin"
+   "type": "approved"
   },
   {
    "source": "fda-same-fda",
@@ -746290,7 +746398,7 @@
   {
    "source": "david-sackler",
    "target": "david-role",
-   "type": "current-role"
+   "type": "current"
   },
   {
    "source": "david-sackler",
@@ -746315,7 +746423,7 @@
   {
    "source": "joss-sackler",
    "target": "joss-lbv",
-   "type": "former-role"
+   "type": "former"
   },
   {
    "source": "joss-sackler",
@@ -746470,7 +746578,7 @@
   {
    "source": "knoa-pharma",
    "target": "knoa-ceo",
-   "type": "led-by"
+   "type": "led"
   },
   {
    "source": "knoa-pharma",
@@ -746485,7 +746593,7 @@
   {
    "source": "craig-landau",
    "target": "landau-status",
-   "type": "current-status"
+   "type": "current"
   },
   {
    "source": "craig-landau",
@@ -746815,7 +746923,7 @@
   {
    "source": "kathe-sackler",
    "target": "sackler-greenwich",
-   "type": "owns-in"
+   "type": "owns"
   },
   {
    "source": "theresa-sackler",
@@ -746830,7 +746938,7 @@
   {
    "source": "ilene-sackler",
    "target": "sackler-san-remo",
-   "type": "owns-unit"
+   "type": "owns"
   },
   {
    "source": "richard-sackler",
@@ -747095,7 +747203,7 @@
   {
    "source": "sackler-fortune-current",
    "target": "sackler-fortune-total",
-   "type": "current-value"
+   "type": "current"
   },
   {
    "source": "purdue-oxycontin-revenue",
@@ -747110,7 +747218,7 @@
   {
    "source": "purdue-oxycontin-revenue",
    "target": "purdue-revenue-first-year",
-   "type": "started-at"
+   "type": "started"
   },
   {
    "source": "sackler-transfers-pre-bankruptcy",
@@ -747880,7 +747988,7 @@
   {
    "source": "oz-senate-grilling",
    "target": "mehmet-oz",
-   "type": "directed-at"
+   "type": "directed"
   },
   {
    "source": "oz-supplements-sold",
@@ -748140,7 +748248,7 @@
   {
    "source": "contrast-final",
    "target": "trump-doj",
-   "type": "executed-by"
+   "type": "executed"
   },
   {
    "source": "our-people-children",
@@ -748380,7 +748488,7 @@
   {
    "source": "wright-hotel-meeting-1995",
    "target": "oxycontin-fda-approval-1995",
-   "type": "led-to"
+   "type": "led"
   },
   {
    "source": "curtis-wright",
@@ -748500,12 +748608,12 @@
   {
    "source": "michael-friedman",
    "target": "lie-less-than-1-pct",
-   "type": "directed-marketing-of"
+   "type": "directed"
   },
   {
    "source": "michael-friedman",
    "target": "opioid-dead-1999-2023",
-   "type": "profited-during"
+   "type": "profited"
   },
   {
    "source": "howard-udell",
@@ -749045,7 +749153,7 @@
   {
    "source": "victim-jasmine-martin",
    "target": "jasmine-mother-found-her",
-   "type": "found-by"
+   "type": "found"
   },
   {
    "source": "victim-jasmine-martin",
@@ -749160,7 +749268,7 @@
   {
    "source": "victim-elizabeth-brashier",
    "target": "elizabeth-fourth-in-family",
-   "type": "family-toll"
+   "type": "family"
   },
   {
    "source": "victim-elizabeth-brashier",
@@ -749200,7 +749308,7 @@
   {
    "source": "victim-kimberly-davidson",
    "target": "kimberly-three-died",
-   "type": "died-with"
+   "type": "died"
   },
   {
    "source": "victim-kimberly-davidson",
@@ -749240,7 +749348,7 @@
   {
    "source": "the-answer",
    "target": "richard-email-blame",
-   "type": "proved-by"
+   "type": "proved"
   },
   {
    "source": "victim-max-burke",
@@ -749585,7 +749693,7 @@
   {
    "source": "fda-failed-summary",
    "target": "oxycontin-fda-approval-1995",
-   "type": "started-with"
+   "type": "started"
   },
   {
    "source": "heal-1-accountability",
@@ -749835,7 +749943,7 @@
   {
    "source": "hope-whale-recovery",
    "target": "ecoprimal-mission",
-   "type": "proof-that-healing-works"
+   "type": "proof"
   },
   {
    "source": "hope-vertical-farming",
@@ -749910,12 +750018,12 @@
   {
    "source": "hope-crispr",
    "target": "rfk-anti-vax-claims",
-   "type": "contradicts-fear-of-science"
+   "type": "contradicts"
   },
   {
    "source": "hope-greta-generation",
    "target": "ecoprimal-mission",
-   "type": "inspired-by"
+   "type": "inspired"
   },
   {
    "source": "hope-right-to-repair",
@@ -749925,7 +750033,7 @@
   {
    "source": "hope-open-source",
    "target": "ecoprimal-mission",
-   "type": "built-on"
+   "type": "built"
   },
   {
    "source": "hope-whistleblowers",
@@ -750205,12 +750313,12 @@
   {
    "source": "orphans-321000",
    "target": "opioid-dead-1999-2023",
-   "type": "consequence-of"
+   "type": "consequence"
   },
   {
    "source": "orphans-321000",
    "target": "orphans-grandparents",
-   "type": "leads-to"
+   "type": "leads"
   },
   {
    "source": "orphans-321000",
@@ -750225,7 +750333,7 @@
   {
    "source": "orphans-321000",
    "target": "sackler-fortune-total",
-   "type": "caused-by-profits-of"
+   "type": "caused"
   },
   {
    "source": "help-generation-o",
@@ -754630,7 +754738,7 @@
   {
    "source": "the-hand",
    "target": "orphans-321000",
-   "type": "reaches-toward"
+   "type": "reaches"
   },
   {
    "source": "the-hand",
@@ -755480,7 +755588,7 @@
   {
    "source": "energy-hydro-global",
    "target": "dams-global",
-   "type": "built-by"
+   "type": "built"
   },
   {
    "source": "dams-global",
@@ -859076,6 +859184,1196 @@
    "source": "article-kimber",
    "target": "lake-powell",
    "type": "answers-crisis"
+  },
+  {
+   "source": "land-opioid-crisis",
+   "target": "opioid-dead-1999-2023",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-opioid-crisis",
+   "target": "purdue-oxycontin-revenue",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-opioid-crisis",
+   "target": "sackler-fortune-total",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-opioid-crisis",
+   "target": "prosecution-contrast",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-opioid-crisis",
+   "target": "contrast-final",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-opioid-crisis",
+   "target": "the-question",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-opioid-crisis",
+   "target": "the-answer",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-opioid-crisis",
+   "target": "richard-sackler",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-opioid-crisis",
+   "target": "fentanyl-crisis",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-opioid-crisis",
+   "target": "opioid-to-fentanyl-pipeline",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-opioid-crisis",
+   "target": "lie-less-than-1-pct",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-opioid-crisis",
+   "target": "lie-pseudoaddiction",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-opioid-crisis",
+   "target": "tl-1995",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-opioid-crisis",
+   "target": "tl-2026",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-water-crisis",
+   "target": "water-bankruptcy",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-water-crisis",
+   "target": "colorado-river",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-water-crisis",
+   "target": "lake-mead",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-water-crisis",
+   "target": "total-dc-water-2025",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-water-crisis",
+   "target": "mark-zuckerberg",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-water-crisis",
+   "target": "meta-mesa-dc",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-water-crisis",
+   "target": "google-vegas-352m",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-water-crisis",
+   "target": "dc-desert-why",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-water-crisis",
+   "target": "tech-water-paradox",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-water-crisis",
+   "target": "zuck-trace",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-water-crisis",
+   "target": "chatgpt-water",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-anti-vax",
+   "target": "andrew-wakefield",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-anti-vax",
+   "target": "wakefield-fraud",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-anti-vax",
+   "target": "rfk-jr",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-anti-vax",
+   "target": "vaccines-cause-autism-lie",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-anti-vax",
+   "target": "thimerosal-danger-lie",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-anti-vax",
+   "target": "childrens-health-defense",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-anti-vax",
+   "target": "measles-outbreaks-detail",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-anti-vax",
+   "target": "herd-immunity-erosion",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-anti-vax",
+   "target": "covid-unvax-excess-deaths",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-accountability",
+   "target": "prosecution-contrast",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-accountability",
+   "target": "contrast-final",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-accountability",
+   "target": "accountability-inversion-health",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-accountability",
+   "target": "insanity-loop",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-accountability",
+   "target": "donald-trump",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-accountability",
+   "target": "rfk-jr",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-accountability",
+   "target": "mehmet-oz",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-accountability",
+   "target": "curtis-wright",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-accountability",
+   "target": "wright-never-charged",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-accountability",
+   "target": "ogrosky-memo",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-accountability",
+   "target": "ogrosky-downgraded",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-hope",
+   "target": "the-bridge",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-hope",
+   "target": "good-side",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-hope",
+   "target": "what-we-can-do",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-hope",
+   "target": "plastic-eating-enzymes",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-hope",
+   "target": "hope-solar-cheapest",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-hope",
+   "target": "hope-crispr",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-hope",
+   "target": "hope-narcan-revolution",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-hope",
+   "target": "hope-ocean-cleanup",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-hope",
+   "target": "hope-malaria-vaccine",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-hope",
+   "target": "hope-mutual-aid",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-hope",
+   "target": "ecoprimal-hello",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-hope",
+   "target": "ecoprimal-mission",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-victims",
+   "target": "victim-max-burke",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-victims",
+   "target": "article-elizabeth",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-victims",
+   "target": "victim-jasmine-martin",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-victims",
+   "target": "victim-kimberly-davidson",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-victims",
+   "target": "article-kimberly",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-victims",
+   "target": "victim-elizabeth-brashier",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-victims",
+   "target": "article-jessica",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-victims",
+   "target": "victim-jessica-woudzia",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-victims",
+   "target": "article-avery",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-victims",
+   "target": "victim-amy-ruby",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-victims",
+   "target": "article-ethan",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-victims",
+   "target": "article-jasmine",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-victims",
+   "target": "article-matthew",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-victims",
+   "target": "victim-ethan-bherwani",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-victims",
+   "target": "article-amy",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-victims",
+   "target": "victim-avery-ping",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-victims",
+   "target": "victim-matthew-wright",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-victims",
+   "target": "article-max",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-heroes",
+   "target": "article-wallace",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-heroes",
+   "target": "angel-khadijat-oluwatoyin",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-heroes",
+   "target": "article-roz",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-heroes",
+   "target": "article-perry",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-heroes",
+   "target": "hero-william-perry",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-heroes",
+   "target": "article-kimberly",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-heroes",
+   "target": "article-kimber",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-heroes",
+   "target": "article-ryan",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-heroes",
+   "target": "angel-jocelyn-wallace",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-heroes",
+   "target": "article-knight",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-heroes",
+   "target": "angel-stephen-knight",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-heroes",
+   "target": "article-witherspoon",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-heroes",
+   "target": "angel-melissa-witherspoon",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-heroes",
+   "target": "hero-roz-pichardo",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-heroes",
+   "target": "article-oluwatoyin",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-heroes",
+   "target": "hero-ryan-cagle",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-heroes",
+   "target": "angel-kimber-king",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-heroes",
+   "target": "angel-erin-meehan",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-heroes",
+   "target": "article-meehan",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-help",
+   "target": "help-988",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-help",
+   "target": "help-samhsa",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-help",
+   "target": "help-narcan-where",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-help",
+   "target": "help-generation-o",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-help",
+   "target": "help-charlenes-circle",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-help",
+   "target": "help-sols",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-help",
+   "target": "help-a-greater-hope",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-help",
+   "target": "help-dogs-matter",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-help",
+   "target": "help-never-alone",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-help",
+   "target": "help-sober-now",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-help",
+   "target": "help-sober-black-girls",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-help",
+   "target": "help-this-must-be",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-help",
+   "target": "help-project-hero",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-help",
+   "target": "the-hand",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-money",
+   "target": "sackler-fortune-total",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-money",
+   "target": "sackler-fortune-current",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-money",
+   "target": "purdue-oxycontin-revenue",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-money",
+   "target": "sackler-transfers-pre-bankruptcy",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-money",
+   "target": "sackler-settlement-amount",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-money",
+   "target": "sackler-kept",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-money",
+   "target": "cost-per-death",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-money",
+   "target": "cost-per-death-settlement",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-money",
+   "target": "sackler-daily-income",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-money",
+   "target": "sackler-trust-network",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-money",
+   "target": "sackler-real-estate",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-money",
+   "target": "purdue-fine-2007",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-money",
+   "target": "purdue-fine-2020",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-energy",
+   "target": "energy-solar-global",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-energy",
+   "target": "energy-nuclear-global",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-energy",
+   "target": "energy-hydro-global",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-energy",
+   "target": "energy-geothermal",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-energy",
+   "target": "energy-tidal-wave",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-energy",
+   "target": "dams-global",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-energy",
+   "target": "total-dc-power",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-energy",
+   "target": "ms-three-mile-island",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-energy",
+   "target": "google-smr-kairos",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-energy",
+   "target": "aws-susquehanna",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-energy",
+   "target": "meta-nuclear-rfp",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-energy",
+   "target": "hope-fusion-progress",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-ecoprimal",
+   "target": "ecoprimal-hello",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-ecoprimal",
+   "target": "ecoprimal-mission",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-ecoprimal",
+   "target": "plastic-eating-enzymes",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-ecoprimal",
+   "target": "ideonella-sakaiensis",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-ecoprimal",
+   "target": "petase-enzyme",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-ecoprimal",
+   "target": "the-bridge",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-ecoprimal",
+   "target": "the-hand",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-ecoprimal",
+   "target": "what-we-can-do",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-ecoprimal",
+   "target": "heal-from-hell",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-detroit",
+   "target": "dasean_silent",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-detroit",
+   "target": "banks_dc_caucus",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-detroit",
+   "target": "intel_banks_self_own",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-detroit",
+   "target": "unesco_paris_banks_of_the_seine",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-detroit",
+   "target": "twist_banks_mobius",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-detroit",
+   "target": "detroit_economic_club",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-detroit",
+   "target": "article_detroit_free_press",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-detroit",
+   "target": "fun_six_degrees_banks",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-detroit",
+   "target": "naacp_detroit",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-detroit",
+   "target": "banks_strategy",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-detroit",
+   "target": "detroit_gave_eminem",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-detroit",
+   "target": "detroit_tenants_rights_commission",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-detroit",
+   "target": "detroit_industry_murals",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-detroit",
+   "target": "dede_banks",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-detroit",
+   "target": "bmf_vs_banks",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-detroit",
+   "target": "dykema_gary_gordon",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-detroit",
+   "target": "underground_railroad_detroit",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-detroit",
+   "target": "article_wider_detroit_oig",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-detroit",
+   "target": "detroit_gave_labor",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-detroit",
+   "target": "banks_claim_self_funded",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-detroit",
+   "target": "ms_perkins_pca",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-detroit",
+   "target": "od_banks",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-detroit",
+   "target": "foundry_detroit",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-detroit",
+   "target": "detroit_literacy_rate",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-detroit",
+   "target": "turnaround_detroit",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-detroit",
+   "target": "detroit_churches",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-detroit",
+   "target": "detroit_water_education",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-detroit",
+   "target": "detroit_gave_techno",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-detroit",
+   "target": "smith_children_pca",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-detroit",
+   "target": "detroit_homelessness",
+   "type": "leads-to"
+  },
+  {
+   "source": "land-help",
+   "target": "land-victims",
+   "type": "see-also"
+  },
+  {
+   "source": "land-help",
+   "target": "land-hope",
+   "type": "see-also"
+  },
+  {
+   "source": "land-help",
+   "target": "land-accountability",
+   "type": "see-also"
+  },
+  {
+   "source": "land-help",
+   "target": "land-money",
+   "type": "see-also"
+  },
+  {
+   "source": "land-help",
+   "target": "land-detroit",
+   "type": "see-also"
+  },
+  {
+   "source": "land-help",
+   "target": "land-energy",
+   "type": "see-also"
+  },
+  {
+   "source": "land-help",
+   "target": "land-opioid-crisis",
+   "type": "see-also"
+  },
+  {
+   "source": "land-help",
+   "target": "land-heroes",
+   "type": "see-also"
+  },
+  {
+   "source": "land-help",
+   "target": "land-ecoprimal",
+   "type": "see-also"
+  },
+  {
+   "source": "land-help",
+   "target": "land-anti-vax",
+   "type": "see-also"
+  },
+  {
+   "source": "land-help",
+   "target": "land-water-crisis",
+   "type": "see-also"
+  },
+  {
+   "source": "land-victims",
+   "target": "land-hope",
+   "type": "see-also"
+  },
+  {
+   "source": "land-victims",
+   "target": "land-accountability",
+   "type": "see-also"
+  },
+  {
+   "source": "land-victims",
+   "target": "land-money",
+   "type": "see-also"
+  },
+  {
+   "source": "land-victims",
+   "target": "land-detroit",
+   "type": "see-also"
+  },
+  {
+   "source": "land-victims",
+   "target": "land-energy",
+   "type": "see-also"
+  },
+  {
+   "source": "land-victims",
+   "target": "land-opioid-crisis",
+   "type": "see-also"
+  },
+  {
+   "source": "land-victims",
+   "target": "land-heroes",
+   "type": "see-also"
+  },
+  {
+   "source": "land-victims",
+   "target": "land-ecoprimal",
+   "type": "see-also"
+  },
+  {
+   "source": "land-victims",
+   "target": "land-anti-vax",
+   "type": "see-also"
+  },
+  {
+   "source": "land-victims",
+   "target": "land-water-crisis",
+   "type": "see-also"
+  },
+  {
+   "source": "land-hope",
+   "target": "land-accountability",
+   "type": "see-also"
+  },
+  {
+   "source": "land-hope",
+   "target": "land-money",
+   "type": "see-also"
+  },
+  {
+   "source": "land-hope",
+   "target": "land-detroit",
+   "type": "see-also"
+  },
+  {
+   "source": "land-hope",
+   "target": "land-energy",
+   "type": "see-also"
+  },
+  {
+   "source": "land-hope",
+   "target": "land-opioid-crisis",
+   "type": "see-also"
+  },
+  {
+   "source": "land-hope",
+   "target": "land-heroes",
+   "type": "see-also"
+  },
+  {
+   "source": "land-hope",
+   "target": "land-ecoprimal",
+   "type": "see-also"
+  },
+  {
+   "source": "land-hope",
+   "target": "land-anti-vax",
+   "type": "see-also"
+  },
+  {
+   "source": "land-hope",
+   "target": "land-water-crisis",
+   "type": "see-also"
+  },
+  {
+   "source": "land-accountability",
+   "target": "land-money",
+   "type": "see-also"
+  },
+  {
+   "source": "land-accountability",
+   "target": "land-detroit",
+   "type": "see-also"
+  },
+  {
+   "source": "land-accountability",
+   "target": "land-energy",
+   "type": "see-also"
+  },
+  {
+   "source": "land-accountability",
+   "target": "land-opioid-crisis",
+   "type": "see-also"
+  },
+  {
+   "source": "land-accountability",
+   "target": "land-heroes",
+   "type": "see-also"
+  },
+  {
+   "source": "land-accountability",
+   "target": "land-ecoprimal",
+   "type": "see-also"
+  },
+  {
+   "source": "land-accountability",
+   "target": "land-anti-vax",
+   "type": "see-also"
+  },
+  {
+   "source": "land-accountability",
+   "target": "land-water-crisis",
+   "type": "see-also"
+  },
+  {
+   "source": "land-money",
+   "target": "land-detroit",
+   "type": "see-also"
+  },
+  {
+   "source": "land-money",
+   "target": "land-energy",
+   "type": "see-also"
+  },
+  {
+   "source": "land-money",
+   "target": "land-opioid-crisis",
+   "type": "see-also"
+  },
+  {
+   "source": "land-money",
+   "target": "land-heroes",
+   "type": "see-also"
+  },
+  {
+   "source": "land-money",
+   "target": "land-ecoprimal",
+   "type": "see-also"
+  },
+  {
+   "source": "land-money",
+   "target": "land-anti-vax",
+   "type": "see-also"
+  },
+  {
+   "source": "land-money",
+   "target": "land-water-crisis",
+   "type": "see-also"
+  },
+  {
+   "source": "land-detroit",
+   "target": "land-energy",
+   "type": "see-also"
+  },
+  {
+   "source": "land-detroit",
+   "target": "land-opioid-crisis",
+   "type": "see-also"
+  },
+  {
+   "source": "land-detroit",
+   "target": "land-heroes",
+   "type": "see-also"
+  },
+  {
+   "source": "land-detroit",
+   "target": "land-ecoprimal",
+   "type": "see-also"
+  },
+  {
+   "source": "land-detroit",
+   "target": "land-anti-vax",
+   "type": "see-also"
+  },
+  {
+   "source": "land-detroit",
+   "target": "land-water-crisis",
+   "type": "see-also"
+  },
+  {
+   "source": "land-energy",
+   "target": "land-opioid-crisis",
+   "type": "see-also"
+  },
+  {
+   "source": "land-energy",
+   "target": "land-heroes",
+   "type": "see-also"
+  },
+  {
+   "source": "land-energy",
+   "target": "land-ecoprimal",
+   "type": "see-also"
+  },
+  {
+   "source": "land-energy",
+   "target": "land-anti-vax",
+   "type": "see-also"
+  },
+  {
+   "source": "land-energy",
+   "target": "land-water-crisis",
+   "type": "see-also"
+  },
+  {
+   "source": "land-opioid-crisis",
+   "target": "land-heroes",
+   "type": "see-also"
+  },
+  {
+   "source": "land-opioid-crisis",
+   "target": "land-ecoprimal",
+   "type": "see-also"
+  },
+  {
+   "source": "land-opioid-crisis",
+   "target": "land-anti-vax",
+   "type": "see-also"
+  },
+  {
+   "source": "land-opioid-crisis",
+   "target": "land-water-crisis",
+   "type": "see-also"
+  },
+  {
+   "source": "land-heroes",
+   "target": "land-ecoprimal",
+   "type": "see-also"
+  },
+  {
+   "source": "land-heroes",
+   "target": "land-anti-vax",
+   "type": "see-also"
+  },
+  {
+   "source": "land-heroes",
+   "target": "land-water-crisis",
+   "type": "see-also"
+  },
+  {
+   "source": "land-ecoprimal",
+   "target": "land-anti-vax",
+   "type": "see-also"
+  },
+  {
+   "source": "land-ecoprimal",
+   "target": "land-water-crisis",
+   "type": "see-also"
+  },
+  {
+   "source": "land-anti-vax",
+   "target": "land-water-crisis",
+   "type": "see-also"
   }
  ]
 }
