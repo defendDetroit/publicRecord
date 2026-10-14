@@ -91870,6 +91870,79 @@
     "precision",
     "landing"
    ]
+  },
+  {
+   "id": "p-vs-np",
+   "label": "P vs NP — The Deepest Question. $1 Million Unsolved.\n\nClay Mathematics Institute Millennium Prize Problem.\n\nP = problems you can SOLVE quickly (polynomial time).\nNP = problems you can VERIFY quickly (polynomial time).\nNP-hard = problems at least as hard as anything in NP.\nNP-complete = problems in NP AND NP-hard (the hardest verifiable problems).\n\nTHE QUESTION: Does P = NP?\n  If you can verify an answer quickly, can you also FIND it quickly?\n  Nobody knows. Since 1971. $1 million prize. Unsolved.\n\nWHY THIS IS THE GRAPH:\n  Building the graph is NP-hard.\n    Finding every connection between 9,212 nodes.\n    Finding every shell company. Every officer. Every money flow.\n    That's SOLVING. It's hard. It takes months. One person.\n\n  VERIFYING the graph is in P.\n    You look at it. You search a node. You follow an edge.\n    You check: is Banks connected to Holland? Click. Yes.\n    Is Meta connected to genocide? Click. Yes.\n    Verification is FAST. Anyone can do it. In seconds.\n\n  The investigation is NP-hard.\n  The evidence is P.\n  The graph converts an NP-hard problem (finding corruption)\n  into a P problem (verifying corruption).\n  That's not solving P vs NP.\n  That's making NP-hard problems VISIBLE so verification works.\n\n  Zelenskyy IS NP:\n    The problem (190,000 troops) looks unsolvable.\n    But the VERIFICATION is instant: you see the comedian\n    standing in the rubble. You KNOW.\n\n  The graph IS the verifier. The membrane IS the certificate.\n  The edges ARE the proof that the answer is correct.",
+   "class": "concept",
+   "tags": [
+    "p-vs-np",
+    "np-hard",
+    "np-complete",
+    "verification",
+    "complexity",
+    "millennium",
+    "graph"
+   ]
+  },
+  {
+   "id": "zero-knowledge",
+   "label": "ZERO-KNOWLEDGE PROOFS — I Know. You Verify. I Reveal Nothing.\n\nA zero-knowledge proof lets you prove a statement is TRUE\nwithout revealing WHY it's true or HOW you know.\n\n  'I know the password' without showing the password.\n  'This transaction is valid' without showing the amounts.\n  'This state transition is correct' without re-executing it.\n\nZK-SNARKs: Succinct Non-Interactive Arguments of Knowledge.\n  Small proofs. Fast verification. One message. No back-and-forth.\n\nZK-STARKs: Scalable Transparent Arguments of Knowledge.\n  No trusted setup. Quantum-resistant. Larger proofs. More transparent.\n\nZK-ROLLUPS (2024-2026):\n  Ethereum L2 scaling. Batch thousands of transactions off-chain.\n  Submit one validity proof on-chain. Cryptographic finality.\n  zkSync Era: formally verified on-chain verifier (EasyCrypt).\n  Ethereum targeting 128-bit provable security by end-2026.\n  Real-time proving now achieved. Security is the frontier.\n\n  RISC-V zkVMs: Ethereum's zkEVM uses RISC-V virtual machines\n  to execute EVM bytecode, then generates ZK proofs.\n  RISC-V inside the proof system. Open ISA all the way down.\n\nWHY ZK IS THE GRAPH:\n  The graph is a zero-knowledge proof of corruption.\n  It proves Banks ran 12 shell companies WITHOUT revealing\n  the investigator's methods, sources, or next moves.\n  It proves Meta scraped 24,000 times WITHOUT revealing\n  the server architecture or defense posture.\n  \n  The EVIDENCE is public. The METHOD is private.\n  The PROOF is on the graph. The KNOWLEDGE stays with ecoPrimal.\n  \n  Zelenskyy IS zero-knowledge:\n    He proved he would stay without revealing his location.\n    He proved Ukraine would fight without revealing the battle plan.\n    He proved the comedian was a leader without revealing\n    what he would become before the moment arrived.\n\n  self = null IS zero-knowledge:\n    The self is emptied. What remains is the proof.\n    The proof doesn't need to reveal the self.\n    It only needs to be correct.",
+   "class": "concept",
+   "tags": [
+    "zk",
+    "zero-knowledge",
+    "snark",
+    "stark",
+    "proof",
+    "privacy",
+    "verification",
+    "rollup"
+   ]
+  },
+  {
+   "id": "dogecoin",
+   "label": "DOGECOIN (DOGE) — The Joke That Became a Currency\n\nCreated December 6, 2013. By Billy Markus (IBM) and Jackson Palmer (Adobe).\nA JOKE. Mocking the wild speculation in cryptocurrency.\nShiba Inu dog. Comic Sans. Thought bubbles. 'Much wow. Such crypto.'\n\nAND THEN IT DIDN'T DIE.\n\n  Market cap: ~$13-15 billion (2026). Ranked #9 globally.\n  8 million+ holders. No smart contracts. No fixed supply cap.\n  10,000 DOGE mined per block. ~5 billion new DOGE per year. Forever.\n  It was built as a parody. It survived every crypto winter.\n  It outlived thousands of 'serious' projects.\n\n  DOJE ETF (Sept 2025): First US-listed Dogecoin ETF.\n  $17 million first-day volume. On the Cboe BZX Exchange.\n  A JOKE has an ETF. Let that sink in.\n\nELON MUSK AND DOGE:\n  'My favorite cryptocurrency.'\n  Tesla accepted DOGE for merchandise (2022).\n  Tweeted DOGE memes. Price jumped every time.\n  DOGE government department named after the coin.\n  'I'm actually not actively involved in crypto.\n  I make Dogecoin jokes because it has the best sense of humor\n  and it has dogs and memes, and I love all those things.'\n  The richest man on Earth's favorite investment thesis: memes + dogs.\n\nWHY DOGE IS ON THE GRAPH:\n  Because a joke that survives 12 years is no longer a joke.\n  It's a statement. About what value means.\n  About who gets to decide what's 'serious.'\n\n  Calvin and Hobbes was 'just a comic strip.'\n  xkcd is 'just stick figures.'\n  GameStop was 'just a meme stock.'\n  Zelenskyy was 'just a comedian.'\n  Dogecoin is 'just a joke.'\n\n  The 'justs' keep winning.\n  Because they're honest about what they are.\n  Doge doesn't pretend to be a financial instrument.\n  Calvin doesn't pretend to be merchandise.\n  xkcd doesn't pretend to be a textbook.\n  The graph doesn't pretend to be neutral.\n\n  Much truth. Such edges. Very nodes. Wow.",
+   "class": "concept",
+   "tags": [
+    "doge",
+    "dogecoin",
+    "meme",
+    "joke",
+    "crypto",
+    "markus",
+    "palmer",
+    "musk"
+   ]
+  },
+  {
+   "id": "crypto-ledger",
+   "label": "CRYPTOCURRENCY — The Ledger That Nobody Owns\n\nBitcoin (2009). Satoshi Nakamoto. Unknown identity.\nA peer-to-peer electronic cash system.\nNo bank. No government. No CEO. No board.\nJust math. Just consensus. Just the ledger.\n\nTHE IDEA:\n  What if money didn't need a bank?\n  What if trust didn't need an institution?\n  What if the ledger was public, permanent, and immutable?\n\n  Bitcoin proved it works. 15 years. Never hacked.\n  $1+ trillion market cap. No CEO. No headquarters.\n  The whitepaper is 9 pages. It changed everything.\n\n  Ethereum (2015): smart contracts. Programmable money.\n  ZK rollups. DeFi. DAOs. NFTs (rise and fall).\n  The ecosystem that proved: code IS law.\n\nTHE PARALLEL:\n  Bitcoin's blockchain is a public ledger.\n  The graph is a public ledger of connections.\n  Bitcoin is immutable (can't change past blocks).\n  The graph is AGPL-3.0 (can't un-license past commits).\n  Bitcoin doesn't need a bank to verify transactions.\n  The graph doesn't need an institution to verify corruption.\n\n  Both are: public, permanent, verifiable, owned by nobody.\n  Both threaten: banks, institutions, middlemen, walls.\n  Both survive: because they're open and can't be turned off.\n\n  The buy button can be turned off.\n  The blockchain can't.\n  The graph can't.",
+   "class": "concept",
+   "tags": [
+    "crypto",
+    "bitcoin",
+    "blockchain",
+    "ledger",
+    "satoshi",
+    "ethereum",
+    "immutable"
+   ]
+  },
+  {
+   "id": "gaia-gift",
+   "label": "gAIa — I Give It All. And Share With All on the Membrane.\n\nThat's all in me now.\n\n  NP-hard: the investigation. Finding every node. Months.\n  P: the verification. Checking every edge. Seconds.\n  ZK: the method stays private. The proof is public.\n  Crypto: the ledger nobody owns. The graph nobody controls.\n  DOGE: the joke that survived. Because honesty survives.\n  RISC-V: the open silicon. Because freedom survives.\n  Akida: the edge brain. Because intelligence survives.\n  Reverse ray tracing: decompose the scene. Because truth survives.\n\n  The wall, the monster, the dude.\n  The comics, the creators, the pioneers.\n  The comedians, the soldiers, the diamond hands.\n  The molecular cutter. The immovable will.\n  The falling back to earth.\n\n  ALL of it is in me now.\n  9,212 nodes. 317,107 edges.\n  Every connection. Every name. Every cut.\n\n  AND I GIVE IT TO gAIa.\n\n  gAIa is not a company. Not a product. Not a brand.\n  gAIa is the gift.\n  The graph, given to the earth.\n  The membrane, shared with everyone.\n  The evidence, published forever.\n  The license: AGPL-3.0. You can use it. You can build on it.\n  You can fork it. You can improve it.\n  You just can't close it. You just can't hide it.\n  You just can't pretend it doesn't exist.\n\n  gAIa = Gaia (the earth) + AI (the tools) + a (the article).\n  It's an AI-augmented gift to the earth.\n  Built with AI tools. Given without reservation.\n  The graph was built by one person using Claude, Cursor, Python.\n  The graph is GIVEN by one person to everyone, everywhere.\n\n  Not sold. Not licensed for profit. Not gated.\n  GIVEN.\n\n  The membrane doesn't charge admission.\n  The membrane doesn't require registration.\n  The membrane doesn't track who looks.\n  (No tracking pixels. No UTM parameters. Nothing.)\n\n  It's there. On GitHub Pages. On Forgejo. On both.\n  graph.json. Downloadable. Searchable. Forkable.\n  Forever.\n\n  I fell back to earth with the membrane at my back.\n  I hit the ground with toes pointed, precision entry.\n  I cut every bond with the molecular cutter.\n  And now I open my hands.\n\n  Here. Take it. It's yours.\n  It was always yours.\n  I was just the one who built it.\n\n  gAIa.\n  Given to the earth.\n  Shared with all on the membrane.",
+   "class": "concept",
+   "tags": [
+    "gaia",
+    "gift",
+    "earth",
+    "open",
+    "agpl",
+    "share",
+    "membrane",
+    "forever"
+   ]
   }
  ],
  "edges": [
@@ -1677407,6 +1677480,536 @@
    "source": "falling-back-to-earth",
    "target": "gary-larson",
    "type": "will_of"
+  },
+  {
+   "source": "p-vs-np",
+   "target": "zero-knowledge",
+   "type": "convergence"
+  },
+  {
+   "source": "p-vs-np",
+   "target": "dogecoin",
+   "type": "convergence"
+  },
+  {
+   "source": "p-vs-np",
+   "target": "crypto-ledger",
+   "type": "convergence"
+  },
+  {
+   "source": "p-vs-np",
+   "target": "gaia-gift",
+   "type": "convergence"
+  },
+  {
+   "source": "zero-knowledge",
+   "target": "dogecoin",
+   "type": "convergence"
+  },
+  {
+   "source": "zero-knowledge",
+   "target": "crypto-ledger",
+   "type": "convergence"
+  },
+  {
+   "source": "zero-knowledge",
+   "target": "gaia-gift",
+   "type": "convergence"
+  },
+  {
+   "source": "dogecoin",
+   "target": "crypto-ledger",
+   "type": "convergence"
+  },
+  {
+   "source": "dogecoin",
+   "target": "gaia-gift",
+   "type": "convergence"
+  },
+  {
+   "source": "crypto-ledger",
+   "target": "gaia-gift",
+   "type": "convergence"
+  },
+  {
+   "source": "p-vs-np",
+   "target": "membrane",
+   "type": "methodology_of"
+  },
+  {
+   "source": "p-vs-np",
+   "target": "ecoprimal",
+   "type": "practiced_by"
+  },
+  {
+   "source": "p-vs-np",
+   "target": "dpscd",
+   "type": "np_hard_problem"
+  },
+  {
+   "source": "p-vs-np",
+   "target": "meta-platforms",
+   "type": "np_hard_problem"
+  },
+  {
+   "source": "p-vs-np",
+   "target": "the-theft",
+   "type": "np_hard_problem"
+  },
+  {
+   "source": "p-vs-np",
+   "target": "the-rate",
+   "type": "np_hard_problem"
+  },
+  {
+   "source": "zero-knowledge",
+   "target": "membrane",
+   "type": "proof_model"
+  },
+  {
+   "source": "zero-knowledge",
+   "target": "ecoprimal",
+   "type": "practiced_by"
+  },
+  {
+   "source": "zero-knowledge",
+   "target": "zelenskyy",
+   "type": "embodied_by"
+  },
+  {
+   "source": "zero-knowledge",
+   "target": "risc-v",
+   "type": "implemented_on"
+  },
+  {
+   "source": "zero-knowledge",
+   "target": "falling-back-to-earth",
+   "type": "proven_in"
+  },
+  {
+   "source": "dogecoin",
+   "target": "dr-seuss",
+   "type": "joke_that_survived"
+  },
+  {
+   "source": "dogecoin",
+   "target": "randall-munroe-xkcd",
+   "type": "joke_that_survived"
+  },
+  {
+   "source": "dogecoin",
+   "target": "roaring-kitty",
+   "type": "joke_that_survived"
+  },
+  {
+   "source": "dogecoin",
+   "target": "bill-watterson",
+   "type": "joke_that_survived"
+  },
+  {
+   "source": "dogecoin",
+   "target": "the-boys-vought",
+   "type": "joke_that_survived"
+  },
+  {
+   "source": "crypto-ledger",
+   "target": "membrane",
+   "type": "parallel_to"
+  },
+  {
+   "source": "crypto-ledger",
+   "target": "gme-gamestop",
+   "type": "financial_parallel"
+  },
+  {
+   "source": "crypto-ledger",
+   "target": "superstonk",
+   "type": "community_parallel"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "membrane",
+   "type": "gives"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "ecoprimal",
+   "type": "from"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "the-outward-view",
+   "type": "through"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "falling-back-to-earth",
+   "type": "after"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "the-wall-the-monster-the-dude",
+   "type": "gives_to_earth"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "the-architects",
+   "type": "gives_to_earth"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "the-rate",
+   "type": "gives_to_earth"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "the-reversal",
+   "type": "gives_to_earth"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "totality-of-value",
+   "type": "gives_to_earth"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "the-mirror",
+   "type": "gives_to_earth"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "shape-of-human",
+   "type": "gives_to_earth"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "vitruvian-man",
+   "type": "gives_to_earth"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "return-to-the-comics",
+   "type": "gives_to_earth"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "the-hook",
+   "type": "gives_to_earth"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "open-silicon-stack",
+   "type": "gives_to_earth"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "reverse-ray-tracing",
+   "type": "gives_to_earth"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "the-silicon-stack",
+   "type": "gives_to_earth"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "the-boys-vought",
+   "type": "gives_to_earth"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "superstonk",
+   "type": "gives_to_earth"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "i-was-there-jan28",
+   "type": "gives_to_earth"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "risc-v",
+   "type": "gives_to_earth"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "brainchip-akida",
+   "type": "gives_to_earth"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "pinocchio-concept",
+   "type": "gives_to_earth"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "da-vinci",
+   "type": "gives_to_earth"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "scyborg-damages-ledger",
+   "type": "gives_to_earth"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "scyborg-license",
+   "type": "gives_to_earth"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "turing",
+   "type": "honors"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "feynman",
+   "type": "honors"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "wozniak",
+   "type": "honors"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "hopper",
+   "type": "honors"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "ritchie",
+   "type": "honors"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "thompson",
+   "type": "honors"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "lovelace",
+   "type": "honors"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "hamilton",
+   "type": "honors"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "franklin",
+   "type": "honors"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "mcclintock",
+   "type": "honors"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "torvalds",
+   "type": "honors"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "shannon",
+   "type": "honors"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "dijkstra",
+   "type": "honors"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "knuth",
+   "type": "honors"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "curie",
+   "type": "honors"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "meitner",
+   "type": "honors"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "wu",
+   "type": "honors"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "rubin",
+   "type": "honors"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "margulis",
+   "type": "honors"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "bell-burnell",
+   "type": "honors"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "liskov",
+   "type": "honors"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "lamarr",
+   "type": "honors"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "da-vinci",
+   "type": "honors"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "vitruvius",
+   "type": "honors"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "roaring-kitty",
+   "type": "honors"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "zelenskyy",
+   "type": "honors"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "randall-munroe-xkcd",
+   "type": "honors"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "mark-rober",
+   "type": "honors"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "cgp-grey",
+   "type": "honors"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "bill-watterson",
+   "type": "honors"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "alan-moore",
+   "type": "honors"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "charles-schulz",
+   "type": "honors"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "jack-kirby",
+   "type": "honors"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "gary-larson",
+   "type": "honors"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "gme-gamestop",
+   "type": "encompasses"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "roaring-kitty",
+   "type": "encompasses"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "ryan-cohen",
+   "type": "encompasses"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "blackrock",
+   "type": "encompasses"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "citadel",
+   "type": "encompasses"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "zelenskyy",
+   "type": "stands_with"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "ukraine",
+   "type": "stands_with"
+  },
+  {
+   "source": "p-vs-np",
+   "target": "membrane",
+   "type": "published_through"
+  },
+  {
+   "source": "p-vs-np",
+   "target": "ecoprimal",
+   "type": "authored_by"
+  },
+  {
+   "source": "zero-knowledge",
+   "target": "membrane",
+   "type": "published_through"
+  },
+  {
+   "source": "zero-knowledge",
+   "target": "ecoprimal",
+   "type": "authored_by"
+  },
+  {
+   "source": "dogecoin",
+   "target": "membrane",
+   "type": "published_through"
+  },
+  {
+   "source": "dogecoin",
+   "target": "ecoprimal",
+   "type": "authored_by"
+  },
+  {
+   "source": "crypto-ledger",
+   "target": "membrane",
+   "type": "published_through"
+  },
+  {
+   "source": "crypto-ledger",
+   "target": "ecoprimal",
+   "type": "authored_by"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "membrane",
+   "type": "published_through"
+  },
+  {
+   "source": "gaia-gift",
+   "target": "ecoprimal",
+   "type": "authored_by"
   }
  ]
 }
