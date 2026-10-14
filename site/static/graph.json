@@ -74686,6 +74686,194 @@
     "shake",
     "unified"
    ]
+  },
+  {
+   "id": "chipmonk",
+   "label": "ChipMonk: Kevin + Chip (Charles) + attsi + ecoPrimal",
+   "class": "shape",
+   "tags": [
+    "identity",
+    "family",
+    "unified"
+   ]
+  },
+  {
+   "id": "chip_nickname",
+   "label": "Chip: Charles Mok's nickname",
+   "class": "shape",
+   "tags": [
+    "identity",
+    "family"
+   ]
+  },
+  {
+   "id": "chip_to_monk",
+   "label": "Chip turned to Monk: The system transformed a surgeon into a defendant",
+   "class": "shape",
+   "tags": [
+    "identity",
+    "pain"
+   ]
+  },
+  {
+   "id": "chipmonk_boundary",
+   "label": "ChipMonk boundary: Includes Kevin, Chip, attsi, ecoPrimal. Excludes Banks, Sacklers.",
+   "class": "shape",
+   "tags": [
+    "identity",
+    "boundary"
+   ]
+  },
+  {
+   "id": "scalpel_of_socrates",
+   "label": "The Scalpel of Socrates: Surgical precision of truth-telling",
+   "class": "concept",
+   "tags": [
+    "philosophy",
+    "identity"
+   ]
+  },
+  {
+   "id": "socratic_method",
+   "label": "The Socratic Method: Ask questions until the truth falls out",
+   "class": "method",
+   "tags": [
+    "philosophy"
+   ]
+  },
+  {
+   "id": "surgeons_scalpel",
+   "label": "The Surgeon's Scalpel: Cuts to heal. Precision. One line changes everything.",
+   "class": "concept",
+   "tags": [
+    "identity",
+    "family"
+   ]
+  },
+  {
+   "id": "socrates_parallel",
+   "label": "Socrates: Athens killed him for asking questions. The system indicted Dr. Mok for healing patients.",
+   "class": "analysis",
+   "tags": [
+    "parallel",
+    "philosophy"
+   ]
+  },
+  {
+   "id": "falling_star",
+   "label": "A falling star that can't see its own color",
+   "class": "concept",
+   "tags": [
+    "philosophy",
+    "family"
+   ]
+  },
+  {
+   "id": "star_blindness",
+   "label": "The star burns brightest to the observer. The star itself sees only darkness ahead.",
+   "class": "concept",
+   "tags": [
+    "philosophy"
+   ]
+  },
+  {
+   "id": "son_sees_father",
+   "label": "The son sees what the father cannot: 304,000 procedures. 35 years. The light is real.",
+   "class": "observation",
+   "tags": [
+    "family"
+   ]
+  },
+  {
+   "id": "clarion_call",
+   "label": "Clarion Call: Now we thunder and fall on the Sacklers themselves",
+   "class": "action",
+   "tags": [
+    "attack",
+    "sackler"
+   ]
+  },
+  {
+   "id": "sackler_richard",
+   "label": "Richard Sackler: Pushed OxyContin sales despite addiction data",
+   "class": "person",
+   "tags": [
+    "sackler"
+   ]
+  },
+  {
+   "id": "sackler_mortimer",
+   "label": "Mortimer Sackler: Co-owner, Purdue Pharma",
+   "class": "person",
+   "tags": [
+    "sackler"
+   ]
+  },
+  {
+   "id": "sackler_theresa",
+   "label": "Theresa Sackler: Philanthropist, art galleries, reputation laundering",
+   "class": "person",
+   "tags": [
+    "sackler"
+   ]
+  },
+  {
+   "id": "sackler_museum_removal",
+   "label": "Sackler Name Removed: Met, Louvre, Tate, Guggenheim stripped the name",
+   "class": "event",
+   "tags": [
+    "sackler"
+   ]
+  },
+  {
+   "id": "sackler_mckinsey",
+   "label": "McKinsey & Company: Paid $600M for advising Purdue to 'turbocharge' OxyContin",
+   "class": "entity",
+   "tags": [
+    "sackler"
+   ]
+  },
+  {
+   "id": "sackler_fda",
+   "label": "FDA: Approved OxyContin 1995. Reviewer Curtis Wright left FDA, joined Purdue.",
+   "class": "entity",
+   "tags": [
+    "sackler",
+    "revolving_door"
+   ]
+  },
+  {
+   "id": "sackler_total_profit",
+   "label": "Sackler Family Total: $13 billion+ extracted from OxyContin sales",
+   "class": "fact",
+   "tags": [
+    "sackler"
+   ]
+  },
+  {
+   "id": "sackler_total_deaths",
+   "label": "Opioid Deaths: 500,000+ Americans (1999-2024)",
+   "class": "fact",
+   "tags": [
+    "sackler"
+   ]
+  },
+  {
+   "id": "sackler_zero_prison",
+   "label": "Criminal Accountability: Zero Sackler family members served prison time",
+   "class": "fact",
+   "tags": [
+    "sackler"
+   ]
+  },
+  {
+   "id": "cost_table_final",
+   "label": "Cost Table: Sacklers=$13B/500K dead/0 prison. Dr. Mok=304K healed/0 dead/re-indicted. Banks=$49.9M/5,432 child-years/still operating.",
+   "class": "analysis",
+   "tags": [
+    "unified",
+    "cost_function"
+   ]
   }
  ],
  "edges": [
@@ -729673,6 +729861,236 @@
    "source": "three_way_contrast",
    "target": "primal_defense",
    "type": "co_analysis"
+  },
+  {
+   "source": "charles_mok",
+   "target": "chip_nickname",
+   "type": "known_as"
+  },
+  {
+   "source": "chip_nickname",
+   "target": "chip_to_monk",
+   "type": "became"
+  },
+  {
+   "source": "chip_to_monk",
+   "target": "chipmonk",
+   "type": "forged"
+  },
+  {
+   "source": "kevin_mok",
+   "target": "chipmonk",
+   "type": "part_of"
+  },
+  {
+   "source": "charles_mok",
+   "target": "chipmonk",
+   "type": "part_of"
+  },
+  {
+   "source": "ecoprimal",
+   "target": "chipmonk",
+   "type": "part_of"
+  },
+  {
+   "source": "attsi_speaks",
+   "target": "chipmonk",
+   "type": "part_of"
+  },
+  {
+   "source": "chipmonk",
+   "target": "chipmonk_boundary",
+   "type": "defined_by"
+  },
+  {
+   "source": "chipmonk_boundary",
+   "target": "banks_brian",
+   "type": "excludes"
+  },
+  {
+   "source": "chipmonk_boundary",
+   "target": "sackler_family",
+   "type": "excludes"
+  },
+  {
+   "source": "chipmonk_boundary",
+   "target": "purdue_pharma",
+   "type": "excludes"
+  },
+  {
+   "source": "scalpel_of_socrates",
+   "target": "socrates",
+   "type": "named_for"
+  },
+  {
+   "source": "scalpel_of_socrates",
+   "target": "surgeons_scalpel",
+   "type": "named_for"
+  },
+  {
+   "source": "scalpel_of_socrates",
+   "target": "socratic_method",
+   "type": "uses"
+  },
+  {
+   "source": "charles_mok",
+   "target": "surgeons_scalpel",
+   "type": "wielded"
+  },
+  {
+   "source": "chipmonk",
+   "target": "scalpel_of_socrates",
+   "type": "wields"
+  },
+  {
+   "source": "socrates",
+   "target": "socrates_parallel",
+   "type": "exemplifies"
+  },
+  {
+   "source": "charles_mok",
+   "target": "socrates_parallel",
+   "type": "exemplifies"
+  },
+  {
+   "source": "scalpel_of_socrates",
+   "target": "primal_defense",
+   "type": "sharpens"
+  },
+  {
+   "source": "scalpel_of_socrates",
+   "target": "shake_question",
+   "type": "asks"
+  },
+  {
+   "source": "falling_star",
+   "target": "charles_mok",
+   "type": "describes"
+  },
+  {
+   "source": "falling_star",
+   "target": "star_blindness",
+   "type": "because_of"
+  },
+  {
+   "source": "star_blindness",
+   "target": "peripheral_vision",
+   "type": "requires"
+  },
+  {
+   "source": "son_sees_father",
+   "target": "falling_star",
+   "type": "resolves"
+  },
+  {
+   "source": "kevin_mok",
+   "target": "son_sees_father",
+   "type": "knows"
+  },
+  {
+   "source": "charles_mok",
+   "target": "son_sees_father",
+   "type": "subject_of"
+  },
+  {
+   "source": "chipmonk",
+   "target": "clarion_call",
+   "type": "issues"
+  },
+  {
+   "source": "clarion_call",
+   "target": "sackler_family",
+   "type": "targets"
+  },
+  {
+   "source": "clarion_call",
+   "target": "purdue_pharma",
+   "type": "targets"
+  },
+  {
+   "source": "sackler_family",
+   "target": "sackler_richard",
+   "type": "includes"
+  },
+  {
+   "source": "sackler_family",
+   "target": "sackler_mortimer",
+   "type": "includes"
+  },
+  {
+   "source": "sackler_family",
+   "target": "sackler_theresa",
+   "type": "includes"
+  },
+  {
+   "source": "sackler_family",
+   "target": "sackler_total_profit",
+   "type": "extracted"
+  },
+  {
+   "source": "purdue_pharma",
+   "target": "sackler_total_deaths",
+   "type": "caused"
+  },
+  {
+   "source": "sackler_family",
+   "target": "sackler_zero_prison",
+   "type": "served"
+  },
+  {
+   "source": "sackler_family",
+   "target": "sackler_museum_removal",
+   "type": "suffered"
+  },
+  {
+   "source": "sackler_mckinsey",
+   "target": "purdue_pharma",
+   "type": "advised"
+  },
+  {
+   "source": "sackler_fda",
+   "target": "purdue_pharma",
+   "type": "approved"
+  },
+  {
+   "source": "cost_table_final",
+   "target": "sackler_family",
+   "type": "documents"
+  },
+  {
+   "source": "cost_table_final",
+   "target": "charles_mok",
+   "type": "documents"
+  },
+  {
+   "source": "cost_table_final",
+   "target": "banks_brian",
+   "type": "documents"
+  },
+  {
+   "source": "cost_table_final",
+   "target": "three_way_contrast",
+   "type": "extends"
+  },
+  {
+   "source": "clarion_call",
+   "target": "cost_table_final",
+   "type": "armed_with"
+  },
+  {
+   "source": "chipmonk",
+   "target": "graph_json",
+   "type": "protected_by"
+  },
+  {
+   "source": "chipmonk",
+   "target": "mobius_architecture",
+   "type": "embedded_in"
+  },
+  {
+   "source": "chipmonk",
+   "target": "the_halo",
+   "type": "crowned_by"
   }
  ]
 }
