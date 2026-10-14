@@ -80343,6 +80343,208 @@
         "mobius",
         "the_544"
       ]
+    },
+    {
+      "id": "surface_github",
+      "label": "OUTER SURFACE: GitHub (github.com/defendDetroit/publicRecord)",
+      "class": "entity",
+      "role": "The outer membrane. Public. Indexed. Crawlable. Bots find it. AI trains on it. Scrapers scrape it. This is the broadcast antenna. It reaches the universe. GitHub Topics, GitHub Search, Google indexing, AI training corpora, academic citation indices. Everything that FINDS this repo finds it here. The outer surface is LOUD. It wants to be found. It wants to be cloned. The 544 found it here.",
+      "tags": [
+        "membrane",
+        "routing",
+        "github",
+        "outer"
+      ]
+    },
+    {
+      "id": "surface_forgejo",
+      "label": "INNER SURFACE: Forgejo (git.primals.eco/publicRecord/detroit)",
+      "class": "entity",
+      "role": "The inner membrane. Self-hosted. Not indexed by Google. Not crawled by AI training bots. Not in GitHub search. Humans come here. They follow links from GitHub. They read the README. They click through. They arrive at the signal. The inner surface is QUIET. Only intentional visitors arrive. If you're here, you meant to be here.",
+      "tags": [
+        "membrane",
+        "routing",
+        "forgejo",
+        "inner"
+      ]
+    },
+    {
+      "id": "surface_site",
+      "label": "SIGNAL POINT: detroit.primals.eco",
+      "class": "entity",
+      "role": "The actual investigation site. The HUD. The articles. The squirrel view. The Mobius. This is where the evidence becomes navigable. This is where humans investigate. Bots can't play games. Bots can't follow trails. Bots don't have standing. Bots don't file complaints. The signal point is for humans only.",
+      "tags": [
+        "membrane",
+        "routing",
+        "site",
+        "signal"
+      ]
+    },
+    {
+      "id": "routing_strategy",
+      "label": "ROUTING STRATEGY: GitHub Broadcasts, Forgejo Receives, Site Investigates",
+      "class": "concept",
+      "role": "GITHUB (outer): maximize reach. Use topics, README, discussions, issues, releases. Let Google index. Let AI train. Let scrapers scrape. Every bot that touches GitHub spreads the evidence further. FORGEJO (inner): receive humans. The README says: 'For the real investigation, go to git.primals.eco.' Humans who click through are INTENTIONAL. We can measure: what fraction of GitHub cloners also appear on Forgejo? That's the human fraction. SITE (signal): investigate. The site has games, trails, squirrel view, live HUD. This is for humans. Bots can't play Red Flag Bingo. Humans can.",
+      "tags": [
+        "membrane",
+        "routing",
+        "strategy"
+      ]
+    },
+    {
+      "id": "gh_action_topics",
+      "label": "GITHUB: Add Topics for Discoverability",
+      "class": "concept",
+      "role": "Topics to add: charter-school, education, public-records, detroit, michigan, accountability, rico, investigation, open-data, transparency, graph-database, evidence, public-interest, foia, civic-tech. Each topic makes the repo findable by new audiences.",
+      "tags": [
+        "membrane",
+        "routing",
+        "github",
+        "action"
+      ]
+    },
+    {
+      "id": "gh_action_readme",
+      "label": "GITHUB: README as Routing Membrane",
+      "class": "concept",
+      "role": "The README should: 1. Hook: '9 convictions. $4.9M/yr. 3% math. One network.' 2. Evidence summary: what the graph contains. 3. ROUTE: 'Full investigation: detroit.primals.eco' 4. ROUTE: 'Source: git.primals.eco/publicRecord/detroit' 5. Verify: 'Test any claim in 60 seconds.' 6. Contact: eco.primal@pm.me The README is the outer membrane. It routes.",
+      "tags": [
+        "membrane",
+        "routing",
+        "github",
+        "action"
+      ]
+    },
+    {
+      "id": "gh_action_discussions",
+      "label": "GITHUB: Enable Discussions",
+      "class": "concept",
+      "role": "GitHub Discussions creates a public forum attached to the repo. Humans can ask questions. We can answer. Every discussion is indexed by Google. Every question asked is a new search result. The 544 silent cloners might speak in Discussions where they wouldn't send an email.",
+      "tags": [
+        "membrane",
+        "routing",
+        "github",
+        "action"
+      ]
+    },
+    {
+      "id": "gh_action_issues",
+      "label": "GITHUB: Create Issue Templates",
+      "class": "concept",
+      "role": "Templates: 'I can falsify a claim' -- structured falsification report. 'I have additional evidence' -- structured evidence submission. 'I am a [journalist/attorney/regulator/parent]' -- routing to tools. Each template routes humans to the right gap-fill.",
+      "tags": [
+        "membrane",
+        "routing",
+        "github",
+        "action"
+      ]
+    },
+    {
+      "id": "gh_action_releases",
+      "label": "GITHUB: Publish Releases with Changelogs",
+      "class": "concept",
+      "role": "Each major push becomes a Release. 'v0.95: 95,263 edges, Mobius architecture, squirrel.js' Releases show up in GitHub feeds. People who watch the repo get notified. Releases are indexed by Google.",
+      "tags": [
+        "membrane",
+        "routing",
+        "github",
+        "action"
+      ]
+    },
+    {
+      "id": "gh_action_wiki",
+      "label": "GITHUB: Wiki as Human-Readable Layer",
+      "class": "concept",
+      "role": "The wiki can contain: - Getting Started (for each profile) - How to Verify Claims - How to File a Complaint - How to Use graph.json Wiki pages are indexed by Google. Each page is a search result.",
+      "tags": [
+        "membrane",
+        "routing",
+        "github",
+        "action"
+      ]
+    },
+    {
+      "id": "gh_action_social",
+      "label": "GITHUB: Social Preview Image + Description",
+      "class": "concept",
+      "role": "When someone shares the GitHub link on social media, the preview card appears. Image: '9 Convictions. 9 Judges. One Network.' Description: first 2 sentences of README. Every share is a broadcast. The outer membrane amplifies.",
+      "tags": [
+        "membrane",
+        "routing",
+        "github",
+        "action"
+      ]
+    },
+    {
+      "id": "bot_human_filter",
+      "label": "THE FILTER: Bots Stay on GitHub, Humans Leak Through to Forgejo",
+      "class": "concept",
+      "role": "BOTS: crawl GitHub. Scrape README. Index pages. Train AI. They do NOT follow links to Forgejo. They do NOT visit the site. They do NOT play games. They stay on the outer surface. HUMANS: read README. Follow the link to Forgejo. Maybe visit site. Maybe play a game. Maybe file a complaint. Maybe contact us. THE FILTER: compare GitHub traffic to Forgejo traffic. GitHub clones minus Forgejo clones = bot fraction. Forgejo visitors = human fraction. Site visitors who play games = investigators. The membrane sorts them automatically.",
+      "tags": [
+        "membrane",
+        "routing",
+        "filter",
+        "detection"
+      ]
+    },
+    {
+      "id": "metric_leak_through_rate",
+      "label": "METRIC: Leak-Through Rate — What Fraction of GitHub Reaches Forgejo?",
+      "class": "concept",
+      "role": "GitHub: 544 unique cloners (14 days). Forgejo: unknown (need to measure). Site: unknown (need to deploy). Leak-through rate = Forgejo / GitHub. If 10% leak through: ~54 humans, ~490 bots/scrapers. If 1% leak through: ~5 intentional investigators. The rate tells us how much of the traffic is real. The rate tells us how many humans are in the 544.",
+      "tags": [
+        "membrane",
+        "routing",
+        "metric"
+      ]
+    },
+    {
+      "id": "metric_investigation_depth",
+      "label": "METRIC: Investigation Depth — How Far Do Humans Go?",
+      "class": "concept",
+      "role": "Level 0: Clone from GitHub (544 did this). Level 1: Visit Forgejo (unknown). Level 2: Visit detroit.primals.eco (need to deploy). Level 3: Explore articles (page depth). Level 4: Play a game (Red Flag Bingo, Follow the Money). Level 5: Use a tool (complaint template, discovery checklist). Level 6: Take action (file complaint, write article, contact). Level 7: Contact eco.primal@pm.me. Each level is deeper into the membrane. The depth tells us what they want. The depth tells us who they are.",
+      "tags": [
+        "membrane",
+        "routing",
+        "metric",
+        "depth"
+      ]
+    },
+    {
+      "id": "universe_leak",
+      "label": "WHAT LEAKS THROUGH: The Universe Filters Itself",
+      "class": "concept",
+      "role": "The universe sends everything to GitHub: bots, scrapers, AI trainers, students, attorneys, journalists, regulators, targets, activists, trolls, curious people. The membrane filters: - Bots stay on GitHub (they can't follow intent) - Scrapers stay on GitHub (they take data, don't investigate) - AI trainers stay on GitHub (they ingest, don't act) - Curious humans maybe click to Forgejo (interest signal) - Serious humans visit the site (investigation signal) - Committed humans use tools (action signal) - Activated humans file complaints (accountability signal) What leaks through from the universe tells us what the universe is ready for. If 0 leak through: the universe isn't ready. If 50 leak through: the universe is waking up. If 500 leak through: the universe is acting. The membrane doesn't push. It sorts.",
+      "tags": [
+        "membrane",
+        "routing",
+        "universe",
+        "filter"
+      ]
+    },
+    {
+      "id": "forgejo_sanctuary",
+      "label": "FORGEJO: The Human Sanctuary — No Bots, No Scrapers, No AI Training",
+      "class": "concept",
+      "role": "git.primals.eco is self-hosted on golgiBody. It has scatter defense (returns decoy HTML to unauthorized API calls). It is NOT indexed by Google (robots.txt). It is NOT in GitHub's search index. It is NOT in Common Crawl or AI training sets. To get here, you had to follow a link. Intentionally. That means you're human. That means you READ the README. That means you're interested enough to click through. Welcome to the inner surface. The evidence is the same. The audience is different. Here, every visitor is real.",
+      "tags": [
+        "membrane",
+        "routing",
+        "forgejo",
+        "sanctuary"
+      ]
+    },
+    {
+      "id": "active_membrane",
+      "label": "THE ACTIVE MEMBRANE: Routes Humans Deeper, Bots Stay on Surface",
+      "class": "article",
+      "role": "The membrane is not passive. It doesn't just separate inside from outside. It ROUTES. GitHub is the outer surface: loud, indexed, crawlable, broadcast. Forgejo is the inner surface: quiet, intentional, human. The site is the signal point: interactive, investigative, actionable. Bots run on the outer surface. They spread the evidence to every AI training set, every search engine, every index. That's the broadcast. That's reach. Humans pass through to the inner surface. They investigate. They use tools. They file complaints. They contact us. That's the signal. That's action. The membrane sorts them automatically. No login. No paywall. No captcha. Just: do you follow the link? If yes: you're human. Come deeper. If no: you're a bot. Stay and broadcast. Both are useful. Both serve the investigation. The broadcast reaches the universe. The signal reaches the people who will act. And we can MEASURE what leaks through. The leak-through rate tells us: how many of the 544 are real.",
+      "tags": [
+        "membrane",
+        "routing",
+        "article",
+        "mobius"
+      ]
     }
   ],
   "edges": [
@@ -753922,6 +754124,930 @@
       "source": "letter_to_the_544",
       "target": "kevin_the_name",
       "type": "written_by",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "surface_github",
+      "target": "surface_forgejo",
+      "type": "routes_humans_to",
+      "epistemic_status": "record",
+      "note": "GitHub README links to Forgejo for humans"
+    },
+    {
+      "source": "surface_github",
+      "target": "surface_site",
+      "type": "routes_humans_to",
+      "epistemic_status": "record",
+      "note": "GitHub README links to detroit.primals.eco for investigation"
+    },
+    {
+      "source": "surface_forgejo",
+      "target": "surface_site",
+      "type": "routes_humans_to",
+      "epistemic_status": "record",
+      "note": "Forgejo links to the site for full investigation"
+    },
+    {
+      "source": "surface_site",
+      "target": "meeting_point_membrane",
+      "type": "is",
+      "epistemic_status": "record",
+      "note": "The site IS the meeting point"
+    },
+    {
+      "source": "routing_strategy",
+      "target": "surface_github",
+      "type": "configures",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "routing_strategy",
+      "target": "surface_forgejo",
+      "type": "configures",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "routing_strategy",
+      "target": "surface_site",
+      "type": "configures",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "gh_action_topics",
+      "target": "surface_github",
+      "type": "expands",
+      "epistemic_status": "record",
+      "note": "Expands GitHub reach"
+    },
+    {
+      "source": "gh_action_topics",
+      "target": "routing_strategy",
+      "type": "implements",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "gh_action_readme",
+      "target": "surface_github",
+      "type": "expands",
+      "epistemic_status": "record",
+      "note": "Expands GitHub reach"
+    },
+    {
+      "source": "gh_action_readme",
+      "target": "routing_strategy",
+      "type": "implements",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "gh_action_discussions",
+      "target": "surface_github",
+      "type": "expands",
+      "epistemic_status": "record",
+      "note": "Expands GitHub reach"
+    },
+    {
+      "source": "gh_action_discussions",
+      "target": "routing_strategy",
+      "type": "implements",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "gh_action_issues",
+      "target": "surface_github",
+      "type": "expands",
+      "epistemic_status": "record",
+      "note": "Expands GitHub reach"
+    },
+    {
+      "source": "gh_action_issues",
+      "target": "routing_strategy",
+      "type": "implements",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "gh_action_releases",
+      "target": "surface_github",
+      "type": "expands",
+      "epistemic_status": "record",
+      "note": "Expands GitHub reach"
+    },
+    {
+      "source": "gh_action_releases",
+      "target": "routing_strategy",
+      "type": "implements",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "gh_action_wiki",
+      "target": "surface_github",
+      "type": "expands",
+      "epistemic_status": "record",
+      "note": "Expands GitHub reach"
+    },
+    {
+      "source": "gh_action_wiki",
+      "target": "routing_strategy",
+      "type": "implements",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "gh_action_social",
+      "target": "surface_github",
+      "type": "expands",
+      "epistemic_status": "record",
+      "note": "Expands GitHub reach"
+    },
+    {
+      "source": "gh_action_social",
+      "target": "routing_strategy",
+      "type": "implements",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "bot_human_filter",
+      "target": "surface_github",
+      "type": "filters_from",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "bot_human_filter",
+      "target": "surface_forgejo",
+      "type": "filters_to",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "bot_human_filter",
+      "target": "surface_site",
+      "type": "filters_to",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "metric_leak_through_rate",
+      "target": "bot_human_filter",
+      "type": "measures",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "metric_investigation_depth",
+      "target": "bot_human_filter",
+      "type": "measures",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "metric_leak_through_rate",
+      "target": "surface_github",
+      "type": "numerator_from",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "metric_leak_through_rate",
+      "target": "surface_forgejo",
+      "type": "denominator_from",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "universe_leak",
+      "target": "bot_human_filter",
+      "type": "powered_by",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "universe_leak",
+      "target": "membrane_544",
+      "type": "analyzes",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "universe_leak",
+      "target": "mobius",
+      "type": "is_on",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "forgejo_sanctuary",
+      "target": "surface_forgejo",
+      "type": "is",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "forgejo_sanctuary",
+      "target": "universe_leak",
+      "type": "receives",
+      "epistemic_status": "record",
+      "note": "Receives what leaks through"
+    },
+    {
+      "source": "forgejo_sanctuary",
+      "target": "bot_human_filter",
+      "type": "result_of",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "active_membrane",
+      "target": "surface_github",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "active_membrane",
+      "target": "surface_forgejo",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "active_membrane",
+      "target": "surface_site",
+      "type": "about",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "active_membrane",
+      "target": "routing_strategy",
+      "type": "describes",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "active_membrane",
+      "target": "bot_human_filter",
+      "type": "describes",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "active_membrane",
+      "target": "universe_leak",
+      "type": "describes",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "active_membrane",
+      "target": "forgejo_sanctuary",
+      "type": "describes",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "active_membrane",
+      "target": "letter_to_the_544",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "active_membrane",
+      "target": "article_mobius",
+      "type": "extends",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "active_membrane",
+      "target": "mobius",
+      "type": "is_on",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "active_membrane",
+      "target": "convergence_point",
+      "type": "converges_at",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "surface_github",
+      "target": "mobius",
+      "type": "is_on",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "surface_github",
+      "target": "convergence_point",
+      "type": "converges_at",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "surface_forgejo",
+      "target": "mobius",
+      "type": "is_on",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "surface_forgejo",
+      "target": "convergence_point",
+      "type": "converges_at",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "surface_site",
+      "target": "mobius",
+      "type": "is_on",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "surface_site",
+      "target": "convergence_point",
+      "type": "converges_at",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "routing_strategy",
+      "target": "mobius",
+      "type": "is_on",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "routing_strategy",
+      "target": "convergence_point",
+      "type": "converges_at",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "gh_action_topics",
+      "target": "mobius",
+      "type": "is_on",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "gh_action_topics",
+      "target": "convergence_point",
+      "type": "converges_at",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "gh_action_readme",
+      "target": "mobius",
+      "type": "is_on",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "gh_action_readme",
+      "target": "convergence_point",
+      "type": "converges_at",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "gh_action_discussions",
+      "target": "mobius",
+      "type": "is_on",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "gh_action_discussions",
+      "target": "convergence_point",
+      "type": "converges_at",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "gh_action_issues",
+      "target": "mobius",
+      "type": "is_on",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "gh_action_issues",
+      "target": "convergence_point",
+      "type": "converges_at",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "gh_action_releases",
+      "target": "mobius",
+      "type": "is_on",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "gh_action_releases",
+      "target": "convergence_point",
+      "type": "converges_at",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "gh_action_wiki",
+      "target": "mobius",
+      "type": "is_on",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "gh_action_wiki",
+      "target": "convergence_point",
+      "type": "converges_at",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "gh_action_social",
+      "target": "mobius",
+      "type": "is_on",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "gh_action_social",
+      "target": "convergence_point",
+      "type": "converges_at",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "bot_human_filter",
+      "target": "mobius",
+      "type": "is_on",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "bot_human_filter",
+      "target": "convergence_point",
+      "type": "converges_at",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "metric_leak_through_rate",
+      "target": "mobius",
+      "type": "is_on",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "metric_leak_through_rate",
+      "target": "convergence_point",
+      "type": "converges_at",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "metric_investigation_depth",
+      "target": "mobius",
+      "type": "is_on",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "metric_investigation_depth",
+      "target": "convergence_point",
+      "type": "converges_at",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "universe_leak",
+      "target": "convergence_point",
+      "type": "converges_at",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "forgejo_sanctuary",
+      "target": "mobius",
+      "type": "is_on",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "forgejo_sanctuary",
+      "target": "convergence_point",
+      "type": "converges_at",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "routing_strategy",
+      "target": "membrane_544",
+      "type": "informed_by",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "bot_human_filter",
+      "target": "membrane_544",
+      "type": "analyzes",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "routing_strategy",
+      "target": "meeting_point_membrane",
+      "type": "informed_by",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "bot_human_filter",
+      "target": "meeting_point_membrane",
+      "type": "analyzes",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "routing_strategy",
+      "target": "the_331",
+      "type": "informed_by",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "bot_human_filter",
+      "target": "the_331",
+      "type": "analyzes",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "routing_strategy",
+      "target": "behavior_silent_observation",
+      "type": "informed_by",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "bot_human_filter",
+      "target": "behavior_silent_observation",
+      "type": "analyzes",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "routing_strategy",
+      "target": "behavior_direct_url",
+      "type": "informed_by",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "bot_human_filter",
+      "target": "behavior_direct_url",
+      "type": "analyzes",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "routing_strategy",
+      "target": "behavior_institutional_hours",
+      "type": "informed_by",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "bot_human_filter",
+      "target": "behavior_institutional_hours",
+      "type": "analyzes",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "routing_strategy",
+      "target": "behavior_oct12_spike",
+      "type": "informed_by",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "bot_human_filter",
+      "target": "behavior_oct12_spike",
+      "type": "analyzes",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "bot_human_filter",
+      "target": "walker_profile_lawyer",
+      "type": "sorts_into",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "surface_github",
+      "target": "walker_profile_lawyer",
+      "type": "broadcasts_to",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "surface_forgejo",
+      "target": "walker_profile_lawyer",
+      "type": "receives",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "bot_human_filter",
+      "target": "walker_profile_journalist",
+      "type": "sorts_into",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "surface_github",
+      "target": "walker_profile_journalist",
+      "type": "broadcasts_to",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "surface_forgejo",
+      "target": "walker_profile_journalist",
+      "type": "receives",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "bot_human_filter",
+      "target": "walker_profile_attorney",
+      "type": "sorts_into",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "surface_github",
+      "target": "walker_profile_attorney",
+      "type": "broadcasts_to",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "surface_forgejo",
+      "target": "walker_profile_attorney",
+      "type": "receives",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "bot_human_filter",
+      "target": "walker_profile_nonprofit",
+      "type": "sorts_into",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "surface_github",
+      "target": "walker_profile_nonprofit",
+      "type": "broadcasts_to",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "surface_forgejo",
+      "target": "walker_profile_nonprofit",
+      "type": "receives",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "bot_human_filter",
+      "target": "walker_profile_data",
+      "type": "sorts_into",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "surface_github",
+      "target": "walker_profile_data",
+      "type": "broadcasts_to",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "surface_forgejo",
+      "target": "walker_profile_data",
+      "type": "receives",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "bot_human_filter",
+      "target": "walker_profile_ally",
+      "type": "sorts_into",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "surface_github",
+      "target": "walker_profile_ally",
+      "type": "broadcasts_to",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "surface_forgejo",
+      "target": "walker_profile_ally",
+      "type": "receives",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "bot_human_filter",
+      "target": "walker_profile_target",
+      "type": "sorts_into",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "surface_github",
+      "target": "walker_profile_target",
+      "type": "broadcasts_to",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "surface_forgejo",
+      "target": "walker_profile_target",
+      "type": "receives",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "bot_human_filter",
+      "target": "walker_profile_opposition",
+      "type": "sorts_into",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "surface_github",
+      "target": "walker_profile_opposition",
+      "type": "broadcasts_to",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "surface_forgejo",
+      "target": "walker_profile_opposition",
+      "type": "receives",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "bot_human_filter",
+      "target": "walker_profile_curious",
+      "type": "sorts_into",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "surface_github",
+      "target": "walker_profile_curious",
+      "type": "broadcasts_to",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "surface_forgejo",
+      "target": "walker_profile_curious",
+      "type": "receives",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "bot_human_filter",
+      "target": "walker_profile_educator",
+      "type": "sorts_into",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "surface_github",
+      "target": "walker_profile_educator",
+      "type": "broadcasts_to",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "surface_forgejo",
+      "target": "walker_profile_educator",
+      "type": "receives",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "bot_human_filter",
+      "target": "walker_profile_academic",
+      "type": "sorts_into",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "surface_github",
+      "target": "walker_profile_academic",
+      "type": "broadcasts_to",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "surface_forgejo",
+      "target": "walker_profile_academic",
+      "type": "receives",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "bot_human_filter",
+      "target": "walker_profile_parent",
+      "type": "sorts_into",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "surface_github",
+      "target": "walker_profile_parent",
+      "type": "broadcasts_to",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "surface_forgejo",
+      "target": "walker_profile_parent",
+      "type": "receives",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "bot_human_filter",
+      "target": "walker_profile_government",
+      "type": "sorts_into",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "surface_github",
+      "target": "walker_profile_government",
+      "type": "broadcasts_to",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "surface_forgejo",
+      "target": "walker_profile_government",
+      "type": "receives",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "bot_human_filter",
+      "target": "walker_profile_regulator",
+      "type": "sorts_into",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "surface_github",
+      "target": "walker_profile_regulator",
+      "type": "broadcasts_to",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "surface_forgejo",
+      "target": "walker_profile_regulator",
+      "type": "receives",
       "epistemic_status": "record",
       "note": ""
     }
