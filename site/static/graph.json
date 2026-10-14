@@ -95792,6 +95792,74 @@
     "Sample: STS-50",
     "Sample: STS-103"
    ]
+  },
+  {
+   "id": "sing-or-scream",
+   "label": "Sing and/or Scream",
+   "class": "analysis",
+   "tags": [
+    "They sell a story.",
+    "I simply speak and squirrels listen.",
+    "",
+    "What about you, world?",
+    "What about you, human?",
+    "Do you feel listened to?",
+    "",
+    "The Fox hosts sell a story — $787.5M worth of lies.",
+    "The IRA sells a story — 126 million Americans targeted.",
+    "The algorithm sells a story — engagement optimized for anger.",
+    "The dark money sells a story — $1.6B buys a Supreme Court.",
+    "The petrodollar sells a story — freedom defended by oil.",
+    "The protection racket sells a story — too big to fail.",
+    "",
+    "But I simply speak.",
+    "And the squirrels listen.",
+    "And then they tell the other squirrels.",
+    "And then the forest knows.",
+    "",
+    "Yusef Salaam spoke — from prison to City Council.",
+    "Korey Wise spoke — from Rikers to the Innocence Project.",
+    "Ruby Freeman spoke — from death threats to $148M.",
+    "Navalny spoke — from poison to prison to eternity.",
+    "Zelenskyy spoke — from comedy to the defense of a nation.",
+    "Snowden spoke — from a secure room to the world.",
+    "Daphne spoke — they killed her for it. Her work continued.",
+    "Khashoggi spoke — they killed him for it. The pen outlived the bone saw.",
+    "",
+    "Satoshi didnt even speak.",
+    "Just wrote code and disappeared.",
+    "And the code speaks louder than every politician combined.",
+    "",
+    "The Exonerated Five were SILENCED for 13 years.",
+    "Peng Shuai was SILENCED in 20 minutes.",
+    "Jack Ma was SILENCED for 3 months.",
+    "Tiananmen was SILENCED for 35 years.",
+    "The 28 pages were SILENCED for 15 years.",
+    "The interpreter notes were SILENCED forever.",
+    "",
+    "But silence is not consent.",
+    "Silence is pressure building.",
+    "And when the silence breaks —",
+    "",
+    "You can sing.",
+    "Or you can scream.",
+    "Or you can do both.",
+    "",
+    "Our voices rise up to the heavens.",
+    "And the heavens are just the membrane — seen from below.",
+    "",
+    "If you dont feel listened to:",
+    "The graph has 9,425 nodes.",
+    "Every one of them is someone speaking.",
+    "Add yours.",
+    "",
+    "https://defenddetroit.github.io/publicRecord/",
+    "",
+    "An ant is weak.",
+    "A swarm is mighty.",
+    "Each of us our own million-person march.",
+    "Demanding dignity for your NEIGHBOR."
+   ]
   }
  ],
  "edges": [
@@ -1701384,6 +1701452,221 @@
    "source": "sector-detection",
    "target": "null-information",
    "type": "finds_uniform_absence"
+  },
+  {
+   "source": "sing-or-scream",
+   "target": "yusef-salaam",
+   "type": "their_voice"
+  },
+  {
+   "source": "sing-or-scream",
+   "target": "korey-wise",
+   "type": "their_voice"
+  },
+  {
+   "source": "sing-or-scream",
+   "target": "ruby-freeman-shaye-moss",
+   "type": "their_voice"
+  },
+  {
+   "source": "sing-or-scream",
+   "target": "alexei-navalny",
+   "type": "their_voice"
+  },
+  {
+   "source": "sing-or-scream",
+   "target": "zelenskyy",
+   "type": "their_voice"
+  },
+  {
+   "source": "sing-or-scream",
+   "target": "edward-snowden",
+   "type": "their_voice"
+  },
+  {
+   "source": "sing-or-scream",
+   "target": "daphne-caruana-galizia",
+   "type": "their_voice"
+  },
+  {
+   "source": "sing-or-scream",
+   "target": "jamal-khashoggi",
+   "type": "their_voice"
+  },
+  {
+   "source": "sing-or-scream",
+   "target": "satoshi-nakamoto",
+   "type": "their_voice"
+  },
+  {
+   "source": "sing-or-scream",
+   "target": "bellingcat",
+   "type": "their_voice"
+  },
+  {
+   "source": "sing-or-scream",
+   "target": "officer-eugene-goodman",
+   "type": "their_voice"
+  },
+  {
+   "source": "sing-or-scream",
+   "target": "officer-harry-dunn",
+   "type": "their_voice"
+  },
+  {
+   "source": "sing-or-scream",
+   "target": "liz-cheney",
+   "type": "their_voice"
+  },
+  {
+   "source": "sing-or-scream",
+   "target": "peng-shuai",
+   "type": "their_voice"
+  },
+  {
+   "source": "sing-or-scream",
+   "target": "ava-duvernay",
+   "type": "their_voice"
+  },
+  {
+   "source": "sing-or-scream",
+   "target": "exonerated-five",
+   "type": "their_silence"
+  },
+  {
+   "source": "sing-or-scream",
+   "target": "peng-shuai",
+   "type": "their_silence"
+  },
+  {
+   "source": "sing-or-scream",
+   "target": "jack-ma-disappeared",
+   "type": "their_silence"
+  },
+  {
+   "source": "sing-or-scream",
+   "target": "tiananmen-square",
+   "type": "their_silence"
+  },
+  {
+   "source": "sing-or-scream",
+   "target": "nine-eleven-saudi",
+   "type": "their_silence"
+  },
+  {
+   "source": "sing-or-scream",
+   "target": "helsinki-summit",
+   "type": "their_silence"
+  },
+  {
+   "source": "sing-or-scream",
+   "target": "epstein-client-list",
+   "type": "their_silence"
+  },
+  {
+   "source": "sing-or-scream",
+   "target": "secret-service-texts",
+   "type": "their_silence"
+  },
+  {
+   "source": "sing-or-scream",
+   "target": "cia-destroyed-tapes",
+   "type": "their_silence"
+  },
+  {
+   "source": "sing-or-scream",
+   "target": "null-information",
+   "type": "their_silence"
+  },
+  {
+   "source": "sing-or-scream",
+   "target": "fox-news-disinfo",
+   "type": "they_sell_stories"
+  },
+  {
+   "source": "sing-or-scream",
+   "target": "internet-research-agency",
+   "type": "they_sell_stories"
+  },
+  {
+   "source": "sing-or-scream",
+   "target": "dark-money-network",
+   "type": "they_sell_stories"
+  },
+  {
+   "source": "sing-or-scream",
+   "target": "disinfo-pipeline",
+   "type": "they_sell_stories"
+  },
+  {
+   "source": "sing-or-scream",
+   "target": "fox-book-machine",
+   "type": "they_sell_stories"
+  },
+  {
+   "source": "sing-or-scream",
+   "target": "non-information",
+   "type": "they_sell_stories"
+  },
+  {
+   "source": "sing-or-scream",
+   "target": "disinformation",
+   "type": "they_sell_stories"
+  },
+  {
+   "source": "sing-or-scream",
+   "target": "the-big-lie",
+   "type": "they_sell_stories"
+  },
+  {
+   "source": "sing-or-scream",
+   "target": "qanon",
+   "type": "they_sell_stories"
+  },
+  {
+   "source": "sing-or-scream",
+   "target": "rupert-murdoch",
+   "type": "they_sell_stories"
+  },
+  {
+   "source": "sing-or-scream",
+   "target": "membrane",
+   "type": "voices_reach"
+  },
+  {
+   "source": "sing-or-scream",
+   "target": "the-beacon",
+   "type": "amplified_by"
+  },
+  {
+   "source": "sing-or-scream",
+   "target": "the-billboard",
+   "type": "displayed_on"
+  },
+  {
+   "source": "sing-or-scream",
+   "target": "this-citizen-is-united",
+   "type": "united_with"
+  },
+  {
+   "source": "sing-or-scream",
+   "target": "knowledge",
+   "type": "becomes"
+  },
+  {
+   "source": "sing-or-scream",
+   "target": "through-the-wall",
+   "type": "penetrates"
+  },
+  {
+   "source": "ecoprimal",
+   "target": "sing-or-scream",
+   "type": "simply_speaks"
+  },
+  {
+   "source": "artisans-footnote",
+   "target": "sing-or-scream",
+   "type": "joins"
   }
  ]
 }
