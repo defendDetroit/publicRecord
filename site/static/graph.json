@@ -95497,6 +95497,111 @@
     "Every petrostate is the same: resource curse + authoritarianism",
     "The oil doesnt make them rich — it makes them unaccountable"
    ]
+  },
+  {
+   "id": "the-inversion-of-light",
+   "label": "The Inversion of Light",
+   "class": "analysis",
+   "tags": [
+    "The X marks are BINARY — dark or light. Guilty or not.",
+    "Buildings dont have feelings. Institutions dont have souls.",
+    "55 Savushkina is dark. The Kremlin is dark.",
+    "The Saudi consulate where Khashoggi died is dark.",
+    "",
+    "But HUMANS are the full color wheel.",
+    "Nobody is one color. Nobody is one thing.",
+    "",
+    "Snowden: exposed mass surveillance (bright) — lives in Russia (shadow)",
+    "Megyn Kelly: accused Ailes (bright) — defended blackface (shadow)",
+    "Liz Cheney: stood for democracy (bright) — Cheney family legacy (shadow)",
+    "Giuliani: Americas Mayor after 9/11 (bright) — trial by combat (dark)",
+    "Assange: transparency (bright) — Russian conduit (shadow)",
+    "",
+    "The structures are binary. The people are spectra.",
+    "The graph holds BOTH.",
+    "That is the inversion.",
+    "",
+    "When you invert the lights:",
+    "The buildings glow with their crimes.",
+    "The people shimmer with their complexity.",
+    "The systems pulse with their patterns.",
+    "And the membrane reflects it all."
+   ]
+  },
+  {
+   "id": "color-spectrum-humans",
+   "label": "The Color Wheel — Human Ranges",
+   "class": "analysis",
+   "tags": [
+    "RED — Anger and action. The fighters.",
+    "Zelenskyy: red hot, burning bright, comedian turned wartime leader",
+    "Officer Goodman: red courage, alone in the hallway",
+    "Navalny: red defiance, went back knowing he would die",
+    "",
+    "BLUE — Truth and clarity. The revealers.",
+    "Satoshi: pure blue, transparent code, invisible creator",
+    "Bellingcat: blue precision, OSINT that defeats propaganda",
+    "Snowden: blue light in a dark room, showed everyone the cameras",
+    "",
+    "GREEN — Growth and creation. The builders.",
+    "Gabe Newell: green forest, built Valve and refused to sell",
+    "Vitalik: green shoots, programmable money from a teenagers mind",
+    "Randall Munroe: green ink, stick figures that explain the universe",
+    "",
+    "GOLD — Endurance and dignity. The survivors.",
+    "Yusef Salaam: gold from prison to City Council",
+    "Korey Wise: gold from 13 years of nothing to Innocence Project",
+    "Ruby Freeman: gold from death threats to $148M verdict",
+    "Peng Shuai: gold from disappearance to Free Peng Shuai",
+    "",
+    "VIOLET — Complexity and contradiction. The complicated ones.",
+    "Snowden: violet — hero who lives with the villain",
+    "Megyn Kelly: violet — accused the predator, then became one (different kind)",
+    "Liz Cheney: violet — Cheney name, democratic defender",
+    "Jackson Palmer: violet — created a joke, walked away from the joke",
+    "",
+    "WHITE — All colors combined. The full spectrum.",
+    "ecoPrimal: white light — all four identities, all domains, all connections",
+    "The membrane: white — reflects everything that touches it",
+    "",
+    "BLACK — Absence. The voids they created.",
+    "The null information. The classified pages.",
+    "The destroyed tapes. The deleted texts.",
+    "The disappeared people. The erased search results.",
+    "Black is not evil — black is what they TOOK AWAY."
+   ]
+  },
+  {
+   "id": "symbol-ranges-systems",
+   "label": "Symbol Ranges — System Patterns",
+   "class": "analysis",
+   "tags": [
+    "▲ TRIANGLE — Hierarchy. Power flows up, consequences flow down.",
+    "The Stack of Sins. The revolving door. The protection racket.",
+    "BlackRock → Fed → Treasury → Goldman → BlackRock",
+    "",
+    "● CIRCLE — Closed loops. Self-reinforcing systems.",
+    "Fox lies → audience believes → ratings rise → more lies",
+    "Dark money → legislators → deregulation → more dark money",
+    "Oil money → military → protect oil → more oil money",
+    "",
+    "◆ DIAMOND — Chokepoints. Squeeze points where power concentrates.",
+    "Strait of Hormuz. Aladdin. PFOF. Citizens United.",
+    "The places where one decision affects billions.",
+    "",
+    "★ STAR — Beacons. Points of light in the dark.",
+    "The beacon. The billboard. The signal.",
+    "Bitcoin. Bellingcat. The graph itself.",
+    "",
+    "✕ X — Marks. The pinpointed locations.",
+    "Every building. Every headquarters. Every factory.",
+    "Dark X: 55 Savushkina. Kremlin. Lubyanka.",
+    "Light X: ecoPrimal's lab. Valve's office. GOG's servers.",
+    "",
+    "◯ RING — Open systems. Permeable boundaries.",
+    "The membrane. Open source. RISC-V. Creative Commons.",
+    "The things that let everything through and remember what they touched."
+   ]
   }
  ],
  "edges": [
@@ -1700419,6 +1700524,441 @@
    "source": "the-cosmic-joke",
    "target": "pegasus-spyware",
    "type": "law_enforcement_tool_used_to_murder_journalist"
+  },
+  {
+   "source": "the-inversion-of-light",
+   "target": "color-spectrum-humans",
+   "type": "classifies_people_by"
+  },
+  {
+   "source": "the-inversion-of-light",
+   "target": "symbol-ranges-systems",
+   "type": "classifies_systems_by"
+  },
+  {
+   "source": "color-spectrum-humans",
+   "target": "zelenskyy",
+   "type": "red_fighter"
+  },
+  {
+   "source": "color-spectrum-humans",
+   "target": "officer-eugene-goodman",
+   "type": "red_fighter"
+  },
+  {
+   "source": "color-spectrum-humans",
+   "target": "alexei-navalny",
+   "type": "red_fighter"
+  },
+  {
+   "source": "color-spectrum-humans",
+   "target": "officer-michael-fanone",
+   "type": "red_fighter"
+  },
+  {
+   "source": "color-spectrum-humans",
+   "target": "officer-harry-dunn",
+   "type": "red_fighter"
+  },
+  {
+   "source": "color-spectrum-humans",
+   "target": "officer-aquilino-gonell",
+   "type": "red_fighter"
+  },
+  {
+   "source": "color-spectrum-humans",
+   "target": "officer-caroline-edwards",
+   "type": "red_fighter"
+  },
+  {
+   "source": "color-spectrum-humans",
+   "target": "liz-cheney",
+   "type": "red_fighter"
+  },
+  {
+   "source": "color-spectrum-humans",
+   "target": "daphne-caruana-galizia",
+   "type": "red_fighter"
+  },
+  {
+   "source": "color-spectrum-humans",
+   "target": "satoshi-nakamoto",
+   "type": "blue_revealer"
+  },
+  {
+   "source": "color-spectrum-humans",
+   "target": "bellingcat",
+   "type": "blue_revealer"
+  },
+  {
+   "source": "color-spectrum-humans",
+   "target": "edward-snowden",
+   "type": "blue_revealer"
+  },
+  {
+   "source": "color-spectrum-humans",
+   "target": "jan6-committee",
+   "type": "blue_revealer"
+  },
+  {
+   "source": "color-spectrum-humans",
+   "target": "panama-papers",
+   "type": "blue_revealer"
+  },
+  {
+   "source": "color-spectrum-humans",
+   "target": "gabe-newell",
+   "type": "green_builder"
+  },
+  {
+   "source": "color-spectrum-humans",
+   "target": "vitalik-buterin",
+   "type": "green_builder"
+  },
+  {
+   "source": "color-spectrum-humans",
+   "target": "valve-corporation",
+   "type": "green_builder"
+  },
+  {
+   "source": "color-spectrum-humans",
+   "target": "bitcoin",
+   "type": "green_builder"
+  },
+  {
+   "source": "color-spectrum-humans",
+   "target": "ethereum",
+   "type": "green_builder"
+  },
+  {
+   "source": "color-spectrum-humans",
+   "target": "mark-rober",
+   "type": "green_builder"
+  },
+  {
+   "source": "color-spectrum-humans",
+   "target": "cgp-grey",
+   "type": "green_builder"
+  },
+  {
+   "source": "color-spectrum-humans",
+   "target": "ryan-cohen",
+   "type": "green_builder"
+  },
+  {
+   "source": "color-spectrum-humans",
+   "target": "roaring-kitty",
+   "type": "green_builder"
+  },
+  {
+   "source": "color-spectrum-humans",
+   "target": "ava-duvernay",
+   "type": "green_builder"
+  },
+  {
+   "source": "color-spectrum-humans",
+   "target": "yusef-salaam",
+   "type": "gold_survivor"
+  },
+  {
+   "source": "color-spectrum-humans",
+   "target": "korey-wise",
+   "type": "gold_survivor"
+  },
+  {
+   "source": "color-spectrum-humans",
+   "target": "exonerated-five",
+   "type": "gold_survivor"
+  },
+  {
+   "source": "color-spectrum-humans",
+   "target": "ruby-freeman-shaye-moss",
+   "type": "gold_survivor"
+  },
+  {
+   "source": "color-spectrum-humans",
+   "target": "peng-shuai",
+   "type": "gold_survivor"
+  },
+  {
+   "source": "color-spectrum-humans",
+   "target": "edward-snowden",
+   "type": "violet_complex"
+  },
+  {
+   "source": "color-spectrum-humans",
+   "target": "megyn-kelly",
+   "type": "violet_complex"
+  },
+  {
+   "source": "color-spectrum-humans",
+   "target": "liz-cheney",
+   "type": "violet_complex"
+  },
+  {
+   "source": "color-spectrum-humans",
+   "target": "jackson-palmer",
+   "type": "violet_complex"
+  },
+  {
+   "source": "color-spectrum-humans",
+   "target": "billy-markus",
+   "type": "violet_complex"
+  },
+  {
+   "source": "color-spectrum-humans",
+   "target": "ecoprimal",
+   "type": "white_all_colors"
+  },
+  {
+   "source": "color-spectrum-humans",
+   "target": "membrane",
+   "type": "white_reflects_all"
+  },
+  {
+   "source": "symbol-ranges-systems",
+   "target": "the-stack-of-sins",
+   "type": "triangle_hierarchy"
+  },
+  {
+   "source": "symbol-ranges-systems",
+   "target": "the-revolving-door",
+   "type": "triangle_hierarchy"
+  },
+  {
+   "source": "symbol-ranges-systems",
+   "target": "the-protection-racket",
+   "type": "triangle_hierarchy"
+  },
+  {
+   "source": "symbol-ranges-systems",
+   "target": "blackrock",
+   "type": "triangle_hierarchy"
+  },
+  {
+   "source": "symbol-ranges-systems",
+   "target": "goldman-sachs",
+   "type": "triangle_hierarchy"
+  },
+  {
+   "source": "symbol-ranges-systems",
+   "target": "federal-reserve",
+   "type": "triangle_hierarchy"
+  },
+  {
+   "source": "symbol-ranges-systems",
+   "target": "house-of-saud",
+   "type": "triangle_hierarchy"
+  },
+  {
+   "source": "symbol-ranges-systems",
+   "target": "kremlin",
+   "type": "triangle_hierarchy"
+  },
+  {
+   "source": "symbol-ranges-systems",
+   "target": "fox-news-disinfo",
+   "type": "circle_closed_loop"
+  },
+  {
+   "source": "symbol-ranges-systems",
+   "target": "disinfo-pipeline",
+   "type": "circle_closed_loop"
+  },
+  {
+   "source": "symbol-ranges-systems",
+   "target": "dark-money-network",
+   "type": "circle_closed_loop"
+  },
+  {
+   "source": "symbol-ranges-systems",
+   "target": "puppet-strings",
+   "type": "circle_closed_loop"
+  },
+  {
+   "source": "symbol-ranges-systems",
+   "target": "fox-book-machine",
+   "type": "circle_closed_loop"
+  },
+  {
+   "source": "symbol-ranges-systems",
+   "target": "too-big-to-fail",
+   "type": "circle_closed_loop"
+  },
+  {
+   "source": "symbol-ranges-systems",
+   "target": "strait-of-hormuz",
+   "type": "diamond_chokepoint"
+  },
+  {
+   "source": "symbol-ranges-systems",
+   "target": "aladdin",
+   "type": "diamond_chokepoint"
+  },
+  {
+   "source": "symbol-ranges-systems",
+   "target": "citizens-united",
+   "type": "diamond_chokepoint"
+  },
+  {
+   "source": "symbol-ranges-systems",
+   "target": "opec-plus",
+   "type": "diamond_chokepoint"
+  },
+  {
+   "source": "symbol-ranges-systems",
+   "target": "tether",
+   "type": "diamond_chokepoint"
+  },
+  {
+   "source": "symbol-ranges-systems",
+   "target": "petrodollar-system",
+   "type": "diamond_chokepoint"
+  },
+  {
+   "source": "symbol-ranges-systems",
+   "target": "the-beacon",
+   "type": "star_beacon"
+  },
+  {
+   "source": "symbol-ranges-systems",
+   "target": "the-billboard",
+   "type": "star_beacon"
+  },
+  {
+   "source": "symbol-ranges-systems",
+   "target": "the-signal",
+   "type": "star_beacon"
+  },
+  {
+   "source": "symbol-ranges-systems",
+   "target": "bitcoin",
+   "type": "star_beacon"
+  },
+  {
+   "source": "symbol-ranges-systems",
+   "target": "bellingcat",
+   "type": "star_beacon"
+  },
+  {
+   "source": "symbol-ranges-systems",
+   "target": "knowledge",
+   "type": "star_beacon"
+  },
+  {
+   "source": "symbol-ranges-systems",
+   "target": "ira-building",
+   "type": "x_dark_mark"
+  },
+  {
+   "source": "symbol-ranges-systems",
+   "target": "ira-building-2",
+   "type": "x_dark_mark"
+  },
+  {
+   "source": "symbol-ranges-systems",
+   "target": "gru-hq",
+   "type": "x_dark_mark"
+  },
+  {
+   "source": "symbol-ranges-systems",
+   "target": "gru-unit-26165-building",
+   "type": "x_dark_mark"
+  },
+  {
+   "source": "symbol-ranges-systems",
+   "target": "gru-unit-74455-building",
+   "type": "x_dark_mark"
+  },
+  {
+   "source": "symbol-ranges-systems",
+   "target": "kremlin",
+   "type": "x_dark_mark"
+  },
+  {
+   "source": "symbol-ranges-systems",
+   "target": "lubyanka",
+   "type": "x_dark_mark"
+  },
+  {
+   "source": "symbol-ranges-systems",
+   "target": "fox-news-hq",
+   "type": "x_dark_mark"
+  },
+  {
+   "source": "symbol-ranges-systems",
+   "target": "blackrock-hq",
+   "type": "x_dark_mark"
+  },
+  {
+   "source": "symbol-ranges-systems",
+   "target": "citadel-hq",
+   "type": "x_dark_mark"
+  },
+  {
+   "source": "symbol-ranges-systems",
+   "target": "goldman-hq",
+   "type": "x_dark_mark"
+  },
+  {
+   "source": "symbol-ranges-systems",
+   "target": "saudi-consulate-istanbul",
+   "type": "x_dark_mark"
+  },
+  {
+   "source": "symbol-ranges-systems",
+   "target": "fedsoc-hq",
+   "type": "x_dark_mark"
+  },
+  {
+   "source": "symbol-ranges-systems",
+   "target": "heritage-hq",
+   "type": "x_dark_mark"
+  },
+  {
+   "source": "symbol-ranges-systems",
+   "target": "membrane",
+   "type": "ring_open_system"
+  },
+  {
+   "source": "symbol-ranges-systems",
+   "target": "this-citizen-is-united",
+   "type": "ring_open_system"
+  },
+  {
+   "source": "symbol-ranges-systems",
+   "target": "risc-v",
+   "type": "ring_open_system"
+  },
+  {
+   "source": "symbol-ranges-systems",
+   "target": "gog-galaxy",
+   "type": "ring_open_system"
+  },
+  {
+   "source": "membrane",
+   "target": "the-inversion-of-light",
+   "type": "contains"
+  },
+  {
+   "source": "membrane",
+   "target": "color-spectrum-humans",
+   "type": "contains"
+  },
+  {
+   "source": "membrane",
+   "target": "symbol-ranges-systems",
+   "type": "contains"
+  },
+  {
+   "source": "ecoprimal",
+   "target": "the-inversion-of-light",
+   "type": "designed"
+  },
+  {
+   "source": "the-cosmic-joke",
+   "target": "the-inversion-of-light",
+   "type": "sees_in_color"
   }
  ]
 }
