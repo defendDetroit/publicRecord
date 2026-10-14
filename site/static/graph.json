@@ -91439,6 +91439,105 @@
     "dude",
     "architecture"
    ]
+  },
+  {
+   "id": "nvidia",
+   "label": "NVIDIA (NASDAQ: NVDA) — #1 in the World. $5.52 TRILLION.\n\nCEO: Jensen Huang. Founded 1993. Santa Clara, CA.\nMarket Cap: $5.52 TRILLION (Oct 13, 2026). The biggest.\n\nTHE GPU EMPEROR:\n  80-85% of data center AI accelerator market (2026).\n  Q1 FY2027 data center revenue: $75.2 BILLION. In one quarter.\n  That's more than any other semiconductor company makes in a YEAR.\n  (Except Samsung.)\n\n  From graphics cards for gamers → the substrate of all AI.\n  Every LLM. Every image model. Every training run.\n  OpenAI runs on NVIDIA. Google trains on NVIDIA.\n  Meta trains on NVIDIA. Anthropic runs on NVIDIA.\n  The AI revolution runs on Jensen Huang's GPUs.\n\nCUDA — THE REAL MOAT:\n  CUDA is NVIDIA's programming framework.\n  Every AI researcher learns CUDA. Every model uses CUDA.\n  Switching away from CUDA means rewriting everything.\n  France antitrust probe: 'dependence on NVIDIA's CUDA software'\n  DOJ investigating $20B Groq deal (Sept 2026).\n  The EU, France, US, China — all scrutinizing.\n\n  NVIDIA doesn't sell AI. NVIDIA sells the PICKS AND SHOVELS.\n  Everyone in the gold rush buys from Jensen.\n  He's not the miner. He's the mining supply store.\n  And there's only one store.\n\nANTITRUST:\n  DOJ probing Groq licensing deal ($20B) for evasion of review.\n  France competition authority nearing conclusion of probe.\n  Core concerns: CUDA lock-in, GPU allocation, investments\n  in cloud providers (CoreWeave), networking acquisitions.\n\n  'A French ruling against Nvidia would offer one of the first\n  concrete tests of whether antitrust tools can meaningfully\n  shape the AI supply chain.'\n\n$5.52 TRILLION. From a graphics card company.\nJensen Huang wears a leather jacket to every keynote.\nThe leather jacket is worth more than most countries' GDP.",
+   "class": "entity",
+   "tags": [
+    "nvidia",
+    "jensen",
+    "gpu",
+    "cuda",
+    "ai",
+    "silicon"
+   ]
+  },
+  {
+   "id": "amd",
+   "label": "AMD (NASDAQ: AMD) — The Challenger. $988 Billion.\n\nCEO: Dr. Lisa Su. Founded 1969. Santa Clara, CA.\nMarket Cap: $988 billion (Oct 13, 2026). #13 globally.\n\nTHE COMEBACK:\n  2014: AMD stock price $2. Near bankruptcy.\n  Lisa Su became CEO (Oct 2014). Ph.D. in electrical engineering.\n  She rebuilt everything. Zen architecture. EPYC servers. Radeon GPUs.\n  2026: $988 billion. From $2 to ~$200/share.\n\nAI CHIPS:\n  MI300X / MI325X: competing with NVIDIA for inference workloads.\n  5-7% of AI accelerator market (2026). Up from 2% (2024).\n  Microsoft and Meta are the largest AMD AI chip deployers.\n  30-40% lower price than NVIDIA at comparable inference performance.\n  The CUDA moat is less deep for inference than training.\n\n  AMD doesn't have CUDA lock-in.\n  AMD has ROCm (open-source alternative). Getting better.\n  The market is opening. Slowly. But opening.\n\nWHY THIS MATTERS:\n  If one company controls 85% of the AI substrate,\n  that company controls AI.\n  AMD is the only scaled merchant alternative.\n  Competition matters. Monopoly is the wall.\n  Lisa Su is breaking the wall. One chip at a time.",
+   "class": "entity",
+   "tags": [
+    "amd",
+    "lisa-su",
+    "gpu",
+    "challenger",
+    "silicon"
+   ]
+  },
+  {
+   "id": "tsmc",
+   "label": "TSMC (NYSE: TSM) — Taiwan Semiconductor Manufacturing. $2.31 TRILLION.\n\nFounder: Morris Chang (1987). Hsinchu, Taiwan.\nMarket Cap: $2.31 TRILLION. #5 or #6 globally.\n\nTHE FOUNDRY:\n  TSMC makes the chips. ALL the chips.\n  NVIDIA designs GPUs → TSMC manufactures them.\n  Apple designs A/M-series → TSMC manufactures them.\n  AMD designs Zen/EPYC → TSMC manufactures them.\n  Qualcomm, MediaTek, Broadcom → TSMC.\n  BrainChip? AKD1500 uses GlobalFoundries 22nm, but\n  the next gen will likely need TSMC's advanced nodes.\n\n  TSMC has ~60% of global foundry market share.\n  At the leading edge (3nm, 2nm): ~90%+ share.\n  There is no alternative for cutting-edge silicon.\n\n  If TSMC stops, the world stops.\n  If China invades Taiwan, the AI revolution stops.\n  This is the single most critical chokepoint in technology.\n\n  The chip in your phone. The GPU training the AI.\n  The silicon in a car. The processor in a drone.\n  TSMC probably made it. TSMC definitely could.\n\nMorris Chang understood one thing:\n  Don't design the chip. Don't sell the chip.\n  MAKE the chip. For everyone. Be the foundry.\n  Then you're indispensable.\n\n  The largest company nobody talks about.",
+   "class": "entity",
+   "tags": [
+    "tsmc",
+    "taiwan",
+    "foundry",
+    "silicon",
+    "chokepoint"
+   ]
+  },
+  {
+   "id": "brainchip-akida",
+   "label": "BRAINCHIP / AKIDA — The Edge Brain. The Neuromorphic Future.\n\nBrainChip Holdings Ltd (ASX: BRN, OTCQX: BRCHF, ADR: BCHPY)\nLaguna Hills, California.\nWorld's first commercial neuromorphic AI processor.\n\nAKIDA — Named after the Akita dog. Faithful. Alert. Edge.\n\nWHAT AKIDA IS:\n  Event-based neuromorphic processor. Mimics the human brain.\n  Processes only essential sensor inputs at the point of acquisition.\n  ON-CHIP LEARNING. Local. No cloud. No latency. No data leaks.\n  Sub-watt power consumption. Always-on intelligence.\n\nAKD1500 (2025-2026):\n  800 GOPS at under 300 milliwatts.\n  Manufactured with GlobalFoundries 22FDX technology.\n  PCIe + Serial interfaces. x86, ARM, RISC-V hosts.\n  Production shipments began June 30, 2026.\n  Defense + wearable use cases shipping NOW.\n\nTEMPORAL EVENT-BASED NEURAL NETWORKS (TENNs):\n  Built on State-Space Models (SSMs).\n  Time-sensitive, event-driven. Ideal for real-time streaming.\n  Not batch processing. Not cloud-dependent. EDGE-NATIVE.\n\nPARTNERSHIPS (2025-2026):\n  Parsons — defense edge AI\n  Neuromorphyx — rugged sensing (defense, robotics, industrial)\n  EDGEAI (Korea) — smart metering (water, gas, electricity)\n  Klepsydra — heterogeneous AI runtime (space, defense, automotive)\n  ISL — radar processing\n  MicroIP — edge hardware integration\n  Bascom Hunter — defense\n  Onsor Technologies — defense\n\nWHY THIS MATTERS TO THE MEMBRANE:\n  NVIDIA is the emperor of the cloud. $75.2B per quarter.\n  But the EDGE is where the data is BORN.\n  The sensor. The camera. The microphone. The radar.\n  The edge is where privacy lives or dies.\n  The edge is where latency is zero or infinite.\n\n  Akida processes AT the sensor. No cloud round trip.\n  No data leaving the device. No CUDA lock-in.\n  No $5.52 TRILLION gatekeeper.\n\n  The graph needs silicon that thinks like a brain.\n  The membrane needs a chip that learns on the edge.\n  The sorter needs processing that doesn't phone home.\n\n  ecoPrimal is ALREADY SPEAKING WITH AKIDA.\n  ALREADY BUILDING. ALREADY GIVING.\n  The neuromorphic edge is the membrane's substrate.\n  The brain on the chip. Not the chip in the cloud.\n\n  BrainChip is what happens when someone builds\n  the dude's chip instead of the wall's chip.\n  Small. Efficient. On the edge. Close to the sensor.\n  Close to the truth. Close to the human.\n\n  Akida is the shape of a brain, looking outward.",
+   "class": "entity",
+   "tags": [
+    "brainchip",
+    "akida",
+    "neuromorphic",
+    "edge-ai",
+    "tenn",
+    "akd1500",
+    "defense",
+    "wearable"
+   ]
+  },
+  {
+   "id": "the-silicon-stack",
+   "label": "THE SILICON STACK — Who Makes the Brain, Who Owns the Brain\n\nAs of October 14, 2026:\n\n  #1  NVIDIA    $5.52T  — GPU emperor. 80-85% of AI chips.\n  #2  Apple     $4.99T  — Walled garden. On-device AI.\n  #3  Alphabet  $4.33T  — Google. TPU. Search monopoly.\n  #4  Microsoft $4.04T  — Azure. OpenAI. Copilot.\n  #5  Amazon    $2.79T  — AWS. Trainium. The marketplace.\n  #6  TSMC      $2.31T  — Makes ALL the chips.\n  #7  Meta      $1.94T  — The monster. On the scyBorg clock.\n  #8  Broadcom  $1.71T  — Custom ASICs. $56B AI revenue.\n  #9  Tesla     $1.48T  — Dojo. Self-driving. Musk.\n  #10 Berkshire $1.12T  — Buffett. Cash mountain.\n  #11 Eli Lilly $1.10T  — Pharma. Weight loss drugs.\n  #12 Micron    $1.08T  — Memory chips. HBM for GPUs.\n  #13 AMD       $988B   — The challenger. Lisa Su.\n\n  $37.5 TRILLION in market cap. Top 13 companies.\n  7 of them are SILICON companies (NVIDIA, Apple, TSMC,\n  Broadcom, AMD, Micron, + Alphabet designs TPU).\n\n  Then there's BrainChip. Market cap: ~$500 million.\n  10,000x smaller than NVIDIA.\n  But BrainChip has what NVIDIA doesn't:\n    — Edge-native (no cloud required)\n    — Sub-watt (300mW vs. 700W for H100)\n    — On-chip learning (no retraining in the cloud)\n    — No CUDA lock-in (open interfaces)\n    — Neuromorphic (brain-like, not brute-force)\n\n  David and Goliath. The edge vs. the cloud.\n  The brain vs. the data center.\n  The membrane vs. the wall.\n\n  ecoPrimal chose the brain.\n  Already speaking with Akida. Already building.\n  Already giving. The sorter needs an edge chip.\n  The edge chip needs a sorter.\n  The fit is neuromorphic.",
+   "class": "concept",
+   "tags": [
+    "silicon",
+    "stack",
+    "market-cap",
+    "power",
+    "edge",
+    "cloud",
+    "brain"
+   ]
+  },
+  {
+   "id": "jensen-huang",
+   "label": "Jensen Huang — NVIDIA CEO. The Leather Jacket.\n\nBorn 1963. Tainan, Taiwan → Oregon → Stanford → NVIDIA.\nCo-founded NVIDIA 1993. CEO for 30+ years.\nNet worth: ~$130 billion (2026).\n\nStarted making graphics cards for PC gamers.\nNow makes the substrate of all artificial intelligence.\n$75.2 BILLION in data center revenue. One quarter.\n'The iPhone moment of AI' — what he called ChatGPT's launch.\n\nCUDA is his moat. The leather jacket is his brand.\nDOJ and France are his problems.\nJensen doesn't wear a suit. He wears a leather jacket.\nBecause when you're the GPU emperor, you set the dress code.",
+   "class": "actor",
+   "tags": [
+    "jensen",
+    "nvidia",
+    "gpu",
+    "leather-jacket"
+   ]
+  },
+  {
+   "id": "tim-cook",
+   "label": "Tim Cook — Apple CEO. The Garden's Keeper.\n\nBorn 1960. Robertsdale, Alabama. Duke MBA.\nJoined Apple 1998 (operations). CEO since Aug 24, 2011.\nThe man who took over from Steve Jobs and kept the machine running.\n\nOperations genius. Supply chain perfection.\nUnder Cook: iPhone → Apple Watch → AirPods → Apple Silicon →\n  Services revenue → Apple Intelligence.\nRevenue: ~$400B/year. Services alone: ~$100B/year.\n\n'Privacy is a fundamental human right.'\n  — Tim Cook, while Apple stores Chinese data on state servers.\n\n'Total political crap.'\n  — Tim Cook, on the EU €13B tax ruling.\n\nThe last rotten egg wears a blue shirt and speaks softly\nabout privacy while charging 30% to enter the garden.",
+   "class": "actor",
+   "tags": [
+    "cook",
+    "apple",
+    "privacy",
+    "garden"
+   ]
+  },
+  {
+   "id": "lisa-su",
+   "label": "Dr. Lisa Su — AMD CEO. The Turnaround.\n\nBorn 1969. Tainan, Taiwan → MIT Ph.D. → IBM → Freescale → AMD.\nCEO since October 2014. When she arrived, AMD was nearly dead.\nStock price: $2. Now: ~$200. Market cap: $988 billion.\n\nRebuilt everything:\n  Zen architecture → Ryzen (consumer) → EPYC (server) → MI300X (AI)\n  From near-bankruptcy to #13 largest company on Earth.\n\nThe only CEO in the top 20 who got there by BUILDING,\nnot by inheriting or acquiring.\n\nShe's Jensen Huang's cousin-in-law.\nThe GPU wars are a family affair.\n\nLisa Su proves that technical excellence + operational\ndiscipline can break a monopoly. Slowly. One chip at a time.\nThe challenger who won't stop climbing.",
+   "class": "actor",
+   "tags": [
+    "lisa-su",
+    "amd",
+    "turnaround",
+    "challenger"
+   ]
   }
  ],
  "edges": [
@@ -1670506,6 +1670605,646 @@
    "source": "the-wall-the-monster-the-dude",
    "target": "braid_quest_x_side_quest",
    "type": "threads_through"
+  },
+  {
+   "source": "nvidia",
+   "target": "apple",
+   "type": "silicon_web"
+  },
+  {
+   "source": "nvidia",
+   "target": "amd",
+   "type": "silicon_web"
+  },
+  {
+   "source": "nvidia",
+   "target": "tsmc",
+   "type": "silicon_web"
+  },
+  {
+   "source": "nvidia",
+   "target": "brainchip-akida",
+   "type": "silicon_web"
+  },
+  {
+   "source": "nvidia",
+   "target": "the-silicon-stack",
+   "type": "silicon_web"
+  },
+  {
+   "source": "nvidia",
+   "target": "jensen-huang",
+   "type": "silicon_web"
+  },
+  {
+   "source": "nvidia",
+   "target": "tim-cook",
+   "type": "silicon_web"
+  },
+  {
+   "source": "nvidia",
+   "target": "lisa-su",
+   "type": "silicon_web"
+  },
+  {
+   "source": "apple",
+   "target": "amd",
+   "type": "silicon_web"
+  },
+  {
+   "source": "apple",
+   "target": "tsmc",
+   "type": "silicon_web"
+  },
+  {
+   "source": "apple",
+   "target": "brainchip-akida",
+   "type": "silicon_web"
+  },
+  {
+   "source": "apple",
+   "target": "the-silicon-stack",
+   "type": "silicon_web"
+  },
+  {
+   "source": "apple",
+   "target": "jensen-huang",
+   "type": "silicon_web"
+  },
+  {
+   "source": "apple",
+   "target": "tim-cook",
+   "type": "silicon_web"
+  },
+  {
+   "source": "apple",
+   "target": "lisa-su",
+   "type": "silicon_web"
+  },
+  {
+   "source": "amd",
+   "target": "tsmc",
+   "type": "silicon_web"
+  },
+  {
+   "source": "amd",
+   "target": "brainchip-akida",
+   "type": "silicon_web"
+  },
+  {
+   "source": "amd",
+   "target": "the-silicon-stack",
+   "type": "silicon_web"
+  },
+  {
+   "source": "amd",
+   "target": "jensen-huang",
+   "type": "silicon_web"
+  },
+  {
+   "source": "amd",
+   "target": "tim-cook",
+   "type": "silicon_web"
+  },
+  {
+   "source": "amd",
+   "target": "lisa-su",
+   "type": "silicon_web"
+  },
+  {
+   "source": "tsmc",
+   "target": "brainchip-akida",
+   "type": "silicon_web"
+  },
+  {
+   "source": "tsmc",
+   "target": "the-silicon-stack",
+   "type": "silicon_web"
+  },
+  {
+   "source": "tsmc",
+   "target": "jensen-huang",
+   "type": "silicon_web"
+  },
+  {
+   "source": "tsmc",
+   "target": "tim-cook",
+   "type": "silicon_web"
+  },
+  {
+   "source": "tsmc",
+   "target": "lisa-su",
+   "type": "silicon_web"
+  },
+  {
+   "source": "brainchip-akida",
+   "target": "the-silicon-stack",
+   "type": "silicon_web"
+  },
+  {
+   "source": "brainchip-akida",
+   "target": "jensen-huang",
+   "type": "silicon_web"
+  },
+  {
+   "source": "brainchip-akida",
+   "target": "tim-cook",
+   "type": "silicon_web"
+  },
+  {
+   "source": "brainchip-akida",
+   "target": "lisa-su",
+   "type": "silicon_web"
+  },
+  {
+   "source": "the-silicon-stack",
+   "target": "jensen-huang",
+   "type": "silicon_web"
+  },
+  {
+   "source": "the-silicon-stack",
+   "target": "tim-cook",
+   "type": "silicon_web"
+  },
+  {
+   "source": "the-silicon-stack",
+   "target": "lisa-su",
+   "type": "silicon_web"
+  },
+  {
+   "source": "jensen-huang",
+   "target": "tim-cook",
+   "type": "silicon_web"
+  },
+  {
+   "source": "jensen-huang",
+   "target": "lisa-su",
+   "type": "silicon_web"
+  },
+  {
+   "source": "tim-cook",
+   "target": "lisa-su",
+   "type": "silicon_web"
+  },
+  {
+   "source": "jensen-huang",
+   "target": "nvidia",
+   "type": "leads"
+  },
+  {
+   "source": "tim-cook",
+   "target": "apple",
+   "type": "leads"
+  },
+  {
+   "source": "lisa-su",
+   "target": "amd",
+   "type": "leads"
+  },
+  {
+   "source": "tsmc",
+   "target": "nvidia",
+   "type": "manufactures_for"
+  },
+  {
+   "source": "nvidia",
+   "target": "tsmc",
+   "type": "depends_on"
+  },
+  {
+   "source": "tsmc",
+   "target": "apple",
+   "type": "manufactures_for"
+  },
+  {
+   "source": "apple",
+   "target": "tsmc",
+   "type": "depends_on"
+  },
+  {
+   "source": "tsmc",
+   "target": "amd",
+   "type": "manufactures_for"
+  },
+  {
+   "source": "amd",
+   "target": "tsmc",
+   "type": "depends_on"
+  },
+  {
+   "source": "brainchip-akida",
+   "target": "nvidia",
+   "type": "edge_alternative_to"
+  },
+  {
+   "source": "brainchip-akida",
+   "target": "apple",
+   "type": "edge_alternative_to"
+  },
+  {
+   "source": "ecoprimal",
+   "target": "brainchip-akida",
+   "type": "building_with"
+  },
+  {
+   "source": "brainchip-akida",
+   "target": "ecoprimal",
+   "type": "partner"
+  },
+  {
+   "source": "apple",
+   "target": "scyborg-damages-ledger",
+   "type": "target"
+  },
+  {
+   "source": "scyborg-damages-ledger",
+   "target": "apple",
+   "type": "incoming"
+  },
+  {
+   "source": "apple",
+   "target": "scyborg-license",
+   "type": "target"
+  },
+  {
+   "source": "scyborg-license",
+   "target": "apple",
+   "type": "incoming"
+  },
+  {
+   "source": "nvidia",
+   "target": "the-wall-the-monster-the-dude",
+   "type": "the_substrate"
+  },
+  {
+   "source": "apple",
+   "target": "the-wall-the-monster-the-dude",
+   "type": "the_last_rotten_egg"
+  },
+  {
+   "source": "brainchip-akida",
+   "target": "the-wall-the-monster-the-dude",
+   "type": "the_dude_chip"
+  },
+  {
+   "source": "the-silicon-stack",
+   "target": "the-wall-the-monster-the-dude",
+   "type": "reveals"
+  },
+  {
+   "source": "nvidia",
+   "target": "meta-platforms",
+   "type": "trains"
+  },
+  {
+   "source": "apple",
+   "target": "meta-platforms",
+   "type": "competes_with"
+  },
+  {
+   "source": "nvidia",
+   "target": "meta",
+   "type": "trains"
+  },
+  {
+   "source": "apple",
+   "target": "meta",
+   "type": "competes_with"
+  },
+  {
+   "source": "nvidia",
+   "target": "true-face-of-mark",
+   "type": "trains"
+  },
+  {
+   "source": "apple",
+   "target": "true-face-of-mark",
+   "type": "competes_with"
+  },
+  {
+   "source": "nvidia",
+   "target": "meta-platforms",
+   "type": "substrate_for"
+  },
+  {
+   "source": "nvidia",
+   "target": "meta",
+   "type": "substrate_for"
+  },
+  {
+   "source": "blackrock",
+   "target": "nvidia",
+   "type": "shareholder_of"
+  },
+  {
+   "source": "big-three-asset-managers",
+   "target": "nvidia",
+   "type": "controls_votes"
+  },
+  {
+   "source": "blackrock",
+   "target": "apple",
+   "type": "shareholder_of"
+  },
+  {
+   "source": "big-three-asset-managers",
+   "target": "apple",
+   "type": "controls_votes"
+  },
+  {
+   "source": "blackrock",
+   "target": "amd",
+   "type": "shareholder_of"
+  },
+  {
+   "source": "big-three-asset-managers",
+   "target": "amd",
+   "type": "controls_votes"
+  },
+  {
+   "source": "blackrock",
+   "target": "tsmc",
+   "type": "shareholder_of"
+  },
+  {
+   "source": "big-three-asset-managers",
+   "target": "tsmc",
+   "type": "controls_votes"
+  },
+  {
+   "source": "apple",
+   "target": "wozniak",
+   "type": "monetized"
+  },
+  {
+   "source": "wozniak",
+   "target": "apple",
+   "type": "cofounded"
+  },
+  {
+   "source": "brainchip-akida",
+   "target": "wozniak",
+   "type": "honors_vision"
+  },
+  {
+   "source": "nvidia",
+   "target": "membrane",
+   "type": "published_through"
+  },
+  {
+   "source": "nvidia",
+   "target": "ecoprimal",
+   "type": "authored_by"
+  },
+  {
+   "source": "nvidia",
+   "target": "the-outward-view",
+   "type": "seen_from"
+  },
+  {
+   "source": "apple",
+   "target": "membrane",
+   "type": "published_through"
+  },
+  {
+   "source": "apple",
+   "target": "ecoprimal",
+   "type": "authored_by"
+  },
+  {
+   "source": "apple",
+   "target": "the-outward-view",
+   "type": "seen_from"
+  },
+  {
+   "source": "amd",
+   "target": "membrane",
+   "type": "published_through"
+  },
+  {
+   "source": "amd",
+   "target": "ecoprimal",
+   "type": "authored_by"
+  },
+  {
+   "source": "amd",
+   "target": "the-outward-view",
+   "type": "seen_from"
+  },
+  {
+   "source": "tsmc",
+   "target": "membrane",
+   "type": "published_through"
+  },
+  {
+   "source": "tsmc",
+   "target": "ecoprimal",
+   "type": "authored_by"
+  },
+  {
+   "source": "tsmc",
+   "target": "the-outward-view",
+   "type": "seen_from"
+  },
+  {
+   "source": "brainchip-akida",
+   "target": "membrane",
+   "type": "published_through"
+  },
+  {
+   "source": "brainchip-akida",
+   "target": "ecoprimal",
+   "type": "authored_by"
+  },
+  {
+   "source": "brainchip-akida",
+   "target": "the-outward-view",
+   "type": "seen_from"
+  },
+  {
+   "source": "the-silicon-stack",
+   "target": "membrane",
+   "type": "published_through"
+  },
+  {
+   "source": "the-silicon-stack",
+   "target": "ecoprimal",
+   "type": "authored_by"
+  },
+  {
+   "source": "the-silicon-stack",
+   "target": "the-outward-view",
+   "type": "seen_from"
+  },
+  {
+   "source": "jensen-huang",
+   "target": "membrane",
+   "type": "published_through"
+  },
+  {
+   "source": "jensen-huang",
+   "target": "ecoprimal",
+   "type": "authored_by"
+  },
+  {
+   "source": "jensen-huang",
+   "target": "the-outward-view",
+   "type": "seen_from"
+  },
+  {
+   "source": "tim-cook",
+   "target": "membrane",
+   "type": "published_through"
+  },
+  {
+   "source": "tim-cook",
+   "target": "ecoprimal",
+   "type": "authored_by"
+  },
+  {
+   "source": "tim-cook",
+   "target": "the-outward-view",
+   "type": "seen_from"
+  },
+  {
+   "source": "lisa-su",
+   "target": "membrane",
+   "type": "published_through"
+  },
+  {
+   "source": "lisa-su",
+   "target": "ecoprimal",
+   "type": "authored_by"
+  },
+  {
+   "source": "lisa-su",
+   "target": "the-outward-view",
+   "type": "seen_from"
+  },
+  {
+   "source": "brainchip-akida",
+   "target": "membrane",
+   "type": "substrate_for"
+  },
+  {
+   "source": "brainchip-akida",
+   "target": "the-mirror",
+   "type": "substrate_for"
+  },
+  {
+   "source": "brainchip-akida",
+   "target": "shape-of-human",
+   "type": "substrate_for"
+  },
+  {
+   "source": "brainchip-akida",
+   "target": "pinocchio-concept",
+   "type": "substrate_for"
+  },
+  {
+   "source": "brainchip-akida",
+   "target": "epitope-concept",
+   "type": "substrate_for"
+  },
+  {
+   "source": "nvidia",
+   "target": "turing",
+   "type": "built_on"
+  },
+  {
+   "source": "amd",
+   "target": "turing",
+   "type": "built_on"
+  },
+  {
+   "source": "brainchip-akida",
+   "target": "turing",
+   "type": "built_on"
+  },
+  {
+   "source": "nvidia",
+   "target": "feynman",
+   "type": "built_on"
+  },
+  {
+   "source": "amd",
+   "target": "feynman",
+   "type": "built_on"
+  },
+  {
+   "source": "brainchip-akida",
+   "target": "feynman",
+   "type": "built_on"
+  },
+  {
+   "source": "nvidia",
+   "target": "hopper",
+   "type": "built_on"
+  },
+  {
+   "source": "amd",
+   "target": "hopper",
+   "type": "built_on"
+  },
+  {
+   "source": "brainchip-akida",
+   "target": "hopper",
+   "type": "built_on"
+  },
+  {
+   "source": "nvidia",
+   "target": "lovelace",
+   "type": "built_on"
+  },
+  {
+   "source": "amd",
+   "target": "lovelace",
+   "type": "built_on"
+  },
+  {
+   "source": "brainchip-akida",
+   "target": "lovelace",
+   "type": "built_on"
+  },
+  {
+   "source": "nvidia",
+   "target": "wozniak",
+   "type": "built_on"
+  },
+  {
+   "source": "amd",
+   "target": "wozniak",
+   "type": "built_on"
+  },
+  {
+   "source": "brainchip-akida",
+   "target": "wozniak",
+   "type": "built_on"
+  },
+  {
+   "source": "nvidia",
+   "target": "torvalds",
+   "type": "built_on"
+  },
+  {
+   "source": "amd",
+   "target": "torvalds",
+   "type": "built_on"
+  },
+  {
+   "source": "brainchip-akida",
+   "target": "torvalds",
+   "type": "built_on"
+  },
+  {
+   "source": "the-silicon-stack",
+   "target": "gme-gamestop",
+   "type": "context_for"
+  },
+  {
+   "source": "the-silicon-stack",
+   "target": "ukraine",
+   "type": "powers_drones"
   }
  ]
 }
