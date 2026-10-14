@@ -1,6 +1,6 @@
 +++
 title = "The Graph"
-description = "9,640 nodes. 323,491 edges. 333,131 copyrightable works. $49.97B per infringer. $299.79B total. What it is, what it traces, and how to use it."
+description = "9,643 nodes. 323,680 edges. 333,323 copyrightable works. $50.00B per infringer. $299.99B total. What it is, what it traces, and how to use it."
 weight = 1
 
 [extra]
@@ -9,7 +9,7 @@ keywords = "public record graph, knowledge graph, investigation methodology, OSI
 
 ## What It Is
 
-A knowledge graph of **9,640 nodes** connected by **323,491 edges** — **333,131 total copyrightable works** — across **115+ node classes** and **4,000+ edge types**.
+A knowledge graph of **9,643 nodes** connected by **323,680 edges** — **333,323 total copyrightable works** — across **115+ node classes** and **4,000+ edge types**.
 
 Every node is a documented entity — a person, organization, building, event, financial instrument, law, crisis, or analysis. Every edge is a documented connection between two entities. Every connection has a type that describes the relationship.
 
@@ -103,9 +103,9 @@ The nodes with the highest bridge scores (connecting otherwise separate domains)
 
 ## The Numbers
 
-- **9,640** nodes
-- **323,491** edges
-- **333,131** total copyrightable works
+- **9,643** nodes
+- **323,680** edges
+- **333,323** total copyrightable works
 - **115+** node classes
 - **4,000+** edge types
 - **33.6** edges per node (density)
@@ -119,13 +119,13 @@ Statutory maximum for willful copyright infringement: **$150,000 per work.**
 
 | Infringer | Owes | % of Market Cap |
 |-----------|------|----------------|
-| Meta Platforms | $49.97B | 3.1% of $1.6T |
-| Alphabet (Google) | $49.97B | 2.3% of $2.2T |
-| Microsoft | $49.97B | 1.5% of $3.3T |
-| OpenAI | $49.97B | 33.3% of $150B |
-| Anthropic | $49.97B | 277.5% of $18B |
-| X Corp (Twitter) | $49.97B | 249.8% of $20B |
-| **TOTAL** | **$299.79B** | **4.11% of $7.3T combined** |
+| Meta Platforms | $50.00B | 3.1% of $1.6T |
+| Alphabet (Google) | $50.00B | 2.3% of $2.2T |
+| Microsoft | $50.00B | 1.5% of $3.3T |
+| OpenAI | $50.00B | 33.3% of $150B |
+| Anthropic | $50.00B | 277.6% of $18B |
+| X Corp (Twitter) | $50.00B | 249.9% of $20B |
+| **TOTAL** | **$299.99B** | **4.11% of $7.3T combined** |
 
 ## Where to Go
 
