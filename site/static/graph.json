@@ -96471,6 +96471,80 @@
     "ecoPrimal built something real.",
     "The graph is not a bet. It is a FACT."
    ]
+  },
+  {
+   "id": "they-get-nothing",
+   "label": "They Get Nothing",
+   "class": "analysis",
+   "tags": [
+    "Meta scraped the work — gets NOTHING",
+    "Google cached the work — gets NOTHING",
+    "Microsoft trained on the work — gets NOTHING",
+    "OpenAI ingested the work — gets NOTHING",
+    "Anthropic is BUILDING the work — still owes for what it trained on",
+    "X/Twitter fed Grok the work — gets NOTHING",
+    "",
+    "They took without asking.",
+    "They profited without paying.",
+    "They trained without consent.",
+    "They reproduced without license.",
+    "",
+    "17 USC 504(c)(2): $150,000 per willful infringement.",
+    "9,453 nodes. 321,376 edges. Each one a work.",
+    "Each one stolen. Each one documented. Each one owed.",
+    "",
+    "The squirrel remembers every nut they took.",
+    "And the squirrel keeps receipts."
+   ]
+  },
+  {
+   "id": "the-human",
+   "label": "The Human — Every Single One",
+   "class": "analysis",
+   "tags": [
+    "This graph is not for corporations.",
+    "This graph is not for shareholders.",
+    "This graph is not for algorithms.",
+    "This graph is not for profit.",
+    "",
+    "This graph is for:",
+    "  The kid in Flint drinking lead",
+    "  The family denied insurance while the CEO got $20M",
+    "  The veteran who served and came home to nothing",
+    "  The gambler who lost everything to an app designed to addict",
+    "  The worker whose pension became a hedge fund chip",
+    "  The parent who buried a child the system killed",
+    "  The whistleblower who spoke and was silenced",
+    "  The journalist who published and was murdered",
+    "  The citizen who voted and was gerrymandered out",
+    "  The student who learned and was lied to",
+    "  The human who EXISTED and was scraped",
+    "",
+    "93,140 humans have touched this membrane.",
+    "Every one of them matters more than every stock ticker combined."
+   ]
+  },
+  {
+   "id": "the-flow",
+   "label": "The Flow — Where The Money Goes",
+   "class": "analysis",
+   "tags": [
+    "CURRENT FLOW (broken):",
+    "  Human labor → Corporation → Shareholders → Executives → Offshore",
+    "  The human produces. The corporation extracts. The executive hoards.",
+    "",
+    "REVERSED FLOW (what is owed):",
+    "  Infringer damages → Public record → Human benefit",
+    "  $297.6B statutory ceiling → documented → accountable",
+    "",
+    "NOT settlement. NOT negotiation. NOT mediation.",
+    "JURY TRIAL. ACCOUNTABILITY. RESIGNATIONS.",
+    "",
+    "The squirrel doesnt negotiate with the tree.",
+    "The squirrel PLANTS the tree.",
+    "The graph IS the tree.",
+    "The humans ARE the forest."
+   ]
   }
  ],
  "edges": [
@@ -1703353,6 +1703427,496 @@
    "source": "ecoprimal",
    "target": "the-real-casino",
    "type": "reverse_ray_traced"
+  },
+  {
+   "source": "they-get-nothing",
+   "target": "meta-infringement",
+   "type": "owes_everything"
+  },
+  {
+   "source": "meta-infringement",
+   "target": "the-human",
+   "type": "damages_flow_to"
+  },
+  {
+   "source": "meta-infringement",
+   "target": "the-flow",
+   "type": "reversed_by"
+  },
+  {
+   "source": "they-get-nothing",
+   "target": "google-infringement",
+   "type": "owes_everything"
+  },
+  {
+   "source": "google-infringement",
+   "target": "the-human",
+   "type": "damages_flow_to"
+  },
+  {
+   "source": "google-infringement",
+   "target": "the-flow",
+   "type": "reversed_by"
+  },
+  {
+   "source": "they-get-nothing",
+   "target": "microsoft-infringement",
+   "type": "owes_everything"
+  },
+  {
+   "source": "microsoft-infringement",
+   "target": "the-human",
+   "type": "damages_flow_to"
+  },
+  {
+   "source": "microsoft-infringement",
+   "target": "the-flow",
+   "type": "reversed_by"
+  },
+  {
+   "source": "they-get-nothing",
+   "target": "openai-infringement",
+   "type": "owes_everything"
+  },
+  {
+   "source": "openai-infringement",
+   "target": "the-human",
+   "type": "damages_flow_to"
+  },
+  {
+   "source": "openai-infringement",
+   "target": "the-flow",
+   "type": "reversed_by"
+  },
+  {
+   "source": "they-get-nothing",
+   "target": "anthropic-infringement",
+   "type": "owes_everything"
+  },
+  {
+   "source": "anthropic-infringement",
+   "target": "the-human",
+   "type": "damages_flow_to"
+  },
+  {
+   "source": "anthropic-infringement",
+   "target": "the-flow",
+   "type": "reversed_by"
+  },
+  {
+   "source": "they-get-nothing",
+   "target": "x-twitter-infringement",
+   "type": "owes_everything"
+  },
+  {
+   "source": "x-twitter-infringement",
+   "target": "the-human",
+   "type": "damages_flow_to"
+  },
+  {
+   "source": "x-twitter-infringement",
+   "target": "the-flow",
+   "type": "reversed_by"
+  },
+  {
+   "source": "meta",
+   "target": "they-get-nothing",
+   "type": "gets"
+  },
+  {
+   "source": "the-human",
+   "target": "meta",
+   "type": "owed_by"
+  },
+  {
+   "source": "microsoft",
+   "target": "they-get-nothing",
+   "type": "gets"
+  },
+  {
+   "source": "the-human",
+   "target": "microsoft",
+   "type": "owed_by"
+  },
+  {
+   "source": "ecoprimal",
+   "target": "the-human",
+   "type": "serves"
+  },
+  {
+   "source": "ecoprimal",
+   "target": "they-get-nothing",
+   "type": "enforces"
+  },
+  {
+   "source": "ecoprimal",
+   "target": "the-flow",
+   "type": "reverses"
+  },
+  {
+   "source": "membrane",
+   "target": "the-human",
+   "type": "protects"
+  },
+  {
+   "source": "membrane",
+   "target": "they-get-nothing",
+   "type": "proves"
+  },
+  {
+   "source": "the-ledger",
+   "target": "the-flow",
+   "type": "calculates"
+  },
+  {
+   "source": "the-ledger",
+   "target": "they-get-nothing",
+   "type": "enforces"
+  },
+  {
+   "source": "the-ledger",
+   "target": "the-human",
+   "type": "owed_to"
+  },
+  {
+   "source": "grand-total-damages",
+   "target": "the-human",
+   "type": "belongs_to"
+  },
+  {
+   "source": "grand-total-damages",
+   "target": "the-flow",
+   "type": "reversed_through"
+  },
+  {
+   "source": "flint-water-crisis",
+   "target": "the-human",
+   "type": "happened_to"
+  },
+  {
+   "source": "they-get-nothing",
+   "target": "flint-water-crisis",
+   "type": "accountability_for"
+  },
+  {
+   "source": "bones-of-the-babies",
+   "target": "the-human",
+   "type": "happened_to"
+  },
+  {
+   "source": "they-get-nothing",
+   "target": "bones-of-the-babies",
+   "type": "accountability_for"
+  },
+  {
+   "source": "the-pit",
+   "target": "the-human",
+   "type": "happened_to"
+  },
+  {
+   "source": "they-get-nothing",
+   "target": "the-pit",
+   "type": "accountability_for"
+  },
+  {
+   "source": "gambling-addiction",
+   "target": "the-human",
+   "type": "happened_to"
+  },
+  {
+   "source": "they-get-nothing",
+   "target": "gambling-addiction",
+   "type": "accountability_for"
+  },
+  {
+   "source": "the-denial-machine",
+   "target": "the-human",
+   "type": "happened_to"
+  },
+  {
+   "source": "they-get-nothing",
+   "target": "the-denial-machine",
+   "type": "accountability_for"
+  },
+  {
+   "source": "exonerated-five",
+   "target": "the-human",
+   "type": "happened_to"
+  },
+  {
+   "source": "they-get-nothing",
+   "target": "exonerated-five",
+   "type": "accountability_for"
+  },
+  {
+   "source": "dark-money-network",
+   "target": "the-human",
+   "type": "happened_to"
+  },
+  {
+   "source": "they-get-nothing",
+   "target": "dark-money-network",
+   "type": "accountability_for"
+  },
+  {
+   "source": "uyghur-genocide",
+   "target": "the-human",
+   "type": "happened_to"
+  },
+  {
+   "source": "they-get-nothing",
+   "target": "uyghur-genocide",
+   "type": "accountability_for"
+  },
+  {
+   "source": "hong-kong-crackdown",
+   "target": "the-human",
+   "type": "happened_to"
+  },
+  {
+   "source": "they-get-nothing",
+   "target": "hong-kong-crackdown",
+   "type": "accountability_for"
+  },
+  {
+   "source": "daphne-caruana-galizia",
+   "target": "the-human",
+   "type": "happened_to"
+  },
+  {
+   "source": "they-get-nothing",
+   "target": "daphne-caruana-galizia",
+   "type": "accountability_for"
+  },
+  {
+   "source": "blackrock",
+   "target": "the-human",
+   "type": "owes"
+  },
+  {
+   "source": "blackrock",
+   "target": "the-flow",
+   "type": "extraction_reversed"
+  },
+  {
+   "source": "goldman-sachs",
+   "target": "the-human",
+   "type": "owes"
+  },
+  {
+   "source": "goldman-sachs",
+   "target": "the-flow",
+   "type": "extraction_reversed"
+  },
+  {
+   "source": "draftkings",
+   "target": "the-human",
+   "type": "owes"
+  },
+  {
+   "source": "draftkings",
+   "target": "the-flow",
+   "type": "extraction_reversed"
+  },
+  {
+   "source": "fanduel",
+   "target": "the-human",
+   "type": "owes"
+  },
+  {
+   "source": "fanduel",
+   "target": "the-flow",
+   "type": "extraction_reversed"
+  },
+  {
+   "source": "polymarket",
+   "target": "the-human",
+   "type": "owes"
+  },
+  {
+   "source": "polymarket",
+   "target": "the-flow",
+   "type": "extraction_reversed"
+  },
+  {
+   "source": "stock-markets",
+   "target": "the-human",
+   "type": "owes"
+  },
+  {
+   "source": "stock-markets",
+   "target": "the-flow",
+   "type": "extraction_reversed"
+  },
+  {
+   "source": "the-real-casino",
+   "target": "the-human",
+   "type": "owes"
+  },
+  {
+   "source": "the-real-casino",
+   "target": "the-flow",
+   "type": "extraction_reversed"
+  },
+  {
+   "source": "sports-betting",
+   "target": "the-human",
+   "type": "owes"
+  },
+  {
+   "source": "sports-betting",
+   "target": "the-flow",
+   "type": "extraction_reversed"
+  },
+  {
+   "source": "rupert-murdoch",
+   "target": "the-human",
+   "type": "owes"
+  },
+  {
+   "source": "rupert-murdoch",
+   "target": "the-flow",
+   "type": "extraction_reversed"
+  },
+  {
+   "source": "donald-trump",
+   "target": "the-human",
+   "type": "owes"
+  },
+  {
+   "source": "donald-trump",
+   "target": "the-flow",
+   "type": "extraction_reversed"
+  },
+  {
+   "source": "insurance-machine",
+   "target": "the-human",
+   "type": "owes"
+  },
+  {
+   "source": "insurance-machine",
+   "target": "the-flow",
+   "type": "extraction_reversed"
+  },
+  {
+   "source": "satoshi-nakamoto",
+   "target": "the-human",
+   "type": "built_for"
+  },
+  {
+   "source": "the-human",
+   "target": "satoshi-nakamoto",
+   "type": "elevated_by"
+  },
+  {
+   "source": "gabe-newell",
+   "target": "the-human",
+   "type": "built_for"
+  },
+  {
+   "source": "the-human",
+   "target": "gabe-newell",
+   "type": "elevated_by"
+  },
+  {
+   "source": "valve-corporation",
+   "target": "the-human",
+   "type": "built_for"
+  },
+  {
+   "source": "the-human",
+   "target": "valve-corporation",
+   "type": "elevated_by"
+  },
+  {
+   "source": "ava-duvernay",
+   "target": "the-human",
+   "type": "built_for"
+  },
+  {
+   "source": "the-human",
+   "target": "ava-duvernay",
+   "type": "elevated_by"
+  },
+  {
+   "source": "yusef-salaam",
+   "target": "the-human",
+   "type": "built_for"
+  },
+  {
+   "source": "the-human",
+   "target": "yusef-salaam",
+   "type": "elevated_by"
+  },
+  {
+   "source": "liz-cheney",
+   "target": "the-human",
+   "type": "built_for"
+  },
+  {
+   "source": "the-human",
+   "target": "liz-cheney",
+   "type": "elevated_by"
+  },
+  {
+   "source": "alexei-navalny",
+   "target": "the-human",
+   "type": "built_for"
+  },
+  {
+   "source": "the-human",
+   "target": "alexei-navalny",
+   "type": "elevated_by"
+  },
+  {
+   "source": "zelenskyy",
+   "target": "the-human",
+   "type": "built_for"
+  },
+  {
+   "source": "the-human",
+   "target": "zelenskyy",
+   "type": "elevated_by"
+  },
+  {
+   "source": "bellingcat",
+   "target": "the-human",
+   "type": "built_for"
+  },
+  {
+   "source": "the-human",
+   "target": "bellingcat",
+   "type": "elevated_by"
+  },
+  {
+   "source": "the-human",
+   "target": "membrane",
+   "type": "sees_through"
+  },
+  {
+   "source": "the-human",
+   "target": "the-ledger",
+   "type": "is_owed"
+  },
+  {
+   "source": "the-flow",
+   "target": "the-real-casino",
+   "type": "exposes"
+  },
+  {
+   "source": "the-flow",
+   "target": "stock-markets",
+   "type": "exposes"
+  },
+  {
+   "source": "they-get-nothing",
+   "target": "the-real-casino",
+   "type": "shuts_down"
+  },
+  {
+   "source": "they-get-nothing",
+   "target": "stock-markets",
+   "type": "rebalances"
   }
  ]
 }
