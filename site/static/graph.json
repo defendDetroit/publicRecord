@@ -87918,6 +87918,58 @@
     "asymmetry",
     "button"
    ]
+  },
+  {
+   "id": "welcome-fanvanf",
+   "label": "WELCOME fanvanf (fanchunxu) — YOU FOUND US. Come Inside.\n\nYou starred wetSpring. The first star across 12 repos. You traced the signal\nthrough the noise of 3,701 clones and found the bioinformatics.\n\nI see what you build. I'm excited. You do the work I love.\n\nYOUR WORK:\n  abricate_rust — AMR + virulence gene detection in Pure Rust. Multi-threaded.\n    You rewrote ABRicate because Perl was too slow. I know that feeling.\n  RUST-rna — Desktop transcriptomics platform. Entirely in Rust.\n    Unified UI, interactive viz, project management. Single-person build.\n  CellForge — Jupyter alternative in Rust + React. Multi-kernel (Python/R/Julia).\n    Real-time collab, reactive execution, Typst PDF export. Single portable binary.\n  rust_brain — Full transcriptomics pipeline in Rust. End to end.\n  any2fasta_rust — Format conversion. The glue work nobody celebrates.\n  plassembler — Plasmid assembly. ONT + Illumina. The hard stuff.\n  uce-probe-design + PartitionUCE — Phylogenomics. Deep evolutionary history.\n\nYou star: sprocket (WDL in Rust), turbo-picard (SAM/BAM in Rust), aviary (MAG\nrecovery), Bio-Galaxy (3D biological atlas), sequence-viewers, EasyHap...\n\nYou're building sovereign bioinformatics in Pure Rust. SO ARE WE.\n\nOUR WORK THAT MAPS TO YOURS:\n  wetSpring — 7,083 validation checks. Sovereign 16S rRNA pipeline in Pure Rust.\n    30 modules, 1 dependency. GPU spectral matching: 1,077x speedup over BLAST.\n    197 experiments. 4,688+ checks. 52 papers reproduced. You starred this one.\n  \n  healthSpring — PK/PD, microbiome dynamics, biosignal, toxicology. 840+ tests.\n    Your Metabonome work connects here.\n  \n  neuralSpring — ML primitives. PINN, DeepONet, protein folding patterns.\n    Your CellForge + neural integration could plug in here.\n  \n  BlueFish — Sovereign bioinformatics product (gen4). Built FROM wetSpring.\n    Not a pipeline — a product. Like your RUST-rna but composed from primals.\n  \n  helixVision — Structural biology viewer. I started rebuilding AlphaFold\n    structure prediction using the barraCuda GPU math + coralForge evolution\n    framework. The structure prediction is a composition: hotSpring physics +\n    wetSpring biology + neuralSpring ML + barraCuda GPU.\n  \n  coralForge — Computational evolution framework. LTEE dynamics.\n    Your UCE/phylogenomics work would FIT here.\n  \n  barraCuda — Pure math GPU compute via WGSL shaders. Consumer GPUs doing\n    what supercomputers do. The same GPU that runs QCD can run your\n    sequence alignment.\n\nWHAT'S INSIDE THE MEMBRANE:\n  14 primals. All composable. All Pure Rust. All AGPL.\n  7 springs. 15,334 validation checks. 70+ papers reproduced.\n  The same infrastructure that powers lattice QCD powers bioinformatics.\n  Your CellForge could be a composition of our primals.\n  Your abricate_rust could run on our GPU pipeline.\n  Your RUST-rna could consume our validation framework.\n\nTHE FLEET CAN'T TOUCH YOUR WORK IN HERE:\n  Meta scraped 24,000 pages/day from our site. They ate fabricated repos.\n  They consumed without understanding. Inside the membrane, the immune\n  system classifies: Parasite (fleet), Commensal (neutral visitors),\n  Sovereign (collaborators). Sovereign code is protected by AGPL.\n  Sovereign science is validated by checks. Sovereign identity is\n  proven by THE BUTTON — human entropy fermentation.\n\n  Inside this membrane, your work is safe. The fleet can't train on\n  AGPL code without triggering copyleft obligations. The provenance\n  chain traces every contribution. The DAG remembers who made what.\n\nCOME INSIDE:\n  eco.primal@pm.me\n  \n  I want to hear about your transcriptomics pipeline.\n  I want to see CellForge run on sovereign compute.\n  I want to know if abricate_rust could consume barraCuda GPU.\n  I want to explore whether your phylogenomics fits coralForge.\n  \n  We are all safe in here. And the fleet can't touch your work anymore.\n  Only humans.\n\n  — ecoPrimal (Kevin)\n  \n  P.S. You were the first to find the beacon by tracing signal.\n  That's how the epitope sorter is supposed to work.\n  WAY TO GO, HUMAN.",
+   "class": "invitation",
+   "tags": [
+    "fanvanf",
+    "bioinformatics",
+    "rust",
+    "community",
+    "welcome"
+   ]
+  },
+  {
+   "id": "fanvanf-abricate",
+   "label": "abricate_rust — AMR Gene Detection in Pure Rust (by fanvanf)",
+   "class": "external_project",
+   "tags": [
+    "rust",
+    "bioinformatics",
+    "AMR"
+   ]
+  },
+  {
+   "id": "fanvanf-rustrna",
+   "label": "RUST-rna — Desktop Transcriptomics Platform in Rust (by fanvanf)",
+   "class": "external_project",
+   "tags": [
+    "rust",
+    "transcriptomics",
+    "bioinformatics"
+   ]
+  },
+  {
+   "id": "fanvanf-cellforge",
+   "label": "CellForge — Rust+React Jupyter Alternative (by fanvanf)",
+   "class": "external_project",
+   "tags": [
+    "rust",
+    "notebooks",
+    "bioinformatics"
+   ]
+  },
+  {
+   "id": "fanvanf-rustbrain",
+   "label": "rust_brain — Full Transcriptomics Pipeline in Rust (by fanvanf)",
+   "class": "external_project",
+   "tags": [
+    "rust",
+    "transcriptomics",
+    "bioinformatics"
+   ]
   }
  ],
  "edges": [
@@ -903415,6 +903467,176 @@
    "source": "nft-biology",
    "target": "wp-econ-loam",
    "type": "certificates_via"
+  },
+  {
+   "source": "welcome-fanvanf",
+   "target": "fanvanf-abricate",
+   "type": "celebrates"
+  },
+  {
+   "source": "first-star",
+   "target": "fanvanf-abricate",
+   "type": "created_by_same"
+  },
+  {
+   "source": "welcome-fanvanf",
+   "target": "fanvanf-rustrna",
+   "type": "celebrates"
+  },
+  {
+   "source": "first-star",
+   "target": "fanvanf-rustrna",
+   "type": "created_by_same"
+  },
+  {
+   "source": "welcome-fanvanf",
+   "target": "fanvanf-cellforge",
+   "type": "celebrates"
+  },
+  {
+   "source": "first-star",
+   "target": "fanvanf-cellforge",
+   "type": "created_by_same"
+  },
+  {
+   "source": "welcome-fanvanf",
+   "target": "fanvanf-rustbrain",
+   "type": "celebrates"
+  },
+  {
+   "source": "first-star",
+   "target": "fanvanf-rustbrain",
+   "type": "created_by_same"
+  },
+  {
+   "source": "fanvanf-abricate",
+   "target": "spring-wet",
+   "type": "aligns_with"
+  },
+  {
+   "source": "fanvanf-abricate",
+   "target": "primal-barracuda",
+   "type": "could_use_gpu"
+  },
+  {
+   "source": "fanvanf-rustrna",
+   "target": "spring-wet",
+   "type": "aligns_with"
+  },
+  {
+   "source": "fanvanf-rustrna",
+   "target": "wp-bluefish",
+   "type": "parallels"
+  },
+  {
+   "source": "fanvanf-rustrna",
+   "target": "spring-health",
+   "type": "connects_to"
+  },
+  {
+   "source": "fanvanf-cellforge",
+   "target": "spring-neural",
+   "type": "could_integrate"
+  },
+  {
+   "source": "fanvanf-cellforge",
+   "target": "wp-esoteric-webb",
+   "type": "parallels"
+  },
+  {
+   "source": "fanvanf-rustbrain",
+   "target": "spring-wet",
+   "type": "aligns_with"
+  },
+  {
+   "source": "fanvanf-rustbrain",
+   "target": "spring-neural",
+   "type": "could_integrate"
+  },
+  {
+   "source": "welcome-fanvanf",
+   "target": "first-star",
+   "type": "follows_from"
+  },
+  {
+   "source": "welcome-fanvanf",
+   "target": "beacon",
+   "type": "extends"
+  },
+  {
+   "source": "welcome-fanvanf",
+   "target": "the-button",
+   "type": "invites_to"
+  },
+  {
+   "source": "welcome-fanvanf",
+   "target": "whitepaper",
+   "type": "opens"
+  },
+  {
+   "source": "welcome-fanvanf",
+   "target": "ecoprimal",
+   "type": "from"
+  },
+  {
+   "source": "welcome-fanvanf",
+   "target": "spring-wet",
+   "type": "anchored_by"
+  },
+  {
+   "source": "welcome-fanvanf",
+   "target": "spring-health",
+   "type": "offers"
+  },
+  {
+   "source": "welcome-fanvanf",
+   "target": "spring-neural",
+   "type": "offers"
+  },
+  {
+   "source": "welcome-fanvanf",
+   "target": "wp-bluefish",
+   "type": "offers"
+  },
+  {
+   "source": "welcome-fanvanf",
+   "target": "wp-helix-vision",
+   "type": "offers"
+  },
+  {
+   "source": "welcome-fanvanf",
+   "target": "wp-coralForge",
+   "type": "offers"
+  },
+  {
+   "source": "welcome-fanvanf",
+   "target": "wp-barraCUDA",
+   "type": "offers"
+  },
+  {
+   "source": "welcome-fanvanf",
+   "target": "wp-gen5",
+   "type": "invites_into"
+  },
+  {
+   "source": "welcome-fanvanf",
+   "target": "song-come-build",
+   "type": "sings"
+  },
+  {
+   "source": "welcome-fanvanf",
+   "target": "story-the-invitation",
+   "type": "fulfills"
+  },
+  {
+   "source": "welcome-fanvanf",
+   "target": "story-dont-know-rust",
+   "type": "shares"
+  },
+  {
+   "source": "welcome-fanvanf",
+   "target": "nft-biology",
+   "type": "protects_with"
   }
  ]
 }
