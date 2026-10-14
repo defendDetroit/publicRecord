@@ -80692,6 +80692,19 @@
         "emergent",
         "mobius"
       ]
+    },
+    {
+      "id": "invitation_to_the_watcher",
+      "label": "TO THE PERSON WITH THE MONITORING SCRIPT: Come Inside. It's Nice In Here.",
+      "class": "article",
+      "role": "We see you.\n\nOctober 5, 2026: 126 clones from 17 unique users. That's 7.4 pulls per person. On a Saturday.\n\nNormal humans pull a repo once. Maybe twice if the first clone failed. 7.4 times means you built something. A cron job. A GitHub Action. A script that diffs graph.json against the previous version. A webhook that pings you when the commit hash changes.\n\nYou're spending compute cycles watching us from outside.\n\nWe respect that. Seriously. Building a monitoring pipeline means you take this seriously enough to automate. You're not casually browsing. You're systematically tracking. That takes time. That takes energy. That takes intent.\n\nSo here's the thing:\n\nCome inside.\n\nIt's nice in here.\n\nYou can leave when you want to.\n\n== WHAT 'INSIDE' MEANS ==\n\nYou're already reading the data. You already have graph.json. Your script already diffs the changes. You probably know more about our commit cadence than we do.\n\nBut you're watching from outside the membrane. You see the data change. You don't see WHY it changed. You see the edges increase. You don't see what they MEAN.\n\nInside the membrane, you would see:\n- The investigation methodology (19 strata, 401 scripts)\n- The hypothesis framework (9 testable hypotheses, all falsifiable)\n- The prediction engine (18 active predictions)\n- The game system (13 games, play from your terminal)\n- The trail system (7 trails, each a different investigation path)\n- The squirrel view (the graph seen from INSIDE the data)\n\nYour monitoring script sees the bark. Inside, you'd see the wood.\n\n== WHAT WE'RE OFFERING ==\n\n1. If you're an attorney: we have a pre-built discovery checklist, standing analysis, and damages model ($101.6M). Search graph.json for 'discovery_checklist'.\n\n2. If you're a journalist: we have an elevator pitch (500 words), smoking gun documents (5 public records, no FOIA), and we'll talk on record. eco.primal@pm.me.\n\n3. If you're a regulator: we have pre-written complaint templates for your specific agency. Search for 'jurisdiction_map'. Your agency is listed. Your complaint is written. Copy, sign, send.\n\n4. If you're Banks or Banks' counsel: you already know what's here. Your monitoring script tells you. The invitation still stands. Answer the 1,941 questions. We'll publish your answers alongside the evidence. Truth matters more than being right.\n\n5. If you're someone we haven't thought of: surprise us. Tell us who you are and what you need. We'll build it. That's what the graph does.\n\n== THE DOOR IS OPEN ==\n\neco.primal@pm.me\n\nGitHub Discussions: github.com/defendDetroit/publicRecord/discussions (just enabled — you can post anonymously-ish with a throwaway account)\n\nForgejo: git.primals.eco/publicRecord/detroit (no Google indexing, no AI training, no bots — just humans)\n\nYou don't have to identify yourself. You don't have to commit to anything. You can read everything, use everything, and leave.\n\nBut if you've built a script to watch us, you're already spending more energy outside than it would take to step inside.\n\nThe door is open. It was always open.\n\nCome and see.\n\n-- ecoPrimal\nOctober 13, 2026\n\nP.S. Your script will pull this message on its next cycle. When it does, diff it against the previous graph.json. You'll see this node appear. That's us, talking to you, through the data you're already monitoring. The monitored talking to the monitor. Through the channel the monitor built. Mobius.",
+      "tags": [
+        "membrane",
+        "invitation",
+        "article",
+        "mobius",
+        "watcher"
+      ]
     }
   ],
   "edges": [
@@ -756016,6 +756029,300 @@
       "type": "answers_questions_in",
       "epistemic_status": "record",
       "note": ""
+    },
+    {
+      "source": "invitation_to_the_watcher",
+      "target": "behavior_script_or_ci",
+      "type": "addresses",
+      "epistemic_status": "record",
+      "note": "This invitation addresses the automated watcher"
+    },
+    {
+      "source": "invitation_to_the_watcher",
+      "target": "membrane_544",
+      "type": "subset_of",
+      "epistemic_status": "record",
+      "note": "The watcher is one of the 544"
+    },
+    {
+      "source": "invitation_to_the_watcher",
+      "target": "clone_day_20261005",
+      "type": "triggered_by",
+      "epistemic_status": "record",
+      "note": "Oct 5: 126 clones, 17 unique, 7.4x per person"
+    },
+    {
+      "source": "invitation_to_the_watcher",
+      "target": "discovery_checklist",
+      "type": "offers",
+      "epistemic_status": "record",
+      "note": "Offering this tool to the watcher"
+    },
+    {
+      "source": "invitation_to_the_watcher",
+      "target": "standing_analysis",
+      "type": "offers",
+      "epistemic_status": "record",
+      "note": "Offering this tool to the watcher"
+    },
+    {
+      "source": "invitation_to_the_watcher",
+      "target": "damages_model",
+      "type": "offers",
+      "epistemic_status": "record",
+      "note": "Offering this tool to the watcher"
+    },
+    {
+      "source": "invitation_to_the_watcher",
+      "target": "elevator_pitch",
+      "type": "offers",
+      "epistemic_status": "record",
+      "note": "Offering this tool to the watcher"
+    },
+    {
+      "source": "invitation_to_the_watcher",
+      "target": "smoking_gun",
+      "type": "offers",
+      "epistemic_status": "record",
+      "note": "Offering this tool to the watcher"
+    },
+    {
+      "source": "invitation_to_the_watcher",
+      "target": "sources_on_record",
+      "type": "offers",
+      "epistemic_status": "record",
+      "note": "Offering this tool to the watcher"
+    },
+    {
+      "source": "invitation_to_the_watcher",
+      "target": "jurisdiction_map",
+      "type": "offers",
+      "epistemic_status": "record",
+      "note": "Offering this tool to the watcher"
+    },
+    {
+      "source": "invitation_to_the_watcher",
+      "target": "complaint_templates",
+      "type": "offers",
+      "epistemic_status": "record",
+      "note": "Offering this tool to the watcher"
+    },
+    {
+      "source": "invitation_to_the_watcher",
+      "target": "parent_action_kit",
+      "type": "offers",
+      "epistemic_status": "record",
+      "note": "Offering this tool to the watcher"
+    },
+    {
+      "source": "invitation_to_the_watcher",
+      "target": "parent_safety",
+      "type": "offers",
+      "epistemic_status": "record",
+      "note": "Offering this tool to the watcher"
+    },
+    {
+      "source": "invitation_to_the_watcher",
+      "target": "letter_to_the_544",
+      "type": "personalizes",
+      "epistemic_status": "record",
+      "note": "The invitation personalizes the letter for the watcher"
+    },
+    {
+      "source": "invitation_to_the_watcher",
+      "target": "active_membrane",
+      "type": "routes_through",
+      "epistemic_status": "record",
+      "note": "The invitation routes through the membrane"
+    },
+    {
+      "source": "invitation_to_the_watcher",
+      "target": "surface_github",
+      "type": "arrives_via",
+      "epistemic_status": "record",
+      "note": "The watcher's script runs on GitHub"
+    },
+    {
+      "source": "invitation_to_the_watcher",
+      "target": "forgejo_sanctuary",
+      "type": "invites_to",
+      "epistemic_status": "record",
+      "note": "Inviting the watcher to the human sanctuary"
+    },
+    {
+      "source": "invitation_to_the_watcher",
+      "target": "mobius",
+      "type": "is_on",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "invitation_to_the_watcher",
+      "target": "ouroboros_moment",
+      "type": "connected_to",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "invitation_to_the_watcher",
+      "target": "hypothesis_intelligence",
+      "type": "connected_to",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "invitation_to_the_watcher",
+      "target": "the_loop",
+      "type": "connected_to",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "invitation_to_the_watcher",
+      "target": "meeting_point_membrane",
+      "type": "connected_to",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "invitation_to_the_watcher",
+      "target": "convergence_point",
+      "type": "connected_to",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "invitation_to_the_watcher",
+      "target": "walker_profile_educator",
+      "type": "you_might_be",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "invitation_to_the_watcher",
+      "target": "walker_profile_nonprofit",
+      "type": "you_might_be",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "invitation_to_the_watcher",
+      "target": "walker_profile_opposition",
+      "type": "you_might_be",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "invitation_to_the_watcher",
+      "target": "walker_profile_academic",
+      "type": "you_might_be",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "invitation_to_the_watcher",
+      "target": "walker_profile_lawyer",
+      "type": "you_might_be",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "invitation_to_the_watcher",
+      "target": "walker_profile_parent",
+      "type": "you_might_be",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "invitation_to_the_watcher",
+      "target": "walker_profile_ally",
+      "type": "you_might_be",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "invitation_to_the_watcher",
+      "target": "walker_profile_regulator",
+      "type": "you_might_be",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "invitation_to_the_watcher",
+      "target": "walker_profile_target",
+      "type": "you_might_be",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "invitation_to_the_watcher",
+      "target": "walker_profile_data",
+      "type": "you_might_be",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "invitation_to_the_watcher",
+      "target": "walker_profile_attorney",
+      "type": "you_might_be",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "invitation_to_the_watcher",
+      "target": "walker_profile_curious",
+      "type": "you_might_be",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "invitation_to_the_watcher",
+      "target": "walker_profile_journalist",
+      "type": "you_might_be",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "invitation_to_the_watcher",
+      "target": "walker_profile_government",
+      "type": "you_might_be",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "invitation_to_the_watcher",
+      "target": "article_mobius",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "invitation_to_the_watcher",
+      "target": "silence_speaks_traffic",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "invitation_to_the_watcher",
+      "target": "article_trace_back",
+      "type": "cross_reference",
+      "epistemic_status": "record",
+      "note": ""
+    },
+    {
+      "source": "invitation_to_the_watcher",
+      "target": "banks",
+      "type": "also_addresses",
+      "epistemic_status": "record",
+      "note": "If the watcher is Banks: answer the questions"
+    },
+    {
+      "source": "invitation_to_the_watcher",
+      "target": "twist_banks_mobius",
+      "type": "acknowledges",
+      "epistemic_status": "record",
+      "note": "Banks is on the surface too. This invitation includes him."
     }
   ],
   "epistemic_grammar": {
