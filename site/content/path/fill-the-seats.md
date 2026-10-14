@@ -42,7 +42,7 @@ These seats are open RIGHT NOW. The deadline is **October 23, 2026 at 5:00 PM.**
 
 ### 1B. DPSCD School Board — Write-In (5 of 7 seats, 35 candidates)
 
-**Why it matters:** 48,271 students. Michigan's largest district. New majority. Controls whether PCA's charter gets reviewed.
+**Why it matters:** 49,643 students. Michigan's largest district. New majority. Controls whether PCA's charter gets reviewed.
 
 **Who can run as write-in:** Registered voter in the Detroit Public Schools Community District. Age 18+. U.S. citizen.
 
