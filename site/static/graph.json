@@ -1697482,6 +1697482,461 @@
    "source": "the-billboard",
    "target": "nine-eleven-saudi",
    "type": "artisan_displays"
+  },
+  {
+   "source": "lehman-brothers",
+   "target": "bear-stearns",
+   "type": "temporal_braid"
+  },
+  {
+   "source": "lehman-brothers",
+   "target": "aig-bailout",
+   "type": "temporal_braid"
+  },
+  {
+   "source": "lehman-brothers",
+   "target": "tarp",
+   "type": "temporal_braid"
+  },
+  {
+   "source": "bear-stearns",
+   "target": "aig-bailout",
+   "type": "temporal_braid"
+  },
+  {
+   "source": "bear-stearns",
+   "target": "tarp",
+   "type": "temporal_braid"
+  },
+  {
+   "source": "trump-tower-meeting",
+   "target": "gru-unit-26165",
+   "type": "temporal_braid"
+  },
+  {
+   "source": "trump-tower-meeting",
+   "target": "wikileaks-russian-conduit",
+   "type": "temporal_braid"
+  },
+  {
+   "source": "trump-tower-meeting",
+   "target": "panama-papers",
+   "type": "temporal_braid"
+  },
+  {
+   "source": "gru-unit-26165",
+   "target": "panama-papers",
+   "type": "temporal_braid"
+  },
+  {
+   "source": "wikileaks-russian-conduit",
+   "target": "panama-papers",
+   "type": "temporal_braid"
+  },
+  {
+   "source": "january-6th",
+   "target": "the-big-lie",
+   "type": "temporal_braid"
+  },
+  {
+   "source": "january-6th",
+   "target": "alexei-navalny",
+   "type": "temporal_braid"
+  },
+  {
+   "source": "jan6-speech",
+   "target": "alexei-navalny",
+   "type": "temporal_braid"
+  },
+  {
+   "source": "the-big-lie",
+   "target": "alexei-navalny",
+   "type": "temporal_braid"
+  },
+  {
+   "source": "terra-luna",
+   "target": "hong-kong-crackdown",
+   "type": "temporal_braid"
+  },
+  {
+   "source": "ftx-collapse",
+   "target": "hong-kong-crackdown",
+   "type": "temporal_braid"
+  },
+  {
+   "source": "jan6-pardons",
+   "target": "melania-coin",
+   "type": "temporal_braid"
+  },
+  {
+   "source": "jan6-pardons",
+   "target": "project-2025",
+   "type": "temporal_braid"
+  },
+  {
+   "source": "trump-coin",
+   "target": "project-2025",
+   "type": "temporal_braid"
+  },
+  {
+   "source": "melania-coin",
+   "target": "project-2025",
+   "type": "temporal_braid"
+  },
+  {
+   "source": "peng-shuai",
+   "target": "ava-duvernay",
+   "type": "artisan_women_who_stood"
+  },
+  {
+   "source": "ruby-freeman-shaye-moss",
+   "target": "megyn-kelly",
+   "type": "artisan_women_who_stood"
+  },
+  {
+   "source": "megyn-kelly",
+   "target": "liz-cheney",
+   "type": "artisan_women_who_stood"
+  },
+  {
+   "source": "megyn-kelly",
+   "target": "officer-caroline-edwards",
+   "type": "artisan_women_who_stood"
+  },
+  {
+   "source": "megyn-kelly",
+   "target": "ava-duvernay",
+   "type": "artisan_women_who_stood"
+  },
+  {
+   "source": "officer-aquilino-gonell",
+   "target": "vitalik-buterin",
+   "type": "artisan_immigrants_who_built"
+  },
+  {
+   "source": "zelenskyy",
+   "target": "vitalik-buterin",
+   "type": "artisan_immigrants_who_built"
+  },
+  {
+   "source": "fred-trump",
+   "target": "donald-trump",
+   "type": "artisan_dynasty_line"
+  },
+  {
+   "source": "kim-jong-un",
+   "target": "house-of-saud",
+   "type": "artisan_dynasty_line"
+  },
+  {
+   "source": "rupert-murdoch",
+   "target": "fox-news-disinfo",
+   "type": "artisan_dynasty_line"
+  },
+  {
+   "source": "house-of-saud",
+   "target": "mbs",
+   "type": "artisan_dynasty_line"
+  },
+  {
+   "source": "roger-ailes",
+   "target": "fox-news-disinfo",
+   "type": "artisan_dynasty_line"
+  },
+  {
+   "source": "richard-nixon",
+   "target": "roger-stone",
+   "type": "artisan_dynasty_line"
+  },
+  {
+   "source": "roger-stone",
+   "target": "donald-trump",
+   "type": "artisan_dynasty_line"
+  },
+  {
+   "source": "donald-trump",
+   "target": "the-architects",
+   "type": "artisan_extraction"
+  },
+  {
+   "source": "putin",
+   "target": "the-architects",
+   "type": "artisan_extraction"
+  },
+  {
+   "source": "xi-jinping",
+   "target": "the-architects",
+   "type": "artisan_extraction"
+  },
+  {
+   "source": "kim-jong-un",
+   "target": "the-architects",
+   "type": "artisan_extraction"
+  },
+  {
+   "source": "mbs",
+   "target": "the-architects",
+   "type": "artisan_extraction"
+  },
+  {
+   "source": "rupert-murdoch",
+   "target": "the-architects",
+   "type": "artisan_extraction"
+  },
+  {
+   "source": "leonard-leo",
+   "target": "the-architects",
+   "type": "artisan_extraction"
+  },
+  {
+   "source": "henry-kissinger",
+   "target": "the-architects",
+   "type": "artisan_extraction"
+  },
+  {
+   "source": "roger-stone",
+   "target": "the-architects",
+   "type": "artisan_extraction"
+  },
+  {
+   "source": "steve-bannon",
+   "target": "the-architects",
+   "type": "artisan_extraction"
+  },
+  {
+   "source": "paul-manafort",
+   "target": "the-architects",
+   "type": "artisan_extraction"
+  },
+  {
+   "source": "sam-bankman-fried",
+   "target": "the-architects",
+   "type": "artisan_extraction"
+  },
+  {
+   "source": "rudy-giuliani",
+   "target": "the-architects",
+   "type": "artisan_extraction"
+  },
+  {
+   "source": "proud-boys",
+   "target": "the-architects",
+   "type": "artisan_extraction"
+  },
+  {
+   "source": "oath-keepers",
+   "target": "the-architects",
+   "type": "artisan_extraction"
+  },
+  {
+   "source": "satoshi-nakamoto",
+   "target": "the-architects",
+   "type": "artisan_creation"
+  },
+  {
+   "source": "vitalik-buterin",
+   "target": "the-architects",
+   "type": "artisan_creation"
+  },
+  {
+   "source": "gabe-newell",
+   "target": "the-architects",
+   "type": "artisan_creation"
+  },
+  {
+   "source": "zelenskyy",
+   "target": "the-architects",
+   "type": "artisan_creation"
+  },
+  {
+   "source": "bellingcat",
+   "target": "the-architects",
+   "type": "artisan_creation"
+  },
+  {
+   "source": "ava-duvernay",
+   "target": "the-architects",
+   "type": "artisan_creation"
+  },
+  {
+   "source": "yusef-salaam",
+   "target": "the-architects",
+   "type": "artisan_creation"
+  },
+  {
+   "source": "korey-wise",
+   "target": "the-architects",
+   "type": "artisan_creation"
+  },
+  {
+   "source": "officer-eugene-goodman",
+   "target": "the-architects",
+   "type": "artisan_creation"
+  },
+  {
+   "source": "alexei-navalny",
+   "target": "the-architects",
+   "type": "artisan_creation"
+  },
+  {
+   "source": "liz-cheney",
+   "target": "the-architects",
+   "type": "artisan_creation"
+  },
+  {
+   "source": "daphne-caruana-galizia",
+   "target": "the-architects",
+   "type": "artisan_creation"
+  },
+  {
+   "source": "blackrock",
+   "target": "exonerated-five",
+   "type": "artisan_cross_finance_justice"
+  },
+  {
+   "source": "blackrock",
+   "target": "korey-wise",
+   "type": "artisan_cross_finance_justice"
+  },
+  {
+   "source": "goldman-sachs",
+   "target": "exonerated-five",
+   "type": "artisan_cross_finance_justice"
+  },
+  {
+   "source": "goldman-sachs",
+   "target": "korey-wise",
+   "type": "artisan_cross_finance_justice"
+  },
+  {
+   "source": "blackrock",
+   "target": "infantry-not-intel",
+   "type": "artisan_cross_finance_military"
+  },
+  {
+   "source": "goldman-sachs",
+   "target": "zelenskyy",
+   "type": "artisan_cross_finance_military"
+  },
+  {
+   "source": "goldman-sachs",
+   "target": "infantry-not-intel",
+   "type": "artisan_cross_finance_military"
+  },
+  {
+   "source": "fox-news-disinfo",
+   "target": "zelenskyy",
+   "type": "artisan_cross_media_military"
+  },
+  {
+   "source": "fox-news-disinfo",
+   "target": "infantry-not-intel",
+   "type": "artisan_cross_media_military"
+  },
+  {
+   "source": "rupert-murdoch",
+   "target": "zelenskyy",
+   "type": "artisan_cross_media_military"
+  },
+  {
+   "source": "rupert-murdoch",
+   "target": "infantry-not-intel",
+   "type": "artisan_cross_media_military"
+  },
+  {
+   "source": "fox-news-disinfo",
+   "target": "mbs",
+   "type": "artisan_cross_media_oil"
+  },
+  {
+   "source": "rupert-murdoch",
+   "target": "house-of-saud",
+   "type": "artisan_cross_media_oil"
+  },
+  {
+   "source": "rupert-murdoch",
+   "target": "mbs",
+   "type": "artisan_cross_media_oil"
+  },
+  {
+   "source": "bitcoin",
+   "target": "fox-news-disinfo",
+   "type": "artisan_cross_crypto_media"
+  },
+  {
+   "source": "bitcoin",
+   "target": "rupert-murdoch",
+   "type": "artisan_cross_crypto_media"
+  },
+  {
+   "source": "ethereum",
+   "target": "fox-news-disinfo",
+   "type": "artisan_cross_crypto_media"
+  },
+  {
+   "source": "ethereum",
+   "target": "rupert-murdoch",
+   "type": "artisan_cross_crypto_media"
+  },
+  {
+   "source": "bitcoin",
+   "target": "exonerated-five",
+   "type": "artisan_cross_crypto_justice"
+  },
+  {
+   "source": "bitcoin",
+   "target": "korey-wise",
+   "type": "artisan_cross_crypto_justice"
+  },
+  {
+   "source": "ethereum",
+   "target": "exonerated-five",
+   "type": "artisan_cross_crypto_justice"
+  },
+  {
+   "source": "ethereum",
+   "target": "korey-wise",
+   "type": "artisan_cross_crypto_justice"
+  },
+  {
+   "source": "exonerated-five",
+   "target": "fox-news-disinfo",
+   "type": "artisan_cross_justice_media"
+  },
+  {
+   "source": "exonerated-five",
+   "target": "rupert-murdoch",
+   "type": "artisan_cross_justice_media"
+  },
+  {
+   "source": "korey-wise",
+   "target": "fox-news-disinfo",
+   "type": "artisan_cross_justice_media"
+  },
+  {
+   "source": "korey-wise",
+   "target": "rupert-murdoch",
+   "type": "artisan_cross_justice_media"
+  },
+  {
+   "source": "exonerated-five",
+   "target": "house-of-saud",
+   "type": "artisan_cross_justice_oil"
+  },
+  {
+   "source": "exonerated-five",
+   "target": "mbs",
+   "type": "artisan_cross_justice_oil"
+  },
+  {
+   "source": "korey-wise",
+   "target": "house-of-saud",
+   "type": "artisan_cross_justice_oil"
+  },
+  {
+   "source": "korey-wise",
+   "target": "mbs",
+   "type": "artisan_cross_justice_oil"
   }
  ]
 }
