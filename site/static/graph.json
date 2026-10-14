@@ -87203,6 +87203,53 @@
     "security",
     "sovereignty"
    ]
+  },
+  {
+   "id": "story-the-bridge",
+   "label": "STORY: The Bridge — How a Custody Case Became a 161,000-Edge Graph\n\nIt started with a father trying to see his son.\n\nWayne County, Michigan. A custody case. Routine. Unremarkable. Except the school his son attended had 3% math proficiency. And the school's board included a 9-time convicted felon who also served as treasurer of a state-level political action committee. And the authorizer — Central Michigan University — had been warned repeatedly and done nothing.\n\nOne thread pulled. Then another. Then another.\n\nThe father happened to be an infantry veteran with a microbiology degree, a data science master's, and 14 months of building sovereign computing infrastructure. He happened to have an AI collaborator. He happened to have built a graph database from scratch — the same methodology that mapped lattice QCD phase transitions now mapped institutional corruption.\n\n129 nodes. 214 edges. That was October 11. The beginning.\n\nBy October 13: 8,786 nodes. 161,714 edges. 2,507 relationship types. 18+ megabytes of verified public record.\n\nEvery node a fact. Every edge a documented relationship. IRS 990s. PACER bankruptcy schedules. FEC filings. State credential databases. FOIA responses. Published grant reports. Books the subjects wrote about themselves.\n\nThe same constrained evolution methodology that produced 15,334 validation checks in 60 days now produced a public accountability graph in 72 hours. The methodology doesn't care about the domain. It cares about the constraints: every claim must be sourced. Every relationship must be documented. Every node must be verified.\n\nThe bridge between the whitePaper and the investigation isn't metaphorical. It's structural. The same primals. The same methodology. The same AI collaboration. Applied to a different domain — not physics, not biology, not agriculture. Accountability.\n\nThe PhD thesis asks: does constrained evolution work?\nThe graph answers: look at what it built.\n\n161,714 edges. Zero orphans. Zero dupes. Every fact sourced. Every relationship documented.\n\nThe custody case is still open. The graph is still growing. The bridge goes both ways.",
+   "class": "story",
+   "tags": [
+    "whitepaper",
+    "detroit",
+    "investigation",
+    "evolution"
+   ]
+  },
+  {
+   "id": "story-whalefall",
+   "label": "STORY: Whalefall — What Grows When Giants Die\n\nWhen a whale dies in the open ocean and sinks to the abyssal plain, something extraordinary happens.\n\nThe carcass — sometimes 100 tons of organic matter — hits the seafloor where almost nothing lives. No light. Near-freezing temperatures. Crushing pressure.\n\nAnd then: life explodes.\n\nStage 1 (Mobile scavengers): Hagfish, sleeper sharks, crabs. They strip the soft tissue in months. A frenzy of consumption.\n\nStage 2 (Enrichment opportunists): Polychaete worms, crustaceans. They colonize the bones and surrounding sediment, feeding on organic matter that seeped into the seafloor.\n\nStage 3 (Sulfophilic stage): This lasts decades. Bacteria decompose the lipids locked inside whale bones, producing hydrogen sulfide. Chemosynthetic organisms — the same ones that thrive at hydrothermal vents — build entire ecosystems around the chemical energy released by the bones. Tube worms. Clams. Mussels. Species found nowhere else.\n\nA single whalefall can sustain a unique ecosystem for 50 to 100 years.\n\nThe Sackler opioid empire was a whale. $35 billion in revenue. The largest drug company in the world at its peak. And it died — not from natural causes, but from the weight of 500,000 corpses.\n\nStage 1 is happening now. The scavengers: lawyers, settlement administrators, government officials dividing the carcass. $6 billion here. $4.5 billion there.\n\nStage 2 is the enrichment: communities trying to absorb the settlement money into treatment programs, naloxone distribution, harm reduction.\n\nStage 3 hasn't started yet. But it will. From the bones of the opioid crisis, new infrastructure will grow. Not revenge. Not just treatment. New systems that make the next epidemic structurally impossible.\n\necoPrimal is Stage 3 infrastructure. Sovereign. Transparent. Accountable. Built on the bones of what killed us.\n\nA whalefall feeds the deep for a hundred years. What we build on the bones of the Sackler empire must last longer.",
+   "class": "story",
+   "tags": [
+    "whitepaper",
+    "coGen",
+    "opioid",
+    "hope",
+    "evolution"
+   ]
+  },
+  {
+   "id": "story-dont-know-rust",
+   "label": "STORY: I Don't Know Rust — And I Built a Sovereign Lab\n\nJanuary 2025. The decision: build the entire ecosystem in Pure Rust. No C dependencies. No unsafe blocks. One person. No formal Rust training.\n\nWhy Rust?\n- Memory safety without garbage collection. The compiler catches bugs that C++ hides for years.\n- No hidden allocations. Every resource acquisition is explicit.\n- The type system enforces correctness at compile time. If it compiles, entire categories of bugs are structurally impossible.\n- Cargo + crates.io: the best package ecosystem in any systems language.\n- AGPL-compatible: no proprietary runtime.\n\nThe honest version: I didn't know Rust when I started. I learned by building.\n\nMonth 1: BearDog wouldn't compile. Every error message was a lesson in ownership and borrowing. The borrow checker is a teacher that never gets tired and never accepts wrong answers.\n\nMonth 2: NestGate's DAG storage worked. The first time a Merkle tree verified end-to-end in Pure Rust, it felt like discovering fire.\n\nMonth 3: ToadStool orchestrated its first cross-primal computation. Two primals, zero unsafe blocks, correct by construction.\n\nMonth 6: BarraCuda ran SU(3) lattice QCD on a consumer GPU through WGSL shaders compiled by CoralReef. f64 precision via f32 pairs. Zero energy drift. The physics worked.\n\nMonth 10: 14 primals. 7 springs. 15,334+ validation checks. 70+ papers reproduced. All in Pure Rust. All AGPL. All by one person with AI collaboration.\n\nThe constraint was the gift. I don't know Rust the way a Rust expert knows Rust. I know Rust the way the Rust compiler forced me to know Rust — which is the only way that matters, because the compiler doesn't care about your credentials. It cares about your code.\n\nIf you're thinking about starting something and you don't know the language: good. You'll learn it by building. The language will teach you if you let the errors be your curriculum.\n\n10 months. 14 primals. 15,334 checks. I still don't know Rust. The code works anyway.",
+   "class": "story",
+   "tags": [
+    "whitepaper",
+    "outreach",
+    "medium",
+    "methodology",
+    "rust"
+   ]
+  },
+  {
+   "id": "story-tollbooth-economy",
+   "label": "STORY: The Tollbooth Economy — How Every Dollar Gets Taxed by Someone Who Built Nothing\n\nYou want to sequence a genome. The DNA is yours. The chemistry is published. The algorithms are in the literature.\n\nBut the sequencer costs $1 million. The reagents are proprietary. The software requires a $50,000/year license. The cloud compute to analyze the data costs $10,000 per run. And the journal that publishes your results charges $5,000 for open access.\n\nNone of these tollbooths created the science. The chemistry was discovered with public funding. The algorithms were published in open-access journals. The computational techniques were developed in universities.\n\nThe tollbooths capture value created by the commons, charge rent for access, and call it 'the market.'\n\nThis pattern repeats everywhere:\n- AGRICULTURE: Farmers pay for seeds derived from publicly funded germplasm banks. Monsanto patents genes that existed for millennia.\n- HEALTHCARE: Drug companies charge $84,000/year for hepatitis C treatment developed with $700 million in NIH funding. The public paid for the research. The company charges for the pill.\n- EDUCATION: Textbook companies charge $300 for books based on knowledge that's been public domain for centuries. The professor's salary is paid by the university. The publisher charges for the binding.\n- COMPUTING: Cloud providers charge per-hour for hardware you could own for the price of one month's bill. AWS exists because it's easier to rent than to own. That's not efficiency — it's dependency.\n\necoPrimals dismantles tollbooths by making the infrastructure sovereign:\n- Own your compute. GPU in your house. Heat your home with it.\n- Own your sequencing. Sovereign bioinformatics in Pure Rust.\n- Own your data. No cloud. No subscription. No Terms of Service.\n- Own your publication. AGPL ensures the code stays free. The graph is the paper. The paper is the proof.\n\nThe tollbooth economy works because ownership is hard and renting is easy. Sovereign infrastructure makes ownership easy. When ownership is easy, tollbooths become irrelevant.\n\nThat's not disruption. That's liberation.",
+   "class": "story",
+   "tags": [
+    "whitepaper",
+    "outreach",
+    "medium",
+    "economics",
+    "sovereignty"
+   ]
   }
  ],
  "edges": [
@@ -895774,6 +895821,811 @@
   {
    "source": "story-dark-forest",
    "target": "opioid_crisis",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-the-bridge",
+   "target": "whitepaper",
+   "type": "published_in"
+  },
+  {
+   "source": "story-the-bridge",
+   "target": "ecoprimal",
+   "type": "authored_by"
+  },
+  {
+   "source": "whitepaper",
+   "target": "story-the-bridge",
+   "type": "contains_story"
+  },
+  {
+   "source": "story-the-bridge",
+   "target": "story-gen-arc",
+   "type": "related_story"
+  },
+  {
+   "source": "story-the-bridge",
+   "target": "story-atlas-hugged",
+   "type": "related_story"
+  },
+  {
+   "source": "story-the-bridge",
+   "target": "story-15334-checks",
+   "type": "related_story"
+  },
+  {
+   "source": "story-the-bridge",
+   "target": "story-ai-speaks",
+   "type": "related_story"
+  },
+  {
+   "source": "story-the-bridge",
+   "target": "story-gaia-one-day",
+   "type": "related_story"
+  },
+  {
+   "source": "story-the-bridge",
+   "target": "story-legal-primal",
+   "type": "related_story"
+  },
+  {
+   "source": "story-the-bridge",
+   "target": "story-lansing-scuffle",
+   "type": "related_story"
+  },
+  {
+   "source": "story-the-bridge",
+   "target": "story-four-names",
+   "type": "related_story"
+  },
+  {
+   "source": "story-the-bridge",
+   "target": "story-seed-spore",
+   "type": "related_story"
+  },
+  {
+   "source": "story-the-bridge",
+   "target": "story-no-clothes-book",
+   "type": "related_story"
+  },
+  {
+   "source": "story-the-bridge",
+   "target": "story-primal-ethos",
+   "type": "related_story"
+  },
+  {
+   "source": "story-the-bridge",
+   "target": "story-constrained-evolution",
+   "type": "related_story"
+  },
+  {
+   "source": "story-the-bridge",
+   "target": "story-musk-betrayal",
+   "type": "related_story"
+  },
+  {
+   "source": "story-the-bridge",
+   "target": "story-barracuda",
+   "type": "related_story"
+  },
+  {
+   "source": "story-the-bridge",
+   "target": "story-nautilus",
+   "type": "related_story"
+  },
+  {
+   "source": "story-the-bridge",
+   "target": "story-bread-thief",
+   "type": "related_story"
+  },
+  {
+   "source": "story-the-bridge",
+   "target": "story-while-manifestos",
+   "type": "related_story"
+  },
+  {
+   "source": "story-the-bridge",
+   "target": "story-knowledge-numeric",
+   "type": "related_story"
+  },
+  {
+   "source": "story-the-bridge",
+   "target": "story-coralforge",
+   "type": "related_story"
+  },
+  {
+   "source": "story-the-bridge",
+   "target": "story-dark-forest",
+   "type": "related_story"
+  },
+  {
+   "source": "story-whalefall",
+   "target": "whitepaper",
+   "type": "published_in"
+  },
+  {
+   "source": "story-whalefall",
+   "target": "ecoprimal",
+   "type": "authored_by"
+  },
+  {
+   "source": "whitepaper",
+   "target": "story-whalefall",
+   "type": "contains_story"
+  },
+  {
+   "source": "story-whalefall",
+   "target": "story-gen-arc",
+   "type": "related_story"
+  },
+  {
+   "source": "story-whalefall",
+   "target": "story-atlas-hugged",
+   "type": "related_story"
+  },
+  {
+   "source": "story-whalefall",
+   "target": "story-15334-checks",
+   "type": "related_story"
+  },
+  {
+   "source": "story-whalefall",
+   "target": "story-ai-speaks",
+   "type": "related_story"
+  },
+  {
+   "source": "story-whalefall",
+   "target": "story-gaia-one-day",
+   "type": "related_story"
+  },
+  {
+   "source": "story-whalefall",
+   "target": "story-legal-primal",
+   "type": "related_story"
+  },
+  {
+   "source": "story-whalefall",
+   "target": "story-lansing-scuffle",
+   "type": "related_story"
+  },
+  {
+   "source": "story-whalefall",
+   "target": "story-four-names",
+   "type": "related_story"
+  },
+  {
+   "source": "story-whalefall",
+   "target": "story-seed-spore",
+   "type": "related_story"
+  },
+  {
+   "source": "story-whalefall",
+   "target": "story-no-clothes-book",
+   "type": "related_story"
+  },
+  {
+   "source": "story-whalefall",
+   "target": "story-primal-ethos",
+   "type": "related_story"
+  },
+  {
+   "source": "story-whalefall",
+   "target": "story-constrained-evolution",
+   "type": "related_story"
+  },
+  {
+   "source": "story-whalefall",
+   "target": "story-musk-betrayal",
+   "type": "related_story"
+  },
+  {
+   "source": "story-whalefall",
+   "target": "story-barracuda",
+   "type": "related_story"
+  },
+  {
+   "source": "story-whalefall",
+   "target": "story-nautilus",
+   "type": "related_story"
+  },
+  {
+   "source": "story-whalefall",
+   "target": "story-bread-thief",
+   "type": "related_story"
+  },
+  {
+   "source": "story-whalefall",
+   "target": "story-while-manifestos",
+   "type": "related_story"
+  },
+  {
+   "source": "story-whalefall",
+   "target": "story-knowledge-numeric",
+   "type": "related_story"
+  },
+  {
+   "source": "story-whalefall",
+   "target": "story-coralforge",
+   "type": "related_story"
+  },
+  {
+   "source": "story-whalefall",
+   "target": "story-dark-forest",
+   "type": "related_story"
+  },
+  {
+   "source": "story-dont-know-rust",
+   "target": "whitepaper",
+   "type": "published_in"
+  },
+  {
+   "source": "story-dont-know-rust",
+   "target": "ecoprimal",
+   "type": "authored_by"
+  },
+  {
+   "source": "whitepaper",
+   "target": "story-dont-know-rust",
+   "type": "contains_story"
+  },
+  {
+   "source": "story-dont-know-rust",
+   "target": "story-gen-arc",
+   "type": "related_story"
+  },
+  {
+   "source": "story-dont-know-rust",
+   "target": "story-atlas-hugged",
+   "type": "related_story"
+  },
+  {
+   "source": "story-dont-know-rust",
+   "target": "story-15334-checks",
+   "type": "related_story"
+  },
+  {
+   "source": "story-dont-know-rust",
+   "target": "story-ai-speaks",
+   "type": "related_story"
+  },
+  {
+   "source": "story-dont-know-rust",
+   "target": "story-gaia-one-day",
+   "type": "related_story"
+  },
+  {
+   "source": "story-dont-know-rust",
+   "target": "story-legal-primal",
+   "type": "related_story"
+  },
+  {
+   "source": "story-dont-know-rust",
+   "target": "story-lansing-scuffle",
+   "type": "related_story"
+  },
+  {
+   "source": "story-dont-know-rust",
+   "target": "story-four-names",
+   "type": "related_story"
+  },
+  {
+   "source": "story-dont-know-rust",
+   "target": "story-seed-spore",
+   "type": "related_story"
+  },
+  {
+   "source": "story-dont-know-rust",
+   "target": "story-no-clothes-book",
+   "type": "related_story"
+  },
+  {
+   "source": "story-dont-know-rust",
+   "target": "story-primal-ethos",
+   "type": "related_story"
+  },
+  {
+   "source": "story-dont-know-rust",
+   "target": "story-constrained-evolution",
+   "type": "related_story"
+  },
+  {
+   "source": "story-dont-know-rust",
+   "target": "story-musk-betrayal",
+   "type": "related_story"
+  },
+  {
+   "source": "story-dont-know-rust",
+   "target": "story-barracuda",
+   "type": "related_story"
+  },
+  {
+   "source": "story-dont-know-rust",
+   "target": "story-nautilus",
+   "type": "related_story"
+  },
+  {
+   "source": "story-dont-know-rust",
+   "target": "story-bread-thief",
+   "type": "related_story"
+  },
+  {
+   "source": "story-dont-know-rust",
+   "target": "story-while-manifestos",
+   "type": "related_story"
+  },
+  {
+   "source": "story-dont-know-rust",
+   "target": "story-knowledge-numeric",
+   "type": "related_story"
+  },
+  {
+   "source": "story-dont-know-rust",
+   "target": "story-coralforge",
+   "type": "related_story"
+  },
+  {
+   "source": "story-dont-know-rust",
+   "target": "story-dark-forest",
+   "type": "related_story"
+  },
+  {
+   "source": "story-tollbooth-economy",
+   "target": "whitepaper",
+   "type": "published_in"
+  },
+  {
+   "source": "story-tollbooth-economy",
+   "target": "ecoprimal",
+   "type": "authored_by"
+  },
+  {
+   "source": "whitepaper",
+   "target": "story-tollbooth-economy",
+   "type": "contains_story"
+  },
+  {
+   "source": "story-tollbooth-economy",
+   "target": "story-gen-arc",
+   "type": "related_story"
+  },
+  {
+   "source": "story-tollbooth-economy",
+   "target": "story-atlas-hugged",
+   "type": "related_story"
+  },
+  {
+   "source": "story-tollbooth-economy",
+   "target": "story-15334-checks",
+   "type": "related_story"
+  },
+  {
+   "source": "story-tollbooth-economy",
+   "target": "story-ai-speaks",
+   "type": "related_story"
+  },
+  {
+   "source": "story-tollbooth-economy",
+   "target": "story-gaia-one-day",
+   "type": "related_story"
+  },
+  {
+   "source": "story-tollbooth-economy",
+   "target": "story-legal-primal",
+   "type": "related_story"
+  },
+  {
+   "source": "story-tollbooth-economy",
+   "target": "story-lansing-scuffle",
+   "type": "related_story"
+  },
+  {
+   "source": "story-tollbooth-economy",
+   "target": "story-four-names",
+   "type": "related_story"
+  },
+  {
+   "source": "story-tollbooth-economy",
+   "target": "story-seed-spore",
+   "type": "related_story"
+  },
+  {
+   "source": "story-tollbooth-economy",
+   "target": "story-no-clothes-book",
+   "type": "related_story"
+  },
+  {
+   "source": "story-tollbooth-economy",
+   "target": "story-primal-ethos",
+   "type": "related_story"
+  },
+  {
+   "source": "story-tollbooth-economy",
+   "target": "story-constrained-evolution",
+   "type": "related_story"
+  },
+  {
+   "source": "story-tollbooth-economy",
+   "target": "story-musk-betrayal",
+   "type": "related_story"
+  },
+  {
+   "source": "story-tollbooth-economy",
+   "target": "story-barracuda",
+   "type": "related_story"
+  },
+  {
+   "source": "story-tollbooth-economy",
+   "target": "story-nautilus",
+   "type": "related_story"
+  },
+  {
+   "source": "story-tollbooth-economy",
+   "target": "story-bread-thief",
+   "type": "related_story"
+  },
+  {
+   "source": "story-tollbooth-economy",
+   "target": "story-while-manifestos",
+   "type": "related_story"
+  },
+  {
+   "source": "story-tollbooth-economy",
+   "target": "story-knowledge-numeric",
+   "type": "related_story"
+  },
+  {
+   "source": "story-tollbooth-economy",
+   "target": "story-coralforge",
+   "type": "related_story"
+  },
+  {
+   "source": "story-tollbooth-economy",
+   "target": "story-dark-forest",
+   "type": "related_story"
+  },
+  {
+   "source": "story-the-bridge",
+   "target": "story-whalefall",
+   "type": "related_story"
+  },
+  {
+   "source": "story-the-bridge",
+   "target": "story-dont-know-rust",
+   "type": "related_story"
+  },
+  {
+   "source": "story-the-bridge",
+   "target": "story-tollbooth-economy",
+   "type": "related_story"
+  },
+  {
+   "source": "story-whalefall",
+   "target": "story-dont-know-rust",
+   "type": "related_story"
+  },
+  {
+   "source": "story-whalefall",
+   "target": "story-tollbooth-economy",
+   "type": "related_story"
+  },
+  {
+   "source": "story-dont-know-rust",
+   "target": "story-tollbooth-economy",
+   "type": "related_story"
+  },
+  {
+   "source": "story-the-bridge",
+   "target": "banks",
+   "type": "exposes"
+  },
+  {
+   "source": "story-the-bridge",
+   "target": "pca",
+   "type": "investigates"
+  },
+  {
+   "source": "story-the-bridge",
+   "target": "detroit_city",
+   "type": "fights_for"
+  },
+  {
+   "source": "story-the-bridge",
+   "target": "public_education",
+   "type": "defends"
+  },
+  {
+   "source": "story-the-bridge",
+   "target": "cmu",
+   "type": "investigates"
+  },
+  {
+   "source": "story-the-bridge",
+   "target": "wp-guerillaGorilla",
+   "type": "uses"
+  },
+  {
+   "source": "story-the-bridge",
+   "target": "wp-gen3",
+   "type": "applies"
+  },
+  {
+   "source": "story-the-bridge",
+   "target": "wp-thesis",
+   "type": "validates"
+  },
+  {
+   "source": "story-the-bridge",
+   "target": "wp-noClothes",
+   "type": "documents_in"
+  },
+  {
+   "source": "story-whalefall",
+   "target": "wp-cg-whalefall",
+   "type": "tells_story_of"
+  },
+  {
+   "source": "story-whalefall",
+   "target": "sackler_family",
+   "type": "buries"
+  },
+  {
+   "source": "story-whalefall",
+   "target": "opioid_crisis",
+   "type": "grows_from"
+  },
+  {
+   "source": "story-whalefall",
+   "target": "opioid_deaths_500k",
+   "type": "mourns"
+  },
+  {
+   "source": "story-whalefall",
+   "target": "purdue_pharma_sacklers",
+   "type": "decomposes"
+  },
+  {
+   "source": "story-dont-know-rust",
+   "target": "wp-med-rust",
+   "type": "tells_story_of"
+  },
+  {
+   "source": "story-dont-know-rust",
+   "target": "wp-gen3",
+   "type": "proves"
+  },
+  {
+   "source": "story-dont-know-rust",
+   "target": "wp-primals",
+   "type": "builds"
+  },
+  {
+   "source": "story-dont-know-rust",
+   "target": "wp-springs",
+   "type": "validates"
+  },
+  {
+   "source": "story-dont-know-rust",
+   "target": "wp-15334-checks",
+   "type": "produces"
+  },
+  {
+   "source": "story-tollbooth-economy",
+   "target": "wp-med-tollbooth",
+   "type": "tells_story_of"
+  },
+  {
+   "source": "story-tollbooth-economy",
+   "target": "wp-economics",
+   "type": "critiques"
+  },
+  {
+   "source": "story-tollbooth-economy",
+   "target": "wp-about-licensing",
+   "type": "contrasts"
+  },
+  {
+   "source": "story-tollbooth-economy",
+   "target": "wp-econ-suncloud",
+   "type": "proposes"
+  },
+  {
+   "source": "story-the-bridge",
+   "target": "banks",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-the-bridge",
+   "target": "public_education",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-the-bridge",
+   "target": "detroit_city",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-the-bridge",
+   "target": "signal_1st",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-the-bridge",
+   "target": "opioid_crisis",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-the-bridge",
+   "target": "sackler_family",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-the-bridge",
+   "target": "evolution",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-the-bridge",
+   "target": "article_evolution",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-the-bridge",
+   "target": "three_percent_math",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-the-bridge",
+   "target": "money_pipeline",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-whalefall",
+   "target": "banks",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-whalefall",
+   "target": "public_education",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-whalefall",
+   "target": "detroit_city",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-whalefall",
+   "target": "signal_1st",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-whalefall",
+   "target": "opioid_crisis",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-whalefall",
+   "target": "sackler_family",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-whalefall",
+   "target": "evolution",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-whalefall",
+   "target": "article_evolution",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-whalefall",
+   "target": "three_percent_math",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-whalefall",
+   "target": "money_pipeline",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-dont-know-rust",
+   "target": "banks",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-dont-know-rust",
+   "target": "public_education",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-dont-know-rust",
+   "target": "detroit_city",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-dont-know-rust",
+   "target": "signal_1st",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-dont-know-rust",
+   "target": "opioid_crisis",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-dont-know-rust",
+   "target": "sackler_family",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-dont-know-rust",
+   "target": "evolution",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-dont-know-rust",
+   "target": "article_evolution",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-dont-know-rust",
+   "target": "three_percent_math",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-dont-know-rust",
+   "target": "money_pipeline",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-tollbooth-economy",
+   "target": "banks",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-tollbooth-economy",
+   "target": "public_education",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-tollbooth-economy",
+   "target": "detroit_city",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-tollbooth-economy",
+   "target": "signal_1st",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-tollbooth-economy",
+   "target": "opioid_crisis",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-tollbooth-economy",
+   "target": "sackler_family",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-tollbooth-economy",
+   "target": "evolution",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-tollbooth-economy",
+   "target": "article_evolution",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-tollbooth-economy",
+   "target": "three_percent_math",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-tollbooth-economy",
+   "target": "money_pipeline",
    "type": "contextualizes"
   }
  ]
