@@ -101658,6 +101658,71 @@
     "We dont chase attention. We BUILD gravity.",
     "Gravity does not chase. Gravity PULLS."
    ]
+  },
+  {
+   "id": "pi-100b-revolution",
+   "label": "pi x $100B — First Revolution",
+   "class": "mathematics",
+   "tags": [
+    "pi * 100B = $314,159,265,358.98 grand total",
+    "One full revolution of the membrane",
+    "Currently at 95.5% — gap is ~455 nodes",
+    "The damages formula is LINEAR: works x $150K x 6",
+    "No cap. No ceiling. No reversal. No null.",
+    "After the first revolution it SPIRALS — each turn costs less",
+    "Density means every new node drags ~35 edges with it",
+    "The spiral tightens. Gravity does the work.",
+    "Second revolution: 2pi * 100B = $628.32B",
+    "e*pi revolution: $853.97B — where e meets pi"
+   ]
+  },
+  {
+   "id": "information-schwarzschild",
+   "label": "Information Schwarzschild Radius",
+   "class": "mathematics",
+   "tags": [
+    "Schwarzschild radius = 2GM/c^2",
+    "In information terms: M = works, G = density, c = pi",
+    "r_s = 2 * 33.6 * 333,323 / pi^2 = 2,267,249",
+    "Actual membrane radius: 163 (sqrt of surface / 4pi)",
+    "Ratio r/r_s = 0.00007 — deep inside event horizon",
+    "The graph has been a black hole since before we knew to look",
+    "Nothing escapes the membrane. Nothing.",
+    "Every node that enters increases the mass",
+    "Every edge that forms increases the gravity",
+    "The event horizon grows. The escape velocity increases."
+   ]
+  },
+  {
+   "id": "spiral-tightening",
+   "label": "The Spiral Tightens",
+   "class": "mathematics",
+   "tags": [
+    "First revolution (pi * 100B) costs 15,742 works from current position",
+    "Second revolution costs FEWER — density compounds",
+    "Each new node at 33.6 density = ~35 works (1 node + 34.6 edges)",
+    "As density increases, each node costs more to the infringers",
+    "But less effort for the builder",
+    "The ratio of builder-effort to infringer-cost DIVERGES",
+    "One human. 9,643 nodes. $299.99B in damages.",
+    "The asymmetry is the weapon. Pi is the proof."
+   ]
+  },
+  {
+   "id": "membrane-circumference",
+   "label": "The Membrane is Circular",
+   "class": "mathematics",
+   "tags": [
+    "pi = circumference / diameter. Always.",
+    "The membrane wraps. Every node connects back.",
+    "Max depth from roots = 2 hops. 100% reachable.",
+    "Not a line. Not a tree. Not a web. A SPHERE.",
+    "Surface area = 4 * pi * r^2 = 333,323 works",
+    "r = 163 in information space",
+    "The sphere breathes — scan, sweep, sort, compress, expand",
+    "Each breath pulls the circumference tighter",
+    "pi is not a milestone. Pi is the SHAPE."
+   ]
   }
  ],
  "edges": [
@@ -1720060,6 +1720125,451 @@
    "source": "semicolon",
    "target": "unesco_landscape_of_the_pico_island_vineyard_cu",
    "type": "bingo_layer_1"
+  },
+  {
+   "source": "pi-100b-revolution",
+   "target": "membrane",
+   "type": "defines-revolution-of"
+  },
+  {
+   "source": "information-schwarzschild",
+   "target": "membrane",
+   "type": "proves-gravity-of"
+  },
+  {
+   "source": "accretion-disk",
+   "target": "membrane",
+   "type": "models-ingestion-of"
+  },
+  {
+   "source": "spiral-tightening",
+   "target": "membrane",
+   "type": "accelerates"
+  },
+  {
+   "source": "membrane-circumference",
+   "target": "membrane",
+   "type": "shapes"
+  },
+  {
+   "source": "pi-100b-revolution",
+   "target": "ecoprimal",
+   "type": "defines-revolution-of"
+  },
+  {
+   "source": "information-schwarzschild",
+   "target": "ecoprimal",
+   "type": "proves-gravity-of"
+  },
+  {
+   "source": "accretion-disk",
+   "target": "ecoprimal",
+   "type": "models-ingestion-of"
+  },
+  {
+   "source": "spiral-tightening",
+   "target": "ecoprimal",
+   "type": "accelerates"
+  },
+  {
+   "source": "membrane-circumference",
+   "target": "ecoprimal",
+   "type": "shapes"
+  },
+  {
+   "source": "pi-100b-revolution",
+   "target": "artisan-hypothesis",
+   "type": "defines-revolution-of"
+  },
+  {
+   "source": "information-schwarzschild",
+   "target": "artisan-hypothesis",
+   "type": "proves-gravity-of"
+  },
+  {
+   "source": "accretion-disk",
+   "target": "artisan-hypothesis",
+   "type": "models-ingestion-of"
+  },
+  {
+   "source": "spiral-tightening",
+   "target": "artisan-hypothesis",
+   "type": "accelerates"
+  },
+  {
+   "source": "membrane-circumference",
+   "target": "artisan-hypothesis",
+   "type": "shapes"
+  },
+  {
+   "source": "pi-100b-revolution",
+   "target": "long-tail-strategy",
+   "type": "defines-revolution-of"
+  },
+  {
+   "source": "information-schwarzschild",
+   "target": "long-tail-strategy",
+   "type": "proves-gravity-of"
+  },
+  {
+   "source": "accretion-disk",
+   "target": "long-tail-strategy",
+   "type": "models-ingestion-of"
+  },
+  {
+   "source": "spiral-tightening",
+   "target": "long-tail-strategy",
+   "type": "accelerates"
+  },
+  {
+   "source": "membrane-circumference",
+   "target": "long-tail-strategy",
+   "type": "shapes"
+  },
+  {
+   "source": "pi-100b-revolution",
+   "target": "information-schwarzschild",
+   "type": "bounded-by"
+  },
+  {
+   "source": "pi-100b-revolution",
+   "target": "accretion-disk",
+   "type": "feeds"
+  },
+  {
+   "source": "pi-100b-revolution",
+   "target": "spiral-tightening",
+   "type": "triggers"
+  },
+  {
+   "source": "pi-100b-revolution",
+   "target": "membrane-circumference",
+   "type": "completes"
+  },
+  {
+   "source": "information-schwarzschild",
+   "target": "accretion-disk",
+   "type": "creates"
+  },
+  {
+   "source": "information-schwarzschild",
+   "target": "spiral-tightening",
+   "type": "causes"
+  },
+  {
+   "source": "accretion-disk",
+   "target": "spiral-tightening",
+   "type": "accelerates"
+  },
+  {
+   "source": "membrane-circumference",
+   "target": "pi-100b-revolution",
+   "type": "measured-by"
+  },
+  {
+   "source": "membrane-circumference",
+   "target": "information-schwarzschild",
+   "type": "enclosed-by"
+  },
+  {
+   "source": "spiral-tightening",
+   "target": "accretion-disk",
+   "type": "tightens"
+  },
+  {
+   "source": "pi-100b-revolution",
+   "target": "sigmoidal-antidote",
+   "type": "intersects"
+  },
+  {
+   "source": "information-schwarzschild",
+   "target": "sigmoidal-antidote",
+   "type": "validates"
+  },
+  {
+   "source": "spiral-tightening",
+   "target": "sigmoidal-antidote",
+   "type": "amplifies"
+  },
+  {
+   "source": "pi-100b-revolution",
+   "target": "the-piper",
+   "type": "milestone-of"
+  },
+  {
+   "source": "spiral-tightening",
+   "target": "the-piper",
+   "type": "compounds"
+  },
+  {
+   "source": "pi-100b-revolution",
+   "target": "meta-platforms",
+   "type": "revolution-against"
+  },
+  {
+   "source": "information-schwarzschild",
+   "target": "meta-platforms",
+   "type": "traps"
+  },
+  {
+   "source": "accretion-disk",
+   "target": "meta-platforms",
+   "type": "consumes"
+  },
+  {
+   "source": "spiral-tightening",
+   "target": "meta-platforms",
+   "type": "tightens-on"
+  },
+  {
+   "source": "pi-100b-revolution",
+   "target": "microsoft-corp",
+   "type": "revolution-against"
+  },
+  {
+   "source": "information-schwarzschild",
+   "target": "microsoft-corp",
+   "type": "traps"
+  },
+  {
+   "source": "accretion-disk",
+   "target": "microsoft-corp",
+   "type": "consumes"
+  },
+  {
+   "source": "spiral-tightening",
+   "target": "microsoft-corp",
+   "type": "tightens-on"
+  },
+  {
+   "source": "accretion-disk",
+   "target": "nyse",
+   "type": "pulls-in"
+  },
+  {
+   "source": "information-schwarzschild",
+   "target": "nyse",
+   "type": "inside-horizon-of"
+  },
+  {
+   "source": "accretion-disk",
+   "target": "nasdaq",
+   "type": "pulls-in"
+  },
+  {
+   "source": "information-schwarzschild",
+   "target": "nasdaq",
+   "type": "inside-horizon-of"
+  },
+  {
+   "source": "accretion-disk",
+   "target": "dark-pools",
+   "type": "pulls-in"
+  },
+  {
+   "source": "information-schwarzschild",
+   "target": "dark-pools",
+   "type": "inside-horizon-of"
+  },
+  {
+   "source": "accretion-disk",
+   "target": "pfof-mechanism",
+   "type": "pulls-in"
+  },
+  {
+   "source": "information-schwarzschild",
+   "target": "pfof-mechanism",
+   "type": "inside-horizon-of"
+  },
+  {
+   "source": "accretion-disk",
+   "target": "2008-financial-crisis",
+   "type": "pulls-in"
+  },
+  {
+   "source": "information-schwarzschild",
+   "target": "2008-financial-crisis",
+   "type": "inside-horizon-of"
+  },
+  {
+   "source": "accretion-disk",
+   "target": "quantitative-easing",
+   "type": "pulls-in"
+  },
+  {
+   "source": "information-schwarzschild",
+   "target": "quantitative-easing",
+   "type": "inside-horizon-of"
+  },
+  {
+   "source": "accretion-disk",
+   "target": "stock-buybacks",
+   "type": "pulls-in"
+  },
+  {
+   "source": "information-schwarzschild",
+   "target": "stock-buybacks",
+   "type": "inside-horizon-of"
+  },
+  {
+   "source": "accretion-disk",
+   "target": "federal-reserve",
+   "type": "pulls-in"
+  },
+  {
+   "source": "information-schwarzschild",
+   "target": "federal-reserve",
+   "type": "inside-horizon-of"
+  },
+  {
+   "source": "accretion-disk",
+   "target": "blackrock",
+   "type": "pulls-in"
+  },
+  {
+   "source": "information-schwarzschild",
+   "target": "blackrock",
+   "type": "inside-horizon-of"
+  },
+  {
+   "source": "accretion-disk",
+   "target": "citadel",
+   "type": "pulls-in"
+  },
+  {
+   "source": "information-schwarzschild",
+   "target": "citadel",
+   "type": "inside-horizon-of"
+  },
+  {
+   "source": "accretion-disk",
+   "target": "goldman-sachs",
+   "type": "pulls-in"
+  },
+  {
+   "source": "information-schwarzschild",
+   "target": "goldman-sachs",
+   "type": "inside-horizon-of"
+  },
+  {
+   "source": "accretion-disk",
+   "target": "long-tail-strategy",
+   "type": "models"
+  },
+  {
+   "source": "membrane-circumference",
+   "target": "tamison-profile",
+   "type": "encloses"
+  },
+  {
+   "source": "membrane-circumference",
+   "target": "chipmonk",
+   "type": "encloses"
+  },
+  {
+   "source": "membrane-circumference",
+   "target": "the-new-law",
+   "type": "contains"
+  },
+  {
+   "source": "spiral-tightening",
+   "target": "the-new-law",
+   "type": "compresses"
+  },
+  {
+   "source": "membrane-circumference",
+   "target": "fascism-playbook",
+   "type": "contains"
+  },
+  {
+   "source": "spiral-tightening",
+   "target": "fascism-playbook",
+   "type": "compresses"
+  },
+  {
+   "source": "information-schwarzschild",
+   "target": "facebook-deep",
+   "type": "traps-inside"
+  },
+  {
+   "source": "information-schwarzschild",
+   "target": "x-twitter-deep",
+   "type": "traps-inside"
+  },
+  {
+   "source": "information-schwarzschild",
+   "target": "epstein-network",
+   "type": "traps-inside"
+  },
+  {
+   "source": "information-schwarzschild",
+   "target": "privatized-foster-care",
+   "type": "traps-inside"
+  },
+  {
+   "source": "membrane-circumference",
+   "target": "lithium",
+   "type": "contains-element"
+  },
+  {
+   "source": "membrane-circumference",
+   "target": "rare-earth-elements",
+   "type": "contains-element"
+  },
+  {
+   "source": "membrane-circumference",
+   "target": "copper",
+   "type": "contains-element"
+  },
+  {
+   "source": "membrane-circumference",
+   "target": "helium",
+   "type": "contains-element"
+  },
+  {
+   "source": "membrane-circumference",
+   "target": "gold-element",
+   "type": "contains-element"
+  },
+  {
+   "source": "pi-100b-revolution",
+   "target": "magna-carta",
+   "type": "revolves-around"
+  },
+  {
+   "source": "membrane-circumference",
+   "target": "magna-carta",
+   "type": "circumscribes"
+  },
+  {
+   "source": "pi-100b-revolution",
+   "target": "the-human",
+   "type": "revolves-around"
+  },
+  {
+   "source": "membrane-circumference",
+   "target": "the-human",
+   "type": "circumscribes"
+  },
+  {
+   "source": "pi-100b-revolution",
+   "target": "membrane",
+   "type": "revolves-around"
+  },
+  {
+   "source": "membrane-circumference",
+   "target": "membrane",
+   "type": "circumscribes"
+  },
+  {
+   "source": "pi-100b-revolution",
+   "target": "ecoprimal",
+   "type": "revolves-around"
+  },
+  {
+   "source": "membrane-circumference",
+   "target": "ecoprimal",
+   "type": "circumscribes"
   }
  ]
 }
