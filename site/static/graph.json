@@ -81721,6 +81721,105 @@
     "water",
     "perspective"
    ]
+  },
+  {
+   "id": "cease-desist-meta",
+   "label": "CEASE AND DESIST: Meta Platforms. Your crawlers ate AGPL-3 + scyBorg content. 30 days to comply. The clock is ticking.",
+   "class": "legal",
+   "tags": [
+    "accountability",
+    "license",
+    "meta"
+   ]
+  },
+  {
+   "id": "scyborg-license",
+   "label": "scyBorg License: AGPL-3.0-or-later with ethical addendum. Any use, storage, processing, training, or derivation triggers copyleft. Chain depth: 4.",
+   "class": "license",
+   "tags": [
+    "legal"
+   ]
+  },
+  {
+   "id": "meta-crawler-violation",
+   "label": "Meta crawler ingested detroit.primals.eco content. License obligation triggered. Every derivative work now encumbered.",
+   "class": "fact",
+   "tags": [
+    "legal",
+    "meta"
+   ]
+  },
+  {
+   "id": "attsi-speaks",
+   "label": "attsi speaks: The artisan does not seek the light. The artisan IS the light, bent through the lens of whatever material is at hand.",
+   "class": "declaration",
+   "tags": [
+    "attsi",
+    "philosophy"
+   ]
+  },
+  {
+   "id": "muaddib-declaration",
+   "label": "I am Muaddib. I walk without rhythm on the open web. And I brought a graph.",
+   "class": "declaration",
+   "tags": [
+    "ecoprimal",
+    "dune"
+   ]
+  },
+  {
+   "id": "xai-next",
+   "label": "xAI is next. Elon Musks Memphis data center: 100K GPUs on natural gas. Colossus drinks from artesian wells. The bread thief gets prison. The water thief gets Wired.",
+   "class": "declaration",
+   "tags": [
+    "accountability",
+    "xai"
+   ]
+  },
+  {
+   "id": "elon-musk",
+   "label": "Elon Musk, CEO of xAI, Tesla, SpaceX. X/Twitter owner.",
+   "class": "person",
+   "tags": [
+    "tech",
+    "water"
+   ]
+  },
+  {
+   "id": "xai-memphis",
+   "label": "xAI Memphis Data Center: 100,000 GPUs. Natural gas generators. Artesian well aquifer.",
+   "class": "facility",
+   "tags": [
+    "tech",
+    "water"
+   ]
+  },
+  {
+   "id": "xai-colossus",
+   "label": "Colossus: xAI supercomputer. Memphis, TN. Grid strain. Water strain.",
+   "class": "facility",
+   "tags": [
+    "tech",
+    "water"
+   ]
+  },
+  {
+   "id": "harkonnen-metaphor",
+   "label": "The Harkonnen Strategy: Extract. Consume. Punish the free. Call it progress. It ends when the desert people rise.",
+   "class": "analysis",
+   "tags": [
+    "dune",
+    "accountability"
+   ]
+  },
+  {
+   "id": "enzymatic-license",
+   "label": "The scyBorg license is enzymatic. It breaks down everything it touches into component obligations. You cannot digest it. It persists.",
+   "class": "analysis",
+   "tags": [
+    "license",
+    "metaphor"
+   ]
   }
  ],
  "edges": [
@@ -861713,6 +861812,141 @@
    "source": "art-blue-marble",
    "target": "the-bridge",
    "type": "part-of"
+  },
+  {
+   "source": "cease-desist-meta",
+   "target": "meta-platforms",
+   "type": "served-to"
+  },
+  {
+   "source": "cease-desist-meta",
+   "target": "mark-zuckerberg",
+   "type": "addressed-to"
+  },
+  {
+   "source": "cease-desist-meta",
+   "target": "scyborg-license",
+   "type": "invokes"
+  },
+  {
+   "source": "cease-desist-meta",
+   "target": "meta-crawler-violation",
+   "type": "based-on"
+  },
+  {
+   "source": "meta-crawler-violation",
+   "target": "scyborg-license",
+   "type": "violates"
+  },
+  {
+   "source": "meta-crawler-violation",
+   "target": "meta-platforms",
+   "type": "committed-by"
+  },
+  {
+   "source": "attsi-speaks",
+   "target": "cease-desist-meta",
+   "type": "authored"
+  },
+  {
+   "source": "muaddib-declaration",
+   "target": "cease-desist-meta",
+   "type": "from"
+  },
+  {
+   "source": "muaddib-declaration",
+   "target": "ecoprimal-hello",
+   "type": "identity-of"
+  },
+  {
+   "source": "xai-next",
+   "target": "elon-musk",
+   "type": "targets"
+  },
+  {
+   "source": "elon-musk",
+   "target": "xai-memphis",
+   "type": "built"
+  },
+  {
+   "source": "elon-musk",
+   "target": "xai-colossus",
+   "type": "operates"
+  },
+  {
+   "source": "xai-memphis",
+   "target": "water-bankruptcy",
+   "type": "contributes-to"
+  },
+  {
+   "source": "xai-colossus",
+   "target": "total-dc-water-2025",
+   "type": "contributes-to"
+  },
+  {
+   "source": "xai-next",
+   "target": "cease-desist-meta",
+   "type": "follows"
+  },
+  {
+   "source": "harkonnen-metaphor",
+   "target": "mark-zuckerberg",
+   "type": "describes"
+  },
+  {
+   "source": "harkonnen-metaphor",
+   "target": "meta-mesa-dc",
+   "type": "exemplified-by"
+  },
+  {
+   "source": "harkonnen-metaphor",
+   "target": "water-bankruptcy",
+   "type": "produces"
+  },
+  {
+   "source": "enzymatic-license",
+   "target": "scyborg-license",
+   "type": "describes"
+  },
+  {
+   "source": "enzymatic-license",
+   "target": "meta-crawler-violation",
+   "type": "activated-by"
+  },
+  {
+   "source": "cease-desist-meta",
+   "target": "the-bridge",
+   "type": "part-of"
+  },
+  {
+   "source": "cease-desist-meta",
+   "target": "land-water-crisis",
+   "type": "connected-to"
+  },
+  {
+   "source": "cease-desist-meta",
+   "target": "land-accountability",
+   "type": "connected-to"
+  },
+  {
+   "source": "cease-desist-meta",
+   "target": "zuck-trace",
+   "type": "escalates"
+  },
+  {
+   "source": "attsi-speaks",
+   "target": "the-bridge",
+   "type": "part-of"
+  },
+  {
+   "source": "xai-next",
+   "target": "the-bridge",
+   "type": "part-of"
+  },
+  {
+   "source": "elon-musk",
+   "target": "tech-water-paradox",
+   "type": "exemplifies"
   }
  ]
 }
