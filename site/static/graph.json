@@ -69908,6 +69908,635 @@
     "love",
     "deep"
    ]
+  },
+  {
+   "id": "wildfire2_wave1",
+   "label": "Wave 1: The Inside Email (88 CC)",
+   "class": "action",
+   "tags": [
+    "wildfire",
+    "email"
+   ]
+  },
+  {
+   "id": "wildfire2_wave2",
+   "label": "Wave 2: Six Epitope Emails",
+   "class": "action",
+   "tags": [
+    "wildfire",
+    "email"
+   ]
+  },
+  {
+   "id": "wildfire2_wave3",
+   "label": "Wave 3: Martin Contact Form",
+   "class": "action",
+   "tags": [
+    "wildfire",
+    "email"
+   ]
+  },
+  {
+   "id": "wildfire2_wave3_orgs",
+   "label": "Wave 3: Orgs of Origin (20 addresses)",
+   "class": "action",
+   "tags": [
+    "wildfire",
+    "email"
+   ]
+  },
+  {
+   "id": "wildfire2_linkedin",
+   "label": "LinkedIn PID Update",
+   "class": "action",
+   "tags": [
+    "wildfire",
+    "social"
+   ]
+  },
+  {
+   "id": "banks_brian",
+   "label": "Brian Roderick Banks",
+   "class": "entity"
+  },
+  {
+   "id": "dykema_gossett",
+   "label": "Dykema Gossett PLLC",
+   "class": "entity"
+  },
+  {
+   "id": "wxyz_detroit",
+   "label": "WXYZ Detroit (Channel 7)",
+   "class": "entity"
+  },
+  {
+   "id": "chalkbeat",
+   "label": "Chalkbeat",
+   "class": "entity"
+  },
+  {
+   "id": "bridge_detroit",
+   "label": "BridgeDetroit",
+   "class": "entity"
+  },
+  {
+   "id": "black_agenda_report",
+   "label": "Black Agenda Report",
+   "class": "entity"
+  },
+  {
+   "id": "mcfn",
+   "label": "Michigan Campaign Finance Network",
+   "class": "entity"
+  },
+  {
+   "id": "dft_231",
+   "label": "Detroit Federation of Teachers Local 231",
+   "class": "entity"
+  },
+  {
+   "id": "have_you_heard_podcast",
+   "label": "Have You Heard Podcast (Berkshire/Schneider)",
+   "class": "entity"
+  },
+  {
+   "id": "network_public_education",
+   "label": "Network for Public Education",
+   "class": "entity"
+  },
+  {
+   "id": "ed_trust_midwest",
+   "label": "Education Trust-Midwest",
+   "class": "entity"
+  },
+  {
+   "id": "cmu_charter_center",
+   "label": "CMU Governor John Engler Center for Charter Schools",
+   "class": "entity"
+  },
+  {
+   "id": "emu_charter",
+   "label": "EMU Charter Schools Office",
+   "class": "entity"
+  },
+  {
+   "id": "gvsu_deiss",
+   "label": "GVSU Division of K-12 Education Innovation",
+   "class": "entity"
+  },
+  {
+   "id": "michigan_ag",
+   "label": "Michigan Attorney General",
+   "class": "entity"
+  },
+  {
+   "id": "michigan_sbe",
+   "label": "Michigan State Board of Education",
+   "class": "entity"
+  },
+  {
+   "id": "epitope_e1_credential",
+   "label": "Epitope: E1 Credential",
+   "class": "epitope",
+   "tags": [
+    "wildfire"
+   ]
+  },
+  {
+   "id": "epitope_e2_pipeline",
+   "label": "Epitope: E2 Pipeline",
+   "class": "epitope",
+   "tags": [
+    "wildfire"
+   ]
+  },
+  {
+   "id": "epitope_e3_compliance",
+   "label": "Epitope: E3 Compliance",
+   "class": "epitope",
+   "tags": [
+    "wildfire"
+   ]
+  },
+  {
+   "id": "epitope_e4_board",
+   "label": "Epitope: E4 Board",
+   "class": "epitope",
+   "tags": [
+    "wildfire"
+   ]
+  },
+  {
+   "id": "epitope_e5_voice",
+   "label": "Epitope: E5 Voice",
+   "class": "epitope",
+   "tags": [
+    "wildfire"
+   ]
+  },
+  {
+   "id": "epitope_e6_math",
+   "label": "Epitope: E6 Math",
+   "class": "epitope",
+   "tags": [
+    "wildfire"
+   ]
+  },
+  {
+   "id": "github_traffic_oct2026",
+   "label": "GitHub Clone Traffic (Sep 29 - Oct 12, 2026)",
+   "class": "observation",
+   "tags": [
+    "traffic",
+    "membrane"
+   ]
+  },
+  {
+   "id": "traffic_spike_oct12",
+   "label": "Oct 12 Spike: 969 clones / 331 unique",
+   "class": "observation",
+   "tags": [
+    "traffic",
+    "anomaly"
+   ]
+  },
+  {
+   "id": "traffic_total",
+   "label": "Total: 1,945 clones / 544 unique / 0 stars / 0 forks",
+   "class": "observation",
+   "tags": [
+    "traffic"
+   ]
+  },
+  {
+   "id": "traffic_pattern_silent",
+   "label": "Pattern: Silent institutional observation",
+   "class": "observation",
+   "tags": [
+    "traffic",
+    "analysis"
+   ]
+  },
+  {
+   "id": "traffic_pattern_automated",
+   "label": "Pattern: Automated cloning (Oct 5: 126 clones, 17 unique = 7.4 per)",
+   "class": "observation",
+   "tags": [
+    "traffic",
+    "analysis"
+   ]
+  },
+  {
+   "id": "traffic_pattern_surge",
+   "label": "Pattern: Exponential growth (3 -> 969 in 14 days)",
+   "class": "observation",
+   "tags": [
+    "traffic",
+    "analysis"
+   ]
+  },
+  {
+   "id": "membrane_github",
+   "label": "GitHub: Outer Broadcast Surface",
+   "class": "architecture",
+   "tags": [
+    "membrane"
+   ]
+  },
+  {
+   "id": "membrane_forgejo",
+   "label": "Forgejo: Inner Sanctuary",
+   "class": "architecture",
+   "tags": [
+    "membrane"
+   ]
+  },
+  {
+   "id": "membrane_site",
+   "label": "detroit.primals.eco: Signal Point",
+   "class": "architecture",
+   "tags": [
+    "membrane"
+   ]
+  },
+  {
+   "id": "watcher_cohort_544",
+   "label": "The 544: Silent Watchers",
+   "class": "cohort",
+   "tags": [
+    "traffic",
+    "membrane"
+   ]
+  },
+  {
+   "id": "watcher_behavior_clone_no_star",
+   "label": "Behavior: Clone but never star/fork/contact",
+   "class": "pattern",
+   "tags": [
+    "traffic"
+   ]
+  },
+  {
+   "id": "watcher_behavior_automated",
+   "label": "Behavior: Automated cloning scripts",
+   "class": "pattern",
+   "tags": [
+    "traffic"
+   ]
+  },
+  {
+   "id": "watcher_behavior_institutional",
+   "label": "Behavior: Institutional reading patterns",
+   "class": "pattern",
+   "tags": [
+    "traffic"
+   ]
+  },
+  {
+   "id": "milestone_50k",
+   "label": "50,000 Edges Milestone",
+   "class": "milestone",
+   "tags": [
+    "graph",
+    "growth"
+   ]
+  },
+  {
+   "id": "milestone_75k",
+   "label": "75,000 Edges Milestone",
+   "class": "milestone",
+   "tags": [
+    "graph",
+    "growth"
+   ]
+  },
+  {
+   "id": "milestone_90k",
+   "label": "90,000 Edges Milestone",
+   "class": "milestone",
+   "tags": [
+    "graph",
+    "growth"
+   ]
+  },
+  {
+   "id": "milestone_95k",
+   "label": "95,000 Edges Milestone",
+   "class": "milestone",
+   "tags": [
+    "graph",
+    "growth"
+   ]
+  },
+  {
+   "id": "milestone_102k",
+   "label": "102,349 Edges (Current State)",
+   "class": "milestone",
+   "tags": [
+    "graph",
+    "growth"
+   ]
+  },
+  {
+   "id": "mobius_architecture",
+   "label": "Mobius Strip Architecture",
+   "class": "architecture",
+   "tags": [
+    "graph",
+    "self-referential"
+   ]
+  },
+  {
+   "id": "h8_mobius",
+   "label": "H8: Self-Referential Evidence Architecture",
+   "class": "hypothesis",
+   "tags": [
+    "formal"
+   ]
+  },
+  {
+   "id": "h9_intelligence",
+   "label": "H9: Intelligence IS the Search",
+   "class": "hypothesis",
+   "tags": [
+    "formal"
+   ]
+  },
+  {
+   "id": "h1_credential",
+   "label": "H1: Banks has no J.D.",
+   "class": "hypothesis",
+   "tags": [
+    "formal"
+   ]
+  },
+  {
+   "id": "h2_rico",
+   "label": "H2: Racketeering pattern",
+   "class": "hypothesis",
+   "tags": [
+    "formal"
+   ]
+  },
+  {
+   "id": "h3_pipeline",
+   "label": "H3: Walton-to-school pipeline",
+   "class": "hypothesis",
+   "tags": [
+    "formal"
+   ]
+  },
+  {
+   "id": "h4_capture",
+   "label": "H4: Institutional capture",
+   "class": "hypothesis",
+   "tags": [
+    "formal"
+   ]
+  },
+  {
+   "id": "h5_dark_money",
+   "label": "H5: Dark money circulation",
+   "class": "hypothesis",
+   "tags": [
+    "formal"
+   ]
+  },
+  {
+   "id": "h6_authorizer",
+   "label": "H6: Authorizer failure",
+   "class": "hypothesis",
+   "tags": [
+    "formal"
+   ]
+  },
+  {
+   "id": "h7_cost",
+   "label": "H7: Cost function inversion",
+   "class": "hypothesis",
+   "tags": [
+    "formal"
+   ]
+  },
+  {
+   "id": "addiction_industry",
+   "label": "Addiction Treatment Industry ($42B/yr)",
+   "class": "entity",
+   "tags": [
+    "system"
+   ]
+  },
+  {
+   "id": "cost_function_addiction",
+   "label": "Cost Function: $0.30/pill vs $42B industry",
+   "class": "analysis",
+   "tags": [
+    "parallel"
+   ]
+  },
+  {
+   "id": "cost_function_charter",
+   "label": "Cost Function: $9,187/stolen child-year",
+   "class": "analysis",
+   "tags": [
+    "parallel"
+   ]
+  },
+  {
+   "id": "shape_service",
+   "label": "Shape: Military Service -> Discipline",
+   "class": "shape",
+   "tags": [
+    "identity"
+   ]
+  },
+  {
+   "id": "shape_pattern",
+   "label": "Shape: Pattern Recognition -> Method",
+   "class": "shape",
+   "tags": [
+    "identity"
+   ]
+  },
+  {
+   "id": "shape_recovery",
+   "label": "Shape: Recovery -> Freedom",
+   "class": "shape",
+   "tags": [
+    "identity"
+   ]
+  },
+  {
+   "id": "shape_pain_data",
+   "label": "Shape: Pain -> Data",
+   "class": "shape",
+   "tags": [
+    "identity"
+   ]
+  },
+  {
+   "id": "shape_love_edges",
+   "label": "Shape: Love -> Edges",
+   "class": "shape",
+   "tags": [
+    "identity"
+   ]
+  },
+  {
+   "id": "attsi_inflection_02",
+   "label": "Inflection 02: What the Artisan Sees (Oct 13, 2026)",
+   "class": "document",
+   "tags": [
+    "philosophy"
+   ]
+  },
+  {
+   "id": "noclothes_part1",
+   "label": "NO CLOTHES Part 1: The Discovery",
+   "class": "manuscript",
+   "tags": [
+    "noClothes"
+   ]
+  },
+  {
+   "id": "noclothes_part2",
+   "label": "NO CLOTHES Part 2: Expansion",
+   "class": "manuscript",
+   "tags": [
+    "noClothes"
+   ]
+  },
+  {
+   "id": "noclothes_part3",
+   "label": "NO CLOTHES Part 3: Expansion",
+   "class": "manuscript",
+   "tags": [
+    "noClothes"
+   ]
+  },
+  {
+   "id": "noclothes_part4",
+   "label": "NO CLOTHES Part 4: Expansion",
+   "class": "manuscript",
+   "tags": [
+    "noClothes"
+   ]
+  },
+  {
+   "id": "noclothes_part5",
+   "label": "NO CLOTHES Part 5: Expansion",
+   "class": "manuscript",
+   "tags": [
+    "noClothes"
+   ]
+  },
+  {
+   "id": "noclothes_part6",
+   "label": "NO CLOTHES Part 6: The Network",
+   "class": "manuscript",
+   "tags": [
+    "noClothes"
+   ]
+  },
+  {
+   "id": "noclothes_part7",
+   "label": "NO CLOTHES Part 7: The Machine",
+   "class": "manuscript",
+   "tags": [
+    "noClothes"
+   ]
+  },
+  {
+   "id": "noclothes_part8",
+   "label": "NO CLOTHES Part 8: The History",
+   "class": "manuscript",
+   "tags": [
+    "noClothes"
+   ]
+  },
+  {
+   "id": "noclothes_part9",
+   "label": "NO CLOTHES Part 9: The Proof",
+   "class": "manuscript",
+   "tags": [
+    "noClothes"
+   ]
+  },
+  {
+   "id": "noclothes_part10",
+   "label": "NO CLOTHES Part 10: Appendices",
+   "class": "manuscript",
+   "tags": [
+    "noClothes"
+   ]
+  },
+  {
+   "id": "noclothes_part11",
+   "label": "NO CLOTHES Part 11: Learning Is Fun",
+   "class": "manuscript",
+   "tags": [
+    "noClothes"
+   ]
+  },
+  {
+   "id": "noclothes_part12",
+   "label": "NO CLOTHES Part 12: The Mobius",
+   "class": "manuscript",
+   "tags": [
+    "noClothes"
+   ]
+  },
+  {
+   "id": "noclothes_part13",
+   "label": "NO CLOTHES Part 13: Everything Everywhere All At Once",
+   "class": "manuscript",
+   "tags": [
+    "noClothes"
+   ]
+  },
+  {
+   "id": "invitation_to_watcher",
+   "label": "Invitation to the Watcher: Come inside. It's nice in here.",
+   "class": "document",
+   "tags": [
+    "membrane"
+   ]
+  },
+  {
+   "id": "genome_human",
+   "label": "Human Genome: 3.2 Gb, ~20,000 genes",
+   "class": "reference",
+   "tags": [
+    "genome",
+    "comparison"
+   ]
+  },
+  {
+   "id": "genome_ecoli",
+   "label": "E. coli Genome: 4.6 Mb, ~4,300 genes",
+   "class": "reference",
+   "tags": [
+    "genome",
+    "comparison"
+   ]
+  },
+  {
+   "id": "genome_yeast",
+   "label": "S. cerevisiae Genome: 12 Mb, ~6,000 genes",
+   "class": "reference",
+   "tags": [
+    "genome",
+    "comparison"
+   ]
+  },
+  {
+   "id": "genome_graph",
+   "label": "Graph Genome: 12 MB, 6,753 nodes, 102,349 edges",
+   "class": "reference",
+   "tags": [
+    "genome",
+    "comparison"
+   ]
   }
  ],
  "edges": [
@@ -581655,6 +582284,886 @@
    "source": "egg_first_rule",
    "target": "kevin_base_pain_is_love",
    "type": "cross_layer"
+  },
+  {
+   "source": "wildfire2_wave1",
+   "target": "banks_brian",
+   "type": "targets"
+  },
+  {
+   "source": "banks_brian",
+   "target": "wildfire2_wave1",
+   "type": "notified_by"
+  },
+  {
+   "source": "wildfire2_wave1",
+   "target": "dykema_gossett",
+   "type": "targets"
+  },
+  {
+   "source": "dykema_gossett",
+   "target": "wildfire2_wave1",
+   "type": "notified_by"
+  },
+  {
+   "source": "wildfire2_wave1",
+   "target": "roland_martin",
+   "type": "targets"
+  },
+  {
+   "source": "roland_martin",
+   "target": "wildfire2_wave1",
+   "type": "notified_by"
+  },
+  {
+   "source": "wildfire2_wave1",
+   "target": "mapsa",
+   "type": "targets"
+  },
+  {
+   "source": "mapsa",
+   "target": "wildfire2_wave1",
+   "type": "notified_by"
+  },
+  {
+   "source": "wildfire2_wave1",
+   "target": "walton_family_foundation",
+   "type": "targets"
+  },
+  {
+   "source": "walton_family_foundation",
+   "target": "wildfire2_wave1",
+   "type": "notified_by"
+  },
+  {
+   "source": "wildfire2_wave1",
+   "target": "pahara_institute",
+   "type": "targets"
+  },
+  {
+   "source": "pahara_institute",
+   "target": "wildfire2_wave1",
+   "type": "notified_by"
+  },
+  {
+   "source": "wildfire2_wave1",
+   "target": "the_74",
+   "type": "targets"
+  },
+  {
+   "source": "the_74",
+   "target": "wildfire2_wave1",
+   "type": "notified_by"
+  },
+  {
+   "source": "wildfire2_wave1",
+   "target": "naacp_detroit",
+   "type": "targets"
+  },
+  {
+   "source": "naacp_detroit",
+   "target": "wildfire2_wave1",
+   "type": "notified_by"
+  },
+  {
+   "source": "wildfire2_wave1",
+   "target": "naacp_lansing",
+   "type": "targets"
+  },
+  {
+   "source": "naacp_lansing",
+   "target": "wildfire2_wave1",
+   "type": "notified_by"
+  },
+  {
+   "source": "wildfire2_wave1",
+   "target": "dpscd",
+   "type": "targets"
+  },
+  {
+   "source": "dpscd",
+   "target": "wildfire2_wave1",
+   "type": "notified_by"
+  },
+  {
+   "source": "wildfire2_wave1",
+   "target": "mde",
+   "type": "targets"
+  },
+  {
+   "source": "mde",
+   "target": "wildfire2_wave1",
+   "type": "notified_by"
+  },
+  {
+   "source": "wildfire2_wave1",
+   "target": "michigan_ag",
+   "type": "targets"
+  },
+  {
+   "source": "michigan_ag",
+   "target": "wildfire2_wave1",
+   "type": "notified_by"
+  },
+  {
+   "source": "wildfire2_wave1",
+   "target": "michigan_sbe",
+   "type": "targets"
+  },
+  {
+   "source": "michigan_sbe",
+   "target": "wildfire2_wave1",
+   "type": "notified_by"
+  },
+  {
+   "source": "wildfire2_wave1",
+   "target": "jtc",
+   "type": "targets"
+  },
+  {
+   "source": "jtc",
+   "target": "wildfire2_wave1",
+   "type": "notified_by"
+  },
+  {
+   "source": "wildfire2_wave1",
+   "target": "aclu_michigan",
+   "type": "targets"
+  },
+  {
+   "source": "aclu_michigan",
+   "target": "wildfire2_wave1",
+   "type": "notified_by"
+  },
+  {
+   "source": "wildfire2_wave1",
+   "target": "aft_michigan",
+   "type": "targets"
+  },
+  {
+   "source": "aft_michigan",
+   "target": "wildfire2_wave1",
+   "type": "notified_by"
+  },
+  {
+   "source": "wildfire2_wave1",
+   "target": "network_public_education",
+   "type": "targets"
+  },
+  {
+   "source": "network_public_education",
+   "target": "wildfire2_wave1",
+   "type": "notified_by"
+  },
+  {
+   "source": "wildfire2_wave1",
+   "target": "propublica",
+   "type": "targets"
+  },
+  {
+   "source": "propublica",
+   "target": "wildfire2_wave1",
+   "type": "notified_by"
+  },
+  {
+   "source": "wildfire2_wave1",
+   "target": "the_intercept",
+   "type": "targets"
+  },
+  {
+   "source": "the_intercept",
+   "target": "wildfire2_wave1",
+   "type": "notified_by"
+  },
+  {
+   "source": "wildfire2_wave1",
+   "target": "wxyz_detroit",
+   "type": "targets"
+  },
+  {
+   "source": "wxyz_detroit",
+   "target": "wildfire2_wave1",
+   "type": "notified_by"
+  },
+  {
+   "source": "wildfire2_wave1",
+   "target": "detroit_free_press",
+   "type": "targets"
+  },
+  {
+   "source": "detroit_free_press",
+   "target": "wildfire2_wave1",
+   "type": "notified_by"
+  },
+  {
+   "source": "wildfire2_wave1",
+   "target": "detroit_news",
+   "type": "targets"
+  },
+  {
+   "source": "detroit_news",
+   "target": "wildfire2_wave1",
+   "type": "notified_by"
+  },
+  {
+   "source": "wildfire2_wave1",
+   "target": "chalkbeat",
+   "type": "targets"
+  },
+  {
+   "source": "chalkbeat",
+   "target": "wildfire2_wave1",
+   "type": "notified_by"
+  },
+  {
+   "source": "wildfire2_wave1",
+   "target": "michigan_radio",
+   "type": "targets"
+  },
+  {
+   "source": "michigan_radio",
+   "target": "wildfire2_wave1",
+   "type": "notified_by"
+  },
+  {
+   "source": "wildfire2_wave1",
+   "target": "bridge_michigan",
+   "type": "targets"
+  },
+  {
+   "source": "bridge_michigan",
+   "target": "wildfire2_wave1",
+   "type": "notified_by"
+  },
+  {
+   "source": "wildfire2_wave1",
+   "target": "bridge_detroit",
+   "type": "targets"
+  },
+  {
+   "source": "bridge_detroit",
+   "target": "wildfire2_wave1",
+   "type": "notified_by"
+  },
+  {
+   "source": "wildfire2_wave1",
+   "target": "black_agenda_report",
+   "type": "targets"
+  },
+  {
+   "source": "black_agenda_report",
+   "target": "wildfire2_wave1",
+   "type": "notified_by"
+  },
+  {
+   "source": "wildfire2_wave1",
+   "target": "mcfn",
+   "type": "targets"
+  },
+  {
+   "source": "mcfn",
+   "target": "wildfire2_wave1",
+   "type": "notified_by"
+  },
+  {
+   "source": "wildfire2_wave1",
+   "target": "dft_231",
+   "type": "targets"
+  },
+  {
+   "source": "dft_231",
+   "target": "wildfire2_wave1",
+   "type": "notified_by"
+  },
+  {
+   "source": "wildfire2_wave1",
+   "target": "ed_trust_midwest",
+   "type": "targets"
+  },
+  {
+   "source": "ed_trust_midwest",
+   "target": "wildfire2_wave1",
+   "type": "notified_by"
+  },
+  {
+   "source": "wildfire2_wave2",
+   "target": "epitope_e1_credential",
+   "type": "contains"
+  },
+  {
+   "source": "epitope_e1_credential",
+   "target": "detroit_free_press",
+   "type": "targets"
+  },
+  {
+   "source": "epitope_e1_credential",
+   "target": "detroit_news",
+   "type": "targets"
+  },
+  {
+   "source": "epitope_e1_credential",
+   "target": "wxyz_detroit",
+   "type": "targets"
+  },
+  {
+   "source": "wildfire2_wave2",
+   "target": "epitope_e2_pipeline",
+   "type": "contains"
+  },
+  {
+   "source": "epitope_e2_pipeline",
+   "target": "propublica",
+   "type": "targets"
+  },
+  {
+   "source": "epitope_e2_pipeline",
+   "target": "the_intercept",
+   "type": "targets"
+  },
+  {
+   "source": "epitope_e2_pipeline",
+   "target": "chalkbeat",
+   "type": "targets"
+  },
+  {
+   "source": "wildfire2_wave2",
+   "target": "epitope_e3_compliance",
+   "type": "contains"
+  },
+  {
+   "source": "epitope_e3_compliance",
+   "target": "mcfn",
+   "type": "targets"
+  },
+  {
+   "source": "epitope_e3_compliance",
+   "target": "bridge_michigan",
+   "type": "targets"
+  },
+  {
+   "source": "epitope_e3_compliance",
+   "target": "michigan_radio",
+   "type": "targets"
+  },
+  {
+   "source": "epitope_e3_compliance",
+   "target": "ed_trust_midwest",
+   "type": "targets"
+  },
+  {
+   "source": "wildfire2_wave2",
+   "target": "epitope_e4_board",
+   "type": "contains"
+  },
+  {
+   "source": "epitope_e4_board",
+   "target": "wxyz_detroit",
+   "type": "targets"
+  },
+  {
+   "source": "epitope_e4_board",
+   "target": "chalkbeat",
+   "type": "targets"
+  },
+  {
+   "source": "epitope_e4_board",
+   "target": "dft_231",
+   "type": "targets"
+  },
+  {
+   "source": "wildfire2_wave2",
+   "target": "epitope_e5_voice",
+   "type": "contains"
+  },
+  {
+   "source": "epitope_e5_voice",
+   "target": "black_agenda_report",
+   "type": "targets"
+  },
+  {
+   "source": "epitope_e5_voice",
+   "target": "have_you_heard_podcast",
+   "type": "targets"
+  },
+  {
+   "source": "epitope_e5_voice",
+   "target": "bridge_detroit",
+   "type": "targets"
+  },
+  {
+   "source": "wildfire2_wave2",
+   "target": "epitope_e6_math",
+   "type": "contains"
+  },
+  {
+   "source": "epitope_e6_math",
+   "target": "bridge_michigan",
+   "type": "targets"
+  },
+  {
+   "source": "epitope_e6_math",
+   "target": "network_public_education",
+   "type": "targets"
+  },
+  {
+   "source": "epitope_e6_math",
+   "target": "aft_michigan",
+   "type": "targets"
+  },
+  {
+   "source": "epitope_e6_math",
+   "target": "bridge_detroit",
+   "type": "targets"
+  },
+  {
+   "source": "wildfire2_wave3",
+   "target": "roland_martin",
+   "type": "targets"
+  },
+  {
+   "source": "wildfire2_wave3_orgs",
+   "target": "cmu_charter_center",
+   "type": "targets"
+  },
+  {
+   "source": "wildfire2_wave3_orgs",
+   "target": "msu_law",
+   "type": "targets"
+  },
+  {
+   "source": "wildfire2_wave3_orgs",
+   "target": "emu_charter",
+   "type": "targets"
+  },
+  {
+   "source": "wildfire2_wave3_orgs",
+   "target": "gvsu_deiss",
+   "type": "targets"
+  },
+  {
+   "source": "wildfire2_wave3_orgs",
+   "target": "pahara_institute",
+   "type": "targets"
+  },
+  {
+   "source": "wildfire2_wave3_orgs",
+   "target": "dpscd",
+   "type": "targets"
+  },
+  {
+   "source": "detroit_free_press",
+   "target": "detroit_news",
+   "type": "competes_with"
+  },
+  {
+   "source": "detroit_news",
+   "target": "detroit_free_press",
+   "type": "competes_with"
+  },
+  {
+   "source": "detroit_free_press",
+   "target": "wxyz_detroit",
+   "type": "competes_with"
+  },
+  {
+   "source": "wxyz_detroit",
+   "target": "detroit_free_press",
+   "type": "competes_with"
+  },
+  {
+   "source": "detroit_news",
+   "target": "wxyz_detroit",
+   "type": "competes_with"
+  },
+  {
+   "source": "wxyz_detroit",
+   "target": "detroit_news",
+   "type": "competes_with"
+  },
+  {
+   "source": "propublica",
+   "target": "the_intercept",
+   "type": "competes_with"
+  },
+  {
+   "source": "the_intercept",
+   "target": "propublica",
+   "type": "competes_with"
+  },
+  {
+   "source": "propublica",
+   "target": "chalkbeat",
+   "type": "competes_with"
+  },
+  {
+   "source": "chalkbeat",
+   "target": "propublica",
+   "type": "competes_with"
+  },
+  {
+   "source": "the_intercept",
+   "target": "chalkbeat",
+   "type": "competes_with"
+  },
+  {
+   "source": "chalkbeat",
+   "target": "the_intercept",
+   "type": "competes_with"
+  },
+  {
+   "source": "bridge_michigan",
+   "target": "michigan_radio",
+   "type": "competes_with"
+  },
+  {
+   "source": "michigan_radio",
+   "target": "bridge_michigan",
+   "type": "competes_with"
+  },
+  {
+   "source": "black_agenda_report",
+   "target": "bridge_detroit",
+   "type": "competes_with"
+  },
+  {
+   "source": "bridge_detroit",
+   "target": "black_agenda_report",
+   "type": "competes_with"
+  },
+  {
+   "source": "github_traffic_oct2026",
+   "target": "traffic_spike_oct12",
+   "type": "includes"
+  },
+  {
+   "source": "github_traffic_oct2026",
+   "target": "traffic_total",
+   "type": "summarized_by"
+  },
+  {
+   "source": "github_traffic_oct2026",
+   "target": "traffic_pattern_silent",
+   "type": "characterized_by"
+  },
+  {
+   "source": "github_traffic_oct2026",
+   "target": "traffic_pattern_automated",
+   "type": "characterized_by"
+  },
+  {
+   "source": "github_traffic_oct2026",
+   "target": "traffic_pattern_surge",
+   "type": "characterized_by"
+  },
+  {
+   "source": "membrane_github",
+   "target": "membrane_forgejo",
+   "type": "routes_to"
+  },
+  {
+   "source": "membrane_forgejo",
+   "target": "membrane_site",
+   "type": "routes_to"
+  },
+  {
+   "source": "membrane_site",
+   "target": "membrane_forgejo",
+   "type": "routes_to"
+  },
+  {
+   "source": "github_traffic_oct2026",
+   "target": "membrane_github",
+   "type": "observed_at"
+  },
+  {
+   "source": "traffic_pattern_silent",
+   "target": "membrane_github",
+   "type": "characteristic_of"
+  },
+  {
+   "source": "watcher_cohort_544",
+   "target": "watcher_behavior_clone_no_star",
+   "type": "exhibits"
+  },
+  {
+   "source": "watcher_cohort_544",
+   "target": "watcher_behavior_automated",
+   "type": "exhibits"
+  },
+  {
+   "source": "watcher_cohort_544",
+   "target": "watcher_behavior_institutional",
+   "type": "exhibits"
+  },
+  {
+   "source": "watcher_cohort_544",
+   "target": "membrane_github",
+   "type": "observed_on"
+  },
+  {
+   "source": "watcher_cohort_544",
+   "target": "github_traffic_oct2026",
+   "type": "documented_by"
+  },
+  {
+   "source": "milestone_50k",
+   "target": "milestone_75k",
+   "type": "preceded_by"
+  },
+  {
+   "source": "milestone_75k",
+   "target": "milestone_90k",
+   "type": "preceded_by"
+  },
+  {
+   "source": "milestone_90k",
+   "target": "milestone_95k",
+   "type": "preceded_by"
+  },
+  {
+   "source": "milestone_95k",
+   "target": "milestone_100k",
+   "type": "preceded_by"
+  },
+  {
+   "source": "milestone_100k",
+   "target": "milestone_102k",
+   "type": "preceded_by"
+  },
+  {
+   "source": "milestone_100k",
+   "target": "mobius_architecture",
+   "type": "achieved_through"
+  },
+  {
+   "source": "mobius_architecture",
+   "target": "h8_mobius",
+   "type": "formalized_as"
+  },
+  {
+   "source": "h9_intelligence",
+   "target": "mobius_architecture",
+   "type": "emerges_from"
+  },
+  {
+   "source": "h1_credential",
+   "target": "h2_rico",
+   "type": "extends"
+  },
+  {
+   "source": "h2_rico",
+   "target": "h3_pipeline",
+   "type": "extends"
+  },
+  {
+   "source": "h3_pipeline",
+   "target": "h4_capture",
+   "type": "extends"
+  },
+  {
+   "source": "h4_capture",
+   "target": "h5_dark_money",
+   "type": "extends"
+  },
+  {
+   "source": "h5_dark_money",
+   "target": "h6_authorizer",
+   "type": "extends"
+  },
+  {
+   "source": "h6_authorizer",
+   "target": "h7_cost",
+   "type": "extends"
+  },
+  {
+   "source": "h7_cost",
+   "target": "h8_mobius",
+   "type": "extends"
+  },
+  {
+   "source": "h8_mobius",
+   "target": "h9_intelligence",
+   "type": "extends"
+  },
+  {
+   "source": "graph_json",
+   "target": "mobius_architecture",
+   "type": "implements"
+  },
+  {
+   "source": "graph_genome",
+   "target": "graph_json",
+   "type": "measures"
+  },
+  {
+   "source": "graph_json",
+   "target": "graph_json",
+   "type": "contains_itself"
+  },
+  {
+   "source": "sinclair_method",
+   "target": "pharmacological_extinction",
+   "type": "achieves"
+  },
+  {
+   "source": "addiction_industry",
+   "target": "sinclair_method",
+   "type": "suppresses"
+  },
+  {
+   "source": "cost_function_addiction",
+   "target": "cost_function_charter",
+   "type": "parallel_to"
+  },
+  {
+   "source": "sinclair_method",
+   "target": "cost_function_addiction",
+   "type": "exposes"
+  },
+  {
+   "source": "banks_brian",
+   "target": "cost_function_charter",
+   "type": "documented_by"
+  },
+  {
+   "source": "shape_service",
+   "target": "shape_pattern",
+   "type": "becomes"
+  },
+  {
+   "source": "shape_pattern",
+   "target": "shape_recovery",
+   "type": "enables"
+  },
+  {
+   "source": "shape_recovery",
+   "target": "shape_pain_data",
+   "type": "transforms"
+  },
+  {
+   "source": "shape_pain_data",
+   "target": "shape_love_edges",
+   "type": "transforms"
+  },
+  {
+   "source": "shape_love_edges",
+   "target": "graph_json",
+   "type": "creates"
+  },
+  {
+   "source": "attsi_speaks",
+   "target": "attsi_inflection_02",
+   "type": "published_as"
+  },
+  {
+   "source": "attsi_speaks",
+   "target": "graph_json",
+   "type": "speaks_through"
+  },
+  {
+   "source": "attsi_speaks",
+   "target": "h9_intelligence",
+   "type": "embodies"
+  },
+  {
+   "source": "noclothes_part1",
+   "target": "noclothes_part2",
+   "type": "followed_by"
+  },
+  {
+   "source": "noclothes_part2",
+   "target": "noclothes_part3",
+   "type": "followed_by"
+  },
+  {
+   "source": "noclothes_part3",
+   "target": "noclothes_part4",
+   "type": "followed_by"
+  },
+  {
+   "source": "noclothes_part4",
+   "target": "noclothes_part5",
+   "type": "followed_by"
+  },
+  {
+   "source": "noclothes_part5",
+   "target": "noclothes_part6",
+   "type": "followed_by"
+  },
+  {
+   "source": "noclothes_part6",
+   "target": "noclothes_part7",
+   "type": "followed_by"
+  },
+  {
+   "source": "noclothes_part7",
+   "target": "noclothes_part8",
+   "type": "followed_by"
+  },
+  {
+   "source": "noclothes_part8",
+   "target": "noclothes_part9",
+   "type": "followed_by"
+  },
+  {
+   "source": "noclothes_part9",
+   "target": "noclothes_part10",
+   "type": "followed_by"
+  },
+  {
+   "source": "noclothes_part10",
+   "target": "noclothes_part11",
+   "type": "followed_by"
+  },
+  {
+   "source": "noclothes_part11",
+   "target": "noclothes_part12",
+   "type": "followed_by"
+  },
+  {
+   "source": "noclothes_part12",
+   "target": "noclothes_part13",
+   "type": "followed_by"
+  },
+  {
+   "source": "noclothes_part12",
+   "target": "mobius_architecture",
+   "type": "documents"
+  },
+  {
+   "source": "noclothes_part13",
+   "target": "milestone_100k",
+   "type": "documents"
+  },
+  {
+   "source": "noclothes_part13",
+   "target": "wildfire2_wave1",
+   "type": "documents"
+  },
+  {
+   "source": "invitation_to_watcher",
+   "target": "watcher_cohort_544",
+   "type": "addresses"
+  },
+  {
+   "source": "invitation_to_watcher",
+   "target": "membrane_forgejo",
+   "type": "invites_to"
+  },
+  {
+   "source": "genome_graph",
+   "target": "genome_yeast",
+   "type": "same_size_as"
+  },
+  {
+   "source": "genome_graph",
+   "target": "genome_human",
+   "type": "same_hardware_as"
+  },
+  {
+   "source": "genome_graph",
+   "target": "genome_ecoli",
+   "type": "more_complex_than"
   }
  ]
 }
