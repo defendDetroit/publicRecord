@@ -87502,6 +87502,53 @@
     "architecture",
     "transparency"
    ]
+  },
+  {
+   "id": "story-golden-cage",
+   "label": "STORY: The Golden Cage — When Infrastructure Traps Its Builders\n\nAWS started as Amazon's internal infrastructure, opened to the public in 2006. Within a decade, it was generating more profit than Amazon's retail business. The cage: once you build on AWS, leaving costs more than staying. Your data is in their buckets. Your code uses their APIs. Your networking is their VPC. Migration cost: months of engineering time. The cage is golden because it works. That's what makes it a cage.\n\nGoogle Workspace: free for schools. Free until every teacher's lesson plan, every student's assignment, every school's calendar is in Google Drive. Then: 'we're adjusting our storage policies.' The cage closes.\n\nMicrosoft 365: same pattern. Free for education. Azure for compute. Teams for communication. Active Directory for identity. Every piece works. Every piece locks in. The cage is the integration.\n\nThe Golden Cage is 24,000 words on how platform dependency works structurally — not as conspiracy but as architecture. The platforms aren't evil. They're optimized. The optimization is: maximize switching cost. The switching cost IS the cage.\n\necoPrimals inverts the cage by making every component sovereign and substitutable:\n\n- Storage: NestGate. Your data on your hardware. Portable by design. No API lock-in because the API IS the AGPL source code.\n- Compute: ToadStool. Your GPU. Your CPU. Your NPU. Orchestration that runs anywhere because it's Pure Rust with zero cloud dependencies.\n- Identity: BearDog. Your keys. Your certificates. Your trust chain. No Active Directory. No OAuth provider as single point of capture.\n- Communication: Songbird. Your messages. Your protocols. Your network. No Teams. No Slack. No platform reading your messages to train their models.\n\nThe golden cage works because the gold is real. AWS really is convenient. Google Drive really is easy. Teams really does integrate with everything.\n\nThe sovereign alternative works because freedom is worth more than convenience. Not to everyone. Not today. But to enough people, eventually, that the cage stops being the only option.\n\nThat's the gen4 thesis: not 'destroy the cage.' Build a door.",
+   "class": "story",
+   "tags": [
+    "whitepaper",
+    "gen4",
+    "architecture",
+    "sovereignty"
+   ]
+  },
+  {
+   "id": "story-swarmvine",
+   "label": "STORY: SwarmVine — 28,000 Words on How Ants Build Civilizations Without Leaders\n\nA leaf-cutter ant colony contains 8 million individuals. No leader. No central planner. No communication faster than pheromone diffusion. Yet they:\n\n- Cultivate fungus gardens (agriculture invented 50 million years before humans)\n- Maintain climate-controlled chambers (HVAC without engineering)\n- Wage wars against neighboring colonies (military strategy without generals)\n- Allocate workers to tasks based on colony need (labor markets without economists)\n\nThe SwarmVine architecture models distributed coordination using ant colony optimization — but applied to sovereign computing nodes instead of insects.\n\nPHEROMONE TRAILS = GOSSIP PROTOCOLS: Ants deposit pheromone on paths that lead to food. Better paths get more pheromone. Bad paths evaporate. In SwarmVine, nodes deposit 'computational pheromone' on network paths that successfully route computation. Good routes get reinforced. Dead routes evaporate.\n\nNUCLEUS ATOMICS: The queen ant doesn't command — she reproduces. The nucleus node in SwarmVine doesn't command — it stores the canonical state. Other nodes can diverge, explore, compute speculatively. When they find something valuable, they report back. The nucleus integrates.\n\nTASK ALLOCATION: Ants switch tasks based on local stimulus intensity. A forager encountering too many returning foragers switches to nest maintenance. In SwarmVine, compute nodes switch tasks based on local queue depth. A node overwhelmed with physics computation sheds bioinformatics tasks to neighbors.\n\n28,000 words because distributed coordination is the hardest problem in computing. Not technically hard — the algorithms exist. Socially hard. How do you coordinate without hierarchy? How do you allocate without markets? How do you maintain coherence without control?\n\nAnts solved it 100 million years ago. SwarmVine just implemented the solution in Rust.",
+   "class": "story",
+   "tags": [
+    "whitepaper",
+    "subGen",
+    "distributed",
+    "biology",
+    "architecture"
+   ]
+  },
+  {
+   "id": "story-sovereign-lab",
+   "label": "STORY: The Sovereign Lab — $11,000 and a Dream That Compiled\n\nThe inventory:\n- 2x RTX 3090 (used, $600 each): GPU compute\n- 1x RTX 4070: Primary development GPU\n- 1x AMD Ryzen 9 5950X: 16 cores, 32 threads\n- 1x AMD Ryzen 7 5700X: 8 cores, 16 threads\n- 128 GB DDR4 across two machines\n- 4 TB NVMe, 8 TB HDD: Storage\n- Ubiquiti networking: Sovereign mesh\n- AKD1000 (Akida neuromorphic): 1M spiking neurons\n- Coral TPU: Edge ML inference\n\nTotal: ~$11,000. Used hardware. Consumer-grade. The same components you'd find in a gaming PC, a home server, and a Raspberry Pi cluster.\n\nWhat it runs:\n- Lattice QCD at production scale (32^4 volumes, deconfinement phase transition)\n- Sovereign bioinformatics (16S rRNA, metagenomics, metabolomics)\n- Precision agriculture (evapotranspiration, soil modeling, crop phenology)\n- Neuromorphic computing (spiking neural networks on real neuromorphic hardware)\n- Fully homomorphic encryption (AES, NTT/FFT, encrypted MNIST inference)\n- Machine learning (PINN, DeepONet, LeNet-5, LSTM, quantized inference)\n- Game engine development (RPGPT, procedural generation, wave function collapse)\n- Legal investigation (graph analysis, network topology, public record parsing)\n\n$11,000 of hardware doing work that institutional labs spend millions on. Not because the hardware is magic — because the software is sovereign. Pure Rust. AGPL. Composable primals. No cloud dependency. No subscription. No vendor lock-in.\n\nThe $11,000 lab has produced:\n- 15,334+ validation checks across 7 scientific domains\n- 70+ scientific papers reproduced from scratch\n- 14 composable computing primals\n- A 162,000-edge public accountability graph\n- A 50,000-word book\n- 968 whitepaper documents\n- 2.5 million words of documented thought\n\nInstitutions will say this isn't rigorous. The validation checks say otherwise. Institutions will say this isn't scalable. The generational arc says otherwise. Institutions will say one person can't do this.\n\nOne person did.",
+   "class": "story",
+   "tags": [
+    "whitepaper",
+    "outreach",
+    "medium",
+    "hardware",
+    "sovereignty"
+   ]
+  },
+  {
+   "id": "story-kingdom-builders",
+   "label": "STORY: The Kingdom Builders — When Charity Becomes Empire\n\nThere is a pattern. It appears in every American city. It appears wherever philanthropy meets education meets politics.\n\nA foundation gives money to schools. The schools produce data. The data justifies more giving. The giving produces more schools. The schools need management. The management needs credentials. The credentials need fellowships. The fellowships need foundations.\n\nThe cycle is closed. The foundation funds the fellowship that credentials the manager that runs the school that produces the data that justifies the foundation. Every dollar stays inside the loop. Every career depends on the loop continuing.\n\nFrom the outside, it looks like generosity. From the inside, it's an empire.\n\nThe Walton Family Foundation gave $3 million to Pahara Institute. Pahara credentialed Brian Banks through a leadership fellowship. Banks ran Purpose Charter Academy. PCA had 3% math proficiency. The Walton Foundation continued funding charter school advocacy in Michigan.\n\nThe DeVos Foundation gave millions to charter school organizations. The organizations lobbied for deregulation. Deregulation removed oversight. Removed oversight allowed boards with felons. Boards with felons protected operators with failing schools. Failing schools continued receiving per-pupil funding.\n\n$4.3 million from Walton to the Michigan charter lobby. $3 million to the fellowship that credentialed a 9-time convicted felon. Every dollar traceable through their own published grant reports.\n\nThe kingdom builders don't intend evil. They intend kingdoms. The intent doesn't matter — the structure does. When the structure creates a closed loop where failure is funded and accountability is structurally impossible, the intent is irrelevant.\n\nThe graph breaks the loop by making the loop visible. 162,000+ edges. Every connection documented. Every dollar traced. Every credential sourced.\n\nYou can't maintain a kingdom when the peasants can read the books.",
+   "class": "story",
+   "tags": [
+    "whitepaper",
+    "outreach",
+    "medium",
+    "detroit",
+    "accountability"
+   ]
   }
  ],
  "edges": [
@@ -900548,6 +900595,591 @@
   {
    "source": "story-confession-architecture",
    "target": "sackler_family",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-golden-cage",
+   "target": "whitepaper",
+   "type": "published_in"
+  },
+  {
+   "source": "story-golden-cage",
+   "target": "ecoprimal",
+   "type": "authored_by"
+  },
+  {
+   "source": "whitepaper",
+   "target": "story-golden-cage",
+   "type": "contains_story"
+  },
+  {
+   "source": "story-swarmvine",
+   "target": "whitepaper",
+   "type": "published_in"
+  },
+  {
+   "source": "story-swarmvine",
+   "target": "ecoprimal",
+   "type": "authored_by"
+  },
+  {
+   "source": "whitepaper",
+   "target": "story-swarmvine",
+   "type": "contains_story"
+  },
+  {
+   "source": "story-sovereign-lab",
+   "target": "whitepaper",
+   "type": "published_in"
+  },
+  {
+   "source": "story-sovereign-lab",
+   "target": "ecoprimal",
+   "type": "authored_by"
+  },
+  {
+   "source": "whitepaper",
+   "target": "story-sovereign-lab",
+   "type": "contains_story"
+  },
+  {
+   "source": "story-kingdom-builders",
+   "target": "whitepaper",
+   "type": "published_in"
+  },
+  {
+   "source": "story-kingdom-builders",
+   "target": "ecoprimal",
+   "type": "authored_by"
+  },
+  {
+   "source": "whitepaper",
+   "target": "story-kingdom-builders",
+   "type": "contains_story"
+  },
+  {
+   "source": "story-golden-cage",
+   "target": "story-swarmvine",
+   "type": "related_story"
+  },
+  {
+   "source": "story-golden-cage",
+   "target": "story-sovereign-lab",
+   "type": "related_story"
+  },
+  {
+   "source": "story-golden-cage",
+   "target": "story-kingdom-builders",
+   "type": "related_story"
+  },
+  {
+   "source": "story-swarmvine",
+   "target": "story-sovereign-lab",
+   "type": "related_story"
+  },
+  {
+   "source": "story-swarmvine",
+   "target": "story-kingdom-builders",
+   "type": "related_story"
+  },
+  {
+   "source": "story-sovereign-lab",
+   "target": "story-kingdom-builders",
+   "type": "related_story"
+  },
+  {
+   "source": "story-golden-cage",
+   "target": "story-scyborg",
+   "type": "related_story"
+  },
+  {
+   "source": "story-golden-cage",
+   "target": "story-pursuit-predation",
+   "type": "related_story"
+  },
+  {
+   "source": "story-golden-cage",
+   "target": "story-three-modalities",
+   "type": "related_story"
+  },
+  {
+   "source": "story-golden-cage",
+   "target": "story-bio-pid",
+   "type": "related_story"
+  },
+  {
+   "source": "story-golden-cage",
+   "target": "story-letter-gabe",
+   "type": "related_story"
+  },
+  {
+   "source": "story-golden-cage",
+   "target": "story-mobility-edge",
+   "type": "related_story"
+  },
+  {
+   "source": "story-golden-cage",
+   "target": "story-silicon-deism",
+   "type": "related_story"
+  },
+  {
+   "source": "story-golden-cage",
+   "target": "story-confession-architecture",
+   "type": "related_story"
+  },
+  {
+   "source": "story-swarmvine",
+   "target": "story-scyborg",
+   "type": "related_story"
+  },
+  {
+   "source": "story-swarmvine",
+   "target": "story-pursuit-predation",
+   "type": "related_story"
+  },
+  {
+   "source": "story-swarmvine",
+   "target": "story-three-modalities",
+   "type": "related_story"
+  },
+  {
+   "source": "story-swarmvine",
+   "target": "story-bio-pid",
+   "type": "related_story"
+  },
+  {
+   "source": "story-swarmvine",
+   "target": "story-letter-gabe",
+   "type": "related_story"
+  },
+  {
+   "source": "story-swarmvine",
+   "target": "story-mobility-edge",
+   "type": "related_story"
+  },
+  {
+   "source": "story-swarmvine",
+   "target": "story-silicon-deism",
+   "type": "related_story"
+  },
+  {
+   "source": "story-swarmvine",
+   "target": "story-confession-architecture",
+   "type": "related_story"
+  },
+  {
+   "source": "story-sovereign-lab",
+   "target": "story-scyborg",
+   "type": "related_story"
+  },
+  {
+   "source": "story-sovereign-lab",
+   "target": "story-pursuit-predation",
+   "type": "related_story"
+  },
+  {
+   "source": "story-sovereign-lab",
+   "target": "story-three-modalities",
+   "type": "related_story"
+  },
+  {
+   "source": "story-sovereign-lab",
+   "target": "story-bio-pid",
+   "type": "related_story"
+  },
+  {
+   "source": "story-sovereign-lab",
+   "target": "story-letter-gabe",
+   "type": "related_story"
+  },
+  {
+   "source": "story-sovereign-lab",
+   "target": "story-mobility-edge",
+   "type": "related_story"
+  },
+  {
+   "source": "story-sovereign-lab",
+   "target": "story-silicon-deism",
+   "type": "related_story"
+  },
+  {
+   "source": "story-sovereign-lab",
+   "target": "story-confession-architecture",
+   "type": "related_story"
+  },
+  {
+   "source": "story-kingdom-builders",
+   "target": "story-scyborg",
+   "type": "related_story"
+  },
+  {
+   "source": "story-kingdom-builders",
+   "target": "story-pursuit-predation",
+   "type": "related_story"
+  },
+  {
+   "source": "story-kingdom-builders",
+   "target": "story-three-modalities",
+   "type": "related_story"
+  },
+  {
+   "source": "story-kingdom-builders",
+   "target": "story-bio-pid",
+   "type": "related_story"
+  },
+  {
+   "source": "story-kingdom-builders",
+   "target": "story-letter-gabe",
+   "type": "related_story"
+  },
+  {
+   "source": "story-kingdom-builders",
+   "target": "story-mobility-edge",
+   "type": "related_story"
+  },
+  {
+   "source": "story-kingdom-builders",
+   "target": "story-silicon-deism",
+   "type": "related_story"
+  },
+  {
+   "source": "story-kingdom-builders",
+   "target": "story-confession-architecture",
+   "type": "related_story"
+  },
+  {
+   "source": "story-golden-cage",
+   "target": "wp-golden-cage",
+   "type": "tells_story_of"
+  },
+  {
+   "source": "story-golden-cage",
+   "target": "wp-gen4",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-golden-cage",
+   "target": "primal-nestgate",
+   "type": "frees_from"
+  },
+  {
+   "source": "story-golden-cage",
+   "target": "primal-toadstool",
+   "type": "frees_from"
+  },
+  {
+   "source": "story-golden-cage",
+   "target": "primal-beardog",
+   "type": "frees_from"
+  },
+  {
+   "source": "story-golden-cage",
+   "target": "primal-songbird",
+   "type": "frees_from"
+  },
+  {
+   "source": "story-swarmvine",
+   "target": "wp-sg-swarmvine",
+   "type": "tells_story_of"
+  },
+  {
+   "source": "story-swarmvine",
+   "target": "wp-subGen",
+   "type": "exemplifies"
+  },
+  {
+   "source": "story-swarmvine",
+   "target": "evolution",
+   "type": "demonstrates"
+  },
+  {
+   "source": "story-sovereign-lab",
+   "target": "wp-med-sovereign-lab",
+   "type": "tells_story_of"
+  },
+  {
+   "source": "story-sovereign-lab",
+   "target": "wp-about-hardware",
+   "type": "inventories"
+  },
+  {
+   "source": "story-sovereign-lab",
+   "target": "wp-15334-checks",
+   "type": "produces"
+  },
+  {
+   "source": "story-sovereign-lab",
+   "target": "wp-70-papers",
+   "type": "reproduces"
+  },
+  {
+   "source": "story-sovereign-lab",
+   "target": "wp-primals",
+   "type": "runs"
+  },
+  {
+   "source": "story-sovereign-lab",
+   "target": "wp-springs",
+   "type": "validates"
+  },
+  {
+   "source": "story-kingdom-builders",
+   "target": "wp-med-kingdom",
+   "type": "tells_story_of"
+  },
+  {
+   "source": "story-kingdom-builders",
+   "target": "banks",
+   "type": "exposes"
+  },
+  {
+   "source": "story-kingdom-builders",
+   "target": "pca",
+   "type": "investigates"
+  },
+  {
+   "source": "story-kingdom-builders",
+   "target": "data_990_devos_foundation",
+   "type": "traces"
+  },
+  {
+   "source": "story-kingdom-builders",
+   "target": "money_pipeline",
+   "type": "maps"
+  },
+  {
+   "source": "story-kingdom-builders",
+   "target": "public_education",
+   "type": "defends"
+  },
+  {
+   "source": "story-kingdom-builders",
+   "target": "three_percent_math",
+   "type": "quantifies"
+  },
+  {
+   "source": "story-kingdom-builders",
+   "target": "detroit_city",
+   "type": "fights_for"
+  },
+  {
+   "source": "story-golden-cage",
+   "target": "banks",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-golden-cage",
+   "target": "public_education",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-golden-cage",
+   "target": "detroit_city",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-golden-cage",
+   "target": "ecoprimal",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-golden-cage",
+   "target": "opioid_crisis",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-golden-cage",
+   "target": "evolution",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-golden-cage",
+   "target": "signal_1st",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-golden-cage",
+   "target": "sackler_family",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-golden-cage",
+   "target": "cmu",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-golden-cage",
+   "target": "plante_moran",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-golden-cage",
+   "target": "mde",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-swarmvine",
+   "target": "banks",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-swarmvine",
+   "target": "public_education",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-swarmvine",
+   "target": "detroit_city",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-swarmvine",
+   "target": "ecoprimal",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-swarmvine",
+   "target": "opioid_crisis",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-swarmvine",
+   "target": "evolution",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-swarmvine",
+   "target": "signal_1st",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-swarmvine",
+   "target": "sackler_family",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-swarmvine",
+   "target": "cmu",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-swarmvine",
+   "target": "plante_moran",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-swarmvine",
+   "target": "mde",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-sovereign-lab",
+   "target": "banks",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-sovereign-lab",
+   "target": "public_education",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-sovereign-lab",
+   "target": "detroit_city",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-sovereign-lab",
+   "target": "ecoprimal",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-sovereign-lab",
+   "target": "opioid_crisis",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-sovereign-lab",
+   "target": "evolution",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-sovereign-lab",
+   "target": "signal_1st",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-sovereign-lab",
+   "target": "sackler_family",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-sovereign-lab",
+   "target": "cmu",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-sovereign-lab",
+   "target": "plante_moran",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-sovereign-lab",
+   "target": "mde",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-kingdom-builders",
+   "target": "banks",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-kingdom-builders",
+   "target": "public_education",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-kingdom-builders",
+   "target": "detroit_city",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-kingdom-builders",
+   "target": "ecoprimal",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-kingdom-builders",
+   "target": "opioid_crisis",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-kingdom-builders",
+   "target": "evolution",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-kingdom-builders",
+   "target": "signal_1st",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-kingdom-builders",
+   "target": "sackler_family",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-kingdom-builders",
+   "target": "cmu",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-kingdom-builders",
+   "target": "plante_moran",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-kingdom-builders",
+   "target": "mde",
    "type": "contextualizes"
   }
  ]
