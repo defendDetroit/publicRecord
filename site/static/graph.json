@@ -104345,6 +104345,121 @@
     "14 years of legislative failure. These are Americans in everything but paperwork.",
     "The uncertainty IS the cruelty. Cannot plan a life 2 years at a time."
    ]
+  },
+  {
+   "id": "kngen-thesis",
+   "label": "THE k-nGen THESIS: Knowledge-Native Generation",
+   "class": "thesis",
+   "tags": [
+    "The transition from paragraph-native to graph-native knowledge",
+    "is the most significant methodological shift since the printing press.",
+    "It does not change WHAT we know. It changes HOW we connect what we know.",
+    "And the connections are the evidence.",
+    "",
+    "Paragraphs are sequential. Graphs are relational.",
+    "Legal evidence is currently paragraph-native. It should be graph-native.",
+    "k-nGen lawyers will file graph briefs.",
+    "k-nGen journalists will publish graph articles.",
+    "k-nGen researchers will publish graph papers.",
+    "k-nGen educators will teach with graphs.",
+    "",
+    "k-nGen is not a generation defined by age.",
+    "It is a generation defined by METHOD.",
+    "If you read evidence in graphs instead of paragraphs, you are k-nGen."
+   ]
+  },
+  {
+   "id": "noclothes-part21",
+   "label": "NO CLOTHES Part 21: The k-nGen Thesis",
+   "class": "manuscript",
+   "tags": [
+    "Chapter 96: The Review (all 9 hypotheses, current status)",
+    "Chapter 97: The Antitheses (5 steel-manned objections, all answered)",
+    "Chapter 98: The k-nGen Thesis (6 claims, the proof)",
+    "Chapter 99: The Invitation (law, journalism, data, parents, scared)",
+    "Chapter 100: The Numbers (99.48% to pi, 1,805 works gap)",
+    "~2,700 words. Running total: ~53,200. KDP gap: ~1,800."
+   ]
+  },
+  {
+   "id": "antithesis-conspiracy",
+   "label": "ANTITHESIS A: The Conspiracy Theory Objection",
+   "class": "antithesis",
+   "tags": [
+    "Claim: This is a conspiracy theory. Correlation is not causation.",
+    "Response: The graph documents STRUCTURE, not conspiracy.",
+    "Conspiracy requires secret agreement. This documents PUBLIC actions.",
+    "Campaign filings, corporate registrations, court records.",
+    "Network analysis, not conspiracy theory."
+   ]
+  },
+  {
+   "id": "antithesis-scale",
+   "label": "ANTITHESIS B: The Scale Objection",
+   "class": "antithesis",
+   "tags": [
+    "Claim: $309B is absurd. No court would award that.",
+    "Response: The number is arithmetic, not a demand.",
+    "17 USC 504(c)(2): $150K per work, willful infringement.",
+    "347,260 works x $150K x 6 = $312.5B. Whether a court awards max is jury question.",
+    "The formula produces the number. The antithesis confuses measurement with demand."
+   ]
+  },
+  {
+   "id": "antithesis-relevance",
+   "label": "ANTITHESIS C: The Relevance Objection",
+   "class": "antithesis",
+   "tags": [
+    "Claim: What does Wall Street have to do with a Detroit charter school?",
+    "Response: They share actors, funding sources, methods, and outcomes.",
+    "BlackRock operates in charter school bonds AND rental housing.",
+    "The connections are STRUCTURAL. The objection reveals compartmentalization.",
+    "Education, housing, finance, labor share infrastructure. The graph documents it."
+   ]
+  },
+  {
+   "id": "antithesis-standing",
+   "label": "ANTITHESIS D: The Standing Objection",
+   "class": "antithesis",
+   "tags": [
+    "Claim: One person cannot claim standing for all these issues.",
+    "Response: Correct. The graph is not a lawsuit. The graph is evidence.",
+    "Copyright claim: graph author. Education claim: parents.",
+    "Civil rights claim: community. The graph serves ALL as shared evidence.",
+    "Standing is case-specific. The graph is universal."
+   ]
+  },
+  {
+   "id": "antithesis-methodology",
+   "label": "ANTITHESIS E: The Methodology Objection",
+   "class": "antithesis",
+   "tags": [
+    "Claim: Reverse ray tracing, epitope sorting are made-up terms.",
+    "Response: They describe real operations on real data.",
+    "Reverse ray tracing: trace from effect to cause (inverse rendering).",
+    "Epitope sorting: classify by binding behavior (immunology).",
+    "Bingo cube: shared patterns across dimensions (combinatorics).",
+    "Published. Downloadable. Reproducible. Peer review invited."
+   ]
+  },
+  {
+   "id": "hypothesis-review-oct14",
+   "label": "HYPOTHESIS REVIEW: October 14, 2026",
+   "class": "milestone",
+   "tags": [
+    "H1 Extraction Rate: VERIFIED. 72.67%. 9 audit years.",
+    "H2 False Credential: VERIFIED. State Bar zero results.",
+    "H3 Proficiency Gap: VERIFIED. 3% vs 36%. 12x below.",
+    "H4 Criminal Record: VERIFIED. 9 convictions, SID 2029469K.",
+    "H5 Financial Pattern: VERIFIED. 5 bankruptcies, felon PAC treasurer.",
+    "H6 Captured Regulator: VERIFIED. MDE investigated, cleared anyway.",
+    "H7 Institutional Silence: ACTIVE. All notified, all silent.",
+    "H8 Mobius Architecture: VERIFIED. Predictions 1, 5, 6 confirmed.",
+    "H9 Intelligence IS Search: ACTIVE. Loop feeding itself.",
+    "",
+    "7 of 9 VERIFIED. 2 ACTIVE (accumulating evidence through silence).",
+    "Graph: 9,805 nodes / 337,455 edges. 99.48% to pi."
+   ]
   }
  ],
  "edges": [
@@ -1791622,6 +1791737,4176 @@
    "source": "p8_7_examination_strength",
    "target": "election_1836",
    "type": "gravity-pull"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "hypothesis_extraction",
+   "type": "reviews"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "hypothesis_extraction",
+   "type": "status-update"
+  },
+  {
+   "source": "hypothesis_extraction",
+   "target": "kngen-thesis",
+   "type": "supports"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "hypothesis_credential",
+   "type": "reviews"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "hypothesis_credential",
+   "type": "status-update"
+  },
+  {
+   "source": "hypothesis_credential",
+   "target": "kngen-thesis",
+   "type": "supports"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "hypothesis_proficiency",
+   "type": "reviews"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "hypothesis_proficiency",
+   "type": "status-update"
+  },
+  {
+   "source": "hypothesis_proficiency",
+   "target": "kngen-thesis",
+   "type": "supports"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "hypothesis_convictions",
+   "type": "reviews"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "hypothesis_convictions",
+   "type": "status-update"
+  },
+  {
+   "source": "hypothesis_convictions",
+   "target": "kngen-thesis",
+   "type": "supports"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "hypothesis_bankruptcy",
+   "type": "reviews"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "hypothesis_bankruptcy",
+   "type": "status-update"
+  },
+  {
+   "source": "hypothesis_bankruptcy",
+   "target": "kngen-thesis",
+   "type": "supports"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "hypothesis_regulatory_capture",
+   "type": "reviews"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "hypothesis_regulatory_capture",
+   "type": "status-update"
+  },
+  {
+   "source": "hypothesis_regulatory_capture",
+   "target": "kngen-thesis",
+   "type": "supports"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "hypothesis_silence",
+   "type": "reviews"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "hypothesis_silence",
+   "type": "status-update"
+  },
+  {
+   "source": "hypothesis_silence",
+   "target": "kngen-thesis",
+   "type": "supports"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "hypothesis_mobius",
+   "type": "reviews"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "hypothesis_mobius",
+   "type": "status-update"
+  },
+  {
+   "source": "hypothesis_mobius",
+   "target": "kngen-thesis",
+   "type": "supports"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "hypothesis_intelligence",
+   "type": "reviews"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "hypothesis_intelligence",
+   "type": "status-update"
+  },
+  {
+   "source": "hypothesis_intelligence",
+   "target": "kngen-thesis",
+   "type": "supports"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "antithesis-conspiracy",
+   "type": "addresses"
+  },
+  {
+   "source": "antithesis-conspiracy",
+   "target": "kngen-thesis",
+   "type": "challenges"
+  },
+  {
+   "source": "antithesis-conspiracy",
+   "target": "hypothesis_extraction",
+   "type": "tests"
+  },
+  {
+   "source": "antithesis-conspiracy",
+   "target": "hypothesis_credential",
+   "type": "tests"
+  },
+  {
+   "source": "antithesis-conspiracy",
+   "target": "hypothesis_proficiency",
+   "type": "tests"
+  },
+  {
+   "source": "antithesis-conspiracy",
+   "target": "hypothesis_convictions",
+   "type": "tests"
+  },
+  {
+   "source": "antithesis-conspiracy",
+   "target": "hypothesis_bankruptcy",
+   "type": "tests"
+  },
+  {
+   "source": "antithesis-conspiracy",
+   "target": "hypothesis_regulatory_capture",
+   "type": "tests"
+  },
+  {
+   "source": "antithesis-conspiracy",
+   "target": "hypothesis_silence",
+   "type": "tests"
+  },
+  {
+   "source": "antithesis-conspiracy",
+   "target": "hypothesis_mobius",
+   "type": "tests"
+  },
+  {
+   "source": "antithesis-conspiracy",
+   "target": "hypothesis_intelligence",
+   "type": "tests"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "antithesis-scale",
+   "type": "addresses"
+  },
+  {
+   "source": "antithesis-scale",
+   "target": "kngen-thesis",
+   "type": "challenges"
+  },
+  {
+   "source": "antithesis-scale",
+   "target": "hypothesis_extraction",
+   "type": "tests"
+  },
+  {
+   "source": "antithesis-scale",
+   "target": "hypothesis_credential",
+   "type": "tests"
+  },
+  {
+   "source": "antithesis-scale",
+   "target": "hypothesis_proficiency",
+   "type": "tests"
+  },
+  {
+   "source": "antithesis-scale",
+   "target": "hypothesis_convictions",
+   "type": "tests"
+  },
+  {
+   "source": "antithesis-scale",
+   "target": "hypothesis_bankruptcy",
+   "type": "tests"
+  },
+  {
+   "source": "antithesis-scale",
+   "target": "hypothesis_regulatory_capture",
+   "type": "tests"
+  },
+  {
+   "source": "antithesis-scale",
+   "target": "hypothesis_silence",
+   "type": "tests"
+  },
+  {
+   "source": "antithesis-scale",
+   "target": "hypothesis_mobius",
+   "type": "tests"
+  },
+  {
+   "source": "antithesis-scale",
+   "target": "hypothesis_intelligence",
+   "type": "tests"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "antithesis-relevance",
+   "type": "addresses"
+  },
+  {
+   "source": "antithesis-relevance",
+   "target": "kngen-thesis",
+   "type": "challenges"
+  },
+  {
+   "source": "antithesis-relevance",
+   "target": "hypothesis_extraction",
+   "type": "tests"
+  },
+  {
+   "source": "antithesis-relevance",
+   "target": "hypothesis_credential",
+   "type": "tests"
+  },
+  {
+   "source": "antithesis-relevance",
+   "target": "hypothesis_proficiency",
+   "type": "tests"
+  },
+  {
+   "source": "antithesis-relevance",
+   "target": "hypothesis_convictions",
+   "type": "tests"
+  },
+  {
+   "source": "antithesis-relevance",
+   "target": "hypothesis_bankruptcy",
+   "type": "tests"
+  },
+  {
+   "source": "antithesis-relevance",
+   "target": "hypothesis_regulatory_capture",
+   "type": "tests"
+  },
+  {
+   "source": "antithesis-relevance",
+   "target": "hypothesis_silence",
+   "type": "tests"
+  },
+  {
+   "source": "antithesis-relevance",
+   "target": "hypothesis_mobius",
+   "type": "tests"
+  },
+  {
+   "source": "antithesis-relevance",
+   "target": "hypothesis_intelligence",
+   "type": "tests"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "antithesis-standing",
+   "type": "addresses"
+  },
+  {
+   "source": "antithesis-standing",
+   "target": "kngen-thesis",
+   "type": "challenges"
+  },
+  {
+   "source": "antithesis-standing",
+   "target": "hypothesis_extraction",
+   "type": "tests"
+  },
+  {
+   "source": "antithesis-standing",
+   "target": "hypothesis_credential",
+   "type": "tests"
+  },
+  {
+   "source": "antithesis-standing",
+   "target": "hypothesis_proficiency",
+   "type": "tests"
+  },
+  {
+   "source": "antithesis-standing",
+   "target": "hypothesis_convictions",
+   "type": "tests"
+  },
+  {
+   "source": "antithesis-standing",
+   "target": "hypothesis_bankruptcy",
+   "type": "tests"
+  },
+  {
+   "source": "antithesis-standing",
+   "target": "hypothesis_regulatory_capture",
+   "type": "tests"
+  },
+  {
+   "source": "antithesis-standing",
+   "target": "hypothesis_silence",
+   "type": "tests"
+  },
+  {
+   "source": "antithesis-standing",
+   "target": "hypothesis_mobius",
+   "type": "tests"
+  },
+  {
+   "source": "antithesis-standing",
+   "target": "hypothesis_intelligence",
+   "type": "tests"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "antithesis-methodology",
+   "type": "addresses"
+  },
+  {
+   "source": "antithesis-methodology",
+   "target": "kngen-thesis",
+   "type": "challenges"
+  },
+  {
+   "source": "antithesis-methodology",
+   "target": "hypothesis_extraction",
+   "type": "tests"
+  },
+  {
+   "source": "antithesis-methodology",
+   "target": "hypothesis_credential",
+   "type": "tests"
+  },
+  {
+   "source": "antithesis-methodology",
+   "target": "hypothesis_proficiency",
+   "type": "tests"
+  },
+  {
+   "source": "antithesis-methodology",
+   "target": "hypothesis_convictions",
+   "type": "tests"
+  },
+  {
+   "source": "antithesis-methodology",
+   "target": "hypothesis_bankruptcy",
+   "type": "tests"
+  },
+  {
+   "source": "antithesis-methodology",
+   "target": "hypothesis_regulatory_capture",
+   "type": "tests"
+  },
+  {
+   "source": "antithesis-methodology",
+   "target": "hypothesis_silence",
+   "type": "tests"
+  },
+  {
+   "source": "antithesis-methodology",
+   "target": "hypothesis_mobius",
+   "type": "tests"
+  },
+  {
+   "source": "antithesis-methodology",
+   "target": "hypothesis_intelligence",
+   "type": "tests"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "k-ngen",
+   "type": "defines"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "wp-kNGen",
+   "type": "expands"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "callup-lawyers-kngen",
+   "type": "recruits-via"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "thesis_statement",
+   "type": "supersedes"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "land-thesis",
+   "type": "grounds"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "wp-thesis",
+   "type": "parallels"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "reverse-ray-tracing",
+   "type": "uses"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "artisan-hypothesis",
+   "type": "incorporates"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "scientific-method",
+   "type": "extends"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "kngen-thesis",
+   "type": "contains"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "hypothesis-review-oct14",
+   "type": "contains"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "membrane",
+   "type": "documents"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "membrane",
+   "type": "proven-by"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "ecoprimal",
+   "type": "authored-by"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "pi-100b-revolution",
+   "type": "approaching"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "trail-lawyers",
+   "type": "activates"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "trail-journalists",
+   "type": "activates"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "trail-ai-researchers",
+   "type": "activates"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "trail-detroit-education",
+   "type": "activates"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "infection-vector-hub",
+   "type": "loads"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "visitor-guide",
+   "type": "opens"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "printing-press-1440",
+   "type": "most-significant-since"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "library-of-alexandria",
+   "type": "builds-upon"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "rosetta-stone",
+   "type": "decodes-like"
+  },
+  {
+   "source": "antithesis-standing",
+   "target": "ai-training-theft",
+   "type": "separates-claims"
+  },
+  {
+   "source": "antithesis-methodology",
+   "target": "reverse-ray-tracing",
+   "type": "questions"
+  },
+  {
+   "source": "antithesis-methodology",
+   "target": "epitope-concept",
+   "type": "questions"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "prediction-first-contact",
+   "type": "informs"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "prediction-legal-cascade",
+   "type": "supports"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "prediction-pi-crossing",
+   "type": "approaching"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "wp-nc-main",
+   "type": "follows"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "wp-nc-letter-chip",
+   "type": "follows"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "wp-nc-part2",
+   "type": "follows"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "wp-nc-part3",
+   "type": "follows"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "wp-nc-part4",
+   "type": "follows"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "wp-nc-part5",
+   "type": "follows"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "wp-nc-part6",
+   "type": "follows"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "wp-nc-part7",
+   "type": "follows"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "wp-nc-part8",
+   "type": "follows"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "wp-nc-part9",
+   "type": "follows"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "wp-nc-part10",
+   "type": "follows"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "wp-nc-part11",
+   "type": "follows"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "wp-nc-part12",
+   "type": "follows"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "wp-nc-part13",
+   "type": "follows"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "wp-nc-part14",
+   "type": "follows"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "wp-nc-part15",
+   "type": "follows"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "wp-nc-part16",
+   "type": "follows"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "wp-nc-part17",
+   "type": "follows"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "wp-nc-part18",
+   "type": "follows"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "wp-nc-part19",
+   "type": "follows"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "wp-nc-part20",
+   "type": "follows"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "story-no-clothes-book",
+   "type": "follows"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "membrane",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "public_education",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "banks",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "data_990_devos_foundation",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "unesco_historic_centre_of_naples",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "unesco_the_medinas_of_the_historic_sultanates_o",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "ecoprimal",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "unesco_historic_centre_of_san_gimignano",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "unesco_schokland_and_surroundings",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "mission_soyuz_25",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "unesco_the_par_force_hunting_landscape_in_north",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "shape-of-human",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "udhr_article26",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "unesco_zuojiang_huashan_rock_art_cultural_lands",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "unesco_prehistoric_rock_art_sites_in_the_côa_va",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "zheng_he",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "pamela_pugh",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "the-mirror",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "election_1848",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "election_1836",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "unesco_babylon",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "pca",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "oz-net-worth",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "upl_colombo",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "pinocchio-concept",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "unesco_brú_na_bóinne_-_archaeological_ensemble_",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "leader_shabdrung_ngawang_namgyal",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "leader_polemon_i_of_pontus",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "unesco_syracuse_and_the_rocky_necropolis_of_pan",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "three_percent_math",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "unesco_niokolo-koba_national_park",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "form_letter_response",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "unesco_mir_castle_complex",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "child_hunger",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "leader_liliʻuokalani",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "plante_moran",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "mission_soyuz_tma_13",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "element_neptunium",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "entropy_life",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "charter_law_1993",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "mde",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "cmu",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "holland",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "article_named_entities",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "ryan_maibach",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "article_institutional_response",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "article_man_bites_dog",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "drum_language",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "panama_canal",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "mountain_mount_stanford",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "membrane",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "public_education",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "banks",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "data_990_devos_foundation",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "unesco_historic_centre_of_naples",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "unesco_the_medinas_of_the_historic_sultanates_o",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "ecoprimal",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "unesco_historic_centre_of_san_gimignano",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "unesco_schokland_and_surroundings",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "mission_soyuz_25",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "unesco_the_par_force_hunting_landscape_in_north",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "shape-of-human",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "udhr_article26",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "unesco_zuojiang_huashan_rock_art_cultural_lands",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "unesco_prehistoric_rock_art_sites_in_the_côa_va",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "zheng_he",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "pamela_pugh",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "the-mirror",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "election_1848",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "election_1836",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "unesco_babylon",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "pca",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "oz-net-worth",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "upl_colombo",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "pinocchio-concept",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "unesco_brú_na_bóinne_-_archaeological_ensemble_",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "leader_shabdrung_ngawang_namgyal",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "leader_polemon_i_of_pontus",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "unesco_syracuse_and_the_rocky_necropolis_of_pan",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "three_percent_math",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "unesco_niokolo-koba_national_park",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "form_letter_response",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "unesco_mir_castle_complex",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "child_hunger",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "leader_liliʻuokalani",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "plante_moran",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "mission_soyuz_tma_13",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "element_neptunium",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "entropy_life",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "charter_law_1993",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "mde",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "cmu",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "holland",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "article_named_entities",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "ryan_maibach",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "article_institutional_response",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "article_man_bites_dog",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "drum_language",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "panama_canal",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "mountain_mount_stanford",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "membrane",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "public_education",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "banks",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "data_990_devos_foundation",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "unesco_historic_centre_of_naples",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "unesco_the_medinas_of_the_historic_sultanates_o",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "ecoprimal",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "unesco_historic_centre_of_san_gimignano",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "unesco_schokland_and_surroundings",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "mission_soyuz_25",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "unesco_the_par_force_hunting_landscape_in_north",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "shape-of-human",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "udhr_article26",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "unesco_zuojiang_huashan_rock_art_cultural_lands",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "unesco_prehistoric_rock_art_sites_in_the_côa_va",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "zheng_he",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "pamela_pugh",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "the-mirror",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "election_1848",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "election_1836",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "unesco_babylon",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "pca",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "oz-net-worth",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "upl_colombo",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "pinocchio-concept",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "unesco_brú_na_bóinne_-_archaeological_ensemble_",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "leader_shabdrung_ngawang_namgyal",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "leader_polemon_i_of_pontus",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "unesco_syracuse_and_the_rocky_necropolis_of_pan",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "three_percent_math",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "unesco_niokolo-koba_national_park",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "form_letter_response",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "unesco_mir_castle_complex",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "child_hunger",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "leader_liliʻuokalani",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "plante_moran",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "mission_soyuz_tma_13",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "element_neptunium",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "entropy_life",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "charter_law_1993",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "mde",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "cmu",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "holland",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "article_named_entities",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "ryan_maibach",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "article_institutional_response",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "article_man_bites_dog",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "drum_language",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "panama_canal",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "hypothesis-review-oct14",
+   "target": "mountain_mount_stanford",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-conspiracy",
+   "target": "membrane",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-conspiracy",
+   "target": "public_education",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-conspiracy",
+   "target": "banks",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-conspiracy",
+   "target": "data_990_devos_foundation",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-conspiracy",
+   "target": "unesco_historic_centre_of_naples",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-conspiracy",
+   "target": "unesco_the_medinas_of_the_historic_sultanates_o",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-conspiracy",
+   "target": "ecoprimal",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-conspiracy",
+   "target": "unesco_historic_centre_of_san_gimignano",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-conspiracy",
+   "target": "unesco_schokland_and_surroundings",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-conspiracy",
+   "target": "mission_soyuz_25",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-conspiracy",
+   "target": "unesco_the_par_force_hunting_landscape_in_north",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-conspiracy",
+   "target": "shape-of-human",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-conspiracy",
+   "target": "udhr_article26",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-conspiracy",
+   "target": "unesco_zuojiang_huashan_rock_art_cultural_lands",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-conspiracy",
+   "target": "unesco_prehistoric_rock_art_sites_in_the_côa_va",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-conspiracy",
+   "target": "zheng_he",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-conspiracy",
+   "target": "pamela_pugh",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-conspiracy",
+   "target": "the-mirror",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-conspiracy",
+   "target": "election_1848",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-conspiracy",
+   "target": "election_1836",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-conspiracy",
+   "target": "unesco_babylon",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-conspiracy",
+   "target": "pca",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-conspiracy",
+   "target": "oz-net-worth",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-conspiracy",
+   "target": "upl_colombo",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-conspiracy",
+   "target": "pinocchio-concept",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-conspiracy",
+   "target": "unesco_brú_na_bóinne_-_archaeological_ensemble_",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-conspiracy",
+   "target": "leader_shabdrung_ngawang_namgyal",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-conspiracy",
+   "target": "leader_polemon_i_of_pontus",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-conspiracy",
+   "target": "unesco_syracuse_and_the_rocky_necropolis_of_pan",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-conspiracy",
+   "target": "three_percent_math",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-conspiracy",
+   "target": "unesco_niokolo-koba_national_park",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-conspiracy",
+   "target": "form_letter_response",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-conspiracy",
+   "target": "unesco_mir_castle_complex",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-conspiracy",
+   "target": "child_hunger",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-conspiracy",
+   "target": "leader_liliʻuokalani",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-conspiracy",
+   "target": "plante_moran",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-conspiracy",
+   "target": "mission_soyuz_tma_13",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-conspiracy",
+   "target": "element_neptunium",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-conspiracy",
+   "target": "entropy_life",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-conspiracy",
+   "target": "charter_law_1993",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-conspiracy",
+   "target": "mde",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-conspiracy",
+   "target": "cmu",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-conspiracy",
+   "target": "holland",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-conspiracy",
+   "target": "article_named_entities",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-conspiracy",
+   "target": "ryan_maibach",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-conspiracy",
+   "target": "article_institutional_response",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-conspiracy",
+   "target": "article_man_bites_dog",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-conspiracy",
+   "target": "drum_language",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-conspiracy",
+   "target": "panama_canal",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-conspiracy",
+   "target": "mountain_mount_stanford",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-scale",
+   "target": "membrane",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-scale",
+   "target": "public_education",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-scale",
+   "target": "banks",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-scale",
+   "target": "data_990_devos_foundation",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-scale",
+   "target": "unesco_historic_centre_of_naples",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-scale",
+   "target": "unesco_the_medinas_of_the_historic_sultanates_o",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-scale",
+   "target": "ecoprimal",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-scale",
+   "target": "unesco_historic_centre_of_san_gimignano",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-scale",
+   "target": "unesco_schokland_and_surroundings",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-scale",
+   "target": "mission_soyuz_25",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-scale",
+   "target": "unesco_the_par_force_hunting_landscape_in_north",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-scale",
+   "target": "shape-of-human",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-scale",
+   "target": "udhr_article26",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-scale",
+   "target": "unesco_zuojiang_huashan_rock_art_cultural_lands",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-scale",
+   "target": "unesco_prehistoric_rock_art_sites_in_the_côa_va",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-scale",
+   "target": "zheng_he",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-scale",
+   "target": "pamela_pugh",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-scale",
+   "target": "the-mirror",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-scale",
+   "target": "election_1848",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-scale",
+   "target": "election_1836",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-scale",
+   "target": "unesco_babylon",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-scale",
+   "target": "pca",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-scale",
+   "target": "oz-net-worth",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-scale",
+   "target": "upl_colombo",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-scale",
+   "target": "pinocchio-concept",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-scale",
+   "target": "unesco_brú_na_bóinne_-_archaeological_ensemble_",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-scale",
+   "target": "leader_shabdrung_ngawang_namgyal",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-scale",
+   "target": "leader_polemon_i_of_pontus",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-scale",
+   "target": "unesco_syracuse_and_the_rocky_necropolis_of_pan",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-scale",
+   "target": "three_percent_math",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-scale",
+   "target": "unesco_niokolo-koba_national_park",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-scale",
+   "target": "form_letter_response",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-scale",
+   "target": "unesco_mir_castle_complex",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-scale",
+   "target": "child_hunger",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-scale",
+   "target": "leader_liliʻuokalani",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-scale",
+   "target": "plante_moran",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-scale",
+   "target": "mission_soyuz_tma_13",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-scale",
+   "target": "element_neptunium",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-scale",
+   "target": "entropy_life",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-scale",
+   "target": "charter_law_1993",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-scale",
+   "target": "mde",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-scale",
+   "target": "cmu",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-scale",
+   "target": "holland",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-scale",
+   "target": "article_named_entities",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-scale",
+   "target": "ryan_maibach",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-scale",
+   "target": "article_institutional_response",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-scale",
+   "target": "article_man_bites_dog",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-scale",
+   "target": "drum_language",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-scale",
+   "target": "panama_canal",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-scale",
+   "target": "mountain_mount_stanford",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-relevance",
+   "target": "membrane",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-relevance",
+   "target": "public_education",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-relevance",
+   "target": "banks",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-relevance",
+   "target": "data_990_devos_foundation",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-relevance",
+   "target": "unesco_historic_centre_of_naples",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-relevance",
+   "target": "unesco_the_medinas_of_the_historic_sultanates_o",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-relevance",
+   "target": "ecoprimal",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-relevance",
+   "target": "unesco_historic_centre_of_san_gimignano",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-relevance",
+   "target": "unesco_schokland_and_surroundings",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-relevance",
+   "target": "mission_soyuz_25",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-relevance",
+   "target": "unesco_the_par_force_hunting_landscape_in_north",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-relevance",
+   "target": "shape-of-human",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-relevance",
+   "target": "udhr_article26",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-relevance",
+   "target": "unesco_zuojiang_huashan_rock_art_cultural_lands",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-relevance",
+   "target": "unesco_prehistoric_rock_art_sites_in_the_côa_va",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-relevance",
+   "target": "zheng_he",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-relevance",
+   "target": "pamela_pugh",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-relevance",
+   "target": "the-mirror",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-relevance",
+   "target": "election_1848",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-relevance",
+   "target": "election_1836",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-relevance",
+   "target": "unesco_babylon",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-relevance",
+   "target": "pca",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-relevance",
+   "target": "oz-net-worth",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-relevance",
+   "target": "upl_colombo",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-relevance",
+   "target": "pinocchio-concept",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-relevance",
+   "target": "unesco_brú_na_bóinne_-_archaeological_ensemble_",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-relevance",
+   "target": "leader_shabdrung_ngawang_namgyal",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-relevance",
+   "target": "leader_polemon_i_of_pontus",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-relevance",
+   "target": "unesco_syracuse_and_the_rocky_necropolis_of_pan",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-relevance",
+   "target": "three_percent_math",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-relevance",
+   "target": "unesco_niokolo-koba_national_park",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-relevance",
+   "target": "form_letter_response",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-relevance",
+   "target": "unesco_mir_castle_complex",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-relevance",
+   "target": "child_hunger",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-relevance",
+   "target": "leader_liliʻuokalani",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-relevance",
+   "target": "plante_moran",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-relevance",
+   "target": "mission_soyuz_tma_13",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-relevance",
+   "target": "element_neptunium",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-relevance",
+   "target": "entropy_life",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-relevance",
+   "target": "charter_law_1993",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-relevance",
+   "target": "mde",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-relevance",
+   "target": "cmu",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-relevance",
+   "target": "holland",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-relevance",
+   "target": "article_named_entities",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-relevance",
+   "target": "ryan_maibach",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-relevance",
+   "target": "article_institutional_response",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-relevance",
+   "target": "article_man_bites_dog",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-relevance",
+   "target": "drum_language",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-relevance",
+   "target": "panama_canal",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "antithesis-relevance",
+   "target": "mountain_mount_stanford",
+   "type": "thesis-bingo"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "article_unesco_not_children",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "beast_wolf",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "article_stallworth_direct",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "article_nessel_badge",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "article_holland_direct",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "article_sheffield_direct",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "kym_worthy",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "vitti",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "article_same_pattern",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "state_mi",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "unesco_schokland_and_surroundings",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "mobius_architecture",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "three_percent_math",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "blackrock_re",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "article_bullington_direct",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "public_education",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "voyager_golden_record",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "wildfire2_wave1",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "thimerosal-removed-2001",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "charter_law_1993",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "hope-battery-revolution",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "article_complicit",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "gen_4",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "article_evolution",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "pharmacological_extinction",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "article_the_math_visceral",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "data_990_devos_foundation",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "hypothesis_convictions",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "signal_14th",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "tamir_rice_grief",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "des_moines_professor",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "lang_awadhi",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "unesco_samarkand_–_crossroad_of_cultures",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "lang_french",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "proglang_assembly_language",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "osint_nmls",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "tawanesha_jones_williams",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "great_pacific_garbage",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "mission_soyuz_tma_13",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "company_towns",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "panama_canal",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "unesco_the_medinas_of_the_historic_sultanates_o",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "election_1848",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "membrane",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "udhr_article26",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "election_1836",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "zheng_he",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "oz-net-worth",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "the-mirror",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "mission_soyuz_25",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "pamela_pugh",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "unesco_prehistoric_rock_art_sites_in_the_côa_va",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "unesco_the_par_force_hunting_landscape_in_north",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "banks",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "unesco_kuk_early_agricultural_site",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "stratum_03_batch",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "astro_michael_lópez-alegría",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "unesco_niokolo-koba_national_park",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "unesco_historic_centre_of_san_gimignano",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "unesco_syracuse_and_the_rocky_necropolis_of_pan",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "leader_shabdrung_ngawang_namgyal",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "propublica_local_mi",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "verdict_wolf_detroit_city_council",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "michigan_chronicle",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "epitope-concept",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "article_thesis_for_the_544",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "verdict_wolf_dpscd",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "osint_news_archives",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "verdict_wolf_cmu",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "verdict_wolf_lara",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "public_interest_law_center",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "vitruvian-man",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "lawyers_committee_civil_rights",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "verdict_wolf_plante_moran",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "cmu",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "civil-rights-movement",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "wp-thesis",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "charter_no_transportation",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "unesco_rachid_karami_international_fair-tripoli",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "upl_garwood",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "secondary_trauma",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "unesco_mir_castle_complex",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "leader_polemon_i_of_pontus",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "microsoft-corp",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "public_defender_capture",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "article_banks_holland",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "drum_language",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "child_hunger",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "hypothesis_silence",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "wp-gen5",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "story-dont-know-rust",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "wp-sg-silicon-genealogy",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "song-four-names",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "wp-gaia-vacuole-sort",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "wp-sg-biomeos-hud",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "story-silicon-deism",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "wp-kng-invitation",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "wp-kng-first-question",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "ecoprimal",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "song-the-seed",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "wp-sg-scyborg-binary",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "story-waterfall",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "feynman",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "p8_3_observer_collapse",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "meeting_point_membrane",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "vital_articles",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "twist_silence_ratio",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "vital_nodes",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "p8_2_self_referential",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "squirrel_js",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "p8_1_self_updating_hud",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "twist_banks_mobius",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "vital_pendants",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "unesco_historic_centre_of_naples",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "element_chlorine",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "detroit_city",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "agc",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "leader_prempeh_i",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "leader_pyrrhus",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "leader_prince_aimone_4th_duke_of_aosta",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "human_writing",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "penrose_stairs",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "election_2016",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "grandparents_raising_kids",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "flint_schools_lead",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "article_auto_mystery_dark_matter",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "article_economics_of_truth",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "gordian_knot",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "prediction-public-response",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "callup-detroit-parents",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "purpose-charter-academy",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "pi-100b-revolution",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "visitor-guide",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "prediction-legal-cascade",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "callup-teachers",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "callout-mde",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "trail-activists",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "long-tail-strategy",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "trail-scared",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "prediction-first-contact",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "trail-finance",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "trail-ai-researchers",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "callout-ai-infringers",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "prediction-corporate-defense",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "trail-detroit-education",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "funky_bass_drop",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "fun_six_degrees_banks",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "clone_day_20261002",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "hypothesis_mobius",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "egg_first_rule",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "too-big-to-fail",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "education_law_center",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "pca",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "clutch_justice",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "propublica",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "verdict_spot_kym_worthy",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "prediction_regulatory_response",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "kevin_base_pain_is_love",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "article_creatures_explain_pca",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "article_jump_cave_paintings",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "gap_answer",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "wonder_whale_song",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "article_anderson_localization",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "love_stranger",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "article_faintest_glimmer",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "article_jump_double_slit",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "article_jump_fibonacci_fraud",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "article_gay_dagnogo_direct",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "article_cbc_events",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "scyborg-license",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "dpscd",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "lisa-su",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "da-vinci",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "amd",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "apple",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "tsmc",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "totality-of-value",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "nra-russia-pipeline",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "the-rate",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "the-theft",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "the-hook",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "risc-v",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "footprint_issue",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "class_creature",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "zelenskyy",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "tether",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "entity-serenity",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "entity-ars-holdings",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "songbird-mesh",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "bluefish",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "waterfall-concept",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "barracuda",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "ceo_bob_iger",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "unesco_old_havana_and_its_fortification_system",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "unesco_st_kilda",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "five_pillars",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "unesco_red_bay_basque_whaling_station",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "scientology",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "volcano_mount_churchill",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "element_rutherfordium",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "unesco_iwami_ginzan_silver_mine_and_its_cultura",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "unesco_cultural_and_historic_ensemble_of_the_so",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "exo_toi_1226_b",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "dalai_lama_5",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "unesco_tabriz_historic_bazaar_complex",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "boss_plante_moran",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "side_quest_visualize",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "redflag_llc_web",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "spread_journalists",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "constellation_dorado",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "purpose_foundation",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "article_follow_the_money",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "rating_agency_capture",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "church_self_investigation",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "falling-back-to-earth",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "the-wall-the-monster-the-dude",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "felix-sater",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "lehman-brothers",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "org-ernst-young",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "colin-stretch",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "vitalik-buterin",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "financial-deregulation",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "helsinki-summit",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "game_pinocchio_detector",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "alexander-nix",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "coralforge",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "mission_soyuz_37",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "spring-air",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "spring-dirt",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "mountain_mount_tyndall",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "mountain_mount_stevens_(alaska)",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "mystery_cults",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "element_neptunium",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "entropy_life",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "barton_malow",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "holland",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "vera_rubin",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "1st_amendment",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "senator_alexander_porter",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "element_nihonium",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "eternal_flame",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "spring-hot",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "element_nitrogen",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "lang_russian",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "upl_dept",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "upl_palacios",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "ryan_maibach",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "article_institutional_response",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "upl_kejbou",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "beasley",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "pm_100yr_arc",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "ravitch",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "elon_musk",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "kngen-thesis",
+   "target": "unesco_santiniketan",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "wp-nc-part7",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "wp-nc-letter-chip",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "wp-nc-part14",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "wp-nc-part3",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "karl_popper",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "wp-nc-part19",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "k12_inc",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "wp-nc-part16",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "wp-nc-part18",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "membrane",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "edu_michigan_future",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "cassandra",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "wp-nc-part12",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "wp-nc-part11",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "wp-nc-part4",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "article_unesco_not_children",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "beast_wolf",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "article_stallworth_direct",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "article_nessel_badge",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "article_holland_direct",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "article_sheffield_direct",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "kym_worthy",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "vitti",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "article_same_pattern",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "state_mi",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "unesco_schokland_and_surroundings",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "mobius_architecture",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "three_percent_math",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "blackrock_re",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "article_bullington_direct",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "filing_990_mackinac_center",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "election_1904",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "rosa_parks_no",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "election_1872",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "emmett_till_open_casket",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "election_1900",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "election_1996",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "udhr_article26",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "election_1916",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "election_1864",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "election_1884",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "election_1844",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "jocelyn_benson",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "election_1836",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "public_education",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "voyager_golden_record",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "wildfire2_wave1",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "wp-gaia-what-they-saw",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "wp-atlas-11",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "wp-nc-part6",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "wp-nc-part15",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "wp-gaia-storytellers",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "detroit_city",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "wp-attsi-metal",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "wp-nc-part13",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "wp-sp-story",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "wp-atlas-09",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "wp-atlas-02",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "wp-nc-part10",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "wp-nc-part8",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "wp-nc-main",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "wp-nc-part2",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "great_lakes_education_project_full",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "election_1848",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "data_990_devos_foundation",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "zheng_he",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "unesco_historic_centre_of_san_gimignano",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "oz-net-worth",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "unesco_syracuse_and_the_rocky_necropolis_of_pan",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "leader_shabdrung_ngawang_namgyal",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "unesco_the_medinas_of_the_historic_sultanates_o",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "mission_soyuz_25",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "pamela_pugh",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "geneva-conventions",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "unesco_the_dolomites",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "unesco_swiss_tectonic_arena_sardona",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "right-to-repair",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "unesco_the_jantar_mantar_jaipur",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "unesco_lake_baikal",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "wage-theft",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "unesco_luther_memorials_in_eisleben_and_wittenb",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "epstein-network",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "amazon-warehouse-complex",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "unesco_lençóis_maranhenses_national_park",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "convention_rights_child",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "oscar_peter_farrelly",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "compound_interest_harm",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "signal_14th",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "pattern_regulatory_capture",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "turing",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "the-mirror",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "article_man_bites_dog",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "lara_filing_gaps",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "unesco_prehistoric_rock_art_sites_in_the_côa_va",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "public_defender_capture",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "pca",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "tamir_rice_grief",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "des_moines_professor",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "lang_awadhi",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "unesco_samarkand_–_crossroad_of_cultures",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "lang_french",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "proglang_assembly_language",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "osint_nmls",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "tawanesha_jones_williams",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "great_pacific_garbage",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "mission_soyuz_tma_13",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "company_towns",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "panama_canal",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "unesco_the_par_force_hunting_landscape_in_north",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "banks",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "unesco_kuk_early_agricultural_site",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "stratum_03_batch",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "astro_michael_lópez-alegría",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "unesco_niokolo-koba_national_park",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "article_banks_holland",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "wp-thesis-05",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "wp-med-70-papers",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "wp-med-kingdom",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "issue-wg-stale",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "wp-wf-triad",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "songbird-mesh",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "story-no-clothes-book",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "black_star_network",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "lamarr",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "story-detachment-201",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "wp-nc-part17",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "wmd_null_chain",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "shape-of-human",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "columbus",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "zanzibar",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "scale_map",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "han_dynasty_civil_service",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "unesco_tabriz_historic_bazaar_complex",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "boss_plante_moran",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "side_quest_visualize",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "redflag_llc_web",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "spread_journalists",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "constellation_dorado",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "article_complicit",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "purpose_foundation",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "article_follow_the_money",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "article_evolution",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "rating_agency_capture",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "church_self_investigation",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "article_the_math_visceral",
+   "type": "thesis-reach"
+  },
+  {
+   "source": "noclothes-part21",
+   "target": "hypothesis_convictions",
+   "type": "thesis-reach"
   }
  ]
 }
