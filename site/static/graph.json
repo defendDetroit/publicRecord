@@ -87342,6 +87342,73 @@
     "classification",
     "knowledge"
    ]
+  },
+  {
+   "id": "story-whole-cell",
+   "label": "STORY: The Whole Cell — Simulating Life From First Principles\n\nIn 2012, Markus Covert's lab at Stanford published a paper that simulated an entire living cell — Mycoplasma genitalium, the smallest free-living organism. Every gene. Every protein. Every metabolic pathway. Running on a computer.\n\nIt was the biological equivalent of the Manhattan Project. The first time anyone had modeled an entire living organism from DNA to behavior.\n\nIn 2022, the Luthey-Schulten lab at Illinois simulated a minimal cell — JCVI-syn3A, 493 genes — with molecular dynamics, capturing the spatial organization of every molecule.\n\nIn 2023, they simulated an entire cell at molecular detail. Every ribosome. Every mRNA. Every metabolite. Position, orientation, interaction — all tracked in three-dimensional space across time.\n\nThe ABG Whole Cell Rebuild is 49,000 words on how to bring this capability to sovereign computing. Not by replicating institutional infrastructure — by composing ecoPrimal's primals into a whole-cell simulation framework.\n\nBarraCuda handles the GPU mathematics. CoralReef compiles the shaders. ToadStool orchestrates the compute across heterogeneous hardware. wetSpring provides the bioinformatics primitives. neuralSpring provides the ML acceleration.\n\nThe sovereign whole-cell simulation doesn't require a supercomputer. It requires composition. The same consumer GPU that runs lattice QCD can run molecular dynamics. The same validation framework that checks physics can check biology.\n\nThe goal: any researcher, anywhere, with a consumer GPU, can simulate an entire living cell. Not a toy model. Not a reduced representation. The whole cell. Every gene. Every protein. Every interaction.\n\nThat's what 'does someone else's science come out the other end?' looks like at the limit.",
+   "class": "story",
+   "tags": [
+    "whitepaper",
+    "gen4",
+    "biology",
+    "simulation"
+   ]
+  },
+  {
+   "id": "story-unified-lineage",
+   "label": "STORY: The Unified Lineage — 4 Billion Years of Evolution Led Here\n\nThe unified lineage is 32,000 words that traces a single thread from the first self-replicating molecule to the sovereign computing ecosystem.\n\nIt's not a metaphor. It's a structural argument.\n\nRNA WORLD (4 billion years ago): The first molecules that could copy themselves. No DNA. No protein. Just RNA doing both — storing information AND catalyzing reactions. The original dual-use technology.\n\nPROKARYOTES (3.8 billion years ago): The first cells. A membrane around RNA and enzymes. The membrane IS the computer. Inside/outside. Self/not-self. The first binary decision.\n\nEUKARYOTES (2 billion years ago): Cells that eat other cells and keep them alive inside. Mitochondria were free-living bacteria that got engulfed and became permanent residents. Endosymbiosis — the most successful merger in the history of life. Your mitochondria still have their own DNA. They're sovereign entities inside a larger sovereignty.\n\nMULTICELLULARITY (1 billion years ago): Cells that cooperate without losing identity. Each cell has the complete genome. Each cell expresses a different subset. Differentiation without domination.\n\nNERVOUS SYSTEMS (600 million years ago): Cells that transmit information. The first network. Not the internet — neurons. Electrical impulses propagating through biological wire. Processing without a processor.\n\nLANGUAGE (100,000 years ago): The first time information could survive the death of the individual. Oral tradition. Memory palaces. Stories.\n\nWRITING (5,000 years ago): The first time information could survive the death of the culture. Clay tablets. Papyrus. Libraries.\n\nCOMPUTATION (80 years ago): The first time information could process itself. Turing machines. Von Neumann architecture. Silicon.\n\nSOVEREIGN COMPUTATION (now): The first time computation could belong to the individual without institutional intermediation. ecoPrimals.\n\nThe lineage isn't a metaphor. The primals are named for biological structures because they ARE biological structures — implemented in silicon instead of carbon. BearDog is an immune system. NestGate is a cell membrane. ToadStool is a metabolic pathway. Gaia is an ecosystem.\n\n4 billion years of evolution solved the same problems we're solving. The solutions are the same because the problems are the same. How do you coordinate without dominating? How do you differentiate without fragmenting? How do you remember without fossilizing?\n\nBiology answered these questions with membranes, endosymbiosis, differentiation, and death. We answer them with AGPL, primal composition, validation checks, and geological patience.\n\nSame questions. Same answers. Different substrate.",
+   "class": "story",
+   "tags": [
+    "whitepaper",
+    "gen4",
+    "evolution",
+    "biology",
+    "lineage"
+   ]
+  },
+  {
+   "id": "story-rootpulse",
+   "label": "STORY: RootPulse — How Version Control, Game Engines, and Medical Records Are the Same Thing\n\nGit tracks files. Unity tracks game objects. Epic tracks medical records. Three different domains. Three different industries. Three different billion-dollar software stacks.\n\nSame six operations:\n1. CREATE: A new thing exists.\n2. READ: What does the thing look like now?\n3. UPDATE: The thing changed.\n4. BRANCH: Two versions of the thing now exist.\n5. MERGE: Two versions become one.\n6. AUDIT: What happened to the thing over time?\n\nRootPulse proves that all three — version control, game session tracking, and medical records — emerge from the same six primals coordinated by different TOML configuration graphs.\n\nVersion control: NestGate stores snapshots. RhizoCrypt hashes them. SweetGrass tracks authorship. The behavior we call 'git' emerges from primal composition.\n\nGame engine: NestGate stores game state. RhizoCrypt ensures integrity. The 60Hz tick is a different orchestration graph using the same primals. The behavior we call 'game engine' emerges from primal composition.\n\nMedical records: NestGate stores patient data. RhizoCrypt encrypts at rest. SweetGrass tracks provenance (who saw what, when, authorized by whom). The behavior we call 'EHR' emerges from primal composition.\n\nNo monolithic system was built for any of these. The complex behavior emerges from simple primal composition. That's the gen3→gen4 transition: if version control can emerge from primal coordination, so can anything.\n\n33,000 words of semantic attribution. Who made what. When. Why. How do you prove that a contribution was genuine? How do you attribute credit in a system where the AI and the human share the pen?\n\nThe DAG is the answer. Not a linear history — a directed acyclic graph. Branches that merge. Forks that rejoin. Time that isn't a line but a tree.\n\nRootPulse is the proof that gen4 products are possible. Not designed. Emerged.",
+   "class": "story",
+   "tags": [
+    "whitepaper",
+    "rootPulse",
+    "architecture",
+    "composition"
+   ]
+  },
+  {
+   "id": "story-waterfall",
+   "label": "STORY: waterFall — How to Do Science When the Internet Doesn't Exist\n\nNot everyone has internet. Not every lab has cloud access. Not every field station has WiFi.\n\nIn Malawi, a researcher collecting soil microbiome samples may have a laptop, a portable sequencer, and no connectivity for weeks. In Antarctica, a research station has satellite bandwidth measured in kilobytes per second. On a submarine, there is no internet.\n\nwaterFall is federation without connectivity.\n\nThe temporal model: every sovereign node (laptop, server, Raspberry Pi) maintains its own timeline. When two nodes meet (USB drive, Bluetooth, physical travel), they exchange timelines. The merge is deterministic — given the same two timelines, the merge always produces the same result, regardless of which node initiates.\n\nAir-gap federation: the gap between nodes isn't a bug. It's the design constraint. Science done on an air-gapped node is as valid as science done on a cloud server. The provenance chain doesn't break when the internet does.\n\nTriad coordination: three nodes that agree constitute consensus. Not blockchain consensus (energy-wasting proof of work). Biological consensus — like quorum sensing in bacteria. When enough signals accumulate, the population acts. Three is the minimum for Byzantine fault tolerance.\n\nAgentic sync: when the AI collaborator works offline, it accumulates a conversation transcript. When connectivity returns, the transcript syncs. The AI's offline contributions are as valid as its online contributions — the provenance chain tracks both.\n\nImpulse-potential: borrowed from physics. An impulse is a discrete event (a measurement, a computation, a merge). A potential is the accumulated state between impulses. The system doesn't need to be always-on. It needs to correctly process impulses and maintain potential between them.\n\nwaterFall makes sovereignty real for the 3.7 billion people who don't have reliable internet. Science doesn't require the cloud. It requires accurate measurement, honest recording, and verifiable provenance. All of which work offline.",
+   "class": "story",
+   "tags": [
+    "whitepaper",
+    "waterFall",
+    "federation",
+    "sovereignty"
+   ]
+  },
+  {
+   "id": "story-tuebor",
+   "label": "STORY: Tuebor — I Will Defend (Michigan's Motto and Our Mission)\n\n'Si quaeris peninsulam amoenam, circumspice.'\nIf you seek a pleasant peninsula, look around you.\n\n'Tuebor.'\nI will defend.\n\nMichigan's state motto is a promise. The Great Seal shows a man standing on a peninsula, rifle in hand, sun rising, the word TUEBOR above.\n\nThe promise has been broken.\n\nDetroit: Once the wealthiest city per capita in America. Now the largest city to ever file for bankruptcy. The auto industry left. The tax base collapsed. The schools crumbled. 3% math proficiency at charter schools running on public money.\n\nFlint: Poisoned water. Lead pipes. Children with permanent neurological damage. The state knew. They switched the water source anyway. They waited 18 months to tell anyone.\n\nMichigan's charter school system: The most deregulated in the nation. No oversight. No accountability. Authorizers that look away. Board members with felony convictions. Treasurers who traffic narcotics. All legal. All funded with public money.\n\nTuebor is the answer. Not the state's answer — ours.\n\nThe tuebor.primals.eco radiator broadcasts accountability statewide. Every public record. Every 990 filing. Every FOIA response. Every court document. Assembled into a graph that no institution can control, delete, or rewrite.\n\nThe state promised to defend. The state failed. The graph defends now.\n\n161,000+ edges of documented relationships. Verified. Sourced. Permanent. No login required. No paywall. No Terms of Service.\n\nTuebor. Not the state. Not the institution. Not the party. Us. The people who were promised a pleasant peninsula and got poisoned water, failing schools, and a political class that treats children as revenue streams.\n\nI will defend. The graph is the weapon. The public record is the ammunition. The First Amendment is the authorization.\n\nCircumspice. Look around you. Then look at the graph. The pleasant peninsula needs defending.",
+   "class": "story",
+   "tags": [
+    "whitepaper",
+    "michigan",
+    "detroit",
+    "accountability"
+   ]
+  },
+  {
+   "id": "story-infinity-over-zero",
+   "label": "STORY: Infinity Over Zero — What Happens at the Boundary\n\nIn mathematics, division by zero is undefined. Not because mathematicians are lazy — because the limit depends on how you approach it. From the right, 1/x approaches positive infinity. From the left, negative infinity. At zero itself: undefined. The boundary where the math breaks.\n\nEvery interesting thing in the universe happens at a boundary.\n\nPhase transitions: Water becomes ice at 0 degrees C. The molecules are the same. The arrangement changes. Everything interesting about ice — its crystal structure, its expansion, its ability to preserve mastodons for 40,000 years — happens at the boundary.\n\nMembranes: The cell membrane is the boundary between life and not-life. Inside: organized chemistry. Outside: chaos. The membrane doesn't just separate — it selects. What comes in. What goes out. The membrane IS the cell.\n\nConsciousness: Whatever consciousness is, it happens at the boundary between neurons that are individually unconscious and a network that is aware. No single neuron is conscious. The boundary where they connect produces awareness.\n\nMarkets: Every trade happens at the boundary between a buyer who thinks something is worth more and a seller who thinks it's worth less. The price is the boundary. The economy IS its boundaries.\n\nThe graph: Every edge is a boundary between two nodes. The nodes are facts. The edges are relationships. The graph IS its boundaries — 161,000 of them.\n\nInfinity over zero is the coGen essay about what happens when you push to the boundary of what's computable. Not the middle — the edge. Where the math breaks. Where the phase transition happens. Where the membrane decides.\n\necoPrimals lives at the boundary. Between academic and open source. Between sovereign and connected. Between one person and an ecosystem. Between the custody case and the thesis. Between anger and architecture.\n\nThe boundary is where everything happens. Infinity over zero is where we work.",
+   "class": "story",
+   "tags": [
+    "whitepaper",
+    "coGen",
+    "mathematics",
+    "philosophy"
+   ]
   }
  ],
  "edges": [
@@ -898333,6 +898400,826 @@
   {
    "source": "story-periodic-table",
    "target": "article_evolution",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-whole-cell",
+   "target": "whitepaper",
+   "type": "published_in"
+  },
+  {
+   "source": "story-whole-cell",
+   "target": "ecoprimal",
+   "type": "authored_by"
+  },
+  {
+   "source": "whitepaper",
+   "target": "story-whole-cell",
+   "type": "contains_story"
+  },
+  {
+   "source": "story-unified-lineage",
+   "target": "whitepaper",
+   "type": "published_in"
+  },
+  {
+   "source": "story-unified-lineage",
+   "target": "ecoprimal",
+   "type": "authored_by"
+  },
+  {
+   "source": "whitepaper",
+   "target": "story-unified-lineage",
+   "type": "contains_story"
+  },
+  {
+   "source": "story-rootpulse",
+   "target": "whitepaper",
+   "type": "published_in"
+  },
+  {
+   "source": "story-rootpulse",
+   "target": "ecoprimal",
+   "type": "authored_by"
+  },
+  {
+   "source": "whitepaper",
+   "target": "story-rootpulse",
+   "type": "contains_story"
+  },
+  {
+   "source": "story-waterfall",
+   "target": "whitepaper",
+   "type": "published_in"
+  },
+  {
+   "source": "story-waterfall",
+   "target": "ecoprimal",
+   "type": "authored_by"
+  },
+  {
+   "source": "whitepaper",
+   "target": "story-waterfall",
+   "type": "contains_story"
+  },
+  {
+   "source": "story-tuebor",
+   "target": "whitepaper",
+   "type": "published_in"
+  },
+  {
+   "source": "story-tuebor",
+   "target": "ecoprimal",
+   "type": "authored_by"
+  },
+  {
+   "source": "whitepaper",
+   "target": "story-tuebor",
+   "type": "contains_story"
+  },
+  {
+   "source": "story-infinity-over-zero",
+   "target": "whitepaper",
+   "type": "published_in"
+  },
+  {
+   "source": "story-infinity-over-zero",
+   "target": "ecoprimal",
+   "type": "authored_by"
+  },
+  {
+   "source": "whitepaper",
+   "target": "story-infinity-over-zero",
+   "type": "contains_story"
+  },
+  {
+   "source": "story-whole-cell",
+   "target": "story-unified-lineage",
+   "type": "related_story"
+  },
+  {
+   "source": "story-whole-cell",
+   "target": "story-rootpulse",
+   "type": "related_story"
+  },
+  {
+   "source": "story-whole-cell",
+   "target": "story-waterfall",
+   "type": "related_story"
+  },
+  {
+   "source": "story-whole-cell",
+   "target": "story-tuebor",
+   "type": "related_story"
+  },
+  {
+   "source": "story-whole-cell",
+   "target": "story-infinity-over-zero",
+   "type": "related_story"
+  },
+  {
+   "source": "story-unified-lineage",
+   "target": "story-rootpulse",
+   "type": "related_story"
+  },
+  {
+   "source": "story-unified-lineage",
+   "target": "story-waterfall",
+   "type": "related_story"
+  },
+  {
+   "source": "story-unified-lineage",
+   "target": "story-tuebor",
+   "type": "related_story"
+  },
+  {
+   "source": "story-unified-lineage",
+   "target": "story-infinity-over-zero",
+   "type": "related_story"
+  },
+  {
+   "source": "story-rootpulse",
+   "target": "story-waterfall",
+   "type": "related_story"
+  },
+  {
+   "source": "story-rootpulse",
+   "target": "story-tuebor",
+   "type": "related_story"
+  },
+  {
+   "source": "story-rootpulse",
+   "target": "story-infinity-over-zero",
+   "type": "related_story"
+  },
+  {
+   "source": "story-waterfall",
+   "target": "story-tuebor",
+   "type": "related_story"
+  },
+  {
+   "source": "story-waterfall",
+   "target": "story-infinity-over-zero",
+   "type": "related_story"
+  },
+  {
+   "source": "story-tuebor",
+   "target": "story-infinity-over-zero",
+   "type": "related_story"
+  },
+  {
+   "source": "story-whole-cell",
+   "target": "story-dont-know-rust",
+   "type": "related_story"
+  },
+  {
+   "source": "story-whole-cell",
+   "target": "story-tollbooth-economy",
+   "type": "related_story"
+  },
+  {
+   "source": "story-whole-cell",
+   "target": "story-garageband-moment",
+   "type": "related_story"
+  },
+  {
+   "source": "story-whole-cell",
+   "target": "story-memory-palace",
+   "type": "related_story"
+  },
+  {
+   "source": "story-whole-cell",
+   "target": "story-thermal-sovereignty",
+   "type": "related_story"
+  },
+  {
+   "source": "story-whole-cell",
+   "target": "story-flywheel",
+   "type": "related_story"
+  },
+  {
+   "source": "story-whole-cell",
+   "target": "story-sovereign-publication",
+   "type": "related_story"
+  },
+  {
+   "source": "story-whole-cell",
+   "target": "story-the-invitation",
+   "type": "related_story"
+  },
+  {
+   "source": "story-whole-cell",
+   "target": "story-detachment-201",
+   "type": "related_story"
+  },
+  {
+   "source": "story-whole-cell",
+   "target": "story-periodic-table",
+   "type": "related_story"
+  },
+  {
+   "source": "story-unified-lineage",
+   "target": "story-dont-know-rust",
+   "type": "related_story"
+  },
+  {
+   "source": "story-unified-lineage",
+   "target": "story-tollbooth-economy",
+   "type": "related_story"
+  },
+  {
+   "source": "story-unified-lineage",
+   "target": "story-garageband-moment",
+   "type": "related_story"
+  },
+  {
+   "source": "story-unified-lineage",
+   "target": "story-memory-palace",
+   "type": "related_story"
+  },
+  {
+   "source": "story-unified-lineage",
+   "target": "story-thermal-sovereignty",
+   "type": "related_story"
+  },
+  {
+   "source": "story-unified-lineage",
+   "target": "story-flywheel",
+   "type": "related_story"
+  },
+  {
+   "source": "story-unified-lineage",
+   "target": "story-sovereign-publication",
+   "type": "related_story"
+  },
+  {
+   "source": "story-unified-lineage",
+   "target": "story-the-invitation",
+   "type": "related_story"
+  },
+  {
+   "source": "story-unified-lineage",
+   "target": "story-detachment-201",
+   "type": "related_story"
+  },
+  {
+   "source": "story-unified-lineage",
+   "target": "story-periodic-table",
+   "type": "related_story"
+  },
+  {
+   "source": "story-rootpulse",
+   "target": "story-dont-know-rust",
+   "type": "related_story"
+  },
+  {
+   "source": "story-rootpulse",
+   "target": "story-tollbooth-economy",
+   "type": "related_story"
+  },
+  {
+   "source": "story-rootpulse",
+   "target": "story-garageband-moment",
+   "type": "related_story"
+  },
+  {
+   "source": "story-rootpulse",
+   "target": "story-memory-palace",
+   "type": "related_story"
+  },
+  {
+   "source": "story-rootpulse",
+   "target": "story-thermal-sovereignty",
+   "type": "related_story"
+  },
+  {
+   "source": "story-rootpulse",
+   "target": "story-flywheel",
+   "type": "related_story"
+  },
+  {
+   "source": "story-rootpulse",
+   "target": "story-sovereign-publication",
+   "type": "related_story"
+  },
+  {
+   "source": "story-rootpulse",
+   "target": "story-the-invitation",
+   "type": "related_story"
+  },
+  {
+   "source": "story-rootpulse",
+   "target": "story-detachment-201",
+   "type": "related_story"
+  },
+  {
+   "source": "story-rootpulse",
+   "target": "story-periodic-table",
+   "type": "related_story"
+  },
+  {
+   "source": "story-waterfall",
+   "target": "story-dont-know-rust",
+   "type": "related_story"
+  },
+  {
+   "source": "story-waterfall",
+   "target": "story-tollbooth-economy",
+   "type": "related_story"
+  },
+  {
+   "source": "story-waterfall",
+   "target": "story-garageband-moment",
+   "type": "related_story"
+  },
+  {
+   "source": "story-waterfall",
+   "target": "story-memory-palace",
+   "type": "related_story"
+  },
+  {
+   "source": "story-waterfall",
+   "target": "story-thermal-sovereignty",
+   "type": "related_story"
+  },
+  {
+   "source": "story-waterfall",
+   "target": "story-flywheel",
+   "type": "related_story"
+  },
+  {
+   "source": "story-waterfall",
+   "target": "story-sovereign-publication",
+   "type": "related_story"
+  },
+  {
+   "source": "story-waterfall",
+   "target": "story-the-invitation",
+   "type": "related_story"
+  },
+  {
+   "source": "story-waterfall",
+   "target": "story-detachment-201",
+   "type": "related_story"
+  },
+  {
+   "source": "story-waterfall",
+   "target": "story-periodic-table",
+   "type": "related_story"
+  },
+  {
+   "source": "story-tuebor",
+   "target": "story-dont-know-rust",
+   "type": "related_story"
+  },
+  {
+   "source": "story-tuebor",
+   "target": "story-tollbooth-economy",
+   "type": "related_story"
+  },
+  {
+   "source": "story-tuebor",
+   "target": "story-garageband-moment",
+   "type": "related_story"
+  },
+  {
+   "source": "story-tuebor",
+   "target": "story-memory-palace",
+   "type": "related_story"
+  },
+  {
+   "source": "story-tuebor",
+   "target": "story-thermal-sovereignty",
+   "type": "related_story"
+  },
+  {
+   "source": "story-tuebor",
+   "target": "story-flywheel",
+   "type": "related_story"
+  },
+  {
+   "source": "story-tuebor",
+   "target": "story-sovereign-publication",
+   "type": "related_story"
+  },
+  {
+   "source": "story-tuebor",
+   "target": "story-the-invitation",
+   "type": "related_story"
+  },
+  {
+   "source": "story-tuebor",
+   "target": "story-detachment-201",
+   "type": "related_story"
+  },
+  {
+   "source": "story-tuebor",
+   "target": "story-periodic-table",
+   "type": "related_story"
+  },
+  {
+   "source": "story-infinity-over-zero",
+   "target": "story-dont-know-rust",
+   "type": "related_story"
+  },
+  {
+   "source": "story-infinity-over-zero",
+   "target": "story-tollbooth-economy",
+   "type": "related_story"
+  },
+  {
+   "source": "story-infinity-over-zero",
+   "target": "story-garageband-moment",
+   "type": "related_story"
+  },
+  {
+   "source": "story-infinity-over-zero",
+   "target": "story-memory-palace",
+   "type": "related_story"
+  },
+  {
+   "source": "story-infinity-over-zero",
+   "target": "story-thermal-sovereignty",
+   "type": "related_story"
+  },
+  {
+   "source": "story-infinity-over-zero",
+   "target": "story-flywheel",
+   "type": "related_story"
+  },
+  {
+   "source": "story-infinity-over-zero",
+   "target": "story-sovereign-publication",
+   "type": "related_story"
+  },
+  {
+   "source": "story-infinity-over-zero",
+   "target": "story-the-invitation",
+   "type": "related_story"
+  },
+  {
+   "source": "story-infinity-over-zero",
+   "target": "story-detachment-201",
+   "type": "related_story"
+  },
+  {
+   "source": "story-infinity-over-zero",
+   "target": "story-periodic-table",
+   "type": "related_story"
+  },
+  {
+   "source": "story-whole-cell",
+   "target": "wp-abg-whole-cell",
+   "type": "tells_story_of"
+  },
+  {
+   "source": "story-whole-cell",
+   "target": "spring-wet",
+   "type": "uses"
+  },
+  {
+   "source": "story-whole-cell",
+   "target": "spring-neural",
+   "type": "uses"
+  },
+  {
+   "source": "story-whole-cell",
+   "target": "primal-barracuda",
+   "type": "uses"
+  },
+  {
+   "source": "story-whole-cell",
+   "target": "wp-gen5",
+   "type": "exemplifies"
+  },
+  {
+   "source": "story-unified-lineage",
+   "target": "wp-unified-lineage",
+   "type": "tells_story_of"
+  },
+  {
+   "source": "story-unified-lineage",
+   "target": "evolution",
+   "type": "traces"
+  },
+  {
+   "source": "story-unified-lineage",
+   "target": "wp-coralForge",
+   "type": "connects_to"
+  },
+  {
+   "source": "story-unified-lineage",
+   "target": "wp-primals",
+   "type": "explains"
+  },
+  {
+   "source": "story-rootpulse",
+   "target": "wp-rootPulse",
+   "type": "tells_story_of"
+  },
+  {
+   "source": "story-rootpulse",
+   "target": "wp-rp-attribution",
+   "type": "tells_story_of"
+  },
+  {
+   "source": "story-rootpulse",
+   "target": "wp-rp-dag-linear",
+   "type": "tells_story_of"
+  },
+  {
+   "source": "story-rootpulse",
+   "target": "wp-gen4",
+   "type": "proves"
+  },
+  {
+   "source": "story-waterfall",
+   "target": "wp-waterFall",
+   "type": "tells_story_of"
+  },
+  {
+   "source": "story-waterfall",
+   "target": "wp-wf-airgap",
+   "type": "tells_story_of"
+  },
+  {
+   "source": "story-waterfall",
+   "target": "wp-wf-triad",
+   "type": "tells_story_of"
+  },
+  {
+   "source": "story-waterfall",
+   "target": "wp-wf-agentic",
+   "type": "tells_story_of"
+  },
+  {
+   "source": "story-tuebor",
+   "target": "wp-sp-tuebor",
+   "type": "tells_story_of"
+  },
+  {
+   "source": "story-tuebor",
+   "target": "detroit_city",
+   "type": "defends"
+  },
+  {
+   "source": "story-tuebor",
+   "target": "banks",
+   "type": "exposes"
+  },
+  {
+   "source": "story-tuebor",
+   "target": "pca",
+   "type": "investigates"
+  },
+  {
+   "source": "story-tuebor",
+   "target": "public_education",
+   "type": "defends"
+  },
+  {
+   "source": "story-tuebor",
+   "target": "mde",
+   "type": "demands_of"
+  },
+  {
+   "source": "story-tuebor",
+   "target": "three_percent_math",
+   "type": "quantifies"
+  },
+  {
+   "source": "story-tuebor",
+   "target": "signal_1st",
+   "type": "exercises"
+  },
+  {
+   "source": "story-tuebor",
+   "target": "signal_14th",
+   "type": "invokes"
+  },
+  {
+   "source": "story-infinity-over-zero",
+   "target": "wp-cg-infinity-zero",
+   "type": "tells_story_of"
+  },
+  {
+   "source": "story-infinity-over-zero",
+   "target": "wp-cg-membranes",
+   "type": "connects_to"
+  },
+  {
+   "source": "story-infinity-over-zero",
+   "target": "wp-cg-null-bang",
+   "type": "connects_to"
+  },
+  {
+   "source": "story-whole-cell",
+   "target": "banks",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-whole-cell",
+   "target": "public_education",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-whole-cell",
+   "target": "detroit_city",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-whole-cell",
+   "target": "ecoprimal",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-whole-cell",
+   "target": "opioid_crisis",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-whole-cell",
+   "target": "evolution",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-whole-cell",
+   "target": "signal_1st",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-unified-lineage",
+   "target": "banks",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-unified-lineage",
+   "target": "public_education",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-unified-lineage",
+   "target": "detroit_city",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-unified-lineage",
+   "target": "ecoprimal",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-unified-lineage",
+   "target": "opioid_crisis",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-unified-lineage",
+   "target": "evolution",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-unified-lineage",
+   "target": "signal_1st",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-rootpulse",
+   "target": "banks",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-rootpulse",
+   "target": "public_education",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-rootpulse",
+   "target": "detroit_city",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-rootpulse",
+   "target": "ecoprimal",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-rootpulse",
+   "target": "opioid_crisis",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-rootpulse",
+   "target": "evolution",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-rootpulse",
+   "target": "signal_1st",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-waterfall",
+   "target": "banks",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-waterfall",
+   "target": "public_education",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-waterfall",
+   "target": "detroit_city",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-waterfall",
+   "target": "ecoprimal",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-waterfall",
+   "target": "opioid_crisis",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-waterfall",
+   "target": "evolution",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-waterfall",
+   "target": "signal_1st",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-tuebor",
+   "target": "banks",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-tuebor",
+   "target": "public_education",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-tuebor",
+   "target": "detroit_city",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-tuebor",
+   "target": "ecoprimal",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-tuebor",
+   "target": "opioid_crisis",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-tuebor",
+   "target": "evolution",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-tuebor",
+   "target": "signal_1st",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-infinity-over-zero",
+   "target": "banks",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-infinity-over-zero",
+   "target": "public_education",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-infinity-over-zero",
+   "target": "detroit_city",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-infinity-over-zero",
+   "target": "ecoprimal",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-infinity-over-zero",
+   "target": "opioid_crisis",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-infinity-over-zero",
+   "target": "evolution",
+   "type": "contextualizes"
+  },
+  {
+   "source": "story-infinity-over-zero",
+   "target": "signal_1st",
    "type": "contextualizes"
   }
  ]
