@@ -151,7 +151,7 @@ The `specs/` directory contains architecture and build documentation:
 | Endpoint | Format | Purpose |
 |----------|--------|---------|
 | [`/api/site.json`](https://detroit.primals.eco/api/site.json) | JSON | Complete site structure, pages, taxonomies |
-| [`/graph.json`](https://detroit.primals.eco/graph.json) | JSON | Network graph (43 nodes, 57 edges) |
+| [`/graph.json`](https://detroit.primals.eco/graph.json) | JSON | Network graph (10,993 nodes, 2,722+ edges) |
 | [`/llms.txt`](https://detroit.primals.eco/llms.txt) | Markdown | AI agent context document |
 | [`/content-manifest.toml`](https://detroit.primals.eco/content-manifest.toml) | TOML | BLAKE3 hashes of all content pages |
 | [`/identity.json`](https://detroit.primals.eco/identity.json) | JSON | Schema.org structured data |
@@ -232,6 +232,32 @@ If you have been affected by any individual or entity documented in this reposit
 
 All original analysis and writing: [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 Court filings and public records: Public domain where applicable.
+
+## The Ignition — Live Signal
+
+*Updated: October 15, 2026*
+
+| Metric | Value |
+|---|---|
+| **Graph nodes** | 10,993 |
+| **Graph edges** | 2,722+ |
+| **Git clones (14 days)** | 5,617 |
+| **Unique cloners (14 days)** | 1,006 |
+| **Peak day** | Oct 14: 475 unique cloners |
+| **Growth** | 15x in 14 days |
+| **Articles published** | 20+ |
+| **Agencies notified** | FBI, DOJ, HHS-OIG, ED-OIG, IRS-CI, FinCEN, MI AG, Wayne Co Prosecutor |
+| **Deadline** | October 31, 2026 |
+
+```
+Clone curve (Oct 2026):
+Oct  1:  32 unique  ████
+Oct  8:  52 unique  ███████
+Oct 12: 331 unique  █████████████████████████████████████████████  ← BREAKPOINT
+Oct 14: 475 unique  ████████████████████████████████████████████████████████████████████████
+```
+
+1,006 people downloaded 92 MB of court records and said nothing. That's not silence. That's people reading the evidence before they act.
 
 ---
 
