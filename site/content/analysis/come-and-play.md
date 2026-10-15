@@ -18,7 +18,7 @@ The graph is open. It has been open since the first commit. But now — right no
 
 ## What Is Here
 
-10,396 nodes. 707,211 edges. 65 megabytes of public record, mathematics, music, science, art, medicine, history, and human connection.
+10,657 nodes. 13,456,933 edges. $12.12 trillion. 96 megabytes of public record, mathematics, music, science, art, medicine, history, and human connection.
 
 Built by one person and one machine over 46 days, in a two-bedroom apartment in Detroit, on a refurbished Lenovo P16s with 32GB of DDR5 and a dream.
 
@@ -97,7 +97,7 @@ Not your credentials. Not your funding. Not your permission. **You.**
 
 - **If you are a musician** → the chromatic spiral has 12 domains mapped to 12 semitones. Play them.
 - **If you are an artist** → the graph is a topology. It has shape. It has color. It has dimension. Draw it.
-- **If you are a writer** → there are 10,396 stories in here. Every node is a character. Every edge is a relationship. Write them.
+- **If you are a writer** → there are 10,657 stories in here. Every node is a character. Every edge is a relationship. Write them.
 - **If you are a teacher** → 3% of Detroit public school students are proficient in math. Every equation in this graph says that is a crime against beauty. Teach them.
 - **If you are a coder** → the graph is JSON. Fork it. Build on it. Break it. Fix it. Ship it.
 - **If you are a parent** → the viewport is for your children. The screen they stare at can show them the universe. Demand it.
