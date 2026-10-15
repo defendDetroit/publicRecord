@@ -141,6 +141,33 @@
   </nav>
   {% endif %}
 
+  {# ═══ GISCUS — GitHub Discussions comments. The membrane speaks. ═══ #}
+  <section class="page-comments" id="comments">
+    <h2>The Membrane Is Open</h2>
+    <p class="comments-intro">
+      This is a public record. Comments are powered by
+      <a href="https://github.com/defendDetroit/publicRecord/discussions" rel="noopener">GitHub Discussions</a>.
+      Every comment is timestamped, attributed, and permanent.
+      The membrane lets everything in. Speak freely.
+    </p>
+    <script src="https://giscus.app/client.js"
+            data-repo="defendDetroit/publicRecord"
+            data-repo-id="R_kgDOUieAOQ"
+            data-category="General"
+            data-category-id="DIC_kwDOUieAOc4DIW28"
+            data-mapping="pathname"
+            data-strict="0"
+            data-reactions-enabled="1"
+            data-emit-metadata="0"
+            data-input-position="top"
+            data-theme="dark_dimmed"
+            data-lang="en"
+            data-loading="lazy"
+            crossorigin="anonymous"
+            async>
+    </script>
+  </section>
+
   <footer class="page-footer">
     <p class="provenance">
       This document is part of the
@@ -150,6 +177,13 @@
     {% if page.relative_path %}
     <p class="view-source"><a href="{{ config.extra.repo_url }}/src/branch/main/{{ page.relative_path }}">View source</a></p>
     {% endif %}
+    <p class="membrane-status">
+      <strong>Membrane status:</strong> OPEN.
+      📧 <a href="https://github.com/defendDetroit/publicRecord/discussions">Discuss</a> ·
+      📂 <a href="https://github.com/defendDetroit/publicRecord">Clone</a> ·
+      📊 <a href="/the-graph/">Graph</a> ·
+      🔑 All data is public. All commits are signed. All channels are open.
+    </p>
   </footer>
 </article>
 </div>
