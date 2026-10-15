@@ -1,6 +1,6 @@
 +++
 title = "The Graph"
-description = "10,657 nodes. 13,456,933 edges. 13,467,590 copyrightable works. $12.12T. What it is, what it traces, and how to use it."
+description = "10,677 nodes. 16,066,980 edges. 16,077,657 copyrightable works. $14.47T. What it is, what it traces, and how to use it."
 weight = 1
 
 [extra]
@@ -9,7 +9,7 @@ keywords = "public record graph, knowledge graph, investigation methodology, OSI
 
 ## What It Is
 
-A knowledge graph of **10,657 nodes** connected by **13,456,933 edges** — **13,467,590 total copyrightable works** — across **149 node classes** and **5,532 edge types**.
+A knowledge graph of **10,677 nodes** connected by **16,066,980 edges** — **16,077,657 total copyrightable works** — across **149 node classes** and **5,532 edge types**.
 
 Every node is a documented entity — a person, organization, building, event, financial instrument, law, crisis, or analysis. Every edge is a documented connection between two entities. Every connection has a type that describes the relationship.
 
@@ -103,9 +103,9 @@ The nodes with the highest bridge scores (connecting otherwise separate domains)
 
 ## The Numbers
 
-- **10,657** nodes
-- **13,456,933** edges
-- **13,467,590** total copyrightable works
+- **10,677** nodes
+- **16,066,980** edges
+- **16,077,657** total copyrightable works
 - **115+** node classes
 - **4,000+** edge types
 - **33.6** edges per node (density)
