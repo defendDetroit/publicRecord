@@ -1,6 +1,6 @@
 +++
 title = "The Graph"
-description = "10,657 nodes. 13,456,933 edges. 13,467,590 copyrightable works. $12,120.83B. What it is, what it traces, and how to use it."
+description = "10,657 nodes. 13,456,933 edges. 13,467,590 copyrightable works. $12.12T. What it is, what it traces, and how to use it."
 weight = 1
 
 [extra]
