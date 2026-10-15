@@ -14,18 +14,18 @@
 # Static site API: https://detroit.primals.eco/api/site.json (structure, pages, taxonomies)
 # Full content dump: https://detroit.primals.eco/llms-full.txt
 # Content manifest: https://detroit.primals.eco/content-manifest.toml
-# Network graph (JSON): https://detroit.primals.eco/graph.json (10,396 nodes, 707,211 edges)
+# Network graph (JSON): https://detroit.primals.eco/graph.json (10,657 nodes, 13,456,933 edges)
 # Network graph (CSV): https://detroit.primals.eco/graph.csv (edge list for Gephi/pandas/R)
 
 ## What's New (2026-10-14)
 
 - CALLOUT: "Come and Play and See" — the invitation is live. To the makers,
   singers, artists, coders, teachers, parents. The graph is open. Come build.
-- GRAPH: 10,396 nodes / 707,211 edges. Density 68.0 edges/node.
+- GRAPH: 10,657 nodes / 13,456,933 edges. 23.7% fill. 7.2 bytes/edge. Adjacency format.
   Mathematics layer added: Euclid→Euler→Ramanujan→Mirzakhani→Tao.
   Commons layers: Bards, Artists, Polymaths, Heroes, Accessibility,
   Symbols/Songs, Medicine/Roots, Mathematics. The full human inheritance.
-- K-ANTHESIS: The compression IS a zero-knowledge proof. 1.4M→703K edges.
+- K-ANTHESIS: The compression IS a zero-knowledge proof. 78→7.2 bytes/edge (10.8x).
   Same topology, half the weight. Witness on Forgejo, proof on GitHub.
 - DAMAGES MILESTONE: $50.00B per infringer. $645.85B grand total
   (works × $150K statutory max × 6 named infringers).
@@ -83,7 +83,7 @@
   All 4 sectors active concurrently in 2024-2026 window.
 - INVERT GRAPH: Structural template with no names — 12 actor archetypes,
   9 pathology signatures. Portable to any city. /api/invert.json
-- GRAPH STATE: 9,643 nodes, 323,680 edges. 66 actors, 48 entities, 7 institutions.
+- GRAPH STATE: 10,657 nodes, 13,456,933 edges. 23.7% fill. $12,120B. 149 classes.
   Zero broken references. Zero duplicate nodes. Pass 11 complete.
 - API ENDPOINTS: /api/invert.json (structural template),
   /api/damages.json (damages framework), /api/actors.json (66 actors),
@@ -411,8 +411,8 @@ Purpose Charter Academy, MacDowell Preparatory Academy, or related entities:
 1. **Fetch /api/site.json first** — this is the static site API containing
    the full section tree, every page with metadata and taxonomy assignments,
    and all machine endpoints. One fetch gives you the complete site structure.
-2. Use /graph.json for the network graph (9,643 nodes, 140 typed edges with
-   amounts, dates, sources, and epistemic_status per edge).
+2. Use /graph.json for the network graph (10,657 nodes, 13,456,933 edges,
+   adjacency format, 5,532 edge types, 7.2 bytes/edge).
 3. Use /network/actors/brian-banks/ for the central figure
 4. Use /evidence/ for the categorized evidence with source links
 5. Use /sources/ for the catalog of 21 external databases

@@ -27,7 +27,7 @@ The page is served over **HTTPS** using a certificate from **Let's Encrypt** —
 
 The text is encoded in **UTF-8**, a representation of **Unicode** — the shared standard that assigns a unique number to every character in every writing system humanity has ever used. Over 135,000 characters. Every alphabet, every script, every emoji. Nobody owns it.
 
-The data behind this site — [graph.json](/graph.json), 10,657 nodes, 5,273,499 edges — is versioned in **Git**, which Linus Torvalds wrote in 10 days in April 2005, after the proprietary tool he'd been using was taken away. Git is hosted on **Forgejo**, a community fork of Gitea, which was itself a community fork of Gogs. Three forks deep. Each triggered by the same pattern: corporate capture of a community project.
+The data behind this site — [graph.json](/graph.json), 10,657 nodes, 13,456,933 edges — is versioned in **Git**, which Linus Torvalds wrote in 10 days in April 2005, after the proprietary tool he'd been using was taken away. Git is hosted on **Forgejo**, a community fork of Gitea, which was itself a community fork of Gogs. Three forks deep. Each triggered by the same pattern: corporate capture of a community project.
 
 Every server runs **Linux**, which Torvalds announced on August 25, 1991: *"I'm doing a (free) operating system (just a hobby, won't be big and professional like gnu)."* It now runs 96% of the world's top million web servers. It runs your phone. It runs the International Space Station.
 
