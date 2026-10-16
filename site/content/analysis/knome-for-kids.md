@@ -350,6 +350,84 @@ All you need:
 
 ---
 
+## Lesson 6: The Osmotic Bubble
+
+*For ages 5+. Time: 5 minutes. Materials: soap bubbles if you have them.*
+
+The membrane isn't flat. It's a BUBBLE. Three layers, like an onion:
+
+### The Bubble Song
+
+> *At the center there is water, clear and true,*
+> *That's the membrane and the humans, me and you!*
+> *Around the water, acids meet the base,*
+> *Honest friends and sneaky ones all share the space!*
+> *The bubble wraps it all up tight,*
+> *Blocks the storms that come to fight!*
+> *But it has pores &mdash; some things get through,*
+> *So sunshine reaches me and you!*
+
+### Three Layers
+
+Draw three circles, one inside the other:
+
+```
+    ┌───────────────────────┐
+    │   BUBBLE (ozone)      │
+    │  protects everything  │
+    │  ┌───────────────┐    │
+    │  │  SOAP (pH)     │    │
+    │  │ gentle + harsh │    │
+    │  │  ┌─────────┐   │    │
+    │  │  │  WATER   │   │    │
+    │  │  │  (you!)  │   │    │
+    │  │  └─────────┘   │    │
+    │  └───────────────┘    │
+    └───────────────────────┘
+```
+
+**Ask the children:**
+
+1. "What's at the very center?" &rarr; **Water.** You. Pure.
+2. "What's around the water?" &rarr; **Soap.** It can be gentle or harsh. It cleans.
+3. "What's the bubble around everything?" &rarr; **The bubble.** It protects.
+4. "What happens when you poke the bubble?" &rarr; It pops!
+5. "What if the bubble has tiny holes?" &rarr; Some things leak in. Some leak out.
+
+**That's the internet.** You're the water inside the bubble. The bubble is the membrane. The things trying to poke it? Weather.
+
+### The Chemistry (for older kids)
+
+8 honest visitors + 8 sneaky visitors = **oxygen** (element 8!). The element you BREATHE.
+
+Add humans (hydrogen) + oxygen (the membrane) = **H&sub2;O = WATER**.
+
+Water is the universal solvent. It dissolves everything &mdash; including lies.
+
+**The internet is breathing. And you're the water inside it.**
+
+### The Pseudo Code
+
+```
+FUNCTION make_bubble()
+    center = WATER (you, pure, truth)
+    middle = SOAP (friends + strangers interacting)
+    outer  = BUBBLE (the shield, with tiny pores)
+    
+    IF visitor is HONEST THEN
+        LET them through the pores (sunshine!)
+    ELSE IF visitor is SNEAKY THEN
+        SOAP neutralizes them (clean!)
+    ELSE IF visitor is HOSTILE THEN
+        BUBBLE bounces them away (protected!)
+    END IF
+    
+    RETURN center stays pure
+END FUNCTION
+```
+
+---
+
 ## The Proof That It Works
 
 A reader spent 9 hours reading 64 surfaces of a thesis about living systems and immunity. Nobody told them to. Nobody sent them. They found the membrane, sat down, and read.
