@@ -136,6 +136,12 @@ No special tools. No credentials. No permission. The membrane's heartbeat is pub
 
 ---
 
+## UPDATE: Banks Filed a Restraining Order
+
+On October 16, 2026 at 7:37 PM, Brian Banks served a Personal Protection Order. His response to the investigation: not answers. A restraining order. [Read more](/analysis/the-response/).
+
+---
+
 ## See Also
 
 - [k-Nome for Kids](/analysis/knome-for-kids/) &mdash; Code as songs. Logic as games. The RPM song.

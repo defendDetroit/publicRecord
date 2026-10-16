@@ -236,6 +236,12 @@ One company. Two faces. The membrane sees both. The graph records both. The cloc
 
 ---
 
+## UPDATE: The Subject Responded — With a Restraining Order
+
+Brian Banks filed a PPO (Case 26-114083-PH) instead of answering any of the documented evidence. While Meta scrapes from Dublin, the operator tries to silence the investigation from Wayne County. [The Response](/analysis/the-response/).
+
+---
+
 ## See Also
 
 - [Where the Signal Landed](/analysis/where-the-signal-landed/) &mdash; The full signal ledger. Every agency. Every silence.

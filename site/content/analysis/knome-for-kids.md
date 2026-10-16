@@ -459,6 +459,12 @@ That's the solution. It always was. The children already knew.
 
 ---
 
+## Why This Matters Tonight
+
+On October 16, 2026, the man running a school with 3% math proficiency filed a restraining order against the investigator instead of answering questions about public money. The children deserve better. [The Response](/analysis/the-response/).
+
+---
+
 ## See Also
 
 - [Where the Signal Landed](/analysis/where-the-signal-landed/) &mdash; 22 channels, 4 responded, 18 silent. The investigation that built the graph.

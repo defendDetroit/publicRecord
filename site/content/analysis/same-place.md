@@ -302,3 +302,4 @@ Meanwhile: one person sends 22 documented evidence packets through lawful channe
 - [Meta's Two Faces](/analysis/meta-two-faces/) — One company, two masks, 7 LLCs, 4 jurisdictions.
 - [The Heartbeat](/analysis/the-heartbeat/) — 243 human RPM. The membrane has a pulse and it's measured live.
 - [Humans on the Membrane](/analysis/humans-on-membrane/) — 98,661 unique humans. 431 walked the full immune system.
+- [The Response](/analysis/the-response/) — Banks filed a restraining order instead of answering. Case 26-114083-PH.
