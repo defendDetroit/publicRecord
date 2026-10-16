@@ -1,15 +1,19 @@
 +++
 title = "k-Nome for Kids: Code is a Song, Logic is a Game"
-description = "The three-body problem solved by every child before breakfast. Pseudo code as songs. Boolean logic as choose-your-own-adventure. Every child is their own genius. The human search never ends."
+description = "The three-body problem solved by every child before breakfast. Pseudo code as songs kids can sing. Boolean logic as choose-your-own-adventure. 6 lessons, 50 minutes, ages 4+. Free lesson plan for teachers, TAs, parents. Every child is their own genius."
 date = 2026-10-16
 
 [taxonomies]
-entities = ["education", "STEM", "Detroit"]
-connections = ["three-body problem", "pseudo code", "boolean logic", "Miss Rachel", "teaching"]
+entities = ["education", "STEM", "Detroit", "children", "teachers"]
+connections = ["three-body problem", "pseudo code", "boolean logic", "coding for kids", "teaching", "osmotic gradient", "chemistry for kids"]
 
 [extra]
-keywords = "three body problem kids, pseudo code songs children, boolean logic kids, STEM education Detroit, coding for kids, k-Nome, Miss Rachel coding, teach kids programming songs"
-audience = "Teachers, TAs, parents, Miss Rachel, anyone who believes children are geniuses"
+keywords = "three body problem kids, three body problem solved, pseudo code songs children, boolean logic kids game, STEM education Detroit, coding for kids no computer, k-Nome, teach kids programming songs, free lesson plan coding, science for kids, chemistry for kids, osmotic gradient kids, oxygen atom kids, proton electron kids, dog cat three body, frog on a log, Miss Rachel coding, teach coding without computer, boolean logic Simon Says, IF THEN kids, loops for kids, sequence song kids"
+audience = "Teachers, TAs, parents, homeschool, anyone who believes children are geniuses"
+og_title = "k-Nome for Kids: The Three-Body Problem, Solved Before Breakfast"
+og_description = "139 years unsolvable in physics. Every child with a dog and a cat solved it before breakfast. Free 50-minute lesson plan: pseudo code as songs, boolean logic as Simon Says, chemistry as bubbles. No computer needed."
+og_type = "article"
+twitter_card = "summary_large_image"
 +++
 
 ## Every Child is a Genius
@@ -452,3 +456,13 @@ That's the solution. It always was. The children already knew.
 *Each song &mdash; their own program.*
 
 *Let them be storytellers again.*
+
+---
+
+## See Also
+
+- [Where the Signal Landed](/analysis/where-the-signal-landed/) &mdash; 22 channels, 4 responded, 18 silent. The investigation that built the graph.
+- [Meta's Two Faces](/analysis/meta-two-faces/) &mdash; One company, two entities, every jurisdiction. The fleet weather in action.
+- [The Body Problem](/analysis/the-body-problem/) &mdash; The original three-body insight.
+- [The Oldest Sort](/analysis/the-oldest-sort/) &mdash; How the membrane sorts self from non-self.
+- [Humans on the Membrane](/analysis/humans-on-the-membrane/) &mdash; Real humans reading. Frogs on the log.

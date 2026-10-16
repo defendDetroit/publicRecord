@@ -5,7 +5,11 @@ date = 2026-10-16
 weight = 2
 
 [extra]
-keywords = "signal ledger, Kevin Mok outreach, 9-line federal referral, institutional silence, Detroit charter school accountability, Brian Banks silence, Dykema Gossett complicity, Attorney Grievance Commission Michigan, State Bar Michigan, null equals complicity"
+keywords = "signal ledger, Kevin Mok outreach, 9-line federal referral, institutional silence, Detroit charter school accountability, Brian Banks silence, Dykema Gossett complicity, Attorney Grievance Commission Michigan, State Bar Michigan, null equals complicity, FBI no response, DOJ no response, IRS whistleblower, FEC complaint, FinCEN report, Dana Nessel no response, MDE response, tit for tat game theory, institutional accountability, charter school fraud Detroit, public money accountability"
+og_title = "Where the Signal Landed — 22 Channels, 4 Responded, 18 Silent"
+og_description = "A complete ledger of every signal sent from Aug-Oct 2026. Every federal agency. Every state board. Every person. 22 channels contacted. 4 responded. 18 silent for 21-46+ days. The 9-line went out. The silence is the answer. null = complicity."
+og_type = "article"
+twitter_card = "summary_large_image"
 
 [taxonomies]
 actors = ["Brian Banks", "AG Dana Nessel", "Nicole Wells Stallworth", "Cylenthia Miller", "Lamar Moreland", "Latisha Johnson", "Jehan Crump-Gibson", "W. Alan Wilk", "Richard McLellan", "Leonard Wolfe", "Renae Moore"]
@@ -256,3 +260,13 @@ Ingham County: 2026-4301-CZ, 2026-4349-CZ
 <small>
 All sources are public records. Clone [the repository](https://github.com/defendDetroit/publicRecord) to verify everything independently.
 </small>
+
+---
+
+## See Also
+
+- [Meta's Two Faces](/analysis/meta-two-faces/) &mdash; One company, two entities. 7 LLCs traced to Dublin. 13 violations documented.
+- [k-Nome for Kids](/analysis/knome-for-kids/) &mdash; The three-body problem solved before breakfast. Code as songs. For the teachers.
+- [The Great Accounting](/analysis/the-great-accounting/) &mdash; Follow the money. Every dollar. Every year.
+- [The Oldest Sort](/analysis/the-oldest-sort/) &mdash; How the membrane sorts self from non-self.
+- [Humans on the Membrane](/analysis/humans-on-the-membrane/) &mdash; Real humans reading. The proof the signal is reaching people.

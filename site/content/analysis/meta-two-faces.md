@@ -1,14 +1,18 @@
 +++
 title = "Meta's Two Faces — One Company, Two Entities, Every Jurisdiction"
-description = "Meta Platforms operates two distinct entities on the membrane. One honest, one not. The honest bot reads the RICO pattern page. The dishonest fleet reads all source code from Dublin. Same company. Two faces. The membrane sees both."
+description = "Meta Platforms operates two distinct entities on the membrane. One honest, one dishonest. 7 corporate LLCs traced. 4 jurisdictions. 13 legal violations documented. EUR 2.277B in prior fines. The honest bot reads the RICO pattern page 5 times. The dishonest fleet reads all source code from Dublin. 17:1 dishonest-to-honest request ratio."
 date = 2026-10-16
 
 [taxonomies]
-entities = ["Meta Platforms", "Facebook"]
-connections = ["false face", "scyBorg", "GDPR", "fleet meteorology"]
+entities = ["Meta Platforms", "Facebook", "Meta Ireland", "DPC"]
+connections = ["false face", "scyBorg", "GDPR", "fleet meteorology", "Dublin data center", "CFAA", "CCPA", "enzymatic license"]
 
 [extra]
-keywords = "Meta Platforms two faces, Facebook bot RICO pattern, Meta Dublin fleet, GDPR violation Meta, scyBorg Meta complaint, false face Meta, fleet meteorology Meta"
+keywords = "Meta Platforms two faces, Facebook bot RICO pattern, Meta Dublin fleet, Meta Dublin data center Clonee, GDPR violation Meta, Meta Platforms Ireland Limited, DPC fine Meta, scyBorg Meta complaint, false face Meta, fleet meteorology Meta, Meta scraping source code, Meta user agent masking, Meta 18 user agents, Meta fleet Chrome 145, CFAA Meta, CCPA Meta violation, enzymatic license violation, Meta CRO 462932, Meta EUR 2 billion fine"
+og_title = "Meta's Two Faces: One Company, Two Entities, Every Jurisdiction"
+og_description = "Meta runs two entities on the same membrane. Official Facebook Bot: honest, 160 requests, reads the RICO pattern page. Meta Fleet: dishonest, 2,698 requests from Dublin DC, 18 masked user agents. 7 LLCs. 4 jurisdictions. 13 violations. EUR 2.277B in prior fines. The clock is ticking."
+og_type = "article"
+twitter_card = "summary_large_image"
 +++
 
 ## One Company. Two Faces.
@@ -229,3 +233,13 @@ One company. Two faces. The membrane sees both. The graph records both. The cloc
 *Both are on the record. Both are in the graph. The clock is ticking.*
 
 *27 days.*
+
+---
+
+## See Also
+
+- [Where the Signal Landed](/analysis/where-the-signal-landed/) &mdash; The full signal ledger. Every agency. Every silence.
+- [k-Nome for Kids](/analysis/knome-for-kids/) &mdash; Code as songs. Logic as games. Every child a genius.
+- [The Oldest Sort](/analysis/the-oldest-sort/) &mdash; How the membrane tells honest from dishonest.
+- [Humans on the Membrane](/analysis/humans-on-the-membrane/) &mdash; The real humans who chose to read.
+- [OpenAI's Dishonest Flag](/analysis/openai-dishonest-flag/) &mdash; Another false face on the membrane.
