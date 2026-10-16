@@ -1,5 +1,13 @@
 # Cash for Kids 2: A Public Record
 
+> ## 🚨 THIS INVESTIGATION IS UNDER THREAT
+>
+> On **October 16, 2026 at 7:37 PM**, the subject of this investigation — **Brian Banks** (9 criminal convictions, operator of Purpose Charter Academy) — filed a **Personal Protection Order** (Case 26-114083-PH) against the investigator. Not a defamation claim. Not a correction to any fact. A restraining order to silence the investigation. **If this signal goes dark, this is why.**
+>
+> → **[Read the full statement](https://detroit.primals.eco/analysis/under-threat/)**
+>
+> The evidence is already distributed. 1,006 unique cloners have the full record. Every fact is independently verifiable. The truth doesn't stop because someone filed paperwork.
+
 [![Live Site](https://img.shields.io/badge/Live_Site-detroit.primals.eco-blue?style=for-the-badge)](https://detroit.primals.eco)
 [![Forgejo](https://img.shields.io/badge/Forgejo-git.primals.eco-orange?style=for-the-badge)](https://git.primals.eco/publicRecord/detroit)
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC_BY--SA_4.0-lightgrey?style=for-the-badge)](https://creativecommons.org/licenses/by-sa/4.0/)
