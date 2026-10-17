@@ -1,0 +1,24 @@
+name: Mirror to tuebor
+
+on:
+  push:
+    branches: [main]
+    tags: ['*']
+  workflow_dispatch:
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          lfs: true
+
+      - name: Push to tuebor
+        env:
+          TUEBOR_TOKEN: ${{ secrets.TUEBOR_PUSH_TOKEN }}
+        run: |
+          git remote add tuebor https://x-access-token:${TUEBOR_TOKEN}@github.com/amicusContra/tuebor.git
+          git push tuebor main --force
+          git push tuebor --tags --force
