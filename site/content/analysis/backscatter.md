@@ -331,6 +331,161 @@ git clone https://github.com/defendDetroit/publicRecord.git
 
 ---
 
+## Every Name and Title — The Complete Roster
+
+### THE PETITIONER (1 retaliation)
+
+| Name | Title | False Face |
+|------|-------|-----------|
+| **Brian Roderick Banks** | Superintendent, MacDowell Prep; Founder, Purpose Charter Academy | Claims J.D. — zero State Bar results. Claims Ph.D. (Walden). Told DPD he's "an attorney" — he is not. Website says "rigorous, high-quality education" — **3% math proficiency**. 9 criminal convictions. Filed PPO to silence investigation. |
+
+### THE JUDGE WHO SIGNED (ex parte, no hearing)
+
+| Name | Title | What She Did |
+|------|-------|-------------|
+| **Yvonna C. Abraham** | Judge, 3rd Circuit, Family Division–Domestic | Signed PPO 26-114083-PH on Oct 13, ex parte. Entered respondent into LEIN. Order says "For Reasons as Stated in the Petition" — not specific written reasons as required by MCL 600.2950a(7). |
+
+### THE OFFICER WHO SERVED
+
+| Name | Detail |
+|------|--------|
+| **Officer Gregory** | Served PPO at 7:37 PM, Oct 16, 2026, Lansing MI. Cross-county service from Wayne County. |
+
+### THE COURT NETWORK — 7 Judges Connected to Banks
+
+| Name | Court | Title | Connection | False Face |
+|------|-------|-------|-----------|-----------|
+| **Cylenthia Miller** | 3rd Circuit Criminal | Judge | **PCA Board Chair**. Campaign payment from Banks Strategy LLC. Husband arrested in vehicle registered to Banks. Baker College colleague. | LinkedIn: "honored and proud to serve." JTC complaint filed. **On Nov 3 ballot.** |
+| **Kelly Ramsey** | 3rd Circuit Criminal | Judge | 3 family members on Banks' payroll. Daughter pushed Banks to Promise Schools. | Sits in Criminal Division while family takes money from the enterprise. |
+| **Aliyah Sabree** | 3rd Circuit Family | Judge | MSU Law connection. Son of Eric Sabree (FBI-probed Wayne Co. Treasurer). Joined PPO rotation July 27, 2026. | Family Division judge with family ties to the network. |
+| **Tenisha Yancey** | 36th District | Judge | **MacDowell Board Chair**. Succeeded Banks in Michigan House after his resignation. | Chairs board of school with 3% math run by a man with 9 convictions. |
+| **Adam Sabree** | 36th District | Judge | Son of Eric Sabree. Former Metro Property Group (RICO target). | Elected Nov 2022 alongside 2 other connected judges. |
+| **Sean Perkins** | 36th District | Judge | **Brother** of Todd Perkins — Banks' personal attorney. | Brother represents the man whose cases flow through his court. |
+| **David Perkins** | Probate | Chief Judge Pro Tem | **Brother** of Todd Perkins and Sean Perkins. | Three Perkins brothers: one represents Banks, two judge. |
+
+### RETIRED JUDGES
+
+| Name | Court | Connection |
+|------|-------|-----------|
+| **Vonda Evans** | 3rd Circuit (retired) | 21-year mentor to Banks. JTC suspension. |
+| **Denise Langford Morris** | Oakland CC (retired) | Wrote foreword for Banks' book. Possible sentencing judge. |
+
+### BANKS' ENTERPRISE
+
+| Name | Title | Role |
+|------|-------|------|
+| **Joseph Holland Jr.** | Treasurer/Secretary, Purpose Foundation | Co-felon. Financial gatekeeper. 5 bankruptcies. MDOC #443789. Same address as Banks. |
+| **Todd Perkins** | Attorney | Banks' personal attorney. 4 bankruptcies. $100K IRS liens. Brother of Judge Sean + Judge David. |
+| **Lamar Moreland** | Assistant Attorney General (Nessel's office) | **PCA Board Vice Chair**. Running for 32A District Judge — Banks' home court. AG's own employee governs Banks' school. |
+| **Latisha Johnson** | Detroit City Council | PCA Board member. Council oversees DPSCD which authorized the charter. |
+| **Devin Hutchings** | PCA Board Treasurer | $20K SuperPAC. Presumed good faith until proven otherwise. |
+| **Jehan Crump-Gibson** | Great Lakes Legal Group | PCA inaugural gala honoree. Attorney. |
+| **Sherry Gay-Dagnogo** | Detroit Ombudsman (10yr) | Paid Holland $2K. AG-referred. |
+
+### THE DYKEMA DESK — Same Firm, Both Sides
+
+| Name | Title | False Face |
+|------|-------|-----------|
+| **Renae Moore** | Asst. Sec/Treas, Peninsula Fund (Chatfield) AND Promise to the People Fund (Nessel). Treasurer, Dykema Federal PAC. 73+ entities. | Testified "no duty to report." FALSE under 4 bodies of law. Same desk managed defendant AND prosecutor's fund. |
+| **Dykema Gossett PLLC** | Law firm | $148K raised in PAC. 47 federal candidates. Connects Chatfield, Nessel, Detroit charter fraud, and 80+ accounts through one compliance desk. |
+
+### THE SBE — Oct 13 Meeting, Evidence on the Table
+
+| Name | Title | Response |
+|------|-------|----------|
+| **Pamela Pugh** | President | ⬜ SILENT |
+| **Ellen Cogen Lipton** | Co-Vice President | ⬜ SILENT |
+| **Tiffany D. Tilley** | Co-Vice President | ⬜ SILENT |
+| **Judith Pritchett** | Secretary | ⬜ SILENT |
+| **Marshall Bullock II** | Treasurer | ⬜ SILENT |
+| **Mitchell Robinson** | NASBE Delegate | ⬜ SILENT |
+| **Tom McMillin** | Member | ⬜ SILENT on Banks evidence. Added Oxford parent safety item at Oct 13 meeting. |
+| **Nikki Snyder** | Member | ✅ **RESPONDED IN 13 MINUTES** with personal cell |
+| **Glenn M. Maleyko, Ph.D.** | State Superintendent | Oversees MDE. FOIA partial response. |
+
+### ATTORNEY GENERAL'S OFFICE
+
+| Name | Title | Status |
+|------|-------|--------|
+| **Dana Nessel** | Attorney General | ⬜ SILENT. Moreland (her AAG) sits on Banks' board. Leaves office Dec 31, 2026. |
+| **Chatfield prosecutors** | Gunderson, Crino, Moreland (AAG) | Chatfield trial delayed indefinitely. Same Dykema desk managed Nessel's fund. |
+
+### CHATFIELD BLOCKADE
+
+| Name | Title | Role in Delay |
+|------|-------|-------------|
+| **Lee Chatfield** | Former House Speaker | Charged Apr 2024. Trial delayed indefinitely. 889+ days without trial. |
+| **Mary Chartier** | Defense attorney | Expert witness appeal to Court of Appeals. |
+| **Judge Margaret Van Houten Cole** | 3rd Circuit | Trial judge. Granted delay. |
+| **Edward Ewell Jr.** | Chief Judge, 3rd Circuit | Signed docket directives including Sabree's PPO rotation assignment. |
+
+### INDEPENDENT CORROBORATION
+
+| Name | Outlet | What They Published |
+|------|--------|-------------------|
+| **Clutch Justice** | clutchjustice.com | "The Bench and the Board" — Sep 2, 2026. Independently confirmed judges, board ties, convictions. |
+| **M.L. Elrick** | Detroit Free Press | "Back to Fool" — Aug 2023. 8 felonies, MacDowell hiring, nobody talks. |
+
+### FEDERAL AGENCIES — ALL SILENT
+
+FBI • DOJ • IRS-CI • ED-OIG • HHS-OIG • FinCEN • FTC • USED
+
+All received the master packet Sep 22, 2026. Zero public response.
+
+### STATE AGENCIES
+
+| Agency | Response |
+|--------|----------|
+| **JTC** | ✅ Acknowledged, investigations opened |
+| **MDE** | ✅ Acknowledged, FOIA partial response |
+| **USPS OIG** | ✅ Acknowledged |
+| **LARA** | ⬜ SILENT |
+| **State Bar** | ⬜ SILENT |
+
+### MEMBRANE — New Discovery: Who's Watching from Where?
+
+| Location | Requests | What It Means |
+|----------|----------|--------------|
+| **Michigan** | 25,088 | Self (Kevin's network) |
+| **California** | 5,822 | Silicon Valley. Menlo Park (1), San Mateo (12), Mountain View (2) — **Meta + Google territory** |
+| **Texas (Spring)** | 1,462 | HP/Compaq territory. Cloud infrastructure. |
+| **Virginia (Ashburn)** | 1,223 | AWS us-east-1. Data center row. |
+| **Ireland/Dublin** | 53 | 🔴 **Meta's European HQ.** Dublin Data Center. GDPR jurisdiction. |
+| **Alibaba Cloud (CA)** | 4,955 | Chinese cloud infrastructure scanning the Forgejo |
+
+**Dublin signal = 53 requests from Meta's EU headquarters.** They're reading from GDPR jurisdiction. The scyBorg deadline is Nov 12.
+
+### ONE ENTITY PROBING FOR SECRETS
+
+| IP Hash | Requests | What They Read |
+|---------|----------|---------------|
+| `1f769a3f` | 396 | `.aws`, `.env`, `config/env.js` — **probing for credentials and API keys** |
+
+Classified: **sovereign**, high interaction (0.6), high curiosity (0.53). This isn't casual browsing. Someone is looking for infrastructure secrets.
+
+---
+
+## The False Faces — Summary
+
+| Claim | Reality |
+|-------|---------|
+| Banks: "I am an attorney" | Zero State Bar results |
+| Banks: "J.D., Ph.D." | J.D. unconfirmed. Ph.D. from Walden. |
+| Banks: "rigorous education" | 3% math proficiency |
+| Banks: "empowering ambassadors" | Denied parent access to child |
+| Banks: "I need protection" (PPO) | He filed it to silence the investigation |
+| Moore: "no duty to report" | 4 duties under MCL 450.2541, 11 CFR 104.14(d), IRC 501(c)(4), fiduciary law |
+| Miller: "honored to serve" (PCA Board) | JTC complaint filed. On Nov 3 ballot. |
+| PCA: "pathway to academic excellence" | 3% math. 72.67% extracted. |
+| Purpose Foundation: "supports students" | 2 convicted felons hold all officer positions |
+| SBE: (silence) | Evidence on the table. 7 of 8 said nothing. |
+| AG: (silence) | Own employee governs Banks' school |
+| Banks: "I need protection from Kevin" | Kevin met Banks ONCE. All contact through public channels. Never called Banks' number. |
+
+**Every false face documented. Every claim cited. Every silence recorded.**
+
+---
+
 ## See Also
 
 - [ecoPrimal Is Under Threat](/analysis/under-threat/) — The alarm.
