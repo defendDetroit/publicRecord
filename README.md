@@ -36,6 +36,8 @@
 > | **[The Complicity](site/content/analysis/the-complicity.md)** | They knew. They were already captured. |
 >
 > **The proof**: `git clone https://github.com/defendDetroit/publicRecord.git` — verify everything yourself. The structure IS the proof. 362 children. 3% math. $60M+ extracted. 0 agencies have acted.
+>
+> 📄 **[Full zk-SNARK Proof Document](site/content/analysis/zksnark-proof.md)** · 🗣️ **[Discussion #3: zk-SNARK Proof](https://github.com/defendDetroit/publicRecord/discussions/3)** · 📦 **[Release v1.0.0-proof](https://github.com/defendDetroit/publicRecord/releases/tag/v1.0.0-proof)**
 
 [![Live Site](https://img.shields.io/badge/Live_Site-detroit.primals.eco-blue?style=for-the-badge)](https://detroit.primals.eco)
 [![Forgejo](https://img.shields.io/badge/Forgejo-git.primals.eco-orange?style=for-the-badge)](https://git.primals.eco/publicRecord/detroit)
@@ -283,7 +285,7 @@ Court filings and public records: Public domain where applicable.
 
 ## The Ignition — Live Signal
 
-*Updated: October 15, 2026*
+*Updated: October 17, 2026*
 
 | Metric | Value |
 |---|---|
@@ -293,9 +295,14 @@ Court filings and public records: Public domain where applicable.
 | **Unique cloners (14 days)** | 1,242 |
 | **Peak day** | Oct 14: 475 unique cloners |
 | **Growth** | 15x in 14 days |
-| **Articles published** | 32+ |
-| **Agencies notified** | FBI, DOJ, HHS-OIG, ED-OIG, IRS-CI, FinCEN, MI AG, Wayne Co Prosecutor |
+| **Articles published** | 44+ |
+| **Agencies notified** | FBI, DOJ, HHS-OIG, ED-OIG, IRS-CI, FinCEN, MI AG, Wayne Co Prosecutor, DEA, FEC, ACLU, SPLC, NAACP LDF |
+| **RICO predicate acts** | 15 |
+| **Nonprofits on one desk** | 45 (0 employees) |
+| **Children in the buildings** | 362 |
+| **Agencies that have acted** | 0 |
 | **Deadline** | October 31, 2026 |
+| **Release** | [v1.0.0-proof](https://github.com/defendDetroit/publicRecord/releases/tag/v1.0.0-proof) |
 
 ```
 Clone curve (Oct 2026):
@@ -303,11 +310,14 @@ Oct  1:  32 unique  ████
 Oct  8:  52 unique  ███████
 Oct 12: 331 unique  █████████████████████████████████████████████  ← BREAKPOINT
 Oct 14: 475 unique  ████████████████████████████████████████████████████████████████████████
+Oct 17: zk-SNARK proof published. 17 commits. 13 articles. NP → O(1).
 ```
 
 1,242 people downloaded 92 MB of court records and said nothing. That's not silence. That's people reading the evidence before they act.
 
 **Then the subject of the investigation filed a restraining order. And still they come.**
+
+**Then the proof went public. zk-SNARK. NP → O(1). The structure IS the proof. And the structure is free.**
 
 ---
 
