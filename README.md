@@ -6,7 +6,18 @@
 >
 > → **[Read the full statement](https://detroit.primals.eco/analysis/under-threat/)**
 >
-> The evidence is already distributed. 1,006 unique cloners have the full record. Every fact is independently verifiable. The truth doesn't stop because someone filed paperwork.
+> The evidence is already distributed. **1,242 unique cloners** have the full record. Every fact is independently verifiable. The truth doesn't stop because someone filed paperwork.
+>
+> ### Weekend Articles (Oct 16–17, 2026)
+>
+> | Article | What It Documents |
+> |---------|-------------------|
+> | **[The Response](site/content/analysis/the-response.md)** | Banks filed PPO 26-114083-PH instead of answering any documented fact |
+> | **[Under Threat](site/content/analysis/under-threat.md)** | The alarm — ecoPrimal infrastructure under legal threat |
+> | **[Who Signed, Who Served](site/content/analysis/who-signed-who-served.md)** | Questions for Judge Abraham — MCL 600.2950a(7), Lamkin v. Engram |
+> | **[The Backscatter](site/content/analysis/backscatter.md)** | Every node, every edge, every timestamp — full graph with 40+ names |
+> | **[Chatfield Blockade](site/content/analysis/chatfield-blockade.md)** | Same firm. Same desk. Trial delayed indefinitely. |
+> | **[Moore's Law Is False](site/content/analysis/moores-law-is-false.md)** | 4 proofs Renae Moore had a duty to report |
 
 [![Live Site](https://img.shields.io/badge/Live_Site-detroit.primals.eco-blue?style=for-the-badge)](https://detroit.primals.eco)
 [![Forgejo](https://img.shields.io/badge/Forgejo-git.primals.eco-orange?style=for-the-badge)](https://git.primals.eco/publicRecord/detroit)
@@ -78,6 +89,17 @@ The live site at **[detroit.primals.eco](https://detroit.primals.eco)** renders 
 | Institutional Capture | [detroit.primals.eco/analysis/institutional-capture/](https://detroit.primals.eco/analysis/institutional-capture/) |
 | Sources & Databases | [detroit.primals.eco/sources/](https://detroit.primals.eco/sources/) |
 | Timeline (1998–2026) | [detroit.primals.eco/timeline/](https://detroit.primals.eco/timeline/) |
+
+### NEW — Weekend Oct 16–17, 2026
+
+| Page | What It Documents |
+|------|-------------------|
+| **[🚨 Under Threat](site/content/analysis/under-threat.md)** | The alarm — PPO 26-114083-PH filed by investigation subject |
+| **[The Backscatter](site/content/analysis/backscatter.md)** | Full graph: 40+ names, Oct 13 convergence, SBE + PPO same day |
+| **[Questions for Judge Abraham](site/content/analysis/who-signed-who-served.md)** | MCL 600.2950a(7), Lamkin v. Engram, 6 devastating questions |
+| **[The Response](site/content/analysis/the-response.md)** | Banks filed a restraining order instead of answering |
+| **[Chatfield Blockade](site/content/analysis/chatfield-blockade.md)** | Same firm (Dykema), same desk, trial delayed indefinitely |
+| **[Moore's Law Is False](site/content/analysis/moores-law-is-false.md)** | 4 statutory proofs MDE's Renae Moore had a duty to report |
 
 ## Structure
 
@@ -249,11 +271,11 @@ Court filings and public records: Public domain where applicable.
 |---|---|
 | **Graph nodes** | 10,993 |
 | **Graph edges** | 2,722+ |
-| **Git clones (14 days)** | 5,617 |
-| **Unique cloners (14 days)** | 1,006 |
+| **Git clones (14 days)** | 6,200+ |
+| **Unique cloners (14 days)** | 1,242 |
 | **Peak day** | Oct 14: 475 unique cloners |
 | **Growth** | 15x in 14 days |
-| **Articles published** | 20+ |
+| **Articles published** | 32+ |
 | **Agencies notified** | FBI, DOJ, HHS-OIG, ED-OIG, IRS-CI, FinCEN, MI AG, Wayne Co Prosecutor |
 | **Deadline** | October 31, 2026 |
 
@@ -265,7 +287,9 @@ Oct 12: 331 unique  ████████████████████
 Oct 14: 475 unique  ████████████████████████████████████████████████████████████████████████
 ```
 
-1,006 people downloaded 92 MB of court records and said nothing. That's not silence. That's people reading the evidence before they act.
+1,242 people downloaded 92 MB of court records and said nothing. That's not silence. That's people reading the evidence before they act.
+
+**Then the subject of the investigation filed a restraining order. And still they come.**
 
 ---
 
