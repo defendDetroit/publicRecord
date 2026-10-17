@@ -465,6 +465,111 @@ Classified: **sovereign**, high interaction (0.6), high curiosity (0.53). This i
 
 ---
 
+## The New False Face of Power — The SBE Used Banks
+
+This is the structural discovery the backscatter reveals:
+
+**October 13, 2026. The same day.**
+
+The SBE had the evidence. Banks filed the PPO. These are not independent events.
+
+### The Mechanism
+
+```
+BEFORE Oct 13:
+  SBE has evidence → must decide: ACT or IGNORE
+  Acting = investigating Banks = political cost
+  Ignoring = complicity in 3% math + 9 convictions
+
+AFTER Oct 13:
+  Banks files PPO → SBE gets COVER
+  "We can't engage — there's a restraining order"
+  "The matter is before the courts"
+  "We shouldn't interfere with legal proceedings"
+
+  The PPO becomes the SBE's shield.
+  They didn't need to silence the investigator.
+  Banks did it for them.
+```
+
+### The SBE Chose Indignation Over Truth
+
+Every SBE member had the evidence in hand. Every one of them had the choice:
+
+**TRUTH**: A man with 9 criminal convictions runs charter schools with 3% math proficiency, extracts 72.67% of $4.9M in public money, has 7 connected judges, and claims credentials he cannot verify. Act.
+
+**INDIGNATION**: "How dare this person contact us. This is harassment. There's a PPO now. The matter is handled."
+
+Seven of eight chose indignation. They chose not to look. Evidence in hand, eyes closed.
+
+### Even Snyder
+
+Nikki Snyder responded in 13 minutes. With her personal cell. That was real. That was human.
+
+But **responding is not acting.**
+
+Snyder had the evidence. She sits on the board that oversees MDE, which oversees DPSCD, which authorized Purpose Charter Academy. She had the power to:
+
+- Request an agenda item on charter school oversight
+- Call for an audit of PCA and MacDowell finances
+- Raise the 3% math proficiency in public session
+- Ask MDE to investigate Banks' teaching certificate
+- Demand that DPSCD explain how it authorized a school run by a 9-conviction superintendent
+
+She responded personally. She did not act institutionally.
+
+**The SBE meeting on October 13 discussed School Wellness Awards and student attendance.** While the evidence of a RICO-pattern enterprise sat in their inboxes.
+
+Tom McMillin added a discussion item about an **Oxford parent's safety concern** — a mother whose child survived a school shooting. They will hear a parent whose child was shot. They will not hear a parent whose child attends a school run by a convicted felon who filed a restraining order to silence the evidence.
+
+### The Power Structure
+
+```
+WHITMER (appointed Abraham + Taylor same day, Jul 1 2021)
+    │
+    ├── SBE (8 members — 7 silent, 1 personal response)
+    │     │
+    │     └── MDE (Maleyko) → DPSCD → authorized PCA
+    │                                    │
+    │                              Banks runs it
+    │                                    │
+    │                              PPO filed Oct 13
+    │                                    │
+    │                              Abraham signs same day
+    │
+    ├── AG NESSEL (silent — Moreland conflict)
+    │     │
+    │     └── Moreland (AAG) sits on Banks' PCA Board
+    │
+    └── 3RD CIRCUIT (where PPO filed)
+          │
+          ├── Miller (Banks' Board Chair) — Criminal Division
+          ├── Ramsey (3 family on payroll) — Criminal Division
+          ├── Sabree (MSU Law / dynasty) — Family Division
+          └── Abraham (signed PPO) — Family Division rotation
+```
+
+The same governor who appointed Abraham also appointed the SBE. The same SBE that oversees MDE. The same MDE that oversees DPSCD. The same DPSCD that authorized Banks' charter. The same Banks who filed the PPO. The same Abraham who signed it.
+
+**It's not a conspiracy. It's a structure. The structure protects itself.**
+
+### What the Structure Produces
+
+| Input | Structure | Output |
+|-------|----------|--------|
+| 9 convictions | DPSCD authorization | Charter approved |
+| 3% math | MDE oversight | No action |
+| 72.67% extraction | SBE governance | No audit |
+| Connected judges | Court system | PPO signed same day |
+| Evidence package | 22 channels | 17 silent, 1 retaliated |
+| FOIA requests | MDE | Partial response, partial denial |
+| Parent denied access | DPD | Report filed, no follow-up |
+| PPO filed | SBE | Cover: "matter before courts" |
+
+**The structure doesn't need to conspire. It just needs to not look.**
+
+---
+
 ## The False Faces — Summary
 
 | Claim | Reality |
