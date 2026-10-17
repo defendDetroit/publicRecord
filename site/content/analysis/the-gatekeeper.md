@@ -208,6 +208,140 @@ And behind the board — controlling the foundation, the PAC, the trust, and eve
 
 ---
 
+## The Holland Web — Every Connection, Skipping Banks
+
+Forget Banks for a moment. Trace Holland alone. Every link goes through him.
+
+```
+                              WILLIAMS, JOSEPH ANTIONE
+                              a/k/a JOSEPH HOLLAND JR.
+                              MDOC #443789 | SID 2321035P
+                              DOB: 07/17/1984
+                              Discharged: WITHOUT IMPROVEMENT
+                                        │
+          ┌───────────────┬──────────────┼──────────────┬───────────────┐
+          │               │              │              │               │
+    PURPOSE            BANK ON         BANKS         RIGHT TURN     ONE FAMILY
+    FOUNDATION         BANKS PAC       LIVING        PROJECT        ALLIANCE
+    LARA 803294855     SOS #517977     TRUST         LARA 800936257 (OFA)
+          │               │              │              │               │
+    Secretary         Treasurer      1st Successor   President      Officer
+    + Treasurer                      Trustee         (DISSOLVED)
+          │               │              │              │
+          ▼               ▼              ▼              ▼
+    Controls ALL      Controls ALL   Inherits ALL   Controlled ALL
+    foundation        PAC money      trust assets   charity money
+    finances          + filings      on Banks'      Email: BBesq06
+                                     death          = Banks' email
+          │               │                             │
+          │               │                             ▼
+          │               │                       CARLTON ROSS
+          │               │                       Treasurer, Right Turn
+          │               │                             │
+          │               │                             ▼
+          │               │                       ROSS CATERING
+          │               │                       $35,000+ from
+          │               │                       Banks campaigns
+          │               │
+          ▼               ▼
+    ┌─────────────────────────────┐
+    │    THE MONEY FLOWS          │
+    │                             │
+    │  $4.9M public funds/year    │
+    │         │                   │
+    │         ▼                   │
+    │  Purpose Group LLC          │
+    │  (72.67% of all revenue)    │
+    │         │                   │
+    │         ▼                   │
+    │  Purpose Foundation         │
+    │  Holland = Sec + Treas      │
+    │         │                   │
+    │         ▼                   │
+    │  Bank on Banks PAC          │
+    │  Holland = Treasurer        │
+    │         │                   │
+    │         ▼                   │
+    │  $14,500+ unpaid fines      │
+    │  (SOS enforcement)          │
+    └─────────────────────────────┘
+```
+
+### Every Person Connected Through Holland — Not Through Banks
+
+| Person | Connection TO Holland | Connection FROM Holland | Why It Matters |
+|--------|----------------------|------------------------|----------------|
+| **Carlton Ross** | Right Turn Treasurer (same board) | Ross Catering → $35K from Banks campaigns | Money loop: PAC → Right Turn → Catering |
+| **Terrence Tarver** | Right Turn Secretary (same board, same address as Ross) | Same address: 16500 North Park Dr, Southfield | Two board members at same address |
+| **Sherry Gay-Dagnogo** | Paid Holland $2,000 | DPSCD Board member who authorized PCA | Authorization → Holland payment |
+| **Nicole Wells-Stallworth** | PCA Board President (received MDE investigation letter) | Purpose Foundation (Holland entity) | Knew about MDE investigation, stayed on board |
+| **Tracey Ellis** | Named defendant alongside Holland in 2026-4349-CZ | Banks enterprise | Co-defendant |
+
+### The Property Web — Holland at the Center
+
+| Property | Holland's Role | Document |
+|----------|---------------|----------|
+| **21553 Newcastle Rd** | Owner (quitclaimed to Banks for $1, JTWRS) | Wayne ROD QCD #2007402847 |
+| **1968 Severn Rd, GPW** | Resident, foundation registered here | LARA + Trust Certificate |
+| **Banks tax lien at Newcastle** | Holland's address used for Banks' tax filing | Wayne ROD |
+| **Banks Living Trust** | 1st Successor Trustee — inherits everything | Trust Certificate, Wayne ROD |
+
+### The Alias Web — Which Name, Which Filing?
+
+| Name Used | Where | What For |
+|-----------|-------|----------|
+| **Williams, Joseph Antione** | MDOC, ICHAT (birth name) | Criminal record — drug delivery |
+| **Joseph Holland Jr.** | LARA, Purpose Foundation, PAC | Financial officer positions |
+| **Joseph Antoine Holland** | MDOC alias | Alternate spelling |
+| **Joseph Holland** | Wayne ROD, bankruptcy filings | Property, legal filings |
+
+**Question for investigators:** Did Holland file bankruptcy under "Williams" or "Holland"? Were all 5 filings searchable under both names? Did bankruptcy trustees search both names at Wayne County ROD?
+
+If not — assets may have been hidden by **filing under one name while holding property under another.**
+
+### The 5 Bankruptcies vs. The Deed
+
+The concealment allegation is simple:
+
+1. Holland filed bankruptcy and **swore under oath** that his schedule of assets was complete
+2. At the **same time**, Wayne County ROD showed property in Holland's name
+3. The deed was **publicly recorded** — anyone searching ROD would find it
+4. The bankruptcy schedules **did not disclose it**
+5. **18 U.S.C. § 152** makes this a federal crime: concealment of assets in bankruptcy
+
+This happened **five times.**
+
+### Why MDOC "Without Improvement" Matters
+
+Michigan's MDOC uses specific discharge codes:
+
+| Code | Meaning |
+|------|---------|
+| **Discharged** | Completed sentence |
+| **Discharged - Satisfactory** | Met parole/probation requirements |
+| **Discharged Without Improvement** | **Failed to demonstrate rehabilitation** |
+
+Holland received the worst possible discharge assessment. The state of Michigan formally concluded that after his conviction for dealing cocaine, his time in the system produced **zero measurable improvement.**
+
+This is the person who manages the finances of schools serving **362 predominantly Black children** in Detroit.
+
+---
+
+## The Question That Breaks the Link
+
+If you remove Joseph Holland Jr. from the enterprise:
+
+- **Who signs the Purpose Foundation checks?** No one. Holland holds both financial officer positions.
+- **Who files the Bank on Banks PAC reports?** No one. Holland is the only treasurer.
+- **Who inherits the Banks Living Trust?** No one designated after Holland.
+- **Who managed Right Turn Project funds?** No one — it's dissolved for failure to file.
+
+Holland IS the financial infrastructure. Remove him and every money channel collapses.
+
+**That's why Banks filed a PPO to silence the person who documented it.**
+
+---
+
 ## Detroit — Act
 
 Your children attend these schools. Your tax dollars fund them. Your courts protect them. Your attorney general's employee governs them.
