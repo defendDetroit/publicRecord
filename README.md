@@ -18,6 +18,24 @@
 > | **[The Backscatter](site/content/analysis/backscatter.md)** | Every node, every edge, every timestamp — full graph with 40+ names |
 > | **[Chatfield Blockade](site/content/analysis/chatfield-blockade.md)** | Same firm. Same desk. Trial delayed indefinitely. |
 > | **[Moore's Law Is False](site/content/analysis/moores-law-is-false.md)** | 4 proofs Renae Moore had a duty to report |
+>
+> ### 🔐 zk-SNARK: The Proof Is Complete (Oct 17, 2026)
+>
+> **15 commits. 12 articles. The full picture.**
+>
+> | Article | What It Proves |
+> |---------|---------------|
+> | **[The Enterprise](site/content/analysis/the-enterprise.md)** | Complete RICO — 15 predicates, $60M+, Kids for Cash 2 |
+> | **[Moore's Complete Ledger](site/content/analysis/moores-complete-ledger.md)** | 54 entities, every EIN, $1M RFFW complaint |
+> | **[The False Face](site/content/analysis/the-false-face.md)** | 45 nonprofits, 0 employees, millions in dark money |
+> | **[The Circular Shield](site/content/analysis/the-circular-shield.md)** | AGC File 26-2141 — Goetz = Moreland's former colleague |
+> | **[The Accountability Matrix](site/content/analysis/the-accountability-matrix.md)** | Every crime × every entity × every person |
+> | **[The Referral](site/content/analysis/the-referral.md)** | 17 agencies — FBI, DEA, IRS, DOJ, ACLU, SPLC, all others |
+> | **[NP → O(1)](site/content/analysis/np-to-o1.md)** | RICO is NP. The graph solves it. Zero-knowledge. |
+> | **[The Nonprofit Web](site/content/analysis/the-nonprofit-web.md)** | Dark money → board seat pipeline |
+> | **[The Complicity](site/content/analysis/the-complicity.md)** | They knew. They were already captured. |
+>
+> **The proof**: `git clone https://github.com/defendDetroit/publicRecord.git` — verify everything yourself. The structure IS the proof. 362 children. 3% math. $60M+ extracted. 0 agencies have acted.
 
 [![Live Site](https://img.shields.io/badge/Live_Site-detroit.primals.eco-blue?style=for-the-badge)](https://detroit.primals.eco)
 [![Forgejo](https://img.shields.io/badge/Forgejo-git.primals.eco-orange?style=for-the-badge)](https://git.primals.eco/publicRecord/detroit)
