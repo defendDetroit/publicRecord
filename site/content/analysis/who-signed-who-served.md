@@ -1,28 +1,138 @@
 +++
 title = "Who Signed, Who Served, Who Benefits — The PPO's Journey from Wayne County to Lansing"
-description = "Judge Yvonna C. Abraham signed Brian Banks' ex parte PPO on October 13, 2026 — the same day the SBE met. Then Banks arranged for an officer to drive 80 miles to Lansing to serve it on a Friday evening. The PPO was filed in the one court system in Michigan where Banks has 7 connected judges across 4 courts. The judge who signed it may not be one of them. But the courthouse is."
+description = "Judge Yvonna C. Abraham signed Brian Banks' ex parte PPO on October 13, 2026 — the same day the SBE met. Then Banks arranged for an officer to drive 80 miles to serve it on a Friday evening. The PPO was filed in the one court system where Banks has 7 judges. But the real questions are: What did Banks tell you, Judge Abraham? Did you verify any of it? And why is a man who denied a parent access to their child now using the court to deny that parent access to everything?"
 date = 2026-10-17
 
 [taxonomies]
 actors = ["Brian Banks", "Judge Yvonna Abraham"]
 entities = ["Third Judicial Circuit", "36th District Court", "Wayne County", "Purpose Charter Academy"]
-connections = ["PPO", "judicial capture", "institutional capture", "court network", "service chain"]
+connections = ["PPO", "judicial capture", "institutional capture", "court network", "service chain", "LEIN", "custody interference"]
 
 [extra]
-keywords = "Judge Yvonna Abraham PPO, Wayne County Third Circuit PPO docket, Brian Banks restraining order, 26-114083-PH, PPO service across county lines, Wayne County judicial capture, 36th District Court Brian Banks, Cylenthia Miller Purpose Charter, Tenisha Yancey MacDowell, Aliyah Sabree family division, Sean Perkins 36th District, Adam Sabree Wayne County, judicial network charter school, PPO rotation assignment, ex parte without hearing, LEIN Michigan, court capture Detroit"
+keywords = "Judge Yvonna Abraham PPO, Wayne County Third Circuit PPO docket, Brian Banks restraining order, 26-114083-PH, PPO service across county, Wayne County judicial capture, 36th District Court Brian Banks, LEIN entry without hearing, ex parte PPO Michigan, MCL 600.2950a stalking, MCR 3.705 specific reasons, custody interference charter school, nondomestic PPO custody case, PPO rotation assignment"
 og_title = "Who Signed, Who Served, Who Benefits"
-og_description = "The PPO was filed in the one court system in Michigan where Banks has 7 connected judges. The judge who signed it may not be one of them. But the courthouse belongs to Banks."
+og_description = "The PPO was filed in the one court system where Banks has 7 judges. The judge signed it without a hearing. Now the investigator is in LEIN. These are the questions that need answers."
 og_type = "article"
 twitter_card = "summary_large_image"
 +++
 
-## The Signature
+## Questions for Judge Abraham
 
-**Judge Yvonna C. Abraham** signed the Personal Protection Order on **October 13, 2026**.
+Your Honor, you signed a Personal Protection Order on October 13, 2026.
 
-Case No. 26-114083-PH. Ex parte. Without a hearing. Without notice to the respondent.
+Case No. 26-114083-PH. Ex parte. Without a hearing. Without notice.
 
-Judge Abraham is on the **PPO rotation** in the Third Judicial Circuit's Family Division — Domestic Relations Section. PPOs are assigned to domestic judges on a rotating basis. When Banks' petition landed, Abraham was the rotation judge.
+You entered a person into **LEIN** — the Law Enforcement Information Network — based solely on what Brian Banks wrote in his petition.
+
+Here are the questions.
+
+---
+
+## 1. What Did He Tell You?
+
+The order states: *"For Reasons as Stated in the Petition."*
+
+**MCL 600.2950a(7)** requires: *"The court shall immediately state in writing the specific reasons for issuing or refusing to issue the [PPO]."*
+
+**MCR 3.705(A)(2)** requires that for a nondomestic stalking PPO issued ex parte, the court must find *"specific facts shown by verified complaint, written petition, or affidavit."*
+
+"For Reasons as Stated in the Petition" is not a statement of specific reasons. It is a reference to someone else's allegations. **What were the specific facts you found?**
+
+Did Brian Banks tell you:
+
+- That **all contact** was directed to **public institutions** — MDE, SBE, LARA, State Bar, JTC, FBI, DOJ — not to Banks personally?
+- That the contact consisted of **FOIA requests**, **regulatory complaints**, and **publication of public records** — all constitutionally protected activity?
+- That the respondent met Brian Banks **one time**, in August 2026, at Purpose Charter Academy — a public school — when exercising parental custody rights?
+- That the respondent has **active legal proceedings** involving Banks — including Ingham County Case 2026-4349-CZ?
+- That the respondent filed complaints with **8 federal agencies** before Banks filed this petition?
+- That the investigation Banks wants silenced is **independently corroborated** by [Clutch Justice](https://clutchjustice.com/2026/09/02/two-judges-banks-charter-network/) and the [Detroit Free Press](https://www.freep.com/story/news/columnists/ml-elrick/2023/08/27/detroit-school-former-felon-as-principal/70669868007/)?
+
+Or did Banks just tell you his version — and you signed your name?
+
+---
+
+## 2. Did You Verify Anything?
+
+Under Michigan law, the judge "is not limited to the four corners of the petition itself; rather, it must consider the testimony, documents, and other evidence proffered to determine whether a respondent engaged in harassing conduct." *Lamkin v. Engram*, 295 Mich App 701, 712 (2012).
+
+Did you consider any evidence beyond Banks' petition?
+
+Did you check whether:
+
+- Brian Banks has **9 criminal convictions** (6 felony, 3 misdemeanor) — [verify on ICHAT, SID 2029469K](https://apps.michigan.gov/ichat)?
+- Banks runs charter schools with **3% math proficiency** — [verify on MDE School Data](https://www.mischooldata.org)?
+- Banks claims a **J.D.** but has **zero results** in the [State Bar of Michigan directory](https://www.michbar.org/memberdirectory/)?
+- Banks' school board is chaired by **Judge Cylenthia Miller** — one of your colleagues at the 3rd Circuit?
+- Banks is under **active MDE investigation** for his teaching certificate?
+- Banks denied a parent access to their child at Purpose Charter Academy and **lied to Detroit Police**, telling them he was "an attorney" (DPD Report #26-0909-0176)?
+
+Or did you see the petition and sign your name?
+
+---
+
+## 3. Why Am I in LEIN?
+
+You entered the respondent into the **Law Enforcement Information Network** — a statewide police database — without a hearing.
+
+LEIN entries are not criminal convictions. But they are **matters of public record** that can affect employment, professional licensing, security clearances, and firearms eligibility.
+
+The respondent now has a LEIN entry. Brian Banks — who has **9 criminal convictions** and **$14,500 in unpaid campaign finance fines** — used your signature to put someone in a law enforcement database.
+
+The respondent has **zero** criminal convictions. **Zero** complaints against him. **Zero** prior PPOs. He filed FOIA requests and regulatory complaints about public corruption.
+
+And now he's in LEIN.
+
+---
+
+## 4. Why Nondomestic?
+
+Banks filed under **MCL 600.2950a** — the **nondomestic** stalking PPO statute.
+
+But there is a **custody dimension** to this case. Banks **denied a parent access to their child** at Purpose Charter Academy in August 2026 (DPD Report #26-0909-0176). Banks told Detroit Police he was "an attorney" — he is not.
+
+**MCR 3.706(C)(1)** requires: *"Before issuing a PPO in a case where a custody or parenting time order already exists between the parties, the court must contact the court having jurisdiction over the parenting time or custody matter."*
+
+**MCL 600.1023** requires: *"When 2 or more matters within the jurisdiction of the family division of circuit court involving members of the same family are pending in the same judicial circuit, those matters, whenever practicable, shall be assigned to the judge to whom the first such case was assigned."*
+
+Did you contact any other court before signing? Did you check whether the respondent has pending legal proceedings involving Banks?
+
+Or was it faster to just sign?
+
+---
+
+## 5. Why Does He Have My Number?
+
+The PPO lists the respondent's cell phone number. Banks provided it.
+
+**The respondent has never called Brian Banks.** Not once. Every communication was through **public channels** — FOIA requests, regulatory complaints, emails to public institutions, certified mail to public addresses.
+
+So how did Brian Banks obtain the respondent's personal cell phone number?
+
+And why did Banks — who claims to need protection from the respondent — go to the trouble of **collecting personal information** about the person he claims is harassing him?
+
+Meanwhile, Banks' cell phone number appears on the PPO because **he** provided it to the court: **313-355-4238**. This is a public court document.
+
+The respondent has never dialed that number. But Banks had the respondent's number ready for the petition.
+
+---
+
+## 6. While I Wait for Hearings, He Gets an Instant Order?
+
+The respondent has **active legal proceedings** involving Brian Banks:
+
+| Case | Court | Status |
+|------|-------|--------|
+| Ingham County 2026-4349-CZ | 30th Circuit Court | Filed Sep 1, 2026 |
+| Federal packet (8 agencies) | DOJ, FBI, IRS, ED-OIG, HHS-OIG, FinCEN, FTC, USED | Delivered Sep 22, 2026 |
+| JTC complaint | Judicial Tenure Commission | Filed Aug 31, 2026 |
+| DPSCD complaint | Detroit Public Schools | Filed Aug 31, 2026 |
+| State Bar UPL complaint | State Bar of Michigan | Filed Aug 31, 2026 |
+
+These cases require **hearings**, **service**, **scheduling**, and **months of waiting**.
+
+Banks walked into Room 928 and got a signed order **the same day**. Ex parte. No hearing. No notice. No waiting.
+
+One system moves at the speed of paperwork. The other moves at the speed of a signature.
 
 ---
 
@@ -35,121 +145,70 @@ Judge Abraham is on the **PPO rotation** in the Third Judicial Circuit's Family 
 | **Division** | Family Division — Domestic Relations |
 | **Judge Code** | P70405 |
 | **Appointed** | July 1, 2021 by Gov. Whitmer |
-| **Elected** | November 8, 2022 (uncontested incumbent) |
+| **Elected** | November 8, 2022 (uncontested) |
 | **Term expires** | January 1, 2029 |
 | **Prior role** | Magistrate & Director of Probation, 20th District Court (Dearborn Heights) |
 | **Law school** | University of Detroit Mercy |
-| **Campaign contributions** | $0.00 raised, $0.00 spent (2022) |
+| **Campaign money** | $0.00 raised, $0.00 spent (2022) |
 
-Judge Abraham was appointed by Governor Whitmer on **July 1, 2021** — the same day Whitmer appointed **Marlena E. Taylor** to the **36th District Court**. Two appointments. Same announcement. Same day. One to the 3rd Circuit. One to the 36th District — the court where Brian Banks has three connected judges.
+**No direct connection** between Judge Abraham and Brian Banks has been identified.
 
-No direct connection between Judge Abraham and Brian Banks has been identified in this investigation. She appears to have received the petition through normal rotation.
+She was on the **PPO rotation** in the Family Division. When Banks' petition arrived, she was the rotation judge.
 
-**But that's the point.**
+The question isn't whether Judge Abraham is compromised. **The question is what she was told and whether she checked.**
 
 ---
 
 ## The Courthouse
 
-Banks didn't need a connected judge to sign the PPO. He needed a **courthouse** where the petition would be treated routinely.
+Banks filed in **Wayne County Third Judicial Circuit** — the one court system in Michigan where he has **7 connected judges across 4 courts**:
 
-He filed in **Wayne County Third Judicial Circuit** — the one court system in Michigan where he has **7 connected judges across 4 courts**:
+### 3rd Circuit (where the PPO was filed)
 
-### 3rd Circuit Court (where the PPO was filed)
-
-| Judge | Division | Connection to Banks |
-|-------|----------|-------------------|
-| **Cylenthia Miller** | Criminal | **Board Chair**, Purpose Charter Academy. Campaign payment from Banks Strategy LLC. Husband arrested in vehicle registered to Banks. Baker College colleague. Subject of JTC complaint. **Running for re-election Nov 3, 2026.** |
-| **Kelly Ramsey** | Criminal | 3 family members on Banks' payroll. Daughter pushed Banks to Promise Schools. |
-| **Aliyah Sabree** | Family (Juvenile → Domestic) | MSU Law connection. **Assigned to Family Division-Domestic PPO rotation as of July 27, 2026** — just 78 days before Banks filed. Son of Eric Sabree (Wayne County Treasurer, FBI-probed). |
+| Judge | Connection |
+|-------|-----------|
+| **Cylenthia Miller** | **Board Chair**, Purpose Charter Academy. Campaign payment from Banks Strategy LLC. JTC complaint filed. **Running Nov 3, 2026.** |
+| **Kelly Ramsey** | Criminal Division. 3 family members on Banks' payroll. |
+| **Aliyah Sabree** | Family Division. MSU Law connection. **Joined PPO rotation July 27, 2026** — 78 days before Banks filed. |
 
 ### 36th District Court (Banks' home court)
 
-| Judge | Connection to Banks |
-|-------|-------------------|
-| **Tenisha Yancey** | **Board Chair**, MacDowell Preparatory Academy. Succeeded Banks in Michigan House after his resignation. |
-| **Adam Sabree** | Son of Eric Sabree. Former Metro Property Group (RICO target). |
-| **Sean Perkins** | **Brother of Todd Perkins** — Banks' personal attorney (4 bankruptcies, $100K IRS liens). |
+| Judge | Connection |
+|-------|-----------|
+| **Tenisha Yancey** | **Board Chair**, MacDowell Prep. Succeeded Banks in Michigan House. |
+| **Adam Sabree** | Son of Eric Sabree (FBI-probed Wayne Co. Treasurer). |
+| **Sean Perkins** | **Brother** of Todd Perkins — Banks' personal attorney. |
 
-### Wayne County Probate Court
+### Wayne County Probate
 
-| Judge | Connection to Banks |
-|-------|-------------------|
-| **David Perkins** | Chief Judge Pro Tem. **Brother of Todd Perkins** (Banks' attorney) and Sean Perkins (36th District). |
+| Judge | Connection |
+|-------|-----------|
+| **David Perkins** | Chief Judge Pro Tem. **Brother** of Todd Perkins and Sean Perkins. |
 
-### Capture ratios
-
-| Court | Connected Judges | Total Judges | Capture |
-|-------|-----------------|-------------|---------|
+| Court | Connected | Total | Capture |
+|-------|----------|-------|---------|
 | 3rd Circuit | 3 | 52 | 5.8% |
 | 36th District | 3 | 23 | **13.0%** |
 | Probate | 1 | 4 | **25.0%** |
-| **Total Wayne County** | **7** | **79** | **8.9%** |
+| **Wayne County total** | **7** | **79** | **8.9%** |
 
-One man has connections to nearly 1 in 10 judges across Wayne County's entire court system.
+Banks didn't need Abraham. He needed the **courthouse**.
 
----
-
-## The Rotation Question
-
-PPOs in Wayne County are handled by the **12 Family Division — Domestic Relations judges** on a rotating basis ([Family Court Plan, C03 2026-13J](https://www.3rdcc.org/Documents/Administration/Orders/2026-13J%5EFamily%20Court%20Plan%5ERescinds%20and%20Replaces%20C03%20%E2%80%93%202025-12J%20and%20P82%20%E2%80%93%202025-05J%5E.pdf)).
-
-The 12 judges on the PPO rotation as of October 2026:
-
-| Judge | Direct Banks Connection? |
-|-------|------------------------|
-| Helal A. Farhat (Presiding) | No known connection |
-| Yvonna C. Abraham | No known connection ← **signed the PPO** |
-| Eric W. Cholack | No known connection |
-| Susan A. Dabaja | No known connection |
-| Christopher D. Dingell | No known connection |
-| Lawrence Elassal | No known connection |
-| Alexis A. Glendening | No known connection |
-| Nicole N. Goodson | No known connection |
-| Mary Beth Kelly | No known connection |
-| **Aliyah Sabree** | **YES — MSU Law, Sabree dynasty, assigned July 27, 2026** |
-| Carla G. Testani | No known connection |
-| Regina Triplett | No known connection |
-
-1 of 12 rotation judges has a documented connection to Banks. That's an 8.3% chance that a connected judge would have signed the PPO on any given day.
-
-Judge Abraham — not Sabree — signed it. The rotation appears to have worked as designed.
-
-**But the investigation isn't about whether this specific PPO was signed by a friendly judge. It's about why Banks filed it in the one courthouse where he has the most friends.**
+Any hearing to challenge this PPO will take place **in the same building** where Miller, Ramsey, and Sabree work.
 
 ---
 
-## The Journey
+## The 80-Mile Service
 
-The PPO was signed in **Detroit** on October 13. It was served in **Lansing** on October 16.
+Banks filed in Wayne County. The respondent lives in Ingham County.
 
-80 miles. 3 days. A Friday evening.
+That's **80 miles**.
 
-### How a Wayne County PPO reaches Ingham County
+Under the PPO filing instructions ([Step 5](https://www.3rdcc.org/docs/default-source/divisions/family-domestic/personal-protection-order-filing-instructions.pdf)), **the petitioner arranges service**. Banks arranged for Officer Gregory to serve the order in Lansing at **7:37 PM on Friday, October 16** — a Friday evening.
 
-1. **Banks files the petition** — Wayne County 3rd Circuit (where his network is)
-2. **Judge Abraham signs** — ex parte, no hearing, no notice
-3. **WCSO enters it into LEIN** — Michigan's Law Enforcement Information Network
-4. **Banks arranges service** — the petitioner is responsible for serving the PPO on the respondent ([Filing Instructions, Step 5](https://www.3rdcc.org/docs/default-source/divisions/family-domestic/personal-protection-order-filing-instructions.pdf))
-5. **Officer Gregory serves it** — at respondent's address in Lansing, MI, at **7:37 PM on Friday, October 16**
+Banks could have filed in **Ingham County**, where the respondent actually lives. Any Michigan county can issue a PPO ([MCL 600.2950a](http://www.legislature.mi.gov/(S(c3q0tbfxlcipjl0crhj3ggau))/mileg.aspx?page=GetObject&objectname=mcl-600-2950a); [michigan.gov/voices4](https://www.michigan.gov/voices4/sexual-assault/legal/ppo)).
 
-Banks cannot serve the PPO himself ([MCL 600.2950a](http://www.legislature.mi.gov/(S(c3q0tbfxlcipjl0crhj3ggau))/mileg.aspx?page=GetObject&objectname=mcl-600-2950a)). He must arrange for a sheriff, police officer, process server, or other eligible adult to serve it.
-
-**Banks arranged for someone to drive 80 miles from Wayne County to Ingham County — or hired a Lansing process server — to serve the PPO on a Friday evening at 7:37 PM.**
-
-### What Banks had to know
-
-To arrange service in Lansing, Banks needed Kevin Mok's **home address** in Ingham County. The PPO petition lists it. Banks provided it to the court.
-
-How did Brian Banks — a charter school operator in Detroit — know the home address of a person in Lansing?
-
-The answer is in the investigation itself. Kevin Mok's name and address appear on:
-- FOIA requests sent to MDE
-- Complaints filed with DPSCD, State Bar, and JTC
-- The civil case filed in Ingham County (2026-4349-CZ)
-- Correspondence sent to Banks directly
-
-Banks used the investigation's own transparency against the investigator.
+He chose Wayne County. Where his 7 judges sit.
 
 ---
 
@@ -157,51 +216,45 @@ Banks used the investigation's own transparency against the investigator.
 
 | Date | Event |
 |------|-------|
-| **Oct 13, 9:30 AM** | Michigan State Board of Education meets in Lansing |
-| **Oct 13** | Banks files PPO petition in Wayne County |
-| **Oct 13** | Judge Abraham signs PPO — same day, ex parte |
-| **Oct 14–16** | Banks arranges cross-county service |
-| **Oct 16, 7:37 PM** | Officer Gregory serves PPO in Lansing |
+| **Oct 13, 9:30 AM** | SBE meets in Lansing. All 8 members have the evidence. |
+| **Oct 13** | Banks files PPO in Wayne County |
+| **Oct 13** | Abraham signs — same day, ex parte |
+| **Oct 16, 7:37 PM** | Served in Lansing — Friday evening |
 | **Oct 30** | 14-day challenge window expires |
 | **Oct 31** | Institutional response deadline — **one day later** |
 
-The PPO was filed the same day the evidence was in front of the State Board of Education. The challenge window expires one day before the institutional deadline.
-
 ---
 
-## The 36th District Owns the Pipeline
+## The Question for Everyone Who Has Been Through This
 
-Kevin's observation is structural: **the 36th District Court is Banks' home court.**
+Has anyone else experienced this pattern in Wayne County?
 
-Three of its 23 judges — **Yancey, Adam Sabree, and Sean Perkins** — were all elected in **November 2022**. Their terms end **January 1, 2029**.
+- A court system that moves instantly for the connected and slowly for everyone else?
+- A PPO used as a weapon — not for protection, but for silence?
+- Judges connected to the parties appearing before their colleagues?
+- Cross-county service arranged to reach someone who filed complaints?
 
-The 36th District handles misdemeanors, small claims, and felony preliminary examinations for Detroit. Felonies that pass preliminary examination move up to the **3rd Circuit** — where **Miller, Ramsey, and Aliyah Sabree** sit.
+If you have experienced corruption, retaliation, or abuse of process in Wayne County courts — **the record is open**. Clone it. Add to it. The git history is immutable.
 
-The PPO wasn't filed in the 36th District because PPOs are filed in Circuit Court. But the filing went into a system where:
-
-- Banks' **board chair** (Miller) sits in the Criminal Division
-- Banks' **attorney's brother** (Sean Perkins) sits in the lower court
-- Banks' **other board chair** (Yancey) sits in the lower court
-- Banks' school generates cases that flow through both courts
-- **Every contested motion in this PPO case** will be heard by a 3rd Circuit judge
-
-If Kevin challenges the PPO (as he must by Oct 30), the hearing will be in the **3rd Circuit**. The same courthouse. The same hallways. The same clerk's office where Miller, Ramsey, and Sabree walk every day.
+```bash
+git clone https://github.com/defendDetroit/publicRecord.git
+```
 
 ---
 
 ## What the Record Shows
 
-- **Judge Abraham** appears to have signed the PPO through normal rotation. No direct Banks connection found.
-- **The courthouse** where it was filed has 7 judges with documented connections to Banks across 4 courts.
-- **The service** was arranged cross-county by Banks — 80 miles from Detroit to Lansing, on a Friday evening.
-- **The timing** — filed the same day as the SBE meeting, challenge window expires the day before the institutional deadline.
-- **Any hearing** on a motion to modify or terminate will take place in the same courthouse where Banks' connected judges work.
+1. **Judge Abraham** signed ex parte. No hearing. No notice. The order says "For Reasons as Stated in the Petition" — which may not satisfy MCL 600.2950a(7)'s requirement for specific written reasons.
+2. **Banks told the court his version.** The respondent was not present, was not notified, and had no opportunity to explain that all contact was to public institutions through lawful channels.
+3. **The respondent is now in LEIN** — a law enforcement database — based on the unverified allegations of a man with 9 criminal convictions.
+4. **Banks filed nondomestic** despite an active custody dimension — potentially circumventing MCR 3.706(C)(1) and MCL 600.1023.
+5. **Banks has the respondent's cell number** but the respondent has never called Banks. All contact was through public channels.
+6. **Banks chose Wayne County** over Ingham County — where the respondent lives — because Wayne County is where Banks has 7 connected judges.
+7. **Banks arranged cross-county service** — 80 miles, Friday evening — while the respondent's own legal proceedings against Banks wait for scheduling.
 
-The question isn't whether Judge Abraham is compromised. By all appearances she is not.
+The asymmetry is the point. One system moves at the speed of a signature. The other moves at the speed of justice.
 
-The question is: **why does a man with 9 criminal convictions have 7 judges across 4 courts who sit on his boards, take his payments, share his attorneys, and were elected in the same cycle?**
-
-And why did he file the PPO **there** — and not in Ingham County, where Kevin actually lives?
+**Judge Abraham: what did he tell you?**
 
 ---
 
@@ -209,17 +262,24 @@ And why did he file the PPO **there** — and not in Ingham County, where Kevin 
 
 - [ecoPrimal Is Under Threat](/analysis/under-threat/) — The alarm.
 - [The Response](/analysis/the-response/) — PPO Case 26-114083-PH documented.
-- [The Chatfield Blockade](/analysis/chatfield-blockade/) — Same machine. Same compliance desk. Different weapon.
-- [9 Convictions, Your Children](/analysis/9-convictions-your-children/) — The criminal record.
+- [The Chatfield Blockade](/analysis/chatfield-blockade/) — Same machine. Different weapon.
 - [Institutional Capture](/analysis/institutional-capture/) — 9 judges, 4 courts, 1 network.
+- [Moore's Law Is False](/analysis/moores-law-is-false/) — Four duties she said she didn't have.
 
 ## Sources
 
 - PPO Order: Case 26-114083-PH, Wayne County Third Judicial Circuit, signed Oct 13, 2026
+- MCL 600.2950a: [Nondomestic PPO statute](https://www.legislature.mi.gov/Laws/MCL?objectName=MCL-600-2950A)
+- MCL 600.2950a(7): Court must state specific written reasons for issuing PPO
+- MCL 600.1023: [Same-family case assignment](https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-1023)
+- MCR 3.705(A)(2): Specific facts required for ex parte issuance
+- MCR 3.706(C)(1): Court must contact custody court before issuing PPO
+- *Lamkin v. Engram*, 295 Mich App 701 (2012): Court must go beyond petition
 - Family Court Plan: [C03 2026-13J](https://www.3rdcc.org/Documents/Administration/Orders/2026-13J%5EFamily%20Court%20Plan%5ERescinds%20and%20Replaces%20C03%20%E2%80%93%202025-12J%20and%20P82%20%E2%80%93%202025-05J%5E.pdf)
-- Docket Directive 2026-09: [Reassignment Cox → Sabree](https://www.3rdcc.org/Documents/Administration/DocketDirectives/2026-09%5EReassignment%20of%20Docket%20from%20Judge%20Melissa%20Cox%20to%20Judge%20Aliyah%20Sabree%5E%5E.pdf)
-- Judicial Appointments: [Gov. Whitmer Press Release, July 1, 2021](https://www.michigan.gov/whitmer/news/press-releases/2021/07/01/governor-whitmer-makes-appointments-to-the-bench-1-2)
+- Docket Directive 2026-09: [Cox → Sabree reassignment](https://www.3rdcc.org/Documents/Administration/DocketDirectives/2026-09%5EReassignment%20of%20Docket%20from%20Judge%20Melissa%20Cox%20to%20Judge%20Aliyah%20Sabree%5E%5E.pdf)
 - PPO Filing Instructions: [3rdcc.org](https://www.3rdcc.org/docs/default-source/divisions/family-domestic/personal-protection-order-filing-instructions.pdf)
+- Judicial Appointments: [Gov. Whitmer, July 1, 2021](https://www.michigan.gov/whitmer/news/press-releases/2021/07/01/governor-whitmer-makes-appointments-to-the-bench-1-2)
+- Michigan Benchbook: [Procedures for Issuing PPOs](https://www.courts.michigan.gov/siteassets/publications/benchbooks/dvbb/dvbbresponsivehtml5.zip/DVBB/Ch_5_Special_Orders/Procedures_for_Issuing_PPOs.htm)
 - Clutch Justice: [The Bench and the Board](https://clutchjustice.com/2026/09/02/two-judges-banks-charter-network/)
-- Campaign Finance: [TransparencyUSA](https://www.transparencyusa.org/mi/race/michigan-3rd-circuit-court-88265?cycle=2022-election-cycle)
-- Ballotpedia: [Yvonna Abraham](https://ballotpedia.org/Yvonna_Abraham)
+- Detroit Free Press: [Back to Fool](https://www.freep.com/story/news/columnists/ml-elrick/2023/08/27/detroit-school-former-felon-as-principal/70669868007/)
+- DPD Report #26-0909-0176: Parent denied access, Banks claims to be attorney
