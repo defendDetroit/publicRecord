@@ -1,1 +1,0 @@
-../static/js/detroit-pt.js
