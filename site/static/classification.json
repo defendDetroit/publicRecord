@@ -1,5 +1,5 @@
 {
-  "sort_pass": 3,
+  "sort_pass": 4,
   "sort_date": "2026-10-18",
   "sort_method": "structural_cascade",
   "entities": {
@@ -2376,6 +2376,20 @@
       "note": "914 genuine readers. 709-min dwell. 383 visit all 15 subdomains.",
       "sort_pass": 3,
       "readers": 914
+    },
+    "proxy_brightdata": {
+      "classification": "non-self",
+      "method": "infrastructure_analysis",
+      "confidence": 0.9,
+      "sort_pass": 4,
+      "notes": "BrightData (formerly Luminati). Residential proxy network. SDK in free apps. Fleet routes through exit nodes."
+    },
+    "proxy_generic": {
+      "classification": "non-self",
+      "method": "behavioral_inference",
+      "confidence": 0.85,
+      "sort_pass": 4,
+      "notes": "Generic residential proxy networks (Oxylabs, SmartProxy, Honeygain, PacketStream). Ghost Layer 4 infrastructure."
     }
   },
   "summary": {

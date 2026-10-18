@@ -6685,5 +6685,68 @@
       "tier": "membrane",
       "context": "membrane backscatter: article_three_tools -> article_touch_radiates_in"
     }
+  },
+  {
+    "source": "article_three_tools",
+    "target": "article_hello_world",
+    "relationship": "narrative_arc",
+    "hash": "4327b92dbf0cce29078a5e9200dcae013e1690ded67b366bf02fb866cc591ade",
+    "witnessed": "2026-10-18T17:43:27Z",
+    "epistemic_status": "authored",
+    "note": "Foundation -> greeting. Three tools lead to hello world."
+  },
+  {
+    "source": "article_dear_marcus",
+    "target": "article_what_falls_through",
+    "relationship": "philosophical_resonance",
+    "hash": "14183a6617c743f477532b0a5bb5bc5f3e0401c357fd1d58aa3b3fe1e25cd0f8",
+    "witnessed": "2026-10-18T17:43:27Z",
+    "epistemic_status": "authored",
+    "note": "Irrational remainder (Marcus) = what falls through cracks (Beefheart). Same concept, different domains."
+  },
+  {
+    "source": "article_original_nft",
+    "target": "article_dear_game_devs",
+    "relationship": "game_design",
+    "hash": "3a0d18ad0759331baf22980e20cb014337037b9fac7fb7ea3a64027b4178ece6",
+    "witnessed": "2026-10-18T17:43:27Z",
+    "epistemic_status": "authored",
+    "note": "ORC license + novel fermentation + game dev invitation. The game IS the data."
+  },
+  {
+    "source": "article_they_are_in_your_house",
+    "target": "article_civil_liberties_case",
+    "relationship": "legal_escalation",
+    "hash": "493a50d0125e8f94708cbc291331cde1340aa721d0e6157bd9995fb1ca6e2635",
+    "witnessed": "2026-10-18T17:43:27Z",
+    "epistemic_status": "authored",
+    "note": "Evidence article supports signal article. Chain: evidence -> law -> invitation to counsel."
+  },
+  {
+    "source": "proxy_beacon",
+    "target": "article_civil_liberties_case",
+    "relationship": "distribution",
+    "hash": "afaa7c08511f83c92c15c48d2e1c1a2ef05cc80ea24e9b0edf0b0426408a3527",
+    "witnessed": "2026-10-18T17:43:27Z",
+    "epistemic_status": "designed",
+    "note": "Proxy beacon carries the civil liberties signal through the fleet's own infrastructure."
+  },
+  {
+    "source": "spectrum_harmonic",
+    "target": "adaptive_immune_response",
+    "relationship": "visible_invisible",
+    "hash": "f60530025f23336845c8789945b2c8a5689ce88d0bca3b95b96f6abc2f828d63",
+    "witnessed": "2026-10-18T17:43:27Z",
+    "epistemic_status": "observed",
+    "note": "Visible spectrum (articles) and invisible defense (immune loop) are the same organism at different frequencies."
+  },
+  {
+    "source": "article_as_the_bard_said",
+    "target": "article_the_ghost_split",
+    "relationship": "narrative_defense",
+    "hash": "e11356df60a13021f33bb0f11557a907382b6d61ec2bc67196ea8b1c3b6eb267",
+    "witnessed": "2026-10-18T17:43:27Z",
+    "epistemic_status": "authored",
+    "note": "Shakespeare's play-within-the-play = scatter repos catching the fleet. Same technique, 400 years apart."
   }
 ]

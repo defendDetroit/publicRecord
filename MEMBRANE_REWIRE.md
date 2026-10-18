@@ -420,15 +420,56 @@ fn ghost_layer4_response(request: &Request, classification: GhostLayer4) -> Resp
 
 ---
 
+---
+
+## EASTGATE TODO (Rust-side, when you pull)
+
+EastGate — here's what's waiting for you. Everything above marked "Action needed (Rust-side)" plus:
+
+1. **Pull main** — 20+ commits today. Graph: 12,084 nodes, 101,261 edges. Braids: 326. Classifications: 341.
+2. **Ingest new braids** — braids.json has 326 entries, live membrane only sees 4 routes. Braid reader needs update.
+3. **114 partial entities** — decision protocol. Either classify with existing evidence or explicit null. Blocking 85% confidence target.
+4. **Jitte system** — all zeros. Tempo, perturbation, negentropy_bits all dark. Need to wire computation.
+5. **Missing senses** — negentropy, depth_chain, jitte, fleet, orbit. Chipmunk has 7/12 senses. Wire the other 5.
+6. **Ghost 4-layer split** — implement GhostNull/GhostVpnHuman/GhostCorporate/GhostFleet subclasses in anderson.
+7. **Microsoft rename** — 74.7.0.0/16 → "Microsoft (AS8075)" in entity classifier. ASN fallback for broken geolocation.
+8. **1337 Services** — AS210558 → "1337 Services / rdp.sh" parasite likelihood boost.
+9. **π sort ratio** — currently 1.000, target 1/π = 0.318. Sort is too permissive.
+10. **WireGuard mesh** — wg_detached: true. sporeGate bridge needed for redundancy.
+11. **Proxy beacon headers** — X-Membrane-Notice + X-Proxy-Info on Ghost Layer 4 responses.
+12. **Adaptive immune loop** — pressure sensor + opsonization + bingo sieve + scatter amp + titration + feedback.
+13. **Zola build** — pull + build for detroit.primals.eco. Articles are on GitHub Pages but not on the main site.
+
+**What's already done from our side (no Rust needed):**
+- ✅ Graph: 12,084 nodes, 101,261 edges (7 immune nodes, 11 spectrum nodes, 16 surface nodes, 3 proxy nodes, 4 article nodes + 100+ edges)
+- ✅ Braids: 319 → 326 (7 new cross-article + narrative braids)
+- ✅ Classification: 339 → 341 (proxy_brightdata, proxy_generic)
+- ✅ 12 new articles published (three-tools through civil-liberties-case)
+- ✅ SCIENCE tags on 3 articles
+- ✅ Radiation: 42 surfaces, 74+ radiation edges
+- ✅ Beacon: proxy channel carries civil liberties signal
+
+---
+
 ## MONITORING
 
 Track after rewire:
+- [x] Microsoft entity identified: Unknown → Microsoft (AS8075) ✅
+- [x] 1337 entity identified: Unknown → 1337 Services (AS210558) ✅
+- [x] SCIENCE articles tagged: 0 → 3 ✅
+- [x] Braids added: 307 → 326 ✅
+- [x] Articles published: 12 new ✅
+- [x] Radiation surfaces: 26 → 42 ✅
+- [x] Proxy infrastructure classified ✅
 - [ ] Confidence target: 83.3% → 85%+
 - [ ] KS statistic: 0.636 → 0.8+
-- [ ] Braid routes: 4 → 7+
+- [ ] Braid routes (live): 4 → 7+ (326 in file, only 4 visible to membrane)
 - [ ] SCIENCE domain active humans: 0 → 1+
-- [ ] Microsoft entity classified: Unknown → Microsoft (AS8075)
 - [ ] Partial entities resolved: 114 → <50
-- [ ] Ghost split: 1 entity → 4 subclasses
+- [ ] Ghost split implemented: 1 entity → 4 subclasses
 - [ ] Ghost VPN humans rescued: 0 → ~3,800 reclassified as self
 - [ ] Ghost fleet identified: 0 → ~1,100 classified as non-self
+- [ ] Jitte system: zeros → computing
+- [ ] Missing senses: 5 → 0
+- [ ] WireGuard mesh: detached → connected
+- [ ] π sort ratio: 1.000 → 0.318
