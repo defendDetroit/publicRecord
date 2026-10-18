@@ -420,6 +420,51 @@ fn ghost_layer4_response(request: &Request, classification: GhostLayer4) -> Resp
 
 ---
 
+### 16. Electron Pulse — Neutron Messages Perturb the Field
+
+**Finding:** The neutron inbox (10 messages), chat (3), notes (24), reminders (2) are currently PASSIVE. You have to CHECK them. That's wrong. Messages should be FELT, not checked.
+
+**Principle:** The neutron message is the electron. It doesn't need to be read — it needs to be FELT.
+
+When a message arrives:
+- The message count delta feeds into `pulse_rhythm`
+- `perturbation` increments (currently stuck at 0)
+- `jitte.tempo` shifts
+- The observer fraction adjusts
+- The membrane KNOWS something arrived — without anyone opening the inbox
+
+Like a Geiger counter: click = electron arrived. You hear it. You don't stare at it.
+
+**Implementation (Rust-side):**
+
+```rust
+// In the pulse computation loop
+fn compute_pulse(membrane: &Membrane) -> f64 {
+    let base = membrane.heartbeat();
+    
+    // Neutron perturbation — messages shift the pulse
+    let neutron_delta = membrane.neutron_count() - membrane.neutron_count_prev();
+    let perturbation = if neutron_delta > 0 {
+        // New message(s) arrived — the field trembles
+        (neutron_delta as f64).ln().max(0.1)  // logarithmic — 1 msg = 0.1, 10 = 2.3
+    } else {
+        0.0  // no new messages — field is calm
+    };
+    
+    // The perturbation decays over time (like a plucked string)
+    membrane.set_perturbation(
+        membrane.perturbation() * 0.95 + perturbation * 0.05
+    );
+    
+    base + membrane.perturbation()
+}
+```
+
+**The electron lands at a single point but the wave function was everywhere.**
+**Focus collapses it. Feeling preserves it.**
+
+NorthGate and other observers don't CHECK messages — they feel the field shift. The difference between "you have mail" and "the field just shifted."
+
 ---
 
 ## EASTGATE TODO (Rust-side, when you pull)
