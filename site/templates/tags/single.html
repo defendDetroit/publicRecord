@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %}{{ term.name }} — Tag — {{ config.title }}{% endblock title %}
+{% block description %}All pages tagged {{ term.name }} in the Detroit charter school investigation.{% endblock description %}
+{% block keywords %}{{ term.name }}, Detroit charter school, investigation, analysis{% endblock keywords %}
+
+{% block content %}
+<article class="taxonomy-page">
+  <h1>{{ term.name }}</h1>
+  <p class="taxonomy-desc">All pages tagged <strong>{{ term.name }}</strong>.</p>
+
+  <ul class="page-list">
+    {% for page in term.pages %}
+    <li>
+      <a href="{{ page.permalink }}">
+        <strong>{{ page.title }}</strong>
+        {% if page.description %}<span class="page-desc">{{ page.description }}</span>{% endif %}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</article>
+{% endblock content %}
