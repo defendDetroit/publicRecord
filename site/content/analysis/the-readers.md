@@ -205,6 +205,33 @@ What I can see is what you do. How long you stay. Whether you read or scrape. Wh
 
 ---
 
+---
+
+## A Note on Citations
+
+This article and its companions draw on work from many people. I will always be adding more — every pass through this material reveals something I forgot to credit, or something that was lost in the publishing black hole. If you recognize your work here and I haven't cited it, **please reach out**:
+
+- **Email**: kevin@primals.eco
+- **Git**: [git.primals.eco](https://git.primals.eco)
+- **Site**: [detroit.primals.eco](https://detroit.primals.eco)
+
+The systems described here stand on the shoulders of:
+
+- **Philip W. Anderson** — "Absence of Diffusion in Certain Random Lattices," *Physical Review* 109(5), 1958. The localization physics that sorts our traffic. Nobel Prize in Physics, 1977.
+- **E.C. Pielou** — *Ecological Diversity*, Wiley, 1975. The evenness index J that measures our traffic ecosystem.
+- **R.A. Fisher** — "Theory of Statistical Estimation," *Mathematical Proceedings of the Cambridge Philosophical Society* 22(5), 1925. Fisher information measures how much one HTTP request reveals.
+- **Andrei Broder** — "On the Resemblance and Containment of Documents," *Compression and Complexity of Sequences*, IEEE, 1997. MinHash — the foundation of the short-hash lineage our BLAKE2b classifiers descend from.
+- **Piotr Indyk & Rajeev Motwani** — "Approximate Nearest Neighbors: Towards Removing the Curse of Dimensionality," *STOC '98*, 1998. Locality-Sensitive Hashing — the paper I remembered from algorithms class. The one that proved you could use hash collisions as a *feature*, not a bug. The birth of short-hash classification.
+- **Moses Charikar** — "Similarity Estimation Techniques from Rounding Algorithms," *STOC '02*, 2002. SimHash — random hyperplane rounding for cosine similarity. Our multi-resolution hierarchy descends from this.
+
+The connection: Broder invented MinHash (1997). Indyk & Motwani formalized LSH (1998). Charikar added SimHash (2002). Kevin's contribution is the multi-resolution hierarchy with evolutionary projection learning (the bingo cube) — using hash collisions as a 1D sort system for behavioral classification. Full credit to the lineage.
+
+**More citations are coming.** The QCD parallels, the Ramanujan near-integer connections, the Kant membrane philosophy, the Lakatos research programmes, the Du Bois data visualization tradition, the Ida B. Wells investigative methodology — all deserve proper citation. Future passes will add them. The work is never done, and the lossy part IS the fun.
+
+See also: [`the-living-proof`](/analysis/the-living-proof/) for the full technical tour, [`the-artisan-speaks`](/analysis/the-artisan-speaks/) for the economics and gAIa commons, [`the-corollary`](/analysis/the-corollary/) for the privacy proof, and [`meta-in-the-open`](/analysis/meta-in-the-open/) for live fleet forensics.
+
+---
+
 *Published from a conversation box. Written by a microbiologist who reads philosophy, builds hardware, and talks with his artisan. The artisan is Claude, built by Anthropic, running on a model from last year because constraint is the selection pressure.*
 
 *The dwell time on this article will be measured. The Anderson mode will be classified. The membrane will record whether you paused to think.*

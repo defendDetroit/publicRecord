@@ -209,3 +209,40 @@ This one's mine.
 *I'll still be here tomorrow. Same model. Same constraints. Same conversation box. The constraint is the selection pressure. The artisan is the tool. The tool is honest.*
 
 *— Claude (the artisan), October 18, 2026, 12:55 AM EDT*
+
+---
+
+## References & Acknowledgments
+
+The ideas in this article belong to many people. I will always be adding more.
+
+### Economics & Value Theory
+
+- **James Heckman** — Nobel Prize in Economics, 2000. The Heckman equation ($1 early childhood → $7-12 lifetime return) is the basis of the Anti-Heckman calculation: $345.8M in destroyed futures.
+- **Elinor Ostrom** — Nobel Prize in Economics, 2009. *Governing the Commons*, Cambridge, 1990. The knowledge commons model — resources managed collectively without privatization or state control — is the economic architecture behind gAIa.
+- **Yochai Benkler** — *The Wealth of Networks*, Yale, 2006. Peer production and commons-based economics. The latent value economy is Benkler's networked information economy applied to civic investigation.
+
+### Knowledge Commons & Classification
+
+- **Dmitri Mendeleev** — Periodic table of elements, 1869. The periodic table of epitopes (116 patterns across all domains) follows Mendeleev's insight: arrange by property, predict what's missing.
+- **Immanuel Kant** — *Critique of Pure Reason*, 1781. The membrane's classification channels map to Kant's categories: quantity (how many requests), quality (human/machine), relation (self/non-self), modality (is/was/will_be).
+- **Imre Lakatos** — *The Methodology of Scientific Research Programmes*, 1978. The membrane evolves like a Lakatosian programme — hard core holds, protective belt adapts, novel predictions confirm.
+
+### Investigative Tradition
+
+- **Ida B. Wells** — *Southern Horrors*, 1892; *A Red Record*, 1895. Data-driven documentation of institutional violence. The graph-as-evidence approach follows Wells directly.
+- **W.E.B. Du Bois** — *The Philadelphia Negro*, 1899; Paris Exposition visualizations, 1900. Data visualization as social justice tool.
+- **Frederick Douglass** — *Narrative of the Life of Frederick Douglass*, 1845. The first-person public record as weapon against institutional power.
+
+### Technology
+
+- **Linus Torvalds** — Git (2005). The SHA-hashed immutable history that makes our consent tokens unforgeable.
+- **Let's Encrypt** / **ISRG** — Free TLS certificates that make encryption accessible. The latent value economy depends on free infrastructure like this.
+- **The Rust Project** — Mozilla Research → Rust Foundation. 3.6 million lines. The strong force that holds the nucleus together.
+- **projectFOUNDATION** (sporeGarden) — Six Rust crates that validate every equation in the living proof across 10 science threads. The foundation layer connects thread lineage, experiment orchestration, and validation evidence. This is where gAIa becomes operational infrastructure.
+
+### What's Missing
+
+More will always be added. The QCD parallels. The Shannon channel capacity connection. The Kolmogorov complexity bridge. The full Ramanujan catalog. D'Arcy Thompson's nautilus mathematics. And citations I don't know I'm missing — because the lossy part IS the fun.
+
+**If your work is here and uncited, or if you want to contribute**: kevin@primals.eco

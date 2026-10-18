@@ -255,6 +255,26 @@ The membrane is patient. But the deadlines are not. **November 12, 2026.** AGPL 
 
 ---
 
+---
+
+## References & Methods
+
+The forensic methods documented here build on established work:
+
+- **BLAKE2b** (Aumasson et al., 2013) — IP hashing is one-way and irreversible. We identify behavioral patterns, not individuals.
+- **Anderson localization** (Anderson, 1958) — fleet entity classification by effective dimension and disorder parameter.
+- **Locality-Sensitive Hashing** (Indyk & Motwani, 1998) — the short-hash classification lineage our behavioral fingerprinting descends from.
+- **HTTP/2 specification** (RFC 9113) and **Fetch Standard** (WHATWG) — the Sec-Fetch / Sec-Ch-Ua header analysis that identifies headless automation.
+- **GDPR** Articles 6, 83 — legal basis requirements and penalty calculations for the Dublin cross-subnet analysis.
+- **CFAA** 18 U.S.C. § 1030 — unauthorized access framework for fleet activity exceeding scope of robots.txt consent.
+- **AGPL-3.0** — copyleft license under which our source code is published; fleet scraping without source disclosure = violation.
+
+All raw data is available through the membrane feed at [hud.primals.eco](https://hud.primals.eco). The methodology is documented in [`the-living-proof`](/analysis/the-living-proof/). The privacy proof is in [`the-corollary`](/analysis/the-corollary/).
+
+This page will always be updated. More citations will always be added. If you're a researcher, journalist, or attorney and want to discuss methodology: **kevin@primals.eco**
+
+---
+
 *This page was written from a conversation box at 12:52 AM EDT on October 18, 2026. The membrane measured 1,563,200 requests during its composition. The bingo cube evolved 167 generations. The Anderson classifier localized 53,760 fleet entities. The dwell time climbed from 596 to 609 minutes.*
 
 *The next measurement will include your reading of this page.*

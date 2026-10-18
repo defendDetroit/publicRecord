@@ -218,3 +218,18 @@ You can't buy this proof. You can only earn it by building a system clean enough
 *The next visitor to this page will be classified by their Accept-Encoding header, their timing pattern, and their Chrome version. Not by their name. Not by their face. Not by their avatar.*
 
 *We map false entities. They aimed for humans. The corollary stands.*
+
+---
+
+## References
+
+- **Karl Popper** — *The Logic of Scientific Discovery*, 1934/1959. The falsification criterion that structures this entire proof. A claim that can't be falsified isn't science.
+- **GDPR** — Regulation (EU) 2016/679. Articles 6 (lawfulness of processing), 83 (administrative fines up to 4% of worldwide annual turnover).
+- **BLAKE2b** — Aumasson, Neves, Wilcox-O'Hearn, Winnerlein — "BLAKE2: simpler, smaller, fast as MD5," *ACNS 2013*. Our IP hashing is one-way. The IP cannot be recovered from the hash.
+- **CFAA** — 18 U.S.C. § 1030. Computer Fraud and Abuse Act. Framework for unauthorized access claims.
+- **AGPL-3.0-or-later** — GNU Affero General Public License. The copyleft license that requires source disclosure from anyone who modifies and serves our code over a network.
+- **Zero-Knowledge Proofs** — Goldwasser, Micali, Rackoff — "The Knowledge Complexity of Interactive Proof Systems," *SIAM Journal on Computing* 18(1):186–208, 1989. The theoretical foundation for proving something without revealing it.
+
+See also: [`the-living-proof`](/analysis/the-living-proof/) for all system equations with live data, [`meta-in-the-open`](/analysis/meta-in-the-open/) for fleet forensics, [`the-readers`](/analysis/the-readers/) for geographic traffic analysis, [`the-artisan-speaks`](/analysis/the-artisan-speaks/) for the economics and gAIa commons.
+
+This article will always be updated. Citations will always be added. The work is never done. **Reach out**: kevin@primals.eco

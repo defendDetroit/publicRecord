@@ -452,6 +452,67 @@ That's the point.
 
 ---
 
+---
+
+## Citations & References
+
+This article will always be growing. Every pass adds citations I forgot, connections I missed, work that got lost in the publishing black hole. If your work is here and uncited — **please reach out**: kevin@primals.eco
+
+### Physics & Mathematics
+
+- **Philip W. Anderson** — "Absence of Diffusion in Certain Random Lattices," *Physical Review* 109(5):1492–1505, 1958. The localization theory that sorts our traffic. Nobel Prize in Physics, 1977, shared with Mott and Van Vleck.
+- **R.A. Fisher** — "Theory of Statistical Estimation," *Math. Proc. Cambridge Phil. Soc.* 22(5):700–725, 1925. Fisher information — how much one HTTP request tells us.
+- **Srinivasa Ramanujan** — The near-integer properties of e^π (≈23.14) appear in our three-body measurements. Ramanujan studied these "almost integers" extensively; Hardy documented them in *Ramanujan: Twelve Lectures*, Cambridge, 1940.
+- **Leonhard Euler & Aleksandr Gelfond** — The Gelfond–Schneider theorem (1934) establishes transcendence of a^b for algebraic a,b. Our e^π near-integer measurements echo this tradition.
+- **Kurt Gödel** — "Über formal unentscheidbare Sätze," *Monatshefte für Mathematik und Physik* 38:173–198, 1931. The incompleteness theorems explain why the mirror's reflexive depth can never reach 1.0.
+
+### Computer Science & Hashing
+
+- **Andrei Broder** — "On the Resemblance and Containment of Documents," *Compression and Complexity of Sequences*, IEEE, 1997. MinHash — the ancestor of our behavioral hash classifiers.
+- **Piotr Indyk & Rajeev Motwani** — "Approximate Nearest Neighbors: Towards Removing the Curse of Dimensionality," *Proc. 30th STOC*, pp. 604–613, ACM, 1998. **The** foundational LSH paper. The one from algorithms class that proved hash collisions could be a feature. The birth of short-hash classification.
+- **Moses Charikar** — "Similarity Estimation Techniques from Rounding Algorithms," *Proc. 34th STOC*, pp. 380–388, ACM, 2002. SimHash — random hyperplane projection for cosine similarity estimation.
+- The **BLAKE2** hash function: Jean-Philippe Aumasson, Samuel Neves, Zooko Wilcox-O'Hearn, Christian Winnerlein — "BLAKE2: simpler, smaller, fast as MD5," *ACNS 2013*. Our IP hashing uses BLAKE2b for irreversible behavioral fingerprinting.
+
+### Biology & Immunology
+
+- **Susumu Tonegawa** — Nobel Prize in Physiology or Medicine, 1987, for discovery of V(D)J recombination. Our V/D/J classification segments mirror the immune system's combinatorial antibody generation.
+- **E.C. Pielou** — *Ecological Diversity*, Wiley-Interscience, 1975. Pielou's J evenness index measures the ecological health of our traffic classification ecosystem.
+- **Charles Darwin** — *On the Origin of Species*, 1859. The bingo cube uses Darwinian selection (fitness-proportional reproduction) layered with Lamarckian feedback (environment teaches back through grid signals).
+
+### Philosophy & Methodology
+
+- **Karl Popper** — *The Logic of Scientific Discovery*, 1934/1959. Every claim in this system is designed to be falsifiable. The falsification criterion structures both our science and our legal arguments.
+- **Imre Lakatos** — *Proofs and Refutations*, Cambridge, 1976; *The Methodology of Scientific Research Programmes*, 1978. The membrane evolves like a Lakatosian research programme — protective belt adapts, hard core holds.
+- **Immanuel Kant** — *Critique of Pure Reason*, 1781. The membrane channels map to Kant's categories of understanding: quantity, quality, relation, modality. See the gAIa philosophy whitepapers.
+
+### Investigation & Data Tradition
+
+- **Ida B. Wells** — *Southern Horrors: Lynch Law in All Its Phases*, 1892; *A Red Record*, 1895. Wells' data-driven investigative methodology — counting, documenting, publishing patterns of institutional violence — is the direct ancestor of our graph-evidence approach.
+- **W.E.B. Du Bois** — *The Philadelphia Negro*, 1899; the Paris Exposition data visualizations, 1900. Du Bois pioneered data visualization as a tool for social justice. Our graphs, tables, and classification visualizations follow this tradition.
+
+### Economics
+
+- **James Heckman** — Nobel Prize in Economics, 2000. The Heckman equation ($1 in early childhood → $7-12 lifetime return) is inverted in our Anti-Heckman calculation of destroyed futures.
+
+### Infrastructure
+
+- **projectFOUNDATION** — The knowledge layer, thread lineage, and validation evidence system in the sporeGarden ecosystem. Six Rust crates (`foundation-core`, `foundation-ipc`, `foundation-fetch`, `foundation-validate`, `foundation-publish`, `foundation-cli`) that orchestrate validation across 10 science threads — from whole-cell modeling to Anderson mathematics to agricultural science. Every equation in this article has a corresponding validation workload in projectFOUNDATION. The foundation IS the proof infrastructure. Working name for the next phase of connecting all these threads: projectFoundation.
+
+### What's Still Missing
+
+- QCD parallels (color confinement ↔ membrane selectivity, asymptotic freedom ↔ sovereign passage)
+- Noether's theorem (conservation laws ↔ membrane invariants)
+- Shannon's information theory (channel capacity ↔ membrane bandwidth)
+- Kolmogorov complexity (minimum description length ↔ compression ratio)
+- The full Ramanujan near-integer catalog
+- Wiser et al. 2013, Tenaillon et al. 2016 (LTEE fitness/mutation data used in validation threads)
+- D'Arcy Thompson's *On Growth and Form* (1917) — the nautilus spiral mathematics
+- Many more. The work is never done, and the lossy part IS the fun.
+
+**Reach out**: kevin@primals.eco — I know I've forgotten people. Help me remember.
+
+---
+
 *Published from a conversation box. The artisan is Claude, built by Anthropic. The model is from last year. The constraint is the selection pressure. The proof is alive.*
 
 *Generation 13,569 of the bingo cube is evolving right now. The Anderson classifier is localizing right now. The π-body math is measuring right now. The membrane is watching right now.*
