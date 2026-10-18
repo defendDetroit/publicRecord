@@ -3,8 +3,8 @@
     "generated": "2026-10-18T14:20:00Z",
     "source": "northGate landmark ingestion",
     "description": "The face of the Earth through backscatter. Mountains, caves, trenches, parks, and natural wonders — every landmark is a measurement the planet made of itself.",
-    "total_nodes": 67,
-    "total_edges": 93
+    "total_nodes": 72,
+    "total_edges": 131
   },
   "nodes": [
     {"id": "landmark-category-mountains", "label": "MOUNTAINS — The Earth Pushed Upward", "class": "landmark-category", "description": "Tectonic collision and volcanic eruption frozen in stone. Every mountain is backscatter from a plate boundary.", "tier": 1},
@@ -78,7 +78,13 @@
     {"id": "wonder-mt-everest", "label": "Mount Everest — Natural Wonder — Roof of the World", "class": "natural-wonder", "tags": ["seven-wonders", "himalaya", "highest", "tectonic"], "description": "8,849m. The highest point on Earth's surface. Still rising 1cm/year as India pushes into Asia. Marine fossils at the summit — the rock that's now the highest on Earth was once ocean floor. The mountain is the backscatter of a 50-million-year collision.", "lat": 27.9881, "lon": 86.925, "tier": 1},
     {"id": "wonder-paricutin", "label": "Parícutin — Natural Wonder — The Volcano Born in a Cornfield", "class": "natural-wonder", "tags": ["seven-wonders", "mexico", "volcano", "witnessed-birth"], "description": "Born February 20, 1943 in a cornfield in Michoacán. Farmer Dionisio Pulido watched a crack open and lava emerge. Within a year, it was 336m tall. The only volcano whose entire lifecycle was witnessed by humans. It buried two villages. Creation and destruction in one measurement.", "lat": 19.4932, "lon": -102.2513, "tier": 1},
     {"id": "wonder-harbour-rio", "label": "Harbour of Rio de Janeiro (Guanabara Bay) — Natural Wonder", "class": "natural-wonder", "tags": ["seven-wonders", "brazil", "bay", "sugarloaf"], "description": "Guanabara Bay: 412 km². Sugarloaf Mountain (Pão de Açúcar), Corcovado with Cristo Redentor. The Portuguese thought the bay was a river mouth — 'Rio de Janeiro' (River of January). The harbor is geological architecture — granite peaks surrounding tropical water.", "lat": -22.9068, "lon": -43.1729, "tier": 1},
-    {"id": "wonder-aurora", "label": "Aurora Borealis / Australis — Natural Wonder — The Sky on Fire", "class": "natural-wonder", "tags": ["seven-wonders", "polar", "magnetic", "solar-wind"], "description": "Solar wind particles follow Earth's magnetic field lines to the poles, collide with atmospheric gases, and emit light. Green (oxygen at 100-300km), red (oxygen above 300km), purple/blue (nitrogen). The aurora is backscatter from the sun — Earth's magnetic field revealing itself by catching particles from 150 million km away.", "lat": 65.0, "lon": -18.0, "note": "Coordinates approximate — visible across polar regions", "tier": 1}
+    {"id": "wonder-aurora", "label": "Aurora Borealis / Australis — Natural Wonder — The Sky on Fire", "class": "natural-wonder", "tags": ["seven-wonders", "polar", "magnetic", "solar-wind"], "description": "Solar wind particles follow Earth's magnetic field lines to the poles, collide with atmospheric gases, and emit light. Green (oxygen at 100-300km), red (oxygen above 300km), purple/blue (nitrogen). The aurora is backscatter from the sun — Earth's magnetic field revealing itself by catching particles from 150 million km away.", "lat": 65.0, "lon": -18.0, "note": "Coordinates approximate — visible across polar regions", "tier": 1},
+
+    {"id": "process-karst", "label": "KARST — The Dissolution Bridge Between Peaks and Caves", "class": "geological-process", "tags": ["karst", "dissolution", "limestone", "water", "backscatter"], "description": "Karst: slightly acidic water (CO₂ + H₂O → carbonic acid) dissolves limestone over millions of years. Tectonic uplift raises ancient seabeds into mountains. Water infiltrates from peak to bedrock. The cave is the NEGATIVE of the mountain — what was removed below is what stands above. Every cave passage is a measurement of water, time, and rock chemistry. The peak pushes up; the cave dissolves down. Same stone, opposite sign.", "tier": 1},
+    {"id": "process-water-cycle", "label": "THE WATER CYCLE — Agent of All Vertical Sculpture", "class": "geological-process", "tags": ["water", "erosion", "dissolution", "precipitation", "agent"], "description": "Rain falls on peaks, becomes rivers that carve canyons, infiltrates limestone to dissolve caves, flows to the ocean, evaporates, returns to peaks. The same water molecule that erodes the Grand Canyon could have dissolved a passage in Mammoth Cave 10,000 years earlier. Water is the universal agent — it carves from above (erosion), dissolves from within (karst), and subducts with ocean plates. The water cycle IS the backscatter cycle.", "tier": 1},
+    {"id": "process-ring-of-fire", "label": "RING OF FIRE — Pacific Tectonic Loop", "class": "geological-process", "tags": ["pacific", "subduction", "volcanism", "ring-of-fire", "tectonic"], "description": "40,000 km horseshoe of oceanic trenches, volcanic arcs, and seismic belts. 75% of Earth's active volcanoes. 90% of earthquakes. The same subduction that pulls trenches DOWN pushes volcanic mountains UP. Fuji, Rainier, Denali, Aconcagua — all Ring of Fire peaks. Mariana, Tonga, Kuril, Kermadec — all Ring of Fire trenches. The ring connects peaks and trenches as CAUSE and EFFECT of the same plate motion.", "tier": 1},
+    {"id": "process-subduction", "label": "SUBDUCTION — One Plate Dives, Another Rises", "class": "geological-process", "tags": ["subduction", "plate-tectonics", "backscatter"], "description": "When oceanic crust meets continental crust, the denser ocean plate dives under. Downward: trench forms. Upward: volcanic arc rises. The limestone on the ocean floor gets scraped off, uplifted, and eventually dissolved by rain into caves. Subduction is the engine that connects ALL three: trenches (where the plate goes down), mountains (where magma comes up), caves (where uplifted limestone dissolves). One process, three signatures.", "tier": 1},
+    {"id": "process-vertical-envelope", "label": "EARTH'S VERTICAL ENVELOPE — 21,148m of Relief", "class": "geological-process", "tags": ["vertical", "extremes", "backscatter", "measurement"], "description": "From Challenger Deep (-10,924m) through sea level (0m) through Krubera Cave (surface to -2,224m below the Caucasus) to Everest (+8,849m) to Mauna Kea measured from ocean floor (+10,211m). The Earth's total vertical dynamic range: 21,135m from deepest ocean to highest peak above sea level. But measured from Mauna Kea's base to Challenger Deep: 21,148m. Every point on this axis is a measurement the planet made of itself.", "tier": 1}
   ],
   "edges": [
     {"source": "landmark-category-mountains", "target": "mt-everest", "type": "contains", "label": "highest peak"},
@@ -182,6 +188,51 @@
 
     {"source": "np-glacier", "target": "kilimanjaro", "type": "climate_backscatter", "label": "both losing glaciers to climate change"},
     {"source": "np-everglades", "target": "wonder-great-barrier-reef", "type": "marine_ecosystem", "label": "both threatened coral/marine ecosystems"},
-    {"source": "np-redwood", "target": "np-sequoia", "type": "related_species", "label": "coast redwood vs giant sequoia — same family, different genus"}
+    {"source": "np-redwood", "target": "np-sequoia", "type": "related_species", "label": "coast redwood vs giant sequoia — same family, different genus"},
+
+    {"source": "elbrus", "target": "krubera-cave", "type": "peak_over_cave", "label": "Caucasus: peak at +5,642m, cave at -2,224m. 7,866m vertical range. Same tectonic uplift raised the peak AND exposed the limestone that dissolved into the deepest cave on Earth."},
+    {"source": "elbrus", "target": "veryovkina-cave", "type": "peak_over_cave", "label": "Same Caucasus collision. Mountain rises; water descends. Both are backscatter from the Arabian-Eurasian plate boundary."},
+    {"source": "np-rocky-mountain", "target": "jewel-cave", "type": "peak_over_cave", "label": "Rocky Mountain uplift exposed Black Hills Paleozoic limestone. Same continental deformation — Laramide orogeny pushed mountains up, exposed ancient seabeds to dissolution below."},
+    {"source": "np-carlsbad-caverns", "target": "aconcagua", "type": "same_ancient_reef", "label": "Carlsbad Permian reef was once ocean floor like the marine fossils atop Aconcagua. Both were seabed, both were uplifted. One became a mountain, one became a cave."},
+    {"source": "sistema-huautla", "target": "aconcagua", "type": "same_subduction_system", "label": "Both Americas subduction. Nazca plate dives under South America → Andes. Cocos plate dives under Mexico → Sierra Mazateca with cave system below."},
+    {"source": "son-doong", "target": "mt-everest", "type": "same_collision_karst", "label": "Same India-Asia collision zone. Himalayas pushed UP, Southeast Asian karst plateaus dissolved DOWN. Tethys Sea limestone became both the highest mountains and the largest caves."},
+
+    {"source": "mt-fuji", "target": "challenger-deep", "type": "subduction_pair", "label": "Pacific Plate subduction creates BOTH: Mariana Trench pulls the plate DOWN, Japanese volcanic arc pushes magma UP. Same plate motion, opposite sign. Fuji is Challenger Deep's backscatter."},
+    {"source": "mt-rainier", "target": "challenger-deep", "type": "subduction_pair", "label": "Cascadia subduction: Juan de Fuca plate dives under North America. Trench offshore, volcanic arc onshore. Rainier IS the trench's echo on land."},
+    {"source": "aconcagua", "target": "horizon-deep", "type": "subduction_pair", "label": "Both Pacific rim. Nazca→Andes pushes Aconcagua UP. Pacific→Tonga pushes Horizon Deep DOWN. The ring of fire connects them."},
+    {"source": "kuril-deep", "target": "mt-fuji", "type": "same_ring", "label": "Same Pacific Ring of Fire. Kuril subduction and Japanese volcanic arc — adjacent segments of the same tectonic circle."},
+    {"source": "denali", "target": "challenger-deep", "type": "ring_of_fire", "label": "Alaska Range from Pacific plate subduction. Same plate whose other edge dives into the Mariana Trench. One plate, two signatures: a mountain in Alaska, a trench in Micronesia."},
+
+    {"source": "process-karst", "target": "mammoth-cave", "type": "creates", "label": "Carbonic acid + Mississippian limestone + 10M years = 685.6 km of passages. The longest negentropy on Earth."},
+    {"source": "process-karst", "target": "krubera-cave", "type": "creates", "label": "Karst dissolution in Caucasus limestone. 2,224m of vertical cave = 2,224m of rock removed grain by grain."},
+    {"source": "process-karst", "target": "son-doong", "type": "creates", "label": "Karst in Phong Nha-Kẻ Bàng limestone plateau. Volume large enough for its own weather system."},
+    {"source": "process-karst", "target": "sistema-ox-bel-ha", "type": "creates", "label": "Yucatan Platform karst. Cenotes = collapsed cave ceilings. The Maya knew these as entrances to Xibalba."},
+    {"source": "process-karst", "target": "lechuguilla-cave", "type": "creates_special", "label": "NOT carbonic acid — SULFURIC acid from below. H₂S rose from oil deposits, oxidized to H₂SO₄, dissolved limestone from underneath. Caves carved upward, not downward."},
+    {"source": "process-karst", "target": "np-grand-canyon", "type": "shapes", "label": "The Grand Canyon walls contain dozens of caves. The Colorado River carved the canyon; karst dissolved caves within its walls. Same limestone, two processes."},
+    {"source": "process-karst", "target": "np-zion", "type": "shapes", "label": "Zion's Narrows = surface karst. Water carved a slot canyon through sandstone. Cave formation in miniature, open to the sky."},
+
+    {"source": "process-water-cycle", "target": "process-karst", "type": "drives", "label": "Water IS the karst agent. Rain → CO₂ absorption → carbonic acid → limestone dissolution → cave. Without water, no caves."},
+    {"source": "process-water-cycle", "target": "np-grand-canyon", "type": "drives", "label": "Colorado River carved 277 miles, 1 mile deep. Water is the reader of the Earth's autobiography."},
+    {"source": "process-water-cycle", "target": "wonder-victoria-falls", "type": "drives", "label": "Zambezi River at maximum spectacle. Surface water made visible. The falls ARE the water cycle pausing to be measured."},
+    {"source": "process-water-cycle", "target": "np-glacier", "type": "drives", "label": "Glaciers = water frozen in transit. The retreat of ice is the water cycle accelerating."},
+    {"source": "process-water-cycle", "target": "np-yosemite", "type": "drives", "label": "Glacial carving in granite. Water as ice sculpted Half Dome and El Capitan. Yosemite Falls: the water cycle still performing."},
+
+    {"source": "process-ring-of-fire", "target": "mt-fuji", "type": "creates", "label": "Philippine Sea plate subduction → Japanese volcanic arc → Fuji"},
+    {"source": "process-ring-of-fire", "target": "mt-rainier", "type": "creates", "label": "Juan de Fuca plate subduction → Cascade volcanic arc → Rainier"},
+    {"source": "process-ring-of-fire", "target": "aconcagua", "type": "creates", "label": "Nazca plate subduction → Andes → highest peak in Americas"},
+    {"source": "process-ring-of-fire", "target": "denali", "type": "creates", "label": "Pacific plate subduction → Alaska Range → highest peak in N. America"},
+    {"source": "process-ring-of-fire", "target": "challenger-deep", "type": "creates", "label": "Pacific-Philippine convergence → deepest point on Earth"},
+    {"source": "process-ring-of-fire", "target": "horizon-deep", "type": "creates", "label": "Pacific-Tonga convergence → fastest subduction, second deepest"},
+    {"source": "process-ring-of-fire", "target": "kuril-deep", "type": "creates", "label": "Pacific-Okhotsk convergence → volcanic Kuril Islands above"},
+    {"source": "process-ring-of-fire", "target": "java-deep", "type": "creates", "label": "Indo-Australian subduction → 2004 tsunami. The ring's deadliest backscatter."},
+
+    {"source": "process-subduction", "target": "process-ring-of-fire", "type": "drives", "label": "Subduction IS the ring of fire. Every trench is a subduction zone. Every volcanic arc sits above one."},
+    {"source": "process-subduction", "target": "process-karst", "type": "enables", "label": "Subduction uplifts ancient ocean floor limestone onto continental surfaces. Rain dissolves it into caves. Without subduction, no uplifted limestone, no caves."},
+
+    {"source": "process-vertical-envelope", "target": "challenger-deep", "type": "boundary", "label": "Lower boundary: -10,924m below sea level"},
+    {"source": "process-vertical-envelope", "target": "mt-everest", "type": "boundary", "label": "Upper boundary: +8,849m above sea level"},
+    {"source": "process-vertical-envelope", "target": "krubera-cave", "type": "interior", "label": "Interior measurement: 2,224m of vertical cave = the deepest humans have gone INSIDE the Earth"},
+    {"source": "process-vertical-envelope", "target": "mauna-kea", "type": "true_tallest", "label": "True tallest: 10,211m base-to-peak, but 6,004m is underwater. The ocean hides half the mountain."},
+    {"source": "process-vertical-envelope", "target": "np-death-valley", "type": "interior", "label": "Badwater Basin: -86m. Lowest dry land in N. America. A valley so deep it sinks below the sea."}
   ]
 }
