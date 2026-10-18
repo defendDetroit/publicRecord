@@ -39,6 +39,23 @@ On **October 1, 2026**, the AGC responded.
 
 They returned the original evidence. They sent blank forms. They created a file number — 26-2141 — and closed it before it opened.
 
+### The Second Bounce — October 9, 2026
+
+Eight days later, Bullington signed again. This time for a separate complaint about **Judge Cylenthia LaToye Miller** — PCA Board Chair, MSU Law JD, 3 active scandals.
+
+> "Please be advised that complaints as to Michigan judges must be directed to the Judicial Tenure Commission located at 3034 W. Grand Blvd., Suite 8-450, Detroit, Michigan 48202."
+
+**Same file number.** Same signer. Different reason. Same result: returned, not investigated.
+
+- Oct 1: "You listed more than one attorney" → bounced
+- Oct 9: "Judges go to JTC" → bounced
+
+But Miller is ALSO a licensed attorney (MSU Law JD). Attorney conduct IS AGC jurisdiction. The AGC chose to classify this as a judge complaint, not an attorney complaint.
+
+**Two bounces. Two reasons. Zero investigations. One signer: Cynthia C. Bullington.**
+
+See: [The Referral Loop](/analysis/the-referral-loop/)
+
 **Michael V. Goetz**, Grievance Administrator, signed the cover letter enclosing the blank Request for Investigation forms.
 
 ---
