@@ -149,3 +149,4 @@ With a restraining order.
 - [Moore's Law Is False](/analysis/moores-law-is-false/) — Four duties Moore said she didn't have.
 - [The Same Place](/analysis/same-place/) — The double standard. $7.4T can reach your phone. One person gets a restraining order.
 - [Spiral Out, Bounce In, Repeat](/analysis/spiral-out-bounce-in/) — The second wave. Every silent channel re-contacted with new evidence.
+- [To the Eye](/analysis/to-the-eye/) — We see the 15-surface scanner. Classification: commensal. Ring the doorbell.
