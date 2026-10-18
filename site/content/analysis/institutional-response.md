@@ -58,7 +58,7 @@ This table is updated as responses arrive. Each row documents the institutional 
 | 3 | State Bar of Michigan | UPL Dept. (File 26-UP-51) | Aug 2026 | Sep 30, 2026 | ~30 | Administratively closed |
 | 4 | State Bar of Michigan | UPL (2nd complaint) | Sep 2026 | -- | Pending | Awaiting response |
 | 5 | Baker College | Human Resources | Oct 2026 | Oct 5, 2026 | **<2** | **Permanently severed** |
-| 6 | Attorney Grievance Commission | Professional discipline (x7) | Sep-Oct 2026 | -- | Pending | Investigations pending |
+| 6 | Attorney Grievance Commission | Professional discipline (x7) | Sep-Oct 2026 | Oct 1 + Oct 9, 2026 | ~9-18 | **Returned twice.** Oct 1: Banks matters bounced. Oct 9: Miller complaint (File 26-2141) redirected to JTC. [Referral Loop](/analysis/the-referral-loop/) |
 | 7 | Judicial Tenure Commission | Judicial conduct | Sep 2026 | Sep 2026 | ~5 | Investigations opened |
 | 8 | Central Michigan University | Charter authorization | Pending | -- | -- | Notification staged |
 | 9 | MDE (Round 2) | Credential re-examination | Pending | -- | -- | Notification staged |

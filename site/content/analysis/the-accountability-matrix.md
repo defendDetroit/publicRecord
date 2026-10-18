@@ -145,7 +145,7 @@ Every claim resolves to a public source linked in the [Verify Everything section
 
 | Duty | Entity | Person(s) | Evidence |
 |------|--------|-----------|----------|
-| **MCR 9.109** (self-initiate) | AGC | **Michael Goetz** (signed blank forms), **Cynthia Bullington** (signed bounce) | File 26-2141. Returned evidence. [Circular Shield](/analysis/the-circular-shield/) |
+| **MCR 9.109** (self-initiate) | AGC | **Michael Goetz** (signed blank forms), **Cynthia Bullington** (signed TWO bounces: Oct 1 + Oct 9) | File 26-2141. Returned evidence twice. Oct 9: "judges go to JTC." [Circular Shield](/analysis/the-circular-shield/) + [Referral Loop](/analysis/the-referral-loop/) |
 | **MCL 750.159i** (prosecute RICO) | Michigan AG | **AG Dana Nessel** | Full evidence package. 74 days left. Silence. |
 | **Charter oversight** | DPSCD | Inspector General | Charter authorization failure. Silence. |
 | **Professional practice** | MDE | — | Acknowledged Oct 1. No action since. |
@@ -296,8 +296,10 @@ Every claim resolves to a public source linked in the [Verify Everything section
 
 | # | Violation | Statute | Entity |
 |---|----------|---------|--------|
-| 1 | Signed bounce letter returning evidence about RICO-committing AAG | MCR 9.109 | AGC — File 26-2141 |
-| 2 | Teaches Professional Responsibility at MSU Law — school Moreland graduated from | Irony | MSU Law / AGC |
+| 1 | Signed bounce letter #1 (Oct 1) returning evidence about RICO-committing AAG | MCR 9.109 | AGC |
+| 2 | Signed bounce letter #2 (Oct 9) returning Miller complaint, redirected to JTC | MCR 9.109 | AGC — File 26-2141 |
+| 3 | Teaches Professional Responsibility at MSU Law — same school Banks claims fake JD from | Convergence | MSU Law / AGC |
+| 4 | Character & Fitness Committee — gates who becomes an attorney | Convergence | AGC |
 
 **Verify:** [MSU Law faculty page](https://www.law.msu.edu/faculty_staff/profile.php?prof=259) · [AGC About](https://www.agcmi.org/about)
 
