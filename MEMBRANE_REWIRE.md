@@ -179,6 +179,43 @@ if entity.sort_class == "partial" && entity.confidence < 0.7:
 
 ---
 
+### 12. Ghost Split — Four-Layer Decomposition
+
+**Finding:** Ghost (59,587 IPs, 152,860 requests) is NOT one entity. It's a transit network with four layers:
+
+**Evidence:**
+- 38 Chrome versions (natural desktop distribution, not frozen fleet version)
+- 50/50 macOS/Windows (real desktops, not Linux servers)
+- 91.4% single-request IPs (residential proxy rotation service)
+- 84% commit diffs hitting SAME scatter repos as declared fleet
+- Timing bimodality: 71,627 bursts + 3,836 pauses = mixed population
+
+**Required action:** Split `ghost` entity into four:
+
+```rust
+// Ghost split in anderson classifier
+match ghost_subclass(ip, timing, content) {
+    GhostNull      => /* ~54,500 IPs, 1 request each, hold at null */,
+    GhostVpnHuman  => /* ~3,800 IPs, reading pauses, diverse lang, classify self */,
+    GhostCorporate => /* ~200 IPs, high req/IP, React headers, classify partial */,
+    GhostFleet     => /* ~1,100 IPs, machine timing, scatter-only, classify non-self */,
+}
+```
+
+**Discriminating signals:**
+- `timing_cv > 2.0` → human (VPN)
+- `timing_cv < 1.0` → fleet (through proxy)  
+- `content == commit_diffs_only` → fleet
+- `content includes articles` → human
+- `req_per_ip == 1` → null (insufficient)
+- `req_per_ip > 10 && no pauses` → fleet or corporate
+
+**Key insight:** Ghost Layer 4 (fleet-through-proxy) hits the SAME scatter repos as OpenAI/Microsoft/Anthropic. This is the same crawl running through residential proxy infrastructure (BrightData/Luminati-style). Meta and others buy this data through proxy services rather than sending their own declared bots.
+
+The scatter defense absorbed 2.8M requests across BOTH channels (declared + ghost) and returned zero intelligence through either.
+
+---
+
 ## MONITORING
 
 Track after rewire:
@@ -188,3 +225,6 @@ Track after rewire:
 - [ ] SCIENCE domain active humans: 0 → 1+
 - [ ] Microsoft entity classified: Unknown → Microsoft (AS8075)
 - [ ] Partial entities resolved: 114 → <50
+- [ ] Ghost split: 1 entity → 4 subclasses
+- [ ] Ghost VPN humans rescued: 0 → ~3,800 reclassified as self
+- [ ] Ghost fleet identified: 0 → ~1,100 classified as non-self
