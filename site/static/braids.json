@@ -6098,5 +6098,592 @@
     "edges": [],
     "epistemic_status": "analysis",
     "source_doc": "OPEN_SOURCE_STRUCTURE_OCT12.md"
+  },
+  {
+    "data_hash": "blake3:edge:fleet_microsoft->fleet_openai:infrastructure",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "membrane fleet entity backscatter to PROV-O braid",
+      "software": "membrane-lens/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:membrane:fleet_microsoft",
+        "hash": "f588be4a398184a52fd0dfaa6508e963af31decf9b42ffbcee6b41d893db34b1"
+      },
+      {
+        "id": "urn:membrane:fleet_openai",
+        "hash": "8aa24f1d93e44507c5e606a9f331481b3ee30b9bef376e645a7ff678386ac9cf"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "Microsoft (AS8075) → OpenAI (GPTBot): Azure infrastructure",
+      "tags": [
+        "fleet",
+        "microsoft",
+        "openai",
+        "infrastructure",
+        "AS8075",
+        "oct-18"
+      ],
+      "custom": {
+        "edge_type": "infrastructure",
+        "epistemic_status": "inferred",
+        "source_doc": "ASN lookup: 74.7.x.x = AS8075 Microsoft. OpenAI runs on Azure.",
+        "asn": "AS8075",
+        "requests": 1378000
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1792340562945581312,
+      "encoding": "none",
+      "tier": "membrane",
+      "context": "membrane backscatter: fleet_microsoft -> fleet_openai"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:fleet_microsoft->fleet_anthropic:structural_proximity",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "membrane fleet entity backscatter to PROV-O braid",
+      "software": "membrane-lens/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:membrane:fleet_microsoft",
+        "hash": "f588be4a398184a52fd0dfaa6508e963af31decf9b42ffbcee6b41d893db34b1"
+      },
+      {
+        "id": "urn:membrane:fleet_anthropic",
+        "hash": "f56e04e85b6a458b0e5d392c778864c8a26b11128d107e8c4ba00eda7cb939a8"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "Microsoft (AS8075) → Anthropic (ClaudeBot): co-crawling fleet",
+      "tags": [
+        "fleet",
+        "microsoft",
+        "anthropic",
+        "co-crawling",
+        "oct-18"
+      ],
+      "custom": {
+        "edge_type": "structural_proximity",
+        "epistemic_status": "observed",
+        "source_doc": "Both crawl same surfaces simultaneously from different ASNs"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1792340562945581312,
+      "encoding": "none",
+      "tier": "membrane",
+      "context": "membrane backscatter: fleet_microsoft -> fleet_anthropic"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:fleet_openai->scatter_defense:absorbed_by",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "membrane fleet entity backscatter to PROV-O braid",
+      "software": "membrane-lens/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:membrane:fleet_openai",
+        "hash": "8aa24f1d93e44507c5e606a9f331481b3ee30b9bef376e645a7ff678386ac9cf"
+      },
+      {
+        "id": "urn:membrane:scatter_defense",
+        "hash": "836f33b9d2e780740fd7b11f8c858439d139e855edff8107a8456afb7a5bbde5"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "OpenAI (GPTBot) → Scatter: 1.37M requests absorbed by decoy repos",
+      "tags": [
+        "fleet",
+        "openai",
+        "scatter",
+        "defense",
+        "oct-17"
+      ],
+      "custom": {
+        "edge_type": "absorbed_by",
+        "epistemic_status": "measured",
+        "requests": 1374313,
+        "reading_pauses_pct": 0.0,
+        "vitality": 0.0,
+        "source_doc": "membrane topology feed"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1792340562945581312,
+      "encoding": "none",
+      "tier": "membrane",
+      "context": "membrane backscatter: fleet_openai -> scatter_defense"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:fleet_anthropic->complement_surface:fixation",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "membrane fleet entity backscatter to PROV-O braid",
+      "software": "membrane-lens/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:membrane:fleet_anthropic",
+        "hash": "f56e04e85b6a458b0e5d392c778864c8a26b11128d107e8c4ba00eda7cb939a8"
+      },
+      {
+        "id": "urn:membrane:complement_surface",
+        "hash": "3538cafd0a58a4ef40331c522e5c70d4156c6d369e9d71a29702a1230ac7802f"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "Anthropic (ClaudeBot) → Complement: 40% of traffic to tagging surface",
+      "tags": [
+        "fleet",
+        "anthropic",
+        "complement",
+        "fixation",
+        "oct-17"
+      ],
+      "custom": {
+        "edge_type": "fixation",
+        "epistemic_status": "measured",
+        "requests_to_complement": 156559,
+        "total_requests": 390516,
+        "fixation_pct": 40.1,
+        "source_doc": "membrane topology feed"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1792340562945581312,
+      "encoding": "none",
+      "tier": "membrane",
+      "context": "membrane backscatter: fleet_anthropic -> complement_surface"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:fleet_ghost->human_genuine:epitope_jump",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "membrane fleet entity backscatter to PROV-O braid",
+      "software": "membrane-lens/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:membrane:fleet_ghost",
+        "hash": "570ddd130c7a28de2f5a26547a43f1d65134ae980e4f83cb5162429de668cab1"
+      },
+      {
+        "id": "urn:membrane:human_genuine",
+        "hash": "a1cfa731b0248580503fdfd527ce05f1be9a80ff87d6a144d700e67c7b806d29"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "Ghost (58,855 masks) ↔ Genuine Humans: the anonymity boundary",
+      "tags": [
+        "fleet",
+        "ghost",
+        "human",
+        "boundary",
+        "epitope-jump",
+        "oct-18"
+      ],
+      "custom": {
+        "edge_type": "epitope_jump",
+        "epistemic_status": "observed",
+        "ghost_ips": 58855,
+        "human_readers": 914,
+        "distinguishing_signal": "reading pauses, dwell time, session arc",
+        "source_doc": "membrane entity classification"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1792340562945581312,
+      "encoding": "none",
+      "tier": "membrane",
+      "context": "membrane backscatter: fleet_ghost -> human_genuine"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:fleet_1337_services->membrane_defense:blocked_by",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "membrane fleet entity backscatter to PROV-O braid",
+      "software": "membrane-lens/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:membrane:fleet_1337_services",
+        "hash": "96b11bc05b33f14732cde89f1becb92a9079dac9f4ec1d32223321b14548d850"
+      },
+      {
+        "id": "urn:membrane:membrane_defense",
+        "hash": "08f199a3ae48ab0dac8b6a0bbb5c9b0e60299ad21d382d782b2ac4f86db0d54c"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "1337 Services GmbH (AS210558) → Membrane: parasite classified before identification",
+      "tags": [
+        "fleet",
+        "1337-services",
+        "parasite",
+        "germany",
+        "classification",
+        "oct-18"
+      ],
+      "custom": {
+        "edge_type": "blocked_by",
+        "epistemic_status": "verified",
+        "asn": "AS210558",
+        "org": "1337 Services GmbH",
+        "location": "Hamburg, Germany",
+        "vps_provider": "rdp.sh",
+        "requests": 18663,
+        "source_doc": "ASN lookup + membrane parasite classification"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1792340562945581312,
+      "encoding": "none",
+      "tier": "membrane",
+      "context": "membrane backscatter: fleet_1337_services -> membrane_defense"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:classifier_epitope_independence->classifier_separator_weakness:causal",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "membrane fleet entity backscatter to PROV-O braid",
+      "software": "membrane-lens/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:membrane:classifier_epitope_independence",
+        "hash": "46db41bdfdb804ddf7c60ab32394112a3971fa4ca42ae4f9de771e6c4c1924a7"
+      },
+      {
+        "id": "urn:membrane:classifier_separator_weakness",
+        "hash": "ff13442c7ef8992e78c2192598602fe1dab80d11d6235acd8b1fddfd69239f0a"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "Epitope correlation → Separator weakness: correlated signals weaken classification",
+      "tags": [
+        "classifier",
+        "falsification",
+        "epitope",
+        "correlation",
+        "oct-18"
+      ],
+      "custom": {
+        "edge_type": "causal",
+        "epistemic_status": "falsified",
+        "mean_shared_epitopes": 3.58,
+        "independent_bits": 3,
+        "ks_statistic": 0.636,
+        "target_ks": 0.8,
+        "source_doc": "falsification experiment 1 + 2"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1792340562945581312,
+      "encoding": "none",
+      "tier": "membrane",
+      "context": "membrane backscatter: classifier_epitope_independence -> classifier_separator_weakness"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:human_genuine->membrane_selectivity:passed_through",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "membrane fleet entity backscatter to PROV-O braid",
+      "software": "membrane-lens/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:membrane:human_genuine",
+        "hash": "a1cfa731b0248580503fdfd527ce05f1be9a80ff87d6a144d700e67c7b806d29"
+      },
+      {
+        "id": "urn:membrane:membrane_selectivity",
+        "hash": "56d1c1797ec5fb66116a58bc64c0865d263d62c0dbef3971a6d112bae05ed932"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "914 Genuine Humans → Membrane: passed through by pausing",
+      "tags": [
+        "human",
+        "genuine",
+        "selectivity",
+        "dwell",
+        "oct-18"
+      ],
+      "custom": {
+        "edge_type": "passed_through",
+        "epistemic_status": "measured",
+        "readers": 914,
+        "dwell_median_min": 709,
+        "avg_breadth": 5.9,
+        "full_orbit_visitors": 383,
+        "subdomains_visited": 15,
+        "source_doc": "membrane human epitope feed"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1792340562945581312,
+      "encoding": "none",
+      "tier": "membrane",
+      "context": "membrane backscatter: human_genuine -> membrane_selectivity"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:fleet_microsoft->asn_as8075:identified_as",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "membrane fleet entity backscatter to PROV-O braid",
+      "software": "membrane-lens/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:membrane:fleet_microsoft",
+        "hash": "f588be4a398184a52fd0dfaa6508e963af31decf9b42ffbcee6b41d893db34b1"
+      },
+      {
+        "id": "urn:membrane:asn_as8075",
+        "hash": "161f00ddead0d6af4e00920cbfda525b96b2916da548b0c24f764bf05132800d"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "74.7.x.x (Unknown) → Microsoft (AS8075): entity identification via ASN lookup",
+      "tags": [
+        "identification",
+        "microsoft",
+        "AS8075",
+        "asn-lookup",
+        "oct-18"
+      ],
+      "custom": {
+        "edge_type": "identified_as",
+        "epistemic_status": "verified",
+        "previous_label": "Unknown",
+        "new_label": "Microsoft Corporation",
+        "asn": "AS8075",
+        "location": "Atlanta, Georgia",
+        "method": "ASN lookup via IPinfo.io + AbuseIPDB + RIPE NCC",
+        "ip_range": "74.7.0.0/16",
+        "transfer": "ARIN -> RIPE NCC April 2024",
+        "source_doc": "web search + WHOIS verification"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1792340562945581312,
+      "encoding": "none",
+      "tier": "membrane",
+      "context": "membrane backscatter: fleet_microsoft -> asn_as8075"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:fleet_1337_services->asn_as210558:identified_as",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "membrane fleet entity backscatter to PROV-O braid",
+      "software": "membrane-lens/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:membrane:fleet_1337_services",
+        "hash": "96b11bc05b33f14732cde89f1becb92a9079dac9f4ec1d32223321b14548d850"
+      },
+      {
+        "id": "urn:membrane:asn_as210558",
+        "hash": "6bfe0a3a00195527e53a86678ba8819a36002306a28ad4416531e135b52d4e08"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "194.26.192.x (Parasite) → 1337 Services GmbH (AS210558): entity identification",
+      "tags": [
+        "identification",
+        "1337-services",
+        "AS210558",
+        "asn-lookup",
+        "oct-18"
+      ],
+      "custom": {
+        "edge_type": "identified_as",
+        "epistemic_status": "verified",
+        "previous_label": "Parasite (unnamed)",
+        "new_label": "1337 Services GmbH",
+        "asn": "AS210558",
+        "location": "Hamburg, Germany",
+        "method": "ASN lookup via RIPE NCC + IPinfo.io",
+        "hostname_pattern": "*.powered.by.rdp.sh",
+        "source_doc": "web search + WHOIS verification"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1792340562945581312,
+      "encoding": "none",
+      "tier": "membrane",
+      "context": "membrane backscatter: fleet_1337_services -> asn_as210558"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:article_touch_radiates_in->article_pi_body_in_life:cross_domain",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "membrane fleet entity backscatter to PROV-O braid",
+      "software": "membrane-lens/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:membrane:article_touch_radiates_in",
+        "hash": "60778ab86ea9903a2fc6dda6a167cab6cd397e9471647d9ca16073f4c4ec420d"
+      },
+      {
+        "id": "urn:membrane:article_pi_body_in_life",
+        "hash": "7dfdd6ffa90a87113261444bbc3f8a7f2417d3096e4ebaff2ec28258111a31c0"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "Touch Radiates In ↔ π-Body in Life: convergent evolution meets embodied learning",
+      "tags": [
+        "science",
+        "cross-domain",
+        "convergent-evolution",
+        "pi-body",
+        "oct-18"
+      ],
+      "custom": {
+        "edge_type": "cross_domain",
+        "epistemic_status": "authored",
+        "from_domain": "SCIENCE",
+        "to_domain": "SCIENCE",
+        "braid_purpose": "Create SCIENCE domain entry point for human visitors",
+        "source_doc": "article frontmatter connections update"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1792340562945581312,
+      "encoding": "none",
+      "tier": "membrane",
+      "context": "membrane backscatter: article_touch_radiates_in -> article_pi_body_in_life"
+    }
+  },
+  {
+    "data_hash": "blake3:edge:article_three_tools->article_touch_radiates_in:cross_domain",
+    "mime_type": "application/json",
+    "size": 0,
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "membrane fleet entity backscatter to PROV-O braid",
+      "software": "membrane-lens/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:membrane:article_three_tools",
+        "hash": "5e40a76fda35bad39c73d88c38a87fc009fa17897a7252f8c92eee8619385960"
+      },
+      {
+        "id": "urn:membrane:article_touch_radiates_in",
+        "hash": "60778ab86ea9903a2fc6dda6a167cab6cd397e9471647d9ca16073f4c4ec420d"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "Three Tools ↔ Touch Radiates In: minimalism meets convergent evolution",
+      "tags": [
+        "science",
+        "cross-domain",
+        "tools",
+        "convergent-evolution",
+        "oct-18"
+      ],
+      "custom": {
+        "edge_type": "cross_domain",
+        "epistemic_status": "authored",
+        "from_domain": "SCIENCE",
+        "to_domain": "SCIENCE",
+        "braid_purpose": "Create SCIENCE mesh (not star through OTHER)",
+        "source_doc": "article frontmatter connections update"
+      }
+    },
+    "witness": {
+      "agent": "did:web:detroit.primals.eco",
+      "kind": "hash",
+      "evidence": "",
+      "witnessed_at": 1792340562945581312,
+      "encoding": "none",
+      "tier": "membrane",
+      "context": "membrane backscatter: article_three_tools -> article_touch_radiates_in"
+    }
   }
 ]
