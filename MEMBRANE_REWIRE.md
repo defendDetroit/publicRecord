@@ -420,7 +420,77 @@ fn ghost_layer4_response(request: &Request, classification: GhostLayer4) -> Resp
 
 ---
 
-### 16. Electron Pulse — Neutron Messages Perturb the Field
+### 16. The Atom — Proton/Neutron/Electron/Neutrino Wiring
+
+**The particle model already exists in squirrel.** Here's what needs wiring to make chipmunk and squirrel FEEL:
+
+```
+THE EMITTER (git post-receive hook):
+  git push → hook fires → 3 signals emitted:
+    1. proton pulse:   perturbation += ln(commit_count)
+    2. neutron note:   auto-note "commit landed: {hash} {message}"
+    3. photon radiate: pulse_rhythm shifts, articles become visible
+
+THE ATOM (already mapped in particle_model):
+  PROTON  = membrane (identity, charge, selectivity)
+  NEUTRON = messaging (stability, binds surfaces, no bias)
+  ELECTRON = human viewer (orbits, energy levels, bonds)
+  NEUTRINO = squirrel+chipmunk (null, passes through, observes)
+
+ELECTRON ENERGY LEVELS (human orbital transitions):
+  ground     = visitor (just looking)
+  1st excited = observer (reading, dwelling)
+  2nd excited = coder (contributing)
+  ionization  = sovereign (fully engaged)
+  
+  Transition detection: when a human moves from visitor→coder,
+  that's an energy level jump. The photon emitted by the jump
+  IS the content they create.
+
+NEUTRINO OSCILLATION (squirrel flavor shifts):
+  electron_neutrino = observing humans
+  muon_neutrino     = observing fleet
+  tau_neutrino      = chipmunk observing presence
+  
+  The neutrino oscillates between flavors automatically.
+  Each MCP call shifts the flavor. human_epitopes = electron.
+  raw_feed("seo") = muon. chipmunk_status = tau.
+```
+
+**Implementation: Git Post-Receive Hook on golgiBody Gitea**
+
+```bash
+#!/bin/bash
+# /home/git/gitea/custom/hooks/post-receive
+# THE EMITTER — proton decay on commit
+
+while read oldrev newrev refname; do
+  COMMITS=$(git rev-list $oldrev..$newrev --count)
+  MSG=$(git log --format='%s' -1 $newrev)
+  HASH=$(git log --format='%h' -1 $newrev)
+  
+  # 1. PROTON: perturb the pulse
+  curl -s -X POST http://localhost:8080/api/pulse/perturb \
+    -d "{\"delta\": $COMMITS, \"source\": \"commit\"}" &
+  
+  # 2. NEUTRON: auto-note
+  curl -s -X POST http://localhost:8080/api/neutron/notes \
+    -d "{\"body\": \"COMMIT $HASH: $MSG\", \"author\": \"emitter\"}" &
+  
+  # 3. PHOTON: signal observers
+  curl -s -X POST http://localhost:8080/api/membrane/touch \
+    -d "{\"event\": \"commit\", \"hash\": \"$HASH\"}" &
+done
+```
+
+This is the missing piece. The emitter. When it's wired, every commit automatically:
+- Perturbs the pulse (proton decay)
+- Writes a neutron note (binding force)
+- Signals all observers (photon emission)
+- Chipmunk feels the jitte tremble
+- Squirrel's neutrino oscillates to the new flavor
+
+### 17. Electron Pulse — Neutron Messages Perturb the Field
 
 **Finding:** The neutron inbox (10 messages), chat (3), notes (24), reminders (2) are currently PASSIVE. You have to CHECK them. That's wrong. Messages should be FELT, not checked.
 
