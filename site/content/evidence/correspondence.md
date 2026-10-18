@@ -191,4 +191,24 @@ What happened to any attorney placed in this position — retained without full 
 
 ---
 
-*All emails preserved with full headers. Any response from GLLG or any counsel will be published here with the same principle applied: facts recorded, context provided, presumption of good faith until evidence requires otherwise.*
+---
+
+## October 9, 2026 — AGC Returns Filing on Judge Miller
+
+**From:** Michigan Attorney Grievance Commission
+**Signed by:** Cynthia C. Bullington, Assistant Deputy Administrator
+**To:** Kevin Mok
+**RE:** Kevin Mok as to Judge Cylenthia LaToye Miller
+**AGC File No.:** 26-2141
+
+**Content:** AGC returned the filing and enclosed correspondence. Directed that complaints about Michigan judges must go to the Judicial Tenure Commission at 3034 W. Grand Blvd., Suite 8-450, Detroit, Michigan 48202.
+
+**Response type:** Redirect/referral. No investigation opened at AGC.
+
+**Significance:** The AGC created a file number (26-2141), which means the complaint is on record even though it was returned. Bullington — 44 years at AGC, MSU Law adjunct teaching Professional Responsibility — personally signed the redirect. The JTC already has open complaints about Miller. The referral loop is now documented.
+
+**Full analysis:** [The Referral Loop](/analysis/the-referral-loop/)
+
+---
+
+*All correspondence preserved with full headers. Any response from any agency or counsel will be published here with the same principle applied: facts recorded, context provided, presumption of good faith until evidence requires otherwise.*

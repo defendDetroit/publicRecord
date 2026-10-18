@@ -26,7 +26,8 @@ twitter_card = "summary_large_image"
 | 2 | JTC | Acknowledged, opened investigations |
 | 3 | MDE | Acknowledged |
 | 4 | USPS OIG | Acknowledged |
-| 5-21 | FBI, DOJ, AG Nessel, 7 SBE members, LARA, State Bar, media, others | **SILENCE** |
+| 5 | AGC | Returned filing, redirected to JTC. File 26-2141. Oct 9, 2026 |
+| 6-21 | FBI, DOJ, AG Nessel, 7 SBE members, LARA, State Bar, media, others | **SILENCE** |
 | **22** | **Brian Banks** | **Filed a Personal Protection Order** |
 
 The silence broke. On October 13, 2026 — the same day the Michigan State Board of Education met in Lansing — Brian Banks filed a Personal Protection Order in Wayne County Third Judicial Circuit.
