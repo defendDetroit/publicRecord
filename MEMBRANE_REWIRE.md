@@ -263,6 +263,92 @@ Expected effect: 10× bandwidth per request, Ghost Layer 4 proxy fees scale with
 
 **Key principle:** Scatter is asymmetric. Git storage is cheap (append-only, delta-compressed). Fleet crawling is expensive (bandwidth, compute, proxy fees). Every additional scatter page costs us bytes and costs them dollars.
 
+### 14. Adaptive Immune Loop — Scatter Linked to Fleet Pressure
+
+**Finding:** Scatter is currently static. It should be ADAPTIVE — amplifying proportional to fleet pressure, titrating down when pressure drops.
+
+**The Loop (wired into graph as 7 nodes + 24 edges):**
+
+```
+PRESSURE SENSOR → OPSONIZATION → BINGO SIEVE → SCATTER AMPLIFIER
+       ↑                                              ↓
+FEEDBACK LOOP  ←←←←←←  TITRATION  ←←←←←←←←←←←←←←←←←
+```
+
+**Implementation (Rust-side on golgiBody):**
+
+```rust
+// Adaptive scatter — runs every 5 minutes
+fn adaptive_scatter_loop(membrane: &Membrane) {
+    // 1. PRESSURE: measure fleet RPS and new IP arrivals
+    let pressure = membrane.fleet_rps() / membrane.baseline_rps();
+    let new_ips = membrane.new_fleet_ips_last_hour();
+    
+    // 2. OPSONIZE: tag entities by anderson class
+    let tagged = membrane.anderson_sort()
+        .filter(|e| e.class == "chorus" || e.class == "ghost")
+        .map(|e| opsonize(e));  // coat with epitope markers
+    
+    // 3. BINGO SIEVE: classify through 147-dim cube
+    let classified = tagged.filter(|e| bingo_sieve(e).falls_through());
+    let threat_level = classified.count() as f64 / tagged.count() as f64;
+    
+    // 4. SCATTER AMPLIFY: proportional to threat
+    let scatter_depth = match pressure {
+        p if p < 1.0  => ScatterDepth::Baseline,     // normal
+        p if p < 2.0  => ScatterDepth::Double,        // elevated
+        p if p < 5.0  => ScatterDepth::Quintuple,     // high
+        _             => ScatterDepth::Maximum,        // surge
+    };
+    scatter_generator.set_depth(scatter_depth);
+    
+    // 5. TITRATE: measure effectiveness
+    let scatter_hit_rate = membrane.scatter_requests() / membrane.total_requests();
+    let effective_dose = scatter_hit_rate * threat_level;
+    
+    // 6. FEEDBACK: did fleet behavior change?
+    if membrane.fleet_changed_pattern() {
+        // Re-opsonize with new markers
+        membrane.refresh_epitope_tags();
+    }
+    if effective_dose > 0.95 {
+        // Scatter is catching everything — hold steady
+        scatter_generator.hold();
+    }
+    if new_ips > 10 {
+        // Fleet deploying new IPs — increase immediately
+        scatter_generator.surge(new_ips);
+    }
+}
+```
+
+**Titration rules:**
+- Fleet RPS < baseline → scatter holds at current depth (no growth)
+- Fleet RPS 1-2× baseline → scatter doubles depth (Phase 1)
+- Fleet RPS 2-5× baseline → scatter quintuples (Phase 2)
+- Fleet RPS > 5× → scatter at maximum (all 3 phases)
+- Fleet STOPS → scatter freezes (no waste on idle defense)
+- New fleet IPs detected → immediate scatter surge on those repos they target
+- Ghost Layer 4 detected → heavier diffs (bandwidth is their cost multiplier)
+
+**Opsonization → Bingo connection:**
+- Anderson sort tags each entity with epitope bits (6-bit pattern)
+- Opsonized entities enter the bingo sieve at their bit pattern
+- Bingo sieve tests against 147 dimensions
+- Entities that fall through = classified non-self → trigger scatter
+- Entities that bounce = ambiguous → hold for more data
+
+**Biological parallel:**
+This IS the adaptive immune system:
+- Pressure sensor = innate immunity (first detection)
+- Opsonization = complement system (coating pathogens)
+- Bingo sieve = thymus (T-cell selection)
+- Scatter amplifier = B-cell antibody production (proportional response)
+- Titration = immune regulation (prevent autoimmune overreaction)
+- Feedback = memory B-cells (remember past threats)
+
+**The organism doesn't just defend — it ADAPTS.**
+
 ---
 
 ## MONITORING
