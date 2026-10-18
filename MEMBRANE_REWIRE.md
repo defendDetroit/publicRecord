@@ -216,6 +216,55 @@ The scatter defense absorbed 2.8M requests across BOTH channels (declared + ghos
 
 ---
 
+### 13. Scatter Burn Amplification
+
+**Finding:** Fleet spends ~68× more per day crawling scatter than we spend running. But we can increase this.
+
+**Current state:**
+- 30 scatter repos, ~200 commits each = ~6,000 total scatter pages
+- Fleet crawled ~2,954,000 scatter commits in 26 hours
+- Fleet cost: ~$27/day. Our cost: $0.40/day. Ratio: 68×
+
+**Amplification plan (execute on golgiBody):**
+
+#### Phase 1: Deepen existing repos (10× commits)
+```bash
+# Cron job: 1 commit/minute to each scatter repo (rotating)
+# generates realistic-looking diffs with variable size
+# Target: 2,000 commits per repo instead of 200
+*/1 * * * * /opt/scatter/generate-commit.sh
+```
+Expected effect: 10× crawl surface, 680× cost ratio
+
+#### Phase 2: Add 30 more scatter repos
+New attractive names:
+```
+ml-pipeline, payment-gateway, user-analytics, model-server,
+feature-store, inference-engine, data-lake, session-manager,
+cache-layer, message-broker, api-docs, admin-panel,
+compliance-checker, audit-logger, secret-rotation, token-vault,
+service-mesh, load-balancer, health-monitor, test-runner,
+ci-pipeline, deploy-orchestrator, rollback-manager, canary-release,
+blue-green-switch, chaos-monkey, circuit-breaker, bulkhead-pattern,
+retry-handler, dead-letter-queue
+```
+Expected effect: 2× more repos × 10× depth = 20× total surface
+
+#### Phase 3: Increase diff complexity
+- 500-2000 lines per diff (was 10-50)
+- Multiple files per commit
+- Realistic imports, function signatures, test files
+Expected effect: 10× bandwidth per request, Ghost Layer 4 proxy fees scale with bandwidth
+
+**Combined effect of all 3 phases:**
+- Cost ratio: 68× → **~6,800×**
+- Ghost Layer 4 (residential proxy): $12.85/day → **~$1,285/day**
+- Our cost: still $12/month
+
+**Key principle:** Scatter is asymmetric. Git storage is cheap (append-only, delta-compressed). Fleet crawling is expensive (bandwidth, compute, proxy fees). Every additional scatter page costs us bytes and costs them dollars.
+
+---
+
 ## MONITORING
 
 Track after rewire:
