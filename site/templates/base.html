@@ -450,7 +450,10 @@ Attribution: ecoPrimals (C) 2024-2026 — ORCID 0009-0004-2141-0321
       }
     })();
   </script>
-  {# biomeOS HUD widget — shared observation bar across all primals.eco sites #}
-  <script src="https://hud.primals.eco/js/hud-widget.js" defer></script>
+  {# JELLY — thin reactive layer between Zola (static) and Membrane (live).
+     Zola = lipid bilayer (structure). Jelly = embedded proteins (transport).
+     Finds data-pulse="path.to.value" elements, hydrates from membrane API.
+     Static number is the fallback. If JS off, snapshot stands. If alive, page breathes. #}
+  <script src="{{ get_url(path='js/jelly.js') }}" defer></script>
 </body>
 </html>
