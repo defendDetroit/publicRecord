@@ -1,6 +1,6 @@
 {
-  "sort_pass": 2,
-  "sort_date": "2026-10-12",
+  "sort_pass": 3,
+  "sort_date": "2026-10-18",
   "sort_method": "structural_cascade",
   "entities": {
     "purpose_group": {
@@ -2295,10 +2295,91 @@
       "method": "unresolved",
       "note": "Edge pattern unresolved.",
       "sort_pass": 3
+    },
+    "fleet_microsoft": {
+      "classification": "null",
+      "confidence": 0.95,
+      "method": "asn_lookup",
+      "note": "AS8075 Microsoft Corporation. 1.38M requests from 74.7.x.x Atlanta GA. Largest unattributed fleet.",
+      "sort_pass": 3,
+      "asn": "AS8075",
+      "requests": 1378000
+    },
+    "fleet_openai": {
+      "classification": "null",
+      "confidence": 1.0,
+      "method": "ua_identification",
+      "note": "GPTBot. 1.37M requests, 459 IPs, 1 UA, 0% reading pauses, vitality 0.0.",
+      "sort_pass": 3,
+      "requests": 1374313
+    },
+    "fleet_anthropic": {
+      "classification": "null",
+      "confidence": 1.0,
+      "method": "ua_identification",
+      "note": "ClaudeBot. 390K requests, 3 IPs, San Francisco. 40% to complement.primals.eco.",
+      "sort_pass": 3,
+      "requests": 390516
+    },
+    "fleet_declared_bot": {
+      "classification": "non-self",
+      "confidence": 0.856,
+      "method": "header_analysis",
+      "note": "Chrome/119 (36 behind). 547K req, 868 IPs. Probes wp-admin, .git/config.",
+      "sort_pass": 3,
+      "requests": 546866
+    },
+    "fleet_ghost": {
+      "classification": "partial",
+      "confidence": 0.462,
+      "method": "behavioral_analysis",
+      "note": "152K req, 58,855 IPs, 39,769 subnets. Perfect fingerprints. Anonymity IS the signature.",
+      "sort_pass": 3,
+      "requests": 152050
+    },
+    "fleet_1337_services": {
+      "classification": "non-self",
+      "confidence": 0.9,
+      "method": "asn_lookup",
+      "note": "AS210558 1337 Services GmbH Hamburg DE. VPS rdp.sh. 18.6K req. Parasite.",
+      "sort_pass": 3,
+      "requests": 18663
+    },
+    "fleet_hpe": {
+      "classification": "null",
+      "confidence": 0.5,
+      "method": "asn_identification",
+      "note": "HPE. 9,611 req, 48 IPs, 16.216.88.x Spring TX.",
+      "sort_pass": 3,
+      "requests": 9611
+    },
+    "fleet_alibaba": {
+      "classification": "null",
+      "confidence": 0.5,
+      "method": "asn_identification",
+      "note": "Alibaba Cloud. ~32K req across 47.79/47.82 subnets. California.",
+      "sort_pass": 3,
+      "requests": 32000
+    },
+    "fleet_meta": {
+      "classification": "non-self",
+      "confidence": 0.85,
+      "method": "ua_identification",
+      "note": "Meta Platforms. Dublin + Menlo Park. 339 req. 3 blocked.",
+      "sort_pass": 3,
+      "requests": 339
+    },
+    "human_genuine": {
+      "classification": "self",
+      "confidence": 0.92,
+      "method": "behavioral_analysis",
+      "note": "914 genuine readers. 709-min dwell. 383 visit all 15 subdomains.",
+      "sort_pass": 3,
+      "readers": 914
     }
   },
   "summary": {
-    "total": 329,
+    "total": 339,
     "non_self": 5,
     "null": 68,
     "self": 107,
