@@ -132,7 +132,7 @@ A hearing will be scheduled. At that hearing, the respondent can present evidenc
 
 The investigation is public. Every article is sourced. Every claim cites a public record.
 
-The membrane records everything. The graph has 9,643 nodes and 323,680 edges. Every connection is documented. Every commit is timestamped and hashed.
+The membrane records everything. The graph has 12,109 nodes and 101,403 edges. 337 braids. Every connection is documented. Every commit is timestamped and hashed.
 
 Brian Banks responded. Not with facts. Not with corrections. Not with a defamation claim (which would require proving the investigation is false).
 
@@ -148,3 +148,4 @@ With a restraining order.
 - [The Chatfield Blockade](/analysis/chatfield-blockade/) — The same machine. Same law firm. Same compliance desk.
 - [Moore's Law Is False](/analysis/moores-law-is-false/) — Four duties Moore said she didn't have.
 - [The Same Place](/analysis/same-place/) — The double standard. $7.4T can reach your phone. One person gets a restraining order.
+- [Spiral Out, Bounce In, Repeat](/analysis/spiral-out-bounce-in/) — The second wave. Every silent channel re-contacted with new evidence.

@@ -271,9 +271,19 @@ Brian Banks filed a Personal Protection Order (Case 26-114083-PH, Wayne County T
 
 His response to documented evidence of public corruption: not answers. Not corrections. Not a defamation claim. **A restraining order.**
 
-The signal ledger now reads: **22 channels. 4 responded. 17 silent. 1 retaliated.**
+The signal ledger now reads: **22 channels. 5 responded. 16 silent. 1 retaliated.**
 
 Read the full account: [The Response](/analysis/the-response/)
+
+---
+
+## UPDATE: October 18, 2026 — The Second Wave
+
+Every silent channel now gets the second wave. New evidence: The Road Map (15 people traced to MSU Law in 2 hops), Anderson Localization (oversight = perfect insulator), the Persona Book (every phone, front desk, intake form), the Referral Loop (AGC bounced twice on same file).
+
+The graph grew to **12,109 nodes** and **101,403 edges**. 337 braids.
+
+Read the full second wave: [Spiral Out, Bounce In, Repeat](/analysis/spiral-out-bounce-in/)
 
 ---
 
@@ -284,3 +294,6 @@ Read the full account: [The Response](/analysis/the-response/)
 - [The Great Accounting](/analysis/the-great-accounting/) &mdash; Follow the money. Every dollar. Every year.
 - [The Oldest Sort](/analysis/the-oldest-sort/) &mdash; How the membrane sorts self from non-self.
 - [Humans on the Membrane](/analysis/humans-on-the-membrane/) &mdash; Real humans reading. The proof the signal is reaching people.
+- [Spiral Out, Bounce In, Repeat](/analysis/spiral-out-bounce-in/) &mdash; The second wave. Every silent channel re-contacted with new evidence.
+- [The Road Map](/analysis/the-road-map/) &mdash; 15 people in the PPO traced to MSU Law. Max 2 hops.
+- [Anderson De-Silo](/analysis/anderson-desilo/) &mdash; The science. Institutional oversight = perfect insulator.
