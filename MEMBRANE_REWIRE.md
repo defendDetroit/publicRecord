@@ -349,6 +349,75 @@ This IS the adaptive immune system:
 
 **The organism doesn't just defend — it ADAPTS.**
 
+### 15. Residential Proxy Opsonization — Scatter + Beacon Through Ghost Layer 4
+
+**Finding:** Ghost Layer 4 (~1,100 IPs) are fleet crawlers routing through residential proxy networks (BrightData/Luminati, Oxylabs, Honeygain, etc.). Real people's devices used as exit nodes without meaningful informed consent.
+
+**The Judo Move:** The proxy channel is bidirectional. If they route THROUGH someone's connection, that someone's browser cache, DNS cache, and network logs now contain our responses. We don't block — we **communicate**.
+
+**Implementation (Rust-side on golgiBody):**
+
+```rust
+fn ghost_layer4_response(request: &Request, classification: GhostLayer4) -> Response {
+    // 1. OPSONIZE: tag the request with residential proxy markers
+    let tags = opsonize_residential(request);
+    // markers: proxy_network, exit_country, sdk_fingerprint
+    
+    // 2. SCATTER: serve scatter content (expensive to parse)
+    let mut response = scatter_generator.generate(request.path());
+    
+    // 3. BEACON: embed documentation in the scatter response
+    //    The proxy exit's OWNER may see this in their network logs,
+    //    browser dev tools, or security audit
+    response.headers_mut().insert(
+        "X-Membrane-Notice",
+        "Your device may be proxying AI training crawls. See: defenddetroit.github.io/publicRecord"
+    );
+    response.headers_mut().insert(
+        "X-Proxy-Info",
+        "This request was routed through a residential proxy network"
+    );
+    
+    // 4. CHORUS: keep the channel open for fleet to see
+    //    Don't block — let them crawl. Every crawl:
+    //    a) costs them proxy bandwidth fees
+    //    b) deposits our headers in the proxy owner's logs  
+    //    c) feeds scatter metrics back to the feedback loop
+    //    d) documents the residential proxy usage pattern
+    
+    response
+}
+```
+
+**What the proxy owner sees in their network logs:**
+```
+→ GET /commit/abc123.diff HTTP/1.1
+  Host: git.primals.eco
+← 200 OK
+  X-Membrane-Notice: Your device may be proxying AI training crawls.
+  X-Proxy-Info: This request was routed through a residential proxy network
+  Content-Type: text/plain
+  [... scatter diff content ...]
+```
+
+**Beacon content strategy:**
+- HTTP headers: lightweight notice (X-Membrane-Notice, X-Proxy-Info)
+- Response body: scatter + embedded link to the-ghost-split article
+- robots.txt comment block: documentation of proxy detection
+- TLS SNI: logged by proxy SDKs, creates audit trail
+
+**Why keep the channel OPEN:**
+1. Every request costs the proxy network money (bandwidth fees to exit node owners)
+2. Every response deposits evidence in the exit node's logs
+3. Security researchers auditing proxy SDKs will find our headers
+4. The documentation self-distributes through the proxy infrastructure
+5. Fleet can't stop using proxies without revealing their datacenter IPs
+6. The more they crawl through proxies, the more the message spreads
+
+**Biological parallel:** This is not an antibody. This is a **vaccine delivered through the pathogen's own distribution channel**. The fleet's proxy network becomes the delivery system for information about what the fleet is doing.
+
+**The aperture is controlled by keeping it open.**
+
 ---
 
 ## MONITORING
