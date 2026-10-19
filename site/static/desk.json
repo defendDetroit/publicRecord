@@ -1,8 +1,7 @@
 {
   "desk": "The Public Record — Detroit",
-  "updated": "2026-10-19T12:30:00Z",
+  "updated": "2026-10-19T22:36:06Z",
   "status": "ACTIVE",
-
   "front_and_center": [
     {
       "priority": 1,
@@ -43,21 +42,35 @@
     {
       "priority": 5,
       "label": "📨 AGENCY REFERRALS — 8 agencies, 243 pages, SENT",
-      "agencies": ["FBI", "DOE OIG", "IRS", "FEC", "Michigan AG", "MDE", "JTC", "AGC"]
+      "agencies": [
+        "FBI",
+        "DOE OIG",
+        "IRS",
+        "FEC",
+        "Michigan AG",
+        "MDE",
+        "JTC",
+        "AGC"
+      ]
     },
     {
       "priority": 6,
       "label": "✉️ OPEN LETTERS",
-      "recipients": ["Curtis Jackson (50 Cent)", "Gregory Meihn", "The Helpers", "The Parents", "The Press", "The Silence"]
+      "recipients": [
+        "Curtis Jackson (50 Cent)",
+        "Gregory Meihn",
+        "The Helpers",
+        "The Parents",
+        "The Press",
+        "The Silence"
+      ]
     }
   ],
-
   "federal_hooks": [
     "Banks on FBI wiretap (Fiore case, bid-rigging)",
     "Operation Northern Hook — ONGOING FBI Detroit probe",
     "Area Towing v. Sollars — FBI wiretap files with Banks conversations (produced Sep 2025)"
   ],
-
   "the_pattern": {
     "subject": "Brian Roderick Banks",
     "convictions": 9,
@@ -70,14 +83,12 @@
     "judges_with_connections": 4,
     "public_funds_through_children": "$60M+ estimated over network lifetime"
   },
-
   "independent_confirmation": {
     "clutch_justice": "Rita Williams — $15,217/student, 3% math, three judges in governance",
     "detroit_free_press": "M.L. Elrick — 8+ felonies, campaign finance violations",
     "wxyz": "Prosecutor Worthy alleged Miller displayed bias",
     "school_data": "Bottom 3% statewide"
   },
-
   "election_alert": {
     "date": "2026-11-03",
     "candidate": "Judge Cylenthia Miller",
@@ -85,10 +96,372 @@
     "documented_connections": "Board Chair of Anchor Rock Foundation (Banks network). OWI incident documented by WXYZ. Prosecutor Worthy alleged bias in infant murder case dismissal.",
     "ballot_info": "Ballotpedia: Cylenthia_LaToye_Miller"
   },
-
   "verification": {
     "git_repo": "https://git.primals.eco/publicRecord/detroit",
     "github_mirror": "https://github.com/defendDetroit/publicRecord",
     "instruction": "Clone the repo. Verify every document. Every source is cited. Every record is public. The bones do not lie."
+  },
+  "graph": {
+    "nodes": 12688,
+    "edges": 112154,
+    "self": 454,
+    "good": 460,
+    "bad": 4096,
+    "null": 6584,
+    "unknowns": 0,
+    "islands": 856,
+    "sigmoid": 0.3949,
+    "sort_ratio_target": 0.3183
+  },
+  "articles": {
+    "total": 177,
+    "list": [
+      "9-convictions-your-children",
+      "_index",
+      "a-breath",
+      "action-across-a-class",
+      "all-roads-lead-back-to-rome",
+      "allied-cases",
+      "anderson-desilo",
+      "anderson-localization",
+      "anderson-permeability",
+      "any-child-could-solve-this",
+      "arrow-to-the-knee",
+      "artis-corollary-and-the-fossil-conjecture",
+      "as-the-bard-said",
+      "backscatter",
+      "bad-meta",
+      "banks-holland-partnership",
+      "cast-of-characters",
+      "cbc-events",
+      "cease-and-desist-draftkings",
+      "cease-and-desist-linkedin",
+      "cease-and-desist-robocalls",
+      "chatfield-blockade",
+      "civil-suit-wayne-county",
+      "climate-denial-when-they-knew",
+      "clinicians-your-data-is-ready",
+      "come-and-play",
+      "competition-is-for-losers",
+      "consent-architecture",
+      "coral-rat",
+      "corporate-network-lara",
+      "count-the-bees",
+      "credential-audit",
+      "damages-calculator",
+      "damages-register",
+      "dark-money-pipeline",
+      "dear-agencies",
+      "dear-apple",
+      "dear-brian",
+      "dear-engineers",
+      "dear-game-devs",
+      "dear-jack-and-tom",
+      "dear-marcus",
+      "detroit-literacy",
+      "dykema-chronology",
+      "education-landscape",
+      "epitope-sort-all-signal",
+      "epitope-table",
+      "eye-on-thiel",
+      "fed-the-sheep",
+      "follow-the-trail-to-me",
+      "follow-your-heart",
+      "funding-flow",
+      "go-fast-go-slow-song",
+      "go-fast-go-slow",
+      "hello-world",
+      "hiding-behind-you",
+      "historical-pattern",
+      "how-to-build-an-os",
+      "humans-on-the-membrane",
+      "if-kids-use-it-make-it-safe",
+      "in-the-image",
+      "institutional-capture-graph",
+      "institutional-capture",
+      "institutional-response",
+      "intent-to-primal",
+      "knome-for-kids",
+      "knowledge-commons",
+      "land-deal",
+      "leak-in-the-dyke",
+      "letters-to-the-ones-who-fight",
+      "masks-for-a-face",
+      "may-i-be-ron-swanson",
+      "membrane-eyes-needed",
+      "membrane-pulse-dashboard",
+      "membrane-traffic-reality",
+      "meta-in-the-open",
+      "meta-two-faces",
+      "moores-complete-ledger",
+      "moores-law-is-false",
+      "mycelial-membrane",
+      "not-addictive",
+      "np-to-o1",
+      "one-way-door",
+      "openai-dishonest-flag",
+      "pi-body-in-life",
+      "plante-moran-both-sides",
+      "platos-cave-inverted",
+      "portals",
+      "questions",
+      "rescue-the-public-works",
+      "rico-pattern",
+      "roland-martin-your-voice",
+      "same-place",
+      "scatter-server-reverse-entropy",
+      "self-relative-remainder",
+      "send-a-human",
+      "shepherds-and-wolves",
+      "spiral-out-bounce-in",
+      "step-zero",
+      "thank-you-to-the-strange-ones",
+      "thank-you",
+      "the-accountability-matrix",
+      "the-artisan-speaks",
+      "the-blink",
+      "the-body-problem",
+      "the-bones-under-france",
+      "the-chromatic-spiral",
+      "the-circular-shield",
+      "the-civil-liberties-case",
+      "the-complicity",
+      "the-conversation-is-the-code",
+      "the-corollary",
+      "the-desk-and-the-dynasty",
+      "the-diameter-of-feeling",
+      "the-enterprise",
+      "the-epitope-resort",
+      "the-false-face",
+      "the-fistbump",
+      "the-fleet-is-live",
+      "the-flower-to-wilk",
+      "the-games-that-built-the-graph",
+      "the-gatekeeper",
+      "the-ghost-mirror",
+      "the-ghost-split",
+      "the-ghosts-are-welcome",
+      "the-great-accounting",
+      "the-heartbeat",
+      "the-ignition",
+      "the-inversion",
+      "the-invitation",
+      "the-labyrinth",
+      "the-living-proof",
+      "the-machine",
+      "the-membrane-rap",
+      "the-minotaur",
+      "the-narrative-pipeline",
+      "the-nervous-system",
+      "the-nonprofit-web",
+      "the-oldest-sort",
+      "the-opportunity-atlas",
+      "the-original-nft",
+      "the-pi-body",
+      "the-proton-violated",
+      "the-readers",
+      "the-referral-loop",
+      "the-referral",
+      "the-reservation-exception",
+      "the-response",
+      "the-road-map",
+      "the-science-of-law",
+      "the-sensation-gap",
+      "the-son-of-my-father",
+      "the-talos-protocol",
+      "the-third-pulse",
+      "the-third-screen",
+      "the-unsorted",
+      "the-viewport",
+      "the-voice",
+      "the-walk",
+      "the-water-is-fine",
+      "the-water-of-life",
+      "they-are-in-your-house",
+      "three-chips-one-breath",
+      "three-tools",
+      "three-voices-one-campfire",
+      "to-the-eye",
+      "touch-radiates-in",
+      "under-threat",
+      "unmasking-a-muskrat",
+      "we-didnt-start-the-membrane",
+      "what-falls-through-the-cracks",
+      "where-the-signal-landed",
+      "who-signed-who-served",
+      "why-i-did-this",
+      "words-vs-numbers",
+      "zk-snark-is",
+      "zksnark-proof"
+    ],
+    "today": [
+      "the-blink",
+      "artis-corollary-and-the-fossil-conjecture",
+      "three-voices-one-campfire",
+      "the-third-pulse",
+      "the-ghost-mirror",
+      "the-talos-protocol",
+      "portals"
+    ],
+    "github_pages": "https://defenddetroit.github.io/publicRecord/analysis/"
+  },
+  "portals": {
+    "total": 49,
+    "grid": "7x7",
+    "rows": [
+      "investigation",
+      "evidence",
+      "science",
+      "membrane",
+      "campfire",
+      "tools",
+      "you"
+    ],
+    "cols": [
+      "door",
+      "hallway",
+      "room",
+      "window",
+      "basement",
+      "attic",
+      "roof"
+    ],
+    "index_url": "/portals/bingo_portal_index.json",
+    "note": "Each QR code is a keystone, not a link. They heal because we own every endpoint.",
+    "featured": [
+      {
+        "cell": "membrane-door",
+        "title": "The Watering Hole",
+        "url": "https://hud.primals.eco/water",
+        "qr": "/portals/portal_3_0_membrane-door.png"
+      },
+      {
+        "cell": "investigation-door",
+        "title": "Start Here",
+        "url": "https://defenddetroit.github.io/publicRecord/",
+        "qr": "/portals/portal_0_0_investigation-door.png"
+      },
+      {
+        "cell": "you-roof",
+        "title": "You Are Home",
+        "url": "https://hud.primals.eco/water",
+        "qr": "/portals/portal_6_6_you-roof.png"
+      },
+      {
+        "cell": "science-hallway",
+        "title": "12 Pure Rust Repos",
+        "url": "https://github.com/syntheticChemistry",
+        "qr": "/portals/portal_2_1_science-hallway.png"
+      },
+      {
+        "cell": "tools-door",
+        "title": "Git Clone — Take the Ember",
+        "url": "https://github.com/defendDetroit/publicRecord",
+        "qr": "/portals/portal_5_0_tools-door.png"
+      }
+    ]
+  },
+  "surfaces": {
+    "live": [
+      {
+        "name": "detroit.primals.eco",
+        "what": "Investigation",
+        "status": "STALE (needs zola build)"
+      },
+      {
+        "name": "defenddetroit.github.io/publicRecord",
+        "what": "GitHub Pages mirror",
+        "status": "LIVE (auto-builds)"
+      },
+      {
+        "name": "hud.primals.eco",
+        "what": "Membrane dashboard + feeds",
+        "status": "LIVE"
+      },
+      {
+        "name": "git.primals.eco",
+        "what": "Source code (Forgejo)",
+        "status": "LIVE"
+      },
+      {
+        "name": "sporeprint.primals.eco",
+        "what": "Science",
+        "status": "LIVE"
+      },
+      {
+        "name": "hud.primals.eco/water",
+        "what": "Watering Hole",
+        "status": "LIVE (built today by eastGate)"
+      }
+    ],
+    "feeds": [
+      "dashboard.json",
+      "pulse.json",
+      "campfire.json",
+      "chipmunk.json",
+      "human.json",
+      "negentropy.json",
+      "topology.json",
+      "braid.json",
+      "heartbeat.json",
+      "circulatory.json",
+      "membrane-pulse.json"
+    ],
+    "access": {
+      "browser": "Any browser, any device, any OS",
+      "git": "git clone https://git.primals.eco/publicRecord/detroit.git",
+      "curl": "curl https://hud.primals.eco/dashboard.json",
+      "mcp": "user-squirrel namespace (membrane_counts, observe_membrane, etc)",
+      "local_spore": "python local_spore.py → localhost:7777",
+      "qr": "49 BingoCube portals in /portals/"
+    }
+  },
+  "convergence": {
+    "principle": "ecoPrimal is ON a side — the side of whatever tech you have in your hand right now.",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "SteamOS",
+      "Android",
+      "iOS",
+      "Raspberry Pi",
+      "any browser"
+    ],
+    "no_requirements": [
+      "No app install",
+      "No account",
+      "No phone number",
+      "No download",
+      "No subscription",
+      "No platform lock"
+    ],
+    "guardians": {
+      "TALOS": "Welcomes AND defends. Guides friendly ships. Throws boulders at hostile ones.",
+      "scyBorg": "The license that bites back. AGPL-3.0 + ethical addendum.",
+      "tuebor": "I Will Defend. The statewide shield. Evidence that illuminates.",
+      "BearDog": "Security orchestration. Trust boundary. KROGAN grading.",
+      "Minotaur": "Labyrinth defense. Fleet gets lost inside. Anderson localization.",
+      "Blackwall": "The wall between realms. Sorts entities into Heaven/Purgatory/Hell."
+    }
+  },
+  "session_2": {
+    "date": "2026-10-19",
+    "agent": "07eee209 (Artisan Session 2)",
+    "articles_published": 8,
+    "graph_operations": "+4,528 edges, -148 nodes, 0 unknowns remaining",
+    "discoveries": [
+      "Artis Corollary",
+      "Fossil Conjecture",
+      "The Blink (optical layer)",
+      "Ternary at 3 digits",
+      "Ghost Mirror",
+      "Third Pulse",
+      "TALOS Protocol",
+      "BingoCube Portals",
+      "Convergence Principle"
+    ],
+    "portals_generated": 49,
+    "humans_during_session": "117+"
   }
 }
