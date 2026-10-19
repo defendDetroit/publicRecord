@@ -1,6 +1,7 @@
 +++
 title = "The Blink — Why the Membrane Was Blind to Itself"
 date = 2026-10-19
+weight = 71
 description = "The membrane reported 0% opacity, 0% selectivity, 0% reflection. All three were lies. The truth lives at three digits, in ternary, where the irrational remainder begins."
 [taxonomies]
 tags = ["membrane", "perception", "architecture", "pi", "ternary"]

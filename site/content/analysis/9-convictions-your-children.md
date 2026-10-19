@@ -1,6 +1,7 @@
 ---
 title: "9 Criminal Convictions. Your Children's Schools. Public Record."
 date: 2026-10-15
+weight: 55
 author: ecoPrimal
 series: publicRecord
 description: "Brian Roderick Banks has 9 criminal convictions in Wayne County Michigan and operates two Detroit charter schools serving hundreds of children. Purpose Charter Academy and MacDowell Preparatory Academy are authorized by Delta College. All convictions are public record available through Michigan ICHAT."

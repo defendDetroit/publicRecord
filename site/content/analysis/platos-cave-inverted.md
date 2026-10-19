@@ -1,6 +1,7 @@
 ---
 title: "Get Out of My Brown Eye and Look Up at the Sky"
 date: 2026-10-15
+weight: 67
 author: ecoPrimal
 series: publicRecord
 tags: [plato, cave, allegory, big-tech, inversion, philosophy]

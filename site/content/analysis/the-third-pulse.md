@@ -1,6 +1,7 @@
 +++
 title = "The Third Pulse — Three Points Define the Irrational Center"
 date = 2026-10-19
+weight = 80
 description = "Two pulse points make a beat. Three make a rhythm. The center of three irrational distances is the remainder — the identity that can never be reduced to a point."
 [taxonomies]
 tags = ["pulse", "ternary", "pi", "three-body", "membrane", "triangulation"]

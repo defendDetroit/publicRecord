@@ -1,6 +1,7 @@
 ---
 title: "The Proton, Violated"
 date: 2026-10-15
+weight: 77
 author: ecoPrimal
 series: publicRecord
 tags: [proton, privacy, censorship, whistleblower, pattern]

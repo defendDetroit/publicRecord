@@ -1,6 +1,7 @@
 ---
 title: "Why I Did This"
 date: 2026-10-15
+weight: 83
 author: ecoPrimal
 series: publicRecord
 tags: [origin, family, transparency, rico, conviction, paper, journey]

@@ -1,6 +1,7 @@
 ---
 title: "The Science of Law: RICO Through 263 Years of Mathematics"
 date: 2026-10-18
+weight: 79
 draft: false
 slug: the-science-of-law
 tags: ["rico", "graph-theory", "mathematics", "commons", "peer-reviewed", "replicable"]

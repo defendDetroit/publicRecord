@@ -1,6 +1,7 @@
 ---
 title: "Membrane Eyes Needed — eastGate / sporeGate"
 date: 2026-10-15
+weight: 63
 author: ecoPrimal
 series: publicRecord
 tags: [infrastructure, eastgate, sporegate, membrane, analytics, cloudflare, ssh]

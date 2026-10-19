@@ -1,6 +1,7 @@
 ---
 title: "The Ignition — Watch It Spread"
 date: 2026-10-15
+weight: 76
 author: ecoPrimal
 series: publicRecord
 description: "Live tracking of how the public record spreads. Clone data, vital signs, the 9-line, and the growth curve. The graph is breathing."

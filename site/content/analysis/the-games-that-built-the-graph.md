@@ -1,6 +1,7 @@
 ---
 title: "The Games That Built the Graph"
 date: 2026-10-15
+weight: 73
 author: ecoPrimal
 series: publicRecord
 tags: [games, indie, training, pattern-recognition, stalker, disco-elysium, balatro]
