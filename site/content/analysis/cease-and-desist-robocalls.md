@@ -9,9 +9,9 @@ entities = ["FTC", "FCC", "National Do Not Call Registry"]
 connections = ["cease and desist", "robocalls", "spam calls", "credit offers", "loan scams"]
 
 [extra]
-keywords = "cease and desist robocalls, stop spam calls credit card offers, robocall cease and desist letter, loan scam calls stop, TCPA violation robocall, Do Not Call Registry violation, FTC robocall complaint, FCC robocall complaint, auto-dialer cease and desist, spam call documentation"
-og_title = "Cease and Desist — Robocallers & Credit/Loan Spam"
-og_description = "Stop calling me. I am on the Do Not Call Registry. Every call is logged."
+keywords = "how to stop robocalls 2026, cease and desist robocalls template, stop spam calls credit card offers, robocall cease and desist letter free, loan scam calls how to stop, TCPA violation sue robocaller, Do Not Call Registry not working, FTC robocall complaint how to file, FCC robocall complaint form, stop auto-dialer calls, how to stop credit card offer calls, cease and desist letter for spam calls, robocall lawsuit template, TCPA $500 per call, stop loan scam calls Michigan, block robocalls permanently, Do Not Call Registry violation fine, how to report robocallers, stop unwanted phone calls 2026, robocall documentation log template"
+og_title = "How to Stop Robocalls & Spam Calls — Free Cease and Desist Template (2026)"
+og_description = "Free cease and desist template for robocallers. TCPA violation = $500-$1500 per call. FTC/FCC complaint instructions. Do Not Call Registry enforcement. Every call logged. Every statute cited."
 og_type = "article"
 twitter_card = "summary"
 +++

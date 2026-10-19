@@ -6,7 +6,7 @@ date = 2026-09-20
 updated = 2026-09-25
 
 [extra]
-keywords = "Judge Cylenthia Miller, Cylenthia Miller 2026 election, Wayne County 3rd Circuit, Anchor Rock Foundation board, keepjudgemiller.com, PCA board chair, Purpose Charter Academy judge, Detroit judge charter school, Miller campaign Banks Strategy, Wayne County judicial retention"
+keywords = "Judge Cylenthia Miller, Cylenthia Miller 2026 election, Wayne County 3rd Circuit Court judge, Wayne County judges on ballot November 2026, Cylenthia Miller OWI, Cylenthia Miller charter school board, should I vote for Cylenthia Miller, Wayne County judge election guide 2026, Detroit judge voter guide, Cylenthia Miller Anchor Rock Foundation, Purpose Charter Academy board judge, Detroit judicial ethics, Wayne County 3rd Circuit retention 2026, Michigan judge election November 3 2026, Cylenthia Miller public record, Wayne County judge campaign finance, Detroit judges charter school connections, who is on the ballot Wayne County 2026, Michigan judicial candidates 2026"
 
 [taxonomies]
 actors = ["Judge Cylenthia Miller", "Brian Banks", "Todd Perkins", "Judge Sean Perkins", "Judge Adam Sabree", "Judge Aliyah Sabree", "Eric Sabree"]

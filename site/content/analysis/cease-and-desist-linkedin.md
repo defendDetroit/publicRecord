@@ -9,9 +9,9 @@ entities = ["LinkedIn", "Microsoft"]
 connections = ["cease and desist", "junk mail", "unsolicited mail"]
 
 [extra]
-keywords = "LinkedIn cease and desist junk mail, LinkedIn unsolicited physical mail, LinkedIn stop sending mail, LinkedIn Microsoft junk mail opt out"
-og_title = "Cease and Desist — LinkedIn Corporation"
-og_description = "Stop sending me junk mail."
+keywords = "how to stop LinkedIn junk mail, LinkedIn cease and desist physical mail, LinkedIn stop sending mail to my house, LinkedIn unsolicited mail opt out, LinkedIn Microsoft junk mail how to stop, LinkedIn mailing list remove, stop LinkedIn paper mail, LinkedIn snail mail opt out 2026, LinkedIn direct mail unsubscribe, how to get off LinkedIn mailing list, LinkedIn marketing mail stop, cease and desist template LinkedIn, LinkedIn physical mail complaint, stop companies sending junk mail, LinkedIn privacy complaint"
+og_title = "How to Stop LinkedIn Physical Junk Mail — Cease and Desist Template"
+og_description = "LinkedIn (Microsoft) sends unsolicited physical mail to your home. Here's a free cease and desist template with every applicable statute. Stop the paper spam."
 og_type = "article"
 twitter_card = "summary"
 +++

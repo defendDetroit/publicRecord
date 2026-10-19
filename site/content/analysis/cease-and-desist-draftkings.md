@@ -9,9 +9,9 @@ entities = ["DraftKings", "FanDuel", "BetMGM", "Michigan Gaming Control Board"]
 connections = ["cease and desist", "junk mail", "sports betting", "unsolicited mail"]
 
 [extra]
-keywords = "DraftKings cease and desist junk mail, sports betting stop sending mail, DraftKings unsolicited mail Michigan, FanDuel junk mail stop, BetMGM stop mailing me, Michigan sports betting junk mail opt out, gambling ads cease and desist"
-og_title = "Cease and Desist — DraftKings & Sports Betting"
-og_description = "Stop sending me junk mail. I am not your customer."
+keywords = "DraftKings cease and desist junk mail, stop DraftKings mail, how to stop sports betting junk mail, DraftKings opt out mail, FanDuel stop sending mail, BetMGM junk mail opt out, stop gambling ads mail, how to stop gambling junk mail Michigan, USPS prohibitory order gambling, DraftKings unsolicited mail complaint, FTC complaint gambling mail, sports betting spam mail stop, Michigan Gaming Control Board complaint, cease and desist template junk mail, stop unwanted gambling mail, DraftKings marketing opt out, how to get off DraftKings mailing list, data broker sold my address gambling, gambling ads mailbox Michigan, stop junk mail 2026"
+og_title = "How to Stop DraftKings & Sports Betting Junk Mail — Cease and Desist Template"
+og_description = "Free cease and desist template to stop DraftKings, FanDuel, BetMGM junk mail. Includes FTC complaint instructions, USPS Prohibitory Order, Michigan Gaming Control Board complaint process. Every statute cited."
 og_type = "article"
 twitter_card = "summary"
 +++
