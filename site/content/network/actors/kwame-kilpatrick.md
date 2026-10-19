@@ -1,5 +1,6 @@
 +++
 title = "Kwame Kilpatrick"
+date = 2026-10-12
 description = "Mayor 2002-2008"
 weight = 14
 

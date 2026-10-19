@@ -1,5 +1,6 @@
 +++
 title = "Black Mafia Family (BMF)"
+date = 2026-10-12
 description = "Black Mafia Family. Federal drug conspiracy — one of the largest in US history. Hundreds of millions in drug proceeds. Founded by Demetrius 'Big Meech' and Terry 'Southwest T' Flenory. Detroit + Atlan"
 weight = 85
 

@@ -1,5 +1,6 @@
 +++
 title = "Milky Way Galaxy"
+date = 2026-10-12
 description = "100-400 billion stars. 100,000 light-years across. Contains our solar system. The context for all human knowledge. Nobody can enclose a galaxy."
 weight = 99
 

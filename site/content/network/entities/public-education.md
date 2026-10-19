@@ -1,5 +1,6 @@
 ---
 title: "Public Education (The Commons)"
+date: 2026-10-12
 type: "entity"
 graph_id: "public_education"
 role: "the commons (what is being enclosed)"

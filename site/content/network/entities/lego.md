@@ -1,5 +1,6 @@
 +++
 title = "LEGO"
+date = 2026-10-12
 description = "1949 (interlocking brick). Ole Kirk Christiansen, Billund, Denmark. 'Leg godt' = 'play well.' Spatial reasoning, engineering intuition, iterative design. 400 billion bricks produced. Still family-owne"
 weight = 99
 

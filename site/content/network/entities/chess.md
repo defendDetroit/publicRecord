@@ -1,5 +1,6 @@
 +++
 title = "Chess"
+date = 2026-10-12
 description = "~600 AD, India (chaturanga). 1500 years old. Public domain. No corporation owns it. Strategic thinking, pattern recognition, consequence modeling. Bobby Fischer learned from a book at age 6. Magnus Ca"
 weight = 98
 

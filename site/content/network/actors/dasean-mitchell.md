@@ -1,5 +1,6 @@
 +++
 title = "DaSean Mitchell"
+date = 2026-10-12
 description = "Student. Kevin Mok's son. Pro se in Wayne County 26-108221-DC (custody). Banks impersonated a child on the phone when DaSean called PCA. The reason this all matters: a child was harmed."
 weight = 96
 

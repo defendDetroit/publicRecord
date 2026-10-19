@@ -1,5 +1,6 @@
 +++
 title = "Emmy Noether"
+date = 2026-10-12
 description = "1882-1935. Noether's theorem: every symmetry has a conservation law. Einstein called her the most important woman in the history of mathematics. Denied a paid position for years because she was a woma"
 weight = 99
 

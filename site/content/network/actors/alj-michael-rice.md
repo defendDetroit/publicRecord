@@ -1,5 +1,6 @@
 +++
 title = "ALJ Michael Rice"
+date = 2026-10-12
 description = "Administrative Law Judge, SOAH. Presided over TCR 22-12. OVERRULED MDE and AG objections to Banks' certification. Relied on Shulman/Leno testimony. Aug 4, 2023 Final Decision. Later became State Super"
 weight = 27
 

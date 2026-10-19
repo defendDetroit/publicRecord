@@ -1,5 +1,6 @@
 ---
 title: "Dick & Betsy DeVos Family Foundation"
+date: 2026-10-12
 type: "entity"
 graph_id: "devos_foundation"
 role: "DeVos family philanthropy"

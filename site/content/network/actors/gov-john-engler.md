@@ -1,5 +1,6 @@
 +++
 title = "Gov. John Engler"
+date = 2026-10-12
 description = "Michigan Governor 1991-2003. Signed charter school law (PA 362) Jan 14, 1994. Republican. Proposed charter schools Oct 5, 1993 in joint session speech. His law created the framework that CMU, PCA, and"
 weight = 20
 

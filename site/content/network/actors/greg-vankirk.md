@@ -1,5 +1,6 @@
 +++
 title = "Greg VanKirk"
+date = 2026-10-12
 description = "Partner, Plante Moran Realpoint. CPA. Leads corporate real estate and public sector program management. MSU. At PM since 1992. K-12 capital project consulting. Clients include Wayne County, Bloomfield"
 weight = 97
 

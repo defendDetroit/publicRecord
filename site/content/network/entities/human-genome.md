@@ -1,5 +1,6 @@
 +++
 title = "Human Genome"
+date = 2026-10-12
 description = "3.2 billion base pairs. 20,000-25,000 genes. Sequenced 2003. The Human Genome Project was PUBLIC — Celera tried to privatize it. Francis Collins and the public consortium won. The genome belongs to hu"
 weight = 96
 

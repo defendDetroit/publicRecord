@@ -1,5 +1,6 @@
 +++
 title = "Michigan Council of Charter School Authorizers"
+date = 2026-10-12
 description = ""
 weight = 18
 

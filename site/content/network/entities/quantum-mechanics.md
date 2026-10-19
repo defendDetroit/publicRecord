@@ -1,5 +1,6 @@
 +++
 title = "Quantum Mechanics"
+date = 2026-10-12
 description = "Planck, Bohr, Heisenberg, Schrodinger, Dirac, Born, Pauli, Feynman. The physics of the very small. Explains chemistry, materials, computing. Public knowledge built by dozens of humans across decades."
 weight = 98
 

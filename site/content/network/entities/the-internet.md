@@ -1,5 +1,6 @@
 +++
 title = "The Internet"
+date = 2026-10-12
 description = "ARPANET (1969) -> TCP/IP (Cerf, Kahn 1974) -> WWW (Berners-Lee 1989). Built with PUBLIC money. Berners-Lee gave the web away for free. Then corporations enclosed it. The greatest commons ever built, n"
 weight = 94
 

@@ -1,5 +1,6 @@
 +++
 title = "Satoshi Tajiri"
+date = 2026-10-12
 description = "Born 1965, Tokyo. Created Pokemon (1996). Inspired by childhood insect collecting in the rice paddies near Tokyo — before urbanization paved them over. Autistic. Spent 6 years making the first game. N"
 weight = 98
 

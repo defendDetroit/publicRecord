@@ -1,5 +1,6 @@
 +++
 title = "Great Lakes Education Project (GLEP)"
+date = 2026-10-12
 description = ""
 weight = 25
 

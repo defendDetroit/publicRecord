@@ -1,5 +1,6 @@
 +++
 title = "Evolution by Natural Selection"
+date = 2026-10-12
 description = "Darwin and Wallace (1858). The theory that explains all of biology. 'Nothing in biology makes sense except in the light of evolution.' — Dobzhansky. Public knowledge. Attacked by those who profit from"
 weight = 96
 

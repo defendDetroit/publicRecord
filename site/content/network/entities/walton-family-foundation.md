@@ -1,5 +1,6 @@
 +++
 title = "Walton Family Foundation"
+date = 2026-10-12
 description = "Walmart heirs' education philanthropy"
 weight = 10
 

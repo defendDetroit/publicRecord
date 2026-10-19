@@ -1,5 +1,6 @@
 +++
 title = "Chris Nelson"
+date = 2026-10-12
 description = "Chief Legal and Risk Officer, Plante Moran. Southfield. MSU BA, Washington U St. Louis JD. MI Bar. Oversees firm's legal affairs and regulatory risk strategies. Nearly 30 years experience. The person "
 weight = 97
 

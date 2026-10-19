@@ -1,5 +1,6 @@
 +++
 title = "Calculus"
+date = 2026-10-12
 description = "Newton and Leibniz (1680s). The mathematics of change. Foundation of all physics, engineering, economics. Public domain for 340 years. Every student deserves access. 97% of MacDowell students can't do"
 weight = 91
 

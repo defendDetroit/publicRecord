@@ -1,5 +1,6 @@
 +++
 title = "Paul Theriault"
+date = 2026-10-12
 description = "Partner, Plante Moran Realpoint. PE, LEED AP. Leads $5B+ in K-12 capital projects. 50+ staff. 25 years. Ahmed Beasley's division partner. Speaks at K-12 school board meetings on market conditions, cap"
 weight = 97
 

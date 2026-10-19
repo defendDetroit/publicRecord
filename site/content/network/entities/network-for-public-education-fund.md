@@ -1,5 +1,6 @@
 +++
 title = "Network for Public Education Fund"
+date = 2026-10-12
 description = ""
 weight = 25
 

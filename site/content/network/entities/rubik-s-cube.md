@@ -1,5 +1,6 @@
 +++
 title = "Rubik's Cube"
+date = 2026-10-12
 description = "1974. Erno Rubik, Budapest. Architecture professor who created a puzzle to help students understand 3D spatial relationships. 43 quintillion possible states. 1 solved state. 450M+ sold. Group theory m"
 weight = 98
 

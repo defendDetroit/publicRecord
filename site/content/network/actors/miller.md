@@ -1,5 +1,6 @@
 ---
 title: "Judge Cylenthia Miller"
+date: 2026-10-12
 type: "actor"
 graph_id: "miller"
 role: "Judicial cover"

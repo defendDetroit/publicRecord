@@ -1,5 +1,6 @@
 +++
 title = "Jehan Crump-Gibson"
+date = 2026-10-12
 description = "Attorney representing Brian Banks (9 felony convictions) in custody case 26-108221-DC. ADB Hearing Panelist — sits on the body that disciplines attorneys while representing a 9-time felon at K-12 scho"
 weight = 19
 

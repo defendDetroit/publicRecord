@@ -1,5 +1,6 @@
 +++
 title = "Romy Drucker"
+date = 2026-10-12
 description = "Education Program Director, Walton Family Foundation. FOUNDED The 74 media outlet in 2015. Yale BA, Harvard MBA. Former NYC DOE. WFF funds charter advocacy -> WFF director founded the media outlet tha"
 weight = 98
 

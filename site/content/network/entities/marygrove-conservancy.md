@@ -1,5 +1,6 @@
 ---
 title: "Marygrove Conservancy / P-20 Campus"
+date: 2026-10-12
 type: "entity"
 graph_id: "marygrove_conservancy"
 role: "P-20 campus (convergence hub)"

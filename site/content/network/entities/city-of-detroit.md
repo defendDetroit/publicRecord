@@ -1,5 +1,6 @@
 +++
 title = "City of Detroit"
+date = 2026-10-12
 description = ""
 weight = 1
 

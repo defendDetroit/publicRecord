@@ -1,5 +1,6 @@
 +++
 title = "Detroit Public Schools Community District"
+date = 2026-10-12
 description = ""
 weight = 14
 

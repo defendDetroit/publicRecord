@@ -1,5 +1,6 @@
 ---
 title: "MacDowell Preparatory Academy"
+date: 2026-10-12
 type: "entity"
 graph_id: "macdowell"
 role: "charter school (subject of investigation)"

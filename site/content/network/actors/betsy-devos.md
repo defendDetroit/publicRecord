@@ -1,5 +1,6 @@
 +++
 title = "Betsy DeVos"
+date = 2026-10-12
 description = "Former Education Secretary, AFC chair"
 weight = 20
 

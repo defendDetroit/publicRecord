@@ -1,5 +1,6 @@
 ---
 title: "Brian Roderick Banks"
+date: 2026-10-12
 type: "actor"
 graph_id: "banks"
 role: "Enterprise leader"

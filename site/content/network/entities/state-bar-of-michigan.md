@@ -1,5 +1,6 @@
 +++
 title = "State Bar of Michigan"
+date = 2026-10-12
 description = ""
 weight = 16
 

@@ -1,5 +1,6 @@
 +++
 title = "Dennis Archer"
+date = 2026-10-12
 description = "Mayor 1994-2001"
 weight = 91
 

@@ -1,5 +1,6 @@
 +++
 title = "Michigan"
+date = 2026-10-12
 description = "Target state — all schools, all courts, all actors"
 weight = 15
 

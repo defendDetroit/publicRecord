@@ -1,5 +1,6 @@
 +++
 title = "Gary Gygax"
+date = 2026-10-12
 description = "1938-2008. Co-created Dungeons & Dragons (1974). Insurance underwriter from Lake Geneva, WI. Invented an entire genre of play. Lost control of TSR. Spent his last years playing D&D in his basement wit"
 weight = 99
 

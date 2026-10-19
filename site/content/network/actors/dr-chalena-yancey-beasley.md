@@ -1,5 +1,6 @@
 +++
 title = "Dr. Chalena Yancey Beasley"
+date = 2026-10-12
 description = "Founding School Leader, PCA. PhD Wayne State ELPS 2023. 29yr DPSCD veteran. Principal Bunche Prep. NBCT. BS WMU, MA Marygrove, PhD Wayne State. Sister of Judge Tenisha Yancey. Husband Ahmed Beasley. M"
 weight = 6
 

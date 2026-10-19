@@ -1,5 +1,6 @@
 +++
 title = "Pokemon"
+date = 2026-10-12
 description = "1996. Satoshi Tajiri, Tokyo. Inspired by his childhood insect collecting. Game Boy. Trading cards. 440M+ video games sold. The lesson: collect, categorize, evolve. Taxonomy as play. Linnaeus as a Game"
 weight = 97
 

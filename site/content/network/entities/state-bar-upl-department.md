@@ -1,5 +1,6 @@
 +++
 title = "State Bar UPL Department"
+date = 2026-10-12
 description = ""
 weight = 17
 

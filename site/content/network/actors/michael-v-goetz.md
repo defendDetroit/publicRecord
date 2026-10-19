@@ -1,5 +1,6 @@
 +++
 title = "Michael V. Goetz"
+date = 2026-10-12
 description = "AGC Grievance Administrator (Sep 2019). Former Senior AAG, Criminal Div Drug Interdiction. MSU 1983, DCL 1988."
 weight = 26
 

@@ -1,5 +1,6 @@
 +++
 title = "Warhammer 40,000"
+date = 2026-10-12
 description = "1987. Games Workshop, Nottingham UK. Miniature wargaming. Combines: painting (fine motor + art), modeling (spatial reasoning), probability (dice mechanics), lore (reading 100+ novels), strategy. The m"
 weight = 99
 

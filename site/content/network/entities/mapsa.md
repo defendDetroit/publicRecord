@@ -1,5 +1,6 @@
 +++
 title = "MAPSA"
+date = 2026-10-12
 description = "Michigan Association of Public School Academies"
 weight = 92
 

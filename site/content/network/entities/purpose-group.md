@@ -1,5 +1,6 @@
 ---
 title: "The Purpose Group, LLC"
+date: 2026-10-12
 type: "entity"
 graph_id: "purpose_group"
 role: "management company (Banks-controlled)"

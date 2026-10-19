@@ -1,5 +1,6 @@
 +++
 title = "AG Dana Nessel"
+date = 2026-10-12
 description = "Michigan Attorney General. Democrat. AG office oversees Corporate Oversight Division (Fowler). AG office where Goetz (AGC) worked (Drug Interdiction Unit). AG office where Cameron (JTC Vice-Chair) man"
 weight = 91
 

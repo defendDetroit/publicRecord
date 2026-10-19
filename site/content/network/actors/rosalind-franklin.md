@@ -1,5 +1,6 @@
 +++
 title = "Rosalind Franklin"
+date = 2026-10-12
 description = "1920-1958. X-ray crystallographer. Photo 51 proved DNA's double helix. Watson and Crick used her data without credit. Died at 37 of ovarian cancer. Nobel went to the men. The most famous uncredited di"
 weight = 99
 

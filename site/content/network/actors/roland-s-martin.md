@@ -1,5 +1,6 @@
 +++
 title = "Roland S. Martin"
+date = 2026-10-12
 description = "Journalist, Black Star Network founder"
 weight = 85
 

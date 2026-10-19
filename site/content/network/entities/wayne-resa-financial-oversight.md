@@ -1,5 +1,6 @@
 +++
 title = "Wayne RESA Financial Oversight"
+date = 2026-10-12
 description = "Wayne RESA performs financial oversight of charter schools. Did they audit PCA/MacDowell? Did they catch the LLC extraction? Raphael Washington is superintendent."
 weight = 29
 

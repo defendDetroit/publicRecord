@@ -1,5 +1,6 @@
 +++
 title = "Kevin Mok"
+date = 2026-10-12
 description = "Complainant. Plaintiff in Ingham County 2026-4301-CZ and 2026-4349-CZ. Father of DaSean Mitchell. Discovered the network. Filed complaints with MDE, AGC, LARA, SBE, DPSCD OIG, US DOE OIG. Infantry vet"
 weight = 87
 

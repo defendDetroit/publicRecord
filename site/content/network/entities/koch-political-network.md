@@ -1,5 +1,6 @@
 +++
 title = "Koch Political Network"
+date = 2026-10-12
 description = "Americans for Prosperity, AFP Action (already in graph). Koch Industries. Education policy: school choice, anti-union, deregulation. Michigan chapter active."
 weight = 28
 

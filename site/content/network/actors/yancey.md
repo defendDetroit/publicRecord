@@ -1,5 +1,6 @@
 ---
 title: "Judge Tenisha Yancey"
+date: 2026-10-12
 type: "actor"
 graph_id: "yancey"
 role: "Judicial cover"

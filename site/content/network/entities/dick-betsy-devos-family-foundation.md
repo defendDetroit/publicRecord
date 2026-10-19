@@ -1,5 +1,6 @@
 +++
 title = "Dick & Betsy DeVos Family Foundation"
+date = 2026-10-12
 description = "Charter school funder"
 weight = 26
 

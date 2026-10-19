@@ -1,5 +1,6 @@
 +++
 title = "Magic: The Gathering"
+date = 2026-10-12
 description = "1993. Richard Garfield, mathematics PhD. The first trading card game. Combinatorics, probability, resource management, metagame theory. Turing-complete (proven 2019). A card game that is literally a u"
 weight = 96
 

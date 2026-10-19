@@ -1,5 +1,6 @@
 ---
 title: "Dr. Nikolai Vitti"
+date: 2026-10-12
 type: "actor"
 graph_id: "vitti"
 role: "DPSCD Superintendent. PCA authorized under his watch (Jul 2025)."

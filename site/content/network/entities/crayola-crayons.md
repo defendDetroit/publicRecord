@@ -1,5 +1,6 @@
 +++
 title = "Crayola Crayons"
+date = 2026-10-12
 description = "1903. Binney & Smith, Easton PA. 64-pack with the sharpener in the back. Color theory, fine motor skills, creative expression — before you can read. The first art supply. Multicultural skin tone packs"
 weight = 99
 

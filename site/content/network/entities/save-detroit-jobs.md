@@ -1,5 +1,6 @@
 +++
 title = "Save Detroit Jobs"
+date = 2026-10-12
 description = ""
 weight = 91
 

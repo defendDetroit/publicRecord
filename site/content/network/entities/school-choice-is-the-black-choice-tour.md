@@ -1,5 +1,6 @@
 +++
 title = "School Choice Is The Black Choice Tour"
+date = 2026-10-12
 description = ""
 weight = 89
 

@@ -1,5 +1,6 @@
 +++
 title = "John B. Goodenough"
+date = 2026-10-12
 description = "1922-2023. Nobel Prize 2019 at age 97 — oldest Nobel laureate ever. Co-invented the lithium-ion battery at Oxford. Every phone, laptop, EV, and grid battery uses his work. He never got rich from it. O"
 weight = 99
 

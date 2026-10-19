@@ -1,5 +1,6 @@
 +++
 title = "Kym L. Worthy"
+date = 2026-10-12
 description = "Wayne County Prosecutor since 2004. Term through Jan 1, 2029. Championed rape kit testing (thousands of kits found 2009, hundreds of convictions). The county prosecutor with jurisdiction over PCA and "
 weight = 27
 

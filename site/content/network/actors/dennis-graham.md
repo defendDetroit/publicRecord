@@ -1,5 +1,6 @@
 +++
 title = "Dennis Graham"
+date = 2026-10-12
 description = "Group Managing Partner, Plante Moran. Management consulting and international offices. PMR falls under consulting."
 weight = 98
 

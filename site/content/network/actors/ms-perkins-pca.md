@@ -1,5 +1,6 @@
 +++
 title = "Ms. Perkins (PCA)"
+date = 2026-10-12
 description = "Ms. Perkins. PCA front desk / receptionist. THE FRONT DOOR. She is the DECISION-MAKER for who has access to Banks and Beasley. She made it clear SHE decides who gets through. Oct 12 10:30 AM: told cal"
 weight = 26
 

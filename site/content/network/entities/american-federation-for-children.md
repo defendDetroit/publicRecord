@@ -1,5 +1,6 @@
 +++
 title = "American Federation for Children"
+date = 2026-10-12
 description = "School choice advocacy"
 weight = 16
 

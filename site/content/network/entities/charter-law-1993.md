@@ -1,5 +1,6 @@
 ---
 title: "PA 362 — Michigan Charter School Law (1993)"
+date: 2026-10-12
 type: "entity"
 graph_id: "charter_law_1993"
 role: "enabling legislation"

@@ -1,5 +1,6 @@
 +++
 title = "DNA"
+date = 2026-10-12
 description = "Deoxyribonucleic acid. The molecule of heredity. Discovered by Watson, Crick, Franklin, Wilkins (1953). Rosalind Franklin's X-ray crystallography (Photo 51) was the key — she was denied credit until a"
 weight = 96
 

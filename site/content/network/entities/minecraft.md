@@ -1,5 +1,6 @@
 +++
 title = "Minecraft"
+date = 2026-10-12
 description = "2009. Created by Markus 'Notch' Persson alone in his apartment in Stockholm. Sold to Microsoft for $2.5B in 2014. 300M+ copies. The most-sold video game ever. One person, one idea, infinite worlds. No"
 weight = 97
 

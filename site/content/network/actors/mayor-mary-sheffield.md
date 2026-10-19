@@ -1,5 +1,6 @@
 +++
 title = "Mayor Mary Sheffield"
+date = 2026-10-12
 description = "Mayor"
 weight = 22
 

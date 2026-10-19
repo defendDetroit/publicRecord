@@ -1,5 +1,6 @@
 ---
 title: "Dykema Gossett"
+date: 2026-10-12
 type: "entity"
 graph_id: "dykema"
 role: "law firm (enabler)"

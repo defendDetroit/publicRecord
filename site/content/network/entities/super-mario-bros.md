@@ -1,5 +1,6 @@
 +++
 title = "Super Mario Bros."
+date = 2026-10-12
 description = "1985. Created by Shigeru Miyamoto at Nintendo. A plumber saves a princess. Sold 58M copies on NES alone. Miyamoto also created Zelda, Donkey Kong, Star Fox. The most important game designer alive. Sti"
 weight = 99
 

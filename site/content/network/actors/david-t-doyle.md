@@ -1,5 +1,6 @@
 +++
 title = "David T. Doyle"
+date = 2026-10-12
 description = "Chief Compliance Officer, Plante Moran Financial Advisors. 248-223-3611. dave.doyle@plantemoran.com (confirmed SEC Form ADV). Ethics code enforcement."
 weight = 99
 

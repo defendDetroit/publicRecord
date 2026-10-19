@@ -1,5 +1,6 @@
 +++
 title = "General Relativity"
+date = 2026-10-12
 description = "Einstein (1915). Spacetime curves around mass. Predicted gravitational waves (confirmed 2015 by LIGO), black holes (photographed 2019 by EHT). Published freely. Never patented. Public knowledge."
 weight = 97
 

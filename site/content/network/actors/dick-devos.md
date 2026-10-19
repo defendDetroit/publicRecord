@@ -1,5 +1,6 @@
 +++
 title = "Dick DeVos"
+date = 2026-10-12
 description = "Amway heir. Ran for MI Governor 2006 (lost). Betsy's husband. DeVos family: largest charter school funder in Michigan. Amway/Alticor."
 weight = 29
 

@@ -1,5 +1,6 @@
 ---
 title: "National Charter Schools Institute"
+date: 2026-10-12
 type: "entity"
 graph_id: "ncsi"
 role: "charter school authorizer training"

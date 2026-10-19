@@ -1,5 +1,6 @@
 +++
 title = "Nicole Blocker"
+date = 2026-10-12
 description = "Plante Moran Realpoint. Listed on K-12 capital project consulting page alongside Theriault, Wills, VanKirk. Part of Beasley's K-12 team."
 weight = 97
 

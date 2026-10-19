@@ -1,5 +1,6 @@
 +++
 title = "Neil deGrasse Tyson"
+date = 2026-10-12
 description = "Born 1958. Astrophysicist. Hayden Planetarium. Bronx public schools -> Harvard -> Columbia PhD. Science communicator. The proof that a kid from the Bronx can understand the universe if you teach him."
 weight = 100
 

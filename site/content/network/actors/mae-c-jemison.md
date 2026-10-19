@@ -1,5 +1,6 @@
 +++
 title = "Mae C. Jemison"
+date = 2026-10-12
 description = "Born 1956. First Black woman in space (STS-47, 1992). Chemical engineer, physician, Peace Corps, NASA. From Chicago. Proof that public education works when it works. Proof of what 97% math failure ste"
 weight = 100
 

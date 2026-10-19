@@ -1,5 +1,6 @@
 +++
 title = "Mackinac Center for Public Policy"
+date = 2026-10-12
 description = "DeVos-funded policy org. Pro-charter. School choice advocacy."
 weight = 27
 

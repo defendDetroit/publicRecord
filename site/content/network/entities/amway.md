@@ -1,5 +1,6 @@
 ---
 title: "Amway / Alticor"
+date: 2026-10-12
 type: "entity"
 graph_id: "amway"
 role: "DeVos family corporation"

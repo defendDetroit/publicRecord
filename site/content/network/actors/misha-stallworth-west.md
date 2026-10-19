@@ -1,5 +1,6 @@
 +++
 title = "Misha Stallworth West"
+date = 2026-10-12
 description = "DPSCD Board + CitizenDetroit Director"
 weight = 23
 

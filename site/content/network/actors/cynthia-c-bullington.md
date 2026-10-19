@@ -1,5 +1,6 @@
 +++
 title = "Cynthia C. Bullington"
+date = 2026-10-12
 description = "AGC Asst Deputy Admin. At AGC since 1982 (44 yrs). MSU BA, GWU JD. Adjunct prof MSU Law — teaches Professional Responsibility. Character & Fitness Committee. Signed TWO return letters on Banks/Miller matters (Oct 1 + Oct 9, 2026). AGC File 26-2141."
 weight = 28
 

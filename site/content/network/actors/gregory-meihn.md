@@ -1,5 +1,6 @@
 ---
 title: "Gregory Meihn"
+date: 2026-10-12
 type: "actor"
 graph_id: "gregory_meihn"
 role: "Connected to charter school institutional capture. Referenced in investigation across multiple docs."

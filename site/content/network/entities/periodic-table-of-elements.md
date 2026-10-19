@@ -1,5 +1,6 @@
 +++
 title = "Periodic Table of Elements"
+date = 2026-10-12
 description = "Mendeleev (1869). 118 elements. The organizing principle of chemistry. Public domain. Belongs to every student. Hangs on the wall of every classroom that functions."
 weight = 100
 

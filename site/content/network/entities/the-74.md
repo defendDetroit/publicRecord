@@ -1,5 +1,6 @@
 ---
 title: "The 74 (The Seventy Four)"
+date: 2026-10-12
 type: "entity"
 graph_id: "the_74"
 role: "charter school media outlet"

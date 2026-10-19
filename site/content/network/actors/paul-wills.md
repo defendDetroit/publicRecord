@@ -1,5 +1,6 @@
 +++
 title = "Paul Wills"
+date = 2026-10-12
 description = "Partner, Plante Moran Realpoint. AIA, LEED AP, NCARB. Licensed architect. Lawrence Tech (SAME SCHOOL as Ahmed Beasley). 25+ years. $5B+ in capital projects. 600+ facilities."
 weight = 97
 

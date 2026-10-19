@@ -1,5 +1,6 @@
 ---
 title: "Barton Malow"
+date: 2026-10-12
 type: "entity"
 graph_id: "barton_malow"
 role: "construction firm (Krater bridge)"

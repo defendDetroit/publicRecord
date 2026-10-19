@@ -1,5 +1,6 @@
 +++
 title = "perkins sean"
+date = 2026-10-12
 description = ""
 weight = 28
 

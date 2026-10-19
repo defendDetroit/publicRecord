@@ -1,5 +1,6 @@
 +++
 title = "Michigan State University"
+date = 2026-10-12
 description = ""
 weight = 22
 

@@ -1,5 +1,6 @@
 +++
 title = "Michigan State Board of Education"
+date = 2026-10-12
 description = ""
 weight = 11
 

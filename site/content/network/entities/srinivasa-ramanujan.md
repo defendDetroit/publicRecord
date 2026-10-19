@@ -1,5 +1,6 @@
 +++
 title = "Srinivasa Ramanujan"
+date = 2026-10-12
 description = "1887-1920. Self-taught mathematical genius from Madras. 3,900 results, nearly all proven correct. Died at 32. No formal training. The proof that genius does not require institutions — institutions req"
 weight = 99
 

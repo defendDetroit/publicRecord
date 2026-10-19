@@ -1,5 +1,6 @@
 +++
 title = "Verkeydia Hall"
+date = 2026-10-12
 description = "MacDowell Board Director. Licensed attorney. Crump maiden name — dynasty link to Jehan Crump-Gibson. Filed PPO against journalist. Crump Hall of Justice Law Firm (CHOJLF). MSU (crumpver@msu.edu). Todd"
 weight = 24
 

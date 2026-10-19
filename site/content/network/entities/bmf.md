@@ -1,5 +1,6 @@
 ---
 title: "Black Mafia Family (BMF)"
+date: 2026-10-12
 type: "entity"
 graph_id: "bmf"
 role: "criminal enterprise (structural parallel)"

@@ -1,5 +1,6 @@
 +++
 title = "Erno Rubik"
+date = 2026-10-12
 description = "Born 1944, Budapest. Architecture professor. Created the Rubik's Cube (1974) to help students understand 3D spatial relationships. 'I did not plan to make the Cube a toy.' 450M+ sold. Group theory, pe"
 weight = 99
 
