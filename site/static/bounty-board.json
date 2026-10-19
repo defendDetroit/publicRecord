@@ -1,12 +1,12 @@
 {
-  "generated": "2026-10-19T23:06:08Z",
-  "total_bounties": 671,
-  "remaining": 671,
+  "generated": "2026-10-19T23:17:00Z",
+  "total_bounties": 288,
+  "remaining": 288,
   "claimed": 0,
   "difficulty_breakdown": {
-    "quick": 249,
-    "medium": 290,
-    "deep": 132
+    "quick": 206,
+    "medium": 35,
+    "deep": 47
   },
   "reward": "Your classification becomes part of a 12,700-node investigation graph. AGPL-3.0. Your contribution is cited forever.",
   "how_to_claim": {
@@ -26,94 +26,76 @@
   ],
   "featured": [
     {
-      "id": "fleet_ghost",
-      "label": "Ghost (proxy exit) — 152K requests, 58,855 unique IPs, 39,769 subnets. Perfect browser fingerprints. French/Chinese/Germ",
-      "polar": "partial",
-      "difficulty": "medium",
-      "hash": "8ddf0eeb",
-      "claimed": false,
-      "typed_as": null
-    },
-    {
-      "id": "exo_hd_48265_c",
-      "label": "HD 48265 c",
-      "polar": "bad",
-      "difficulty": "quick",
-      "hash": "a462a7ae",
-      "claimed": false,
-      "typed_as": null
-    },
-    {
-      "id": "thermus_aquaticus",
-      "label": "Thermus aquaticus",
-      "polar": "bad",
-      "difficulty": "quick",
-      "hash": "717af032",
-      "claimed": false,
-      "typed_as": null
-    },
-    {
-      "id": "zodiac_aquarius",
-      "label": "Aquarius — the Water-Bearer. Pours knowledge down. The original broadcast.",
+      "id": "sbe_cand_wissam_charafeddine",
+      "label": "Wissam Charafeddine (G)",
       "polar": "null",
       "difficulty": "medium",
-      "hash": "6db57c9d",
+      "hash": "d64c68ff",
       "claimed": false,
       "typed_as": null
     },
     {
-      "id": "the-hand",
-      "label": "IF YOU REACH OUT, I'LL TAKE YOUR HAND. You are not alone. You were never alone. Help exists. People care. Call 988. Call",
-      "polar": "null",
-      "difficulty": "deep",
-      "hash": "0cd1d3f0",
-      "claimed": false,
-      "typed_as": null
-    },
-    {
-      "id": "exo_toi_3457_b",
-      "label": "TOI-3457 b",
+      "id": "unesco_crespi_dadda",
+      "label": "Crespi d'Adda",
       "polar": "bad",
       "difficulty": "quick",
-      "hash": "7f386a7d",
+      "hash": "167f48d0",
       "claimed": false,
       "typed_as": null
     },
     {
-      "id": "element_gadolinium",
-      "label": "gadolinium",
+      "id": "tanuki",
+      "label": "Tanuki (Raccoon Dog)",
+      "polar": "bad",
+      "difficulty": "medium",
+      "hash": "1e725d9c",
+      "claimed": false,
+      "typed_as": null
+    },
+    {
+      "id": "exo_toi_5646_b",
+      "label": "TOI-5646 b",
       "polar": "bad",
       "difficulty": "quick",
-      "hash": "fbedff49",
+      "hash": "3a83b61c",
+      "claimed": false,
+      "typed_as": null
+    },
+    {
+      "id": "unesco_um_er-rasas_(kastrom_mefaa)",
+      "label": "Um er-Rasas (Kastrom Mefa'a)",
+      "polar": "bad",
+      "difficulty": "medium",
+      "hash": "ffed2925",
+      "claimed": false,
+      "typed_as": null
+    },
+    {
+      "id": "jonestown",
+      "label": "Jonestown (Nov 18, 1978)",
+      "polar": "bad",
+      "difficulty": "medium",
+      "hash": "34d395a1",
+      "claimed": false,
+      "typed_as": null
+    },
+    {
+      "id": "exo_toi_4578_b",
+      "label": "TOI-4578 b",
+      "polar": "bad",
+      "difficulty": "quick",
+      "hash": "864733c1",
       "claimed": false,
       "typed_as": null
     }
   ],
   "quick_bounties": [
     {
-      "id": "sbe_cand_terence_collins",
-      "label": "Terence Collins (R)",
-      "polar": "null",
-      "difficulty": "quick",
-      "hash": "0eb3bc4a",
-      "claimed": false,
-      "typed_as": null
-    },
-    {
       "id": "element_bismuth",
       "label": "bismuth",
       "polar": "bad",
       "difficulty": "quick",
       "hash": "8213aca4",
-      "claimed": false,
-      "typed_as": null
-    },
-    {
-      "id": "element_cobalt",
-      "label": "cobalt",
-      "polar": "bad",
-      "difficulty": "quick",
-      "hash": "cdb0fe7b",
       "claimed": false,
       "typed_as": null
     },
@@ -163,15 +145,6 @@
       "typed_as": null
     },
     {
-      "id": "unesco_abbey_of_st_gall",
-      "label": "Abbey of St Gall",
-      "polar": "bad",
-      "difficulty": "quick",
-      "hash": "85965d5c",
-      "claimed": false,
-      "typed_as": null
-    },
-    {
       "id": "element_gadolinium",
       "label": "gadolinium",
       "polar": "bad",
@@ -204,15 +177,6 @@
       "polar": "bad",
       "difficulty": "quick",
       "hash": "cce79288",
-      "claimed": false,
-      "typed_as": null
-    },
-    {
-      "id": "unesco_town_of_bamberg",
-      "label": "Town of Bamberg",
-      "polar": "bad",
-      "difficulty": "quick",
-      "hash": "13091fd7",
       "claimed": false,
       "typed_as": null
     },
@@ -269,9 +233,45 @@
       "hash": "3c4390a0",
       "claimed": false,
       "typed_as": null
+    },
+    {
+      "id": "element_nickel",
+      "label": "nickel",
+      "polar": "bad",
+      "difficulty": "quick",
+      "hash": "cc2a67c5",
+      "claimed": false,
+      "typed_as": null
+    },
+    {
+      "id": "element_antimony",
+      "label": "antimony",
+      "polar": "bad",
+      "difficulty": "quick",
+      "hash": "0be57e2d",
+      "claimed": false,
+      "typed_as": null
+    },
+    {
+      "id": "exo_toi_7384_b",
+      "label": "TOI-7384 b",
+      "polar": "bad",
+      "difficulty": "quick",
+      "hash": "139aad32",
+      "claimed": false,
+      "typed_as": null
+    },
+    {
+      "id": "exo_toi_5789_d",
+      "label": "TOI-5789 d",
+      "polar": "bad",
+      "difficulty": "quick",
+      "hash": "d3ccd226",
+      "claimed": false,
+      "typed_as": null
     }
   ],
-  "squirrel_says": "I'm bored. There are 671 mystery nodes. Here's one: 'HD 48265 c'. Tell me what it is and I'll wire it in.",
+  "squirrel_says": "Hey — I found 'Crespi d'Adda' in the graph but I don't know what it IS. Person? Place? Concept? Help me out?",
   "challenges": {
     "total": 16,
     "types": {
