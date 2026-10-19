@@ -144,10 +144,12 @@ If you've experienced corruption or abuse of process in Wayne County courts, the
 
 ---
 
-## BLOCKER: detroit.primals.eco not rebuilding
+## BLOCKER STATUS: ✅ CLEARED (Wave 191, Oct 19 2026)
 
-⚠️ golgiBody SSH is locked. New articles (under-threat, who-signed-who-served, backscatter, the-response, chatfield-blockade, moores-law-is-false) are committed to GitHub but NOT live on detroit.primals.eco.
+- detroit.primals.eco: LIVE ✅ (rebuilt + pipeline fixed)
+- tuebor.primals.eco: LIVE ✅ (rebuilt + og:image + twitter:card fixed)
+- All 9 sites: 200 ✅
+- Posts should link to detroit.primals.eco (primary) with GitHub as backup.
+- Updated numbers: 1,822 pages, 10,815 nodes, 16M edges.
 
-**Fix required**: Restore SSH to golgiBody → run detroit-build → deploy → then IndexNow + Google Search Console submission for all new URLs.
-
-Until then: GitHub is the live surface. All posts should link to GitHub, not detroit.primals.eco.
+**⚠️ SUPERSEDED**: See NOAHS_ARK_LAUNCH.md for the complete, updated launch document.
