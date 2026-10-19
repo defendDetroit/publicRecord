@@ -1,3 +1,10 @@
++++
+title = "The Ignition"
+date = 2026-10-19
+[taxonomies]
+tags = ["investigation"]
++++
+
 ---
 title: "The Ignition — Watch It Spread"
 date: 2026-10-15

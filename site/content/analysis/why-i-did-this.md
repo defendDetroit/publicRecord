@@ -1,3 +1,10 @@
++++
+title = "Why I Did This"
+date = 2026-10-19
+[taxonomies]
+tags = ["investigation"]
++++
+
 ---
 title: "Why I Did This"
 date: 2026-10-15

@@ -1,3 +1,10 @@
++++
+title = "Membrane Eyes Needed"
+date = 2026-10-19
+[taxonomies]
+tags = ["investigation"]
++++
+
 ---
 title: "Membrane Eyes Needed — eastGate / sporeGate"
 date: 2026-10-15

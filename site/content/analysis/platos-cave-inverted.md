@@ -1,3 +1,10 @@
++++
+title = "Platos Cave Inverted"
+date = 2026-10-19
+[taxonomies]
+tags = ["investigation"]
++++
+
 ---
 title: "Get Out of My Brown Eye and Look Up at the Sky"
 date: 2026-10-15

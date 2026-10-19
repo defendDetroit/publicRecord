@@ -1,3 +1,10 @@
++++
+title = "The Fistbump"
+date = 2026-10-19
+[taxonomies]
+tags = ["investigation"]
++++
+
 ---
 title: "The Fistbump: Diagnostic Law and the Path to Less Friction"
 date: 2026-10-18

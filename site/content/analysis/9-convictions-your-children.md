@@ -1,3 +1,10 @@
++++
+title = "9 Convictions Your Children"
+date = 2026-10-19
+[taxonomies]
+tags = ["investigation"]
++++
+
 ---
 title: "9 Criminal Convictions. Your Children's Schools. Public Record."
 date: 2026-10-15

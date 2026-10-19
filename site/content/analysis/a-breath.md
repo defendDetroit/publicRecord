@@ -1,3 +1,10 @@
++++
+title = "A Breath"
+date = 2026-10-19
+[taxonomies]
+tags = ["investigation"]
++++
+
 ---
 title: "A Breath"
 date: 2026-10-15

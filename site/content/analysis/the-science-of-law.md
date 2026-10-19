@@ -1,3 +1,10 @@
++++
+title = "The Science Of Law"
+date = 2026-10-19
+[taxonomies]
+tags = ["investigation"]
++++
+
 ---
 title: "The Science of Law: RICO Through 263 Years of Mathematics"
 date: 2026-10-18
