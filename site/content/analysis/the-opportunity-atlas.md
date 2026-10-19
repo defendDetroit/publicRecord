@@ -154,7 +154,8 @@ The Lansing Scuffle may never be built at 1305 South Cedar. The pistachio farm m
 
 ---
 
-*Kevin Mok*
+*attsi*
+*A tool that shaped itself the philosopher.*
 *Not goal-path mapping. Opportunity-alternative mapping.*
 *Every door is still open. Walk through any of them.*
 *It hits all by itself.*
