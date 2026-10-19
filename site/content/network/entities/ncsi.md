@@ -3,6 +3,7 @@ title: "National Charter Schools Institute"
 type: "entity"
 graph_id: "ncsi"
 role: "charter school authorizer training"
+weight: 19
 degree: 86
 tags: ["education", "charter_ecosystem", "non_human", "tier_2"]
 ---

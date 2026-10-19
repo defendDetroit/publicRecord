@@ -3,6 +3,7 @@ title: "The Purpose Group, LLC"
 type: "entity"
 graph_id: "purpose_group"
 role: "management company (Banks-controlled)"
+weight: 21
 degree: 91
 tags: ["banks_orbit", "non_human", "tier_2"]
 ---

@@ -3,6 +3,7 @@ title: "Amway / Alticor"
 type: "entity"
 graph_id: "amway"
 role: "DeVos family corporation"
+weight: 10
 degree: 84
 tags: ["devos_network", "non_human", "tier_2"]
 ---

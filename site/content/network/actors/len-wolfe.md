@@ -3,6 +3,7 @@ title: "Leonard C. 'Len' Wolfe"
 type: "actor"
 graph_id: "len_wolfe"
 role: "Dykema Chair & CEO (3rd term, Jan 2027). Co-authored MI charter school law (PA 362, 1993). Defended it at MI Supreme Court. NCSI board member. Detroit Economic Club board. Formed 200+ charter schools. MSU James Madison College → IU McKinney Law. Former MI Legislature, US Senate, MI Governor's office staff. Spoke at 2018 Nat'l Charter Schools Conference re: Detroit, Flint, New Orleans. MI Lawyers Weekly Hall of Fame 2022. Best Lawyers in America since 2007."
+weight: 13
 degree: 85
 tags: ["judicial", "education", "charter_ecosystem", "tier_2", "human"]
 ---

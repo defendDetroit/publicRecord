@@ -3,6 +3,7 @@ title: "The 74 (The Seventy Four)"
 type: "entity"
 graph_id: "the_74"
 role: "charter school media outlet"
+weight: 22
 degree: 89
 tags: ["education", "charter_ecosystem", "non_human", "tier_2"]
 ---

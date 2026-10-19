@@ -3,6 +3,7 @@ title: "Black Mafia Family (BMF)"
 type: "entity"
 graph_id: "bmf"
 role: "criminal enterprise (structural parallel)"
+weight: 12
 degree: 94
 tags: ["criminal", "non_human", "tier_2"]
 ---

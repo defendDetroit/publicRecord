@@ -3,6 +3,7 @@ title: "Dykema Gossett"
 type: "entity"
 graph_id: "dykema"
 role: "law firm (enabler)"
+weight: 15
 degree: 104
 tags: ["tier_1", "legal", "enabler", "non_human"]
 ---

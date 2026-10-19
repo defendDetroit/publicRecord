@@ -3,6 +3,7 @@ title: "Gregory Meihn"
 type: "actor"
 graph_id: "gregory_meihn"
 role: "Connected to charter school institutional capture. Referenced in investigation across multiple docs."
+weight: 11
 degree: 86
 tags: ["investigation_subject", "education", "charter_ecosystem", "tier_2", "human"]
 ---

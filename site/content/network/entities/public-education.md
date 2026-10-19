@@ -3,6 +3,7 @@ title: "Public Education (The Commons)"
 type: "entity"
 graph_id: "public_education"
 role: "the commons (what is being enclosed)"
+weight: 20
 degree: 106
 tags: ["tier_1", "commons", "non_human"]
 ---

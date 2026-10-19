@@ -3,6 +3,7 @@ title: "Dick & Betsy DeVos Family Foundation"
 type: "entity"
 graph_id: "devos_foundation"
 role: "DeVos family philanthropy"
+weight: 14
 degree: 84
 tags: ["devos_network", "non_human", "tier_2"]
 ---

@@ -3,6 +3,7 @@ title: "W. Alan Wilk"
 type: "actor"
 graph_id: "wilk"
 role: "Dark money architect"
+weight: 16
 degree: 14
 tags: ["human", "dark_money", "tier_4"]
 ---

@@ -3,6 +3,7 @@ title: "Marygrove Conservancy / P-20 Campus"
 type: "entity"
 graph_id: "marygrove_conservancy"
 role: "P-20 campus (convergence hub)"
+weight: 18
 degree: 85
 tags: ["non_human", "tier_2"]
 ---

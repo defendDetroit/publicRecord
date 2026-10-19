@@ -3,6 +3,7 @@ title: "PA 362 — Michigan Charter School Law (1993)"
 type: "entity"
 graph_id: "charter_law_1993"
 role: "enabling legislation"
+weight: 13
 degree: 103
 tags: ["tier_1", "non_human"]
 ---

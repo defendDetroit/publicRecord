@@ -3,6 +3,7 @@ title: "Barton Malow"
 type: "entity"
 graph_id: "barton_malow"
 role: "construction firm (Krater bridge)"
+weight: 11
 degree: 88
 tags: ["non_human", "tier_2"]
 ---

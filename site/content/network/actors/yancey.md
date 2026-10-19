@@ -3,6 +3,7 @@ title: "Judge Tenisha Yancey"
 type: "actor"
 graph_id: "yancey"
 role: "Judicial cover"
+weight: 17
 degree: 91
 tags: ["human", "tier_2"]
 ---

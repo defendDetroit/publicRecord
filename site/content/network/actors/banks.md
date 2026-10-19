@@ -3,6 +3,7 @@ title: "Brian Roderick Banks"
 type: "actor"
 graph_id: "banks"
 role: "Enterprise leader"
+weight: 10
 degree: 252
 tags: ["tier_1", "human", "banks_orbit"]
 ---

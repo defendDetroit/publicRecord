@@ -3,6 +3,7 @@ title: "Judge Cylenthia Miller"
 type: "actor"
 graph_id: "miller"
 role: "Judicial cover"
+weight: 14
 degree: 87
 tags: ["human", "tier_2"]
 ---
