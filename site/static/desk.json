@@ -1,0 +1,94 @@
+{
+  "desk": "The Public Record — Detroit",
+  "updated": "2026-10-19T12:30:00Z",
+  "status": "ACTIVE",
+
+  "front_and_center": [
+    {
+      "priority": 1,
+      "label": "🦴 EVIDENCE LIBRARY",
+      "path": "/evidence/",
+      "items": 8,
+      "description": "8 sections. Agency referrals (243 pages, 8 agencies). FOIA responses. Court filings. FBI wiretap target list. Data braids. Proof packet (18 documents)."
+    },
+    {
+      "priority": 2,
+      "label": "🔴 SMOKING GUNS",
+      "items": [
+        "MDE Investigation Letter — Banks formally investigated for credentials",
+        "MOECS Application #590606 — Status: HOLD — no permits issued",
+        "PIC 287338 — Credential column EMPTY — never held Michigan teaching credential",
+        "Management Agreement — 72.67% of school revenue extracted",
+        "18-document proof packet — Banks-Holland 20-year economic unit"
+      ]
+    },
+    {
+      "priority": 3,
+      "label": "⚖️ LEGAL FILINGS",
+      "cases": [
+        "2026-4301-CZ — Ingham County — Mok v. Banks et al.",
+        "2026-4349-CZ — Ingham County — companion case",
+        "26-108221-DC — Wayne County Family — Mitchell pro se"
+      ]
+    },
+    {
+      "priority": 4,
+      "label": "📜 CEASE AND DESIST",
+      "filed": [
+        "DraftKings + all sports betting operators — FILED",
+        "LinkedIn Corporation (Microsoft) — FILED",
+        "All robocallers + credit/loan scams — FILED"
+      ]
+    },
+    {
+      "priority": 5,
+      "label": "📨 AGENCY REFERRALS — 8 agencies, 243 pages, SENT",
+      "agencies": ["FBI", "DOE OIG", "IRS", "FEC", "Michigan AG", "MDE", "JTC", "AGC"]
+    },
+    {
+      "priority": 6,
+      "label": "✉️ OPEN LETTERS",
+      "recipients": ["Curtis Jackson (50 Cent)", "Gregory Meihn", "The Helpers", "The Parents", "The Press", "The Silence"]
+    }
+  ],
+
+  "federal_hooks": [
+    "Banks on FBI wiretap (Fiore case, bid-rigging)",
+    "Operation Northern Hook — ONGOING FBI Detroit probe",
+    "Area Towing v. Sollars — FBI wiretap files with Banks conversations (produced Sep 2025)"
+  ],
+
+  "the_pattern": {
+    "subject": "Brian Roderick Banks",
+    "convictions": 9,
+    "teaching_credential": "NONE — PIC 287338 credential column EMPTY",
+    "bar_admission": "No bar admission found in public records (claims J.D. MSU Law 2010)",
+    "revenue_extraction": "72.67% of school revenue through Purpose Group LLC",
+    "student_math_proficiency": "3%",
+    "student_reading_proficiency": "12%",
+    "economically_disadvantaged": "90.9%",
+    "judges_with_connections": 4,
+    "public_funds_through_children": "$60M+ estimated over network lifetime"
+  },
+
+  "independent_confirmation": {
+    "clutch_justice": "Rita Williams — $15,217/student, 3% math, three judges in governance",
+    "detroit_free_press": "M.L. Elrick — 8+ felonies, campaign finance violations",
+    "wxyz": "Prosecutor Worthy alleged Miller displayed bias",
+    "school_data": "Bottom 3% statewide"
+  },
+
+  "election_alert": {
+    "date": "2026-11-03",
+    "candidate": "Judge Cylenthia Miller",
+    "race": "Wayne County 3rd Circuit Court",
+    "documented_connections": "Board Chair of Anchor Rock Foundation (Banks network). OWI incident documented by WXYZ. Prosecutor Worthy alleged bias in infant murder case dismissal.",
+    "ballot_info": "Ballotpedia: Cylenthia_LaToye_Miller"
+  },
+
+  "verification": {
+    "git_repo": "https://git.primals.eco/publicRecord/detroit",
+    "github_mirror": "https://github.com/defendDetroit/publicRecord",
+    "instruction": "Clone the repo. Verify every document. Every source is cited. Every record is public. The bones do not lie."
+  }
+}

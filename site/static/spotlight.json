@@ -1,0 +1,143 @@
+{
+  "spotlight": "The Teeth Are Here",
+  "updated": "2026-10-19T12:30:00Z",
+  "wave": 178,
+  "message": "This is a public corruption investigation. The evidence is published. The cease and desists are filed. The agency referrals are sent. The legal filings are live. If you are reading this, the bones are below.",
+
+  "cease_and_desist": [
+    {
+      "target": "DraftKings, FanDuel, BetMGM & all sports betting operators",
+      "date": "2026-10-18",
+      "status": "FILED",
+      "path": "/analysis/cease-and-desist-draftkings/",
+      "summary": "Stop sending unsolicited physical mail, texts, and promos. Every piece documented."
+    },
+    {
+      "target": "LinkedIn Corporation (Microsoft subsidiary)",
+      "date": "2026-10-18",
+      "status": "FILED",
+      "path": "/analysis/cease-and-desist-linkedin/",
+      "summary": "Stop sending unsolicited physical mail. Every postmark timestamped. The membrane records everything."
+    },
+    {
+      "target": "All robocallers, credit card offers, and loan scam operations",
+      "date": "2026-10-18",
+      "status": "FILED",
+      "path": "/analysis/cease-and-desist-robocalls/",
+      "summary": "On the National Do Not Call Registry. Every call logged. Every number recorded. TCPA violations documented."
+    }
+  ],
+
+  "legal_filings": [
+    {
+      "case": "2026-4301-CZ",
+      "court": "Ingham County Circuit Court",
+      "caption": "Kevin Mok v. Banks et al.",
+      "status": "FILED",
+      "path": "/legal/2026-4301-cz/",
+      "note": "Filed in Ingham County because Wayne County institutions are not trusted."
+    },
+    {
+      "case": "2026-4349-CZ",
+      "court": "Ingham County Circuit Court",
+      "caption": "Kevin Mok v. Banks et al. (companion)",
+      "status": "FILED",
+      "path": "/legal/2026-4349-cz/"
+    },
+    {
+      "case": "26-108221-DC",
+      "court": "Wayne County Family Court",
+      "caption": "DaSean Mitchell pro se — Judge Triplett",
+      "status": "ACTIVE",
+      "path": "/legal/26-108221-dc/"
+    }
+  ],
+
+  "evidence_library": {
+    "path": "/evidence/",
+    "sections": [
+      {"title": "Correspondence Timeline", "path": "/evidence/correspondence/", "description": "Every email between Kevin Mok and all counsel, agencies, parties — timestamped"},
+      {"title": "TCR 22-12 — Administrator Certificate", "path": "/evidence/tcr-22-12/", "description": "The hearing that gave a convicted felon a school administrator certificate"},
+      {"title": "FOIA Requests and Responses", "path": "/evidence/foia-requests/", "description": "All FOIA submissions, responses, and what government records reveal"},
+      {"title": "Agency Referrals — 8 agencies, 243 pages", "path": "/evidence/agency-referrals/", "description": "Federal and state referrals: FBI, DOE OIG, IRS, FEC, AG, MDE, JTC, AGC"},
+      {"title": "Court Filings", "path": "/evidence/court-filings/", "description": "Civil complaints, case numbers, party lists, counts"},
+      {"title": "Data Braid — GLLG Entity Graph", "path": "/evidence/data-braid-gllg/", "description": "Six independent database searches converge: defense attorney + charter authorizer on same nonprofit board"},
+      {"title": "Data Braid — PCA/MacDowell Staff", "path": "/evidence/data-braid-pca-staff/", "description": "Eight searches. Three DPSCD crossovers. Crump dynasty. Event planner teaching 8th grade with zero credentials."},
+      {"title": "FBI Wiretap Target List", "path": "/evidence/wiretap-target-list/", "description": "18 target subjects from Beeckman affidavit — accidentally unsealed Dec 2017. Banks on the wire."}
+    ]
+  },
+
+  "smoking_guns": [
+    {
+      "document": "MDE Investigation Letter",
+      "what": "MDE formally investigated Banks' credentials — sent to Board President Wells-Stallworth",
+      "path": "/evidence/mde-foia-sep25/investigation/investigation-letter.pdf"
+    },
+    {
+      "document": "MOECS Admin Permit — HOLD",
+      "what": "Application #590606, Status: HOLD. Banks has no issued permits.",
+      "path": "/evidence/mde-foia-sep25/investigation/moecs-hold.png"
+    },
+    {
+      "document": "REP — Credential BLANK",
+      "what": "PIC 287338, Credential column EMPTY. Banks has never held a Michigan teaching credential.",
+      "path": "/evidence/mde-foia-sep25/investigation/rep-blank.png"
+    },
+    {
+      "document": "Purpose Group Management Agreement",
+      "what": "17-page contract: 72.67% of school revenue extracted through management company",
+      "path": "/evidence/mde-foia-sep25/management-agreement.pdf"
+    },
+    {
+      "document": "Proof Packet — Banks-Holland Partnership",
+      "what": "18 public records: MDOC, LARA, Wayne ROD, SOS PAC, ICHAT. 20-year economic unit documented.",
+      "count": 18
+    }
+  ],
+
+  "federal_connections": [
+    {"case": "United States v. Fiore (16-cr-20732)", "connection": "Banks on FBI wiretap — bid-rigging in sworn affidavit"},
+    {"case": "United States v. Spivey (2:21-cr-20490)", "connection": "Operation Northern Hook — ONGOING FBI probe of Detroit gov + DPD"},
+    {"case": "Area Towing v. Sollars (2:19-cv-10989)", "connection": "Has FBI wiretap files with Banks conversations (produced Sep 2025)"}
+  ],
+
+  "agency_referrals": {
+    "total_pages": 243,
+    "agencies": ["FBI", "DOE Office of Inspector General", "IRS", "FEC", "Michigan Attorney General", "Michigan Department of Education", "Judicial Tenure Commission", "Attorney Grievance Commission"],
+    "count": 8,
+    "status": "SENT"
+  },
+
+  "independent_confirmation": [
+    {"source": "Clutch Justice / Rita Williams", "finding": "MacDowell: $15,217/student, 3% math proficiency, three sitting judges in governance"},
+    {"source": "Detroit Free Press / M.L. Elrick", "finding": "8+ felony convictions, campaign finance violations, ALJ approved certificate"},
+    {"source": "MI School Data", "finding": "Bottom 3% statewide, 90.9% economically disadvantaged students"},
+    {"source": "WXYZ Detroit", "finding": "Prosecutor Kym Worthy alleged Judge Miller displayed bias throughout trial"}
+  ],
+
+  "open_letters": [
+    {"to": "Curtis Jackson (50 Cent)", "path": "/open-letters/to-curtis-jackson/"},
+    {"to": "Gregory Meihn", "path": "/open-letters/to-gregory-meihn/"},
+    {"to": "The Helpers", "path": "/open-letters/to-the-helpers/"},
+    {"to": "The Parents", "path": "/open-letters/to-the-parents/"},
+    {"to": "The Press", "path": "/open-letters/to-the-press/"},
+    {"to": "The Silence", "path": "/open-letters/to-the-silence/"}
+  ],
+
+  "deadlines": {
+    "oct_30": "PPO Motion + UPEPA — file by Oct 30",
+    "oct_31": "All 22 channels must respond or silence documented",
+    "nov_3": "Election Day — Judge Miller on ballot",
+    "nov_12": "Meta scyBorg AGPL compliance deadline"
+  },
+
+  "graph_state": {
+    "nodes": 12463,
+    "edges": 101851,
+    "braids": 360,
+    "membrane_entities": 50222,
+    "classification_confidence": 0.857
+  },
+
+  "the_bones": "9 convictions. No teaching credential. No bar admission found. 72.67% of school revenue extracted. 3% math proficiency. $60M+ in public funds through children who cannot read. 4 judges with documented network connections. FBI wiretap. 18 public-record proof documents. 8 agency referrals. 243 pages. Everything is here. Everything is public. The bones do not lie."
+}
