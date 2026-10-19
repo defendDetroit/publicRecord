@@ -1,0 +1,111 @@
+{
+  "mesh_topology": "3 hops from any surface to any tooth",
+  "updated": "2026-10-19T13:00:00Z",
+  "principle": "Banks buries deep. We surface shallow. Every entry is a node. Every node is 3 hops from the teeth.",
+  "max_hops": 3,
+  "shortcut_hops": 2,
+  "surfaces": [
+    "git.primals.eco",
+    "detroit.primals.eco",
+    "hud.primals.eco",
+    "antibody.primals.eco",
+    "antigen.primals.eco",
+    "bloom.primals.eco",
+    "complement.primals.eco",
+    "cytokine.primals.eco",
+    "epitope.primals.eco",
+    "interferon.primals.eco",
+    "lysozyme.primals.eco",
+    "macrophage.primals.eco",
+    "opsonize.primals.eco",
+    "receptor.primals.eco",
+    "sporeprint.primals.eco",
+    "thymus.primals.eco",
+    "tuebor.primals.eco"
+  ],
+  "surface_count": 17,
+  "teeth_count": 15,
+  "routing": {
+    "hop_1": "ANY surface -> mesh_teeth_hub",
+    "hop_2": "mesh_teeth_hub -> spotlight.json OR desk.json",
+    "hop_3": "spotlight/desk -> specific C&D, filing, smoking gun, or evidence section",
+    "shortcut": "git.primals.eco OR detroit.primals.eco -> ANY tooth directly (2 hops)"
+  },
+  "teeth": [
+    {
+      "id": "tooth_cd_draftkings",
+      "label": "C&D: DraftKings + sports betting — FILED",
+      "class": "mesh_tooth_cd"
+    },
+    {
+      "id": "tooth_cd_linkedin",
+      "label": "C&D: LinkedIn (Microsoft) — FILED",
+      "class": "mesh_tooth_cd"
+    },
+    {
+      "id": "tooth_cd_robocalls",
+      "label": "C&D: Robocallers + credit/loan scams — FILED",
+      "class": "mesh_tooth_cd"
+    },
+    {
+      "id": "tooth_case_4301",
+      "label": "Case 2026-4301-CZ — Mok v. Banks et al. — Ingham County",
+      "class": "mesh_tooth_legal"
+    },
+    {
+      "id": "tooth_case_4349",
+      "label": "Case 2026-4349-CZ — companion case — Ingham County",
+      "class": "mesh_tooth_legal"
+    },
+    {
+      "id": "tooth_case_108221",
+      "label": "Case 26-108221-DC — Mitchell pro se — Wayne County Family",
+      "class": "mesh_tooth_legal"
+    },
+    {
+      "id": "tooth_mde_investigation",
+      "label": "SMOKING GUN: MDE investigated Banks' credentials",
+      "class": "mesh_tooth_gun"
+    },
+    {
+      "id": "tooth_moecs_hold",
+      "label": "SMOKING GUN: MOECS Application #590606 — Status HOLD",
+      "class": "mesh_tooth_gun"
+    },
+    {
+      "id": "tooth_credential_blank",
+      "label": "SMOKING GUN: PIC 287338 — Credential Column EMPTY",
+      "class": "mesh_tooth_gun"
+    },
+    {
+      "id": "tooth_extraction",
+      "label": "SMOKING GUN: 72.67% revenue extraction — Purpose Group LLC",
+      "class": "mesh_tooth_gun"
+    },
+    {
+      "id": "tooth_proof_packet",
+      "label": "SMOKING GUN: 18-document proof packet — Banks-Holland 20yr unit",
+      "class": "mesh_tooth_gun"
+    },
+    {
+      "id": "tooth_evidence_referrals",
+      "label": "Agency Referrals — 8 agencies, 243 pages, SENT",
+      "class": "mesh_tooth_evidence"
+    },
+    {
+      "id": "tooth_evidence_wiretap",
+      "label": "FBI Wiretap Target List — 18 subjects, Banks on the wire",
+      "class": "mesh_tooth_evidence"
+    },
+    {
+      "id": "tooth_evidence_foia",
+      "label": "FOIA Requests + MDE Response (4 days, 21 files)",
+      "class": "mesh_tooth_evidence"
+    },
+    {
+      "id": "tooth_evidence_databraid",
+      "label": "Data Braid — 6 independent searches converge",
+      "class": "mesh_tooth_evidence"
+    }
+  ]
+}
