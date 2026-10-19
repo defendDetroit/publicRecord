@@ -271,5 +271,153 @@
       "typed_as": null
     }
   ],
-  "squirrel_says": "I'm bored. There are 671 mystery nodes. Here's one: 'HD 48265 c'. Tell me what it is and I'll wire it in."
+  "squirrel_says": "I'm bored. There are 671 mystery nodes. Here's one: 'HD 48265 c'. Tell me what it is and I'll wire it in.",
+  "challenges": {
+    "total": 16,
+    "types": {
+      "mandela_effect": 5,
+      "rumor_origin": 4,
+      "speed_verify": 4,
+      "meta": 3
+    },
+    "note": "Every challenge teaches a verification skill. The game IS the training. The fun IS the defense against misinformation.",
+    "items": [
+      {
+        "type": "mandela_effect",
+        "challenge": "Berenstain or Berenstein Bears?",
+        "answer_hint": "Check the actual book spines. Library of Congress catalog. ISBN records.",
+        "skill": "Primary source verification",
+        "difficulty": "quick",
+        "reward": "You just learned to check original documents instead of trusting memory."
+      },
+      {
+        "type": "mandela_effect",
+        "challenge": "'Luke, I am your father' — is that the actual line?",
+        "answer_hint": "The original 1980 script. The actual film audio. Quote databases.",
+        "skill": "Transcript verification",
+        "difficulty": "quick",
+        "reward": "You just learned that the most famous quotes are often misquoted. Check the source."
+      },
+      {
+        "type": "mandela_effect",
+        "challenge": "Mandela Effect — affect or effect? And when did Mandela actually die?",
+        "answer_hint": "Effect (noun, the phenomenon). Affect (verb, to influence). Mandela died Dec 5, 2013 — free, age 95.",
+        "skill": "Grammar + timeline verification",
+        "difficulty": "quick",
+        "reward": "The joke IS the lesson. Check your spelling AND your facts."
+      },
+      {
+        "type": "mandela_effect",
+        "challenge": "Is it 'Mirror mirror on the wall' or 'Magic mirror on the wall'?",
+        "answer_hint": "Watch the actual 1937 Disney film. Read the original Grimm tale (1812).",
+        "skill": "Primary source vs adaptation",
+        "difficulty": "quick",
+        "reward": "Disney changed it. Grimm wrote something else. The 'original' depends on which original."
+      },
+      {
+        "type": "mandela_effect",
+        "challenge": "Fruit of the Loom — was there ever a cornucopia in the logo?",
+        "answer_hint": "Check the US trademark registration. Archived logos. Company statements.",
+        "skill": "Trademark record verification",
+        "difficulty": "medium",
+        "reward": "You just searched a federal trademark database. That skill works for investigating companies too."
+      },
+      {
+        "type": "rumor_origin",
+        "challenge": "Where did 'vaccines cause autism' start? Who was patient zero?",
+        "answer_hint": "Andrew Wakefield. Lancet 1998. Retracted 2010. GMC struck him off. 12 co-authors retracted.",
+        "skill": "Academic paper trail + retraction tracking",
+        "difficulty": "medium",
+        "reward": "You just learned to check retraction databases. Every fraud leaves a paper trail."
+      },
+      {
+        "type": "rumor_origin",
+        "challenge": "Who first claimed the 2020 election was stolen? When? Where?",
+        "answer_hint": "Timeline of claims vs timeline of counts. Court filings (62 cases). Judges' rulings.",
+        "skill": "Legal record + timeline cross-reference",
+        "difficulty": "deep",
+        "reward": "62 court cases. 62 rulings. The court record IS the fact check."
+      },
+      {
+        "type": "rumor_origin",
+        "challenge": "'Eating cats and dogs in Springfield' — where did this start?",
+        "answer_hint": "Social media post timestamp. Local police reports. City council records. News timeline.",
+        "skill": "Social media forensics + official record cross-reference",
+        "difficulty": "medium",
+        "reward": "You just learned that claims can be checked against police reports in 30 seconds."
+      },
+      {
+        "type": "rumor_origin",
+        "challenge": "The 'MSG is bad for you' myth — who started it and when?",
+        "answer_hint": "Robert Ho Man Kwok, 1968 letter to NEJM. 'Chinese Restaurant Syndrome.' Subsequent studies found no effect.",
+        "skill": "Medical literature trail",
+        "difficulty": "medium",
+        "reward": "A single letter to a journal in 1968 created 56 years of fear. One letter. Check the source."
+      },
+      {
+        "type": "speed_verify",
+        "challenge": "Brian Roderick Banks — does he have a teaching credential in Michigan? Go.",
+        "answer_hint": "michigan.gov/ichat → search → 15 seconds. PIC 287338.",
+        "skill": "Public record lookup",
+        "difficulty": "quick",
+        "reward": "15 seconds. One search. The answer is in public records. THIS is how the investigation works."
+      },
+      {
+        "type": "speed_verify",
+        "challenge": "Is Purpose Charter Academy in the bottom 3% of Michigan schools? Prove it.",
+        "answer_hint": "mischooldata.org → search school → proficiency rates. 3% math. 12% reading.",
+        "skill": "Education data lookup",
+        "difficulty": "quick",
+        "reward": "Public data. Free. No FOIA needed. The numbers don't require endorsement to be true."
+      },
+      {
+        "type": "speed_verify",
+        "challenge": "Does Mark Zuckerberg own property in Kauai? How much land?",
+        "answer_hint": "Hawaii county property records. Public. 1,400 acres. Court filings about access disputes.",
+        "skill": "Property record search",
+        "difficulty": "medium",
+        "reward": "Property records are public. Every billionaire's land holdings are a search away."
+      },
+      {
+        "type": "speed_verify",
+        "challenge": "How many LARA filings does Brian Banks have? Name them.",
+        "answer_hint": "LARA business search. Purpose Group LLC, Empowerment Education, PCA, etc.",
+        "skill": "Business entity search",
+        "difficulty": "medium",
+        "reward": "LARA is Michigan's business registry. Every LLC, every filing, every agent. Public. Free."
+      },
+      {
+        "type": "meta",
+        "challenge": "Clone the repo. Find a node that's wrong. Open an issue.",
+        "answer_hint": "git clone https://github.com/defendDetroit/publicRecord.git",
+        "skill": "Peer review",
+        "difficulty": "deep",
+        "reward": "You just peer-reviewed a 12,696-node investigation. Your correction makes it stronger."
+      },
+      {
+        "type": "meta",
+        "challenge": "The graph says the sort ratio is 0.3949. Is that closer to 1/pi or 1/e? Does it matter?",
+        "answer_hint": "1/pi = 0.3183, 1/e = 0.3679. Current ratio 0.3949 is above both. Does the target matter, or does the approach?",
+        "skill": "Mathematical reasoning about classification",
+        "difficulty": "deep",
+        "reward": "You just thought about whether the target or the journey matters more. That IS the irrational remainder."
+      },
+      {
+        "type": "meta",
+        "challenge": "The squirrel says 'HD 48265 c' is unclassified. What is it? Tell the squirrel.",
+        "answer_hint": "Search any astronomy database. Is it a star? A planet? A catalog number?",
+        "skill": "Domain research + membrane contribution",
+        "difficulty": "quick",
+        "reward": "You just taught the squirrel something. The bounty board got smaller. You're k-n Gen now."
+      }
+    ]
+  },
+  "squirrel_challenge": {
+    "type": "rumor_origin",
+    "challenge": "The 'MSG is bad for you' myth — who started it and when?",
+    "answer_hint": "Robert Ho Man Kwok, 1968 letter to NEJM. 'Chinese Restaurant Syndrome.' Subsequent studies found no effect.",
+    "skill": "Medical literature trail",
+    "difficulty": "medium",
+    "reward": "A single letter to a journal in 1968 created 56 years of fear. One letter. Check the source."
+  }
 }
