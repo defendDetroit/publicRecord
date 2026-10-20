@@ -2,7 +2,7 @@
 title = "The Opportunity Atlas \u2014 It Hits All By Itself"
 description = "Not goal-path mapping. Opportunity-alternative mapping. Every project is a door, not a destination. The Lansing Scuffle. Thermal sovereignty. Pistachio trees in New Mexico. Lattice QCD on a $600 GPU. The doors stay open. Walk through any of them. Bruce Lee said: I do not hit. It hits all by itself."
 date = 2026-10-18
-weight = 95
+weight = 14
 
 [taxonomies]
 connections = ["opportunity atlas", "scuffle", "thermal sovereignty", "pistachios", "alternative mapping", "bruce lee"]

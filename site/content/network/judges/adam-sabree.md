@@ -1,7 +1,7 @@
 +++
 title = "Judge Adam Sabree — 36th District Court"
 description = "Judge Adam Sabree — 36th District Court. Son of Wayne County Treasurer Eric Sabree (FBI-probed)."
-weight = 6
+weight = 14
 date = 2026-09-20
 updated = 2026-09-25
 

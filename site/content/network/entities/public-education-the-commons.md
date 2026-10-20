@@ -2,7 +2,7 @@
 title = "Public Education (The Commons)"
 date = 2026-10-12
 description = "The shared resource. Public education is a commons — it belongs to every child. When a convicted felon extracts 72.67% of per-pupil funding through a private LLC, he is enclosing the commons. This is "
-weight = 22
+weight = 6
 
 [extra]
 keywords = "Public Education (The Commons), Detroit charter school network, Brian Banks network"

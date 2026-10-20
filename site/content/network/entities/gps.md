@@ -2,7 +2,7 @@
 title = "GPS"
 date = 2026-10-12
 description = "Global Positioning System. Built by US military with PUBLIC money. Made freely available to civilians 1983 (Reagan, after KAL 007). Uses Einstein's relativity for time correction. Public infrastructur"
-weight = 98
+weight = 5
 
 [extra]
 keywords = "GPS, Detroit charter school network, Brian Banks network"

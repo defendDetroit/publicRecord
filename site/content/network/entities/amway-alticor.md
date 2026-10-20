@@ -2,7 +2,7 @@
 title = "Amway / Alticor"
 date = 2026-10-12
 description = "Ada MI (Grand Rapids). DeVos family company. Richard DeVos founded. $8.5B revenue. Largest private company in Michigan. Political donor machine."
-weight = 29
+weight = 5
 
 [extra]
 keywords = "Amway / Alticor, Detroit charter school network, Brian Banks network"

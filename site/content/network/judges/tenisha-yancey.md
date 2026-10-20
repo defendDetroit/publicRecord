@@ -1,7 +1,7 @@
 +++
 title = "Judge Tenisha Yancey — The Bridge"
 description = "Judge Tenisha Yancey, 36th District Court. MacDowell Board Chair. Her sole campaign activity: paying Banks' LLC $383.82. Sister Dr. Chalena Yancey Beasley runs PCA. Son Jaylen paid $2,935 from campaign. Niece of UAW VP Jimmy Settles. Worked at Wayne County Land Bank under Eric Sabree. Succeeded Banks in HD-1. Grew up on his street."
-weight = 2
+weight = 13
 date = 2026-09-20
 updated = 2026-09-27
 

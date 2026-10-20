@@ -2,7 +2,7 @@
 title = "The Reservation Exception — How Tribal Sovereignty Became a Corporate License to Dublin"
 description = "IGRA (1988) gave tribal nations the right to operate gaming as economic self-determination. Michigan PA 149 (2019) turned that into a license for Flutter Entertainment (Dublin, Ireland) to extract $755 million from Michigan through FanDuel while paying only 8.4% tax. The remaining tax goes to the School Aid Fund — the same fund that pays per-pupil to Brian Banks' charter schools. The circle is complete."
 date = 2026-10-18
-weight = 1
+weight = 14
 
 [taxonomies]
 actors = ["Brian Banks"]

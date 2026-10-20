@@ -2,7 +2,7 @@
 title = "Matthew Kelly"
 date = 2026-10-12
 description = "Partner, Plante Moran. K-12 Education Practice Leader (July 2025-). Kalamazoo office MP. CPA. Leads 200+ educational institution clients. Succeeds Jennifer Chambers."
-weight = 98
+weight = 4
 
 [extra]
 keywords = "Matthew Kelly, Plante Moran, Detroit charter school network, Ahmed Beasley"

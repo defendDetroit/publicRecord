@@ -2,7 +2,7 @@
 title = "Earth"
 date = 2026-10-12
 description = "4.54 billion years old. 8 billion people. One atmosphere. The only planet with known life. The commons under all commons. Nobody owns it. Everybody borrows it."
-weight = 96
+weight = 6
 
 [extra]
 keywords = "Earth, Detroit charter school network, Brian Banks network"

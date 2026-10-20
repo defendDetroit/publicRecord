@@ -2,7 +2,7 @@
 title = "Gordon Krater"
 date = 2026-10-12
 description = "CHAIRMAN OF THE BOARD, Barton Malow. FORMER MANAGING PARTNER of Plante Moran (8 years). 40+ years at Plante Moran. UMich Ross School BBA. 'My experiences at Plante Moran led to my being asked to join "
-weight = 97
+weight = 4
 
 [extra]
 keywords = "Gordon Krater, Detroit charter school network, Brian Banks network"

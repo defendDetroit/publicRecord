@@ -2,7 +2,7 @@
 title = "Vaccination"
 date = 2026-10-12
 description = "Jenner (1796, smallpox). Pasteur. Salk refused to patent the polio vaccine: 'Could you patent the sun?' mRNA vaccines built on decades of PUBLIC research (Kariko, Weissman). The science belongs to eve"
-weight = 99
+weight = 4
 
 [extra]
 keywords = "Vaccination, Detroit charter school network, Brian Banks network"

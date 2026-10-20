@@ -1,7 +1,7 @@
 +++
 title = "Gregory M. Meihn — Hall of Fame Attorney, Weekly Meetings, Missed Everything"
 description = "Gregory M. Meihn, Partner at Foley & Mansfield PLLP. Michigan Lawyers Weekly Hall of Fame 2022. 66+ trials. Retained by MacDowell within 14 minutes of MDE investigation. Weekly compliance meetings with Banks. Testified Banks is a 'rare find' at TCR 22-12 hearing. Meets weekly but somehow missed Banks' false §5.2 representation in the Management Agreement."
-weight = 2
+weight = 25
 date = 2026-09-25
 updated = 2026-09-30
 

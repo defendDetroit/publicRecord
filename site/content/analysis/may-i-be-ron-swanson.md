@@ -2,7 +2,7 @@
 title = "May I Be Ron Swanson at the End"
 description = "Michael Scott wanted to be loved. Ron Swanson wanted to be left alone. Leslie Knope wanted to fix everything. They are three phases of the same journey. And Scooby-Doo taught us the most important thing: to solve a mystery requires asking a question. The monster is always a person. The mask always comes off. And they would have gotten away with it, too."
 date = 2026-10-18
-weight = 0
+weight = 10
 
 [taxonomies]
 tags = ["membrane", "negentropy", "self", "ecoPrimal", "art", "gratitude", "convergent-evolution"]

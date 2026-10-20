@@ -2,7 +2,7 @@
 title = "Lisa Moreland"
 date = 2026-10-12
 description = "AAG â†’ PCA Board Director"
-weight = 27
+weight = 4
 
 [extra]
 keywords = "Lisa Moreland, Detroit charter school network, Brian Banks network"

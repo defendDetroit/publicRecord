@@ -1,7 +1,7 @@
 +++
 title = "A Breath"
 date = 2026-10-19
-weight = 106
+weight = 5
 [taxonomies]
 tags = ["investigation"]
 +++

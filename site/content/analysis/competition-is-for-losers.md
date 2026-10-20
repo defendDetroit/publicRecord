@@ -1,7 +1,7 @@
 +++
 title = "Competition Is for Losers"
 date = 2026-10-15
-weight = 3
+weight = 9
 [taxonomies]
 tags = ["thiel", "cooperation", "commons", "free", "inversion"]
 +++

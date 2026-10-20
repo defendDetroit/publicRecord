@@ -2,7 +2,7 @@
 title = "Richard D. McLellan"
 date = 2026-10-12
 description = "Former Dykema partner (1982-2007, retired). Co-authored MI charter school law (PA 362). CO-FOUNDED Mackinac Center for Public Policy (1987) with Engler. Engler transition director (1990). McPherson Co"
-weight = 28
+weight = 6
 
 [extra]
 keywords = "Richard D. McLellan, Detroit charter school network, Brian Banks network"

@@ -1,7 +1,7 @@
 +++
 title = "Joseph Holland Jr. — Financial Gatekeeper, Romantic Partner"
 description = "Joseph Holland Jr. Brian Banks' romantic partner. Convicted drug offender (MDOC #443789). Discharged WITHOUT IMPROVEMENT. Banks uses Holland for every financial gatekeeping role in the enterprise."
-weight = 2
+weight = 35
 date = 2026-09-20
 updated = 2026-09-30
 

@@ -2,7 +2,7 @@
 title = "The Sensation Gap \u2014 Publishing Is Not Deploying"
 description = "We deployed a doorbell. Then tested: can both sides feel it? Two surfaces felt both sides. One was numb. The lesson: publishing is not sensation. Both sides must feel the signal. nestgate.io is the sensation point where data federation will bridge the gap."
 date = 2026-10-18
-weight = 97
+weight = 10
 
 [taxonomies]
 connections = ["sensation gap", "nestgate", "federation", "fluid dynamics", "doorbell", "touchstone"]

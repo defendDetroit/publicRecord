@@ -2,7 +2,7 @@
 title = "Markus 'Notch' Persson"
 date = 2026-10-12
 description = "Born 1979, Stockholm. Created Minecraft alone. Sold to Microsoft for $2.5B. Then said the money made him miserable. 'The problem with getting everything is you run out of reasons to keep trying.' Crea"
-weight = 99
+weight = 4
 
 [extra]
 keywords = "Markus 'Notch' Persson, commons, public knowledge, public education"

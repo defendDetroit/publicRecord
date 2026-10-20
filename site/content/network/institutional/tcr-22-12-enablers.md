@@ -1,7 +1,7 @@
 +++
 title = "TCR 22-12 — The People Who Vouched"
 description = "Analysis of the TCR 22-12 hearing testimony vs. Banks's subsequent conduct. Five professionals vouched for Banks under oath. Their assessments did not hold. The 'diagnoses' were not clinical — they were verbal agreements between non-medical professionals."
-weight = 10
+weight = 27
 date = 2026-09-30
 
 [taxonomies]

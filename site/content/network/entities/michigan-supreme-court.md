@@ -2,7 +2,7 @@
 title = "Michigan Supreme Court"
 date = 2026-10-12
 description = ""
-weight = 12
+weight = 5
 
 [extra]
 keywords = "Michigan Supreme Court, Detroit charter school network, Brian Banks network"

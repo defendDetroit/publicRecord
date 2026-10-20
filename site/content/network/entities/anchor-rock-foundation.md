@@ -1,7 +1,7 @@
 +++
 title = "Anchor Rock Foundation — Judge Miller Board Chair"
 description = "Anchor Rock Foundation — dissolved Banks nonprofit previously chaired by Judge Cylenthia Miller. A sitting judge chairing a convicted felon's entity."
-weight = 7
+weight = 10
 date = 2026-09-20
 updated = 2026-09-25
 

@@ -2,7 +2,7 @@
 title = "Charles Darwin"
 date = 2026-10-12
 description = "1809-1882. On the Origin of Species (1859). Waited 20 years to publish because he knew the world would hate it. Published anyway. The courage to tell the truth when the truth is unwelcome."
-weight = 99
+weight = 3
 
 [extra]
 keywords = "Charles Darwin, commons, public knowledge, public education"

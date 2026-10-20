@@ -1,7 +1,7 @@
 +++
 title = "Attorney Grievance Commission"
 description = "Michigan’s attorney discipline body. 9 commissioners, 4 administrators, 1 general counsel, 10 associate counsel. File 26-2141: returned complaints about Banks/Moreland/Perkins (Oct 1) and Miller (Oct 9). Both signed by Bullington. 44 years of institutional knowledge. Zero investigations opened."
-weight = 1
+weight = 19
 date = 2026-10-18
 
 [extra]

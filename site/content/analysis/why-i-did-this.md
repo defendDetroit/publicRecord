@@ -1,7 +1,7 @@
 +++
 title = "Why I Did This"
 date = 2026-10-19
-weight = 105
+weight = 16
 [taxonomies]
 tags = ["investigation"]
 +++

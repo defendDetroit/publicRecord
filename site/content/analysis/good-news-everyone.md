@@ -1,7 +1,7 @@
 +++
 title = "Good News, Everyone! — The Farnsworth Manifesto (Internal)"
 date = 2026-10-19
-weight = 92
+weight = 12
 description = "The squirrel family needs elders. Professor Farnsworth is always one cotangent off grandpa. Fry is the everyman who accidentally saves the universe. The internal manifesto for the membrane's personality. Pull, don't push. Let them come to you."
 [taxonomies]
 tags = ["futurama", "internal", "manifesto", "farnsworth", "family", "archetype", "pull"]

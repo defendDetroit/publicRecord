@@ -1,7 +1,7 @@
 +++
 title = "Judge Denise Langford Morris (Retired)"
 description = "Judge Denise Langford Morris (Retired) — 30-year Oakland County judge. Wrote Banks book foreword using fake J.D."
-weight = 9
+weight = 10
 date = 2026-09-20
 updated = 2026-09-25
 

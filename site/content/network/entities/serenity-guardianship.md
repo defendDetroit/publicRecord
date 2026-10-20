@@ -1,7 +1,7 @@
 +++
 title = "Serenity Guardianship Services — UPL Red Flag"
 description = "Serenity Guardianship Services — dissolved entity run by convicted felon Brian Banks. Non-attorney running guardianship services = textbook UPL."
-weight = 8
+weight = 10
 date = 2026-09-20
 updated = 2026-09-25
 

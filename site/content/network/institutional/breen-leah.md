@@ -1,7 +1,7 @@
 +++
 title = "Leah Breen — MDE Official"
 description = "Leah Breen, Michigan Department of Education official. First to flag non-compliance in the Banks credential investigation."
-weight = 5
+weight = 6
 date = 2026-09-25
 updated = 2026-09-25
 

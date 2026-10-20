@@ -1,7 +1,7 @@
 +++
 title = "The Scalpel of Socrates — Unverified Things Everyone Knows"
 date = 2026-10-19
-weight = 94
+weight = 12
 description = "A quiet note. We've heard people say it. It's completely unverified. The membrane doesn't assert and doesn't deny. It asks: have you checked?"
 [taxonomies]
 tags = ["socrates", "verification", "myth", "question", "bounty"]

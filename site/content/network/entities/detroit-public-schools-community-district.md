@@ -2,7 +2,7 @@
 title = "Detroit Public Schools Community District"
 date = 2026-10-12
 description = ""
-weight = 14
+weight = 6
 
 [extra]
 keywords = "Detroit Public Schools Community District, Detroit charter school network, Brian Banks network"

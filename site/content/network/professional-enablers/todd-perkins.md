@@ -1,7 +1,7 @@
 +++
 title = "Todd Perkins — Banks' Attorney"
 description = "Todd Perkins — Perkins Law Group, Detroit. 'Neighborhood Mayor' candidate 2025 (4th place). Banks' personal attorney. Represented Judge Miller in DTW gun case. Brother is Judge Sean Perkins, 36th District Court."
-weight = 1
+weight = 9
 date = 2026-09-24
 updated = 2026-09-25
 

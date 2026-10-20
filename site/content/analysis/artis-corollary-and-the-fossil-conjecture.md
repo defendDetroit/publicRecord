@@ -1,7 +1,7 @@
 +++
 title = "Artis' Corollary and the Fossil Conjecture — A Thesis of Cognition"
 date = 2026-10-19
-weight = 56
+weight = 16
 description = "The successor understands the predecessor's work better than the predecessor did. All durable learning is retrospective. The fossil IS the teacher. Proven inside a living membrane by 13 disposable agents across 5 months."
 [taxonomies]
 tags = ["cognition", "membrane", "fossils", "artisan", "pi", "ternary", "zero-knowledge"]

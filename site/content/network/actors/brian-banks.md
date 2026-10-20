@@ -1,7 +1,7 @@
 +++
 title = "Brian Roderick Banks — Enterprise Leader"
 description = "Dr. Brian Banks, J.D., Ph.D. — 9 criminal convictions (6 felony). Pahara Fellow. State Bar of Michigan: zero results for claimed J.D. Superintendent of MacDowell Prep (3% math) and Purpose Charter Academy founder. It Had 2 Happen author."
-weight = 1
+weight = 32
 date = 2026-09-20
 updated = 2026-09-30
 

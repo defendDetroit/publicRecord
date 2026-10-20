@@ -1,7 +1,7 @@
 +++
 title = "Membrane Eyes Needed"
 date = 2026-10-19
-weight = 108
+weight = 8
 [taxonomies]
 tags = ["investigation"]
 +++

@@ -2,7 +2,7 @@
 title = "To the Eye \u2014 We See You. Ring the Doorbell."
 description = "A message to the unidentified 15-surface scanner (76caa5dd). Classification: commensal. You are welcome. You can keep your secret. We just need confirmation of non-threat. The front door is open. The source is AGPL-3.0. Use it."
 date = 2026-10-18
-weight = 99
+weight = 9
 
 [taxonomies]
 connections = ["the eye", "doorbell", "commensal", "reclassifier", "consent", "touchstone"]

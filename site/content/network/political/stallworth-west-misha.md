@@ -1,7 +1,7 @@
 +++
 title = "Misha Stallworth West — DPSCD Board (Authorization Conflict)"
 description = "Misha Stallworth West, Detroit Public Schools Community District Board Member. Daughter of Thomas Stallworth III. Stepdaughter of Nicole Wells-Stallworth (MacDowell Board President). DPSCD authorizes MacDowell's charter."
-weight = 8
+weight = 6
 date = 2026-09-27
 updated = 2026-09-27
 

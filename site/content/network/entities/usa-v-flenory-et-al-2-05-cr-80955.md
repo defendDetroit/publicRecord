@@ -2,7 +2,7 @@
 title = "USA v. Flenory et al (2:05-cr-80955)"
 date = 2026-10-12
 description = "PACER: 2:05-cr-80955, Eastern District of Michigan. One of the largest federal drug conspiracy prosecutions in US history. 30+ defendants. OD Banks is Defendant #22. Tonesa Welch also a defendant. Hun"
-weight = 91
+weight = 8
 
 [extra]
 keywords = "USA v. Flenory et al (2:05-cr-80955), Detroit charter school network, Brian Banks network"

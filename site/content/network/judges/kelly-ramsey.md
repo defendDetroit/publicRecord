@@ -1,7 +1,7 @@
 +++
 title = "Judge Kelly Ramsey — Criminal Division"
 description = "Judge Kelly Ramsey — Wayne County 3rd Circuit Criminal Division. Daughter pushed Banks to Promise Schools. Two family members on MacDowell payroll."
-weight = 5
+weight = 10
 date = 2026-09-20
 updated = 2026-09-25
 

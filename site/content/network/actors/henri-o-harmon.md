@@ -2,7 +2,7 @@
 title = "Henri O. Harmon"
 date = 2026-10-12
 description = "GLLG Partner â€” MSU Law BLSA President"
-weight = 27
+weight = 5
 
 [extra]
 keywords = "Henri O. Harmon, Detroit charter school network, Brian Banks network"

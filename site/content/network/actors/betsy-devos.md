@@ -2,7 +2,7 @@
 title = "Betsy DeVos"
 date = 2026-10-12
 description = "Former Education Secretary, AFC chair"
-weight = 20
+weight = 6
 
 [extra]
 keywords = "Betsy DeVos, Detroit charter school network, Brian Banks network, DeVos Michigan charter schools"

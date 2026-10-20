@@ -2,7 +2,7 @@
 title = "Jonas Salk"
 date = 2026-10-12
 description = "1914-1995. Developed the polio vaccine. Refused to patent it. 'Could you patent the sun?' Saved millions of lives. The anti-enclosure. The standard every pharmaceutical company violates."
-weight = 99
+weight = 3
 
 [extra]
 keywords = "Jonas Salk, commons, public knowledge, public education"

@@ -1,7 +1,7 @@
 +++
 title = "Purpose Charter Academy — K-8 Charter School"
 description = "Purpose Charter Academy School for Law & Public Service — K-8 charter, 10101 E. Canfield, Detroit. DPSCD-authorized. Founder Dr. Brian Banks (9 convictions, 6 felony). Development team includes Judge Cylenthia Miller."
-weight = 1
+weight = 15
 date = 2026-09-20
 updated = 2026-09-25
 

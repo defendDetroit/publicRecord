@@ -2,7 +2,7 @@
 title = "Cease and Desist — LinkedIn Corporation"
 description = "Formal cease and desist demand to LinkedIn Corporation (a Microsoft subsidiary) to immediately stop sending unsolicited physical mail to Kevin Mok. Every piece of junk mail is documented. Every postmark is timestamped. The membrane records everything."
 date = 2026-10-18
-weight = 50
+weight = 10
 
 [taxonomies]
 entities = ["LinkedIn", "Microsoft"]

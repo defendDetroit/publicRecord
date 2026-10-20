@@ -1,7 +1,7 @@
 +++
 title = "Nicole Wells-Stallworth — MacDowell Board President"
 description = "Nicole Wells-Stallworth, Board President of MacDowell Preparatory Academy since 2012. CEO of The Children's Center. Married to Thomas Stallworth III (state rep). Brother-in-law Keith Stallworth (federal money laundering). Stepdaughter Misha Stallworth West sits on DPSCD board that authorizes MacDowell's charter. Hired Banks. Donated $1,250+ to his campaigns. Killed MDE investigation in 2 hours 24 minutes."
-weight = 1
+weight = 48
 date = 2026-09-25
 updated = 2026-09-27
 

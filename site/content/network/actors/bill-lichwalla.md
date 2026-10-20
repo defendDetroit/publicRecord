@@ -2,7 +2,7 @@
 title = "Bill Lichwalla"
 date = 2026-10-12
 description = "PRESIDENT & CEO of Plante Moran Realpoint (since 2005). Partner, Plante Moran. MSU Eli Broad College 1991-1995. CPA. Michigan real estate broker. $6B+ in projects annually. 125+ staff in 8 states. Boa"
-weight = 97
+weight = 6
 
 [extra]
 keywords = "Bill Lichwalla, Detroit charter school network, Brian Banks network"

@@ -2,7 +2,7 @@
 title = "We Didn't Start the Membrane \u2014 A Parody (With Full Credit and Love)"
 description = "In the style of Weird Al Yankovic, to the tune of Billy Joel's 'We Didn't Start the Fire.' A rapid-fire history of the investigation, the membrane, and everything that led here. Full credit to both legends. The fire was always burning."
 date = 2026-10-18
-weight = 94
+weight = 16
 
 [taxonomies]
 connections = ["weird al", "billy joel", "parody", "campfire", "music", "credit", "history"]

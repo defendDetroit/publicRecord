@@ -2,7 +2,7 @@
 title = "Cease and Desist — Robocallers, Credit Card Offers, and Loan Scam Calls"
 description = "Formal cease and desist to every robocaller, auto-dialer, and spam operation sending unsolicited credit card offers, loan solicitations, and scam calls. You are calling a number that is on the National Do Not Call Registry. Every call is logged. Every number is recorded. Stop calling."
 date = 2026-10-18
-weight = 52
+weight = 11
 
 [taxonomies]
 entities = ["FTC", "FCC", "National Do Not Call Registry"]

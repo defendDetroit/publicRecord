@@ -2,7 +2,7 @@
 title = "perkins d"
 date = 2026-10-12
 description = ""
-weight = 28
+weight = 4
 
 [extra]
 keywords = "perkins d, Detroit charter school network, Brian Banks network"

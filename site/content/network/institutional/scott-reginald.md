@@ -1,7 +1,7 @@
 +++
 title = "Reginald B. Scott II — MDE Official"
 description = "Reginald B. Scott II, former Michigan Department of Education official. Referenced in FOIA documents related to MOECS records."
-weight = 6
+weight = 7
 date = 2026-09-25
 updated = 2026-09-25
 

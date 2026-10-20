@@ -2,7 +2,7 @@
 title = "Action Across a Class — Not Class Action. You Deal With MY Case."
 description = "Class action unifies plaintiffs into one case, one lawyer, one settlement. Action Across a Class is the inverse: the graph teaches everyone to file their OWN case. 10,000 individual filings. The defendant deals with YOUR case, not theirs. No unification. No 30% attorney fee. The scatter IS the design."
 date = 2026-10-19
-weight = 15
+weight = 11
 
 [taxonomies]
 entities = ["DraftKings", "LinkedIn", "FTC", "FCC", "TCPA"]

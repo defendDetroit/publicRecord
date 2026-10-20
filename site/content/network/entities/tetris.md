@@ -2,7 +2,7 @@
 title = "Tetris"
 date = 2026-10-12
 description = "1985. Created by Alexey Pajitnov at the Soviet Academy of Sciences in Moscow. On a government computer. The USSR owned the rights. Pajitnov got nothing for a decade. The most popular video game ever m"
-weight = 98
+weight = 5
 
 [extra]
 keywords = "Tetris, commons, public knowledge, public education"

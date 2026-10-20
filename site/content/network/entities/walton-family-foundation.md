@@ -2,7 +2,7 @@
 title = "Walton Family Foundation"
 date = 2026-10-12
 description = "Walmart heirs' education philanthropy"
-weight = 10
+weight = 8
 
 [extra]
 keywords = "Walton Family Foundation, Detroit charter school network, Brian Banks network"

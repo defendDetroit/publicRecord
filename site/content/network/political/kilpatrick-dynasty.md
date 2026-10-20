@@ -1,7 +1,7 @@
 +++
 title = "The Kilpatrick Dynasty — Next Generation Playbook"
 description = "Banks explicitly aligned himself with the Kilpatrick political dynasty. Carolyn Cheeks Kilpatrick (Kwame's mother, former Congresswoman) was an honorary host at Banks' 2023 CBC party. Karen Dumas (Kwame's comms chief) promotes Banks' schools. Kenneth Daniels (Kwame appointee, convicted drug money structurer) runs dark money backing Banks' board members. The pattern: convicted officials protecting convicted officials."
-weight = 9
+weight = 18
 date = 2026-09-27
 updated = 2026-09-27
 

@@ -2,7 +2,7 @@
 title = "Michigan Department of Education"
 date = 2026-10-12
 description = ""
-weight = 18
+weight = 6
 
 [extra]
 keywords = "Michigan Department of Education, Detroit charter school network, Brian Banks network"

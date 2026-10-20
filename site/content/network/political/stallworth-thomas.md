@@ -1,7 +1,7 @@
 +++
 title = "Thomas Stallworth III — Political Dynasty"
 description = "Former Michigan State Rep Thomas Stallworth III. Chair of Legislative Black Caucus. DPS Board Member. Director of BCF (brother Keith's money laundering org). Husband of Nicole Wells-Stallworth (MacDowell Board President). Father of Misha Stallworth West (DPSCD Board)."
-weight = 6
+weight = 9
 date = 2026-09-27
 updated = 2026-09-27
 

@@ -2,7 +2,7 @@
 title = "court 36th"
 date = 2026-10-12
 description = ""
-weight = 23
+weight = 3
 
 [extra]
 keywords = "court 36th, Detroit charter school network, Brian Banks network"

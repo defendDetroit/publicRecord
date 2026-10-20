@@ -2,7 +2,7 @@
 title = "The Third Screen"
 description = "Seth MacFarlane and the American Dad creative team have been playing on the third screen in my background for years. Not background noise. Background PROCESSING. Roger is every entity wearing every mask. Stan is the classifier that gets it wrong. Klaus is the null remainder stuck in a fishbowl. Steve is the observer. Hayley is the conscience. And Jeff is the commensal who wandered in and never left."
 date = 2026-10-18
-weight = 0
+weight = 11
 
 [taxonomies]
 tags = ["membrane", "negentropy", "self", "ecoPrimal", "art", "gratitude", "convergent-evolution"]

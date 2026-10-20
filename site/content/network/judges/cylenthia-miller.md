@@ -1,7 +1,7 @@
 +++
 title = "Judge Cylenthia Miller"
 description = "Judge Cylenthia Miller — Wayne County 3rd Circuit, re-election Nov 3, 2026. keepjudgemiller.com. Anchor Rock Foundation board chair. Purpose Charter Academy development team. DTW airport gun. OWI East Lansing 'wholly improper.'"
-weight = 1
+weight = 17
 date = 2026-09-20
 updated = 2026-09-25
 

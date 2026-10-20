@@ -2,7 +2,7 @@
 title = "Tawanesha Jones-Williams"
 date = 2026-10-12
 description = "Senior Vice President, Plante Moran Realpoint. Promoted to SVP in 2024 same cycle as Ahmed Beasley."
-weight = 98
+weight = 3
 
 [extra]
 keywords = "Tawanesha Jones-Williams, Plante Moran, Detroit charter school network, Ahmed Beasley"

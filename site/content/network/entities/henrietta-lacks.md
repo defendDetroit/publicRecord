@@ -2,7 +2,7 @@
 title = "Henrietta Lacks"
 date = 2026-10-12
 description = "1920-1951. Her HeLa cells — taken without consent — became the foundation of modern cell biology. Polio vaccine, cancer research, gene mapping. Her family received nothing for decades. The most famous"
-weight = 99
+weight = 5
 
 [extra]
 keywords = "Henrietta Lacks, Detroit charter school network, Brian Banks network"

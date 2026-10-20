@@ -2,7 +2,7 @@
 title = "Alexey Pajitnov"
 date = 2026-10-12
 description = "Born 1956, Moscow. Created Tetris in 1985 at the Soviet Academy of Sciences. The USSR owned the rights. He received nothing until 1996 when he co-founded The Tetris Company. A man who created the most"
-weight = 99
+weight = 4
 
 [extra]
 keywords = "Alexey Pajitnov, commons, public knowledge, public education"

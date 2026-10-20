@@ -2,7 +2,7 @@
 title = "Eastern Michigan University"
 date = 2026-10-12
 description = ""
-weight = 24
+weight = 4
 
 [extra]
 keywords = "Eastern Michigan University, Detroit charter school network, Brian Banks network"

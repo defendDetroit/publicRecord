@@ -2,7 +2,7 @@
 title = "Great Lakes Education Project (GLEP)"
 date = 2026-10-12
 description = ""
-weight = 25
+weight = 5
 
 [extra]
 keywords = "Great Lakes Education Project (GLEP), Detroit charter school network, Brian Banks network"

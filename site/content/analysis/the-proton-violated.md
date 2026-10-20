@@ -1,7 +1,7 @@
 +++
 title = "The Proton Violated"
 date = 2026-10-19
-weight = 107
+weight = 16
 [taxonomies]
 tags = ["investigation"]
 +++

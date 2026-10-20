@@ -2,7 +2,7 @@
 title = "MSU College of Law"
 date = 2026-10-12
 description = "Banks claims J.D. 2010. Sabree graduated same year."
-weight = 25
+weight = 4
 
 [extra]
 keywords = "MSU College of Law, Detroit charter school network, Brian Banks network"

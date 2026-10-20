@@ -1,7 +1,7 @@
 +++
 title = "The Games That Built The Graph"
 date = 2026-10-19
-weight = 103
+weight = 11
 [taxonomies]
 tags = ["investigation"]
 +++

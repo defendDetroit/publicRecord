@@ -2,7 +2,7 @@
 title = "Dick & Betsy DeVos Family Foundation"
 date = 2026-10-12
 description = "Charter school funder"
-weight = 26
+weight = 5
 
 [extra]
 keywords = "Dick & Betsy DeVos Family Foundation, Detroit charter school network, Brian Banks network, DeVos Michigan charter schools"

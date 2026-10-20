@@ -2,7 +2,7 @@
 title = "Jennifer Chambers"
 date = 2026-10-12
 description = "Partner, Plante Moran. Former K-12 Education Practice Leader (before July 2025). Still serves K-12 and real estate clients. Preceded Matthew Kelly."
-weight = 98
+weight = 4
 
 [extra]
 keywords = "Jennifer Chambers, Plante Moran, Detroit charter school network, Ahmed Beasley"

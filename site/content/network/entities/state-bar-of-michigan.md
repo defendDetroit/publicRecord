@@ -2,7 +2,7 @@
 title = "State Bar of Michigan"
 date = 2026-10-12
 description = ""
-weight = 16
+weight = 5
 
 [extra]
 keywords = "State Bar of Michigan, Detroit charter school network, Brian Banks network"

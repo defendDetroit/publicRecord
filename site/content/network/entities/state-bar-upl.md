@@ -1,7 +1,7 @@
 +++
 title = "State Bar of Michigan — UPL Department"
 description = "Handles unauthorized practice of law complaints. File 26-UP-51: closed Banks’ UPL complaint in ~30 days. ‘Does not meet the standards set by the Unauthorized Practice of Law Committee.’ Alternative offered: ‘You may have other remedies available to you.’ Third node in the referral loop."
-weight = 3
+weight = 8
 date = 2026-10-18
 
 [extra]

@@ -2,7 +2,7 @@
 title = "Dr. Glenn Maleyko"
 date = 2026-10-12
 description = "MI Superintendent of Public Instruction (Dec 2025). SBE Chair. PhD Wayne State ELPS (same dept as Beasley/Hill). Former Dearborn Supt."
-weight = 28
+weight = 5
 
 [extra]
 keywords = "Dr. Glenn Maleyko, Detroit charter school network, Brian Banks network"

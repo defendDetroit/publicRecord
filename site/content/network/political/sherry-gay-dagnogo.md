@@ -1,7 +1,7 @@
 +++
 title = "Sherry Gay-Dagnogo — The Golden Parachute"
 description = "Detroit Ombudsman (10-year term to 2035). Former DPSCD board member who authorized PCA. Former MI State Rep who publicly rallied for Banks at AG charges. Paid convicted drug trafficker Holland $2,000 from her PAC. Sought Kwame Kilpatrick clemency. AG-referred for campaign finance violations. Thanked by name in Banks' book."
-weight = 1
+weight = 13
 date = 2026-09-20
 updated = 2026-09-27
 

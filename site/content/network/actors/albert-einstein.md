@@ -2,7 +2,7 @@
 title = "Albert Einstein"
 date = 2026-10-12
 description = "1879-1955. Patent clerk who rewrote physics. Special relativity, general relativity, photoelectric effect, Brownian motion. Refused to work on the atomic bomb after signing the letter. Gave his brain "
-weight = 98
+weight = 5
 
 [extra]
 keywords = "Albert Einstein, commons, public knowledge, public education"

@@ -1,7 +1,7 @@
 +++
 title = "The Science Of Law"
 date = 2026-10-19
-weight = 101
+weight = 12
 [taxonomies]
 tags = ["investigation"]
 +++

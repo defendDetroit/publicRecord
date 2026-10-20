@@ -2,7 +2,7 @@
 title = "Cease and Desist — DraftKings and Sports Betting Junk Mailers"
 description = "Formal cease and desist demand to DraftKings, Inc. and all sports betting operators to immediately stop sending unsolicited physical mail, text messages, and promotional materials to Kevin Mok. I did not ask for this. I do not want it. Stop."
 date = 2026-10-18
-weight = 51
+weight = 14
 
 [taxonomies]
 entities = ["DraftKings", "FanDuel", "BetMGM", "Michigan Gaming Control Board"]

@@ -2,7 +2,7 @@
 title = "Renae Moore"
 date = 2026-10-12
 description = "Compliance officer (Dykema)"
-weight = 89
+weight = 5
 
 [extra]
 keywords = "Renae Moore, Detroit charter school network, Brian Banks network"

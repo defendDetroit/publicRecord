@@ -2,7 +2,7 @@
 title = "All Roads Lead Back to Rome — The Complete Persona Book"
 description = "Every person. Every entity. Every address, phone, fax, front desk, secretary, intake form, and public position. The complete operational contact directory for the Banks enterprise investigation. All roads converge on MSU College of Law."
 date = 2026-10-18
-weight = 1
+weight = 126
 
 [taxonomies]
 actors = ["Brian Banks", "Joseph Holland Jr", "Judge Cylenthia Miller", "Todd Perkins", "Lamar Moreland", "Renae Moore", "Cynthia C. Bullington", "Michael V. Goetz", "Kathleen Hickey", "AG Dana Nessel", "M.L. Elrick"]

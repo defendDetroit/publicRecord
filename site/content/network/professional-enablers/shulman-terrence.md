@@ -1,7 +1,7 @@
 +++
 title = "Terrence D. Shulman — State Bar Referral Therapist"
 description = "Terrence Daryl Shulman, JD, LMSW, ACSW, CAADC, CPC. Self-described recovering theft addict who testified that Brian Banks is 'not dishonest as a matter of character.' His therapeutic model — that theft is addiction, not character — IS his testimony."
-weight = 3
+weight = 12
 date = 2026-09-30
 updated = 2026-09-30
 

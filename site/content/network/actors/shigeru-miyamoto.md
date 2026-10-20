@@ -2,7 +2,7 @@
 title = "Shigeru Miyamoto"
 date = 2026-10-12
 description = "Born 1952, Kyoto. Created Mario, Zelda, Donkey Kong, Star Fox, Pikmin. The most important video game designer in history. Still at Nintendo. Industrial design degree from Kanazawa Munici. Wanted to be"
-weight = 99
+weight = 5
 
 [extra]
 keywords = "Shigeru Miyamoto, commons, public knowledge, public education"

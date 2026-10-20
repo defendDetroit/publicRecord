@@ -2,7 +2,7 @@
 title = "Chief Justice Megan K. Cavanagh"
 date = 2026-10-12
 description = "MI Supreme Court Chief Justice (since 2019, CJ since Apr 2025). UMich Engineering + Wayne State Law. LIAISON TO AGC AND JTC. Former AGC member. Former SBM Appellate Practice Section Chair. She is the "
-weight = 26
+weight = 5
 
 [extra]
 keywords = "Chief Justice Megan K. Cavanagh, Detroit charter school network, Brian Banks network"

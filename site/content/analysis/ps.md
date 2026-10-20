@@ -1,7 +1,7 @@
 +++
 title = "P.S."
 date = 2026-10-19
-weight = 90
+weight = 11
 description = "The footnote at the end of the love letter. It has less meaning until the prior is read and digested."
 [taxonomies]
 tags = ["parks", "commons", "love-letter", "ps", "tuebor"]

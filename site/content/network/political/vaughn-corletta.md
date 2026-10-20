@@ -1,7 +1,7 @@
 +++
 title = "Bishop Corletta Vaughn — DPSCD Board President"
 description = "Bishop Corletta Vaughn, Ph.D. DPSCD Board Vice President (previously President). Board member since 2016. Was on the board when PCA was authorized. Disqualified from 2026 reelection for $950 owed to Wayne County. Senior Pastor of Holy Ghost Cathedral Church."
-weight = 10
+weight = 8
 date = 2026-09-27
 updated = 2026-09-27
 

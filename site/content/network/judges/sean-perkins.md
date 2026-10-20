@@ -1,7 +1,7 @@
 +++
 title = "Judge Sean Perkins — 36th District Court"
 description = "Judge Sean Perkins — 36th District Court. Brother of Todd Perkins, Brian Banks' personal attorney. Worked at Todd's firm before taking the bench."
-weight = 7
+weight = 9
 date = 2026-09-20
 updated = 2026-09-25
 

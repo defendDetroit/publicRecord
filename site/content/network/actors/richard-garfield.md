@@ -2,7 +2,7 @@
 title = "Richard Garfield"
 date = 2026-10-12
 description = "Born 1963. Mathematics PhD (University of Pennsylvania). Created Magic: The Gathering (1993). Combinatorics professor who designed a Turing-complete card game. Also created RoboRally, King of Tokyo, K"
-weight = 99
+weight = 4
 
 [extra]
 keywords = "Richard Garfield, commons, public knowledge, public education"

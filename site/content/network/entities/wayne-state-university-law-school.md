@@ -2,7 +2,7 @@
 title = "Wayne State University Law School"
 date = 2026-10-12
 description = ""
-weight = 25
+weight = 4
 
 [extra]
 keywords = "Wayne State University Law School, Detroit charter school network, Brian Banks network"

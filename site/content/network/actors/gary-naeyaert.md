@@ -2,7 +2,7 @@
 title = "Gary Naeyaert"
 date = 2026-10-12
 description = "Executive Director, Great Lakes Education Project (GLEP). DeVos's point man on Michigan charter school policy. 'We're proponents of all forms of choice.'"
-weight = 98
+weight = 4
 
 [extra]
 keywords = "Gary Naeyaert, Plante Moran, Detroit charter school network, Ahmed Beasley"

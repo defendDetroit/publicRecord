@@ -2,7 +2,7 @@
 title = "City of Detroit"
 date = 2026-10-12
 description = ""
-weight = 1
+weight = 5
 
 [extra]
 keywords = "City of Detroit, Detroit charter school network, Brian Banks network"

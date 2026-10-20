@@ -2,7 +2,7 @@
 title = "Wayne RESA"
 date = 2026-10-12
 description = "Wayne Regional Educational Service Agency. Technical assistance to 33 districts + 100 PSAs. Beasley and Hill both alumni."
-weight = 29
+weight = 4
 
 [extra]
 keywords = "Wayne RESA, Detroit charter school network, Brian Banks network"

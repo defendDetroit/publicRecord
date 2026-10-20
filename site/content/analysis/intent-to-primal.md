@@ -2,7 +2,7 @@
 title = "Intent to .primal \u2014 A Whitepaper Note"
 description = "We intend to apply for the .primal top-level domain in the next ICANN gTLD round. Nobody applied for it in the 2026 round (1,615 applications, 0 for .primal). It is unclaimed. This note documents our intent. If someone else gets there first \u2014 that is signal."
 date = 2026-10-18
-weight = 96
+weight = 7
 
 [taxonomies]
 connections = ["tld", "primal", "icann", "whitepaper", "intent", "signal"]

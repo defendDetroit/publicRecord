@@ -1,7 +1,7 @@
 +++
 title = "Nicolai Vitti — DPSCD Superintendent Who Authorized PCA"
 description = "Dr. Nikolai Vitti, DPSCD Superintendent. Mentored Banks. Testified in support at TCR 22-12 hearing. Under his leadership, DPSCD authorized Purpose Charter Academy — a charter school run by a man with 8 felony convictions and MacDowell's bottom 3% math proficiency — to serve homeless children, juvenile justice children, and chronically absent children. DPSCD receives a 3% authorization fee (~$81,000/yr)."
-weight = 1
+weight = 13
 date = 2026-09-30
 updated = 2026-09-30
 

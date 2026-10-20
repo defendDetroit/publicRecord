@@ -1,7 +1,7 @@
 +++
 title = "Keith 'K.B.' Stallworth — Federal Money Laundering"
 description = "Former Michigan State Rep and Wayne County Commissioner Keith Stallworth pleaded guilty in 2003 to federal money laundering through a Detroit strip club. Charged alongside 13 co-conspirators. Brother of Thomas Stallworth III. Managing Director of the Black Caucus Foundation."
-weight = 5
+weight = 12
 date = 2026-09-27
 updated = 2026-09-27
 

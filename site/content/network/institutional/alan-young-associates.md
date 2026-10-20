@@ -1,7 +1,7 @@
 +++
 title = "Alan C. Young & Associates — Auditor"
 description = "Alan C. Young & Associates, independent auditor for MacDowell Preparatory Academy for 9 consecutive fiscal years (FY2017–FY2025). Entity #82747."
-weight = 4
+weight = 13
 date = 2026-09-25
 updated = 2026-09-25
 

@@ -2,7 +2,7 @@
 title = "Elizabeth Magie"
 date = 2026-10-12
 description = "1866-1948. Created The Landlord's Game (1903) to teach the evils of monopolies. Charles Darrow copied it, sold it to Parker Brothers, became a millionaire. Magie got $500 and no credit. The game about"
-weight = 99
+weight = 4
 
 [extra]
 keywords = "Elizabeth Magie, commons, public knowledge, public education"

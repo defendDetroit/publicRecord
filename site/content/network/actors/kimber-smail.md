@@ -2,7 +2,7 @@
 title = "Kimber Smail"
 date = 2026-10-12
 description = "Southfield Office Managing Partner, Plante Moran (July 2024-). Formerly Flint MP. Ahmed Beasley is based in the Southfield office."
-weight = 98
+weight = 3
 
 [extra]
 keywords = "Kimber Smail, Plante Moran, Detroit charter school network, Ahmed Beasley"

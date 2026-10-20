@@ -2,7 +2,7 @@
 title = "The 74 (The Seventy Four)"
 date = 2026-10-12
 description = "Walton-funded education journalism"
-weight = 92
+weight = 6
 
 [extra]
 keywords = "The 74 (The Seventy Four), Detroit charter school network, Brian Banks network"

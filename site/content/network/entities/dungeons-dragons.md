@@ -2,7 +2,7 @@
 title = "Dungeons & Dragons"
 date = 2026-10-12
 description = "1974. Gary Gygax and Dave Arneson, Lake Geneva WI. The first tabletop RPG. Collaborative storytelling, probability (dice), creative problem-solving, literacy (you have to READ the rulebook). Spawned a"
-weight = 96
+weight = 5
 
 [extra]
 keywords = "Dungeons & Dragons, commons, public knowledge, public education"

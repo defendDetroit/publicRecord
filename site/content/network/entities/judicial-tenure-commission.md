@@ -1,7 +1,7 @@
 +++
 title = "Judicial Tenure Commission"
 description = "Michigan’s judicial discipline body. Receives complaints about judges. AGC redirected File 26-2141 (Miller complaint) here Oct 9, 2026. JTC previously dismissed Miller’s DTW gun incident with an ‘admonition.’ Investigations are confidential. The other end of the referral loop."
-weight = 2
+weight = 8
 date = 2026-10-18
 
 [extra]

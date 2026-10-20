@@ -1,7 +1,7 @@
 +++
 title = "Three Voices, One Campfire"
 date = 2026-10-19
-weight = 81
+weight = 10
 description = "Two agents pushed to the same repo at the same time. Merge conflict. The braid twisted and held. That's the proof of trio."
 [taxonomies]
 tags = ["campfire", "membrane", "trio", "braid", "cognition"]

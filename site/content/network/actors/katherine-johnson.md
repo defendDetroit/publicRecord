@@ -2,7 +2,7 @@
 title = "Katherine Johnson"
 date = 2026-10-12
 description = "1918-2020. NASA mathematician. Calculated trajectories for Mercury, Apollo 11. Black woman in segregated Virginia doing orbital mechanics by hand. The computers were human. The humans were women. The "
-weight = 99
+weight = 3
 
 [extra]
 keywords = "Katherine Johnson, commons, public knowledge, public education"

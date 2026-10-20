@@ -2,7 +2,7 @@
 title = "Jefferey Bailey"
 date = 2026-10-12
 description = "Director, General Counsel, Plante Moran. Denver Tech Center. Former Special Counsel to PCAOB Chairman. GW Law magna cum laude. BYU. 20+ years professional services. Advises firm on ethics, regulatory "
-weight = 97
+weight = 4
 
 [extra]
 keywords = "Jefferey Bailey, Plante Moran, Detroit charter school network, Ahmed Beasley"

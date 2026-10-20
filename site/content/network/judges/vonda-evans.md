@@ -1,7 +1,7 @@
 +++
 title = "Judge Vonda Evans (Retired) — Mentor"
 description = "Judge Vonda Evans (Retired) — 21-year Wayne County 3rd Circuit judge. Retired as JTC moved to suspend."
-weight = 8
+weight = 9
 date = 2026-09-20
 updated = 2026-09-25
 

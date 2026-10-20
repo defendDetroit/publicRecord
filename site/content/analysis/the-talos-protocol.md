@@ -1,7 +1,7 @@
 +++
 title = "The TALOS Protocol — Convergence as Guardian"
 date = 2026-10-19
-weight = 88
+weight = 14
 description = "The Minotaur guards the labyrinth. TALOS patrols the shore. scyBorg bites back. tuebor defends. But the real guardian is convergence itself: make their tech easier to use, and they pivot our way. The campfire doesn't discriminate by OS."
 [taxonomies]
 tags = ["talos", "guardian", "convergence", "scyborg", "tuebor", "valve", "steam", "membrane", "platform-agnostic"]

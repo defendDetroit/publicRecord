@@ -2,7 +2,7 @@
 title = "State Bar UPL Department"
 date = 2026-10-12
 description = ""
-weight = 17
+weight = 4
 
 [extra]
 keywords = "State Bar UPL Department, Detroit charter school network, Brian Banks network"

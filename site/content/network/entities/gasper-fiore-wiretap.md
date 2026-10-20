@@ -2,7 +2,7 @@
 title = "Gasper Fiore Wiretap"
 date = 2026-10-12
 description = "FBI wiretap, United States v. Fiore (16-cr-20732). Banks captured on wiretap. 'Bid-rigging' in sworn affidavit. Led to Spivey, Sollars convictions. Area Towing produced files Sep 2025."
-weight = 89
+weight = 5
 
 [extra]
 keywords = "Gasper Fiore Wiretap, Detroit charter school network, Brian Banks network"

@@ -2,7 +2,7 @@
 title = "Michigan State University"
 date = 2026-10-12
 description = ""
-weight = 22
+weight = 4
 
 [extra]
 keywords = "Michigan State University, Detroit charter school network, Brian Banks network"

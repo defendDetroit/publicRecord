@@ -1,7 +1,7 @@
 +++
 title = "City Hill Church — Banks Religious Entity"
 description = "City Hill Church — Brian Banks serves as officer. Registered to his Grosse Pointe Woods residence alongside 8 other Banks-controlled entities."
-weight = 10
+weight = 11
 date = 2026-09-20
 updated = 2026-09-25
 

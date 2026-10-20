@@ -1,7 +1,7 @@
 +++
 title = "Platos Cave Inverted"
 date = 2026-10-19
-weight = 110
+weight = 9
 [taxonomies]
 tags = ["investigation"]
 +++

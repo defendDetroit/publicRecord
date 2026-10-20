@@ -1,7 +1,7 @@
 +++
 title = "Purpose Foundation — Two Felons, Four Positions"
 description = "501(c)(3) private foundation where two convicted felons hold all four officer positions. Banks: President + Director. Holland: Secretary + Treasurer."
-weight = 4
+weight = 9
 date = 2026-09-20
 updated = 2026-09-25
 

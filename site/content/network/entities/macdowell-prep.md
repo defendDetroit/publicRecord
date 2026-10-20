@@ -1,7 +1,7 @@
 +++
 title = "MacDowell Preparatory Academy — Financial Extraction"
 description = "MacDowell Preparatory Academy Detroit — K-8 charter school, 4201 West Outer Drive. Dr. Brian Banks superintendent (9 convictions, 6 felony). 3% math proficiency, bottom 50% Michigan. Purpose Group LLC extracts 72.67% of $4.9M revenue."
-weight = 2
+weight = 9
 date = 2026-09-20
 updated = 2026-09-25
 

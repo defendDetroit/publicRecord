@@ -2,7 +2,7 @@
 title = "Game Boy"
 date = 2026-10-12
 description = "1989. Created by Gunpei Yokoi at Nintendo. The man who invented the D-pad, Game & Watch, and Game Boy died in a car accident in 1997. Nintendo became a $60B company. Yokoi's genius was 'lateral thinki"
-weight = 97
+weight = 5
 
 [extra]
 keywords = "Game Boy, commons, public knowledge, public education"

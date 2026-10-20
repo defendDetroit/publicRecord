@@ -2,7 +2,7 @@
 title = "The Referral Loop — AGC Returns the Filing on Judge Miller"
 description = "On October 9, 2026, the Michigan Attorney Grievance Commission returned Kevin Mok's filing on Judge Cylenthia LaToye Miller. AGC File No. 26-2141. Signed by Cynthia C. Bullington, a 44-year AGC veteran and MSU Law adjunct who teaches Professional Responsibility. Redirected to JTC. The institutional referral loop documented in real time."
 date = 2026-10-18
-weight = 1
+weight = 14
 
 [taxonomies]
 actors = ["Judge Cylenthia Miller", "Cynthia C. Bullington", "Michael V. Goetz", "Brian Banks"]

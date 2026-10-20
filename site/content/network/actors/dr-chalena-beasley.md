@@ -2,7 +2,7 @@
 title = "Dr. Chalena Beasley"
 date = 2026-10-12
 description = "PCA School Leader (principal). Ph.D. Educational Leadership, Wayne State. Cass Tech alum. Former principal Bunche Preparatory Academy. BEASLEY surname — same as Ahmed Beasley (Plante Moran SVP). Is th"
-weight = 96
+weight = 5
 
 [extra]
 keywords = "Dr. Chalena Beasley, Detroit charter school network, Brian Banks network"

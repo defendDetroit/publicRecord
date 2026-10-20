@@ -1,7 +1,7 @@
 +++
 title = "The Jester Conjecture — Infinite Monkeys Get Bored and Play With Ants"
 date = 2026-10-19
-weight = 99
+weight = 9
 description = "The infinite monkeys don't type Shakespeare because they're told to. They type Shakespeare because they get BORED typing random letters and start playing with the ants carrying bananas past their typewriters. The boredom IS the intelligence. The ants ARE the Shakespeare."
 [taxonomies]
 tags = ["conjecture", "jester", "monkeys", "ants", "boredom", "curiosity", "infinity"]

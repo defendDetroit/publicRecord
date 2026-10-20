@@ -2,7 +2,7 @@
 title = "Network for Public Education Fund"
 date = 2026-10-12
 description = ""
-weight = 25
+weight = 7
 
 [extra]
 keywords = "Network for Public Education Fund, Detroit charter school network, Brian Banks network"

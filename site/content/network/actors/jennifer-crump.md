@@ -2,7 +2,7 @@
 title = "Jennifer Crump"
 date = 2026-10-12
 description = "MacDowell board. DPSCD. Crump surname dynasty — Jehan, V. Hall, Jennifer."
-weight = 26
+weight = 4
 
 [extra]
 keywords = "Jennifer Crump, Detroit charter school network, Brian Banks network"

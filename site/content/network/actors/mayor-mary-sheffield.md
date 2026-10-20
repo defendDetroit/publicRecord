@@ -2,7 +2,7 @@
 title = "Mayor Mary Sheffield"
 date = 2026-10-12
 description = "Mayor"
-weight = 22
+weight = 6
 
 [extra]
 keywords = "Mayor Mary Sheffield, Detroit charter school network, Brian Banks network"

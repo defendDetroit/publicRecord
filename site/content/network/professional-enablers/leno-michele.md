@@ -1,7 +1,7 @@
 +++
 title = "Dr. Michele Leno — Court-Ordered Evaluator"
 description = "Dr. Michele Leno, Ph.D., LP. TV psychologist who diagnosed Brian Banks with PTSD after 13 sessions. Her specialty is athletes and social media — not PTSD, not forensic psychology, not criminal recidivism. She does court-ordered evaluations in Wayne County."
-weight = 4
+weight = 12
 date = 2026-09-30
 updated = 2026-09-30
 

@@ -2,7 +2,7 @@
 title = "Detroit Police Department"
 date = 2026-10-12
 description = ""
-weight = 27
+weight = 4
 
 [extra]
 keywords = "Detroit Police Department, Detroit charter school network, Brian Banks network"

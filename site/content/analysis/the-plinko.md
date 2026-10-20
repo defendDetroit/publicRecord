@@ -1,7 +1,7 @@
 +++
 title = "The Plinko — One Entry, Many Exits, Not Uniform"
 date = 2026-10-19
-weight = 100
+weight = 9
 description = "Surface scanners poke 14 Forgejo skins and walk a clique. Crush the clones into epitope pores and the graph becomes a DAG. Plinko: one drop, many exits, biased pegs. That is how you find contents and orphans."
 [taxonomies]
 tags = ["plinko", "dag", "epitope", "topology", "scanners", "pores", "orphans"]

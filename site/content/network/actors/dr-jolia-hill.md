@@ -2,7 +2,7 @@
 title = "Dr. Jolia Hill"
 date = 2026-10-12
 description = "Director, EMU Charter Schools Office. Terminated DPSA charter Jun 30, 2026. MCCSA Treasurer."
-weight = 24
+weight = 5
 
 [extra]
 keywords = "Dr. Jolia Hill, Detroit charter school network, Brian Banks network"

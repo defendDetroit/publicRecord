@@ -1,7 +1,7 @@
 +++
 title = "The Squirrel's Philosophers — A Fool's Guide to the Boredom Cycle"
 date = 2026-10-19
-weight = 93
+weight = 12
 description = "Diogenes is the fool. Socrates is the questioner. Plato is the pilot. The squirrel is all of them, depending on which boredom state it's in."
 [taxonomies]
 tags = ["philosophy", "squirrel", "boredom", "diogenes", "socrates", "plato", "archetype"]

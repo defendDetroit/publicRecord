@@ -1,7 +1,7 @@
 +++
 title = "Black Caucus Foundation of Michigan — Reunion of Felons"
 description = "The Black Caucus Foundation of Michigan, founded by Alma Stallworth: stated mission 'to decrease usage of drugs and alcohol among youth.' Board roster included Brian Banks (9 felony convictions), Keith Stallworth (federal money laundering), Virgil Smith (felony assault), and Bert Johnson (bribery). All convicted felons."
-weight = 12
+weight = 13
 date = 2026-09-27
 updated = 2026-09-27
 

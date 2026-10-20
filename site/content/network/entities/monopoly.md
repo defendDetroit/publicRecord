@@ -2,7 +2,7 @@
 title = "Monopoly"
 date = 2026-10-12
 description = "Original: 1903 by Elizabeth Magie as 'The Landlord's Game' — designed to TEACH the evils of monopolies and land concentration. Parker Brothers bought it from Charles Darrow (1935) who took credit. Mag"
-weight = 97
+weight = 4
 
 [extra]
 keywords = "Monopoly, commons, public knowledge, public education"

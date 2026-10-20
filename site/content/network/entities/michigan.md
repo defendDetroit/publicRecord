@@ -2,7 +2,7 @@
 title = "Michigan"
 date = 2026-10-12
 description = "Target state — all schools, all courts, all actors"
-weight = 15
+weight = 7
 
 [extra]
 keywords = "Michigan, Detroit charter school network, Brian Banks network"

@@ -2,7 +2,7 @@
 title = "Corey Northrop"
 date = 2026-10-12
 description = "Executive Director, Governor John Engler Center for Charter Schools at CMU. Since March 2019. Former MCCSA Board Chair. MAPSA Board member. FORMER CPA AT PLANTE MORAN — same firm where Beasley's husba"
-weight = 26
+weight = 5
 
 [extra]
 keywords = "Corey Northrop, Detroit charter school network, Brian Banks network"
