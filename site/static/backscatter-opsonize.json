@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T03:07:17.541439+00:00",
+  "generated": "2026-10-20T03:33:35.514573+00:00",
   "model": "backscatter-opsonize",
   "status": "STARTED — bones in, needs Rust integration",
   "falsification": {
@@ -14,7 +14,7 @@
     {
       "prefix": "74.7.241.x",
       "subnet_count": 1,
-      "total_requests": 994609,
+      "total_requests": 995992,
       "orgs": [
         "Unknown"
       ],
@@ -24,7 +24,7 @@
     {
       "prefix": "74.7.227.x",
       "subnet_count": 1,
-      "total_requests": 837576,
+      "total_requests": 841727,
       "orgs": [
         "Unknown"
       ],
@@ -34,7 +34,7 @@
     {
       "prefix": "74.7.242.x",
       "subnet_count": 1,
-      "total_requests": 593759,
+      "total_requests": 596527,
       "orgs": [
         "Unknown"
       ],
@@ -44,7 +44,7 @@
     {
       "prefix": "216.73.216.x",
       "subnet_count": 1,
-      "total_requests": 427078,
+      "total_requests": 427108,
       "orgs": [
         "Anthropic"
       ],
@@ -76,7 +76,7 @@
     {
       "prefix": "162.226.225.x",
       "subnet_count": 1,
-      "total_requests": 95673,
+      "total_requests": 97102,
       "orgs": [
         "House network"
       ],
@@ -110,7 +110,7 @@
       "start_hour": "2026-10-17 14",
       "dominant_path": "other",
       "entity_count": 3,
-      "total_requests": 246559,
+      "total_requests": 247988,
       "ip_hashes": [
         "eae74052",
         "40ddb2aa",
@@ -137,22 +137,22 @@
     "anthropic_fleet": {
       "tag": "opsonized:coordinated",
       "evidence": "SF datacenter, 427K requests, 1 subnet",
-      "requests": 427078,
+      "requests": 427108,
       "classification_was": "commensal (individual)",
       "classification_should_be": "coordinated:campaign:anthropic"
     },
     "forge_skin_clique": {
       "tag": "opsonized:coordinated",
       "evidence": "14 immune hosts all serve /explore/repos, uniform hit pattern",
-      "requests": 2914000,
+      "requests": 2922531,
       "classification_was": "individual visitors",
       "classification_should_be": "coordinated:clique:forge_skins"
     }
   },
   "collision_level2_correction": {
     "old_coordinated": 0,
-    "new_coordinated_floor": 3265244,
-    "timing_coordinated": 2699499,
+    "new_coordinated_floor": 3273576,
+    "timing_coordinated": 2700928,
     "note": "floor estimate from subnet grouping. real number higher after timing + path correlation."
   },
   "next_steps": [
