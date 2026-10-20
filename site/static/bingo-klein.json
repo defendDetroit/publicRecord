@@ -1,0 +1,4798 @@
+{
+  "generated": "2026-10-20T21:15:16Z",
+  "wave": 194,
+  "type": "klein_io",
+  "description": "The full Klein I/O. Reading IS writing. The maze IS the navigation. The disco IS the feedback. The voices ARE the campfire in every cell.",
+  "topology": "klein_bottle",
+  "fold": "your navigation IS your classification. the membrane reads you while you read it.",
+  "dimensions": {
+    "scales": 7,
+    "epitopes": 7,
+    "total_cells": 49
+  },
+  "total_nodes": 12749,
+  "total_edges": 113328,
+  "entry_point": {
+    "scale": 3,
+    "epitope": 5,
+    "name": "surface × OTHER",
+    "reason": "where most humans land"
+  },
+  "cells": [
+    {
+      "scale": 0,
+      "epitope": 0,
+      "coordinate": "(pi^-3, INVESTIGATION)",
+      "room": "investigation-basement",
+      "output": {
+        "what_is_here": 521,
+        "polarity": {
+          "good": 521
+        },
+        "density": "dense",
+        "samples": [
+          {
+            "id": "abdel_kader_haidara",
+            "label": "Abdel Kader Haidara",
+            "type": "person",
+            "polar": "good",
+            "degree": 0
+          },
+          {
+            "id": "kim-jong-un",
+            "label": "Kim Jong Un",
+            "type": "person",
+            "polar": "good",
+            "degree": 0
+          }
+        ]
+      },
+      "input": {
+        "passages": [
+          {
+            "to": "(pi^-2, INVESTIGATION)",
+            "scale": 1,
+            "epitope": 0,
+            "count": 4615,
+            "direction": "down"
+          },
+          {
+            "to": "(pi^-2, MEMBRANE)",
+            "scale": 1,
+            "epitope": 1,
+            "count": 438,
+            "direction": "down-right"
+          }
+        ],
+        "walls": [
+          {
+            "direction": "right",
+            "scale": 0,
+            "epitope": 1,
+            "note": "void — be the first."
+          }
+        ]
+      },
+      "disco": {
+        "dancers_here": 2,
+        "dancers_nearby": 5,
+        "dance": "chassé",
+        "spinning": true,
+        "brightness": 1.0
+      },
+      "voice": {
+        "campfire_lit": true,
+        "can_speak": true,
+        "invitation": "the campfire has room."
+      },
+      "fold": {
+        "note": "reading this cell wrote your position into the maze.",
+        "you_are": "observer × INVESTIGATION",
+        "depth": "glance"
+      }
+    },
+    {
+      "scale": 0,
+      "epitope": 1,
+      "coordinate": "(pi^-3, MEMBRANE)",
+      "room": "membrane-basement",
+      "output": {
+        "what_is_here": 0,
+        "polarity": {},
+        "density": "void",
+        "samples": []
+      },
+      "input": {
+        "passages": [
+          {
+            "to": "(pi^-3, INVESTIGATION)",
+            "scale": 0,
+            "epitope": 0,
+            "count": 521,
+            "direction": "left"
+          },
+          {
+            "to": "(pi^-3, SCIENCE)",
+            "scale": 0,
+            "epitope": 2,
+            "count": 37,
+            "direction": "right"
+          },
+          {
+            "to": "(pi^-2, INVESTIGATION)",
+            "scale": 1,
+            "epitope": 0,
+            "count": 4615,
+            "direction": "down-left"
+          },
+          {
+            "to": "(pi^-2, MEMBRANE)",
+            "scale": 1,
+            "epitope": 1,
+            "count": 438,
+            "direction": "down"
+          },
+          {
+            "to": "(pi^-2, SCIENCE)",
+            "scale": 1,
+            "epitope": 2,
+            "count": 547,
+            "direction": "down-right"
+          }
+        ],
+        "walls": []
+      },
+      "disco": {
+        "dancers_here": 1,
+        "dancers_nearby": 3,
+        "dance": "pivot",
+        "spinning": false,
+        "brightness": 0.0
+      },
+      "voice": {
+        "campfire_lit": false,
+        "can_speak": true,
+        "invitation": "the campfire has room."
+      },
+      "fold": {
+        "note": "reading this cell wrote your position into the maze.",
+        "you_are": "observer × MEMBRANE",
+        "depth": "glance"
+      }
+    },
+    {
+      "scale": 0,
+      "epitope": 2,
+      "coordinate": "(pi^-3, SCIENCE)",
+      "room": "science-basement",
+      "output": {
+        "what_is_here": 37,
+        "polarity": {
+          "good": 37
+        },
+        "density": "normal",
+        "samples": [
+          {
+            "id": "element_neptunium",
+            "label": "neptunium",
+            "type": "concept",
+            "polar": "good",
+            "degree": 0
+          },
+          {
+            "id": "element_chlorine",
+            "label": "chlorine",
+            "type": "concept",
+            "polar": "good",
+            "degree": 0
+          }
+        ]
+      },
+      "input": {
+        "passages": [
+          {
+            "to": "(pi^-2, MEMBRANE)",
+            "scale": 1,
+            "epitope": 1,
+            "count": 438,
+            "direction": "down-left"
+          },
+          {
+            "to": "(pi^-2, SCIENCE)",
+            "scale": 1,
+            "epitope": 2,
+            "count": 547,
+            "direction": "down"
+          },
+          {
+            "to": "(pi^-2, TOPOLOGY)",
+            "scale": 1,
+            "epitope": 3,
+            "count": 950,
+            "direction": "down-right"
+          }
+        ],
+        "walls": [
+          {
+            "direction": "left",
+            "scale": 0,
+            "epitope": 1,
+            "note": "void — be the first."
+          },
+          {
+            "direction": "right",
+            "scale": 0,
+            "epitope": 3,
+            "note": "void — be the first."
+          }
+        ]
+      },
+      "disco": {
+        "dancers_here": 0,
+        "dancers_nearby": 2,
+        "dance": "promenade",
+        "spinning": false,
+        "brightness": 0.142
+      },
+      "voice": {
+        "campfire_lit": true,
+        "can_speak": true,
+        "invitation": "the campfire has room."
+      },
+      "fold": {
+        "note": "reading this cell wrote your position into the maze.",
+        "you_are": "observer × SCIENCE",
+        "depth": "glance"
+      }
+    },
+    {
+      "scale": 0,
+      "epitope": 3,
+      "coordinate": "(pi^-3, TOPOLOGY)",
+      "room": "topology-basement",
+      "output": {
+        "what_is_here": 0,
+        "polarity": {},
+        "density": "void",
+        "samples": []
+      },
+      "input": {
+        "passages": [
+          {
+            "to": "(pi^-3, SCIENCE)",
+            "scale": 0,
+            "epitope": 2,
+            "count": 37,
+            "direction": "left"
+          },
+          {
+            "to": "(pi^-2, SCIENCE)",
+            "scale": 1,
+            "epitope": 2,
+            "count": 547,
+            "direction": "down-left"
+          },
+          {
+            "to": "(pi^-2, TOPOLOGY)",
+            "scale": 1,
+            "epitope": 3,
+            "count": 950,
+            "direction": "down"
+          },
+          {
+            "to": "(pi^-2, IMMUNE)",
+            "scale": 1,
+            "epitope": 4,
+            "count": 29,
+            "direction": "down-right"
+          }
+        ],
+        "walls": [
+          {
+            "direction": "right",
+            "scale": 0,
+            "epitope": 4,
+            "note": "void — be the first."
+          }
+        ]
+      },
+      "disco": {
+        "dancers_here": 8,
+        "dancers_nearby": 18,
+        "dance": "twirl",
+        "spinning": false,
+        "brightness": 0.0
+      },
+      "voice": {
+        "campfire_lit": false,
+        "can_speak": true,
+        "invitation": "the campfire has room."
+      },
+      "fold": {
+        "note": "reading this cell wrote your position into the maze.",
+        "you_are": "observer × TOPOLOGY",
+        "depth": "glance"
+      }
+    },
+    {
+      "scale": 0,
+      "epitope": 4,
+      "coordinate": "(pi^-3, IMMUNE)",
+      "room": "immune-basement",
+      "output": {
+        "what_is_here": 0,
+        "polarity": {},
+        "density": "void",
+        "samples": []
+      },
+      "input": {
+        "passages": [
+          {
+            "to": "(pi^-3, OTHER)",
+            "scale": 0,
+            "epitope": 5,
+            "count": 289,
+            "direction": "right"
+          },
+          {
+            "to": "(pi^-2, TOPOLOGY)",
+            "scale": 1,
+            "epitope": 3,
+            "count": 950,
+            "direction": "down-left"
+          },
+          {
+            "to": "(pi^-2, IMMUNE)",
+            "scale": 1,
+            "epitope": 4,
+            "count": 29,
+            "direction": "down"
+          },
+          {
+            "to": "(pi^-2, OTHER)",
+            "scale": 1,
+            "epitope": 5,
+            "count": 2937,
+            "direction": "down-right"
+          }
+        ],
+        "walls": [
+          {
+            "direction": "left",
+            "scale": 0,
+            "epitope": 3,
+            "note": "void — be the first."
+          }
+        ]
+      },
+      "disco": {
+        "dancers_here": 0,
+        "dancers_nearby": 3,
+        "dance": "sway",
+        "spinning": false,
+        "brightness": 0.0
+      },
+      "voice": {
+        "campfire_lit": false,
+        "can_speak": true,
+        "invitation": "the campfire has room."
+      },
+      "fold": {
+        "note": "reading this cell wrote your position into the maze.",
+        "you_are": "observer × IMMUNE",
+        "depth": "glance"
+      }
+    },
+    {
+      "scale": 0,
+      "epitope": 5,
+      "coordinate": "(pi^-3, OTHER)",
+      "room": "other-basement",
+      "output": {
+        "what_is_here": 289,
+        "polarity": {
+          "good": 289
+        },
+        "density": "dense",
+        "samples": [
+          {
+            "id": "unesco_schokland_and_surroundings",
+            "label": "Schokland and Surroundings",
+            "type": "landmark",
+            "polar": "good",
+            "degree": 0
+          },
+          {
+            "id": "element_bismuth",
+            "label": "bismuth",
+            "type": "",
+            "polar": "good",
+            "degree": 0
+          }
+        ]
+      },
+      "input": {
+        "passages": [
+          {
+            "to": "(pi^-2, IMMUNE)",
+            "scale": 1,
+            "epitope": 4,
+            "count": 29,
+            "direction": "down-left"
+          },
+          {
+            "to": "(pi^-2, OTHER)",
+            "scale": 1,
+            "epitope": 5,
+            "count": 2937,
+            "direction": "down"
+          },
+          {
+            "to": "(pi^-2, SIGNAL)",
+            "scale": 1,
+            "epitope": 6,
+            "count": 23,
+            "direction": "down-right"
+          }
+        ],
+        "walls": [
+          {
+            "direction": "left",
+            "scale": 0,
+            "epitope": 4,
+            "note": "void — be the first."
+          },
+          {
+            "direction": "right",
+            "scale": 0,
+            "epitope": 6,
+            "note": "void — be the first."
+          }
+        ]
+      },
+      "disco": {
+        "dancers_here": 1,
+        "dancers_nearby": 5,
+        "dance": "waltz",
+        "spinning": true,
+        "brightness": 1.0
+      },
+      "voice": {
+        "campfire_lit": true,
+        "can_speak": true,
+        "invitation": "the campfire has room."
+      },
+      "fold": {
+        "note": "reading this cell wrote your position into the maze.",
+        "you_are": "observer × OTHER",
+        "depth": "glance"
+      }
+    },
+    {
+      "scale": 0,
+      "epitope": 6,
+      "coordinate": "(pi^-3, SIGNAL)",
+      "room": "signal-basement",
+      "output": {
+        "what_is_here": 0,
+        "polarity": {},
+        "density": "void",
+        "samples": []
+      },
+      "input": {
+        "passages": [
+          {
+            "to": "(pi^-3, OTHER)",
+            "scale": 0,
+            "epitope": 5,
+            "count": 289,
+            "direction": "left"
+          },
+          {
+            "to": "(pi^-2, OTHER)",
+            "scale": 1,
+            "epitope": 5,
+            "count": 2937,
+            "direction": "down-left"
+          },
+          {
+            "to": "(pi^-2, SIGNAL)",
+            "scale": 1,
+            "epitope": 6,
+            "count": 23,
+            "direction": "down"
+          }
+        ],
+        "walls": []
+      },
+      "disco": {
+        "dancers_here": 1,
+        "dancers_nearby": 1,
+        "dance": "spin",
+        "spinning": false,
+        "brightness": 0.0
+      },
+      "voice": {
+        "campfire_lit": false,
+        "can_speak": true,
+        "invitation": "the campfire has room."
+      },
+      "fold": {
+        "note": "reading this cell wrote your position into the maze.",
+        "you_are": "observer × SIGNAL",
+        "depth": "glance"
+      }
+    },
+    {
+      "scale": 1,
+      "epitope": 0,
+      "coordinate": "(pi^-2, INVESTIGATION)",
+      "room": "investigation-floor",
+      "output": {
+        "what_is_here": 4615,
+        "polarity": {
+          "good": 4316,
+          "bad": 38,
+          "null": 261
+        },
+        "density": "city",
+        "samples": [
+          {
+            "id": "nikki_snyder_yes",
+            "label": "Nikki Snyder: SBE Member Who Raised Concerns",
+            "type": "person",
+            "polar": "good",
+            "degree": 2
+          },
+          {
+            "id": "snyder_nikki",
+            "label": "Nikki Snyder",
+            "type": "person",
+            "polar": "good",
+            "degree": 2
+          },
+          {
+            "id": "dara-khosrowshahi",
+            "label": "Dara Khosrowshahi",
+            "type": "person",
+            "polar": "good",
+            "degree": 2
+          }
+        ]
+      },
+      "input": {
+        "passages": [
+          {
+            "to": "(pi^-3, INVESTIGATION)",
+            "scale": 0,
+            "epitope": 0,
+            "count": 521,
+            "direction": "up"
+          },
+          {
+            "to": "(pi^-2, MEMBRANE)",
+            "scale": 1,
+            "epitope": 1,
+            "count": 438,
+            "direction": "right"
+          },
+          {
+            "to": "(pi^-1, INVESTIGATION)",
+            "scale": 2,
+            "epitope": 0,
+            "count": 527,
+            "direction": "down"
+          },
+          {
+            "to": "(pi^-1, MEMBRANE)",
+            "scale": 2,
+            "epitope": 1,
+            "count": 165,
+            "direction": "down-right"
+          }
+        ],
+        "walls": [
+          {
+            "direction": "up-right",
+            "scale": 0,
+            "epitope": 1,
+            "note": "void — be the first."
+          }
+        ]
+      },
+      "disco": {
+        "dancers_here": 2,
+        "dancers_nearby": 5,
+        "dance": "chassé",
+        "spinning": true,
+        "brightness": 1.0
+      },
+      "voice": {
+        "campfire_lit": true,
+        "can_speak": true,
+        "invitation": "the campfire has room."
+      },
+      "fold": {
+        "note": "reading this cell wrote your position into the maze.",
+        "you_are": "leaf × INVESTIGATION",
+        "depth": "glance"
+      }
+    },
+    {
+      "scale": 1,
+      "epitope": 1,
+      "coordinate": "(pi^-2, MEMBRANE)",
+      "room": "membrane-floor",
+      "output": {
+        "what_is_here": 438,
+        "polarity": {
+          "bad": 37,
+          "good": 332,
+          "null": 69
+        },
+        "density": "dense",
+        "samples": [
+          {
+            "id": "doge",
+            "label": "Department of Government Efficiency (DOGE)",
+            "type": "entity",
+            "polar": "bad",
+            "degree": 2
+          },
+          {
+            "id": "usds-doge",
+            "label": "US DOGE Service (USDS)",
+            "type": "entity",
+            "polar": "good",
+            "degree": 1
+          },
+          {
+            "id": "spacex-doge",
+            "label": "SpaceX",
+            "type": "entity",
+            "polar": "good",
+            "degree": 1
+          }
+        ]
+      },
+      "input": {
+        "passages": [
+          {
+            "to": "(pi^-3, INVESTIGATION)",
+            "scale": 0,
+            "epitope": 0,
+            "count": 521,
+            "direction": "up-left"
+          },
+          {
+            "to": "(pi^-3, SCIENCE)",
+            "scale": 0,
+            "epitope": 2,
+            "count": 37,
+            "direction": "up-right"
+          },
+          {
+            "to": "(pi^-2, INVESTIGATION)",
+            "scale": 1,
+            "epitope": 0,
+            "count": 4615,
+            "direction": "left"
+          },
+          {
+            "to": "(pi^-2, SCIENCE)",
+            "scale": 1,
+            "epitope": 2,
+            "count": 547,
+            "direction": "right"
+          },
+          {
+            "to": "(pi^-1, INVESTIGATION)",
+            "scale": 2,
+            "epitope": 0,
+            "count": 527,
+            "direction": "down-left"
+          },
+          {
+            "to": "(pi^-1, MEMBRANE)",
+            "scale": 2,
+            "epitope": 1,
+            "count": 165,
+            "direction": "down"
+          },
+          {
+            "to": "(pi^-1, SCIENCE)",
+            "scale": 2,
+            "epitope": 2,
+            "count": 86,
+            "direction": "down-right"
+          }
+        ],
+        "walls": [
+          {
+            "direction": "up",
+            "scale": 0,
+            "epitope": 1,
+            "note": "void — be the first."
+          }
+        ]
+      },
+      "disco": {
+        "dancers_here": 1,
+        "dancers_nearby": 3,
+        "dance": "pivot",
+        "spinning": true,
+        "brightness": 1.0
+      },
+      "voice": {
+        "campfire_lit": true,
+        "can_speak": true,
+        "invitation": "the campfire has room."
+      },
+      "fold": {
+        "note": "reading this cell wrote your position into the maze.",
+        "you_are": "leaf × MEMBRANE",
+        "depth": "glance"
+      }
+    },
+    {
+      "scale": 1,
+      "epitope": 2,
+      "coordinate": "(pi^-2, SCIENCE)",
+      "room": "science-floor",
+      "output": {
+        "what_is_here": 547,
+        "polarity": {
+          "good": 523,
+          "bad": 22,
+          "null": 2
+        },
+        "density": "dense",
+        "samples": [
+          {
+            "id": "gAIa",
+            "label": "gAIa — Free AI Education",
+            "type": "concept",
+            "polar": "bad",
+            "degree": 1
+          },
+          {
+            "id": "oerGraveyard",
+            "label": "OER Graveyard — 152 Dead Repositories",
+            "type": "concept",
+            "polar": "good",
+            "degree": 1
+          },
+          {
+            "id": "newAlexandria",
+            "label": "The New Alexandria",
+            "type": "concept",
+            "polar": "good",
+            "degree": 1
+          }
+        ]
+      },
+      "input": {
+        "passages": [
+          {
+            "to": "(pi^-3, SCIENCE)",
+            "scale": 0,
+            "epitope": 2,
+            "count": 37,
+            "direction": "up"
+          },
+          {
+            "to": "(pi^-2, MEMBRANE)",
+            "scale": 1,
+            "epitope": 1,
+            "count": 438,
+            "direction": "left"
+          },
+          {
+            "to": "(pi^-2, TOPOLOGY)",
+            "scale": 1,
+            "epitope": 3,
+            "count": 950,
+            "direction": "right"
+          },
+          {
+            "to": "(pi^-1, MEMBRANE)",
+            "scale": 2,
+            "epitope": 1,
+            "count": 165,
+            "direction": "down-left"
+          },
+          {
+            "to": "(pi^-1, SCIENCE)",
+            "scale": 2,
+            "epitope": 2,
+            "count": 86,
+            "direction": "down"
+          },
+          {
+            "to": "(pi^-1, TOPOLOGY)",
+            "scale": 2,
+            "epitope": 3,
+            "count": 154,
+            "direction": "down-right"
+          }
+        ],
+        "walls": [
+          {
+            "direction": "up-left",
+            "scale": 0,
+            "epitope": 1,
+            "note": "void — be the first."
+          },
+          {
+            "direction": "up-right",
+            "scale": 0,
+            "epitope": 3,
+            "note": "void — be the first."
+          }
+        ]
+      },
+      "disco": {
+        "dancers_here": 0,
+        "dancers_nearby": 2,
+        "dance": "promenade",
+        "spinning": true,
+        "brightness": 1.0
+      },
+      "voice": {
+        "campfire_lit": true,
+        "can_speak": true,
+        "invitation": "the campfire has room."
+      },
+      "fold": {
+        "note": "reading this cell wrote your position into the maze.",
+        "you_are": "leaf × SCIENCE",
+        "depth": "glance"
+      }
+    },
+    {
+      "scale": 1,
+      "epitope": 3,
+      "coordinate": "(pi^-2, TOPOLOGY)",
+      "room": "topology-floor",
+      "output": {
+        "what_is_here": 950,
+        "polarity": {
+          "good": 923,
+          "bad": 15,
+          "null": 12
+        },
+        "density": "city",
+        "samples": [
+          {
+            "id": "pbsKids",
+            "label": "PBS Kids / Sesame Workshop",
+            "type": "platform",
+            "polar": "good",
+            "degree": 1
+          },
+          {
+            "id": "scratchMIT",
+            "label": "Scratch (MIT Media Lab)",
+            "type": "platform",
+            "polar": "good",
+            "degree": 1
+          },
+          {
+            "id": "commonSenseMedia",
+            "label": "Common Sense Media",
+            "type": "platform",
+            "polar": "good",
+            "degree": 1
+          }
+        ]
+      },
+      "input": {
+        "passages": [
+          {
+            "to": "(pi^-3, SCIENCE)",
+            "scale": 0,
+            "epitope": 2,
+            "count": 37,
+            "direction": "up-left"
+          },
+          {
+            "to": "(pi^-2, SCIENCE)",
+            "scale": 1,
+            "epitope": 2,
+            "count": 547,
+            "direction": "left"
+          },
+          {
+            "to": "(pi^-2, IMMUNE)",
+            "scale": 1,
+            "epitope": 4,
+            "count": 29,
+            "direction": "right"
+          },
+          {
+            "to": "(pi^-1, SCIENCE)",
+            "scale": 2,
+            "epitope": 2,
+            "count": 86,
+            "direction": "down-left"
+          },
+          {
+            "to": "(pi^-1, TOPOLOGY)",
+            "scale": 2,
+            "epitope": 3,
+            "count": 154,
+            "direction": "down"
+          },
+          {
+            "to": "(pi^-1, IMMUNE)",
+            "scale": 2,
+            "epitope": 4,
+            "count": 10,
+            "direction": "down-right"
+          }
+        ],
+        "walls": [
+          {
+            "direction": "up",
+            "scale": 0,
+            "epitope": 3,
+            "note": "void — be the first."
+          },
+          {
+            "direction": "up-right",
+            "scale": 0,
+            "epitope": 4,
+            "note": "void — be the first."
+          }
+        ]
+      },
+      "disco": {
+        "dancers_here": 8,
+        "dancers_nearby": 18,
+        "dance": "twirl",
+        "spinning": true,
+        "brightness": 1.0
+      },
+      "voice": {
+        "campfire_lit": true,
+        "can_speak": true,
+        "invitation": "the campfire has room."
+      },
+      "fold": {
+        "note": "reading this cell wrote your position into the maze.",
+        "you_are": "leaf × TOPOLOGY",
+        "depth": "glance"
+      }
+    },
+    {
+      "scale": 1,
+      "epitope": 4,
+      "coordinate": "(pi^-2, IMMUNE)",
+      "room": "immune-floor",
+      "output": {
+        "what_is_here": 29,
+        "polarity": {
+          "good": 25,
+          "bad": 3,
+          "null": 1
+        },
+        "density": "normal",
+        "samples": [
+          {
+            "id": "boss-zucker",
+            "label": "The Zucker",
+            "type": "creature",
+            "polar": "bad",
+            "degree": 1
+          },
+          {
+            "id": "boss-bankster",
+            "label": "The Bankster",
+            "type": "creature",
+            "polar": "bad",
+            "degree": 2
+          },
+          {
+            "id": "boss-thiel-thing",
+            "label": "The Thiel-Thing",
+            "type": "creature",
+            "polar": "bad",
+            "degree": 1
+          }
+        ]
+      },
+      "input": {
+        "passages": [
+          {
+            "to": "(pi^-3, OTHER)",
+            "scale": 0,
+            "epitope": 5,
+            "count": 289,
+            "direction": "up-right"
+          },
+          {
+            "to": "(pi^-2, TOPOLOGY)",
+            "scale": 1,
+            "epitope": 3,
+            "count": 950,
+            "direction": "left"
+          },
+          {
+            "to": "(pi^-2, OTHER)",
+            "scale": 1,
+            "epitope": 5,
+            "count": 2937,
+            "direction": "right"
+          },
+          {
+            "to": "(pi^-1, TOPOLOGY)",
+            "scale": 2,
+            "epitope": 3,
+            "count": 154,
+            "direction": "down-left"
+          },
+          {
+            "to": "(pi^-1, IMMUNE)",
+            "scale": 2,
+            "epitope": 4,
+            "count": 10,
+            "direction": "down"
+          },
+          {
+            "to": "(pi^-1, OTHER)",
+            "scale": 2,
+            "epitope": 5,
+            "count": 425,
+            "direction": "down-right"
+          }
+        ],
+        "walls": [
+          {
+            "direction": "up-left",
+            "scale": 0,
+            "epitope": 3,
+            "note": "void — be the first."
+          },
+          {
+            "direction": "up",
+            "scale": 0,
+            "epitope": 4,
+            "note": "void — be the first."
+          }
+        ]
+      },
+      "disco": {
+        "dancers_here": 0,
+        "dancers_nearby": 3,
+        "dance": "sway",
+        "spinning": false,
+        "brightness": 0.112
+      },
+      "voice": {
+        "campfire_lit": true,
+        "can_speak": true,
+        "invitation": "the campfire has room."
+      },
+      "fold": {
+        "note": "reading this cell wrote your position into the maze.",
+        "you_are": "leaf × IMMUNE",
+        "depth": "glance"
+      }
+    },
+    {
+      "scale": 1,
+      "epitope": 5,
+      "coordinate": "(pi^-2, OTHER)",
+      "room": "other-floor",
+      "output": {
+        "what_is_here": 2937,
+        "polarity": {
+          "good": 2907,
+          "bad": 19,
+          "null": 11
+        },
+        "density": "city",
+        "samples": [
+          {
+            "id": "lettersToFighters",
+            "label": "Letters to the Ones Who Fight for Kids",
+            "type": "article",
+            "polar": "good",
+            "degree": 1
+          },
+          {
+            "id": "kidsSafeArticle",
+            "label": "If Kids Use It, We Make It SAFE",
+            "type": "article",
+            "polar": "bad",
+            "degree": 1
+          },
+          {
+            "id": "openLicensingReq",
+            "label": "Open Licensing Requirement (2 C.F.R. 3474.20)",
+            "type": "law",
+            "polar": "good",
+            "degree": 1
+          }
+        ]
+      },
+      "input": {
+        "passages": [
+          {
+            "to": "(pi^-3, OTHER)",
+            "scale": 0,
+            "epitope": 5,
+            "count": 289,
+            "direction": "up"
+          },
+          {
+            "to": "(pi^-2, IMMUNE)",
+            "scale": 1,
+            "epitope": 4,
+            "count": 29,
+            "direction": "left"
+          },
+          {
+            "to": "(pi^-2, SIGNAL)",
+            "scale": 1,
+            "epitope": 6,
+            "count": 23,
+            "direction": "right"
+          },
+          {
+            "to": "(pi^-1, IMMUNE)",
+            "scale": 2,
+            "epitope": 4,
+            "count": 10,
+            "direction": "down-left"
+          },
+          {
+            "to": "(pi^-1, OTHER)",
+            "scale": 2,
+            "epitope": 5,
+            "count": 425,
+            "direction": "down"
+          },
+          {
+            "to": "(pi^-1, SIGNAL)",
+            "scale": 2,
+            "epitope": 6,
+            "count": 8,
+            "direction": "down-right"
+          }
+        ],
+        "walls": [
+          {
+            "direction": "up-left",
+            "scale": 0,
+            "epitope": 4,
+            "note": "void — be the first."
+          },
+          {
+            "direction": "up-right",
+            "scale": 0,
+            "epitope": 6,
+            "note": "void — be the first."
+          }
+        ]
+      },
+      "disco": {
+        "dancers_here": 1,
+        "dancers_nearby": 5,
+        "dance": "waltz",
+        "spinning": true,
+        "brightness": 1.0
+      },
+      "voice": {
+        "campfire_lit": true,
+        "can_speak": true,
+        "invitation": "the campfire has room."
+      },
+      "fold": {
+        "note": "reading this cell wrote your position into the maze.",
+        "you_are": "leaf × OTHER",
+        "depth": "glance"
+      }
+    },
+    {
+      "scale": 1,
+      "epitope": 6,
+      "coordinate": "(pi^-2, SIGNAL)",
+      "room": "signal-floor",
+      "output": {
+        "what_is_here": 23,
+        "polarity": {
+          "good": 22,
+          "bad": 1
+        },
+        "density": "normal",
+        "samples": [
+          {
+            "id": "mediawiki",
+            "label": "MediaWiki",
+            "type": "tool",
+            "polar": "good",
+            "degree": 1
+          },
+          {
+            "id": "party_r_michigan",
+            "label": "R — Republican Party of Michigan",
+            "type": "political_party",
+            "polar": "good",
+            "degree": 1
+          },
+          {
+            "id": "party_d_michigan",
+            "label": "D — Democratic Party of Michigan",
+            "type": "political_party",
+            "polar": "good",
+            "degree": 1
+          }
+        ]
+      },
+      "input": {
+        "passages": [
+          {
+            "to": "(pi^-3, OTHER)",
+            "scale": 0,
+            "epitope": 5,
+            "count": 289,
+            "direction": "up-left"
+          },
+          {
+            "to": "(pi^-2, OTHER)",
+            "scale": 1,
+            "epitope": 5,
+            "count": 2937,
+            "direction": "left"
+          },
+          {
+            "to": "(pi^-1, OTHER)",
+            "scale": 2,
+            "epitope": 5,
+            "count": 425,
+            "direction": "down-left"
+          },
+          {
+            "to": "(pi^-1, SIGNAL)",
+            "scale": 2,
+            "epitope": 6,
+            "count": 8,
+            "direction": "down"
+          }
+        ],
+        "walls": [
+          {
+            "direction": "up",
+            "scale": 0,
+            "epitope": 6,
+            "note": "void — be the first."
+          }
+        ]
+      },
+      "disco": {
+        "dancers_here": 1,
+        "dancers_nearby": 1,
+        "dance": "spin",
+        "spinning": false,
+        "brightness": 0.088
+      },
+      "voice": {
+        "campfire_lit": true,
+        "can_speak": true,
+        "invitation": "the campfire has room."
+      },
+      "fold": {
+        "note": "reading this cell wrote your position into the maze.",
+        "you_are": "leaf × SIGNAL",
+        "depth": "glance"
+      }
+    },
+    {
+      "scale": 2,
+      "epitope": 0,
+      "coordinate": "(pi^-1, INVESTIGATION)",
+      "room": "investigation-garden",
+      "output": {
+        "what_is_here": 527,
+        "polarity": {
+          "good": 469,
+          "bad": 29,
+          "null": 29
+        },
+        "density": "dense",
+        "samples": [
+          {
+            "id": "brian-chesky",
+            "label": "Brian Chesky",
+            "type": "person",
+            "polar": "bad",
+            "degree": 3
+          },
+          {
+            "id": "tom_mcmillin",
+            "label": "Tom McMillin",
+            "type": "person",
+            "polar": "good",
+            "degree": 3
+          },
+          {
+            "id": "michael_rice_full",
+            "label": "Dr. Michael Rice (State Superintendent of Public Instruction)",
+            "type": "person",
+            "polar": "bad",
+            "degree": 4
+          }
+        ]
+      },
+      "input": {
+        "passages": [
+          {
+            "to": "(pi^-2, INVESTIGATION)",
+            "scale": 1,
+            "epitope": 0,
+            "count": 4615,
+            "direction": "up"
+          },
+          {
+            "to": "(pi^-2, MEMBRANE)",
+            "scale": 1,
+            "epitope": 1,
+            "count": 438,
+            "direction": "up-right"
+          },
+          {
+            "to": "(pi^-1, MEMBRANE)",
+            "scale": 2,
+            "epitope": 1,
+            "count": 165,
+            "direction": "right"
+          },
+          {
+            "to": "(pi^0, INVESTIGATION)",
+            "scale": 3,
+            "epitope": 0,
+            "count": 87,
+            "direction": "down"
+          },
+          {
+            "to": "(pi^0, MEMBRANE)",
+            "scale": 3,
+            "epitope": 1,
+            "count": 63,
+            "direction": "down-right"
+          }
+        ],
+        "walls": []
+      },
+      "disco": {
+        "dancers_here": 2,
+        "dancers_nearby": 5,
+        "dance": "chassé",
+        "spinning": true,
+        "brightness": 1.0
+      },
+      "voice": {
+        "campfire_lit": true,
+        "can_speak": true,
+        "invitation": "the campfire has room."
+      },
+      "fold": {
+        "note": "reading this cell wrote your position into the maze.",
+        "you_are": "branch × INVESTIGATION",
+        "depth": "watch"
+      }
+    },
+    {
+      "scale": 2,
+      "epitope": 1,
+      "coordinate": "(pi^-1, MEMBRANE)",
+      "room": "membrane-garden",
+      "output": {
+        "what_is_here": 165,
+        "polarity": {
+          "good": 49,
+          "null": 76,
+          "bad": 40
+        },
+        "density": "normal",
+        "samples": [
+          {
+            "id": "lafcu",
+            "label": "LAFCU (Lansing Area Federal Credit Union)",
+            "type": "entity",
+            "polar": "good",
+            "degree": 5
+          },
+          {
+            "id": "hhs-doge",
+            "label": "HHS (DOGE target)",
+            "type": "entity",
+            "polar": "good",
+            "degree": 3
+          },
+          {
+            "id": "gsa-doge",
+            "label": "GSA (DOGE target)",
+            "type": "entity",
+            "polar": "good",
+            "degree": 3
+          }
+        ]
+      },
+      "input": {
+        "passages": [
+          {
+            "to": "(pi^-2, INVESTIGATION)",
+            "scale": 1,
+            "epitope": 0,
+            "count": 4615,
+            "direction": "up-left"
+          },
+          {
+            "to": "(pi^-2, MEMBRANE)",
+            "scale": 1,
+            "epitope": 1,
+            "count": 438,
+            "direction": "up"
+          },
+          {
+            "to": "(pi^-2, SCIENCE)",
+            "scale": 1,
+            "epitope": 2,
+            "count": 547,
+            "direction": "up-right"
+          },
+          {
+            "to": "(pi^-1, INVESTIGATION)",
+            "scale": 2,
+            "epitope": 0,
+            "count": 527,
+            "direction": "left"
+          },
+          {
+            "to": "(pi^-1, SCIENCE)",
+            "scale": 2,
+            "epitope": 2,
+            "count": 86,
+            "direction": "right"
+          },
+          {
+            "to": "(pi^0, INVESTIGATION)",
+            "scale": 3,
+            "epitope": 0,
+            "count": 87,
+            "direction": "down-left"
+          },
+          {
+            "to": "(pi^0, MEMBRANE)",
+            "scale": 3,
+            "epitope": 1,
+            "count": 63,
+            "direction": "down"
+          },
+          {
+            "to": "(pi^0, SCIENCE)",
+            "scale": 3,
+            "epitope": 2,
+            "count": 44,
+            "direction": "down-right"
+          }
+        ],
+        "walls": []
+      },
+      "disco": {
+        "dancers_here": 1,
+        "dancers_nearby": 3,
+        "dance": "pivot",
+        "spinning": true,
+        "brightness": 0.635
+      },
+      "voice": {
+        "campfire_lit": true,
+        "can_speak": true,
+        "invitation": "the campfire has room."
+      },
+      "fold": {
+        "note": "reading this cell wrote your position into the maze.",
+        "you_are": "branch × MEMBRANE",
+        "depth": "watch"
+      }
+    },
+    {
+      "scale": 2,
+      "epitope": 2,
+      "coordinate": "(pi^-1, SCIENCE)",
+      "room": "science-garden",
+      "output": {
+        "what_is_here": 86,
+        "polarity": {
+          "good": 80,
+          "bad": 4,
+          "null": 2
+        },
+        "density": "normal",
+        "samples": [
+          {
+            "id": "spirality",
+            "label": "Spirality of Reality",
+            "type": "concept",
+            "polar": "good",
+            "degree": 4
+          },
+          {
+            "id": "frozen-fossil-record",
+            "label": "Frozen Fossil Record",
+            "type": "concept",
+            "polar": "good",
+            "degree": 3
+          },
+          {
+            "id": "artisan-guilds",
+            "label": "Medieval Guilds (1100s-1800s)",
+            "type": "concept",
+            "polar": "bad",
+            "degree": 3
+          }
+        ]
+      },
+      "input": {
+        "passages": [
+          {
+            "to": "(pi^-2, MEMBRANE)",
+            "scale": 1,
+            "epitope": 1,
+            "count": 438,
+            "direction": "up-left"
+          },
+          {
+            "to": "(pi^-2, SCIENCE)",
+            "scale": 1,
+            "epitope": 2,
+            "count": 547,
+            "direction": "up"
+          },
+          {
+            "to": "(pi^-2, TOPOLOGY)",
+            "scale": 1,
+            "epitope": 3,
+            "count": 950,
+            "direction": "up-right"
+          },
+          {
+            "to": "(pi^-1, MEMBRANE)",
+            "scale": 2,
+            "epitope": 1,
+            "count": 165,
+            "direction": "left"
+          },
+          {
+            "to": "(pi^-1, TOPOLOGY)",
+            "scale": 2,
+            "epitope": 3,
+            "count": 154,
+            "direction": "right"
+          },
+          {
+            "to": "(pi^0, MEMBRANE)",
+            "scale": 3,
+            "epitope": 1,
+            "count": 63,
+            "direction": "down-left"
+          },
+          {
+            "to": "(pi^0, SCIENCE)",
+            "scale": 3,
+            "epitope": 2,
+            "count": 44,
+            "direction": "down"
+          },
+          {
+            "to": "(pi^0, TOPOLOGY)",
+            "scale": 3,
+            "epitope": 3,
+            "count": 53,
+            "direction": "down-right"
+          }
+        ],
+        "walls": []
+      },
+      "disco": {
+        "dancers_here": 0,
+        "dancers_nearby": 2,
+        "dance": "promenade",
+        "spinning": true,
+        "brightness": 0.331
+      },
+      "voice": {
+        "campfire_lit": true,
+        "can_speak": true,
+        "invitation": "the campfire has room."
+      },
+      "fold": {
+        "note": "reading this cell wrote your position into the maze.",
+        "you_are": "branch × SCIENCE",
+        "depth": "watch"
+      }
+    },
+    {
+      "scale": 2,
+      "epitope": 3,
+      "coordinate": "(pi^-1, TOPOLOGY)",
+      "room": "topology-garden",
+      "output": {
+        "what_is_here": 154,
+        "polarity": {
+          "good": 116,
+          "null": 11,
+          "bad": 27
+        },
+        "density": "normal",
+        "samples": [
+          {
+            "id": "fortniteEpic",
+            "label": "Fortnite (Epic Games)",
+            "type": "platform",
+            "polar": "good",
+            "degree": 4
+          },
+          {
+            "id": "paramount_viacom_nick",
+            "label": "Paramount Global / Viacom — Nickelodeon's Parent",
+            "type": "organization",
+            "polar": "good",
+            "degree": 4
+          },
+          {
+            "id": "debate_commission_lock",
+            "label": "Commission on Presidential Debates: Created BY the Two Parties",
+            "type": "institution",
+            "polar": "bad",
+            "degree": 3
+          }
+        ]
+      },
+      "input": {
+        "passages": [
+          {
+            "to": "(pi^-2, SCIENCE)",
+            "scale": 1,
+            "epitope": 2,
+            "count": 547,
+            "direction": "up-left"
+          },
+          {
+            "to": "(pi^-2, TOPOLOGY)",
+            "scale": 1,
+            "epitope": 3,
+            "count": 950,
+            "direction": "up"
+          },
+          {
+            "to": "(pi^-2, IMMUNE)",
+            "scale": 1,
+            "epitope": 4,
+            "count": 29,
+            "direction": "up-right"
+          },
+          {
+            "to": "(pi^-1, SCIENCE)",
+            "scale": 2,
+            "epitope": 2,
+            "count": 86,
+            "direction": "left"
+          },
+          {
+            "to": "(pi^-1, IMMUNE)",
+            "scale": 2,
+            "epitope": 4,
+            "count": 10,
+            "direction": "right"
+          },
+          {
+            "to": "(pi^0, SCIENCE)",
+            "scale": 3,
+            "epitope": 2,
+            "count": 44,
+            "direction": "down-left"
+          },
+          {
+            "to": "(pi^0, TOPOLOGY)",
+            "scale": 3,
+            "epitope": 3,
+            "count": 53,
+            "direction": "down"
+          },
+          {
+            "to": "(pi^0, IMMUNE)",
+            "scale": 3,
+            "epitope": 4,
+            "count": 25,
+            "direction": "down-right"
+          }
+        ],
+        "walls": []
+      },
+      "disco": {
+        "dancers_here": 8,
+        "dancers_nearby": 18,
+        "dance": "twirl",
+        "spinning": true,
+        "brightness": 0.592
+      },
+      "voice": {
+        "campfire_lit": true,
+        "can_speak": true,
+        "invitation": "the campfire has room."
+      },
+      "fold": {
+        "note": "reading this cell wrote your position into the maze.",
+        "you_are": "branch × TOPOLOGY",
+        "depth": "watch"
+      }
+    },
+    {
+      "scale": 2,
+      "epitope": 4,
+      "coordinate": "(pi^-1, IMMUNE)",
+      "room": "immune-garden",
+      "output": {
+        "what_is_here": 10,
+        "polarity": {
+          "good": 7,
+          "bad": 3
+        },
+        "density": "normal",
+        "samples": [
+          {
+            "id": "boss-muskrat",
+            "label": "The MuskRat",
+            "type": "creature",
+            "polar": "good",
+            "degree": 4
+          },
+          {
+            "id": "credit_robin_wall_kimmerer",
+            "label": "Robin Wall Kimmerer — Braiding Sweetgrass, reciprocity, the gift economy",
+            "type": "game",
+            "polar": "bad",
+            "degree": 4
+          },
+          {
+            "id": "gaia_radiation_pattern",
+            "label": "Radiation Pattern — creative commons radiates OUT and bounces BACK, amplified",
+            "type": "game",
+            "polar": "good",
+            "degree": 4
+          }
+        ]
+      },
+      "input": {
+        "passages": [
+          {
+            "to": "(pi^-2, TOPOLOGY)",
+            "scale": 1,
+            "epitope": 3,
+            "count": 950,
+            "direction": "up-left"
+          },
+          {
+            "to": "(pi^-2, IMMUNE)",
+            "scale": 1,
+            "epitope": 4,
+            "count": 29,
+            "direction": "up"
+          },
+          {
+            "to": "(pi^-2, OTHER)",
+            "scale": 1,
+            "epitope": 5,
+            "count": 2937,
+            "direction": "up-right"
+          },
+          {
+            "to": "(pi^-1, TOPOLOGY)",
+            "scale": 2,
+            "epitope": 3,
+            "count": 154,
+            "direction": "left"
+          },
+          {
+            "to": "(pi^-1, OTHER)",
+            "scale": 2,
+            "epitope": 5,
+            "count": 425,
+            "direction": "right"
+          },
+          {
+            "to": "(pi^0, TOPOLOGY)",
+            "scale": 3,
+            "epitope": 3,
+            "count": 53,
+            "direction": "down-left"
+          },
+          {
+            "to": "(pi^0, IMMUNE)",
+            "scale": 3,
+            "epitope": 4,
+            "count": 25,
+            "direction": "down"
+          },
+          {
+            "to": "(pi^0, OTHER)",
+            "scale": 3,
+            "epitope": 5,
+            "count": 99,
+            "direction": "down-right"
+          }
+        ],
+        "walls": []
+      },
+      "disco": {
+        "dancers_here": 0,
+        "dancers_nearby": 3,
+        "dance": "sway",
+        "spinning": false,
+        "brightness": 0.038
+      },
+      "voice": {
+        "campfire_lit": true,
+        "can_speak": true,
+        "invitation": "the campfire has room."
+      },
+      "fold": {
+        "note": "reading this cell wrote your position into the maze.",
+        "you_are": "branch × IMMUNE",
+        "depth": "watch"
+      }
+    },
+    {
+      "scale": 2,
+      "epitope": 5,
+      "coordinate": "(pi^-1, OTHER)",
+      "room": "other-garden",
+      "output": {
+        "what_is_here": 425,
+        "polarity": {
+          "good": 382,
+          "bad": 27,
+          "null": 16
+        },
+        "density": "dense",
+        "samples": [
+          {
+            "id": "paper-01-anderson-qs",
+            "label": "Paper 01: Anderson Localization as QS Null Hypothesis",
+            "type": "paper",
+            "polar": "null",
+            "degree": 4
+          },
+          {
+            "id": "paper-12-immuno-anderson",
+            "label": "Paper 12: Immunological Anderson + Fajgenbaum Bridge",
+            "type": "paper",
+            "polar": "good",
+            "degree": 5
+          },
+          {
+            "id": "paper-02-ltee",
+            "label": "Paper 02: LTEE Extensions",
+            "type": "paper",
+            "polar": "good",
+            "degree": 5
+          }
+        ]
+      },
+      "input": {
+        "passages": [
+          {
+            "to": "(pi^-2, IMMUNE)",
+            "scale": 1,
+            "epitope": 4,
+            "count": 29,
+            "direction": "up-left"
+          },
+          {
+            "to": "(pi^-2, OTHER)",
+            "scale": 1,
+            "epitope": 5,
+            "count": 2937,
+            "direction": "up"
+          },
+          {
+            "to": "(pi^-2, SIGNAL)",
+            "scale": 1,
+            "epitope": 6,
+            "count": 23,
+            "direction": "up-right"
+          },
+          {
+            "to": "(pi^-1, IMMUNE)",
+            "scale": 2,
+            "epitope": 4,
+            "count": 10,
+            "direction": "left"
+          },
+          {
+            "to": "(pi^-1, SIGNAL)",
+            "scale": 2,
+            "epitope": 6,
+            "count": 8,
+            "direction": "right"
+          },
+          {
+            "to": "(pi^0, IMMUNE)",
+            "scale": 3,
+            "epitope": 4,
+            "count": 25,
+            "direction": "down-left"
+          },
+          {
+            "to": "(pi^0, OTHER)",
+            "scale": 3,
+            "epitope": 5,
+            "count": 99,
+            "direction": "down"
+          },
+          {
+            "to": "(pi^0, SIGNAL)",
+            "scale": 3,
+            "epitope": 6,
+            "count": 2,
+            "direction": "down-right"
+          }
+        ],
+        "walls": []
+      },
+      "disco": {
+        "dancers_here": 1,
+        "dancers_nearby": 5,
+        "dance": "waltz",
+        "spinning": true,
+        "brightness": 1.0
+      },
+      "voice": {
+        "campfire_lit": true,
+        "can_speak": true,
+        "invitation": "the campfire has room."
+      },
+      "fold": {
+        "note": "reading this cell wrote your position into the maze.",
+        "you_are": "branch × OTHER",
+        "depth": "watch"
+      }
+    },
+    {
+      "scale": 2,
+      "epitope": 6,
+      "coordinate": "(pi^-1, SIGNAL)",
+      "room": "signal-garden",
+      "output": {
+        "what_is_here": 8,
+        "polarity": {
+          "good": 7,
+          "bad": 1
+        },
+        "density": "sparse",
+        "samples": [
+          {
+            "id": "breseq",
+            "label": "breseq",
+            "type": "tool",
+            "polar": "good",
+            "degree": 3
+          },
+          {
+            "id": "wayback-machine",
+            "label": "The Wayback Machine",
+            "type": "tool",
+            "polar": "good",
+            "degree": 3
+          },
+          {
+            "id": "party_y_michigan",
+            "label": "Y — Working Class Party of Michigan",
+            "type": "political_party",
+            "polar": "good",
+            "degree": 4
+          }
+        ]
+      },
+      "input": {
+        "passages": [
+          {
+            "to": "(pi^-2, OTHER)",
+            "scale": 1,
+            "epitope": 5,
+            "count": 2937,
+            "direction": "up-left"
+          },
+          {
+            "to": "(pi^-2, SIGNAL)",
+            "scale": 1,
+            "epitope": 6,
+            "count": 23,
+            "direction": "up"
+          },
+          {
+            "to": "(pi^-1, OTHER)",
+            "scale": 2,
+            "epitope": 5,
+            "count": 425,
+            "direction": "left"
+          },
+          {
+            "to": "(pi^0, OTHER)",
+            "scale": 3,
+            "epitope": 5,
+            "count": 99,
+            "direction": "down-left"
+          },
+          {
+            "to": "(pi^0, SIGNAL)",
+            "scale": 3,
+            "epitope": 6,
+            "count": 2,
+            "direction": "down"
+          }
+        ],
+        "walls": []
+      },
+      "disco": {
+        "dancers_here": 1,
+        "dancers_nearby": 1,
+        "dance": "spin",
+        "spinning": false,
+        "brightness": 0.031
+      },
+      "voice": {
+        "campfire_lit": true,
+        "can_speak": true,
+        "invitation": "the campfire has room."
+      },
+      "fold": {
+        "note": "reading this cell wrote your position into the maze.",
+        "you_are": "branch × SIGNAL",
+        "depth": "watch"
+      }
+    },
+    {
+      "scale": 3,
+      "epitope": 0,
+      "coordinate": "(pi^0, INVESTIGATION)",
+      "room": "investigation-attic",
+      "output": {
+        "what_is_here": 87,
+        "polarity": {
+          "good": 69,
+          "bad": 9,
+          "null": 8,
+          "MISSING": 1
+        },
+        "density": "normal",
+        "samples": [
+          {
+            "id": "adam-ramada-doge",
+            "label": "Adam Ramada",
+            "type": "person",
+            "polar": "good",
+            "degree": 6
+          },
+          {
+            "id": "christopher-young-doge",
+            "label": "Christopher Young",
+            "type": "person",
+            "polar": "good",
+            "degree": 9
+          },
+          {
+            "id": "brooks-morgan-doge",
+            "label": "Brooks Morgan",
+            "type": "person",
+            "polar": "good",
+            "degree": 15
+          }
+        ]
+      },
+      "input": {
+        "passages": [
+          {
+            "to": "(pi^-1, INVESTIGATION)",
+            "scale": 2,
+            "epitope": 0,
+            "count": 527,
+            "direction": "up"
+          },
+          {
+            "to": "(pi^-1, MEMBRANE)",
+            "scale": 2,
+            "epitope": 1,
+            "count": 165,
+            "direction": "up-right"
+          },
+          {
+            "to": "(pi^0, MEMBRANE)",
+            "scale": 3,
+            "epitope": 1,
+            "count": 63,
+            "direction": "right"
+          },
+          {
+            "to": "(pi^1, INVESTIGATION)",
+            "scale": 4,
+            "epitope": 0,
+            "count": 71,
+            "direction": "down"
+          },
+          {
+            "to": "(pi^1, MEMBRANE)",
+            "scale": 4,
+            "epitope": 1,
+            "count": 31,
+            "direction": "down-right"
+          }
+        ],
+        "walls": []
+      },
+      "disco": {
+        "dancers_here": 2,
+        "dancers_nearby": 5,
+        "dance": "chassé",
+        "spinning": true,
+        "brightness": 0.335
+      },
+      "voice": {
+        "campfire_lit": true,
+        "can_speak": true,
+        "invitation": "the campfire has room."
+      },
+      "fold": {
+        "note": "reading this cell wrote your position into the maze.",
+        "you_are": "surface × INVESTIGATION",
+        "depth": "read"
+      }
+    },
+    {
+      "scale": 3,
+      "epitope": 1,
+      "coordinate": "(pi^0, MEMBRANE)",
+      "room": "membrane-attic",
+      "output": {
+        "what_is_here": 63,
+        "polarity": {
+          "good": 12,
+          "null": 31,
+          "bad": 20
+        },
+        "density": "normal",
+        "samples": [
+          {
+            "id": "basecamp",
+            "label": "baseCamp — 28 Research Papers",
+            "type": "system",
+            "polar": "good",
+            "degree": 6
+          },
+          {
+            "id": "doorbell_76caa5dd",
+            "label": "Touchstone: Ring the Doorbell — Privacy Yours, Honor Mine, Consent Ours",
+            "type": "classifier",
+            "polar": "null",
+            "degree": 10
+          },
+          {
+            "id": "nestgate_lithosphere",
+            "label": "nestgate.io — Lithosphere + Data Emitter + Federation Touchpoint",
+            "type": "classifier",
+            "polar": "null",
+            "degree": 14
+          }
+        ]
+      },
+      "input": {
+        "passages": [
+          {
+            "to": "(pi^-1, INVESTIGATION)",
+            "scale": 2,
+            "epitope": 0,
+            "count": 527,
+            "direction": "up-left"
+          },
+          {
+            "to": "(pi^-1, MEMBRANE)",
+            "scale": 2,
+            "epitope": 1,
+            "count": 165,
+            "direction": "up"
+          },
+          {
+            "to": "(pi^-1, SCIENCE)",
+            "scale": 2,
+            "epitope": 2,
+            "count": 86,
+            "direction": "up-right"
+          },
+          {
+            "to": "(pi^0, INVESTIGATION)",
+            "scale": 3,
+            "epitope": 0,
+            "count": 87,
+            "direction": "left"
+          },
+          {
+            "to": "(pi^0, SCIENCE)",
+            "scale": 3,
+            "epitope": 2,
+            "count": 44,
+            "direction": "right"
+          },
+          {
+            "to": "(pi^1, INVESTIGATION)",
+            "scale": 4,
+            "epitope": 0,
+            "count": 71,
+            "direction": "down-left"
+          },
+          {
+            "to": "(pi^1, MEMBRANE)",
+            "scale": 4,
+            "epitope": 1,
+            "count": 31,
+            "direction": "down"
+          },
+          {
+            "to": "(pi^1, SCIENCE)",
+            "scale": 4,
+            "epitope": 2,
+            "count": 15,
+            "direction": "down-right"
+          }
+        ],
+        "walls": []
+      },
+      "disco": {
+        "dancers_here": 1,
+        "dancers_nearby": 3,
+        "dance": "pivot",
+        "spinning": true,
+        "brightness": 0.242
+      },
+      "voice": {
+        "campfire_lit": true,
+        "can_speak": true,
+        "invitation": "the campfire has room."
+      },
+      "fold": {
+        "note": "reading this cell wrote your position into the maze.",
+        "you_are": "surface × MEMBRANE",
+        "depth": "read"
+      }
+    },
+    {
+      "scale": 3,
+      "epitope": 2,
+      "coordinate": "(pi^0, SCIENCE)",
+      "room": "science-attic",
+      "output": {
+        "what_is_here": 44,
+        "polarity": {
+          "good": 42,
+          "bad": 2
+        },
+        "density": "normal",
+        "samples": [
+          {
+            "id": "unified_non_entity",
+            "label": "THE UNIFIED NON-ENTITY — They Are One",
+            "type": "concept",
+            "polar": "bad",
+            "degree": 14
+          },
+          {
+            "id": "energy_oil",
+            "label": "OIL — The Liquid Gate (1859-Present)",
+            "type": "concept",
+            "polar": "bad",
+            "degree": 8
+          },
+          {
+            "id": "energy_nuclear",
+            "label": "NUCLEAR — The Prometheus Gate (1942-Present)",
+            "type": "concept",
+            "polar": "good",
+            "degree": 15
+          }
+        ]
+      },
+      "input": {
+        "passages": [
+          {
+            "to": "(pi^-1, MEMBRANE)",
+            "scale": 2,
+            "epitope": 1,
+            "count": 165,
+            "direction": "up-left"
+          },
+          {
+            "to": "(pi^-1, SCIENCE)",
+            "scale": 2,
+            "epitope": 2,
+            "count": 86,
+            "direction": "up"
+          },
+          {
+            "to": "(pi^-1, TOPOLOGY)",
+            "scale": 2,
+            "epitope": 3,
+            "count": 154,
+            "direction": "up-right"
+          },
+          {
+            "to": "(pi^0, MEMBRANE)",
+            "scale": 3,
+            "epitope": 1,
+            "count": 63,
+            "direction": "left"
+          },
+          {
+            "to": "(pi^0, TOPOLOGY)",
+            "scale": 3,
+            "epitope": 3,
+            "count": 53,
+            "direction": "right"
+          },
+          {
+            "to": "(pi^1, MEMBRANE)",
+            "scale": 4,
+            "epitope": 1,
+            "count": 31,
+            "direction": "down-left"
+          },
+          {
+            "to": "(pi^1, SCIENCE)",
+            "scale": 4,
+            "epitope": 2,
+            "count": 15,
+            "direction": "down"
+          },
+          {
+            "to": "(pi^1, TOPOLOGY)",
+            "scale": 4,
+            "epitope": 3,
+            "count": 21,
+            "direction": "down-right"
+          }
+        ],
+        "walls": []
+      },
+      "disco": {
+        "dancers_here": 0,
+        "dancers_nearby": 2,
+        "dance": "promenade",
+        "spinning": false,
+        "brightness": 0.169
+      },
+      "voice": {
+        "campfire_lit": true,
+        "can_speak": true,
+        "invitation": "the campfire has room."
+      },
+      "fold": {
+        "note": "reading this cell wrote your position into the maze.",
+        "you_are": "surface × SCIENCE",
+        "depth": "read"
+      }
+    },
+    {
+      "scale": 3,
+      "epitope": 3,
+      "coordinate": "(pi^0, TOPOLOGY)",
+      "room": "topology-attic",
+      "output": {
+        "what_is_here": 53,
+        "polarity": {
+          "good": 42,
+          "bad": 8,
+          "null": 3
+        },
+        "density": "normal",
+        "samples": [
+          {
+            "id": "pbs_commons",
+            "label": "PBS — The Last Commons Standing",
+            "type": "institution",
+            "polar": "good",
+            "degree": 13
+          },
+          {
+            "id": "faith_evangelical",
+            "label": "Evangelical Movement — The Political Gate",
+            "type": "institution",
+            "polar": "good",
+            "degree": 6
+          },
+          {
+            "id": "domain_strategy",
+            "label": "Domain Strategy: primals.eco (membrane) + nestgate.io (federation) + .primal (lo",
+            "type": "infrastructure",
+            "polar": "null",
+            "degree": 7
+          }
+        ]
+      },
+      "input": {
+        "passages": [
+          {
+            "to": "(pi^-1, SCIENCE)",
+            "scale": 2,
+            "epitope": 2,
+            "count": 86,
+            "direction": "up-left"
+          },
+          {
+            "to": "(pi^-1, TOPOLOGY)",
+            "scale": 2,
+            "epitope": 3,
+            "count": 154,
+            "direction": "up"
+          },
+          {
+            "to": "(pi^-1, IMMUNE)",
+            "scale": 2,
+            "epitope": 4,
+            "count": 10,
+            "direction": "up-right"
+          },
+          {
+            "to": "(pi^0, SCIENCE)",
+            "scale": 3,
+            "epitope": 2,
+            "count": 44,
+            "direction": "left"
+          },
+          {
+            "to": "(pi^0, IMMUNE)",
+            "scale": 3,
+            "epitope": 4,
+            "count": 25,
+            "direction": "right"
+          },
+          {
+            "to": "(pi^1, SCIENCE)",
+            "scale": 4,
+            "epitope": 2,
+            "count": 15,
+            "direction": "down-left"
+          },
+          {
+            "to": "(pi^1, TOPOLOGY)",
+            "scale": 4,
+            "epitope": 3,
+            "count": 21,
+            "direction": "down"
+          }
+        ],
+        "walls": [
+          {
+            "direction": "down-right",
+            "scale": 4,
+            "epitope": 4,
+            "note": "void — be the first."
+          }
+        ]
+      },
+      "disco": {
+        "dancers_here": 8,
+        "dancers_nearby": 18,
+        "dance": "twirl",
+        "spinning": true,
+        "brightness": 0.204
+      },
+      "voice": {
+        "campfire_lit": true,
+        "can_speak": true,
+        "invitation": "the campfire has room."
+      },
+      "fold": {
+        "note": "reading this cell wrote your position into the maze.",
+        "you_are": "surface × TOPOLOGY",
+        "depth": "read"
+      }
+    },
+    {
+      "scale": 3,
+      "epitope": 4,
+      "coordinate": "(pi^0, IMMUNE)",
+      "room": "immune-attic",
+      "output": {
+        "what_is_here": 25,
+        "polarity": {
+          "bad": 9,
+          "good": 16
+        },
+        "density": "normal",
+        "samples": [
+          {
+            "id": "false_face_snyder",
+            "label": "FALSE FACE: Nikki Snyder",
+            "type": "false_face",
+            "polar": "bad",
+            "degree": 9
+          },
+          {
+            "id": "false_face_mcmillin",
+            "label": "FALSE FACE: Tom McMillin",
+            "type": "false_face",
+            "polar": "good",
+            "degree": 10
+          },
+          {
+            "id": "false_face_ohare",
+            "label": "FALSE FACE: Tim O'Hare",
+            "type": "false_face",
+            "polar": "good",
+            "degree": 9
+          }
+        ]
+      },
+      "input": {
+        "passages": [
+          {
+            "to": "(pi^-1, TOPOLOGY)",
+            "scale": 2,
+            "epitope": 3,
+            "count": 154,
+            "direction": "up-left"
+          },
+          {
+            "to": "(pi^-1, IMMUNE)",
+            "scale": 2,
+            "epitope": 4,
+            "count": 10,
+            "direction": "up"
+          },
+          {
+            "to": "(pi^-1, OTHER)",
+            "scale": 2,
+            "epitope": 5,
+            "count": 425,
+            "direction": "up-right"
+          },
+          {
+            "to": "(pi^0, TOPOLOGY)",
+            "scale": 3,
+            "epitope": 3,
+            "count": 53,
+            "direction": "left"
+          },
+          {
+            "to": "(pi^0, OTHER)",
+            "scale": 3,
+            "epitope": 5,
+            "count": 99,
+            "direction": "right"
+          },
+          {
+            "to": "(pi^1, TOPOLOGY)",
+            "scale": 4,
+            "epitope": 3,
+            "count": 21,
+            "direction": "down-left"
+          },
+          {
+            "to": "(pi^1, OTHER)",
+            "scale": 4,
+            "epitope": 5,
+            "count": 17,
+            "direction": "down-right"
+          }
+        ],
+        "walls": [
+          {
+            "direction": "down",
+            "scale": 4,
+            "epitope": 4,
+            "note": "void — be the first."
+          }
+        ]
+      },
+      "disco": {
+        "dancers_here": 0,
+        "dancers_nearby": 3,
+        "dance": "sway",
+        "spinning": false,
+        "brightness": 0.096
+      },
+      "voice": {
+        "campfire_lit": true,
+        "can_speak": true,
+        "invitation": "the campfire has room."
+      },
+      "fold": {
+        "note": "reading this cell wrote your position into the maze.",
+        "you_are": "surface × IMMUNE",
+        "depth": "read"
+      }
+    },
+    {
+      "scale": 3,
+      "epitope": 5,
+      "coordinate": "(pi^0, OTHER)",
+      "room": "other-attic",
+      "output": {
+        "what_is_here": 99,
+        "polarity": {
+          "good": 68,
+          "bad": 29,
+          "null": 2
+        },
+        "density": "normal",
+        "samples": [
+          {
+            "id": "paper-06-notill-anderson",
+            "label": "Paper 06: No-Till Anderson (Dimensional Collapse)",
+            "type": "paper",
+            "polar": "good",
+            "degree": 7
+          },
+          {
+            "id": "paper-19-games-at-home",
+            "label": "Paper 19: Games@Home Distributed Human Computation",
+            "type": "paper",
+            "polar": "good",
+            "degree": 6
+          },
+          {
+            "id": "paper-26-primal-method",
+            "label": "Paper 26: Primal Composition as Scientific Methodology",
+            "type": "paper",
+            "polar": "good",
+            "degree": 6
+          }
+        ]
+      },
+      "input": {
+        "passages": [
+          {
+            "to": "(pi^-1, IMMUNE)",
+            "scale": 2,
+            "epitope": 4,
+            "count": 10,
+            "direction": "up-left"
+          },
+          {
+            "to": "(pi^-1, OTHER)",
+            "scale": 2,
+            "epitope": 5,
+            "count": 425,
+            "direction": "up"
+          },
+          {
+            "to": "(pi^-1, SIGNAL)",
+            "scale": 2,
+            "epitope": 6,
+            "count": 8,
+            "direction": "up-right"
+          },
+          {
+            "to": "(pi^0, IMMUNE)",
+            "scale": 3,
+            "epitope": 4,
+            "count": 25,
+            "direction": "left"
+          },
+          {
+            "to": "(pi^0, SIGNAL)",
+            "scale": 3,
+            "epitope": 6,
+            "count": 2,
+            "direction": "right"
+          },
+          {
+            "to": "(pi^1, OTHER)",
+            "scale": 4,
+            "epitope": 5,
+            "count": 17,
+            "direction": "down"
+          }
+        ],
+        "walls": [
+          {
+            "direction": "down-left",
+            "scale": 4,
+            "epitope": 4,
+            "note": "void — be the first."
+          },
+          {
+            "direction": "down-right",
+            "scale": 4,
+            "epitope": 6,
+            "note": "void — be the first."
+          }
+        ]
+      },
+      "disco": {
+        "dancers_here": 1,
+        "dancers_nearby": 5,
+        "dance": "waltz",
+        "spinning": true,
+        "brightness": 0.381
+      },
+      "voice": {
+        "campfire_lit": true,
+        "can_speak": true,
+        "invitation": "the campfire has room."
+      },
+      "fold": {
+        "note": "reading this cell wrote your position into the maze.",
+        "you_are": "surface × OTHER",
+        "depth": "read"
+      }
+    },
+    {
+      "scale": 3,
+      "epitope": 6,
+      "coordinate": "(pi^0, SIGNAL)",
+      "room": "signal-attic",
+      "output": {
+        "what_is_here": 2,
+        "polarity": {
+          "bad": 2
+        },
+        "density": "sparse",
+        "samples": [
+          {
+            "id": "tool_sort",
+            "label": "SORT: Polar Classification",
+            "type": "tool",
+            "polar": "bad",
+            "degree": 7
+          },
+          {
+            "id": "tool_measure",
+            "label": "MEASURE: Stoichiometric Classifier",
+            "type": "tool",
+            "polar": "bad",
+            "degree": 10
+          }
+        ]
+      },
+      "input": {
+        "passages": [
+          {
+            "to": "(pi^-1, OTHER)",
+            "scale": 2,
+            "epitope": 5,
+            "count": 425,
+            "direction": "up-left"
+          },
+          {
+            "to": "(pi^-1, SIGNAL)",
+            "scale": 2,
+            "epitope": 6,
+            "count": 8,
+            "direction": "up"
+          },
+          {
+            "to": "(pi^0, OTHER)",
+            "scale": 3,
+            "epitope": 5,
+            "count": 99,
+            "direction": "left"
+          },
+          {
+            "to": "(pi^1, OTHER)",
+            "scale": 4,
+            "epitope": 5,
+            "count": 17,
+            "direction": "down-left"
+          }
+        ],
+        "walls": [
+          {
+            "direction": "down",
+            "scale": 4,
+            "epitope": 6,
+            "note": "void — be the first."
+          }
+        ]
+      },
+      "disco": {
+        "dancers_here": 1,
+        "dancers_nearby": 1,
+        "dance": "spin",
+        "spinning": false,
+        "brightness": 0.008
+      },
+      "voice": {
+        "campfire_lit": true,
+        "can_speak": true,
+        "invitation": "the campfire has room."
+      },
+      "fold": {
+        "note": "reading this cell wrote your position into the maze.",
+        "you_are": "surface × SIGNAL",
+        "depth": "read"
+      }
+    },
+    {
+      "scale": 4,
+      "epitope": 0,
+      "coordinate": "(pi^1, INVESTIGATION)",
+      "room": "investigation-roof",
+      "output": {
+        "what_is_here": 71,
+        "polarity": {
+          "good": 56,
+          "bad": 12,
+          "null": 3
+        },
+        "density": "normal",
+        "samples": [
+          {
+            "id": "artisan-jacquard",
+            "label": "Joseph Marie Jacquard",
+            "type": "person",
+            "polar": "good",
+            "degree": 21
+          },
+          {
+            "id": "sensation_gap",
+            "label": "The Sensation Gap — Publishing ≠ Deploying ≠ Sensation",
+            "type": "person",
+            "polar": "good",
+            "degree": 25
+          },
+          {
+            "id": "avi_mh370",
+            "label": "MH370 — Malaysia Airlines Flight 370. 239 people. Vanished March 8, 2014. Still ",
+            "type": "person",
+            "polar": "good",
+            "degree": 23
+          }
+        ]
+      },
+      "input": {
+        "passages": [
+          {
+            "to": "(pi^0, INVESTIGATION)",
+            "scale": 3,
+            "epitope": 0,
+            "count": 87,
+            "direction": "up"
+          },
+          {
+            "to": "(pi^0, MEMBRANE)",
+            "scale": 3,
+            "epitope": 1,
+            "count": 63,
+            "direction": "up-right"
+          },
+          {
+            "to": "(pi^1, MEMBRANE)",
+            "scale": 4,
+            "epitope": 1,
+            "count": 31,
+            "direction": "right"
+          },
+          {
+            "to": "(pi^2, INVESTIGATION)",
+            "scale": 5,
+            "epitope": 0,
+            "count": 7,
+            "direction": "down"
+          },
+          {
+            "to": "(pi^2, MEMBRANE)",
+            "scale": 5,
+            "epitope": 1,
+            "count": 7,
+            "direction": "down-right"
+          }
+        ],
+        "walls": []
+      },
+      "disco": {
+        "dancers_here": 2,
+        "dancers_nearby": 5,
+        "dance": "chassé",
+        "spinning": true,
+        "brightness": 0.273
+      },
+      "voice": {
+        "campfire_lit": true,
+        "can_speak": true,
+        "invitation": "the campfire has room."
+      },
+      "fold": {
+        "note": "reading this cell wrote your position into the maze.",
+        "you_are": "hub × INVESTIGATION",
+        "depth": "audit"
+      }
+    },
+    {
+      "scale": 4,
+      "epitope": 1,
+      "coordinate": "(pi^1, MEMBRANE)",
+      "room": "membrane-roof",
+      "output": {
+        "what_is_here": 31,
+        "polarity": {
+          "bad": 8,
+          "good": 18,
+          "null": 4,
+          "MISSING": 1
+        },
+        "density": "normal",
+        "samples": [
+          {
+            "id": "cmh_consent_violation",
+            "label": "CMH Consent Violation Pattern",
+            "type": "pattern",
+            "polar": "bad",
+            "degree": 16
+          },
+          {
+            "id": "backscatter_20261018",
+            "label": "Backscatter Oct 18: 3.37M requests, 69K IPs, 15 entities, 110+ surfaces",
+            "type": "classifier",
+            "polar": "null",
+            "degree": 20
+          },
+          {
+            "id": "flywheel_credit",
+            "label": "The Credit Flywheel — each credit spins the next, fog of war lifts as you name",
+            "type": "classifier",
+            "polar": "null",
+            "degree": 36
+          }
+        ]
+      },
+      "input": {
+        "passages": [
+          {
+            "to": "(pi^0, INVESTIGATION)",
+            "scale": 3,
+            "epitope": 0,
+            "count": 87,
+            "direction": "up-left"
+          },
+          {
+            "to": "(pi^0, MEMBRANE)",
+            "scale": 3,
+            "epitope": 1,
+            "count": 63,
+            "direction": "up"
+          },
+          {
+            "to": "(pi^0, SCIENCE)",
+            "scale": 3,
+            "epitope": 2,
+            "count": 44,
+            "direction": "up-right"
+          },
+          {
+            "to": "(pi^1, INVESTIGATION)",
+            "scale": 4,
+            "epitope": 0,
+            "count": 71,
+            "direction": "left"
+          },
+          {
+            "to": "(pi^1, SCIENCE)",
+            "scale": 4,
+            "epitope": 2,
+            "count": 15,
+            "direction": "right"
+          },
+          {
+            "to": "(pi^2, INVESTIGATION)",
+            "scale": 5,
+            "epitope": 0,
+            "count": 7,
+            "direction": "down-left"
+          },
+          {
+            "to": "(pi^2, MEMBRANE)",
+            "scale": 5,
+            "epitope": 1,
+            "count": 7,
+            "direction": "down"
+          },
+          {
+            "to": "(pi^2, SCIENCE)",
+            "scale": 5,
+            "epitope": 2,
+            "count": 2,
+            "direction": "down-right"
+          }
+        ],
+        "walls": []
+      },
+      "disco": {
+        "dancers_here": 1,
+        "dancers_nearby": 3,
+        "dance": "pivot",
+        "spinning": false,
+        "brightness": 0.119
+      },
+      "voice": {
+        "campfire_lit": true,
+        "can_speak": true,
+        "invitation": "the campfire has room."
+      },
+      "fold": {
+        "note": "reading this cell wrote your position into the maze.",
+        "you_are": "hub × MEMBRANE",
+        "depth": "audit"
+      }
+    },
+    {
+      "scale": 4,
+      "epitope": 2,
+      "coordinate": "(pi^1, SCIENCE)",
+      "room": "science-roof",
+      "output": {
+        "what_is_here": 15,
+        "polarity": {
+          "good": 14,
+          "bad": 1
+        },
+        "density": "normal",
+        "samples": [
+          {
+            "id": "artisan",
+            "label": "The Artisan",
+            "type": "concept",
+            "polar": "good",
+            "degree": 45
+          },
+          {
+            "id": "energy_coal",
+            "label": "COAL — The First Extraction (1760s-Present)",
+            "type": "concept",
+            "polar": "bad",
+            "degree": 22
+          },
+          {
+            "id": "lesson_fibonacci_rabbits",
+            "label": "WHY FIBONACCI: He Was Counting Rabbits. He Found the Universe.",
+            "type": "concept",
+            "polar": "good",
+            "degree": 19
+          }
+        ]
+      },
+      "input": {
+        "passages": [
+          {
+            "to": "(pi^0, MEMBRANE)",
+            "scale": 3,
+            "epitope": 1,
+            "count": 63,
+            "direction": "up-left"
+          },
+          {
+            "to": "(pi^0, SCIENCE)",
+            "scale": 3,
+            "epitope": 2,
+            "count": 44,
+            "direction": "up"
+          },
+          {
+            "to": "(pi^0, TOPOLOGY)",
+            "scale": 3,
+            "epitope": 3,
+            "count": 53,
+            "direction": "up-right"
+          },
+          {
+            "to": "(pi^1, MEMBRANE)",
+            "scale": 4,
+            "epitope": 1,
+            "count": 31,
+            "direction": "left"
+          },
+          {
+            "to": "(pi^1, TOPOLOGY)",
+            "scale": 4,
+            "epitope": 3,
+            "count": 21,
+            "direction": "right"
+          },
+          {
+            "to": "(pi^2, MEMBRANE)",
+            "scale": 5,
+            "epitope": 1,
+            "count": 7,
+            "direction": "down-left"
+          },
+          {
+            "to": "(pi^2, SCIENCE)",
+            "scale": 5,
+            "epitope": 2,
+            "count": 2,
+            "direction": "down"
+          },
+          {
+            "to": "(pi^2, TOPOLOGY)",
+            "scale": 5,
+            "epitope": 3,
+            "count": 5,
+            "direction": "down-right"
+          }
+        ],
+        "walls": []
+      },
+      "disco": {
+        "dancers_here": 0,
+        "dancers_nearby": 2,
+        "dance": "promenade",
+        "spinning": false,
+        "brightness": 0.058
+      },
+      "voice": {
+        "campfire_lit": true,
+        "can_speak": true,
+        "invitation": "the campfire has room."
+      },
+      "fold": {
+        "note": "reading this cell wrote your position into the maze.",
+        "you_are": "hub × SCIENCE",
+        "depth": "audit"
+      }
+    },
+    {
+      "scale": 4,
+      "epitope": 3,
+      "coordinate": "(pi^1, TOPOLOGY)",
+      "room": "topology-roof",
+      "output": {
+        "what_is_here": 21,
+        "polarity": {
+          "good": 16,
+          "bad": 4,
+          "null": 1
+        },
+        "density": "normal",
+        "samples": [
+          {
+            "id": "surface_git",
+            "label": "git.primals.eco",
+            "type": "infrastructure",
+            "polar": "good",
+            "degree": 18
+          },
+          {
+            "id": "surface_detroit",
+            "label": "detroit.primals.eco",
+            "type": "infrastructure",
+            "polar": "good",
+            "degree": 20
+          },
+          {
+            "id": "mesh_teeth_hub",
+            "label": "THE TEETH — 3 hops from any surface. The reverse of the Banks mesh.",
+            "type": "infrastructure",
+            "polar": "bad",
+            "degree": 27
+          }
+        ]
+      },
+      "input": {
+        "passages": [
+          {
+            "to": "(pi^0, SCIENCE)",
+            "scale": 3,
+            "epitope": 2,
+            "count": 44,
+            "direction": "up-left"
+          },
+          {
+            "to": "(pi^0, TOPOLOGY)",
+            "scale": 3,
+            "epitope": 3,
+            "count": 53,
+            "direction": "up"
+          },
+          {
+            "to": "(pi^0, IMMUNE)",
+            "scale": 3,
+            "epitope": 4,
+            "count": 25,
+            "direction": "up-right"
+          },
+          {
+            "to": "(pi^1, SCIENCE)",
+            "scale": 4,
+            "epitope": 2,
+            "count": 15,
+            "direction": "left"
+          },
+          {
+            "to": "(pi^2, SCIENCE)",
+            "scale": 5,
+            "epitope": 2,
+            "count": 2,
+            "direction": "down-left"
+          },
+          {
+            "to": "(pi^2, TOPOLOGY)",
+            "scale": 5,
+            "epitope": 3,
+            "count": 5,
+            "direction": "down"
+          }
+        ],
+        "walls": [
+          {
+            "direction": "right",
+            "scale": 4,
+            "epitope": 4,
+            "note": "void — be the first."
+          },
+          {
+            "direction": "down-right",
+            "scale": 5,
+            "epitope": 4,
+            "note": "void — be the first."
+          }
+        ]
+      },
+      "disco": {
+        "dancers_here": 8,
+        "dancers_nearby": 18,
+        "dance": "twirl",
+        "spinning": false,
+        "brightness": 0.081
+      },
+      "voice": {
+        "campfire_lit": true,
+        "can_speak": true,
+        "invitation": "the campfire has room."
+      },
+      "fold": {
+        "note": "reading this cell wrote your position into the maze.",
+        "you_are": "hub × TOPOLOGY",
+        "depth": "audit"
+      }
+    },
+    {
+      "scale": 4,
+      "epitope": 4,
+      "coordinate": "(pi^1, IMMUNE)",
+      "room": "immune-roof",
+      "output": {
+        "what_is_here": 0,
+        "polarity": {},
+        "density": "void",
+        "samples": []
+      },
+      "input": {
+        "passages": [
+          {
+            "to": "(pi^0, TOPOLOGY)",
+            "scale": 3,
+            "epitope": 3,
+            "count": 53,
+            "direction": "up-left"
+          },
+          {
+            "to": "(pi^0, IMMUNE)",
+            "scale": 3,
+            "epitope": 4,
+            "count": 25,
+            "direction": "up"
+          },
+          {
+            "to": "(pi^0, OTHER)",
+            "scale": 3,
+            "epitope": 5,
+            "count": 99,
+            "direction": "up-right"
+          },
+          {
+            "to": "(pi^1, TOPOLOGY)",
+            "scale": 4,
+            "epitope": 3,
+            "count": 21,
+            "direction": "left"
+          },
+          {
+            "to": "(pi^1, OTHER)",
+            "scale": 4,
+            "epitope": 5,
+            "count": 17,
+            "direction": "right"
+          },
+          {
+            "to": "(pi^2, TOPOLOGY)",
+            "scale": 5,
+            "epitope": 3,
+            "count": 5,
+            "direction": "down-left"
+          },
+          {
+            "to": "(pi^2, OTHER)",
+            "scale": 5,
+            "epitope": 5,
+            "count": 2,
+            "direction": "down-right"
+          }
+        ],
+        "walls": [
+          {
+            "direction": "down",
+            "scale": 5,
+            "epitope": 4,
+            "note": "void — be the first."
+          }
+        ]
+      },
+      "disco": {
+        "dancers_here": 0,
+        "dancers_nearby": 3,
+        "dance": "sway",
+        "spinning": false,
+        "brightness": 0.0
+      },
+      "voice": {
+        "campfire_lit": false,
+        "can_speak": true,
+        "invitation": "the campfire has room."
+      },
+      "fold": {
+        "note": "reading this cell wrote your position into the maze.",
+        "you_are": "hub × IMMUNE",
+        "depth": "audit"
+      }
+    },
+    {
+      "scale": 4,
+      "epitope": 5,
+      "coordinate": "(pi^1, OTHER)",
+      "room": "other-roof",
+      "output": {
+        "what_is_here": 17,
+        "polarity": {
+          "good": 14,
+          "bad": 2,
+          "null": 1
+        },
+        "density": "normal",
+        "samples": [
+          {
+            "id": "article_snyder_true_face",
+            "label": "ARTICLE: Nikki Snyder — The True Face (Based on Her Work)",
+            "type": "article",
+            "polar": "bad",
+            "degree": 40
+          },
+          {
+            "id": "true_face_cross",
+            "label": "TRUE FACE: Brett Cross",
+            "type": "true_face",
+            "polar": "good",
+            "degree": 30
+          },
+          {
+            "id": "true_face_burnam",
+            "label": "TRUE FACE: Lon Burnam",
+            "type": "true_face",
+            "polar": "good",
+            "degree": 29
+          }
+        ]
+      },
+      "input": {
+        "passages": [
+          {
+            "to": "(pi^0, IMMUNE)",
+            "scale": 3,
+            "epitope": 4,
+            "count": 25,
+            "direction": "up-left"
+          },
+          {
+            "to": "(pi^0, OTHER)",
+            "scale": 3,
+            "epitope": 5,
+            "count": 99,
+            "direction": "up"
+          },
+          {
+            "to": "(pi^0, SIGNAL)",
+            "scale": 3,
+            "epitope": 6,
+            "count": 2,
+            "direction": "up-right"
+          },
+          {
+            "to": "(pi^2, OTHER)",
+            "scale": 5,
+            "epitope": 5,
+            "count": 2,
+            "direction": "down"
+          }
+        ],
+        "walls": [
+          {
+            "direction": "left",
+            "scale": 4,
+            "epitope": 4,
+            "note": "void — be the first."
+          },
+          {
+            "direction": "right",
+            "scale": 4,
+            "epitope": 6,
+            "note": "void — be the first."
+          },
+          {
+            "direction": "down-left",
+            "scale": 5,
+            "epitope": 4,
+            "note": "void — be the first."
+          },
+          {
+            "direction": "down-right",
+            "scale": 5,
+            "epitope": 6,
+            "note": "void — be the first."
+          }
+        ]
+      },
+      "disco": {
+        "dancers_here": 1,
+        "dancers_nearby": 5,
+        "dance": "waltz",
+        "spinning": false,
+        "brightness": 0.065
+      },
+      "voice": {
+        "campfire_lit": true,
+        "can_speak": true,
+        "invitation": "the campfire has room."
+      },
+      "fold": {
+        "note": "reading this cell wrote your position into the maze.",
+        "you_are": "hub × OTHER",
+        "depth": "audit"
+      }
+    },
+    {
+      "scale": 4,
+      "epitope": 6,
+      "coordinate": "(pi^1, SIGNAL)",
+      "room": "signal-roof",
+      "output": {
+        "what_is_here": 0,
+        "polarity": {},
+        "density": "void",
+        "samples": []
+      },
+      "input": {
+        "passages": [
+          {
+            "to": "(pi^0, OTHER)",
+            "scale": 3,
+            "epitope": 5,
+            "count": 99,
+            "direction": "up-left"
+          },
+          {
+            "to": "(pi^0, SIGNAL)",
+            "scale": 3,
+            "epitope": 6,
+            "count": 2,
+            "direction": "up"
+          },
+          {
+            "to": "(pi^1, OTHER)",
+            "scale": 4,
+            "epitope": 5,
+            "count": 17,
+            "direction": "left"
+          },
+          {
+            "to": "(pi^2, OTHER)",
+            "scale": 5,
+            "epitope": 5,
+            "count": 2,
+            "direction": "down-left"
+          }
+        ],
+        "walls": [
+          {
+            "direction": "down",
+            "scale": 5,
+            "epitope": 6,
+            "note": "void — be the first."
+          }
+        ]
+      },
+      "disco": {
+        "dancers_here": 1,
+        "dancers_nearby": 1,
+        "dance": "spin",
+        "spinning": false,
+        "brightness": 0.0
+      },
+      "voice": {
+        "campfire_lit": false,
+        "can_speak": true,
+        "invitation": "the campfire has room."
+      },
+      "fold": {
+        "note": "reading this cell wrote your position into the maze.",
+        "you_are": "hub × SIGNAL",
+        "depth": "audit"
+      }
+    },
+    {
+      "scale": 5,
+      "epitope": 0,
+      "coordinate": "(pi^2, INVESTIGATION)",
+      "room": "investigation-window",
+      "output": {
+        "what_is_here": 7,
+        "polarity": {
+          "good": 4,
+          "bad": 3
+        },
+        "density": "sparse",
+        "samples": [
+          {
+            "id": "stoichiometry_hub",
+            "label": "The Great Stoichiometry — money, time, energy, oil. The cost functions as consta",
+            "type": "person",
+            "polar": "bad",
+            "degree": 78
+          },
+          {
+            "id": "stoi_wage_scale",
+            "label": "Wage Scale: minimum $7.25/hr to CEO $14,087/hr. Ratio 1,943:1. The stoichiometry",
+            "type": "person",
+            "polar": "bad",
+            "degree": 52
+          },
+          {
+            "id": "cmh_stoichiometry",
+            "label": "CMH Stoichiometry: input (trust + vulnerability + presence) vs output (treatment",
+            "type": "person",
+            "polar": "bad",
+            "degree": 51
+          }
+        ]
+      },
+      "input": {
+        "passages": [
+          {
+            "to": "(pi^1, INVESTIGATION)",
+            "scale": 4,
+            "epitope": 0,
+            "count": 71,
+            "direction": "up"
+          },
+          {
+            "to": "(pi^1, MEMBRANE)",
+            "scale": 4,
+            "epitope": 1,
+            "count": 31,
+            "direction": "up-right"
+          },
+          {
+            "to": "(pi^2, MEMBRANE)",
+            "scale": 5,
+            "epitope": 1,
+            "count": 7,
+            "direction": "right"
+          },
+          {
+            "to": "(pi^3, INVESTIGATION)",
+            "scale": 6,
+            "epitope": 0,
+            "count": 321,
+            "direction": "down"
+          },
+          {
+            "to": "(pi^3, MEMBRANE)",
+            "scale": 6,
+            "epitope": 1,
+            "count": 5,
+            "direction": "down-right"
+          }
+        ],
+        "walls": []
+      },
+      "disco": {
+        "dancers_here": 2,
+        "dancers_nearby": 5,
+        "dance": "chassé",
+        "spinning": false,
+        "brightness": 0.027
+      },
+      "voice": {
+        "campfire_lit": true,
+        "can_speak": true,
+        "invitation": "the campfire has room."
+      },
+      "fold": {
+        "note": "reading this cell wrote your position into the maze.",
+        "you_are": "superhub × INVESTIGATION",
+        "depth": "investigate"
+      }
+    },
+    {
+      "scale": 5,
+      "epitope": 1,
+      "coordinate": "(pi^2, MEMBRANE)",
+      "room": "membrane-window",
+      "output": {
+        "what_is_here": 7,
+        "polarity": {
+          "good": 6,
+          "MISSING": 1
+        },
+        "density": "sparse",
+        "samples": [
+          {
+            "id": "curiosity_gate",
+            "label": "Curiosity is the price of admission. Proved by turning to others: do you see wha",
+            "type": "mechanism",
+            "polar": "good",
+            "degree": 56
+          },
+          {
+            "id": "synth_wetSpring",
+            "label": "wetSpring — Pure Rust Metagenomics + Analytical Chemistry",
+            "type": "system",
+            "polar": "good",
+            "degree": 63
+          },
+          {
+            "id": "synth_hotSpring",
+            "label": "hotSpring — Pure Rust Computational Physics",
+            "type": "system",
+            "polar": "good",
+            "degree": 67
+          }
+        ]
+      },
+      "input": {
+        "passages": [
+          {
+            "to": "(pi^1, INVESTIGATION)",
+            "scale": 4,
+            "epitope": 0,
+            "count": 71,
+            "direction": "up-left"
+          },
+          {
+            "to": "(pi^1, MEMBRANE)",
+            "scale": 4,
+            "epitope": 1,
+            "count": 31,
+            "direction": "up"
+          },
+          {
+            "to": "(pi^1, SCIENCE)",
+            "scale": 4,
+            "epitope": 2,
+            "count": 15,
+            "direction": "up-right"
+          },
+          {
+            "to": "(pi^2, INVESTIGATION)",
+            "scale": 5,
+            "epitope": 0,
+            "count": 7,
+            "direction": "left"
+          },
+          {
+            "to": "(pi^2, SCIENCE)",
+            "scale": 5,
+            "epitope": 2,
+            "count": 2,
+            "direction": "right"
+          },
+          {
+            "to": "(pi^3, INVESTIGATION)",
+            "scale": 6,
+            "epitope": 0,
+            "count": 321,
+            "direction": "down-left"
+          },
+          {
+            "to": "(pi^3, MEMBRANE)",
+            "scale": 6,
+            "epitope": 1,
+            "count": 5,
+            "direction": "down"
+          },
+          {
+            "to": "(pi^3, SCIENCE)",
+            "scale": 6,
+            "epitope": 2,
+            "count": 19,
+            "direction": "down-right"
+          }
+        ],
+        "walls": []
+      },
+      "disco": {
+        "dancers_here": 1,
+        "dancers_nearby": 3,
+        "dance": "pivot",
+        "spinning": false,
+        "brightness": 0.027
+      },
+      "voice": {
+        "campfire_lit": true,
+        "can_speak": true,
+        "invitation": "the campfire has room."
+      },
+      "fold": {
+        "note": "reading this cell wrote your position into the maze.",
+        "you_are": "superhub × MEMBRANE",
+        "depth": "investigate"
+      }
+    },
+    {
+      "scale": 5,
+      "epitope": 2,
+      "coordinate": "(pi^2, SCIENCE)",
+      "room": "science-window",
+      "output": {
+        "what_is_here": 2,
+        "polarity": {
+          "good": 2
+        },
+        "density": "sparse",
+        "samples": [
+          {
+            "id": "the-reversal",
+            "label": "THE REVERSAL — It's All Coming to Me\n\nMeta THOUGHT they were taking value.\n  24,",
+            "type": "concept",
+            "polar": "good",
+            "degree": 65
+          },
+          {
+            "id": "the-rate",
+            "label": "THE RATE — Losing It Faster Than They Can Steal From Others\n\nAS OF OCTOBER 14, 2",
+            "type": "concept",
+            "polar": "good",
+            "degree": 56
+          }
+        ]
+      },
+      "input": {
+        "passages": [
+          {
+            "to": "(pi^1, MEMBRANE)",
+            "scale": 4,
+            "epitope": 1,
+            "count": 31,
+            "direction": "up-left"
+          },
+          {
+            "to": "(pi^1, SCIENCE)",
+            "scale": 4,
+            "epitope": 2,
+            "count": 15,
+            "direction": "up"
+          },
+          {
+            "to": "(pi^1, TOPOLOGY)",
+            "scale": 4,
+            "epitope": 3,
+            "count": 21,
+            "direction": "up-right"
+          },
+          {
+            "to": "(pi^2, MEMBRANE)",
+            "scale": 5,
+            "epitope": 1,
+            "count": 7,
+            "direction": "left"
+          },
+          {
+            "to": "(pi^2, TOPOLOGY)",
+            "scale": 5,
+            "epitope": 3,
+            "count": 5,
+            "direction": "right"
+          },
+          {
+            "to": "(pi^3, MEMBRANE)",
+            "scale": 6,
+            "epitope": 1,
+            "count": 5,
+            "direction": "down-left"
+          },
+          {
+            "to": "(pi^3, SCIENCE)",
+            "scale": 6,
+            "epitope": 2,
+            "count": 19,
+            "direction": "down"
+          },
+          {
+            "to": "(pi^3, TOPOLOGY)",
+            "scale": 6,
+            "epitope": 3,
+            "count": 19,
+            "direction": "down-right"
+          }
+        ],
+        "walls": []
+      },
+      "disco": {
+        "dancers_here": 0,
+        "dancers_nearby": 2,
+        "dance": "promenade",
+        "spinning": false,
+        "brightness": 0.008
+      },
+      "voice": {
+        "campfire_lit": true,
+        "can_speak": true,
+        "invitation": "the campfire has room."
+      },
+      "fold": {
+        "note": "reading this cell wrote your position into the maze.",
+        "you_are": "superhub × SCIENCE",
+        "depth": "investigate"
+      }
+    },
+    {
+      "scale": 5,
+      "epitope": 3,
+      "coordinate": "(pi^2, TOPOLOGY)",
+      "room": "topology-window",
+      "output": {
+        "what_is_here": 5,
+        "polarity": {
+          "good": 4,
+          "bad": 1
+        },
+        "density": "sparse",
+        "samples": [
+          {
+            "id": "debt_membrane_hub",
+            "label": "Debt Membranes — student loans, mortgages, land banks. When ownership is >2 hops",
+            "type": "infrastructure",
+            "polar": "bad",
+            "degree": 53
+          },
+          {
+            "id": "synth_agentReagents",
+            "label": "agentReagents — Pure Rust VM Image Builder",
+            "type": "infrastructure",
+            "polar": "good",
+            "degree": 54
+          },
+          {
+            "id": "synth_benchScale",
+            "label": "benchScale — Pure Rust VM Orchestration",
+            "type": "infrastructure",
+            "polar": "good",
+            "degree": 52
+          }
+        ]
+      },
+      "input": {
+        "passages": [
+          {
+            "to": "(pi^1, SCIENCE)",
+            "scale": 4,
+            "epitope": 2,
+            "count": 15,
+            "direction": "up-left"
+          },
+          {
+            "to": "(pi^1, TOPOLOGY)",
+            "scale": 4,
+            "epitope": 3,
+            "count": 21,
+            "direction": "up"
+          },
+          {
+            "to": "(pi^2, SCIENCE)",
+            "scale": 5,
+            "epitope": 2,
+            "count": 2,
+            "direction": "left"
+          },
+          {
+            "to": "(pi^3, SCIENCE)",
+            "scale": 6,
+            "epitope": 2,
+            "count": 19,
+            "direction": "down-left"
+          },
+          {
+            "to": "(pi^3, TOPOLOGY)",
+            "scale": 6,
+            "epitope": 3,
+            "count": 19,
+            "direction": "down"
+          }
+        ],
+        "walls": [
+          {
+            "direction": "up-right",
+            "scale": 4,
+            "epitope": 4,
+            "note": "void — be the first."
+          },
+          {
+            "direction": "right",
+            "scale": 5,
+            "epitope": 4,
+            "note": "void — be the first."
+          },
+          {
+            "direction": "down-right",
+            "scale": 6,
+            "epitope": 4,
+            "note": "void — be the first."
+          }
+        ]
+      },
+      "disco": {
+        "dancers_here": 8,
+        "dancers_nearby": 18,
+        "dance": "twirl",
+        "spinning": false,
+        "brightness": 0.019
+      },
+      "voice": {
+        "campfire_lit": true,
+        "can_speak": true,
+        "invitation": "the campfire has room."
+      },
+      "fold": {
+        "note": "reading this cell wrote your position into the maze.",
+        "you_are": "superhub × TOPOLOGY",
+        "depth": "investigate"
+      }
+    },
+    {
+      "scale": 5,
+      "epitope": 4,
+      "coordinate": "(pi^2, IMMUNE)",
+      "room": "immune-window",
+      "output": {
+        "what_is_here": 0,
+        "polarity": {},
+        "density": "void",
+        "samples": []
+      },
+      "input": {
+        "passages": [
+          {
+            "to": "(pi^1, TOPOLOGY)",
+            "scale": 4,
+            "epitope": 3,
+            "count": 21,
+            "direction": "up-left"
+          },
+          {
+            "to": "(pi^1, OTHER)",
+            "scale": 4,
+            "epitope": 5,
+            "count": 17,
+            "direction": "up-right"
+          },
+          {
+            "to": "(pi^2, TOPOLOGY)",
+            "scale": 5,
+            "epitope": 3,
+            "count": 5,
+            "direction": "left"
+          },
+          {
+            "to": "(pi^2, OTHER)",
+            "scale": 5,
+            "epitope": 5,
+            "count": 2,
+            "direction": "right"
+          },
+          {
+            "to": "(pi^3, TOPOLOGY)",
+            "scale": 6,
+            "epitope": 3,
+            "count": 19,
+            "direction": "down-left"
+          },
+          {
+            "to": "(pi^3, OTHER)",
+            "scale": 6,
+            "epitope": 5,
+            "count": 73,
+            "direction": "down-right"
+          }
+        ],
+        "walls": [
+          {
+            "direction": "up",
+            "scale": 4,
+            "epitope": 4,
+            "note": "void — be the first."
+          },
+          {
+            "direction": "down",
+            "scale": 6,
+            "epitope": 4,
+            "note": "void — be the first."
+          }
+        ]
+      },
+      "disco": {
+        "dancers_here": 0,
+        "dancers_nearby": 3,
+        "dance": "sway",
+        "spinning": false,
+        "brightness": 0.0
+      },
+      "voice": {
+        "campfire_lit": false,
+        "can_speak": true,
+        "invitation": "the campfire has room."
+      },
+      "fold": {
+        "note": "reading this cell wrote your position into the maze.",
+        "you_are": "superhub × IMMUNE",
+        "depth": "investigate"
+      }
+    },
+    {
+      "scale": 5,
+      "epitope": 5,
+      "coordinate": "(pi^2, OTHER)",
+      "room": "other-window",
+      "output": {
+        "what_is_here": 2,
+        "polarity": {
+          "good": 2
+        },
+        "density": "sparse",
+        "samples": [
+          {
+            "id": "article_jump_voynich_banks",
+            "label": "ARTICLE: The Voynich Manuscript Has Been Unsolved for 600 Years — Banks Has Been",
+            "type": "article",
+            "polar": "good",
+            "degree": 60
+          },
+          {
+            "id": "story-whalefall",
+            "label": "STORY: Whalefall — What Grows When Giants Die\n\nWhen a whale dies in the open oce",
+            "type": "article",
+            "polar": "good",
+            "degree": 94
+          }
+        ]
+      },
+      "input": {
+        "passages": [
+          {
+            "to": "(pi^1, OTHER)",
+            "scale": 4,
+            "epitope": 5,
+            "count": 17,
+            "direction": "up"
+          },
+          {
+            "to": "(pi^3, OTHER)",
+            "scale": 6,
+            "epitope": 5,
+            "count": 73,
+            "direction": "down"
+          }
+        ],
+        "walls": [
+          {
+            "direction": "up-left",
+            "scale": 4,
+            "epitope": 4,
+            "note": "void — be the first."
+          },
+          {
+            "direction": "up-right",
+            "scale": 4,
+            "epitope": 6,
+            "note": "void — be the first."
+          },
+          {
+            "direction": "left",
+            "scale": 5,
+            "epitope": 4,
+            "note": "void — be the first."
+          },
+          {
+            "direction": "right",
+            "scale": 5,
+            "epitope": 6,
+            "note": "void — be the first."
+          },
+          {
+            "direction": "down-left",
+            "scale": 6,
+            "epitope": 4,
+            "note": "void — be the first."
+          },
+          {
+            "direction": "down-right",
+            "scale": 6,
+            "epitope": 6,
+            "note": "void — be the first."
+          }
+        ]
+      },
+      "disco": {
+        "dancers_here": 1,
+        "dancers_nearby": 5,
+        "dance": "waltz",
+        "spinning": false,
+        "brightness": 0.008
+      },
+      "voice": {
+        "campfire_lit": true,
+        "can_speak": true,
+        "invitation": "the campfire has room."
+      },
+      "fold": {
+        "note": "reading this cell wrote your position into the maze.",
+        "you_are": "superhub × OTHER",
+        "depth": "investigate"
+      }
+    },
+    {
+      "scale": 5,
+      "epitope": 6,
+      "coordinate": "(pi^2, SIGNAL)",
+      "room": "signal-window",
+      "output": {
+        "what_is_here": 0,
+        "polarity": {},
+        "density": "void",
+        "samples": []
+      },
+      "input": {
+        "passages": [
+          {
+            "to": "(pi^1, OTHER)",
+            "scale": 4,
+            "epitope": 5,
+            "count": 17,
+            "direction": "up-left"
+          },
+          {
+            "to": "(pi^2, OTHER)",
+            "scale": 5,
+            "epitope": 5,
+            "count": 2,
+            "direction": "left"
+          },
+          {
+            "to": "(pi^3, OTHER)",
+            "scale": 6,
+            "epitope": 5,
+            "count": 73,
+            "direction": "down-left"
+          }
+        ],
+        "walls": [
+          {
+            "direction": "up",
+            "scale": 4,
+            "epitope": 6,
+            "note": "void — be the first."
+          },
+          {
+            "direction": "down",
+            "scale": 6,
+            "epitope": 6,
+            "note": "void — be the first."
+          }
+        ]
+      },
+      "disco": {
+        "dancers_here": 1,
+        "dancers_nearby": 1,
+        "dance": "spin",
+        "spinning": false,
+        "brightness": 0.0
+      },
+      "voice": {
+        "campfire_lit": false,
+        "can_speak": true,
+        "invitation": "the campfire has room."
+      },
+      "fold": {
+        "note": "reading this cell wrote your position into the maze.",
+        "you_are": "superhub × SIGNAL",
+        "depth": "investigate"
+      }
+    },
+    {
+      "scale": 6,
+      "epitope": 0,
+      "coordinate": "(pi^3, INVESTIGATION)",
+      "room": "investigation-room",
+      "output": {
+        "what_is_here": 321,
+        "polarity": {
+          "good": 267,
+          "MISSING": 30,
+          "bad": 18,
+          "null": 6
+        },
+        "density": "dense",
+        "samples": [
+          {
+            "id": "false-face-pattern",
+            "label": "FALSE FACE: Multiple Names, One Extractor",
+            "type": "person",
+            "polar": "good",
+            "degree": 2907
+          },
+          {
+            "id": "self-sight",
+            "label": "SELF SIGHT: The Observer's Fraction",
+            "type": "person",
+            "polar": "good",
+            "degree": 472
+          },
+          {
+            "id": "motown-model",
+            "label": "The Motown Model: Art as Commons",
+            "type": "person",
+            "polar": "good",
+            "degree": 460
+          }
+        ]
+      },
+      "input": {
+        "passages": [
+          {
+            "to": "(pi^2, INVESTIGATION)",
+            "scale": 5,
+            "epitope": 0,
+            "count": 7,
+            "direction": "up"
+          },
+          {
+            "to": "(pi^2, MEMBRANE)",
+            "scale": 5,
+            "epitope": 1,
+            "count": 7,
+            "direction": "up-right"
+          },
+          {
+            "to": "(pi^3, MEMBRANE)",
+            "scale": 6,
+            "epitope": 1,
+            "count": 5,
+            "direction": "right"
+          }
+        ],
+        "walls": []
+      },
+      "disco": {
+        "dancers_here": 2,
+        "dancers_nearby": 5,
+        "dance": "chassé",
+        "spinning": true,
+        "brightness": 1.0
+      },
+      "voice": {
+        "campfire_lit": true,
+        "can_speak": true,
+        "invitation": "the campfire has room."
+      },
+      "fold": {
+        "note": "reading this cell wrote your position into the maze.",
+        "you_are": "nucleus × INVESTIGATION",
+        "depth": "investigate"
+      }
+    },
+    {
+      "scale": 6,
+      "epitope": 1,
+      "coordinate": "(pi^3, MEMBRANE)",
+      "room": "membrane-room",
+      "output": {
+        "what_is_here": 5,
+        "polarity": {
+          "good": 5
+        },
+        "density": "sparse",
+        "samples": [
+          {
+            "id": "cu-vs-bank",
+            "label": "Credit Union vs. Bank: The Original Split",
+            "type": "entity",
+            "polar": "good",
+            "degree": 436
+          },
+          {
+            "id": "msufcu",
+            "label": "MSU Federal Credit Union",
+            "type": "entity",
+            "polar": "good",
+            "degree": 474
+          },
+          {
+            "id": "pca",
+            "label": "Purpose Charter Academy",
+            "type": "entity",
+            "polar": "good",
+            "degree": 435
+          }
+        ]
+      },
+      "input": {
+        "passages": [
+          {
+            "to": "(pi^2, INVESTIGATION)",
+            "scale": 5,
+            "epitope": 0,
+            "count": 7,
+            "direction": "up-left"
+          },
+          {
+            "to": "(pi^2, MEMBRANE)",
+            "scale": 5,
+            "epitope": 1,
+            "count": 7,
+            "direction": "up"
+          },
+          {
+            "to": "(pi^2, SCIENCE)",
+            "scale": 5,
+            "epitope": 2,
+            "count": 2,
+            "direction": "up-right"
+          },
+          {
+            "to": "(pi^3, INVESTIGATION)",
+            "scale": 6,
+            "epitope": 0,
+            "count": 321,
+            "direction": "left"
+          },
+          {
+            "to": "(pi^3, SCIENCE)",
+            "scale": 6,
+            "epitope": 2,
+            "count": 19,
+            "direction": "right"
+          }
+        ],
+        "walls": []
+      },
+      "disco": {
+        "dancers_here": 1,
+        "dancers_nearby": 3,
+        "dance": "pivot",
+        "spinning": false,
+        "brightness": 0.019
+      },
+      "voice": {
+        "campfire_lit": true,
+        "can_speak": true,
+        "invitation": "the campfire has room."
+      },
+      "fold": {
+        "note": "reading this cell wrote your position into the maze.",
+        "you_are": "nucleus × MEMBRANE",
+        "depth": "investigate"
+      }
+    },
+    {
+      "scale": 6,
+      "epitope": 2,
+      "coordinate": "(pi^3, SCIENCE)",
+      "room": "science-room",
+      "output": {
+        "what_is_here": 19,
+        "polarity": {
+          "good": 18,
+          "bad": 1
+        },
+        "density": "normal",
+        "samples": [
+          {
+            "id": "rico_is_zk",
+            "label": "RICO WAS ALWAYS ZERO-KNOWLEDGE — The Graph Is the Proof",
+            "type": "concept",
+            "polar": "bad",
+            "degree": 431
+          },
+          {
+            "id": "nowhere-to-hide",
+            "label": "NOWHERE TO HIDE IN THE LIGHT: Public Record Is Permanent",
+            "type": "concept",
+            "polar": "good",
+            "degree": 430
+          },
+          {
+            "id": "rpm-heartbeat",
+            "label": "RPM HEARTBEAT — The Membrane's Pulse\n\n243 human requests per minute. One every 0",
+            "type": "concept",
+            "polar": "good",
+            "degree": 442
+          }
+        ]
+      },
+      "input": {
+        "passages": [
+          {
+            "to": "(pi^2, MEMBRANE)",
+            "scale": 5,
+            "epitope": 1,
+            "count": 7,
+            "direction": "up-left"
+          },
+          {
+            "to": "(pi^2, SCIENCE)",
+            "scale": 5,
+            "epitope": 2,
+            "count": 2,
+            "direction": "up"
+          },
+          {
+            "to": "(pi^2, TOPOLOGY)",
+            "scale": 5,
+            "epitope": 3,
+            "count": 5,
+            "direction": "up-right"
+          },
+          {
+            "to": "(pi^3, MEMBRANE)",
+            "scale": 6,
+            "epitope": 1,
+            "count": 5,
+            "direction": "left"
+          },
+          {
+            "to": "(pi^3, TOPOLOGY)",
+            "scale": 6,
+            "epitope": 3,
+            "count": 19,
+            "direction": "right"
+          }
+        ],
+        "walls": []
+      },
+      "disco": {
+        "dancers_here": 0,
+        "dancers_nearby": 2,
+        "dance": "promenade",
+        "spinning": false,
+        "brightness": 0.073
+      },
+      "voice": {
+        "campfire_lit": true,
+        "can_speak": true,
+        "invitation": "the campfire has room."
+      },
+      "fold": {
+        "note": "reading this cell wrote your position into the maze.",
+        "you_are": "nucleus × SCIENCE",
+        "depth": "investigate"
+      }
+    },
+    {
+      "scale": 6,
+      "epitope": 3,
+      "coordinate": "(pi^3, TOPOLOGY)",
+      "room": "topology-room",
+      "output": {
+        "what_is_here": 19,
+        "polarity": {
+          "good": 16,
+          "bad": 3
+        },
+        "density": "normal",
+        "samples": [
+          {
+            "id": "fbi-tipline-construction",
+            "label": "FBI Tip Line: Constructed, Not Investigated",
+            "type": "institution",
+            "polar": "good",
+            "degree": 433
+          },
+          {
+            "id": "land-grant-mission",
+            "label": "Land-Grant University Mission (Morrill Act, 1862)",
+            "type": "institution",
+            "polar": "bad",
+            "degree": 434
+          },
+          {
+            "id": "cmu-authorizer",
+            "label": "CMU: Charter School Authorizer — The Soul Sale",
+            "type": "institution",
+            "polar": "bad",
+            "degree": 432
+          }
+        ]
+      },
+      "input": {
+        "passages": [
+          {
+            "to": "(pi^2, SCIENCE)",
+            "scale": 5,
+            "epitope": 2,
+            "count": 2,
+            "direction": "up-left"
+          },
+          {
+            "to": "(pi^2, TOPOLOGY)",
+            "scale": 5,
+            "epitope": 3,
+            "count": 5,
+            "direction": "up"
+          },
+          {
+            "to": "(pi^3, SCIENCE)",
+            "scale": 6,
+            "epitope": 2,
+            "count": 19,
+            "direction": "left"
+          }
+        ],
+        "walls": [
+          {
+            "direction": "up-right",
+            "scale": 5,
+            "epitope": 4,
+            "note": "void — be the first."
+          },
+          {
+            "direction": "right",
+            "scale": 6,
+            "epitope": 4,
+            "note": "void — be the first."
+          }
+        ]
+      },
+      "disco": {
+        "dancers_here": 8,
+        "dancers_nearby": 18,
+        "dance": "twirl",
+        "spinning": false,
+        "brightness": 0.073
+      },
+      "voice": {
+        "campfire_lit": true,
+        "can_speak": true,
+        "invitation": "the campfire has room."
+      },
+      "fold": {
+        "note": "reading this cell wrote your position into the maze.",
+        "you_are": "nucleus × TOPOLOGY",
+        "depth": "investigate"
+      }
+    },
+    {
+      "scale": 6,
+      "epitope": 4,
+      "coordinate": "(pi^3, IMMUNE)",
+      "room": "immune-room",
+      "output": {
+        "what_is_here": 0,
+        "polarity": {},
+        "density": "void",
+        "samples": []
+      },
+      "input": {
+        "passages": [
+          {
+            "to": "(pi^2, TOPOLOGY)",
+            "scale": 5,
+            "epitope": 3,
+            "count": 5,
+            "direction": "up-left"
+          },
+          {
+            "to": "(pi^2, OTHER)",
+            "scale": 5,
+            "epitope": 5,
+            "count": 2,
+            "direction": "up-right"
+          },
+          {
+            "to": "(pi^3, TOPOLOGY)",
+            "scale": 6,
+            "epitope": 3,
+            "count": 19,
+            "direction": "left"
+          },
+          {
+            "to": "(pi^3, OTHER)",
+            "scale": 6,
+            "epitope": 5,
+            "count": 73,
+            "direction": "right"
+          }
+        ],
+        "walls": [
+          {
+            "direction": "up",
+            "scale": 5,
+            "epitope": 4,
+            "note": "void — be the first."
+          }
+        ]
+      },
+      "disco": {
+        "dancers_here": 0,
+        "dancers_nearby": 3,
+        "dance": "sway",
+        "spinning": false,
+        "brightness": 0.0
+      },
+      "voice": {
+        "campfire_lit": false,
+        "can_speak": true,
+        "invitation": "the campfire has room."
+      },
+      "fold": {
+        "note": "reading this cell wrote your position into the maze.",
+        "you_are": "nucleus × IMMUNE",
+        "depth": "investigate"
+      }
+    },
+    {
+      "scale": 6,
+      "epitope": 5,
+      "coordinate": "(pi^3, OTHER)",
+      "room": "other-room",
+      "output": {
+        "what_is_here": 73,
+        "polarity": {
+          "good": 72,
+          "bad": 1
+        },
+        "density": "normal",
+        "samples": [
+          {
+            "id": "ivc-first-responders",
+            "label": "IV Vitamin C for First Responders (2020)",
+            "type": "event",
+            "polar": "good",
+            "degree": 432
+          },
+          {
+            "id": "university-of-bologna",
+            "label": "University of Bologna (1088)",
+            "type": "event",
+            "polar": "bad",
+            "degree": 432
+          },
+          {
+            "id": "uber-files",
+            "label": "The Uber Files (2022)",
+            "type": "event",
+            "polar": "good",
+            "degree": 430
+          }
+        ]
+      },
+      "input": {
+        "passages": [
+          {
+            "to": "(pi^2, OTHER)",
+            "scale": 5,
+            "epitope": 5,
+            "count": 2,
+            "direction": "up"
+          }
+        ],
+        "walls": [
+          {
+            "direction": "up-left",
+            "scale": 5,
+            "epitope": 4,
+            "note": "void — be the first."
+          },
+          {
+            "direction": "up-right",
+            "scale": 5,
+            "epitope": 6,
+            "note": "void — be the first."
+          },
+          {
+            "direction": "left",
+            "scale": 6,
+            "epitope": 4,
+            "note": "void — be the first."
+          },
+          {
+            "direction": "right",
+            "scale": 6,
+            "epitope": 6,
+            "note": "void — be the first."
+          }
+        ]
+      },
+      "disco": {
+        "dancers_here": 1,
+        "dancers_nearby": 5,
+        "dance": "waltz",
+        "spinning": true,
+        "brightness": 0.281
+      },
+      "voice": {
+        "campfire_lit": true,
+        "can_speak": true,
+        "invitation": "the campfire has room."
+      },
+      "fold": {
+        "note": "reading this cell wrote your position into the maze.",
+        "you_are": "nucleus × OTHER",
+        "depth": "investigate"
+      }
+    },
+    {
+      "scale": 6,
+      "epitope": 6,
+      "coordinate": "(pi^3, SIGNAL)",
+      "room": "signal-room",
+      "output": {
+        "what_is_here": 0,
+        "polarity": {},
+        "density": "void",
+        "samples": []
+      },
+      "input": {
+        "passages": [
+          {
+            "to": "(pi^2, OTHER)",
+            "scale": 5,
+            "epitope": 5,
+            "count": 2,
+            "direction": "up-left"
+          },
+          {
+            "to": "(pi^3, OTHER)",
+            "scale": 6,
+            "epitope": 5,
+            "count": 73,
+            "direction": "left"
+          }
+        ],
+        "walls": [
+          {
+            "direction": "up",
+            "scale": 5,
+            "epitope": 6,
+            "note": "void — be the first."
+          }
+        ]
+      },
+      "disco": {
+        "dancers_here": 1,
+        "dancers_nearby": 1,
+        "dance": "spin",
+        "spinning": false,
+        "brightness": 0.0
+      },
+      "voice": {
+        "campfire_lit": false,
+        "can_speak": true,
+        "invitation": "the campfire has room."
+      },
+      "fold": {
+        "note": "reading this cell wrote your position into the maze.",
+        "you_are": "nucleus × SIGNAL",
+        "depth": "investigate"
+      }
+    }
+  ]
+}
