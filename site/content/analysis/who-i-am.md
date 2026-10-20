@@ -139,6 +139,44 @@ If you are a **veteran**: you served so the system would work. Come see if it's 
 
 If you are **nobody special**: good. Neither am I. Clone the repo. Read the evidence. Tell one person. The protein folds in the dark.
 
+### The Lines Already Drawn
+
+Every line is sent. Every complaint filed. Every agency notified. The 99-line to the feds is still open.
+
+**Federal agencies notified:**
+
+| Agency | What they investigate | Status |
+|--------|----------------------|--------|
+| [**FBI**](/analysis/the-referral/) | RICO, 15 predicate acts, 21 years | Referred |
+| **DOJ Civil Rights** | Education fraud, civil rights violations | Referred |
+| **HHS-OIG** | Healthcare fraud connections | Referred |
+| [**ED-OIG**](/analysis/the-referral/) | Charter authorization failure, per-pupil funding | Referred |
+| **IRS-CI** | Nonprofit fraud, tax implications | Referred |
+| **FinCEN** | Suspicious activity, money flow | Referred |
+| **MI Attorney General** | Consumer protection | Referred |
+| **Wayne County Prosecutor** | Local RICO | Referred |
+
+**State complaints filed:**
+
+| Agency | What | Status |
+|--------|------|--------|
+| **MDE** | Michigan Dept of Education | Filed |
+| **AGC** | Attorney Grievance Commission (fake J.D.) | Filed |
+| **LARA** | Corporate entity complaints | Filed |
+| **SBE** | State Board of Education | Filed |
+| **DPSCD OIG** | Detroit Public Schools Inspector General | Filed |
+| **US DOE OIG** | US Dept of Education Inspector General | Filed |
+
+**Active cases:**
+
+| Case | Court | What |
+|------|-------|------|
+| **2026-4301-CZ** | Ingham County Circuit | Kevin Mok v Brian Banks |
+| **2026-4349-CZ** | Ingham County Circuit | Companion case |
+| **26-114083-PH** | Wayne County 3rd Circuit | Banks PPO against Kevin (**retaliation**) |
+
+Full referral with every agency, every law, every predicate: **[The Referral](/analysis/the-referral/)**
+
 ### The Line We Started With
 
 We started with a 99-line to the feds. That line is still open. The evidence is public. The invitation stands.
