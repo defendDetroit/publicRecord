@@ -1,0 +1,3744 @@
+{
+  "generated": "2026-10-20T21:10:00Z",
+  "wave": 194,
+  "description": "The Bingo Board. 49 cells. Each one a box with a pointer. That's the interface.",
+  "dimensions": {
+    "scales": 7,
+    "epitopes": 7,
+    "total_cells": 49
+  },
+  "scale_axis": [
+    {
+      "index": 0,
+      "name": "observer",
+      "pi": "pi^-3",
+      "degrees": "0"
+    },
+    {
+      "index": 1,
+      "name": "leaf",
+      "pi": "pi^-2",
+      "degrees": "1-2"
+    },
+    {
+      "index": 2,
+      "name": "branch",
+      "pi": "pi^-1",
+      "degrees": "3-5"
+    },
+    {
+      "index": 3,
+      "name": "surface",
+      "pi": "pi^0",
+      "degrees": "6-15"
+    },
+    {
+      "index": 4,
+      "name": "hub",
+      "pi": "pi^1",
+      "degrees": "16-50"
+    },
+    {
+      "index": 5,
+      "name": "superhub",
+      "pi": "pi^2",
+      "degrees": "51-200"
+    },
+    {
+      "index": 6,
+      "name": "nucleus",
+      "pi": "pi^3",
+      "degrees": "201+"
+    }
+  ],
+  "epitope_axis": [
+    {
+      "index": 0,
+      "name": "INVESTIGATION"
+    },
+    {
+      "index": 1,
+      "name": "MEMBRANE"
+    },
+    {
+      "index": 2,
+      "name": "SCIENCE"
+    },
+    {
+      "index": 3,
+      "name": "TOPOLOGY"
+    },
+    {
+      "index": 4,
+      "name": "IMMUNE"
+    },
+    {
+      "index": 5,
+      "name": "OTHER"
+    },
+    {
+      "index": 6,
+      "name": "SIGNAL"
+    }
+  ],
+  "total_nodes": 12749,
+  "total_edges": 113328,
+  "cells": [
+    {
+      "scale": 0,
+      "epitope": 0,
+      "scale_name": "observer",
+      "epitope_name": "INVESTIGATION",
+      "pi": "pi^-3",
+      "coordinate": "(pi^-3, INVESTIGATION)",
+      "count": 521,
+      "polar_breakdown": {
+        "good": 521
+      },
+      "density": "dense",
+      "samples": [
+        {
+          "id": "abdel_kader_haidara",
+          "label": "Abdel Kader Haidara",
+          "type": "person",
+          "polar": "good",
+          "degree": 0
+        },
+        {
+          "id": "kim-jong-un",
+          "label": "Kim Jong Un",
+          "type": "person",
+          "polar": "good",
+          "degree": 0
+        }
+      ],
+      "adjacent": [
+        {
+          "scale": 1,
+          "epitope": 0,
+          "name": "leaf x INVESTIGATION",
+          "count": 4615
+        },
+        {
+          "scale": 1,
+          "epitope": 1,
+          "name": "leaf x MEMBRANE",
+          "count": 438
+        }
+      ],
+      "pointer": "/bingo/0/0"
+    },
+    {
+      "scale": 0,
+      "epitope": 1,
+      "scale_name": "observer",
+      "epitope_name": "MEMBRANE",
+      "pi": "pi^-3",
+      "coordinate": "(pi^-3, MEMBRANE)",
+      "count": 0,
+      "polar_breakdown": {},
+      "density": "void",
+      "samples": [],
+      "adjacent": [
+        {
+          "scale": 0,
+          "epitope": 0,
+          "name": "observer x INVESTIGATION",
+          "count": 521
+        },
+        {
+          "scale": 0,
+          "epitope": 2,
+          "name": "observer x SCIENCE",
+          "count": 37
+        },
+        {
+          "scale": 1,
+          "epitope": 0,
+          "name": "leaf x INVESTIGATION",
+          "count": 4615
+        },
+        {
+          "scale": 1,
+          "epitope": 1,
+          "name": "leaf x MEMBRANE",
+          "count": 438
+        },
+        {
+          "scale": 1,
+          "epitope": 2,
+          "name": "leaf x SCIENCE",
+          "count": 547
+        }
+      ],
+      "pointer": null
+    },
+    {
+      "scale": 0,
+      "epitope": 2,
+      "scale_name": "observer",
+      "epitope_name": "SCIENCE",
+      "pi": "pi^-3",
+      "coordinate": "(pi^-3, SCIENCE)",
+      "count": 37,
+      "polar_breakdown": {
+        "good": 37
+      },
+      "density": "normal",
+      "samples": [
+        {
+          "id": "element_neptunium",
+          "label": "neptunium",
+          "type": "concept",
+          "polar": "good",
+          "degree": 0
+        },
+        {
+          "id": "element_chlorine",
+          "label": "chlorine",
+          "type": "concept",
+          "polar": "good",
+          "degree": 0
+        }
+      ],
+      "adjacent": [
+        {
+          "scale": 1,
+          "epitope": 1,
+          "name": "leaf x MEMBRANE",
+          "count": 438
+        },
+        {
+          "scale": 1,
+          "epitope": 2,
+          "name": "leaf x SCIENCE",
+          "count": 547
+        },
+        {
+          "scale": 1,
+          "epitope": 3,
+          "name": "leaf x TOPOLOGY",
+          "count": 950
+        }
+      ],
+      "pointer": "/bingo/0/2"
+    },
+    {
+      "scale": 0,
+      "epitope": 3,
+      "scale_name": "observer",
+      "epitope_name": "TOPOLOGY",
+      "pi": "pi^-3",
+      "coordinate": "(pi^-3, TOPOLOGY)",
+      "count": 0,
+      "polar_breakdown": {},
+      "density": "void",
+      "samples": [],
+      "adjacent": [
+        {
+          "scale": 0,
+          "epitope": 2,
+          "name": "observer x SCIENCE",
+          "count": 37
+        },
+        {
+          "scale": 1,
+          "epitope": 2,
+          "name": "leaf x SCIENCE",
+          "count": 547
+        },
+        {
+          "scale": 1,
+          "epitope": 3,
+          "name": "leaf x TOPOLOGY",
+          "count": 950
+        },
+        {
+          "scale": 1,
+          "epitope": 4,
+          "name": "leaf x IMMUNE",
+          "count": 29
+        }
+      ],
+      "pointer": null
+    },
+    {
+      "scale": 0,
+      "epitope": 4,
+      "scale_name": "observer",
+      "epitope_name": "IMMUNE",
+      "pi": "pi^-3",
+      "coordinate": "(pi^-3, IMMUNE)",
+      "count": 0,
+      "polar_breakdown": {},
+      "density": "void",
+      "samples": [],
+      "adjacent": [
+        {
+          "scale": 0,
+          "epitope": 5,
+          "name": "observer x OTHER",
+          "count": 289
+        },
+        {
+          "scale": 1,
+          "epitope": 3,
+          "name": "leaf x TOPOLOGY",
+          "count": 950
+        },
+        {
+          "scale": 1,
+          "epitope": 4,
+          "name": "leaf x IMMUNE",
+          "count": 29
+        },
+        {
+          "scale": 1,
+          "epitope": 5,
+          "name": "leaf x OTHER",
+          "count": 2937
+        }
+      ],
+      "pointer": null
+    },
+    {
+      "scale": 0,
+      "epitope": 5,
+      "scale_name": "observer",
+      "epitope_name": "OTHER",
+      "pi": "pi^-3",
+      "coordinate": "(pi^-3, OTHER)",
+      "count": 289,
+      "polar_breakdown": {
+        "good": 289
+      },
+      "density": "dense",
+      "samples": [
+        {
+          "id": "unesco_schokland_and_surroundings",
+          "label": "Schokland and Surroundings",
+          "type": "landmark",
+          "polar": "good",
+          "degree": 0
+        },
+        {
+          "id": "element_bismuth",
+          "label": "bismuth",
+          "type": "",
+          "polar": "good",
+          "degree": 0
+        }
+      ],
+      "adjacent": [
+        {
+          "scale": 1,
+          "epitope": 4,
+          "name": "leaf x IMMUNE",
+          "count": 29
+        },
+        {
+          "scale": 1,
+          "epitope": 5,
+          "name": "leaf x OTHER",
+          "count": 2937
+        },
+        {
+          "scale": 1,
+          "epitope": 6,
+          "name": "leaf x SIGNAL",
+          "count": 23
+        }
+      ],
+      "pointer": "/bingo/0/5"
+    },
+    {
+      "scale": 0,
+      "epitope": 6,
+      "scale_name": "observer",
+      "epitope_name": "SIGNAL",
+      "pi": "pi^-3",
+      "coordinate": "(pi^-3, SIGNAL)",
+      "count": 0,
+      "polar_breakdown": {},
+      "density": "void",
+      "samples": [],
+      "adjacent": [
+        {
+          "scale": 0,
+          "epitope": 5,
+          "name": "observer x OTHER",
+          "count": 289
+        },
+        {
+          "scale": 1,
+          "epitope": 5,
+          "name": "leaf x OTHER",
+          "count": 2937
+        },
+        {
+          "scale": 1,
+          "epitope": 6,
+          "name": "leaf x SIGNAL",
+          "count": 23
+        }
+      ],
+      "pointer": null
+    },
+    {
+      "scale": 1,
+      "epitope": 0,
+      "scale_name": "leaf",
+      "epitope_name": "INVESTIGATION",
+      "pi": "pi^-2",
+      "coordinate": "(pi^-2, INVESTIGATION)",
+      "count": 4615,
+      "polar_breakdown": {
+        "good": 4316,
+        "bad": 38,
+        "null": 261
+      },
+      "density": "city",
+      "samples": [
+        {
+          "id": "nikki_snyder_yes",
+          "label": "Nikki Snyder: SBE Member Who Raised Concerns",
+          "type": "person",
+          "polar": "good",
+          "degree": 2
+        },
+        {
+          "id": "snyder_nikki",
+          "label": "Nikki Snyder",
+          "type": "person",
+          "polar": "good",
+          "degree": 2
+        },
+        {
+          "id": "dara-khosrowshahi",
+          "label": "Dara Khosrowshahi",
+          "type": "person",
+          "polar": "good",
+          "degree": 2
+        },
+        {
+          "id": "charge_6_hcf",
+          "label": "6 Counts Health Care Fraud",
+          "type": "person",
+          "polar": "good",
+          "degree": 2
+        },
+        {
+          "id": "contrast-rfk-line",
+          "label": "RFK Jr: 0 medical degrees, anti-vax misinformation, RUNS $1.7T HHS",
+          "type": "person",
+          "polar": "good",
+          "degree": 2
+        }
+      ],
+      "adjacent": [
+        {
+          "scale": 0,
+          "epitope": 0,
+          "name": "observer x INVESTIGATION",
+          "count": 521
+        },
+        {
+          "scale": 1,
+          "epitope": 1,
+          "name": "leaf x MEMBRANE",
+          "count": 438
+        },
+        {
+          "scale": 2,
+          "epitope": 0,
+          "name": "branch x INVESTIGATION",
+          "count": 527
+        },
+        {
+          "scale": 2,
+          "epitope": 1,
+          "name": "branch x MEMBRANE",
+          "count": 165
+        }
+      ],
+      "pointer": "/bingo/1/0"
+    },
+    {
+      "scale": 1,
+      "epitope": 1,
+      "scale_name": "leaf",
+      "epitope_name": "MEMBRANE",
+      "pi": "pi^-2",
+      "coordinate": "(pi^-2, MEMBRANE)",
+      "count": 438,
+      "polar_breakdown": {
+        "bad": 37,
+        "good": 332,
+        "null": 69
+      },
+      "density": "dense",
+      "samples": [
+        {
+          "id": "doge",
+          "label": "Department of Government Efficiency (DOGE)",
+          "type": "entity",
+          "polar": "bad",
+          "degree": 2
+        },
+        {
+          "id": "usds-doge",
+          "label": "US DOGE Service (USDS)",
+          "type": "entity",
+          "polar": "good",
+          "degree": 1
+        },
+        {
+          "id": "spacex-doge",
+          "label": "SpaceX",
+          "type": "entity",
+          "polar": "good",
+          "degree": 1
+        },
+        {
+          "id": "black_slate_inc",
+          "label": "The Black Slate Inc.",
+          "type": "entity",
+          "polar": "bad",
+          "degree": 2
+        },
+        {
+          "id": "edu_michigan_future",
+          "label": "Michigan Future Inc.",
+          "type": "entity",
+          "polar": "good",
+          "degree": 2
+        }
+      ],
+      "adjacent": [
+        {
+          "scale": 0,
+          "epitope": 0,
+          "name": "observer x INVESTIGATION",
+          "count": 521
+        },
+        {
+          "scale": 0,
+          "epitope": 2,
+          "name": "observer x SCIENCE",
+          "count": 37
+        },
+        {
+          "scale": 1,
+          "epitope": 0,
+          "name": "leaf x INVESTIGATION",
+          "count": 4615
+        },
+        {
+          "scale": 1,
+          "epitope": 2,
+          "name": "leaf x SCIENCE",
+          "count": 547
+        },
+        {
+          "scale": 2,
+          "epitope": 0,
+          "name": "branch x INVESTIGATION",
+          "count": 527
+        },
+        {
+          "scale": 2,
+          "epitope": 1,
+          "name": "branch x MEMBRANE",
+          "count": 165
+        },
+        {
+          "scale": 2,
+          "epitope": 2,
+          "name": "branch x SCIENCE",
+          "count": 86
+        }
+      ],
+      "pointer": "/bingo/1/1"
+    },
+    {
+      "scale": 1,
+      "epitope": 2,
+      "scale_name": "leaf",
+      "epitope_name": "SCIENCE",
+      "pi": "pi^-2",
+      "coordinate": "(pi^-2, SCIENCE)",
+      "count": 547,
+      "polar_breakdown": {
+        "good": 523,
+        "bad": 22,
+        "null": 2
+      },
+      "density": "dense",
+      "samples": [
+        {
+          "id": "gAIa",
+          "label": "gAIa — Free AI Education",
+          "type": "concept",
+          "polar": "bad",
+          "degree": 1
+        },
+        {
+          "id": "oerGraveyard",
+          "label": "OER Graveyard — 152 Dead Repositories",
+          "type": "concept",
+          "polar": "good",
+          "degree": 1
+        },
+        {
+          "id": "newAlexandria",
+          "label": "The New Alexandria",
+          "type": "concept",
+          "polar": "good",
+          "degree": 1
+        },
+        {
+          "id": "heartbeat-coder",
+          "label": "Coder Heartbeat — fast, focused, 5-surface breadth, reading commits. Like a runn",
+          "type": "concept",
+          "polar": "good",
+          "degree": 2
+        },
+        {
+          "id": "heartbeat-investigator",
+          "label": "Investigator Heartbeat — slow, targeted, 2-surface focus. Like a surgeon: precis",
+          "type": "concept",
+          "polar": "good",
+          "degree": 2
+        }
+      ],
+      "adjacent": [
+        {
+          "scale": 0,
+          "epitope": 2,
+          "name": "observer x SCIENCE",
+          "count": 37
+        },
+        {
+          "scale": 1,
+          "epitope": 1,
+          "name": "leaf x MEMBRANE",
+          "count": 438
+        },
+        {
+          "scale": 1,
+          "epitope": 3,
+          "name": "leaf x TOPOLOGY",
+          "count": 950
+        },
+        {
+          "scale": 2,
+          "epitope": 1,
+          "name": "branch x MEMBRANE",
+          "count": 165
+        },
+        {
+          "scale": 2,
+          "epitope": 2,
+          "name": "branch x SCIENCE",
+          "count": 86
+        },
+        {
+          "scale": 2,
+          "epitope": 3,
+          "name": "branch x TOPOLOGY",
+          "count": 154
+        }
+      ],
+      "pointer": "/bingo/1/2"
+    },
+    {
+      "scale": 1,
+      "epitope": 3,
+      "scale_name": "leaf",
+      "epitope_name": "TOPOLOGY",
+      "pi": "pi^-2",
+      "coordinate": "(pi^-2, TOPOLOGY)",
+      "count": 950,
+      "polar_breakdown": {
+        "good": 923,
+        "bad": 15,
+        "null": 12
+      },
+      "density": "city",
+      "samples": [
+        {
+          "id": "pbsKids",
+          "label": "PBS Kids / Sesame Workshop",
+          "type": "platform",
+          "polar": "good",
+          "degree": 1
+        },
+        {
+          "id": "scratchMIT",
+          "label": "Scratch (MIT Media Lab)",
+          "type": "platform",
+          "polar": "good",
+          "degree": 1
+        },
+        {
+          "id": "commonSenseMedia",
+          "label": "Common Sense Media",
+          "type": "platform",
+          "polar": "good",
+          "degree": 1
+        },
+        {
+          "id": "mi_const_art8_s2",
+          "label": "Michigan Constitution Art. VIII Sec. 2: Free Public Education",
+          "type": "institution",
+          "polar": "good",
+          "degree": 2
+        },
+        {
+          "id": "mi_const_art8_s1",
+          "label": "Michigan Constitution Art. VIII Sec. 1: Education",
+          "type": "institution",
+          "polar": "good",
+          "degree": 2
+        }
+      ],
+      "adjacent": [
+        {
+          "scale": 0,
+          "epitope": 2,
+          "name": "observer x SCIENCE",
+          "count": 37
+        },
+        {
+          "scale": 1,
+          "epitope": 2,
+          "name": "leaf x SCIENCE",
+          "count": 547
+        },
+        {
+          "scale": 1,
+          "epitope": 4,
+          "name": "leaf x IMMUNE",
+          "count": 29
+        },
+        {
+          "scale": 2,
+          "epitope": 2,
+          "name": "branch x SCIENCE",
+          "count": 86
+        },
+        {
+          "scale": 2,
+          "epitope": 3,
+          "name": "branch x TOPOLOGY",
+          "count": 154
+        },
+        {
+          "scale": 2,
+          "epitope": 4,
+          "name": "branch x IMMUNE",
+          "count": 10
+        }
+      ],
+      "pointer": "/bingo/1/3"
+    },
+    {
+      "scale": 1,
+      "epitope": 4,
+      "scale_name": "leaf",
+      "epitope_name": "IMMUNE",
+      "pi": "pi^-2",
+      "coordinate": "(pi^-2, IMMUNE)",
+      "count": 29,
+      "polar_breakdown": {
+        "good": 25,
+        "bad": 3,
+        "null": 1
+      },
+      "density": "normal",
+      "samples": [
+        {
+          "id": "boss-zucker",
+          "label": "The Zucker",
+          "type": "creature",
+          "polar": "bad",
+          "degree": 1
+        },
+        {
+          "id": "boss-bankster",
+          "label": "The Bankster",
+          "type": "creature",
+          "polar": "bad",
+          "degree": 2
+        },
+        {
+          "id": "boss-thiel-thing",
+          "label": "The Thiel-Thing",
+          "type": "creature",
+          "polar": "bad",
+          "degree": 1
+        },
+        {
+          "id": "sbe_tom_mcmillin",
+          "label": "Tom McMillin (SBE)",
+          "type": "false_face",
+          "polar": "good",
+          "degree": 1
+        },
+        {
+          "id": "wetlands_eco",
+          "label": "Wetlands",
+          "type": "creature",
+          "polar": "good",
+          "degree": 1
+        }
+      ],
+      "adjacent": [
+        {
+          "scale": 0,
+          "epitope": 5,
+          "name": "observer x OTHER",
+          "count": 289
+        },
+        {
+          "scale": 1,
+          "epitope": 3,
+          "name": "leaf x TOPOLOGY",
+          "count": 950
+        },
+        {
+          "scale": 1,
+          "epitope": 5,
+          "name": "leaf x OTHER",
+          "count": 2937
+        },
+        {
+          "scale": 2,
+          "epitope": 3,
+          "name": "branch x TOPOLOGY",
+          "count": 154
+        },
+        {
+          "scale": 2,
+          "epitope": 4,
+          "name": "branch x IMMUNE",
+          "count": 10
+        },
+        {
+          "scale": 2,
+          "epitope": 5,
+          "name": "branch x OTHER",
+          "count": 425
+        }
+      ],
+      "pointer": "/bingo/1/4"
+    },
+    {
+      "scale": 1,
+      "epitope": 5,
+      "scale_name": "leaf",
+      "epitope_name": "OTHER",
+      "pi": "pi^-2",
+      "coordinate": "(pi^-2, OTHER)",
+      "count": 2937,
+      "polar_breakdown": {
+        "good": 2907,
+        "bad": 19,
+        "null": 11
+      },
+      "density": "city",
+      "samples": [
+        {
+          "id": "lettersToFighters",
+          "label": "Letters to the Ones Who Fight for Kids",
+          "type": "article",
+          "polar": "good",
+          "degree": 1
+        },
+        {
+          "id": "kidsSafeArticle",
+          "label": "If Kids Use It, We Make It SAFE",
+          "type": "article",
+          "polar": "bad",
+          "degree": 1
+        },
+        {
+          "id": "openLicensingReq",
+          "label": "Open Licensing Requirement (2 C.F.R. 3474.20)",
+          "type": "law",
+          "polar": "good",
+          "degree": 1
+        },
+        {
+          "id": "usa_v_mok_2025",
+          "label": "USA v. Charles Mok (2025) — Second Indictment",
+          "type": "event",
+          "polar": "good",
+          "degree": 2
+        },
+        {
+          "id": "filing_990_mackinac_center",
+          "label": "LATEST 990 FILING: Mackinac Center for Public Policy (2023)",
+          "type": "event",
+          "polar": "good",
+          "degree": 2
+        }
+      ],
+      "adjacent": [
+        {
+          "scale": 0,
+          "epitope": 5,
+          "name": "observer x OTHER",
+          "count": 289
+        },
+        {
+          "scale": 1,
+          "epitope": 4,
+          "name": "leaf x IMMUNE",
+          "count": 29
+        },
+        {
+          "scale": 1,
+          "epitope": 6,
+          "name": "leaf x SIGNAL",
+          "count": 23
+        },
+        {
+          "scale": 2,
+          "epitope": 4,
+          "name": "branch x IMMUNE",
+          "count": 10
+        },
+        {
+          "scale": 2,
+          "epitope": 5,
+          "name": "branch x OTHER",
+          "count": 425
+        },
+        {
+          "scale": 2,
+          "epitope": 6,
+          "name": "branch x SIGNAL",
+          "count": 8
+        }
+      ],
+      "pointer": "/bingo/1/5"
+    },
+    {
+      "scale": 1,
+      "epitope": 6,
+      "scale_name": "leaf",
+      "epitope_name": "SIGNAL",
+      "pi": "pi^-2",
+      "coordinate": "(pi^-2, SIGNAL)",
+      "count": 23,
+      "polar_breakdown": {
+        "good": 22,
+        "bad": 1
+      },
+      "density": "normal",
+      "samples": [
+        {
+          "id": "mediawiki",
+          "label": "MediaWiki",
+          "type": "tool",
+          "polar": "good",
+          "degree": 1
+        },
+        {
+          "id": "party_r_michigan",
+          "label": "R — Republican Party of Michigan",
+          "type": "political_party",
+          "polar": "good",
+          "degree": 1
+        },
+        {
+          "id": "party_d_michigan",
+          "label": "D — Democratic Party of Michigan",
+          "type": "political_party",
+          "polar": "good",
+          "degree": 1
+        },
+        {
+          "id": "authoritarian-alliance",
+          "label": "The Authoritarian Alliance",
+          "type": "political_party",
+          "polar": "good",
+          "degree": 1
+        },
+        {
+          "id": "cindy_gamrat",
+          "label": "Cindy Gamrat (R-80th, expelled 2015)",
+          "type": "political_party",
+          "polar": "good",
+          "degree": 1
+        }
+      ],
+      "adjacent": [
+        {
+          "scale": 0,
+          "epitope": 5,
+          "name": "observer x OTHER",
+          "count": 289
+        },
+        {
+          "scale": 1,
+          "epitope": 5,
+          "name": "leaf x OTHER",
+          "count": 2937
+        },
+        {
+          "scale": 2,
+          "epitope": 5,
+          "name": "branch x OTHER",
+          "count": 425
+        },
+        {
+          "scale": 2,
+          "epitope": 6,
+          "name": "branch x SIGNAL",
+          "count": 8
+        }
+      ],
+      "pointer": "/bingo/1/6"
+    },
+    {
+      "scale": 2,
+      "epitope": 0,
+      "scale_name": "branch",
+      "epitope_name": "INVESTIGATION",
+      "pi": "pi^-1",
+      "coordinate": "(pi^-1, INVESTIGATION)",
+      "count": 527,
+      "polar_breakdown": {
+        "good": 469,
+        "bad": 29,
+        "null": 29
+      },
+      "density": "dense",
+      "samples": [
+        {
+          "id": "brian-chesky",
+          "label": "Brian Chesky",
+          "type": "person",
+          "polar": "bad",
+          "degree": 3
+        },
+        {
+          "id": "tom_mcmillin",
+          "label": "Tom McMillin",
+          "type": "person",
+          "polar": "good",
+          "degree": 3
+        },
+        {
+          "id": "michael_rice_full",
+          "label": "Dr. Michael Rice (State Superintendent of Public Instruction)",
+          "type": "person",
+          "polar": "bad",
+          "degree": 4
+        },
+        {
+          "id": "duncan-watts",
+          "label": "Duncan Watts — Small-World Networks (1998, with Strogatz). Six degrees of separa",
+          "type": "person",
+          "polar": "good",
+          "degree": 5
+        },
+        {
+          "id": "deaths_vs_mok",
+          "label": "Dr. Mok: 304,000 healed, 0 deaths alleged. Sacklers: $13B extracted, 900,000 dea",
+          "type": "person",
+          "polar": "good",
+          "degree": 4
+        }
+      ],
+      "adjacent": [
+        {
+          "scale": 1,
+          "epitope": 0,
+          "name": "leaf x INVESTIGATION",
+          "count": 4615
+        },
+        {
+          "scale": 1,
+          "epitope": 1,
+          "name": "leaf x MEMBRANE",
+          "count": 438
+        },
+        {
+          "scale": 2,
+          "epitope": 1,
+          "name": "branch x MEMBRANE",
+          "count": 165
+        },
+        {
+          "scale": 3,
+          "epitope": 0,
+          "name": "surface x INVESTIGATION",
+          "count": 87
+        },
+        {
+          "scale": 3,
+          "epitope": 1,
+          "name": "surface x MEMBRANE",
+          "count": 63
+        }
+      ],
+      "pointer": "/bingo/2/0"
+    },
+    {
+      "scale": 2,
+      "epitope": 1,
+      "scale_name": "branch",
+      "epitope_name": "MEMBRANE",
+      "pi": "pi^-1",
+      "coordinate": "(pi^-1, MEMBRANE)",
+      "count": 165,
+      "polar_breakdown": {
+        "good": 49,
+        "null": 76,
+        "bad": 40
+      },
+      "density": "normal",
+      "samples": [
+        {
+          "id": "lafcu",
+          "label": "LAFCU (Lansing Area Federal Credit Union)",
+          "type": "entity",
+          "polar": "good",
+          "degree": 5
+        },
+        {
+          "id": "hhs-doge",
+          "label": "HHS (DOGE target)",
+          "type": "entity",
+          "polar": "good",
+          "degree": 3
+        },
+        {
+          "id": "gsa-doge",
+          "label": "GSA (DOGE target)",
+          "type": "entity",
+          "polar": "good",
+          "degree": 3
+        },
+        {
+          "id": "lafcu-alternative",
+          "label": "LAFCU: What a Credit Union Should Be",
+          "type": "entity",
+          "polar": "good",
+          "degree": 3
+        },
+        {
+          "id": "cu-are-banks-proof",
+          "label": "THE PROOF: Credit Unions Are Just Banks Now",
+          "type": "entity",
+          "polar": "good",
+          "degree": 3
+        }
+      ],
+      "adjacent": [
+        {
+          "scale": 1,
+          "epitope": 0,
+          "name": "leaf x INVESTIGATION",
+          "count": 4615
+        },
+        {
+          "scale": 1,
+          "epitope": 1,
+          "name": "leaf x MEMBRANE",
+          "count": 438
+        },
+        {
+          "scale": 1,
+          "epitope": 2,
+          "name": "leaf x SCIENCE",
+          "count": 547
+        },
+        {
+          "scale": 2,
+          "epitope": 0,
+          "name": "branch x INVESTIGATION",
+          "count": 527
+        },
+        {
+          "scale": 2,
+          "epitope": 2,
+          "name": "branch x SCIENCE",
+          "count": 86
+        },
+        {
+          "scale": 3,
+          "epitope": 0,
+          "name": "surface x INVESTIGATION",
+          "count": 87
+        },
+        {
+          "scale": 3,
+          "epitope": 1,
+          "name": "surface x MEMBRANE",
+          "count": 63
+        },
+        {
+          "scale": 3,
+          "epitope": 2,
+          "name": "surface x SCIENCE",
+          "count": 44
+        }
+      ],
+      "pointer": "/bingo/2/1"
+    },
+    {
+      "scale": 2,
+      "epitope": 2,
+      "scale_name": "branch",
+      "epitope_name": "SCIENCE",
+      "pi": "pi^-1",
+      "coordinate": "(pi^-1, SCIENCE)",
+      "count": 86,
+      "polar_breakdown": {
+        "good": 80,
+        "bad": 4,
+        "null": 2
+      },
+      "density": "normal",
+      "samples": [
+        {
+          "id": "spirality",
+          "label": "Spirality of Reality",
+          "type": "concept",
+          "polar": "good",
+          "degree": 4
+        },
+        {
+          "id": "frozen-fossil-record",
+          "label": "Frozen Fossil Record",
+          "type": "concept",
+          "polar": "good",
+          "degree": 3
+        },
+        {
+          "id": "artisan-guilds",
+          "label": "Medieval Guilds (1100s-1800s)",
+          "type": "concept",
+          "polar": "bad",
+          "degree": 3
+        },
+        {
+          "id": "edgetype-bingo-shake",
+          "label": "Edge Type: 'bingo-shake' -- 77,697 edges touching 10,193 nodes. This is a VERB i",
+          "type": "concept",
+          "polar": "good",
+          "degree": 4
+        },
+        {
+          "id": "heartbeat-pentester",
+          "label": "Pentester Heartbeat — arrhythmic, probing, testing random subdomains. Like an im",
+          "type": "concept",
+          "polar": "good",
+          "degree": 3
+        }
+      ],
+      "adjacent": [
+        {
+          "scale": 1,
+          "epitope": 1,
+          "name": "leaf x MEMBRANE",
+          "count": 438
+        },
+        {
+          "scale": 1,
+          "epitope": 2,
+          "name": "leaf x SCIENCE",
+          "count": 547
+        },
+        {
+          "scale": 1,
+          "epitope": 3,
+          "name": "leaf x TOPOLOGY",
+          "count": 950
+        },
+        {
+          "scale": 2,
+          "epitope": 1,
+          "name": "branch x MEMBRANE",
+          "count": 165
+        },
+        {
+          "scale": 2,
+          "epitope": 3,
+          "name": "branch x TOPOLOGY",
+          "count": 154
+        },
+        {
+          "scale": 3,
+          "epitope": 1,
+          "name": "surface x MEMBRANE",
+          "count": 63
+        },
+        {
+          "scale": 3,
+          "epitope": 2,
+          "name": "surface x SCIENCE",
+          "count": 44
+        },
+        {
+          "scale": 3,
+          "epitope": 3,
+          "name": "surface x TOPOLOGY",
+          "count": 53
+        }
+      ],
+      "pointer": "/bingo/2/2"
+    },
+    {
+      "scale": 2,
+      "epitope": 3,
+      "scale_name": "branch",
+      "epitope_name": "TOPOLOGY",
+      "pi": "pi^-1",
+      "coordinate": "(pi^-1, TOPOLOGY)",
+      "count": 154,
+      "polar_breakdown": {
+        "good": 116,
+        "null": 11,
+        "bad": 27
+      },
+      "density": "normal",
+      "samples": [
+        {
+          "id": "fortniteEpic",
+          "label": "Fortnite (Epic Games)",
+          "type": "platform",
+          "polar": "good",
+          "degree": 4
+        },
+        {
+          "id": "paramount_viacom_nick",
+          "label": "Paramount Global / Viacom — Nickelodeon's Parent",
+          "type": "organization",
+          "polar": "good",
+          "degree": 4
+        },
+        {
+          "id": "debate_commission_lock",
+          "label": "Commission on Presidential Debates: Created BY the Two Parties",
+          "type": "institution",
+          "polar": "bad",
+          "degree": 3
+        },
+        {
+          "id": "scatter_loss_mi",
+          "label": "When Medicare banned Dr. Mok: 6 Michigan communities lost their vein specialist",
+          "type": "institution",
+          "polar": "good",
+          "degree": 5
+        },
+        {
+          "id": "stratum_membrane",
+          "label": "STRATUM: 09_membrane — Where the membrane comes from",
+          "type": "infrastructure",
+          "polar": "good",
+          "degree": 4
+        }
+      ],
+      "adjacent": [
+        {
+          "scale": 1,
+          "epitope": 2,
+          "name": "leaf x SCIENCE",
+          "count": 547
+        },
+        {
+          "scale": 1,
+          "epitope": 3,
+          "name": "leaf x TOPOLOGY",
+          "count": 950
+        },
+        {
+          "scale": 1,
+          "epitope": 4,
+          "name": "leaf x IMMUNE",
+          "count": 29
+        },
+        {
+          "scale": 2,
+          "epitope": 2,
+          "name": "branch x SCIENCE",
+          "count": 86
+        },
+        {
+          "scale": 2,
+          "epitope": 4,
+          "name": "branch x IMMUNE",
+          "count": 10
+        },
+        {
+          "scale": 3,
+          "epitope": 2,
+          "name": "surface x SCIENCE",
+          "count": 44
+        },
+        {
+          "scale": 3,
+          "epitope": 3,
+          "name": "surface x TOPOLOGY",
+          "count": 53
+        },
+        {
+          "scale": 3,
+          "epitope": 4,
+          "name": "surface x IMMUNE",
+          "count": 25
+        }
+      ],
+      "pointer": "/bingo/2/3"
+    },
+    {
+      "scale": 2,
+      "epitope": 4,
+      "scale_name": "branch",
+      "epitope_name": "IMMUNE",
+      "pi": "pi^-1",
+      "coordinate": "(pi^-1, IMMUNE)",
+      "count": 10,
+      "polar_breakdown": {
+        "good": 7,
+        "bad": 3
+      },
+      "density": "normal",
+      "samples": [
+        {
+          "id": "boss-muskrat",
+          "label": "The MuskRat",
+          "type": "creature",
+          "polar": "good",
+          "degree": 4
+        },
+        {
+          "id": "credit_robin_wall_kimmerer",
+          "label": "Robin Wall Kimmerer — Braiding Sweetgrass, reciprocity, the gift economy",
+          "type": "game",
+          "polar": "bad",
+          "degree": 4
+        },
+        {
+          "id": "gaia_radiation_pattern",
+          "label": "Radiation Pattern — creative commons radiates OUT and bounces BACK, amplified",
+          "type": "game",
+          "polar": "good",
+          "degree": 4
+        },
+        {
+          "id": "neuralapi",
+          "label": "neuralAPI — The Inference Interface\n\nneuralAPI is the standardized interface bet",
+          "type": "game",
+          "polar": "good",
+          "degree": 4
+        }
+      ],
+      "adjacent": [
+        {
+          "scale": 1,
+          "epitope": 3,
+          "name": "leaf x TOPOLOGY",
+          "count": 950
+        },
+        {
+          "scale": 1,
+          "epitope": 4,
+          "name": "leaf x IMMUNE",
+          "count": 29
+        },
+        {
+          "scale": 1,
+          "epitope": 5,
+          "name": "leaf x OTHER",
+          "count": 2937
+        },
+        {
+          "scale": 2,
+          "epitope": 3,
+          "name": "branch x TOPOLOGY",
+          "count": 154
+        },
+        {
+          "scale": 2,
+          "epitope": 5,
+          "name": "branch x OTHER",
+          "count": 425
+        },
+        {
+          "scale": 3,
+          "epitope": 3,
+          "name": "surface x TOPOLOGY",
+          "count": 53
+        },
+        {
+          "scale": 3,
+          "epitope": 4,
+          "name": "surface x IMMUNE",
+          "count": 25
+        },
+        {
+          "scale": 3,
+          "epitope": 5,
+          "name": "surface x OTHER",
+          "count": 99
+        }
+      ],
+      "pointer": "/bingo/2/4"
+    },
+    {
+      "scale": 2,
+      "epitope": 5,
+      "scale_name": "branch",
+      "epitope_name": "OTHER",
+      "pi": "pi^-1",
+      "coordinate": "(pi^-1, OTHER)",
+      "count": 425,
+      "polar_breakdown": {
+        "good": 382,
+        "bad": 27,
+        "null": 16
+      },
+      "density": "dense",
+      "samples": [
+        {
+          "id": "paper-01-anderson-qs",
+          "label": "Paper 01: Anderson Localization as QS Null Hypothesis",
+          "type": "paper",
+          "polar": "null",
+          "degree": 4
+        },
+        {
+          "id": "paper-12-immuno-anderson",
+          "label": "Paper 12: Immunological Anderson + Fajgenbaum Bridge",
+          "type": "paper",
+          "polar": "good",
+          "degree": 5
+        },
+        {
+          "id": "paper-02-ltee",
+          "label": "Paper 02: LTEE Extensions",
+          "type": "paper",
+          "polar": "good",
+          "degree": 5
+        },
+        {
+          "id": "godel-incompleteness",
+          "label": "Godel's Incompleteness Theorems (1931)",
+          "type": "event",
+          "polar": "good",
+          "degree": 4
+        },
+        {
+          "id": "hoover_mlk_letter",
+          "label": "FBI Letter to MLK (1964)",
+          "type": "event",
+          "polar": "good",
+          "degree": 3
+        }
+      ],
+      "adjacent": [
+        {
+          "scale": 1,
+          "epitope": 4,
+          "name": "leaf x IMMUNE",
+          "count": 29
+        },
+        {
+          "scale": 1,
+          "epitope": 5,
+          "name": "leaf x OTHER",
+          "count": 2937
+        },
+        {
+          "scale": 1,
+          "epitope": 6,
+          "name": "leaf x SIGNAL",
+          "count": 23
+        },
+        {
+          "scale": 2,
+          "epitope": 4,
+          "name": "branch x IMMUNE",
+          "count": 10
+        },
+        {
+          "scale": 2,
+          "epitope": 6,
+          "name": "branch x SIGNAL",
+          "count": 8
+        },
+        {
+          "scale": 3,
+          "epitope": 4,
+          "name": "surface x IMMUNE",
+          "count": 25
+        },
+        {
+          "scale": 3,
+          "epitope": 5,
+          "name": "surface x OTHER",
+          "count": 99
+        },
+        {
+          "scale": 3,
+          "epitope": 6,
+          "name": "surface x SIGNAL",
+          "count": 2
+        }
+      ],
+      "pointer": "/bingo/2/5"
+    },
+    {
+      "scale": 2,
+      "epitope": 6,
+      "scale_name": "branch",
+      "epitope_name": "SIGNAL",
+      "pi": "pi^-1",
+      "coordinate": "(pi^-1, SIGNAL)",
+      "count": 8,
+      "polar_breakdown": {
+        "good": 7,
+        "bad": 1
+      },
+      "density": "sparse",
+      "samples": [
+        {
+          "id": "breseq",
+          "label": "breseq",
+          "type": "tool",
+          "polar": "good",
+          "degree": 3
+        },
+        {
+          "id": "wayback-machine",
+          "label": "The Wayback Machine",
+          "type": "tool",
+          "polar": "good",
+          "degree": 3
+        },
+        {
+          "id": "party_y_michigan",
+          "label": "Y — Working Class Party of Michigan",
+          "type": "political_party",
+          "polar": "good",
+          "degree": 4
+        },
+        {
+          "id": "tool_maze",
+          "label": "MAZE: Navigation and Discovery",
+          "type": "tool",
+          "polar": "bad",
+          "degree": 5
+        }
+      ],
+      "adjacent": [
+        {
+          "scale": 1,
+          "epitope": 5,
+          "name": "leaf x OTHER",
+          "count": 2937
+        },
+        {
+          "scale": 1,
+          "epitope": 6,
+          "name": "leaf x SIGNAL",
+          "count": 23
+        },
+        {
+          "scale": 2,
+          "epitope": 5,
+          "name": "branch x OTHER",
+          "count": 425
+        },
+        {
+          "scale": 3,
+          "epitope": 5,
+          "name": "surface x OTHER",
+          "count": 99
+        },
+        {
+          "scale": 3,
+          "epitope": 6,
+          "name": "surface x SIGNAL",
+          "count": 2
+        }
+      ],
+      "pointer": "/bingo/2/6"
+    },
+    {
+      "scale": 3,
+      "epitope": 0,
+      "scale_name": "surface",
+      "epitope_name": "INVESTIGATION",
+      "pi": "pi^0",
+      "coordinate": "(pi^0, INVESTIGATION)",
+      "count": 87,
+      "polar_breakdown": {
+        "good": 69,
+        "bad": 9,
+        "null": 8,
+        "MISSING": 1
+      },
+      "density": "normal",
+      "samples": [
+        {
+          "id": "adam-ramada-doge",
+          "label": "Adam Ramada",
+          "type": "person",
+          "polar": "good",
+          "degree": 6
+        },
+        {
+          "id": "christopher-young-doge",
+          "label": "Christopher Young",
+          "type": "person",
+          "polar": "good",
+          "degree": 9
+        },
+        {
+          "id": "brooks-morgan-doge",
+          "label": "Brooks Morgan",
+          "type": "person",
+          "polar": "good",
+          "degree": 15
+        },
+        {
+          "id": "joseph_holland",
+          "label": "Joseph Holland (PCA Treasurer -- Convicted Narcotics Trafficker)",
+          "type": "person",
+          "polar": "good",
+          "degree": 6
+        },
+        {
+          "id": "land-anti-vax",
+          "label": "START HERE: The Anti-Vax Lie — From one retracted paper to measles returning. Wa",
+          "type": "person",
+          "polar": "good",
+          "degree": 6
+        }
+      ],
+      "adjacent": [
+        {
+          "scale": 2,
+          "epitope": 0,
+          "name": "branch x INVESTIGATION",
+          "count": 527
+        },
+        {
+          "scale": 2,
+          "epitope": 1,
+          "name": "branch x MEMBRANE",
+          "count": 165
+        },
+        {
+          "scale": 3,
+          "epitope": 1,
+          "name": "surface x MEMBRANE",
+          "count": 63
+        },
+        {
+          "scale": 4,
+          "epitope": 0,
+          "name": "hub x INVESTIGATION",
+          "count": 71
+        },
+        {
+          "scale": 4,
+          "epitope": 1,
+          "name": "hub x MEMBRANE",
+          "count": 31
+        }
+      ],
+      "pointer": "/bingo/3/0"
+    },
+    {
+      "scale": 3,
+      "epitope": 1,
+      "scale_name": "surface",
+      "epitope_name": "MEMBRANE",
+      "pi": "pi^0",
+      "coordinate": "(pi^0, MEMBRANE)",
+      "count": 63,
+      "polar_breakdown": {
+        "good": 12,
+        "null": 31,
+        "bad": 20
+      },
+      "density": "normal",
+      "samples": [
+        {
+          "id": "basecamp",
+          "label": "baseCamp — 28 Research Papers",
+          "type": "system",
+          "polar": "good",
+          "degree": 6
+        },
+        {
+          "id": "doorbell_76caa5dd",
+          "label": "Touchstone: Ring the Doorbell — Privacy Yours, Honor Mine, Consent Ours",
+          "type": "classifier",
+          "polar": "null",
+          "degree": 10
+        },
+        {
+          "id": "nestgate_lithosphere",
+          "label": "nestgate.io — Lithosphere + Data Emitter + Federation Touchpoint",
+          "type": "classifier",
+          "polar": "null",
+          "degree": 14
+        },
+        {
+          "id": "ecoprimal-lab",
+          "label": "THIS IS MY LAB — Where 9,217 Nodes Were Born\n\n~$15,000 total cost. Facebook Mark",
+          "type": "entity",
+          "polar": "good",
+          "degree": 8
+        },
+        {
+          "id": "benjamin-netanyahu-deep",
+          "label": "Benjamin Netanyahu — Longest-serving Israeli PM. Corruption indictments. Gaza 20",
+          "type": "mechanism",
+          "polar": "good",
+          "degree": 6
+        }
+      ],
+      "adjacent": [
+        {
+          "scale": 2,
+          "epitope": 0,
+          "name": "branch x INVESTIGATION",
+          "count": 527
+        },
+        {
+          "scale": 2,
+          "epitope": 1,
+          "name": "branch x MEMBRANE",
+          "count": 165
+        },
+        {
+          "scale": 2,
+          "epitope": 2,
+          "name": "branch x SCIENCE",
+          "count": 86
+        },
+        {
+          "scale": 3,
+          "epitope": 0,
+          "name": "surface x INVESTIGATION",
+          "count": 87
+        },
+        {
+          "scale": 3,
+          "epitope": 2,
+          "name": "surface x SCIENCE",
+          "count": 44
+        },
+        {
+          "scale": 4,
+          "epitope": 0,
+          "name": "hub x INVESTIGATION",
+          "count": 71
+        },
+        {
+          "scale": 4,
+          "epitope": 1,
+          "name": "hub x MEMBRANE",
+          "count": 31
+        },
+        {
+          "scale": 4,
+          "epitope": 2,
+          "name": "hub x SCIENCE",
+          "count": 15
+        }
+      ],
+      "pointer": "/bingo/3/1"
+    },
+    {
+      "scale": 3,
+      "epitope": 2,
+      "scale_name": "surface",
+      "epitope_name": "SCIENCE",
+      "pi": "pi^0",
+      "coordinate": "(pi^0, SCIENCE)",
+      "count": 44,
+      "polar_breakdown": {
+        "good": 42,
+        "bad": 2
+      },
+      "density": "normal",
+      "samples": [
+        {
+          "id": "unified_non_entity",
+          "label": "THE UNIFIED NON-ENTITY — They Are One",
+          "type": "concept",
+          "polar": "bad",
+          "degree": 14
+        },
+        {
+          "id": "energy_oil",
+          "label": "OIL — The Liquid Gate (1859-Present)",
+          "type": "concept",
+          "polar": "bad",
+          "degree": 8
+        },
+        {
+          "id": "energy_nuclear",
+          "label": "NUCLEAR — The Prometheus Gate (1942-Present)",
+          "type": "concept",
+          "polar": "good",
+          "degree": 15
+        },
+        {
+          "id": "gate-golgi",
+          "label": "golgiBody — infrastructure self. Serves feeds, hosts membrane. Heartbeat: respon",
+          "type": "concept",
+          "polar": "good",
+          "degree": 7
+        },
+        {
+          "id": "gate-east",
+          "label": "eastGate — publishing self. Auto-publishes, syncs wateringHole. Heartbeat: publi",
+          "type": "concept",
+          "polar": "good",
+          "degree": 7
+        }
+      ],
+      "adjacent": [
+        {
+          "scale": 2,
+          "epitope": 1,
+          "name": "branch x MEMBRANE",
+          "count": 165
+        },
+        {
+          "scale": 2,
+          "epitope": 2,
+          "name": "branch x SCIENCE",
+          "count": 86
+        },
+        {
+          "scale": 2,
+          "epitope": 3,
+          "name": "branch x TOPOLOGY",
+          "count": 154
+        },
+        {
+          "scale": 3,
+          "epitope": 1,
+          "name": "surface x MEMBRANE",
+          "count": 63
+        },
+        {
+          "scale": 3,
+          "epitope": 3,
+          "name": "surface x TOPOLOGY",
+          "count": 53
+        },
+        {
+          "scale": 4,
+          "epitope": 1,
+          "name": "hub x MEMBRANE",
+          "count": 31
+        },
+        {
+          "scale": 4,
+          "epitope": 2,
+          "name": "hub x SCIENCE",
+          "count": 15
+        },
+        {
+          "scale": 4,
+          "epitope": 3,
+          "name": "hub x TOPOLOGY",
+          "count": 21
+        }
+      ],
+      "pointer": "/bingo/3/2"
+    },
+    {
+      "scale": 3,
+      "epitope": 3,
+      "scale_name": "surface",
+      "epitope_name": "TOPOLOGY",
+      "pi": "pi^0",
+      "coordinate": "(pi^0, TOPOLOGY)",
+      "count": 53,
+      "polar_breakdown": {
+        "good": 42,
+        "bad": 8,
+        "null": 3
+      },
+      "density": "normal",
+      "samples": [
+        {
+          "id": "pbs_commons",
+          "label": "PBS — The Last Commons Standing",
+          "type": "institution",
+          "polar": "good",
+          "degree": 13
+        },
+        {
+          "id": "faith_evangelical",
+          "label": "Evangelical Movement — The Political Gate",
+          "type": "institution",
+          "polar": "good",
+          "degree": 6
+        },
+        {
+          "id": "domain_strategy",
+          "label": "Domain Strategy: primals.eco (membrane) + nestgate.io (federation) + .primal (lo",
+          "type": "infrastructure",
+          "polar": "null",
+          "degree": 7
+        },
+        {
+          "id": "verdict_spot_kym_worthy",
+          "label": "SPOTLIGHT: Kym L. Worthy (Wayne County Prosecutor) — False police reports are a ",
+          "type": "institution",
+          "polar": "good",
+          "degree": 7
+        },
+        {
+          "id": "verdict_spot_fbi_detroit",
+          "label": "SPOTLIGHT: FBI Detroit Field Office — You know this pattern. You prosecuted it b",
+          "type": "institution",
+          "polar": "good",
+          "degree": 7
+        }
+      ],
+      "adjacent": [
+        {
+          "scale": 2,
+          "epitope": 2,
+          "name": "branch x SCIENCE",
+          "count": 86
+        },
+        {
+          "scale": 2,
+          "epitope": 3,
+          "name": "branch x TOPOLOGY",
+          "count": 154
+        },
+        {
+          "scale": 2,
+          "epitope": 4,
+          "name": "branch x IMMUNE",
+          "count": 10
+        },
+        {
+          "scale": 3,
+          "epitope": 2,
+          "name": "surface x SCIENCE",
+          "count": 44
+        },
+        {
+          "scale": 3,
+          "epitope": 4,
+          "name": "surface x IMMUNE",
+          "count": 25
+        },
+        {
+          "scale": 4,
+          "epitope": 2,
+          "name": "hub x SCIENCE",
+          "count": 15
+        },
+        {
+          "scale": 4,
+          "epitope": 3,
+          "name": "hub x TOPOLOGY",
+          "count": 21
+        }
+      ],
+      "pointer": "/bingo/3/3"
+    },
+    {
+      "scale": 3,
+      "epitope": 4,
+      "scale_name": "surface",
+      "epitope_name": "IMMUNE",
+      "pi": "pi^0",
+      "coordinate": "(pi^0, IMMUNE)",
+      "count": 25,
+      "polar_breakdown": {
+        "bad": 9,
+        "good": 16
+      },
+      "density": "normal",
+      "samples": [
+        {
+          "id": "false_face_snyder",
+          "label": "FALSE FACE: Nikki Snyder",
+          "type": "false_face",
+          "polar": "bad",
+          "degree": 9
+        },
+        {
+          "id": "false_face_mcmillin",
+          "label": "FALSE FACE: Tom McMillin",
+          "type": "false_face",
+          "polar": "good",
+          "degree": 10
+        },
+        {
+          "id": "false_face_ohare",
+          "label": "FALSE FACE: Tim O'Hare",
+          "type": "false_face",
+          "polar": "good",
+          "degree": 9
+        }
+      ],
+      "adjacent": [
+        {
+          "scale": 2,
+          "epitope": 3,
+          "name": "branch x TOPOLOGY",
+          "count": 154
+        },
+        {
+          "scale": 2,
+          "epitope": 4,
+          "name": "branch x IMMUNE",
+          "count": 10
+        },
+        {
+          "scale": 2,
+          "epitope": 5,
+          "name": "branch x OTHER",
+          "count": 425
+        },
+        {
+          "scale": 3,
+          "epitope": 3,
+          "name": "surface x TOPOLOGY",
+          "count": 53
+        },
+        {
+          "scale": 3,
+          "epitope": 5,
+          "name": "surface x OTHER",
+          "count": 99
+        },
+        {
+          "scale": 4,
+          "epitope": 3,
+          "name": "hub x TOPOLOGY",
+          "count": 21
+        },
+        {
+          "scale": 4,
+          "epitope": 5,
+          "name": "hub x OTHER",
+          "count": 17
+        }
+      ],
+      "pointer": "/bingo/3/4"
+    },
+    {
+      "scale": 3,
+      "epitope": 5,
+      "scale_name": "surface",
+      "epitope_name": "OTHER",
+      "pi": "pi^0",
+      "coordinate": "(pi^0, OTHER)",
+      "count": 99,
+      "polar_breakdown": {
+        "good": 68,
+        "bad": 29,
+        "null": 2
+      },
+      "density": "normal",
+      "samples": [
+        {
+          "id": "paper-06-notill-anderson",
+          "label": "Paper 06: No-Till Anderson (Dimensional Collapse)",
+          "type": "paper",
+          "polar": "good",
+          "degree": 7
+        },
+        {
+          "id": "paper-19-games-at-home",
+          "label": "Paper 19: Games@Home Distributed Human Computation",
+          "type": "paper",
+          "polar": "good",
+          "degree": 6
+        },
+        {
+          "id": "paper-26-primal-method",
+          "label": "Paper 26: Primal Composition as Scientific Methodology",
+          "type": "paper",
+          "polar": "good",
+          "degree": 6
+        },
+        {
+          "id": "article_detroit_is",
+          "label": "ARTICLE: DETROIT IS — Motown, Techno, Aretha, Rosa Parks, the Assembly Line, and",
+          "type": "article",
+          "polar": "good",
+          "degree": 7
+        },
+        {
+          "id": "story-unified-lineage",
+          "label": "STORY: The Unified Lineage — 4 Billion Years of Evolution Led Here\n\nThe unified ",
+          "type": "article",
+          "polar": "good",
+          "degree": 11
+        }
+      ],
+      "adjacent": [
+        {
+          "scale": 2,
+          "epitope": 4,
+          "name": "branch x IMMUNE",
+          "count": 10
+        },
+        {
+          "scale": 2,
+          "epitope": 5,
+          "name": "branch x OTHER",
+          "count": 425
+        },
+        {
+          "scale": 2,
+          "epitope": 6,
+          "name": "branch x SIGNAL",
+          "count": 8
+        },
+        {
+          "scale": 3,
+          "epitope": 4,
+          "name": "surface x IMMUNE",
+          "count": 25
+        },
+        {
+          "scale": 3,
+          "epitope": 6,
+          "name": "surface x SIGNAL",
+          "count": 2
+        },
+        {
+          "scale": 4,
+          "epitope": 5,
+          "name": "hub x OTHER",
+          "count": 17
+        }
+      ],
+      "pointer": "/bingo/3/5"
+    },
+    {
+      "scale": 3,
+      "epitope": 6,
+      "scale_name": "surface",
+      "epitope_name": "SIGNAL",
+      "pi": "pi^0",
+      "coordinate": "(pi^0, SIGNAL)",
+      "count": 2,
+      "polar_breakdown": {
+        "bad": 2
+      },
+      "density": "sparse",
+      "samples": [
+        {
+          "id": "tool_sort",
+          "label": "SORT: Polar Classification",
+          "type": "tool",
+          "polar": "bad",
+          "degree": 7
+        },
+        {
+          "id": "tool_measure",
+          "label": "MEASURE: Stoichiometric Classifier",
+          "type": "tool",
+          "polar": "bad",
+          "degree": 10
+        }
+      ],
+      "adjacent": [
+        {
+          "scale": 2,
+          "epitope": 5,
+          "name": "branch x OTHER",
+          "count": 425
+        },
+        {
+          "scale": 2,
+          "epitope": 6,
+          "name": "branch x SIGNAL",
+          "count": 8
+        },
+        {
+          "scale": 3,
+          "epitope": 5,
+          "name": "surface x OTHER",
+          "count": 99
+        },
+        {
+          "scale": 4,
+          "epitope": 5,
+          "name": "hub x OTHER",
+          "count": 17
+        }
+      ],
+      "pointer": "/bingo/3/6"
+    },
+    {
+      "scale": 4,
+      "epitope": 0,
+      "scale_name": "hub",
+      "epitope_name": "INVESTIGATION",
+      "pi": "pi^1",
+      "coordinate": "(pi^1, INVESTIGATION)",
+      "count": 71,
+      "polar_breakdown": {
+        "good": 56,
+        "bad": 12,
+        "null": 3
+      },
+      "density": "normal",
+      "samples": [
+        {
+          "id": "artisan-jacquard",
+          "label": "Joseph Marie Jacquard",
+          "type": "person",
+          "polar": "good",
+          "degree": 21
+        },
+        {
+          "id": "sensation_gap",
+          "label": "The Sensation Gap — Publishing ≠ Deploying ≠ Sensation",
+          "type": "person",
+          "polar": "good",
+          "degree": 25
+        },
+        {
+          "id": "avi_mh370",
+          "label": "MH370 — Malaysia Airlines Flight 370. 239 people. Vanished March 8, 2014. Still ",
+          "type": "person",
+          "polar": "good",
+          "degree": 23
+        },
+        {
+          "id": "origin_mok",
+          "label": "ORIGIN TRACE: Dr. Mok → 304K procedures → healing → Medicare ban → patients lose",
+          "type": "person",
+          "polar": "good",
+          "degree": 16
+        },
+        {
+          "id": "visitor-respiration",
+          "label": "Visitor Respiration — dwell time. Median 461 minutes = 7.7 hours. The membrane b",
+          "type": "person",
+          "polar": "good",
+          "degree": 29
+        }
+      ],
+      "adjacent": [
+        {
+          "scale": 3,
+          "epitope": 0,
+          "name": "surface x INVESTIGATION",
+          "count": 87
+        },
+        {
+          "scale": 3,
+          "epitope": 1,
+          "name": "surface x MEMBRANE",
+          "count": 63
+        },
+        {
+          "scale": 4,
+          "epitope": 1,
+          "name": "hub x MEMBRANE",
+          "count": 31
+        },
+        {
+          "scale": 5,
+          "epitope": 0,
+          "name": "superhub x INVESTIGATION",
+          "count": 7
+        },
+        {
+          "scale": 5,
+          "epitope": 1,
+          "name": "superhub x MEMBRANE",
+          "count": 7
+        }
+      ],
+      "pointer": "/bingo/4/0"
+    },
+    {
+      "scale": 4,
+      "epitope": 1,
+      "scale_name": "hub",
+      "epitope_name": "MEMBRANE",
+      "pi": "pi^1",
+      "coordinate": "(pi^1, MEMBRANE)",
+      "count": 31,
+      "polar_breakdown": {
+        "bad": 8,
+        "good": 18,
+        "null": 4,
+        "MISSING": 1
+      },
+      "density": "normal",
+      "samples": [
+        {
+          "id": "cmh_consent_violation",
+          "label": "CMH Consent Violation Pattern",
+          "type": "pattern",
+          "polar": "bad",
+          "degree": 16
+        },
+        {
+          "id": "backscatter_20261018",
+          "label": "Backscatter Oct 18: 3.37M requests, 69K IPs, 15 entities, 110+ surfaces",
+          "type": "classifier",
+          "polar": "null",
+          "degree": 20
+        },
+        {
+          "id": "flywheel_credit",
+          "label": "The Credit Flywheel — each credit spins the next, fog of war lifts as you name",
+          "type": "classifier",
+          "polar": "null",
+          "degree": 36
+        },
+        {
+          "id": "msu-union-roster",
+          "label": "MSU Unions: The Workers Who Built MSUFCU",
+          "type": "entity",
+          "polar": "bad",
+          "degree": 34
+        },
+        {
+          "id": "truth-social",
+          "label": "Truth Social - The Lie Named Truth",
+          "type": "mechanism",
+          "polar": "good",
+          "degree": 20
+        }
+      ],
+      "adjacent": [
+        {
+          "scale": 3,
+          "epitope": 0,
+          "name": "surface x INVESTIGATION",
+          "count": 87
+        },
+        {
+          "scale": 3,
+          "epitope": 1,
+          "name": "surface x MEMBRANE",
+          "count": 63
+        },
+        {
+          "scale": 3,
+          "epitope": 2,
+          "name": "surface x SCIENCE",
+          "count": 44
+        },
+        {
+          "scale": 4,
+          "epitope": 0,
+          "name": "hub x INVESTIGATION",
+          "count": 71
+        },
+        {
+          "scale": 4,
+          "epitope": 2,
+          "name": "hub x SCIENCE",
+          "count": 15
+        },
+        {
+          "scale": 5,
+          "epitope": 0,
+          "name": "superhub x INVESTIGATION",
+          "count": 7
+        },
+        {
+          "scale": 5,
+          "epitope": 1,
+          "name": "superhub x MEMBRANE",
+          "count": 7
+        },
+        {
+          "scale": 5,
+          "epitope": 2,
+          "name": "superhub x SCIENCE",
+          "count": 2
+        }
+      ],
+      "pointer": "/bingo/4/1"
+    },
+    {
+      "scale": 4,
+      "epitope": 2,
+      "scale_name": "hub",
+      "epitope_name": "SCIENCE",
+      "pi": "pi^1",
+      "coordinate": "(pi^1, SCIENCE)",
+      "count": 15,
+      "polar_breakdown": {
+        "good": 14,
+        "bad": 1
+      },
+      "density": "normal",
+      "samples": [
+        {
+          "id": "artisan",
+          "label": "The Artisan",
+          "type": "concept",
+          "polar": "good",
+          "degree": 45
+        },
+        {
+          "id": "energy_coal",
+          "label": "COAL — The First Extraction (1760s-Present)",
+          "type": "concept",
+          "polar": "bad",
+          "degree": 22
+        },
+        {
+          "id": "lesson_fibonacci_rabbits",
+          "label": "WHY FIBONACCI: He Was Counting Rabbits. He Found the Universe.",
+          "type": "concept",
+          "polar": "good",
+          "degree": 19
+        },
+        {
+          "id": "lesson_antikythera",
+          "label": "WHY THE ANTIKYTHERA MECHANISM: 2,000 Years Ago, Someone Built a Computer Out of ",
+          "type": "concept",
+          "polar": "good",
+          "degree": 20
+        }
+      ],
+      "adjacent": [
+        {
+          "scale": 3,
+          "epitope": 1,
+          "name": "surface x MEMBRANE",
+          "count": 63
+        },
+        {
+          "scale": 3,
+          "epitope": 2,
+          "name": "surface x SCIENCE",
+          "count": 44
+        },
+        {
+          "scale": 3,
+          "epitope": 3,
+          "name": "surface x TOPOLOGY",
+          "count": 53
+        },
+        {
+          "scale": 4,
+          "epitope": 1,
+          "name": "hub x MEMBRANE",
+          "count": 31
+        },
+        {
+          "scale": 4,
+          "epitope": 3,
+          "name": "hub x TOPOLOGY",
+          "count": 21
+        },
+        {
+          "scale": 5,
+          "epitope": 1,
+          "name": "superhub x MEMBRANE",
+          "count": 7
+        },
+        {
+          "scale": 5,
+          "epitope": 2,
+          "name": "superhub x SCIENCE",
+          "count": 2
+        },
+        {
+          "scale": 5,
+          "epitope": 3,
+          "name": "superhub x TOPOLOGY",
+          "count": 5
+        }
+      ],
+      "pointer": "/bingo/4/2"
+    },
+    {
+      "scale": 4,
+      "epitope": 3,
+      "scale_name": "hub",
+      "epitope_name": "TOPOLOGY",
+      "pi": "pi^1",
+      "coordinate": "(pi^1, TOPOLOGY)",
+      "count": 21,
+      "polar_breakdown": {
+        "good": 16,
+        "bad": 4,
+        "null": 1
+      },
+      "density": "normal",
+      "samples": [
+        {
+          "id": "surface_git",
+          "label": "git.primals.eco",
+          "type": "infrastructure",
+          "polar": "good",
+          "degree": 18
+        },
+        {
+          "id": "surface_detroit",
+          "label": "detroit.primals.eco",
+          "type": "infrastructure",
+          "polar": "good",
+          "degree": 20
+        },
+        {
+          "id": "mesh_teeth_hub",
+          "label": "THE TEETH — 3 hops from any surface. The reverse of the Banks mesh.",
+          "type": "infrastructure",
+          "polar": "bad",
+          "degree": 27
+        },
+        {
+          "id": "aclu_michigan",
+          "label": "ACLU of Michigan",
+          "type": "institution",
+          "polar": "good",
+          "degree": 34
+        },
+        {
+          "id": "boss_mde",
+          "label": "BOSS FIGHT: Michigan Department of Education",
+          "type": "institution",
+          "polar": "good",
+          "degree": 16
+        }
+      ],
+      "adjacent": [
+        {
+          "scale": 3,
+          "epitope": 2,
+          "name": "surface x SCIENCE",
+          "count": 44
+        },
+        {
+          "scale": 3,
+          "epitope": 3,
+          "name": "surface x TOPOLOGY",
+          "count": 53
+        },
+        {
+          "scale": 3,
+          "epitope": 4,
+          "name": "surface x IMMUNE",
+          "count": 25
+        },
+        {
+          "scale": 4,
+          "epitope": 2,
+          "name": "hub x SCIENCE",
+          "count": 15
+        },
+        {
+          "scale": 5,
+          "epitope": 2,
+          "name": "superhub x SCIENCE",
+          "count": 2
+        },
+        {
+          "scale": 5,
+          "epitope": 3,
+          "name": "superhub x TOPOLOGY",
+          "count": 5
+        }
+      ],
+      "pointer": "/bingo/4/3"
+    },
+    {
+      "scale": 4,
+      "epitope": 4,
+      "scale_name": "hub",
+      "epitope_name": "IMMUNE",
+      "pi": "pi^1",
+      "coordinate": "(pi^1, IMMUNE)",
+      "count": 0,
+      "polar_breakdown": {},
+      "density": "void",
+      "samples": [],
+      "adjacent": [
+        {
+          "scale": 3,
+          "epitope": 3,
+          "name": "surface x TOPOLOGY",
+          "count": 53
+        },
+        {
+          "scale": 3,
+          "epitope": 4,
+          "name": "surface x IMMUNE",
+          "count": 25
+        },
+        {
+          "scale": 3,
+          "epitope": 5,
+          "name": "surface x OTHER",
+          "count": 99
+        },
+        {
+          "scale": 4,
+          "epitope": 3,
+          "name": "hub x TOPOLOGY",
+          "count": 21
+        },
+        {
+          "scale": 4,
+          "epitope": 5,
+          "name": "hub x OTHER",
+          "count": 17
+        },
+        {
+          "scale": 5,
+          "epitope": 3,
+          "name": "superhub x TOPOLOGY",
+          "count": 5
+        },
+        {
+          "scale": 5,
+          "epitope": 5,
+          "name": "superhub x OTHER",
+          "count": 2
+        }
+      ],
+      "pointer": null
+    },
+    {
+      "scale": 4,
+      "epitope": 5,
+      "scale_name": "hub",
+      "epitope_name": "OTHER",
+      "pi": "pi^1",
+      "coordinate": "(pi^1, OTHER)",
+      "count": 17,
+      "polar_breakdown": {
+        "good": 14,
+        "bad": 2,
+        "null": 1
+      },
+      "density": "normal",
+      "samples": [
+        {
+          "id": "article_snyder_true_face",
+          "label": "ARTICLE: Nikki Snyder — The True Face (Based on Her Work)",
+          "type": "article",
+          "polar": "bad",
+          "degree": 40
+        },
+        {
+          "id": "true_face_cross",
+          "label": "TRUE FACE: Brett Cross",
+          "type": "true_face",
+          "polar": "good",
+          "degree": 30
+        },
+        {
+          "id": "true_face_burnam",
+          "label": "TRUE FACE: Lon Burnam",
+          "type": "true_face",
+          "polar": "good",
+          "degree": 29
+        },
+        {
+          "id": "rubin",
+          "label": "Vera Rubin (1928-2016) — Dark Matter\n\nMeasured the rotation curves of galaxies (",
+          "type": "event",
+          "polar": "good",
+          "degree": 16
+        },
+        {
+          "id": "reverse-ray-tracing",
+          "label": "REVERSE RAY TRACING — You Won't Believe What Happens\n\nNORMAL RAY TRACING (forwar",
+          "type": "event",
+          "polar": "good",
+          "degree": 26
+        }
+      ],
+      "adjacent": [
+        {
+          "scale": 3,
+          "epitope": 4,
+          "name": "surface x IMMUNE",
+          "count": 25
+        },
+        {
+          "scale": 3,
+          "epitope": 5,
+          "name": "surface x OTHER",
+          "count": 99
+        },
+        {
+          "scale": 3,
+          "epitope": 6,
+          "name": "surface x SIGNAL",
+          "count": 2
+        },
+        {
+          "scale": 5,
+          "epitope": 5,
+          "name": "superhub x OTHER",
+          "count": 2
+        }
+      ],
+      "pointer": "/bingo/4/5"
+    },
+    {
+      "scale": 4,
+      "epitope": 6,
+      "scale_name": "hub",
+      "epitope_name": "SIGNAL",
+      "pi": "pi^1",
+      "coordinate": "(pi^1, SIGNAL)",
+      "count": 0,
+      "polar_breakdown": {},
+      "density": "void",
+      "samples": [],
+      "adjacent": [
+        {
+          "scale": 3,
+          "epitope": 5,
+          "name": "surface x OTHER",
+          "count": 99
+        },
+        {
+          "scale": 3,
+          "epitope": 6,
+          "name": "surface x SIGNAL",
+          "count": 2
+        },
+        {
+          "scale": 4,
+          "epitope": 5,
+          "name": "hub x OTHER",
+          "count": 17
+        },
+        {
+          "scale": 5,
+          "epitope": 5,
+          "name": "superhub x OTHER",
+          "count": 2
+        }
+      ],
+      "pointer": null
+    },
+    {
+      "scale": 5,
+      "epitope": 0,
+      "scale_name": "superhub",
+      "epitope_name": "INVESTIGATION",
+      "pi": "pi^2",
+      "coordinate": "(pi^2, INVESTIGATION)",
+      "count": 7,
+      "polar_breakdown": {
+        "good": 4,
+        "bad": 3
+      },
+      "density": "sparse",
+      "samples": [
+        {
+          "id": "stoichiometry_hub",
+          "label": "The Great Stoichiometry — money, time, energy, oil. The cost functions as consta",
+          "type": "person",
+          "polar": "bad",
+          "degree": 78
+        },
+        {
+          "id": "stoi_wage_scale",
+          "label": "Wage Scale: minimum $7.25/hr to CEO $14,087/hr. Ratio 1,943:1. The stoichiometry",
+          "type": "person",
+          "polar": "bad",
+          "degree": 52
+        },
+        {
+          "id": "cmh_stoichiometry",
+          "label": "CMH Stoichiometry: input (trust + vulnerability + presence) vs output (treatment",
+          "type": "person",
+          "polar": "bad",
+          "degree": 51
+        },
+        {
+          "id": "unesco_the_historic_centre_(chorá)_with_the_mon",
+          "label": "The Historic Centre (Chorá) with the Monastery of Saint-John the Theologian and ",
+          "type": "person",
+          "polar": "good",
+          "degree": 53
+        },
+        {
+          "id": "backscatter-contrast",
+          "label": "BACKSCATTER CONTRAST — Kevin's 605 Verified Edges vs Banks' False Faces\n\nKevin M",
+          "type": "person",
+          "polar": "good",
+          "degree": 120
+        }
+      ],
+      "adjacent": [
+        {
+          "scale": 4,
+          "epitope": 0,
+          "name": "hub x INVESTIGATION",
+          "count": 71
+        },
+        {
+          "scale": 4,
+          "epitope": 1,
+          "name": "hub x MEMBRANE",
+          "count": 31
+        },
+        {
+          "scale": 5,
+          "epitope": 1,
+          "name": "superhub x MEMBRANE",
+          "count": 7
+        },
+        {
+          "scale": 6,
+          "epitope": 0,
+          "name": "nucleus x INVESTIGATION",
+          "count": 321
+        },
+        {
+          "scale": 6,
+          "epitope": 1,
+          "name": "nucleus x MEMBRANE",
+          "count": 5
+        }
+      ],
+      "pointer": "/bingo/5/0"
+    },
+    {
+      "scale": 5,
+      "epitope": 1,
+      "scale_name": "superhub",
+      "epitope_name": "MEMBRANE",
+      "pi": "pi^2",
+      "coordinate": "(pi^2, MEMBRANE)",
+      "count": 7,
+      "polar_breakdown": {
+        "good": 6,
+        "MISSING": 1
+      },
+      "density": "sparse",
+      "samples": [
+        {
+          "id": "curiosity_gate",
+          "label": "Curiosity is the price of admission. Proved by turning to others: do you see wha",
+          "type": "mechanism",
+          "polar": "good",
+          "degree": 56
+        },
+        {
+          "id": "synth_wetSpring",
+          "label": "wetSpring — Pure Rust Metagenomics + Analytical Chemistry",
+          "type": "system",
+          "polar": "good",
+          "degree": 63
+        },
+        {
+          "id": "synth_hotSpring",
+          "label": "hotSpring — Pure Rust Computational Physics",
+          "type": "system",
+          "polar": "good",
+          "degree": 67
+        },
+        {
+          "id": "stock_market_meat",
+          "label": "Stock Market: Meat Eaters",
+          "type": "entity",
+          "polar": "MISSING",
+          "degree": 140
+        }
+      ],
+      "adjacent": [
+        {
+          "scale": 4,
+          "epitope": 0,
+          "name": "hub x INVESTIGATION",
+          "count": 71
+        },
+        {
+          "scale": 4,
+          "epitope": 1,
+          "name": "hub x MEMBRANE",
+          "count": 31
+        },
+        {
+          "scale": 4,
+          "epitope": 2,
+          "name": "hub x SCIENCE",
+          "count": 15
+        },
+        {
+          "scale": 5,
+          "epitope": 0,
+          "name": "superhub x INVESTIGATION",
+          "count": 7
+        },
+        {
+          "scale": 5,
+          "epitope": 2,
+          "name": "superhub x SCIENCE",
+          "count": 2
+        },
+        {
+          "scale": 6,
+          "epitope": 0,
+          "name": "nucleus x INVESTIGATION",
+          "count": 321
+        },
+        {
+          "scale": 6,
+          "epitope": 1,
+          "name": "nucleus x MEMBRANE",
+          "count": 5
+        },
+        {
+          "scale": 6,
+          "epitope": 2,
+          "name": "nucleus x SCIENCE",
+          "count": 19
+        }
+      ],
+      "pointer": "/bingo/5/1"
+    },
+    {
+      "scale": 5,
+      "epitope": 2,
+      "scale_name": "superhub",
+      "epitope_name": "SCIENCE",
+      "pi": "pi^2",
+      "coordinate": "(pi^2, SCIENCE)",
+      "count": 2,
+      "polar_breakdown": {
+        "good": 2
+      },
+      "density": "sparse",
+      "samples": [
+        {
+          "id": "the-reversal",
+          "label": "THE REVERSAL — It's All Coming to Me\n\nMeta THOUGHT they were taking value.\n  24,",
+          "type": "concept",
+          "polar": "good",
+          "degree": 65
+        },
+        {
+          "id": "the-rate",
+          "label": "THE RATE — Losing It Faster Than They Can Steal From Others\n\nAS OF OCTOBER 14, 2",
+          "type": "concept",
+          "polar": "good",
+          "degree": 56
+        }
+      ],
+      "adjacent": [
+        {
+          "scale": 4,
+          "epitope": 1,
+          "name": "hub x MEMBRANE",
+          "count": 31
+        },
+        {
+          "scale": 4,
+          "epitope": 2,
+          "name": "hub x SCIENCE",
+          "count": 15
+        },
+        {
+          "scale": 4,
+          "epitope": 3,
+          "name": "hub x TOPOLOGY",
+          "count": 21
+        },
+        {
+          "scale": 5,
+          "epitope": 1,
+          "name": "superhub x MEMBRANE",
+          "count": 7
+        },
+        {
+          "scale": 5,
+          "epitope": 3,
+          "name": "superhub x TOPOLOGY",
+          "count": 5
+        },
+        {
+          "scale": 6,
+          "epitope": 1,
+          "name": "nucleus x MEMBRANE",
+          "count": 5
+        },
+        {
+          "scale": 6,
+          "epitope": 2,
+          "name": "nucleus x SCIENCE",
+          "count": 19
+        },
+        {
+          "scale": 6,
+          "epitope": 3,
+          "name": "nucleus x TOPOLOGY",
+          "count": 19
+        }
+      ],
+      "pointer": "/bingo/5/2"
+    },
+    {
+      "scale": 5,
+      "epitope": 3,
+      "scale_name": "superhub",
+      "epitope_name": "TOPOLOGY",
+      "pi": "pi^2",
+      "coordinate": "(pi^2, TOPOLOGY)",
+      "count": 5,
+      "polar_breakdown": {
+        "good": 4,
+        "bad": 1
+      },
+      "density": "sparse",
+      "samples": [
+        {
+          "id": "debt_membrane_hub",
+          "label": "Debt Membranes — student loans, mortgages, land banks. When ownership is >2 hops",
+          "type": "infrastructure",
+          "polar": "bad",
+          "degree": 53
+        },
+        {
+          "id": "synth_agentReagents",
+          "label": "agentReagents — Pure Rust VM Image Builder",
+          "type": "infrastructure",
+          "polar": "good",
+          "degree": 54
+        },
+        {
+          "id": "synth_benchScale",
+          "label": "benchScale — Pure Rust VM Orchestration",
+          "type": "infrastructure",
+          "polar": "good",
+          "degree": 52
+        },
+        {
+          "id": "randall-munroe-xkcd",
+          "label": "RANDALL MUNROE — xkcd. The Stick Figures That Built a Mind.\n\n'I'm just this guy,",
+          "type": "institution",
+          "polar": "good",
+          "degree": 170
+        },
+        {
+          "id": "word_person",
+          "label": "Person (Etymology)",
+          "type": "institution",
+          "polar": "good",
+          "degree": 53
+        }
+      ],
+      "adjacent": [
+        {
+          "scale": 4,
+          "epitope": 2,
+          "name": "hub x SCIENCE",
+          "count": 15
+        },
+        {
+          "scale": 4,
+          "epitope": 3,
+          "name": "hub x TOPOLOGY",
+          "count": 21
+        },
+        {
+          "scale": 5,
+          "epitope": 2,
+          "name": "superhub x SCIENCE",
+          "count": 2
+        },
+        {
+          "scale": 6,
+          "epitope": 2,
+          "name": "nucleus x SCIENCE",
+          "count": 19
+        },
+        {
+          "scale": 6,
+          "epitope": 3,
+          "name": "nucleus x TOPOLOGY",
+          "count": 19
+        }
+      ],
+      "pointer": "/bingo/5/3"
+    },
+    {
+      "scale": 5,
+      "epitope": 4,
+      "scale_name": "superhub",
+      "epitope_name": "IMMUNE",
+      "pi": "pi^2",
+      "coordinate": "(pi^2, IMMUNE)",
+      "count": 0,
+      "polar_breakdown": {},
+      "density": "void",
+      "samples": [],
+      "adjacent": [
+        {
+          "scale": 4,
+          "epitope": 3,
+          "name": "hub x TOPOLOGY",
+          "count": 21
+        },
+        {
+          "scale": 4,
+          "epitope": 5,
+          "name": "hub x OTHER",
+          "count": 17
+        },
+        {
+          "scale": 5,
+          "epitope": 3,
+          "name": "superhub x TOPOLOGY",
+          "count": 5
+        },
+        {
+          "scale": 5,
+          "epitope": 5,
+          "name": "superhub x OTHER",
+          "count": 2
+        },
+        {
+          "scale": 6,
+          "epitope": 3,
+          "name": "nucleus x TOPOLOGY",
+          "count": 19
+        },
+        {
+          "scale": 6,
+          "epitope": 5,
+          "name": "nucleus x OTHER",
+          "count": 73
+        }
+      ],
+      "pointer": null
+    },
+    {
+      "scale": 5,
+      "epitope": 5,
+      "scale_name": "superhub",
+      "epitope_name": "OTHER",
+      "pi": "pi^2",
+      "coordinate": "(pi^2, OTHER)",
+      "count": 2,
+      "polar_breakdown": {
+        "good": 2
+      },
+      "density": "sparse",
+      "samples": [
+        {
+          "id": "article_jump_voynich_banks",
+          "label": "ARTICLE: The Voynich Manuscript Has Been Unsolved for 600 Years — Banks Has Been",
+          "type": "article",
+          "polar": "good",
+          "degree": 60
+        },
+        {
+          "id": "story-whalefall",
+          "label": "STORY: Whalefall — What Grows When Giants Die\n\nWhen a whale dies in the open oce",
+          "type": "article",
+          "polar": "good",
+          "degree": 94
+        }
+      ],
+      "adjacent": [
+        {
+          "scale": 4,
+          "epitope": 5,
+          "name": "hub x OTHER",
+          "count": 17
+        },
+        {
+          "scale": 6,
+          "epitope": 5,
+          "name": "nucleus x OTHER",
+          "count": 73
+        }
+      ],
+      "pointer": "/bingo/5/5"
+    },
+    {
+      "scale": 5,
+      "epitope": 6,
+      "scale_name": "superhub",
+      "epitope_name": "SIGNAL",
+      "pi": "pi^2",
+      "coordinate": "(pi^2, SIGNAL)",
+      "count": 0,
+      "polar_breakdown": {},
+      "density": "void",
+      "samples": [],
+      "adjacent": [
+        {
+          "scale": 4,
+          "epitope": 5,
+          "name": "hub x OTHER",
+          "count": 17
+        },
+        {
+          "scale": 5,
+          "epitope": 5,
+          "name": "superhub x OTHER",
+          "count": 2
+        },
+        {
+          "scale": 6,
+          "epitope": 5,
+          "name": "nucleus x OTHER",
+          "count": 73
+        }
+      ],
+      "pointer": null
+    },
+    {
+      "scale": 6,
+      "epitope": 0,
+      "scale_name": "nucleus",
+      "epitope_name": "INVESTIGATION",
+      "pi": "pi^3",
+      "coordinate": "(pi^3, INVESTIGATION)",
+      "count": 321,
+      "polar_breakdown": {
+        "good": 267,
+        "MISSING": 30,
+        "bad": 18,
+        "null": 6
+      },
+      "density": "dense",
+      "samples": [
+        {
+          "id": "false-face-pattern",
+          "label": "FALSE FACE: Multiple Names, One Extractor",
+          "type": "person",
+          "polar": "good",
+          "degree": 2907
+        },
+        {
+          "id": "self-sight",
+          "label": "SELF SIGHT: The Observer's Fraction",
+          "type": "person",
+          "polar": "good",
+          "degree": 472
+        },
+        {
+          "id": "motown-model",
+          "label": "The Motown Model: Art as Commons",
+          "type": "person",
+          "polar": "good",
+          "degree": 460
+        },
+        {
+          "id": "article_the_enterprise",
+          "label": "THE ENTERPRISE — Complete RICO, 15 predicates, $60M+, Kids for Cash 2",
+          "type": "person",
+          "polar": "good",
+          "degree": 640
+        },
+        {
+          "id": "science-of-law",
+          "label": "The Science of Law — RICO proven through 16 peer-reviewed algorithms spanning 26",
+          "type": "person",
+          "polar": "good",
+          "degree": 537
+        }
+      ],
+      "adjacent": [
+        {
+          "scale": 5,
+          "epitope": 0,
+          "name": "superhub x INVESTIGATION",
+          "count": 7
+        },
+        {
+          "scale": 5,
+          "epitope": 1,
+          "name": "superhub x MEMBRANE",
+          "count": 7
+        },
+        {
+          "scale": 6,
+          "epitope": 1,
+          "name": "nucleus x MEMBRANE",
+          "count": 5
+        }
+      ],
+      "pointer": "/bingo/6/0"
+    },
+    {
+      "scale": 6,
+      "epitope": 1,
+      "scale_name": "nucleus",
+      "epitope_name": "MEMBRANE",
+      "pi": "pi^3",
+      "coordinate": "(pi^3, MEMBRANE)",
+      "count": 5,
+      "polar_breakdown": {
+        "good": 5
+      },
+      "density": "sparse",
+      "samples": [
+        {
+          "id": "cu-vs-bank",
+          "label": "Credit Union vs. Bank: The Original Split",
+          "type": "entity",
+          "polar": "good",
+          "degree": 436
+        },
+        {
+          "id": "msufcu",
+          "label": "MSU Federal Credit Union",
+          "type": "entity",
+          "polar": "good",
+          "degree": 474
+        },
+        {
+          "id": "pca",
+          "label": "Purpose Charter Academy",
+          "type": "entity",
+          "polar": "good",
+          "degree": 435
+        },
+        {
+          "id": "martin-blackstar",
+          "label": "Roland Martin — BlackStar Media, \"School Choice is the Black Choice\"\n\nRoland S. ",
+          "type": "entity",
+          "polar": "good",
+          "degree": 566
+        }
+      ],
+      "adjacent": [
+        {
+          "scale": 5,
+          "epitope": 0,
+          "name": "superhub x INVESTIGATION",
+          "count": 7
+        },
+        {
+          "scale": 5,
+          "epitope": 1,
+          "name": "superhub x MEMBRANE",
+          "count": 7
+        },
+        {
+          "scale": 5,
+          "epitope": 2,
+          "name": "superhub x SCIENCE",
+          "count": 2
+        },
+        {
+          "scale": 6,
+          "epitope": 0,
+          "name": "nucleus x INVESTIGATION",
+          "count": 321
+        },
+        {
+          "scale": 6,
+          "epitope": 2,
+          "name": "nucleus x SCIENCE",
+          "count": 19
+        }
+      ],
+      "pointer": "/bingo/6/1"
+    },
+    {
+      "scale": 6,
+      "epitope": 2,
+      "scale_name": "nucleus",
+      "epitope_name": "SCIENCE",
+      "pi": "pi^3",
+      "coordinate": "(pi^3, SCIENCE)",
+      "count": 19,
+      "polar_breakdown": {
+        "good": 18,
+        "bad": 1
+      },
+      "density": "normal",
+      "samples": [
+        {
+          "id": "rico_is_zk",
+          "label": "RICO WAS ALWAYS ZERO-KNOWLEDGE — The Graph Is the Proof",
+          "type": "concept",
+          "polar": "bad",
+          "degree": 431
+        },
+        {
+          "id": "nowhere-to-hide",
+          "label": "NOWHERE TO HIDE IN THE LIGHT: Public Record Is Permanent",
+          "type": "concept",
+          "polar": "good",
+          "degree": 430
+        },
+        {
+          "id": "rpm-heartbeat",
+          "label": "RPM HEARTBEAT — The Membrane's Pulse\n\n243 human requests per minute. One every 0",
+          "type": "concept",
+          "polar": "good",
+          "degree": 442
+        },
+        {
+          "id": "gate-north",
+          "label": "northGate — operator self. Human attention, scripts, Cursor. Heartbeat: attentio",
+          "type": "concept",
+          "polar": "good",
+          "degree": 441
+        }
+      ],
+      "adjacent": [
+        {
+          "scale": 5,
+          "epitope": 1,
+          "name": "superhub x MEMBRANE",
+          "count": 7
+        },
+        {
+          "scale": 5,
+          "epitope": 2,
+          "name": "superhub x SCIENCE",
+          "count": 2
+        },
+        {
+          "scale": 5,
+          "epitope": 3,
+          "name": "superhub x TOPOLOGY",
+          "count": 5
+        },
+        {
+          "scale": 6,
+          "epitope": 1,
+          "name": "nucleus x MEMBRANE",
+          "count": 5
+        },
+        {
+          "scale": 6,
+          "epitope": 3,
+          "name": "nucleus x TOPOLOGY",
+          "count": 19
+        }
+      ],
+      "pointer": "/bingo/6/2"
+    },
+    {
+      "scale": 6,
+      "epitope": 3,
+      "scale_name": "nucleus",
+      "epitope_name": "TOPOLOGY",
+      "pi": "pi^3",
+      "coordinate": "(pi^3, TOPOLOGY)",
+      "count": 19,
+      "polar_breakdown": {
+        "good": 16,
+        "bad": 3
+      },
+      "density": "normal",
+      "samples": [
+        {
+          "id": "fbi-tipline-construction",
+          "label": "FBI Tip Line: Constructed, Not Investigated",
+          "type": "institution",
+          "polar": "good",
+          "degree": 433
+        },
+        {
+          "id": "land-grant-mission",
+          "label": "Land-Grant University Mission (Morrill Act, 1862)",
+          "type": "institution",
+          "polar": "bad",
+          "degree": 434
+        },
+        {
+          "id": "cmu-authorizer",
+          "label": "CMU: Charter School Authorizer — The Soul Sale",
+          "type": "institution",
+          "polar": "bad",
+          "degree": 432
+        },
+        {
+          "id": "membrane",
+          "label": "THE MEMBRANE — Selective Permeability as Architecture\n\nThe membrane is the centr",
+          "type": "infrastructure",
+          "polar": "good",
+          "degree": 512
+        },
+        {
+          "id": "bounty_state_ag",
+          "label": "BOUNTY: Michigan AG Charitable Trust Complaint Recovery",
+          "type": "institution",
+          "polar": "good",
+          "degree": 444
+        }
+      ],
+      "adjacent": [
+        {
+          "scale": 5,
+          "epitope": 2,
+          "name": "superhub x SCIENCE",
+          "count": 2
+        },
+        {
+          "scale": 5,
+          "epitope": 3,
+          "name": "superhub x TOPOLOGY",
+          "count": 5
+        },
+        {
+          "scale": 6,
+          "epitope": 2,
+          "name": "nucleus x SCIENCE",
+          "count": 19
+        }
+      ],
+      "pointer": "/bingo/6/3"
+    },
+    {
+      "scale": 6,
+      "epitope": 4,
+      "scale_name": "nucleus",
+      "epitope_name": "IMMUNE",
+      "pi": "pi^3",
+      "coordinate": "(pi^3, IMMUNE)",
+      "count": 0,
+      "polar_breakdown": {},
+      "density": "void",
+      "samples": [],
+      "adjacent": [
+        {
+          "scale": 5,
+          "epitope": 3,
+          "name": "superhub x TOPOLOGY",
+          "count": 5
+        },
+        {
+          "scale": 5,
+          "epitope": 5,
+          "name": "superhub x OTHER",
+          "count": 2
+        },
+        {
+          "scale": 6,
+          "epitope": 3,
+          "name": "nucleus x TOPOLOGY",
+          "count": 19
+        },
+        {
+          "scale": 6,
+          "epitope": 5,
+          "name": "nucleus x OTHER",
+          "count": 73
+        }
+      ],
+      "pointer": null
+    },
+    {
+      "scale": 6,
+      "epitope": 5,
+      "scale_name": "nucleus",
+      "epitope_name": "OTHER",
+      "pi": "pi^3",
+      "coordinate": "(pi^3, OTHER)",
+      "count": 73,
+      "polar_breakdown": {
+        "good": 72,
+        "bad": 1
+      },
+      "density": "normal",
+      "samples": [
+        {
+          "id": "ivc-first-responders",
+          "label": "IV Vitamin C for First Responders (2020)",
+          "type": "event",
+          "polar": "good",
+          "degree": 432
+        },
+        {
+          "id": "university-of-bologna",
+          "label": "University of Bologna (1088)",
+          "type": "event",
+          "polar": "bad",
+          "degree": 432
+        },
+        {
+          "id": "uber-files",
+          "label": "The Uber Files (2022)",
+          "type": "event",
+          "polar": "good",
+          "degree": 430
+        },
+        {
+          "id": "kendrick-lamar",
+          "label": "Kendrick Lamar (1987-) — Pulitzer Prize for DAMN. (2018). First non-classical, n",
+          "type": "event",
+          "polar": "good",
+          "degree": 477
+        },
+        {
+          "id": "book-empire-pain",
+          "label": "Empire of Pain - Patrick Radden Keefe (2021). The Sackler dynasty. The definitiv",
+          "type": "event",
+          "polar": "good",
+          "degree": 439
+        }
+      ],
+      "adjacent": [
+        {
+          "scale": 5,
+          "epitope": 5,
+          "name": "superhub x OTHER",
+          "count": 2
+        }
+      ],
+      "pointer": "/bingo/6/5"
+    },
+    {
+      "scale": 6,
+      "epitope": 6,
+      "scale_name": "nucleus",
+      "epitope_name": "SIGNAL",
+      "pi": "pi^3",
+      "coordinate": "(pi^3, SIGNAL)",
+      "count": 0,
+      "polar_breakdown": {},
+      "density": "void",
+      "samples": [],
+      "adjacent": [
+        {
+          "scale": 5,
+          "epitope": 5,
+          "name": "superhub x OTHER",
+          "count": 2
+        },
+        {
+          "scale": 6,
+          "epitope": 5,
+          "name": "nucleus x OTHER",
+          "count": 73
+        }
+      ],
+      "pointer": null
+    }
+  ],
+  "entry_point": {
+    "scale": 3,
+    "epitope": 5,
+    "name": "surface × OTHER",
+    "reason": "where most humans land"
+  }
+}
