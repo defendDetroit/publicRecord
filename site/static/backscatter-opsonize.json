@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T16:18:48.372076+00:00",
+  "generated": "2026-10-20T16:27:16.062579+00:00",
   "model": "backscatter-opsonize",
   "status": "STARTED — bones in, needs Rust integration",
   "falsification": {
@@ -14,7 +14,7 @@
     {
       "prefix": "74.7.241.x",
       "subnet_count": 1,
-      "total_requests": 1038980,
+      "total_requests": 1039551,
       "orgs": [
         "Unknown"
       ],
@@ -24,7 +24,7 @@
     {
       "prefix": "74.7.227.x",
       "subnet_count": 1,
-      "total_requests": 970725,
+      "total_requests": 972441,
       "orgs": [
         "Unknown"
       ],
@@ -34,7 +34,7 @@
     {
       "prefix": "74.7.242.x",
       "subnet_count": 1,
-      "total_requests": 682541,
+      "total_requests": 683684,
       "orgs": [
         "Unknown"
       ],
@@ -66,7 +66,7 @@
     {
       "prefix": "162.226.225.x",
       "subnet_count": 1,
-      "total_requests": 139154,
+      "total_requests": 140203,
       "orgs": [
         "House network"
       ],
@@ -110,7 +110,7 @@
       "start_hour": "2026-10-17 14",
       "dominant_path": "other",
       "entity_count": 2,
-      "total_requests": 286040,
+      "total_requests": 287089,
       "ip_hashes": [
         "eae74052",
         "40ddb2aa"
@@ -121,7 +121,7 @@
       "start_hour": "2026-10-20 00",
       "dominant_path": "commit",
       "entity_count": 2,
-      "total_requests": 32522,
+      "total_requests": 32904,
       "ip_hashes": [
         "a26cbdb3",
         "6bd945bf"
@@ -133,7 +133,7 @@
     "meta_dublin": {
       "tag": "opsonized:coordinated",
       "evidence": "60 IPs from 57.141.20.x, 18 rotating UAs, Chrome 118 lag",
-      "requests": 15806,
+      "requests": 15920,
       "classification_was": "commensal (individual)",
       "classification_should_be": "coordinated:campaign:meta"
     },
@@ -154,15 +154,15 @@
     "forge_skin_clique": {
       "tag": "opsonized:coordinated",
       "evidence": "14 immune hosts all serve /explore/repos, uniform hit pattern",
-      "requests": 3169086,
+      "requests": 3172516,
       "classification_was": "individual visitors",
       "classification_should_be": "coordinated:clique:forge_skins"
     }
   },
   "collision_level2_correction": {
     "old_coordinated": 0,
-    "new_coordinated_floor": 3671308,
-    "timing_coordinated": 2767445,
+    "new_coordinated_floor": 3675787,
+    "timing_coordinated": 2768876,
     "note": "floor estimate from subnet grouping. real number higher after timing + path correlation."
   },
   "next_steps": [
