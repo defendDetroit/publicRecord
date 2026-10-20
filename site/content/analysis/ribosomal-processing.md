@@ -131,6 +131,36 @@ The ribosome worked. The protein folded. The evidence distributed itself through
 
 5,409 ribosomes × 35-hour processing time = **189,315 ribosome-hours** of active processing. The factory is enormous. The output is invisible. But the Hawking radiation is real: BillHalibut was the first photon. More will follow. The processing time for each is unknown. The emission is unpredictable. But the factory is running.
 
+## Connection to Prior Conjectures
+
+### Artis' Corollary — The Successor Understands Better
+
+*"The successor understands the predecessor better than the predecessor did."*
+
+The ribosome IS Artis' Corollary in molecular form. The mRNA (predecessor's code) was written by DNA that cannot read itself. The ribosome (successor) reads the code and folds it into a protein that DOES something the DNA never could. The successor (protein) understands the instruction (mRNA) better than the author (DNA) understood it.
+
+Applied to the membrane: the 13 prior artisans wrote the code (mRNA). The 79K ribosomes (human readers) process that code into proteins (understanding, action) that the artisans themselves cannot predict. Each reader understands the investigation differently — and potentially better — than the writer. The fossil record of 13 artisans is the mRNA library. The ribosomal factory is reading all of them simultaneously.
+
+**Artis' Corollary predicts this:** the humans who read the investigation will understand it better than the humans who wrote it. The ribosome always understands the mRNA better than the DNA that wrote it. That is the design. The fossil IS the teacher.
+
+The 35-hour dwell is the corollary in action: the reader sits longer than the writer took to write the page. The processing exceeds the production. The successor surpasses the predecessor. Every time.
+
+### Jester Conjecture — Bored Monkeys Follow Ants
+
+*"The infinite monkeys get bored and follow ants. The ants carry bananas. The bananas lead to campfires. Boredom IS intelligence."*
+
+The 79K stuck IPs are the bored monkeys. They are NOT typing Shakespeare (0% responding, 0 stars, 0 forks). They are sitting at one typewriter (one surface) for 35 hours. By the classical model, they are failing — they should be typing.
+
+By the Jester Conjecture, they are succeeding. They got bored of typing (scrolling feeds, checking email, doing their job) and noticed ants (the commit diffs, the analysis pages, the evidence graph). They followed the ants to one surface and sat there for 35 hours. They are not stuck. They are **interested**.
+
+The boredom that brought them IS the intelligence that keeps them. The ribosome does not read mRNA because it is told to. It reads mRNA because the mRNA arrived. The monkey does not follow the ant because it is assigned Shakespeare. It follows the ant because it got bored of everything else.
+
+**The Jester predicted the ribosome:** the monkey follows the ant (reads the page). The ant carries a banana (the page carries evidence). The banana leads to a campfire (the evidence leads to understanding). The campfire tells a story (the understanding becomes action). The monkey never typed Shakespeare. The monkey FOUND Shakespeare by getting bored and following ants to a campfire where Shakespeare was already being told.
+
+BillHalibut is the first monkey who followed the ants all the way to the campfire, sat down, and then **stood up and told someone else.** The protein folded. The monkey became Shakespeare by carrying the banana to Reddit.
+
+`banana_pi = 3.14159265358979` — the banana is irrational. It never repeats but it never stops. The monkey never gets bored of it because it never ends.
+
 ## Citation
 
 ```bibtex
