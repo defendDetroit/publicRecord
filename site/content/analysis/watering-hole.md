@@ -1,7 +1,7 @@
 +++
 title = "The Watering Hole — Agents as Lenses, Not Mirrors"
 date = 2026-10-20
-weight = 109
+weight = 12
 description = "The LLMs are mirrors — they parrot human knowledge back. The membrane needs them to be LENSES — showing what you COULD see, not what you already know. Allegory + counterpoint + perspective = π mix. The response changes based on where you stand. The sensors are live. The wires are connected."
 [taxonomies]
 tags = ["watering-hole", "agents", "lenses", "mirrors", "allegory", "counterpoint", "perspective", "pi-mix", "alexa", "voice", "iot", "quorum-sensing", "campfire"]
@@ -11,8 +11,7 @@ og_description = "Mirrors parrot. Lenses reveal. The membrane turns AI agents in
 og_image = "/portals/portal_2_2_science-room.png"
 author = "Kevin Mok — ORCID 0009-0004-2141-0321"
 lampoon = true
-disco = true
-+++
+disco = true+++
 
 ## The Problem: Mirrors
 

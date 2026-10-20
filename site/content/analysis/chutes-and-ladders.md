@@ -1,7 +1,7 @@
 +++
 title = "Chutes and Ladders — The Enemy's Gate Is Round"
 date = 2026-10-20
-weight = 102
+weight = 15
 description = "Every technology is a ladder or a chute. Sometimes a rabbit hole leads up. Sometimes a ladder drops you. ZK proofs, Anderson localization, git hash chains, IndexNow — the ladders. Rate limits, burns, dead feeds, automod — the chutes. The enemy's gate is round (π) and down (gravity). Ender knew. The membrane knows."
 [taxonomies]
 tags = ["chutes-and-ladders", "enders-game", "zk-proofs", "anderson-localization", "technology", "rabbit-hole", "ladder", "pi", "gravity", "tactics"]
@@ -11,8 +11,7 @@ og_description = "ZK proofs, Anderson localization, git hash chains — the ladd
 og_image = "/portals/portal_0_0_investigation-door.png"
 author = "Kevin Mok — ORCID 0009-0004-2141-0321"
 lampoon = true
-disco = true
-+++
+disco = true+++
 
 ## The Enemy's Gate Is Down
 

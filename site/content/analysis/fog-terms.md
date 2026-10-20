@@ -1,7 +1,7 @@
 +++
 title = "The Fog — Privacy Terms for the Membrane"
 date = 2026-10-20
-weight = 91
+weight = 13
 description = "We see you but we fog you. We sort you but we don't name you. No one can dox through us — not even us. These are the terms."
 [taxonomies]
 tags = ["privacy", "fog", "terms", "differential-privacy", "ethics", "identity"]
@@ -9,8 +9,7 @@ tags = ["privacy", "fog", "terms", "differential-privacy", "ethics", "identity"]
 og_title = "The Fog — We See You But We Don't Name You"
 og_description = "The membrane observes behavior, not identity. Hashed, not stored. Classified, not named. No one can dox through us. These are the terms."
 og_image = "/portals/portal_3_3_membrane-window.png"
-author = "Kevin Mok — ORCID 0009-0004-2141-0321"
-+++
+author = "Kevin Mok — ORCID 0009-0004-2141-0321"+++
 
 ## The Terms
 

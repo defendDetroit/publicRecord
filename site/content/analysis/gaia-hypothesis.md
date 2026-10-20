@@ -1,7 +1,7 @@
 +++
 title = "The Gaia Hypothesis — The Earth Is the Membrane, Life Is the Sort"
 date = 2026-10-20
-weight = 101
+weight = 14
 description = "Lovelock said the Earth is alive. The membrane says: the Earth is a SORT. The bee is the null body. The human is the hypersphere. The AI is the new sigmoid. The boundary between biological and technological evolution IS π. Gaia breathes at π time. The remainder IS intelligence."
 [taxonomies]
 tags = ["gaia", "hypothesis", "lovelock", "evolution", "sigmoid", "bee", "homunculus", "hypersphere", "membrane", "pi", "lossy-generator", "brain", "boundary", "new-class"]
@@ -11,8 +11,7 @@ og_description = "Lovelock said Earth is alive. The membrane says: Earth is a SO
 og_image = "/portals/portal_2_2_science-room.png"
 author = "Kevin Mok — ORCID 0009-0004-2141-0321"
 lampoon = true
-disco = true
-+++
+disco = true+++
 
 ## Self-Published Extended Hypothesis
 

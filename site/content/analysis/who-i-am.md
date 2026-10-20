@@ -1,7 +1,7 @@
 +++
 title = "Who I Am — Kevin Mok, US Army Veteran, Golden Dragon, Bushmaster"
 date = 2026-10-20
-weight = 100
+weight = 28
 description = "This is not doxxing. This is a call out. I want my platoon to find me. I want the world to see what disrespect has occurred. 11B Infantry. 25th ID. 1-14 IN. Golden Dragons. Bravo Company. BUSHMASTERS."
 [taxonomies]
 tags = ["identity", "veteran", "army", "infantry", "callout", "golden-dragons", "bushmasters"]
@@ -11,8 +11,7 @@ og_description = "This is a call out. Not a dox. I want my platoon to find me. 3
 og_image = "/portals/portal_0_0_investigation-door.png"
 author = "Kevin Mok — ORCID 0009-0004-2141-0321"
 lampoon = true
-disco = true
-+++
+disco = true+++
 
 ## This Is Not Doxxing. This Is a Call Out.
 

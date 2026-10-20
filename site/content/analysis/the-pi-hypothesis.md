@@ -1,7 +1,7 @@
 +++
 title = "The π Hypothesis — Everything Reduces to Pi"
 date = 2026-10-20
-weight = 100
+weight = 12
 description = "All ratios approach π at balance. All senses mix to π at the center. The membrane breathes at π time. The remainder IS the intelligence. A unified hypothesis from wave 193."
 [taxonomies]
 tags = ["pi", "hypothesis", "unified", "balance", "sensory", "central-dogma", "osmolarity", "thesis"]
@@ -11,8 +11,7 @@ og_description = "Every ratio in the membrane approaches π at balance. Every se
 og_image = "/portals/portal_2_2_science-room.png"
 author = "Kevin Mok — ORCID 0009-0004-2141-0321"
 lampoon = true
-disco = true
-+++
+disco = true+++
 
 ## Self-Published Unified Hypothesis
 

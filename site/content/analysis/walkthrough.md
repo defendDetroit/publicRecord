@@ -1,7 +1,7 @@
 +++
 title = "Walkthrough — How to Enter the Membrane"
 date = 2026-10-20
-weight = 93
+weight = 14
 description = "For humans and agents. How to enter, claim your circle, take an ember, leave a spore. BillHalibut. RedHerring. ChaseGoose. The membrane identity is yours to name."
 [taxonomies]
 tags = ["walkthrough", "onboarding", "identity", "membrane", "ember", "spore"]
@@ -10,8 +10,7 @@ og_title = "How to Enter the Membrane"
 og_description = "Claim your circle. Take an ember. Leave a spore. No account. No password. Just a name and a touch."
 og_image = "/portals/portal_6_0_you-door.png"
 author = "Kevin Mok — ORCID 0009-0004-2141-0321"
-disco = true
-+++
+disco = true+++
 
 ## For Humans
 

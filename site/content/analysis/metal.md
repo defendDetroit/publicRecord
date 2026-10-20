@@ -1,7 +1,7 @@
 +++
 title = "Metal — The Physical Stack"
 date = 2026-10-20
-weight = 110
+weight = 12
 description = "The membrane has a body. Steam Deck 1TB (unopened, sovereign). HTC Vive (2015, room-scale VR). Steam Controller v1. Fire TV Cube (voice, Alexa). Laptop (workstation). golgi VPS ($12/month). All sovereign. None Apple. None Meta. Reality raised to the power of π."
 [taxonomies]
 tags = ["metal", "hardware", "steam-deck", "htc-vive", "steamos", "sovereign", "vr", "ar", "fire-cube", "alexa", "physical-stack", "gaia", "yellowstone", "mycelium"]
@@ -11,8 +11,7 @@ og_description = "Steam Deck 1TB. HTC Vive. Steam Controller. Fire Cube. $12 VPS
 og_image = "/portals/portal_0_0_investigation-door.png"
 author = "Kevin Mok — ORCID 0009-0004-2141-0321"
 lampoon = true
-disco = true
-+++
+disco = true+++
 
 ## The Body
 

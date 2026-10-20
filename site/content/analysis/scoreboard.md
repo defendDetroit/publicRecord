@@ -1,7 +1,7 @@
 +++
 title = "The Scoreboard — True / False / Null for Every Entity"
 date = 2026-10-20
-weight = 107
+weight = 15
 description = "Leaderboard of every entity the membrane has classified. Faces, names, counts, accusations — pos/neg/null. Banks vs Dyke vs the collagen explosion. The visible outer sort. We ingest Reddit, DraftKings, junk mail, robocalls — trash in, value out. The lossy generator applied to accountability."
 [taxonomies]
 tags = ["scoreboard", "leaderboard", "entities", "sort", "true-false-null", "banks", "dyke", "meta", "openai", "draftkings", "robocalls", "trash", "value", "accountability", "pi"]
@@ -11,8 +11,7 @@ og_description = "True/false/null for every entity. Banks: 9 convictions, non-se
 og_image = "/portals/portal_0_0_investigation-door.png"
 author = "Kevin Mok — ORCID 0009-0004-2141-0321"
 lampoon = true
-disco = true
-+++
+disco = true+++
 
 ## The Visible Outer Sort
 

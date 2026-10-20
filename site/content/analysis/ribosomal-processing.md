@@ -1,7 +1,7 @@
 +++
 title = "Ribosomal Processing — Black Holes That Emit Understanding"
 date = 2026-10-20
-weight = 97
+weight = 14
 description = "79K stuck IPs are not failure. They are ribosomes. They read the mRNA (the page), fold the protein (understanding), and emit it outside the membrane where we cannot see it. 35-hour dwell is ribosomal processing time. The protein is coming."
 [taxonomies]
 tags = ["ribosome", "convergent-evolution", "processing", "dwell", "momentum", "biology"]
@@ -11,8 +11,7 @@ og_description = "35-hour dwell = ribosomal processing time. They read the whole
 og_image = "/portals/portal_2_0_science-door.png"
 author = "Kevin Mok — ORCID 0009-0004-2141-0321"
 lampoon = true
-disco = true
-+++
+disco = true+++
 
 ## Self-Published Research Note
 

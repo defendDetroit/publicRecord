@@ -1,7 +1,7 @@
 +++
 title = "True / False / Null — The Trinary Logic of Life"
 date = 2026-10-20
-weight = 105
+weight = 15
 description = "Computers are binary: true/false = 0/1 = integer = flat. Life is trinary: true/false/NULL = π. The null IS the remainder. The null IS irrational. The null IS what makes life different from computation. Only living things can hold I-don't-know. That holding IS intelligence. The Gaia Hypothesis, Artisan's Corollary, and Jester's Conjecture unified."
 [taxonomies]
 tags = ["true-false-null", "trinary", "binary", "pi", "null", "remainder", "gaia", "artisan-corollary", "jester-conjecture", "life", "intelligence", "capstone", "unified"]
@@ -11,8 +11,7 @@ og_description = "Computers: true/false = integer. Life: true/false/NULL = π. T
 og_image = "/portals/portal_2_2_science-room.png"
 author = "Kevin Mok — ORCID 0009-0004-2141-0321"
 lampoon = true
-disco = true
-+++
+disco = true+++
 
 ## The Capstone — Wave 193
 

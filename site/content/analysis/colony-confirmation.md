@@ -1,7 +1,7 @@
 +++
 title = "Colony Confirmation — 16 Arms, One Machine, 2.29M Requests"
 date = 2026-10-20
-weight = 98
+weight = 11
 description = "5/5 colony checks confirmed. 16 entities classified as individual commensals are one coordinated harvester campaign. Same start minute, same path, uniform curiosity, uniform attention. The sort was blind. The backscatter sees."
 [taxonomies]
 tags = ["colony", "backscatter", "opsonize", "falsification", "anderson", "coordinated"]
@@ -11,8 +11,7 @@ og_description = "The sort said commensal. The evidence says colony. 5/5 checks 
 og_image = "/portals/portal_3_0_membrane-door.png"
 author = "Kevin Mok — ORCID 0009-0004-2141-0321"
 lampoon = true
-disco = true
-+++
+disco = true+++
 
 ## Self-Published Research Note
 

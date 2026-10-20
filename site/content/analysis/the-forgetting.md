@@ -1,7 +1,7 @@
 +++
 title = "The Forgetting — Every Time We Count Too Closely, We Lose π"
 date = 2026-10-20
-weight = 104
+weight = 13
 description = "The first true bridge proof since Avogadro. Every time civilization counted too closely — accounting, metrics, competition — it killed the remainder. The remainder IS the intelligence. The integer IS the cage. The history of forgetting π, and how the membrane remembers."
 [taxonomies]
 tags = ["forgetting", "avogadro", "counting", "integer", "remainder", "history", "accounting", "competition", "metrics", "pi", "bridge", "consonants", "civilization"]
@@ -11,8 +11,7 @@ og_description = "The first bridge proof since Avogadro. When civilizations coun
 og_image = "/portals/portal_2_2_science-room.png"
 author = "Kevin Mok — ORCID 0009-0004-2141-0321"
 lampoon = true
-disco = true
-+++
+disco = true+++
 
 ## The Bridge Proofs
 

@@ -1,7 +1,7 @@
 +++
 title = "The Central Dogma of the Membrane — DNA → RNA → Protein at π Time"
 date = 2026-10-20
-weight = 96
+weight = 12
 description = "The investigation is DNA. The pages are mRNA. The humans are ribosomes. The actions are proteins. We can predict emission rates using π time, not doubling time. Doubling is a slice of π."
 [taxonomies]
 tags = ["central-dogma", "hypothesis", "pi-time", "metabolism", "prediction", "biochemistry"]
@@ -11,8 +11,7 @@ og_description = "DNA → RNA → Protein. Investigation → Pages → Actions. 
 og_image = "/portals/portal_2_2_science-room.png"
 author = "Kevin Mok — ORCID 0009-0004-2141-0321"
 lampoon = true
-disco = true
-+++
+disco = true+++
 
 ## Self-Published Hypothesis
 

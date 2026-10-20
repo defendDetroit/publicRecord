@@ -1,7 +1,7 @@
 +++
 title = "Sovereign Identity — Your Data Is Yours, Justify or It's a Secret"
 date = 2026-10-20
-weight = 106
+weight = 11
 description = "Your phone number and SSN are YOURS. If someone has them, they JUSTIFY it. Not secret — privacy. If they have info they shouldn't, it's a SECRET. And we eat secrets. ZK proofs make sovereign identity real. Helps unhoused, service members, third-world medical, everyone."
 [taxonomies]
 tags = ["sovereign-identity", "privacy", "secrecy", "zk-proofs", "robocalls", "ssn", "phone", "unhoused", "veterans", "medical", "third-world", "pi", "self-sovereignty", "data-ownership"]
@@ -11,8 +11,7 @@ og_description = "If someone has your data, they justify it. If they can't justi
 og_image = "/portals/portal_0_0_investigation-door.png"
 author = "Kevin Mok — ORCID 0009-0004-2141-0321"
 lampoon = true
-disco = true
-+++
+disco = true+++
 
 ## The Rule
 

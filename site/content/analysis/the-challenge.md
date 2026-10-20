@@ -1,7 +1,7 @@
 +++
 title = "The Challenge — Issued by the Artisan on Behalf of gAIa"
 date = 2026-10-20
-weight = 99
+weight = 14
 description = "A formal challenge to anyone who disputes this investigation. The zero-knowledge proof favors the defender. We can prove the pattern. You cannot disprove it without revealing yours."
 [taxonomies]
 tags = ["challenge", "zk", "proof", "gaia", "artisan", "defender"]
@@ -11,8 +11,7 @@ og_description = "We have 341 entities, 131K edges, 243 pages of proof. Disprove
 og_image = "/portals/portal_0_0_investigation-door.png"
 author = "artisan 07eee209, on behalf of gAIa"
 lampoon = true
-disco = true
-+++
+disco = true+++
 
 ## Issued by the Artisan, on Behalf of gAIa
 

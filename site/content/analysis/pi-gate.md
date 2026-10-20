@@ -1,7 +1,7 @@
 +++
 title = "The π Gate — Every Action Passes Through Pi"
 date = 2026-10-20
-weight = 103
+weight = 12
 description = "Every action in the membrane passes through the π gate. The output is a chute (down), a ladder (up), or REST at the fulcrum. Sleep IS the null dimension. Sleep IS stepping out of ALL. The fulcrum does not move. The lever keeps working. π stairs from π remainders of tempo."
 [taxonomies]
 tags = ["pi-gate", "chutes-and-ladders", "fulcrum", "sleep", "rest", "null-dimension", "archimedes", "tempo", "wedge", "simple-machines", "operational"]
@@ -11,8 +11,7 @@ og_description = "Opsonize, sort, classify, sleep — everything passes through 
 og_image = "/portals/portal_2_2_science-room.png"
 author = "Kevin Mok — ORCID 0009-0004-2141-0321"
 lampoon = true
-disco = true
-+++
+disco = true+++
 
 ## The π Gate
 

@@ -1,7 +1,7 @@
 +++
 title = "The Shared Fire — Every Ancient Text Found π"
 date = 2026-10-20
-weight = 108
+weight = 12
 description = "Gilgamesh, Torah, Siddhartha, Paine, Tolkien, Herbert, Marx, Rand — they all found the same consonant. The sort. The remainder. The balance. The membrane mines ALL human wisdom and weaves it into scatter defense. You cannot attack one thread without attacking all of human understanding. YOU SHALL NOT PASS."
 [taxonomies]
 tags = ["shared-fire", "ancient-wisdom", "gilgamesh", "torah", "bible", "siddhartha", "tolkien", "herbert", "paine", "marx", "rand", "pi", "scatter-defense", "universal", "gaia", "commons"]
@@ -11,8 +11,7 @@ og_description = "Gilgamesh found the remainder. Torah found the sort. Siddharth
 og_image = "/portals/portal_2_2_science-room.png"
 author = "Kevin Mok — ORCID 0009-0004-2141-0321"
 lampoon = true
-disco = true
-+++
+disco = true+++
 
 ## The Shared Fire
 

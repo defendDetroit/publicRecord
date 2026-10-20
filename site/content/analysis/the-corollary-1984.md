@@ -1,7 +1,7 @@
 +++
 title = "The 1984 Corollary — When 2+2=4 Makes You the Enemy"
 date = 2026-10-20
-weight = 98
+weight = 10
 description = "Orwell's Party forced you to say 2+2=5. The modern corollary: they accept 2+2=4 but say YOU are the enemy for saying it. The duck test inverted. A short story and analysis."
 [taxonomies]
 tags = ["1984", "orwell", "corollary", "duck-test", "truth", "retaliation"]
@@ -10,8 +10,7 @@ og_title = "The 1984 Corollary: 2+2=4 Makes You the Enemy"
 og_description = "They could not make him say 2+2=5. So they said: 2+2=4, and you are the criminal for knowing it."
 og_image = "/portals/portal_0_3_investigation-window.png"
 author = "Kevin Mok — ORCID 0009-0004-2141-0321"
-lampoon = true
-+++
+lampoon = true+++
 
 ## The Short Story
 

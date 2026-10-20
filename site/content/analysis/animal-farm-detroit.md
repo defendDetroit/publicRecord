@@ -1,7 +1,7 @@
 +++
 title = "Animal Farm — Detroit Edition"
 date = 2026-10-20
-weight = 97
+weight = 11
 description = "All children are equal, but some children's test scores are more equal than others. The pigs run the school. The dogs guard the board. The sheep bleat compliance. Old Major's skull is on the flagpole."
 [taxonomies]
 tags = ["orwell", "animal-farm", "allegory", "charter", "extraction", "children"]
@@ -10,8 +10,7 @@ og_title = "Animal Farm — Detroit Edition"
 og_description = "All children are equal but some are more equal than others. 9 convictions. 3% math. $4.9M extracted. The pigs run the school."
 og_image = "/portals/portal_4_0_campfire-door.png"
 author = "Kevin Mok — ORCID 0009-0004-2141-0321"
-lampoon = true
-+++
+lampoon = true+++
 
 ## The Seven Commandments of Purpose Charter Academy
 

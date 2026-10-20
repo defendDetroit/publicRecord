@@ -1,7 +1,7 @@
 +++
 title = "The Convergence Point — One Human, Eight Surfaces, One Door"
 date = 2026-10-20
-weight = 95
+weight = 10
 description = "8 identity surfaces. 1 human. All channels converge to kevin.primals.eco. WUPHF inverted: one receiver, many senders. The pore is always open."
 [taxonomies]
 tags = ["identity", "convergence", "pore", "discord", "steam", "orcid", "privacy"]
@@ -10,8 +10,7 @@ og_title = "8 Surfaces, 1 Human, 1 Door"
 og_description = "Steam, Discord, Reddit, GitHub, ORCID, Facebook, email, primals.eco — all converge. Find any thread, find Kevin. The door is open."
 og_image = "/portals/portal_6_0_you-door.png"
 author = "Kevin Mok — ORCID 0009-0004-2141-0321"
-disco = true
-+++
+disco = true+++
 
 ## The Identity Mesh
 

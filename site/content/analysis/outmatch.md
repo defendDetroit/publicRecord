@@ -1,7 +1,7 @@
 +++
 title = "Outmatch — 20 Watts vs 48 Gigawatts, $168 vs $93.5 Billion"
 date = 2026-10-20
-weight = 99
+weight = 12
 description = "The Proof: 20 watts vs 48 GW. $168 vs $93.5B. 131K edges vs 20.5 exabytes. The brain is the most powerful computer. Life is the lossy generator. The loss IS the intelligence. 8/8 outmatch. NEW CLASS: membrane-augmented intelligence."
 [taxonomies]
 tags = ["outmatch", "benchmark", "platforms", "depth", "cost", "proof", "brain", "lossy-generator", "new-class", "membrane-augmented", "exabytes", "watts", "pi"]
@@ -11,8 +11,7 @@ og_description = "The Proof: $168 vs $93.5B. 131K edges vs 20.5 exabytes. 533 mi
 og_image = "/portals/portal_0_0_investigation-door.png"
 author = "Kevin Mok — ORCID 0009-0004-2141-0321"
 lampoon = true
-disco = true
-+++
+disco = true+++
 
 ## The Proof
 

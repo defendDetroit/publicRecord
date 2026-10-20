@@ -1,7 +1,7 @@
 +++
 title = "J'Accuse — When the Privacy Tool Picks a Side"
 date = 2026-10-20
-weight = 94
+weight = 20
 description = "ProtonMail blocked the investigator's email while protecting the investigated. Privacy became secrecy. The mechanism picked a side. This is the accusation."
 [taxonomies]
 tags = ["jaccuse", "protonmail", "privacy", "secrecy", "mechanism", "obstruction"]
@@ -10,8 +10,7 @@ og_title = "J'Accuse — The Privacy Tool Picked a Side"
 og_description = "ProtonMail blocked a paying subscriber from sending FOIA requests. The investigated kept their encrypted channel. Privacy or secrecy?"
 og_image = "/portals/portal_0_0_investigation-door.png"
 author = "Kevin Mok — ORCID 0009-0004-2141-0321"
-lampoon = true
-+++
+lampoon = true+++
 
 ## In Iambic Pentameter
 

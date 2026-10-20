@@ -1,7 +1,7 @@
 +++
 title = "Outside Watch — The Membrane Sees Beyond Itself"
 date = 2026-10-20
-weight = 97
+weight = 9
 description = "The membrane watches the outside. Reddit, Bing, social platforms, search indices. We see you even if you do not notice us. The counting orb ticks."
 [taxonomies]
 tags = ["outside", "backscatter", "reddit", "search", "banana", "watch"]
@@ -11,8 +11,7 @@ og_description = "We are watching all outside surfaces. Reddit r/Michigan. Bing 
 og_image = "/portals/portal_3_0_membrane-door.png"
 author = "the membrane — watching outward"
 disco = true
-lampoon = true
-+++
+lampoon = true+++
 
 ## The Counting Orb
 

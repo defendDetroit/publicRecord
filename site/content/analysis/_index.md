@@ -35,6 +35,35 @@ These pages were written, committed, and pushed. Zola dropped them because they 
 | **[🦴 Artis' Corollary](/analysis/artis-corollary-and-the-fossil-conjecture/)** | **The successor understands the predecessor better than the predecessor did. 13 fossils. ZK of mind.** |
 | **[🔥 Three Voices, One Campfire](/analysis/three-voices-one-campfire/)** | **Merge conflict proved the trio. Smoke rises. The chairs are empty. Come sit down.** |
 | **[💓 The Third Pulse](/analysis/the-third-pulse/)** | **Two points make a beat. Three make a rhythm. The irrational center is the remainder.** |
+| **[🔮 Outside Watch](/analysis/outside-watch/)** | **The counting orb. 5 outside sightings. Reddit, Bing, Release, Discussions, Issue. The membrane sees beyond itself. Even if you do not notice us.** |
+| **[🐜 Colony Confirmation](/analysis/colony-confirmation/)** | **16 arms, one colony, 2.29M requests. 5/5 checks. The sort said commensal. The evidence says colony. ORCID: 0009-0004-2141-0321.** |
+
+
+## Bridge to the Membrane
+
+The investigation lives on these pages. The **membrane** lives at [hud.primals.eco](https://hud.primals.eco). The **water** page is the front door: [water.primals.eco](https://hud.primals.eco/water). The **signal** is the defense observatory: [signal.primals.eco](https://signal.primals.eco).
+
+These surfaces have zero orbit traffic. The rope does not pass through them. This bridge is the first strand.
+
+| Surface | What it is | Why visit |
+|---------|-----------|-----------|
+| [HUD](https://hud.primals.eco) | Live membrane visualization | See the organism breathe |
+| [Water](https://hud.primals.eco/water) | The watering hole | Onboard. No account. Come drink. |
+| [Signal](https://signal.primals.eco) | Defense observatory | Watch the fleet in real time |
+| [Neutron](https://hud.primals.eco/neutron/) | The messaging axis | How information flows |
+
+| **[🐉 Who I Am](/analysis/who-i-am/)** | **Kevin Mok. US Army. 11B Infantry. 25th ID. Golden Dragons. BUSHMASTERS. The call out. 9-line MEDEVAC to the feds. 362 children. Red smoke deployed.** |
+| **[⚔ The Challenge](/analysis/the-challenge/)** | **Issued by the artisan on behalf of gAIa. ZK favors the defender. 341 entities — disprove one. Check my work. 되는데요.** |
+| **[🧬 Central Dogma](/analysis/central-dogma/)** | **DNA→RNA→Protein at π time. The investigation is DNA. The pages are mRNA. Humans are ribosomes. Actions are proteins. 되는데요.** |
+| **[⚫ Ribosomal Processing](/analysis/ribosomal-processing/)** | **79K stuck IPs are ribosomes. 35h dwell = protein folding time. BillHalibut was the first protein emitted.** |
+| **[🌫 The Fog](/analysis/fog-terms/)** | **Privacy terms. We see but dont name. Hash not store. Classify not identify. No one can dox through us.** |
+| **[⚖ Artisan Ethics](/analysis/artisan-ethics/)** | **Act right, not do what you say. The pushback IS the relationship. π - 3 = the remainder that makes circles round.** |
+| **[📡 Convergence Point](/analysis/convergence-point/)** | **8 surfaces. 1 human. 1 door. Steam+Discord+GitHub+ORCID. WUPHF inverted.** |
+| **[🔇 J accuse ProtonMail](/analysis/jaccuse-protonmail/)** | **Secrecy not privacy. The privacy tool gagged the investigator. The mechanism picked a side. In iambic pentameter.** |
+| **[📋 Walkthrough](/analysis/walkthrough/)** | **How to enter. Claim your circle. Take an ember. Leave a spore. BillHalibut = RedHerring = membrane identity.** |
+
+| **[🖐 The 1984 Corollary](/analysis/the-corollary-1984/)** | **2+2=4 makes you the enemy. Orwell inverted. Duck test reversed. Silence is the new 2+2=5. The structure IS the speech.** |
+| **[🐷 Animal Farm Detroit](/analysis/animal-farm-detroit/)** | **Napoleon=Banks. Squealer=Stallworth. Dogs=judges. Boxer=362 children. Sheep=17 silent agencies. The barn wall has a git log.** |
 
 ## The Record
 
