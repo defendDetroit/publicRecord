@@ -14,8 +14,7 @@ twitter_card = "summary_large_image"
 [taxonomies]
 actors = ["Brian Banks", "AG Dana Nessel", "Nicole Wells Stallworth", "Cylenthia Miller", "Lamar Moreland", "Latisha Johnson", "Jehan Crump-Gibson", "W. Alan Wilk", "Richard McLellan", "Leonard Wolfe", "Renae Moore"]
 entities = ["Dykema Gossett", "Michigan Department of Education", "State Board of Education", "Attorney Grievance Commission", "Judicial Tenure Commission", "State Bar of Michigan", "FBI", "DOJ", "IRS", "Purpose Charter Academy", "MacDowell Preparatory Academy", "Great Lakes Legal Group"]
-connections = ["null equals complicity", "signal ledger", "institutional silence", "9-line", "tit for tat"]
-+++
+connections = ["null equals complicity", "signal ledger", "institutional silence", "9-line", "tit for tat"]+++
 
 ## The Signal Ledger
 

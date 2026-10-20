@@ -2,11 +2,10 @@
 title = "David T. Doyle"
 date = 2026-10-12
 description = "Chief Compliance Officer, Plante Moran Financial Advisors. 248-223-3611. dave.doyle@plantemoran.com (confirmed SEC Form ADV). Ethics code enforcement."
-weight = 3
+weight = 4
 
 [extra]
-keywords = "David T. Doyle, Plante Moran, Detroit charter school network, Ahmed Beasley"
-+++
+keywords = "David T. Doyle, Plante Moran, Detroit charter school network, Ahmed Beasley"+++
 
 ## David T. Doyle
 

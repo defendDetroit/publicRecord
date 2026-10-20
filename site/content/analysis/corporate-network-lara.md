@@ -11,8 +11,7 @@ keywords = "Brian Banks LARA entities, Purpose Charter Academy board, Save Detro
 [taxonomies]
 actors = ["Brian Banks", "Joseph Holland", "Carlton Ross", "Terrence Tarver", "Lamar Moreland", "Latisha Johnson", "Cylenthia Miller", "Devin Hutchings", "Major Clora", "Jason Gordon", "Larry Thomas Jr", "Carol Banks", "Kenneth Daniels", "W Spencer Leach", "Verkeydia Hall", "Gwendolyn Lewis", "Beverly Nakenge", "Brian Meiste"]
 entities = ["Purpose Charter Academy", "Purpose Group LLC", "Purpose Foundation", "Banks Strategy and Consultants", "Right Turn Project", "Save Detroit Jobs", "Detroit Leaders", "Impact Detroit", "Inner Link Graphics", "Custom Promotions", "Deen Legal Services", "Original Eastside Slate", "Anchor Rock Services", "Serenity Guardianship Services", "WhitlowBanks LLC", "Great Lakes Legal Group", "Crump Hall of Justice Law Firm", "Dykema Gossett"]
-connections = ["LARA entity", "registered agent", "corporate network", "self-dealing", "dissolve and reform", "dark money", "annual report violation"]
-+++
+connections = ["LARA entity", "registered agent", "corporate network", "self-dealing", "dissolve and reform", "dark money", "annual report violation"]+++
 
 ## How to Read This Page
 

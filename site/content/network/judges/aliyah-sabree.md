@@ -12,8 +12,7 @@ keywords = "Aliyah Sabree, Aliyah Sabree judge, Aliyah Sabree Wayne County 3rd C
 actors = ["Judge Aliyah Sabree", "Brian Banks", "Judge Adam Sabree", "Judge Cylenthia Miller", "Eric Sabree"]
 entities = ["Purpose Charter Academy", "MacDowell Preparatory Academy"]
 courts = ["Wayne County 3rd Circuit Court", "36th District Court", "Eastern District of Michigan"]
-connections = ["mentorship", "family", "credential fraud", "employment"]
-+++
+connections = ["mentorship", "family", "credential fraud", "employment"]+++
 
 ## Position
 

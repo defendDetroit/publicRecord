@@ -2,11 +2,10 @@
 title = "The Playground"
 date = 2026-10-12
 description = "The first physics lab. Gravity (slides), centripetal force (merry-go-round), friction (monkey bars), momentum (swings). Free. Public. The commons in its purest form. Every child deserves one that isn'"
-weight = 3
+weight = 4
 
 [extra]
-keywords = "The Playground, commons, public knowledge, public education"
-+++
+keywords = "The Playground, commons, public knowledge, public education"+++
 
 ## The Playground
 

@@ -4,10 +4,9 @@ date: 2026-10-12
 type: "actor"
 graph_id: "banks"
 role: "Enterprise leader"
-weight: 10
+weight: 7
 degree: 252
-tags: ["tier_1", "human", "banks_orbit"]
----
+tags: ["tier_1", "human", "banks_orbit"]---
 
 # Brian Roderick Banks
 

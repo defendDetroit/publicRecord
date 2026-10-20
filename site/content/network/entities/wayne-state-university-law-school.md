@@ -5,8 +5,7 @@ description = ""
 weight = 4
 
 [extra]
-keywords = "Wayne State University Law School, Detroit charter school network, Brian Banks network"
-+++
+keywords = "Wayne State University Law School, Detroit charter school network, Brian Banks network"+++
 
 ## Wayne State University Law School
 

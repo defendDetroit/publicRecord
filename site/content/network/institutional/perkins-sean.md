@@ -5,8 +5,7 @@ description = ""
 weight = 5
 
 [extra]
-keywords = "perkins sean, Detroit charter school network, Brian Banks network"
-+++
+keywords = "perkins sean, Detroit charter school network, Brian Banks network"+++
 
 ## perkins sean
 

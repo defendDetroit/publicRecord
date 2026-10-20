@@ -1,7 +1,7 @@
 +++
 title = "Alma Stallworth — Dynasty Matriarch"
 description = "Former Michigan State Rep Alma Stallworth (21 years). Founded the Black Caucus Foundation of Michigan. Mother of Keith Stallworth (federal money laundering) and Thomas Stallworth III (state rep). Grandmother of Misha Stallworth West (DPSCD Board)."
-weight = 7
+weight = 8
 date = 2026-09-27
 updated = 2026-09-27
 
@@ -11,8 +11,7 @@ keywords = "Alma Stallworth Michigan state representative, Alma Stallworth Black
 [taxonomies]
 actors = ["Alma Stallworth", "Keith Stallworth", "Thomas Stallworth III", "Nicole Wells-Stallworth", "Misha Stallworth West", "Brian Banks"]
 entities = ["Black Caucus Foundation of Michigan"]
-connections = ["family", "political dynasty", "nonprofit governance"]
-+++
+connections = ["family", "political dynasty", "nonprofit governance"]+++
 
 ## Position
 

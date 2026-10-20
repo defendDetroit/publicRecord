@@ -12,8 +12,7 @@ keywords = "Sun Community Development Corp, Sun Community Development Brian Bank
 actors = ["Brian Banks", "Joseph Holland", "Sherry Gay-Dagnogo"]
 entities = ["Sun Community Development Corp", "The Purpose Group LLC", "Purpose Foundation", "Banks Strategy LLC", "City Hill Church", "Anchor Rock Foundation", "Serenity Guardianship Services", "MacDowell Preparatory Academy", "Purpose Charter Academy"]
 courts = ["Wayne County 3rd Circuit Court"]
-connections = ["business entity", "charter authorization"]
-+++
+connections = ["business entity", "charter authorization"]+++
 
 ## Entity Overview
 

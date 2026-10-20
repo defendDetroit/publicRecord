@@ -4,10 +4,9 @@ date: 2026-10-12
 type: "actor"
 graph_id: "miller"
 role: "Judicial cover"
-weight: 14
+weight: 5
 degree: 87
-tags: ["human", "tier_2"]
----
+tags: ["human", "tier_2"]---
 
 # Judge Cylenthia Miller
 

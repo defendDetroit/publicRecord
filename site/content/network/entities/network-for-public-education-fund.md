@@ -5,8 +5,7 @@ description = ""
 weight = 7
 
 [extra]
-keywords = "Network for Public Education Fund, Detroit charter school network, Brian Banks network"
-+++
+keywords = "Network for Public Education Fund, Detroit charter school network, Brian Banks network"+++
 
 ## Network for Public Education Fund
 

@@ -5,8 +5,7 @@ description = "Born 1956, Moscow. Created Tetris in 1985 at the Soviet Academy o
 weight = 4
 
 [extra]
-keywords = "Alexey Pajitnov, commons, public knowledge, public education"
-+++
+keywords = "Alexey Pajitnov, commons, public knowledge, public education"+++
 
 ## Alexey Pajitnov
 

@@ -5,8 +5,7 @@ description = "4.54 billion years old. 8 billion people. One atmosphere. The onl
 weight = 6
 
 [extra]
-keywords = "Earth, Detroit charter school network, Brian Banks network"
-+++
+keywords = "Earth, Detroit charter school network, Brian Banks network"+++
 
 ## Earth
 

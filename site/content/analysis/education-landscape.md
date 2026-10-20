@@ -11,8 +11,7 @@ keywords = "Detroit charter schools, DPSCD, charter school authorizer, National 
 [taxonomies]
 actors = ["Brian Banks"]
 entities = ["Purpose Charter Academy", "MacDowell Preparatory Academy"]
-connections = ["charter authorization", "education landscape", "systemic analysis"]
-+++
+connections = ["charter authorization", "education landscape", "systemic analysis"]+++
 
 ## What This Page Is
 

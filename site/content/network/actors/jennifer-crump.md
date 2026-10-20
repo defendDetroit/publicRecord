@@ -5,8 +5,7 @@ description = "MacDowell board. DPSCD. Crump surname dynasty — Jehan, V. Hall,
 weight = 4
 
 [extra]
-keywords = "Jennifer Crump, Detroit charter school network, Brian Banks network"
-+++
+keywords = "Jennifer Crump, Detroit charter school network, Brian Banks network"+++
 
 ## Jennifer Crump
 

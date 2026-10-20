@@ -7,8 +7,7 @@ date = 2026-09-30
 [taxonomies]
 actors = ["Brian Banks", "Nicole Wells-Stallworth", "Gregory M. Meihn", "Nicolai Vitti", "Terrence Shulman", "Michele Leno"]
 entities = ["MacDowell Preparatory Academy", "Michigan Department of Education"]
-connections = ["TCR 22-12 testimony", "credential cover-up", "compliance failure"]
-+++
+connections = ["TCR 22-12 testimony", "credential cover-up", "compliance failure"]+++
 
 ## What Is TCR 22-12?
 

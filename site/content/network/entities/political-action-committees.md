@@ -1,7 +1,7 @@
 +++
 title = "PACs — Dark Money and Felon Treasurers"
 description = "Three political committees controlled by convicted felons. $14,500+ in campaign finance fines. Dark money mailers via OFA Michigan."
-weight = 6
+weight = 7
 date = 2026-09-20
 updated = 2026-09-25
 
@@ -12,8 +12,7 @@ keywords = "Brian Banks PAC, Bank on Banks PAC, Joseph Holland PAC treasurer, Mi
 actors = ["Brian Banks", "Joseph Holland", "Judge Tenisha Yancey", "Billy McKinney"]
 entities = ["Banks Strategy LLC", "Inner Link Graphics", "Purpose Charter Academy", "MacDowell Preparatory Academy"]
 courts = ["Wayne County 3rd Circuit Court", "36th District Court"]
-connections = ["campaign finance", "criminal record", "business entity"]
-+++
+connections = ["campaign finance", "criminal record", "business entity"]+++
 
 ## Overview
 

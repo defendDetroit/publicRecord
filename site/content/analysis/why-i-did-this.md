@@ -3,8 +3,7 @@ title = "Why I Did This"
 date = 2026-10-19
 weight = 16
 [taxonomies]
-tags = ["investigation"]
-+++
+tags = ["investigation"]+++
 
 ---
 title: "Why I Did This"

@@ -5,8 +5,7 @@ description = "CHAIRMAN OF THE BOARD, Barton Malow. FORMER MANAGING PARTNER of P
 weight = 4
 
 [extra]
-keywords = "Gordon Krater, Detroit charter school network, Brian Banks network"
-+++
+keywords = "Gordon Krater, Detroit charter school network, Brian Banks network"+++
 
 ## Gordon Krater
 

@@ -11,8 +11,7 @@ keywords = "Purpose Charter Academy building purchase, DPSCD charter school prop
 [taxonomies]
 actors = ["Brian Banks", "Judge Cylenthia Miller", "Sherry Gay-Dagnogo", "Nicole Wells-Stallworth"]
 entities = ["Purpose Charter Academy", "The Purpose Group LLC", "Michigan Department of Education"]
-connections = ["charter authorization", "business entity", "board membership"]
-+++
+connections = ["charter authorization", "business entity", "board membership"]+++
 
 The PCA charter contract with DPSCD includes a provision where Purpose Group LLC can purchase the school building at 10101 E. Canfield, Detroit. This provision is documented in the management agreement obtained via FOIA. This analysis examines the mechanism and its implications.
 

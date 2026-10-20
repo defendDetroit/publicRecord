@@ -5,8 +5,7 @@ description = "1920-1951. Her HeLa cells — taken without consent — became th
 weight = 5
 
 [extra]
-keywords = "Henrietta Lacks, Detroit charter school network, Brian Banks network"
-+++
+keywords = "Henrietta Lacks, Detroit charter school network, Brian Banks network"+++
 
 ## Henrietta Lacks
 

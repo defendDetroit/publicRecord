@@ -4,10 +4,9 @@ date: 2026-10-12
 type: "entity"
 graph_id: "dykema"
 role: "law firm (enabler)"
-weight: 15
+weight: 6
 degree: 104
-tags: ["tier_1", "legal", "enabler", "non_human"]
----
+tags: ["tier_1", "legal", "enabler", "non_human"]---
 
 # Dykema Gossett
 

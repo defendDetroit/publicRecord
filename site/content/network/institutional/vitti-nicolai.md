@@ -11,8 +11,7 @@ keywords = "Nikolai Vitti DPSCD superintendent, Vitti Purpose Charter Academy au
 [taxonomies]
 actors = ["Nikolai Vitti", "Brian Banks", "Misha Stallworth West"]
 entities = ["Detroit Public Schools Community District", "MacDowell Preparatory Academy", "Purpose Charter Academy"]
-connections = ["charter authorization", "mentorship", "TCR 22-12 testimony", "institutional oversight"]
-+++
+connections = ["charter authorization", "mentorship", "TCR 22-12 testimony", "institutional oversight"]+++
 
 ## Position
 

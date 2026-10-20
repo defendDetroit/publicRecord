@@ -2,11 +2,10 @@
 title = "Dennis Graham"
 date = 2026-10-12
 description = "Group Managing Partner, Plante Moran. Management consulting and international offices. PMR falls under consulting."
-weight = 3
+weight = 4
 
 [extra]
-keywords = "Dennis Graham, Plante Moran, Detroit charter school network, Ahmed Beasley"
-+++
+keywords = "Dennis Graham, Plante Moran, Detroit charter school network, Ahmed Beasley"+++
 
 ## Dennis Graham
 

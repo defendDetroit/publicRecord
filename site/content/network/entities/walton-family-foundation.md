@@ -5,8 +5,7 @@ description = "Walmart heirs' education philanthropy"
 weight = 8
 
 [extra]
-keywords = "Walton Family Foundation, Detroit charter school network, Brian Banks network"
-+++
+keywords = "Walton Family Foundation, Detroit charter school network, Brian Banks network"+++
 
 ## Walton Family Foundation
 

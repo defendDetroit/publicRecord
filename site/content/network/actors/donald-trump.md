@@ -2,11 +2,10 @@
 title = "Donald Trump"
 date = 2026-10-12
 description = "45th/47th President. Appointed DeVos as Education Secretary. Education policy: school choice, charter expansion. Detroit ties: hosted by Kwame, campaign events."
-weight = 5
+weight = 4
 
 [extra]
-keywords = "Donald Trump, Detroit charter school network, Brian Banks network"
-+++
+keywords = "Donald Trump, Detroit charter school network, Brian Banks network"+++
 
 ## Donald Trump
 

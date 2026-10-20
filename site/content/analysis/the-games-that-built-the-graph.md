@@ -1,10 +1,9 @@
 +++
 title = "The Games That Built The Graph"
 date = 2026-10-19
-weight = 11
+weight = 12
 [taxonomies]
-tags = ["investigation"]
-+++
+tags = ["investigation"]+++
 
 ---
 title: "The Games That Built the Graph"

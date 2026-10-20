@@ -13,8 +13,7 @@ keywords = "invitation, journal, private not secret, consent architecture, campf
 og_title = "The Invitation"
 og_description = "I could be playing Stalker 2 right now. But I'm here. If you're still reading, so are you. That means something."
 og_type = "article"
-twitter_card = "summary_large_image"
-+++
+twitter_card = "summary_large_image"+++
 
 # The Invitation
 

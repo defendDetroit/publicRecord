@@ -5,8 +5,7 @@ description = ""
 weight = 4
 
 [extra]
-keywords = "Michigan State University, Detroit charter school network, Brian Banks network"
-+++
+keywords = "Michigan State University, Detroit charter school network, Brian Banks network"+++
 
 ## Michigan State University
 

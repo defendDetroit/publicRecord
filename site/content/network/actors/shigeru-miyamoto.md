@@ -5,8 +5,7 @@ description = "Born 1952, Kyoto. Created Mario, Zelda, Donkey Kong, Star Fox, Pi
 weight = 5
 
 [extra]
-keywords = "Shigeru Miyamoto, commons, public knowledge, public education"
-+++
+keywords = "Shigeru Miyamoto, commons, public knowledge, public education"+++
 
 ## Shigeru Miyamoto
 

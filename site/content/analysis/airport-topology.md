@@ -11,8 +11,7 @@ og_description = "Humans fly great circles. Data takes secants. Fleet walks the 
 og_image = "/portals/portal_2_0_science-door.png"
 graph_nodes = 12700
 graph_edges = 113131
-author = "Kevin Mok + gAIa — the membrane is a sphere, the sites are airports, the math is trig"
-+++
+author = "Kevin Mok + gAIa — the membrane is a sphere, the sites are airports, the math is trig"+++
 
 ## Every Site Is an Airport
 

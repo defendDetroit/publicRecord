@@ -5,8 +5,7 @@ date = 2026-10-14
 weight = 12
 
 [extra]
-keywords = "mycorrhizal network, wood wide web, knowledge graph compression, delta encoding, adjacency list, membrane architecture, Suzanne Simard, Paul Stamets, Merlin Sheldrake, Anna Tsing, rhizome Deleuze, osmotic pressure, graph format evolution, compression as proof"
-+++
+keywords = "mycorrhizal network, wood wide web, knowledge graph compression, delta encoding, adjacency list, membrane architecture, Suzanne Simard, Paul Stamets, Merlin Sheldrake, Anna Tsing, rhizome Deleuze, osmotic pressure, graph format evolution, compression as proof"+++
 
 # The Mycelial Membrane
 

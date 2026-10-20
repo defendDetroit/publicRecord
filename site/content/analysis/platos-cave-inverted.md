@@ -1,10 +1,9 @@
 +++
 title = "Platos Cave Inverted"
 date = 2026-10-19
-weight = 9
+weight = 10
 [taxonomies]
-tags = ["investigation"]
-+++
+tags = ["investigation"]+++
 
 ---
 title: "Get Out of My Brown Eye and Look Up at the Sky"

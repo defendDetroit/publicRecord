@@ -5,8 +5,7 @@ description = ""
 weight = 5
 
 [extra]
-keywords = "Great Lakes Education Project (GLEP), Detroit charter school network, Brian Banks network"
-+++
+keywords = "Great Lakes Education Project (GLEP), Detroit charter school network, Brian Banks network"+++
 
 ## Great Lakes Education Project (GLEP)
 

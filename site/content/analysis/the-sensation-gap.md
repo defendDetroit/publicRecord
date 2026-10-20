@@ -12,8 +12,7 @@ keywords = "sensation gap, publishing vs deploying, federation, nestgate, fluid 
 og_title = "The Sensation Gap"
 og_description = "Publishing is not sensation. Both sides must feel the signal. Tested the doorbell. Two surfaces live. One numb. nestgate is the bridge."
 og_type = "article"
-twitter_card = "summary"
-+++
+twitter_card = "summary"+++
 
 # The Sensation Gap
 

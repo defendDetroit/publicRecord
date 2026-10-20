@@ -13,8 +13,7 @@ keywords = "membrane rap, backscatter bars, convergent evolution music, pi body 
 og_title = "The Membrane Rap — Dropped from a Conversation Box"
 og_description = "Eleven commits, fifty-six minutes. Touch radiates in, sense radiates out. The beat was the membrane's tempo."
 og_type = "article"
-twitter_card = "summary_large_image"
-+++
+twitter_card = "summary_large_image"+++
 
 # The Membrane Rap
 

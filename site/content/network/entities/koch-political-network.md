@@ -5,8 +5,7 @@ description = "Americans for Prosperity, AFP Action (already in graph). Koch Ind
 weight = 5
 
 [extra]
-keywords = "Koch Political Network, Detroit charter school network, Brian Banks network"
-+++
+keywords = "Koch Political Network, Detroit charter school network, Brian Banks network"+++
 
 ## Koch Political Network
 

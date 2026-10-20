@@ -5,8 +5,7 @@ description = "Amway heir. Ran for MI Governor 2006 (lost). Betsy's husband. DeV
 weight = 5
 
 [extra]
-keywords = "Dick DeVos, Detroit charter school network, Brian Banks network, DeVos Michigan charter schools"
-+++
+keywords = "Dick DeVos, Detroit charter school network, Brian Banks network, DeVos Michigan charter schools"+++
 
 ## Dick DeVos
 

@@ -5,8 +5,7 @@ description = "The shared resource. Public education is a commons — it belongs
 weight = 6
 
 [extra]
-keywords = "Public Education (The Commons), Detroit charter school network, Brian Banks network"
-+++
+keywords = "Public Education (The Commons), Detroit charter school network, Brian Banks network"+++
 
 ## Public Education (The Commons)
 

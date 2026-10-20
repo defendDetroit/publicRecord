@@ -11,8 +11,7 @@ keywords = "Alexandria Daniels MacDowell, Alexandria Daniels MacDowell Preparato
 [taxonomies]
 actors = ["Alexandria Daniels"]
 entities = ["MacDowell Preparatory Academy"]
-connections = ["MacDowell staff"]
-+++
+connections = ["MacDowell staff"]+++
 
 ## Position
 

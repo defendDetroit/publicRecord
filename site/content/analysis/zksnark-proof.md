@@ -14,8 +14,7 @@ keywords = "zk-SNARK institutional capture, zero-knowledge proof RICO, NP to O1 
 og_title = "zk-SNARK: The Structure IS the Proof"
 og_description = "Zero-knowledge. Succinct. Non-interactive. Argument of knowledge. One parent. Public records. The graph verifies itself. Clone. Verify. 362 children."
 og_type = "article"
-twitter_card = "summary_large_image"
-+++
+twitter_card = "summary_large_image"+++
 
 ## The Proof
 

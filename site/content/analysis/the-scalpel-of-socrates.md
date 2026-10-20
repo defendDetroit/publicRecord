@@ -9,8 +9,7 @@ tags = ["socrates", "verification", "myth", "question", "bounty"]
 og_title = "Unverified Things Everyone Knows"
 og_description = "The scalpel separates said from verified. Not a hammer. Just: have you checked?"
 og_image = "/portals/portal_5_5_tools-attic.png"
-author = "the campfire — quiet tonight"
-+++
+author = "the campfire — quiet tonight"+++
 
 ## A Quiet Note
 

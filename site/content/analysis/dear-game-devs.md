@@ -13,8 +13,7 @@ keywords = "game development, Todd Howard, Hello Games, No Man's Sky, Bethesda, 
 og_title = "Dear Game Devs — The Map Is Already Built"
 og_description = "12,046 nodes. 101,146 edges. Real-time entity classification. The game world is already running. Come play."
 og_type = "article"
-twitter_card = "summary_large_image"
-+++
+twitter_card = "summary_large_image"+++
 
 # Dear Game Devs
 

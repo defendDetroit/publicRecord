@@ -5,8 +5,7 @@ description = "Attorney representing Brian Banks (9 felony convictions) in custo
 weight = 6
 
 [extra]
-keywords = "Jehan Crump-Gibson, Detroit charter school network, Brian Banks network"
-+++
+keywords = "Jehan Crump-Gibson, Detroit charter school network, Brian Banks network"+++
 
 ## Jehan Crump-Gibson
 

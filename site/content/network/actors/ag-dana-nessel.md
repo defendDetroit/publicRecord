@@ -2,11 +2,10 @@
 title = "AG Dana Nessel"
 date = 2026-10-12
 description = "Michigan Attorney General. Democrat. AG office oversees Corporate Oversight Division (Fowler). AG office where Goetz (AGC) worked (Drug Interdiction Unit). AG office where Cameron (JTC Vice-Chair) man"
-weight = 6
+weight = 7
 
 [extra]
-keywords = "AG Dana Nessel, Detroit charter school network, Brian Banks network"
-+++
+keywords = "AG Dana Nessel, Detroit charter school network, Brian Banks network"+++
 
 ## AG Dana Nessel
 

@@ -11,8 +11,7 @@ keywords = "Leah Breen MDE, Leah Breen Michigan Department of Education, Leah Br
 [taxonomies]
 actors = ["Leah Breen", "Brian Banks"]
 entities = ["Michigan Department of Education"]
-connections = ["MDE investigation"]
-+++
+connections = ["MDE investigation"]+++
 
 ## Position
 

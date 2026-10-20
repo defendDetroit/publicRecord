@@ -5,8 +5,7 @@ description = "Former Managing Partner, Plante Moran (2017-2024). Drake's predec
 weight = 3
 
 [extra]
-keywords = "Jim Proppe, Plante Moran, Detroit charter school network, Ahmed Beasley"
-+++
+keywords = "Jim Proppe, Plante Moran, Detroit charter school network, Ahmed Beasley"+++
 
 ## Jim Proppe
 

@@ -5,8 +5,7 @@ description = "Born 1958. Astrophysicist. Hayden Planetarium. Bronx public schoo
 weight = 4
 
 [extra]
-keywords = "Neil deGrasse Tyson, commons, public knowledge, public education"
-+++
+keywords = "Neil deGrasse Tyson, commons, public knowledge, public education"+++
 
 ## Neil deGrasse Tyson
 

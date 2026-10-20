@@ -5,8 +5,7 @@ description = "Chief Legal and Risk Officer, Plante Moran. Southfield. MSU BA, W
 weight = 5
 
 [extra]
-keywords = "Chris Nelson, Plante Moran, Detroit charter school network, Ahmed Beasley"
-+++
+keywords = "Chris Nelson, Plante Moran, Detroit charter school network, Ahmed Beasley"+++
 
 ## Chris Nelson
 

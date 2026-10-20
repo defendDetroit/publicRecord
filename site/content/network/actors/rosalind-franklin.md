@@ -5,8 +5,7 @@ description = "1920-1958. X-ray crystallographer. Photo 51 proved DNA's double h
 weight = 4
 
 [extra]
-keywords = "Rosalind Franklin, commons, public knowledge, public education"
-+++
+keywords = "Rosalind Franklin, commons, public knowledge, public education"+++
 
 ## Rosalind Franklin
 

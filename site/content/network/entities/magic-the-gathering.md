@@ -5,8 +5,7 @@ description = "1993. Richard Garfield, mathematics PhD. The first trading card g
 weight = 4
 
 [extra]
-keywords = "Magic: The Gathering, commons, public knowledge, public education"
-+++
+keywords = "Magic: The Gathering, commons, public knowledge, public education"+++
 
 ## Magic: The Gathering
 

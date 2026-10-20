@@ -5,8 +5,7 @@ description = "Wayne County Prosecutor since 2004. Term through Jan 1, 2029. Cha
 weight = 6
 
 [extra]
-keywords = "Kym L. Worthy, Detroit charter school network, Brian Banks network"
-+++
+keywords = "Kym L. Worthy, Detroit charter school network, Brian Banks network"+++
 
 ## Kym L. Worthy
 

@@ -5,8 +5,7 @@ description = "DeVos-funded policy org. Pro-charter. School choice advocacy."
 weight = 4
 
 [extra]
-keywords = "Mackinac Center for Public Policy, Detroit charter school network, Brian Banks network"
-+++
+keywords = "Mackinac Center for Public Policy, Detroit charter school network, Brian Banks network"+++
 
 ## Mackinac Center for Public Policy
 

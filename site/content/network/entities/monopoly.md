@@ -5,8 +5,7 @@ description = "Original: 1903 by Elizabeth Magie as 'The Landlord's Game' — de
 weight = 4
 
 [extra]
-keywords = "Monopoly, commons, public knowledge, public education"
-+++
+keywords = "Monopoly, commons, public knowledge, public education"+++
 
 ## Monopoly
 

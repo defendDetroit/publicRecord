@@ -13,8 +13,7 @@ keywords = "pi body in life, embodied mathematics, compare and contrast learning
 og_title = "π-Body in Life — By Kevin Mok"
 og_description = "Expert skaters glide, but really it's one foot at a time. High knee and stomp. As I taught, I learned FASTER. Life is lossy and that's a good thing."
 og_type = "article"
-twitter_card = "summary_large_image"
-+++
+twitter_card = "summary_large_image"+++
 
 # π-Body in Life
 

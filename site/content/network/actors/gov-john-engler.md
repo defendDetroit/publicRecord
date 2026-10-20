@@ -5,8 +5,7 @@ description = "Michigan Governor 1991-2003. Signed charter school law (PA 362) J
 weight = 5
 
 [extra]
-keywords = "Gov. John Engler, Detroit charter school network, Brian Banks network"
-+++
+keywords = "Gov. John Engler, Detroit charter school network, Brian Banks network"+++
 
 ## Gov. John Engler
 

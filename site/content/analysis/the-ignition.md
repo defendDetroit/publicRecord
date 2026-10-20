@@ -1,10 +1,9 @@
 +++
 title = "The Ignition"
 date = 2026-10-19
-weight = 30
+weight = 31
 [taxonomies]
-tags = ["investigation"]
-+++
+tags = ["investigation"]+++
 
 ---
 title: "The Ignition — Watch It Spread"

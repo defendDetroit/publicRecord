@@ -5,8 +5,7 @@ description = "Deoxyribonucleic acid. The molecule of heredity. Discovered by Wa
 weight = 6
 
 [extra]
-keywords = "DNA, Detroit charter school network, Brian Banks network"
-+++
+keywords = "DNA, Detroit charter school network, Brian Banks network"+++
 
 ## DNA
 

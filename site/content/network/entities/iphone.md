@@ -2,11 +2,10 @@
 title = "iPhone"
 date = 2026-10-12
 description = "2007. Apple product. Built on: touchscreen tech from publicly funded university research, ARM chips designed in Cambridge UK, GPS from US military, internet from ARPANET (public $), lithium-ion batter"
-weight = 5
+weight = 6
 
 [extra]
-keywords = "iPhone, commons, public knowledge, public education"
-+++
+keywords = "iPhone, commons, public knowledge, public education"+++
 
 ## iPhone
 

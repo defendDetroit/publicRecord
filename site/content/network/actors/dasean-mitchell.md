@@ -5,8 +5,7 @@ description = "Student. Kevin Mok's son. Pro se in Wayne County 26-108221-DC (cu
 weight = 5
 
 [extra]
-keywords = "DaSean Mitchell, Detroit charter school network, Brian Banks network"
-+++
+keywords = "DaSean Mitchell, Detroit charter school network, Brian Banks network"+++
 
 ## DaSean Mitchell
 

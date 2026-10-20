@@ -5,8 +5,7 @@ description = "MI Superintendent of Public Instruction (Dec 2025). SBE Chair. Ph
 weight = 5
 
 [extra]
-keywords = "Dr. Glenn Maleyko, Detroit charter school network, Brian Banks network"
-+++
+keywords = "Dr. Glenn Maleyko, Detroit charter school network, Brian Banks network"+++
 
 ## Dr. Glenn Maleyko
 

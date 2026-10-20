@@ -5,8 +5,7 @@ description = "Every open seat in Michigan, ranked by impact. Exact steps to fil
 weight = 18
 
 [extra]
-keywords = "Michigan school board how to run, precinct delegate how to become, state board application, Detroit commission vacancy, DPSCD write-in, Muskegon Heights school board"
-+++
+keywords = "Michigan school board how to run, precinct delegate how to become, state board application, Detroit commission vacancy, DPSCD write-in, Muskegon Heights school board"+++
 
 ## Fill the Seats: How to Get In
 

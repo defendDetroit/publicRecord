@@ -12,8 +12,7 @@ keywords = "Kwame Kilpatrick Brian Banks connection, Carolyn Cheeks Kilpatrick C
 actors = ["Carolyn Cheeks Kilpatrick", "Kwame Kilpatrick", "Karen Dumas", "Kenneth Daniels", "Charles Pugh", "Brian Banks", "Sherry Gay-Dagnogo", "Latisha Johnson"]
 entities = ["Detroit Leaders", "Purpose Charter Academy", "MacDowell Preparatory Academy", "Images & Ideas Inc"]
 courts = ["Eastern District of Michigan"]
-connections = ["political dynasty", "federal conviction", "dark money", "CBC events", "campaign"]
-+++
+connections = ["political dynasty", "federal conviction", "dark money", "CBC events", "campaign"]+++
 
 ## The Connection
 

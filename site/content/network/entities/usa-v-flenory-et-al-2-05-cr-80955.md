@@ -5,8 +5,7 @@ description = "PACER: 2:05-cr-80955, Eastern District of Michigan. One of the la
 weight = 8
 
 [extra]
-keywords = "USA v. Flenory et al (2:05-cr-80955), Detroit charter school network, Brian Banks network"
-+++
+keywords = "USA v. Flenory et al (2:05-cr-80955), Detroit charter school network, Brian Banks network"+++
 
 ## USA v. Flenory et al (2:05-cr-80955)
 

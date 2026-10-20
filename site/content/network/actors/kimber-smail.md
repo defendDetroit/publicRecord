@@ -5,8 +5,7 @@ description = "Southfield Office Managing Partner, Plante Moran (July 2024-). Fo
 weight = 3
 
 [extra]
-keywords = "Kimber Smail, Plante Moran, Detroit charter school network, Ahmed Beasley"
-+++
+keywords = "Kimber Smail, Plante Moran, Detroit charter school network, Ahmed Beasley"+++
 
 ## Kimber Smail
 

@@ -3,8 +3,7 @@ title = "Membrane Eyes Needed"
 date = 2026-10-19
 weight = 8
 [taxonomies]
-tags = ["investigation"]
-+++
+tags = ["investigation"]+++
 
 ---
 title: "Membrane Eyes Needed — eastGate / sporeGate"

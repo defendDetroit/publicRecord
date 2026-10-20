@@ -11,8 +11,7 @@ keywords = "Thomas Stallworth III Michigan state representative, Tommy Stallwort
 [taxonomies]
 actors = ["Thomas Stallworth III", "Nicole Wells-Stallworth", "Keith Stallworth", "Alma Stallworth", "Misha Stallworth West", "Brian Banks"]
 entities = ["Black Caucus Foundation of Michigan", "MacDowell Preparatory Academy"]
-connections = ["family", "political dynasty", "board membership", "campaign finance"]
-+++
+connections = ["family", "political dynasty", "board membership", "campaign finance"]+++
 
 ## Position
 

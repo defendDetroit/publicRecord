@@ -5,8 +5,7 @@ description = "Ada MI (Grand Rapids). DeVos family company. Richard DeVos founde
 weight = 5
 
 [extra]
-keywords = "Amway / Alticor, Detroit charter school network, Brian Banks network"
-+++
+keywords = "Amway / Alticor, Detroit charter school network, Brian Banks network"+++
 
 ## Amway / Alticor
 

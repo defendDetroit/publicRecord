@@ -4,10 +4,9 @@ date: 2026-10-12
 type: "entity"
 graph_id: "bmf"
 role: "criminal enterprise (structural parallel)"
-weight: 12
+weight: 5
 degree: 94
-tags: ["criminal", "non_human", "tier_2"]
----
+tags: ["criminal", "non_human", "tier_2"]---
 
 # Black Mafia Family (BMF)
 

@@ -11,8 +11,7 @@ keywords = "Alan C. Young Associates auditor, MacDowell Preparatory Academy audi
 [taxonomies]
 actors = ["Alan C. Young"]
 entities = ["MacDowell Preparatory Academy", "Alan C. Young & Associates"]
-connections = ["financial audit", "institutional oversight"]
-+++
+connections = ["financial audit", "institutional oversight"]+++
 
 ## Position
 

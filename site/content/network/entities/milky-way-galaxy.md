@@ -2,11 +2,10 @@
 title = "Milky Way Galaxy"
 date = 2026-10-12
 description = "100-400 billion stars. 100,000 light-years across. Contains our solar system. The context for all human knowledge. Nobody can enclose a galaxy."
-weight = 4
+weight = 5
 
 [extra]
-keywords = "Milky Way Galaxy, Detroit charter school network, Brian Banks network"
-+++
+keywords = "Milky Way Galaxy, Detroit charter school network, Brian Banks network"+++
 
 ## Milky Way Galaxy
 

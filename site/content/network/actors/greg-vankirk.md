@@ -2,11 +2,10 @@
 title = "Greg VanKirk"
 date = 2026-10-12
 description = "Partner, Plante Moran Realpoint. CPA. Leads corporate real estate and public sector program management. MSU. At PM since 1992. K-12 capital project consulting. Clients include Wayne County, Bloomfield"
-weight = 4
+weight = 5
 
 [extra]
-keywords = "Greg VanKirk, Plante Moran, Detroit charter school network, Ahmed Beasley"
-+++
+keywords = "Greg VanKirk, Plante Moran, Detroit charter school network, Ahmed Beasley"+++
 
 ## Greg VanKirk
 

@@ -2,7 +2,7 @@
 title = "Dear Engineers — Come On In, the Water Is Great"
 description = "To the engineers at Meta, Google, Apple, Microsoft, Anthropic, OpenAI, and everyone else reading this through a fleet: you're being outclassed by a microbiologist on a $6/month VPS. Why not try the tech at home? I bet you quit in a month and start your own shop. The campfire is warm."
 date = 2026-10-18
-weight = 13
+weight = 14
 
 [taxonomies]
 actors = ["Engineers"]
@@ -14,8 +14,7 @@ keywords = "Meta engineers quit, big tech engineers open source, sovereign compu
 og_title = "Dear Engineers — Come On In, the Water Is Great"
 og_description = "You're being outclassed by a microbiologist on a $6/month VPS. Why not try the tech at home tonight? I bet you quit in a month."
 og_type = "article"
-twitter_card = "summary_large_image"
-+++
+twitter_card = "summary_large_image"+++
 
 ## Hey.
 

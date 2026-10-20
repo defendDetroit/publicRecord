@@ -4,10 +4,9 @@ date: 2026-10-12
 type: "entity"
 graph_id: "macdowell"
 role: "charter school (subject of investigation)"
-weight: 17
+weight: 6
 degree: 106
-tags: ["investigation_subject", "tier_1", "education", "charter_ecosystem", "non_human"]
----
+tags: ["investigation_subject", "tier_1", "education", "charter_ecosystem", "non_human"]---
 
 # MacDowell Preparatory Academy
 

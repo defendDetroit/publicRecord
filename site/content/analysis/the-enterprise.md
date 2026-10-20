@@ -14,8 +14,7 @@ keywords = "Brian Banks RICO analysis Detroit charter school, Banks Holland ente
 og_title = "The Enterprise: A Complete RICO Analysis — Every Name, Every Act, Every Shield"
 og_description = "10 predicate acts. 14+ years. $4.9M annual extraction. An AAG who prosecuted violent crime now governs the enterprise. A compliance officer named in a $1M money laundering complaint manages the political infrastructure. Every element of state and federal RICO is met. The full analysis."
 og_type = "article"
-twitter_card = "summary_large_image"
-+++
+twitter_card = "summary_large_image"+++
 
 ## RICO — The Legal Framework
 

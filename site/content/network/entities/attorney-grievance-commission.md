@@ -10,8 +10,7 @@ keywords = "Attorney Grievance Commission Michigan, AGC File 26-2141, AGC failur
 [taxonomies]
 actors = ["Cynthia C. Bullington", "Michael V. Goetz", "Kathleen Hickey"]
 entities = ["Attorney Grievance Commission", "Judicial Tenure Commission", "Michigan Supreme Court"]
-connections = ["referral loop", "circular shield", "institutional failure", "de-silo"]
-+++
+connections = ["referral loop", "circular shield", "institutional failure", "de-silo"]+++
 
 ## Attorney Grievance Commission
 

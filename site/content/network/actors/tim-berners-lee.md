@@ -5,8 +5,7 @@ description = "Born 1955. Invented the World Wide Web at CERN (1989). Gave it aw
 weight = 4
 
 [extra]
-keywords = "Tim Berners-Lee, commons, public knowledge, public education"
-+++
+keywords = "Tim Berners-Lee, commons, public knowledge, public education"+++
 
 ## Tim Berners-Lee
 

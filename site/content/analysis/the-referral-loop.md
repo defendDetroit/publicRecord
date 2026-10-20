@@ -14,8 +14,7 @@ keywords = "AGC File 26-2141, Attorney Grievance Commission Michigan, Cynthia C.
 og_title = "The Referral Loop: AGC Returns the Filing"
 og_description = "AGC File 26-2141. Bullington signed it. 44 years at AGC. Teaches Professional Responsibility. Returned the filing. Redirected to JTC. The loop is the system."
 og_type = "article"
-twitter_card = "summary_large_image"
-+++
+twitter_card = "summary_large_image"+++
 
 # The Referral Loop
 

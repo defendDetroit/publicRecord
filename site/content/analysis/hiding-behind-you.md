@@ -5,8 +5,7 @@ description = "A complete accounting of the money, where it went, what it was su
 weight = 22
 
 [extra]
-keywords = "Michigan charter school fraud, Purpose Charter Academy, Brian Banks convictions, charter school per pupil funding, sweeps contracts, Detroit education, PA 362, charter school oversight failure"
-+++
+keywords = "Michigan charter school fraud, Purpose Charter Academy, Brian Banks convictions, charter school per pupil funding, sweeps contracts, Detroit education, PA 362, charter school oversight failure"+++
 
 ## They Are Hiding Behind You and Eating Your Babies
 

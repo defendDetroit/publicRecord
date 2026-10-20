@@ -2,11 +2,10 @@
 title = "Gunpei Yokoi"
 date = 2026-10-12
 description = "1941-1997. Nintendo. Invented the D-pad, Game & Watch, Game Boy, Virtual Boy. 'Lateral thinking with withered technology.' Died in a roadside accident at age 56. The man who put gaming in every pocket"
-weight = 4
+weight = 5
 
 [extra]
-keywords = "Gunpei Yokoi, commons, public knowledge, public education"
-+++
+keywords = "Gunpei Yokoi, commons, public knowledge, public education"+++
 
 ## Gunpei Yokoi
 

@@ -5,8 +5,7 @@ description = "1887-1920. Self-taught mathematical genius from Madras. 3,900 res
 weight = 4
 
 [extra]
-keywords = "Srinivasa Ramanujan, Detroit charter school network, Brian Banks network"
-+++
+keywords = "Srinivasa Ramanujan, Detroit charter school network, Brian Banks network"+++
 
 ## Srinivasa Ramanujan
 

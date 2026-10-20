@@ -5,8 +5,7 @@ description = "1914-1995. Developed the polio vaccine. Refused to patent it. 'Co
 weight = 4
 
 [extra]
-keywords = "Jonas Salk, Detroit charter school network, Brian Banks network"
-+++
+keywords = "Jonas Salk, Detroit charter school network, Brian Banks network"+++
 
 ## Jonas Salk
 

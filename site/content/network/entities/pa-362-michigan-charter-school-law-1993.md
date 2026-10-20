@@ -5,8 +5,7 @@ description = ""
 weight = 6
 
 [extra]
-keywords = "PA 362 — Michigan Charter School Law (1993), Detroit charter school network, Brian Banks network"
-+++
+keywords = "PA 362 — Michigan Charter School Law (1993), Detroit charter school network, Brian Banks network"+++
 
 ## PA 362 — Michigan Charter School Law (1993)
 

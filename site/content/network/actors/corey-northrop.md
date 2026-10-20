@@ -5,8 +5,7 @@ description = "Executive Director, Governor John Engler Center for Charter Schoo
 weight = 5
 
 [extra]
-keywords = "Corey Northrop, Detroit charter school network, Brian Banks network"
-+++
+keywords = "Corey Northrop, Detroit charter school network, Brian Banks network"+++
 
 ## Corey Northrop
 

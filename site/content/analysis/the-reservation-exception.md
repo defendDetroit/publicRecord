@@ -14,8 +14,7 @@ keywords = "FanDuel Flutter Entertainment Dublin Ireland Michigan, tribal gaming
 og_title = "The Reservation Exception"
 og_description = "How tribal gaming sovereignty became a corporate license for Dublin to extract $755M from Michigan. And the tax goes to the fund that pays for Banks' schools."
 og_type = "article"
-twitter_card = "summary_large_image"
-+++
+twitter_card = "summary_large_image"+++
 
 # The Reservation Exception
 

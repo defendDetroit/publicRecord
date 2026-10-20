@@ -5,8 +5,7 @@ description = "Executive Director, Great Lakes Education Project (GLEP). DeVos's
 weight = 4
 
 [extra]
-keywords = "Gary Naeyaert, Plante Moran, Detroit charter school network, Ahmed Beasley"
-+++
+keywords = "Gary Naeyaert, Plante Moran, Detroit charter school network, Ahmed Beasley"+++
 
 ## Gary Naeyaert
 

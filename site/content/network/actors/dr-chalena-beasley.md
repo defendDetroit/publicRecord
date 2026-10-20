@@ -5,8 +5,7 @@ description = "PCA School Leader (principal). Ph.D. Educational Leadership, Wayn
 weight = 5
 
 [extra]
-keywords = "Dr. Chalena Beasley, Detroit charter school network, Brian Banks network"
-+++
+keywords = "Dr. Chalena Beasley, Detroit charter school network, Brian Banks network"+++
 
 ## Dr. Chalena Beasley
 

@@ -12,8 +12,7 @@ keywords = "Sherry Gay-Dagnogo Detroit Ombudsman, Gay-Dagnogo charter authorizat
 actors = ["Sherry Gay-Dagnogo", "Brian Banks", "Joseph Holland", "Kwame Kilpatrick", "Corletta Vaughn"]
 entities = ["Purpose Charter Academy", "MacDowell Preparatory Academy", "The Purpose Group LLC", "Strong Women Lead PAC", "Detroit Leaders"]
 courts = ["Wayne County 3rd Circuit Court"]
-connections = ["charter authorization", "campaign finance", "public defense", "institutional capture"]
-+++
+connections = ["charter authorization", "campaign finance", "public defense", "institutional capture"]+++
 
 ## Position
 

@@ -5,8 +5,7 @@ description = ""
 weight = 7
 
 [extra]
-keywords = "Michigan State Board of Education, Detroit charter school network, Brian Banks network"
-+++
+keywords = "Michigan State Board of Education, Detroit charter school network, Brian Banks network"+++
 
 ## Michigan State Board of Education
 

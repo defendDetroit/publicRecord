@@ -5,8 +5,7 @@ description = "MI Supreme Court Chief Justice (since 2019, CJ since Apr 2025). U
 weight = 5
 
 [extra]
-keywords = "Chief Justice Megan K. Cavanagh, Detroit charter school network, Brian Banks network"
-+++
+keywords = "Chief Justice Megan K. Cavanagh, Detroit charter school network, Brian Banks network"+++
 
 ## Chief Justice Megan K. Cavanagh
 

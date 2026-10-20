@@ -14,8 +14,7 @@ keywords = "Anderson localization cybersecurity, bingo cube nautilus shell, pi b
 og_title = "The Living Proof — Every System, Every Equation, Every Measurement"
 og_description = "The math runs live. Anderson localization traps fleets. The bingo cube evolves like a nautilus. π falls out when you start at zero. Here's every system, explained."
 og_type = "article"
-twitter_card = "summary_large_image"
-+++
+twitter_card = "summary_large_image"+++
 
 ## Why This Article Exists
 

@@ -5,8 +5,7 @@ description = "Wayne Regional Educational Service Agency. Technical assistance t
 weight = 4
 
 [extra]
-keywords = "Wayne RESA, Detroit charter school network, Brian Banks network"
-+++
+keywords = "Wayne RESA, Detroit charter school network, Brian Banks network"+++
 
 ## Wayne RESA
 

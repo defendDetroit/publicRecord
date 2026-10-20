@@ -11,8 +11,7 @@ connections = ["board-overlap", "campaign-finance", "dual-employment", "authoriz
 
 [extra]
 keywords = "Detroit charter school accountability, public official damages, judicial misconduct Michigan, 42 USC 1983, malfeasance in office MCL 750.505, DPSCD dual employment, charter school board conflict of interest, fiduciary breach public education, Detroit public corruption damages"
-epistemic_status = "record"
-+++
+epistemic_status = "record"+++
 
 ## Every public record below is independently verifiable.
 

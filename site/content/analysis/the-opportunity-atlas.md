@@ -12,8 +12,7 @@ keywords = "opportunity mapping, alternative mapping, Lansing Scuffle, thermal s
 og_title = "The Opportunity Atlas"
 og_description = "Not goal-path mapping. Opportunity-alternative mapping. Every project is a door. It hits all by itself."
 og_type = "article"
-twitter_card = "summary"
-+++
+twitter_card = "summary"+++
 
 # The Opportunity Atlas
 

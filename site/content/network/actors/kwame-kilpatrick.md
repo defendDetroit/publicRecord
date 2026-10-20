@@ -5,8 +5,7 @@ description = "Mayor 2002-2008"
 weight = 6
 
 [extra]
-keywords = "Kwame Kilpatrick, Detroit charter school network, Brian Banks network"
-+++
+keywords = "Kwame Kilpatrick, Detroit charter school network, Brian Banks network"+++
 
 ## Kwame Kilpatrick
 

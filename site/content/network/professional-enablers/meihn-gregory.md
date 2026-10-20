@@ -12,8 +12,7 @@ keywords = "Gregory M. Meihn attorney, Foley Mansfield PLLP Ferndale, Gregory Me
 actors = ["Gregory M. Meihn", "Brian Banks", "Nicole Wells-Stallworth"]
 entities = ["MacDowell Preparatory Academy", "Foley & Mansfield PLLP", "Purpose Group LLC"]
 connections = ["legal representation", "MDE investigation", "TCR 22-12 testimony", "weekly meetings", "compliance oversight", "management agreement oversight"]
-courts = ["Teacher Certification Review"]
-+++
+courts = ["Teacher Certification Review"]+++
 
 ## Position
 

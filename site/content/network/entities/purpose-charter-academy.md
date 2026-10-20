@@ -12,8 +12,7 @@ keywords = "Purpose Charter Academy, PCA Detroit, Brian Banks founder, Detroit c
 actors = ["Brian Banks", "Judge Cylenthia Miller", "Joseph Holland", "Sherry Gay-Dagnogo"]
 entities = ["Purpose Charter Academy", "The Purpose Group LLC", "Anchor Rock Foundation"]
 courts = ["Wayne County 3rd Circuit Court", "36th District Court"]
-connections = ["charter authorization", "credential fraud", "business entity", "board membership", "institutional capture"]
-+++
+connections = ["charter authorization", "credential fraud", "business entity", "board membership", "institutional capture"]+++
 
 ## School Overview
 

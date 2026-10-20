@@ -5,8 +5,7 @@ description = "~600 AD, India (chaturanga). 1500 years old. Public domain. No co
 weight = 5
 
 [extra]
-keywords = "Chess, commons, public knowledge, public education"
-+++
+keywords = "Chess, commons, public knowledge, public education"+++
 
 ## Chess
 

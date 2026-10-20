@@ -4,10 +4,9 @@ date: 2026-10-12
 type: "entity"
 graph_id: "barton_malow"
 role: "construction firm (Krater bridge)"
-weight: 11
+weight: 5
 degree: 88
-tags: ["non_human", "tier_2"]
----
+tags: ["non_human", "tier_2"]---
 
 # Barton Malow
 

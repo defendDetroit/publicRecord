@@ -14,8 +14,7 @@ keywords = "Dana Nessel charter school fraud silence, Lamar Moreland Attorney Ge
 og_title = "The Complicity: They Knew. They Were Already Captured."
 og_description = "Kevin Mok warned Nessel's office about Banks BEFORE discovering Moreland on the board. Her office said nothing. Not because they didn't know. Because Moreland was already there. This is complicity through structure."
 og_type = "article"
-twitter_card = "summary_large_image"
-+++
+twitter_card = "summary_large_image"+++
 
 ## The Timeline That Proves Complicity
 

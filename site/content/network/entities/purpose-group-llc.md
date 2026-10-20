@@ -12,8 +12,7 @@ keywords = "Purpose Group LLC, Purpose Group Michigan, Purpose Group Brian Banks
 actors = ["Brian Banks", "Joseph Holland"]
 entities = ["The Purpose Group LLC", "MacDowell Preparatory Academy", "Purpose Charter Academy", "Purpose Foundation"]
 courts = ["Wayne County 3rd Circuit Court", "36th District Court"]
-connections = ["business entity", "charter authorization", "RICO predicate", "credential fraud"]
-+++
+connections = ["business entity", "charter authorization", "RICO predicate", "credential fraud"]+++
 
 ## Entity Overview
 

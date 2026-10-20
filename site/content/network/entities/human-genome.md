@@ -5,8 +5,7 @@ description = "3.2 billion base pairs. 20,000-25,000 genes. Sequenced 2003. The 
 weight = 6
 
 [extra]
-keywords = "Human Genome, Detroit charter school network, Brian Banks network"
-+++
+keywords = "Human Genome, Detroit charter school network, Brian Banks network"+++
 
 ## Human Genome
 

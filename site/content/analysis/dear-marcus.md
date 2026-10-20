@@ -13,8 +13,7 @@ keywords = "Marcus Aurelius, Meditations, stoicism, sensation, self, action, irr
 og_title = "Dear Marcus"
 og_description = "Stoicism separates feeling from action. I posit more: sensation, self, action — where self is the irrational null remainder."
 og_type = "article"
-twitter_card = "summary_large_image"
-+++
+twitter_card = "summary_large_image"+++
 
 # Dear Marcus
 

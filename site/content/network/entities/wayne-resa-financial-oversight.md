@@ -5,8 +5,7 @@ description = "Wayne RESA performs financial oversight of charter schools. Did t
 weight = 4
 
 [extra]
-keywords = "Wayne RESA Financial Oversight, Detroit charter school network, Brian Banks network"
-+++
+keywords = "Wayne RESA Financial Oversight, Detroit charter school network, Brian Banks network"+++
 
 ## Wayne RESA Financial Oversight
 

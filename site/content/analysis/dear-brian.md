@@ -5,8 +5,7 @@ weight = 27
 date = 2026-10-14
 
 [extra]
-keywords = "Brian Banks Detroit, MacDowell Preparatory Academy, Purpose Charter Academy, Stan Eminem, 1941 questions, charter school fraud Detroit, convicted felon superintendent, ecoPrimal investigation, knowledge graph evidence"
-+++
+keywords = "Brian Banks Detroit, MacDowell Preparatory Academy, Purpose Charter Academy, Stan Eminem, 1941 questions, charter school fraud Detroit, convicted felon superintendent, ecoPrimal investigation, knowledge graph evidence"+++
 
 > *"Dear Slim, I wrote you but you still ain't callin'..."*
 > — Eminem, "Stan" (2000). Detroit.

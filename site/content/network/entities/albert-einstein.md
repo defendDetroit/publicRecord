@@ -5,8 +5,7 @@ description = "1879-1955. Patent clerk who rewrote physics. Special relativity, 
 weight = 6
 
 [extra]
-keywords = "Albert Einstein, Detroit charter school network, Brian Banks network"
-+++
+keywords = "Albert Einstein, Detroit charter school network, Brian Banks network"+++
 
 ## Albert Einstein
 

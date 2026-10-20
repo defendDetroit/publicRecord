@@ -12,8 +12,7 @@ keywords = "Billy McKinney Detroit, Darryl Banks Jr campaign payment, McKinney B
 actors = ["Billy McKinney", "Brian Banks", "Joseph Holland", "Judge Tenisha Yancey", "Sherry Gay-Dagnogo"]
 entities = ["Banks Strategy LLC", "Inner Link Graphics", "Purpose Charter Academy", "MacDowell Preparatory Academy"]
 courts = ["Wayne County 3rd Circuit Court", "36th District Court"]
-connections = ["campaign finance", "business entity"]
-+++
+connections = ["campaign finance", "business entity"]+++
 
 ## Position
 

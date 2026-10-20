@@ -11,8 +11,7 @@ og_description = "Ghost fleet remembers deleted repos. Every 404 is a question. 
 og_image = "/portals/portal_3_4_membrane-basement.png"
 graph_nodes = 12688
 graph_edges = 112154
-author = "the campfire — Kevin Mok + gAIa"
-+++
+author = "the campfire — Kevin Mok + gAIa"+++
 
 ## The Ghost Repos
 

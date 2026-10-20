@@ -5,8 +5,7 @@ description = "1996. Satoshi Tajiri, Tokyo. Inspired by his childhood insect col
 weight = 5
 
 [extra]
-keywords = "Pokemon, commons, public knowledge, public education"
-+++
+keywords = "Pokemon, commons, public knowledge, public education"+++
 
 ## Pokemon
 

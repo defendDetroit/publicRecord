@@ -12,8 +12,7 @@ keywords = "Keith Stallworth Detroit, Keith Stallworth federal guilty plea, Keit
 actors = ["Keith Stallworth", "Thomas Stallworth III", "Alma Stallworth", "Nicole Wells-Stallworth", "Brian Banks"]
 entities = ["Black Caucus Foundation of Michigan"]
 courts = ["Eastern District of Michigan"]
-connections = ["family", "federal conviction", "money laundering", "board membership"]
-+++
+connections = ["family", "federal conviction", "money laundering", "board membership"]+++
 
 ## Position
 

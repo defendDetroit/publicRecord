@@ -13,8 +13,7 @@ keywords = "Seth MacFarlane, American Dad, Roger, Stan Smith, creative team, ani
 og_title = "The Third Screen"
 og_description = "American Dad has been playing on my third screen for years. Not noise. Background processing. Roger is every entity wearing every mask."
 og_type = "article"
-twitter_card = "summary_large_image"
-+++
+twitter_card = "summary_large_image"+++
 
 # The Third Screen
 

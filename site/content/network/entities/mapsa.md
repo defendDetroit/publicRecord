@@ -5,8 +5,7 @@ description = "Michigan Association of Public School Academies"
 weight = 6
 
 [extra]
-keywords = "MAPSA, Detroit charter school network, Brian Banks network"
-+++
+keywords = "MAPSA, Detroit charter school network, Brian Banks network"+++
 
 ## MAPSA
 

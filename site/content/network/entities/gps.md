@@ -5,8 +5,7 @@ description = "Global Positioning System. Built by US military with PUBLIC money
 weight = 5
 
 [extra]
-keywords = "GPS, Detroit charter school network, Brian Banks network"
-+++
+keywords = "GPS, Detroit charter school network, Brian Banks network"+++
 
 ## GPS
 

@@ -8,8 +8,7 @@ date = 2026-10-11
 counties = ["wayne"]
 
 [extra]
-keywords = "knowledge commons, zero-knowledge proof, shared tools, open source, Esperanto, alphabet, musical notation, zero, Braille, public domain, membrane, graph theory"
-+++
+keywords = "knowledge commons, zero-knowledge proof, shared tools, open source, Esperanto, alphabet, musical notation, zero, Braille, public domain, membrane, graph theory"+++
 
 # The Knowledge Commons
 

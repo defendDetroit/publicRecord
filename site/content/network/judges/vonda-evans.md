@@ -12,8 +12,7 @@ keywords = "Vonda Evans judge, Vonda Evans retired, Vonda Evans Wayne County, Vo
 actors = ["Judge Vonda Evans", "Brian Banks", "Todd Perkins", "Judge Cylenthia Miller", "Judge Kelly Ramsey", "Judge Denise Langford Morris"]
 entities = ["Purpose Charter Academy", "MacDowell Preparatory Academy", "Anchor Rock Foundation"]
 courts = ["Wayne County 3rd Circuit Court"]
-connections = ["mentorship", "campaign finance", "legal representation"]
-+++
+connections = ["mentorship", "campaign finance", "legal representation"]+++
 
 ## Position
 

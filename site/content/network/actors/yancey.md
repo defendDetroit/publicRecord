@@ -4,10 +4,9 @@ date: 2026-10-12
 type: "actor"
 graph_id: "yancey"
 role: "Judicial cover"
-weight: 17
+weight: 5
 degree: 91
-tags: ["human", "tier_2"]
----
+tags: ["human", "tier_2"]---
 
 # Judge Tenisha Yancey
 

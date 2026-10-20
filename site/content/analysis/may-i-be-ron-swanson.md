@@ -13,8 +13,7 @@ keywords = "Ron Swanson, Michael Scott, Leslie Knope, Steve Carell, Nick Offerma
 og_title = "May I Be Ron Swanson at the End"
 og_description = "Michael Scott wanted love. Ron Swanson wanted peace. Leslie Knope wanted justice. Three phases of one journey. And Scooby-Doo: the mask always comes off."
 og_type = "article"
-twitter_card = "summary_large_image"
-+++
+twitter_card = "summary_large_image"+++
 
 # May I Be Ron Swanson at the End
 

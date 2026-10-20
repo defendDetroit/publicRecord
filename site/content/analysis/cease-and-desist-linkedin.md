@@ -13,8 +13,7 @@ keywords = "how to stop LinkedIn junk mail, LinkedIn cease and desist physical m
 og_title = "How to Stop LinkedIn Physical Junk Mail — Cease and Desist Template"
 og_description = "LinkedIn (Microsoft) sends unsolicited physical mail to your home. Here's a free cease and desist template with every applicable statute. Stop the paper spam."
 og_type = "article"
-twitter_card = "summary"
-+++
+twitter_card = "summary"+++
 
 # Cease and Desist — LinkedIn Corporation
 

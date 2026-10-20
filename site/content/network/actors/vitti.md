@@ -4,10 +4,9 @@ date: 2026-10-12
 type: "actor"
 graph_id: "vitti"
 role: "DPSCD Superintendent. PCA authorized under his watch (Jul 2025)."
-weight: 15
+weight: 5
 degree: 86
-tags: ["human", "tier_2"]
----
+tags: ["human", "tier_2"]---
 
 # Dr. Nikolai Vitti
 

@@ -12,8 +12,7 @@ keywords = "Judge Tenisha Yancey 36th District Court, Yancey MacDowell board cha
 actors = ["Judge Tenisha Yancey", "Brian Banks", "Judge Adam Sabree", "Judge Sean Perkins", "Eric Sabree", "Dr. Chalena Yancey Beasley", "Jimmy Settles"]
 entities = ["MacDowell Preparatory Academy", "Purpose Charter Academy", "Banks Strategy LLC", "Inner Link Graphics", "Wayne County Land Bank"]
 courts = ["36th District Court"]
-connections = ["board membership", "campaign finance", "family", "employment", "predecessor-successor", "charter authorization"]
-+++
+connections = ["board membership", "campaign finance", "family", "employment", "predecessor-successor", "charter authorization"]+++
 
 ## Position
 

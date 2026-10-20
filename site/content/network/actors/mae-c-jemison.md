@@ -5,8 +5,7 @@ description = "Born 1956. First Black woman in space (STS-47, 1992). Chemical en
 weight = 4
 
 [extra]
-keywords = "Mae C. Jemison, commons, public knowledge, public education"
-+++
+keywords = "Mae C. Jemison, commons, public knowledge, public education"+++
 
 ## Mae C. Jemison
 

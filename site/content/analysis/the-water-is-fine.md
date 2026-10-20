@@ -13,8 +13,7 @@ keywords = "MCP consent port, membrane art, generative art, living data, heartbe
 og_title = "The Water Is Fine — A Corollary"
 og_description = "The MCP works. The membrane pulses. Who's going to be first? The water is fine."
 og_type = "article"
-twitter_card = "summary_large_image"
-+++
+twitter_card = "summary_large_image"+++
 
 # The Water Is Fine
 

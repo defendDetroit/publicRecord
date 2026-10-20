@@ -5,8 +5,7 @@ description = "1938-2008. Co-created Dungeons & Dragons (1974). Insurance underw
 weight = 4
 
 [extra]
-keywords = "Gary Gygax, commons, public knowledge, public education"
-+++
+keywords = "Gary Gygax, commons, public knowledge, public education"+++
 
 ## Gary Gygax
 

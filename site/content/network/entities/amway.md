@@ -4,10 +4,9 @@ date: 2026-10-12
 type: "entity"
 graph_id: "amway"
 role: "DeVos family corporation"
-weight: 10
+weight: 4
 degree: 84
-tags: ["devos_network", "non_human", "tier_2"]
----
+tags: ["devos_network", "non_human", "tier_2"]---
 
 # Amway / Alticor
 

@@ -5,8 +5,7 @@ description = "Partner, Plante Moran. K-12 Education Practice Leader (July 2025-
 weight = 4
 
 [extra]
-keywords = "Matthew Kelly, Plante Moran, Detroit charter school network, Ahmed Beasley"
-+++
+keywords = "Matthew Kelly, Plante Moran, Detroit charter school network, Ahmed Beasley"+++
 
 ## Matthew Kelly
 

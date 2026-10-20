@@ -9,8 +9,7 @@ tags = ["plinko", "dag", "epitope", "topology", "scanners", "pores", "orphans"]
 og_title = "Plinko: One Entry, Many Exits, Not Uniform"
 og_description = "14 immune hosts are the same /explore/repos skin. Crush them. sporeprint is a 404. Observer is 1 person and 32% of attention."
 og_image = "/portals/portal_3_0_membrane-door.png"
-author = "Kevin Mok + gAIa — the ball does not bounce back up"
-+++
+author = "Kevin Mok + gAIa — the ball does not bounce back up"+++
 
 ## Yes. It's Plinko.
 

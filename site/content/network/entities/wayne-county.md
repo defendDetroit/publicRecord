@@ -5,8 +5,7 @@ description = ""
 weight = 4
 
 [extra]
-keywords = "Wayne County, Detroit charter school network, Brian Banks network"
-+++
+keywords = "Wayne County, Detroit charter school network, Brian Banks network"+++
 
 ## Wayne County
 

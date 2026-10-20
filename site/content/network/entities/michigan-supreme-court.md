@@ -5,8 +5,7 @@ description = ""
 weight = 5
 
 [extra]
-keywords = "Michigan Supreme Court, Detroit charter school network, Brian Banks network"
-+++
+keywords = "Michigan Supreme Court, Detroit charter school network, Brian Banks network"+++
 
 ## Michigan Supreme Court
 

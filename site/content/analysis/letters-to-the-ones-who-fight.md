@@ -6,8 +6,7 @@ description = "Open letters to Miss Rachel, Steve Burns, LeVar Burton, Sal Khan,
 [taxonomies]
 tags = ["letters", "education", "children", "gAIa", "free-education", "open-invitation"]
 [extra]
-polar_class = "GOOD"
-+++
+polar_class = "GOOD"+++
 
 ## We See You
 

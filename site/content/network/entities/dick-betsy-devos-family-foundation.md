@@ -5,8 +5,7 @@ description = "Charter school funder"
 weight = 5
 
 [extra]
-keywords = "Dick & Betsy DeVos Family Foundation, Detroit charter school network, Brian Banks network, DeVos Michigan charter schools"
-+++
+keywords = "Dick & Betsy DeVos Family Foundation, Detroit charter school network, Brian Banks network, DeVos Michigan charter schools"+++
 
 ## Dick & Betsy DeVos Family Foundation
 

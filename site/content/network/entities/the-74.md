@@ -4,10 +4,9 @@ date: 2026-10-12
 type: "entity"
 graph_id: "the_74"
 role: "charter school media outlet"
-weight: 22
+weight: 5
 degree: 89
-tags: ["education", "charter_ecosystem", "non_human", "tier_2"]
----
+tags: ["education", "charter_ecosystem", "non_human", "tier_2"]---
 
 # The 74 (The Seventy Four)
 

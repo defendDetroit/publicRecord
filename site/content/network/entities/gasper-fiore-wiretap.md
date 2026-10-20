@@ -5,8 +5,7 @@ description = "FBI wiretap, United States v. Fiore (16-cr-20732). Banks captured
 weight = 5
 
 [extra]
-keywords = "Gasper Fiore Wiretap, Detroit charter school network, Brian Banks network"
-+++
+keywords = "Gasper Fiore Wiretap, Detroit charter school network, Brian Banks network"+++
 
 ## Gasper Fiore Wiretap
 

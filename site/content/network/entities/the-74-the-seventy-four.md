@@ -5,8 +5,7 @@ description = "Walton-funded education journalism"
 weight = 6
 
 [extra]
-keywords = "The 74 (The Seventy Four), Detroit charter school network, Brian Banks network"
-+++
+keywords = "The 74 (The Seventy Four), Detroit charter school network, Brian Banks network"+++
 
 ## The 74 (The Seventy Four)
 

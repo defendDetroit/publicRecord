@@ -11,8 +11,7 @@ keywords = "Reginald B. Scott II MDE, Reginald Scott Michigan Department of Educ
 [taxonomies]
 actors = ["Reginald B. Scott II"]
 entities = ["Michigan Department of Education"]
-connections = ["MDE investigation"]
-+++
+connections = ["MDE investigation"]+++
 
 ## Position
 

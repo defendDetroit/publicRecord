@@ -5,8 +5,7 @@ description = "GLLG Partner â€” MSU Law BLSA President"
 weight = 5
 
 [extra]
-keywords = "Henri O. Harmon, Detroit charter school network, Brian Banks network"
-+++
+keywords = "Henri O. Harmon, Detroit charter school network, Brian Banks network"+++
 
 ## Henri O. Harmon
 

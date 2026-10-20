@@ -5,8 +5,7 @@ description = "1918-2020. NASA mathematician. Calculated trajectories for Mercur
 weight = 4
 
 [extra]
-keywords = "Katherine Johnson, Detroit charter school network, Brian Banks network"
-+++
+keywords = "Katherine Johnson, Detroit charter school network, Brian Banks network"+++
 
 ## Katherine Johnson
 

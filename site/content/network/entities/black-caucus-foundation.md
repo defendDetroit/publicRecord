@@ -11,8 +11,7 @@ keywords = "Black Caucus Foundation of Michigan, BCF Michigan, Stallworth family
 [taxonomies]
 actors = ["Brian Banks", "Keith Stallworth", "Thomas Stallworth III", "Alma Stallworth", "Nicole Wells-Stallworth", "Virgil Smith", "Bert Johnson"]
 entities = ["Black Caucus Foundation of Michigan", "MacDowell Preparatory Academy"]
-connections = ["board membership", "federal conviction", "nonprofit governance", "incubation"]
-+++
+connections = ["board membership", "federal conviction", "nonprofit governance", "incubation"]+++
 
 ## Entity
 

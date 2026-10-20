@@ -5,8 +5,7 @@ description = "1989. Created by Gunpei Yokoi at Nintendo. The man who invented t
 weight = 5
 
 [extra]
-keywords = "Game Boy, commons, public knowledge, public education"
-+++
+keywords = "Game Boy, commons, public knowledge, public education"+++
 
 ## Game Boy
 

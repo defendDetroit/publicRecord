@@ -12,8 +12,7 @@ keywords = ".primal TLD, ICANN new gTLD, intent to apply, whitepaper, primals.ec
 og_title = "Intent to .primal"
 og_description = "We intend to own .primal. Nobody applied in 2026. This documents the intent. If someone beats us to it \u2014 that's signal."
 og_type = "article"
-twitter_card = "summary"
-+++
+twitter_card = "summary"+++
 
 # Intent to .primal
 

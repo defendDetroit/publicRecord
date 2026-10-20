@@ -3,8 +3,7 @@ title = "The Fistbump"
 date = 2026-10-19
 weight = 10
 [taxonomies]
-tags = ["investigation"]
-+++
+tags = ["investigation"]+++
 
 ---
 title: "The Fistbump: Diagnostic Law and the Path to Less Friction"

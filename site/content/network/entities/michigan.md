@@ -5,8 +5,7 @@ description = "Target state — all schools, all courts, all actors"
 weight = 7
 
 [extra]
-keywords = "Michigan, Detroit charter school network, Brian Banks network"
-+++
+keywords = "Michigan, Detroit charter school network, Brian Banks network"+++
 
 ## Michigan
 

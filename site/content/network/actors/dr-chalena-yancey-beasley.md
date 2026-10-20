@@ -5,8 +5,7 @@ description = "Founding School Leader, PCA. PhD Wayne State ELPS 2023. 29yr DPSC
 weight = 5
 
 [extra]
-keywords = "Dr. Chalena Yancey Beasley, Detroit charter school network, Brian Banks network"
-+++
+keywords = "Dr. Chalena Yancey Beasley, Detroit charter school network, Brian Banks network"+++
 
 ## Dr. Chalena Yancey Beasley
 

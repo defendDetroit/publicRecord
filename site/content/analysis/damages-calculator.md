@@ -2,7 +2,7 @@
 title = "Damages Calculator — Raytracing Public Funds"
 description = "Every dollar traced through every membrane back to the emitter. $46.1M in public funds, 7 raytraces, 20 public officials. To the penny."
 date = 2026-10-10
-weight = 28
+weight = 29
 
 [taxonomies]
 actors = ["banks", "holland", "wilk", "moore", "miller", "yancey", "sheffield", "bettison", "moreland", "johnson-l", "vaughn", "gay-dagnogo", "wells-stallworth", "coleman"]
@@ -11,8 +11,7 @@ connections = ["financial-extraction", "dark-money", "dual-employment", "authori
 
 [extra]
 keywords = "Detroit charter school damages calculator, public fund tracing, raytracing public money, charter school financial extraction, MacDowell Purpose Group extraction, dark money pipeline calculator, Michigan charter school accountability, 42 USC 1983 damages, public corruption financial analysis"
-epistemic_status = "record"
-+++
+epistemic_status = "record"+++
 
 ## $46.1 Million in Public Funds. Seven Raytraces. Twenty Public Officials.
 

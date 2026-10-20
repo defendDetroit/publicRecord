@@ -11,8 +11,7 @@ keywords = "Misha Stallworth West DPSCD board, Misha Stallworth Detroit, Misha S
 [taxonomies]
 actors = ["Misha Stallworth West", "Thomas Stallworth III", "Nicole Wells-Stallworth", "Brian Banks"]
 entities = ["MacDowell Preparatory Academy", "Black Caucus Foundation of Michigan"]
-connections = ["family", "charter authorization", "conflict of interest"]
-+++
+connections = ["family", "charter authorization", "conflict of interest"]+++
 
 ## Position
 

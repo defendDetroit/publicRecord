@@ -11,8 +11,7 @@ keywords = "Corletta Vaughn DPSCD board president, Bishop Corletta Vaughn Detroi
 [taxonomies]
 actors = ["Corletta Vaughn", "Sherry Gay-Dagnogo", "Brian Banks", "Misha Stallworth West"]
 entities = ["Purpose Charter Academy", "MacDowell Preparatory Academy"]
-connections = ["charter authorization", "board membership", "institutional capture"]
-+++
+connections = ["charter authorization", "board membership", "institutional capture"]+++
 
 ## Position
 

@@ -5,8 +5,7 @@ description = "Mendeleev (1869). 118 elements. The organizing principle of chemi
 weight = 4
 
 [extra]
-keywords = "Periodic Table of Elements, Detroit charter school network, Brian Banks network"
-+++
+keywords = "Periodic Table of Elements, Detroit charter school network, Brian Banks network"+++
 
 ## Periodic Table of Elements
 

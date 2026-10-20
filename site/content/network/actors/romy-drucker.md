@@ -2,11 +2,10 @@
 title = "Romy Drucker"
 date = 2026-10-12
 description = "Education Program Director, Walton Family Foundation. FOUNDED The 74 media outlet in 2015. Yale BA, Harvard MBA. Former NYC DOE. WFF funds charter advocacy -> WFF director founded the media outlet tha"
-weight = 4
+weight = 5
 
 [extra]
-keywords = "Romy Drucker, Detroit charter school network, Brian Banks network"
-+++
+keywords = "Romy Drucker, Detroit charter school network, Brian Banks network"+++
 
 ## Romy Drucker
 

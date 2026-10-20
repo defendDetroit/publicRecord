@@ -14,8 +14,7 @@ keywords = "Save Detroit Jobs Detroit Leaders dark money, Latisha Johnson PCA bo
 og_title = "The Nonprofit Web: Dark Money → Board Seat → Enterprise"
 og_description = "Save Detroit Jobs backed Latisha Johnson. Johnson sits on the PCA Board. The FBI raided council offices looking for 501(c)(4) records. Wilk formed the nonprofits. Moore managed them. The desk builds the board."
 og_type = "article"
-twitter_card = "summary_large_image"
-+++
+twitter_card = "summary_large_image"+++
 
 ## The Connection That Closes the Loop
 

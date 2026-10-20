@@ -5,8 +5,7 @@ description = "Journalist, Black Star Network founder"
 weight = 7
 
 [extra]
-keywords = "Roland S. Martin, Detroit charter school network, Brian Banks network"
-+++
+keywords = "Roland S. Martin, Detroit charter school network, Brian Banks network"+++
 
 ## Roland S. Martin
 

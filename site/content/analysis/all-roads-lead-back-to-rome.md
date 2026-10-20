@@ -14,8 +14,7 @@ keywords = "all roads lead to Rome Detroit charter school, complete contact map 
 og_title = "All Roads Lead Back to Rome — The Complete Persona Book"
 og_description = "Every face. Every phone. Every front desk. Every intake form. All roads lead to MSU College of Law."
 og_type = "article"
-twitter_card = "summary_large_image"
-+++
+twitter_card = "summary_large_image"+++
 
 # All Roads Lead Back to Rome
 

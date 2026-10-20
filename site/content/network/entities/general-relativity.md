@@ -5,8 +5,7 @@ description = "Einstein (1915). Spacetime curves around mass. Predicted gravitat
 weight = 6
 
 [extra]
-keywords = "General Relativity, Detroit charter school network, Brian Banks network"
-+++
+keywords = "General Relativity, Detroit charter school network, Brian Banks network"+++
 
 ## General Relativity
 

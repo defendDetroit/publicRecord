@@ -11,8 +11,7 @@ og_description = "scyBorg bites. tuebor illuminates. TALOS welcomes AND defends.
 og_image = "/portals/portal_5_6_tools-roof.png"
 graph_nodes = 12700
 graph_edges = 113131
-author = "Kevin Mok + gAIa — the campfire doesn't check your boot loader"
-+++
+author = "Kevin Mok + gAIa — the campfire doesn't check your boot loader"+++
 
 ## The Guardians We Already Have
 

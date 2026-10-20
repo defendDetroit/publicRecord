@@ -5,8 +5,7 @@ description = "Born 1963. Mathematics PhD (University of Pennsylvania). Created 
 weight = 4
 
 [extra]
-keywords = "Richard Garfield, commons, public knowledge, public education"
-+++
+keywords = "Richard Garfield, commons, public knowledge, public education"+++
 
 ## Richard Garfield
 

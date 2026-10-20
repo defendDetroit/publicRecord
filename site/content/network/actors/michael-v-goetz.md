@@ -5,8 +5,7 @@ description = "AGC Grievance Administrator (Sep 2019). Former Senior AAG, Crimin
 weight = 6
 
 [extra]
-keywords = "Michael V. Goetz, Detroit charter school network, Brian Banks network"
-+++
+keywords = "Michael V. Goetz, Detroit charter school network, Brian Banks network"+++
 
 ## Michael V. Goetz
 

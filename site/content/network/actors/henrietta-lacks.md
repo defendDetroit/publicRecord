@@ -5,8 +5,7 @@ description = "1920-1951. Her HeLa cells — taken without consent — became th
 weight = 4
 
 [extra]
-keywords = "Henrietta Lacks, commons, public knowledge, public education"
-+++
+keywords = "Henrietta Lacks, commons, public knowledge, public education"+++
 
 ## Henrietta Lacks
 

@@ -5,8 +5,7 @@ description = "Black Mafia Family. Federal drug conspiracy — one of the larges
 weight = 7
 
 [extra]
-keywords = "Black Mafia Family (BMF), Detroit charter school network, Brian Banks network"
-+++
+keywords = "Black Mafia Family (BMF), Detroit charter school network, Brian Banks network"+++
 
 ## Black Mafia Family (BMF)
 

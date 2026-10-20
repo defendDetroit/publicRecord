@@ -5,8 +5,7 @@ description = "Director, EMU Charter Schools Office. Terminated DPSA charter Jun
 weight = 5
 
 [extra]
-keywords = "Dr. Jolia Hill, Detroit charter school network, Brian Banks network"
-+++
+keywords = "Dr. Jolia Hill, Detroit charter school network, Brian Banks network"+++
 
 ## Dr. Jolia Hill
 

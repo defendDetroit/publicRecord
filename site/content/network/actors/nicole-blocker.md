@@ -5,8 +5,7 @@ description = "Plante Moran Realpoint. Listed on K-12 capital project consulting
 weight = 4
 
 [extra]
-keywords = "Nicole Blocker, Plante Moran, Detroit charter school network, Ahmed Beasley"
-+++
+keywords = "Nicole Blocker, Plante Moran, Detroit charter school network, Ahmed Beasley"+++
 
 ## Nicole Blocker
 

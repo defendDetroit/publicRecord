@@ -12,8 +12,7 @@ keywords = "Purpose Foundation, Purpose Foundation Detroit, Banks Holland nonpro
 actors = ["Brian Banks", "Joseph Holland"]
 entities = ["Purpose Foundation", "The Purpose Group LLC", "Purpose Charter Academy", "MacDowell Preparatory Academy"]
 courts = ["Wayne County 3rd Circuit Court"]
-connections = ["business entity", "board membership", "criminal record", "RICO predicate"]
-+++
+connections = ["business entity", "board membership", "criminal record", "RICO predicate"]+++
 
 ## Entity Overview
 

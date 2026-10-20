@@ -5,8 +5,7 @@ date = 2026-10-09
 weight = 17
 
 [extra]
-keywords = "Great Lakes Legal Group GLLG, Jehan Crump-Gibson attorney, CitizenDetroit Action Group board, Misha Stallworth DPSCD, Verkeydia Hall MacDowell board, Crump family Michigan attorney, Sheila Cockrel CitizenDetroit, dynasty entity human Michigan, credential washing Detroit, influence washing charter school, Banks legal representation social graph"
-+++
+keywords = "Great Lakes Legal Group GLLG, Jehan Crump-Gibson attorney, CitizenDetroit Action Group board, Misha Stallworth DPSCD, Verkeydia Hall MacDowell board, Crump family Michigan attorney, Sheila Cockrel CitizenDetroit, dynasty entity human Michigan, credential washing Detroit, influence washing charter school, Banks legal representation social graph"+++
 
 ## The Method
 

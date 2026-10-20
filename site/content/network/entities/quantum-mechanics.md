@@ -5,8 +5,7 @@ description = "Planck, Bohr, Heisenberg, Schrodinger, Dirac, Born, Pauli, Feynma
 weight = 6
 
 [extra]
-keywords = "Quantum Mechanics, Detroit charter school network, Brian Banks network"
-+++
+keywords = "Quantum Mechanics, Detroit charter school network, Brian Banks network"+++
 
 ## Quantum Mechanics
 

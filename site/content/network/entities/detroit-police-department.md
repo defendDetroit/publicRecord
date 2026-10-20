@@ -5,8 +5,7 @@ description = ""
 weight = 4
 
 [extra]
-keywords = "Detroit Police Department, Detroit charter school network, Brian Banks network"
-+++
+keywords = "Detroit Police Department, Detroit charter school network, Brian Banks network"+++
 
 ## Detroit Police Department
 

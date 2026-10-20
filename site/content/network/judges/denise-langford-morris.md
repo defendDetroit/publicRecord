@@ -1,7 +1,7 @@
 +++
 title = "Judge Denise Langford Morris (Retired)"
 description = "Judge Denise Langford Morris (Retired) — 30-year Oakland County judge. Wrote Banks book foreword using fake J.D."
-weight = 10
+weight = 11
 date = 2026-09-20
 updated = 2026-09-25
 
@@ -12,8 +12,7 @@ keywords = "Denise Langford Morris judge, Denise Langford Morris retired, Denise
 actors = ["Judge Denise Langford Morris", "Brian Banks", "Judge Vonda Evans"]
 entities = ["Purpose Charter Academy", "MacDowell Preparatory Academy"]
 courts = ["Oakland County Circuit Court", "Eastern District of Michigan"]
-connections = ["mentorship", "credential fraud"]
-+++
+connections = ["mentorship", "credential fraud"]+++
 
 ## Position
 

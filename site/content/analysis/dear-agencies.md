@@ -15,8 +15,7 @@ keywords = "FBI Detroit Operation Northern Hook, IRS CI charter school fraud, DO
 og_title = "Dear Agencies — Your Colleagues Already Know"
 og_description = "FBI, IRS, DOJ, MDE, OIG, AG — you're all looking at the same enterprise. Your colleagues already have a piece. The silos ARE the shield."
 og_type = "article"
-twitter_card = "summary_large_image"
-+++
+twitter_card = "summary_large_image"+++
 
 # Dear Agencies — Your Colleagues Already Know
 

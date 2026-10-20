@@ -5,8 +5,7 @@ description = "Partner, Plante Moran. Former K-12 Education Practice Leader (bef
 weight = 4
 
 [extra]
-keywords = "Jennifer Chambers, Plante Moran, Detroit charter school network, Ahmed Beasley"
-+++
+keywords = "Jennifer Chambers, Plante Moran, Detroit charter school network, Ahmed Beasley"+++
 
 ## Jennifer Chambers
 

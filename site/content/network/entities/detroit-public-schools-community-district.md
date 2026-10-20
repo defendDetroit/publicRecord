@@ -5,8 +5,7 @@ description = ""
 weight = 6
 
 [extra]
-keywords = "Detroit Public Schools Community District, Detroit charter school network, Brian Banks network"
-+++
+keywords = "Detroit Public Schools Community District, Detroit charter school network, Brian Banks network"+++
 
 ## Detroit Public Schools Community District
 

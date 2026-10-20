@@ -12,8 +12,7 @@ keywords = "Eric Sabree Wayne County Treasurer, Eric Sabree FBI investigation, E
 actors = ["Eric Sabree", "Judge Aliyah Sabree", "Judge Adam Sabree", "Judge Tenisha Yancey", "Brian Banks"]
 entities = ["MacDowell Preparatory Academy"]
 courts = ["Wayne County 3rd Circuit Court", "36th District Court", "Eastern District of Michigan"]
-connections = ["family", "campaign finance", "business entity"]
-+++
+connections = ["family", "campaign finance", "business entity"]+++
 
 ## Position
 

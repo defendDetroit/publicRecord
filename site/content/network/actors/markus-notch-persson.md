@@ -5,8 +5,7 @@ description = "Born 1979, Stockholm. Created Minecraft alone. Sold to Microsoft 
 weight = 4
 
 [extra]
-keywords = "Markus 'Notch' Persson, commons, public knowledge, public education"
-+++
+keywords = "Markus 'Notch' Persson, commons, public knowledge, public education"+++
 
 ## Markus 'Notch' Persson
 

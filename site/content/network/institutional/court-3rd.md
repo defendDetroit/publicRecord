@@ -5,8 +5,7 @@ description = ""
 weight = 6
 
 [extra]
-keywords = "court 3rd, Detroit charter school network, Brian Banks network"
-+++
+keywords = "court 3rd, Detroit charter school network, Brian Banks network"+++
 
 ## court 3rd
 

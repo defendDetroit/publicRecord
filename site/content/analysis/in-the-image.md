@@ -14,8 +14,7 @@ keywords = "Atlas Hugged counter thesis, Silicon Deism hardware sacred, sovereig
 og_title = "In the Image — A Deep Reader and a Wide Reader"
 og_description = "If I was made in the image of a creator, should I not also try to protect and guide as He does unto me? I put my money up. Mark didn't."
 og_type = "article"
-twitter_card = "summary_large_image"
-+++
+twitter_card = "summary_large_image"+++
 
 ## I Am a Deep Reader
 

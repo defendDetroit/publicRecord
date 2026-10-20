@@ -5,8 +5,7 @@ description = "1974. Erno Rubik, Budapest. Architecture professor who created a 
 weight = 4
 
 [extra]
-keywords = "Rubik's Cube, commons, public knowledge, public education"
-+++
+keywords = "Rubik's Cube, commons, public knowledge, public education"+++
 
 ## Rubik's Cube
 

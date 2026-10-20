@@ -5,8 +5,7 @@ description = "10,677 nodes. 16,066,980 edges. 16,077,657 copyrightable works. $
 weight = 20
 
 [extra]
-keywords = "public record graph, knowledge graph, investigation methodology, OSINT, open source intelligence, reverse ray tracing, ecoPrimal graph"
-+++
+keywords = "public record graph, knowledge graph, investigation methodology, OSINT, open source intelligence, reverse ray tracing, ecoPrimal graph"+++
 
 ## What It Is
 

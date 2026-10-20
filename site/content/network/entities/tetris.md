@@ -5,8 +5,7 @@ description = "1985. Created by Alexey Pajitnov at the Soviet Academy of Science
 weight = 5
 
 [extra]
-keywords = "Tetris, commons, public knowledge, public education"
-+++
+keywords = "Tetris, commons, public knowledge, public education"+++
 
 ## Tetris
 

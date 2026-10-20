@@ -10,8 +10,7 @@ keywords = "State Bar Michigan UPL, unauthorized practice of law Brian Banks, UP
 [taxonomies]
 actors = ["Brian Banks"]
 entities = ["State Bar of Michigan"]
-connections = ["referral loop", "UPL closure", "de-silo", "institutional failure"]
-+++
+connections = ["referral loop", "UPL closure", "de-silo", "institutional failure"]+++
 
 ## State Bar of Michigan — UPL Department
 

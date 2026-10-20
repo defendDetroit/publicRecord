@@ -1,7 +1,7 @@
 +++
 title = "Institutional Response Tracker"
 description = "The same evidence was submitted to multiple Michigan institutions. Their responses reveal which checkpoints function and which have failed. Anderson Localization applied beyond courts."
-weight = 18
+weight = 19
 date = 2026-10-06
 updated = 2026-10-06
 
@@ -11,8 +11,7 @@ keywords = "institutional accountability tracker Michigan, State Bar UPL Brian B
 [taxonomies]
 actors = ["Brian Banks"]
 entities = ["State Bar of Michigan", "Michigan Department of Education", "Detroit Public Schools Community District", "Central Michigan University", "Baker College", "Attorney Grievance Commission", "Judicial Tenure Commission"]
-connections = ["institutional response", "accountability failure", "Anderson localization", "checkpoint analysis"]
-+++
+connections = ["institutional response", "accountability failure", "Anderson localization", "checkpoint analysis"]+++
 
 ## From Courts to Checkpoints
 

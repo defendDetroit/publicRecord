@@ -14,8 +14,7 @@ keywords = "backscatter graph Brian Banks PPO, SBE October 13 2026, Wayne County
 og_title = "The Backscatter — Every Node, Every Edge, Every Timestamp"
 og_description = "October 13: SBE met at 9:30 AM. Banks filed PPO the same day. Same state. One meeting about children. One filing to silence the person defending them. Here is every connection, mapped."
 og_type = "article"
-twitter_card = "summary_large_image"
-+++
+twitter_card = "summary_large_image"+++
 
 ## October 13, 2026 — The Same Day
 

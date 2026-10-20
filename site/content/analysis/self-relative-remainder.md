@@ -3,8 +3,7 @@ title = "Self-Relative Remainder: The Extraction Pattern"
 date = 2026-10-15
 weight = 12
 [taxonomies]
-tags = ["disruption", "extraction", "structural-analysis", "polar-sort"]
-+++
+tags = ["disruption", "extraction", "structural-analysis", "polar-sort"]+++
 
 # Self-Relative Remainder
 

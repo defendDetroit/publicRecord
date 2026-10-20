@@ -5,8 +5,7 @@ description = "1987. Games Workshop, Nottingham UK. Miniature wargaming. Combine
 weight = 5
 
 [extra]
-keywords = "Warhammer 40,000, commons, public knowledge, public education"
-+++
+keywords = "Warhammer 40,000, commons, public knowledge, public education"+++
 
 ## Warhammer 40,000
 

@@ -12,8 +12,7 @@ keywords = "Joseph Holland Detroit, Joseph Holland MDOC, Joseph Holland Purpose 
 actors = ["Joseph Holland", "Brian Banks"]
 entities = ["Purpose Foundation", "The Purpose Group LLC", "Banks Strategy LLC"]
 courts = ["Wayne County 3rd Circuit Court", "36th District Court"]
-connections = ["employment", "board membership", "campaign finance", "business entity", "criminal record", "family"]
-+++
+connections = ["employment", "board membership", "campaign finance", "business entity", "criminal record", "family"]+++
 
 ## Identity
 

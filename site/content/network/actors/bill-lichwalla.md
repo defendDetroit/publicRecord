@@ -5,8 +5,7 @@ description = "PRESIDENT & CEO of Plante Moran Realpoint (since 2005). Partner, 
 weight = 6
 
 [extra]
-keywords = "Bill Lichwalla, Detroit charter school network, Brian Banks network"
-+++
+keywords = "Bill Lichwalla, Detroit charter school network, Brian Banks network"+++
 
 ## Bill Lichwalla
 

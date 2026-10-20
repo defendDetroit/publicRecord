@@ -5,8 +5,7 @@ description = "1882-1935. Noether's theorem: every symmetry has a conservation l
 weight = 4
 
 [extra]
-keywords = "Emmy Noether, commons, public knowledge, public education"
-+++
+keywords = "Emmy Noether, commons, public knowledge, public education"+++
 
 ## Emmy Noether
 

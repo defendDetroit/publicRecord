@@ -5,8 +5,7 @@ description = "Mayor"
 weight = 6
 
 [extra]
-keywords = "Mayor Mary Sheffield, Detroit charter school network, Brian Banks network"
-+++
+keywords = "Mayor Mary Sheffield, Detroit charter school network, Brian Banks network"+++
 
 ## Mayor Mary Sheffield
 

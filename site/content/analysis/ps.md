@@ -9,8 +9,7 @@ tags = ["parks", "commons", "love-letter", "ps", "tuebor"]
 og_title = "P.S. — To Every Park, Big and Small"
 og_description = "The investigation is the footnote. The land is the letter. Tuebor."
 og_image = "/portals/portal_6_0_you-door.png"
-author = "Kevin Mok — to every park, big and small"
-+++
+author = "Kevin Mok — to every park, big and small"+++
 
 To every park. Every where. Big and small.
 

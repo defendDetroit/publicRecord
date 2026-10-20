@@ -4,10 +4,9 @@ date: 2026-10-12
 type: "entity"
 graph_id: "devos_foundation"
 role: "DeVos family philanthropy"
-weight: 14
+weight: 4
 degree: 84
-tags: ["devos_network", "non_human", "tier_2"]
----
+tags: ["devos_network", "non_human", "tier_2"]---
 
 # Dick & Betsy DeVos Family Foundation
 

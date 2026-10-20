@@ -12,8 +12,7 @@ keywords = "Terrence Shulman Banks testimony, Shulman Center Compulsive Theft So
 actors = ["Terrence D. Shulman", "Brian Banks"]
 entities = ["Shulman Center for Compulsive Theft Spending & Hoarding"]
 connections = ["State Bar referral", "TCR testimony", "therapeutic assessment"]
-courts = ["Teacher Certification Review"]
-+++
+courts = ["Teacher Certification Review"]+++
 
 ## Position
 

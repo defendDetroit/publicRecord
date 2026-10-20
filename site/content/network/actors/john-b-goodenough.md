@@ -5,8 +5,7 @@ description = "1922-2023. Nobel Prize 2019 at age 97 — oldest Nobel laureate e
 weight = 5
 
 [extra]
-keywords = "John B. Goodenough, commons, public knowledge, public education"
-+++
+keywords = "John B. Goodenough, commons, public knowledge, public education"+++
 
 ## John B. Goodenough
 

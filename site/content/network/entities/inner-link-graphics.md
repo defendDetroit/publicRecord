@@ -12,8 +12,7 @@ keywords = "Inner Link Graphics, Inner Link Graphics Tenisha Yancey, Inner Link 
 actors = ["Judge Tenisha Yancey", "Judge Adam Sabree", "Judge Sean Perkins"]
 entities = ["Inner Link Graphics", "Banks Strategy LLC", "MacDowell Preparatory Academy", "Purpose Charter Academy"]
 courts = ["36th District Court"]
-connections = ["campaign finance"]
-+++
+connections = ["campaign finance"]+++
 
 ## Vendor Overview
 

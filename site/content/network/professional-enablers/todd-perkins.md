@@ -12,8 +12,7 @@ keywords = "Todd Perkins attorney, Perkins Banks attorney, Detroit charter schoo
 actors = ["Todd Perkins", "Brian Banks", "Judge Cylenthia Miller", "Judge Vonda Evans", "Judge Sean Perkins", "Judge Tenisha Yancey", "Judge Adam Sabree"]
 entities = ["Perkins Law Group"]
 courts = ["36th District Court"]
-connections = ["legal representation", "family", "employment"]
-+++
+connections = ["legal representation", "family", "employment"]+++
 
 ## Position
 

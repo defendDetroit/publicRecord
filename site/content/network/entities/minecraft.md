@@ -5,8 +5,7 @@ description = "2009. Created by Markus 'Notch' Persson alone in his apartment in
 weight = 5
 
 [extra]
-keywords = "Minecraft, commons, public knowledge, public education"
-+++
+keywords = "Minecraft, commons, public knowledge, public education"+++
 
 ## Minecraft
 

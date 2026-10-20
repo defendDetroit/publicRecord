@@ -1,10 +1,9 @@
 +++
 title = "A Breath"
 date = 2026-10-19
-weight = 5
+weight = 6
 [taxonomies]
-tags = ["investigation"]
-+++
+tags = ["investigation"]+++
 
 ---
 title: "A Breath"

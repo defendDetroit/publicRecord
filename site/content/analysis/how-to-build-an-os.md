@@ -5,8 +5,7 @@ weight = 29
 date = 2026-10-09
 
 [extra]
-keywords = "Dykema Gossett dark money, W Alan Wilk political compliance, Renae Moore Save Detroit Jobs, Detroit Leaders dark money, Our Neighborhoods First Duggan, RFFW LLC money laundering, Domains By Proxy dark money, Save Detroit Jobs Dykema phone number, Purpose Charter Academy dark money, bipartisan dark money Michigan, parasitic operating system, dark money infrastructure Michigan"
-+++
+keywords = "Dykema Gossett dark money, W Alan Wilk political compliance, Renae Moore Save Detroit Jobs, Detroit Leaders dark money, Our Neighborhoods First Duggan, RFFW LLC money laundering, Domains By Proxy dark money, Save Detroit Jobs Dykema phone number, Purpose Charter Academy dark money, bipartisan dark money Michigan, parasitic operating system, dark money infrastructure Michigan"+++
 
 ## What Is An Operating System?
 

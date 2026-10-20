@@ -5,8 +5,7 @@ description = "Newton and Leibniz (1680s). The mathematics of change. Foundation
 weight = 8
 
 [extra]
-keywords = "Calculus, Detroit charter school network, Brian Banks network"
-+++
+keywords = "Calculus, Detroit charter school network, Brian Banks network"+++
 
 ## Calculus
 

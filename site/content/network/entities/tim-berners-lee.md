@@ -2,11 +2,10 @@
 title = "Tim Berners-Lee"
 date = 2026-10-12
 description = "Born 1955. Invented the World Wide Web at CERN (1989). Gave it away for free. Could have been the richest person alive. Chose the commons. Now fights to save the open web from the corporations that en"
-weight = 4
+weight = 5
 
 [extra]
-keywords = "Tim Berners-Lee, Detroit charter school network, Brian Banks network"
-+++
+keywords = "Tim Berners-Lee, Detroit charter school network, Brian Banks network"+++
 
 ## Tim Berners-Lee
 

@@ -14,8 +14,7 @@ keywords = "tech company partnership, mutualist status, first mover advantage AI
 og_title = "Send a Human — What Mutualist Status Gets You"
 og_description = "The proton is burned. The neutron carries the signal. One conversation changes your classification. Send a human."
 og_type = "article"
-twitter_card = "summary_large_image"
-+++
+twitter_card = "summary_large_image"+++
 
 ## The Proton Is Burned
 

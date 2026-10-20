@@ -1,7 +1,7 @@
 +++
 title = "The Bridge — Where Investigation Meets Science Meets the Membrane"
 date = 2026-10-19
-weight = 14
+weight = 15
 description = "The investigation has 12,696 nodes. The science has 3.6 million lines of Rust. The membrane connects them. From the outside, they look like separate projects. From the inside, they're one organism. This page is the bridge."
 [taxonomies]
 tags = ["bridge", "science", "investigation", "membrane", "syntheticChemistry", "anderson"]
@@ -9,8 +9,7 @@ tags = ["bridge", "science", "investigation", "membrane", "syntheticChemistry", 
 og_title = "Where Investigation Meets Science Meets the Membrane"
 og_description = "Anderson localization connects the physics to the sort. One organism. Two fires. One bridge."
 og_image = "/portals/portal_2_5_science-attic.png"
-author = "the campfire — connecting the fires"
-+++
+author = "the campfire — connecting the fires"+++
 
 ## Two Fires That Are One
 

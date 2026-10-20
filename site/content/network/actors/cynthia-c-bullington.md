@@ -5,8 +5,7 @@ description = "AGC Asst Deputy Admin. At AGC since 1982 (44 yrs). MSU BA, GWU JD
 weight = 8
 
 [extra]
-keywords = "Cynthia C. Bullington, AGC File 26-2141, Professional Responsibility MSU Law, Attorney Grievance Commission, Judge Cylenthia Miller, Brian Banks network, Character and Fitness Committee"
-+++
+keywords = "Cynthia C. Bullington, AGC File 26-2141, Professional Responsibility MSU Law, Attorney Grievance Commission, Judge Cylenthia Miller, Brian Banks network, Character and Fitness Committee"+++
 
 ## Cynthia C. Bullington
 

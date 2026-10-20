@@ -5,8 +5,7 @@ description = ""
 weight = 4
 
 [extra]
-keywords = "State Bar UPL Department, Detroit charter school network, Brian Banks network"
-+++
+keywords = "State Bar UPL Department, Detroit charter school network, Brian Banks network"+++
 
 ## State Bar UPL Department
 

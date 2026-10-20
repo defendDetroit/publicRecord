@@ -4,10 +4,9 @@ date: 2026-10-12
 type: "actor"
 graph_id: "wilk"
 role: "Dark money architect"
-weight: 16
+weight: 4
 degree: 14
-tags: ["human", "dark_money", "tier_4"]
----
+tags: ["human", "dark_money", "tier_4"]---
 
 # W. Alan Wilk
 

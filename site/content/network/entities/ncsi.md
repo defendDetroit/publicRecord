@@ -4,10 +4,9 @@ date: 2026-10-12
 type: "entity"
 graph_id: "ncsi"
 role: "charter school authorizer training"
-weight: 19
+weight: 4
 degree: 86
-tags: ["education", "charter_ecosystem", "non_human", "tier_2"]
----
+tags: ["education", "charter_ecosystem", "non_human", "tier_2"]---
 
 # National Charter Schools Institute
 

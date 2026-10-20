@@ -14,8 +14,7 @@ keywords = "RICO NP hard complexity problem, graph theory RICO proof, zero knowl
 og_title = "NP → O(1): RICO Is a Complexity Problem. The Graph Solves It."
 og_description = "RICO is NP-hard. That's the defense — not the law, not the judges. The COMPLEXITY. But a graph doesn't forget. The structure IS the proof. It was right under your noses."
 og_type = "article"
-twitter_card = "summary_large_image"
-+++
+twitter_card = "summary_large_image"+++
 
 ## Why Nobody Prosecutes
 

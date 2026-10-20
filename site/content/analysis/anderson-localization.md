@@ -11,8 +11,7 @@ keywords = "Anderson localization Wayne County courts, judicial capture lattice,
 [taxonomies]
 actors = ["Cylenthia LaToye Miller", "Kelly Ramsey", "Aliyah Sabree", "Tenisha Yancey", "Adam Sabree", "Sean Perkins", "David Perkins", "Vonda Evans", "Denise Langford Morris"]
 entities = ["Wayne County 3rd Circuit Court", "36th District Court", "Wayne County Probate Court", "Oakland County Circuit Court"]
-connections = ["judicial capture", "bench composition", "case assignment", "Anderson localization"]
-+++
+connections = ["judicial capture", "bench composition", "case assignment", "Anderson localization"]+++
 
 {{ lens(active="lattice") }}
 

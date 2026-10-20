@@ -5,8 +5,7 @@ date = 2026-10-12
 weight = 94
 
 [extra]
-keywords = "Detroit charter school investigation questions, Walton Family Foundation charter school, Brian Banks MacDowell Prep criminal history, Roland Martin School Choice Black Choice, Dykema Gossett dark money Michigan, MAPSA charter lobby Walton funding, Pahara Institute credential washing, purpose charter academy board of directors, public records verification, MOECS teacher credentials"
-+++
+keywords = "Detroit charter school investigation questions, Walton Family Foundation charter school, Brian Banks MacDowell Prep criminal history, Roland Martin School Choice Black Choice, Dykema Gossett dark money Michigan, MAPSA charter lobby Walton funding, Pahara Institute credential washing, purpose charter academy board of directors, public records verification, MOECS teacher credentials"+++
 
 ## We're not telling you what to think. We're asking you to look.
 

@@ -13,8 +13,7 @@ keywords = "how to file your own lawsuit, pro se legal template, file complaint 
 og_title = "Action Across a Class — File Your Own Case. No Lawyer. No Unification."
 og_description = "Not class action. Action ACROSS a class. The graph teaches you to file your own case. 10,000 individual filings > one class action. The defendant deals with YOUR case, not theirs. Free templates."
 og_type = "article"
-twitter_card = "summary_large_image"
-+++
+twitter_card = "summary_large_image"+++
 
 # Action Across a Class
 

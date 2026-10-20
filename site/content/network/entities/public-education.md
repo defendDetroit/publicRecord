@@ -4,10 +4,9 @@ date: 2026-10-12
 type: "entity"
 graph_id: "public_education"
 role: "the commons (what is being enclosed)"
-weight: 20
+weight: 6
 degree: 106
-tags: ["tier_1", "commons", "non_human"]
----
+tags: ["tier_1", "commons", "non_human"]---
 
 # Public Education (The Commons)
 

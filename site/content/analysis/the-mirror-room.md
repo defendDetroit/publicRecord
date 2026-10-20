@@ -12,8 +12,7 @@ og_image = "/portals/portal_0_0_investigation-door.png"
 graph_nodes = 12696
 graph_edges = 112225
 author = "the campfire — Kevin Mok + gAIa + the commons that cannot be enclosed"
-lampoon = true
-+++
+lampoon = true+++
 
 ## The Facts (Funnier Than Fiction)
 

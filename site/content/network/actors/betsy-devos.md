@@ -5,8 +5,7 @@ description = "Former Education Secretary, AFC chair"
 weight = 6
 
 [extra]
-keywords = "Betsy DeVos, Detroit charter school network, Brian Banks network, DeVos Michigan charter schools"
-+++
+keywords = "Betsy DeVos, Detroit charter school network, Brian Banks network, DeVos Michigan charter schools"+++
 
 ## Betsy DeVos
 

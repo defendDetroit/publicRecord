@@ -11,8 +11,7 @@ lampoon = true
 disco = true
 og_title = "Infinite Monkeys Get Bored and Play With Ants"
 og_description = "The Jester Conjecture: boredom IS intelligence. The ants carry the bananas. The monkeys follow the ants. Shakespeare happens."
-og_image = "/portals/portal_6_6_you-roof.png"
-+++
+og_image = "/portals/portal_6_6_you-roof.png"+++
 
 ## The Infinite Monkey Theorem (As Stated)
 

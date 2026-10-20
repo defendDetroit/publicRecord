@@ -5,8 +5,7 @@ description = "Born 1944, Budapest. Architecture professor. Created the Rubik's 
 weight = 4
 
 [extra]
-keywords = "Erno Rubik, commons, public knowledge, public education"
-+++
+keywords = "Erno Rubik, commons, public knowledge, public education"+++
 
 ## Erno Rubik
 

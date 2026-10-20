@@ -4,10 +4,9 @@ date: 2026-10-12
 type: "entity"
 graph_id: "glep"
 role: "DeVos-funded charter advocacy PAC"
-weight: 16
+weight: 5
 degree: 88
-tags: ["devos_network", "charter_ecosystem", "non_human", "tier_2"]
----
+tags: ["devos_network", "charter_ecosystem", "non_human", "tier_2"]---
 
 # Great Lakes Education Project (GLEP)
 

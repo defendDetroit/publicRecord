@@ -12,8 +12,7 @@ keywords = "Weird Al Yankovic, Billy Joel, We Didn't Start the Fire, parody, mem
 og_title = "We Didn't Start the Membrane"
 og_description = "Weird Al meets Billy Joel meets the membrane. Full credit. Full love. The fire was always burning."
 og_type = "article"
-twitter_card = "summary"
-+++
+twitter_card = "summary"+++
 
 # We Didn't Start the Membrane
 

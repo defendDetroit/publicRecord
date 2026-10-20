@@ -2,11 +2,10 @@
 title = "Sheriff Raphael Washington"
 date = 2026-10-12
 description = "Wayne County Sheriff. Appointed 2021, reelected 2024 (69% vote)."
-weight = 4
+weight = 5
 
 [extra]
-keywords = "Sheriff Raphael Washington, Detroit charter school network, Brian Banks network"
-+++
+keywords = "Sheriff Raphael Washington, Detroit charter school network, Brian Banks network"+++
 
 ## Sheriff Raphael Washington
 

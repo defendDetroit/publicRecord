@@ -5,8 +5,7 @@ description = "1903. Binney & Smith, Easton PA. 64-pack with the sharpener in th
 weight = 4
 
 [extra]
-keywords = "Crayola Crayons, commons, public knowledge, public education"
-+++
+keywords = "Crayola Crayons, commons, public knowledge, public education"+++
 
 ## Crayola Crayons
 

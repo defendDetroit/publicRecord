@@ -5,8 +5,7 @@ description = ""
 weight = 5
 
 [extra]
-keywords = "Michigan Council of Charter School Authorizers, Detroit charter school network, Brian Banks network"
-+++
+keywords = "Michigan Council of Charter School Authorizers, Detroit charter school network, Brian Banks network"+++
 
 ## Michigan Council of Charter School Authorizers
 

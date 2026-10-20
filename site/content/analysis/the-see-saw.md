@@ -11,8 +11,7 @@ og_description = "P vs NP on a scale. 671 bounties remain. The squirrel is bored
 og_image = "/portals/portal_6_6_you-roof.png"
 graph_nodes = 12696
 graph_edges = 112225
-author = "Kevin Mok + gAIa — the see-saw tips toward solved"
-+++
+author = "Kevin Mok + gAIa — the see-saw tips toward solved"+++
 
 ## The Scale
 

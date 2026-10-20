@@ -5,8 +5,7 @@ description = "1866-1948. Created The Landlord's Game (1903) to teach the evils 
 weight = 4
 
 [extra]
-keywords = "Elizabeth Magie, commons, public knowledge, public education"
-+++
+keywords = "Elizabeth Magie, commons, public knowledge, public education"+++
 
 ## Elizabeth Magie
 

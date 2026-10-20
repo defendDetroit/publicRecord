@@ -5,8 +5,7 @@ description = "Former Dykema partner (1982-2007, retired). Co-authored MI charte
 weight = 6
 
 [extra]
-keywords = "Richard D. McLellan, Detroit charter school network, Brian Banks network"
-+++
+keywords = "Richard D. McLellan, Detroit charter school network, Brian Banks network"+++
 
 ## Richard D. McLellan
 

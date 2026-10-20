@@ -12,8 +12,7 @@ keywords = "Sean Perkins judge, Sean Perkins 36th District Court, Sean Perkins T
 actors = ["Judge Sean Perkins", "Todd Perkins", "Brian Banks", "Judge Cylenthia Miller", "Judge Tenisha Yancey", "Judge Adam Sabree", "Judge David Perkins"]
 entities = ["Perkins Law Group", "Banks Strategy LLC"]
 courts = ["36th District Court"]
-connections = ["family", "legal representation", "employment", "campaign finance"]
-+++
+connections = ["family", "legal representation", "employment", "campaign finance"]+++
 
 ## Position
 
