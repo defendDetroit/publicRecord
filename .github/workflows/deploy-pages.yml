@@ -42,3 +42,39 @@ jobs:
 
       - id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Verify deploy — the first visitor
+        run: |
+          echo "=== DOOR CHECK — verifying deploy ==="
+          sleep 15
+          PASS=0
+          FAIL=0
+          for path in \
+            "bingo-klein.json" \
+            "bingo-board.json" \
+            "maze-honeypots.json" \
+            "graph.json" \
+            "analysis/welcome/" \
+            "analysis/voxel-projected-graph-classification/" \
+            "analysis/the-water-is-fine/" \
+            "analysis/"; do
+            STATUS=$(curl -s -o /dev/null -w "%{http_code}" \
+              -H "User-Agent: deploy-verify/1.0 (the first visitor)" \
+              "https://defenddetroit.github.io/publicRecord/${path}" || echo "000")
+            if [ "$STATUS" = "200" ]; then
+              echo "  ✓ ${STATUS} ${path}"
+              PASS=$((PASS + 1))
+            else
+              echo "  ✗ ${STATUS} ${path}"
+              FAIL=$((FAIL + 1))
+            fi
+          done
+          echo ""
+          echo "  PASS: ${PASS}  FAIL: ${FAIL}"
+          echo "  the door check IS the first visitor."
+          echo "  the fleet follows the action."
+          echo "  humans follow the fleet."
+          if [ "$FAIL" -gt 4 ]; then
+            echo "  ⚠ more than half failed — deploy may be stuck"
+            exit 1
+          fi
