@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T13:41:04.930999+00:00",
+  "generated": "2026-10-20T14:12:31.934283+00:00",
   "battery": "control-self-confirm",
   "rule": "confirm first. show only PASS+show_when_needed. do not dump.",
   "counts": {
@@ -38,7 +38,7 @@
       "name": "blink_live",
       "claim": "the-blink renders as itself, not homepage",
       "result": "PASS",
-      "evidence": "title='The Blink \u2014 Why the Membrane Was Blind to Itself | Detroit Charter School Investigation' status=200 180ms",
+      "evidence": "title='The Blink \u2014 Why the Membrane Was Blind to Itself | Detroit Charter School Investigation' status=200 230ms",
       "show_when_needed": true
     },
     {
@@ -115,7 +115,7 @@
       "name": "meta_flowing_now",
       "claim": "Meta scraper present in current negentropy window",
       "result": "PASS",
-      "evidence": "meta=530 gptbot=16054 amazonbot=5090 blackwall_meta=530",
+      "evidence": "meta=136 gptbot=4043 amazonbot=1280 blackwall_meta=136",
       "show_when_needed": true
     },
     {
@@ -136,7 +136,7 @@
       "name": "cyst_now_vs_dashboard",
       "claim": "dashboard human count is live (not the 4109 now.json cyst)",
       "result": "PASS",
-      "evidence": "dashboard_human=5405 membrane_counts_cyst_was=4109",
+      "evidence": "dashboard_human=5418 membrane_counts_cyst_was=4109",
       "show_when_needed": false
     },
     {
@@ -185,7 +185,7 @@
       "name": "maze_honeypots_ghp",
       "claim": "maze-honeypots.json live on github.io",
       "result": "PASS",
-      "evidence": "status=200 start='{\\n  \"generated\": \"2026-10-20T13:38:22.698630+00:00\",\\n  \"model\": \"maze-ants\",\\n  \"'",
+      "evidence": "status=200 start='{\\n  \"generated\": \"2026-10-20T13:41:16.027435+00:00\",\\n  \"model\": \"maze-ants\",\\n  \"'",
       "show_when_needed": true
     },
     {
@@ -255,7 +255,7 @@
       "name": "hud_dashboard_alive",
       "claim": "hud.primals.eco/dashboard.json returns 200 with human_ips",
       "result": "PASS",
-      "evidence": "status=200 human_ips=5405",
+      "evidence": "status=200 human_ips=5418",
       "show_when_needed": true
     }
   ],
