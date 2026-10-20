@@ -28,22 +28,31 @@
       "sort_pass": 1
     },
     "dykema": {
-      "classification": "null",
-      "method": "phase1",
-      "confidence": 0.9,
-      "sort_pass": 1
+      "classification": "non-self",
+      "method": "eastgate_sort",
+      "confidence": 0.95,
+      "sort_pass": 1,
+      "sort_class": "non-self",
+      "type": "entity",
+      "eastgate_sorted": true
     },
     "dykema_federal_pac": {
-      "classification": "null",
-      "method": "phase1",
-      "confidence": 0.9,
-      "sort_pass": 1
+      "classification": "non-self",
+      "method": "eastgate_sort",
+      "confidence": 0.95,
+      "sort_pass": 1,
+      "sort_class": "non-self",
+      "type": "entity",
+      "eastgate_sorted": true
     },
     "put_progress_first": {
-      "classification": "null",
-      "method": "phase1",
-      "confidence": 0.9,
-      "sort_pass": 1
+      "classification": "non-self",
+      "method": "eastgate_sort",
+      "confidence": 0.95,
+      "sort_pass": 1,
+      "sort_class": "non-self",
+      "type": "entity",
+      "eastgate_sorted": true
     },
     "cmu": {
       "classification": "self",
@@ -71,11 +80,14 @@
       "sort_pass": 2
     },
     "advance_detroit": {
-      "classification": "null",
-      "confidence": 0.6,
-      "method": "banks_political",
+      "classification": "non-self",
+      "confidence": 0.9,
+      "method": "eastgate_sort",
       "note": "Political connection to Banks.",
-      "sort_pass": 2
+      "sort_pass": 2,
+      "sort_class": "non-self",
+      "type": "entity",
+      "eastgate_sorted": true
     },
     "ag_charitable_trust": {
       "classification": "self",
@@ -113,32 +125,44 @@
       "sort_pass": 2
     },
     "alice_thompson": {
-      "classification": "null",
-      "confidence": 0.6,
-      "method": "banks_political",
+      "classification": "partial",
+      "confidence": 0.75,
+      "method": "eastgate_sort",
       "note": "Political connection to Banks.",
-      "sort_pass": 2
+      "sort_pass": 2,
+      "sort_class": "partial",
+      "type": "person",
+      "eastgate_sorted": true
     },
     "alma_stallworth": {
-      "classification": "null",
-      "confidence": 0.6,
-      "method": "banks_political",
+      "classification": "partial",
+      "confidence": 0.75,
+      "method": "eastgate_sort",
       "note": "Political connection to Banks.",
-      "sort_pass": 2
+      "sort_pass": 2,
+      "sort_class": "partial",
+      "type": "person",
+      "eastgate_sorted": true
     },
     "anchor_rock": {
-      "classification": "null",
-      "confidence": 0.7,
-      "method": "banks_governance",
+      "classification": "non-self",
+      "confidence": 0.9,
+      "method": "eastgate_sort",
       "note": "Entity governed by Banks.",
-      "sort_pass": 2
+      "sort_pass": 2,
+      "sort_class": "non-self",
+      "type": "entity",
+      "eastgate_sorted": true
     },
     "anchor_rock_found": {
-      "classification": "null",
-      "confidence": 0.7,
-      "method": "banks_governance",
+      "classification": "non-self",
+      "confidence": 0.9,
+      "method": "eastgate_sort",
       "note": "Entity governed by Banks.",
-      "sort_pass": 2
+      "sort_pass": 2,
+      "sort_class": "non-self",
+      "type": "entity",
+      "eastgate_sorted": true
     },
     "ann_arbor": {
       "classification": "self",
@@ -148,18 +172,24 @@
       "sort_pass": 2
     },
     "ars_holdings": {
-      "classification": "null",
-      "confidence": 0.7,
-      "method": "banks_governance",
+      "classification": "non-self",
+      "confidence": 0.85,
+      "method": "eastgate_sort",
       "note": "Entity governed by Banks.",
-      "sort_pass": 2
+      "sort_pass": 2,
+      "sort_class": "non-self",
+      "type": "entity",
+      "eastgate_sorted": true
     },
     "b_rodericks": {
-      "classification": "null",
-      "confidence": 0.7,
-      "method": "banks_governance",
+      "classification": "non-self",
+      "confidence": 0.8,
+      "method": "eastgate_sort",
       "note": "Entity governed by Banks.",
-      "sort_pass": 2
+      "sort_pass": 2,
+      "sort_class": "non-self",
+      "type": "entity",
+      "eastgate_sorted": true
     },
     "banks": {
       "classification": "non-self",
@@ -169,18 +199,24 @@
       "sort_pass": 2
     },
     "banks_living_trust": {
-      "classification": "null",
-      "confidence": 0.75,
-      "method": "banks_ownership",
+      "classification": "non-self",
+      "confidence": 0.95,
+      "method": "eastgate_sort",
       "note": "Entity owned by Banks.",
-      "sort_pass": 2
+      "sort_pass": 2,
+      "sort_class": "non-self",
+      "type": "entity",
+      "eastgate_sorted": true
     },
     "banks_powerwash": {
-      "classification": "null",
-      "confidence": 0.7,
-      "method": "banks_governance",
+      "classification": "non-self",
+      "confidence": 0.9,
+      "method": "eastgate_sort",
       "note": "Entity governed by Banks.",
-      "sort_pass": 2
+      "sort_pass": 2,
+      "sort_class": "non-self",
+      "type": "entity",
+      "eastgate_sorted": true
     },
     "beasley": {
       "classification": "partial",
@@ -190,18 +226,24 @@
       "sort_pass": 2
     },
     "bert_johnson": {
-      "classification": "null",
-      "confidence": 0.6,
-      "method": "banks_political",
+      "classification": "partial",
+      "confidence": 0.75,
+      "method": "eastgate_sort",
       "note": "Political connection to Banks.",
-      "sort_pass": 2
+      "sort_pass": 2,
+      "sort_class": "partial",
+      "type": "person",
+      "eastgate_sorted": true
     },
     "black_caucus_found": {
-      "classification": "null",
-      "confidence": 0.6,
-      "method": "banks_political",
+      "classification": "partial",
+      "confidence": 0.75,
+      "method": "eastgate_sort",
       "note": "Political connection to Banks.",
-      "sort_pass": 2
+      "sort_pass": 2,
+      "sort_class": "partial",
+      "type": "institution",
+      "eastgate_sorted": true
     },
     "bullington": {
       "classification": "self",
@@ -225,11 +267,14 @@
       "sort_pass": 2
     },
     "carolyn_kilpatrick": {
-      "classification": "null",
-      "confidence": 0.6,
-      "method": "banks_political",
+      "classification": "partial",
+      "confidence": 0.8,
+      "method": "eastgate_sort",
       "note": "Political connection to Banks.",
-      "sort_pass": 2
+      "sort_pass": 2,
+      "sort_class": "partial",
+      "type": "person",
+      "eastgate_sorted": true
     },
     "chalcee_norwood": {
       "classification": "partial",
@@ -239,11 +284,14 @@
       "sort_pass": 2
     },
     "city_hill": {
-      "classification": "null",
-      "confidence": 0.7,
-      "method": "banks_governance",
+      "classification": "non-self",
+      "confidence": 0.85,
+      "method": "eastgate_sort",
       "note": "Entity governed by Banks.",
-      "sort_pass": 2
+      "sort_pass": 2,
+      "sort_class": "non-self",
+      "type": "entity",
+      "eastgate_sorted": true
     },
     "clora": {
       "classification": "partial",
@@ -309,39 +357,54 @@
       "sort_pass": 2
     },
     "dumas": {
-      "classification": "null",
-      "confidence": 0.6,
-      "method": "banks_political",
+      "classification": "partial",
+      "confidence": 0.7,
+      "method": "eastgate_sort",
       "note": "Political connection to Banks.",
-      "sort_pass": 2
+      "sort_pass": 2,
+      "sort_class": "partial",
+      "type": "person",
+      "eastgate_sorted": true
     },
     "dykema_state_pac": {
-      "classification": "null",
-      "confidence": 0.65,
-      "method": "pac",
+      "classification": "non-self",
+      "confidence": 0.9,
+      "method": "eastgate_sort",
       "note": "Political committee. Routing.",
-      "sort_pass": 2
+      "sort_pass": 2,
+      "sort_class": "non-self",
+      "type": "entity",
+      "eastgate_sorted": true
     },
     "eastside_slate": {
-      "classification": "null",
-      "confidence": 0.6,
-      "method": "banks_political",
+      "classification": "non-self",
+      "confidence": 0.85,
+      "method": "eastgate_sort",
       "note": "Political connection to Banks.",
-      "sort_pass": 2
+      "sort_pass": 2,
+      "sort_class": "non-self",
+      "type": "entity",
+      "eastgate_sorted": true
     },
     "evans": {
-      "classification": "null",
-      "confidence": 0.6,
-      "method": "banks_political",
+      "classification": "partial",
+      "confidence": 0.7,
+      "method": "eastgate_sort",
       "note": "Political connection to Banks.",
-      "sort_pass": 2
+      "sort_pass": 2,
+      "sort_class": "partial",
+      "type": "person",
+      "eastgate_sorted": true
     },
     "free_flow": {
-      "classification": "null",
-      "confidence": 0.7,
-      "method": "banks_governance",
+      "classification": "non-self",
+      "confidence": 0.85,
+      "method": "eastgate_sort",
       "note": "Entity governed by Banks.",
-      "sort_pass": 2
+      "sort_pass": 2,
+      "sort_class": "non-self",
+      "type": "entity",
+      "eastgate_sorted": true
     },
     "gay_dagnogo": {
       "classification": "partial",
@@ -351,18 +414,24 @@
       "sort_pass": 2
     },
     "gl_upfitting": {
-      "classification": "null",
-      "confidence": 0.7,
-      "method": "banks_governance",
+      "classification": "non-self",
+      "confidence": 0.85,
+      "method": "eastgate_sort",
       "note": "Entity governed by Banks.",
-      "sort_pass": 2
+      "sort_pass": 2,
+      "sort_class": "non-self",
+      "type": "entity",
+      "eastgate_sorted": true
     },
     "gl_vision": {
-      "classification": "null",
-      "confidence": 0.7,
-      "method": "banks_governance",
+      "classification": "non-self",
+      "confidence": 0.85,
+      "method": "eastgate_sort",
       "note": "Entity governed by Banks.",
-      "sort_pass": 2
+      "sort_pass": 2,
+      "sort_class": "non-self",
+      "type": "entity",
+      "eastgate_sorted": true
     },
     "harper_woods": {
       "classification": "self",
@@ -379,11 +448,14 @@
       "sort_pass": 2
     },
     "inner_link": {
-      "classification": "null",
-      "confidence": 0.6,
-      "method": "banks_payment",
+      "classification": "non-self",
+      "confidence": 0.85,
+      "method": "eastgate_sort",
       "note": "Payment relationship with Banks.",
-      "sort_pass": 2
+      "sort_pass": 2,
+      "sort_class": "non-self",
+      "type": "entity",
+      "eastgate_sorted": true
     },
     "irs_eo": {
       "classification": "self",
@@ -449,11 +521,14 @@
       "sort_pass": 2
     },
     "keith_stallworth": {
-      "classification": "null",
-      "confidence": 0.6,
-      "method": "banks_political",
+      "classification": "partial",
+      "confidence": 0.75,
+      "method": "eastgate_sort",
       "note": "Political connection to Banks.",
-      "sort_pass": 2
+      "sort_pass": 2,
+      "sort_class": "partial",
+      "type": "person",
+      "eastgate_sorted": true
     },
     "kelly_ramsey": {
       "classification": "self",
@@ -463,11 +538,14 @@
       "sort_pass": 2
     },
     "kwame": {
-      "classification": "null",
-      "confidence": 0.6,
-      "method": "banks_political",
+      "classification": "partial",
+      "confidence": 0.85,
+      "method": "eastgate_sort",
       "note": "Political connection to Banks.",
-      "sort_pass": 2
+      "sort_pass": 2,
+      "sort_class": "partial",
+      "type": "person",
+      "eastgate_sorted": true
     },
     "langford_morris": {
       "classification": "self",
@@ -484,18 +562,24 @@
       "sort_pass": 2
     },
     "mccastle": {
-      "classification": "null",
-      "confidence": 0.6,
-      "method": "banks_payment",
+      "classification": "non-self",
+      "confidence": 0.8,
+      "method": "eastgate_sort",
       "note": "Payment relationship with Banks.",
-      "sort_pass": 2
+      "sort_pass": 2,
+      "sort_class": "non-self",
+      "type": "person",
+      "eastgate_sorted": true
     },
     "mckinney": {
-      "classification": "null",
-      "confidence": 0.6,
-      "method": "banks_payment",
+      "classification": "non-self",
+      "confidence": 0.8,
+      "method": "eastgate_sort",
       "note": "Payment relationship with Banks.",
-      "sort_pass": 2
+      "sort_pass": 2,
+      "sort_class": "non-self",
+      "type": "person",
+      "eastgate_sorted": true
     },
     "mde": {
       "classification": "partial",
@@ -533,11 +617,14 @@
       "sort_pass": 2
     },
     "michigan_first_principles": {
-      "classification": "null",
-      "confidence": 0.55,
-      "method": "null_formation",
+      "classification": "self",
+      "confidence": 0.75,
+      "method": "eastgate_sort",
       "note": "Formed by or connected to null routing entity.",
-      "sort_pass": 2
+      "sort_pass": 2,
+      "sort_class": "self",
+      "type": "concept",
+      "eastgate_sorted": true
     },
     "miller": {
       "classification": "partial",
@@ -589,32 +676,44 @@
       "sort_pass": 2
     },
     "of_the_light": {
-      "classification": "null",
-      "confidence": 0.7,
-      "method": "banks_governance",
+      "classification": "non-self",
+      "confidence": 0.85,
+      "method": "eastgate_sort",
       "note": "Entity governed by Banks.",
-      "sort_pass": 2
+      "sort_pass": 2,
+      "sort_class": "non-self",
+      "type": "entity",
+      "eastgate_sorted": true
     },
     "ofa": {
-      "classification": "null",
-      "confidence": 0.7,
-      "method": "banks_governance",
+      "classification": "non-self",
+      "confidence": 0.85,
+      "method": "eastgate_sort",
       "note": "Entity governed by Banks.",
-      "sort_pass": 2
+      "sort_pass": 2,
+      "sort_class": "non-self",
+      "type": "entity",
+      "eastgate_sorted": true
     },
     "onf": {
-      "classification": "null",
+      "classification": "partial",
       "confidence": 0.55,
-      "method": "null_formation",
+      "method": "eastgate_sort",
       "note": "Formed by or connected to null routing entity.",
-      "sort_pass": 2
+      "sort_pass": 2,
+      "sort_class": "partial",
+      "type": "entity",
+      "eastgate_sorted": true
     },
     "pacs": {
-      "classification": "null",
-      "confidence": 0.7,
-      "method": "banks_governance",
+      "classification": "non-self",
+      "confidence": 0.85,
+      "method": "eastgate_sort",
       "note": "Entity governed by Banks.",
-      "sort_pass": 2
+      "sort_pass": 2,
+      "sort_class": "non-self",
+      "type": "concept",
+      "eastgate_sorted": true
     },
     "pahara_institute": {
       "classification": "self",
@@ -624,11 +723,14 @@
       "sort_pass": 2
     },
     "peninsula_fund": {
-      "classification": "null",
-      "confidence": 0.55,
-      "method": "null_formation",
+      "classification": "partial",
+      "confidence": 0.6,
+      "method": "eastgate_sort",
       "note": "Formed by or connected to null routing entity.",
-      "sort_pass": 2
+      "sort_pass": 2,
+      "sort_class": "partial",
+      "type": "entity",
+      "eastgate_sorted": true
     },
     "perkins_d": {
       "classification": "self",
@@ -638,11 +740,14 @@
       "sort_pass": 2
     },
     "perkins_law": {
-      "classification": "null",
-      "confidence": 0.65,
-      "method": "banks_legal",
+      "classification": "non-self",
+      "confidence": 0.85,
+      "method": "eastgate_sort",
       "note": "Legal infrastructure for Banks.",
-      "sort_pass": 2
+      "sort_pass": 2,
+      "sort_class": "non-self",
+      "type": "entity",
+      "eastgate_sorted": true
     },
     "perkins_sean": {
       "classification": "self",
@@ -652,18 +757,24 @@
       "sort_pass": 2
     },
     "perkins_t": {
-      "classification": "null",
-      "confidence": 0.65,
-      "method": "banks_legal",
+      "classification": "non-self",
+      "confidence": 0.8,
+      "method": "eastgate_sort",
       "note": "Legal infrastructure for Banks.",
-      "sort_pass": 2
+      "sort_pass": 2,
+      "sort_class": "non-self",
+      "type": "person",
+      "eastgate_sorted": true
     },
     "purpose_foundation": {
-      "classification": "null",
-      "confidence": 0.7,
-      "method": "banks_governance",
+      "classification": "non-self",
+      "confidence": 0.85,
+      "method": "eastgate_sort",
       "note": "Entity governed by Banks.",
-      "sort_pass": 2
+      "sort_pass": 2,
+      "sort_class": "non-self",
+      "type": "entity",
+      "eastgate_sorted": true
     },
     "ramsey": {
       "classification": "self",
@@ -673,11 +784,14 @@
       "sort_pass": 2
     },
     "right_turn": {
-      "classification": "null",
-      "confidence": 0.7,
-      "method": "banks_governance",
+      "classification": "non-self",
+      "confidence": 0.85,
+      "method": "eastgate_sort",
       "note": "Entity governed by Banks.",
-      "sort_pass": 2
+      "sort_pass": 2,
+      "sort_class": "non-self",
+      "type": "entity",
+      "eastgate_sorted": true
     },
     "ross_jones": {
       "classification": "self",
@@ -701,11 +815,14 @@
       "sort_pass": 2
     },
     "sabree_e": {
-      "classification": "null",
-      "confidence": 0.6,
-      "method": "banks_political",
+      "classification": "partial",
+      "confidence": 0.75,
+      "method": "eastgate_sort",
       "note": "Political connection to Banks.",
-      "sort_pass": 2
+      "sort_pass": 2,
+      "sort_class": "partial",
+      "type": "person",
+      "eastgate_sorted": true
     },
     "sbe": {
       "classification": "partial",
@@ -729,11 +846,14 @@
       "sort_pass": 2
     },
     "sdj": {
-      "classification": "null",
-      "confidence": 0.55,
-      "method": "null_formation",
+      "classification": "partial",
+      "confidence": 0.5,
+      "method": "eastgate_sort",
       "note": "Formed by or connected to null routing entity.",
-      "sort_pass": 2
+      "sort_pass": 2,
+      "sort_class": "partial",
+      "type": "entity",
+      "eastgate_sorted": true
     },
     "sean_perkins": {
       "classification": "partial",
@@ -743,18 +863,24 @@
       "sort_pass": 2
     },
     "serenity": {
-      "classification": "null",
-      "confidence": 0.75,
-      "method": "banks_ownership",
+      "classification": "non-self",
+      "confidence": 0.9,
+      "method": "eastgate_sort",
       "note": "Entity owned by Banks.",
-      "sort_pass": 2
+      "sort_pass": 2,
+      "sort_class": "non-self",
+      "type": "entity",
+      "eastgate_sorted": true
     },
     "sheffield": {
-      "classification": "null",
-      "confidence": 0.6,
-      "method": "banks_political",
+      "classification": "partial",
+      "confidence": 0.7,
+      "method": "eastgate_sort",
       "note": "Political connection to Banks.",
-      "sort_pass": 2
+      "sort_pass": 2,
+      "sort_class": "partial",
+      "type": "person",
+      "eastgate_sorted": true
     },
     "snyder_nikki": {
       "classification": "self",
@@ -764,11 +890,14 @@
       "sort_pass": 2
     },
     "stallworth_t": {
-      "classification": "null",
-      "confidence": 0.6,
-      "method": "banks_political",
+      "classification": "partial",
+      "confidence": 0.75,
+      "method": "eastgate_sort",
       "note": "Political connection to Banks.",
-      "sort_pass": 2
+      "sort_pass": 2,
+      "sort_class": "partial",
+      "type": "person",
+      "eastgate_sorted": true
     },
     "state_ar": {
       "classification": "self",
@@ -813,18 +942,24 @@
       "sort_pass": 2
     },
     "sun_community": {
-      "classification": "null",
-      "confidence": 0.7,
-      "method": "banks_governance",
+      "classification": "non-self",
+      "confidence": 0.85,
+      "method": "eastgate_sort",
       "note": "Entity governed by Banks.",
-      "sort_pass": 2
+      "sort_pass": 2,
+      "sort_class": "non-self",
+      "type": "entity",
+      "eastgate_sorted": true
     },
     "todd_perkins": {
-      "classification": "null",
-      "confidence": 0.65,
-      "method": "banks_legal",
+      "classification": "non-self",
+      "confidence": 0.85,
+      "method": "eastgate_sort",
       "note": "Legal infrastructure for Banks.",
-      "sort_pass": 2
+      "sort_pass": 2,
+      "sort_class": "non-self",
+      "type": "person",
+      "eastgate_sorted": true
     },
     "upl_dept": {
       "classification": "self",
@@ -876,25 +1011,34 @@
       "sort_pass": 2
     },
     "wendell_anthony": {
-      "classification": "null",
-      "confidence": 0.6,
-      "method": "banks_political",
+      "classification": "partial",
+      "confidence": 0.8,
+      "method": "eastgate_sort",
       "note": "Political connection to Banks.",
-      "sort_pass": 2
+      "sort_pass": 2,
+      "sort_class": "partial",
+      "type": "person",
+      "eastgate_sorted": true
     },
     "whitlowbanks": {
-      "classification": "null",
-      "confidence": 0.7,
-      "method": "banks_governance",
+      "classification": "non-self",
+      "confidence": 0.9,
+      "method": "eastgate_sort",
       "note": "Entity governed by Banks.",
-      "sort_pass": 2
+      "sort_pass": 2,
+      "sort_class": "non-self",
+      "type": "entity",
+      "eastgate_sorted": true
     },
     "wilk": {
-      "classification": "null",
+      "classification": "partial",
       "confidence": 0.55,
-      "method": "null_formation",
+      "method": "eastgate_sort",
       "note": "Formed by or connected to null routing entity.",
-      "sort_pass": 2
+      "sort_pass": 2,
+      "sort_class": "partial",
+      "type": "person",
+      "eastgate_sorted": true
     },
     "yancey": {
       "classification": "partial",
@@ -1114,18 +1258,24 @@
       "sort_pass": 3
     },
     "archer": {
-      "classification": "null",
-      "confidence": 0.45,
-      "method": "cascade_null",
+      "classification": "partial",
+      "confidence": 0.6,
+      "method": "eastgate_sort",
       "note": "Formation/governance connection to null (cascade).",
-      "sort_pass": 3
+      "sort_pass": 3,
+      "sort_class": "partial",
+      "type": "person",
+      "eastgate_sorted": true
     },
     "archer_jr": {
-      "classification": "null",
-      "confidence": 0.45,
-      "method": "cascade_null",
+      "classification": "partial",
+      "confidence": 0.6,
+      "method": "eastgate_sort",
       "note": "Formation/governance connection to null (cascade).",
-      "sort_pass": 3
+      "sort_pass": 3,
+      "sort_class": "partial",
+      "type": "person",
+      "eastgate_sorted": true
     },
     "baker_college": {
       "classification": "other",
@@ -1156,11 +1306,14 @@
       "sort_pass": 3
     },
     "bettison": {
-      "classification": "null",
-      "confidence": 0.45,
-      "method": "cascade_null",
+      "classification": "partial",
+      "confidence": 0.65,
+      "method": "eastgate_sort",
       "note": "Formation/governance connection to null (cascade).",
-      "sort_pass": 3
+      "sort_pass": 3,
+      "sort_class": "partial",
+      "type": "person",
+      "eastgate_sorted": true
     },
     "bing": {
       "classification": "other",
@@ -1247,11 +1400,14 @@
       "sort_pass": 3
     },
     "citizendetroit": {
-      "classification": "null",
-      "confidence": 0.45,
-      "method": "cascade_null",
+      "classification": "self",
+      "confidence": 0.8,
+      "method": "eastgate_sort",
       "note": "Formation/governance connection to null (cascade).",
-      "sort_pass": 3
+      "sort_pass": 3,
+      "sort_class": "self",
+      "type": "entity",
+      "eastgate_sorted": true
     },
     "city_council": {
       "classification": "other",
@@ -1275,11 +1431,14 @@
       "sort_pass": 3
     },
     "coleman_young_ii": {
-      "classification": "null",
-      "confidence": 0.45,
-      "method": "cascade_null",
+      "classification": "partial",
+      "confidence": 0.8,
+      "method": "eastgate_sort",
       "note": "Formation/governance connection to null (cascade).",
-      "sort_pass": 3
+      "sort_pass": 3,
+      "sort_class": "partial",
+      "type": "person",
+      "eastgate_sorted": true
     },
     "cooley_law": {
       "classification": "other",
@@ -1303,11 +1462,14 @@
       "sort_pass": 3
     },
     "daniels": {
-      "classification": "null",
-      "confidence": 0.45,
-      "method": "cascade_null",
+      "classification": "partial",
+      "confidence": 0.65,
+      "method": "eastgate_sort",
       "note": "Formation/governance connection to null (cascade).",
-      "sort_pass": 3
+      "sort_pass": 3,
+      "sort_class": "partial",
+      "type": "person",
+      "eastgate_sorted": true
     },
     "depaul_law": {
       "classification": "other",
@@ -1324,11 +1486,14 @@
       "sort_pass": 3
     },
     "detroit_college_law": {
-      "classification": "null",
-      "confidence": 0.45,
-      "method": "cascade_null",
+      "classification": "self",
+      "confidence": 0.7,
+      "method": "eastgate_sort",
       "note": "Formation/governance connection to null (cascade).",
-      "sort_pass": 3
+      "sort_pass": 3,
+      "sort_class": "self",
+      "type": "institution",
+      "eastgate_sorted": true
     },
     "detroit_peer": {
       "classification": "other",
@@ -1352,11 +1517,14 @@
       "sort_pass": 3
     },
     "djf": {
-      "classification": "null",
-      "confidence": 0.45,
-      "method": "cascade_null",
+      "classification": "partial",
+      "confidence": 0.5,
+      "method": "eastgate_sort",
       "note": "Formation/governance connection to null (cascade).",
-      "sort_pass": 3
+      "sort_pass": 3,
+      "sort_class": "partial",
+      "type": "entity",
+      "eastgate_sorted": true
     },
     "dpsa": {
       "classification": "other",
@@ -1716,11 +1884,14 @@
       "sort_pass": 3
     },
     "latisha_johnson_cc": {
-      "classification": "null",
-      "confidence": 0.45,
-      "method": "cascade_null",
+      "classification": "partial",
+      "confidence": 0.65,
+      "method": "eastgate_sort",
       "note": "Formation/governance connection to null (cascade).",
-      "sort_pass": 3
+      "sort_pass": 3,
+      "sort_class": "partial",
+      "type": "person",
+      "eastgate_sorted": true
     },
     "lawrence_tech": {
       "classification": "other",
@@ -1730,11 +1901,14 @@
       "sort_pass": 3
     },
     "leach": {
-      "classification": "null",
-      "confidence": 0.45,
-      "method": "cascade_null",
+      "classification": "partial",
+      "confidence": 0.6,
+      "method": "eastgate_sort",
       "note": "Formation/governance connection to null (cascade).",
-      "sort_pass": 3
+      "sort_pass": 3,
+      "sort_class": "partial",
+      "type": "person",
+      "eastgate_sorted": true
     },
     "lenhoff": {
       "classification": "other",
@@ -1807,11 +1981,14 @@
       "sort_pass": 3
     },
     "naacp_detroit": {
-      "classification": "null",
-      "confidence": 0.45,
-      "method": "cascade_null",
+      "classification": "self",
+      "confidence": 0.85,
+      "method": "eastgate_sort",
       "note": "Formation/governance connection to null (cascade).",
-      "sort_pass": 3
+      "sort_pass": 3,
+      "sort_class": "self",
+      "type": "institution",
+      "eastgate_sorted": true
     },
     "naacp_lansing": {
       "classification": "other",
@@ -1919,18 +2096,24 @@
       "sort_pass": 3
     },
     "renae_moore": {
-      "classification": "null",
-      "confidence": 0.45,
-      "method": "cascade_null",
+      "classification": "partial",
+      "confidence": 0.65,
+      "method": "eastgate_sort",
       "note": "Formation/governance connection to null (cascade).",
-      "sort_pass": 3
+      "sort_pass": 3,
+      "sort_class": "partial",
+      "type": "person",
+      "eastgate_sorted": true
     },
     "rffw": {
-      "classification": "null",
-      "confidence": 0.45,
-      "method": "cascade_null",
+      "classification": "partial",
+      "confidence": 0.5,
+      "method": "eastgate_sort",
       "note": "Formation/governance connection to null (cascade).",
-      "sort_pass": 3
+      "sort_pass": 3,
+      "sort_class": "partial",
+      "type": "entity",
+      "eastgate_sorted": true
     },
     "river_rouge_sd": {
       "classification": "other",
@@ -1940,18 +2123,24 @@
       "sort_pass": 3
     },
     "roland_martin": {
-      "classification": "null",
-      "confidence": 0.45,
-      "method": "cascade_null",
+      "classification": "partial",
+      "confidence": 0.7,
+      "method": "eastgate_sort",
       "note": "Formation/governance connection to null (cascade).",
-      "sort_pass": 3
+      "sort_pass": 3,
+      "sort_class": "partial",
+      "type": "person",
+      "eastgate_sorted": true
     },
     "ross": {
-      "classification": "null",
-      "confidence": 0.45,
-      "method": "cascade_null",
+      "classification": "partial",
+      "confidence": 0.6,
+      "method": "eastgate_sort",
       "note": "Formation/governance connection to null (cascade).",
-      "sort_pass": 3
+      "sort_pass": 3,
+      "sort_class": "partial",
+      "type": "person",
+      "eastgate_sorted": true
     },
     "ross_catering": {
       "classification": "other",
@@ -1989,11 +2178,14 @@
       "sort_pass": 3
     },
     "sbm_burrell": {
-      "classification": "null",
-      "confidence": 0.45,
-      "method": "cascade_null",
+      "classification": "partial",
+      "confidence": 0.5,
+      "method": "eastgate_sort",
       "note": "Formation/governance connection to null (cascade).",
-      "sort_pass": 3
+      "sort_pass": 3,
+      "sort_class": "partial",
+      "type": "person",
+      "eastgate_sorted": true
     },
     "sbm_clay": {
       "classification": "partial",
@@ -2080,11 +2272,14 @@
       "sort_pass": 3
     },
     "scbc_tour": {
-      "classification": "null",
-      "confidence": 0.45,
-      "method": "cascade_null",
+      "classification": "partial",
+      "confidence": 0.5,
+      "method": "eastgate_sort",
       "note": "Formation/governance connection to null (cascade).",
-      "sort_pass": 3
+      "sort_pass": 3,
+      "sort_class": "partial",
+      "type": "event",
+      "eastgate_sorted": true
     },
     "senier": {
       "classification": "self",
@@ -2094,11 +2289,14 @@
       "sort_pass": 3
     },
     "sheila_cockrel": {
-      "classification": "null",
-      "confidence": 0.45,
-      "method": "cascade_null",
+      "classification": "partial",
+      "confidence": 0.75,
+      "method": "eastgate_sort",
       "note": "Formation/governance connection to null (cascade).",
-      "sort_pass": 3
+      "sort_pass": 3,
+      "sort_class": "partial",
+      "type": "person",
+      "eastgate_sorted": true
     },
     "sherwood_foundation": {
       "classification": "other",
@@ -2136,11 +2334,14 @@
       "sort_pass": 3
     },
     "the_74": {
-      "classification": "null",
-      "confidence": 0.45,
-      "method": "cascade_null",
+      "classification": "self",
+      "confidence": 0.7,
+      "method": "eastgate_sort",
       "note": "Formation/governance connection to null (cascade).",
-      "sort_pass": 3
+      "sort_pass": 3,
+      "sort_class": "self",
+      "type": "entity",
+      "eastgate_sorted": true
     },
     "thomas_ryan": {
       "classification": "partial",
@@ -2241,11 +2442,14 @@
       "sort_pass": 3
     },
     "virgil_smith": {
-      "classification": "null",
-      "confidence": 0.45,
-      "method": "cascade_null",
+      "classification": "partial",
+      "confidence": 0.75,
+      "method": "eastgate_sort",
       "note": "Formation/governance connection to null (cascade).",
-      "sort_pass": 3
+      "sort_pass": 3,
+      "sort_class": "partial",
+      "type": "person",
+      "eastgate_sorted": true
     },
     "vitti": {
       "classification": "partial",
@@ -2297,29 +2501,38 @@
       "sort_pass": 3
     },
     "fleet_microsoft": {
-      "classification": "null",
+      "classification": "non-self",
       "confidence": 0.95,
       "method": "asn_lookup",
       "note": "AS8075 Microsoft Corporation. 1.38M requests from 74.7.x.x Atlanta GA. Largest unattributed fleet.",
       "sort_pass": 3,
       "asn": "AS8075",
-      "requests": 1378000
+      "requests": 1378000,
+      "sort_class": "non-self",
+      "type": "entity",
+      "eastgate_sorted": true
     },
     "fleet_openai": {
-      "classification": "null",
+      "classification": "non-self",
       "confidence": 1.0,
       "method": "ua_identification",
       "note": "GPTBot. 1.37M requests, 459 IPs, 1 UA, 0% reading pauses, vitality 0.0.",
       "sort_pass": 3,
-      "requests": 1374313
+      "requests": 1374313,
+      "sort_class": "non-self",
+      "type": "entity",
+      "eastgate_sorted": true
     },
     "fleet_anthropic": {
-      "classification": "null",
+      "classification": "non-self",
       "confidence": 1.0,
       "method": "ua_identification",
       "note": "ClaudeBot. 390K requests, 3 IPs, San Francisco. 40% to complement.primals.eco.",
       "sort_pass": 3,
-      "requests": 390516
+      "requests": 390516,
+      "sort_class": "non-self",
+      "type": "entity",
+      "eastgate_sorted": true
     },
     "fleet_declared_bot": {
       "classification": "non-self",
@@ -2346,20 +2559,26 @@
       "requests": 18663
     },
     "fleet_hpe": {
-      "classification": "null",
-      "confidence": 0.5,
+      "classification": "partial",
+      "confidence": 0.6,
       "method": "asn_identification",
       "note": "HPE. 9,611 req, 48 IPs, 16.216.88.x Spring TX.",
       "sort_pass": 3,
-      "requests": 9611
+      "requests": 9611,
+      "sort_class": "partial",
+      "type": "entity",
+      "eastgate_sorted": true
     },
     "fleet_alibaba": {
-      "classification": "null",
-      "confidence": 0.5,
+      "classification": "partial",
+      "confidence": 0.6,
       "method": "asn_identification",
       "note": "Alibaba Cloud. ~32K req across 47.79/47.82 subnets. California.",
       "sort_pass": 3,
-      "requests": 32000
+      "requests": 32000,
+      "sort_class": "partial",
+      "type": "entity",
+      "eastgate_sorted": true
     },
     "fleet_meta": {
       "classification": "non-self",
@@ -2400,5 +2619,12 @@
     "partial": 57,
     "other": 92,
     "classified_with_confidence": 130
+  },
+  "eastgate_sort_pass": {
+    "timestamp": "2026-10-20T21:45:00Z",
+    "applied": 73,
+    "method": "eastgate_sort \u2014 human knowledge of detroit investigation",
+    "prev_null": 73,
+    "new_null": 0
   }
 }
