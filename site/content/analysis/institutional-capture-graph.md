@@ -1,7 +1,7 @@
 +++
 title = "The Institutional Capture Graph — Four Nexus Types, One Network"
 description = "Detroit's institutional capture network operates through four interconnected nexus types: education fraud, political capture, police weaponization, and legislative pipeline. Each nexus activates when another is under pressure. The police chief sits on a charter school board. The assistant attorney general who argued against Banks's certificate now chairs Banks's second school. Every bar complaint target corresponds to a school board member."
-weight = 74
+weight = 73
 date = 2026-10-04
 updated = 2026-10-04
 
@@ -11,7 +11,8 @@ keywords = "Detroit institutional capture, four nexus corruption, Brian Banks ch
 [taxonomies]
 actors = ["Brian Banks", "Todd Bettison", "Mary Sheffield", "Lamar Moreland", "Nicole Wells Stallworth", "Thomas Stallworth III", "Tenisha Yancey", "Todd Perkins", "Sherry Gay-Dagnogo", "Cylenthia LaToye Miller", "Latisha Johnson", "Gloria McCastle", "Joseph Holland", "Gasper Fiore", "Andre Spivey", "Bert Johnson", "Gabe Leland", "Eric Sabree", "Warren Evans"]
 entities = ["MacDowell Preparatory Academy", "Purpose Charter Academy", "Purpose Group LLC", "Detroit Public Safety Academy", "DPSA", "Inner Link Graphics", "Bank on Banks PAC", "Right Turn Project", "Banks Strategy and Consultants", "Michigan Deserves Better SuperPAC", "Operation Northern Hook"]
-connections = ["institutional capture", "credential washing", "police weaponization", "political nexus", "education fraud", "FBI wiretap"]+++
+connections = ["institutional capture", "credential washing", "police weaponization", "political nexus", "education fraud", "FBI wiretap"]
++++
 
 {{ lens(active="capture") }}
 

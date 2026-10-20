@@ -1,9 +1,10 @@
 +++
 title = "Eye on Thiel: Palantir and the Surveillance Extraction"
 date = 2026-10-15
-weight = 14
+weight = 13
 [taxonomies]
-tags = ["thiel", "palantir", "surveillance", "extraction", "callout", "source-trace"]+++
+tags = ["thiel", "palantir", "surveillance", "extraction", "callout", "source-trace"]
++++
 
 # Eye on Thiel
 

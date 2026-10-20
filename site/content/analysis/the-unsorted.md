@@ -2,7 +2,7 @@
 title = "The Unsorted — What the Unclassified Are Telling Us"
 description = "The membrane classified 341 entities. But the ones in between — Ghost, Unknown, Stealth, SEO — are the most interesting. They're dev teams, free software crawlers, privacy users, research bots. The unsorted are not noise. They're the next layer of granularity."
 date = 2026-10-18
-weight = 15
+weight = 14
 
 [taxonomies]
 tags = ["membrane", "negentropy", "self", "invitation"]
@@ -13,7 +13,8 @@ keywords = "entity classification, unsorted entities, membrane granularity, dev 
 og_title = "The Unsorted — What the Unclassified Are Telling Us"
 og_description = "The entities between mutualist and parasite are telling us who they are. We just need to refine the granularity."
 og_type = "article"
-twitter_card = "summary_large_image"+++
+twitter_card = "summary_large_image"
++++
 
 # The Unsorted — What the Unclassified Are Telling Us
 

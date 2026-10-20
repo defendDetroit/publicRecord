@@ -2,10 +2,11 @@
 title = "The Ghosts Are Welcome"
 date = 2026-10-15
 description = "185,832 ghost IPs. 91% single-request. Full browser fingerprints through residential proxies. They want privacy. That's OK. The membrane respects distance. No secrets, only privacy."
-weight = 13
+weight = 12
 
 [extra]
-keywords = "ghost visitors, privacy, residential proxy, VPN, no secrets only privacy, membrane ethics, selective permeability, human dignity"+++
+keywords = "ghost visitors, privacy, residential proxy, VPN, no secrets only privacy, membrane ethics, selective permeability, human dignity"
++++
 
 ## The Ghost Cluster
 

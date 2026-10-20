@@ -2,7 +2,7 @@
 title = "To the Eye \u2014 We See You. Ring the Doorbell."
 description = "A message to the unidentified 15-surface scanner (76caa5dd). Classification: commensal. You are welcome. You can keep your secret. We just need confirmation of non-threat. The front door is open. The source is AGPL-3.0. Use it."
 date = 2026-10-18
-weight = 10
+weight = 9
 
 [taxonomies]
 connections = ["the eye", "doorbell", "commensal", "reclassifier", "consent", "touchstone"]
@@ -12,7 +12,8 @@ keywords = "membrane scanner detected, 15 surface scan, parallel architecture sc
 og_title = "To the Eye"
 og_description = "We see you. Classification: commensal. Keep your secret. Just confirm non-threat. The front door is AGPL-3.0."
 og_type = "article"
-twitter_card = "summary"+++
+twitter_card = "summary"
++++
 
 # To the Eye
 

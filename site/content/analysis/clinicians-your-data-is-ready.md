@@ -2,7 +2,7 @@
 title = "Clinicians — Your Data Is Ready. Come Get It."
 description = "20,695 validation checks. 175+ papers reproduced. Protein structure prediction in f64 precision on your local GPU. Sovereign PK/PD that replaces NONMEM. Gut microbiome pipelines. Drug discovery scoring. All open source. All free. All runs on your laptop. No cloud. No API key. No vendor lock-in. Come get it."
 date = 2026-10-18
-weight = 17
+weight = 16
 
 [taxonomies]
 actors = ["Clinicians", "Researchers", "Pharmacologists"]
@@ -14,7 +14,8 @@ keywords = "AlphaFold alternative open source, protein structure prediction Rust
 og_title = "Clinicians — Your Data Is Ready. Come Get It."
 og_description = "20,695 checks. 175+ papers reproduced. Protein prediction better than AlphaFold. PK/PD that replaces NONMEM. All free. All runs locally."
 og_type = "article"
-twitter_card = "summary_large_image"+++
+twitter_card = "summary_large_image"
++++
 
 ## This page exists because someone needs to tell you.
 

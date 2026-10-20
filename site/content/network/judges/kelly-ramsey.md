@@ -1,7 +1,7 @@
 +++
 title = "Judge Kelly Ramsey — Criminal Division"
 description = "Judge Kelly Ramsey — Wayne County 3rd Circuit Criminal Division. Daughter pushed Banks to Promise Schools. Two family members on MacDowell payroll."
-weight = 11
+weight = 10
 date = 2026-09-20
 updated = 2026-09-25
 
@@ -12,7 +12,8 @@ keywords = "Kelly Ramsey judge, Kelly Ramsey Wayne County, Kelly Ramsey 3rd Circ
 actors = ["Judge Kelly Ramsey", "Brian Banks", "Todd Perkins", "Judge Cylenthia Miller", "Judge Tenisha Yancey", "Judge Sean Perkins"]
 entities = ["MacDowell Preparatory Academy"]
 courts = ["Wayne County 3rd Circuit Court"]
-connections = ["employment", "mentorship", "family", "board membership"]+++
+connections = ["employment", "mentorship", "family", "board membership"]
++++
 
 ## Position
 

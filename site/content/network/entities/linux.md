@@ -2,10 +2,11 @@
 title = "Linux"
 date = 2026-10-12
 description = "1991. Created by Linus Torvalds as a Finnish student. GPL licensed — free forever. Runs 96% of the world's top 1M servers, all Android phones, the International Space Station, every supercomputer on E"
-weight = 5
+weight = 4
 
 [extra]
-keywords = "Linux, commons, public knowledge, public education"+++
+keywords = "Linux, commons, public knowledge, public education"
++++
 
 ## Linux
 

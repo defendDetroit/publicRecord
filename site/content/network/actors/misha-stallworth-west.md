@@ -2,10 +2,11 @@
 title = "Misha Stallworth West"
 date = 2026-10-12
 description = "DPSCD Board + CitizenDetroit Director"
-weight = 5
+weight = 4
 
 [extra]
-keywords = "Misha Stallworth West, Detroit charter school network, Brian Banks network"+++
+keywords = "Misha Stallworth West, Detroit charter school network, Brian Banks network"
++++
 
 ## Misha Stallworth West
 

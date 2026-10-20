@@ -2,10 +2,11 @@
 title = "FBI Wiretap Target List — Beeckman Affidavit (2017)"
 description = "Complete list of 18 target subjects from FBI Special Agent Robert Beeckman's wiretap application, accidentally unsealed in December 2017 through Celia Washington's motion to suppress evidence."
 date = 2026-10-06
-weight = 29
+weight = 28
 
 [extra]
-keywords = "FBI wiretap Detroit corruption, Beeckman affidavit target subjects, Gasper Fiore wiretap, Brian Banks wiretap target, Area Towing FBI investigation, Detroit towing corruption wiretap, Operation Northern Hook wiretap, Wayne County corruption federal investigation"+++
+keywords = "FBI wiretap Detroit corruption, Beeckman affidavit target subjects, Gasper Fiore wiretap, Brian Banks wiretap target, Area Towing FBI investigation, Detroit towing corruption wiretap, Operation Northern Hook wiretap, Wayne County corruption federal investigation"
++++
 
 ## Source
 

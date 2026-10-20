@@ -2,7 +2,7 @@
 title = "Anderson Localization of Institutional Oversight — A Measurement"
 description = "The de-silo referral loop measured as Anderson Localization. Seven agencies. Same evidence. Each absorbs the complaint. None transmit accountability. The system is fully localized."
 date = 2026-10-18
-weight = 18
+weight = 17
 
 [taxonomies]
 actors = ["Cynthia C. Bullington", "Michael V. Goetz", "Brian Banks", "Judge Cylenthia Miller", "Lamar Moreland"]
@@ -14,7 +14,8 @@ keywords = "Anderson localization institutional oversight, de-silo referral loop
 og_title = "Anderson Localization of Institutional Oversight"
 og_description = "Seven agencies. Same evidence. Each absorbs. None transmit. Full localization measured."
 og_type = "article"
-twitter_card = "summary_large_image"+++
+twitter_card = "summary_large_image"
++++
 
 # Anderson Localization of Institutional Oversight
 

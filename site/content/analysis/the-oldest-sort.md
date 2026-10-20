@@ -1,9 +1,10 @@
 +++
 title = "The Oldest Sort: What Every Language Already Knew"
 date = 2026-10-15
-weight = 11
+weight = 9
 [taxonomies]
-tags = ["allegory", "language", "four-body", "universal", "self-sight", "ancient"]+++
+tags = ["allegory", "language", "four-body", "universal", "self-sight", "ancient"]
++++
 
 # The Oldest Sort
 

@@ -1,7 +1,7 @@
 +++
 title = "Anchor Rock Foundation — Judge Miller Board Chair"
 description = "Anchor Rock Foundation — dissolved Banks nonprofit previously chaired by Judge Cylenthia Miller. A sitting judge chairing a convicted felon's entity."
-weight = 11
+weight = 10
 date = 2026-09-20
 updated = 2026-09-25
 
@@ -12,7 +12,8 @@ keywords = "Anchor Rock Foundation, Anchor Rock Foundation Brian Banks, Anchor R
 actors = ["Judge Cylenthia Miller", "Brian Banks", "Joseph Holland"]
 entities = ["Anchor Rock Foundation", "Purpose Charter Academy", "MacDowell Preparatory Academy"]
 courts = ["Wayne County 3rd Circuit Court"]
-connections = ["board membership", "business entity"]+++
+connections = ["board membership", "business entity"]
++++
 
 ## Entity Overview
 

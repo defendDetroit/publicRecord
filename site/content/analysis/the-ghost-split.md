@@ -2,7 +2,7 @@
 title = "The Ghost Split — 59,587 Masks, Four Layers Deep"
 description = "Ghost isn't one entity. It's a transit network. 59,587 residential IPs with perfect browser fingerprints — but 84% are reading the SAME scatter repos as the declared fleet. Someone is routing fleet crawlers through real people's machines. The Chrome versions prove they're real desktops. The targets prove they're fleet. Now we can see who's riding the bus."
 date = 2026-10-18
-weight = 12
+weight = 11
 
 [taxonomies]
 tags = ["membrane", "negentropy", "fleet", "ghost", "classification", "proxy", "science"]
@@ -13,7 +13,8 @@ keywords = "ghost entity, residential proxy, fleet detection, browser fingerprin
 og_title = "The Ghost Split — 59,587 Masks, Four Layers Deep"
 og_description = "Ghost isn't one entity. It's a transit network. 84% are reading scatter repos through real people's machines."
 og_type = "article"
-twitter_card = "summary_large_image"+++
+twitter_card = "summary_large_image"
++++
 
 # The Ghost Split
 

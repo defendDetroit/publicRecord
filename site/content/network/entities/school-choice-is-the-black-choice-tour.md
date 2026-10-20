@@ -2,10 +2,11 @@
 title = "School Choice Is The Black Choice Tour"
 date = 2026-10-12
 description = ""
-weight = 6
+weight = 5
 
 [extra]
-keywords = "School Choice Is The Black Choice Tour, Detroit charter school network, Brian Banks network"+++
+keywords = "School Choice Is The Black Choice Tour, Detroit charter school network, Brian Banks network"
++++
 
 ## School Choice Is The Black Choice Tour
 

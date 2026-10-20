@@ -2,10 +2,11 @@
 title = "Save Detroit Jobs"
 date = 2026-10-12
 description = ""
-weight = 5
+weight = 4
 
 [extra]
-keywords = "Save Detroit Jobs, Detroit charter school network, Brian Banks network"+++
+keywords = "Save Detroit Jobs, Detroit charter school network, Brian Banks network"
++++
 
 ## Save Detroit Jobs
 

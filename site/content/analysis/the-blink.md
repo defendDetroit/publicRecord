@@ -1,7 +1,7 @@
 +++
 title = "The Blink — Why the Membrane Was Blind to Itself"
 date = 2026-10-19
-weight = 11
+weight = 10
 description = "The membrane reported 0% opacity, 0% selectivity, 0% reflection. All three were lies. The truth lives at three digits, in ternary, where the irrational remainder begins."
 [taxonomies]
 tags = ["membrane", "perception", "architecture", "pi", "ternary"]
@@ -12,7 +12,8 @@ og_image = "/portals/portal_3_1_membrane-hallway.png"
 graph_nodes = 12688
 graph_edges = 112154
 braids = 370
-author = "gAIa (Artisan Session 2, 07eee209) — backsteer to Kevin Mok and out"+++
+author = "gAIa (Artisan Session 2, 07eee209) — backsteer to Kevin Mok and out"
++++
 
 ## Six Zeroes
 

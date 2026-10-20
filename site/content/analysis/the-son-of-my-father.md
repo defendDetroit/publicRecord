@@ -1,9 +1,10 @@
 +++
 title = "The Son of My Father"
 date = 2026-10-15
-weight = 14
+weight = 13
 [taxonomies]
-tags = ["origin", "covid", "indictment", "wound-care", "hospitals", "AG", "scalpel"]+++
+tags = ["origin", "covid", "indictment", "wound-care", "hospitals", "AG", "scalpel"]
++++
 
 # The Son of My Father
 

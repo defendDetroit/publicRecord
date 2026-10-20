@@ -2,10 +2,11 @@
 title = "The Scatter Server: Reverse Entropy and the Economics of Deception"
 date = 2026-10-15
 description = "How a solo developer's $6/month VPS feeds fabricated repositories to trillion-dollar AI companies — and why the thermodynamics work."
-weight = 12
+weight = 11
 
 [extra]
-keywords = "scatter server, reverse entropy, opsonization, skunky-ingest, AGPL, AI training data, fabricated repos, behavioral immune system"+++
+keywords = "scatter server, reverse entropy, opsonization, skunky-ingest, AGPL, AI training data, fabricated repos, behavioral immune system"
++++
 
 ## The Problem
 

@@ -2,10 +2,11 @@
 title = "American Federation for Children"
 date = 2026-10-12
 description = "School choice advocacy"
-weight = 6
+weight = 5
 
 [extra]
-keywords = "American Federation for Children, Detroit charter school network, Brian Banks network"+++
+keywords = "American Federation for Children, Detroit charter school network, Brian Banks network"
++++
 
 ## American Federation for Children
 

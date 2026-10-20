@@ -1,7 +1,7 @@
 +++
 title = "Serenity Guardianship Services — UPL Red Flag"
 description = "Serenity Guardianship Services — dissolved entity run by convicted felon Brian Banks. Non-attorney running guardianship services = textbook UPL."
-weight = 11
+weight = 10
 date = 2026-09-20
 updated = 2026-09-25
 
@@ -12,7 +12,8 @@ keywords = "Serenity Guardianship Services, Serenity Guardianship Brian Banks, S
 actors = ["Brian Banks", "Judge David Perkins", "Judge Tenisha Yancey", "Judge Adam Sabree", "Judge Sean Perkins", "Joseph Holland"]
 entities = ["Serenity Guardianship Services", "Purpose Charter Academy", "MacDowell Preparatory Academy", "The Purpose Group LLC"]
 courts = ["Wayne County Probate Court", "36th District Court"]
-connections = ["business entity", "credential fraud", "RICO predicate"]+++
+connections = ["business entity", "credential fraud", "RICO predicate"]
++++
 
 ## Entity Overview
 

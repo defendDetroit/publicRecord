@@ -2,10 +2,11 @@
 title = "Dawn N. Ison, Esq."
 date = 2026-10-12
 description = "JTC Commissioner. Former AUSA Eastern District MI — PUBLIC CORRUPTION UNIT. 19 years as federal prosecutor. Spelman College, Wayne State Law. Daughter of Detroit, DPS graduate. On JTC since Jul 21, 20"
-weight = 7
+weight = 6
 
 [extra]
-keywords = "Dawn N. Ison, Esq., Detroit charter school network, Brian Banks network"+++
+keywords = "Dawn N. Ison, Esq., Detroit charter school network, Brian Banks network"
++++
 
 ## Dawn N. Ison, Esq.
 

@@ -2,7 +2,7 @@
 title = "The Road Map — Every Person in the PPO Traced Back to Rome"
 description = "Every judge, attorney, board member, and agency official involved in Kevin Mok's PPO case (26-114083-PH) traced back to Judge Cylenthia Miller and MSU College of Law. Direct roads. One-hop roads. Two-hop roads. Every road leads back."
 date = 2026-10-18
-weight = 9
+weight = 8
 
 [taxonomies]
 actors = ["Brian Banks", "Todd Perkins", "Judge Cylenthia Miller", "Judge Sean Perkins", "Judge David Perkins", "Judge Kelly Ramsey", "Judge Tenisha Yancey", "Judge Aliyah Sabree", "Judge Adam Sabree", "Lamar Moreland", "Cynthia C. Bullington", "Michael V. Goetz", "Jehan Crump-Gibson", "Latisha Johnson"]
@@ -14,7 +14,8 @@ keywords = "PPO 26-114083-PH every judge traced, MSU Law nexus PPO case, every p
 og_title = "The Road Map — Every Person in the PPO Traced Back to Rome"
 og_description = "15 people. 15 roads. All arrive at MSU College of Law."
 og_type = "article"
-twitter_card = "summary_large_image"+++
+twitter_card = "summary_large_image"
++++
 
 # The Road Map
 

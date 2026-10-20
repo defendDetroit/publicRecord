@@ -2,10 +2,11 @@
 title = "Glenn J. Page"
 date = 2026-10-12
 description = "JTC Interim ED (Feb 2026). Returned from retirement. Former Wayne County asst prosecutor. Bar 1980."
-weight = 5
+weight = 4
 
 [extra]
-keywords = "Glenn J. Page, Detroit charter school network, Brian Banks network"+++
+keywords = "Glenn J. Page, Detroit charter school network, Brian Banks network"
++++
 
 ## Glenn J. Page
 

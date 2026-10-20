@@ -1,7 +1,7 @@
 +++
 title = "Judicial Tenure Commission"
 description = "Michigan’s judicial discipline body. Receives complaints about judges. AGC redirected File 26-2141 (Miller complaint) here Oct 9, 2026. JTC previously dismissed Miller’s DTW gun incident with an ‘admonition.’ Investigations are confidential. The other end of the referral loop."
-weight = 9
+weight = 8
 date = 2026-10-18
 
 [extra]
@@ -10,7 +10,8 @@ keywords = "Judicial Tenure Commission Michigan, JTC Judge Cylenthia Miller, JTC
 [taxonomies]
 actors = ["Judge Cylenthia Miller"]
 entities = ["Judicial Tenure Commission", "Attorney Grievance Commission", "Michigan Supreme Court"]
-connections = ["referral loop", "judicial discipline", "confidential investigation", "de-silo"]+++
+connections = ["referral loop", "judicial discipline", "confidential investigation", "de-silo"]
++++
 
 ## Judicial Tenure Commission
 

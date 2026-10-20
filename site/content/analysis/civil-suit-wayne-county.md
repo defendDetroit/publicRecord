@@ -1,13 +1,14 @@
 +++
 title = "Civil Action: Perjury, Defamation, and Information Asymmetry — Wayne County"
 date = 2026-10-19
-weight = 16
+weight = 15
 description = "Framework for civil claims arising from fraudulent ex parte PPO, LEIN information asymmetry, and institutional failures across Wayne County judicial system. All evidence is public record."
 [taxonomies]
 tags = ["legal", "ppo", "wayne-county", "civil-rights", "defamation", "perjury"]
 [extra]
 graph_nodes = 12840
-graph_edges = 102653+++
+graph_edges = 102653
++++
 
 # Civil Action Framework: Perjury, Defamation, and Systemic Information Asymmetry
 

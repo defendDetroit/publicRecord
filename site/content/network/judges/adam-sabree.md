@@ -1,7 +1,7 @@
 +++
 title = "Judge Adam Sabree — 36th District Court"
 description = "Judge Adam Sabree — 36th District Court. Son of Wayne County Treasurer Eric Sabree (FBI-probed)."
-weight = 15
+weight = 14
 date = 2026-09-20
 updated = 2026-09-25
 
@@ -12,7 +12,8 @@ keywords = "Adam Sabree judge, Adam Sabree 36th District Court, Adam Sabree Metr
 actors = ["Judge Adam Sabree", "Judge Aliyah Sabree", "Eric Sabree", "Judge Tenisha Yancey", "Judge Sean Perkins", "Brian Banks"]
 entities = ["MacDowell Preparatory Academy", "Purpose Charter Academy", "Banks Strategy LLC"]
 courts = ["36th District Court", "Eastern District of Michigan"]
-connections = ["family", "employment", "RICO predicate"]+++
+connections = ["family", "employment", "RICO predicate"]
++++
 
 ## Position
 

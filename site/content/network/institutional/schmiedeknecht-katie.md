@@ -1,7 +1,7 @@
 +++
 title = "Katie Schmiedeknecht — MDE Analyst"
 description = "Katie Schmiedeknecht, MDE Office of Educator Excellence Analyst. Provided the compliance loophole that allowed MacDowell Preparatory Academy to avoid penalties for Banks' lack of credentials."
-weight = 10
+weight = 9
 date = 2026-09-25
 updated = 2026-09-25
 
@@ -11,7 +11,8 @@ keywords = "Katie Schmiedeknecht MDE, Katie Schmiedeknecht Office of Educator Ex
 [taxonomies]
 actors = ["Katie Schmiedeknecht", "Brian Banks"]
 entities = ["MacDowell Preparatory Academy", "Michigan Department of Education"]
-connections = ["MDE investigation", "credential compliance"]+++
+connections = ["MDE investigation", "credential compliance"]
++++
 
 ## Position
 
