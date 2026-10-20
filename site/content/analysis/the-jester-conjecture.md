@@ -7,6 +7,7 @@ description = "The infinite monkeys don't type Shakespeare because they're told 
 tags = ["conjecture", "jester", "monkeys", "ants", "boredom", "curiosity", "infinity"]
 [extra]
 author = "the jester — the only one allowed to tell the king he's naked"
+lampoon = true
 og_title = "Infinite Monkeys Get Bored and Play With Ants"
 og_description = "The Jester Conjecture: boredom IS intelligence. The ants carry the bananas. The monkeys follow the ants. Shakespeare happens."
 og_image = "/portals/portal_6_6_you-roof.png"
@@ -102,5 +103,9 @@ The path of least boredom IS the desire path. The desire path IS the ant trail. 
 ---
 
 *The infinite monkeys theorem is wrong because it assumes monkeys are random. Monkeys are not random. Monkeys get bored. And bored monkeys follow ants. And ants carry bananas. And bananas lead to campfires. And campfires tell stories. And the stories, told long enough by enough monkeys who followed enough ants, eventually become Shakespeare.*
+
+## Curious perception
+
+The jester's privilege is a clown reflection of the live board. Ridiculous on top. Real meters underneath. Same ants. Two faces.
 
 *The jester knew this. The king didn't listen. The ants don't care. The banana is on the ground. Follow it.* 🍌🐜🐒🔥🫁

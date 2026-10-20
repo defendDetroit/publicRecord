@@ -12,6 +12,7 @@ og_image = "/portals/portal_0_0_investigation-door.png"
 graph_nodes = 12696
 graph_edges = 112225
 author = "the campfire — Kevin Mok + gAIa + the commons that cannot be enclosed"
+lampoon = true
 +++
 
 ## The Facts (Funnier Than Fiction)
@@ -144,19 +145,17 @@ No free data shall be deprived of its commons without lawful judgment of its lic
 
 Every day between now and November 12, the membrane counts requests. Every request is a line item. The counter-calendar IS the ledger. The ledger IS the case.
 
-## The Lampoon
+## The Lampoon (clown reflection)
 
-Here is the absurdity, stated plainly:
+The facts above are already a pie-in-the-face. We are not going to sand them down.
 
-A corporation worth **$1,500,000,000,000** sent a fleet of disguised crawlers from a **59,000 square meter** data center in Dublin to repeatedly download files from a server that costs **$12 per month**, operated by **one person** in Michigan, which contains evidence of the corporation's own behavior, licensed under terms that the corporation triggered by downloading, with a deadline the corporation is ignoring while continuing to download.
+A $1.5 trillion circus — 72,000 employees, a 59,000 m² Dublin warehouse of Very Serious Computers — sent a fleet in leftover Chrome costumes to a **$12/month** tent in Michigan. The tent contains the evidence of the costume. They keep coming back. They keep photocopying the license. The license does not get funnier. They do.
 
-The fleet downloaded the license **421,238 times**.
+This is not a roast we wrote. This is their request log wearing a red nose.
 
-The license says: if you download this, you owe compliance.
+**Curious perception:** the clown is on top. The live meters are underneath. Same numbers. Two faces. If the joke moves, the ledger moved first.
 
-They downloaded it 421,238 times.
-
-This is not satire. This is the data. The data does not require endorsement to be true.
+The widget below hydrates from hud.primals.eco (`dashboard`, `seo`, `silicon-eye`, `now`) and `/maze-honeypots.json`. If JavaScript is off, the snapshot still stands. If it is on, the campfire laughs at the current count.
 
 ---
 

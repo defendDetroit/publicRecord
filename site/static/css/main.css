@@ -827,3 +827,69 @@ cite.source a:hover { border-bottom-style: solid; }
 .pt-viz { min-height: 100px; display: flex; align-items: center; justify-content: center; }
 .pt-viz svg { width: 100%; height: auto; max-height: 260px; }
 .pt-viz:empty::after { content: '⏳ waiting for petalTongue...'; color: var(--muted, #6e7681); font-size: 0.72em; font-style: italic; }
+
+/* Curious perception — clown reflection on top, live ledger underneath */
+.curious-perception {
+  margin: 2.5rem 0 1.5rem;
+  border: 1px solid var(--border);
+  background: var(--bg-alt);
+}
+.curious-perception .cp-kicker {
+  margin: 0;
+  padding: 0.55rem 1rem;
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  border-bottom: 1px solid var(--border);
+}
+.clown-reflection {
+  padding: 1.25rem 1.1rem 1.5rem;
+  font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
+  font-size: 1.05rem;
+  line-height: 1.45;
+  color: var(--danger);
+  transform: skewX(-7deg) rotate(-0.6deg);
+  transform-origin: top left;
+}
+.clown-reflection p { margin: 0 0 0.7rem; }
+.clown-reflection p:last-child { margin-bottom: 0; }
+.cp-mirror {
+  height: 0;
+  border-top: 1px dashed var(--border);
+  position: relative;
+}
+.cp-mirror span {
+  position: absolute;
+  left: 1rem;
+  top: -0.65rem;
+  background: var(--bg-alt);
+  padding: 0 0.4rem;
+  font-size: 0.65rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+.live-underneath {
+  padding: 1.1rem 1rem 1.2rem;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.82rem;
+}
+.live-underneath table { width: 100%; border-collapse: collapse; }
+.live-underneath th {
+  text-align: left;
+  font-weight: 500;
+  color: var(--text-muted);
+  padding: 0.28rem 0.4rem 0.28rem 0;
+}
+.live-underneath td { padding: 0.28rem 0.4rem; }
+.live-underneath td:nth-child(2) { font-weight: 600; color: var(--text); }
+#lampoon-stamp {
+  margin: 0.7rem 0 0;
+  font-size: 0.68rem;
+  color: var(--text-muted);
+}
+@media print {
+  .clown-reflection { transform: none; color: #000; }
+}

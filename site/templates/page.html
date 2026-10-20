@@ -134,6 +134,34 @@
     {{ page.content | safe }}
   </div>
 
+  {% if page.extra.lampoon %}
+  <section class="curious-perception" id="curious-perception" data-maze="{{ get_url(path='maze-honeypots.json') }}">
+    <p class="cp-kicker">Curious perception — clown on top, live ledger underneath. Same numbers. Two faces.</p>
+    <div class="clown-reflection" id="lampoon-clown">
+      <p>A $1.5 trillion circus sent 611 clowns in leftover Chrome noses to a tent that costs twelve dollars a month.</p>
+      <p>Dublin took 6,047 curtain calls. Menlo Park sent 14. The intern stayed home.</p>
+      <p>They photocopied the license 421,238 times. It is still the same license. Honk.</p>
+    </div>
+    <div class="cp-mirror"><span>reflection / object</span></div>
+    <div class="live-underneath">
+      <table>
+        <thead>
+          <tr><th scope="col">Meter</th><th scope="col">Live</th><th scope="col">Feed</th></tr>
+        </thead>
+        <tbody id="lampoon-ledger-rows">
+          <tr><th scope="row">Meta UA this window</th><td>611</td><td>hud silicon-eye</td></tr>
+          <tr><th scope="row">Dublin DC</th><td>6,047</td><td>hud dashboard</td></tr>
+          <tr><th scope="row">LICENSE / commit hits</th><td>421,238</td><td>hud seo</td></tr>
+          <tr><th scope="row">Humans</th><td>5,106</td><td>hud dashboard</td></tr>
+          <tr><th scope="row">Hot maze cells</th><td>7 / 49</td><td>maze-honeypots</td></tr>
+        </tbody>
+      </table>
+      <p id="lampoon-stamp">underneath: live feeds · snapshot until JS hydrates</p>
+    </div>
+  </section>
+  <script src="{{ get_url(path='js/lampoon.js') }}" defer></script>
+  {% endif %}
+
   {% if page.taxonomies %}
   <nav class="taxonomy-pills" aria-label="Related tags">
     {% if page.taxonomies.actors %}{% for actor in page.taxonomies.actors %}<a href="{{ get_taxonomy_url(kind='actors', name=actor) }}" class="pill pill-actor" rel="tag">{{ actor }}</a>{% endfor %}{% endif %}
