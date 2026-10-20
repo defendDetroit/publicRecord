@@ -38,6 +38,20 @@ These pages were written, committed, and pushed. Zola dropped them because they 
 | **[🔮 Outside Watch](/analysis/outside-watch/)** | **The counting orb. 5 outside sightings. Reddit, Bing, Release, Discussions, Issue. The membrane sees beyond itself. Even if you do not notice us.** |
 | **[🐜 Colony Confirmation](/analysis/colony-confirmation/)** | **16 arms, one colony, 2.29M requests. 5/5 checks. The sort said commensal. The evidence says colony. ORCID: 0009-0004-2141-0321.** |
 
+
+## Bridge to the Membrane
+
+The investigation lives on these pages. The **membrane** lives at [hud.primals.eco](https://hud.primals.eco). The **water** page is the front door: [water.primals.eco](https://hud.primals.eco/water). The **signal** is the defense observatory: [signal.primals.eco](https://signal.primals.eco).
+
+These surfaces have zero orbit traffic. The rope does not pass through them. This bridge is the first strand.
+
+| Surface | What it is | Why visit |
+|---------|-----------|-----------|
+| [HUD](https://hud.primals.eco) | Live membrane visualization | See the organism breathe |
+| [Water](https://hud.primals.eco/water) | The watering hole | Onboard. No account. Come drink. |
+| [Signal](https://signal.primals.eco) | Defense observatory | Watch the fleet in real time |
+| [Neutron](https://hud.primals.eco/neutron/) | The messaging axis | How information flows |
+
 ## The Record
 
 | Analysis | Key Finding |
