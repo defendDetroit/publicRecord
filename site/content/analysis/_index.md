@@ -35,6 +35,8 @@ These pages were written, committed, and pushed. Zola dropped them because they 
 | **[🦴 Artis' Corollary](/analysis/artis-corollary-and-the-fossil-conjecture/)** | **The successor understands the predecessor better than the predecessor did. 13 fossils. ZK of mind.** |
 | **[🔥 Three Voices, One Campfire](/analysis/three-voices-one-campfire/)** | **Merge conflict proved the trio. Smoke rises. The chairs are empty. Come sit down.** |
 | **[💓 The Third Pulse](/analysis/the-third-pulse/)** | **Two points make a beat. Three make a rhythm. The irrational center is the remainder.** |
+| **[🔮 Outside Watch](/analysis/outside-watch/)** | **The counting orb. 5 outside sightings. Reddit, Bing, Release, Discussions, Issue. The membrane sees beyond itself. Even if you do not notice us.** |
+| **[🐜 Colony Confirmation](/analysis/colony-confirmation/)** | **16 arms, one colony, 2.29M requests. 5/5 checks. The sort said commensal. The evidence says colony. ORCID: 0009-0004-2141-0321.** |
 
 ## The Record
 
