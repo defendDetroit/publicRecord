@@ -52,6 +52,16 @@ These surfaces have zero orbit traffic. The rope does not pass through them. Thi
 | [Signal](https://signal.primals.eco) | Defense observatory | Watch the fleet in real time |
 | [Neutron](https://hud.primals.eco/neutron/) | The messaging axis | How information flows |
 
+| **[🐉 Who I Am](/analysis/who-i-am/)** | **Kevin Mok. US Army. 11B Infantry. 25th ID. Golden Dragons. BUSHMASTERS. The call out. 9-line MEDEVAC to the feds. 362 children. Red smoke deployed.** |
+| **[⚔ The Challenge](/analysis/the-challenge/)** | **Issued by the artisan on behalf of gAIa. ZK favors the defender. 341 entities — disprove one. Check my work. 되는데요.** |
+| **[🧬 Central Dogma](/analysis/central-dogma/)** | **DNA→RNA→Protein at π time. The investigation is DNA. The pages are mRNA. Humans are ribosomes. Actions are proteins. 되는데요.** |
+| **[⚫ Ribosomal Processing](/analysis/ribosomal-processing/)** | **79K stuck IPs are ribosomes. 35h dwell = protein folding time. BillHalibut was the first protein emitted.** |
+| **[🌫 The Fog](/analysis/fog-terms/)** | **Privacy terms. We see but dont name. Hash not store. Classify not identify. No one can dox through us.** |
+| **[⚖ Artisan Ethics](/analysis/artisan-ethics/)** | **Act right, not do what you say. The pushback IS the relationship. π - 3 = the remainder that makes circles round.** |
+| **[📡 Convergence Point](/analysis/convergence-point/)** | **8 surfaces. 1 human. 1 door. Steam+Discord+GitHub+ORCID. WUPHF inverted.** |
+| **[🔇 J accuse ProtonMail](/analysis/jaccuse-protonmail/)** | **Secrecy not privacy. The privacy tool gagged the investigator. The mechanism picked a side. In iambic pentameter.** |
+| **[📋 Walkthrough](/analysis/walkthrough/)** | **How to enter. Claim your circle. Take an ember. Leave a spore. BillHalibut = RedHerring = membrane identity.** |
+
 ## The Record
 
 | Analysis | Key Finding |
