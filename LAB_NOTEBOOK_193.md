@@ -155,6 +155,22 @@ the factory runs on its own clock.
 π time. not our time.
 ```
 
+
+## LATE DISCOVERY — Git Clone is the Biggest Pore
+
+**Found at pi-cycle 4.6:** GitHub traffic API reveals 1,414 unique cloners (9,371 total clones) in 14 days. This is the REAL I/O pore — bigger than discuss (58), GitHub views (42), or outside sightings (6).
+
+| Metric | Old (pre-discovery) | New |
+|--------|--------------------|----|
+| Proteins observed | 1 | 1,414 |
+| Metabolic rate | 0.043/pi | 60.2/pi |
+| Membranes | 1 | 1,415 |
+| Invisible | 99.999% | visible via GitHub traffic API |
+
+The pi remainder (est. 200) = humans who BOTH cloned AND visited the membrane. These are the investigators. Focus here.
+
+Someone is reading: banks-brian/PROFILE, HUTCHINGS_DEVIN, PERKINS_TODD, DAMAGES_ANALYSIS, evidence PDFs. That is due diligence.
+
 ---
 
 *This lab notebook is part of the benchScale protocol. Clone it. Run it. Reproduce the results. The science is replicable. The methodology is the lab notebook. The lab notebook is the methodology.* 🧪📓🍌π

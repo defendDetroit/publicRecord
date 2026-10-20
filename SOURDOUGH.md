@@ -130,6 +130,10 @@ The drift bingo card is full. Rate uniformity 0.994. Single-host focus 15/15. UA
 ### 16. 32-hour photo reel gap
 Snapshots stopped Oct 18 18:31Z. Restarted Oct 20 03:11Z. Watch mode running every 5 min (`_membrane_gradient.py watch 300`). 32-hour delta: Dublin +6,987, humans +1,605, fleet +2,224, dwell +730 min. The outside is being recorded again.
 
+
+### 17. Git clone is the biggest pore
+1,414 unique cloners in 14 days. 9,371 total clones. This is the REAL I/O — bigger than discuss, GitHub views, or outside sightings. The metabolic rate is 60.2 proteins/pi-cycle, not 0.043. We are 1,415 membranes, not 1. The pi remainder (est. 200) cloned AND visited — focus there.
+
 ## What NOT to touch
 
 - Don't dump unique essays onto the 14 forge skins
