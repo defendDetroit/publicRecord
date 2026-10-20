@@ -1,16 +1,17 @@
 {
-  "generated": "2026-10-20T02:29:57.987066+00:00",
+  "generated": "2026-10-20T02:30:51.347618+00:00",
   "battery": "control-self-confirm",
   "rule": "confirm first. show only PASS+show_when_needed. do not dump.",
   "counts": {
-    "pass": 27,
+    "pass": 28,
     "warn": 1,
-    "fail": 4,
+    "fail": 3,
     "total": 32
   },
   "braided_ready": true,
   "show_now": [
     "blink_live",
+    "blink_lysogeny_html",
     "forge_skins_clique",
     "sporeprint_orphan",
     "git_forge_live",
@@ -28,7 +29,6 @@
     "hud_dashboard_alive"
   ],
   "keep_quiet": [
-    "blink_lysogeny_html",
     "scyborg_license_page",
     "canary_tokens_armed",
     "inversion_one_way"
@@ -38,14 +38,14 @@
       "name": "blink_live",
       "claim": "the-blink renders as itself, not homepage",
       "result": "PASS",
-      "evidence": "title='The Blink \u2014 Why the Membrane Was Blind to Itself | Detroit Charter School Investigation' status=200 222ms",
+      "evidence": "title='The Blink \u2014 Why the Membrane Was Blind to Itself | Detroit Charter School Investigation' status=200 183ms",
       "show_when_needed": true
     },
     {
       "name": "blink_lysogeny_html",
-      "claim": "every live page carries scyBorg lysogeny comment + license meta",
-      "result": "FAIL",
-      "evidence": "lysogeny=False license_meta=''",
+      "claim": "every live page carries license meta (minify strips HTML comments)",
+      "result": "PASS",
+      "evidence": "agpl=True license_meta=True rights_meta=True comment=False",
       "show_when_needed": true
     },
     {
@@ -115,7 +115,7 @@
       "name": "meta_flowing_now",
       "claim": "Meta scraper present in current negentropy window",
       "result": "PASS",
-      "evidence": "meta=472 gptbot=14155 amazonbot=4814 blackwall_meta=472",
+      "evidence": "meta=632 gptbot=18914 amazonbot=6331 blackwall_meta=632",
       "show_when_needed": true
     },
     {
