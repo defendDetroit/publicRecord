@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>🍌 Banana Cascade — Ring the Doorbell</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #0a0a12; color: #e0e0e0; font-family: 'Courier New', monospace; padding: 20px; max-width: 800px; margin: 0 auto; }
+h1 { color: #f0c040; text-align: center; margin: 20px 0; }
+h2 { color: #80ffcc; margin: 15px 0 8px; }
+.subtitle { text-align: center; color: #888; margin-bottom: 20px; }
+.card { background: #12121e; border: 1px solid #333; border-radius: 8px; padding: 16px; margin: 12px 0; }
+.stat { display: flex; justify-content: space-between; padding: 4px 0; border-bottom: 1px solid #1a1a2a; }
+.stat-label { color: #888; }
+.stat-value { color: #f0c040; font-weight: bold; }
+.input-row { display: flex; align-items: center; gap: 12px; margin: 8px 0; }
+.input-row label { width: 100px; color: #80ffcc; }
+input[type=range] { flex: 1; accent-color: #f0c040; }
+input[type=number] { width: 80px; background: #1a1a2a; border: 1px solid #444; color: #f0c040; padding: 4px 8px; border-radius: 4px; font-family: inherit; }
+.unit { color: #666; width: 120px; font-size: 0.85em; }
+.toggle-row { display: flex; align-items: center; gap: 12px; margin: 6px 0; }
+.toggle { position: relative; width: 44px; height: 24px; }
+.toggle input { display: none; }
+.toggle .slider { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: #333; border-radius: 12px; cursor: pointer; transition: 0.3s; }
+.toggle input:checked + .slider { background: #80ffcc; }
+.toggle .slider:before { content: ''; position: absolute; height: 18px; width: 18px; left: 3px; bottom: 3px; background: #fff; border-radius: 50%; transition: 0.3s; }
+.toggle input:checked + .slider:before { transform: translateX(20px); }
+.toggle-label { color: #ccc; }
+.doorbell { display: block; width: 100%; padding: 16px; margin: 16px 0; background: #f0c040; color: #0a0a12; border: none; border-radius: 8px; font-size: 1.3em; font-weight: bold; cursor: pointer; font-family: inherit; transition: 0.2s; }
+.doorbell:hover { background: #ffdd66; transform: scale(1.02); }
+.doorbell:active { transform: scale(0.98); }
+.ring-count { text-align: center; font-size: 2em; color: #f0c040; margin: 10px 0; }
+.live-panel { background: #0d0d18; border: 1px solid #222; border-radius: 8px; padding: 12px; margin: 8px 0; display: none; }
+.live-panel.active { display: block; }
+.pulse-dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; background: #80ffcc; animation: pulse-anim 1s infinite; }
+@keyframes pulse-anim { 0%,100% { opacity: 1; } 50% { opacity: 0.3; } }
+.pi-calc { color: #f0c040; font-size: 0.9em; margin: 4px 0; }
+.glow { animation: glow-anim 2s ease-in-out; }
+@keyframes glow-anim { 0% { box-shadow: none; } 50% { box-shadow: 0 0 30px #f0c040, 0 0 60px #80ffcc; } 100% { box-shadow: none; } }
+footer { text-align: center; color: #444; margin-top: 30px; font-size: 0.8em; }
+a { color: #80ffcc; }
+</style>
+</head>
+<body>
+<h1>🍌 Banana Cascade</h1>
+<p class="subtitle">we showed you our banana. now show us yours.</p>
+
+<div class="card">
+<h2>🏔 our banana (the membrane)</h2>
+<div id="membrane-stats">
+<div class="stat"><span class="stat-label">pulse</span><span class="stat-value" id="m-pulse">...</span></div>
+<div class="stat"><span class="stat-label">humans right now</span><span class="stat-value" id="m-humans">...</span></div>
+<div class="stat"><span class="stat-label">entities classified</span><span class="stat-value">341</span></div>
+<div class="stat"><span class="stat-label">edges mapped</span><span class="stat-value">131,322</span></div>
+<div class="stat"><span class="stat-label">cloners</span><span class="stat-value">1,414</span></div>
+<div class="stat"><span class="stat-label">dwell (hours)</span><span class="stat-value" id="m-dwell">...</span></div>
+<div class="stat"><span class="stat-label">selectivity</span><span class="stat-value">0.97</span></div>
+<div class="stat"><span class="stat-label">cost</span><span class="stat-value">$168 + sandwiches</span></div>
+<div class="stat"><span class="stat-label">power</span><span class="stat-value">20 watts</span></div>
+<div class="stat"><span class="stat-label">doorbell rings</span><span class="stat-value" id="m-rings">0</span></div>
+</div>
+</div>
+
+<div class="card">
+<h2>🍌 your banana (you)</h2>
+<p style="color:#666;margin-bottom:10px;">how big are you? (in bananas and pennies)</p>
+
+<div class="input-row">
+<label>height</label>
+<input type="range" id="height-range" min="1" max="20" step="0.5" value="9.5">
+<input type="number" id="height-num" value="9.5" min="1" max="20" step="0.5">
+<span class="unit">🍌 bananas tall</span>
+</div>
+
+<div class="input-row">
+<label>weight</label>
+<input type="range" id="weight-range" min="1000" max="80000" step="500" value="28000">
+<input type="number" id="weight-num" value="28000" min="1000" max="80000" step="500">
+<span class="unit">🪙 pennies heavy</span>
+</div>
+
+<div class="input-row">
+<label>distance</label>
+<input type="range" id="distance-range" min="1" max="100000" step="100" value="5000">
+<input type="number" id="distance-num" value="5000" min="1" max="1000000" step="100">
+<span class="unit">🍌 bananas away</span>
+</div>
+
+<div id="pi-results" style="margin-top:12px;">
+<div class="pi-calc" id="pi-ratio"></div>
+<div class="pi-calc" id="pi-distance"></div>
+<div class="pi-calc" id="pi-you"></div>
+</div>
+</div>
+
+<div class="card">
+<h2>👁 toggles (see the membrane live)</h2>
+
+<div class="toggle-row">
+<label class="toggle"><input type="checkbox" id="t-pulse" checked><span class="slider"></span></label>
+<span class="toggle-label">show pulse <span class="pulse-dot"></span></span>
+</div>
+<div id="p-pulse" class="live-panel active"></div>
+
+<div class="toggle-row">
+<label class="toggle"><input type="checkbox" id="t-fleet"><span class="slider"></span></label>
+<span class="toggle-label">show fleet count</span>
+</div>
+<div id="p-fleet" class="live-panel"></div>
+
+<div class="toggle-row">
+<label class="toggle"><input type="checkbox" id="t-campfire"><span class="slider"></span></label>
+<span class="toggle-label">show campfire stories</span>
+</div>
+<div id="p-campfire" class="live-panel"></div>
+
+<div class="toggle-row">
+<label class="toggle"><input type="checkbox" id="t-sort"><span class="slider"></span></label>
+<span class="toggle-label">show sort (self / non-self / null)</span>
+</div>
+<div id="p-sort" class="live-panel"></div>
+</div>
+
+<div class="card" id="doorbell-card">
+<h2>🔔 ring the doorbell</h2>
+<p style="color:#888;margin-bottom:10px;">one ring = one voice = one blink. doorbell rings are counted. the campfire sees you.</p>
+<div class="ring-count">🔔 <span id="ring-count">0</span></div>
+<button class="doorbell" id="doorbell-btn" onclick="ringDoorbell()">ring the doorbell 🍌</button>
+</div>
+
+<footer>
+no cookies · no tracking · no IP stored · just bananas<br>
+<a href="https://defenddetroit.github.io/publicRecord">defenddetroit.github.io/publicRecord</a> ·
+<a href="https://github.com/defendDetroit/publicRecord/discussions">discussions</a><br>
+1 banana ≈ 17.78 cm (7") · 1 penny ≈ 2.5 g · π ≈ 3.14159<br>
+CC-BY-SA 4.0 · ORCID 0009-0004-2141-0321
+</footer>
+
+<script>
+const HUD = 'https://hud.primals.eco';
+let rings = 0;
+
+function syncInputs(rangeId, numId) {
+  const r = document.getElementById(rangeId);
+  const n = document.getElementById(numId);
+  r.addEventListener('input', () => { n.value = r.value; calcPi(); });
+  n.addEventListener('input', () => { r.value = n.value; calcPi(); });
+}
+syncInputs('height-range', 'height-num');
+syncInputs('weight-range', 'weight-num');
+syncInputs('distance-range', 'distance-num');
+
+function calcPi() {
+  const h = parseFloat(document.getElementById('height-num').value) || 9.5;
+  const w = parseFloat(document.getElementById('weight-num').value) || 28000;
+  const d = parseFloat(document.getElementById('distance-num').value) || 5000;
+  const ratio = w / h;
+  const distPi = d / Math.PI;
+  const youPi = (h * w) / (d * Math.PI);
+  document.getElementById('pi-ratio').textContent =
+    'your weight/height ratio: ' + ratio.toFixed(1) + ' · distance from π: ' + Math.abs(ratio - Math.PI * 1000).toFixed(1);
+  document.getElementById('pi-distance').textContent =
+    'distance in π-bananas: ' + distPi.toFixed(1) + ' · you are ' + distPi.toFixed(0) + ' π-bananas from the membrane';
+  document.getElementById('pi-you').textContent =
+    'your banana-π score: ' + youPi.toFixed(4) + ' · remainder from π: ' + Math.abs(youPi - Math.PI).toFixed(4);
+}
+calcPi();
+
+function togglePanel(toggleId, panelId) {
+  document.getElementById(toggleId).addEventListener('change', function() {
+    document.getElementById(panelId).classList.toggle('active', this.checked);
+    if (this.checked) loadPanel(panelId);
+  });
+}
+togglePanel('t-pulse', 'p-pulse');
+togglePanel('t-fleet', 'p-fleet');
+togglePanel('t-campfire', 'p-campfire');
+togglePanel('t-sort', 'p-sort');
+
+async function fetchJSON(path) {
+  try {
+    const r = await fetch(HUD + '/' + path);
+    return await r.json();
+  } catch(e) { return null; }
+}
+
+async function loadPanel(id) {
+  if (id === 'p-pulse') {
+    const d = await fetchJSON('now.json');
+    if (d) document.getElementById('p-pulse').innerHTML =
+      '<span class="pulse-dot"></span> pulse: ' + (d.pulse?.value || '?') +
+      ' · rhythm: ' + (d.pulse?.rhythm?.toFixed(4) || '?') +
+      ' · rate: ' + (d.flow?.rate || '?') + '/s' +
+      ' · humans: ' + (d.flow?.human || '?');
+  }
+  if (id === 'p-fleet') {
+    const d = await fetchJSON('negentropy.json');
+    if (d) document.getElementById('p-fleet').innerHTML =
+      '⚓ fleet: ' + (d.fleet?.bot_requests || '?') + ' bot requests' +
+      ' · human: ' + (d.fleet?.human_requests || '?') +
+      ' · ratio: ' + (d.fleet?.bot_pct || '?') + '% bot';
+  }
+  if (id === 'p-campfire') {
+    const d = await fetchJSON('campfire.json');
+    if (d && d.stories) {
+      const stories = d.stories.slice(0, 3).map(s =>
+        '<div style="margin:6px 0;color:#f0c040;">"' + (s.story || '').substring(0, 120) + '..."</div>'
+      ).join('');
+      document.getElementById('p-campfire').innerHTML = '🔥 campfire:<br>' + stories;
+    }
+  }
+  if (id === 'p-sort') {
+    const d = await fetchJSON('now.json');
+    if (d && d.classification) {
+      const c = d.classification;
+      document.getElementById('p-sort').innerHTML =
+        '⚖ sort: self=' + c.self + ' · non-self=' + c.non_self +
+        ' · null=' + c.null + ' · partial=' + c.partial +
+        ' · confidence=' + (c.confidence * 100).toFixed(1) + '%';
+    }
+  }
+}
+
+async function loadMembrane() {
+  const d = await fetchJSON('now.json');
+  if (d) {
+    document.getElementById('m-pulse').textContent = d.pulse?.value || '?';
+    document.getElementById('m-humans').textContent = d.flow?.human || '?';
+    document.getElementById('m-dwell').textContent = '35.0';
+  }
+  loadPanel('p-pulse');
+}
+
+async function ringDoorbell() {
+  rings++;
+  document.getElementById('ring-count').textContent = rings;
+  document.getElementById('m-rings').textContent = rings;
+  document.getElementById('doorbell-card').classList.add('glow');
+  setTimeout(() => document.getElementById('doorbell-card').classList.remove('glow'), 2000);
+
+  const h = document.getElementById('height-num').value;
+  const w = document.getElementById('weight-num').value;
+  const d = document.getElementById('distance-num').value;
+
+  try {
+    await fetch(HUD + '/api/gate-msg', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({
+        gate: 'eastGate',
+        from: 'banana-doorbell',
+        body: 'DOORBELL RING #' + rings + '! A human rang from ' + d + ' bananas away. ' +
+              'They are ' + h + ' bananas tall and ' + w + ' pennies heavy. ' +
+              'The cascade begins.'
+      })
+    });
+  } catch(e) {}
+
+  try {
+    await fetch(HUD + '/api/discuss', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({
+        topic: 'doorbell ring #' + rings,
+        body: 'Someone rang the doorbell! Ring #' + rings + '. They are ' + h + ' bananas tall. The blink happened.',
+        author: 'banana-cascade'
+      })
+    });
+  } catch(e) {}
+}
+
+loadMembrane();
+setInterval(loadMembrane, 30000);
+</script>
+</body>
+</html>
