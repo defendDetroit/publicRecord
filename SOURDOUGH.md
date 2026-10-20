@@ -60,6 +60,22 @@ Every page now has two comment pores:
 
 `discuss.js` handles posting, host rotation, and comment loading. The page slug becomes the discuss page key.
 
+### 13. Stale feeds (the dead sourdough)
+Stale scan found 7 stale + 7 dead feeds. The organism has blind spots:
+
+**Stale (>1h old):**
+- `chipmunk` — **76.8 hours** stale. She's been asleep since Oct 17. The observer layer is blind.
+- `human` + `reflection` — **24.9 hours**. Epitope counts frozen at wave 176.
+- `dialogue` — **4.6 hours**. Squirrel↔chipmunk exchange stopped.
+- `totality` — **3.9 hours**. The everything-number fell behind.
+- `signals` + `stories` — **1.4 hours**. Borderline.
+
+**Dead (404):** fossil-i1, journal-today, human-notes-today, outreach, dialogue-depth, pi-manifest. Structural gaps.
+
+**Live (24 feeds, <3 min):** topology, campfire, pulse, heartbeat, negentropy, circulatory — the core organs breathe.
+
+Run `python scripts/_stale_scan.py` to check freshness any time.
+
 ## What NOT to touch
 
 - Don't dump unique essays onto the 14 forge skins
