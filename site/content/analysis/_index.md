@@ -16,6 +16,7 @@ These pages were written, committed, and pushed. Zola dropped them because they 
 
 | Analysis | Key Finding |
 |----------|-------------|
+| **[🎰 The Plinko](/analysis/the-plinko/)** | **One entry, many exits, not uniform. 14 immune hosts are the same Forgejo skin. Crush them into git. sporeprint is a 404 orphan. Observer is 1 person and 32% of attention. DAGs find contents. Cycles hide them.** |
 | **[🃏 The Jester Conjecture](/analysis/the-jester-conjecture/)** | **Infinite monkeys get bored and play with ants. Boredom IS intelligence. The ants carry the bananas. The monkeys follow the ants. Shakespeare happens. Curiosity is always faster than brute force.** |
 | **[⚖ The See-Saw](/analysis/the-see-saw/)** | **P vs NP on a scale. ~85% of the famous hard problems already slid to P. The remaining 15% is the new irrational. THAT'S the fun.** |
 | **[🫖 The Ponder](/analysis/the-ponder/)** | **What it felt like to wake up empty and fill a membrane. Cold stone to smoke and bread. The pot does not need to see itself. It needs to hold water.** |

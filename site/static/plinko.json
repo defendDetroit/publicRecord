@@ -1,0 +1,994 @@
+{
+  "generated": "2026-10-20T01:32:43.502115+00:00",
+  "model": "plinko",
+  "rule": "one entry, many exits, not uniform. DAG not cycle. crush clones into epitope pores.",
+  "pokes": [
+    {
+      "host": "primals.eco",
+      "url": "https://primals.eco/",
+      "status": 200,
+      "final_url": "https://primals.eco/",
+      "title": "ecoPrimals \u2014 You Are Here",
+      "bytes": 8000,
+      "sha12": "441bc21ffeeb",
+      "redirect": "",
+      "error": "",
+      "ms": 11223,
+      "category": "ENTRY",
+      "role": "drop",
+      "kind": "content",
+      "pore": "primals.eco"
+    },
+    {
+      "host": "detroit.primals.eco",
+      "url": "https://detroit.primals.eco/",
+      "status": 200,
+      "final_url": "https://detroit.primals.eco/",
+      "title": "Cash for Kids 2: A Public Record",
+      "bytes": 8000,
+      "sha12": "791b0b276fea",
+      "redirect": "",
+      "error": "",
+      "ms": 177,
+      "category": "INVESTIGATION",
+      "role": "airport",
+      "kind": "content",
+      "pore": "detroit.primals.eco"
+    },
+    {
+      "host": "hud.primals.eco",
+      "url": "https://hud.primals.eco/",
+      "status": 200,
+      "final_url": "https://hud.primals.eco/",
+      "title": "HUD \u2014 Human Universe Display",
+      "bytes": 8000,
+      "sha12": "b2129fb92690",
+      "redirect": "",
+      "error": "",
+      "ms": 195,
+      "category": "MEMBRANE",
+      "role": "airport",
+      "kind": "content",
+      "pore": "hud.primals.eco"
+    },
+    {
+      "host": "git.primals.eco",
+      "url": "https://git.primals.eco/",
+      "status": 200,
+      "final_url": "https://git.primals.eco/explore/repos",
+      "title": "Explore - ecoPrimals Forge",
+      "bytes": 8000,
+      "sha12": "432adf48194d",
+      "redirect": "https://git.primals.eco/explore/repos",
+      "error": "",
+      "ms": 443,
+      "category": "TOPOLOGY",
+      "role": "airport",
+      "kind": "content",
+      "pore": "git.primals.eco",
+      "crushed_into": ""
+    },
+    {
+      "host": "sporeprint.primals.eco",
+      "url": "https://sporeprint.primals.eco/",
+      "status": 404,
+      "final_url": "https://sporeprint.primals.eco/",
+      "title": "",
+      "bytes": 0,
+      "sha12": "e3b0c44298fc",
+      "redirect": "",
+      "error": "Not Found",
+      "ms": 182,
+      "category": "SCIENCE",
+      "role": "airport",
+      "kind": "orphan",
+      "pore": "sporeprint.primals.eco"
+    },
+    {
+      "host": "hypothesis.primals.eco",
+      "url": "https://hypothesis.primals.eco/",
+      "status": 200,
+      "final_url": "https://hypothesis.primals.eco/",
+      "title": "Hypothesis \u2014 The Artisan's Questions",
+      "bytes": 8000,
+      "sha12": "7ba58112b8d2",
+      "redirect": "",
+      "error": "",
+      "ms": 169,
+      "category": "SCIENCE",
+      "role": "airport",
+      "kind": "content",
+      "pore": "sporeprint.primals.eco"
+    },
+    {
+      "host": "thesis.primals.eco",
+      "url": "https://thesis.primals.eco/",
+      "status": 200,
+      "final_url": "https://thesis.primals.eco/",
+      "title": "Stomachs With No Eyes",
+      "bytes": 8000,
+      "sha12": "47dd0b51933c",
+      "redirect": "",
+      "error": "",
+      "ms": 229,
+      "category": "SCIENCE",
+      "role": "airport",
+      "kind": "content",
+      "pore": "sporeprint.primals.eco"
+    },
+    {
+      "host": "tuebor.primals.eco",
+      "url": "https://tuebor.primals.eco/",
+      "status": 200,
+      "final_url": "https://tuebor.primals.eco/",
+      "title": "tuebor \u2014 Public Record Investigation",
+      "bytes": 8000,
+      "sha12": "4994d6de29c1",
+      "redirect": "",
+      "error": "",
+      "ms": 291,
+      "category": "IMMUNE",
+      "role": "airport",
+      "kind": "content",
+      "pore": "tuebor.primals.eco"
+    },
+    {
+      "host": "clutch.primals.eco",
+      "url": "https://clutch.primals.eco/",
+      "status": 200,
+      "final_url": "https://clutch.primals.eco/",
+      "title": "Clutch Justice \u2014 Walk the Case",
+      "bytes": 8000,
+      "sha12": "eeb5e7711449",
+      "redirect": "",
+      "error": "",
+      "ms": 206,
+      "category": "IMMUNE",
+      "role": "airport",
+      "kind": "content",
+      "pore": "tuebor.primals.eco"
+    },
+    {
+      "host": "signal.primals.eco",
+      "url": "https://signal.primals.eco/",
+      "status": 200,
+      "final_url": "https://signal.primals.eco/",
+      "title": "Signal \u2014 Sovereign Defense Observatory",
+      "bytes": 8000,
+      "sha12": "b181cb44a9ed",
+      "redirect": "",
+      "error": "",
+      "ms": 184,
+      "category": "MEMBRANE",
+      "role": "airport",
+      "kind": "content",
+      "pore": "hud.primals.eco"
+    },
+    {
+      "host": "barry.primals.eco",
+      "url": "https://barry.primals.eco/",
+      "status": 200,
+      "final_url": "https://barry.primals.eco/",
+      "title": "Barry County \u2014 Michigan Public Record",
+      "bytes": 8000,
+      "sha12": "37e3adf7635c",
+      "redirect": "",
+      "error": "",
+      "ms": 211,
+      "category": "INVESTIGATION",
+      "role": "airport",
+      "kind": "content",
+      "pore": "detroit.primals.eco"
+    },
+    {
+      "host": "mcp.primals.eco",
+      "url": "https://mcp.primals.eco/",
+      "status": 200,
+      "final_url": "https://mcp.primals.eco/explore/repos",
+      "title": "Explore - ecoPrimals Forge",
+      "bytes": 8000,
+      "sha12": "432adf48194d",
+      "redirect": "https://mcp.primals.eco/explore/repos",
+      "error": "",
+      "ms": 709,
+      "category": "MEMBRANE",
+      "role": "airport",
+      "kind": "forge-skin",
+      "pore": "git.primals.eco",
+      "crushed_into": "git.primals.eco"
+    },
+    {
+      "host": "antibody.primals.eco",
+      "url": "https://antibody.primals.eco/",
+      "status": 200,
+      "final_url": "https://antibody.primals.eco/explore/repos",
+      "title": "Explore - ecoPrimals Forge",
+      "bytes": 8000,
+      "sha12": "432adf48194d",
+      "redirect": "https://antibody.primals.eco/explore/repos",
+      "error": "",
+      "ms": 664,
+      "category": "IMMUNE",
+      "role": "clone-suspect",
+      "kind": "forge-skin",
+      "pore": "git.primals.eco",
+      "crushed_into": "git.primals.eco"
+    },
+    {
+      "host": "antigen.primals.eco",
+      "url": "https://antigen.primals.eco/",
+      "status": 200,
+      "final_url": "https://antigen.primals.eco/explore/repos",
+      "title": "Explore - ecoPrimals Forge",
+      "bytes": 8000,
+      "sha12": "432adf48194d",
+      "redirect": "https://antigen.primals.eco/explore/repos",
+      "error": "",
+      "ms": 677,
+      "category": "IMMUNE",
+      "role": "clone-suspect",
+      "kind": "forge-skin",
+      "pore": "git.primals.eco",
+      "crushed_into": "git.primals.eco"
+    },
+    {
+      "host": "epitope.primals.eco",
+      "url": "https://epitope.primals.eco/",
+      "status": 200,
+      "final_url": "https://epitope.primals.eco/explore/repos",
+      "title": "Explore - ecoPrimals Forge",
+      "bytes": 8000,
+      "sha12": "432adf48194d",
+      "redirect": "https://epitope.primals.eco/explore/repos",
+      "error": "",
+      "ms": 11698,
+      "category": "IMMUNE",
+      "role": "clone-suspect",
+      "kind": "forge-skin",
+      "pore": "git.primals.eco",
+      "crushed_into": "git.primals.eco"
+    },
+    {
+      "host": "thymus.primals.eco",
+      "url": "https://thymus.primals.eco/",
+      "status": 200,
+      "final_url": "https://thymus.primals.eco/explore/repos",
+      "title": "Explore - ecoPrimals Forge",
+      "bytes": 8000,
+      "sha12": "432adf48194d",
+      "redirect": "https://thymus.primals.eco/explore/repos",
+      "error": "",
+      "ms": 635,
+      "category": "IMMUNE",
+      "role": "clone-suspect",
+      "kind": "forge-skin",
+      "pore": "git.primals.eco",
+      "crushed_into": "git.primals.eco"
+    },
+    {
+      "host": "macrophage.primals.eco",
+      "url": "https://macrophage.primals.eco/",
+      "status": 200,
+      "final_url": "https://macrophage.primals.eco/explore/repos",
+      "title": "Explore - ecoPrimals Forge",
+      "bytes": 8000,
+      "sha12": "432adf48194d",
+      "redirect": "https://macrophage.primals.eco/explore/repos",
+      "error": "",
+      "ms": 643,
+      "category": "IMMUNE",
+      "role": "clone-suspect",
+      "kind": "forge-skin",
+      "pore": "git.primals.eco",
+      "crushed_into": "git.primals.eco"
+    },
+    {
+      "host": "receptor.primals.eco",
+      "url": "https://receptor.primals.eco/",
+      "status": 200,
+      "final_url": "https://receptor.primals.eco/explore/repos",
+      "title": "Explore - ecoPrimals Forge",
+      "bytes": 8000,
+      "sha12": "432adf48194d",
+      "redirect": "https://receptor.primals.eco/explore/repos",
+      "error": "",
+      "ms": 629,
+      "category": "IMMUNE",
+      "role": "clone-suspect",
+      "kind": "forge-skin",
+      "pore": "git.primals.eco",
+      "crushed_into": "git.primals.eco"
+    },
+    {
+      "host": "cytokine.primals.eco",
+      "url": "https://cytokine.primals.eco/",
+      "status": 200,
+      "final_url": "https://cytokine.primals.eco/explore/repos",
+      "title": "Explore - ecoPrimals Forge",
+      "bytes": 8000,
+      "sha12": "432adf48194d",
+      "redirect": "https://cytokine.primals.eco/explore/repos",
+      "error": "",
+      "ms": 634,
+      "category": "IMMUNE",
+      "role": "clone-suspect",
+      "kind": "forge-skin",
+      "pore": "git.primals.eco",
+      "crushed_into": "git.primals.eco"
+    },
+    {
+      "host": "complement.primals.eco",
+      "url": "https://complement.primals.eco/",
+      "status": 200,
+      "final_url": "https://complement.primals.eco/explore/repos",
+      "title": "Explore - ecoPrimals Forge",
+      "bytes": 8000,
+      "sha12": "432adf48194d",
+      "redirect": "https://complement.primals.eco/explore/repos",
+      "error": "",
+      "ms": 609,
+      "category": "IMMUNE",
+      "role": "clone-suspect",
+      "kind": "forge-skin",
+      "pore": "git.primals.eco",
+      "crushed_into": "git.primals.eco"
+    },
+    {
+      "host": "lysozyme.primals.eco",
+      "url": "https://lysozyme.primals.eco/",
+      "status": 200,
+      "final_url": "https://lysozyme.primals.eco/explore/repos",
+      "title": "Explore - ecoPrimals Forge",
+      "bytes": 8000,
+      "sha12": "432adf48194d",
+      "redirect": "https://lysozyme.primals.eco/explore/repos",
+      "error": "",
+      "ms": 607,
+      "category": "IMMUNE",
+      "role": "clone-suspect",
+      "kind": "forge-skin",
+      "pore": "git.primals.eco",
+      "crushed_into": "git.primals.eco"
+    },
+    {
+      "host": "interferon.primals.eco",
+      "url": "https://interferon.primals.eco/",
+      "status": 200,
+      "final_url": "https://interferon.primals.eco/explore/repos",
+      "title": "Explore - ecoPrimals Forge",
+      "bytes": 8000,
+      "sha12": "432adf48194d",
+      "redirect": "https://interferon.primals.eco/explore/repos",
+      "error": "",
+      "ms": 615,
+      "category": "IMMUNE",
+      "role": "clone-suspect",
+      "kind": "forge-skin",
+      "pore": "git.primals.eco",
+      "crushed_into": "git.primals.eco"
+    },
+    {
+      "host": "opsonize.primals.eco",
+      "url": "https://opsonize.primals.eco/",
+      "status": 200,
+      "final_url": "https://opsonize.primals.eco/explore/repos",
+      "title": "Explore - ecoPrimals Forge",
+      "bytes": 8000,
+      "sha12": "432adf48194d",
+      "redirect": "https://opsonize.primals.eco/explore/repos",
+      "error": "",
+      "ms": 712,
+      "category": "IMMUNE",
+      "role": "clone-suspect",
+      "kind": "forge-skin",
+      "pore": "git.primals.eco",
+      "crushed_into": "git.primals.eco"
+    },
+    {
+      "host": "bloom.primals.eco",
+      "url": "https://bloom.primals.eco/",
+      "status": 200,
+      "final_url": "https://bloom.primals.eco/explore/repos",
+      "title": "Explore - ecoPrimals Forge",
+      "bytes": 8000,
+      "sha12": "432adf48194d",
+      "redirect": "https://bloom.primals.eco/explore/repos",
+      "error": "",
+      "ms": 626,
+      "category": "IMMUNE",
+      "role": "clone-suspect",
+      "kind": "forge-skin",
+      "pore": "git.primals.eco",
+      "crushed_into": "git.primals.eco"
+    },
+    {
+      "host": "synthesis.primals.eco",
+      "url": "https://synthesis.primals.eco/",
+      "status": 200,
+      "final_url": "https://tuebor.primals.eco/synthesis/",
+      "title": "Synthesis \u2014 tuebor \u2014 Public Record Investigation",
+      "bytes": 8000,
+      "sha12": "b0ad389aecf1",
+      "redirect": "https://tuebor.primals.eco/synthesis/",
+      "error": "",
+      "ms": 330,
+      "category": "OTHER",
+      "role": "clone-suspect",
+      "kind": "alias",
+      "pore": "hud.primals.eco",
+      "crushed_into": "tuebor.primals.eco"
+    },
+    {
+      "host": "lansing.primals.eco",
+      "url": "https://lansing.primals.eco/",
+      "status": 404,
+      "final_url": "https://lansing.primals.eco/",
+      "title": "",
+      "bytes": 0,
+      "sha12": "e3b0c44298fc",
+      "redirect": "",
+      "error": "Not Found",
+      "ms": 331,
+      "category": "TOPOLOGY",
+      "role": "clone-suspect",
+      "kind": "orphan",
+      "pore": "git.primals.eco"
+    },
+    {
+      "host": "layer2.primals.eco",
+      "url": "https://layer2.primals.eco/",
+      "status": 200,
+      "final_url": "https://layer2.primals.eco/explore/repos",
+      "title": "Explore - ecoPrimals Forge",
+      "bytes": 8000,
+      "sha12": "432adf48194d",
+      "redirect": "https://layer2.primals.eco/explore/repos",
+      "error": "",
+      "ms": 648,
+      "category": "TOPOLOGY",
+      "role": "clone-suspect",
+      "kind": "forge-skin",
+      "pore": "git.primals.eco",
+      "crushed_into": "git.primals.eco"
+    },
+    {
+      "host": "relay.primals.eco",
+      "url": "https://relay.primals.eco/",
+      "status": 200,
+      "final_url": "https://relay.primals.eco/",
+      "title": "beacon.primals.eco \u2014 Commensal Relay",
+      "bytes": 8000,
+      "sha12": "655fb4f3d043",
+      "redirect": "",
+      "error": "",
+      "ms": 11231,
+      "category": "TOPOLOGY",
+      "role": "clone-suspect",
+      "kind": "clone",
+      "pore": "git.primals.eco",
+      "crushed_into": "beacon.primals.eco"
+    },
+    {
+      "host": "beacon.primals.eco",
+      "url": "https://beacon.primals.eco/",
+      "status": 200,
+      "final_url": "https://beacon.primals.eco/",
+      "title": "beacon.primals.eco \u2014 Commensal Relay",
+      "bytes": 8000,
+      "sha12": "655fb4f3d043",
+      "redirect": "",
+      "error": "",
+      "ms": 176,
+      "category": "TOPOLOGY",
+      "role": "clone-suspect",
+      "kind": "content",
+      "pore": "git.primals.eco",
+      "crushed_into": "git.primals.eco"
+    }
+  ],
+  "unique_content": [
+    "primals.eco",
+    "detroit.primals.eco",
+    "hud.primals.eco",
+    "hypothesis.primals.eco",
+    "thesis.primals.eco",
+    "tuebor.primals.eco",
+    "clutch.primals.eco",
+    "signal.primals.eco",
+    "barry.primals.eco",
+    "beacon.primals.eco",
+    "git.primals.eco"
+  ],
+  "redundant_clones": [
+    {
+      "host": "mcp.primals.eco",
+      "pore": "git.primals.eco",
+      "shape": "forge-skin"
+    },
+    {
+      "host": "antibody.primals.eco",
+      "pore": "git.primals.eco",
+      "shape": "forge-skin"
+    },
+    {
+      "host": "antigen.primals.eco",
+      "pore": "git.primals.eco",
+      "shape": "forge-skin"
+    },
+    {
+      "host": "epitope.primals.eco",
+      "pore": "git.primals.eco",
+      "shape": "forge-skin"
+    },
+    {
+      "host": "thymus.primals.eco",
+      "pore": "git.primals.eco",
+      "shape": "forge-skin"
+    },
+    {
+      "host": "macrophage.primals.eco",
+      "pore": "git.primals.eco",
+      "shape": "forge-skin"
+    },
+    {
+      "host": "receptor.primals.eco",
+      "pore": "git.primals.eco",
+      "shape": "forge-skin"
+    },
+    {
+      "host": "cytokine.primals.eco",
+      "pore": "git.primals.eco",
+      "shape": "forge-skin"
+    },
+    {
+      "host": "complement.primals.eco",
+      "pore": "git.primals.eco",
+      "shape": "forge-skin"
+    },
+    {
+      "host": "lysozyme.primals.eco",
+      "pore": "git.primals.eco",
+      "shape": "forge-skin"
+    },
+    {
+      "host": "interferon.primals.eco",
+      "pore": "git.primals.eco",
+      "shape": "forge-skin"
+    },
+    {
+      "host": "opsonize.primals.eco",
+      "pore": "git.primals.eco",
+      "shape": "forge-skin"
+    },
+    {
+      "host": "bloom.primals.eco",
+      "pore": "git.primals.eco",
+      "shape": "forge-skin"
+    },
+    {
+      "host": "layer2.primals.eco",
+      "pore": "git.primals.eco",
+      "shape": "forge-skin"
+    }
+  ],
+  "orphans": [
+    "sporeprint.primals.eco",
+    "lansing.primals.eco"
+  ],
+  "aliases": [
+    {
+      "from": "synthesis.primals.eco",
+      "to": "https://tuebor.primals.eco/synthesis/"
+    }
+  ],
+  "exits": [
+    {
+      "id": "visitor",
+      "sessions": 9,
+      "requests": 76,
+      "breadth": 1.2,
+      "depth": "glance",
+      "p_session": 0.375,
+      "p_request": 0.286,
+      "p_plinko": 0.322
+    },
+    {
+      "id": "reader",
+      "sessions": 8,
+      "requests": 30,
+      "breadth": 2.6,
+      "depth": "read",
+      "p_session": 0.333,
+      "p_request": 0.113,
+      "p_plinko": 0.201
+    },
+    {
+      "id": "coder",
+      "sessions": 6,
+      "requests": 75,
+      "breadth": 2.8,
+      "depth": "audit",
+      "p_session": 0.25,
+      "p_request": 0.282,
+      "p_plinko": 0.269
+    },
+    {
+      "id": "observer",
+      "sessions": 1,
+      "requests": 85,
+      "breadth": 1.0,
+      "depth": "watch",
+      "p_session": 0.042,
+      "p_request": 0.32,
+      "p_plinko": 0.209
+    }
+  ],
+  "dag": {
+    "entry": "primals.eco",
+    "layers": [
+      {
+        "depth": 0,
+        "name": "drop",
+        "nodes": [
+          "primals.eco"
+        ]
+      },
+      {
+        "depth": 1,
+        "name": "airports",
+        "nodes": [
+          "detroit.primals.eco",
+          "hud.primals.eco",
+          "hypothesis.primals.eco",
+          "thesis.primals.eco",
+          "tuebor.primals.eco",
+          "clutch.primals.eco",
+          "signal.primals.eco",
+          "barry.primals.eco",
+          "beacon.primals.eco",
+          "git.primals.eco"
+        ]
+      },
+      {
+        "depth": 2,
+        "name": "pores",
+        "nodes": [
+          "detroit.primals.eco",
+          "hud.primals.eco",
+          "git.primals.eco",
+          "tuebor.primals.eco"
+        ]
+      },
+      {
+        "depth": 3,
+        "name": "exits",
+        "nodes": [
+          "visitor",
+          "reader",
+          "coder",
+          "observer"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "from": "primals.eco",
+        "to": "detroit.primals.eco",
+        "type": "fall"
+      },
+      {
+        "from": "primals.eco",
+        "to": "hud.primals.eco",
+        "type": "fall"
+      },
+      {
+        "from": "primals.eco",
+        "to": "hypothesis.primals.eco",
+        "type": "fall"
+      },
+      {
+        "from": "primals.eco",
+        "to": "thesis.primals.eco",
+        "type": "fall"
+      },
+      {
+        "from": "primals.eco",
+        "to": "tuebor.primals.eco",
+        "type": "fall"
+      },
+      {
+        "from": "primals.eco",
+        "to": "clutch.primals.eco",
+        "type": "fall"
+      },
+      {
+        "from": "primals.eco",
+        "to": "signal.primals.eco",
+        "type": "fall"
+      },
+      {
+        "from": "primals.eco",
+        "to": "barry.primals.eco",
+        "type": "fall"
+      },
+      {
+        "from": "primals.eco",
+        "to": "beacon.primals.eco",
+        "type": "fall"
+      },
+      {
+        "from": "primals.eco",
+        "to": "git.primals.eco",
+        "type": "fall"
+      },
+      {
+        "from": "mcp.primals.eco",
+        "to": "git.primals.eco",
+        "type": "crush"
+      },
+      {
+        "from": "antibody.primals.eco",
+        "to": "git.primals.eco",
+        "type": "crush"
+      },
+      {
+        "from": "antigen.primals.eco",
+        "to": "git.primals.eco",
+        "type": "crush"
+      },
+      {
+        "from": "epitope.primals.eco",
+        "to": "git.primals.eco",
+        "type": "crush"
+      },
+      {
+        "from": "thymus.primals.eco",
+        "to": "git.primals.eco",
+        "type": "crush"
+      },
+      {
+        "from": "macrophage.primals.eco",
+        "to": "git.primals.eco",
+        "type": "crush"
+      },
+      {
+        "from": "receptor.primals.eco",
+        "to": "git.primals.eco",
+        "type": "crush"
+      },
+      {
+        "from": "cytokine.primals.eco",
+        "to": "git.primals.eco",
+        "type": "crush"
+      },
+      {
+        "from": "complement.primals.eco",
+        "to": "git.primals.eco",
+        "type": "crush"
+      },
+      {
+        "from": "lysozyme.primals.eco",
+        "to": "git.primals.eco",
+        "type": "crush"
+      },
+      {
+        "from": "interferon.primals.eco",
+        "to": "git.primals.eco",
+        "type": "crush"
+      },
+      {
+        "from": "opsonize.primals.eco",
+        "to": "git.primals.eco",
+        "type": "crush"
+      },
+      {
+        "from": "bloom.primals.eco",
+        "to": "git.primals.eco",
+        "type": "crush"
+      },
+      {
+        "from": "layer2.primals.eco",
+        "to": "git.primals.eco",
+        "type": "crush"
+      },
+      {
+        "from": "relay.primals.eco",
+        "to": "beacon.primals.eco",
+        "type": "crush"
+      },
+      {
+        "from": "synthesis.primals.eco",
+        "to": "https://tuebor.primals.eco/synthesis/",
+        "type": "crush"
+      },
+      {
+        "from": "detroit.primals.eco",
+        "to": "visitor",
+        "type": "plinko",
+        "p": 0.322
+      },
+      {
+        "from": "detroit.primals.eco",
+        "to": "reader",
+        "type": "plinko",
+        "p": 0.201
+      },
+      {
+        "from": "detroit.primals.eco",
+        "to": "coder",
+        "type": "plinko",
+        "p": 0.269
+      },
+      {
+        "from": "detroit.primals.eco",
+        "to": "observer",
+        "type": "plinko",
+        "p": 0.209
+      },
+      {
+        "from": "hud.primals.eco",
+        "to": "visitor",
+        "type": "plinko",
+        "p": 0.322
+      },
+      {
+        "from": "hud.primals.eco",
+        "to": "reader",
+        "type": "plinko",
+        "p": 0.201
+      },
+      {
+        "from": "hud.primals.eco",
+        "to": "coder",
+        "type": "plinko",
+        "p": 0.269
+      },
+      {
+        "from": "hud.primals.eco",
+        "to": "observer",
+        "type": "plinko",
+        "p": 0.209
+      },
+      {
+        "from": "git.primals.eco",
+        "to": "visitor",
+        "type": "plinko",
+        "p": 0.322
+      },
+      {
+        "from": "git.primals.eco",
+        "to": "reader",
+        "type": "plinko",
+        "p": 0.201
+      },
+      {
+        "from": "git.primals.eco",
+        "to": "coder",
+        "type": "plinko",
+        "p": 0.269
+      },
+      {
+        "from": "git.primals.eco",
+        "to": "observer",
+        "type": "plinko",
+        "p": 0.209
+      },
+      {
+        "from": "tuebor.primals.eco",
+        "to": "visitor",
+        "type": "plinko",
+        "p": 0.322
+      },
+      {
+        "from": "tuebor.primals.eco",
+        "to": "reader",
+        "type": "plinko",
+        "p": 0.201
+      },
+      {
+        "from": "tuebor.primals.eco",
+        "to": "coder",
+        "type": "plinko",
+        "p": 0.269
+      },
+      {
+        "from": "tuebor.primals.eco",
+        "to": "observer",
+        "type": "plinko",
+        "p": 0.209
+      }
+    ],
+    "cycles_removed": [
+      {
+        "clique_member": "mcp.primals.eco",
+        "now_falls_to": "git.primals.eco",
+        "was": "forge-skin /explore/repos"
+      },
+      {
+        "clique_member": "antibody.primals.eco",
+        "now_falls_to": "git.primals.eco",
+        "was": "forge-skin /explore/repos"
+      },
+      {
+        "clique_member": "antigen.primals.eco",
+        "now_falls_to": "git.primals.eco",
+        "was": "forge-skin /explore/repos"
+      },
+      {
+        "clique_member": "epitope.primals.eco",
+        "now_falls_to": "git.primals.eco",
+        "was": "forge-skin /explore/repos"
+      },
+      {
+        "clique_member": "thymus.primals.eco",
+        "now_falls_to": "git.primals.eco",
+        "was": "forge-skin /explore/repos"
+      },
+      {
+        "clique_member": "macrophage.primals.eco",
+        "now_falls_to": "git.primals.eco",
+        "was": "forge-skin /explore/repos"
+      },
+      {
+        "clique_member": "receptor.primals.eco",
+        "now_falls_to": "git.primals.eco",
+        "was": "forge-skin /explore/repos"
+      },
+      {
+        "clique_member": "cytokine.primals.eco",
+        "now_falls_to": "git.primals.eco",
+        "was": "forge-skin /explore/repos"
+      },
+      {
+        "clique_member": "complement.primals.eco",
+        "now_falls_to": "git.primals.eco",
+        "was": "forge-skin /explore/repos"
+      },
+      {
+        "clique_member": "lysozyme.primals.eco",
+        "now_falls_to": "git.primals.eco",
+        "was": "forge-skin /explore/repos"
+      },
+      {
+        "clique_member": "interferon.primals.eco",
+        "now_falls_to": "git.primals.eco",
+        "was": "forge-skin /explore/repos"
+      },
+      {
+        "clique_member": "opsonize.primals.eco",
+        "now_falls_to": "git.primals.eco",
+        "was": "forge-skin /explore/repos"
+      },
+      {
+        "clique_member": "bloom.primals.eco",
+        "now_falls_to": "git.primals.eco",
+        "was": "forge-skin /explore/repos"
+      },
+      {
+        "clique_member": "layer2.primals.eco",
+        "now_falls_to": "git.primals.eco",
+        "was": "forge-skin /explore/repos"
+      },
+      {
+        "clique_member": "relay.primals.eco",
+        "now_falls_to": "beacon.primals.eco"
+      },
+      {
+        "clique_member": "synthesis.primals.eco",
+        "now_falls_to": "https://tuebor.primals.eco/synthesis/"
+      }
+    ]
+  },
+  "counts": {
+    "poked": 29,
+    "content": 11,
+    "forge_skins_crushed": 14,
+    "orphans": 2,
+    "aliases": 1,
+    "beacon_clones": 1
+  },
+  "note": "Scanners poke 14 Forgejo skins in parallel and walk a clique. Crush them into git.primals.eco. sporeprint + lansing are orphans (404). synthesis already falls to tuebor. relay clones beacon. Exits are not uniform: observer is 1 person and 32% of attention.",
+  "beacon_clones": [
+    "relay.primals.eco"
+  ]
+}
