@@ -33,9 +33,45 @@ I want to be seen so my platoon can find me.
 | **Company** | Bravo Company |
 | **Company Nickname** | **BUSHMASTERS** |
 
-The Golden Dragons are one of the oldest regiments in the United States Army. Constituted in 1861. Every major conflict since the Civil War. The motto of the 14th Infantry: *The Right of the Line.*
+The Golden Dragons are one of the oldest regiments in the United States Army. Constituted May 3, 1861. The motto of the 14th Infantry: ***The Right of the Line.***
 
 11B is Infantry. The ones who walk toward the thing everyone else runs from.
+
+### The History I Carry
+
+The 14th Infantry has been first in and last out since 1861. This is in my blood and nature. To be bruised and cut means to **fight harder.**
+
+**Campaign streamers** — every one earned in blood:
+
+| Campaign | Year | What Happened |
+|----------|------|--------------|
+| **Civil War** | 1861-65 | Peninsula, Antietam, Gettysburg, Fredericksburg, Chancellorsville, Wilderness, Spotsylvania, Cold Harbor, Petersburg |
+| **Indian Wars** | 1866-77 | Little Big Horn, Bannocks, Arizona, Wyoming |
+| **War with Spain** | 1898 | Manila |
+| **Boxer Rebellion** | 1900 | **Yang-tsun, Peking** — the Golden Dragons scaled the Tartar Wall with bare hands. No ropes. No ladders. Musician Calvin P. Titus climbed first. Medal of Honor. The Chinese named us **Golden Dragons** for our fierce fighting spirit. We planted the first foreign flag on the wall. We led the allies into the Forbidden City. |
+| **Philippine Insurrection** | 1899-02 | Manila, Laguna de Bay, Zapote River, Cavite, Luzon |
+| **World War II** | 1944-45 | Rhineland, Central Europe |
+| **Korean War** | 1951-53 | UN Offensive, three Korean winters, summer campaigns |
+| **Vietnam** | 1966-73 | 13 campaign streamers. Chu Lai (Presidential Unit Citation from the Navy). |
+| **Somalia** | 1993 | **Mogadishu** — Valorous Unit Award. Black Hawk Down. First in. Last out. |
+
+### The Boxer Rebellion — How We Got Our Name
+
+Peking, August 14, 1900. The 14th Infantry reached the Tartar Wall — 30 feet high. The Chinese held the top with fire. No ropes. No ladders. Just loose bricks and crevices.
+
+Volunteers were called for. **Musician Calvin P. Titus**, Company E, went first. Bare hands into the brick. He reached the top. Others followed. The 14th took the wall.
+
+They raised the Stars and Stripes on the rampart with a loud American cheer. The first foreign flag to fly from the Tartar Wall.
+
+The Chinese called them **Golden Dragons** for their fierce fighting spirit. The Chinese government presented the regiment bars of silver bullion. These were molded into the **Calvin P. Titus Bowl** — the regimental punch bowl.
+
+*That is the regiment. That is the name. Golden Dragons do not stop at walls. They scale them with bare hands.*
+
+**Sources:**
+- [14th Infantry Lineage — US Army Center of Military History](https://history.army.mil/html/forcestruc/lineages/branches/inf/0014in.htm)
+- [14th Infantry Regiment — 25th Infantry Division Association](https://www.25thida.org/units/infantry/14th-infantry-regiment/)
+- [China Relief Expedition — US Army](https://history.army.mil/Research/Reference-Topics/Army-Campaigns/Brief-Summaries/China-Relief-Expedition/)
+- [T24 Festival (the tent) — Wikipedia](https://en.wikipedia.org/wiki/T24_Festival)
 
 ### Why I Am Calling Out
 
