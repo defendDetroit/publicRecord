@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T16:38:24.904048+00:00",
+  "generated": "2026-10-20T17:07:57.792317+00:00",
   "model": "backscatter-opsonize",
   "status": "STARTED — bones in, needs Rust integration",
   "falsification": {
@@ -14,7 +14,7 @@
     {
       "prefix": "74.7.241.x",
       "subnet_count": 1,
-      "total_requests": 1040194,
+      "total_requests": 1041933,
       "orgs": [
         "Unknown"
       ],
@@ -24,7 +24,7 @@
     {
       "prefix": "74.7.227.x",
       "subnet_count": 1,
-      "total_requests": 974367,
+      "total_requests": 979588,
       "orgs": [
         "Unknown"
       ],
@@ -34,7 +34,7 @@
     {
       "prefix": "74.7.242.x",
       "subnet_count": 1,
-      "total_requests": 684969,
+      "total_requests": 688452,
       "orgs": [
         "Unknown"
       ],
@@ -44,7 +44,7 @@
     {
       "prefix": "216.73.216.x",
       "subnet_count": 1,
-      "total_requests": 427697,
+      "total_requests": 427720,
       "orgs": [
         "Anthropic"
       ],
@@ -66,7 +66,7 @@
     {
       "prefix": "162.226.225.x",
       "subnet_count": 1,
-      "total_requests": 141483,
+      "total_requests": 144842,
       "orgs": [
         "House network"
       ],
@@ -110,7 +110,7 @@
       "start_hour": "2026-10-17 14",
       "dominant_path": "other",
       "entity_count": 2,
-      "total_requests": 288369,
+      "total_requests": 291728,
       "ip_hashes": [
         "eae74052",
         "40ddb2aa"
@@ -121,7 +121,7 @@
       "start_hour": "2026-10-20 00",
       "dominant_path": "commit",
       "entity_count": 2,
-      "total_requests": 33331,
+      "total_requests": 34490,
       "ip_hashes": [
         "a26cbdb3",
         "6bd945bf"
@@ -133,7 +133,7 @@
     "meta_dublin": {
       "tag": "opsonized:coordinated",
       "evidence": "60 IPs from 57.141.20.x, 18 rotating UAs, Chrome 118 lag",
-      "requests": 16049,
+      "requests": 16397,
       "classification_was": "commensal (individual)",
       "classification_should_be": "coordinated:campaign:meta"
     },
@@ -147,22 +147,22 @@
     "anthropic_fleet": {
       "tag": "opsonized:coordinated",
       "evidence": "SF datacenter, 427K requests, 1 subnet",
-      "requests": 427697,
+      "requests": 427720,
       "classification_was": "commensal (individual)",
       "classification_should_be": "coordinated:campaign:anthropic"
     },
     "forge_skin_clique": {
       "tag": "opsonized:coordinated",
       "evidence": "14 immune hosts all serve /explore/repos, uniform hit pattern",
-      "requests": 3176370,
+      "requests": 3186813,
       "classification_was": "individual visitors",
       "classification_should_be": "coordinated:clique:forge_skins"
     }
   },
   "collision_level2_correction": {
     "old_coordinated": 0,
-    "new_coordinated_floor": 3680932,
-    "timing_coordinated": 2770583,
+    "new_coordinated_floor": 3694757,
+    "timing_coordinated": 2775101,
     "note": "floor estimate from subnet grouping. real number higher after timing + path correlation."
   },
   "next_steps": [
