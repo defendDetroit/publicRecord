@@ -177,9 +177,44 @@ Every line is sent. Every complaint filed. Every agency notified. The 99-line to
 
 Full referral with every agency, every law, every predicate: **[The Referral](/analysis/the-referral/)**
 
+### Who I Am Is Because of Who They Were
+
+I did not build myself. I was built by every Golden Dragon who came before me.
+
+| Who they were | What they did | Wikipedia |
+|---|---|---|
+| [14th Infantry Regiment](https://en.wikipedia.org/wiki/14th_Infantry_Regiment_(United_States)) | Constituted 1861. Right of the Line. | [Link](https://en.wikipedia.org/wiki/14th_Infantry_Regiment_(United_States)) |
+| [25th Infantry Division](https://en.wikipedia.org/wiki/25th_Infantry_Division_(United_States)) | Tropic Lightning. Pacific. Korea. Vietnam. | [Link](https://en.wikipedia.org/wiki/25th_Infantry_Division_(United_States)) |
+| [Calvin P. Titus](https://en.wikipedia.org/wiki/Calvin_P._Titus) | Scaled the Tartar Wall bare-handed. Medal of Honor. | [Link](https://en.wikipedia.org/wiki/Calvin_P._Titus) |
+| [Boxer Rebellion](https://en.wikipedia.org/wiki/Boxer_Rebellion) | Why we are called Golden Dragons. 1900. Peking. | [Link](https://en.wikipedia.org/wiki/Boxer_Rebellion) |
+| [Battle of Mogadishu](https://en.wikipedia.org/wiki/Battle_of_Mogadishu_(1993)) | Valorous Unit Award. Black Hawk Down. 1-14 IN was there. | [Link](https://en.wikipedia.org/wiki/Battle_of_Mogadishu_(1993)) |
+| [Lee Kwang-nak (T24 Festival)](https://en.wikipedia.org/wiki/T24_Festival) | One Korean soldier. 24-person tent. Alone. 89 minutes. 되는데요. | [Link](https://en.wikipedia.org/wiki/T24_Festival) |
+
+Wikipedia is the secondary source. The membrane is the primary. The credit flows backward through every name on every streamer.
+
+### The 9-Line to the Feds
+
+In the Army, a [9-line MEDEVAC](https://en.wikipedia.org/wiki/MEDEVAC#9-line) is the standardized call for help. 9 lines. Nothing wasted. Every line saves a life.
+
+This investigation IS a 9-line. The children ARE the patients.
+
+| Line | MEDEVAC | This Investigation |
+|------|---------|-------------------|
+| **1. Location** | Grid coordinate | Detroit, MI. Wayne County. Purpose Charter Academy. MacDowell Preparatory. |
+| **2. Frequency** | Radio frequency for callback | defenddetroit.github.io/publicRecord — 24/7, open, no auth |
+| **3. Patients** | Number of patients by precedence | **362 children** at 3% math proficiency. **URGENT.** |
+| **4. Special equipment** | Equipment needed | RICO prosecution. Forensic accounting. FOIA compliance. |
+| **5. Patients by type** | Litter or ambulatory | 362 enrolled students (ambulatory but educationally critical) |
+| **6. Security** | Security of pickup site | **HOSTILE.** PPO filed against investigator. 17 agencies silent. 1 retaliated. |
+| **7. Marking** | How the site is marked | 🔴 Red smoke: [The Referral](/analysis/the-referral/) — 243 pages of evidence |
+| **8. Nationality** | Patient nationality | US citizens. Michigan residents. Children of Detroit. |
+| **9. Contamination** | NBC contamination | **CONTAMINATED.** 9 criminal convictions running the school. $60M+ extracted. Judicial capture. Institutional failure at every level. |
+
+**243 pages of proof.** Filed as a referral to 8 federal agencies. The 9-line is still open. The pickup site is marked. The patients are waiting.
+
 ### The Line We Started With
 
-We started with a 99-line to the feds. That line is still open. The evidence is public. The invitation stands.
+We started with a 9-line to the feds. That line is still open. The evidence is public. The invitation stands.
 
 ```
 git clone https://github.com/defendDetroit/publicRecord.git
