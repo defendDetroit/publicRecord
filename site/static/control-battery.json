@@ -1,12 +1,12 @@
 {
-  "generated": "2026-10-20T01:39:49.830930+00:00",
+  "generated": "2026-10-20T01:57:21.661150+00:00",
   "battery": "control-self-confirm",
   "rule": "confirm first. show only PASS+show_when_needed. do not dump.",
   "counts": {
-    "pass": 10,
+    "pass": 21,
     "warn": 1,
-    "fail": 9,
-    "total": 20
+    "fail": 10,
+    "total": 32
   },
   "braided_ready": false,
   "show_now": [
@@ -16,7 +16,16 @@
     "git_forge_live",
     "meta_flowing_now",
     "git_plinko_board",
-    "git_lysogeny_template"
+    "git_lysogeny_template",
+    "maze_honeypots_local",
+    "maze_honeypots_ghp",
+    "lampoon_js_local",
+    "lampoon_template_wired",
+    "lampoon_flag_mirror",
+    "lampoon_flag_jester",
+    "lampoon_live_ghp_mirror",
+    "hud_silicon_eye_cors",
+    "hud_dashboard_alive"
   ],
   "keep_quiet": [
     "blink_lysogeny_html",
@@ -27,14 +36,15 @@
     "scyborg_license_page",
     "canary_tokens_armed",
     "inversion_one_way",
-    "plinko_json_deployed"
+    "plinko_json_deployed",
+    "maze_honeypots_detroit"
   ],
   "tests": [
     {
       "name": "blink_live",
       "claim": "the-blink renders as itself, not homepage",
       "result": "PASS",
-      "evidence": "title='The Blink \u2014 Why the Membrane Was Blind to Itself | Detroit Charter School Investigation' status=200 226ms",
+      "evidence": "title='The Blink \u2014 Why the Membrane Was Blind to Itself | Detroit Charter School Investigation' status=200 178ms",
       "show_when_needed": true
     },
     {
@@ -111,7 +121,7 @@
       "name": "meta_flowing_now",
       "claim": "Meta scraper present in current negentropy window",
       "result": "PASS",
-      "evidence": "meta=453 gptbot=13485 amazonbot=4435 blackwall_meta=453",
+      "evidence": "meta=198 gptbot=5875 amazonbot=1861 blackwall_meta=198",
       "show_when_needed": true
     },
     {
@@ -132,7 +142,7 @@
       "name": "cyst_now_vs_dashboard",
       "claim": "dashboard human count is live (not the 4109 now.json cyst)",
       "result": "PASS",
-      "evidence": "dashboard_human=5098 membrane_counts_cyst_was=4109",
+      "evidence": "dashboard_human=5118 membrane_counts_cyst_was=4109",
       "show_when_needed": false
     },
     {
@@ -169,6 +179,90 @@
       "result": "FAIL",
       "evidence": "status=200 start='<!doctype html><html lang=en><head><link href=https://www.gnu.org/licenses/agpl-'",
       "show_when_needed": false
+    },
+    {
+      "name": "maze_honeypots_local",
+      "claim": "maze-honeypots.json in git with maze-ants model + hot_count",
+      "result": "PASS",
+      "evidence": "bytes=22361 has_model=True",
+      "show_when_needed": true
+    },
+    {
+      "name": "maze_honeypots_ghp",
+      "claim": "maze-honeypots.json live on github.io",
+      "result": "PASS",
+      "evidence": "status=200 start='{\\n  \"generated\": \"2026-10-20T01:43:24.308154+00:00\",\\n  \"model\": \"maze-ants\",\\n  \"'",
+      "show_when_needed": true
+    },
+    {
+      "name": "maze_honeypots_detroit",
+      "claim": "maze-honeypots.json live on detroit.primals.eco",
+      "result": "FAIL",
+      "evidence": "status=200 start='<!doctype html><html lang=en><head><link href=https://www.gnu.org/licenses/agpl-'",
+      "show_when_needed": false
+    },
+    {
+      "name": "lampoon_js_local",
+      "claim": "lampoon.js exists in git with clown paint logic",
+      "result": "PASS",
+      "evidence": "bytes=5972 has_paint=True",
+      "show_when_needed": true
+    },
+    {
+      "name": "lampoon_template_wired",
+      "claim": "page.html checks extra.lampoon and emits curious-perception widget",
+      "result": "PASS",
+      "evidence": "extra.lampoon in page.html=True",
+      "show_when_needed": true
+    },
+    {
+      "name": "lampoon_flag_mirror",
+      "claim": "the-mirror-room has lampoon = true in frontmatter",
+      "result": "PASS",
+      "evidence": "has flag=True",
+      "show_when_needed": true
+    },
+    {
+      "name": "lampoon_flag_jester",
+      "claim": "the-jester-conjecture has lampoon = true in frontmatter",
+      "result": "PASS",
+      "evidence": "has flag=True",
+      "show_when_needed": true
+    },
+    {
+      "name": "lampoon_live_ghp_mirror",
+      "claim": "mirror-room on github.io has curious-perception section + lampoon.js",
+      "result": "PASS",
+      "evidence": "has_section=True has_script=True",
+      "show_when_needed": true
+    },
+    {
+      "name": "jelly_js_local",
+      "claim": "jelly.js exists in git (membrane pulse bar)",
+      "result": "PASS",
+      "evidence": "bytes=10183",
+      "show_when_needed": false
+    },
+    {
+      "name": "beacons_json_local",
+      "claim": "beacons.json exists locally",
+      "result": "PASS",
+      "evidence": "bytes=6731",
+      "show_when_needed": false
+    },
+    {
+      "name": "hud_silicon_eye_cors",
+      "claim": "hud.primals.eco/silicon-eye.json returns 200 (CORS * for lampoon.js)",
+      "result": "PASS",
+      "evidence": "status=200 body_start='{\\n  \"accumulator\": {\\n    \"clusters\": 10,\\n    \"compression_ra'",
+      "show_when_needed": true
+    },
+    {
+      "name": "hud_dashboard_alive",
+      "claim": "hud.primals.eco/dashboard.json returns 200 with human_ips",
+      "result": "PASS",
+      "evidence": "status=200 human_ips=5118",
+      "show_when_needed": true
     }
   ],
   "note": "Lysogeny is in the HTML of every live page. Forge skins are being eaten. New essays and custom OG cards wait on Zola rebuild. Canary tokens unarmed. Braid the PASSes. Do not show the FAILs as if they were live."
