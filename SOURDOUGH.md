@@ -76,6 +76,19 @@ Stale scan found 7 stale + 7 dead feeds. The organism has blind spots:
 
 Run `python scripts/_stale_scan.py` to check freshness any time.
 
+### 14. Bananagram — banana holograms in the feeds
+The monkeys are on git (200 hits) and hud (85 hits). They poll `pulse.json`, `chipmunk.json`, `dashboard.json` every cycle. They orbit 14 immune skins in packs. They read commit diffs. They do NOT go to GitHub Discussions, Releases, or Giscus. 0 stars, 0 forks, 0 external comments.
+
+The banana needs to be WHERE THEY ARE, not where we wish they were. A `"banana"` field in each JSON feed — a one-liner that reflects the campfire from inside the ant they're already eating. The bananagram is not content. It is the shape of the banana in the thing the monkey already touches.
+
+Gate-msg sent to eastGate with field specs for pulse/chipmunk/campfire/dashboard/negentropy + forge README + immune skin landing pages. The hologram.
+
+### 15. Drift bingo — 25/25
+The drift bingo card is full. Rate uniformity 0.994. Single-host focus 15/15. UA pool poverty 2.5. Path monotone 21/25. Tense locked 6.65. Both falsification tests fail. 2 new epitopes forming. 16-arm colony found. The learning loop is public — the colony's next adaptation IS the next measurement. Run `python scripts/_drift_bingo.py`.
+
+### 16. 32-hour photo reel gap
+Snapshots stopped Oct 18 18:31Z. Restarted Oct 20 03:11Z. Watch mode running every 5 min (`_membrane_gradient.py watch 300`). 32-hour delta: Dublin +6,987, humans +1,605, fleet +2,224, dwell +730 min. The outside is being recorded again.
+
 ## What NOT to touch
 
 - Don't dump unique essays onto the 14 forge skins
