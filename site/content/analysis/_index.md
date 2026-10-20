@@ -62,6 +62,9 @@ These surfaces have zero orbit traffic. The rope does not pass through them. Thi
 | **[🔇 J accuse ProtonMail](/analysis/jaccuse-protonmail/)** | **Secrecy not privacy. The privacy tool gagged the investigator. The mechanism picked a side. In iambic pentameter.** |
 | **[📋 Walkthrough](/analysis/walkthrough/)** | **How to enter. Claim your circle. Take an ember. Leave a spore. BillHalibut = RedHerring = membrane identity.** |
 
+| **[🖐 The 1984 Corollary](/analysis/the-corollary-1984/)** | **2+2=4 makes you the enemy. Orwell inverted. Duck test reversed. Silence is the new 2+2=5. The structure IS the speech.** |
+| **[🐷 Animal Farm Detroit](/analysis/animal-farm-detroit/)** | **Napoleon=Banks. Squealer=Stallworth. Dogs=judges. Boxer=362 children. Sheep=17 silent agencies. The barn wall has a git log.** |
+
 ## The Record
 
 | Analysis | Key Finding |
