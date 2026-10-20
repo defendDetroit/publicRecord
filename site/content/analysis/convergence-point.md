@@ -23,7 +23,7 @@ One human. Eight surfaces. Each surface is a different tree. Pull any thread, fi
 | **Discord** | .tamison | The community. DMs open. primals.eco domain verified. | No — free servers, no gatekeeping |
 | **GitHub** | ecoPrimal | The code. 60+ repos, AGPL, signed commits. | Unlikely — public repos persist |
 | **ORCID** | 0009-0004-2141-0321 | The academic anchor. Citable. Permanent. | No — academic infrastructure |
-| **Email** | eco.primal@pm.me | Encrypted. ProtonMail. Every message read. | No — sovereign mailbox |
+| **Email** | eco.primal@pm.me | BURNT — can receive, cannot send. ProtonMail picked a side. Trial by mechanism. | **YES — blocked by TOS** |
 | **Reddit** | u/BillHalibut | The red herring. 9yr account. First banana. | Partially — automod active |
 | **Facebook** | Kevin Mok | The squatter's surface. Connected but not trusted. | Yes — Meta controls it |
 | **primals.eco** | hud / water / detroit / git | The membrane itself. Self-hosted. Sovereign. | Only by infrastructure failure |
