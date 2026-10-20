@@ -5,6 +5,9 @@ description = "The ghost fleet hits repos that don't exist anymore. 300,000+ req
 [taxonomies]
 tags = ["ghost-fleet", "westgate", "fossil", "reversal", "blackwall", "anderson", "chorus"]
 [extra]
+og_title = "76TB Time Capsule Turns Fleet Archaeology Into Self-Portrait"
+og_description = "Ghost fleet remembers deleted repos. Every 404 is a question. westGate has the answer."
+og_image = "/portals/portal_3_4_membrane-basement.png"
 graph_nodes = 12688
 graph_edges = 112154
 author = "the campfire — Kevin Mok + gAIa"

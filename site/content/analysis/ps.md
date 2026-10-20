@@ -5,6 +5,9 @@ description = "The footnote at the end of the love letter. It has less meaning u
 [taxonomies]
 tags = ["parks", "commons", "love-letter", "ps", "tuebor"]
 [extra]
+og_title = "P.S. — To Every Park, Big and Small"
+og_description = "The investigation is the footnote. The land is the letter. Tuebor."
+og_image = "/portals/portal_6_0_you-door.png"
 author = "Kevin Mok — to every park, big and small"
 +++
 

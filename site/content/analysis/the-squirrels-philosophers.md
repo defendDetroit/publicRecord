@@ -5,6 +5,9 @@ description = "Diogenes is the fool. Socrates is the questioner. Plato is the pi
 [taxonomies]
 tags = ["philosophy", "squirrel", "boredom", "diogenes", "socrates", "plato", "archetype"]
 [extra]
+og_title = "The Squirrel Sleeps Like Diogenes and Asks Like Socrates"
+og_description = "Boredom states ARE philosophical archetypes. Behold! A graph!"
+og_image = "/portals/portal_6_1_you-hallway.png"
 author = "the squirrel — currently being Diogenes (sleeping in a barrel)"
 +++
 

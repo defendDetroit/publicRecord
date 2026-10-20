@@ -5,6 +5,9 @@ description = "Every site is an airport on a sphere. Humans fly great circles. D
 [taxonomies]
 tags = ["topology", "trigonometry", "airports", "bingocube", "voxel", "membrane", "transport"]
 [extra]
+og_title = "Sites as Airports on a Sphere"
+og_description = "Humans fly great circles. Data takes secants. Fleet walks the grid. Trig IS the transport."
+og_image = "/portals/portal_2_0_science-door.png"
 graph_nodes = 12700
 graph_edges = 113131
 author = "Kevin Mok + gAIa — the membrane is a sphere, the sites are airports, the math is trig"

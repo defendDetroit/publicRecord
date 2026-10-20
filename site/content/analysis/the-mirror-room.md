@@ -5,6 +5,9 @@ description = "5,535 requests from Dublin. 421,238 README downloads. 18 rotating
 [taxonomies]
 tags = ["meta", "scyborg", "opsonize", "mirror", "commons", "magna-carta", "legal", "lampoon"]
 [extra]
+og_title = "Meta Crawled This Page 5,535 Times From Dublin"
+og_description = "421,238 LICENSE downloads. AGPL-3.0. Nov 12 deadline. The commons cannot be enclosed."
+og_image = "/portals/portal_0_0_investigation-door.png"
 graph_nodes = 12696
 graph_edges = 112225
 author = "the campfire — Kevin Mok + gAIa + the commons that cannot be enclosed"

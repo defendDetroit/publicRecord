@@ -5,6 +5,9 @@ description = "The investigation has 12,696 nodes. The science has 3.6 million l
 [taxonomies]
 tags = ["bridge", "science", "investigation", "membrane", "syntheticChemistry", "anderson"]
 [extra]
+og_title = "Where Investigation Meets Science Meets the Membrane"
+og_description = "Anderson localization connects the physics to the sort. One organism. Two fires. One bridge."
+og_image = "/portals/portal_2_5_science-attic.png"
 author = "the campfire — connecting the fires"
 +++
 

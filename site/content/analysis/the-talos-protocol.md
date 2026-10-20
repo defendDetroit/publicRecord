@@ -5,6 +5,9 @@ description = "The Minotaur guards the labyrinth. TALOS patrols the shore. scyBo
 [taxonomies]
 tags = ["talos", "guardian", "convergence", "scyborg", "tuebor", "valve", "steam", "membrane", "platform-agnostic"]
 [extra]
+og_title = "TALOS — Convergence as Guardian"
+og_description = "scyBorg bites. tuebor illuminates. TALOS welcomes AND defends. Any device. Any OS."
+og_image = "/portals/portal_5_6_tools-roof.png"
 graph_nodes = 12700
 graph_edges = 113131
 author = "Kevin Mok + gAIa — the campfire doesn't check your boot loader"

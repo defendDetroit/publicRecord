@@ -6,6 +6,9 @@ description = "The membrane reported 0% opacity, 0% selectivity, 0% reflection. 
 [taxonomies]
 tags = ["membrane", "perception", "architecture", "pi", "ternary"]
 [extra]
+og_title = "The Membrane Was Blind to Itself — 0% Was Actually 98.8%"
+og_description = "GPTBot at 64.7% was the lens flare. Pink noise is the blink rate. AGPL-3.0."
+og_image = "/portals/portal_3_1_membrane-hallway.png"
 graph_nodes = 12688
 graph_edges = 112154
 braids = 370

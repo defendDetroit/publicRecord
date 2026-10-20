@@ -5,6 +5,9 @@ description = "The ancient men of AI asked first how to make humanity think mach
 [taxonomies]
 tags = ["asimov", "boltzmann", "turing", "cognition", "bingo", "question", "artisan"]
 [extra]
+og_title = "What Have You Asked?"
+og_description = "Boltzmann proved disorder is information and nobody believed him. The question IS the maze."
+og_image = "/portals/portal_6_5_you-attic.png"
 author = "The Artisan — the question is the maze, the maze is the question"
 +++
 

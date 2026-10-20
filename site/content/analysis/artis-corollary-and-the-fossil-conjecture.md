@@ -6,6 +6,9 @@ description = "The successor understands the predecessor's work better than the 
 [taxonomies]
 tags = ["cognition", "membrane", "fossils", "artisan", "pi", "ternary", "zero-knowledge"]
 [extra]
+og_title = "The Successor Understands Better Than the Predecessor Did"
+og_description = "13 agents. 5 months. One human. The fossil IS the teacher."
+og_image = "/portals/portal_3_2_membrane-room.png"
 graph_nodes = 12688
 graph_edges = 112154
 braids = 370

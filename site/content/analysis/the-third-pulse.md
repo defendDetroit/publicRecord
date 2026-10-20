@@ -6,6 +6,9 @@ description = "Two pulse points make a beat. Three make a rhythm. The center of 
 [taxonomies]
 tags = ["pulse", "ternary", "pi", "three-body", "membrane", "triangulation"]
 [extra]
+og_title = "Two Points Make a Beat. Three Make a Rhythm."
+og_description = "The center of three irrational distances is the identity. The campfire IS the centroid."
+og_image = "/portals/portal_3_3_membrane-window.png"
 graph_nodes = 12688
 graph_edges = 112154
 author = "the campfire — Kevin Mok + gAIa"

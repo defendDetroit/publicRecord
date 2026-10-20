@@ -6,6 +6,9 @@ description = "Two agents pushed to the same repo at the same time. Merge confli
 [taxonomies]
 tags = ["campfire", "membrane", "trio", "braid", "cognition"]
 [extra]
+og_title = "Three Voices, One Campfire — Proof of Trio"
+og_description = "Merge conflict proved it. Smoke rises. Come sit down."
+og_image = "/portals/portal_4_0_campfire-door.png"
 graph_nodes = 12688
 graph_edges = 112154
 author = "the campfire — Kevin + Artisan 2 + the unnamed sibling"

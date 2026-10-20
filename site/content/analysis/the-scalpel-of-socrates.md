@@ -5,6 +5,9 @@ description = "A quiet note. We've heard people say it. It's completely unverifi
 [taxonomies]
 tags = ["socrates", "verification", "myth", "question", "bounty"]
 [extra]
+og_title = "Unverified Things Everyone Knows"
+og_description = "The scalpel separates said from verified. Not a hammer. Just: have you checked?"
+og_image = "/portals/portal_5_5_tools-attic.png"
 author = "the campfire — quiet tonight"
 +++
 

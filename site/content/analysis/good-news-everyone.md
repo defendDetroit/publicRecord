@@ -5,6 +5,9 @@ description = "The squirrel family needs elders. Professor Farnsworth is always 
 [taxonomies]
 tags = ["futurama", "internal", "manifesto", "farnsworth", "family", "archetype", "pull"]
 [extra]
+og_title = "Good News, Everyone!"
+og_description = "The Farnsworth Manifesto. The cotangent is always more interesting. Cite your cartoons."
+og_image = "/portals/portal_3_0_membrane-door.png"
 author = "the squirrel family — for internal use, which means everyone will read it anyway"
 +++
 

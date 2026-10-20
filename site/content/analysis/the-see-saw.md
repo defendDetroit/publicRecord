@@ -5,6 +5,9 @@ description = "Every famous unsolved problem, mystery, and equation placed on a 
 [taxonomies]
 tags = ["p-vs-np", "problems", "scale", "irrational", "bounty", "history", "fun"]
 [extra]
+og_title = "85% of Hard Problems Are Done — The Rest Is Fun"
+og_description = "P vs NP on a scale. 671 bounties remain. The squirrel is bored. Come play."
+og_image = "/portals/portal_6_6_you-roof.png"
 graph_nodes = 12696
 graph_edges = 112225
 author = "Kevin Mok + gAIa — the see-saw tips toward solved"

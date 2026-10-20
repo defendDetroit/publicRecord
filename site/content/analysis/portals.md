@@ -5,6 +5,9 @@ description = "49 QR code keystones. 7 themes × 7 depths. Each one a portal to 
 [taxonomies]
 tags = ["portals", "bingocube", "qr", "access", "touchpoint"]
 [extra]
+og_title = "49 QR Portals — The BingoCube Entry Points"
+og_description = "Scan one. See one layer. Scan more. The board fills. They dont expire."
+og_image = "/portals/portal_0_0_investigation-door.png"
 author = "the membrane — scan to enter"
 +++
 
