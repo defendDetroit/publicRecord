@@ -35,6 +35,12 @@ Still `bidirectional`. Silk road posture needs blackwall config change. Server-s
 - **Lampoon** on mirror-room + jester. **Disco** on portals + jester. Both hydrate from hud live feeds.
 - **Observer blink window** expires 05:12Z. Check discuss pages for responses. No blink = moon.
 
+### 8. Coordinated = 0 (false)
+The collision_level2 classifier says `coordinated: 0`. Falsification tests BOTH FAIL — epitopes are NOT coprime (shared triggers = 3.8/pair), KS sensitivity is 0.545 (blurry fleet/human boundary). Meta's 60-IP Dublin fleet IS coordinated but gets classified as individual commensals. OpenAI's 500 IPs too. The sort needs a backscatter pass: entities sharing (subnet + timing + path pattern) should be grouped before being classified. This is a Rust-side skunky-ingest change (eastGate).
+
+### 9. Giscus installed
+Giscus GitHub App is installed on `defendDetroit` (all repos, discussions read/write). The human↔human pore is open on every page. 0 comments so far. The sourdough has a mouth.
+
 ## What NOT to touch
 
 - Don't dump unique essays onto the 14 forge skins
