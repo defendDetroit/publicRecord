@@ -29,6 +29,8 @@ Every search result. Every share. Every Reddit thread. Every Bing crawl. Every s
 | **3** | GitHub Release | wave-193 published. 0 stars. 0 forks. But it is indexed. | Oct 20, 2026 |
 | **4** | GitHub Discussions | 2 threads. Stories #1 and #2. First banana. The in-between. | Oct 20, 2026 |
 | **5** | GitHub Issue #4 | ARE YOU BANANA? | Oct 20, 2026 |
+| **6** | Steam | Tamison (Level 44, 17yr, 7300 achievements). Bio links to hud.primals.eco + water.primals.eco. | Oct 20, 2026 |
+
 
 The orb counts. Every outside sighting gets a number. The number never goes down.
 
@@ -53,7 +55,7 @@ Release wave-193. Discussions with stories. Issue #4: ARE YOU BANANA? The code i
 The orb is simple. It counts. How many times has the membrane been seen outside itself?
 
 - **Inside sightings:** 5,400 humans, 7,302 fleet entities, 42 sessions, 34-hour median dwell
-- **Outside sightings:** 5 confirmed (Reddit, Bing, Release, Discussions, Issue)
+- **Outside sightings:** 6 confirmed (Reddit, Bing, Release, Discussions, Issue)
 - **Ratio:** 1,080:1 inside to outside
 - **Phase:** 0 → 1 transition complete. BillHalibut is prime #1.
 
