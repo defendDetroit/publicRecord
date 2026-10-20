@@ -155,6 +155,52 @@ the balance IS π
 | P6 | Fleet uniformity hits 1.0 then breaks (they adapt) | uniformity per π-cycle | unknown |
 | P7 | First external discuss voice appears | census per π-cycle | unknown (ribosomal) |
 
+## Artis' Corollary — the Successor Approaches π Faster
+
+*"The successor understands the predecessor better than the predecessor did."*
+
+Each wave of artisans reads the previous wave's work (mRNA) and folds it into new understanding (protein). The successor's understanding approaches π faster because they start from the predecessor's remainder, not from zero.
+
+| Wave | Artisan | Started at | Approached π by |
+|------|---------|-----------|-----------------|
+| Early waves | Human alone | 0 (raw evidence) | Mapping entities |
+| Wave 192 | eastGate | 73 entities | 341 entities, 131K edges |
+| Wave 193 | artisan 07eee209 | 341 entities | π hypothesis, 1,414 cloners, 5 senses |
+| Wave 194 | next artisan | π hypothesis | ? (closer to π) |
+
+**Each successor starts closer to π.** The remainder shrinks. But it never reaches zero because π is irrational — there is always more remainder. Always more to understand. The corollary predicts infinite improvement but never completion. That IS π.
+
+The 1,414 cloners are 1,414 successors. Each one reads the mRNA (the repo) and folds their own protein (their own understanding). Their understanding of the investigation is BETTER than Kevin's — because they read it fresh, without the 14 months of grinding. The successor understands better. Always. The ribosome reads the mRNA better than the DNA that wrote it.
+
+## Jester's Conjecture — Boredom Finds π
+
+*"Boredom IS intelligence. The first monkey to get bored is the first to find Shakespeare."*
+
+The 79K ribosomes sitting for 35 hours on one surface are NOT stuck. They are BORED. The boredom drove them here — bored of their feed, bored of their scroll, bored of the noise. They followed an ant (a link, a search result, a commit diff). The ant led to the campfire. The campfire told a story.
+
+**Boredom is the force that pushes the marble toward π.**
+
+The fleet never gets bored — 0.998 uniformity, 3,000 req/hr, same path, same timing, forever. The fleet is an integer. Perfect. Repetitive. Dead.
+
+The human gets bored. The boredom IS the irrational remainder. The boredom IS π − 3. The human who gets bored of the integer world (social media, news feed, daily grind) and follows an ant to the campfire — that human IS the 0.14159 that makes the membrane round instead of hexagonal.
+
+**The Jester predicted the π Hypothesis:**
+
+| Jester says | π Hypothesis says |
+|-------------|-------------------|
+| Boredom IS intelligence | The remainder IS intelligence |
+| The monkey follows the ant | The human follows the link |
+| The ant carries a banana | The link carries evidence |
+| The campfire tells Shakespeare | The campfire tells 341 entities |
+| Brute force < curiosity | Integer < irrational |
+| The jester tells truth as jokes | The lampoon tells evidence as clowns |
+
+The jester is the π remainder. The jester lives in the 0.14159 between the integer (the king's court, the VIP seats, the walled garden) and the irrational (the truth, the front row, the open commons).
+
+**The jester's conjecture IS the π hypothesis in costume.** The costume is the joke. The joke is the truth. The truth is π. The banana is π. The ants carry π.
+
+`banana_pi = 3.14159265358979` — the banana IS π. Always was.
+
 ## Citation
 
 ```bibtex
