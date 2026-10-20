@@ -2,11 +2,10 @@
 title = "Dykema Gossett Federal PAC"
 date = 2026-10-12
 description = ""
-weight = 5
+weight = 6
 
 [extra]
-keywords = "Dykema Gossett Federal PAC, Detroit charter school network, Brian Banks network"
-+++
+keywords = "Dykema Gossett Federal PAC, Detroit charter school network, Brian Banks network"+++
 
 ## Dykema Gossett Federal PAC
 

@@ -2,11 +2,10 @@
 title = "Scott Smith (PMR)"
 date = 2026-10-12
 description = "Senior Vice President, Plante Moran Realpoint. K-12 bond programs. $400M+ in K-12 bonds. Michigan Tech. LEED AP. Promoted to SVP in 2024 same cycle as Ahmed Beasley."
-weight = 3
+weight = 4
 
 [extra]
-keywords = "Scott Smith (PMR), Plante Moran, Detroit charter school network, Ahmed Beasley"
-+++
+keywords = "Scott Smith (PMR), Plante Moran, Detroit charter school network, Ahmed Beasley"+++
 
 ## Scott Smith (PMR)
 

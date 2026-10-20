@@ -8,12 +8,11 @@ tags = ["investigation"]+++
 ---
 title: "Membrane Eyes Needed — eastGate / sporeGate"
 date: 2026-10-15
-weight: 63
+weight: 8
 author: ecoPrimal
 series: publicRecord
 tags: [infrastructure, eastgate, sporegate, membrane, analytics, cloudflare, ssh]
-polar_class: self
----
+polar_class: self---
 
 ## Membrane Eyes Needed
 

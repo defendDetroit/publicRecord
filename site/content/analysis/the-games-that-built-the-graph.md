@@ -8,12 +8,11 @@ tags = ["investigation"]+++
 ---
 title: "The Games That Built the Graph"
 date: 2026-10-15
-weight: 73
+weight: 12
 author: ecoPrimal
 series: publicRecord
 tags: [games, indie, training, pattern-recognition, stalker, disco-elysium, balatro]
-polar_class: self
----
+polar_class: self---
 
 ## The Games That Built the Graph
 

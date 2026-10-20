@@ -8,12 +8,11 @@ tags = ["investigation"]+++
 ---
 title: "The Proton, Violated"
 date: 2026-10-15
-weight: 77
+weight: 16
 author: ecoPrimal
 series: publicRecord
 tags: [proton, privacy, censorship, whistleblower, pattern]
-polar_class: bad
----
+polar_class: bad---
 
 ## The Proton, Violated
 

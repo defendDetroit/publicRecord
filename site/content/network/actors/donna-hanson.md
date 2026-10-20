@@ -2,11 +2,10 @@
 title = "Donna Hanson"
 date = 2026-10-12
 description = "Group Managing Partner, Plante Moran. Nonprofit and public sector industries. Oversees the practice area that touches charter schools and K-12 public sector."
-weight = 3
+weight = 4
 
 [extra]
-keywords = "Donna Hanson, Plante Moran, Detroit charter school network, Ahmed Beasley"
-+++
+keywords = "Donna Hanson, Plante Moran, Detroit charter school network, Ahmed Beasley"+++
 
 ## Donna Hanson
 

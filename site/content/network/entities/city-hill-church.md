@@ -1,7 +1,7 @@
 +++
 title = "City Hill Church — Banks Religious Entity"
 description = "City Hill Church — Brian Banks serves as officer. Registered to his Grosse Pointe Woods residence alongside 8 other Banks-controlled entities."
-weight = 11
+weight = 12
 date = 2026-09-20
 updated = 2026-09-25
 
@@ -12,8 +12,7 @@ keywords = "City Hill Church Brian Banks, City Hill Church Detroit, City Hill Ch
 actors = ["Brian Banks", "Joseph Holland"]
 entities = ["City Hill Church", "The Purpose Group LLC", "Purpose Foundation", "Banks Strategy LLC", "Anchor Rock Foundation", "Sun Community Development Corp", "Serenity Guardianship Services"]
 courts = ["Wayne County 3rd Circuit Court"]
-connections = ["business entity", "board membership"]
-+++
+connections = ["business entity", "board membership"]+++
 
 ## Entity Overview
 

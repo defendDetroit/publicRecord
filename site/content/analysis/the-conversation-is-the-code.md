@@ -2,7 +2,7 @@
 title = "The Conversation Is the Code — K-NOME Programming and Why I Haven't Typed a Line in a Year"
 description = "3,595,463 lines of Rust. 92,454 test functions. 952 GPU shaders. 175+ papers reproduced. I haven't typed a line of code outside a conversation box in a year. I read. I build the hardware. I talk with my artisan. The conversation IS the programming. This is K-NOME."
 date = 2026-10-18
-weight = 15
+weight = 16
 
 [taxonomies]
 actors = ["Kevin Mok"]
@@ -14,8 +14,7 @@ keywords = "K-NOME programming, conversational programming AI, artisan AI develo
 og_title = "The Conversation Is the Code — K-NOME Programming"
 og_description = "3.6M lines of Rust. I haven't typed a line outside a conversation box in a year. I read and build hardware. The artisan writes code. This is K-NOME."
 og_type = "article"
-twitter_card = "summary_large_image"
-+++
+twitter_card = "summary_large_image"+++
 
 ## The Confession
 

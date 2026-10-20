@@ -2,7 +2,7 @@
 title = "Spiral Out, Bounce In, Repeat — The Second Wave"
 description = "Every channel that received signal and returned silence now gets the second wave. New evidence: the Road Map (15 people, 15 roads to MSU Law), Anderson Localization (perfect insulator), the Persona Book (every phone, every front desk), the Referral Loop (AGC bounced twice). The lighthouse doubles back. The spiral tightens."
 date = 2026-10-18
-weight = 42
+weight = 43
 
 [taxonomies]
 actors = ["Brian Banks", "Roland Martin", "Sherry Gay-Dagnogo", "AG Dana Nessel", "Cynthia C. Bullington", "Michael V. Goetz", "Nicole Wells Stallworth", "Jehan Crump-Gibson", "Latisha Johnson", "W. Alan Wilk", "Richard McLellan"]
@@ -14,8 +14,7 @@ keywords = "spiral out bounce in Detroit investigation, second wave evidence Mic
 og_title = "Spiral Out, Bounce In, Repeat"
 og_description = "Every channel that was silent now gets the second wave. 15 people traced to MSU Law. Anderson Localization measured. Every phone number published. The spiral tightens."
 og_type = "article"
-twitter_card = "summary_large_image"
-+++
+twitter_card = "summary_large_image"+++
 
 # Spiral Out, Bounce In, Repeat
 

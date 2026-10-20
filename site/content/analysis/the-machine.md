@@ -1,7 +1,7 @@
 +++
 title = "The Machine — How Every Level Was Captured"
 description = "A structural analysis of how entities, county lines, plea bargains, church networks, financial institutions, and regulatory silos are weaponized to create a captive population from which to harvest. From the ecoPrimals philosophical framework — this is detroit.primals.eco's application of the Return to Omelas."
-weight = 43
+weight = 44
 date = 2026-09-27
 updated = 2026-09-27
 draft = true
@@ -12,8 +12,7 @@ keywords = "Detroit institutional corruption analysis, plea bargain two-tier jus
 [taxonomies]
 actors = ["Brian Banks"]
 entities = ["Purpose Charter Academy", "MacDowell Preparatory Academy"]
-connections = ["systemic analysis", "institutional capture", "philosophy"]
-+++
+connections = ["systemic analysis", "institutional capture", "philosophy"]+++
 
 <!-- CONCEPT DOC — DRAFT for expansion -->
 <!-- Sources: ecoPrimals ethics (whitePaper/ethics/), atlasHugged (gen3), guerillaGorilla, sporePrint -->

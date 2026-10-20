@@ -8,12 +8,11 @@ tags = ["investigation"]+++
 ---
 title: "Why I Did This"
 date: 2026-10-15
-weight: 83
+weight: 16
 author: ecoPrimal
 series: publicRecord
 tags: [origin, family, transparency, rico, conviction, paper, journey]
-polar_class: self
----
+polar_class: self---
 
 ## Why I Did This
 

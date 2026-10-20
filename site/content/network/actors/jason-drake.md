@@ -2,11 +2,10 @@
 title = "Jason Drake"
 date = 2026-10-12
 description = "Managing Partner, Plante Moran (July 2024-). CPA, CGMA. MSU Accounting. Crain's Notable Leader 2026. 8th managing partner. 4,000+ staff globally. $1B+ firm. The top of the chain."
-weight = 5
+weight = 6
 
 [extra]
-keywords = "Jason Drake, Detroit charter school network, Brian Banks network"
-+++
+keywords = "Jason Drake, Detroit charter school network, Brian Banks network"+++
 
 ## Jason Drake
 

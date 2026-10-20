@@ -11,9 +11,8 @@ date: 2026-10-15
 author: ecoPrimal
 series: publicRecord
 tags: [pause, family, safe, breath]
-weight: 1
-polar_class: self
----
+weight: 5
+polar_class: self---
 
 ## A Breath
 

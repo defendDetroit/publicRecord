@@ -8,11 +8,10 @@ tags = ["investigation"]+++
 ---
 title: "The Fistbump: Diagnostic Law and the Path to Less Friction"
 date: 2026-10-18
-weight: 72
+weight: 10
 draft: false
 slug: the-fistbump
-tags: ["diagnostic-law", "compliance", "fistbump", "low-friction", "commons", "scyborg"]
----
+tags: ["diagnostic-law", "compliance", "fistbump", "low-friction", "commons", "scyborg"]---
 
 ## This Is Not a Threat. This Is a Diagnosis.
 

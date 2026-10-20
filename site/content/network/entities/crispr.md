@@ -2,11 +2,10 @@
 title = "CRISPR"
 date = 2026-10-12
 description = "Doudna and Charpentier (2012 Nobel 2020). Gene editing. Discovered in bacteria — evolved over billions of years. Now patented and fought over by institutions. The scissors belong to evolution. The pat"
-weight = 4
+weight = 5
 
 [extra]
-keywords = "CRISPR, Detroit charter school network, Brian Banks network"
-+++
+keywords = "CRISPR, Detroit charter school network, Brian Banks network"+++
 
 ## CRISPR
 

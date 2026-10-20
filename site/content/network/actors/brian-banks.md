@@ -1,7 +1,7 @@
 +++
 title = "Brian Roderick Banks — Enterprise Leader"
 description = "Dr. Brian Banks, J.D., Ph.D. — 9 criminal convictions (6 felony). Pahara Fellow. State Bar of Michigan: zero results for claimed J.D. Superintendent of MacDowell Prep (3% math) and Purpose Charter Academy founder. It Had 2 Happen author."
-weight = 32
+weight = 33
 date = 2026-09-20
 updated = 2026-09-30
 
@@ -12,8 +12,7 @@ keywords = "Brian Banks Detroit, Brian Banks criminal record, Brian Banks charte
 actors = ["Brian Banks", "OD Banks"]
 entities = ["Purpose Charter Academy", "MacDowell Preparatory Academy", "The Purpose Group LLC", "Purpose Foundation", "Banks Strategy LLC", "Anchor Rock Foundation", "Serenity Guardianship Services", "City Hill Church", "Sun Community Development Corp"]
 courts = ["Wayne County 3rd Circuit Court", "Oakland County Circuit Court", "Eastern District of Michigan"]
-connections = ["criminal record", "credential fraud", "business entity", "family", "charter authorization", "RICO predicate"]
-+++
+connections = ["criminal record", "credential fraud", "business entity", "family", "charter authorization", "RICO predicate"]+++
 
 ## Identity
 

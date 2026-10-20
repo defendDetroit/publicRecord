@@ -1,7 +1,7 @@
 +++
 title = "Judge David Perkins"
 description = "Judge David Perkins — Wayne County Probate Court. Serenity Guardianship connection to Banks. Family donations to Banks-aligned campaigns."
-weight = 9
+weight = 10
 date = 2026-09-20
 updated = 2026-09-25
 
@@ -12,8 +12,7 @@ keywords = "David Perkins, David Perkins judge, David Perkins Wayne County, Davi
 actors = ["Judge David Perkins", "Brian Banks", "Todd Perkins", "Judge Sean Perkins", "Judge Tenisha Yancey", "Judge Adam Sabree"]
 entities = ["Serenity Guardianship Services"]
 courts = ["Wayne County Probate Court", "36th District Court"]
-connections = ["family", "campaign finance", "business entity"]
-+++
+connections = ["family", "campaign finance", "business entity"]+++
 
 ## Position
 

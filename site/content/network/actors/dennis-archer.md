@@ -2,11 +2,10 @@
 title = "Dennis Archer"
 date = 2026-10-12
 description = "Mayor 1994-2001"
-weight = 6
+weight = 7
 
 [extra]
-keywords = "Dennis Archer, Detroit charter school network, Brian Banks network"
-+++
+keywords = "Dennis Archer, Detroit charter school network, Brian Banks network"+++
 
 ## Dennis Archer
 

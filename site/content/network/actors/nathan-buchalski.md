@@ -2,11 +2,10 @@
 title = "Nathan Buchalski"
 date = 2026-10-12
 description = "Group Managing Partner, Plante Moran. Illinois and Michigan offices. Oversees the offices where Beasley and PMR K-12 are based."
-weight = 3
+weight = 4
 
 [extra]
-keywords = "Nathan Buchalski, Plante Moran, Detroit charter school network, Ahmed Beasley"
-+++
+keywords = "Nathan Buchalski, Plante Moran, Detroit charter school network, Ahmed Beasley"+++
 
 ## Nathan Buchalski
 

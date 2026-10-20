@@ -8,11 +8,10 @@ tags = ["investigation"]+++
 ---
 title: "The Science of Law: RICO Through 263 Years of Mathematics"
 date: 2026-10-18
-weight: 79
+weight: 13
 draft: false
 slug: the-science-of-law
-tags: ["rico", "graph-theory", "mathematics", "commons", "peer-reviewed", "replicable"]
----
+tags: ["rico", "graph-theory", "mathematics", "commons", "peer-reviewed", "replicable"]---
 
 ## The Math Is Not Ours. It Belongs to Everyone.
 

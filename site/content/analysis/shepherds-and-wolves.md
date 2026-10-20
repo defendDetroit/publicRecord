@@ -1,7 +1,7 @@
 +++
 title = "Shepherds and Wolves — The Church Layer"
 description = "Self-ordained bishops and Pentecostal leaders endorsed, platformed, and authorized a 9-time convicted felon to run schools for Detroit's most vulnerable children. The congregations were never told. The lambs were handed to the wolves by their own shepherds."
-weight = 18
+weight = 19
 date = 2026-09-27
 updated = 2026-09-27
 
@@ -11,8 +11,7 @@ keywords = "Detroit church charter school accountability, COGIC Brian Banks endo
 [taxonomies]
 actors = ["Brian Banks", "Corletta Vaughn", "J. Drew Sheard", "Sherry Gay-Dagnogo"]
 entities = ["Purpose Charter Academy", "MacDowell Preparatory Academy", "Greater Emmanuel Institutional COGIC", "Holy Ghost Cathedral Church", "City Hill Church", "Great Lakes Vision for Evangelism", "Go Tell It Evangelistic Ministry"]
-connections = ["endorsement", "charter authorization", "religious institution", "political campaign"]
-+++
+connections = ["endorsement", "charter authorization", "religious institution", "political campaign"]+++
 
 ## The Question
 

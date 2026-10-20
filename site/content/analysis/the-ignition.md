@@ -8,13 +8,12 @@ tags = ["investigation"]+++
 ---
 title: "The Ignition — Watch It Spread"
 date: 2026-10-15
-weight: 76
+weight: 31
 author: ecoPrimal
 series: publicRecord
 description: "Live tracking of how the public record spreads. Clone data, vital signs, the 9-line, and the growth curve. The graph is breathing."
 tags: [ignition, spread, clones, vital-signs, breathing, live, 9-convictions]
-polar_class: self
----
+polar_class: self---
 
 ## The Ignition
 

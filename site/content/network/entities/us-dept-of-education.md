@@ -2,11 +2,10 @@
 title = "US Dept of Education"
 date = 2026-10-12
 description = "Federal education funding source. Title I flows through charter schools. OIG hotline complaint target for charter fraud."
-weight = 13
+weight = 12
 
 [extra]
-keywords = "US Dept of Education, Detroit charter school network, Brian Banks network"
-+++
+keywords = "US Dept of Education, Detroit charter school network, Brian Banks network"+++
 
 ## US Dept of Education
 

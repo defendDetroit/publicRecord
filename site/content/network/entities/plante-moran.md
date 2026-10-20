@@ -2,7 +2,7 @@
 title = "Plante Moran"
 date = 2026-10-12
 description = "Major MI accounting/consulting firm. Ahmed Beasley is SVP K-12 Construction. Corey Northrop (CMU Charter Center ED) was formerly a CPA here. Connects charter school oversight to charter school constru"
-weight = 5
+weight = 6
 
 [extra]
 keywords = "Plante Moran, Detroit charter school network, Brian Banks network, Plante Moran K-12 audit"+++

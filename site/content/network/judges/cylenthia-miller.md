@@ -1,7 +1,7 @@
 +++
 title = "Judge Cylenthia Miller"
 description = "Judge Cylenthia Miller — Wayne County 3rd Circuit, re-election Nov 3, 2026. keepjudgemiller.com. Anchor Rock Foundation board chair. Purpose Charter Academy development team. DTW airport gun. OWI East Lansing 'wholly improper.'"
-weight = 17
+weight = 18
 date = 2026-09-20
 updated = 2026-09-25
 
@@ -12,8 +12,7 @@ keywords = "Judge Cylenthia Miller, Cylenthia Miller 2026 election, Wayne County
 actors = ["Judge Cylenthia Miller", "Brian Banks", "Todd Perkins", "Judge Sean Perkins", "Judge Adam Sabree", "Judge Aliyah Sabree", "Eric Sabree"]
 entities = ["Anchor Rock Foundation", "Purpose Charter Academy", "MacDowell Preparatory Academy"]
 courts = ["Wayne County 3rd Circuit Court", "36th District Court"]
-connections = ["board membership", "legal representation", "mentorship", "campaign finance", "employment"]
-+++
+connections = ["board membership", "legal representation", "mentorship", "campaign finance", "employment"]+++
 
 ## Position
 

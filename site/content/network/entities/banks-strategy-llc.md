@@ -1,7 +1,7 @@
 +++
 title = "Banks Strategy & Consultants LLC — Judge Payments"
 description = "Banks Strategy LLC receives campaign payments from sitting judges. Lost good standing with LARA. Batch-filed 3 overdue annual reports in one day."
-weight = 8
+weight = 9
 date = 2026-09-20
 updated = 2026-09-25
 
@@ -12,8 +12,7 @@ keywords = "Banks Strategy Consultants, Banks Strategy LLC, judge campaign payme
 actors = ["Brian Banks", "Judge Tenisha Yancey"]
 entities = ["Banks Strategy LLC", "Purpose Charter Academy", "MacDowell Preparatory Academy", "The Purpose Group LLC"]
 courts = ["36th District Court"]
-connections = ["campaign finance", "business entity"]
-+++
+connections = ["campaign finance", "business entity"]+++
 
 ## Entity Overview
 

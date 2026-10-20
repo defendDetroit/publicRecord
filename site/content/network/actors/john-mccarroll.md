@@ -2,11 +2,10 @@
 title = "John McCarroll"
 date = 2026-10-12
 description = "Senior Vice President, Plante Moran Realpoint. Promoted to SVP in 2024 same cycle as Ahmed Beasley."
-weight = 3
+weight = 4
 
 [extra]
-keywords = "John McCarroll, Plante Moran, Detroit charter school network, Ahmed Beasley"
-+++
+keywords = "John McCarroll, Plante Moran, Detroit charter school network, Ahmed Beasley"+++
 
 ## John McCarroll
 

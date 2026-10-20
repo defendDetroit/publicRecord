@@ -2,7 +2,7 @@
 title = "Cease and Desist — Robocallers, Credit Card Offers, and Loan Scam Calls"
 description = "Formal cease and desist to every robocaller, auto-dialer, and spam operation sending unsolicited credit card offers, loan solicitations, and scam calls. You are calling a number that is on the National Do Not Call Registry. Every call is logged. Every number is recorded. Stop calling."
 date = 2026-10-18
-weight = 11
+weight = 12
 
 [taxonomies]
 entities = ["FTC", "FCC", "National Do Not Call Registry"]
@@ -13,8 +13,7 @@ keywords = "how to stop robocalls 2026, cease and desist robocalls template, sto
 og_title = "How to Stop Robocalls & Spam Calls — Free Cease and Desist Template (2026)"
 og_description = "Free cease and desist template for robocallers. TCPA violation = $500-$1500 per call. FTC/FCC complaint instructions. Do Not Call Registry enforcement. Every call logged. Every statute cited."
 og_type = "article"
-twitter_card = "summary"
-+++
+twitter_card = "summary"+++
 
 # Cease and Desist — Every Robocaller, Credit Offer, and Loan Scam Operation
 

@@ -2,11 +2,10 @@
 title = "ag office"
 date = 2026-10-12
 description = ""
-weight = 5
+weight = 6
 
 [extra]
-keywords = "ag office, Detroit charter school network, Brian Banks network"
-+++
+keywords = "ag office, Detroit charter school network, Brian Banks network"+++
 
 ## ag office
 
