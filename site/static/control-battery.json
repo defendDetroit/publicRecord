@@ -1,14 +1,14 @@
 {
-  "generated": "2026-10-20T01:57:21.661150+00:00",
+  "generated": "2026-10-20T02:29:57.987066+00:00",
   "battery": "control-self-confirm",
   "rule": "confirm first. show only PASS+show_when_needed. do not dump.",
   "counts": {
-    "pass": 21,
+    "pass": 27,
     "warn": 1,
-    "fail": 10,
+    "fail": 4,
     "total": 32
   },
-  "braided_ready": false,
+  "braided_ready": true,
   "show_now": [
     "blink_live",
     "forge_skins_clique",
@@ -29,22 +29,16 @@
   ],
   "keep_quiet": [
     "blink_lysogeny_html",
-    "live_the-jester-conjectur",
-    "live_the-plinko",
-    "live_the-mirror-room",
-    "live_the-see-saw",
     "scyborg_license_page",
     "canary_tokens_armed",
-    "inversion_one_way",
-    "plinko_json_deployed",
-    "maze_honeypots_detroit"
+    "inversion_one_way"
   ],
   "tests": [
     {
       "name": "blink_live",
       "claim": "the-blink renders as itself, not homepage",
       "result": "PASS",
-      "evidence": "title='The Blink \u2014 Why the Membrane Was Blind to Itself | Detroit Charter School Investigation' status=200 178ms",
+      "evidence": "title='The Blink \u2014 Why the Membrane Was Blind to Itself | Detroit Charter School Investigation' status=200 222ms",
       "show_when_needed": true
     },
     {
@@ -64,29 +58,29 @@
     {
       "name": "live_the-jester-conjectur",
       "claim": "/the-jester-conjecture/ is the article, not the RICO homepage",
-      "result": "FAIL",
-      "evidence": "title='Cash for Kids 2: A Public Record' status=200",
+      "result": "PASS",
+      "evidence": "title='The Jester Conjecture \u2014 Infinite Monkeys Get Bored and Play With Ants | Detroit Charter School Investigation' status=200",
       "show_when_needed": false
     },
     {
       "name": "live_the-plinko",
       "claim": "/the-plinko/ is the article, not the RICO homepage",
-      "result": "FAIL",
-      "evidence": "title='Cash for Kids 2: A Public Record' status=200",
+      "result": "PASS",
+      "evidence": "title='The Plinko \u2014 One Entry, Many Exits, Not Uniform | Detroit Charter School Investigation' status=200",
       "show_when_needed": false
     },
     {
       "name": "live_the-mirror-room",
       "claim": "/the-mirror-room/ is the article, not the RICO homepage",
-      "result": "FAIL",
-      "evidence": "title='Cash for Kids 2: A Public Record' status=200",
+      "result": "PASS",
+      "evidence": "title=\"The Mirror Room \u2014 How Meta's Own Platform Distributes the Evidence Against Meta | Detroit Charter School Investigation\" status=200",
       "show_when_needed": false
     },
     {
       "name": "live_the-see-saw",
       "claim": "/the-see-saw/ is the article, not the RICO homepage",
-      "result": "FAIL",
-      "evidence": "title='Cash for Kids 2: A Public Record' status=200",
+      "result": "PASS",
+      "evidence": "title='The See-Saw \u2014 P vs NP on a Scale, and 85% of the Hard Problems Are Already Done | Detroit Charter School Investigation' status=200",
       "show_when_needed": false
     },
     {
@@ -121,7 +115,7 @@
       "name": "meta_flowing_now",
       "claim": "Meta scraper present in current negentropy window",
       "result": "PASS",
-      "evidence": "meta=198 gptbot=5875 amazonbot=1861 blackwall_meta=198",
+      "evidence": "meta=472 gptbot=14155 amazonbot=4814 blackwall_meta=472",
       "show_when_needed": true
     },
     {
@@ -142,7 +136,7 @@
       "name": "cyst_now_vs_dashboard",
       "claim": "dashboard human count is live (not the 4109 now.json cyst)",
       "result": "PASS",
-      "evidence": "dashboard_human=5118 membrane_counts_cyst_was=4109",
+      "evidence": "dashboard_human=5132 membrane_counts_cyst_was=4109",
       "show_when_needed": false
     },
     {
@@ -176,8 +170,8 @@
     {
       "name": "plinko_json_deployed",
       "claim": "detroit serves /plinko.json",
-      "result": "FAIL",
-      "evidence": "status=200 start='<!doctype html><html lang=en><head><link href=https://www.gnu.org/licenses/agpl-'",
+      "result": "PASS",
+      "evidence": "status=200 start='{\\n  \"generated\": \"2026-10-20T01:32:43.502115+00:00\",\\n  \"model\": \"plinko\",\\n  \"rul'",
       "show_when_needed": false
     },
     {
@@ -197,8 +191,8 @@
     {
       "name": "maze_honeypots_detroit",
       "claim": "maze-honeypots.json live on detroit.primals.eco",
-      "result": "FAIL",
-      "evidence": "status=200 start='<!doctype html><html lang=en><head><link href=https://www.gnu.org/licenses/agpl-'",
+      "result": "PASS",
+      "evidence": "status=200 start='{\\n  \"generated\": \"2026-10-20T01:43:24.308154+00:00\",\\n  \"model\": \"maze-ants\",\\n  \"'",
       "show_when_needed": false
     },
     {
@@ -261,7 +255,7 @@
       "name": "hud_dashboard_alive",
       "claim": "hud.primals.eco/dashboard.json returns 200 with human_ips",
       "result": "PASS",
-      "evidence": "status=200 human_ips=5118",
+      "evidence": "status=200 human_ips=5132",
       "show_when_needed": true
     }
   ],
