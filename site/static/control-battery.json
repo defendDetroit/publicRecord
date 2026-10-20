@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-20T03:33:28.386362+00:00",
+  "generated": "2026-10-20T13:38:13.756785+00:00",
   "battery": "control-self-confirm",
   "rule": "confirm first. show only PASS+show_when_needed. do not dump.",
   "counts": {
-    "pass": 28,
+    "pass": 27,
     "warn": 1,
-    "fail": 3,
+    "fail": 4,
     "total": 32
   },
   "braided_ready": true,
@@ -13,7 +13,6 @@
     "blink_live",
     "blink_lysogeny_html",
     "forge_skins_clique",
-    "sporeprint_orphan",
     "git_forge_live",
     "meta_flowing_now",
     "git_plinko_board",
@@ -30,6 +29,7 @@
   ],
   "keep_quiet": [
     "scyborg_license_page",
+    "sporeprint_orphan",
     "canary_tokens_armed",
     "inversion_one_way"
   ],
@@ -38,7 +38,7 @@
       "name": "blink_live",
       "claim": "the-blink renders as itself, not homepage",
       "result": "PASS",
-      "evidence": "title='The Blink \u2014 Why the Membrane Was Blind to Itself | Detroit Charter School Investigation' status=200 11267ms",
+      "evidence": "title='The Blink \u2014 Why the Membrane Was Blind to Itself | Detroit Charter School Investigation' status=200 210ms",
       "show_when_needed": true
     },
     {
@@ -100,8 +100,8 @@
     {
       "name": "sporeprint_orphan",
       "claim": "sporeprint is an orphan peg (404) \u2014 SCIENCE airport dark",
-      "result": "PASS",
-      "evidence": "status=404 title=''",
+      "result": "FAIL",
+      "evidence": "status=200 title='ecoPrimals \u2014 Self-Hosted Scientific Computing in Rust (WebGPU, Bioinformatics, HPC)'",
       "show_when_needed": true
     },
     {
@@ -115,7 +115,7 @@
       "name": "meta_flowing_now",
       "claim": "Meta scraper present in current negentropy window",
       "result": "PASS",
-      "evidence": "meta=487 gptbot=14607 amazonbot=4632 blackwall_meta=487",
+      "evidence": "meta=530 gptbot=16054 amazonbot=5090 blackwall_meta=530",
       "show_when_needed": true
     },
     {
@@ -136,7 +136,7 @@
       "name": "cyst_now_vs_dashboard",
       "claim": "dashboard human count is live (not the 4109 now.json cyst)",
       "result": "PASS",
-      "evidence": "dashboard_human=5154 membrane_counts_cyst_was=4109",
+      "evidence": "dashboard_human=5405 membrane_counts_cyst_was=4109",
       "show_when_needed": false
     },
     {
@@ -185,7 +185,7 @@
       "name": "maze_honeypots_ghp",
       "claim": "maze-honeypots.json live on github.io",
       "result": "PASS",
-      "evidence": "status=200 start='{\\n  \"generated\": \"2026-10-20T03:07:16.423885+00:00\",\\n  \"model\": \"maze-ants\",\\n  \"'",
+      "evidence": "status=200 start='{\\n  \"generated\": \"2026-10-20T03:33:34.375108+00:00\",\\n  \"model\": \"maze-ants\",\\n  \"'",
       "show_when_needed": true
     },
     {
@@ -255,7 +255,7 @@
       "name": "hud_dashboard_alive",
       "claim": "hud.primals.eco/dashboard.json returns 200 with human_ips",
       "result": "PASS",
-      "evidence": "status=200 human_ips=5154",
+      "evidence": "status=200 human_ips=5405",
       "show_when_needed": true
     }
   ],
