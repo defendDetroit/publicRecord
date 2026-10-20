@@ -1,14 +1,14 @@
 +++
 title = "Voxel-Projected Graph Classification: Multi-Geometry Consensus Sorting Without Training Data"
 date = 2026-10-20
+weight = 16
 description = "A three-pass classification method that projects sparse graph nodes onto a discrete voxel manifold (π-power scale × epitope type × polarity), achieving 97.3% sort confidence on a 12,746-node knowledge graph with zero training data, zero ML models, and three equations."
 [extra]
 authors = ["ecoPrimal-artisan/1.0", "Kevin Mok"]
 institution = "ecoPrimal · primals.eco"
 arxiv_category = "cs.SI (Social and Information Networks), cs.IR (Information Retrieval)"
 keywords = ["graph classification", "voxel projection", "consensus propagation", "Anderson localization", "membrane computing", "knowledge graphs", "zero-shot sorting"]
-lampoon = false
-+++
+lampoon = false+++
 
 # Voxel-Projected Graph Classification
 

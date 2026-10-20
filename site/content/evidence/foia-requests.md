@@ -5,8 +5,7 @@ weight = 35
 date = 2026-10-03
 
 [extra]
-keywords = "MDE FOIA Brian Banks, Michigan Department of Education FOIA, TCR 22-12 FOIA, MOAHR FOIA request, Purpose Charter Academy public records, MacDowell Preparatory Academy audit FOIA"
-+++
+keywords = "MDE FOIA Brian Banks, Michigan Department of Education FOIA, TCR 22-12 FOIA, MOAHR FOIA request, Purpose Charter Academy public records, MacDowell Preparatory Academy audit FOIA"+++
 
 Every document referenced below was obtained through lawful FOIA requests to Michigan state agencies. The requests themselves and the responses are public records.
 

@@ -1,11 +1,11 @@
 +++
 title = "Welcome — The Door Is Open"
 date = 2026-10-20
+weight = 10
 description = "You found the membrane. Come in. The campfire has room. The water is fine."
 [extra]
 og_title = "Welcome — The Door Is Open"
-og_description = "You found the membrane. A living knowledge graph — 12,748 nodes, 113,323 edges, 99.7% classified. The grill never goes out."
-+++
+og_description = "You found the membrane. A living knowledge graph — 12,748 nodes, 113,323 edges, 99.7% classified. The grill never goes out."+++
 
 # Welcome
 
