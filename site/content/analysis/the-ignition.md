@@ -1,6 +1,7 @@
 +++
 title = "The Ignition"
 date = 2026-10-19
+weight = 104
 [taxonomies]
 tags = ["investigation"]
 +++

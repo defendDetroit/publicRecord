@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-20T18:21:36.600523+00:00",
+  "generated": "2026-10-20T02:30:51.347618+00:00",
   "battery": "control-self-confirm",
   "rule": "confirm first. show only PASS+show_when_needed. do not dump.",
   "counts": {
-    "pass": 27,
+    "pass": 28,
     "warn": 1,
-    "fail": 4,
+    "fail": 3,
     "total": 32
   },
   "braided_ready": true,
@@ -13,6 +13,7 @@
     "blink_live",
     "blink_lysogeny_html",
     "forge_skins_clique",
+    "sporeprint_orphan",
     "git_forge_live",
     "meta_flowing_now",
     "git_plinko_board",
@@ -29,7 +30,6 @@
   ],
   "keep_quiet": [
     "scyborg_license_page",
-    "sporeprint_orphan",
     "canary_tokens_armed",
     "inversion_one_way"
   ],
@@ -38,7 +38,7 @@
       "name": "blink_live",
       "claim": "the-blink renders as itself, not homepage",
       "result": "PASS",
-      "evidence": "title='The Blink \u2014 Why the Membrane Was Blind to Itself | Detroit Charter School Investigation' status=200 248ms",
+      "evidence": "title='The Blink \u2014 Why the Membrane Was Blind to Itself | Detroit Charter School Investigation' status=200 183ms",
       "show_when_needed": true
     },
     {
@@ -100,8 +100,8 @@
     {
       "name": "sporeprint_orphan",
       "claim": "sporeprint is an orphan peg (404) \u2014 SCIENCE airport dark",
-      "result": "FAIL",
-      "evidence": "status=200 title='ecoPrimals \u2014 Self-Hosted Scientific Computing in Rust (WebGPU, Bioinformatics, HPC)'",
+      "result": "PASS",
+      "evidence": "status=404 title=''",
       "show_when_needed": true
     },
     {
@@ -115,14 +115,14 @@
       "name": "meta_flowing_now",
       "claim": "Meta scraper present in current negentropy window",
       "result": "PASS",
-      "evidence": "meta=286 gptbot=8545 amazonbot=2707 blackwall_meta=286",
+      "evidence": "meta=632 gptbot=18914 amazonbot=6331 blackwall_meta=632",
       "show_when_needed": true
     },
     {
       "name": "canary_tokens_armed",
       "claim": "canary tokens minted (tripwire live)",
       "result": "FAIL",
-      "evidence": "minted=0 accessed=0 mirrors=1",
+      "evidence": "minted=0 accessed=0 mirrors=0",
       "show_when_needed": false
     },
     {
@@ -136,7 +136,7 @@
       "name": "cyst_now_vs_dashboard",
       "claim": "dashboard human count is live (not the 4109 now.json cyst)",
       "result": "PASS",
-      "evidence": "dashboard_human=5533 membrane_counts_cyst_was=4109",
+      "evidence": "dashboard_human=5132 membrane_counts_cyst_was=4109",
       "show_when_needed": false
     },
     {
@@ -178,21 +178,21 @@
       "name": "maze_honeypots_local",
       "claim": "maze-honeypots.json in git with maze-ants model + hot_count",
       "result": "PASS",
-      "evidence": "bytes=22471 has_model=True",
+      "evidence": "bytes=22361 has_model=True",
       "show_when_needed": true
     },
     {
       "name": "maze_honeypots_ghp",
       "claim": "maze-honeypots.json live on github.io",
       "result": "PASS",
-      "evidence": "status=200 start='{\\n  \"generated\": \"2026-10-20T17:07:55.708408+00:00\",\\n  \"model\": \"maze-ants\",\\n  \"'",
+      "evidence": "status=200 start='{\\n  \"generated\": \"2026-10-20T01:43:24.308154+00:00\",\\n  \"model\": \"maze-ants\",\\n  \"'",
       "show_when_needed": true
     },
     {
       "name": "maze_honeypots_detroit",
       "claim": "maze-honeypots.json live on detroit.primals.eco",
       "result": "PASS",
-      "evidence": "status=200 start='{\\n  \"generated\": \"2026-10-20T13:38:22.698630+00:00\",\\n  \"model\": \"maze-ants\",\\n  \"'",
+      "evidence": "status=200 start='{\\n  \"generated\": \"2026-10-20T01:43:24.308154+00:00\",\\n  \"model\": \"maze-ants\",\\n  \"'",
       "show_when_needed": false
     },
     {
@@ -255,7 +255,7 @@
       "name": "hud_dashboard_alive",
       "claim": "hud.primals.eco/dashboard.json returns 200 with human_ips",
       "result": "PASS",
-      "evidence": "status=200 human_ips=5533",
+      "evidence": "status=200 human_ips=5132",
       "show_when_needed": true
     }
   ],

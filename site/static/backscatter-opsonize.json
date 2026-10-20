@@ -1,20 +1,20 @@
 {
-  "generated": "2026-10-20T18:21:46.961211+00:00",
+  "generated": "2026-10-20T02:50:20.953878+00:00",
   "model": "backscatter-opsonize",
   "status": "STARTED — bones in, needs Rust integration",
   "falsification": {
     "coprimality_survives": false,
     "sensitivity_survives": false,
     "delta": 0.6079271018540267,
-    "ks": 0.6363636363636364,
-    "mean_shared_triggers": 3.6857142857142855,
+    "ks": 0.5454545454545454,
+    "mean_shared_triggers": 3.8095238095238093,
     "verdict": "epitopes NOT independent. coordinated=0 is false."
   },
   "subnet_campaigns": [
     {
       "prefix": "74.7.241.x",
       "subnet_count": 1,
-      "total_requests": 1046018,
+      "total_requests": 993752,
       "orgs": [
         "Unknown"
       ],
@@ -24,7 +24,7 @@
     {
       "prefix": "74.7.227.x",
       "subnet_count": 1,
-      "total_requests": 991833,
+      "total_requests": 835038,
       "orgs": [
         "Unknown"
       ],
@@ -34,7 +34,7 @@
     {
       "prefix": "74.7.242.x",
       "subnet_count": 1,
-      "total_requests": 696617,
+      "total_requests": 592067,
       "orgs": [
         "Unknown"
       ],
@@ -44,7 +44,7 @@
     {
       "prefix": "216.73.216.x",
       "subnet_count": 1,
-      "total_requests": 427777,
+      "total_requests": 427071,
       "orgs": [
         "Anthropic"
       ],
@@ -64,18 +64,6 @@
       "coordinated": true
     },
     {
-      "prefix": "162.226.225.x",
-      "subnet_count": 1,
-      "total_requests": 149290,
-      "orgs": [
-        "House network"
-      ],
-      "asn_types": [
-        "self"
-      ],
-      "coordinated": true
-    },
-    {
       "prefix": "216.73.217.x",
       "subnet_count": 1,
       "total_requests": 119453,
@@ -84,14 +72,26 @@
       ],
       "asn_types": [],
       "coordinated": true
+    },
+    {
+      "prefix": "162.226.225.x",
+      "subnet_count": 1,
+      "total_requests": 94729,
+      "orgs": [
+        "House network"
+      ],
+      "asn_types": [
+        "self"
+      ],
+      "coordinated": false
     }
   ],
   "timing_campaigns": [
     {
       "start_hour": "2026-10-17 14",
       "dominant_path": "commit",
-      "entity_count": 17,
-      "total_requests": 2448883,
+      "entity_count": 18,
+      "total_requests": 2452940,
       "ip_hashes": [
         "1002d798",
         "e733e11d",
@@ -109,22 +109,12 @@
     {
       "start_hour": "2026-10-17 14",
       "dominant_path": "other",
-      "entity_count": 2,
-      "total_requests": 296176,
+      "entity_count": 3,
+      "total_requests": 245615,
       "ip_hashes": [
+        "eae74052",
         "40ddb2aa",
-        "eae74052"
-      ],
-      "coordinated": true
-    },
-    {
-      "start_hour": "2026-10-20 00",
-      "dominant_path": "commit",
-      "entity_count": 2,
-      "total_requests": 37212,
-      "ip_hashes": [
-        "a26cbdb3",
-        "6bd945bf"
+        "2e5d6c34"
       ],
       "coordinated": true
     }
@@ -133,7 +123,7 @@
     "meta_dublin": {
       "tag": "opsonized:coordinated",
       "evidence": "60 IPs from 57.141.20.x, 18 rotating UAs, Chrome 118 lag",
-      "requests": 17215,
+      "requests": 0,
       "classification_was": "commensal (individual)",
       "classification_should_be": "coordinated:campaign:meta"
     },
@@ -147,22 +137,22 @@
     "anthropic_fleet": {
       "tag": "opsonized:coordinated",
       "evidence": "SF datacenter, 427K requests, 1 subnet",
-      "requests": 427777,
+      "requests": 427071,
       "classification_was": "commensal (individual)",
       "classification_should_be": "coordinated:campaign:anthropic"
     },
     "forge_skin_clique": {
       "tag": "opsonized:coordinated",
       "evidence": "14 immune hosts all serve /explore/repos, uniform hit pattern",
-      "requests": 3211541,
+      "requests": 2908853,
       "classification_was": "individual visitors",
       "classification_should_be": "coordinated:clique:forge_skins"
     }
   },
   "collision_level2_correction": {
     "old_coordinated": 0,
-    "new_coordinated_floor": 3723757,
-    "timing_coordinated": 2782271,
+    "new_coordinated_floor": 3260150,
+    "timing_coordinated": 2698555,
     "note": "floor estimate from subnet grouping. real number higher after timing + path correlation."
   },
   "next_steps": [

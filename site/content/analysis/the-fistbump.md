@@ -1,6 +1,7 @@
 +++
 title = "The Fistbump"
 date = 2026-10-19
+weight = 102
 [taxonomies]
 tags = ["investigation"]
 +++
