@@ -1,6 +1,7 @@
 +++
 title = "Airport Topology — Sites as Tangent Points on the Membrane Sphere"
 date = 2026-10-19
+weight = 86
 description = "Every site is an airport on a sphere. Humans fly great circles. Data takes secants. Fleet crawls the grid. The trig functions ARE the transport math. BingoCube voxels ARE the airspace sectors. Desire paths ARE secants through the interior."
 [taxonomies]
 tags = ["topology", "trigonometry", "airports", "bingocube", "voxel", "membrane", "transport"]

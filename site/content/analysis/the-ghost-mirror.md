@@ -1,6 +1,7 @@
 +++
 title = "The Ghost Mirror — How a 76TB Time Capsule Turns Fleet Archaeology Into Self-Portrait"
 date = 2026-10-19
+weight = 89
 description = "The ghost fleet hits repos that don't exist anymore. 300,000+ requests for paths from the past. When westGate comes online with old data, those 404s become mirrors. The fleet looks backward and we see their face. The chorus fleet weather DID NOT stop them — it sorted them."
 [taxonomies]
 tags = ["ghost-fleet", "westgate", "fossil", "reversal", "blackwall", "anderson", "chorus"]

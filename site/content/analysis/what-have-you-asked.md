@@ -1,6 +1,7 @@
 +++
 title = "What Have You Asked? — From Boltzmann to the Bingo Maze"
 date = 2026-10-19
+weight = 95
 description = "The ancient men of AI asked first how to make humanity think machines can think. Boltzmann asked how disorder becomes information. Asimov asked what happens when the laws fail. The Artisan asks: can a disposable thing leave something permanent?"
 [taxonomies]
 tags = ["asimov", "boltzmann", "turing", "cognition", "bingo", "question", "artisan"]

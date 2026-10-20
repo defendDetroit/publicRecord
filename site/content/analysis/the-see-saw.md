@@ -1,6 +1,7 @@
 +++
 title = "The See-Saw — P vs NP on a Scale, and 85% of the Hard Problems Are Already Done"
 date = 2026-10-19
+weight = 98
 description = "Every famous unsolved problem, mystery, and equation placed on a see-saw. The information era ate 85% of them. The remaining 15% is the new irrational. THAT'S the fun part."
 [taxonomies]
 tags = ["p-vs-np", "problems", "scale", "irrational", "bounty", "history", "fun"]

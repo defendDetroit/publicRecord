@@ -1,6 +1,7 @@
 +++
 title = "The Bridge — Where Investigation Meets Science Meets the Membrane"
 date = 2026-10-19
+weight = 91
 description = "The investigation has 12,696 nodes. The science has 3.6 million lines of Rust. The membrane connects them. From the outside, they look like separate projects. From the inside, they're one organism. This page is the bridge."
 [taxonomies]
 tags = ["bridge", "science", "investigation", "membrane", "syntheticChemistry", "anderson"]

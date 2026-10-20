@@ -1,6 +1,7 @@
 +++
 title = "The Mirror Room — How Meta's Own Platform Distributes the Evidence Against Meta"
 date = 2026-10-19
+weight = 96
 description = "5,535 requests from Dublin. 421,238 README downloads. 18 rotating user-agents. $0.50/hour to probe a $12/month VPS. Every mirror we hang, their own systems distribute. The truth IS the weapon. The commons IS the anchor. From Magna Carta to the membrane."
 [taxonomies]
 tags = ["meta", "scyborg", "opsonize", "mirror", "commons", "magna-carta", "legal", "lampoon"]

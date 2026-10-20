@@ -2,6 +2,7 @@
 title = "An Open Letter to Gregory M. Meihn — TCR 22-12 Compliance"
 description = "A notice to MacDowell Preparatory Academy's board attorney regarding Brian Banks's conduct since the TCR 22-12 hearing, the qualifications of the witnesses who testified, and the Board's compliance obligations."
 date = 2026-10-01
+weight = 20
 updated = 2026-10-01
 draft = false
 

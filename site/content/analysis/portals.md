@@ -1,6 +1,7 @@
 +++
 title = "Portals — The BingoCube Entry Points"
 date = 2026-10-19
+weight = 87
 description = "49 QR code keystones. 7 themes × 7 depths. Each one a portal to the membrane. They don't expire because we own every endpoint. They heal because the night box catches every broken path. Scan one — see one layer. Scan more — the board fills."
 [taxonomies]
 tags = ["portals", "bingocube", "qr", "access", "touchpoint"]
