@@ -121,24 +121,15 @@
     return Promise.all([
       settle(get(HUD + '/dashboard.json')),
       settle(get(HUD + '/campfire.json')),
-      settle(get(HUD + '/braid.json'))
+      settle(get(HUD + '/braid.json')),
+      settle(get(HUD + '/dialogue.json'))
     ]).then(function (parts) {
       var dash = parts[0].ok ? parts[0].v : {}
       var camp = parts[1].ok ? parts[1].v : {}
       var braid = parts[2].ok ? parts[2].v : {}
-
-      var tense = pick(dash, 'epitope_tense', null) || pick(dash, 'anderson_selectivity', {})
-      var passages = pick(dash, 'passages', null)
-      if (!passages && dash.trajectory) {
-        passages = pick(dash, 'trajectory.top_orbits', [])
-      }
+      var dialog = parts[3].ok ? parts[3].v : {}
 
       var epitopeData = {}
-      if (tense && tense.modes) {
-        tense.modes.forEach(function (m) {
-          epitopeData[m.class] = m.count
-        })
-      }
       if (dash.collision_level2) {
         epitopeData = dash.collision_level2
       }
@@ -147,20 +138,34 @@
         epitopeData.was = dash.tense_distribution.was
         epitopeData.will_be = dash.tense_distribution.will_be
       }
+      if (dash.anderson_selectivity && dash.anderson_selectivity.modes) {
+        dash.anderson_selectivity.modes.forEach(function (m) {
+          epitopeData[m.class] = m.count
+        })
+      }
+
+      var passages = []
+      if (dialog && dialog.dance && dialog.dance.passages) {
+        passages = dialog.dance.passages
+      }
+      if (!passages.length && braid && Array.isArray(braid.braids || braid)) {
+        var bs = braid.braids || braid
+        passages = bs.filter(function (b) { return b.humans_total > 0 }).map(function (b) {
+          return { from: b.from, to: b.to, humans: b.humans_total, move: b.spinning ? 'spin' : 'step' }
+        })
+      }
 
       var stories = (camp.stories || []).map(function (s) { return s.story || '' }).filter(Boolean)
 
       var braids = []
-      if (Array.isArray(braid)) {
-        braids = braid
-      } else if (braid.braids) {
-        braids = braid.braids
+      if (Array.isArray(braid.braids || braid)) {
+        braids = braid.braids || braid
       }
 
       paint({
         totalDancers: dash.human_ips || pick(dash, 'collision_level2.genuine', 0),
         epitopes: epitopeData,
-        passages: Array.isArray(passages) ? passages : [],
+        passages: passages,
         braids: braids,
         stories: stories
       })
