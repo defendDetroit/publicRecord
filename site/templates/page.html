@@ -2,13 +2,14 @@
 
 {% block title %}{{ page.title }} | Detroit Charter School Investigation{% endblock title %}
 {% block description %}{{ page.description | default(value=config.description) }}{% endblock description %}
-{% block og_title %}{{ page.title }}{% endblock og_title %}
-{% block og_desc %}{{ page.description | default(value=config.description) }}{% endblock og_desc %}
+{% block og_title %}{% if page.extra.og_title %}{{ page.extra.og_title }}{% else %}{{ page.title }}{% endif %}{% endblock og_title %}
+{% block og_desc %}{% if page.extra.og_description %}{{ page.extra.og_description }}{% else %}{{ page.description | default(value=config.description) }}{% endif %}{% endblock og_desc %}
 {% block og_type %}article{% endblock og_type %}
-{% block tw_title %}{{ page.title }} | Detroit Charter School Investigation{% endblock tw_title %}
-{% block tw_desc %}{{ page.description | default(value=config.description) }}{% endblock tw_desc %}
+{% block tw_title %}{% if page.extra.og_title %}{{ page.extra.og_title }}{% else %}{{ page.title }} | Detroit Charter School Investigation{% endif %}{% endblock tw_title %}
+{% block tw_desc %}{% if page.extra.og_description %}{{ page.extra.og_description }}{% else %}{{ page.description | default(value=config.description) }}{% endif %}{% endblock tw_desc %}
 {% block keywords %}{% if page.extra.keywords %}{{ page.extra.keywords }}{% else %}Purpose Charter Academy, MacDowell Preparatory Academy, Brian Banks Detroit, Detroit charter school fraud, racketeering, public education, Black Mafia Family, BMF Detroit schools, charter school accountability{% endif %}{% endblock keywords %}
-{% block og_image %}{% if page.extra.og_image %}{{ page.extra.og_image }}{% else %}{{ get_url(path='img/og-default.png') }}{% endif %}{% endblock og_image %}
+{% block og_image %}{% if page.extra.og_image %}{{ get_url(path=page.extra.og_image) }}{% else %}{{ get_url(path='img/og-default.png') }}{% endif %}{% endblock og_image %}
+{% block tw_image %}{% if page.extra.og_image %}{{ get_url(path=page.extra.og_image) }}{% else %}{{ get_url(path='img/og-default.png') }}{% endif %}{% endblock tw_image %}
 {% block content %}
 {% if page.ancestors | length > 0 %}
 <script type="application/ld+json">

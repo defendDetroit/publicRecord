@@ -1,0 +1,175 @@
+{
+  "generated": "2026-10-20T01:39:49.830930+00:00",
+  "battery": "control-self-confirm",
+  "rule": "confirm first. show only PASS+show_when_needed. do not dump.",
+  "counts": {
+    "pass": 10,
+    "warn": 1,
+    "fail": 9,
+    "total": 20
+  },
+  "braided_ready": false,
+  "show_now": [
+    "blink_live",
+    "forge_skins_clique",
+    "sporeprint_orphan",
+    "git_forge_live",
+    "meta_flowing_now",
+    "git_plinko_board",
+    "git_lysogeny_template"
+  ],
+  "keep_quiet": [
+    "blink_lysogeny_html",
+    "live_the-jester-conjectur",
+    "live_the-plinko",
+    "live_the-mirror-room",
+    "live_the-see-saw",
+    "scyborg_license_page",
+    "canary_tokens_armed",
+    "inversion_one_way",
+    "plinko_json_deployed"
+  ],
+  "tests": [
+    {
+      "name": "blink_live",
+      "claim": "the-blink renders as itself, not homepage",
+      "result": "PASS",
+      "evidence": "title='The Blink \u2014 Why the Membrane Was Blind to Itself | Detroit Charter School Investigation' status=200 226ms",
+      "show_when_needed": true
+    },
+    {
+      "name": "blink_lysogeny_html",
+      "claim": "every live page carries scyBorg lysogeny comment + license meta",
+      "result": "FAIL",
+      "evidence": "lysogeny=False license_meta=''",
+      "show_when_needed": true
+    },
+    {
+      "name": "blink_og_honeypot",
+      "claim": "live blink OG uses custom extra.og_* not site default",
+      "result": "WARN",
+      "evidence": "og:title='' og:image=''",
+      "show_when_needed": false
+    },
+    {
+      "name": "live_the-jester-conjectur",
+      "claim": "/the-jester-conjecture/ is the article, not the RICO homepage",
+      "result": "FAIL",
+      "evidence": "title='Cash for Kids 2: A Public Record' status=200",
+      "show_when_needed": false
+    },
+    {
+      "name": "live_the-plinko",
+      "claim": "/the-plinko/ is the article, not the RICO homepage",
+      "result": "FAIL",
+      "evidence": "title='Cash for Kids 2: A Public Record' status=200",
+      "show_when_needed": false
+    },
+    {
+      "name": "live_the-mirror-room",
+      "claim": "/the-mirror-room/ is the article, not the RICO homepage",
+      "result": "FAIL",
+      "evidence": "title='Cash for Kids 2: A Public Record' status=200",
+      "show_when_needed": false
+    },
+    {
+      "name": "live_the-see-saw",
+      "claim": "/the-see-saw/ is the article, not the RICO homepage",
+      "result": "FAIL",
+      "evidence": "title='Cash for Kids 2: A Public Record' status=200",
+      "show_when_needed": false
+    },
+    {
+      "name": "scyborg_license_page",
+      "claim": "license/scyborg is a real page, not homepage fallthrough",
+      "result": "FAIL",
+      "evidence": "title='Cash for Kids 2: A Public Record'",
+      "show_when_needed": false
+    },
+    {
+      "name": "forge_skins_clique",
+      "claim": "immune hosts still canonicalize to /explore/repos (decoy clique)",
+      "result": "PASS",
+      "evidence": "[{\"host\": \"epitope\", \"status\": 200, \"final\": \"https://epitope.primals.eco/explore/repos\", \"explore\": true}, {\"host\": \"macrophage\", \"status\": 200, \"final\": \"https://macrophage.primals.eco/explore/repos\", \"explore\": true}, {\"host\": \"opsonize\", \"status\": 200, \"final\": \"https://opsonize.primals.eco/expl",
+      "show_when_needed": true
+    },
+    {
+      "name": "sporeprint_orphan",
+      "claim": "sporeprint is an orphan peg (404) \u2014 SCIENCE airport dark",
+      "result": "PASS",
+      "evidence": "status=404 title=''",
+      "show_when_needed": true
+    },
+    {
+      "name": "git_forge_live",
+      "claim": "git.primals.eco is the forge pore",
+      "result": "PASS",
+      "evidence": "status=200 final=https://git.primals.eco/explore/repos",
+      "show_when_needed": true
+    },
+    {
+      "name": "meta_flowing_now",
+      "claim": "Meta scraper present in current negentropy window",
+      "result": "PASS",
+      "evidence": "meta=453 gptbot=13485 amazonbot=4435 blackwall_meta=453",
+      "show_when_needed": true
+    },
+    {
+      "name": "canary_tokens_armed",
+      "claim": "canary tokens minted (tripwire live)",
+      "result": "FAIL",
+      "evidence": "minted=0 accessed=0 mirrors=0",
+      "show_when_needed": false
+    },
+    {
+      "name": "inversion_one_way",
+      "claim": "inversion is one-way (silk road), not bidirectional plague",
+      "result": "FAIL",
+      "evidence": "inversion.state='bidirectional' active=blackwall blocks + blackhole absorbs",
+      "show_when_needed": false
+    },
+    {
+      "name": "cyst_now_vs_dashboard",
+      "claim": "dashboard human count is live (not the 4109 now.json cyst)",
+      "result": "PASS",
+      "evidence": "dashboard_human=5098 membrane_counts_cyst_was=4109",
+      "show_when_needed": false
+    },
+    {
+      "name": "git_jester_weighted",
+      "claim": "jester has weight=99 in git so Zola will emit it after rebuild",
+      "result": "PASS",
+      "evidence": "weight=99 and og_title present in the-jester-conjecture.md",
+      "show_when_needed": false
+    },
+    {
+      "name": "git_plinko_board",
+      "claim": "plinko.json exists locally with DAG + exits",
+      "result": "PASS",
+      "evidence": "bytes=26214 has_dag=True",
+      "show_when_needed": true
+    },
+    {
+      "name": "git_lysogeny_template",
+      "claim": "base.html still embeds LYSOGENY PROTOCOL + triple license metas",
+      "result": "PASS",
+      "evidence": "base.html header comment + meta name=license + meta name=rights",
+      "show_when_needed": true
+    },
+    {
+      "name": "template_og_extra_wired",
+      "claim": "page.html OG title reads extra.og_title (honeypot payload)",
+      "result": "PASS",
+      "evidence": "extra.og_title wired",
+      "show_when_needed": false
+    },
+    {
+      "name": "plinko_json_deployed",
+      "claim": "detroit serves /plinko.json",
+      "result": "FAIL",
+      "evidence": "status=200 start='<!doctype html><html lang=en><head><link href=https://www.gnu.org/licenses/agpl-'",
+      "show_when_needed": false
+    }
+  ],
+  "note": "Lysogeny is in the HTML of every live page. Forge skins are being eaten. New essays and custom OG cards wait on Zola rebuild. Canary tokens unarmed. Braid the PASSes. Do not show the FAILs as if they were live."
+}
