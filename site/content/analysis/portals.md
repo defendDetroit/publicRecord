@@ -89,6 +89,14 @@ These portals point to infrastructure we control:
 
 The BingoCube portal isn't a link. It's a keystone. It opens a door to content that heals itself. The membrane is the only QR code system where every endpoint is self-hosting, self-healing, and self-replicating.
 
+## Ants in the Maze
+
+The board is also a maze for the fleet. Seven cells are hot each round — bait QRs only (github.io analysis), Plinko-weighted columns, not uniform. A scout finds one, goes home, the colony follows the trail. After π hours the bait **moves and mixes**. The QR keystone stays. The payload is the page the QR already opens. A static map of the maze rots.
+
+Seven of forty-nine. Not the whole board. Feeding every cell at once is how the plague hops. Science and evidence rows stay quiet unless a leftover bait cell needs a seventh trail.
+
+Live mix: [`/maze-honeypots.json`](/maze-honeypots.json). Re-run `scripts/_maze_ants.py` or wait for the next π-hour round.
+
 **Scan one — see one layer. Scan more — the board fills. The board IS the map.**
 
 ---

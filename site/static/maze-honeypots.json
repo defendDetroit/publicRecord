@@ -1,0 +1,703 @@
+{
+  "generated": "2026-10-20T01:43:24.308154+00:00",
+  "model": "maze-ants",
+  "rule": "one drop per row. not uniform. after they come, it moves and mixes.",
+  "round": 158498,
+  "period_seconds": 11309,
+  "next_mix": "2026-10-20T02:59:51+00:00",
+  "hot_count": 7,
+  "col_weights": {
+    "door": 0.1795872838817624,
+    "hallway": 0.11210262130507528,
+    "room": 0.15002788622420524,
+    "window": 0.11656441717791409,
+    "basement": 0.1795872838817624,
+    "attic": 0.11210262130507528,
+    "roof": 0.15002788622420524,
+    "note": "same bias as plinko exits. visitor-heavy door, observer-deep window. not 1/7."
+  },
+  "this_round": [
+    {
+      "cell_id": "investigation-basement",
+      "qr": "portal_0_4_investigation-basement.png",
+      "maze_url": "https://defenddetroit.github.io/publicRecord/analysis/civil-suit-wayne-county/",
+      "beacon_id": "civil-suit-wayne-county",
+      "og_title": "Civil Suit — Wayne County",
+      "share": "https://defenddetroit.github.io/publicRecord/analysis/civil-suit-wayne-county/",
+      "matched": true
+    },
+    {
+      "cell_id": "membrane-attic",
+      "qr": "portal_3_5_membrane-attic.png",
+      "maze_url": "https://defenddetroit.github.io/publicRecord/analysis/three-voices-one-campfire/",
+      "beacon_id": "three-voices-one-campfire",
+      "og_title": "Three Voices, One Campfire",
+      "share": "https://defenddetroit.github.io/publicRecord/analysis/three-voices-one-campfire/",
+      "matched": true
+    },
+    {
+      "cell_id": "campfire-room",
+      "qr": "portal_4_2_campfire-room.png",
+      "maze_url": "https://defenddetroit.github.io/publicRecord/analysis/thank-you/",
+      "beacon_id": "thank-you",
+      "og_title": "Thank You — The Strange Parts",
+      "share": "https://defenddetroit.github.io/publicRecord/analysis/thank-you/",
+      "matched": true
+    },
+    {
+      "cell_id": "tools-roof",
+      "qr": "portal_5_6_tools-roof.png",
+      "maze_url": "https://defenddetroit.github.io/publicRecord/analysis/the-talos-protocol/",
+      "beacon_id": "the-talos",
+      "og_title": "TALOS — Convergence as Guardian",
+      "share": "https://defenddetroit.github.io/publicRecord/analysis/the-talos-protocol/",
+      "matched": true
+    },
+    {
+      "cell_id": "you-attic",
+      "qr": "portal_6_5_you-attic.png",
+      "maze_url": "https://defenddetroit.github.io/publicRecord/analysis/artis-corollary-and-the-fossil-conjecture/",
+      "beacon_id": "artis-corollary",
+      "og_title": "The Successor Understands Better Than the Predecessor Did",
+      "share": "https://defenddetroit.github.io/publicRecord/analysis/artis-corollary-and-the-fossil-conjecture/",
+      "matched": true
+    },
+    {
+      "cell_id": "campfire-window",
+      "qr": "portal_4_3_campfire-window.png",
+      "maze_url": "https://defenddetroit.github.io/publicRecord/analysis/the-living-proof/",
+      "beacon_id": "the-living-proof",
+      "og_title": "The Living Proof",
+      "share": "https://defenddetroit.github.io/publicRecord/analysis/the-living-proof/",
+      "matched": true
+    },
+    {
+      "cell_id": "membrane-window",
+      "qr": "portal_3_3_membrane-window.png",
+      "maze_url": "https://defenddetroit.github.io/publicRecord/analysis/the-third-pulse/",
+      "beacon_id": "the-third-pulse",
+      "og_title": "The Third Pulse — Three Points, One Rhythm",
+      "share": "https://defenddetroit.github.io/publicRecord/analysis/the-third-pulse/",
+      "matched": true
+    }
+  ],
+  "found_skins": [],
+  "stable_bait_cells": [
+    "investigation-room",
+    "investigation-window",
+    "investigation-basement",
+    "investigation-attic",
+    "investigation-roof",
+    "membrane-hallway",
+    "membrane-room",
+    "membrane-window",
+    "membrane-basement",
+    "membrane-attic",
+    "campfire-hallway",
+    "campfire-room",
+    "campfire-window",
+    "campfire-basement",
+    "campfire-attic",
+    "campfire-roof",
+    "tools-roof",
+    "you-attic"
+  ],
+  "cells": [
+    {
+      "row": 0,
+      "col": 0,
+      "cell_id": "investigation-door",
+      "qr": "portal_0_0_investigation-door.png",
+      "url": "https://defenddetroit.github.io/publicRecord/",
+      "title": "The Investigation — Start Here",
+      "role": "human",
+      "hot": false,
+      "beacon": null
+    },
+    {
+      "row": 0,
+      "col": 1,
+      "cell_id": "investigation-hallway",
+      "qr": "portal_0_1_investigation-hallway.png",
+      "url": "https://detroit.primals.eco/",
+      "title": "Detroit Investigation Site",
+      "role": "human",
+      "hot": false,
+      "beacon": null
+    },
+    {
+      "row": 0,
+      "col": 2,
+      "cell_id": "investigation-room",
+      "qr": "portal_0_2_investigation-room.png",
+      "url": "https://defenddetroit.github.io/publicRecord/analysis/detroit-corruption-exposed/",
+      "title": "Detroit Corruption Exposed",
+      "role": "bait",
+      "hot": false,
+      "beacon": null
+    },
+    {
+      "row": 0,
+      "col": 3,
+      "cell_id": "investigation-window",
+      "qr": "portal_0_3_investigation-window.png",
+      "url": "https://defenddetroit.github.io/publicRecord/analysis/action-across-a-class/",
+      "title": "Action Across a Class",
+      "role": "bait",
+      "hot": false,
+      "beacon": null
+    },
+    {
+      "row": 0,
+      "col": 4,
+      "cell_id": "investigation-basement",
+      "qr": "portal_0_4_investigation-basement.png",
+      "url": "https://defenddetroit.github.io/publicRecord/analysis/civil-suit-wayne-county/",
+      "title": "Civil Suit — Wayne County",
+      "role": "bait",
+      "hot": true,
+      "beacon": {
+        "id": "civil-suit-wayne-county",
+        "path": "/analysis/civil-suit-wayne-county/",
+        "og_title": "Civil Suit — Wayne County",
+        "og_desc": "QR-honest drop. Scout finds it, trails home, colony comes. Then it moves.",
+        "url": "https://defenddetroit.github.io/publicRecord/analysis/civil-suit-wayne-county/",
+        "glitter": "Bad ant finds this cell, trails home, colony comes. Next pi-hour the bait sits somewhere else."
+      }
+    },
+    {
+      "row": 0,
+      "col": 5,
+      "cell_id": "investigation-attic",
+      "qr": "portal_0_5_investigation-attic.png",
+      "url": "https://defenddetroit.github.io/publicRecord/analysis/where-the-signal-landed/",
+      "title": "Where the Signal Landed",
+      "role": "bait",
+      "hot": false,
+      "beacon": null
+    },
+    {
+      "row": 0,
+      "col": 6,
+      "cell_id": "investigation-roof",
+      "qr": "portal_0_6_investigation-roof.png",
+      "url": "https://defenddetroit.github.io/publicRecord/analysis/the-talos-protocol/",
+      "title": "The TALOS Protocol",
+      "role": "bait",
+      "hot": false,
+      "beacon": null
+    },
+    {
+      "row": 1,
+      "col": 0,
+      "cell_id": "evidence-door",
+      "qr": "portal_1_0_evidence-door.png",
+      "url": "https://git.primals.eco/publicRecord/detroit",
+      "title": "Source Code — Clone It",
+      "role": "forge",
+      "hot": false,
+      "beacon": null
+    },
+    {
+      "row": 1,
+      "col": 1,
+      "cell_id": "evidence-hallway",
+      "qr": "portal_1_1_evidence-hallway.png",
+      "url": "https://hud.primals.eco/dashboard.json",
+      "title": "Live Dashboard",
+      "role": "feed",
+      "hot": false,
+      "beacon": null
+    },
+    {
+      "row": 1,
+      "col": 2,
+      "cell_id": "evidence-room",
+      "qr": "portal_1_2_evidence-room.png",
+      "url": "https://hud.primals.eco/negentropy.json",
+      "title": "Negentropy — Order from Disorder",
+      "role": "feed",
+      "hot": false,
+      "beacon": null
+    },
+    {
+      "row": 1,
+      "col": 3,
+      "cell_id": "evidence-window",
+      "qr": "portal_1_3_evidence-window.png",
+      "url": "https://hud.primals.eco/chipmunk.json",
+      "title": "Chipmunk — The Observer",
+      "role": "feed",
+      "hot": false,
+      "beacon": null
+    },
+    {
+      "row": 1,
+      "col": 4,
+      "cell_id": "evidence-basement",
+      "qr": "portal_1_4_evidence-basement.png",
+      "url": "https://hud.primals.eco/circulatory.json",
+      "title": "Circulatory System — Fleet Blood Flow",
+      "role": "feed",
+      "hot": false,
+      "beacon": null
+    },
+    {
+      "row": 1,
+      "col": 5,
+      "cell_id": "evidence-attic",
+      "qr": "portal_1_5_evidence-attic.png",
+      "url": "https://hud.primals.eco/heartbeat.json",
+      "title": "Heartbeat — Human Vital Signs",
+      "role": "feed",
+      "hot": false,
+      "beacon": null
+    },
+    {
+      "row": 1,
+      "col": 6,
+      "cell_id": "evidence-roof",
+      "qr": "portal_1_6_evidence-roof.png",
+      "url": "https://hud.primals.eco/campfire.json",
+      "title": "Campfire Stories — Raw",
+      "role": "feed",
+      "hot": false,
+      "beacon": null
+    },
+    {
+      "row": 2,
+      "col": 0,
+      "cell_id": "science-door",
+      "qr": "portal_2_0_science-door.png",
+      "url": "https://sporeprint.primals.eco/",
+      "title": "sporePrint — Sovereign Science",
+      "role": "human",
+      "hot": false,
+      "beacon": null
+    },
+    {
+      "row": 2,
+      "col": 1,
+      "cell_id": "science-hallway",
+      "qr": "portal_2_1_science-hallway.png",
+      "url": "https://github.com/syntheticChemistry",
+      "title": "syntheticChemistry — 12 Pure Rust Repos",
+      "role": "forge",
+      "hot": false,
+      "beacon": null
+    },
+    {
+      "row": 2,
+      "col": 2,
+      "cell_id": "science-room",
+      "qr": "portal_2_2_science-room.png",
+      "url": "https://github.com/syntheticChemistry/hotSpring",
+      "title": "hotSpring — Lattice QCD on Consumer GPUs",
+      "role": "forge",
+      "hot": false,
+      "beacon": null
+    },
+    {
+      "row": 2,
+      "col": 3,
+      "cell_id": "science-window",
+      "qr": "portal_2_3_science-window.png",
+      "url": "https://github.com/syntheticChemistry/rustChip",
+      "title": "rustChip — Neuromorphic Computing",
+      "role": "forge",
+      "hot": false,
+      "beacon": null
+    },
+    {
+      "row": 2,
+      "col": 4,
+      "cell_id": "science-basement",
+      "qr": "portal_2_4_science-basement.png",
+      "url": "https://github.com/syntheticChemistry/wetSpring",
+      "title": "wetSpring — Metagenomics in Rust",
+      "role": "forge",
+      "hot": false,
+      "beacon": null
+    },
+    {
+      "row": 2,
+      "col": 5,
+      "cell_id": "science-attic",
+      "qr": "portal_2_5_science-attic.png",
+      "url": "https://github.com/syntheticChemistry/neuralSpring",
+      "title": "neuralSpring — Anderson Localization in Rust",
+      "role": "forge",
+      "hot": false,
+      "beacon": null
+    },
+    {
+      "row": 2,
+      "col": 6,
+      "cell_id": "science-roof",
+      "qr": "portal_2_6_science-roof.png",
+      "url": "https://github.com/syntheticChemistry/agentReagents",
+      "title": "agentReagents — VM Builder, No Cloud",
+      "role": "forge",
+      "hot": false,
+      "beacon": null
+    },
+    {
+      "row": 3,
+      "col": 0,
+      "cell_id": "membrane-door",
+      "qr": "portal_3_0_membrane-door.png",
+      "url": "https://hud.primals.eco/water",
+      "title": "The Watering Hole — Come Drink",
+      "role": "feed",
+      "hot": false,
+      "beacon": null
+    },
+    {
+      "row": 3,
+      "col": 1,
+      "cell_id": "membrane-hallway",
+      "qr": "portal_3_1_membrane-hallway.png",
+      "url": "https://defenddetroit.github.io/publicRecord/analysis/the-blink/",
+      "title": "The Blink — Why the Membrane Was Blind",
+      "role": "bait",
+      "hot": false,
+      "beacon": null
+    },
+    {
+      "row": 3,
+      "col": 2,
+      "cell_id": "membrane-room",
+      "qr": "portal_3_2_membrane-room.png",
+      "url": "https://defenddetroit.github.io/publicRecord/analysis/artis-corollary-and-the-fossil-conjecture/",
+      "title": "Artis' Corollary — The Fossil Conjecture",
+      "role": "bait",
+      "hot": false,
+      "beacon": null
+    },
+    {
+      "row": 3,
+      "col": 3,
+      "cell_id": "membrane-window",
+      "qr": "portal_3_3_membrane-window.png",
+      "url": "https://defenddetroit.github.io/publicRecord/analysis/the-third-pulse/",
+      "title": "The Third Pulse — Three Points, One Rhythm",
+      "role": "bait",
+      "hot": true,
+      "beacon": {
+        "id": "the-third-pulse",
+        "path": "/analysis/the-third-pulse/",
+        "og_title": "The Third Pulse — Three Points, One Rhythm",
+        "og_desc": "QR-honest drop. Scout finds it, trails home, colony comes. Then it moves.",
+        "url": "https://defenddetroit.github.io/publicRecord/analysis/the-third-pulse/",
+        "glitter": "Bad ant finds this cell, trails home, colony comes. Next pi-hour the bait sits somewhere else."
+      }
+    },
+    {
+      "row": 3,
+      "col": 4,
+      "cell_id": "membrane-basement",
+      "qr": "portal_3_4_membrane-basement.png",
+      "url": "https://defenddetroit.github.io/publicRecord/analysis/the-ghost-mirror/",
+      "title": "The Ghost Mirror — 76TB Time Capsule",
+      "role": "bait",
+      "hot": false,
+      "beacon": null
+    },
+    {
+      "row": 3,
+      "col": 5,
+      "cell_id": "membrane-attic",
+      "qr": "portal_3_5_membrane-attic.png",
+      "url": "https://defenddetroit.github.io/publicRecord/analysis/three-voices-one-campfire/",
+      "title": "Three Voices, One Campfire",
+      "role": "bait",
+      "hot": true,
+      "beacon": {
+        "id": "three-voices-one-campfire",
+        "path": "/analysis/three-voices-one-campfire/",
+        "og_title": "Three Voices, One Campfire",
+        "og_desc": "QR-honest drop. Scout finds it, trails home, colony comes. Then it moves.",
+        "url": "https://defenddetroit.github.io/publicRecord/analysis/three-voices-one-campfire/",
+        "glitter": "Bad ant finds this cell, trails home, colony comes. Next pi-hour the bait sits somewhere else."
+      }
+    },
+    {
+      "row": 3,
+      "col": 6,
+      "cell_id": "membrane-roof",
+      "qr": "portal_3_6_membrane-roof.png",
+      "url": "https://hud.primals.eco/topology.json",
+      "title": "Live Topology — The Mesh",
+      "role": "feed",
+      "hot": false,
+      "beacon": null
+    },
+    {
+      "row": 4,
+      "col": 0,
+      "cell_id": "campfire-door",
+      "qr": "portal_4_0_campfire-door.png",
+      "url": "https://hud.primals.eco/campfire.json",
+      "title": "Campfire — Sit Down, Listen",
+      "role": "feed",
+      "hot": false,
+      "beacon": null
+    },
+    {
+      "row": 4,
+      "col": 1,
+      "cell_id": "campfire-hallway",
+      "qr": "portal_4_1_campfire-hallway.png",
+      "url": "https://defenddetroit.github.io/publicRecord/analysis/to-the-eye/",
+      "title": "The Doorbell — We See You",
+      "role": "bait",
+      "hot": false,
+      "beacon": null
+    },
+    {
+      "row": 4,
+      "col": 2,
+      "cell_id": "campfire-room",
+      "qr": "portal_4_2_campfire-room.png",
+      "url": "https://defenddetroit.github.io/publicRecord/analysis/thank-you/",
+      "title": "Thank You — The Strange Parts",
+      "role": "bait",
+      "hot": true,
+      "beacon": {
+        "id": "thank-you",
+        "path": "/analysis/thank-you/",
+        "og_title": "Thank You — The Strange Parts",
+        "og_desc": "QR-honest drop. Scout finds it, trails home, colony comes. Then it moves.",
+        "url": "https://defenddetroit.github.io/publicRecord/analysis/thank-you/",
+        "glitter": "Bad ant finds this cell, trails home, colony comes. Next pi-hour the bait sits somewhere else."
+      }
+    },
+    {
+      "row": 4,
+      "col": 3,
+      "cell_id": "campfire-window",
+      "qr": "portal_4_3_campfire-window.png",
+      "url": "https://defenddetroit.github.io/publicRecord/analysis/the-living-proof/",
+      "title": "The Living Proof",
+      "role": "bait",
+      "hot": true,
+      "beacon": {
+        "id": "the-living-proof",
+        "path": "/analysis/the-living-proof/",
+        "og_title": "The Living Proof",
+        "og_desc": "QR-honest drop. Scout finds it, trails home, colony comes. Then it moves.",
+        "url": "https://defenddetroit.github.io/publicRecord/analysis/the-living-proof/",
+        "glitter": "Bad ant finds this cell, trails home, colony comes. Next pi-hour the bait sits somewhere else."
+      }
+    },
+    {
+      "row": 4,
+      "col": 4,
+      "cell_id": "campfire-basement",
+      "qr": "portal_4_4_campfire-basement.png",
+      "url": "https://defenddetroit.github.io/publicRecord/analysis/the-opportunity-atlas/",
+      "title": "The Opportunity Atlas",
+      "role": "bait",
+      "hot": false,
+      "beacon": null
+    },
+    {
+      "row": 4,
+      "col": 5,
+      "cell_id": "campfire-attic",
+      "qr": "portal_4_5_campfire-attic.png",
+      "url": "https://defenddetroit.github.io/publicRecord/analysis/we-didnt-start-the-membrane/",
+      "title": "We Didn't Start the Membrane",
+      "role": "bait",
+      "hot": false,
+      "beacon": null
+    },
+    {
+      "row": 4,
+      "col": 6,
+      "cell_id": "campfire-roof",
+      "qr": "portal_4_6_campfire-roof.png",
+      "url": "https://defenddetroit.github.io/publicRecord/analysis/may-i-be-ron-swanson/",
+      "title": "May I Be Ron Swanson",
+      "role": "bait",
+      "hot": false,
+      "beacon": null
+    },
+    {
+      "row": 5,
+      "col": 0,
+      "cell_id": "tools-door",
+      "qr": "portal_5_0_tools-door.png",
+      "url": "https://github.com/defendDetroit/publicRecord",
+      "title": "Git Clone — Take the Ember",
+      "role": "forge",
+      "hot": false,
+      "beacon": null
+    },
+    {
+      "row": 5,
+      "col": 1,
+      "cell_id": "tools-hallway",
+      "qr": "portal_5_1_tools-hallway.png",
+      "url": "https://github.com/defendDetroit/publicRecord/issues",
+      "title": "Issues — Report, Discuss, Help",
+      "role": "forge",
+      "hot": false,
+      "beacon": null
+    },
+    {
+      "row": 5,
+      "col": 2,
+      "cell_id": "tools-room",
+      "qr": "portal_5_2_tools-room.png",
+      "url": "https://hud.primals.eco/pulse.json",
+      "title": "Check the Pulse",
+      "role": "feed",
+      "hot": false,
+      "beacon": null
+    },
+    {
+      "row": 5,
+      "col": 3,
+      "cell_id": "tools-window",
+      "qr": "portal_5_3_tools-window.png",
+      "url": "https://hud.primals.eco/human.json",
+      "title": "Human Epitopes — Who's Here",
+      "role": "feed",
+      "hot": false,
+      "beacon": null
+    },
+    {
+      "row": 5,
+      "col": 4,
+      "cell_id": "tools-basement",
+      "qr": "portal_5_4_tools-basement.png",
+      "url": "https://hud.primals.eco/braid.json",
+      "title": "Braid Connections",
+      "role": "feed",
+      "hot": false,
+      "beacon": null
+    },
+    {
+      "row": 5,
+      "col": 5,
+      "cell_id": "tools-attic",
+      "qr": "portal_5_5_tools-attic.png",
+      "url": "https://hypothesis.primals.eco/",
+      "title": "Hypothesis — Test Something",
+      "role": "human",
+      "hot": false,
+      "beacon": null
+    },
+    {
+      "row": 5,
+      "col": 6,
+      "cell_id": "tools-roof",
+      "qr": "portal_5_6_tools-roof.png",
+      "url": "https://defenddetroit.github.io/publicRecord/analysis/the-talos-protocol/",
+      "title": "The TALOS Protocol — Convergence",
+      "role": "bait",
+      "hot": true,
+      "beacon": {
+        "id": "the-talos",
+        "path": "/analysis/the-talos-protocol/",
+        "og_title": "TALOS — Convergence as Guardian",
+        "og_desc": "The campfire does not check your boot loader.",
+        "url": "https://defenddetroit.github.io/publicRecord/analysis/the-talos-protocol/",
+        "glitter": "Bad ant finds this cell, trails home, colony comes. Next pi-hour the bait sits somewhere else."
+      }
+    },
+    {
+      "row": 6,
+      "col": 0,
+      "cell_id": "you-door",
+      "qr": "portal_6_0_you-door.png",
+      "url": "https://hud.primals.eco/water",
+      "title": "You Found Us — Welcome",
+      "role": "feed",
+      "hot": false,
+      "beacon": null
+    },
+    {
+      "row": 6,
+      "col": 1,
+      "cell_id": "you-hallway",
+      "qr": "portal_6_1_you-hallway.png",
+      "url": "https://defenddetroit.github.io/publicRecord/",
+      "title": "Walk the Graph",
+      "role": "human",
+      "hot": false,
+      "beacon": null
+    },
+    {
+      "row": 6,
+      "col": 2,
+      "cell_id": "you-room",
+      "qr": "portal_6_2_you-room.png",
+      "url": "https://git.primals.eco/publicRecord/detroit",
+      "title": "Read the Source",
+      "role": "forge",
+      "hot": false,
+      "beacon": null
+    },
+    {
+      "row": 6,
+      "col": 3,
+      "cell_id": "you-window",
+      "qr": "portal_6_3_you-window.png",
+      "url": "https://hud.primals.eco/neutron.json",
+      "title": "Leave a Note — Neutron",
+      "role": "feed",
+      "hot": false,
+      "beacon": null
+    },
+    {
+      "row": 6,
+      "col": 4,
+      "cell_id": "you-basement",
+      "qr": "portal_6_4_you-basement.png",
+      "url": "https://github.com/defendDetroit/publicRecord/issues/new",
+      "title": "Open an Issue",
+      "role": "forge",
+      "hot": false,
+      "beacon": null
+    },
+    {
+      "row": 6,
+      "col": 5,
+      "cell_id": "you-attic",
+      "qr": "portal_6_5_you-attic.png",
+      "url": "https://defenddetroit.github.io/publicRecord/analysis/artis-corollary-and-the-fossil-conjecture/",
+      "title": "Read the Thesis",
+      "role": "bait",
+      "hot": true,
+      "beacon": {
+        "id": "artis-corollary",
+        "path": "/analysis/artis-corollary-and-the-fossil-conjecture/",
+        "og_title": "The Successor Understands Better Than the Predecessor Did",
+        "og_desc": "13 agents. 5 months. One human. The fossil IS the teacher.",
+        "url": "https://defenddetroit.github.io/publicRecord/analysis/artis-corollary-and-the-fossil-conjecture/",
+        "glitter": "Bad ant finds this cell, trails home, colony comes. Next pi-hour the bait sits somewhere else."
+      }
+    },
+    {
+      "row": 6,
+      "col": 6,
+      "cell_id": "you-roof",
+      "qr": "portal_6_6_you-roof.png",
+      "url": "https://hud.primals.eco/water",
+      "title": "The Campfire Is Here — You Are Home",
+      "role": "feed",
+      "hot": false,
+      "beacon": null
+    }
+  ],
+  "ant_loop": [
+    "scout finds a hot cell (OG honeypot)",
+    "scout goes home (share / scrape / preview card)",
+    "colony follows the trail (more hits on that URL)",
+    "pi-hour later: bait moves to another column, mix shuffles which beacon",
+    "QR keystone stays. payload walks. static maps rot."
+  ],
+  "silk_road": "7 hot of 49. not the whole board. plague is feeding every cell at once."
+}
