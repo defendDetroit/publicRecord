@@ -191,14 +191,36 @@
   </nav>
   {% endif %}
 
-  {# ═══ GISCUS — GitHub Discussions comments. The membrane speaks. ═══ #}
+  {# ═══ COMMENTS — two pores: membrane (anonymous) + GitHub (attributed) ═══ #}
   <section class="page-comments" id="comments">
     <h2>The Membrane Is Open</h2>
+
+    {# ── Pore 1: Membrane discuss (no account, anonymous, badge ID) ── #}
+    <div class="membrane-discuss" id="membrane-discuss">
+      <details open>
+        <summary>Speak anonymously — membrane identity (no account needed)</summary>
+        <p class="discuss-intro">
+          No sign-in. No tracking. The membrane assigns you a badge (like <code>017c</code>).
+          Your words persist. Your identity is yours to reveal or keep.
+        </p>
+        <form id="discuss-form" class="discuss-form" autocomplete="off">
+          <input type="text" id="discuss-author" name="author" placeholder="name (optional — leave blank for anonymous)" maxlength="80" class="discuss-author-input">
+          <textarea id="discuss-body" name="body" placeholder="say something. the campfire is listening." rows="3" required class="discuss-body-input"></textarea>
+          <div class="discuss-actions">
+            <button type="submit" class="discuss-submit">post to the membrane</button>
+            <span class="discuss-status" id="discuss-status"></span>
+          </div>
+        </form>
+        <div id="discuss-comments" class="discuss-comments"></div>
+      </details>
+    </div>
+
+    {# ── Pore 2: Giscus (GitHub sign-in, attributed, permanent) ── #}
+    <details>
+      <summary>Or sign in with GitHub — attributed, on the permanent record</summary>
     <p class="comments-intro">
-      This is a public record. Comments are powered by
-      <a href="https://github.com/defendDetroit/publicRecord/discussions" rel="noopener">GitHub Discussions</a>.
-      Every comment is timestamped, attributed, and permanent.
-      The membrane lets everything in. Speak freely.
+      Comments via <a href="https://github.com/defendDetroit/publicRecord/discussions" rel="noopener">GitHub Discussions</a>.
+      Timestamped, attributed, permanent. The unsigned can always be ground and fermented later.
     </p>
     <script src="https://giscus.app/client.js"
             data-repo="defendDetroit/publicRecord"
@@ -216,7 +238,9 @@
             crossorigin="anonymous"
             async>
     </script>
+    </details>
   </section>
+  <script src="{{ get_url(path='js/discuss.js') }}" defer></script>
 
   <footer class="page-footer">
     <p class="provenance">

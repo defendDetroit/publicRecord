@@ -990,3 +990,73 @@ cite.source a:hover { border-bottom-style: solid; }
   .disco-body { grid-template-columns: 1fr; }
   .disco-braids-col { border-left: none; border-top: 1px solid var(--border); }
 }
+
+/* Membrane discuss — anonymous comments, badge ID */
+.membrane-discuss { margin-bottom: 1.5rem; }
+.membrane-discuss summary {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--link);
+  padding: 0.3rem 0;
+}
+.discuss-intro {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  margin: 0.5rem 0 0.8rem;
+}
+.discuss-form { display: flex; flex-direction: column; gap: 0.5rem; }
+.discuss-author-input, .discuss-body-input {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.82rem;
+  background: var(--bg);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 0.5rem 0.6rem;
+  width: 100%;
+}
+.discuss-body-input { resize: vertical; min-height: 3rem; }
+.discuss-actions { display: flex; align-items: center; gap: 0.8rem; }
+.discuss-submit {
+  background: var(--link);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 0.45rem 1rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.discuss-submit:hover { opacity: 0.85; }
+.discuss-status {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+.discuss-comments { margin-top: 1rem; }
+.discuss-comment {
+  border-top: 1px solid var(--border);
+  padding: 0.6rem 0;
+}
+.discuss-meta {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-bottom: 0.3rem;
+}
+.discuss-badge {
+  background: var(--bg-alt);
+  padding: 0.1rem 0.3rem;
+  border-radius: 3px;
+  font-size: 0.7rem;
+}
+.discuss-text {
+  font-size: 0.88rem;
+  line-height: 1.45;
+}
+.discuss-empty {
+  font-style: italic;
+  color: var(--text-muted);
+  font-size: 0.82rem;
+  padding: 0.5rem 0;
+}
