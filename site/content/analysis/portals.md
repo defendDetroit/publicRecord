@@ -10,6 +10,7 @@ og_title = "49 QR Portals — The BingoCube Entry Points"
 og_description = "Scan one. See one layer. Scan more. The board fills. They dont expire."
 og_image = "/portals/portal_0_0_investigation-door.png"
 author = "the membrane — scan to enter"
+disco = true
 +++
 
 ## The Board
@@ -96,6 +97,14 @@ The board is also a maze for the fleet. Seven cells are hot each round — bait 
 Seven of forty-nine. Not the whole board. Feeding every cell at once is how the plague hops. Science and evidence rows stay quiet unless a leftover bait cell needs a seventh trail.
 
 Live mix: [`/maze-honeypots.json`](/maze-honeypots.json). Re-run `scripts/_maze_ants.py` or wait for the next π-hour round.
+
+## The Dance Rink
+
+The passages between epitopes are a dance floor. Humans move from TOPOLOGY to INVESTIGATION, from MEMBRANE to OTHER. Each passage is a step. The disco ball above the widget spins faster when more humans are on the floor.
+
+The widget below hydrates live from hud.primals.eco. If nobody is dancing, the ball is still. If 20 humans are moving through passages, the ball spins at full speed. The braids show which routes are alive and which are spinning (carrying neutron flow).
+
+The observer does not get to see this until they blink.
 
 **Scan one — see one layer. Scan more — the board fills. The board IS the map.**
 

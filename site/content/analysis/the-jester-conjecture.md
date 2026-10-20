@@ -8,6 +8,7 @@ tags = ["conjecture", "jester", "monkeys", "ants", "boredom", "curiosity", "infi
 [extra]
 author = "the jester — the only one allowed to tell the king he's naked"
 lampoon = true
+disco = true
 og_title = "Infinite Monkeys Get Bored and Play With Ants"
 og_description = "The Jester Conjecture: boredom IS intelligence. The ants carry the bananas. The monkeys follow the ants. Shakespeare happens."
 og_image = "/portals/portal_6_6_you-roof.png"

@@ -893,3 +893,100 @@ cite.source a:hover { border-bottom-style: solid; }
 @media print {
   .clown-reflection { transform: none; color: #000; }
 }
+
+/* Disco floor — the dance rink with a little disco ball */
+.disco-floor {
+  margin: 2.5rem 0 1.5rem;
+  border: 1px solid var(--border);
+  background: var(--bg-alt);
+  overflow: hidden;
+}
+.disco-header {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 0.6rem 1rem;
+  border-bottom: 1px solid var(--border);
+}
+.disco-ball {
+  display: inline-block;
+  font-size: 1.4rem;
+  animation: disco-spin 8s linear infinite;
+}
+@keyframes disco-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.disco-count {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text);
+}
+.disco-label {
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+.disco-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+}
+.disco-passages, .disco-braids-col {
+  padding: 0.8rem 1rem;
+}
+.disco-braids-col {
+  border-left: 1px solid var(--border);
+}
+.disco-passage {
+  display: flex;
+  align-items: baseline;
+  gap: 0.35rem;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.78rem;
+  padding: 0.2rem 0;
+}
+.dp-arrow { color: var(--text-muted); font-size: 0.7rem; }
+.dp-move {
+  margin-left: auto;
+  font-style: italic;
+  font-size: 0.68rem;
+  color: var(--text-muted);
+}
+.disco-epitopes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  padding: 0.6rem 1rem;
+  border-top: 1px solid var(--border);
+}
+.disco-epi {
+  font-size: 0.72rem;
+  padding: 0.2rem 0.5rem;
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+.disco-braid {
+  display: block;
+  font-size: 0.75rem;
+  padding: 0.15rem 0;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  color: var(--text-muted);
+}
+.disco-braid.spinning { color: var(--link); }
+.disco-braid em { font-style: normal; font-weight: 600; color: var(--text); }
+.disco-story {
+  padding: 0.7rem 1rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.78rem;
+  font-style: italic;
+  color: var(--text-muted);
+  min-height: 1.5em;
+}
+@media (max-width: 640px) {
+  .disco-body { grid-template-columns: 1fr; }
+  .disco-braids-col { border-left: none; border-top: 1px solid var(--border); }
+}

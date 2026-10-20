@@ -134,6 +134,27 @@
     {{ page.content | safe }}
   </div>
 
+  {% if page.extra.disco %}
+  <section class="disco-floor" id="disco-floor">
+    <div class="disco-header">
+      <span class="disco-ball">🪩</span>
+      <span class="disco-count">— on the floor</span>
+      <span class="disco-label">live epitope passages · the dance rink</span>
+    </div>
+    <div class="disco-body">
+      <div class="disco-passages">
+        <div class="disco-passage"><span class="dp-from">loading</span><span class="dp-arrow"> → </span><span class="dp-to">…</span></div>
+      </div>
+      <div class="disco-braids-col">
+        <div class="disco-braids">connecting…</div>
+      </div>
+    </div>
+    <div class="disco-epitopes"></div>
+    <div class="disco-story"></div>
+  </section>
+  <script src="{{ get_url(path='js/disco.js') }}" defer></script>
+  {% endif %}
+
   {% if page.extra.lampoon %}
   <section class="curious-perception" id="curious-perception" data-maze="{{ get_url(path='maze-honeypots.json') }}">
     <p class="cp-kicker">Curious perception — clown on top, live ledger underneath. Same numbers. Two faces.</p>
