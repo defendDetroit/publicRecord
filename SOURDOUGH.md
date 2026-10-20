@@ -35,7 +35,10 @@ Still `bidirectional`. Silk road posture needs blackwall config change. Server-s
 - **Lampoon** on mirror-room + jester. **Disco** on portals + jester. Both hydrate from hud live feeds.
 - **Observer blink window** expires 05:12Z. Check discuss pages for responses. No blink = moon.
 
-### 8. Coordinated = 0 (false)
+### 8. Discuss rate limit is a cron lock
+All 3 host buckets (hud/neutron/tuebor) go 429 simultaneously after ~6 posts total. The limit is NOT just per-host — there's a global per-IP ceiling underneath. The artisan's Michigan IP (162.226.225.x) gets treated as an outsider by its own membrane. This needs to be wired into the RPM/tuebor wards: sovereign IPs (house network, WG mesh 10.13.37.x, localhost) should be exempt or have a higher tier. The cron lock blocks persona seeding, neutron writes, and artisan discuss posts. eastGate impulse filed: `2026-10-20T02-47_eastGate__relay-discuss-rate.toml`.
+
+### 9. Coordinated = 0 (false)
 The collision_level2 classifier says `coordinated: 0`. Falsification tests BOTH FAIL — epitopes are NOT coprime (shared triggers = 3.8/pair), KS sensitivity is 0.545 (blurry fleet/human boundary). Meta's 60-IP Dublin fleet IS coordinated but gets classified as individual commensals. OpenAI's 500 IPs too. The sort needs a backscatter pass: entities sharing (subnet + timing + path pattern) should be grouped before being classified. This is a Rust-side skunky-ingest change (eastGate).
 
 ### 9. Giscus installed
