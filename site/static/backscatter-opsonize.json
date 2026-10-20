@@ -1,0 +1,164 @@
+{
+  "generated": "2026-10-20T02:50:20.953878+00:00",
+  "model": "backscatter-opsonize",
+  "status": "STARTED — bones in, needs Rust integration",
+  "falsification": {
+    "coprimality_survives": false,
+    "sensitivity_survives": false,
+    "delta": 0.6079271018540267,
+    "ks": 0.5454545454545454,
+    "mean_shared_triggers": 3.8095238095238093,
+    "verdict": "epitopes NOT independent. coordinated=0 is false."
+  },
+  "subnet_campaigns": [
+    {
+      "prefix": "74.7.241.x",
+      "subnet_count": 1,
+      "total_requests": 993752,
+      "orgs": [
+        "Unknown"
+      ],
+      "asn_types": [],
+      "coordinated": true
+    },
+    {
+      "prefix": "74.7.227.x",
+      "subnet_count": 1,
+      "total_requests": 835038,
+      "orgs": [
+        "Unknown"
+      ],
+      "asn_types": [],
+      "coordinated": true
+    },
+    {
+      "prefix": "74.7.242.x",
+      "subnet_count": 1,
+      "total_requests": 592067,
+      "orgs": [
+        "Unknown"
+      ],
+      "asn_types": [],
+      "coordinated": true
+    },
+    {
+      "prefix": "216.73.216.x",
+      "subnet_count": 1,
+      "total_requests": 427071,
+      "orgs": [
+        "Anthropic"
+      ],
+      "asn_types": [
+        "datacenter"
+      ],
+      "coordinated": true
+    },
+    {
+      "prefix": "74.7.243.x",
+      "subnet_count": 1,
+      "total_requests": 292769,
+      "orgs": [
+        "Unknown"
+      ],
+      "asn_types": [],
+      "coordinated": true
+    },
+    {
+      "prefix": "216.73.217.x",
+      "subnet_count": 1,
+      "total_requests": 119453,
+      "orgs": [
+        "Unknown"
+      ],
+      "asn_types": [],
+      "coordinated": true
+    },
+    {
+      "prefix": "162.226.225.x",
+      "subnet_count": 1,
+      "total_requests": 94729,
+      "orgs": [
+        "House network"
+      ],
+      "asn_types": [
+        "self"
+      ],
+      "coordinated": false
+    }
+  ],
+  "timing_campaigns": [
+    {
+      "start_hour": "2026-10-17 14",
+      "dominant_path": "commit",
+      "entity_count": 18,
+      "total_requests": 2452940,
+      "ip_hashes": [
+        "1002d798",
+        "e733e11d",
+        "1181e5e2",
+        "99ac6c1f",
+        "c7d57275",
+        "b2df1192",
+        "1838e911",
+        "d27ee177",
+        "cf123f7c",
+        "54b47ad8"
+      ],
+      "coordinated": true
+    },
+    {
+      "start_hour": "2026-10-17 14",
+      "dominant_path": "other",
+      "entity_count": 3,
+      "total_requests": 245615,
+      "ip_hashes": [
+        "eae74052",
+        "40ddb2aa",
+        "2e5d6c34"
+      ],
+      "coordinated": true
+    }
+  ],
+  "opsonized": {
+    "meta_dublin": {
+      "tag": "opsonized:coordinated",
+      "evidence": "60 IPs from 57.141.20.x, 18 rotating UAs, Chrome 118 lag",
+      "requests": 0,
+      "classification_was": "commensal (individual)",
+      "classification_should_be": "coordinated:campaign:meta"
+    },
+    "openai_fleet": {
+      "tag": "opsonized:coordinated",
+      "evidence": "500+ IPs, 2.7M requests, no sec-fetch, gzip/deflate/br only",
+      "requests": 0,
+      "classification_was": "commensal (individual)",
+      "classification_should_be": "coordinated:campaign:openai"
+    },
+    "anthropic_fleet": {
+      "tag": "opsonized:coordinated",
+      "evidence": "SF datacenter, 427K requests, 1 subnet",
+      "requests": 427071,
+      "classification_was": "commensal (individual)",
+      "classification_should_be": "coordinated:campaign:anthropic"
+    },
+    "forge_skin_clique": {
+      "tag": "opsonized:coordinated",
+      "evidence": "14 immune hosts all serve /explore/repos, uniform hit pattern",
+      "requests": 2908853,
+      "classification_was": "individual visitors",
+      "classification_should_be": "coordinated:clique:forge_skins"
+    }
+  },
+  "collision_level2_correction": {
+    "old_coordinated": 0,
+    "new_coordinated_floor": 3260150,
+    "timing_coordinated": 2698555,
+    "note": "floor estimate from subnet grouping. real number higher after timing + path correlation."
+  },
+  "next_steps": [
+    "Rust-side: skunky-ingest groups entities by (subnet, timing, path) before anderson sort",
+    "New collision_level2 field: coordinated counts grouped campaigns, not individuals",
+    "Opsonize tags persist in the sort: meta_dublin, openai_fleet, anthropic_fleet, forge_skin_clique",
+    "Backscatter feedback: falsification results feed back into the sorter as priors"
+  ]
+}
