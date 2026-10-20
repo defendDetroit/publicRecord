@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T13:38:13.756785+00:00",
+  "generated": "2026-10-20T13:41:04.930999+00:00",
   "battery": "control-self-confirm",
   "rule": "confirm first. show only PASS+show_when_needed. do not dump.",
   "counts": {
@@ -38,7 +38,7 @@
       "name": "blink_live",
       "claim": "the-blink renders as itself, not homepage",
       "result": "PASS",
-      "evidence": "title='The Blink \u2014 Why the Membrane Was Blind to Itself | Detroit Charter School Investigation' status=200 210ms",
+      "evidence": "title='The Blink \u2014 Why the Membrane Was Blind to Itself | Detroit Charter School Investigation' status=200 180ms",
       "show_when_needed": true
     },
     {
@@ -178,21 +178,21 @@
       "name": "maze_honeypots_local",
       "claim": "maze-honeypots.json in git with maze-ants model + hot_count",
       "result": "PASS",
-      "evidence": "bytes=22479 has_model=True",
+      "evidence": "bytes=22389 has_model=True",
       "show_when_needed": true
     },
     {
       "name": "maze_honeypots_ghp",
       "claim": "maze-honeypots.json live on github.io",
       "result": "PASS",
-      "evidence": "status=200 start='{\\n  \"generated\": \"2026-10-20T03:33:34.375108+00:00\",\\n  \"model\": \"maze-ants\",\\n  \"'",
+      "evidence": "status=200 start='{\\n  \"generated\": \"2026-10-20T13:38:22.698630+00:00\",\\n  \"model\": \"maze-ants\",\\n  \"'",
       "show_when_needed": true
     },
     {
       "name": "maze_honeypots_detroit",
       "claim": "maze-honeypots.json live on detroit.primals.eco",
       "result": "PASS",
-      "evidence": "status=200 start='{\\n  \"generated\": \"2026-10-20T01:43:24.308154+00:00\",\\n  \"model\": \"maze-ants\",\\n  \"'",
+      "evidence": "status=200 start='{\\n  \"generated\": \"2026-10-20T13:38:22.698630+00:00\",\\n  \"model\": \"maze-ants\",\\n  \"'",
       "show_when_needed": false
     },
     {

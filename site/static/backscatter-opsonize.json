@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T13:38:32.965346+00:00",
+  "generated": "2026-10-20T13:41:17.169194+00:00",
   "model": "backscatter-opsonize",
   "status": "STARTED — bones in, needs Rust integration",
   "falsification": {
@@ -14,7 +14,7 @@
     {
       "prefix": "74.7.241.x",
       "subnet_count": 1,
-      "total_requests": 1030352,
+      "total_requests": 1030446,
       "orgs": [
         "Unknown"
       ],
@@ -24,7 +24,7 @@
     {
       "prefix": "74.7.227.x",
       "subnet_count": 1,
-      "total_requests": 944871,
+      "total_requests": 945149,
       "orgs": [
         "Unknown"
       ],
@@ -34,7 +34,7 @@
     {
       "prefix": "74.7.242.x",
       "subnet_count": 1,
-      "total_requests": 665293,
+      "total_requests": 665480,
       "orgs": [
         "Unknown"
       ],
@@ -66,7 +66,7 @@
     {
       "prefix": "162.226.225.x",
       "subnet_count": 1,
-      "total_requests": 129230,
+      "total_requests": 129305,
       "orgs": [
         "House network"
       ],
@@ -110,7 +110,7 @@
       "start_hour": "2026-10-17 14",
       "dominant_path": "other",
       "entity_count": 2,
-      "total_requests": 276116,
+      "total_requests": 276191,
       "ip_hashes": [
         "eae74052",
         "40ddb2aa"
@@ -121,7 +121,7 @@
       "start_hour": "2026-10-20 00",
       "dominant_path": "commit",
       "entity_count": 2,
-      "total_requests": 26772,
+      "total_requests": 26834,
       "ip_hashes": [
         "a26cbdb3",
         "6bd945bf"
@@ -154,15 +154,15 @@
     "forge_skin_clique": {
       "tag": "opsonized:coordinated",
       "evidence": "14 immune hosts all serve /explore/repos, uniform hit pattern",
-      "requests": 3132306,
+      "requests": 3132865,
       "classification_was": "individual visitors",
       "classification_should_be": "coordinated:clique:forge_skins"
     }
   },
   "collision_level2_correction": {
     "old_coordinated": 0,
-    "new_coordinated_floor": 3609546,
-    "timing_coordinated": 2751771,
+    "new_coordinated_floor": 3610180,
+    "timing_coordinated": 2751908,
     "note": "floor estimate from subnet grouping. real number higher after timing + path correlation."
   },
   "next_steps": [
