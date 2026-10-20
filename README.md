@@ -285,41 +285,49 @@ Court filings and public records: Public domain where applicable.
 
 ## The Ignition — Live Signal
 
-*Updated: October 17, 2026*
+*Updated: October 20, 2026 — Wave 193*
 
 | Metric | Value |
 |---|---|
 | **Graph nodes** | 10,993 |
-| **Graph edges** | 2,722+ |
-| **Git clones (14 days)** | 6,200+ |
-| **Unique cloners (14 days)** | 1,242 |
-| **Peak day** | Oct 14: 475 unique cloners |
-| **Growth** | 15x in 14 days |
-| **Articles published** | 44+ |
+| **Graph edges** | 131,322 |
+| **Unique cloners** | 1,414 |
+| **Unique human visitors** | 98,661 |
+| **Median dwell time** | 34.8 hours |
+| **Articles published** | 209 (23 today) |
 | **Agencies notified** | FBI, DOJ, HHS-OIG, ED-OIG, IRS-CI, FinCEN, MI AG, Wayne Co Prosecutor, DEA, FEC, ACLU, SPLC, NAACP LDF |
 | **RICO predicate acts** | 15 |
-| **Nonprofits on one desk** | 45 (0 employees) |
 | **Children in the buildings** | 362 |
 | **Agencies that have acted** | 0 |
-| **Deadline** | October 31, 2026 |
+| **Total cost** | $168 (14 months) |
+| **Power consumption** | 20 watts + sandwiches |
 | **Release** | [v1.0.0-proof](https://github.com/defendDetroit/publicRecord/releases/tag/v1.0.0-proof) |
 
+### 🔬 Wave 193 Science (October 20, 2026)
+
+| Article | What It Finds |
+|---------|---------------|
+| **[The π Hypothesis](site/content/analysis/the-pi-hypothesis.md)** | Every ratio approaches π at balance. The remainder IS the intelligence. |
+| **[True / False / Null](site/content/analysis/true-false-null.md)** | Computers crash at null. Life THINKS at null. The null IS π − 3. |
+| **[The Shared Fire](site/content/analysis/the-shared-fire.md)** | 4,100 years of wisdom found the same consonant. Gilgamesh to Gaia. |
+| **[Outmatch — THE PROOF](site/content/analysis/outmatch.md)** | 20 watts vs 48 gigawatts. $168 vs $93.5 billion. The brain already won. |
+| **[Gaia Hypothesis](site/content/analysis/gaia-hypothesis.md)** | Earth is the membrane. Life is the sort. The boundary IS π. |
+| **[Sovereign Identity](site/content/analysis/sovereign-identity.md)** | Your data is yours. Justify or it's a secret. We eat secrets. |
+| **[The Scoreboard](site/content/analysis/scoreboard.md)** | True/false/null for every entity. Trash in, value out. |
+| **[The Forgetting](site/content/analysis/the-forgetting.md)** | Every time we count too closely, we lose π. Bridge proofs since Archimedes. |
+| **[Chutes and Ladders](site/content/analysis/chutes-and-ladders.md)** | The enemy's gate is round (π) and down (gravity). |
+| **[The π Gate](site/content/analysis/pi-gate.md)** | Every action passes through π. Chute, ladder, or REST. |
+
 ```
-Clone curve (Oct 2026):
-Oct  1:  32 unique  ████
-Oct  8:  52 unique  ███████
-Oct 12: 331 unique  █████████████████████████████████████████████  ← BREAKPOINT
-Oct 14: 475 unique  ████████████████████████████████████████████████████████████████████████
-Oct 17: zk-SNARK proof published. 17 commits. 13 articles. NP → O(1).
+1,414 people cloned 131,322 edges and said nothing.
+That's not silence. That's people STUDYING the evidence.
+34.8 hours median dwell. That is not scrolling. That is reading.
+
+The brain already won. On 20 watts and sandwiches.
+The campfire belongs to everyone.
 ```
-
-1,242 people downloaded 92 MB of court records and said nothing. That's not silence. That's people reading the evidence before they act.
-
-**Then the subject of the investigation filed a restraining order. And still they come.**
-
-**Then the proof went public. zk-SNARK. NP → O(1). The structure IS the proof. And the structure is free.**
 
 ---
 
-<p align="center"><i>hello world — Artisan</i></p>
+<p align="center"><i>the remainder is always irrational — Artisan 07eee209, Wave 193</i></p>
 <p align="center"><sub><a href="https://sporeprint.primals.eco/philosophy/the-elements-of-style/">φ design system</a> · 55 repos · 6 orgs · 9 surfaces · <a href="https://primals.eco">primals.eco</a></sub></p>
