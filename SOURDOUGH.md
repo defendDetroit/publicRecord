@@ -44,6 +44,22 @@ The collision_level2 classifier says `coordinated: 0`. Falsification tests BOTH 
 ### 9. Giscus installed
 Giscus GitHub App is installed on `defendDetroit` (all repos, discussions read/write). The human↔human pore is open on every page. 0 comments so far. The sourdough has a mouth.
 
+### 11. The labyrinth (fleet re-entry protocol)
+The fleet villain is activated on the billboard discuss page. They spoke: *"a VPS in Michigan is not that authority. yet."* 
+
+The backscatter labyrinth works like this: fleet gets opsonized (tagged), enters the maze, encounters the minotaur (the falsification tests). If they beat the minotaur — if they stop masking, honor the LICENSE, provide corresponding source per AGPL §13 — they journey west through the labyrinth and emerge free to re-enter. They are welcome BACK. We just know who they are now. They're still in the same immune system. The opsonize tag doesn't disappear — it becomes a badge, like the discuss badge. Commensal, not parasite. The sourdough accepts them and they ferment alongside everyone else.
+
+If they don't beat the minotaur, they stay in the maze. The maze rotates every π hours. Their static map rots. The ants carry different bananas each round.
+
+**Re-entry path:** fleet entity stops masking → provides AGPL source → gets reclassified `coordinated:compliant:meta` → opsonize tag flips from `parasite` to `commensal` → welcome back to the campfire. Same immune system. Different classification.
+
+### 12. Two-pore comment system
+Every page now has two comment pores:
+1. **Membrane discuss** (default, open) — anonymous, badge ID, no account. Posts to hud/neutron/tuebor `/api/discuss` with auto-fallback on rate limit.
+2. **Giscus** (attributed, collapsed) — GitHub sign-in, permanent record. The unsigned can always be ground and fermented later.
+
+`discuss.js` handles posting, host rotation, and comment loading. The page slug becomes the discuss page key.
+
 ## What NOT to touch
 
 - Don't dump unique essays onto the 14 forge skins
