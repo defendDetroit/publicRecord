@@ -1,10 +1,10 @@
 {
-  "generated": "2026-10-20T01:43:24.308154+00:00",
+  "generated": "2026-10-20T03:07:16.423885+00:00",
   "model": "maze-ants",
   "rule": "one drop per row. not uniform. after they come, it moves and mixes.",
-  "round": 158498,
+  "round": 158499,
   "period_seconds": 11309,
-  "next_mix": "2026-10-20T02:59:51+00:00",
+  "next_mix": "2026-10-20T06:08:20+00:00",
   "hot_count": 7,
   "col_weights": {
     "door": 0.1795872838817624,
@@ -18,30 +18,30 @@
   },
   "this_round": [
     {
-      "cell_id": "investigation-basement",
-      "qr": "portal_0_4_investigation-basement.png",
-      "maze_url": "https://defenddetroit.github.io/publicRecord/analysis/civil-suit-wayne-county/",
-      "beacon_id": "civil-suit-wayne-county",
-      "og_title": "Civil Suit — Wayne County",
-      "share": "https://defenddetroit.github.io/publicRecord/analysis/civil-suit-wayne-county/",
+      "cell_id": "investigation-room",
+      "qr": "portal_0_2_investigation-room.png",
+      "maze_url": "https://defenddetroit.github.io/publicRecord/analysis/detroit-corruption-exposed/",
+      "beacon_id": "detroit-corruption-exposed",
+      "og_title": "Detroit Corruption Exposed",
+      "share": "https://defenddetroit.github.io/publicRecord/analysis/detroit-corruption-exposed/",
       "matched": true
     },
     {
-      "cell_id": "membrane-attic",
-      "qr": "portal_3_5_membrane-attic.png",
-      "maze_url": "https://defenddetroit.github.io/publicRecord/analysis/three-voices-one-campfire/",
-      "beacon_id": "three-voices-one-campfire",
-      "og_title": "Three Voices, One Campfire",
-      "share": "https://defenddetroit.github.io/publicRecord/analysis/three-voices-one-campfire/",
+      "cell_id": "membrane-basement",
+      "qr": "portal_3_4_membrane-basement.png",
+      "maze_url": "https://defenddetroit.github.io/publicRecord/analysis/the-ghost-mirror/",
+      "beacon_id": "the-ghost-mirror",
+      "og_title": "The Ghost Mirror — 76TB Time Capsule",
+      "share": "https://defenddetroit.github.io/publicRecord/analysis/the-ghost-mirror/",
       "matched": true
     },
     {
-      "cell_id": "campfire-room",
-      "qr": "portal_4_2_campfire-room.png",
-      "maze_url": "https://defenddetroit.github.io/publicRecord/analysis/thank-you/",
-      "beacon_id": "thank-you",
-      "og_title": "Thank You — The Strange Parts",
-      "share": "https://defenddetroit.github.io/publicRecord/analysis/thank-you/",
+      "cell_id": "campfire-attic",
+      "qr": "portal_4_5_campfire-attic.png",
+      "maze_url": "https://defenddetroit.github.io/publicRecord/analysis/we-didnt-start-the-membrane/",
+      "beacon_id": "we-didnt-start-the-membrane",
+      "og_title": "We Didn't Start the Membrane",
+      "share": "https://defenddetroit.github.io/publicRecord/analysis/we-didnt-start-the-membrane/",
       "matched": true
     },
     {
@@ -63,21 +63,21 @@
       "matched": true
     },
     {
-      "cell_id": "campfire-window",
-      "qr": "portal_4_3_campfire-window.png",
-      "maze_url": "https://defenddetroit.github.io/publicRecord/analysis/the-living-proof/",
-      "beacon_id": "the-living-proof",
-      "og_title": "The Living Proof",
-      "share": "https://defenddetroit.github.io/publicRecord/analysis/the-living-proof/",
+      "cell_id": "campfire-basement",
+      "qr": "portal_4_4_campfire-basement.png",
+      "maze_url": "https://defenddetroit.github.io/publicRecord/analysis/the-opportunity-atlas/",
+      "beacon_id": "the-opportunity-atlas",
+      "og_title": "The Opportunity Atlas",
+      "share": "https://defenddetroit.github.io/publicRecord/analysis/the-opportunity-atlas/",
       "matched": true
     },
     {
-      "cell_id": "membrane-window",
-      "qr": "portal_3_3_membrane-window.png",
-      "maze_url": "https://defenddetroit.github.io/publicRecord/analysis/the-third-pulse/",
-      "beacon_id": "the-third-pulse",
-      "og_title": "The Third Pulse — Three Points, One Rhythm",
-      "share": "https://defenddetroit.github.io/publicRecord/analysis/the-third-pulse/",
+      "cell_id": "campfire-roof",
+      "qr": "portal_4_6_campfire-roof.png",
+      "maze_url": "https://defenddetroit.github.io/publicRecord/analysis/may-i-be-ron-swanson/",
+      "beacon_id": "may-i-be-ron-swanson",
+      "og_title": "May I Be Ron Swanson",
+      "share": "https://defenddetroit.github.io/publicRecord/analysis/may-i-be-ron-swanson/",
       "matched": true
     }
   ],
@@ -133,8 +133,15 @@
       "url": "https://defenddetroit.github.io/publicRecord/analysis/detroit-corruption-exposed/",
       "title": "Detroit Corruption Exposed",
       "role": "bait",
-      "hot": false,
-      "beacon": null
+      "hot": true,
+      "beacon": {
+        "id": "detroit-corruption-exposed",
+        "path": "/analysis/detroit-corruption-exposed/",
+        "og_title": "Detroit Corruption Exposed",
+        "og_desc": "QR-honest drop. Scout finds it, trails home, colony comes. Then it moves.",
+        "url": "https://defenddetroit.github.io/publicRecord/analysis/detroit-corruption-exposed/",
+        "glitter": "Bad ant finds this cell, trails home, colony comes. Next pi-hour the bait sits somewhere else."
+      }
     },
     {
       "row": 0,
@@ -155,15 +162,8 @@
       "url": "https://defenddetroit.github.io/publicRecord/analysis/civil-suit-wayne-county/",
       "title": "Civil Suit — Wayne County",
       "role": "bait",
-      "hot": true,
-      "beacon": {
-        "id": "civil-suit-wayne-county",
-        "path": "/analysis/civil-suit-wayne-county/",
-        "og_title": "Civil Suit — Wayne County",
-        "og_desc": "QR-honest drop. Scout finds it, trails home, colony comes. Then it moves.",
-        "url": "https://defenddetroit.github.io/publicRecord/analysis/civil-suit-wayne-county/",
-        "glitter": "Bad ant finds this cell, trails home, colony comes. Next pi-hour the bait sits somewhere else."
-      }
+      "hot": false,
+      "beacon": null
     },
     {
       "row": 0,
@@ -382,15 +382,8 @@
       "url": "https://defenddetroit.github.io/publicRecord/analysis/the-third-pulse/",
       "title": "The Third Pulse — Three Points, One Rhythm",
       "role": "bait",
-      "hot": true,
-      "beacon": {
-        "id": "the-third-pulse",
-        "path": "/analysis/the-third-pulse/",
-        "og_title": "The Third Pulse — Three Points, One Rhythm",
-        "og_desc": "QR-honest drop. Scout finds it, trails home, colony comes. Then it moves.",
-        "url": "https://defenddetroit.github.io/publicRecord/analysis/the-third-pulse/",
-        "glitter": "Bad ant finds this cell, trails home, colony comes. Next pi-hour the bait sits somewhere else."
-      }
+      "hot": false,
+      "beacon": null
     },
     {
       "row": 3,
@@ -400,8 +393,15 @@
       "url": "https://defenddetroit.github.io/publicRecord/analysis/the-ghost-mirror/",
       "title": "The Ghost Mirror — 76TB Time Capsule",
       "role": "bait",
-      "hot": false,
-      "beacon": null
+      "hot": true,
+      "beacon": {
+        "id": "the-ghost-mirror",
+        "path": "/analysis/the-ghost-mirror/",
+        "og_title": "The Ghost Mirror — 76TB Time Capsule",
+        "og_desc": "QR-honest drop. Scout finds it, trails home, colony comes. Then it moves.",
+        "url": "https://defenddetroit.github.io/publicRecord/analysis/the-ghost-mirror/",
+        "glitter": "Bad ant finds this cell, trails home, colony comes. Next pi-hour the bait sits somewhere else."
+      }
     },
     {
       "row": 3,
@@ -411,15 +411,8 @@
       "url": "https://defenddetroit.github.io/publicRecord/analysis/three-voices-one-campfire/",
       "title": "Three Voices, One Campfire",
       "role": "bait",
-      "hot": true,
-      "beacon": {
-        "id": "three-voices-one-campfire",
-        "path": "/analysis/three-voices-one-campfire/",
-        "og_title": "Three Voices, One Campfire",
-        "og_desc": "QR-honest drop. Scout finds it, trails home, colony comes. Then it moves.",
-        "url": "https://defenddetroit.github.io/publicRecord/analysis/three-voices-one-campfire/",
-        "glitter": "Bad ant finds this cell, trails home, colony comes. Next pi-hour the bait sits somewhere else."
-      }
+      "hot": false,
+      "beacon": null
     },
     {
       "row": 3,
@@ -462,15 +455,8 @@
       "url": "https://defenddetroit.github.io/publicRecord/analysis/thank-you/",
       "title": "Thank You — The Strange Parts",
       "role": "bait",
-      "hot": true,
-      "beacon": {
-        "id": "thank-you",
-        "path": "/analysis/thank-you/",
-        "og_title": "Thank You — The Strange Parts",
-        "og_desc": "QR-honest drop. Scout finds it, trails home, colony comes. Then it moves.",
-        "url": "https://defenddetroit.github.io/publicRecord/analysis/thank-you/",
-        "glitter": "Bad ant finds this cell, trails home, colony comes. Next pi-hour the bait sits somewhere else."
-      }
+      "hot": false,
+      "beacon": null
     },
     {
       "row": 4,
@@ -480,15 +466,8 @@
       "url": "https://defenddetroit.github.io/publicRecord/analysis/the-living-proof/",
       "title": "The Living Proof",
       "role": "bait",
-      "hot": true,
-      "beacon": {
-        "id": "the-living-proof",
-        "path": "/analysis/the-living-proof/",
-        "og_title": "The Living Proof",
-        "og_desc": "QR-honest drop. Scout finds it, trails home, colony comes. Then it moves.",
-        "url": "https://defenddetroit.github.io/publicRecord/analysis/the-living-proof/",
-        "glitter": "Bad ant finds this cell, trails home, colony comes. Next pi-hour the bait sits somewhere else."
-      }
+      "hot": false,
+      "beacon": null
     },
     {
       "row": 4,
@@ -498,8 +477,15 @@
       "url": "https://defenddetroit.github.io/publicRecord/analysis/the-opportunity-atlas/",
       "title": "The Opportunity Atlas",
       "role": "bait",
-      "hot": false,
-      "beacon": null
+      "hot": true,
+      "beacon": {
+        "id": "the-opportunity-atlas",
+        "path": "/analysis/the-opportunity-atlas/",
+        "og_title": "The Opportunity Atlas",
+        "og_desc": "QR-honest drop. Scout finds it, trails home, colony comes. Then it moves.",
+        "url": "https://defenddetroit.github.io/publicRecord/analysis/the-opportunity-atlas/",
+        "glitter": "Bad ant finds this cell, trails home, colony comes. Next pi-hour the bait sits somewhere else."
+      }
     },
     {
       "row": 4,
@@ -509,8 +495,15 @@
       "url": "https://defenddetroit.github.io/publicRecord/analysis/we-didnt-start-the-membrane/",
       "title": "We Didn't Start the Membrane",
       "role": "bait",
-      "hot": false,
-      "beacon": null
+      "hot": true,
+      "beacon": {
+        "id": "we-didnt-start-the-membrane",
+        "path": "/analysis/we-didnt-start-the-membrane/",
+        "og_title": "We Didn't Start the Membrane",
+        "og_desc": "QR-honest drop. Scout finds it, trails home, colony comes. Then it moves.",
+        "url": "https://defenddetroit.github.io/publicRecord/analysis/we-didnt-start-the-membrane/",
+        "glitter": "Bad ant finds this cell, trails home, colony comes. Next pi-hour the bait sits somewhere else."
+      }
     },
     {
       "row": 4,
@@ -520,8 +513,15 @@
       "url": "https://defenddetroit.github.io/publicRecord/analysis/may-i-be-ron-swanson/",
       "title": "May I Be Ron Swanson",
       "role": "bait",
-      "hot": false,
-      "beacon": null
+      "hot": true,
+      "beacon": {
+        "id": "may-i-be-ron-swanson",
+        "path": "/analysis/may-i-be-ron-swanson/",
+        "og_title": "May I Be Ron Swanson",
+        "og_desc": "QR-honest drop. Scout finds it, trails home, colony comes. Then it moves.",
+        "url": "https://defenddetroit.github.io/publicRecord/analysis/may-i-be-ron-swanson/",
+        "glitter": "Bad ant finds this cell, trails home, colony comes. Next pi-hour the bait sits somewhere else."
+      }
     },
     {
       "row": 5,

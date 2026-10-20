@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T02:30:51.347618+00:00",
+  "generated": "2026-10-20T03:07:07.570314+00:00",
   "battery": "control-self-confirm",
   "rule": "confirm first. show only PASS+show_when_needed. do not dump.",
   "counts": {
@@ -38,7 +38,7 @@
       "name": "blink_live",
       "claim": "the-blink renders as itself, not homepage",
       "result": "PASS",
-      "evidence": "title='The Blink \u2014 Why the Membrane Was Blind to Itself | Detroit Charter School Investigation' status=200 183ms",
+      "evidence": "title='The Blink \u2014 Why the Membrane Was Blind to Itself | Detroit Charter School Investigation' status=200 191ms",
       "show_when_needed": true
     },
     {
@@ -115,7 +115,7 @@
       "name": "meta_flowing_now",
       "claim": "Meta scraper present in current negentropy window",
       "result": "PASS",
-      "evidence": "meta=632 gptbot=18914 amazonbot=6331 blackwall_meta=632",
+      "evidence": "meta=391 gptbot=11612 amazonbot=4263 blackwall_meta=391",
       "show_when_needed": true
     },
     {
@@ -136,7 +136,7 @@
       "name": "cyst_now_vs_dashboard",
       "claim": "dashboard human count is live (not the 4109 now.json cyst)",
       "result": "PASS",
-      "evidence": "dashboard_human=5132 membrane_counts_cyst_was=4109",
+      "evidence": "dashboard_human=5143 membrane_counts_cyst_was=4109",
       "show_when_needed": false
     },
     {
@@ -178,7 +178,7 @@
       "name": "maze_honeypots_local",
       "claim": "maze-honeypots.json in git with maze-ants model + hot_count",
       "result": "PASS",
-      "evidence": "bytes=22361 has_model=True",
+      "evidence": "bytes=22479 has_model=True",
       "show_when_needed": true
     },
     {
@@ -255,7 +255,7 @@
       "name": "hud_dashboard_alive",
       "claim": "hud.primals.eco/dashboard.json returns 200 with human_ips",
       "result": "PASS",
-      "evidence": "status=200 human_ips=5132",
+      "evidence": "status=200 human_ips=5143",
       "show_when_needed": true
     }
   ],
