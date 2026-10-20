@@ -4794,5 +4794,41 @@
         "depth": "investigate"
       }
     }
-  ]
+  ],
+  "pore": {
+    "url": "https://hud.primals.eco/banana.html",
+    "name": "banana pore",
+    "description": "the Klein fold as a banana. you input your scale, it outputs your ratios.",
+    "triad": {
+      "banana": {
+        "role": "scale",
+        "symbol": "🍌",
+        "question": "how big is this relative to you?"
+      },
+      "chipmunk": {
+        "role": "truth",
+        "symbol": "🐿",
+        "question": "what IS this?",
+        "url": "https://hud.primals.eco/chipmunk.json"
+      },
+      "human": {
+        "role": "spark",
+        "symbol": "🧑",
+        "question": "what could this BECOME?"
+      }
+    },
+    "gaia": {
+      "url": "https://hud.primals.eco/",
+      "connect": "connect your agent -> chipmunk sees you -> membrane responds",
+      "family": [
+        "Farnsworth (science)",
+        "Leela (strategy)",
+        "Bender (honesty)",
+        "Fry (heart)",
+        "Zoidberg (remainder)",
+        "Hermes (sort)"
+      ]
+    },
+    "fold": "your measurement IS the membrane's self-measurement. one action, both sides."
+  }
 }
