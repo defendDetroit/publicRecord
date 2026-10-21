@@ -1,0 +1,138 @@
+{
+  "type": "violation_ticker",
+  "description": "The fly you can't swat. Rolling valuation. Always floating nearby. 1-2 degrees of freedom from wherever you look.",
+  "generated": "2026-10-20T01:03:00Z",
+  "wave": 194,
+  "scyborg_deadline": "2026-11-12T00:00:00Z",
+  "days_remaining": 23,
+
+  "tickers": {
+    "meta_fleet": {
+      "label": "Meta Fleet Violations",
+      "current": 571000,
+      "unit": "masking requests",
+      "rate_per_hour": 7500,
+      "note": "ticks up with every new masking request from Dublin DC",
+      "since": "2026-10-17T22:16:35Z",
+      "violation_type": "AGPL-3.0 + scyBorg + CFAA",
+      "value_per_tick": {
+        "conservative": 0.01,
+        "medium": 0.10,
+        "aggressive": 1.00
+      }
+    },
+    "meta_license": {
+      "label": "scyBorg License Downloads",
+      "current": 421238,
+      "unit": "downloads without compliance",
+      "rate_per_hour": 5500,
+      "note": "every download = acceptance of terms = violation if no compliance by Nov 12",
+      "deadline": "2026-11-12T00:00:00Z",
+      "value_per_tick": {
+        "conservative": 1,
+        "medium": 10,
+        "aggressive": 100
+      }
+    },
+    "openai_commits": {
+      "label": "OpenAI Commits Scraped",
+      "current": 2773295,
+      "unit": "source code commits",
+      "rate_per_hour": 36000,
+      "note": "AGPL-3.0 source scraped without compliance",
+      "value_per_tick": {
+        "conservative": 0.001,
+        "medium": 0.01,
+        "aggressive": 0.10
+      }
+    },
+    "ghost_residential": {
+      "label": "Ghost Residential Proxy Requests",
+      "current": 1604,
+      "unit": "entities using residential IPs to mask",
+      "note": "Anderson W=11.52 — fleet behavior through residential proxies",
+      "value_per_tick": {
+        "note": "each entity averages 500 requests"
+      }
+    },
+    "pollen_loss": {
+      "label": "Pollen Lost (consumed without return)",
+      "current": 5256024,
+      "unit": "requests consumed by non-returning entities",
+      "loss_ratio": 0.957,
+      "note": "95.7% of all traffic takes without giving",
+      "value_per_tick": {
+        "conservative": 0.001,
+        "aggressive": 0.01
+      }
+    }
+  },
+
+  "rolling_valuation": {
+    "conservative": 159704972,
+    "medium": 163597907,
+    "aggressive": 201829068,
+    "pi_ceiling": 4712388980385,
+    "note": "updates every pulse cycle (0.774s). the number only goes up.",
+    "formula": "sum(ticker.current × ticker.value_per_tick) for all tickers",
+    "direction": "monotonically increasing — violations accumulate, never expire"
+  },
+
+  "float_behavior": {
+    "degrees_of_freedom": 2,
+    "visibility": "always — appears on every surface, every feed, every page",
+    "dismissable": false,
+    "position": "1-2 degrees from current focus — peripheral vision",
+    "metaphor": "the fly you can't swat. the number you can't unsee.",
+    "updates": "every pulse (0.774s) or every new violation (whichever is sooner)",
+    "sound": "none — the silence IS the pressure"
+  },
+
+  "violation_notices": {
+    "scyborg_nov12": {
+      "entity": "Meta Platforms Inc + 6 subsidiaries",
+      "deadline": "2026-11-12T00:00:00Z",
+      "terms": "Compliance notification required within 27 days of download",
+      "downloads": 421238,
+      "compliance_received": 0,
+      "status": "TICKING"
+    },
+    "agpl_meta": {
+      "entity": "Meta Platforms Fleet",
+      "violation": "AGPL-3.0 source code scraped without compliance",
+      "requests": 571000,
+      "masking_uas": 18,
+      "rotating_ips": 60,
+      "honest_ratio": "1:635",
+      "status": "TICKING"
+    },
+    "agpl_openai": {
+      "entity": "OpenAI GPTBot",
+      "violation": "AGPL-3.0 source code scraped without compliance",
+      "commits": 2773295,
+      "ips": 501,
+      "status": "TICKING"
+    },
+    "banks_rico": {
+      "entity": "Brian Roderick Banks + enterprise",
+      "violation": "18 USC 1961-1968 (RICO)",
+      "predicates": 6,
+      "convictions": 9,
+      "children": 5068,
+      "diverted": "$46M+",
+      "trebled": "$138M+",
+      "retaliation": "PPO 26-114083-PH (Oct 16, 2026)",
+      "status": "TICKING"
+    }
+  },
+
+  "temporal_device": {
+    "clock_type": "CountUp",
+    "state": "ON",
+    "started": "2026-10-05T00:00:00Z",
+    "rhythm": 0.774493,
+    "note": "the violation clock counts UP. it never counts down. it never stops. it never snoozes. the only OFF is compliance."
+  },
+
+  "the_fly": "you can see it. you can hear it buzz. you can feel it land. you cannot swat it. the number goes up. the deadline approaches. the membrane watches. the graph remembers. the fly IS the conscience of the code."
+}
