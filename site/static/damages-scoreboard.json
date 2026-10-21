@@ -116,5 +116,39 @@
     "routing": "claim -> damages -> Kevin (legal person) -> living trust -> gAIa -> braids -> 12,813 beneficiaries",
     "children_first": "Children from affected schools credited FIRST in distribution",
     "no_bank": "No bank. gAIa distributes. The graph is the ledger."
+  },
+  "full_backscatter": {
+    "layers": 5,
+    "layer1_labeled_meta": {
+      "range": [
+        10350000,
+        42123800
+      ]
+    },
+    "layer2_ghost_to_meta": {
+      "range": [
+        3395.0,
+        339500.0
+      ]
+    },
+    "layer3_pollen_loss": {
+      "range": [
+        1576.8072,
+        15768.072
+      ]
+    },
+    "layer4_openai": 10350000,
+    "layer5_downstream": 10000000,
+    "banks_rico": 138000000,
+    "kevin_personal": 1000000,
+    "total_conservative": 159704971.8072,
+    "total_medium": 163597906.8072,
+    "total_aggressive": 201829068.072,
+    "pi_ceiling": 4712388980384.689,
+    "pi_split": {
+      "kevin": 23163827.62483145,
+      "gaia": 140434079.18236858,
+      "per_child": 13854.98018768435
+    }
   }
 }
