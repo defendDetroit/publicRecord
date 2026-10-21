@@ -99,9 +99,10 @@
         "giscus",
         "agentReagents",
         "benchScale",
-        "wireguard-tools"
+        "wireguard-tools",
+        ".github"
       ],
-      "count": 34
+      "count": 35
     },
     "syntheticChemistry": {
       "type": "organization",
@@ -119,9 +120,10 @@
         "airSpring",
         "benchScale",
         "coralForge",
-        "ionChannel"
+        "ionChannel",
+        ".github"
       ],
-      "count": 13
+      "count": 14
     },
     "defendDetroit": {
       "type": "organization",
@@ -165,14 +167,15 @@
       "repos": [
         "guerillaGorilla",
         "footPrint",
-        "tideGlass"
+        "tideGlass",
+        ".github"
       ],
-      "count": 3
+      "count": 4
     }
   },
   "totals": {
     "organizations": 7,
-    "unique_repos": 68,
+    "unique_repos": 69,
     "public_repos": 0,
     "private_repos": 0
   },
@@ -253,14 +256,15 @@
     "forked": {
       "description": "Forked infrastructure we maintain",
       "members": [
-        "forgejo",
+        "models",
+        "brainchip_devhub",
+        "rustChip",
         "caddy",
+        "rustdesk",
         "zola",
         "giscus",
-        "rustdesk",
         "wireguard-tools",
-        "brainchip_devhub",
-        "models"
+        "forgejo"
       ]
     },
     "experimental": {
@@ -279,5 +283,31 @@
         "lansingPride"
       ]
     }
+  },
+  "flags": {
+    "personal_forks": [
+      "models",
+      "brainchip_devhub",
+      "rustChip"
+    ],
+    "org_forks": [
+      "caddy",
+      "rustdesk",
+      "zola",
+      "giscus",
+      "wireguard-tools",
+      "forgejo"
+    ],
+    "private": [
+      "bluegate-tenancy",
+      "lansingPride",
+      "mi7-brief",
+      "defendDetroit",
+      "ionChannel",
+      "coralForge"
+    ],
+    "archived": [
+      "ionChannel"
+    ]
   }
 }
