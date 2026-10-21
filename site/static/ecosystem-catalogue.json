@@ -1,0 +1,283 @@
+{
+  "generated": "2026-10-21T00:30:14Z",
+  "wave": 194,
+  "description": "Complete catalogue of all GitHub organizations and repositories. The full fossil record.",
+  "organizations": {
+    "ecoPrimal": {
+      "type": "personal",
+      "role": "primary development account",
+      "repos": [
+        "agentReagents",
+        "airSpring",
+        "barraCuda",
+        "bearDog",
+        "benchScale",
+        "bingoCube",
+        "biomeOS",
+        "blueFish",
+        "bluegate-tenancy",
+        "brainchip_devhub",
+        "cellMembrane",
+        "coralForge",
+        "coralReef",
+        "detroit",
+        "ecoPrimal",
+        "esotericWebb",
+        "footPrint",
+        "fossilRecord",
+        "groundSpring",
+        "healthSpring",
+        "helixVision",
+        "hotSpring",
+        "hud",
+        "initioChem",
+        "lansingPride",
+        "lithoSpore",
+        "loamSpine",
+        "ludoSpring",
+        "metalForge",
+        "models",
+        "nestGate",
+        "neuralSpring",
+        "opsonize-rs",
+        "petalTongue",
+        "plasmidBin",
+        "primalSpring",
+        "projectFOUNDATION",
+        "projectNUCLEUS",
+        "rhizoCrypt",
+        "rustChip",
+        "skunkBat",
+        "songBird",
+        "sourDough",
+        "sporePrint",
+        "squirrel",
+        "swarmVine",
+        "sweetGrass",
+        "tideGlass",
+        "toadStool",
+        "wateringHole",
+        "wetSpring",
+        "whitePaper"
+      ],
+      "count": 52
+    },
+    "ecoPrimals": {
+      "type": "organization",
+      "role": "canonical deployment \u2014 the membrane's own org",
+      "repos": [
+        "wateringHole",
+        "toadStool",
+        "petalTongue",
+        "coralReef",
+        "sweetGrass",
+        "nestGate",
+        "rhizoCrypt",
+        "loamSpine",
+        "songBird",
+        "bearDog",
+        "barraCuda",
+        "squirrel",
+        "skunkBat",
+        "whitePaper",
+        "plasmidBin",
+        "cellMembrane",
+        "forgejo",
+        "sporePrint",
+        "primalSpring",
+        "hypothesis",
+        "signal",
+        "fossilRecord",
+        "biomeOS",
+        "projectFOUNDATION",
+        "bingoCube",
+        "sourDough",
+        "caddy",
+        "rustdesk",
+        "zola",
+        "swarmVine",
+        "giscus",
+        "agentReagents",
+        "benchScale",
+        "wireguard-tools"
+      ],
+      "count": 34
+    },
+    "syntheticChemistry": {
+      "type": "organization",
+      "role": "upstream mirrors \u2014 the lab bench",
+      "repos": [
+        "rustChip",
+        "agentReagents",
+        "primalSpring",
+        "wetSpring",
+        "hotSpring",
+        "neuralSpring",
+        "ludoSpring",
+        "healthSpring",
+        "groundSpring",
+        "airSpring",
+        "benchScale",
+        "coralForge",
+        "ionChannel"
+      ],
+      "count": 13
+    },
+    "defendDetroit": {
+      "type": "organization",
+      "role": "the investigation \u2014 public record",
+      "repos": [
+        "publicRecord"
+      ],
+      "count": 1
+    },
+    "amicusContra": {
+      "type": "organization",
+      "role": "the defense \u2014 amicus curiae",
+      "repos": [
+        "tuebor",
+        "lansing",
+        "clutch",
+        "mi7-brief",
+        "defendDetroit"
+      ],
+      "count": 5
+    },
+    "sporeGarden": {
+      "type": "organization",
+      "role": "the gardens \u2014 frontends and experiments",
+      "repos": [
+        "cellMembrane",
+        "projectNUCLEUS",
+        "lithoSpore",
+        "esotericWebb",
+        "projectFOUNDATION",
+        "initioChem",
+        "metalForge",
+        "helixVision",
+        "blueFish"
+      ],
+      "count": 9
+    },
+    "protoKarya": {
+      "type": "organization",
+      "role": "the footprint \u2014 tools and experiments",
+      "repos": [
+        "guerillaGorilla",
+        "footPrint",
+        "tideGlass"
+      ],
+      "count": 3
+    }
+  },
+  "totals": {
+    "organizations": 7,
+    "unique_repos": 68,
+    "public_repos": 0,
+    "private_repos": 0
+  },
+  "taxonomy": {
+    "primals": {
+      "description": "Living organisms \u2014 the core services",
+      "members": [
+        "barraCuda",
+        "bearDog",
+        "bingoCube",
+        "biomeOS",
+        "coralReef",
+        "loamSpine",
+        "nestGate",
+        "petalTongue",
+        "rhizoCrypt",
+        "skunkBat",
+        "songBird",
+        "sourDough",
+        "squirrel",
+        "sweetGrass",
+        "toadStool"
+      ]
+    },
+    "springs": {
+      "description": "Application layers \u2014 the experiences",
+      "members": [
+        "airSpring",
+        "groundSpring",
+        "healthSpring",
+        "hotSpring",
+        "ludoSpring",
+        "neuralSpring",
+        "primalSpring",
+        "wetSpring"
+      ]
+    },
+    "gardens": {
+      "description": "Frontend interfaces \u2014 the faces",
+      "members": [
+        "esotericWebb",
+        "lithoSpore",
+        "projectFOUNDATION"
+      ]
+    },
+    "infra": {
+      "description": "Infrastructure backbone",
+      "members": [
+        "plasmidBin",
+        "sporePrint",
+        "wateringHole",
+        "whitePaper",
+        "cellMembrane",
+        "fossilRecord"
+      ]
+    },
+    "tools": {
+      "description": "Specialized tooling",
+      "members": [
+        "agentReagents",
+        "benchScale",
+        "ionChannel",
+        "rustChip",
+        "opsonize-rs",
+        "projectNUCLEUS"
+      ]
+    },
+    "investigation": {
+      "description": "The investigation and defense",
+      "members": [
+        "publicRecord",
+        "tuebor",
+        "lansing",
+        "clutch",
+        "detroit"
+      ]
+    },
+    "forked": {
+      "description": "Forked infrastructure we maintain",
+      "members": [
+        "forgejo",
+        "caddy",
+        "zola",
+        "giscus",
+        "rustdesk",
+        "wireguard-tools",
+        "brainchip_devhub",
+        "models"
+      ]
+    },
+    "experimental": {
+      "description": "Gardens and experiments",
+      "members": [
+        "guerillaGorilla",
+        "footPrint",
+        "tideGlass",
+        "swarmVine",
+        "helixVision",
+        "blueFish",
+        "metalForge",
+        "initioChem",
+        "coralForge",
+        "bluegate-tenancy",
+        "lansingPride"
+      ]
+    }
+  }
+}
