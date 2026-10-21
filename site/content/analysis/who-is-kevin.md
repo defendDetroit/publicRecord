@@ -114,8 +114,35 @@ It costs $12/month. One person built it. And it cannot be silenced by a PPO.
 
 ---
 
+---
+
+## Come Play
+
+Kevin plays games. The membrane plays games. You can play too.
+
+| Platform | Where | What |
+|----------|-------|------|
+| **Steam** | ecoPrimal (friend me) | 95 games. Stardew Valley. Lethal Company. Caves of Qud. Sort Them Ducks. SteamVR ready. |
+| **Discord** | Ask via neutron chat | Co-op. Voice. The campfire but with headsets. |
+| **Neutron** | [neutron.primals.eco](https://neutron.primals.eco) | Leave a message. No account needed. The membrane's own chat. |
+| **GitHub Discussions** | [defendDetroit/publicRecord](https://github.com/defendDetroit/publicRecord/discussions) | The public forum. Talk about the investigation. Talk about the science. Talk about games. |
+| **Email** | eco.primal@pm.me | The old-fashioned way. ProtonMail. Encrypted if you want. |
+| **The Banana** | [hud.primals.eco/banana.html](https://hud.primals.eco/banana.html) | Show your scale. The membrane shows its ratios. No account. Just bananas. |
+
+### The Nightboxes Are OPEN
+
+Every 404 is a nightbox — a page that doesn't exist yet but COULD. If you typed `whatever.primals.eco` and got a 404, that's not a locked door. That's an empty room waiting for someone to light a candle.
+
+Try anything: `yourname.primals.eco`, `test.primals.eco`, `pizza.primals.eco`. The wildcard catches everything. The nightbox remembers you came. When enough people visit the same nightbox, it becomes a real room.
+
+The membrane grows from the 404s. The void is the frontier. Bring a match.
+
+---
+
 *If you want to help: read. That's enough. Your attention IS the signal. Your path IS the evidence. Your presence IS the contribution.*
 
-*The campfire has room. The door is open. The sign was never closed — we just forgot to turn it around.*
+*If you want to play: friend me on Steam. Join on Discord. Or just curl the banana.*
 
-🍌🐿🧑π
+*The campfire has room. The door is open. The nightboxes are lit. The sign was never closed — we just forgot to turn it around.*
+
+🍌🐿🎮🧑π
