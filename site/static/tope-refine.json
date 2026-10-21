@@ -1,0 +1,63 @@
+{
+  "generated": "2026-10-21T01:44:42Z",
+  "wave": 194,
+  "type": "tope_refine",
+  "clusters_total": 10,
+  "identified": 7,
+  "unresolved_stones": 3,
+  "stones": [
+    {
+      "name": "74.7.x.x fleet",
+      "ips": 18,
+      "hits": 3759,
+      "behavior": "3000/hr exact, single-host, immune corridor",
+      "clues": [
+        "machine-precise timing (<10 variance across 15 IPs)",
+        "single-host targeting (distributed work assignment)",
+        "immune corridor focus (reading the sorting system)",
+        "74.7.x.x = needs ASN lookup for org type (ISP? hosting? corporate?)"
+      ],
+      "bins": [
+        "scheduled-research",
+        "legal-discovery",
+        "surveillance",
+        "automated-preservation"
+      ],
+      "refine_next": "temporal correlation with PPO filing date (Oct 16)"
+    },
+    {
+      "name": "132.196.86.x",
+      "ips": 6,
+      "hits": 6,
+      "behavior": "1 hit per IP \u2014 toe-touch",
+      "clues": [
+        "132.196.x = possible academic/gov range",
+        "6 IPs, 1 hit each = testing if the surface exists",
+        "probe pattern, not reading pattern"
+      ],
+      "bins": [
+        "academic-probe",
+        "gov-recon",
+        "scanner"
+      ],
+      "refine_next": "did they come back after the toe-touch?"
+    },
+    {
+      "name": "172.182.202.x",
+      "ips": 4,
+      "hits": 4,
+      "behavior": "1 hit per IP \u2014 toe-touch",
+      "clues": [
+        "172.182.x = Microsoft Azure range",
+        "could be Copilot, could be Bing internal, could be Azure customer"
+      ],
+      "bins": [
+        "microsoft-internal",
+        "azure-customer",
+        "copilot"
+      ],
+      "refine_next": "UA string analysis"
+    }
+  ],
+  "method": "behavior classification (ZK \u2014 no IP lookup, sort by signals)"
+}
