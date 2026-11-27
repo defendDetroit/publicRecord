@@ -458,7 +458,7 @@
     { source: 'sdj', target: 'johnson_l', type: 'money', label: 'funded 2021 campaign vs. Elrick', flow: 'money', amount: null },
     { source: 'holland', target: 'right_turn', type: 'controls', label: 'President + Director', flow: 'position', amount: null },
     { source: 'ross', target: 'right_turn', type: 'controls', label: 'Treasurer + Director', flow: 'position', amount: null },
-    { source: 'banks', target: 'right_turn', type: 'controls', label: 'controlled via email (BBesq06@aol.com)', flow: 'power', amount: null },
+    { source: 'banks', target: 'right_turn', type: 'controls', label: 'controlled via email (BBesq06@[withheld])', flow: 'power', amount: null },
     { source: 'pacs', target: 'right_turn', type: 'money', label: 'PAC transfers', flow: 'money', amount: null },
     { source: 'ross', target: 'ross_catering', type: 'associate', label: 'treasurer + vendor (self-dealing)', flow: 'money', amount: null },
     { source: 'pacs', target: 'ross_catering', type: 'money', label: '$35K+ campaign payments', flow: 'money', amount: 35000 },
@@ -604,7 +604,7 @@
       members: ['right_turn', 'ross', 'ross_catering'],
       color: 'rgba(211,84,0,0.10)',
       stroke: 'rgba(211,84,0,0.4)',
-      note: 'Ross = charity treasurer + connected to vendor paid $35K by PACs. BBesq06@aol.com = Banks\'s email.'
+      note: 'Ross = charity treasurer + connected to vendor paid $35K by PACs. BBesq06@[withheld] = Banks\'s email.'
     },
     {
       id: 'kilpatrick_orbit',
